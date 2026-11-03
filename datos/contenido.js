@@ -574,7 +574,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2007-5825.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 37, 42 a 49, 90 a 98, 99 a 106, 118 a 127, 128 a 130, 133 a 139, 140 a 144, 248 y 249 en el texto del PDF. Resto del articulado pendiente. Verificados también arts. 91 a 98 en el texto del PDF. Verificados también arts. 225 a 237 en el texto del PDF (algunos por su rúbrica)."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 37, 42 a 49, 90 a 98, 99 a 106, 118 a 127, 128 a 130, 133 a 139, 140 a 144, 248 y 249 en el texto del PDF. Resto del articulado pendiente. Verificados también arts. 91 a 98 en el texto del PDF. Verificados también arts. 225 a 237 en el texto del PDF (algunos por su rúbrica). Verificados también arts. 47.3 y 47.4 en el texto del PDF."
   },
   "LPAC": {
    "id": "LPAC",
@@ -585,7 +585,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2015-10565.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 a 6, 47.1, 128, 129, 131, 132 (con la anotación de la STC 55/2018) y 133 en el texto del PDF. Resto pendiente. Verificados también arts. 47, 48, 106 a 126 en el texto del PDF."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 a 6, 47.1, 128, 129, 131, 132 (con la anotación de la STC 55/2018) y 133 en el texto del PDF. Resto pendiente. Verificados también arts. 47, 48, 106 a 126 en el texto del PDF. Verificados también arts. 64, 67, 81, 82, 85, 89, 90 y 91.3 en el texto del PDF."
   },
   "LRJSP": {
    "id": "LRJSP",
@@ -596,7 +596,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2015-10566.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 y 4 y 6.1 en el texto del PDF. Resto pendiente."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 y 4 y 6.1 en el texto del PDF. Resto pendiente. Verificados también arts. 25 a 36 en el texto del PDF."
   },
   "LCSP": {
    "id": "LCSP",
@@ -607,7 +607,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2017-12902.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1.1, 13.1, 14.1, 116 a 128 (salvo 125-128 en parte), 132.1, 145.1, 146.1, 190, 192 a 198 (198.1 a 198.4), 233.1 (letras c y d), 236 a 246 (incluidos 240.1 y 240.2, 241.1 a 241.3, 242.2 a 242.4, 243.1 a 243.3, 244.1 y 245 a 246.4), 62.1 y 62.2, 231 a 236, 118 a 120 y 233.4 en el texto del PDF. Pendientes: resto de articulado, RD 1098/2001 (relaciones valoradas, certificaciones y partidas alzadas, no incluido en el repositorio) y el alcance de la STC 68/2021 sobre el art. 242.3 (inciso no identificado). Verificados también arts. 1, 3, 12, 13, 25 a 28, 36, 38 a 42, 44.1, 61, 62.1, 65, 71.1.a, 74, 116.1 a 116.3, 145.1 y 145.2, 150.1, 153.1, 158.1 y 158.2, 203 a 213 (texto del PDF)."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1.1, 13.1, 14.1, 116 a 128 (salvo 125-128 en parte), 132.1, 145.1, 146.1, 190, 192 a 198 (198.1 a 198.4), 233.1 (letras c y d), 236 a 246 (incluidos 240.1 y 240.2, 241.1 a 241.3, 242.2 a 242.4, 243.1 a 243.3, 244.1 y 245 a 246.4), 62.1 y 62.2, 231 a 236, 118 a 120 y 233.4 en el texto del PDF. Pendientes: resto de articulado, RD 1098/2001 (relaciones valoradas, certificaciones y partidas alzadas, no incluido en el repositorio) y el alcance de la STC 68/2021 sobre el art. 242.3 (inciso no identificado). Verificados también arts. 1, 3, 12, 13, 25 a 28, 36, 38 a 42, 44.1, 61, 62.1, 65, 71.1.a, 74, 116.1 a 116.3, 145.1 y 145.2, 150.1, 153.1, 158.1 y 158.2, 203 a 213 (texto del PDF). Verificado también el art. 196.1 y 196.2 en el texto del PDF."
   },
   "LTBG": {
    "id": "LTBG",
@@ -674,6 +674,17 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
    "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1, 2, 3, 4, 5.1, 8.1, 25, 26, 45 y 46 en el texto del PDF. Resto pendiente (incluidos arts. 10 a 12 sobre competencias de salas y tribunales)."
+  },
+  "LEF": {
+   "id": "LEF",
+   "nombre": "Ley de Expropiación Forzosa",
+   "referencia": "Ley de 16 de diciembre de 1954 sobre expropiación forzosa (BOE núm. 351, de 17 de diciembre de 1954)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1954-15431",
+   "boe_id": "BOE-A-1954-15431",
+   "pdf": "leyes/BOE-A-1954-15431.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 9 a 27, 33 a 36, 43.1 y 43.2.a, 52 a 55 y 58 en el texto del PDF. El texto refleja la redacción del BOE; referencias a autoridades (Gobernador civil, Jurado) deben leerse con la normativa posterior. Pendientes: Reglamento de expropiación forzosa, ley del suelo (valoración de inmuebles, art. 43.2.a), Título III (procedimientos especiales) y Título V."
   }
  },
  "contenido": {
@@ -6425,6 +6436,907 @@ window.DATOS_ESTUDIO = {
      "nombre": "Ley 9/2017, de Contratos del Sector Público (texto consolidado, BOE)",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
      "pdf": "leyes/BOE-A-2017-12902.pdf"
+    }
+   ]
+  },
+  "c17": {
+   "resumen": [
+    {
+     "titulo": "Fundamento y requisitos",
+     "puntos": [
+      "El artículo 106.2 CE reconoce la indemnización por toda lesión que sufran los particulares en sus bienes y derechos, derivada del funcionamiento de los servicios públicos, salvo fuerza mayor.",
+      "El daño debe ser efectivo, evaluable económicamente e individualizado (art. 32.2 LRJSP). La anulación de un acto no presupone por sí misma indemnización (art. 32.1 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "Límites e indemnización",
+     "puntos": [
+      "No son indemnizables los daños que el particular tenga el deber jurídico de soportar, ni los que no se pudieron prever según el estado de la ciencia y la técnica (art. 34.1 LRJSP).",
+      "La indemnización se calcula a la fecha de la lesión y se actualiza hasta el fin del procedimiento; puede sustituirse por compensación en especie con acuerdo del interesado (arts. 34.3 y 34.4 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "Procedimiento de responsabilidad",
+     "puntos": [
+      "La reclamación prescribe al año de producido el hecho o de manifestarse el efecto lesivo (art. 67.1 LPAC). El servicio informa en diez días y se da audiencia (arts. 81.1 y 82.1 LPAC).",
+      "El dictamen del Consejo de Estado es preceptivo con indemnizaciones de 50.000 euros o más, sin perjuicio de la legislación autonómica (art. 81.2 LPAC). El silencio tras seis meses puede entenderse contrario a la indemnización (art. 91.3 LPAC)."
+     ]
+    },
+    {
+     "titulo": "Autoridades, personal y contratistas",
+     "puntos": [
+      "El particular reclama a la Administración, que exige de oficio al personal la responsabilidad por dolo o culpa o negligencia graves (art. 36 LRJSP).",
+      "El contratista responde de los daños a terceros; la Administración responde por órdenes directas y vicios del proyecto (art. 196 LCSP). El artículo 35 LRJSP extiende el régimen a las relaciones de derecho privado."
+     ]
+    },
+    {
+     "titulo": "Potestad sancionadora: principios",
+     "puntos": [
+      "Solo puede ejercerse si una ley la reconoce, con el procedimiento previsto (art. 25 LRJSP). Principios de irretroactividad, tipicidad, culpabilidad y proporcionalidad (arts. 26 a 29 LRJSP).",
+      "Las normas sancionadoras no admiten aplicación analógica (art. 27.4 LRJSP). Las infracciones prescriben a los tres, dos y seis meses según sean muy graves, graves o leves (art. 30.1 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "Procedimiento sancionador",
+     "puntos": [
+      "El acuerdo de iniciación contiene responsables, hechos, instructor, órgano competente y medidas provisionales (art. 64.2 LPAC).",
+      "El reconocimiento de responsabilidad o el pago voluntario terminan el procedimiento (art. 85 LPAC). La resolución valora las pruebas y fija hechos, responsables y sanción (art. 90 LPAC)."
+     ]
+    },
+    {
+     "titulo": "Competencias de la Junta de Andalucía",
+     "puntos": [
+      "La Junta tiene competencia compartida en responsabilidad patrimonial, para determinar el procedimiento y los supuestos (art. 47.4 EA).",
+      "Tiene potestades de control, inspección y sanción en sus ámbitos materiales de competencia (art. 47.1.3.ª EA)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CE",
+     "rol": "Fundamento de la responsabilidad patrimonial (art. 106.2)"
+    },
+    {
+     "id": "LRJSP",
+     "rol": "Norma principal del tema (arts. 25 a 36)"
+    },
+    {
+     "id": "LPAC",
+     "rol": "Complementaria: procedimiento de responsabilidad y sancionador (arts. 64, 67, 81, 82, 85, 89, 90 y 91)"
+    },
+    {
+     "id": "LCSP",
+     "rol": "Complementaria: responsabilidad del contratista (art. 196)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Complementaria: competencias de la Junta (art. 47.1.3.ª y 47.4)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 106.2 CE, ¿de qué lesión deriva el derecho a indemnización del particular?",
+     "opciones": [
+      "De la lesión que sufra en sus bienes y derechos como consecuencia del funcionamiento de los servicios públicos",
+      "Solo de los daños causados por funcionarios con dolo",
+      "Solo de las expropiaciones",
+      "De cualquier daño, aunque no lo cause la Administración"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 106.2 CE reconoce la indemnización por toda lesión en bienes y derechos que sea consecuencia del funcionamiento de los servicios públicos, salvo fuerza mayor.",
+     "referencia": "Art. 106.2 CE"
+    },
+    {
+     "pregunta": "Según el art. 32.2 LRJSP, ¿cuál NO es un requisito del daño indemnizable?",
+     "opciones": [
+      "Que sea efectivo",
+      "Que sea evaluable económicamente",
+      "Que sea de carácter general para toda la sociedad",
+      "Que sea individualizado"
+     ],
+     "correcta": 2,
+     "explicacion": "El daño debe ser efectivo, evaluable económicamente e individualizado con relación a una persona o grupo. Un daño general para toda la sociedad no cumple el requisito de individualización.",
+     "referencia": "Art. 32.2 LRJSP"
+    },
+    {
+     "pregunta": "Según el art. 67.1 LPAC, ¿en qué plazo prescribe el derecho a reclamar la responsabilidad patrimonial?",
+     "opciones": [
+      "Cinco años",
+      "Un mes",
+      "Seis meses",
+      "Un año desde el hecho o desde que se manifieste su efecto lesivo"
+     ],
+     "correcta": 3,
+     "explicacion": "El derecho a reclamar prescribe al año de producido el hecho o de manifestarse su efecto lesivo. En daños físicos, el plazo se cuenta desde la curación o la determinación de las secuelas.",
+     "referencia": "Art. 67.1 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 91.3 LPAC, ¿qué ocurre si transcurren seis meses sin resolución expresa en un procedimiento de responsabilidad patrimonial?",
+     "opciones": [
+      "La reclamación queda automáticamente estimada",
+      "Se puede entender que la resolución es contraria a la indemnización",
+      "El procedimiento se reinicia",
+      "Se paraliza hasta nueva orden"
+     ],
+     "correcta": 1,
+     "explicacion": "Transcurridos seis meses sin resolución expresa, puede entenderse que la resolución es contraria a la indemnización del particular.",
+     "referencia": "Art. 91.3 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 81.2 LPAC, ¿a partir de qué cuantía es preceptivo el dictamen del Consejo de Estado en responsabilidad patrimonial, sin perjuicio de la legislación autonómica?",
+     "opciones": [
+      "50.000 euros",
+      "100.000 euros",
+      "10.000 euros",
+      "25.000 euros"
+     ],
+     "correcta": 0,
+     "explicacion": "Cuando la indemnización reclamada sea igual o superior a 50.000 euros, o a la cuantía de la legislación autonómica, es preceptivo el dictamen del Consejo de Estado u órgano equivalente.",
+     "referencia": "Art. 81.2 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 36.2 LRJSP, ¿qué debe hacer la Administración que ha indemnizado a un particular por la actuación de su personal?",
+     "opciones": [
+      "Pagar también la sanción al personal",
+      "Nada, la responsabilidad recae solo en el particular",
+      "Exigir de oficio al personal la responsabilidad por dolo o culpa o negligencia graves, previa instrucción",
+      "Exigir la responsabilidad solo en vía penal"
+     ],
+     "correcta": 2,
+     "explicacion": "La Administración que ha indemnizado debe exigir de oficio la responsabilidad de su personal por dolo o culpa o negligencia graves, previa instrucción del procedimiento.",
+     "referencia": "Art. 36.2 LRJSP"
+    },
+    {
+     "pregunta": "Según el art. 30.1 LRJSP, ¿en qué plazo prescriben las infracciones muy graves si la ley no fija otro?",
+     "opciones": [
+      "Seis meses",
+      "Un año",
+      "Dos años",
+      "Tres años"
+     ],
+     "correcta": 3,
+     "explicacion": "Si las leyes no fijan plazos, las infracciones muy graves prescriben a los tres años, las graves a los dos años y las leves a los seis meses.",
+     "referencia": "Art. 30.1 LRJSP"
+    },
+    {
+     "pregunta": "Según el art. 28.1 LRJSP, ¿qué exige la ley para sancionar?",
+     "opciones": [
+      "Solo que el hecho esté prohibido por un reglamento",
+      "Que el responsable lo sea a título de dolo o culpa",
+      "Que haya daño económico",
+      "Una denuncia del particular"
+     ],
+     "correcta": 1,
+     "explicacion": "Solo pueden ser sancionados quienes resulten responsables de los hechos a título de dolo o culpa.",
+     "referencia": "Art. 28.1 LRJSP"
+    },
+    {
+     "pregunta": "Según el art. 64.2 LPAC, ¿qué debe contener como mínimo el acuerdo de iniciación del procedimiento sancionador?",
+     "opciones": [
+      "La cuantía de la multa definitiva",
+      "Solo la firma del órgano",
+      "Responsables, hechos y calificación, instructor, órgano competente y medidas provisionales",
+      "La sentencia que fundamenta la sanción"
+     ],
+     "correcta": 2,
+     "explicacion": "El acuerdo de iniciación debe contener, al menos, la identificación de los responsables, los hechos y su calificación, el instructor, el órgano competente y las medidas provisionales acordadas.",
+     "referencia": "Art. 64.2 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 47.4 del Estatuto de Autonomía para Andalucía, ¿qué tipo de competencia tiene la Junta en materia de responsabilidad patrimonial?",
+     "opciones": [
+      "Compartida, para determinar el procedimiento y los supuestos",
+      "Inexistente",
+      "Ejecutiva, sin límites",
+      "Exclusiva"
+     ],
+     "correcta": 0,
+     "explicacion": "La Junta de Andalucía tiene competencia compartida para determinar el procedimiento y los supuestos de responsabilidad, de acuerdo con el sistema general de responsabilidad de todas las Administraciones.",
+     "referencia": "Art. 47.4 EA Andalucía"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. La base constitucional de la responsabilidad patrimonial",
+     "parrafos": [
+      "El artículo 106.2 de la Constitución reconoce el derecho de los particulares a ser indemnizados por toda lesión que sufran en cualquiera de sus bienes y derechos, salvo en los casos de fuerza mayor, siempre que la lesión sea consecuencia del funcionamiento de los servicios públicos. Es el fundamento de la responsabilidad patrimonial de todas las Administraciones.",
+      "La responsabilidad patrimonial no es subjetiva en el sentido civil: no se exige que el funcionario haya actuado con culpa para que la Administración responda frente al particular. Lo que importa es que haya una lesión y que esta sea consecuencia del funcionamiento del servicio. Por eso la responsabilidad se llama también objetiva.",
+      "Para un examen, la pregunta de partida es si la lesión es consecuencia del funcionamiento del servicio público y si el particular no tenía el deber de soportarla."
+     ]
+    },
+    {
+     "titulo": "2. La regulación legal: LRJSP y LPAC",
+     "parrafos": [
+      "La regulación básica está en la Ley 40/2015, de Régimen Jurídico del Sector Público (LRJSP), en sus artículos 32 a 37. El principio general está en el artículo 32, y la valoración de la indemnización en el artículo 34. El procedimiento está en la Ley 39/2015 (LPAC), en los artículos 65 a 67, 81 a 82 y 91 a 92.",
+      "La competencia de la Comunidad Autónoma de Andalucía se apoya en el Estatuto de Autonomía, cuyo artículo 47.4 atribuye a la Junta de Andalucía la competencia compartida en materia de responsabilidad patrimonial. El estatuto no sustituye la regulación básica estatal.",
+      "Para un examen, la pregunta típica es qué norma regula el fondo y cuál el procedimiento. Respuesta: el fondo, en la LRJSP (arts. 32 a 37); el procedimiento, en la LPAC (arts. 65 a 67 y 81 a 92)."
+     ]
+    },
+    {
+     "titulo": "3. El principio general: lesión y funcionamiento del servicio",
+     "parrafos": [
+      "El artículo 32.1 LRJSP establece que los particulares tienen derecho a ser indemnizados por las Administraciones Públicas de toda lesión que sufran en cualquiera de sus bienes y derechos, siempre que sea consecuencia del funcionamiento normal o anormal de los servicios públicos. Quedan excluidos los casos de fuerza mayor y los daños que el particular tenga el deber jurídico de soportar de acuerdo con la ley.",
+      "El mismo precepto añade que la anulación en vía administrativa o contenciosa de un acto o disposición no presupone, por sí misma, derecho a indemnización. Anular un acto no basta: hay que probar la lesión y el nexo causal con el funcionamiento del servicio.",
+      "Para un examen, la diferencia básica es entre funcionamiento normal y anormal. Ambos generan responsabilidad si hay lesión, y lo que cambia es la prueba del nexo, no la existencia del derecho."
+     ]
+    },
+    {
+     "titulo": "4. Los requisitos del daño",
+     "parrafos": [
+      "El artículo 32.2 LRJSP exige que el daño alegado sea efectivo, evaluable económicamente e individualizado con relación a una persona o grupo de personas. Estos tres requisitos son acumulativos.",
+      "El daño efectivo excluye los daños hipotéticos o futuros no ciertos. El daño evaluable permite calcular la indemnización. El daño individualizado excluye las cargas generales que afectan por igual a toda la sociedad y no a un particular concreto.",
+      "Para un examen, la pregunta típica es si un daño general es indemnizable. Respuesta: no, si no es individualizado; la indemnización exige que el daño recaiga sobre una persona o grupo determinado."
+     ]
+    },
+    {
+     "titulo": "5. Los límites: deber de soportar y riesgo del progreso",
+     "parrafos": [
+      "El artículo 34.1 LRJSP establece que solo son indemnizables las lesiones que el particular no tenga el deber jurídico de soportar de acuerdo con la ley. El precepto también excluye los daños derivados de hechos que no se hubieran podido prever o evitar según el estado de los conocimientos de la ciencia o de la técnica en el momento de producirse.",
+      "Esa segunda excepción se conoce como riesgo del progreso o del desarrollo. Protege a la Administración cuando el daño no era previsible con los conocimientos existentes, sin perjuicio de las prestaciones asistenciales o económicas que las leyes establezcan.",
+      "Para un examen, el deber de soportar cubre cargas legítimas, como las de un urbanismo que impone limitaciones. La previsibilidad se mide con el estado de la ciencia y la técnica del momento del daño."
+     ]
+    },
+    {
+     "titulo": "6. Concurrencia de Administraciones y de causas",
+     "parrafos": [
+      "El artículo 33 LRJSP regula la responsabilidad concurrente. Si el daño deriva de fórmulas conjuntas de actuación entre varias Administraciones, todas responden frente al particular de forma solidaria. El instrumento jurídico de la actuación conjunta puede distribuir la responsabilidad entre ellas.",
+      "Si la concurrencia no deriva de una actuación conjunta, la responsabilidad se fija para cada Administración atendiendo a la competencia, al interés público tutelado y a la intensidad de la intervención. Si no es posible determinarla, la responsabilidad es solidaria (art. 33.2 LRJSP).",
+      "Para un examen, la regla es que la solidaridad es la excepción que se aplica cuando no se puede fijar la parte de cada una."
+     ]
+    },
+    {
+     "titulo": "7. Responsabilidad por actos legislativos y por la Administración de Justicia",
+     "parrafos": [
+      "El artículo 32.3 LRJSP reconoce la responsabilidad del Estado legislador cuando un acto legislativo de naturaleza no expropiatoria causa un daño que el particular no tenga el deber de soportar, si así se establece en la propia ley y en los términos que especifique.",
+      "El artículo 32.4 y 32.5 LRJSP regulan los supuestos de norma con rango de ley declarada inconstitucional o contraria al Derecho de la Unión Europea. En ambos casos el particular debe haber obtenido sentencia firme desestimatoria en un recurso contra la actuación que causó el daño, y haber alegado la inconstitucionalidad o la infracción posteriormente declarada.",
+      "El artículo 32.7 LRJSP remite la responsabilidad por el funcionamiento de la Administración de Justicia a la Ley Orgánica del Poder Judicial. Para un examen, la responsabilidad por la justicia no sigue el régimen de la LRJSP, sino el de la ley orgánica."
+     ]
+    },
+    {
+     "titulo": "8. La indemnización: valoración, actualización e intereses",
+     "parrafos": [
+      "El artículo 34.2 LRJSP establece que la indemnización se calcula con los criterios de valoración de la legislación fiscal, de expropiación forzosa y demás normas aplicables, ponderando en su caso las valoraciones predominantes en el mercado. En muerte o lesiones corporales puede tomarse como referencia el baremo de los seguros obligatorios y de la Seguridad Social.",
+      "El artículo 34.3 LRJSP dispone que la cuantía se calcula con referencia al día en que la lesión se produjo, y se actualiza a la fecha de terminación del procedimiento con el Índice de Garantía de la Competitividad. Los intereses por demora en el pago se exigen conforme a la Ley General Presupuestaria o a la norma autonómica equivalente.",
+      "Para un examen, la pregunta típica es con qué fecha se calcula el daño. Respuesta: con la del día en que se produjo, actualizada hasta el fin del procedimiento (art. 34.3 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "9. La indemnización en forma de compensación",
+     "parrafos": [
+      "El artículo 34.4 LRJSP permite sustituir la indemnización por una compensación en especie, o pagarla en pagos periódicos, cuando resulte más adecuado para lograr la reparación debida y convenga al interés público. Requiere acuerdo con el interesado.",
+      "Esa flexibilidad es una excepción a la regla de la indemnización en dinero. Para un examen, recuérdese que la compensación en especie necesita acuerdo del interesado y que debe ser la forma más adecuada para la reparación."
+     ]
+    },
+    {
+     "titulo": "10. El procedimiento de responsabilidad patrimonial",
+     "parrafos": [
+      "El artículo 67.1 LPAC establece que los interesados solo pueden solicitar el inicio del procedimiento si no ha prescrito su derecho a reclamar. El derecho prescribe al año de producido el hecho o acto que motiva la indemnización, o de manifestarse su efecto lesivo. En daños físicos o psíquicos, el plazo se cuenta desde la curación o la determinación del alcance de las secuelas.",
+      "El artículo 81.1 LPAC exige informe del servicio cuyo funcionamiento causó la presunta lesión, con plazo de emisión que no puede exceder de diez días. El artículo 82.1 LPAC impone el trámite de audiencia antes de redactar la propuesta de resolución.",
+      "Para un examen, la secuencia básica es: solicitud dentro del año, informe del servicio en diez días, audiencia, propuesta y resolución."
+     ]
+    },
+    {
+     "titulo": "11. El dictamen del Consejo de Estado y su umbral",
+     "parrafos": [
+      "El artículo 81.2 LPAC establece que, cuando las indemnizaciones reclamadas sean de cuantía igual o superior a 50.000 euros, o a la que fije la legislación autonómica, y en los casos que disponga la Ley Orgánica del Consejo de Estado, será preceptivo solicitar dictamen del Consejo de Estado o del órgano consultivo autonómico.",
+      "El órgano instructor, en diez días desde el fin de la audiencia, remite la propuesta de resolución al órgano que debe pedir el dictamen. Para un examen, el umbral de 50.000 euros es el que se pregunta con más frecuencia, aunque la comunidad autónoma puede rebajarlo.",
+      "Esta regla conecta con el tema c15, porque el dictamen previo también es un requisito en la revisión de oficio de la nulidad (art. 106.1 LPAC)."
+     ]
+    },
+    {
+     "titulo": "12. Plazo de resolución y efectos del silencio",
+     "parrafos": [
+      "El artículo 91.3 LPAC establece que, transcurridos seis meses desde el inicio del procedimiento sin que se notifique resolución expresa, puede entenderse que la resolución es contraria a la indemnización del particular. Es decir, el silencio opera en sentido desestimatorio.",
+      "Para un examen, la pregunta típica es qué ocurre si la Administración no resuelve en seis meses. Respuesta: el particular puede entender desestimada su reclamación (art. 91.3 LPAC).",
+      "El artículo 92 LPAC atribuye la competencia para resolver en la Administración General del Estado. Para las comunidades autónomas, la competencia la fijan sus normas, dentro de los principios de la LPAC."
+     ]
+    },
+    {
+     "titulo": "13. La responsabilidad de autoridades y personal",
+     "parrafos": [
+      "El artículo 36.1 LRJSP establece que, para hacer efectiva la responsabilidad patrimonial, los particulares se dirigen directamente a la Administración correspondiente y reclaman las indemnizaciones por los daños causados por sus autoridades y personal. El particular no tiene que demandar al funcionario.",
+      "El artículo 36.2 LRJSP obliga a la Administración que haya indemnizado a exigir de oficio, en vía administrativa, la responsabilidad de sus autoridades y personal por dolo, o culpa o negligencia graves, previa instrucción del procedimiento. Para cuantificarla se ponderan el resultado dañoso, el grado de culpabilidad, la responsabilidad profesional y la relación con el resultado.",
+      "El artículo 36.3 LRJSP extiende este procedimiento a las autoridades. Para un examen, la diferencia es clave: el particular reclama a la Administración; la Administración repite contra su personal por dolo o culpa grave."
+     ]
+    },
+    {
+     "titulo": "14. La responsabilidad por actos de concesionarios y contratistas",
+     "parrafos": [
+      "El artículo 196.1 LCSP establece que es obligación del contratista indemnizar todos los daños que se causen a terceros como consecuencia de las operaciones necesarias para ejecutar el contrato.",
+      "El artículo 196.2 LCSP dispone que, cuando los daños sean consecuencia inmediata y directa de una orden de la Administración, esta responde dentro de los límites de las leyes. También responde de los daños a terceros que se causen por vicios del proyecto en el contrato de obras, sin perjuicio de repetir contra el redactor.",
+      "El artículo 32.9 LRJSP remite el procedimiento de estos daños a la LPAC, con las especialidades de la LCSP. Para un examen, la regla es que el contratista responde por su propia actividad, y la Administración por las órdenes directas y los vicios del proyecto."
+     ]
+    },
+    {
+     "titulo": "15. La Administración y la actuación de sus concesionarios",
+     "parrafos": [
+      "El artículo 35 LRJSP establece que, cuando las Administraciones actúan directamente o a través de una entidad de derecho privado en relaciones de esta naturaleza, su responsabilidad se exige conforme a los artículos 32 y siguientes. Esto incluye los casos en que concurra un sujeto de derecho privado.",
+      "El artículo 2.d LJCA atribuye al orden contencioso-administrativo los actos de control o fiscalización que la Administración concedente dicta sobre los concesionarios de servicios públicos que ejercen potestades administrativas. Para un examen, la responsabilidad del concesionario frente al particular y el control de la Administración concedente se reparten entre el régimen civil o administrativo y el contencioso, según el caso.",
+      "La responsabilidad patrimonial del contratista de obras, sin embargo, se rige por el artículo 196 LCSP, que se ha visto en el apartado anterior."
+     ]
+    },
+    {
+     "titulo": "16. La competencia de la Junta de Andalucía en responsabilidad patrimonial",
+     "parrafos": [
+      "El artículo 47.4 del Estatuto de Autonomía para Andalucía, según la redacción de la Ley Orgánica 2/2007, atribuye a la Junta de Andalucía la competencia compartida para determinar el procedimiento y establecer los supuestos que pueden originar responsabilidad con relación a las reclamaciones dirigidas a ella, de acuerdo con el sistema general de responsabilidad de todas las Administraciones públicas.",
+      "El mismo precepto deja claro que la Junta debe respetar el sistema general. La Comunidad no puede crear un régimen de responsabilidad distinto del estatal, pero sí puede regular el procedimiento y concretar los supuestos dentro del marco común.",
+      "Para un examen, la pregunta típica es si la Junta tiene competencia exclusiva en responsabilidad patrimonial. Respuesta: no, es competencia compartida (art. 47.4 EA)."
+     ]
+    },
+    {
+     "titulo": "17. La potestad sancionadora: concepto y fundamento",
+     "parrafos": [
+      "La potestad sancionadora es la facultad de la Administración de imponer castigos por infracciones administrativas, con el fin de asegurar el cumplimiento de la ley. El artículo 25.1 LRJSP establece que solo puede ejercerse cuando una norma con rango de ley la reconozca expresamente, con el procedimiento previsto y conforme a la LRJSP y a la LPAC.",
+      "El artículo 25.2 LRJSP establece que su ejercicio corresponde a los órganos que la tengan atribuida expresamente por ley o reglamento. El artículo 25.3 extiende estas disposiciones a la potestad disciplinaria sobre el personal al servicio de la Administración.",
+      "El artículo 25.4 LRJSP excluye la aplicación de su capítulo a las relaciones de la Administración con quienes estén vinculados por la legislación de contratos del sector público o patrimonial. Para un examen, esta exclusión es frecuente: el incumplimiento de un contrato se resuelve con la LCSP, no con el régimen sancionador general."
+     ]
+    },
+    {
+     "titulo": "18. Principios: irretroactividad, tipicidad y culpabilidad",
+     "parrafos": [
+      "El artículo 26 LRJSP establece la irretroactividad: se aplican las disposiciones sancionadoras vigentes en el momento de producirse los hechos. Pero las disposiciones sancionadoras favorables al infractor sí tienen efecto retroactivo, incluso sobre las sanciones pendientes de cumplimiento.",
+      "El artículo 27 LRJSP exige el principio de tipicidad: solo constituyen infracciones las vulneraciones del ordenamiento previstas como tales por una ley. Las infracciones se clasifican en leves, graves y muy graves. Las normas que definen infracciones y sanciones no son susceptibles de aplicación analógica (art. 27.4 LRJSP).",
+      "El artículo 28.1 LRJSP exige culpabilidad: solo pueden ser sancionados quienes responden de los hechos a título de dolo o culpa. Para un examen, la pregunta típica es si la sanción puede imponerse sin dolo ni culpa. Respuesta: no."
+     ]
+    },
+    {
+     "titulo": "19. La proporcionalidad y la graduación de la sanción",
+     "parrafos": [
+      "El artículo 29.1 LRJSP prohíbe que las sanciones impliquen, directa o subsidiariamente, privación de libertad. El artículo 29.3 exige idoneidad, necesidad y adecuación a la gravedad del hecho, y enumera los criterios de graduación: culpabilidad o intencionalidad, continuidad, naturaleza de los perjuicios y reincidencia.",
+      "El artículo 29.4 LRJSP permite imponer la sanción en el grado inferior cuando la adecuación lo justifique. El artículo 29.5 dispone que, si una infracción lleva necesariamente a otra, se impone solo la sanción de la más grave. El artículo 29.6 define la infracción continuada.",
+      "Para un examen, el principio de proporcionalidad es la regla de la adecuación: la sanción debe ser la necesaria y proporcionada a la gravedad del hecho."
+     ]
+    },
+    {
+     "titulo": "20. Concurrencia y reparación del daño",
+     "parrafos": [
+      "El artículo 28.2 LRJSP establece que las responsabilidades administrativas son compatibles con la exigencia al infractor de la reposición de la situación alterada a su estado originario, y con la indemnización por los daños causados. La indemnización la determina y exige el órgano sancionador.",
+      "Si la indemnización no se paga en el plazo fijado, se procede por la vía de apremio del artículo 101 LPAC. El artículo 28.3 LRJSP establece la responsabilidad solidaria cuando la obligación corresponda a varias personas conjuntamente.",
+      "Para un examen, la sanción y la reposición del daño son compatibles. Por eso una resolución sancionadora puede imponer las dos cosas."
+     ]
+    },
+    {
+     "titulo": "21. La prescripción de infracciones y sanciones",
+     "parrafos": [
+      "El artículo 30.1 LRJSP establece que, si las leyes no fijan plazos, las infracciones muy graves prescriben a los tres años, las graves a los dos años y las leves a los seis meses. Las sanciones por faltas muy graves prescriben a los tres años, las graves a los dos años y las leves al año.",
+      "El artículo 30.2 LRJSP dispone que el plazo empieza a contarse desde que se cometió la infracción, y en las continuadas o permanentes desde que termina la conducta. La iniciación de un procedimiento sancionador, con conocimiento del interesado, interrumpe la prescripción y reinicia el plazo.",
+      "Para un examen, conviene recordar que el plazo de la infracción y el de la sanción son distintos, y que la interrupción solo se produce con el conocimiento del interesado."
+     ]
+    },
+    {
+     "titulo": "22. El procedimiento sancionador: iniciación",
+     "parrafos": [
+      "El artículo 64.1 LPAC establece que el acuerdo de iniciación se comunica al instructor, con traslado de las actuaciones, y se notifica a los interesados, entendiendo por tal al inculpado.",
+      "El artículo 64.2 LPAC exige que el acuerdo de iniciación contenga, al menos: la identificación de los presuntos responsables; los hechos, su posible calificación y las sanciones que podrían corresponder; la identificación del instructor, con el régimen de recusación; el órgano competente para resolver y la posibilidad de reconocer la responsabilidad; y las medidas provisionales acordadas.",
+      "Para un examen, la pregunta típica es qué contenido mínimo tiene el acuerdo de iniciación. Respuesta: responsables, hechos y calificación, instructor, órgano competente y medidas provisionales (art. 64.2 LPAC)."
+     ]
+    },
+    {
+     "titulo": "23. Terminación, propuesta y resolución",
+     "parrafos": [
+      "El artículo 85.1 LPAC permite resolver el procedimiento con la sanción que proceda si el infractor reconoce su responsabilidad. El artículo 85.2 LPAC dispone que, cuando la sanción sea pecuniaria, el pago voluntario antes de la resolución termina el procedimiento, salvo en la reposición de la situación alterada o en la indemnización.",
+      "El artículo 89.1 LPAC permite archivar sin propuesta de resolución cuando se pone de manifiesto la inexistencia de los hechos o que no resultan acreditados. El artículo 89 regula la propuesta de resolución en el resto de los casos.",
+      "El artículo 90.1 LPAC exige que la resolución sancionadora valore las pruebas, fije los hechos y el responsable, identifique la infracción y la sanción, o declare la no existencia de infracción. Para un examen, la resolución debe ser motivada y basarse en las pruebas practicadas."
+     ]
+    },
+    {
+     "titulo": "24. La potestad sancionadora de la Junta de Andalucía",
+     "parrafos": [
+      "El artículo 47.1.3.ª del Estatuto de Autonomía para Andalucía atribuye a la Comunidad Autónoma, como competencia exclusiva, las potestades de control, inspección y sanción en los ámbitos materiales de su competencia, en lo no afectado por el artículo 149.1.18.ª de la Constitución.",
+      "Esto significa que la Junta sanciona en las materias en que tiene competencia, dentro del marco de la legislación básica estatal, y que sus sanciones deben respetar los principios de la LRJSP y de la LPAC.",
+      "Para un examen, la pregunta típica es si la Junta puede sancionar. Respuesta: sí, en los ámbitos materiales de su competencia, con respeto a los principios del Derecho sancionador estatal."
+     ]
+    },
+    {
+     "titulo": "25. Errores frecuentes en el examen",
+     "parrafos": [
+      "Afirmar que la responsabilidad patrimonial exige culpa del funcionario. El artículo 106.2 CE y el artículo 32 LRJSP no lo exigen: basta la lesión y el nexo con el funcionamiento del servicio.",
+      "Confundir el plazo de reclamación de un año (art. 67.1 LPAC) con el plazo de resolución de seis meses (art. 91.3 LPAC).",
+      "Pensar que la anulación de un acto da derecho a indemnización. No lo da por sí misma (art. 32.1 LRJSP).",
+      "Confundir la prescripción de la infracción con la de la sanción. Tienen plazos distintos (art. 30 LRJSP).",
+      "Afirmar que la infracción puede sancionarse por analogía. Las normas sancionadoras no admiten aplicación analógica (art. 27.4 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "26. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué fundamenta la responsabilidad patrimonial? El artículo 106.2 de la Constitución: la lesión derivada del funcionamiento de los servicios públicos (art. 32.1 LRJSP).",
+      "¿Cuál es el plazo para reclamar? Un año desde el hecho o desde la manifestación del efecto lesivo (art. 67.1 LPAC).",
+      "¿Qué umbral exige el dictamen del Consejo de Estado? Cuantía igual o superior a 50.000 euros, sin perjuicio de la legislación autonómica (art. 81.2 LPAC).",
+      "¿Cuándo caduca la reclamación por falta de resolución? El silencio opera como desestimación tras seis meses (art. 91.3 LPAC).",
+      "¿Cuál es el plazo de prescripción de una infracción muy grave? Tres años, si la ley no fija otro (art. 30.1 LRJSP).",
+      "¿Qué debe contener el acuerdo de iniciación sancionadora? Responsables, hechos, instructor, órgano competente y medidas provisionales (art. 64.2 LPAC)."
+     ]
+    },
+    {
+     "titulo": "27. Casos prácticos",
+     "parrafos": [
+      "Caso 1: un vecino sufre daños por una obra municipal que se ejecutó sin señalización. La lesión deriva del funcionamiento del servicio y el vecino no tenía el deber de soportarla. Procede la reclamación, dentro del año (art. 67.1 LPAC), con informe del servicio (art. 81.1 LPAC).",
+      "Caso 2: una empresa es sancionada por una infracción grave en la que no hubo dolo ni culpa. La sanción no puede imponerse, porque el artículo 28.1 LRJSP exige dolo o culpa para ser sancionado.",
+      "Caso 3: la Administración indemniza a un vecino por la actuación de un funcionario con negligencia grave. Debe exigir de oficio al funcionario la responsabilidad, previa instrucción del procedimiento (art. 36.2 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "28. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema c14 sobre el procedimiento administrativo, porque el procedimiento de responsabilidad y el sancionador son procedimientos de la LPAC, con sus audiencias y plazos.",
+      "Se conecta con el tema c15 sobre revisión y recursos, porque la resolución de responsabilidad y la sancionadora son actos que pueden recurrirse, y con el tema c16 sobre contratos, porque la responsabilidad del contratista se rige por la LCSP (art. 196).",
+      "Se conecta también con el tema c18 sobre expropiación, porque la lesión por una privación de bienes es un supuesto específico de responsabilidad patrimonial, y el propio artículo 33.3 CE la regula."
+     ]
+    },
+    {
+     "titulo": "29. Claves para el examen",
+     "parrafos": [
+      "Fondo: artículo 106.2 CE y artículos 32 a 37 LRJSP. Procedimiento: artículos 65 a 67, 81 a 82 y 91 a 92 LPAC.",
+      "Requisitos del daño: efectivo, evaluable e individualizado (art. 32.2 LRJSP). Límites: deber de soportar y riesgo del progreso (art. 34.1 LRJSP).",
+      "Valoración: fecha de la lesión y actualización hasta el fin del procedimiento (art. 34.3 LRJSP).",
+      "Autoridades y personal: reclamación a la Administración y repetición por dolo o culpa grave (art. 36 LRJSP).",
+      "Potestad sancionadora: legalidad (art. 25), irretroactividad (art. 26), tipicidad (art. 27), culpabilidad (art. 28), proporcionalidad (art. 29), prescripción (art. 30) LRJSP.",
+      "Procedimiento sancionador: iniciación (art. 64 LPAC), terminación por reconocimiento o pago (art. 85), propuesta (art. 89) y resolución (art. 90) LPAC.",
+      "Junta de Andalucía: competencia compartida en responsabilidad (art. 47.4 EA) y potestad sancionadora en sus ámbitos (art. 47.1.3.ª EA)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 40/2015, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+     "pdf": "leyes/BOE-A-2015-10566.pdf"
+    },
+    {
+     "nombre": "Ley 39/2015, del Procedimiento Administrativo Común (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+     "pdf": "leyes/BOE-A-2015-10565.pdf"
+    },
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
+    }
+   ]
+  },
+  "c18": {
+   "resumen": [
+    {
+     "titulo": "Fundamento constitucional",
+     "puntos": [
+      "Nadie puede ser privado de sus bienes y derechos sino por causa justificada de utilidad pública o interés social, mediante indemnización y de conformidad con las leyes (art. 33.3 CE).",
+      "La función social de la propiedad delimita su contenido de acuerdo con las leyes (art. 33.2 CE)."
+     ]
+    },
+    {
+     "titulo": "Concepto, competencias de la Junta y sujetos",
+     "puntos": [
+      "La expropiación es la privación singular de la propiedad o de derechos patrimoniales acordada imperativamente, incluida la ocupación temporal (art. 1 LEF).",
+      "La Junta determina los supuestos y causas de la potestad expropiatoria, los criterios de valoración y crea su órgano de justiprecio (art. 47.3 EA). Son expropiantes el Estado, la provincia y el municipio (art. 2.1 LEF)."
+     ]
+    },
+    {
+     "titulo": "Causa y objeto",
+     "puntos": [
+      "Es indispensable la declaración previa de utilidad pública o interés social del fin (art. 9 LEF). En inmuebles, la utilidad pública se entiende implícita en los planes de obras y servicios (art. 10 LEF).",
+      "Se expropian solo los bienes estrictamente indispensables para el fin (art. 15 LEF)."
+     ]
+    },
+    {
+     "titulo": "Procedimiento general",
+     "puntos": [
+      "Relación de bienes, información pública de quince días y resolución de necesidad en veinte días (arts. 17, 18 y 20 LEF). El acuerdo de necesidad inicia el expediente (art. 21 LEF).",
+      "Recurso de alzada en diez días, resoluble en veinte; la adquisición amistosa puede convenirse en cualquier momento (arts. 22 y 24 LEF)."
+     ]
+    },
+    {
+     "titulo": "Justiprecio y valoración",
+     "puntos": [
+      "El justo precio se fija en pieza separada, con expediente individual para cada propietario (art. 26 LEF). El Jurado de expropiación decide con resolución motivada, recurrible solo en el contencioso (arts. 34 y 35 LEF).",
+      "Se valora el bien al iniciarse el expediente, sin plusvalías del proyecto ni mejoras posteriores no indispensables (art. 36 LEF)."
+     ]
+    },
+    {
+     "titulo": "Urgencia, pago y reversión",
+     "puntos": [
+      "La urgencia la acuerda el Consejo de Ministros con retención de crédito, y permite la ocupación inmediata tras el acta previa y las hojas de depósito (art. 52 LEF).",
+      "El acta de ocupación con el pago o la consignación es título para inscribir la transmisión (art. 53 LEF). La reversión exige solicitud en tres meses y restitución de la indemnización actualizada (arts. 54 y 55 LEF).",
+      "Si pasan cuatro años sin pagar el justo precio, debe volver a evaluarse (art. 58 LEF)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LEF",
+     "rol": "Norma principal del tema (arts. 1, 2, 9, 10, 15, 17 a 27, 33 a 36, 43, 52 a 55 y 58)"
+    },
+    {
+     "id": "CE",
+     "rol": "Fundamento constitucional (art. 33.2 y 33.3)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Competencias de la Junta sobre expropiación (art. 47.3)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 33.3 CE, ¿qué exige la Constitución para privar a alguien de sus bienes?",
+     "opciones": [
+      "Causa justificada de utilidad pública o interés social, indemnización y conformidad con las leyes",
+      "Una sentencia penal previa",
+      "Un acuerdo unánime del vecindario",
+      "Solo la voluntad de la Administración"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 33.3 CE exige causa justificada de utilidad pública o interés social, indemnización correspondiente y conformidad con las leyes.",
+     "referencia": "Art. 33.3 CE"
+    },
+    {
+     "pregunta": "Según el art. 9 LEF, ¿qué es indispensable antes de proceder a la expropiación?",
+     "opciones": [
+      "La sentencia del contencioso",
+      "El pago anticipado del justiprecio",
+      "La previa declaración de utilidad pública o interés social del fin",
+      "El acuerdo de todos los propietarios"
+     ],
+     "correcta": 2,
+     "explicacion": "Para proceder a la expropiación es indispensable la previa declaración de utilidad pública o interés social del fin al que se afectará el bien.",
+     "referencia": "Art. 9 LEF"
+    },
+    {
+     "pregunta": "Según el art. 36.1 LEF, ¿con qué valor se tasan los bienes expropiados?",
+     "opciones": [
+      "El valor de la fecha del pago",
+      "El valor de la fecha de la sentencia",
+      "El valor fiscal del último año",
+      "El valor al iniciarse el expediente de justiprecio"
+     ],
+     "correcta": 3,
+     "explicacion": "Las tasaciones se hacen con arreglo al valor que tengan los bienes al tiempo de iniciarse el expediente de justiprecio, sin plusvalías derivadas del proyecto.",
+     "referencia": "Art. 36.1 LEF"
+    },
+    {
+     "pregunta": "Según el art. 52 LEF, ¿quién puede declarar urgente la ocupación de los bienes?",
+     "opciones": [
+      "El alcalde del municipio",
+      "El Consejo de Ministros, con retención de crédito",
+      "El beneficiario de la expropiación",
+      "El Jurado de expropiación"
+     ],
+     "correcta": 1,
+     "explicacion": "La urgencia de la ocupación la declara el Consejo de Ministros, y el expediente debe incluir la retención de crédito por el importe del justiprecio.",
+     "referencia": "Art. 52 LEF"
+    },
+    {
+     "pregunta": "Según el art. 54.3 LEF, ¿en qué plazo debe solicitarse la reversión tras la notificación del exceso de expropiación o la desafectación?",
+     "opciones": [
+      "Diez años",
+      "Un mes",
+      "Tres meses",
+      "Un año"
+     ],
+     "correcta": 2,
+     "explicacion": "El plazo para solicitar la reversión es de tres meses desde que la Administración notifica el exceso de expropiación, la desafectación o su propósito de no ejecutar la obra.",
+     "referencia": "Art. 54.3 LEF"
+    },
+    {
+     "pregunta": "Según el art. 35.2 LEF, ¿qué recurso cabe contra la resolución del Jurado de expropiación?",
+     "opciones": [
+      "Recurso contencioso-administrativo",
+      "Ninguno",
+      "Recurso de alzada ante el ministerio",
+      "Recurso de reposición"
+     ],
+     "correcta": 0,
+     "explicacion": "La resolución del Jurado ultima la vía gubernativa, y contra ella procede solo el recurso contencioso-administrativo.",
+     "referencia": "Art. 35.2 LEF"
+    },
+    {
+     "pregunta": "Según el art. 47.3 del Estatuto de Autonomía para Andalucía, ¿qué puede hacer la Comunidad en materia de justiprecio?",
+     "opciones": [
+      "Expropiar sin declaración de utilidad pública",
+      "Suprimir la indemnización",
+      "Nada, la competencia es exclusivamente estatal",
+      "Crear y regular un órgano propio para la determinación del justiprecio"
+     ],
+     "correcta": 3,
+     "explicacion": "La competencia ejecutiva de la Comunidad incluye crear y regular un órgano propio para determinar el justiprecio y fijar su procedimiento.",
+     "referencia": "Art. 47.3.c EA Andalucía"
+    },
+    {
+     "pregunta": "Según el art. 58 LEF, ¿qué ocurre si transcurren cuatro años sin pagar ni consignar el justo precio fijado?",
+     "opciones": [
+      "La expropiación queda sin efecto automáticamente",
+      "Hay que evaluar de nuevo los bienes conforme al capítulo III",
+      "Se paga el doble",
+      "Nada: la valoración es firme para siempre"
+     ],
+     "correcta": 1,
+     "explicacion": "Si pasan cuatro años sin pagar o consignar el justo precio, debe evaluarse de nuevo el bien con las reglas del capítulo III del título II.",
+     "referencia": "Art. 58 LEF"
+    },
+    {
+     "pregunta": "Según el art. 53 LEF, ¿qué sirve de título para inscribir la transmisión del dominio en el Registro de la Propiedad?",
+     "opciones": [
+      "El informe del Jurado",
+      "La solicitud del beneficiario",
+      "El acta de ocupación, con el justificante del pago o de la consignación",
+      "La declaración de utilidad pública"
+     ],
+     "correcta": 2,
+     "explicacion": "El acta de ocupación extendida tras el pago, con sus justificantes, es título suficiente para inscribir la transmisión y cancelar cargas. El acta con la consignación surte los mismos efectos.",
+     "referencia": "Art. 53 LEF"
+    },
+    {
+     "pregunta": "Según el art. 15 LEF, ¿qué bienes se pueden ocupar?",
+     "opciones": [
+      "Los bienes que el beneficiario elija sin justificar",
+      "Solo los bienes muebles",
+      "Todos los bienes de la zona",
+      "Solo los estrictamente indispensables para el fin de la expropiación"
+     ],
+     "correcta": 3,
+     "explicacion": "La Administración resuelve sobre la necesidad concreta de ocupar los bienes o adquirir los derechos estrictamente indispensables para el fin.",
+     "referencia": "Art. 15 LEF"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. La regulación constitucional",
+     "parrafos": [
+      "El artículo 33 de la Constitución reconoce el derecho a la propiedad privada y a la herencia, y establece que su función social delimitará su contenido de acuerdo con las leyes (art. 33.1 y 33.2 CE). Es la base del equilibrio entre propiedad individual y función social.",
+      "El artículo 33.3 CE establece que nadie puede ser privado de sus bienes y derechos sino por causa justificada de utilidad pública o interés social, mediante la correspondiente indemnización y de conformidad con lo dispuesto por las leyes. Estas tres exigencias, causa, indemnización y ley, son el núcleo de la expropiación.",
+      "Para un examen, la pregunta típica es qué exige la Constitución para expropiar. Respuesta: causa justificada de utilidad pública o interés social, indemnización y ley que lo regule (art. 33.3 CE)."
+     ]
+    },
+    {
+     "titulo": "2. La ley básica y su concepto",
+     "parrafos": [
+      "La regulación básica es la Ley de Expropiación Forzosa de 16 de diciembre de 1954 (LEF). Su artículo 1.1 define la expropiación forzosa por causa de utilidad pública o interés social como cualquier forma de privación singular de la propiedad privada o de derechos o intereses patrimoniales legítimos, acordada imperativamente, ya implique venta, permuta, censo, arrendamiento, ocupación temporal o mera cesación de su ejercicio.",
+      "El artículo 1.2 LEF excluye de su ámbito las ventas forzosas reguladas por la legislación especial sobre abastecimientos, comercio exterior y divisas.",
+      "Para un examen, el concepto es amplio: no solo la expropiación de la propiedad, sino cualquier privación singular de derechos patrimoniales, incluida la ocupación temporal."
+     ]
+    },
+    {
+     "titulo": "3. Competencias de la Junta de Andalucía",
+     "parrafos": [
+      "El artículo 47.3 del Estatuto de Autonomía para Andalucía, en la redacción de la Ley Orgánica 2/2007, atribuye a la Comunidad Autónoma, en materia de expropiación forzosa, la competencia ejecutiva que incluye en todo caso determinar los supuestos, las causas y las condiciones en que las Administraciones andaluzas pueden ejercer la potestad expropiatoria.",
+      "El mismo precepto atribuye a la Comunidad establecer criterios de valoración de los bienes expropiados según su naturaleza y su función social, de acuerdo con la legislación estatal, y crear y regular un órgano propio para determinar el justiprecio, fijando su procedimiento.",
+      "Para un examen, la diferencia es clara: la ley estatal regula el régimen general y la Junta define los supuestos y crea su propio órgano de justiprecio. La competencia es ejecutiva y se ejerce dentro de la legislación estatal."
+     ]
+    },
+    {
+     "titulo": "4. Naturaleza y justificación de la potestad expropiatoria",
+     "parrafos": [
+      "La potestad expropiatoria es la facultad de la Administración de privar a un particular de un bien o derecho por razones de interés general, pagando un justo precio. No es una sanción ni una forma de adquisición voluntaria: es una imposición legal, acordada imperativamente.",
+      "Su fundamento constitucional está en el artículo 33.3 CE. Su ejercicio exige que la ley la reconozca, que exista una causa de utilidad pública o interés social, y que se pague una indemnización.",
+      "Para un examen, la expropiación se distingue de la compraventa: la compraventa es voluntaria, la expropiación impuesta. Por eso el artículo 24 LEF permite la adquisición amistosa, pero el procedimiento sigue si no hay acuerdo."
+     ]
+    },
+    {
+     "titulo": "5. Sujetos: beneficiario, expropiante y propietario",
+     "parrafos": [
+      "El artículo 2.1 LEF establece que la expropiación forzosa solo puede ser acordada por el Estado, la provincia o el municipio. El artículo 2.2 añade que pueden ser beneficiarios de la expropiación por utilidad pública las entidades y concesionarios a los que la ley reconozca esa condición. El artículo 2.3 permite que, por interés social, sea beneficiario cualquier persona natural o jurídica que cumpla los requisitos de la ley especial.",
+      "El artículo 3 LEF dispone que el expediente se entiende en primer lugar con el propietario o titular del derecho. Se considera propietario a quien conste en los registros públicos con presunción de titularidad, o, subsidiariamente, en los registros fiscales, o a quien lo sea pública y notoriamente.",
+      "El artículo 4 LEF extiende las diligencias a los titulares de derechos reales e intereses económicos directos y a los arrendatarios, que son interesados si lo solicitan y acreditan su condición. El artículo 5 LEF regula la intervención del Ministerio Fiscal cuando no comparecen los titulares, o cuando la propiedad es litigiosa."
+     ]
+    },
+    {
+     "titulo": "6. El objeto: los bienes y derechos expropiables",
+     "parrafos": [
+      "El objeto de la expropiación son los bienes y derechos concretos que la Administración necesita. El artículo 15 LEF establece que, declarada la utilidad pública o el interés social, la Administración resuelve sobre la necesidad concreta de ocupar los bienes o adquirir los derechos que sean estrictamente indispensables para el fin.",
+      "El mismo precepto permite que, por acuerdo del Consejo de Ministros, se incluyan bienes indispensables para previsibles ampliaciones de la obra o finalidad. El artículo 16 LEF remite, para los bienes de la Iglesia, al régimen del Concordato.",
+      "Para un examen, el principio es la indispensabilidad: solo se expropia lo estrictamente necesario, y las ampliaciones previsibles requieren acuerdo del Consejo de Ministros."
+     ]
+    },
+    {
+     "titulo": "7. La causa: la declaración de utilidad pública o interés social",
+     "parrafos": [
+      "El artículo 9 LEF establece que, para proceder a la expropiación, es indispensable la previa declaración de utilidad pública o interés social del fin al que se afectará el bien. Sin esa declaración no hay expropiación.",
+      "El artículo 10 LEF establece que la utilidad pública se entiende implícita, en relación con la expropiación de inmuebles, en los planes de obras y servicios de la Administración. En los demás casos en que una ley la haya declarado genéricamente, su reconocimiento concreto se hace por acuerdo del Consejo de Ministros, salvo que la ley reguladora disponga otra cosa.",
+      "El artículo 11 LEF exige ley aprobada en Cortes para declarar la utilidad pública de inmuebles en los casos no previstos en el artículo anterior, y el artículo 12 LEF exige ley singular o acuerdo del Consejo de Ministros para los bienes muebles, según haya o no categoría especial."
+     ]
+    },
+    {
+     "titulo": "8. El interés social y las empresas de interés nacional",
+     "parrafos": [
+      "El artículo 13 LEF regula el interés social que determina transmisiones forzosas de cosas o derechos. Se sujeta, en cuanto a su declaración, al mismo régimen que el artículo 12 para los bienes muebles, es decir, declaración expresa mediante ley o acuerdo del Consejo de Ministros.",
+      "El artículo 14 LEF establece que la concesión del título de empresa de interés nacional lleva aneja, sin más, la declaración de utilidad pública a efectos expropiatorios respecto de las obras y servicios necesarios para sus fines.",
+      "Para un examen, la diferencia entre utilidad pública e interés social está en el beneficiario y en la finalidad: la utilidad pública es la regla general; el interés social permite transmisiones a beneficiarios privados si la ley especial lo prevé."
+     ]
+    },
+    {
+     "titulo": "9. Fase de necesidad de ocupación: la relación de bienes",
+     "parrafos": [
+      "El artículo 17.1 LEF obliga al beneficiario a formular una relación concreta e individualizada, en la que se describan los bienes o derechos que considera de necesaria expropiación, en todos los aspectos material y jurídico.",
+      "El artículo 17.2 LEF dispone que, si el proyecto de obras contiene la descripción material detallada, la necesidad de ocupación se entiende implícita en la aprobación del proyecto. El beneficiario debe igualmente formular la relación, a los solos efectos de determinar los interesados.",
+      "Para un examen, el proyecto aprobado puede sustituir la declaración de necesidad concreta si describe los bienes con detalle. Pero la relación de interesados sigue siendo necesaria."
+     ]
+    },
+    {
+     "titulo": "10. Información pública y resolución de necesidad",
+     "parrafos": [
+      "El artículo 18.1 LEF prevé información pública durante quince días, tras recibir la relación. El artículo 19.1 LEF permite a cualquier persona aportar datos para rectificar errores de la relación u oponerse, por razones de fondo o forma, a la necesidad de ocupación.",
+      "El artículo 20 LEF establece que, a la vista de las alegaciones, la autoridad resuelve en el plazo máximo de veinte días sobre la necesidad de la ocupación, describiendo los bienes y designando a los interesados. Solo tienen la condición de interesados las personas de los artículos 3 y 4.",
+      "El artículo 21 LEF dispone que el acuerdo de necesidad inicia el expediente expropiatorio. Se publica en la misma forma que la información pública y se notifica individualmente a los interesados."
+     ]
+    },
+    {
+     "titulo": "11. Recurso contra el acuerdo de necesidad y la adquisición amistosa",
+     "parrafos": [
+      "El artículo 22 LEF prevé recurso de alzada contra el acuerdo de necesidad de ocupación, en diez días desde la notificación, que debe resolverse en veinte días. La interposición tiene efectos suspensivos hasta la resolución expresa.",
+      "El mismo precepto añade que contra la orden resolutoria no cabe recurso contencioso. Esta previsión está superada por la Ley 29/1998 (LJCA), que admite el contencioso contra los actos que ponen fin a la vía administrativa (art. 25.1 LJCA). No debe citarse como vigente.",
+      "El artículo 24 LEF permite a la Administración y al particular convenir la adquisición de los bienes por mutuo acuerdo. Si en quince días no hay acuerdo, sigue el procedimiento, pero puede llegarse al acuerdo en cualquier estado posterior."
+     ]
+    },
+    {
+     "titulo": "12. Expropiación parcial y finca antieconómica",
+     "parrafos": [
+      "El artículo 23 LEF regula el caso en que la expropiación afecta solo a una parte de una finca. Si la parte no expropiada resulta antieconómica para el propietario, este puede pedir que la expropiación comprenda la totalidad de la finca.",
+      "La Administración debe decidir en diez días. La resolución es recurrible en alzada en los mismos términos del artículo 22. El precepto añade que no cabe recurso contencioso en ese supuesto y se remite al artículo 46 de la ley, cuyo contenido no se ha verificado en este tema.",
+      "Para un examen, la finca antieconómica es un ejemplo del principio de que la expropiación no debe dejar al propietario una parte inútil."
+     ]
+    },
+    {
+     "titulo": "13. La determinación del justo precio: principios",
+     "parrafos": [
+      "El artículo 25 LEF establece que, firme el acuerdo de necesidad de ocupación, se determina el justo precio. El artículo 26 LEF dispone que se tramita como pieza separada, con un expediente individual para cada propietario, salvo que el bien pertenezca en comunidad o varios bienes constituyan una unidad económica.",
+      "El artículo 27 LEF define la unidad económica: en fincas rústicas o urbanas, cuando están inscritas bajo un mismo número o pueden inscribirse así; en cosas muebles, cuando exista una universidad de hecho o de derecho.",
+      "Para un examen, el justo precio es el objetivo del procedimiento: la indemnización que compensa la privación, determinada en una pieza separada."
+     ]
+    },
+    {
+     "titulo": "14. El Jurado de expropiación y su resolución",
+     "parrafos": [
+      "El artículo 34 LEF encarga al Jurado de expropiación decidir ejecutoriamente el justo precio, a la vista de las hojas de aprecio formuladas por los propietarios y por la Administración. El artículo 33 LEF regula su constitución y la adopción de acuerdos por mayoría.",
+      "El artículo 35.1 LEF exige que la resolución del Jurado sea necesariamente motivada, razonando los criterios de valoración seguidos. El artículo 35.2 dispone que la resolución ultima la vía gubernativa y contra ella solo procede el recurso contencioso-administrativo.",
+      "El artículo 35.3 LEF establece que la fecha del acuerdo es el término inicial para la caducidad de la valoración del artículo 58. Para un examen, la pregunta típica es qué recurso cabe contra el justiprecio. Respuesta: solo el contencioso (art. 35.2 LEF)."
+     ]
+    },
+    {
+     "titulo": "15. Criterios de valoración: el valor al iniciar el expediente",
+     "parrafos": [
+      "El artículo 36.1 LEF establece que las tasaciones se hacen con arreglo al valor que tengan los bienes al tiempo de iniciarse el expediente de justiprecio. No se tienen en cuenta las plusvalías que sean consecuencia directa del proyecto de obras que da lugar a la expropiación ni las previsibles para el futuro.",
+      "El artículo 36.2 LEF dispone que las mejoras realizadas después de incoarse el expediente no son indemnizables, salvo que fueran indispensables para la conservación de los bienes. Las anteriores sí lo son, salvo que se hubieran hecho de mala fe.",
+      "El artículo 37 LEF obliga a ajustar las tasaciones del propietario, de la Administración y del Jurado a las normas de valoración de los artículos siguientes. Para un examen, la fecha de referencia es la de inicio del expediente, no la del pago."
+     ]
+    },
+    {
+     "titulo": "16. El criterio del valor real y el régimen de inmuebles",
+     "parrafos": [
+      "El artículo 43.1 LEF permite a propietario y Administración aplicar criterios estimativos si la valoración por las normas de la ley no resulta conforme con el valor real de los bienes, por ser superior o inferior a él. El Jurado también puede aplicarlos si el precio es notoriamente inferior o superior al valor real.",
+      "El artículo 43.2.a LEF excluye este régimen estimativo en la expropiación de inmuebles, para la que el justiprecio se fija exclusivamente con el sistema de valoración de la ley que regula la valoración del suelo. Esa ley no está en el repositorio y no se ha verificado en este tema.",
+      "Para un examen, la regla es que el método estimativo se aplica a los bienes muebles sin criterio particular de valoración, y que los inmuebles tienen su propio sistema."
+     ]
+    },
+    {
+     "titulo": "17. Las hojas de aprecio y el acta previa en la urgencia",
+     "parrafos": [
+      "La hoja de aprecio es la valoración que formulan propietarios y Administración en el procedimiento del justiprecio (art. 34 LEF). En el procedimiento de urgencia, el artículo 52 LEF regula el acta previa a la ocupación y las hojas de depósito previo.",
+      "El artículo 52.2 LEF exige notificar el día y hora del acta previa a los interesados con al menos ocho días de antelación, mediante cédula y edictos. El acta describe el bien y los perjuicios que determinan la rápida ocupación.",
+      "El artículo 52.4 LEF establece que, a la vista del acta y de los documentos, la Administración formula las hojas de depósito previo. El depósito equivale a la capitalización del interés legal del líquido imponible, con los ajustes que la ley fija."
+     ]
+    },
+    {
+     "titulo": "18. El procedimiento de urgencia: declaración y efectos",
+     "parrafos": [
+      "El artículo 52 LEF permite declarar urgente la ocupación de los bienes de una obra o finalidad determinada, mediante acuerdo del Consejo de Ministros. El expediente debe incluir la retención de crédito por el importe del justiprecio, con cargo al ejercicio en que se prevea concluir el expediente y pagar.",
+      "Sus consecuencias, según el mismo precepto, son tres. Se entiende cumplido el trámite de declaración de necesidad de ocupación según el proyecto aprobado, y se da derecho a la ocupación inmediata (art. 52.1 LEF). Se notifica a los interesados (art. 52.2 LEF), y se levanta el acta previa (art. 52.3 LEF).",
+      "Para un examen, la urgencia es excepcional y requiere acuerdo del Consejo de Ministros y retención de crédito. Su efecto principal es la ocupación inmediata, sin esperar al justiprecio."
+     ]
+    },
+    {
+     "titulo": "19. El pago, la consignación y el acta de ocupación",
+     "parrafos": [
+      "El artículo 53 LEF establece que el acta de ocupación, extendida a continuación del pago, acompañada de los justificantes, es título bastante para que el Registro de la Propiedad inscriba la transmisión y cancele las cargas y derechos reales. El acta acompañada del justificante de consignación surte los mismos efectos.",
+      "Esos documentos son también título de inmatriculación. El pago o la consignación previos son, por tanto, el presupuesto de la transmisión registral.",
+      "Para un examen, la pregunta típica es qué sirve de título para inscribir la transmisión. Respuesta: el acta de ocupación con el justificante de pago o de consignación (art. 53 LEF)."
+     ]
+    },
+    {
+     "titulo": "20. Procedimientos especiales",
+     "parrafos": [
+      "El Título III de la LEF regula los procedimientos especiales, que incluyen la expropiación por zonas o grupos de bienes (art. 59 LEF). Su régimen detallado no se ha verificado en este tema y debe comprobarse en el texto.",
+      "Para un examen, la expropiación por zonas es un procedimiento especial, distinto del general, pero no se cita sin comprobar el artículo y su alcance.",
+      "Los procedimientos especiales se estudian en el texto de la LEF y en las normas sectoriales que los regulan. Su encuadre general es el mismo que el de la expropiación forzosa."
+     ]
+    },
+    {
+     "titulo": "21. La reversión de los bienes expropiados",
+     "parrafos": [
+      "El artículo 54.1 LEF establece que, si no se ejecuta la obra o no se establece el servicio que motivó la expropiación, si sobra parte de los bienes, o desaparece la afectación, el primitivo dueño o sus causahabientes pueden recobrar la totalidad o la parte sobrante, mediante el abono de la indemnización percibida.",
+      "El artículo 54.2 LEF excluye la reversión cuando, al desafectar, se acuerda una nueva afectación a otro fin de utilidad pública o interés social, o cuando la afectación se prolonga diez años desde la terminación de la obra o el servicio.",
+      "El artículo 54.3 LEF fija el plazo de tres meses para solicitarla desde la notificación del exceso, la desafectación o el propósito de no ejecutar. Sin esa notificación, caben los supuestos de exceso o desafectación en menos de veinte años, de cinco años sin iniciar la ejecución, o de suspensión de más de dos años por causa imputable a la Administración."
+     ]
+    },
+    {
+     "titulo": "22. La reversión: competencia, importe y efectos",
+     "parrafos": [
+      "El artículo 54.4 LEF atribuye la competencia para resolver la reversión a la Administración en cuya titularidad se halle el bien en el momento de la solicitud, o a la que esté vinculado el beneficiario.",
+      "El artículo 55.1 LEF exige como presupuesto la restitución de la indemnización percibida, actualizada conforme al índice de precios al consumo entre el inicio del expediente de justiprecio y el ejercicio de la reversión.",
+      "El artículo 55.2 LEF prevé una nueva valoración cuando el bien haya cambiado de calificación jurídica, haya incorporado mejoras aprovechables o haya sufrido menoscabo. El artículo 55.3 LEF impide tomar posesión sin el pago o la consignación previa, en tres meses desde la determinación en vía administrativa, bajo pena de caducidad."
+     ]
+    },
+    {
+     "titulo": "23. Caducidad de la valoración",
+     "parrafos": [
+      "El artículo 58 LEF establece que, si transcurren cuatro años sin que se pague o consigne el justo precio fijado, hay que evaluar de nuevo los bienes o derechos conforme al capítulo III del título II. Una vez hecho el pago o la consignación, aunque haya transcurrido el plazo, no procede la retasación.",
+      "Para un examen, la caducidad de la valoración protege al expropiado frente a una tasación antigua, pero deja de operar con el pago o la consignación. El plazo de cuatro años se cuenta desde la fecha del acuerdo del Jurado (art. 35.3 LEF).",
+      "Esta regla se distingue de la caducidad del procedimiento de la LPAC (tema c15), que es un instituto distinto."
+     ]
+    },
+    {
+     "titulo": "24. Garantías y control judicial",
+     "parrafos": [
+      "El artículo 35.2 LEF hace que el justiprecio fijado por el Jurado solo sea recurrible en el contencioso-administrativo. El artículo 106.1 CE garantiza el control judicial de la legalidad de la actuación administrativa, y la LJCA (Ley 29/1998) regula ese proceso (art. 1 LJCA).",
+      "La LEF incluye un Título V de garantías jurisdiccionales. Su contenido detallado no se ha verificado en este tema.",
+      "Para un examen, el control de la expropiación se hace en el contencioso, y el justiprecio no se reclama en vía civil."
+     ]
+    },
+    {
+     "titulo": "25. Errores frecuentes en el examen",
+     "parrafos": [
+      "Afirmar que la expropiación puede acordarse sin declaración de utilidad pública. Es indispensable la previa declaración (art. 9 LEF).",
+      "Confundir la utilidad pública con el interés social. La primera es la regla general; el segundo permite beneficiarios privados si una ley especial lo prevé (arts. 2.3 y 13 LEF).",
+      "Afirmar que el justiprecio se fija en la fecha del pago. Se fija con el valor al iniciarse el expediente (art. 36.1 LEF).",
+      "Pensar que la urgencia no exige nada. Requiere acuerdo del Consejo de Ministros y retención de crédito (art. 52 LEF).",
+      "Pensar que la reversión es automática. Exige solicitud en tres meses, restitución de la indemnización actualizada y pago previo (arts. 54 y 55 LEF)."
+     ]
+    },
+    {
+     "titulo": "26. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué exige el artículo 33.3 de la Constitución? Causa justificada de utilidad pública o interés social, indemnización y ley que lo regule.",
+      "¿Qué declaración es indispensable antes de expropiar? La de utilidad pública o interés social del fin al que se afectará el bien (art. 9 LEF).",
+      "¿Qué criterio fecha la valoración? El valor que tengan los bienes al iniciarse el expediente de justiprecio (art. 36.1 LEF).",
+      "¿Quién acuerda la urgencia de la ocupación? El Consejo de Ministros, con retención de crédito (art. 52 LEF).",
+      "¿En cuánto tiempo debe solicitarse la reversión? En tres meses desde la notificación del exceso, la desafectación o el propósito de no ejecutar (art. 54.3 LEF).",
+      "¿Qué competencia tiene la Junta de Andalucía? Determinar los supuestos y las causas de la potestad expropiatoria y crear su propio órgano de justiprecio (art. 47.3 EA)."
+     ]
+    },
+    {
+     "titulo": "27. Casos prácticos",
+     "parrafos": [
+      "Caso 1: una Administración quiere expropiar un terreno para una obra de interés general, sin haber declarado la utilidad pública. La expropiación no puede acordarse, porque el artículo 9 LEF exige la declaración previa.",
+      "Caso 2: la obra no se ejecuta y el terreno sobrante sigue en manos de la Administración durante seis años. El propietario puede solicitar la reversión, con restitución de la indemnización actualizada (arts. 54.1 y 55.1 LEF), si cumple el plazo de tres meses desde que la Administración lo notifique (art. 54.3 LEF).",
+      "Caso 3: un inmueble afectado por una obra urgente. Si el Consejo de Ministros ha declarado la urgencia y existe retención de crédito, se puede levantar el acta previa y ocupar el bien, con hoja de depósito previo (art. 52 LEF)."
+     ]
+    },
+    {
+     "titulo": "28. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema c17 sobre responsabilidad patrimonial, porque la privación de bienes sin indemnización es un supuesto de lesión que el artículo 33.3 CE protege.",
+      "Se conecta con el tema c15 sobre revisión y recursos, porque el justiprecio solo es recurrible en el contencioso, y el acuerdo de necesidad en alzada (art. 22 LEF).",
+      "Se conecta con el tema e34 sobre urbanismo, porque la expropiación por razón de urbanismo y la valoración del suelo tienen régimen propio, que este tema solo menciona."
+     ]
+    },
+    {
+     "titulo": "29. Claves para el examen",
+     "parrafos": [
+      "Constitución: causa justificada, indemnización y ley (art. 33.3 CE). Concepto: privación singular de derechos patrimoniales (art. 1 LEF).",
+      "Causa: declaración previa de utilidad pública o interés social (arts. 9 a 14 LEF). Objeto: indispensable (art. 15 LEF).",
+      "Procedimiento: relación de bienes (art. 17), información pública de quince días (art. 18), resolución de necesidad (art. 20), inicio (art. 21), alzada (art. 22).",
+      "Justiprecio: pieza separada (art. 26), Jurado (art. 34), resolución motivada y solo contencioso (art. 35), valor al inicio del expediente (art. 36).",
+      "Urgencia: Consejo de Ministros y retención de crédito (art. 52 LEF). Acta de ocupación con pago o consignación (art. 53 LEF).",
+      "Reversión: artículos 54 y 55 LEF; caducidad de la valoración a los cuatro años (art. 58 LEF).",
+      "Junta de Andalucía: supuestos y causas, criterios de valoración y órgano propio de justiprecio (art. 47.3 EA)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley de 16 de diciembre de 1954 sobre expropiación forzosa (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1954-15431",
+     "pdf": "leyes/BOE-A-1954-15431.pdf"
+    },
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
+    },
+    {
+     "nombre": "Ley Orgánica 2/2007, de reforma del Estatuto de Autonomía para Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
+     "pdf": "leyes/BOE-A-2007-5825.pdf"
     }
    ]
   },

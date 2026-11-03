@@ -1,0 +1,184 @@
+{
+  "id": "c18",
+  "resumen": [
+    {
+      "titulo": "Fundamento constitucional",
+      "puntos": [
+        "Nadie puede ser privado de sus bienes y derechos sino por causa justificada de utilidad pública o interés social, mediante indemnización y de conformidad con las leyes (art. 33.3 CE).",
+        "La función social de la propiedad delimita su contenido de acuerdo con las leyes (art. 33.2 CE)."
+      ]
+    },
+    {
+      "titulo": "Concepto, competencias de la Junta y sujetos",
+      "puntos": [
+        "La expropiación es la privación singular de la propiedad o de derechos patrimoniales acordada imperativamente, incluida la ocupación temporal (art. 1 LEF).",
+        "La Junta determina los supuestos y causas de la potestad expropiatoria, los criterios de valoración y crea su órgano de justiprecio (art. 47.3 EA). Son expropiantes el Estado, la provincia y el municipio (art. 2.1 LEF)."
+      ]
+    },
+    {
+      "titulo": "Causa y objeto",
+      "puntos": [
+        "Es indispensable la declaración previa de utilidad pública o interés social del fin (art. 9 LEF). En inmuebles, la utilidad pública se entiende implícita en los planes de obras y servicios (art. 10 LEF).",
+        "Se expropian solo los bienes estrictamente indispensables para el fin (art. 15 LEF)."
+      ]
+    },
+    {
+      "titulo": "Procedimiento general",
+      "puntos": [
+        "Relación de bienes, información pública de quince días y resolución de necesidad en veinte días (arts. 17, 18 y 20 LEF). El acuerdo de necesidad inicia el expediente (art. 21 LEF).",
+        "Recurso de alzada en diez días, resoluble en veinte; la adquisición amistosa puede convenirse en cualquier momento (arts. 22 y 24 LEF)."
+      ]
+    },
+    {
+      "titulo": "Justiprecio y valoración",
+      "puntos": [
+        "El justo precio se fija en pieza separada, con expediente individual para cada propietario (art. 26 LEF). El Jurado de expropiación decide con resolución motivada, recurrible solo en el contencioso (arts. 34 y 35 LEF).",
+        "Se valora el bien al iniciarse el expediente, sin plusvalías del proyecto ni mejoras posteriores no indispensables (art. 36 LEF)."
+      ]
+    },
+    {
+      "titulo": "Urgencia, pago y reversión",
+      "puntos": [
+        "La urgencia la acuerda el Consejo de Ministros con retención de crédito, y permite la ocupación inmediata tras el acta previa y las hojas de depósito (art. 52 LEF).",
+        "El acta de ocupación con el pago o la consignación es título para inscribir la transmisión (art. 53 LEF). La reversión exige solicitud en tres meses y restitución de la indemnización actualizada (arts. 54 y 55 LEF).",
+        "Si pasan cuatro años sin pagar el justo precio, debe volver a evaluarse (art. 58 LEF)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LEF",
+      "rol": "Norma principal del tema (arts. 1, 2, 9, 10, 15, 17 a 27, 33 a 36, 43, 52 a 55 y 58)"
+    },
+    {
+      "id": "CE",
+      "rol": "Fundamento constitucional (art. 33.2 y 33.3)"
+    },
+    {
+      "id": "EA-ANDALUCIA",
+      "rol": "Competencias de la Junta sobre expropiación (art. 47.3)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 33.3 CE, ¿qué exige la Constitución para privar a alguien de sus bienes?",
+      "opciones": [
+        "Causa justificada de utilidad pública o interés social, indemnización y conformidad con las leyes",
+        "Una sentencia penal previa",
+        "Un acuerdo unánime del vecindario",
+        "Solo la voluntad de la Administración"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 33.3 CE exige causa justificada de utilidad pública o interés social, indemnización correspondiente y conformidad con las leyes.",
+      "referencia": "Art. 33.3 CE"
+    },
+    {
+      "pregunta": "Según el art. 9 LEF, ¿qué es indispensable antes de proceder a la expropiación?",
+      "opciones": [
+        "La sentencia del contencioso",
+        "El pago anticipado del justiprecio",
+        "La previa declaración de utilidad pública o interés social del fin",
+        "El acuerdo de todos los propietarios"
+      ],
+      "correcta": 2,
+      "explicacion": "Para proceder a la expropiación es indispensable la previa declaración de utilidad pública o interés social del fin al que se afectará el bien.",
+      "referencia": "Art. 9 LEF"
+    },
+    {
+      "pregunta": "Según el art. 36.1 LEF, ¿con qué valor se tasan los bienes expropiados?",
+      "opciones": [
+        "El valor de la fecha del pago",
+        "El valor de la fecha de la sentencia",
+        "El valor fiscal del último año",
+        "El valor al iniciarse el expediente de justiprecio"
+      ],
+      "correcta": 3,
+      "explicacion": "Las tasaciones se hacen con arreglo al valor que tengan los bienes al tiempo de iniciarse el expediente de justiprecio, sin plusvalías derivadas del proyecto.",
+      "referencia": "Art. 36.1 LEF"
+    },
+    {
+      "pregunta": "Según el art. 52 LEF, ¿quién puede declarar urgente la ocupación de los bienes?",
+      "opciones": [
+        "El alcalde del municipio",
+        "El Consejo de Ministros, con retención de crédito",
+        "El beneficiario de la expropiación",
+        "El Jurado de expropiación"
+      ],
+      "correcta": 1,
+      "explicacion": "La urgencia de la ocupación la declara el Consejo de Ministros, y el expediente debe incluir la retención de crédito por el importe del justiprecio.",
+      "referencia": "Art. 52 LEF"
+    },
+    {
+      "pregunta": "Según el art. 54.3 LEF, ¿en qué plazo debe solicitarse la reversión tras la notificación del exceso de expropiación o la desafectación?",
+      "opciones": [
+        "Diez años",
+        "Un mes",
+        "Tres meses",
+        "Un año"
+      ],
+      "correcta": 2,
+      "explicacion": "El plazo para solicitar la reversión es de tres meses desde que la Administración notifica el exceso de expropiación, la desafectación o su propósito de no ejecutar la obra.",
+      "referencia": "Art. 54.3 LEF"
+    },
+    {
+      "pregunta": "Según el art. 35.2 LEF, ¿qué recurso cabe contra la resolución del Jurado de expropiación?",
+      "opciones": [
+        "Recurso contencioso-administrativo",
+        "Ninguno",
+        "Recurso de alzada ante el ministerio",
+        "Recurso de reposición"
+      ],
+      "correcta": 0,
+      "explicacion": "La resolución del Jurado ultima la vía gubernativa, y contra ella procede solo el recurso contencioso-administrativo.",
+      "referencia": "Art. 35.2 LEF"
+    },
+    {
+      "pregunta": "Según el art. 47.3 del Estatuto de Autonomía para Andalucía, ¿qué puede hacer la Comunidad en materia de justiprecio?",
+      "opciones": [
+        "Expropiar sin declaración de utilidad pública",
+        "Suprimir la indemnización",
+        "Nada, la competencia es exclusivamente estatal",
+        "Crear y regular un órgano propio para la determinación del justiprecio"
+      ],
+      "correcta": 3,
+      "explicacion": "La competencia ejecutiva de la Comunidad incluye crear y regular un órgano propio para determinar el justiprecio y fijar su procedimiento.",
+      "referencia": "Art. 47.3.c EA Andalucía"
+    },
+    {
+      "pregunta": "Según el art. 58 LEF, ¿qué ocurre si transcurren cuatro años sin pagar ni consignar el justo precio fijado?",
+      "opciones": [
+        "La expropiación queda sin efecto automáticamente",
+        "Hay que evaluar de nuevo los bienes conforme al capítulo III",
+        "Se paga el doble",
+        "Nada: la valoración es firme para siempre"
+      ],
+      "correcta": 1,
+      "explicacion": "Si pasan cuatro años sin pagar o consignar el justo precio, debe evaluarse de nuevo el bien con las reglas del capítulo III del título II.",
+      "referencia": "Art. 58 LEF"
+    },
+    {
+      "pregunta": "Según el art. 53 LEF, ¿qué sirve de título para inscribir la transmisión del dominio en el Registro de la Propiedad?",
+      "opciones": [
+        "El informe del Jurado",
+        "La solicitud del beneficiario",
+        "El acta de ocupación, con el justificante del pago o de la consignación",
+        "La declaración de utilidad pública"
+      ],
+      "correcta": 2,
+      "explicacion": "El acta de ocupación extendida tras el pago, con sus justificantes, es título suficiente para inscribir la transmisión y cancelar cargas. El acta con la consignación surte los mismos efectos.",
+      "referencia": "Art. 53 LEF"
+    },
+    {
+      "pregunta": "Según el art. 15 LEF, ¿qué bienes se pueden ocupar?",
+      "opciones": [
+        "Los bienes que el beneficiario elija sin justificar",
+        "Solo los bienes muebles",
+        "Todos los bienes de la zona",
+        "Solo los estrictamente indispensables para el fin de la expropiación"
+      ],
+      "correcta": 3,
+      "explicacion": "La Administración resuelve sobre la necesidad concreta de ocupar los bienes o adquirir los derechos estrictamente indispensables para el fin.",
+      "referencia": "Art. 15 LEF"
+    }
+  ]
+}
