@@ -585,7 +585,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2015-10565.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 a 6, 47.1, 128, 129, 131, 132 (con la anotación de la STC 55/2018) y 133 en el texto del PDF. Resto pendiente."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 a 6, 47.1, 128, 129, 131, 132 (con la anotación de la STC 55/2018) y 133 en el texto del PDF. Resto pendiente. Verificados también arts. 47, 48, 106 a 126 en el texto del PDF."
   },
   "LRJSP": {
    "id": "LRJSP",
@@ -607,7 +607,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2017-12902.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1.1, 13.1, 14.1, 116 a 128 (salvo 125-128 en parte), 132.1, 145.1, 146.1, 190, 192 a 198 (198.1 a 198.4), 233.1 (letras c y d), 236 a 246 (incluidos 240.1 y 240.2, 241.1 a 241.3, 242.2 a 242.4, 243.1 a 243.3, 244.1 y 245 a 246.4), 62.1 y 62.2, 231 a 236, 118 a 120 y 233.4 en el texto del PDF. Pendientes: resto de articulado, RD 1098/2001 (relaciones valoradas, certificaciones y partidas alzadas, no incluido en el repositorio) y el alcance de la STC 68/2021 sobre el art. 242.3 (inciso no identificado)."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1.1, 13.1, 14.1, 116 a 128 (salvo 125-128 en parte), 132.1, 145.1, 146.1, 190, 192 a 198 (198.1 a 198.4), 233.1 (letras c y d), 236 a 246 (incluidos 240.1 y 240.2, 241.1 a 241.3, 242.2 a 242.4, 243.1 a 243.3, 244.1 y 245 a 246.4), 62.1 y 62.2, 231 a 236, 118 a 120 y 233.4 en el texto del PDF. Pendientes: resto de articulado, RD 1098/2001 (relaciones valoradas, certificaciones y partidas alzadas, no incluido en el repositorio) y el alcance de la STC 68/2021 sobre el art. 242.3 (inciso no identificado). Verificados también arts. 1, 3, 12, 13, 25 a 28, 36, 38 a 42, 44.1, 61, 62.1, 65, 71.1.a, 74, 116.1 a 116.3, 145.1 y 145.2, 150.1, 153.1, 158.1 y 158.2, 203 a 213 (texto del PDF)."
   },
   "LTBG": {
    "id": "LTBG",
@@ -663,6 +663,17 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
    "notas": "PDF oficial en español descargado desde el BOE y título comprobado. La fecha de entrada en vigor (1 de diciembre de 2009) no figura en el PDF comprobado y debe verificarse en el DOUE."
+  },
+  "LJCA": {
+   "id": "LJCA",
+   "nombre": "Ley de la Jurisdicción Contencioso-administrativa",
+   "referencia": "Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-administrativa (BOE núm. 167, de 14 de julio de 1998)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+   "boe_id": "BOE-A-1998-16718",
+   "pdf": "leyes/BOE-A-1998-16718.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1, 2, 3, 4, 5.1, 8.1, 25, 26, 45 y 46 en el texto del PDF. Resto pendiente (incluidos arts. 10 a 12 sobre competencias de salas y tribunales)."
   }
  },
  "contenido": {
@@ -5602,6 +5613,818 @@ window.DATOS_ESTUDIO = {
      "nombre": "Constitución Española (texto consolidado, BOE)",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
      "pdf": "leyes/BOE-A-1978-31229.pdf"
+    }
+   ]
+  },
+  "c15": {
+   "resumen": [
+    {
+     "titulo": "Revisión de oficio",
+     "puntos": [
+      "La nulidad de los actos que pusieron fin a la vía o no se recurrieron en plazo se declara de oficio o a solicitud, con dictamen favorable del Consejo de Estado u órgano equivalente (art. 106.1 LPAC).",
+      "Causas de nulidad de pleno derecho del artículo 47.1 LPAC; el procedimiento iniciado de oficio caduca a los seis meses (art. 106.5 LPAC)."
+     ]
+    },
+    {
+     "titulo": "Anulabilidad y lesividad",
+     "puntos": [
+      "Son anulables las infracciones del ordenamiento, incluida la desviación de poder (art. 48 LPAC).",
+      "Si el acto anulable es favorable, debe declararse su lesividad y acudir al contencioso. La declaración caduca a los cuatro años desde que se dictó el acto (art. 107 LPAC)."
+     ]
+    },
+    {
+     "titulo": "Límites y revocación",
+     "puntos": [
+      "La revisión no puede ejercerse contra la equidad, la buena fe o el derecho de los particulares (art. 110 LPAC).",
+      "Los actos desfavorables pueden revocarse mientras no haya prescrito la acción; los errores materiales se rectifican en cualquier momento (art. 109 LPAC)."
+     ]
+    },
+    {
+     "titulo": "Recursos administrativos",
+     "puntos": [
+      "Alzada contra actos que no ponen fin a la vía: un mes para interponer y tres meses para resolver (arts. 121 y 122 LPAC).",
+      "Reposición potestativa contra actos que ponen fin a la vía: un mes para interponer y un mes para resolver (arts. 123 y 124 LPAC).",
+      "Extraordinario de revisión contra actos firmes, solo por las causas del artículo 125.1 LPAC; plazo de cuatro años o de tres meses según la causa (art. 125.2 LPAC)."
+     ]
+    },
+    {
+     "titulo": "Actos que agotan la vía",
+     "puntos": [
+      "Ponen fin a la vía administrativa las resoluciones de la alzada, las de órganos sin superior jerárquico, las de responsabilidad patrimonial y las demás que una disposición establezca (art. 114.1 LPAC).",
+      "No cabe recurso administrativo contra disposiciones generales (art. 112.3 LPAC)."
+     ]
+    },
+    {
+     "titulo": "Jurisdicción contencioso-administrativa",
+     "puntos": [
+      "Los tribunales controlan la legalidad de la actuación administrativa (art. 106.1 CE). La jurisdicción conoce de las pretensiones frente a la actuación administrativa sujeta al Derecho administrativo (art. 1 LJCA).",
+      "Competencias: contratos administrativos, responsabilidad patrimonial y materias atribuidas por ley (art. 2 LJCA). La jurisdicción es improrrogable (art. 5.1 LJCA)."
+     ]
+    },
+    {
+     "titulo": "Plazos del contencioso",
+     "puntos": [
+      "Dos meses desde la publicación o notificación del acto expreso que pone fin a la vía; seis meses frente a actos presuntos (art. 46.1 LJCA).",
+      "El plazo se cuenta desde la resolución del recurso de reposición, si se interpuso (art. 46.4 LJCA)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LPAC",
+     "rol": "Norma principal del tema (arts. 47, 48, 106 a 126)"
+    },
+    {
+     "id": "LJCA",
+     "rol": "Complementaria: jurisdicción, plazos del recurso contencioso (arts. 1, 2, 5, 25, 26, 45 y 46)"
+    },
+    {
+     "id": "CE",
+     "rol": "Complementaria: control de la legalidad por los tribunales (art. 106.1)"
+    },
+    {
+     "id": "LCSP",
+     "rol": "Complementaria: contratos administrativos ante el contencioso (art. 27) y revisión de oficio de la adjudicación (art. 41)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 106.1 LPAC, ¿qué requisito se exige para declarar de oficio la nulidad de un acto administrativo?",
+     "opciones": [
+      "Un dictamen favorable del Consejo de Estado u órgano consultivo equivalente",
+      "Solo la audiencia del interesado",
+      "Una sentencia firme previa",
+      "Ningún requisito"
+     ],
+     "correcta": 0,
+     "explicacion": "La declaración de nulidad de los actos que pusieron fin a la vía o no fueron recurridos exige dictamen favorable del Consejo de Estado u órgano consultivo equivalente.",
+     "referencia": "Art. 106.1 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 107.2 LPAC, ¿en qué plazo máximo puede adoptarse la declaración de lesividad de un acto anulable favorable?",
+     "opciones": [
+      "Un año desde que se dictó el acto",
+      "Dos años desde que se dictó el acto",
+      "Seis meses desde que se dictó el acto",
+      "Cuatro años desde que se dictó el acto"
+     ],
+     "correcta": 3,
+     "explicacion": "La declaración de lesividad no puede adoptarse una vez transcurridos cuatro años desde que se dictó el acto, y exige audiencia de los interesados.",
+     "referencia": "Art. 107.2 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 122.1 LPAC, ¿cuál es el plazo para interponer un recurso de alzada contra un acto expreso?",
+     "opciones": [
+      "Tres meses",
+      "Un mes",
+      "Quince días",
+      "Dos meses"
+     ],
+     "correcta": 1,
+     "explicacion": "El plazo para interponer el recurso de alzada es de un mes si el acto es expreso.",
+     "referencia": "Art. 122.1 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 124.2 LPAC, ¿cuál es el plazo máximo para resolver un recurso potestativo de reposición?",
+     "opciones": [
+      "Tres meses",
+      "Un año",
+      "Un mes",
+      "Quince días hábiles"
+     ],
+     "correcta": 2,
+     "explicacion": "El plazo máximo para dictar y notificar la resolución del recurso de reposición es de un mes.",
+     "referencia": "Art. 124.2 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 125.2 LPAC, ¿cuál es el plazo del recurso extraordinario de revisión cuando la causa es el error de hecho resultante de los documentos del expediente?",
+     "opciones": [
+      "Un mes desde la notificación",
+      "Tres meses desde el conocimiento",
+      "Seis meses desde la notificación",
+      "Cuatro años desde la notificación de la resolución impugnada"
+     ],
+     "correcta": 3,
+     "explicacion": "Cuando la causa es el error de hecho, el plazo es de cuatro años desde la notificación de la resolución. En los demás casos, son tres meses.",
+     "referencia": "Art. 125.2 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 106.5 LPAC, ¿cuándo caduca un procedimiento de revisión de oficio iniciado de oficio?",
+     "opciones": [
+      "A los dos meses sin resolución",
+      "A los seis meses sin resolución",
+      "A los doce meses sin resolución",
+      "Nunca caduca"
+     ],
+     "correcta": 1,
+     "explicacion": "Si el procedimiento de revisión de oficio se inicia de oficio, el transcurso de seis meses sin resolución produce su caducidad.",
+     "referencia": "Art. 106.5 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 114.1.a LPAC, ¿qué resolución pone fin a la vía administrativa?",
+     "opciones": [
+      "La resolución de un recurso de alzada",
+      "La resolución de un recurso de reposición interpuesto de forma potestativa ante el mismo órgano",
+      "Una comunicación de trámite",
+      "Un informe del servicio jurídico"
+     ],
+     "correcta": 0,
+     "explicacion": "Ponen fin a la vía administrativa las resoluciones de los recursos de alzada (art. 114.1.a LPAC).",
+     "referencia": "Art. 114.1.a LPAC"
+    },
+    {
+     "pregunta": "Según el art. 46.1 LJCA, ¿cuál es el plazo para interponer el recurso contencioso-administrativo contra un acto expreso que pone fin a la vía administrativa?",
+     "opciones": [
+      "Dos meses desde la notificación o publicación del acto",
+      "Seis meses desde la notificación",
+      "Un mes desde la notificación",
+      "Un año desde la publicación"
+     ],
+     "correcta": 0,
+     "explicacion": "El recurso contencioso se interpone en dos meses desde el día siguiente a la publicación o notificación del acto expreso que pone fin a la vía administrativa.",
+     "referencia": "Art. 46.1 LJCA"
+    },
+    {
+     "pregunta": "Según el art. 106.1 de la Constitución, ¿qué controlan los tribunales?",
+     "opciones": [
+      "Solo la potestad reglamentaria",
+      "La potestad reglamentaria y la legalidad de la actuación administrativa, así como su sometimiento a los fines que la justifican",
+      "Solo los actos de los particulares",
+      "Ninguna actuación administrativa"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 106.1 CE establece el control judicial de la potestad reglamentaria y de la legalidad de la actuación administrativa, así como de su sometimiento a los fines que la justifican.",
+     "referencia": "Art. 106.1 CE"
+    },
+    {
+     "pregunta": "Según el art. 112.3 LPAC, ¿cabe recurso administrativo contra una disposición administrativa de carácter general?",
+     "opciones": [
+      "Sí, el de alzada",
+      "Sí, el de reposición",
+      "Sí, el extraordinario de revisión",
+      "No cabe recurso en vía administrativa"
+     ],
+     "correcta": 3,
+     "explicacion": "Contra las disposiciones administrativas de carácter general no cabe recurso en vía administrativa, aunque el recurso contra un acto puede fundarse en su nulidad.",
+     "referencia": "Art. 112.3 LPAC"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué significa revisar un acto administrativo",
+     "parrafos": [
+      "Revisar un acto administrativo es someterlo a un nuevo examen para comprobar si es conforme a Derecho. La Administración puede hacerlo por iniciativa propia o a instancia del interesado. El tema distingue dos vías: la revisión de oficio, que la Administración ejerce sobre sus propios actos, y los recursos administrativos, que los interesados interponen contra ellos.",
+      "La regulación básica está en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (LPAC). Sus artículos 106 a 111 regulan la revisión de oficio, y los artículos 112 a 126 los recursos administrativos. La jurisdicción contencioso-administrativa, que controla después la legalidad de la actuación administrativa, se regula en la Ley 29/1998 (LJCA).",
+      "Para un examen, la pregunta de partida es siempre la misma: ¿existe un acto firme o un acto impugnable? Según la respuesta, cabe revisión de oficio, recurso administrativo, recurso contencioso o ninguna vía."
+     ]
+    },
+    {
+     "titulo": "2. La revisión de oficio de los actos nulos",
+     "parrafos": [
+      "El artículo 106.1 LPAC permite a las Administraciones, en cualquier momento, por iniciativa propia o a solicitud del interesado, declarar de oficio la nulidad de los actos que hayan puesto fin a la vía administrativa o que no hayan sido recurridos en plazo, en los supuestos del artículo 47.1. La declaración requiere dictamen favorable del Consejo de Estado u órgano consultivo equivalente de la Comunidad Autónoma, si lo hubiere.",
+      "El artículo 106.2 LPAC permite declarar la nulidad de las disposiciones administrativas en los supuestos del artículo 47.2, con el mismo dictamen previo.",
+      "Las causas de nulidad de pleno derecho del artículo 47.1 LPAC son: lesionar derechos y libertades susceptibles de amparo; ser dictados por órgano manifiestamente incompetente por razón de la materia o del territorio; tener un contenido imposible; ser constitutivos de infracción penal o dictarse como consecuencia de ella; prescindir total y absolutamente del procedimiento; adquirir facultades o derechos sin requisitos esenciales; y cualquier otra que una ley establezca expresamente.",
+      "Para un examen, recuérdese que la lista es cerrada y que el dictamen del Consejo de Estado es preceptivo para declarar la nulidad."
+     ]
+    },
+    {
+     "titulo": "3. La declaración de lesividad de los actos anulables",
+     "parrafos": [
+      "Los actos anulables, según el artículo 48 LPAC, son los que incurren en cualquier infracción del ordenamiento jurídico, incluida la desviación de poder. El defecto de forma solo produce anulabilidad cuando el acto carece de los requisitos formales indispensables para alcanzar su fin o da lugar a indefensión.",
+      "Cuando el acto anulable es favorable para el interesado, la Administración no puede anularlo directamente: debe impugnarlo ante el orden contencioso-administrativo, previa declaración de lesividad para el interés público (art. 107.1 LPAC). La declaración de lesividad no puede adoptarse una vez transcurridos cuatro años desde que se dictó el acto, y exige la previa audiencia de quienes aparezcan como interesados (art. 107.2 LPAC).",
+      "Si el acto proviene de la Administración General del Estado o de una Comunidad Autónoma, la declaración la adopta el órgano de cada Administración competente en la materia. Si proviene de la Administración local, la adopta el Pleno de la Corporación o, en su defecto, el órgano colegiado superior (art. 107.4 y 107.5 LPAC).",
+      "Para un examen, la diferencia básica es que el acto nulo puede anularlo la propia Administración con dictamen previo, mientras que el acto anulable favorable exige declaración de lesividad y acudir al contencioso."
+     ]
+    },
+    {
+     "titulo": "4. Plazos, límites y suspensión de la revisión",
+     "parrafos": [
+      "El procedimiento de revisión de oficio que se inicia de oficio caduca si transcurren seis meses sin resolución (art. 106.5 LPAC). Si se inicia a solicitud del interesado, la falta de resolución puede entenderse desestimada por silencio. La declaración de lesividad tiene la misma caducidad a los seis meses (art. 107.3 LPAC).",
+      "El artículo 110 LPAC establece un límite general: las facultades de revisión no pueden ejercerse cuando, por prescripción de acciones, por el tiempo transcurrido o por otras circunstancias, su ejercicio resulte contrario a la equidad, a la buena fe, al derecho de los particulares o a las leyes.",
+      "El artículo 108 LPAC permite suspender la ejecución del acto durante el procedimiento de revisión cuando la ejecución pudiera causar perjuicios de imposible o difícil reparación.",
+      "El artículo 106.4 LPAC permite que la resolución que declara la nulidad establezca, en la misma resolución, las indemnizaciones que procedan, si se dan las circunstancias de los artículos 32.2 y 34.1 de la Ley 40/2015."
+     ]
+    },
+    {
+     "titulo": "5. Revocación y rectificación de errores",
+     "parrafos": [
+      "El artículo 109.1 LPAC permite a las Administraciones revocar sus actos de gravamen o desfavorables mientras no haya transcurrido el plazo de prescripción, siempre que la revocación no constituya una dispensa o exención no permitida por las leyes, no sea contraria al principio de igualdad, al interés público o al ordenamiento jurídico.",
+      "El artículo 109.2 LPAC permite rectificar en cualquier momento, de oficio o a instancia de los interesados, los errores materiales, de hecho o aritméticos de sus actos.",
+      "Para un examen, la revocación se distingue de la nulidad y de la anulabilidad: no busca un vicio de legalidad del acto sino dejarlo sin efecto por razones de oportunidad y límites del 109.1, y la rectificación no altera el contenido del acto, solo corrige el error material."
+     ]
+    },
+    {
+     "titulo": "6. La competencia para la revisión de oficio",
+     "parrafos": [
+      "El artículo 111 LPAC fija la competencia en el ámbito estatal. Es competente el Consejo de Ministros respecto de sus propios actos y disposiciones y de los dictados por los ministros. Los ministros son competentes respecto de los actos de los secretarios de Estado y de los órganos directivos de su departamento no dependientes de una Secretaría de Estado. Los secretarios de Estado son competentes respecto de los órganos directivos dependientes de ellos.",
+      "Para los organismos públicos y entidades de derecho público vinculados a la Administración General del Estado, la competencia la tienen los órganos de adscripción y los máximos órganos rectores, según el caso (art. 111.c LPAC).",
+      "Para un examen, en el ámbito de las comunidades autónomas y de la Administración local, la competencia la fijan sus propias normas, dentro de los principios de la LPAC."
+     ]
+    },
+    {
+     "titulo": "7. Concepto de recurso administrativo y su objeto",
+     "parrafos": [
+      "Un recurso administrativo es el medio por el que el interesado pide a la Administración que revise una resolución o un acto. El artículo 112.1 LPAC establece que contra las resoluciones y los actos de trámite, cuando estos últimos decidan directa o indirectamente el fondo, determinen la imposibilidad de continuar el procedimiento, produzcan indefensión o perjuicio irreparable, pueden interponerse los recursos de alzada y potestativo de reposición. Pueden fundarse en cualquiera de las causas de nulidad o anulabilidad de los artículos 47 y 48.",
+      "Los demás actos de trámite pueden alegarse para su consideración en la resolución que ponga fin al procedimiento (art. 112.1 LPAC). Contra las disposiciones administrativas de carácter general no cabe recurso en vía administrativa (art. 112.3 LPAC), aunque un recurso contra un acto puede fundarse en la nulidad de una disposición general, ante el órgano que la dictó.",
+      "Las leyes pueden sustituir el recurso de alzada, en ámbitos sectoriales determinados, por otros procedimientos de impugnación, reclamación, conciliación, mediación o arbitraje, respetando los principios y plazos de la LPAC (art. 112.2 LPAC). Las reclamaciones económico-administrativas se rigen por su legislación específica (art. 112.4 LPAC)."
+     ]
+    },
+    {
+     "titulo": "8. Clases de recursos administrativos",
+     "parrafos": [
+      "La LPAC regula tres clases de recurso. El recurso de alzada (arts. 121 y 122) se interpone ante el órgano superior jerárquico del que dictó el acto, y se interpone contra los actos que no ponen fin a la vía administrativa.",
+      "El recurso potestativo de reposición (arts. 123 y 124) se interpone ante el mismo órgano que dictó el acto que pone fin a la vía administrativa, o se puede acudir directamente al contencioso. Es potestativo porque el interesado puede elegir.",
+      "El recurso extraordinario de revisión (arts. 125 y 126) se interpone contra los actos firmes en vía administrativa, y solo en las causas tasadas del artículo 125.1 LPAC. Contra los actos firmes sin ninguna de esas causas no cabe este recurso (art. 113 LPAC)."
+     ]
+    },
+    {
+     "titulo": "9. Principios generales de la tramitación de los recursos",
+     "parrafos": [
+      "El artículo 115 LPAC exige que la interposición exprese el nombre del recurrente, el acto recurrido y la razón de su impugnación, el lugar, la fecha y la firma, y el órgano al que se dirige. El error en la calificación del recurso no impide su tramitación si se deduce su verdadero carácter (art. 115.2 LPAC).",
+      "El artículo 116 LPAC enumera las causas de inadmisión: incompetencia del órgano (remitiendo el recurso al competente), falta de legitimación, acto no susceptible de recurso, transcurso del plazo, y falta manifiesta de fundamento.",
+      "El artículo 117 LPAC establece que la interposición del recurso no suspende la ejecución del acto, salvo disposición en contrario. El órgano que resuelve puede suspenderla, de oficio o a solicitud, cuando la ejecución pudiera causar perjuicios de imposible o difícil reparación o cuando el recurso se funde en nulidad de pleno derecho. Si transcurre un mes desde que se solicitó la suspensión sin resolución expresa, la ejecución se entiende suspendida.",
+      "El artículo 119 LPAC regula la resolución: puede estimar, estimar en parte, desestimar o declarar la inadmisión. La resolución debe ser congruente con las peticiones del recurrente, y en ningún caso puede agravar su situación inicial."
+     ]
+    },
+    {
+     "titulo": "10. El recurso de alzada",
+     "parrafos": [
+      "El plazo para interponer el recurso de alzada es de un mes si el acto es expreso (art. 122.1 LPAC). Si no es expreso, puede interponerse en cualquier momento a partir del día siguiente a aquel en que se produzcan los efectos del silencio.",
+      "El plazo máximo para dictar y notificar la resolución es de tres meses. Transcurrido sin resolución, puede entenderse desestimado (art. 122.2 LPAC).",
+      "Contra la resolución de un recurso de alzada no cabe ningún otro recurso administrativo, salvo el extraordinario de revisión (art. 122.3 LPAC). Por eso la resolución de la alzada pone fin a la vía administrativa (art. 114.1.a LPAC).",
+      "El silencio en la alzada es desestimatorio. Si transcurren tres meses sin resolución expresa, el interesado puede entender desestimado el recurso (art. 122.2 LPAC). Frente a esa desestimación presunta, el plazo para acudir al contencioso es de seis meses (art. 46.1 LJCA)."
+     ]
+    },
+    {
+     "titulo": "11. El recurso potestativo de reposición",
+     "parrafos": [
+      "Los actos que ponen fin a la vía administrativa pueden recurrirse potestativamente en reposición ante el mismo órgano que los dictó, o impugnarse directamente ante el contencioso (art. 123.1 LPAC). No se puede interponer contencioso hasta que se resuelva expresamente el recurso de reposición o se produzca la desestimación presunta (art. 123.2 LPAC).",
+      "El plazo para interponer la reposición es de un mes si el acto es expreso (art. 124.1 LPAC). El plazo máximo para resolverla es de un mes (art. 124.2 LPAC). Contra la resolución de la reposición no puede interponerse de nuevo ese recurso (art. 124.3 LPAC).",
+      "Para un examen, el punto clave es que la reposición es opcional: el interesado puede ir directamente al contencioso, cuyo plazo se cuenta desde la notificación de la resolución del recurso de reposición (art. 46.4 LJCA)."
+     ]
+    },
+    {
+     "titulo": "12. El recurso extraordinario de revisión",
+     "parrafos": [
+      "El recurso extraordinario de revisión (art. 125 LPAC) procede contra los actos firmes en vía administrativa cuando concurra alguna de estas causas: error de hecho que resulte de los propios documentos del expediente; aparición de documentos de valor esencial que evidencien el error; documentos o testimonios declarados falsos por sentencia firme que influyeron; o resolución dictada como consecuencia de prevaricación, cohecho, violencia u otra conducta punible declarada por sentencia firme.",
+      "El plazo es de cuatro años desde la notificación de la resolución cuando la causa es el error de hecho. En los demás casos, el plazo es de tres meses desde el conocimiento de los documentos o desde que la sentencia quedó firme (art. 125.2 LPAC).",
+      "El órgano que resuelve puede inadmitir a trámite si no se funda en una de esas causas o si se han desestimado otros recursos sustancialmente iguales (art. 126.1 LPAC). Si transcurren tres meses sin resolución, el recurso se entiende desestimado y queda expedita la vía contencioso-administrativa (art. 126.3 LPAC)."
+     ]
+    },
+    {
+     "titulo": "13. Actos que ponen fin a la vía administrativa",
+     "parrafos": [
+      "El artículo 114.1 LPAC enumera los actos que ponen fin a la vía administrativa: las resoluciones de los recursos de alzada; las resoluciones de los procedimientos del artículo 112.2 (sustitutivos del alzada); las resoluciones de los órganos que carecen de superior jerárquico, salvo ley en contrario; los acuerdos, pactos, convenios o contratos que tengan carácter finalizador del procedimiento; las resoluciones de responsabilidad patrimonial; y las demás resoluciones que una disposición lo establezca.",
+      "Conviene distinguir este concepto de la firmeza. Un acto que no pone fin a la vía administrativa puede recurrirse en alzada; el que la pone puede recurrirse en reposición, o directamente en el contencioso. La firmeza es la situación del acto que ya no admite recurso ordinario.",
+      "Para un examen, la pregunta típica es si cabe reposición. Respuesta: solo contra los actos que ponen fin a la vía administrativa (art. 123.1 LPAC)."
+     ]
+    },
+    {
+     "titulo": "14. Diferencias entre alzada, reposición y revisión",
+     "parrafos": [
+      "El recurso de alzada se interpone ante el superior jerárquico, contra actos no finalizadores, y tiene plazo de un mes y resolución en tres meses. El recurso de reposición se interpone ante el mismo órgano, contra actos finalizadores, con plazo de un mes y resolución en un mes.",
+      "El recurso extraordinario de revisión no es un recurso ordinario: se interpone contra actos firmes, solo por las causas tasadas del artículo 125.1, y su plazo depende de la causa.",
+      "Para un examen, la tabla mental es: alzada para actos de trámite con efectos; reposición para actos finalizadores y opcional; extraordinario para actos firmes con vicio tasado."
+     ]
+    },
+    {
+     "titulo": "15. La jurisdicción contencioso-administrativa: concepto y naturaleza",
+     "parrafos": [
+      "La jurisdicción contencioso-administrativa es el orden de los tribunales que controla la actuación de la Administración sujeta al Derecho administrativo. El artículo 106.1 de la Constitución establece que los tribunales controlan la potestad reglamentaria y la legalidad de la actuación administrativa, así como el sometimiento de esta a los fines que la justifican.",
+      "El artículo 1.1 LJCA atribuye a los juzgados y tribunales del orden contencioso-administrativo las pretensiones que se deduzcan en relación con la actuación de las Administraciones públicas sujeta al Derecho administrativo, con las disposiciones generales de rango inferior a la ley y con los decretos legislativos cuando excedan de la delegación.",
+      "El artículo 1.2 LJCA define a las Administraciones públicas: la Administración General del Estado, las de las comunidades autónomas, las entidades que integran la Administración local, y las entidades de derecho público dependientes de ellas."
+     ]
+    },
+    {
+     "titulo": "16. Competencias y exclusiones de la jurisdicción",
+     "parrafos": [
+      "El artículo 2 LJCA enumera materias que conoce el orden contencioso-administrativo: la protección de los derechos fundamentales y los elementos reglados de los actos del Gobierno; los contratos administrativos y los actos de preparación y adjudicación de otros contratos sujetos a la legislación de contratación; los actos de las corporaciones de derecho público en ejercicio de funciones públicas; la responsabilidad patrimonial de las Administraciones públicas; y las materias que una ley le atribuya.",
+      "El artículo 3 LJCA excluye materias que corresponden a otros órdenes: las atribuidas a los órdenes civil, penal y social, aunque se relacionen con la Administración; el recurso contencioso-disciplinario militar; y los conflictos de jurisdicción y de atribuciones.",
+      "El artículo 5.1 LJCA declara que la jurisdicción contencioso-administrativa es improrrogable. Los órganos apreciarán de oficio la falta de jurisdicción (art. 5.2 LJCA)."
+     ]
+    },
+    {
+     "titulo": "17. Actos recurribles ante el contencioso",
+     "parrafos": [
+      "El artículo 25.1 LJCA establece que el recurso contencioso-administrativo es admisible contra las disposiciones de carácter general y contra los actos expresos y presuntos que pongan fin a la vía administrativa. También son admisibles los actos de trámite si deciden directa o indirectamente el fondo, determinan la imposibilidad de continuar el procedimiento, producen indefensión o perjuicio irreparable.",
+      "El artículo 25.2 LJCA admite también el recurso contra la inactividad de la Administración y contra las actuaciones materiales que constituyan vía de hecho.",
+      "El artículo 26 LJCA permite impugnar los actos de aplicación de una disposición general aunque esta no se haya impugnado directamente, fundando la impugnación en que la disposición no es conforme a Derecho."
+     ]
+    },
+    {
+     "titulo": "18. Plazos, inicio y partes del recurso",
+     "parrafos": [
+      "El artículo 46.1 LJCA establece que el plazo para interponer el recurso es de dos meses desde el día siguiente a la publicación de la disposición o a la notificación o publicación del acto que pone fin a la vía administrativa, si es expreso. Si no lo es, el plazo es de seis meses desde el día siguiente al acto presunto.",
+      "El artículo 46.4 LJCA dispone que el plazo se cuenta desde el día siguiente a la notificación de la resolución del recurso potestativo de reposición, o desde que deba entenderse desestimado. El plazo de lesividad es de dos meses (art. 46.5 LJCA).",
+      "El artículo 45.1 LJCA dispone que el recurso se inicia por un escrito que cita la disposición o acto impugnado y solicita que se tenga por interpuesto. Ese escrito se acompaña de los documentos del artículo 45.2 LJCA, como la representación y la copia del acto."
+     ]
+    },
+    {
+     "titulo": "19. Órganos competentes",
+     "parrafos": [
+      "El artículo 8 LJCA atribuye a los juzgados de lo contencioso-administrativo, en única o primera instancia, los recursos frente a los actos de las entidades locales y frente a los actos de la administración autonómica, con las excepciones del propio precepto. Las salas de los tribunales superiores y la Audiencia Nacional tienen otras competencias, que se reparten en los artículos siguientes, cuyo detalle no se ha verificado en este tema.",
+      "Para un examen, conviene recordar que los juzgados conocen en única o primera instancia de los supuestos del artículo 8 LJCA, y que el resto de la distribución corresponde a las salas de los tribunales y a la Audiencia Nacional. La distribución exacta debe comprobarse en los artículos 8 a 12 LJCA."
+     ]
+    },
+    {
+     "titulo": "20. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema c14 sobre el procedimiento administrativo, porque la revisión y los recursos se apoyan en las reglas de nulidad, anulabilidad y en el procedimiento de la LPAC.",
+      "Se conecta con el tema c16 sobre los contratos de la Administración, porque los contratos administrativos se impugnan ante el contencioso (art. 27 LCSP), y la nulidad de los actos de adjudicación se revisa de oficio conforme a la LPAC (art. 41 LCSP).",
+      "Para un examen, el tema es la cadena de control: primero la propia Administración (revisión y recursos), después los tribunales."
+     ]
+    },
+    {
+     "titulo": "21. Errores frecuentes en el examen",
+     "parrafos": [
+      "Afirmar que la revisión de oficio de un acto nulo no requiere dictamen del Consejo de Estado. El artículo 106.1 LPAC exige dictamen favorable.",
+      "Confundir la nulidad de pleno derecho con la anulabilidad. La nulidad está en el artículo 47 y la anulabilidad en el 48.",
+      "Pensar que la declaración de lesividad puede adoptarse sin límite de tiempo. Caduca a los cuatro años desde que se dictó el acto (art. 107.2 LPAC).",
+      "Afirmar que el recurso de reposición es obligatorio antes del contencioso. Es potestativo (art. 123.1 LPAC).",
+      "Afirmar que el recurso extraordinario de revisión cabe contra cualquier acto firme. Solo cabe por las causas del artículo 125.1 LPAC.",
+      "Confundir la caducidad del procedimiento de revisión, a los seis meses (art. 106.5 LPAC), con el límite de prescripción y de equidad del artículo 110 LPAC.",
+      "Afirmar que la declaración de lesividad es recurrible. No lo es, aunque se notifique a efectos informativos (art. 107.2 LPAC)."
+     ]
+    },
+    {
+     "titulo": "22. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué plazo tiene la Administración para declarar la lesividad? Cuatro años desde que se dictó el acto (art. 107.2 LPAC).",
+      "¿Qué plazo tiene para interponer un recurso de alzada contra un acto expreso? Un mes (art. 122.1 LPAC).",
+      "¿Cuánto tiene el órgano para resolver una reposición? Un mes (art. 124.2 LPAC).",
+      "¿Cuándo caduca un procedimiento de revisión de oficio iniciado de oficio? A los seis meses sin resolución (art. 106.5 LPAC).",
+      "¿Qué jurisdicción controla la legalidad de la actuación administrativa? La contencioso-administrativa (art. 106.1 CE y art. 1 LJCA).",
+      "¿Cuál es el plazo para interponer el recurso contencioso tras un acto expreso que pone fin a la vía? Dos meses (art. 46.1 LJCA).",
+      "¿Qué ocurre si la Administración no resuelve la alzada en tres meses? Puede entenderse desestimado el recurso por silencio (art. 122.2 LPAC)."
+     ]
+    },
+    {
+     "titulo": "23. Claves para el examen",
+     "parrafos": [
+      "Nulidad: artículo 47 LPAC; revisión de oficio con dictamen favorable del Consejo de Estado (art. 106.1 LPAC).",
+      "Anulabilidad favorable: declaración de lesividad, audiencia y plazo de cuatro años (art. 107 LPAC).",
+      "Límites: equidad y buena fe (art. 110 LPAC); caducidad a los seis meses (art. 106.5 LPAC).",
+      "Recursos: alzada (un mes; tres meses para resolver), reposición (potestativa; un mes y un mes), extraordinario de revisión (causas tasadas; cuatro años o tres meses).",
+      "Fin de la vía administrativa: artículo 114 LPAC.",
+      "Contencioso: artículo 106.1 CE; ámbito del artículo 1 LJCA; contratos y responsabilidad patrimonial en el artículo 2; plazo de dos meses del artículo 46 LJCA.",
+      "Silencio: en la alzada, desestimación presunta a los tres meses (art. 122.2 LPAC); en el extraordinario de revisión, también a los tres meses (art. 126.3 LPAC)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 39/2015, del Procedimiento Administrativo Común (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+     "pdf": "leyes/BOE-A-2015-10565.pdf"
+    },
+    {
+     "nombre": "Ley 29/1998, reguladora de la Jurisdicción Contencioso-administrativa (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+     "pdf": "leyes/BOE-A-1998-16718.pdf"
+    },
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
+    }
+   ]
+  },
+  "c16": {
+   "resumen": [
+    {
+     "titulo": "Objeto y ámbito",
+     "puntos": [
+      "La LCSP regula la contratación del sector público con publicidad, concurrencia, igualdad y eficiente uso de los fondos (art. 1.1 LCSP).",
+      "Forman parte del sector público la Administración General del Estado, las autonómicas, las locales, la Seguridad Social, los organismos autónomos, las universidades públicas y las fundaciones públicas (art. 3.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Calificación y tipos de contrato",
+     "puntos": [
+      "Obras, concesión de obras, concesión de servicios, suministro y servicios se califican según la ley (art. 12.1 LCSP). El contrato de obras es la ejecución de una obra, aislada o con el proyecto (art. 13 LCSP).",
+      "Son contratos administrativos los celebrados por una Administración de obra, concesión, suministro y servicios, con excepciones (art. 25.1 LCSP). En los privados, la preparación y la adjudicación se someten al contencioso (art. 27.1.b LCSP)."
+     ]
+    },
+    {
+     "titulo": "Necesidad y expediente",
+     "puntos": [
+      "Solo pueden celebrarse los contratos necesarios para los fines institucionales, con necesidad e idoneidad determinadas antes de iniciar el procedimiento (art. 28.1 LCSP).",
+      "El expediente se inicia motivando la necesidad, se publica en el perfil de contratante y se completa con los pliegos (art. 116 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Órganos, capacidad y solvencia",
+     "puntos": [
+      "Representan a la Administración los órganos de contratación, unipersonales o colegiados (art. 61.1 LCSP). El responsable del contrato supervisa su ejecución (art. 62.1 LCSP).",
+      "Para contratar se exige plena capacidad de obrar, no estar prohibido, solvencia acreditada y habilitación si es exigible (arts. 65 y 71 LCSP). La solvencia debe estar vinculada al objeto y ser proporcional (art. 74 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Invalidez",
+     "puntos": [
+      "Son inválidos los contratos con causa de derecho civil, con actos preparatorios inválidos por causa administrativa, o por ilegalidad del clausulado (art. 38 LCSP).",
+      "La nulidad de la adjudicación lleva consigo la del contrato, que entra en liquidación; la nulidad de otros actos solo les afecta a ellos (art. 42 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Adjudicación y formalización",
+     "puntos": [
+      "La adjudicación se hace con pluralidad de criterios de mejor relación calidad-precio (art. 145 LCSP). Con un único criterio de precio, la mejor oferta es la de precio más bajo (art. 150.1 LCSP).",
+      "El plazo es de quince días con precio único y de dos meses con varios criterios (art. 158 LCSP). El contrato se perfecciona con su formalización (art. 36.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Ejecución, modificación y extinción",
+     "puntos": [
+      "La ejecución se rige por el riesgo y ventura del contratista (art. 197 LCSP). La modificación solo cabe por interés público y en los casos de los artículos 204 y 205 LCSP (art. 203 LCSP).",
+      "Los contratos se extinguen por cumplimiento o resolución (art. 209 LCSP). Las causas de resolución están en el artículo 211 LCSP y sus efectos en el artículo 213 LCSP."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LCSP",
+     "rol": "Norma principal del tema (arts. 1, 3, 12, 13, 25 a 28, 36, 38 a 42, 61, 62, 65, 71, 74, 116, 145, 150, 153, 158, 190, 197, 203, 209, 211, 213)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 1.1 LCSP, ¿cuál es uno de los principios de la contratación del sector público?",
+     "opciones": [
+      "La publicidad y transparencia de los procedimientos",
+      "La adjudicación discrecional sin criterios",
+      "La exclusión de los licitadores extranjeros",
+      "La contratación secreta para proteger la competencia"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 1.1 LCSP exige que la contratación se ajuste a los principios de libre acceso a las licitaciones, publicidad, transparencia, no discriminación e igualdad de trato.",
+     "referencia": "Art. 1.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 3.1 LCSP, ¿están incluidos los organismos autónomos en el sector público a efectos de la ley?",
+     "opciones": [
+      "Solo si son fundaciones",
+      "No, quedan fuera de la ley",
+      "Sí, están incluidos (letra c)",
+      "Solo si son mercantiles"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 3.1.c LCSP incluye a los organismos autónomos, las universidades públicas y las autoridades administrativas independientes.",
+     "referencia": "Art. 3.1.c LCSP"
+    },
+    {
+     "pregunta": "Según el art. 13 LCSP, ¿qué es un contrato de obras?",
+     "opciones": [
+      "El que solo tiene por objeto la redacción de planos",
+      "El de limpieza de edificios",
+      "Un contrato de suministro de materiales",
+      "El que tiene por objeto la ejecución de una obra, aislada o con la redacción del proyecto"
+     ],
+     "correcta": 3,
+     "explicacion": "El contrato de obras tiene por objeto la ejecución de una obra, aislada o conjuntamente con la redacción del proyecto, o trabajos del anexo I.",
+     "referencia": "Art. 13.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 25.1 LCSP, ¿qué carácter tienen los contratos de obra que celebra una Administración Pública?",
+     "opciones": [
+      "Civil",
+      "Privado, en todo caso",
+      "Administrativo, con las excepciones de la propia ley",
+      "Laboral"
+     ],
+     "correcta": 2,
+     "explicacion": "Los contratos de obra celebrados por una Administración tienen carácter administrativo, salvo las excepciones que el propio art. 25.1 enumera.",
+     "referencia": "Art. 25.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 61.1 LCSP, ¿quién representa a las entidades del sector público en materia contractual?",
+     "opciones": [
+      "Cualquier empleado público",
+      "Los órganos de contratación, unipersonales o colegiados, con facultad atribuida",
+      "El director facultativo de la obra",
+      "El contratista"
+     ],
+     "correcta": 1,
+     "explicacion": "La representación corresponde a los órganos de contratación, unipersonales o colegiados, que tengan la facultad de celebrar contratos en nombre de la entidad.",
+     "referencia": "Art. 61.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 65.1 LCSP, ¿qué se exige para contratar con el sector público?",
+     "opciones": [
+      "Tener más de diez años de antigüedad",
+      "Haber contratado antes con la misma Administración",
+      "Solo ser una persona jurídica española",
+      "Plena capacidad de obrar, no estar prohibido para contratar y acreditar la solvencia"
+     ],
+     "correcta": 3,
+     "explicacion": "Se exige plena capacidad de obrar, no estar incurso en prohibición de contratar, y acreditar la solvencia o estar clasificado cuando la ley lo exija.",
+     "referencia": "Art. 65.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 74.2 LCSP, ¿cómo deben ser los requisitos mínimos de solvencia?",
+     "opciones": [
+      "Vinculados al objeto del contrato y proporcionales a él",
+      "Fijados solo por el contratista",
+      "Iguales para todos los contratos",
+      "Libres, sin relación con el objeto"
+     ],
+     "correcta": 0,
+     "explicacion": "Los requisitos mínimos de solvencia deben estar vinculados al objeto del contrato y ser proporcionales a él, y figurar en el anuncio y en el pliego.",
+     "referencia": "Art. 74.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 42.1 LCSP, ¿qué consecuencia tiene la declaración firme de nulidad de la adjudicación?",
+     "opciones": [
+      "No tiene efectos",
+      "Solo se anula el acto de adjudicación, y el contrato sigue vigente",
+      "Lleva consigo la nulidad del contrato, que entra en liquidación",
+      "Se convierte en una simple anulabilidad"
+     ],
+     "correcta": 2,
+     "explicacion": "La declaración firme de nulidad de los actos preparatorios o de la adjudicación lleva consigo la del contrato, que entra en fase de liquidación.",
+     "referencia": "Art. 42.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 158.1 LCSP, ¿en qué plazo debe producirse la adjudicación cuando el único criterio es el precio?",
+     "opciones": [
+      "Sin plazo fijado",
+      "En quince días desde el siguiente a la apertura de proposiciones",
+      "En dos meses desde la apertura",
+      "En seis meses desde la formalización"
+     ],
+     "correcta": 1,
+     "explicacion": "Con precio como único criterio, la adjudicación debe recaer en quince días desde el siguiente a la apertura de las proposiciones.",
+     "referencia": "Art. 158.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 36.1 LCSP, ¿cuándo se perfeccionan los contratos de los poderes adjudicadores, salvo los menores?",
+     "opciones": [
+      "Con el inicio de la obra",
+      "Con la recepción",
+      "Con la oferta del licitador",
+      "Con la formalización del contrato"
+     ],
+     "correcta": 3,
+     "explicacion": "Los contratos se perfeccionan con su formalización, salvo los contratos menores, los basados en acuerdos marco y los específicos de sistemas dinámicos.",
+     "referencia": "Art. 36.1 LCSP"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Objeto y finalidad de la ley de contratos",
+     "parrafos": [
+      "La Ley 9/2017, de Contratos del Sector Público (LCSP), tiene por objeto regular la contratación del sector público para garantizar que se ajusta a los principios de libre acceso a las licitaciones, publicidad y transparencia, no discriminación e igualdad de trato entre los licitadores (art. 1.1 LCSP).",
+      "Además, la ley busca asegurar una eficiente utilización de los fondos destinados a obras, bienes y servicios, mediante la definición previa de las necesidades, la salvaguarda de la libre competencia y la selección de la oferta económicamente más ventajosa. El artículo 1.1 LCSP enlaza esta finalidad con la estabilidad presupuestaria, el control del gasto y el principio de integridad.",
+      "El artículo 1.2 LCSP añade que la ley regula el régimen jurídico de los efectos, el cumplimiento y la extinción de los contratos administrativos. Para un examen, la finalidad tiene dos partes: la de procedimiento (publicidad, concurrencia, igualdad) y la de gasto eficiente."
+     ]
+    },
+    {
+     "titulo": "2. Ámbito subjetivo: quién está sometido a la ley",
+     "parrafos": [
+      "El artículo 3.1 LCSP considera que forman parte del sector público la Administración General del Estado, las de las comunidades autónomas, las ciudades de Ceuta y Melilla, y las entidades que integran la Administración local (art. 3.1.a LCSP). También lo son la Seguridad Social, los organismos autónomos, las universidades públicas, las autoridades administrativas independientes, los consorcios con personalidad jurídica y las fundaciones públicas.",
+      "Para un examen, la pregunta típica es si una entidad está sujeta a la LCSP. La respuesta depende de su naturaleza pública: la lista del artículo 3 es la guía, y las entidades que no son Administración tienen un régimen de contratación que la ley delimita.",
+      "El artículo 4 LCSP remite al régimen de los negocios jurídicos excluidos, que son los que la ley deja fuera de su ámbito, en los artículos 5 a 11. Estos supuestos excluidos no se estudian en detalle en este tema."
+     ]
+    },
+    {
+     "titulo": "3. Calificación de los contratos",
+     "parrafos": [
+      "El artículo 12 LCSP establece que los contratos de obras, de concesión de obras, de concesión de servicios, de suministro y de servicios que celebren las entidades del sector público se califican conforme a la sección de la ley que los regula. Los restantes contratos se califican según el derecho administrativo o el privado que les sea aplicable (art. 12.2 LCSP).",
+      "El contrato de obras (art. 13 LCSP) tiene por objeto la ejecución de una obra, aislada o conjuntamente con la redacción del proyecto, o la realización de algunos de los trabajos del anexo I. Por obra se entiende el resultado de un conjunto de trabajos de construcción o de ingeniería civil, destinado a cumplir por sí mismo una función económica o técnica.",
+      "Los demás contratos tienen su propia definición en la ley: concesión de obras (art. 14), concesión de servicios (art. 15), suministro (art. 16) y servicios (art. 17). Los contratos mixtos se regulan en el artículo 18 LCSP."
+     ]
+    },
+    {
+     "titulo": "4. Contratos administrativos y contratos privados",
+     "parrafos": [
+      "El artículo 25.1 LCSP establece que tienen carácter administrativo los contratos de obra, concesión de obra, concesión de servicios, suministro y servicios que celebre una Administración Pública, con excepciones: algunos contratos de servicios de carácter financiero, artístico o de espectáculos tienen carácter privado.",
+      "El artículo 26 LCSP regula los contratos privados, es decir, los que no tienen carácter administrativo conforme al artículo 25. Su régimen se completa con el derecho privado que les sea aplicable (art. 12.2 LCSP).",
+      "Para un examen, la clasificación importa por la jurisdicción. El artículo 27.1.a LCSP atribuye al contencioso la preparación, adjudicación, efectos, modificación y extinción de los contratos administrativos. En los privados, en cambio, la preparación y la adjudicación se someten al contencioso (art. 27.1.b LCSP)."
+     ]
+    },
+    {
+     "titulo": "5. Necesidad e idoneidad del contrato",
+     "parrafos": [
+      "El artículo 28.1 LCSP establece que las entidades del sector público solo pueden celebrar los contratos necesarios para el cumplimiento de sus fines institucionales. La naturaleza y extensión de las necesidades, y la idoneidad del objeto y del contenido para satisfacerlas, deben determinarse con precisión y dejar constancia en la documentación preparatoria, antes de iniciar el procedimiento.",
+      "Este principio es la base del expediente de contratación. El artículo 116.1 LCSP exige que el expediente se inicie motivando la necesidad del contrato en los términos del artículo 28, y que se publique en el perfil de contratante.",
+      "Para un examen, la pregunta típica es qué debe justificarse antes de contratar. Respuesta: la necesidad y la idoneidad, con precisión y por escrito, antes de iniciar el procedimiento (art. 28 LCSP)."
+     ]
+    },
+    {
+     "titulo": "6. El expediente de contratación",
+     "parrafos": [
+      "El artículo 116.1 LCSP exige que la celebración de contratos por las Administraciones Públicas requiera la previa tramitación del correspondiente expediente, que inicia el órgano de contratación motivando la necesidad. El expediente se publica en el perfil de contratante.",
+      "El artículo 116.2 LCSP establece que el expediente debe referirse a la totalidad del objeto del contrato, sin perjuicio de los contratos por lotes. El artículo 116.3 LCSP exige incorporar al expediente el pliego de cláusulas administrativas particulares y el de prescripciones técnicas.",
+      "Para un examen, el orden es: necesidad motivada, expediente completo con pliegos y publicación en el perfil. La aprobación del expediente se regula en el artículo 117 LCSP, que no se ha verificado en este tema.",
+      "El perfil de contratante es el medio de publicidad de la contratación (art. 63 LCSP). El expediente se publica en él (art. 116.1 LCSP), y las modificaciones también, en cinco días desde su aprobación (art. 207.3 LCSP)."
+     ]
+    },
+    {
+     "titulo": "7. El órgano de contratación y el responsable del contrato",
+     "parrafos": [
+      "El artículo 61.1 LCSP establece que la representación de las entidades del sector público en materia contractual corresponde a los órganos de contratación, unipersonales o colegiados, que tengan atribuida por norma legal, reglamentaria o estatutaria la facultad de celebrar contratos en su nombre.",
+      "El artículo 61.2 LCSP permite que los órganos de contratación deleguen o desconcentren sus competencias, con cumplimiento de las normas y formalidades aplicables a la delegación o desconcentración.",
+      "El artículo 62.1 LCSP exige designar un responsable del contrato, al que corresponde supervisar su ejecución y adoptar las decisiones y dictar las instrucciones necesarias para asegurar la correcta realización de la prestación. Puede ser una persona física o jurídica, vinculada a la entidad o ajena a ella. En los contratos de obras, sus facultades las ejerce el director facultativo (art. 62.2 LCSP)."
+     ]
+    },
+    {
+     "titulo": "8. Capacidad para contratar",
+     "parrafos": [
+      "El artículo 65.1 LCSP exige, para contratar con el sector público, plena capacidad de obrar, no estar incurso en prohibición de contratar, y acreditar la solvencia económica, financiera y técnica o profesional, o estar clasificado cuando la ley lo exige. Pueden ser personas naturales o jurídicas, españolas o extranjeras.",
+      "El artículo 65.2 LCSP exige, además, la habilitación empresarial o profesional que sea exigible para la prestación. Para un examen, la capacidad es la aptitud legal de obrar, y la habilitación es el título profesional para la actividad concreta.",
+      "El artículo 71.1 LCSP enumera las prohibiciones de contratar. La primera es haber sido condenado por sentencia firme por determinados delitos, como el cohecho, el tráfico de influencias o la prevaricación. Las prohibiciones producen los efectos del artículo 73 LCSP."
+     ]
+    },
+    {
+     "titulo": "9. Solvencia del empresario",
+     "parrafos": [
+      "El artículo 74.1 LCSP exige que los empresarios acrediten las condiciones mínimas de solvencia económica, financiera y técnica o profesional que determine el órgano de contratación. Este requisito se sustituye por la clasificación cuando esta es exigible.",
+      "El artículo 74.2 LCSP establece que los requisitos mínimos de solvencia deben indicarse en el anuncio de licitación y en el pliego, estar vinculados al objeto del contrato y ser proporcionales a él.",
+      "Para un examen, la regla es que la solvencia debe ser proporcional y vinculada al objeto. Un requisito desproporcionado o ajeno al objeto no cumple la ley. Los artículos 87 a 90 LCSP concretan los medios de acreditación, que no se han verificado en este tema.",
+      "Las garantías provisional y definitiva, y su devolución, se regulan en los artículos 106 a 114 LCSP. Su régimen detallado no se ha verificado en este tema y se estudia en el tema e30 para las garantías de los abonos a cuenta."
+     ]
+    },
+    {
+     "titulo": "10. Régimen de invalidez: supuestos",
+     "parrafos": [
+      "El artículo 38 LCSP establece que son inválidos los contratos celebrados por los poderes adjudicadores cuando concurra en ellos una causa de invalidez del derecho civil (letra a), cuando lo sea alguno de sus actos preparatorios o del procedimiento de adjudicación por causa de derecho administrativo (letra b), o cuando la invalidez derive de la ilegalidad de su clausulado (letra c).",
+      "Según el artículo 39.1 LCSP, las causas de nulidad de derecho administrativo son las del artículo 47 LPAC. El artículo 39.2.a LCSP añade como causas de nulidad la falta de capacidad, de solvencia o de habilitación, la falta de clasificación cuando proceda, y estar incurso en una prohibición de contratar.",
+      "El artículo 40 LCSP establece que son causas de anulabilidad las demás infracciones del ordenamiento y, en particular, el incumplimiento de los requisitos de modificación de los artículos 204 y 205 LCSP, conforme al artículo 48 LPAC."
+     ]
+    },
+    {
+     "titulo": "11. Régimen de invalidez: efectos y revisión de oficio",
+     "parrafos": [
+      "El artículo 41 LCSP remite la revisión de oficio de los actos preparatorios y de los actos de adjudicación al capítulo I del título V de la LPAC. Son competentes para declarar la nulidad o la lesividad el órgano de contratación, o el titular del departamento o ente al que esté adscrita la entidad contratante, en el caso de entidades que no sean Administración Pública (art. 41.3 LCSP).",
+      "El artículo 42.1 LCSP establece que la declaración firme de nulidad de los actos preparatorios o de la adjudicación lleva consigo la del propio contrato, que entra en fase de liquidación. Las partes deben restituirse recíprocamente lo recibido, y si no es posible, devolver su valor. La parte culpable indemniza a la contraria.",
+      "El artículo 42.2 LCSP dispone que la nulidad de los actos que no son preparatorios solo afecta a estos y a sus consecuencias. Para un examen, la diferencia es decisiva: la nulidad de la adjudicación arrastra al contrato, la de un acto posterior no."
+     ]
+    },
+    {
+     "titulo": "12. Procedimiento de adjudicación: criterios",
+     "parrafos": [
+      "El artículo 145.1 LCSP establece que la adjudicación se realiza utilizando una pluralidad de criterios en base a la mejor relación calidad-precio. Previa justificación, puede adjudicarse con criterios de coste-eficacia, sobre la base del precio o del coste, como el coste del ciclo de vida (art. 148).",
+      "El artículo 145.2 LCSP dispone que la mejor relación calidad-precio se evalúa con criterios económicos y cualitativos. Los criterios cualitativos pueden incluir aspectos medioambientales o sociales vinculados al objeto del contrato.",
+      "Para un examen, el criterio único es el precio: cuando el único criterio es el precio, la mejor oferta es la de precio más bajo (art. 150.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "13. Clasificación de las ofertas y plazos de adjudicación",
+     "parrafos": [
+      "El artículo 150.1 LCSP establece que la mesa de contratación, o en su defecto el órgano de contratación, clasifica las proposiciones por orden decreciente, atendiendo a los criterios del pliego, y puede pedir los informes técnicos que estime pertinentes.",
+      "El artículo 158.1 LCSP fija el plazo de adjudicación en quince días desde el siguiente a la apertura de proposiciones, cuando el único criterio es el precio. El artículo 158.2 LCSP fija dos meses si hay varios criterios, o si el único criterio es el menor coste del ciclo de vida, salvo que el pliego fije otro plazo.",
+      "El artículo 158.4 LCSP establece que, si no se adjudica en plazo, los licitadores pueden retirar su proposición y recuperar la garantía provisional, si la hubo. Para un examen, la pregunta típica es el plazo de adjudicación según los criterios: quince días con precio único, dos meses con varios criterios."
+     ]
+    },
+    {
+     "titulo": "14. Formalización y perfección del contrato",
+     "parrafos": [
+      "El artículo 36.1 LCSP establece que los contratos de los poderes adjudicadores, salvo los menores, los basados en un acuerdo marco y los específicos de un sistema dinámico, se perfeccionan con su formalización.",
+      "El artículo 153.1 LCSP dispone que los contratos deben formalizarse en documento administrativo que se ajuste con exactitud a las condiciones de la licitación. El documento es título suficiente para acceder a cualquier registro público. El contratista puede pedir elevarlo a escritura pública, a su cargo.",
+      "El mismo precepto prohíbe incluir en el documento de formalización cláusulas que alteren los términos de la adjudicación. Para un examen, la regla es que la formalización no puede cambiar lo adjudicado."
+     ]
+    },
+    {
+     "titulo": "15. El recurso especial en materia de contratación",
+     "parrafos": [
+      "El artículo 44.1 LCSP establece que son susceptibles de recurso especial en materia de contratación los actos relacionados con determinados contratos, según su valor estimado. Entre ellos, las obras de valor estimado superior a tres millones de euros, y los suministros y servicios de valor superior a cien mil euros.",
+      "Para un examen, conviene distinguir el recurso especial de contratación, que es una vía específica de la LCSP, del recurso administrativo general de la LPAC (tema c15). El contencioso sigue siendo la vía judicial de control (art. 27 LCSP)."
+     ]
+    },
+    {
+     "titulo": "16. La ejecución del contrato",
+     "parrafos": [
+      "La ejecución del contrato se rige por el principio de riesgo y ventura del contratista (art. 197 LCSP), y el órgano de contratación tiene las prerrogativas del artículo 190 LCSP, que incluyen interpretar el contrato, modificarlo por interés público, suspender su ejecución y acordar su resolución.",
+      "El artículo 198.1 LCSP reconoce el derecho del contratista al abono del precio convenido por la prestación realizada. El pago se hace en los términos de la ley y del contrato (tema e30).",
+      "Para un examen, el régimen de la ejecución es el mismo para todos los contratos administrativos, aunque la obra tenga reglas propias de replanteo y recepción (tema e29).",
+      "La cesión del contrato y la subcontratación se regulan en los artículos 214 y 215 LCSP, que no se han verificado en este tema. Antes de citarlos en un examen, debe comprobarse el texto."
+     ]
+    },
+    {
+     "titulo": "17. La modificación del contrato",
+     "parrafos": [
+      "El artículo 203.1 LCSP establece que los contratos administrativos solo pueden modificarse por razones de interés público, en los casos y forma de la subsección, con el procedimiento del artículo 191 y las particularidades del artículo 207.",
+      "El artículo 203.2 LCSP limita las vías: lo previsto en el pliego (art. 204), la modificación no prevista que cumple el artículo 205, o la resolución y la celebración de otro contrato. Los límites de porcentaje y las consecuencias se estudian en el tema e32.",
+      "Para un examen, la pregunta típica es cuándo una modificación es obligatoria para el contratista. Respuesta: cuando la alteración no excede del 20 por ciento del precio inicial (art. 206.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "18. La extinción del contrato",
+     "parrafos": [
+      "El artículo 209 LCSP establece que los contratos se extinguen por su cumplimiento o por resolución, acordada conforme a la subsección correspondiente.",
+      "El artículo 211.1 LCSP enumera las causas de resolución: la muerte o incapacidad del contratista individual, la insolvencia, el mutuo acuerdo, la demora en el cumplimiento de los plazos, la demora en el pago superior al plazo legal, el incumplimiento de la obligación principal, la imposibilidad de ejecutar la prestación y el impago de salarios durante la ejecución.",
+      "El artículo 213 LCSP regula los efectos. En el incumplimiento culpable del contratista, se incauta la garantía y se indemnizan los daños que excedan de ella (art. 213.3 LCSP). En la resolución por modificación no admisible, el contratista tiene un 3 por ciento de indemnización (art. 213.4 LCSP).",
+      "Para la extinción por cumplimiento, el acto que la constata es la recepción, y en obras la liquidación se rige por el artículo 243 LCSP (temas e29 y e33). Esa relación explica por qué la extinción de los contratos de obra tiene un tema propio."
+     ]
+    },
+    {
+     "titulo": "19. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir la calificación del contrato con su jurisdicción. La calificación determina el régimen; la jurisdicción contencioso-administrativa conoce de la preparación, adjudicación, modificación y extinción de los contratos administrativos (art. 27.1.a LCSP).",
+      "Afirmar que todos los contratos de la Administración son administrativos. El artículo 25.1 LCSP tiene excepciones, y los contratos privados se rigen por el derecho privado en sus efectos (art. 26 LCSP).",
+      "Confundir la nulidad del contrato con la nulidad de un acto posterior. La nulidad de la adjudicación arrastra al contrato (art. 42.1 LCSP); la de un acto no preparatorio solo le afecta a él (art. 42.2 LCSP).",
+      "Olvidar los plazos de adjudicación: quince días con precio único y dos meses con varios criterios (art. 158 LCSP).",
+      "Pensar que la solvencia puede ser cualquiera. Debe estar vinculada al objeto y ser proporcional (art. 74.2 LCSP)."
+     ]
+    },
+    {
+     "titulo": "20. Casos prácticos",
+     "parrafos": [
+      "Caso 1: una Administración quiere contratar un servicio de limpieza sin haber motivado la necesidad. El artículo 28 LCSP exige que la necesidad y la idoneidad se determinen con precisión y se documenten antes de iniciar el procedimiento. El expediente no puede iniciarse sin esa motivación (art. 116.1 LCSP).",
+      "Caso 2: una oferta única de precio se adjudica en quince días desde la apertura de proposiciones (art. 158.1 LCSP). Si la adjudicación se demora más, el licitador puede retirar su oferta y recuperar la garantía provisional (art. 158.4 LCSP).",
+      "Caso 3: se declara firme la nulidad de la adjudicación de un contrato. El contrato entra en fase de liquidación, las partes se restituyen lo recibido y la parte culpable indemniza a la otra (art. 42.1 LCSP).",
+      "Caso 4: un contrato de servicios de 150.000 euros de valor estimado. Al superar los 100.000 euros, sus actos de adjudicación son susceptibles de recurso especial en materia de contratación (art. 44.1.a LCSP). Si además tiene varios criterios, la adjudicación debe producirse en dos meses (art. 158.2 LCSP)."
+     ]
+    },
+    {
+     "titulo": "21. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema es el marco general de los contratos de la Administración. Los contratos de obras tienen un régimen detallado en los temas e25 a e33: el proyecto, el replanteo, la ejecución, el abono, la revisión, la modificación y la extinción.",
+      "Se conecta con el tema c15 sobre revisión de los actos y recursos, porque los actos de adjudicación pueden revisarse de oficio (art. 41 LCSP) y los contratos administrativos se controlan ante el contencioso (art. 27 LCSP).",
+      "Se conecta también con el tema c14 sobre el procedimiento administrativo, porque la nulidad y la anulabilidad de los actos del expediente siguen las reglas de la LPAC."
+     ]
+    },
+    {
+     "titulo": "22. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué regula la LCSP en su artículo 1? La contratación del sector público, con los principios de publicidad, concurrencia, igualdad y eficiente utilización de los fondos (art. 1.1 LCSP).",
+      "¿Quién representa a la Administración en la contratación? Los órganos de contratación, unipersonales o colegiados (art. 61.1 LCSP).",
+      "¿Qué se exige a la solvencia? Condiciones mínimas, vinculadas al objeto y proporcionales (art. 74 LCSP).",
+      "¿Cuándo se perfecciona un contrato? Con su formalización, salvo los menores, los basados en acuerdos marco y los específicos de sistemas dinámicos (art. 36.1 LCSP).",
+      "¿Qué plazo tiene la adjudicación con un único criterio de precio? Quince días desde la apertura (art. 158.1 LCSP).",
+      "¿Cuándo es inválido un contrato por causa de derecho administrativo? Cuando lo sea un acto preparatorio o del procedimiento de adjudicación (art. 38.b LCSP).",
+      "¿Qué es el perfil de contratante? El medio de publicidad de la contratación del sector público (art. 63 LCSP), donde se publica el expediente (art. 116.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "23. Contrato y acto administrativo: dos instrumentos distintos",
+     "parrafos": [
+      "El contrato es el acuerdo de voluntades por el que la Administración obtiene una prestación a cambio de un precio. El acto de adjudicación es la decisión administrativa que selecciona al adjudicatario. Son cosas distintas: el acto es unilateral y se revisa como cualquier acto administrativo, y el contrato es un acuerdo que se formaliza y se ejecuta.",
+      "Por eso el artículo 41 LCSP remite la revisión de oficio de los actos preparatorios y de adjudicación a la LPAC, mientras que los efectos del contrato se rigen por la LCSP (art. 42 LCSP). Conviene recordar también que el tema c15 se ocupa de los actos, y este tema del contrato.",
+      "Para un examen, la pregunta típica es si la adjudicación es un contrato. Respuesta: no; es un acto administrativo que precede a la formalización, que es la que perfecciona el contrato (art. 36.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "24. Claves para el examen",
+     "parrafos": [
+      "Objeto: contratación con publicidad, concurrencia e igualdad (art. 1 LCSP). Ámbito: sector público del artículo 3.",
+      "Calificación: obras, concesiones, suministro y servicios, con la regulación de la sección (art. 12 LCSP). Contrato administrativo: art. 25 LCSP; jurisdicción: art. 27 LCSP.",
+      "Órgano: art. 61 LCSP; responsable del contrato: art. 62 LCSP.",
+      "Capacidad y solvencia: art. 65 y art. 74 LCSP; prohibiciones: art. 71 LCSP.",
+      "Invalidez: arts. 38 a 42 LCSP; nulidad de la adjudicación arrastra el contrato (art. 42.1).",
+      "Adjudicación: criterios (art. 145), clasificación (art. 150), plazos (art. 158), formalización (art. 153).",
+      "Ejecución, modificación y extinción: arts. 190 a 213 LCSP; remisión a los temas e29 a e33.",
+      "Para un examen, el tema se estudia como una cadena: sujeto, calificación, necesidad, expediente, adjudicación, formalización, ejecución, modificación y extinción, en ese orden."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 9/2017, de Contratos del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+     "pdf": "leyes/BOE-A-2017-12902.pdf"
     }
    ]
   },

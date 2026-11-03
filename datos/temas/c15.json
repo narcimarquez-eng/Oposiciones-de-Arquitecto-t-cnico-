@@ -1,0 +1,195 @@
+{
+  "id": "c15",
+  "resumen": [
+    {
+      "titulo": "Revisión de oficio",
+      "puntos": [
+        "La nulidad de los actos que pusieron fin a la vía o no se recurrieron en plazo se declara de oficio o a solicitud, con dictamen favorable del Consejo de Estado u órgano equivalente (art. 106.1 LPAC).",
+        "Causas de nulidad de pleno derecho del artículo 47.1 LPAC; el procedimiento iniciado de oficio caduca a los seis meses (art. 106.5 LPAC)."
+      ]
+    },
+    {
+      "titulo": "Anulabilidad y lesividad",
+      "puntos": [
+        "Son anulables las infracciones del ordenamiento, incluida la desviación de poder (art. 48 LPAC).",
+        "Si el acto anulable es favorable, debe declararse su lesividad y acudir al contencioso. La declaración caduca a los cuatro años desde que se dictó el acto (art. 107 LPAC)."
+      ]
+    },
+    {
+      "titulo": "Límites y revocación",
+      "puntos": [
+        "La revisión no puede ejercerse contra la equidad, la buena fe o el derecho de los particulares (art. 110 LPAC).",
+        "Los actos desfavorables pueden revocarse mientras no haya prescrito la acción; los errores materiales se rectifican en cualquier momento (art. 109 LPAC)."
+      ]
+    },
+    {
+      "titulo": "Recursos administrativos",
+      "puntos": [
+        "Alzada contra actos que no ponen fin a la vía: un mes para interponer y tres meses para resolver (arts. 121 y 122 LPAC).",
+        "Reposición potestativa contra actos que ponen fin a la vía: un mes para interponer y un mes para resolver (arts. 123 y 124 LPAC).",
+        "Extraordinario de revisión contra actos firmes, solo por las causas del artículo 125.1 LPAC; plazo de cuatro años o de tres meses según la causa (art. 125.2 LPAC)."
+      ]
+    },
+    {
+      "titulo": "Actos que agotan la vía",
+      "puntos": [
+        "Ponen fin a la vía administrativa las resoluciones de la alzada, las de órganos sin superior jerárquico, las de responsabilidad patrimonial y las demás que una disposición establezca (art. 114.1 LPAC).",
+        "No cabe recurso administrativo contra disposiciones generales (art. 112.3 LPAC)."
+      ]
+    },
+    {
+      "titulo": "Jurisdicción contencioso-administrativa",
+      "puntos": [
+        "Los tribunales controlan la legalidad de la actuación administrativa (art. 106.1 CE). La jurisdicción conoce de las pretensiones frente a la actuación administrativa sujeta al Derecho administrativo (art. 1 LJCA).",
+        "Competencias: contratos administrativos, responsabilidad patrimonial y materias atribuidas por ley (art. 2 LJCA). La jurisdicción es improrrogable (art. 5.1 LJCA)."
+      ]
+    },
+    {
+      "titulo": "Plazos del contencioso",
+      "puntos": [
+        "Dos meses desde la publicación o notificación del acto expreso que pone fin a la vía; seis meses frente a actos presuntos (art. 46.1 LJCA).",
+        "El plazo se cuenta desde la resolución del recurso de reposición, si se interpuso (art. 46.4 LJCA)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LPAC",
+      "rol": "Norma principal del tema (arts. 47, 48, 106 a 126)"
+    },
+    {
+      "id": "LJCA",
+      "rol": "Complementaria: jurisdicción, plazos del recurso contencioso (arts. 1, 2, 5, 25, 26, 45 y 46)"
+    },
+    {
+      "id": "CE",
+      "rol": "Complementaria: control de la legalidad por los tribunales (art. 106.1)"
+    },
+    {
+      "id": "LCSP",
+      "rol": "Complementaria: contratos administrativos ante el contencioso (art. 27) y revisión de oficio de la adjudicación (art. 41)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 106.1 LPAC, ¿qué requisito se exige para declarar de oficio la nulidad de un acto administrativo?",
+      "opciones": [
+        "Un dictamen favorable del Consejo de Estado u órgano consultivo equivalente",
+        "Solo la audiencia del interesado",
+        "Una sentencia firme previa",
+        "Ningún requisito"
+      ],
+      "correcta": 0,
+      "explicacion": "La declaración de nulidad de los actos que pusieron fin a la vía o no fueron recurridos exige dictamen favorable del Consejo de Estado u órgano consultivo equivalente.",
+      "referencia": "Art. 106.1 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 107.2 LPAC, ¿en qué plazo máximo puede adoptarse la declaración de lesividad de un acto anulable favorable?",
+      "opciones": [
+        "Un año desde que se dictó el acto",
+        "Dos años desde que se dictó el acto",
+        "Seis meses desde que se dictó el acto",
+        "Cuatro años desde que se dictó el acto"
+      ],
+      "correcta": 3,
+      "explicacion": "La declaración de lesividad no puede adoptarse una vez transcurridos cuatro años desde que se dictó el acto, y exige audiencia de los interesados.",
+      "referencia": "Art. 107.2 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 122.1 LPAC, ¿cuál es el plazo para interponer un recurso de alzada contra un acto expreso?",
+      "opciones": [
+        "Tres meses",
+        "Un mes",
+        "Quince días",
+        "Dos meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El plazo para interponer el recurso de alzada es de un mes si el acto es expreso.",
+      "referencia": "Art. 122.1 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 124.2 LPAC, ¿cuál es el plazo máximo para resolver un recurso potestativo de reposición?",
+      "opciones": [
+        "Tres meses",
+        "Un año",
+        "Un mes",
+        "Quince días hábiles"
+      ],
+      "correcta": 2,
+      "explicacion": "El plazo máximo para dictar y notificar la resolución del recurso de reposición es de un mes.",
+      "referencia": "Art. 124.2 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 125.2 LPAC, ¿cuál es el plazo del recurso extraordinario de revisión cuando la causa es el error de hecho resultante de los documentos del expediente?",
+      "opciones": [
+        "Un mes desde la notificación",
+        "Tres meses desde el conocimiento",
+        "Seis meses desde la notificación",
+        "Cuatro años desde la notificación de la resolución impugnada"
+      ],
+      "correcta": 3,
+      "explicacion": "Cuando la causa es el error de hecho, el plazo es de cuatro años desde la notificación de la resolución. En los demás casos, son tres meses.",
+      "referencia": "Art. 125.2 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 106.5 LPAC, ¿cuándo caduca un procedimiento de revisión de oficio iniciado de oficio?",
+      "opciones": [
+        "A los dos meses sin resolución",
+        "A los seis meses sin resolución",
+        "A los doce meses sin resolución",
+        "Nunca caduca"
+      ],
+      "correcta": 1,
+      "explicacion": "Si el procedimiento de revisión de oficio se inicia de oficio, el transcurso de seis meses sin resolución produce su caducidad.",
+      "referencia": "Art. 106.5 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 114.1.a LPAC, ¿qué resolución pone fin a la vía administrativa?",
+      "opciones": [
+        "La resolución de un recurso de alzada",
+        "La resolución de un recurso de reposición interpuesto de forma potestativa ante el mismo órgano",
+        "Una comunicación de trámite",
+        "Un informe del servicio jurídico"
+      ],
+      "correcta": 0,
+      "explicacion": "Ponen fin a la vía administrativa las resoluciones de los recursos de alzada (art. 114.1.a LPAC).",
+      "referencia": "Art. 114.1.a LPAC"
+    },
+    {
+      "pregunta": "Según el art. 46.1 LJCA, ¿cuál es el plazo para interponer el recurso contencioso-administrativo contra un acto expreso que pone fin a la vía administrativa?",
+      "opciones": [
+        "Dos meses desde la notificación o publicación del acto",
+        "Seis meses desde la notificación",
+        "Un mes desde la notificación",
+        "Un año desde la publicación"
+      ],
+      "correcta": 0,
+      "explicacion": "El recurso contencioso se interpone en dos meses desde el día siguiente a la publicación o notificación del acto expreso que pone fin a la vía administrativa.",
+      "referencia": "Art. 46.1 LJCA"
+    },
+    {
+      "pregunta": "Según el art. 106.1 de la Constitución, ¿qué controlan los tribunales?",
+      "opciones": [
+        "Solo la potestad reglamentaria",
+        "La potestad reglamentaria y la legalidad de la actuación administrativa, así como su sometimiento a los fines que la justifican",
+        "Solo los actos de los particulares",
+        "Ninguna actuación administrativa"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 106.1 CE establece el control judicial de la potestad reglamentaria y de la legalidad de la actuación administrativa, así como de su sometimiento a los fines que la justifican.",
+      "referencia": "Art. 106.1 CE"
+    },
+    {
+      "pregunta": "Según el art. 112.3 LPAC, ¿cabe recurso administrativo contra una disposición administrativa de carácter general?",
+      "opciones": [
+        "Sí, el de alzada",
+        "Sí, el de reposición",
+        "Sí, el extraordinario de revisión",
+        "No cabe recurso en vía administrativa"
+      ],
+      "correcta": 3,
+      "explicacion": "Contra las disposiciones administrativas de carácter general no cabe recurso en vía administrativa, aunque el recurso contra un acto puede fundarse en su nulidad.",
+      "referencia": "Art. 112.3 LPAC"
+    }
+  ]
+}
