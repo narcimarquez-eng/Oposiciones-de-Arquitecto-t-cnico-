@@ -1,0 +1,578 @@
+{
+  "fuente": "Temario oficial Cuerpo Técnico, especialidad Arquitectura Técnica, subgrupo A2 (JCCM)",
+  "url": "https://empleopublico.castillalamancha.es/system/files/ficheros/temario_a2_arquitectura_tecnica_-l.pdf",
+  "fecha_documento": "14/08/2018 (según buscador, sin verificar vigencia)",
+  "total_temas": 65,
+  "bloques": [
+    {
+      "id": "comun",
+      "nombre": "Parte común (subgrupo A2)",
+      "temas": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c08",
+        "c09",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15"
+      ]
+    },
+    {
+      "id": "urbanismo",
+      "nombre": "I. Urbanismo",
+      "temas": [
+        "e01",
+        "e02",
+        "e03",
+        "e04",
+        "e05",
+        "e06",
+        "e07",
+        "e08"
+      ]
+    },
+    {
+      "id": "edificacion",
+      "nombre": "II. Edificación",
+      "temas": [
+        "e09",
+        "e10",
+        "e11",
+        "e12",
+        "e13",
+        "e14",
+        "e15",
+        "e16",
+        "e17",
+        "e18",
+        "e19",
+        "e20",
+        "e21",
+        "e22",
+        "e23",
+        "e24",
+        "e25"
+      ]
+    },
+    {
+      "id": "uso-publico",
+      "nombre": "III. Diseño de Edificios de Uso Público",
+      "temas": [
+        "e26",
+        "e27",
+        "e28",
+        "e29",
+        "e30"
+      ]
+    },
+    {
+      "id": "vivienda",
+      "nombre": "IV. Vivienda",
+      "temas": [
+        "e31",
+        "e32",
+        "e33",
+        "e34",
+        "e35"
+      ]
+    },
+    {
+      "id": "patrimonio-cultural",
+      "nombre": "V. Patrimonio Cultural",
+      "temas": [
+        "e36",
+        "e37",
+        "e38",
+        "e39"
+      ]
+    },
+    {
+      "id": "contratos",
+      "nombre": "VI. Contratos del Sector Público",
+      "temas": [
+        "e40",
+        "e41",
+        "e42",
+        "e43",
+        "e44",
+        "e45"
+      ]
+    },
+    {
+      "id": "patrimonio-valoraciones",
+      "nombre": "VII. Patrimonio y Valoraciones",
+      "temas": [
+        "e46",
+        "e47",
+        "e48",
+        "e49",
+        "e50"
+      ]
+    }
+  ],
+  "temas": [
+    {
+      "id": "c01",
+      "codigo": "Común 1",
+      "num": 1,
+      "bloque": "comun",
+      "titulo": "La Unión Europea y sus instituciones. Las libertades básicas. Las fuentes del derecho de la Unión Europea."
+    },
+    {
+      "id": "c02",
+      "codigo": "Común 2",
+      "num": 2,
+      "bloque": "comun",
+      "titulo": "La Constitución Española de 1978."
+    },
+    {
+      "id": "c03",
+      "codigo": "Común 3",
+      "num": 3,
+      "bloque": "comun",
+      "titulo": "El Estatuto de Autonomía de Castilla-La Mancha. La organización territorial de Castilla- La Mancha."
+    },
+    {
+      "id": "c04",
+      "codigo": "Común 4",
+      "num": 4,
+      "bloque": "comun",
+      "titulo": "El Gobierno y la Administración Regional: estructura, organización y régimen jurídico."
+    },
+    {
+      "id": "c05",
+      "codigo": "Común 5",
+      "num": 5,
+      "bloque": "comun",
+      "titulo": "La Administración Pública: principios de actuación. Las relaciones interadministrativas. Las relaciones entre la Administración Pública y los ciudadanos: especial referencia a la Administración de la Junta de Comunidades de Castilla-la Mancha. Los órganos administrativos."
+    },
+    {
+      "id": "c06",
+      "codigo": "Común 6",
+      "num": 6,
+      "bloque": "comun",
+      "titulo": "Los actos administrativos: requisitos y eficacia. Nulidad y anulabilidad. La notificación y ejecución de los actos. La revisión de los actos en vía administrativa: revisión de oficio y recursos administrativos."
+    },
+    {
+      "id": "c07",
+      "codigo": "Común 7",
+      "num": 7,
+      "bloque": "comun",
+      "titulo": "El procedimiento administrativo común y sus fases. Especialidades del procedimiento de naturaleza sancionadora y de responsabilidad patrimonial. La tramitación simplificada del procedimiento administrativo común."
+    },
+    {
+      "id": "c08",
+      "codigo": "Común 8",
+      "num": 8,
+      "bloque": "comun",
+      "titulo": "Los contratos del Sector público: clases y régimen jurídico. Sus elementos. Preparación, adjudicación, efectos, cumplimiento y extinción."
+    },
+    {
+      "id": "c09",
+      "codigo": "Común 9",
+      "num": 9,
+      "bloque": "comun",
+      "titulo": "Las subvenciones públicas en la Administración de la Junta de Comunidades de Castilla- La Mancha. El procedimiento de concesión y de gestión y justificación de subvenciones. El reintegro de las subvenciones."
+    },
+    {
+      "id": "c10",
+      "codigo": "Común 10",
+      "num": 10,
+      "bloque": "comun",
+      "titulo": "El personal al servicio de la Administración de la Junta de Comunidades de Castilla- La Mancha: clases y régimen jurídico. El Convenio Colectivo del personal laboral al servicio de la Administración de la Junta de Comunidades de Castilla-La Mancha."
+    },
+    {
+      "id": "c11",
+      "codigo": "Común 11",
+      "num": 11,
+      "bloque": "comun",
+      "titulo": "El presupuesto de la Junta de Comunidades de Castilla-La Mancha: elaboración, aprobación y ejecución. El control de la actividad financiera en la Administración Regional."
+    },
+    {
+      "id": "c12",
+      "codigo": "Común 12",
+      "num": 12,
+      "bloque": "comun",
+      "titulo": "La administración burocrática y la nueva gestión pública. Las técnicas de dirección y gerencia pública. Ley de Participación de Castilla La Mancha: Disposiciones generales y procedimientos de participación ciudadana. La ética en la gestión pública."
+    },
+    {
+      "id": "c13",
+      "codigo": "Común 13",
+      "num": 13,
+      "bloque": "comun",
+      "titulo": "La igualdad efectiva de mujeres y hombres. Políticas públicas de igualdad."
+    },
+    {
+      "id": "c14",
+      "codigo": "Común 14",
+      "num": 14,
+      "bloque": "comun",
+      "titulo": "La transparencia en la Administración de la Junta de Comunidades de Castilla-La Mancha: normativa de aplicación. Publicidad activa y derecho de acceso a la información pública."
+    },
+    {
+      "id": "c15",
+      "codigo": "Común 15",
+      "num": 15,
+      "bloque": "comun",
+      "titulo": "La protección de datos. Régimen jurídico. Principios y derechos de los ciudadanos. La Seguridad de la Información: principios básicos y requisitos mínimos en el Esquema Nacional de Seguridad. PARTE ESPECÍFICA"
+    },
+    {
+      "id": "e01",
+      "codigo": "Específico 1",
+      "num": 1,
+      "bloque": "urbanismo",
+      "titulo": "La legislación urbanística aplicable en Castilla-La Mancha: Principios generales y contenido. Reglamentos. Instrucciones Técnicas de Planeamiento. Órganos urbanísticos de la Junta de Comunidades de Castilla-La Mancha."
+    },
+    {
+      "id": "e02",
+      "codigo": "Específico 2",
+      "num": 2,
+      "bloque": "urbanismo",
+      "titulo": "Los planes e instrumentos de ordenación territorial y urbanística en Castilla-La Mancha I. Planes supramunicipales y municipales de tipo general: Objeto, determinaciones, documentación, aprobación y efectos."
+    },
+    {
+      "id": "e03",
+      "codigo": "Específico 3",
+      "num": 3,
+      "bloque": "urbanismo",
+      "titulo": "Los planes e instrumentos de ordenación territorial y urbanística en Castilla-La Mancha II. Planes municipales de desarrollo, planes especiales, otros instrumentos de apoyo al planificador: objeto, determinaciones, documentación, aprobación y efectos."
+    },
+    {
+      "id": "e04",
+      "codigo": "Específico 4",
+      "num": 4,
+      "bloque": "urbanismo",
+      "titulo": "La ejecución del planeamiento en Castilla-La Mancha. La ejecución mediante actuaciones urbanizadoras: la gestión directa y la gestión indirecta de la actuación urbanizadora."
+    },
+    {
+      "id": "e05",
+      "codigo": "Específico 5",
+      "num": 5,
+      "bloque": "urbanismo",
+      "titulo": "La conservación de las obras y construcciones en Castilla-La Mancha. El deber de conservación de obras de urbanización y edificación. Las órdenes de ejecución. La situación legal de ruina y la ruina física inminente."
+    },
+    {
+      "id": "e06",
+      "codigo": "Específico 6",
+      "num": 6,
+      "bloque": "urbanismo",
+      "titulo": "Garantías y protección de la ordenación territorial y urbanística en Castilla-La Mancha. El control de las actividades objeto de la ordenación territorial y urbanística. Las licencias urbanísticas."
+    },
+    {
+      "id": "e07",
+      "codigo": "Específico 7",
+      "num": 7,
+      "bloque": "urbanismo",
+      "titulo": "Políticas territoriales y coordinación administrativa. La legislación sectorial estatal y autonómica concurrente en materia urbanística y su incidencia en el planeamiento: carreteras, ferrocarriles, cauces públicos, vías pecuarias, defensa, aeropuertos."
+    },
+    {
+      "id": "e08",
+      "codigo": "Específico 8",
+      "num": 8,
+      "bloque": "urbanismo",
+      "titulo": "Condiciones básicas de accesibilidad y no discriminación para el acceso y utilización de los espacios públicos urbanizados. Normativa de aplicación. El Informe sobre cumplimiento de la legislación sobre accesibilidad de los planes e instrumentos de ordenación territorial y urbanística en Castilla-La Mancha."
+    },
+    {
+      "id": "e09",
+      "codigo": "Específico 9",
+      "num": 9,
+      "bloque": "edificacion",
+      "titulo": "La Ordenación de la Edificación I. Normativa reguladora: objeto y ámbito de aplicación. Aplicación a las Administraciones Públicas. Agentes de la edificación. Garantías y seguros por daños materiales ocasionados por vicios y defectos de la construcción."
+    },
+    {
+      "id": "e10",
+      "codigo": "Específico 10",
+      "num": 10,
+      "bloque": "edificacion",
+      "titulo": "La Ordenación de la Edificación II. Exigencias técnicas y administrativas de la edificación. Requisitos básicos. El proyecto. La recepción de la obra. El Libro del edificio."
+    },
+    {
+      "id": "e11",
+      "codigo": "Específico 11",
+      "num": 11,
+      "bloque": "edificacion",
+      "titulo": "El Código Técnico de la Edificación I. Condiciones generales para su cumplimiento. Requisitos y Exigencias Básicas. Contenido del Proyecto. Documentación de seguimiento de la obra."
+    },
+    {
+      "id": "e12",
+      "codigo": "Específico 12",
+      "num": 12,
+      "bloque": "edificacion",
+      "titulo": "El Código Técnico de la Edificación II. Documentos Básicos que desarrollan las exigencias básicas. Documentos reconocidos."
+    },
+    {
+      "id": "e13",
+      "codigo": "Específico 13",
+      "num": 13,
+      "bloque": "edificacion",
+      "titulo": "Las condiciones de protección contra incendios en los edificios I. Normativa técnica de aplicación. La seguridad en caso de incendio en el código técnico de la edificación."
+    },
+    {
+      "id": "e14",
+      "codigo": "Específico 14",
+      "num": 14,
+      "bloque": "edificacion",
+      "titulo": "Las condiciones de protección contra incendios en los edificios II. El reglamento de instalaciones de protección contra incendios. El reglamento de seguridad contra incendios en establecimientos industriales. Normativa local."
+    },
+    {
+      "id": "e15",
+      "codigo": "Específico 15",
+      "num": 15,
+      "bloque": "edificacion",
+      "titulo": "Las condiciones de seguridad de utilización y accesibilidad en los edificios. La seguridad de utilización y accesibilidad en el código técnico de la edificación. Normativa autonómica sobre accesibilidad y eliminación de barreras."
+    },
+    {
+      "id": "e16",
+      "codigo": "Específico 16",
+      "num": 16,
+      "bloque": "edificacion",
+      "titulo": "La Autoprotección de los centros, establecimientos y dependencias, dedicados a actividades que puedan dar origen a situaciones de emergencia. Norma Básica de Autoprotección."
+    },
+    {
+      "id": "e17",
+      "codigo": "Específico 17",
+      "num": 17,
+      "bloque": "edificacion",
+      "titulo": "La prevención de los riesgos laborales. Normativa que la regula. Aplicación al ámbito de las Administraciones Públicas. La seguridad y salud en los lugares de trabajo."
+    },
+    {
+      "id": "e18",
+      "codigo": "Específico 18",
+      "num": 18,
+      "bloque": "edificacion",
+      "titulo": "La seguridad y salud en las obras de construcción. Normativa reguladora. Sujetos que intervienen en las obras y sus obligaciones. Aplicación de la prevención de los riesgos laborales a las obras de construcción. El Libro de Incidencias. El aviso previo. El Estudio de Seguridad y Salud y el Estudio Básico de Seguridad y Salud. El Plan de Seguridad y Salud. El coordinador de seguridad y salud."
+    },
+    {
+      "id": "e19",
+      "codigo": "Específico 19",
+      "num": 19,
+      "bloque": "edificacion",
+      "titulo": "La calidad en la edificación. Conceptos generales: calidad, gestión de la calidad, control de la calidad, aseguramiento de la calidad. Marcado CE. La calidad medioambiental en la construcción. El control de calidad del Proyecto y de la ejecución de la obra. Control de la obra terminada. Documentación final de la obra."
+    },
+    {
+      "id": "e20",
+      "codigo": "Específico 20",
+      "num": 20,
+      "bloque": "edificacion",
+      "titulo": "La certificación energética en los edificios. Normativa estatal y autonómica. Ámbito de aplicación. Documentos reconocidos. Procedimiento básico. La etiqueta de eficiencia energética. Certificaciones de edificios ocupados por las administraciones públicas. Edificios de consumo de energía casi nulo. Registro Autonómico de certificados de eficiencia energética de edificios."
+    },
+    {
+      "id": "e21",
+      "codigo": "Específico 21",
+      "num": 21,
+      "bloque": "edificacion",
+      "titulo": "El informe de Evaluación de Edificios. Contenido, plazos y técnicos competentes. Edificios obligados. El Registro de Evaluación de Edificios en Castilla-La Mancha."
+    },
+    {
+      "id": "e22",
+      "codigo": "Específico 22",
+      "num": 22,
+      "bloque": "edificacion",
+      "titulo": "Producción y gestión de los residuos de construcción y demolición. Obligaciones del productor, del poseedor y del gestor de residuos de construcción y demolición. Actividades de valorización de residuos. Actividades de eliminación de residuos. Actividades de reutilización de residuos. Planificación sobre los residuos de construcción y demolición."
+    },
+    {
+      "id": "e23",
+      "codigo": "Específico 23",
+      "num": 23,
+      "bloque": "edificacion",
+      "titulo": "Instalaciones eléctricas de baja tensión: elementos y criterios de diseño. El Reglamento Electrotécnico para Baja Tensión. Tipos de suministros."
+    },
+    {
+      "id": "e24",
+      "codigo": "Específico 24",
+      "num": 24,
+      "bloque": "edificacion",
+      "titulo": "Locales de características especiales. Acometidas. Instalaciones de enlace, interiores y en locales de pública concurrencia previstas en las instrucciones técnicas complementarias del REBT."
+    },
+    {
+      "id": "e25",
+      "codigo": "Específico 25",
+      "num": 25,
+      "bloque": "edificacion",
+      "titulo": "Patología en edificación: cimentación, estructura, forjados, fachadas, cubiertas, carpinterías, revestimientos y en instalaciones. Causas más frecuentes y sistemas de reparación. Sistemas de apeos en la edificación."
+    },
+    {
+      "id": "e26",
+      "codigo": "Específico 26",
+      "num": 26,
+      "bloque": "uso-publico",
+      "titulo": "Normativa sobre comedores colectivos y establecimientos de comidas preparadas. Condiciones exigibles para colectividades de especial riesgo y comedores colectivos de gran capacidad."
+    },
+    {
+      "id": "e27",
+      "codigo": "Específico 27",
+      "num": 27,
+      "bloque": "uso-publico",
+      "titulo": "Edificios destinados a espectáculos públicos, actividades recreativas y establecimientos públicos en Castilla-La Mancha. Normativa estatal y autonómica. Teatros, Auditorios y Casas de Cultura. Bibliotecas Públicas. Instalaciones deportivas. Piscinas de uso público. Condiciones técnicas exigibles."
+    },
+    {
+      "id": "e28",
+      "codigo": "Específico 28",
+      "num": 28,
+      "bloque": "uso-publico",
+      "titulo": "Edificios educativos en Castilla-La Mancha. Requisitos comunes y específicos de los centros e instalaciones educativas."
+    },
+    {
+      "id": "e29",
+      "codigo": "Específico 29",
+      "num": 29,
+      "bloque": "uso-publico",
+      "titulo": "Edificios destinados a Establecimientos Sanitarios en Castilla-La Mancha. Normativa de aplicación técnico-sanitaria. Requisitos mínimos de los distintos tipos de establecimientos sanitarios."
+    },
+    {
+      "id": "e30",
+      "codigo": "Específico 30",
+      "num": 30,
+      "bloque": "uso-publico",
+      "titulo": "Edificios de Servicios Sociales en Castilla-La Mancha. Normativa de aplicación. Condiciones materiales y arquitectónicas generales y específicas exigibles según tipologías de los centros y servicios."
+    },
+    {
+      "id": "e31",
+      "codigo": "Específico 31",
+      "num": 31,
+      "bloque": "vivienda",
+      "titulo": "La Vivienda con protección pública en Castilla- La Mancha. Viviendas con protección oficial. Viviendas de Promoción Pública. Régimen Jurídico. Transmisión de las viviendas con protección pública: Autorizaciones y Visados de contrato."
+    },
+    {
+      "id": "e32",
+      "codigo": "Específico 32",
+      "num": 32,
+      "bloque": "vivienda",
+      "titulo": "Calificación y/o Declaración Provisional y Definitiva de las viviendas con protección pública en Castilla-La Mancha. Precios máximos de venta y renta. Áreas Geográficas en Castilla- La Mancha. Regímenes de cesión de vivienda con protección pública."
+    },
+    {
+      "id": "e33",
+      "codigo": "Específico 33",
+      "num": 33,
+      "bloque": "vivienda",
+      "titulo": "Normas técnicas de aplicación a las viviendas con protección pública en Castilla-La Mancha. Condiciones de habitabilidad de las viviendas en Castilla-La Mancha."
+    },
+    {
+      "id": "e34",
+      "codigo": "Específico 34",
+      "num": 34,
+      "bloque": "vivienda",
+      "titulo": "Ayudas en materia de vivienda en Castilla-La Mancha al amparo del Plan Estatal de Vivienda 2018-2021. Objeto, actuaciones subvencionables, beneficiarios, cuantías. Procedimientos de concesión y abonos."
+    },
+    {
+      "id": "e35",
+      "codigo": "Específico 35",
+      "num": 35,
+      "bloque": "vivienda",
+      "titulo": "Conservación y mantenimiento de los edificios de vivienda. Derechos y obligaciones en las comunidades de propietarios. Mejora de la accesibilidad en los edificios de vivienda. Normativa de aplicación. Obras y actuaciones necesarias para garantizar los ajustes razonables en materia de accesibilidad universal. El Libro del Edificio para edificios destinados a vivienda en Castilla-La Mancha. Estructura. Obligaciones en su elaboración y en su gestión."
+    },
+    {
+      "id": "e36",
+      "codigo": "Específico 36",
+      "num": 36,
+      "bloque": "patrimonio-cultural",
+      "titulo": "Legislación vigente en materia de patrimonio cultural, estatal y autonómica. Principios de intervención en el patrimonio cultural inmueble. Instituciones y documentos internacionales de referencia."
+    },
+    {
+      "id": "e37",
+      "codigo": "Específico 37",
+      "num": 37,
+      "bloque": "patrimonio-cultural",
+      "titulo": "La protección jurídica de los bienes inmuebles del patrimonio cultural: Bien de Interés Cultural, Bien de Interés Patrimonial, Elemento de Interés Patrimonial. Entornos de protección. Inventario y Catálogo del Patrimonio Cultural de Castilla-La Mancha. Procedimiento y efectos de la protección. La actividad inspectora y el régimen sancionador en materia de patrimonio cultural."
+    },
+    {
+      "id": "e38",
+      "codigo": "Específico 38",
+      "num": 38,
+      "bloque": "patrimonio-cultural",
+      "titulo": "La ordenación y protección del patrimonio cultural inmueble a través de los instrumentos normativos: plan especial de conjunto histórico, plan de ordenación de parque arqueológico, ámbitos de protección y prevención del inventario del patrimonio cultural de Castilla-La Mancha."
+    },
+    {
+      "id": "e39",
+      "codigo": "Específico 39",
+      "num": 39,
+      "bloque": "patrimonio-cultural",
+      "titulo": "Criterios de intervención en el patrimonio cultural inmueble. Régimen de intervenciones en los bienes del Catálogo del Patrimonio Cultural de Castilla-La Mancha. La conservación de bienes inmuebles arqueológicos, industriales y etnográficos. Las intervenciones pluridisciplinares."
+    },
+    {
+      "id": "e40",
+      "codigo": "Específico 40",
+      "num": 40,
+      "bloque": "contratos",
+      "titulo": "Contratos del Sector Público. Delimitación de los tipos contractuales. Calificación de los contratos. Contratos de obra, concesión de obra y servicios, sujetos a regulación armonizada. Contratos administrativos y contratos privados. Objeto del contrato, presupuesto base de licitación, valor estimado, precio. Revisión de precios."
+    },
+    {
+      "id": "e41",
+      "codigo": "Específico 41",
+      "num": 41,
+      "bloque": "contratos",
+      "titulo": "Preparación de los contratos de las Administraciones Públicas. Expediente de contratación. Aprobación del expediente. Contratos menores. Tramitación urgente y de emergencia. Pliegos de Cláusulas administrativas y de Prescripciones Técnicas."
+    },
+    {
+      "id": "e42",
+      "codigo": "Específico 42",
+      "num": 42,
+      "bloque": "contratos",
+      "titulo": "Adjudicación de los contratos obras y servicios de las Administraciones Públicas. Procedimiento abierto. Procedimiento abierto simplificado. Procedimientos restringidos. Procedimientos con negociación. Normas especiales aplicables a los concursos de proyectos. Ámbito, bases, participantes, publicidad, jurado y decisión."
+    },
+    {
+      "id": "e43",
+      "codigo": "Específico 43",
+      "num": 43,
+      "bloque": "contratos",
+      "titulo": "Ejecución del contrato de obras I. Comprobación del replanteo. Ejecución del contrato y responsabilidad del contratista. Fuerza mayor. Certificaciones y abonos a cuenta. Obras a tanto alzado y obras con precio cerrado. Demora en la ejecución y sus consecuencias."
+    },
+    {
+      "id": "e44",
+      "codigo": "Específico 44",
+      "num": 44,
+      "bloque": "contratos",
+      "titulo": "Ejecución del contrato de obras II. Modificación del contrato de obras. Cumplimiento del contrato de obras. Resolución del contrato de obras."
+    },
+    {
+      "id": "e45",
+      "codigo": "Específico 45",
+      "num": 45,
+      "bloque": "contratos",
+      "titulo": "Contrato de servicios. Disposiciones generales. Ejecución, resolución. Subsanación de errores. Indemnizaciones y responsabilidades en los contratos de elaboración de proyectos."
+    },
+    {
+      "id": "e46",
+      "codigo": "Específico 46",
+      "num": 46,
+      "bloque": "patrimonio-valoraciones",
+      "titulo": "El Patrimonio de la Comunidad Autónoma. Bienes y derechos que lo componen. Afectación, adscripción y utilización de estos bienes. Enajenación, cesión y permuta. Incorporación al Inventario General de las obras ejecutadas por la administración. El Patrimonio en materia de Urbanismo y Vivienda"
+    },
+    {
+      "id": "e47",
+      "codigo": "Específico 47",
+      "num": 47,
+      "bloque": "patrimonio-valoraciones",
+      "titulo": "La Ley General Tributaria. Los tributos: concepto y clases. Elementos para la cuantificación de la obligación tributaria principal. Fases de los procedimientos tributarios. Liquidaciones tributarias: Concepto y clases. Tasación pericial contradictoria."
+    },
+    {
+      "id": "e48",
+      "codigo": "Específico 48",
+      "num": 48,
+      "bloque": "patrimonio-valoraciones",
+      "titulo": "Normas de valoración de bienes inmuebles para ciertas finalidades financieras. Comprobaciones y documentación necesaria para determinar el valor de tasación: Condicionantes y advertencias. Principios y Métodos Técnicos de valoración. Elaboración de informes y certificados de tasación."
+    },
+    {
+      "id": "e49",
+      "codigo": "Específico 49",
+      "num": 49,
+      "bloque": "patrimonio-valoraciones",
+      "titulo": "El Valor Catastral y su determinación: La referencia Catastral y el procedimiento de valoración catastral. Ponencia de Valores y las Circulares de Actualización. La referencia catastral: Constancia documental y registral, plazos de aportación, sujetos obligados, efectos de su incumplimiento y documentos acreditativos de la referencia catastral. Informes de mercado."
+    },
+    {
+      "id": "e50",
+      "codigo": "Específico 50",
+      "num": 50,
+      "bloque": "patrimonio-valoraciones",
+      "titulo": "Normas Técnicas Catastrales de valoración del suelo y de las construcciones de naturaleza urbana: Metodología general. Valor de suelo por unitario y por repercusión. Valoración de las construcciones: Clasificación tipológica en razón de su uso y categoría y asignación de los estados de vida. Aplicación de coeficientes correctores."
+    }
+  ]
+}
