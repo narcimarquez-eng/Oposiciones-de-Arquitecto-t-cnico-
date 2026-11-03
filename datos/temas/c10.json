@@ -1,0 +1,118 @@
+{
+  "id": "c10",
+  "resumen": [
+    {
+      "titulo": "Mercado interior",
+      "puntos": [
+        "Espacio sin fronteras interiores con libre circulación de mercancías, personas, servicios y capitales (art. 26.2 TFUE).",
+        "El mercado interior es una competencia compartida (art. 4.2.a TFUE); las normas de competencia necesarias para su funcionamiento son exclusivas (art. 3.1.b TFUE)."
+      ]
+    },
+    {
+      "titulo": "Libertades de circulación",
+      "puntos": [
+        "Mercancías: unión aduanera y prohibición de derechos de aduana y exacciones de efecto equivalente (arts. 28 y 30 TFUE).",
+        "Trabajadores: libre circulación y abolición de la discriminación por nacionalidad (art. 45 TFUE).",
+        "Establecimiento (art. 49 TFUE), con presencia permanente en el Estado de acogida; y servicios (art. 56 TFUE), de actividad temporal o a distancia.",
+        "Capitales: prohibición de restricciones, también frente a terceros países (art. 63 TFUE); excepción de restricciones anteriores al 31 de diciembre de 1993 (art. 64.1)."
+      ]
+    },
+    {
+      "titulo": "Políticas comunes y competencias",
+      "puntos": [
+        "Exclusivas: unión aduanera, normas de competencia, política monetaria del euro, conservación de recursos marinos y política comercial común (art. 3.1 TFUE).",
+        "Compartidas: mercado interior, política social, cohesión, agricultura y pesca, medio ambiente y consumidores, entre otras (art. 4.2 TFUE)."
+      ]
+    },
+    {
+      "titulo": "Política regional y fondos",
+      "puntos": [
+        "Objetivo de cohesión económica, social y territorial (art. 174 TFUE). Coordinación de la política económica (art. 175 TFUE).",
+        "FEDER para corregir los desequilibrios regionales (art. 176 TFUE). Fondo Social Europeo (art. 162 TFUE). Reglamentos del procedimiento legislativo ordinario (art. 177 TFUE)."
+      ]
+    },
+    {
+      "titulo": "Presupuesto de la Unión",
+      "puntos": [
+        "Presupuesto anual, del 1 de enero al 31 de diciembre (arts. 313 y 314 TFUE). Se financia íntegramente con recursos propios (art. 311 TFUE).",
+        "Marco financiero plurianual de un periodo mínimo de cinco años (art. 312 TFUE)."
+      ]
+    }
+  ],
+  "leyes": [
+    { "id": "TUE-TFUE", "rol": "Norma principal del tema: arts. 3, 4, 6, 26 a 30, 45, 49, 56, 63, 64, 162, 174 a 178 y 310 a 314 TFUE" },
+    { "id": "TLISBOA-2007", "rol": "Complementaria: texto del Tratado de Lisboa (DOUE C 306)" }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Qué cuatro libertades garantiza el mercado interior?",
+      "opciones": ["Mercancías, personas, servicios y capitales", "Mercancías, empleo, moneda y transporte", "Personas, energía, datos y capitales", "Servicios, agricultura, pesca y transporte"],
+      "correcta": 0,
+      "explicacion": "El art. 26.2 TFUE define el mercado interior como un espacio sin fronteras interiores en el que la libre circulación de mercancías, personas, servicios y capitales está garantizada.",
+      "referencia": "Art. 26.2 TFUE"
+    },
+    {
+      "pregunta": "¿Qué comprende la unión aduanera según el art. 28.1 TFUE?",
+      "opciones": ["Solo las importaciones de terceros países", "La política agrícola común", "La totalidad de los intercambios de mercancías", "Los servicios financieros"],
+      "correcta": 2,
+      "explicacion": "El art. 28.1 TFUE establece que la unión aduanera abarca la totalidad de los intercambios de mercancías, con prohibición de los derechos de aduana entre Estados miembros.",
+      "referencia": "Art. 28.1 TFUE"
+    },
+    {
+      "pregunta": "¿Qué prohíbe el art. 30 TFUE entre los Estados miembros?",
+      "opciones": ["Las licencias profesionales", "Los tratados de comercio", "La libre circulación de trabajadores", "Los derechos de aduana y las exacciones de efecto equivalente"],
+      "correcta": 3,
+      "explicacion": "El art. 30 TFUE prohíbe entre los Estados miembros los derechos de aduana de importación y exportación y las exacciones de efecto equivalente, incluidos los de carácter fiscal.",
+      "referencia": "Art. 30 TFUE"
+    },
+    {
+      "pregunta": "¿Qué supone la libre circulación de trabajadores según el art. 45.2 TFUE?",
+      "opciones": ["Obligación de un salario mínimo común", "Abolición de toda discriminación por razón de nacionalidad", "Creación de un permiso único", "Prohibición de cambiar de empleo"],
+      "correcta": 1,
+      "explicacion": "El art. 45.2 TFUE establece que la libre circulación supone la abolición de toda discriminación por razón de la nacionalidad entre los trabajadores de los Estados miembros.",
+      "referencia": "Art. 45.2 TFUE"
+    },
+    {
+      "pregunta": "¿Qué libertad implica presencia permanente en otro Estado miembro?",
+      "opciones": ["La libre prestación de servicios", "La libertad de establecimiento", "La libre circulación de capitales", "La libre circulación de mercancías"],
+      "correcta": 1,
+      "explicacion": "La libertad de establecimiento (art. 49 TFUE) permite crear una actividad económica estable en otro Estado miembro. La prestación de servicios (art. 56 TFUE) es, en cambio, temporal o a distancia.",
+      "referencia": "Arts. 49 y 56 TFUE"
+    },
+    {
+      "pregunta": "¿Qué libertad protege el art. 56 TFUE?",
+      "opciones": ["La libertad de establecimiento", "La libre circulación de capitales", "La unión monetaria", "La libre prestación de servicios"],
+      "correcta": 3,
+      "explicacion": "El art. 56 TFUE prohíbe las restricciones a la libre prestación de servicios dentro de la Unión.",
+      "referencia": "Art. 56 TFUE"
+    },
+    {
+      "pregunta": "¿Hasta qué ámbito geográfico alcanza la prohibición de restricciones a los movimientos de capitales?",
+      "opciones": ["Solo a los Estados miembros", "Solo a terceros países", "Entre Estados miembros y frente a terceros países", "Solo al euro"],
+      "correcta": 2,
+      "explicacion": "El art. 63.1 TFUE prohíbe todas las restricciones a los movimientos de capitales entre Estados miembros y entre Estados miembros y terceros países.",
+      "referencia": "Art. 63.1 TFUE"
+    },
+    {
+      "pregunta": "¿Cuál de estas NO es una competencia exclusiva de la Unión según el art. 3.1 TFUE?",
+      "opciones": ["La unión aduanera", "La política monetaria del euro", "La conservación de los recursos biológicos marinos", "La política de empleo"],
+      "correcta": 3,
+      "explicacion": "El art. 3.1 TFUE enumera como exclusivas la unión aduanera, las normas de competencia, la política monetaria del euro, la conservación de los recursos marinos y la política comercial común. La política de empleo no figura entre ellas.",
+      "referencia": "Art. 3.1 TFUE"
+    },
+    {
+      "pregunta": "¿Qué instrumento corrige los desequilibrios regionales dentro de la Unión?",
+      "opciones": ["El FEDER", "El Banco Central Europeo", "El Tribunal de Cuentas", "El Consejo Europeo"],
+      "correcta": 0,
+      "explicacion": "El art. 176 TFUE regula el Fondo Europeo de Desarrollo Regional (FEDER), destinado a corregir los principales desequilibrios regionales dentro de la Unión.",
+      "referencia": "Art. 176 TFUE"
+    },
+    {
+      "pregunta": "¿Qué duración mínima tiene el marco financiero plurianual de la Unión?",
+      "opciones": ["Un año", "Tres años", "Cinco años", "Diez años"],
+      "correcta": 2,
+      "explicacion": "El art. 312.1 TFUE establece que el marco financiero plurianual se establece para un periodo mínimo de cinco años.",
+      "referencia": "Art. 312.1 TFUE"
+    }
+  ]
+}

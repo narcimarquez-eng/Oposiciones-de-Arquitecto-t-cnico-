@@ -54,7 +54,7 @@
       "pdf": "leyes/BOE-A-2007-5825.pdf",
       "verificada": "parcial",
       "fecha_verificacion": "2026-11-03",
-      "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 37, 42 a 49, 90 a 98, 99 a 106, 118 a 127, 128 a 130, 133 a 139, 140 a 144, 248 y 249 en el texto del PDF. Resto del articulado pendiente. Verificados también arts. 91 a 98 en el texto del PDF."
+      "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 37, 42 a 49, 90 a 98, 99 a 106, 118 a 127, 128 a 130, 133 a 139, 140 a 144, 248 y 249 en el texto del PDF. Resto del articulado pendiente. Verificados también arts. 91 a 98 en el texto del PDF. Verificados también arts. 225 a 237 en el texto del PDF (algunos por su rúbrica)."
     },
     {
       "id": "LPAC",
@@ -121,6 +121,28 @@
       "verificada": "parcial",
       "fecha_verificacion": "2026-11-03",
       "notas": "PDF consolidado descargado y comprobado (BOE núm. 80, de 3/04/1985). Verificados arts. 1, 2, 4, 6.1, 11, 12, 20, 21.1, 22, 25, 26, 31 a 33 y 36 en el texto del PDF. Resto pendiente."
+    },
+    {
+      "id": "TUE-TFUE",
+      "nombre": "Tratado de la Unión Europea y Tratado de Funcionamiento de la Unión Europea (versiones consolidadas)",
+      "referencia": "Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)",
+      "url": "https://www.boe.es/doue/2012/326/Z00001-00390.pdf",
+      "boe_id": "DOUE-C326-2012",
+      "pdf": "leyes/DOUE-C326-2012-TUE-TFUE-consolidados.pdf",
+      "verificada": "parcial",
+      "fecha_verificacion": "2026-11-03",
+      "notas": "PDF oficial en español descargado desde el BOE (sección DOUE) y título comprobado. Verificados TUE 2, 3, 4, 5.1, 5.3, 6.1, 13, 14, 16, 17, 19 y TFUE 3, 4, 6, 26, 28, 30, 45, 49, 56, 63, 64, 162, 174 a 178, 288, 289, 291, 294, 310 a 314 en el texto del PDF."
+    },
+    {
+      "id": "TLISBOA-2007",
+      "nombre": "Tratado de Lisboa",
+      "referencia": "Tratado de Lisboa por el que se modifican el Tratado de la Unión Europea y el Tratado constitutivo de la Comunidad Europea (DOUE C 306, de 17 de diciembre de 2007)",
+      "url": "https://www.boe.es/doue/2007/306/Z00001-00271.pdf",
+      "boe_id": "DOUE-C306-2007",
+      "pdf": "leyes/DOUE-C306-2007-Tratado-de-Lisboa.pdf",
+      "verificada": "parcial",
+      "fecha_verificacion": "2026-11-03",
+      "notas": "PDF oficial en español descargado desde el BOE y título comprobado. La fecha de entrada en vigor (1 de diciembre de 2009) no figura en el PDF comprobado y debe verificarse en el DOUE."
     }
   ]
 }

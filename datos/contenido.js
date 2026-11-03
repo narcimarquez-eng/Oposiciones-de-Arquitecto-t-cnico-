@@ -574,7 +574,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2007-5825.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 37, 42 a 49, 90 a 98, 99 a 106, 118 a 127, 128 a 130, 133 a 139, 140 a 144, 248 y 249 en el texto del PDF. Resto del articulado pendiente. Verificados también arts. 91 a 98 en el texto del PDF."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 37, 42 a 49, 90 a 98, 99 a 106, 118 a 127, 128 a 130, 133 a 139, 140 a 144, 248 y 249 en el texto del PDF. Resto del articulado pendiente. Verificados también arts. 91 a 98 en el texto del PDF. Verificados también arts. 225 a 237 en el texto del PDF (algunos por su rúbrica)."
   },
   "LPAC": {
    "id": "LPAC",
@@ -641,6 +641,28 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
    "notas": "PDF consolidado descargado y comprobado (BOE núm. 80, de 3/04/1985). Verificados arts. 1, 2, 4, 6.1, 11, 12, 20, 21.1, 22, 25, 26, 31 a 33 y 36 en el texto del PDF. Resto pendiente."
+  },
+  "TUE-TFUE": {
+   "id": "TUE-TFUE",
+   "nombre": "Tratado de la Unión Europea y Tratado de Funcionamiento de la Unión Europea (versiones consolidadas)",
+   "referencia": "Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)",
+   "url": "https://www.boe.es/doue/2012/326/Z00001-00390.pdf",
+   "boe_id": "DOUE-C326-2012",
+   "pdf": "leyes/DOUE-C326-2012-TUE-TFUE-consolidados.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF oficial en español descargado desde el BOE (sección DOUE) y título comprobado. Verificados TUE 2, 3, 4, 5.1, 5.3, 6.1, 13, 14, 16, 17, 19 y TFUE 3, 4, 6, 26, 28, 30, 45, 49, 56, 63, 64, 162, 174 a 178, 288, 289, 291, 294, 310 a 314 en el texto del PDF."
+  },
+  "TLISBOA-2007": {
+   "id": "TLISBOA-2007",
+   "nombre": "Tratado de Lisboa",
+   "referencia": "Tratado de Lisboa por el que se modifican el Tratado de la Unión Europea y el Tratado constitutivo de la Comunidad Europea (DOUE C 306, de 17 de diciembre de 2007)",
+   "url": "https://www.boe.es/doue/2007/306/Z00001-00271.pdf",
+   "boe_id": "DOUE-C306-2007",
+   "pdf": "leyes/DOUE-C306-2007-Tratado-de-Lisboa.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF oficial en español descargado desde el BOE y título comprobado. La fecha de entrada en vigor (1 de diciembre de 2009) no figura en el PDF comprobado y debe verificarse en el DOUE."
   }
  },
  "contenido": {
@@ -3374,6 +3396,756 @@ window.DATOS_ESTUDIO = {
      "nombre": "Ley Orgánica 2/2007, de reforma del Estatuto de Autonomía para Andalucía (texto consolidado, BOE)",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
      "pdf": "leyes/BOE-A-2007-5825.pdf"
+    }
+   ]
+  },
+  "c09": {
+   "resumen": [
+    {
+     "titulo": "Tratados",
+     "puntos": [
+      "El Derecho originario se contiene en el Tratado de la Unión Europea (TUE) y el Tratado de Funcionamiento de la Unión Europea (TFUE), con el mismo valor jurídico.",
+      "El Tratado de Lisboa modificó el TUE y el Tratado constitutivo de la Comunidad Europea, que pasó a llamarse TFUE (DOUE C 306, 2007).",
+      "Valores y objetivos: art. 2 TUE (dignidad, libertad, democracia, igualdad, Estado de Derecho) y art. 3 TUE (paz, bienestar y espacio de libertad, seguridad y justicia)."
+     ]
+    },
+    {
+     "titulo": "Principios y competencias",
+     "puntos": [
+      "Atribución de competencias (art. 5.1 TUE). Subsidiariedad y proporcionalidad en su ejercicio (arts. 5.1 y 5.3 TUE).",
+      "Competencia residual de los Estados miembros (art. 4.1 TUE).",
+      "Competencias exclusivas (art. 3 TFUE), compartidas (art. 4 TFUE) y de apoyo (art. 6 TFUE)."
+     ]
+    },
+    {
+     "titulo": "Instituciones",
+     "puntos": [
+      "Siete instituciones (art. 13.1 TUE): Parlamento Europeo, Consejo Europeo, Consejo, Comisión, Tribunal de Justicia, Banco Central Europeo y Tribunal de Cuentas.",
+      "Parlamento y Consejo ejercen conjuntamente la función legislativa y presupuestaria (arts. 14.1 y 16.1 TUE). La Comisión promueve el interés general y propone (art. 17.1 TUE; art. 294.2 TFUE)."
+     ]
+    },
+    {
+     "titulo": "Actos y control jurisdiccional",
+     "puntos": [
+      "Reglamento obligatorio en todos sus elementos y directamente aplicable; directiva necesitada de transposición; decisión obligatoria para su destinatario; recomendaciones y dictámenes no vinculantes (art. 288 TFUE).",
+      "Recurso por incumplimiento de la Comisión (art. 258 TFUE), recurso de anulación (art. 263 TFUE) y cuestión prejudicial (art. 267 TFUE)."
+     ]
+    },
+    {
+     "titulo": "Junta de Andalucía y Unión Europea",
+     "puntos": [
+      "Participación en la formación de la posición del Estado y en las decisiones de la Unión (arts. 231.1 y 232 del Estatuto). Delegación Permanente (art. 236).",
+      "Consulta previa al Parlamento de Andalucía antes del dictamen de las Cortes (art. 237) y participación ante el Tribunal de Justicia (art. 238)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "TUE-TFUE",
+     "rol": "Norma principal del tema: arts. 2 a 6 TUE, 13 a 19 TUE; 3, 4, 6, 258, 263, 267, 288 a 294 TFUE"
+    },
+    {
+     "id": "TLISBOA-2007",
+     "rol": "Complementaria: texto del Tratado de Lisboa (DOUE C 306)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Complementaria: relaciones con la Unión Europea (arts. 230 a 239)"
+    },
+    {
+     "id": "CE",
+     "rol": "Complementaria: arts. 93 y 96.1 (integración en el ordenamiento)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "¿Cuántas instituciones enumera el art. 13.1 TUE?",
+     "opciones": [
+      "Cinco",
+      "Siete",
+      "Nueve",
+      "Tres"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 13.1 TUE enumera siete instituciones: Parlamento Europeo, Consejo Europeo, Consejo, Comisión, Tribunal de Justicia, Banco Central Europeo y Tribunal de Cuentas.",
+     "referencia": "Art. 13.1 TUE"
+    },
+    {
+     "pregunta": "¿Qué principio limita la intervención de la Unión en los ámbitos que no son de su competencia exclusiva?",
+     "opciones": [
+      "Legalidad",
+      "Oportunidad",
+      "Subsidiariedad",
+      "Jerarquía"
+     ],
+     "correcta": 2,
+     "explicacion": "El principio de subsidiariedad (art. 5.3 TUE) solo permite a la Unión intervenir cuando los objetivos no pueden alcanzarse suficientemente por los Estados y se alcanzan mejor a escala de la Unión.",
+     "referencia": "Art. 5.3 TUE"
+    },
+    {
+     "pregunta": "¿Qué principio rige la delimitación de las competencias de la Unión?",
+     "opciones": [
+      "Atribución",
+      "Reconocimiento mutuo",
+      "Eficiencia",
+      "Unanimidad"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 5.1 TUE establece que la delimitación de las competencias de la Unión se rige por el principio de atribución.",
+     "referencia": "Art. 5.1 TUE"
+    },
+    {
+     "pregunta": "¿A quién corresponde la competencia no atribuida a la Unión en los tratados?",
+     "opciones": [
+      "Al Consejo Europeo",
+      "Al Tribunal de Justicia",
+      "A la Comisión",
+      "A los Estados miembros"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 4.1 TUE establece que toda competencia no atribuida a la Unión en los tratados corresponde a los Estados miembros.",
+     "referencia": "Art. 4.1 TUE"
+    },
+    {
+     "pregunta": "En el procedimiento legislativo ordinario, ¿quién presenta la propuesta al Parlamento Europeo y al Consejo?",
+     "opciones": [
+      "El Parlamento Europeo",
+      "La Comisión",
+      "El Consejo",
+      "El Tribunal de Justicia"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 294.2 TFUE establece que la Comisión presenta la propuesta al Parlamento Europeo y al Consejo.",
+     "referencia": "Art. 294.2 TFUE"
+    },
+    {
+     "pregunta": "¿Qué acto de la Unión es obligatorio en todos sus elementos y directamente aplicable en cada Estado miembro?",
+     "opciones": [
+      "La directiva",
+      "La recomendación",
+      "El dictamen",
+      "El reglamento"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 288 TFUE establece que el reglamento tiene alcance general, es obligatorio en todos sus elementos y directamente aplicable en cada Estado miembro.",
+     "referencia": "Art. 288 TFUE"
+    },
+    {
+     "pregunta": "¿Quién inicia el recurso por incumplimiento contra un Estado miembro?",
+     "opciones": [
+      "La Comisión",
+      "Un juez nacional",
+      "El ciudadano",
+      "El Consejo"
+     ],
+     "correcta": 0,
+     "explicacion": "Si la Comisión estima que un Estado ha incumplido sus obligaciones, emite un dictamen motivado y, si el Estado no se atiene, puede recurrir al Tribunal de Justicia.",
+     "referencia": "Art. 258 TFUE"
+    },
+    {
+     "pregunta": "¿Qué es la cuestión prejudicial?",
+     "opciones": [
+      "Un recurso de un Estado contra la Comisión",
+      "Un dictamen del Parlamento Europeo",
+      "Una consulta de un órgano jurisdiccional nacional al Tribunal de Justicia sobre interpretación o validez",
+      "Un recurso del ciudadano por violación de sus derechos"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 267 TFUE permite al Tribunal de Justicia pronunciarse con carácter prejudicial sobre la interpretación de los tratados y la validez e interpretación de los actos de las instituciones, a instancia de un órgano jurisdiccional nacional.",
+     "referencia": "Art. 267 TFUE"
+    },
+    {
+     "pregunta": "¿Cómo se denomina el órgano administrativo de representación de la Junta de Andalucía ante la Unión Europea?",
+     "opciones": [
+      "Consulado andaluz",
+      "Delegación Permanente",
+      "Oficina de enlace",
+      "Representación consular"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 236 del Estatuto prevé la Delegación Permanente de la Junta de Andalucía en la Unión Europea como órgano administrativo de representación.",
+     "referencia": "Art. 236 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué órgano debe ser consultado previamente a las propuestas de la Unión que afecten a Andalucía?",
+     "opciones": [
+      "El Consejo de Gobierno",
+      "El Tribunal Superior de Justicia",
+      "El Parlamento de Andalucía",
+      "La Cámara de Cuentas"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 237 del Estatuto exige que el Parlamento de Andalucía sea consultado previamente a la emisión del dictamen de las Cortes Generales sobre esas propuestas.",
+     "referencia": "Art. 237 Estatuto de Andalucía"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Origen y evolución de la Unión Europea",
+     "parrafos": [
+      "La Unión Europea nace de un proceso de integración económica y política que comenzó en la posguerra. Los tratados originarios son los que crearon las Comunidades Europeas: el Tratado constitutivo de la Comunidad Europea del Carbón y del Acero (CECA), firmado en París en 1951, y los Tratados de Roma de 1957, que crearon la Comunidad Económica Europea (CEE) y la Comunidad Europea de la Energía Atómica (Euratom). Las fechas de este apartado proceden de la historia general de la integración europea, no de los textos consultados, y deben verificarse en la edición oficial antes de citarse.",
+      "Los tratados modificativos (fechas igualmente pendientes de verificar) han ido ampliando las competencias y las instituciones. El Acta Única Europea (1986) impulsó el mercado interior. El Tratado de Maastricht (1992) creó la Unión Europea, que se fundamentó en un Tratado de la Unión (TUE) y en el Tratado constitutivo de la Comunidad. Después vinieron los tratados de Ámsterdam (1997) y de Niza (2001).",
+      "El Tratado de Lisboa, firmado en 2007, modifica el Tratado de la Unión Europea y el Tratado constitutivo de la Comunidad Europea. Este último pasó a llamarse Tratado de Funcionamiento de la Unión Europea (TFUE). El texto oficial en español se publicó en el Diario Oficial de la Unión Europea (DOUE C 306, de 17 de diciembre de 2007), y se ha incorporado al repositorio como PDF en leyes/DOUE-C306-2007-Tratado-de-Lisboa.pdf."
+     ]
+    },
+    {
+     "titulo": "2. Los dos tratados: TUE y TFUE",
+     "parrafos": [
+      "En la actualidad, el Derecho originario de la Unión se contiene en dos tratados con el mismo valor jurídico, el Tratado de la Unión Europea (TUE) y el Tratado de Funcionamiento de la Unión Europea (TFUE). El primero establece los valores, los objetivos y los principios de la Unión. El segundo regula las políticas y el funcionamiento de sus instituciones.",
+      "El artículo 2 TUE fundamenta la Unión en los valores de respeto de la dignidad humana, libertad, democracia, igualdad, Estado de Derecho y respeto de los derechos humanos. El artículo 3.1 TUE establece que la finalidad de la Unión es promover la paz, sus valores y el bienestar de sus pueblos. El artículo 3.2 añade el objetivo de ofrecer a los ciudadanos un espacio de libertad, seguridad y justicia sin fronteras interiores, en el que se garantice la libre circulación de personas.",
+      "El artículo 6.1 TUE reconoce los derechos, libertades y principios de la Carta de los Derechos Fundamentales de la Unión Europea, que tiene el mismo valor jurídico que los tratados. Es una pieza clave del sistema de protección de derechos en la Unión.",
+      "Para un examen, conviene distinguir qué contiene cada tratado: el TUE, los valores y los principios de la acción de la Unión; el TFUE, las competencias, las políticas y el procedimiento."
+     ]
+    },
+    {
+     "titulo": "3. Principios que rigen las competencias de la Unión",
+     "parrafos": [
+      "El artículo 5.1 TUE establece que la delimitación de las competencias de la Unión se rige por el principio de atribución. La Unión solo actúa dentro de los límites de las competencias que le atribuyen los tratados. El ejercicio de esas competencias se rige por los principios de subsidiariedad y proporcionalidad.",
+      "El artículo 5.3 TUE define el principio de subsidiariedad. En los ámbitos que no sean de su competencia exclusiva, la Unión solo interviene cuando, y en la medida en que, los objetivos de la acción no puedan alcanzarse de manera suficiente por los Estados miembros, ni a nivel central ni a nivel regional y local, sino que puedan alcanzarse mejor a escala de la Unión por razón de su dimensión o efectos.",
+      "El artículo 4.1 TUE establece que toda competencia no atribuida a la Unión en los tratados corresponde a los Estados miembros. Es la cláusula residual del sistema europeo, equivalente a la del artículo 149.3 CE en el reparto territorial interno.",
+      "El artículo 4.2 TUE añade que la Unión respeta la igualdad de los Estados miembros ante los tratados y su identidad nacional, inherente a sus estructuras fundamentales políticas y constitucionales."
+     ]
+    },
+    {
+     "titulo": "4. Tipos de competencias de la Unión (TFUE arts. 3, 4 y 6)",
+     "parrafos": [
+      "El artículo 3 TFUE enumera las competencias exclusivas de la Unión. Entre ellas figuran la unión aduanera, las normas de competencia necesarias para el funcionamiento del mercado interior, la política monetaria de los Estados cuya moneda es el euro, y la conservación de los recursos biológicos marinos dentro de la política pesquera común (art. 3.1.d). En estos ámbitos solo la Unión puede legislar.",
+      "El artículo 4 TFUE regula las competencias compartidas, que son las que la Unión ejerce junto con los Estados. El artículo 4.2 enumera los ámbitos principales: el mercado interior, la política social, la cohesión económica, social y territorial, la agricultura y la pesca (con exclusión de la conservación de los recursos biológicos marinos), el medio ambiente, la protección de los consumidores, los transportes, las redes transeuropeas, la energía, el espacio de libertad, seguridad y justicia, y los asuntos comunes de seguridad en salud pública.",
+      "El artículo 6 TFUE establece las competencias de apoyo, coordinación o complemento de la acción de los Estados, en ámbitos como la protección de la salud, la industria, la cultura y el turismo. En estos casos la Unión no sustituye a los Estados.",
+      "La clasificación es importante porque determina quién puede legislar. En las exclusivas, solo la Unión; en las compartidas, la Unión y los Estados; y en las de apoyo, los Estados conservan la competencia normativa principal."
+     ]
+    },
+    {
+     "titulo": "5. Las instituciones de la Unión",
+     "parrafos": [
+      "El artículo 13.1 TUE enumera las instituciones de la Unión: el Parlamento Europeo, el Consejo Europeo, el Consejo, la Comisión Europea, el Tribunal de Justicia de la Unión Europea, el Banco Central Europeo y el Tribunal de Cuentas. Cada institución actúa dentro de los límites de las atribuciones que le confieren los tratados (art. 13.2 TUE).",
+      "El Parlamento Europeo ejerce conjuntamente con el Consejo la función legislativa y la presupuestaria, y tiene funciones de control político y consultivas. Elige al Presidente de la Comisión (art. 14.1 TUE). Está compuesto por representantes de los ciudadanos de la Unión (art. 14.2 TUE).",
+      "El Consejo ejerce conjuntamente con el Parlamento Europeo la función legislativa y la presupuestaria, y tiene funciones de definición de políticas y de coordinación (art. 16.1 TUE). Está compuesto por un representante de cada Estado miembro a nivel ministerial (art. 16.2 TUE).",
+      "La Comisión promueve el interés general de la Unión y toma las iniciativas adecuadas para ello. Vela por que se apliquen los tratados y las medidas adoptadas por las instituciones, y supervisa la aplicación del Derecho de la Unión bajo el control del Tribunal de Justicia (art. 17.1 TUE). Es la institución que tiene normalmente la iniciativa legislativa.",
+      "El Tribunal de Justicia de la Unión Europea garantiza el respeto del Derecho en la interpretación y aplicación de los tratados. Comprende el Tribunal de Justicia, el Tribunal General y los tribunales especializados (art. 19.1 TUE). Su jurisprudencia es fuente indirecta del Derecho de la Unión.",
+      "El Consejo Europeo y el Banco Central Europeo se regulan en otros preceptos del TUE y del TFUE; su detalle no está incluido en este desarrollo, y debe comprobarse en el texto consolidado."
+     ]
+    },
+    {
+     "titulo": "6. El procedimiento legislativo ordinario",
+     "parrafos": [
+      "El artículo 289.1 TFUE define el procedimiento legislativo ordinario como la adopción conjunta por el Parlamento Europeo y el Consejo, a propuesta de la Comisión, de un reglamento, una directiva o una decisión. Este procedimiento se define en el artículo 294 TFUE.",
+      "En el artículo 294 TFUE, la Comisión presenta la propuesta al Parlamento Europeo y al Consejo. Después se suceden las lecturas de ambas instituciones, con posibilidad de acuerdo en primera lectura y, si no lo hay, de conciliación. El procedimiento es el instrumento principal de la función legislativa de la Unión.",
+      "Para un examen, la pregunta típica es quién propone y quién adopta. La Comisión propone; el Parlamento Europeo y el Consejo adoptan conjuntamente. Esta regla de codecisión es la clave del procedimiento ordinario."
+     ]
+    },
+    {
+     "titulo": "7. La representación de la Junta de Andalucía ante la Unión Europea",
+     "parrafos": [
+      "El Estatuto de Andalucía regula la relación de la Comunidad con la Unión Europea en el Título IX, que se dedica a las relaciones institucionales. El artículo 1.4 del Estatuto declara que la Unión Europea es ámbito de referencia de la Comunidad, que asume sus valores y vela por el cumplimiento de sus objetivos.",
+      "El artículo 230 establece que las relaciones de la Comunidad con las instituciones de la Unión Europea se rigen por lo dispuesto en el Estatuto. El artículo 231.1 prevé que la Comunidad participe en la formación de la posición del Estado ante la Unión en los asuntos que afectan a sus competencias. El artículo 232 le reconoce la participación en los procesos de decisión de las instituciones de la Unión, directamente o a través de representantes.",
+      "El artículo 236 prevé la Delegación Permanente de la Junta de Andalucía en la Unión Europea como órgano administrativo de representación. El artículo 237 exige que el Parlamento de Andalucía sea consultado previamente a la emisión del dictamen de las Cortes Generales sobre las propuestas de la Unión que afecten a Andalucía.",
+      "Los artículos 233 a 235 se refieren a la información que el Estado debe proporcionar a la Junta, a su participación en las delegaciones españolas y a su desarrollo y ejecución del Derecho de la Unión en las materias de su competencia. El artículo 238 regula su intervención en los procedimientos ante el Tribunal de Justicia de la Unión Europea, y el artículo 239 la cooperación con las regiones europeas. Conviene leer estos preceptos completos para el examen, porque su redacción es literal.",
+      "Para un examen, la síntesis es que la Junta participa en la formación de la posición del Estado y en las decisiones de la Unión, pero que la representación exterior del Estado sigue correspondiendo al Gobierno nacional. Esta distinción es habitual en las preguntas."
+     ]
+    },
+    {
+     "titulo": "8. El Derecho de la Unión: tipos de fuentes",
+     "parrafos": [
+      "El Derecho de la Unión se clasifica en originario y derivado. El Derecho originario está formado por los tratados y por la Carta de los Derechos Fundamentales (art. 6.1 TUE). El Derecho derivado son los actos que adoptan las instituciones en ejercicio de las competencias que los tratados les atribuyen.",
+      "El artículo 288 TFUE enumera los actos jurídicos de la Unión: reglamentos, directivas, decisiones, recomendaciones y dictámenes. El reglamento tiene alcance general, es obligatorio en todos sus elementos y directamente aplicable en cada Estado miembro. Su aplicación no requiere ley nacional de transposición.",
+      "La directiva obliga al Estado destinatario en cuanto al resultado que debe conseguirse, pero deja a las autoridades nacionales la elección de la forma y de los medios. Necesita ser transpuesta al derecho nacional. La decisión es obligatoria en todos sus elementos para su destinatario. Las recomendaciones y los dictámenes no son vinculantes.",
+      "El artículo 291 TFUE regula la ejecución de los actos vinculantes. Los Estados adoptan las medidas de Derecho interno necesarias (art. 291.1), y cuando se requieren condiciones uniformes, los actos confieren competencias de ejecución a la Comisión o, en casos específicos, al Consejo (art. 291.2).",
+      "La jurisprudencia del Tribunal de Justicia es una fuente indirecta esencial. Como se ha visto, el artículo 19.1 TUE le atribuye garantizar el respeto del Derecho en la interpretación y aplicación de los tratados.",
+      "La relación con el Derecho nacional sigue un principio clave: el Derecho de la Unión tiene primacía sobre el Derecho interno de los Estados. Esa primacía se deduce de la jurisprudencia del Tribunal de Justicia, y no aparece expresamente en el texto de los tratados consultados para este desarrollo, por lo que debe verificarse en la fuente jurisprudencial antes de citarla."
+     ]
+    },
+    {
+     "titulo": "9. El control jurisdiccional de la Unión: el Tribunal de Justicia",
+     "parrafos": [
+      "El Tribunal de Justicia garantiza el respeto del Derecho de la Unión (art. 19.1 TUE). Para cumplir esa función, los tratados le atribuyen varias competencias, que el temario de este tema resume en tres: el recurso por incumplimiento, el recurso de anulación y la cuestión prejudicial.",
+      "El recurso por incumplimiento (art. 258 TFUE) se da cuando un Estado miembro incumple sus obligaciones. La Comisión emite primero un dictamen motivado, después de haber ofrecido al Estado la posibilidad de presentar sus observaciones. Si el Estado no se atiene al dictamen en el plazo fijado, la Comisión puede recurrir ante el Tribunal de Justicia.",
+      "El recurso de anulación (art. 263 TFUE) permite controlar la legalidad de los actos legislativos, de los actos del Consejo, de la Comisión y del Banco Central Europeo que no sean recomendaciones o dictámenes, y de los actos del Parlamento Europeo y del Consejo Europeo destinados a producir efectos jurídicos frente a terceros. La legitimación y los plazos se regulan en el propio artículo 263, que debe leerse completo para el examen.",
+      "La cuestión prejudicial (art. 267 TFUE) permite al Tribunal de Justicia pronunciarse, con carácter prejudicial, sobre la interpretación de los tratados y sobre la validez e interpretación de los actos de las instituciones. Cuando un órgano jurisdiccional nacional plantea la cuestión y estima necesaria una decisión para dictar sentencia, puede pedir al Tribunal que se pronuncie. Es el mecanismo por el que los jueces nacionales aplican el Derecho de la Unión de forma uniforme.",
+      "Para un examen, la diferencia clave es quién inicia cada procedimiento. En el recurso por incumplimiento, la Comisión; en la anulación, un legitimado frente a un acto; y en la prejudicial, el juez nacional, que plantea la cuestión de oficio o a instancia de parte."
+     ]
+    },
+    {
+     "titulo": "10. La Comisión y la iniciativa legislativa",
+     "parrafos": [
+      "El artículo 17.1 TUE atribuye a la Comisión la promoción del interés general de la Unión y la toma de las iniciativas adecuadas con ese fin. Es la institución que tiene normalmente el monopolio de la iniciativa legislativa en el procedimiento ordinario, como recoge el artículo 294.2 TFUE al disponer que la Comisión presenta la propuesta al Parlamento Europeo y al Consejo.",
+      "La Comisión también vela por la aplicación de los tratados y de las medidas de las instituciones, y supervisa la aplicación del Derecho de la Unión bajo el control del Tribunal de Justicia. Por eso, en el recurso por incumplimiento es la Comisión quien inicia el procedimiento contra el Estado.",
+      "La Comisión tiene además funciones ejecutivas en el marco de los actos de ejecución del artículo 291.2 TFUE, cuando los actos legislativos le confieren competencias de ejecución para garantizar condiciones uniformes."
+     ]
+    },
+    {
+     "titulo": "11. La Junta de Andalucía y los procedimientos europeos: síntesis",
+     "parrafos": [
+      "La Junta de Andalucía participa en el sistema europeo por varias vías. La primera es la formación de la posición del Estado en la Unión (art. 231.1 Estatuto). La segunda es su participación en los procesos de decisión de las instituciones, directamente o a través de representantes (art. 232). La tercera es la consulta previa al Parlamento de Andalucía antes del dictamen de las Cortes sobre propuestas de la Unión que afecten a Andalucía (art. 237).",
+      "La cuarta vía, de carácter jurisdiccional, es su intervención en los procedimientos ante el Tribunal de Justicia de la Unión Europea (art. 238 Estatuto), en los términos que establezcan las normas aplicables. La quinta es la cooperación con las regiones europeas (art. 239).",
+      "Para un examen, la síntesis es que Andalucía tiene derechos de participación y de intervención en la política europea, pero que la representación exterior del Estado y la transposición de las directivas corresponden al Estado. Según el artículo 235 del Estatuto, la Junta desarrolla y ejecuta el Derecho de la Unión en las materias de su competencia."
+     ]
+    },
+    {
+     "titulo": "12. Casos prácticos",
+     "parrafos": [
+      "Caso 1: la Unión aprueba una norma que obliga a todos los Estados a aplicar la misma regla técnica sin margen de adaptación. Si la norma es un reglamento, es obligatoria en todos sus elementos y directamente aplicable (art. 288 TFUE), sin necesidad de transposición. Si fuera una directiva, requeriría transposición al Derecho nacional.",
+      "Caso 2: una materia en la que la Unión tiene competencia exclusiva, como la política monetaria del euro (art. 3.1.c TFUE). Solo la Unión puede legislar en ella. Un Estado miembro que legislara por su cuenta invadiría la competencia de la Unión.",
+      "Caso 3: un Estado miembro no aplica una directiva en el plazo fijado. La Comisión puede emitir un dictamen motivado y, si el Estado no se atiene, recurrir al Tribunal de Justicia (art. 258 TFUE). Es el recurso por incumplimiento.",
+      "Caso 4: un juez nacional duda sobre la validez de un reglamento europeo aplicable a un litigio. Puede plantear una cuestión prejudicial al Tribunal de Justicia (art. 267 TFUE), que se pronuncia sobre la validez e interpretación del acto."
+     ]
+    },
+    {
+     "titulo": "13. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir el TUE con el TFUE. El primero contiene los valores, los objetivos y los principios; el segundo, las competencias, las políticas y el procedimiento de las instituciones.",
+      "Atribuir la iniciativa legislativa al Parlamento Europeo. En el procedimiento ordinario, la Comisión presenta la propuesta (art. 294.2 TFUE).",
+      "Confundir el recurso por incumplimiento, que inicia la Comisión contra un Estado, con la cuestión prejudicial, que plantea un juez nacional.",
+      "Olvidar que la directiva necesita transposición y el reglamento no (art. 288 TFUE)."
+     ]
+    },
+    {
+     "titulo": "14. Cuadro comparativo de los actos de la Unión (art. 288 TFUE)",
+     "parrafos": [
+      "Reglamento: alcance general; obligatorio en todos sus elementos; directamente aplicable en cada Estado sin transposición.",
+      "Directiva: obliga al Estado destinatario en cuanto al resultado que debe conseguirse; la forma y los medios quedan a las autoridades nacionales; necesita transposición al Derecho nacional.",
+      "Decisión: obligatoria en todos sus elementos para su destinatario, que puede ser un Estado, una empresa o una persona.",
+      "Recomendaciones y dictámenes: no son vinculantes. Orientan la actuación de los destinatarios, pero no les obligan jurídicamente.",
+      "Para un examen, la clave es distinguir si el acto es vinculante y si necesita transposición. El reglamento no la necesita; la directiva sí; la decisión obliga a su destinatario concreto; y las recomendaciones y dictámenes no obligan."
+     ]
+    },
+    {
+     "titulo": "15. El principio de subsidiariedad en la práctica",
+     "parrafos": [
+      "El principio de subsidiariedad (art. 5.3 TUE) limita la intervención de la Unión en los ámbitos que no son de su competencia exclusiva. La Unión solo actúa cuando el objetivo no puede alcanzarse de forma suficiente por los Estados, ni a nivel central, ni regional, ni local, y se alcanza mejor a escala europea.",
+      "En la práctica, el principio exige justificar que la medida europea aporta un valor añadido. Un ejemplo es una norma sobre la libre circulación de mercancías, que no puede resolverse de forma eficaz a nivel de un solo Estado. Otro es una norma de carácter puramente local, que debe quedar en manos del nivel nacional o regional.",
+      "El principio de subsidiariedad se conecta con el principio de proporcionalidad del artículo 5.1 TUE: la acción de la Unión no debe exceder de lo necesario para alcanzar sus objetivos. Para un examen, es habitual preguntar por la relación entre ambos principios."
+     ]
+    },
+    {
+     "titulo": "16. La identidad nacional y la participación de las regiones",
+     "parrafos": [
+      "El artículo 4.2 TUE establece que la Unión respeta la igualdad de los Estados miembros y su identidad nacional, inherente a sus estructuras fundamentales políticas y constitucionales, incluida la autonomía local y regional. La identidad nacional es un límite a la actuación de la Unión.",
+      "Las regiones tienen un papel reconocido en el proceso europeo. El artículo 239 del Estatuto de Andalucía prevé que la Junta promueva la cooperación y establezca las relaciones con las regiones europeas que considere convenientes para el interés de la Comunidad. Es un canal de cooperación regional distinto de la participación en la posición del Estado.",
+      "Para un examen, la conexión es clara: la identidad nacional protege la estructura territorial de cada Estado, y las regiones pueden participar en la política europea por vías propias, siempre dentro de las competencias que les atribuye su norma institucional."
+     ]
+    },
+    {
+     "titulo": "17. La Unión Europea en la Constitución Española",
+     "parrafos": [
+      "El artículo 93 CE permite, mediante ley orgánica, autorizar la celebración de tratados que atribuyan a una organización internacional el ejercicio de competencias derivadas de la Constitución. Es la base constitucional de la integración de España en la Unión Europea. Corresponde a las Cortes Generales o al Gobierno, según los casos, garantizar el cumplimiento de lo acordado.",
+      "El artículo 96.1 CE establece que los tratados válidamente celebrados, una vez publicados oficialmente en España, forman parte del ordenamiento interno. Por eso, los tratados que fundan la Unión se integran en el Derecho español desde su publicación en el BOE.",
+      "Para un examen, la pregunta típica es cómo se incorporan los tratados europeos al ordenamiento español. La respuesta combina dos reglas: la autorización por ley orgánica del artículo 93 CE, y la integración por publicación del artículo 96.1 CE. La primacía del Derecho de la Unión sobre el Derecho interno es una construcción de la jurisprudencia europea, que debe verificarse en la fuente antes de citarla."
+     ]
+    },
+    {
+     "titulo": "9. Claves para el examen",
+     "parrafos": [
+      "Tratados: originarios (CECA, CEE, Euratom) y modificativos (Acta Única, Maastricht, Ámsterdam, Niza, Lisboa); el TUE y el TFUE tienen el mismo valor jurídico.",
+      "Principios: atribución (art. 5.1 TUE); subsidiariedad (art. 5.3 TUE); competencia residual de los Estados (art. 4.1 TUE).",
+      "Instituciones: siete, según el art. 13.1 TUE. Parlamento Europeo (art. 14), Consejo (art. 16), Comisión (art. 17), Tribunal de Justicia (art. 19).",
+      "Procedimiento: la Comisión propone; el Parlamento Europeo y el Consejo adoptan (arts. 289 y 294 TFUE).",
+      "Andalucía: participación en la posición del Estado y en las decisiones de la Unión (arts. 231 y 232 Estatuto); Delegación Permanente (art. 236); consulta al Parlamento (art. 237).",
+      "Fuentes: reglamento, directiva, decisión, recomendación y dictamen (art. 288 TFUE); ejecución de los actos (art. 291 TFUE)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Versiones consolidadas del TUE y del TFUE (DOUE C 326, 26.10.2012), en español",
+     "url": "https://www.boe.es/doue/2012/326/Z00001-00390.pdf",
+     "pdf": "leyes/DOUE-C326-2012-TUE-TFUE-consolidados.pdf"
+    },
+    {
+     "nombre": "Tratado de Lisboa (DOUE C 306, 17.12.2007), en español",
+     "url": "https://www.boe.es/doue/2007/306/Z00001-00271.pdf",
+     "pdf": "leyes/DOUE-C306-2007-Tratado-de-Lisboa.pdf"
+    },
+    {
+     "nombre": "Ley Orgánica 2/2007, de reforma del Estatuto de Autonomía para Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
+     "pdf": "leyes/BOE-A-2007-5825.pdf"
+    }
+   ]
+  },
+  "c10": {
+   "resumen": [
+    {
+     "titulo": "Mercado interior",
+     "puntos": [
+      "Espacio sin fronteras interiores con libre circulación de mercancías, personas, servicios y capitales (art. 26.2 TFUE).",
+      "El mercado interior es una competencia compartida (art. 4.2.a TFUE); las normas de competencia necesarias para su funcionamiento son exclusivas (art. 3.1.b TFUE)."
+     ]
+    },
+    {
+     "titulo": "Libertades de circulación",
+     "puntos": [
+      "Mercancías: unión aduanera y prohibición de derechos de aduana y exacciones de efecto equivalente (arts. 28 y 30 TFUE).",
+      "Trabajadores: libre circulación y abolición de la discriminación por nacionalidad (art. 45 TFUE).",
+      "Establecimiento (art. 49 TFUE), con presencia permanente en el Estado de acogida; y servicios (art. 56 TFUE), de actividad temporal o a distancia.",
+      "Capitales: prohibición de restricciones, también frente a terceros países (art. 63 TFUE); excepción de restricciones anteriores al 31 de diciembre de 1993 (art. 64.1)."
+     ]
+    },
+    {
+     "titulo": "Políticas comunes y competencias",
+     "puntos": [
+      "Exclusivas: unión aduanera, normas de competencia, política monetaria del euro, conservación de recursos marinos y política comercial común (art. 3.1 TFUE).",
+      "Compartidas: mercado interior, política social, cohesión, agricultura y pesca, medio ambiente y consumidores, entre otras (art. 4.2 TFUE)."
+     ]
+    },
+    {
+     "titulo": "Política regional y fondos",
+     "puntos": [
+      "Objetivo de cohesión económica, social y territorial (art. 174 TFUE). Coordinación de la política económica (art. 175 TFUE).",
+      "FEDER para corregir los desequilibrios regionales (art. 176 TFUE). Fondo Social Europeo (art. 162 TFUE). Reglamentos del procedimiento legislativo ordinario (art. 177 TFUE)."
+     ]
+    },
+    {
+     "titulo": "Presupuesto de la Unión",
+     "puntos": [
+      "Presupuesto anual, del 1 de enero al 31 de diciembre (arts. 313 y 314 TFUE). Se financia íntegramente con recursos propios (art. 311 TFUE).",
+      "Marco financiero plurianual de un periodo mínimo de cinco años (art. 312 TFUE)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "TUE-TFUE",
+     "rol": "Norma principal del tema: arts. 3, 4, 6, 26 a 30, 45, 49, 56, 63, 64, 162, 174 a 178 y 310 a 314 TFUE"
+    },
+    {
+     "id": "TLISBOA-2007",
+     "rol": "Complementaria: texto del Tratado de Lisboa (DOUE C 306)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "¿Qué cuatro libertades garantiza el mercado interior?",
+     "opciones": [
+      "Mercancías, personas, servicios y capitales",
+      "Mercancías, empleo, moneda y transporte",
+      "Personas, energía, datos y capitales",
+      "Servicios, agricultura, pesca y transporte"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 26.2 TFUE define el mercado interior como un espacio sin fronteras interiores en el que la libre circulación de mercancías, personas, servicios y capitales está garantizada.",
+     "referencia": "Art. 26.2 TFUE"
+    },
+    {
+     "pregunta": "¿Qué comprende la unión aduanera según el art. 28.1 TFUE?",
+     "opciones": [
+      "Solo las importaciones de terceros países",
+      "La política agrícola común",
+      "La totalidad de los intercambios de mercancías",
+      "Los servicios financieros"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 28.1 TFUE establece que la unión aduanera abarca la totalidad de los intercambios de mercancías, con prohibición de los derechos de aduana entre Estados miembros.",
+     "referencia": "Art. 28.1 TFUE"
+    },
+    {
+     "pregunta": "¿Qué prohíbe el art. 30 TFUE entre los Estados miembros?",
+     "opciones": [
+      "Las licencias profesionales",
+      "Los tratados de comercio",
+      "La libre circulación de trabajadores",
+      "Los derechos de aduana y las exacciones de efecto equivalente"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 30 TFUE prohíbe entre los Estados miembros los derechos de aduana de importación y exportación y las exacciones de efecto equivalente, incluidos los de carácter fiscal.",
+     "referencia": "Art. 30 TFUE"
+    },
+    {
+     "pregunta": "¿Qué supone la libre circulación de trabajadores según el art. 45.2 TFUE?",
+     "opciones": [
+      "Obligación de un salario mínimo común",
+      "Abolición de toda discriminación por razón de nacionalidad",
+      "Creación de un permiso único",
+      "Prohibición de cambiar de empleo"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 45.2 TFUE establece que la libre circulación supone la abolición de toda discriminación por razón de la nacionalidad entre los trabajadores de los Estados miembros.",
+     "referencia": "Art. 45.2 TFUE"
+    },
+    {
+     "pregunta": "¿Qué libertad implica presencia permanente en otro Estado miembro?",
+     "opciones": [
+      "La libre prestación de servicios",
+      "La libertad de establecimiento",
+      "La libre circulación de capitales",
+      "La libre circulación de mercancías"
+     ],
+     "correcta": 1,
+     "explicacion": "La libertad de establecimiento (art. 49 TFUE) permite crear una actividad económica estable en otro Estado miembro. La prestación de servicios (art. 56 TFUE) es, en cambio, temporal o a distancia.",
+     "referencia": "Arts. 49 y 56 TFUE"
+    },
+    {
+     "pregunta": "¿Qué libertad protege el art. 56 TFUE?",
+     "opciones": [
+      "La libertad de establecimiento",
+      "La libre circulación de capitales",
+      "La unión monetaria",
+      "La libre prestación de servicios"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 56 TFUE prohíbe las restricciones a la libre prestación de servicios dentro de la Unión.",
+     "referencia": "Art. 56 TFUE"
+    },
+    {
+     "pregunta": "¿Hasta qué ámbito geográfico alcanza la prohibición de restricciones a los movimientos de capitales?",
+     "opciones": [
+      "Solo a los Estados miembros",
+      "Solo a terceros países",
+      "Entre Estados miembros y frente a terceros países",
+      "Solo al euro"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 63.1 TFUE prohíbe todas las restricciones a los movimientos de capitales entre Estados miembros y entre Estados miembros y terceros países.",
+     "referencia": "Art. 63.1 TFUE"
+    },
+    {
+     "pregunta": "¿Cuál de estas NO es una competencia exclusiva de la Unión según el art. 3.1 TFUE?",
+     "opciones": [
+      "La unión aduanera",
+      "La política monetaria del euro",
+      "La conservación de los recursos biológicos marinos",
+      "La política de empleo"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 3.1 TFUE enumera como exclusivas la unión aduanera, las normas de competencia, la política monetaria del euro, la conservación de los recursos marinos y la política comercial común. La política de empleo no figura entre ellas.",
+     "referencia": "Art. 3.1 TFUE"
+    },
+    {
+     "pregunta": "¿Qué instrumento corrige los desequilibrios regionales dentro de la Unión?",
+     "opciones": [
+      "El FEDER",
+      "El Banco Central Europeo",
+      "El Tribunal de Cuentas",
+      "El Consejo Europeo"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 176 TFUE regula el Fondo Europeo de Desarrollo Regional (FEDER), destinado a corregir los principales desequilibrios regionales dentro de la Unión.",
+     "referencia": "Art. 176 TFUE"
+    },
+    {
+     "pregunta": "¿Qué duración mínima tiene el marco financiero plurianual de la Unión?",
+     "opciones": [
+      "Un año",
+      "Tres años",
+      "Cinco años",
+      "Diez años"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 312.1 TFUE establece que el marco financiero plurianual se establece para un periodo mínimo de cinco años.",
+     "referencia": "Art. 312.1 TFUE"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. El mercado interior: concepto y fundamento",
+     "parrafos": [
+      "El mercado interior es el núcleo económico de la Unión Europea. El artículo 26.1 TFUE establece que la Unión adoptará las medidas destinadas a establecer el mercado interior o a garantizar su funcionamiento, de conformidad con las disposiciones de los tratados.",
+      "El artículo 26.2 TFUE lo define como un espacio sin fronteras interiores, en el que la libre circulación de mercancías, personas, servicios y capitales está garantizada de acuerdo con las disposiciones de los tratados. Son las cuatro libertades fundamentales, y cada una tiene su propio capítulo en el Tratado.",
+      "Para un examen, conviene recordar que el mercado interior es una competencia compartida (art. 4.2.a TFUE), no una competencia exclusiva. Las normas sobre competencia necesarias para su funcionamiento sí son competencia exclusiva de la Unión (art. 3.1.b TFUE)."
+     ]
+    },
+    {
+     "titulo": "2. Libre circulación de mercancías: unión aduanera y prohibición de derechos",
+     "parrafos": [
+      "El artículo 28.1 TFUE establece que la Unión comprende una unión aduanera que abarca la totalidad de los intercambios de mercancías. Esa unión implica la prohibición, entre los Estados miembros, de los derechos de aduana de importación y exportación y de cualesquiera exacciones de efecto equivalente.",
+      "El artículo 30 TFUE refuerza la prohibición. Quedan prohibidos entre los Estados miembros los derechos de aduana de importación y exportación o las exacciones de efecto equivalente, y la prohibición se aplica también a los derechos de aduana de carácter fiscal.",
+      "La unión aduanera se basa en un arancel común frente a terceros países, que la Unión fija en común. Para un examen, la clave es distinguir la libre circulación interior, que es libre, de las relaciones con terceros países, que se regulan con un arancel común."
+     ]
+    },
+    {
+     "titulo": "3. Libre circulación de trabajadores",
+     "parrafos": [
+      "El artículo 45.1 TFUE establece que queda asegurada la libre circulación de los trabajadores dentro de la Unión. El artículo 45.2 precisa que supone la abolición de toda discriminación por razón de la nacionalidad entre los trabajadores de los Estados miembros.",
+      "La libre circulación protege al trabajador que se desplaza a otro Estado miembro para trabajar. Le garantiza el acceso al empleo y el trato igual frente a los nacionales en las condiciones de trabajo. El artículo 45 se completa con las excepciones que el propio precepto establece por razones de orden público, seguridad y salud pública, cuyo detalle debe comprobarse en el texto.",
+      "El Fondo Social Europeo (art. 162 TFUE) complementa esta libertad. Se crea para mejorar las posibilidades de empleo de los trabajadores en el mercado interior, y fomenta la movilidad geográfica y profesional de los trabajadores dentro de la Unión."
+     ]
+    },
+    {
+     "titulo": "4. Libertad de establecimiento",
+     "parrafos": [
+      "El artículo 49 TFUE establece que quedan prohibidas las restricciones a la libertad de establecimiento de los nacionales de un Estado miembro en el territorio de otro Estado miembro. La prohibición se extiende a las restricciones relativas a la creación de agencias, sucursales o filiales.",
+      "La libertad de establecimiento permite a una persona o empresa crear una actividad económica estable en otro Estado miembro, en condiciones de igualdad con los nacionales. Se distingue de la libre prestación de servicios, que es una actividad transfronteriza sin establecimiento permanente.",
+      "Para un examen, la diferencia es clave: el establecimiento implica presencia permanente en el Estado de acogida; la prestación de servicios no. Ambas libertades están prohibidas de restringir sin justificación."
+     ]
+    },
+    {
+     "titulo": "5. Libre prestación de servicios",
+     "parrafos": [
+      "El artículo 56 TFUE establece que quedan prohibidas las restricciones a la libre prestación de servicios dentro de la Unión para los nacionales de los Estados miembros establecidos en un Estado miembro distinto del destinatario de la prestación.",
+      "El precepto prevé además que el Parlamento Europeo y el Consejo puedan extender sus disposiciones a determinados prestadores de terceros países. El alcance exacto de esa extensión debe comprobarse en el texto del artículo.",
+      "La libre prestación de servicios se aplica a las actividades económicas que se prestan a distancia o de forma temporal en otro Estado miembro, sin establecimiento permanente. Es la libertad que permite a un profesional prestar un servicio en otro país de la Unión sin trasladarse de forma permanente."
+     ]
+    },
+    {
+     "titulo": "6. Libre circulación de capitales",
+     "parrafos": [
+      "El artículo 63.1 TFUE establece que quedan prohibidas todas las restricciones a los movimientos de capitales entre Estados miembros y entre Estados miembros y terceros países. El artículo 63.2 prohíbe también las restricciones a los pagos entre Estados miembros y entre estos y terceros países.",
+      "El artículo 64.1 TFUE prevé que la prohibición del artículo 63 se entiende sin perjuicio de la aplicación a terceros países de las restricciones que existían el 31 de diciembre de 1993. Es una excepción histórica, que el propio precepto delimita.",
+      "Para un examen, la libertad de capitales es la única de las cuatro libertades que se extiende también a los terceros países. Las otras tres se limitan al espacio de la Unión, aunque pueden tener efectos en las relaciones con terceros según los acuerdos."
+     ]
+    },
+    {
+     "titulo": "7. Las competencias de la Unión sobre las políticas comunes",
+     "parrafos": [
+      "El artículo 3.1 TFUE enumera las competencias exclusivas de la Unión. Entre ellas figuran la unión aduanera, las normas de competencia necesarias para el funcionamiento del mercado interior, la política monetaria de los Estados cuya moneda es el euro, y la conservación de los recursos biológicos marinos dentro de la política pesquera común.",
+      "El artículo 4.2 TFUE enumera las competencias compartidas, entre ellas el mercado interior, la política social, la cohesión económica, social y territorial, la agricultura y la pesca (con exclusión de la conservación de los recursos biológicos marinos), el medio ambiente y la protección de los consumidores.",
+      "Las políticas comunes son las que la Unión desarrolla en esos ámbitos, con instrumentos propios. La política agrícola y pesquera, la política de competencia y la política comercial son ejemplos de políticas comunes en las que la Unión tiene competencia exclusiva o compartida.",
+      "Para un examen, conviene diferenciar la competencia de la Unión (qué ámbitos puede regular) de la política común (cómo lo hace). La política común es el contenido concreto que resulta del ejercicio de la competencia."
+     ]
+    },
+    {
+     "titulo": "8. La política de cohesión y la política regional",
+     "parrafos": [
+      "El artículo 174 TFUE establece el objetivo de cohesión económica, social y territorial. La Unión se propone, en particular, reducir las diferencias entre los niveles de desarrollo de las diversas regiones y el retraso de las regiones o islas menos favorecidas.",
+      "El artículo 175 TFUE establece que los Estados miembros conducen su política económica y la coordinan con miras a alcanzar también los objetivos de cohesión. Al formular y desarrollar las políticas de la Unión, se tienen en cuenta esos objetivos.",
+      "El artículo 176 TFUE regula el Fondo Europeo de Desarrollo Regional (FEDER). Se destina a contribuir a la corrección de los principales desequilibrios regionales dentro de la Unión, mediante la participación en el desarrollo y en el ajuste estructural de las regiones menos desarrolladas, y en la reconversión de las regiones industriales en declive.",
+      "El artículo 177 TFUE establece que el Parlamento Europeo y el Consejo, mediante reglamentos adoptados con el procedimiento legislativo ordinario y tras consultar al Comité Económico y Social y al Comité de las Regiones, determinan las funciones, los objetivos prioritarios y la organización de los fondos estructurales. El artículo 178 TFUE regula los reglamentos de aplicación del FEDER.",
+      "Los objetivos prioritarios concretos de los fondos estructurales se fijan en los reglamentos de cada periodo de programación. El texto del Tratado no los enumera, por lo que cualquier pregunta sobre ellos exige comprobar el reglamento vigente, que no está incluido en el catálogo de normas verificadas de este repositorio."
+     ]
+    },
+    {
+     "titulo": "9. El presupuesto de la Unión Europea: principios",
+     "parrafos": [
+      "El artículo 310 TFUE establece que todos los ingresos y gastos de la Unión deben estar comprendidos en las previsiones correspondientes a cada ejercicio presupuestario y consignados en el presupuesto. El Parlamento Europeo y el Consejo establecen el presupuesto anual de la Unión con arreglo al artículo 314.",
+      "El ejercicio presupuestario comienza el 1 de enero y finaliza el 31 de diciembre (art. 313 TFUE). Es el periodo de referencia para la ejecución del presupuesto y para la rendición de cuentas.",
+      "El artículo 311 TFUE establece que la Unión se dota de los medios necesarios para alcanzar sus objetivos. Sin perjuicio de otros ingresos, el presupuesto se financia íntegramente con cargo a los recursos propios. Una decisión del Consejo, por unanimidad y previa consulta al Parlamento Europeo, establece el sistema de recursos propios. Esa decisión solo entra en vigor una vez aprobada por los Estados miembros conforme a sus normas constitucionales."
+     ]
+    },
+    {
+     "titulo": "10. El marco financiero plurianual y el procedimiento presupuestario",
+     "parrafos": [
+      "El artículo 312.1 TFUE establece que el marco financiero plurianual tiene por objeto garantizar la evolución ordenada de los gastos de la Unión dentro del límite de sus recursos propios. Se establece para un periodo mínimo de cinco años, y el presupuesto anual debe respetarlo.",
+      "El artículo 312.2 atribuye al Consejo la adopción del marco financiero plurianual, con arreglo a un procedimiento legislativo especial. El detalle de ese procedimiento debe comprobarse en el texto del artículo.",
+      "El artículo 314 TFUE regula el procedimiento de adopción del presupuesto anual, con arreglo a un procedimiento legislativo especial. Cada institución, excepto el Banco Central Europeo, elabora antes del 1 de julio un estado de previsiones de sus gastos. La Comisión consolida esos estados en un anteproyecto, y el Parlamento Europeo y el Consejo lo aprueban.",
+      "Para un examen, la síntesis es que el presupuesto es anual, se financia con recursos propios, está sujeto a un marco plurianual de al menos cinco años y se aprueba por el Parlamento Europeo y el Consejo con un procedimiento especial."
+     ]
+    },
+    {
+     "titulo": "11. Cuadro de referencia para memorizar",
+     "parrafos": [
+      "Mercado interior: espacio sin fronteras con libre circulación de mercancías, personas, servicios y capitales (art. 26.2 TFUE). Competencia compartida (art. 4.2.a) y normas de competencia exclusivas (art. 3.1.b).",
+      "Mercancías: unión aduanera y prohibición de derechos de aduana (arts. 28.1 y 30 TFUE).",
+      "Trabajadores: libre circulación y no discriminación por nacionalidad (art. 45 TFUE). Fondo Social Europeo (art. 162).",
+      "Establecimiento y servicios: restricciones prohibidas (arts. 49 y 56 TFUE). Establecimiento con presencia permanente; servicios sin establecimiento.",
+      "Capitales: prohibición de restricciones (art. 63 TFUE); excepción de 1993 (art. 64.1).",
+      "Cohesión: objetivo de reducir diferencias regionales (art. 174); FEDER (art. 176); reglamentos del procedimiento legislativo ordinario (art. 177).",
+      "Presupuesto: anual, del 1 de enero al 31 de diciembre (arts. 313 y 314); recursos propios (art. 311); marco plurianual mínimo de cinco años (art. 312)."
+     ]
+    },
+    {
+     "titulo": "12. Casos prácticos",
+     "parrafos": [
+      "Caso 1: un arquitecto técnico español quiere ejercer su profesión de forma estable en Portugal, con oficina propia. Estamos ante la libertad de establecimiento (art. 49 TFUE), porque hay presencia permanente en el Estado de acogida. No puede imponérsele una restricción sin justificación.",
+      "Caso 2: un arquitecto técnico español presta una asistencia técnica puntual en Francia, sin oficina allí. Se trata de la libre prestación de servicios (art. 56 TFUE), porque la actividad es temporal y sin establecimiento permanente.",
+      "Caso 3: un Estado impone un derecho de aduana a los materiales importados de otro Estado miembro. Está prohibido por el artículo 30 TFUE, que prohíbe los derechos de aduana y las exacciones de efecto equivalente entre los Estados miembros.",
+      "Caso 4: una región de la Unión con un retraso de desarrollo pretende recibir apoyo. El objetivo de cohesión (art. 174 TFUE) y el FEDER (art. 176 TFUE) son el marco de referencia, y la concreta asignación se regula en el reglamento vigente de los fondos."
+     ]
+    },
+    {
+     "titulo": "13. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir la libertad de establecimiento con la libre prestación de servicios. El primero exige presencia permanente; la segunda, actividad temporal.",
+      "Atribuir la libertad de capitales a la sola Unión. Se extiende también a los movimientos con terceros países (art. 63.1 TFUE), lo que la diferencia de las demás.",
+      "Afirmar que el mercado interior es competencia exclusiva de la Unión. Es una competencia compartida (art. 4.2.a TFUE); solo las normas de competencia necesarias para su funcionamiento son exclusivas (art. 3.1.b).",
+      "Olvidar que el presupuesto se financia con recursos propios (art. 311 TFUE) y que el marco plurianual dura al menos cinco años (art. 312.1 TFUE)."
+     ]
+    },
+    {
+     "titulo": "15. Las competencias de la Unión de forma completa (arts. 3, 4 y 6 TFUE)",
+     "parrafos": [
+      "El artículo 3.1 TFUE enumera cinco competencias exclusivas: la unión aduanera (letra a), las normas de competencia necesarias para el funcionamiento del mercado interior (letra b), la política monetaria de los Estados cuya moneda es el euro (letra c), la conservación de los recursos biológicos marinos dentro de la política pesquera común (letra d) y la política comercial común (letra e).",
+      "El artículo 3.2 TFUE añade una competencia exclusiva para celebrar acuerdos internacionales en supuestos concretos que el precepto enumera, como cuando la celebración esté prevista en un acto legislativo de la Unión. Es una extensión de la competencia exterior de la Unión que conviene conocer.",
+      "El artículo 4.3 TFUE establece que, en los ámbitos de la investigación, el desarrollo tecnológico y el espacio, la Unión tiene competencia para llevar a cabo acciones, en particular para definir y realizar programas, sin que su ejercicio impida a los Estados ejercer la suya.",
+      "El artículo 6 TFUE recoge las competencias de apoyo. Sus ámbitos incluyen la protección y mejora de la salud humana, la industria, la cultura, el turismo y la educación, la formación profesional, la juventud y el deporte. En ellos, la Unión apoya, coordina o complementa la acción de los Estados."
+     ]
+    },
+    {
+     "titulo": "16. Los fondos estructurales: el FEDER, el FSE y el fondo agrícola",
+     "parrafos": [
+      "El Tratado menciona tres instrumentos financieros de cohesión. El primero es el FEDER (art. 176 TFUE), que corrige los desequilibrios regionales. El segundo es el Fondo Social Europeo (art. 162 TFUE), que fomenta las oportunidades de empleo y la movilidad de los trabajadores. El tercero es el Fondo Europeo de Orientación y de Garantía Agrícola, sección «Orientación», para el que el artículo 178 TFUE mantiene la aplicación de las disposiciones del artículo 43 y del artículo 164 del Tratado.",
+      "La distinción útil para el examen es entre el objeto y el instrumento. El objeto de la política de cohesión es reducir las diferencias regionales (art. 174 TFUE). El instrumento es cada fondo, que financia actuaciones concretas en el territorio.",
+      "Como ya se ha visto, las funciones, los objetivos prioritarios y la organización de los fondos se determinan por reglamentos del Parlamento Europeo y del Consejo (art. 177 TFUE). Por tanto, la pregunta sobre los objetivos concretos de un periodo exige consultar el reglamento correspondiente, no el Tratado."
+     ]
+    },
+    {
+     "titulo": "17. Aplicación de las libertades al ejercicio profesional de la arquitectura técnica",
+     "parrafos": [
+      "Las libertades del mercado interior afectan al ejercicio de profesiones técnicas como la arquitectura técnica. Un profesional de un Estado miembro puede trabajar en otro Estado por las vías de la libertad de establecimiento (art. 49 TFUE) o de la libre prestación de servicios (art. 56 TFUE). La elección depende de si la actividad tiene carácter permanente o temporal en el Estado de acogida.",
+      "La libre circulación de los trabajadores (art. 45 TFUE) protege al profesional que trabaja por cuenta ajena en otro Estado. El reconocimiento de cualificaciones profesionales es un instrumento necesario para que estas libertades sean efectivas, y su régimen concreto se encuentra en la normativa de la Unión y en la nacional, que no está incluida en el catálogo de normas verificadas de este repositorio.",
+      "Para un examen, la conexión con el tema de edificación es clara: las restricciones injustificadas al acceso a una profesión técnica en otro Estado son contrarias a las libertades del mercado interior, siempre que no estén justificadas por razones admitidas por el Tratado."
+     ]
+    },
+    {
+     "titulo": "18. Restricciones justificadas y prohibición general",
+     "parrafos": [
+      "Las libertades del mercado interior no son absolutas. El Tratado admite excepciones justificadas por razones de orden público, seguridad y salud pública, que el propio Tratado establece para cada libertad. Estas excepciones deben interpretarse de forma restrictiva.",
+      "El sistema funciona así: las restricciones a las libertades están prohibidas, salvo que estén justificadas por una de las razones previstas en el Tratado y sean proporcionadas. La proporcionalidad, que el artículo 5.1 TUE aplica a la acción de la Unión, sirve también para valorar las restricciones de los Estados.",
+      "Para un examen, la pregunta típica es si una restricción es admisible. La respuesta requiere tres pasos: identificar la libertad afectada, comprobar si existe una justificación admitida por el Tratado y valorar si la medida es proporcionada."
+     ]
+    },
+    {
+     "titulo": "19. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué son las cuatro libertades del mercado interior? La libre circulación de mercancías, personas, servicios y capitales (art. 26.2 TFUE). Las libertades de personas se desglosan en trabajadores (art. 45) y establecimiento (art. 49).",
+      "¿Qué diferencia la libre prestación de servicios de la libertad de establecimiento? La presencia permanente en el Estado de acogida (establecimiento, art. 49) frente a la actividad temporal o a distancia (servicios, art. 56).",
+      "¿Qué prohíbe el artículo 30 TFUE? Los derechos de aduana de importación y exportación entre los Estados miembros y las exacciones de efecto equivalente, incluidos los de carácter fiscal.",
+      "¿Qué competencias exclusivas enumera el artículo 3.1 TFUE? La unión aduanera, las normas de competencia del mercado interior, la política monetaria del euro, la conservación de los recursos marinos y la política comercial común.",
+      "¿Qué dice el artículo 311 TFUE sobre la financiación? Que el presupuesto se financia íntegramente con cargo a los recursos propios, sin perjuicio de otros ingresos."
+     ]
+    },
+    {
+     "titulo": "20. La libre circulación de personas y el espacio de libertad, seguridad y justicia",
+     "parrafos": [
+      "El artículo 3.2 TUE establece que la Unión ofrecerá a sus ciudadanos un espacio de libertad, seguridad y justicia sin fronteras interiores, en el que esté garantizada la libre circulación de personas, conjuntamente con medidas adecuadas en materia de control de las fronteras exteriores, asilo, inmigración y prevención de la delincuencia.",
+      "La libre circulación de personas es distinta de la libre circulación de trabajadores. La primera es un derecho general de los ciudadanos de la Unión a circular y residir; la segunda es una libertad económica vinculada al empleo (art. 45 TFUE). Las dos se suman en el mercado interior, pero tienen fundamentos distintos.",
+      "Para un examen, la pregunta frecuente es qué diferencia hay entre el espacio de libertad, seguridad y justicia y el mercado interior. El primero es un objetivo general de la Unión (art. 3.2 TUE); el segundo es un ámbito económico concreto (art. 26 TFUE)."
+     ]
+    },
+    {
+     "titulo": "21. Mercado interior y política de cohesión: complementariedad",
+     "parrafos": [
+      "El artículo 174 TFUE establece que la Unión promueve un desarrollo armonioso del conjunto de su territorio reforzando la cohesión económica, social y territorial. El mercado interior, por sí solo, puede aumentar las diferencias entre regiones si las más desarrolladas captan la inversión. Por eso, la política de cohesión corrige ese efecto.",
+      "El artículo 175 TFUE establece que los Estados miembros conducen y coordinan su política económica con miras a alcanzar los objetivos de cohesión, y que al desarrollar el mercado interior se tienen en cuenta esos objetivos. La cohesión y el mercado interior se alimentan mutuamente.",
+      "Para un examen, la relación es que el mercado interior es el objetivo económico y la cohesión el mecanismo corrector. Ambos aparecen en los tratados y deben leerse juntos."
+     ]
+    },
+    {
+     "titulo": "22. El procedimiento del presupuesto anual (art. 314 TFUE)",
+     "parrafos": [
+      "El artículo 314 TFUE establece que el Parlamento Europeo y el Consejo aprueban el presupuesto anual con arreglo a un procedimiento legislativo especial. Antes del 1 de julio, cada institución, excepto el Banco Central Europeo, elabora un estado de previsiones de sus gastos.",
+      "Después, la Comisión consolida esos estados en un anteproyecto, que se somete al Consejo y al Parlamento Europeo. Es un procedimiento con dos lecturas y con posibilidad de conciliación, que debe leerse en el texto para el examen.",
+      "El presupuesto debe respetar el marco financiero plurianual (art. 312.1 TFUE) y se ejecuta dentro del ejercicio, que va del 1 de enero al 31 de diciembre (art. 313 TFUE)."
+     ]
+    },
+    {
+     "titulo": "23. Cuadro comparativo de las libertades del mercado interior",
+     "parrafos": [
+      "Mercancías (arts. 28 y 30 TFUE): objeto, bienes materiales; instrumento, unión aduanera y prohibición de derechos de aduana; sujeto, cualquier operador; límite, las excepciones del propio Tratado.",
+      "Trabajadores (art. 45 TFUE): objeto, el trabajo por cuenta ajena; instrumento, la igualdad de trato frente a la nacionalidad; sujeto, el trabajador nacional de un Estado miembro.",
+      "Establecimiento (art. 49 TFUE): objeto, la actividad económica estable; instrumento, la prohibición de restricciones; sujeto, el nacional que se establece en otro Estado miembro.",
+      "Servicios (art. 56 TFUE): objeto, la actividad prestada de forma temporal o a distancia; instrumento, la prohibición de restricciones; sujeto, el prestador establecido en un Estado distinto del destinatario.",
+      "Capitales (arts. 63 y 64 TFUE): objeto, los movimientos de capitales y los pagos; instrumento, la prohibición de restricciones; alcance, también frente a terceros países, con la excepción de 1993.",
+      "Para un examen, la síntesis es que las cuatro libertades protegen la circulación en el mercado interior, cada una con un objeto y un sujeto distintos. Saber distinguir el objeto de cada una es el punto de partida para resolver cualquier caso."
+     ]
+    },
+    {
+     "titulo": "14. Claves para el examen",
+     "parrafos": [
+      "Mercado interior: cuatro libertades (art. 26.2 TFUE); competencia compartida (art. 4.2.a).",
+      "Libertades: mercancías (art. 28 y 30), trabajadores (art. 45), establecimiento (art. 49), servicios (art. 56), capitales (art. 63).",
+      "Políticas: exclusivas (art. 3.1), compartidas (art. 4.2), de apoyo (art. 6).",
+      "Cohesión: objetivo (art. 174), coordinación económica (art. 175), FEDER (art. 176), reglamentos (art. 177).",
+      "Presupuesto: anual (arts. 313 y 314), recursos propios (art. 311), marco plurianual de al menos cinco años (art. 312)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Versiones consolidadas del TUE y del TFUE (DOUE C 326, 26.10.2012), en español",
+     "url": "https://www.boe.es/doue/2012/326/Z00001-00390.pdf",
+     "pdf": "leyes/DOUE-C326-2012-TUE-TFUE-consolidados.pdf"
     }
    ]
   },
