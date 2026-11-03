@@ -1,0 +1,178 @@
+{
+  "id": "e26",
+  "resumen": [
+    {
+      "titulo": "Clases de pliegos",
+      "puntos": [
+        "PCAG: Consejo de Ministros, previo dictamen del Consejo de Estado; CCAA y entidades locales pueden aprobar los suyos (art. 121 LCSP).",
+        "PCAP y PPTP: aprobados por el órgano de contratación antes de la licitación (arts. 122.1 y 124.1).",
+        "PPTG: Consejo de Ministros, previo informe de la Junta Consultiva (art. 123.1)."
+      ]
+    },
+    {
+      "titulo": "Contenido del PCAP",
+      "puntos": [
+        "Criterios de solvencia y adjudicación; consideraciones sociales, laborales y ambientales; derechos y obligaciones; cesión; condiciones salariales del convenio (art. 122.2).",
+        "Modificación solo por error material, de hecho o aritmético; si no, retroacción (art. 122.1)."
+      ]
+    },
+    {
+      "titulo": "Prescripciones técnicas",
+      "puntos": [
+        "Definición en obras: características de materiales y procesos, incluido el impacto social, laboral y ambiental y la accesibilidad (art. 125.1).",
+        "Igualdad de acceso y no creación de obstáculos a la competencia (art. 126.1). Procesos y métodos de producción (art. 126.2)."
+      ]
+    },
+    {
+      "titulo": "Etiquetas y pruebas",
+      "puntos": [
+        "Etiqueta: documento, certificado o acreditación de cumplimiento (art. 127.1); etiqueta medioambiental o social como medio de prueba (art. 127.2).",
+        "Informe de pruebas o certificado de un organismo de evaluación de la conformidad (art. 128.1)."
+      ]
+    },
+    {
+      "titulo": "Principios y criterios",
+      "puntos": [
+        "Tratamiento igualitario, no discriminatorio, transparencia y proporcionalidad (art. 132.1).",
+        "Pluralidad de criterios de adjudicación basada en la mejor relación calidad-precio (art. 145.1).",
+        "Competencia de la Junta sobre su organización contractual (art. 47.1.4.ª del Estatuto)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LCSP",
+      "rol": "Norma principal del tema (arts. 116, 121 a 128, 132, 145 y 146)"
+    },
+    {
+      "id": "EA-ANDALUCIA",
+      "rol": "Complementaria: organización contractual de la Junta (art. 47.1.4.ª)"
+    },
+    {
+      "id": "CE",
+      "rol": "Complementaria: arts. 103.1 (objetividad) y 9.3 (legalidad)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Quién puede aprobar los pliegos de cláusulas administrativas generales de la Administración del Estado?",
+      "opciones": [
+        "El Consejo de Ministros, previo dictamen del Consejo de Estado",
+        "El órgano de contratación",
+        "El Parlamento",
+        "Un notario"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 121.1 LCSP atribuye la aprobación de los PCAG al Consejo de Ministros, previo dictamen del Consejo de Estado.",
+      "referencia": "Art. 121.1 LCSP"
+    },
+    {
+      "pregunta": "¿Cuándo deben aprobarse los pliegos de cláusulas administrativas particulares?",
+      "opciones": [
+        "Después de adjudicar",
+        "Nunca",
+        "Tras la formalización",
+        "Antes de la autorización del gasto o conjuntamente con ella, y antes de la licitación"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 122.1 LCSP establece que los PCAP deben aprobarse antes de la autorización del gasto o conjuntamente con ella, y siempre antes de la licitación.",
+      "referencia": "Art. 122.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué modificaciones admiten los PCAP ya aprobados?",
+      "opciones": [
+        "Cualquiera",
+        "Las que pida el licitador",
+        "Solo error material, de hecho o aritmético",
+        "Ninguna nunca"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 122.1 LCSP admite solo la modificación por error material, de hecho o aritmético; en otro caso, la modificación conlleva la retroacción de actuaciones.",
+      "referencia": "Art. 122.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué contenido debe incluir el PCAP?",
+      "opciones": [
+        "Criterios de solvencia y de adjudicación",
+        "Solo el precio",
+        "Solo la memoria",
+        "Las fotos de la obra"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 122.2 LCSP exige que el PCAP incluya los criterios de solvencia y de adjudicación, junto con otros contenidos.",
+      "referencia": "Art. 122.2 LCSP"
+    },
+    {
+      "pregunta": "¿Quién puede establecer los pliegos de prescripciones técnicas generales?",
+      "opciones": [
+        "El órgano de contratación",
+        "El Tribunal de Cuentas",
+        "El Consejo de Ministros, previo informe de la Junta Consultiva de Contratación Pública",
+        "El Defensor del Pueblo"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 123.1 LCSP atribuye al Consejo de Ministros, previo informe de la Junta Consultiva de Contratación Pública del Estado, el establecimiento de los PPTG.",
+      "referencia": "Art. 123.1 LCSP"
+    },
+    {
+      "pregunta": "¿Quién aprueba el pliego de prescripciones técnicas particulares?",
+      "opciones": [
+        "El Consejo de Ministros",
+        "El Consejo de Estado",
+        "La Junta Consultiva",
+        "El órgano de contratación"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 124.1 LCSP atribuye al órgano de contratación la aprobación del PPTP, antes de la autorización del gasto o conjuntamente con ella.",
+      "referencia": "Art. 124.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué comprende la prescripción técnica en contratos de obras?",
+      "opciones": [
+        "Solo el precio",
+        "Características de materiales y procesos, incluido el impacto social y ambiental",
+        "Solo la fecha de inicio",
+        "Solo la plantilla de trabajadores"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 125.1.a) LCSP incluye en la prescripción técnica las características de materiales, productos y procesos, junto con el impacto social, laboral, ambiental y climático.",
+      "referencia": "Art. 125.1.a) LCSP"
+    },
+    {
+      "pregunta": "¿Qué es una etiqueta según el art. 127.1 LCSP?",
+      "opciones": [
+        "Un contrato",
+        "Un plano",
+        "Documento, certificado o acreditación que confirma el cumplimiento de requisitos",
+        "Un sello de la Junta"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 127.1 LCSP define la etiqueta como cualquier documento, certificado o acreditación que confirme que las obras, productos, servicios, procesos o procedimientos cumplen determinados requisitos.",
+      "referencia": "Art. 127.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué principios deben guiar la licitación?",
+      "opciones": [
+        "Discrecionalidad absoluta",
+        "Tratamiento igualitario, no discriminatorio, transparencia y proporcionalidad",
+        "Secreto",
+        "Prioridad a los locales"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 132.1 LCSP exige tratamiento igualitario y no discriminatorio, y actuar con transparencia y proporcionalidad.",
+      "referencia": "Art. 132.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué competencia tiene la Junta de Andalucía sobre la organización a efectos contractuales de su Administración?",
+      "opciones": [
+        "Exclusiva",
+        "Compartida",
+        "Ninguna",
+        "Delegada"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 47.1.4.ª del Estatuto atribuye a la Comunidad, como competencia exclusiva, la organización a efectos contractuales de su Administración propia.",
+      "referencia": "Art. 47.1.4.ª Estatuto de Andalucía"
+    }
+  ]
+}

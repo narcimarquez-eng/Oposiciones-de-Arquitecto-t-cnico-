@@ -605,9 +605,9 @@ window.DATOS_ESTUDIO = {
    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
    "boe_id": "BOE-A-2017-12902",
    "pdf": "leyes/BOE-A-2017-12902.pdf",
-   "verificada": false,
+   "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Articulado pendiente de verificar."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1.1, 13.1, 14.1, 116 a 128 (salvo 125-128 en parte), 132.1, 145.1, 146.1, 231 a 236, 118 a 120 y 233.4 en el texto del PDF. Resto pendiente."
   },
   "LTBG": {
    "id": "LTBG",
@@ -5959,6 +5959,782 @@ window.DATOS_ESTUDIO = {
      "nombre": "Real Decreto 314/2006, Código Técnico de la Edificación (texto consolidado, BOE)",
      "url": "https://www.boe.es/eli/es/rd/2006/03/17/314/con",
      "pdf": "leyes/BOE-A-2006-5515.pdf"
+    }
+   ]
+  },
+  "e25": {
+   "resumen": [
+    {
+     "titulo": "Contrato de obras y documentos previos",
+     "puntos": [
+      "Contrato de obras: ejecución de una obra, aislada o con redacción del proyecto, o trabajos del anexo I (art. 13.1 LCSP).",
+      "Antes de adjudicar: elaboración, supervisión, aprobación y replanteo del proyecto (art. 231.1)."
+     ]
+    },
+    {
+     "titulo": "Clasificación y contenido del proyecto",
+     "puntos": [
+      "Grupos: primer establecimiento, reforma y gran reparación; reparación simple; conservación y mantenimiento; demolición (art. 232.1).",
+      "Contenido: memoria, planos, pliego de prescripciones técnicas particulares, presupuesto y programa de trabajos (art. 233.1)."
+     ]
+    },
+    {
+     "titulo": "Supervisión, replanteo y responsabilidad",
+     "puntos": [
+      "Supervisión obligatoria desde 500.000 euros de presupuesto base (art. 235).",
+      "Replanteo antes de aprobar el expediente (art. 236.1). Responsabilidad de los autores del proyecto según el caso (art. 233.4)."
+     ]
+    },
+    {
+     "titulo": "Expediente de contratación",
+     "puntos": [
+      "Motivación de la necesidad, publicación en el perfil de contratante y pliegos incorporados (art. 116 LCSP).",
+      "Aprobación por resolución motivada que incluye la aprobación del gasto (art. 117.1)."
+     ]
+    },
+    {
+     "titulo": "Contratos menores y urgencia",
+     "puntos": [
+      "Contrato menor: 40.000 euros en obras (art. 118.1); requiere informe de necesidad y factura (art. 118.2 y 118.3).",
+      "Tramitación urgente con declaración motivada (art. 119.1). Tramitación de emergencia (art. 120)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LCSP",
+     "rol": "Norma principal del tema (arts. 1, 13, 116 a 120, 231 a 236)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Complementaria: competencia de organización contractual (art. 47.1.4.ª)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "¿Qué comprende el contrato de obras según el art. 13.1 LCSP?",
+     "opciones": [
+      "La ejecución de una obra, aislada o con la redacción del proyecto, o los trabajos del anexo I",
+      "Solo el suministro de materiales",
+      "Solo la conservación de instalaciones",
+      "La compra de vehículos"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 13.1 LCSP define el contrato de obras como el que tiene por objeto la ejecución de una obra, aislada o con la redacción del proyecto, o la realización de los trabajos del anexo I.",
+     "referencia": "Art. 13.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué requisito previo exige la ley para adjudicar un contrato de obras?",
+     "opciones": [
+      "Solo el presupuesto",
+      "La firma del contrato",
+      "La elaboración, supervisión, aprobación y replanteo del proyecto",
+      "La publicación en prensa"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 231.1 LCSP exige la previa elaboración, supervisión, aprobación y replanteo del proyecto que defina con precisión el objeto del contrato.",
+     "referencia": "Art. 231.1 LCSP"
+    },
+    {
+     "pregunta": "¿Cuál NO es un grupo de obras a efectos de elaboración de proyectos?",
+     "opciones": [
+      "Primer establecimiento",
+      "Reparación simple",
+      "Demolición",
+      "Compraventa de solar"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 232.1 LCSP clasifica las obras en primer establecimiento, reforma, restauración, rehabilitación o gran reparación; reparación simple; conservación y mantenimiento; y demolición.",
+     "referencia": "Art. 232.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué debe contener, como mínimo, un proyecto de obras?",
+     "opciones": [
+      "Pólizas de seguro",
+      "Currículum del contratista",
+      "Memoria",
+      "Actas de la junta"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 233.1 LCSP exige memoria, planos, pliego de prescripciones técnicas particulares, presupuesto y programa de trabajos.",
+     "referencia": "Art. 233.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué debe comprobar el replanteo?",
+     "opciones": [
+      "La solvencia del licitador",
+      "La realidad geométrica de la obra y la disponibilidad de los terrenos",
+      "El precio final",
+      "La plantilla de trabajadores"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 236.1 LCSP establece que el replanteo consiste en comprobar la realidad geométrica de la obra y la disponibilidad de los terrenos.",
+     "referencia": "Art. 236.1 LCSP"
+    },
+    {
+     "pregunta": "¿Dónde debe publicarse el expediente de contratación?",
+     "opciones": [
+      "En el perfil de contratante",
+      "En el BOE siempre",
+      "En un periódico",
+      "En el registro civil"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 116.1 LCSP establece que el expediente debe publicarse en el perfil de contratante.",
+     "referencia": "Art. 116.1 LCSP"
+    },
+    {
+     "pregunta": "¿Cuál es el límite del contrato menor de obras?",
+     "opciones": [
+      "15.000 €",
+      "100.000 €",
+      "40.000 €",
+      "500.000 €"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 118.1 LCSP considera contratos menores los de obras de valor estimado inferior a 40.000 euros.",
+     "referencia": "Art. 118.1 LCSP"
+    },
+    {
+     "pregunta": "¿Cuál es el requisito de la tramitación urgente?",
+     "opciones": [
+      "Un decreto ley",
+      "Nada",
+      "Acuerdo del Pleno en todo caso",
+      "Declaración de urgencia motivada del órgano de contratación"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 119.1 LCSP exige que el expediente contenga la declaración de urgencia hecha por el órgano de contratación, debidamente motivada.",
+     "referencia": "Art. 119.1 LCSP"
+    },
+    {
+     "pregunta": "¿Desde qué presupuesto de licitación es obligatoria la supervisión del proyecto?",
+     "opciones": [
+      "100.000 €",
+      "1.000.000 €",
+      "Siempre",
+      "500.000 €, IVA excluido"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 235 LCSP exige la supervisión cuando el presupuesto base de licitación del contrato de obras es igual o superior a 500.000 euros, IVA excluido.",
+     "referencia": "Art. 235 LCSP"
+    },
+    {
+     "pregunta": "Si la Administración encarga íntegramente la elaboración del proyecto, ¿qué ocurre con su autor?",
+     "opciones": [
+      "No responde",
+      "El autor responde en los términos de la ley",
+      "Responde el licitador",
+      "Responde la Junta de Andalucía en todo caso"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 233.4 LCSP establece que, cuando la elaboración del proyecto se contrata íntegramente por la Administración, su autor incurre en responsabilidad en los términos de la ley.",
+     "referencia": "Art. 233.4 LCSP"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Marco general: la contratación del sector público",
+     "parrafos": [
+      "La Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (LCSP), tiene por objeto regular la contratación del sector público, con la finalidad de garantizar que la contratación pública se ajusta a los principios de libertad de acceso, publicidad y transparencia, no discriminación e igualdad de trato entre los candidatos, y y de asegurar, en conexión con la estabilidad presupuestaria y el control del gasto, una utilización eficiente de los fondos públicos (art. 1.1 LCSP).",
+      "La LCSP se aplica a los contratos que celebran las entidades del sector público (art. 2.1 LCSP) y a quienes forman parte de él (art. 3 LCSP). Para este tema interesa el contrato de obras, que el artículo 13.1 LCSP define como aquel que tiene por objeto la ejecución de una obra, aislada o conjuntamente con la redacción del proyecto, o la realización de alguno de los trabajos enumerados en su anexo I.",
+      "La contratación de obras requiere, antes de la licitación, un conjunto de documentos técnicos que definen qué se va a construir, cómo y por qué precio. Esos documentos son el anteproyecto, el proyecto y el expediente de contratación. El tema estudia la secuencia en la que se elaboran, se aprueban y se integran en el procedimiento."
+     ]
+    },
+    {
+     "titulo": "2. El anteproyecto",
+     "parrafos": [
+      "El anteproyecto es la primera aproximación técnica a una obra. Define sus características generales, su viabilidad y sus rasgos principales, sin llegar al detalle de la ejecución. En los contratos de concesión de obras, el régimen de la LCSP prevé también la elaboración de un anteproyecto o proyecto antes de licitar, que debe comprobarse en la regulación específica de la concesión.",
+      "En el contrato de obras, el anteproyecto no es el documento que habilita la licitación. El artículo 231.1 LCSP exige, para la adjudicación de un contrato de obras, la previa elaboración, supervisión, aprobación y replanteo del proyecto que defina con precisión el objeto del contrato. El anteproyecto puede servir de base para el proyecto, pero no sustituye a este.",
+      "Para un examen, conviene distinguir las dos figuras. El anteproyecto es una aproximación previa, con un nivel de detalle menor; el proyecto es el documento completo que la ley exige para licitar la obra. Confundir ambos es un error frecuente."
+     ]
+    },
+    {
+     "titulo": "3. El proyecto de obras: requisito de la adjudicación",
+     "parrafos": [
+      "El artículo 231.1 LCSP establece que la adjudicación de un contrato de obras requiere la previa elaboración, supervisión, aprobación y replanteo del proyecto. Son cuatro fases sucesivas: se elabora el proyecto, se supervisa cuando la ley lo exige, se aprueba y, después, se replantea sobre el terreno.",
+      "La aprobación del proyecto corresponde al órgano de contratación, salvo que una norma jurídica atribuya esa competencia a otro órgano (art. 231.1 LCSP). En el supuesto de adjudicación conjunta de proyecto y obra, la ejecución de la obra queda condicionada a la aprobación del proyecto (art. 231.2 LCSP).",
+      "El proyecto debe definir con precisión el objeto del contrato. Esa exigencia es la que permite al licitador conocer lo que tiene que ofertar y a la Administración controlar la ejecución después. Un proyecto impreciso genera modificaciones, reclamaciones y sobrecostes, por eso la ley lo exige antes de la licitación."
+     ]
+    },
+    {
+     "titulo": "4. Clasificación de las obras para la elaboración de proyectos",
+     "parrafos": [
+      "El artículo 232.1 LCSP clasifica las obras, a efectos de la elaboración de los proyectos, según su objeto y naturaleza, en cuatro grupos. El primero son las obras de primer establecimiento, reforma, restauración, rehabilitación o gran reparación (letra a). El segundo son las obras de reparación simple (letra b). El tercero son las obras de conservación y mantenimiento (letra c). El cuarto son las obras de demolición (letra d).",
+      "El artículo 232.2 LCSP define las obras de primer establecimiento como las que dan lugar a la creación de un bien inmueble. El artículo 232.3 precisa que el concepto general de reforma abarca el conjunto de obras de ampliación, modificación o reparación que alteran la configuración de un bien ya existente.",
+      "La clasificación importa porque el contenido del proyecto varía según el grupo de obra. Para un examen, la pregunta típica es qué tipo de obra es una actuación concreta. La respuesta depende de su objeto: si crea un bien nuevo, es primer establecimiento; si altera uno existente, es reforma; si lo mantiene, es conservación."
+     ]
+    },
+    {
+     "titulo": "5. Contenido de los proyectos y responsabilidad",
+     "parrafos": [
+      "El artículo 233.1 LCSP establece que los proyectos de obras deben comprender, al menos, cinco documentos. El primero es una memoria que describa el objeto de las obras, sus antecedentes y situación previa, las necesidades a satisfacer y la justificación de la solución adoptada (letra a).",
+      "El segundo son los planos de conjunto y de detalle necesarios para que la obra quede definida, incluidos los que delimitan la ocupación de terrenos y los servicios afectados (letra b). El tercero es el pliego de prescripciones técnicas particulares, que describe las obras, regula su ejecución, las obligaciones técnicas del contratista y el control de calidad (letra c).",
+      "El cuarto es el presupuesto, con expresión de los precios unitarios y de los descompuestos, el estado de mediciones y los detalles precisos para su valoración (letra d). El quinto es un programa de desarrollo de los trabajos o plan de obra de carácter indicativo (letra e).",
+      "El artículo 233.2 LCSP permite simplificar, refundir o suprimir algunos documentos en los proyectos de obras de primer establecimiento, reforma o gran reparación inferiores a 500.000 euros de presupuesto base de licitación, IVA excluido, y en los demás proyectos del artículo anterior. Es una excepción que conviene conocer por su cuantía."
+     ]
+    },
+    {
+     "titulo": "6. Presentación del proyecto por el empresario",
+     "parrafos": [
+      "El artículo 234.1 LCSP establece que la contratación conjunta de la elaboración del proyecto y de la ejecución de las obras tiene carácter excepcional. Solo puede efectuarse en los supuestos que enumera el precepto, y su concurrencia debe justificarse debidamente en el expediente.",
+      "Los supuestos son dos. El primero es cuando motivos de orden técnico obligan a vincular al empresario a los estudios de las obras, ligados al destino o a las técnicas de ejecución (letra a). El segundo es cuando se trata de obras de dimensión excepcional o de dificultades técnicas singulares que requieren soluciones con medios propios de las empresas (letra b).",
+      "El artículo 234.2 LCSP exige que la licitación de este tipo de contrato requiera la redacción previa por la Administración de un anteproyecto o documento similar. Es la garantía de que la Administración conserva el control del objeto del contrato."
+     ]
+    },
+    {
+     "titulo": "7. Supervisión, aprobación y replanteo",
+     "parrafos": [
+      "El artículo 235 LCSP regula la supervisión de los proyectos. Antes de la aprobación del proyecto, cuando el presupuesto base de licitación del contrato de obras sea igual o superior a 500.000 euros, IVA excluido, el órgano de contratación debe solicitar un informe de las oficinas o unidades de supervisión competentes. La supervisión es una garantía de calidad técnica.",
+      "El artículo 236.1 LCSP regula el replanteo. Aprobado el proyecto y antes de la aprobación del expediente de contratación de la obra, se procede a comprobar la realidad geométrica de la obra y la disponibilidad de los terrenos precisos para su normal ejecución. El replanteo es, por tanto, la comprobación previa a la licitación.",
+      "La secuencia completa es: proyecto, supervisión (cuando sea exigible), aprobación del proyecto, replanteo y, después, aprobación del expediente de contratación. El orden no es casual: cada fase garantiza que la siguiente se apoya en un documento verificado."
+     ]
+    },
+    {
+     "titulo": "8. El expediente de contratación",
+     "parrafos": [
+      "El artículo 116.1 LCSP establece que la celebración de contratos por las Administraciones públicas requiere la previa tramitación del correspondiente expediente, que se inicia por el órgano de contratación motivando la necesidad del contrato en los términos del artículo 28 LCSP, y que debe publicarse en el perfil de contratante.",
+      "El expediente debe referirse a la totalidad del objeto del contrato (art. 116.2 LCSP). Al expediente se incorporan el pliego de cláusulas administrativas particulares y el de prescripciones técnicas que han de regir el contrato (art. 116.3 LCSP).",
+      "El artículo 117.1 LCSP establece que, completado el expediente, el órgano de contratación dicta una resolución motivada que lo aprueba y dispone la apertura del procedimiento de adjudicación. Esa resolución implica también la aprobación del gasto, salvo en los casos que la ley excepciona.",
+      "Para un examen, la pregunta típica es qué debe contener el expediente. La respuesta es la motivación de la necesidad, el proyecto o documento técnico, los pliegos y la aprobación motivada."
+     ]
+    },
+    {
+     "titulo": "9. Contratos menores y tramitación urgente o de emergencia",
+     "parrafos": [
+      "El artículo 118.1 LCSP considera contratos menores los de valor estimado inferior a 40.000 euros cuando son de obras, o a 15.000 euros cuando son de suministro o de servicios, sin perjuicio de lo dispuesto en el artículo 229 LCSP. Los menores tienen un expediente simplificado, y su régimen se diferencia del ordinario.",
+      "El artículo 119 LCSP regula la tramitación urgente del expediente, que puede acortar los plazos cuando la urgencia está justificada por razones de interés público. El artículo 120 regula la tramitación de emergencia, cuando la Administración debe actuar de manera inmediata por acontecimientos catastróficos, situaciones de grave peligro o necesidades de defensa nacional. En esos casos, el órgano puede actuar sin tramitar expediente previo, con las garantías que el propio artículo establece.",
+      "Para un examen, el error habitual es confundir el contrato menor, que es un régimen simplificado, con la tramitación de emergencia, que es un régimen excepcional por acontecimientos graves."
+     ]
+    },
+    {
+     "titulo": "11. Responsabilidad y estudios previos del proyecto",
+     "parrafos": [
+      "El artículo 233.3 LCSP establece que, salvo que sea incompatible con la naturaleza de la obra, el proyecto debe incluir un estudio geotécnico de los terrenos sobre los que se va a ejecutar, así como los informes y estudios previos necesarios para determinar mejor el objeto del contrato. El estudio geotécnico es, por tanto, un contenido habitual que la ley exige salvo excepción.",
+      "El artículo 233.4 LCSP regula la responsabilidad de quien elabora el proyecto. Cuando la elaboración se ha contratado íntegramente por la Administración, el autor o autores del proyecto incurren en responsabilidad en los términos de la ley. Si la prestación se lleva a cabo en colaboración con la Administración y bajo su supervisión, la responsabilidad se limita al ámbito de esa colaboración.",
+      "Para un examen, la pregunta típica es quién responde por un error de proyecto. La respuesta depende de si el proyecto fue encargado íntegramente a un tercero o se elaboró en colaboración con la Administración bajo su supervisión, porque el alcance de la responsabilidad cambia en cada caso."
+     ]
+    },
+    {
+     "titulo": "12. Reparación, gran reparación y conservación",
+     "parrafos": [
+      "El artículo 232.4 LCSP define las obras de reparación como las necesarias para enmendar un menoscabo producido en un bien inmueble por causas fortuitas o accidentales. Si el menoscabo afecta fundamentalmente a la estructura resistente, la obra tiene la calificación de gran reparación; en caso contrario, de reparación simple.",
+      "El artículo 232.5 LCSP regula el menoscabo que se produce con el tiempo por el uso natural del bien. En ese caso, las obras necesarias tienen la calificación de conservación y mantenimiento, y no de reparación. La diferencia es que la reparación responde a un daño accidental y la conservación a un desgaste normal.",
+      "Para un examen, la clasificación es importante porque la reparación fortuita se diferencia de la conservación ordinaria. La gran reparación afecta a la estructura, y por eso su proyecto y su control son más exigentes que los de la reparación simple."
+     ]
+    },
+    {
+     "titulo": "13. El proyecto en la práctica: documentación y control",
+     "parrafos": [
+      "Un proyecto completo de obra incluye la memoria, los planos, el pliego de prescripciones técnicas particulares, el presupuesto y el programa de trabajos (art. 233.1 LCSP), además del estudio geotécnico cuando es exigible (art. 233.3). El presupuesto debe expresar los precios unitarios y descompuestos, y el estado de mediciones.",
+      "El pliego de prescripciones técnicas particulares del proyecto describe las obras, regula su ejecución, fija las obligaciones técnicas del contratista y la forma de medir las unidades ejecutadas, y establece el control de calidad de los materiales y del proceso (art. 233.1.c LCSP).",
+      "Para la Administración, el proyecto es el instrumento de control de la ejecución. Cualquier modificación que se aparte de él exige su tramitación específica, lo que se estudia en el tema 32 de modificación de contratos de obras."
+     ]
+    },
+    {
+     "titulo": "14. Contratos menores: requisitos",
+     "parrafos": [
+      "El artículo 118.2 LCSP exige, en los contratos menores, la emisión de un informe del órgano de contratación que justifique de forma motivada la necesidad del contrato y que no se está alterando su objeto para evitar la aplicación de los umbrales. Es la garantía frente al fraccionamiento artificial del gasto.",
+      "El artículo 118.3 LCSP exige la aprobación del gasto y la incorporación de la factura correspondiente, con los requisitos que fijen las normas de desarrollo. El artículo 118.4 añade que, en el contrato menor de obras, debe constar el presupuesto de las obras, sin perjuicio de que deba existir el proyecto cuando las disposiciones lo exijan.",
+      "El artículo 118.4 LCSP exige además el informe de las oficinas o unidades de supervisión del artículo 235 cuando el trabajo afecte a la estabilidad, seguridad o estanqueidad de la obra. Así, el régimen simplificado no elimina el control técnico cuando la obra es sensible.",
+      "Para un examen, la diferencia con el contrato ordinario es el procedimiento de adjudicación y la documentación, no la existencia de una necesidad motivada, que siempre es exigible."
+     ]
+    },
+    {
+     "titulo": "15. Tramitación urgente: régimen detallado",
+     "parrafos": [
+      "El artículo 119.1 LCSP permite la tramitación urgente de los expedientes cuya celebración responde a una necesidad inaplazable o cuya adjudicación debe acelerarse por razones de interés público. El expediente debe contener la declaración de urgencia del órgano de contratación, debidamente motivada.",
+      "El artículo 119.2 LCSP establece que los expedientes urgentes se tramitan por el mismo procedimiento que los ordinarios, con especialidades. Gozan de preferencia para su despacho, y los órganos que intervienen en la tramitación disponen de cinco días para emitir sus informes o cumplimentar los trámites. Si la complejidad o una causa justificada lo impide, el plazo puede prorrogarse hasta diez días.",
+      "Para un examen, la urgencia es un régimen que acorta plazos dentro del procedimiento ordinario. No es lo mismo que la tramitación de emergencia del artículo 120, que permite actuar sin expediente previo en casos de catástrofe o grave peligro."
+     ]
+    },
+    {
+     "titulo": "16. Caso práctico: del anteproyecto a la licitación",
+     "parrafos": [
+      "Un ayuntamiento quiere rehabilitar un edificio municipal con una inversión que supera los 500.000 euros. Primero, el proyecto debe contener la memoria, los planos, el pliego de prescripciones técnicas particulares, el presupuesto y el programa de trabajos (art. 233.1 LCSP), y el estudio geotécnico si es exigible (art. 233.3).",
+      "Segundo, como el presupuesto base supera 500.000 euros, el proyecto debe pasar por la supervisión de la unidad competente antes de su aprobación (art. 235 LCSP). Tercero, aprobado el proyecto, se realiza el replanteo, que comprueba la realidad geométrica de la obra y la disponibilidad de los terrenos (art. 236.1 LCSP).",
+      "Cuarto, se completa el expediente con la necesidad motivada, el proyecto y los pliegos (art. 116 LCSP), y el órgano de contratación lo aprueba con resolución motivada (art. 117.1). Solo entonces se abre la licitación. El caso muestra la secuencia que el examen suele pedir: proyecto, supervisión, aprobación, replanteo, expediente y licitación."
+     ]
+    },
+    {
+     "titulo": "17. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir el anteproyecto con el proyecto. Para licitar una obra se requiere el proyecto, con su aprobación y replanteo (art. 231.1 LCSP); el anteproyecto es una aproximación previa.",
+      "Olvidar la supervisión cuando el presupuesto base es igual o superior a 500.000 euros, IVA excluido (art. 235 LCSP).",
+      "Confundir el contrato menor con la tramitación urgente. El contrato menor es un régimen simplificado por la cuantía (art. 118.1); la urgencia es una declaración motivada que acorta plazos (art. 119.1).",
+      "Afirmar que la reparación y la conservación son lo mismo. La reparación responde a un daño accidental (art. 232.4); la conservación, a un desgaste por uso natural (art. 232.5)."
+     ]
+    },
+    {
+     "titulo": "18. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué requisito previo exige la ley para adjudicar un contrato de obras? La elaboración, supervisión, aprobación y replanteo del proyecto (art. 231.1 LCSP).",
+      "¿Qué grupos de obras distingue el art. 232.1 LCSP? Primer establecimiento, reforma, restauración, rehabilitación o gran reparación; reparación simple; conservación y mantenimiento; demolición.",
+      "¿Qué documentos debe contener un proyecto de obras? Memoria, planos, pliego de prescripciones técnicas particulares, presupuesto y programa de trabajos (art. 233.1 LCSP).",
+      "¿Desde qué presupuesto es obligatoria la supervisión? Desde 500.000 euros de presupuesto base de licitación, IVA excluido (art. 235 LCSP).",
+      "¿Cuál es el límite de los contratos menores de obras? 40.000 euros de valor estimado (art. 118.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "19. La fase preparatoria: necesidad e idoneidad del contrato",
+     "parrafos": [
+      "El artículo 28 LCSP, que regula la necesidad e idoneidad del contrato y la eficiencia en la contratación, es el punto de partida de la fase preparatoria. Las entidades del sector público no pueden celebrar contratos que no sean necesarios e idóneos para el cumplimiento de sus fines, y el expediente debe justificarlo.",
+      "Esa exigencia conecta con el artículo 116.1 LCSP, que pide motivar la necesidad del contrato en los términos del artículo 28. La motivación es, por tanto, el primer contenido del expediente, antes que el proyecto o los pliegos.",
+      "Para un examen, la pregunta es qué se exige antes de iniciar un contrato. La respuesta es la necesidad motivada y la idoneidad del objeto, y después el proyecto o documento técnico que lo define."
+     ]
+    },
+    {
+     "titulo": "20. El expediente y el perfil de contratante",
+     "parrafos": [
+      "El artículo 116.1 LCSP establece que el expediente de contratación debe publicarse en el perfil de contratante. El perfil es el medio electrónico donde la Administración hace públicos los datos de sus contratos, y garantiza el principio de publicidad y transparencia del artículo 1.1 LCSP.",
+      "La secuencia del expediente es la siguiente: iniciación con la motivación de la necesidad; incorporación del proyecto o documento técnico y de los pliegos (art. 116.3); aprobación del expediente con resolución motivada que dispone la apertura de la adjudicación (art. 117.1); y aprobación del gasto.",
+      "Para un examen, conviene recordar que el expediente se refiere a la totalidad del objeto del contrato (art. 116.2) y que en el caso de los lotes se aplica la regla del artículo 99.7."
+     ]
+    },
+    {
+     "titulo": "21. Proyecto y expediente: diferencia de función",
+     "parrafos": [
+      "El proyecto define la obra; el expediente la contrata. El proyecto dice qué se va a construir, cómo y por cuánto; el expediente dice quién la va a ejecutar, con qué pliegos y con qué procedimiento. Son documentos distintos, con funciones distintas, y el expediente contiene el proyecto junto con los pliegos.",
+      "Para un examen, la confusión habitual es creer que el proyecto y el expediente son lo mismo. El primero es un contenido del segundo, y el expediente es el procedimiento completo que termina en la aprobación del gasto y la apertura de la licitación."
+     ]
+    },
+    {
+     "titulo": "22. Umbrales de cuantía que conviene memorizar",
+     "parrafos": [
+      "Contrato menor de obras: valor estimado inferior a 40.000 euros (art. 118.1 LCSP). Contrato menor de suministro o servicios: inferior a 15.000 euros (art. 118.1).",
+      "Supervisión del proyecto: presupuesto base de licitación igual o superior a 500.000 euros, IVA excluido (art. 235 LCSP).",
+      "Simplificación de documentos del proyecto: proyectos de primer establecimiento, reforma o gran reparación inferiores a 500.000 euros, IVA excluido (art. 233.2 LCSP).",
+      "Tramitación urgente: necesidad inaplazable o interés público que exige acelerar la adjudicación, con declaración motivada (art. 119.1 LCSP).",
+      "Para un examen, la pregunta típica es qué régimen corresponde a una cuantía dada. Conviene separar los umbrales de simplificación (contrato menor, simplificación del proyecto) de los de exigencia (supervisión)."
+     ]
+    },
+    {
+     "titulo": "Método para resolver casos",
+     "parrafos": [
+      "Para resolver un caso sobre un contrato de obras, conviene seguir tres pasos. Primero, identificar el tipo de obra y su cuantía, porque determinan el contenido del proyecto (art. 232 LCSP), la supervisión (art. 235) y si cabe el contrato menor (art. 118). Segundo, comprobar que el proyecto está elaborado, supervisado si procede, aprobado y replanteado (art. 231.1 y 236.1). Tercero, verificar que el expediente contiene la necesidad motivada, el proyecto y los pliegos, y que la aprobación es motivada (arts. 116 y 117)."
+     ]
+    },
+    {
+     "titulo": "Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema conecta con el régimen general de los actos administrativos del tema 13, porque la aprobación del expediente y del gasto es un acto motivado (art. 117.1 LCSP) que debe cumplir los requisitos de forma y motivación de la LPAC (arts. 35 y 36).",
+      "Conecta también con los temas e20 y e24 de edificación, porque el proyecto de obras debe cumplir los requisitos básicos de la LOE y del CTE en la parte técnica, y con el tema e26 sobre pliegos, porque el pliego de prescripciones técnicas particulares forma parte del proyecto en las obras (art. 233.1.c LCSP).",
+      "Por último, la clasificación de las obras del artículo 232 LCSP se relaciona con los tipos de intervención que regula la LOE en los edificios existentes. Un tratamiento completo de la materia exige leer ambos textos y comprobar que la intervención encaja en la clasificación de la LCSP."
+     ]
+    },
+    {
+     "titulo": "10. Claves para el examen",
+     "parrafos": [
+      "Anteproyecto: aproximación técnica previa; en la concesión de obras, exigido por la ley (art. 14 LCSP); en el contrato de obras no habilita la licitación.",
+      "Proyecto: requisito previo a la adjudicación, con elaboración, supervisión, aprobación y replanteo (art. 231.1 LCSP).",
+      "Clasificación: primer establecimiento, reforma, restauración, rehabilitación o gran reparación; reparación simple; conservación y mantenimiento; demolición (art. 232.1 LCSP).",
+      "Contenido: memoria, planos, pliego de prescripciones técnicas particulares, presupuesto y programa de trabajos (art. 233.1 LCSP). Simplificación bajo 500.000 euros (art. 233.2).",
+      "Supervisión: obligatoria desde 500.000 euros de presupuesto base (art. 235 LCSP). Replanteo previo a la licitación (art. 236.1).",
+      "Expediente: necesidad motivada, proyecto, pliegos y resolución de aprobación (arts. 116 y 117 LCSP). Contrato menor: 40.000 euros en obras (art. 118.1)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 9/2017, de Contratos del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+     "pdf": "leyes/BOE-A-2017-12902.pdf"
+    }
+   ]
+  },
+  "e26": {
+   "resumen": [
+    {
+     "titulo": "Clases de pliegos",
+     "puntos": [
+      "PCAG: Consejo de Ministros, previo dictamen del Consejo de Estado; CCAA y entidades locales pueden aprobar los suyos (art. 121 LCSP).",
+      "PCAP y PPTP: aprobados por el órgano de contratación antes de la licitación (arts. 122.1 y 124.1).",
+      "PPTG: Consejo de Ministros, previo informe de la Junta Consultiva (art. 123.1)."
+     ]
+    },
+    {
+     "titulo": "Contenido del PCAP",
+     "puntos": [
+      "Criterios de solvencia y adjudicación; consideraciones sociales, laborales y ambientales; derechos y obligaciones; cesión; condiciones salariales del convenio (art. 122.2).",
+      "Modificación solo por error material, de hecho o aritmético; si no, retroacción (art. 122.1)."
+     ]
+    },
+    {
+     "titulo": "Prescripciones técnicas",
+     "puntos": [
+      "Definición en obras: características de materiales y procesos, incluido el impacto social, laboral y ambiental y la accesibilidad (art. 125.1).",
+      "Igualdad de acceso y no creación de obstáculos a la competencia (art. 126.1). Procesos y métodos de producción (art. 126.2)."
+     ]
+    },
+    {
+     "titulo": "Etiquetas y pruebas",
+     "puntos": [
+      "Etiqueta: documento, certificado o acreditación de cumplimiento (art. 127.1); etiqueta medioambiental o social como medio de prueba (art. 127.2).",
+      "Informe de pruebas o certificado de un organismo de evaluación de la conformidad (art. 128.1)."
+     ]
+    },
+    {
+     "titulo": "Principios y criterios",
+     "puntos": [
+      "Tratamiento igualitario, no discriminatorio, transparencia y proporcionalidad (art. 132.1).",
+      "Pluralidad de criterios de adjudicación basada en la mejor relación calidad-precio (art. 145.1).",
+      "Competencia de la Junta sobre su organización contractual (art. 47.1.4.ª del Estatuto)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LCSP",
+     "rol": "Norma principal del tema (arts. 116, 121 a 128, 132, 145 y 146)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Complementaria: organización contractual de la Junta (art. 47.1.4.ª)"
+    },
+    {
+     "id": "CE",
+     "rol": "Complementaria: arts. 103.1 (objetividad) y 9.3 (legalidad)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "¿Quién puede aprobar los pliegos de cláusulas administrativas generales de la Administración del Estado?",
+     "opciones": [
+      "El Consejo de Ministros, previo dictamen del Consejo de Estado",
+      "El órgano de contratación",
+      "El Parlamento",
+      "Un notario"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 121.1 LCSP atribuye la aprobación de los PCAG al Consejo de Ministros, previo dictamen del Consejo de Estado.",
+     "referencia": "Art. 121.1 LCSP"
+    },
+    {
+     "pregunta": "¿Cuándo deben aprobarse los pliegos de cláusulas administrativas particulares?",
+     "opciones": [
+      "Después de adjudicar",
+      "Nunca",
+      "Tras la formalización",
+      "Antes de la autorización del gasto o conjuntamente con ella, y antes de la licitación"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 122.1 LCSP establece que los PCAP deben aprobarse antes de la autorización del gasto o conjuntamente con ella, y siempre antes de la licitación.",
+     "referencia": "Art. 122.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué modificaciones admiten los PCAP ya aprobados?",
+     "opciones": [
+      "Cualquiera",
+      "Las que pida el licitador",
+      "Solo error material, de hecho o aritmético",
+      "Ninguna nunca"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 122.1 LCSP admite solo la modificación por error material, de hecho o aritmético; en otro caso, la modificación conlleva la retroacción de actuaciones.",
+     "referencia": "Art. 122.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué contenido debe incluir el PCAP?",
+     "opciones": [
+      "Criterios de solvencia y de adjudicación",
+      "Solo el precio",
+      "Solo la memoria",
+      "Las fotos de la obra"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 122.2 LCSP exige que el PCAP incluya los criterios de solvencia y de adjudicación, junto con otros contenidos.",
+     "referencia": "Art. 122.2 LCSP"
+    },
+    {
+     "pregunta": "¿Quién puede establecer los pliegos de prescripciones técnicas generales?",
+     "opciones": [
+      "El órgano de contratación",
+      "El Tribunal de Cuentas",
+      "El Consejo de Ministros, previo informe de la Junta Consultiva de Contratación Pública",
+      "El Defensor del Pueblo"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 123.1 LCSP atribuye al Consejo de Ministros, previo informe de la Junta Consultiva de Contratación Pública del Estado, el establecimiento de los PPTG.",
+     "referencia": "Art. 123.1 LCSP"
+    },
+    {
+     "pregunta": "¿Quién aprueba el pliego de prescripciones técnicas particulares?",
+     "opciones": [
+      "El Consejo de Ministros",
+      "El Consejo de Estado",
+      "La Junta Consultiva",
+      "El órgano de contratación"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 124.1 LCSP atribuye al órgano de contratación la aprobación del PPTP, antes de la autorización del gasto o conjuntamente con ella.",
+     "referencia": "Art. 124.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué comprende la prescripción técnica en contratos de obras?",
+     "opciones": [
+      "Solo el precio",
+      "Características de materiales y procesos, incluido el impacto social y ambiental",
+      "Solo la fecha de inicio",
+      "Solo la plantilla de trabajadores"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 125.1.a) LCSP incluye en la prescripción técnica las características de materiales, productos y procesos, junto con el impacto social, laboral, ambiental y climático.",
+     "referencia": "Art. 125.1.a) LCSP"
+    },
+    {
+     "pregunta": "¿Qué es una etiqueta según el art. 127.1 LCSP?",
+     "opciones": [
+      "Un contrato",
+      "Un plano",
+      "Documento, certificado o acreditación que confirma el cumplimiento de requisitos",
+      "Un sello de la Junta"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 127.1 LCSP define la etiqueta como cualquier documento, certificado o acreditación que confirme que las obras, productos, servicios, procesos o procedimientos cumplen determinados requisitos.",
+     "referencia": "Art. 127.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué principios deben guiar la licitación?",
+     "opciones": [
+      "Discrecionalidad absoluta",
+      "Tratamiento igualitario, no discriminatorio, transparencia y proporcionalidad",
+      "Secreto",
+      "Prioridad a los locales"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 132.1 LCSP exige tratamiento igualitario y no discriminatorio, y actuar con transparencia y proporcionalidad.",
+     "referencia": "Art. 132.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué competencia tiene la Junta de Andalucía sobre la organización a efectos contractuales de su Administración?",
+     "opciones": [
+      "Exclusiva",
+      "Compartida",
+      "Ninguna",
+      "Delegada"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 47.1.4.ª del Estatuto atribuye a la Comunidad, como competencia exclusiva, la organización a efectos contractuales de su Administración propia.",
+     "referencia": "Art. 47.1.4.ª Estatuto de Andalucía"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Función de los pliegos en la contratación pública",
+     "parrafos": [
+      "Los pliegos son los documentos que regulan la contratación. En ellos se fijan las condiciones que deben cumplir los licitadores, las cláusulas que regirán el contrato y las prescripciones técnicas que definen lo que se va a contratar. Sin pliegos no puede licitarse un contrato, porque los licitadores no conocerían las reglas ni el objeto.",
+      "La LCSP distingue cuatro tipos de pliegos. Son los pliegos de cláusulas administrativas generales (PCAG), los pliegos de cláusulas administrativas particulares (PCAP), el pliego de prescripciones técnicas generales (PPTG) y el pliego de prescripciones técnicas particulares (PPTP). Los dos primeros regulan el régimen jurídico y económico del contrato; los dos últimos, la prestación técnica.",
+      "Para un examen, la diferencia básica es entre cláusulas administrativas y prescripciones técnicas. Las primeras son las reglas del contrato (derechos, obligaciones, solvencia, criterios de adjudicación); las segundas son las características de lo que se contrata (materiales, calidades, procesos, pruebas)."
+     ]
+    },
+    {
+     "titulo": "2. Los pliegos de cláusulas administrativas generales",
+     "parrafos": [
+      "El artículo 121.1 LCSP establece que el Consejo de Ministros, a iniciativa de los ministerios interesados y a propuesta del ministro de Hacienda, y previo dictamen del Consejo de Estado, puede aprobar pliegos de cláusulas administrativas generales. Estos pliegos deben ajustarse a lo dispuesto en la LCSP y en sus disposiciones de desarrollo, y su uso es para la Administración General del Estado, sus organismos autónomos y entidades equivalentes.",
+      "El artículo 121.2 LCSP permite a las Comunidades Autónomas y a las entidades que integran la Administración local aprobar sus propios pliegos de cláusulas administrativas generales, de acuerdo con sus normas específicas y previo dictamen del Consejo de Estado u órgano consultivo equivalente de la Comunidad Autónoma respectiva.",
+      "El PCAG es, por tanto, un modelo común de cláusulas generales que la Administración del Estado aprueba por vía reglamentaria, y que las Comunidades y las entidades locales pueden adoptar o aprobar en sus propios términos. Para el examen en Andalucía, el dato relevante es que la Comunidad puede aprobar sus propios pliegos generales, con dictamen del órgano consultivo autonómico."
+     ]
+    },
+    {
+     "titulo": "3. Los pliegos de cláusulas administrativas particulares: aprobación",
+     "parrafos": [
+      "El artículo 122.1 LCSP establece cuándo deben aprobarse los PCAP. Deben aprobarse antes de la autorización del gasto o conjuntamente con ella, y siempre antes de la licitación del contrato. Si no existe licitación, deben aprobarse antes de la adjudicación.",
+      "Una vez aprobados, los PCAP solo pueden modificarse por error material, de hecho o aritmético. En cualquier otro caso, la modificación del pliego conlleva la retroacción de actuaciones, es decir, volver a un momento anterior del procedimiento. Es una garantía de igualdad entre los licitadores, que han presentado sus ofertas según unas reglas conocidas.",
+      "Para un examen, la regla es que el pliego no puede cambiarse para favorecer a un licitador. Si se cambia de forma sustancial, el procedimiento vuelve atrás."
+     ]
+    },
+    {
+     "titulo": "4. Contenido de los pliegos de cláusulas administrativas particulares",
+     "parrafos": [
+      "El artículo 122.2 LCSP enumera el contenido mínimo de los PCAP. Incluye los criterios de solvencia y de adjudicación del contrato; las consideraciones sociales, laborales y ambientales que se establezcan como criterios de solvencia o de adjudicación, o como condiciones especiales de ejecución; y los pactos y condiciones que definen los derechos y obligaciones de las partes del contrato.",
+      "El mismo apartado exige la previsión de la cesión del contrato, salvo los casos en que no sea posible; la obligación del adjudicatario de cumplir las condiciones salariales de los trabajadores conforme al convenio colectivo sectorial aplicable; y las demás menciones que exijan la ley y sus normas de desarrollo. En el caso de los contratos mixtos, el pliego debe detallar el régimen jurídico aplicable a sus efectos, cumplimiento y extinción.",
+      "El BOE advierte, en la anotación del precepto, que se ha declarado que el párrafo primero del apartado 2 no es conforme con el orden constitucional de competencias, salvo en los incisos relativos a los pactos y condiciones de las partes y a los contratos mixtos. La sentencia concreta no se ha identificado en el texto consultado, y debe comprobarse antes de citarla en un examen.",
+      "Para un examen, conviene memorizar los cinco grandes contenidos del PCAP: solvencia y adjudicación, consideraciones sociales, laborales y ambientales, derechos y obligaciones, cesión y condiciones salariales."
+     ]
+    },
+    {
+     "titulo": "5. Los pliegos de prescripciones técnicas generales",
+     "parrafos": [
+      "El artículo 123.1 LCSP establece que, previo informe de la Junta Consultiva de Contratación Pública del Estado, el Consejo de Ministros, a propuesta del ministro correspondiente, puede establecer los pliegos de prescripciones técnicas generales a los que deben ajustarse la Administración General del Estado y sus organismos.",
+      "El PPTG tiene una función equivalente al PCAG, pero en el ámbito técnico: fija, con carácter general, las prescripciones que rigen una clase de prestación. Su aplicación se hace en las condiciones que establece la LCSP y la norma que lo aprueba, y el contrato concreto se completa con el PPTP.",
+      "Para un examen, la relación entre el PPTG y el PPTP es la de lo general y lo particular: el general fija el marco común de una clase de prestación; el particular concreta las prescripciones de cada contrato."
+     ]
+    },
+    {
+     "titulo": "6. El pliego de prescripciones técnicas particulares",
+     "parrafos": [
+      "El artículo 124.1 LCSP establece que el órgano de contratación aprueba los PPTP con anterioridad a la autorización del gasto o conjuntamente con ella, y siempre antes de la licitación o de la adjudicación si no hay licitación. Los pliegos contienen las prescripciones técnicas que han de regir la realización de la prestación y definen sus calidades, sus condiciones sociales y ambientales.",
+      "Las modificaciones del PPTP siguen la misma regla que los PCAP: solo pueden corregirse por error material, de hecho o aritmético, y cualquier otra modificación conlleva la retroacción de actuaciones (art. 124.1 LCSP).",
+      "En las obras, el PPTP es uno de los documentos del proyecto. El artículo 233.1.c) LCSP exige que el proyecto contenga el pliego de prescripciones técnicas particulares, en el que se describen las obras y se regula su ejecución, con las obligaciones técnicas del contratista y el control de calidad de los materiales y del proceso (tema 25 del programa)."
+     ]
+    },
+    {
+     "titulo": "7. Concepto de prescripción técnica",
+     "parrafos": [
+      "El artículo 125.1 LCSP define la prescripción o especificación técnica. En los contratos de obras, son las prescripciones técnicas contenidas principalmente en los pliegos, en las que se definen las características de un material, producto o suministro, de manera que permitan caracterizarlos para el uso al que se destinan.",
+      "La definición incluye procedimientos de aseguramiento de la calidad; el impacto social, laboral, ambiental y climático de los materiales y de las actividades; el diseño para todas las necesidades, incluida la accesibilidad universal; la terminología, los símbolos, las pruebas y los métodos de prueba; el envasado, marcado y etiquetado; y los procesos y métodos de producción en cualquier fase del ciclo de vida de la obra.",
+      "Para un examen, la clave es que la prescripción técnica no se limita a la calidad del material. Incluye la accesibilidad, el impacto ambiental y social y el ciclo de vida, que la LCSP exige considerar."
+     ]
+    },
+    {
+     "titulo": "8. Reglas para establecer las prescripciones técnicas",
+     "parrafos": [
+      "El artículo 126.1 LCSP exige que las prescripciones técnicas proporcionen a los empresarios acceso en condiciones de igualdad al procedimiento de contratación, y que no creen obstáculos injustificados a la apertura de la contratación pública a la competencia.",
+      "El artículo 126.2 LCSP permite que las prescripciones se refieran al proceso o método específico de producción o prestación de las obras, los suministros o los servicios, o a un proceso específico de otra fase de su ciclo de vida. La regla es que la Administración puede exigir el método concreto cuando sea necesario para el objeto.",
+      "El título del tema incluye otras reglas que la LCSP desarrolla en sus artículos 125 y 126, como la exención de referencias a prescripciones técnicas comunes, la excepción a la prohibición de indicar origen, producción, marcas o patentes, y las reglas de establecimiento. Conviene leerlas completas en el texto."
+     ]
+    },
+    {
+     "titulo": "9. Etiquetas, informes de pruebas y medios de prueba",
+     "parrafos": [
+      "El artículo 127.1 LCSP define la etiqueta como cualquier documento, certificado o acreditación que confirme que las obras, productos, servicios, procesos o procedimientos cumplen determinados requisitos. La etiqueta es un medio de prueba de la conformidad con la prescripción técnica.",
+      "El artículo 128 LCSP regula los informes de pruebas, la certificación y otros medios de prueba que los órganos de contratación pueden exigir para acreditar el cumplimiento de las prescripciones técnicas. Su detalle debe leerse en el texto del precepto.",
+      "Para un examen, la diferencia es que la etiqueta acredita la conformidad y el informe de pruebas la demuestra. Ambos son instrumentos distintos, y la LCSP los regula en preceptos separados."
+     ]
+    },
+    {
+     "titulo": "10. Los pliegos en el expediente de contratación",
+     "parrafos": [
+      "El artículo 116.3 LCSP establece que al expediente de contratación se incorporan el pliego de cláusulas administrativas particulares y el de prescripciones técnicas que han de regir el contrato. Así, los pliegos son el núcleo del expediente, junto con la necesidad motivada y el proyecto cuando lo hay.",
+      "El mismo precepto excepciona el caso del diálogo competitivo, en el que los pliegos de cláusulas administrativas y de prescripciones técnicas se sustituyen por el documento que la LCSP regula para ese procedimiento.",
+      "Para un examen, la síntesis es que el expediente contiene los pliegos, que los pliegos deben aprobarse antes de la licitación y que solo pueden modificarse por error material, de hecho o aritmético."
+     ]
+    },
+    {
+     "titulo": "11. Otros contenidos del pliego: fiscalidad, medio ambiente, empleo y subrogación",
+     "parrafos": [
+      "El título del tema recoge otros contenidos que los pliegos deben incluir: información sobre las obligaciones relativas a la fiscalidad, la protección del medio ambiente, el empleo y las condiciones laborales, la obligación de contratar a un porcentaje de personas con discapacidad, y la información sobre las condiciones de subrogación en los contratos de trabajo.",
+      "Estos contenidos se regulan en preceptos que no se han comprobado para este desarrollo. Antes de citarlos en un examen, deben leerse en el texto de la LCSP, porque son parte del contenido exigible del pliego.",
+      "Para un examen, la síntesis es que el pliego no es solo técnico y económico: también recoge obligaciones sociales, laborales y ambientales, que forman parte de las condiciones del contrato."
+     ]
+    },
+    {
+     "titulo": "12. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir los pliegos de cláusulas administrativas con los de prescripciones técnicas. Los primeros regulan el régimen del contrato; los segundos, las características de lo que se contrata.",
+      "Afirmar que el PCAG es de aplicación obligatoria a todas las Administraciones. El PCAG es un modelo de la Administración del Estado; las Comunidades y las entidades locales pueden aprobar los suyos (art. 121.2 LCSP).",
+      "Olvidar que el pliego debe aprobarse antes de la licitación (art. 122.1 LCSP) y que su modificación posterior, salvo error material, retrotrae las actuaciones.",
+      "Confundir la etiqueta con el informe de pruebas. La etiqueta acredita la conformidad; el informe de pruebas la demuestra (arts. 127 y 128 LCSP)."
+     ]
+    },
+    {
+     "titulo": "13. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Quién puede aprobar pliegos de cláusulas administrativas generales de la Administración del Estado? El Consejo de Ministros, previo dictamen del Consejo de Estado (art. 121.1 LCSP).",
+      "¿Cuándo deben aprobarse los PCAP? Antes de la autorización del gasto o conjuntamente con ella, y siempre antes de la licitación (art. 122.1 LCSP).",
+      "¿Qué puede modificarse en un PCAP ya aprobado? Solo los errores materiales, de hecho o aritméticos; cualquier otra modificación conlleva la retroacción (art. 122.1 LCSP).",
+      "¿Qué define el art. 127.1 LCSP? La etiqueta: documento, certificado o acreditación que confirma que las obras, productos, servicios, procesos o procedimientos cumplen determinados requisitos.",
+      "¿Qué debe contener el PPTP en las obras? Las prescripciones que rigen la ejecución, con las obligaciones técnicas del contratista y el control de calidad (arts. 124 y 233.1.c LCSP)."
+     ]
+    },
+    {
+     "titulo": "12. Principios de la licitación que los pliegos deben respetar (art. 132 LCSP)",
+     "parrafos": [
+      "El artículo 132.1 LCSP obliga a los órganos de contratación a dar a los licitadores y candidatos un tratamiento igualitario y no discriminatorio, y a ajustar su actuación a los principios de transparencia y proporcionalidad. Los pliegos son el instrumento que hace efectivos estos principios, porque fijan por escrito las reglas que todos deben conocer.",
+      "El mismo precepto dispone que en ningún caso puede limitarse la participación por la forma jurídica o el ánimo de lucro, salvo en los contratos reservados que la ley prevé. Un pliego que exigiera una forma jurídica concreta sin justificación sería contrario a la LCSP.",
+      "Para un examen, la conexión es directa: cualquier cláusula del pliego que discrimine entre licitadores o restrinja la competencia sin justificación es nula en lo que excede la ley."
+     ]
+    },
+    {
+     "titulo": "13. Criterios de adjudicación en los pliegos (arts. 145 y 146 LCSP)",
+     "parrafos": [
+      "El artículo 145.1 LCSP establece que la adjudicación de los contratos se realiza utilizando una pluralidad de criterios de adjudicación, en base a la mejor relación calidad-precio. Los criterios deben figurar en el pliego, porque el licitador debe poder preparar su oferta conociendo cómo se valorará.",
+      "El artículo 145.2 LCSP establece que la mejor relación calidad-precio se evalúa con criterios económicos y cualitativos. El precepto admite también, previa justificación en el expediente, adjudicar sobre la base de la mejor relación coste-eficacia, como el coste del ciclo de vida del artículo 148.",
+      "El artículo 146.1 LCSP regula el caso en que solo se utiliza un criterio de adjudicación: debe estar relacionado con los costes, pudiendo ser el precio o un criterio basado en la rentabilidad, como el coste del ciclo de vida. Cuando se utilizan varios, el pliego debe fijar su determinación de forma que sea posible su aplicación objetiva.",
+      "Para un examen, la pregunta típica es qué debe fijar el pliego para la adjudicación. La respuesta es los criterios, su ponderación y la forma de aplicarlos, con la relación calidad-precio como regla general."
+     ]
+    },
+    {
+     "titulo": "14. Etiquetas medioambientales y sociales y medios de prueba",
+     "parrafos": [
+      "El artículo 127.2 LCSP permite que, cuando el órgano de contratación pretenda adquirir obras, suministros o servicios con características específicas de tipo medioambiental, social u otro, exija en las prescripciones técnicas, en los criterios de adjudicación o en las condiciones de ejecución una etiqueta específica como medio de prueba. La etiqueta se convierte así en un instrumento de la política de contratación.",
+      "El artículo 128.1 LCSP permite exigir a los operadores económicos un informe de pruebas de un organismo de evaluación de la conformidad, o un certificado expedido por este, como medio de prueba del cumplimiento de las prescripciones técnicas, de los criterios de adjudicación o de las condiciones de ejecución.",
+      "Para un examen, la diferencia es que la etiqueta es un distintivo que acredita el cumplimiento, y el informe de pruebas es el documento emitido tras un ensayo por un organismo de evaluación. Ambos sirven para acreditar lo que el pliego exige."
+     ]
+    },
+    {
+     "titulo": "15. Caso práctico: pliegos de un contrato de obras",
+     "parrafos": [
+      "Un ayuntamiento licita las obras de rehabilitación de un edificio. Los PCAP deben aprobarse antes de la autorización del gasto o conjuntamente con ella, y siempre antes de la licitación (art. 122.1 LCSP). Deben contener los criterios de solvencia y de adjudicación, las condiciones sociales y ambientales que se hayan decidido y las condiciones salariales conforme al convenio sectorial (art. 122.2).",
+      "El PPTP describe la ejecución de las obras, las obligaciones técnicas del contratista y el control de calidad de los materiales (art. 124.1 LCSP y art. 233.1.c). Si el ayuntamiento exige una etiqueta ambiental para los materiales, la puede incluir en el pliego como medio de prueba (art. 127.2).",
+      "Una vez licitada la obra, si el pliego contiene un error material, puede corregirse; si el ayuntamiento quiere cambiar un criterio de adjudicación, debe hacerlo mediante la retroacción de actuaciones (art. 122.1). La solución protege a los licitadores que ya prepararon su oferta.",
+      "En el examen, el caso se resuelve citando los artículos en ese orden: aprobación del PCAP, contenido, PPTP, etiquetas y modificación."
+     ]
+    },
+    {
+     "titulo": "16. Quién aprueba los pliegos: el órgano de contratación",
+     "parrafos": [
+      "El artículo 124.1 LCSP atribuye al órgano de contratación la aprobación del PPTP. El artículo 117.1 LCSP le atribuye la aprobación del expediente de contratación mediante resolución motivada, que también aprueba el gasto. Por tanto, el órgano de contratación es el responsable de los pliegos que rigen el contrato.",
+      "Los PCAG, en cambio, no los aprueba el órgano de contratación, sino el Consejo de Ministros con dictamen del Consejo de Estado (art. 121.1 LCSP). La diferencia refleja que los generales son normas de carácter común, y los particulares son actos de cada contrato.",
+      "Para un examen, la pregunta típica es quién aprueba cada pliego. Respuesta: el Consejo de Ministros, los PCAG y PPTG; el órgano de contratación, los PCAP y PPTP de cada contrato."
+     ]
+    },
+    {
+     "titulo": "17. Los pliegos en la Comunidad Autónoma de Andalucía",
+     "parrafos": [
+      "El artículo 47.1.4.ª del Estatuto de Andalucía atribuye a la Comunidad, como competencia exclusiva, la organización a efectos contractuales de su propia Administración. La Junta puede, por tanto, decidir cómo se organiza para contratar, quién es el órgano de contratación y qué órganos intervienen en la tramitación.",
+      "Esa competencia no incluye la regulación general de la contratación, que la LCSP fija como legislación básica del Estado. Por eso, los pliegos de la Junta se aprueban dentro del marco de la LCSP, y la Comunidad puede aprobar sus propios pliegos generales con dictamen de su órgano consultivo (art. 121.2 LCSP).",
+      "Para un examen, la respuesta bien estructurada distingue la organización contractual de la Junta (competencia autonómica exclusiva, art. 47.1.4.ª del Estatuto) de la regulación material de los contratos (LCSP, legislación básica)."
+     ]
+    },
+    {
+     "titulo": "18. Cuestiones adicionales de examen",
+     "parrafos": [
+      "¿Qué criterios debe contener el pliego según el art. 145.1 LCSP? Una pluralidad de criterios de adjudicación basada en la mejor relación calidad-precio, con criterios económicos y cualitativos (art. 145.2).",
+      "¿Qué principios deben respetar los órganos de contratación en la licitación? Tratamiento igualitario y no discriminatorio, transparencia y proporcionalidad (art. 132.1 LCSP).",
+      "¿Puede exigirse una etiqueta específica en un contrato? Sí, cuando la Administración pretenda adquirir obras, suministros o servicios con características específicas medioambientales, sociales u otras (art. 127.2 LCSP)."
+     ]
+    },
+    {
+     "titulo": "19. Cuadro comparativo de los cuatro pliegos",
+     "parrafos": [
+      "PCAG (art. 121 LCSP): aprobado por el Consejo de Ministros, previo dictamen del Consejo de Estado. Modelo general de cláusulas administrativas. Las CCAA y las entidades locales pueden aprobar los suyos.",
+      "PCAP (art. 122 LCSP): aprobado por el órgano de contratación antes de la licitación. Contenido: solvencia, adjudicación, derechos y obligaciones, cesión, condiciones salariales. Solo se modifica por error material o con retroacción.",
+      "PPTG (art. 123 LCSP): aprobado por el Consejo de Ministros, previo informe de la Junta Consultiva de Contratación Pública del Estado. Marco técnico general de una clase de prestación.",
+      "PPTP (art. 124 LCSP): aprobado por el órgano de contratación antes de la licitación. Prescripciones que rigen la prestación, con calidades, condiciones sociales y ambientales. En las obras, parte del proyecto (art. 233.1.c).",
+      "Para un examen, la síntesis es que los generales son comunes y los particulares son propios de cada contrato; y que los pliegos de prescripciones técnicas regulan la prestación, mientras que los de cláusulas administrativas regulan el contrato."
+     ]
+    },
+    {
+     "titulo": "20. Errores adicionales frecuentes",
+     "parrafos": [
+      "Olvidar que el PPTP puede formar parte del proyecto en las obras (art. 233.1.c LCSP), y que en los demás contratos es un pliego independiente.",
+      "Confundir los criterios de adjudicación, que deben estar en el pliego, con las condiciones de ejecución, que también pueden fijarse en el pliego pero que operan en la fase de cumplimiento.",
+      "Afirmar que el pliego puede cambiarse tras la licitación para mejorar la oferta de la Administración. Solo se permite corregir errores materiales, de hecho o aritméticos (art. 122.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Método para resolver casos",
+     "parrafos": [
+      "Para resolver un caso sobre pliegos, conviene seguir tres pasos. Primero, identificar qué pliego se discute y quién lo aprueba (arts. 121, 122, 123 y 124 LCSP). Segundo, comprobar si el contenido exigido está incluido: solvencia, adjudicación, derechos y obligaciones, o prescripciones técnicas con su alcance (arts. 122.2 y 125). Tercero, valorar si una modificación es admisible, porque solo lo es por error material, de hecho o aritmético, y en otro caso produce retroacción (art. 122.1)."
+     ]
+    },
+    {
+     "titulo": "Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema conecta con el tema 25 sobre anteproyectos, proyectos y expedientes, porque los pliegos se incorporan al expediente de contratación (art. 116.3 LCSP) y el pliego de prescripciones técnicas particulares forma parte del proyecto de obras (art. 233.1.c LCSP).",
+      "Conecta también con los temas de procedimiento administrativo del programa común, porque la aprobación de los pliegos y las resoluciones de adjudicación son actos administrativos sujetos a la LPAC (arts. 34 a 36 y 39 LPAC).",
+      "Por último, la competencia de la Junta sobre su organización contractual (art. 47.1.4.ª del Estatuto) se relaciona con el tema 8 de la Administración de la Comunidad, porque es la norma estatutaria la que atribuye a la Junta la organización de su Administración a efectos de contratación."
+     ]
+    },
+    {
+     "titulo": "14. Claves para el examen",
+     "parrafos": [
+      "PCAG: aprobado por el Consejo de Ministros con dictamen del Consejo de Estado; las CCAA y entidades locales pueden aprobar los suyos (art. 121 LCSP).",
+      "PCAP: aprobados antes de la licitación; contenido de solvencia, adjudicación, derechos y obligaciones, cesión y condiciones salariales (art. 122 LCSP).",
+      "PPTG: aprobado por el Consejo de Ministros previo informe de la Junta Consultiva (art. 123.1 LCSP).",
+      "PPTP: prescripciones que rigen la prestación, con calidades, condiciones sociales y ambientales (art. 124 LCSP); en obras, parte del proyecto (art. 233.1.c).",
+      "Prescripciones técnicas: definición y contenido (art. 125); igualdad de acceso (art. 126.1); etiquetas (art. 127); pruebas (art. 128)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 9/2017, de Contratos del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+     "pdf": "leyes/BOE-A-2017-12902.pdf"
     }
    ]
   }
