@@ -1,0 +1,131 @@
+{
+  "id": "e20",
+  "resumen": [
+    {
+      "titulo": "Objeto y finalidad",
+      "puntos": [
+        "La LOE regula el proceso de la edificación para asegurar la calidad de lo edificado (art. 1).",
+        "Establece los agentes que intervienen, sus obligaciones y responsabilidades, y las garantías de los usuarios."
+      ]
+    },
+    {
+      "titulo": "Agentes de la edificación",
+      "puntos": [
+        "Promotor (art. 9): decide, impulsa, programa y financia la edificación. Debe suscribir los seguros del art. 19.",
+        "Proyectista (art. 10): redacta el proyecto por encargo del promotor, de acuerdo con la normativa técnica y urbanística.",
+        "Constructor (art. 11): ejecuta la obra con medios humanos y materiales. Hace la entrega de la obra al promotor.",
+        "Director de obra (art. 12) y director de la ejecución de la obra (art. 13): dirigen y controlan el desarrollo técnico de la obra.",
+        "Entidades y laboratorios de control de calidad (art. 14) y suministradores de productos (art. 15).",
+        "Propietarios y usuarios (art. 16)."
+      ]
+    },
+    {
+      "titulo": "Requisitos básicos (art. 3)",
+      "puntos": [
+        "Tres grupos: funcionalidad, seguridad y habitabilidad.",
+        "Seguridad: estructural, en caso de incendio y de utilización.",
+        "Habitabilidad: higiene, salud, protección del medio ambiente, protección frente al ruido, ahorro de energía y aislamiento térmico.",
+        "El CTE desarrolla técnicamente estos requisitos básicos."
+      ]
+    },
+    {
+      "titulo": "Recepción y Libro del Edificio (arts. 6 y 7)",
+      "puntos": [
+        "Recepción: acto por el que el constructor, una vez concluida la obra, la entrega al promotor, que la acepta.",
+        "Al terminar la obra, el director de obra facilita al promotor la documentación final, que constituye el Libro del Edificio."
+      ]
+    },
+    {
+      "titulo": "Responsabilidad y garantías (art. 17)",
+      "puntos": [
+        "10 años: daños materiales por vicios o defectos que afecten a cimentación, pilares, vigas, forjados, muros de carga u otros elementos estructurales (art. 17.1.a).",
+        "3 años: daños por vicios o defectos de elementos constructivos o instalaciones que incumplan los requisitos de habitabilidad (art. 17.1.b).",
+        "1 año: defectos de acabado, dentro del plazo de un año desde la recepción (último párrafo del art. 17.1)."
+      ]
+    },
+    {
+      "titulo": "Seguros obligatorios (art. 19)",
+      "puntos": [
+        "Seguro de daños materiales, de caución o garantía financiera que cubre durante diez años los daños estructurales (art. 19.1).",
+        "El promotor es el obligado a suscribirlo (art. 9.2.d).",
+        "Es obligatorio para edificios cuyo uso principal sea vivienda (disposición adicional segunda)."
+      ]
+    }
+  ],
+  "leyes": [
+    { "id": "LOE", "rol": "Norma principal del tema" },
+    { "id": "CTE", "rol": "Complementaria: desarrolla los requisitos básicos del art. 3" }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Qué agente decide, impulsa, programa y financia la edificación?",
+      "opciones": ["El proyectista", "El constructor", "El promotor", "El director de obra"],
+      "correcta": 2,
+      "explicacion": "El art. 9.1 LOE define como promotor a quien decide, impulsa, programa y financia la edificación.",
+      "referencia": "Art. 9.1 LOE"
+    },
+    {
+      "pregunta": "¿Qué agente redacta el proyecto por encargo del promotor?",
+      "opciones": ["El director de obra", "El proyectista", "El constructor", "El suministrador de productos"],
+      "correcta": 1,
+      "explicacion": "El proyectista es el agente que, por encargo del promotor, redacta el proyecto.",
+      "referencia": "Art. 10.1 LOE"
+    },
+    {
+      "pregunta": "¿Durante cuánto tiempo responden los agentes por daños materiales en cimentación, pilares, vigas, forjados o muros de carga?",
+      "opciones": ["1 año", "3 años", "10 años", "15 años"],
+      "correcta": 2,
+      "explicacion": "El art. 17.1.a LOE establece diez años para los daños estructurales.",
+      "referencia": "Art. 17.1.a LOE"
+    },
+    {
+      "pregunta": "¿Cuál es el plazo de responsabilidad por daños por vicios que incumplan los requisitos de habitabilidad?",
+      "opciones": ["1 año", "3 años", "5 años", "10 años"],
+      "correcta": 1,
+      "explicacion": "El art. 17.1.b LOE fija tres años para los daños por vicios o defectos de elementos constructivos o instalaciones que incumplan la habitabilidad.",
+      "referencia": "Art. 17.1.b LOE"
+    },
+    {
+      "pregunta": "¿Y el plazo para los defectos de acabado?",
+      "opciones": ["Un año", "Tres años", "Cinco años", "Seis meses"],
+      "correcta": 0,
+      "explicacion": "Los defectos de acabado tienen un plazo de un año, dentro del cual responde el constructor.",
+      "referencia": "Art. 17.1, último párrafo, LOE"
+    },
+    {
+      "pregunta": "¿Quién está obligado a suscribir el seguro de daños materiales de diez años?",
+      "opciones": ["El constructor", "El proyectista", "El propietario", "El promotor"],
+      "correcta": 3,
+      "explicacion": "El art. 9.2.d) obliga al promotor a suscribir los seguros del art. 19, entre ellos el de daños materiales de diez años.",
+      "referencia": "Arts. 9.2.d y 19 LOE"
+    },
+    {
+      "pregunta": "¿Qué tres grupos de requisitos básicos de la edificación establece el art. 3.1 LOE?",
+      "opciones": ["Funcionalidad, seguridad y habitabilidad", "Solidez, belleza y economía", "Accesibilidad, sostenibilidad y coste", "Seguridad, rapidez y calidad"],
+      "correcta": 0,
+      "explicacion": "El art. 3.1 LOE establece los requisitos básicos relativos a la funcionalidad, la seguridad y la habitabilidad.",
+      "referencia": "Art. 3.1 LOE"
+    },
+    {
+      "pregunta": "¿Quién entrega la obra al promotor en el acto de recepción?",
+      "opciones": ["El director de obra", "El proyectista", "La entidad de control de calidad", "El constructor"],
+      "correcta": 3,
+      "explicacion": "El art. 6.1 LOE define la recepción como el acto por el que el constructor, concluida la obra, la entrega al promotor, que la acepta.",
+      "referencia": "Art. 6.1 LOE"
+    },
+    {
+      "pregunta": "¿Qué documento recoge la documentación final de la obra, con sus datos de uso y mantenimiento?",
+      "opciones": ["El plan de seguridad y salud", "El pliego de condiciones", "El acta de replanteo", "El Libro del Edificio"],
+      "correcta": 3,
+      "explicacion": "El art. 7 LOE establece que la documentación final de la obra constituye el Libro del Edificio.",
+      "referencia": "Art. 7 LOE"
+    },
+    {
+      "pregunta": "¿Cuál es el objeto principal de la Ley de Ordenación de la Edificación?",
+      "opciones": ["Regular el proceso de la edificación y los agentes que intervienen, para garantizar la calidad de lo edificado", "Fijar los precios máximos de la vivienda protegida", "Regular las licencias municipales de obra", "Establecer el reglamento de instalaciones térmicas"],
+      "correcta": 0,
+      "explicacion": "El art. 1 LOE tiene por objeto regular el proceso de la edificación para asegurar la calidad de lo edificado.",
+      "referencia": "Art. 1 LOE"
+    }
+  ]
+}

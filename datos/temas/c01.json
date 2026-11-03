@@ -1,0 +1,122 @@
+{
+  "id": "c01",
+  "resumen": [
+    {
+      "titulo": "Antecedentes y aprobación",
+      "puntos": [
+        "Ratificada en referéndum el 6 de diciembre de 1978 y publicada en el BOE el 29 de diciembre de 1978.",
+        "Norma suprema del ordenamiento jurídico: los ciudadanos y los poderes públicos están sujetos a ella (art. 9.1 CE)."
+      ]
+    },
+    {
+      "titulo": "Valores superiores y forma del Estado (art. 1)",
+      "puntos": [
+        "Valores superiores del ordenamiento: libertad, justicia, igualdad y pluralismo político (art. 1.1).",
+        "España se constituye en un Estado social y democrático de Derecho (art. 1.1).",
+        "La soberanía nacional reside en el pueblo español (art. 1.2).",
+        "Forma política: monarquía parlamentaria (art. 1.3)."
+      ]
+    },
+    {
+      "titulo": "Derechos y deberes (Título I, Capítulo II)",
+      "puntos": [
+        "Sección 1.ª: derechos fundamentales y libertades públicas (arts. 15 a 29).",
+        "Sección 2.ª: derechos y deberes de los ciudadanos (arts. 30 a 38), entre ellos el deber de defender España y el de contribuir al sostenimiento de los gastos públicos con justicia (arts. 30 y 31).",
+        "Capítulo III: principios rectores de la política social y económica (arts. 39 a 52)."
+      ]
+    },
+    {
+      "titulo": "Garantías y suspensión (arts. 53 y 55)",
+      "puntos": [
+        "Los derechos del Capítulo II solo pueden desarrollarse por ley y deben respetar su contenido esencial (art. 53.1).",
+        "El art. 14 y la sección 1.ª (arts. 15 a 29) se protegen ante los tribunales ordinarios y, mediante recurso de amparo, ante el Tribunal Constitucional (art. 53.2).",
+        "Los principios rectores solo pueden alegarse ante la jurisdicción ordinaria, de acuerdo con lo que dispongan las leyes que los desarrollen (art. 53.3).",
+        "Algunos derechos de la sección 1.ª pueden suspenderse en los estados de excepción y de sitio (art. 55.1). Los estados del art. 116 CE se regulan en la LO 4/1981."
+      ]
+    },
+    {
+      "titulo": "Reforma constitucional (Título X, arts. 166 a 169)",
+      "puntos": [
+        "Reforma ordinaria (art. 167): aprobación por tres quintos de cada Cámara.",
+        "Reforma agravada (art. 168): aprobación por dos tercios de cada Cámara, disolución de las Cortes, ratificación por las nuevas Cortes con dos tercios y referéndum posterior.",
+        "La reforma agravada afecta al Título Preliminar, a la sección 1.ª del Capítulo II del Título I y al Título II (la Corona)."
+      ]
+    }
+  ],
+  "leyes": [
+    { "id": "CE", "rol": "Norma principal del tema" },
+    { "id": "LO-4-1981", "rol": "Complementaria: estados de alarma, excepción y sitio" }
+  ],
+  "test": [
+    {
+      "pregunta": "¿En qué fecha fue ratificada la Constitución Española en referéndum?",
+      "opciones": ["27 de diciembre de 1978", "6 de diciembre de 1978", "29 de diciembre de 1978", "1 de diciembre de 1978"],
+      "correcta": 1,
+      "explicacion": "La Constitución fue ratificada en referéndum el 6 de diciembre de 1978. Se publicó en el BOE el 29 de diciembre de 1978.",
+      "referencia": "Constitución Española, publicación en el BOE de 29/12/1978"
+    },
+    {
+      "pregunta": "¿Cuáles son los valores superiores del ordenamiento jurídico según el art. 1.1 CE?",
+      "opciones": ["Libertad, justicia, igualdad y pluralismo político", "Libertad, seguridad, propiedad y fraternidad", "Igualdad, dignidad, solidaridad y pluralismo", "Justicia, legalidad, democracia y laicidad"],
+      "correcta": 0,
+      "explicacion": "El art. 1.1 CE enumera como valores superiores la libertad, la justicia, la igualdad y el pluralismo político.",
+      "referencia": "Art. 1.1 CE"
+    },
+    {
+      "pregunta": "¿Cuál es la forma política del Estado español según la Constitución?",
+      "opciones": ["República parlamentaria", "Monarquía absoluta", "Estado federal", "Monarquía parlamentaria"],
+      "correcta": 3,
+      "explicacion": "El art. 1.3 CE define la forma política del Estado como monarquía parlamentaria.",
+      "referencia": "Art. 1.3 CE"
+    },
+    {
+      "pregunta": "¿En quién reside la soberanía nacional?",
+      "opciones": ["En las Cortes Generales", "En el Rey", "En el pueblo español", "En el Gobierno"],
+      "correcta": 2,
+      "explicacion": "La soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado.",
+      "referencia": "Art. 1.2 CE"
+    },
+    {
+      "pregunta": "¿Qué derechos pueden protegerse mediante recurso de amparo ante el Tribunal Constitucional?",
+      "opciones": ["Solo los principios rectores del Capítulo III", "Los derechos del art. 14 y los de la sección 1.ª del Capítulo II (arts. 15 a 29)", "Todos los deberes de los arts. 30 a 38", "Solo los derechos reconocidos en tratados internacionales"],
+      "correcta": 1,
+      "explicacion": "El art. 53.2 CE permite recabar la tutela del art. 14 y de la sección 1.ª del Capítulo II (arts. 15 a 29) ante el TC mediante recurso de amparo.",
+      "referencia": "Art. 53.2 CE"
+    },
+    {
+      "pregunta": "¿Cómo pueden alegarse los principios rectores de la política social y económica?",
+      "opciones": ["Solo ante la jurisdicción ordinaria, de acuerdo con lo que dispongan las leyes que los desarrollen", "Directamente ante el Tribunal Constitucional mediante recurso de amparo", "No tienen ningún valor jurídico", "Son exigibles sin necesidad de ley"],
+      "correcta": 0,
+      "explicacion": "El art. 53.3 CE establece que los principios rectores solo pueden alegarse ante la jurisdicción ordinaria, conforme a lo que disponga su legislación de desarrollo. No son objeto de amparo.",
+      "referencia": "Art. 53.3 CE"
+    },
+    {
+      "pregunta": "¿En qué estados del art. 116 CE pueden suspenderse determinados derechos fundamentales?",
+      "opciones": ["Alarma, excepción y sitio", "Solo alarma", "Excepción y sitio", "Solo sitio"],
+      "correcta": 2,
+      "explicacion": "El art. 55.1 CE permite suspender algunos derechos de la sección 1.ª en el estado de excepción o de sitio. El estado de alarma no permite esa suspensión.",
+      "referencia": "Arts. 55.1 y 116 CE; LO 4/1981"
+    },
+    {
+      "pregunta": "¿Qué mayoría se exige para aprobar una reforma constitucional ordinaria?",
+      "opciones": ["Dos tercios de cada Cámara", "Mayoría simple del Congreso", "Tres quintos de cada Cámara", "Mayoría absoluta del Senado"],
+      "correcta": 2,
+      "explicacion": "La reforma ordinaria (art. 167 CE) requiere tres quintos de cada Cámara.",
+      "referencia": "Art. 167.1 CE"
+    },
+    {
+      "pregunta": "¿Qué exige la reforma agravada del art. 168 CE para la sección 1.ª del Capítulo II del Título I?",
+      "opciones": ["Mayoría simple", "Tres quintos", "Mayoría absoluta del Congreso", "Dos tercios de cada Cámara, disolución de las Cortes y referéndum posterior"],
+      "correcta": 3,
+      "explicacion": "El art. 168 CE exige dos tercios de cada Cámara, disolución de las Cortes, ratificación por las nuevas Cortes con dos tercios y referéndum.",
+      "referencia": "Art. 168 CE"
+    },
+    {
+      "pregunta": "¿Cómo se constituye España según el art. 1.1 CE?",
+      "opciones": ["Estado federal y laico", "Estado social y democrático de Derecho", "Estado unitario y confesional", "Estado liberal y parlamentario"],
+      "correcta": 1,
+      "explicacion": "El art. 1.1 CE dice que España se constituye en un Estado social y democrático de Derecho.",
+      "referencia": "Art. 1.1 CE"
+    }
+  ]
+}

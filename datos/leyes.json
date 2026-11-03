@@ -1,0 +1,41 @@
+{
+  "_nota": "Catálogo de normas citadas. verificada: true = texto comprobado en BOE; 'parcial' = solo parte del contenido o existencia comprobada; false = pendiente de comprobar. No marcar true sin consultar la fuente.",
+  "leyes": [
+    {
+      "id": "CE",
+      "nombre": "Constitución Española",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "verificada": "parcial",
+      "fecha_verificacion": "2026-11-03",
+      "notas": "Verificados en BOE arts. 1.1, 53.2 y 55.1. Arts. 167.1 y 168.1 contrastados en fuente secundaria (no en el BOE)."
+    },
+    {
+      "id": "LO-4-1981",
+      "nombre": "Ley Orgánica de estados de alarma, excepción y sitio",
+      "referencia": "Ley Orgánica 4/1981, de 1 de junio, de los estados de alarma, excepción y sitio",
+      "url": "",
+      "verificada": false,
+      "fecha_verificacion": null,
+      "notas": "Pendiente de comprobar en BOE. Desarrolla el art. 116 CE."
+    },
+    {
+      "id": "LOE",
+      "nombre": "Ley de Ordenación de la Edificación",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)",
+      "url": "https://www.boe.es/eli/es/l/1999/11/05/38/con",
+      "verificada": true,
+      "fecha_verificacion": "2026-11-03",
+      "notas": "Texto consolidado en BOE, última actualización indicada en la página: 15/06/2022. Verificados arts. 3.1, 6.1, 7, 9.1, 10.1, 17.1, 19 y DA 2.ª."
+    },
+    {
+      "id": "CTE",
+      "nombre": "Código Técnico de la Edificación",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación",
+      "url": "https://www.boe.es/eli/es/rd/2006/03/17/314/con",
+      "verificada": "parcial",
+      "fecha_verificacion": "2026-11-03",
+      "notas": "Existencia, fecha y URL comprobadas. Contenido de los documentos básicos y modificaciones (p. ej. RD 450/2022) pendientes de revisar."
+    }
+  ]
+}

@@ -23,16 +23,20 @@ Una **aplicación HTML sin build ni dependencias externas**, que se abre con dob
 
 ## 3. Estructura del repositorio
 
+Junta elegida: **Andalucía** (70 temas). Estructura real tras la fase 1:
+
 ```
-index.html                  App (HTML + CSS + JS en un solo archivo, sin dependencias)
+index.html                       App (HTML + CSS + JS en un solo archivo, sin dependencias)
 datos/
-  temario.json              Índice de los 65 temas (ya creado)
-  temas/c01.json … e50.json Un archivo por tema: resumen, leyes, test
-  leyes.json                Catálogo de leyes, con referencia y estado de verificación
-  build.js                  Script de validación (sin dependencias, Node)
-fuentes/                    Temario oficial extraído (ya creado)
-PLAN.md                     Este documento
-README.md                   Cómo usar la app y cómo añadir contenido
+  temario-andalucia.json         Índice de los 70 temas (activo)
+  temario-clm.json               Índice de Castilla-La Mancha (archivado)
+  temas/c01.json, e20.json …     Un archivo por tema: resumen, leyes, test (2 de 70 hechos)
+  leyes.json                     Catálogo de leyes, con referencia y estado de verificación
+  build.js                       Validación y generación de contenido.js (Node, sin dependencias)
+  contenido.js                   Generado por build.js; lo carga index.html
+fuentes/                         Programas oficiales en texto (Andalucía y Castilla-La Mancha)
+PLAN.md                          Este documento
+README.md                        Cómo usar la app y cómo añadir contenido
 ```
 
 Los archivos por tema permiten revisar y commitear por bloques, y el script de validación comprueba la estructura antes de cada commit. La app carga los datos con `<script>` (no `fetch`), así funciona también abriéndola desde disco.
