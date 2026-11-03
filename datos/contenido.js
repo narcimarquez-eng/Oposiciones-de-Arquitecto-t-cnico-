@@ -528,16 +528,20 @@ window.DATOS_ESTUDIO = {
    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "Verificados en BOE arts. 1.1, 53.2 y 55.1. Arts. 167.1 y 168.1 contrastados en fuente secundaria (no en el BOE)."
+   "notas": "Verificados en el PDF consolidado del BOE los arts. 1, 2, 9, 14 a 55, 116, 117, 159 a 161, 166 a 169 y las disposiciones. Revisado el texto completo de los arts. citados.",
+   "boe_id": "BOE-A-1978-31229",
+   "pdf": "leyes/BOE-A-1978-31229.pdf"
   },
   "LO-4-1981": {
    "id": "LO-4-1981",
    "nombre": "Ley Orgánica de estados de alarma, excepción y sitio",
-   "referencia": "Ley Orgánica 4/1981, de 1 de junio, de los estados de alarma, excepción y sitio",
-   "url": "",
-   "verificada": false,
-   "fecha_verificacion": null,
-   "notas": "Pendiente de comprobar en BOE. Desarrolla el art. 116 CE."
+   "referencia": "Ley Orgánica 4/1981, de 1 de junio, de los estados de alarma, excepción y sitio (BOE núm. 134, de 5 de junio de 1981)",
+   "url": "https://www.boe.es/eli/es/lo/1981/06/01/4",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado y comprobado (título y referencia). Artículos de cada estado comprobados en índice: alarma art. 4, excepción art. 13, sitio desde el art. 32. Pendiente revisar el articulado completo.",
+   "boe_id": "BOE-A-1981-12774",
+   "pdf": "leyes/BOE-A-1981-12774.pdf"
   },
   "LOE": {
    "id": "LOE",
@@ -546,7 +550,9 @@ window.DATOS_ESTUDIO = {
    "url": "https://www.boe.es/eli/es/l/1999/11/05/38/con",
    "verificada": true,
    "fecha_verificacion": "2026-11-03",
-   "notas": "Texto consolidado en BOE, última actualización indicada en la página: 15/06/2022. Verificados arts. 3.1, 6.1, 7, 9.1, 10.1, 17.1, 19 y DA 2.ª."
+   "notas": "Texto consolidado y PDF comprobados (BOE-A-1999-21567; última actualización de la página consultada: 15/06/2022). Verificados arts. 3.1, 6.1, 7, 9.1, 10.1, 17.1, 19 y DA 2.ª.",
+   "boe_id": "BOE-A-1999-21567",
+   "pdf": "leyes/BOE-A-1999-21567.pdf"
   },
   "CTE": {
    "id": "CTE",
@@ -555,7 +561,9 @@ window.DATOS_ESTUDIO = {
    "url": "https://www.boe.es/eli/es/rd/2006/03/17/314/con",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "Existencia, fecha y URL comprobadas. Contenido de los documentos básicos y modificaciones (p. ej. RD 450/2022) pendientes de revisar."
+   "notas": "PDF consolidado descargado y comprobado (título y referencia BOE-A-2006-5515). Contenido de los documentos básicos y modificaciones posteriores pendiente de revisar.",
+   "boe_id": "BOE-A-2006-5515",
+   "pdf": "leyes/BOE-A-2006-5515.pdf"
   }
  },
  "contenido": {
@@ -733,6 +741,128 @@ window.DATOS_ESTUDIO = {
      "correcta": 1,
      "explicacion": "El art. 1.1 CE dice que España se constituye en un Estado social y democrático de Derecho.",
      "referencia": "Art. 1.1 CE"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Contexto histórico y aprobación",
+     "parrafos": [
+      "La Constitución Española de 1978 es la norma suprema del ordenamiento jurídico español. Surge tras la muerte de Francisco Franco (1975) y el proceso de transición política, que se apoyó en la Ley 1/1977, de 4 de enero, para la Reforma Política, y que culminó con la elección de unas Cortes constituyentes en junio de 1977.",
+      "Las Cortes elaboraron el texto, que fue aprobado por el Congreso de los Diputados y por el Senado en octubre de 1978. Después fue sometido a referéndum de ratificación el 6 de diciembre de 1978, en el que fue aprobado por la mayoría de los votantes. Fue publicada en el Boletín Oficial del Estado (BOE) núm. 311, de 29 de diciembre de 1978. Según su disposición final, entró en vigor el mismo día de la publicación de su texto oficial en el BOE.",
+      "Conviene distinguir las fechas, porque los exámenes suelen preguntarlas: 6 de diciembre de 1978 es la fecha del referéndum y 29 de diciembre de 1978 la de la publicación en el BOE, que coincide con la entrada en vigor."
+     ]
+    },
+    {
+     "titulo": "2. Estructura y características generales",
+     "parrafos": [
+      "La Constitución consta de un Preámbulo, un Título Preliminar, diez Títulos numerados con romanos del I al X, cuatro disposiciones adicionales, nueve disposiciones transitorias, una disposición derogatoria y una disposición final. Los artículos se numeran del 1 al 169.",
+      "Sus rasgos principales son los siguientes. Es una Constitución escrita y rígida, porque su reforma exige procedimientos agravados (arts. 166 a 169). Es normativa y vinculante, porque sus preceptos son Derecho directamente aplicable y obligan a todos (art. 9.1). Reconoce derechos fundamentales protegidos con garantías reforzadas. Y organiza el Estado en un modelo territorial descentralizado, con Comunidades Autónomas dotadas de autonomía política.",
+      "Las disposiciones adicionales, transitorias y la derogatoria tienen una función específica: regulan situaciones concretas, como el amparo de los derechos históricos de los territorios forales (disposición adicional primera) o la derogación de normas anteriores, entre ellas la Ley 1/1977 para la Reforma Política (disposición derogatoria). No son el núcleo del temario, pero conviene conocer su existencia."
+     ]
+    },
+    {
+     "titulo": "3. Título Preliminar: valores, forma de Estado y principios",
+     "parrafos": [
+      "El artículo 1 recoge los pilares del sistema. En su apartado 1 dispone que España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político. Estos cuatro valores son la clave para cualquier pregunta sobre principios constitucionales.",
+      "El apartado 2 establece que la soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado. El apartado 3 define la forma política del Estado español como Monarquía parlamentaria. La combinación de estos tres apartados explica el sistema: el poder procede del pueblo, el Rey es Jefe del Estado con funciones arbitrales y moderadoras, y el Gobierno depende de la confianza del Congreso de los Diputados.",
+      "La idea de Estado social implica que los poderes públicos deben promover el bienestar y la igualdad material, no solo garantizar la libertad formal. Se concreta en los principios rectores del Capítulo III y en la obligación de promover las condiciones para que la libertad y la igualdad sean reales y efectivas, y de remover los obstáculos que lo impidan (art. 9.2). La idea de Estado democrático se refiere a la participación ciudadana y al pluralismo político. La idea de Estado de Derecho sujeta a todos los poderes a la ley.",
+      "El artículo 2 fundamenta el Estado en la indisoluble unidad de la Nación española y reconoce y garantiza el derecho a la autonomía de las nacionalidades y regiones, junto con la solidaridad entre ellas. El artículo 3 establece que el castellano es la lengua oficial del Estado, y que las demás lenguas españolas serán también oficiales en las respectivas Comunidades Autónomas de acuerdo con sus Estatutos. El artículo 4 regula la bandera, y el artículo 5 fija Madrid como capital del Estado.",
+      "Los artículos 6, 7 y 8 se refieren a los partidos políticos, los sindicatos y las asociaciones empresariales, y a las Fuerzas Armadas. Los partidos políticos expresan el pluralismo político y su creación es libre. Las organizaciones sindicales y empresariales contribuyen a la defensa de los intereses económicos y sociales. Las Fuerzas Armadas tienen como misión garantizar la soberanía e independencia de España, defender su integridad territorial y el ordenamiento constitucional.",
+      "El artículo 9.3 es uno de los preceptos más citados. Garantiza el principio de legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales, la seguridad jurídica, la responsabilidad y la interdicción de la arbitrariedad de los poderes públicos. Son principios generales del Derecho público que el texto constitucional eleva a rango constitucional."
+     ]
+    },
+    {
+     "titulo": "4. Derechos y deberes fundamentales (Título I)",
+     "parrafos": [
+      "El Título I, « De los derechos y deberes fundamentales », es el núcleo de la parte dogmática. Empieza por el artículo 10, que establece que la dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden político y de la paz social.",
+      "El Capítulo I (arts. 11 a 13) regula la nacionalidad, la libertad de circulación y el derecho de asilo. El Capítulo II, « De los derechos y libertades », se divide en dos secciones. La primera, « De los derechos fundamentales y de las libertades públicas » (arts. 14 a 29), es la de mayor protección. La segunda, « De los derechos y deberes de los ciudadanos » (arts. 30 a 38), incluye derechos y deberes de menor protección jurídica.",
+      "El artículo 14 proclama la igualdad ante la ley: los españoles son iguales ante ella, sin que pueda prevalecer discriminación por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social. Es el principio que sirve de base a todos los demás derechos.",
+      "Dentro de la sección primera pueden destacarse: el derecho a la vida y a la integridad física y moral, con prohibición de torturas y penas o tratos inhumanos o degradantes (art. 15); la libertad ideológica, religiosa y de culto, junto con la aconfesionalidad del Estado (art. 16); la libertad y la seguridad, con la regla de que nadie puede ser privado de libertad sin observar lo previsto en el artículo 17 (art. 17); el derecho al honor, a la intimidad, a la propia imagen y la inviolabilidad del domicilio y del secreto de las comunicaciones (art. 18); la libertad de expresión y de producción y creación literaria, artística, científica y técnica (art. 20); el derecho de reunión (art. 21), el de asociación (art. 22) y el de participación en los asuntos públicos (art. 23); la tutela judicial efectiva y el derecho de defensa (art. 24); el principio de legalidad penal (art. 25); el derecho a la educación y la libertad de enseñanza (art. 27); la libertad sindical y el derecho de huelga (art. 28); y el derecho de petición (art. 29).",
+      "La sección segunda reconoce el deber de defender España (art. 30.1), que se completa con la regulación de la objeción de conciencia; el deber de contribuir al sostenimiento de los gastos públicos según la capacidad económica, mediante un sistema tributario justo inspirado en los principios de igualdad y progresividad (art. 31.1); el derecho a contraer matrimonio con plena igualdad jurídica (art. 32); el derecho a la propiedad privada y a la herencia, con su función social (art. 33); el derecho de fundación (art. 34); el derecho al trabajo y el deber de trabajar (art. 35); el derecho a la negociación colectiva y a la adopción de medidas de conflicto colectivo (art. 37); y la libertad de empresa en el marco de la economía de mercado (art. 38).",
+      "Para un examen, es útil memorizar que la sección primera incluye la mayor parte de los derechos con garantía reforzada, y que la sección segunda incluye derechos con menor protección, aunque sigan siendo derechos constitucionales."
+     ]
+    },
+    {
+     "titulo": "5. Principios rectores de la política social y económica (Capítulo III)",
+     "parrafos": [
+      "El Capítulo III (arts. 39 a 52) recoge los principios rectores de la política social y económica. Son mandatos dirigidos a los poderes públicos para orientar su actuación: protección de la familia y de los hijos (art. 39), protección de la salud (art. 43), acceso a la cultura (art. 44), derecho a un medio ambiente adecuado (art. 45), conservación del patrimonio histórico, artístico y cultural (art. 46), derecho a una vivienda digna y adecuada (art. 47), política de juventud (art. 48), atención a las personas con discapacidad (art. 49), atención a la tercera edad (art. 50), protección de los consumidores y usuarios (art. 51), y funciones de las organizaciones profesionales (art. 52).",
+      "La diferencia clave con los derechos de los capítulos anteriores es su régimen jurídico. Según el artículo 53.3, los principios rectores informarán la legislación positiva, la práctica judicial y la actuación de los poderes públicos. Solo podrán ser alegados ante la jurisdicción ordinaria de acuerdo con lo que dispongan las leyes que los desarrollen. No son susceptibles de amparo constitucional.",
+      "Dos ejemplos ilustran el régimen. El derecho a la vivienda del artículo 47 no genera, por sí mismo, un derecho subjetivo exigible directamente a una prestación concreta: necesita de desarrollo legislativo. El derecho a la protección de la salud del artículo 43 se hace efectivo a través de la legislación sanitaria y de las prestaciones que establezca la ley."
+     ]
+    },
+    {
+     "titulo": "6. Garantías de los derechos y suspensión",
+     "parrafos": [
+      "El artículo 53 establece un sistema de tres niveles de garantía. El apartado 1 dispone que los derechos y libertades del Capítulo II vinculan a todos los poderes públicos. Solo por ley, que en todo caso deberá respetar su contenido esencial, podrá regularse el ejercicio de tales derechos, que deberán ser respetados. Esta exigencia de reserva de ley es una garantía frente al poder ejecutivo: el Gobierno no puede regular el ejercicio de estos derechos por decreto ordinario.",
+      "El apartado 2 establece que cualquier ciudadano podrá recabar la tutela de las libertades y derechos reconocidos en el artículo 14 y en la sección primera del Capítulo II ante los tribunales ordinarios, por un procedimiento basado en los principios de preferencia y sumariedad, y también mediante el recurso de amparo ante el Tribunal Constitucional. El recurso de amparo es, por tanto, la garantía reforzada que protege los derechos de los artículos 14 a 29. Quedan excluidos los derechos de la sección segunda y los principios rectores.",
+      "El apartado 3 trata los principios rectores, ya examinados. El artículo 54 completa el sistema: una ley orgánica regulará la institución del Defensor del Pueblo, como alto comisionado de las Cortes Generales, designado por estas para la defensa de los derechos comprendidos en el Título I.",
+      "El artículo 81 exige que el desarrollo de los derechos fundamentales y de las libertades públicas se haga mediante ley orgánica, lo que refuerza la protección frente a modificaciones por leyes ordinarias. El artículo 86 impide que los decretos-leyes afecten a los derechos, deberes y libertades del Título I.",
+      "El artículo 55 regula la suspensión de algunos derechos. Según el apartado 1, pueden suspenderse los derechos de los artículos 17, 18 (apartados 2 y 3), 19, 20 (apartados 1 a y d, y 5), 21, 28 (apartado 2) y 37 (apartado 2), cuando se acuerde la declaración del estado de excepción o de sitio en los términos previstos en la Constitución. Se exceptúa el apartado 3 del artículo 17 en el supuesto de estado de excepción. La suspensión no puede aplicarse durante el estado de alarma.",
+      "Hay que retener una distinción esencial. La suspensión del artículo 55 es distinta de la limitación ordinaria de los derechos mediante ley. La suspensión afecta solo a los derechos enumerados, solo en excepción o sitio, y debe ajustarse a la ley orgánica que desarrolla el artículo 116."
+     ]
+    },
+    {
+     "titulo": "7. Los estados de alarma, excepción y sitio (art. 116)",
+     "parrafos": [
+      "El artículo 116 CE regula las situaciones de crisis constitucional. Su apartado 1 ordena que una ley orgánica regule los estados de alarma, de excepción y de sitio, y las competencias y limitaciones correspondientes. Esa ley es la Ley Orgánica 4/1981, de 1 de junio, de los estados de alarma, excepción y sitio, publicada en el BOE núm. 134, de 5 de junio de 1981.",
+      "El estado de alarma (art. 116.2) lo declara el Gobierno mediante decreto acordado en Consejo de Ministros, por un plazo máximo de quince días. Debe dar cuenta al Congreso de los Diputados, reunido inmediatamente al efecto. Sin autorización del Congreso no puede prorrogarse. El decreto determina el ámbito territorial de la declaración. En la LO 4/1981 se regula en el Capítulo II, que comienza en el artículo 4.",
+      "El estado de excepción (art. 116.3) lo declara el Gobierno mediante decreto acordado en Consejo de Ministros, previa autorización del Congreso de los Diputados. La autorización y la proclamación deben determinar expresamente sus efectos, el ámbito territorial y la duración, que no puede exceder de treinta días, prorrogables por otro plazo igual con los mismos requisitos. En la LO 4/1981 se regula en el Capítulo III, a partir del artículo 13.",
+      "El estado de sitio (art. 116.4) lo declara la mayoría absoluta del Congreso de los Diputados, a propuesta exclusiva del Gobierno. El Congreso determina su ámbito territorial, duración y condiciones. Es el estado más grave, y se regula en el Capítulo IV de la LO 4/1981, a partir del artículo 32.",
+      "El artículo 116.5 prohíbe disolver el Congreso mientras estén declarados algunos de estos estados, y ordena que las Cámaras queden automáticamente convocadas si no lo estuvieran. Esta regla asegura la continuidad del control parlamentario durante la crisis.",
+      "Comparación para memorizar: alarma lo declara el Gobierno y solo se da cuenta al Congreso; excepción lo declara el Gobierno con autorización del Congreso; sitio lo declara el Congreso por mayoría absoluta a propuesta del Gobierno. Solo en excepción y sitio puede suspenderse el art. 55.1."
+     ]
+    },
+    {
+     "titulo": "8. La reforma constitucional (Título X, arts. 166 a 169)",
+     "parrafos": [
+      "El artículo 166 regula la iniciativa de reforma, que se ejerce en los términos previstos en los apartados 1 y 2 del artículo 87 (Gobierno, Congreso, Senado y, en su caso, iniciativa legislativa popular). El Título X distingue tres procedimientos.",
+      "La reforma ordinaria (art. 167) exige que los proyectos sean aprobados por tres quintos de cada Cámara. Si no hay acuerdo entre ambas, se crea una Comisión de composición paritaria de Diputados y Senadores que presenta un texto que votarán el Congreso y el Senado. Si tampoco se logra la aprobación, y el texto ha obtenido el voto favorable de la mayoría absoluta del Senado, el Congreso puede aprobar la reforma por dos tercios. Aprobada la reforma, es sometida a referéndum cuando lo soliciten, dentro de los quince días siguientes, una décima parte de los miembros de cualquiera de las Cámaras.",
+      "La reforma agravada (art. 168) se aplica cuando se propone la revisión total de la Constitución o una parcial que afecte al Título Preliminar, al Capítulo segundo, Sección primera del Título I, o al Título II (la Corona). Sus pasos son: aprobación del principio por dos tercios de cada Cámara y disolución inmediata de las Cortes; ratificación de la decisión por las Cámaras elegidas, que estudian el nuevo texto y lo aprueban por dos tercios de ambas; y sometimiento obligatorio a referéndum para su ratificación. La diferencia con el art. 167 es clara: en la agravada, el referéndum es obligatorio y la disolución de las Cortes es automática.",
+      "El artículo 169 prohíbe iniciar la reforma constitucional en tiempo de guerra o durante la vigencia de alguno de los estados del artículo 116. Es una garantía de que la reforma se hace en condiciones de normalidad institucional."
+     ]
+    },
+    {
+     "titulo": "9. Garantías institucionales: Tribunal Constitucional y Defensor del Pueblo",
+     "parrafos": [
+      "El Título IX regula el Tribunal Constitucional (arts. 159 a 165). Es el intérprete supremo de la Constitución y el órgano que garantiza su supremacía frente a las leyes y frente a los actos de los poderes públicos. Se compone de doce miembros nombrados por el Rey: cuatro a propuesta del Congreso de los Diputados, cuatro a propuesta del Senado (ambos por mayoría de tres quintos de sus miembros), dos a propuesta del Gobierno y dos a propuesta del Consejo General del Poder Judicial (art. 159.1).",
+      "Para ser miembro se exige ser jurista de reconocida competencia con más de quince años de ejercicio profesional, y pueden serlo magistrados y fiscales, profesores de universidad, funcionarios públicos y abogados (art. 159.2). El mandato dura nueve años y los miembros se renuevan por terceras partes cada tres años (art. 159.3). El Presidente es nombrado por el Rey entre sus miembros, a propuesta del propio Tribunal en pleno, por un periodo de tres años (art. 160).",
+      "Las competencias del Tribunal figuran en el artículo 161.1: a) el recurso de inconstitucionalidad contra leyes y disposiciones normativas con fuerza de ley; b) el recurso de amparo por violación de los derechos y libertades del artículo 53.2, en los casos y formas que establezca la ley; c) los conflictos de competencia entre el Estado y las Comunidades Autónomas o entre estas; y d) las demás materias que le atribuyan la Constitución o las leyes orgánicas.",
+      "El Defensor del Pueblo (art. 54) es un alto comisionado de las Cortes Generales, designado por estas para la defensa de los derechos del Título I. Puede supervisar la actividad de la Administración y da cuenta de ello a las Cortes Generales. Su regulación corresponde a una ley orgánica. Es una garantía no jurisdiccional: no dicta sentencias ni anula actos, sino que supervisa, recomienda y da cuenta a las Cortes.",
+      "La diferencia entre ambas garantías es esencial en un examen. El amparo ante el Tribunal Constitucional es una vía jurisdiccional, con resolución vinculante, y se limita a los derechos del artículo 53.2. El Defensor del Pueblo tiene un papel de supervisión parlamentaria, y su alcance se extiende a los derechos del Título I en su conjunto."
+     ]
+    },
+    {
+     "titulo": "10. Límites, contenido esencial y control de las normas",
+     "parrafos": [
+      "Ningún derecho es absoluto. La Constitución fija tres límites al poder de restringirlos. El primero es la reserva de ley del artículo 53.1: solo una ley puede regular el ejercicio de los derechos del Capítulo II. El segundo es el contenido esencial: esa ley, en todo caso, debe respetarlo, de modo que una restricción no puede vaciar el derecho de sustancia. El tercero es la interdicción de la arbitrariedad de los poderes públicos (art. 9.3), que obliga a que cualquier limitación esté justificada.",
+      "Algunos desarrollos de los derechos exigen ley orgánica (art. 81.1), lo que implica mayoría absoluta del Congreso en la votación de conjunto. El artículo 86 impide que los decretos-leyes afecten a los derechos, deberes y libertades del Título I, de modo que la restricción de derechos no puede hacerse por esta vía.",
+      "Para el control de las normas, el artículo 9.3 garantiza la jerarquía normativa y la publicidad de las normas. Si una ley contraría la Constitución, el Tribunal Constitucional puede declararla inconstitucional mediante el recurso del artículo 161.1.a). Esta jerarquía es la que permite comprender por qué los derechos del Título I vinculan a todos los poderes públicos, incluido el legislador.",
+      "En la práctica, el estado de alarma muestra la diferencia entre limitar y suspender. Durante el estado de alarma el Gobierno puede adoptar medidas que restrinjan la circulación o la actividad, con control posterior del Congreso, pero no suspende derechos del artículo 55.1. La suspensión de esos derechos solo es posible en los estados de excepción y de sitio."
+     ]
+    },
+    {
+     "titulo": "11. Claves para el examen",
+     "parrafos": [
+      "Fechas: referéndum 6/12/1978; publicación en BOE 29/12/1978, con entrada en vigor ese mismo día.",
+      "Principios: art. 1.1 (libertad, justicia, igualdad y pluralismo político); art. 1.2 (soberanía en el pueblo español); art. 1.3 (Monarquía parlamentaria); art. 9.3 (seguridad jurídica, legalidad, jerarquía normativa, interdicción de la arbitrariedad).",
+      "Derechos: art. 14 (igualdad); sección 1.ª (arts. 15 a 29) con amparo; sección 2.ª (arts. 30 a 38) sin amparo; principios rectores (arts. 39 a 52) sin amparo ni alegación directa.",
+      "Garantías: art. 53.1 (reserva de ley y contenido esencial); art. 53.2 (tutela judicial y amparo para art. 14 y sección 1.ª); art. 53.3 (principios rectores); art. 54 (Defensor del Pueblo); art. 55.1 (suspensión solo en excepción o sitio).",
+      "Estados: art. 116 y LO 4/1981. Alarma: Gobierno, máximo 15 días, da cuenta al Congreso. Excepción: Gobierno con autorización del Congreso, máximo 30 días prorrogables. Sitio: Congreso por mayoría absoluta a propuesta del Gobierno.",
+      "Reforma: art. 167 (tres quintos de cada Cámara; referéndum facultativo a petición de una décima parte de los miembros de una Cámara); art. 168 (dos tercios, disolución de las Cortes, ratificación y referéndum obligatorio); art. 169 (no reformar en guerra ni en estados del art. 116)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
+    },
+    {
+     "nombre": "Ley Orgánica 4/1981, de estados de alarma, excepción y sitio (texto consolidado, BOE)",
+     "url": "https://www.boe.es/eli/es/lo/1981/06/01/4",
+     "pdf": "leyes/BOE-A-1981-12774.pdf"
     }
    ]
   },

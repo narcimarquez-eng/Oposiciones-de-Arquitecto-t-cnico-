@@ -122,6 +122,51 @@ for (const f of ficheros) {
   }
 
   contenido[t.id] = { resumen: t.resumen, leyes: t.leyes, test: t.test };
+
+  // desarrollo extenso (opcional): datos/desarrollo/<id>.json
+  const fDes = path.join(DIR, 'desarrollo', `${t.id}.json`);
+  if (fs.existsSync(fDes)) {
+    let d;
+    try {
+      d = leerJSON(fDes);
+    } catch (e) {
+      err(`desarrollo/${t.id}.json: JSON no válido (${e.message})`);
+      continue;
+    }
+    const pd = `[desarrollo ${t.id}]`;
+    if (d.id !== t.id) err(`${pd} el id no coincide`);
+    if (!Array.isArray(d.secciones) || d.secciones.length < 4) {
+      err(`${pd} se esperan al menos 4 secciones`);
+    } else {
+      let palabras = 0;
+      d.secciones.forEach((s, i) => {
+        if (!esTextoNoVacio(s.titulo)) err(`${pd} sección ${i} sin título`);
+        if (!Array.isArray(s.parrafos) || s.parrafos.length === 0 || !s.parrafos.every(esTextoNoVacio)) {
+          err(`${pd} sección ${i} sin párrafos válidos`);
+        } else {
+          palabras += s.parrafos.join(' ').split(/\s+/).length;
+        }
+      });
+      const paginas = Math.round(palabras / 350);
+      console.log(`  ${t.id}: desarrollo de ${palabras} palabras (≈ ${paginas} páginas a 350 palabras/página)`);
+      if (paginas < 10) aviso(`${pd} tiene ≈ ${paginas} páginas; el objetivo es 10`);
+    }
+    for (const f of d.fuentes || []) {
+      if (f.pdf && !fs.existsSync(path.join(DIR, '..', f.pdf))) {
+        err(`${pd} la fuente apunta a un PDF que no existe: ${f.pdf}`);
+      }
+    }
+    contenido[t.id].desarrollo = d.secciones;
+    contenido[t.id].extension = d.extension || '';
+    contenido[t.id].fuentes = d.fuentes || [];
+  }
+}
+
+// PDFs de las leyes citadas
+for (const l of leyesCat) {
+  if (l.pdf && !fs.existsSync(path.join(DIR, '..', l.pdf))) {
+    err(`ley ${l.id}: el PDF ${l.pdf} no existe en el repositorio`);
+  }
 }
 
 // 4. Cobertura: informativa

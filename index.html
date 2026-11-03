@@ -121,6 +121,12 @@
   .card li { margin: 4px 0; }
   .ley { display: grid; gap: 4px; }
   .ley a { color: var(--accent); font-size: .9rem; }
+  .enlaces { display: flex; gap: 14px; flex-wrap: wrap; }
+  details.card > summary { cursor: pointer; list-style: none; }
+  details.card > summary::-webkit-details-marker { display: none; }
+  details.card > summary::before { content: "▸ "; color: var(--accent); }
+  details.card[open] > summary::before { content: "▾ "; }
+  details.card p { margin: 10px 0 0; }
   .btn {
     display: inline-block; border: none; background: var(--accent); color: var(--accent-text);
     font: inherit; font-weight: 600; padding: 12px 18px; border-radius: 10px; cursor: pointer;
@@ -284,6 +290,17 @@
         '</ul></div>';
     }).join('') + '</section>';
 
+    var desarrolloHtml = '';
+    if (c.desarrollo && c.desarrollo.length) {
+      desarrolloHtml = '<section class="seccion"><h3>Desarrollo extenso</h3>' +
+        (c.extension ? '<p class="sub">' + esc(c.extension) + '</p>' : '') +
+        c.desarrollo.map(function (s, i) {
+          return '<details class="card"' + (i === 0 ? ' open' : '') + '><summary><strong>' + esc(s.titulo) + '</strong></summary>' +
+            s.parrafos.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') +
+            '</details>';
+        }).join('') + '</section>';
+    }
+
     var leyesHtml = '<section class="seccion"><h3>Leyes aplicables</h3>' + c.leyes.map(function (l) {
       var ley = D.leyes[l.id];
       if (!ley) return '<div class="card"><span class="pill bad">Ley no catalogada: ' + esc(l.id) + '</span></div>';
@@ -291,9 +308,22 @@
         '<strong>' + esc(ley.nombre) + '</strong>' +
         '<span>' + esc(ley.referencia) + '</span>' +
         '<span class="tema-meta">' + badgeVerificacion(ley) + '<span>' + esc(l.rol) + '</span></span>' +
-        (ley.url ? '<a href="' + esc(ley.url) + '" target="_blank" rel="noopener">Ver texto en BOE ↗</a>' : '') +
-        '</div>';
+        '<span class="enlaces">' +
+        (ley.url ? '<a href="' + esc(ley.url) + '" target="_blank" rel="noopener">Texto en BOE ↗</a>' : '') +
+        (ley.pdf ? '<a href="' + esc(ley.pdf) + '" download>Descargar PDF</a>' : '') +
+        '</span></div>';
     }).join('') + '</section>';
+
+    var fuentesHtml = '';
+    if (c.fuentes && c.fuentes.length) {
+      fuentesHtml = '<section class="seccion"><h3>Fuentes del desarrollo</h3>' + c.fuentes.map(function (f) {
+        return '<div class="card ley"><strong>' + esc(f.nombre) + '</strong>' +
+          '<span class="enlaces">' +
+          (f.url ? '<a href="' + esc(f.url) + '" target="_blank" rel="noopener">Texto en BOE ↗</a>' : '') +
+          (f.pdf ? '<a href="' + esc(f.pdf) + '" download>Descargar PDF</a>' : '') +
+          '</span></div>';
+      }).join('') + '</section>';
+    }
 
     var resultado = p.ultimo != null
       ? '<p class="sub">Último test: ' + p.ultimo + '/10 · intentos: ' + (p.intentos || 0) + '</p>'
@@ -301,7 +331,7 @@
 
     var accion = '<div class="acciones"><button class="btn" type="button" data-test="' + esc(id) + '">Hacer test (10 preguntas)</button></div>' + resultado;
 
-    return cabecera + resumen + leyesHtml + accion;
+    return cabecera + resumen + desarrolloHtml + leyesHtml + fuentesHtml + accion;
   }
 
   function vistaTest() {
