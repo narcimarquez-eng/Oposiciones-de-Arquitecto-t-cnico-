@@ -6737,6 +6737,784 @@ window.DATOS_ESTUDIO = {
      "pdf": "leyes/BOE-A-2017-12902.pdf"
     }
    ]
+  },
+  "e27": {
+   "resumen": [
+    {
+     "titulo": "Objeto",
+     "puntos": [
+      "El objeto debe ser determinado; puede definirse por necesidades o funcionalidades, sin cerrarlo a una solución única (art. 99.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Presupuesto base de licitación",
+     "puntos": [
+      "Límite máximo de gasto que puede comprometer el órgano de contratación, con IVA salvo disposición en contrario (art. 100.1).",
+      "Debe ser adecuado a los precios de mercado (art. 100.2). Supervisión obligatoria desde 500.000 euros, IVA excluido (art. 235)."
+     ]
+    },
+    {
+     "titulo": "Valor estimado",
+     "puntos": [
+      "Sin IVA. En obras, suministros y servicios, el importe total pagadero según estimaciones (art. 101.1.a).",
+      "En concesiones, la cifra de negocios que generará el concesionario sin IVA (art. 101.2)."
+     ]
+    },
+    {
+     "titulo": "Precio y revisión",
+     "puntos": [
+      "Precio cierto, abonado según lo realmente ejecutado y lo pactado; IVA como partida independiente (art. 102.1).",
+      "En euros con carácter general (art. 102.2). Revisión solo periódica y predeterminada (art. 103.1); en demora, índices de la fecha prevista (art. 104.1)."
+     ]
+    },
+    {
+     "titulo": "Estructura del presupuesto",
+     "puntos": [
+      "Precios unitarios y descompuestos, mediciones y valoración (art. 233.1.d). Costes directos e indirectos, presupuesto de ejecución material, gastos generales y beneficio industrial, y presupuesto base con IVA (temario; detalle de desarrollo pendiente de verificar)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LCSP",
+     "rol": "Norma principal del tema (arts. 99 a 104, 118, 233 y 235)"
+    },
+    {
+     "id": "LOE",
+     "rol": "Complementaria: proyecto y dirección de obra (art. 4 LOE)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "¿Cómo debe ser el objeto de un contrato del sector público?",
+     "opciones": [
+      "Indeterminado",
+      "Abierto a cualquier solución",
+      "Fijado después de adjudicar",
+      "Determinado"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 99.1 LCSP establece que el objeto de los contratos del sector público debe ser determinado.",
+     "referencia": "Art. 99.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué es el presupuesto base de licitación?",
+     "opciones": [
+      "El precio final pagado",
+      "El coste de los materiales",
+      "La oferta del licitador",
+      "El límite máximo de gasto que puede comprometer el órgano de contratación, incluido el IVA salvo disposición en contrario"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 100.1 LCSP define el presupuesto base como el límite máximo de gasto que puede comprometer el órgano de contratación, incluido el IVA salvo disposición en contrario.",
+     "referencia": "Art. 100.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué excluye el valor estimado de un contrato de obras?",
+     "opciones": [
+      "Nada",
+      "Los gastos generales",
+      "El IVA",
+      "El beneficio industrial"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 101.1.a) LCSP toma el importe total sin incluir el IVA.",
+     "referencia": "Art. 101.1.a) LCSP"
+    },
+    {
+     "pregunta": "¿Cómo debe ser el precio de los contratos del sector público?",
+     "opciones": [
+      "Variable libremente",
+      "Negociable tras la ejecución",
+      "Sin IVA",
+      "Cierto"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 102.1 LCSP establece que los contratos del sector público tienen siempre un precio cierto.",
+     "referencia": "Art. 102.1 LCSP"
+    },
+    {
+     "pregunta": "¿Cómo pueden revisarse los precios de los contratos?",
+     "opciones": [
+      "Libremente",
+      "Solo por revisión periódica y predeterminada",
+      "A petición del contratista en cualquier momento",
+      "Nunca"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 103.1 LCSP admite la revisión solo periódica y predeterminada, en los términos del capítulo correspondiente.",
+     "referencia": "Art. 103.1 LCSP"
+    },
+    {
+     "pregunta": "¿En qué moneda se expresa el precio con carácter general?",
+     "opciones": [
+      "En dólares",
+      "En la moneda del contratista",
+      "En libras",
+      "En euros"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 102.2 LCSP establece que, con carácter general, el precio debe expresarse en euros.",
+     "referencia": "Art. 102.2 LCSP"
+    },
+    {
+     "pregunta": "¿Desde qué presupuesto base de licitación es obligatoria la supervisión del proyecto de obras?",
+     "opciones": [
+      "100.000 €",
+      "Siempre",
+      "500.000 €, IVA excluido",
+      "1.000.000 €"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 235 LCSP exige la supervisión cuando el presupuesto base de licitación es igual o superior a 500.000 euros, IVA excluido.",
+     "referencia": "Art. 235 LCSP"
+    },
+    {
+     "pregunta": "En un contrato de concesión, ¿qué cifra sirve de valor estimado?",
+     "opciones": [
+      "El presupuesto de obra",
+      "El precio de licitación",
+      "La cifra de negocios sin IVA que generará el concesionario",
+      "El coste de los materiales"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 101.2 LCSP toma en las concesiones el importe neto de la cifra de negocios, sin IVA, que generará el concesionario.",
+     "referencia": "Art. 101.2 LCSP"
+    },
+    {
+     "pregunta": "¿Cuál es el límite de los contratos menores de suministro?",
+     "opciones": [
+      "15.000 €",
+      "40.000 €",
+      "100.000 €",
+      "500.000 €"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 118.1 LCSP fija en 15.000 euros el límite de los contratos menores de suministro y servicios, y en 40.000 euros el de obras.",
+     "referencia": "Art. 118.1 LCSP"
+    },
+    {
+     "pregunta": "Si el contratista incurre en mora, ¿qué índice de precios se aplica en la revisión?",
+     "opciones": [
+      "El índice de la fecha de la revisión",
+      "El más alto",
+      "El de la fecha prevista en el contrato",
+      "Ninguno"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 104.1 LCSP establece que los índices son los que correspondían a las fechas establecidas en el contrato, sin perjuicio de las penalidades.",
+     "referencia": "Art. 104.1 LCSP"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Introducción: cuatro cifras que no son lo mismo",
+     "parrafos": [
+      "En un contrato de obras aparecen varias cifras económicas. El presupuesto del proyecto, el presupuesto base de licitación, el valor estimado y el precio del contrato tienen funciones distintas, y confundirlas es uno de los errores más frecuentes en el examen. La LCSP las define en preceptos separados: el objeto en el artículo 99, el presupuesto base en el 100, el valor estimado en el 101 y el precio en el 102.",
+      "Cada cifra responde a una pregunta distinta. El objeto responde a qué se contrata. El presupuesto base responde cuánto puede gastar la Administración como máximo. El valor estimado responde qué importe sirve para determinar el régimen jurídico del contrato. El precio responde cuánto se paga finalmente al contratista.",
+      "Para un examen, conviene recordar que las cuatro cifras se relacionan, pero no coinciden. El presupuesto base incluye el IVA salvo disposición en contrario, el valor estimado lo excluye, y el precio es el que resulta de la adjudicación y de lo efectivamente ejecutado."
+     ]
+    },
+    {
+     "titulo": "2. El objeto del contrato (art. 99 LCSP)",
+     "parrafos": [
+      "El artículo 99.1 LCSP establece que el objeto de los contratos del sector público debe ser determinado. Es una exigencia básica: sin un objeto determinado no puede saberse qué se licita, ni qué debe ejecutar el contratista, ni qué precio es razonable.",
+      "El mismo precepto admite que el objeto se defina en atención a las necesidades o funcionalidades concretas que se pretenden satisfacer, sin cerrarlo a una solución única. Es una vía de flexibilidad: la Administración describe lo que necesita y deja abierta la forma de conseguirlo, siempre dentro de la legalidad.",
+      "En los contratos de obras, el objeto se concreta en el proyecto, que define la obra con precisión (art. 231.1 LCSP). Por eso el objeto de la obra no es una fórmula general, sino lo que describen la memoria, los planos y el pliego de prescripciones técnicas particulares (art. 233.1 LCSP).",
+      "Para un examen, la pregunta típica es qué debe contener el objeto. La respuesta es que debe ser determinado, puede definirse por funcionalidades, y en obras se concreta en el proyecto."
+     ]
+    },
+    {
+     "titulo": "3. El presupuesto base de licitación (art. 100 LCSP)",
+     "parrafos": [
+      "El artículo 100.1 LCSP define el presupuesto base de licitación como el límite máximo de gasto que, en virtud del contrato, puede comprometer el órgano de contratación. Ese límite incluye el Impuesto sobre el Valor Añadido, salvo disposición en contrario.",
+      "El artículo 100.2 LCSP exige que, al elaborarlo, los órganos de contratación cuiden de que el presupuesto base sea adecuado a los precios de mercado. Un presupuesto irreal, por alto o por bajo, genera problemas: si es muy alto, el gasto está mal calculado; si es muy bajo, pueden quedar desiertas las licitaciones o aparecer ofertas anormalmente bajas.",
+      "El presupuesto base es un límite de gasto, no un precio. El contratista no tiene derecho a cobrar esa cantidad, sino el precio que resulte de la adjudicación y de lo ejecutado. Esta diferencia es la que el examen suele preguntar.",
+      "Para la Administración, el presupuesto base es también la cifra que activa algunos controles. Por ejemplo, la supervisión del proyecto es obligatoria cuando el presupuesto base de licitación de las obras es igual o superior a 500.000 euros, IVA excluido (art. 235 LCSP). En este caso, la ley excluye el IVA a efectos de supervisión, lo que muestra que el presupuesto base y el valor estimado se usan según la finalidad."
+     ]
+    },
+    {
+     "titulo": "4. Estructura del presupuesto de la obra",
+     "parrafos": [
+      "El presupuesto de un proyecto de obras debe expresar los precios unitarios y los descompuestos, el estado de mediciones y los detalles precisos para su valoración (art. 233.1.d LCSP). El presupuesto se ordena por obras elementales, en los términos que establezca el reglamento.",
+      "El temario recoge la distinción entre costes directos e indirectos. Los costes directos son los que se pueden imputar a cada unidad de obra, como los materiales, la mano de obra y la maquinaria. Los costes indirectos son los que no se imputan a una unidad concreta, como los de organización de la obra. La suma de ambos permite obtener el presupuesto de ejecución material.",
+      "Sobre el presupuesto de ejecución material se añaden los gastos generales y el beneficio industrial, y de ese resultado surge el presupuesto base de licitación, al que se suma el IVA. El detalle de estos porcentajes y de su cálculo corresponde a la normativa de desarrollo de la LCSP, que no está en el repositorio, por lo que debe comprobarse antes de citarse en un examen.",
+      "Para un examen, la secuencia es: precios unitarios y descompuestos, costes directos e indirectos, presupuesto de ejecución material, gastos generales y beneficio industrial, y presupuesto base de licitación con IVA."
+     ]
+    },
+    {
+     "titulo": "5. El valor estimado del contrato (art. 101 LCSP)",
+     "parrafos": [
+      "El artículo 101.1 LCSP establece que el valor estimado de los contratos se determina a todos los efectos previstos en la ley. En los contratos de obras, suministros y servicios, el órgano de contratación toma el importe total, sin incluir el IVA, pagadero según sus estimaciones (letra a).",
+      "En los contratos de concesión de obras y de concesión de servicios, la regla es distinta: se toma el importe neto de la cifra de negocios, sin IVA, que según las estimaciones generará la empresa concesionaria durante la ejecución como contraprestación por las obras y los servicios (art. 101.2 LCSP).",
+      "La diferencia con el presupuesto base es que el valor estimado excluye el IVA y se calcula con las estimaciones del órgano de contratación. Su función principal es determinar el régimen aplicable, en particular los umbrales de publicidad y de procedimiento, y las reglas de los contratos menores (art. 118.1 LCSP).",
+      "Para un examen, la pregunta típica es qué cifra se usa para determinar el régimen de un contrato. Respuesta: el valor estimado, sin IVA, y no el presupuesto base con IVA."
+     ]
+    },
+    {
+     "titulo": "6. El precio del contrato (art. 102 LCSP)",
+     "parrafos": [
+      "El artículo 102.1 LCSP establece que los contratos del sector público tienen siempre un precio cierto, que se abona al contratista en función de la prestación realmente ejecutada y de acuerdo con lo pactado. El precio cierto es una garantía de seguridad jurídica: la cantidad que se pagará debe estar determinada.",
+      "El mismo precepto establece que en el precio se entiende incluido el importe del IVA, que en todo caso se indicará como partida independiente. Es una exigencia de transparencia, porque permite ver qué parte del precio es impuesto.",
+      "El precio cierto no impide que el contrato tenga variaciones. Estas se regulan mediante la modificación del contrato y la revisión de precios, que son temas distintos del programa (tema e32 y tema e31). Lo que la ley exige es que, en el momento de la adjudicación, el precio sea determinado.",
+      "Para un examen, la síntesis es que el precio es cierto, se abona según lo ejecutado y lo pactado, y debe indicar el IVA como partida separada."
+     ]
+    },
+    {
+     "titulo": "7. La revisión de precios: límite a la variación del precio (art. 103 LCSP)",
+     "parrafos": [
+      "El artículo 103.1 LCSP establece que los precios de los contratos del sector público solo pueden ser objeto de revisión periódica y predeterminada en los términos del capítulo correspondiente. Es decir, no se puede revisar un precio de forma libre: la revisión debe estar prevista y seguir un método determinado.",
+      "La revisión de precios permite compensar la variación de los costes de ejecución. La ley la admite con límites, y el tema e31 la desarrolla con sus requisitos. Para este tema, lo relevante es que la revisión es una excepción al precio cierto, no una regla general.",
+      "Para un examen, la pregunta típica es si el precio puede variar. La respuesta es que sí, solo por revisión periódica y predeterminada, o por modificación del contrato en los casos legales, pero nunca de forma libre."
+     ]
+    },
+    {
+     "titulo": "8. Relación entre las cifras: un ejemplo",
+     "parrafos": [
+      "Supongamos una obra con un presupuesto de ejecución material de 400.000 euros. Se añaden gastos generales y beneficio industrial, y después el IVA. El presupuesto base de licitación incluye ese IVA y es el límite máximo de gasto (art. 100.1 LCSP).",
+      "El valor estimado de esa misma obra se calcula sin IVA, con el importe total pagadero según las estimaciones del órgano de contratación (art. 101.1.a LCSP). Si la obra fuera de un importe muy reducido, por ejemplo de 30.000 euros de valor estimado, su régimen sería el de contrato menor, con las condiciones del artículo 118.1 LCSP. Con 400.000 euros, en cambio, el régimen es el ordinario, y el proyecto debe pasar la supervisión.",
+      "Adjudicada la obra, el precio es el que resulta de la oferta seleccionada, y se paga según lo ejecutado (art. 102.1 LCSP). Si la oferta es menor que el presupuesto base, el precio es inferior y el gasto efectivo también. Por eso el presupuesto base no es el precio que se paga.",
+      "Para un examen, el ejemplo muestra que cada cifra tiene una función distinta y que el orden de cálculo importa."
+     ]
+    },
+    {
+     "titulo": "9. Umbrales y cifras de control",
+     "parrafos": [
+      "El valor estimado sirve para determinar los umbrales de procedimiento. Los contratos menores de obras son los de valor estimado inferior a 40.000 euros (art. 118.1 LCSP).",
+      "El presupuesto base de licitación sirve para otros controles. La supervisión del proyecto es obligatoria desde 500.000 euros, IVA excluido (art. 235 LCSP), y la simplificación de los documentos del proyecto se aplica por debajo de esa cifra (art. 233.2 LCSP).",
+      "Para un examen, conviene distinguir qué cifra corresponde a cada umbral. El error más frecuente es aplicar el presupuesto con IVA a un umbral que se mide sin IVA, o al revés. Por eso la pregunta exige identificar primero el umbral y después la cifra."
+     ]
+    },
+    {
+     "titulo": "10. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema e25 sobre anteproyectos, proyectos y expedientes, porque el presupuesto y los precios unitarios son contenido del proyecto (art. 233.1.d LCSP), y los umbrales de supervisión se fijan con el presupuesto base.",
+      "Se conecta con el tema e26 sobre pliegos, porque el PCAP recoge el precio y la forma de pago, y el PPTP describe las unidades de obra que se miden. Con el tema e30 sobre el abono de la obra, porque las certificaciones se calculan con las mediciones del presupuesto. Y con el tema e31 sobre revisión de precios y el e32 sobre modificación del contrato, que alteran el precio inicial.",
+      "Para un examen, el tema es el punto de partida de la economía del contrato: sin las cifras correctas, no se puede aplicar el procedimiento ni controlar la ejecución."
+     ]
+    },
+    {
+     "titulo": "11. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir el presupuesto base de licitación con el precio del contrato. El presupuesto es un límite de gasto; el precio es lo que se paga por lo ejecutado (arts. 100.1 y 102.1 LCSP).",
+      "Usar el presupuesto base con IVA para determinar el régimen de un contrato. El valor estimado excluye el IVA (art. 101.1.a LCSP).",
+      "Afirmar que el precio puede cambiar libremente. El precio es cierto (art. 102.1); solo varía por revisión periódica y predeterminada (art. 103.1) o por modificación del contrato.",
+      "Olvidar que los costes directos se imputan a unidades de obra y los indirectos no."
+     ]
+    },
+    {
+     "titulo": "12. Método para resolver casos",
+     "parrafos": [
+      "Para resolver un caso sobre cifras de un contrato, conviene seguir tres pasos. Primero, identificar qué cifra pregunta el caso: límite de gasto, valor a efectos de régimen, precio o presupuesto de la obra. Segundo, comprobar si la cifra incluye o excluye el IVA. Tercero, aplicar el artículo que regula esa cifra (arts. 100 a 103 LCSP)."
+     ]
+    },
+    {
+     "titulo": "13. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué es el presupuesto base de licitación? El límite máximo de gasto que puede comprometer el órgano de contratación, incluido el IVA salvo disposición en contrario (art. 100.1 LCSP).",
+      "¿Qué excluye el valor estimado? El IVA (art. 101.1.a LCSP). En concesiones se toma la cifra de negocios sin IVA (art. 101.2).",
+      "¿Cuál es la característica del precio? Es cierto; se abona según la prestación realmente ejecutada y lo pactado, e indica el IVA como partida independiente (art. 102.1 LCSP).",
+      "¿Puede revisarse el precio? Solo por revisión periódica y predeterminada (art. 103.1 LCSP).",
+      "¿Qué debe ser el objeto del contrato? Determinado; puede definirse por necesidades o funcionalidades sin cerrarlo a una solución única (art. 99.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "15. La moneda y la forma de pago del precio (art. 102.2 LCSP)",
+     "parrafos": [
+      "El artículo 102.2 LCSP establece que, con carácter general, el precio debe expresarse en euros. El pago puede hacerse mediante otras contraprestaciones en los casos en que esta u otras leyes lo prevean. Es una regla de claridad: el contratista sabe en qué moneda se le paga.",
+      "El mismo precepto admite que el precio, en todo o en parte, se satisfaga en una moneda distinta del euro. En ese supuesto, debe expresarse en la divisa correspondiente el importe que se pague en ella, y debe incluirse una estimación en euros del importe total del contrato. La estimación en euros es lo que permite comparar las ofertas y calcular los umbrales.",
+      "El artículo 102.3 LCSP exige que los órganos de contratación cuiden de que el precio sea adecuado para el efectivo cumplimiento del contrato, mediante una correcta estimación de su importe. Un precio mal estimado puede dejar el contrato sin cumplir, por eso la ley lo exige desde el inicio.",
+      "Para un examen, la pregunta es en qué se expresa el precio. Respuesta: en euros, salvo que el contrato prevea otra moneda, con estimación en euros del total."
+     ]
+    },
+    {
+     "titulo": "16. Presupuesto, crédito y autorización del gasto",
+     "parrafos": [
+      "El presupuesto base de licitación no puede utilizarse sin cobertura presupuestaria. El artículo 116.1 LCSP exige, para celebrar contratos, la previa tramitación del expediente, y el artículo 117.1 atribuye al órgano de contratación la resolución que aprueba el expediente y el gasto. La autorización del gasto es, por tanto, un paso previo a la licitación.",
+      "El artículo 122.1 LCSP exige que los pliegos se aprueben antes de la autorización del gasto o conjuntamente con ella. Esto significa que el gasto se autoriza sobre un presupuesto base ya definido en los pliegos, lo que vincula las cifras del expediente con las reglas de la licitación.",
+      "Para un examen, la secuencia es: el presupuesto base se fija, se aprueba el gasto o se autoriza con los pliegos, y después se licita. Invertir el orden sin justificación vicia el procedimiento."
+     ]
+    },
+    {
+     "titulo": "17. Prohibición de fraccionar el contrato y cálculo del valor",
+     "parrafos": [
+      "El artículo 118.2 LCSP exige, en los contratos menores, un informe del órgano de contratación que justifique de manera motivada la necesidad del contrato y que no se está alterando su objeto para evitar la aplicación de los umbrales. Es la garantía frente al fraccionamiento del contrato con la intención de eludir la licitación.",
+      "El fraccionamiento consiste en dividir una prestación en contratos menores para no alcanzar el umbral del procedimiento ordinario. La LCSP lo prohíbe por el efecto que tiene en la competencia y en la igualdad entre licitadores; la regla general sobre fraccionamiento está en su artículo 99, que debe comprobarse en el texto, mientras que el artículo 118.2 aplica la idea a los contratos menores.",
+      "Para un examen, la regla es que el valor estimado debe calcularse sobre el total de la prestación, y no sobre partes artificialmente separadas. La cifra correcta es la que corresponde al objeto real del contrato (art. 101.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "18. Ofertas anormalmente bajas y precio",
+     "parrafos": [
+      "El artículo 149.1 LCSP regula el caso en que el órgano de contratación presume que una oferta es inviable por haber sido formulada en términos que la hacen anormalmente baja. Solo puede excluirla del procedimiento previa tramitación del procedimiento que el propio precepto establece.",
+      "El artículo 149.2 LCSP atribuye a la mesa de contratación, o en su defecto al órgano de contratación, la identificación de las ofertas que se encuentran en esa situación. La regla protege al contratista: no se excluye una oferta baja sin darle la oportunidad de justificarla.",
+      "Para un examen, la relación con el precio es directa: una oferta anormalmente baja puede comprometer la ejecución al precio pactado. Por eso la ley exige justificación antes de excluir la oferta y antes de adjudicar."
+     ]
+    },
+    {
+     "titulo": "19. Revisión de precios en caso de demora",
+     "parrafos": [
+      "El artículo 104.1 LCSP regula la revisión en casos de demora en la ejecución. Cuando la cláusula de revisión se aplica a periodos en que el contratista ha incurrido en mora, y sin perjuicio de las penalidades que procedan, los índices de precios que se tienen en cuenta son los que correspondían a las fechas establecidas en el contrato.",
+      "La regla evita que la demora del contratista beneficie al contratista: si el retraso le hiciera cobrar precios más altos por una revisión, la revisión se calcularía con los índices de la fecha prevista en el contrato. Es un mecanismo de equidad que se conecta con las penalidades del tema e28.",
+      "Para un examen, la pregunta típica es qué índice se aplica en la mora. Respuesta: el de la fecha prevista en el contrato, sin perjuicio de las penalidades."
+     ]
+    },
+    {
+     "titulo": "20. Cuadro comparativo de las cuatro cifras",
+     "parrafos": [
+      "Objeto (art. 99 LCSP): qué se contrata; debe ser determinado y puede definirse por necesidades o funcionalidades.",
+      "Presupuesto base de licitación (art. 100 LCSP): límite máximo de gasto, con IVA salvo disposición en contrario; adecuado a los precios de mercado.",
+      "Valor estimado (art. 101 LCSP): base para determinar el régimen del contrato, sin IVA; en obras, suministros y servicios, el importe total pagadero; en concesiones, la cifra de negocios.",
+      "Precio (art. 102 LCSP): lo que se paga por lo ejecutado; cierto, en euros salvo pacto, con el IVA como partida independiente.",
+      "Para un examen, el cuadro es la mejor forma de distinguir las cifras. La pregunta típica pide identificar cuál de ellas corresponde a un supuesto dado."
+     ]
+    },
+    {
+     "titulo": "21. El precio en el contrato de concesión",
+     "parrafos": [
+      "El artículo 14.1 LCSP describe la concesión de obras como el contrato en que el concesionario realiza las prestaciones de obra, incluidas la restauración y reparación de construcciones existentes, y en el que la contraprestación consiste en el derecho a explotar la obra, o en ese derecho acompañado de un precio.",
+      "En la concesión, por tanto, el precio no siempre es una cantidad que paga la Administración. El valor estimado se calcula con la cifra de negocios que generará el concesionario (art. 101.2 LCSP), porque la retribución procede de la explotación.",
+      "Para un examen, la diferencia es que en el contrato de obras el precio lo paga la Administración; en la concesión, la retribución principal procede de la explotación de la obra."
+     ]
+    },
+    {
+     "titulo": "22. Errores adicionales y cuestiones de examen",
+     "parrafos": [
+      "Confundir el valor estimado con el presupuesto base porque ambos son cifras del expediente. El primero excluye el IVA y determina el régimen; el segundo incluye el IVA y es el límite de gasto.",
+      "Afirmar que el precio se paga según el presupuesto base. El precio se paga según lo ejecutado y lo pactado (art. 102.1 LCSP).",
+      "¿En qué moneda debe expresarse el precio? En euros, salvo que el contrato prevea otra moneda con estimación en euros del total (art. 102.2 LCSP).",
+      "¿Qué ocurre si una oferta es anormalmente baja? No puede excluirse sin el procedimiento previo del artículo 149 LCSP."
+     ]
+    },
+    {
+     "titulo": "23. Caso práctico completo",
+     "parrafos": [
+      "Un organismo público quiere ejecutar la reforma de un edificio de oficinas. El proyecto arroja un presupuesto de ejecución material de 350.000 euros. Se añaden gastos generales, beneficio industrial y el IVA, y el presupuesto base de licitación resulta ser el límite máximo de gasto que puede comprometer el órgano de contratación (art. 100.1 LCSP).",
+      "El valor estimado se calcula sin IVA, con el importe total pagadero según sus estimaciones (art. 101.1.a LCSP). Como supera los umbrales de contrato menor, el contrato sigue el procedimiento ordinario. Como el presupuesto base de licitación, sin IVA, es inferior a 500.000 euros, no es obligatoria la supervisión (art. 235 LCSP), y como se trata de una reforma, el proyecto puede simplificar o refundir algunos documentos, sin perder su contenido mínimo (art. 233.2 LCSP).",
+      "Se licita y se recibe una oferta inferior al presupuesto base. El precio del contrato es el de la oferta adjudicataria, en euros, con el IVA indicado como partida independiente (arts. 102.1 y 102.2 LCSP). Durante la ejecución, el contratista cobrará según lo efectivamente ejecutado, no según el presupuesto base.",
+      "Si una oferta es anormalmente baja, no puede excluirse sin el procedimiento del artículo 149 LCSP. Y si hay demora por causa del contratista, la revisión de precios se calcula con los índices de la fecha prevista en el contrato (art. 104.1).",
+      "En el examen, el caso se resuelve identificando cada cifra y el artículo que la regula, en el orden en que aparecen en el expediente."
+     ]
+    },
+    {
+     "titulo": "24. Síntesis de la economía del contrato",
+     "parrafos": [
+      "La economía del contrato de obras se articula en cuatro cifras con funciones distintas: el objeto define qué se contrata; el presupuesto base fija el límite de gasto; el valor estimado determina el régimen; y el precio es el que se paga por lo ejecutado. Ninguna de ellas puede sustituir a otra.",
+      "Para un examen, la clave es dominar la distinción entre las cifras y el artículo que las regula. A partir de ahí, las preguntas sobre umbrales, revisión o demora se resuelven con lógica."
+     ]
+    },
+    {
+     "titulo": "14. Claves para el examen",
+     "parrafos": [
+      "Objeto: determinado, definible por necesidades o funcionalidades (art. 99.1 LCSP).",
+      "Presupuesto base: límite de gasto con IVA; adecuado a precios de mercado (art. 100).",
+      "Valor estimado: sin IVA; obras, suministros y servicios por el importe total; concesiones por cifra de negocios (art. 101).",
+      "Precio: cierto, según lo ejecutado y lo pactado; IVA como partida independiente (art. 102).",
+      "Revisión: solo periódica y predeterminada (art. 103.1); excepción al precio cierto."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 9/2017, de Contratos del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+     "pdf": "leyes/BOE-A-2017-12902.pdf"
+    }
+   ]
+  },
+  "e28": {
+   "resumen": [
+    {
+     "titulo": "Partes y órganos",
+     "puntos": [
+      "Partes: la Administración, a través de su órgano de contratación, y el contratista (arts. 61.1 y 65.1 LCSP).",
+      "Delegación y desconcentración (art. 61.2). Mesa de contratación como órgano de asistencia (art. 326); Junta Consultiva como órgano de consulta (art. 328)."
+     ]
+    },
+    {
+     "titulo": "Responsable y perfil",
+     "puntos": [
+      "El responsable del contrato supervisa la ejecución (art. 62.1 LCSP). El perfil de contratante se difunde por Internet (art. 63.1)."
+     ]
+    },
+    {
+     "titulo": "Solvencia y capacidad",
+     "puntos": [
+      "Plena capacidad de obrar, no estar incurso en prohibición de contratar y acreditar solvencia (art. 65.1). Solvencia técnica en obras: relación de obras de los últimos cinco años con certificados (art. 88.1).",
+      "Uniones de empresarios temporales (art. 69.1). Prohibiciones de contratar (art. 71)."
+     ]
+    },
+    {
+     "titulo": "Ejecución",
+     "puntos": [
+      "Prerrogativas: interpretar, modificar por interés público, suspender y resolver (art. 190.1). Dirección facultativa de la LOE (arts. 12 y 13 LOE).",
+      "Sucesión por fusión: continúa el contrato (art. 98.1)."
+     ]
+    },
+    {
+     "titulo": "Cesión y subcontratación",
+     "puntos": [
+      "Cesión: transmisión del contrato a otro (art. 214.1). Subcontratación bajo responsabilidad del contratista (art. 215.1).",
+      "Pagos a subcontratistas en plazo, sin condiciones más desfavorables que la Ley 3/2004 (art. 216)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LCSP",
+     "rol": "Norma principal del tema (arts. 61 a 98, 190, 214 a 217 y 326 a 328)"
+    },
+    {
+     "id": "LOE",
+     "rol": "Complementaria: arts. 8, 11 a 13 (agentes y dirección facultativa)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Complementaria: competencia de organización contractual (art. 47.1.4.ª)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "¿Quién representa a la Administración en materia contractual?",
+     "opciones": [
+      "El Tribunal de Cuentas",
+      "El interesado",
+      "La mesa de contratación",
+      "El órgano de contratación"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 61.1 LCSP atribuye la representación de las entidades del sector público en materia contractual a los órganos de contratación.",
+     "referencia": "Art. 61.1 LCSP"
+    },
+    {
+     "pregunta": "¿Quién supervisa la ejecución del contrato?",
+     "opciones": [
+      "El responsable del contrato",
+      "El licitador",
+      "El Consejo de Estado",
+      "La Cámara de Cuentas"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 62.1 LCSP atribuye al responsable del contrato la supervisión de su ejecución.",
+     "referencia": "Art. 62.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué órgano asiste al órgano de contratación en los procedimientos abiertos?",
+     "opciones": [
+      "El Pleno municipal",
+      "El Defensor del Pueblo",
+      "Una mesa de contratación",
+      "La Junta Consultiva"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 326.1 LCSP establece que, en los procedimientos abiertos, los órganos de contratación están asistidos por una mesa de contratación.",
+     "referencia": "Art. 326.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué es la Junta Consultiva de Contratación Pública del Estado?",
+     "opciones": [
+      "Un órgano judicial",
+      "Una empresa pública",
+      "Un licitador",
+      "Un órgano de regulación y consulta en materia de contratación pública estatal"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 328.1 LCSP la define como el órgano específico de regulación y consulta en materia de contratación pública del sector público estatal.",
+     "referencia": "Art. 328.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué requiere la aptitud para contratar con el sector público?",
+     "opciones": [
+      "Solo tener un local",
+      "Ser vecino del municipio",
+      "Tener el carné profesional",
+      "Plena capacidad de obrar, no estar en prohibición de contratar y acreditar solvencia"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 65.1 LCSP exige plena capacidad de obrar, no estar incurso en prohibición de contratar y acreditar solvencia.",
+     "referencia": "Art. 65.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué ocurre con el contrato si la sociedad contratista se fusiona?",
+     "opciones": [
+      "Continúa con la entidad absorbente o resultante",
+      "Se extingue siempre",
+      "Se cede automáticamente",
+      "Se resuelve de oficio"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 98.1 LCSP establece que, en la fusión en la que participa la sociedad contratista, el contrato continúa con la entidad absorbente o resultante.",
+     "referencia": "Art. 98.1 LCSP"
+    },
+    {
+     "pregunta": "¿Cómo se distingue la cesión de la subcontratación?",
+     "opciones": [
+      "Son lo mismo",
+      "En la cesión el contrato pasa a otro; en la subcontratación el contratista sigue responsable",
+      "En la subcontratación el contrato pasa a otro",
+      "No se distinguen"
+     ],
+     "correcta": 1,
+     "explicacion": "En la cesión (art. 214 LCSP) el contrato se transmite a otro; en la subcontratación (art. 215 LCSP) el contratista sigue respondiendo ante la Administración.",
+     "referencia": "Arts. 214 y 215 LCSP"
+    },
+    {
+     "pregunta": "¿Cuál es una prerrogativa del órgano de contratación?",
+     "opciones": [
+      "Firmar los planos",
+      "Ser el contratista",
+      "Interpretar el contrato y modificarlo por interés público",
+      "Cobrar el precio"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 190.1 LCSP atribuye al órgano de contratación la prerrogativa de interpretar el contrato y modificarlo por razones de interés público.",
+     "referencia": "Art. 190.1 LCSP"
+    },
+    {
+     "pregunta": "¿En qué se acredita la solvencia técnica en contratos de obras?",
+     "opciones": [
+      "Solo en el precio",
+      "En la edad del director",
+      "En la relación de obras ejecutadas en los últimos cinco años con certificados de buena ejecución",
+      "En el número de empleados"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 88.1 LCSP acredita la solvencia técnica en obras con la relación de obras ejecutadas en los últimos cinco años, avalada por certificados de buena ejecución.",
+     "referencia": "Art. 88.1 LCSP"
+    },
+    {
+     "pregunta": "¿Qué obligación tiene el contratista respecto a los subcontratistas?",
+     "opciones": [
+      "No pagarles nunca",
+      "Pagar solo al final de la obra sin plazos",
+      "Pagarles lo que quiera",
+      "Pagarles el precio pactado en los plazos legales"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 216.1 LCSP obliga al contratista a abonar a los subcontratistas el precio pactado en los plazos y condiciones que la ley indica.",
+     "referencia": "Art. 216.1 LCSP"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Las partes en el contrato de obras",
+     "parrafos": [
+      "En el contrato de obras intervienen dos partes principales. De un lado, la Administración contratante, que actúa a través de su órgano de contratación. De otro, el contratista, que es el empresario que se obliga a ejecutar la obra. Junto a ellas aparecen otros sujetos de la ejecución, como el responsable del contrato y los agentes de la edificación que regula la LOE.",
+      "La LCSP distingue entre la parte que contrata y la que ejecuta. El órgano de contratación representa a la entidad en materia contractual (art. 61.1 LCSP). El contratista debe reunir los requisitos de aptitud para contratar con el sector público (art. 65.1 LCSP). La relación entre ambos se regula por el contrato, por los pliegos y por la propia ley.",
+      "Para un examen, la pregunta típica es quién es parte en el contrato. La respuesta es la Administración, a través de su órgano de contratación, y el contratista; el responsable del contrato y la dirección facultativa no son partes, sino agentes que actúan por cuenta de la Administración."
+     ]
+    },
+    {
+     "titulo": "2. Órganos competentes en materia de contratación",
+     "parrafos": [
+      "El artículo 61.1 LCSP establece que la representación de las entidades del sector público en materia contractual corresponde a los órganos de contratación, unipersonales o colegiados, que, por norma legal, reglamentaria o disposición estatutaria, tienen la facultad de celebrar contratos en su nombre.",
+      "El artículo 61.2 LCSP permite a los órganos de contratación delegar o desconcentrar sus competencias y facultades en esta materia, con cumplimiento de las normas y formalidades aplicables. La delegación debe respetar la norma que la establece y su publicidad.",
+      "En la Administración General del Estado, el artículo 323 LCSP atribuye la condición de órgano de contratación a los ministros y a los secretarios de Estado, y el artículo 325 regula la desconcentración de competencias. La autorización para contratar, que regula el artículo 324, se exige en determinados supuestos a las entidades del sector público.",
+      "En Andalucía, la organización a efectos contractuales de la Administración propia es una competencia exclusiva de la Comunidad (art. 47.1.4.ª del Estatuto). Por tanto, es la propia Junta la que decide quién es su órgano de contratación en cada caso, dentro de los límites de la LCSP.",
+      "Para un examen, la regla es que el órgano de contratación es el que tiene la competencia atribuida por la norma, y que puede delegarla o desconcentrarla en los términos de la ley."
+     ]
+    },
+    {
+     "titulo": "3. Órganos de asistencia y órganos consultivos",
+     "parrafos": [
+      "El artículo 326.1 LCSP establece que, salvo cuando la competencia corresponda a una junta de contratación, los órganos de contratación de las Administraciones públicas están asistidos por una mesa de contratación en los procedimientos abierto, abierto simplificado, restringido, de diálogo competitivo, de licitación con negociación y de asociación para la innovación.",
+      "La mesa de contratación es un órgano de asistencia, no de decisión. Califica la documentación, examina las proposiciones y formula la propuesta de adjudicación, pero la decisión final corresponde al órgano de contratación. El artículo 327 regula la mesa especial del diálogo competitivo y de la asociación para la innovación.",
+      "Los órganos consultivos son los que informan sobre la contratación sin decidir. El artículo 328.1 LCSP define la Junta Consultiva de Contratación Pública del Estado como el órgano específico de regulación y consulta en materia de contratación pública del sector público estatal. En Andalucía, la Comunidad tiene su propio órgano de consulta en la materia, que debe comprobarse en su normativa.",
+      "Para un examen, la diferencia básica es que el órgano de contratación decide, la mesa asiste y califica, y la Junta Consultiva informa. Confundir la mesa con el órgano de contratación es un error frecuente."
+     ]
+    },
+    {
+     "titulo": "4. El responsable del contrato y el perfil de contratante",
+     "parrafos": [
+      "El artículo 62.1 LCSP establece que, con independencia de la unidad encargada del seguimiento y ejecución ordinaria del contrato que figure en los pliegos, el órgano de contratación debe designar un responsable del contrato. A este le corresponde supervisar su ejecución y adoptar las decisiones y dictar las instrucciones necesarias para asegurar la correcta realización de la prestación pactada.",
+      "El responsable del contrato es, por tanto, la figura que vigila la ejecución en nombre del órgano de contratación. No sustituye al órgano de contratación en las decisiones que la ley le reserva, pero sí tiene el encargo de supervisar el cumplimiento día a día.",
+      "El artículo 63.1 LCSP establece que los órganos de contratación difunden exclusivamente a través de Internet su perfil de contratante, que agrupa la información y los documentos relativos a su actividad contractual, para asegurar la transparencia y el acceso público. Es el medio por el que se publica el expediente (art. 116.1 LCSP).",
+      "Para un examen, la pregunta es quién supervisa la ejecución. La respuesta es el responsable del contrato, designado por el órgano de contratación, y el canal de publicidad es el perfil de contratante."
+     ]
+    },
+    {
+     "titulo": "5. Lucha contra la corrupción y conflictos de intereses",
+     "parrafos": [
+      "El artículo 64.1 LCSP obliga a los órganos de contratación a tomar las medidas adecuadas para luchar contra el fraude, el favoritismo y la corrupción, y a prevenir, detectar y solucionar de modo efectivo los conflictos de intereses en los procedimientos de contratación.",
+      "Este precepto se conecta con los principios de igualdad y transparencia del artículo 132 LCSP y con el principio de objetividad del artículo 103.1 CE. Un conflicto de intereses no tratado a tiempo puede afectar a la validez del procedimiento, por eso la ley exige prevenirlo desde el inicio.",
+      "Para un examen, conviene recordar que el deber de prevenir la corrupción es de los órganos de contratación, y que el procedimiento debe incluir medidas para detectar los conflictos."
+     ]
+    },
+    {
+     "titulo": "6. Capacidad y solvencia del empresario",
+     "parrafos": [
+      "El artículo 65.1 LCSP establece las condiciones de aptitud. Solo pueden contratar con el sector público las personas físicas o jurídicas, españolas o extranjeras, con plena capacidad de obrar, que no estén incursas en prohibición de contratar y que acrediten su solvencia económica, financiera, técnica o profesional.",
+      "El artículo 84.1 LCSP regula la acreditación de la capacidad de obrar de las personas jurídicas, que se realiza mediante la escritura o documento de constitución, los estatutos o el acta fundacional, debidamente inscritos cuando proceda.",
+      "El artículo 74.1 LCSP exige a los empresarios acreditar las condiciones mínimas de solvencia económica, financiera y profesional o técnica que determine el órgano de contratación. Esta exigencia se sustituye por la clasificación cuando esta sea exigible (arts. 77 y siguientes).",
+      "En las obras, el artículo 87.1 LCSP permite acreditar la solvencia económica y financiera por uno o varios medios, a elección del órgano de contratación. El artículo 88.1 regula la solvencia técnica, que se acredita, entre otros medios, con la relación de las obras ejecutadas en los últimos años.",
+      "La prohibición de contratar, que regula el artículo 71, impide contratar a quienes incurren en determinadas causas. Su apreciación corresponde al órgano competente, según el artículo 72.",
+      "Para un examen, la diferencia básica es entre capacidad (poder celebrar contratos) y solvencia (tener medios suficientes para ejecutarlos). Ambas se acreditan por medios distintos."
+     ]
+    },
+    {
+     "titulo": "7. Sucesión en la persona del contratista",
+     "parrafos": [
+      "El artículo 98.1 LCSP regula el supuesto de fusión de empresas en el que participa la sociedad contratista. El contrato continúa vigente con la entidad absorbente o con la resultante de la fusión, que queda subrogada en todos los derechos y obligaciones de la sociedad originaria.",
+      "La sucesión es distinta de la cesión. En la sucesión, la persona del contratista cambia por la ley de la operación societaria, y la Administración no decide; en la cesión, el contratista transmite el contrato a otro, con los requisitos que fija el artículo 214 LCSP.",
+      "Para un examen, la pregunta típica es si un cambio societario extingue el contrato. La respuesta es que, en los supuestos de fusión del artículo 98, el contrato continúa con la sociedad resultante."
+     ]
+    },
+    {
+     "titulo": "8. Dirección, inspección y facultades del órgano de contratación en la ejecución",
+     "parrafos": [
+      "El artículo 190.1 LCSP enumera las prerrogativas del órgano de contratación en los contratos administrativos. Puede interpretar el contrato, resolver las dudas que ofrezca su cumplimiento, modificarlo por razones de interés público, declarar la responsabilidad imputable al contratista, suspender su ejecución, acordar su resolución y determinar sus efectos.",
+      "La dirección de la ejecución se articula en dos niveles. El primero es el responsable del contrato, que supervisa la ejecución (art. 62.1 LCSP). El segundo es la dirección facultativa de la obra, que la LOE regula: el director de obra dirige el desarrollo de la obra en sus aspectos técnicos, estéticos, urbanísticos y medioambientales (art. 12.1 LOE), y el director de la ejecución controla la construcción y la calidad de lo edificado (art. 13.1 LOE).",
+      "El detalle de la inspección de la ejecución de las obras, en el ámbito de la LCSP, debe comprobarse en la normativa de desarrollo, que no está en el repositorio. La LCSP y la LOE establecen los dos niveles, pero la regulación reglamentaria completa debe verificarse antes de citarla.",
+      "Para un examen, conviene distinguir las prerrogativas del órgano de contratación (LCSP) de las funciones técnicas de dirección de la obra (LOE). Las primeras son jurídicas; las segundas, técnicas."
+     ]
+    },
+    {
+     "titulo": "9. Resolución de incidencias en la ejecución",
+     "parrafos": [
+      "La LCSP regula las incidencias de la ejecución en varios preceptos. El artículo 191 regula el procedimiento de ejercicio de las prerrogativas. El artículo 192 regula el incumplimiento parcial o el cumplimiento defectuoso. El artículo 193 regula la demora en la ejecución. El artículo 194 regula los daños y perjuicios y la imposición de penalidades. El artículo 195 regula la resolución por demora y la ampliación del plazo.",
+      "El artículo 196 LCSP regula la indemnización de daños y perjuicios causados a terceros, de la que es responsable el contratista. El artículo 197 consagra el principio de riesgo y ventura: la ejecución se realiza a riesgo y ventura del contratista, salvo lo que la ley disponga en contrario.",
+      "Para un examen, el orden de respuesta es: primero, el incumplimiento o la demora; después, la penalidad o la resolución; y por último, la indemnización a terceros. Cada supuesto tiene su artículo propio."
+     ]
+    },
+    {
+     "titulo": "10. Cesión de los contratos",
+     "parrafos": [
+      "El artículo 214.1 LCSP regula la cesión de los contratos, al margen de los supuestos de sucesión del contratista del artículo 98 y sin perjuicio de la subrogación del acreedor hipotecario o del adjudicatario en el procedimiento de ejecución hipotecaria. La cesión es la transmisión del contrato a un tercero por acuerdo de las partes.",
+      "La cesión requiere requisitos, que el artículo 214 establece. Su finalidad es permitir la transmisión del contrato sin extinguirlo, pero con garantías de que el cesionario reúne la solvencia exigida.",
+      "Para un examen, la diferencia con la subcontratación es esencial: en la cesión, el contrato pasa a otra persona; en la subcontratación, el contratista sigue siendo el responsable frente a la Administración."
+     ]
+    },
+    {
+     "titulo": "11. Subcontratación y pagos a subcontratistas",
+     "parrafos": [
+      "El artículo 215.1 LCSP permite al contratista concertar con terceros la realización parcial de la prestación, con sujeción a lo que dispongan los pliegos. Hay prestaciones que deben ejecutarse directamente por el contratista, según los supuestos que el propio artículo establece, y la limitación de la subcontratación no puede excluir la responsabilidad del contratista.",
+      "El artículo 216.1 LCSP obliga al contratista a abonar a los subcontratistas y suministradores el precio pactado en los plazos y condiciones que la ley indica. El artículo 216.2 establece que esos plazos no pueden ser más desfavorables que los previstos en la Ley 3/2004, de medidas de lucha contra la morosidad en las operaciones comerciales.",
+      "El artículo 217 LCSP regula la comprobación de los pagos a los subcontratistas y suministradores por la Administración. Es una garantía para que el pago de la cadena no quede sin control.",
+      "Para un examen, la regla básica es que el contratista responde ante la Administración de la ejecución total, incluida la parte subcontratada, y que está obligado a pagar a sus subcontratistas en plazo."
+     ]
+    },
+    {
+     "titulo": "12. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema e25 sobre el expediente y el proyecto, porque la dirección de obra y la dirección de la ejecución derivan de la LOE y del proyecto. Con el tema e27 sobre el precio, porque el pago a subcontratistas se calcula sobre el precio pactado.",
+      "Se conecta con los temas e29 a e33 de ejecución, modificación, suspensión y extinción, porque las incidencias de la ejecución se resuelven con las prerrogativas del artículo 190 LCSP y con las reglas de esos temas. Y con el tema c13 de acto administrativo, porque las decisiones del órgano de contratación en la ejecución son actos administrativos sujetos a la LPAC.",
+      "Para un examen, el tema es el eje de la relación entre la Administración y el contratista durante la obra: quién es parte, quién decide, quién supervisa y qué ocurre con los terceros."
+     ]
+    },
+    {
+     "titulo": "13. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir la mesa de contratación con el órgano de contratación. La mesa asiste y califica; el órgano decide (art. 326 LCSP).",
+      "Confundir la capacidad con la solvencia. La capacidad permite contratar; la solvencia acredita medios para ejecutar (arts. 65.1 y 74.1 LCSP).",
+      "Confundir la sucesión con la cesión. En la sucesión por fusión el contrato continúa (art. 98.1); en la cesión se transmite a otro por acuerdo (art. 214.1).",
+      "Atribuir la supervisión de la ejecución al órgano de contratación. La supervisión diaria corresponde al responsable del contrato (art. 62.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "14. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Quién representa a la Administración en materia contractual? El órgano de contratación, unipersonal o colegiado, con atribución legal, reglamentaria o estatutaria (art. 61.1 LCSP).",
+      "¿Quién supervisa la ejecución del contrato? El responsable del contrato, designado por el órgano de contratación (art. 62.1 LCSP).",
+      "¿Qué requisitos exige la capacidad para contratar? Plena capacidad de obrar, no estar incurso en prohibición de contratar y acreditar solvencia (art. 65.1 LCSP).",
+      "¿Qué pasa con el contrato en una fusión de la sociedad contratista? Continúa con la entidad absorbente o resultante, que queda subrogada (art. 98.1 LCSP).",
+      "¿Qué plazos rigen los pagos a los subcontratistas? Los plazos y condiciones de la LCSP, que no pueden ser más desfavorables que los de la Ley 3/2004, de morosidad (art. 216.2 LCSP)."
+     ]
+    },
+    {
+     "titulo": "16. Solvencia técnica en las obras (art. 88 LCSP)",
+     "parrafos": [
+      "El artículo 88.1 LCSP regula la solvencia técnica en los contratos de obras. Se acredita mediante la relación de las obras ejecutadas en los últimos cinco años, avalada por certificados de buena ejecución. Los certificados indican el importe, las fechas y el lugar de ejecución, y precisan si las obras se realizaron según las reglas de la profesión y se llevaron normalmente a buen término.",
+      "El mismo precepto permite a los poderes adjudicadores tener en cuenta las pruebas de obras ejecutadas en los últimos diez años, cuando sea necesario para garantizar un nivel adecuado de competencia. Los certificados de buena ejecución pueden comunicarse directamente al órgano de contratación por la autoridad competente.",
+      "Para un examen, la pregunta típica es con qué se acredita la solvencia técnica en obras. La respuesta es con la relación de obras de los últimos cinco años, avalada por certificados de buena ejecución, y con el plazo de diez años cuando sea necesario."
+     ]
+    },
+    {
+     "titulo": "17. Prohibiciones de contratar (art. 71 LCSP)",
+     "parrafos": [
+      "El artículo 71.1 LCSP enumera las personas en quienes concurre una prohibición de contratar con las entidades del sector público. La primera causa es la condena mediante sentencia firme por determinados delitos, entre ellos la corrupción en los negocios, el tráfico de influencias, el cohecho, el fraude y los delitos contra la Hacienda Pública y la Seguridad Social.",
+      "La prohibición de contratar produce efectos sobre la capacidad para contratar durante el tiempo que señala la ley (art. 73 LCSP). Su apreciación corresponde al órgano competente según el procedimiento del artículo 72 LCSP.",
+      "Para un examen, la prohibición es una causa de incapacidad temporal para contratar, distinta de la falta de solvencia. Quien la tiene no puede contratar, aunque tenga medios económicos y técnicos suficientes."
+     ]
+    },
+    {
+     "titulo": "18. Uniones de empresarios",
+     "parrafos": [
+      "El artículo 69.1 LCSP permite contratar con el sector público a las uniones de empresarios que se constituyan temporalmente al efecto, sin necesidad de formalizarlas en escritura pública hasta la adjudicación del contrato a su favor. Es una forma de concurrencia conjunta para acreditar solvencia y ejecutar en común.",
+      "Para un examen, la pregunta típica es si una unión de empresarios puede contratar. La respuesta es que sí, siempre que se constituya temporalmente al efecto, y que la escritura se exige después de la adjudicación."
+     ]
+    },
+    {
+     "titulo": "19. Caso práctico: sucesión, subcontratación y responsabilidad",
+     "parrafos": [
+      "Una constructora adjudicataria de una obra se fusiona con otra empresa, que la absorbe. El contrato continúa con la entidad absorbente, que queda subrogada en todos los derechos y obligaciones (art. 98.1 LCSP). No hay que tramitar una cesión, porque no hay transmisión voluntaria del contrato.",
+      "Durante la obra, la constructora subcontrata la instalación eléctrica a una empresa especializada. El artículo 215.1 LCSP lo permite con sujeción a lo que dispongan los pliegos, y la constructora sigue siendo responsable frente a la Administración de la ejecución total. Además, debe pagar a la subcontratista en los plazos del artículo 216 LCSP.",
+      "Si la instalación eléctrica causa daños a un tercero, la responsabilidad frente al perjudicado es del contratista, según el artículo 196 LCSP. El caso se resuelve identificando primero la figura jurídica (sucesión, cesión o subcontratación) y después el artículo que la regula."
+     ]
+    },
+    {
+     "titulo": "20. Quién decide y quién firma en la práctica",
+     "parrafos": [
+      "En la práctica, distinguir quién decide es esencial para responder a un supuesto. La competencia para contratar corresponde al órgano de contratación según la norma que lo crea (art. 61.1 LCSP). Si ha delegado, la competencia la ejerce el órgano delegado, dentro de la delegación y con las formalidades de la ley (art. 61.2).",
+      "La mesa de contratación califica la documentación, examina las proposiciones y propone la adjudicación (art. 326 LCSP, y art. 157 en materia de propuesta de adjudicación). La decisión de adjudicar sigue siendo del órgano de contratación.",
+      "El responsable del contrato supervisa la ejecución, y la dirección de la obra la ejerce la dirección facultativa de la LOE. Ninguno de ellos sustituye al órgano de contratación en las decisiones que la ley le reserva.",
+      "Para un examen, la síntesis es: decide el órgano de contratación, asiste la mesa, supervisa el responsable y dirige técnicamente la dirección facultativa."
+     ]
+    },
+    {
+     "titulo": "21. Cuadro de la solvencia: económica, técnica y clasificación",
+     "parrafos": [
+      "La solvencia económica y financiera se acredita por uno o varios medios, a elección del órgano de contratación (art. 87.1 LCSP). Entre ellos figura el volumen anual de negocios.",
+      "La solvencia técnica en obras se acredita con la relación de obras ejecutadas en los últimos cinco años y certificados de buena ejecución (art. 88.1 LCSP).",
+      "La clasificación sustituye a la solvencia cuando es exigible (art. 74.1 LCSP). Su exigencia y sus efectos se regulan en el artículo 77 LCSP.",
+      "Para un examen, la relación es: la solvencia se acredita con medios económicos y técnicos; la clasificación es un título administrativo que sustituye a esa acreditación cuando la ley lo exige."
+     ]
+    },
+    {
+     "titulo": "22. Errores de examen adicionales",
+     "parrafos": [
+      "Confundir la unión de empresarios con la sociedad. La unión se constituye temporalmente para el contrato, y no exige escritura hasta la adjudicación (art. 69.1 LCSP).",
+      "Atribuir al responsable del contrato la adjudicación. La adjudicación corresponde al órgano de contratación; el responsable supervisa la ejecución (art. 62.1 LCSP).",
+      "Olvidar que la prohibición de contratar se refiere a la capacidad para contratar y no a la solvencia (arts. 71 y 74 LCSP)."
+     ]
+    },
+    {
+     "titulo": "23. El contrato y las obligaciones de los agentes de la edificación",
+     "parrafos": [
+      "El artículo 8 de la LOE establece que las obligaciones de los agentes de la edificación vienen determinadas por la propia ley, por las demás disposiciones aplicables y por el contrato que origina su intervención. El contrato de obras, por tanto, es una de las fuentes de las obligaciones del constructor y de los directores.",
+      "El artículo 11.1 LOE define al constructor como el agente que asume, contractualmente ante el promotor, el compromiso de ejecutar las obras con medios propios o ajenos, con sujeción al proyecto y al contrato. El contrato es el instrumento que concreta ese compromiso.",
+      "Para un examen, conviene conectar la LCSP con la LOE: el contrato de obras (LCSP) determina lo que el contratista debe ejecutar y cómo se le paga; la LOE determina las responsabilidades de los agentes y los plazos de garantía (arts. 17 y 19 LOE)."
+     ]
+    },
+    {
+     "titulo": "15. Claves para el examen",
+     "parrafos": [
+      "Partes: Administración a través de su órgano de contratación (art. 61.1 LCSP) y contratista (art. 65.1).",
+      "Órganos: competencia atribuida por norma; delegación y desconcentración (arts. 61.2 y 325); mesa de contratación como órgano de asistencia (art. 326); Junta Consultiva como órgano de consulta (art. 328).",
+      "Ejecución: responsable del contrato (art. 62.1); prerrogativas del órgano de contratación (art. 190.1); dirección facultativa de la LOE (arts. 12 y 13).",
+      "Solvencia: capacidad y solvencia son requisitos distintos (arts. 65.1, 74.1, 84.1, 87.1 y 88.1).",
+      "Cesión y subcontratación: cesión a otro por acuerdo (art. 214.1); subcontratación bajo responsabilidad del contratista (art. 215.1); pagos a subcontratistas (art. 216)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 9/2017, de Contratos del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+     "pdf": "leyes/BOE-A-2017-12902.pdf"
+    },
+    {
+     "nombre": "Ley 38/1999, de Ordenación de la Edificación (texto consolidado, BOE)",
+     "url": "https://www.boe.es/eli/es/l/1999/11/05/38/con",
+     "pdf": "leyes/BOE-A-1999-21567.pdf"
+    },
+    {
+     "nombre": "Ley Orgánica 2/2007, de reforma del Estatuto de Autonomía para Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
+     "pdf": "leyes/BOE-A-2007-5825.pdf"
+    }
+   ]
   }
  }
 };
