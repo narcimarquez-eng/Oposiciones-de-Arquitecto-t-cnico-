@@ -8,7 +8,7 @@
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
       "verificada": "parcial",
       "fecha_verificacion": "2026-11-03",
-      "notas": "Verificados en el PDF consolidado del BOE los arts. 1, 2, 9, 14 a 55, 116, 117, 159 a 161, 166 a 169 y las disposiciones. Revisado el texto completo de los arts. citados. Verificados también arts. 23.2 y 103.1 a 103.3 en el texto del PDF. Verificado también el art. 134.1 a 134.3 en el texto del PDF. Verificados también arts. 9.2, 18.1 y 18.4 en el texto del PDF.",
+      "notas": "Verificados en el PDF consolidado del BOE los arts. 1, 2, 9, 14 a 55, 116, 117, 159 a 161, 166 a 169 y las disposiciones. Revisado el texto completo de los arts. citados. Verificados también arts. 23.2 y 103.1 a 103.3 en el texto del PDF. Verificado también el art. 134.1 a 134.3 en el texto del PDF. Verificados también arts. 9.2, 18.1 y 18.4 en el texto del PDF. Verificado también el art. 40.2 en el texto del PDF.",
       "boe_id": "BOE-A-1978-31229",
       "pdf": "leyes/BOE-A-1978-31229.pdf"
     },
@@ -96,9 +96,9 @@
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
       "boe_id": "BOE-A-2013-12887",
       "pdf": "leyes/BOE-A-2013-12887.pdf",
-      "verificada": false,
+      "verificada": "parcial",
       "fecha_verificacion": "2026-11-03",
-      "notas": "PDF consolidado descargado y título comprobado. Articulado pendiente de verificar."
+      "notas": "PDF consolidado disponible en leyes/. Verificados arts. 1, 5, 12, 14.1 (límites a y b), 20.1 a 20.6, 24 y 25 (encabezado) en el texto del PDF. Pendientes: resto del articulado y el régimen de buen gobierno (arts. 25 a 32)."
     },
     {
       "id": "LOPDGDD",
@@ -220,6 +220,28 @@
       "verificada": "parcial",
       "fecha_verificacion": "2026-11-03",
       "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 9, 11, 26, 31 a 37, 39, 40, 42, 43, 45, 46, 48, 52 bis, 54, 56, 57, 85, 86, 88 a 90, 92 a 94, 98 y 105 en el texto del PDF. Pendientes: resto del articulado, en particular los arts. 47, 49 a 51, 91, 95 a 96, 99 a 104 y 106 a 129. Las ediciones de la Junta incorporan modificaciones posteriores (Ley 11/2010 y otras) que deben comprobarse."
+    },
+    {
+      "id": "LTPA",
+      "nombre": "Ley de Transparencia Pública de Andalucía",
+      "referencia": "Ley 1/2014, de 24 de junio, de Transparencia Pública de Andalucía (BOJA de 30 de junio de 2014; BOE núm. 168, de 11 de julio de 2014)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-7534",
+      "boe_id": "BOE-A-2014-7534",
+      "pdf": "leyes/BOE-A-2014-7534.pdf",
+      "verificada": "parcial",
+      "fecha_verificacion": "2026-11-03",
+      "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1, 6, 7, 8, 10, 14, 22, 24, 25, 28, 32, 33, 43, 45, 52, 53, 57 y 58 (suprimidos en el texto), y 54 (sin verificar su contenido) en el texto del PDF. Pendientes: resto del articulado, en particular publicidad activa de detalle (arts. 11 a 21), el régimen de la reclamación (art. 33 y siguientes) y el Consejo (arts. 43 a 51). Puede haber modificaciones posteriores (Decreto-ley 16/2014 señalado en memorias de transparencia) que deben comprobarse en el ELI."
+    },
+    {
+      "id": "LPRL",
+      "nombre": "Ley de Prevención de Riesgos Laborales",
+      "referencia": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales (BOE núm. 269, de 10 de noviembre de 1995)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "boe_id": "BOE-A-1995-24292",
+      "pdf": "leyes/BOE-A-1995-24292.pdf",
+      "verificada": "parcial",
+      "fecha_verificacion": "2026-11-03",
+      "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1, 2, 3.1, 4 (apartados 1 a 4), 14, 15, 16 (inicio), 18, 19 (inicio), 20, 21, 22 (inicio), 24, 29, 31 (inicio), 35, 36 (inicio), 38 y 39 (inicio) en el texto del PDF. Pendientes: resto del articulado y el desarrollo reglamentario (servicios de prevención, RD 39/1997 y normas de la Administración). Las normas de organización de la prevención en la Junta de Andalucía no están en el repositorio."
     }
   ]
 }

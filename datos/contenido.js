@@ -528,7 +528,7 @@ window.DATOS_ESTUDIO = {
    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "Verificados en el PDF consolidado del BOE los arts. 1, 2, 9, 14 a 55, 116, 117, 159 a 161, 166 a 169 y las disposiciones. Revisado el texto completo de los arts. citados. Verificados también arts. 23.2 y 103.1 a 103.3 en el texto del PDF. Verificado también el art. 134.1 a 134.3 en el texto del PDF.",
+   "notas": "Verificados en el PDF consolidado del BOE los arts. 1, 2, 9, 14 a 55, 116, 117, 159 a 161, 166 a 169 y las disposiciones. Revisado el texto completo de los arts. citados. Verificados también arts. 23.2 y 103.1 a 103.3 en el texto del PDF. Verificado también el art. 134.1 a 134.3 en el texto del PDF. Verificados también arts. 9.2, 18.1 y 18.4 en el texto del PDF. Verificado también el art. 40.2 en el texto del PDF.",
    "boe_id": "BOE-A-1978-31229",
    "pdf": "leyes/BOE-A-1978-31229.pdf"
   },
@@ -574,7 +574,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2007-5825.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 37, 42 a 49, 90 a 98, 99 a 106, 118 a 127, 128 a 130, 133 a 139, 140 a 144, 248 y 249 en el texto del PDF. Resto del articulado pendiente. Verificados también arts. 91 a 98 en el texto del PDF. Verificados también arts. 225 a 237 en el texto del PDF (algunos por su rúbrica). Verificados también arts. 47.3 y 47.4 en el texto del PDF. Verificados también arts. 109 y 110 (decretos legislativos y decretos-leyes), 175 y 189 a 190 en el texto del PDF."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 37, 42 a 49, 90 a 98, 99 a 106, 118 a 127, 128 a 130, 133 a 139, 140 a 144, 248 y 249 en el texto del PDF. Resto del articulado pendiente. Verificados también arts. 91 a 98 en el texto del PDF. Verificados también arts. 225 a 237 en el texto del PDF (algunos por su rúbrica). Verificados también arts. 47.3 y 47.4 en el texto del PDF. Verificados también arts. 109 y 110 (decretos legislativos y decretos-leyes), 175 y 189 a 190 en el texto del PDF. Verificados también arts. 133, 137 y 138 en el texto del PDF."
   },
   "LPAC": {
    "id": "LPAC",
@@ -616,9 +616,9 @@ window.DATOS_ESTUDIO = {
    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
    "boe_id": "BOE-A-2013-12887",
    "pdf": "leyes/BOE-A-2013-12887.pdf",
-   "verificada": false,
+   "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Articulado pendiente de verificar."
+   "notas": "PDF consolidado disponible en leyes/. Verificados arts. 1, 5, 12, 14.1 (límites a y b), 20.1 a 20.6, 24 y 25 (encabezado) en el texto del PDF. Pendientes: resto del articulado y el régimen de buen gobierno (arts. 25 a 32)."
   },
   "LOPDGDD": {
    "id": "LOPDGDD",
@@ -629,7 +629,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2018-16673.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado disponible en leyes/; verificado el art. 1 (objeto: adaptar el ordenamiento al RGPD). Pendiente el resto del articulado."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1, 2, 4, 5, 6, 8, 9, 12, 13, 15, 28, 31 (título), 33 (título), 34, 35, 40 (título), 95 a 97 (títulos) en el texto del PDF. Pendientes: resto del articulado, en particular el régimen sancionador, la autoridad de control y los títulos IV y X en detalle."
   },
   "LBRL": {
    "id": "LBRL",
@@ -651,7 +651,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/DOUE-C326-2012-TUE-TFUE-consolidados.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF oficial en español descargado desde el BOE (sección DOUE) y título comprobado. Verificados TUE 2, 3, 4, 5.1, 5.3, 6.1, 13, 14, 16, 17, 19 y TFUE 3, 4, 6, 26, 28, 30, 45, 49, 56, 63, 64, 162, 174 a 178, 288, 289, 291, 294, 310 a 314 en el texto del PDF."
+   "notas": "PDF oficial en español descargado desde el BOE (sección DOUE) y título comprobado. Verificados TUE 2, 3, 4, 5.1, 5.3, 6.1, 13, 14, 16, 17, 19 y TFUE 3, 4, 6, 26, 28, 30, 45, 49, 56, 63, 64, 162, 174 a 178, 288, 289, 291, 294, 310 a 314 en el texto del PDF. Verificado también el art. 16 TFUE (1 y 2) en el texto del PDF."
   },
   "TLISBOA-2007": {
    "id": "TLISBOA-2007",
@@ -717,7 +717,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2007-19819.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 7, 12, 16, 52, 54, 55, 56 y 63 en el texto del PDF. No regula el régimen general de subvenciones: el régimen aplicable es el de la LGS y la normativa autonómica de desarrollo, no verificada aquí."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 7, 12, 16, 52, 54, 55, 56 y 63 en el texto del PDF. No regula el régimen general de subvenciones: el régimen aplicable es el de la LGS y la normativa autonómica de desarrollo, no verificada aquí. Verificados también arts. 5 y 6 en el texto del PDF."
   },
   "EBEP": {
    "id": "EBEP",
@@ -740,6 +740,28 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
    "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 9, 11, 26, 31 a 37, 39, 40, 42, 43, 45, 46, 48, 52 bis, 54, 56, 57, 85, 86, 88 a 90, 92 a 94, 98 y 105 en el texto del PDF. Pendientes: resto del articulado, en particular los arts. 47, 49 a 51, 91, 95 a 96, 99 a 104 y 106 a 129. Las ediciones de la Junta incorporan modificaciones posteriores (Ley 11/2010 y otras) que deben comprobarse."
+  },
+  "LTPA": {
+   "id": "LTPA",
+   "nombre": "Ley de Transparencia Pública de Andalucía",
+   "referencia": "Ley 1/2014, de 24 de junio, de Transparencia Pública de Andalucía (BOJA de 30 de junio de 2014; BOE núm. 168, de 11 de julio de 2014)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-7534",
+   "boe_id": "BOE-A-2014-7534",
+   "pdf": "leyes/BOE-A-2014-7534.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1, 6, 7, 8, 10, 14, 22, 24, 25, 28, 32, 33, 43, 45, 52, 53, 57 y 58 (suprimidos en el texto), y 54 (sin verificar su contenido) en el texto del PDF. Pendientes: resto del articulado, en particular publicidad activa de detalle (arts. 11 a 21), el régimen de la reclamación (art. 33 y siguientes) y el Consejo (arts. 43 a 51). Puede haber modificaciones posteriores (Decreto-ley 16/2014 señalado en memorias de transparencia) que deben comprobarse en el ELI."
+  },
+  "LPRL": {
+   "id": "LPRL",
+   "nombre": "Ley de Prevención de Riesgos Laborales",
+   "referencia": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales (BOE núm. 269, de 10 de noviembre de 1995)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+   "boe_id": "BOE-A-1995-24292",
+   "pdf": "leyes/BOE-A-1995-24292.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1, 2, 3.1, 4 (apartados 1 a 4), 14, 15, 16 (inicio), 18, 19 (inicio), 20, 21, 22 (inicio), 24, 29, 31 (inicio), 35, 36 (inicio), 38 y 39 (inicio) en el texto del PDF. Pendientes: resto del articulado y el desarrollo reglamentario (servicios de prevención, RD 39/1997 y normas de la Administración). Las normas de organización de la prevención en la Junta de Andalucía no están en el repositorio."
   }
  },
  "contenido": {
@@ -10963,6 +10985,884 @@ window.DATOS_ESTUDIO = {
      "nombre": "Ley 40/2015, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
      "pdf": "leyes/BOE-A-2015-10566.pdf"
+    }
+   ]
+  },
+  "c27": {
+   "resumen": [
+    {
+     "titulo": "Fundamento",
+     "puntos": [
+      "La ley regulará el acceso de los ciudadanos a los archivos y registros administrativos (art. 105.b CE). El Estatuto reconoce el derecho a una buena administración, con acceso a los archivos y registros (art. 31 EA).",
+      "Gobierno abierto combina transparencia, participación, colaboración y rendición de cuentas. Su concepto es doctrinal y no lo define ninguna de las leyes verificadas."
+     ]
+    },
+    {
+     "titulo": "Marco de la transparencia",
+     "puntos": [
+      "La Ley 19/2013 es básica: su régimen puede ser ampliado por la normativa autonómica (arts. 1 y 5.2 LTBG). La Ley 1/2014 andaluza regula la publicidad activa y el derecho de acceso en la Comunidad (art. 1 LTPA).",
+      "Principios de la LTPA: transparencia, libre acceso, responsabilidad, veracidad, utilidad y gratuidad, entre otros (art. 6 LTPA)."
+     ]
+    },
+    {
+     "titulo": "Derechos y obligaciones",
+     "puntos": [
+      "Derecho a la publicidad activa y derecho de acceso a la información pública, reconocidos a todas las personas (art. 7 LTPA).",
+      "Quien accede debe actuar de buena fe, concretar la petición y respetar la reutilización de la información (art. 8 LTPA)."
+     ]
+    },
+    {
+     "titulo": "Publicidad activa",
+     "puntos": [
+      "Información institucional y organizativa, con organigrama actualizado (art. 10 LTPA). Catálogo de procedimientos con plazos y cartas de servicio (art. 14 LTPA).",
+      "El orden del día del Consejo de Gobierno se publica antes de la reunión, y los acuerdos después (art. 22 LTPA)."
+     ]
+    },
+    {
+     "titulo": "Derecho de acceso y límites",
+     "puntos": [
+      "El derecho de acceso se ejerce sin más limitaciones que las de la ley (art. 24 LTPA). Solo puede restringirse en los términos de la legislación básica, de forma temporal, proporcionada y valorando el acceso parcial (art. 25 LTPA).",
+      "La protección de datos personales limita el acceso (art. 26 LTPA; art. 5.3 LTBG). Las resoluciones restrictivas se publican previa disociación (art. 25.4 LTPA)."
+     ]
+    },
+    {
+     "titulo": "Procedimiento, plazos y reclamación",
+     "puntos": [
+      "En la Junta, la resolución se notifica en veinte días hábiles, prorrogables por igual período (art. 32 LTPA). La ley estatal fija un mes, prorrogable (art. 20.1 LTBG).",
+      "Reclamación potestativa ante el Consejo de Transparencia y Protección de Datos de Andalucía, previa al contencioso (art. 33 LTPA; art. 24 LTBG)."
+     ]
+    },
+    {
+     "titulo": "El Consejo de Transparencia y Protección de Datos",
+     "puntos": [
+      "Autoridad independiente de control en protección de datos y transparencia, garante del derecho de acceso (arts. 43 y 45 LTPA).",
+      "El texto consolidado suprime los artículos 52, 53, 57 y 58 de la LTPA sobre infracciones; el incumplimiento reiterado de resolver en plazo es infracción grave en la ley estatal (art. 20.6 LTBG)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LTPA",
+     "rol": "Norma principal del tema (arts. 1, 6 a 8, 10, 14, 22, 24 a 28, 32, 33 y 43 a 45)"
+    },
+    {
+     "id": "LTBG",
+     "rol": "Complementaria: marco estatal (arts. 1, 5, 12, 14, 20 y 24)"
+    },
+    {
+     "id": "CE",
+     "rol": "Fundamento constitucional (art. 105.b)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Buena administración y acceso a archivos (art. 31)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 105.b CE, ¿qué regulará la ley?",
+     "opciones": [
+      "El acceso de los ciudadanos a los archivos y registros administrativos, con excepciones",
+      "Solo el precio de los documentos",
+      "Nada relativo a los archivos",
+      "La destrucción de documentos"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 105.b CE establece que la ley regulará el acceso de los ciudadanos a los archivos y registros administrativos, con sus excepciones.",
+     "referencia": "Art. 105.b CE"
+    },
+    {
+     "pregunta": "Según el art. 1 LTPA, ¿en qué dos vertientes se regula la transparencia en Andalucía?",
+     "opciones": [
+      "Obras y servicios",
+      "Presupuesto y deuda",
+      "Publicidad activa y derecho de acceso a la información pública",
+      "Sanciones y tasas"
+     ],
+     "correcta": 2,
+     "explicacion": "La ley regula la transparencia en su doble vertiente de publicidad activa y de derecho de acceso a la información pública.",
+     "referencia": "Art. 1 LTPA"
+    },
+    {
+     "pregunta": "Según el art. 6.g LTPA, ¿qué establece el principio de gratuidad?",
+     "opciones": [
+      "Que todo acceso es de pago",
+      "Que solo los funcionarios acceden gratis",
+      "Que no hay acceso",
+      "Que el acceso y las solicitudes son gratuitos, sin perjuicio de las exacciones por copias o soportes"
+     ],
+     "correcta": 3,
+     "explicacion": "El acceso a la información y las solicitudes son gratuitos, sin perjuicio de las exacciones por copias o soportes.",
+     "referencia": "Art. 6.g LTPA"
+    },
+    {
+     "pregunta": "Según el art. 7.b LTPA, ¿quién tiene derecho de acceso a la información pública?",
+     "opciones": [
+      "Solo los funcionarios",
+      "Cualquier persona",
+      "Solo las empresas",
+      "Nadie"
+     ],
+     "correcta": 1,
+     "explicacion": "El derecho de acceso corresponde a cualquier persona, en los términos de la ley.",
+     "referencia": "Art. 7.b LTPA"
+    },
+    {
+     "pregunta": "Según el art. 32 LTPA, ¿cuál es el plazo máximo para resolver una solicitud de acceso en la Junta de Andalucía?",
+     "opciones": [
+      "Veinte días hábiles, prorrogables por igual período",
+      "Un año",
+      "Tres meses",
+      "Cinco días naturales"
+     ],
+     "correcta": 0,
+     "explicacion": "En la Administración de la Junta y sus entidades instrumentales, el plazo máximo es de veinte días hábiles, prorrogables por igual período si la complejidad lo exige.",
+     "referencia": "Art. 32 LTPA"
+    },
+    {
+     "pregunta": "Según el art. 20.1 LTBG, ¿cuál es el plazo general para notificar la resolución de una solicitud de acceso?",
+     "opciones": [
+      "Un día",
+      "Sin plazo",
+      "Un mes desde la recepción, prorrogable por otro mes",
+      "Cinco años"
+     ],
+     "correcta": 2,
+     "explicacion": "La resolución se notifica en el plazo máximo de un mes desde la recepción, prorrogable por otro mes si la complejidad lo exige.",
+     "referencia": "Art. 20.1 LTBG"
+    },
+    {
+     "pregunta": "Según el art. 25.2 LTPA, ¿cómo deben ser las limitaciones al derecho de acceso?",
+     "opciones": [
+      "Decididas en cada caso sin motivo",
+      "Iguales para todas las personas sin valorar el acceso parcial",
+      "Permanentes e ilimitadas",
+      "Solo durante el tiempo que fija la ley o mientras subsista la razón que las justifica"
+     ],
+     "correcta": 3,
+     "explicacion": "Las limitaciones solo se aplican durante el período de tiempo determinado por las leyes o mientras se mantenga la razón que las justifica, valorando el acceso parcial.",
+     "referencia": "Art. 25.2 LTPA"
+    },
+    {
+     "pregunta": "Según el art. 33.1 LTPA, ¿qué debe interponerse antes del contencioso frente a una resolución de acceso?",
+     "opciones": [
+      "Nada: se va directamente al contencioso",
+      "Una reclamación potestativa ante el Consejo de Transparencia y Protección de Datos de Andalucía",
+      "Una denuncia penal",
+      "Un recurso de casación"
+     ],
+     "correcta": 1,
+     "explicacion": "Frente a toda resolución en materia de acceso puede interponerse reclamación potestativa ante el Consejo, previa a la impugnación contenciosa.",
+     "referencia": "Art. 33.1 LTPA"
+    },
+    {
+     "pregunta": "Según el art. 43.1 LTPA, ¿qué es el Consejo de Transparencia y Protección de Datos de Andalucía?",
+     "opciones": [
+      "Una empresa pública",
+      "Un órgano de la consejería de Hacienda",
+      "Una autoridad independiente de control en protección de datos y transparencia",
+      "Un tribunal de justicia"
+     ],
+     "correcta": 2,
+     "explicacion": "El Consejo se crea como autoridad independiente de control en materia de protección de datos y de transparencia en la Comunidad Autónoma.",
+     "referencia": "Art. 43.1 LTPA"
+    },
+    {
+     "pregunta": "Según el art. 14.a LTPA, ¿qué debe publicar la Administración andaluza sobre los procedimientos?",
+     "opciones": [
+      "El catálogo actualizado de procedimientos, con objeto, trámites y plazos",
+      "Nada",
+      "Solo las multas",
+      "Solo el número de funcionarios"
+     ],
+     "correcta": 0,
+     "explicacion": "Debe publicarse el catálogo actualizado de los procedimientos administrativos, con su objeto, trámites y plazos, e indicar los que admiten tramitación electrónica.",
+     "referencia": "Art. 14.a LTPA"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué significa transparencia",
+     "parrafos": [
+      "La transparencia es la característica de una Administración que hace visible su actividad: qué decide, con qué medios, con qué resultados y con qué responsabilidades. Su fundamento es que el poder público se ejerce en nombre de la ciudadanía y que ésta tiene derecho a conocer cómo se usa.",
+      "La transparencia tiene dos vertientes que el tema distingue. La primera es la publicidad activa: la Administración publica por iniciativa propia la información relevante. La segunda es el derecho de acceso: cualquier persona puede pedir información concreta que obre en poder de la Administración.",
+      "Para un examen, la diferencia básica es quién inicia la publicación. En la publicidad activa, la Administración; en el acceso, la persona que solicita.",
+      "La Ley 19/2013 regula la transparencia junto con las obligaciones de buen gobierno de los responsables públicos (art. 1 LTBG)."
+     ]
+    },
+    {
+     "titulo": "2. Gobierno abierto: concepto y elementos",
+     "parrafos": [
+      "El gobierno abierto es un modelo de gestión pública que combina la transparencia con la participación de la ciudadanía, la colaboración con otros actores y la rendición de cuentas. Se apoya en los datos abiertos y en las tecnologías, pero su núcleo es la relación entre la Administración y la ciudadanía.",
+      "Ninguna de las leyes verificadas en este tema define el gobierno abierto. Su concepto es doctrinal y de práctica administrativa. Para un examen, cite sus elementos (transparencia, participación, colaboración y rendición de cuentas) y el marco jurídico verificado, sin atribuir a una norma una definición que no contiene.",
+      "Para un examen, la pregunta típica es qué combina el gobierno abierto. Respuesta: transparencia, participación, colaboración y rendición de cuentas, con apoyo en la tecnología."
+     ]
+    },
+    {
+     "titulo": "3. El fundamento constitucional y estatutario",
+     "parrafos": [
+      "El artículo 105.b de la Constitución establece que la ley regulará el acceso de los ciudadanos a los archivos y registros administrativos, salvo en lo que afecte a la seguridad y defensa del Estado, a la averiguación de los delitos y a la intimidad de las personas.",
+      "El artículo 31 del Estatuto de Autonomía para Andalucía reconoce el derecho a una buena administración, que incluye el derecho a participar plenamente en las decisiones que afecten a la persona, a obtener información veraz y a acceder a los archivos y registros de las instituciones y órganos públicos de Andalucía, cualquiera que sea su soporte, con las excepciones de la ley.",
+      "Para un examen, la pregunta típica es qué norma constitucional fija el acceso a los archivos. Respuesta: el artículo 105.b de la Constitución, con sus excepciones."
+     ]
+    },
+    {
+     "titulo": "4. El marco estatal: la Ley 19/2013",
+     "parrafos": [
+      "La Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno, tiene por objeto ampliar y reforzar la transparencia de la actividad pública, regular y garantizar el derecho de acceso a la información, y establecer las obligaciones de buen gobierno de los responsables públicos (art. 1 LTBG).",
+      "El artículo 5.1 de la ley dispone que los sujetos obligados publicarán de forma periódica y actualizada la información relevante para garantizar la transparencia de su actividad. El artículo 5.2 deja a salvo la normativa autonómica con un régimen más amplio de publicidad.",
+      "Para un examen, la relación con Andalucía es clara: la ley estatal es básica, y la autonómica puede ampliar el régimen (art. 5.2 LTBG). La Ley 1/2014 andaluza es esa normativa autonómica."
+     ]
+    },
+    {
+     "titulo": "5. El marco andaluz: la Ley de Transparencia Pública de Andalucía",
+     "parrafos": [
+      "La Ley 1/2014, de 24 de junio, de Transparencia Pública de Andalucía (LTPA), regula en el ámbito de la Comunidad la transparencia en su doble vertiente de publicidad activa y de derecho de acceso a la información pública. Su finalidad es facilitar el conocimiento de la actividad de los poderes públicos y de las entidades con financiación pública (art. 1 LTPA).",
+      "La ley se aplica en el ámbito de la Comunidad Autónoma, y en los términos de la legislación básica estatal. Para un examen, el objeto del artículo 1 LTPA es la pregunta típica: la publicidad activa y el derecho de acceso.",
+      "La LTPA tiene un régimen de principios, derechos y obligaciones propio, que se estudia en los apartados siguientes."
+     ]
+    },
+    {
+     "titulo": "6. Principios básicos de la transparencia",
+     "parrafos": [
+      "El artículo 6 LTPA enumera los principios básicos: transparencia (la información pública es accesible en principio y solo puede retenerse para proteger otros derechos o intereses legítimos), libre acceso (cualquier persona puede pedirla), responsabilidad (las entidades responden del cumplimiento), no discriminación tecnológica, veracidad, utilidad, gratuidad y facilidad y comprensión.",
+      "El principio de veracidad (letra e) exige que la información sea cierta y exacta, y que proceda de documentos cuya autenticidad, fiabilidad, integridad, disponibilidad y cadena de custodia se hayan verificado. El de gratuidad (letra g) establece que el acceso y las solicitudes son gratuitos, sin perjuicio de las exacciones por copias o soportes.",
+      "Para un examen, la pregunta típica es qué principio hace gratuito el acceso. Respuesta: el de gratuidad del artículo 6.g LTPA, con las exacciones por copias o soportes."
+     ]
+    },
+    {
+     "titulo": "7. Derechos y obligaciones",
+     "parrafos": [
+      "El artículo 7 LTPA reconoce dos derechos: el derecho a la publicidad activa, que es el derecho a que los poderes públicos publiquen de forma periódica y actualizada información veraz relevante (letra a), y el derecho de acceso a la información pública, que es el derecho a acceder a los contenidos o documentos en poder de las entidades obligadas (letra b).",
+      "El artículo 8 LTPA impone a quien accede a la información obligaciones de buena fe y de no abuso del derecho (letra a), de concretar la petición de forma que no afecte al funcionamiento de los servicios (letra b), y de respetar la reutilización de la información (letra c).",
+      "Para un examen, la diferencia es que el derecho se reconoce a todas las personas y la obligación recae sobre quien accede. La Administración colabora con quien pide (art. 31 LTPA)."
+     ]
+    },
+    {
+     "titulo": "8. Publicidad activa: contenidos",
+     "parrafos": [
+      "La publicidad activa se concreta en contenidos. El artículo 10 LTPA obliga a publicar la información institucional y organizativa: las funciones, la normativa aplicable, los estatutos de los entes instrumentales y un organigrama actualizado con los responsables de cada órgano.",
+      "El artículo 14 LTPA obliga a publicar un catálogo actualizado de los procedimientos, con su objeto, trámites y plazos, y a indicar los que admiten tramitación electrónica (letra a). Obliga también a publicar las cartas de servicios, los informes sobre el grado de cumplimiento y calidad de los servicios (letra b), y la relación de procedimientos en los que es posible la participación ciudadana (letra c).",
+      "Los artículos 13, 15, 16 y 17 LTPA regulan otros contenidos, como la información de relevancia jurídica, los contratos, convenios y subvenciones, y la información económica y presupuestaria. Su detalle no se ha verificado en este tema."
+     ]
+    },
+    {
+     "titulo": "9. La publicidad activa en los gobiernos",
+     "parrafos": [
+      "El artículo 22 LTPA dispone que el Consejo de Gobierno de la Junta y los órganos colegiados de gobierno de las entidades locales hagan públicos, con carácter previo a sus reuniones, el orden del día, y una vez celebradas, los acuerdos aprobados y la información del expediente sometido a su consideración.",
+      "El mismo precepto permite reservar la información cuando su publicación sea incompatible con los límites aplicables, y encarga a las consejerías proponentes identificar esa información al remitir el expediente.",
+      "Para un examen, la pregunta típica es cuándo se publica el orden del día del Consejo de Gobierno. Respuesta: con carácter previo a la celebración de la reunión (art. 22.1 LTPA)."
+     ]
+    },
+    {
+     "titulo": "10. El derecho de acceso a la información pública",
+     "parrafos": [
+      "El derecho de acceso permite a cualquier persona obtener información que obre en poder de la Administración, la haya elaborado o adquirido en el ejercicio de sus funciones. El artículo 24 LTPA reconoce el derecho en los términos del artículo 105.b CE y del artículo 31 EA, sin más limitaciones que las de la ley.",
+      "El artículo 12 LTBG reconoce el mismo derecho a todas las personas, en los términos del artículo 105.b CE y de la ley estatal, y la normativa autonómica en su ámbito.",
+      "Para un examen, la pregunta típica es quién tiene derecho de acceso. Respuesta: todas las personas (art. 7.b y art. 24 LTPA)."
+     ]
+    },
+    {
+     "titulo": "11. Límites al acceso",
+     "parrafos": [
+      "El artículo 25.1 LTPA dispone que el derecho de acceso solo puede restringirse o denegarse en los términos de la legislación básica. El artículo 25.2 LTPA añade que las limitaciones solo se aplican durante el tiempo determinado por la ley o mientras subsista la razón que las justifica, y que debe valorarse el acceso parcial.",
+      "El artículo 25.3 LTPA exige que la aplicación de los límites sea justificada y proporcionada, y atienda a las circunstancias del caso, en especial a un interés público o privado superior que justifique el acceso. El artículo 14.1 LTBG enumera límites como la seguridad nacional (letra a) y la defensa (letra b).",
+      "Para un examen, la pregunta típica es qué debe valorarse antes de denegar. Respuesta: la proporcionalidad, la temporalidad y la posibilidad de acceso parcial (arts. 25.2 y 25.3 LTPA)."
+     ]
+    },
+    {
+     "titulo": "12. La protección de datos como límite",
+     "parrafos": [
+      "El artículo 5.3 LTBG dispone que, cuando la información contenga datos especialmente protegidos, la publicidad solo se lleva a cabo en los términos que el precepto fija, con la disociación o los requisitos que exige la ley. Es el límite más frecuente en la práctica.",
+      "El artículo 26 LTPA regula la protección de datos personales, y el artículo 15 LTBG la protección de datos como límite al acceso. Sus detalles no se han verificado en este tema, y deben leerse junto con la ley de protección de datos del tema c26.",
+      "Para un examen, la diferencia es que la protección de datos limita el acceso de forma específica, y que el acceso parcial (art. 27 LTPA; art. 16 LTBG) puede permitir la información no protegida."
+     ]
+    },
+    {
+     "titulo": "13. Las resoluciones restrictivas se hacen públicas",
+     "parrafos": [
+      "El artículo 25.4 LTPA dispone que las resoluciones que restrinjan o denieguen el acceso se publican, previa disociación de los datos personales que contengan. Si indicar la existencia de la información vulneraría un límite, se hace constar la circunstancia al desestimar la solicitud.",
+      "Esta regla da transparencia a las decisiones de no dar información. Para un examen, la publicidad de las denegaciones es una garantía del propio sistema de transparencia (art. 25.4 LTPA)."
+     ]
+    },
+    {
+     "titulo": "14. El procedimiento de acceso",
+     "parrafos": [
+      "El artículo 28 LTPA dispone que el procedimiento se rige por la legislación básica y por la ley autonómica. El órgano competente para resolver es el que lo sea en la materia a la que se refiere la información (art. 28.2 LTPA). Si la persona conoce la ubicación concreta del documento en un archivo, puede dirigirse directamente al órgano responsable (art. 28.3 LTPA).",
+      "El artículo 32 LTPA fija el plazo: en la Administración de la Junta y sus entidades instrumentales, la resolución y notificación se hace en el menor plazo posible, con un máximo de veinte días hábiles desde la recepción, prorrogables por igual período si la complejidad lo exige, con notificación de la ampliación.",
+      "El artículo 20.1 LTBG fija el plazo general de un mes, prorrogable por otro mes en casos de volumen o complejidad. Para un examen, distinga el plazo de la Junta (veinte días hábiles, art. 32 LTPA) del plazo general de la ley estatal (un mes, art. 20.1 LTBG)."
+     ]
+    },
+    {
+     "titulo": "15. Motivación, silencio y responsabilidad por demora",
+     "parrafos": [
+      "El artículo 20.2 LTBG exige motivar las resoluciones que denieguen el acceso, las que concedan el acceso parcial o por modalidad distinta a la pedida, y las que permitan el acceso cuando ha habido oposición de un tercero.",
+      "El artículo 20.5 LTBG establece que las resoluciones en materia de acceso son recurribles directamente ante la jurisdicción contencioso-administrativa, sin perjuicio de la reclamación potestativa del artículo 24. El artículo 20.6 LTBG considera infracción grave el incumplimiento reiterado de la obligación de resolver en plazo, a efectos del régimen disciplinario aplicable.",
+      "Para un examen, la diferencia es entre la resolución expresa, que debe ser motivada en los supuestos indicados, y la demora reiterada, que es una infracción grave (art. 20.6 LTBG)."
+     ]
+    },
+    {
+     "titulo": "16. Reclamaciones ante el Consejo",
+     "parrafos": [
+      "El artículo 33.1 LTPA permite reclamar contra toda resolución expresa o presunta en materia de acceso ante el Consejo de Transparencia y Protección de Datos de Andalucía. La reclamación es potestativa y previa a la impugnación contenciosa.",
+      "El artículo 33.2 LTPA dispone que las resoluciones de las instituciones y entidades de los artículos 3.1.b y 3.2 solo son recurribles ante la jurisdicción contencioso-administrativa. El artículo 24 LTBG fija el plazo de la reclamación ante el Consejo estatal en un mes desde la notificación o desde los efectos del silencio.",
+      "Para un examen, la pregunta típica es qué debe hacerse antes de ir al contencioso. Respuesta: la reclamación potestativa ante el Consejo (art. 33.1 LTPA), salvo los casos del artículo 33.2."
+     ]
+    },
+    {
+     "titulo": "17. El Consejo de Transparencia y Protección de Datos de Andalucía",
+     "parrafos": [
+      "El artículo 43.1 LTPA crea el Consejo de Transparencia y Protección de Datos de Andalucía como autoridad independiente de control en materia de protección de datos y de transparencia en la Comunidad.",
+      "El artículo 45 LTPA le atribuye actuar como autoridad pública independiente de control en materia de protección de datos y como órgano independiente e imparcial garante del derecho a la transparencia. Los artículos 41 a 49 LTPA regulan unidades y comisiones de transparencia, la estructura, la dirección y la comisión consultiva del Consejo.",
+      "Para un examen, la pregunta típica es qué tipo de órgano es el Consejo. Respuesta: una autoridad independiente que controla la protección de datos y garantiza el derecho a la transparencia (arts. 43.1 y 45 LTPA)."
+     ]
+    },
+    {
+     "titulo": "18. El régimen de infracciones en la ley andaluza",
+     "parrafos": [
+      "En el texto consolidado de la LTPA, los artículos 52, 53, 57 y 58 aparecen como suprimidos; el artículo 54, dedicado a otras entidades, tiene contenido que no se ha verificado en este tema. La ley andaluza, por tanto, no contiene hoy un régimen sancionador completo para la transparencia.",
+      "Para responder en un examen, conviene advertirlo: el incumplimiento reiterado de resolver en plazo es infracción grave a efectos disciplinarios según la ley estatal (art. 20.6 LTBG), y el régimen de la ley andaluza debe comprobarse en su texto vigente.",
+      "Para un examen, la pregunta típica es si la ley andaluza sanciona el incumplimiento de la publicidad activa. Respuesta: su texto consolidado no contiene ahora ese régimen, por lo que debe comprobarse la versión vigente."
+     ]
+    },
+    {
+     "titulo": "19. Colaboración y participación ciudadana",
+     "parrafos": [
+      "El artículo 14.c LTPA obliga a publicar una relación de los procedimientos en los que es posible la participación de la ciudadanía mientras se encuentren en trámite. La participación es así una información que la Administración debe ofrecer.",
+      "El artículo 5.1.c y 5.1.e LAJA reconocen el derecho a participar en las decisiones que afecten a la persona y en los asuntos públicos. El artículo 9.2 CE obliga a los poderes públicos a facilitar la participación de todos los ciudadanos.",
+      "Para un examen, la diferencia es que la transparencia permite conocer la actividad pública, y la participación permite intervenir en ella. El gobierno abierto necesita ambas (arts. 14.c LTPA, 5 LAJA y 9.2 CE)."
+     ]
+    },
+    {
+     "titulo": "20. Relación con la protección de datos y la Administración electrónica",
+     "parrafos": [
+      "El artículo 13.d LPAC reconoce el derecho de acceso a la información pública, archivos y registros de acuerdo con la ley de transparencia. El acceso electrónico se hace en el punto de acceso general (art. 13.a LPAC).",
+      "La transparencia y la protección de datos deben ponderarse, como se vio en el tema c26. La Administración electrónica facilita la publicidad activa, pero no permite publicar datos protegidos sin disociación.",
+      "Para un examen, la pregunta típica es dónde se ejerce el derecho de acceso por vía electrónica. Respuesta: en el punto de acceso general (art. 13.a LPAC), con las reglas de la ley de transparencia."
+     ]
+    },
+    {
+     "titulo": "21. Reutilización de la información pública y datos abiertos",
+     "parrafos": [
+      "La reutilización es el uso de la información pública por personas o entidades para fines distintos de aquel para el que se elaboró, como crear servicios o análisis. Los datos abiertos son la información publicada en formatos que permiten su uso libre y su procesamiento automático.",
+      "El artículo 19 LTPA regula la reutilización de la información (su rúbrica), y el artículo 8.c LTPA obliga a quien accede a respetar las obligaciones de la normativa básica para la reutilización de la información obtenida. El régimen concreto no se ha verificado en este tema.",
+      "Para un examen, la diferencia es que el acceso permite conocer la información; la reutilización permite usarla con otros fines. Ambas se apoyan en la publicidad activa y en la calidad de los datos (principio de veracidad, art. 6.e LTPA)."
+     ]
+    },
+    {
+     "titulo": "22. La transparencia integrada en la gestión",
+     "parrafos": [
+      "La transparencia no es una tarea añadida al final del procedimiento. El artículo 35 LTPA, cuya rúbrica se refiere a la integración de la transparencia en la gestión, la sitúa dentro de la actividad ordinaria de las entidades, de modo que los datos se generan ya publicables.",
+      "Esa integración exige conservar la información (art. 36 LTPA, rúbrica), formar al personal (art. 38 LTPA, rúbrica) y divulgar el derecho de acceso (art. 39 LTPA, rúbrica). Son medidas de organización, no solo de publicación.",
+      "Para un examen, la pregunta típica es qué significa integrar la transparencia en la gestión. Respuesta: que la información se genera y se conserva de forma publicable desde el inicio del procedimiento (art. 35 LTPA)."
+     ]
+    },
+    {
+     "titulo": "23. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir la publicidad activa con el derecho de acceso. La primera la hace la Administración por iniciativa propia; el segundo lo ejerce la persona que solicita (arts. 7.a y 7.b LTPA).",
+      "Atribuir a la ley una definición de gobierno abierto que no contiene. Su concepto es doctrinal y de práctica administrativa.",
+      "Pensar que el acceso es de pago. El principio de gratuidad es regla general, con las exacciones por copias o soportes (art. 6.g LTPA).",
+      "Confundir el plazo de la Junta (veinte días hábiles) con el plazo general de la ley estatal (un mes) (arts. 32 LTPA y 20.1 LTBG).",
+      "Olvidar la reclamación potestativa ante el Consejo antes del contencioso (art. 33.1 LTPA).",
+      "Pensar que la transparencia se agota en publicar. La ley exige también un acceso que se resuelva en plazo, con resoluciones motivadas y reclamables (arts. 20 y 24 LTBG; 32 y 33 LTPA).",
+      "Confundir la gratuidad del acceso con la gratuidad de las copias. El acceso es gratuito; las copias o soportes pueden tener exacciones (art. 6.g LTPA)."
+     ]
+    },
+    {
+     "titulo": "24. Casos prácticos",
+     "parrafos": [
+      "Caso 1: una persona pide copia de un expediente de contratación. Es un derecho de acceso que ejerce cualquier persona (art. 24 LTPA). La Administración solo puede limitarlo en los términos de la ley, de forma proporcionada y con acceso parcial si procede (arts. 25 y 27 LTPA).",
+      "Caso 2: la Administración deniega una solicitud sin motivar. La resolución de denegación debe ser motivada (art. 20.2 LTBG), y puede recurrirse ante el Consejo (art. 33.1 LTPA) o directamente ante el contencioso en los términos del artículo 20.5 LTBG.",
+      "Caso 3: un órgano tarda tres meses en contestar una solicitud. El plazo en la Junta es de veinte días hábiles, prorrogables (art. 32 LTPA). La demora reiterada es infracción grave a efectos disciplinarios (art. 20.6 LTBG)."
+     ]
+    },
+    {
+     "titulo": "25. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué dos vertientes tiene la transparencia? La publicidad activa y el derecho de acceso a la información pública (art. 1 LTPA).",
+      "¿Quién tiene derecho de acceso? Todas las personas (art. 7.b LTPA).",
+      "¿Cuál es el plazo máximo en la Junta para resolver una solicitud de acceso? Veinte días hábiles, prorrogables (art. 32 LTPA).",
+      "¿Qué órgano es el Consejo andaluz? Una autoridad independiente de control en protección de datos y transparencia (art. 43.1 LTPA).",
+      "¿Qué debe hacer la Administración antes de denegar por un límite? Valorar la proporcionalidad, la temporalidad y el acceso parcial (art. 25.2 y 25.3 LTPA).",
+      "¿Qué fundamento constitucional tiene el acceso a los archivos? El artículo 105.b CE.",
+      "¿Qué diferencia la reutilización del acceso? Que la reutilización usa la información con otros fines, y el acceso permite conocerla (arts. 8.c y 24 LTPA)."
+     ]
+    },
+    {
+     "titulo": "26. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema c25 sobre políticas públicas y calidad, porque la transparencia es un principio de buena administración y de evaluación.",
+      "Se conecta con el tema c26 sobre protección de datos, porque el acceso a la información y la protección de datos deben ponderarse.",
+      "Se conecta con el tema c24 sobre Administración electrónica, porque el acceso y la publicidad activa se ejercen por medios electrónicos."
+     ]
+    },
+    {
+     "titulo": "27. Claves para el examen",
+     "parrafos": [
+      "Fundamento: CE 105.b; EA 31 (buena administración y acceso a archivos).",
+      "Marco: LTBG arts. 1, 5, 12, 14, 20 y 24; LTPA arts. 1, 6, 7, 8, 10, 14, 22, 24, 25, 28, 32, 33, 43 y 45.",
+      "Publicidad activa: LTPA arts. 7.a, 10, 14 y 22. Acceso: LTPA arts. 7.b, 24 a 28 y 32.",
+      "Reclamación y Consejo: LTPA arts. 33 y 43 a 45; LTBG art. 24.",
+      "Gobierno abierto: concepto doctrinal, no definido en las leyes verificadas.",
+      "Reutilización e integración: LTPA arts. 8.c, 19, 35 a 39 (rúbricas verificadas, contenido no).",
+      "Para un examen, relacione siempre el derecho con su garantía: el acceso con la reclamación al Consejo y el plazo de resolución."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 1/2014, de Transparencia Pública de Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-7534",
+     "pdf": "leyes/BOE-A-2014-7534.pdf"
+    },
+    {
+     "nombre": "Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+     "pdf": "leyes/BOE-A-2013-12887.pdf"
+    },
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
+    }
+   ]
+  },
+  "c28": {
+   "resumen": [
+    {
+     "titulo": "Fundamento y ámbito",
+     "puntos": [
+      "Los poderes públicos velarán por la seguridad e higiene en el trabajo (art. 40.2 CE). La LPRL tiene por objeto promover la seguridad y la salud de los trabajadores (art. 2.1 LPRL).",
+      "La LPRL se aplica a las relaciones laborales y también a las administrativas o estatutarias del personal al servicio de las Administraciones públicas, con sus peculiaridades (art. 3.1 LPRL)."
+     ]
+    },
+    {
+     "titulo": "Conceptos básicos",
+     "puntos": [
+      "Prevención: conjunto de actividades y medidas para evitar o disminuir los riesgos derivados del trabajo (art. 4.1.º LPRL). El riesgo valora la probabilidad y la severidad del daño (art. 4.2.º LPRL).",
+      "Riesgo grave e inminente: el que se materializará en un futuro inmediato y puede suponer un daño grave (art. 4.4.º LPRL)."
+     ]
+    },
+    {
+     "titulo": "Derechos y deberes",
+     "puntos": [
+      "Protección eficaz frente a los riesgos, con deber correlativo del empresario y de las Administraciones públicas (art. 14.1 LPRL). El empresario integra la actividad preventiva en la organización (art. 14.2 LPRL).",
+      "El trabajador debe usar correctamente los medios y equipos de protección y no poner fuera de funcionamiento los dispositivos de seguridad (art. 29.2 LPRL)."
+     ]
+    },
+    {
+     "titulo": "Planificación, formación y emergencias",
+     "puntos": [
+      "El plan de prevención se basa en la evaluación de riesgos y en la planificación de la actividad preventiva (art. 16.1 y 16.2 LPRL).",
+      "La formación se da al contratarse y cuando cambian las funciones o las tecnologías (art. 19.1 LPRL). Las medidas de emergencia cubren primeros auxilios, incendios y evacuación (art. 20 LPRL)."
+     ]
+    },
+    {
+     "titulo": "Riesgo grave, salud y coordinación",
+     "puntos": [
+      "Ante un riesgo grave e inminente, el trabajador puede interrumpir su actividad, y no puede exigírsele que la reanude mientras persista el peligro (art. 21.1.b LPRL).",
+      "La vigilancia de la salud exige el consentimiento del trabajador, con excepciones (art. 22.1 LPRL). Cuando varias empresas comparten un centro, cooperan y el titular informa (art. 24 LPRL)."
+     ]
+    },
+    {
+     "titulo": "Participación y organización",
+     "puntos": [
+      "Los delegados de prevención representan a los trabajadores en prevención (art. 35.1 LPRL) y son consultados antes de las decisiones del artículo 33 (art. 36.1.c LPRL).",
+      "El comité de seguridad y salud es obligatorio con 50 o más trabajadores (art. 38.2 LPRL). La organización concreta de la prevención en la Junta no se ha verificado en este tema."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LPRL",
+     "rol": "Norma principal del tema (arts. 2 a 4, 14 a 16, 18 a 22, 24, 29, 31, 33, 35, 36, 38 y 39)"
+    },
+    {
+     "id": "CE",
+     "rol": "Fundamento constitucional (art. 40.2)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 40.2 CE, ¿qué deben velar los poderes públicos?",
+     "opciones": [
+      "La seguridad e higiene en el trabajo",
+      "Solo el precio del trabajo",
+      "Ninguna condición laboral",
+      "Solo el número de horas extraordinarias"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 40.2 CE establece que los poderes públicos velarán por la seguridad e higiene en el trabajo.",
+     "referencia": "Art. 40.2 CE"
+    },
+    {
+     "pregunta": "Según el art. 4.1.º LPRL, ¿qué es la prevención?",
+     "opciones": [
+      "La contratación de nuevo personal",
+      "La jubilación anticipada",
+      "Las actividades y medidas para evitar o disminuir los riesgos derivados del trabajo",
+      "La compra de seguros privados"
+     ],
+     "correcta": 2,
+     "explicacion": "La prevención es el conjunto de actividades o medidas adoptadas en todas las fases de la actividad para evitar o disminuir los riesgos derivados del trabajo.",
+     "referencia": "Art. 4.1.º LPRL"
+    },
+    {
+     "pregunta": "Según el art. 3.1 LPRL, ¿a quién se aplica la ley?",
+     "opciones": [
+      "Solo a los autónomos",
+      "A nadie del sector público",
+      "Solo a los trabajadores del sector privado",
+      "A las relaciones laborales y también a las administrativas o estatutarias del personal de las Administraciones públicas"
+     ],
+     "correcta": 3,
+     "explicacion": "La LPRL se aplica a las relaciones laborales y a las de carácter administrativo o estatutario del personal al servicio de las Administraciones públicas, con sus peculiaridades.",
+     "referencia": "Art. 3.1 LPRL"
+    },
+    {
+     "pregunta": "Según el art. 14.1 LPRL, ¿qué forma parte del derecho de los trabajadores a una protección eficaz?",
+     "opciones": [
+      "Solo el salario",
+      "La información, consulta y participación, la formación, la paralización ante riesgo grave e inminente y la vigilancia de la salud",
+      "Nada",
+      "Solo las vacaciones"
+     ],
+     "correcta": 1,
+     "explicacion": "Los derechos de información, consulta y participación, formación, paralización ante riesgo grave e inminente y vigilancia de la salud forman parte del derecho a la protección eficaz.",
+     "referencia": "Art. 14.1 LPRL"
+    },
+    {
+     "pregunta": "Según el art. 16.2 LPRL, ¿cuáles son los instrumentos esenciales del plan de prevención?",
+     "opciones": [
+      "La evaluación de riesgos y la planificación de la actividad preventiva",
+      "Solo la formación",
+      "El seguro de vida",
+      "El presupuesto y la publicidad"
+     ],
+     "correcta": 0,
+     "explicacion": "Los instrumentos esenciales son la evaluación de riesgos laborales y la planificación de la actividad preventiva.",
+     "referencia": "Art. 16.2 LPRL"
+    },
+    {
+     "pregunta": "Según el art. 19.1 LPRL, ¿cuándo debe recibir formación el trabajador?",
+     "opciones": [
+      "Solo cada diez años",
+      "Solo al jubilarse",
+      "Al contratarse y cuando cambien sus funciones o se introduzcan nuevas tecnologías",
+      "Nunca"
+     ],
+     "correcta": 2,
+     "explicacion": "La formación debe darse en el momento de la contratación y cuando cambien las funciones, las tecnologías o los equipos de trabajo.",
+     "referencia": "Art. 19.1 LPRL"
+    },
+    {
+     "pregunta": "Según el art. 21.1.b LPRL, ¿puede exigirse a un trabajador que reanude la actividad mientras persista un peligro grave e inminente?",
+     "opciones": [
+      "Sí, si lo ordena el jefe",
+      "Sí, con un aviso de una hora",
+      "Sí, siempre",
+      "No, no puede exigirse mientras persista el peligro, salvo excepción justificada"
+     ],
+     "correcta": 3,
+     "explicacion": "En caso de peligro grave, inminente e inevitable, no puede exigirse al trabajador que reanude su actividad mientras persista el peligro, salvo excepción debidamente justificada.",
+     "referencia": "Art. 21.1.b LPRL"
+    },
+    {
+     "pregunta": "Según el art. 35.1 LPRL, ¿quiénes son los representantes de los trabajadores con funciones específicas en prevención?",
+     "opciones": [
+      "Los proveedores",
+      "Los delegados de prevención",
+      "Los sindicatos sin representación",
+      "Los clientes"
+     ],
+     "correcta": 1,
+     "explicacion": "Los delegados de prevención son los representantes de los trabajadores con funciones específicas en materia de prevención de riesgos en el trabajo.",
+     "referencia": "Art. 35.1 LPRL"
+    },
+    {
+     "pregunta": "Según el art. 38.2 LPRL, ¿a partir de cuántos trabajadores debe constituirse el comité de seguridad y salud?",
+     "opciones": [
+      "Diez",
+      "Veinticinco",
+      "Cincuenta o más",
+      "Cien"
+     ],
+     "correcta": 2,
+     "explicacion": "El comité de seguridad y salud se constituye en todas las empresas o centros de trabajo con 50 o más trabajadores.",
+     "referencia": "Art. 38.2 LPRL"
+    },
+    {
+     "pregunta": "Según el art. 29.2.2.º LPRL, ¿qué deben hacer los trabajadores con los medios y equipos de protección?",
+     "opciones": [
+      "Utilizarlos correctamente, de acuerdo con las instrucciones recibidas",
+      "Venderlos",
+      "No usarlos nunca",
+      "Dejarlos en el almacén"
+     ],
+     "correcta": 0,
+     "explicacion": "Los trabajadores deben utilizar correctamente los medios y equipos de protección facilitados, de acuerdo con las instrucciones recibidas del empresario.",
+     "referencia": "Art. 29.2.2.º LPRL"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué es la prevención de riesgos laborales",
+     "parrafos": [
+      "La prevención de riesgos laborales es el conjunto de actividades y medidas que la empresa, o la Administración en su caso, adopta en todas las fases de su actividad para evitar o disminuir los riesgos derivados del trabajo (art. 4.1.º Ley 31/1995, LPRL). Su objetivo es proteger la seguridad y la salud de las personas que trabajan.",
+      "La prevención no se limita a reparar los daños: busca que no se produzcan. Por eso exige planificar, evaluar y formar, además de reaccionar cuando hay un accidente o una enfermedad.",
+      "Para un examen, la definición de prevención es la pregunta más frecuente. Respuesta: el conjunto de actividades y medidas, en todas las fases de la actividad, para evitar o disminuir los riesgos derivados del trabajo (art. 4.1.º LPRL).",
+      "En la Administración, la prevención protege a quienes prestan servicio al ciudadano y, por eso, es también una obligación de organización: un servicio que no cuida la salud de su personal no presta bien sus funciones."
+     ]
+    },
+    {
+     "titulo": "2. El fundamento constitucional",
+     "parrafos": [
+      "El artículo 40.2 de la Constitución establece que los poderes públicos fomentarán una política que garantice la formación y readaptación profesionales, velarán por la seguridad e higiene en el trabajo y garantizarán el descanso necesario.",
+      "Esta obligación de los poderes públicos vincula también a la Administración como empleadora. Para un examen, la pregunta típica es qué mandato constitucional fundamenta la prevención. Respuesta: el artículo 40.2 CE, que ordena velar por la seguridad e higiene en el trabajo.",
+      "El artículo 40.2 CE no crea por sí solo derechos concretos; los concreta la ley, y en este tema, la Ley 31/1995."
+     ]
+    },
+    {
+     "titulo": "3. El objeto y el ámbito de la Ley 31/1995",
+     "parrafos": [
+      "El artículo 2.1 LPRL establece que la ley tiene por objeto promover la seguridad y la salud de los trabajadores mediante la aplicación de medidas y el desarrollo de las actividades necesarias para prevenir los riesgos derivados del trabajo. Establece los principios generales de prevención, la información, la consulta, la participación equilibrada y la formación.",
+      "El artículo 3.1 LPRL extiende la ley tanto a las relaciones laborales del Estatuto de los Trabajadores como a las relaciones de carácter administrativo o estatutario del personal al servicio de las Administraciones públicas, con las peculiaridades que la propia ley o sus normas de desarrollo contemplen.",
+      "Para un examen, la pregunta típica es si la LPRL se aplica a los funcionarios. Respuesta: sí, con las peculiaridades que la ley prevé (art. 3.1 LPRL)."
+     ]
+    },
+    {
+     "titulo": "4. Definiciones básicas: riesgo, daño y riesgo grave e inminente",
+     "parrafos": [
+      "El artículo 4.2.º LPRL define el riesgo laboral como la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo. Para calificar su gravedad se valoran conjuntamente la probabilidad de que se produzca el daño y la severidad del mismo.",
+      "El artículo 4.3.º LPRL considera daños derivados del trabajo las enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo. El artículo 4.4.º LPRL define el riesgo grave e inminente como el que es probable que se materialice en un futuro inmediato y pueda suponer un daño grave para la salud.",
+      "Para un examen, la gravedad del riesgo combina probabilidad y severidad. Un riesgo muy probable pero leve y uno muy grave pero poco probable pueden requerir medidas distintas (art. 4.2.º LPRL)."
+     ]
+    },
+    {
+     "titulo": "5. El derecho a la protección frente a los riesgos",
+     "parrafos": [
+      "El artículo 14.1 LPRL reconoce a los trabajadores el derecho a una protección eficaz en materia de seguridad y salud en el trabajo. Ese derecho supone un deber correlativo del empresario, y el mismo deber de protección lo tienen las Administraciones públicas respecto del personal a su servicio.",
+      "El mismo precepto establece que los derechos de información, consulta y participación, formación, paralización de la actividad en caso de riesgo grave e inminente y vigilancia de la salud forman parte del derecho a la protección eficaz (art. 14.1 LPRL).",
+      "Para un examen, la pregunta típica es si la paralización de la actividad es un derecho. Respuesta: sí, forma parte del derecho a la protección eficaz (art. 14.1 LPRL)."
+     ]
+    },
+    {
+     "titulo": "6. El deber general de prevención del empresario",
+     "parrafos": [
+      "El artículo 14.2 LPRL obliga al empresario a garantizar la seguridad y la salud de los trabajadores en todos los aspectos relacionados con el trabajo. Para ello integra la actividad preventiva en la empresa, en todos sus niveles jerárquicos.",
+      "Este deber es el centro del sistema: no se cumple con un documento, sino con una práctica que se extiende a toda la organización. Para la Administración, el responsable del servicio o unidad asume la parte de esa integración que le corresponde.",
+      "Para un examen, la integración de la actividad preventiva es la idea clave del deber del empresario (art. 14.2 LPRL)."
+     ]
+    },
+    {
+     "titulo": "7. Los principios de la acción preventiva",
+     "parrafos": [
+      "El artículo 15.1 LPRL enumera los principios de la acción preventiva. Son, entre otros: evitar los riesgos (letra a); evaluar los que no se puedan evitar (letra b); combatirlos en su origen (letra c); adaptar el trabajo a la persona (letra d); tener en cuenta la evolución de la técnica (letra e); sustituir lo peligroso por lo que entrañe poco o ningún peligro (letra f); y planificar la prevención de forma coherente (letra g).",
+      "El principio de sustitución (letra f) y el de evitar en origen (letra c) son los que más se preguntan. Responden a la idea de eliminar el peligro antes que proteger frente a él.",
+      "Para un examen, el orden de actuación es: evitar, evaluar lo que no se puede evitar, combatir en origen y, por último, protección individual. La letra f indica sustituir lo peligroso antes que protegerse."
+     ]
+    },
+    {
+     "titulo": "8. El plan de prevención y la evaluación de riesgos",
+     "parrafos": [
+      "El artículo 16.1 LPRL exige integrar la prevención en el sistema general de gestión mediante un plan de prevención de riesgos laborales, que incluya la estructura organizativa, las responsabilidades, las funciones, las prácticas, los procedimientos, los procesos y los recursos.",
+      "El artículo 16.2 LPRL establece que los instrumentos esenciales del plan son la evaluación de riesgos laborales y la planificación de la actividad preventiva. El empresario debe realizar una evaluación inicial de los riesgos para la seguridad y la salud de los trabajadores.",
+      "Para un examen, la pregunta típica es qué instrumentos son esenciales en el plan. Respuesta: la evaluación de riesgos y la planificación de la actividad preventiva (art. 16.2 LPRL)."
+     ]
+    },
+    {
+     "titulo": "9. Equipos de trabajo y medios de protección",
+     "parrafos": [
+      "El artículo 17 LPRL regula los equipos de trabajo y los medios de protección. Su contenido concreto no se ha verificado en este tema; como criterio general, los equipos deben ser adecuados al trabajo y la protección individual se usa cuando el riesgo no se evita por otros medios.",
+      "Para un examen, la protección individual es el último recurso de la jerarquía preventiva: solo cuando la protección colectiva o la eliminación del riesgo no basten (art. 17 LPRL, y principios del art. 15.1 LPRL).",
+      "El detalle técnico de los equipos y de los medios no se ha verificado en este tema."
+     ]
+    },
+    {
+     "titulo": "10. Información, consulta y participación de los trabajadores",
+     "parrafos": [
+      "El artículo 18.1 LPRL obliga al empresario a adoptar las medidas adecuadas para que los trabajadores reciban toda la información necesaria sobre los riesgos para la seguridad y la salud, tanto en la empresa en su conjunto como en cada puesto o función (letra a); sobre las medidas de protección y prevención (letra b); y sobre las medidas de emergencia del artículo 20 (letra c).",
+      "La consulta y la participación se articulan a través de los delegados de prevención y del comité de seguridad y salud, que se estudian en los apartados siguientes. El artículo 33 LPRL regula la consulta de los trabajadores sobre las decisiones con incidencia en la prevención.",
+      "Para un examen, la diferencia es que la información es unidireccional (de la empresa al trabajador), la consulta exige opinión previa y la participación permite intervenir en la decisión (art. 18 y 33 LPRL)."
+     ]
+    },
+    {
+     "titulo": "11. Formación en prevención",
+     "parrafos": [
+      "El artículo 19.1 LPRL obliga al empresario a garantizar que cada trabajador reciba una formación teórica y práctica, suficiente y adecuada, en materia preventiva. Debe recibirla al contratarse, cualquiera que sea la modalidad, y cuando cambien sus funciones o se introduzcan nuevas tecnologías o equipos.",
+      "La formación debe estar centrada en el puesto de trabajo o función de cada trabajador. Una formación genérica que no se refiere al puesto no cumple la exigencia de suficiencia y adecuación.",
+      "Para un examen, la pregunta típica es cuándo debe recibir formación el trabajador. Respuesta: al contratarse y cuando cambien sus funciones o las tecnologías (art. 19.1 LPRL)."
+     ]
+    },
+    {
+     "titulo": "12. Medidas de emergencia",
+     "parrafos": [
+      "El artículo 20 LPRL obliga al empresario a analizar las posibles situaciones de emergencia y a adoptar las medidas necesarias en materia de primeros auxilios, lucha contra incendios y evacuación de los trabajadores.",
+      "Debe designar al personal encargado de esas medidas, con formación suficiente, en número suficiente y con material adecuado, y comprobar periódicamente su correcto funcionamiento. Tiene en cuenta la posible presencia de personas ajenas a la empresa.",
+      "Para un examen, la pregunta típica es qué debe hacer el empresario con las emergencias. Respuesta: analizarlas, adoptar medidas de primeros auxilios, incendios y evacuación, designar personal y comprobar su funcionamiento (art. 20 LPRL)."
+     ]
+    },
+    {
+     "titulo": "13. Riesgo grave e inminente",
+     "parrafos": [
+      "El artículo 21.1 LPRL obliga al empresario, cuando los trabajadores estén o puedan estar expuestos a un riesgo grave e inminente, a informar lo antes posible a los afectados de su existencia y de las medidas adoptadas o que deban adoptarse (letra a).",
+      "También debe dar las instrucciones para que, en caso de peligro grave, inminente e inevitable, los trabajadores puedan interrumpir su actividad y abandonar de inmediato el lugar de trabajo (letra b). No puede exigirse que reanuden la actividad mientras persista el peligro, salvo excepción justificada por razones de seguridad.",
+      "Para un examen, la pregunta típica es si puede obligarse a reanudar el trabajo con riesgo grave. Respuesta: no mientras persista el peligro (art. 21.1.b LPRL)."
+     ]
+    },
+    {
+     "titulo": "14. Vigilancia de la salud",
+     "parrafos": [
+      "El artículo 22.1 LPRL garantiza a los trabajadores la vigilancia periódica de su estado de salud en función de los riesgos inherentes al trabajo. Esa vigilancia solo puede llevarse a cabo con el consentimiento del trabajador.",
+      "Se exceptúan del carácter voluntario, previo informe de los representantes de los trabajadores, los supuestos en que el reconocimiento es imprescindible para evaluar los efectos de las condiciones de trabajo sobre la salud. Esa excepción debe ser proporcionada.",
+      "Para un examen, la regla es el consentimiento; la excepción exige informe previo de los representantes (art. 22.1 LPRL)."
+     ]
+    },
+    {
+     "titulo": "15. Organización del trabajo y riesgos psicosociales",
+     "parrafos": [
+      "No todos los riesgos son físicos. La organización del trabajo, el ritmo, la carga, las relaciones con los compañeros y la forma de dirigir pueden producir daños a la salud. El artículo 15.1.d LPRL obliga a adaptar el trabajo a la persona, en particular para atenuar el trabajo monótono y repetitivo y reducir sus efectos en la salud.",
+      "El artículo 15.1.g LPRL exige planificar la prevención de forma coherente, integrando la técnica, la organización del trabajo, las condiciones de trabajo, las relaciones sociales y la influencia de los factores ambientales. Es el fundamento de la prevención de riesgos psicosociales.",
+      "Para un examen, la pregunta típica es si la prevención incluye la organización del trabajo. Respuesta: sí, la planificación debe integrar la organización del trabajo y las relaciones sociales (art. 15.1.g LPRL)."
+     ]
+    },
+    {
+     "titulo": "16. Confidencialidad de los datos de salud",
+     "parrafos": [
+      "Los resultados de la vigilancia de la salud son datos especialmente sensibles. La LPRL vincula la vigilancia al consentimiento del trabajador (art. 22.1 LPRL), y la protección de la intimidad está garantizada por la Constitución (art. 18.1 CE).",
+      "La práctica general es comunicar las conclusiones de un reconocimiento a la persona afectada y limitar a la empresa lo imprescindible para aplicar medidas preventivas. Esta regla se conecta con la protección de datos del tema c26; el detalle del artículo 22 LPRL no se ha verificado en este tema.",
+      "Para un examen, la pregunta típica es quién puede conocer el detalle de un reconocimiento médico. Respuesta: el trabajador y el personal sanitario que realiza la vigilancia; la empresa solo debe conocer lo necesario para aplicar medidas (arts. 18.1 CE y 22.1 LPRL; detalle no verificado)."
+     ]
+    },
+    {
+     "titulo": "17. La documentación de la prevención",
+     "parrafos": [
+      "El artículo 23 LPRL regula la documentación que debe tener el empresario en materia preventiva. Su contenido concreto no se ha verificado en este tema, y debe comprobarse en el texto vigente.",
+      "La documentación sirve para acreditar el cumplimiento y para que la Inspección y los representantes puedan comprobarlo. Sin documentación, el cumplimiento no puede demostrarse.",
+      "Para un examen, la documentación es la prueba del cumplimiento, no el cumplimiento en sí (art. 23 LPRL)."
+     ]
+    },
+    {
+     "titulo": "18. Coordinación de actividades empresariales",
+     "parrafos": [
+      "El artículo 24.1 LPRL dispone que, cuando en un mismo centro de trabajo desarrollen actividades trabajadores de dos o más empresas, estas deben cooperar en la aplicación de la normativa de prevención y establecer los medios de coordinación necesarios.",
+      "El artículo 24.2 LPRL obliga al empresario titular del centro de trabajo a adoptar las medidas para que los demás empresarios que desarrollen actividades en él reciban la información necesaria sobre riesgos y medidas de prevención.",
+      "Para un examen, la pregunta típica es quién debe informar a las empresas que trabajan en un centro. Respuesta: el empresario titular del centro (art. 24.2 LPRL)."
+     ]
+    },
+    {
+     "titulo": "19. Protección de trabajadores sensibles, maternidad y menores",
+     "parrafos": [
+      "Los artículos 25, 26 y 27 LPRL regulan la protección de los trabajadores especialmente sensibles a determinados riesgos, de la maternidad y de los menores. Sus reglas concretas no se han verificado en este tema.",
+      "En términos generales, el empresario debe evaluar la situación particular de estos trabajadores y adaptar el puesto o las condiciones para protegerlos. Para un examen, cite el artículo correspondiente a cada colectivo y compruebe su texto.",
+      "Para un examen, la protección de la maternidad es un supuesto específico del artículo 26 LPRL; no se confunde con la vigilancia general de la salud del artículo 22."
+     ]
+    },
+    {
+     "titulo": "20. Obligaciones de los trabajadores",
+     "parrafos": [
+      "El artículo 29.1 LPRL establece que corresponde a cada trabajador velar por su propia seguridad y salud y por la de las personas a las que pueda afectar su actividad, mediante el cumplimiento de las medidas de prevención y según sus instrucciones y formación.",
+      "El artículo 29.2 LPRL enumera deberes concretos: usar adecuadamente las máquinas, aparatos y herramientas (apartado 1.º); utilizar correctamente los medios y equipos de protección facilitados (2.º); y no poner fuera de funcionamiento ni manipular los dispositivos de seguridad (3.º).",
+      "Para un examen, la pregunta típica es si el trabajador puede retirar un dispositivo de seguridad. Respuesta: no, debe utilizarlo correctamente y no ponerlo fuera de funcionamiento (art. 29.2.3.º LPRL)."
+     ]
+    },
+    {
+     "titulo": "21. Los servicios de prevención",
+     "parrafos": [
+      "El artículo 31.1 LPRL prevé que, si la designación de trabajadores para las actividades de prevención es insuficiente, en función del tamaño de la empresa, de los riesgos o de la peligrosidad de las actividades, debe recurrirse a servicios de prevención, con el alcance que fijen las normas de desarrollo.",
+      "Los servicios de prevención pueden ser propios o ajenos a la empresa, según la modalidad que se elija. Su detalle normativo se encuentra en el reglamento de desarrollo, que no está en el repositorio.",
+      "Para un examen, la pregunta típica es cuándo se necesita un servicio de prevención. Respuesta: cuando la designación de trabajadores resulta insuficiente (art. 31.1 LPRL)."
+     ]
+    },
+    {
+     "titulo": "22. Los delegados de prevención",
+     "parrafos": [
+      "El artículo 35.1 LPRL define a los delegados de prevención como los representantes de los trabajadores con funciones específicas en materia de prevención de riesgos.",
+      "El artículo 36.1 LPRL les atribuye competencias: colaborar con la dirección en la mejora de la acción preventiva (letra a); promover la cooperación de los trabajadores (letra b); ser consultados con carácter previo a las decisiones del artículo 33 (letra c); y ejercer vigilancia y control sobre el cumplimiento de la normativa (letra d).",
+      "Para un examen, la pregunta típica es quién representa a los trabajadores en prevención. Respuesta: los delegados de prevención (art. 35.1 LPRL)."
+     ]
+    },
+    {
+     "titulo": "23. El comité de seguridad y salud",
+     "parrafos": [
+      "El artículo 38.1 LPRL define el comité de seguridad y salud como el órgano paritario y colegiado de participación, destinado a la consulta regular y periódica de las actuaciones de la empresa en materia de prevención.",
+      "El artículo 38.2 LPRL exige constituir el comité en todas las empresas o centros de trabajo con 50 o más trabajadores. Está formado por los delegados de prevención, de una parte, y por el empresario y sus representantes en número igual, de la otra.",
+      "El artículo 39.1 LPRL atribuye al comité la participación en la elaboración, puesta en práctica y evaluación de los planes y programas de prevención. Para un examen, la pregunta típica es cuántos trabajadores exigen comité. Respuesta: 50 o más (art. 38.2 LPRL)."
+     ]
+    },
+    {
+     "titulo": "24. La organización de la prevención en la Administración de la Junta de Andalucía",
+     "parrafos": [
+      "El tema pide referencia a la organización de la prevención en la Administración de la Junta de Andalucía. El marco estatal que se aplica a las Administraciones públicas es la LPRL, con las peculiaridades que prevé (art. 3.1 LPRL).",
+      "La organización concreta de la prevención en la Junta (sus servicios de prevención, sus delegados y comités, y las unidades responsables) depende de normas de desarrollo y de acuerdos internos que no están en el repositorio y no se han verificado en este tema.",
+      "Para un examen, cite el marco verificado (LPRL arts. 3.1, 14, 16, 31, 35, 38 y 39) y advierta que la organización concreta de la Junta debe comprobarse en su normativa vigente."
+     ]
+    },
+    {
+     "titulo": "25. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir el riesgo con el daño. El riesgo es la posibilidad de un daño; el daño es la consecuencia (art. 4.2.º y 4.3.º LPRL).",
+      "Afirmar que la LPRL no se aplica a los funcionarios. Sí se aplica, con las peculiaridades que prevé (art. 3.1 LPRL).",
+      "Pensar que el reconocimiento de salud puede ser obligatorio sin excepciones. Es voluntario, con las excepciones del artículo 22.1 LPRL.",
+      "Confundir la información con la consulta. La primera es de la empresa al trabajador; la segunda exige opinión previa de los representantes (arts. 18 y 33 LPRL).",
+      "Olvidar que el comité es obligatorio con 50 o más trabajadores (art. 38.2 LPRL)."
+     ]
+    },
+    {
+     "titulo": "26. Casos prácticos",
+     "parrafos": [
+      "Caso 1: un trabajador descubre una instalación eléctrica en mal estado con riesgo grave e inminente. El empresario debe informarle de inmediato y permitirle interrumpir la actividad sin que deba reanudarla mientras persista el peligro (art. 21.1 LPRL).",
+      "Caso 2: un centro de trabajo comparte instalaciones con dos empresas externas. El titular debe informarlas de los riesgos y medidas de prevención (art. 24.2 LPRL), y todas deben cooperar en la aplicación de la normativa (art. 24.1 LPRL).",
+      "Caso 3: un trabajador se niega a usar el equipo de protección facilitado. Tiene el deber de utilizarlo correctamente (art. 29.2.2.º LPRL). La empresa debe informarle de las instrucciones y de los riesgos, y dejar constancia de la formación recibida (arts. 18 y 19 LPRL)."
+     ]
+    },
+    {
+     "titulo": "27. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué fundamenta constitucionalmente la seguridad en el trabajo? El artículo 40.2 CE.",
+      "¿Qué es un riesgo laboral? La posibilidad de que un trabajador sufra un daño derivado del trabajo, valorada por probabilidad y severidad (art. 4.2.º LPRL).",
+      "¿Qué instrumentos son esenciales en el plan de prevención? La evaluación de riesgos y la planificación de la actividad preventiva (art. 16.2 LPRL).",
+      "¿Cuándo debe recibir formación el trabajador? Al contratarse y cuando cambien sus funciones o las tecnologías (art. 19.1 LPRL).",
+      "¿Cuándo es obligatorio el comité de seguridad y salud? Con 50 o más trabajadores (art. 38.2 LPRL).",
+      "¿Quién representa a los trabajadores en prevención? Los delegados de prevención (art. 35.1 LPRL).",
+      "¿La prevención incluye la organización del trabajo? Sí: la planificación debe integrar la organización del trabajo y las relaciones sociales (art. 15.1.g LPRL)."
+     ]
+    },
+    {
+     "titulo": "28. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema c20 sobre función pública, porque el personal de la Junta es personal al servicio de una Administración pública a efectos de la LPRL.",
+      "Se conecta con el tema c25 sobre políticas públicas, porque la prevención es también una política pública de salud laboral y su evaluación sigue el ciclo general.",
+      "Se conecta con el tema c26 sobre protección de datos, porque la vigilancia de la salud trata datos especialmente protegidos y debe respetar la normativa de datos."
+     ]
+    },
+    {
+     "titulo": "29. Claves para el examen",
+     "parrafos": [
+      "Fundamento: CE 40.2; ámbito: LPRL 3.1 (incluido el personal de las Administraciones públicas).",
+      "Derechos y deberes: LPRL 14 (protección eficaz y deber del empresario o de la Administración), 29 (deberes del trabajador).",
+      "Prevención: principios del artículo 15.1 LPRL; plan y evaluación (arts. 16.1 y 16.2 LPRL); equipos y medios de protección (art. 17 LPRL).",
+      "Información, consulta y participación: LPRL 18, 19, 33 y 35 a 39 (delegados y comité, con comité obligatorio con 50 o más trabajadores).",
+      "Emergencias, riesgo grave y salud: LPRL 20, 21 y 22. Coordinación: LPRL 24.",
+      "Organización en la Junta: el marco es la LPRL; la organización concreta no está verificada.",
+      "Organización y salud: LPRL 15.1.d y 15.1.g (organización del trabajo), 22.1 (vigilancia con consentimiento) y CE 18.1 (intimidad).",
+      "Para un examen, conviene citar el número del artículo junto con el derecho o la obligación que regula."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 31/1995, de Prevención de Riesgos Laborales (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+     "pdf": "leyes/BOE-A-1995-24292.pdf"
+    },
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
     }
    ]
   },
