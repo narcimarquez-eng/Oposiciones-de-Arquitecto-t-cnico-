@@ -1,0 +1,120 @@
+{
+  "id": "c04",
+  "resumen": [
+    {
+      "titulo": "Regulación constitucional",
+      "puntos": [
+        "Municipios y provincias tienen autonomía garantizada por la Constitución (arts. 137, 140 y 141 CE).",
+        "La alteración de los límites provinciales requiere ley orgánica de las Cortes Generales (art. 141.1 CE).",
+        "El Estado fija las bases del régimen jurídico de las Administraciones públicas (art. 149.1.18.ª CE). La LBRL (Ley 7/1985) es el marco básico."
+      ]
+    },
+    {
+      "titulo": "Tipología de entes locales",
+      "puntos": [
+        "Administraciones territoriales locales: municipios, provincias e islas (art. 4 LBRL).",
+        "La comarca es una agrupación voluntaria de municipios limítrofes, creada por ley del Parlamento andaluz (art. 97 del Estatuto)."
+      ]
+    },
+    {
+      "titulo": "El municipio",
+      "puntos": [
+        "Elementos del municipio: territorio, población y organización (art. 11.2 LBRL). Cada municipio pertenece a una sola provincia (art. 12.2).",
+        "Órganos: alcalde, tenientes de alcalde y pleno en todos los ayuntamientos; junta de gobierno local en los de mayor población (art. 20 LBRL).",
+        "Servicios obligatorios en todos los municipios: alumbrado público, cementerio, recogida de residuos, limpieza viaria, abastecimiento de agua y alcantarillado (art. 26 LBRL)."
+      ]
+    },
+    {
+      "titulo": "La provincia y las Diputaciones",
+      "puntos": [
+        "Fines propios de la provincia (art. 31.2 LBRL). Presidente, Vicepresidentes, Junta de Gobierno y Pleno en todas las Diputaciones (art. 32 LBRL).",
+        "En Andalucía, el gobierno y la administración autónoma de la provincia corresponden a la Diputación (art. 96.2 del Estatuto)."
+      ]
+    },
+    {
+      "titulo": "Andalucía: competencias y relaciones",
+      "puntos": [
+        "Núcleo competencial propio de los municipios, con urbanismo y vivienda (art. 92 del Estatuto).",
+        "Transferencia y delegación de competencias por ley aprobada por mayoría absoluta (art. 93).",
+        "Órgano mixto Junta-Ayuntamientos (art. 95) y ley de régimen local que regule las relaciones (art. 98)."
+      ]
+    }
+  ],
+  "leyes": [
+    { "id": "CE", "rol": "Fundamento constitucional: arts. 137, 140, 141 y 149.1.18.ª" },
+    { "id": "LBRL", "rol": "Norma principal del tema: bases del régimen local" },
+    { "id": "EA-ANDALUCIA", "rol": "Complementaria: organización territorial de Andalucía (arts. 90 a 98)" }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Qué precepto de la Constitución garantiza la autonomía de los municipios?",
+      "opciones": ["Art. 137", "Art. 140", "Art. 141", "Art. 148"],
+      "correcta": 1,
+      "explicacion": "El art. 140 CE garantiza la autonomía de los municipios, que tienen personalidad jurídica plena y cuyo gobierno corresponde a sus Ayuntamientos.",
+      "referencia": "Art. 140 CE"
+    },
+    {
+      "pregunta": "¿Qué se requiere para alterar los límites provinciales?",
+      "opciones": ["Mayoría simple del Senado", "Ley orgánica de las Cortes Generales", "Decreto del Gobierno", "Ley ordinaria autonómica"],
+      "correcta": 1,
+      "explicacion": "Cualquier alteración de los límites provinciales debe aprobarse mediante ley orgánica de las Cortes Generales.",
+      "referencia": "Art. 141.1 CE"
+    },
+    {
+      "pregunta": "¿Cuántos elementos integran el municipio según el art. 11.2 LBRL?",
+      "opciones": ["Dos", "Cuatro", "Tres: territorio, población y organización", "Cinco"],
+      "correcta": 2,
+      "explicacion": "El art. 11.2 LBRL enumera como elementos del municipio el territorio, la población y la organización.",
+      "referencia": "Art. 11.2 LBRL"
+    },
+    {
+      "pregunta": "¿A cuántas provincias puede pertenecer un municipio?",
+      "opciones": ["A varias provincias", "A la comunidad autónoma", "A ninguna", "A una sola provincia"],
+      "correcta": 3,
+      "explicacion": "Cada municipio pertenece a una sola provincia (art. 12.2 LBRL).",
+      "referencia": "Art. 12.2 LBRL"
+    },
+    {
+      "pregunta": "¿Quién ostenta la presidencia de la corporación municipal?",
+      "opciones": ["El Alcalde", "El Pleno", "La Junta de Gobierno", "El Secretario"],
+      "correcta": 0,
+      "explicacion": "El alcalde es el presidente de la corporación y tiene las atribuciones del art. 21.1 LBRL.",
+      "referencia": "Art. 21.1 LBRL"
+    },
+    {
+      "pregunta": "¿Qué órganos existen en todos los ayuntamientos?",
+      "opciones": ["Alcalde, tenientes de alcalde y pleno", "Junta de gobierno y comisiones", "Solo el alcalde", "Pleno y secretario"],
+      "correcta": 0,
+      "explicacion": "El alcalde, los tenientes de alcalde y el pleno existen en todos los ayuntamientos. La junta de gobierno local existe en los municipios de población superior a la que fija la ley.",
+      "referencia": "Art. 20.1.a) LBRL"
+    },
+    {
+      "pregunta": "¿Cuál de estos servicios es obligatorio en todos los municipios?",
+      "opciones": ["Transporte urbano", "Teatro municipal", "Alumbrado público", "Mercados"],
+      "correcta": 2,
+      "explicacion": "El art. 26.1.a) LBRL impone a todos los municipios el alumbrado público, el cementerio, la recogida de residuos, la limpieza viaria y el abastecimiento de agua, entre otros servicios.",
+      "referencia": "Art. 26.1.a) LBRL"
+    },
+    {
+      "pregunta": "¿Qué se exige para transferir competencias a los ayuntamientos andaluces?",
+      "opciones": ["Decreto del Consejo de Gobierno", "Acuerdo del Pleno", "Convenio con el Estado", "Ley aprobada por mayoría absoluta"],
+      "correcta": 3,
+      "explicacion": "El art. 93 del Estatuto regula la transferencia y delegación de competencias en los ayuntamientos por ley aprobada por mayoría absoluta, con suficiencia financiera.",
+      "referencia": "Art. 93 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué entidad local tiene carácter voluntario y se crea por ley autonómica?",
+      "opciones": ["El municipio", "La provincia", "La comarca", "La isla"],
+      "correcta": 2,
+      "explicacion": "La comarca es la agrupación voluntaria de municipios limítrofes, cuya creación regula el Parlamento de Andalucía por ley (art. 97 del Estatuto).",
+      "referencia": "Art. 97 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué competencia propia de los municipios andaluces incluye el urbanismo?",
+      "opciones": ["Ordenación, gestión, ejecución y disciplina urbanística", "Solo la licencia de obras menores", "Ninguna, es estatal", "Solo la limpieza viaria"],
+      "correcta": 0,
+      "explicacion": "El art. 92.2.a) del Estatuto atribuye a los ayuntamientos la ordenación, gestión, ejecución y disciplina urbanística, en los términos que determinen las leyes.",
+      "referencia": "Art. 92.2.a) Estatuto de Andalucía"
+    }
+  ]
+}

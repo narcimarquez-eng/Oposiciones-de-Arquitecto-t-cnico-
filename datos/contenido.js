@@ -550,7 +550,7 @@ window.DATOS_ESTUDIO = {
    "url": "https://www.boe.es/eli/es/l/1999/11/05/38/con",
    "verificada": true,
    "fecha_verificacion": "2026-11-03",
-   "notas": "Texto consolidado y PDF comprobados (BOE-A-1999-21567; última actualización de la página consultada: 15/06/2022). Verificados arts. 3.1, 6.1, 7, 9.1, 10.1, 17.1, 19 y DA 2.ª.",
+   "notas": "Texto consolidado y PDF comprobados (BOE-A-1999-21567; última actualización de la página consultada: 15/06/2022). Verificados arts. 2, 3, 4, 5, 6, 8, 9, 10, 12 a 19 y DA 2.ª en el texto del PDF.",
    "boe_id": "BOE-A-1999-21567",
    "pdf": "leyes/BOE-A-1999-21567.pdf"
   },
@@ -574,7 +574,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2007-5825.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 42 a 47, 101, 118, 128 a 130, 248 y 249 en el texto del PDF. Resto del articulado pendiente."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 37, 42 a 49, 90 a 98, 99 a 106, 118 a 127, 128 a 130, 133 a 139, 140 a 144, 248 y 249 en el texto del PDF. Resto del articulado pendiente. Verificados también arts. 91 a 98 en el texto del PDF."
   },
   "LPAC": {
    "id": "LPAC",
@@ -630,6 +630,17 @@ window.DATOS_ESTUDIO = {
    "verificada": false,
    "fecha_verificacion": "2026-11-03",
    "notas": "PDF consolidado descargado y título comprobado. Articulado pendiente de verificar."
+  },
+  "LBRL": {
+   "id": "LBRL",
+   "nombre": "Ley Reguladora de las Bases del Régimen Local",
+   "referencia": "Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local (BOE núm. 80, de 3 de abril de 1985)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+   "boe_id": "BOE-A-1985-5392",
+   "pdf": "leyes/BOE-A-1985-5392.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado y comprobado (BOE núm. 80, de 3/04/1985). Verificados arts. 1, 2, 4, 6.1, 11, 12, 20, 21.1, 22, 25, 26, 31 a 33 y 36 en el texto del PDF. Resto pendiente."
   }
  },
  "contenido": {
@@ -1587,6 +1598,359 @@ window.DATOS_ESTUDIO = {
     }
    ]
   },
+  "c04": {
+   "resumen": [
+    {
+     "titulo": "Regulación constitucional",
+     "puntos": [
+      "Municipios y provincias tienen autonomía garantizada por la Constitución (arts. 137, 140 y 141 CE).",
+      "La alteración de los límites provinciales requiere ley orgánica de las Cortes Generales (art. 141.1 CE).",
+      "El Estado fija las bases del régimen jurídico de las Administraciones públicas (art. 149.1.18.ª CE). La LBRL (Ley 7/1985) es el marco básico."
+     ]
+    },
+    {
+     "titulo": "Tipología de entes locales",
+     "puntos": [
+      "Administraciones territoriales locales: municipios, provincias e islas (art. 4 LBRL).",
+      "La comarca es una agrupación voluntaria de municipios limítrofes, creada por ley del Parlamento andaluz (art. 97 del Estatuto)."
+     ]
+    },
+    {
+     "titulo": "El municipio",
+     "puntos": [
+      "Elementos del municipio: territorio, población y organización (art. 11.2 LBRL). Cada municipio pertenece a una sola provincia (art. 12.2).",
+      "Órganos: alcalde, tenientes de alcalde y pleno en todos los ayuntamientos; junta de gobierno local en los de mayor población (art. 20 LBRL).",
+      "Servicios obligatorios en todos los municipios: alumbrado público, cementerio, recogida de residuos, limpieza viaria, abastecimiento de agua y alcantarillado (art. 26 LBRL)."
+     ]
+    },
+    {
+     "titulo": "La provincia y las Diputaciones",
+     "puntos": [
+      "Fines propios de la provincia (art. 31.2 LBRL). Presidente, Vicepresidentes, Junta de Gobierno y Pleno en todas las Diputaciones (art. 32 LBRL).",
+      "En Andalucía, el gobierno y la administración autónoma de la provincia corresponden a la Diputación (art. 96.2 del Estatuto)."
+     ]
+    },
+    {
+     "titulo": "Andalucía: competencias y relaciones",
+     "puntos": [
+      "Núcleo competencial propio de los municipios, con urbanismo y vivienda (art. 92 del Estatuto).",
+      "Transferencia y delegación de competencias por ley aprobada por mayoría absoluta (art. 93).",
+      "Órgano mixto Junta-Ayuntamientos (art. 95) y ley de régimen local que regule las relaciones (art. 98)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CE",
+     "rol": "Fundamento constitucional: arts. 137, 140, 141 y 149.1.18.ª"
+    },
+    {
+     "id": "LBRL",
+     "rol": "Norma principal del tema: bases del régimen local"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Complementaria: organización territorial de Andalucía (arts. 90 a 98)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "¿Qué precepto de la Constitución garantiza la autonomía de los municipios?",
+     "opciones": [
+      "Art. 137",
+      "Art. 140",
+      "Art. 141",
+      "Art. 148"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 140 CE garantiza la autonomía de los municipios, que tienen personalidad jurídica plena y cuyo gobierno corresponde a sus Ayuntamientos.",
+     "referencia": "Art. 140 CE"
+    },
+    {
+     "pregunta": "¿Qué se requiere para alterar los límites provinciales?",
+     "opciones": [
+      "Mayoría simple del Senado",
+      "Ley orgánica de las Cortes Generales",
+      "Decreto del Gobierno",
+      "Ley ordinaria autonómica"
+     ],
+     "correcta": 1,
+     "explicacion": "Cualquier alteración de los límites provinciales debe aprobarse mediante ley orgánica de las Cortes Generales.",
+     "referencia": "Art. 141.1 CE"
+    },
+    {
+     "pregunta": "¿Cuántos elementos integran el municipio según el art. 11.2 LBRL?",
+     "opciones": [
+      "Dos",
+      "Cuatro",
+      "Tres: territorio, población y organización",
+      "Cinco"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 11.2 LBRL enumera como elementos del municipio el territorio, la población y la organización.",
+     "referencia": "Art. 11.2 LBRL"
+    },
+    {
+     "pregunta": "¿A cuántas provincias puede pertenecer un municipio?",
+     "opciones": [
+      "A varias provincias",
+      "A la comunidad autónoma",
+      "A ninguna",
+      "A una sola provincia"
+     ],
+     "correcta": 3,
+     "explicacion": "Cada municipio pertenece a una sola provincia (art. 12.2 LBRL).",
+     "referencia": "Art. 12.2 LBRL"
+    },
+    {
+     "pregunta": "¿Quién ostenta la presidencia de la corporación municipal?",
+     "opciones": [
+      "El Alcalde",
+      "El Pleno",
+      "La Junta de Gobierno",
+      "El Secretario"
+     ],
+     "correcta": 0,
+     "explicacion": "El alcalde es el presidente de la corporación y tiene las atribuciones del art. 21.1 LBRL.",
+     "referencia": "Art. 21.1 LBRL"
+    },
+    {
+     "pregunta": "¿Qué órganos existen en todos los ayuntamientos?",
+     "opciones": [
+      "Alcalde, tenientes de alcalde y pleno",
+      "Junta de gobierno y comisiones",
+      "Solo el alcalde",
+      "Pleno y secretario"
+     ],
+     "correcta": 0,
+     "explicacion": "El alcalde, los tenientes de alcalde y el pleno existen en todos los ayuntamientos. La junta de gobierno local existe en los municipios de población superior a la que fija la ley.",
+     "referencia": "Art. 20.1.a) LBRL"
+    },
+    {
+     "pregunta": "¿Cuál de estos servicios es obligatorio en todos los municipios?",
+     "opciones": [
+      "Transporte urbano",
+      "Teatro municipal",
+      "Alumbrado público",
+      "Mercados"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 26.1.a) LBRL impone a todos los municipios el alumbrado público, el cementerio, la recogida de residuos, la limpieza viaria y el abastecimiento de agua, entre otros servicios.",
+     "referencia": "Art. 26.1.a) LBRL"
+    },
+    {
+     "pregunta": "¿Qué se exige para transferir competencias a los ayuntamientos andaluces?",
+     "opciones": [
+      "Decreto del Consejo de Gobierno",
+      "Acuerdo del Pleno",
+      "Convenio con el Estado",
+      "Ley aprobada por mayoría absoluta"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 93 del Estatuto regula la transferencia y delegación de competencias en los ayuntamientos por ley aprobada por mayoría absoluta, con suficiencia financiera.",
+     "referencia": "Art. 93 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué entidad local tiene carácter voluntario y se crea por ley autonómica?",
+     "opciones": [
+      "El municipio",
+      "La provincia",
+      "La comarca",
+      "La isla"
+     ],
+     "correcta": 2,
+     "explicacion": "La comarca es la agrupación voluntaria de municipios limítrofes, cuya creación regula el Parlamento de Andalucía por ley (art. 97 del Estatuto).",
+     "referencia": "Art. 97 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué competencia propia de los municipios andaluces incluye el urbanismo?",
+     "opciones": [
+      "Ordenación, gestión, ejecución y disciplina urbanística",
+      "Solo la licencia de obras menores",
+      "Ninguna, es estatal",
+      "Solo la limpieza viaria"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 92.2.a) del Estatuto atribuye a los ayuntamientos la ordenación, gestión, ejecución y disciplina urbanística, en los términos que determinen las leyes.",
+     "referencia": "Art. 92.2.a) Estatuto de Andalucía"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Regulación constitucional de la Administración local",
+     "parrafos": [
+      "El artículo 137 CE establece que el Estado se organiza territorialmente en municipios, en provincias y en las Comunidades Autónomas que se constituyan, y que todas estas entidades gozan de autonomía para la gestión de sus respectivos intereses. Los municipios y las provincias son, por tanto, entidades territoriales con autonomía garantizada por la Constitución, y no simples divisiones administrativas del Estado.",
+      "El artículo 140 garantiza la autonomía de los municipios. Tienen personalidad jurídica plena, y su gobierno y administración corresponden a sus respectivos Ayuntamientos, integrados por los alcaldes y los concejales. Los concejales son elegidos por los vecinos mediante sufragio universal, igual, libre, directo y secreto, en la forma que establezca la ley.",
+      "El artículo 141 define la provincia como una entidad local con personalidad jurídica propia, determinada por la agrupación de municipios y división territorial para el cumplimiento de las actividades del Estado. Cualquier alteración de los límites provinciales debe aprobarse mediante ley orgánica de las Cortes Generales (art. 141.1). El artículo 141.2 prevé que el gobierno y la administración autónoma de la provincia corresponde a las Diputaciones u otros órganos de carácter representativo.",
+      "Esta regulación tiene una consecuencia práctica importante. La Constitución garantiza la existencia de municipios y provincias, pero su régimen concreto se configura por ley. Por eso, el marco general se encuentra en la Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local (LBRL), cuyo carácter básico se apoya en la competencia estatal sobre las bases del régimen jurídico de las Administraciones públicas (art. 149.1.18.ª CE)."
+     ]
+    },
+    {
+     "titulo": "2. Distribución de competencias entre el Estado y las Comunidades Autónomas",
+     "parrafos": [
+      "La Constitución no reserva expresamente a ninguna instancia la competencia sobre el régimen local en su conjunto. Sus reglas de reparto se encuentran en varios preceptos. El artículo 149.1.18.ª atribuye al Estado la competencia exclusiva sobre las bases del régimen jurídico de las Administraciones públicas y del régimen estatutario de sus funcionarios, así como el procedimiento administrativo común, con las especialidades derivadas de la organización propia de las Comunidades Autónomas.",
+      "Las Comunidades Autónomas pueden asumir competencias sobre el régimen local en sus Estatutos, según el artículo 148.1.2.ª CE, que les permite asumir la alteración de los términos municipales comprendidos en su territorio y, en general, las funciones de la Administración del Estado sobre las Corporaciones locales cuya transferencia autorice la legislación sobre régimen local. Ese es el fundamento de la competencia autonómica en esta materia.",
+      "La LBRL reconoce el reparto en su artículo 2: la autonomía local se garantiza a través de la legislación del Estado y de la de las Comunidades Autónomas, cada una reguladora de los distintos sectores de la acción pública según la distribución constitucional. El resultado es un régimen local de bases estatales con desarrollo autonómico, que es el modelo que el temario describe como distribución de competencias sobre Administración local."
+     ]
+    },
+    {
+     "titulo": "3. Tipología de los entes locales",
+     "parrafos": [
+      "El artículo 4.1 de la LBRL reconoce como Administraciones públicas de carácter territorial, dentro de la esfera de sus competencias, a los municipios, las provincias y las islas. Estas son las entidades territoriales de la organización local básica en todo el territorio español. Las islas tienen régimen propio en los archipiélagos, pero el esquema de competencias y de organización es el mismo.",
+      "El Estatuto de Autonomía para Andalucía añade la comarca. El artículo 97.1 la define como la agrupación voluntaria de municipios limítrofes con características geográficas, económicas, sociales e históricas afines. El artículo 97.2 prevé que el Parlamento de Andalucía pueda regular su creación por ley, que establecerá también sus competencias. La comarca es, por tanto, una entidad de carácter voluntario y de creación autonómica, distinta de las entidades locales de carácter general.",
+      "El Estatuto también recoge la agrupación de municipios en su artículo 94. Conviene leer ese precepto para la relación con las mancomunidades y otras fórmulas de cooperación intermunicipal, cuyo régimen concreto depende de la legislación local andaluza.",
+      "Para un examen, conviene retener la diferencia entre entidades locales con autonomía constitucional garantizada (municipios y provincias, arts. 140 y 141 CE) y entidades cuya creación depende de la ley, como las comarcas (art. 97 del Estatuto)."
+     ]
+    },
+    {
+     "titulo": "4. El municipio: naturaleza y organización",
+     "parrafos": [
+      "El artículo 11.1 LBRL establece que el municipio es la entidad local básica de la organización territorial del Estado, y que tiene personalidad jurídica y plena capacidad para el cumplimiento de sus fines. El artículo 11.2 enumera sus elementos: el territorio, la población y la organización. El artículo 12.1 define el término municipal como el territorio en que el ayuntamiento ejerce sus competencias, y el artículo 12.2 establece que cada municipio pertenece a una sola provincia.",
+      "La organización municipal responde a reglas recogidas en el artículo 20 LBRL. El alcalde, los tenientes de alcalde y el pleno existen en todos los ayuntamientos. La junta de gobierno local existe en los municipios de población superior a la que fije la ley. El alcalde es el presidente de la corporación y ostenta las atribuciones del artículo 21.1: dirigir el gobierno y la administración municipal, representar al ayuntamiento, y convocar y presidir las sesiones del pleno, entre otras.",
+      "El pleno, integrado por todos los concejales y presidido por el alcalde, es el órgano de decisión principal. El artículo 22.2 enumera las atribuciones que le corresponden en todo caso. Conviene leer ese apartado completo para el examen, porque la enumeración es literal."
+     ]
+    },
+    {
+     "titulo": "5. Las competencias municipales",
+     "parrafos": [
+      "El artículo 25.1 LBRL permite al municipio, para la gestión de sus intereses y en el ámbito de sus competencias, promover actividades y prestar los servicios públicos que contribuyan a satisfacer las necesidades y aspiraciones de la comunidad vecinal. La redacción es general, y su concreción se remite a las leyes sectoriales estatales y autonómicas.",
+      "El artículo 26.1 LBRL establece los servicios que los municipios deben prestar en todo caso. En todos los municipios, el alumbrado público, el cementerio, la recogida de residuos, la limpieza viaria, el abastecimiento domiciliario de agua potable, el alcantarillado y el acceso a los núcleos de población, y la pavimentación de las vías públicas. La enumeración varía según el tamaño del municipio, y es un contenido típico de examen.",
+      "El Estatuto de Andalucía concreta el núcleo competencial municipal en su artículo 92. Garantiza a los municipios un núcleo competencial propio, que ejercen con plena autonomía sujetos solo a los controles de constitucionalidad y legalidad (art. 92.1). Entre sus competencias propias figuran la ordenación, gestión, ejecución y disciplina urbanística (art. 92.2.a), la planificación y gestión de viviendas (art. 92.2.b) y la gestión de los servicios sociales comunitarios (art. 92.2.c), todas ellas en los términos que determinen las leyes.",
+      "La transferencia y delegación de competencias a los Ayuntamientos se regula en el artículo 93 del Estatuto. Se hace por ley aprobada por mayoría absoluta, con la necesaria suficiencia financiera y de acuerdo con los principios de legalidad, de eficiencia y de participación. La exigencia de mayoría absoluta y de suficiencia financiera son los dos requisitos que conviene recordar."
+     ]
+    },
+    {
+     "titulo": "6. La provincia y las Diputaciones",
+     "parrafos": [
+      "El artículo 31.1 LBRL define la provincia como entidad local determinada por la agrupación de municipios, con personalidad jurídica propia y plena capacidad para el cumplimiento de sus fines. El artículo 31.2 establece que son fines propios y específicos de la provincia garantizar los principios de solidaridad y equilibrio intermunicipales, y asegurar la prestación integral y adecuada en todo el territorio provincial de los servicios de competencia municipal.",
+      "El artículo 32 LBRL enumera las reglas de organización provincial. El Presidente, los Vicepresidentes, la Junta de Gobierno y el Pleno existen en todas las Diputaciones (art. 32.1). El artículo 33 regula la composición del Pleno, que está constituido por el Presidente y los diputados (art. 33.1), y las competencias que corresponden en todo caso al Pleno, entre ellas la organización de la Diputación, la aprobación de ordenanzas, y otras atribuciones que enumera el artículo 33.2.",
+      "El artículo 36 LBRL atribuye a la Diputación las competencias propias que le asignen las leyes del Estado y de las Comunidades Autónomas en los distintos sectores de la acción pública. El Estatuto de Andalucía, en su artículo 96, reconoce que el gobierno y la administración autónoma de la provincia corresponden a la Diputación como órgano representativo (art. 96.2). El artículo 96.3 enumera competencias de la Diputación, entre ellas la gestión de las funciones de coordinación municipal.",
+      "Las Diputaciones son, por tanto, la pieza que une la provincia con el municipio y con la Comunidad Autónoma. Esta posición explica que el Estatuto prevea la relación con la Junta de Andalucía en el artículo 98 y en el órgano mixto del artículo 95."
+     ]
+    },
+    {
+     "titulo": "7. Relaciones entre la Comunidad Autónoma y las Diputaciones provinciales",
+     "parrafos": [
+      "El Estatuto de Andalucía prevé dos instrumentos principales de relación entre la Junta y las entidades locales. El primero es el órgano de relación del artículo 95: una ley de la Comunidad regulará la creación, composición y funciones de un órgano mixto con representación de la Junta de Andalucía y de los ayuntamientos andaluces, que funcionará como ámbito permanente de diálogo y colaboración.",
+      "El segundo es la ley de régimen local. El artículo 98.1 del Estatuto dispone que una ley de régimen local, en el marco de la legislación básica del Estado, regulará las relaciones entre las instituciones de la Junta de Andalucía y los entes locales, así como las técnicas de organización y de relación para la cooperación entre los entes locales y entre estos y la Administración autonómica. La ley andaluza de autonomía local es el instrumento que desarrolla este mandato. Su referencia concreta debe comprobarse en el BOJA antes de citarla en un examen, porque no figura en el catálogo de normas verificadas de este repositorio.",
+      "Un aspecto práctico es la alteración de los términos municipales. El artículo 148.1.2.ª CE permite a la Comunidad asumirla, y el artículo 91.2 del Estatuto la regula. Conviene distinguir este supuesto de la creación o supresión de municipios, que el artículo 13 LBRL reserva a un régimen específico."
+     ]
+    },
+    {
+     "titulo": "9. Principios de actuación de las entidades locales (art. 6)",
+     "parrafos": [
+      "El artículo 6.1 LBRL establece que las entidades locales sirven con objetividad los intereses públicos que les están encomendados y actúan de acuerdo con los principios de eficacia, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho.",
+      "Estos principios son, en buena parte, los mismos que el artículo 103.1 CE atribuye a la Administración pública en general, aplicados aquí al ámbito local. La LBRL los concreta en su articulado, y su importancia es que obligan a los ayuntamientos y a las diputaciones de la misma forma que a las demás administraciones.",
+      "La síntesis útil es que el régimen local combina autonomía (la garantía de la Constitución) con sometimiento a la ley y coordinación con las demás administraciones (los principios del art. 6.1). El equilibrio entre ambos extremos explica casi todas las preguntas del tema."
+     ]
+    },
+    {
+     "titulo": "10. Las competencias propias municipales: el catálogo del artículo 25.2",
+     "parrafos": [
+      "El artículo 25.1 LBRL permite al municipio promover actividades y prestar servicios públicos para la gestión de sus intereses y en el ámbito de sus competencias. El artículo 25.2 enumera las materias en que el municipio ejerce, en todo caso, competencias propias, en los términos de la legislación del Estado y de las Comunidades Autónomas.",
+      "La primera materia es el urbanismo: planeamiento, gestión, ejecución y disciplina urbanística. Incluye también la protección y gestión del patrimonio histórico, la promoción y gestión de la vivienda de protección pública con criterios de sostenibilidad financiera, y la conservación y rehabilitación de la edificación (art. 25.2.a). Para la edificación, es la materia más relevante de este tema.",
+      "La segunda materia es el medio ambiente urbano: parques y jardines públicos, gestión de los residuos sólidos urbanos y protección contra la contaminación acústica, lumínica y atmosférica en las zonas urbanas (art. 25.2.b). La tercera es el abastecimiento de agua potable a domicilio y la evacuación y tratamiento de las aguas residuales (art. 25.2.c).",
+      "La cuarta es la infraestructura viaria y otros equipamientos de titularidad municipal (art. 25.2.d). La quinta es la evaluación y atención inmediata a las personas en situación o riesgo de exclusión social (art. 25.2.e). Y la sexta es la policía local, la protección civil y la prevención y extinción de incendios (art. 25.2.f).",
+      "Los demás apartados del artículo 25.2 incluyen el tráfico, el estacionamiento y la movilidad; la información y promoción turística de ámbito local; y las ferias, abastos, mercados y lonjas. Para el examen, conviene memorizar el urbanismo, la vivienda y la conservación de la edificación, porque son las que se relacionan con el temario técnico."
+     ]
+    },
+    {
+     "titulo": "11. Atribuciones del alcalde (art. 21.1)",
+     "parrafos": [
+      "El artículo 21.1 LBRL establece que el alcalde es el presidente de la corporación y ostenta, entre otras, estas atribuciones: dirigir el gobierno y la administración municipal (letra a); representar al ayuntamiento (letra b); convocar y presidir las sesiones del pleno, de la junta de gobierno local y de otros órganos cuando lo establezca la ley o el reglamento, y decidir los empates con voto de calidad (letra c).",
+      "El alcalde también dirige, inspecciona e impulsa los servicios y obras municipales (letra d), y puede dictar bandos (letra e). Tiene además atribuciones en materia económica: desarrollar la gestión económica de acuerdo con el presupuesto aprobado y disponer gastos dentro de los límites de su competencia (letra f).",
+      "La atribución de dirigir los servicios y obras municipales es la que enlaza con la función del técnico municipal en la ejecución de las obras de edificación. Conviene distinguir la función directiva del alcalde de la función técnica de los servicios, que son los que realizan la ejecución material."
+     ]
+    },
+    {
+     "titulo": "12. Atribuciones del pleno (art. 22.2)",
+     "parrafos": [
+      "El pleno, integrado por todos los concejales y presidido por el alcalde (art. 22.1), tiene atribuciones que le corresponden en todo caso (art. 22.2). La primera es el control y la fiscalización de los órganos de gobierno (letra a).",
+      "La letra b) le reserva los acuerdos sobre la participación en organizaciones supramunicipales, la alteración del término municipal, la creación o supresión de municipios, la creación de órganos desconcentrados y la alteración de la capitalidad, entre otros. Son decisiones de especial relevancia que el legislador no deja al alcalde.",
+      "La letra c) atribuye al pleno la aprobación inicial del planeamiento general y la aprobación que pone fin a la tramitación municipal de los planes y demás instrumentos de ordenación previstos en la legislación urbanística, así como los convenios que alteren esos instrumentos. Es la competencia del pleno más relevante para el urbanismo, y enlaza con el tema 4 del programa de urbanismo."
+     ]
+    },
+    {
+     "titulo": "13. Funciones de la Diputación (art. 36)",
+     "parrafos": [
+      "El artículo 36.1 LBRL atribuye a la Diputación las competencias propias que le asignen las leyes del Estado y de las Comunidades Autónomas en los distintos sectores de la acción pública. El artículo 36.2 enumera, en todo caso, sus funciones propias.",
+      "La primera es la coordinación de los servicios municipales entre sí, para garantizar la prestación integral y adecuada a que se refiere el artículo 31.2.a) (letra a). La segunda es la asistencia y cooperación jurídica, económica y técnica a los municipios, especialmente a los de menor capacidad económica y de gestión (letra b). En los municipios de menos de 1.000 habitantes, la Diputación garantiza la prestación de los servicios de secretaría e intervención.",
+      "La tercera es la prestación de servicios públicos de carácter supramunicipal y, en su caso, supracomarcal, así como el fomento o coordinación de la prestación unificada de servicios de los municipios de su ámbito (letra c). Esta función es la que da sentido a la Diputación como ente de cooperación local."
+     ]
+    },
+    {
+     "titulo": "14. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir las competencias propias del artículo 25.2 con las del artículo 26. El artículo 25 enumera materias de competencia municipal propia; el artículo 26 enumera servicios que los municipios deben prestar, con diferencias según el tamaño de la población.",
+      "Atribuir al alcalde las competencias que el artículo 22.2 reserva al pleno. Por ejemplo, la alteración del término municipal o la aprobación inicial del planeamiento general corresponden al pleno.",
+      "Olvidar que la Diputación no sustituye a los municipios, sino que les presta asistencia y coordina sus servicios (art. 36.2). Su función es de cooperación, no de dirección de la gestión municipal."
+     ]
+    },
+    {
+     "titulo": "15. Cuadro comparativo: municipio y provincia",
+     "parrafos": [
+      "Naturaleza: el municipio es la entidad local básica de la organización territorial del Estado, con personalidad jurídica y plena capacidad (art. 11.1 LBRL). La provincia es una entidad local determinada por la agrupación de municipios, con personalidad jurídica propia y plena capacidad (art. 31.1 LBRL).",
+      "Órganos de gobierno: el ayuntamiento tiene alcalde, tenientes de alcalde y pleno en todos los casos (art. 20 LBRL). La Diputación tiene presidente, vicepresidentes, junta de gobierno y pleno, que se integra por el presidente y los diputados (arts. 32.1 y 33.1).",
+      "Funciones: el municipio tiene competencias propias en urbanismo, medio ambiente urbano, agua, viaria, policía local y otras materias (art. 25.2). La Diputación coordina servicios municipales, presta asistencia y ofrece servicios supramunicipales (art. 36.2).",
+      "Para un examen, la diferencia de fondo es que el municipio presta servicios a los ciudadanos, mientras que la provincia coopera con los municipios. Esa distinción de función explica las preguntas sobre competencias de cada uno."
+     ]
+    },
+    {
+     "titulo": "16. Caso práctico de examen",
+     "parrafos": [
+      "Un ayuntamiento quiere aprobar un plan general de ordenación urbana. El primer paso es identificar el órgano competente: la aprobación inicial del planeamiento general corresponde al pleno (art. 22.2.c LBRL), y el alcalde lo convoca y preside la sesión (art. 21.1.c).",
+      "El segundo paso es identificar la competencia material. El urbanismo, en su planeamiento, gestión, ejecución y disciplina, es competencia propia del municipio (art. 25.2.a). Si la aprobación tiene efectos sobre la alteración del término municipal, la competencia no es del alcalde, sino del pleno (art. 22.2.b).",
+      "El tercer paso es considerar el apoyo de la Diputación. Si el municipio es pequeño, puede recibir asistencia técnica y jurídica de la Diputación, que tiene como función la asistencia y cooperación con los municipios de menor capacidad (art. 36.2.b). La Diputación no sustituye al municipio en su competencia, sino que lo auxilia.",
+      "En el examen, la respuesta bien estructurada cita los tres artículos en ese orden: el órgano competente, la materia y el apoyo de la Diputación."
+     ]
+    },
+    {
+     "titulo": "17. La organización de la Diputación: presidencia y pleno",
+     "parrafos": [
+      "El artículo 32.1 LBRL establece que el presidente, los vicepresidentes, la junta de gobierno y el pleno existen en todas las Diputaciones. Es una regla de estructura mínima, que se completa con los órganos adicionales que la ley permite crear.",
+      "El artículo 33.1 establece que el pleno de la Diputación está constituido por el presidente y los diputados. El artículo 33.2 atribuye en todo caso al pleno la organización de la Diputación (letra a) y la aprobación de las ordenanzas (letra b), además de otras atribuciones que el propio precepto enumera.",
+      "La diferencia con el pleno municipal es que en la Diputación sus miembros son diputados y no concejales (art. 33.1). Conviene leer los artículos 34 y siguientes de la LBRL para la elección del presidente, que no se ha incluido en este desarrollo."
+     ]
+    },
+    {
+     "titulo": "18. Síntesis de la relación entre entidades locales y Junta de Andalucía",
+     "parrafos": [
+      "El Estatuto de Andalucía organiza la relación entre la Junta y las entidades locales en varios preceptos. El artículo 91 reconoce al municipio como entidad territorial básica de la Comunidad, con personalidad jurídica propia y plena autonomía en el ámbito de sus intereses. El artículo 92 garantiza su núcleo competencial propio.",
+      "El artículo 93 regula la transferencia y delegación de competencias por ley aprobada por mayoría absoluta. El artículo 95 crea el órgano mixto de diálogo entre la Junta y los ayuntamientos. El artículo 96 atribuye a la Diputación el gobierno y la administración autónoma de la provincia, y el artículo 98 encarga a una ley de régimen local regular las relaciones y la cooperación.",
+      "Esta arquitectura combina la autonomía local garantizada por la Constitución (arts. 140 y 141 CE) con la colaboración de la Junta. Para el examen, la clave es distinguir qué es autonomía (garantía constitucional), qué es competencia (propia, transferida o delegada) y qué es cooperación (órgano mixto, leyes de relación)."
+     ]
+    },
+    {
+     "titulo": "8. Claves para el examen",
+     "parrafos": [
+      "Garantía constitucional: municipios (art. 140 CE) y provincias (art. 141 CE) con autonomía garantizada por el art. 137 CE.",
+      "Régimen básico: Ley 7/1985 (LBRL). Ámbito territorial: el municipio pertenece a una sola provincia (art. 12.2 LBRL).",
+      "Órganos municipales: alcalde, tenientes de alcalde y pleno en todos los ayuntamientos; junta de gobierno local en los de mayor población (art. 20 LBRL).",
+      "Competencias municipales: servicios básicos en todo caso (art. 26 LBRL); núcleo competencial propio en Andalucía (art. 92 Estatuto), con urbanismo y vivienda (art. 92.2.a y b).",
+      "Provincia: fines de solidaridad y equilibrio intermunicipales (art. 31.2 LBRL); Pleno de la Diputación (art. 33 LBRL); gobierno y administración autónoma de la provincia (art. 96.2 Estatuto).",
+      "Andalucía: comarca voluntaria y de creación autonómica (art. 97 Estatuto); órgano mixto Junta-Ayuntamientos (art. 95); ley de régimen local (art. 98)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
+    },
+    {
+     "nombre": "Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+     "pdf": "leyes/BOE-A-1985-5392.pdf"
+    },
+    {
+     "nombre": "Ley Orgánica 2/2007, de reforma del Estatuto de Autonomía para Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
+     "pdf": "leyes/BOE-A-2007-5825.pdf"
+    }
+   ]
+  },
   "c05": {
    "resumen": [
     {
@@ -1922,6 +2286,1097 @@ window.DATOS_ESTUDIO = {
     }
    ]
   },
+  "c06": {
+   "resumen": [
+    {
+     "titulo": "La Junta de Andalucía",
+     "puntos": [
+      "La Junta está integrada por el Parlamento, la Presidencia y el Consejo de Gobierno (art. 99.1 del Estatuto), más los órganos de garantía del Capítulo VI (art. 99.2).",
+      "El Parlamento representa al pueblo andaluz y es inviolable (art. 100)."
+     ]
+    },
+    {
+     "titulo": "El Parlamento: composición y mandato",
+     "puntos": [
+      "Mínimo de 109 diputados, sufragio universal, sin mandato imperativo (art. 101.1). Mandato de cuatro años (art. 101.2).",
+      "Circunscripción provincial; ninguna provincia puede tener más del doble de diputados que otra (art. 104.1). Elecciones entre 30 y 60 días tras la expiración del mandato (art. 104.3)."
+     ]
+    },
+    {
+     "titulo": "Organización y funciones",
+     "puntos": [
+      "Autonomía reglamentaria, presupuestaria, administrativa y disciplinaria (art. 102.1). Reglamento aprobado o reformado por mayoría absoluta (art. 102.2).",
+      "Presidente, Mesa y Diputación Permanente (art. 103.1). Dos periodos ordinarios de sesiones al año (art. 103.3).",
+      "Funciones: legislar, impulsar y controlar al Consejo de Gobierno, aprobar presupuestos y autorizar tributos y deuda (art. 106)."
+     ]
+    },
+    {
+     "titulo": "Legislación y garantías",
+     "puntos": [
+      "Decretos-leyes: deben convalidarse en treinta días y no pueden afectar a derechos del Estatuto, al régimen electoral ni a las instituciones (art. 110).",
+      "El control de constitucionalidad de las normas andaluzas con fuerza de ley corresponde al Tribunal Constitucional (art. 115)."
+     ]
+    },
+    {
+     "titulo": "Órganos de garantía",
+     "puntos": [
+      "TSJA: culmina la organización judicial andaluza y es la última instancia de los procesos iniciados en Andalucía (art. 140).",
+      "Defensor del Pueblo Andaluz: comisionado del Parlamento, elegido por mayoría cualificada (art. 128).",
+      "Cámara de Cuentas: control externo, dependiente orgánicamente del Parlamento (art. 130)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Norma principal del tema (arts. 99 a 116, 128 a 130 y 140 a 144)"
+    },
+    {
+     "id": "CE",
+     "rol": "Complementaria: art. 86 (decretos-leyes) y art. 9.3 (jerarquía normativa)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "¿Cuántos años dura el mandato del Parlamento de Andalucía?",
+     "opciones": [
+      "Cuatro años",
+      "Cinco años",
+      "Tres años",
+      "Seis años"
+     ],
+     "correcta": 0,
+     "explicacion": "El Parlamento es elegido por cuatro años, y el mandato de los diputados termina cuatro años después de su elección o el día de la disolución.",
+     "referencia": "Art. 101.2 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Cuál es la circunscripción electoral del Parlamento de Andalucía?",
+     "opciones": [
+      "La comunidad",
+      "El municipio",
+      "La provincia",
+      "La comarca"
+     ],
+     "correcta": 2,
+     "explicacion": "La circunscripción electoral es la provincia, y ninguna puede tener más del doble de diputados que otra.",
+     "referencia": "Art. 104.1 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué mayoría se exige para aprobar o reformar el Reglamento del Parlamento?",
+     "opciones": [
+      "Mayoría simple",
+      "Dos tercios",
+      "Tres quintos",
+      "Mayoría absoluta de los diputados"
+     ],
+     "correcta": 3,
+     "explicacion": "La aprobación o reforma del Reglamento de organización y funcionamiento requiere el voto de la mayoría absoluta de los diputados.",
+     "referencia": "Art. 102.2 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Cuándo comienza el primer periodo ordinario de sesiones del Parlamento?",
+     "opciones": [
+      "Enero",
+      "Septiembre",
+      "Marzo",
+      "Octubre"
+     ],
+     "correcta": 1,
+     "explicacion": "Los periodos ordinarios son dos al año y duran ocho meses como mínimo. El primero se inicia en septiembre y el segundo en febrero.",
+     "referencia": "Art. 103.3 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Cuál de estas es una función del Parlamento de Andalucía?",
+     "opciones": [
+      "Nombrar al Defensor del Pueblo del Estado",
+      "Establecer y exigir tributos y autorizar la deuda pública",
+      "Dirigir la Administración de Justicia",
+      "Designar a los magistrados del TSJA"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 106 atribuye al Parlamento la potestad de establecer y exigir tributos y de autorizar la emisión de deuda pública, entre otras funciones.",
+     "referencia": "Art. 106 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿En cuánto tiempo deben convalidarse los decretos-leyes andaluces?",
+     "opciones": [
+      "Quince días",
+      "Dos meses",
+      "Un año",
+      "Treinta días"
+     ],
+     "correcta": 3,
+     "explicacion": "Los decretos-leyes quedan derogados si el Parlamento no los convalida expresamente en el plazo improrrogable de treinta días desde su promulgación.",
+     "referencia": "Art. 110.2 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Quién controla la constitucionalidad de las leyes andaluzas?",
+     "opciones": [
+      "El TSJA",
+      "El Parlamento",
+      "El Tribunal Constitucional",
+      "El Consejo Consultivo"
+     ],
+     "correcta": 2,
+     "explicacion": "El control de constitucionalidad de las disposiciones con fuerza de ley de la Comunidad corresponde exclusivamente al Tribunal Constitucional.",
+     "referencia": "Art. 115 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué órgano controla externamente la actividad económica y presupuestaria de la Junta?",
+     "opciones": [
+      "La Cámara de Cuentas",
+      "El Tribunal de Cuentas estatal",
+      "El Consejo Consultivo",
+      "La Intervención General"
+     ],
+     "correcta": 0,
+     "explicacion": "La Cámara de Cuentas es el órgano de control externo de la actividad económica y presupuestaria de la Junta, los entes locales y el sector público andaluz.",
+     "referencia": "Art. 130.1 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Cuál es la última instancia jurisdiccional de los procesos iniciados en Andalucía?",
+     "opciones": [
+      "El Tribunal Supremo",
+      "El TSJA",
+      "La Audiencia Provincial",
+      "El Tribunal Constitucional"
+     ],
+     "correcta": 1,
+     "explicacion": "El TSJA es la última instancia jurisdiccional de todos los procesos iniciados en Andalucía, con las excepciones que prevé el propio Estatuto.",
+     "referencia": "Art. 140.2 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Quién es el representante del Poder Judicial en Andalucía?",
+     "opciones": [
+      "El Fiscal Superior",
+      "El Presidente de la Junta",
+      "El Presidente del TSJA",
+      "El decano del colegio de abogados"
+     ],
+     "correcta": 2,
+     "explicacion": "El Presidente del TSJA es el representante del Poder Judicial en Andalucía. Es nombrado por el Rey a propuesta del CGPJ.",
+     "referencia": "Art. 143.1 Estatuto de Andalucía"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. La Junta de Andalucía como institución",
+     "parrafos": [
+      "El artículo 99.1 del Estatuto define la Junta de Andalucía como la institución en que se organiza políticamente el autogobierno de la Comunidad. Está integrada por el Parlamento de Andalucía, la Presidencia de la Junta y el Consejo de Gobierno. El artículo 99.2 añade que forman parte también de la organización de la Junta las instituciones y órganos regulados en el Capítulo VI del Título IV, que son los órganos de garantía y control a los que dedica este tema.",
+      "Esta distinción es importante. Hay tres instituciones políticas (Parlamento, Presidencia y Consejo de Gobierno), y hay además órganos de garantía, control y consulta. Los primeros forman la Junta en sentido estricto, y los segundos completan la organización institucional sin dirigir la acción política.",
+      "El Estatuto, en el Título IV, dedica el Capítulo I al Parlamento, el Capítulo II a la Presidencia y al Consejo de Gobierno (que se estudia en el tema 7), y el Capítulo VI a los órganos de garantía y control. Este tema se centra en el Parlamento y en esos órganos."
+     ]
+    },
+    {
+     "titulo": "2. El Parlamento de Andalucía: representación y composición",
+     "parrafos": [
+      "El artículo 100 establece que el Parlamento representa al pueblo andaluz y que es inviolable. La inviolabilidad es una garantía de la independencia de la Cámara frente a otros poderes, y los pasos concretos de su aplicación se regulan en el Reglamento.",
+      "El artículo 101.1 fija que el Parlamento estará compuesto por un mínimo de 109 diputados y diputadas, elegidos por sufragio universal, igual, libre, directo y secreto. Los diputados representan a toda Andalucía y no están sujetos a mandato imperativo. Esta última regla significa que el diputado vota según su conciencia y no según un mandato del partido o del electorado de su circunscripción, aunque en la práctica la disciplina de grupo condicione el voto.",
+      "El artículo 101.2 fija el mandato en cuatro años. Termina cuatro años después de la elección o el día de la disolución de la Cámara. Si el Parlamento se disuelve, los diputados titulares y suplentes de la Diputación Permanente prorrogan su mandato hasta la constitución de la nueva Cámara.",
+      "El artículo 104.1 establece que la circunscripción electoral es la provincia, y que ninguna provincia puede tener más del doble de diputados que otra. Esta regla de proporcionalidad territorial es un contenido típico de examen: el número de diputados por provincia se corrige para que ninguna tenga más del doble que otra. La ley electoral se regula en el artículo 105."
+     ]
+    },
+    {
+     "titulo": "3. Organización y funcionamiento",
+     "parrafos": [
+      "El artículo 102.1 reconoce al Parlamento plena autonomía reglamentaria, presupuestaria, administrativa y disciplinaria. Puede dictar su propio reglamento, aprobar su presupuesto y organizar sus servicios sin depender de otro poder. Esa autonomía es el fundamento de su independencia.",
+      "El artículo 103.1 establece que el Parlamento elegirá de entre sus miembros al Presidente o Presidenta, la Mesa y la Diputación Permanente. El Presidente de la Cámara dirige sus trabajos y es quien propone el candidato a la Presidencia de la Junta en la investidura (art. 118.2).",
+      "El artículo 103.2 establece que el Parlamento funciona en Pleno y en Comisiones. El Pleno puede delegar en las comisiones legislativas la aprobación de proyectos y proposiciones de ley, estableciendo los criterios pertinentes. Esta delegación agiliza la tramitación de las leyes ordinarias en las comisiones, según los criterios que fije el Pleno.",
+      "La Diputación Permanente sustituye al Pleno durante los periodos en que la Cámara no está reunida, y su mandato se prorroga en los términos del artículo 101.2 cuando hay disolución."
+     ]
+    },
+    {
+     "titulo": "4. Funciones del Parlamento",
+     "parrafos": [
+      "El artículo 106 enumera las funciones del Parlamento. La primera es el ejercicio de la potestad legislativa propia de la Comunidad, así como la que le corresponda de acuerdo con el artículo 150.1 y 2 CE. Esta referencia enlaza con las leyes marco y las transferencias de competencias del tema 3.",
+      "La segunda función es la orientación y el impulso de la acción del Consejo de Gobierno. La tercera es el control sobre la acción del Consejo de Gobierno y sobre la acción de la Administración situada bajo su autoridad. Para ese control, el Parlamento puede crear comisiones de investigación, o atribuir esa facultad a sus comisiones permanentes.",
+      "La cuarta función es el examen, la enmienda y la aprobación de los presupuestos. La quinta es la potestad de establecer y exigir tributos, así como la autorización de la emisión de deuda pública. El artículo 106 continúa con otras funciones que conviene leer completas para el examen.",
+      "Las funciones del artículo 106 muestran la estructura del parlamentarismo andaluz: el Parlamento legisla, dirige políticamente, controla, aprueba presupuestos y autoriza la fiscalidad y la deuda."
+     ]
+    },
+    {
+     "titulo": "5. La potestad legislativa: procedimiento y garantías",
+     "parrafos": [
+      "El Estatuto regula la potestad legislativa en un bloque de preceptos. El artículo 108 regula la potestad legislativa de la Comunidad. El artículo 109 regula los decretos legislativos, y el artículo 110 los decretos-leyes.",
+      "La iniciativa legislativa (art. 111.1) corresponde a los diputados, en los términos previstos en el Reglamento, y al Consejo de Gobierno. El artículo 111.2 remite a una ley del Parlamento, en el marco de la ley orgánica del artículo 87.3 CE, la regulación de las demás iniciativas legislativas que prevé el propio precepto.",
+      "El artículo 113 establece que los ciudadanos, a través de las organizaciones y asociaciones en que se integran, así como las instituciones, participarán en el procedimiento legislativo en los términos que establezca el Reglamento del Parlamento.",
+      "El artículo 115 atribuye en exclusiva al Tribunal Constitucional el control de constitucionalidad de las disposiciones normativas de la Comunidad con fuerza de ley. El artículo 116 establece que las leyes de Andalucía son promulgadas, en nombre del Rey, por el Presidente de la Junta, y que se publican conforme a lo que el propio Estatuto establece."
+     ]
+    },
+    {
+     "titulo": "6. El Tribunal Superior de Justicia de Andalucía",
+     "parrafos": [
+      "El Título V del Estatuto regula el poder judicial en Andalucía. El artículo 140.1 establece que el Tribunal Superior de Justicia de Andalucía es el órgano jurisdiccional en que culmina la organización judicial en la Comunidad, sin perjuicio de la jurisdicción del Tribunal Supremo, que sigue siendo el órgano superior en todos los órdenes salvo en materia de garantías constitucionales.",
+      "El artículo 140.2 añade que el Tribunal Superior de Justicia de Andalucía es competente en los órdenes civil, penal, contencioso-administrativo y social, y que es la última instancia jurisdiccional de los procesos iniciados en Andalucía, con las excepciones que establece el propio precepto.",
+      "El artículo 141 regula la competencia de los órganos jurisdiccionales en Andalucía, y el artículo 142 le atribuye las competencias que le asignen las leyes. El artículo 143 regula la figura de su Presidente y del Fiscal Superior de Andalucía. El artículo 144 crea el Consejo de Justicia de Andalucía como órgano de gobierno de la Administración de Justicia en la Comunidad, de acuerdo con lo que establezcan las leyes.",
+      "Para un examen, la distinción clave es entre el TSJA, que es el órgano judicial superior de la Comunidad y la última instancia de los procesos andaluces, y el Tribunal Supremo, que es el órgano superior en todos los órdenes, salvo en materia de garantías constitucionales (art. 123 CE)."
+     ]
+    },
+    {
+     "titulo": "7. El Defensor del Pueblo Andaluz",
+     "parrafos": [
+      "El artículo 128.1 define al Defensor del Pueblo Andaluz como el comisionado del Parlamento, designado por este para la defensa de los derechos y libertades comprendidos en el Título I de la Constitución y en el Título I del Estatuto. Puede supervisar la actividad de las administraciones públicas de Andalucía y da cuenta de ello al Parlamento.",
+      "El artículo 128.2 establece que es elegido por el Parlamento por mayoría cualificada, y que su organización, funciones y duración del mandato se regulan por ley. El artículo 128.3 prevé que el Defensor del Pueblo Andaluz y el Defensor del Pueblo estatal colaboren en el ejercicio de sus funciones.",
+      "El Defensor es una garantía no jurisdiccional. No dicta sentencias ni anula actos. Supervisa, recomienda y da cuenta al Parlamento. Su posición es parecida a la del Defensor del Pueblo estatal (art. 54 CE), pero su ámbito es la actividad de las administraciones andaluzas y su elección corresponde al Parlamento de Andalucía."
+     ]
+    },
+    {
+     "titulo": "8. La Cámara de Cuentas de Andalucía",
+     "parrafos": [
+      "El artículo 130.1 define la Cámara de Cuentas como el órgano de control externo de la actividad económica y presupuestaria de la Junta de Andalucía, de los entes locales y del resto del sector público andaluz. El artículo 130.2 establece que depende orgánicamente del Parlamento de Andalucía, y que su composición, organización y funciones se regulan por ley.",
+      "La doble dependencia es la clave del órgano. Es un control externo, es decir, ajeno a la Administración que fiscaliza, y depende del Parlamento, que es el órgano que ejerce el control político de la Junta. Así, la Cámara de Cuentas da al Parlamento la información técnica necesaria para su función de control del gasto público.",
+      "La Cámara de Cuentas andaluza no debe confundirse con el Tribunal de Cuentas estatal, que depende de las Cortes Generales y fiscaliza el sector público del Estado (art. 136 CE). Ambos son órganos de control externo, cada uno en su ámbito territorial."
+     ]
+    },
+    {
+     "titulo": "9. Otros órganos de garantía y consulta del Capítulo VI",
+     "parrafos": [
+      "El artículo 131 regula el Consejo Audiovisual de Andalucía, autoridad audiovisual independiente encargada de velar por el respeto de los derechos, libertades y valores constitucionales y estatutarios en los medios audiovisuales, públicos y privados, en Andalucía.",
+      "El artículo 132 regula el Consejo Económico y Social de Andalucía, órgano colegiado de carácter consultivo del Gobierno en materia económica y social, cuya finalidad primordial es servir de cauce de participación y diálogo permanente en los asuntos socioeconómicos.",
+      "El Consejo Consultivo de Andalucía (art. 129) es el superior órgano consultivo del Consejo de Gobierno, y se estudia en el tema 7.",
+      "La Oficina Andaluza contra el Fraude y la Corrupción aparece en el programa oficial de este tema. El texto del Estatuto que he consultado no la menciona con ese nombre, por lo que su regulación debe buscarse en la ley del Parlamento que la crea. Antes de citarla en un examen, hay que verificar su referencia en el BOJA, porque no figura en el catálogo de normas verificadas de este repositorio."
+     ]
+    },
+    {
+     "titulo": "10. Estatuto del diputado, inviolabilidad e inmunidad",
+     "parrafos": [
+      "El artículo 101.3 establece que los diputados gozan, aun después de haber cesado en su mandato, de inviolabilidad por las opiniones manifestadas en actos parlamentarios y por los votos emitidos en el ejercicio de su cargo. Esta protección es absoluta en cuanto a las opiniones y votos: no puede perseguirse al diputado por lo que dice o vota en el ejercicio de su función.",
+      "El mismo precepto regula la inmunidad. Durante su mandato, los diputados no pueden ser detenidos por actos delictivos cometidos en el territorio de Andalucía, salvo en caso de flagrante delito. Corresponde al Parlamento decidir sobre su inculpación, prisión, procesamiento y juicio. Es decir, la decisión sobre la persecución penal de un diputado no la toma el juez de forma aislada, sino el propio Parlamento.",
+      "El artículo 102.3 remite al Reglamento del Parlamento el establecimiento del Estatuto del Diputado. Esa remisión deja al Reglamento el detalle de derechos y deberes, y explica que la regulación concreta se encuentre fuera del Estatuto."
+     ]
+    },
+    {
+     "titulo": "11. Reglamento, sesiones y funcionamiento del Pleno",
+     "parrafos": [
+      "El artículo 102.2 establece que el Parlamento se dota de su propio Reglamento de organización y funcionamiento, cuya aprobación o reforma requiere el voto de la mayoría absoluta de los diputados. Es una garantía de estabilidad: el Reglamento no puede cambiarse por una mayoría ocasional, sino por una mayoría reforzada.",
+      "El artículo 103.2 precisa que corresponde en todo caso al Pleno la aprobación de las leyes de contenido presupuestario y tributario, y de todas las que requieran una mayoría cualificada de acuerdo con el Estatuto. Esta regla limita la delegación en comisiones: las leyes más importantes siempre pasan por el Pleno.",
+      "El artículo 103.3 regula las sesiones. El Parlamento se reúne en sesiones ordinarias y extraordinarias. Los periodos ordinarios son dos al año, y duran en total ocho meses como mínimo. El primero se inicia en septiembre y el segundo en febrero. Las sesiones extraordinarias se convocan en los términos que el propio precepto establece."
+     ]
+    },
+    {
+     "titulo": "12. El régimen electoral andaluz",
+     "parrafos": [
+      "El artículo 104.1 fija la provincia como circunscripción electoral y la regla de que ninguna provincia tenga más del doble de diputados que otra. El artículo 104.2 establece que la elección se verifica con criterios de representación proporcional.",
+      "El artículo 104.3 fija los plazos. Las elecciones tienen lugar entre los treinta y sesenta días posteriores a la expiración del mandato. Los diputados electos deben ser convocados para la sesión constitutiva del Parlamento dentro de los veinticinco días siguientes a la celebración de las elecciones.",
+      "El artículo 104.4 establece que son electores y elegibles todos los andaluces mayores de dieciocho años que estén en pleno goce de sus derechos políticos. La Comunidad facilita el ejercicio del voto a los andaluces que se encuentran fuera de Andalucía.",
+      "El artículo 105.1 remite la regulación concreta a la ley electoral, que requiere mayoría absoluta para su aprobación. Esa ley regula la convocatoria, el procedimiento, el sistema y la fórmula de atribución de escaños, y las causas de inelegibilidad e incompatibilidad."
+     ]
+    },
+    {
+     "titulo": "13. Mayorías cualificadas, leyes organizativas y delegación legislativa",
+     "parrafos": [
+      "El artículo 108 establece que las leyes que afectan a la organización territorial, al régimen electoral o a la organización de las instituciones básicas requieren el voto favorable de la mayoría absoluta del Pleno en una votación final sobre el conjunto del texto, salvo los supuestos en que el Estatuto exija mayoría cualificada. Esta regla une la estabilidad institucional con el peso de la mayoría parlamentaria.",
+      "El artículo 109.1 permite al Parlamento delegar en el Consejo de Gobierno la potestad de dictar normas con rango de ley, en los términos del propio precepto. El artículo 109.2 excluye de la delegación algunas materias: las leyes de reforma del Estatuto, las leyes del presupuesto, las que requieran cualquier mayoría cualificada y las relativas al desarrollo de los derechos y deberes del Estatuto. Otras leyes pueden quedar excluidas si así lo dispone el propio Estatuto."
+     ]
+    },
+    {
+     "titulo": "14. Decretos-leyes y convalidación",
+     "parrafos": [
+      "El artículo 110.1 permite al Consejo de Gobierno dictar medidas legislativas provisionales en forma de decretos-leyes en caso de extraordinaria y urgente necesidad. Los decretos-leyes no pueden afectar a los derechos establecidos en el Estatuto, al régimen electoral, ni a las instituciones de la Junta de Andalucía. Tampoco pueden aprobarse por decreto-ley los presupuestos de la Comunidad.",
+      "El artículo 110.2 establece que los decretos-leyes quedan derogados si en el plazo improrrogable de treinta días siguientes a su promulgación no son convalidados expresamente por el Parlamento, tras un debate y una votación de totalidad. Es la garantía parlamentaria frente al uso del decreto-ley, y el plazo de treinta días es el dato que el examen suele preguntar.",
+      "La comparación con el Estado es útil. El artículo 86 CE permite decretos-leyes que no afecten a los derechos del Título I, y exige su convalidación por el Congreso en un plazo de treinta días. El Estatuto adapta esa figura a la Comunidad, con limitaciones propias sobre el régimen electoral y las instituciones."
+     ]
+    },
+    {
+     "titulo": "15. El Presidente del Tribunal Superior de Justicia y el Fiscal Superior",
+     "parrafos": [
+      "El artículo 143.1 establece que el Presidente del Tribunal Superior de Justicia de Andalucía es el representante del poder judicial en Andalucía. Es nombrado por el Rey, a propuesta del Consejo General del Poder Judicial, con participación del Consejo de Justicia de Andalucía en los términos que establezca la ley orgánica.",
+      "El artículo 144.1 caracteriza el Consejo de Justicia de Andalucía como órgano de gobierno de la Administración de Justicia en la Comunidad, de acuerdo con lo previsto en la Ley Orgánica del Poder Judicial. El artículo 144.2 establece su composición: lo preside el Presidente del Tribunal Superior de Justicia, y lo integran miembros elegidos entre jueces, magistrados, fiscales y juristas de reconocido prestigio, en la forma que fije la ley orgánica.",
+      "El artículo 142 atribuye al Tribunal Superior de Justicia, de conformidad con las leyes estatales, competencias que incluyen conocer de las responsabilidades de los artículos 101.3 y 122 del Estatuto, resolver los recursos relacionados con los procesos electorales de la Comunidad, resolver los conflictos de jurisdicción entre órganos de la Comunidad y las cuestiones de competencia entre órganos judiciales de Andalucía, y resolver los conflictos de atribuciones entre corporaciones locales."
+     ]
+    },
+    {
+     "titulo": "16. Instrumentos de control parlamentario",
+     "parrafos": [
+      "El control del Consejo de Gobierno es una de las funciones básicas del Parlamento (art. 106.3). Se ejerce con varios instrumentos, algunos de los cuales se estudian con la Presidencia en el tema 7, y otros que pertenecen al propio Parlamento.",
+      "La comisión de investigación es el instrumento de control de la Administración. El artículo 106.3 permite crear comisiones de investigación con el fin de controlar la acción del Consejo de Gobierno y de la Administración bajo su autoridad, o atribuir esta facultad a las comisiones permanentes.",
+      "La cuestión de confianza (art. 125) y la moción de censura (art. 126) son instrumentos de responsabilidad política del Ejecutivo. Son previas a la responsabilidad penal, que se regula aparte (art. 122). La responsabilidad política se exige ante el Parlamento; la penal, ante la Sala de lo Penal del Tribunal Supremo o, para los delitos en el territorio andaluz, ante el TSJA (art. 122.1).",
+      "Un último instrumento es la disolución anticipada del Parlamento por el Presidente de la Junta, previa deliberación del Consejo de Gobierno (art. 127.1). Es el contrapeso del Ejecutivo frente al Legislativo, y tiene su paralelo en la disolución del artículo 115 CE."
+     ]
+    },
+    {
+     "titulo": "17. El Parlamento frente a la Cortes Generales: comparación",
+     "parrafos": [
+      "El Parlamento andaluz se parece a las Cortes Generales en la estructura básica: es un órgano representativo, elegido por sufragio universal, con función legislativa, de control y presupuestaria. Pero hay diferencias importantes para el examen.",
+      "El Parlamento de Andalucía es unicameral. Sus miembros son diputados, elegidos por sufragio universal con circunscripción provincial, y no hay Senado andaluz. La representación territorial del Senado estatal (art. 69 CE) no tiene equivalente en la Cámara autonómica.",
+      "El número de diputados tiene un mínimo de 109 (art. 101.1), frente a los 300 a 400 del Congreso estatal (art. 68.1 CE). El mandato es de cuatro años (art. 101.2).",
+      "Las leyes orgánicas tienen un equivalente en las leyes que requieren mayoría cualificada del Parlamento andaluz (arts. 103.2 y 108). El control de constitucionalidad de las leyes andaluzas corresponde al Tribunal Constitucional (art. 115), como ocurre con las leyes estatales."
+     ]
+    },
+    {
+     "titulo": "18. Principios transversales: igualdad, participación y calidad normativa",
+     "parrafos": [
+      "El artículo 107 establece el principio de presencia equilibrada de hombres y mujeres en los nombramientos y designaciones de las instituciones y órganos que corresponda efectuar al Parlamento. Es una regla que afecta a la composición de órganos como el Defensor del Pueblo Andaluz o la Cámara de Cuentas cuando sea el Parlamento quien los designa.",
+      "El artículo 113 prevé la participación de los ciudadanos, a través de las organizaciones y asociaciones en que se integran y de las instituciones, en el procedimiento legislativo, en los términos del Reglamento del Parlamento. Es una participación canalizada por el Reglamento y no un derecho de iniciativa directo.",
+      "El artículo 114 establece que, en el procedimiento de elaboración de las leyes y de las disposiciones reglamentarias de la Comunidad, se tendrá en cuenta el impacto por razón de género de su contenido. Esta regla es una exigencia de calidad normativa que debe aparecer en la justificación de las leyes."
+     ]
+    },
+    {
+     "titulo": "19. Cuadro comparativo de los órganos de garantía",
+     "parrafos": [
+      "El Defensor del Pueblo Andaluz (art. 128) es comisionado del Parlamento, elegido por mayoría cualificada. Supervisa la actividad de las administraciones andaluzas y da cuenta al Parlamento. No resuelve de forma vinculante.",
+      "La Cámara de Cuentas (art. 130) es órgano de control externo del gasto y la gestión económica de la Junta, de los entes locales y del sector público andaluz. Depende orgánicamente del Parlamento, y su composición se regula por ley.",
+      "El Tribunal Superior de Justicia de Andalucía (art. 140) es un órgano jurisdiccional. Culmina la organización judicial y resuelve en última instancia los procesos iniciados en Andalucía, con las excepciones que prevé el propio precepto.",
+      "El Consejo Audiovisual (art. 131) y el Consejo Económico y Social (art. 132) completan el Capítulo VI con funciones de garantía en el ámbito audiovisual y de consulta económica y social.",
+      "Para responder a una pregunta de este bloque, conviene identificar primero si el órgano es jurisdiccional o no. El TSJA lo es; el Defensor, la Cámara de Cuentas y los consejos son órganos de garantía, control o consulta sin función jurisdiccional. Después hay que fijar el nombramiento: el Defensor lo elige el Parlamento por mayoría cualificada, el Presidente del TSJA lo nombra el Rey a propuesta del CGPJ, y los consejos siguen sus reglas propias. Esa doble comprobación evita la mayoría de los errores."
+     ]
+    },
+    {
+     "titulo": "10. Claves para el examen",
+     "parrafos": [
+      "Parlamento: mínimo de 109 diputados (art. 101.1), mandato de cuatro años (art. 101.2), circunscripción provincial sin que ninguna tenga más del doble de diputados que otra (art. 104.1).",
+      "Autonomía parlamentaria: reglamentaria, presupuestaria, administrativa y disciplinaria (art. 102.1). Órganos internos: Presidente, Mesa y Diputación Permanente (art. 103.1).",
+      "Funciones: legislar, impulsar y controlar al Consejo de Gobierno, aprobar presupuestos y autorizar la fiscalidad y la deuda (art. 106).",
+      "Control de constitucionalidad de las normas andaluzas con fuerza de ley: exclusivamente el Tribunal Constitucional (art. 115).",
+      "TSJA: culmina la organización judicial en Andalucía (art. 140.1) y es la última instancia de los procesos andaluces (art. 140.2).",
+      "Defensor del Pueblo Andaluz: comisionado del Parlamento, elegido por mayoría cualificada (art. 128). Cámara de Cuentas: control externo, dependiente orgánicamente del Parlamento (art. 130)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley Orgánica 2/2007, de reforma del Estatuto de Autonomía para Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
+     "pdf": "leyes/BOE-A-2007-5825.pdf"
+    }
+   ]
+  },
+  "c07": {
+   "resumen": [
+    {
+     "titulo": "Elección del Presidente de la Junta",
+     "puntos": [
+      "Elegido por el Parlamento de entre sus miembros (art. 118.1). El Presidente del Parlamento propone candidato tras consultar a los portavoces (art. 118.2).",
+      "Primera votación: mayoría absoluta. Nueva votación 48 horas después: mayoría simple (art. 118.3)."
+     ]
+    },
+    {
+     "titulo": "La Presidencia",
+     "puntos": [
+      "Dirige y coordina el Consejo de Gobierno, coordina la Administración, designa y separa a los Consejeros y ostenta la suprema representación de la Comunidad (art. 117.1).",
+      "Puede delegar temporalmente funciones ejecutivas propias en un Vicepresidente o Consejero (art. 117.2)."
+     ]
+    },
+    {
+     "titulo": "El Consejo de Gobierno",
+     "puntos": [
+      "Órgano colegiado de dirección política, con potestad reglamentaria en el ámbito autonómico (arts. 119.2 y 119.3).",
+      "Cese: elecciones, pérdida de cuestión de confianza o moción de censura, dimisión, incapacidad, condena penal firme o fallecimiento del Presidente (art. 120).",
+      "Presidente y Consejeros no pueden ejercer actividad laboral, profesional o empresarial alguna (art. 121)."
+     ]
+    },
+    {
+     "titulo": "Control político y disolución",
+     "puntos": [
+      "Cuestión de confianza: se otorga con mayoría simple (art. 125.1). Si se niega, el Presidente presenta su dimisión (art. 125.2).",
+      "Moción de censura: propuesta por una cuarta parte de los parlamentarios, con candidato, y mayoría absoluta (art. 126.1).",
+      "El Presidente de la Junta puede decretar la disolución del Parlamento, previa deliberación del Consejo de Gobierno (art. 127.1)."
+     ]
+    },
+    {
+     "titulo": "Consejo Consultivo",
+     "puntos": [
+      "Superior órgano consultivo del Consejo de Gobierno y de la Administración de la Junta (art. 129.1), con autonomía orgánica y funcional (art. 129.2)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Norma principal del tema (arts. 117 a 129)"
+    },
+    {
+     "id": "CE",
+     "rol": "Comparación: arts. 99, 108, 112, 113 y 115 CE"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "¿Qué mayoría exige la primera votación de investidura del Presidente de la Junta?",
+     "opciones": [
+      "Mayoría simple",
+      "Mayoría absoluta",
+      "Dos tercios",
+      "Tres quintos"
+     ],
+     "correcta": 1,
+     "explicacion": "En la primera votación se exige mayoría absoluta. Si no se obtiene, la nueva votación 48 horas después requiere solo mayoría simple.",
+     "referencia": "Art. 118.3 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué mayoría basta para otorgar la confianza en la cuestión de confianza?",
+     "opciones": [
+      "Mayoría absoluta",
+      "Dos tercios",
+      "Mayoría simple de los diputados",
+      "Unanimidad"
+     ],
+     "correcta": 2,
+     "explicacion": "La confianza se entiende otorgada cuando vota a favor la mayoría simple de los diputados.",
+     "referencia": "Art. 125.1 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Cuántos parlamentarios, como mínimo, deben proponer una moción de censura andaluza?",
+     "opciones": [
+      "Un décimo",
+      "Una tercera parte",
+      "Una cuarta parte",
+      "La mayoría absoluta"
+     ],
+     "correcta": 2,
+     "explicacion": "La moción de censura debe ser propuesta por al menos una cuarta parte de los parlamentarios, con un candidato a la Presidencia de la Junta.",
+     "referencia": "Art. 126.1 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Cuánto tiempo debe transcurrir desde su presentación antes de votar una moción de censura andaluza?",
+     "opciones": [
+      "Cinco días",
+      "Dos días",
+      "Ocho días",
+      "Quince días"
+     ],
+     "correcta": 0,
+     "explicacion": "La moción de censura no puede votarse hasta que transcurran cinco días desde su presentación.",
+     "referencia": "Art. 126.1 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Cuál NO es causa de cese del Consejo de Gobierno?",
+     "opciones": [
+      "Elecciones al Parlamento",
+      "Pérdida de la cuestión de confianza",
+      "Dimisión del Presidente",
+      "Cambio de domicilio del Presidente"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 120 enumera como causas de cese las elecciones, la pérdida de la cuestión de confianza o la moción de censura, la dimisión, la incapacidad, la condena penal firme y el fallecimiento del Presidente.",
+     "referencia": "Art. 120 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Quién designa y separa a los Consejeros de la Junta?",
+     "opciones": [
+      "El Parlamento",
+      "El Rey",
+      "El Consejo de Gobierno",
+      "El Presidente de la Junta"
+     ],
+     "correcta": 3,
+     "explicacion": "El Presidente de la Junta designa y separa a los Consejeros (art. 117.1), y dirige y coordina la actividad del Consejo de Gobierno.",
+     "referencia": "Art. 117.1 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Quién ejerce la potestad reglamentaria en el ámbito de las competencias autonómicas?",
+     "opciones": [
+      "El Consejo de Gobierno y cada Consejero",
+      "Solo el Parlamento",
+      "El Presidente del Parlamento",
+      "El Tribunal Constitucional"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 119.3 atribuye la potestad reglamentaria al Consejo de Gobierno y a cada uno de sus miembros, en el ámbito de las competencias de la Comunidad.",
+     "referencia": "Art. 119.3 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Quién puede decretar la disolución del Parlamento de Andalucía?",
+     "opciones": [
+      "El Presidente del Parlamento",
+      "El Consejo Consultivo",
+      "El Defensor del Pueblo Andaluz",
+      "El Presidente de la Junta"
+     ],
+     "correcta": 3,
+     "explicacion": "El Presidente de la Junta puede decretar la disolución del Parlamento, previa deliberación del Consejo de Gobierno y bajo su exclusiva responsabilidad.",
+     "referencia": "Art. 127.1 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué garantiza al Consejo Consultivo su independencia?",
+     "opciones": [
+      "Ninguna garantía",
+      "Autonomía orgánica y funcional",
+      "Dependencia del Consejo de Gobierno",
+      "Designación por el Rey"
+     ],
+     "correcta": 1,
+     "explicacion": "El Consejo Consultivo ejerce sus funciones con autonomía orgánica y funcional, y una ley del Parlamento regula su composición, competencia y funcionamiento.",
+     "referencia": "Art. 129.2 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Ante qué órgano se exige la responsabilidad penal de los Consejeros por delitos cometidos en el territorio de su jurisdicción?",
+     "opciones": [
+      "Tribunal Constitucional",
+      "Audiencia Nacional",
+      "Sala de lo Civil del Tribunal Supremo",
+      "TSJA"
+     ],
+     "correcta": 3,
+     "explicacion": "Para los delitos cometidos en el ámbito territorial de su jurisdicción, la responsabilidad penal de los Consejeros es exigible ante el TSJA (art. 122.1).",
+     "referencia": "Art. 122.1 Estatuto de Andalucía"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. El Ejecutivo andaluz: la Presidencia y el Consejo de Gobierno",
+     "parrafos": [
+      "El Ejecutivo de la Comunidad Autónoma está formado por la Presidencia de la Junta y por el Consejo de Gobierno. El artículo 99.1 del Estatuto integra ambos órganos en la Junta de Andalucía, junto con el Parlamento. El Presidente dirige el Consejo y el Consejo ejerce la dirección política de la Comunidad, por lo que la figura del Presidente se entiende mejor en el conjunto del Ejecutivo.",
+      "El modelo es parlamentario. El Ejecutivo nace de la confianza del Parlamento y puede perderla mediante la cuestión de confianza o la moción de censura. El Presidente tiene además la facultad de disolver la Cámara, y así se equilibran las relaciones entre los dos órganos. Este esquema es el mismo que el de la Constitución para el Gobierno del Estado, adaptado a la Comunidad."
+     ]
+    },
+    {
+     "titulo": "2. Elección del Presidente de la Junta (art. 118)",
+     "parrafos": [
+      "El artículo 118.1 establece que el Presidente de la Junta es elegido de entre sus miembros por el Parlamento. No lo elige directamente el electorado. El Parlamento designa al Presidente y, en última instancia, es el Parlamento quien decide.",
+      "El procedimiento tiene varios pasos. El artículo 118.2 establece que el Presidente del Parlamento, previa consulta a los portavoces de los partidos o grupos políticos con representación parlamentaria, propone un candidato a la Presidencia de la Junta. El candidato presenta su programa al Parlamento (art. 118.3).",
+      "Para ser elegido, el candidato necesita, en primera votación, la mayoría absoluta. Si no la obtiene, se procede a una nueva votación cuarenta y ocho horas después, y basta la mayoría simple. Es el mismo esquema de investidura que la Constitución establece para el Presidente del Gobierno (art. 99.3 CE). Para un examen, conviene recordar que las dos mayorías son la absoluta en la primera votación y la simple en la segunda."
+     ]
+    },
+    {
+     "titulo": "3. Funciones y poderes de la Presidencia (art. 117)",
+     "parrafos": [
+      "El artículo 117.1 atribuye al Presidente de la Junta las funciones básicas. Dirige y coordina la actividad del Consejo de Gobierno, coordina la Administración de la Comunidad Autónoma, designa y separa a los Consejeros, y ostenta la suprema representación de la Comunidad Autónoma y la ordinaria del Estado en Andalucía.",
+      "La representación de la Comunidad frente al Estado y frente a otras instituciones se reitera en el artículo 225, que atribuye al Presidente la representación de la Comunidad en sus relaciones con el Estado y las demás instituciones. El artículo 229 repite esa atribución en el Título IX, lo que confirma la centralidad de la figura.",
+      "El artículo 117.2 permite al Presidente delegar temporalmente funciones ejecutivas propias en uno de los Vicepresidentes o en alguno de los Consejeros. La delegación es temporal, y se refiere a funciones ejecutivas propias. Conviene leer el punto completo para conocer sus límites.",
+      "Para un examen, la síntesis es que el Presidente es el jefe del Ejecutivo andaluz, representa a la Comunidad y, con las limitaciones de la delegación temporal, coordina y nombra a los Consejeros."
+     ]
+    },
+    {
+     "titulo": "4. Composición y funciones del Consejo de Gobierno (arts. 119 y 120)",
+     "parrafos": [
+      "El artículo 119.1 establece que el Consejo de Gobierno está integrado por el Presidente, los Vicepresidentes en su caso, y los Consejeros. El artículo 119.2 lo define como el órgano colegiado que, en el marco de sus competencias, ejerce la dirección política de la Comunidad, dirige la Administración y desarrolla las funciones ejecutivas y administrativas de la Junta.",
+      "El artículo 119.3 atribuye al Consejo de Gobierno, y a cada uno de sus miembros, el ejercicio de la potestad reglamentaria en el ámbito de las competencias de la Comunidad Autónoma.",
+      "El artículo 120 regula el cese. El Consejo de Gobierno cesa tras la celebración de elecciones al Parlamento, en los casos de pérdida de la cuestión de confianza o aprobación de moción de censura, por dimisión, por incapacidad, por condena penal firme que inhabilite para el cargo público, o por fallecimiento del Presidente."
+     ]
+    },
+    {
+     "titulo": "5. Régimen jurídico y responsabilidad de los Consejeros (arts. 121, 122 y 124)",
+     "parrafos": [
+      "El artículo 121 establece que el régimen jurídico del Consejo de Gobierno y el estatuto de sus miembros se regulan por ley del Parlamento de Andalucía, que determinará las causas de incompatibilidad. Esta remisión a la ley autonómica es la base del estatuto de los altos cargos andaluces.",
+      "Según el mismo artículo 121, el Presidente y los Consejeros no pueden ejercer actividad laboral, profesional o empresarial alguna. Es una incompatibilidad de dedicación exclusiva que se aplica a quienes integran el Ejecutivo.",
+      "El artículo 122.1 regula la responsabilidad penal de los Consejeros. Es exigible ante la Sala de lo Penal del Tribunal Supremo. Para los delitos cometidos en el ámbito territorial de su jurisdicción, es exigible ante el Tribunal Superior de Justicia de Andalucía. El artículo 122.2 atribuye al TSJA la responsabilidad civil de estos mismos consejeros.",
+      "El artículo 124 establece la responsabilidad política del Consejo de Gobierno ante el Parlamento, que es solidaria, sin perjuicio de la responsabilidad directa de cada Consejero por su gestión. Esta regla es la misma que la del Gobierno estatal ante el Congreso (art. 108 CE). La responsabilidad política es colegiada, pero la gestión de cada departamento sigue siendo individual."
+     ]
+    },
+    {
+     "titulo": "6. La potestad expropiatoria y la responsabilidad patrimonial (art. 123)",
+     "parrafos": [
+      "El artículo 123.1 atribuye al Consejo de Gobierno la potestad expropiatoria, que puede ejercer conforme a la legislación estatal y autonómica. La expropiación es una técnica de limitación de la propiedad en el interés general.",
+      "El mismo artículo regula también la responsabilidad patrimonial de la Comunidad. Conviene leer su apartado 2 para conocer el alcance concreto de esa responsabilidad."
+     ]
+    },
+    {
+     "titulo": "7. El control parlamentario: cuestión de confianza y moción de censura (arts. 125 y 126)",
+     "parrafos": [
+      "El artículo 125.1 establece que el Presidente de la Junta, previa deliberación del Consejo de Gobierno, puede plantear ante el Parlamento la cuestión de confianza sobre su programa o sobre una declaración de política general. La confianza se entiende otorgada cuando vota a favor la mayoría simple de los diputados. Es una iniciativa del Presidente, no del Parlamento.",
+      "El artículo 125.2 regula la consecuencia de la negativa. Si el Parlamento niega su confianza, el Presidente de la Junta presenta su dimisión ante el Parlamento. El Presidente de la Cámara convoca, en el plazo máximo de quince días, la sesión plenaria para la elección de un nuevo Presidente de la Junta.",
+      "El artículo 126.1 regula la moción de censura. El Parlamento puede exigir la responsabilidad política del Consejo de Gobierno mediante su aprobación por mayoría absoluta. La moción debe ser propuesta, al menos, por una cuarta parte de los parlamentarios, e incluir un candidato a la Presidencia. Hay dos reglas de cautela: la moción no puede votarse hasta que transcurran cinco días desde su presentación, y si no se aprueba, sus signatarios no pueden presentar otra durante el mismo periodo de sesiones.",
+      "Para un examen, la comparación con el Estado es clave. La moción de censura andaluza exige que la propongan la cuarta parte de los parlamentarios, mientras que la estatal (art. 113 CE) exige un décimo de los diputados. La moción incluye, en todo caso, un candidato a la Presidencia, como en el Estado."
+     ]
+    },
+    {
+     "titulo": "8. La disolución del Parlamento (art. 127)",
+     "parrafos": [
+      "El artículo 127.1 establece que el Presidente de la Junta, previa deliberación del Consejo de Gobierno y bajo su exclusiva responsabilidad, puede decretar la disolución del Parlamento. Es la facultad del Ejecutivo frente al Legislativo, y equilibra la cuestión de confianza y la moción de censura.",
+      "La disolución anticipada tiene un paralelo en el artículo 115 CE, que permite al Presidente del Gobierno proponer la disolución de las Cortes Generales. En ambos casos, el Ejecutivo asume la responsabilidad política de la decisión, y el resultado son nuevas elecciones.",
+      "Los requisitos y los plazos concretos del artículo 127 deben leerse completos, porque una pregunta sobre ellos exige el texto literal."
+     ]
+    },
+    {
+     "titulo": "9. El Consejo Consultivo de Andalucía (art. 129)",
+     "parrafos": [
+      "El artículo 129.1 establece que el Consejo Consultivo de Andalucía es el superior órgano consultivo del Consejo de Gobierno y de la Administración de la Junta, incluidos sus organismos y entes sujetos a derecho público. Es también el supremo órgano de asesoramiento de las entidades locales y de los organismos y entes de derecho público de ellas dependientes, así como de las universidades públicas andaluzas.",
+      "El mismo precepto añade que el Consejo es también órgano consultivo de otras entidades y corporaciones de derecho público no integradas en la Administración de la Junta, cuando las leyes sectoriales así lo prescriban.",
+      "El artículo 129.2 establece que el Consejo Consultivo ejerce sus funciones con autonomía orgánica y funcional. Una ley del Parlamento regula su composición, competencia y funcionamiento. La autonomía orgánica y funcional es la garantía de que su dictamen sea independiente del Gobierno que lo solicita."
+     ]
+    },
+    {
+     "titulo": "10. Las comisiones delegadas y la Comisión General de Viceconsejeros",
+     "parrafos": [
+      "El programa oficial de este tema incluye las comisiones delegadas del Consejo de Gobierno y la Comisión General de Viceconsejeros y Viceconsejeras. El Estatuto, en el texto consultado, no las regula con esos nombres. Su régimen concreto corresponde a la normativa del propio Consejo de Gobierno y a la ley que regula el Gobierno andaluz.",
+      "Por eso, en un examen, la respuesta correcta sobre estas comisiones debe fundamentarse en la norma que las crea, no en el Estatuto. Conviene verificar esa norma en el BOJA antes de citarla, porque no figura en el catálogo de normas verificadas de este repositorio."
+     ]
+    },
+    {
+     "titulo": "12. Comparación con el Gobierno del Estado",
+     "parrafos": [
+      "El Ejecutivo andaluz sigue el modelo constitucional del Gobierno del Estado, con algunas diferencias. El artículo 97 CE establece que el Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado, y ejerce la función ejecutiva y la potestad reglamentaria. El artículo 119 del Estatuto le atribuye, en el ámbito autonómico, la dirección política, la dirección de la Administración y las funciones ejecutivas y administrativas de la Junta, así como la potestad reglamentaria (art. 119.2 y 119.3).",
+      "La composición es similar. El artículo 98.1 CE establece que el Gobierno se compone del Presidente, de los Vicepresidentes en su caso, de los Ministros y de los demás miembros que establezca la ley. El artículo 119.1 del Estatuto describe el Consejo de Gobierno andaluz con el Presidente, los Vicepresidentes en su caso y los Consejeros.",
+      "La investidura tiene diferencias de detalle. En el Estado, el Rey propone un candidato tras consultar a los grupos, y el Congreso vota la confianza (art. 99 CE). En Andalucía, el Presidente del Parlamento propone el candidato tras consultar a los portavoces, y el Parlamento lo elige (art. 118 del Estatuto). En los dos casos, la primera votación exige mayoría absoluta y la segunda, mayoría simple.",
+      "La responsabilidad política también se parece. El Gobierno responde solidariamente ante el Congreso (art. 108 CE), y el Consejo de Gobierno responde de forma solidaria ante el Parlamento (art. 124 del Estatuto). La cuestión de confianza (art. 112 CE y art. 125 del Estatuto) y la moción de censura (art. 113 CE y art. 126 del Estatuto) son los mismos instrumentos, con mayorías y requisitos que conviene distinguir.",
+      "La diferencia más visible está en la moción de censura. En el Estado la propone un décimo de los diputados; en Andalucía, una cuarta parte de los parlamentarios. Además, la moción andaluza no puede votarse hasta que transcurran cinco días desde su presentación (art. 126.1)."
+     ]
+    },
+    {
+     "titulo": "13. La representación de la Comunidad y las relaciones institucionales",
+     "parrafos": [
+      "El Título IX del Estatuto regula las relaciones institucionales de la Comunidad. El artículo 225 atribuye al Presidente de la Junta la representación de la Comunidad Autónoma de Andalucía en sus relaciones con el Estado y con las demás instituciones, y el artículo 229 repite esa atribución en términos similares.",
+      "El artículo 226 permite a la Comunidad celebrar convenios y acuerdos de cooperación en los supuestos, condiciones y requisitos que determine el Parlamento.",
+      "El artículo 227 permite al Consejo de Gobierno suscribir convenios para la celebración de actos de carácter cultural en otras Comunidades y en Ciudades Autónomas. Es un supuesto específico que conviene distinguir de los convenios generales del artículo 226.",
+      "El artículo 223 permite a los senadores elegidos o designados por Andalucía comparecer ante el Parlamento de Andalucía en los términos que establezca su Reglamento. Es un canal de comunicación entre la representación territorial en el Senado y la Cámara autonómica.",
+      "Para un examen, la clave es que la representación exterior de la Comunidad corresponde al Presidente, que es quien la representa en las relaciones con el Estado, mientras que los convenios se rigen por lo que autorice el Parlamento."
+     ]
+    },
+    {
+     "titulo": "14. Caso práctico: la moción de censura y la sucesión",
+     "parrafos": [
+      "Supongamos que un grupo de parlamentarios quiere presentar una moción de censura contra el Consejo de Gobierno. El primer paso es comprobar que la moción la propone al menos una cuarta parte de los parlamentarios, y que incluye un candidato a la Presidencia de la Junta (art. 126.1). Si la moción no reúne esos requisitos, no es válida.",
+      "El segundo paso es la votación. La moción no puede votarse hasta que transcurran cinco días desde su presentación. Para que prospere se necesita la mayoría absoluta del Parlamento. Si se aprueba, el Consejo de Gobierno cesa por aprobación de la moción (art. 120). El procedimiento para designar al nuevo Presidente se regula en el apartado 2 del artículo 126, que conviene leer completo.",
+      "El tercer paso es lo que ocurre si la moción no se aprueba. Los signatarios no pueden presentar otra durante el mismo periodo de sesiones (art. 126.1). Esto impide que la oposición presente mociones sucesivas sin pausa y da estabilidad al Ejecutivo durante el periodo.",
+      "En un examen, el caso se resuelve citando los artículos 126, 120 y 118 en ese orden: requisitos de la moción, votación y efectos, y restricción tras una moción fallida."
+     ]
+    },
+    {
+     "titulo": "15. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir la elección del Presidente de la Junta con la del Presidente del Gobierno. En Andalucía es el Parlamento quien elige al Presidente de la Junta (art. 118.1), y el candidato lo propone el Presidente del Parlamento (art. 118.2). En el Estado, el Rey propone el candidato (art. 99.1 CE).",
+      "Confundir la moción de censura andaluza con la estatal. La andaluza necesita el apoyo de una cuarta parte de los parlamentarios; la estatal, de un décimo de los diputados (art. 113.2 CE).",
+      "Atribuir al Consejo de Gobierno la representación de la Comunidad. La representación corresponde al Presidente de la Junta (arts. 225 y 229).",
+      "Olvidar que la responsabilidad penal de los Consejeros tiene dos órganos distintos. Para la mayoría de los delitos es competente la Sala de lo Penal del Tribunal Supremo, y para los cometidos en el territorio de la jurisdicción del TSJA, el propio Tribunal Superior de Justicia de Andalucía (art. 122.1)."
+     ]
+    },
+    {
+     "titulo": "16. Cronología del Ejecutivo: elecciones, investidura y cese",
+     "parrafos": [
+      "Un esquema temporal ayuda a memorizar el ciclo del Ejecutivo andaluz. Tras las elecciones al Parlamento, el Consejo de Gobierno cesa (art. 120). El Presidente del Parlamento propone un candidato a la Presidencia tras consultar a los portavoces (art. 118.2). El candidato presenta su programa, y en la primera votación necesita la mayoría absoluta (art. 118.3).",
+      "Si la primera votación no alcanza la mayoría absoluta, se celebra una nueva votación cuarenta y ocho horas después, en la que basta la mayoría simple (art. 118.3). Una vez elegido, el Presidente nombra a los Consejeros y forma el Consejo (art. 117.1).",
+      "Durante la legislatura, el Consejo de Gobierno puede perder la confianza por dos vías. La primera es la negativa a una cuestión de confianza planteada por el Presidente (art. 125.2), que le obliga a presentar su dimisión. La segunda es la aprobación de una moción de censura (art. 120 y art. 126.1).",
+      "El Consejo de Gobierno cesa también por dimisión, incapacidad, condena penal firme que inhabilite para cargo público, o fallecimiento del Presidente (art. 120). Y el Presidente puede disolver el Parlamento, con lo que se convocan nuevas elecciones (art. 127.1)."
+     ]
+    },
+    {
+     "titulo": "17. El Consejo Consultivo: función de dictamen",
+     "parrafos": [
+      "El Consejo Consultivo de Andalucía es el superior órgano consultivo del Consejo de Gobierno. Su función principal es emitir dictámenes sobre los asuntos que la ley somete a su consulta. El Estatuto no enumera aquí esos asuntos, porque su regulación corresponde a la ley del Parlamento que determina su composición, competencia y funcionamiento (art. 129.2).",
+      "La función consultiva es distinta de la función de control. Por eso, la autonomía orgánica y funcional del Consejo es importante: sus dictámenes deben ser independientes del órgano que los solicita.",
+      "El Consejo Consultivo también asesora a las entidades locales andaluzas y a los organismos y entes de derecho público de ellas dependientes, así como a las universidades públicas andaluzas (art. 129.1). Esa extensión lo convierte en un órgano consultivo de amplio alcance en el sector público andaluz."
+     ]
+    },
+    {
+     "titulo": "18. Estatuto personal del Presidente y de los Consejeros",
+     "parrafos": [
+      "El estatuto personal de los miembros del Consejo de Gobierno se regula por ley del Parlamento (art. 121). Esa ley determina las causas de incompatibilidad, y el propio Estatuto fija una incompatibilidad general: el Presidente y los Consejeros no pueden ejercer actividad laboral, profesional o empresarial alguna.",
+      "Esta incompatibilidad protege la independencia de quienes dirigen el Ejecutivo y evita conflictos de intereses. Es una exigencia de dedicación exclusiva que distingue a los miembros del Consejo de los diputados, que sí pueden tener otra actividad.",
+      "La responsabilidad penal de los Consejeros se rige por el artículo 122: el Tribunal Supremo para la generalidad de los delitos y el TSJA para los cometidos en el territorio de su jurisdicción. La responsabilidad civil de los mismos sujetos corresponde al TSJA (art. 122.2)."
+     ]
+    },
+    {
+     "titulo": "19. La potestad reglamentaria del Consejo de Gobierno y de cada Consejero",
+     "parrafos": [
+      "El artículo 119.3 atribuye la potestad reglamentaria en el ámbito de las competencias de la Comunidad al Consejo de Gobierno y a cada uno de sus miembros. La atribución a cada Consejero significa que puede dictar reglamentos en su propio departamento, además de los que aprueba el Consejo en pleno.",
+      "La potestad reglamentaria debe respetar la jerarquía normativa. Los reglamentos son normas inferiores a la ley, y no pueden contradecir lo que dispone una ley del Parlamento, ni regular materias que el Estatuto reserva a la ley. Esta limitación es la que el artículo 9.3 CE garantiza, al consagrar la jerarquía normativa.",
+      "Para un examen, la distinción útil es entre la potestad legislativa, que corresponde al Parlamento (art. 108), y la potestad reglamentaria, que corresponde al Consejo y a cada Consejero (art. 119.3). El decreto-ley del artículo 110 es un caso intermedio, con rango de ley y limitaciones propias."
+     ]
+    },
+    {
+     "titulo": "20. El Consejo de Gobierno y la Administración de la Junta",
+     "parrafos": [
+      "El artículo 119.2 atribuye al Consejo de Gobierno la dirección de la Administración de la Junta y el desarrollo de sus funciones ejecutivas y administrativas. El artículo 117.1 atribuye al Presidente la coordinación de la Administración de la Comunidad.",
+      "El artículo 133.1 establece los principios de actuación de la Administración de la Junta: objetividad y servicio al interés general, eficacia, eficiencia, racionalidad organizativa, jerarquía, simplificación de procedimientos, desconcentración, coordinación, cooperación, imparcialidad, transparencia, lealtad institucional y proximidad a los ciudadanos, con sujeción a la Constitución y al Estatuto.",
+      "El artículo 133.2 establece que la gestión ordinaria se realiza a través de los servicios centrales y periféricos de la Administración. El artículo 47.1.1.ª atribuye a la Comunidad, como competencia exclusiva, la estructura y regulación de los órganos administrativos públicos de Andalucía y de sus organismos autónomos. Esta es la base de la organización de la Administración que el tema 8 desarrolla.",
+      "La relación entre el Consejo y la Administración es, por tanto, de dirección política y ejecución. El Consejo fija la orientación, la Administración ejecuta, y los principios del artículo 133 limitan la actuación de ambos."
+     ]
+    },
+    {
+     "titulo": "21. Cuadro de mayorías y plazos del Ejecutivo andaluz",
+     "parrafos": [
+      "Investidura del Presidente de la Junta: primera votación con mayoría absoluta; nueva votación cuarenta y ocho horas después con mayoría simple (art. 118.3).",
+      "Cuestión de confianza: se entiende otorgada con el voto favorable de la mayoría simple de los diputados (art. 125.1). Si se niega, el Presidente presenta su dimisión y el Presidente del Parlamento convoca, en quince días como máximo, el pleno para elegir un nuevo Presidente (art. 125.2).",
+      "Moción de censura: propuesta de al menos una cuarta parte de los parlamentarios, con candidato a la Presidencia; aprobación por mayoría absoluta; no puede votarse antes de cinco días desde su presentación (art. 126.1).",
+      "Disolución del Parlamento: decretada por el Presidente de la Junta, previa deliberación del Consejo de Gobierno y bajo su exclusiva responsabilidad (art. 127.1).",
+      "Responsabilidad penal de los Consejeros: Sala de lo Penal del Tribunal Supremo, o el TSJA para los delitos cometidos en su territorio de jurisdicción (art. 122.1). Responsabilidad civil: TSJA (art. 122.2).",
+      "Consejo Consultivo: superior órgano consultivo del Consejo de Gobierno, con autonomía orgánica y funcional (art. 129.2)."
+     ]
+    },
+    {
+     "titulo": "11. Claves para el examen",
+     "parrafos": [
+      "Elección: el Parlamento elige al Presidente; mayoría absoluta en primera votación y mayoría simple 48 horas después (art. 118).",
+      "Funciones: dirige y coordina el Consejo, coordina la Administración, designa y separa a los Consejeros, y ostenta la suprema representación (art. 117.1). Delegación temporal de funciones ejecutivas (art. 117.2).",
+      "Consejo de Gobierno: órgano colegiado de dirección política (art. 119.2); potestad reglamentaria (art. 119.3); cese por elecciones, cuestión de confianza, moción de censura, dimisión, incapacidad, condena o fallecimiento (art. 120).",
+      "Control: cuestión de confianza con mayoría simple (art. 125.1); moción de censura con cuarta parte de parlamentarios y mayoría absoluta (art. 126.1); disolución por el Presidente (art. 127.1).",
+      "Responsabilidad: penal de los Consejeros ante el Supremo o ante el TSJA (art. 122.1); responsabilidad política solidaria del Consejo (art. 124).",
+      "Consejo Consultivo: superior órgano consultivo, con autonomía orgánica y funcional (art. 129)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley Orgánica 2/2007, de reforma del Estatuto de Autonomía para Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
+     "pdf": "leyes/BOE-A-2007-5825.pdf"
+    },
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
+    }
+   ]
+  },
+  "c08": {
+   "resumen": [
+    {
+     "titulo": "La Comunidad como Administración",
+     "puntos": [
+      "Es Administración pública a efectos de la jurisdicción contencioso-administrativa (art. 139.1 del Estatuto).",
+      "Está exenta de prestar cauciones o depósitos para interponer recursos (art. 139.2)."
+     ]
+    },
+    {
+     "titulo": "Principios de actuación",
+     "puntos": [
+      "Objetividad al interés general, eficacia, eficiencia, racionalidad organizativa, jerarquía, simplificación, desconcentración y coordinación (art. 133.1).",
+      "Cooperación, imparcialidad, transparencia, lealtad institucional, buena fe, confianza legítima, no discriminación y proximidad (art. 133.1).",
+      "Paralelo constitucional: art. 103.1 CE (objetividad, eficacia, jerarquía, descentralización, desconcentración, coordinación y sometimiento a la ley)."
+     ]
+    },
+    {
+     "titulo": "Organización",
+     "puntos": [
+      "Gestión ordinaria a través de servicios centrales y periféricos (art. 133.2). Todos los órganos de servicio dependen de la Comunidad (art. 133.3).",
+      "Estructura de los órganos administrativos y de los organismos autónomos: competencia exclusiva (art. 47.1.1.ª)."
+     ]
+    },
+    {
+     "titulo": "Personal y ciudadanía",
+     "puntos": [
+      "Régimen estatutario y laboral del personal: competencia compartida (art. 47.2.1.ª). Acceso por mérito y capacidad (art. 136).",
+      "Participación ciudadana y acceso a archivos y registros (art. 134). Publicidad de los servicios y cartas de derechos (art. 137). Evaluación de políticas públicas (art. 138)."
+     ]
+    },
+    {
+     "titulo": "Igualdad y relaciones",
+     "puntos": [
+      "Presencia equilibrada de hombres y mujeres en los nombramientos de órganos directivos (art. 135).",
+      "Colaboración multilateral con el Estado (art. 221), convenios (art. 226) y participación en la posición del Estado ante la UE (art. 231.1)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Norma principal del tema (arts. 47, 133 a 139 y Título IX)"
+    },
+    {
+     "id": "CE",
+     "rol": "Complementaria: art. 103 (principios de la Administración) y art. 149.1.18.ª"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "¿Qué es la Comunidad Autónoma a efectos de la jurisdicción contencioso-administrativa?",
+     "opciones": [
+      "Un órgano judicial",
+      "Administración pública",
+      "Un órgano consultivo",
+      "Un particular"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 139.1 del Estatuto establece que la Comunidad Autónoma es Administración pública a los efectos de la Ley reguladora de la jurisdicción contencioso-administrativa.",
+     "referencia": "Art. 139.1 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿De qué está exenta la Comunidad al ejercitar acciones o interponer recursos?",
+     "opciones": [
+      "De cauciones y depósitos",
+      "De los costes del juicio",
+      "De representación letrada",
+      "De plazos"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 139.2 establece que la Comunidad está exenta de prestar cauciones o depósitos para ejercitar acciones o interponer recursos.",
+     "referencia": "Art. 139.2 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Cuál de estos NO es un principio del artículo 133.1 del Estatuto?",
+     "opciones": [
+      "Objetividad",
+      "Eficacia",
+      "Arbitrariedad",
+      "Transparencia"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 133.1 enumera la objetividad, la eficacia, la transparencia y otros principios. La arbitrariedad es lo contrario del principio de interdicción que recoge el art. 9.3 CE.",
+     "referencia": "Art. 133.1 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Cómo se realiza la gestión ordinaria de las actividades de la Junta?",
+     "opciones": [
+      "Solo por los servicios centrales",
+      "Por empresas privadas",
+      "Por el Parlamento",
+      "A través de servicios centrales y periféricos"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 133.2 establece que la gestión ordinaria se desarrolla a través de los servicios centrales y periféricos de la Administración de la Junta.",
+     "referencia": "Art. 133.2 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué tipo de competencia tiene la Comunidad sobre la estructura de sus órganos administrativos?",
+     "opciones": [
+      "Compartida",
+      "Ejecutiva",
+      "Ninguna",
+      "Exclusiva"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 47.1.1.ª atribuye a la Comunidad, como competencia exclusiva, la estructura y regulación de sus órganos administrativos y de sus organismos autónomos.",
+     "referencia": "Art. 47.1.1.ª Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué tipo de competencia es el régimen jurídico de la Administración de la Comunidad?",
+     "opciones": [
+      "Exclusiva",
+      "Residual",
+      "Compartida",
+      "Delegada"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 47.2.1.ª incluye el régimen jurídico de la Administración y el régimen de su personal entre las competencias compartidas.",
+     "referencia": "Art. 47.2.1.ª Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué principio rige el acceso al empleo público de la Administración andaluza?",
+     "opciones": [
+      "Antigüedad y sorteo",
+      "Libre designación",
+      "Mérito y capacidad",
+      "Afinidad política"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 136 establece que el acceso al empleo público se produce de acuerdo con los principios de mérito y capacidad.",
+     "referencia": "Art. 136 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué garantiza el artículo 137 del Estatuto?",
+     "opciones": [
+      "Los presupuestos de la Junta",
+      "El plan de empleo público",
+      "El Libro del Edificio",
+      "La publicidad de la oferta de servicios y las cartas de derechos"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 137 obliga a la Administración de la Junta a hacer pública la oferta y las características de los servicios, así como las cartas de derechos de los ciudadanos.",
+     "referencia": "Art. 137 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué encarga el artículo 138 del Estatuto a la ley?",
+     "opciones": [
+      "Regular un sistema de evaluación de las políticas públicas",
+      "Fijar las tasas de la Junta",
+      "Regular el régimen electoral",
+      "Crear comarcas"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 138 encarga a la ley la organización y el funcionamiento de un sistema de evaluación de las políticas públicas.",
+     "referencia": "Art. 138 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué principio se aplica en los nombramientos de los órganos directivos andaluces?",
+     "opciones": [
+      "Presencia equilibrada de hombres y mujeres",
+      "Turno rotatorio",
+      "Mayoría cualificada",
+      "Designación por sorteo"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 135 establece el principio de presencia equilibrada de hombres y mujeres en el nombramiento de los titulares de los órganos directivos de la Administración andaluza.",
+     "referencia": "Art. 135 Estatuto de Andalucía"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. La Comunidad como Administración pública",
+     "parrafos": [
+      "El artículo 139.1 del Estatuto establece que la Comunidad Autónoma es Administración pública a los efectos de la Ley reguladora de la jurisdicción contencioso-administrativa. Esta equiparación tiene una consecuencia práctica: los actos y disposiciones de la Junta pueden ser impugnados ante la jurisdicción contencioso-administrativa, en los mismos términos que los de cualquier Administración pública.",
+      "El artículo 139.2 añade que la Comunidad está exenta de prestar cauciones o depósitos para ejercitar acciones o interponer recursos. Es un privilegio procesal que se justifica por el carácter público de la Administración, y que conviene recordar porque aparece en las preguntas sobre la posición de la Junta ante los tribunales.",
+      "La Administración de la Comunidad se encuentra en el Título IV del Estatuto, y en concreto en la regulación de la Junta de Andalucía. El artículo 99.1 la integra en la organización política de la Comunidad, junto con el Parlamento, la Presidencia y el Consejo de Gobierno. El Consejo de Gobierno dirige esa Administración, y el Presidente la coordina (art. 117.1)."
+     ]
+    },
+    {
+     "titulo": "2. Principios de organización y actuación (art. 133)",
+     "parrafos": [
+      "El artículo 133.1 establece los principios de actuación de la Administración de la Junta. Sirve con objetividad al interés general y actúa de acuerdo con los principios de eficacia, eficiencia, racionalidad organizativa, jerarquía, simplificación de procedimientos, desconcentración, coordinación, cooperación, imparcialidad, transparencia, lealtad institucional, buena fe, protección de la confianza legítima, no discriminación y proximidad a los ciudadanos. Todo ello con sujeción a la Constitución, al Estatuto y al resto del ordenamiento jurídico.",
+      "Los principios se agrupan en cuatro familias para memorizarlos. Los de objetividad y sometimiento a la ley (objetividad, imparcialidad, sujeción al ordenamiento, no discriminación). Los de eficacia y organización (eficacia, eficiencia, racionalidad organizativa, simplificación de procedimientos). Los de estructura (jerarquía, desconcentración, coordinación, cooperación). Y los de relación con el ciudadano (transparencia, proximidad, buena fe, confianza legítima).",
+      "El artículo 133.2 establece que la gestión ordinaria de las actividades se desarrolla a través de los servicios centrales y periféricos de la Administración de la Junta. Esta distinción es la base de la organización central y territorial que el programa oficial incluye en este tema.",
+      "El artículo 133.3 establece que todos los órganos encargados de la prestación de servicios o de la gestión de competencias y atribuciones de la Comunidad dependen de ella y se integran en su Administración. Esta regla fija el perímetro de la Administración: lo que presta servicios en nombre de la Comunidad forma parte de ella."
+     ]
+    },
+    {
+     "titulo": "3. La organización central y territorial",
+     "parrafos": [
+      "El artículo 47.1.1.ª atribuye a la Comunidad, como competencia exclusiva, la organización y la estructura de los órganos administrativos públicos de Andalucía y de sus organismos autónomos. Es la competencia que permite a la Junta decidir cómo se organiza su Administración, sin que el Estado pueda imponer una estructura concreta.",
+      "La organización central corresponde a los servicios centrales de la Junta, y la territorial a los servicios periféricos, según la distinción del artículo 133.2. El Estatuto fija que las instituciones superiores tienen su sede en Sevilla (art. 4.1), pero no detalla la distribución de los servicios periféricos entre las ocho provincias, que corresponde a la normativa de organización.",
+      "El texto del Estatuto no regula por sí mismo los niveles concretos de la organización, como las consejerías, las viceconsejerías o las direcciones generales. Esos niveles se encuentran en la normativa de organización de la Administración, que debe verificarse en el BOJA antes de citarse. Este repositorio no tiene esa norma en su catálogo.",
+      "Para un examen, la respuesta bien estructurada distingue el nivel estatutario (art. 47.1.1.ª y art. 133.2) del nivel reglamentario, que fija la estructura concreta, y explica que la Junta tiene la competencia para ambos."
+     ]
+    },
+    {
+     "titulo": "4. El régimen jurídico y el personal de la Administración (art. 47.2 y art. 136)",
+     "parrafos": [
+      "El artículo 47.2.1.ª atribuye a la Comunidad, como competencia compartida, el régimen jurídico de su Administración y el régimen estatutario de su personal funcionario y estatutario, así como de su personal laboral, sin perjuicio de lo dispuesto en el artículo 76 del Estatuto. Es una competencia compartida porque el régimen general de los funcionarios corresponde al Estado en sus bases.",
+      "El artículo 136 encomienda a la ley el estatuto de los funcionarios públicos de la Administración de la Junta, y el acceso al empleo público de acuerdo con los principios de mérito y capacidad. Ese precepto añade que la ley establecerá un órgano administrativo de la función pública resolutorio de los recursos sobre esta materia.",
+      "La idea clave es el mérito y la capacidad. El acceso al empleo público andaluz se rige por ellos, y es la base de las oposiciones que se preparan con este temario. La existencia de un órgano administrativo de la función pública que resuelva los recursos en la materia es una garantía de control interno."
+     ]
+    },
+    {
+     "titulo": "5. Participación ciudadana y acceso a la información (art. 134)",
+     "parrafos": [
+      "El artículo 134 establece que una ley regulará la participación de los ciudadanos, directamente o a través de las asociaciones y organizaciones en que se integren, en los procedimientos administrativos o de elaboración de disposiciones que les puedan afectar (letra a).",
+      "El mismo artículo regula el acceso de los ciudadanos a la Administración de la Junta, que comprende en todo caso sus archivos y registros, sin menoscabo de las garantías de confidencialidad y reserva que establezca la ley (letra b). Es una manifestación del derecho de acceso que la transparencia desarrolla.",
+      "Para un examen, la clave es que la participación y el acceso son mandatos al legislador: el Estatuto no los regula directamente, sino que encarga a una ley su desarrollo."
+     ]
+    },
+    {
+     "titulo": "6. Igualdad, cartas de derechos y evaluación de políticas (arts. 135, 137 y 138)",
+     "parrafos": [
+      "El artículo 135 establece el principio de representación equilibrada de hombres y mujeres. Una ley regulará la presencia equilibrada en el nombramiento de los titulares de los órganos directivos de la Administración andaluza cuya designación corresponda al Consejo de Gobierno o a sus miembros. El mismo principio rige en los nombramientos de otros órganos que el propio precepto indica.",
+      "El artículo 137 obliga a la Administración de la Junta a hacer pública la oferta y las características de la prestación de los servicios, así como las cartas de derechos de los ciudadanos ante ella. Estas cartas concretan lo que el ciudadano puede exigir de cada servicio.",
+      "El artículo 138 encarga a una ley la organización y el funcionamiento de un sistema de evaluación de las políticas públicas. La evaluación es una garantía de eficacia y de transparencia, y su desarrollo corresponde al legislador andaluz."
+     ]
+    },
+    {
+     "titulo": "7. La Comunidad ante los tribunales y la relación con el Estado",
+     "parrafos": [
+      "La Administración de la Junta se somete a la jurisdicción de los tribunales. Como ya se ha visto (art. 139.1), es Administración pública a efectos contencioso-administrativos, y sus actos y disposiciones pueden ser impugnados ante la jurisdicción en los términos de la ley.",
+      "El artículo 47.2 incluye como competencia compartida otros aspectos del procedimiento administrativo, cuyo detalle está en el propio precepto. La regla general es que el procedimiento administrativo común es competencia del Estado en sus bases (art. 149.1.18.ª CE), y que la Comunidad regula las especialidades derivadas de su organización propia (art. 47.1.1.ª).",
+      "La potestad de control, inspección y sanción en los ámbitos materiales de la Comunidad es competencia exclusiva de la Comunidad, sin perjuicio de lo que el artículo 149.1.18.ª CE reserva al Estado (art. 47.1.3.ª). Esta excepción es la clave para distinguir qué sanciones puede imponer la Junta y cuáles corresponden al Estado."
+     ]
+    },
+    {
+     "titulo": "8. Entidades instrumentales y organismos autónomos",
+     "parrafos": [
+      "El artículo 47.1.1.ª menciona expresamente los organismos autónomos de la Comunidad como parte de su organización. Un organismo autónomo es una entidad con personalidad jurídica propia, creada para gestionar un servicio o una actividad, y vinculada a la Administración matriz.",
+      "El programa oficial incluye también las entidades instrumentales, como agencias, empresas públicas y fundaciones. El Estatuto no regula su régimen con esos nombres en el texto consultado. Su régimen concreto corresponde a la ley andaluza que las crea y a la normativa de organización, y debe verificarse antes de citarse.",
+      "Para un examen, la diferencia básica es que los organismos autónomos forman parte de la Administración de la Junta, mientras que las entidades instrumentales pueden tener régimen de derecho privado en parte de su actividad. La distinción exacta depende de la norma que las crea."
+     ]
+    },
+    {
+     "titulo": "9. La Administración y la ciudadanía: síntesis",
+     "parrafos": [
+      "El artículo 133 define la actuación de la Administración; el artículo 134 regula la participación y el acceso; el artículo 137 crea las cartas de derechos y el 138 la evaluación de políticas. Juntos forman el bloque de la Administración orientada al ciudadano.",
+      "La relación entre la Junta y los ayuntamientos es una relación de cooperación y de coordinación, como indica el artículo 133.1, y tiene su canal en el órgano mixto del artículo 95. El tema 4 desarrolla esa relación desde la perspectiva local.",
+      "Para un examen, conviene conectar el tema con el tema 7: la Presidencia y el Consejo de Gobierno dirigen la Administración, y los principios del artículo 133 limitan su actuación."
+     ]
+    },
+    {
+     "titulo": "11. El modelo constitucional de la Administración: artículo 103 CE",
+     "parrafos": [
+      "El artículo 103.1 CE establece que la Administración pública sirve con objetividad los intereses generales y actúa de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho. Es el precepto de referencia para toda la Administración española, incluida la andaluza.",
+      "El artículo 133.1 del Estatuto reproduce y amplía esos principios en el ámbito de la Junta. Mantiene objetividad, eficacia, jerarquía, desconcentración, coordinación y sometimiento a la ley. Añade eficiencia, racionalidad organizativa, simplificación de procedimientos, cooperación, imparcialidad, transparencia, lealtad institucional, buena fe, protección de la confianza legítima, no discriminación y proximidad. La comparación es un ejercicio útil: lo que el texto constitucional enumera se desarrolla en el Estatuto con principios de servicio al ciudadano.",
+      "El artículo 103.2 CE establece que los órganos de la Administración del Estado son creados, regidos y coordinados de acuerdo con la ley. Esta regla tiene su equivalente en la Comunidad: sus órganos se crean y se regulan por las normas de la Junta, dentro de las competencias del artículo 47.1.1.ª del Estatuto.",
+      "El artículo 103.3 CE remite a la ley el estatuto de los funcionarios, el acceso a la función pública de acuerdo con los principios de mérito y capacidad, el régimen de incompatibilidades y las garantías de imparcialidad. El artículo 136 del Estatuto reproduce el mismo esquema para la Administración andaluza."
+     ]
+    },
+    {
+     "titulo": "12. Principios aplicados: casos prácticos",
+     "parrafos": [
+      "Caso 1: un ciudadano pide información sobre un expediente que afecta a su vivienda. El principio de transparencia del artículo 133.1 y el derecho de acceso a los archivos y registros del artículo 134.b obligan a facilitarla, con las garantías de confidencialidad que establezca la ley. La Administración no puede negarse sin fundamento.",
+      "Caso 2: dos delegaciones de la Junta en provincias distintas tramitan expedientes que se solapan. El principio de coordinación del artículo 133.1 exige que actúen de forma conjunta, y el de cooperación obliga a intercambiar información. Si el conflicto se produce entre órganos de la propia Administración, su solución corresponde a los mecanismos internos de jerarquía.",
+      "Caso 3: un servicio se presta de forma deficiente y los usuarios reclaman. El artículo 137 obliga a hacer pública la oferta y las características de los servicios, y a publicar las cartas de derechos. La carta permite al ciudadano conocer lo que puede exigir, y es la base para su reclamación.",
+      "Caso 4: la Junta quiere reformar la estructura de un organismo autónomo. El artículo 47.1.1.ª atribuye a la Comunidad la estructura y regulación de sus órganos administrativos y de sus organismos autónomos. La competencia es exclusiva, por lo que la Junta puede decidir la reforma sin pedir autorización al Estado, dentro de la legalidad básica."
+     ]
+    },
+    {
+     "titulo": "13. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir los principios del artículo 103 CE con los del artículo 133 del Estatuto. El primero es el de la Administración del Estado y de todas las Administraciones públicas; el segundo, el de la Junta de Andalucía. Ambos incluyen objetividad y sometimiento a la ley, pero el del Estatuto es más extenso.",
+      "Atribuir al Estado la estructura de los órganos andaluces. La competencia exclusiva sobre la organización de los órganos administrativos andaluces corresponde a la Comunidad (art. 47.1.1.ª).",
+      "Confundir la competencia sobre el régimen jurídico (compartida, art. 47.2.1.ª) con la competencia sobre el procedimiento administrativo derivado de la organización propia (exclusiva, art. 47.1.1.ª). Son dos competencias distintas.",
+      "Olvidar que la Comunidad es Administración pública a efectos contenciosos (art. 139.1) y que está exenta de cauciones y depósitos para interponer recursos (art. 139.2)."
+     ]
+    },
+    {
+     "titulo": "14. Relación de la Administración andaluza con otras administraciones (Título IX)",
+     "parrafos": [
+      "El Título IX del Estatuto regula las relaciones institucionales de la Comunidad. El artículo 221.1 establece que la Junta colaborará con el Estado mediante órganos y procedimientos multilaterales en los asuntos de interés común. Es el cauce ordinario de la cooperación, que se ejerce a través de órganos conjuntos y no de decisiones unilaterales.",
+      "El artículo 222 prevé que la Comunidad participe en la planificación de la actividad económica, tanto general como sectorial. Esa participación es un elemento importante de la relación con el Estado en materias de competencia compartida.",
+      "El artículo 226.1 permite a la Comunidad celebrar convenios y acuerdos de cooperación en los supuestos, condiciones y requisitos que determine el Parlamento. El convenio es el instrumento típico de la cooperación entre administraciones, y su régimen depende de la ley que lo regula.",
+      "El artículo 228 establece unas especiales relaciones de colaboración, cooperación y asistencia con Ceuta y Melilla. El artículo 231.1 prevé que la Comunidad participe en la formación de la posición del Estado ante la Unión Europea en los asuntos que afecten a sus competencias, lo que conecta la Administración andaluza con la política europea.",
+      "Para un examen, la relación entre administraciones se explica por tres vías: la colaboración multilateral (art. 221), los convenios (art. 226) y la participación en decisiones del Estado y de la Unión Europea (art. 231)."
+     ]
+    },
+    {
+     "titulo": "15. Garantías y control de la Administración andaluza",
+     "parrafos": [
+      "La Administración de la Junta está sometida a varios controles. El primero es el control judicial, que corresponde a la jurisdicción contencioso-administrativa, ante la que la Comunidad es Administración pública (art. 139.1). Los actos de la Junta pueden impugnarse ante los tribunales en los términos de la ley procesal.",
+      "El segundo es el control parlamentario. El Parlamento controla la acción del Consejo de Gobierno y la de la Administración situada bajo su autoridad (art. 106.3). Ese control se ejerce, entre otros instrumentos, con comisiones de investigación.",
+      "El tercero es el control del Defensor del Pueblo Andaluz, que puede supervisar la actividad de las administraciones públicas andaluzas y dar cuenta al Parlamento (art. 128.1). Es un control no jurisdiccional que busca resolver quejas de los ciudadanos.",
+      "El cuarto es el control externo económico de la Cámara de Cuentas, que fiscaliza la actividad económica y presupuestaria de la Junta (art. 130.1). Los cuatro controles son complementarios y responden a funciones distintas: judicial, político, de defensa de derechos y económico."
+     ]
+    },
+    {
+     "titulo": "16. Atención ciudadana en la práctica",
+     "parrafos": [
+      "La atención ciudadana es uno de los principios del artículo 133.1, a través de la proximidad a los ciudadanos y la transparencia. Se concreta en la publicidad de los servicios (art. 137), en las cartas de derechos y en el derecho de acceso a la información (art. 134.b).",
+      "En la práctica, la atención ciudadana se organiza a través de los servicios periféricos, que acercan la Administración a la población de cada provincia, y de los canales de información y reclamación que la normativa de organización establece. El detalle concreto de esos canales corresponde a la normativa autonómica, que debe verificarse en el BOJA.",
+      "Para un examen, la síntesis es que la atención ciudadana es un principio de actuación (art. 133.1), un deber de publicidad (art. 137) y un derecho de acceso (art. 134.b), y que cada uno tiene un fundamento distinto."
+     ]
+    },
+    {
+     "titulo": "17. Cuadro comparativo de principios y competencias",
+     "parrafos": [
+      "Principios de la Administración: artículo 103.1 CE (objetividad, eficacia, jerarquía, descentralización, desconcentración, coordinación, sometimiento a la ley) y artículo 133.1 del Estatuto (principios adicionales de eficiencia, transparencia, proximidad, buena fe y confianza legítima).",
+      "Competencias sobre la Administración: exclusiva sobre la estructura de los órganos y de los organismos autónomos (art. 47.1.1.ª); exclusiva sobre el procedimiento derivado de la organización propia (art. 47.1.1.ª); compartida sobre el régimen jurídico y el personal (art. 47.2.1.ª); exclusiva sobre la potestad de control, inspección y sanción en sus ámbitos materiales (art. 47.1.3.ª).",
+      "Estado: bases del régimen jurídico de las Administraciones y del procedimiento administrativo común (art. 149.1.18.ª CE); coordinación en las materias compartidas."
+     ]
+    },
+    {
+     "titulo": "18. Qué significa cada principio del artículo 133.1",
+     "parrafos": [
+      "Objetividad: la Administración decide según el interés general y los datos del expediente, sin dejarse llevar por intereses particulares o de partido. Se conecta con la imparcialidad, que exige que el empleado público no favorezca a nadie.",
+      "Eficacia y eficiencia: la eficacia mide si la Administración consigue el fin para el que actúa; la eficiencia, si lo consigue con el menor coste. Ambos principios se miden con indicadores, y se conectan con la evaluación de políticas públicas del artículo 138.",
+      "Racionalidad organizativa y simplificación de procedimientos: la estructura de la Administración debe responder a la función que realiza, y los trámites deben reducirse a lo necesario. Es el principio que justifica las reformas administrativas de la Junta.",
+      "Jerarquía, desconcentración y coordinación: la jerarquía ordena los órganos, la desconcentración reparte competencias dentro de la misma Administración, y la coordinación asegura que actúen de forma coherente. Los tres se combinan en la organización central y periférica.",
+      "Cooperación y lealtad institucional: las administraciones deben colaborar entre sí y no interferir en las competencias de las demás. Este principio se conecta con los convenios del artículo 226 y con los órganos de colaboración del artículo 221.",
+      "Transparencia, buena fe, confianza legítima y no discriminación: la Administración debe ser pública en su actuación, actuar con lealtad hacia el ciudadano, respetar las expectativas razonables que ha generado y tratar por igual a las personas en situaciones iguales.",
+      "Proximidad: la Administración debe estar cerca del ciudadano, lo que se concreta en los servicios periféricos y en la atención en el territorio. Es el principio que une la organización territorial con la atención ciudadana."
+     ]
+    },
+    {
+     "titulo": "19. La potestad sancionadora de la Comunidad",
+     "parrafos": [
+      "El artículo 47.1.3.ª atribuye a la Comunidad, como competencia exclusiva, las potestades de control, inspección y sanción en los ámbitos materiales de su competencia, en lo no afectado por el artículo 149.1.18.ª CE. La Junta puede inspeccionar y sancionar en las materias que le corresponden, pero no en aquellas en las que el Estado tiene una reserva expresa.",
+      "La potestad sancionadora debe ejercerse con las garantías del procedimiento administrativo, que el Estado fija en sus bases (art. 149.1.18.ª CE). Eso significa que el procedimiento sancionador de la Junta sigue los trámites básicos comunes y añade sus especialidades derivadas de su organización propia (art. 47.1.1.ª).",
+      "Para un examen, la pregunta típica es si una sanción corresponde a la Junta o al Estado. La respuesta depende de si la materia es competencia de la Comunidad y de si el artículo 149.1.18.ª reserva expresamente la potestad al Estado."
+     ]
+    },
+    {
+     "titulo": "20. Cómo estudiar este tema",
+     "parrafos": [
+      "Empiece por el artículo 139, que fija la naturaleza de la Administración andaluza ante los tribunales. Después lea el artículo 133, que es el núcleo del tema: sus principios y la distinción entre servicios centrales y periféricos. Con esa base, el resto del tema se ordena solo.",
+      "Luego conviene estudiar las competencias del artículo 47, que determinan quién puede organizar y regular la Administración: la estructura de los órganos y de los organismos autónomos es exclusiva, el régimen jurídico y el personal son compartidos. La diferencia entre ambas categorías es una pregunta frecuente.",
+      "Por último, los preceptos de participación, cartas de derechos y evaluación (arts. 134, 137 y 138) completan la visión de la Administración orientada al ciudadano. Estudiarlos en bloque facilita recordarlos."
+     ]
+    },
+    {
+     "titulo": "21. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué principios enumera el artículo 133.1 del Estatuto? Respuesta: objetividad, eficacia, eficiencia, racionalidad organizativa, jerarquía, simplificación de procedimientos, desconcentración, coordinación, cooperación, imparcialidad, transparencia, lealtad institucional, buena fe, protección de la confianza legítima, no discriminación y proximidad.",
+      "¿Qué distingue la gestión ordinaria de la Junta según el artículo 133.2? Respuesta: la realización a través de sus servicios centrales y periféricos.",
+      "¿Qué competencia tiene la Comunidad sobre la estructura de sus órganos administrativos? Respuesta: exclusiva, según el artículo 47.1.1.ª, que incluye a los organismos autónomos.",
+      "¿Qué garantiza el artículo 137? Respuesta: la publicidad de la oferta y características de los servicios, y las cartas de derechos de los ciudadanos ante la Administración."
+     ]
+    },
+    {
+     "titulo": "10. Claves para el examen",
+     "parrafos": [
+      "Naturaleza: Administración pública a efectos contencioso-administrativos (art. 139.1); exención de cauciones y depósitos (art. 139.2).",
+      "Principios: objetividad al interés general, eficacia, eficiencia, racionalidad organizativa, simplificación, desconcentración, coordinación, cooperación, transparencia y proximidad (art. 133.1).",
+      "Organización: servicios centrales y periféricos (art. 133.2); todos los órganos de servicio dependen de la Comunidad (art. 133.3); estructura y organismos autónomos como competencia exclusiva (art. 47.1.1.ª).",
+      "Personal: régimen estatutario de funcionarios y personal laboral como competencia compartida (art. 47.2.1.ª); acceso por mérito y capacidad (art. 136).",
+      "Ciudadanía: participación (art. 134.a), acceso a archivos y registros (art. 134.b), cartas de derechos (art. 137), evaluación de políticas (art. 138).",
+      "Igualdad: presencia equilibrada en los nombramientos de órganos directivos (art. 135)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley Orgánica 2/2007, de reforma del Estatuto de Autonomía para Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
+     "pdf": "leyes/BOE-A-2007-5825.pdf"
+    }
+   ]
+  },
   "e20": {
    "resumen": [
     {
@@ -2105,6 +3560,177 @@ window.DATOS_ESTUDIO = {
      "correcta": 0,
      "explicacion": "El art. 1 LOE tiene por objeto regular el proceso de la edificación para asegurar la calidad de lo edificado.",
      "referencia": "Art. 1 LOE"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Origen, naturaleza y objeto",
+     "parrafos": [
+      "La Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (LOE), publicada en el BOE núm. 266, de 6 de noviembre de 1999, regula el proceso de la edificación. Su objetivo es asegurar la calidad de lo edificado, y para ello establece quiénes intervienen en el proceso, qué obligaciones tienen, qué requisitos básicos debe cumplir el edificio y qué garantías tienen los propietarios y usuarios.",
+      "La ley nace de la necesidad de ordenar un sector en el que intervienen muchos agentes con responsabilidades distintas, y en el que los defectos de construcción tienen consecuencias graves y a largo plazo. Por eso combina una regulación del proceso (quién hace qué, en qué orden) con un régimen de responsabilidad y de seguros que protege al usuario una vez terminada la obra.",
+      "Para un examen, conviene recordar que la LOE es una ley estatal que establece el marco general del proceso. Su desarrollo técnico corresponde a normas como el Código Técnico de la Edificación (CTE), aprobado por el Real Decreto 314/2006, de 17 de marzo, que la propia ley menciona como referente técnico de los requisitos básicos."
+     ]
+    },
+    {
+     "titulo": "2. Ámbito de aplicación",
+     "parrafos": [
+      "La ley se aplica al proceso de la edificación, entendido como la acción y el resultado de construir un edificio de carácter permanente, público o privado, cuyo uso principal esté comprendido en los grupos que enumera el artículo 2.1. Esos grupos incluyen el uso administrativo, sanitario, religioso, residencial en todas sus formas, docente y cultural, entre otros, y también diversos usos industriales y de servicios que el propio precepto especifica.",
+      "Para responder con precisión qué obras están sometidas a la ley, conviene leer el artículo 2 completo, porque su enumeración es literal y se presta a preguntas de examen.",
+      "El artículo 5 recuerda que la construcción de edificios, la realización de las obras que en ellos se ejecuten y su ocupación precisan las preceptivas licencias y autorizaciones administrativas, de conformidad con la normativa aplicable. Esta referencia enlaza la LOE con el régimen urbanístico del tema 4 y con el de la comunidad autónoma."
+     ]
+    },
+    {
+     "titulo": "3. Requisitos básicos de la edificación (art. 3)",
+     "parrafos": [
+      "El artículo 3.1 establece los requisitos básicos de la edificación, que deben satisfacerse en el proyecto, la construcción, el mantenimiento, la conservación y el uso de los edificios y sus instalaciones. Su finalidad es garantizar la seguridad de las personas, el bienestar de la sociedad y la protección del medio ambiente.",
+      "Los requisitos se agrupan en tres categorías: funcionalidad, seguridad y habitabilidad. La funcionalidad se refiere a la adecuación del edificio a su uso, la seguridad abarca la seguridad estructural, en caso de incendio y de utilización, y la habitabilidad engloba la higiene, la salud, la protección del medio ambiente, la protección frente al ruido, el ahorro de energía y el aislamiento térmico.",
+      "La ley remite a la reglamentación técnica el modo concreto de cumplir estos requisitos. El Código Técnico de la Edificación es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE. La LOE fija el principio y el CTE concreta la solución técnica."
+     ]
+    },
+    {
+     "titulo": "4. El proyecto y la licencia (arts. 4 y 5)",
+     "parrafos": [
+      "El artículo 4.1 define el proyecto como el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras. El proyecto debe justificar técnicamente las soluciones propuestas, de acuerdo con las especificaciones requeridas por la normativa aplicable. Es, por tanto, el documento que vincula a los agentes durante la ejecución.",
+      "El proyecto es el punto de partida de la responsabilidad técnica. Lo redacta el proyectista (art. 10), lo dirige el director de obra durante la ejecución (art. 12), y el director de la ejecución controla la calidad de la construcción (art. 13).",
+      "La licencia y las autorizaciones administrativas (art. 5) son un requisito previo a la construcción y a la ocupación del edificio, según la normativa aplicable."
+     ]
+    },
+    {
+     "titulo": "5. Los agentes de la edificación (arts. 8 a 16)",
+     "parrafos": [
+      "El artículo 8 define a los agentes como todas las personas, físicas o jurídicas, que intervienen en el proceso de la edificación. Sus obligaciones vienen determinadas por la LOE, por las demás disposiciones aplicables y por el contrato que origina su intervención. Esta triple fuente de obligaciones es importante para responder preguntas sobre responsabilidad.",
+      "El promotor (art. 9.1) es cualquier persona, física o jurídica, pública o privada, que individual o colectivamente decide, impulsa, programa y financia, con recursos propios o ajenos, las obras de edificación para sí o para su posterior enajenación, entrega o cesión a terceros. Entre sus obligaciones, el artículo 9.2.d) le impone suscribir los seguros del artículo 19.",
+      "El proyectista (art. 10.1) es el agente que, por encargo del promotor y con sujeción a la normativa técnica y urbanística correspondiente, redacta el proyecto. Puede trabajar con otros técnicos que redacten proyectos parciales, de forma coordinada con el autor del proyecto general.",
+      "El constructor (art. 11) ejecuta la obra con medios humanos y materiales. Hace la entrega de la obra al promotor en el acto de recepción (art. 6.1).",
+      "El director de obra (art. 12.1) es el agente que, formando parte de la dirección facultativa, dirige el desarrollo de la obra en los aspectos técnicos, estéticos, urbanísticos y medioambientales, de conformidad con el proyecto, la licencia y las condiciones del contrato.",
+      "El director de la ejecución de la obra (art. 13.1) asume la función técnica de dirigir la ejecución material de la obra y de controlar cualitativa y cuantitativamente la construcción y la calidad de lo edificado. Es distinto del director de obra: el primero controla la ejecución material, y el segundo, los aspectos técnicos y estéticos del proyecto.",
+      "Las entidades y laboratorios de control de calidad de la edificación (art. 14.1) son entidades capacitadas para prestar asistencia técnica en la verificación de la calidad del proyecto, de los materiales y de la ejecución de la obra y sus instalaciones. Los suministradores de productos (art. 15.1) son los fabricantes, almacenistas, importadores o vendedores de productos de construcción.",
+      "Los propietarios y usuarios (art. 16.1) tienen la obligación de conservar en buen estado la edificación mediante un uso y mantenimiento adecuados, y de recibir, conservar y transmitir la documentación de la obra ejecutada y los seguros y garantías con que cuente. Su papel es importante en la fase de uso, porque el mantenimiento incorrecto puede agravar los daños."
+     ]
+    },
+    {
+     "titulo": "6. Recepción de la obra y libro del edificio (arts. 6 y 7)",
+     "parrafos": [
+      "La recepción de la obra es el acto por el cual el constructor, una vez concluida la obra, hace entrega de la misma al promotor, que la acepta (art. 6.1). Puede realizarse con o sin reservas, y debe abarcar la totalidad de la obra o fases completas y terminadas. La recepción marca el inicio de los plazos de garantía, por eso es uno de los momentos más importantes del proceso.",
+      "El artículo 7 regula la documentación de la obra ejecutada. Al terminar la obra, el director de obra facilita al promotor la documentación final, que constituye el Libro del Edificio. Este documento recoge la información necesaria para el uso, el mantenimiento y la conservación del edificio durante su vida útil."
+     ]
+    },
+    {
+     "titulo": "7. Responsabilidad y plazos (arts. 17 y 18)",
+     "parrafos": [
+      "El artículo 17 regula la responsabilidad civil de los agentes que intervienen en el proceso de la edificación. Sin perjuicio de sus responsabilidades contractuales, responden frente a los propietarios y terceros adquirentes de los daños materiales ocasionados en el edificio dentro de los plazos que la ley fija, contados desde la fecha de recepción de la obra.",
+      "Los plazos son tres, y conviene memorizarlos con su contenido. Durante diez años responden por los daños materiales causados por vicios o defectos que afecten a la cimentación, pilares, vigas, forjados, muros de carga u otros elementos estructurales (art. 17.1.a). Durante tres años responden por los daños causados por vicios o defectos de los elementos constructivos o de las instalaciones que ocasionen el incumplimiento de los requisitos de habitabilidad (art. 17.1.b). Y durante un año responden por los defectos de acabado, dentro del plazo de un año desde la recepción.",
+      "El artículo 18 regula los plazos de prescripción de las acciones. Las acciones para exigir la responsabilidad por daños materiales dimanantes de vicios o defectos prescriben en el plazo de dos años desde que se produzcan los daños. Este plazo de prescripción es distinto del plazo de garantía del artículo 17: uno fija cuánto tiempo responden los agentes, y el otro cuánto tiempo tiene el usuario para reclamar."
+     ]
+    },
+    {
+     "titulo": "8. Garantías y seguros obligatorios (art. 19 y disposición adicional segunda)",
+     "parrafos": [
+      "El artículo 19 regula el régimen de garantías por daños materiales ocasionados por vicios y defectos de la construcción. Las garantías exigibles se hacen efectivas según la obligatoriedad que establezca la disposición adicional segunda, con referencia a tres tipos: un seguro de daños materiales, de caución o garantía financiera, que garantiza durante un año la reparación de los daños por vicios o defectos de ejecución que afecten a elementos de terminación o acabado; otras garantías para los plazos de tres y diez años que el propio artículo detalla, entre ellas el seguro decenal de daños materiales estructurales.",
+      "El seguro decenal es el más relevante para un examen. El promotor debe suscribirlo (art. 9.2.d), y cubre durante diez años los daños estructurales del edificio. La disposición adicional segunda hace obligatorias estas garantías para los edificios de uso principal de vivienda, lo que explica su importancia en la práctica.",
+      "El régimen de garantías es un ejemplo de la técnica general de la LOE: combinar la responsabilidad de los agentes con seguros que aseguren el pago de la reparación, sin que el usuario tenga que probar la solvencia de cada agente."
+     ]
+    },
+    {
+     "titulo": "9. Relación con el CTE, la normativa autonómica y la práctica profesional",
+     "parrafos": [
+      "La LOE se complementa con el Código Técnico de la Edificación, aprobado por el Real Decreto 314/2006, de 17 de marzo. El CTE desarrolla los requisitos básicos del artículo 3 mediante documentos básicos que concretan las exigencias de cada aspecto del edificio: seguridad estructural, seguridad en caso de incendio, seguridad de utilización y accesibilidad, ahorro de energía, salubridad, protección frente al ruido. La LOE establece el qué y el CTE el cómo, aunque ambas normas se citan juntas en la práctica.",
+      "Las comunidades autónomas tienen competencia sobre aspectos de la edificación que no están reservados al Estado, como la vivienda, la ordenación del territorio y el urbanismo (art. 148.1.3.ª CE), y dictan sus propias normas de desarrollo en esas materias. Por eso, en un examen andaluz, conviene recordar que la LOE es un marco estatal y que la regulación urbanística y de vivienda sigue la competencia autonómica.",
+      "En la práctica profesional, la LOE organiza la relación entre los distintos agentes. Según el reparto de funciones que describe la ley, el proyectista redacta el proyecto, el director de obra dirige los aspectos técnicos y el director de la ejecución controla la calidad material. Ese reparto explica la necesidad de la dirección facultativa y de la coordinación entre agentes."
+     ]
+    },
+    {
+     "titulo": "10. La fase de uso: obligaciones de propietarios y usuarios (art. 16)",
+     "parrafos": [
+      "La LOE no termina con la entrega del edificio. El artículo 16.1 atribuye a los propietarios la obligación de conservar en buen estado la edificación mediante un adecuado uso y mantenimiento. Esta obligación es continua, y se extiende a la conservación de la documentación de la obra ejecutada.",
+      "Los propietarios también deben recibir, conservar y transmitir la documentación de la obra y los seguros y garantías con que cuente el edificio (art. 16.1). Esta exigencia garantiza que, al cambiar de propietario, el nuevo tenga acceso a la información que necesita para mantener el edificio y para reclamar, en su caso, durante los plazos de garantía.",
+      "El artículo 16.2 regula las obligaciones de los usuarios, que deben utilizar el edificio de forma adecuada a su destino y conservar sus instalaciones. Un uso inadecuado puede agravar los daños y, en algunos casos, justificar que no se atribuya al agente responsable un defecto que en realidad deriva del uso.",
+      "Para un examen, la síntesis es que la responsabilidad no termina con la recepción, sino que cada agente responde durante los plazos del artículo 17, y que el propietario tiene obligaciones de mantenimiento que la propia ley le impone."
+     ]
+    },
+    {
+     "titulo": "11. Cronograma de un edificio: de la recepción a la reclamación",
+     "parrafos": [
+      "Un ejemplo ayuda a fijar los plazos. Supongamos que la obra se recibe el 1 de marzo de un año. Desde esa fecha empiezan a contarse los plazos del artículo 17. Durante el primer año responde el constructor por los defectos de acabado. Hasta el tercer año, responden los agentes por los daños por incumplimiento de habitabilidad. Durante los diez años siguientes a la recepción, responden por los daños estructurales en cimentación, pilares, vigas, forjados y muros de carga.",
+      "La prescripción de las acciones (art. 18) es un plazo distinto. El usuario dispone de dos años desde que se produce el daño para exigir la responsabilidad. Eso significa que un daño que se produzca en el año ocho puede reclamarse dentro de los dos años siguientes, siempre que se encuentre dentro del periodo de responsabilidad de diez años del artículo 17.1.a.",
+      "Este cronograma explica por qué el examen distingue entre plazo de responsabilidad y plazo de prescripción. El primero delimita en qué periodo se producen los daños indemnizables, y el segundo fija cuánto tiempo tiene el perjudicado para reclamarlos."
+     ]
+    },
+    {
+     "titulo": "12. Casos prácticos de examen",
+     "parrafos": [
+      "Caso 1: tras la recepción de la obra aparecen grietas en un forjado a los siete años. Como el forjado es un elemento estructural, el daño entra en el régimen de diez años del artículo 17.1.a, y el promotor debe haber suscrito el seguro decenal (arts. 9.2.d y 19). Si la acción se interpone dentro de los dos años desde que se produjo el daño, no hay prescripción (art. 18).",
+      "Caso 2: a los dos meses de la recepción se observan manchas de humedad por defectos de impermeabilización que afectan a la habitabilidad. El daño corresponde al plazo de tres años del artículo 17.1.b. Si el defecto solo afectara a un acabado, como un revestimiento mal terminado, el plazo sería de un año.",
+      "Caso 3: el director de la ejecución de la obra detecta que los materiales no cumplen el proyecto. Su función es precisamente controlar cualitativa y cuantitativamente la construcción y la calidad de lo edificado (art. 13.1). Debe informar y actuar dentro de sus obligaciones, sin confundir su papel con el del director de obra, que dirige los aspectos técnicos y estéticos (art. 12.1).",
+      "Caso 4: el promotor pretende vender el edificio sin contratar los seguros. La LOE le obliga a suscribirlos (art. 9.2.d), y la disposición adicional segunda hace obligatorias las garantías para los edificios de uso principal vivienda. El incumplimiento no exime a los demás agentes de sus propias responsabilidades."
+     ]
+    },
+    {
+     "titulo": "13. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir el plazo de responsabilidad (diez, tres y un año, art. 17) con el plazo de prescripción de las acciones (dos años, art. 18).",
+      "Atribuir al director de obra la función de control de la ejecución material. Esa función corresponde al director de la ejecución (art. 13.1), mientras que el director de obra dirige los aspectos técnicos, estéticos, urbanísticos y medioambientales (art. 12.1).",
+      "Olvidar que el seguro decenal lo suscribe el promotor (art. 9.2.d), y no el constructor ni el proyectista.",
+      "Citar la LOE como norma técnica. Es la norma del proceso y de la responsabilidad; los requisitos técnicos concretos se desarrollan en el CTE (Real Decreto 314/2006)."
+     ]
+    },
+    {
+     "titulo": "14. Obligaciones concretas de promotor, constructor y director de la ejecución",
+     "parrafos": [
+      "El artículo 9.2 enumera las obligaciones del promotor. Debe facilitar la documentación e información previa necesaria para la redacción del proyecto, y autorizar al director de obra las posteriores modificaciones del mismo (letra b). Debe gestionar y obtener las licencias y autorizaciones administrativas, y suscribir el acta de recepción de la obra (letra c). Debe suscribir los seguros del artículo 19 (letra d), y entregar al adquirente, en su caso, la documentación de la obra ejecutada (letra e).",
+      "El constructor es el agente que asume, contractualmente ante el promotor, el compromiso de ejecutar con medios humanos y materiales, propios o ajenos, las obras con sujeción al proyecto y al contrato (art. 11.1). El artículo 11.2 le impone, entre otras obligaciones, ejecutar la obra con sujeción al proyecto, a la legislación aplicable y a las instrucciones del director de obra y del director de la ejecución, a fin de alcanzar la calidad exigida. También debe tener la titulación o capacitación profesional que habilita para actuar como constructor.",
+      "El director de la ejecución de la obra tiene obligaciones propias. El artículo 13.2.a exige estar en posesión de la titulación académica y profesional habilitante. Cuando las obras tengan por objeto la construcción de edificios de los usos del grupo a) del artículo 2.1, la titulación habilitante es la de arquitecto técnico. Este dato es uno de los que más aparecen en los exámenes de edificación, porque conecta la LOE con la profesión.",
+      "La diferencia de titulación importa en la práctica. Si la obra corresponde al grupo a) del artículo 2.1, el director de la ejecución debe ser arquitecto técnico. Si la obra corresponde a otros usos del artículo 2.1, la exigencia de titulación se remite a lo que dispongan las normas aplicables. Conviene verificar la lista del artículo 2.1 antes de aplicar la regla.",
+      "Las obligaciones del director de la ejecución completan las del constructor. Mientras el constructor ejecuta la obra, el director de la ejecución la controla cualitativa y cuantitativamente (art. 13.1). Esa doble vigilancia es la base de la responsabilidad técnica durante la obra, y explica que la LOE defina ambas figuras por separado."
+     ]
+    },
+    {
+     "titulo": "15. Contrato y responsabilidad: dos planos distintos",
+     "parrafos": [
+      "El artículo 8 señala que las obligaciones de los agentes vienen determinadas por la LOE, por las demás disposiciones aplicables y por el contrato que origina su intervención. Esto significa que un mismo agente tiene dos fuentes de obligaciones: la ley, que es común a todos, y el contrato, que concreta lo que ha pactado con cada cliente.",
+      "El artículo 17 aclara que la responsabilidad civil de los agentes se exige « sin perjuicio de sus responsabilidades contractuales ». La responsabilidad de la LOE es, por tanto, una responsabilidad legal frente a propietarios y terceros adquirentes, que existe aunque el contrato no la mencione. Las responsabilidades contractuales se añaden y no sustituyen a las legales.",
+      "Esta distinción es útil para responder preguntas de examen sobre quién puede reclamar. El propietario y los terceros adquirentes tienen acción frente a todos los agentes que hayan intervenido en el proceso, dentro de los plazos del artículo 17, sin necesidad de haber firmado con ellos."
+     ]
+    },
+    {
+     "titulo": "16. Garantías y seguros en la práctica (art. 19.1)",
+     "parrafos": [
+      "El artículo 19.1 enumera las garantías a las que se refiere la regulación de la obligatoriedad. La primera es el seguro de daños materiales, de caución o la garantía financiera, que garantiza durante un año el resarcimiento de los daños por vicios o defectos de ejecución en elementos de terminación o acabado. Esta garantía tiene una duración corta y se refiere a defectos visibles y de fácil reparación.",
+      "Las siguientes garantías del artículo 19.1 cubren plazos más largos y daños más graves, en línea con los plazos del artículo 17. La estructura es coherente: a mayor gravedad del daño, mayor plazo de garantía y mayor exigencia de aseguramiento.",
+      "En la práctica, el seguro lo contrata el promotor, que es el obligado a suscribirlo (arts. 9.2.d y 19.2). La compañía aseguradora paga al perjudicado la reparación del daño cubierto, sin que este tenga que demostrar la culpa de cada agente. Es el mecanismo que hace efectiva la responsabilidad de diez años cuando alguno de los agentes ya no existe o no tiene solvencia."
+     ]
+    },
+    {
+     "titulo": "17. Edificación pública y privada en la LOE",
+     "parrafos": [
+      "El artículo 2.1 aplica la ley a los edificios de carácter permanente, « públicos o privados », cuyo uso principal esté comprendido en los grupos que enumera. La LOE no distingue, por tanto, según quien promueva la obra: el mismo régimen de agentes, requisitos y garantías se aplica a la edificación pública y a la privada.",
+      "Esta igualdad de régimen es relevante para la Administración. Cuando una administración pública actúa como promotora, asume el papel del artículo 9.1 y tiene las mismas obligaciones de seguro y de documentación que cualquier otro promotor (art. 9.2). La contratación pública de la obra se rige además por su normativa específica, pero la LOE determina el proceso técnico y de responsabilidad de la edificación.",
+      "Para un examen de edificación pública, la respuesta debe combinar la LOE, que fija quién hace qué, con la normativa de contratación, que fija cómo se adjudica la obra. Confundir ambos planos es un error frecuente."
+     ]
+    },
+    {
+     "titulo": "10. Claves para el examen",
+     "parrafos": [
+      "Objeto: regular el proceso de la edificación para asegurar la calidad de lo edificado (art. 1).",
+      "Requisitos básicos: funcionalidad, seguridad y habitabilidad (art. 3.1).",
+      "Agentes: promotor (art. 9), proyectista (art. 10), constructor (art. 11), director de obra (art. 12), director de la ejecución (art. 13), entidades de control (art. 14), suministradores (art. 15), propietarios y usuarios (art. 16).",
+      "Recepción: acto por el que el constructor entrega la obra y el promotor la acepta (art. 6.1). Libro del Edificio: documentación final (art. 7).",
+      "Responsabilidad: diez años para daños estructurales, tres años para habitabilidad y un año para acabados (art. 17.1); prescripción de las acciones a dos años (art. 18).",
+      "Seguros: seguro decenal obligatorio, suscrito por el promotor (arts. 9.2.d y 19); obligatorio para viviendas (disposición adicional segunda)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 38/1999, de Ordenación de la Edificación (texto consolidado, BOE)",
+     "url": "https://www.boe.es/eli/es/l/1999/11/05/38/con",
+     "pdf": "leyes/BOE-A-1999-21567.pdf"
+    },
+    {
+     "nombre": "Real Decreto 314/2006, Código Técnico de la Edificación (texto consolidado, BOE)",
+     "url": "https://www.boe.es/eli/es/rd/2006/03/17/314/con",
+     "pdf": "leyes/BOE-A-2006-5515.pdf"
     }
    ]
   }

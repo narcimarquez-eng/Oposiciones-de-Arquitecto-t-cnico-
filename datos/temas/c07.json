@@ -1,0 +1,117 @@
+{
+  "id": "c07",
+  "resumen": [
+    {
+      "titulo": "Elección del Presidente de la Junta",
+      "puntos": [
+        "Elegido por el Parlamento de entre sus miembros (art. 118.1). El Presidente del Parlamento propone candidato tras consultar a los portavoces (art. 118.2).",
+        "Primera votación: mayoría absoluta. Nueva votación 48 horas después: mayoría simple (art. 118.3)."
+      ]
+    },
+    {
+      "titulo": "La Presidencia",
+      "puntos": [
+        "Dirige y coordina el Consejo de Gobierno, coordina la Administración, designa y separa a los Consejeros y ostenta la suprema representación de la Comunidad (art. 117.1).",
+        "Puede delegar temporalmente funciones ejecutivas propias en un Vicepresidente o Consejero (art. 117.2)."
+      ]
+    },
+    {
+      "titulo": "El Consejo de Gobierno",
+      "puntos": [
+        "Órgano colegiado de dirección política, con potestad reglamentaria en el ámbito autonómico (arts. 119.2 y 119.3).",
+        "Cese: elecciones, pérdida de cuestión de confianza o moción de censura, dimisión, incapacidad, condena penal firme o fallecimiento del Presidente (art. 120).",
+        "Presidente y Consejeros no pueden ejercer actividad laboral, profesional o empresarial alguna (art. 121)."
+      ]
+    },
+    {
+      "titulo": "Control político y disolución",
+      "puntos": [
+        "Cuestión de confianza: se otorga con mayoría simple (art. 125.1). Si se niega, el Presidente presenta su dimisión (art. 125.2).",
+        "Moción de censura: propuesta por una cuarta parte de los parlamentarios, con candidato, y mayoría absoluta (art. 126.1).",
+        "El Presidente de la Junta puede decretar la disolución del Parlamento, previa deliberación del Consejo de Gobierno (art. 127.1)."
+      ]
+    },
+    {
+      "titulo": "Consejo Consultivo",
+      "puntos": [
+        "Superior órgano consultivo del Consejo de Gobierno y de la Administración de la Junta (art. 129.1), con autonomía orgánica y funcional (art. 129.2)."
+      ]
+    }
+  ],
+  "leyes": [
+    { "id": "EA-ANDALUCIA", "rol": "Norma principal del tema (arts. 117 a 129)" },
+    { "id": "CE", "rol": "Comparación: arts. 99, 108, 112, 113 y 115 CE" }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Qué mayoría exige la primera votación de investidura del Presidente de la Junta?",
+      "opciones": ["Mayoría simple", "Mayoría absoluta", "Dos tercios", "Tres quintos"],
+      "correcta": 1,
+      "explicacion": "En la primera votación se exige mayoría absoluta. Si no se obtiene, la nueva votación 48 horas después requiere solo mayoría simple.",
+      "referencia": "Art. 118.3 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué mayoría basta para otorgar la confianza en la cuestión de confianza?",
+      "opciones": ["Mayoría absoluta", "Dos tercios", "Mayoría simple de los diputados", "Unanimidad"],
+      "correcta": 2,
+      "explicacion": "La confianza se entiende otorgada cuando vota a favor la mayoría simple de los diputados.",
+      "referencia": "Art. 125.1 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Cuántos parlamentarios, como mínimo, deben proponer una moción de censura andaluza?",
+      "opciones": ["Un décimo", "Una tercera parte", "Una cuarta parte", "La mayoría absoluta"],
+      "correcta": 2,
+      "explicacion": "La moción de censura debe ser propuesta por al menos una cuarta parte de los parlamentarios, con un candidato a la Presidencia de la Junta.",
+      "referencia": "Art. 126.1 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Cuánto tiempo debe transcurrir desde su presentación antes de votar una moción de censura andaluza?",
+      "opciones": ["Cinco días", "Dos días", "Ocho días", "Quince días"],
+      "correcta": 0,
+      "explicacion": "La moción de censura no puede votarse hasta que transcurran cinco días desde su presentación.",
+      "referencia": "Art. 126.1 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Cuál NO es causa de cese del Consejo de Gobierno?",
+      "opciones": ["Elecciones al Parlamento", "Pérdida de la cuestión de confianza", "Dimisión del Presidente", "Cambio de domicilio del Presidente"],
+      "correcta": 3,
+      "explicacion": "El art. 120 enumera como causas de cese las elecciones, la pérdida de la cuestión de confianza o la moción de censura, la dimisión, la incapacidad, la condena penal firme y el fallecimiento del Presidente.",
+      "referencia": "Art. 120 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Quién designa y separa a los Consejeros de la Junta?",
+      "opciones": ["El Parlamento", "El Rey", "El Consejo de Gobierno", "El Presidente de la Junta"],
+      "correcta": 3,
+      "explicacion": "El Presidente de la Junta designa y separa a los Consejeros (art. 117.1), y dirige y coordina la actividad del Consejo de Gobierno.",
+      "referencia": "Art. 117.1 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Quién ejerce la potestad reglamentaria en el ámbito de las competencias autonómicas?",
+      "opciones": ["El Consejo de Gobierno y cada Consejero", "Solo el Parlamento", "El Presidente del Parlamento", "El Tribunal Constitucional"],
+      "correcta": 0,
+      "explicacion": "El art. 119.3 atribuye la potestad reglamentaria al Consejo de Gobierno y a cada uno de sus miembros, en el ámbito de las competencias de la Comunidad.",
+      "referencia": "Art. 119.3 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Quién puede decretar la disolución del Parlamento de Andalucía?",
+      "opciones": ["El Presidente del Parlamento", "El Consejo Consultivo", "El Defensor del Pueblo Andaluz", "El Presidente de la Junta"],
+      "correcta": 3,
+      "explicacion": "El Presidente de la Junta puede decretar la disolución del Parlamento, previa deliberación del Consejo de Gobierno y bajo su exclusiva responsabilidad.",
+      "referencia": "Art. 127.1 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué garantiza al Consejo Consultivo su independencia?",
+      "opciones": ["Ninguna garantía", "Autonomía orgánica y funcional", "Dependencia del Consejo de Gobierno", "Designación por el Rey"],
+      "correcta": 1,
+      "explicacion": "El Consejo Consultivo ejerce sus funciones con autonomía orgánica y funcional, y una ley del Parlamento regula su composición, competencia y funcionamiento.",
+      "referencia": "Art. 129.2 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Ante qué órgano se exige la responsabilidad penal de los Consejeros por delitos cometidos en el territorio de su jurisdicción?",
+      "opciones": ["Tribunal Constitucional", "Audiencia Nacional", "Sala de lo Civil del Tribunal Supremo", "TSJA"],
+      "correcta": 3,
+      "explicacion": "Para los delitos cometidos en el ámbito territorial de su jurisdicción, la responsabilidad penal de los Consejeros es exigible ante el TSJA (art. 122.1).",
+      "referencia": "Art. 122.1 Estatuto de Andalucía"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "c08",
+  "resumen": [
+    {
+      "titulo": "La Comunidad como Administración",
+      "puntos": [
+        "Es Administración pública a efectos de la jurisdicción contencioso-administrativa (art. 139.1 del Estatuto).",
+        "Está exenta de prestar cauciones o depósitos para interponer recursos (art. 139.2)."
+      ]
+    },
+    {
+      "titulo": "Principios de actuación",
+      "puntos": [
+        "Objetividad al interés general, eficacia, eficiencia, racionalidad organizativa, jerarquía, simplificación, desconcentración y coordinación (art. 133.1).",
+        "Cooperación, imparcialidad, transparencia, lealtad institucional, buena fe, confianza legítima, no discriminación y proximidad (art. 133.1).",
+        "Paralelo constitucional: art. 103.1 CE (objetividad, eficacia, jerarquía, descentralización, desconcentración, coordinación y sometimiento a la ley)."
+      ]
+    },
+    {
+      "titulo": "Organización",
+      "puntos": [
+        "Gestión ordinaria a través de servicios centrales y periféricos (art. 133.2). Todos los órganos de servicio dependen de la Comunidad (art. 133.3).",
+        "Estructura de los órganos administrativos y de los organismos autónomos: competencia exclusiva (art. 47.1.1.ª)."
+      ]
+    },
+    {
+      "titulo": "Personal y ciudadanía",
+      "puntos": [
+        "Régimen estatutario y laboral del personal: competencia compartida (art. 47.2.1.ª). Acceso por mérito y capacidad (art. 136).",
+        "Participación ciudadana y acceso a archivos y registros (art. 134). Publicidad de los servicios y cartas de derechos (art. 137). Evaluación de políticas públicas (art. 138)."
+      ]
+    },
+    {
+      "titulo": "Igualdad y relaciones",
+      "puntos": [
+        "Presencia equilibrada de hombres y mujeres en los nombramientos de órganos directivos (art. 135).",
+        "Colaboración multilateral con el Estado (art. 221), convenios (art. 226) y participación en la posición del Estado ante la UE (art. 231.1)."
+      ]
+    }
+  ],
+  "leyes": [
+    { "id": "EA-ANDALUCIA", "rol": "Norma principal del tema (arts. 47, 133 a 139 y Título IX)" },
+    { "id": "CE", "rol": "Complementaria: art. 103 (principios de la Administración) y art. 149.1.18.ª" }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Qué es la Comunidad Autónoma a efectos de la jurisdicción contencioso-administrativa?",
+      "opciones": ["Un órgano judicial", "Administración pública", "Un órgano consultivo", "Un particular"],
+      "correcta": 1,
+      "explicacion": "El art. 139.1 del Estatuto establece que la Comunidad Autónoma es Administración pública a los efectos de la Ley reguladora de la jurisdicción contencioso-administrativa.",
+      "referencia": "Art. 139.1 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿De qué está exenta la Comunidad al ejercitar acciones o interponer recursos?",
+      "opciones": ["De cauciones y depósitos", "De los costes del juicio", "De representación letrada", "De plazos"],
+      "correcta": 0,
+      "explicacion": "El art. 139.2 establece que la Comunidad está exenta de prestar cauciones o depósitos para ejercitar acciones o interponer recursos.",
+      "referencia": "Art. 139.2 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Cuál de estos NO es un principio del artículo 133.1 del Estatuto?",
+      "opciones": ["Objetividad", "Eficacia", "Arbitrariedad", "Transparencia"],
+      "correcta": 2,
+      "explicacion": "El art. 133.1 enumera la objetividad, la eficacia, la transparencia y otros principios. La arbitrariedad es lo contrario del principio de interdicción que recoge el art. 9.3 CE.",
+      "referencia": "Art. 133.1 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Cómo se realiza la gestión ordinaria de las actividades de la Junta?",
+      "opciones": ["Solo por los servicios centrales", "Por empresas privadas", "Por el Parlamento", "A través de servicios centrales y periféricos"],
+      "correcta": 3,
+      "explicacion": "El art. 133.2 establece que la gestión ordinaria se desarrolla a través de los servicios centrales y periféricos de la Administración de la Junta.",
+      "referencia": "Art. 133.2 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué tipo de competencia tiene la Comunidad sobre la estructura de sus órganos administrativos?",
+      "opciones": ["Compartida", "Ejecutiva", "Ninguna", "Exclusiva"],
+      "correcta": 3,
+      "explicacion": "El art. 47.1.1.ª atribuye a la Comunidad, como competencia exclusiva, la estructura y regulación de sus órganos administrativos y de sus organismos autónomos.",
+      "referencia": "Art. 47.1.1.ª Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué tipo de competencia es el régimen jurídico de la Administración de la Comunidad?",
+      "opciones": ["Exclusiva", "Residual", "Compartida", "Delegada"],
+      "correcta": 2,
+      "explicacion": "El art. 47.2.1.ª incluye el régimen jurídico de la Administración y el régimen de su personal entre las competencias compartidas.",
+      "referencia": "Art. 47.2.1.ª Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué principio rige el acceso al empleo público de la Administración andaluza?",
+      "opciones": ["Antigüedad y sorteo", "Libre designación", "Mérito y capacidad", "Afinidad política"],
+      "correcta": 2,
+      "explicacion": "El art. 136 establece que el acceso al empleo público se produce de acuerdo con los principios de mérito y capacidad.",
+      "referencia": "Art. 136 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué garantiza el artículo 137 del Estatuto?",
+      "opciones": ["Los presupuestos de la Junta", "El plan de empleo público", "El Libro del Edificio", "La publicidad de la oferta de servicios y las cartas de derechos"],
+      "correcta": 3,
+      "explicacion": "El art. 137 obliga a la Administración de la Junta a hacer pública la oferta y las características de los servicios, así como las cartas de derechos de los ciudadanos.",
+      "referencia": "Art. 137 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué encarga el artículo 138 del Estatuto a la ley?",
+      "opciones": ["Regular un sistema de evaluación de las políticas públicas", "Fijar las tasas de la Junta", "Regular el régimen electoral", "Crear comarcas"],
+      "correcta": 0,
+      "explicacion": "El art. 138 encarga a la ley la organización y el funcionamiento de un sistema de evaluación de las políticas públicas.",
+      "referencia": "Art. 138 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué principio se aplica en los nombramientos de los órganos directivos andaluces?",
+      "opciones": ["Presencia equilibrada de hombres y mujeres", "Turno rotatorio", "Mayoría cualificada", "Designación por sorteo"],
+      "correcta": 0,
+      "explicacion": "El art. 135 establece el principio de presencia equilibrada de hombres y mujeres en el nombramiento de los titulares de los órganos directivos de la Administración andaluza.",
+      "referencia": "Art. 135 Estatuto de Andalucía"
+    }
+  ]
+}

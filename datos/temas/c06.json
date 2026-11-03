@@ -1,0 +1,118 @@
+{
+  "id": "c06",
+  "resumen": [
+    {
+      "titulo": "La Junta de Andalucía",
+      "puntos": [
+        "La Junta está integrada por el Parlamento, la Presidencia y el Consejo de Gobierno (art. 99.1 del Estatuto), más los órganos de garantía del Capítulo VI (art. 99.2).",
+        "El Parlamento representa al pueblo andaluz y es inviolable (art. 100)."
+      ]
+    },
+    {
+      "titulo": "El Parlamento: composición y mandato",
+      "puntos": [
+        "Mínimo de 109 diputados, sufragio universal, sin mandato imperativo (art. 101.1). Mandato de cuatro años (art. 101.2).",
+        "Circunscripción provincial; ninguna provincia puede tener más del doble de diputados que otra (art. 104.1). Elecciones entre 30 y 60 días tras la expiración del mandato (art. 104.3)."
+      ]
+    },
+    {
+      "titulo": "Organización y funciones",
+      "puntos": [
+        "Autonomía reglamentaria, presupuestaria, administrativa y disciplinaria (art. 102.1). Reglamento aprobado o reformado por mayoría absoluta (art. 102.2).",
+        "Presidente, Mesa y Diputación Permanente (art. 103.1). Dos periodos ordinarios de sesiones al año (art. 103.3).",
+        "Funciones: legislar, impulsar y controlar al Consejo de Gobierno, aprobar presupuestos y autorizar tributos y deuda (art. 106)."
+      ]
+    },
+    {
+      "titulo": "Legislación y garantías",
+      "puntos": [
+        "Decretos-leyes: deben convalidarse en treinta días y no pueden afectar a derechos del Estatuto, al régimen electoral ni a las instituciones (art. 110).",
+        "El control de constitucionalidad de las normas andaluzas con fuerza de ley corresponde al Tribunal Constitucional (art. 115)."
+      ]
+    },
+    {
+      "titulo": "Órganos de garantía",
+      "puntos": [
+        "TSJA: culmina la organización judicial andaluza y es la última instancia de los procesos iniciados en Andalucía (art. 140).",
+        "Defensor del Pueblo Andaluz: comisionado del Parlamento, elegido por mayoría cualificada (art. 128).",
+        "Cámara de Cuentas: control externo, dependiente orgánicamente del Parlamento (art. 130)."
+      ]
+    }
+  ],
+  "leyes": [
+    { "id": "EA-ANDALUCIA", "rol": "Norma principal del tema (arts. 99 a 116, 128 a 130 y 140 a 144)" },
+    { "id": "CE", "rol": "Complementaria: art. 86 (decretos-leyes) y art. 9.3 (jerarquía normativa)" }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Cuántos años dura el mandato del Parlamento de Andalucía?",
+      "opciones": ["Cuatro años", "Cinco años", "Tres años", "Seis años"],
+      "correcta": 0,
+      "explicacion": "El Parlamento es elegido por cuatro años, y el mandato de los diputados termina cuatro años después de su elección o el día de la disolución.",
+      "referencia": "Art. 101.2 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Cuál es la circunscripción electoral del Parlamento de Andalucía?",
+      "opciones": ["La comunidad", "El municipio", "La provincia", "La comarca"],
+      "correcta": 2,
+      "explicacion": "La circunscripción electoral es la provincia, y ninguna puede tener más del doble de diputados que otra.",
+      "referencia": "Art. 104.1 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué mayoría se exige para aprobar o reformar el Reglamento del Parlamento?",
+      "opciones": ["Mayoría simple", "Dos tercios", "Tres quintos", "Mayoría absoluta de los diputados"],
+      "correcta": 3,
+      "explicacion": "La aprobación o reforma del Reglamento de organización y funcionamiento requiere el voto de la mayoría absoluta de los diputados.",
+      "referencia": "Art. 102.2 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Cuándo comienza el primer periodo ordinario de sesiones del Parlamento?",
+      "opciones": ["Enero", "Septiembre", "Marzo", "Octubre"],
+      "correcta": 1,
+      "explicacion": "Los periodos ordinarios son dos al año y duran ocho meses como mínimo. El primero se inicia en septiembre y el segundo en febrero.",
+      "referencia": "Art. 103.3 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Cuál de estas es una función del Parlamento de Andalucía?",
+      "opciones": ["Nombrar al Defensor del Pueblo del Estado", "Establecer y exigir tributos y autorizar la deuda pública", "Dirigir la Administración de Justicia", "Designar a los magistrados del TSJA"],
+      "correcta": 1,
+      "explicacion": "El art. 106 atribuye al Parlamento la potestad de establecer y exigir tributos y de autorizar la emisión de deuda pública, entre otras funciones.",
+      "referencia": "Art. 106 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿En cuánto tiempo deben convalidarse los decretos-leyes andaluces?",
+      "opciones": ["Quince días", "Dos meses", "Un año", "Treinta días"],
+      "correcta": 3,
+      "explicacion": "Los decretos-leyes quedan derogados si el Parlamento no los convalida expresamente en el plazo improrrogable de treinta días desde su promulgación.",
+      "referencia": "Art. 110.2 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Quién controla la constitucionalidad de las leyes andaluzas?",
+      "opciones": ["El TSJA", "El Parlamento", "El Tribunal Constitucional", "El Consejo Consultivo"],
+      "correcta": 2,
+      "explicacion": "El control de constitucionalidad de las disposiciones con fuerza de ley de la Comunidad corresponde exclusivamente al Tribunal Constitucional.",
+      "referencia": "Art. 115 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué órgano controla externamente la actividad económica y presupuestaria de la Junta?",
+      "opciones": ["La Cámara de Cuentas", "El Tribunal de Cuentas estatal", "El Consejo Consultivo", "La Intervención General"],
+      "correcta": 0,
+      "explicacion": "La Cámara de Cuentas es el órgano de control externo de la actividad económica y presupuestaria de la Junta, los entes locales y el sector público andaluz.",
+      "referencia": "Art. 130.1 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Cuál es la última instancia jurisdiccional de los procesos iniciados en Andalucía?",
+      "opciones": ["El Tribunal Supremo", "El TSJA", "La Audiencia Provincial", "El Tribunal Constitucional"],
+      "correcta": 1,
+      "explicacion": "El TSJA es la última instancia jurisdiccional de todos los procesos iniciados en Andalucía, con las excepciones que prevé el propio Estatuto.",
+      "referencia": "Art. 140.2 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Quién es el representante del Poder Judicial en Andalucía?",
+      "opciones": ["El Fiscal Superior", "El Presidente de la Junta", "El Presidente del TSJA", "El decano del colegio de abogados"],
+      "correcta": 2,
+      "explicacion": "El Presidente del TSJA es el representante del Poder Judicial en Andalucía. Es nombrado por el Rey a propuesta del CGPJ.",
+      "referencia": "Art. 143.1 Estatuto de Andalucía"
+    }
+  ]
+}
