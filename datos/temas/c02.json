@@ -1,0 +1,120 @@
+{
+  "id": "c02",
+  "resumen": [
+    {
+      "titulo": "La Corona",
+      "puntos": [
+        "El Rey es Jefe del Estado, símbolo de su unidad y permanencia; arbitra y modera el funcionamiento de las instituciones (art. 56.1).",
+        "La Corona es hereditaria en los sucesores de la dinastía histórica (art. 57.1).",
+        "Sus actos deben estar refrendados. Funciones regladas: sancionar y promulgar leyes, convocar y disolver las Cortes, convocar referéndum, proponer el candidato a Presidente del Gobierno (art. 62)."
+      ]
+    },
+    {
+      "titulo": "Cortes Generales",
+      "puntos": [
+        "Representan al pueblo español; ejercen la potestad legislativa, aprueban los Presupuestos y controlan al Gobierno (art. 66).",
+        "Congreso: entre 300 y 400 diputados, circunscripción provincial (art. 68). Senado: representación territorial, cuatro senadores por provincia (art. 69).",
+        "Leyes orgánicas: mayoría absoluta del Congreso en la votación final sobre el conjunto (art. 81.2)."
+      ]
+    },
+    {
+      "titulo": "Función legislativa",
+      "puntos": [
+        "Iniciativa: Gobierno, Congreso y Senado; las Asambleas autonómicas pueden solicitarla (art. 87).",
+        "El Senado puede vetar un proyecto por mayoría absoluta en el plazo de dos meses (art. 90.2).",
+        "El Rey sanciona en quince días (art. 91). El referéndum consultivo puede convocarlo el Rey a propuesta del Gobierno, con autorización del Congreso (art. 92)."
+      ]
+    },
+    {
+      "titulo": "Gobierno y poder judicial",
+      "puntos": [
+        "Investidura: mayoría absoluta del Congreso en la primera votación y mayoría simple 48 horas después; si pasan dos meses, disolución (art. 99).",
+        "Moción de censura: propuesta de un décimo de los diputados con candidato y mayoría absoluta (art. 113).",
+        "CGPJ: presidido por el Presidente del Tribunal Supremo y con 20 miembros nombrados por el Rey por cinco años (art. 122.3)."
+      ]
+    },
+    {
+      "titulo": "Tribunal Constitucional, Tribunal de Cuentas y Defensor del Pueblo",
+      "puntos": [
+        "TC: doce miembros, nueve años de mandato, renovación por terceras partes cada tres años (art. 159).",
+        "Tribunal de Cuentas: supremo órgano fiscalizador, dependiente de las Cortes Generales (art. 136.1).",
+        "Defensor del Pueblo: alto comisionado de las Cortes Generales (art. 54)."
+      ]
+    }
+  ],
+  "leyes": [
+    { "id": "CE", "rol": "Norma principal del tema" }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Quién propone el candidato a Presidente del Gobierno?",
+      "opciones": ["El Congreso de los Diputados", "El Rey, previa consulta con los grupos políticos", "El Senado", "El Presidente del Gobierno saliente"],
+      "correcta": 1,
+      "explicacion": "Tras cada renovación del Congreso, el Rey, previa consulta con los representantes de los grupos políticos y a través del Presidente del Congreso, propone un candidato.",
+      "referencia": "Arts. 99.1 y 62.d CE"
+    },
+    {
+      "pregunta": "¿Entre cuántos diputados puede componerse el Congreso?",
+      "opciones": ["Entre 200 y 300", "Entre 350 y 450", "Entre 250 y 350", "Entre 300 y 400"],
+      "correcta": 3,
+      "explicacion": "El Congreso se compone de un mínimo de 300 y un máximo de 400 diputados.",
+      "referencia": "Art. 68.1 CE"
+    },
+    {
+      "pregunta": "¿Cuántos senadores se eligen en cada provincia?",
+      "opciones": ["Cuatro", "Dos", "Tres", "Seis"],
+      "correcta": 0,
+      "explicacion": "En cada provincia se eligen cuatro senadores, con las particularidades de las provincias insulares.",
+      "referencia": "Art. 69.2 y 69.3 CE"
+    },
+    {
+      "pregunta": "¿Qué mayoría se exige en la primera votación de investidura del Presidente del Gobierno?",
+      "opciones": ["Mayoría simple", "Mayoría de dos tercios", "Mayoría absoluta del Congreso", "Mayoría de tres quintos"],
+      "correcta": 2,
+      "explicacion": "En la primera votación se exige la mayoría absoluta del Congreso. Si no se alcanza, la nueva votación 48 horas después requiere solo mayoría simple.",
+      "referencia": "Art. 99.3 CE"
+    },
+    {
+      "pregunta": "¿Cuántos diputados, como mínimo, deben proponer una moción de censura?",
+      "opciones": ["Una quinta parte", "Una cuarta parte", "Una décima parte", "La mayoría absoluta"],
+      "correcta": 2,
+      "explicacion": "La moción de censura debe ser propuesta al menos por la décima parte de los diputados, con candidato a la Presidencia, y aprobada por mayoría absoluta.",
+      "referencia": "Art. 113.1 y 113.2 CE"
+    },
+    {
+      "pregunta": "¿Qué mayoría necesita el Senado para vetar un proyecto de ley aprobado por el Congreso?",
+      "opciones": ["Mayoría absoluta", "Mayoría simple", "Tres quintos", "Dos tercios"],
+      "correcta": 0,
+      "explicacion": "El Senado puede vetar o enmendar el proyecto en el plazo de dos meses mediante mensaje motivado, y el veto debe aprobarse por mayoría absoluta.",
+      "referencia": "Art. 90.2 CE"
+    },
+    {
+      "pregunta": "¿En cuánto tiempo sanciona el Rey las leyes aprobadas por las Cortes?",
+      "opciones": ["Ocho días", "Dos meses", "Treinta días", "Quince días"],
+      "correcta": 3,
+      "explicacion": "El Rey sanciona en el plazo de quince días las leyes aprobadas por las Cortes Generales, las promulga y ordena su publicación.",
+      "referencia": "Art. 91 CE"
+    },
+    {
+      "pregunta": "¿Cuántos vocales nombrados por el Rey integran el Consejo General del Poder Judicial, sin contar a su Presidente?",
+      "opciones": ["12", "15", "24", "20"],
+      "correcta": 3,
+      "explicacion": "El CGPJ está presidido por el Presidente del Tribunal Supremo e integrado por veinte miembros nombrados por el Rey por un periodo de cinco años.",
+      "referencia": "Art. 122.3 CE"
+    },
+    {
+      "pregunta": "¿Cada cuánto tiempo se renuevan por terceras partes los miembros del Tribunal Constitucional?",
+      "opciones": ["Cada dos años", "Cada cuatro años", "Cada tres años", "Cada cinco años"],
+      "correcta": 2,
+      "explicacion": "Los miembros del TC son designados por nueve años y se renuevan por terceras partes cada tres años.",
+      "referencia": "Art. 159.3 CE"
+    },
+    {
+      "pregunta": "¿De qué órgano depende el Tribunal de Cuentas?",
+      "opciones": ["De las Cortes Generales", "Del Gobierno", "Del Consejo General del Poder Judicial", "Del Tribunal Supremo"],
+      "correcta": 0,
+      "explicacion": "El Tribunal de Cuentas depende directamente de las Cortes Generales y ejerce sus funciones por delegación de ellas.",
+      "referencia": "Art. 136.1 CE"
+    }
+  ]
+}
