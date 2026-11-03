@@ -585,7 +585,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2015-10565.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 a 6, 47.1, 128, 129, 131, 132 (con la anotación de la STC 55/2018) y 133 en el texto del PDF. Resto pendiente. Verificados también arts. 47, 48, 106 a 126 en el texto del PDF. Verificados también arts. 64, 67, 81, 82, 85, 89, 90 y 91.3 en el texto del PDF. Verificado también el art. 14.1 y 14.2 en el texto del PDF."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 a 6, 47.1, 128, 129, 131, 132 (con la anotación de la STC 55/2018) y 133 en el texto del PDF. Resto pendiente. Verificados también arts. 47, 48, 106 a 126 en el texto del PDF. Verificados también arts. 64, 67, 81, 82, 85, 89, 90 y 91.3 en el texto del PDF. Verificado también el art. 14.1 y 14.2 en el texto del PDF. Verificados también arts. 9, 13, 16, 17, 27, 28 y 53.1.a en el texto del PDF (y el encabezado del 61)."
   },
   "LRJSP": {
    "id": "LRJSP",
@@ -596,7 +596,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2015-10566.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 y 4 y 6.1 en el texto del PDF. Resto pendiente. Verificados también arts. 25 a 36 en el texto del PDF. Verificado también el art. 41.1 y 41.2 en el texto del PDF."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 y 4 y 6.1 en el texto del PDF. Resto pendiente. Verificados también arts. 25 a 36 en el texto del PDF. Verificado también el art. 41.1 y 41.2 en el texto del PDF. Verificados también arts. 3.1, 38, 39, 42, 46, 155, 156 y 157 en el texto del PDF."
   },
   "LCSP": {
    "id": "LCSP",
@@ -627,9 +627,9 @@ window.DATOS_ESTUDIO = {
    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
    "boe_id": "BOE-A-2018-16673",
    "pdf": "leyes/BOE-A-2018-16673.pdf",
-   "verificada": false,
+   "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Articulado pendiente de verificar."
+   "notas": "PDF consolidado disponible en leyes/; verificado el art. 1 (objeto: adaptar el ordenamiento al RGPD). Pendiente el resto del articulado."
   },
   "LBRL": {
    "id": "LBRL",
@@ -9139,6 +9139,899 @@ window.DATOS_ESTUDIO = {
      "nombre": "Ley 40/2015, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
      "pdf": "leyes/BOE-A-2015-10566.pdf"
+    }
+   ]
+  },
+  "c23": {
+   "resumen": [
+    {
+     "titulo": "Sistemas operativos",
+     "puntos": [
+      "Gestionan procesos, memoria, dispositivos y ficheros. Clases: monousuario y multiusuario; por lotes, de tiempo compartido y de tiempo real.",
+      "Un proceso bloqueado espera un recurso y no ocupa la CPU. La memoria virtual permite ejecutar programas mayores que la memoria física."
+     ]
+    },
+    {
+     "titulo": "Sistemas de gestión de bases de datos",
+     "puntos": [
+      "El SGBD define la estructura de los datos, permite manipularlos, controla el acceso y garantiza la integridad y la seguridad.",
+      "Las transacciones cumplen propiedades ACID; la atomicidad significa que se completan del todo o no se aplican. Las copias de seguridad y los registros de transacciones permiten la recuperación."
+     ]
+    },
+    {
+     "titulo": "Tipología de los sistemas de información",
+     "puntos": [
+      "TPS para la operación diaria; MIS para el control táctico; DSS para elegir entre alternativas; sistemas para la dirección (EIS) y almacenes de datos para el análisis.",
+      "Sistemas de trabajo en grupo (groupware) para la colaboración; flujos de trabajo (workflow) para ordenar las tareas de un procedimiento."
+     ]
+    },
+    {
+     "titulo": "Gestión documental, archivo y estadística",
+     "puntos": [
+      "Cada Administración debe mantener un archivo electrónico único de los procedimientos finalizados, en formato que garantice autenticidad, integridad y conservación (arts. 17.1 y 17.2 LPAC).",
+      "Los sistemas estadísticos recogen, validan, analizan y presentan datos. La cesión de datos entre Administraciones exige condiciones y protocolos previos (art. 155 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "Correo e Internet",
+     "puntos": [
+      "El correo usa SMTP para enviar y IMAP o POP para recibir. Internet usa TCP/IP, y la web usa HTTP, o HTTPS cuando el tráfico va cifrado.",
+      "La validez de una notificación depende de la forma establecida en la LPAC, no del medio."
+     ]
+    },
+    {
+     "titulo": "Sistemas de la Junta de Andalucía",
+     "puntos": [
+      "La Junta aplica las tecnologías para mejorar su eficacia (art. 7.1 LAJA). El registro de personal se regula en la Ley 5/2023 (arts. 92 a 95).",
+      "La relación concreta de sistemas adoptados por la Junta no está verificada en este tema y debe comprobarse en la documentación oficial vigente."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LPAC",
+     "rol": "Complementaria: registro y archivo electrónicos (arts. 16 y 17)"
+    },
+    {
+     "id": "LRJSP",
+     "rol": "Complementaria: sedes, portal y cesión de datos (arts. 38, 39, 41, 155 y 157)"
+    },
+    {
+     "id": "LAJA",
+     "rol": "Complementaria: tecnologías de la información en la Junta (art. 7.1)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 17.1 LPAC, ¿qué archivo debe mantener cada Administración?",
+     "opciones": [
+      "Un archivo electrónico único de los documentos de procedimientos finalizados",
+      "Ningún archivo electrónico",
+      "Un archivo en papel de todos los procedimientos en curso",
+      "Un archivo privado de cada funcionario"
+     ],
+     "correcta": 0,
+     "explicacion": "Cada Administración debe mantener un archivo electrónico único de los documentos de los procedimientos finalizados.",
+     "referencia": "Art. 17.1 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 16.2 LPAC, ¿qué criterio siguen los asientos del registro electrónico?",
+     "opciones": [
+      "No existe criterio",
+      "El orden alfabético del interesado",
+      "El orden temporal de recepción o salida",
+      "El orden de importancia del documento"
+     ],
+     "correcta": 2,
+     "explicacion": "Los asientos se anotan respetando el orden temporal de recepción o salida.",
+     "referencia": "Art. 16.2 LPAC"
+    },
+    {
+     "pregunta": "¿Qué clase de sistema operativo atiende a una sola persona?",
+     "opciones": [
+      "Multiusuario",
+      "De tiempo real",
+      "Por lotes",
+      "Monousuario"
+     ],
+     "correcta": 3,
+     "explicacion": "El sistema monousuario atiende a una sola persona; el multiusuario permite el acceso simultáneo de varias.",
+     "referencia": "Sistemas operativos (temario c23)"
+    },
+    {
+     "pregunta": "¿Cómo se llama la propiedad de una transacción que se completa del todo o no se aplica en absoluto?",
+     "opciones": [
+      "Normalización",
+      "Atomicidad",
+      "Concurrencia",
+      "Redundancia"
+     ],
+     "correcta": 1,
+     "explicacion": "La atomicidad, una de las propiedades ACID, garantiza que la transacción se complete del todo o no se aplique en absoluto.",
+     "referencia": "Bases de datos (temario c23)"
+    },
+    {
+     "pregunta": "¿Qué sistema de información sirve a la operación diaria, registrando solicitudes y pagos?",
+     "opciones": [
+      "El TPS",
+      "El DSS",
+      "El EIS",
+      "El almacén de datos"
+     ],
+     "correcta": 0,
+     "explicacion": "Los sistemas de procesamiento de transacciones (TPS) registran las operaciones diarias.",
+     "referencia": "Tipología de sistemas (temario c23)"
+    },
+    {
+     "pregunta": "¿Qué sistema de información ayuda a elegir entre alternativas concretas para una decisión?",
+     "opciones": [
+      "El SMTP",
+      "El TPS",
+      "El DSS",
+      "El correo electrónico"
+     ],
+     "correcta": 2,
+     "explicacion": "Los sistemas de ayuda a la decisión (DSS) analizan alternativas para una decisión concreta.",
+     "referencia": "Tipología de sistemas (temario c23)"
+    },
+    {
+     "pregunta": "Según el art. 155 LRJSP, ¿qué exige la transmisión de datos entre Administraciones?",
+     "opciones": [
+      "Solo la firma de un papel",
+      "Autorización de un notario",
+      "Nada, se transmiten sin condiciones",
+      "Condiciones, protocolos y criterios técnicos previos y respeto a la protección de datos"
+     ],
+     "correcta": 3,
+     "explicacion": "Cada Administración debe facilitar el acceso a los datos de los interesados especificando condiciones, protocolos y criterios técnicos, con respeto a la protección de datos.",
+     "referencia": "Art. 155 LRJSP"
+    },
+    {
+     "pregunta": "¿Qué protocolo cifra la comunicación entre el navegador y el servidor web?",
+     "opciones": [
+      "HTTP",
+      "HTTPS",
+      "POP",
+      "SMTP"
+     ],
+     "correcta": 1,
+     "explicacion": "HTTPS es la versión de HTTP que cifra la comunicación entre el navegador y el servidor.",
+     "referencia": "Internet (temario c23)"
+    },
+    {
+     "pregunta": "Según el art. 7.1 LAJA, ¿a qué está orientada la aplicación de las tecnologías de la información a la Administración?",
+     "opciones": [
+      "A eliminar los registros",
+      "A sustituir a los empleados públicos",
+      "A mejorar su eficacia, aproximarla a la ciudadanía y agilizar la gestión",
+      "A reducir la transparencia"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 7.1 LAJA orienta la aplicación de las tecnologías a mejorar la eficacia, aproximar la Administración a la ciudadanía y agilizar la gestión administrativa.",
+     "referencia": "Art. 7.1 LAJA"
+    },
+    {
+     "pregunta": "Según el art. 92 de la Ley 5/2023, ¿qué instrumento regula ese precepto?",
+     "opciones": [
+      "El registro de personal",
+      "La cuenta general",
+      "El registro mercantil",
+      "El Boletín Oficial del Estado"
+     ],
+     "correcta": 0,
+     "explicacion": "El artículo 92 de la Ley 5/2023 regula el registro de personal, que se desarrolla en los artículos 93 a 95.",
+     "referencia": "Art. 92 Ley 5/2023"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Los sistemas operativos: funciones y clases",
+     "parrafos": [
+      "El sistema operativo es el software de base que gestiona los recursos del equipo y ofrece a las aplicaciones un entorno común. Sus funciones principales son la gestión de procesos, de memoria, de dispositivos de entrada y salida y de ficheros, y la protección de unos recursos frente a otros.",
+      "Según el número de usuarios se distinguen los sistemas monousuario, que atienden a una sola persona, y los multiusuario, que permiten el acceso simultáneo de varias. Según la forma de trabajo, se distinguen los sistemas por lotes (batch), que procesan trabajos completos sin interacción, los interactivos o de tiempo compartido, que atienden a cada usuario en turnos breves, y los de tiempo real, que responden en un plazo garantizado.",
+      "Para un examen, la clasificación se pregunta con ejemplos. Un sistema de control industrial con respuesta garantizada es de tiempo real; un servidor de archivos que atiende a muchos usuarios a la vez es multiusuario."
+     ]
+    },
+    {
+     "titulo": "2. Gestión de procesos, memoria y ficheros en el sistema operativo",
+     "parrafos": [
+      "El planificador decide qué proceso ocupa la CPU en cada momento, y el cambio de contexto guarda el estado del proceso que deja la CPU para restaurar el del siguiente. Los procesos pueden estar listos, en ejecución, bloqueados o terminados.",
+      "La gestión de memoria asigna espacio a los procesos y los protege entre sí. La memoria virtual permite ejecutar programas mayores que la memoria física, paginando partes de ellos en el almacenamiento secundario.",
+      "El sistema de ficheros organiza los datos en archivos y directorios, y controla los permisos de acceso. Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado: espera un recurso y no ocupa la CPU."
+     ]
+    },
+    {
+     "titulo": "3. Sistemas operativos de uso habitual en la Administración",
+     "parrafos": [
+      "En las organizaciones públicas conviven sistemas operativos de escritorio, usados por los empleados en sus puestos, y sistemas de servidor, que alojan las aplicaciones y los datos. Las familias más extendidas son las de tipo Windows y las de tipo Unix o Linux.",
+      "La elección depende de la compatibilidad con las aplicaciones, de la seguridad, de los costes de licencia y del soporte del fabricante o de la comunidad. La reutilización de aplicaciones entre Administraciones se rige por el artículo 157 LRJSP; la elección entre software libre y propietario depende de la normativa de contratación, que no se ha verificado en este tema.",
+      "Para un examen, la distinción clave es entre el sistema de escritorio y el de servidor. Cada uno tiene prioridades distintas: el primero, la usabilidad; el segundo, la disponibilidad y el rendimiento."
+     ]
+    },
+    {
+     "titulo": "4. Sistemas de gestión de bases de datos: funciones",
+     "parrafos": [
+      "Un sistema de gestión de bases de datos (SGBD) es el software que crea, mantiene y da acceso a una base de datos. Sus funciones son definir la estructura de los datos, manipularlos (consultar, insertar, modificar y borrar), controlar el acceso y garantizar la integridad y la seguridad.",
+      "El SGBD separa los datos de las aplicaciones. Varias aplicaciones pueden usar la misma base sin conocer cómo se almacenan los datos, lo que facilita el mantenimiento y evita duplicidades.",
+      "Para un examen, la diferencia básica es entre el lenguaje de definición de datos (que crea la estructura) y el de manipulación (que trabaja con los datos). Las consultas habituales se expresan en SQL."
+     ]
+    },
+    {
+     "titulo": "5. Modelos de datos y transacciones",
+     "parrafos": [
+      "El modelo relacional organiza los datos en tablas con filas y columnas, relacionadas por claves primarias y externas. Otros modelos son el jerárquico, el de red, el documental y el de grafos, adecuados a estructuras concretas.",
+      "Una transacción es una secuencia de operaciones que debe completarse entera o no completarse en absoluto. Las propiedades ACID (atomicidad, consistencia, aislamiento y durabilidad) garantizan que las transacciones mantienen los datos correctos aun ante fallos.",
+      "Para un examen, la pregunta típica es qué garantiza la atomicidad. Respuesta: que la transacción se complete del todo o no se aplique en absoluto."
+     ]
+    },
+    {
+     "titulo": "6. Copias de seguridad, concurrencia y recuperación",
+     "parrafos": [
+      "El SGBD controla la concurrencia para que varios usuarios accedan a la vez sin corromper los datos. Usa mecanismos como los bloqueos y el control de versiones.",
+      "La recuperación ante fallos se basa en copias de seguridad completas e incrementales y en registros de transacciones que permiten rehacer o deshacer operaciones. Una base de datos sin copias verificadas no es segura, aunque tenga un buen SGBD.",
+      "Para un examen, la diferencia entre copia completa e incremental es el volumen: la incremental guarda solo los cambios desde la última copia."
+     ]
+    },
+    {
+     "titulo": "7. Tipología de los sistemas de información",
+     "parrafos": [
+      "Un sistema de información es el conjunto de elementos que recogen, almacenan, procesan y distribuyen información para apoyar las funciones de una organización. Se clasifican según la función que cumplen y el nivel de dirección al que sirven.",
+      "Los sistemas de procesamiento de transacciones (TPS) registran las operaciones diarias, como una solicitud o un pago. Los sistemas de información de gestión (MIS) resumen esos datos para el control. Los sistemas de ayuda a la decisión (DSS) analizan alternativas para una decisión concreta.",
+      "Para un examen, la diferencia es el nivel: el TPS sirve al nivel operativo; el MIS, al táctico; el DSS y los sistemas de dirección, al estratégico."
+     ]
+    },
+    {
+     "titulo": "8. Sistemas de ayuda a la decisión y de dirección",
+     "parrafos": [
+      "Los sistemas de ayuda a la decisión combinan datos y modelos para simular escenarios y comparar opciones. Los sistemas de información para dirección (EIS) presentan indicadores clave a los directivos de forma resumida y visual.",
+      "Los sistemas de inteligencia de negocio agregan datos de varias fuentes en almacenes de datos (data warehouse) para su análisis. Permiten consultas multidimensionales y cuadros de mando.",
+      "Para un examen, la pregunta típica es la diferencia entre un DSS y un MIS. Respuesta: el DSS ayuda a elegir entre alternativas concretas; el MIS informa de forma periódica sobre el desempeño."
+     ]
+    },
+    {
+     "titulo": "9. Sistemas de trabajo en grupo",
+     "parrafos": [
+      "Los sistemas de trabajo en grupo (groupware) apoyan la colaboración entre personas que trabajan juntas, aunque estén en lugares distintos. Incluyen la mensajería, la agenda compartida, la edición colaborativa de documentos y los flujos de trabajo.",
+      "Los flujos de trabajo (workflow) automatizan la secuencia de tareas de un procedimiento: quién hace qué y cuándo. Son la base de la gestión de expedientes en la Administración.",
+      "Para un examen, la diferencia es que el groupware apoya la colaboración; el workflow ordena las tareas de un proceso."
+     ]
+    },
+    {
+     "titulo": "10. Sistemas de tratamiento, almacenamiento y archivo de documentos",
+     "parrafos": [
+      "Los sistemas de gestión documental tratan, almacenan y recuperan documentos electrónicos. Incluyen la captura, la clasificación, el control de versiones, la búsqueda y la conservación de los documentos durante su plazo.",
+      "En la Administración, el archivo electrónico de documentos de procedimientos finalizados es obligatorio para cada Administración (art. 17.1 LPAC). Los documentos deben conservarse en un formato que garantice su autenticidad, integridad y consulta (art. 17.2 LPAC).",
+      "Para un examen, la diferencia es entre gestión documental (trabajo diario) y archivo (conservación a largo plazo). La LPAC impone el archivo electrónico único."
+     ]
+    },
+    {
+     "titulo": "11. Sistemas para el tratamiento estadístico",
+     "parrafos": [
+      "Los sistemas estadísticos recogen datos, los validan, los analizan y presentan resultados. Usan técnicas descriptivas (medias, distribuciones, tablas) e inferenciales (estimaciones y contrastes de hipótesis).",
+      "En la Administración, la estadística sirve para planificar políticas públicas, evaluarlas y cumplir obligaciones de información. Los datos personales utilizados deben tratarse respetando la protección de datos y, cuando se ceden a otras Administraciones, las condiciones de transmisión (art. 155 LRJSP).",
+      "Para un examen, la pregunta típica es qué condiciones exige la cesión de datos entre Administraciones. Respuesta: condiciones, protocolos y criterios técnicos previos y respeto a la protección de datos (art. 155 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "12. Sistemas inteligentes",
+     "parrafos": [
+      "Los sistemas inteligentes incluyen los sistemas expertos, que aplican reglas de un dominio concreto para dar conclusiones, y las técnicas de aprendizaje automático, que aprenden patrones de los datos. Su uso en la Administración debe ser explicable y revisable.",
+      "La actuación automatizada de la Administración (art. 41 LRJSP) no es necesariamente inteligente. Cuando incorpora reglas complejas, debe estar identificado el órgano responsable de su especificación, su mantenimiento y su supervisión (art. 41.2 LRJSP).",
+      "Para un examen, la pregunta típica es qué diferencia a un sistema experto del aprendizaje automático. Respuesta: el primero aplica reglas explícitas; el segundo las extrae de los datos."
+     ]
+    },
+    {
+     "titulo": "13. El correo electrónico",
+     "parrafos": [
+      "El correo electrónico transmite mensajes entre usuarios mediante servidores de correo. Se apoya en protocolos como SMTP para enviar y en IMAP o POP para recibir. Los mensajes pueden llevar archivos adjuntos y firmas electrónicas.",
+      "En la Administración, el correo tiene valor de comunicación, pero las notificaciones formales siguen los cauces de la LPAC. La seguridad del correo exige cifrado, control de los adjuntos y protección frente al engaño (phishing).",
+      "Para un examen, la diferencia es que el correo transmite mensajes; la validez jurídica de una notificación depende de la forma establecida en la ley, no del medio en sí."
+     ]
+    },
+    {
+     "titulo": "14. Internet y los servicios web",
+     "parrafos": [
+      "Internet es una red mundial de redes que usa el protocolo TCP/IP. Sobre ella funcionan servicios como la web (protocolo HTTP o HTTPS), el correo, la transferencia de ficheros y la resolución de nombres mediante DNS.",
+      "Un sitio web de la Administración suele ser su sede o su portal de internet, con las obligaciones que la LRJSP fija para cada uno (arts. 38 y 39 LRJSP). El protocolo HTTPS cifra la comunicación entre el navegador y el servidor.",
+      "Para un examen, la diferencia entre HTTP y HTTPS es el cifrado: HTTPS protege la comunicación frente a la interceptación."
+     ]
+    },
+    {
+     "titulo": "15. Los sistemas de información de la Junta de Andalucía",
+     "parrafos": [
+      "El tema pide concretar los sistemas adoptados por la Junta de Andalucía. Esa concreción depende de la planificación tecnológica de la Junta, de sus contratos y de su inventario de sistemas, que no están en el repositorio y no se han verificado en este tema.",
+      "Lo que puede afirmarse con las normas verificadas es el marco: la Junta aplica las tecnologías de la información para mejorar su eficacia (art. 7.1 LAJA), los registros y archivos electrónicos son obligatorios (arts. 16 y 17 LPAC), y la reutilización de aplicaciones entre Administraciones se rige por el artículo 157 LRJSP.",
+      "Para un examen, cite el marco verificado y advierta que la relación concreta de sistemas debe comprobarse en la documentación oficial vigente antes de citarla."
+     ]
+    },
+    {
+     "titulo": "16. El registro electrónico como sistema de información",
+     "parrafos": [
+      "El registro electrónico general es un sistema de información que asienta la presentación y salida de documentos (art. 16.1 LPAC). Su funcionamiento se apoya en una base de datos con asientos ordenados por fecha y hora (art. 16.2 LPAC).",
+      "El registro debe cumplir las garantías de la protección de datos y tener publicadas sus disposiciones de creación, con la fecha y hora oficial y los días inhábiles (art. 16.1 LPAC). Es un ejemplo de cómo un sistema de información tiene reglas jurídicas además de técnicas.",
+      "Para un examen, la pregunta típica es qué datos debe reflejar el registro electrónico. Respuesta: el asiento con el orden temporal de recepción o salida (art. 16.2 LPAC)."
+     ]
+    },
+    {
+     "titulo": "17. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir el sistema operativo con una aplicación. El sistema operativo gestiona los recursos; la aplicación resuelve un problema del usuario.",
+      "Confundir el SGBD con la base de datos. La base contiene los datos; el SGBD es el software que los gestiona.",
+      "Confundir el TPS con el DSS. El primero registra operaciones; el segundo ayuda a decidir entre alternativas.",
+      "Confundir el groupware con el workflow. El primero apoya la colaboración; el segundo ordena las tareas del proceso.",
+      "Afirmar que el correo electrónico tiene por sí solo valor de notificación formal. La validez depende de la forma establecida en la LPAC.",
+      "Confundir el controlador con el sistema operativo. El controlador traduce las órdenes para un dispositivo concreto; el sistema operativo los coordina a todos.",
+      "Confundir la base transaccional con el almacén de datos. La primera sirve a la operación diaria; el segundo, al análisis.",
+      "Confundir el registro de personal con la nómina. El registro es un instrumento de información sobre el personal; la nómina es el documento de pago de sus retribuciones."
+     ]
+    },
+    {
+     "titulo": "18. Casos prácticos",
+     "parrafos": [
+      "Caso 1: una base de datos de expedientes se corrompe tras un fallo eléctrico. Si el SGBD tiene registros de transacciones y copias verificadas, la recuperación rehace o deshace las operaciones pendientes. Sin copias, la pérdida puede ser total.",
+      "Caso 2: una dirección general necesita comparar tres alternativas para repartir un presupuesto. Procede un sistema de ayuda a la decisión que simule los escenarios, no un sistema transaccional (TPS).",
+      "Caso 3: un expediente finalizado debe conservarse durante años. Debe ir al archivo electrónico único en un formato que garantice su autenticidad e integridad (arts. 17.1 y 17.2 LPAC).",
+      "Caso 4: una dirección quiere saber la evolución de los expedientes de cinco años para planificar recursos. Procede un almacén de datos que integre los históricos, no la consulta directa a la base transaccional, que está optimizada para la operación diaria."
+     ]
+    },
+    {
+     "titulo": "19. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué diferencia un sistema monousuario de uno multiusuario? El número de usuarios que atienden a la vez.",
+      "¿Qué garantiza la atomicidad de una transacción? Que se complete del todo o no se aplique en absoluto.",
+      "¿Qué nivel de dirección sirve un TPS? El operativo.",
+      "¿Qué protocolo cifra la comunicación web? HTTPS.",
+      "¿Qué archivo es obligatorio para cada Administración? El archivo electrónico único de procedimientos finalizados (art. 17.1 LPAC).",
+      "¿Qué diferencia un sistema experto del aprendizaje automático? El sistema experto aplica reglas explícitas; el aprendizaje automático las extrae de los datos.",
+      "¿Qué medida frena mejor el phishing? La formación de los usuarios, junto con la autenticación de dos factores y el filtrado del correo.",
+      "¿Para qué sirve la gestión de cambios? Para registrar, aprobar y poder revertir cada modificación del sistema.",
+      "¿Qué artículo de la Ley 5/2023 regula el registro de personal? El artículo 92, con su desarrollo en los artículos 93 a 95."
+     ]
+    },
+    {
+     "titulo": "20. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema c22 sobre sistemas informáticos, porque aquí se estudian con detalle los sistemas operativos, las bases de datos y los sistemas de información.",
+      "Se conecta con el tema c24 sobre Administración electrónica, porque los registros, archivos y sedes son sistemas de información con reglas jurídicas.",
+      "Se conecta con el tema c21 sobre presupuesto, porque los sistemas de gestión económica registran las fases de ejecución del gasto."
+     ]
+    },
+    {
+     "titulo": "21. Gestión de dispositivos e interfaces del sistema operativo",
+     "parrafos": [
+      "El sistema operativo gestiona los dispositivos de entrada y salida mediante controladores (drivers), que traducen las órdenes generales del sistema a las instrucciones concretas de cada dispositivo. Así, una aplicación puede imprimir sin conocer el modelo de la impresora.",
+      "Las interrupciones permiten que un dispositivo avise a la CPU cuando termina una operación, en lugar de obligarla a esperar. El acceso directo a memoria (DMA) permite transferir datos sin ocupar la CPU en cada byte.",
+      "La interfaz de usuario puede ser de línea de órdenes o gráfica. Ambas dependen del mismo núcleo del sistema operativo. Para un examen, la pregunta típica es qué hace un controlador: traduce las órdenes del sistema a las del dispositivo concreto."
+     ]
+    },
+    {
+     "titulo": "22. Diseño de bases de datos: modelo entidad-relación y normalización",
+     "parrafos": [
+      "El diseño de una base de datos parte del análisis de la información: se identifican las entidades (objetos del mundo real, como un expediente o un interesado), sus atributos y las relaciones entre ellas. El modelo entidad-relación recoge esta información antes de convertirla en tablas.",
+      "La normalización organiza las tablas para evitar redundancias y anomalías al insertar, modificar o borrar datos. Las formas normales sucesivas exigen que cada atributo dependa de la clave completa y solo de ella. Una tabla mal normalizada obliga a corregir el mismo dato en varios sitios.",
+      "Para un examen, la pregunta típica es qué se busca con la normalización. Respuesta: eliminar redundancias y anomalías de actualización, para que cada dato se guarde una sola vez."
+     ]
+    },
+    {
+     "titulo": "23. Almacenes de datos y análisis de información",
+     "parrafos": [
+      "Un almacén de datos (data warehouse) reúne datos de varias fuentes operativas, los limpia, los integra y los organiza para el análisis histórico. A diferencia de la base transaccional, está optimizado para consultas de lectura sobre grandes volúmenes.",
+      "La minería de datos busca patrones y relaciones en esos datos, como grupos de comportamiento o tendencias, sin partir de una hipótesis previa. Los resultados se presentan en cuadros de mando y paneles de indicadores.",
+      "Para un examen, la diferencia es que la base transaccional sirve a la operación diaria, y el almacén de datos al análisis y a la toma de decisiones."
+     ]
+    },
+    {
+     "titulo": "24. El ciclo de vida de un sistema de información",
+     "parrafos": [
+      "Un sistema de información tiene un ciclo de vida: se planifica según las necesidades de la organización, se analiza y diseña, se desarrolla o adquiere, se implanta con formación de los usuarios, se explota y, finalmente, se modifica o se retira.",
+      "La planificación debe alinear el sistema con los procedimientos y con los objetivos de la organización. Una implantación sin formación produce resistencia y errores, aunque el sistema técnicamente funcione.",
+      "Para un examen, la fase más costosa en un sistema de gestión suele ser el mantenimiento, porque la norma y el procedimiento cambian durante toda la vida del sistema."
+     ]
+    },
+    {
+     "titulo": "25. Internet y los servicios de la sociedad de la información",
+     "parrafos": [
+      "Los servicios de la sociedad de la información son aquellos prestados a distancia, por vía electrónica y a petición del destinatario, como el acceso a la web, el correo o la descarga de documentos. La LAJA los menciona al exigir que las relaciones electrónicas se respeten con la normativa correspondiente (art. 7.3 LAJA).",
+      "El navegador es el programa que accede a los recursos de la web. El buscador localiza contenidos indexados. Los servicios de la Administración en internet se presentan a través de su sede o de su portal (arts. 38 y 39 LRJSP).",
+      "Para un examen, la diferencia es que el navegador accede, el buscador localiza y la sede tramita. Son funciones distintas que pueden coincidir en un mismo sitio."
+     ]
+    },
+    {
+     "titulo": "26. Seguridad de los sistemas: amenazas y medidas",
+     "parrafos": [
+      "Los sistemas están expuestos a amenazas de distinto tipo: software malicioso (virus, troyanos, programas de secuestro de datos), ataques de ingeniería social como el phishing, accesos no autorizados y fallos de hardware o de suministro eléctrico.",
+      "Las medidas se organizan en capas: control de acceso con identificación y contraseñas robustas o autenticación de dos factores, cifrado de la información sensible, actualizaciones de seguridad, copias de seguridad verificadas, cortafuegos y formación de los usuarios, que suele ser la medida más eficaz frente al phishing.",
+      "Para un examen, la pregunta típica es qué medida frena el phishing. Respuesta: la formación de los usuarios, junto con la autenticación de dos factores y el filtrado del correo. Ninguna medida aislada basta."
+     ]
+    },
+    {
+     "titulo": "27. Documentación técnica y gestión de cambios",
+     "parrafos": [
+      "Un sistema debe documentarse para poder mantenerlo: la documentación de análisis describe qué hace, la técnica describe cómo está construido, y el manual de usuario explica cómo utilizarlo. Sin ella, cada cambio depende de quien lo conoce y el sistema se vuelve frágil.",
+      "La gestión de cambios registra cada modificación, quién la aprobó, qué versión afecta y cómo se revierte si falla. Es la base para auditar el sistema y para reproducir un error en las pruebas.",
+      "Para un examen, la pregunta típica es para qué sirve la gestión de cambios. Respuesta: registrar, aprobar y poder revertir cada modificación del sistema."
+     ]
+    },
+    {
+     "titulo": "28. El registro de personal como sistema de información de la Junta",
+     "parrafos": [
+      "La Ley 5/2023, de la Función Pública de Andalucía, regula el registro de personal como instrumento de información sobre el personal al servicio de la Administración. El artículo 92 de la ley lo establece con carácter general, el artículo 93 lo concreta para la Administración General de la Junta, y el artículo 95 regula su organización y funcionamiento. El detalle técnico de cada uno no se ha verificado en este tema.",
+      "Como sistema de información, el registro reúne datos de identidad, situaciones administrativas, puestos y retribuciones. Su valor depende de que los datos estén actualizados y de que cada Administración pueda consultarlos en las condiciones que la ley permite.",
+      "Para un examen, la pregunta típica es qué es el registro de personal. Respuesta: el instrumento de información sobre el personal al servicio de la Administración regulado en la Ley 5/2023 (arts. 92 a 95)."
+     ]
+    },
+    {
+     "titulo": "29. Claves para el examen",
+     "parrafos": [
+      "Sistemas operativos: funciones (procesos, memoria, dispositivos, ficheros) y clases (monousuario, multiusuario, batch, tiempo compartido, tiempo real).",
+      "SGBD: definición de datos, manipulación, control de acceso e integridad; modelo relacional; propiedades ACID; copias de seguridad.",
+      "Tipología de sistemas de información: TPS (operativo), MIS (táctico), DSS y EIS (estratégico); groupware y workflow; gestión documental y archivo.",
+      "Correo e internet: SMTP, IMAP y POP; TCP/IP, HTTP y HTTPS; DNS.",
+      "Derecho verificado: LPAC arts. 16 y 17; LRJSP arts. 38, 39, 41, 155 y 157; LAJA art. 7.1. La concreción de sistemas de la Junta no está verificada.",
+      "Seguridad y documentación: amenazas (software malicioso, phishing, accesos no autorizados), medidas en capas y gestión de cambios con reversión.",
+      "Para un examen, al citar un sistema concreto de la Junta, indique que su descripción depende de la documentación oficial vigente y no de este tema.",
+      "Registro de personal: Ley 5/2023, arts. 92 a 95, sin detalle técnico verificado.",
+      "Para responder, conviene distinguir siempre el concepto técnico (qué es) del uso que le da la Administración (para qué)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 39/2015, del Procedimiento Administrativo Común (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+     "pdf": "leyes/BOE-A-2015-10565.pdf"
+    },
+    {
+     "nombre": "Ley 40/2015, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+     "pdf": "leyes/BOE-A-2015-10566.pdf"
+    },
+    {
+     "nombre": "Ley 9/2007, de la Administración de la Junta de Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19819",
+     "pdf": "leyes/BOE-A-2007-19819.pdf"
+    },
+    {
+     "nombre": "Ley 5/2023, de la Función Pública de Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/eli/es-an/l/2023/06/07/5",
+     "pdf": "leyes/BOE-A-2023-16066.pdf"
+    }
+   ]
+  },
+  "c24": {
+   "resumen": [
+    {
+     "titulo": "Concepto y marco jurídico",
+     "puntos": [
+      "La Administración electrónica usa las tecnologías de la información para relacionarse con la ciudadanía y gestionar sus procedimientos de extremo a extremo (art. 7.1 LAJA).",
+      "El marco es la LPAC (identificación, derechos, registros, archivo), la LRJSP (sede, portal, automatización, interoperabilidad y seguridad) y la LAJA (régimen autonómico)."
+     ]
+    },
+    {
+     "titulo": "Principios y simplificación",
+     "puntos": [
+      "La LRJSP exige la racionalización y agilidad de los procedimientos (art. 3.1.d LRJSP). La Administración no puede pedir documentos que ya obran en su poder, salvo oposición del interesado (art. 28.2 LPAC).",
+      "La LAJA fija los principios de simplificación, libre acceso, accesibilidad universal, confidencialidad, seguridad y autenticidad (art. 7.2 LAJA)."
+     ]
+    },
+    {
+     "titulo": "Sede, portal e interoperabilidad",
+     "puntos": [
+      "La sede electrónica es una dirección cuya titularidad corresponde a la Administración, que responde de su integridad, veracidad y actualización (art. 38 LRJSP). El portal de internet da acceso e información (art. 39 LRJSP).",
+      "El ENI regula la interoperabilidad y el ENS la seguridad de la información (art. 156 LRJSP). Las Administraciones deben facilitarse datos en las condiciones que fijen (art. 155 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "Derechos y relaciones electrónicas",
+     "puntos": [
+      "Las personas físicas pueden elegir el medio, salvo los obligados (art. 14 LPAC). Tienen derecho a ser asistidas en el uso de medios electrónicos y a acceder a la información pública (art. 13 LPAC).",
+      "El interesado puede conocer el estado de su expediente en cualquier momento (art. 53.1.a LPAC)."
+     ]
+    },
+    {
+     "titulo": "Registros, archivo y copias",
+     "puntos": [
+      "Cada Administración tiene un Registro Electrónico General, con asientos por orden temporal y cumplimiento de la protección de datos (art. 16 LPAC).",
+      "El archivo electrónico único conserva los procedimientos finalizados con autenticidad e integridad (art. 17 LPAC). Las copias auténticas de documentos privados solo surten efectos administrativos (art. 27 LPAC)."
+     ]
+    },
+    {
+     "titulo": "Automatización, seguridad y privacidad",
+     "puntos": [
+      "La actuación automatizada necesita órganos responsables previamente identificados (art. 41 LRJSP) y sistemas de firma previstos (art. 42 LRJSP).",
+      "El ENS fija la política de seguridad y los requisitos mínimos (art. 156.2 LRJSP). La ley orgánica de protección de datos adapta el ordenamiento al reglamento europeo (art. 1.a LOPDGDD)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LPAC",
+     "rol": "Norma principal del tema (arts. 9, 13, 14, 16, 17, 27, 28 y 53)"
+    },
+    {
+     "id": "LRJSP",
+     "rol": "Norma principal del tema (arts. 3.1, 38, 39, 41, 42, 46, 155, 156 y 157)"
+    },
+    {
+     "id": "LAJA",
+     "rol": "Complementaria: régimen autonómico (art. 7)"
+    },
+    {
+     "id": "LOPDGDD",
+     "rol": "Complementaria: protección de datos (art. 1)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 38.1 LRJSP, ¿qué es la sede electrónica?",
+     "opciones": [
+      "Una dirección electrónica disponible para los ciudadanos, de titularidad de una Administración",
+      "Un registro en papel",
+      "Una base de datos privada",
+      "Un edificio administrativo"
+     ],
+     "correcta": 0,
+     "explicacion": "La sede electrónica es la dirección electrónica disponible a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración pública o a sus organismos.",
+     "referencia": "Art. 38.1 LRJSP"
+    },
+    {
+     "pregunta": "Según el art. 13.a LPAC, ¿qué derecho permite comunicarse con las Administraciones a través de un punto de acceso general electrónico?",
+     "opciones": [
+      "Ninguno",
+      "El derecho a no comunicarse",
+      "El derecho a comunicarse a través de un punto de acceso general electrónico",
+      "El derecho a pagar una tasa"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 13.a LPAC reconoce el derecho a comunicarse con las Administraciones a través de un punto de acceso general electrónico.",
+     "referencia": "Art. 13.a LPAC"
+    },
+    {
+     "pregunta": "Según el art. 14.1 LPAC, ¿quién puede elegir en todo momento si se comunica por medios electrónicos o no?",
+     "opciones": [
+      "Nadie: la vía electrónica es obligatoria",
+      "Solo los funcionarios",
+      "Solo las personas jurídicas",
+      "Las personas físicas, salvo que estén obligadas a relacionarse electrónicamente"
+     ],
+     "correcta": 3,
+     "explicacion": "Las personas físicas pueden elegir el medio, salvo que estén obligadas a relacionarse electrónicamente, y pueden cambiarlo en cualquier momento.",
+     "referencia": "Art. 14.1 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 16.2 LPAC, ¿qué criterio siguen los asientos del registro electrónico?",
+     "opciones": [
+      "El orden alfabético",
+      "El orden temporal de recepción o salida",
+      "El orden de importancia",
+      "No hay criterio"
+     ],
+     "correcta": 1,
+     "explicacion": "Los asientos se anotan respetando el orden temporal de recepción o salida.",
+     "referencia": "Art. 16.2 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 17.2 LPAC, ¿qué deben garantizar los documentos electrónicos archivados?",
+     "opciones": [
+      "Su autenticidad, integridad y conservación, con consulta independiente del tiempo transcurrido",
+      "Que se impriman todos",
+      "Que se eliminen tras un año",
+      "Solo que ocupen poco espacio"
+     ],
+     "correcta": 0,
+     "explicacion": "Los documentos electrónicos deben conservarse en un formato que garantice su autenticidad, integridad y conservación, y su consulta con independencia del tiempo transcurrido.",
+     "referencia": "Art. 17.2 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 27.1 LPAC, ¿qué efectos tienen las copias auténticas de documentos privados?",
+     "opciones": [
+      "Efectos penales",
+      "Efectos en todas las Administraciones y en los tribunales",
+      "Solo efectos administrativos",
+      "Ninguno"
+     ],
+     "correcta": 2,
+     "explicacion": "Las copias auténticas de documentos privados surten únicamente efectos administrativos.",
+     "referencia": "Art. 27.1 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 41.2 LRJSP, ¿qué debe establecerse antes de una actuación administrativa automatizada?",
+     "opciones": [
+      "Un contrato con una empresa privada",
+      "Una sentencia judicial",
+      "Nada",
+      "Los órganos competentes para especificaciones, programación, mantenimiento y supervisión del sistema"
+     ],
+     "correcta": 3,
+     "explicacion": "Debe establecerse previamente el órgano competente para la definición de especificaciones, programación, mantenimiento, supervisión, control de calidad y, en su caso, auditoría.",
+     "referencia": "Art. 41.2 LRJSP"
+    },
+    {
+     "pregunta": "Según el art. 156.2 LRJSP, ¿qué objeto tiene el Esquema Nacional de Seguridad?",
+     "opciones": [
+      "Regular los precios de los servicios",
+      "Establecer la política de seguridad en la utilización de medios electrónicos",
+      "Regular la jornada de los empleados",
+      "Fijar los impuestos"
+     ],
+     "correcta": 1,
+     "explicacion": "El Esquema Nacional de Seguridad tiene por objeto establecer la política de seguridad en la utilización de medios electrónicos, con principios básicos y requisitos mínimos.",
+     "referencia": "Art. 156.2 LRJSP"
+    },
+    {
+     "pregunta": "Según el art. 7.2 LAJA, ¿cuál NO es un principio de las relaciones electrónicas de la Junta?",
+     "opciones": [
+      "Simplificación y agilización de trámites",
+      "Accesibilidad universal",
+      "Opacidad en el tratamiento de la información",
+      "Seguridad y autenticidad"
+     ],
+     "correcta": 2,
+     "explicacion": "Los principios son la simplificación, el libre acceso, la accesibilidad universal, la confidencialidad y la seguridad y autenticidad. La opacidad no es un principio.",
+     "referencia": "Art. 7.2 LAJA"
+    },
+    {
+     "pregunta": "Según el art. 1.a LOPDGDD, ¿qué objeto tiene la ley orgánica de protección de datos?",
+     "opciones": [
+      "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679",
+      "Regular la fiscalidad de los datos",
+      "Sustituir la LPAC",
+      "Derogar el reglamento europeo"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 1.a LOPDGDD tiene por objeto adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679.",
+     "referencia": "Art. 1.a LOPDGDD"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué es la Administración electrónica",
+     "parrafos": [
+      "La Administración electrónica es el uso de las tecnologías de la información y de las comunicaciones para que las Administraciones públicas se relacionen con los ciudadanos, con otras Administraciones y entre sus propios órganos, y para gestionar sus procedimientos. No es solo tener una web: implica que el procedimiento completo, desde la solicitud hasta la resolución y el archivo, pueda tramitarse por medios electrónicos.",
+      "El artículo 7.1 de la Ley 9/2007, de la Administración de la Junta de Andalucía (LAJA), establece que la aplicación de las tecnologías de la información a la Administración está orientada a mejorar su eficacia, aproximarla a la ciudadanía y agilizar la gestión administrativa.",
+      "Para un examen, la diferencia clave es entre digitalizar un trámite y rediseñar el proceso. La Administración electrónica exige lo segundo: un procedimiento electrónico completo y con garantías, no solo un formulario en línea.",
+      "Para la ciudadanía, la Administración electrónica supone derechos concretos (elegir el medio, ser asistida, conocer el estado de su expediente); para la Administración, supone organizar sus sistemas para garantizarlos."
+     ]
+    },
+    {
+     "titulo": "2. El marco jurídico básico",
+     "parrafos": [
+      "El marco básico está formado por la Ley 39/2015, del Procedimiento Administrativo Común (LPAC), que regula los derechos de los interesados, los registros, el archivo y la identificación electrónica; la Ley 40/2015, de Régimen Jurídico del Sector Público (LRJSP), que regula la sede electrónica, la actuación automatizada, la interoperabilidad y la seguridad; y la LAJA, que concreta el régimen autonómico de la Junta de Andalucía.",
+      "La LRJSP establece en su artículo 3.1 los principios generales de la actuación administrativa, entre ellos el servicio efectivo a los ciudadanos, la simplicidad, claridad y proximidad, la racionalización y agilidad de los procedimientos (letra d), la eficacia en el cumplimiento de los objetivos y el control de la gestión.",
+      "Para un examen, la pregunta típica es qué norma regula la sede electrónica. Respuesta: la LRJSP (art. 38); la LPAC regula el registro, el archivo y la identificación."
+     ]
+    },
+    {
+     "titulo": "3. Principios de las relaciones electrónicas en la Junta",
+     "parrafos": [
+      "El artículo 7.2 LAJA fija los principios que rigen las relaciones de la Junta con la ciudadanía y con otras Administraciones a través de redes abiertas: simplificación y agilización de trámites, libre acceso, accesibilidad universal, confidencialidad en el tratamiento de la información, y seguridad y autenticidad para identificar a las partes y el objeto de la comunicación.",
+      "El artículo 7.3 LAJA exige que la prestación de servicios y las relaciones electrónicas respeten las normas sobre intimidad y confidencialidad, la protección de datos, los derechos de autoría y los servicios de la sociedad de la información.",
+      "Para un examen, la pregunta típica es qué principios de la LAJA afectan a la seguridad. Respuesta: la seguridad y la autenticidad (art. 7.2 LAJA), junto con la confidencialidad."
+     ]
+    },
+    {
+     "titulo": "4. Gestión de procesos y simplificación administrativa",
+     "parrafos": [
+      "La simplificación consiste en eliminar trámites innecesarios, reducir plazos y reutilizar la información que la Administración ya posee. El artículo 3.1.d LRJSP exige la racionalización y la agilidad de los procedimientos administrativos y de las actividades materiales de gestión.",
+      "El artículo 28.2 LPAC reconoce a los interesados el derecho a no aportar documentos que ya estén en poder de la Administración actuante o que haya elaborado otra Administración. La Administración puede consultarlos o recabarlos, salvo que el interesado se oponga, con las excepciones que el precepto recoge.",
+      "Para un examen, la simplificación se mide por la reutilización de datos. El artículo 28.2 LPAC es la expresión jurídica de ese principio: no pedir al ciudadano lo que la Administración ya tiene."
+     ]
+    },
+    {
+     "titulo": "5. Las tecnologías de la información en la Administración",
+     "parrafos": [
+      "El artículo 156 LRJSP regula el Esquema Nacional de Interoperabilidad (ENI) y el Esquema Nacional de Seguridad (ENS). El ENI comprende criterios y recomendaciones en materia de seguridad, conservación y normalización de la información, de los formatos y de las aplicaciones, que deben tenerse en cuenta en las decisiones tecnológicas (art. 156.1 LRJSP).",
+      "El ENS tiene por objeto establecer la política de seguridad en la utilización de medios electrónicos y está constituido por principios básicos y requisitos mínimos que garanticen la seguridad de la información tratada (art. 156.2 LRJSP).",
+      "Para un examen, la diferencia es el objeto: el ENI busca que los sistemas se entiendan entre sí; el ENS, que la información esté protegida. Los textos reglamentarios de ambos esquemas no están en el repositorio y no se han verificado en este tema."
+     ]
+    },
+    {
+     "titulo": "6. Interoperabilidad y transmisión de datos entre Administraciones",
+     "parrafos": [
+      "El artículo 155.1 LRJSP obliga a cada Administración a facilitar el acceso de las restantes Administraciones a los datos relativos a los interesados que obren en su poder, especificando las condiciones, protocolos y criterios técnicos necesarios. Esa transmisión debe respetar el Reglamento (UE) 2016/679 y la Ley Orgánica 3/2018.",
+      "El artículo 157 LRJSP permite a las Administraciones reutilizar las aplicaciones de su propiedad: las ponen a disposición de cualquier Administración que lo solicite, salvo que la información asociada esté especialmente protegida. Pueden acordar la repercusión del coste.",
+      "Para un examen, la pregunta típica es si una Administración puede pedir datos a otra. Respuesta: sí, con la transmisión por medios electrónicos y con respeto a la protección de datos (art. 155 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "7. La sede electrónica y el portal de internet",
+     "parrafos": [
+      "El artículo 38.1 LRJSP define la sede electrónica como la dirección electrónica, disponible para los ciudadanos a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración pública, a uno o varios organismos o a entidades de derecho público en el ejercicio de sus competencias.",
+      "El artículo 38.2 LRJSP establece que el titular de la sede es responsable de la integridad, veracidad y actualización de la información y de los servicios a los que se accede. El artículo 38.3 LRJSP exige que cada Administración fije las condiciones de creación de las sedes, con sujeción a principios como la transparencia, la seguridad, la accesibilidad y la interoperabilidad.",
+      "El artículo 39 LRJSP define el portal de internet como el punto de acceso electrónico cuya titularidad corresponde a una Administración. Para un examen, la diferencia es que la sede permite tramitar y el portal informa y da acceso; en la sede, el titular responde de lo que publica."
+     ]
+    },
+    {
+     "titulo": "8. Identificación y firma electrónica",
+     "parrafos": [
+      "El artículo 9.1 LPAC obliga a las Administraciones a verificar la identidad de los interesados comprobando su nombre, apellidos o denominación en el documento identificativo. El artículo 9.2 LPAC permite identificarse electrónicamente con certificados electrónicos cualificados de firma o de sello, entre otros sistemas.",
+      "El artículo 42 LRJSP regula los sistemas de firma para la actuación administrativa automatizada: el sello electrónico de la Administración, el código seguro de verificación vinculado a la Administración y otros que cada Administración determine.",
+      "Para un examen, la pregunta típica es qué sistemas de identificación prevé el artículo 9 LPAC. Respuesta: certificados electrónicos cualificados de firma y de sello, y los demás que establezca la ley."
+     ]
+    },
+    {
+     "titulo": "9. El derecho a relacionarse electrónicamente",
+     "parrafos": [
+      "El artículo 14.1 LPAC reconoce a las personas físicas el derecho a elegir en todo momento si se comunican con las Administraciones por medios electrónicos o no, salvo que estén obligadas a hacerlo, y les permite cambiar de medio en cualquier momento.",
+      "El artículo 14.2 LPAC obliga a relacionarse por medios electrónicos, al menos, a las personas jurídicas, a las entidades sin personalidad, a quienes ejercen una profesión con colegiación obligatoria y a los representantes de los obligados, para cualquier trámite del procedimiento.",
+      "Para un examen, la diferencia es entre el derecho (personas físicas) y la obligación (sujetos del artículo 14.2). La Administración debe ofrecer ambas vías cuando no hay obligación."
+     ]
+    },
+    {
+     "titulo": "10. Derechos de las personas en sus relaciones electrónicas",
+     "parrafos": [
+      "El artículo 13 LPAC reconoce, entre otros derechos, comunicarse con las Administraciones a través de un punto de acceso general electrónico (letra a), ser asistido en el uso de medios electrónicos (letra b), utilizar las lenguas oficiales del territorio (letra c) y acceder a la información pública, archivos y registros según la normativa de transparencia (letra d).",
+      "El derecho de asistencia (letra b) es especialmente relevante para quienes tienen dificultades con los medios electrónicos. Por eso la Administración electrónica debe combinarse con canales de atención presencial.",
+      "Para un examen, la pregunta típica es qué derecho permite comunicarse a través de un punto de acceso general. Respuesta: el del artículo 13.a LPAC."
+     ]
+    },
+    {
+     "titulo": "11. El interesado en el procedimiento electrónico",
+     "parrafos": [
+      "El artículo 53.1.a LPAC reconoce al interesado el derecho a conocer en cualquier momento el estado de la tramitación, el sentido del silencio administrativo que corresponda, el órgano competente y los actos de trámite. Tiene también derecho a acceder y obtener copia de los documentos del procedimiento.",
+      "Quienes se relacionen por medios electrónicos tienen derecho a consultar esa información en el punto de acceso general electrónico, que funciona como portal de acceso. Se entiende cumplida la obligación de facilitar copias si se ponen a disposición en ese punto.",
+      "Para un examen, el derecho a conocer el estado del procedimiento es el núcleo de la transparencia en la tramitación electrónica (art. 53.1.a LPAC)."
+     ]
+    },
+    {
+     "titulo": "12. Registros electrónicos",
+     "parrafos": [
+      "El artículo 16.1 LPAC obliga a cada Administración a disponer de un Registro Electrónico General, en el que se asienta todo documento presentado o recibido en cualquier órgano, organismo o entidad dependiente. Los organismos pueden tener su propio registro, interoperable con el general.",
+      "El Registro Electrónico General funciona como portal de acceso a los registros de los organismos. Todos cumplen las garantías de la normativa de protección de datos. Las disposiciones de creación deben publicarse y su texto debe estar disponible en la sede de acceso al registro, que debe indicar la relación actualizada de trámites.",
+      "El artículo 16.2 LPAC exige que los asientos se anoten respetando el orden temporal de recepción o salida. Para un examen, el orden cronológico y la sede de acceso son los dos elementos típicos del registro electrónico."
+     ]
+    },
+    {
+     "titulo": "13. Archivo electrónico de documentos",
+     "parrafos": [
+      "El artículo 17.1 LPAC obliga a cada Administración a mantener un archivo electrónico único de los documentos de los procedimientos finalizados, en los términos de la normativa aplicable.",
+      "El artículo 17.2 LPAC exige que los documentos electrónicos se conserven en un formato que garantice su autenticidad, integridad y conservación, y su consulta con independencia del tiempo transcurrido. La eliminación requiere autorización conforme a la normativa aplicable.",
+      "El artículo 46 LRJSP complementa esta regla: todos los documentos de las actuaciones se almacenan por medios electrónicos, salvo que no sea posible, y los actos que afectan a derechos deben conservarse en soportes que aseguren su identidad e integridad."
+     ]
+    },
+    {
+     "titulo": "14. Copias auténticas y documentos aportados",
+     "parrafos": [
+      "El artículo 27.1 LPAC establece que cada Administración determina los órganos competentes para expedir copias auténticas de documentos públicos o privados. Las copias auténticas de documentos privados solo surten efectos administrativos. Las copias realizadas por una Administración tienen validez en las restantes.",
+      "El artículo 28.1 LPAC obliga a los interesados a aportar los datos y documentos exigidos por la normativa, y les permite aportar cualquier otro que estimen conveniente.",
+      "Para un examen, la diferencia clave es que la copia auténtica tiene validez en otras Administraciones (art. 27.1 LPAC), y que el interesado no tiene que aportar lo que ya tiene la Administración (art. 28.2 LPAC)."
+     ]
+    },
+    {
+     "titulo": "15. La actuación administrativa automatizada",
+     "parrafos": [
+      "El artículo 41.1 LRJSP define la actuación automatizada como la realizada íntegramente por medios electrónicos en el marco de un procedimiento, sin intervención directa de un empleado público.",
+      "El artículo 41.2 LRJSP exige establecer previamente los órganos responsables de las especificaciones, la programación, el mantenimiento, la supervisión y el control de calidad del sistema, y, en su caso, de su auditoría.",
+      "Para un examen, la automatización no exime de responsabilidad: debe estar prevista y tener responsables identificados (art. 41.2 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "16. Seguridad, privacidad y protección de datos",
+     "parrafos": [
+      "El artículo 156.2 LRJSP sitúa la seguridad en el centro de la Administración electrónica: el Esquema Nacional de Seguridad fija la política de seguridad y los requisitos mínimos para proteger la información tratada.",
+      "La privacidad se regula en el Reglamento (UE) 2016/679 y en la Ley Orgánica 3/2018. El artículo 1.a de esta ley, de protección de datos y garantía de los derechos digitales, declara que su objeto es adaptar el ordenamiento jurídico al reglamento europeo. El artículo 16.1 LPAC exige que los registros cumplan las garantías de protección de datos.",
+      "Para un examen, la seguridad protege la información frente a terceros; la privacidad, los derechos de las personas sobre sus datos. Son dos cosas distintas que la Administración debe atender a la vez."
+     ]
+    },
+    {
+     "titulo": "17. La ciudadanía digital y la brecha digital",
+     "parrafos": [
+      "La ciudadanía digital es la capacidad de las personas para relacionarse con la Administración y ejercer sus derechos por medios electrónicos. Requiere identificación, acceso a la información y asistencia cuando la persona no puede utilizar los medios por sí misma.",
+      "El artículo 13.b LPAC reconoce el derecho a ser asistido en el uso de medios electrónicos, y el artículo 13.a LPAC el de comunicarse a través del punto de acceso general. Estos derechos son la base de la ciudadanía digital en el marco jurídico.",
+      "Para un examen, la ciudadanía digital no supone prescindir de los canales presenciales: la asistencia es un derecho (art. 13.b LPAC)."
+     ]
+    },
+    {
+     "titulo": "18. Transparencia y acceso a la información",
+     "parrafos": [
+      "El artículo 13.d LPAC reconoce el derecho de acceso a la información pública, archivos y registros de acuerdo con la Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno, y el resto del ordenamiento.",
+      "La Administración electrónica facilita la transparencia porque la información queda publicada y accesible en la sede o en el punto de acceso general. Su régimen detallado está en la ley de transparencia, que no se ha verificado en este tema.",
+      "Para un examen, la pregunta típica es dónde se ejerce el derecho de acceso en la vía electrónica. Respuesta: en el punto de acceso general, con la regulación de la ley de transparencia (arts. 13.a y 13.d LPAC)."
+     ]
+    },
+    {
+     "titulo": "19. El procedimiento electrónico de extremo a extremo",
+     "parrafos": [
+      "Un procedimiento electrónico completo comienza con la presentación de la solicitud en el registro electrónico de la Administración u organismo competente, sigue con la instrucción sobre documentos electrónicos y termina con la resolución notificada por medios electrónicos y el archivo del expediente. Cada fase deja huella en el sistema, lo que permite el seguimiento del interesado.",
+      "El artículo 16 LPAC garantiza que la presentación se anote en el registro con su orden temporal (art. 16.2 LPAC), y el artículo 17 LPAC que los documentos finalizados pasen al archivo electrónico en un formato que asegure su autenticidad e integridad. Entre ambos momentos, el interesado puede conocer el estado de la tramitación (art. 53.1.a LPAC).",
+      "Para un examen, la secuencia es: registro, instrucción, resolución y archivo. El ciudadano tiene derecho a conocer el estado en cada fase, y el archivo debe garantizar la autenticidad de lo archivado."
+     ]
+    },
+    {
+     "titulo": "20. Garantías y límites de la Administración electrónica",
+     "parrafos": [
+      "La Administración electrónica no puede sustituir las garantías del procedimiento. La relación electrónica es un medio, no un fin: la posibilidad de elegir el medio (art. 14.1 LPAC), la asistencia en el uso de los medios electrónicos (art. 13.b LPAC) y la identidad de quien actúa (art. 9 LPAC) son garantías que deben mantenerse.",
+      "La automatización tiene límites: solo puede utilizarse cuando existen órganos responsables de su especificación y control (art. 41.2 LRJSP), y debe respetar la protección de datos. La transmisión de datos entre Administraciones exige condiciones, protocolos y criterios funcionales o técnicos fijados previamente (art. 155 LRJSP).",
+      "Para un examen, la pregunta típica es qué límite tiene la automatización. Respuesta: la necesidad de órganos responsables y la sujeción a la protección de datos (arts. 41.2 LRJSP y 155 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "21. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir la sede electrónica con el portal de internet. La sede permite tramitar y su titular responde de su contenido (art. 38 LRJSP); el portal informa y da acceso (art. 39 LRJSP).",
+      "Confundir el ENI con el ENS. El primero se refiere a la interoperabilidad; el segundo, a la seguridad (art. 156 LRJSP).",
+      "Afirmar que el ciudadano siempre está obligado a relacionarse por medios electrónicos. Solo lo están los sujetos del artículo 14.2 LPAC.",
+      "Olvidar que la copia auténtica de un documento privado solo surte efectos administrativos (art. 27.1 LPAC).",
+      "Pensar que la actuación automatizada no requiere órganos responsables. Debe establecerlos previamente (art. 41.2 LRJSP).",
+      "Pensar que el titular de la sede no responde de los contenidos porque los publica un tercero. Responde de la integridad, veracidad y actualización de lo que ofrece (art. 38.2 LRJSP).",
+      "Confundir la asistencia con la obligación. La asistencia es un derecho de la persona (art. 13.b LPAC); la obligación de relacionarse electrónicamente se aplica solo a los sujetos del artículo 14.2 LPAC."
+     ]
+    },
+    {
+     "titulo": "22. Casos prácticos",
+     "parrafos": [
+      "Caso 1: un ciudadano presenta una solicitud en el registro electrónico de un organismo. El asiento se anota respetando el orden temporal de recepción (art. 16.2 LPAC), y la Administración no le pide documentos que ya obran en su poder (art. 28.2 LPAC).",
+      "Caso 2: una persona física quiere comunicarse por escrito en papel y no está obligada a la vía electrónica. Puede elegir el medio, y puede cambiarlo en cualquier momento (art. 14.1 LPAC).",
+      "Caso 3: un procedimiento finalizado debe conservarse. Los documentos electrónicos van al archivo electrónico único, en un formato que garantice autenticidad e integridad (art. 17 LPAC; art. 46 LRJSP).",
+      "Caso 4: un interesado pide que la Administración le facilite una copia auténtica de un documento privado que aportó. Esa copia solo surte efectos administrativos (art. 27.1 LPAC), y la Administración solo puede expedirla a través de los órganos competentes que cada Administración designe.",
+      "Caso 5: una persona mayor acude a una oficina de atención presencial porque no puede presentar su solicitud electrónicamente. Tiene derecho a ser asistida en el uso de los medios electrónicos (art. 13.b LPAC), sin que ello le impida elegir el medio de comunicación (art. 14.1 LPAC)."
+     ]
+    },
+    {
+     "titulo": "23. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué norma regula la sede electrónica? La LRJSP, en su artículo 38.",
+      "¿Qué registro debe tener cada Administración? Un Registro Electrónico General (art. 16.1 LPAC).",
+      "¿Qué asientos deben respetar el orden temporal? Los del registro electrónico (art. 16.2 LPAC).",
+      "¿Qué sistemas de firma prevé la actuación automatizada? El sello electrónico, el código seguro de verificación y los demás que cada Administración determine (art. 42 LRJSP).",
+      "¿Qué protege el Esquema Nacional de Seguridad? La información tratada, con principios básicos y requisitos mínimos (art. 156.2 LRJSP).",
+      "¿Qué derecho permite conocer el estado de la tramitación? El del artículo 53.1.a LPAC.",
+      "¿Qué garantiza el artículo 17.2 LPAC sobre los documentos electrónicos archivados? Su autenticidad, integridad, conservación y consulta con independencia del tiempo transcurrido.",
+      "¿Qué garantía tiene quien no puede usar medios electrónicos? El derecho a ser asistido en su uso (art. 13.b LPAC).",
+      "¿Qué norma regula el registro electrónico general de cada Administración? La LPAC, en su artículo 16."
+     ]
+    },
+    {
+     "titulo": "24. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema c14 sobre el procedimiento administrativo, porque la Administración electrónica es la forma de tramitar sus fases y plazos.",
+      "Se conecta con el tema c22 sobre sistemas informáticos, porque la tramitación electrónica depende de la arquitectura de sistemas, la seguridad y la interoperabilidad.",
+      "Se conecta con el tema c23 sobre sistemas de información, porque los registros, archivos y sistemas de gestión documental son sistemas de información de la Administración."
+     ]
+    },
+    {
+     "titulo": "25. Organización y responsabilidad en la Administración electrónica",
+     "parrafos": [
+      "La Administración electrónica exige decidir quién responde de cada parte del sistema. El titular de la sede electrónica responde de la integridad, veracidad y actualización de la información y de los servicios a los que se accede (art. 38.2 LRJSP). Esa responsabilidad se extiende a lo que se publica, no solo a lo que se tramita.",
+      "Para la actuación automatizada, el órgano responsable de las especificaciones y del control debe estar identificado de antemano (art. 41.2 LRJSP). Y el sistema de firma que se use (sello o código seguro de verificación, art. 42 LRJSP) debe ser el que la Administración haya previsto para cada caso.",
+      "Para un examen, la pregunta típica es quién responde de los contenidos de la sede. Respuesta: su titular (art. 38.2 LRJSP). Y quién responde de una actuación automatizada: el órgano identificado de antemano (art. 41.2 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "26. Claves para el examen",
+     "parrafos": [
+      "Marco: LAJA art. 7; LPAC arts. 9, 13, 14, 16, 17, 27, 28 y 53; LRJSP arts. 3, 38, 39, 41, 42, 46, 155, 156 y 157.",
+      "Identificación y relación: certificados cualificados (art. 9 LPAC); derecho a elegir medio (art. 14.1); obligados (art. 14.2).",
+      "Registro y archivo: Registro Electrónico General (art. 16 LPAC); archivo electrónico único (art. 17 LPAC); archivo electrónico (art. 46 LRJSP).",
+      "Sede, portal y automatización: sede (art. 38 LRJSP); portal (art. 39); actuación automatizada (art. 41); firma (art. 42).",
+      "Seguridad e interoperabilidad: ENI y ENS (art. 156 LRJSP); transmisión de datos (art. 155); reutilización de aplicaciones (art. 157).",
+      "Organización: responsable de la sede (art. 38.2 LRJSP) y órganos previamente identificados para la automatización (art. 41.2 LRJSP).",
+      "Para un examen, conviene citar el artículo exacto de la LPAC o de la LRJSP y no solo el principio general, porque las preguntas suelen pedir el precepto."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 39/2015, del Procedimiento Administrativo Común (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+     "pdf": "leyes/BOE-A-2015-10565.pdf"
+    },
+    {
+     "nombre": "Ley 40/2015, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+     "pdf": "leyes/BOE-A-2015-10566.pdf"
+    },
+    {
+     "nombre": "Ley 9/2007, de la Administración de la Junta de Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19819",
+     "pdf": "leyes/BOE-A-2007-19819.pdf"
+    },
+    {
+     "nombre": "Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+     "pdf": "leyes/BOE-A-2018-16673.pdf"
     }
    ]
   },
