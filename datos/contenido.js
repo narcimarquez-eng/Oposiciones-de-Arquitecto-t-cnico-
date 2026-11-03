@@ -4881,6 +4881,730 @@ window.DATOS_ESTUDIO = {
     }
    ]
   },
+  "c13": {
+   "resumen": [
+    {
+     "titulo": "Órganos y competencia",
+     "puntos": [
+      "Órgano administrativo: unidad con funciones con efectos frente a terceros o con actuación preceptiva (art. 5.1 LRJSP).",
+      "La competencia es irrenunciable (art. 8.1 LRJSP); se puede delegar (art. 9.1) o avocar (art. 10.1)."
+     ]
+    },
+    {
+     "titulo": "Acto administrativo",
+     "puntos": [
+      "Producido por el órgano competente con los requisitos y el procedimiento establecidos (art. 34.1 LPAC).",
+      "Motivación obligatoria en los actos que limitan derechos o intereses legítimos (art. 35.1). Forma escrita (art. 36.1)."
+     ]
+    },
+    {
+     "titulo": "Eficacia",
+     "puntos": [
+      "Presunción de validez; efectos desde la fecha en que se dictan (art. 39.1).",
+      "Notificación en diez días con el texto íntegro y los recursos (art. 40.2). Publicación cuando lo establece la norma o lo aconsejan razones de interés público (art. 45.1)."
+     ]
+    },
+    {
+     "titulo": "Silencio",
+     "puntos": [
+      "En procedimientos a solicitud, el vencimiento del plazo sin resolución legitima para entender estimada la solicitud (art. 24.1 LPAC).",
+      "En procedimientos de oficio, la obligación de resolver subsiste (art. 25.1)."
+     ]
+    },
+    {
+     "titulo": "Invalidez y revisión",
+     "puntos": [
+      "Nulidad de pleno derecho (art. 47.1), anulabilidad (art. 48.1), convalidación del anulable (art. 52.1).",
+      "Revisión de oficio con dictamen del Consejo de Estado o del órgano consultivo autonómico (art. 106.1); lesividad (art. 107.1); revocación de actos de gravamen (art. 109.1)."
+     ]
+    },
+    {
+     "titulo": "Inderogabilidad singular",
+     "puntos": [
+      "Las resoluciones particulares no pueden vulnerar una disposición general, aunque procedan de un órgano de igual o superior jerarquía (art. 37.1 LPAC). Son nulas si vulneran un reglamento (art. 37.2)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LPAC",
+     "rol": "Norma principal del tema: actos, eficacia, silencio, invalidez y revisión (arts. 21 a 52, 106 a 110)"
+    },
+    {
+     "id": "LRJSP",
+     "rol": "Complementaria: órganos, competencia, delegación y avocación (arts. 5 a 24)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Complementaria: Consejo Consultivo como órgano de la revisión (art. 129.1)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "¿Qué es un órgano administrativo según el art. 5.1 LRJSP?",
+     "opciones": [
+      "Unidad con funciones con efectos frente a terceros o con actuación preceptiva",
+      "Cualquier persona que trabaje en la Administración",
+      "Las empresas públicas",
+      "Los tribunales"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 5.1 LRJSP define como órganos administrativos las unidades a las que se atribuyen funciones con efectos jurídicos frente a terceros, o cuya actuación tiene carácter preceptivo.",
+     "referencia": "Art. 5.1 LRJSP"
+    },
+    {
+     "pregunta": "¿Es renunciable la competencia de un órgano?",
+     "opciones": [
+      "Sí, siempre",
+      "No, es irrenunciable",
+      "Solo en materia tributaria",
+      "Solo si lo acuerda el Pleno"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 8.1 LRJSP establece que la competencia es irrenunciable y se ejerce por los órganos que la tienen atribuida como propia.",
+     "referencia": "Art. 8.1 LRJSP"
+    },
+    {
+     "pregunta": "¿Qué supone la delegación de competencias?",
+     "opciones": [
+      "Transfiere la titularidad",
+      "Solo puede hacerlo un juez",
+      "Transfiere el ejercicio a otro órgano de la misma Administración",
+      "Es una avocación"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 9.1 LRJSP permite delegar el ejercicio de las competencias en otros órganos de la misma Administración.",
+     "referencia": "Art. 9.1 LRJSP"
+    },
+    {
+     "pregunta": "¿Quién puede avocar el conocimiento de un asunto?",
+     "opciones": [
+      "El órgano inferior",
+      "Los órganos superiores",
+      "El interesado",
+      "El Tribunal Constitucional"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 10.1 LRJSP permite a los órganos superiores avocar para sí asuntos de sus órganos dependientes, por razones técnicas, económicas, sociales, jurídicas o territoriales.",
+     "referencia": "Art. 10.1 LRJSP"
+    },
+    {
+     "pregunta": "¿Por qué órgano se producen los actos administrativos?",
+     "opciones": [
+      "Cualquier funcionario",
+      "El interesado",
+      "El Parlamento",
+      "El órgano competente, con requisitos y procedimiento"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 34.1 LPAC establece que los actos se producirán por el órgano competente, ajustándose a los requisitos y al procedimiento establecido.",
+     "referencia": "Art. 34.1 LPAC"
+    },
+    {
+     "pregunta": "¿Qué actos deben motivarse?",
+     "opciones": [
+      "Los de trámite sin efectos",
+      "Los que limitan derechos o intereses legítimos",
+      "Los de simple tramitación",
+      "Ninguno"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 35.1.a) LPAC exige motivar los actos que limiten derechos subjetivos o intereses legítimos, junto con otros supuestos del mismo precepto.",
+     "referencia": "Art. 35.1 LPAC"
+    },
+    {
+     "pregunta": "¿Desde cuándo producen efectos los actos administrativos?",
+     "opciones": [
+      "Desde la fecha en que se dictan, salvo disposición en contrario",
+      "Desde su notificación siempre",
+      "Desde su publicación en el BOE",
+      "Al año de dictarse"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 39.1 LPAC establece que los actos se presumen válidos y producen efectos desde la fecha en que se dictan, salvo que dispongan otra cosa.",
+     "referencia": "Art. 39.1 LPAC"
+    },
+    {
+     "pregunta": "En un procedimiento iniciado a solicitud, ¿qué efecto tiene el vencimiento del plazo sin resolución expresa?",
+     "opciones": [
+      "Legitima para entender estimada la solicitud",
+      "Implica desestimación siempre",
+      "Supone caducidad",
+      "Obliga a iniciar de oficio"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 24.1 LPAC establece que el vencimiento del plazo sin resolución expresa legitima al interesado para entender estimada su solicitud, salvo norma en contrario con rango de ley o de Derecho de la Unión.",
+     "referencia": "Art. 24.1 LPAC"
+    },
+    {
+     "pregunta": "¿Qué requisito exige la revisión de oficio de un acto nulo?",
+     "opciones": [
+      "Basta la decisión del órgano",
+      "Un dictamen de la Cámara de Cuentas",
+      "No se necesita dictamen",
+      "Un dictamen favorable del Consejo de Estado u órgano consultivo equivalente de la Comunidad"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 106.1 LPAC exige dictamen favorable del Consejo de Estado u órgano consultivo equivalente de la Comunidad Autónoma. En Andalucía, el Consejo Consultivo.",
+     "referencia": "Art. 106.1 LPAC; art. 129.1 Estatuto"
+    },
+    {
+     "pregunta": "¿Qué establece el principio de inderogabilidad singular del reglamento?",
+     "opciones": [
+      "Puede vulnerar un reglamento si es de igual rango",
+      "Solo se aplica a los reglamentos estatales",
+      "Deroga el reglamento",
+      "No puede vulnerarse un reglamento vigente por un acto particular, aunque proceda de un órgano de igual o superior jerarquía"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 37.1 LPAC establece que las resoluciones de carácter particular no pueden vulnerar lo establecido en una disposición general, y el art. 37.2 declara nulas las que la vulneren.",
+     "referencia": "Art. 37 LPAC"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Los órganos administrativos: concepto y clases",
+     "parrafos": [
+      "El artículo 5.1 LRJSP define los órganos administrativos como las unidades administrativas a las que se atribuyen funciones que tienen efectos jurídicos frente a terceros, o cuya actuación tiene carácter preceptivo. Esta definición es la clave del concepto: no todo departamento es órgano, sino solo aquel que tiene funciones de efectos externos o cuya intervención es obligatoria en el procedimiento.",
+      "El artículo 5.2 LRJSP atribuye a cada Administración pública la competencia para delimitar, en su respectivo ámbito, la configuración de sus órganos. El Estado, las Comunidades Autónomas y las entidades locales crean y regulan sus propios órganos, dentro de los principios de la ley.",
+      "Los órganos se clasifican en unipersonales y colegiados. Los unipersonales están dirigidos por una sola persona, como el ministro, el consejero o el alcalde. Los colegiados están formados por varios miembros que deciden por acuerdo, y tienen reglas propias de constitución, convocatoria, sesiones y actas (arts. 15 a 22 LRJSP). En los colegiados, el secretario, las convocatorias y las actas garantizan la validez de las decisiones.",
+      "La LRJSP regula también los órganos consultivos (art. 7), que emiten dictámenes preceptivos o facultativos y no deciden. El artículo 22 se refiere a la creación, modificación y supresión de órganos colegiados.",
+      "Un elemento de organización que afecta a la actuación de los órganos es la relación jerárquica. El artículo 6.1 LRJSP permite a los órganos administrativos dirigir las actividades de sus órganos jerárquicamente dependientes mediante instrucciones y órdenes de servicio."
+     ]
+    },
+    {
+     "titulo": "2. La competencia: concepto y criterios de delimitación",
+     "parrafos": [
+      "La competencia es el conjunto de funciones que el ordenamiento atribuye a un órgano para ser ejercidas como propias. El artículo 8.1 LRJSP establece que la competencia es irrenunciable y se ejerce por los órganos que la tienen atribuida como propia, salvo los casos de delegación o avocación en los términos previstos en la ley.",
+      "La doctrina distingue varios criterios para delimitar la competencia de cada órgano: la materia, el territorio, la jerarquía y, en algunos casos, el tiempo. La materia indica el asunto sobre el que el órgano decide; el territorio, el ámbito geográfico en el que actúa; la jerarquía, la posición del órgano en la estructura de la Administración. Estos criterios no aparecen en un único precepto y deben combinarse en cada caso.",
+      "La irrenunciabilidad de la competencia (art. 8.1 LRJSP) es un principio importante. Un órgano no puede renunciar a una competencia que la ley le atribuye, salvo que se utilice el mecanismo previsto en la propia ley, como la delegación.",
+      "El artículo 9.1 LRJSP regula la delegación de competencias: los órganos pueden delegar el ejercicio de sus competencias en otros órganos de la misma Administración, aunque no sean jerárquicamente dependientes. La delegación no transfiere la titularidad, solo el ejercicio.",
+      "La avocación (art. 10.1 LRJSP) permite a los órganos superiores avocar para sí el conocimiento de uno o varios asuntos que corresponden ordinariamente a sus órganos dependientes, cuando circunstancias de índole técnica, económica, social, jurídica o territorial lo hagan conveniente. Es una excepción a la regla de la competencia propia.",
+      "Cuando un órgano se considera incompetente, debe remitir directamente las actuaciones al órgano que considere competente y notificarlo a los interesados (art. 14.1 LRJSP). Es el mecanismo de decisión sobre competencia que evita que el procedimiento se paralice por una cuestión de atribución."
+     ]
+    },
+    {
+     "titulo": "3. El acto administrativo: concepto, clases y elementos",
+     "parrafos": [
+      "El acto administrativo es la declaración de voluntad, de juicio, de conocimiento o de deseo que una Administración pública realiza en ejercicio de una potestad administrativa distinta de la potestad reglamentaria. Produce efectos jurídicos sobre una situación concreta.",
+      "El artículo 34.1 LPAC establece que los actos administrativos se producirán por el órgano competente, ajustándose a los requisitos y al procedimiento establecido. Esa frase contiene los cuatro elementos subjetivos y formales: el sujeto (el órgano competente), el procedimiento, la forma y el contenido.",
+      "El contenido del acto debe ajustarse a lo dispuesto en la norma aplicable (art. 34.2 LPAC). El objeto es la decisión misma, que debe ser posible, determinada y lícita, y su finalidad debe coincidir con la que la norma atribuye a la potestad. La desviación de poder, que el artículo 48.1 LPAC menciona como causa de anulabilidad, es precisamente el ejercicio de la potestad para una finalidad distinta.",
+      "Los actos pueden clasificarse según su función y sus efectos. Los actos favorables reconocen derechos o facultades al destinatario, y los actos de gravamen o desfavorables le imponen cargas u obligaciones. La LPAC regula la revocación de los actos de gravamen (art. 109.1) y la declaración de lesividad de los actos favorables anulables (art. 107.1), lo que muestra la importancia de esta distinción.",
+      "Para un examen, la clasificación habitual distingue también entre actos definitivos, que ponen fin al procedimiento, y actos de trámite, que lo impulsan o preparan. La diferencia tiene relevancia para el recurso que procede contra ellos, lo que se estudia en el tema de procedimiento."
+     ]
+    },
+    {
+     "titulo": "4. La forma de los actos y la motivación",
+     "parrafos": [
+      "El artículo 36.1 LPAC establece que los actos administrativos se producen por escrito, salvo que su naturaleza exija otra forma más adecuada. La forma escrita garantiza la prueba del acto, su notificación y el control posterior por el interesado y por los tribunales.",
+      "La motivación es la exposición de las razones que justifican el acto. El artículo 35.1 LPAC exige motivar, con sucinta referencia de hechos y fundamentos de derecho, los actos que limiten derechos subjetivos o intereses legítimos; los que resuelvan revisiones de oficio, recursos administrativos, procedimientos de arbitraje o declaren su inadmisión; los que se separen del criterio seguido en actuaciones precedentes o del dictamen de órganos consultivos; y los acuerdos de suspensión de actos.",
+      "La motivación tiene una función doble. Permite al interesado conocer las razones de la decisión y recurrirlas, y permite al juez controlar la legalidad y la razonabilidad del acto. Por eso, un acto que limita derechos sin motivación es un supuesto típico de anulabilidad.",
+      "Para un examen, la pregunta habitual es qué actos deben motivarse. La respuesta es la lista del artículo 35.1 LPAC, que debe leerse completa. La motivación no sustituye a la ley aplicable: justifica por qué se aplica."
+     ]
+    },
+    {
+     "titulo": "5. La eficacia de los actos: notificación y publicación",
+     "parrafos": [
+      "El artículo 39.1 LPAC establece que los actos sujetos al Derecho administrativo se presumen válidos y producen efectos desde la fecha en que se dictan, salvo que en ellos se disponga otra cosa. La presunción de validez es una regla general: el acto produce efectos aunque tenga un vicio, hasta que se anule.",
+      "El artículo 39.2 LPAC establece que la eficacia queda demorada cuando así lo exige el contenido del acto o queda supeditada a condición. Es el caso de los actos que sólo producen efectos desde una fecha futura o cuando se cumple una condición.",
+      "La notificación es el acto por el que se pone en conocimiento del interesado el contenido de la resolución. El órgano que dicta el acto lo notifica a los interesados cuyos derechos o intereses resulten afectados (art. 40.1 LPAC). El plazo para notificar es de diez días desde la fecha en que el acto ha sido dictado (art. 40.2).",
+      "El artículo 40.2 LPAC exige que la notificación contenga el texto íntegro de la resolución, con indicación de si pone fin o no a la vía administrativa, la expresión de los recursos que procedan y el órgano ante el que hubieran de presentarse. Es el contenido mínimo que hace efectiva la defensa del interesado.",
+      "La publicación es el medio alternativo o complementario de dar a conocer el acto. El artículo 45.1 LPAC establece que los actos se publican cuando así lo disponen las normas reguladoras de cada procedimiento o cuando lo aconsejan razones de interés público apreciadas por el órgano competente. Su efecto es el de dar a conocer el acto, en los casos que la ley prevé.",
+      "Para un examen, la diferencia básica es que la notificación se dirige al interesado concreto y la publicación a un público general. Ambas tienen su régimen propio en los artículos 40 a 46 LPAC."
+     ]
+    },
+    {
+     "titulo": "6. La obligación de resolver y el silencio administrativo",
+     "parrafos": [
+      "El artículo 21.1 LPAC establece que la Administración está obligada a dictar resolución expresa y a notificarla en todos los procedimientos, cualquiera que sea su forma de iniciación. El silencio es la excepción a esa obligación, y su régimen se regula en los artículos 24 y 25.",
+      "El silencio administrativo en los procedimientos iniciados a solicitud del interesado (art. 24.1 LPAC) se produce cuando vence el plazo máximo sin que se haya notificado resolución expresa. En ese caso, el vencimiento legitima al interesado para entender estimada su solicitud, salvo que una norma con rango de ley, una norma de la Unión Europea o de Derecho internacional aplicable en España establezcan lo contrario.",
+      "El silencio tiene efecto desestimatorio en algunos supuestos. El artículo 24.1 LPAC menciona el ejercicio del derecho de petición del artículo 29 CE, y el artículo 24 regula los demás casos en que la ley lo establece. La regla general, sin embargo, es el silencio estimatorio.",
+      "Cuando el procedimiento se inicia de oficio, el artículo 25.1 LPAC establece que el vencimiento del plazo sin resolución expresa no exime a la Administración de su obligación de resolver. El efecto depende del tipo de procedimiento: en los que pudieran derivarse derechos o situaciones favorables, los interesados que hubieran comparecido pueden entender desestimadas sus pretensiones por silencio.",
+      "El régimen del silencio en la Comunidad Autónoma de Andalucía se apoya en la LPAC y en la normativa autonómica de organización y procedimiento. El artículo 133.1 del Estatuto exige a la Administración de la Junta actuar con simplificación de procedimientos, pero la norma concreta que regula el silencio en la Junta no está en el catálogo de normas verificadas de este repositorio, por lo que debe comprobarse en el BOJA antes de citarla.",
+      "Para un examen, conviene distinguir el silencio estimatorio del desestimatorio, el procedimiento iniciado a solicitud del procedimiento de oficio, y la obligación de resolver que subsiste en todos los casos."
+     ]
+    },
+    {
+     "titulo": "7. Invalidez de los actos: nulidad, anulabilidad y excepciones",
+     "parrafos": [
+      "El artículo 47.1 LPAC establece los supuestos de nulidad de pleno derecho: los actos que lesionen derechos y libertades susceptibles de amparo constitucional, los dictados por órgano manifiestamente incompetente por razón de la materia o del territorio, los de contenido imposible, y los constitutivos de infracción penal o dictados como consecuencia de ella.",
+      "El artículo 48.1 LPAC establece que son anulables los actos que incurran en cualquier infracción del ordenamiento jurídico, incluida la desviación de poder. El artículo 48.2 precisa que el defecto de forma solo determina la anulabilidad cuando el acto carece de los requisitos formales indispensables para alcanzar su fin o da lugar a indefensión.",
+      "La diferencia entre nulidad y anulabilidad es de gravedad. El acto nulo no produce efectos y no puede convalidarse. El acto anulable produce efectos hasta que se anula, y puede convalidarse (art. 52.1 LPAC). Esa distinción determina la vía de anulación y la posibilidad de subsanación.",
+      "El artículo 49 LPAC limita la extensión de la nulidad o anulabilidad. La nulidad de un acto no implica la de los sucesivos que sean independientes del primero, y la nulidad en parte no afecta a la parte válida si es separable. Es una garantía de conservación del acto.",
+      "El artículo 50 LPAC regula la conversión de actos viciados: los actos nulos o anulables que contengan los elementos constitutivos de otro acto distinto producen los efectos de éste. El artículo 51 regula la conservación de actos y trámites: el órgano que declara la nulidad debe conservar los actos y trámites no afectados por el vicio.",
+      "El artículo 52.1 LPAC permite a la Administración convalidar los actos anulables, subsanando los vicios de que adolezcan. La convalidación produce efectos desde su fecha, salvo la retroactividad permitida por el artículo 39.3 LPAC. Los actos nulos no son convalidables."
+     ]
+    },
+    {
+     "titulo": "8. La revisión de oficio y la revocación",
+     "parrafos": [
+      "El artículo 106.1 LPAC permite a las Administraciones revisar de oficio sus disposiciones y actos nulos en cualquier momento, por iniciativa propia o a solicitud de interesado. La revisión exige dictamen favorable del Consejo de Estado u órgano consultivo equivalente de la Comunidad Autónoma. En Andalucía, ese órgano es el Consejo Consultivo (art. 129.1 del Estatuto), que es el superior órgano consultivo de la Junta.",
+      "El artículo 107.1 LPAC regula la declaración de lesividad. Las Administraciones pueden impugnar ante la jurisdicción contencioso-administrativa los actos favorables para los interesados que sean anulables (art. 48), previa declaración de lesividad para el interés público. La declaración de lesividad es el paso previo a la impugnación judicial de un acto propio.",
+      "El artículo 109.1 LPAC permite a las Administraciones revocar sus actos de gravamen o desfavorables, mientras no haya transcurrido el plazo de prescripción, siempre que la revocación no constituya dispensa o exención no permitida por las leyes y no sea contraria al principio de igualdad, al interés público o al ordenamiento jurídico.",
+      "Para un examen, la diferencia básica es la siguiente. La revisión de oficio se refiere a actos nulos (y disposiciones nulas). La declaración de lesividad se refiere a actos favorables anulables que la Administración quiere anular. La revocación se refiere a actos desfavorables que la Administración deja sin efecto por razones de oportunidad o de legalidad sobrevenida, dentro de los límites del artículo 109 LPAC.",
+      "Los límites de la revisión de oficio se regulan en el artículo 110 LPAC, que no se ha incluido en este desarrollo por no haberse comprobado su texto. Debe leerse completo antes de citarlo."
+     ]
+    },
+    {
+     "titulo": "9. La inderogabilidad singular del reglamento",
+     "parrafos": [
+      "El artículo 37.1 LPAC establece que las resoluciones administrativas de carácter particular no pueden vulnerar lo establecido en una disposición de carácter general, aunque procedan de un órgano de igual o superior jerarquía al que dictó la disposición general. Es el principio de inderogabilidad singular del reglamento.",
+      "El artículo 37.2 LPAC añade que son nulas las resoluciones administrativas que vulneren lo establecido en una disposición reglamentaria, y así las que incurran en los supuestos que el propio precepto enumera. La nulidad es la consecuencia de la infracción del reglamento por un acto particular.",
+      "La inderogabilidad singular protege la igualdad y la seguridad jurídica. Un reglamento que se aplica de forma general no puede ser desconocido en un caso concreto por un acto particular, salvo que la norma misma permita la excepción. Para un examen, la pregunta típica es si un acto que se separa de un reglamento es válido. La respuesta es que no, y que es nulo.",
+      "Conviene distinguirla de la derogación: un reglamento que se deroga desaparece del ordenamiento, mientras que la inderogabilidad singular impide que un acto concreto lo contradiga mientras esté en vigor."
+     ]
+    },
+    {
+     "titulo": "11. Caso práctico: nulidad, anulabilidad y revisión",
+     "parrafos": [
+      "Caso 1: un ayuntamiento concede una licencia de obras a un órgano que, por razón de la materia, no es competente. Como la incompetencia es manifiesta por razón de la materia, el acto es nulo de pleno derecho (art. 47.1.b LPAC). No produce efectos y no es convalidable.",
+      "Caso 2: la misma licencia se concede por el órgano competente, pero sin motivar la decisión que limita un derecho. La falta de motivación del artículo 35.1.a LPAC es un vicio que determina la anulabilidad, no la nulidad, salvo que concurra alguno de los supuestos del artículo 47.1. El acto anulable produce efectos hasta que se anula y puede convalidarse (art. 52.1).",
+      "Caso 3: un acto favorable para un particular se considera anulable. La Administración no puede anularlo por sí misma sin más. Debe declarar la lesividad para el interés público (art. 107.1) e impugnar el acto ante la jurisdicción contencioso-administrativa. Si el acto fuera nulo, cabría la revisión de oficio con dictamen previo (art. 106.1).",
+      "Caso 4: la Administración quiere dejar sin efecto una sanción que impuso y que ya no es conveniente. Es un acto de gravamen; la Administración puede revocarlo mientras no haya prescrito, siempre que la revocación no sea contraria al principio de igualdad, al interés público o al ordenamiento (art. 109.1)."
+     ]
+    },
+    {
+     "titulo": "12. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir la nulidad con la anulabilidad. El acto nulo no produce efectos y no es convalidable; el anulable produce efectos hasta que se anula y puede convalidarse (arts. 47, 48 y 52 LPAC).",
+      "Afirmar que el silencio es siempre desestimatorio. La regla general del procedimiento iniciado a solicitud es el silencio estimatorio (art. 24.1 LPAC), con las excepciones que la ley establezca.",
+      "Olvidar la diferencia entre delegación y avocación. La delegación la hace el órgano que tiene la competencia en favor de otro (art. 9.1 LRJSP); la avocación la hace el superior sobre asuntos de sus inferiores (art. 10.1 LRJSP).",
+      "Citar la revisión de oficio sin el dictamen previo del Consejo de Estado o del órgano consultivo autonómico (art. 106.1 LPAC). En Andalucía, el órgano es el Consejo Consultivo (art. 129.1 del Estatuto).",
+      "Confundir la inderogabilidad singular con la derogación. La inderogabilidad impide que un acto concreto contradiga un reglamento vigente; la derogación hace desaparecer el reglamento."
+     ]
+    },
+    {
+     "titulo": "13. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué órganos son administrativos según el art. 5.1 LRJSP? Las unidades a las que se atribuyen funciones con efectos jurídicos frente a terceros, o cuya actuación tiene carácter preceptivo.",
+      "¿Es renunciable la competencia? No. Es irrenunciable y se ejerce por el órgano que la tiene atribuida como propia, salvo delegación o avocación (art. 8.1 LRJSP).",
+      "¿Qué actos deben motivarse? Los que limitan derechos o intereses legítimos, los que resuelven revisiones, recursos o arbitrajes, los que se separan de un criterio anterior o de un dictamen, y los acuerdos de suspensión (art. 35.1 LPAC).",
+      "¿Cuándo produce efectos un acto? Desde la fecha en que se dicta, salvo que disponga otra cosa; la eficacia puede demorarse por su contenido o por una condición (art. 39 LPAC).",
+      "¿Cuál es el plazo para notificar un acto? Diez días desde que se dicta (art. 40.2 LPAC).",
+      "¿Qué supone el silencio en un procedimiento iniciado a solicitud? Que el vencimiento del plazo sin resolución legitima para entender estimada la solicitud, salvo norma en contra con rango de ley o de Derecho de la Unión (art. 24.1 LPAC)."
+     ]
+    },
+    {
+     "titulo": "14. Competencia y validez del acto",
+     "parrafos": [
+      "La competencia es un requisito del acto. El artículo 34.1 LPAC exige que el acto se produzca por el órgano competente. Si el órgano carece de competencia por razón de la materia o del territorio, el vicio es, en los casos más graves, de nulidad (art. 47.1.b LPAC).",
+      "Cuando la incompetencia no es manifiesta, o cuando el acto se dicta en el ejercicio de una delegación o avocación irregular, el vicio puede ser de anulabilidad. Conviene analizar si la norma de atribución es clara y si el órgano actuó dentro de los límites que la ley fija.",
+      "Para resolver un caso, el orden es: primero, comprobar la competencia del órgano (art. 8 LRJSP); después, si hubo delegación, avocación o suplencia en los términos de la ley (arts. 9, 10 y 13 LRJSP); y finalmente, la validez del acto según la gravedad del vicio (arts. 47 y 48 LPAC)."
+     ]
+    },
+    {
+     "titulo": "15. Los órganos colegiados en la adopción de acuerdos",
+     "parrafos": [
+      "Los acuerdos de los órganos colegiados se adoptan en sesión convocada conforme a las reglas del artículo 17 LRJSP, con las actas que exige el artículo 18. La convocatoria, el quórum y la mayoría son requisitos de validez del acuerdo.",
+      "Cuando el órgano colegiado adopta un acto, el acuerdo es el acto administrativo, y debe cumplir los requisitos de forma, motivación y competencia del presente tema. Un acuerdo adoptado sin convocatoria regular puede ser anulable, y su gravedad depende del defecto concreto.",
+      "Para un examen, conviene recordar que el órgano colegiado decide por acuerdo y que el secretario y el acta garantizan la certeza de lo acordado (arts. 16 y 18 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "10. Claves para el examen",
+     "parrafos": [
+      "Órganos: unidades con funciones de efectos externos o actuación preceptiva (art. 5.1 LRJSP); unipersonales y colegiados.",
+      "Competencia: irrenunciable (art. 8.1 LRJSP); delegación (art. 9.1), avocación (art. 10.1), conflictos (art. 14.1).",
+      "Acto: producido por órgano competente, con requisitos y procedimiento (art. 34.1 LPAC); motivación (art. 35.1); forma escrita (art. 36.1).",
+      "Eficacia: presunción de validez y efectos desde la fecha (art. 39.1); notificación en diez días con contenido mínimo (art. 40); publicación (art. 45.1).",
+      "Silencio: estimatorio por regla general en procedimientos a solicitud (art. 24.1); la obligación de resolver subsiste (art. 21.1 y 25.1).",
+      "Invalidez: nulidad (art. 47.1), anulabilidad (art. 48.1); convalidación del anulable (art. 52.1); conservación y conversión (arts. 50 y 51).",
+      "Revisión: de oficio con dictamen del Consejo de Estado o del Consejo Consultivo (art. 106.1); lesividad (art. 107.1); revocación de actos de gravamen (art. 109.1).",
+      "Reglamento: inderogabilidad singular (art. 37 LPAC); los actos que lo vulneran son nulos (art. 37.2)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 39/2015, del Procedimiento Administrativo Común (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+     "pdf": "leyes/BOE-A-2015-10565.pdf"
+    },
+    {
+     "nombre": "Ley 40/2015, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+     "pdf": "leyes/BOE-A-2015-10566.pdf"
+    },
+    {
+     "nombre": "Ley Orgánica 2/2007, de reforma del Estatuto de Autonomía para Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
+     "pdf": "leyes/BOE-A-2007-5825.pdf"
+    }
+   ]
+  },
+  "c14": {
+   "resumen": [
+    {
+     "titulo": "Naturaleza y principios",
+     "puntos": [
+      "Procedimiento común a todas las Administraciones, incluido el sancionador (art. 1.1 LPAC).",
+      "Impulso de oficio y celeridad (art. 71.1); concentración de trámites (art. 72); principios de actuación (art. 3.2 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "Interesados, abstención y recusación",
+     "puntos": [
+      "Interesados: titulares de derechos o intereses legítimos, o quienes tienen derechos afectados (art. 4.1 LPAC).",
+      "Abstención: la inicia el funcionario o autoridad (art. 23 LRJSP). Recusación: la pide el interesado (art. 24 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "Derechos",
+     "puntos": [
+      "Derechos del interesado: conocer el estado de la tramitación, acceder al expediente, no presentar documentos ya en poder de la Administración, alegar y aportar documentos (art. 53.1 LPAC).",
+      "Derechos de las personas: tratamiento respetuoso, protección de datos, medios electrónicos, lengua oficial (art. 13 LPAC)."
+     ]
+    },
+    {
+     "titulo": "Fases",
+     "puntos": [
+      "Iniciación: de oficio o a solicitud; subsanación en diez días (art. 68.1 LPAC).",
+      "Instrucción: alegaciones (art. 76), prueba (art. 77), informes (art. 80); audiencia de diez a quince días (art. 82.2).",
+      "Terminación: resolución, desistimiento, renuncia, caducidad (art. 84.1); caducidad a los tres meses (art. 95.1)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LPAC",
+     "rol": "Norma principal del tema (arts. 1, 4, 13, 53, 54 a 95)"
+    },
+    {
+     "id": "LRJSP",
+     "rol": "Complementaria: abstención y recusación (arts. 23 y 24)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Complementaria: principios de la Junta y procedimiento (arts. 133 a 138)"
+    },
+    {
+     "id": "CE",
+     "rol": "Complementaria: arts. 103.1 y 105 (eficacia, audiencia)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 4.1 LPAC, ¿quién es interesado en el procedimiento?",
+     "opciones": [
+      "Solo quien inicia el procedimiento",
+      "Solo los abogados",
+      "Quien tiene derechos o intereses legítimos afectados por la decisión",
+      "Solo las empresas"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 4.1 LPAC considera interesados a quienes promueven el procedimiento como titulares de derechos o intereses legítimos, a quienes tienen derechos afectados y a quienes tienen intereses legítimos que puedan resultar afectados.",
+     "referencia": "Art. 4.1 LPAC"
+    },
+    {
+     "pregunta": "¿En qué plazo debe subsanarse una solicitud incompleta?",
+     "opciones": [
+      "Un mes",
+      "Tres meses",
+      "Cinco días",
+      "Diez días"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 68.1 LPAC requiere al interesado para que, en un plazo de diez días, subsane la falta o acompañe los documentos preceptivos.",
+     "referencia": "Art. 68.1 LPAC"
+    },
+    {
+     "pregunta": "¿Qué plazo tiene el trámite de audiencia?",
+     "opciones": [
+      "Entre tres y cinco días",
+      "Un mes",
+      "Quince minutos",
+      "Entre diez y quince días"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 82.2 LPAC establece un plazo no inferior a diez días ni superior a quince para que los interesados aleguen y presenten documentos.",
+     "referencia": "Art. 82.2 LPAC"
+    },
+    {
+     "pregunta": "¿Cuál es el plazo para declarar la caducidad en un procedimiento paralizado por causa del interesado?",
+     "opciones": [
+      "Un mes",
+      "Dos meses",
+      "Tres meses",
+      "Seis meses"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 95.1 LPAC establece que, transcurridos tres meses desde la advertencia, se produce la caducidad del procedimiento.",
+     "referencia": "Art. 95.1 LPAC"
+    },
+    {
+     "pregunta": "¿Quién debe abstenerse de intervenir en un procedimiento?",
+     "opciones": [
+      "El interesado",
+      "La autoridad o personal en quien concurre una causa de abstención",
+      "El secretario del ayuntamiento",
+      "El ciudadano que denuncia"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 23.1 LRJSP establece que las autoridades y el personal en quienes concurran causas de abstención deben abstenerse y comunicarlo a su superior.",
+     "referencia": "Art. 23.1 LRJSP"
+    },
+    {
+     "pregunta": "¿Quién promueve la recusación?",
+     "opciones": [
+      "El funcionario",
+      "El superior",
+      "El interesado",
+      "El juez de oficio"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 24.1 LRJSP establece que la recusación puede promoverla el interesado en cualquier momento de la tramitación.",
+     "referencia": "Art. 24.1 LRJSP"
+    },
+    {
+     "pregunta": "¿Qué derecho permite al interesado conocer en cualquier momento el estado de la tramitación?",
+     "opciones": [
+      "Derecho a ser multado",
+      "Derecho a no ser notificado",
+      "Derecho a elegir juez",
+      "Derecho a conocer el estado de la tramitación y acceder al expediente"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 53.1.a) LPAC reconoce al interesado el derecho a conocer en cualquier momento el estado de la tramitación y a acceder y obtener copia de los documentos.",
+     "referencia": "Art. 53.1.a) LPAC"
+    },
+    {
+     "pregunta": "¿Hasta cuándo pueden presentarse alegaciones?",
+     "opciones": [
+      "Hasta la resolución",
+      "Solo tras la resolución",
+      "En cualquier momento anterior al trámite de audiencia",
+      "Solo en la primera fase"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 76.1 LPAC permite aducir alegaciones en cualquier momento del procedimiento anterior al trámite de audiencia.",
+     "referencia": "Art. 76.1 LPAC"
+    },
+    {
+     "pregunta": "¿Quién impulsa el procedimiento?",
+     "opciones": [
+      "El interesado exclusivamente",
+      "El notario",
+      "El Consejo de Estado",
+      "La Administración, de oficio"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 71.1 LPAC establece que el procedimiento se impulsa de oficio en todos sus trámites, con sometimiento al principio de celeridad.",
+     "referencia": "Art. 71.1 LPAC"
+    },
+    {
+     "pregunta": "¿Qué derecho tiene toda persona en sus relaciones con la Administración?",
+     "opciones": [
+      "A ser tratada con respeto y deferencia",
+      "A cobrar por las consultas",
+      "A no comunicarse electrónicamente nunca",
+      "A ser juzgada por la Administración"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 13.e) LPAC reconoce el derecho a ser tratado con respeto y deferencia por las autoridades y empleados públicos.",
+     "referencia": "Art. 13.e) LPAC"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Naturaleza y fines del procedimiento administrativo",
+     "parrafos": [
+      "El procedimiento administrativo es la serie ordenada de actos y trámites que conducen a una resolución de la Administración. No es un simple conjunto de formalidades: es la forma en que la Administración ejerce sus potestades y en que los ciudadanos hacen valer sus derechos frente a ella.",
+      "El artículo 1.1 LPAC establece que la ley tiene por objeto regular los requisitos de validez y eficacia de los actos administrativos y el procedimiento administrativo común a todas las Administraciones públicas, incluido el sancionador y el de reclamación de responsabilidad. El procedimiento común es, por tanto, el marco general, al que se añaden las especialidades de cada sector.",
+      "Los fines del procedimiento son tres. El primero es la garantía de los derechos de los interesados, que pueden alegar, aportar pruebas y conocer el expediente. El segundo es la legalidad y la objetividad de la decisión, que se consiguen con reglas de competencia, de motivación y de control. El tercero es la eficacia, que exige resolver en plazo y con simplicidad, como exige el artículo 103.1 CE al referirse a la eficacia de la Administración."
+     ]
+    },
+    {
+     "titulo": "2. Principios generales del procedimiento",
+     "parrafos": [
+      "El artículo 71.1 LPAC establece el principio de impulso: el procedimiento, sometido al principio de celeridad, se impulsa de oficio en todos sus trámites y a través de medios electrónicos, respetando los principios de transparencia y publicidad. Esta regla significa que la Administración debe avanzar el procedimiento, sin esperar a que el interesado lo haga.",
+      "El artículo 72 LPAC recoge el principio de concentración de trámites, que busca reducir el número de actuaciones. El artículo 73 regula el cumplimiento de trámites, que deben cumplirse en el plazo señalado y de forma que no obstaculice la tramitación.",
+      "Los principios de actuación de las Administraciones se enumeran en el artículo 3.2 LRJSP: servicio efectivo a los ciudadanos, simplicidad, claridad y proximidad, participación, objetividad y transparencia, racionalización de los procedimientos, buena fe y confianza legítima, y eficacia y economía, entre otros. Son los principios que inspiran la aplicación del procedimiento.",
+      "El principio de audiencia es el más importante del procedimiento. Los interesados pueden formular alegaciones en cualquier momento anterior al trámite de audiencia (art. 76.1 LPAC), y el trámite de audiencia (art. 82) les permite conocer el contenido de la propuesta antes de la resolución. El artículo 105.a) CE garantiza la audiencia de los ciudadanos en la elaboración de las disposiciones que les afecten.",
+      "Para un examen, la síntesis es que el procedimiento debe ser rápido (impulso y celeridad), transparente (publicidad), ordenado (concentración) y contradictorio (audiencia y alegaciones)."
+     ]
+    },
+    {
+     "titulo": "3. Los interesados",
+     "parrafos": [
+      "El artículo 4.1 LPAC considera interesados en el procedimiento a quienes lo promuevan como titulares de derechos o intereses legítimos, individuales o colectivos (letra a); a quienes, sin haber iniciado el procedimiento, tengan derechos que puedan resultar afectados por la decisión (letra b); y a quienes tengan intereses legítimos, individuales o colectivos, que puedan resultar afectados por la resolución, y se personen en el procedimiento mientras no haya recaído resolución definitiva (letra c).",
+      "El artículo 3 LPAC regula la capacidad de obrar: pueden actuar ante las Administraciones las personas físicas o jurídicas que la tengan según las normas civiles, y los menores de edad para los derechos e intereses que el ordenamiento permite ejercer sin la asistencia de quien ejerce la patria potestad o la tutela.",
+      "El artículo 5.1 LPAC permite a los interesados con capacidad de obrar actuar por medio de representante, y las actuaciones administrativas se entienden con él, salvo manifestación expresa en contra del interesado. El artículo 6 regula el registro electrónico de apoderamientos. El artículo 7 se refiere a la pluralidad de interesados y el artículo 8 a la incorporación de nuevos interesados.",
+      "Para un examen, la pregunta típica es quién es interesado. La respuesta es quien tiene derechos o intereses legítimos afectados por la decisión, y el artículo 4.1 LPAC enumera las tres categorías."
+     ]
+    },
+    {
+     "titulo": "4. Abstención y recusación",
+     "parrafos": [
+      "El artículo 23.1 LRJSP establece que las autoridades y el personal al servicio de las Administraciones que se encuentren en alguna de las circunstancias de abstención se abstendrán de intervenir en el procedimiento, y lo comunicarán a su superior inmediato, que resolverá lo procedente.",
+      "El artículo 23.2 LRJSP enumera los motivos de abstención. El primero es tener interés personal en el asunto o en otro cuya resolución pudiera influir en aquél, o ser administrador de sociedad o entidad interesada, o tener un litigio pendiente con algún interesado (letra a). El segundo es tener vínculo matrimonial o situación de hecho asimilable, o parentesco de consanguinidad dentro del cuarto grado o de afinidad dentro del segundo, con cualquiera de los interesados o con sus representantes (letra b). El precepto contiene más motivos, que deben leerse completos.",
+      "La recusación (art. 24 LRJSP) es el mecanismo por el que los interesados pueden pedir que se aparte a un funcionario o autoridad que se encuentra en causa de abstención y no se ha abstenido. Puede promoverse en cualquier momento de la tramitación del procedimiento (art. 24.1), debe plantearse por escrito, expresando la causa en que se funda (art. 24.2), y el recusado debe pronunciarse sobre ella.",
+      "Para un examen, la diferencia básica es quién inicia el apartamiento. En la abstención, el propio funcionario o autoridad debe apartarse y comunicarlo; en la recusación, es el interesado quien lo pide."
+     ]
+    },
+    {
+     "titulo": "5. Los derechos del interesado en el procedimiento",
+     "parrafos": [
+      "El artículo 53.1 LPAC enumera los derechos de los interesados en el procedimiento. La letra a) incluye el derecho a conocer en cualquier momento el estado de la tramitación, el sentido del silencio administrativo que corresponda, el órgano competente para su instrucción y resolución, y los actos de trámite dictados, así como a acceder y obtener copia de los documentos del procedimiento.",
+      "La letra b) reconoce el derecho a identificar a las autoridades y al personal bajo cuya responsabilidad se tramitan los procedimientos. La letra c) reconoce el derecho a no presentar documentos originales, salvo excepción legal. La letra d) reconoce el derecho a no presentar datos y documentos que ya estén en poder de las Administraciones o que hayan sido elaborados por ellas.",
+      "La letra e) reconoce el derecho a formular alegaciones, utilizar los medios de defensa admitidos y aportar documentos en cualquier fase anterior al trámite de audiencia. Estas alegaciones deben ser tenidas en cuenta por el órgano competente al redactar la propuesta de resolución.",
+      "Para un examen, conviene memorizar el derecho de acceso al expediente y el derecho a aportar documentos, porque son los más preguntados. Los demás derechos del artículo 53.1 deben leerse en el texto."
+     ]
+    },
+    {
+     "titulo": "6. Derechos de las personas en sus relaciones con las Administraciones",
+     "parrafos": [
+      "El artículo 13 LPAC reconoce a quienes tienen capacidad de obrar una serie de derechos generales en sus relaciones con las Administraciones. Entre ellos, el derecho a comunicarse con las Administraciones a través de un punto de acceso general electrónico (letra a), a ser asistidos en el uso de medios electrónicos (letra b) y a utilizar las lenguas oficiales en el territorio de su Comunidad Autónoma (letra c).",
+      "El artículo 13 reconoce también el derecho de acceso a la información pública, archivos y registros, de acuerdo con la Ley 19/2013 de transparencia (letra d); el derecho a ser tratados con respeto y deferencia (letra e); el derecho a exigir responsabilidades a las Administraciones y autoridades (letra f); el derecho a la protección de datos de carácter personal (letra h); y cualesquiera otros que reconozcan la Constitución y las leyes (letra i).",
+      "Para un examen, la diferencia con los derechos del interesado del artículo 53 es que los del artículo 13 corresponden a todas las personas en sus relaciones con la Administración, y no solo a quienes son parte de un procedimiento concreto."
+     ]
+    },
+    {
+     "titulo": "7. Las fases del procedimiento: iniciación",
+     "parrafos": [
+      "El artículo 54 LPAC establece las clases de iniciación: los procedimientos pueden iniciarse de oficio o a solicitud del interesado. La iniciación de oficio puede darse por propia iniciativa, por orden superior, por petición razonada de otros órganos o por denuncia (arts. 58 a 62 LPAC).",
+      "La solicitud de iniciación (art. 66 LPAC) debe contener, entre otros datos, el nombre y apellidos del interesado y de quien lo represente, y la identificación del medio electrónico. Si la solicitud no reúne los requisitos, el artículo 68.1 LPAC exige requerir al interesado para que, en el plazo de diez días, subsane la falta o acompañe los documentos preceptivos, con la advertencia de que, si no lo hace, se le tendrá por desistido.",
+      "El artículo 69 regula la declaración responsable y la comunicación, que permiten iniciar una actividad mediante la declaración del interesado, con control posterior de la Administración. Es un mecanismo de simplificación, en la línea del principio de simplificación de procedimientos que el artículo 133.1 del Estatuto de Andalucía incluye entre los de la actuación de la Junta.",
+      "Para un examen, la pregunta típica es cómo se corrige una solicitud incompleta. La respuesta es el requerimiento de subsanación en diez días (art. 68.1 LPAC), con la advertencia de desistimiento."
+     ]
+    },
+    {
+     "titulo": "8. Las fases del procedimiento: ordenación e instrucción",
+     "parrafos": [
+      "La ordenación del procedimiento comprende la formación del expediente administrativo (art. 70 LPAC), el impulso (art. 71), la concentración de trámites (art. 72) y el cumplimiento de trámites (art. 73). El expediente es el conjunto ordenado de documentos y actuaciones que sirven de antecedente y fundamento a la resolución.",
+      "La instrucción es la fase en que se reúnen los datos necesarios para resolver. El artículo 75 LPAC regula los actos de instrucción necesarios para determinar, conocer y comprobar los datos en virtud de los cuales debe dictarse la resolución. El artículo 76 regula las alegaciones, y el artículo 77 los medios y el período de prueba.",
+      "El artículo 80 LPAC regula la emisión de informes, que son actos de instrucción que no resuelven el asunto. El artículo 81 regula la solicitud de dictámenes en los procedimientos que lo requieren, y el artículo 83 la información pública, que permite a los ciudadanos conocer y opinar sobre el procedimiento.",
+      "El trámite de audiencia (art. 82 LPAC) se produce tras la instrucción y antes de redactar la propuesta de resolución. Los interesados disponen de un plazo no inferior a diez días ni superior a quince para alegar y presentar documentos y justificaciones (art. 82.2). Es el trámite contradictorio por excelencia.",
+      "Para un examen, la diferencia entre el trámite de alegaciones (art. 76, antes de la audiencia) y el trámite de audiencia (art. 82, después de la instrucción) es una pregunta frecuente."
+     ]
+    },
+    {
+     "titulo": "9. La terminación del procedimiento",
+     "parrafos": [
+      "El artículo 84.1 LPAC establece que ponen fin al procedimiento la resolución, el desistimiento, la renuncia al derecho en que se funda la solicitud cuando no esté prohibida, y la declaración de caducidad. El artículo 84.2 añade que también produce la terminación la imposibilidad material de continuarlo por causas sobrevenidas.",
+      "El artículo 88.1 LPAC establece que la resolución decidirá todas las cuestiones planteadas por los interesados y aquellas otras derivadas del procedimiento. Cuando se trate de cuestiones conexas no planteadas por los interesados, el órgano competente puede pronunciarse sobre ellas.",
+      "El desistimiento y la renuncia (art. 94 LPAC) son actos del interesado. El desistimiento por la Administración (art. 93) se regula para los casos en que la Administración renuncia a seguir el procedimiento, con sus requisitos propios. La terminación convencional (art. 86) permite a las Administraciones terminar el procedimiento mediante acuerdo, cuando la ley lo admite.",
+      "La caducidad (art. 95 LPAC) se produce en los procedimientos iniciados a solicitud del interesado cuando se paraliza por causa imputable a él. La Administración le advierte de que, transcurridos tres meses, se producirá la caducidad. Si el requerido no realiza las actividades necesarias, la Administración acuerda el archivo de las actuaciones.",
+      "Para un examen, conviene distinguir la caducidad, que ocurre por inactividad del interesado, del desistimiento, que es una decisión voluntaria de quien pide, y de la renuncia, que es la renuncia al derecho en que se funda la solicitud."
+     ]
+    },
+    {
+     "titulo": "10. Plazos y obligación de resolver",
+     "parrafos": [
+      "El artículo 21.1 LPAC establece la obligación de resolver de forma expresa y notificar la resolución en todos los procedimientos. El plazo máximo es el que fija la norma reguladora del procedimiento; cuando no lo fija, el artículo 21.3 establece un plazo supletorio (que debe verificarse en el texto).",
+      "Los plazos se regulan en los artículos 29 a 33 LPAC. El artículo 30 regula el cómputo de plazos. El artículo 23 regula la ampliación del plazo máximo para resolver y notificar, y el artículo 22 la suspensión. El artículo 33 regula la tramitación de urgencia cuando razones de interés público lo justifican.",
+      "Para un examen, la pregunta típica es si se puede ampliar un plazo. La respuesta es que la ampliación es posible por las causas del artículo 23 y con los requisitos que establece, y que la urgencia del artículo 33 acorta los plazos."
+     ]
+    },
+    {
+     "titulo": "11. Caso práctico de procedimiento",
+     "parrafos": [
+      "Un particular solicita una licencia, pero su solicitud no incluye la documentación exigida. La Administración debe requerirle la subsanación en diez días (art. 68.1 LPAC). Si no subsana, se le tiene por desistido de su solicitud.",
+      "Si el interesado subsana, el procedimiento sigue con la instrucción: informes técnicos (art. 80), eventual información pública (art. 83) y, antes de la propuesta, el trámite de audiencia de diez a quince días (art. 82.2). El interesado puede recusar a un técnico que tenga un interés personal en el asunto (art. 24 LRJSP).",
+      "La resolución debe decidir todas las cuestiones planteadas (art. 88.1), motivarse cuando limite derechos (art. 35.1) y notificarse en diez días con el texto íntegro y los recursos que procedan (art. 40.2). Si la Administración no resuelve en el plazo, el silencio tendrá el efecto que establece el artículo 24 LPAC."
+     ]
+    },
+    {
+     "titulo": "12. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir la abstención con la recusación. La abstención la hace el funcionario o autoridad; la recusación la pide el interesado (arts. 23 y 24 LRJSP).",
+      "Olvidar que el requerimiento de subsanación es de diez días (art. 68.1 LPAC) y que el trámite de audiencia dura de diez a quince días (art. 82.2).",
+      "Confundir la caducidad con el desistimiento. La caducidad se produce por paralización imputable al interesado y tras tres meses (art. 95 LPAC); el desistimiento es una decisión voluntaria (art. 94 LPAC).",
+      "Afirmar que las alegaciones y el trámite de audiencia son lo mismo. Las alegaciones pueden presentarse en cualquier momento anterior a la audiencia (art. 76.1); la audiencia es un trámite específico posterior a la instrucción (art. 82).",
+      "Olvidar que el procedimiento debe impulsarse de oficio por la Administración (art. 71.1 LPAC)."
+     ]
+    },
+    {
+     "titulo": "13. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué regula la LPAC en el art. 1.1? Los requisitos de validez y eficacia de los actos y el procedimiento administrativo común, incluido el sancionador y el de responsabilidad.",
+      "¿Quién es interesado? Quien tiene derechos o intereses legítimos afectados por la decisión, según el art. 4.1 LPAC, con sus tres categorías.",
+      "¿Qué motivos de abstención contempla el art. 23.2 LRJSP? Interés personal, relación con los interesados o sus representantes, vínculo familiar o matrimonial, entre otros que la ley enumera.",
+      "¿Cuál es el plazo de subsanación de una solicitud? Diez días desde el requerimiento (art. 68.1 LPAC).",
+      "¿Cuándo se produce la caducidad? En procedimientos iniciados a solicitud, si se paralizan por causa imputable al interesado y transcurren tres meses sin reanudación (art. 95.1 LPAC).",
+      "¿Qué plazo tiene el trámite de audiencia? Entre diez y quince días (art. 82.2 LPAC)."
+     ]
+    },
+    {
+     "titulo": "11. Iniciación de oficio y a solicitud: diferencias",
+     "parrafos": [
+      "El procedimiento puede iniciarse por la propia Administración o por el interesado. Cuando se inicia de oficio, la Administración decide actuar sin que nadie lo haya pedido. Cuando se inicia a solicitud, es el interesado quien lo pide, y su petición debe reunir los requisitos del artículo 66 LPAC.",
+      "En la iniciación de oficio, el artículo 58 LPAC la regula en términos generales, y los artículos 59 a 62 recogen sus formas: la propia iniciativa del órgano, la orden de un superior, la petición razonada de otros órganos y la denuncia. La condición de quien denuncia como interesado no se deduce de la denuncia por sí misma; debe comprobarse en el artículo 62 LPAC.",
+      "La diferencia de régimen es importante en dos puntos. Primero, el silencio: en los procedimientos a solicitud, el silencio tiene por regla general efecto estimatorio (art. 24.1 LPAC); en los de oficio, el vencimiento del plazo no exime a la Administración de resolver (art. 25.1 LPAC). Segundo, la caducidad: el artículo 95 LPAC se aplica a los procedimientos iniciados a solicitud del interesado, no a los iniciados de oficio.",
+      "Para un examen, la pregunta típica es qué régimen de silencio corresponde a un procedimiento iniciado de oficio. La respuesta es el del artículo 25 LPAC, que no produce automáticamente la estimación de la pretensión del interesado."
+     ]
+    },
+    {
+     "titulo": "12. El procedimiento en la Comunidad Autónoma de Andalucía",
+     "parrafos": [
+      "El Estatuto de Andalucía encuadra el procedimiento administrativo de la Junta en varios preceptos. El artículo 133.1 exige a la Administración de la Junta actuar con simplificación de procedimientos, eficacia, transparencia y proximidad a los ciudadanos, entre otros principios. El artículo 133.2 atribuye la gestión ordinaria a los servicios centrales y periféricos.",
+      "El artículo 134 se refiere a la participación ciudadana en los procedimientos administrativos o en la elaboración de disposiciones que puedan afectar a los ciudadanos, y al acceso de los ciudadanos a los archivos y registros de la Junta (letras a y b). El artículo 137 obliga a hacer pública la oferta de servicios y las cartas de derechos de los ciudadanos, y el artículo 138 encarga a la ley un sistema de evaluación de las políticas públicas.",
+      "La competencia sobre el procedimiento administrativo tiene dos niveles. Es competencia exclusiva de la Comunidad el procedimiento derivado de las especialidades de su organización propia (art. 47.1.1.ª del Estatuto), y es competencia compartida el régimen jurídico de la Administración de la Comunidad (art. 47.2.1.ª). El procedimiento común sigue siendo el de la LPAC, cuyas bases fija el Estado (art. 149.1.18.ª CE).",
+      "Para un examen, la respuesta bien estructurada distingue el procedimiento común de la LPAC, que es el marco, de las especialidades andaluzas derivadas de la organización propia de la Junta."
+     ]
+    },
+    {
+     "titulo": "13. Cuadro de figuras afines",
+     "parrafos": [
+      "Abstención (art. 23 LRJSP): la inicia el propio funcionario o autoridad, que debe apartarse y comunicarlo a su superior.",
+      "Recusación (art. 24 LRJSP): la pide el interesado, por escrito y en cualquier momento de la tramitación.",
+      "Desistimiento (art. 94 LPAC): decisión voluntaria del interesado de dejar sin efecto su solicitud.",
+      "Renuncia (art. 94 LPAC): renuncia al derecho en que se funda la solicitud, cuando no esté prohibida por el ordenamiento.",
+      "Caducidad (art. 95 LPAC): fin del procedimiento por paralización imputable al interesado, tras tres meses desde el requerimiento.",
+      "Para un examen, la pregunta típica es distinguir las dos últimas. El desistimiento y la renuncia dependen de la voluntad del interesado; la caducidad se produce por su inactividad."
+     ]
+    },
+    {
+     "titulo": "14. Cuadro de plazos del procedimiento",
+     "parrafos": [
+      "Plazo máximo para resolver: el que fije la norma reguladora del procedimiento (art. 21 LPAC). La obligación de resolver se mantiene aunque el plazo haya vencido.",
+      "Subsanación de la solicitud: diez días desde el requerimiento (art. 68.1 LPAC).",
+      "Alegaciones: en cualquier momento anterior al trámite de audiencia (art. 76.1 LPAC).",
+      "Audiencia: entre diez y quince días para alegar y presentar documentos (art. 82.2 LPAC).",
+      "Notificación: diez días desde que el acto se dicta (art. 40.2 LPAC).",
+      "Caducidad: tres meses desde el requerimiento de reanudación en procedimientos a solicitud paralizados por causa del interesado (art. 95.1 LPAC).",
+      "Para un examen, conviene memorizar los plazos de diez días (subsanación y notificación), el de diez a quince (audiencia) y el de tres meses (caducidad)."
+     ]
+    },
+    {
+     "titulo": "15. Caso práctico: la paralización del procedimiento",
+     "parrafos": [
+      "Un interesado presenta una solicitud y la Administración le requiere documentación que no aporta. El procedimiento queda paralizado por causa imputable al interesado. La Administración debe advertirle de que, transcurridos tres meses, se producirá la caducidad (art. 95.1 LPAC).",
+      "Si el interesado no reanuda la tramitación en ese plazo, la Administración acuerda el archivo de las actuaciones. La caducidad pone fin al procedimiento (art. 84.1 LPAC), pero no impide que el interesado presente una nueva solicitud.",
+      "En el examen, la respuesta correcta distingue la caducidad de la desestimación: la caducidad no resuelve sobre el fondo de la pretensión, sino que da por terminado el procedimiento por inactividad del interesado."
+     ]
+    },
+    {
+     "titulo": "14. Claves para el examen",
+     "parrafos": [
+      "Naturaleza y fines: procedimiento común a todas las Administraciones (art. 1.1 LPAC); garantía, legalidad y eficacia.",
+      "Principios: impulso de oficio y celeridad (art. 71.1); concentración (art. 72); audiencia (arts. 76 y 82); principios de actuación (art. 3.2 LRJSP).",
+      "Interesados: tres categorías (art. 4.1 LPAC); capacidad de obrar (art. 3); representación (art. 5).",
+      "Abstención y recusación: arts. 23 y 24 LRJSP.",
+      "Derechos: del interesado (art. 53.1 LPAC); de las personas en sus relaciones con la Administración (art. 13 LPAC).",
+      "Fases: iniciación (arts. 54 a 69; subsanación en diez días, art. 68.1); ordenación (arts. 70 a 73); instrucción (arts. 75 a 83); terminación (arts. 84 a 95; caducidad a los tres meses, art. 95.1)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 39/2015, del Procedimiento Administrativo Común (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+     "pdf": "leyes/BOE-A-2015-10565.pdf"
+    },
+    {
+     "nombre": "Ley 40/2015, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+     "pdf": "leyes/BOE-A-2015-10566.pdf"
+    },
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
+    }
+   ]
+  },
   "e20": {
    "resumen": [
     {

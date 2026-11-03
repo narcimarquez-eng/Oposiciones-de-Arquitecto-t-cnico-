@@ -1,0 +1,182 @@
+{
+  "id": "c13",
+  "resumen": [
+    {
+      "titulo": "Órganos y competencia",
+      "puntos": [
+        "Órgano administrativo: unidad con funciones con efectos frente a terceros o con actuación preceptiva (art. 5.1 LRJSP).",
+        "La competencia es irrenunciable (art. 8.1 LRJSP); se puede delegar (art. 9.1) o avocar (art. 10.1)."
+      ]
+    },
+    {
+      "titulo": "Acto administrativo",
+      "puntos": [
+        "Producido por el órgano competente con los requisitos y el procedimiento establecidos (art. 34.1 LPAC).",
+        "Motivación obligatoria en los actos que limitan derechos o intereses legítimos (art. 35.1). Forma escrita (art. 36.1)."
+      ]
+    },
+    {
+      "titulo": "Eficacia",
+      "puntos": [
+        "Presunción de validez; efectos desde la fecha en que se dictan (art. 39.1).",
+        "Notificación en diez días con el texto íntegro y los recursos (art. 40.2). Publicación cuando lo establece la norma o lo aconsejan razones de interés público (art. 45.1)."
+      ]
+    },
+    {
+      "titulo": "Silencio",
+      "puntos": [
+        "En procedimientos a solicitud, el vencimiento del plazo sin resolución legitima para entender estimada la solicitud (art. 24.1 LPAC).",
+        "En procedimientos de oficio, la obligación de resolver subsiste (art. 25.1)."
+      ]
+    },
+    {
+      "titulo": "Invalidez y revisión",
+      "puntos": [
+        "Nulidad de pleno derecho (art. 47.1), anulabilidad (art. 48.1), convalidación del anulable (art. 52.1).",
+        "Revisión de oficio con dictamen del Consejo de Estado o del órgano consultivo autonómico (art. 106.1); lesividad (art. 107.1); revocación de actos de gravamen (art. 109.1)."
+      ]
+    },
+    {
+      "titulo": "Inderogabilidad singular",
+      "puntos": [
+        "Las resoluciones particulares no pueden vulnerar una disposición general, aunque procedan de un órgano de igual o superior jerarquía (art. 37.1 LPAC). Son nulas si vulneran un reglamento (art. 37.2)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LPAC",
+      "rol": "Norma principal del tema: actos, eficacia, silencio, invalidez y revisión (arts. 21 a 52, 106 a 110)"
+    },
+    {
+      "id": "LRJSP",
+      "rol": "Complementaria: órganos, competencia, delegación y avocación (arts. 5 a 24)"
+    },
+    {
+      "id": "EA-ANDALUCIA",
+      "rol": "Complementaria: Consejo Consultivo como órgano de la revisión (art. 129.1)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Qué es un órgano administrativo según el art. 5.1 LRJSP?",
+      "opciones": [
+        "Unidad con funciones con efectos frente a terceros o con actuación preceptiva",
+        "Cualquier persona que trabaje en la Administración",
+        "Las empresas públicas",
+        "Los tribunales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.1 LRJSP define como órganos administrativos las unidades a las que se atribuyen funciones con efectos jurídicos frente a terceros, o cuya actuación tiene carácter preceptivo.",
+      "referencia": "Art. 5.1 LRJSP"
+    },
+    {
+      "pregunta": "¿Es renunciable la competencia de un órgano?",
+      "opciones": [
+        "Sí, siempre",
+        "No, es irrenunciable",
+        "Solo en materia tributaria",
+        "Solo si lo acuerda el Pleno"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 8.1 LRJSP establece que la competencia es irrenunciable y se ejerce por los órganos que la tienen atribuida como propia.",
+      "referencia": "Art. 8.1 LRJSP"
+    },
+    {
+      "pregunta": "¿Qué supone la delegación de competencias?",
+      "opciones": [
+        "Transfiere la titularidad",
+        "Solo puede hacerlo un juez",
+        "Transfiere el ejercicio a otro órgano de la misma Administración",
+        "Es una avocación"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 9.1 LRJSP permite delegar el ejercicio de las competencias en otros órganos de la misma Administración.",
+      "referencia": "Art. 9.1 LRJSP"
+    },
+    {
+      "pregunta": "¿Quién puede avocar el conocimiento de un asunto?",
+      "opciones": [
+        "El órgano inferior",
+        "Los órganos superiores",
+        "El interesado",
+        "El Tribunal Constitucional"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 10.1 LRJSP permite a los órganos superiores avocar para sí asuntos de sus órganos dependientes, por razones técnicas, económicas, sociales, jurídicas o territoriales.",
+      "referencia": "Art. 10.1 LRJSP"
+    },
+    {
+      "pregunta": "¿Por qué órgano se producen los actos administrativos?",
+      "opciones": [
+        "Cualquier funcionario",
+        "El interesado",
+        "El Parlamento",
+        "El órgano competente, con requisitos y procedimiento"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 34.1 LPAC establece que los actos se producirán por el órgano competente, ajustándose a los requisitos y al procedimiento establecido.",
+      "referencia": "Art. 34.1 LPAC"
+    },
+    {
+      "pregunta": "¿Qué actos deben motivarse?",
+      "opciones": [
+        "Los de trámite sin efectos",
+        "Los que limitan derechos o intereses legítimos",
+        "Los de simple tramitación",
+        "Ninguno"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 35.1.a) LPAC exige motivar los actos que limiten derechos subjetivos o intereses legítimos, junto con otros supuestos del mismo precepto.",
+      "referencia": "Art. 35.1 LPAC"
+    },
+    {
+      "pregunta": "¿Desde cuándo producen efectos los actos administrativos?",
+      "opciones": [
+        "Desde la fecha en que se dictan, salvo disposición en contrario",
+        "Desde su notificación siempre",
+        "Desde su publicación en el BOE",
+        "Al año de dictarse"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 39.1 LPAC establece que los actos se presumen válidos y producen efectos desde la fecha en que se dictan, salvo que dispongan otra cosa.",
+      "referencia": "Art. 39.1 LPAC"
+    },
+    {
+      "pregunta": "En un procedimiento iniciado a solicitud, ¿qué efecto tiene el vencimiento del plazo sin resolución expresa?",
+      "opciones": [
+        "Legitima para entender estimada la solicitud",
+        "Implica desestimación siempre",
+        "Supone caducidad",
+        "Obliga a iniciar de oficio"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 24.1 LPAC establece que el vencimiento del plazo sin resolución expresa legitima al interesado para entender estimada su solicitud, salvo norma en contrario con rango de ley o de Derecho de la Unión.",
+      "referencia": "Art. 24.1 LPAC"
+    },
+    {
+      "pregunta": "¿Qué requisito exige la revisión de oficio de un acto nulo?",
+      "opciones": [
+        "Basta la decisión del órgano",
+        "Un dictamen de la Cámara de Cuentas",
+        "No se necesita dictamen",
+        "Un dictamen favorable del Consejo de Estado u órgano consultivo equivalente de la Comunidad"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 106.1 LPAC exige dictamen favorable del Consejo de Estado u órgano consultivo equivalente de la Comunidad Autónoma. En Andalucía, el Consejo Consultivo.",
+      "referencia": "Art. 106.1 LPAC; art. 129.1 Estatuto"
+    },
+    {
+      "pregunta": "¿Qué establece el principio de inderogabilidad singular del reglamento?",
+      "opciones": [
+        "Puede vulnerar un reglamento si es de igual rango",
+        "Solo se aplica a los reglamentos estatales",
+        "Deroga el reglamento",
+        "No puede vulnerarse un reglamento vigente por un acto particular, aunque proceda de un órgano de igual o superior jerarquía"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 37.1 LPAC establece que las resoluciones de carácter particular no pueden vulnerar lo establecido en una disposición general, y el art. 37.2 declara nulas las que la vulneren.",
+      "referencia": "Art. 37 LPAC"
+    }
+  ]
+}
