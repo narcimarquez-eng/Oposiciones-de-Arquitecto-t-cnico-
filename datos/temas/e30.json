@@ -1,0 +1,195 @@
+{
+  "id": "e30",
+  "resumen": [
+    {
+      "titulo": "Abono, riesgo y ventura",
+      "puntos": [
+        "El contratista tiene derecho al abono del precio convenido por la prestación realizada, según la ley y el contrato (art. 198.1 LCSP).",
+        "La ejecución se realiza a riesgo y ventura del contratista, sin perjuicio de la fuerza mayor del artículo 239 (art. 197 LCSP).",
+        "En fuerza mayor, sin imprudencia del contratista, este tiene derecho a una indemnización por daños y perjuicios (art. 239.1 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Pago, abonos a cuenta y plazos",
+      "puntos": [
+        "El pago puede ser total o parcial, mediante abonos a cuenta o pagos por vencimientos en contratos de tracto sucesivo (art. 198.2 LCSP).",
+        "Cuando el acumulado de abonos a cuenta alcanza el 90 por ciento del precio, incluidas las modificaciones aprobadas, debe acompañarse la comunicación a la Intervención cuando resulte preceptiva (art. 198.2 LCSP).",
+        "La Administración paga el precio dentro de los treinta días siguientes a la aprobación de las certificaciones. Si se demora, debe abonar intereses de demora según la Ley 3/2004 (art. 198.4 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Mediciones y certificaciones",
+      "puntos": [
+        "El proyecto debe incluir precios unitarios, en su caso descompuestos, estado de mediciones y detalles para la valoración (art. 233.1.d LCSP).",
+        "La Administración expide mensualmente, en los primeros diez días siguientes al mes, certificaciones de la obra ejecutada conforme a proyecto. El pliego puede prever otra cosa (art. 240.1 LCSP).",
+        "Los abonos a cuenta son pagos a cuenta sujetos a la medición final y no suponen aprobación ni recepción de la obra (art. 240.1 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Audiencia del contratista",
+      "puntos": [
+        "Antes de fijar los precios de unidades no previstas, la Administración debe dar audiencia al contratista por plazo mínimo de tres días hábiles (art. 242.2 LCSP).",
+        "En la modificación del proyecto propuesta por el director facultativo, se dan audiencia al contratista y al redactor del proyecto por plazo mínimo de tres días (art. 242.4.b LCSP).",
+        "En la liquidación por resolución, el contratista debe ser citado para asistir a la comprobación y medición (art. 246.1 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Abonos a cuenta por acopio y garantías",
+      "puntos": [
+        "El contratista puede recibir abonos a cuenta por instalaciones y acopio de materiales o equipos de maquinaria pesada adscritos a la obra (art. 240.2 LCSP).",
+        "Estos abonos deben asegurarse mediante la prestación de garantía (arts. 198.3 y 240.2 LCSP).",
+        "Las condiciones y límites se fijan en los pliegos y en la normativa de desarrollo."
+      ]
+    },
+    {
+      "titulo": "Exceso de mediciones y unidades ocultas",
+      "puntos": [
+        "El exceso de mediciones, si en global no supone un incremento del gasto superior al 10 por ciento del precio inicial, no se considera modificación y se recoge en la certificación final (art. 242.4.i LCSP).",
+        "Las unidades que van a quedar ocultas se comunican a la Intervención con al menos cinco días de antelación antes de su medición parcial (art. 242.3 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Tanto alzado y precio cerrado",
+      "puntos": [
+        "En el tanto alzado con precio cerrado, el precio se mantiene invariable y las modificaciones para corregir errores u omisiones del proyecto no son abonables (arts. 241.1 y 241.2 LCSP).",
+        "Requisitos: previsión en el pliego, unidades definidas en el proyecto y replanteadas antes de la licitación, y pago mensual en proporción a la obra ejecutada (art. 241.3 LCSP).",
+        "Las partidas alzadas y las relaciones valoradas no tienen su régimen en el texto de la LCSP. Corresponden a la normativa de desarrollo, que no se ha verificado en este repositorio."
+      ]
+    },
+    {
+      "titulo": "Certificación final y liquidación",
+      "puntos": [
+        "La certificación final se aprueba en el plazo de tres meses desde la recepción, ampliable a cinco en obras de más de doce millones de euros con liquidación especialmente compleja (art. 243.1 LCSP).",
+        "La liquidación fija los saldos definitivos y, en la resolución, se basa en la comprobación y medición de lo realizado con citación del contratista (art. 246.1 LCSP)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LCSP",
+      "rol": "Norma principal del tema (arts. 197 a 198, 233.1, 239 a 243 y 246)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 198.1 LCSP, ¿qué derecho tiene el contratista durante la ejecución del contrato?",
+      "opciones": [
+        "El precio total del contrato desde el inicio de la obra",
+        "Un porcentaje fijo del presupuesto, con independencia de lo ejecutado",
+        "El abono del precio convenido por la prestación realizada, en los términos de la ley y del contrato",
+        "El precio de las unidades previstas aunque no se ejecuten"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 198.1 LCSP reconoce el abono del precio convenido por la prestación realizada. Se paga lo ejecutado, no lo previsto.",
+      "referencia": "Art. 198.1 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 197 LCSP, ¿a quién corresponde, como regla general, el riesgo y ventura de la ejecución del contrato de obras?",
+      "opciones": [
+        "Al contratista, sin perjuicio de lo establecido para las obras en el art. 239",
+        "A la Administración contratante",
+        "A la dirección facultativa",
+        "Por mitades entre contratista y Administración"
+      ],
+      "correcta": 0,
+      "explicacion": "La ejecución se realiza a riesgo y ventura del contratista. La excepción es la fuerza mayor del art. 239, que da derecho a indemnización.",
+      "referencia": "Art. 197 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 240.1 LCSP, ¿cuándo expide la Administración las certificaciones mensuales de obra?",
+      "opciones": [
+        "En los primeros diez días del mismo mes",
+        "En el momento de la recepción",
+        "En los primeros treinta días del trimestre",
+        "En los primeros diez días siguientes al mes al que correspondan"
+      ],
+      "correcta": 3,
+      "explicacion": "Las certificaciones se expiden mensualmente en los primeros diez días siguientes al mes al que corresponda la obra ejecutada, salvo que el pliego prevea otra cosa.",
+      "referencia": "Art. 240.1 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 240.2 LCSP, ¿qué exige la ley para los abonos a cuenta por acopio de materiales?",
+      "opciones": [
+        "Una hipoteca sobre la obra",
+        "Una prestación de garantía que asegure el pago",
+        "Ninguna garantía, si el pliego lo autoriza",
+        "Un aval del director facultativo"
+      ],
+      "correcta": 1,
+      "explicacion": "Los pagos por instalaciones y acopio de materiales o equipos deben asegurarse mediante la prestación de garantía.",
+      "referencia": "Art. 240.2 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 241.2 LCSP, ¿qué ocurre con las modificaciones necesarias para corregir errores u omisiones del proyecto en un tanto alzado con precio cerrado?",
+      "opciones": [
+        "Las modificaciones necesarias para corregirlos no son abonables",
+        "Son abonables mediante un modificado",
+        "Se reparten al 50 por ciento",
+        "Las paga siempre la Administración"
+      ],
+      "correcta": 0,
+      "explicacion": "En el precio cerrado el precio ofertado se mantiene invariable, y las modificaciones que corrigen errores del proyecto no son abonables.",
+      "referencia": "Art. 241.2 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 242.2 LCSP, ¿durante cuánto tiempo mínimo debe darse audiencia al contratista antes de fijar precios de unidades no previstas?",
+      "opciones": [
+        "Un día hábil",
+        "Quince días naturales",
+        "Diez días hábiles",
+        "Tres días hábiles"
+      ],
+      "correcta": 3,
+      "explicacion": "La audiencia previa al contratista es de plazo mínimo de tres días hábiles, antes de que la Administración fije los precios de las unidades no previstas.",
+      "referencia": "Art. 242.2 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 243.1 LCSP, ¿en qué plazo debe aprobar el órgano de contratación la certificación final de las obras?",
+      "opciones": [
+        "Un mes desde la recepción",
+        "Seis meses desde la recepción",
+        "Tres meses desde la recepción, ampliable a cinco en obras de más de doce millones con liquidación compleja",
+        "Un año desde el fin del plazo de garantía"
+      ],
+      "correcta": 2,
+      "explicacion": "El plazo general es de tres meses desde la recepción. Los pliegos pueden ampliarlo a cinco meses solo en obras de valor estimado superior a doce millones de euros con liquidación y medición especialmente complejas.",
+      "referencia": "Art. 243.1 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 242.4.i LCSP, ¿cuándo el exceso de mediciones no se considera modificación del contrato?",
+      "opciones": [
+        "Siempre que se haya comunicado a la Intervención",
+        "Cuando en global no suponga un incremento del gasto superior al 10 por ciento del precio del contrato inicial",
+        "Cuando no supere el 50 por ciento del precio",
+        "Nunca: todo exceso de mediciones es modificación"
+      ],
+      "correcta": 1,
+      "explicacion": "El exceso de mediciones, es decir, la variación en el número de unidades realmente ejecutadas sobre las previstas, no es modificación si en global no supera el 10 por ciento del precio inicial.",
+      "referencia": "Art. 242.4.i LCSP"
+    },
+    {
+      "pregunta": "Según el art. 198.2 LCSP, cuando el importe acumulado de los abonos a cuenta alcanza el 90 por ciento del precio, ¿qué debe acompañar al expediente de pago cuando resulte preceptiva?",
+      "opciones": [
+        "La comunicación a la Intervención correspondiente",
+        "Un informe de la dirección facultativa sobre el 100 por ciento de la obra",
+        "El proyecto completo",
+        "Nada: no hay control adicional"
+      ],
+      "correcta": 0,
+      "explicacion": "El control adicional es la comunicación a la Intervención correspondiente, para su eventual asistencia a la recepción en sus funciones de comprobación material de la inversión.",
+      "referencia": "Art. 198.2 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 198.4 LCSP, ¿en qué plazo debe abonar la Administración el precio tras la aprobación de las certificaciones de obra?",
+      "opciones": [
+        "Quince días",
+        "Sesenta días desde la expedición de la certificación",
+        "Cuando se reciba la obra",
+        "Treinta días siguientes a la fecha de aprobación"
+      ],
+      "correcta": 3,
+      "explicacion": "La Administración debe abonar el precio dentro de los treinta días siguientes a la aprobación de las certificaciones. Si se demora, debe pagar intereses de demora según la Ley 3/2004.",
+      "referencia": "Art. 198.4 LCSP"
+    }
+  ]
+}

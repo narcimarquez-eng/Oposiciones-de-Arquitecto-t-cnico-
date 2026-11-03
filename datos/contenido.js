@@ -607,7 +607,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2017-12902.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1.1, 13.1, 14.1, 116 a 128 (salvo 125-128 en parte), 132.1, 145.1, 146.1, 231 a 236, 118 a 120 y 233.4 en el texto del PDF. Resto pendiente."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1.1, 13.1, 14.1, 116 a 128 (salvo 125-128 en parte), 132.1, 145.1, 146.1, 190, 192 a 198 (198.1 a 198.4), 233.1 (letras c y d), 236 a 246 (incluidos 240.1 y 240.2, 241.1 a 241.3, 242.2 a 242.4, 243.1 a 243.3, 244.1 y 245 a 246.4), 62.1 y 62.2, 231 a 236, 118 a 120 y 233.4 en el texto del PDF. Pendientes: resto de articulado, RD 1098/2001 (relaciones valoradas, certificaciones y partidas alzadas, no incluido en el repositorio) y el alcance de la STC 68/2021 sobre el art. 242.3 (inciso no identificado)."
   },
   "LTBG": {
    "id": "LTBG",
@@ -7513,6 +7513,793 @@ window.DATOS_ESTUDIO = {
      "nombre": "Ley Orgánica 2/2007, de reforma del Estatuto de Autonomía para Andalucía (texto consolidado, BOE)",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
      "pdf": "leyes/BOE-A-2007-5825.pdf"
+    }
+   ]
+  },
+  "e29": {
+   "resumen": [
+    {
+     "titulo": "Replanteo y comienzo de la ejecución",
+     "puntos": [
+      "El replanteo previo a la licitación comprueba la realidad geométrica de la obra y la disponibilidad de los terrenos (art. 236.1 LCSP).",
+      "La ejecución comienza con el acta de comprobación del replanteo, que se extiende en presencia del contratista en el plazo máximo de un mes desde la formalización, salvo casos excepcionales justificados (art. 237 LCSP).",
+      "La demora injustificada en la comprobación del replanteo es causa específica de resolución (art. 245.a LCSP)."
+     ]
+    },
+    {
+     "titulo": "Ejecución y responsabilidad del contratista",
+     "puntos": [
+      "Las obras se ejecutan con estricta sujeción al pliego, al proyecto y a las instrucciones técnicas de la dirección facultativa (art. 238.1 LCSP).",
+      "Las instrucciones verbales deben ratificarse por escrito en el plazo más breve posible para ser vinculantes (art. 238.2 LCSP).",
+      "Durante el desarrollo de las obras y hasta el plazo de garantía, el contratista responde de todos los defectos de la construcción que puedan advertirse (art. 238.3 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Prerrogativas y responsable del contrato",
+     "puntos": [
+      "El órgano de contratación tiene las prerrogativas de interpretar el contrato, resolver dudas, modificarlo por interés público, declarar la responsabilidad del contratista, suspender la ejecución y acordar la resolución (art. 190 LCSP).",
+      "El responsable del contrato supervisa la ejecución y adopta las decisiones necesarias. En los contratos de obras, sus facultades las ejerce el director facultativo (art. 62.1 y 62.2 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Incumplimientos, mora y penalidades",
+     "puntos": [
+      "Las penalidades por cumplimiento defectuoso o incumplimiento de condiciones especiales no pueden superar el 10 por ciento del precio del contrato por cada una, ni el 50 por ciento en total (art. 192.1 LCSP).",
+      "La constitución en mora no precisa intimación previa de la Administración (art. 193.2 LCSP).",
+      "Si no hay penalidad o no cubre el daño, la Administración exige la indemnización por daños y perjuicios (art. 194.1 LCSP). Las penalidades las impone el órgano de contratación, a propuesta del responsable del contrato, y son inmediatamente ejecutivas (art. 194.2 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Resolución y liquidación",
+     "puntos": [
+      "La resolución por demora la acuerda el órgano de contratación, con audiencia del contratista y, si este se opone, dictamen consultivo (art. 195.1 LCSP).",
+      "Causas específicas del artículo 245: demora en el replanteo; suspensión de la iniciación por más de cuatro meses; suspensión de las obras por más de ocho meses por la Administración; y desistimiento.",
+      "La resolución da lugar a la comprobación, medición y liquidación de lo ejecutado, con citación del contratista (art. 246.1 LCSP). Las indemnizaciones son del 2, 3 o 6 por ciento según la causa y el momento (art. 246.2 a 246.4 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Recepción, certificación final y garantía",
+     "puntos": [
+      "La recepción da inicio al plazo de garantía mediante acta (art. 243.2 LCSP). El plazo de garantía no puede ser inferior a un año salvo casos especiales (art. 243.3 LCSP).",
+      "La certificación final se aprueba en tres meses desde la recepción (art. 243.1 LCSP).",
+      "Responsabilidad por daños estructurales tras el plazo de garantía, por incumplimiento: quince años desde la recepción (art. 244.1 LCSP). La LOE fija diez años para daños estructurales (art. 17.1.a LOE)."
+     ]
+    },
+    {
+     "titulo": "Fuerza mayor",
+     "puntos": [
+      "En fuerza mayor, sin actuación imprudente del contratista, este tiene derecho a una indemnización por daños y perjuicios (art. 239.1 LCSP).",
+      "El artículo 239.2 enumera los casos de fuerza mayor, como los fenómenos naturales de efectos catastróficos o los destrozos violentos en tiempo de guerra."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LCSP",
+     "rol": "Norma principal del tema (arts. 62, 190 a 196, 236 a 246)"
+    },
+    {
+     "id": "LOE",
+     "rol": "Complementaria: licencias, promotor y responsabilidad decenal (arts. 5, 9.2.c y 17.1.a)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 237 LCSP, ¿en qué plazo máximo, salvo casos excepcionales justificados, debe efectuarse la comprobación del replanteo tras la formalización del contrato?",
+     "opciones": [
+      "Un mes desde la formalización del contrato",
+      "Tres meses desde la formalización",
+      "Seis meses desde la formalización",
+      "No hay plazo previsto"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 237 LCSP fija un plazo que no puede ser superior a un mes desde la formalización, salvo casos excepcionales justificados.",
+     "referencia": "Art. 237 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 239.1 LCSP, en un caso de fuerza mayor y sin actuación imprudente del contratista, ¿qué derecho tiene este?",
+     "opciones": [
+      "Resolución automática del contrato sin indemnización",
+      "Ampliación del precio sin indemnización",
+      "Una indemnización por los daños y perjuicios producidos",
+      "Ninguno, porque asume el riesgo y ventura"
+     ],
+     "correcta": 2,
+     "explicacion": "La fuerza mayor da derecho a una indemnización por daños y perjuicios, siempre que no haya imprudencia del contratista. El riesgo y ventura se aplica sin perjuicio de esta excepción.",
+     "referencia": "Art. 239.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 193.2 LCSP, ¿la constitución en mora del contratista exige intimación previa de la Administración?",
+     "opciones": [
+      "Sí, siempre y por escrito",
+      "Solo si el contrato prevé penalidades",
+      "No, no precisa intimación previa",
+      "Sí, con un plazo de quince días"
+     ],
+     "correcta": 2,
+     "explicacion": "La mora se produce por el solo vencimiento del plazo; el art. 193.2 LCSP dice expresamente que no precisa intimación previa.",
+     "referencia": "Art. 193.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 192.1 LCSP, ¿cuál es el límite de cada penalidad por cumplimiento defectuoso?",
+     "opciones": [
+      "El 5 por ciento del precio",
+      "El 10 por ciento del precio del contrato, IVA excluido, por cada penalidad",
+      "El 20 por ciento del precio",
+      "El 50 por ciento del precio por cada penalidad"
+     ],
+     "correcta": 1,
+     "explicacion": "Cada penalidad no puede superar el 10 por ciento del precio del contrato, IVA excluido, y el total no puede superar el 50 por ciento.",
+     "referencia": "Art. 192.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 194.2 LCSP, ¿quién impone las penalidades previstas en el contrato?",
+     "opciones": [
+      "El órgano de contratación, a propuesta del responsable del contrato si se hubiese designado",
+      "El director facultativo, sin acuerdo previo",
+      "El contratista, mediante aceptación",
+      "Un juez de lo contencioso-administrativo"
+     ],
+     "correcta": 0,
+     "explicacion": "Las penalidades se imponen por acuerdo del órgano de contratación, a propuesta del responsable del contrato si se ha designado, y son inmediatamente ejecutivas.",
+     "referencia": "Art. 194.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 195.1 LCSP, si la Administración opta por resolver el contrato por demora, ¿qué trámite previo es necesario?",
+     "opciones": [
+      "Un informe de la Intervención",
+      "Dictamen del Consejo de Estado siempre",
+      "Ningún trámite",
+      "Solo la audiencia del contratista; el dictamen consultivo si este se opone"
+     ],
+     "correcta": 3,
+     "explicacion": "El trámite preceptivo es la audiencia del contratista. El dictamen del Consejo de Estado, o del órgano autonómico equivalente, solo es necesario si el contratista formula oposición.",
+     "referencia": "Art. 195.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 245 LCSP, ¿cuál es una de las causas específicas de resolución del contrato de obras?",
+     "opciones": [
+      "Suspensión de la iniciación de las obras por más de dos meses",
+      "Suspensión de la iniciación de las obras por más de cuatro meses",
+      "Suspensión de las obras por más de doce meses",
+      "No existe ninguna causa específica"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 245.b LCSP establece que la suspensión de la iniciación de las obras por plazo superior a cuatro meses es causa de resolución.",
+     "referencia": "Art. 245.b LCSP"
+    },
+    {
+     "pregunta": "Según el art. 243.2 LCSP, ¿desde cuándo comienza el plazo de garantía de las obras?",
+     "opciones": [
+      "Desde la formalización del contrato",
+      "Desde el acta de recepción",
+      "Desde el acta de comprobación del replanteo",
+      "Desde la certificación final"
+     ],
+     "correcta": 1,
+     "explicacion": "Si las obras se reciben, se levanta el acta de recepción y en ese momento comienza el plazo de garantía.",
+     "referencia": "Art. 243.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 243.3 LCSP, ¿cuál es la duración mínima del plazo de garantía, salvo casos especiales?",
+     "opciones": [
+      "Un año",
+      "Seis meses",
+      "Dos años",
+      "Cinco años"
+     ],
+     "correcta": 0,
+     "explicacion": "El plazo de garantía lo fija el pliego según la naturaleza y complejidad de la obra, pero no puede ser inferior a un año salvo casos especiales.",
+     "referencia": "Art. 243.3 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 244.1 LCSP, si la obra se arruina o sufre deterioros graves por incumplimiento del contrato, tras el plazo de garantía, ¿durante cuánto tiempo responde el contratista?",
+     "opciones": [
+      "Diez años",
+      "Tres años desde la liquidación",
+      "Dos años desde la certificación final",
+      "Quince años desde la recepción"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 244.1 LCSP fija quince años desde la recepción. La LOE, en cambio, fija diez años para los daños estructurales (art. 17.1.a LOE), por lo que hay que precisar qué régimen es aplicable.",
+     "referencia": "Art. 244.1 LCSP"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. La fase de ejecución y sus reglas básicas",
+     "parrafos": [
+      "La ejecución es la fase en la que la obra se construye. Tras la adjudicación y la formalización, el contrato entra en su periodo de ejecución, que se rige por el pliego de cláusulas administrativas particulares, por el proyecto y por las instrucciones de la dirección facultativa. Es la fase de mayor relevancia práctica, porque en ella se producen la mayoría de incidencias, modificaciones y reclamaciones.",
+      "El artículo 238.1 LCSP establece que las obras se ejecutarán con estricta sujeción a las estipulaciones del pliego de cláusulas administrativas particulares y al proyecto que sirve de base al contrato, y conforme a las instrucciones que en interpretación técnica de este dé al contratista la dirección facultativa de las obras. Esa triple referencia (pliego, proyecto e instrucciones) es la base de la ejecución.",
+      "El artículo 238.2 LCSP regula las instrucciones verbales: cuando sean verbales, deben ratificarse por escrito en el más breve plazo posible, para que sean vinculantes. La exigencia de escritura protege la certeza de las órdenes y evita controversias sobre lo que se pidió.",
+      "Para un examen, la pregunta típica es qué debe seguir el contratista en la ejecución. La respuesta es el pliego, el proyecto y las instrucciones escritas de la dirección facultativa."
+     ]
+    },
+    {
+     "titulo": "2. Comprobación del replanteo: acta y efectos",
+     "parrafos": [
+      "El replanteo previo a la licitación se regula en el artículo 236 LCSP, y tiene por objeto comprobar la realidad geométrica de la obra y la disponibilidad de los terrenos (tema e25). La ejecución del contrato, en cambio, comienza con el acta de comprobación del replanteo, que se extiende en presencia del contratista.",
+      "El artículo 237 LCSP establece el plazo. El acta debe levantarse dentro del plazo que se consigne en el contrato, que no puede ser superior a un mes desde la fecha de su formalización, salvo casos excepcionales justificados. El servicio de la Administración encargado de las obras procede a la comprobación en presencia del contratista.",
+      "El acta del resultado debe firmarse por ambas partes, y se remite un ejemplar al órgano que celebró el contrato (art. 237 LCSP). El acta es el documento que acredita el inicio de la ejecución y su resultado.",
+      "Si el replanteo revela que no se puede ejecutar la obra tal como estaba proyectada, las modificaciones acordadas como consecuencia de la comprobación deben tramitarse como modificaciones del contrato, con sus requisitos (tema e32). Y la demora injustificada en la comprobación del replanteo es causa de resolución del contrato (art. 245 a) LCSP).",
+      "Para un examen, la secuencia es: replanteo previo a la licitación (art. 236), acta de comprobación en el plazo máximo de un mes (art. 237), y en caso de demora injustificada, causa de resolución (art. 245.a)."
+     ]
+    },
+    {
+     "titulo": "3. Incidencias, autorizaciones y licencias",
+     "parrafos": [
+      "Durante la ejecución pueden surgir incidencias: un defecto del proyecto, una circunstancia no prevista, la necesidad de una autorización de otra administración o un cambio en el terreno. Las incidencias se resuelven con las prerrogativas del órgano de contratación, que incluyen interpretar el contrato y resolver las dudas que ofrezca su cumplimiento (art. 190 LCSP).",
+      "La obra necesita licencias y autorizaciones administrativas. La LOE establece que la construcción de edificios, la realización de sus obras y su ocupación precisan las licencias y autorizaciones que la normativa aplicable exige (art. 5 LOE). Corresponde al promotor obtener y gestionar esas licencias (art. 9.2.c LOE).",
+      "El temario recoge también la ocupación temporal de terrenos a favor del contratista. Su régimen concreto se regula en la LCSP y en su desarrollo, y debe comprobarse en el texto antes de citarlo en un examen.",
+      "Para un examen, la diferencia es que las incidencias de la ejecución se resuelven con prerrogativas (LCSP), mientras que las licencias son un requisito administrativo previo a la obra (LOE)."
+     ]
+    },
+    {
+     "titulo": "4. Ejecución y responsabilidad del contratista",
+     "parrafos": [
+      "El artículo 238.3 LCSP establece que, durante el desarrollo de las obras y hasta que se cumpla el plazo de garantía, el contratista es responsable de todos los defectos que en la construcción puedan advertirse. Es una responsabilidad que dura toda la ejecución y el plazo de garantía.",
+      "El artículo 239 LCSP regula la fuerza mayor. En casos de fuerza mayor y siempre que no exista actuación imprudente por parte del contratista, este tiene derecho a una indemnización por los daños y perjuicios producidos en la ejecución del contrato (art. 239.1). El artículo 239.2 enumera los casos de fuerza mayor, entre ellos los incendios causados por electricidad atmosférica, los fenómenos naturales de efectos catastróficos, y los destrozos violentos en tiempo de guerra o los robos tumultuosos.",
+      "Para un examen, la pregunta típica es si el contratista responde de un daño causado por fuerza mayor. La respuesta es que no responde, pero tiene derecho a indemnización, siempre que no haya imprudencia por su parte.",
+      "La responsabilidad del contratista frente a terceros se regula en el artículo 196 LCSP, que lo obliga a indemnizar los daños causados a terceros en la ejecución, tema que se conecta con la responsabilidad del tema e28."
+     ]
+    },
+    {
+     "titulo": "5. Incumplimientos, demora y penalidades",
+     "parrafos": [
+      "El artículo 193.1 LCSP obliga al contratista a cumplir el contrato dentro del plazo total fijado y de los plazos parciales señalados para su ejecución sucesiva. El plazo es una obligación esencial, y su incumplimiento tiene consecuencias.",
+      "El artículo 193.2 LCSP establece que la constitución en mora del contratista no precisa intimación previa por parte de la Administración. La mora se produce por el solo vencimiento del plazo, lo que simplifica la reacción de la Administración.",
+      "El artículo 194.1 LCSP regula los daños y perjuicios. En los supuestos de incumplimiento parcial, cumplimiento defectuoso o demora en que no esté prevista penalidad, o en que la penalidad no cubra los daños causados, la Administración exige al contratista la indemnización por daños y perjuicios. Las penalidades que prevé el contrato se regulan en el artículo 194.2.",
+      "El artículo 195 LCSP regula la resolución por demora y la ampliación del plazo de ejecución. El artículo 192 regula el incumplimiento parcial o el cumplimiento defectuoso, cuyas consecuencias se determinan en los pliegos.",
+      "Para un examen, el orden es: primero, la mora (sin intimación previa, art. 193.2); después, la penalidad si está prevista; si no cubre el daño, la indemnización (art. 194.1); y, si la demora es grave, la resolución (art. 195)."
+     ]
+    },
+    {
+     "titulo": "6. El programa de trabajo",
+     "parrafos": [
+      "El temario recoge el programa de trabajo que debe presentar el contratista. Este programa es el instrumento que permite a la Administración seguir el ritmo de la obra y detectar retrasos a tiempo, y se relaciona con el plan de obra indicativo que el proyecto incluye (art. 233.1.e LCSP).",
+      "El régimen concreto del programa de trabajo, su plazo de presentación y su aprobación se regulan en la LCSP y en su normativa de desarrollo, que no está en el repositorio. Antes de citarlo en un examen debe comprobarse el texto vigente.",
+      "Para un examen, conviene recordar que el programa del contratista es distinto del plan de obra indicativo del proyecto: el primero es el compromiso del contratista; el segundo, una previsión del proyecto."
+     ]
+    },
+    {
+     "titulo": "7. Resolución del contrato de obras",
+     "parrafos": [
+      "El artículo 245 LCSP establece las causas específicas de resolución del contrato de obras, además de las generales de la ley. Son cuatro: la demora injustificada en la comprobación del replanteo (letra a); la suspensión de la iniciación de las obras por plazo superior a cuatro meses (letra b); la suspensión de las obras por plazo superior a ocho meses por parte de la Administración (letra c); y el desistimiento (letra d).",
+      "El artículo 246.1 LCSP regula los efectos de la resolución. Da lugar a la comprobación, medición y liquidación de las obras realizadas conforme al proyecto, fijando los saldos a favor o en contra del contratista. Es necesaria la citación del contratista, en el domicilio del expediente, para asistir al acto de comprobación y medición.",
+      "El artículo 246.2 LCSP fija una indemnización para la demora injustificada en la comprobación del replanteo que dé lugar a la resolución: el contratista tiene derecho, por todos los conceptos, al 2 por ciento del precio de adjudicación, IVA excluido. El artículo 246.3 fija el 3 por ciento en el desistimiento antes de iniciar las obras, o en la suspensión de su iniciación por plazo superior a cuatro meses. El artículo 246.4 fija el 6 por ciento del beneficio industrial sobre las obras dejadas de realizar, en el desistimiento tras iniciarse la ejecución o en la suspensión de obras iniciadas por plazo superior a ocho meses. Para un examen, la clave es saber qué porcentaje corresponde según la causa y el momento.",
+      "Para un examen, la pregunta típica es qué causa de resolución corresponde a una suspensión concreta. La respuesta depende de quién suspende y de la duración: por la Administración, más de ocho meses; por la no iniciación, más de cuatro."
+     ]
+    },
+    {
+     "titulo": "8. La recepción de la obra",
+     "parrafos": [
+      "El artículo 243.1 LCSP regula la recepción. A la terminación de las obras concurren un facultativo designado por la Administración, que la representa, el facultativo encargado de la dirección de las obras y el contratista, asistido si lo estima oportuno de su facultativo.",
+      "Dentro del plazo de tres meses contados desde la recepción, el órgano de contratación debe aprobar la certificación final de las obras ejecutadas, que se abona al contratista a cuenta de la liquidación. En obras cuyo valor estimado supere los doce millones de euros, y con liquidaciones especialmente complejas, los pliegos pueden ampliar ese plazo hasta cinco meses.",
+      "El artículo 243.2 LCSP establece que, si las obras están en buen estado y de acuerdo con las prescripciones, el funcionario técnico designado las da por recibidas, se levanta el acta y empieza el plazo de garantía. Si no están en estado de recepción, el acta lo hace constar y el director de las obras señala los defectos observados.",
+      "Para un examen, la síntesis es que la recepción se produce con un acta y que marca el inicio del plazo de garantía. Sin acta de recepción, el plazo de garantía no empieza."
+     ]
+    },
+    {
+     "titulo": "9. Plazo de garantía y responsabilidad por vicios ocultos",
+     "parrafos": [
+      "Desde el acta de recepción empieza el plazo de garantía. Durante ese plazo, el contratista responde de los defectos de la construcción que se adviertan (art. 238.3 LCSP). La duración del plazo de garantía debe comprobarse en el texto de la ley y en los pliegos.",
+      "El artículo 244.1 LCSP regula los vicios ocultos. Si la obra se arruina o sufre deterioros graves incompatibles con su función después de la expiración del plazo de garantía, por vicios ocultos de la construcción y debido a incumplimiento del contrato, el contratista responde de los daños.",
+      "El artículo 244.1 LCSP establece que, si la obra se arruina o sufre deterioros graves incompatibles con su función, después del plazo de garantía y por incumplimiento del contrato, el contratista responde de los daños que se produzcan o manifiesten durante quince años desde la recepción. Asimismo, responde durante ese plazo de los daños materiales por vicios que afecten a la cimentación, los soportes, las vigas, los forjados, los muros de carga u otros elementos estructurales que comprometan la estabilidad.",
+      "Para un examen, conviene distinguir el plazo de garantía (durante la obra y tras la recepción), el plazo de quince años de la LCSP para vicios ocultos estructurales (art. 244.1) y el plazo de diez años de la LOE para daños estructurales (art. 17.1.a LOE). Los dos regímenes conviven, y la pregunta exige precisar cuál es aplicable."
+     ]
+    },
+    {
+     "titulo": "10. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema e25 sobre el replanteo previo y el proyecto, con el tema e27 sobre el precio, con el tema e28 sobre las partes y la subcontratación, y con el tema e30 sobre el abono de la obra, porque las certificaciones se calculan sobre lo ejecutado conforme al proyecto.",
+      "Se conecta con el tema e32 sobre modificación, porque las modificaciones que surgen durante la ejecución se tramitan con sus reglas, y con el tema e33 sobre suspensión y extinción, porque las causas de resolución del artículo 245 son el punto de partida del tema siguiente.",
+      "Para un examen, el tema es la columna vertebral de la obra: la ejecución, las incidencias, la resolución y la recepción siguen una secuencia que conviene dominar."
+     ]
+    },
+    {
+     "titulo": "11. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir el replanteo previo a la licitación (art. 236) con la comprobación del replanteo que da inicio a la ejecución (art. 237).",
+      "Afirmar que la mora exige requerimiento previo. La mora se produce por el vencimiento del plazo, sin intimación previa (art. 193.2 LCSP).",
+      "Confundir la fuerza mayor con la imprudencia del contratista. Con fuerza mayor y sin imprudencia hay indemnización (art. 239.1); con imprudencia, responde el contratista.",
+      "Olvidar que el plazo para la certificación final es de tres meses desde la recepción (art. 243.1) y que puede ampliarse a cinco en obras complejas de más de doce millones.",
+      "Atribuir el plazo de quince años de vicios ocultos (art. 244.1 LCSP) a la LOE. La LOE fija diez años para daños estructurales (art. 17.1.a)."
+     ]
+    },
+    {
+     "titulo": "12. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué documentos rigen la ejecución de la obra? El pliego de cláusulas administrativas particulares, el proyecto y las instrucciones escritas de la dirección facultativa (art. 238.1 LCSP).",
+      "¿Cuál es el plazo máximo para levantar el acta de comprobación del replanteo? Un mes desde la formalización del contrato, salvo casos excepcionales justificados (art. 237 LCSP).",
+      "¿Qué pasa en la fuerza mayor sin imprudencia del contratista? Tiene derecho a indemnización por los daños producidos (art. 239.1 LCSP).",
+      "¿Cuándo se considera causa de resolución la suspensión de las obras por la Administración? Cuando dura más de ocho meses (art. 245.c LCSP).",
+      "¿Qué plazo tiene el órgano de contratación para aprobar la certificación final? Tres meses desde la recepción (art. 243.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "13. Método para resolver casos",
+     "parrafos": [
+      "Para resolver un caso de ejecución, conviene seguir tres pasos. Primero, identificar la fase en que se produce el hecho: replanteo, ejecución, recepción o plazo de garantía. Segundo, determinar la causa: incumplimiento, demora, fuerza mayor, incidencia o resolución. Tercero, aplicar el artículo que regula esa causa (arts. 193 a 195 y 237 a 246 LCSP)."
+     ]
+    },
+    {
+     "titulo": "15. Penalidades: procedimiento e imposición",
+     "parrafos": [
+      "El artículo 194.2 LCSP regula cómo se imponen las penalidades previstas en los contratos por incumplimiento. Se imponen por acuerdo del órgano de contratación, adoptado a propuesta del responsable del contrato si se hubiese designado. El acuerdo es inmediatamente ejecutivo, es decir, no necesita esperar a la firmeza para surtir efecto.",
+      "Las penalidades se hacen efectivas mediante la deducción de las cantidades que deban abonarse al contratista, en concepto de pago total o parcial, o sobre la garantía constituida, cuando no puedan deducirse de los pagos. La deducción sobre los pagos es el procedimiento preferente, y la garantía es el recurso subsidiario.",
+      "Para un examen, la diferencia con la indemnización es que la penalidad está prevista en el contrato y se impone de forma tasada, mientras que la indemnización se exige cuando la penalidad no existe o no cubre el daño (art. 194.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "16. Resolución por demora y ampliación del plazo",
+     "parrafos": [
+      "El artículo 195.1 LCSP regula la resolución por demora. Si la Administración opta por la resolución, debe acordarse por el órgano de contratación, o por el órgano que tenga esa competencia en las Comunidades Autónomas. El trámite previo es solo la audiencia del contratista, y si este se opone, el dictamen del Consejo de Estado u órgano consultivo equivalente de la Comunidad Autónoma.",
+      "La Administración puede optar entre resolver el contrato o conceder al contratista una ampliación del plazo. La elección no es libre en todo caso: debe motivarse en el interés de la obra y en las circunstancias de la demora. Para un examen, la pregunta típica es qué trámite exige la resolución por demora. La respuesta es la audiencia del contratista, y el dictamen del órgano consultivo cuando hay oposición."
+     ]
+    },
+    {
+     "titulo": "17. Unidades de obra no previstas y resolución en la modificación",
+     "parrafos": [
+      "El artículo 242.2 LCSP regula las unidades de obra no previstas en el proyecto o cuyas características difieran de las fijadas en él, cuando no sea necesario hacer una nueva licitación. En ese caso, los precios aplicables los fija la Administración, previa audiencia del contratista por un plazo mínimo de tres días hábiles.",
+      "Si el contratista no acepta los precios fijados, el órgano de contratación puede contratar las unidades con otro empresario a esos mismos precios, ejecutarlas directamente o optar por la resolución del contrato. La regla protege a la Administración frente a una negativa del contratista a ejecutar lo necesario.",
+      "Para un examen, la pregunta es qué hace la Administración con una unidad no prevista. La respuesta es fijar el precio tras audiencia de tres días hábiles y, si el contratista no lo acepta, contratarla con otro, ejecutarla directamente o resolver el contrato. Los detalles de la modificación se estudian en el tema e32."
+     ]
+    },
+    {
+     "titulo": "18. Casos prácticos de incumplimiento y resolución",
+     "parrafos": [
+      "Caso 1: la obra tiene un plazo de doce meses y, en el mes catorce, sigue sin terminar por causa imputable al contratista. La mora se produce por el vencimiento del plazo, sin intimación previa (art. 193.2 LCSP). Si el contrato prevé penalidades, se imponen por acuerdo del órgano de contratación y se deducen de los pagos (art. 194.2). Si la penalidad no cubre el daño, la Administración exige indemnización (art. 194.1).",
+      "Caso 2: la Administración suspende las obras durante nueve meses por razones propias. La suspensión supera los ocho meses, y es causa de resolución del contrato (art. 245.c LCSP). Con la resolución, se comprueban, miden y liquidan las obras realizadas (art. 246.1).",
+      "Caso 3: la Administración suspende la iniciación de las obras durante cinco meses. Ese plazo supera los cuatro meses previstos, y es causa de resolución (art. 245.b LCSP).",
+      "Caso 4: un daño por una tormenta excepcional impide la ejecución de una parte de la obra, sin imprudencia del contratista. Es fuerza mayor: el contratista tiene derecho a indemnización por los daños producidos (art. 239.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "19. Cuadro de plazos de la ejecución y la recepción",
+     "parrafos": [
+      "Acta de comprobación del replanteo: un mes desde la formalización, salvo casos excepcionales (art. 237 LCSP).",
+      "Suspensión de la iniciación: resolución si supera cuatro meses (art. 245.b LCSP). Suspensión por la Administración: resolución si supera ocho meses (art. 245.c).",
+      "Certificación final: tres meses desde la recepción, ampliables a cinco en obras de valor estimado superior a doce millones de euros (art. 243.1 LCSP).",
+      "Responsabilidad por vicios ocultos estructurales: quince años desde la recepción (art. 244.1 LCSP), frente a los diez de la LOE (art. 17.1.a LOE).",
+      "Para un examen, conviene memorizar los plazos de cuatro, ocho y tres meses, y los de quince y diez años, porque son los que más se confunden."
+     ]
+    },
+    {
+     "titulo": "20. Quién hace qué durante la ejecución",
+     "parrafos": [
+      "El órgano de contratación decide: interpreta el contrato, modifica, suspende y resuelve (art. 190 LCSP), y es el competente para declarar la resolución por demora (art. 195.1).",
+      "El responsable del contrato supervisa la ejecución y propone las decisiones (art. 62.1 LCSP; art. 194.2 para las penalidades).",
+      "El director de obra y el director de la ejecución controlan la obra desde el punto de vista técnico (arts. 12 y 13 LOE). El director de la ejecución controla la calidad material; el director de obra, los aspectos técnicos y estéticos del proyecto.",
+      "El contratista ejecuta la obra conforme al pliego, al proyecto y a las instrucciones escritas, y responde de los defectos hasta el fin del plazo de garantía (art. 238 LCSP).",
+      "Para un examen, la pregunta es quién puede tomar una decisión concreta. La respuesta depende de si es jurídica (órgano de contratación), de supervisión (responsable del contrato) o técnica (dirección facultativa)."
+     ]
+    },
+    {
+     "titulo": "21. La documentación de la obra durante la ejecución",
+     "parrafos": [
+      "Durante la ejecución se generan documentos que acreditan lo hecho: el acta de comprobación del replanteo (art. 237 LCSP), las certificaciones mensuales (art. 240.1), las instrucciones escritas de la dirección facultativa (art. 238.2) y las modificaciones aprobadas. Esa documentación es la base de la liquidación final.",
+      "La LOE complementa esta documentación con el Libro del Edificio. El artículo 7 LOE establece que, al terminar la obra, el director de obra facilita al promotor la documentación final, que constituye el Libro del Edificio. El artículo 9.2.e) LOE obliga al promotor a entregar al adquirente la documentación de la obra ejecutada.",
+      "Para un examen, conviene distinguir la documentación contractual (LCSP: actas, certificaciones, instrucciones) de la documentación del edificio (LOE: Libro del Edificio). Ambas se entregan al final, pero tienen destinatarios y funciones distintas."
+     ]
+    },
+    {
+     "titulo": "14. Claves para el examen",
+     "parrafos": [
+      "Ejecución: pliego, proyecto e instrucciones escritas (art. 238.1 LCSP); responsabilidad hasta el fin del plazo de garantía (art. 238.3).",
+      "Replanteo: acta en un mes desde la formalización (art. 237); demora injustificada, causa de resolución (art. 245.a).",
+      "Fuerza mayor: indemnización sin imprudencia (art. 239.1); casos enumerados (art. 239.2).",
+      "Mora: sin intimación previa (art. 193.2); indemnización si la penalidad no cubre el daño (art. 194.1).",
+      "Resolución: causas del artículo 245 (replanteo, suspensiones de cuatro y ocho meses, desistimiento); liquidación (art. 246.1).",
+      "Recepción: acta y tres meses para la certificación final, ampliables a cinco en obras de más de doce millones (art. 243); garantía y vicios ocultos (arts. 243.3 y 244.1)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 9/2017, de Contratos del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+     "pdf": "leyes/BOE-A-2017-12902.pdf"
+    },
+    {
+     "nombre": "Ley 38/1999, de Ordenación de la Edificación (texto consolidado, BOE)",
+     "url": "https://www.boe.es/eli/es/l/1999/11/05/38/con",
+     "pdf": "leyes/BOE-A-1999-21567.pdf"
+    }
+   ]
+  },
+  "e30": {
+   "resumen": [
+    {
+     "titulo": "Abono, riesgo y ventura",
+     "puntos": [
+      "El contratista tiene derecho al abono del precio convenido por la prestación realizada, según la ley y el contrato (art. 198.1 LCSP).",
+      "La ejecución se realiza a riesgo y ventura del contratista, sin perjuicio de la fuerza mayor del artículo 239 (art. 197 LCSP).",
+      "En fuerza mayor, sin imprudencia del contratista, este tiene derecho a una indemnización por daños y perjuicios (art. 239.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Pago, abonos a cuenta y plazos",
+     "puntos": [
+      "El pago puede ser total o parcial, mediante abonos a cuenta o pagos por vencimientos en contratos de tracto sucesivo (art. 198.2 LCSP).",
+      "Cuando el acumulado de abonos a cuenta alcanza el 90 por ciento del precio, incluidas las modificaciones aprobadas, debe acompañarse la comunicación a la Intervención cuando resulte preceptiva (art. 198.2 LCSP).",
+      "La Administración paga el precio dentro de los treinta días siguientes a la aprobación de las certificaciones. Si se demora, debe abonar intereses de demora según la Ley 3/2004 (art. 198.4 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Mediciones y certificaciones",
+     "puntos": [
+      "El proyecto debe incluir precios unitarios, en su caso descompuestos, estado de mediciones y detalles para la valoración (art. 233.1.d LCSP).",
+      "La Administración expide mensualmente, en los primeros diez días siguientes al mes, certificaciones de la obra ejecutada conforme a proyecto. El pliego puede prever otra cosa (art. 240.1 LCSP).",
+      "Los abonos a cuenta son pagos a cuenta sujetos a la medición final y no suponen aprobación ni recepción de la obra (art. 240.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Audiencia del contratista",
+     "puntos": [
+      "Antes de fijar los precios de unidades no previstas, la Administración debe dar audiencia al contratista por plazo mínimo de tres días hábiles (art. 242.2 LCSP).",
+      "En la modificación del proyecto propuesta por el director facultativo, se dan audiencia al contratista y al redactor del proyecto por plazo mínimo de tres días (art. 242.4.b LCSP).",
+      "En la liquidación por resolución, el contratista debe ser citado para asistir a la comprobación y medición (art. 246.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Abonos a cuenta por acopio y garantías",
+     "puntos": [
+      "El contratista puede recibir abonos a cuenta por instalaciones y acopio de materiales o equipos de maquinaria pesada adscritos a la obra (art. 240.2 LCSP).",
+      "Estos abonos deben asegurarse mediante la prestación de garantía (arts. 198.3 y 240.2 LCSP).",
+      "Las condiciones y límites se fijan en los pliegos y en la normativa de desarrollo."
+     ]
+    },
+    {
+     "titulo": "Exceso de mediciones y unidades ocultas",
+     "puntos": [
+      "El exceso de mediciones, si en global no supone un incremento del gasto superior al 10 por ciento del precio inicial, no se considera modificación y se recoge en la certificación final (art. 242.4.i LCSP).",
+      "Las unidades que van a quedar ocultas se comunican a la Intervención con al menos cinco días de antelación antes de su medición parcial (art. 242.3 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Tanto alzado y precio cerrado",
+     "puntos": [
+      "En el tanto alzado con precio cerrado, el precio se mantiene invariable y las modificaciones para corregir errores u omisiones del proyecto no son abonables (arts. 241.1 y 241.2 LCSP).",
+      "Requisitos: previsión en el pliego, unidades definidas en el proyecto y replanteadas antes de la licitación, y pago mensual en proporción a la obra ejecutada (art. 241.3 LCSP).",
+      "Las partidas alzadas y las relaciones valoradas no tienen su régimen en el texto de la LCSP. Corresponden a la normativa de desarrollo, que no se ha verificado en este repositorio."
+     ]
+    },
+    {
+     "titulo": "Certificación final y liquidación",
+     "puntos": [
+      "La certificación final se aprueba en el plazo de tres meses desde la recepción, ampliable a cinco en obras de más de doce millones de euros con liquidación especialmente compleja (art. 243.1 LCSP).",
+      "La liquidación fija los saldos definitivos y, en la resolución, se basa en la comprobación y medición de lo realizado con citación del contratista (art. 246.1 LCSP)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LCSP",
+     "rol": "Norma principal del tema (arts. 197 a 198, 233.1, 239 a 243 y 246)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 198.1 LCSP, ¿qué derecho tiene el contratista durante la ejecución del contrato?",
+     "opciones": [
+      "El precio total del contrato desde el inicio de la obra",
+      "Un porcentaje fijo del presupuesto, con independencia de lo ejecutado",
+      "El abono del precio convenido por la prestación realizada, en los términos de la ley y del contrato",
+      "El precio de las unidades previstas aunque no se ejecuten"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 198.1 LCSP reconoce el abono del precio convenido por la prestación realizada. Se paga lo ejecutado, no lo previsto.",
+     "referencia": "Art. 198.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 197 LCSP, ¿a quién corresponde, como regla general, el riesgo y ventura de la ejecución del contrato de obras?",
+     "opciones": [
+      "Al contratista, sin perjuicio de lo establecido para las obras en el art. 239",
+      "A la Administración contratante",
+      "A la dirección facultativa",
+      "Por mitades entre contratista y Administración"
+     ],
+     "correcta": 0,
+     "explicacion": "La ejecución se realiza a riesgo y ventura del contratista. La excepción es la fuerza mayor del art. 239, que da derecho a indemnización.",
+     "referencia": "Art. 197 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 240.1 LCSP, ¿cuándo expide la Administración las certificaciones mensuales de obra?",
+     "opciones": [
+      "En los primeros diez días del mismo mes",
+      "En el momento de la recepción",
+      "En los primeros treinta días del trimestre",
+      "En los primeros diez días siguientes al mes al que correspondan"
+     ],
+     "correcta": 3,
+     "explicacion": "Las certificaciones se expiden mensualmente en los primeros diez días siguientes al mes al que corresponda la obra ejecutada, salvo que el pliego prevea otra cosa.",
+     "referencia": "Art. 240.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 240.2 LCSP, ¿qué exige la ley para los abonos a cuenta por acopio de materiales?",
+     "opciones": [
+      "Una hipoteca sobre la obra",
+      "Una prestación de garantía que asegure el pago",
+      "Ninguna garantía, si el pliego lo autoriza",
+      "Un aval del director facultativo"
+     ],
+     "correcta": 1,
+     "explicacion": "Los pagos por instalaciones y acopio de materiales o equipos deben asegurarse mediante la prestación de garantía.",
+     "referencia": "Art. 240.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 241.2 LCSP, ¿qué ocurre con las modificaciones necesarias para corregir errores u omisiones del proyecto en un tanto alzado con precio cerrado?",
+     "opciones": [
+      "Las modificaciones necesarias para corregirlos no son abonables",
+      "Son abonables mediante un modificado",
+      "Se reparten al 50 por ciento",
+      "Las paga siempre la Administración"
+     ],
+     "correcta": 0,
+     "explicacion": "En el precio cerrado el precio ofertado se mantiene invariable, y las modificaciones que corrigen errores del proyecto no son abonables.",
+     "referencia": "Art. 241.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 242.2 LCSP, ¿durante cuánto tiempo mínimo debe darse audiencia al contratista antes de fijar precios de unidades no previstas?",
+     "opciones": [
+      "Un día hábil",
+      "Quince días naturales",
+      "Diez días hábiles",
+      "Tres días hábiles"
+     ],
+     "correcta": 3,
+     "explicacion": "La audiencia previa al contratista es de plazo mínimo de tres días hábiles, antes de que la Administración fije los precios de las unidades no previstas.",
+     "referencia": "Art. 242.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 243.1 LCSP, ¿en qué plazo debe aprobar el órgano de contratación la certificación final de las obras?",
+     "opciones": [
+      "Un mes desde la recepción",
+      "Seis meses desde la recepción",
+      "Tres meses desde la recepción, ampliable a cinco en obras de más de doce millones con liquidación compleja",
+      "Un año desde el fin del plazo de garantía"
+     ],
+     "correcta": 2,
+     "explicacion": "El plazo general es de tres meses desde la recepción. Los pliegos pueden ampliarlo a cinco meses solo en obras de valor estimado superior a doce millones de euros con liquidación y medición especialmente complejas.",
+     "referencia": "Art. 243.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 242.4.i LCSP, ¿cuándo el exceso de mediciones no se considera modificación del contrato?",
+     "opciones": [
+      "Siempre que se haya comunicado a la Intervención",
+      "Cuando en global no suponga un incremento del gasto superior al 10 por ciento del precio del contrato inicial",
+      "Cuando no supere el 50 por ciento del precio",
+      "Nunca: todo exceso de mediciones es modificación"
+     ],
+     "correcta": 1,
+     "explicacion": "El exceso de mediciones, es decir, la variación en el número de unidades realmente ejecutadas sobre las previstas, no es modificación si en global no supera el 10 por ciento del precio inicial.",
+     "referencia": "Art. 242.4.i LCSP"
+    },
+    {
+     "pregunta": "Según el art. 198.2 LCSP, cuando el importe acumulado de los abonos a cuenta alcanza el 90 por ciento del precio, ¿qué debe acompañar al expediente de pago cuando resulte preceptiva?",
+     "opciones": [
+      "La comunicación a la Intervención correspondiente",
+      "Un informe de la dirección facultativa sobre el 100 por ciento de la obra",
+      "El proyecto completo",
+      "Nada: no hay control adicional"
+     ],
+     "correcta": 0,
+     "explicacion": "El control adicional es la comunicación a la Intervención correspondiente, para su eventual asistencia a la recepción en sus funciones de comprobación material de la inversión.",
+     "referencia": "Art. 198.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 198.4 LCSP, ¿en qué plazo debe abonar la Administración el precio tras la aprobación de las certificaciones de obra?",
+     "opciones": [
+      "Quince días",
+      "Sesenta días desde la expedición de la certificación",
+      "Cuando se reciba la obra",
+      "Treinta días siguientes a la fecha de aprobación"
+     ],
+     "correcta": 3,
+     "explicacion": "La Administración debe abonar el precio dentro de los treinta días siguientes a la aprobación de las certificaciones. Si se demora, debe pagar intereses de demora según la Ley 3/2004.",
+     "referencia": "Art. 198.4 LCSP"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. El abono como forma de pagar la obra",
+     "parrafos": [
+      "El abono de la obra es el modo en que la Administración paga al contratista lo que ha ejecutado. A diferencia del precio global que se paga al final, el abono de obra en ejecución se hace durante el contrato, según las obras realmente realizadas. Por eso el abono tiene que apoyarse en mediciones, en valoraciones y en certificaciones que acrediten lo ejecutado.",
+      "El artículo 198.1 LCSP establece que el contratista tiene derecho al abono del precio convenido por la prestación realizada, en los términos establecidos en la ley y en el contrato. La clave es la expresión « prestación realizada »: se paga lo ejecutado, no lo previsto. Lo ejecutado se mide y se valora con los precios del contrato adjudicado.",
+      "Para un examen, la pregunta típica es sobre qué se calcula el pago durante la obra. La respuesta es lo ejecutado conforme al proyecto, acreditado mediante mediciones y certificaciones."
+     ]
+    },
+    {
+     "titulo": "2. El principio de riesgo y ventura",
+     "parrafos": [
+      "El artículo 197 LCSP establece el principio de riesgo y ventura: la ejecución del contrato se realizará a riesgo y ventura del contratista, sin perjuicio de lo establecido para el contrato de obras en el artículo 239. El riesgo de la ejecución, los costes imprevistos y las dificultades normales de la obra corresponden al contratista.",
+      "La excepción es la fuerza mayor. Según el artículo 239.1 LCSP, en casos de fuerza mayor y siempre que no exista actuación imprudente del contratista, este tiene derecho a una indemnización por los daños y perjuicios producidos en la ejecución del contrato (tema e29). El artículo 239.2 enumera los casos de fuerza mayor, como los fenómenos naturales de efectos catastróficos, o los destrozos violentos en tiempo de guerra o los robos tumultuosos. El riesgo se traslada así a la Administración solo cuando concurre fuerza mayor.",
+      "Para un examen, la regla es que el contratista asume los costes de la ejecución y solo puede reclamar cuando la ley o el contrato lo permiten, por fuerza mayor o por modificación del contrato. Un encarecimiento por dificultades normales no es, por sí mismo, reclamable."
+     ]
+    },
+    {
+     "titulo": "3. El pago del precio y los abonos a cuenta",
+     "parrafos": [
+      "El artículo 198.2 LCSP establece que el pago del precio podrá hacerse de manera total o parcial, mediante abonos a cuenta o, en el caso de contratos de tracto sucesivo, mediante pago en cada uno de los vencimientos estipulados. Los abonos a cuenta son pagos parciales durante la ejecución, que no cierran el contrato.",
+      "El mismo precepto regula el supuesto en que el importe acumulado de los abonos a cuenta alcanza, con motivo del siguiente pago, el 90 por ciento del precio del contrato, incluidas en su caso las modificaciones aprobadas. En ese caso, el expediente de pago debe acompañarse, cuando resulte preceptiva, de la comunicación efectuada a la Intervención correspondiente, para su eventual asistencia a la recepción en sus funciones de comprobación material de la inversión. Es un control adicional cuando el gasto se acerca al total. El artículo 240.1 LCSP remite expresamente a este párrafo para los abonos a cuenta de las certificaciones mensuales, de modo que la misma regla les resulta aplicable.",
+      "Para un examen, conviene recordar que el abono a cuenta es un pago provisional y que su importe se corrige en la liquidación final. La regla del 90 por ciento es un dato que el examen suele preguntar."
+     ]
+    },
+    {
+     "titulo": "4. Plazo de pago y morosidad",
+     "parrafos": [
+      "El artículo 198.4 LCSP obliga a la Administración a abonar el precio dentro de los treinta días siguientes a la fecha de aprobación de las certificaciones de obra. El plazo se cuenta desde la aprobación de la certificación, no desde su expedición por el contratista.",
+      "Si la Administración se demora, debe abonar al contratista, a partir del cumplimiento de ese plazo de treinta días, los intereses de demora y la indemnización por los costes de cobro previstos en la Ley 3/2004, de 29 de diciembre, por la que se establecen medidas de lucha contra la morosidad en las operaciones comerciales. Para que empiece a contar el devengo de intereses, el contratista debe haber presentado la factura en el registro administrativo correspondiente, en tiempo y forma, en el plazo de treinta días desde la entrega efectiva o la prestación. Si incumple ese plazo de presentación, el devengo no se inicia hasta treinta días después de la correcta presentación de la factura.",
+      "El mismo artículo 198.4 establece que la Administración debe aprobar las certificaciones de obra en el plazo de treinta días siguientes a la entrega efectiva de los bienes o a la prestación del servicio. La redacción de este inciso se refiere a bienes y servicios, por lo que en obras conviene estudiarlo con atención antes de citarlo sin matices en un examen.",
+      "Para un examen, distinga tres plazos: la certificación mensual en diez días (art. 240.1), la obligación de pagar en treinta días desde la aprobación (art. 198.4) y la factura presentada en treinta días desde la entrega (art. 198.4)."
+     ]
+    },
+    {
+     "titulo": "5. Procedimiento paso a paso: del acto de medir al pago",
+     "parrafos": [
+      "Para estudiar el abono conviene ordenar la secuencia. Primero se mide lo ejecutado en el periodo. El proyecto debe contener un pliego de prescripciones técnicas particulares que regule, entre otras cosas, la manera en que se llevará a cabo la medición de las unidades ejecutadas y el control de calidad de los materiales y del proceso de ejecución (art. 233.1.c LCSP).",
+      "Después se valoran las mediciones con los precios del contrato, en la relación valorada. Con esa valoración se expide la certificación, que la Administración expide mensualmente en los primeros diez días siguientes al mes al que corresponda (art. 240.1 LCSP).",
+      "La certificación se aprueba por la Administración y el contratista presenta su factura. El precio se paga en el plazo de treinta días desde la aprobación (art. 198.4 LCSP). Si hay retraso, se aplican los intereses de demora de la Ley 3/2004.",
+      "Cada certificación es un pago a cuenta. La medición final puede modificarla, y ninguna certificación supone aprobación ni recepción de la obra (art. 240.1 LCSP).",
+      "Para un examen, la secuencia es: medir, valorar, certificar, aprobar y pagar. Cada paso tiene su plazo o su garantía, y ninguno equivale a la recepción."
+     ]
+    },
+    {
+     "titulo": "6. Las mediciones",
+     "parrafos": [
+      "Las mediciones son el cómputo de las unidades de obra efectivamente ejecutadas. El proyecto debe incluir un presupuesto con los precios unitarios y, en su caso, los descompuestos, el estado de mediciones y los detalles precisos para su valoración (art. 233.1.d LCSP). En la ejecución, la medición refleja lo construido frente a lo previsto.",
+      "El artículo 240.1 LCSP establece que los abonos a cuenta están sujetos a las rectificaciones y variaciones que se produzcan en la medición final, y que no suponen en forma alguna la aprobación ni la recepción de las obras que comprenden. Es decir, la medición de cada certificación es provisional hasta la medición final.",
+      "El artículo 246.1 LCSP exige, en la liquidación por resolución, la comprobación y medición de las obras realizadas, con la citación del contratista para asistir al acto. La medición en presencia del contratista es una garantía básica.",
+      "Para un examen, la pregunta típica es si una medición o una certificación aprueba la obra. La respuesta es que no: los pagos a cuenta no suponen aprobación ni recepción (art. 240.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "7. Relaciones valoradas",
+     "parrafos": [
+      "Las relaciones valoradas son documentos en los que se valoran las unidades de obra ejecutadas en un periodo, aplicando los precios del contrato. Sirven de base a la certificación, y permiten comparar lo ejecutado con lo presupuestado.",
+      "El régimen concreto de las relaciones valoradas (contenido, plazos y forma de elaboración) no figura en el texto de la LCSP. Corresponde a la normativa de desarrollo, en particular al Reglamento general de la Ley de Contratos de las Administraciones Públicas (Real Decreto 1098/2001), que no está en el repositorio y no se ha comprobado para este desarrollo. Antes de citarlo en un examen, debe verificarse el texto vigente.",
+      "Para un examen, la diferencia básica es que la medición recoge las unidades ejecutadas, y la relación valorada las convierte en importe con los precios del contrato. Ambas preceden a la certificación."
+     ]
+    },
+    {
+     "titulo": "8. Audiencia del contratista",
+     "parrafos": [
+      "El contratista tiene derecho a ser oído cuando la Administración va a tomar decisiones que le afectan económicamente en la ejecución. Un ejemplo claro es la fijación de los precios de unidades no previstas: el artículo 242.2 LCSP exige una audiencia previa al contratista por un plazo mínimo de tres días hábiles.",
+      "La audiencia también aparece en la modificación del proyecto y en la liquidación por resolución. El artículo 242.4.b LCSP exige la audiencia del contratista y del redactor del proyecto, por plazo mínimo de tres días, cuando el director facultativo propone una modificación del proyecto. El artículo 246.1 LCSP exige citar al contratista para la comprobación y medición de las obras, en el domicilio que figure en el expediente. La audiencia es, por tanto, un trámite contradictorio que protege al contratista frente a decisiones unilaterales.",
+      "Para un examen, la pregunta típica es cuándo debe oírse al contratista. Respuesta: antes de fijar precios de unidades no previstas (art. 242.2), en la modificación del proyecto (art. 242.4.b) y en la medición de la liquidación (art. 246.1)."
+     ]
+    },
+    {
+     "titulo": "9. Certificaciones de obra",
+     "parrafos": [
+      "El artículo 240.1 LCSP establece que, a efectos del pago, la Administración expide mensualmente, en los primeros diez días siguientes al mes al que correspondan, certificaciones que comprenden la obra ejecutada conforme a proyecto durante dicho periodo. Es el calendario ordinario de la certificación.",
+      "La regla puede modificarse en el pliego de cláusulas administrativas particulares, que puede prever otra cosa (art. 240.1 LCSP). Por tanto, la periodicidad mensual es la regla general, pero el pliego puede fijar otro sistema.",
+      "Las certificaciones son pagos a cuenta sujetos a rectificación en la medición final. No suponen aprobación ni recepción de la obra. Esta distinción es importante: la recepción es el acto que acredita la terminación, y se regula en el artículo 243 LCSP (tema e29).",
+      "Para un examen, la síntesis es: certificación mensual en diez días (art. 240.1), pagos a cuenta provisionales, y recepción como acto distinto."
+     ]
+    },
+    {
+     "titulo": "10. Modelos, numeración y cómputo de certificaciones que exceden de las anualidades",
+     "parrafos": [
+      "El temario recoge también los modelos y la numeración de las certificaciones, y el cómputo del plazo de las certificaciones que excedan de las anualidades previstas. Son aspectos de desarrollo reglamentario y de contabilidad presupuestaria, que no están en el texto de la LCSP ni en el repositorio.",
+      "Para no inventar contenido, estos aspectos deben estudiarse en la normativa de desarrollo de la LCSP y en las instrucciones de contabilidad presupuestaria, antes de citarlos en un examen. El tema, en este desarrollo, solo deja constancia de su existencia.",
+      "Para un examen, conviene saber que la certificación debe cuadrar con la anualidad presupuestaria del gasto, y que cuando una certificación excede la anualidad, su cómputo se hace según las reglas que fija la normativa de desarrollo."
+     ]
+    },
+    {
+     "titulo": "11. Exceso de mediciones y unidades ocultas",
+     "parrafos": [
+      "El artículo 242.4 LCSP regula la modificación del proyecto propuesta por el director facultativo. Su apartado 4.i, sin embargo, dice que no tienen la consideración de modificaciones el exceso de mediciones: la variación que, durante la correcta ejecución de la obra, se produzca exclusivamente en el número de unidades realmente ejecutadas sobre las previstas en las mediciones del proyecto.",
+      "El exceso de mediciones no es modificación siempre que, en global, no represente un incremento del gasto superior al 10 por ciento del precio del contrato inicial. Ese exceso se recoge en la certificación final de la obra (art. 242.4.i LCSP).",
+      "El artículo 242.3 LCSP regula las unidades que van a quedar posterior y definitivamente ocultas. Antes de efectuar su medición parcial, debe comunicarse a la Intervención de la Administración correspondiente con una antelación mínima de cinco días, para que pueda acudir en sus funciones de comprobación material de la inversión.",
+      "El texto consolidado del BOE advierte que la STC 68/2021, de 18 de marzo, declaró inconstitucional un inciso del apartado 3 del artículo 242 por invadir competencias. Antes de citar el precepto en un examen, debe comprobarse qué inciso es y cuál es el alcance vigente.",
+      "Para un examen, la diferencia es clara: el exceso de mediciones dentro del 10 por ciento no es modificación; la introducción de unidades no previstas sí puede serlo, y exige fijar sus precios con audiencia del contratista (arts. 242.2 y 242.4)."
+     ]
+    },
+    {
+     "titulo": "12. Tanto alzado y precio cerrado",
+     "parrafos": [
+      "El artículo 241.1 LCSP permite, cuando la naturaleza de la obra lo permita, el sistema de retribución a tanto alzado, sin existencia de precios unitarios. El sistema puede configurarse como de precio cerrado o en las circunstancias y condiciones que determinen las normas de desarrollo para el resto de los casos.",
+      "El artículo 241.2 LCSP establece que, en el tanto alzado configurado como precio cerrado, el precio ofertado por el adjudicatario se mantiene invariable, y no son abonables las modificaciones del contrato que sean necesarias para corregir errores u omisiones padecidos en la redacción del proyecto. Es una regla de gran importancia práctica: el adjudicatario asume el riesgo de los errores del proyecto.",
+      "El artículo 241.3 LCSP exige que la contratación de obras a tanto alzado con precio cerrado cumpla varias condiciones. Las principales son: que así se prevea en el pliego de cláusulas administrativas particulares, pudiendo excluirse algunas unidades que se abonen por precios unitarios (letra a); que las unidades estén previamente definidas en el proyecto y replanteadas antes de la licitación, garantizando el órgano de contratación el acceso al terreno (letra b); y que el precio se abone mensualmente, en la misma proporción que la obra ejecutada en el mes guarde con el total de la unidad (letra c).",
+      "Si el pliego autoriza variantes sobre determinadas unidades que deban ofertarse a precio cerrado, los licitadores presentan un proyecto básico, y el adjudicatario aporta el proyecto de construcción de las variantes para su supervisión y aprobación. En ningún caso el precio o el plazo de la adjudicación varían como consecuencia de esa aprobación (art. 241.3.d LCSP).",
+      "Para un examen, la diferencia con el abono por precios unitarios es que en el tanto alzado el pago no se hace por unidades medidas, sino por el precio global. Y el precio cerrado impide reclamar por errores del proyecto."
+     ]
+    },
+    {
+     "titulo": "13. Partidas alzadas",
+     "parrafos": [
+      "Las partidas alzadas son importes globales previstos en el presupuesto para una parte de la obra que no se mide por unidades. Pueden ser de abono íntegro, cuando se pagan por su importe total, o a justificar, cuando se pagan según el gasto acreditado. La distinción es clásica en la práctica de la obra.",
+      "La LCSP no regula el régimen de las partidas alzadas en el texto que se ha comprobado para este desarrollo. Su tratamiento corresponde a la normativa de desarrollo, que no se ha verificado en el repositorio. Antes de citarlo en un examen debe comprobarse el texto.",
+      "Para un examen, conviene recordar la diferencia: la partida de abono íntegro se paga por su importe; la partida a justificar, por lo gastado y acreditado."
+     ]
+    },
+    {
+     "titulo": "14. Abonos a cuenta por materiales acopiados e instalaciones y equipos",
+     "parrafos": [
+      "El artículo 240.2 LCSP reconoce al contratista el derecho a percibir abonos a cuenta por las operaciones preparatorias realizadas, como instalaciones y acopio de materiales o equipos de maquinaria pesada adscritos a la obra. Son pagos anticipados por bienes que aún no están incorporados a la obra.",
+      "Las condiciones de estos abonos se fijan en los pliegos, y el régimen y los límites se determinan reglamentariamente con carácter general. El artículo 240.2 exige que los pagos se aseguren mediante la prestación de garantía. El artículo 198.3 LCSP contiene la misma exigencia para las operaciones preparatorias de la ejecución comprendidas en el objeto del contrato.",
+      "Para un examen, la pregunta típica es qué garantía exige el abono de materiales acopiados. Respuesta: una prestación de garantía que asegure el pago (art. 240.2 LCSP)."
+     ]
+    },
+    {
+     "titulo": "15. Garantías de los abonos a cuenta",
+     "parrafos": [
+      "El abono a cuenta por materiales acopiados o por instalaciones y equipos no puede hacerse sin garantía, porque el bien pagado todavía no es parte de la obra y podría perderse antes de incorporarse. La garantía protege a la Administración frente al riesgo de que el pago no se traduzca en obra.",
+      "La garantía se constituye en la forma que establezcan los pliegos y la normativa de desarrollo. Su función, según el propio artículo 240.2, es asegurar los pagos. Para un examen, la regla es que el abono anticipado sin garantía no es admisible en los términos de ese precepto.",
+      "Para un examen, la diferencia entre el abono a cuenta de obra ejecutada (sin garantía especial) y el abono de acopio (con garantía) es una pregunta de comprensión que conviene dominar."
+     ]
+    },
+    {
+     "titulo": "16. La certificación final y la liquidación",
+     "parrafos": [
+      "El artículo 243.1 LCSP establece que, a la recepción de las obras, el órgano de contratación debe aprobar, dentro del plazo de tres meses contados desde la recepción, la certificación final de las obras ejecutadas, que se abona al contratista a cuenta de la liquidación del contrato. En obras de valor estimado superior a doce millones de euros, en las que las operaciones de liquidación y medición sean especialmente complejas, los pliegos pueden ampliar ese plazo, sin superar en ningún caso los cinco meses.",
+      "La liquidación fija los saldos definitivos a favor o en contra del contratista. Si el contrato se resuelve, la liquidación se basa en la comprobación y medición de lo realizado (art. 246.1 LCSP), y se completa con las indemnizaciones de los apartados 2 a 4 del mismo artículo, según la causa y el momento. Esas indemnizaciones se estudian en el tema e33.",
+      "Para un examen, conviene distinguir la certificación final (aprueba la última certificación de la obra) de la liquidación (balance definitivo de las cuentas)."
+     ]
+    },
+    {
+     "titulo": "17. Caso práctico: del precio al pago",
+     "parrafos": [
+      "Una obra se contrata con precios unitarios. Durante el primer mes se ejecutan unidades por un valor de 50.000 euros, medidas y valoradas. La certificación se expide en los diez primeros días del mes siguiente (art. 240.1 LCSP) y se paga como abono a cuenta, sujeto a la medición final. Si se aprueba, la Administración dispone de treinta días para pagar (art. 198.4 LCSP).",
+      "Durante el segundo mes, el contratista acopia en obra materiales por valor de 20.000 euros, que se van a incorporar a la fase siguiente. Puede recibir un abono a cuenta por ese acopio, pero debe prestar la garantía que asegure el pago (art. 240.2 LCSP).",
+      "Se presenta un error en el proyecto que obliga a ejecutar una unidad no prevista. El precio se fija por la Administración con audiencia del contratista durante tres días hábiles (art. 242.2 LCSP). Si la obra estuviera contratada a tanto alzado con precio cerrado, el error del proyecto no sería abonable (art. 241.2 LCSP).",
+      "En el mismo periodo, la medición de una partida de cimentación supera en 8.000 euros lo previsto en mediciones, sobre un precio de contrato de 1.000.000 euros. Ese exceso representa menos del 10 por ciento del precio inicial, por lo que no es modificación; se recoge en la certificación final (art. 242.4.i LCSP).",
+      "Al terminar la obra, se expide la certificación final dentro de los tres meses desde la recepción (art. 243.1 LCSP). La liquidación cierra las cuentas con los saldos definitivos."
+     ]
+    },
+    {
+     "titulo": "18. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema e27 sobre el presupuesto base y el precio, porque las certificaciones se calculan con los precios del contrato y las mediciones del presupuesto. Se conecta con el tema e29 sobre la ejecución, porque la recepción y la resolución determinan cuándo se hacen las certificaciones finales y la liquidación.",
+      "Se conecta con el tema e31 sobre revisión de precios, porque los precios de las certificaciones pueden actualizarse por revisión periódica y predeterminada, y con el tema e32 sobre modificación, porque las unidades no previstas y los excesos de mediciones alteran los importes certificados. Y con el tema e33 sobre recepción, liquidación e indemnizaciones.",
+      "Para un examen, el tema es el punto donde el precio se convierte en dinero: la medición, la valoración, la certificación y el pago son la secuencia que conviene dominar."
+     ]
+    },
+    {
+     "titulo": "19. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir el abono a cuenta con la aprobación o recepción de la obra. Los pagos a cuenta no suponen aprobación ni recepción (art. 240.1 LCSP).",
+      "Afirmar que el riesgo de la ejecución corresponde a la Administración. El riesgo y ventura corresponde al contratista, salvo fuerza mayor (arts. 197 y 239 LCSP).",
+      "Olvidar que los abonos de acopio exigen garantía (art. 240.2 LCSP).",
+      "Afirmar que el tanto alzado con precio cerrado paga los errores del proyecto. No son abonables las modificaciones que corrigen errores u omisiones del proyecto (art. 241.2 LCSP).",
+      "Confundir el plazo de pago de treinta días desde la aprobación (art. 198.4) con la certificación mensual en diez días (art. 240.1).",
+      "Tratar el exceso de mediciones como si fuera una modificación. Dentro del 10 por ciento del precio inicial no lo es (art. 242.4.i LCSP).",
+      "Confundir la certificación final con la liquidación. La certificación final aprueba la última certificación; la liquidación fija el balance definitivo."
+     ]
+    },
+    {
+     "titulo": "20. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Sobre qué se calcula el pago de la obra en ejecución? Sobre la prestación realmente ejecutada y de acuerdo con lo pactado (art. 198.1 LCSP).",
+      "¿Cuándo se expide la certificación mensual? En los primeros diez días del mes siguiente al que corresponda (art. 240.1 LCSP).",
+      "¿Qué pasa con el abono a cuenta cuando la medición final difiere? Queda sujeto a las rectificaciones que resulten de la medición final (art. 240.1 LCSP).",
+      "¿Qué garantía exige el abono de materiales acopiados? La prestación de garantía que asegure el pago (art. 240.2 LCSP).",
+      "¿Qué ocurre con un error del proyecto en un contrato a tanto alzado con precio cerrado? Las modificaciones para corregirlo no son abonables (art. 241.2 LCSP).",
+      "¿En qué plazo debe pagar la Administración una certificación aprobada? En treinta días desde la fecha de aprobación (art. 198.4 LCSP).",
+      "¿Cuánto tiempo tiene el órgano de contratación para aprobar la certificación final? Tres meses desde la recepción, ampliables hasta cinco en obras de valor estimado superior a doce millones de euros con liquidación especialmente compleja (art. 243.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "21. Claves para el examen",
+     "parrafos": [
+      "Riesgo y ventura: el contratista asume la ejecución; excepción, fuerza mayor (arts. 197 y 239 LCSP).",
+      "Pago: lo ejecutado y lo pactado (art. 198.1); abonos a cuenta totales o parciales; comunicación a la Intervención al llegar al 90 por ciento (art. 198.2); pago en treinta días desde la aprobación (art. 198.4).",
+      "Certificaciones: mensuales, en diez días; pagos a cuenta sujetos a la medición final y sin aprobación ni recepción (art. 240.1).",
+      "Acopio e instalaciones: abonos a cuenta con garantía (art. 240.2).",
+      "Tanto alzado: precio cerrado; errores del proyecto no abonables (art. 241.2); pago mensual de la unidad (art. 241.3.c); audiencia y precios de unidades no previstas (art. 242.2).",
+      "Modificaciones y mediciones: exceso de mediciones dentro del 10 por ciento no es modificación (art. 242.4.i); unidades ocultas con cinco días a la Intervención (art. 242.3).",
+      "Certificación final: tres meses desde la recepción, ampliables a cinco en obras grandes (art. 243.1); liquidación con medición en presencia del contratista (art. 246.1)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 9/2017, de Contratos del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+     "pdf": "leyes/BOE-A-2017-12902.pdf"
     }
    ]
   }

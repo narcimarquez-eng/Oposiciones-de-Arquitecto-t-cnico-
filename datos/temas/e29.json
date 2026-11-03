@@ -1,0 +1,191 @@
+{
+  "id": "e29",
+  "resumen": [
+    {
+      "titulo": "Replanteo y comienzo de la ejecución",
+      "puntos": [
+        "El replanteo previo a la licitación comprueba la realidad geométrica de la obra y la disponibilidad de los terrenos (art. 236.1 LCSP).",
+        "La ejecución comienza con el acta de comprobación del replanteo, que se extiende en presencia del contratista en el plazo máximo de un mes desde la formalización, salvo casos excepcionales justificados (art. 237 LCSP).",
+        "La demora injustificada en la comprobación del replanteo es causa específica de resolución (art. 245.a LCSP)."
+      ]
+    },
+    {
+      "titulo": "Ejecución y responsabilidad del contratista",
+      "puntos": [
+        "Las obras se ejecutan con estricta sujeción al pliego, al proyecto y a las instrucciones técnicas de la dirección facultativa (art. 238.1 LCSP).",
+        "Las instrucciones verbales deben ratificarse por escrito en el plazo más breve posible para ser vinculantes (art. 238.2 LCSP).",
+        "Durante el desarrollo de las obras y hasta el plazo de garantía, el contratista responde de todos los defectos de la construcción que puedan advertirse (art. 238.3 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Prerrogativas y responsable del contrato",
+      "puntos": [
+        "El órgano de contratación tiene las prerrogativas de interpretar el contrato, resolver dudas, modificarlo por interés público, declarar la responsabilidad del contratista, suspender la ejecución y acordar la resolución (art. 190 LCSP).",
+        "El responsable del contrato supervisa la ejecución y adopta las decisiones necesarias. En los contratos de obras, sus facultades las ejerce el director facultativo (art. 62.1 y 62.2 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Incumplimientos, mora y penalidades",
+      "puntos": [
+        "Las penalidades por cumplimiento defectuoso o incumplimiento de condiciones especiales no pueden superar el 10 por ciento del precio del contrato por cada una, ni el 50 por ciento en total (art. 192.1 LCSP).",
+        "La constitución en mora no precisa intimación previa de la Administración (art. 193.2 LCSP).",
+        "Si no hay penalidad o no cubre el daño, la Administración exige la indemnización por daños y perjuicios (art. 194.1 LCSP). Las penalidades las impone el órgano de contratación, a propuesta del responsable del contrato, y son inmediatamente ejecutivas (art. 194.2 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Resolución y liquidación",
+      "puntos": [
+        "La resolución por demora la acuerda el órgano de contratación, con audiencia del contratista y, si este se opone, dictamen consultivo (art. 195.1 LCSP).",
+        "Causas específicas del artículo 245: demora en el replanteo; suspensión de la iniciación por más de cuatro meses; suspensión de las obras por más de ocho meses por la Administración; y desistimiento.",
+        "La resolución da lugar a la comprobación, medición y liquidación de lo ejecutado, con citación del contratista (art. 246.1 LCSP). Las indemnizaciones son del 2, 3 o 6 por ciento según la causa y el momento (art. 246.2 a 246.4 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Recepción, certificación final y garantía",
+      "puntos": [
+        "La recepción da inicio al plazo de garantía mediante acta (art. 243.2 LCSP). El plazo de garantía no puede ser inferior a un año salvo casos especiales (art. 243.3 LCSP).",
+        "La certificación final se aprueba en tres meses desde la recepción (art. 243.1 LCSP).",
+        "Responsabilidad por daños estructurales tras el plazo de garantía, por incumplimiento: quince años desde la recepción (art. 244.1 LCSP). La LOE fija diez años para daños estructurales (art. 17.1.a LOE)."
+      ]
+    },
+    {
+      "titulo": "Fuerza mayor",
+      "puntos": [
+        "En fuerza mayor, sin actuación imprudente del contratista, este tiene derecho a una indemnización por daños y perjuicios (art. 239.1 LCSP).",
+        "El artículo 239.2 enumera los casos de fuerza mayor, como los fenómenos naturales de efectos catastróficos o los destrozos violentos en tiempo de guerra."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LCSP",
+      "rol": "Norma principal del tema (arts. 62, 190 a 196, 236 a 246)"
+    },
+    {
+      "id": "LOE",
+      "rol": "Complementaria: licencias, promotor y responsabilidad decenal (arts. 5, 9.2.c y 17.1.a)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 237 LCSP, ¿en qué plazo máximo, salvo casos excepcionales justificados, debe efectuarse la comprobación del replanteo tras la formalización del contrato?",
+      "opciones": [
+        "Un mes desde la formalización del contrato",
+        "Tres meses desde la formalización",
+        "Seis meses desde la formalización",
+        "No hay plazo previsto"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 237 LCSP fija un plazo que no puede ser superior a un mes desde la formalización, salvo casos excepcionales justificados.",
+      "referencia": "Art. 237 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 239.1 LCSP, en un caso de fuerza mayor y sin actuación imprudente del contratista, ¿qué derecho tiene este?",
+      "opciones": [
+        "Resolución automática del contrato sin indemnización",
+        "Ampliación del precio sin indemnización",
+        "Una indemnización por los daños y perjuicios producidos",
+        "Ninguno, porque asume el riesgo y ventura"
+      ],
+      "correcta": 2,
+      "explicacion": "La fuerza mayor da derecho a una indemnización por daños y perjuicios, siempre que no haya imprudencia del contratista. El riesgo y ventura se aplica sin perjuicio de esta excepción.",
+      "referencia": "Art. 239.1 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 193.2 LCSP, ¿la constitución en mora del contratista exige intimación previa de la Administración?",
+      "opciones": [
+        "Sí, siempre y por escrito",
+        "Solo si el contrato prevé penalidades",
+        "No, no precisa intimación previa",
+        "Sí, con un plazo de quince días"
+      ],
+      "correcta": 2,
+      "explicacion": "La mora se produce por el solo vencimiento del plazo; el art. 193.2 LCSP dice expresamente que no precisa intimación previa.",
+      "referencia": "Art. 193.2 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 192.1 LCSP, ¿cuál es el límite de cada penalidad por cumplimiento defectuoso?",
+      "opciones": [
+        "El 5 por ciento del precio",
+        "El 10 por ciento del precio del contrato, IVA excluido, por cada penalidad",
+        "El 20 por ciento del precio",
+        "El 50 por ciento del precio por cada penalidad"
+      ],
+      "correcta": 1,
+      "explicacion": "Cada penalidad no puede superar el 10 por ciento del precio del contrato, IVA excluido, y el total no puede superar el 50 por ciento.",
+      "referencia": "Art. 192.1 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 194.2 LCSP, ¿quién impone las penalidades previstas en el contrato?",
+      "opciones": [
+        "El órgano de contratación, a propuesta del responsable del contrato si se hubiese designado",
+        "El director facultativo, sin acuerdo previo",
+        "El contratista, mediante aceptación",
+        "Un juez de lo contencioso-administrativo"
+      ],
+      "correcta": 0,
+      "explicacion": "Las penalidades se imponen por acuerdo del órgano de contratación, a propuesta del responsable del contrato si se ha designado, y son inmediatamente ejecutivas.",
+      "referencia": "Art. 194.2 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 195.1 LCSP, si la Administración opta por resolver el contrato por demora, ¿qué trámite previo es necesario?",
+      "opciones": [
+        "Un informe de la Intervención",
+        "Dictamen del Consejo de Estado siempre",
+        "Ningún trámite",
+        "Solo la audiencia del contratista; el dictamen consultivo si este se opone"
+      ],
+      "correcta": 3,
+      "explicacion": "El trámite preceptivo es la audiencia del contratista. El dictamen del Consejo de Estado, o del órgano autonómico equivalente, solo es necesario si el contratista formula oposición.",
+      "referencia": "Art. 195.1 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 245 LCSP, ¿cuál es una de las causas específicas de resolución del contrato de obras?",
+      "opciones": [
+        "Suspensión de la iniciación de las obras por más de dos meses",
+        "Suspensión de la iniciación de las obras por más de cuatro meses",
+        "Suspensión de las obras por más de doce meses",
+        "No existe ninguna causa específica"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 245.b LCSP establece que la suspensión de la iniciación de las obras por plazo superior a cuatro meses es causa de resolución.",
+      "referencia": "Art. 245.b LCSP"
+    },
+    {
+      "pregunta": "Según el art. 243.2 LCSP, ¿desde cuándo comienza el plazo de garantía de las obras?",
+      "opciones": [
+        "Desde la formalización del contrato",
+        "Desde el acta de recepción",
+        "Desde el acta de comprobación del replanteo",
+        "Desde la certificación final"
+      ],
+      "correcta": 1,
+      "explicacion": "Si las obras se reciben, se levanta el acta de recepción y en ese momento comienza el plazo de garantía.",
+      "referencia": "Art. 243.2 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 243.3 LCSP, ¿cuál es la duración mínima del plazo de garantía, salvo casos especiales?",
+      "opciones": [
+        "Un año",
+        "Seis meses",
+        "Dos años",
+        "Cinco años"
+      ],
+      "correcta": 0,
+      "explicacion": "El plazo de garantía lo fija el pliego según la naturaleza y complejidad de la obra, pero no puede ser inferior a un año salvo casos especiales.",
+      "referencia": "Art. 243.3 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 244.1 LCSP, si la obra se arruina o sufre deterioros graves por incumplimiento del contrato, tras el plazo de garantía, ¿durante cuánto tiempo responde el contratista?",
+      "opciones": [
+        "Diez años",
+        "Tres años desde la liquidación",
+        "Dos años desde la certificación final",
+        "Quince años desde la recepción"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 244.1 LCSP fija quince años desde la recepción. La LOE, en cambio, fija diez años para los daños estructurales (art. 17.1.a LOE), por lo que hay que precisar qué régimen es aplicable.",
+      "referencia": "Art. 244.1 LCSP"
+    }
+  ]
+}
