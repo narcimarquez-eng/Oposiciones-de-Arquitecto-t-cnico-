@@ -1,0 +1,190 @@
+{
+  "id": "c20",
+  "resumen": [
+    {
+      "titulo": "Normas constitucionales y estatales",
+      "puntos": [
+        "La Administración sirve con objetividad los intereses generales (art. 103.1 CE). La ley regula el estatuto de los funcionarios, el acceso por mérito y capacidad y las incompatibilidades (art. 103.3 CE).",
+        "El EBEP establece las bases del régimen estatutario (art. 1 EBEP). Las leyes autonómicas de función pública lo desarrollan en el ámbito de sus competencias (art. 6 EBEP)."
+      ]
+    },
+    {
+      "titulo": "La Ley 5/2023",
+      "puntos": [
+        "Objeto: ordenar la función pública de la Junta de Andalucía y las normas de su personal (art. 1). Se aplica a la Administración General de la Junta y a sus agencias (art. 2).",
+        "Trece títulos; el título I recoge las disposiciones generales y las clases de personal (art. 12)."
+      ]
+    },
+    {
+      "titulo": "Clases de personal",
+      "puntos": [
+        "Funcionario de carrera (relación estatutaria, art. 13), interino (necesidad y urgencia; hasta tres años por vacante, art. 14.1.a), personal laboral (contrato de trabajo, art. 16) y eventual (art. 12.2).",
+        "El directivo público profesional se regula en el título II (art. 12.3 y arts. 17 a 27)."
+      ]
+    },
+    {
+      "titulo": "Acceso y adquisición",
+      "puntos": [
+        "Requisitos: nacionalidad, capacidad funcional y edad mínima (art. 106 Ley 5/2023). Sistemas selectivos: oposición, concurso-oposición y concurso de méritos (art. 111.2).",
+        "Se adquiere la condición tras superar el proceso selectivo y acreditar los requisitos en plazo (art. 116). Pérdida por separación firme, jubilación, renuncia, entre otras (art. 117)."
+      ]
+    },
+    {
+      "titulo": "Carrera y provisión",
+      "puntos": [
+        "La carrera horizontal es un ascenso por tramos sin cambio de puesto; como máximo seis tramos (arts. 52 y 53 Ley 5/2023).",
+        "Provisión ordinaria por concurso general o específico, o libre designación con convocatoria pública (arts. 124 a 128). La libre designación se aplica a puestos de especial responsabilidad y confianza (art. 128.2)."
+      ]
+    },
+    {
+      "titulo": "Situaciones e incompatibilidades",
+      "puntos": [
+        "El funcionario de carrera puede estar en servicio activo, servicios especiales, excedencia, suspensión de funciones y otras situaciones (art. 144).",
+        "No procede compatibilizar un segundo puesto en el sector público salvo supuestos legales (art. 42.1). La dedicación exclusiva se aplica a determinados puestos (art. 43)."
+      ]
+    },
+    {
+      "titulo": "Personal laboral",
+      "puntos": [
+        "El personal laboral se rige por la legislación laboral y por el convenio colectivo propio de la Junta (art. 103 Ley 5/2023 y art. 7 EBEP). La negociación colectiva se hace en mesas de negociación (art. 82).",
+        "El contenido del convenio no está verificado en este tema y debe consultarse en el texto vigente."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CE",
+      "rol": "Fundamento constitucional (arts. 23.2 y 103)"
+    },
+    {
+      "id": "EBEP",
+      "rol": "Bases estatales del régimen estatutario (arts. 1, 6, 7, 8 a 12, 78 y 85 a 89)"
+    },
+    {
+      "id": "LFP-ANDALUCIA",
+      "rol": "Norma principal del tema (arts. 1 a 3, 12 a 14, 16, 42, 43, 52 a 53, 82, 102, 106, 110, 111, 113, 115 a 117, 124 a 128, 144 a 146 y 148)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 103.1 CE, ¿con qué principio sirve la Administración a los intereses generales?",
+      "opciones": [
+        "Con objetividad, y con sometimiento pleno a la ley y al Derecho",
+        "Con discrecionalidad absoluta",
+        "Solo con criterios políticos",
+        "Solo a los ciudadanos de su municipio"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 103.1 CE establece que la Administración sirve con objetividad los intereses generales, con sometimiento pleno a la ley y al Derecho.",
+      "referencia": "Art. 103.1 CE"
+    },
+    {
+      "pregunta": "Según el art. 103.3 CE, ¿qué debe regular la ley?",
+      "opciones": [
+        "Nada: se regula por reglamento",
+        "Solo el salario de los funcionarios",
+        "El estatuto de los funcionarios, el acceso por mérito y capacidad y las incompatibilidades",
+        "El horario de trabajo exclusivamente"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 103.3 CE reserva a la ley el estatuto de los funcionarios, el acceso por mérito y capacidad, las incompatibilidades y las garantías de imparcialidad.",
+      "referencia": "Art. 103.3 CE"
+    },
+    {
+      "pregunta": "Según el art. 1.1 EBEP, ¿qué establece el Estatuto para los funcionarios?",
+      "opciones": [
+        "Solo el régimen de jubilación",
+        "Nada que sea básico",
+        "La regulación completa de cada Administración",
+        "Las bases del régimen estatutario de los funcionarios públicos"
+      ],
+      "correcta": 3,
+      "explicacion": "El EBEP establece las bases del régimen estatutario de los funcionarios públicos incluidos en su ámbito, y las normas del personal laboral.",
+      "referencia": "Art. 1.1 EBEP"
+    },
+    {
+      "pregunta": "Según el art. 6 EBEP, ¿qué hacen las leyes de función pública de las comunidades autónomas?",
+      "opciones": [
+        "Derogan el EBEP",
+        "Desarrollan el Estatuto en el ámbito de sus competencias",
+        "Lo sustituyen totalmente",
+        "No tienen relación con el EBEP"
+      ],
+      "correcta": 1,
+      "explicacion": "Las leyes de función pública de las comunidades autónomas se aprueban en desarrollo del EBEP, en el ámbito de sus competencias.",
+      "referencia": "Art. 6 EBEP"
+    },
+    {
+      "pregunta": "Según el art. 14.1.a Ley 5/2023, ¿cuánto puede durar el nombramiento de un funcionario interino por plaza vacante?",
+      "opciones": [
+        "Un máximo de tres años",
+        "Un máximo de diez años",
+        "Sin límite",
+        "Un máximo de seis meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El nombramiento de interino por plaza vacante, cuando no puede cubrirse por funcionario de carrera, dura como máximo tres años.",
+      "referencia": "Art. 14.1.a Ley 5/2023"
+    },
+    {
+      "pregunta": "Según el art. 52.1 Ley 5/2023, ¿la carrera horizontal exige cambiar de puesto de trabajo?",
+      "opciones": [
+        "Solo para el personal laboral temporal",
+        "Sí, siempre",
+        "No, se produce sin necesidad de cambiar de puesto",
+        "Solo para los interinos"
+      ],
+      "correcta": 2,
+      "explicacion": "La carrera horizontal consiste en el reconocimiento individualizado del desarrollo profesional a través del ascenso en tramos, sin necesidad de cambiar de puesto.",
+      "referencia": "Art. 52.1 Ley 5/2023"
+    },
+    {
+      "pregunta": "Según el art. 53.1 Ley 5/2023, ¿cuál es el número máximo de tramos de la carrera horizontal?",
+      "opciones": [
+        "Diez",
+        "Dos",
+        "Tres",
+        "Seis"
+      ],
+      "correcta": 3,
+      "explicacion": "La carrera horizontal tiene un máximo de seis tramos, cuyo número se fija reglamentariamente, previa negociación colectiva.",
+      "referencia": "Art. 53.1 Ley 5/2023"
+    },
+    {
+      "pregunta": "Según el art. 111.2 Ley 5/2023, ¿cuáles son los sistemas selectivos?",
+      "opciones": [
+        "Solo el sorteo",
+        "Oposición, concurso-oposición o concurso de valoración de méritos",
+        "Solo la entrevista personal",
+        "Solo el concurso de traslados"
+      ],
+      "correcta": 1,
+      "explicacion": "Los sistemas selectivos son la oposición, el concurso-oposición y el concurso de valoración de méritos.",
+      "referencia": "Art. 111.2 Ley 5/2023"
+    },
+    {
+      "pregunta": "Según el art. 128.2 Ley 5/2023, ¿qué puestos se proveen por libre designación?",
+      "opciones": [
+        "Ninguno",
+        "Todos los puestos sin excepción",
+        "Los de especial responsabilidad, colaboración y disponibilidad, y los que requieren confianza personal",
+        "Solo los puestos de limpieza"
+      ],
+      "correcta": 2,
+      "explicacion": "En todo caso se proveen por libre designación los puestos de especial responsabilidad, colaboración y disponibilidad, y aquellos que requieran confianza personal.",
+      "referencia": "Art. 128.2 Ley 5/2023"
+    },
+    {
+      "pregunta": "Según el art. 42.1 Ley 5/2023, ¿procede autorizar la compatibilidad para un segundo puesto en el sector público?",
+      "opciones": [
+        "No procede, salvo los supuestos legalmente previstos",
+        "Solo si el puesto es de limpieza",
+        "Sí, con la sola petición del interesado",
+        "Siempre"
+      ],
+      "correcta": 0,
+      "explicacion": "No procede la autorización de compatibilidad para un segundo puesto en el sector público, salvo los supuestos legalmente previstos.",
+      "referencia": "Art. 42.1 Ley 5/2023"
+    }
+  ]
+}

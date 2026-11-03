@@ -1,0 +1,180 @@
+{
+  "id": "c19",
+  "resumen": [
+    {
+      "titulo": "Concepto y naturaleza",
+      "puntos": [
+        "Subvención es toda disposición dineraria a favor de personas públicas o privadas, sin contraprestación directa, sujeta a un objetivo o actividad y destinada a una finalidad pública (art. 2.1 LGS).",
+        "No son subvenciones las aportaciones entre Administraciones para financiar globalmente su actividad (art. 2.2 LGS)."
+      ]
+    },
+    {
+      "titulo": "Principios y órganos",
+      "puntos": [
+        "La gestión se rige por publicidad, transparencia, concurrencia, objetividad, igualdad, eficacia y eficiencia (art. 8.3 LGS).",
+        "Las subvenciones de la Junta se conceden por sus órganos y agencias con competencia y crédito suficiente (arts. 3.2 y 9.4 LGS; arts. 16 y 54 LAJA). La competencia concreta se fija en la normativa autonómica, no verificada aquí."
+      ]
+    },
+    {
+      "titulo": "Procedimiento de concesión",
+      "puntos": [
+        "Concurrencia competitiva: comparación de solicitudes según criterios de las bases; propuesta de órgano colegiado (art. 22.1 LGS). Concesión directa: subvenciones nominativas, por resolución o convenio (arts. 22.2 y 28 LGS).",
+        "Bases reguladoras previas y publicadas (art. 9.2 y 9.3 LGS); resolución motivada y plazo máximo de seis meses (art. 25 LGS)."
+      ]
+    },
+    {
+      "titulo": "Pago, justificación y reintegro",
+      "puntos": [
+        "Pago previa justificación del cumplimiento de la finalidad (art. 34.3 LGS). La cuenta justificativa se rinde en tres meses si las bases no fijan otro plazo (art. 30.2 LGS).",
+        "Reintegro por falsear condiciones, incumplir el objetivo, justificar mal o resistirse al control, con interés de demora; prescribe a los cuatro años (arts. 37 y 39 LGS)."
+      ]
+    },
+    {
+      "titulo": "Control, infracciones y sanciones",
+      "puntos": [
+        "Control financiero de subvenciones del Estado (art. 44 LGS). El control de la Junta se rige por su normativa, no verificada aquí.",
+        "Infracciones leves, graves y muy graves; simple negligencia basta (arts. 52, 56 a 58 LGS). Multa fija de 75 a 6.000 euros, o proporcional del tanto al triple; graves del tanto al doble; muy graves del doble al triple (arts. 59, 62 y 63 LGS).",
+        "Procedimiento de oficio con audiencia, prescripción de infracciones y sanciones a cuatro años (arts. 65 y 67 LGS)."
+      ]
+    },
+    {
+      "titulo": "Base de datos",
+      "puntos": [
+        "La Base de Datos Nacional de Subvenciones recoge las subvenciones concedidas, sus bases, beneficiarios, importes, reintegros y sanciones (art. 20 LGS).",
+        "La base de datos de la Comunidad Autónoma no está regulada en la LAJA ni en la LGS; su norma debe comprobarse."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LGS",
+      "rol": "Norma principal del tema (arts. 2, 3, 8, 9, 10, 17, 20, 22, 25, 28, 30, 32, 34 a 37, 39, 44, 52, 56 a 59, 62, 63, 65 y 67)"
+    },
+    {
+      "id": "LAJA",
+      "rol": "Complementaria: organización de consejerías y agencias (arts. 16, 52 a 55)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 2.1 LGS, ¿qué requisito debe cumplir una entrega dineraria para ser subvención?",
+      "opciones": [
+        "Que se entregue sin contraprestación directa del beneficiario",
+        "Que sea siempre a una empresa",
+        "Que no tenga finalidad pública",
+        "Que tenga contraprestación directa del beneficiario"
+      ],
+      "correcta": 0,
+      "explicacion": "La entrega debe realizarse sin contraprestación directa del beneficiario, y estar sujeta a un objetivo o actividad y a una finalidad de utilidad pública o interés social.",
+      "referencia": "Art. 2.1.a LGS"
+    },
+    {
+      "pregunta": "Según el art. 22.1 LGS, ¿cómo se tramita el procedimiento ordinario de concesión de subvenciones?",
+      "opciones": [
+        "Por adjudicación de contrato",
+        "Por concesión directa",
+        "En régimen de concurrencia competitiva",
+        "Por sorteo entre los solicitantes"
+      ],
+      "correcta": 2,
+      "explicacion": "El procedimiento ordinario se tramita en régimen de concurrencia competitiva: se comparan las solicitudes según criterios previos y se adjudican dentro del crédito disponible.",
+      "referencia": "Art. 22.1 LGS"
+    },
+    {
+      "pregunta": "Según el art. 25.4 LGS, ¿cuál es el plazo máximo para resolver y notificar la concesión?",
+      "opciones": [
+        "Un año",
+        "Quince días",
+        "Tres meses",
+        "Seis meses, salvo que una ley establezca un plazo mayor"
+      ],
+      "correcta": 3,
+      "explicacion": "El plazo máximo para resolver y notificar no puede exceder de seis meses, salvo que una norma con rango de ley establezca otro mayor o la normativa europea lo prevea.",
+      "referencia": "Art. 25.4 LGS"
+    },
+    {
+      "pregunta": "Según el art. 30.2 LGS, si las bases no fijan plazo, ¿en cuánto tiempo debe rendirse la cuenta justificativa?",
+      "opciones": [
+        "Un mes desde el pago",
+        "Como máximo tres meses desde la finalización del plazo para realizar la actividad",
+        "Un año desde la concesión",
+        "No hay plazo"
+      ],
+      "correcta": 1,
+      "explicacion": "La cuenta debe presentarse, como máximo, en tres meses desde la finalización del plazo para realizar la actividad, si las bases no lo fijan.",
+      "referencia": "Art. 30.2 LGS"
+    },
+    {
+      "pregunta": "Según el art. 37.1 LGS, ¿cuál es una causa de reintegro?",
+      "opciones": [
+        "Obtener la subvención falseando las condiciones requeridas",
+        "Presentar la justificación con una semana de antelación",
+        "Recibir un importe menor al concedido",
+        "Cumplir el objetivo antes de plazo"
+      ],
+      "correcta": 0,
+      "explicacion": "Procede el reintegro, con interés de demora, si se obtiene la subvención falseando las condiciones requeridas o ocultando las que la hubieran impedido (art. 37.1.a LGS).",
+      "referencia": "Art. 37.1.a LGS"
+    },
+    {
+      "pregunta": "Según el art. 39.1 LGS, ¿en qué plazo prescribe el derecho de la Administración a reconocer o liquidar el reintegro?",
+      "opciones": [
+        "Un año",
+        "Dos años",
+        "Cuatro años",
+        "Diez años"
+      ],
+      "correcta": 2,
+      "explicacion": "El derecho de la Administración a reconocer o liquidar el reintegro prescribe a los cuatro años, con los cómputos del artículo 39.2 LGS.",
+      "referencia": "Art. 39.1 LGS"
+    },
+    {
+      "pregunta": "Según el art. 52 LGS, ¿qué se exige para sancionar una infracción en materia de subvenciones?",
+      "opciones": [
+        "Dolo en todo caso",
+        "Nada: no basta la simple negligencia",
+        "Culpa grave",
+        "Basta la simple negligencia"
+      ],
+      "correcta": 3,
+      "explicacion": "Las infracciones son sancionables incluso a título de simple negligencia.",
+      "referencia": "Art. 52 LGS"
+    },
+    {
+      "pregunta": "Según el art. 63.1 LGS, ¿qué multa corresponde a las infracciones muy graves?",
+      "opciones": [
+        "Multa proporcional del tanto al doble",
+        "Multa proporcional del doble al triple de la cantidad indebidamente obtenida, aplicada o no justificada",
+        "Multa fija de 75 euros",
+        "Solo apercibimiento"
+      ],
+      "correcta": 1,
+      "explicacion": "Las infracciones muy graves se sancionan con multa proporcional del doble al triple de la cantidad indebidamente obtenida, aplicada o no justificada.",
+      "referencia": "Art. 63.1 LGS"
+    },
+    {
+      "pregunta": "Según el art. 20 LGS, ¿qué es la Base de Datos Nacional de Subvenciones?",
+      "opciones": [
+        "Un listado de contratos administrativos",
+        "Un registro de solicitudes rechazadas",
+        "Una base que recoge las subvenciones concedidas, sus beneficiarios, importes, reintegros y sanciones",
+        "Una base de datos de empleados públicos"
+      ],
+      "correcta": 2,
+      "explicacion": "La BDNS recoge, entre otros datos, las bases, convocatorias, beneficiarios, importes concedidos y percibidos, reintegros y sanciones impuestas.",
+      "referencia": "Art. 20.2 LGS"
+    },
+    {
+      "pregunta": "Según el art. 22.2 LGS, ¿qué subvenciones pueden concederse de forma directa?",
+      "opciones": [
+        "Las previstas nominativamente en los presupuestos generales, entre otras",
+        "Ninguna",
+        "Solo las de cuantía inferior a 100 euros",
+        "Todas, sin excepción"
+      ],
+      "correcta": 0,
+      "explicacion": "Pueden concederse de forma directa, entre otras, las subvenciones previstas nominativamente en los presupuestos generales.",
+      "referencia": "Art. 22.2 LGS"
+    }
+  ]
+}

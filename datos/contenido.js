@@ -528,7 +528,7 @@ window.DATOS_ESTUDIO = {
    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "Verificados en el PDF consolidado del BOE los arts. 1, 2, 9, 14 a 55, 116, 117, 159 a 161, 166 a 169 y las disposiciones. Revisado el texto completo de los arts. citados.",
+   "notas": "Verificados en el PDF consolidado del BOE los arts. 1, 2, 9, 14 a 55, 116, 117, 159 a 161, 166 a 169 y las disposiciones. Revisado el texto completo de los arts. citados. Verificados también arts. 23.2 y 103.1 a 103.3 en el texto del PDF.",
    "boe_id": "BOE-A-1978-31229",
    "pdf": "leyes/BOE-A-1978-31229.pdf"
   },
@@ -685,6 +685,50 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
    "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 9 a 27, 33 a 36, 43.1 y 43.2.a, 52 a 55 y 58 en el texto del PDF. El texto refleja la redacción del BOE; referencias a autoridades (Gobernador civil, Jurado) deben leerse con la normativa posterior. Pendientes: Reglamento de expropiación forzosa, ley del suelo (valoración de inmuebles, art. 43.2.a), Título III (procedimientos especiales) y Título V."
+  },
+  "LGS": {
+   "id": "LGS",
+   "nombre": "Ley General de Subvenciones",
+   "referencia": "Ley 38/2003, de 17 de noviembre, General de Subvenciones (BOE núm. 276, de 18 de noviembre de 2003)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20977",
+   "boe_id": "BOE-A-2003-20977",
+   "pdf": "leyes/BOE-A-2003-20977.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 2, 3, 8, 9, 10.1, 11, 17.1, 20, 22, 25, 28, 30, 37, 39, 44, 52, 53, 56 a 59, 62, 63, 65 y 67 en el texto del PDF. Pendientes: resto del articulado, Reglamento (RD 887/2006), normativa autonómica de subvenciones y la base de datos andaluza."
+  },
+  "LFP-ANDALUCIA": {
+   "id": "LFP-ANDALUCIA",
+   "nombre": "Ley de la Función Pública de Andalucía",
+   "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023)",
+   "url": "https://www.boe.es/eli/es-an/l/2023/06/07/5",
+   "boe_id": "BOE-A-2023-16066",
+   "pdf": "leyes/BOE-A-2023-16066.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1, 2, 3, 12 a 14, 16, 42, 43, 52, 53, 82, 102, 103, 111, 115, 124, 126, 128, 144 a 146 y 148 y la disposición derogatoria (Ley 6/1985) en el texto del PDF. El consolidado puede no recoger el Decreto-ley 3/2026, que modifica sus disposiciones adicionales 28 y 29, pendiente de comprobar en el ELI. Pendientes: resto del articulado, desarrollo reglamentario y el convenio colectivo del personal laboral."
+  },
+  "LAJA": {
+   "id": "LAJA",
+   "nombre": "Ley de la Administración de la Junta de Andalucía",
+   "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19819",
+   "boe_id": "BOE-A-2007-19819",
+   "pdf": "leyes/BOE-A-2007-19819.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 12, 16, 52, 54, 55, 56 y 63 en el texto del PDF. No regula el régimen general de subvenciones: el régimen aplicable es el de la LGS y la normativa autonómica de desarrollo, no verificada aquí."
+  },
+  "EBEP": {
+   "id": "EBEP",
+   "nombre": "Estatuto Básico del Empleado Público",
+   "referencia": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público (BOE núm. 261, de 31 de octubre de 2015)",
+   "url": "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con",
+   "boe_id": "BOE-A-2015-11719",
+   "pdf": "leyes/BOE-A-2015-11719.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1, 6, 7, 8 a 12, 17, 19, 78, 81, 85, 86 y 89 en el texto del PDF. Pendientes: resto del articulado, en especial convenios colectivos (art. 37 y siguientes) y la normativa de incompatibilidades."
   }
  },
  "contenido": {
@@ -7337,6 +7381,865 @@ window.DATOS_ESTUDIO = {
      "nombre": "Ley Orgánica 2/2007, de reforma del Estatuto de Autonomía para Andalucía (texto consolidado, BOE)",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
      "pdf": "leyes/BOE-A-2007-5825.pdf"
+    }
+   ]
+  },
+  "c19": {
+   "resumen": [
+    {
+     "titulo": "Concepto y naturaleza",
+     "puntos": [
+      "Subvención es toda disposición dineraria a favor de personas públicas o privadas, sin contraprestación directa, sujeta a un objetivo o actividad y destinada a una finalidad pública (art. 2.1 LGS).",
+      "No son subvenciones las aportaciones entre Administraciones para financiar globalmente su actividad (art. 2.2 LGS)."
+     ]
+    },
+    {
+     "titulo": "Principios y órganos",
+     "puntos": [
+      "La gestión se rige por publicidad, transparencia, concurrencia, objetividad, igualdad, eficacia y eficiencia (art. 8.3 LGS).",
+      "Las subvenciones de la Junta se conceden por sus órganos y agencias con competencia y crédito suficiente (arts. 3.2 y 9.4 LGS; arts. 16 y 54 LAJA). La competencia concreta se fija en la normativa autonómica, no verificada aquí."
+     ]
+    },
+    {
+     "titulo": "Procedimiento de concesión",
+     "puntos": [
+      "Concurrencia competitiva: comparación de solicitudes según criterios de las bases; propuesta de órgano colegiado (art. 22.1 LGS). Concesión directa: subvenciones nominativas, por resolución o convenio (arts. 22.2 y 28 LGS).",
+      "Bases reguladoras previas y publicadas (art. 9.2 y 9.3 LGS); resolución motivada y plazo máximo de seis meses (art. 25 LGS)."
+     ]
+    },
+    {
+     "titulo": "Pago, justificación y reintegro",
+     "puntos": [
+      "Pago previa justificación del cumplimiento de la finalidad (art. 34.3 LGS). La cuenta justificativa se rinde en tres meses si las bases no fijan otro plazo (art. 30.2 LGS).",
+      "Reintegro por falsear condiciones, incumplir el objetivo, justificar mal o resistirse al control, con interés de demora; prescribe a los cuatro años (arts. 37 y 39 LGS)."
+     ]
+    },
+    {
+     "titulo": "Control, infracciones y sanciones",
+     "puntos": [
+      "Control financiero de subvenciones del Estado (art. 44 LGS). El control de la Junta se rige por su normativa, no verificada aquí.",
+      "Infracciones leves, graves y muy graves; simple negligencia basta (arts. 52, 56 a 58 LGS). Multa fija de 75 a 6.000 euros, o proporcional del tanto al triple; graves del tanto al doble; muy graves del doble al triple (arts. 59, 62 y 63 LGS).",
+      "Procedimiento de oficio con audiencia, prescripción de infracciones y sanciones a cuatro años (arts. 65 y 67 LGS)."
+     ]
+    },
+    {
+     "titulo": "Base de datos",
+     "puntos": [
+      "La Base de Datos Nacional de Subvenciones recoge las subvenciones concedidas, sus bases, beneficiarios, importes, reintegros y sanciones (art. 20 LGS).",
+      "La base de datos de la Comunidad Autónoma no está regulada en la LAJA ni en la LGS; su norma debe comprobarse."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LGS",
+     "rol": "Norma principal del tema (arts. 2, 3, 8, 9, 10, 17, 20, 22, 25, 28, 30, 32, 34 a 37, 39, 44, 52, 56 a 59, 62, 63, 65 y 67)"
+    },
+    {
+     "id": "LAJA",
+     "rol": "Complementaria: organización de consejerías y agencias (arts. 16, 52 a 55)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 2.1 LGS, ¿qué requisito debe cumplir una entrega dineraria para ser subvención?",
+     "opciones": [
+      "Que se entregue sin contraprestación directa del beneficiario",
+      "Que sea siempre a una empresa",
+      "Que no tenga finalidad pública",
+      "Que tenga contraprestación directa del beneficiario"
+     ],
+     "correcta": 0,
+     "explicacion": "La entrega debe realizarse sin contraprestación directa del beneficiario, y estar sujeta a un objetivo o actividad y a una finalidad de utilidad pública o interés social.",
+     "referencia": "Art. 2.1.a LGS"
+    },
+    {
+     "pregunta": "Según el art. 22.1 LGS, ¿cómo se tramita el procedimiento ordinario de concesión de subvenciones?",
+     "opciones": [
+      "Por adjudicación de contrato",
+      "Por concesión directa",
+      "En régimen de concurrencia competitiva",
+      "Por sorteo entre los solicitantes"
+     ],
+     "correcta": 2,
+     "explicacion": "El procedimiento ordinario se tramita en régimen de concurrencia competitiva: se comparan las solicitudes según criterios previos y se adjudican dentro del crédito disponible.",
+     "referencia": "Art. 22.1 LGS"
+    },
+    {
+     "pregunta": "Según el art. 25.4 LGS, ¿cuál es el plazo máximo para resolver y notificar la concesión?",
+     "opciones": [
+      "Un año",
+      "Quince días",
+      "Tres meses",
+      "Seis meses, salvo que una ley establezca un plazo mayor"
+     ],
+     "correcta": 3,
+     "explicacion": "El plazo máximo para resolver y notificar no puede exceder de seis meses, salvo que una norma con rango de ley establezca otro mayor o la normativa europea lo prevea.",
+     "referencia": "Art. 25.4 LGS"
+    },
+    {
+     "pregunta": "Según el art. 30.2 LGS, si las bases no fijan plazo, ¿en cuánto tiempo debe rendirse la cuenta justificativa?",
+     "opciones": [
+      "Un mes desde el pago",
+      "Como máximo tres meses desde la finalización del plazo para realizar la actividad",
+      "Un año desde la concesión",
+      "No hay plazo"
+     ],
+     "correcta": 1,
+     "explicacion": "La cuenta debe presentarse, como máximo, en tres meses desde la finalización del plazo para realizar la actividad, si las bases no lo fijan.",
+     "referencia": "Art. 30.2 LGS"
+    },
+    {
+     "pregunta": "Según el art. 37.1 LGS, ¿cuál es una causa de reintegro?",
+     "opciones": [
+      "Obtener la subvención falseando las condiciones requeridas",
+      "Presentar la justificación con una semana de antelación",
+      "Recibir un importe menor al concedido",
+      "Cumplir el objetivo antes de plazo"
+     ],
+     "correcta": 0,
+     "explicacion": "Procede el reintegro, con interés de demora, si se obtiene la subvención falseando las condiciones requeridas o ocultando las que la hubieran impedido (art. 37.1.a LGS).",
+     "referencia": "Art. 37.1.a LGS"
+    },
+    {
+     "pregunta": "Según el art. 39.1 LGS, ¿en qué plazo prescribe el derecho de la Administración a reconocer o liquidar el reintegro?",
+     "opciones": [
+      "Un año",
+      "Dos años",
+      "Cuatro años",
+      "Diez años"
+     ],
+     "correcta": 2,
+     "explicacion": "El derecho de la Administración a reconocer o liquidar el reintegro prescribe a los cuatro años, con los cómputos del artículo 39.2 LGS.",
+     "referencia": "Art. 39.1 LGS"
+    },
+    {
+     "pregunta": "Según el art. 52 LGS, ¿qué se exige para sancionar una infracción en materia de subvenciones?",
+     "opciones": [
+      "Dolo en todo caso",
+      "Nada: no basta la simple negligencia",
+      "Culpa grave",
+      "Basta la simple negligencia"
+     ],
+     "correcta": 3,
+     "explicacion": "Las infracciones son sancionables incluso a título de simple negligencia.",
+     "referencia": "Art. 52 LGS"
+    },
+    {
+     "pregunta": "Según el art. 63.1 LGS, ¿qué multa corresponde a las infracciones muy graves?",
+     "opciones": [
+      "Multa proporcional del tanto al doble",
+      "Multa proporcional del doble al triple de la cantidad indebidamente obtenida, aplicada o no justificada",
+      "Multa fija de 75 euros",
+      "Solo apercibimiento"
+     ],
+     "correcta": 1,
+     "explicacion": "Las infracciones muy graves se sancionan con multa proporcional del doble al triple de la cantidad indebidamente obtenida, aplicada o no justificada.",
+     "referencia": "Art. 63.1 LGS"
+    },
+    {
+     "pregunta": "Según el art. 20 LGS, ¿qué es la Base de Datos Nacional de Subvenciones?",
+     "opciones": [
+      "Un listado de contratos administrativos",
+      "Un registro de solicitudes rechazadas",
+      "Una base que recoge las subvenciones concedidas, sus beneficiarios, importes, reintegros y sanciones",
+      "Una base de datos de empleados públicos"
+     ],
+     "correcta": 2,
+     "explicacion": "La BDNS recoge, entre otros datos, las bases, convocatorias, beneficiarios, importes concedidos y percibidos, reintegros y sanciones impuestas.",
+     "referencia": "Art. 20.2 LGS"
+    },
+    {
+     "pregunta": "Según el art. 22.2 LGS, ¿qué subvenciones pueden concederse de forma directa?",
+     "opciones": [
+      "Las previstas nominativamente en los presupuestos generales, entre otras",
+      "Ninguna",
+      "Solo las de cuantía inferior a 100 euros",
+      "Todas, sin excepción"
+     ],
+     "correcta": 0,
+     "explicacion": "Pueden concederse de forma directa, entre otras, las subvenciones previstas nominativamente en los presupuestos generales.",
+     "referencia": "Art. 22.2 LGS"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué es la actividad subvencionadora",
+     "parrafos": [
+      "La actividad subvencionadora es la forma en que las Administraciones públicas fomentan actividades de interés general entregando dinero sin pedir nada a cambio directamente. Es una de las formas de intervención administrativa, junto con la regulación, la prestación de servicios y el control.",
+      "En el caso de la Junta de Andalucía, la actividad se ejerce por la propia Administración de la Junta y por sus agencias. La regulación básica es estatal: la Ley 38/2003, General de Subvenciones (LGS), que la Junta aplica en lo que le corresponde. La Ley 9/2007, de la Administración de la Junta de Andalucía, organiza las consejerías y las agencias, pero no regula el régimen general de subvenciones.",
+      "Para un examen, la pregunta de partida es qué norma regula qué. Respuesta: el régimen general de subvenciones es la LGS; la organización de quien concede (consejerías y agencias), la LAJA; y la normativa autonómica de desarrollo completa el régimen en Andalucía, aunque no se ha verificado en este tema."
+     ]
+    },
+    {
+     "titulo": "2. Concepto de subvención",
+     "parrafos": [
+      "El artículo 2.1 LGS define la subvención como toda disposición dineraria a favor de personas públicas o privadas que cumpla tres requisitos. Primero, que la entrega se realice sin contraprestación directa de los beneficiarios (art. 2.1.a LGS). Segundo, que esté sujeta al cumplimiento de un objetivo, la ejecución de un proyecto, la realización de una actividad, la adopción de un comportamiento singular o la concurrencia de una situación (art. 2.1.b LGS). Tercero, que la finalidad sea el fomento de una actividad de utilidad pública o interés social o la promoción de una finalidad pública (art. 2.1.c LGS).",
+      "El artículo 2.2 LGS excluye del concepto las aportaciones dinerarias entre Administraciones públicas que financian globalmente la actividad de la Administración a la que van destinadas, y las que se realizan entre los distintos agentes de una Administración cuyos presupuestos se integran en los presupuestos generales.",
+      "Para un examen, la diferencia clave es la ausencia de contraprestación directa. Si el beneficiario entrega algo a cambio, es un contrato y no una subvención."
+     ]
+    },
+    {
+     "titulo": "3. Naturaleza jurídica de la subvención",
+     "parrafos": [
+      "La subvención es una atribución patrimonial a favor de un beneficiario, condicionada al cumplimiento de una finalidad y sometida a control. No es un derecho del beneficiario, sino una decisión discrecional de la Administración dentro de las bases reguladoras y del crédito disponible.",
+      "La subvención se vincula a un objetivo. Por eso el incumplimiento del objetivo, de la actividad o del proyecto da lugar al reintegro (art. 37.1.b LGS), y no solo al ajuste del importe. Esta característica distingue la subvención de la pura liberalidad.",
+      "Para un examen, la pregunta típica es si la subvención genera derecho a cobrar. Respuesta: no mientras no se conceda; una vez concedida, el cobro está condicionado a cumplir la finalidad y a justificarla."
+     ]
+    },
+    {
+     "titulo": "4. Clasificación: concurrencia competitiva y concesión directa",
+     "parrafos": [
+      "El artículo 22.1 LGS establece que el procedimiento ordinario de concesión se tramita en régimen de concurrencia competitiva. Consiste en comparar las solicitudes para establecer una prelación según los criterios de valoración fijados en las bases y en la convocatoria, y adjudicar, dentro del crédito disponible, las que obtengan mayor valoración.",
+      "El artículo 22.2 LGS permite conceder de forma directa, entre otras, las subvenciones previstas nominativamente en los presupuestos generales; el precepto contiene otras letras cuyo detalle no se ha verificado aquí. El artículo 28 LGS regula la concesión directa, que se canaliza habitualmente mediante resolución o convenio, con las condiciones y compromisos de la ley.",
+      "Para un examen, la diferencia es la prelación: en la concurrencia hay comparación de solicitudes; en la concesión directa, el beneficiario viene determinado de antemano."
+     ]
+    },
+    {
+     "titulo": "5. Ámbito subjetivo: quién otorga subvenciones",
+     "parrafos": [
+      "El artículo 3.1 LGS considera Administraciones públicas a estos efectos la Administración General del Estado, las entidades locales y las comunidades autónomas. El artículo 3.2 LGS extiende la ley a los organismos y entidades de derecho público con personalidad jurídica propia cuando otorgan subvenciones en ejercicio de potestades administrativas.",
+      "En la Junta de Andalucía, la ley de la Administración de la Junta (LAJA, Ley 9/2007) clasifica las entidades instrumentales en agencias y entidades privadas (art. 52 LAJA). Las agencias son entidades con personalidad jurídica pública, dependientes de la Junta, para actividades de la competencia de la Comunidad en régimen de descentralización funcional (art. 54.1 LAJA).",
+      "Las agencias se clasifican en administrativas, públicas empresariales y de régimen especial (art. 54.2 LAJA). Pueden ejercer las potestades administrativas precisas para sus fines, salvo la expropiatoria (art. 55 LAJA). Para un examen, la pregunta es si una agencia puede otorgar subvenciones: sí, cuando actúa en ejercicio de potestades administrativas (art. 3.2 LGS)."
+     ]
+    },
+    {
+     "titulo": "6. Órganos competentes para conceder",
+     "parrafos": [
+      "El artículo 10.1 LGS atribuye la competencia para conceder subvenciones en la Administración General del Estado a los ministros y secretarios de Estado, y a los presidentes o directores de los organismos vinculados, previa consignación presupuestaria. El artículo 10.2 LGS exige la autorización del Consejo de Ministros, o de la Comisión Delegada cuando la norma lo prevea, para las subvenciones de cuantía superior a 12 millones de euros.",
+      "En la Junta de Andalucía, la organización básica la fija la LAJA. Es órgano superior la consejería, y son órganos directivos la viceconsejería, la secretaría general, la secretaría general técnica y la dirección general (art. 16 LAJA). Quién concede en cada caso y con qué competencias concretas depende de la normativa de la Junta, que no se ha verificado en este tema.",
+      "Para un examen, la regla es que la competencia debe estar atribuida expresamente al órgano concedente. El artículo 9.4.b LGS requiere, además, la existencia de crédito adecuado y suficiente."
+     ]
+    },
+    {
+     "titulo": "7. Requisitos previos: plan estratégico, bases y publicidad",
+     "parrafos": [
+      "El artículo 8.1 LGS exige que el órgano que propone una subvención concrete con carácter previo, en un plan estratégico, los objetivos, el plazo, los costes previsibles y las fuentes de financiación. Las bases reguladoras deben referirse al plan en el que se integran; si no, debe motivarse la nueva subvención.",
+      "El artículo 9.2 LGS exige que, antes de otorgar la subvención, se aprueben las bases reguladoras. El artículo 9.3 LGS ordena publicarlas en el Boletín Oficial del Estado o en el diario oficial correspondiente. El artículo 9.4 añade que el otorgamiento exige la competencia del órgano y la existencia de crédito adecuado y suficiente.",
+      "El artículo 17.1 LGS prevé que, en la Administración General del Estado, los ministros establezcan las bases mediante orden ministerial. En la Junta, las bases las aprueba la normativa de la Comunidad, que no se ha verificado aquí."
+     ]
+    },
+    {
+     "titulo": "8. Principios de la gestión de subvenciones",
+     "parrafos": [
+      "El artículo 8.3 LGS enumera los principios de gestión: publicidad, transparencia, concurrencia, objetividad, igualdad y no discriminación (letra a); eficacia en el cumplimiento de los objetivos (letra b); y eficiencia en la asignación y utilización de los recursos públicos (letra c).",
+      "El artículo 8.2 LGS añade que, cuando los objetivos afecten al mercado, las subvenciones deben dirigirse a corregir fallos claramente identificados y distorsionar lo menos posible.",
+      "Para un examen, la pregunta típica es cuáles son los principios de gestión. Respuesta: publicidad, transparencia, concurrencia, objetividad, igualdad, no discriminación, eficacia y eficiencia (art. 8.3 LGS)."
+     ]
+    },
+    {
+     "titulo": "9. El procedimiento de concurrencia competitiva",
+     "parrafos": [
+      "En la concurrencia competitiva, la propuesta de concesión la formula un órgano colegiado a través del órgano instructor, cuya composición fijan las bases (art. 22.1 LGS). El órgano concedente resuelve después.",
+      "Las bases pueden prever el prorrateo entre los beneficiarios del importe global máximo, de forma excepcional (art. 22.1 LGS). El procedimiento parte de la convocatoria y se resuelve dentro del crédito disponible.",
+      "Para un examen, la secuencia es: convocatoria, solicitudes, valoración por el órgano colegiado, propuesta, resolución y notificación."
+     ]
+    },
+    {
+     "titulo": "10. La resolución de concesión",
+     "parrafos": [
+      "El artículo 25.1 LGS dispone que, aprobada la propuesta de resolución definitiva, el órgano competente resuelve conforme al artículo 89 LPAC y a la convocatoria.",
+      "El artículo 25.2 LGS exige que la resolución esté motivada, según las bases, y que queden acreditados en el procedimiento los fundamentos de la resolución. El artículo 25.3 LGS exige que la resolución diga expresamente a quiénes se concede y qué solicitudes se desestiman.",
+      "El artículo 25.4 LGS fija el plazo máximo para resolver y notificar en seis meses, salvo que una ley establezca otro mayor o lo prevea la normativa europea. El plazo se cuenta desde la publicación de la convocatoria, salvo que esta posponga sus efectos."
+     ]
+    },
+    {
+     "titulo": "11. Notificación, publicidad y Base de Datos Nacional",
+     "parrafos": [
+      "El artículo 18 LGS regula la publicidad de las subvenciones concedidas. El artículo 20 LGS crea la Base de Datos Nacional de Subvenciones (BDNS), que sirve a la transparencia, a la planificación de políticas públicas, a la gestión y a la lucha contra el fraude.",
+      "El artículo 20.2 LGS dispone que la BDNS recoja las bases reguladoras, la convocatoria, el programa y crédito presupuestario, el objeto, los beneficiarios, los importes concedidos y percibidos, y los reintegros y sanciones impuestos. Las inscripciones de quienes incurren en prohibiciones permanecen 10 años desde que termina el plazo de prohibición.",
+      "Para un examen, la pregunta típica es qué contiene la BDNS. Respuesta: las subvenciones concedidas, sus bases, beneficiarios, importes, reintegros y sanciones (art. 20.2 LGS)."
+     ]
+    },
+    {
+     "titulo": "12. La justificación de la subvención",
+     "parrafos": [
+      "El artículo 30.1 LGS establece que la justificación del cumplimiento de las condiciones y de los objetivos puede revestir la forma de cuenta justificativa del gasto realizado, de módulos o de estados contables, según la normativa reguladora.",
+      "El artículo 30.2 LGS dice que la rendición de la cuenta justificativa es un acto obligatorio del beneficiario, bajo su responsabilidad. Si las bases no fijan el plazo, debe presentarse como máximo en tres meses desde la finalización del plazo para realizar la actividad.",
+      "El artículo 30.3 LGS exige acreditar los gastos mediante facturas y documentos de valor probatorio equivalente. Para un examen, la justificación es un deber del beneficiario y su falta es causa de reintegro (art. 37.1.c LGS)."
+     ]
+    },
+    {
+     "titulo": "13. Obligaciones del beneficiario y de las entidades colaboradoras",
+     "parrafos": [
+      "El artículo 11.1 LGS define al beneficiario como la persona que ha de realizar la actividad que fundamentó la subvención o que se encuentra en la situación que la legitima. El artículo 11.2 y 11.3 LGS admiten, si las bases lo prevén, que miembros asociados o agrupaciones tengan esa condición.",
+      "El artículo 14 LGS regula las obligaciones de los beneficiarios, entre ellas las de justificar, facilitar el control y comunicar otras ayudas. El artículo 12 LGS regula las entidades colaboradoras, que gestionan la subvención por cuenta de la Administración.",
+      "Para un examen, la diferencia es que el beneficiario hace la actividad, mientras que la entidad colaboradora gestiona la entrega y responde de los fondos que aplica."
+     ]
+    },
+    {
+     "titulo": "14. Causas de reintegro",
+     "parrafos": [
+      "El artículo 37.1 LGS establece los casos en que procede el reintegro de las cantidades percibidas, con el interés de demora desde el pago. Son: obtener la subvención falseando las condiciones o ocultando las que lo impedían (letra a); el incumplimiento total o parcial del objetivo o de la actividad (letra b); el incumplimiento de la justificación o una justificación insuficiente (letra c); y la resistencia u obstrucción al control (letra e).",
+      "El artículo 39.1 LGS dispone que prescribe a los cuatro años el derecho de la Administración a reconocer o liquidar el reintegro. El artículo 39.2 LGS fija el inicio del cómputo: desde que venció el plazo de justificación, o desde la concesión en los supuestos previstos.",
+      "Para un examen, el reintegro es la consecuencia del incumplimiento, con interés de demora desde el pago. Es distinto de la sanción, aunque ambos pueden darse a la vez."
+     ]
+    },
+    {
+     "titulo": "15. El pago de la subvención y su aprobación del gasto",
+     "parrafos": [
+      "El artículo 34.1 LGS exige que, antes de la convocatoria o de la concesión directa, se apruebe el gasto conforme a la Ley General Presupuestaria o a la norma presupuestaria de la Administración correspondiente. El artículo 34.2 LGS dispone que la resolución de concesión lleva consigo el compromiso del gasto.",
+      "El artículo 34.3 LGS establece que el pago se realiza previa justificación por el beneficiario de la actividad, proyecto u objetivo para el que se concedió. El pago anticipado, por tanto, no es la regla general de la ley; la justificación previa a cobrar sí lo es, salvo que la normativa reguladora establezca otra cosa.",
+      "Para un examen, la secuencia es: aprobación del gasto, resolución con compromiso del gasto, justificación y pago (arts. 34.1 a 34.3 LGS)."
+     ]
+    },
+    {
+     "titulo": "16. Comprobación y retención de pagos",
+     "parrafos": [
+      "El artículo 32.1 LGS encarga al órgano concedente comprobar la adecuada justificación, la realización de la actividad y el cumplimiento de la finalidad. El artículo 32.2 LGS permite que la entidad colaboradora realice esas comprobaciones en nombre y por cuenta del órgano concedente.",
+      "El artículo 35.1 LGS permite, como medida cautelar, suspender los libramientos pendientes una vez iniciado el procedimiento de reintegro, sin superar el importe fijado en el inicio del expediente con sus intereses de demora. El artículo 35.2 LGS exige que la medida se acuerde por resolución motivada.",
+      "Para un examen, la retención de pagos es una medida cautelar, no una sanción. Su límite es el importe del reintegro previsto más los intereses devengados."
+     ]
+    },
+    {
+     "titulo": "17. Invalidez de la resolución de concesión",
+     "parrafos": [
+      "El artículo 36.1 LGS enumera las causas de nulidad de la resolución de concesión. Son las del artículo 62.1 de la Ley 30/1992 (hoy LPAC, art. 47) y la carencia o insuficiencia de crédito, conforme a la Ley General Presupuestaria (art. 36.1.b LGS).",
+      "Para un examen, la falta de crédito es una causa de nulidad expresa. Por eso el órgano debe comprobar la existencia de crédito antes de conceder (art. 9.4.b LGS)."
+     ]
+    },
+    {
+     "titulo": "18. Control financiero de las subvenciones",
+     "parrafos": [
+      "El artículo 44.1 LGS atribuye el control financiero de subvenciones, en el ámbito de la Administración General del Estado, a los beneficiarios y entidades colaboradoras de subvenciones con cargo a los Presupuestos Generales del Estado o a fondos de la Unión Europea.",
+      "El artículo 44.2 LGS define el objeto del control: verificar la adecuada obtención de la subvención, el cumplimiento de las obligaciones de gestión y aplicación, y la adecuada justificación.",
+      "El control financiero que ejerce la Junta de Andalucía sobre sus propias subvenciones se rige por la normativa autonómica, que no se ha verificado en este tema. Para un examen, distinga el control estatal del artículo 44 LGS del control autonómico."
+     ]
+    },
+    {
+     "titulo": "19. Infracciones administrativas en materia de subvenciones",
+     "parrafos": [
+      "El artículo 52 LGS establece que constituyen infracciones las acciones y omisiones tipificadas en la ley, sancionables incluso a título de simple negligencia. Es una excepción a la regla general de culpabilidad.",
+      "El artículo 53 LGS atribuye la responsabilidad a las personas físicas o jurídicas, públicas o privadas, y a los entes sin personalidad que incurran en los supuestos tipificados.",
+      "Para un examen, la pregunta típica es si una infracción exige dolo. Respuesta: no, basta la simple negligencia (art. 52 LGS)."
+     ]
+    },
+    {
+     "titulo": "20. Clasificación de las infracciones",
+     "parrafos": [
+      "El artículo 56 LGS define las infracciones leves como incumplimientos de las obligaciones de la ley y de las bases que no sean graves ni muy graves.",
+      "El artículo 57 LGS recoge las infracciones graves, como el incumplimiento de comunicar a la Administración otras ayudas obtenidas para la misma finalidad (letra a).",
+      "El artículo 58 LGS recoge las muy graves, como obtener una subvención falseando las condiciones o no aplicar las cantidades recibidas a los fines para los que se concedieron (letras a y b)."
+     ]
+    },
+    {
+     "titulo": "21. Sanciones",
+     "parrafos": [
+      "El artículo 59 LGS establece que las infracciones se sancionan con multas pecuniarias y, cuando proceda, no pecuniarias. La multa fija está entre 75 y 6.000 euros, y la proporcional puede ir del tanto al triple de la cantidad indebidamente obtenida, aplicada o no justificada.",
+      "El artículo 62.1 LGS sanciona las infracciones graves con multa proporcional del tanto al doble. El artículo 62.2 LGS permite, en casos cualificados con perjuicio superior al 50 por ciento y 30.000 euros, la pérdida de la posibilidad de obtener subvenciones durante un plazo de hasta tres años.",
+      "El artículo 63.1 LGS sanciona las infracciones muy graves con multa del doble al triple. Para un examen, recuérdese que la multa fija corresponde a la escala del artículo 59.2 LGS, mientras que las graves y muy graves se sancionan con multas proporcionales (arts. 62.1 y 63.1 LGS)."
+     ]
+    },
+    {
+     "titulo": "22. Procedimiento sancionador y prescripción",
+     "parrafos": [
+      "El artículo 67.1 LGS establece que la sanción se impone mediante expediente en el que se da audiencia al interesado antes del acuerdo, tramitado conforme al capítulo II del título IX de la LPAC. El artículo 67.2 LGS dispone que el procedimiento se inicia de oficio, como consecuencia de la comprobación o del control financiero. El artículo 67.3 LGS dispone que los acuerdos de sanción ponen fin a la vía administrativa.",
+      "El artículo 65.1 LGS establece que las infracciones prescriben a los cuatro años desde que se cometieron. El artículo 65.2 LGS fija el mismo plazo para las sanciones, desde el día siguiente a la firmeza de la resolución. El artículo 65.4 LGS dispone que la prescripción se aplica de oficio.",
+      "Para un examen, el plazo de cuatro años de las infracciones es distinto del plazo de las infracciones de la LRJSP (tema c17), que es distinto según la gravedad. La LGS fija un plazo único."
+     ]
+    },
+    {
+     "titulo": "23. La base de datos de subvenciones de Andalucía",
+     "parrafos": [
+      "El tema menciona la base de datos de subvenciones y ayudas públicas de la Comunidad Autónoma de Andalucía. La base estatal, la BDNS, está regulada en el artículo 20 LGS. La base andaluza no está en la LAJA ni en la LGS, y su regulación no se ha verificado en este tema.",
+      "Para un examen, conviene recordar la relación: la LGS establece la base nacional con un contenido mínimo; las bases autonómicas deben alimentar o coordinarse con ella según la normativa de cada Comunidad.",
+      "Antes de citarla en un examen, debe comprobarse la norma autonómica que la crea y su contenido."
+     ]
+    },
+    {
+     "titulo": "24. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir la subvención con el contrato. La subvención no tiene contraprestación directa (art. 2.1.a LGS).",
+      "Afirmar que la concesión directa no requiere bases reguladoras. Las bases son necesarias antes de otorgar la subvención (art. 9.2 LGS).",
+      "Olvidar que la infracción puede sancionarse por simple negligencia (art. 52 LGS).",
+      "Confundir el reintegro con la sanción. El reintegro repara el fondo indebido; la sanción castiga la infracción.",
+      "Pensar que el plazo para resolver una concesión es indefinido. El máximo es de seis meses (art. 25.4 LGS)."
+     ]
+    },
+    {
+     "titulo": "25. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué es una subvención? Una disposición dineraria sin contraprestación directa, sujeta a un objetivo y destinada a una finalidad pública (art. 2.1 LGS).",
+      "¿Qué procedimiento es el ordinario de concesión? La concurrencia competitiva (art. 22.1 LGS).",
+      "¿Qué plazo prescribe la infracción en materia de subvenciones? Cuatro años desde que se cometió (art. 65.1 LGS).",
+      "¿Cuál es el plazo máximo para resolver la concesión? Seis meses (art. 25.4 LGS).",
+      "¿Qué justificación es obligatoria? La cuenta justificativa, que debe rendirse en tres meses si las bases no fijan otro plazo (art. 30.2 LGS).",
+      "¿Qué contiene la BDNS? Las subvenciones, beneficiarios, importes, reintegros y sanciones (art. 20.2 LGS).",
+      "¿Qué sanción puede acompañar a una infracción grave? Si el perjuicio supera el 50 por ciento de la subvención y los 30.000 euros, la pérdida de la posibilidad de obtener subvenciones hasta tres años (art. 62.2 LGS)."
+     ]
+    },
+    {
+     "titulo": "26. Casos prácticos",
+     "parrafos": [
+      "Caso 1: una asociación recibe una subvención para un programa y no presenta la cuenta justificativa. Procede el reintegro con interés de demora desde el pago (art. 37.1.c LGS), y la Administración tiene cuatro años para reconocerlo (art. 39.1 LGS).",
+      "Caso 2: una entidad obtiene una subvención ocultando una condición que la habría impedido. Es infracción muy grave y puede sancionarse con multa del doble al triple (arts. 58.a y 63.1 LGS).",
+      "Caso 3: la Junta concede una subvención nominativa por concesión directa. Se formaliza mediante resolución o convenio, con las condiciones de la ley (art. 28.1 LGS), sin convocatoria pública."
+     ]
+    },
+    {
+     "titulo": "27. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema c14 sobre el procedimiento administrativo, porque la resolución y el procedimiento sancionador son procedimientos de la LPAC.",
+      "Se conecta con el tema c17 sobre la potestad sancionadora, porque las sanciones en materia de subvenciones deben respetar sus principios generales.",
+      "Se conecta con el tema c20 sobre función pública, porque las agencias y consejerías que conceden subvenciones dependen de los órganos cuyo personal se regula en la Ley 5/2023."
+     ]
+    },
+    {
+     "titulo": "28. Claves para el examen",
+     "parrafos": [
+      "Concepto: disposición dineraria, sin contraprestación, con objetivo y finalidad pública (art. 2 LGS).",
+      "Clasificación: concurrencia competitiva (art. 22.1) y concesión directa (arts. 22.2 y 28 LGS).",
+      "Requisitos: plan estratégico (art. 8), bases reguladoras publicadas (art. 9), competencia y crédito (art. 9.4).",
+      "Resolución: motivada, con desestimación expresa y plazo de seis meses (art. 25 LGS).",
+      "Justificación y reintegro: cuenta justificativa (art. 30), causas de reintegro (art. 37), prescripción de cuatro años (art. 39).",
+      "Infracciones y sanciones: simple negligencia (art. 52), graves (art. 62), muy graves (art. 63), prescripción de cuatro años (art. 65).",
+      "BDNS: artículo 20 LGS. Junta de Andalucía: organización en la LAJA (arts. 16, 52 a 55); régimen de subvenciones y base andaluza, normativa autonómica no verificada."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 38/2003, General de Subvenciones (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20977",
+     "pdf": "leyes/BOE-A-2003-20977.pdf"
+    },
+    {
+     "nombre": "Ley 9/2007, de la Administración de la Junta de Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19819",
+     "pdf": "leyes/BOE-A-2007-19819.pdf"
+    }
+   ]
+  },
+  "c20": {
+   "resumen": [
+    {
+     "titulo": "Normas constitucionales y estatales",
+     "puntos": [
+      "La Administración sirve con objetividad los intereses generales (art. 103.1 CE). La ley regula el estatuto de los funcionarios, el acceso por mérito y capacidad y las incompatibilidades (art. 103.3 CE).",
+      "El EBEP establece las bases del régimen estatutario (art. 1 EBEP). Las leyes autonómicas de función pública lo desarrollan en el ámbito de sus competencias (art. 6 EBEP)."
+     ]
+    },
+    {
+     "titulo": "La Ley 5/2023",
+     "puntos": [
+      "Objeto: ordenar la función pública de la Junta de Andalucía y las normas de su personal (art. 1). Se aplica a la Administración General de la Junta y a sus agencias (art. 2).",
+      "Trece títulos; el título I recoge las disposiciones generales y las clases de personal (art. 12)."
+     ]
+    },
+    {
+     "titulo": "Clases de personal",
+     "puntos": [
+      "Funcionario de carrera (relación estatutaria, art. 13), interino (necesidad y urgencia; hasta tres años por vacante, art. 14.1.a), personal laboral (contrato de trabajo, art. 16) y eventual (art. 12.2).",
+      "El directivo público profesional se regula en el título II (art. 12.3 y arts. 17 a 27)."
+     ]
+    },
+    {
+     "titulo": "Acceso y adquisición",
+     "puntos": [
+      "Requisitos: nacionalidad, capacidad funcional y edad mínima (art. 106 Ley 5/2023). Sistemas selectivos: oposición, concurso-oposición y concurso de méritos (art. 111.2).",
+      "Se adquiere la condición tras superar el proceso selectivo y acreditar los requisitos en plazo (art. 116). Pérdida por separación firme, jubilación, renuncia, entre otras (art. 117)."
+     ]
+    },
+    {
+     "titulo": "Carrera y provisión",
+     "puntos": [
+      "La carrera horizontal es un ascenso por tramos sin cambio de puesto; como máximo seis tramos (arts. 52 y 53 Ley 5/2023).",
+      "Provisión ordinaria por concurso general o específico, o libre designación con convocatoria pública (arts. 124 a 128). La libre designación se aplica a puestos de especial responsabilidad y confianza (art. 128.2)."
+     ]
+    },
+    {
+     "titulo": "Situaciones e incompatibilidades",
+     "puntos": [
+      "El funcionario de carrera puede estar en servicio activo, servicios especiales, excedencia, suspensión de funciones y otras situaciones (art. 144).",
+      "No procede compatibilizar un segundo puesto en el sector público salvo supuestos legales (art. 42.1). La dedicación exclusiva se aplica a determinados puestos (art. 43)."
+     ]
+    },
+    {
+     "titulo": "Personal laboral",
+     "puntos": [
+      "El personal laboral se rige por la legislación laboral y por el convenio colectivo propio de la Junta (art. 103 Ley 5/2023 y art. 7 EBEP). La negociación colectiva se hace en mesas de negociación (art. 82).",
+      "El contenido del convenio no está verificado en este tema y debe consultarse en el texto vigente."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CE",
+     "rol": "Fundamento constitucional (arts. 23.2 y 103)"
+    },
+    {
+     "id": "EBEP",
+     "rol": "Bases estatales del régimen estatutario (arts. 1, 6, 7, 8 a 12, 78 y 85 a 89)"
+    },
+    {
+     "id": "LFP-ANDALUCIA",
+     "rol": "Norma principal del tema (arts. 1 a 3, 12 a 14, 16, 42, 43, 52 a 53, 82, 102, 106, 110, 111, 113, 115 a 117, 124 a 128, 144 a 146 y 148)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 103.1 CE, ¿con qué principio sirve la Administración a los intereses generales?",
+     "opciones": [
+      "Con objetividad, y con sometimiento pleno a la ley y al Derecho",
+      "Con discrecionalidad absoluta",
+      "Solo con criterios políticos",
+      "Solo a los ciudadanos de su municipio"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 103.1 CE establece que la Administración sirve con objetividad los intereses generales, con sometimiento pleno a la ley y al Derecho.",
+     "referencia": "Art. 103.1 CE"
+    },
+    {
+     "pregunta": "Según el art. 103.3 CE, ¿qué debe regular la ley?",
+     "opciones": [
+      "Nada: se regula por reglamento",
+      "Solo el salario de los funcionarios",
+      "El estatuto de los funcionarios, el acceso por mérito y capacidad y las incompatibilidades",
+      "El horario de trabajo exclusivamente"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 103.3 CE reserva a la ley el estatuto de los funcionarios, el acceso por mérito y capacidad, las incompatibilidades y las garantías de imparcialidad.",
+     "referencia": "Art. 103.3 CE"
+    },
+    {
+     "pregunta": "Según el art. 1.1 EBEP, ¿qué establece el Estatuto para los funcionarios?",
+     "opciones": [
+      "Solo el régimen de jubilación",
+      "Nada que sea básico",
+      "La regulación completa de cada Administración",
+      "Las bases del régimen estatutario de los funcionarios públicos"
+     ],
+     "correcta": 3,
+     "explicacion": "El EBEP establece las bases del régimen estatutario de los funcionarios públicos incluidos en su ámbito, y las normas del personal laboral.",
+     "referencia": "Art. 1.1 EBEP"
+    },
+    {
+     "pregunta": "Según el art. 6 EBEP, ¿qué hacen las leyes de función pública de las comunidades autónomas?",
+     "opciones": [
+      "Derogan el EBEP",
+      "Desarrollan el Estatuto en el ámbito de sus competencias",
+      "Lo sustituyen totalmente",
+      "No tienen relación con el EBEP"
+     ],
+     "correcta": 1,
+     "explicacion": "Las leyes de función pública de las comunidades autónomas se aprueban en desarrollo del EBEP, en el ámbito de sus competencias.",
+     "referencia": "Art. 6 EBEP"
+    },
+    {
+     "pregunta": "Según el art. 14.1.a Ley 5/2023, ¿cuánto puede durar el nombramiento de un funcionario interino por plaza vacante?",
+     "opciones": [
+      "Un máximo de tres años",
+      "Un máximo de diez años",
+      "Sin límite",
+      "Un máximo de seis meses"
+     ],
+     "correcta": 0,
+     "explicacion": "El nombramiento de interino por plaza vacante, cuando no puede cubrirse por funcionario de carrera, dura como máximo tres años.",
+     "referencia": "Art. 14.1.a Ley 5/2023"
+    },
+    {
+     "pregunta": "Según el art. 52.1 Ley 5/2023, ¿la carrera horizontal exige cambiar de puesto de trabajo?",
+     "opciones": [
+      "Solo para el personal laboral temporal",
+      "Sí, siempre",
+      "No, se produce sin necesidad de cambiar de puesto",
+      "Solo para los interinos"
+     ],
+     "correcta": 2,
+     "explicacion": "La carrera horizontal consiste en el reconocimiento individualizado del desarrollo profesional a través del ascenso en tramos, sin necesidad de cambiar de puesto.",
+     "referencia": "Art. 52.1 Ley 5/2023"
+    },
+    {
+     "pregunta": "Según el art. 53.1 Ley 5/2023, ¿cuál es el número máximo de tramos de la carrera horizontal?",
+     "opciones": [
+      "Diez",
+      "Dos",
+      "Tres",
+      "Seis"
+     ],
+     "correcta": 3,
+     "explicacion": "La carrera horizontal tiene un máximo de seis tramos, cuyo número se fija reglamentariamente, previa negociación colectiva.",
+     "referencia": "Art. 53.1 Ley 5/2023"
+    },
+    {
+     "pregunta": "Según el art. 111.2 Ley 5/2023, ¿cuáles son los sistemas selectivos?",
+     "opciones": [
+      "Solo el sorteo",
+      "Oposición, concurso-oposición o concurso de valoración de méritos",
+      "Solo la entrevista personal",
+      "Solo el concurso de traslados"
+     ],
+     "correcta": 1,
+     "explicacion": "Los sistemas selectivos son la oposición, el concurso-oposición y el concurso de valoración de méritos.",
+     "referencia": "Art. 111.2 Ley 5/2023"
+    },
+    {
+     "pregunta": "Según el art. 128.2 Ley 5/2023, ¿qué puestos se proveen por libre designación?",
+     "opciones": [
+      "Ninguno",
+      "Todos los puestos sin excepción",
+      "Los de especial responsabilidad, colaboración y disponibilidad, y los que requieren confianza personal",
+      "Solo los puestos de limpieza"
+     ],
+     "correcta": 2,
+     "explicacion": "En todo caso se proveen por libre designación los puestos de especial responsabilidad, colaboración y disponibilidad, y aquellos que requieran confianza personal.",
+     "referencia": "Art. 128.2 Ley 5/2023"
+    },
+    {
+     "pregunta": "Según el art. 42.1 Ley 5/2023, ¿procede autorizar la compatibilidad para un segundo puesto en el sector público?",
+     "opciones": [
+      "No procede, salvo los supuestos legalmente previstos",
+      "Solo si el puesto es de limpieza",
+      "Sí, con la sola petición del interesado",
+      "Siempre"
+     ],
+     "correcta": 0,
+     "explicacion": "No procede la autorización de compatibilidad para un segundo puesto en el sector público, salvo los supuestos legalmente previstos.",
+     "referencia": "Art. 42.1 Ley 5/2023"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Las normas constitucionales de la función pública",
+     "parrafos": [
+      "El artículo 103.1 CE establece que la Administración sirve con objetividad los intereses generales y actúa de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho. Es el principio de servicio objetivo que fundamenta toda la función pública.",
+      "El artículo 103.3 CE dispone que la ley regulará el estatuto de los funcionarios públicos, el acceso a la función pública de acuerdo con los principios de mérito y capacidad, el sistema de incompatibilidades y las garantías para la imparcialidad en el ejercicio de sus funciones. Esa reserva de ley es la base de todo el régimen estatutario.",
+      "El artículo 23.2 CE reconoce el derecho a acceder en condiciones de igualdad a las funciones y cargos públicos, con los requisitos que señalen las leyes. Para un examen, la pregunta típica es qué principio de acceso se deriva de la Constitución: igualdad, mérito y capacidad (arts. 23.2 y 103.3 CE)."
+     ]
+    },
+    {
+     "titulo": "2. El carácter de la legislación estatal",
+     "parrafos": [
+      "El Estatuto Básico del Empleado Público (EBEP), aprobado por el Real Decreto Legislativo 5/2015, establece las bases del régimen estatutario de los funcionarios públicos y determina las normas aplicables al personal laboral (art. 1.1 y 1.2 EBEP). Su carácter básico limita lo que las comunidades pueden regular.",
+      "El artículo 6 EBEP dispone que las leyes de función pública de las comunidades autónomas, en el ámbito de sus competencias, desarrollan el Estatuto. Para un examen, la pregunta es si la ley andaluza puede contradecir el EBEP: no, porque lo desarrolla y no puede apartarse de sus bases.",
+      "El artículo 7 EBEP establece que el personal laboral se rige por la legislación laboral, por las normas convencionalmente aplicables y por los preceptos del Estatuto que lo dispongan."
+     ]
+    },
+    {
+     "titulo": "3. La Ley 5/2023, de la Función Pública de Andalucía",
+     "parrafos": [
+      "La Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía, tiene por objeto definir y ordenar la función pública de la Administración de la Junta de Andalucía, y determinar las normas aplicables a todo el personal de las Administraciones públicas andaluzas incluido en su ámbito (art. 1 Ley 5/2023).",
+      "El artículo 2 de la ley la aplica al personal funcionario de la Administración General de la Junta, que presta servicios en las consejerías, delegaciones del Gobierno, delegaciones territoriales o provinciales, y en las agencias administrativas y de régimen especial, o adscrito a las agencias públicas empresariales. Su ámbito es, por tanto, la Administración de la Junta y sus agencias.",
+      "El artículo 3 de la ley se aplica también, con carácter supletorio, al personal docente no universitario y estatutario del Servicio Andaluz de Salud, que se rige por su normativa específica. Para un examen, distinga el ámbito principal (art. 2) del personal con legislación específica (art. 3)."
+     ]
+    },
+    {
+     "titulo": "4. Estructura y contenido de la ley",
+     "parrafos": [
+      "La Ley 5/2023 se organiza en trece títulos. El título I trata de las disposiciones generales y de las clases de personal. El título II regula la dirección pública profesional. El título III, los derechos y deberes. El título IV, la formación y la acreditación de competencias. El título V, la promoción profesional.",
+      "El título VI regula los derechos retributivos. El título VII, la negociación colectiva, la representación y la solución extrajudicial de conflictos. El título VIII, la ordenación y planificación del empleo público. El título IX, el acceso al empleo público y la adquisición y pérdida de la relación de servicio.",
+      "El título X regula la provisión de puestos de trabajo y la movilidad. El título XI, las situaciones administrativas. El título XII, el régimen disciplinario. El título XIII, las relaciones interadministrativas. Para un examen, conviene memorizar el orden de los títulos con sus contenidos principales."
+     ]
+    },
+    {
+     "titulo": "5. La Consejería competente en función pública",
+     "parrafos": [
+      "El artículo 9 de la Ley 5/2023 atribuye competencias a la Consejería competente en materia de función pública. Entre ellas, nombrar al personal funcionario de carrera de la Administración General de la Junta y contratar al personal laboral fijo incluido en el ámbito del convenio colectivo propio (art. 9.g).",
+      "Le corresponde también imponer la sanción disciplinaria de separación del servicio (art. 9.f) y fijar los criterios de aplicación de la normativa de función pública (art. 9.e). Para un examen, la pregunta típica es quién impone la separación: la Consejería competente en función pública.",
+      "El artículo 8 atribuye competencias al Consejo de Gobierno, y el artículo 10 a las consejerías, con las competencias específicas del artículo 11."
+     ]
+    },
+    {
+     "titulo": "6. Clases de personal al servicio de la Junta",
+     "parrafos": [
+      "El artículo 12.2 de la Ley 5/2023 clasifica el personal empleado público en funcionario de carrera, funcionario interino, personal laboral (fijo, por tiempo indefinido o temporal) y personal eventual. El artículo 12.3 añade el personal directivo público profesional, regulado en el título II.",
+      "El artículo 13 define al funcionario de carrera como quien, por nombramiento legal, está vinculado a la Administración por una relación estatutaria regulada por el Derecho administrativo, para servicios profesionales retribuidos de carácter permanente.",
+      "Para un examen, la distinción clave es la relación jurídica: estatutaria para el funcionario, contractual laboral para el personal laboral (art. 16 Ley 5/2023 y art. 11 EBEP)."
+     ]
+    },
+    {
+     "titulo": "7. El personal funcionario interino y el personal laboral",
+     "parrafos": [
+      "El artículo 14.1 de la ley define al interino como quien, por razones de necesidad y urgencia, es seleccionado conforme al artículo 115 y nombrado con carácter temporal. Cuando existen plazas vacantes que no pueden cubrirse por funcionarios de carrera, el nombramiento puede durar como máximo tres años (art. 14.1.a Ley 5/2023).",
+      "El artículo 16 de la ley define al personal laboral como quien presta servicios en virtud de contrato de trabajo por escrito, y lo clasifica en fijo, por tiempo indefinido o temporal (art. 16.2). El personal laboral fijo es el que, tras superar un proceso selectivo, es contratado con carácter permanente.",
+      "Para un examen, la diferencia de origen es clave: el interino tiene nombramiento para funciones de funcionario de carrera, y el laboral tiene contrato de trabajo regulado por la legislación laboral y el convenio."
+     ]
+    },
+    {
+     "titulo": "8. El personal eventual y el personal directivo público profesional",
+     "parrafos": [
+      "El EBEP define al personal eventual como quien, por nombramiento y con carácter no permanente, realiza solo funciones de confianza o asesoramiento especial, retribuido con cargo a los créditos presupuestarios para este fin (art. 12.1 EBEP).",
+      "La Ley 5/2023 regula el personal directivo público profesional en el título II (arts. 17 a 27), con su nombramiento, funciones, régimen retributivo y su selección por comisión independiente (arts. 22 y 23). Su régimen detallado no se ha verificado en este tema.",
+      "Para un examen, el eventual es de confianza y temporal; el directivo profesional es seleccionado por mérito, con evaluación de cumplimiento (art. 26 Ley 5/2023)."
+     ]
+    },
+    {
+     "titulo": "9. El acceso al empleo público y los sistemas selectivos",
+     "parrafos": [
+      "El artículo 111 de la Ley 5/2023 establece que los procesos selectivos tienen carácter abierto y garantizan la libre concurrencia, sin perjuicio de la promoción interna y de las medidas de discriminación positiva. Los órganos de selección velan por la igualdad de oportunidades.",
+      "El artículo 111.2 establece que los sistemas selectivos son la oposición, el concurso-oposición o el concurso de valoración de méritos. El artículo 111.3 define la oposición como las pruebas que determinan la idoneidad y capacidad y establecen el orden de prelación.",
+      "El artículo 115 regula la selección del personal interino y del laboral temporal, con procedimientos ágiles que garantizan igualdad, mérito, capacidad, publicidad y celeridad, y permite un período de prueba cuando la naturaleza del puesto lo justifique."
+     ]
+    },
+    {
+     "titulo": "10. Requisitos de acceso y órganos de selección",
+     "parrafos": [
+      "El artículo 106.1 de la Ley 5/2023 establece los requisitos generales para participar en los procesos selectivos: nacionalidad española, sin perjuicio de lo previsto para nacionales de otros Estados (art. 107); capacidad funcional para el desempeño de las tareas; y tener cumplidos dieciséis años sin exceder la edad máxima de jubilación forzosa. Puede exigirse dieciocho años para cuerpos que impliquen ejercicio de autoridad o riesgo para la salud.",
+      "El artículo 110.1 de la ley prevé que, por decreto del Consejo de Gobierno, se creen órganos de selección especializados y permanentes, adscritos a la consejería competente en función pública. El artículo 110.2 establece que son colegiados. Sus actuaciones se someten a las normas del procedimiento administrativo común y del régimen jurídico del sector público.",
+      "Para un examen, la diferencia entre requisitos de acceso (art. 106) y procedimiento de selección (art. 111) es clave: los primeros se exigen para participar, el segundo define cómo se elige."
+     ]
+    },
+    {
+     "titulo": "11. Convocatoria, adquisición y pérdida de la condición de funcionario de carrera",
+     "parrafos": [
+      "El artículo 113.1 de la Ley 5/2023 dispone que los procesos selectivos se inician de oficio, de acuerdo con la oferta de empleo público, mediante convocatoria pública que incluye las bases del proceso. Pueden aprobarse bases generales que rijan las convocatorias sucesivas.",
+      "El artículo 116.1 establece que la condición de funcionario de carrera se adquiere por el cumplimiento sucesivo de dos requisitos: superar el proceso selectivo, incluidos los períodos de prácticas o pruebas, y acreditar los requisitos de la convocatoria en el plazo que se establezca.",
+      "El artículo 117 enumera las causas de pérdida: la renuncia, la pérdida de la nacionalidad en los términos del artículo 119, la jubilación total, la separación del servicio por sanción disciplinaria firme y la inhabilitación absoluta o especial firme para cargo público. Para un examen, la separación disciplinaria firme es causa de pérdida (art. 117.d)."
+     ]
+    },
+    {
+     "titulo": "12. Cuerpos generales y especiales",
+     "parrafos": [
+      "El artículo 102.1 de la ley distingue los cuerpos generales, que desempeñan funciones comunes al ejercicio de la actividad administrativa, y los cuerpos especiales, que ejercen actividades que constituyen una carrera o especialidad peculiar.",
+      "El artículo 102.2 enumera los cuerpos generales, como el Cuerpo Superior de Administración, clasificado en el grupo A, subgrupo A1. Para un examen, el grupo y subgrupo son datos que se preguntan con frecuencia.",
+      "Los grupos de clasificación profesional del personal funcionario se regulan en el artículo 101 de la ley, cuyo detalle no se ha verificado en este tema."
+     ]
+    },
+    {
+     "titulo": "13. La carrera horizontal y la promoción profesional",
+     "parrafos": [
+      "El artículo 52.1 de la Ley 5/2023 define la carrera horizontal como el reconocimiento individualizado del desarrollo profesional y del desempeño, a través del ascenso en un sistema de tramos, sin necesidad de cambiar de puesto de trabajo. El derecho a ella no se limita por causas organizativas.",
+      "El artículo 53.1 establece que para cada grupo o subgrupo hay una carrera horizontal articulada en el número de tramos que se determine reglamentariamente, previa negociación colectiva, con un máximo de seis. El artículo 53.2 exige años completos de permanencia y la valoración correspondiente para el ascenso.",
+      "El EBEP, en su artículo 17, permite a las leyes de función pública regular la carrera horizontal, y el artículo 16 EBEP define la carrera profesional y sus modalidades. Para un examen, la carrera horizontal es un ascenso de tramos sin cambio de puesto."
+     ]
+    },
+    {
+     "titulo": "14. La provisión de puestos de trabajo",
+     "parrafos": [
+      "El artículo 124 de la Ley 5/2023 establece que la provisión ordinaria de puestos para funcionarios de carrera se hace por convocatoria pública, mediante concurso (general o específico) o libre designación con convocatoria pública, conforme a la relación de puestos de trabajo.",
+      "El artículo 126 define el concurso general como la valoración de los méritos y capacidades de los candidatos conforme a las bases de la convocatoria. Entre los méritos se pueden valorar la experiencia, la posición alcanzada en la carrera profesional, las competencias acreditadas, las titulaciones y la antigüedad como funcionario.",
+      "El artículo 128 define la libre designación como la apreciación discrecional por el órgano competente de la idoneidad y las competencias de los candidatos. Se aplica a los puestos de especial responsabilidad, colaboración y disponibilidad, y a los que requieren confianza personal (art. 128.2 Ley 5/2023)."
+     ]
+    },
+    {
+     "titulo": "15. Otros procedimientos de provisión y movilidad",
+     "parrafos": [
+      "El artículo 125 de la ley regula procedimientos extraordinarios: movilidad voluntaria provisional, movilidad temporal y estructural, y los demás que la ley prevé. El artículo 132 regula la movilidad forzosa definitiva, y el 131 la movilidad forzosa provisional por cargas de trabajo.",
+      "El EBEP, en el artículo 78, establece que la provisión de puestos de funcionarios de carrera se hace por concurso y por libre designación con convocatoria pública, basada en los principios de igualdad, mérito, capacidad y publicidad.",
+      "Para un examen, la pregunta típica es cuál es el procedimiento ordinario de provisión: concurso o libre designación con convocatoria pública (arts. 124 Ley 5/2023 y 78 EBEP)."
+     ]
+    },
+    {
+     "titulo": "16. Las situaciones administrativas del funcionario de carrera",
+     "parrafos": [
+      "El artículo 144.1 de la Ley 5/2023 enumera las situaciones administrativas de los funcionarios de carrera: servicio activo, servicios especiales, servicio en otras Administraciones públicas, excedencia voluntaria, excedencia forzosa, expectativa de destino y suspensión de funciones.",
+      "El artículo 145 define el servicio activo: quien presta servicios como funcionario de carrera y no le corresponde otra situación. El artículo 146.1.a declara en servicios especiales al funcionario designado miembro del Consejo de Gobierno de la Junta, de otros gobiernos o alto cargo.",
+      "El artículo 148 enumera las modalidades de excedencia voluntaria: por interés particular, por agrupación familiar, por cuidado de familiares, por violencia de género y por violencia terrorista. El EBEP, en el artículo 89, recoge una tipología de excedencias semejante."
+     ]
+    },
+    {
+     "titulo": "17. Incompatibilidades",
+     "parrafos": [
+      "El artículo 42.1 de la Ley 5/2023 establece que no procede autorizar la compatibilidad para un segundo puesto de trabajo, cargo o actividad en el sector público, salvo los supuestos previstos legalmente.",
+      "El artículo 42.2 prohíbe compatibilizar las actividades públicas con cualquier cargo o actividad privada que pueda impedir o menoscabar el cumplimiento de los deberes, comprometer la imparcialidad o perjudicar a los intereses generales, o que se relacione directamente con la actividad del órgano en que se presta servicio.",
+      "El artículo 43.1 establece la dedicación exclusiva para el personal directivo público profesional funcionario o laboral fijo, para quienes ocupan puestos con factor de incompatibilidad en su complemento de puesto, y para el personal de entidades instrumentales. Para un examen, la incompatibilidad se regula en la ley andaluza y en la estatal básica (CE 103.3)."
+     ]
+    },
+    {
+     "titulo": "18. El personal laboral y la negociación colectiva",
+     "parrafos": [
+      "El artículo 103 de la Ley 5/2023 establece que el personal laboral se clasifica conforme a la legislación laboral y al respectivo convenio colectivo. Según el artículo 103.2, la Administración orienta la negociación hacia una clasificación profesional equiparable al sistema nacional de cualificaciones.",
+      "El artículo 82.1 regula la negociación colectiva de condiciones de trabajo del personal de las Administraciones andaluzas, sujeta a principios de legalidad, cobertura presupuestaria, buena fe negocial y publicidad. El artículo 82.2 crea las mesas de negociación, en las que participa la representación de la Administración y de las organizaciones sindicales.",
+      "El EBEP establece en su artículo 7 que el personal laboral se rige también por las normas convencionalmente aplicables, y en su artículo 19 que la carrera y la promoción del personal laboral se hacen por lo previsto en el Estatuto de los Trabajadores o en los convenios."
+     ]
+    },
+    {
+     "titulo": "19. El convenio colectivo del personal laboral de la Junta",
+     "parrafos": [
+      "La Ley 5/2023 se refiere en varios preceptos al convenio colectivo propio del personal laboral de la Administración de la Junta de Andalucía, por ejemplo para los puestos de provisión, la selección y la contratación de personal laboral fijo.",
+      "El contenido general del convenio, sus materias y su vigencia no están en el repositorio ni en el texto de la ley, y no se han verificado en este tema. Antes de citarlo en un examen, debe consultarse el convenio vigente en el Boletín Oficial de la Junta de Andalucía.",
+      "Para un examen, la regla es que el convenio es la norma de referencia para las condiciones del personal laboral, dentro de lo que la ley y la legislación laboral permiten."
+     ]
+    },
+    {
+     "titulo": "20. El régimen retributivo",
+     "parrafos": [
+      "El título VI de la Ley 5/2023 regula los derechos retributivos. El artículo 63 establece los principios del sistema retributivo, y el artículo 64 las retribuciones del personal funcionario. El artículo 65 regula las retribuciones básicas, y el artículo 66 las complementarias.",
+      "El EBEP, en su artículo 22, distingue las retribuciones de los funcionarios, que son básicas y complementarias (arts. 23 y 24 EBEP). El artículo 27 EBEP regula las retribuciones del personal laboral.",
+      "Para un examen, la pregunta típica es qué retribuciones son básicas. Respuesta: las básicas son las del artículo 23 EBEP; las complementarias, las del artículo 24 EBEP y las del artículo 66 de la ley andaluza."
+     ]
+    },
+    {
+     "titulo": "21. El régimen disciplinario",
+     "parrafos": [
+      "El título XII de la Ley 5/2023 regula el régimen disciplinario. Establece la responsabilidad disciplinaria y las faltas muy graves, graves y leves (arts. 165 a 170), las sanciones (art. 171) y la prescripción (art. 173). El procedimiento disciplinario se regula en el artículo 174.",
+      "El EBEP regula en sus artículos 93 a 98 el régimen general, con los principios de la potestad disciplinaria, las faltas, las sanciones y la prescripción. La ley andaluza desarrolla y concreta ese régimen.",
+      "Para un examen, la separación del servicio es la sanción más grave, y la impone la Consejería competente en función pública (art. 9.f Ley 5/2023)."
+     ]
+    },
+    {
+     "titulo": "22. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir el interino con el laboral temporal. El interino tiene nombramiento para funciones de funcionario; el laboral temporal tiene contrato de trabajo (arts. 14 y 16 Ley 5/2023).",
+      "Afirmar que la libre designación es arbitraria. Es discrecional, pero se aplica a puestos específicos y exige idoneidad (art. 128 Ley 5/2023).",
+      "Olvidar que el sistema de incompatibilidades está en el artículo 103.3 CE y en la ley andaluza. Ambos son relevantes.",
+      "Pensar que la carrera horizontal exige cambiar de puesto. No lo exige (art. 52.1 Ley 5/2023).",
+      "Confundir el personal eventual con el directivo público profesional. El eventual es de confianza y temporal; el directivo se selecciona por comisión independiente (art. 23 Ley 5/2023).",
+      "Confundir el requisito de nacionalidad con su excepción. El artículo 106.1.a exige nacionalidad española sin perjuicio del artículo 107, que regula el acceso de nacionales de otros Estados."
+     ]
+    },
+    {
+     "titulo": "23. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué clases de personal al servicio de la Junta establece la ley? Funcionario de carrera, interino, laboral y eventual, además del directivo público profesional (art. 12 Ley 5/2023).",
+      "¿Cuántos tramos puede tener la carrera horizontal? Como máximo seis, fijados reglamentariamente con negociación colectiva (art. 53.1 Ley 5/2023).",
+      "¿Cuál es el sistema de provisión ordinario? La convocatoria pública por concurso o por libre designación (art. 124 Ley 5/2023).",
+      "¿Qué sistemas selectivos existen? La oposición, el concurso-oposición y el concurso de valoración de méritos (art. 111.2 Ley 5/2023).",
+      "¿Cuánto puede durar el nombramiento de un interino por vacante? Hasta un máximo de tres años (art. 14.1.a Ley 5/2023).",
+      "¿Qué situación tiene el funcionario que es miembro del Consejo de Gobierno? Servicios especiales (art. 146.1.a Ley 5/2023).",
+      "¿Qué edad mínima se exige para participar en un proceso selectivo? Dieciséis años, pudiendo exigirse dieciocho para cuerpos con ejercicio de autoridad o riesgo para la salud (art. 106.1.c Ley 5/2023).",
+      "¿Quién crea los órganos de selección? El Consejo de Gobierno, por decreto, como órganos especializados, permanentes y colegiados (art. 110 Ley 5/2023).",
+      "¿Cuándo pierde la condición de funcionario de carrera quien ha sido sancionado? Cuando la separación del servicio es firme (art. 117.d Ley 5/2023)."
+     ]
+    },
+    {
+     "titulo": "24. Casos prácticos",
+     "parrafos": [
+      "Caso 1: una vacante de técnico se cubre por un interino desde hace cuatro años. El nombramiento no puede prolongarse más allá de tres años por vacante (art. 14.1.a Ley 5/2023). Debe convocarse la plaza o cubrirse por funcionario de carrera.",
+      "Caso 2: un funcionario de carrera es nombrado alto cargo de la Junta. Pasa a servicios especiales (art. 146.1.a Ley 5/2023) y conserva su condición.",
+      "Caso 3: una persona quiere compatibilizar un segundo puesto público. La compatibilidad no procede salvo supuestos legales (art. 42.1 Ley 5/2023), y el puesto con factor de incompatibilidad exige dedicación exclusiva (art. 43.1.b)."
+     ]
+    },
+    {
+     "titulo": "25. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema c19 sobre la actividad subvencionadora, porque las consejerías y agencias que conceden subvenciones dependen de personal regulado por esta ley.",
+      "Se conecta con el tema c14 sobre el procedimiento administrativo, porque la provisión, la selección y el régimen disciplinario son procedimientos administrativos con audiencia y motivación.",
+      "Se conecta con el tema c17 sobre potestad sancionadora, porque el régimen disciplinario del personal sigue principios próximos a los del Derecho sancionador."
+     ]
+    },
+    {
+     "titulo": "26. Claves para el examen",
+     "parrafos": [
+      "Constitución: servicio objetivo (art. 103.1 CE), reserva de ley del estatuto y del acceso (art. 103.3 CE), igualdad de acceso (art. 23.2 CE).",
+      "Estatal básica: EBEP, bases del régimen estatutario (art. 1 EBEP) y desarrollo autonómico (art. 6 EBEP).",
+      "Ley 5/2023: objeto (art. 1), ámbito (art. 2), trece títulos, clases de personal (art. 12).",
+      "Provisión: concurso o libre designación con convocatoria pública (arts. 124 a 128); carrera horizontal con seis tramos como máximo (art. 53).",
+      "Situaciones: siete situaciones del funcionario de carrera (art. 144); servicios especiales para altos cargos (art. 146).",
+      "Incompatibilidades: segundo puesto (art. 42.1), dedicación exclusiva (art. 43).",
+      "Personal laboral: convenio colectivo propio, no verificado en este tema.",
+      "Acceso: requisitos (art. 106), órganos colegiados (art. 110), convocatoria (art. 113), adquisición de la condición (art. 116) y causas de pérdida (art. 117).",
+      "Para un examen, conviene citar la norma y el artículo exactos, porque la ley andaluza desarrolla al EBEP y no lo sustituye."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Real Decreto Legislativo 5/2015, Estatuto Básico del Empleado Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+     "pdf": "leyes/BOE-A-2015-11719.pdf"
+    },
+    {
+     "nombre": "Ley 5/2023, de la Función Pública de Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/eli/es-an/l/2023/06/07/5",
+     "pdf": "leyes/BOE-A-2023-16066.pdf"
+    },
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
     }
    ]
   },
