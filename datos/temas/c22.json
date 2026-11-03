@@ -1,0 +1,183 @@
+{
+  "id": "c22",
+  "resumen": [
+    {
+      "titulo": "Conceptos y componentes",
+      "puntos": [
+        "Un sistema informático combina hardware, software, datos, redes y personas, junto con los procedimientos que ordenan su uso.",
+        "El hardware incluye la CPU, la memoria principal (volátil), el almacenamiento secundario (permanente) y los buses. El software se divide en sistema, utilidades y aplicaciones."
+      ]
+    },
+    {
+      "titulo": "Funcionamiento general",
+      "puntos": [
+        "El esquema es entrada, proceso y salida. Un programa debe estar en memoria principal para ejecutarse; el sistema operativo gestiona procesos, memoria, dispositivos y ficheros.",
+        "Las bases de datos son gestionadas por un sistema gestor (SGBD), que controla el acceso, la integridad y la concurrencia."
+      ]
+    },
+    {
+      "titulo": "Tipos y niveles de arquitectura",
+      "puntos": [
+        "Centralizada (un gran equipo concentra el proceso), distribuida (el proceso se reparte) y cliente-servidor (el cliente pide y el servidor responde).",
+        "Niveles de presentación, lógica de negocio y datos; la arquitectura de tres capas separa los tres en equipos distintos."
+      ]
+    },
+    {
+      "titulo": "Procesos cooperativos y cliente-servidor",
+      "puntos": [
+        "Los procesos cooperativos colaboran intercambiando mensajes y sincronizándose. El cliente y el servidor son roles de procesos, no necesariamente de máquinas distintas.",
+        "El modelo de petición y respuesta, con protocolos como HTTP, es la base de la aplicación cliente-servidor."
+      ]
+    },
+    {
+      "titulo": "Tendencias",
+      "puntos": [
+        "Arquitecturas orientadas a servicios y microservicios; virtualización y contenedores; computación en la nube (IaaS, PaaS y SaaS) en modelos públicos, privados o híbridos.",
+        "Arquitectura orientada a eventos, datos masivos y procesamiento en el borde."
+      ]
+    },
+    {
+      "titulo": "Administración electrónica en Andalucía",
+      "puntos": [
+        "La LAJA orienta la aplicación de las tecnologías a la eficacia y a la accesibilidad, con los principios de simplificación, libre acceso, accesibilidad universal, confidencialidad, seguridad y autenticidad (art. 7 LAJA).",
+        "La LPAC reconoce el derecho a elegir el medio, salvo la obligación de relacionarse electrónicamente (art. 14 LPAC). La actuación automatizada necesita órganos responsables de su especificación y control (art. 41 LRJSP)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LAJA",
+      "rol": "Complementaria: administración electrónica (art. 7)"
+    },
+    {
+      "id": "LPAC",
+      "rol": "Complementaria: relación electrónica con la Administración (art. 14)"
+    },
+    {
+      "id": "LRJSP",
+      "rol": "Complementaria: actuación administrativa automatizada (art. 41)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 7.2 LAJA, ¿cuál NO es uno de los principios que rigen las relaciones electrónicas de la Junta con la ciudadanía?",
+      "opciones": [
+        "Opacidad en el tratamiento de la información",
+        "Simplificación y agilización de trámites",
+        "Accesibilidad universal",
+        "Confidencialidad y seguridad"
+      ],
+      "correcta": 0,
+      "explicacion": "Los principios son la simplificación y agilización de trámites, el libre acceso, la accesibilidad universal, la confidencialidad y la seguridad y autenticidad. La opacidad no es un principio.",
+      "referencia": "Art. 7.2 LAJA"
+    },
+    {
+      "pregunta": "Según el art. 14.1 LPAC, ¿qué derecho tienen las personas físicas en su relación electrónica con la Administración?",
+      "opciones": [
+        "Comunicarse solo por teléfono",
+        "Obligación de comunicarse solo por papel",
+        "Elegir en todo momento si se comunican por medios electrónicos o no, salvo obligación",
+        "Ninguno"
+      ],
+      "correcta": 2,
+      "explicacion": "Las personas físicas pueden elegir en todo momento si se comunican por medios electrónicos o no, salvo que estén obligadas, y pueden cambiar el medio.",
+      "referencia": "Art. 14.1 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 41.1 LRJSP, ¿qué es una actuación administrativa automatizada?",
+      "opciones": [
+        "Un acto que no tiene procedimiento",
+        "Cualquier acto oral",
+        "Un acto realizado por un empleado público con ayuda de un ordenador",
+        "Un acto realizado íntegramente por medios electrónicos sin intervención directa de un empleado público"
+      ],
+      "correcta": 3,
+      "explicacion": "La actuación automatizada es la realizada íntegramente por medios electrónicos en el marco de un procedimiento, sin intervención directa de un empleado público.",
+      "referencia": "Art. 41.1 LRJSP"
+    },
+    {
+      "pregunta": "Según el art. 41.2 LRJSP, ¿qué debe establecerse antes de una actuación automatizada?",
+      "opciones": [
+        "Nada: se activa sin más",
+        "Los órganos competentes para especificaciones, programación, mantenimiento y supervisión del sistema",
+        "Solo la firma de un contrato",
+        "Una sentencia que lo autorice"
+      ],
+      "correcta": 1,
+      "explicacion": "Debe establecerse previamente el órgano competente para la definición de especificaciones, programación, mantenimiento, supervisión, control de calidad y, en su caso, auditoría del sistema.",
+      "referencia": "Art. 41.2 LRJSP"
+    },
+    {
+      "pregunta": "¿Qué tipo de memoria pierde su contenido al apagarse el equipo?",
+      "opciones": [
+        "La memoria principal, que es volátil",
+        "El disco duro",
+        "Ninguna memoria pierde su contenido",
+        "El almacenamiento secundario"
+      ],
+      "correcta": 0,
+      "explicacion": "La memoria principal es volátil: pierde su contenido al apagarse el equipo. El almacenamiento secundario es permanente.",
+      "referencia": "Conceptos generales de arquitectura (temario c22)"
+    },
+    {
+      "pregunta": "¿Dónde debe estar un programa para ejecutarse?",
+      "opciones": [
+        "En la pantalla",
+        "En la impresora",
+        "En la memoria principal",
+        "En el teclado"
+      ],
+      "correcta": 2,
+      "explicacion": "Para ejecutarse, el programa debe cargarse en la memoria principal, desde donde la CPU toma sus instrucciones.",
+      "referencia": "Funcionamiento general (temario c22)"
+    },
+    {
+      "pregunta": "¿Cuántos niveles tiene el modelo de referencia OSI?",
+      "opciones": [
+        "Diez",
+        "Tres",
+        "Cuatro",
+        "Siete"
+      ],
+      "correcta": 3,
+      "explicacion": "El modelo OSI tiene siete niveles; el modelo TCP/IP, en el que se basa Internet, tiene cuatro.",
+      "referencia": "Redes y comunicaciones (temario c22)"
+    },
+    {
+      "pregunta": "¿Qué arquitectura separa la presentación, la lógica de negocio y los datos en tres niveles?",
+      "opciones": [
+        "La centralizada",
+        "La de tres capas",
+        "La peer-to-peer",
+        "Ninguna"
+      ],
+      "correcta": 1,
+      "explicacion": "La arquitectura de tres capas separa la presentación, la lógica de negocio y los datos, que pueden estar en equipos distintos.",
+      "referencia": "Niveles de arquitectura (temario c22)"
+    },
+    {
+      "pregunta": "¿Qué modelo de nube ofrece aplicaciones listas para usar?",
+      "opciones": [
+        "IaaS",
+        "PaaS",
+        "SaaS",
+        "Ninguno"
+      ],
+      "correcta": 2,
+      "explicacion": "SaaS ofrece aplicaciones listas para usar; IaaS ofrece infraestructura y PaaS, una plataforma para desarrollar.",
+      "referencia": "Tendencias actuales (temario c22)"
+    },
+    {
+      "pregunta": "En el modelo cliente-servidor, ¿qué hace el cliente?",
+      "opciones": [
+        "Solicita un servicio mediante una petición que el servidor atiende",
+        "Almacena todos los datos del sistema",
+        "No participa en la comunicación",
+        "Presta el servicio a otros procesos"
+      ],
+      "correcta": 0,
+      "explicacion": "El cliente es el proceso que solicita un servicio, y el servidor es el que lo presta, siguiendo el modelo de petición y respuesta.",
+      "referencia": "Arquitectura cliente-servidor (temario c22)"
+    }
+  ]
+}

@@ -528,7 +528,7 @@ window.DATOS_ESTUDIO = {
    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "Verificados en el PDF consolidado del BOE los arts. 1, 2, 9, 14 a 55, 116, 117, 159 a 161, 166 a 169 y las disposiciones. Revisado el texto completo de los arts. citados. Verificados también arts. 23.2 y 103.1 a 103.3 en el texto del PDF.",
+   "notas": "Verificados en el PDF consolidado del BOE los arts. 1, 2, 9, 14 a 55, 116, 117, 159 a 161, 166 a 169 y las disposiciones. Revisado el texto completo de los arts. citados. Verificados también arts. 23.2 y 103.1 a 103.3 en el texto del PDF. Verificado también el art. 134.1 a 134.3 en el texto del PDF.",
    "boe_id": "BOE-A-1978-31229",
    "pdf": "leyes/BOE-A-1978-31229.pdf"
   },
@@ -574,7 +574,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2007-5825.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 37, 42 a 49, 90 a 98, 99 a 106, 118 a 127, 128 a 130, 133 a 139, 140 a 144, 248 y 249 en el texto del PDF. Resto del articulado pendiente. Verificados también arts. 91 a 98 en el texto del PDF. Verificados también arts. 225 a 237 en el texto del PDF (algunos por su rúbrica). Verificados también arts. 47.3 y 47.4 en el texto del PDF."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1 a 5, 37, 42 a 49, 90 a 98, 99 a 106, 118 a 127, 128 a 130, 133 a 139, 140 a 144, 248 y 249 en el texto del PDF. Resto del articulado pendiente. Verificados también arts. 91 a 98 en el texto del PDF. Verificados también arts. 225 a 237 en el texto del PDF (algunos por su rúbrica). Verificados también arts. 47.3 y 47.4 en el texto del PDF. Verificados también arts. 109 y 110 (decretos legislativos y decretos-leyes), 175 y 189 a 190 en el texto del PDF."
   },
   "LPAC": {
    "id": "LPAC",
@@ -585,7 +585,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2015-10565.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 a 6, 47.1, 128, 129, 131, 132 (con la anotación de la STC 55/2018) y 133 en el texto del PDF. Resto pendiente. Verificados también arts. 47, 48, 106 a 126 en el texto del PDF. Verificados también arts. 64, 67, 81, 82, 85, 89, 90 y 91.3 en el texto del PDF."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 a 6, 47.1, 128, 129, 131, 132 (con la anotación de la STC 55/2018) y 133 en el texto del PDF. Resto pendiente. Verificados también arts. 47, 48, 106 a 126 en el texto del PDF. Verificados también arts. 64, 67, 81, 82, 85, 89, 90 y 91.3 en el texto del PDF. Verificado también el art. 14.1 y 14.2 en el texto del PDF."
   },
   "LRJSP": {
    "id": "LRJSP",
@@ -596,7 +596,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2015-10566.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 y 4 y 6.1 en el texto del PDF. Resto pendiente. Verificados también arts. 25 a 36 en el texto del PDF."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 y 4 y 6.1 en el texto del PDF. Resto pendiente. Verificados también arts. 25 a 36 en el texto del PDF. Verificado también el art. 41.1 y 41.2 en el texto del PDF."
   },
   "LCSP": {
    "id": "LCSP",
@@ -717,7 +717,7 @@ window.DATOS_ESTUDIO = {
    "pdf": "leyes/BOE-A-2007-19819.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 12, 16, 52, 54, 55, 56 y 63 en el texto del PDF. No regula el régimen general de subvenciones: el régimen aplicable es el de la LGS y la normativa autonómica de desarrollo, no verificada aquí."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 7, 12, 16, 52, 54, 55, 56 y 63 en el texto del PDF. No regula el régimen general de subvenciones: el régimen aplicable es el de la LGS y la normativa autonómica de desarrollo, no verificada aquí."
   },
   "EBEP": {
    "id": "EBEP",
@@ -729,6 +729,17 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
    "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1, 6, 7, 8 a 12, 17, 19, 78, 81, 85, 86 y 89 en el texto del PDF. Pendientes: resto del articulado, en especial convenios colectivos (art. 37 y siguientes) y la normativa de incompatibilidades."
+  },
+  "LGHPA": {
+   "id": "LGHPA",
+   "nombre": "Ley General de la Hacienda Pública de la Junta de Andalucía (texto refundido)",
+   "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-5303",
+   "boe_id": "BOE-A-2010-5303",
+   "pdf": "leyes/BOE-A-2010-5303.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 9, 11, 26, 31 a 37, 39, 40, 42, 43, 45, 46, 48, 52 bis, 54, 56, 57, 85, 86, 88 a 90, 92 a 94, 98 y 105 en el texto del PDF. Pendientes: resto del articulado, en particular los arts. 47, 49 a 51, 91, 95 a 96, 99 a 104 y 106 a 129. Las ediciones de la Junta incorporan modificaciones posteriores (Ley 11/2010 y otras) que deben comprobarse."
   }
  },
  "contenido": {
@@ -8240,6 +8251,894 @@ window.DATOS_ESTUDIO = {
      "nombre": "Constitución Española (texto consolidado, BOE)",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
      "pdf": "leyes/BOE-A-1978-31229.pdf"
+    }
+   ]
+  },
+  "c21": {
+   "resumen": [
+    {
+     "titulo": "Marco constitucional y estatutario",
+     "puntos": [
+      "Los presupuestos generales del Estado son anuales y comprenden la totalidad de los gastos e ingresos del sector público estatal (art. 134.2 CE).",
+      "El Consejo de Gobierno elabora y ejecuta el presupuesto de la Junta; el Parlamento lo examina, enmienda, aprueba y controla (art. 190.1 EA). Los presupuestos no pueden aprobarse por decreto-ley (art. 110.1 EA)."
+     ]
+    },
+    {
+     "titulo": "Concepto, contenido y principios",
+     "puntos": [
+      "El presupuesto es la expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, pueden reconocerse, y de los derechos que se prevé liquidar (art. 31 LGHPA).",
+      "Es único e incluye la totalidad de gastos e ingresos (art. 33 LGHPA). Sus principios incluyen estabilidad, eficiencia, presupuesto anual, unidad de caja e intervención de todas las operaciones (art. 9.1 LGHPA)."
+     ]
+    },
+    {
+     "titulo": "Ámbito temporal y clasificación",
+     "puntos": [
+      "El ejercicio coincide con el año natural (art. 32 LGHPA). Solo pueden contraerse obligaciones de gastos del año, con excepciones (art. 42 LGHPA).",
+      "Los gastos se clasifican por órgano, por función y programa, y económicamente; los ingresos, por órgano y económicamente (art. 34.2 LGHPA)."
+     ]
+    },
+    {
+     "titulo": "Vinculación y especialidad",
+     "puntos": [
+      "Los créditos tienen carácter limitativo y vinculante: no pueden comprometerse por encima de su importe (art. 39.2 LGHPA). Se destinan a la finalidad autorizada (art. 39.1 LGHPA).",
+      "Los gastos plurianuales se autorizan con cargo a dos o más ejercicios y se subordinan al crédito de cada año (art. 40 LGHPA)."
+     ]
+    },
+    {
+     "titulo": "Ciclo: elaboración, aprobación y prórroga",
+     "puntos": [
+      "Los anteproyectos de gasto se remiten antes del 1 de agosto. El proyecto de ley del presupuesto se presenta al Parlamento al menos dos meses antes de la expiración del vigente (arts. 35 y 36 LGHPA; art. 190.4 EA).",
+      "Si no se aprueba antes del primer día del ejercicio, se prorroga automáticamente el del año anterior (art. 37 LGHPA; art. 190.5 EA)."
+     ]
+    },
+    {
+     "titulo": "Modificaciones presupuestarias",
+     "puntos": [
+      "Los créditos extraordinarios y los suplementos requieren ley del Parlamento (arts. 11.2.a y 43 LGHPA).",
+      "Las transferencias redistribuyen créditos; las generaciones incrementan créditos con ingresos nuevos (arts. 45 y 46 LGHPA). El Consejo de Gobierno autoriza las superiores a 3.000.000 de euros (art. 48 LGHPA)."
+     ]
+    },
+    {
+     "titulo": "Ejecución, pago y cierre",
+     "puntos": [
+      "La ejecución del gasto tiene cuatro fases: aprobación de la realización, disposición, reconocimiento de la obligación y ordenación del pago con pago material (art. 52 bis.1 LGHPA).",
+      "Los pagos a justificar tienen un plazo de tres meses para justificarse (art. 56.2 LGHPA). El presupuesto se cierra el 31 de diciembre (art. 57 LGHPA)."
+     ]
+    },
+    {
+     "titulo": "Control",
+     "puntos": [
+      "El control interno tiene dos modalidades: previo (fiscalización previa de gastos e informes de modificaciones) y financiero, posterior (arts. 88 y 89 LGHPA).",
+      "La Intervención General de la Junta es el superior órgano de control interno (art. 86 LGHPA). El control financiero es posterior y puede ser permanente (arts. 93 y 94 LGHPA)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LGHPA",
+     "rol": "Norma principal del tema (arts. 9, 11, 26, 31 a 37, 39, 40, 42, 43, 45, 46, 48, 52 bis, 54, 56, 57, 85 a 94, 98 y 105)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Base estatutaria del presupuesto (arts. 109, 110 y 190)"
+    },
+    {
+     "id": "CE",
+     "rol": "Presupuestos generales del Estado (art. 134)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 134.2 CE, ¿qué carácter tienen los Presupuestos Generales del Estado?",
+     "opciones": [
+      "Anual, con la totalidad de los gastos e ingresos del sector público estatal",
+      "Solo de gastos, sin ingresos",
+      "Bienal",
+      "Plurianual sin límite"
+     ],
+     "correcta": 0,
+     "explicacion": "Los Presupuestos Generales del Estado tienen carácter anual e incluyen la totalidad de los gastos e ingresos del sector público estatal.",
+     "referencia": "Art. 134.2 CE"
+    },
+    {
+     "pregunta": "Según el art. 190.1 EA, ¿quién elabora y ejecuta el presupuesto de la Comunidad Autónoma?",
+     "opciones": [
+      "Cada consejería por separado",
+      "El Parlamento de Andalucía",
+      "El Consejo de Gobierno; el Parlamento lo examina, aprueba y controla",
+      "La Cámara de Cuentas"
+     ],
+     "correcta": 2,
+     "explicacion": "El Consejo de Gobierno elabora y ejecuta el presupuesto; el Parlamento lo examina, enmienda, aprueba y controla.",
+     "referencia": "Art. 190.1 EA"
+    },
+    {
+     "pregunta": "Según el art. 9.1.d LGHPA, ¿qué principio presupuestario rige la Hacienda de la Junta?",
+     "opciones": [
+      "Presupuesto sin unidad de caja",
+      "Presupuesto sin intervención",
+      "Presupuesto plurianual indefinido",
+      "Presupuesto anual"
+     ],
+     "correcta": 3,
+     "explicacion": "El principio de presupuesto anual rige la Hacienda de la Junta de Andalucía (art. 9.1.d LGHPA).",
+     "referencia": "Art. 9.1.d LGHPA"
+    },
+    {
+     "pregunta": "Según el art. 32 LGHPA, ¿con qué período coincide el ejercicio presupuestario?",
+     "opciones": [
+      "Con el curso escolar",
+      "Con el año natural",
+      "Con el trimestre",
+      "Con el ejercicio fiscal del Estado de cada cuatro años"
+     ],
+     "correcta": 1,
+     "explicacion": "El ejercicio presupuestario coincide con el año natural.",
+     "referencia": "Art. 32 LGHPA"
+    },
+    {
+     "pregunta": "Según el art. 34.2 LGHPA, ¿qué clasificaciones aplica el estado de gastos?",
+     "opciones": [
+      "Orgánica, funcional por programas y económica",
+      "Solo la geográfica",
+      "Solo la de proveedores",
+      "Solo la temporal"
+     ],
+     "correcta": 0,
+     "explicacion": "El estado de gastos aplica la clasificación orgánica, la funcional por programas y la económica; los gastos de inversión se clasifican además territorialmente.",
+     "referencia": "Art. 34.2 LGHPA"
+    },
+    {
+     "pregunta": "Según el art. 39.2 LGHPA, ¿qué naturaleza tienen los créditos autorizados en los estados de gastos?",
+     "opciones": [
+      "Ilimitada en cada ejercicio",
+      "Indicativa y sin límite",
+      "Limitativa y vinculante",
+      "Solo orientativa"
+     ],
+     "correcta": 2,
+     "explicacion": "Los créditos tienen carácter limitativo y vinculante; no pueden adquirirse compromisos de gasto por cuantía superior a su importe.",
+     "referencia": "Art. 39.2 LGHPA"
+    },
+    {
+     "pregunta": "Según el art. 11.2.a LGHPA, ¿mediante qué instrumento se conceden los créditos extraordinarios y los suplementos de crédito?",
+     "opciones": [
+      "Por acuerdo de la Intervención General",
+      "Por resolución de la Cámara de Cuentas",
+      "Por orden de la consejería de Hacienda",
+      "Por ley del Parlamento de Andalucía"
+     ],
+     "correcta": 3,
+     "explicacion": "La concesión de créditos extraordinarios y de suplementos de crédito se regula por ley del Parlamento de Andalucía.",
+     "referencia": "Art. 11.2.a LGHPA"
+    },
+    {
+     "pregunta": "Según el art. 52 bis.1 LGHPA, ¿cuál NO es una fase de la ejecución del presupuesto de gastos?",
+     "opciones": [
+      "Disposición",
+      "Liquidación de la deuda pública del ejercicio anterior",
+      "Reconocimiento de la obligación",
+      "Aprobación de la realización del gasto"
+     ],
+     "correcta": 1,
+     "explicacion": "Las fases son la aprobación de la realización del gasto, la disposición, el reconocimiento de la obligación y la ordenación del pago con el pago material.",
+     "referencia": "Art. 52 bis.1 LGHPA"
+    },
+    {
+     "pregunta": "Según el art. 56.2 LGHPA, ¿en qué plazo debe justificarse la aplicación de un pago a justificar?",
+     "opciones": [
+      "No es necesario justificarlo",
+      "Un mes",
+      "Tres meses, con ampliación excepcional hasta doce",
+      "Un año"
+     ],
+     "correcta": 2,
+     "explicacion": "Los perceptores de pagos a justificar deben justificar en tres meses, ampliables excepcionalmente hasta doce en los casos reglamentarios.",
+     "referencia": "Art. 56.2 LGHPA"
+    },
+    {
+     "pregunta": "Según el art. 93.1 LGHPA, ¿qué características tiene el control financiero?",
+     "opciones": [
+      "Es un control posterior que comprueba la legalidad y la buena gestión económico-financiera",
+      "Lo ejerce el Parlamento directamente",
+      "Solo se aplica a los ingresos",
+      "Es previo a la formalización de la operación"
+     ],
+     "correcta": 0,
+     "explicacion": "El control financiero es un control posterior que comprueba que el funcionamiento económico-financiero se ajusta al ordenamiento y a los principios de legalidad, eficacia, eficiencia y buena gestión.",
+     "referencia": "Art. 93.1 LGHPA"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. El marco constitucional y estatutario del presupuesto",
+     "parrafos": [
+      "El artículo 134 de la Constitución regula los Presupuestos Generales del Estado: su elaboración corresponde al Gobierno y su examen, enmienda y aprobación a las Cortes Generales (art. 134.1 CE). Son anuales e incluyen la totalidad de los gastos e ingresos del sector público estatal (art. 134.2 CE). El Gobierno debe presentarlos al Congreso al menos tres meses antes de la expiración de los del año anterior (art. 134.3 CE).",
+      "El presupuesto de la Comunidad Autónoma tiene su base en el Estatuto de Autonomía para Andalucía. El artículo 190.1 EA atribuye al Consejo de Gobierno la elaboración y ejecución del presupuesto, y al Parlamento su examen, enmienda, aprobación y control. El artículo 190.4 EA establece que el presupuesto tiene carácter anual y que el proyecto debe presentarse al Parlamento al menos con dos meses de antelación a la expiración del presupuesto corriente.",
+      "Para un examen, la pregunta básica es quién elabora y quién aprueba. Respuesta: el Consejo de Gobierno elabora y ejecuta; el Parlamento examina, enmienda, aprueba y controla (art. 190.1 EA; art. 11.1 de la Ley General de la Hacienda Pública de la Junta de Andalucía, LGHPA)."
+     ]
+    },
+    {
+     "titulo": "2. Concepto de presupuesto",
+     "parrafos": [
+      "El artículo 31 LGHPA define el presupuesto de la Junta de Andalucía como la expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, pueden reconocer la Junta, sus agencias administrativas y de régimen especial, y de los derechos que prevén liquidar en el ejercicio. Incluye también las estimaciones de gastos e ingresos de otras entidades del sector público andaluz.",
+      "Para un examen, las palabras clave son tres: expresión cifrada, conjunta y sistemática. El presupuesto no es un programa, sino un documento de autorización del gasto y de previsión de ingresos. Por eso las obligaciones son un máximo: no pueden reconocerse por encima de lo autorizado.",
+      "El artículo 190.2 EA añade que el presupuesto se elabora con criterios técnicos, homogéneos con los del Estado, y debe incluir la totalidad de los ingresos y gastos de la Junta y de sus organismos y entes dependientes."
+     ]
+    },
+    {
+     "titulo": "3. Contenido y unidad del presupuesto",
+     "parrafos": [
+      "El artículo 33.1 LGHPA establece que el presupuesto es único y que incluye la totalidad de los gastos e ingresos de la Junta de Andalucía y de las entidades del artículo 31. El principio de unidad permite conocer en un solo documento el conjunto de la actividad financiera.",
+      "El artículo 33.2 LGHPA concreta su contenido: los estados de gastos de la Junta y de sus agencias administrativas y de régimen especial, con los créditos necesarios para atender las obligaciones (letra a); los estados de ingresos, con las estimaciones de derechos a liquidar (letra b); y los estados de las agencias públicas empresariales de la categoría prevista en la Ley 9/2007 (letra c).",
+      "Para un examen, la pregunta típica es qué contiene el presupuesto. Respuesta: estados de gastos e ingresos de la Junta y de sus agencias, con la totalidad de los gastos e ingresos (arts. 31 y 33 LGHPA)."
+     ]
+    },
+    {
+     "titulo": "4. Principios presupuestarios",
+     "parrafos": [
+      "El artículo 9.1 LGHPA enumera los principios presupuestarios: estabilidad presupuestaria (letra a), eficiencia y economía (letra b), coordinación, transparencia y eficacia en la gestión (letra c), presupuesto anual (letra d), unidad de caja (letra e), intervención de todas las operaciones de contenido económico (letra f), contabilidad pública (letra g) y no afectación de los ingresos (letra h).",
+      "El principio de no afectación significa que los recursos de la Junta se destinan a satisfacer el conjunto de sus obligaciones, salvo que una ley establezca fines determinados (art. 9.1.h LGHPA). Es un principio con excepciones, no una regla absoluta.",
+      "Para un examen, el principio de anualidad se relaciona con el artículo 32 LGHPA: el ejercicio coincide con el año natural."
+     ]
+    },
+    {
+     "titulo": "5. Ámbito temporal del presupuesto",
+     "parrafos": [
+      "El artículo 32 LGHPA dispone que el ejercicio presupuestario coincide con el año natural. Se imputan a él los derechos liquidados durante el mismo, cualquiera que sea el período de que deriven, y las obligaciones reconocidas hasta el 31 de diciembre con cargo a los créditos.",
+      "La consecuencia es que lo no reconocido antes del cierre del ejercicio, en principio, pierde la cobertura del presupuesto. El artículo 42.1 LGHPA dispone que solo pueden contraerse obligaciones derivadas de gastos realizados en el año natural del ejercicio, con excepciones enumeradas en el apartado 2.",
+      "Para un examen, la pregunta típica es qué ocurre con una obligación no reconocida al cierre. Respuesta: en principio, no se imputa al presupuesto del año (arts. 32 y 42 LGHPA)."
+     ]
+    },
+    {
+     "titulo": "6. Criterios de clasificación de los créditos presupuestarios",
+     "parrafos": [
+      "El artículo 34.1 LGHPA establece que la estructura del presupuesto la determina la consejería competente en materia de Hacienda, teniendo en cuenta la organización de la Junta, la naturaleza económica de los ingresos y los gastos, sus finalidades y los programas de inversiones.",
+      "El artículo 34.2 LGHPA establece los criterios de clasificación. El estado de gastos aplica la clasificación orgánica, la funcional por programas y la económica; los gastos de inversión se clasifican además territorialmente. El estado de ingresos aplica la clasificación orgánica y la económica.",
+      "Para un examen, la clasificación orgánica responde a quién gasta; la funcional por programas, a para qué; y la económica, en qué. Este es el esquema básico que se pregunta con más frecuencia."
+     ]
+    },
+    {
+     "titulo": "7. Vinculación y especialidad de los créditos",
+     "parrafos": [
+      "El artículo 39.1 LGHPA establece el principio de especialidad: los créditos para gastos se destinan exclusivamente a la finalidad para la que fueron autorizados por la ley del presupuesto o por las modificaciones aprobadas.",
+      "El artículo 39.2 LGHPA dispone que los créditos tienen carácter limitativo y vinculante. No pueden adquirirse compromisos de gasto por cuantía superior al importe del crédito, y son nulos de pleno derecho los actos y disposiciones que infrinjan esta norma, sin perjuicio de las responsabilidades. Es la garantía de que el gasto no supera la autorización.",
+      "El artículo 39.3 LGHPA establece la vinculación ordinaria: los créditos vinculan a nivel de sección presupuestaria y servicio, por programas y económica a nivel de artículo. El apartado 4 contiene reglas especiales para algunos créditos financiados con recursos propios, con un nivel de vinculación más detallado."
+     ]
+    },
+    {
+     "titulo": "8. Gastos plurianuales y temporalidad",
+     "parrafos": [
+      "El artículo 40.1 LGHPA define los gastos plurianuales como los que se autorizan y comprometen con cargo a dos o más ejercicios. Su autorización o realización se subordina al crédito que cada ejercicio autorice en el presupuesto.",
+      "El artículo 40.2 LGHPA permite adquirir compromisos que se extiendan a ejercicios posteriores solo en los casos previstos por la ley. Para un examen, el gasto plurianual no es una excepción al principio de anualidad, sino una autorización condicionada al crédito de cada año.",
+      "El artículo 42 LGHPA regula la temporalidad: los créditos son del año natural, con excepciones como las obligaciones derivadas de atrasos a favor del personal (art. 42.2.a)."
+     ]
+    },
+    {
+     "titulo": "9. El ciclo presupuestario",
+     "parrafos": [
+      "El ciclo presupuestario comprende las fases de elaboración, aprobación, ejecución, modificación, cierre, control y rendición de cuentas. Cada fase tiene su órgano y su norma: el Consejo de Gobierno y la consejería de Hacienda elaboran; el Parlamento aprueba; la Junta ejecuta; la Intervención controla; y la Cuenta General cierra el ciclo.",
+      "El ciclo es anual, pero se solapa: mientras se ejecuta un presupuesto se prepara el siguiente, y el control de un ejercicio puede coincidir con la ejecución del siguiente. Para un examen, conviene recordar el orden general y la fecha de cada fase.",
+      "El ciclo se cierra con la Cuenta General, que se formula con la contabilidad pública y se rinde al Parlamento, al Tribunal de Cuentas y a la Cámara de Cuentas de Andalucía (arts. 98.1 y 105 LGHPA)."
+     ]
+    },
+    {
+     "titulo": "10. Elaboración del presupuesto",
+     "parrafos": [
+      "El artículo 35.1 LGHPA establece que el Consejo de Gobierno aprueba cada año, a propuesta de la consejería de Hacienda, el marco presupuestario a medio plazo, que sirve de referencia para el presupuesto anual.",
+      "El artículo 35.2 LGHPA exige que las consejerías y los órganos, agencias y consorcios con dotación en el presupuesto remitan sus anteproyectos de estados de gastos a la consejería de Hacienda antes del 1 de agosto de cada año, con documentación justificativa y conforme a las directrices del Consejo de Gobierno.",
+      "El artículo 35.4 LGHPA establece que el presupuesto se ajusta al límite de gasto no financiero aprobado por el Consejo de Gobierno. Para un examen, la fecha del 1 de agosto y el límite de gasto no financiero son los dos datos que se preguntan."
+     ]
+    },
+    {
+     "titulo": "11. Aprobación y remisión al Parlamento",
+     "parrafos": [
+      "El artículo 36 LGHPA establece que el proyecto de ley del presupuesto, con el texto articulado y los estados de ingresos y gastos, se remite al Parlamento al menos dos meses antes de la expiración del presupuesto corriente. Se acompaña de documentación como la cuenta consolidada y la memoria económica.",
+      "El artículo 11.1 LGHPA atribuye al Parlamento el examen, la enmienda, la aprobación y el control del presupuesto. El artículo 190.1 EA exige que cualquier proposición o enmienda que aumente los créditos o disminuya los ingresos requiera la conformidad del Consejo de Gobierno.",
+      "Para un examen, la reserva de la ley del presupuesto es relevante: el artículo 109.2.b EA excluye de la delegación legislativa las leyes del presupuesto, y el artículo 110.1 EA prohíbe aprobar los presupuestos por decreto-ley."
+     ]
+    },
+    {
+     "titulo": "12. Prórroga del presupuesto",
+     "parrafos": [
+      "El artículo 37.1 LGHPA establece que si la ley del presupuesto no se aprueba antes del primer día del ejercicio, se considera prorrogado automáticamente el del ejercicio anterior, con la estructura y las aplicaciones contables del proyecto remitido, hasta la aprobación y publicación del nuevo en el Boletín Oficial de la Junta de Andalucía.",
+      "El artículo 37.2 LGHPA dispone que la prórroga no afecta a las operaciones de capital y financieras, en los términos que el precepto fija. El artículo 190.5 EA recoge la misma regla de prórroga.",
+      "Para un examen, la prórroga es automática: no requiere acuerdo, pero no alcanza a todas las operaciones."
+     ]
+    },
+    {
+     "titulo": "13. Modificaciones presupuestarias: créditos extraordinarios y suplementos",
+     "parrafos": [
+      "El artículo 43 LGHPA regula los créditos extraordinarios y los suplementos de crédito. Cuando un gasto no puede demorarse al ejercicio siguiente y no existe crédito o es insuficiente y no ampliable, la consejería de Hacienda eleva al Consejo de Gobierno la remisión de un proyecto de ley al Parlamento.",
+      "El artículo 11.2.a LGHPA atribuye al Parlamento, por ley, la concesión de créditos extraordinarios y de suplementos de crédito. Esta reserva de ley distingue estas modificaciones de las que se hacen por acto administrativo.",
+      "Para un examen, la pregunta típica es quién concede un crédito extraordinario. Respuesta: el Parlamento, por ley, a propuesta del Consejo de Gobierno (arts. 11.2.a y 43 LGHPA)."
+     ]
+    },
+    {
+     "titulo": "14. Transferencias y generaciones de crédito",
+     "parrafos": [
+      "El artículo 45 LGHPA define las transferencias de crédito como traspasos de dotaciones entre créditos presupuestarios, que pueden incluir la creación de créditos nuevos. Están sujetas a limitaciones: no afectan a los créditos extraordinarios ni a los incrementados con suplementos, y no minoran créditos ya incrementados por transferencias (art. 45.2 LGHPA).",
+      "El artículo 46 LGHPA define las generaciones de crédito como modificaciones que incrementan los créditos por ingresos no previstos o superiores a los del presupuesto inicial.",
+      "Para un examen, la diferencia es el origen: la transferencia redistribuye créditos existentes; la generación incrementa el crédito con nuevos ingresos."
+     ]
+    },
+    {
+     "titulo": "15. Competencia para autorizar las modificaciones",
+     "parrafos": [
+      "El artículo 48 LGHPA atribuye al Consejo de Gobierno, a propuesta de la consejería de Hacienda, la autorización de las transferencias de crédito que excedan de 3.000.000 de euros, de las generaciones que excedan de esa cuantía, con excepciones, y de las transferencias que modifiquen las dotaciones de fondos carentes de personalidad.",
+      "El artículo 47 LGHPA atribuye a la persona titular de la consejería de Hacienda otras modificaciones, en el alcance que la ley determina. Su detalle no se ha verificado en este tema.",
+      "Para un examen, la regla es escalonada: lo pequeño lo autoriza la consejería; lo grande, el Consejo de Gobierno; y lo que supone un crédito nuevo o un aumento de gasto requiere ley."
+     ]
+    },
+    {
+     "titulo": "16. El procedimiento general de ejecución del gasto: competencia y fases",
+     "parrafos": [
+      "El artículo 52 LGHPA atribuye la competencia en la gestión de los gastos a quienes la ostenten para adoptar los actos administrativos o negocios que los generan y ejecutan. Cuando el acto requiere autorización del Consejo de Gobierno, debe obtenerse antes de adoptarlo (art. 52.1 LGHPA).",
+      "El artículo 52 bis.1 LGHPA establece las cuatro fases de ejecución del gasto: aprobación de la realización del gasto (letra a), disposición o compromiso frente a terceros (letra b), reconocimiento de la obligación, que declara la existencia de un crédito exigible y propone el pago (letra c), y ordenación del pago y pago material (letra d).",
+      "El artículo 52 bis.2 LGHPA exige que la sucesión de fases se materialice en los actos que las generan, aunque pueden acumularse en un solo acto en los supuestos que fije la consejería de Hacienda. Para un examen, el orden de las fases es la pregunta más frecuente: aprobación, disposición, reconocimiento de la obligación, ordenación del pago y pago."
+     ]
+    },
+    {
+     "titulo": "17. Ordenación de pagos y pagos a justificar",
+     "parrafos": [
+      "El artículo 54.1 LGHPA atribuye a la persona titular de la consejería de Hacienda la ordenación general de pagos de la Junta. El artículo 54.2 LGHPA atribuye a los titulares de la presidencia o dirección de las agencias, instituciones y consorcios la ordenación de los pagos de sus gastos.",
+      "El artículo 56 LGHPA regula los pagos a justificar: las órdenes de pago cuyos documentos no pueden acompañarse en el momento de su expedición. Los perceptores quedan obligados a justificar la aplicación de las cantidades en tres meses, ampliables excepcionalmente hasta doce meses en los casos que reglamente la norma (art. 56.2 LGHPA).",
+      "Para un examen, el pago a justificar es excepcional y tiene plazo de justificación. Sin justificación, la cantidad sigue siendo una deuda del perceptor."
+     ]
+    },
+    {
+     "titulo": "18. Fuentes y exigibilidad de las obligaciones",
+     "parrafos": [
+      "El artículo 26.1 LGHPA establece que las obligaciones económicas de la Junta nacen de la ley, de los negocios jurídicos y de los actos o hechos que, según el derecho, las generen.",
+      "El artículo 26.2 LGHPA dispone que las obligaciones de pago solo pueden exigirse a la Hacienda de la Junta cuando resultan de la ejecución de su presupuesto, de sentencia judicial firme o de los demás supuestos que el precepto recoge. La exigibilidad depende, por tanto, de la existencia de crédito o de un título judicial.",
+      "Para un examen, la diferencia es clave: el nacimiento de la obligación y su exigibilidad al presupuesto no coinciden siempre. Una obligación puede existir y no ser exigible si no hay crédito o título."
+     ]
+    },
+    {
+     "titulo": "19. El cierre del presupuesto",
+     "parrafos": [
+      "El artículo 57.1 LGHPA establece que el presupuesto se liquida, en cuanto a recaudación de derechos y pago de obligaciones, el 31 de diciembre. Los ingresos y pagos pendientes quedan a cargo de la Tesorería, según las respectivas contracciones de derechos y obligaciones.",
+      "El artículo 57.2 LGHPA dispone que la Tesorería sigue aplicando sus entradas y salidas por años naturales. El artículo 57.3 LGHPA establece que los ingresos realizados una vez cerrado el presupuesto quedan desafectados del destino específico que les correspondía.",
+      "Para un examen, el cierre es el 31 de diciembre, y los pagos pendientes pasan a la Tesorería."
+     ]
+    },
+    {
+     "titulo": "20. Control interno: modalidades y órgano",
+     "parrafos": [
+      "El artículo 85.1 LGHPA somete la actividad financiera de la Junta, de sus entidades instrumentales y de otros entes al control interno de la Intervención General de la Junta de Andalucía y al régimen de contabilidad pública.",
+      "El artículo 86.1 LGHPA define la Intervención General como el superior órgano de control interno del sector público de la Junta, con carácter directivo y gestor de la contabilidad pública. El artículo 86.2 exige que sus funciones se ejerzan con plena autonomía.",
+      "El artículo 88.1 LGHPA establece que el control interno comprende dos modalidades: el control previo y el control financiero. Para un examen, esa es la clasificación básica del control interno de la Junta."
+     ]
+    },
+    {
+     "titulo": "21. El control previo: fiscalización previa e informes de modificaciones",
+     "parrafos": [
+      "El artículo 89.1 LGHPA define el control previo: se ejerce antes de que se formalicen las operaciones y tiene por objeto verificar su legalidad. Comprende la fiscalización previa de gastos y obligaciones de carácter presupuestario y los informes previos de las modificaciones presupuestarias (art. 89.2 LGHPA).",
+      "El artículo 90.1 LGHPA define la fiscalización previa como el examen de los expedientes que conllevan gasto, para verificar que su contenido y tramitación se ajustan a la legalidad. El artículo 90.2 los identifica por las fases de ejecución del gasto y de justificación de libramientos.",
+      "El artículo 92 LGHPA regula la comprobación material del gasto: la Intervención verifica que se realizan efectivamente las obras, adquisiciones o servicios financiados con fondos públicos, y está presente en los actos formales de recepción cuando es preceptivo."
+     ]
+    },
+    {
+     "titulo": "22. El control financiero y el control permanente",
+     "parrafos": [
+      "El artículo 93.1 LGHPA define el control financiero como un control posterior que comprueba que el funcionamiento económico-financiero se ajusta al ordenamiento y a los principios de legalidad, eficacia, eficiencia, economía y buena gestión. Su finalidad es promover la mejora de los procedimientos mediante recomendaciones.",
+      "El artículo 93.2 LGHPA somete al control financiero, con las excepciones de la ley, a las agencias de régimen especial y otras entidades del sector público. El artículo 94 LGHPA regula el control financiero permanente, que se aplica de forma regular sobre el órgano o servicio.",
+      "El artículo 94.2 LGHPA permite que, por acuerdo del Consejo de Gobierno, el control financiero permanente sustituya al control previo en determinados órganos o servicios. Para un examen, la diferencia es el momento: el control previo es antes del acto; el financiero, después."
+     ]
+    },
+    {
+     "titulo": "23. Control de subvenciones y auditorías",
+     "parrafos": [
+      "El artículo 95 LGHPA regula el control financiero de subvenciones, que la Intervención ejerce sobre el empleo de las subvenciones. El artículo 98.2 LGHPA extiende la rendición de cuentas al empleo de las subvenciones, cualquiera que sea el perceptor.",
+      "El artículo 96 LGHPA regula la contratación de auditorías. El artículo 88.1 LGHPA permite a la Intervención realizar auditorías en los términos que determine.",
+      "Para un examen, el control de subvenciones de la Junta se relaciona con el tema c19, donde el control del Estado se regula en la LGS (art. 44)."
+     ]
+    },
+    {
+     "titulo": "24. Rendición de cuentas y Cuenta General",
+     "parrafos": [
+      "El artículo 98.1 LGHPA obliga a rendir cuentas de las operaciones al Parlamento de Andalucía, al Tribunal de Cuentas y a la Cámara de Cuentas de Andalucía, por conducto de la Intervención General.",
+      "El artículo 105.1 LGHPA establece que la Cuenta General comprende todas las operaciones presupuestarias, patrimoniales y de tesorería del ejercicio, de la Junta, de sus agencias, instituciones, consorcios, sociedades y fundaciones del sector público andaluz.",
+      "Para un examen, la Cuenta General es el documento de cierre del ciclo, y la Cámara de Cuentas de Andalucía es el órgano externo al que se rinde (art. 130 EA)."
+     ]
+    },
+    {
+     "titulo": "25. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir el reconocimiento de la obligación con el pago. El reconocimiento declara el crédito exigible y propone el pago; el pago material es una fase posterior (art. 52 bis.1 LGHPA).",
+      "Afirmar que un crédito puede comprometerse por cuantía superior a su importe. Los créditos son limitativos y vinculantes (art. 39.2 LGHPA).",
+      "Pensar que un crédito extraordinario lo concede el Consejo de Gobierno por acuerdo. Lo concede el Parlamento por ley (arts. 11.2.a y 43 LGHPA).",
+      "Olvidar que los créditos son del año natural. Las obligaciones no reconocidas al cierre no se imputan al presupuesto de ese año (arts. 32 y 42 LGHPA).",
+      "Confundir el control previo con el control financiero. El previo es antes del acto; el financiero es posterior (arts. 89 y 93 LGHPA)."
+     ]
+    },
+    {
+     "titulo": "26. Casos prácticos",
+     "parrafos": [
+      "Caso 1: en octubre, una consejería necesita un gasto de 5.000.000 de euros que no tiene crédito. No puede esperar al ejercicio siguiente. Procede un crédito extraordinario por ley del Parlamento, a propuesta del Consejo de Gobierno (arts. 11.2.a y 43 LGHPA).",
+      "Caso 2: una agencia transfiere 2.000.000 de euros entre dos créditos de su presupuesto. La transferencia no supera los 3.000.000 de euros, por lo que no requiere autorización del Consejo de Gobierno (art. 48.a LGHPA). La competencia para autorizarla debe determinarse conforme al artículo 47 LGHPA, cuyo detalle no se ha verificado en este tema.",
+      "Caso 3: un gasto aprobado en diciembre no se reconoce como obligación antes del 31 de diciembre. No se imputa al presupuesto del ejercicio (arts. 32 y 42 LGHPA), y la Tesorería asume el pago pendiente (art. 57.1 LGHPA)."
+     ]
+    },
+    {
+     "titulo": "27. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema c19 sobre subvenciones, porque las subvenciones son gasto público y su concesión requiere crédito adecuado y suficiente (art. 9.4 LGS).",
+      "Se conecta con el tema c20 sobre función pública, porque los gastos de personal son una parte relevante del presupuesto y su límite es el crédito de cada ejercicio.",
+      "Se conecta con el tema c18 sobre expropiación, porque el justiprecio y el pago de la expropiación son un gasto que requiere crédito o retención (art. 52 LEF)."
+     ]
+    },
+    {
+     "titulo": "28. Claves para el examen",
+     "parrafos": [
+      "Marco: CE 134 (presupuestos generales del Estado); EA 190 (presupuesto de la Comunidad); LGHPA como texto refundido.",
+      "Concepto y contenido: expresión cifrada de obligaciones máximas y derechos a liquidar; presupuesto único (arts. 31 y 33 LGHPA).",
+      "Clasificación: orgánica, funcional por programas y económica para el gasto; orgánica y económica para el ingreso (art. 34.2 LGHPA).",
+      "Vinculación: limitativa y vinculante; sección, servicio y programa; económica al artículo (art. 39 LGHPA).",
+      "Ciclo: marco a medio plazo, anteproyectos antes del 1 de agosto, proyecto al Parlamento dos meses antes de la expiración; prórroga automática (arts. 35 a 37 LGHPA).",
+      "Ejecución: cuatro fases (art. 52 bis.1 LGHPA); pagos a justificar en tres meses (art. 56 LGHPA).",
+      "Control: previo (fiscalización previa e informes de modificaciones) y financiero (posterior y permanente), a cargo de la Intervención General (arts. 85 a 94 LGHPA)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Decreto Legislativo 1/2010, texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-5303",
+     "pdf": "leyes/BOE-A-2010-5303.pdf"
+    },
+    {
+     "nombre": "Estatuto de Autonomía para Andalucía, Ley Orgánica 2/2007 (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
+     "pdf": "leyes/BOE-A-2007-5825.pdf"
+    },
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
+    }
+   ]
+  },
+  "c22": {
+   "resumen": [
+    {
+     "titulo": "Conceptos y componentes",
+     "puntos": [
+      "Un sistema informático combina hardware, software, datos, redes y personas, junto con los procedimientos que ordenan su uso.",
+      "El hardware incluye la CPU, la memoria principal (volátil), el almacenamiento secundario (permanente) y los buses. El software se divide en sistema, utilidades y aplicaciones."
+     ]
+    },
+    {
+     "titulo": "Funcionamiento general",
+     "puntos": [
+      "El esquema es entrada, proceso y salida. Un programa debe estar en memoria principal para ejecutarse; el sistema operativo gestiona procesos, memoria, dispositivos y ficheros.",
+      "Las bases de datos son gestionadas por un sistema gestor (SGBD), que controla el acceso, la integridad y la concurrencia."
+     ]
+    },
+    {
+     "titulo": "Tipos y niveles de arquitectura",
+     "puntos": [
+      "Centralizada (un gran equipo concentra el proceso), distribuida (el proceso se reparte) y cliente-servidor (el cliente pide y el servidor responde).",
+      "Niveles de presentación, lógica de negocio y datos; la arquitectura de tres capas separa los tres en equipos distintos."
+     ]
+    },
+    {
+     "titulo": "Procesos cooperativos y cliente-servidor",
+     "puntos": [
+      "Los procesos cooperativos colaboran intercambiando mensajes y sincronizándose. El cliente y el servidor son roles de procesos, no necesariamente de máquinas distintas.",
+      "El modelo de petición y respuesta, con protocolos como HTTP, es la base de la aplicación cliente-servidor."
+     ]
+    },
+    {
+     "titulo": "Tendencias",
+     "puntos": [
+      "Arquitecturas orientadas a servicios y microservicios; virtualización y contenedores; computación en la nube (IaaS, PaaS y SaaS) en modelos públicos, privados o híbridos.",
+      "Arquitectura orientada a eventos, datos masivos y procesamiento en el borde."
+     ]
+    },
+    {
+     "titulo": "Administración electrónica en Andalucía",
+     "puntos": [
+      "La LAJA orienta la aplicación de las tecnologías a la eficacia y a la accesibilidad, con los principios de simplificación, libre acceso, accesibilidad universal, confidencialidad, seguridad y autenticidad (art. 7 LAJA).",
+      "La LPAC reconoce el derecho a elegir el medio, salvo la obligación de relacionarse electrónicamente (art. 14 LPAC). La actuación automatizada necesita órganos responsables de su especificación y control (art. 41 LRJSP)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LAJA",
+     "rol": "Complementaria: administración electrónica (art. 7)"
+    },
+    {
+     "id": "LPAC",
+     "rol": "Complementaria: relación electrónica con la Administración (art. 14)"
+    },
+    {
+     "id": "LRJSP",
+     "rol": "Complementaria: actuación administrativa automatizada (art. 41)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 7.2 LAJA, ¿cuál NO es uno de los principios que rigen las relaciones electrónicas de la Junta con la ciudadanía?",
+     "opciones": [
+      "Opacidad en el tratamiento de la información",
+      "Simplificación y agilización de trámites",
+      "Accesibilidad universal",
+      "Confidencialidad y seguridad"
+     ],
+     "correcta": 0,
+     "explicacion": "Los principios son la simplificación y agilización de trámites, el libre acceso, la accesibilidad universal, la confidencialidad y la seguridad y autenticidad. La opacidad no es un principio.",
+     "referencia": "Art. 7.2 LAJA"
+    },
+    {
+     "pregunta": "Según el art. 14.1 LPAC, ¿qué derecho tienen las personas físicas en su relación electrónica con la Administración?",
+     "opciones": [
+      "Comunicarse solo por teléfono",
+      "Obligación de comunicarse solo por papel",
+      "Elegir en todo momento si se comunican por medios electrónicos o no, salvo obligación",
+      "Ninguno"
+     ],
+     "correcta": 2,
+     "explicacion": "Las personas físicas pueden elegir en todo momento si se comunican por medios electrónicos o no, salvo que estén obligadas, y pueden cambiar el medio.",
+     "referencia": "Art. 14.1 LPAC"
+    },
+    {
+     "pregunta": "Según el art. 41.1 LRJSP, ¿qué es una actuación administrativa automatizada?",
+     "opciones": [
+      "Un acto que no tiene procedimiento",
+      "Cualquier acto oral",
+      "Un acto realizado por un empleado público con ayuda de un ordenador",
+      "Un acto realizado íntegramente por medios electrónicos sin intervención directa de un empleado público"
+     ],
+     "correcta": 3,
+     "explicacion": "La actuación automatizada es la realizada íntegramente por medios electrónicos en el marco de un procedimiento, sin intervención directa de un empleado público.",
+     "referencia": "Art. 41.1 LRJSP"
+    },
+    {
+     "pregunta": "Según el art. 41.2 LRJSP, ¿qué debe establecerse antes de una actuación automatizada?",
+     "opciones": [
+      "Nada: se activa sin más",
+      "Los órganos competentes para especificaciones, programación, mantenimiento y supervisión del sistema",
+      "Solo la firma de un contrato",
+      "Una sentencia que lo autorice"
+     ],
+     "correcta": 1,
+     "explicacion": "Debe establecerse previamente el órgano competente para la definición de especificaciones, programación, mantenimiento, supervisión, control de calidad y, en su caso, auditoría del sistema.",
+     "referencia": "Art. 41.2 LRJSP"
+    },
+    {
+     "pregunta": "¿Qué tipo de memoria pierde su contenido al apagarse el equipo?",
+     "opciones": [
+      "La memoria principal, que es volátil",
+      "El disco duro",
+      "Ninguna memoria pierde su contenido",
+      "El almacenamiento secundario"
+     ],
+     "correcta": 0,
+     "explicacion": "La memoria principal es volátil: pierde su contenido al apagarse el equipo. El almacenamiento secundario es permanente.",
+     "referencia": "Conceptos generales de arquitectura (temario c22)"
+    },
+    {
+     "pregunta": "¿Dónde debe estar un programa para ejecutarse?",
+     "opciones": [
+      "En la pantalla",
+      "En la impresora",
+      "En la memoria principal",
+      "En el teclado"
+     ],
+     "correcta": 2,
+     "explicacion": "Para ejecutarse, el programa debe cargarse en la memoria principal, desde donde la CPU toma sus instrucciones.",
+     "referencia": "Funcionamiento general (temario c22)"
+    },
+    {
+     "pregunta": "¿Cuántos niveles tiene el modelo de referencia OSI?",
+     "opciones": [
+      "Diez",
+      "Tres",
+      "Cuatro",
+      "Siete"
+     ],
+     "correcta": 3,
+     "explicacion": "El modelo OSI tiene siete niveles; el modelo TCP/IP, en el que se basa Internet, tiene cuatro.",
+     "referencia": "Redes y comunicaciones (temario c22)"
+    },
+    {
+     "pregunta": "¿Qué arquitectura separa la presentación, la lógica de negocio y los datos en tres niveles?",
+     "opciones": [
+      "La centralizada",
+      "La de tres capas",
+      "La peer-to-peer",
+      "Ninguna"
+     ],
+     "correcta": 1,
+     "explicacion": "La arquitectura de tres capas separa la presentación, la lógica de negocio y los datos, que pueden estar en equipos distintos.",
+     "referencia": "Niveles de arquitectura (temario c22)"
+    },
+    {
+     "pregunta": "¿Qué modelo de nube ofrece aplicaciones listas para usar?",
+     "opciones": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "Ninguno"
+     ],
+     "correcta": 2,
+     "explicacion": "SaaS ofrece aplicaciones listas para usar; IaaS ofrece infraestructura y PaaS, una plataforma para desarrollar.",
+     "referencia": "Tendencias actuales (temario c22)"
+    },
+    {
+     "pregunta": "En el modelo cliente-servidor, ¿qué hace el cliente?",
+     "opciones": [
+      "Solicita un servicio mediante una petición que el servidor atiende",
+      "Almacena todos los datos del sistema",
+      "No participa en la comunicación",
+      "Presta el servicio a otros procesos"
+     ],
+     "correcta": 0,
+     "explicacion": "El cliente es el proceso que solicita un servicio, y el servidor es el que lo presta, siguiendo el modelo de petición y respuesta.",
+     "referencia": "Arquitectura cliente-servidor (temario c22)"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué es un sistema informático",
+     "parrafos": [
+      "Un sistema informático es un conjunto organizado de elementos que recogen, almacenan, procesan y transmiten información para producir un resultado útil. Los elementos son el hardware, el software, los datos, las redes y las personas que los operan y los usan, junto con los procedimientos que ordenan su uso.",
+      "La idea clave es la de sistema: ningún elemento sirve por separado. Un ordenador sin programa no hace nada útil, y un programa sin datos o sin usuario no produce información. Para un examen, la definición completa exige mencionar que el sistema incluye a las personas y a los procedimientos, no solo a las máquinas.",
+      "En una organización pública, un sistema informático suele dar soporte a un procedimiento administrativo: recibe una solicitud, trata los datos del interesado, aplica las normas y genera una resolución o un registro."
+     ]
+    },
+    {
+     "titulo": "2. El hardware: componentes principales",
+     "parrafos": [
+      "El hardware es la parte física del sistema. Los componentes básicos son la unidad central de proceso (CPU), que ejecuta las instrucciones; la memoria principal, que guarda temporalmente los programas y datos en ejecución; el almacenamiento secundario, que los conserva de forma permanente; y los dispositivos de entrada y salida.",
+      "Los componentes se comunican a través de buses, que transmiten datos, direcciones y señales de control. La red es también un componente de hardware cuando conecta equipos entre sí o con otros sistemas.",
+      "Para un examen, la diferencia básica es entre memoria principal (volátil y rápida) y almacenamiento secundario (permanente y más lento). Esa distinción explica la jerarquía de memoria."
+     ]
+    },
+    {
+     "titulo": "3. El software: sistemas, utilidades y aplicaciones",
+     "parrafos": [
+      "El software es el conjunto de programas e instrucciones que indican al hardware qué hacer. Se clasifica en software de sistema, que gestiona los recursos del equipo, como el sistema operativo; software de utilidad, que realiza tareas de mantenimiento; y software de aplicación, que resuelve problemas de los usuarios, como un tramitador o un gestor de expedientes.",
+      "El sistema operativo es el programa que controla el hardware, gestiona los procesos, la memoria, los dispositivos y los archivos, y ofrece una interfaz a las aplicaciones. Sin él, cada aplicación tendría que dialogar directamente con el hardware.",
+      "Para un examen, la clasificación de software suele preguntarse con ejemplos. Un sistema operativo es software de sistema; un tramitador de expedientes, de aplicación."
+     ]
+    },
+    {
+     "titulo": "4. Los datos y las bases de datos",
+     "parrafos": [
+      "Los datos son representaciones de hechos o valores. La información es el resultado de procesar datos en un contexto que les da significado. Un sistema administrativo trabaja con datos personales, expedientes y registros, cuyo tratamiento está sujeto a la protección de datos.",
+      "Una base de datos es un conjunto organizado de datos relacionados, gestionado por un sistema gestor de bases de datos (SGBD). El SGBD controla el acceso, la integridad, la concurrencia y la seguridad. Los modelos más usados son el relacional, con tablas y claves, y, en aplicaciones concretas, otros modelos como el documental o el de grafos.",
+      "Para un examen, la diferencia clave es entre dato e información, y la función del SGBD: separa los datos de las aplicaciones y garantiza su integridad."
+     ]
+    },
+    {
+     "titulo": "5. Funcionamiento general: entrada, proceso y salida",
+     "parrafos": [
+      "El funcionamiento general de un sistema informático sigue el esquema entrada, proceso y salida. Los datos entran por un dispositivo, la CPU los procesa según las instrucciones del programa, y el resultado sale por un dispositivo de salida o se almacena.",
+      "Los programas se ejecutan cargándolos en memoria principal. La CPU toma las instrucciones de la memoria, las decodifica y las ejecuta, en el ciclo de instrucción que se repite. El sistema operativo reparte el tiempo de la CPU entre los procesos.",
+      "Para un examen, el ciclo de instrucción no hace falta memorizarlo, pero sí entender que el programa debe estar en memoria principal para ejecutarse."
+     ]
+    },
+    {
+     "titulo": "6. Redes y comunicaciones",
+     "parrafos": [
+      "Una red de ordenadores es un conjunto de equipos conectados que comparten recursos e intercambian información. Según su extensión se distinguen redes de área local (LAN), de área metropolitana (MAN) y de área extensa (WAN). Internet es una red de redes.",
+      "La comunicación entre equipos se organiza en capas. El modelo de referencia OSI tiene siete niveles; el modelo TCP/IP, en el que se basa Internet, tiene cuatro. Cada capa ofrece un servicio a la superior y usa el de la inferior.",
+      "Para un examen, la pregunta típica es la diferencia entre LAN y WAN por su extensión, y la idea de que los protocolos (como TCP/IP) regulan la comunicación entre capas."
+     ]
+    },
+    {
+     "titulo": "7. Tipos de arquitectura de los sistemas",
+     "parrafos": [
+      "La arquitectura de un sistema describe cómo se organizan sus componentes y cómo se reparten las funciones. Se distinguen, en general, la arquitectura centralizada, en la que un gran equipo concentra el proceso y los terminales solo muestran resultados, como los antiguos mainframes; y la arquitectura distribuida, en la que el proceso se reparte entre varios equipos.",
+      "La arquitectura descentralizada, que reparte la autoridad y los datos entre nodos autónomos, y la arquitectura peer-to-peer, en la que todos los nodos actúan como cliente y servidor, son variantes de la distribución. La arquitectura cliente-servidor es la más extendida en aplicaciones de gestión.",
+      "Para un examen, la diferencia básica es dónde está el proceso: en un único equipo (centralizada) o repartido (distribuida)."
+     ]
+    },
+    {
+     "titulo": "8. Niveles de arquitectura: presentación, lógica y datos",
+     "parrafos": [
+      "En las aplicaciones de gestión, la arquitectura se organiza en niveles. El nivel de presentación es la interfaz con el usuario. El nivel de lógica de negocio contiene las reglas del procedimiento. El nivel de datos gestiona el almacenamiento y el acceso a la información.",
+      "Cuando los tres niveles están en equipos distintos, se habla de arquitectura de tres capas. Dos capas es el caso en que la presentación y la lógica van juntas en el cliente, y los datos en el servidor. La separación en niveles facilita el mantenimiento, porque un cambio en la interfaz no obliga a tocar los datos.",
+      "Para un examen, la pregunta típica es qué nivel contiene las reglas del procedimiento. Respuesta: el de lógica de negocio, separado de la presentación y de los datos."
+     ]
+    },
+    {
+     "titulo": "9. Procesos cooperativos",
+     "parrafos": [
+      "Un proceso es un programa en ejecución. Un proceso cooperativo es aquel en el que varios procesos colaboran para realizar una tarea, intercambiando datos o mensajes y sincronizándose cuando es necesario.",
+      "La cooperación puede darse dentro de un equipo o entre equipos. Entre equipos, los procesos se comunican mediante mensajes sobre la red, con mecanismos como la llamada a procedimiento remoto (RPC) o los servicios web. La sincronización evita que dos procesos accedan a la vez a un mismo recurso de forma incorrecta.",
+      "Para un examen, el proceso cooperativo es la base de la arquitectura cliente-servidor: el cliente pide y el servidor responde, cada uno como proceso independiente."
+     ]
+    },
+    {
+     "titulo": "10. La arquitectura cliente-servidor",
+     "parrafos": [
+      "En la arquitectura cliente-servidor, el cliente es el proceso que solicita un servicio y el servidor es el proceso que lo presta. La comunicación sigue el modelo de petición y respuesta: el cliente envía una petición, el servidor la procesa y devuelve una respuesta.",
+      "El cliente puede ser ligero (thin client), si solo presenta la interfaz, o pesado (fat client), si además procesa reglas de negocio. El servidor puede ser un servidor de datos, de aplicaciones o web. El navegador y un servidor web que responde con páginas, mediante el protocolo HTTP, es el ejemplo más conocido.",
+      "Para un examen, las ventajas típicas son la centralización de los datos y del mantenimiento; los inconvenientes, la dependencia del servidor y la carga que concentra. La cuestión clave es que cliente y servidor son roles de procesos, no necesariamente de máquinas distintas."
+     ]
+    },
+    {
+     "titulo": "11. Modelos de dos y tres capas",
+     "parrafos": [
+      "En el modelo de dos capas, el cliente incluye la presentación y parte de la lógica, y el servidor gestiona los datos. Es sencillo, pero el cliente es pesado y cada cambio exige distribuir de nuevo la aplicación.",
+      "En el modelo de tres capas, la presentación está en el cliente, la lógica en un servidor de aplicaciones y los datos en un servidor de bases de datos. Es el modelo más utilizado en aplicaciones de gestión porque separa las responsabilidades.",
+      "Para un examen, la pregunta típica es qué ventaja tiene el modelo de tres capas. Respuesta: separar la presentación, la lógica y los datos, y facilitar el mantenimiento y la escalabilidad."
+     ]
+    },
+    {
+     "titulo": "12. El sistema operativo: procesos, memoria y ficheros",
+     "parrafos": [
+      "El sistema operativo gestiona los procesos: crea, planifica y termina los programas en ejecución. La planificación decide qué proceso usa la CPU en cada momento, y el cambio entre procesos (cambio de contexto) guarda y restaura su estado.",
+      "La gestión de memoria reparte la memoria principal entre los procesos y protege unos de otros. La memoria virtual permite ejecutar programas mayores que la memoria física, usando el almacenamiento secundario como extensión, a costa de un menor rendimiento cuando se usa en exceso.",
+      "El sistema de ficheros organiza el almacenamiento en archivos y directorios, con permisos que controlan el acceso. Para un examen, la pregunta típica es qué gestiona el sistema operativo: procesos, memoria, dispositivos y ficheros, ofreciendo una interfaz a las aplicaciones."
+     ]
+    },
+    {
+     "titulo": "13. La arquitectura de referencia de una organización",
+     "parrafos": [
+      "Una arquitectura de referencia describe, de forma ordenada, las capas que necesita una organización para sus sistemas: la capa de negocio (procedimientos y servicios), la de aplicaciones (los programas que los soportan), la de datos (la información y su gobierno) y la tecnológica (infraestructura, redes y seguridad).",
+      "Este enfoque por capas permite decidir dónde se toma cada decisión. Un cambio tecnológico en la capa de infraestructura no debería obligar a cambiar las reglas del negocio, y la coherencia entre capas se controla con la documentación de la arquitectura.",
+      "Para un examen, la idea clave es la separación de capas y la coherencia entre ellas. La arquitectura de referencia no es un producto concreto, sino un marco de decisión."
+     ]
+    },
+    {
+     "titulo": "14. Interoperabilidad e integración de sistemas",
+     "parrafos": [
+      "La interoperabilidad es la capacidad de dos o más sistemas para intercambiar información y utilizarla. Se logra con estándares de formato de datos, protocolos comunes y servicios bien definidos, y es esencial en las organizaciones con muchos sistemas heredados.",
+      "La integración puede hacerse mediante intercambio de ficheros, llamadas a servicios web, colas de mensajes o un bus de servicios. Cada opción tiene un coste de mantenimiento y de rendimiento distinto. Para un examen, conviene distinguir interoperabilidad (poder intercambiar) de integración (conectar los procesos).",
+      "La Administración electrónica exige interoperabilidad entre administraciones. Las normas que lo regulan en el ámbito estatal no están en el repositorio y no se han verificado en este tema."
+     ]
+    },
+    {
+     "titulo": "15. Ciclo de vida del software y entornos de trabajo",
+     "parrafos": [
+      "El software tiene un ciclo de vida: análisis de requisitos, diseño, desarrollo, pruebas, implantación y mantenimiento. El mantenimiento ocupa la mayor parte del coste en los sistemas de gestión, porque las normas y los procedimientos cambian y el sistema debe seguirlos.",
+      "Los cambios se trabajan en entornos separados: desarrollo, donde se programa; pruebas, donde se verifica; y producción, donde los usuarios trabajan con datos reales. Pasar de un entorno a otro con control evita que un error llegue a los ciudadanos.",
+      "Para un examen, la pregunta típica es por qué se separan los entornos. Respuesta: para probar los cambios sin afectar a los datos ni al servicio en producción."
+     ]
+    },
+    {
+     "titulo": "16. Datos, protección y calidad en la arquitectura",
+     "parrafos": [
+      "La arquitectura debe prever desde el diseño cómo se protegen los datos personales, quién accede a ellos y durante cuánto tiempo se conservan. Un sistema administrativo que trata datos de ciudadanos debe respetar la normativa de protección de datos, y el artículo 7.3 LAJA lo exige en las relaciones electrónicas con la Junta.",
+      "La calidad de los datos (exactitud, completitud, actualidad y coherencia entre sistemas) es una propiedad de la arquitectura tanto como del programa. Un dato duplicado en dos sistemas sin sincronización acaba siendo contradictorio.",
+      "Para un examen, la pregunta es si la protección de datos es un asunto del diseño. Respuesta: sí, debe incorporarse desde el diseño y no añadirse después; la norma concreta que lo regula (LOPDGDD) no se ha verificado en este tema."
+     ]
+    },
+    {
+     "titulo": "17. Tendencias actuales: servicios, virtualización y nube",
+     "parrafos": [
+      "Las organizaciones complejas tienden a arquitecturas orientadas a servicios (SOA), en las que las funciones se ofrecen como servicios reutilizables con interfaces definidas. Una evolución de esta idea son los microservicios, pequeños servicios desplegados de forma independiente.",
+      "La virtualización permite ejecutar varios sistemas en un mismo equipo físico, y los contenedores empaquetan una aplicación con sus dependencias. La computación en la nube ofrece recursos bajo demanda en modelos de infraestructura (IaaS), de plataforma (PaaS) y de software (SaaS), en nubes públicas, privadas o híbridas.",
+      "Para un examen, la diferencia entre IaaS, PaaS y SaaS es la pregunta típica. Respuesta: IaaS ofrece infraestructura; PaaS, una plataforma para desarrollar; SaaS, aplicaciones listas para usar."
+     ]
+    },
+    {
+     "titulo": "18. Otras tendencias: arquitectura orientada a eventos y datos masivos",
+     "parrafos": [
+      "La arquitectura orientada a eventos hace que los componentes reaccionen a sucesos publicados por otros, en lugar de llamarse directamente. Facilita la integración de sistemas, aunque exige gestionar la coherencia de los datos.",
+      "Los datos masivos (big data) y el internet de las cosas generan volúmenes de información que requieren almacenamiento y procesamiento distribuidos. El procesamiento en el borde (edge computing) acerca el cálculo a donde se generan los datos para reducir la latencia.",
+      "Para un examen, conviene asociar cada tendencia con su problema: integración (eventos), escala (datos masivos) y latencia (borde)."
+     ]
+    },
+    {
+     "titulo": "19. Seguridad, disponibilidad y continuidad",
+     "parrafos": [
+      "La seguridad de la información se resume en tres propiedades: confidencialidad, integridad y disponibilidad. Una arquitectura debe proteger los datos frente a accesos no autorizados, garantizar que no se alteren sin control y asegurar que el servicio esté disponible cuando se necesita.",
+      "La continuidad del servicio se apoya en la redundancia de componentes, las copias de seguridad y los planes de recuperación. La arquitectura en niveles ayuda a aislar fallos.",
+      "Para un examen, las tres propiedades son el núcleo de la seguridad. El esquema nacional de seguridad de la Administración electrónica exige aplicarlas, pero su texto no está en el repositorio y no se ha verificado en este tema."
+     ]
+    },
+    {
+     "titulo": "20. La administración electrónica en la Junta de Andalucía",
+     "parrafos": [
+      "El artículo 7 de la Ley 9/2007, de la Administración de la Junta de Andalucía (LAJA), establece que la aplicación de las tecnologías de la información a la Administración está orientada a mejorar su eficacia, aproximarla a la ciudadanía y agilizar la gestión administrativa (art. 7.1 LAJA).",
+      "El artículo 7.2 LAJA fija los principios de las relaciones a través de redes abiertas: simplificación y agilización de trámites, libre acceso, accesibilidad universal, confidencialidad, seguridad y autenticidad. El artículo 7.3 LAJA exige que se respete la normativa de protección de datos y de la sociedad de la información.",
+      "Para un examen, la pregunta típica es qué principios rigen las relaciones electrónicas de la Junta. Respuesta: simplificación, libre acceso, accesibilidad universal, confidencialidad, seguridad y autenticidad (art. 7.2 LAJA)."
+     ]
+    },
+    {
+     "titulo": "21. Relacionarse electrónicamente con la Administración",
+     "parrafos": [
+      "El artículo 14.1 LPAC reconoce a las personas físicas el derecho a elegir si se comunican con la Administración por medios electrónicos o no, salvo que estén obligadas a relacionarse electrónicamente. El medio elegido puede modificarse en cualquier momento.",
+      "El artículo 14.2 LPAC obliga a relacionarse por medios electrónicos, al menos, a las personas jurídicas, a las entidades sin personalidad, a quienes ejercen una profesión con colegiación obligatoria y a los representantes de los obligados, entre otros, para los trámites del procedimiento. Esa obligación condiciona el diseño de los sistemas de tramitación.",
+      "Para un examen, la diferencia es entre derecho a elegir (personas físicas en general) y obligación (sujetos señalados). El sistema debe admitir ambos."
+     ]
+    },
+    {
+     "titulo": "22. La actuación administrativa automatizada",
+     "parrafos": [
+      "El artículo 41.1 LRJSP define la actuación administrativa automatizada como cualquier acto o actuación realizada íntegramente por medios electrónicos en el marco de un procedimiento, sin intervención directa de un empleado público.",
+      "El artículo 41.2 LRJSP exige que, antes de la actuación automatizada, se establezcan los órganos competentes para definir las especificaciones, la programación, el mantenimiento, la supervisión, el control de calidad y, en su caso, la auditoría del sistema y de su código fuente.",
+      "Para un examen, la automatización no elimina la responsabilidad del órgano: debe estar prevista y tener órganos responsables de su especificación y control (art. 41.2 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "23. La arquitectura de la Junta de Andalucía",
+     "parrafos": [
+      "El tema pide referencia a la arquitectura informática de la Junta de Andalucía. Esa arquitectura se describe en documentos de planificación tecnológica y en la organización de sus centros de datos y redes corporativas, que no están en el repositorio ni se han verificado en este tema.",
+      "Lo que puede afirmarse con las normas verificadas es el marco: la Administración electrónica debe orientarse a la eficacia y a la accesibilidad (art. 7.1 LAJA), las relaciones electrónicas deben respetar la seguridad y la autenticidad (art. 7.2 LAJA), y la actuación automatizada necesita órganos responsables (art. 41.2 LRJSP).",
+      "Para un examen, cite la norma verificada y no describa la arquitectura de memoria. Antes de citar nombres de sistemas, redes o centros concretos, debe comprobarse la documentación oficial vigente."
+     ]
+    },
+    {
+     "titulo": "24. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir dato con información. El dato es el valor bruto; la información es el dato con significado en un contexto.",
+      "Afirmar que un programa puede ejecutarse sin estar en memoria principal. Para ejecutarse, debe cargarse en memoria principal.",
+      "Confundir LAN y WAN por la tecnología en lugar de por la extensión.",
+      "Pensar que cliente y servidor son siempre máquinas distintas. Son roles de procesos, y pueden coincidir en un mismo equipo.",
+      "Confundir IaaS, PaaS y SaaS. Cada modelo ofrece un nivel distinto del servicio en la nube.",
+      "Confundir el derecho a relacionarse electrónicamente con la obligación. La obligación se aplica a los sujetos del artículo 14.2 LPAC.",
+      "Confundir interoperabilidad con integración. La interoperabilidad es la capacidad de intercambiar información; la integración es la forma técnica de conectar los procesos.",
+      "Confundir la base de datos con el SGBD. La base contiene los datos; el SGBD es el software que los gestiona.",
+      "Pensar que la nube es siempre pública. Puede ser pública, privada o híbrida.",
+      "Confundir el software de sistema con el de aplicación. El sistema operativo es de sistema; el tramitador de expedientes, de aplicación."
+     ]
+    },
+    {
+     "titulo": "25. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué componentes integran un sistema informático? Hardware, software, datos, redes y personas, con sus procedimientos.",
+      "¿Qué diferencia la memoria principal del almacenamiento secundario? La memoria principal es volátil y rápida; el almacenamiento, permanente.",
+      "¿Qué modelo de arquitectura reparte la presentación, la lógica y los datos en tres niveles? El de tres capas.",
+      "¿Qué protocolo organiza la comunicación en Internet? El modelo TCP/IP, en capas.",
+      "¿Qué principios rigen las relaciones electrónicas de la Junta? Los del artículo 7.2 LAJA.",
+      "¿Qué órganos deben preverse antes de una actuación automatizada? Los responsables de especificaciones, programación, mantenimiento y supervisión (art. 41.2 LRJSP).",
+      "¿Por qué se separan los entornos de desarrollo, pruebas y producción? Para probar los cambios sin afectar a los datos ni al servicio que usan los ciudadanos.",
+      "¿Qué propiedades de seguridad de la información se citan siempre? Confidencialidad, integridad y disponibilidad."
+     ]
+    },
+    {
+     "titulo": "26. Casos prácticos",
+     "parrafos": [
+      "Caso 1: un tramitador de expedientes va lento porque cada consulta accede directamente a la base de datos desde el equipo de cada usuario. Una arquitectura en tres capas, con un servidor de aplicaciones que intermedie el acceso, permite centralizar la lógica y controlar el acceso.",
+      "Caso 2: una resolución se genera automáticamente a partir de datos de un registro, sin que ningún empleado la revise. Es una actuación administrativa automatizada: deben existir órganos responsables de su especificación y control (art. 41.2 LRJSP).",
+      "Caso 3: un ciudadano solicita relacionarse por papel con la Administración. Si es persona física y no está obligada a la vía electrónica, puede elegir el medio (art. 14.1 LPAC).",
+      "Caso 4: un sistema heredado no puede comunicarse con el nuevo tramitador. La solución es una capa de integración con servicios bien definidos, que mantiene la interoperabilidad sin reescribir el sistema antiguo."
+     ]
+    },
+    {
+     "titulo": "27. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema c14 sobre el procedimiento administrativo, porque los sistemas informáticos dan soporte a sus fases y plazos.",
+      "Se conecta con el tema c20 sobre función pública, porque el personal de la Junta usa y administra estos sistemas, y su régimen está en la Ley 5/2023.",
+      "Se conecta con el tema c21 sobre presupuesto, porque los sistemas de gestión económica registran las fases de ejecución del gasto (art. 52 bis LGHPA)."
+     ]
+    },
+    {
+     "titulo": "28. Claves para el examen",
+     "parrafos": [
+      "Conceptos: sistema informático como conjunto de hardware, software, datos, redes y personas.",
+      "Componentes y funcionamiento: CPU, memoria principal, almacenamiento secundario, buses; ciclo de entrada, proceso y salida.",
+      "Arquitecturas: centralizada, distribuida, cliente-servidor; niveles de presentación, lógica de negocio y datos; dos y tres capas.",
+      "Tendencias: SOA y microservicios, virtualización, contenedores, nube (IaaS, PaaS, SaaS), eventos, datos masivos y borde.",
+      "Derecho verificado: LAJA art. 7; LPAC art. 14; LRJSP art. 41. El resto de la arquitectura de la Junta no está verificado.",
+      "Entornos y ciclo de vida: desarrollo, pruebas y producción; el mantenimiento es la fase de mayor coste."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 9/2007, de la Administración de la Junta de Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19819",
+     "pdf": "leyes/BOE-A-2007-19819.pdf"
+    },
+    {
+     "nombre": "Ley 39/2015, del Procedimiento Administrativo Común (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+     "pdf": "leyes/BOE-A-2015-10565.pdf"
+    },
+    {
+     "nombre": "Ley 40/2015, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+     "pdf": "leyes/BOE-A-2015-10566.pdf"
     }
    ]
   },
