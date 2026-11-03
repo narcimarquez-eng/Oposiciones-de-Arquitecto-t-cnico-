@@ -8302,6 +8302,1164 @@ window.DATOS_ESTUDIO = {
      "pdf": "leyes/BOE-A-2017-12902.pdf"
     }
    ]
+  },
+  "e31": {
+   "resumen": [
+    {
+     "titulo": "Concepto y límites",
+     "puntos": [
+      "Los precios solo pueden revisarse de forma periódica y predeterminada; no cabe la revisión no periódica ni la no predeterminada, salvo excepciones de contratos no armonizados (art. 103.1 LCSP).",
+      "Precio es cualquier retribución o contraprestación económica del contrato, abonada por la Administración o por los usuarios (art. 103.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Procedencia",
+     "puntos": [
+      "La revisión periódica y predeterminada procede en los contratos de obra, de armamento, de suministro de energía y en los de recuperación de la inversión igual o superior a cinco años (art. 103.2 LCSP).",
+      "En otros contratos cabe, con justificación, si las materias primas, bienes intermedios y energía superan el 20 por ciento del presupuesto base; la revisión solo afecta a esa fracción (art. 103.2 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Costes no revisables",
+     "puntos": [
+      "No son revisables en ningún caso las amortizaciones, los costes financieros, los gastos generales o de estructura ni el beneficio industrial (art. 103.2 LCSP).",
+      "La mano de obra de contratos distintos de obra solo se revisa en los supuestos de recuperación de cinco años y uso significativo del factor trabajo (art. 103.2 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Pliego, fórmula y fecha de referencia",
+     "puntos": [
+      "El órgano de contratación puede establecer la revisión y su fórmula (art. 103.3 LCSP). El pliego debe detallar la fórmula, que es invariable durante la vigencia del contrato (art. 103.4 LCSP).",
+      "La fecha de referencia es la de formalización si se formaliza en tres meses desde el fin del plazo de ofertas; si no, la del fin de ese plazo de tres meses (art. 103.4 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Inicio de la revisión: 20 por ciento y un año",
+     "puntos": [
+      "La revisión se aplica cuando se ha ejecutado al menos el 20 por ciento del importe y ha transcurrido un año desde la formalización. El primer 20 por ciento y el importe del primer año quedan excluidos (art. 103.5 LCSP).",
+      "La condición del porcentaje no se exige en los contratos de concesión de servicios (art. 103.5 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Fórmulas tipo, índices y coeficiente",
+     "puntos": [
+      "El Consejo de Ministros puede aprobar fórmulas tipo, previo informe de la Junta Consultiva y de la Comisión Delegada; una vez aprobadas, no puede usarse otra diferente (art. 103.6 LCSP).",
+      "El INE elabora los índices mensuales, aprobados por orden ministerial. El coeficiente se obtiene con las ponderaciones y se aplica a los importes líquidos de las prestaciones realizadas (arts. 103.7 a 103.9 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Demora y pago",
+     "puntos": [
+      "En períodos de mora del contratista se aplican los índices de la fecha prevista, salvo que los del período real den un coeficiente inferior (art. 104 LCSP).",
+      "La revisión se paga de oficio, mediante abono o descuento en las certificaciones o pagos parciales. Los desajustes, en la certificación final o en la liquidación (art. 105 LCSP)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LCSP",
+     "rol": "Norma principal del tema (arts. 103 a 105)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 103.1 LCSP, ¿qué tipo de revisión de precios admite la ley con carácter general?",
+     "opciones": [
+      "Solo la revisión periódica y predeterminada",
+      "La revisión no periódica, a discreción del órgano de contratación",
+      "Cualquier revisión que pida el contratista",
+      "Ninguna, en ningún caso"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 103.1 LCSP solo admite la revisión periódica y predeterminada, salvo excepciones de contratos no armonizados.",
+     "referencia": "Art. 103.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 103.2 LCSP, ¿cuál de estos costes no es revisable en ningún caso?",
+     "opciones": [
+      "Los materiales de construcción",
+      "La energía consumida en obra",
+      "El beneficio industrial",
+      "La mano de obra"
+     ],
+     "correcta": 2,
+     "explicacion": "Las amortizaciones, los costes financieros, los gastos generales o de estructura y el beneficio industrial no son revisables en ningún caso.",
+     "referencia": "Art. 103.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 103.5 LCSP, ¿cuándo empieza a aplicarse la revisión periódica en un contrato de obra?",
+     "opciones": [
+      "Desde la formalización del contrato",
+      "Cuando se ha ejecutado al menos el 20 por ciento del importe y ha transcurrido un año desde la formalización",
+      "Cuando se recibe la obra",
+      "Desde el primer mes de ejecución"
+     ],
+     "correcta": 1,
+     "explicacion": "Se exigen ambas condiciones: el 20 por ciento ejecutado y un año desde la formalización. El primer 20 por ciento queda excluido.",
+     "referencia": "Art. 103.5 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 103.4 LCSP, ¿cuál es la fecha de referencia si la formalización se produce después de tres meses desde el fin del plazo de presentación de ofertas?",
+     "opciones": [
+      "La fecha de la adjudicación",
+      "La fecha de inicio de la obra",
+      "La fecha de recepción",
+      "La fecha en que termina ese plazo de tres meses"
+     ],
+     "correcta": 3,
+     "explicacion": "Si la formalización es posterior a esos tres meses, la referencia es la fecha en que termina el plazo de tres meses.",
+     "referencia": "Art. 103.4 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 103.6 LCSP, ¿qué ocurre con las fórmulas tipo ya aprobadas para un tipo de contrato?",
+     "opciones": [
+      "El órgano de contratación no puede incluir otra fórmula diferente en los pliegos y el contrato",
+      "Son orientativas: el órgano puede proponer otra",
+      "Solo se aplican a los contratos de suministro",
+      "Deben combinarse con otra fórmula"
+     ],
+     "correcta": 0,
+     "explicacion": "Cuando hay fórmula tipo aprobada para un tipo de contrato, el órgano de contratación no puede incluir una fórmula diferente.",
+     "referencia": "Art. 103.6 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 103.8 LCSP, ¿quién elabora los índices mensuales de los componentes básicos de costes y cómo se aprueban?",
+     "opciones": [
+      "El Comité Superior de Precios, por Real Decreto",
+      "La Junta Consultiva, por resolución",
+      "El órgano de contratación, en cada pliego",
+      "El Instituto Nacional de Estadística; se aprueban por orden ministerial"
+     ],
+     "correcta": 3,
+     "explicacion": "El INE elabora los índices, que se aprueban por Orden del Ministerio de Hacienda y Función Pública, previo informe del Comité Superior de Precios.",
+     "referencia": "Art. 103.8 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 104 LCSP, en un período de mora del contratista, ¿qué índices se aplican?",
+     "opciones": [
+      "Los más altos entre los dos períodos",
+      "Los de la fecha prevista en el contrato, salvo que los del período real den un coeficiente inferior",
+      "Los del período real, siempre",
+      "Ninguno: se suspende la revisión"
+     ],
+     "correcta": 1,
+     "explicacion": "Se aplican los índices de la fecha prevista, salvo que los del período real produzcan un coeficiente inferior, en cuyo caso se aplican estos.",
+     "referencia": "Art. 104 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 105 LCSP, ¿cómo se hace efectivo el importe de la revisión?",
+     "opciones": [
+      "De oficio, mediante abono o descuento en las certificaciones o pagos parciales",
+      "Previa solicitud del contratista en cada año",
+      "Solo en la liquidación final",
+      "Mediante un pago único al término de la obra"
+     ],
+     "correcta": 0,
+     "explicacion": "El importe se hace efectivo de oficio en las certificaciones o pagos parciales. Los desajustes pueden regularizarse en la certificación final o en la liquidación.",
+     "referencia": "Art. 105 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 103.2 LCSP, ¿cuándo puede admitirse la revisión en un contrato de servicios con período de recuperación inferior a cinco años?",
+     "opciones": [
+      "Nunca",
+      "Siempre, sin justificación",
+      "Con justificación en el expediente, si materias primas, bienes intermedios y energía superan el 20 por ciento del presupuesto base",
+      "Solo si el contrato se formaliza con el Estado"
+     ],
+     "correcta": 2,
+     "explicacion": "Cabe la revisión previa justificación, cuando la participación de materias primas, bienes intermedios y energía supera el 20 por ciento del presupuesto base. Entonces solo afecta a esa fracción.",
+     "referencia": "Art. 103.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 103.9 LCSP, ¿a qué importes se aplica el coeficiente de revisión?",
+     "opciones": [
+      "Al presupuesto base de licitación",
+      "Al beneficio industrial",
+      "A los pagos anticipados sin ejecución",
+      "A los importes líquidos de las prestaciones realizadas que tengan derecho a revisión"
+     ],
+     "correcta": 3,
+     "explicacion": "El coeficiente se aplica a los importes líquidos de las prestaciones realizadas con derecho a revisión, para calcular el precio que corresponde pagar.",
+     "referencia": "Art. 103.9 LCSP"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué es la revisión de precios",
+     "parrafos": [
+      "La revisión de precios es la actualización del precio del contrato para compensar la variación de los costes de ejecución durante su vigencia. Su objetivo es repartir el riesgo de las subidas de costes que el contratista no puede prever en el momento de ofertar, de forma que el precio sea razonable a lo largo de toda la obra.",
+      "El artículo 103.1 LCSP establece que los precios de los contratos del sector público solo podrán ser objeto de revisión periódica y predeterminada en los términos establecidos en el capítulo. Y añade que, salvo en los contratos no sujetos a regulación armonizada a los que se refiere el artículo 19.2, no cabe la revisión periódica no predeterminada ni la no periódica. Es decir, la revisión debe fijarse de antemano, con fórmula y periodicidad conocidas.",
+      "El mismo precepto define el precio como cualquier retribución o contraprestación económica del contrato, abonada por la Administración o por los usuarios. Para un examen, la clave es que la revisión es periódica y predeterminada, no discrecional."
+     ]
+    },
+    {
+     "titulo": "2. Procedencia: qué contratos pueden revisarse",
+     "parrafos": [
+      "El artículo 103.2 LCSP establece que la revisión periódica y predeterminada solo puede llevarse a cabo en los contratos de obra, en los de suministro de fabricación de armamento y equipamiento de las Administraciones Públicas, en los de suministro de energía y en aquellos en los que el período de recuperación de la inversión sea igual o superior a cinco años. Esta procedencia exige previa justificación en el expediente, y se calcula conforme al real decreto al que se refieren los artículos 4 y 5 de la Ley 2/2015, de desindexación de la economía española.",
+      "Para los contratos de obras la procedencia es la regla general. El artículo 103.2 deja fuera de la revisión, en todo caso, los costes asociados a las amortizaciones, los costes financieros, los gastos generales o de estructura y el beneficio industrial. Son partidas que se mantienen fijas en el precio.",
+      "En los demás contratos, el mismo precepto admite la revisión, previa justificación, aunque el período de recuperación de la inversión sea inferior a cinco años, siempre que la suma de la participación de las materias primas, bienes intermedios y energía en el presupuesto base supere el 20 por ciento. En ese caso, la revisión solo afecta a esa fracción del precio, y el pliego debe indicar el peso de cada materia con participación superior al 1 por ciento y su índice oficial."
+     ]
+    },
+    {
+     "titulo": "3. Límites de la revisión y costes de mano de obra",
+     "parrafos": [
+      "El artículo 103.2 LCSP distingue el coste de mano de obra según el tipo de contrato. En los contratos distintos de los de obra, de armamento o de suministro de energía, la mano de obra solo se revisa cuando el período de recuperación de la inversión sea igual o superior a cinco años y la intensidad en el uso del factor trabajo sea considerada significativa, según los supuestos y límites del real decreto. En los contratos de obra, la mano de obra forma parte de los componentes revisables en la forma que fije la fórmula.",
+      "El límite más importante es el de los costes no revisables. Una revisión que incluyera el beneficio industrial o los gastos generales estaría fuera de la ley. Para un examen, conviene recordar que el beneficio industrial, los gastos generales y las amortizaciones no se revisan, aunque sí se revisa el coste de los materiales y la mano de obra que integran la unidad de obra.",
+      "El artículo 103.10 LCSP advierte que lo establecido en el artículo sobre revisión, y en la Ley 2/2015, se entiende sin perjuicio de mantener el equilibrio económico en las circunstancias previstas en los artículos 270 y 290, que se refieren a las concesiones. No es una vía general para la obra, sino una cautela para otros tipos de contrato."
+     ]
+    },
+    {
+     "titulo": "4. El pliego y la fórmula de revisión",
+     "parrafos": [
+      "El artículo 103.3 LCSP permite al órgano de contratación establecer el derecho a la revisión periódica y predeterminada y fijar la fórmula aplicable, atendiendo a la naturaleza del contrato y a la estructura y evolución de sus costes. La decisión de revisar es del órgano de contratación, dentro de los supuestos de procedencia.",
+      "El artículo 103.4 LCSP exige que el pliego de cláusulas administrativas particulares detalle la fórmula. Esa fórmula es invariable durante la vigencia del contrato, y determina la revisión en cada fecha respecto a la fecha de formalización. Si la formalización se produce en los tres meses desde la finalización del plazo de presentación de ofertas, la referencia es la fecha de formalización; si es posterior, la referencia es la fecha en que termine ese plazo de tres meses.",
+      "Para un examen, la regla es que la fórmula no cambia durante el contrato y que su fecha de referencia es la de formalización o, en su caso, el final del plazo de tres meses."
+     ]
+    },
+    {
+     "titulo": "5. Cuándo se empieza a revisar: el 20 por ciento y el año",
+     "parrafos": [
+      "El artículo 103.5 LCSP fija cuándo la revisión periódica y predeterminada se aplica en los contratos del sector público, salvo los de suministro de energía. Debe haberse ejecutado al menos el 20 por ciento del importe del contrato y haber transcurrido un año desde la formalización.",
+      "La consecuencia es que el primer 20 por ciento ejecutado y el importe ejecutado en el primer año quedan excluidos de la revisión. El precepto añade que esta condición del porcentaje no se exige en los contratos de concesión de servicios.",
+      "Para un examen, este es un caso típico. Si un contrato de obra de 1.000.000 de euros se formaliza el 1 de marzo y en el primer año se ejecutan 150.000 euros, la revisión no es exigible hasta que se cumplan ambas condiciones: el 20 por ciento ejecutado (200.000 euros) y el año transcurrido."
+     ]
+    },
+    {
+     "titulo": "6. Fórmulas tipo y componentes de coste",
+     "parrafos": [
+      "El artículo 103.6 LCSP permite al Consejo de Ministros aprobar fórmulas tipo de revisión periódica y predeterminada para los contratos del apartado 2, previo informe de la Junta Consultiva de Contratación Pública del Estado y de la Comisión Delegada del Gobierno para Asuntos Económicos. El Comité Superior de Precios de Contratos del Estado determina las actividades donde conviene una fórmula tipo, elabora las fórmulas y las remite para su aprobación.",
+      "Cuando para un tipo de contrato se hayan aprobado fórmulas tipo, el órgano de contratación no puede incluir en los pliegos y en el contrato otra fórmula diferente (art. 103.6 LCSP). Esta es una regla de uniformidad que conviene recordar en un examen.",
+      "El artículo 103.7 LCSP dice que las fórmulas tipo reflejan la ponderación en el precio del contrato de los componentes básicos de costes del proceso de generación de la prestación. Los componentes básicos incluyen, según la fórmula aplicable, materiales y energía; la relación de componentes se fija reglamentariamente (art. 103.8 LCSP)."
+     ]
+    },
+    {
+     "titulo": "7. Índices oficiales y coeficiente de revisión",
+     "parrafos": [
+      "El artículo 103.8 LCSP encarga al Instituto Nacional de Estadística la elaboración de los índices mensuales de los precios de los componentes básicos de costes incluidos en las fórmulas tipo. Los índices se aprueban por Orden del Ministerio de Hacienda y Función Pública, previo informe del Comité Superior de Precios de Contratos del Estado. Reflejan, al alza o a la baja, las variaciones reales de los precios de la energía y los materiales básicos observados en el mercado, y pueden ser únicos para todo el territorio nacional o particularizarse por zonas.",
+      "El artículo 103.9 LCSP explica cómo se obtiene el resultado. Aplicando las ponderaciones del apartado 7 a los índices del apartado 8, se obtiene en cada fecha, respecto a la fecha y períodos del apartado 4, un coeficiente. Ese coeficiente se aplica a los importes líquidos de las prestaciones realizadas que tengan derecho a revisión, para calcular el precio que corresponde pagar.",
+      "Para un examen, la secuencia es: componentes con ponderación, índices del INE, coeficiente de revisión y, por último, importe líquido de la prestación realizada multiplicado por el coeficiente."
+     ]
+    },
+    {
+     "titulo": "8. Relación de materiales básicos y fórmulas-tipo generales",
+     "parrafos": [
+      "El temario recoge la relación de materiales básicos y las fórmulas-tipo generales de revisión de precios de los contratos de obras. El artículo 103.8 LCSP prevé que la relación de componentes básicos se establezca reglamentariamente, y que pueda ampliarse por orden ministerial cuando la evolución de los procesos productivos o la aparición de nuevos materiales lo exija.",
+      "La relación concreta de materiales básicos y las fórmulas-tipo generales se aprueban en el real decreto de desarrollo, que no está en el repositorio y que no se ha verificado para este desarrollo. Antes de citar una fórmula en un examen, debe comprobarse el texto vigente y la fecha de aprobación de los índices.",
+      "Para un examen, lo que sí puede afirmarse con el texto de la ley es el principio: la fórmula tipo, cuando existe, es la única aplicable, y los índices son los del INE aprobados por orden ministerial."
+     ]
+    },
+    {
+     "titulo": "9. Revisión en casos de demora en la ejecución",
+     "parrafos": [
+      "El artículo 104 LCSP regula el caso en que la cláusula de revisión se aplica a períodos en los que el contratista ha incurrido en mora. Sin perjuicio de las penalidades procedentes, los índices que se tienen en cuenta son los que habrían correspondido a las fechas previstas en el contrato para realizar la prestación en plazo.",
+      "Hay una excepción: si los índices del período real de ejecución producen un coeficiente inferior, se aplican estos últimos. En la práctica, si los precios han subido durante la mora, se aplican los índices de la fecha prevista, que son más bajos, y el contratista no se beneficia de su retraso. Si han bajado, se aplican los índices reales, que dan el coeficiente inferior.",
+      "Para un examen, la regla es que se aplica el menor de los dos coeficientes, el de la fecha prevista o el del período real. Esta regla es distinta de la penalidad por demora, que se regula en el artículo 193 LCSP (tema e29)."
+     ]
+    },
+    {
+     "titulo": "10. Pago del importe de la revisión",
+     "parrafos": [
+      "El artículo 105 LCSP establece que el importe de las revisiones se hace efectivo, de oficio, mediante el abono o el descuento correspondiente en las certificaciones o pagos parciales. No es necesario que el contratista lo solicite: la Administración debe incorporarlo a los pagos.",
+      "Los posibles desajustes respecto del expediente de gasto aprobado en el ejercicio, por ejemplo los derivados de diferencias temporales en la aprobación de los índices, se pueden hacer efectivos en la certificación final o en la liquidación del contrato.",
+      "Para un examen, la pregunta típica es cómo se paga la revisión. Respuesta: de oficio, en las certificaciones o pagos parciales; y las diferencias, en la certificación final o en la liquidación."
+     ]
+    },
+    {
+     "titulo": "11. Cobertura financiera y tramitación del gasto",
+     "parrafos": [
+      "El artículo 105 LCSP también regula la cobertura financiera. A comienzo del ejercicio económico debe tramitarse el oportuno expediente de gasto para cubrir las revisiones que se prevean en el ejercicio. Ese expediente da la cobertura presupuestaria que la ley exige para las revisiones previstas en el ejercicio.",
+      "La tramitación de los expedientes de revisión en la práctica sigue el régimen de la contabilidad presupuestaria y de los procedimientos internos de cada Administración. El texto de la LCSP no detalla los pasos de la tramitación, por lo que este punto debe estudiarse en la normativa de desarrollo y en las instrucciones internas, que no se han verificado para este desarrollo.",
+      "Para un examen, conviene recordar la conexión con el presupuesto: el expediente de gasto cubre la previsión, y los desajustes se regularizan después, en la certificación final o en la liquidación."
+     ]
+    },
+    {
+     "titulo": "12. Procedimiento de la revisión, paso a paso",
+     "parrafos": [
+      "Para estudiar el procedimiento conviene seguir la secuencia de la ley. Primero, el pliego debe prever la revisión y la fórmula (art. 103.3 y 103.4 LCSP). Después, debe cumplirse el requisito del 20 por ciento ejecutado y del año desde la formalización (art. 103.5 LCSP).",
+      "En cada certificación, el coeficiente resultante se aplica a los importes líquidos de las prestaciones realizadas (art. 103.9 LCSP). El importe de la revisión se abona o se descuenta de oficio en la certificación (art. 105 LCSP).",
+      "Los detalles procedimentales, como la forma de cálculo en cada certificación, la documentación de soporte o los plazos internos, no están en el texto de la LCSP y deben comprobarse en la normativa de desarrollo antes de citarlos."
+     ]
+    },
+    {
+     "titulo": "13. Práctica de la revisión: un ejemplo ilustrativo",
+     "parrafos": [
+      "Supóngase una obra cuyo pliego establece una fórmula en la que el 15 por ciento del precio es fijo y el 85 por ciento variable, con los índices de materiales y de mano de obra del INE. Si, para una certificación, el índice ponderado sube un 4 por ciento respecto a la fecha de referencia, el coeficiente de revisión es 1,034. Sobre un importe líquido de 100.000 euros de obra certificada, la revisión sería de 3.400 euros.",
+      "Este ejemplo es ilustrativo y no corresponde a ninguna fórmula oficial. Lo que se pretende es mostrar el mecanismo: la parte fija no se revisa, la parte variable sí, y la revisión se calcula sobre el importe líquido de lo ejecutado.",
+      "Para un examen, el ejercicio típico pide la lógica del cálculo y el orden de aplicación. El dato numérico debe coincidir con la fórmula del pliego, que es la que manda."
+     ]
+    },
+    {
+     "titulo": "14. Cómo se lee una fórmula de revisión en el pliego",
+     "parrafos": [
+      "Un pliego bien redactado indica el contrato al que se aplica la revisión, la fórmula con sus componentes y ponderaciones, los índices de referencia y su fuente oficial, la fecha base y la periodicidad. Esos son los datos que el órgano de contratación fija al amparo de los artículos 103.3 y 103.4 LCSP.",
+      "La fecha base es un dato clave. Según el artículo 103.4 LCSP, la referencia es la fecha de formalización o, si esta es posterior a los tres meses desde el fin del plazo de presentación de ofertas, la fecha en que termine ese plazo. Si la fecha base se tomara de otro momento, el coeficiente resultante sería distinto, y la fórmula no puede cambiar durante el contrato porque es invariable.",
+      "Para un examen, al leer una fórmula hay que comprobar tres cosas: que las ponderaciones correspondan a la parte revisable del precio, que los índices sean los oficiales del INE aprobados por orden ministerial, y que la fecha base coincida con la del artículo 103.4. Si falta alguna, la cláusula no cumple la ley."
+     ]
+    },
+    {
+     "titulo": "15. La revisión en la certificación mensual: la secuencia",
+     "parrafos": [
+      "En la práctica, cada certificación mensual recoge el importe líquido de la obra ejecutada en el mes. Sobre ese importe se aplica el coeficiente de revisión del mes, calculado con los índices del mes y la fecha base (art. 103.9 LCSP). La revisión se refleja como abono o descuento en la misma certificación (art. 105 LCSP).",
+      "El artículo 105 LCSP prevé que las diferencias temporales en la aprobación de los índices se regularicen después, en la certificación final o en la liquidación. Por tanto, la revisión de cada certificación tiene la misma naturaleza provisional que el abono a cuenta del que se habla en el tema e30, y queda sujeta a la regularización final.",
+      "Para un examen, la secuencia mensual es: importe líquido del mes, coeficiente del mes, abono o descuento en la certificación y regularización final si hay desajustes."
+     ]
+    },
+    {
+     "titulo": "16. Revisión y modificación del contrato: una frontera importante",
+     "parrafos": [
+      "La revisión de precios y la modificación del contrato son figuras distintas. La revisión actualiza el precio por la variación de costes, con la fórmula del pliego. La modificación cambia la prestación o su cuantía por razones de interés público (art. 203 LCSP, tema e32).",
+      "El artículo 203.1 LCSP expresa esta diferencia: la potestad de modificar el contrato se entiende sin perjuicio de los supuestos de revisión de precios y ampliación del plazo de ejecución, que tienen régimen propio. Una subida de precios no es una modificación, aunque ambas afecten al importe final.",
+      "Para un examen, la pregunta es si una subida de costes del hormigón es modificación. Respuesta: no. Si el pliego prevé revisión y se cumplen sus requisitos, es revisión; si no, el contratista no puede reclamar la subida, por el riesgo y ventura (art. 197 LCSP, tema e30)."
+     ]
+    },
+    {
+     "titulo": "17. Errores frecuentes en el examen",
+     "parrafos": [
+      "Afirmar que la revisión puede ser no periódica o discrecional. El artículo 103.1 LCSP solo admite la revisión periódica y predeterminada, salvo excepciones de contratos no armonizados.",
+      "Olvidar el requisito del 20 por ciento ejecutado y del año desde la formalización (art. 103.5 LCSP).",
+      "Revisar el beneficio industrial, los gastos generales o las amortizaciones (art. 103.2 LCSP).",
+      "Confundir la revisión con la modificación. La revisión actualiza el precio con la fórmula del pliego; la modificación cambia la prestación.",
+      "Pensar que la demora del contratista le da derecho a índices más altos. Se aplica el coeficiente menor entre el de la fecha prevista y el del período real (art. 104 LCSP)."
+     ]
+    },
+    {
+     "titulo": "18. Casos prácticos",
+     "parrafos": [
+      "Caso 1: un contrato de obra de 2.000.000 de euros se formaliza el 1 de abril de 2026. La revisión solo es exigible cuando se haya ejecutado al menos el 20 por ciento, es decir 400.000 euros, y haya transcurrido un año desde la formalización (art. 103.5 LCSP). Hasta entonces, los pagos se hacen a precio sin revisión.",
+      "Caso 2: el contratista lleva dos meses de mora. Los índices de revisión de esos meses se toman como los que correspondían a la fecha prevista en el contrato, salvo que el coeficiente real sea inferior (art. 104 LCSP).",
+      "Caso 3: al cerrar el ejercicio, la revisión pagada supera la prevista en el expediente de gasto por una diferencia temporal en la aprobación de los índices. La diferencia se regulariza en la certificación final o en la liquidación (art. 105 LCSP)."
+     ]
+    },
+    {
+     "titulo": "19. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema e27, porque los precios unitarios y el presupuesto base son la referencia de la fórmula de revisión. Se conecta con el tema e30, porque la revisión se aplica en las certificaciones y su pago sigue el régimen de los abonos.",
+      "Se conecta con el tema e32 sobre modificación, porque las modificaciones alteran la cuantía sobre la que se aplica la revisión, y con el tema e29 sobre la demora, porque el artículo 104 relaciona la revisión con los retrasos imputables al contratista.",
+      "Para un examen, la síntesis: el precio se revisa con una fórmula fijada de antemano; la modificación cambia la prestación; y los dos temas se encuentran en las certificaciones."
+     ]
+    },
+    {
+     "titulo": "20. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué clase de revisión admite la LCSP? Solo la periódica y predeterminada, salvo excepciones de contratos no armonizados (art. 103.1 LCSP).",
+      "¿Se puede revisar el beneficio industrial? No. Las amortizaciones, los costes financieros, los gastos generales y el beneficio industrial no son revisables (art. 103.2 LCSP).",
+      "¿Cuándo empieza la revisión en un contrato de obra? Cuando se ha ejecutado al menos el 20 por ciento del importe y ha transcurrido un año desde la formalización (art. 103.5 LCSP).",
+      "¿Qué fórmula se aplica si hay fórmula tipo aprobada? No puede incluirse otra diferente en los pliegos y el contrato (art. 103.6 LCSP).",
+      "¿Quién elabora los índices mensuales? El Instituto Nacional de Estadística, aprobados por orden ministerial (art. 103.8 LCSP).",
+      "¿Cómo se paga la revisión? De oficio, en las certificaciones o pagos parciales; los desajustes, en la certificación final o en la liquidación (art. 105 LCSP).",
+      "¿Puede admitirse la revisión en un contrato de servicios con período de recuperación inferior a cinco años? Sí, previa justificación en el expediente, si las materias primas, bienes intermedios y energía superan el 20 por ciento del presupuesto base. En ese caso, la revisión solo afecta a esa fracción del precio (art. 103.2 LCSP).",
+      "¿Desde cuándo se cuenta la fecha de referencia si la formalización es tardía? Desde la fecha en que termina el plazo de tres meses contados desde la finalización del plazo de presentación de ofertas (art. 103.4 LCSP).",
+      "¿Qué índices se aplican si la obra se ejecuta con demora imputable al contratista? Los de la fecha prevista en el contrato, salvo que los del período real produzcan un coeficiente inferior (art. 104 LCSP)."
+     ]
+    },
+    {
+     "titulo": "21. Claves para el examen",
+     "parrafos": [
+      "Procedencia: obras siempre; otros contratos con período de recuperación de cinco años o más, o con materias primas por encima del 20 por ciento (art. 103.2 LCSP).",
+      "Límites: no se revisan amortizaciones, costes financieros, gastos generales ni beneficio industrial (art. 103.2 LCSP).",
+      "Fórmula: fija en el pliego, invariable, con referencia a la formalización o al final del plazo de tres meses (art. 103.3 y 103.4 LCSP).",
+      "Cuándo: 20 por ciento ejecutado y un año desde la formalización (art. 103.5 LCSP).",
+      "Índices: INE, aprobados por orden ministerial; coeficiente aplicado al importe líquido de lo ejecutado (art. 103.8 y 103.9 LCSP).",
+      "Demora: índices de la fecha prevista, salvo que el real dé un coeficiente inferior (art. 104 LCSP).",
+      "Pago: de oficio en las certificaciones; desajustes en la certificación final o en la liquidación (art. 105 LCSP)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 9/2017, de Contratos del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+     "pdf": "leyes/BOE-A-2017-12902.pdf"
+    }
+   ]
+  },
+  "e32": {
+   "resumen": [
+    {
+     "titulo": "Potestad y vías de modificación",
+     "puntos": [
+      "Los contratos administrativos solo pueden modificarse por razones de interés público, en los casos y forma de la ley, con el procedimiento del artículo 191 (art. 203.1 LCSP).",
+      "Solo caben tres vías: lo previsto en el pliego (art. 204), la modificación no prevista que cumple los requisitos del artículo 205, o la resolución y un nuevo contrato (art. 203.2 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Modificaciones previstas en el pliego",
+     "puntos": [
+      "Hasta el 20 por ciento del precio inicial, si el pliego lo advierte de forma clara, precisa e inequívoca (art. 204.1 LCSP).",
+      "La cláusula debe fijar alcance, límites, condiciones objetivas y procedimiento, y no puede establecer nuevos precios unitarios (art. 204.1.b LCSP). No puede alterar la naturaleza global del contrato (art. 204.2 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Modificaciones no previstas: requisitos y supuestos",
+     "puntos": [
+      "Deben justificarse en uno de los supuestos del artículo 205.2 y limitarse a las variaciones estrictamente indispensables (art. 205.1 LCSP).",
+      "Supuestos: prestaciones adicionales (cambio de contratista imposible y alteración no superior al 50 por ciento); circunstancias imprevisibles (sin alterar la naturaleza global, y con tope del 50 por ciento); y modificaciones no sustanciales, con justificación especial (art. 205.2 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Modificación sustancial",
+     "puntos": [
+      "Es sustancial la que da lugar a un contrato de naturaleza materialmente diferente, o la que cumple alguna condición de los tres supuestos del artículo 205.2.c (art. 205.2.c LCSP).",
+      "Umbrales: unidades de obra nuevas por más del 50 por ciento del presupuesto inicial; alteración de cuantía superior al 15 por ciento en obras, o al 10 por ciento en otros contratos (art. 205.2.c LCSP)."
+     ]
+    },
+    {
+     "titulo": "Obligatoriedad y resolución",
+     "puntos": [
+      "Son obligatorias para el contratista si la alteración de cuantía no excede el 20 por ciento del precio inicial, IVA excluido (art. 206.1 LCSP). Por encima, se necesita su conformidad por escrito (art. 206.2 LCSP).",
+      "La modificación que no se ajusta a los artículos 204 y 205 da lugar a resolución (art. 212.2 LCSP). Y la alteración de precio superior al 20 por ciento es causa de resolución (art. 211.1.g LCSP). En ese caso el contratista tiene un 3 por ciento de indemnización (art. 213.4 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Procedimiento y publicidad",
+     "puntos": [
+      "Antes de modificar, audiencia al redactor del proyecto si fue un tercero ajeno, por plazo no inferior a tres días (art. 207.2 LCSP).",
+      "Publicación en el perfil de contratante en cinco días desde la aprobación, con alegaciones e informes; en el DOUE en los casos armonizados de los apartados a) y b) del artículo 205.2 (art. 207.3 LCSP). Formalización conforme al artículo 153 (art. 203.3 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Modificación de proyecto y unidades no previstas en obra",
+     "puntos": [
+      "El director facultativo propone la modificación del proyecto, con autorización previa del órgano de contratación y audiencia del contratista y del redactor por tres días (art. 242.4 LCSP).",
+      "Las unidades no previstas se pagan a precio fijado por la Administración, previa audiencia de tres días hábiles. Si el contratista no acepta, puede contratarse con otro, ejecutarse directamente o resolver (art. 242.2 LCSP).",
+      "La supresión o reducción de unidades no da derecho a indemnización (art. 242.1 LCSP). El exceso de mediciones dentro del 10 por ciento no es modificación (art. 242.4.i LCSP)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LCSP",
+     "rol": "Norma principal del tema (arts. 29, 203 a 207, 211 a 213 y 242)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 204.1 LCSP, ¿hasta qué porcentaje del precio inicial puede modificarse un contrato si el pliego lo prevé?",
+     "opciones": [
+      "El 10 por ciento",
+      "El 50 por ciento",
+      "El 20 por ciento",
+      "Sin límite"
+     ],
+     "correcta": 2,
+     "explicacion": "Las modificaciones previstas en el pliego pueden llegar hasta el 20 por ciento del precio inicial, con cláusula clara, precisa e inequívoca.",
+     "referencia": "Art. 204.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 205.2.c LCSP, ¿cuándo se considera sustancial una modificación por la introducción de unidades de obra nuevas?",
+     "opciones": [
+      "Cuando superan el 10 por ciento del presupuesto",
+      "Cuando su importe supera el 50 por ciento del presupuesto inicial del contrato",
+      "Cuando superan el 20 por ciento del presupuesto",
+      "Nunca es sustancial"
+     ],
+     "correcta": 1,
+     "explicacion": "Se considera sustancial cuando se introducen unidades de obra nuevas cuyo importe supera el 50 por ciento del presupuesto inicial, en el supuesto de alteración del equilibrio económico.",
+     "referencia": "Art. 205.2.c LCSP"
+    },
+    {
+     "pregunta": "Según el art. 206.1 LCSP, ¿cuándo es obligatoria una modificación para el contratista?",
+     "opciones": [
+      "Siempre, aunque supere cualquier porcentaje",
+      "Nunca, sin excepciones",
+      "Cuando la alteración de cuantía no excede del 20 por ciento del precio inicial, IVA excluido",
+      "Cuando el precio supera los seis millones de euros"
+     ],
+     "correcta": 2,
+     "explicacion": "La modificación es obligatoria para el contratista cuando la alteración de cuantía no excede del 20 por ciento del precio inicial, IVA excluido.",
+     "referencia": "Art. 206.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 206.2 LCSP y el art. 211.1.g LCSP, ¿qué ocurre si una modificación supera el 20 por ciento y el contratista no da su conformidad por escrito?",
+     "opciones": [
+      "Se impone la modificación sin más trámite",
+      "Se reduce la modificación al 20 por ciento",
+      "Se suspende el contrato indefinidamente",
+      "El contrato se resuelve"
+     ],
+     "correcta": 3,
+     "explicacion": "Sin conformidad escrita, la modificación solo puede acordarse con ella; si no la hay, el contrato se resuelve conforme al artículo 211.1.g LCSP.",
+     "referencia": "Art. 206.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 207.3 LCSP, ¿dónde y en qué plazo debe publicarse un anuncio de modificación?",
+     "opciones": [
+      "En el BOE, en un mes",
+      "En el perfil de contratante, en cinco días desde la aprobación",
+      "En el registro mercantil, en diez días",
+      "No es obligatorio publicarla"
+     ],
+     "correcta": 1,
+     "explicacion": "El anuncio de modificación debe publicarse en el perfil de contratante en el plazo de cinco días desde su aprobación, con las alegaciones y los informes.",
+     "referencia": "Art. 207.3 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 207.2 LCSP, ¿qué audiencia previa se exige antes de modificar el contrato?",
+     "opciones": [
+      "La del redactor del proyecto, si lo redactó un tercero ajeno al órgano de contratación, por plazo no inferior a tres días",
+      "La de la Intervención, por quince días",
+      "La de los usuarios del servicio, por un mes",
+      "Ninguna audiencia"
+     ],
+     "correcta": 0,
+     "explicacion": "Antes de modificar, debe darse audiencia al redactor del proyecto o de las especificaciones técnicas, si lo preparó un tercero ajeno, por un plazo no inferior a tres días.",
+     "referencia": "Art. 207.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 242.2 LCSP, ¿quién fija el precio de las unidades de obra no previstas en el proyecto?",
+     "opciones": [
+      "El contratista, de común acuerdo",
+      "La Administración, previa audiencia del contratista por plazo mínimo de tres días hábiles",
+      "El director facultativo, sin audiencia",
+      "Un perito independiente designado por el juez"
+     ],
+     "correcta": 1,
+     "explicacion": "Los precios los fija la Administración, con audiencia previa del contratista por plazo mínimo de tres días hábiles.",
+     "referencia": "Art. 242.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 242.1 LCSP, ¿qué ocurre si una modificación supone supresión o reducción de unidades de obra?",
+     "opciones": [
+      "El contratista tiene derecho a indemnización total",
+      "El contratista no tiene derecho a reclamar indemnización alguna",
+      "La Administración paga el 50 por ciento del importe suprimido",
+      "El contrato se resuelve automáticamente"
+     ],
+     "correcta": 1,
+     "explicacion": "La supresión o reducción de unidades de obra no da derecho a indemnización alguna al contratista.",
+     "referencia": "Art. 242.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 213.4 LCSP, ¿cuánto es la indemnización del contratista cuando la resolución se acuerda por la causa de la letra g) del artículo 211.1?",
+     "opciones": [
+      "El 1 por ciento de la prestación dejada de realizar",
+      "El 3 por ciento del importe de la prestación dejada de realizar",
+      "El 6 por ciento del precio de adjudicación",
+      "No hay indemnización en ningún caso"
+     ],
+     "correcta": 1,
+     "explicacion": "El contratista tiene derecho a una indemnización del 3 por ciento del importe de la prestación dejada de realizar, salvo que la causa le sea imputable o rechace la modificación.",
+     "referencia": "Art. 213.4 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 205.2.a LCSP, ¿cuál es el límite de alteración de cuantía en el supuesto de prestaciones adicionales?",
+     "opciones": [
+      "El 10 por ciento del precio inicial",
+      "El 20 por ciento del precio inicial",
+      "El 50 por ciento del precio inicial, IVA excluido",
+      "No existe límite"
+     ],
+     "correcta": 2,
+     "explicacion": "En las prestaciones adicionales, la alteración de cuantía no puede exceder del 50 por ciento del precio inicial, IVA excluido, aislada o conjuntamente con otras modificaciones.",
+     "referencia": "Art. 205.2.a LCSP"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. La potestad de modificar el contrato",
+     "parrafos": [
+      "La modificación del contrato es la alteración de su prestación o de su cuantía durante la vigencia del contrato. El artículo 203.1 LCSP establece que los contratos administrativos solo pueden modificarse por razones de interés público, en los casos y en la forma previstos en la subsección, y de acuerdo con el procedimiento del artículo 191, con las particularidades del artículo 207.",
+      "El mismo precepto deja a salvo los supuestos de sucesión del contratista, cesión del contrato, revisión de precios y ampliación del plazo de ejecución, que tienen su propio régimen. Una revisión de precios no es una modificación, como se vio en el tema e31.",
+      "El artículo 203.2 LCSP limita las vías. Un contrato solo puede modificarse cuando el pliego lo prevea (art. 204) o, excepcionalmente, cuando la modificación no prevista cumpla las condiciones del artículo 205. En cualquier otro caso, si es necesario ejecutar el contrato de forma distinta a la pactada, debe resolverse y celebrarse otro, con nueva licitación si procede."
+     ]
+    },
+    {
+     "titulo": "2. Modificaciones previstas en el pliego",
+     "parrafos": [
+      "El artículo 204.1 LCSP admite modificar el contrato durante su vigencia hasta un máximo del 20 por ciento del precio inicial, cuando el pliego de cláusulas administrativas particulares lo advierta expresamente. La cláusula debe estar formulada de forma clara, precisa e inequívoca, y detallar el alcance, los límites y la naturaleza de la modificación, las condiciones de uso por referencia a circunstancias verificables de forma objetiva, y el procedimiento a seguir.",
+      "La cláusula debe establecer además que la modificación no puede suponer el establecimiento de nuevos precios unitarios no previstos en el contrato (art. 204.1.b LCSP). Este punto es importante en la práctica: lo que se modifica son unidades ya previstas, no precios nuevos sin procedimiento.",
+      "El artículo 204.2 LCSP impide prever en el pliego modificaciones que alteren la naturaleza global del contrato. Se entiende que la altera la sustitución de las obras por otras diferentes o el cambio del tipo de contrato, pero no la sustitución de una unidad de obra puntual."
+     ]
+    },
+    {
+     "titulo": "3. Modificaciones no previstas: los requisitos generales",
+     "parrafos": [
+      "El artículo 205.1 LCSP regula las modificaciones no previstas en el pliego, o previstas pero que no se ajustan al artículo 204. Solo pueden realizarse si cumplen dos requisitos. El primero, que encuentren justificación en alguno de los supuestos del apartado 2. El segundo, que se limiten a introducir las variaciones estrictamente indispensables para responder a la causa objetiva que las hace necesarias.",
+      "La regla de la indispensabilidad impide aprovechar una modificación para cambiar más de lo necesario. Para un examen, la pregunta típica es si la modificación puede ser mayor que la causa que la justifica. La respuesta es que no: debe limitarse a lo estrictamente indispensable.",
+      "Los supuestos que justifican una modificación no prevista son tres: prestaciones adicionales, circunstancias sobrevenidas e imprevisibles, y modificaciones no sustanciales. Cada uno tiene sus condiciones propias, que se estudian en el apartado siguiente."
+     ]
+    },
+    {
+     "titulo": "4. Los tres supuestos justificativos",
+     "parrafos": [
+      "El primer supuesto, del artículo 205.2.a LCSP, es añadir obras, suministros o servicios adicionales cuando el cambio de contratista no sea posible por razones económicas o técnicas, y además el cambio generara inconvenientes significativos o un aumento sustancial de costes. Y la alteración de cuantía no puede exceder, aislada o conjuntamente, del 50 por ciento del precio inicial, IVA excluido. La ley precisa que la necesidad de una nueva licitación no es, por sí sola, un inconveniente significativo.",
+      "El segundo supuesto, del artículo 205.2.b LCSP, son las circunstancias sobrevenidas e imprevisibles en el momento de la licitación, siempre que la necesidad derive de circunstancias que una Administración diligente no hubiera podido prever, la modificación no altere la naturaleza global del contrato, y la alteración de cuantía no exceda del 50 por ciento del precio inicial.",
+      "El tercer supuesto, del artículo 205.2.c LCSP, son las modificaciones no sustanciales. En este caso debe justificarse especialmente la necesidad, indicando por qué las prestaciones no se incluyeron en el contrato inicial. La no sustancialidad se define por la ausencia de los supuestos de sustancialidad que enumera el propio precepto."
+     ]
+    },
+    {
+     "titulo": "5. Cuándo una modificación es sustancial",
+     "parrafos": [
+      "El artículo 205.2.c LCSP considera que una modificación es sustancial cuando tiene como resultado un contrato de naturaleza materialmente diferente al celebrado. En todo caso, lo es cuando se da alguna de tres condiciones.",
+      "La primera: la modificación introduce condiciones que, de haber figurado en la licitación inicial, habrían permitido seleccionar otros candidatos, aceptar una oferta distinta o atraer a más participantes. En todo caso se da cuando la obra resultante, más la modificación, requiere una clasificación del contratista diferente a la exigida en la licitación original.",
+      "La segunda: la modificación altera el equilibrio económico del contrato en beneficio del contratista de manera no prevista. En todo caso se da cuando se introducen unidades de obra nuevas cuyo importe supera el 50 por ciento del presupuesto inicial del contrato.",
+      "La tercera: la modificación amplía de forma importante el ámbito del contrato. Se considera que existe cuando la alteración de cuantía supera el 15 por ciento del precio inicial, IVA excluido, en el caso de obras, o el 10 por ciento en los demás contratos, o supera el umbral de aplicación armonizada. También se da cuando las obras, servicios o suministros objeto de modificación se hallan dentro del ámbito de otro contrato, actual o futuro, si ya se ha iniciado su tramitación.",
+      "Para un examen, el umbral del 15 por ciento en obras es un dato que se pregunta. Y el 50 por ciento de unidades nuevas es el criterio de equilibrio económico."
+     ]
+    },
+    {
+     "titulo": "6. Obligatoriedad de la modificación para el contratista",
+     "parrafos": [
+      "El artículo 206.1 LCSP establece que las modificaciones acordadas por el órgano de contratación en los supuestos del artículo 205 son obligatorias para el contratista cuando, aislada o conjuntamente, supongan una alteración de su cuantía que no exceda del 20 por ciento del precio inicial, IVA excluido.",
+      "Si la alteración supera el 20 por ciento, el artículo 206.2 LCSP exige la conformidad por escrito del contratista. Si no la presta, la modificación solo puede acordarse con esa conformidad, y de no obtenerla, el contrato se resuelve conforme al artículo 211.1.g LCSP.",
+      "El artículo 211.1.g LCSP recoge como causa de resolución la imposibilidad de ejecutar la prestación en los términos pactados, cuando no sea posible modificar el contrato conforme a los artículos 204 y 205, o cuando las modificaciones supongan alteraciones del precio superiores, en más o en menos, al 20 por ciento del precio inicial, IVA excluido. Para un examen, el 20 por ciento de obligatoriedad y el 20 por ciento de resolución son los dos umbrales que conviene distinguir."
+     ]
+    },
+    {
+     "titulo": "7. Modificaciones que dan lugar a resolución",
+     "parrafos": [
+      "El artículo 212.2 LCSP establece que la declaración de insolvencia y las modificaciones del contrato en los casos en que no se den las circunstancias de los artículos 204 y 205 dan siempre lugar a la resolución. Son modificaciones no permitidas por la ley, y su resultado es la extinción del contrato.",
+      "Las restantes modificaciones no previstas que supongan una alteración de cuantía superior al 20 por ciento son potestativas para la Administración y para el contratista, según el mismo precepto.",
+      "En los casos de resolución por modificación, el artículo 213.4 LCSP da al contratista una indemnización del 3 por ciento del importe de la prestación dejada de realizar, salvo que la causa sea imputable a él o que rechace la modificación propuesta al amparo del artículo 205. Este dato es frecuente en los exámenes y conviene recordarlo junto con la regla de los umbrales."
+     ]
+    },
+    {
+     "titulo": "8. Especialidades procedimentales y publicidad",
+     "parrafos": [
+      "El artículo 207 LCSP regula el procedimiento. Las modificaciones previstas en el pliego se acuerdan en la forma que este haya especificado (art. 207.1 LCSP). Las no previstas, en cambio, exigen una audiencia previa al redactor del proyecto, si lo redactó un tercero ajeno al órgano de contratación, por un plazo no inferior a tres días para formular consideraciones (art. 207.2 LCSP).",
+      "El artículo 207.3 LCSP exige publicidad. Los órganos de contratación deben publicar un anuncio de modificación en el perfil de contratante en el plazo de cinco días desde su aprobación. El anuncio debe ir acompañado de las alegaciones del contratista y de los informes recabados. En los contratos sujetos a regulación armonizada, en los casos de modificación de los apartados a) y b) del artículo 205.2, también debe publicarse el anuncio en el Diario Oficial de la Unión Europea.",
+      "Las modificaciones deben formalizarse conforme al artículo 153 LCSP (art. 203.3 LCSP). Para un examen, la pregunta típica es dónde y en qué plazo se publica una modificación: en el perfil de contratante, en cinco días desde la aprobación."
+     ]
+    },
+    {
+     "titulo": "9. Modificaciones del proyecto en la obra",
+     "parrafos": [
+      "En los contratos de obras, el artículo 242.1 LCSP establece que las modificaciones acordadas conforme al artículo 206 son obligatorias para el contratista. Si la modificación supone supresión o reducción de unidades de obra, el contratista no tiene derecho a indemnización alguna.",
+      "El artículo 242.4 LCSP regula la modificación del proyecto propuesta por el director facultativo cuando la considera necesaria. El director recaba del órgano de contratación autorización para iniciar el expediente, que incluye la redacción de la modificación y su aprobación técnica, la audiencia del contratista y del redactor del proyecto por plazo mínimo de tres días, y la aprobación por el órgano de contratación, junto con los gastos complementarios.",
+      "El artículo 242.4.i LCSP excluye del concepto de modificación el exceso de mediciones, ya tratado en el tema e30, siempre que el incremento global no supere el 10 por ciento del precio inicial.",
+      "El director facultativo no puede modificar el proyecto por sí solo. El artículo 242.4 LCSP exige que recabe del órgano de contratación la autorización previa para iniciar el expediente. Para un examen, la distinción es que la propuesta corresponde al director, pero la decisión y la autorización corresponden al órgano de contratación."
+     ]
+    },
+    {
+     "titulo": "10. Precio de las unidades de obra no previstas",
+     "parrafos": [
+      "El artículo 242.2 LCSP regula las unidades de obra no previstas en el proyecto, o cuyas características difieran de las fijadas en él, cuando no sea necesario realizar una nueva licitación. En ese caso, los precios los fija la Administración, previa audiencia del contratista por plazo mínimo de tres días hábiles.",
+      "Si el contratista no acepta los precios fijados, el órgano de contratación puede contratarlas con otro empresario en los mismos precios que hubiese fijado, ejecutarlas directamente u optar por la resolución del contrato conforme al artículo 211. Esta secuencia es un punto de examen frecuente.",
+      "Para un examen, la diferencia con el precio de la modificación es que el precio nuevo lo fija la Administración con audiencia, no lo negocia el contratista, y que su rechazo tiene consecuencias concretas: contratar a otro, ejecutar directamente o resolver."
+     ]
+    },
+    {
+     "titulo": "11. Ampliación del plazo de ejecución",
+     "parrafos": [
+      "El artículo 203.1 LCSP menciona la ampliación del plazo de ejecución como supuesto con régimen propio, distinto de la modificación. El artículo 195.2 LCSP regula el caso en que el retraso se produce por motivos no imputables al contratista: si este ofrece cumplir sus compromisos si se le amplía el plazo inicial, el órgano de contratación debe concedérsela, por un plazo de al menos el tiempo perdido, salvo que el contratista pida otro menor. El responsable del contrato emite un informe que determina si el retraso es imputable al contratista.",
+      "Si el retraso es imputable al contratista, no hay ampliación sin más. El retraso da lugar a penalidades o a resolución por demora (art. 193 y 195.1 LCSP, tema e29).",
+      "Las variaciones en los plazos de ejecución por modificaciones del proyecto y el reajuste del plazo por modificaciones tienen su desarrollo en la normativa de ejecución. Ese desarrollo no está en el texto de la LCSP que se ha verificado para este tema, y debe comprobarse antes de citarlo."
+     ]
+    },
+    {
+     "titulo": "12. Variaciones sobre unidades ejecutadas y materiales",
+     "parrafos": [
+      "El artículo 242.1 LCSP, ya citado, aclara que la supresión o reducción de unidades de obra no da derecho a indemnización. Es la consecuencia práctica de que la modificación sea obligatoria para el contratista dentro de los límites del artículo 206.",
+      "La variación del número de unidades realmente ejecutadas sobre las previstas no es modificación cuando se mantiene dentro del 10 por ciento del precio inicial (art. 242.4.i LCSP). Por encima de ese límite, sí es modificación, y debe tramitarse conforme a los artículos 205 y 206.",
+      "La modificación de la procedencia de los materiales naturales es un supuesto que aparece en el programa del temario. No se ha verificado en el texto de la LCSP para este tema, y no se cita como norma en este desarrollo."
+     ]
+    },
+    {
+     "titulo": "13. Obras complementarias: concepto y régimen",
+     "parrafos": [
+      "El temario incluye las obras complementarias. El artículo 29 LCSP define los contratos complementarios como aquellos que tienen una relación de dependencia respecto del principal, y cuyo objeto se considera necesario para la correcta realización de la prestación del contrato principal.",
+      "La Exposición de motivos de la LCSP indica que la ley suprime la aplicación del procedimiento negociado a las obras y servicios complementarios. Por tanto, el régimen de adjudicación que se estudiaba antes de la ley no es el vigente en la LCSP de 2017, y no puede citarse como si lo fuera.",
+      "El contenido del proyecto complementario y los requisitos de su tramitación no se han verificado en el texto consolidado de la LCSP. Antes de citarlos en un examen, debe comprobarse qué régimen está vigente y si el programa del temario se refiere a la ley actual o a una norma anterior.",
+      "Conviene no confundir la obra complementaria con la modificación. La modificación altera el contrato en vigor (art. 203 LCSP). El contrato complementario es un contrato distinto, que depende del principal (art. 29 LCSP)."
+     ]
+    },
+    {
+     "titulo": "14. Cómo se mide el porcentaje: modificaciones acumuladas",
+     "parrafos": [
+      "Los umbrales de la modificación se refieren a la alteración de cuantía que resulta de la modificación considerada aislada o conjuntamente con otras acordadas conforme al artículo 205. Así lo indican los artículos 205.2 y 206.1 LCSP. Por eso no basta mirar cada modificación por separado: hay que sumarlas.",
+      "Ejemplo: un contrato de obra de 1.000.000 de euros, IVA excluido, recibe una primera modificación de 120.000 euros (12 por ciento) y después una segunda de 100.000 euros (10 por ciento). Cada una, aislada, está por debajo del 20 por ciento. Pero acumuladas suman 22 por ciento, y la segunda supera el umbral: necesita la conformidad por escrito del contratista (art. 206.2 LCSP).",
+      "Para un examen, el error típico es analizar cada modificación aislada y pasar por alto que el acumulado supera el umbral. El precio inicial se toma siempre sin IVA."
+     ]
+    },
+    {
+     "titulo": "15. Procedimiento de la modificación, paso a paso",
+     "parrafos": [
+      "Primero, la propuesta se justifica en el expediente, indicando la causa objetiva y el supuesto del artículo 205.2 que la ampara, y limitándose a lo estrictamente indispensable (art. 205.1 LCSP).",
+      "Después, se da audiencia al redactor del proyecto cuando lo redactó un tercero ajeno al órgano de contratación (art. 207.2 LCSP). En obras, cuando la modificación la propone el director facultativo, se da audiencia al contratista y al redactor del proyecto por plazo mínimo de tres días (art. 242.4.b LCSP).",
+      "Por último, el órgano de contratación aprueba la modificación. Si supera el 20 por ciento se recaba la conformidad escrita del contratista (art. 206.2 LCSP). La modificación se formaliza conforme al artículo 153 (art. 203.3 LCSP) y se publica en el perfil de contratante en cinco días desde su aprobación, con las alegaciones y los informes (art. 207.3 LCSP)."
+     ]
+    },
+    {
+     "titulo": "16. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir los dos umbrales de 20 por ciento: el de obligatoriedad (art. 206.1) y el de resolución por alteración de precio (art. 211.1.g). Son umbrales distintos y tienen efectos distintos.",
+      "Afirmar que la modificación puede exceder la causa que la justifica. El artículo 205.1 exige que se limite a lo estrictamente indispensable.",
+      "Olvidar la publicidad: el anuncio en el perfil de contratante es obligatorio en cinco días desde la aprobación (art. 207.3 LCSP).",
+      "Tratar el precio de unidades no previstas como un precio negociado. Lo fija la Administración con audiencia de tres días hábiles (art. 242.2 LCSP).",
+      "Pensar que la supresión de unidades da derecho a indemnización. No lo da (art. 242.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "17. Casos prácticos",
+     "parrafos": [
+      "Caso 1: un contrato de obra de 1.000.000 de euros recibe una modificación no prevista en el pliego de 150.000 euros, un 15 por ciento. La alteración no supera el 20 por ciento, por lo que es obligatoria para el contratista (art. 206.1 LCSP). Como no supera el 15 por ciento, tampoco se da el supuesto de sustancialidad por ampliación importante del ámbito del contrato (art. 205.2.c LCSP).",
+      "Caso 2: la misma obra recibe una modificación de 250.000 euros, un 25 por ciento. Supera el 20 por ciento, por lo que se necesita la conformidad por escrito del contratista (art. 206.2 LCSP). Y, si la alteración es mayor de ese umbral y el contratista no acepta, la consecuencia es la resolución (art. 211.1.g LCSP), con indemnización del 3 por ciento de la prestación dejada de realizar (art. 213.4 LCSP).",
+      "Caso 3: en obra se introduce una unidad nueva no prevista. Se fija su precio por la Administración, previa audiencia del contratista de tres días hábiles (art. 242.2 LCSP). Si el contratista lo rechaza, la Administración puede contratarla con otro en esos precios, ejecutarla directamente o resolver el contrato.",
+      "Caso 4: en una obra, el director facultativo propone un modificado de proyecto por 60.000 euros. Antes de aprobarlo, el órgano de contratación debe autorizar el inicio del expediente, y se da audiencia al contratista y al redactor del proyecto por plazo mínimo de tres días (art. 242.4 LCSP). Si el incremento de mediciones dentro de la ejecución supusiera un exceso no superior al 10 por ciento del precio inicial, no sería modificación, sino exceso de mediciones que se recoge en la certificación final (art. 242.4.i LCSP)."
+     ]
+    },
+    {
+     "titulo": "18. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema e27, porque la cuantía del precio inicial es la base de todos los porcentajes de modificación. Y con el tema e28, porque el órgano de contratación es quien acuerda y publica las modificaciones.",
+      "Se conecta con el tema e29 sobre ejecución, porque el director facultativo propone las modificaciones del proyecto y la resolución por modificación está en el artículo 211. Y con el tema e30 sobre abono, porque las unidades modificadas se certifican y se pagan según su precio.",
+      "Se conecta con el tema e31 sobre revisión de precios, porque la revisión no es modificación, y con el tema e33 sobre suspensión y extinción, porque la modificación no permitida lleva a la resolución."
+     ]
+    },
+    {
+     "titulo": "19. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Cuál es el límite de modificación prevista en el pliego? El 20 por ciento del precio inicial, con cláusula clara y precisa (art. 204.1 LCSP).",
+      "¿Qué porcentaje de unidades nuevas hace sustancial una modificación? Más del 50 por ciento del presupuesto inicial (art. 205.2.c LCSP).",
+      "¿Cuándo es obligatoria para el contratista una modificación? Cuando la alteración de cuantía no excede del 20 por ciento del precio inicial, IVA excluido (art. 206.1 LCSP).",
+      "¿Qué pasa si la modificación supera el 20 por ciento sin conformidad? Resolución del contrato (art. 211.1.g LCSP).",
+      "¿Dónde se publica una modificación? En el perfil de contratante, en cinco días desde la aprobación (art. 207.3 LCSP).",
+      "¿Quién fija el precio de una unidad no prevista? La Administración, previa audiencia del contratista de tres días hábiles (art. 242.2 LCSP).",
+      "¿Da derecho a indemnización la supresión de unidades? No (art. 242.1 LCSP).",
+      "¿Cuál es el límite de los supuestos de contratos adicionales? La alteración de cuantía no puede superar el 50 por ciento del precio inicial, IVA excluido, aislada o conjuntamente (art. 205.2.a LCSP).",
+      "¿Cómo se cuenta el porcentaje si hay varias modificaciones? Se suman todas las alteraciones acordadas conforme al artículo 205, aisladas o conjuntamente (arts. 205.2 y 206.1 LCSP)."
+     ]
+    },
+    {
+     "titulo": "20. Claves para el examen",
+     "parrafos": [
+      "Vías: pliego (art. 204), no previsto con requisitos (art. 205), o resolución y nuevo contrato (art. 203.2).",
+      "Límites: 20 por ciento para obligatoriedad (art. 206.1); 20 por ciento para resolución por alteración de precio (art. 211.1.g); 50 por ciento para los supuestos del 205.2; 15 por ciento para la sustancialidad en obras (art. 205.2.c).",
+      "Procedimiento: audiencia del redactor del proyecto (art. 207.2); publicidad en cinco días (art. 207.3); formalización (art. 203.3).",
+      "Obra: modificación del proyecto por el director facultativo con audiencia de tres días (art. 242.4); exceso de mediciones dentro del 10 por ciento (art. 242.4.i); unidades no previstas con precio fijado por la Administración (art. 242.2).",
+      "Consecuencias: indemnización del 3 por ciento en la resolución por modificación (art. 213.4 LCSP); la supresión no da indemnización (art. 242.1 LCSP).",
+      "Resumen: la modificación cambia la prestación del contrato en vigor; la revisión de precios actualiza el precio con la fórmula del pliego; y el contrato complementario es un contrato distinto que depende del principal (arts. 203, 29 y 103 LCSP)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 9/2017, de Contratos del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+     "pdf": "leyes/BOE-A-2017-12902.pdf"
+    }
+   ]
+  },
+  "e33": {
+   "resumen": [
+    {
+     "titulo": "Suspensión",
+     "puntos": [
+      "La suspensión se documenta en un acta, de oficio o a solicitud del contratista (art. 208.1 LCSP).",
+      "Acordada la suspensión, la Administración abona los daños efectivamente sufridos, con las reglas del artículo 208.2: conceptos acreditados y solo períodos documentados en el acta (arts. 208.2.a y 208.2.b LCSP).",
+      "El derecho a reclamar prescribe en un año desde que el contratista reciba la orden de reanudar (art. 208.2.c LCSP)."
+     ]
+    },
+    {
+     "titulo": "Suspensión por demora en el pago",
+     "puntos": [
+      "Si la demora en el pago supera los cuatro meses, el contratista puede suspender el cumplimiento, con un mes de antelación (art. 198.5 LCSP).",
+      "Si la demora de la Administración supera los seis meses, el contratista puede resolver y reclamar perjuicios (art. 198.6 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Recepción y plazo de garantía",
+     "puntos": [
+      "A la recepción concurren un facultativo de la Administración, el director de obra y el contratista. Si las obras están en buen estado, se levanta acta y empieza el plazo de garantía (art. 243.1 y 243.2 LCSP).",
+      "El plazo de garantía lo fija el pliego y no puede ser inferior a un año salvo casos especiales (art. 243.3 LCSP). Hay excepción para obras sin finalidad práctica (art. 243.4 LCSP).",
+      "El informe del director, quince días antes del fin del plazo: si es favorable, se devuelve la garantía y se liquida en sesenta días (art. 243.3 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Recepciones parciales y ocupación",
+     "puntos": [
+      "Caben recepciones parciales de partes de obra ejecutables por fases entregables al uso público, según el contrato (art. 243.5 LCSP).",
+      "La ocupación efectiva o la puesta en servicio, motivadas por razones excepcionales de interés público, producen los efectos de la recepción aunque no haya acta (art. 243.6 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Vicios ocultos y responsabilidad",
+     "puntos": [
+      "Por incumplimiento, y tras el plazo de garantía, el contratista responde de daños graves durante quince años desde la recepción; también de los daños estructurales (art. 244.1 LCSP).",
+      "La acción por daños materiales prescribe en dos años desde que se manifiestan (art. 244.2 LCSP). La LOE fija diez años para daños estructurales (art. 17.1.a LOE)."
+     ]
+    },
+    {
+     "titulo": "Resolución y efectos",
+     "puntos": [
+      "Causas generales del artículo 211 (concurso, mutuo acuerdo, demora, incumplimiento de obligaciones principales, modificación no admisible) y causas propias de las obras del artículo 245 (replanteo, suspensiones de más de cuatro y ocho meses, desistimiento).",
+      "Efectos: en culpa del contratista se incauta la garantía y se responde del exceso de daños; en modificación no admisible, indemnización del 3 por ciento (arts. 213.3 y 213.4 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Desistimiento y suspensión prolongada",
+     "puntos": [
+      "Antes de iniciar las obras, o con suspensión de la iniciación de más de cuatro meses: 3 por ciento del precio de adjudicación (art. 246.3 LCSP).",
+      "Tras iniciar la ejecución, o con suspensión de obras iniciadas de más de ocho meses: 6 por ciento del beneficio industrial sobre lo dejado de realizar (art. 246.4 LCSP).",
+      "Si las obras deben continuarse por urgencia o seguridad, se acuerda tras notificar la liquidación de lo ejecutado; el contratista puede impugnar la valoración en quince días (art. 246.5 LCSP)."
+     ]
+    },
+    {
+     "titulo": "Certificación final y liquidación",
+     "puntos": [
+      "La certificación final se aprueba en tres meses desde la recepción, y se abona a cuenta de la liquidación (art. 243.1 LCSP).",
+      "En la resolución, se comprueba, mide y liquida lo realizado con citación del contratista (art. 246.1 LCSP). La medición general y el inventario se regulan en normas distintas de la LCSP, no verificadas aquí."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LCSP",
+     "rol": "Norma principal del tema (arts. 198.5 a 198.6, 208 a 213, 238.3, 243 a 246)"
+    },
+    {
+     "id": "LOE",
+     "rol": "Complementaria: plazo decenal de daños estructurales (art. 17.1.a)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 208.1 LCSP, ¿qué documento se extiende cuando la Administración acuerda la suspensión del contrato?",
+     "opciones": [
+      "Un acta en la que se consignan las circunstancias y la situación de hecho",
+      "Un decreto de la alcaldía",
+      "Un informe del director facultativo sin acta",
+      "Ningún documento"
+     ],
+     "correcta": 0,
+     "explicacion": "Se extiende un acta, de oficio o a solicitud del contratista, con las circunstancias que motivaron la suspensión y la situación de hecho.",
+     "referencia": "Art. 208.1 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 198.5 LCSP, ¿qué ocurre si la demora en el pago de la Administración supera los cuatro meses?",
+     "opciones": [
+      "El contrato se resuelve de forma automática",
+      "Se pierde el derecho al cobro",
+      "El contratista puede suspender el cumplimiento, comunicándolo con un mes de antelación",
+      "Nada: no hay consecuencias"
+     ],
+     "correcta": 2,
+     "explicacion": "Con más de cuatro meses de demora, el contratista puede suspender, comunicándolo con un mes de antelación a efectos de sus derechos.",
+     "referencia": "Art. 198.5 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 198.6 LCSP, ¿cuándo tiene el contratista derecho a resolver el contrato por demora de la Administración en el pago?",
+     "opciones": [
+      "Cuando la demora supera un mes",
+      "Cuando la demora supera doce meses",
+      "Nunca",
+      "Cuando la demora supera seis meses"
+     ],
+     "correcta": 3,
+     "explicacion": "Si la demora de la Administración supera los seis meses, el contratista tiene derecho a resolver el contrato y al resarcimiento de los perjuicios.",
+     "referencia": "Art. 198.6 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 243.2 LCSP, si el contratista no subsana los defectos observados en el acta de recepción en el plazo fijado, ¿qué puede hacer el órgano de contratación?",
+     "opciones": [
+      "Nada, el contrato se mantiene",
+      "Conceder otro nuevo plazo improrrogable o declarar resuelto el contrato",
+      "Pagar la obra sin reparar los defectos",
+      "Ampliar la garantía al doble"
+     ],
+     "correcta": 1,
+     "explicacion": "Transcurrido el plazo sin subsanar, puede concederse otro nuevo plazo improrrogable o declararse resuelto el contrato.",
+     "referencia": "Art. 243.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 243.3 LCSP, si el informe del director facultativo sobre el estado de las obras, redactado antes del fin del plazo de garantía, es favorable, ¿qué ocurre?",
+     "opciones": [
+      "Se amplía el plazo de garantía dos años",
+      "Se devuelve o cancela la garantía, se liquida el contrato y se pagan las obligaciones pendientes en sesenta días",
+      "Se inicia un nuevo procedimiento de licitación",
+      "Se pierde la garantía"
+     ],
+     "correcta": 1,
+     "explicacion": "Con informe favorable, el contratista queda exonerado de responsabilidad, se devuelve o cancela la garantía, se liquida el contrato y se pagan las obligaciones pendientes en sesenta días.",
+     "referencia": "Art. 243.3 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 243.5 LCSP, ¿cuándo puede haber recepción parcial de una obra?",
+     "opciones": [
+      "Siempre que la obra esté al 50 por ciento",
+      "Cuando la obra es susceptible de ejecutarse por fases que puedan entregarse al uso público, según el contrato",
+      "Solo en los contratos de suministro",
+      "Nunca: la recepción es siempre total"
+     ],
+     "correcta": 1,
+     "explicacion": "Pueden recibirse parcialmente las partes de obra ejecutadas por fases entregables al uso público, según lo establecido en el contrato.",
+     "referencia": "Art. 243.5 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 243.6 LCSP, ¿qué ocurre si el órgano de contratación acuerda la ocupación efectiva de las obras por razones excepcionales de interés público, sin acto formal de recepción?",
+     "opciones": [
+      "Cuando la obra es susceptible de ejecutarse por fases que puedan entregarse al uso público, según el contrato",
+      "Siempre que la obra esté al 50 por ciento",
+      "Solo en los contratos de suministro",
+      "Nunca: la recepción es siempre total"
+     ],
+     "correcta": 0,
+     "explicacion": "Por razones excepcionales de interés público, motivadas en el expediente, la ocupación o la puesta en servicio producen los efectos de la recepción.",
+     "referencia": "Art. 243.6 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 244.2 LCSP, ¿en qué plazo prescriben las acciones por daños materiales derivados de vicios o defectos de la obra?",
+     "opciones": [
+      "Seis meses",
+      "Un año",
+      "Dos años desde que se produzcan o manifiesten los daños",
+      "Quince años"
+     ],
+     "correcta": 2,
+     "explicacion": "Las acciones por daños materiales prescriben en dos años desde que se produzcan o manifiesten, sin perjuicio de las acciones por incumplimiento contractual.",
+     "referencia": "Art. 244.2 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 213.3 LCSP, ¿qué ocurre cuando el contrato se resuelve por incumplimiento culpable del contratista?",
+     "opciones": [
+      "Se devuelve la garantía al contratista",
+      "Se incauta la garantía, y el contratista indemniza los daños que excedan de su importe",
+      "La Administración asume los daños íntegramente",
+      "Se reduce el precio a la mitad"
+     ],
+     "correcta": 1,
+     "explicacion": "La garantía se incauta y el contratista debe indemnizar los daños y perjuicios que excedan de su importe.",
+     "referencia": "Art. 213.3 LCSP"
+    },
+    {
+     "pregunta": "Según el art. 246.4 LCSP, ¿qué indemnización corresponde al contratista en un desistimiento tras iniciarse la ejecución de las obras?",
+     "opciones": [
+      "El 3 por ciento del precio de adjudicación",
+      "El 2 por ciento del precio de adjudicación",
+      "El 6 por ciento del beneficio industrial sobre las obras dejadas de realizar",
+      "Ninguna indemnización"
+     ],
+     "correcta": 2,
+     "explicacion": "Tras iniciarse la ejecución, el contratista tiene derecho al 6 por ciento del precio de adjudicación de las obras dejadas de realizar, en concepto de beneficio industrial, IVA excluido.",
+     "referencia": "Art. 246.4 LCSP"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Suspensión y extinción: el marco general",
+     "parrafos": [
+      "Un contrato de obra puede terminar de dos formas. La primera es el cumplimiento, cuando el contratista ha realizado la obra a satisfacción de la Administración. La segunda es la resolución, acordada conforme a la ley por una de las causas previstas. El artículo 209 LCSP establece que los contratos se extinguen por su cumplimiento o por resolución, acordada de acuerdo con la subsección de extinción.",
+      "Entre medias puede producirse una suspensión, que detiene la ejecución sin extinguir el contrato. El artículo 208 LCSP regula la suspensión de los contratos, y los artículos 198.5 y 198.6 regulan la suspensión por demora en el pago. Para un examen, conviene distinguir: suspensión (el contrato sigue vivo), resolución (el contrato termina con sus efectos) y cumplimiento (el contrato termina porque la obra está terminada).",
+      "El temario de este tema recorre esas tres vías: la suspensión, el cumplimiento con recepción y garantía, y la resolución con sus efectos, incluidos los desistimientos y la liquidación."
+     ]
+    },
+    {
+     "titulo": "2. La suspensión de los contratos",
+     "parrafos": [
+      "El artículo 208.1 LCSP establece que, si la Administración acuerda la suspensión, o si se produce por aplicación del artículo 198.5, se extiende un acta. Puede hacerse de oficio o a solicitud del contratista. En el acta se consignan las circunstancias que han motivado la suspensión y la situación de hecho de la ejecución.",
+      "El artículo 208.2 LCSP establece que, acordada la suspensión, la Administración abona al contratista los daños y perjuicios efectivamente sufridos, con sujeción a las reglas siguientes. Esto significa que la suspensión no es gratuita para la Administración, y que el contratista tiene derecho a ser compensado en la medida en que el perjuicio esté acreditado.",
+      "Para un examen, la pregunta típica es si la suspensión genera derecho a indemnización. Respuesta: sí, por los daños efectivamente sufridos, según las reglas del artículo 208.2 LCSP."
+     ]
+    },
+    {
+     "titulo": "3. Conceptos indemnizables y reglas de la suspensión",
+     "parrafos": [
+      "Según el artículo 208.2.a LCSP, salvo que el pliego establezca otra cosa, el abono solo comprende ciertos conceptos, siempre que se acredite fehacientemente su realidad, efectividad e importe. Son los gastos por mantenimiento de la garantía definitiva; las indemnizaciones por extinción o suspensión de los contratos de trabajo concertados para la ejecución; los gastos salariales del personal que debe quedar adscrito al contrato durante la suspensión; los alquileres o costes de mantenimiento de maquinaria, instalaciones y equipos que no pudieron emplearse para otros fines; y los gastos de pólizas de seguro vinculados al objeto del contrato.",
+      "El artículo 208.2.b LCSP establece que solo se indemnizan los períodos de suspensión documentados en el acta. El contratista puede pedir que se extienda. Si la Administración no responde a esta solicitud, se entiende, salvo prueba en contrario, que la suspensión empezó en la fecha señalada por el contratista. Es una regla de prueba a favor del contratista que conviene recordar.",
+      "El artículo 208.2.c LCSP fija que el derecho a reclamar prescribe en un año, contado desde que el contratista reciba la orden de reanudar la ejecución del contrato. Para un examen, el plazo es de un año, y se cuenta desde la orden de reanudar."
+     ]
+    },
+    {
+     "titulo": "4. La suspensión por demora en el pago",
+     "parrafos": [
+      "El artículo 198.5 LCSP regula la suspensión por impago. Si la demora en el pago es superior a cuatro meses, el contratista puede suspender el cumplimiento del contrato. Debe comunicarlo a la Administración con un mes de antelación, a efectos del reconocimiento de los derechos que puedan derivarse de la suspensión.",
+      "El artículo 198.6 LCSP añade que, si la demora de la Administración es superior a seis meses, el contratista tiene derecho a resolver el contrato y al resarcimiento de los perjuicios que se le originen. El artículo 211.1.e LCSP recoge esta demora como causa de resolución.",
+      "Para un examen, la diferencia es clara: cuatro meses de impago dan derecho a suspender; seis meses dan derecho a resolver. Son dos umbrales distintos y conviene no confundirlos."
+     ]
+    },
+    {
+     "titulo": "5. El cumplimiento del contrato y la recepción",
+     "parrafos": [
+      "El artículo 210.1 LCSP establece que el contrato se entiende cumplido cuando el contratista ha realizado, de acuerdo con sus términos y a satisfacción de la Administración, la totalidad de la prestación. El cumplimiento exige un acto formal y positivo de recepción o conformidad, que en el caso general debe producirse dentro del mes siguiente a la entrega o realización (art. 210.2 LCSP).",
+      "En los contratos de obras, sin embargo, el artículo 210.4 LCSP dispone que la recepción y la liquidación se rigen por el artículo 243. Por tanto, el régimen de la recepción de obras es el del artículo 243, que se estudia en el apartado siguiente.",
+      "Para un examen, conviene recordar que el cumplimiento y la recepción no son lo mismo: el cumplimiento es la realización completa de la prestación, y la recepción es el acto formal que lo constata. El plazo de garantía empieza con la recepción."
+     ]
+    },
+    {
+     "titulo": "6. La recepción de las obras",
+     "parrafos": [
+      "El artículo 243.1 LCSP establece que, a la recepción de las obras a su terminación, concurren un facultativo designado por la Administración, que la representa, el facultativo encargado de la dirección de las obras y el contratista, asistido si lo estima oportuno de su facultativo. Dentro de los tres meses desde la recepción, el órgano de contratación aprueba la certificación final.",
+      "El artículo 243.2 LCSP regula el resultado. Si las obras están en buen estado y de acuerdo con las prescripciones, el funcionario técnico designado las da por recibidas, se levanta acta y comienza el plazo de garantía. Si no están en estado de ser recibidas, el acta lo hace constar, el director señala los defectos observados y detalla las instrucciones, fijando un plazo para remediarlos.",
+      "Si transcurrido ese plazo el contratista no ha remediado los defectos, el órgano puede concederle otro nuevo plazo improrrogable o declarar resuelto el contrato (art. 243.2 LCSP). Para un examen, la secuencia es: acta de recepción, defectos y plazo, y, si no se subsanan, nuevo plazo improrrogable o resolución."
+     ]
+    },
+    {
+     "titulo": "7. Recepciones parciales",
+     "parrafos": [
+      "El artículo 243.5 LCSP admite la recepción parcial. Pueden ser objeto de recepción parcial aquellas partes de obra susceptibles de ser ejecutadas por fases que puedan entregarse al uso público, según lo establecido en el contrato.",
+      "La recepción parcial exige que la parte de obra sea separable y entregable al uso público. No basta con que la obra esté avanzada. Y debe estar prevista en el contrato, porque la ley remite a lo establecido en él.",
+      "Para un examen, la pregunta típica es cuándo cabe recepción parcial. Respuesta: cuando la obra es susceptible de ejecución por fases entregables al uso público y el contrato lo prevé (art. 243.5 LCSP)."
+     ]
+    },
+    {
+     "titulo": "8. Ocupación o puesta en servicio sin recepción formal",
+     "parrafos": [
+      "El artículo 243.6 LCSP regula un supuesto excepcional. Si por razones excepcionales de interés público, debidamente motivadas en el expediente, el órgano de contratación acuerda la ocupación efectiva de las obras o su puesta en servicio para el uso público, aun sin el acto formal de recepción, desde que concurran esas circunstancias se producen los efectos propios de la recepción.",
+      "Son dos requisitos: la excepcionalidad y la motivación en el expediente. Los efectos de la recepción, incluido el inicio del plazo de garantía, se producen desde que concurren las circunstancias. Los términos se establecen reglamentariamente.",
+      "Para un examen, la diferencia con la recepción formal es que aquí no hay acta de recepción, pero la ley anuda a la ocupación o puesta en servicio motivada los mismos efectos."
+     ]
+    },
+    {
+     "titulo": "9. El plazo de garantía",
+     "parrafos": [
+      "El artículo 243.3 LCSP establece que el plazo de garantía se fija en el pliego según la naturaleza y complejidad de la obra, y no puede ser inferior a un año salvo casos especiales. El artículo 243.4 LCSP exime del plazo en obras cuya perduración no tiene finalidad práctica, como los sondeos y prospecciones infructuosos, o los dragados.",
+      "Durante el plazo de garantía, el contratista responde de todos los defectos de la construcción que puedan advertirse (art. 238.3 LCSP). La regla general del artículo 210.3 LCSP es que, transcurrido el plazo sin objeciones, queda extinguida la responsabilidad del contratista; en obras, el artículo 243.3 regula el tránsito con el informe del director.",
+      "Para un examen, el plazo de garantía es la fase de conservación y de reparación de defectos, y la responsabilidad del contratista se libera con el informe favorable del director (art. 243.3 LCSP)."
+     ]
+    },
+    {
+     "titulo": "10. El informe final y la devolución de la garantía",
+     "parrafos": [
+      "El artículo 243.3 LCSP establece que, dentro de los quince días anteriores al cumplimiento del plazo de garantía, el director facultativo redacta un informe sobre el estado de las obras, de oficio o a instancia del contratista. Si el informe es favorable, el contratista queda exonerado de responsabilidad, salvo lo dispuesto para los vicios ocultos, y se procede a la devolución o cancelación de la garantía, a la liquidación y al pago de las obligaciones pendientes en el plazo de sesenta días.",
+      "Si el informe no es favorable y los defectos se deben a deficiencias en la ejecución y no al uso de lo construido, el director dicta instrucciones al contratista para la reparación, con un plazo para ello. Durante ese plazo continúa encargado de la conservación de las obras, sin derecho a percibir cantidad alguna por la ampliación del plazo de garantía.",
+      "Para un examen, la diferencia clave es entre el informe favorable (devolución de la garantía) y el no favorable por deficiencias de ejecución (reparación sin cobrar la ampliación del plazo de garantía)."
+     ]
+    },
+    {
+     "titulo": "11. Vicios ocultos y responsabilidad posterior",
+     "parrafos": [
+      "El artículo 244.1 LCSP establece que, si la obra se arruina o sufre deterioros graves incompatibles con su función, después del plazo de garantía y por incumplimiento del contrato, el contratista responde de los daños que se produzcan o manifiesten durante quince años desde la recepción. Asimismo responde durante ese plazo de los daños materiales por vicios que afecten a la cimentación, los soportes, las vigas, los forjados, los muros de carga u otros elementos estructurales que comprometan la resistencia y la estabilidad.",
+      "El artículo 244.2 LCSP fija que las acciones para exigir esa responsabilidad por daños materiales prescriben en dos años, contados desde que se produzcan o se manifiesten los daños, sin perjuicio de las acciones por incumplimiento contractual. El artículo 244.3 LCSP establece que, transcurridos los quince años sin que se haya manifestado daño alguno, se extingue totalmente la responsabilidad del contratista.",
+      "Para un examen, conviene distinguir los quince años de responsabilidad del contratista (art. 244.1 LCSP), los dos años para ejercer la acción (art. 244.2 LCSP) y los diez años de la LOE para daños estructurales (art. 17.1.a LOE, tema e29)."
+     ]
+    },
+    {
+     "titulo": "12. Las causas de resolución del contrato",
+     "parrafos": [
+      "El artículo 211.1 LCSP enumera las causas de resolución. Son, entre otras: la muerte o incapacidad del contratista individual o la extinción de la personalidad jurídica; la declaración de concurso o insolvencia; el mutuo acuerdo; la demora en el cumplimiento de los plazos, incluido el retraso injustificado sobre el plan de trabajos por más de un tercio del plazo inicial; la demora en el pago por la Administración superior al plazo del artículo 198.6; el incumplimiento de la obligación principal; y la imposibilidad de ejecutar la prestación cuando no sea posible modificar el contrato.",
+      "El artículo 245 LCSP añade las causas propias de las obras: la demora injustificada en la comprobación del replanteo; la suspensión de la iniciación de las obras por más de cuatro meses; la suspensión de las obras por más de ocho meses por la Administración; y el desistimiento.",
+      "El artículo 211.2 LCSP establece que, si concurren varias causas con efectos económicos diferentes, se atiende a la que haya aparecido primero en el tiempo. Para un examen, esta regla de prioridad temporal es una pregunta frecuente."
+     ]
+    },
+    {
+     "titulo": "13. Procedimiento y efectos de la resolución",
+     "parrafos": [
+      "El artículo 212.1 LCSP establece que la resolución la acuerda el órgano de contratación, de oficio o a instancia del contratista según proceda, siguiendo el procedimiento de las normas de desarrollo. El artículo 191 LCSP regula el procedimiento de ejercicio de las prerrogativas, con audiencia del contratista. Cuando se formula oposición, es preceptivo el dictamen del Consejo de Estado u órgano autonómico equivalente en los casos del artículo 191.3.a.",
+      "El artículo 212.8 LCSP exige que los expedientes de resolución se instruyan y resuelvan en el plazo máximo de ocho meses. El texto consolidado indica que el apartado 8 se declara no conforme con el orden constitucional de competencias por la STC 68/2021, de 18 de marzo. Antes de citarlo en un examen, debe comprobarse el alcance.",
+      "El artículo 213 LCSP regula los efectos. Si la resolución es por mutuo acuerdo, se estará a lo estipulado. Si el incumplimiento es de la Administración, el contratista tiene derecho, con carácter general, a daños y perjuicios (art. 213.2). Si el contrato se resuelve por incumplimiento culpable del contratista, se le incauta la garantía y debe indemnizar los daños que excedan de su importe (art. 213.3)."
+     ]
+    },
+    {
+     "titulo": "14. Efectos económicos de la resolución por modificación y por otras causas",
+     "parrafos": [
+      "El artículo 213.4 LCSP establece que, cuando la resolución se acuerde por las causas de la letra g) del artículo 211.1, es decir, la imposibilidad de ejecutar la prestación por modificación no admisible, el contratista tiene derecho a una indemnización del 3 por ciento del importe de la prestación dejada de realizar. No la tiene si la causa le es imputable o si rechaza la modificación propuesta al amparo del artículo 205.",
+      "El artículo 213.5 LCSP obliga a que el acuerdo de resolución se pronuncie expresamente sobre la pérdida, devolución o cancelación de la garantía. Es un contenido obligatorio del acuerdo, y no puede omitirse.",
+      "Para un examen, la pregunta típica es qué pasa con la garantía en la resolución por culpa del contratista. Respuesta: se incauta, y el contratista responde de los daños que excedan de ella (art. 213.3 LCSP)."
+     ]
+    },
+    {
+     "titulo": "15. El desistimiento y la suspensión de las obras",
+     "parrafos": [
+      "El artículo 246.3 LCSP regula el desistimiento antes de la iniciación de las obras, o la suspensión de su iniciación por la Administración por plazo superior a cuatro meses. En ese caso, el contratista tiene derecho por todos los conceptos a una indemnización del 3 por ciento del precio de adjudicación, IVA excluido.",
+      "El artículo 246.4 LCSP regula el desistimiento una vez iniciada la ejecución, o la suspensión de las obras iniciadas por plazo superior a ocho meses. El contratista tiene derecho al 6 por ciento del precio de adjudicación de las obras dejadas de realizar, en concepto de beneficio industrial, IVA excluido. Las obras dejadas de realizar son las que resultan de la diferencia entre las del contrato primitivo y sus modificaciones aprobadas, y las ejecutadas hasta la notificación.",
+      "Para un examen, la pregunta clásica es qué porcentaje corresponde. Respuesta: 3 por ciento antes de iniciar las obras o con suspensión de la iniciación de más de cuatro meses (art. 246.3); 6 por ciento sobre las obras dejadas de realizar tras iniciarlas o con suspensión de más de ocho meses (art. 246.4)."
+     ]
+    },
+    {
+     "titulo": "16. La suspensión definitiva de las obras",
+     "parrafos": [
+      "El temario menciona la suspensión definitiva de las obras. La LCSP no usa esta expresión en el texto que se ha verificado para este tema. Lo que sí regula es la suspensión de las obras por plazo superior a ocho meses por la Administración, como causa de resolución (art. 245.c LCSP), y la indemnización del 6 por ciento de las obras dejadas de realizar (art. 246.4 LCSP).",
+      "Por tanto, en un examen conviene exponer el régimen con las palabras de la ley: la suspensión prolongada de las obras iniciadas, por más de ocho meses, da lugar a resolución con la indemnización del artículo 246.4. El término de suspensión definitiva debe comprobarse en el desarrollo reglamentario antes de usarlo como tal."
+     ]
+    },
+    {
+     "titulo": "17. Resolución cuando las obras han de continuarse",
+     "parrafos": [
+      "El artículo 246.5 LCSP regula el caso en que las obras deben continuarse por otro empresario o por la propia Administración con carácter de urgencia, por motivos de seguridad o para evitar la ruina de lo construido. El órgano de contratación, una vez notificada al contratista la liquidación de lo ejecutado, puede acordar la continuación.",
+      "El contratista puede impugnar la valoración ante el propio órgano, que debe resolver en el plazo de quince días. La continuación no impide la impugnación de la valoración.",
+      "Para un examen, el orden es: liquidación de lo ejecutado, notificación al contratista, continuación por otro, y posibilidad de impugnar la valoración en quince días."
+     ]
+    },
+    {
+     "titulo": "18. La liquidación del contrato de obras",
+     "parrafos": [
+      "El artículo 243.1 LCSP establece que la certificación final de las obras ejecutadas se aprueba dentro de los tres meses desde la recepción y se abona al contratista a cuenta de la liquidación del contrato. La liquidación es el balance definitivo de las cuentas, con los saldos a favor o en contra.",
+      "En la resolución, el artículo 246.1 LCSP exige la comprobación, medición y liquidación de las obras realizadas con arreglo al proyecto, fijando los saldos pertinentes, con citación del contratista para asistir al acto. Es la liquidación de la resolución, que puede ser distinta de la liquidación ordinaria.",
+      "Para un examen, la distinción es: la certificación final aprueba la última certificación de la obra; la liquidación fija el balance definitivo; y en la resolución la liquidación se basa en la comprobación y medición con citación del contratista."
+     ]
+    },
+    {
+     "titulo": "19. La medición general y la certificación final",
+     "parrafos": [
+      "La medición general es, en el lenguaje del temario, la comprobación de las unidades ejecutadas al final de la obra; su regulación detallada está en la normativa de desarrollo. Sirve de base a la certificación final, que recoge lo ejecutado conforme a proyecto, junto con las modificaciones aprobadas. El exceso de mediciones dentro del 10 por ciento del precio inicial, que no es modificación, se recoge también en la certificación final (art. 242.4.i LCSP).",
+      "La certificación final es, por tanto, el documento que cierra la parte económica de la obra en ejecución. Se aprueba en tres meses desde la recepción (art. 243.1 LCSP), y se abona a cuenta de la liquidación.",
+      "Para un examen, la secuencia es: medición general, certificación final con las modificaciones y excesos de mediciones, y liquidación del contrato."
+     ]
+    },
+    {
+     "titulo": "20. Obligaciones del contratista durante el plazo de garantía",
+     "parrafos": [
+      "Durante el plazo de garantía, el contratista responde de los defectos de la construcción que puedan advertirse hasta que se cumpla dicho plazo (art. 238.3 LCSP). Debe reparar lo que el director señale, y mantener la conservación de las obras cuando el informe no sea favorable (art. 243.3 LCSP).",
+      "La responsabilidad del contratista tiene además un recorrido posterior. Por daños estructurales, la responsabilidad se extiende a quince años desde la recepción (art. 244.1 LCSP).",
+      "Para un examen, conviene separar las dos fases: durante el plazo de garantía, la obligación es reparar los defectos; después, la responsabilidad se limita a los daños del artículo 244."
+     ]
+    },
+    {
+     "titulo": "21. La incorporación de la obra al inventario",
+     "parrafos": [
+      "El temario recoge la incorporación de las obras al inventario general de bienes y derechos. Esta materia no figura en el texto de la LCSP que se ha verificado para este tema. Corresponde a la normativa patrimonial, cuyo texto no está en el repositorio, por lo que no se cita aquí con número de artículo.",
+      "Para un examen, conviene estudiarlo en su norma propia, una vez recibida la obra. La incorporación al inventario es un acto posterior a la recepción y a la liquidación, no un efecto de la resolución."
+     ]
+    },
+    {
+     "titulo": "22. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema e29 sobre la ejecución, porque la recepción, el plazo de garantía y la resolución por demora se estudian allí con detalle. Y con el tema e30 sobre el abono, porque la certificación final y la liquidación cierran el régimen de pagos.",
+      "Se conecta con el tema e31 sobre revisión de precios, porque la revisión se regulariza en la certificación final o en la liquidación. Y con el tema e32 sobre modificación, porque las modificaciones alteran la prestación y el importe que se liquida.",
+      "Para un examen, el tema es el final del contrato: cómo termina, qué garantías quedan, cuánto se paga y en qué plazo."
+     ]
+    },
+    {
+     "titulo": "23. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir la recepción con la certificación final. La recepción es el acto que inicia el plazo de garantía; la certificación final se aprueba en tres meses desde esa recepción.",
+      "Confundir el plazo de garantía con la responsabilidad decenal. El plazo de garantía es de al menos un año (art. 243.3 LCSP); los daños estructurales responden quince años (art. 244.1 LCSP).",
+      "Confundir cuatro meses con seis meses. Cuatro meses de impago dan derecho a suspender (art. 198.5); seis meses de demora de la Administración dan derecho a resolver (art. 198.6).",
+      "Olvidar el 3 por ciento en la resolución por modificación (art. 213.4) y el 6 por ciento del beneficio industrial en el desistimiento tras iniciar las obras (art. 246.4).",
+      "Afirmar que la resolución por culpa del contratista no tiene consecuencias económicas. Se incauta la garantía y el contratista responde del exceso de daños (art. 213.3 LCSP)."
+     ]
+    },
+    {
+     "titulo": "24. Casos prácticos",
+     "parrafos": [
+      "Caso 1: una obra se suspende durante cinco meses por impago de la Administración. El contratista puede suspender el cumplimiento, comunicándolo con un mes de antelación (art. 198.5 LCSP). Si la demora llegara a seis meses, tendría derecho a resolver (art. 198.6 LCSP).",
+      "Caso 2: la Administración suspende la iniciación de una obra durante cinco meses, antes de haberla iniciado. Supera los cuatro meses: es causa de resolución (art. 245.b LCSP), y el contratista tiene derecho al 3 por ciento del precio de adjudicación (art. 246.3 LCSP).",
+      "Caso 3: al terminar la obra, el informe del director del plazo de garantía es favorable. Se devuelve la garantía, se liquida el contrato y se pagan las obligaciones pendientes en sesenta días (art. 243.3 LCSP)."
+     ]
+    },
+    {
+     "titulo": "25. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué distingue la suspensión de la resolución? La suspensión deja el contrato vivo; la resolución lo extingue con sus efectos (arts. 208 y 209 LCSP).",
+      "¿En qué plazo debe aprobarse la certificación final? En tres meses desde la recepción, ampliables a cinco en obras de valor estimado superior a doce millones (art. 243.1 LCSP).",
+      "¿Cuál es el plazo mínimo de garantía? Un año, salvo casos especiales (art. 243.3 LCSP).",
+      "¿Cuánto tiempo responde el contratista de daños estructurales por incumplimiento? Quince años desde la recepción (art. 244.1 LCSP).",
+      "¿Qué pasa con la garantía en una resolución por culpa del contratista? Se incauta (art. 213.3 LCSP).",
+      "¿Qué porcentaje corresponde en el desistimiento antes de iniciar la obra? El 3 por ciento del precio de adjudicación (art. 246.3 LCSP)."
+     ]
+    },
+    {
+     "titulo": "26. Claves para el examen",
+     "parrafos": [
+      "Suspensión: acta (art. 208.1); indemnización de conceptos documentados (art. 208.2); impago de cuatro meses da derecho a suspender y de seis meses a resolver (arts. 198.5 y 198.6).",
+      "Recepción: acta, buen estado, plazo de garantía de al menos un año (arts. 243.1 a 243.3); recepciones parciales (art. 243.5); ocupación con efectos de recepción (art. 243.6).",
+      "Vicios: quince años de responsabilidad (art. 244.1); dos años para la acción (art. 244.2).",
+      "Resolución: causas del artículo 211 y del 245; efectos del 213; garantía incautada en culpa del contratista (art. 213.3).",
+      "Desistimiento y suspensión: 3 por ciento antes de iniciar o con suspensión de más de cuatro meses; 6 por ciento tras iniciar o con suspensión de más de ocho meses (arts. 246.3 y 246.4).",
+      "Liquidación: certificación final en tres meses; liquidación con medición y citación del contratista en la resolución (arts. 243.1 y 246.1)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 9/2017, de Contratos del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+     "pdf": "leyes/BOE-A-2017-12902.pdf"
+    }
+   ]
   }
  }
 };
