@@ -806,6 +806,50 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
    "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 7 de septiembre de 2022). Verificado en el texto del PDF el art. 1, apartados 1 a 4. Pendiente: resto del articulado. Puede haber modificaciones posteriores que deben comprobarse en el ELI."
+  },
+  "RD-105-2008": {
+   "id": "RD-105-2008",
+   "nombre": "Producción y gestión de los residuos de construcción y demolición",
+   "referencia": "Real Decreto 105/2008, de 1 de febrero, por el que se regula la producción y gestión de los residuos de construcción y demolición (BOE núm. 38, de 13 de febrero de 2008)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-2486",
+   "boe_id": "BOE-A-2008-2486",
+   "pdf": "leyes/BOE-A-2008-2486.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado (sin modificaciones indicadas en el PDF). Verificados en el texto los arts. 1, 2, 3, 4, 5 y las disposiciones adicionales primera a cuarta en su enunciado. Pendientes: arts. 6 a 15 y disposiciones finales. El texto cita la Ley 10/1998, sustituida por la Ley 22/2011; las remisiones deben leerse con esa sustitución."
+  },
+  "RD-1627-1997": {
+   "id": "RD-1627-1997",
+   "nombre": "Disposiciones mínimas de seguridad y salud en las obras de construcción",
+   "referencia": "Real Decreto 1627/1997, de 24 de octubre, por el que se establecen disposiciones mínimas de seguridad y de salud en las obras de construcción (BOE núm. 256, de 25 de octubre de 1997)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-22614",
+   "boe_id": "BOE-A-1997-22614",
+   "pdf": "leyes/BOE-A-1997-22614.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 23 de marzo de 2010). Verificados en el texto los arts. 1 a 7, 13, 14, el encabezado de la disposición adicional única y el anexo IV, apartados 9 y 12. El art. 4.1.a conserva el umbral en pesetas (75 millones); el valor vigente debe comprobarse. Pendientes: arts. 8 a 12 y 15 a 19, el resto del anexo IV y la guía técnica del INSST."
+  },
+  "L-22-2011": {
+   "id": "L-22-2011",
+   "nombre": "Ley de residuos y suelos contaminados",
+   "referencia": "Ley 22/2011, de 28 de julio, de residuos y suelos contaminados (BOE núm. 181, de 29 de julio de 2011)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-13046",
+   "boe_id": "BOE-A-2011-13046",
+   "pdf": "leyes/BOE-A-2011-13046.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 9 de abril de 2022). Verificados en el texto los arts. 3 (definiciones de residuo, productor y poseedor), 8.1 (jerarquía) y 22.1.b (objetivo del 70 % para residuos no peligrosos de construcción y demolición antes de 2020). Pendientes: resto del articulado."
+  },
+  "DB-SE-C": {
+   "id": "DB-SE-C",
+   "nombre": "Documento Básico SE-C Cimientos del Código Técnico de la Edificación",
+   "referencia": "Documento Básico SE-C Cimientos del Código Técnico de la Edificación, versión de diciembre de 2019 (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)",
+   "url": "https://www.codigotecnico.org/DocumentosCTE/SeguridadEstructural.html",
+   "boe_id": null,
+   "pdf": "leyes/DB-SE-C-diciembre-2019.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF de la versión de diciembre de 2019 descargado de la web oficial del CTE. Verificados los apartados 2.1, 2.2.1, 3.1, 3.3, 4.1, 4.4, 4.5.1, 4.6, 5.1.1, 5.1.2.1, 5.4.1.1, 6.1.1 y 7.1 a 7.3 en el texto, y los encabezados de los demás. No se ha identificado en el repositorio la norma de aprobación del documento; la ficha del documento cita el Real Decreto 1371/2007 y el Real Decreto 732/2019. No figura en la Orden VIV/984/2009 (BOE-A-2009-6743), que modifica otros documentos básicos. Pendiente: contraste con la versión vigente en codigotecnico.org."
   }
  },
  "contenido": {
@@ -12601,6 +12645,667 @@ window.DATOS_ESTUDIO = {
     "leyes/BOE-A-2004-21760.pdf",
     "leyes/BOE-A-1978-31229.pdf",
     "leyes/BOE-A-2007-5825.pdf"
+   ]
+  },
+  "e01": {
+   "resumen": [
+    {
+     "titulo": "Demoliciones y trabajos previos",
+     "puntos": [
+      "La obra de demolición es una obra de construcción en sentido normativo (RD 105/2008, art. 2.c). El productor de los residuos es el titular de la licencia urbanística (art. 2.e).",
+      "Los derribos que puedan suponer un peligro deben estudiarse, planificarse y ejecutarse bajo la supervisión de una persona competente (RD 1627/1997, anexo IV, apartado 12.a)."
+     ]
+    },
+    {
+     "titulo": "Acondicionamiento del terreno",
+     "puntos": [
+      "Acondicionar el terreno es excavar o rellenar de forma controlada para acomodar la topografía y controlar el agua freática (DB-SE-C, apartado 7.1). Sin estudio específico no se pueden tratar las obras vecinas (apartado 7.1, punto 2).",
+      "Excavación: vaciado limitado por un talud sin contención añadida (apartado 7.2.1). Relleno controlado: el proyecto debe definir el préstamo y las condiciones de explotación y colocación (apartado 7.3.1)."
+     ]
+    },
+    {
+     "titulo": "Requisitos y exigencias básicas del CTE",
+     "puntos": [
+      "El CTE (RD 314/2006) tiene una parte de exigencias básicas y otra de documentos básicos (art. 3.1). La seguridad estructural es el requisito del artículo 10; la exigencia SE 1 pide resistencia y estabilidad durante la construcción y el uso.",
+      "Se justifica con soluciones basadas en los DB o con soluciones alternativas de prestaciones al menos equivalentes (art. 5.1.3). Los agentes responden según el capítulo III de la LOE (art. 5.1.1)."
+     ]
+    },
+    {
+     "titulo": "Proyecto, ejecución y control de calidad",
+     "puntos": [
+      "El proyecto debe definir las obras con detalle suficiente para valorarlas e interpretarlas (art. 6.1.1). El proyecto básico no basta para empezar la obra; el de ejecución la define en su totalidad (art. 6.1.3).",
+      "Control de recepción, de ejecución y de obra terminada (art. 7.2 a 7.4 del CTE). El director de la ejecución de la obra controla la calidad de lo edificado (LOE, art. 13.1); en edificios del grupo a) del artículo 2.1, la titulación habilitante es la de arquitecto técnico (art. 13.2.a)."
+     ]
+    },
+    {
+     "titulo": "Seguridad y salud",
+     "puntos": [
+      "El estudio de seguridad y salud es obligatorio en los supuestos del artículo 4.1 del RD 1627/1997; en los demás casos se redacta un estudio básico (art. 4.2). El presupuesto se cuantifica por valoración unitaria con referencia al cuadro de precios (art. 5.4).",
+      "En excavaciones: entibación, blindaje, apeo o taludes; prevención de la irrupción de agua; localizar cables y conducciones (anexo IV, apartado 9). El plan de seguridad lo aprueba el coordinador antes de empezar (art. 7.2)."
+     ]
+    },
+    {
+     "titulo": "Medición y precios",
+     "puntos": [
+      "La medición se hace por unidades de obra con referencia a un cuadro de precios. Las partidas alzadas solo se admiten en elementos u operaciones de difícil previsión (RD 1627/1997, art. 5.4).",
+      "Los factores del precio son el volumen a retirar, los medios necesarios, la proximidad de colindantes, la profundidad de excavación, el agua y el coste de los residuos, que se valora en capítulo independiente (RD 105/2008, art. 4.1.a.7.º). Las normas de medición no se han verificado."
+     ]
+    },
+    {
+     "titulo": "Residuos de construcción y demolición",
+     "puntos": [
+      "El productor debe incluir en el proyecto un estudio de gestión de residuos y inventariar los peligrosos en las demoliciones (RD 105/2008, art. 4.1.a y 4.1.b). Debe conservar la documentación cinco años (art. 4.1.c).",
+      "El poseedor (quien ejecuta la obra) presenta un plan, entrega los residuos a gestor con documento fehaciente y separa fracciones cuando superan los umbrales del artículo 5.5 (hormigón 80 t; ladrillos 40 t; metal 2 t)."
+     ]
+    },
+    {
+     "titulo": "Jerarquía y objetivos de la Ley 22/2011",
+     "puntos": [
+      "Jerarquía de residuos: prevención, preparación para la reutilización, reciclado, otra valorización y eliminación (Ley 22/2011, art. 8.1).",
+      "Objetivo: antes de 2020, el 70 % en peso de los residuos de construcción y demolición no peligrosos debe destinarse a preparación para la reutilización, reciclado y otra valorización (art. 22.1.b). El RD 105/2008 cita la Ley 10/1998, sustituida por la Ley 22/2011."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Exigencias básicas y documentos básicos (arts. 3, 5, 6, 7, 8 y 10)"
+    },
+    {
+     "id": "DB-SE-C",
+     "rol": "Acondicionamiento del terreno, excavaciones y rellenos (apartados 3, 7.1 a 7.3)"
+    },
+    {
+     "id": "LOE",
+     "rol": "Director de la ejecución de la obra (arts. 2 y 13)"
+    },
+    {
+     "id": "LPRL",
+     "rol": "Marco de la prevención de riesgos laborales (art. 16, en parte)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Seguridad y salud en las obras: estudio, plan, excavaciones y demoliciones (arts. 4, 5, 7 y anexo IV, apartados 9 y 12)"
+    },
+    {
+     "id": "RD-105-2008",
+     "rol": "Producción y gestión de los residuos de construcción y demolición (arts. 2, 4 y 5)"
+    },
+    {
+     "id": "L-22-2011",
+     "rol": "Residuos y suelos contaminados: definiciones, jerarquía y objetivos (arts. 3, 8 y 22)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 2.e del RD 105/2008, ¿quién es el productor de los residuos de una obra con licencia urbanística?",
+     "opciones": [
+      "El titular de la licencia urbanística de la obra",
+      "El transportista",
+      "El vertedero",
+      "El trabajador por cuenta ajena"
+     ],
+     "correcta": 0,
+     "explicacion": "El productor es la persona titular de la licencia urbanística en una obra de construcción o demolición.",
+     "referencia": "Art. 2.e.1.º RD 105/2008"
+    },
+    {
+     "pregunta": "Según el DB-SE-C, apartado 7.1, ¿qué se entiende por acondicionamiento del terreno?",
+     "opciones": [
+      "La instalación de ascensores",
+      "La pintura de las fachadas",
+      "Las operaciones de excavación o relleno controlado para acomodar la topografía y el control del agua freática",
+      "El diseño de la cubierta"
+     ],
+     "correcta": 2,
+     "explicacion": "El DB-SE-C define el acondicionamiento del terreno como las operaciones de excavación o relleno controlado necesarias para acomodar la topografía, junto con el control del agua freática.",
+     "referencia": "DB-SE-C, apartado 7.1"
+    },
+    {
+     "pregunta": "Según el DB-SE-C, apartado 7.2.1, ¿qué es una excavación?",
+     "opciones": [
+      "Un relleno compactado con material de préstamo",
+      "La demolición de un forjado",
+      "Cualquier obra de hormigón armado",
+      "Todo vaciado o desmonte del terreno limitado lateralmente por un talud, sin contención mecánica añadida"
+     ],
+     "correcta": 3,
+     "explicacion": "Excavación es todo vaciado o desmonte del terreno limitado por un talud, provisional o permanente, sin contención mecánica añadida.",
+     "referencia": "DB-SE-C, apartado 7.2.1"
+    },
+    {
+     "pregunta": "Según el art. 10.1 del CTE, ¿qué exigencia pide resistencia y estabilidad frente a las acciones previsibles?",
+     "opciones": [
+      "La exigencia de ahorro de energía",
+      "La exigencia SE 1 de resistencia y estabilidad",
+      "La exigencia de protección frente al ruido",
+      "La exigencia de seguridad en caso de incendio"
+     ],
+     "correcta": 1,
+     "explicacion": "La exigencia básica SE 1 del artículo 10 del CTE exige resistencia y estabilidad frente a las acciones previsibles durante la construcción y el uso.",
+     "referencia": "Art. 10.1 CTE (SE 1)"
+    },
+    {
+     "pregunta": "Según el art. 13.2.a de la LOE, ¿qué titulación habilita como director de la ejecución en edificios del grupo a) del artículo 2.1?",
+     "opciones": [
+      "Arquitecto técnico",
+      "Ingeniero de caminos",
+      "Delineante",
+      "Técnico en prevención sin titulación"
+     ],
+     "correcta": 0,
+     "explicacion": "Para los edificios del grupo a) del artículo 2.1, la titulación habilitante del director de la ejecución es la de arquitecto técnico.",
+     "referencia": "Art. 13.2.a LOE"
+    },
+    {
+     "pregunta": "Según el art. 4.2 del RD 1627/1997, ¿qué se redacta cuando una obra no alcanza los supuestos del artículo 4.1?",
+     "opciones": [
+      "Un libro de visitas",
+      "Nada: nunca se requiere documento de seguridad",
+      "Un estudio básico de seguridad y salud",
+      "Un contrato de arrendamiento"
+     ],
+     "correcta": 2,
+     "explicacion": "En los proyectos que no alcanzan los supuestos del apartado 1 se elabora un estudio básico de seguridad y salud.",
+     "referencia": "Art. 4.2 RD 1627/1997"
+    },
+    {
+     "pregunta": "Según el anexo IV, apartado 12.a, del RD 1627/1997, ¿cómo deben realizarse los derribos que puedan suponer peligro para los trabajadores?",
+     "opciones": [
+      "Solo por la noche",
+      "Por cualquier trabajador sin formación",
+      "Sin ninguna supervisión",
+      "Estudiados, planificados y bajo la supervisión de una persona competente"
+     ],
+     "correcta": 3,
+     "explicacion": "Los trabajos de derribo o demolición que puedan suponer peligro deben estudiarse, planificarse y emprenderse bajo la supervisión de una persona competente.",
+     "referencia": "Anexo IV, apartado 12.a RD 1627/1997"
+    },
+    {
+     "pregunta": "Según el art. 5.5 del RD 105/2008, ¿a partir de qué cantidad prevista debe separarse la fracción de hormigón en obra?",
+     "opciones": [
+      "En todos los casos, sin umbral",
+      "A partir de 80 toneladas",
+      "A partir de 5 toneladas",
+      "A partir de 1.000 toneladas"
+     ],
+     "correcta": 1,
+     "explicacion": "La separación de la fracción de hormigón es obligatoria cuando la cantidad prevista para la obra supera las 80 toneladas.",
+     "referencia": "Art. 5.5 RD 105/2008"
+    },
+    {
+     "pregunta": "Según el art. 4.1.c del RD 105/2008, ¿cuánto tiempo debe conservarse la documentación de gestión de residuos del año natural correspondiente?",
+     "opciones": [
+      "Un mes",
+      "Durante cien años",
+      "Durante los cinco años siguientes",
+      "Solo durante la obra"
+     ],
+     "correcta": 2,
+     "explicacion": "El productor debe mantener la documentación correspondiente a cada año natural durante los cinco años siguientes.",
+     "referencia": "Art. 4.1.c RD 105/2008"
+    },
+    {
+     "pregunta": "Según el art. 22.1.b de la Ley 22/2011, ¿qué objetivo se fija para los residuos no peligrosos de construcción y demolición antes de 2020?",
+     "opciones": [
+      "El 70 % en peso de los producidos destinado a preparación para la reutilización, reciclado y otra valorización",
+      "El 100 % destinado a vertedero",
+      "Ningún objetivo",
+      "El 10 % en peso destinado a preparación para la reutilización, reciclado y otra valorización"
+     ],
+     "correcta": 0,
+     "explicacion": "El artículo 22.1.b fija como mínimo el 70 % en peso de los residuos no peligrosos de construcción y demolición producidos, destinado a preparación para la reutilización, reciclado y otra valorización, antes de 2020.",
+     "referencia": "Art. 22.1.b Ley 22/2011"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué abarca el tema y cómo se ordena",
+     "parrafos": [
+      "El tema recorre el ciclo que precede a la construcción de un edificio cuando el solar no está libre: primero se retiran las construcciones existentes (demoliciones y trabajos previos), después se prepara el terreno (excavaciones, rellenos y gestión del agua), y durante todo el proceso se aplican las exigencias del Código Técnico de la Edificación, las normas de seguridad y salud, la regulación de los residuos y los criterios con los que se mide y se valora la obra.",
+      "Conviene separar cuatro bloques para estudiarlo. El primero es técnico: qué es una demolición, qué trabajos previos hay que hacer y cómo se acondiciona el terreno. El segundo es normativo: el Código Técnico de la Edificación (CTE), la Ley de Ordenación de la Edificación (LOE) y los documentos básicos que la desarrollan. El tercero es preventivo: la evaluación de riesgos, el estudio de seguridad y salud y el plan de seguridad de la obra. El cuarto es ambiental y económico: la gestión de los residuos y la valoración de su coste, junto con la medición y el presupuesto de la obra.",
+      "Las fuentes de este desarrollo son el Real Decreto 314/2006 (CTE), la Ley 38/1999 (LOE), el documento básico DB-SE-C Cimientos, el Real Decreto 1627/1997 (seguridad y salud en las obras de construcción), el Real Decreto 105/2008 (residuos de construcción y demolición) y la Ley 22/2011 (residuos y suelos contaminados). Todas se han consultado en el texto del repositorio o en la fuente oficial que se indica, y los detalles no verificados se señalan al final."
+     ]
+    },
+    {
+     "titulo": "2. La demolición como obra y como fuente de residuos",
+     "parrafos": [
+      "El Real Decreto 105/2008 define la obra de construcción o demolición como la actividad que consiste en la construcción, rehabilitación, reparación, reforma o demolición de un bien inmueble, como un edificio, y en los trabajos que modifican la forma o la sustancia del terreno, como excavaciones o urbanizaciones (art. 2.c). La demolición es, por tanto, una obra en sentido jurídico, con las mismas obligaciones documentales que una construcción nueva, y no solo una operación de derribo.",
+      "La misma norma identifica quién es el productor de los residuos que genera la demolición. Es la persona titular de la licencia urbanística de la obra, y en las obras que no requieren licencia, la titular del bien inmueble (art. 2.e.1.º). Esta regla es importante en un examen porque el productor es el primer responsable de los residuos, aunque no sea quien los retira físicamente.",
+      "La normativa de seguridad trata la demolición como trabajo específico. El Real Decreto 1627/1997, en el apartado 12 del anexo IV, dispone que los trabajos de derribo o demolición que puedan suponer un peligro para los trabajadores deben estudiarse, planificarse y emprenderse bajo la supervisión de una persona competente, adoptando las precauciones, métodos y procedimientos apropiados (anexo IV, apartado 12.a).",
+      "Los trabajos previos a la demolición no tienen una definición única en los textos verificados. En la práctica incluyen la desconexión de los suministros, el vaciado de la edificación, la retirada de elementos peligrosos y la protección de los colindantes. Estos trabajos deben reflejarse en el proyecto y en el estudio de seguridad y salud, y la retirada de los materiales peligrosos debe programarse separadamente, como exige el Real Decreto 105/2008 para las obras de demolición (art. 4.1.b)."
+     ]
+    },
+    {
+     "titulo": "3. Acondicionamiento del terreno: concepto y criterios",
+     "parrafos": [
+      "El DB-SE-C Cimientos del Código Técnico define el acondicionamiento del terreno como todas las operaciones de excavación o relleno controlado que hacen falta para acomodar la topografía inicial a la que requiere el proyecto, así como el control del agua freática para que no interfiera con esas operaciones ni con las construcciones enterradas. Ese control se denomina gestión del agua (DB-SE-C, apartado 7.1, punto 1).",
+      "El mismo documento advierte que sus reglas no contemplan edificaciones u otras obras vecinas que puedan interferir con los trabajos. Si existen, se requiere un estudio específico y detallado del acondicionamiento del terreno (DB-SE-C, apartado 7.1, punto 2). En los solares entre medianeras, esta advertencia es la que decide si el proyecto necesita un estudio adicional.",
+      "La excavación se define como todo vaciado o desmonte del terreno limitado lateralmente por un talud, provisional o permanente, sin ninguna contención mecánica añadida (DB-SE-C, apartado 7.2.1, punto 1). El proyecto debe considerar la estabilidad del talud, la inestabilidad global en suelos sin cohesión, la erosión por lluvia y viento, el incremento de humedad y, en terrenos expansivos, la desecación (apartado 7.2.1, punto 2).",
+      "Los rellenos son los rellenos controlados utilizados en la edificación (DB-SE-C, apartado 7.3.1). Exigen un material de características adecuadas a la colocación y compactación, y el proyecto debe definir el préstamo, las condiciones de explotación, transporte y colocación del material (apartado 7.3.1, puntos 2 y 3). Un relleno que actúa como talud se analiza con los mismos estados límite de la excavación."
+     ]
+    },
+    {
+     "titulo": "4. El estudio geotécnico previo",
+     "parrafos": [
+      "El acondicionamiento del terreno no puede proyectarse sin un estudio geotécnico. El DB-SE-C lo define como el compendio de información cuantificada sobre las características del terreno en relación con el tipo de edificio previsto y su entorno, necesario para analizar y dimensionar los cimientos (apartado 3.1, punto 1). Su conclusión puede afectar a la concepción estructural, al tipo de cimiento y a la cota de apoyo, por lo que debe hacerse en la fase inicial del proyecto y, en cualquier caso, antes de que la estructura esté completamente dimensionada (apartado 3.1, punto 5).",
+      "El contenido mínimo del estudio se recoge en el apartado 3.3. Debe incluir los antecedentes, los trabajos de reconocimiento, la distribución de unidades geotécnicas, los niveles freáticos y las características del terreno con sus valores característicos. Para edificios de las categorías C-0 y C-1 se exigen al menos dos perfiles geotécnicos, y para el resto, al menos tres (apartado 3.3, punto 2).",
+      "El apartado 3.1 también fija quién puede redactarlo: el proyectista, otro técnico competente o, en su caso, el director de obra, con el preceptivo visado colegial (apartado 3.1, punto 6). Para el examen, conviene recordar que el estudio geotécnico es el punto de partida del acondicionamiento: sin él no se puede saber a qué cota excavar ni qué tipo de relleno ni qué control de agua se necesita."
+     ]
+    },
+    {
+     "titulo": "5. Requisitos y exigencias básicas del CTE",
+     "parrafos": [
+      "El Código Técnico de la Edificación (Real Decreto 314/2006) se ordena en dos partes. La primera contiene las disposiciones generales y las exigencias básicas; la segunda, los Documentos Básicos (DB) que concretan esas exigencias (art. 3.1). Los DB contienen la caracterización y cuantificación de las exigencias, y procedimientos que acreditan su cumplimiento, como métodos de verificación o soluciones sancionadas por la práctica (art. 3.2).",
+      "Para la demolición y el acondicionamiento, la exigencia relevante es la de seguridad estructural (SE), regulada en el artículo 10 del CTE. Su objetivo es que el edificio tenga un comportamiento estructural adecuado frente a las acciones previsibles durante su construcción y uso (art. 10.1). Entre los DB que la desarrollan figura el DB-SE-C Cimientos (art. 10.3), y la exigencia SE 1 exige resistencia y estabilidad frente a las acciones de las fases de construcción (art. 10.1 del CTE, exigencia SE 1).",
+      "El CTE permite justificar el cumplimiento de dos formas (art. 5.1.3). La primera es adoptar soluciones basadas en los DB, cuya aplicación acredita por sí sola el cumplimiento. La segunda es adoptar soluciones alternativas, que pueden apartarse total o parcialmente de los DB, siempre que el proyectista o el director de obra, bajo su responsabilidad y con la conformidad del promotor, justifiquen documentalmente que sus prestaciones son al menos equivalentes.",
+      "En cuanto a los agentes, el artículo 5.1.1 del CTE establece que son responsables de su aplicación los agentes que participan en el proceso de la edificación, según el capítulo III de la LOE. El artículo 5.1.2 les obliga a cumplir las condiciones que el CTE fija para el proyecto, la ejecución y el mantenimiento. Estas condiciones de proyecto, ejecución y mantenimiento son el contenido del requisito básico, y se desarrollan en los artículos 6, 7 y 8 del CTE."
+     ]
+    },
+    {
+     "titulo": "6. Prescripciones técnicas y condiciones del proyecto",
+     "parrafos": [
+      "El proyecto debe describir el edificio y definir las obras con el detalle suficiente para valorarlas e interpretarlas inequívocamente durante la ejecución (CTE, art. 6.1.1). Para comprobar que las soluciones cumplen las exigencias, el proyecto debe incluir, al menos, las características técnicas mínimas de los productos, equipos y sistemas que se incorporen de forma permanente; las características técnicas de cada unidad de obra con sus condiciones de ejecución y controles; las verificaciones y pruebas de servicio; y las instrucciones de uso y mantenimiento (art. 6.1.2, letras a a d).",
+      "El proyecto puede desarrollarse en dos fases. El proyecto básico define las características generales y justifica soluciones concretas; es suficiente para pedir la licencia, pero insuficiente para iniciar la construcción (art. 6.1.3.a). El proyecto de ejecución desarrolla el básico y define la obra en su totalidad, sin rebajar las prestaciones declaradas en el básico (art. 6.1.3.b). Para el acondicionamiento y la demolición, el proyecto debe contener el estudio geotécnico y, en obras de demolición, el estudio de gestión de residuos, que forma parte del proyecto de ejecución (RD 105/2008, art. 4.1.a).",
+      "En lo que se refiere a las prescripciones técnicas, el Real Decreto 105/2008 exige que el estudio de gestión de residuos incluya las prescripciones del pliego de prescripciones técnicas particulares del proyecto en relación con el almacenamiento, manejo y separación de los residuos dentro de la obra (art. 4.1.a.6.º). Esto significa que el pliego no es un documento aparte: debe recoger las condiciones de gestión de residuos.",
+      "El DB-SE-C también contiene prescripciones técnicas específicas para el terreno. Por ejemplo, exige que el proyecto considere los procesos que incrementan la humedad natural del terreno, porque reducen su resistencia y aumentan su deformabilidad (apartado 7.2.1, punto 2, letra d). Estas prescripciones deben trasladarse al pliego de condiciones del proyecto para que el constructor las cumpla."
+     ]
+    },
+    {
+     "titulo": "7. Procesos, condiciones de ejecución y control de calidad",
+     "parrafos": [
+      "Las obras se ejecutan con sujeción al proyecto y sus modificaciones autorizadas por el director de obra, con la conformidad del promotor, y conforme a la legislación aplicable, a las normas de buena práctica constructiva y a las instrucciones del director de obra y del director de la ejecución de la obra (CTE, art. 7.1.1).",
+      "La LOE define al director de la ejecución de la obra como el agente que, dentro de la dirección facultativa, asume la función técnica de dirigir la ejecución material y de controlar cualitativa y cuantitativamente la construcción y la calidad de lo edificado (LOE, art. 13.1). Para edificios de los usos del grupo a) del artículo 2.1, la titulación habilitante es la de arquitecto técnico (LOE, art. 13.2.a).",
+      "El control de calidad de la ejecución está regulado en el CTE en tres momentos: el control de recepción de productos, equipos y sistemas (art. 7.2), el control de ejecución de cada unidad de obra (art. 7.3) y el control de la obra terminada (art. 7.4). El control de recepción comprende la documentación de los suministros (art. 7.2.1), los distintivos de calidad y las evaluaciones técnicas de idoneidad (art. 7.2.2) y los ensayos (art. 7.2.3).",
+      "El control de ejecución lo realiza el director de la ejecución de la obra, que verifica el replanteo, los materiales, la correcta ejecución de los elementos constructivos y las comprobaciones previstas en el proyecto (CTE, art. 7.3.1). En la recepción pueden tenerse en cuenta las certificaciones de gestión de calidad de los agentes y las verificaciones de las entidades de control de calidad (art. 7.3.1). Para la obra terminada, el art. 7.4 exige las pruebas de servicio previstas en el proyecto y las exigidas por la legislación."
+     ]
+    },
+    {
+     "titulo": "8. Evaluación de riesgos y seguridad y salud en la demolición y el terreno",
+     "parrafos": [
+      "La prevención se basa en la evaluación de riesgos, que la Ley 31/1995 (LPRL) regula como instrumento de la planificación de la actividad preventiva (LPRL, art. 16). En las obras de construcción, el Real Decreto 1627/1997 es la norma específica: establece las disposiciones mínimas de seguridad y salud aplicables a las obras de construcción en el marco de la LPRL (art. 1.1).",
+      "El estudio de seguridad y salud es obligatorio en las obras con alguno de los supuestos del artículo 4.1: un presupuesto de ejecución igual o superior a 75 millones de pesetas, una duración superior a 30 días laborables con más de 20 trabajadores simultáneos, un volumen de mano de obra superior a 500 días de trabajo, o las obras de túneles, galerías, conducciones subterráneas y presas. En los demás casos basta con un estudio básico (art. 4.2). El texto consolidado conserva la cifra en pesetas; equivale a unos 450.759 euros, pero el umbral vigente debe comprobarse.",
+      "El estudio debe contener una memoria descriptiva de los procedimientos y medios auxiliares, identificación de riesgos evitables y no evitables con sus medidas, un pliego de condiciones, planos, mediciones de las unidades de seguridad y un presupuesto (art. 5.2, letras a a e). El presupuesto debe cuantificar los gastos por suma total y por valoración unitaria, con referencia al cuadro de precios, y solo pueden figurar partidas alzadas en elementos de difícil previsión (art. 5.4).",
+      "Cada contratista elabora un plan de seguridad y salud a partir del estudio, que puede proponer medidas alternativas siempre que no reduzcan los niveles de protección (art. 7.1). El plan debe ser aprobado antes del inicio de la obra por el coordinador en materia de seguridad y salud durante la ejecución (art. 7.2). El libro de incidencias debe mantenerse en la obra y estar en poder del coordinador (art. 13.3), y el coordinador puede paralizar los tajos en caso de riesgo grave e inminente (art. 14.1). Para los movimientos de tierras y las excavaciones, el anexo IV, apartado 9, exige localizar y reducir al mínimo los peligros de cables y conducciones subterráneas antes de empezar (apartado 9.a), prevenir el sepultamiento con entibación, blindaje, apeo o taludes, prevenir la irrupción de agua, garantizar la ventilación y permitir la salida de los trabajadores (apartado 9.b), y mantener alejadas las tierras, escombros y vehículos del borde de la excavación (apartado 9.d)."
+     ]
+    },
+    {
+     "titulo": "9. Criterios de medición y factores que influyen en el precio",
+     "parrafos": [
+      "La medición y el presupuesto de la obra se hacen por unidades de obra, con un cuadro de precios de referencia. El Real Decreto 1627/1997 exige que el presupuesto de seguridad y salud cuantifique los gastos por valoración unitaria con referencia al cuadro de precios sobre el que se calcula (art. 5.4). Esta exigencia muestra que la medición y el precio de la seguridad son parte del proyecto y no un añadido.",
+      "Los factores que influyen en el precio de las demoliciones y del acondicionamiento son el volumen de material a retirar, el tipo de medios necesarios (mecánicos, manuales o con explosivos, que tienen su normativa específica según el anexo IV, apartado 12.c), la proximidad de colindantes, la profundidad de excavación, la presencia de agua freática y el coste de gestión de los residuos. El Real Decreto 105/2008 exige valorar el coste previsto de la gestión de los residuos en un capítulo independiente del presupuesto (art. 4.1.a.7.º).",
+      "Las normas concretas de medición y de precios de la contratación pública no se han verificado en este tema. La Ley 9/2017 de contratos del sector público se ha consultado en el repositorio, pero sus artículos sobre valoración no forman parte de la verificación de este desarrollo. Por eso, en un examen, los criterios de medición deben formularse como principios (medir por unidades, referir a cuadro de precios, valorar la seguridad y los residuos como capítulos propios) y no como reglas numéricas."
+     ]
+    },
+    {
+     "titulo": "10. Residuos de construcción y demolición: productor, poseedor y gestor",
+     "parrafos": [
+      "El Real Decreto 105/2008 regula la producción y gestión de los residuos de construcción y demolición con el fin de fomentar, por este orden, su prevención, reutilización, reciclado y otras formas de valorización, y asegurar un tratamiento adecuado a los destinados a eliminación (art. 1). Define el residuo de construcción y demolición como cualquier sustancia u objeto que, cumpliendo la definición de residuo, se genere en una obra de construcción o demolición (art. 2.a).",
+      "Distingue entre productor y poseedor. El productor es el titular de la licencia urbanística (art. 2.e.1.º), y el poseedor es quien tiene los residuos y no ostenta la condición de gestor. En todo caso es poseedor quien ejecuta la obra, como el constructor, los subcontratistas o los trabajadores autónomos, pero no los trabajadores por cuenta ajena (art. 2.f). La Ley 22/2011 define al productor como quien produce residuos, y al poseedor como el productor u otra persona que los tiene en posesión (art. 3, letras i y j).",
+      "El productor tiene obligaciones propias (art. 4.1). Debe incluir en el proyecto de ejecución un estudio de gestión de residuos que contenga, al menos, la estimación de cantidades en toneladas y metros cúbicos codificadas según la lista europea, las medidas de prevención, las operaciones de reutilización, valorización o eliminación previstas, las medidas de separación y los planos de almacenamiento, el pliego de prescripciones y el coste de la gestión (art. 4.1.a). En las obras de demolición, debe inventariar los residuos peligrosos y prever su retirada selectiva (art. 4.1.b).",
+      "El productor debe conservar la documentación que acredite la gestión de los residuos durante cinco años siguientes al año natural correspondiente (art. 4.1.c). Cuando la obra requiere licencia, debe constituir la fianza o garantía que exija la comunidad autónoma (art. 4.1.d).",
+      "El poseedor debe presentar a la propiedad un plan que refleje cómo cumplirá sus obligaciones, que, una vez aprobado por la dirección facultativa y aceptado por la propiedad, forma parte de los documentos contractuales (art. 5.1). Debe entregar los residuos a un gestor o participar en un acuerdo de colaboración, y destinarlos preferentemente a reutilización, reciclado u otra valorización (art. 5.2). La entrega debe constar en documento fehaciente con la identificación de las partes, la obra, la cantidad, el tipo de residuo y el gestor de destino (art. 5.3).",
+      "La separación en fracciones es obligatoria cuando la cantidad prevista para la obra supera ciertos umbrales por fracción: 80 toneladas de hormigón, 40 de ladrillos, tejas y cerámicos, 2 de metal, 1 de madera, 1 de vidrio, 0,5 de plástico y 0,5 de papel y cartón (art. 5.5). El órgano ambiental autonómico puede eximir de esta obligación de forma excepcional, si no estaba especificada ni presupuestada en el proyecto (art. 5.6).",
+      "La Ley 22/2011 establece la jerarquía de residuos: prevención, preparación para la reutilización, reciclado, otro tipo de valorización y, por último, eliminación (art. 8.1). Fija como objetivo que, antes de 2020, la cantidad de residuos de construcción y demolición no peligrosos destinados a preparación para la reutilización, reciclado y otra valorización alcance el 70 % en peso de los producidos (art. 22.1.b). El texto del RD 105/2008 cita la Ley 10/1998, que la Ley 22/2011 sustituye. Esta sustitución debe tenerse en cuenta al citar las remisiones de la norma reglamentaria."
+     ]
+    },
+    {
+     "titulo": "11. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir la definición de conceptos y la identificación del responsable de cada obligación. Conviene memorizar tres definiciones: la de acondicionamiento del terreno del DB-SE-C (apartado 7.1), la de obra de construcción o demolición del RD 105/2008 (art. 2.c) y la de productor de residuos (art. 2.e). Con esas tres, se responden la mayoría de las preguntas de definición.",
+      "Para los responsables, la clave es el orden: el promotor está obligado a que se elabore el estudio de seguridad (RD 1627/1997, art. 4.1); el estudio geotécnico lo redacta el proyectista u otro técnico competente (DB-SE-C, apartado 3.1, punto 6); el productor de residuos, que es el titular de la licencia, tiene las obligaciones del artículo 4 del RD 105/2008; el poseedor, que ejecuta la obra, tiene las del artículo 5; y el director de la ejecución controla la obra según el CTE (art. 7.3) y la LOE (art. 13).",
+      "Los errores habituales son tres. El primero es atribuir al poseedor la obligación de hacer el estudio de gestión, que corresponde al productor en el proyecto. El segundo es afirmar que el estudio de seguridad es obligatorio en todas las obras, cuando el RD 1627/1997 prevé el estudio básico en los casos menores (art. 4.2). El tercero es creer que el DB-SE-C trata la demolición: el documento se ocupa de cimientos, excavaciones, rellenos y contenciones, no del derribo.",
+      "Para un caso práctico de demolición con edificios colindantes, el orden de análisis es: identificar el productor y el poseedor; comprobar si hay estudio de seguridad o estudio básico; prever los trabajos de derribo bajo supervisión de persona competente (anexo IV, apartado 12.a); incluir el inventario de peligrosos (RD 105/2008, art. 4.1.b); y, finalmente, el estudio geotécnico y el estudio específico del acondicionamiento si hay construcciones vecinas (DB-SE-C, apartado 7.1, punto 2)."
+     ]
+    },
+    {
+     "titulo": "12. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en la fuente oficial: el Real Decreto 314/2006 (CTE) en su parte general, los artículos 3, 5, 6, 7 y 10 del CTE; la LOE en sus artículos 3 y 13; la LPRL, de la que solo se ha comprobado el inicio de su artículo 16; el Real Decreto 1627/1997 (última modificación indicada en el PDF: 23 de marzo de 2010); el Real Decreto 105/2008 (sin modificaciones en el PDF consolidado); y la Ley 22/2011 (última modificación indicada: 9 de abril de 2022). El DB-SE-C se ha consultado en la versión de diciembre de 2019 descargada de la web oficial del Código Técnico, no en el BOE.",
+      "No se ha verificado la norma de aprobación del DB-SE-C ni sus modificaciones posteriores; la ficha del documento cita el Real Decreto 1371/2007 y el Real Decreto 732/2019. No se ha comprobado que el Real Decreto 105/2008 esté vigente en todas sus partes tras la Ley 22/2011, porque la consolidación del BOE no lo indica.",
+      "Las normas de medición, los criterios de precios y el Real Decreto 1098/2001 (relaciones valoradas y certificaciones) no están en el repositorio y no se han consultado. El Estatuto de los Trabajadores, la normativa de la Junta de Andalucía sobre residuos y los planes autonómicos de gestión de residuos tampoco se han verificado."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/BOE-A-1999-21567.pdf",
+    "leyes/DB-SE-C-diciembre-2019.pdf",
+    "leyes/BOE-A-1997-22614.pdf",
+    "leyes/BOE-A-2008-2486.pdf",
+    "leyes/BOE-A-2011-13046.pdf",
+    "leyes/BOE-A-1995-24292.pdf"
+   ]
+  },
+  "e02": {
+   "resumen": [
+    {
+     "titulo": "Estudio geotécnico",
+     "puntos": [
+      "El estudio geotécnico es el compendio de información cuantificada sobre el terreno, necesario para dimensionar los cimientos (DB-SE-C, apartado 3.1, punto 1). Lo redacta el proyectista u otro técnico competente, con visado colegial (apartado 3.1, punto 6).",
+      "El número mínimo de perfiles depende de la categoría: dos para C-0 y C-1, y tres para el resto (apartado 3.3, punto 2). Antes de cimentar, se confirma el estudio y se comprueba que el terreno corresponde a lo previsto (apartado 4.6.2)."
+     ]
+    },
+    {
+     "titulo": "Cimentaciones directas",
+     "puntos": [
+      "Las directas reparten las cargas en un plano horizontal. La zapata aislada sirve a un pilar; la combinada, a dos o más pilares contiguos; la corrida, a tres o más alineados; el pozo, a un pilar; el emparrillado, a una retícula; y la losa, a un conjunto de pilares y muros (DB-SE-C, apartados 4.1 y tabla 4.1).",
+      "Las losas cubren el área disponible y dan la mínima presión unitaria, pero pueden dar asientos considerables en suelos compresibles de gran espesor (apartado 4.1.5)."
+     ]
+    },
+    {
+     "titulo": "Cimentaciones profundas y contención",
+     "puntos": [
+      "Es profunda la cimentación con el extremo inferior a más de ocho veces su diámetro o ancho (DB-SE-C, apartado 5.1.1). Los pilotes se clasifican por la forma de trabajo: por fuste (flotantes) o por punta (columna) (apartado 5.1.2.1).",
+      "Las pantallas se ejecutan antes de la excavación y trabajan a flexión; si hay nivel freático, necesitan impermeabilización suplementaria conforme al DB-HS (apartado 6.1.1)."
+     ]
+    },
+    {
+     "titulo": "Requisitos del CTE",
+     "puntos": [
+      "La seguridad estructural es el requisito del artículo 10 del CTE: la exigencia SE 1 pide resistencia y estabilidad, y la SE 2, aptitud al servicio sin deformaciones inadmisibles (art. 10.1 y 10.2).",
+      "El DB-SE-C es el documento que concreta las cimentaciones (art. 10.3). Las estructuras de hormigón se rigen por la Instrucción de Hormigón Estructural vigente (art. 10.4), que no se ha verificado en el repositorio."
+     ]
+    },
+    {
+     "titulo": "Ejecución y control",
+     "puntos": [
+      "Durante la ejecución se comprueban el replanteo, las dimensiones, las armaduras, los recubrimientos y la compactación (DB-SE-C, apartado 4.6.4). Las bolsadas blandas se excavan y sustituyen (apartado 4.5.1.1).",
+      "El director de la ejecución controla la calidad de lo edificado (LOE, art. 13.1). El control del CTE se divide en recepción de productos, ejecución y obra terminada (CTE, art. 7.2 a 7.4)."
+     ]
+    },
+    {
+     "titulo": "Comprobaciones finales, conservación y responsabilidad",
+     "puntos": [
+      "Antes de la puesta en servicio se comprueba que las zapatas se comportan como se previó y que los asientos se ajustan (DB-SE-C, apartado 4.6.5). En edificios C-3 y C-4 es obligatoria la nivelación para controlar asientos (apartado 4.6.5, punto 2).",
+      "El plan de mantenimiento forma parte del libro del edificio (CTE, art. 8.1.3). La LOE responde diez años por los daños que afecten a la cimentación (LOE, art. 17.1.a)."
+     ]
+    },
+    {
+     "titulo": "Seguridad y salud en la cimentación",
+     "puntos": [
+      "En las excavaciones se previene el sepultamiento con entibación, blindaje, apeo o taludes, y la irrupción de agua (RD 1627/1997, anexo IV, apartado 9.b). Antes de excavar deben localizarse los cables y conducciones subterráneas (apartado 9.a).",
+      "El estudio de seguridad debe incluir las medidas de los riesgos de excavación y de cimentación, con presupuesto por valoración unitaria (arts. 4 y 5). El derribo de elementos existentes exige supervisión de persona competente (anexo IV, apartado 12.a)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Exigencias de seguridad estructural y conservación (arts. 5, 7, 8 y 10)"
+    },
+    {
+     "id": "DB-SE-C",
+     "rol": "Documento básico de cimientos (apartados 3, 4, 5, 6.1.1 y 7)"
+    },
+    {
+     "id": "LOE",
+     "rol": "Requisitos básicos, director de la ejecución y responsabilidad (arts. 3.1.b.1, 13 y 17.1.a)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Seguridad y salud en obras: excavaciones y trabajos específicos (arts. 4, 5 y anexo IV, apartados 9 y 12)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el DB-SE-C, apartado 5.1.1, ¿cuándo se considera profunda una cimentación?",
+     "opciones": [
+      "Cuando su extremo inferior está a más de ocho veces su diámetro o ancho",
+      "Cuando tiene más de un metro de altura",
+      "Cuando se construye con zapatas aisladas",
+      "Cuando el edificio tiene una planta"
+     ],
+     "correcta": 0,
+     "explicacion": "El DB-SE-C considera profunda la cimentación cuyo extremo inferior está a una profundidad superior a ocho veces su diámetro o ancho.",
+     "referencia": "DB-SE-C, apartado 5.1.1"
+    },
+    {
+     "pregunta": "Según el DB-SE-C, apartado 4.1.2, ¿qué es una zapata corrida?",
+     "opciones": [
+      "La que se usa solo en sótanos",
+      "La que recoge un solo pilar",
+      "La que recoge tres o más pilares o muros alineados",
+      "La que se apoya solo en pilotes"
+     ],
+     "correcta": 2,
+     "explicacion": "La zapata combinada recoge dos o más pilares, y la zapata corrida, tres o más alineados.",
+     "referencia": "DB-SE-C, apartado 4.1.2"
+    },
+    {
+     "pregunta": "Según el DB-SE-C, apartado 3.3, punto 2, ¿cuántos perfiles geotécnicos mínimos se exigen a un edificio de categoría C-2?",
+     "opciones": [
+      "Ninguno",
+      "Uno",
+      "Dos",
+      "Tres"
+     ],
+     "correcta": 3,
+     "explicacion": "Para los edificios C-0 y C-1 se exigen dos perfiles como mínimo y para el resto, tres; el C-2 queda en el segundo grupo.",
+     "referencia": "DB-SE-C, apartado 3.3, punto 2"
+    },
+    {
+     "pregunta": "Según el art. 10.1 del CTE, ¿qué exigencia básica pide resistencia y estabilidad?",
+     "opciones": [
+      "La exigencia HR 1",
+      "La exigencia SE 1",
+      "La exigencia HE 2",
+      "La exigencia SUA 1"
+     ],
+     "correcta": 1,
+     "explicacion": "La exigencia SE 1 del artículo 10 del CTE exige resistencia y estabilidad frente a las acciones previsibles.",
+     "referencia": "Art. 10.1 CTE (SE 1)"
+    },
+    {
+     "pregunta": "Según el art. 10.4 del CTE, ¿qué norma regula las estructuras de hormigón?",
+     "opciones": [
+      "La Instrucción de Hormigón Estructural vigente",
+      "El Código Civil",
+      "La Ley de Contratos del Sector Público",
+      "El reglamento de ascensores"
+     ],
+     "correcta": 0,
+     "explicacion": "El artículo 10.4 del CTE remite las estructuras de hormigón a la Instrucción de Hormigón Estructural vigente.",
+     "referencia": "Art. 10.4 CTE"
+    },
+    {
+     "pregunta": "Según el DB-SE-C, apartado 4.6.5, punto 2, ¿en qué edificios es obligatorio un sistema de nivelación para controlar el asiento?",
+     "opciones": [
+      "En los garajes de una planta",
+      "En ningún edificio",
+      "En los edificios de tipo C-3 y C-4",
+      "En las casetas de obra"
+     ],
+     "correcta": 2,
+     "explicacion": "En edificios C-3 y C-4 es obligado establecer un sistema de nivelación que controle el asiento de las zonas más características.",
+     "referencia": "DB-SE-C, apartado 4.6.5, punto 2"
+    },
+    {
+     "pregunta": "Según el art. 17.1.a de la LOE, ¿durante cuánto tiempo responden los agentes de los daños materiales por defectos que afecten a la cimentación y comprometan la estabilidad?",
+     "opciones": [
+      "Durante treinta años",
+      "Durante un año",
+      "Durante tres años",
+      "Durante diez años"
+     ],
+     "correcta": 3,
+     "explicacion": "El artículo 17.1.a de la LOE establece la responsabilidad durante diez años por los daños materiales causados por vicios o defectos que afecten a la cimentación y comprometan la resistencia y la estabilidad.",
+     "referencia": "Art. 17.1.a LOE"
+    },
+    {
+     "pregunta": "Según el anexo IV, apartado 9.b, del RD 1627/1997, ¿qué debe preverse en las excavaciones para prevenir el sepultamiento?",
+     "opciones": [
+      "Nada, si la excavación es pequeña",
+      "Entibación, blindaje, apeo, taludes u otras medidas adecuadas",
+      "Trabajar sin protección",
+      "Acumular tierras junto al borde"
+     ],
+     "correcta": 1,
+     "explicacion": "El anexo IV, apartado 9.b.1.º, exige precauciones para prevenir el sepultamiento mediante entibación, blindaje, apeo, taludes u otras medidas adecuadas.",
+     "referencia": "Anexo IV, apartado 9.b.1.º RD 1627/1997"
+    },
+    {
+     "pregunta": "Según el DB-SE-C, apartado 4.6.1, punto 4, ¿qué no debe hacerse en una cimentación directa?",
+     "opciones": [
+      "Consultar el estudio geotécnico",
+      "Revisar su estado",
+      "Practicar perforaciones que reduzcan su capacidad resistente",
+      "Mantener el drenaje"
+     ],
+     "correcta": 2,
+     "explicacion": "El DB prohíbe hacer obras nuevas que pongan en peligro la cimentación, como perforaciones que reduzcan su capacidad resistente, pilares que transmitan cargas importantes o excavaciones importantes en sus proximidades.",
+     "referencia": "DB-SE-C, apartado 4.6.1, punto 4"
+    },
+    {
+     "pregunta": "Según el DB-SE-C, apartado 6.1.1, ¿qué caracteriza a las pantallas de contención?",
+     "opciones": [
+      "Se ejecutan desde la superficie antes de la excavación y trabajan fundamentalmente a flexión",
+      "Son siempre de madera",
+      "No requieren ninguna justificación",
+      "Se ejecutan después de la excavación y trabajan a tracción"
+     ],
+     "correcta": 0,
+     "explicacion": "Las pantallas se construyen desde la superficie antes de la excavación y trabajan fundamentalmente a flexión.",
+     "referencia": "DB-SE-C, apartado 6.1.1"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué es una cimentación y por qué es decisiva",
+     "parrafos": [
+      "La cimentación es la parte del edificio que transmite al terreno las cargas de la estructura: las de los pilares, los muros de carga o de contención, los forjados y el peso propio del conjunto. Si falla, falla todo el edificio, y por eso el Código Técnico de la Edificación y la Ley de Ordenación de la Edificación le dedican un tratamiento específico. Es también la parte de la obra que menos se puede corregir después de construida, lo que explica el énfasis en el estudio previo y en el control de la ejecución.",
+      "El punto de partida normativo es la exigencia de seguridad estructural. La LOE incluye entre los requisitos básicos de la edificación la seguridad estructural, de tal forma que no se produzcan daños que afecten a la cimentación, los soportes, las vigas, los forjados o los muros (LOE, art. 3.1.b.1). El CTE desarrolla esa exigencia en su artículo 10, y dentro de los documentos básicos que lo concretan figura el DB-SE-C Cimientos (art. 10.3).",
+      "Para estudiar el tema conviene distinguir cuatro bloques: el estudio geotécnico, que determina las condiciones del terreno; la tipología de la cimentación, que depende de esas condiciones y de las cargas; las condiciones de materiales, ejecución y control, que aseguran que lo proyectado se construye; y la conservación, la prevención de riesgos y la medición y el precio."
+     ]
+    },
+    {
+     "titulo": "2. El estudio geotécnico",
+     "parrafos": [
+      "El estudio geotécnico es el compendio de información cuantificada sobre las características del terreno, en relación con el tipo de edificio previsto y su entorno, necesario para analizar y dimensionar los cimientos (DB-SE-C, apartado 3.1, punto 1). Las características del terreno de apoyo se determinan mediante el reconocimiento del terreno, cuyos resultados quedan reflejados en el estudio (apartado 3.1, punto 2).",
+      "La intensidad y el alcance del reconocimiento dependen de la información previa del planeamiento, de la extensión del área, de la complejidad del terreno y de la importancia de la edificación. Salvo justificación, el reconocimiento no puede ser inferior al que fija el DB (apartado 3.1, punto 3). Para clasificar la intensidad, el DB distingue el tipo de construcción en las categorías C-0 (menos de cuatro plantas y menos de 300 m²), C-1 (otras de menos de cuatro plantas), C-2 (entre cuatro y diez plantas), C-3 (entre once y veinte plantas) y C-4 (conjuntos monumentales o singulares, o de más de veinte plantas), contando los sótanos (tabla 3.1).",
+      "El contenido del estudio se fija en el apartado 3.3. Debe recoger los antecedentes y datos, los trabajos de reconocimiento, la distribución de unidades geotécnicas y sus espesores, los niveles freáticos y los parámetros esenciales de cada unidad, como densidad, rozamiento, cohesión, deformabilidad, expansividad, colapso y agresividad del agua y del terreno (apartado 3.3, puntos 1 a 3). En municipios con aceleración sísmica de al menos 0,08 g, debe incluir además la clasificación sísmica de los estratos (punto 4).",
+      "Antes de ejecutar la cimentación, debe confirmarse el estudio geotécnico y comprobarse visualmente, o con las pruebas que se estimen oportunas, que el terreno de apoyo corresponde con lo previsto (DB-SE-C, apartado 4.6.2, punto 1). La comprobación incluye que el nivel de apoyo se ajusta al previsto, que la estratigrafía coincide con la del estudio, que el nivel freático y la resistencia y humedad del terreno son similares a los supuestos, y que no se detectan defectos evidentes como cavernas, fallas o corrientes subterráneas (apartado 4.6.2, punto 2, letras a a e). El resultado debe incorporarse a la documentación final de la obra."
+     ]
+    },
+    {
+     "titulo": "3. Cimentaciones directas: tipos y descripción",
+     "parrafos": [
+      "Una cimentación directa reparte las cargas de la estructura en un plano de apoyo horizontal. Se emplea para transmitir al terreno las cargas de uno o varios pilares, de los muros de carga o de contención en sótanos, de los forjados o de toda la estructura. Cuando las condiciones lo permiten, son las preferidas, y por eso se llaman también cimentaciones superficiales (DB-SE-C, apartado 4.1, puntos 1 y 2).",
+      "La tabla 4.1 del DB relaciona cada tipo con su uso más habitual. La zapata aislada sirve a un pilar aislado (interior, medianero o de esquina). La zapata combinada, a dos o más pilares contiguos. La zapata corrida, a alineaciones de tres o más pilares o muros. El pozo de cimentación, a un pilar aislado. El emparrillado, a un conjunto de pilares y muros en retícula. La losa, a un conjunto de pilares y muros (tabla 4.1).",
+      "La zapata aislada es la cimentación normal de los pilares cuando el terreno es firme y competente, la presión media es alta y se esperan asientos pequeños o moderados (apartado 4.1.1, punto 1). Las zapatas interiores suelen ser de planta cuadrada por su sencillez constructiva y estructural, aunque puede convenir una planta rectangular cuando las separaciones entre crujías son distintas en dos direcciones perpendiculares (punto 2).",
+      "Las zapatas combinadas y corridas se emplean cuando la capacidad portante del terreno es pequeña o moderada, cuando hay varios pilares muy próximos o cuando las cargas por pilar son elevadas, de modo que las zapatas aisladas se solaparían (apartado 4.1.2, punto 1). La zapata combinada recoge dos o más pilares; la corrida, tres o más alineados. También son recomendables para limitar asientos diferenciales y para reducir la excentricidad cuando hay momentos flectores importantes en la base del pilar (puntos 2 y 3).",
+      "El pozo de cimentación es el tipo que se ejecuta para un pilar aislado, y el emparrillado es una retícula de elementos que reparte las cargas de pilares y muros. La losa de cimentación recoge todos los elementos estructurales del edificio y cubre el área disponible, lo que da la mínima presión unitaria y la máxima anchura. Puede ser continua y uniforme, con refuerzos bajo pilares, con pedestales, con sección en cajón, nervada o aligerada (apartado 4.1.5, puntos 1 a 3). En suelos compresibles de gran espesor, la losa puede dar asientos considerables si no se prevén compensaciones de cargas."
+     ]
+    },
+    {
+     "titulo": "4. Cimentaciones profundas: definición y tipos",
+     "parrafos": [
+      "El DB considera profunda la cimentación cuyo extremo inferior está a una profundidad superior a ocho veces su diámetro o ancho (DB-SE-C, apartado 5.1.1, punto 1). Cuando la ejecución de una cimentación superficial no es técnicamente viable, debe contemplarse la posibilidad de una cimentación profunda (punto 2).",
+      "Las cimentaciones profundas se clasifican en pilote aislado, cuando no interacciona con otros pilotes; grupo de pilotes, cuando por su proximidad interaccionan o están unidos por elementos rígidos que trabajan conjuntamente; zonas pilotadas, cuando se disponen para reducir asientos o mejorar la seguridad frente al hundimiento, con pilotes de escasa capacidad individual; y micropilotes, formados por una armadura metálica introducida en un taladro de pequeño diámetro, inyectados o no (punto 3, letras a a d). El DB no contempla el cálculo de micropilotes inyectados.",
+      "Por la forma de trabajo, los pilotes son por fuste, o flotantes, cuando no existe un nivel suficientemente resistente y transmiten la carga sobre todo por el fuste; o por punta, o columna, cuando hay un estrato claramente más resistente a cierta profundidad (apartado 5.1.2.1, punto 1, letras a y b). Según el material, la sección y el procedimiento constructivo, el DB establece otras clasificaciones (apartados 5.1.2.2.1 a 5.1.2.2.3).",
+      "Para los pilotes hormigonados in situ con entubación metálica recuperable, el DB exige avanzar la entubación hasta la zona de paredes estables, limpiar el fondo y mantener durante el hormigonado un resguardo de al menos tres metros de hormigón fresco por encima del extremo de la tubería (apartado 5.4.1.1, punto 1). Cuando existen corrientes subterráneas que pueden lavar el hormigón, debe considerarse una camisa perdida (punto 2)."
+     ]
+    },
+    {
+     "titulo": "5. Elementos de contención y mejora del terreno",
+     "parrafos": [
+      "Los elementos de contención retienen tierras cuando la excavación se hace con un talud vertical. El DB distingue las pantallas, que se construyen desde la superficie antes de excavar, trabajan a flexión y sirven para estabilizar excavaciones verticales, y los muros, que son otra tipología tratada en el apartado 6.1.2. Las pantallas se diferencian de los muros y de las entibaciones porque se ejecutan antes de la excavación y alcanzan una profundidad bajo el fondo que no es pequeña en relación con la altura libre (DB-SE-C, apartado 6.1.1, puntos 1 y 4).",
+      "Las pantallas no son totalmente impermeables. Si la excavación se produce por debajo del nivel freático, hay que prever una impermeabilización suplementaria, conforme al DB-HS Sección 1, y un acabado de la superficie, porque se hormigonan contra el propio terreno (apartado 6.1.1, puntos 2 y 3). La fase crítica en la vida de la pantalla es la de ejecución.",
+      "El acondicionamiento del terreno, que se describe en el tema 1, es el marco en el que se ejecutan las excavaciones para cimentar. Cuando no hay construcciones vecinas que puedan interferir, las reglas del DB son suficientes; si las hay, hace falta un estudio específico (apartado 7.1, punto 2).",
+      "La mejora o refuerzo del terreno se regula en el apartado 8 del DB, que exige conocer las condiciones iniciales del terreno y elegir el procedimiento en función de ellas (apartados 8.2 y 8.3). Su contenido detallado no se ha desarrollado en este tema, pero conviene recordar que la mejora forma parte del proyecto y debe justificarse en el estudio geotécnico."
+     ]
+    },
+    {
+     "titulo": "6. Análisis y dimensionado: qué se comprueba",
+     "parrafos": [
+      "El comportamiento de la cimentación debe comprobarse frente a la capacidad portante y frente a la aptitud al servicio (DB-SE-C, apartado 2.1, punto 2). Para ello se aplica el método de los estados límite, que distingue los estados límite últimos de los de servicio (apartado 2.2.1).",
+      "Como estados límite últimos se consideran, entre otros, el hundimiento, el deslizamiento, el vuelco, la estabilidad global y la capacidad estructural del cimiento (apartado 4.2.2.1, puntos 1 a 5). Como estados límite de servicio, los asientos y las deformaciones que afecten a la función del edificio (apartado 4.2.2.2).",
+      "Los asientos de las cimentaciones directas se estiman con la distribución de presiones verticales en el terreno, habitualmente con formulaciones elásticas (apartado 4.4, punto 1). Un asiento excesivo y desigual es también una señal de que la cimentación o el terreno se deterioran, y debe investigarse su causa (apartado 4.6.1, punto 3).",
+      "En el artículo 10 del CTE, la aptitud al servicio (exigencia SE 2) pide que no se produzcan deformaciones inadmisibles, que se limite a un nivel aceptable la probabilidad de comportamiento dinámico inadmisible y que no haya degradaciones o anomalías inadmisibles (art. 10.2). Estas exigencias son las que el dimensionado de la cimentación debe garantizar."
+     ]
+    },
+    {
+     "titulo": "7. Requisitos y exigencias básicas del CTE",
+     "parrafos": [
+      "La exigencia básica de seguridad estructural está en el artículo 10 del CTE. El apartado 1 fija su objetivo: que el edificio tenga un comportamiento estructural adecuado frente a las acciones e influencias previsibles durante su construcción y uso. La exigencia SE 1, de resistencia y estabilidad, pide que se mantengan frente a las acciones de construcción y uso y que un evento extraordinario no produzca consecuencias desproporcionadas (art. 10.1).",
+      "El artículo 10.3 enumera los documentos básicos que concretan la seguridad estructural: el DB SE, el DB-SE-AE (acciones), el DB-SE-C (cimientos), el DB-SE-A (acero), el DB-SE-F (fábrica) y el DB-SE-M (madera). Su cumplimiento asegura la satisfacción de las exigencias básicas y los niveles mínimos de calidad. El DB-SE-C es, por tanto, el documento que define los parámetros objetivos de las cimentaciones.",
+      "El CTE permite justificar el cumplimiento mediante soluciones basadas en los DB o mediante soluciones alternativas, con la responsabilidad del proyectista o del director de obra y la conformidad del promotor (art. 5.1.3). Para las cimentaciones, la regla práctica es que la solución del DB-SE-C acredita por sí misma el cumplimiento, y que la alternativa debe justificarse documentalmente con prestaciones al menos equivalentes.",
+      "Las obligaciones de proyecto, ejecución y mantenimiento que el CTE impone a los agentes también afectan a la cimentación. El proyecto debe definir las características técnicas de los productos y de cada unidad de obra, con sus condiciones de ejecución y controles (art. 6.1.2, letras a y b). La LOE, por su parte, hace responder durante diez años de los daños materiales que afecten a la cimentación y comprometan la resistencia o la estabilidad del edificio (LOE, art. 17.1.a)."
+     ]
+    },
+    {
+     "titulo": "8. Prescripciones técnicas y condiciones de los materiales",
+     "parrafos": [
+      "El CTE remite a la Instrucción de Hormigón Estructural vigente para las estructuras de hormigón (art. 10.4). Como las cimentaciones de la mayoría de los edificios son de hormigón armado, las condiciones de los materiales, de la puesta en obra y de los recubrimientos se rigen por esa instrucción, que no está en el repositorio y no se ha verificado en este desarrollo.",
+      "El DB-SE-C fija prescripciones propias para el terreno de apoyo. El suelo bajo las zapatas debe encontrarse en el mismo estado en que se investigó. Si aparecen bolsadas blandas o si la excavación altera la estructura del suelo, el asiento será mayor e irregular, y si hay puntos excepcionalmente blandos debe volver a proyectarse la zapata (apartado 4.5.1.1, puntos 1 y 2). Los elementos encontrados en el fondo, como rocas o restos de cimentaciones antiguas, se retiran y se rebaja el fondo hasta que las zapatas apoyen en condiciones homogéneas (punto 2).",
+      "Las bolsadas más compresibles que el terreno se excavan y se sustituyen por un suelo de compresibilidad equivalente o por hormigón en masa, y el relleno debe compactarse, porque el vertido simple no garantiza la compresibilidad requerida (apartado 4.5.1.1, punto 3). En el apartado 4.5.1.2 se regula la solera de asiento, y en el 4.5.1.3, las excavaciones, sus dimensiones, las excavaciones a distintos niveles, la presencia de agua, los drenajes, el hielo y los aterramientos.",
+      "Para las losas, el DB regula la excavación hasta el nivel de cimentación, la estructura de cimentación y la ejecución de la impermeabilización (apartados 4.5.2.2 a 4.5.2.4). Para los pozos de cimentación, el apartado 4.5.3. Para las pantallas, la impermeabilización por el DB-HS y el acabado de su superficie, como se ha visto."
+     ]
+    },
+    {
+     "titulo": "9. Procesos de ejecución y control",
+     "parrafos": [
+      "Las obras se ejecutan con sujeción al proyecto y a las instrucciones del director de obra y del director de la ejecución de la obra (CTE, art. 7.1.1). El director de la ejecución, que la LOE define como el agente que dirige la ejecución material y controla cualitativa y cuantitativamente la construcción, debe ser, en edificios del grupo a) del artículo 2.1 de la LOE, arquitecto técnico (LOE, art. 13.1 y 13.2.a).",
+      "Durante la ejecución, el DB exige que se tomen las precauciones para conservar en buen estado las cimentaciones. Cuando haya aguas ácidas, salinas o agresivas, se adoptan medidas; no se permiten sobrecargas cercanas a las cimentaciones que no se hayan tenido en cuenta en el proyecto; y debe vigilarse la presencia de vías de agua que puedan descarnar la cimentación (apartado 4.6.1, puntos 1 y 2). Si se construyen edificaciones próximas, hay que garantizar la integridad del terreno (punto 2).",
+      "Durante la ejecución debe comprobarse especialmente que el replanteo es correcto, que las dimensiones y orientaciones son las proyectadas, que los materiales son los controlados, que la compactación asegura las resistencias de proyecto, que los encofrados y las armaduras son del tipo, número y longitud previstos, y que los recubrimientos y los anclajes son los exigidos (apartado 4.6.4, letras a a i).",
+      "En la cimentación directa existe además una prohibición práctica: no deben hacerse obras nuevas que pongan en peligro su seguridad, como perforaciones que reduzcan su capacidad, pilares o cargaderos que transmitan cargas importantes o excavaciones importantes en sus proximidades (apartado 4.6.1, punto 4, letras a a c). Esta regla es la que se incumple con más frecuencia en las reformas.",
+      "El control del CTE se estructura en tres fases (art. 7). En la recepción de productos se controla la documentación, los distintivos y los ensayos (art. 7.2). Durante la ejecución, el director de la ejecución verifica el replanteo y los materiales y comprueba la correcta ejecución (art. 7.3.1). En la obra terminada, se realizan las pruebas de servicio previstas en el proyecto (art. 7.4)."
+     ]
+    },
+    {
+     "titulo": "10. Comprobaciones finales, conservación y mantenimiento",
+     "parrafos": [
+      "Antes de la puesta en servicio, el DB exige comprobar que las zapatas se comportan como se previó, que no se superan las cargas admisibles, que los asientos se ajustan a lo previsto cuando el proyecto o el director de obra lo exigen, y que no se han plantado árboles cuyas raíces puedan cambiar la humedad del terreno ni se han creado zonas verdes sin drenaje previsto, sobre todo en terrenos expansivos (apartado 4.6.5, punto 1, letras a a d).",
+      "En edificios C-3 y C-4, el DB exige un sistema de nivelación para controlar el asiento de las zonas más características, en las condiciones que el propio apartado fija (apartado 4.6.5, punto 2). En los demás edificios, es recomendable controlar los movimientos del terreno.",
+      "La conservación se regula en el artículo 8 del CTE. El libro del edificio incluye las instrucciones de uso y mantenimiento y un plan de mantenimiento con las operaciones programadas (art. 8.1.3). Los propietarios y los usuarios deben comunicar las anomalías; el edificio debe conservarse mediante el plan de mantenimiento, con técnico competente para las operaciones programadas, las inspecciones reglamentarias y la documentación de las intervenciones (art. 8.2, apartados 1 y 2, letras a a c).",
+      "Para la cimentación, las anomalías típicas son los asientos excesivos, la aparición de humedades por fallos de drenaje, la socavación por corrientes de agua y el deterioro de la parte enterrada de pilares y muros o de las redes de agua. El DB indica que la observación de asientos excesivos puede advertir del mal estado de las zapatas, y que en tal caso debe observarse la cimentación, el terreno circundante y la parte enterrada de los elementos verticales (apartado 4.6.1, punto 3).",
+      "Un examen puede pedir la responsabilidad por daños en la cimentación. La LOE hace responder durante diez años a los agentes de los daños materiales por vicios o defectos que afecten a la cimentación, los soportes, las vigas, los forjados o los muros de carga, cuando comprometan directamente la resistencia mecánica y la estabilidad (art. 17.1.a). El plazo se cuenta desde la recepción de la obra, sin reservas o desde la subsanación de las reservas."
+     ]
+    },
+    {
+     "titulo": "11. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "En la ejecución de cimentaciones los riesgos principales son el sepultamiento por desprendimiento de tierras, la irrupción de agua, la caída de personas y materiales, la presencia de cables o conducciones enterradas y la inestabilidad de los taludes y los edificios colindantes. La evaluación de riesgos y la planificación de la actividad preventiva se apoyan en la LPRL, cuyo artículo 16 regula el plan de prevención; de ese artículo solo se ha comprobado el inicio en el repositorio.",
+      "El Real Decreto 1627/1997 contiene las prescripciones concretas. Su anexo IV, apartado 9, exige que, antes de los movimientos de tierras, se localicen y reduzcan al mínimo los peligros de cables y sistemas de distribución subterráneos (apartado 9.a). En las excavaciones y pozos deben tomarse precauciones para prevenir el sepultamiento mediante entibación, blindaje, apeo o taludes; para prevenir la irrupción accidental de agua; para garantizar la ventilación; y para permitir la salida de los trabajadores (apartado 9.b, números 1.º a 4.º). Deben preverse vías seguras de entrada y salida, y las tierras, escombros y vehículos deben mantenerse alejados de la excavación (apartado 9, letras c y d).",
+      "El estudio de seguridad y salud, o el estudio básico cuando no se alcanzan los supuestos del artículo 4.1, debe recoger las medidas técnicas para los riesgos de la excavación y de los trabajos con cimentaciones profundas, con su presupuesto (RD 1627/1997, arts. 4 y 5). El plan de seguridad de cada contratista debe desarrollar esas medidas y aprobarse antes del inicio de la obra (art. 7).",
+      "El anexo IV, apartado 12, exige que los trabajos de derribo o demolición que puedan suponer un peligro se estudien y planifiquen bajo supervisión, y que los trabajos con explosivos se ajusten a su normativa específica (apartado 12.a y 12.c). Estas reglas se aplican cuando la cimentación exige demolición de elementos existentes para ejecutar la nueva, como sucede en los solares con cimentaciones antiguas."
+     ]
+    },
+    {
+     "titulo": "12. Criterios de medición y factores del precio",
+     "parrafos": [
+      "La cimentación se mide por unidades de obra: volúmenes de excavación, de hormigón y de armadura para las zapatas, las losas y los pozos; longitudes para las zanjas, las vigas de atado y las pantallas; y unidades para los pilotes, que se valoran por metro de ejecución o por unidad, según el cuadro de precios del proyecto. Este criterio general no se ha verificado en una norma concreta de medición en este desarrollo, y debe confirmarse con el cuadro de precios aplicable.",
+      "Los factores que influyen en el precio son la profundidad del estrato resistente, que determina si la cimentación es directa o profunda; el tipo de cimentación, con las diferencias de coste entre zapatas, losas, pilotes y pantallas; la presencia de agua freática, que exige entibaciones, bombeos o impermeabilizaciones; las dificultades de acceso y de las construcciones vecinas; y el control del terreno y los ensayos del estudio geotécnico.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por suma total y por valoración unitaria, con referencia al cuadro de precios sobre el que se calcula, y solo puede incluir partidas alzadas en elementos u operaciones de difícil previsión (RD 1627/1997, art. 5.4). Esta regla es la que impone la medición detallada también en las medidas de seguridad de la cimentación.",
+      "Para un examen, la respuesta correcta sobre la medición es de principios: las unidades de obra se miden con criterios homogéneos; las excavaciones y los rellenos se miden por volumen; la cimentación profunda se mide por longitud o por unidad; y la seguridad y la gestión de residuos se presupuestan como capítulos propios. Las cifras concretas dependen del cuadro de precios aplicable."
+     ]
+    },
+    {
+     "titulo": "13. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir definiciones y clasificaciones. Conviene memorizar tres: la cimentación profunda, que tiene el extremo a más de ocho veces su diámetro o ancho (DB-SE-C, apartado 5.1.1); la zapata combinada, que recoge dos o más pilares, frente a la corrida, que recoge tres o más alineados (apartado 4.1.2); y la pantalla, que se ejecuta antes de la excavación (apartado 6.1.1).",
+      "Otro bloque habitual es el de responsabilidades y plazos. Hay que recordar que la LOE fija diez años para los daños que afecten a la cimentación (art. 17.1.a), tres años para los daños por defectos de elementos constructivos que incumplan la habitabilidad (art. 17.1.b) y un año para los defectos de terminación del constructor. La confusión entre estos plazos es uno de los errores más frecuentes.",
+      "Para un caso práctico de edificio sobre terreno blando con cargas elevadas, el orden de análisis es: estudio geotécnico y categoría del edificio; elección entre cimentación directa, en su caso zapatas combinadas o losa, y cimentación profunda si la directa no es viable; comprobación de estados límite y asientos; prescripciones de excavación y de agua; control de ejecución y comprobaciones finales; y mantenimiento y plazos de responsabilidad.",
+      "Los errores habituales son cinco: atribuir al constructor la redacción del estudio geotécnico, que corresponde al proyectista, a otro técnico competente o al director de obra (DB-SE-C, apartado 3.1, punto 6); afirmar que una zapata corrida recoge dos pilares; llamar profunda a cualquier cimentación de más de un metro; confundir el DB-SE-C con la instrucción del hormigón; y olvidar que la nivelación es obligatoria en C-3 y C-4."
+     ]
+    },
+    {
+     "titulo": "14. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 10 del CTE (exigencias SE 1 y SE 2, documentos básicos y hormigón), los artículos 5, 6, 7 y 8 del CTE; la LOE en sus artículos 3.1.b.1, 13 y 17.1; el DB-SE-C en la versión de diciembre de 2019 descargada de codigotecnico.org, en sus apartados 2.1, 2.2.1, 3.1, 3.3, 4.1, 4.2.2 (en parte), 4.4, 4.5.1, 4.6, 5.1, 5.4.1.1, 6.1.1, 7.1 a 7.3, con los encabezados de los demás apartados; el Real Decreto 1627/1997 (última modificación indicada: 23 de marzo de 2010); y el anexo IV del mismo real decreto, apartados 9 y 12.",
+      "No se ha verificado en el repositorio la Instrucción de Hormigón Estructural ni su versión vigente. No se ha leído el DB-SE-AE, que determina las acciones que se usan para dimensionar la cimentación, ni el DB-HS Sección 1 sobre impermeabilización. Tampoco se ha leído el contenido detallado de la mejora del terreno (apartado 8 del DB-SE-C).",
+      "La versión del DB-SE-C descargada es la de diciembre de 2019; las modificaciones posteriores y la norma de aprobación del documento deben comprobarse en la web oficial del Código Técnico. Las normas de medición y los criterios de precios no se han consultado; por eso el apartado de medición se ha formulado como principios."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/BOE-A-1999-21567.pdf",
+    "leyes/DB-SE-C-diciembre-2019.pdf",
+    "leyes/BOE-A-1997-22614.pdf",
+    "leyes/BOE-A-1995-24292.pdf"
    ]
   },
   "e20": {
