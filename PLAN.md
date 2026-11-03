@@ -2,9 +2,13 @@
 
 ## 1. Supuestos y riesgos
 
-- **Junta elegida: Junta de Comunidades de Castilla-La Mancha (JCCM).** Es la única Junta para la que encontré un temario oficial de Arquitectura Técnica (Cuerpo Técnico, subgrupo A2). Si te referías a otra Junta (Andalucía, Castilla y León, Extremadura…), el temario cambia y hay que rehacer la fase de contenido.
-- **Temario:** 65 temas = **15 comunes** (c01–c15) + **50 específicos** (e01–e50), agrupados en 8 bloques. Fuente: `fuentes/temario-cuerpo-tecnico-arquitectura-tecnica-clm.txt` (PDF oficial del portal de empleo público de la JCCM).
-- **Riesgo de vigencia:** el documento figura con fecha 14/08/2018 y la última convocatoria que encontré es de 2021. Hay referencias desfasadas (p. ej. "Plan Estatal de Vivienda 2018-2021"). Antes de dar el contenido por bueno hay que comprobar la convocatoria vigente en el DOCM.
+- **Junta: pendiente de confirmar entre dos opciones con temario oficial:**
+  - **Junta de Andalucía** (opción recomendada): Cuerpo de Técnicos de Grado Medio, opción Arquitectura Técnica (A2.2001). **70 temas** = 30 comunes (`c01`–`c30`) + 40 específicos (`e01`–`e40`). Índice: `datos/temario-andalucia.json`. Fuentes: programa común (Res. 27/05/2024, BOJA 107) y programa específico (Anexo VII, Res. 04/06/2019, BOJA 109), con el texto coincidente en el PDF del IAAP.
+  - **Junta de Comunidades de Castilla-La Mancha**: Cuerpo Técnico, especialidad Arquitectura Técnica (A2). **65 temas** = 15 comunes (`c01`–`c15`) + 50 específicos (`e01`–`e50`). Índice: `datos/temario.json`. Fuente: `fuentes/temario-cuerpo-tecnico-arquitectura-tecnica-clm.txt`.
+- Hasta que confirmes cuál es, el contenido no se escribe. Los dos índices son independientes y cada uno tiene su propio conjunto de temas.
+- **Riesgo de vigencia (CLM):** el documento figura con fecha 14/08/2018 y la última convocatoria que encontré es de 2021. Hay referencias desfasadas (p. ej. "Plan Estatal de Vivienda 2018-2021"). Antes de dar el contenido por bueno hay que comprobar la convocatoria vigente en el DOCM.
+- **Riesgo de vigencia (Andalucía):** el programa específico es el de 2019 y el común el de 2024. El específico no ha cambiado desde 2019 en las fuentes que encontré, pero la última convocatoria que vi es de febrero de 2025 y no he visto la BOJA de 2026 que la sustituya.
+- **Andalucía, temas de contenido jurídico que cambian:** el temario andaluz cita la Ley de Ordenación de la Edificación, el CTE, la LCSP y la legislación urbanística andaluza. Estas normas se han modificado varias veces, así que cada referencia se verifica en BOE/BOJA antes de publicarse.
 - **Vigencia de las leyes:** las normas se citan con su referencia (número, fecha) y se verifican contra BOE/DOCM antes de publicarse. No se afirma ninguna referencia sin haberla comprobado.
 
 ## 2. Entregable
@@ -104,6 +108,6 @@ Cada norma en `leyes.json` lleva: referencia completa, enlace oficial, estado (`
 
 ## 9. Decisiones que necesito de ti
 
-1. **¿Es la JCCM la Junta correcta?** Si es otra, lo replanteo antes de escribir contenido.
+1. **¿Qué Junta?** Andalucía (70 temas, recomendada si es la que preparas) o Castilla-La Mancha (65 temas). Lo replanteo antes de escribir contenido.
 2. **¿10 preguntas por tema es suficiente?** Son 650 en total. Si quieres más (p. ej. 20 por tema), el volumen se duplica.
 3. **¿Sigo con la fase 1 (esqueleto y 2 temas de muestra)?** Te los enseño antes de escribir los 65.
