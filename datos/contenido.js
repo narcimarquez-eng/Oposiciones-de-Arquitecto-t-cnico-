@@ -583,9 +583,9 @@ window.DATOS_ESTUDIO = {
    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
    "boe_id": "BOE-A-2015-10565",
    "pdf": "leyes/BOE-A-2015-10565.pdf",
-   "verificada": false,
+   "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Articulado pendiente de verificar."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 a 6, 47.1, 128, 129, 131, 132 (con la anotación de la STC 55/2018) y 133 en el texto del PDF. Resto pendiente."
   },
   "LRJSP": {
    "id": "LRJSP",
@@ -594,9 +594,9 @@ window.DATOS_ESTUDIO = {
    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
    "boe_id": "BOE-A-2015-10566",
    "pdf": "leyes/BOE-A-2015-10566.pdf",
-   "verificada": false,
+   "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
-   "notas": "PDF consolidado descargado y título comprobado. Articulado pendiente de verificar."
+   "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 3 y 4 y 6.1 en el texto del PDF. Resto pendiente."
   },
   "LCSP": {
    "id": "LCSP",
@@ -3370,6 +3370,738 @@ window.DATOS_ESTUDIO = {
    ],
    "extension": "Desarrollo extenso (aprox. 10 páginas)",
    "fuentes": [
+    {
+     "nombre": "Ley Orgánica 2/2007, de reforma del Estatuto de Autonomía para Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
+     "pdf": "leyes/BOE-A-2007-5825.pdf"
+    }
+   ]
+  },
+  "c11": {
+   "resumen": [
+    {
+     "titulo": "Concepto y caracteres de la Administración",
+     "puntos": [
+      "Sirve con objetividad los intereses generales y actúa con sometimiento pleno a la ley y al Derecho (art. 103.1 CE; art. 3.1 LRJSP).",
+      "Principios de actuación: servicio efectivo, simplicidad y proximidad, transparencia, buena fe y confianza legítima, eficacia y economía (art. 3.2 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "Legalidad",
+     "puntos": [
+      "Principios constitucionales: legalidad, jerarquía normativa, publicidad, seguridad jurídica e interdicción de la arbitrariedad (art. 9.3 CE).",
+      "Vinculación positiva: la Administración solo puede hacer lo que la ley le permite. Control de los tribunales sobre la legalidad y los fines (art. 106.1 CE)."
+     ]
+    },
+    {
+     "titulo": "Potestades y su régimen",
+     "puntos": [
+      "Reglamentaria (art. 128 LPAC), sancionadora e inspectora (art. 47.1.3.ª del Estatuto), expropiatoria (art. 123.1 del Estatuto) y de fomento (art. 45 del Estatuto).",
+      "Límite general: la proporcionalidad y la medida menos restrictiva, con motivación (art. 4 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "Discrecionalidad",
+     "puntos": [
+      "Actividad reglada: la norma predetermina la decisión. Actividad discrecional: margen de elección legítimo dentro de la ley.",
+      "La discrecionalidad no es arbitrariedad: exige razonabilidad, motivación y ajuste al fin de la norma (arts. 9.3 y 106.1 CE)."
+     ]
+    },
+    {
+     "titulo": "Derecho Administrativo",
+     "puntos": [
+      "Conjunto de normas que regulan la organización, la actividad y el control de la Administración.",
+      "Autonomía por sus instituciones propias (potestades, servicio público, responsabilidad patrimonial del art. 106.2 CE).",
+      "Criterios de aplicación: jerarquía, especialidad y principios de buena regulación (art. 129 LPAC)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LRJSP",
+     "rol": "Norma principal del tema: principios de actuación y proporcionalidad (arts. 3 y 4)"
+    },
+    {
+     "id": "LPAC",
+     "rol": "Complementaria: potestad reglamentaria y nulidad (arts. 47, 128 y 129)"
+    },
+    {
+     "id": "CE",
+     "rol": "Fundamento constitucional: arts. 9.3, 103, 106"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "¿Con qué criterio sirve la Administración pública los intereses generales?",
+     "opciones": [
+      "Con objetividad",
+      "Con parcialidad política",
+      "Con discrecionalidad absoluta",
+      "Con libertad de los particulares"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 103.1 CE establece que la Administración pública sirve con objetividad los intereses generales.",
+     "referencia": "Art. 103.1 CE"
+    },
+    {
+     "pregunta": "¿A qué se someten las Administraciones públicas según el art. 3.1 LRJSP?",
+     "opciones": [
+      "Solo a la Constitución",
+      "Solo a los reglamentos",
+      "A la Constitución, la Ley y el Derecho",
+      "A los usos y costumbres"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 3.1 LRJSP establece el sometimiento pleno de las Administraciones a la Constitución, a la Ley y al Derecho.",
+     "referencia": "Art. 3.1 LRJSP"
+    },
+    {
+     "pregunta": "¿Cuál de estos NO es un principio garantizado por el art. 9.3 CE?",
+     "opciones": [
+      "Legalidad",
+      "Jerarquía normativa",
+      "Interdicción de la arbitrariedad",
+      "Discrecionalidad absoluta"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 9.3 CE garantiza la legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad de las disposiciones sancionadoras restrictivas, la seguridad jurídica y la interdicción de la arbitrariedad. La discrecionalidad absoluta no es un principio, sino lo contrario del control.",
+     "referencia": "Art. 9.3 CE"
+    },
+    {
+     "pregunta": "¿Qué significa la vinculación positiva de la Administración a la ley?",
+     "opciones": [
+      "Puede hacer todo lo que la ley no prohíbe",
+      "Puede actuar sin norma previa si es urgente",
+      "No está sometida a la ley",
+      "Solo puede hacer lo que la ley le permite"
+     ],
+     "correcta": 3,
+     "explicacion": "La vinculación positiva significa que la Administración solo puede actuar cuando una norma le atribuye la potestad. Es lo contrario de la libertad que tienen los particulares.",
+     "referencia": "Arts. 9.3 y 103.1 CE"
+    },
+    {
+     "pregunta": "¿Qué derecho reconoce el art. 106.2 CE a los particulares?",
+     "opciones": [
+      "A ser indemnizados por lesiones causadas por el funcionamiento de los servicios públicos",
+      "A la propiedad privada",
+      "Al derecho de petición",
+      "Al derecho de asilo"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 106.2 CE reconoce el derecho a ser indemnizados por toda lesión que sufran en sus bienes y derechos, siempre que sea consecuencia del funcionamiento de los servicios públicos.",
+     "referencia": "Art. 106.2 CE"
+    },
+    {
+     "pregunta": "¿Qué potestad permite dictar normas generales por debajo de la ley?",
+     "opciones": [
+      "Sancionadora",
+      "Expropiatoria",
+      "Reglamentaria",
+      "De fomento"
+     ],
+     "correcta": 2,
+     "explicacion": "La potestad reglamentaria permite dictar normas de carácter general por debajo de la ley, y la ejercen los órganos de gobierno según el art. 128.1 LPAC.",
+     "referencia": "Art. 128.1 LPAC"
+    },
+    {
+     "pregunta": "¿A quién atribuye el Estatuto de Andalucía la potestad expropiatoria?",
+     "opciones": [
+      "Consejo de Gobierno",
+      "Parlamento",
+      "TSJA",
+      "Defensor del Pueblo Andaluz"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 123.1 del Estatuto atribuye al Consejo de Gobierno la potestad expropiatoria, conforme a la legislación estatal y autonómica.",
+     "referencia": "Art. 123.1 Estatuto de Andalucía"
+    },
+    {
+     "pregunta": "¿Qué exige el principio de proporcionalidad a las medidas que limitan derechos?",
+     "opciones": [
+      "Que sean las más gravosas",
+      "Que no requieran motivación",
+      "Que sean la medida menos restrictiva posible y motivada",
+      "Que se apliquen sin límite de tiempo"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 4.1 y 4.2 LRJSP exigen elegir la medida menos restrictiva, motivar su necesidad para el interés público y justificar su adecuación a los fines perseguidos.",
+     "referencia": "Art. 4.1 y 4.2 LRJSP"
+    },
+    {
+     "pregunta": "¿Qué controlan los tribunales según el art. 106.1 CE?",
+     "opciones": [
+      "Solo la competencia del órgano",
+      "Solo el procedimiento",
+      "Nada, porque la actividad es discrecional",
+      "La potestad reglamentaria, la legalidad y el sometimiento de la actuación a los fines que la justifican"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 106.1 CE atribuye a los tribunales el control de la potestad reglamentaria y de la legalidad de la actuación administrativa, así como de su sometimiento a los fines que la justifican.",
+     "referencia": "Art. 106.1 CE"
+    },
+    {
+     "pregunta": "¿Qué actos son nulos de pleno derecho cuando los dicta un órgano incompetente?",
+     "opciones": [
+      "Los anulables por cualquier vicio",
+      "Los dictados por órgano manifiestamente incompetente por razón de materia o territorio",
+      "Ninguno",
+      "Los dictados fuera de plazo solamente"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 47.1.b) LPAC declara nulos de pleno derecho los actos dictados por órgano manifiestamente incompetente por razón de la materia o del territorio.",
+     "referencia": "Art. 47.1.b) LPAC"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Concepto de Administración pública",
+     "parrafos": [
+      "La Administración pública es el conjunto de organizaciones que el ordenamiento jurídico dota de personalidad para realizar funciones de interés general, sujetas al Derecho público. El concepto no se define en un único precepto, y por eso conviene partir de la Constitución y de las leyes que la desarrollan.",
+      "El artículo 103.1 CE establece que la Administración pública sirve con objetividad los intereses generales y actúa de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho. Es la base constitucional del concepto: una organización al servicio de los intereses generales, no de los de quien la dirige.",
+      "La Ley 40/2015, de Régimen Jurídico del Sector Público (LRJSP), desarrolla ese precepto en su artículo 3.1. Las Administraciones públicas sirven con objetividad los intereses generales y actúan de acuerdo con los mismos principios, con sometimiento pleno a la Constitución, a la Ley y al Derecho. El artículo 3.2 añade principios de actuación: servicio efectivo a los ciudadanos, simplicidad y proximidad, participación, objetividad y transparencia, racionalización de los procedimientos, buena fe y confianza legítima, responsabilidad por la gestión pública, planificación por objetivos, eficacia y economía, entre otros.",
+      "Para un examen, conviene retener la diferencia entre el concepto formal de Administración (organización que tiene personalidad y actúa con potestades de Derecho público) y el concepto material (actividad de gestión de intereses generales). Ambos se combinan en la definición del tema."
+     ]
+    },
+    {
+     "titulo": "2. Caracteres de la Administración pública",
+     "parrafos": [
+      "La Administración tiene cuatro caracteres básicos. El primero es la sujeción al Derecho: actúa siempre con base en normas, y no con la libertad que tienen los particulares. El segundo es el servicio al interés general, que es el fin que justifica su existencia y limita su actuación. El tercero es la objetividad, que exige decidir según los datos del expediente y no según intereses particulares. El cuarto es la responsabilidad por su gestión, que la hace responder frente a los ciudadanos cuando causa daños.",
+      "Este último carácter tiene reconocimiento constitucional en el artículo 106.2 CE, que garantiza a los particulares el derecho a ser indemnizados por toda lesión que sufran en cualquiera de sus bienes y derechos, salvo casos de fuerza mayor, siempre que la lesión sea consecuencia del funcionamiento de los servicios públicos.",
+      "Un quinto rasgo, que el temario recoge en su enunciado, es la organización en niveles y órganos. La Administración se organiza en jerarquía, descentralización, desconcentración y coordinación, como indica el artículo 103.1 CE. Esos principios explican la estructura de la Administración del Estado, de las Comunidades Autónomas y de las entidades locales."
+     ]
+    },
+    {
+     "titulo": "3. Clasificación de las Administraciones públicas",
+     "parrafos": [
+      "El artículo 137 CE establece que el Estado se organiza territorialmente en municipios, provincias y Comunidades Autónomas, todas con autonomía para la gestión de sus intereses. A partir de ahí se distingue entre Administración General del Estado, Administraciones de las Comunidades Autónomas y Administración local.",
+      "Dentro de cada Administración territorial, la doctrina distingue entre la Administración directa, que actúa a través de sus propios órganos, y la Administración institucional, que actúa a través de entidades con personalidad jurídica propia creadas para gestionar un servicio o actividad. En Andalucía, el artículo 47.1.1.ª del Estatuto menciona expresamente los organismos autónomos como parte de la organización de la Comunidad.",
+      "La clasificación tiene utilidad práctica. La Administración directa responde jerárquicamente ante su superior, mientras que la institucional tiene una autonomía mayor, pero sigue sometida a la dirección y al control de la Administración matriz. Para un examen, la pregunta típica es si una entidad forma parte de la Administración directa o de la institucional, y la respuesta depende de su personalidad y de la norma que la crea."
+     ]
+    },
+    {
+     "titulo": "4. La Administración y el principio de legalidad",
+     "parrafos": [
+      "El principio de legalidad es el eje del Derecho administrativo. El artículo 9.3 CE garantiza el principio de legalidad, la jerarquía normativa, la publicidad de las normas y la interdicción de la arbitrariedad de los poderes públicos. Es el precepto constitucional que vincula a toda la Administración.",
+      "La legalidad administrativa tiene una formulación particular: la Administración solo puede hacer lo que la ley le permite. Mientras que el ciudadano puede hacer todo lo que la ley no prohíbe, la Administración debe tener una norma que le atribuya la potestad para cada actuación. Esta diferencia se llama vinculación positiva y es la base del sistema.",
+      "El artículo 103.1 CE establece el sometimiento pleno a la ley y al Derecho, y el artículo 3.1 de la LRJSP lo reitera. El artículo 106.1 CE completa el sistema, al atribuir a los tribunales el control de la potestad reglamentaria y de la legalidad de la actuación administrativa, así como del sometimiento de esta a los fines que la justifican.",
+      "El último elemento es el control de la desviación de poder. No basta con que el acto tenga apariencia legal: debe perseguir el fin que la norma atribuye a la potestad. El artículo 106.1 CE menciona expresamente el sometimiento a los fines que justifican la actuación, lo que permite controlar que la potestad no se ejerza para otros propósitos."
+     ]
+    },
+    {
+     "titulo": "5. Las potestades administrativas",
+     "parrafos": [
+      "Una potestad administrativa es el poder que una norma atribuye a la Administración para actuar unilateralmente y modificar la situación jurídica de los ciudadanos, sin necesidad de su consentimiento. La potestad se diferencia del derecho subjetivo en que su titular la ejerce en el interés general y no en el propio, y en que está sujeta a límites legales.",
+      "Las potestades son de distinto tipo según su función. La potestad reglamentaria permite dictar normas de carácter general por debajo de la ley (art. 128 LPAC y art. 97 CE). La potestad sancionadora y de inspección permite controlar el cumplimiento de las normas e imponer sanciones; el Estatuto de Andalucía la atribuye a la Comunidad como competencia exclusiva en sus ámbitos materiales (art. 47.1.3.ª).",
+      "La potestad expropiatoria permite privar a un particular de un bien o derecho por causa de utilidad pública o interés social, con indemnización. El artículo 123.1 del Estatuto atribuye al Consejo de Gobierno esta potestad, conforme a la legislación estatal y autonómica.",
+      "La potestad de fomento permite promover actividades de interés general mediante subvenciones y otros incentivos. El artículo 45.1 del Estatuto la atribuye a la Comunidad en las materias de su competencia, con fondos propios y con las condiciones que establezca la norma.",
+      "Para un examen, la clasificación por función es útil, pero conviene recordar que las potestades siempre están sujetas al principio de legalidad y al control judicial del artículo 106 CE."
+     ]
+    },
+    {
+     "titulo": "6. La actividad discrecional de la Administración",
+     "parrafos": [
+      "La actividad es reglada cuando la norma predetermina por completo la decisión: si se dan los supuestos, la Administración debe actuar en el sentido que la ley indica, sin margen de elección. La actividad es discrecional cuando la norma permite elegir entre varias opciones legítimas, según la valoración de la Administración.",
+      "La discrecionalidad no es arbitrariedad. Aunque la Administración puede elegir, la elección debe ser razonable, motivada y ajustada al fin de la norma. El artículo 9.3 CE prohíbe la arbitrariedad de los poderes públicos, y el artículo 106.1 CE permite controlar el sometimiento de la actuación a los fines que la justifican.",
+      "La LRJSP exige en el ejercicio de las potestades que la medida limitativa sea la menos restrictiva posible, motivada en la protección del interés público y adecuada a los fines que se persiguen (art. 4.2). Esa exigencia de proporcionalidad es el principal límite a la discrecionalidad, porque obliga a justificar la elección.",
+      "Para un examen, la respuesta bien estructurada distingue tres niveles: si la actividad es reglada o discrecional, qué límites tiene la discrecionalidad (razonabilidad, motivación, proporcionalidad y fin), y cómo se controla por los tribunales (art. 106.1 CE)."
+     ]
+    },
+    {
+     "titulo": "7. El Derecho Administrativo: concepto y contenido",
+     "parrafos": [
+      "El Derecho administrativo es el conjunto de normas que regulan la organización de las Administraciones públicas, su actividad y sus relaciones con los ciudadanos, así como el control de esa actividad. Su contenido se ordena en torno a las potestades, al servicio público, al procedimiento administrativo y al control judicial.",
+      "El Derecho administrativo no es un código único. Se compone de leyes generales, como la LPAC y la LRJSP, de leyes sectoriales, como las de urbanismo o de contratos, y de reglamentos. Esa pluralidad explica que sus fuentes tengan una organización propia, que se estudia en el tema siguiente.",
+      "El control judicial del Derecho administrativo corresponde a la jurisdicción contencioso-administrativa. El artículo 139.1 del Estatuto de Andalucía establece que la Comunidad es Administración pública a los efectos de la ley reguladora de esa jurisdicción."
+     ]
+    },
+    {
+     "titulo": "8. Autonomía del Derecho Administrativo",
+     "parrafos": [
+      "La autonomía del Derecho administrativo consiste en que tiene principios e instituciones propios que no se explican solo con el Derecho privado. Las potestades, el servicio público, el acto administrativo y la responsabilidad patrimonial son ejemplos de instituciones que no tienen equivalente directo en las relaciones entre particulares.",
+      "La autonomía no significa que el Derecho administrativo sea independiente de los demás sectores del ordenamiento. Se nutre de la Constitución, de los principios generales del Derecho y, en ocasiones, del Derecho privado. Lo que lo distingue es que las relaciones que regula se establecen entre una Administración que actúa con potestades y un ciudadano que se encuentra en una posición de sujeción.",
+      "Un argumento útil para un examen es la responsabilidad patrimonial del artículo 106.2 CE. Ese derecho a ser indemnizado frente a la Administración es una institución propia del Derecho público, con reglas distintas de la responsabilidad civil entre particulares."
+     ]
+    },
+    {
+     "titulo": "9. Criterios de aplicación del Derecho Administrativo",
+     "parrafos": [
+      "Para resolver una cuestión de Derecho administrativo, se aplican los criterios generales de la jerarquía normativa, según los cuales una norma superior prevalece sobre la inferior (art. 9.3 CE). Las reglas de competencia y de especialidad completan la solución: la norma especial prevalece sobre la general, y las normas sectoriales se aplican antes que las generales cuando regulan el mismo supuesto.",
+      "Otro criterio es la aplicación de los principios generales de buena regulación. El artículo 129.1 de la LPAC exige que las iniciativas normativas actúen de acuerdo con los principios de necesidad, eficacia, proporcionalidad, seguridad jurídica, transparencia y eficiencia. Estos principios sirven para interpretar las normas y para valorar si una actuación administrativa es correcta.",
+      "El criterio de la proporcionalidad se aplica también a la actividad administrativa. El artículo 4.2 de la LRJSP exige que las medidas que limiten derechos o exijan requisitos sean las menos restrictivas posibles y se motiven. Este criterio sirve para resolver casos de limitación de derechos, como las restricciones en el ejercicio de una actividad.",
+      "Para un examen, la aplicación del Derecho administrativo debe seguir un orden: primero, la norma específica aplicable; después, los principios de la LRJSP y de la LPAC; y por último, los principios constitucionales del artículo 9.3 CE."
+     ]
+    },
+    {
+     "titulo": "10. Principios de intervención: proporcionalidad y medida menos restrictiva (art. 4 LRJSP)",
+     "parrafos": [
+      "El artículo 4.1 LRJSP establece que las Administraciones públicas que, en el ejercicio de sus competencias, establezcan medidas que limiten el ejercicio de derechos individuales o colectivos, o exijan el cumplimiento de requisitos para el desarrollo de una actividad, deben aplicar el principio de proporcionalidad y elegir la medida menos restrictiva.",
+      "El artículo 4.2 exige además motivar su necesidad para la protección del interés público y justificar su adecuación a los fines que se persiguen, sin que se produzcan diferencias de trato discriminatorias. Las Administraciones deben evaluar periódicamente los efectos y resultados que obtienen.",
+      "Estos principios conectan con el carácter no ilimitado de la potestad administrativa. La Administración puede limitar derechos, pero solo en la medida necesaria, y debe poder demostrarlo. Es uno de los puntos más preguntados en los exámenes de Derecho administrativo."
+     ]
+    },
+    {
+     "titulo": "11. Relaciones de jerarquía: instrucciones y órdenes de servicio (art. 6 LRJSP)",
+     "parrafos": [
+      "El artículo 6.1 LRJSP establece que los órganos administrativos pueden dirigir las actividades de sus órganos jerárquicamente dependientes mediante instrucciones y órdenes de servicio. Es la expresión práctica del principio de jerarquía del artículo 103.1 CE.",
+      "La diferencia entre instrucción y orden de servicio es doctrinal. Las instrucciones son normas de carácter general dirigidas a los órganos inferiores para orientar su actuación, mientras que las órdenes de servicio se dirigen a casos concretos o a personas determinadas. El detalle del régimen debe comprobarse en el propio artículo 6.",
+      "La jerarquía tiene límites que el propio artículo 6 y el sometimiento a la ley establecen. Conviene leer el precepto completo para conocer las excepciones a la obligación de obedecer."
+     ]
+    },
+    {
+     "titulo": "12. Legalidad y discrecionalidad en la práctica: el ejemplo de la licencia",
+     "parrafos": [
+      "Una licencia de obras que cumple todos los requisitos del planeamiento y de la normativa técnica es un acto reglado: la Administración debe concederla si el solicitante acredita lo exigido. No hay margen de elección, y la denegación sin causa sería ilegal.",
+      "Una actuación discrecional sería, por ejemplo, la decisión sobre la ubicación de un equipamiento público dentro de las opciones que permite el planeamiento. La Administración elige, pero debe motivar la elección, respetar los fines del planeamiento y no ser arbitraria (art. 9.3 CE).",
+      "La distinción es útil para responder preguntas sobre el control judicial. En la actividad reglada, el juez comprueba si se cumplieron los requisitos. En la discrecional, comprueba además la razonabilidad y la motivación, y el sometimiento a los fines que justifican la potestad (art. 106.1 CE)."
+     ]
+    },
+    {
+     "titulo": "13. Cuadro de potestades y límites",
+     "parrafos": [
+      "Reglamentaria: dictar normas generales por debajo de la ley; titular el Gobierno, las Comunidades y los entes locales (art. 128 LPAC); límite: no vulnerar la ley ni invadir reservas (art. 128.2 LPAC).",
+      "Sancionadora e inspectora: controlar el cumplimiento de las normas e imponer sanciones; en Andalucía, competencia exclusiva en sus ámbitos materiales, sin perjuicio del artículo 149.1.18.ª CE (art. 47.1.3.ª del Estatuto).",
+      "Expropiatoria: privar de bienes o derechos por utilidad pública, con indemnización; en Andalucía, la ejerce el Consejo de Gobierno (art. 123.1 del Estatuto).",
+      "Fomento: promover actividades de interés general con fondos propios (art. 45.1 del Estatuto).",
+      "Límite general de todas ellas: legalidad, proporcionalidad (art. 4 LRJSP) y control de los tribunales (art. 106.1 CE)."
+     ]
+    },
+    {
+     "titulo": "14. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir la potestad con el derecho subjetivo. La potestad se ejerce en el interés general y está sujeta a límites legales; el derecho subjetivo pertenece al titular en su propio interés.",
+      "Afirmar que la discrecionalidad permite cualquier decisión. La discrecionalidad tiene límites: razonabilidad, motivación, proporcionalidad y fin de la norma.",
+      "Olvidar que la responsabilidad patrimonial es un derecho constitucional del particular (art. 106.2 CE), no una simple facultad de la Administración."
+     ]
+    },
+    {
+     "titulo": "15. Nulidad de pleno derecho: la sanción de la legalidad (art. 47 LPAC)",
+     "parrafos": [
+      "El artículo 47.1 LPAC establece que los actos de las Administraciones públicas son nulos de pleno derecho en los casos que enumera. La nulidad de pleno derecho es la sanción más grave que el ordenamiento aplica a un acto administrativo, y el acto nulo no produce efectos desde el principio.",
+      "La letra a) incluye los actos que lesionen derechos y libertades susceptibles de amparo constitucional, es decir, los del artículo 53.2 CE. La letra b) incluye los dictados por órgano manifiestamente incompetente por razón de la materia o del territorio. La letra c) recoge los actos de contenido imposible, y la letra d) los que sean constitutivos de infracción penal o se dicten como consecuencia de ella.",
+      "La nulidad se relaciona con el principio de legalidad del artículo 9.3 CE. Un acto que vulnera un derecho fundamental, dictado por quien no tiene competencia o que es imposible en su contenido, no puede ser válido aunque la Administración lo haya dictado con apariencia de legalidad."
+     ]
+    },
+    {
+     "titulo": "16. Relación entre legalidad, discrecionalidad y control judicial",
+     "parrafos": [
+      "Para resolver un caso práctico de control de la Administración, conviene seguir un orden. Primero, identificar si la actuación es reglada o discrecional, es decir, si la norma predetermina la decisión o deja margen de elección. Segundo, comprobar la competencia del órgano y el procedimiento. Tercero, verificar el contenido frente a la ley y los principios del artículo 9.3 CE. Cuarto, examinar la motivación y la proporcionalidad del artículo 4 LRJSP.",
+      "Si la actuación es reglada, basta con comprobar la conformidad con la norma. Si es discrecional, el control se extiende a la razonabilidad y a la desviación de poder, es decir, a si la elección persigue el fin que justifica la potestad (art. 106.1 CE).",
+      "El control judicial corresponde a los tribunales, que pueden anular el acto si se aprecia que es nulo o anulable. La distinción entre nulidad y anulabilidad, que la LPAC regula en sus artículos 47 y 48, determina la vía y el alcance de la anulación."
+     ]
+    },
+    {
+     "titulo": "17. Relación de sujeción y relación de colaboración",
+     "parrafos": [
+      "Las relaciones entre la Administración y los ciudadanos se explican con dos figuras clásicas. En la relación de sujeción, el ciudadano se encuentra en una posición de dependencia frente a la Administración, que puede imponerle obligaciones en virtud de su potestad. En la relación de colaboración, la Administración y el particular actúan de forma coordinada para un fin común, como ocurre con las subvenciones o los convenios.",
+      "La distinción no es estricta. En la práctica, muchas relaciones combinan ambas figuras: un ciudadano está sujeto a las normas de un servicio público y, al mismo tiempo, puede colaborar con la Administración en un procedimiento de fomento.",
+      "Para un examen, la clave es reconocer qué tipo de relación se describe en el caso y, en consecuencia, qué garantías tiene el ciudadano frente a la potestad administrativa."
+     ]
+    },
+    {
+     "titulo": "18. Potestades, actos y reglamentos: diferencias de régimen",
+     "parrafos": [
+      "El acto administrativo es una declaración de voluntad de la Administración, con destinatario concreto, que produce efectos jurídicos sobre una situación determinada. El reglamento es una norma general. La diferencia de régimen tiene consecuencias prácticas: el acto se impugna con los recursos administrativos y judiciales, mientras que el reglamento se impugna ante la jurisdicción contencioso-administrativa y puede ser objeto de cuestión de legalidad.",
+      "La LPAC regula los actos administrativos y los distingue de las disposiciones de carácter general, que tienen su propio régimen de publicación y de entrada en vigor (art. 131 LPAC). Esa distinción entre acto y disposición es un punto de partida necesario para estudiar el tema siguiente.",
+      "Para un examen, conviene recordar que el acto nulo de pleno derecho (art. 47 LPAC) no puede ser convalidado, mientras que el anulable puede serlo en los términos de la LPAC."
+     ]
+    },
+    {
+     "titulo": "19. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué significa que la Administración sirva con objetividad los intereses generales? Significa que sus decisiones deben basarse en el interés general y en los datos del expediente, y no en intereses particulares (art. 103.1 CE; art. 3.1 LRJSP).",
+      "¿Qué diferencia hay entre actividad reglada y discrecional? En la reglada, la norma predetermina la decisión; en la discrecional, la Administración elige entre opciones legítimas, motivando la elección y respetando los fines de la norma.",
+      "¿Qué derecho tiene el particular cuando sufre una lesión por el funcionamiento de los servicios públicos? El derecho a ser indemnizado, reconocido en el artículo 106.2 CE, en los términos que establezca la ley.",
+      "¿Qué potestad tiene el Consejo de Gobierno andaluz para expropiar? La potestad expropiatoria del artículo 123.1 del Estatuto, ejercida conforme a la legislación estatal y autonómica.",
+      "¿Cuándo es nulo de pleno derecho un acto? Cuando concurre alguno de los supuestos del artículo 47.1 LPAC: lesión de derechos susceptibles de amparo, incompetencia manifiesta, contenido imposible o infracción penal."
+     ]
+    },
+    {
+     "titulo": "20. Síntesis del tema",
+     "parrafos": [
+      "La Administración pública existe para servir los intereses generales con objetividad y está sometida a la ley y al Derecho. De esa premisa se derivan todas las demás reglas del tema: la vinculación positiva, según la cual solo puede hacer lo que la ley le permite; las potestades, que son poderes atribuidos por norma para actuar unilateralmente; y la discrecionalidad, que existe solo dentro de los márgenes que la ley deja y con motivación suficiente.",
+      "El control de todo ello corresponde a los tribunales, que verifican la legalidad, la competencia, el procedimiento, la razonabilidad y el sometimiento a los fines de la norma (art. 106.1 CE). Cuando la actuación administrativa vulnera de forma grave la legalidad, el acto es nulo de pleno derecho (art. 47 LPAC). Y cuando causa un daño, el particular tiene derecho a ser indemnizado (art. 106.2 CE).",
+      "El Derecho administrativo que regula todo esto tiene instituciones propias y se organiza en torno a la ley, al reglamento y a los principios de buena regulación. Para estudiar el tema siguiente conviene llegar con clara la idea de que la potestad reglamentaria está subordinada a la ley y al control judicial."
+     ]
+    },
+    {
+     "titulo": "10. Claves para el examen",
+     "parrafos": [
+      "Administración: sirve con objetividad los intereses generales y actúa con sometimiento a la ley y al Derecho (art. 103.1 CE; art. 3.1 LRJSP).",
+      "Legalidad: vinculación positiva; la Administración solo puede hacer lo que la ley le permite (arts. 9.3 y 103.1 CE). Control de los tribunales sobre la legalidad y los fines (art. 106.1 CE).",
+      "Responsabilidad: derecho a ser indemnizado por lesiones producidas por el funcionamiento de los servicios públicos (art. 106.2 CE).",
+      "Potestades: reglamentaria (art. 128 LPAC); sancionadora e inspección (art. 47.1.3.ª Estatuto); expropiatoria (art. 123.1 Estatuto); fomento (art. 45 Estatuto).",
+      "Discrecionalidad: no es arbitrariedad; límites de razonabilidad, motivación y proporcionalidad (art. 4.2 LRJSP; art. 9.3 CE).",
+      "Derecho administrativo: normas sobre organización, actividad y control de la Administración; autonomía por sus instituciones propias (potestades, servicio público, responsabilidad)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
+    },
+    {
+     "nombre": "Ley 40/2015, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+     "pdf": "leyes/BOE-A-2015-10566.pdf"
+    },
+    {
+     "nombre": "Ley 39/2015, del Procedimiento Administrativo Común (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+     "pdf": "leyes/BOE-A-2015-10565.pdf"
+    }
+   ]
+  },
+  "c12": {
+   "resumen": [
+    {
+     "titulo": "Jerarquía normativa",
+     "puntos": [
+      "Principio garantizado por el art. 9.3 CE: la norma inferior no puede contradecir la superior.",
+      "Los reglamentos no pueden vulnerar la Constitución ni las leyes, ni regular materias reservadas a las Cortes o a los parlamentos autonómicos (art. 128.2 LPAC)."
+     ]
+    },
+    {
+     "titulo": "La ley",
+     "puntos": [
+      "Leyes orgánicas: mayoría absoluta del Congreso en la votación final sobre el conjunto (art. 81 CE).",
+      "Leyes de bases o marco y de transferencia (art. 150.1 y 150.2 CE). El Estatuto es la norma institucional básica de cada Comunidad (art. 147.1 CE)."
+     ]
+    },
+    {
+     "titulo": "Disposiciones del Ejecutivo con fuerza de ley",
+     "puntos": [
+      "Decreto-ley: extraordinaria y urgente necesidad; convalidación en treinta días; no puede afectar al Título I, al régimen de las Comunidades ni al derecho electoral general (art. 86 CE).",
+      "Decreto legislativo: delegación de las Cortes por ley de bases o ley ordinaria de refundición; límites del art. 83 CE (art. 82 CE)."
+     ]
+    },
+    {
+     "titulo": "El reglamento y su potestad",
+     "puntos": [
+      "Titulares: Gobierno de la Nación, órganos de gobierno de las Comunidades según sus Estatutos, y órganos de gobierno locales (art. 128.1 LPAC). En Andalucía, Consejo de Gobierno y cada Consejero (art. 119.3 del Estatuto).",
+      "Fundamento: el Gobierno ejerce la potestad reglamentaria de acuerdo con la Constitución y las leyes (art. 97 CE)."
+     ]
+    },
+    {
+     "titulo": "Procedimiento y fuentes subsidiarias",
+     "puntos": [
+      "Principios de buena regulación (art. 129 LPAC), consulta pública previa (art. 133) y publicación para la entrada en vigor (art. 131).",
+      "Fuentes subsidiarias: costumbre y principios generales. Fuentes indirectas: jurisprudencia y doctrina. Tratados y Derecho de la Unión (arts. 93 y 96.1 CE)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CE",
+     "rol": "Norma principal del tema: arts. 9.3, 81, 82, 83, 86, 93, 96 y 97"
+    },
+    {
+     "id": "LPAC",
+     "rol": "Complementaria: potestad reglamentaria y procedimiento (arts. 128 a 133)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Complementaria: fuentes andaluzas (arts. 109, 110, 119.3)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "¿Qué garantiza el art. 9.3 CE en relación con las normas?",
+     "opciones": [
+      "Su jerarquía y su publicidad",
+      "Su rapidez de aprobación",
+      "Su número",
+      "Su autor"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 9.3 CE garantiza el principio de jerarquía normativa y la publicidad de las normas, entre otros principios.",
+     "referencia": "Art. 9.3 CE"
+    },
+    {
+     "pregunta": "¿Pueden los reglamentos vulnerar la ley?",
+     "opciones": [
+      "Sí, si lo justifica la Administración",
+      "Sí, en materia tributaria",
+      "No; no pueden vulnerar la Constitución ni las leyes",
+      "Solo en caso de urgencia"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 128.2 LPAC establece que los reglamentos no pueden vulnerar la Constitución ni las leyes, ni regular las materias reservadas.",
+     "referencia": "Art. 128.2 LPAC"
+    },
+    {
+     "pregunta": "¿Qué mayoría exige la aprobación de una ley orgánica en su votación final?",
+     "opciones": [
+      "Simple",
+      "Tres quintos",
+      "Dos tercios",
+      "Absoluta del Congreso"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 81.2 CE exige mayoría absoluta del Congreso en la votación final sobre el conjunto de la ley orgánica.",
+     "referencia": "Art. 81.2 CE"
+    },
+    {
+     "pregunta": "Según el art. 147.1 CE, ¿qué es el Estatuto de Autonomía?",
+     "opciones": [
+      "Una ley ordinaria",
+      "La norma institucional básica de cada Comunidad",
+      "Un reglamento autonómico",
+      "Un decreto legislativo"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 147.1 CE define los Estatutos como la norma institucional básica de cada Comunidad Autónoma, que el Estado reconoce y ampara.",
+     "referencia": "Art. 147.1 CE"
+    },
+    {
+     "pregunta": "¿Qué exige el art. 86.1 CE para dictar un decreto-ley?",
+     "opciones": [
+      "Mayoría simple",
+      "Consulta previa al Senado",
+      "Extraordinaria y urgente necesidad",
+      "Aprobación de las Cortes"
+     ],
+     "correcta": 2,
+     "explicacion": "El decreto-ley solo puede dictarse en caso de extraordinaria y urgente necesidad, y no puede afectar a las materias que el art. 86.1 CE excluye.",
+     "referencia": "Art. 86.1 CE"
+    },
+    {
+     "pregunta": "¿En qué plazo debe convalidarse un decreto-ley?",
+     "opciones": [
+      "Siete días",
+      "Un año",
+      "No hay plazo",
+      "Treinta días siguientes a su promulgación"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 86.2 CE exige el debate y votación de totalidad en el Congreso dentro de los treinta días siguientes a la promulgación.",
+     "referencia": "Art. 86.2 CE"
+    },
+    {
+     "pregunta": "¿Mediante qué figura se delega en el Gobierno la formación de textos articulados?",
+     "opciones": [
+      "Ley de bases",
+      "Real Decreto",
+      "Orden ministerial",
+      "Ley de presupuestos"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 82.2 CE exige una ley de bases cuando la delegación tenga por objeto la formación de textos articulados.",
+     "referencia": "Art. 82.2 CE"
+    },
+    {
+     "pregunta": "¿Qué no pueden autorizar las leyes de bases?",
+     "opciones": [
+      "Modificar la propia ley de bases",
+      "Regular un impuesto",
+      "Crear un ministerio",
+      "Aprobar el presupuesto"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 83 CE prohíbe que las leyes de bases autoricen la modificación de la propia ley de bases, o que faculten para dictar normas retroactivas.",
+     "referencia": "Art. 83 CE"
+    },
+    {
+     "pregunta": "¿Quién ejerce la potestad reglamentaria de las Comunidades Autónomas?",
+     "opciones": [
+      "Las Cortes Generales",
+      "El Tribunal Constitucional",
+      "Los órganos de gobierno de las Comunidades según sus Estatutos",
+      "Los notarios"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 128.1 LPAC atribuye la potestad reglamentaria de las Comunidades a sus órganos de gobierno, de conformidad con sus Estatutos.",
+     "referencia": "Art. 128.1 LPAC"
+    },
+    {
+     "pregunta": "¿Cuándo entra en vigor una norma con rango de ley o un reglamento?",
+     "opciones": [
+      "Al firmarse",
+      "Al publicarse en el diario oficial correspondiente",
+      "A los diez días de su aprobación",
+      "Al comunicarse a los ciudadanos"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 131 LPAC establece que las normas deben publicarse en el diario oficial correspondiente para entrar en vigor y producir efectos jurídicos.",
+     "referencia": "Art. 131 LPAC"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Concepto de fuente y clasificación",
+     "parrafos": [
+      "Las fuentes del Derecho son los modos en que se producen las normas jurídicas, es decir, los procedimientos y los actos mediante los que el ordenamiento se crea. En el Derecho administrativo, las fuentes son las mismas que en el resto del ordenamiento, con particularidades propias por la existencia de la potestad reglamentaria y de las Administraciones como productoras de normas.",
+      "La clasificación habitual distingue fuentes escritas y no escritas, y dentro de las escritas, fuentes de origen parlamentario (la ley), fuentes del Ejecutivo (decretos-leyes, decretos legislativos y reglamentos) y fuentes internacionales y de la Unión Europea. Las no escritas, como la costumbre y los principios generales del Derecho, tienen un papel subsidiario.",
+      "Para un examen, la clasificación básica es esta: ley, disposiciones del Ejecutivo con fuerza de ley, reglamentos y otras normas, y fuentes subsidiarias. Cada nivel tiene un lugar en la jerarquía, que se estudia a continuación."
+     ]
+    },
+    {
+     "titulo": "2. La jerarquía normativa",
+     "parrafos": [
+      "El artículo 9.3 CE garantiza el principio de jerarquía normativa. Su consecuencia es que una norma inferior no puede contradecir a una norma superior, y que la norma inferior es nula en la parte en que la contradice.",
+      "El orden general es el siguiente. En la cúspide está la Constitución, que vincula a todos los poderes públicos. Por debajo están las leyes orgánicas y ordinarias, los Estatutos de Autonomía y los decretos-leyes y decretos legislativos, que tienen rango de ley. Después vienen los reglamentos, de inferior rango, y las demás disposiciones administrativas.",
+      "El artículo 128.2 LPAC desarrolla este principio para la potestad reglamentaria. Los reglamentos no pueden vulnerar la Constitución o las leyes, ni regular materias que la Constitución o los Estatutos reservan a las Cortes Generales o a las Asambleas Legislativas de las Comunidades Autónomas. Sin perjuicio de su función de desarrollo o colaboración con respecto a la ley, tampoco pueden tipificar delitos, faltas o infracciones administrativas.",
+      "Para un examen, la pregunta frecuente es si un reglamento puede regular una materia reservada a la ley. La respuesta es no, por el principio de reserva de ley (art. 53.1 CE) y por el artículo 128.2 LPAC."
+     ]
+    },
+    {
+     "titulo": "3. La ley: concepto y clases",
+     "parrafos": [
+      "La ley es la norma aprobada por las Cortes Generales conforme al procedimiento legislativo de la Constitución (arts. 87 a 91 CE). Es la norma de rango superior en el Derecho administrativo, y la única que puede regular materias reservadas por la Constitución.",
+      "Las leyes orgánicas son las relativas al desarrollo de los derechos fundamentales y de las libertades públicas, las que aprueban los Estatutos de Autonomía, el régimen electoral general y las demás previstas en la Constitución. Su aprobación, modificación o derogación exige mayoría absoluta del Congreso en una votación final sobre el conjunto (art. 81 CE).",
+      "Las leyes ordinarias se aprueban por mayoría simple. Dentro de ellas, la Constitución prevé tres figuras especiales. Las leyes de bases, o leyes marco, fijan principios y directrices para que las Comunidades Autónomas dicten normas legislativas (art. 150.1 CE). Las leyes de transferencia o delegación permiten traspasar facultades de titularidad estatal a las Comunidades (art. 150.2 CE). Los Estatutos de Autonomía son leyes orgánicas que el Estado reconoce como norma institucional básica de cada Comunidad (art. 147.1 CE). Y los Presupuestos Generales del Estado se aprueban con carácter anual (art. 134.2 CE).",
+      "En Andalucía, el Parlamento ejerce la potestad legislativa de la Comunidad mediante leyes que el Estatuto clasifica según su régimen de aprobación. Las leyes de contenido presupuestario y tributario, y las que requieren mayoría cualificada, se aprueban en el Pleno (art. 103.2 del Estatuto). La ley electoral exige mayoría absoluta (art. 105.1)."
+     ]
+    },
+    {
+     "titulo": "4. Disposiciones del Ejecutivo con fuerza de ley: decretos-leyes y decretos legislativos",
+     "parrafos": [
+      "Las disposiciones del Ejecutivo con fuerza de ley son normas del Gobierno que tienen el rango de la ley. Son de dos tipos: los decretos-leyes y los decretos legislativos. Su existencia se justifica por la necesidad de respuesta rápida o de técnica normativa, pero están sometidas a límites estrictos.",
+      "El decreto-ley es una disposición legislativa provisional que el Gobierno puede dictar en caso de extraordinaria y urgente necesidad (art. 86.1 CE). No puede afectar al ordenamiento de las instituciones básicas del Estado, a los derechos, deberes y libertades del Título I, ni al régimen de las Comunidades Autónomas. Debe ser convalidado por el Congreso en el plazo de treinta días. El Estatuto de Andalucía regula su equivalente autonómico en el artículo 110, con el mismo plazo de treinta días y con sus propios límites.",
+      "El decreto legislativo es legislación delegada. Las Cortes Generales pueden delegar en el Gobierno la potestad de dictar normas con rango de ley sobre materias determinadas (art. 82.1 CE). La delegación debe otorgarse mediante una ley de bases cuando se trate de formar textos articulados, o mediante una ley ordinaria cuando se trate de refundir varios textos legales en uno solo (art. 82.2 CE).",
+      "Las leyes de bases no pueden autorizar la modificación de la propia ley de bases, ni facultar para dictar normas con carácter retroactivo (art. 83 CE). Estos límites protegen la estabilidad de la delegación. El Estatuto de Andalucía regula el equivalente autonómico en el artículo 109, que excluye de la delegación las leyes de reforma del Estatuto, las del presupuesto y las que requieran mayoría cualificada, entre otras."
+     ]
+    },
+    {
+     "titulo": "5. El reglamento: concepto y clasificación",
+     "parrafos": [
+      "El reglamento es una norma escrita de carácter general, dictada por el Ejecutivo o por un órgano administrativo en ejercicio de su potestad reglamentaria. A diferencia de la ley, no emana de un órgano parlamentario y no puede regular las materias reservadas a la ley.",
+      "La LPAC identifica a los titulares de la potestad reglamentaria. Corresponde al Gobierno de la Nación, a los órganos de gobierno de las Comunidades Autónomas de conformidad con sus Estatutos, y a los órganos de gobierno locales de acuerdo con la Constitución, los Estatutos y la LBRL (art. 128.1 LPAC). En Andalucía, el artículo 119.3 del Estatuto atribuye la potestad reglamentaria al Consejo de Gobierno y a cada uno de sus miembros, en el ámbito de las competencias de la Comunidad.",
+      "La doctrina clasifica los reglamentos según su función. Los reglamentos ejecutivos desarrollan una ley previa y concretan sus previsiones. Los reglamentos independientes regulan materias que no están reservadas a la ley y que la Administración puede ordenar en virtud de su potestad. Los reglamentos organizativos regulan la estructura interna de la Administración. La clasificación tiene interés práctico, porque el reglamento ejecutivo necesita una ley habilitante y el independiente no la necesita, aunque sin invadir reserva de ley.",
+      "Para un examen, conviene distinguir el reglamento del acto administrativo. El reglamento es una norma general y su vigencia es indefinida, mientras que el acto tiene un destinatario concreto y agota sus efectos en el caso que resuelve."
+     ]
+    },
+    {
+     "titulo": "6. La potestad reglamentaria: fundamento, titularidad y límites",
+     "parrafos": [
+      "El fundamento constitucional de la potestad reglamentaria está en el artículo 97 CE: el Gobierno ejerce la función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes. La potestad está subordinada a la ley y no puede sustituirla.",
+      "La titularidad se ha visto en el apartado anterior. El Gobierno de la Nación la ejerce con carácter general. Las Comunidades Autónomas la ejercen a través de sus órganos de gobierno según sus Estatutos, y las entidades locales según la Constitución, los Estatutos y la LBRL (art. 128.1 LPAC).",
+      "Los límites son de tres tipos. El primero es el de la jerarquía: el reglamento no puede vulnerar la Constitución ni las leyes (art. 128.2 LPAC; art. 9.3 CE). El segundo es el de la reserva de ley: no puede regular materias que la Constitución o los Estatutos reservan a las Cortes o a los parlamentos autonómicos (art. 128.2 LPAC; art. 53.1 CE). El tercero es el del ámbito sancionador: sin perjuicio de su función de desarrollo o colaboración con la ley, no puede tipificar delitos, faltas o infracciones (art. 128.2 LPAC).",
+      "El control de la potestad reglamentaria corresponde a los tribunales. El artículo 106.1 CE atribuye a los tribunales el control de la potestad reglamentaria y de la legalidad de la actuación administrativa. Si el reglamento es contrario a la ley, los tribunales pueden inaplicarlo en el caso concreto, y la jurisdicción contencioso-administrativa puede anularlo en los términos de la legislación procesal."
+     ]
+    },
+    {
+     "titulo": "7. Procedimiento de elaboración de los reglamentos",
+     "parrafos": [
+      "El procedimiento de elaboración de reglamentos está regulado en la LPAC. El artículo 129.1 establece los principios de buena regulación que deben guiar la potestad reglamentaria: necesidad, eficacia, proporcionalidad, seguridad jurídica, transparencia y eficiencia. El preámbulo del reglamento debe justificar su adecuación a esos principios.",
+      "Según el artículo 129.2, en virtud de los principios de necesidad y eficacia la iniciativa debe estar justificada por una razón de interés general, basarse en una identificación clara de los fines perseguidos y ser el instrumento más adecuado para su consecución. El artículo 129.3 exige que la regulación sea la imprescindible, tras constatar que no existen otras medidas menos restrictivas de derechos.",
+      "El artículo 129.4 vincula la seguridad jurídica con la coherencia del reglamento con el resto del ordenamiento, nacional y de la Unión Europea. Cuando el reglamento establezca trámites adicionales a los de la LPAC, deben justificarse.",
+      "El artículo 133 regula la participación. Con carácter previo a la elaboración del proyecto o anteproyecto de ley o de reglamento, se sustancia una consulta pública a través del portal web de la Administración competente, sobre los problemas que se pretenden solucionar, la necesidad de la norma, sus objetivos y las posibles alternativas (art. 133.1). Además, el artículo 105.a) CE prevé la audiencia de los ciudadanos en la elaboración de las disposiciones administrativas que les afecten.",
+      "El artículo 131 regula la publicidad. Las normas con rango de ley, los reglamentos y las disposiciones administrativas deben publicarse en el diario oficial correspondiente para entrar en vigor y producir efectos jurídicos.",
+      "Un aviso importante: el artículo 132 LPAC, sobre planificación normativa, ha sido declarado contrario al orden constitucional de competencias en los términos del fundamento jurídico 7 b) y 7 c) por la STC 55/2018, de 24 de mayo. El texto del precepto debe leerse con esa anotación. Es un ejemplo de por qué conviene verificar las normas antes de citarlas."
+     ]
+    },
+    {
+     "titulo": "8. Fuentes subsidiarias e indirectas",
+     "parrafos": [
+      "Las fuentes subsidiarias son aquellas que solo se aplican cuando no hay una norma escrita que resuelva el caso. La costumbre y los principios generales del Derecho son las más relevantes. El Código Civil las recoge como fuentes subsidiarias del ordenamiento general; esa norma no está incluida en el catálogo de normas verificadas de este repositorio, y su artículo debe comprobarse antes de citarse.",
+      "Las fuentes indirectas no crean normas, pero influyen en su interpretación y aplicación. Son la jurisprudencia, que complementa el ordenamiento con la interpretación reiterada de los tribunales, y la doctrina científica, que orienta la interpretación. La jurisprudencia del Tribunal Constitucional, en particular, tiene un valor decisivo en la interpretación de la Constitución y de las leyes.",
+      "El Derecho de la Unión Europea y los tratados internacionales son también fuentes relevantes. El artículo 96.1 CE establece que los tratados válidamente celebrados, una vez publicados oficialmente en España, forman parte del ordenamiento interno. El artículo 93 CE permite, mediante ley orgánica, autorizar la celebración de tratados que atribuyan a una organización internacional el ejercicio de competencias derivadas de la Constitución."
+     ]
+    },
+    {
+     "titulo": "10. El Derecho de la Unión Europea y los tratados como fuentes",
+     "parrafos": [
+      "El Derecho de la Unión Europea tiene primacía sobre el Derecho nacional en los términos que establecen los tratados y la jurisprudencia del Tribunal de Justicia. La Constitución lo integra en el ordenamiento a través de sus artículos 93 y 96.1.",
+      "El artículo 93 CE permite, mediante ley orgánica, autorizar la celebración de tratados que atribuyan a una organización internacional el ejercicio de competencias derivadas de la Constitución. Es la base constitucional de la integración europea.",
+      "El Estatuto de Andalucía reconoce en su artículo 1.4 que la Unión Europea es ámbito de referencia de la Comunidad. El artículo 231.1 prevé que la Junta participe en la formación de la posición del Estado ante la Unión Europea en los asuntos que afecten a sus competencias, lo que conecta el Derecho europeo con las fuentes autonómicas.",
+      "Para un examen, la pregunta típica es si una norma nacional contraria al Derecho europeo debe inaplicarse. La respuesta del sistema es que el juez nacional debe aplicar el Derecho europeo, lo que obliga a verificar la norma de origen europeo en el texto del tratado o del reglamento correspondiente."
+     ]
+    },
+    {
+     "titulo": "11. El Estatuto de Autonomía como norma institucional básica",
+     "parrafos": [
+      "El artículo 147.1 CE establece que los Estatutos son la norma institucional básica de cada Comunidad Autónoma, y que el Estado los reconoce y ampara como parte integrante de su ordenamiento jurídico. Son leyes orgánicas (art. 81.1 CE).",
+      "El artículo 1.3 del Estatuto de Andalucía confirma que el Estatuto es la norma institucional básica de la Comunidad, y que los poderes autonómicos emanan de la Constitución y del pueblo andaluz. Es el punto de partida de la jerarquía de las fuentes andaluzas.",
+      "En el sistema de fuentes andaluz, el Estatuto se sitúa sobre las leyes del Parlamento y sobre los reglamentos del Consejo de Gobierno. Las leyes autonómicas no pueden contradecir el Estatuto, y los reglamentos no pueden contradecir las leyes autonómicas ni las estatales que sean de aplicación."
+     ]
+    },
+    {
+     "titulo": "12. El procedimiento de elaboración de reglamentos paso a paso",
+     "parrafos": [
+      "El primer paso es la planificación. El artículo 132 LPAC prevé un plan normativo anual con las iniciativas legales o reglamentarias que se elevarán en el año siguiente. El precepto ha sido declarado contrario al orden constitucional de competencias en parte por la STC 55/2018, por lo que su aplicación debe comprobarse en cada caso.",
+      "El segundo paso es la consulta pública previa. Antes de elaborar el proyecto, se sustancia una consulta pública en el portal web de la Administración competente, que recaba la opinión de los sujetos y organizaciones afectadas sobre el problema, la necesidad de la norma, sus objetivos y las alternativas (art. 133.1 LPAC).",
+      "El tercer paso es la redacción y la justificación. El preámbulo debe justificar la adecuación a los principios de buena regulación (art. 129.1 LPAC), y la iniciativa debe estar justificada por una razón de interés general (art. 129.2) y contener solo la regulación imprescindible (art. 129.3).",
+      "El cuarto paso es la audiencia y la participación. La Constitución prevé la audiencia de los ciudadanos en la elaboración de las disposiciones administrativas que les afecten (art. 105.a CE), y el artículo 133.2 LPAC exige publicar el texto cuando la norma afecte a los derechos e intereses legítimos de las personas.",
+      "El quinto paso es la publicación. Las normas deben publicarse en el diario oficial correspondiente para entrar en vigor y producir efectos jurídicos (art. 131 LPAC). Sin publicación, el reglamento no existe jurídicamente como norma eficaz."
+     ]
+    },
+    {
+     "titulo": "13. Casos prácticos de jerarquía y de reserva de ley",
+     "parrafos": [
+      "Caso 1: un reglamento municipal regula la tipificación de una infracción urbanística con una sanción que no figura en la ley. El reglamento no puede tipificar infracciones en contra de la ley (art. 128.2 LPAC), y la sanción sería nula por vulnerar la reserva de ley del artículo 25.1 CE. La conclusión depende de que la ley no haya habilitado expresamente esa tipificación.",
+      "Caso 2: un Consejero dicta un reglamento sobre una materia que el Estatuto reserva al Parlamento. El reglamento es nulo porque la potestad reglamentaria no alcanza las materias reservadas (art. 119.3 y art. 128.2 LPAC). La respuesta correcta es la invasión de reserva, no la falta de competencia del Consejero.",
+      "Caso 3: el Gobierno quiere regular por decreto-ley los derechos del Título I. La Constitución lo prohíbe expresamente (art. 86.1 CE), y el Estatuto impone la misma limitación para los derechos del Estatuto (art. 110.1)."
+     ]
+    },
+    {
+     "titulo": "14. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir el decreto legislativo con el decreto-ley. El primero es legislación delegada por las Cortes (art. 82 CE); el segundo es legislación provisional por urgencia del Gobierno (art. 86 CE).",
+      "Olvidar que la convalidación del decreto-ley es un plazo de treinta días desde la promulgación (art. 86.2 CE; art. 110.2 del Estatuto).",
+      "Citar el reglamento como fuente de rango superior a la ley. La jerarquía sitúa el reglamento por debajo de la ley y de las normas con fuerza de ley (art. 9.3 CE; art. 128.2 LPAC)."
+     ]
+    },
+    {
+     "titulo": "15. La costumbre y los principios generales del Derecho",
+     "parrafos": [
+      "La costumbre es una práctica reiterada y aceptada como obligatoria. En el Derecho administrativo tiene un papel limitado, porque el principio de legalidad exige una norma escrita para las potestades. Puede servir para interpretar o completar las normas cuando no existe regulación expresa, pero no puede crear potestades ni contradecir la ley.",
+      "Los principios generales del Derecho son criterios de justicia y de racionalidad que sirven para resolver los casos no previstos. En el Derecho administrativo son especialmente relevantes los principios de legalidad, de proporcionalidad, de buena fe y de confianza legítima, que la LRJSP recoge expresamente (art. 3.2.e).",
+      "Para un examen, la pregunta típica es cuál es el orden de aplicación. Primero, la ley y los reglamentos; después, la costumbre, en los casos en que la ley lo permite; y por último, los principios generales. Esta prelación es la que el sistema de fuentes subsidiarias sigue."
+     ]
+    },
+    {
+     "titulo": "16. Ejemplo de jerarquía en el sistema de fuentes andaluz",
+     "parrafos": [
+      "Imaginemos una cuestión sobre la regulación de un servicio autonómico. El punto de partida es el Estatuto, que es la norma institucional básica (art. 1.3 y art. 147.1 CE). Después vienen las leyes del Parlamento, que el Estatuto clasifica según su régimen de aprobación (art. 103.2 y art. 105). Los decretos-leyes y decretos legislativos del Consejo de Gobierno tienen rango de ley, con sus límites (arts. 109 y 110).",
+      "Por debajo están los reglamentos del Consejo de Gobierno y de cada Consejero, que ejercen la potestad reglamentaria en el ámbito de las competencias de la Comunidad (art. 119.3 del Estatuto). Los reglamentos no pueden contradecir las leyes, ni regular las materias reservadas al Parlamento (art. 128.2 LPAC).",
+      "Para resolver el caso, se identifica primero la norma de rango más alto que regula la materia y después se comprueba que las normas inferiores son conformes con ella. Este es el método habitual en los exámenes de fuentes."
+     ]
+    },
+    {
+     "titulo": "17. La jurisprudencia del Tribunal Constitucional como fuente indirecta",
+     "parrafos": [
+      "El Tribunal Constitucional es el intérprete supremo de la Constitución. Sus sentencias no crean normas en sentido estricto, pero determinan cómo deben entenderse las leyes y, cuando declaran una inconstitucionalidad, pueden expulsar del ordenamiento la norma correspondiente.",
+      "Un ejemplo concreto es la STC 55/2018, de 24 de mayo, que declaró contrario al orden constitucional de competencias el artículo 132 LPAC, en los términos de su fundamento jurídico 7 b) y 7 c). La sentencia muestra que una norma estatal puede dejar de ser aplicable en parte por una decisión del Tribunal, lo que obliga a verificar el texto vigente antes de citarlo.",
+      "Para un examen, la fuente indirecta más importante es la jurisprudencia constitucional. Su valor depende de que se refiera a la interpretación de un precepto y de la forma en que el propio Tribunal la fija."
+     ]
+    },
+    {
+     "titulo": "18. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué es la jerarquía normativa? El principio, garantizado por el artículo 9.3 CE, según el cual la norma inferior no puede contradecir la superior y es inválida en la parte en que lo hace.",
+      "¿Qué mayoría exige una ley orgánica en la votación final? Mayoría absoluta del Congreso sobre el conjunto del texto (art. 81.2 CE).",
+      "¿Qué diferencia hay entre decreto-ley y decreto legislativo? El decreto-ley es legislación provisional del Gobierno por extraordinaria y urgente necesidad (art. 86 CE). El decreto legislativo es legislación delegada por las Cortes mediante ley de bases o ley ordinaria (art. 82 CE).",
+      "¿Quién ejerce la potestad reglamentaria? El Gobierno de la Nación, los órganos de gobierno de las Comunidades Autónomas según sus Estatutos y los órganos de gobierno locales (art. 128.1 LPAC). En Andalucía, el Consejo de Gobierno y cada Consejero (art. 119.3 del Estatuto).",
+      "¿Cuándo entra en vigor una norma? Cuando se publica en el diario oficial correspondiente (art. 131 LPAC)."
+     ]
+    },
+    {
+     "titulo": "9. Claves para el examen",
+     "parrafos": [
+      "Jerarquía: Constitución, leyes y normas con fuerza de ley, reglamentos, otras disposiciones administrativas (art. 9.3 CE; art. 128.2 LPAC).",
+      "Leyes: orgánicas con mayoría absoluta (art. 81 CE); ley de bases o marco (art. 150.1 CE); Estatuto como norma institucional básica (art. 147.1 CE).",
+      "Fuerza de ley del Ejecutivo: decreto-ley de extraordinaria y urgente necesidad, convalidación en treinta días (art. 86 CE; art. 110 Estatuto); decreto legislativo con delegación por ley de bases o ley ordinaria (arts. 82 y 83 CE).",
+      "Reglamento: titularidad del Gobierno, de las Comunidades Autónomas y de las entidades locales (art. 128.1 LPAC); límites de jerarquía y reserva de ley (art. 128.2 LPAC); control de los tribunales (art. 106.1 CE).",
+      "Procedimiento: principios de buena regulación (art. 129 LPAC); consulta pública (art. 133); publicación para la entrada en vigor (art. 131). El art. 132 LPAC tiene la anotación de la STC 55/2018.",
+      "Fuentes subsidiarias: costumbre y principios generales; fuentes indirectas: jurisprudencia y doctrina; tratados y Derecho de la Unión (arts. 93 y 96.1 CE)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
+    },
+    {
+     "nombre": "Ley 39/2015, del Procedimiento Administrativo Común (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+     "pdf": "leyes/BOE-A-2015-10565.pdf"
+    },
     {
      "nombre": "Ley Orgánica 2/2007, de reforma del Estatuto de Autonomía para Andalucía (texto consolidado, BOE)",
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
