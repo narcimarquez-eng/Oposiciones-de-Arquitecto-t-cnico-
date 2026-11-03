@@ -1,0 +1,191 @@
+{
+  "id": "c25",
+  "resumen": [
+    {
+      "titulo": "Principios de actuación",
+      "puntos": [
+        "La Administración sirve con objetividad los intereses generales (art. 103.1 CE). Los poderes públicos promueven condiciones reales de libertad e igualdad y facilitan la participación (art. 9.2 CE).",
+        "La Junta actúa con eficacia, eficiencia, simplificación, transparencia, proximidad y confianza legítima (art. 133.1 EA). La LRJSP incluye la planificación por objetivos y la evaluación de resultados (art. 3.1.g LRJSP)."
+      ]
+    },
+    {
+      "titulo": "Buena administración y ciudadanía",
+      "puntos": [
+        "La ciudadanía tiene derecho a actos proporcionados, a un trato equitativo e imparcial, a resolución en plazo razonable, a participar en las decisiones y a acceder a la información (art. 5.1 LAJA).",
+        "La participación es un derecho de la ciudadanía en los asuntos públicos (art. 5.1.e LAJA) y un deber de los poderes públicos de facilitarla (art. 9.2 CE)."
+      ]
+    },
+    {
+      "titulo": "Evaluación de políticas públicas",
+      "puntos": [
+        "Evaluar es valorar sistemáticamente la eficacia, la eficiencia y el impacto de una política, con indicadores definidos antes de aplicarla. Puede ser ex ante, concurrente o ex post.",
+        "El Estatuto establece que una ley regulará el sistema de evaluación de las políticas públicas (art. 138 EA)."
+      ]
+    },
+    {
+      "titulo": "Calidad de los servicios",
+      "puntos": [
+        "La Junta lleva a cabo la mejora continua de la calidad mediante sistemas de gestión y evaluación aprobados por el Consejo de Gobierno (art. 6.1 LAJA).",
+        "Impulsa la simplificación y la gestión telemática de los procedimientos (art. 6.3 LAJA)."
+      ]
+    },
+    {
+      "titulo": "Cartas de servicios y de derechos",
+      "puntos": [
+        "La Junta hará pública la oferta y las características de sus servicios, y las cartas de derechos de la ciudadanía (art. 137 EA).",
+        "El Consejo de Gobierno promueve el desarrollo de las cartas de servicio y de derechos (art. 6.2 LAJA). Los compromisos deben ser medibles para poder evaluarse."
+      ]
+    },
+    {
+      "titulo": "Atención a la ciudadanía",
+      "puntos": [
+        "Derecho a comunicarse por el punto de acceso general electrónico, a ser asistido en el uso de medios electrónicos y a acceder a la información pública (art. 13 LPAC).",
+        "La sede electrónica debe garantizar los medios para formular sugerencias y quejas (art. 38.3 LRJSP)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LAJA",
+      "rol": "Norma principal del tema (arts. 5, 6 y 8 a 10)"
+    },
+    {
+      "id": "EA-ANDALUCIA",
+      "rol": "Principios y evaluación de políticas (arts. 133, 137 y 138)"
+    },
+    {
+      "id": "CE",
+      "rol": "Principios constitucionales (arts. 9.2 y 103.1)"
+    },
+    {
+      "id": "LRJSP",
+      "rol": "Principios y sede electrónica (arts. 3.1 y 38.3)"
+    },
+    {
+      "id": "LPAC",
+      "rol": "Atención a la ciudadanía (art. 13)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 103.1 CE, ¿con qué criterio sirve la Administración los intereses generales?",
+      "opciones": [
+        "Con objetividad, con sometimiento pleno a la ley y al Derecho",
+        "Con discrecionalidad absoluta",
+        "Solo a los intereses de los funcionarios",
+        "Según criterios de mayoría política"
+      ],
+      "correcta": 0,
+      "explicacion": "La Administración sirve con objetividad los intereses generales, con sometimiento pleno a la ley y al Derecho.",
+      "referencia": "Art. 103.1 CE"
+    },
+    {
+      "pregunta": "Según el art. 9.2 CE, ¿qué deben promover los poderes públicos?",
+      "opciones": [
+        "Solo la religión",
+        "Solo la actividad económica",
+        "Condiciones para que la libertad y la igualdad sean reales y efectivas, y la participación de la ciudadanía",
+        "Nada: es competencia de los particulares"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 9.2 CE obliga a los poderes públicos a promover condiciones para que la libertad y la igualdad sean reales y efectivas, y a facilitar la participación.",
+      "referencia": "Art. 9.2 CE"
+    },
+    {
+      "pregunta": "Según el art. 133.1 EA, ¿cuál NO es un principio de actuación de la Administración de la Junta?",
+      "opciones": [
+        "Proximidad a los ciudadanos",
+        "Eficacia",
+        "Simplificación de procedimientos",
+        "Opacidad"
+      ],
+      "correcta": 3,
+      "explicacion": "Los principios del artículo 133.1 EA incluyen la eficacia, la simplificación, la transparencia y la proximidad. La opacidad no es un principio.",
+      "referencia": "Art. 133.1 EA"
+    },
+    {
+      "pregunta": "Según el art. 5.1.d LAJA, ¿qué derecho tiene la ciudadanía?",
+      "opciones": [
+        "A pagar por cada trámite",
+        "A que sus asuntos se resuelvan en un plazo razonable",
+        "A que sus asuntos se resuelvan cuando la Administración quiera",
+        "A no ser informada"
+      ],
+      "correcta": 1,
+      "explicacion": "La ciudadanía tiene derecho a que sus asuntos se resuelvan en un plazo razonable, siguiendo el principio de proximidad.",
+      "referencia": "Art. 5.1.d LAJA"
+    },
+    {
+      "pregunta": "Según el art. 6.1 LAJA, ¿quién aprueba los sistemas de gestión y evaluación de la calidad?",
+      "opciones": [
+        "El Consejo de Gobierno",
+        "Cada funcionario",
+        "La Cámara de Cuentas",
+        "La Intervención General"
+      ],
+      "correcta": 0,
+      "explicacion": "Los sistemas de gestión y evaluación de la calidad se aprueban por el Consejo de Gobierno.",
+      "referencia": "Art. 6.1 LAJA"
+    },
+    {
+      "pregunta": "Según el art. 6.2 LAJA, ¿qué promueve el Consejo de Gobierno?",
+      "opciones": [
+        "Solo la publicidad de precios",
+        "La supresión de las cartas de servicio",
+        "El desarrollo de las cartas de servicio y de derechos",
+        "La eliminación de la calidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El Consejo de Gobierno promueve la mejora continua de la calidad y el desarrollo de las cartas de servicio y de derechos.",
+      "referencia": "Art. 6.2 LAJA"
+    },
+    {
+      "pregunta": "Según el art. 137 EA, ¿qué hará pública la Administración de la Junta?",
+      "opciones": [
+        "Nada",
+        "Solo los nombres de sus funcionarios",
+        "Solo sus gastos internos",
+        "La oferta y características de los servicios y las cartas de derechos de los ciudadanos"
+      ],
+      "correcta": 3,
+      "explicacion": "La Junta hará pública la oferta y las características de sus servicios, así como las cartas de derechos de los ciudadanos.",
+      "referencia": "Art. 137 EA"
+    },
+    {
+      "pregunta": "Según el art. 138 EA, ¿quién regulará el sistema de evaluación de las políticas públicas?",
+      "opciones": [
+        "El Consejo de Gobierno por decreto",
+        "Una ley",
+        "La Cámara de Cuentas",
+        "Nadie"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 138 EA establece que la ley regulará la organización y el funcionamiento de un sistema de evaluación de las políticas públicas.",
+      "referencia": "Art. 138 EA"
+    },
+    {
+      "pregunta": "Según el art. 3.1.g LRJSP, ¿qué principio incluye la evaluación de resultados?",
+      "opciones": [
+        "La ausencia de control",
+        "La gestión sin objetivos",
+        "La planificación y dirección por objetivos, con control de la gestión y evaluación de resultados de las políticas públicas",
+        "La improvisación"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 3.1.g LRJSP incluye la planificación y dirección por objetivos, el control de la gestión y la evaluación de los resultados de las políticas públicas.",
+      "referencia": "Art. 3.1.g LRJSP"
+    },
+    {
+      "pregunta": "Según el art. 38.3 LRJSP, ¿qué debe garantizar la creación de una sede electrónica?",
+      "opciones": [
+        "La identificación del órgano titular y los medios para formular sugerencias y quejas",
+        "Que no tenga información",
+        "Que solo se acceda por teléfono",
+        "Que no se publique nada"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 38.3 LRJSP exige garantizar la identificación del órgano titular de la sede y los medios para formular sugerencias y quejas.",
+      "referencia": "Art. 38.3 LRJSP"
+    }
+  ]
+}

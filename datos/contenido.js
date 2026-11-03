@@ -10035,6 +10035,937 @@ window.DATOS_ESTUDIO = {
     }
    ]
   },
+  "c25": {
+   "resumen": [
+    {
+     "titulo": "Principios de actuación",
+     "puntos": [
+      "La Administración sirve con objetividad los intereses generales (art. 103.1 CE). Los poderes públicos promueven condiciones reales de libertad e igualdad y facilitan la participación (art. 9.2 CE).",
+      "La Junta actúa con eficacia, eficiencia, simplificación, transparencia, proximidad y confianza legítima (art. 133.1 EA). La LRJSP incluye la planificación por objetivos y la evaluación de resultados (art. 3.1.g LRJSP)."
+     ]
+    },
+    {
+     "titulo": "Buena administración y ciudadanía",
+     "puntos": [
+      "La ciudadanía tiene derecho a actos proporcionados, a un trato equitativo e imparcial, a resolución en plazo razonable, a participar en las decisiones y a acceder a la información (art. 5.1 LAJA).",
+      "La participación es un derecho de la ciudadanía en los asuntos públicos (art. 5.1.e LAJA) y un deber de los poderes públicos de facilitarla (art. 9.2 CE)."
+     ]
+    },
+    {
+     "titulo": "Evaluación de políticas públicas",
+     "puntos": [
+      "Evaluar es valorar sistemáticamente la eficacia, la eficiencia y el impacto de una política, con indicadores definidos antes de aplicarla. Puede ser ex ante, concurrente o ex post.",
+      "El Estatuto establece que una ley regulará el sistema de evaluación de las políticas públicas (art. 138 EA)."
+     ]
+    },
+    {
+     "titulo": "Calidad de los servicios",
+     "puntos": [
+      "La Junta lleva a cabo la mejora continua de la calidad mediante sistemas de gestión y evaluación aprobados por el Consejo de Gobierno (art. 6.1 LAJA).",
+      "Impulsa la simplificación y la gestión telemática de los procedimientos (art. 6.3 LAJA)."
+     ]
+    },
+    {
+     "titulo": "Cartas de servicios y de derechos",
+     "puntos": [
+      "La Junta hará pública la oferta y las características de sus servicios, y las cartas de derechos de la ciudadanía (art. 137 EA).",
+      "El Consejo de Gobierno promueve el desarrollo de las cartas de servicio y de derechos (art. 6.2 LAJA). Los compromisos deben ser medibles para poder evaluarse."
+     ]
+    },
+    {
+     "titulo": "Atención a la ciudadanía",
+     "puntos": [
+      "Derecho a comunicarse por el punto de acceso general electrónico, a ser asistido en el uso de medios electrónicos y a acceder a la información pública (art. 13 LPAC).",
+      "La sede electrónica debe garantizar los medios para formular sugerencias y quejas (art. 38.3 LRJSP)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LAJA",
+     "rol": "Norma principal del tema (arts. 5, 6 y 8 a 10)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Principios y evaluación de políticas (arts. 133, 137 y 138)"
+    },
+    {
+     "id": "CE",
+     "rol": "Principios constitucionales (arts. 9.2 y 103.1)"
+    },
+    {
+     "id": "LRJSP",
+     "rol": "Principios y sede electrónica (arts. 3.1 y 38.3)"
+    },
+    {
+     "id": "LPAC",
+     "rol": "Atención a la ciudadanía (art. 13)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 103.1 CE, ¿con qué criterio sirve la Administración los intereses generales?",
+     "opciones": [
+      "Con objetividad, con sometimiento pleno a la ley y al Derecho",
+      "Con discrecionalidad absoluta",
+      "Solo a los intereses de los funcionarios",
+      "Según criterios de mayoría política"
+     ],
+     "correcta": 0,
+     "explicacion": "La Administración sirve con objetividad los intereses generales, con sometimiento pleno a la ley y al Derecho.",
+     "referencia": "Art. 103.1 CE"
+    },
+    {
+     "pregunta": "Según el art. 9.2 CE, ¿qué deben promover los poderes públicos?",
+     "opciones": [
+      "Solo la religión",
+      "Solo la actividad económica",
+      "Condiciones para que la libertad y la igualdad sean reales y efectivas, y la participación de la ciudadanía",
+      "Nada: es competencia de los particulares"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 9.2 CE obliga a los poderes públicos a promover condiciones para que la libertad y la igualdad sean reales y efectivas, y a facilitar la participación.",
+     "referencia": "Art. 9.2 CE"
+    },
+    {
+     "pregunta": "Según el art. 133.1 EA, ¿cuál NO es un principio de actuación de la Administración de la Junta?",
+     "opciones": [
+      "Proximidad a los ciudadanos",
+      "Eficacia",
+      "Simplificación de procedimientos",
+      "Opacidad"
+     ],
+     "correcta": 3,
+     "explicacion": "Los principios del artículo 133.1 EA incluyen la eficacia, la simplificación, la transparencia y la proximidad. La opacidad no es un principio.",
+     "referencia": "Art. 133.1 EA"
+    },
+    {
+     "pregunta": "Según el art. 5.1.d LAJA, ¿qué derecho tiene la ciudadanía?",
+     "opciones": [
+      "A pagar por cada trámite",
+      "A que sus asuntos se resuelvan en un plazo razonable",
+      "A que sus asuntos se resuelvan cuando la Administración quiera",
+      "A no ser informada"
+     ],
+     "correcta": 1,
+     "explicacion": "La ciudadanía tiene derecho a que sus asuntos se resuelvan en un plazo razonable, siguiendo el principio de proximidad.",
+     "referencia": "Art. 5.1.d LAJA"
+    },
+    {
+     "pregunta": "Según el art. 6.1 LAJA, ¿quién aprueba los sistemas de gestión y evaluación de la calidad?",
+     "opciones": [
+      "El Consejo de Gobierno",
+      "Cada funcionario",
+      "La Cámara de Cuentas",
+      "La Intervención General"
+     ],
+     "correcta": 0,
+     "explicacion": "Los sistemas de gestión y evaluación de la calidad se aprueban por el Consejo de Gobierno.",
+     "referencia": "Art. 6.1 LAJA"
+    },
+    {
+     "pregunta": "Según el art. 6.2 LAJA, ¿qué promueve el Consejo de Gobierno?",
+     "opciones": [
+      "Solo la publicidad de precios",
+      "La supresión de las cartas de servicio",
+      "El desarrollo de las cartas de servicio y de derechos",
+      "La eliminación de la calidad"
+     ],
+     "correcta": 2,
+     "explicacion": "El Consejo de Gobierno promueve la mejora continua de la calidad y el desarrollo de las cartas de servicio y de derechos.",
+     "referencia": "Art. 6.2 LAJA"
+    },
+    {
+     "pregunta": "Según el art. 137 EA, ¿qué hará pública la Administración de la Junta?",
+     "opciones": [
+      "Nada",
+      "Solo los nombres de sus funcionarios",
+      "Solo sus gastos internos",
+      "La oferta y características de los servicios y las cartas de derechos de los ciudadanos"
+     ],
+     "correcta": 3,
+     "explicacion": "La Junta hará pública la oferta y las características de sus servicios, así como las cartas de derechos de los ciudadanos.",
+     "referencia": "Art. 137 EA"
+    },
+    {
+     "pregunta": "Según el art. 138 EA, ¿quién regulará el sistema de evaluación de las políticas públicas?",
+     "opciones": [
+      "El Consejo de Gobierno por decreto",
+      "Una ley",
+      "La Cámara de Cuentas",
+      "Nadie"
+     ],
+     "correcta": 1,
+     "explicacion": "El artículo 138 EA establece que la ley regulará la organización y el funcionamiento de un sistema de evaluación de las políticas públicas.",
+     "referencia": "Art. 138 EA"
+    },
+    {
+     "pregunta": "Según el art. 3.1.g LRJSP, ¿qué principio incluye la evaluación de resultados?",
+     "opciones": [
+      "La ausencia de control",
+      "La gestión sin objetivos",
+      "La planificación y dirección por objetivos, con control de la gestión y evaluación de resultados de las políticas públicas",
+      "La improvisación"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 3.1.g LRJSP incluye la planificación y dirección por objetivos, el control de la gestión y la evaluación de los resultados de las políticas públicas.",
+     "referencia": "Art. 3.1.g LRJSP"
+    },
+    {
+     "pregunta": "Según el art. 38.3 LRJSP, ¿qué debe garantizar la creación de una sede electrónica?",
+     "opciones": [
+      "La identificación del órgano titular y los medios para formular sugerencias y quejas",
+      "Que no tenga información",
+      "Que solo se acceda por teléfono",
+      "Que no se publique nada"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 38.3 LRJSP exige garantizar la identificación del órgano titular de la sede y los medios para formular sugerencias y quejas.",
+     "referencia": "Art. 38.3 LRJSP"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Las Administraciones Públicas en su entorno",
+     "parrafos": [
+      "Las Administraciones públicas no actúan en el vacío. Trabajan en un entorno de cambios sociales, demográficos y económicos, con presiones de la ciudadanía que exige servicios más rápidos y claros, de la economía que exige estabilidad y eficiencia, y de un marco europeo que condiciona buena parte de sus decisiones.",
+      "En España la acción pública se organiza en varios niveles: la Administración General del Estado, las comunidades autónomas, las entidades locales y las instituciones de la Unión Europea. Cada nivel tiene competencias propias y debe coordinarse con los demás, lo que hace necesaria la cooperación interadministrativa.",
+      "Para un examen, la idea clave es que la Administración trabaja en un entorno multinivel y cambiante. Su legitimidad depende de cómo responde a las necesidades de la ciudadanía, no solo de cumplir la norma.",
+      "El tema se estudia mejor relacionando cada principio con su norma: el interés general con el artículo 103.1 CE, la buena administración con el artículo 5 LAJA y la calidad con el artículo 6 LAJA."
+     ]
+    },
+    {
+     "titulo": "2. Qué es una política pública",
+     "parrafos": [
+      "Una política pública es el conjunto de decisiones y acciones de los poderes públicos orientadas a resolver un problema colectivo o a alcanzar un objetivo de interés general. Se expresa en programas, planes, normas, recursos y servicios.",
+      "El ciclo de una política pública suele distinguirse en fases: identificación del problema y puesta en agenda, formulación de alternativas, decisión, implantación y evaluación. La evaluación cierra el ciclo y alimenta la siguiente decisión.",
+      "Para un examen, la pregunta típica es cuál es la última fase del ciclo. Respuesta: la evaluación, que cierra el ciclo y permite corregir o mantener la política."
+     ]
+    },
+    {
+     "titulo": "3. Los principios constitucionales de la actuación administrativa",
+     "parrafos": [
+      "El artículo 103.1 CE establece que la Administración sirve con objetividad los intereses generales y actúa de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho.",
+      "El artículo 9.2 CE obliga a los poderes públicos a promover las condiciones para que la libertad y la igualdad sean reales y efectivas, a remover los obstáculos que las dificulten y a facilitar la participación de todos los ciudadanos en la vida política, económica, cultural y social.",
+      "Para un examen, la diferencia es que el artículo 103.1 CE fija cómo debe actuar la Administración; el artículo 9.2 CE fija lo que debe promover, incluida la participación ciudadana."
+     ]
+    },
+    {
+     "titulo": "4. Los principios de actuación en la Junta de Andalucía",
+     "parrafos": [
+      "El artículo 133.1 del Estatuto de Autonomía para Andalucía establece que la Administración de la Junta sirve con objetividad al interés general y actúa de acuerdo con principios como la eficacia, la eficiencia, la racionalidad organizativa, la simplificación de procedimientos, la coordinación, la cooperación, la transparencia, la buena fe, la protección de la confianza legítima, la no discriminación y la proximidad a la ciudadanía.",
+      "El precepto se somete a la Constitución, al Estatuto y al resto del ordenamiento (art. 133.1 EA). El artículo 133.3 EA integra en la Administración de la Junta todos los órganos que prestan servicios.",
+      "Para un examen, la enumeración del artículo 133.1 EA es la pregunta más frecuente. Memorice los principios de eficacia, simplificación, transparencia, proximidad y confianza legítima."
+     ]
+    },
+    {
+     "titulo": "5. Los principios de la Administración General del Estado: el artículo 3 LRJSP",
+     "parrafos": [
+      "El artículo 3.1 LRJSP reitera los principios de actuación y añade el servicio efectivo a los ciudadanos (letra a), la simplicidad, claridad y proximidad (letra b), la participación, objetividad y transparencia (letra c) y la racionalización y agilidad de los procedimientos (letra d).",
+      "El artículo 3.1.g LRJSP incluye la planificación y dirección por objetivos, el control de la gestión y la evaluación de los resultados de las políticas públicas. Es el fundamento legal de la evaluación en la actuación de las Administraciones.",
+      "Para un examen, la evaluación de resultados de las políticas públicas aparece como principio en el artículo 3.1.g LRJSP. Conviene citarlo junto con el artículo 138 EA."
+     ]
+    },
+    {
+     "titulo": "6. La evaluación de las políticas públicas",
+     "parrafos": [
+      "Evaluar una política pública es valorar sistemáticamente sus resultados: si alcanza sus objetivos (eficacia), con qué coste (eficiencia) y qué cambios produce en la sociedad (impacto). La evaluación se apoya en indicadores definidos antes de aplicar la política.",
+      "Suele distinguirse la evaluación previa (ex ante), que analiza la necesidad y el diseño; la concurrente, que sigue la ejecución; y la posterior (ex post), que mide los resultados. Cada una responde a una pregunta distinta.",
+      "El artículo 138 del Estatuto de Autonomía para Andalucía establece que la ley regulará la organización y el funcionamiento de un sistema de evaluación de las políticas públicas. Para un examen, la pregunta típica es quién regula ese sistema: la ley, según el artículo 138 EA."
+     ]
+    },
+    {
+     "titulo": "7. La ciudadanía en el centro de la actividad pública",
+     "parrafos": [
+      "La actividad pública debe orientarse a la ciudadanía. El artículo 5.1 LAJA reconoce el principio de buena administración y un conjunto de derechos: que los actos sean proporcionados a sus fines, que sus asuntos se traten de forma equitativa, imparcial y objetiva, y que se resuelvan en un plazo razonable.",
+      "El mismo artículo reconoce el derecho a participar en las decisiones que afecten a la persona de acuerdo con el procedimiento, a participar en los asuntos públicos, a acceder a la documentación e información de la Administración, y a obtener información veraz.",
+      "Para un examen, el principio de buena administración es el eje: la ciudadanía tiene derechos frente a la Administración, no solo obligaciones (art. 5.1 LAJA)."
+     ]
+    },
+    {
+     "titulo": "8. El interés general como criterio de actuación",
+     "parrafos": [
+      "El interés general es el criterio que justifica la actuación administrativa y limita el interés particular de quien gestiona. La Administración lo sirve con objetividad (art. 103.1 CE; art. 133.1 EA).",
+      "El interés general no se identifica con la mayoría política ni con la conveniencia del gestor. Debe motivarse en el expediente, con los hechos y las razones que lo justifican.",
+      "Para un examen, la pregunta típica es qué criterio debe guiar la actuación administrativa. Respuesta: el interés general, servido con objetividad (art. 103.1 CE)."
+     ]
+    },
+    {
+     "titulo": "9. La mejora continua de la calidad",
+     "parrafos": [
+      "El artículo 6.1 LAJA establece que los servicios de la Administración de la Junta llevarán a cabo la mejora continua de la calidad mediante sistemas de gestión y evaluación aprobados por el Consejo de Gobierno, orientados a la excelencia en la gestión.",
+      "El artículo 6.2 LAJA encarga al Consejo de Gobierno promover la mejora continua y el desarrollo de las cartas de servicio y de derechos entre los órganos y entidades dependientes. El artículo 6.3 LAJA impulsa la simplificación de métodos y la gestión telemática de los procedimientos.",
+      "Para un examen, la pregunta típica es quién aprueba los sistemas de gestión y evaluación de la calidad. Respuesta: el Consejo de Gobierno (art. 6.1 LAJA)."
+     ]
+    },
+    {
+     "titulo": "10. La calidad de los servicios: concepto y evaluación",
+     "parrafos": [
+      "La calidad de un servicio público es la adecuación entre lo que la ciudadanía espera y lo que recibe: rapidez, claridad, trato, accesibilidad y resultado. Se mide con indicadores objetivos, como plazos de resolución, y con indicadores de percepción, como encuestas de satisfacción.",
+      "La evaluación de la calidad combina la medición de procesos y la opinión de los usuarios. Sus resultados sirven para identificar mejoras, establecer compromisos y rendir cuentas.",
+      "Para un examen, distinga los indicadores objetivos (plazos, errores) de los de percepción (satisfacción). Ambos se complementan."
+     ]
+    },
+    {
+     "titulo": "11. Las cartas de servicios y las cartas de derechos",
+     "parrafos": [
+      "El artículo 137 del Estatuto de Autonomía para Andalucía establece que la Administración de la Junta hará pública la oferta y las características de los servicios, así como las cartas de derechos de los ciudadanos ante la misma.",
+      "La carta de servicios es el documento que informa sobre los servicios que presta un órgano, las condiciones de acceso, los compromisos de calidad y los canales de queja. La carta de derechos reconoce los derechos de la ciudadanía en su relación con la Administración.",
+      "Para un examen, la diferencia es que la carta de servicios informa de lo que se ofrece y se compromete a una calidad; la carta de derechos enumera lo que la ciudadanía puede exigir (arts. 6.2 LAJA y 137 EA)."
+     ]
+    },
+    {
+     "titulo": "12. La dirección pública por objetivos",
+     "parrafos": [
+      "La dirección por objetivos consiste en fijar resultados concretos y medibles antes de actuar, asignar responsabilidades para alcanzarlos y controlar después el grado de cumplimiento. Se opone a la gestión que solo atiende a cumplir trámites.",
+      "El artículo 3.1.g LRJSP incluye la planificación y la dirección por objetivos entre los principios de actuación, junto con el control de la gestión y la evaluación de los resultados de las políticas públicas. Por eso la planificación no es una opción de gestión, sino un principio que la ley exige.",
+      "Para un examen, la pregunta típica es qué diferencia la dirección por objetivos de la gestión por procedimientos. Respuesta: en la primera se evalúan resultados fijados de antemano; en la segunda, el cumplimiento del trámite."
+     ]
+    },
+    {
+     "titulo": "13. Participación ciudadana en las decisiones públicas",
+     "parrafos": [
+      "La participación ciudadana se produce en distintos momentos de la política pública: al identificar problemas, al diseñar alternativas, al decidir y al evaluar. Cuanto más temprana es, más fácil es corregir el rumbo sin coste.",
+      "El artículo 5.1.c LAJA reconoce el derecho de la ciudadanía a participar en las decisiones que le afecten, de acuerdo con el procedimiento establecido, y el artículo 5.1.e LAJA a participar en los asuntos públicos. El artículo 9.2 CE obliga a los poderes públicos a facilitar esa participación.",
+      "Para un examen, la diferencia es entre participar en una decisión concreta (procedimiento) y participar en los asuntos públicos en general. Ambas están reconocidas en el artículo 5.1 LAJA."
+     ]
+    },
+    {
+     "titulo": "14. Evaluación de la calidad: fases y uso de los resultados",
+     "parrafos": [
+      "Una evaluación de calidad sigue unas fases: definir qué se mide, obtener los datos (procesos y opinión de los usuarios), analizar los resultados frente a los compromisos y decidir las mejoras. Sin la última fase, la evaluación es un ejercicio sin efecto.",
+      "Los resultados se utilizan para ajustar los procesos, revisar los compromisos de las cartas de servicios y rendir cuentas a la ciudadanía. El artículo 6.1 LAJA vincula la mejora continua a los sistemas de gestión y evaluación aprobados por el Consejo de Gobierno.",
+      "Para un examen, la evaluación sirve para mejorar, no solo para medir. Por eso el ciclo de calidad incluye la acción correctora, no solo el informe."
+     ]
+    },
+    {
+     "titulo": "15. Contenido y uso de las cartas de servicios",
+     "parrafos": [
+      "Una carta de servicios suele incluir la identificación del órgano, los servicios que presta, las condiciones de acceso, los compromisos de calidad con indicadores (por ejemplo, plazos de respuesta), los derechos de la ciudadanía en relación con ese servicio y los canales para presentar sugerencias y quejas.",
+      "Los compromisos deben ser verificables: un compromiso que no puede medirse no sirve para evaluar la calidad. La carta se revisa periódicamente con los resultados de la evaluación.",
+      "Para un examen, la pregunta típica es qué debe tener una carta de servicios. Respuesta: servicios, condiciones de acceso, compromisos de calidad medibles, derechos y canales de queja."
+     ]
+    },
+    {
+     "titulo": "16. Coordinación interadministrativa y convenios",
+     "parrafos": [
+      "Muchos servicios públicos requieren que varias Administraciones actúen de forma coordinada. Los artículos 8 y 9 LAJA regulan las relaciones interadministrativas y los convenios de colaboración, y el artículo 10 LAJA los convenios con otras comunidades autónomas. El detalle de cada precepto no se ha verificado en este tema.",
+      "La coordinación evita duplicidades, reparte responsabilidades y permite compartir recursos. Sin ella, cada Administración diseña su propia política y el ciudadano sufre las consecuencias de la falta de coherencia.",
+      "Para un examen, la pregunta típica es por qué se firman convenios de colaboración. Respuesta: para coordinar la actuación de varias Administraciones en un servicio común (arts. 8 a 10 LAJA)."
+     ]
+    },
+    {
+     "titulo": "17. Diseño de políticas basado en evidencia",
+     "parrafos": [
+      "Una política bien diseñada parte de un diagnóstico del problema, identifica sus causas y compara alternativas con sus costes y efectos probables. Las decisiones basadas en evidencia usan datos y evaluaciones previas, no solo la intuición o la presión del momento.",
+      "La evidencia tiene límites: los datos pueden estar incompletos, los indicadores pueden medir lo fácil y no lo importante, y los efectos pueden tardar en verse. Por eso conviene combinar fuentes y revisar las conclusiones.",
+      "Para un examen, la idea clave es que la evaluación alimenta el diseño de la siguiente política. Es el cierre del ciclo, no un trámite final."
+     ]
+    },
+    {
+     "titulo": "18. Atención a la ciudadanía: derechos y canales",
+     "parrafos": [
+      "El artículo 13 LPAC reconoce a las personas el derecho a comunicarse con las Administraciones a través de un punto de acceso general electrónico, a ser asistidas en el uso de medios electrónicos y a acceder a la información pública.",
+      "La atención presencial sigue siendo necesaria para quien no puede usar los medios electrónicos. La Administración debe combinar canales electrónicos y presenciales sin discriminar a nadie por el canal elegido.",
+      "Para un examen, la atención a la ciudadanía es un derecho y no solo un servicio: el derecho de asistencia está en el artículo 13.b LPAC."
+     ]
+    },
+    {
+     "titulo": "19. Sugerencias y quejas",
+     "parrafos": [
+      "El artículo 38.3 LRJSP exige que la creación de una sede electrónica garantice la identificación del órgano titular y los medios disponibles para formular sugerencias y quejas.",
+      "Las sugerencias y quejas son una fuente directa de información sobre la calidad del servicio. Su tratamiento debe quedar registrado y su resultado comunicado a quien las formula cuando proceda.",
+      "Para un examen, la pregunta típica es qué debe garantizar una sede electrónica en materia de quejas. Respuesta: la identificación del órgano titular y los medios para formular sugerencias y quejas (art. 38.3 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "20. Simplificación y gestión telemática",
+     "parrafos": [
+      "El artículo 6.3 LAJA impulsa la investigación y la aplicación de métodos de simplificación y de gestión telemática de los procedimientos, la mejora estructural de los organigramas, y la formación del personal.",
+      "La simplificación reduce los trámites y los plazos y elimina exigencias innecesarias. La gestión telemática la hace posible a escala. Ambas son herramientas de calidad, no fines en sí mismas.",
+      "Para un examen, la simplificación se relaciona con el principio del artículo 133.1 EA y con la racionalización del artículo 3.1.d LRJSP."
+     ]
+    },
+    {
+     "titulo": "21. La proximidad y la participación ciudadana",
+     "parrafos": [
+      "El principio de proximidad a la ciudadanía aparece en el artículo 133.1 EA y en el artículo 5.1.d LAJA, que vincula la resolución en plazo razonable a ese principio.",
+      "La participación ciudadana es un derecho de la ciudadanía en los asuntos públicos (art. 5.1.e LAJA) y un deber de los poderes públicos de facilitarla (art. 9.2 CE).",
+      "Para un examen, la pregunta típica es qué principio vincula la proximidad con los plazos. Respuesta: el de buena administración del artículo 5.1.d LAJA."
+     ]
+    },
+    {
+     "titulo": "22. Las iniciativas de calidad en Andalucía",
+     "parrafos": [
+      "El tema pide referencia a las iniciativas de calidad y de atención a la ciudadanía en Andalucía. Los sistemas de gestión y evaluación de la calidad se aprueban por el Consejo de Gobierno (art. 6.1 LAJA), y las cartas de servicio y de derechos se impulsan por el mismo órgano (art. 6.2 LAJA).",
+      "Las iniciativas concretas, sus fechas y sus resultados no están en el repositorio y no se han verificado en este tema. Antes de citarlas en un examen, debe comprobarse la normativa y la documentación oficial vigente.",
+      "Para un examen, cite el marco verificado (arts. 6 LAJA y 137 EA) y advierta que las iniciativas concretas deben comprobarse."
+     ]
+    },
+    {
+     "titulo": "23. Errores frecuentes en el examen",
+     "parrafos": [
+      "Confundir la carta de servicios con la carta de derechos. La primera informa de la oferta y compromete calidad; la segunda enumera derechos (arts. 6.2 LAJA y 137 EA).",
+      "Confundir el interés general con el interés del gestor. El interés general se sirve con objetividad (art. 103.1 CE).",
+      "Afirmar que la evaluación es el primer paso del ciclo de la política. Es el último, y alimenta la siguiente decisión.",
+      "Olvidar que el sistema de evaluación de las políticas públicas lo regula una ley (art. 138 EA).",
+      "Confundir la sugerencia o la queja con el recurso administrativo. Son instrumentos distintos: los recursos son los de la LPAC (arts. 112 y siguientes), con sus plazos y efectos.",
+      "Confundir la dirección por objetivos con la gestión por procedimientos. La primera se evalúa por resultados; la segunda, por el cumplimiento del trámite (art. 3.1.g LRJSP).",
+      "Usar un indicador sin definir su inicio y su fin. Un plazo medio sin fecha de inicio y de fin no permite comparar ni evaluar."
+     ]
+    },
+    {
+     "titulo": "24. Casos prácticos",
+     "parrafos": [
+      "Caso 1: un ciudadano reclama porque su expediente lleva meses sin resolverse. Tiene derecho a que se resuelva en un plazo razonable (art. 5.1.d LAJA) y a conocer el estado de su tramitación (art. 53.1.a LPAC).",
+      "Caso 2: una consejería quiere saber si un programa de ayudas consigue sus objetivos. Procede una evaluación de resultados con indicadores definidos antes de aplicar el programa (art. 3.1.g LRJSP; art. 138 EA).",
+      "Caso 3: un órgano publica una carta de servicios con plazos de respuesta que no cumple. La carta compromete calidad; el incumplimiento debe medirse y corregirse dentro del sistema de calidad (art. 6.1 LAJA).",
+      "Caso 4: dos consejerías prestan servicios complementarios a los mismos ciudadanos. Pueden coordinarse mediante un convenio de colaboración interadministrativa (arts. 8 y 9 LAJA), sin duplicar servicios ni confundir responsabilidades."
+     ]
+    },
+    {
+     "titulo": "25. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema c14 sobre el procedimiento administrativo, porque la resolución en plazo y la motivación son parte de la buena administración.",
+      "Se conecta con el tema c24 sobre Administración electrónica, porque la gestión telemática y la sede son instrumentos de calidad.",
+      "Se conecta con el tema c27 sobre transparencia, porque la información veraz y el acceso a la documentación son parte de la buena administración."
+     ]
+    },
+    {
+     "titulo": "26. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Cuál es la última fase del ciclo de una política pública? La evaluación (tema general de políticas públicas).",
+      "¿Qué principio vincula la proximidad con los plazos? El de buena administración del artículo 5.1.d LAJA.",
+      "¿Quién aprueba los sistemas de gestión y evaluación de la calidad? El Consejo de Gobierno (art. 6.1 LAJA).",
+      "¿Qué debe garantizar la sede en materia de quejas? La identificación del órgano y los medios para sugerencias y quejas (art. 38.3 LRJSP).",
+      "¿Qué establece el artículo 137 EA? La publicidad de la oferta de servicios y de las cartas de derechos.",
+      "¿Qué criterio guía la actuación administrativa? El interés general, servido con objetividad (art. 103.1 CE).",
+      "¿Qué diferencia a la ciudadanía protagonista de la destinataria? Que la primera interviene en el diseño y la evaluación de los servicios, y la segunda solo los recibe."
+     ]
+    },
+    {
+     "titulo": "27. La ciudadanía como destinataria y como protagonista",
+     "parrafos": [
+      "Durante mucho tiempo la ciudadanía se consideró solo destinataria de los servicios públicos: recibía lo que la Administración decidía. El enfoque actual la considera también protagonista, porque aporta información, participa en las decisiones y evalúa los resultados.",
+      "Este cambio se refleja en el artículo 5.1 LAJA, que reconoce a la ciudadanía derechos de participación y de acceso a la información, y en el artículo 9.2 CE, que obliga a los poderes públicos a facilitar la participación de todos los ciudadanos.",
+      "Para un examen, la diferencia es que la ciudadanía destinataria recibe el servicio; la ciudadanía protagonista interviene en su diseño y en su evaluación. Ambas perspectivas conviven en la buena administración."
+     ]
+    },
+    {
+     "titulo": "28. Indicadores de calidad: construcción y criterios",
+     "parrafos": [
+      "Un indicador es una medida que permite conocer el estado de un aspecto del servicio. Un buen indicador es claro, medible, relevante para la ciudadanía, comparable en el tiempo y obtenible con un coste razonable.",
+      "Por ejemplo, el plazo medio de resolución puede medirse como el número de días transcurridos desde la fecha de registro de una solicitud hasta la fecha de su notificación. Para que sea útil debe definirse con precisión qué es el inicio y qué es el fin del plazo.",
+      "Para un examen, la pregunta típica es qué condiciones debe cumplir un indicador. Respuesta: ser claro, medible, relevante, comparable y obtenible con coste razonable."
+     ]
+    },
+    {
+     "titulo": "29. Límites de la evaluación de políticas públicas",
+     "parrafos": [
+      "Evaluar no es siempre sencillo. Puede ser difícil separar el efecto de la política de otros factores que también cambiaron, los resultados pueden tardar años en verse, y las personas afectadas pueden cambiar su conducta cuando saben que se las evalúa.",
+      "Además, la evaluación tiene un coste en tiempo y recursos, y debe justificarse por la utilidad de su resultado. Una evaluación que nadie usa para decidir es un gasto sin beneficio.",
+      "Para un examen, conviene recordar que la evaluación no es un juicio definitivo sobre la política, sino una información para decidir mejor, con sus límites declarados (art. 138 EA para el sistema que regula la ley)."
+     ]
+    },
+    {
+     "titulo": "30. Claves para el examen",
+     "parrafos": [
+      "Principios: CE 103.1 y 9.2; EA 133.1 y 133.3; LRJSP 3.1 (en particular la letra g, sobre evaluación de resultados).",
+      "Buena administración: LAJA 5.1 (proporcionalidad, equidad, plazo razonable, participación, acceso a la información, información veraz).",
+      "Calidad y cartas: LAJA 6.1 a 6.3; EA 137 y 138; LRJSP 38.3 para sugerencias y quejas.",
+      "Atención: LPAC 13.a y 13.b; LRJSP 38.3; principio de proximidad (LAJA 5.1.d).",
+      "Iniciativas concretas de Andalucía: no verificadas en este tema.",
+      "Evaluación: resultados medibles con indicadores definidos antes (art. 3.1.g LRJSP); uso de los resultados para decidir de nuevo (art. 138 EA para el sistema legal).",
+      "Para un examen, al citar la calidad, distinga siempre entre lo que se mide (indicadores) y lo que se compromete (cartas de servicios)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley 9/2007, de la Administración de la Junta de Andalucía (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19819",
+     "pdf": "leyes/BOE-A-2007-19819.pdf"
+    },
+    {
+     "nombre": "Estatuto de Autonomía para Andalucía, Ley Orgánica 2/2007 (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-5825",
+     "pdf": "leyes/BOE-A-2007-5825.pdf"
+    },
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
+    },
+    {
+     "nombre": "Ley 40/2015, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+     "pdf": "leyes/BOE-A-2015-10566.pdf"
+    }
+   ]
+  },
+  "c26": {
+   "resumen": [
+    {
+     "titulo": "Fundamento constitucional y europeo",
+     "puntos": [
+      "El artículo 18.1 CE garantiza el honor, la intimidad y la propia imagen. El artículo 18.4 CE manda limitar el uso de la informática para protegerlos (CE 18).",
+      "El artículo 16.1 TFUE reconoce a toda persona el derecho a la protección de sus datos personales, y el 16.2 TFUE encarga a la Unión establecer las normas, con control de autoridades independientes."
+     ]
+    },
+    {
+     "titulo": "Normativa nacional y ámbito",
+     "puntos": [
+      "La LOPDGDD adapta el ordenamiento español al Reglamento (UE) 2016/679 (art. 1.a LOPDGDD). Se aplica a los tratamientos automatizados y a los no automatizados contenidos en un fichero (art. 2.1 LOPDGDD).",
+      "El Reglamento europeo no está en el repositorio: sus principios y derechos se enuncian aquí solo en lo que la ley nacional remite."
+     ]
+    },
+    {
+     "titulo": "Principios y consentimiento",
+     "puntos": [
+      "El deber de confidencialidad subsiste aunque la relación termine (art. 5 LOPDGDD). El consentimiento debe ser libre, específico, informado e inequívoco (art. 6.1 LOPDGDD).",
+      "El solo consentimiento no basta para levantar la prohibición de tratar datos que revelen ideología, afiliación, religión, orientación sexual, creencias u origen racial o étnico cuando esa es la finalidad principal (art. 9.1 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "Base del tratamiento en la Administración",
+     "puntos": [
+      "El tratamiento fundado en una obligación legal solo es válido si lo prevé una norma de Derecho de la Unión o una norma con rango de ley (art. 8.1 LOPDGDD).",
+      "La LRJSP exige que la cesión de datos entre Administraciones especifique condiciones, protocolos y criterios técnicos (art. 155.1 LRJSP)."
+     ]
+    },
+    {
+     "titulo": "Derechos de la persona",
+     "puntos": [
+      "Los derechos pueden ejercerse directamente o por representante (art. 12.1 LOPDGDD). El derecho de acceso se entiende cumplido con un acceso remoto, directo y seguro (art. 13.2 LOPDGDD).",
+      "La supresión de datos tras una oposición a la mercadotecnia conserva solo los datos identificativos mínimos (art. 15.2 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "Responsables, delegado y Administración",
+     "puntos": [
+      "El responsable y el encargado aplican medidas técnicas y organizativas apropiadas y valoran la evaluación de impacto (art. 28.1 LOPDGDD). El delegado de protección de datos se designa en los supuestos previstos (art. 34 LOPDGDD).",
+      "El registro electrónico debe cumplir las garantías de protección de datos (art. 16.1 LPAC), y la LAJA exige respetar la normativa de protección de datos en las relaciones electrónicas (art. 7.3 LAJA)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LOPDGDD",
+     "rol": "Norma principal del tema (arts. 1, 2, 4 a 9, 12 a 15, 28, 31, 34, 35, 95 a 97)"
+    },
+    {
+     "id": "CE",
+     "rol": "Fundamento constitucional (art. 18.1 y 18.4)"
+    },
+    {
+     "id": "TUE-TFUE",
+     "rol": "Fundamento europeo (art. 16 TFUE)"
+    },
+    {
+     "id": "LRJSP",
+     "rol": "Cesión de datos entre Administraciones (art. 155)"
+    },
+    {
+     "id": "LPAC",
+     "rol": "Registros electrónicos y protección de datos (art. 16.1)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 18.4 CE, ¿qué debe hacer la ley respecto al uso de la informática?",
+     "opciones": [
+      "Limitarlo para garantizar el honor y la intimidad personal y familiar",
+      "Prohibirlo totalmente",
+      "Nada: no hay mandato",
+      "Fomentarlo sin límites"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 18.4 CE manda a la ley limitar el uso de la informática para garantizar el honor y la intimidad de los ciudadanos.",
+     "referencia": "Art. 18.4 CE"
+    },
+    {
+     "pregunta": "Según el art. 16.1 TFUE, ¿qué derecho reconoce?",
+     "opciones": [
+      "El derecho a no tener datos",
+      "Ningún derecho",
+      "El derecho a la protección de los datos de carácter personal",
+      "El derecho a la propiedad de los datos públicos"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 16.1 TFUE reconoce que toda persona tiene derecho a la protección de los datos de carácter personal que le conciernan.",
+     "referencia": "Art. 16.1 TFUE"
+    },
+    {
+     "pregunta": "Según el art. 1.a LOPDGDD, ¿qué objeto tiene la ley?",
+     "opciones": [
+      "Regular la fiscalidad",
+      "Sustituir la LPAC",
+      "Derogar el reglamento europeo",
+      "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679"
+     ],
+     "correcta": 3,
+     "explicacion": "La LOPDGDD tiene por objeto adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679.",
+     "referencia": "Art. 1.a LOPDGDD"
+    },
+    {
+     "pregunta": "Según el art. 2.1 LOPDGDD, ¿qué tratamientos alcanza la ley?",
+     "opciones": [
+      "Solo los automatizados",
+      "Los automatizados y los no automatizados contenidos o destinados a un fichero",
+      "Solo los realizados por entidades privadas",
+      "Ninguno"
+     ],
+     "correcta": 1,
+     "explicacion": "La ley se aplica a los tratamientos automatizados y no automatizados contenidos o destinados a un fichero.",
+     "referencia": "Art. 2.1 LOPDGDD"
+    },
+    {
+     "pregunta": "Según el art. 6.1 LOPDGDD, ¿cómo debe ser el consentimiento del afectado?",
+     "opciones": [
+      "Libre, específico, informado e inequívoco",
+      "Verbal y sin plazo",
+      "Otorgado solo por el responsable",
+      "Tácito y sin información"
+     ],
+     "correcta": 0,
+     "explicacion": "El consentimiento es toda manifestación de voluntad libre, específica, informada e inequívoca.",
+     "referencia": "Art. 6.1 LOPDGDD"
+    },
+    {
+     "pregunta": "Según el art. 8.1 LOPDGDD, ¿en qué norma debe apoyarse el tratamiento fundado en una obligación legal?",
+     "opciones": [
+      "En ninguna norma",
+      "En un contrato privado",
+      "En una norma de Derecho de la Unión o con rango de ley que lo prevea",
+      "En la decisión del funcionario"
+     ],
+     "correcta": 2,
+     "explicacion": "El tratamiento fundado en una obligación legal solo puede considerarse así cuando lo prevé una norma de Derecho de la Unión o con rango de ley.",
+     "referencia": "Art. 8.1 LOPDGDD"
+    },
+    {
+     "pregunta": "Según el art. 9.1 LOPDGDD, ¿basta el solo consentimiento para tratar datos cuya finalidad principal sea identificar la ideología de una persona?",
+     "opciones": [
+      "Sí, si lo pide el responsable",
+      "No hay prohibición",
+      "Sí, siempre",
+      "No, el solo consentimiento no basta para levantar la prohibición"
+     ],
+     "correcta": 3,
+     "explicacion": "El solo consentimiento no basta para levantar la prohibición cuando la finalidad principal es identificar la ideología, la afiliación, la religión u otras características del artículo 9.1.",
+     "referencia": "Art. 9.1 LOPDGDD"
+    },
+    {
+     "pregunta": "Según el art. 13.2 LOPDGDD, ¿cuándo se entiende otorgado el derecho de acceso?",
+     "opciones": [
+      "Cuando se responde por correo postal en cualquier caso",
+      "Cuando se facilita un sistema de acceso remoto, directo y seguro a la totalidad de los datos",
+      "Nunca",
+      "Solo con una sentencia"
+     ],
+     "correcta": 1,
+     "explicacion": "El derecho de acceso se entiende otorgado si el responsable facilita un sistema de acceso remoto, directo y seguro que garantice el acceso permanente a la totalidad de los datos.",
+     "referencia": "Art. 13.2 LOPDGDD"
+    },
+    {
+     "pregunta": "Según el art. 155.1 LRJSP, ¿qué exige la cesión de datos entre Administraciones?",
+     "opciones": [
+      "Autorización de la Cámara de Cuentas",
+      "Nada, se cede sin condiciones",
+      "Condiciones, protocolos y criterios técnicos especificados, con respeto a la protección de datos",
+      "Solo la firma de un notario"
+     ],
+     "correcta": 2,
+     "explicacion": "Cada Administración debe facilitar el acceso a los datos de los interesados especificando condiciones, protocolos y criterios técnicos, respetando la protección de datos.",
+     "referencia": "Art. 155.1 LRJSP"
+    },
+    {
+     "pregunta": "Según el art. 16.1 LPAC, ¿qué deben cumplir los registros electrónicos?",
+     "opciones": [
+      "Las garantías y medidas de seguridad de la legislación de protección de datos",
+      "Solo ser gratuitos",
+      "Solo estar en papel",
+      "Ninguna garantía"
+     ],
+     "correcta": 0,
+     "explicacion": "Los registros electrónicos cumplirán con las garantías y medidas de seguridad previstas en la legislación de protección de datos de carácter personal.",
+     "referencia": "Art. 16.1 LPAC"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué es un dato de carácter personal",
+     "parrafos": [
+      "Un dato de carácter personal es cualquier información sobre una persona física identificada o identificable. Un nombre, un número de documento, una dirección, una imagen o una dirección de correo electrónico son datos personales cuando permiten identificar a alguien, directamente o combinados con otros datos.",
+      "El tratamiento es cualquier operación sobre esos datos: recogerlos, registrarlos, consultarlos, modificarlos, cederlos o destruirlos. Casi toda la actividad administrativa trata datos personales, por lo que la protección de datos afecta a todos los procedimientos.",
+      "Para un examen, la pregunta típica es si un dato es personal. Respuesta: sí, cuando permite identificar a una persona física, directamente o combinado con otros.",
+      "Para la Junta de Andalucía, esto significa que cada procedimiento que trata datos de la ciudadanía debe tener una base jurídica identificable y las garantías que la ley exige."
+     ]
+    },
+    {
+     "titulo": "2. El fundamento constitucional: honor, intimidad y uso de la informática",
+     "parrafos": [
+      "El artículo 18.1 CE garantiza el derecho al honor, a la intimidad personal y familiar y a la propia imagen. Es la base de la protección de la vida privada frente a intromisiones de terceros y de los poderes públicos.",
+      "El artículo 18.4 CE establece que la ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos. Es el fundamento específico de la protección de datos frente a los tratamientos informatizados.",
+      "Para un examen, la diferencia es que el artículo 18.1 CE protege la intimidad en general; el artículo 18.4 CE añade el mandato expreso de limitar la informática. La protección de datos nace de este último."
+     ]
+    },
+    {
+     "titulo": "3. La normativa europea: el artículo 16 TFUE y el Reglamento",
+     "parrafos": [
+      "El artículo 16.1 del Tratado de Funcionamiento de la Unión Europea (TFUE) establece que toda persona tiene derecho a la protección de los datos de carácter personal que le conciernan. Es un derecho reconocido en el propio Tratado.",
+      "El artículo 16.2 TFUE encarga al Parlamento Europeo y al Consejo establecer las normas sobre protección de las personas físicas en el tratamiento de datos, tanto por las instituciones de la Unión como por los Estados miembros en el ámbito del Derecho de la Unión, y añade que el respeto de esas normas está sujeto al control de autoridades independientes.",
+      "Sobre esa base se aprobó el Reglamento (UE) 2016/679, conocido como Reglamento general de protección de datos (RGPD), que es la norma europea de referencia. Su texto no está en el repositorio y su contenido detallado se enuncia aquí solo en lo que la ley nacional expresamente remite."
+     ]
+    },
+    {
+     "titulo": "4. La normativa nacional: la ley orgánica de protección de datos",
+     "parrafos": [
+      "La Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD), tiene por objeto adaptar el ordenamiento jurídico español al RGPD (art. 1.a LOPDGDD). Su título ya indica que también garantiza los derechos digitales de la ciudadanía.",
+      "Para un examen, la relación es clara: el RGPD es la norma europea directamente aplicable y la LOPDGDD la adapta y completa en el ordenamiento español. Ambas deben leerse juntas.",
+      "Además, la LRJSP remite a esa normativa para la transmisión de datos entre Administraciones (art. 155.1 LRJSP), y la LAJA exige respetar la normativa de protección de datos en las relaciones electrónicas (art. 7.3 LAJA)."
+     ]
+    },
+    {
+     "titulo": "5. Ámbito de aplicación",
+     "parrafos": [
+      "El artículo 2.1 LOPDGDD establece que sus títulos se aplican a cualquier tratamiento total o parcialmente automatizado de datos personales, así como al tratamiento no automatizado de datos contenidos o destinados a ser incluidos en un fichero.",
+      "El artículo 2.2.a LOPDGDD excluye los tratamientos excluidos del ámbito del RGPD por su artículo 2.2. Para un examen, la pregunta típica es si un fichero en papel está protegido. Respuesta: sí, cuando está contenido o destinado a ser incluido en un fichero (art. 2.1 LOPDGDD).",
+      "El ámbito de la ley es, por tanto, amplio: alcanza tanto a los sistemas informáticos como a los archivos en papel organizados."
+     ]
+    },
+    {
+     "titulo": "6. Principios y exactitud de los datos",
+     "parrafos": [
+      "Los principios del tratamiento se enuncian en el RGPD: licitud, lealtad y transparencia; limitación de la finalidad; minimización de datos; exactitud; limitación del plazo de conservación; e integridad y confidencialidad. Su texto no está en el repositorio y debe comprobarse en el reglamento.",
+      "La LOPDGDD desarrolla el principio de exactitud en su artículo 4, que lleva ese nombre. Para un examen, la exactitud significa que los datos deben estar actualizados y corresponder a la realidad, y que deben corregirse o suprimirse cuando no lo estén.",
+      "Para un examen, la pregunta típica es qué principio impone que los datos sean correctos. Respuesta: el de exactitud (art. 4 LOPDGDD; principios del RGPD).",
+      "Los principios no son un adorno: son los criterios con los que se evalúa si un tratamiento es legítimo. Un tratamiento que cumple la finalidad pero recoge más datos de los necesarios sigue siendo irregular."
+     ]
+    },
+    {
+     "titulo": "7. El deber de confidencialidad",
+     "parrafos": [
+      "El artículo 5.1 LOPDGDD establece que los responsables y encargados del tratamiento, así como todas las personas que intervengan en cualquier fase, están sujetos al deber de confidencialidad del artículo 5.1.f) del RGPD.",
+      "El artículo 5.2 LOPDGDD añade que esa obligación es complementaria de los deberes de secreto profesional, y el artículo 5.3 LOPDGDD que se mantiene aunque la relación con el responsable haya terminado.",
+      "Para un examen, la pregunta típica es si el deber de confidencialidad acaba con la relación laboral. Respuesta: no; subsiste aunque la relación termine (art. 5.3 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "8. El consentimiento",
+     "parrafos": [
+      "El artículo 6.1 LOPDGDD define el consentimiento del afectado, de acuerdo con el RGPD, como toda manifestación de voluntad libre, específica, informada e inequívoca por la que acepta el tratamiento mediante una declaración o una clara acción afirmativa.",
+      "El artículo 6.2 LOPDGDD exige que, cuando el tratamiento se funda en el consentimiento para varias finalidades, conste de forma específica e inequívoca que se otorga para todas ellas.",
+      "Para un examen, la pregunta típica es qué hace válido el consentimiento. Respuesta: que sea libre, específico, informado e inequívoco (art. 6.1 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "9. La base jurídica en la actuación de la Administración",
+     "parrafos": [
+      "El artículo 8.1 LOPDGDD establece que el tratamiento fundado en el cumplimiento de una obligación legal solo puede considerarse así cuando lo prevé una norma de Derecho de la Unión o una norma con rango de ley, que puede determinar las condiciones generales del tratamiento, los tipos de datos y las cesiones.",
+      "Para la Administración, esto significa que el tratamiento de datos debe apoyarse en una ley, no solo en la voluntad del órgano. El consentimiento del ciudadano no es, en general, la base del tratamiento que la Administración hace para cumplir sus competencias.",
+      "Para un examen, la pregunta típica es en qué se apoya el tratamiento de datos por la Administración. Respuesta: en una norma con rango de ley que lo prevea (art. 8.1 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "10. Las categorías especiales de datos",
+     "parrafos": [
+      "El artículo 9.1 LOPDGDD establece que, a fin de evitar situaciones discriminatorias, el solo consentimiento del afectado no basta para levantar la prohibición del tratamiento de datos cuya finalidad principal sea identificar su ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico.",
+      "El mismo precepto admite el tratamiento de esos datos al amparo de los demás supuestos del RGPD. Para un examen, la regla es que estos datos tienen un régimen más protegido, y el consentimiento solo no basta cuando la finalidad principal es identificar esas características.",
+      "Para un examen, la pregunta típica es si basta el consentimiento para tratar datos de ideología. Respuesta: no, por sí solo, cuando la finalidad principal es identificar esa ideología (art. 9.1 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "11. La transparencia y la información al afectado",
+     "parrafos": [
+      "El artículo 11 LOPDGDD regula la transparencia y la información que el responsable debe dar al afectado sobre el tratamiento. Su detalle remite a los artículos del RGPD sobre información, que no están en el repositorio.",
+      "Para un examen, el principio es que la persona debe saber quién trata sus datos, para qué y cómo puede ejercer sus derechos. La información es condición para que el consentimiento y los derechos tengan sentido.",
+      "Para un examen, la pregunta típica es qué debe conocer el afectado. Respuesta: el responsable, la finalidad y los medios para ejercer sus derechos (arts. 11 y 12.2 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "12. El ejercicio de los derechos",
+     "parrafos": [
+      "El artículo 12.1 LOPDGDD establece que los derechos de los artículos 15 a 22 del RGPD pueden ejercerse directamente o por medio de representante legal o voluntario.",
+      "El artículo 12.2 LOPDGDD obliga al responsable a informar al afectado sobre los medios a su disposición para ejercer los derechos. Esos medios deben ser fácilmente accesibles.",
+      "Para un examen, la pregunta típica es si el derecho puede ejercerse por medio de representante. Respuesta: sí, legal o voluntario (art. 12.1 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "13. El derecho de acceso",
+     "parrafos": [
+      "El artículo 13.1 LOPDGDD remite el derecho de acceso al artículo 15 del RGPD. Si el responsable trata una gran cantidad de datos del afectado, puede pedirle que especifique a qué datos o actividades se refiere la solicitud.",
+      "El artículo 13.2 LOPDGDD establece que el derecho de acceso se entiende otorgado si el responsable facilita un sistema de acceso remoto, directo y seguro que garantice el acceso permanente a la totalidad de los datos.",
+      "Para un examen, la pregunta típica es cuándo se entiende cumplido el derecho de acceso. Respuesta: cuando el responsable facilita un acceso remoto, directo y seguro a sus datos (art. 13.2 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "14. Supresión, rectificación, limitación, portabilidad y oposición",
+     "parrafos": [
+      "El artículo 15.1 LOPDGDD remite el derecho de supresión al artículo 17 del RGPD. El artículo 15.2 permite conservar los datos identificativos mínimos cuando la supresión deriva de la oposición a la mercadotecnia directa, para impedir tratamientos futuros.",
+      "La ley regula también el derecho de rectificación (art. 14), el de limitación del tratamiento (art. 16), el de portabilidad (art. 17) y el de oposición (art. 18). Sus contenidos concretos remiten al RGPD, cuyo texto no se ha verificado en este tema.",
+      "Para un examen, la pregunta típica es qué derecho impide tratamientos futuros de mercadotecnia tras una oposición. Respuesta: el de supresión, con la conservación de los datos mínimos (art. 15.2 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "15. Responsable, encargado y medidas de protección",
+     "parrafos": [
+      "El artículo 28.1 LOPDGDD establece que los responsables y encargados determinan las medidas técnicas y organizativas apropiadas para garantizar y acreditar que el tratamiento es conforme con el RGPD y con la LOPDGDD. En particular, valoran si procede una evaluación de impacto en la protección de datos.",
+      "El artículo 33 LOPDGDD regula el encargado del tratamiento, que trata los datos por cuenta del responsable. La relación entre ambos debe estar regulada por un contrato o un acto jurídico.",
+      "Para un examen, la diferencia es que el responsable decide los fines y los medios; el encargado trata los datos por cuenta de otro (arts. 28 y 33 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "16. El registro de actividades de tratamiento",
+     "parrafos": [
+      "El artículo 31 LOPDGDD regula el registro de las actividades de tratamiento. Su contenido y su forma se remiten al RGPD, cuyo texto no está en el repositorio.",
+      "Para un examen, el registro de actividades es el inventario de los tratamientos que realiza una organización: qué datos, para qué, quién los trata y durante cuánto tiempo.",
+      "Para un examen, la pregunta típica es para qué sirve el registro de actividades. Respuesta: para documentar y acreditar qué tratamientos se realizan (art. 31 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "17. El delegado de protección de datos",
+     "parrafos": [
+      "El artículo 34.1 LOPDGDD establece que los responsables y encargados designarán un delegado de protección de datos en los supuestos del artículo 37.1 del RGPD y, en todo caso, en determinadas entidades como los colegios profesionales, los centros docentes, las entidades de comunicaciones electrónicas y los prestadores de servicios que elaboran perfiles a gran escala.",
+      "El artículo 35 LOPDGDD establece que los requisitos del delegado pueden demostrarse, entre otros medios, mediante mecanismos voluntarios de certificación. El artículo 36 regula su posición, y el artículo 37 su intervención ante las reclamaciones.",
+      "Para un examen, el delegado es el garante interno del cumplimiento. Su designación en las Administraciones públicas se deriva del RGPD (art. 37.1), cuyo texto no está en el repositorio; no se cita aquí como lista del artículo 34 LOPDGDD."
+     ]
+    },
+    {
+     "titulo": "18. Transferencias internacionales y control",
+     "parrafos": [
+      "El artículo 40 LOPDGDD regula el régimen de las transferencias internacionales de datos, que se remite al RGPD. Su regla general es que solo se producen con garantías adecuadas.",
+      "La ley regula también las autoridades de control. Su régimen, y el de las autoridades autonómicas, se estudia en el tema c27 sobre transparencia y protección de datos de Andalucía, y no se ha verificado en este tema.",
+      "Para un examen, la pregunta típica es qué garantiza una transferencia internacional. Respuesta: que se hace con garantías adecuadas, en los términos del RGPD (art. 40 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "19. La protección de datos en la relación electrónica con la Junta",
+     "parrafos": [
+      "El artículo 7.3 LAJA exige que las relaciones electrónicas de la Junta con la ciudadanía respeten las normas sobre intimidad y confidencialidad, la protección de datos y los derechos de autoría.",
+      "El artículo 16.1 LPAC exige que los registros electrónicos cumplan las garantías y medidas de seguridad de la legislación de protección de datos.",
+      "Para un examen, la pregunta típica es qué norma exige que el registro electrónico cumpla la protección de datos. Respuesta: el artículo 16.1 LPAC."
+     ]
+    },
+    {
+     "titulo": "20. Cesión de datos entre Administraciones",
+     "parrafos": [
+      "El artículo 155.1 LRJSP obliga a cada Administración a facilitar el acceso de las restantes Administraciones a los datos de los interesados que obren en su poder, especificando las condiciones, protocolos y criterios técnicos necesarios. Esa transmisión debe respetar el RGPD y la LOPDGDD.",
+      "Para un examen, la pregunta típica es qué condiciones tiene la cesión de datos entre Administraciones. Respuesta: condiciones, protocolos y criterios técnicos especificados, con respeto a la protección de datos (art. 155.1 LRJSP).",
+      "Para la Administración, la cesión entre organismos no es un acto informal: debe estar prevista y documentada."
+     ]
+    },
+    {
+     "titulo": "21. Protección de datos y acceso a la información pública",
+     "parrafos": [
+      "El derecho de acceso a la información pública (art. 13.d LPAC y el artículo 5.1.f LAJA) puede entrar en conflicto con la protección de datos personales. La solución es ponderar los intereses en juego y no dar acceso indiscriminado a datos personales.",
+      "La regulación del equilibrio entre transparencia y protección de datos se encuentra en la ley de transparencia (Ley 19/2013), que no se ha verificado en este tema y se estudia en el tema c27.",
+      "Para un examen, la pregunta típica es si la transparencia obliga a publicar todo dato personal. Respuesta: no; debe ponderarse el interés público con la protección de la persona."
+     ]
+    },
+    {
+     "titulo": "22. Protección desde el diseño y por defecto",
+     "parrafos": [
+      "La protección de datos debe incorporarse desde el diseño de los sistemas y de los procedimientos, no añadirse después. El artículo 28.1 LOPDGDD obliga a responsables y encargados a determinar las medidas técnicas y organizativas apropiadas, y a valorar si procede una evaluación de impacto.",
+      "El RGPD, cuyo texto no está en el repositorio, recoge esta idea como protección desde el diseño y por defecto: el sistema debe recoger solo los datos necesarios y limitar su acceso desde el inicio. Su detalle no se ha verificado en este tema.",
+      "Para un examen, la pregunta típica es cuándo debe pensarse la protección de datos. Respuesta: desde el diseño del sistema, antes de tratar los datos (art. 28.1 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "23. Brechas de seguridad de los datos personales",
+     "parrafos": [
+      "Una brecha de seguridad es toda violación de la seguridad que provoca la destrucción, pérdida, alteración, comunicación o acceso no autorizado a datos personales. Puede ser accidental o intencionada, y afectar a sistemas informáticos o a archivos en papel.",
+      "Según el RGPD, la brecha debe notificarse a la autoridad de control en un plazo determinado y, en ciertos casos, a los afectados. El texto del RGPD no está en el repositorio, y el plazo concreto no se ha verificado en este tema.",
+      "Para un examen, la pregunta típica es qué debe hacerse ante una brecha. Respuesta: documentarla y notificarla en los términos del RGPD, sin esperar a que se confirme el alcance total."
+     ]
+    },
+    {
+     "titulo": "24. Derechos digitales de la ciudadanía",
+     "parrafos": [
+      "La LOPDGDD incluye un título dedicado a los derechos digitales. Entre ellos, el artículo 95 reconoce el derecho de portabilidad en servicios de redes sociales y servicios equivalentes, el artículo 96 el derecho al testamento digital, y el artículo 97 establece políticas de impulso de los derechos digitales.",
+      "El título de derechos digitales extiende la protección a la vida en red: el uso de internet, la desconexión digital en el trabajo y la protección de los menores. Su desarrollo concreto no se ha verificado en este tema.",
+      "Para un examen, la pregunta típica es si la LOPDGDD solo regula datos. Respuesta: no; regula también derechos digitales (arts. 95 a 97 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "25. Errores frecuentes en el examen",
+     "parrafos": [
+      "Afirmar que la protección de datos solo afecta a los ficheros informáticos. La LOPDGDD incluye también los ficheros en papel (art. 2.1 LOPDGDD).",
+      "Pensar que el consentimiento es siempre la base del tratamiento de la Administración. Para cumplir sus competencias, la base es una norma con rango de ley (art. 8.1 LOPDGDD).",
+      "Pensar que el deber de confidencialidad termina con la relación laboral. Subsiste (art. 5.3 LOPDGDD).",
+      "Confundir el responsable con el encargado. El primero decide los fines y los medios; el segundo trata por cuenta del responsable (arts. 28 y 33 LOPDGDD).",
+      "Afirmar que la protección de datos es ajena a la Administración electrónica. El registro, la sede y la cesión entre Administraciones la presuponen (arts. 16.1 LPAC y 155 LRJSP).",
+      "Pensar que la protección de datos impide por completo publicar información. La ley obliga a ponderar el acceso con la protección de la persona, no a bloquear toda publicación."
+     ]
+    },
+    {
+     "titulo": "26. Casos prácticos",
+     "parrafos": [
+      "Caso 1: un ciudadano pide a un organismo que le facilite todos los datos que tiene sobre él. Puede ejercer el derecho de acceso (art. 13.1 LOPDGDD, que remite al RGPD) y el organismo puede pedirle que especifique si la solicitud es masiva (art. 13.1 LOPDGDD).",
+      "Caso 2: una consejería quiere tratar datos de salud de los solicitantes de una ayuda para una finalidad no prevista por ninguna norma con rango de ley. El tratamiento no tiene base suficiente, porque el consentimiento solo no basta para categorías especiales cuando la finalidad principal es identificar esas características (arts. 8.1 y 9.1 LOPDGDD).",
+      "Caso 3: una Administración pide a otra datos de un interesado. La transmisión debe especificar condiciones, protocolos y criterios técnicos, y respetar la protección de datos (art. 155.1 LRJSP).",
+      "Caso 4: un empleado envía por error a un tercero una lista con datos personales de solicitantes. Es una brecha de seguridad: debe documentarse y notificarse en los términos del RGPD, sin esperar a conocer todo el alcance (texto del RGPD no verificado).",
+      "En los tres casos conviene identificar primero la base jurídica, después el principio afectado y, por último, el derecho que la persona puede ejercer."
+     ]
+    },
+    {
+     "titulo": "27. Cuestiones tipo de examen",
+     "parrafos": [
+      "¿Qué fundamenta constitucionalmente la protección de datos? El artículo 18.4 CE, que manda limitar el uso de la informática.",
+      "¿Qué garantiza el artículo 16 TFUE? El derecho de toda persona a la protección de sus datos de carácter personal.",
+      "¿Qué norma adapta el ordenamiento español al RGPD? La LOPDGDD (art. 1.a).",
+      "¿Qué tratamientos alcanza la LOPDGDD? Los automatizados y los no automatizados contenidos o destinados a un fichero (art. 2.1 LOPDGDD).",
+      "¿Qué designa el artículo 34.1 LOPDGDD? La obligación de designar un delegado de protección de datos en los supuestos indicados.",
+      "¿En qué se apoya el tratamiento de datos por la Administración? En una norma con rango de ley (art. 8.1 LOPDGDD).",
+      "¿Cuándo debe pensarse la protección de datos en un sistema? Desde su diseño, antes de tratar los datos (art. 28.1 LOPDGDD).",
+      "¿Qué diferencia la base del tratamiento de la Administración de la de un particular? Que la Administración trata datos porque una norma con rango de ley lo prevé (art. 8.1 LOPDGDD)."
+     ]
+    },
+    {
+     "titulo": "28. Relación con otros temas del programa",
+     "parrafos": [
+      "Este tema se conecta con el tema c24 sobre Administración electrónica, porque la sede, el registro y la cesión de datos son tratamientos sujetos a la protección de datos.",
+      "Se conecta con el tema c27 sobre transparencia, porque el acceso a la información pública y la protección de datos deben ponderarse.",
+      "Se conecta con el tema c22 sobre sistemas informáticos, porque la seguridad de los datos es una propiedad de la arquitectura, no solo del programa."
+     ]
+    },
+    {
+     "titulo": "29. Claves para el examen",
+     "parrafos": [
+      "Fundamento: CE 18.1 y 18.4; TFUE 16 (1 y 2); RGPD (no verificado en este repositorio).",
+      "Ley nacional: LOPDGDD arts. 1.a y 2.1; principios y consentimiento (arts. 4 a 6); base en la Administración (art. 8.1); categorías especiales (art. 9.1).",
+      "Derechos: ejercicio (art. 12); acceso (art. 13); supresión (art. 15); delegado de protección de datos (arts. 34 y 35).",
+      "Administración: LPAC 16.1; LRJSP 155.1; LAJA 7.3 y LAJA 5.1.f como acceso a información.",
+      "Derechos digitales: arts. 95 a 97 LOPDGDD. Diseño y brechas: art. 28.1 LOPDGDD y, en el RGPD, la protección desde el diseño y la notificación de brechas (no verificadas).",
+      "Para un examen, al citar la protección de datos, distinga la norma europea (RGPD, TFUE 16), la ley nacional (LOPDGDD) y las obligaciones de la Administración (LPAC, LRJSP)."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    {
+     "nombre": "Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+     "pdf": "leyes/BOE-A-2018-16673.pdf"
+    },
+    {
+     "nombre": "Constitución Española (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+     "pdf": "leyes/BOE-A-1978-31229.pdf"
+    },
+    {
+     "nombre": "Tratado de Funcionamiento de la Unión Europea (versión consolidada, DOUE)",
+     "url": "https://www.boe.es/doue/2012/326/Z00001-00390.pdf",
+     "pdf": "leyes/DOUE-C326-2012-TUE-TFUE-consolidados.pdf"
+    },
+    {
+     "nombre": "Ley 40/2015, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+     "pdf": "leyes/BOE-A-2015-10566.pdf"
+    }
+   ]
+  },
   "e20": {
    "resumen": [
     {
