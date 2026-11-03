@@ -762,6 +762,50 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
    "notas": "PDF consolidado descargado y título comprobado. Verificados arts. 1, 2, 3.1, 4 (apartados 1 a 4), 14, 15, 16 (inicio), 18, 19 (inicio), 20, 21, 22 (inicio), 24, 29, 31 (inicio), 35, 36 (inicio), 38 y 39 (inicio) en el texto del PDF. Pendientes: resto del articulado y el desarrollo reglamentario (servicios de prevención, RD 39/1997 y normas de la Administración). Las normas de organización de la prevención en la Junta de Andalucía no están en el repositorio."
+  },
+  "LO-3-2007": {
+   "id": "LO-3-2007",
+   "nombre": "Ley Orgánica para la igualdad efectiva de mujeres y hombres",
+   "referencia": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres (BOE núm. 71, de 23 de marzo de 2007)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115",
+   "boe_id": "BOE-A-2007-6115",
+   "pdf": "leyes/BOE-A-2007-6115.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 2 de agosto de 2024). Verificados en el texto del PDF los arts. 1, 3 a 15, 19, 36, 41, 51 (letras a, e, f y g), 77 y las rúbricas de la estructura. Pendientes: el resto del articulado, en particular el régimen de empleo y planes de igualdad (arts. 45 a 47 y 55) y los artículos sobre medios de comunicación y bienes y servicios (arts. 35 a 40 y 65 a 72) en su cuerpo. Puede haber modificaciones posteriores que deben comprobarse en el ELI."
+  },
+  "LIG-AND-12-2007": {
+   "id": "LIG-AND-12-2007",
+   "nombre": "Ley para la promoción de la igualdad de género en Andalucía",
+   "referencia": "Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía (BOJA núm. 247, de 18 de diciembre de 2007; BOE núm. 38, de 13 de febrero de 2008)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-2492",
+   "boe_id": "BOE-A-2008-2492",
+   "pdf": "leyes/BOE-A-2008-2492.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 16 de febrero de 2024). Verificados en el texto del PDF los arts. 1, 3 a 9, 9 bis, 57 y 59 a 61, y el art. 4 con sus catorce apartados. Rúbricas comprobadas de los arts. 14 a 33 y 73 a 80. Pendientes: el cuerpo de los arts. 10 a 58 (salvo los citados), 62 a 72 y el régimen sancionador (arts. 73 a 80). La ley ha sido modificada por normas posteriores (por ejemplo, leyes y decretos-ley de 2018 y 2023 señalados en fuentes secundarias) que no se han comprobado en el texto consolidado; deben verificarse en el ELI antes de citar un artículo concreto."
+  },
+  "VG-AND-13-2007": {
+   "id": "VG-AND-13-2007",
+   "nombre": "Ley de medidas de prevención y protección integral contra la violencia de género en Andalucía",
+   "referencia": "Ley 13/2007, de 26 de noviembre, de medidas de prevención y protección integral contra la violencia de género (BOJA núm. 247, de 18 de diciembre de 2007; BOE núm. 38, de 13 de febrero de 2008)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-2493",
+   "boe_id": "BOE-A-2008-2493",
+   "pdf": "leyes/BOE-A-2008-2493.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 31 de diciembre de 2025). Verificados en el texto del PDF los arts. 1, 1 bis, 2, 3, 4, 37, 39, 41, 41 bis, 44 y 58. Rúbricas comprobadas de los arts. 5 a 60. Pendientes: el resto del articulado. El texto incluye preceptos (por ejemplo, violencia vicaria y ciberviolencia en el art. 3) que pueden proceder de modificaciones posteriores; la fecha de última modificación no garantiza la versión vigente en el momento del examen."
+  },
+  "LO-1-2004": {
+   "id": "LO-1-2004",
+   "nombre": "Ley Orgánica de Medidas de Protección Integral contra la Violencia de Género",
+   "referencia": "Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género (BOE núm. 313, de 29 de diciembre de 2004)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760",
+   "boe_id": "BOE-A-2004-21760",
+   "pdf": "leyes/BOE-A-2004-21760.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-03",
+   "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 7 de septiembre de 2022). Verificado en el texto del PDF el art. 1, apartados 1 a 4. Pendiente: resto del articulado. Puede haber modificaciones posteriores que deben comprobarse en el ELI."
   }
  },
  "contenido": {
@@ -11864,6 +11908,699 @@ window.DATOS_ESTUDIO = {
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
      "pdf": "leyes/BOE-A-1978-31229.pdf"
     }
+   ]
+  },
+  "c29": {
+   "resumen": [
+    {
+     "titulo": "Género, roles y estereotipos",
+     "puntos": [
+      "Las leyes verificadas no definen «género» como concepto autónomo: la distinción sexo-género es doctrinal. La Ley 13/2007 vincula la violencia de género con una cultura machista y con las relaciones de poder (art. 1.1 y art. 3.1).",
+      "La Ley 12/2007 pide una imagen «no estereotipada» en los medios (art. 57.1) y habla de «roles tradicionales de género» en la formación del personal (art. 9 bis). La interseccionalidad se define en el artículo 3.9."
+     ]
+    },
+    {
+     "titulo": "Igualdad de derechos, de trato y de oportunidades",
+     "puntos": [
+      "El artículo 14 CE proscribe la discriminación por razón de sexo, y el artículo 9.2 CE encarga a los poderes públicos promover que la igualdad sea real y efectiva.",
+      "La LO 3/2007 desarrolla el mandato estatal (art. 1). En Andalucía, el Estatuto (arts. 14 y 15) y la Ley 12/2007 (art. 1) fijan el marco autonómico.",
+      "La LO 3/2007 afirma que mujeres y hombres son iguales en dignidad humana, y en derechos y deberes (art. 1.1). La igualdad de trato es la ausencia de discriminación (art. 3); la de oportunidades se concreta en el acceso al empleo, la formación, la promoción y las condiciones de trabajo (art. 5).",
+      "La igualdad es principio informador del ordenamiento: se integra en la interpretación y aplicación de las normas (art. 4). El requisito profesional esencial y determinante es la única excepción al acceso al empleo (art. 5.2)."
+     ]
+    },
+    {
+     "titulo": "Discriminación directa e indirecta",
+     "puntos": [
+      "Directa: trato menos favorable por razón de sexo frente a otra persona en situación comparable (LO 3/2007, art. 6.1; Ley 12/2007, art. 3.1). Indirecta: disposición neutra que pone a un sexo en desventaja, salvo justificación objetiva con medios necesarios y adecuados (art. 6.2 LO 3/2007; art. 3.2 Ley 12/2007).",
+      "Toda orden de discriminar, directa o indirectamente, es discriminatoria (art. 6.3 LO 3/2007). La representación equilibrada se mide entre el 40 y el 60 por ciento (art. 3.3 Ley 12/2007)."
+     ]
+    },
+    {
+     "titulo": "Maternidad, represalias y salario",
+     "puntos": [
+      "Todo trato desfavorable relacionado con el embarazo o la maternidad es discriminación directa (art. 8 LO 3/2007). Es discriminatorio también el trato adverso que sufre quien presenta una queja para exigir igualdad (indemnidad frente a represalias, art. 9).",
+      "La igualdad retributiva forma parte de las condiciones de trabajo (art. 5 LO 3/2007). En el empleo público, la Administración debe eliminar la discriminación retributiva directa o indirecta (art. 51.f)."
+     ]
+    },
+    {
+     "titulo": "Acoso sexual y acoso por razón de sexo",
+     "puntos": [
+      "Acoso sexual: comportamiento de naturaleza sexual que atenta contra la dignidad o crea un entorno intimidatorio, degradante u ofensivo (art. 7.1 LO 3/2007). Acoso por razón de sexo: comportamiento motivado por el sexo con el mismo efecto, sin necesidad de contenido sexual (art. 7.2).",
+      "Ambos son discriminatorios en todo caso, y condicionar un derecho a aceptar el acoso también lo es (art. 7.3 y 7.4). La persona acosada es la única legitimada en esos litigios (art. 12.3), y en los procesos por discriminación la carga de probar la ausencia de discriminación recae en la parte demandada (art. 13.1)."
+     ]
+    },
+    {
+     "titulo": "Acción positiva",
+     "puntos": [
+      "Son medidas específicas en favor de las mujeres para corregir situaciones patentes de desigualdad de hecho (art. 11.1 LO 3/2007). El Estatuto admite acciones positivas en su artículo 14.",
+      "Deben ser razonables y proporcionadas al objetivo y aplicarse mientras subsistan las desigualdades. Las personas privadas también pueden adoptarlas (art. 11.2)."
+     ]
+    },
+    {
+     "titulo": "Lenguaje sexista, imagen y publicidad",
+     "puntos": [
+      "El lenguaje sexista es el uso discriminatorio del lenguaje por razón de sexo (art. 3.8 Ley 12/2007). Las Administraciones andaluzas garantizan un uso no sexista (art. 9), y la LO 3/2007 pide implantar un lenguaje no sexista en el ámbito administrativo (art. 14.11).",
+      "La publicidad discriminatoria es publicidad ilícita (art. 41 LO 3/2007). La Ley 12/2007 califica como ilícita la publicidad que presente a las mujeres de forma vejatoria o estereotipada (art. 57.2)."
+     ]
+    },
+    {
+     "titulo": "Transversalidad y mainstreaming",
+     "puntos": [
+      "La igualdad informa con carácter transversal la actuación de todos los poderes públicos, y las Administraciones la integran en sus normas, presupuestos y actividades (art. 15 LO 3/2007). La Ley 12/2007 define la transversalidad en su artículo 3.5.",
+      "Mainstreaming es la expresión inglesa de la misma idea; las normas españolas y andaluzas usan «transversalidad». Instrumentos: el informe de impacto de género (art. 19 LO 3/2007; art. 6 Ley 12/2007) y el enfoque de género en el presupuesto (art. 8 Ley 12/2007)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LO-3-2007",
+     "rol": "Norma principal del tema (arts. 1, 3 a 9, 10, 11, 12, 13, 14, 15, 19, 36, 41 y 51)"
+    },
+    {
+     "id": "LIG-AND-12-2007",
+     "rol": "Marco autonómico de igualdad (arts. 1, 3, 4, 5, 6, 8, 9, 9 bis y 57)"
+    },
+    {
+     "id": "VG-AND-13-2007",
+     "rol": "Concepto de violencia de género y cultura machista (arts. 1 y 3.1)"
+    },
+    {
+     "id": "CE",
+     "rol": "Fundamento constitucional (arts. 9.2 y 14)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Principio de no discriminación y acciones positivas (arts. 14 y 15)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 6.1 de la LO 3/2007, ¿qué es la discriminación directa por razón de sexo?",
+     "opciones": [
+      "Un trato menos favorable por razón de sexo frente a otra persona en situación comparable",
+      "Solo el acoso sexual en el trabajo",
+      "Cualquier diferencia de opinión",
+      "Una norma neutra que perjudica por igual a ambos sexos"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 6.1 LO 3/2007 define la discriminación directa como la situación en que una persona es tratada de manera menos favorable que otra en situación comparable, en atención a su sexo.",
+     "referencia": "Art. 6.1 LO 3/2007"
+    },
+    {
+     "pregunta": "Según el art. 7.2 LO 3/2007, ¿qué es el acoso por razón de sexo?",
+     "opciones": [
+      "Un comportamiento que solo afecta a los hombres",
+      "Solo el acoso que tiene contenido sexual",
+      "Un comportamiento realizado en función del sexo de una persona, con el propósito o el efecto de atentar contra su dignidad y crear un entorno intimidatorio, degradante u ofensivo",
+      "Una falta leve sin consecuencias"
+     ],
+     "correcta": 2,
+     "explicacion": "El acoso por razón de sexo es cualquier comportamiento realizado en función del sexo de una persona, con el propósito o el efecto de atentar contra su dignidad y de crear un entorno intimidatorio, degradante u ofensivo. No necesita tener contenido sexual.",
+     "referencia": "Art. 7.2 LO 3/2007"
+    },
+    {
+     "pregunta": "Según el art. 6.2 LO 3/2007, ¿cuándo existe discriminación indirecta por razón de sexo?",
+     "opciones": [
+      "Solo cuando afecta a menores de edad",
+      "Solo cuando hay intención de discriminar",
+      "Solo en el sector privado",
+      "Cuando una disposición aparentemente neutra pone a personas de un sexo en desventaja particular, salvo justificación objetiva con medios necesarios y adecuados"
+     ],
+     "correcta": 3,
+     "explicacion": "La discriminación indirecta exige que una disposición, criterio o práctica aparentemente neutros pongan a personas de un sexo en desventaja particular. No requiere intención, y solo se excluye si existe justificación objetiva con medios necesarios y adecuados.",
+     "referencia": "Art. 6.2 LO 3/2007"
+    },
+    {
+     "pregunta": "Según el art. 11.1 LO 3/2007, ¿qué son las acciones positivas?",
+     "opciones": [
+      "Medidas sancionadoras contra las mujeres",
+      "Medidas específicas en favor de las mujeres para corregir situaciones patentes de desigualdad de hecho, aplicables mientras subsistan",
+      "Ayudas fiscales generales para todos",
+      "Prohibiciones de contratar a hombres"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 11.1 LO 3/2007 define las acciones positivas como medidas específicas en favor de las mujeres para corregir situaciones patentes de desigualdad de hecho, razonables, proporcionadas y aplicables mientras subsistan esas situaciones.",
+     "referencia": "Art. 11.1 LO 3/2007"
+    },
+    {
+     "pregunta": "Según el art. 8 LO 3/2007, ¿cómo se califica el trato desfavorable a las mujeres relacionado con el embarazo o la maternidad?",
+     "opciones": [
+      "Discriminación directa por razón de sexo",
+      "No es discriminación",
+      "Discriminación indirecta que admite justificación",
+      "Una falta sin relevancia"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 8 LO 3/2007 establece que constituye discriminación directa por razón de sexo todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad.",
+     "referencia": "Art. 8 LO 3/2007"
+    },
+    {
+     "pregunta": "Según el art. 15 LO 3/2007, ¿qué establece sobre la transversalidad?",
+     "opciones": [
+      "Que solo se aplica en los tribunales",
+      "Que la igualdad solo es responsabilidad del Instituto de la Mujer",
+      "Que el principio de igualdad informará con carácter transversal la actuación de todos los poderes públicos",
+      "Que la igualdad no aparece en las políticas públicas"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 15 LO 3/2007 dispone que el principio de igualdad de trato y de oportunidades informará, con carácter transversal, la actuación de todos los poderes públicos, y que las Administraciones lo integrarán en sus normas, políticas y presupuestos.",
+     "referencia": "Art. 15 LO 3/2007"
+    },
+    {
+     "pregunta": "Según el art. 3.8 de la Ley 12/2007, ¿qué es el lenguaje sexista?",
+     "opciones": [
+      "El lenguaje de los contratos mercantiles",
+      "El lenguaje técnico de la construcción",
+      "Un lenguaje solo utilizado por mujeres",
+      "El uso discriminatorio del lenguaje que se hace por razón de sexo"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 3.8 de la Ley 12/2007 define el lenguaje sexista como el uso discriminatorio del lenguaje que se hace por razón de sexo.",
+     "referencia": "Art. 3.8 Ley 12/2007"
+    },
+    {
+     "pregunta": "Según el art. 9 LO 3/2007, ¿qué se considera también discriminación por razón de sexo?",
+     "opciones": [
+      "Ninguna conducta, porque la ley no lo prevé",
+      "Cualquier trato adverso que sufra una persona como consecuencia de presentar una queja o recurso para exigir la igualdad",
+      "Solo el despido sin causa",
+      "La elección de un profesional por sus méritos"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 9 LO 3/2007 regula la indemnidad frente a represalias: se considera discriminación por razón de sexo cualquier trato adverso o efecto negativo que sufra quien presenta queja, reclamación, denuncia, demanda o recurso destinados a impedir la discriminación.",
+     "referencia": "Art. 9 LO 3/2007"
+    },
+    {
+     "pregunta": "Según el art. 12.3 LO 3/2007, ¿quién está legitimado en los litigios sobre acoso sexual y por razón de sexo?",
+     "opciones": [
+      "Cualquier compañero de trabajo",
+      "Solo el sindicato",
+      "Solo la persona acosada",
+      "Solo el empresario"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 12.3 LO 3/2007 dispone que la persona acosada será la única legitimada en los litigios sobre acoso sexual y acoso por razón de sexo.",
+     "referencia": "Art. 12.3 LO 3/2007"
+    },
+    {
+     "pregunta": "Según el art. 10 LO 3/2007, ¿qué consecuencia tienen los actos y cláusulas que causen discriminación por razón de sexo?",
+     "opciones": [
+      "Son nulos y sin efecto, y dan lugar a responsabilidad y reparación",
+      "Solo se anotan en un registro",
+      "Solo generan un aviso sin efectos",
+      "Son plenamente válidos"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 10 LO 3/2007 establece que esos actos y cláusulas se consideran nulos y sin efecto, y dan lugar a responsabilidad mediante reparaciones o indemnizaciones reales, efectivas y proporcionadas, y, en su caso, a sanciones disuasorias.",
+     "referencia": "Art. 10 LO 3/2007"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Por qué empieza el tema por el vocabulario",
+     "parrafos": [
+      "El tema reúne los conceptos con los que se razona toda la normativa de igualdad entre mujeres y hombres: qué significa género, qué es discriminar, cuándo una diferencia de trato es lícita, qué se entiende por acoso y qué hacen los poderes públicos para corregir las desigualdades. Antes de estudiar qué dice cada ley conviene dominar ese vocabulario, porque las preguntas de examen suelen pedir la definición exacta de un término, y es fácil confundir discriminación directa con indirecta, acoso sexual con acoso por razón de sexo, o acción positiva con discriminación.",
+      "La base constitucional está en el artículo 14 de la Constitución, que proclama que los españoles son iguales ante la ley y que no puede prevalecer discriminación alguna por razón de sexo, y en el artículo 9.2 CE, que encarga a los poderes públicos promover las condiciones para que la libertad y la igualdad del individuo y de los grupos sean reales y efectivas. Sobre esa base, la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, fija el marco estatal. En Andalucía, el Estatuto de Autonomía (arts. 14 y 15 EA) y la Ley 12/2007, para la promoción de la igualdad de género en Andalucía, completan el marco autonómico.",
+      "Hay que distinguir tres niveles. El primero es el de los principios: la igualdad como valor que inspira el ordenamiento. El segundo es el de las definiciones: el legislador concreta qué es discriminación, acoso o transversalidad para que puedan aplicarse. El tercero es el de las medidas: los instrumentos que la Administración debe poner en marcha, como los planes de igualdad, las unidades de igualdad o los informes de impacto de género. Un examen puede preguntar por cualquiera de los tres, y conviene no mezclarlos.",
+      "Las definiciones que se explican aquí se citan tal como aparecen en el texto consolidado de cada ley consultado en el repositorio. Cuando una ley no define un concepto, se dice expresamente, porque en ese caso la respuesta correcta sale de la doctrina y no del texto legal."
+     ]
+    },
+    {
+     "titulo": "2. Sexo y género",
+     "parrafos": [
+      "El sexo se refiere a las características biológicas y anatómicas que distinguen a las personas. El género se refiere a la construcción social de lo que una cultura considera propio de mujeres y de hombres: papeles, expectativas, comportamientos y posiciones de poder. La distinción es útil porque explica que muchas desigualdades no tienen base biológica, sino que se apoyan en roles aprendidos y reproducidos socialmente.",
+      "Ni la Ley Orgánica 3/2007 ni la Ley 12/2007 ni la Ley 13/2007 definen el término «género» como concepto autónomo en los artículos consultados. Lo que sí hacen es usarlo en expresiones como «igualdad de género», «perspectiva de género», «evaluación de impacto de género» o «violencia de género». Por eso, si una pregunta pide definir el género, la respuesta debe apoyarse en la distinción sexo-género de la doctrina y no en un artículo concreto.",
+      "La Ley 13/2007 sí explica el origen de la violencia de género. Su artículo 1.1 la vincula a una cultura machista y a la discriminación, la situación de desigualdad y las relaciones de poder de los hombres sobre las mujeres. Su artículo 3.1 la define como la violencia que se ejerce sobre las mujeres por el hecho de serlo, como consecuencia de esa cultura, y la Ley Orgánica 1/2004, en su artículo 1.1, la describe como violencia que se ejerce sobre las mujeres por parte de quienes sean o hayan sido sus cónyuges o de quienes estén o hayan estado ligados a ellas por relaciones similares de afectividad. Esa conexión entre género, poder y violencia es el puente hacia el tema 30.",
+      "Otro concepto que la Ley 12/2007 define es la interseccionalidad (art. 3.9): la situación de discriminación múltiple en que una mujer padece formas agravadas y específicas de discriminación por razón de clase, etnia, religión, orientación o identidad sexual, o discapacidad. El artículo 4.6 pide una especial protección del derecho a la igualdad de trato de las mujeres o colectivos de mujeres en riesgo de múltiples situaciones de discriminación. Es un concepto que aparece con frecuencia en los enunciados de examen sobre colectivos vulnerables."
+     ]
+    },
+    {
+     "titulo": "3. Roles, estereotipos y desigualdad de hecho",
+     "parrafos": [
+      "Un rol de género es el papel que se espera de una persona en función de su sexo. Un estereotipo de género es una idea generalizada y simplificada sobre cómo son o deben ser las mujeres o los hombres. Los roles y los estereotipos no son discriminatorios por sí mismos, pero se convierten en discriminación cuando condicionan el acceso a un empleo, a un salario, a una promoción o a un servicio.",
+      "Las normas verificadas no definen los roles ni los estereotipos con esas palabras, pero sí los combaten. La Ley 12/2007, en su artículo 57.1, pide que los poderes públicos promuevan la transmisión de una imagen igualitaria, plural y no estereotipada de hombres y mujeres en los medios de información y comunicación. El artículo 9 bis, sobre la formación del personal al servicio de las Administraciones andaluzas, habla de un enfoque feminista y transformador de los roles tradicionales de género. La Ley Orgánica 3/2007 utiliza una idea paralela en su artículo 36, sobre los medios de titularidad pública.",
+      "La igualdad formal y la igualdad de hecho son conceptos distintos. La igualdad formal consiste en que la ley no trate de forma diferente a las personas por su sexo. La igualdad de hecho exige que, en la realidad, las personas tengan las mismas oportunidades y resultados. Una norma puede ser formalmente igualitaria y, aun así, la realidad mostrar brechas en el empleo, en el salario o en el reparto de los cuidados. La LO 3/2007 (art. 11.1) habla de «situaciones patentes de desigualdad de hecho respecto de los hombres», y la Ley 12/2007 (art. 4.5) pide medidas específicas para eliminar las desigualdades de hecho por razón de sexo.",
+      "La Ley 12/2007 identifica algunas manifestaciones concretas de desigualdad de hecho. El artículo 4.2 menciona la creciente feminización de la pobreza. El artículo 4.4 fomenta la corresponsabilidad mediante el reparto equilibrado de las responsabilidades familiares, las tareas domésticas y el cuidado de las personas en situación de dependencia. El artículo 4.11 pide medidas para que sea efectiva la compatibilidad entre responsabilidades laborales, familiares y personales. Para estudiar el tema, conviene recordar que la desigualdad de hecho es la que explican los datos, mientras que la discriminación es el trato concreto que la produce.",
+      "Un esquema útil para responder preguntas largas separa tres niveles: el rol (lo que la sociedad espera de cada sexo), el estereotipo (la creencia simplificada que lo sostiene) y la discriminación (el trato desigual que resulta de aplicar ese rol o ese estereotipo a una persona concreta). La norma actúa sobre el tercer nivel, pero la política pública se dirige también a los dos primeros, por ejemplo a través de la imagen en los medios o de la formación del personal."
+     ]
+    },
+    {
+     "titulo": "4. Igualdad de derechos, de trato y de oportunidades",
+     "parrafos": [
+      "La Ley Orgánica 3/2007 empieza por afirmar que las mujeres y los hombres son iguales en dignidad humana, e iguales en derechos y deberes (art. 1.1). Su objeto es hacer efectivo el derecho de igualdad de trato y de oportunidades entre mujeres y hombres, en particular mediante la eliminación de la discriminación de la mujer, sea cual fuere su circunstancia o condición, en los ámbitos de la vida y, singularmente, en las esferas política, civil, laboral, económica, social y cultural. El artículo 1.2 añade que la ley prevé medidas para eliminar y corregir, en los sectores público y privado, toda forma de discriminación por razón de sexo.",
+      "La igualdad de trato y la igualdad de oportunidades no son lo mismo. La igualdad de trato consiste en no tratar peor a una persona por razón de su sexo. El artículo 3 de la LO 3/2007 la define como la ausencia de toda discriminación, directa o indirecta, por razón de sexo, y, especialmente, de las derivadas de la maternidad, la asunción de obligaciones familiares y el estado civil. La igualdad de oportunidades, en cambio, exige que las condiciones de partida permitan acceder a los mismos resultados. El artículo 5 la concreta en el acceso al empleo, incluido el trabajo por cuenta propia; la formación profesional; la promoción profesional; las condiciones de trabajo, incluidas las retributivas y las de despido; y la afiliación y participación en organizaciones sindicales y empresariales.",
+      "El artículo 4 de la LO 3/2007 convierte la igualdad en un principio informador del ordenamiento jurídico. Como tal, se integra y observa en la interpretación y aplicación de las normas. Eso significa que el juez, el funcionario o el gestor deben leer cualquier norma a la luz del principio de igualdad, aunque la norma concreta no lo mencione. En Andalucía, la Ley 12/2007 (art. 4) enumera catorce principios generales de actuación de los poderes públicos, entre ellos la igualdad de trato, la adopción de medidas para eliminar la discriminación, la corresponsabilidad y la eliminación del uso sexista del lenguaje.",
+      "Hay una excepción que conviene conocer. El artículo 5.2 de la LO 3/2007 dispone que no constituye discriminación en el acceso al empleo, incluida la formación necesaria, una diferencia de trato basada en una característica relacionada con el sexo cuando, por la naturaleza de las actividades profesionales concretas o por el contexto en que se desarrollen, esa característica constituya un requisito profesional esencial y determinante, siempre que el objetivo sea legítimo y el requisito proporcionado. La excepción es estricta: el requisito debe ser esencial para la actividad y no basta con que sea conveniente.",
+      "La Constitución y la LO 3/2007 no son las únicas normas en juego. El Estatuto de Autonomía para Andalucía (art. 14) prohíbe toda discriminación en el ejercicio de los derechos y en la prestación de los servicios, particularmente la ejercida por razón de sexo, y añade que esa prohibición no impedirá acciones positivas en beneficio de sectores, grupos o personas desfavorecidas. El artículo 15 EA garantiza la igualdad de oportunidades entre hombres y mujeres en todos los ámbitos."
+     ]
+    },
+    {
+     "titulo": "5. Discriminación directa e indirecta",
+     "parrafos": [
+      "La discriminación directa por razón de sexo se define en el artículo 6.1 de la LO 3/2007 como la situación en que se encuentra una persona que sea, haya sido o pudiera ser tratada, en atención a su sexo, de manera menos favorable que otra en situación comparable. La Ley 12/2007 (art. 3.1) la define en términos casi idénticos, y añade la expresión «situación equiparable». El elemento clave es la comparación: hay que comparar el trato que recibe una persona con el que recibe otra en una situación semejante, y la diferencia debe deberse al sexo. Un ejemplo claro es no contratar a una mujer por el hecho de serlo, cuando un hombre con la misma cualificación sí lo sería.",
+      "La discriminación indirecta se define en el artículo 6.2 de la LO 3/2007 como la situación en que una disposición, criterio o práctica aparentemente neutros pone a personas de un sexo en desventaja particular con respecto a personas del otro, salvo que dicha disposición, criterio o práctica pueda justificarse objetivamente en atención a una finalidad legítima y que los medios para alcanzar dicha finalidad sean necesarios y adecuados. La Ley 12/2007 (art. 3.2) recoge la misma idea con redacción semejante.",
+      "La diferencia entre ambas es importante. En la directa hay un trato expreso y diferente por razón de sexo. En la indirecta la regla es neutra en apariencia, pero produce un efecto desigual sobre un sexo. Por eso la discriminación indirecta no depende de la intención de quien aplica la norma: lo decisivo es el efecto. Una exigencia de horario o de movilidad que, en la práctica, excluye sistemáticamente a quienes asumen el cuidado de los hijos puede ser indirectamente discriminatoria aunque se haya redactado sin ninguna intención de discriminar.",
+      "La discriminación indirecta admite una justificación que la directa no admite con la misma amplitud. Para que la regla neutra quede justificada, la finalidad debe ser legítima, y los medios deben ser necesarios y adecuados. Es decir, el test tiene dos pasos: primero, que el objetivo sea legítimo; segundo, que el medio elegido sea el necesario y el adecuado para alcanzarlo. Si existe otro medio menos desigual que cumpla el mismo fin, la justificación no supera el test.",
+      "El artículo 6.3 de la LO 3/2007 añade que se considera discriminatoria toda orden de discriminar, directa o indirectamente, por razón de sexo. Esto significa que dar la instrucción de discriminar ya es discriminación, aunque el destinatario de la orden no llegue a sufrir el trato. Es una cláusula útil para responder preguntas sobre la responsabilidad de quien dirige o coordina a otros.",
+      "La Ley 12/2007 añade un concepto que no es en sí una discriminación, pero sirve para medirla: la representación equilibrada. El artículo 3.3 la define como la situación que garantiza la presencia de mujeres y hombres de forma que, en el conjunto de personas a que se refiera cada sexo, ninguno supere el sesenta por ciento ni sea menos del cuarenta por ciento. Es el parámetro con el que se evalúan las medidas de presencia equilibrada en candidaturas, órganos directivos y colegiados, sin que la representación equilibrada sea por sí misma una discriminación."
+     ]
+    },
+    {
+     "titulo": "6. Discriminación por embarazo, maternidad y represalias",
+     "parrafos": [
+      "El artículo 8 de la LO 3/2007 establece que constituye discriminación directa por razón de sexo todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad. La norma no exige comparación con un hombre: el trato desfavorable por el embarazo o la maternidad ya es, en sí, discriminación directa. Esta regla evita que la maternidad se trate como un supuesto de discriminación indirecta, en el que habría que justificar la medida.",
+      "La Ley 12/2007 desarrolla la misma idea desde la perspectiva de la maternidad como valor. Su artículo 4.3 reconoce la maternidad, biológica o no biológica, como un valor social, evitando los efectos negativos en los derechos de las mujeres, y considera la paternidad en un contexto familiar y social de corresponsabilidad, de acuerdo con los nuevos modelos de familia. La LO 3/2007 (art. 3) incluye expresamente la maternidad entre las causas de discriminación que el principio de igualdad de trato debe evitar.",
+      "El artículo 9 de la LO 3/2007 regula la llamada indemnidad frente a represalias. Se considera también discriminación por razón de sexo cualquier trato adverso o efecto negativo que sufra una persona como consecuencia de la presentación de queja, reclamación, denuncia, demanda o recurso, de cualquier tipo, destinado a impedir su discriminación o a exigir el cumplimiento efectivo del principio de igualdad de trato. La protección no depende de que la discriminación original se pruebe: lo que se protege es el derecho a reaccionar frente a ella.",
+      "En un supuesto práctico, la indemnidad es un punto que se olvida con facilidad. Si una empleada pública recibe un peor destino tras presentar una queja por discriminación, el castigo es en sí mismo discriminatorio, aunque la queja original no prospere. Esa es la lógica de la norma: el miedo a las represalias desincentiva la denuncia, y la ley lo neutraliza."
+     ]
+    },
+    {
+     "titulo": "7. Discriminación salarial y en el empleo público",
+     "parrafos": [
+      "La discriminación salarial es un supuesto específico de discriminación en las condiciones de trabajo. El artículo 5 de la LO 3/2007 incluye expresamente en el principio de igualdad de trato y de oportunidades «las condiciones de trabajo, incluidas las retributivas y las de despido». El artículo 14.2, al enumerar los criterios generales de actuación de los poderes públicos, pide integrar el principio de igualdad en las políticas económica y laboral con el fin de evitar la segregación laboral y eliminar las diferencias retributivas.",
+      "En el empleo público, el artículo 51 de la LO 3/2007 fija los criterios de actuación de las Administraciones públicas. Su letra f) obliga a establecer medidas efectivas para eliminar cualquier discriminación retributiva, directa o indirecta, por razón de sexo. La letra a) pide remover los obstáculos que impliquen la pervivencia de cualquier tipo de discriminación en el acceso al empleo público y en el desarrollo de la carrera profesional; la letra e), establecer medidas efectivas de protección frente al acoso sexual y al acoso por razón de sexo; y la letra g), evaluar periódicamente la efectividad del principio de igualdad en cada ámbito. Son criterios dirigidos a la Administración General del Estado y a sus organismos, pero sirven como referencia para entender las obligaciones de cualquier empleador público.",
+      "En Andalucía, el artículo 4.14 de la Ley 12/2007 pide adoptar medidas que aseguren la igualdad entre hombres y mujeres en lo que se refiere al acceso al empleo, a la formación, a la promoción profesional, a la igualdad salarial y a las condiciones de trabajo. La misma ley dedica varios artículos al empleo, entre ellos el artículo 22 sobre igualdad de oportunidades en el acceso y el artículo 26 sobre calidad en el empleo. Su contenido detallado no se desarrolla en este tema.",
+      "La discriminación retributiva se mide con datos, y el legislador no fija un porcentaje de brecha que la defina. Una diferencia de salario entre hombres y mujeres que ocupan el mismo puesto con el mismo trabajo es el caso más claro de discriminación directa. Una diferencia que procede de sistemas de clasificación profesional que valoran peor los trabajos feminizados puede ser indirecta. El Estatuto de los Trabajadores regula el principio de igualdad retributiva en el ámbito privado; ese texto no está en el repositorio y no se cita aquí con número de artículo."
+     ]
+    },
+    {
+     "titulo": "8. Acoso sexual y acoso por razón de sexo",
+     "parrafos": [
+      "El artículo 7 de la LO 3/2007 define dos conductas distintas. El acoso sexual (apartado 1) es cualquier comportamiento, verbal o físico, de naturaleza sexual que tenga el propósito o produzca el efecto de atentar contra la dignidad de una persona, en particular cuando se crea un entorno intimidatorio, degradante u ofensivo. El acoso por razón de sexo (apartado 2) es cualquier comportamiento realizado en función del sexo de una persona, con el propósito o el efecto de atentar contra su dignidad y de crear un entorno intimidatorio, degradante u ofensivo.",
+      "La diferencia está en el contenido. El acoso sexual tiene naturaleza sexual: el comportamiento es de tipo sexual. El acoso por razón de sexo no necesita tener contenido sexual: basta con que el comportamiento esté motivado por el sexo de la persona y produzca el efecto de atentar contra su dignidad. Por eso un comentario despectivo y reiterado contra las mujeres de un equipo puede ser acoso por razón de sexo aunque no tenga ninguna connotación sexual.",
+      "El apartado 3 del artículo 7 declara que se consideran en todo caso discriminatorios el acoso sexual y el acoso por razón de sexo. El apartado 4 añade que condicionar un derecho o una expectativa de derecho a la aceptación de una situación de acoso se considera también acto de discriminación por razón de sexo. Es el supuesto del chantaje: aceptar la conducta a cambio de un ascenso o de la renovación de un contrato.",
+      "La Ley 12/2007 (arts. 3.6 y 3.7) y la Ley 13/2007 (art. 3.4, letras d) y e)) repiten la distinción con más detalle. La Ley 12/2007 precisa que el acoso, en cualquiera de sus formas, incluye el ámbito laboral. Hay que citar con cuidado la definición del texto consolidado de la Ley 12/2007: en su artículo 3.6 define el acoso sexual como el comportamiento de tipo verbal, no verbal o físico de índole sexual realizado por el hombre contra la mujer. Es una redacción propia de la norma andaluza, y en un examen debe citarse tal como aparece.",
+      "Hay también garantías procesales. El artículo 12.3 de la LO 3/2007 dispone que la persona acosada será la única legitimada en los litigios sobre acoso sexual y acoso por razón de sexo. El artículo 13.1 establece que, en los procedimientos en que las alegaciones de la parte actora se fundamenten en actuaciones discriminatorias por razón de sexo, corresponde a la persona demandada probar la ausencia de discriminación en las medidas adoptadas y su proporcionalidad. El artículo 13.2 excluye esa regla en los procesos penales.",
+      "En el ámbito público, el artículo 51.e) de la LO 3/2007 obliga a las Administraciones a establecer medidas efectivas de protección frente al acoso. La Ley 12/2007 contiene un artículo específico sobre acoso sexual y acoso por razón de sexo (art. 30) y otro sobre protección frente a esas conductas (art. 33), y el artículo 13 de la LO 3/2007 completa el régimen de prueba. El contenido detallado de los artículos andaluces no se ha desarrollado en este tema; sus rúbricas sí se han comprobado."
+     ]
+    },
+    {
+     "titulo": "9. Acciones positivas: concepto y límites",
+     "parrafos": [
+      "Una acción positiva es una medida específica que favorece a un grupo para corregir una desigualdad de hecho. En la igualdad entre mujeres y hombres, la acción positiva beneficia a las mujeres. El artículo 11.1 de la LO 3/2007 lo expresa así: «con el fin de hacer efectivo el derecho constitucional de la igualdad, los Poderes Públicos adoptarán medidas específicas en favor de las mujeres para corregir situaciones patentes de desigualdad de hecho respecto de los hombres».",
+      "La base constitucional es el artículo 9.2 CE, que obliga a los poderes públicos a promover las condiciones para que la igualdad sea real y efectiva. El artículo 14 CE prohíbe la discriminación por razón de sexo. La acción positiva no contradice el artículo 14, porque corrige una desigualdad real que la mera prohibición de discriminar no soluciona. El Estatuto de Autonomía lo recoge expresamente en el artículo 14: la prohibición de discriminación no impedirá acciones positivas en beneficio de sectores, grupos o personas desfavorecidas. La Ley 12/2007 (art. 4.5) habla de medidas específicas necesarias para eliminar las desigualdades de hecho por razón de sexo.",
+      "El artículo 11 de la LO 3/2007 fija los límites. Las medidas deben ser razonables y proporcionadas en relación con el objetivo perseguido en cada caso, y son aplicables mientras subsistan las situaciones de desigualdad. Esos dos límites, la proporcionalidad y la temporalidad, son lo que distingue una acción positiva legítima de una discriminación encubierta. Una medida que se mantiene cuando la desigualdad ya ha desaparecido deja de estar justificada.",
+      "El artículo 11.2 permite también que las personas físicas y jurídicas privadas adopten este tipo de medidas en los términos establecidos en la ley. Es una previsión que amplía el alcance de la acción positiva más allá de los poderes públicos. El artículo 14.6 de la LO 3/2007 añade que, para las mujeres de colectivos de especial vulnerabilidad (minorías, migrantes, niñas, mujeres con discapacidad, mujeres mayores, viudas y víctimas de violencia de género), los poderes públicos podrán adoptar igualmente medidas de acción positiva.",
+      "Para distinguir acción positiva y discriminación en un caso práctico, conviene hacerse tres preguntas: si la medida corrige una desigualdad de hecho patente, si es razonable y proporcionada al fin, y si se limita al tiempo en que dure esa desigualdad. Si la respuesta a las tres es afirmativa, la medida es acción positiva. Si falla alguna, la diferencia de trato carece de justificación y puede ser discriminatoria."
+     ]
+    },
+    {
+     "titulo": "10. Lenguaje sexista, imagen y publicidad",
+     "parrafos": [
+      "El lenguaje sexista se define en el artículo 3.8 de la Ley 12/2007 como el uso discriminatorio del lenguaje que se hace por razón de sexo. La LO 3/2007, en su artículo 14.11, pide la implantación de un lenguaje no sexista en el ámbito administrativo y su fomento en la totalidad de las relaciones sociales, culturales y artísticas. El artículo 4.10 de la Ley 12/2007 incluye entre los principios generales la adopción de medidas para eliminar el uso sexista del lenguaje y garantizar una imagen de mujeres y hombres fundamentada en la igualdad.",
+      "El artículo 9 de la Ley 12/2007 concreta las obligaciones andaluzas. El apartado 1 garantiza que las Administraciones públicas de Andalucía usen un lenguaje no sexista y un tratamiento igualitario en los contenidos e imágenes que utilicen en todos los documentos, titulaciones académicas y soportes que produzcan, directamente o a través de personas o entidades. El apartado 2 obliga a las entidades instrumentales y a las corporaciones de derecho público a adaptar su denominación oficial a un lenguaje no sexista, dentro de sus normas reguladoras. El apartado 3 pide a la Administración que promueva lo mismo en los colegios profesionales.",
+      "En materia de publicidad, el artículo 41 de la LO 3/2007 dispone que la publicidad que comporte una conducta discriminatoria de acuerdo con esa ley se considerará publicidad ilícita, de conformidad con la legislación general de publicidad y de publicidad y comunicación institucional. El artículo 36 establece que los medios de comunicación social de titularidad pública velarán por la transmisión de una imagen igualitaria, plural y no estereotipada de mujeres y hombres.",
+      "La Ley 12/2007 es más detallada en este punto. Su artículo 57.2 considera ilícita la publicidad que atente contra la dignidad de la persona o vulnere los valores y derechos reconocidos en la Constitución, en particular los del artículo 18 y del artículo 20.4 CE. Incluye expresamente los anuncios que presenten a las mujeres de forma vejatoria, usando su cuerpo o partes de él como mero objeto desvinculado del producto anunciado, o asociando su imagen a comportamientos estereotipados que vulneren los fundamentos del ordenamiento. El artículo 57.3 encomienda al Consejo Audiovisual de Andalucía fomentar la igualdad y los comportamientos no sexistas en las programaciones y en la publicidad, y el artículo 57.4 prevé un informe anual del Instituto Andaluz de la Mujer sobre el tratamiento de la imagen de las mujeres.",
+      "Como guía para un examen: el lenguaje sexista es un uso discriminatorio del lenguaje; la imagen estereotipada es un problema de contenido; y la publicidad discriminatoria es ilícita, con la acción de cesación y rectificación que la Ley 12/2007 regula en su artículo 66 (cuyo contenido no se ha desarrollado aquí)."
+     ]
+    },
+    {
+     "titulo": "11. Transversalidad de género y mainstreaming",
+     "parrafos": [
+      "La transversalidad es el principio según el cual la igualdad debe estar presente en todas las políticas, y no solo en las que tienen por objeto directo a las mujeres. El artículo 15 de la LO 3/2007 la establece así: el principio de igualdad de trato y de oportunidades informará, con carácter transversal, la actuación de todos los poderes públicos. Las Administraciones públicas lo integrarán, de forma activa, en la adopción y ejecución de sus disposiciones normativas, en la definición y presupuestación de las políticas públicas en todos los ámbitos y en el desarrollo del conjunto de sus actividades.",
+      "La Ley 12/2007 define la transversalidad en su artículo 3.5 como el instrumento para integrar la perspectiva de género en el ejercicio de las competencias de las distintas políticas y acciones públicas, desde la consideración sistemática de la igualdad de género. El artículo 5 de la misma ley desarrolla el principio: los poderes públicos potenciarán que la perspectiva de igualdad de género esté presente en la elaboración, ejecución y seguimiento de las disposiciones normativas y de las políticas, considerando sistemáticamente las prioridades y necesidades propias de mujeres y hombres, con el objetivo de adaptarlas para eliminar los efectos discriminatorios.",
+      "El término mainstreaming, o gender mainstreaming, es la expresión inglesa con la que se designa la misma idea. Su difusión procede de los documentos internacionales y europeos sobre igualdad. Las normas españolas y andaluzas no usan esa palabra en los artículos consultados: emplean «transversalidad», y en la práctica administrativa se habla de integración de la perspectiva de género. En un examen, si se pide el concepto de mainstreaming, debe darse la definición de transversalidad y explicar que es su traducción funcional.",
+      "Los instrumentos para hacerla efectiva son varios. La evaluación de impacto de género (Ley 12/2007, art. 6) exige que todos los proyectos de ley, disposiciones reglamentarias y planes aprobados por el Consejo de Gobierno incorporen el objetivo de igualdad, con un informe que quede integrado en la Memoria de Análisis de Impacto Normativo. En el ámbito estatal, el artículo 19 de la LO 3/2007 exige un informe sobre impacto por razón de género en los proyectos de disposiciones de carácter general y en los planes de especial relevancia que se sometan al Consejo de Ministros. El artículo 8 de la Ley 12/2007 extiende el enfoque de género al presupuesto de la Comunidad Autónoma.",
+      "La transversalidad no sustituye a las medidas específicas. Lo que la distingue es que la igualdad se incorpora a todas las políticas, y las medidas específicas, como las acciones positivas o los servicios para víctimas, se añaden a esa integración general. Por eso un examen puede preguntar si una medida es transversal o específica: si se aplica a todas las políticas y se revisa en todas ellas, es transversal; si se dirige a un grupo concreto para corregir una desigualdad, es específica."
+     ]
+    },
+    {
+     "titulo": "12. Consecuencias jurídicas y tutela",
+     "parrafos": [
+      "El artículo 10 de la LO 3/2007 regula las consecuencias de las conductas discriminatorias. Los actos y las cláusulas de los negocios jurídicos que constituyan o causen discriminación por razón de sexo se consideran nulos y sin efecto. Además, dan lugar a responsabilidad mediante un sistema de reparaciones o indemnizaciones reales, efectivas y proporcionadas al perjuicio sufrido, y, en su caso, a un sistema eficaz y disuasorio de sanciones que prevenga las conductas discriminatorias.",
+      "La tutela judicial está garantizada en el artículo 12 de la LO 3/2007. El apartado 1 dispone que cualquier persona podrá recabar de los tribunales la tutela del derecho a la igualdad entre mujeres y hombres, de acuerdo con el artículo 53.2 CE, incluso tras la terminación de la relación en la que se ha producido la discriminación. El artículo 53.2 CE prevé la tutela de los derechos ante los tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad y, en su caso, a través del recurso de amparo ante el Tribunal Constitucional.",
+      "La legitimación para intervenir en los procesos civiles, sociales y contencioso-administrativos que versen sobre la defensa de este derecho corresponde a las personas físicas y jurídicas con interés legítimo, en los términos de las leyes reguladoras de cada proceso (art. 12.2 LO 3/2007). El artículo 12.3 reserva a la persona acosada la legitimación exclusiva en los litigios sobre acoso sexual y acoso por razón de sexo.",
+      "La Ley 12/2007 tiene un régimen de infracciones y sanciones en sus artículos 73 a 80, y la Ley 13/2007 regula la protección integral de las víctimas. Estos régimenes exceden lo que se ha verificado para este tema; sus rúbricas se han comprobado, pero el contenido de las infracciones no se ha desarrollado aquí. Cuando se estudie el régimen sancionador andaluz, debe consultarse el texto vigente en el momento del examen."
+     ]
+    },
+    {
+     "titulo": "13. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir una definición literal. Conviene memorizar las definiciones de la LO 3/2007 (arts. 6 y 7) y de la Ley 12/2007 (art. 3), porque son las que aparecen en los textos de examen. La clave para distinguir los conceptos es preguntar por el elemento que define cada uno: en la directa, el trato expreso menos favorable; en la indirecta, la regla neutra con efecto desigual; en el acoso sexual, el contenido sexual; en el acoso por razón de sexo, la motivación por razón de sexo.",
+      "Para las acciones positivas, la pregunta típica es cuáles son sus límites. La respuesta correcta es que deben ser razonables y proporcionadas al objetivo, y aplicarse solo mientras subsistan las situaciones de desigualdad de hecho (art. 11.1 LO 3/2007). Para la transversalidad, la respuesta correcta menciona que la perspectiva de género debe estar presente en todas las políticas y en todas las fases de la acción pública (art. 15 LO 3/2007 y art. 5 Ley 12/2007).",
+      "Un error habitual es atribuir a la LO 3/2007 la definición de género o la de estereotipo. Ninguna de las dos aparece en los artículos consultados. Otro error es confundir la representación equilibrada (un parámetro del 40 al 60 por ciento) con una cuota fija del 50 por ciento. Y un tercero es afirmar que la discriminación indirecta exige intención: la norma exige efecto desigual, no intención.",
+      "Para un supuesto práctico, el orden de análisis es el siguiente: primero se identifica si hay un trato desigual; después, si el trato se produce por razón de sexo, por embarazo o maternidad, o como represalia; luego, si la diferencia es directa o indirecta; y, por último, si existe una justificación o una acción positiva que la ampare. Este esquema permite responder con rigor cualquier caso sin perderse en los detalles."
+     ]
+    },
+    {
+     "titulo": "14. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Las citas de este tema se han comprobado en el texto consolidado del BOE disponible en el repositorio: LO 3/2007 (fecha de última modificación indicada en el PDF: 2 de agosto de 2024), Ley 12/2007 (última modificación indicada: 16 de febrero de 2024), Ley 13/2007 (última modificación indicada: 31 de diciembre de 2025) y Ley Orgánica 1/2004 (última modificación indicada: 7 de septiembre de 2022). La versión en vigor puede diferir si hay modificaciones posteriores a esas fechas, y debe confirmarse en el enlace oficial antes de cualquier examen.",
+      "No se ha verificado en el repositorio el Estatuto de los Trabajadores, el Código Penal ni la normativa de la Junta de Andalucía que desarrolla las unidades de igualdad, los planes de igualdad o las comisiones de impacto de género. Tampoco se han leído en detalle las rúbricas ni el contenido de los artículos andaluces sobre sanciones (arts. 73 a 80 de la Ley 12/2007) ni la publicidad de la acción de cesación (art. 66).",
+      "Las definiciones de género, roles, estereotipos y mainstreaming se han explicado como conceptos doctrinales porque ningún artículo consultado las define en esos términos. Cuando un temario o un examen las cite con una norma concreta, conviene comprobar que esa norma las contenga antes de citarla."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2007-6115.pdf",
+    "leyes/BOE-A-2008-2492.pdf",
+    "leyes/BOE-A-2008-2493.pdf",
+    "leyes/BOE-A-2004-21760.pdf",
+    "leyes/BOE-A-1978-31229.pdf",
+    "leyes/BOE-A-2007-5825.pdf"
+   ]
+  },
+  "c30": {
+   "resumen": [
+    {
+     "titulo": "Marco constitucional y estatutario",
+     "puntos": [
+      "El artículo 14 CE prohíbe la discriminación por razón de sexo, y el artículo 9.2 CE obliga a promover la igualdad real y efectiva.",
+      "El Estatuto garantiza la igualdad de oportunidades entre hombres y mujeres en todos los ámbitos (art. 15 EA), reconoce el derecho a una protección integral contra la violencia de género (art. 16 EA) y vincula a los poderes públicos andaluces (art. 38 EA)."
+     ]
+    },
+    {
+     "titulo": "Ley Orgánica 3/2007 (estatal)",
+     "puntos": [
+      "Objeto: hacer efectivo el derecho de igualdad de trato y de oportunidades entre mujeres y hombres (art. 1 LO 3/2007). El Título I reúne los artículos 3 a 13 sobre discriminación, acoso, indemnidad y acciones positivas.",
+      "Transversalidad en todas las políticas (art. 15); informe de impacto de género ante el Consejo de Ministros (art. 19); criterios para las Administraciones en el empleo público (art. 51); unidades de igualdad en los Ministerios (art. 77)."
+     ]
+    },
+    {
+     "titulo": "Ley 12/2007 (promoción de la igualdad en Andalucía)",
+     "puntos": [
+      "Objeto: igualdad de trato y de oportunidades en desarrollo de los artículos 9.2 y 14 CE y de los artículos 15 y 38 EA (art. 1). Catorce principios generales de actuación (art. 4).",
+      "Transversalidad (art. 5); evaluación de impacto de género de las normas, disposiciones y planes (art. 6); Plan Estratégico de Igualdad, con revisión al menos cada cuatro años (art. 7); enfoque de género en el presupuesto (art. 8). Órganos: Comisión Interdepartamental (art. 59), Observatorio (art. 61) y Consejo Andaluz de Participación (art. 62)."
+     ]
+    },
+    {
+     "titulo": "Unidad de igualdad y género",
+     "puntos": [
+      "El artículo 60 crea Unidades de Igualdad de Género en todas las Consejerías, para impulsar, coordinar e implementar la perspectiva de género en la planificación, gestión y evaluación de sus políticas.",
+      "Cada Consejería encomienda sus funciones a uno de sus órganos directivos, en los términos que fije el reglamento (art. 60.2). La Junta garantiza el asesoramiento y la formación de su personal en igualdad (art. 60.3; art. 9 bis)."
+     ]
+    },
+    {
+     "titulo": "Concepto de violencia de género",
+     "puntos": [
+      "LO 1/2004: violencia que se ejerce sobre las mujeres por quienes sean o hayan sido sus cónyuges o estén o hayan estado ligados por relaciones similares de afectividad, aun sin convivencia (art. 1.1).",
+      "Ley 13/2007: violencia de género como manifestación de una cultura machista y de la desigualdad, con el alcance del artículo 3.1. Son víctimas, sin necesidad de denuncia, la mujer que sufre el daño, sus hijas e hijos y las personas dependientes que conviven en el entorno violento (art. 1 bis)."
+     ]
+    },
+    {
+     "titulo": "Tipos y manifestaciones",
+     "puntos": [
+      "Cuatro tipos: física, psicológica, sexual y económica (art. 3.3 Ley 13/2007). Se extienden a cualquier acto basado en el género que cause o pueda causar perjuicio, en la vida pública o privada.",
+      "Manifestaciones (art. 3.4): violencia en la pareja, feminicidio, acoso sexual y por razón de sexo, trata, explotación sexual, mutilación genital, matrimonio forzado, ciberviolencia y violencia vicaria."
+     ]
+    },
+    {
+     "titulo": "Protección integral y recursos",
+     "puntos": [
+      "Derechos de información (art. 26), atención especializada (art. 27), atención sanitaria con atención a la salud mental (art. 34) y asistencia letrada con turno de guardia de 24 horas (art. 35).",
+      "Atención de emergencia sin acreditación (art. 42); atención integral (art. 43); centros de emergencia, casas de acogida y pisos tutelados (art. 44); ayudas económicas (art. 46) y prestación para los hijos de víctimas mortales (art. 46 bis)."
+     ]
+    },
+    {
+     "titulo": "Prevención, coordinación y competencias locales",
+     "puntos": [
+      "El Plan integral de sensibilización y prevención se aprueba cada cinco años (art. 8). Comisión institucional de coordinación, coordinada por la Consejería competente (art. 58). Los municipios crean unidades de información y atención (art. 41).",
+      "La ley se aplica a la Junta, a la Administración local y a sus entidades (art. 2.2) y garantiza sus derechos a todas las víctimas en Andalucía, con independencia de la nacionalidad o la situación administrativa (art. 2.3)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LO-3-2007",
+     "rol": "Norma estatal de igualdad (arts. 1, 3 a 15, 19, 36, 41, 51 y 77)"
+    },
+    {
+     "id": "LIG-AND-12-2007",
+     "rol": "Norma andaluza de promoción de la igualdad (arts. 1, 4 a 9, 9 bis, 59 a 63)"
+    },
+    {
+     "id": "VG-AND-13-2007",
+     "rol": "Norma andaluza de violencia de género (arts. 1, 1 bis, 2, 3, 26 a 46 bis y 58)"
+    },
+    {
+     "id": "LO-1-2004",
+     "rol": "Norma estatal de violencia de género (art. 1)"
+    },
+    {
+     "id": "EA-ANDALUCIA",
+     "rol": "Igualdad y protección en el Estatuto (arts. 14, 15, 16 y 38)"
+    },
+    {
+     "id": "CE",
+     "rol": "Fundamento constitucional (arts. 9.2 y 14)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 15 del Estatuto de Autonomía, ¿qué se garantiza en materia de igualdad de género?",
+     "opciones": [
+      "La igualdad de oportunidades entre hombres y mujeres en todos los ámbitos",
+      "Solo la igualdad salarial",
+      "Solo la igualdad en la educación",
+      "Nada relativo al género"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 15 EA garantiza la igualdad de oportunidades entre hombres y mujeres en todos los ámbitos.",
+     "referencia": "Art. 15 EA"
+    },
+    {
+     "pregunta": "Según el art. 1.1 de la LO 1/2004, ¿por quién puede ejercerse la violencia de género que regula?",
+     "opciones": [
+      "Solo por desconocidos",
+      "Solo por familiares de sangre",
+      "Por quienes sean o hayan sido sus cónyuges o estén o hayan estado ligados a ellas por relaciones similares de afectividad, aun sin convivencia",
+      "Por cualquier persona, sea o no pareja de la víctima"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 1.1 LO 1/2004 se refiere a la violencia ejercida por quienes sean o hayan sido cónyuges o estén o hayan estado ligados por relaciones similares de afectividad, aun sin convivencia.",
+     "referencia": "Art. 1.1 LO 1/2004"
+    },
+    {
+     "pregunta": "Según el art. 1 bis de la Ley 13/2007, ¿es necesario presentar denuncia para ser reconocida como víctima de violencia de género?",
+     "opciones": [
+      "Sí, pero solo en el ámbito laboral",
+      "Sí, siempre y en todo caso",
+      "Sí, pero solo si hay sentencia",
+      "No, los derechos se reconocen sin necesidad de interponer denuncia"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 1 bis considera víctimas de violencia de género, con los derechos de la ley y sin necesidad de interposición de denuncia, a las personas que cumplen sus requisitos.",
+     "referencia": "Art. 1 bis Ley 13/2007"
+    },
+    {
+     "pregunta": "Según el art. 3.3 de la Ley 13/2007, ¿cuáles son los cuatro tipos de violencia de género?",
+     "opciones": [
+      "Pública, privada, familiar y escolar",
+      "Física, psicológica, sexual y económica",
+      "Verbal, digital, laboral y social",
+      "Directa, indirecta, penal y civil"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 3.3 de la Ley 13/2007 distingue la violencia física, psicológica, sexual y económica.",
+     "referencia": "Art. 3.3 Ley 13/2007"
+    },
+    {
+     "pregunta": "Según el art. 60.1 de la Ley 12/2007, ¿dónde se crean las Unidades de Igualdad de Género?",
+     "opciones": [
+      "En todas las Consejerías de la Junta de Andalucía",
+      "Solo en los municipios de más de cien mil habitantes",
+      "En el Tribunal Superior de Justicia",
+      "Solo en el Parlamento de Andalucía"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 60.1 crea Unidades de Igualdad de Género en todas las Consejerías de la Junta de Andalucía.",
+     "referencia": "Art. 60.1 Ley 12/2007"
+    },
+    {
+     "pregunta": "Según el art. 60.2 de la Ley 12/2007, ¿cómo se encomiendan las funciones de la Unidad de Igualdad de Género?",
+     "opciones": [
+      "Al Defensor del Pueblo Andaluz",
+      "A una empresa privada externa",
+      "A un órgano directivo de cada Consejería, en los términos que se establezcan reglamentariamente",
+      "A los sindicatos"
+     ],
+     "correcta": 2,
+     "explicacion": "Cada Consejería encomienda a uno de sus órganos directivos las funciones de la Unidad, en los términos reglamentarios.",
+     "referencia": "Art. 60.2 Ley 12/2007"
+    },
+    {
+     "pregunta": "Según el art. 6.2 de la Ley 12/2007, ¿qué proyectos deben incorporar la igualdad de género y un informe de evaluación del impacto de género?",
+     "opciones": [
+      "Solo los presupuestos de los ayuntamientos",
+      "Solo las ordenanzas municipales",
+      "Solo los contratos administrativos",
+      "Los proyectos de ley, las disposiciones reglamentarias y los planes que apruebe el Consejo de Gobierno"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 6.2 exige que todos los proyectos de ley, disposiciones reglamentarias y planes que apruebe el Consejo de Gobierno incorporen el objetivo de igualdad, con el informe de impacto de género.",
+     "referencia": "Art. 6.2 Ley 12/2007"
+    },
+    {
+     "pregunta": "Según el art. 8 de la Ley 12/2007, ¿quién emite el informe de evaluación de impacto de género sobre el proyecto de Ley del Presupuesto de la Comunidad?",
+     "opciones": [
+      "El Tribunal de Cuentas",
+      "La Consejería competente en materia de presupuestos, con participación del Instituto Andaluz de la Mujer",
+      "Cada municipio por separado",
+      "El Defensor del Pueblo Andaluz"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 8 atribuye ese informe a la Consejería competente en materia de presupuestos, en coordinación con las Consejerías y con participación del Instituto Andaluz de la Mujer.",
+     "referencia": "Art. 8 Ley 12/2007"
+    },
+    {
+     "pregunta": "Según el art. 44.1 de la Ley 13/2007, ¿qué tres niveles de centros de atención integral y acogida se distinguen?",
+     "opciones": [
+      "Centros educativos, deportivos y culturales",
+      "Oficinas, almacenes y talleres",
+      "Centros de emergencia, casas de acogida y pisos tutelados",
+      "Hospitales, comisarías y juzgados"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 44.1 organiza los centros en centros de emergencia, casas de acogida y pisos tutelados.",
+     "referencia": "Art. 44.1 Ley 13/2007"
+    },
+    {
+     "pregunta": "Según el art. 58 de la Ley 13/2007, ¿quién coordina la Comisión institucional de Andalucía de coordinación y seguimiento contra la violencia de género?",
+     "opciones": [
+      "La Consejería competente en materia de violencia de género",
+      "Cualquier asociación de mujeres",
+      "El Consejo General del Poder Judicial",
+      "La Agencia Tributaria"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 58.2 establece que la Comisión está coordinada por la Consejería competente en materia de violencia de género.",
+     "referencia": "Art. 58.2 Ley 13/2007"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué normas forman el bloque",
+     "parrafos": [
+      "El bloque normativo de igualdad tiene dos grandes ramas que conviene separar desde el principio. La primera es la de promoción de la igualdad entre mujeres y hombres: su objetivo es que la igualdad sea real en todos los ámbitos de la vida, y en ella encontramos la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, y la Ley 12/2007, para la promoción de la igualdad de género en Andalucía. La segunda es la de prevención y protección frente a la violencia de género, en la que encontramos la Ley Orgánica 1/2004, de medidas de protección integral contra la violencia de género, y la Ley 13/2007, de medidas de prevención y protección integral contra la violencia de género en Andalucía.",
+      "Ambas ramas se apoyan en la Constitución y en el Estatuto de Autonomía. La Constitución establece la igualdad y la prohibición de discriminación por razón de sexo (art. 14) y la obligación de los poderes públicos de promover la igualdad real (art. 9.2). El Estatuto de Autonomía para Andalucía reconoce la igualdad de género (art. 15) y la protección integral contra la violencia de género (art. 16), y vincula a los poderes públicos andaluces a esos derechos (art. 38).",
+      "La distinción entre las dos ramas es importante para un examen. Una pregunta sobre la Ley Orgánica 1/2004 se refiere a la violencia que se ejerce sobre las mujeres por parte de quienes sean o hayan sido sus cónyuges o de quienes estén o hayan estado ligados por relaciones similares de afectividad. Una pregunta sobre la Ley 13/2007 tiene un alcance más amplio, porque incluye otras manifestaciones de violencia de género y la protección de más víctimas. Una pregunta sobre la Ley 12/2007 trata de las políticas de igualdad, no solo de la violencia.",
+      "Este tema se limita a los preceptos verificados en el texto consolidado del BOE disponible en el repositorio. Cuando se cite un artículo cuyo contenido no se ha leído, se indica expresamente. Las fechas de última modificación que figuran en cada PDF se recogen en la sección final."
+     ]
+    },
+    {
+     "titulo": "2. La igualdad en la Constitución y en el Estatuto de Autonomía",
+     "parrafos": [
+      "El artículo 14 de la Constitución establece que los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social. Es el fundamento de la igualdad formal, y es el precepto que las leyes de igualdad desarrollan y completan.",
+      "El artículo 9.2 CE completa la igualdad formal con un mandato a los poderes públicos: promover las condiciones para que la libertad y la igualdad del individuo y de los grupos en que se integra sean reales y efectivas, y remover los obstáculos que impidan o dificulten su plenitud. Es la base de las acciones positivas y de las políticas de igualdad de hecho. La LO 3/2007 empieza precisamente por citar ese precepto como fundamento de su objeto (art. 1.1).",
+      "En el Estatuto de Autonomía, el artículo 14 prohíbe toda discriminación en el ejercicio de los derechos y en la prestación de los servicios, particularmente la ejercida por razón de sexo, y señala que esa prohibición no impedirá acciones positivas en beneficio de sectores, grupos o personas desfavorecidas. El artículo 15 garantiza que se asegure la igualdad de oportunidades entre hombres y mujeres en todos los ámbitos. El artículo 16 reconoce que las mujeres tienen derecho a una protección integral contra la violencia de género, con medidas preventivas, medidas asistenciales y ayudas públicas.",
+      "El artículo 38 del Estatuto vincula a todos los poderes públicos andaluces a la prohibición de discriminación del artículo 14 y a los derechos del Capítulo II, y dispone que, dependiendo de la naturaleza de cada derecho, también vincula a los particulares. Añade que esos derechos deben interpretarse en el sentido más favorable a su plena efectividad y que el Parlamento aprobará las leyes de desarrollo, que respetarán el contenido establecido por el Estatuto. Las leyes de igualdad y de violencia de género de Andalucía son esas leyes de desarrollo."
+     ]
+    },
+    {
+     "titulo": "3. La Ley Orgánica 3/2007 para la igualdad efectiva",
+     "parrafos": [
+      "La Ley Orgánica 3/2007, de 22 de marzo, es la norma estatal de igualdad. Su objeto (art. 1.1) es hacer efectivo el derecho de igualdad de trato y de oportunidades entre mujeres y hombres, en particular mediante la eliminación de la discriminación de la mujer en todos los ámbitos, y en especial en las esferas política, civil, laboral, económica, social y cultural. Su apartado 2 añade que la ley establece principios de actuación de los poderes públicos, regula derechos y deberes de personas físicas y jurídicas, y prevé medidas para eliminar toda forma de discriminación por razón de sexo en los sectores público y privado.",
+      "La ley organiza sus medidas en títulos. Tras el objeto y el ámbito (arts. 1 y 2), el Título I, dedicado al principio de igualdad y la tutela contra la discriminación, reúne los artículos 3 a 13: igualdad de trato, interpretación, discriminación, acoso, indemnidad frente a represalias, acciones positivas y tutela. Los criterios generales de actuación de los poderes públicos están en el artículo 14, con doce apartados; entre ellos figuran el compromiso con la igualdad, la integración del principio en las políticas económica y laboral, la colaboración entre Administraciones, la participación equilibrada en candidaturas y en la toma de decisiones, y la erradicación de la violencia de género.",
+      "El artículo 15 establece la transversalidad: el principio informará con carácter transversal la actuación de todos los poderes públicos, que lo integrarán en la adopción y ejecución de sus disposiciones normativas, en la definición y presupuestación de políticas públicas y en el desarrollo de sus actividades. El artículo 17 prevé un Plan Estratégico de Igualdad de Oportunidades, cuyo contenido no se ha leído en este tema, pero cuya rúbrica se ha comprobado.",
+      "El artículo 19 exige que los proyectos de disposiciones de carácter general y los planes de especial relevancia económica, social, cultural y artística que se sometan a la aprobación del Consejo de Ministros incorporen un informe sobre su impacto por razón de género. El artículo 36 establece que los medios de comunicación social de titularidad pública velarán por una imagen igualitaria, plural y no estereotipada, y el artículo 41 considera publicidad ilícita la que comporte una conducta discriminatoria.",
+      "En el ámbito de la Administración pública, el artículo 51 fija criterios de actuación: remover obstáculos para la igualdad en el acceso al empleo público y en la carrera profesional, facilitar la conciliación, fomentar la formación en igualdad, promover la presencia equilibrada en los órganos de selección, establecer medidas de protección frente al acoso, eliminar la discriminación retributiva y evaluar periódicamente la efectividad del principio. El artículo 77 encomienda a uno de los órganos directivos de cada Ministerio las funciones de igualdad, que se describen más abajo."
+     ]
+    },
+    {
+     "titulo": "4. La Ley 12/2007 para la promoción de la igualdad de género en Andalucía",
+     "parrafos": [
+      "La Ley 12/2007, de 26 de noviembre, es la norma andaluza de promoción de la igualdad. Su objeto (art. 1) es hacer efectivo el derecho de igualdad de trato y de oportunidades entre mujeres y hombres en desarrollo de los artículos 9.2 y 14 de la Constitución y de los artículos 15 y 38 del Estatuto de Autonomía, para seguir avanzando hacia una sociedad más democrática, más justa y más solidaria.",
+      "El artículo 4 enumera catorce principios generales de actuación de los poderes públicos de Andalucía, en el marco de sus competencias. Entre ellos, la igualdad de trato, la eliminación de la discriminación, el reconocimiento de la maternidad como valor social, el fomento de la corresponsabilidad, las medidas específicas para eliminar desigualdades de hecho, la participación equilibrada en los órganos de decisión, la eliminación del uso sexista del lenguaje, la compatibilidad de responsabilidades y la incorporación de la igualdad de género en el sistema educativo.",
+      "El Título I de la ley, sobre políticas públicas para la promoción de la igualdad de género, empieza por la integración de la perspectiva de género, que incluye la transversalidad y la evaluación de impacto (arts. 5 y 6), y continúa con el Plan Estratégico (art. 7), el enfoque de género en el presupuesto (art. 8), el lenguaje y la imagen (art. 9), las estadísticas (art. 10) y la representación equilibrada (art. 11). Los artículos siguientes se dedican a la educación (arts. 14 a 21), el empleo (arts. 22 a 30), la salud (arts. 41 y 42) y otros ámbitos sociales y culturales.",
+      "La ley también crea órganos. El artículo 59 crea la Comisión Interdepartamental para la Igualdad de Mujeres y Hombres, con representación de todas las Consejerías y presidida por la persona titular de la Consejería competente en igualdad, como órgano colegiado de seguimiento. El artículo 61 crea el Observatorio Andaluz de la Igualdad de Género, como órgano asesor adscrito a esa Consejería, para detectar, analizar y proponer estrategias contra la desigualdad. El artículo 62 crea el Consejo Andaluz de Participación de las Mujeres, como órgano de participación de las organizaciones de mujeres. El artículo 63 crea la Comisión de coordinación de las políticas autonómicas y locales para la igualdad de género.",
+      "El artículo 60, sobre unidades de igualdad de género, se estudia con detalle en el apartado siguiente. Todos estos órganos se regulan por reglamento, y ese desarrollo no se ha verificado en el repositorio, por lo que sus funciones concretas deben estudiarse en el texto vigente de cada decreto."
+     ]
+    },
+    {
+     "titulo": "5. La unidad de igualdad y género",
+     "parrafos": [
+      "El artículo 60 de la Ley 12/2007 crea Unidades de Igualdad de Género en todas las Consejerías de la Junta de Andalucía, con el fin de impulsar, coordinar e implementar la perspectiva de género en la planificación, gestión y evaluación de sus respectivas políticas. Es el núcleo organizativo de la igualdad dentro de la Administración autonómica.",
+      "El apartado 2 dispone que cada Consejería encomendará a uno de sus órganos directivos las funciones de la Unidad de Igualdad de Género, en los términos que se establezcan reglamentariamente. Es decir, la ley no exige una estructura nueva en cada Consejería: encomienda las funciones a un órgano directivo existente y remite a un reglamento el detalle de su organización y funciones.",
+      "El apartado 3 garantiza el asesoramiento y la formación del personal de la Junta en materia de igualdad de género, para implementar eficazmente las políticas públicas con perspectiva de género. Se complementa con el artículo 9 bis, que exige una formación básica, progresiva y permanente del personal de las Administraciones andaluzas en materia de igualdad, con un enfoque transformador de los roles tradicionales de género, y con el apartado 4, que exige experiencia o capacitación específica para los puestos que elaboran programas de igualdad.",
+      "Para comparar, la LO 3/2007 regula en su artículo 77, titulado «Las Unidades de Igualdad», una figura similar en el ámbito estatal: en todos los Ministerios se encomienda a uno de sus órganos directivos el desarrollo de las funciones de igualdad. Entre ellas están recabar la información estadística del Ministerio y asesorar sobre su elaboración; elaborar estudios para promover la igualdad en las áreas del Departamento; asesorar en el informe sobre impacto por razón de género; fomentar el conocimiento de la igualdad mediante acciones formativas, y velar por el cumplimiento de la ley y por la aplicación efectiva del principio de igualdad.",
+      "En un examen, la respuesta esperada sobre la unidad de igualdad y género menciona su creación en todas las Consejerías (art. 60.1), la atribución de sus funciones a un órgano directivo (art. 60.2), la finalidad de impulsar la perspectiva de género en la planificación, gestión y evaluación (art. 60.1) y la formación del personal (art. 60.3). Las funciones concretas se remiten al reglamento, y ese reglamento no se ha verificado aquí."
+     ]
+    },
+    {
+     "titulo": "6. Evaluación de impacto de género y presupuesto",
+     "parrafos": [
+      "El artículo 6 de la Ley 12/2007 impone a los poderes públicos de Andalucía la obligación de incorporar la evaluación del impacto de género en el ejercicio de sus competencias. El apartado 2 concreta que todos los proyectos de ley, disposiciones reglamentarias y planes que apruebe el Consejo de Gobierno deben incorporar de forma efectiva el objetivo de la igualdad por razón de género. Durante la tramitación de los proyectos de ley, de decretos legislativos y de disposiciones reglamentarias, debe emitirse un informe de evaluación del impacto de género, que queda integrado en el impacto por razón de género incluido en la Memoria de Análisis de Impacto Normativo (MAIN).",
+      "El apartado 3 del artículo 6 exige que ese informe vaya acompañado de indicadores pertinentes en género, mecanismos y medidas dirigidas a paliar y neutralizar los posibles impactos negativos sobre mujeres y hombres, y a reducir o eliminar las diferencias detectadas. El informe no es una mera declaración: debe identificar los efectos y proponer los remedios.",
+      "El artículo 8 aplica el enfoque de género al presupuesto. Establece que el Presupuesto de la Comunidad Autónoma será un elemento activo en la consecución de la igualdad y que la Consejería competente en materia de presupuestos, en coordinación con el conjunto de Consejerías y con la participación del Instituto Andaluz de la Mujer, emitirá el informe de evaluación de impacto de género sobre el proyecto de Ley del Presupuesto de cada ejercicio.",
+      "El temario menciona una Comisión de Impacto de Género en los Presupuestos. En los artículos de la Ley 12/2007 que se han leído, esa comisión no aparece con ese nombre: el informe lo emite la Consejería de presupuestos con la participación del Instituto Andaluz de la Mujer. Si el examen pide la composición o las funciones de esa comisión, debe consultarse la norma de desarrollo o la orden de elaboración de los presupuestos vigente, que no se ha verificado en el repositorio.",
+      "A nivel estatal, el artículo 19 de la LO 3/2007 exige un informe sobre impacto de género en los proyectos de disposiciones generales y planes de especial relevancia que se sometan al Consejo de Ministros. La lógica es la misma: la igualdad se evalúa antes de aprobar la norma, no después."
+     ]
+    },
+    {
+     "titulo": "7. Concepto de violencia de género",
+     "parrafos": [
+      "La Ley Orgánica 1/2004 define la violencia de género en su artículo 1.1 como la que, como manifestación de la discriminación, la situación de desigualdad y las relaciones de poder de los hombres sobre las mujeres, se ejerce sobre éstas por parte de quienes sean o hayan sido sus cónyuges o de quienes estén o hayan estado ligados a ellas por relaciones similares de afectividad, aun sin convivencia. Es el concepto estatal, limitado a la violencia en el ámbito de la pareja o expareja.",
+      "El artículo 1.2 de la LO 1/2004 establece las medidas de protección integral, cuya finalidad es prevenir, sancionar y erradicar esta violencia y prestar asistencia a las mujeres, a sus hijos menores y a los menores sujetos a su tutela o guarda y custodia. El artículo 1.3 comprende todo acto de violencia física y psicológica, incluidas las agresiones a la libertad sexual, las amenazas, las coacciones o la privación arbitraria de libertad. El artículo 1.4 extiende la violencia a la que se ejerce, con el objetivo de causar daño a las mujeres, sobre sus familiares o allegados menores de edad.",
+      "La Ley 13/2007 define la violencia de género de forma más amplia. Su artículo 1.1 la presenta como la violencia que, como consecuencia de una cultura machista y como manifestación de la discriminación, la desigualdad y las relaciones de poder de los hombres, se ejerce sobre las mujeres por el mero hecho de serlo, y que se extiende como violencia vicaria sobre las víctimas que la ley contempla. El artículo 3.1 reproduce esa definición, y el artículo 3.2 la describe como cualquier acto de violencia basada en el género que implique o pueda implicar perjuicios o sufrimientos de naturaleza física, psicológica, sexual o económica, incluidas las amenazas, la coerción y las privaciones arbitrarias de libertad, tanto en la vida pública como en la privada.",
+      "El artículo 1 bis de la Ley 13/2007 precisa quiénes son víctimas. Se consideran víctimas, sin necesidad de interponer denuncia, la mujer que sufra un daño por el hecho de serlo; las hijas e hijos que sufran la violencia que se ejerce sobre su madre; las personas menores, mayores o con discapacidad que estén sujetas a la tutela o a la guarda de la mujer víctima y convivan en el entorno violento; y las madres cuyos hijos o hijas hayan sido asesinados. La exigencia de denuncia no es requisito para el reconocimiento de derechos."
+     ]
+    },
+    {
+     "titulo": "8. Tipos y manifestaciones de la violencia de género",
+     "parrafos": [
+      "El artículo 3.3 de la Ley 13/2007 enumera cuatro tipos de violencia: física, psicológica, sexual y económica. La violencia física incluye cualquier acto no accidental que implique el uso deliberado de la fuerza contra el cuerpo de la mujer. La psicológica incluye conductas verbales o no verbales que produzcan desvalorización o sufrimiento, como amenazas, humillaciones, control, aislamiento o culpabilización. La sexual incluye cualquier acto de naturaleza sexual no consentido, con independencia de la relación entre agresor y víctima. La económica incluye la privación intencionada e injustificada de recursos y la imposibilidad de acceder al mercado laboral para generar dependencia.",
+      "El artículo 3.4 de la misma ley enumera manifestaciones concretas, que son ejemplos de violencia de género. Se citan la violencia en la pareja o expareja; el feminicidio; las agresiones y abusos sexuales utilizando el sexo como arma de poder; el acoso sexual y el acoso por razón de sexo; la violencia contra los derechos sexuales y reproductivos; la trata de mujeres y niñas; la explotación sexual; la mutilación genital femenina; el matrimonio precoz o forzado; las violencias derivadas de tradiciones culturales; la violencia derivada de conflictos armados; la ciberviolencia, y la violencia vicaria.",
+      "Algunas de esas manifestaciones son de especial interés para un examen. El feminicidio se define como los homicidios o asesinatos de mujeres motivados por una discriminación basada en el género. La violencia vicaria es la ejercida sobre los hijos e hijas y sobre las personas contempladas en las letras c) y d) del artículo 1 bis, e incluye toda conducta del agresor utilizada como instrumento para dañar a la mujer. La ciberviolencia es la que utiliza las redes sociales y las tecnologías de la información como medio para ejercer daño o dominio.",
+      "El propio artículo 3 precisa, en su apartado 3, que los actos de violencia de género a que se refiere el apartado 4 podrán responder a cualquiera de esos tipos. Por eso, al estudiar la clasificación, conviene distinguir los cuatro tipos, que describen la forma del daño, de las manifestaciones del apartado 4, que describen conductas o contextos concretos.",
+      "La LO 1/2004 contiene una clasificación más limitada en su artículo 1.3, centrada en la violencia física y psicológica, las agresiones a la libertad sexual, las amenazas, las coacciones y la privación arbitraria de libertad. Una pregunta de examen que compare ambas leyes puede pedir precisamente esa diferencia de alcance: la Ley 13/2007 es más amplia en las manifestaciones y en las víctimas protegidas."
+     ]
+    },
+    {
+     "titulo": "9. Principios rectores y prevención",
+     "parrafos": [
+      "El artículo 4 de la Ley 13/2007 establece los principios rectores de la actuación de los poderes públicos andaluces frente a la violencia de género. Entre ellos figuran el enfoque multidisciplinar y la acción institucional coordinada y transversal; la integración de las necesidades de las mujeres afectadas en la planificación y evaluación de las políticas; la garantía de sus derechos de acuerdo con los principios de universalidad, accesibilidad, proximidad y confidencialidad; la sensibilización, la formación y la información; la cooperación con asociaciones de mujeres y agentes sociales; el refuerzo de los servicios sociales de información, atención, emergencia y recuperación; el acceso a las ayudas económicas; y el sistema integral de tutela institucional.",
+      "El artículo 8 de la Ley 13/2007 obliga al Consejo de Gobierno a aprobar cada cinco años un Plan integral de sensibilización y prevención contra la violencia de género, coordinado por la Consejería competente en la materia. Ese plan debe desarrollar, como mínimo, estrategias de educación, de comunicación, de detección, atención y prevención, de sensibilización dirigida a la población masculina y de formación de los profesionales de los sistemas públicos.",
+      "Los artículos 11 a 16 tratan la prevención en el ámbito educativo: el currículo, el seguimiento en los consejos escolares, la detección y atención de la violencia, la inspección educativa y la enseñanza universitaria. Los artículos 17 a 19 se ocupan de la publicidad y los medios de comunicación, y los artículos 20 a 25, de la formación de profesionales. Solo se han leído en su cuerpo los artículos citados en otros apartados de este tema; el resto se indica por su rúbrica.",
+      "La prevención también tiene un componente de información. El artículo 39 ordena que las Administraciones de Andalucía, y en particular la Consejería competente en igualdad, tengan servicios de información accesibles sobre los derechos de las víctimas, las medidas de protección, las ayudas, los servicios de emergencia y el momento procesal en que se encuentran sus actuaciones. Debe garantizarse especialmente el acceso a esa información de las mujeres con discapacidad y de las mujeres inmigrantes víctimas de violencia de género."
+     ]
+    },
+    {
+     "titulo": "10. Protección integral, derechos y recursos",
+     "parrafos": [
+      "La protección integral de las víctimas se articula en derechos concretos. El artículo 26 de la Ley 13/2007 reconoce el derecho a recibir en cualquier momento información, asesoramiento y atención adecuada, a conocer los centros y recursos de Andalucía y a acceder a información por medios telemáticos. Las mujeres con discapacidad tienen garantizado el apoyo necesario, y las mujeres extranjeras, la asistencia de intérprete cuando se requiera.",
+      "El artículo 27 reconoce el derecho a la atención especializada: atención social integral, acogida en los centros especializados dependientes de la Junta de Andalucía, y asistencia sanitaria y psicológica especializada. El artículo 34 encomienda al Sistema Sanitario Público de Andalucía la atención sanitaria, con especial atención a la salud mental, y ordena mecanismos de seguimiento que permitan elaborar estadísticas sobre los efectos de la violencia.",
+      "En el ámbito jurídico, el artículo 35 garantiza la orientación jurídica y la defensa y asistencia letrada, que se asumen por una misma dirección letrada especializada y una misma representación procesal, desde el momento en que se requiera y hasta la finalización de los procesos, incluida la ejecución de la sentencia. La asistencia se presta mediante turno de guardia de 24 horas a través de los Colegios de Abogados de Andalucía.",
+      "El artículo 42 garantiza la atención y la acogida inmediata de las mujeres y de los menores a su cargo que se encuentren en situación de emergencia, con información, asesoramiento jurídico y apoyo psicológico. El acceso a la información y a la acogida inmediata no requiere la acreditación de la situación de violencia de género, y la atención debe ser realizada por mujeres si la víctima lo solicita. El artículo 43 garantiza la acogida y la atención integral especializada y multidisciplinar, con las características de especialización, multidisciplinariedad (información jurídica, atención social, psicológica, apoyo a la inserción laboral y atención a los hijos) y accesibilidad.",
+      "El artículo 44 organiza los centros de atención integral y acogida en tres niveles: los centros de emergencia, que ofrecen acogida inmediata y temporal de corta duración; las casas de acogida, que ofrecen acogida temporal con atención multidisciplinar; y los pisos tutelados, viviendas cedidas para uso familiar temporal a mujeres que pueden vivir de forma independiente. La Consejería competente determina por reglamento los requisitos de estos centros.",
+      "El artículo 46 garantiza el acceso a las ayudas económicas previstas para las víctimas y las personas que dependen de ellas, y exige que las dotaciones presupuestarias sean suficientes para que las mujeres sin recursos puedan acceder. El artículo 46 bis reconoce una prestación económica anual, de cuantía fija por beneficiario, a los hijos e hijas menores de las mujeres víctimas mortales de violencia de género, siempre que ellos o la mujer residieran en Andalucía en el momento del hecho causante; los menores no pierden esa condición cuando su tutela pasa a una Administración pública. El artículo 30 regula la acreditación de la situación de violencia de género, que puede hacerse con informes de servicios sociales, sanitarios, de atención a víctimas o de acogida, con informe de la Inspección de Trabajo en los casos de acoso en el ámbito laboral, o con resoluciones judiciales."
+     ]
+    },
+    {
+     "titulo": "11. Órganos, coordinación y competencias locales",
+     "parrafos": [
+      "El artículo 37 de la Ley 13/2007 encomienda a la Consejería competente en materia de justicia la organización, a través de sus Institutos de Medicina Legal, de las unidades de valoración integral de la violencia de género. Estas unidades valoran los efectos de la violencia en las mujeres y en sus hijos, la peligrosidad y el riesgo de reincidencia del agresor, y los procedimientos civiles que afecten a las víctimas. Están integradas por personal de medicina forense, psicología y trabajo social.",
+      "El artículo 58 crea la Comisión institucional de Andalucía de coordinación y seguimiento de acciones para la erradicación de la violencia de género. Está coordinada por la Consejería competente en la materia y compuesta por miembros de todas las Consejerías, representantes de las entidades locales y de las asociaciones de mujeres. Su funcionamiento se desarrolla reglamentariamente.",
+      "Los municipios tienen competencias propias (art. 41 de la Ley 13/2007). Deben colaborar con la Junta en la atención e información a las mujeres, crear unidades de información y atención a las víctimas, y derivar a los servicios especializados los casos que no puedan atender. El artículo 41 bis regula los centros municipales de información a la mujer, que deben contar con equipos multidisciplinares especializados y actuar en coordinación con los organismos autonómicos competentes.",
+      "El ámbito de aplicación de la ley (art. 2) alcanza a los poderes públicos sujetos a las leyes andaluzas, a la Administración local y a sus entidades, y a la Administración de la Junta de Andalucía y sus organismos. El apartado 3 garantiza los derechos de la ley a todas las víctimas de violencia de género que se encuentren en Andalucía, con independencia de la vecindad civil, la nacionalidad o la situación administrativa y personal."
+     ]
+    },
+    {
+     "titulo": "12. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Para un examen, la pregunta más frecuente es la diferencia entre las dos leyes de violencia: la LO 1/2004 (estatal, relación de pareja o expareja) y la Ley 13/2007 (andaluza, con tipos y manifestaciones más amplios y con más víctimas protegidas). Otra pregunta habitual es el concepto de violencia de género del artículo 1.1 LO 1/2004 frente al artículo 3.1 de la Ley 13/2007.",
+      "Para la igualdad, las preguntas típicas son el objeto de la ley (art. 1 LO 3/2007 y art. 1 Ley 12/2007), la transversalidad (art. 15 LO 3/2007 y art. 5 Ley 12/2007), la evaluación de impacto de género (art. 6 Ley 12/2007 y art. 19 LO 3/2007), el presupuesto (art. 8 Ley 12/2007) y la unidad de igualdad (art. 60 Ley 12/2007 y art. 77 LO 3/2007). Conviene recordar que la unidad de igualdad andaluza se crea en todas las Consejerías, y que sus funciones se encomiendan a un órgano directivo.",
+      "Un error habitual es atribuir a la Ley 13/2007 la creación de la Comisión de Impacto de Género en los Presupuestos, o describir como estatal una función que es andaluza. Otro error es confundir las medidas de la Ley 13/2007 (prevención, protección, atención) con las de la Ley 12/2007 (promoción de la igualdad en todos los ámbitos). Y un tercero es afirmar que la denuncia es requisito para ser víctima en la Ley 13/2007: el artículo 1 bis dice lo contrario.",
+      "Para un caso práctico sobre una víctima en Andalucía, conviene recorrer los derechos en el orden en que aparecen: información (art. 26), atención especializada (art. 27), asistencia sanitaria (art. 34), asistencia letrada (art. 35), atención de emergencia sin acreditación (arts. 30 y 42), atención integral (art. 43), centros de acogida (art. 44) y ayudas económicas (art. 46)."
+     ]
+    },
+    {
+     "titulo": "13. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Las fechas de última modificación que indican los PDF consolidados descargados son: Ley Orgánica 3/2007 (2 de agosto de 2024), Ley 12/2007 (16 de febrero de 2024), Ley 13/2007 (31 de diciembre de 2025) y Ley Orgánica 1/2004 (7 de septiembre de 2022). Una modificación posterior no reflejada en el PDF, o una posterior a esas fechas, cambiaría el texto vigente, y debe comprobarse en el enlace oficial del BOE antes de citar un artículo.",
+      "No se han verificado en el repositorio los decretos que desarrollan las unidades de igualdad de género, la Comisión de Impacto de Género en los Presupuestos, el Observatorio Andaluz, el Consejo Andaluz de Participación de las Mujeres, la Comisión institucional de coordinación ni el Plan integral vigente de sensibilización. Tampoco se ha leído el régimen sancionador de la Ley 12/2007 (arts. 73 a 80) ni el de la Ley 13/2007 más allá de los artículos citados.",
+      "El artículo 7 de la Ley 12/2007 se ha leído en su cuerpo (periodicidad mínima de cuatro años, planes de las Consejerías y de las entidades locales), pero el artículo 17 de la LO 3/2007 solo se ha comprobado por su rúbrica. El contenido detallado de los órganos citados debe consultarse en la norma vigente. Cuando una pregunta mencione un plazo, un porcentaje o una composición concreta, debe verificarse en la norma de desarrollo, porque no figura en los artículos leídos."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2007-6115.pdf",
+    "leyes/BOE-A-2008-2492.pdf",
+    "leyes/BOE-A-2008-2493.pdf",
+    "leyes/BOE-A-2004-21760.pdf",
+    "leyes/BOE-A-1978-31229.pdf",
+    "leyes/BOE-A-2007-5825.pdf"
    ]
   },
   "e20": {
