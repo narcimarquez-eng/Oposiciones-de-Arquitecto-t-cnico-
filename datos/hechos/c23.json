@@ -214,5 +214,29 @@
   "correcta": 0,
   "explicacion": "Los sistemas por lotes ejecutan trabajos agrupados sin interacción directa.",
   "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué propiedad de las transacciones significa que se completan del todo o no se aplican?",
+  "opciones": [
+   "La atomicidad",
+   "La duración",
+   "La concurrencia",
+   "El aislamiento"
+  ],
+  "correcta": 0,
+  "explicacion": "La atomicidad: la transacción se completa del todo o no se aplica.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué sistema de información sirve para la operación diaria?",
+  "opciones": [
+   "TPS",
+   "MIS",
+   "DSS",
+   "EIS"
+  ],
+  "correcta": 0,
+  "explicacion": "Los TPS sirven para la operación diaria.",
+  "referencia": "Tema c23"
  }
 ]
