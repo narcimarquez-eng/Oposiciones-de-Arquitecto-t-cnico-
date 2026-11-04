@@ -151,6 +151,11 @@
   .feedback .ref { color: var(--muted); font-size: .85rem; margin-top: 6px; }
   .resultado { font-size: 2rem; font-weight: 700; margin: 8px 0; }
   .fallo { border-left: 3px solid var(--bad); padding-left: 12px; margin: 12px 0; }
+  .chk { display: flex; gap: 8px; align-items: flex-start; padding: 4px 0; font-size: .93rem; }
+  .chk-bloque { font-weight: 600; margin: 10px 0 4px; }
+  .caja { max-height: 320px; overflow: auto; border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px; background: var(--surface); }
+  .campo { display: grid; gap: 4px; font-size: .9rem; }
+  .sel { font: inherit; padding: 8px 10px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface); color: var(--text); max-width: 100%; }
   .pie { color: var(--muted); font-size: .8rem; margin-top: 32px; border-top: 1px solid var(--border); padding-top: 12px; }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 </style>
@@ -233,7 +238,8 @@
     ];
     $tabs.innerHTML = opts.map(function (o) {
       return '<button class="tab" type="button" data-filtro="' + o[0] + '" aria-pressed="' + (filtro === o[0]) + '">' + esc(o[1]) + '</button>';
-    }).join('');
+    }).join('') +
+      '<button class="tab" type="button" data-ir="#/generador" aria-pressed="' + (location.hash === '#/generador') + '">Generador de tests</button>';
   }
 
   function renderStats() {
@@ -442,9 +448,178 @@
         estadoTest = { id: m[1], i: 0, aciertos: 0, seleccion: null, respuestas: [] };
       }
       $app.innerHTML = vistaTest();
+    } else if (h === '#/generador') {
+      $app.innerHTML = vistaGenerador();
+      cargarBanco();
     } else {
       $app.innerHTML = vistaLista();
     }
+  }
+
+  // ---------- Generador de tests (integrado en la app) ----------
+  var gen = { cargando: false, error: false, sel: null, numero: '50', origen: 'distintas', fase: 'config', preguntas: [], i: 0, aciertos: 0, errores: [], seleccion: null };
+
+  function bancoListo() { return Array.isArray(window.BANCO) && window.BANCO.length > 0; }
+
+  // El banco (datos/banco.js) solo se descarga al abrir el generador.
+  function cargarBanco() {
+    if (bancoListo() || gen.cargando || gen.error) return;
+    gen.cargando = true;
+    var s = document.createElement('script');
+    s.src = 'datos/banco.js';
+    s.onload = function () { gen.cargando = false; if (!bancoListo()) gen.error = true; render(); };
+    s.onerror = function () { gen.cargando = false; gen.error = true; render(); };
+    document.head.appendChild(s);
+  }
+
+  function temasGen() {
+    if (!gen.sel) gen.sel = new Set(D.temario.temas.map(function (t) { return t.id; }));
+    return gen.sel;
+  }
+
+  function poolGen() {
+    var sel = temasGen();
+    return window.BANCO.filter(function (q) {
+      if (!sel.has(q.tema)) return false;
+      if (gen.origen === 'revisadas') return q.origen === 'revisada';
+      if (gen.origen === 'distintas') return q.origen === 'revisada' || !q.reutilizada;
+      return true;
+    });
+  }
+
+  function barajarGen(a) {
+    var r = a.slice();
+    for (var i = r.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = r[i]; r[i] = r[j]; r[j] = t;
+    }
+    return r;
+  }
+
+  function volverInicio() {
+    return '<button class="volver" type="button" data-ir="#/">← Todos los temas</button>';
+  }
+
+  function vistaGenerador() {
+    if (gen.error) return volverInicio() + '<div class="card"><p>No se ha podido cargar el banco de preguntas (datos/banco.js).</p></div>';
+    if (!bancoListo()) return volverInicio() + '<h2 class="tituloTema">Generador de tests</h2><div class="card"><p>Cargando el banco de preguntas…</p></div>';
+    if (gen.fase === 'test') return vistaTestGen();
+    if (gen.fase === 'resultado') return vistaResultadoGen();
+    return vistaConfigGen();
+  }
+
+  function opcionesNumero() {
+    return [['10', '10'], ['20', '20'], ['30', '30'], ['50', '50'], ['100', '100'], ['0', 'Todas las disponibles']]
+      .map(function (o) { return '<option value="' + o[0] + '"' + (gen.numero === o[0] ? ' selected' : '') + '>' + esc(o[1]) + '</option>'; }).join('');
+  }
+
+  function vistaConfigGen() {
+    var sel = temasGen();
+    var porBloque = {};
+    D.temario.temas.forEach(function (t) { (porBloque[t.bloque] = porBloque[t.bloque] || []).push(t); });
+    var lista = Object.keys(porBloque).map(function (b) {
+      return '<div class="chk-bloque">' + esc(tituloBloque[b] || b) + '</div>' + porBloque[b].map(function (t) {
+        return '<label class="chk"><input type="checkbox" data-gtema="' + esc(t.id) + '"' + (sel.has(t.id) ? ' checked' : '') + '> <span><strong>' +
+          esc(etiquetaTema(t)) + '</strong> ' + esc(recortar(t.titulo, 90)) + '</span></label>';
+      }).join('');
+    }).join('');
+    var n = poolGen().length;
+    return volverInicio() +
+      '<h2 class="tituloTema">Generador de tests</h2>' +
+      '<p class="sub">Banco de ' + window.BANCO.length + ' preguntas, 100 por tema. Las revisadas son las 10 de cada tema; las generadas parten del texto del temario.</p>' +
+      '<section class="seccion"><h3>1. Temas</h3>' +
+      '<div class="acciones" style="margin-top:0"><button class="btn sec" type="button" data-gen="todos">Todos</button>' +
+      '<button class="btn sec" type="button" data-gen="ninguno">Ninguno</button>' +
+      '<span class="sub">' + sel.size + ' de ' + D.temario.temas.length + ' temas</span></div>' +
+      '<div class="caja" style="margin-top:10px">' + lista + '</div></section>' +
+      '<section class="seccion"><h3>2. Opciones</h3>' +
+      '<div class="campo"><label for="gNumero">Número de preguntas</label><select class="sel" id="gNumero" data-gcampo="numero">' + opcionesNumero() + '</select></div>' +
+      '<div class="campo" style="margin-top:10px"><label for="gOrigen">Origen</label><select class="sel" id="gOrigen" data-gcampo="origen">' +
+      [['distintas', 'Revisadas y generadas sin fragmento repetido'], ['todas', 'Revisadas y generadas'], ['revisadas', 'Solo revisadas']]
+        .map(function (o) { return '<option value="' + o[0] + '"' + (gen.origen === o[0] ? ' selected' : '') + '>' + esc(o[1]) + '</option>'; }).join('') +
+      '</select></div>' +
+      '<p class="sub">Preguntas disponibles con esta selección: ' + n + '.</p></section>' +
+      '<div class="acciones"><button class="btn" type="button" data-gen="generar"' + (n ? '' : ' disabled') + '>Generar test</button></div>';
+  }
+
+  function generarGen(lista) {
+    var pool = lista || poolGen();
+    if (!pool.length) return;
+    var n = Math.min(parseInt(gen.numero, 10) || pool.length, pool.length);
+    gen.preguntas = barajarGen(pool).slice(0, n).map(function (q) {
+      var orden = barajarGen(q.opciones.map(function (_, i) { return i; }));
+      return {
+        tema: q.tema, origen: q.origen, reutilizada: !!q.reutilizada, enunciado: q.enunciado,
+        explicacion: q.explicacion, referencia: q.referencia,
+        opciones: orden.map(function (i) { return q.opciones[i]; }), correcta: orden.indexOf(q.correcta)
+      };
+    });
+    gen.i = 0; gen.aciertos = 0; gen.errores = []; gen.seleccion = null; gen.fase = 'test';
+    render();
+    window.scrollTo(0, 0);
+  }
+
+  function vistaTestGen() {
+    var q = gen.preguntas[gen.i];
+    var contestada = gen.seleccion !== null;
+    var opc = q.opciones.map(function (o, k) {
+      var c = 'opcion';
+      if (contestada) { if (k === q.correcta) c += ' correcta'; else if (k === gen.seleccion) c += ' incorrecta'; }
+      return '<button class="' + c + '" type="button" data-gop="' + k + '"' + (contestada ? ' disabled' : '') + '>' +
+        String.fromCharCode(65 + k) + ') ' + esc(o) + '</button>';
+    }).join('');
+    var fb = '';
+    if (contestada) {
+      var ok = gen.seleccion === q.correcta;
+      fb = '<div class="feedback" aria-live="polite"><strong>' + (ok ? '✓ Correcto' : '✗ Incorrecto') + '</strong>' + esc(q.explicacion || '') +
+        (q.referencia ? '<div class="ref">Ref.: ' + esc(q.referencia) + '</div>' : '') + '</div>' +
+        '<div class="acciones"><button class="btn" type="button" data-gen="siguiente">' +
+        (gen.i + 1 < gen.preguntas.length ? 'Siguiente' : 'Ver resultado') + '</button></div>';
+    }
+    var etiqueta = q.origen === 'revisada' ? 'revisada' : (q.reutilizada ? 'generada (fragmento repetido)' : 'generada');
+    var pct = (gen.i / gen.preguntas.length * 100).toFixed(0);
+    var tema = temaPorId[q.tema];
+    return '<button class="volver" type="button" data-gen="salir">← Salir del test</button>' +
+      '<div class="tema-meta"><strong>Test · ' + esc(tema ? etiquetaTema(tema) : q.tema) + '</strong><span class="pill">' + esc(etiqueta) + '</span>' +
+      '<span>Pregunta ' + (gen.i + 1) + ' de ' + gen.preguntas.length + '</span></div>' +
+      '<div class="bar" style="margin:8px 0 16px"><span style="width:' + pct + '%"></span></div>' +
+      '<p class="pregunta">' + esc(q.enunciado) + '</p>' +
+      '<div class="opciones">' + opc + '</div>' + fb;
+  }
+
+  function vistaResultadoGen() {
+    var total = gen.preguntas.length;
+    var pct = total ? Math.round(gen.aciertos / total * 100) : 0;
+    var fallos = gen.errores.map(function (q) {
+      return '<div class="fallo"><strong>' + esc(q.enunciado) + '</strong><p class="sub">Correcta: ' + esc(q.opciones[q.correcta]) + '</p>' +
+        '<p>' + esc(q.explicacion || '') + '</p>' + (q.referencia ? '<p class="sub">Ref.: ' + esc(q.referencia) + '</p>' : '') + '</div>';
+    }).join('');
+    return volverInicio() + '<h2 class="tituloTema">Resultado del test</h2>' +
+      '<div class="resultado" aria-live="polite">' + gen.aciertos + ' / ' + total + ' (' + pct + ' %)</div>' +
+      '<p class="sub">' + gen.errores.length + ' fallos.</p>' +
+      (fallos ? '<section class="seccion"><h3>Preguntas falladas</h3>' + fallos + '</section>' : '<p>Sin fallos. ¡Perfecto!</p>') +
+      '<div class="acciones">' + (gen.errores.length ? '<button class="btn" type="button" data-gen="repetir">Repetir solo los fallos</button>' : '') +
+      '<button class="btn sec" type="button" data-gen="configurar">Nuevo test</button></div>';
+  }
+
+  function responderGen(k) {
+    if (gen.seleccion !== null) return;
+    var q = gen.preguntas[gen.i];
+    gen.seleccion = k;
+    if (k === q.correcta) gen.aciertos++; else gen.errores.push(q);
+    render();
+  }
+
+  function accionGen(a) {
+    if (a === 'todos') { gen.sel = new Set(D.temario.temas.map(function (t) { return t.id; })); render(); }
+    else if (a === 'ninguno') { gen.sel = new Set(); render(); }
+    else if (a === 'generar') generarGen();
+    else if (a === 'repetir') generarGen(gen.errores.slice());
+    else if (a === 'siguiente') {
+      if (gen.i + 1 < gen.preguntas.length) { gen.i++; gen.seleccion = null; render(); }
+      else { gen.fase = 'resultado'; render(); window.scrollTo(0, 0); }
+    }
+    else if (a === 'salir' || a === 'configurar') { gen.fase = 'config'; render(); window.scrollTo(0, 0); }
   }
 
   function alCambiarRuta() {
@@ -456,12 +631,26 @@
   document.addEventListener('click', function (ev) {
     var el = ev.target.closest('button, a');
     if (!el) return;
-    if (el.dataset.filtro) { filtro = el.dataset.filtro; render(); return; }
+    if (el.dataset.filtro) { filtro = el.dataset.filtro; if (location.hash === '#/generador') go('#/'); else render(); return; }
+    if (el.dataset.gen) { accionGen(el.dataset.gen); return; }
+    if (el.dataset.gop !== undefined) { responderGen(Number(el.dataset.gop)); return; }
     if (el.dataset.tema) { go('#/tema/' + el.dataset.tema); return; }
     if (el.dataset.ir) { go(el.dataset.ir); return; }
     if (el.dataset.test) { iniciarTest(el.dataset.test); return; }
     if (el.dataset.opcion !== undefined) { responder(Number(el.dataset.opcion)); return; }
     if (el.dataset.siguiente) { siguiente(); return; }
+  });
+
+  document.addEventListener('change', function (ev) {
+    var t = ev.target;
+    if (t.dataset && t.dataset.gtema) {
+      var s = temasGen();
+      if (t.checked) s.add(t.dataset.gtema); else s.delete(t.dataset.gtema);
+      render();
+    } else if (t.dataset && t.dataset.gcampo) {
+      if (t.dataset.gcampo === 'numero') gen.numero = t.value; else gen.origen = t.value;
+      render();
+    }
   });
 
   window.addEventListener('hashchange', alCambiarRuta);

@@ -6,6 +6,8 @@ App de estudio para el Cuerpo de Técnicos de Grado Medio, opción Arquitectura 
 
 Abre `index.html` en el navegador. No necesita servidor ni conexión.
 
+El botón «Generador de tests» de la cabecera abre el generador: test por temas con 100 preguntas por tema (`datos/banco.js`, que genera `datos/generar-banco.js`). El banco se carga solo al abrir el generador.
+
 ## Contenido
 
 - `datos/temario-andalucia.json`: índice de los 70 temas (30 comunes `c01`–`c30`, 40 específicos `e01`–`e40`).
