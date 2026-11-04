@@ -949,6 +949,28 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-04",
    "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 26 de marzo de 2025). Verificados en el texto los arts. 2 (apartados 1 y 4), 4, 9 (en parte), 10.1, 13 (apartados 1 a 3, en parte) y el encabezado del art. 15, y la localización de los RITI y RITS en el anexo II. Pendientes: los anexos I, III y IV, y el resto del articulado. Las especificaciones técnicas se desarrollan en la Orden ITC/1644/2011, no verificada aquí."
+  },
+  "RD-919-2006": {
+   "id": "RD-919-2006",
+   "nombre": "Reglamento técnico de distribución y utilización de combustibles gaseosos",
+   "referencia": "Real Decreto 919/2006, de 28 de julio, por el que se aprueba el Reglamento técnico de distribución y utilización de combustibles gaseosos y sus instrucciones técnicas complementarias ICG 01 a 11 (BOE núm. 211, de 4 de septiembre de 2006)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-15345",
+   "boe_id": "BOE-A-2006-15345",
+   "pdf": "leyes/BOE-A-2006-15345.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 3 de septiembre de 2025). Verificados en el texto el encabezado del art. 1, los arts. 5 (apartados 5.1 y 5.2) y 7 (apartados 7.1 y 7.2), y los apartados de las ITC-ICG 01 (apartado 2), 07 (apartados 3.1, 3.2, 4.1, 4.2 y el régimen de presión) y 08 (encabezado). Pendientes: arts. 2 a 4, 6, 8 a 14 y el resto de las ITC. El PDF menciona la posibilidad de un nuevo reglamento (proyecto consultado); no se ha comprobado si ha entrado en vigor."
+  },
+  "RITE": {
+   "id": "RITE",
+   "nombre": "Reglamento de instalaciones térmicas en los edificios",
+   "referencia": "Real Decreto 1027/2007, de 20 de julio, por el que se aprueba el Reglamento de Instalaciones Térmicas en los Edificios (BOE núm. 207, de 29 de agosto de 2007)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-15820",
+   "boe_id": "BOE-A-2007-15820",
+   "pdf": "leyes/BOE-A-2007-15820.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 2 de agosto de 2022). Verificados en el texto las IT 1.1.4.1.2 (apartado 1, letra a y tabla 1.4.1.1), IT 1.1.4.2.2, IT 1.1.4.2.3 (apartado A, tabla 1.4.2.1), IT 1.2.4 (índice), IT 1.3.2 (encabezado), IT 2.2.1 (punto 1), IT 2.2.2.1 (punto 1), IT 2.2.5.1 (punto 1), IT 2.3 (encabezado), IT 3.3 (tabla 3.1) y IT 4.3 (apartados 4.3.1 a 4.3.3). Pendientes: el cuerpo del resto de las IT, en particular IT 1.2.4 (cuerpo), 2.3, 3.2, 3.4 y 4.2, y los anexos."
   }
  },
  "contenido": {
@@ -15348,6 +15370,651 @@ window.DATOS_ESTUDIO = {
     "leyes/BOE-A-1999-21567.pdf",
     "leyes/BOE-A-1995-24292.pdf",
     "leyes/BOE-A-1997-22614.pdf"
+   ]
+  },
+  "e09": {
+   "resumen": [
+    {
+     "titulo": "Marco normativo",
+     "puntos": [
+      "El abastecimiento de agua y los desagües se rigen por el CTE (HS 4 y HS 5). El gas se rige por el RD 919/2006 y sus ITC-ICG 01 a 11; el CTE no regula el gas.",
+      "El RD 919/2006 consolidado indica como última modificación el 3 de septiembre de 2025. Debe comprobarse si el proyecto de nuevo reglamento ha entrado en vigor."
+     ]
+    },
+    {
+     "titulo": "Requisitos de la red de agua",
+     "puntos": [
+      "Exigencia HS 4: agua apta para el consumo, caudales suficientes, evitar retornos y medios de ahorro; los equipos de ACS deben evitar gérmenes patógenos (CTE, art. 13.4).",
+      "Materiales resistentes a la corrosión interior y a 40 ºC; sin incompatibilidad electroquímica entre ellos (DB-HS 4, apartado 2.1.1, punto 3)."
+     ]
+    },
+    {
+     "titulo": "Protección contra retornos y esquema",
+     "puntos": [
+      "La acometida tiene llave de toma o collarín, tubo de acometida, llave de corte general y llave de corte exterior (DB-HS 4, apartado 3.2.1.1).",
+      "No puede empalmarse la instalación de suministro directamente a una conducción de evacuación de aguas residuales (apartado 3.3.1, punto 2)."
+     ]
+    },
+    {
+     "titulo": "Presiones, temperaturas y caudales",
+     "puntos": [
+      "Presión mínima en los puntos de consumo: 100 kPa para grifos comunes y 150 kPa para fluxores y calentadores. Presión máxima: 500 kPa (DB-HS 4, apartado 2.1.3, puntos 2 y 3).",
+      "ACS entre 50 ºC y 65 ºC, con excepción de los edificios de uso exclusivo de vivienda (apartado 2.1.3, punto 4). Caudal instantáneo de ducha, 0,20 dm³/s; de bañera de 1,40 m o más, 0,30 dm³/s; de inodoro con fluxor, 1,25 dm³/s (tabla 2.1)."
+     ]
+    },
+    {
+     "titulo": "Dimensionado",
+     "puntos": [
+      "Circuito más desfavorable; caudal máximo por tramo según la tabla 2.1; coeficiente de simultaneidad; velocidad entre 0,50 y 2,00 m/s en metálicas y entre 0,50 y 3,50 m/s en termoplásticas y multicapas (apartado 4.2.1).",
+      "Retorno de ACS: pérdida máxima de 3 ºC en el grifo más alejado y no menos de 250 l/h por columna en el supuesto de la norma (apartado 4.4.2). Depósito de presión entre 2 y 3 bar por encima de la presión mínima (apartado 4.5.2.3)."
+     ]
+    },
+    {
+     "titulo": "Gas: régimen de las instalaciones",
+     "puntos": [
+      "Distribución por canalización con autorización administrativa previa (ITC-ICG 01, apartado 2). Instalaciones receptoras sin autorización; precisan proyecto las individuales de más de 70 kW y las comunes de más de 2.000 kW (ITC-ICG 07, apartados 3.1 y 3.2).",
+      "Presión de operación de hasta 5 bar: norma UNE 60670; más de 5 bar: norma UNE 60620 (ITC-ICG 07)."
+     ]
+    },
+    {
+     "titulo": "Pruebas, mantenimiento e inspección",
+     "puntos": [
+      "Prueba de resistencia mecánica y estanqueidad de toda la red de agua, con los componentes vistos y accesibles; tuberías metálicas según UNE 100151:1988 (DB-HS 4, apartado 5.2.1.1).",
+      "Mantenimiento según el RD 865/2003 (legionelosis), con equipos accesibles (apartado 7.3). Inspección periódica de las instalaciones de gas cada cinco años (ITC-ICG 07, apartado 4.1), con comprobación de estanquidad, combustión, ventilación y detección de gas."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Higiene, salud y protección del medio ambiente (art. 13.4 y 13.5) y control de la ejecución (art. 7)"
+    },
+    {
+     "id": "DB-HS",
+     "rol": "Suministro de agua (HS 4, apartados 2 a 7) y evacuación de aguas (HS 5, apartado 3.3)"
+    },
+    {
+     "id": "RD-919-2006",
+     "rol": "Reglamento técnico de distribución y utilización de combustibles gaseosos (arts. 5 y 7; ITC-ICG 01, 07 y 09)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Zanjas en la ejecución de las redes (anexo IV, apartado 9)"
+    },
+    {
+     "id": "LOE",
+     "rol": "Responsabilidad por daños en instalaciones y habitabilidad (art. 17.1.b)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el DB-HS 4, apartado 2.1.3, ¿cuál es la presión mínima en un punto de consumo para un grifo común?",
+     "opciones": [
+      "100 kPa",
+      "150 kPa",
+      "500 kPa",
+      "50 kPa"
+     ],
+     "correcta": 0,
+     "explicacion": "En los puntos de consumo, la presión mínima es de 100 kPa para grifos comunes y de 150 kPa para fluxores y calentadores.",
+     "referencia": "DB-HS 4, apartado 2.1.3, punto 2 a)"
+    },
+    {
+     "pregunta": "Según el DB-HS 4, apartado 2.1.3, ¿cuál es la presión máxima en cualquier punto de consumo?",
+     "opciones": [
+      "100 kPa",
+      "150 kPa",
+      "500 kPa",
+      "1.000 kPa"
+     ],
+     "correcta": 2,
+     "explicacion": "La presión en cualquier punto de consumo no debe superar 500 kPa.",
+     "referencia": "DB-HS 4, apartado 2.1.3, punto 3"
+    },
+    {
+     "pregunta": "Según el DB-HS 4, apartado 2.1.3, punto 4, ¿entre qué temperaturas debe estar el ACS en los puntos de consumo?",
+     "opciones": [
+      "Entre 70 ºC y 90 ºC",
+      "No hay límite",
+      "Entre 30 ºC y 40 ºC",
+      "Entre 50 ºC y 65 ºC"
+     ],
+     "correcta": 3,
+     "explicacion": "La temperatura del ACS en los puntos de consumo debe estar entre 50 ºC y 65 ºC, con la excepción de los edificios de uso exclusivo de vivienda en las condiciones que el apartado indica.",
+     "referencia": "DB-HS 4, apartado 2.1.3, punto 4"
+    },
+    {
+     "pregunta": "Según el DB-HS 4, apartado 4.2.1, punto 2, letra d, ¿cuál es el intervalo de velocidad de cálculo para tuberías metálicas?",
+     "opciones": [
+      "No hay límite",
+      "De 0,50 a 2,00 m/s",
+      "De 0,50 a 3,50 m/s",
+      "De 2,00 a 5,00 m/s"
+     ],
+     "correcta": 1,
+     "explicacion": "Para tuberías metálicas, la velocidad de cálculo debe estar entre 0,50 y 2,00 m/s; para termoplásticas y multicapas, entre 0,50 y 3,50 m/s.",
+     "referencia": "DB-HS 4, apartado 4.2.1, punto 2 d) i)"
+    },
+    {
+     "pregunta": "Según el DB-HS 4, tabla 2.1, ¿cuál es el caudal instantáneo mínimo de agua fría de un inodoro con fluxor?",
+     "opciones": [
+      "1,25 dm³/s",
+      "0,03 dm³/s",
+      "0,10 dm³/s",
+      "0,20 dm³/s"
+     ],
+     "correcta": 0,
+     "explicacion": "El caudal instantáneo mínimo de agua fría de un inodoro con fluxor es de 1,25 dm³/s, según la tabla de aparatos.",
+     "referencia": "DB-HS 4, tabla 2.1"
+    },
+    {
+     "pregunta": "Según la ITC-ICG 07, apartado 3.2, ¿a partir de qué potencia útil precisa proyecto una instalación receptora individual de gas?",
+     "opciones": [
+      "Nunca precisa proyecto",
+      "Desde 5 kW",
+      "Superior a 70 kW",
+      "Superior a 2.000 kW"
+     ],
+     "correcta": 2,
+     "explicacion": "Las instalaciones individuales de potencia útil superior a 70 kW precisan proyecto; las comunes, las de más de 2.000 kW.",
+     "referencia": "ITC-ICG 07, apartado 3.2"
+    },
+    {
+     "pregunta": "Según la ITC-ICG 07, ¿qué norma se aplica a las instalaciones receptoras con presión máxima de operación de hasta 5 bar?",
+     "opciones": [
+      "La norma UNE 100151",
+      "La norma UNE EN 12207",
+      "No hay norma",
+      "La norma UNE 60670"
+     ],
+     "correcta": 3,
+     "explicacion": "Las instalaciones receptoras con presión máxima de operación de hasta 5 bar se realizan conforme a la norma UNE 60670.",
+     "referencia": "ITC-ICG 07"
+    },
+    {
+     "pregunta": "Según la ITC-ICG 07, apartado 4.1, ¿con qué periodicidad se inspeccionan las instalaciones receptoras alimentadas desde una red de distribución?",
+     "opciones": [
+      "Nunca",
+      "Cada cinco años",
+      "Cada año",
+      "Cada veinte años"
+     ],
+     "correcta": 1,
+     "explicacion": "Las inspecciones periódicas de las instalaciones receptoras alimentadas desde redes de distribución se realizan cada cinco años.",
+     "referencia": "ITC-ICG 07, apartado 4.1"
+    },
+    {
+     "pregunta": "Según el DB-HS 4, apartado 5.2.1.1, punto 1, ¿qué prueba debe efectuar la empresa instaladora en la instalación de agua?",
+     "opciones": [
+      "Solo una prueba del contador",
+      "Ninguna prueba",
+      "Una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios",
+      "Solo una prueba visual del color del agua"
+     ],
+     "correcta": 2,
+     "explicacion": "La empresa instaladora está obligada a efectuar una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios que integran la instalación.",
+     "referencia": "DB-HS 4, apartado 5.2.1.1, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-HS 4, apartado 3.3.1, punto 2, ¿puede empalmarse la instalación de suministro directamente a una conducción de evacuación de aguas residuales?",
+     "opciones": [
+      "No puede empalmarse directamente",
+      "Solo en obras menores",
+      "Solo con permiso del vecino",
+      "Sí, siempre"
+     ],
+     "correcta": 0,
+     "explicacion": "La instalación de suministro no puede empalmarse directamente a una conducción de evacuación de aguas residuales.",
+     "referencia": "DB-HS 4, apartado 3.3.1, punto 2"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué instalaciones forman este bloque",
+     "parrafos": [
+      "Las instalaciones de fontanería y gas son las que llevan el agua y el combustible hasta los aparatos del edificio, y que retiran el agua usada. Se agrupan en cuatro conjuntos. El primero es el de abastecimiento de agua fría y de agua caliente sanitaria (ACS), que parte de la acometida a la red pública y reparte el agua a las viviendas y locales. El segundo es el de desagües, que recoge las aguas usadas y las conduce a la red de alcantarillado; su tratamiento completo está en el tema 3. El tercero son los aparatos y equipos, como los grifos, los calentadores, las calderas y los depósitos. El cuarto es la instalación de gas, que lleva el combustible desde la red de distribución hasta los aparatos de consumo.",
+      "La regulación de cada conjunto es distinta. El abastecimiento de agua y los desagües se rigen por el CTE, en el requisito básico de higiene, salud y protección del medio ambiente (HS), a través de las secciones HS 4 y HS 5. El gas se rige por el Reglamento técnico de distribución y utilización de combustibles gaseosos, aprobado por el Real Decreto 919/2006, con sus instrucciones técnicas complementarias (ITC-ICG 01 a 11). Esa diferencia es un punto que conviene recordar en un examen: el CTE no regula el gas.",
+      "Las dos redes tienen en común la necesidad de reservar espacio. Los conductos de agua, de desagüe y de gas deben situarse en patinillos o huecos registrables, y su ubicación debe preverse en el proyecto de obra, porque después no se pueden añadir sin obra."
+     ]
+    },
+    {
+     "titulo": "2. Requisitos y exigencias básicas del agua",
+     "parrafos": [
+      "El requisito de salubridad, en su exigencia HS 4, pide que los edificios dispongan de medios adecuados para suministrar al equipamiento higiénico previsto agua apta para el consumo de forma sostenible, con caudales suficientes, sin alterar sus propiedades y evitando los retornos que puedan contaminar la red. Debe incorporar medios de ahorro y de control del caudal (CTE, art. 13.4.1). Los equipos de producción de ACS con acumulación y los puntos terminales deben tener características que eviten el desarrollo de gérmenes patógenos (art. 13.4.2).",
+      "El DB-HS 4 concreta esa exigencia. El agua de la instalación debe cumplir la legislación sobre el agua de consumo humano, y las compañías suministradoras facilitan los datos de caudal y presión que sirven de base al dimensionado (apartado 2.1.1, puntos 1 y 2). Los materiales de las tuberías y accesorios no deben producir concentraciones de sustancias nocivas por encima de los valores del Real Decreto 140/2003, no deben modificar la potabilidad, el olor, el color ni el sabor, deben resistir la corrosión interior y deben soportar temperaturas de hasta 40 ºC (apartado 2.1.1, punto 3, letras a, b, c y f).",
+      "La incompatibilidad electroquímica entre materiales es otra regla de diseño: las tuberías y accesorios no deben presentar incompatibilidad electroquímica entre sí (apartado 2.1.1, punto 3, letra e). Por eso, en una red de cobre con accesorios de otro metal se disponen aislamientos o piezas de transición.",
+      "Las compañías suministradoras son quienes fijan los datos de caudal y de presión de la acometida, y por tanto la primera condición de partida del proyecto. El proyectista debe pedir esos datos antes de dimensionar, y debe reflejarlos en la memoria. Si la presión de la red pública es insuficiente para cumplir el mínimo del punto de consumo más desfavorable, la solución es un grupo de presión, cuyo cálculo se trata en el apartado 5 de este desarrollo."
+     ]
+    },
+    {
+     "titulo": "3. Esquema y elementos de la red de agua",
+     "parrafos": [
+      "La red de agua fría se compone de una acometida, un contador, una red de distribución y los ramales de enlace. La acometida debe disponer, como mínimo, de una llave de toma o un collarín de toma en carga sobre la tubería de la red exterior, un tubo de acometida que enlace la llave de toma con la llave de corte general, y una llave de corte en el exterior de la propiedad (DB-HS 4, apartado 3.2.1.1, punto 1, letras a a c).",
+      "La protección contra retornos es una exigencia de diseño. Los aparatos y dispositivos deben instalarse de forma que impidan la introducción de cualquier fluido en la instalación y el retorno del agua usada. La instalación de suministro no puede empalmarse directamente a una conducción de evacuación de aguas residuales, y no pueden establecerse uniones entre las conducciones interiores empalmadas a las redes de distribución de agua potable y otras redes (apartado 3.3.1, puntos 1 a 3).",
+      "La distribución se completa con las derivaciones a los cuartos húmedos, los ramales de enlace y las redes de ACS. El DB-HS 4 dimensiona cada uno en su apartado 4 (apartados 4.2 a 4.5). Las redes de ACS tienen además su retorno, que se dimensiona para que el agua no pierda más de 3 ºC en el punto más alejado desde la salida del acumulador (apartado 4.4.2, punto 1).",
+      "La red de agua caliente sanitaria tiene la misma estructura que la de agua fría, pero con dos particularidades: la producción con acumulación, cuyos equipos deben evitar el desarrollo de gérmenes patógenos (CTE, art. 13.4.2), y el retorno, que mantiene la temperatura en las columnas largas. El retorno se dimensiona de forma que en el grifo más alejado la pérdida de temperatura sea como máximo de 3 ºC, y no se recircula menos de 250 l/h por columna en las instalaciones que responden a ese supuesto (DB-HS 4, apartado 4.4.2, puntos 1 y 2)."
+     ]
+    },
+    {
+     "titulo": "4. Presiones, temperaturas y caudales de diseño",
+     "parrafos": [
+      "En los puntos de consumo la presión mínima debe ser de 100 kPa para los grifos comunes, y de 150 kPa para los fluxores y los calentadores. La presión en cualquier punto de consumo no debe superar 500 kPa (DB-HS 4, apartado 2.1.3, puntos 2 y 3). Estas tres cifras son las que se preguntan con más frecuencia.",
+      "La temperatura del ACS en los puntos de consumo debe estar entre 50 ºC y 65 ºC, salvo en edificios de uso exclusivo de vivienda, cuando la instalación no afecte al ambiente exterior del edificio (apartado 2.1.3, punto 4). Esta excepción es la que permite temperaturas menores en la instalación de viviendas.",
+      "El caudal instantáneo mínimo se toma de la tabla de aparatos: 0,05 dm³/s para lavamanos de agua fría, 0,10 para lavabo, 0,20 para ducha, 0,30 para bañera de 1,40 m o más, 0,10 para inodoro con cisterna y 1,25 para inodoro con fluxor. Para el ACS, los valores son menores: 0,03 para lavamanos, 0,065 para lavabo, 0,10 para ducha y 0,20 para bañera de 1,40 m o más. Los urinarios con cisterna se toman por unidad, con 0,04 dm³/s.",
+      "Conviene distinguir el caudal instantáneo mínimo de cada aparato, que se toma de la tabla 2.1, del caudal de cálculo de un tramo, que resulta de sumar los caudales de los puntos que alimenta y multiplicarlos por un coeficiente de simultaneidad. El primero garantiza que cada aparato funciona bien; el segundo permite dimensionar una red sin sobredimensionarla, porque no todos los aparatos se usan a la vez. Un examen puede pedir la diferencia entre ambos, y la respuesta correcta es esa."
+     ]
+    },
+    {
+     "titulo": "5. Dimensionado de las redes de distribución",
+     "parrafos": [
+      "El dimensionado es un procedimiento en varios pasos. Primero se selecciona el circuito más desfavorable, que es el que tiene mayor pérdida de presión por rozamiento y por altura geométrica (DB-HS 4, apartado 4.2.1, punto 1). Después se calcula el caudal máximo de cada tramo como la suma de los caudales de los puntos de consumo que alimenta, según la tabla 2.1; se fijan los coeficientes de simultaneidad; se obtiene el caudal de cálculo; se elige la velocidad y se obtiene el diámetro (apartado 4.2.1, punto 2, letras a a e).",
+      "La velocidad de cálculo debe estar entre 0,50 y 2,00 m/s en tuberías metálicas, y entre 0,50 y 3,50 m/s en tuberías termoplásticas y multicapas (apartado 4.2.1, punto 2, letra d). Una velocidad excesiva produce ruido, golpe de ariete y erosión; una insuficiente favorece la sedimentación.",
+      "Después del dimensionado de los tramos se comprueba que la presión disponible en el punto de consumo más desfavorable supera la presión mínima exigida, teniendo en cuenta las pérdidas de carga (apartado 4.2.2, punto 1). Si no se alcanza, se necesita un grupo de presión, cuyo depósito de presión tiene la presión máxima situada entre 2 y 3 bar por encima de la mínima (apartado 4.5.2.3, punto 1)."
+     ]
+    },
+    {
+     "titulo": "6. Gas: régimen y clasificación de las instalaciones",
+     "parrafos": [
+      "El Reglamento técnico de distribución y utilización de combustibles gaseosos (RD 919/2006) distingue dos grandes campos. El primero es la distribución por canalización, que requiere autorización administrativa previa, salvo los casos del artículo 55.2 de la Ley 34/1998 de hidrocarburos (ITC-ICG 01, apartado 2). El segundo es la utilización: las instalaciones receptoras, que parten de la llave de acometida y llegan a los aparatos, y los propios aparatos de gas.",
+      "Las instalaciones receptoras se regulan en la ITC-ICG 07 y los aparatos en la ITC-ICG 08. Las receptoras no precisan autorización administrativa para su ejecución (ITC-ICG 07, apartado 3.1). Precisan proyecto las instalaciones individuales de potencia útil superior a 70 kW y las comunes de potencia superior a 2.000 kW (apartado 3.2). Las restantes precisan memoria técnica, que el instalador de gas de la categoría correspondiente puede firmar (RD 919/2006, art. 5.1; ITC-ICG 09).",
+      "Las instalaciones receptoras con presión máxima de operación de hasta 5 bar se realizan conforme a la norma UNE 60670. Las que trabajan a más de 5 bar, según la norma UNE 60620 (ITC-ICG 07). Esta diferencia de presión determina la norma de ejecución, y los aparatos de circuito abierto conducido para uso doméstico deben instalarse en galerías, terrazas, recintos o locales exclusivos para ellos, o en locales de uso restringido, como lavaderos o garajes individuales (ITC-ICG 07).",
+      "La inspección periódica de una instalación receptora alimentada desde una red de distribución de presión igual o inferior a 5 bar consiste, básicamente, en comprobar la estanquidad, el buen estado de conservación, la combustión higiénica de los aparatos, los requisitos de ventilación y el volumen mínimo del local, y los sistemas de detección de gas que sustituyen a la ventilación rápida. Esa lista se repite en los exámenes porque define qué mira el inspector en una vivienda."
+     ]
+    },
+    {
+     "titulo": "7. Ejecución, pruebas y puesta en servicio",
+     "parrafos": [
+      "La empresa instaladora está obligada a efectuar una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios de la instalación de agua, con todos sus componentes vistos y accesibles (DB-HS 4, apartado 5.2.1.1, punto 1). Para iniciar la prueba se llena toda la instalación de agua, dejando abiertos los grifos hasta que no quede aire, y después se cierran las purgas y la fuente de alimentación (punto 2).",
+      "La bomba se mantiene en funcionamiento hasta alcanzar la presión de prueba. Para las tuberías metálicas se consideran válidas las pruebas de la norma UNE 100151:1988. El DB-HS 4 remite a su apartado correspondiente el resto de los tipos de tubería (apartado 5.2.1.1, letra a y siguientes).",
+      "La puesta en servicio de la instalación de gas se condiciona al procedimiento general del reglamento. El proyecto o la memoria técnica deben poner de manifiesto el cumplimiento de las prescripciones reglamentarias, y quien la firma es directamente responsable de que se adapte a las exigencias (RD 919/2006, art. 5.1). La autorización administrativa de la instalación receptora no es necesaria, pero sí la documentación técnica y su tramitación."
+     ]
+    },
+    {
+     "titulo": "8. Materiales y compatibilidades",
+     "parrafos": [
+      "El DB-HS 4 regula los materiales de las conducciones en sus apartados 6.1 a 6.3 y las incompatibilidades en el apartado 6.3. Las condiciones generales de los materiales están en el apartado 2.1.1, que se ha comprobado en el texto: resistencia a la corrosión interior, a la temperatura de 40 ºC y a la compatibilidad electroquímica.",
+      "En la práctica, las tuberías de agua se eligen entre metal (cobre, acero o acero inoxidable) y plástico (polietileno reticulado, polibutileno o multicapa), según la presión, la temperatura y el agua de la zona. Esta elección no se ha desarrollado con tablas en este tema, porque los apartados de materiales de conducciones no se han leído en su cuerpo.",
+      "Las tuberías de gas deben ser de materiales compatibles con el gas que transportan y con la presión de operación. La norma UNE aplicable a cada presión (UNE 60670 o UNE 60620) fija los materiales y las uniones, y en la práctica se verifican con la documentación del fabricante.",
+      "Los dos tipos de materiales en la práctica de la fontanería, el metal y el plástico, se combinan en cada obra según criterios de presión, temperatura y calidad del agua. Cuando se combinan, debe comprobarse la compatibilidad electroquímica entre las piezas, que el DB-HS 4 exige en su apartado 2.1.1, punto 3, letra e. Esta regla se aplica también a las conexiones entre las tuberías de agua y los equipos de producción de ACS."
+     ]
+    },
+    {
+     "titulo": "9. Uso, conservación y mantenimiento",
+     "parrafos": [
+      "El DB-HS 4 fija el mantenimiento de la instalación de agua en su apartado 7. Las operaciones de mantenimiento deben recoger detalladamente las prescripciones del Real Decreto 865/2003 sobre criterios higiénico-sanitarios para la prevención y el control de la legionelosis, y en particular su anexo 3 (apartado 7.3, punto 1). Esta remisión es la que hace del mantenimiento de la red de agua una obligación sanitaria.",
+      "Los equipos que necesitan operaciones periódicas, como los elementos de medida, control, protección, válvulas y compuertas, deben situarse en espacios accesibles, incluso cuando deban quedar ocultos (apartado 7.3, punto 2). Las tuberías se sitúan, en lo posible, en lugares accesibles a lo largo de su recorrido (punto 3).",
+      "En el gas, el titular o el usuario de la instalación está obligado a su mantenimiento y buen uso, y a seguir las recomendaciones del suministrador, del distribuidor, de la empresa instaladora y del fabricante del aparato (RD 919/2006, art. 7.1). La inspección periódica de las instalaciones receptoras alimentadas desde una red de distribución es cada cinco años, y la inspección comprende la estanquidad, la combustión de los aparatos, la ventilación y el volumen mínimo del local (ITC-ICG 07, apartado 4.1). Las instalaciones receptoras no alimentadas desde redes de distribución tienen una revisión periódica cada cinco años, que comprende los aparatos cuando la potencia es de 70 kW o menos, y excluye los aparatos cuando es mayor (ITC-ICG 07, apartado 4.2).",
+      "El DB-HS 4 trata la interrupción del servicio y la nueva puesta en servicio en sus apartados 7.1 y 7.2, que indican cómo se restablece el suministro después de una reparación o de una obra sin dejar aire en la red. Esos apartados no se han leído en su cuerpo en este tema, pero su existencia confirma la regla general: después de cualquier intervención en la red de agua, la instalación debe volver a purgarse y comprobarse antes de su uso."
+     ]
+    },
+    {
+     "titulo": "10. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "Los riesgos de la fontanería en obra son los derivados de las zanjas, de los trabajos en altura en patinillos y de la manipulación de tuberías pesadas. Las zanjas se rigen por el anexo IV del Real Decreto 1627/1997, apartado 9: localizar los cables y conducciones subterráneas antes de empezar, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras y los vehículos del borde.",
+      "Los riesgos del gas son la fuga, la explosión y la intoxicación por monóxido de carbono. Las instalaciones receptoras deben ventilarse según su tipo, y la falta de ventilación es una causa frecuente de intoxicación en los aparatos de circuito abierto. El RD 919/2006 regula las infracciones y los accidentes en sus artículos 13 y 14, que no se han desarrollado aquí.",
+      "La evaluación de riesgos se apoya en la LPRL, cuyo artículo 16 regula el plan de prevención; solo se ha comprobado el inicio de ese artículo en el repositorio. El estudio de seguridad y salud, o el estudio básico cuando no se alcanzan los supuestos del artículo 4.1, debe recoger las medidas con su presupuesto (RD 1627/1997, arts. 4 y 5), y el plan de seguridad de cada contratista lo desarrolla (art. 7).",
+      "La legionela es el riesgo sanitario específico de la red de agua caliente. Su proliferación se favorece con temperaturas intermedias, estancamiento del agua y depósitos sin mantenimiento. Por eso el DB-HS 4 remite al Real Decreto 865/2003 y a su anexo 3, y por eso la temperatura del ACS y el retorno, que tienen límites en la sección 4 del DB, son también una medida de prevención sanitaria, además de una condición de confort."
+     ]
+    },
+    {
+     "titulo": "11. Criterios de medición y factores del precio",
+     "parrafos": [
+      "Las tuberías se miden por metro lineal, por material y por diámetro, con sus piezas especiales y uniones. Los aparatos sanitarios, los grifos, las llaves, los contadores y los calentadores se miden por unidad. Las canalizaciones de gas se miden por metro lineal y los aparatos de gas por unidad, con la prueba de estanquidad incluida en la unidad, según el cuadro de precios del proyecto.",
+      "Los factores que influyen en el precio son el material y el diámetro de la tubería, la profundidad de las zanjas, el número de aparatos y de puntos de consumo, la presencia de un grupo de presión, la complejidad de los patinillos y la necesidad de un proyecto de instalación de gas cuando la potencia supera los 70 kW.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). Las normas de medición concretas no se han verificado en el repositorio, por lo que el tema las presenta como principios."
+     ]
+    },
+    {
+     "titulo": "12. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las cifras que más se preguntan son las presiones de los puntos de consumo (100 kPa y 150 kPa mínimas, 500 kPa máxima), la temperatura del ACS (entre 50 ºC y 65 ºC), las velocidades de cálculo (0,50 a 2,00 m/s en metálicas; 0,50 a 3,50 m/s en termoplásticas y multicapas), la pérdida de temperatura del retorno (3 ºC) y el caudal instantáneo de cada aparato. Conviene memorizarlas con su apartado.",
+      "Los errores habituales son cuatro. El primero es afirmar que el CTE regula el gas, cuando lo regula el RD 919/2006. El segundo es confundir la presión de 5 bar, que separa las normas UNE 60670 y UNE 60620. El tercero es olvidar que la prueba de estanqueidad de la instalación de agua se hace con todos los componentes vistos y accesibles. El cuarto es olvidar que las instalaciones de gas de más de 70 kW precisan proyecto.",
+      "Para un caso práctico de vivienda con calentador de gas y ACS, el orden de análisis es: comprobar la presión disponible en el punto más desfavorable; dimensionar los tramos con los caudales de la tabla y las velocidades permitidas; fijar la temperatura del ACS y el retorno; comprobar la separación de la red de agua respecto del desagüe; y documentar la instalación de gas con la memoria técnica, la prueba de estanquidad y la inspección periódica de cinco años.",
+      "El tema se relaciona con el saneamiento del tema 3 en tres puntos: la separación entre la red de agua y la de desagüe (la prohibición de empalme directo del apartado 3.3.1 del DB-HS 4), la comprobación de que los sumideros y las calderetas conservan agua en sus sifones (DB-HS 5, apartado 7, punto 7) y la coordinación de los patinillos. Un examen que combine ambos temas suele preguntar por esa separación y por el mantenimiento de los sifones."
+     ]
+    },
+    {
+     "titulo": "13. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 13.4 del CTE; el DB-HS 4 en sus apartados 2.1.1, 3.2.1.1, 3.3.1, 4.2.1, 4.2.2 (encabezado), 4.4.2, 4.5.2.3, 5.2.1.1 (en parte), 7.3 y los puntos de presión, temperatura y caudal de la tabla de aparatos; el RD 1627/1997 en su anexo IV, apartado 9; la LOE en su artículo 17.1; y el RD 919/2006 en sus artículos 5 y 7 y en las ITC-ICG 01 (apartado 2) y 07 (apartados 3 y 4 y el régimen de presión).",
+      "No se han leído los apartados 3.2 (resto), 4.1 y 4.3 del DB-HS 4, la reserva de espacio, los materiales de conducciones (6.1 a 6.3), el apartado 5.1 de ejecución ni el DB-HE 4 de contribución solar de ACS. Tampoco se han leído los artículos 3, 4, 6, 8 a 14 del RD 919/2006, ni las ITC-ICG 02 a 06, 08 y 09, ni la norma UNE 60670 ni la UNE 60620.",
+      "El RD 919/2006 consolidado indica como última modificación el 3 de septiembre de 2025, y la ficha de la búsqueda menciona un proyecto de nuevo reglamento. No se ha comprobado si ese reglamento ha entrado en vigor. Conviene confirmarlo en el BOE antes de citar el reglamento de 2006 como vigente."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/DB-HS-salubridad.pdf",
+    "leyes/BOE-A-2006-15345.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/BOE-A-1997-22614.pdf",
+    "leyes/BOE-A-1995-24292.pdf",
+    "leyes/BOE-A-1999-21567.pdf"
+   ]
+  },
+  "e10": {
+   "resumen": [
+    {
+     "titulo": "Marco normativo y calidad del aire",
+     "puntos": [
+      "La ventilación de las viviendas se rige por el CTE (HS 3, art. 13.3). La climatización y la ventilación de los demás usos, por el RITE (RD 1027/2007).",
+      "Los productos de combustión se evacuan, con carácter general, por la cubierta del edificio (CTE, art. 13.3.2)."
+     ]
+    },
+    {
+     "titulo": "Ventilación de la vivienda",
+     "puntos": [
+      "Sistema general híbrido o mecánico; aire desde los locales secos hacia los húmedos; aberturas de admisión en comedores, dormitorios y salas de estar; aberturas de extracción en aseos, cocinas y baños (DB-HS 3, apartado 3.1.1, punto 1).",
+      "Aireadores a más de 1,80 m del suelo; en la ventilación híbrida, admisión directa al exterior (apartado 3.1.1, punto 1, letras d y e)."
+     ]
+    },
+    {
+     "titulo": "Caudales mínimos de la vivienda",
+     "puntos": [
+      "Locales secos: dormitorio principal 8 l/s; resto de dormitorios 4 l/s; salas de estar y comedores de 6 a 10 l/s (tabla 2.1). Total: 12 l/s en 0 o 1 dormitorios, 24 l/s en 2 y 33 l/s en 3 o más.",
+      "Locales húmedos: 6 l/s por local en 0 o 1 dormitorios, 7 l/s en 2 y 8 l/s en 3 o más. Extracción de la zona de cocción: 50 l/s (DB-HS 3, apartado 2, punto 4)."
+     ]
+    },
+    {
+     "titulo": "Bienestar térmico y categorías de aire",
+     "puntos": [
+      "Temperatura operativa en verano de 23 a 25 ºC, con humedad del 45 al 60 %; en invierno de 21 a 23 ºC, con humedad del 40 al 50 % (RITE, IT 1.1.4.1.2, tabla 1.4.1.1). Temperatura de cálculo: 21 ºC para calefacción y 25 ºC para refrigeración.",
+      "Categorías de calidad del aire IDA 1 a IDA 4 según el uso del edificio (IT 1.1.4.2.2): IDA 1 en hospitales y laboratorios; IDA 2 en oficinas y aulas; IDA 3 en comercios y gimnasios."
+     ]
+    },
+    {
+     "titulo": "Caudal de aire exterior",
+     "puntos": [
+      "Método por persona (tabla 1.4.2.1): 20 dm³/s para IDA 1, 12,5 para IDA 2, 8 para IDA 3 y 5 para IDA 4. Si se permite fumar, el doble (IT 1.1.4.2.3, apartado A).",
+      "Zonas de fumadores: locales estancos al aire y en depresión respecto de los contiguos (apartado A, letra c)."
+     ]
+    },
+    {
+     "titulo": "Eficiencia, seguridad y ejecución",
+     "puntos": [
+      "Aislamiento de redes de tuberías y conductos (IT 1.2.4.2.1 y 1.2.4.2.2); estanquidad de conductos (IT 1.2.4.2.3); seguridad en la generación de calor y frío (IT 1.3.2).",
+      "Pruebas hidrostáticas antes de ocultar las redes (IT 2.2.2.1, punto 1). Limpieza de los conductos después del montaje y antes de conectar las unidades terminales (IT 2.2.5.1, punto 1). Ajuste y equilibrado (IT 2.3)."
+     ]
+    },
+    {
+     "titulo": "Mantenimiento e inspección",
+     "puntos": [
+      "Programa de mantenimiento preventivo con las periodicidades mínimas de la tabla 3.1: calentadores de ACS a gas de hasta 24,4 kW, cada 5 años en viviendas; aire acondicionado de hasta 12 kW, cada 4 años en viviendas (IT 3.3).",
+      "Inspección de eficiencia energética cada cuatro años para calefacción, ventilación, ACS y aire acondicionado (IT 4.3.1 y 4.3.2). Instalación térmica completa cada quince años (IT 4.3.3)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Calidad del aire interior y evacuación de productos de combustión (arts. 8.1 y 13.3)"
+    },
+    {
+     "id": "DB-HS",
+     "rol": "Ventilación de viviendas (HS 3, apartados 2, 3.1.1 y tabla 2.1)"
+    },
+    {
+     "id": "RITE",
+     "rol": "Reglamento de instalaciones térmicas en los edificios (IT 1.1, 1.2, 1.3, 2, 3 y 4)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Cubiertas e instalaciones de energía (anexo IV, apartados 10 y 12.b)"
+    },
+    {
+     "id": "LOE",
+     "rol": "Responsabilidad por daños y habitabilidad (art. 17.1.b)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el DB-HS 3, tabla 2.1, ¿cuál es el caudal mínimo de ventilación del dormitorio principal en un local seco?",
+     "opciones": [
+      "8 l/s",
+      "12 l/s",
+      "50 l/s",
+      "4 l/s"
+     ],
+     "correcta": 0,
+     "explicacion": "El dormitorio principal necesita un caudal mínimo de 8 l/s en los locales secos.",
+     "referencia": "DB-HS 3, tabla 2.1"
+    },
+    {
+     "pregunta": "Según el DB-HS 3, apartado 2, punto 4, ¿qué caudal mínimo debe extraer el sistema de la zona de cocción de una cocina?",
+     "opciones": [
+      "5 l/s",
+      "8 l/s",
+      "50 l/s",
+      "250 l/s"
+     ],
+     "correcta": 2,
+     "explicacion": "La zona de cocción debe disponer de un sistema que extraiga, como mínimo, 50 l/s, de forma independiente de la ventilación general.",
+     "referencia": "DB-HS 3, apartado 2, punto 4"
+    },
+    {
+     "pregunta": "Según el DB-HS 3, apartado 3.1.1, punto 1, letra e, ¿a qué altura mínima del suelo deben situarse los aireadores?",
+     "opciones": [
+      "Mayor que 3 m",
+      "No hay altura mínima",
+      "Mayor que 0,50 m",
+      "Mayor que 1,80 m"
+     ],
+     "correcta": 3,
+     "explicacion": "Los aireadores deben disponerse a una distancia del suelo mayor que 1,80 m.",
+     "referencia": "DB-HS 3, apartado 3.1.1, punto 1, letra e"
+    },
+    {
+     "pregunta": "Según el RITE, IT 1.1.4.1.2, tabla 1.4.1.1, ¿entre qué valores de temperatura operativa se sitúa el invierno?",
+     "opciones": [
+      "De 30 a 35 ºC",
+      "De 21 a 23 ºC",
+      "De 23 a 25 ºC",
+      "De 15 a 18 ºC"
+     ],
+     "correcta": 1,
+     "explicacion": "En invierno, la temperatura operativa debe estar entre 21 y 23 ºC, con una humedad relativa del 40 al 50 %.",
+     "referencia": "RITE, IT 1.1.4.1.2, tabla 1.4.1.1"
+    },
+    {
+     "pregunta": "Según el RITE, IT 1.1.4.1.2, ¿qué temperatura de cálculo se emplea para dimensionar la refrigeración?",
+     "opciones": [
+      "25 ºC",
+      "30 ºC",
+      "18 ºC",
+      "21 ºC"
+     ],
+     "correcta": 0,
+     "explicacion": "Para dimensionar la refrigeración se emplea una temperatura de cálculo de 25 ºC; para la calefacción, 21 ºC.",
+     "referencia": "RITE, IT 1.1.4.1.2"
+    },
+    {
+     "pregunta": "Según el RITE, IT 1.1.4.2.3, tabla 1.4.2.1, ¿cuántos dm³/s por persona corresponden a la categoría IDA 1?",
+     "opciones": [
+      "8",
+      "12,5",
+      "20",
+      "5"
+     ],
+     "correcta": 2,
+     "explicacion": "La tabla 1.4.2.1 fija 20 dm³/s por persona para la categoría IDA 1, 12,5 para la IDA 2, 8 para la IDA 3 y 5 para la IDA 4.",
+     "referencia": "RITE, IT 1.1.4.2.3, tabla 1.4.2.1"
+    },
+    {
+     "pregunta": "Según el RITE, IT 3.3, tabla 3.1, ¿con qué periodicidad mínima se revisa un calentador de ACS a gas de potencia no superior a 24,4 kW en viviendas?",
+     "opciones": [
+      "Cada 2 años",
+      "Mensual",
+      "No hay periodicidad",
+      "Cada 5 años"
+     ],
+     "correcta": 3,
+     "explicacion": "Los calentadores de ACS a gas de potencia no superior a 24,4 kW se revisan cada 5 años en viviendas, y cada 2 años en los demás usos.",
+     "referencia": "RITE, IT 3.3, tabla 3.1"
+    },
+    {
+     "pregunta": "Según el RITE, IT 4.3.3, ¿con qué periodicidad se inspecciona la instalación térmica completa?",
+     "opciones": [
+      "Cada 4 años",
+      "Cada 15 años",
+      "Cada 2 años",
+      "Cada 30 años"
+     ],
+     "correcta": 1,
+     "explicacion": "La inspección de la instalación térmica completa se realiza cada quince años, coincidiendo con la primera inspección del generador una vez superados los quince años de antigüedad.",
+     "referencia": "RITE, IT 4.3.3"
+    },
+    {
+     "pregunta": "Según el RITE, IT 2.2.2.1, punto 1, ¿cuándo deben probarse hidrostáticamente las redes de fluidos portadores?",
+     "opciones": [
+      "Solo en verano",
+      "Después de su uso durante cinco años",
+      "Antes de quedar ocultas por obras de albañilería, material de relleno o aislante",
+      "Nunca es necesario"
+     ],
+     "correcta": 2,
+     "explicacion": "Todas las redes de circulación de fluidos portadores deben probarse hidrostáticamente, antes de quedar ocultas por obras de albañilería, material de relleno o aislante.",
+     "referencia": "RITE, IT 2.2.2.1, punto 1"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, anexo IV, apartado 12.b, ¿qué debe tenerse en cuenta para la protección colectiva en trabajos en tejados?",
+     "opciones": [
+      "La altura, la inclinación o el carácter o estado resbaladizo de la cubierta",
+      "Nada, los tejados no tienen riesgo",
+      "Solo la hora del día",
+      "Solo el color del tejado"
+     ],
+     "correcta": 0,
+     "explicacion": "Las medidas de protección colectiva deben adoptarse en atención a la altura, la inclinación o el carácter o estado resbaladizo de la cubierta.",
+     "referencia": "Anexo IV, apartado 12.b RD 1627/1997"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué son la climatización y la ventilación",
+     "parrafos": [
+      "La climatización es el conjunto de instalaciones que acondicionan la temperatura, la humedad y la calidad del aire de los recintos ocupados. Comprende la calefacción, que aporta calor en invierno; la refrigeración, que lo retira en verano; y, en la mayoría de los edificios, la producción de agua caliente sanitaria, que se trata en el tema 9. La ventilación es la renovación del aire de los locales: aporta aire exterior limpio y extrae el aire viciado, con los contaminantes, la humedad y los olores que se producen en el uso normal.",
+      "Las dos instalaciones se regulan en normas distintas. La ventilación de las viviendas se rige por el CTE, en el requisito básico de calidad del aire interior (HS 3), que desarrolla el DB-HS 3. La climatización y la ventilación de los demás usos, así como las condiciones de bienestar térmico, se rigen por el Reglamento de instalaciones térmicas en los edificios (RITE), aprobado por el Real Decreto 1027/2007, con sus instrucciones técnicas (IT). Ambas normas se aplican a la misma instalación, por lo que el proyecto debe cumplir las dos.",
+      "Por su función, las instalaciones de climatización se clasifican en tres grupos: las que generan y distribuyen calor o frío a partir de una energía, las que renuevan el aire, y las que combinan ambas funciones. Cada grupo tiene requisitos propios de eficiencia, de seguridad y de mantenimiento, que el RITE regula por separado."
+     ]
+    },
+    {
+     "titulo": "2. Requisitos básicos del CTE en la calidad del aire",
+     "parrafos": [
+      "El requisito de salubridad, en su exigencia HS 3, pide que los edificios dispongan de medios para que sus recintos puedan ventilarse adecuadamente, eliminando los contaminantes que se producen de forma habitual durante el uso normal, de forma que se aporte un caudal suficiente de aire exterior y se garantice la extracción y expulsión del aire viciado (CTE, art. 13.3.1).",
+      "La evacuación de los productos de combustión de las instalaciones térmicas se produce, con carácter general, por la cubierta del edificio, con independencia del combustible y del aparato, de acuerdo con la reglamentación específica sobre instalaciones térmicas (CTE, art. 13.3.2). Esta regla es la que obliga a que los conductos de humos de las calderas y de los calentadores de gas lleguen a la cubierta y no a fachada o patio.",
+      "El DB-HS 3 desarrolla la exigencia. Su apartado 2 caracteriza las exigencias y su apartado 3 el diseño de los sistemas de ventilación, con las condiciones generales de los sistemas y de los elementos que los componen. La verificación sigue las mismas etapas que el resto de los documentos básicos: diseño, dimensionado, productos, construcción y mantenimiento (DB-HS 3, apartado 1.2).",
+      "La calidad del aire interior tiene dos caras que el proyecto debe tratar a la vez. La primera es el caudal: el aire exterior que entra debe ser suficiente para diluir los contaminantes del uso normal, y el DB-HS 3 lo fija en litros por segundo para cada local de la vivienda. La segunda es la dirección del flujo: el aire debe circular desde los locales menos contaminados hacia los más contaminados, para que los olores y la humedad de la cocina y de los baños no pasen a los dormitorios y a las salas de estar. Un sistema con caudal suficiente pero con flujo invertido no cumple la exigencia."
+     ]
+    },
+    {
+     "titulo": "3. Ventilación de las viviendas: sistema general",
+     "parrafos": [
+      "Las viviendas deben disponer de un sistema general de ventilación, que puede ser híbrido o mecánico (DB-HS 3, apartado 3.1.1, punto 1). El aire debe circular desde los locales secos hacia los húmedos. Los comedores, los dormitorios y las salas de estar deben tener aberturas de admisión; los aseos, las cocinas y los cuartos de baño, aberturas de extracción; y las particiones entre unos y otros, aberturas de paso (punto 1, letra a).",
+      "Como aberturas de admisión se usan aireadores o aperturas fijas de la carpintería, con una permeabilidad al aire según la norma UNE EN 12207:2017 en posición de apertura de clase 1 o superior. Los aireadores deben situarse a una altura del suelo superior a 1,80 m (punto 1, letras c y e). En la ventilación híbrida, las aberturas de admisión deben comunicar directamente con el exterior (letra d).",
+      "Cuando un local con extracción está compartimentado, deben disponerse aberturas de paso entre los compartimentos, según la letra f del mismo punto. La regla de la circulación del aire es la que se estudia en un supuesto práctico: el aire debe entrar por los locales secos y salir por los húmedos, sin cortocircuitos."
+     ]
+    },
+    {
+     "titulo": "4. Caudales mínimos de ventilación de las viviendas",
+     "parrafos": [
+      "La tabla 2.1 del DB-HS 3 fija los caudales mínimos de ventilación de caudal constante en los locales habitables, en litros por segundo. En los locales secos, el dormitorio principal necesita 8 l/s; el resto de dormitorios, 4 l/s; y las salas de estar y comedores, entre 6 y 10 l/s según el tipo de vivienda (tabla 2.1, columnas de locales secos). El caudal mínimo en total es de 12 l/s en viviendas de 0 o 1 dormitorios, de 24 l/s en las de 2 dormitorios y de 33 l/s en las de 3 o más.",
+      "En los locales húmedos, el caudal mínimo por local es de 6 l/s en las viviendas de 0 o 1 dormitorios, de 7 l/s en las de 2 y de 8 l/s en las de 3 o más (tabla 2.1, columna de locales húmedos). Cuando en un mismo local se dan usos secos y húmedos, cada zona debe dotarse de su caudal correspondiente (nota 2 de la tabla).",
+      "En la zona de cocción de las cocinas debe disponerse un sistema de extracción independiente de la ventilación general de los locales habitables, que extraiga, como mínimo, 50 l/s (DB-HS 3, apartado 2, punto 4). Es la cifra de la cocina que más se pregunta, porque es mayor que la de cualquier local húmedo."
+     ]
+    },
+    {
+     "titulo": "5. Exigencias de calidad térmica y del aire en el RITE",
+     "parrafos": [
+      "El RITE desarrolla la exigencia de bienestar e higiene en su instrucción IT 1.1. La calidad térmica del ambiente se define con la temperatura operativa y la humedad relativa, con una velocidad del aire baja (inferior a 0,1 m/s) y un porcentaje de personas insatisfechas menor del 10 % (IT 1.1.4.1.2, apartado 1, letra a). La tabla 1.4.1.1 fija los límites: en verano, de 23 a 25 ºC de temperatura operativa y de 45 a 60 % de humedad relativa; en invierno, de 21 a 23 ºC y de 40 a 50 %.",
+      "Para dimensionar la calefacción se emplea una temperatura de cálculo de 21 ºC, y para la refrigeración, de 25 ºC (IT 1.1.4.1.2). Estos valores de cálculo son distintos de los límites de confort, porque el dimensionado debe garantizar el confort en las condiciones más desfavorables con un margen.",
+      "La calidad del aire interior se clasifica en cuatro categorías, IDA 1 a IDA 4. La IDA 1 es de aire de óptima calidad, y se exige en hospitales, clínicas, laboratorios y guarderías. La IDA 2, de buena calidad, en oficinas, residencias, salas de lectura, museos, aulas y piscinas. La IDA 3, de calidad media, en edificios comerciales, cines, teatros, hoteles, restaurantes, gimnasios y salas de ordenadores. La IDA 4 es de calidad baja (IT 1.1.4.2.2).",
+      "El RITE es una norma de ámbito estatal que se aplica en toda la Comunidad Autónoma, sin perjuicio de los reglamentos de desarrollo que las comunidades puedan dictar. Su estructura repite la de los documentos del CTE: exigencias (IT 1.1 de bienestar e higiene, IT 1.2 de eficiencia energética y energías renovables, IT 1.3 de seguridad), y después las reglas de diseño y dimensionado, de ejecución (IT 2), de mantenimiento y uso (IT 3) y de inspección (IT 4). El examen suele pedir la instrucción que corresponde a cada asunto, y esta estructura facilita la respuesta."
+     ]
+    },
+    {
+     "titulo": "6. Caudal mínimo de aire exterior en el RITE",
+     "parrafos": [
+      "El caudal mínimo de aire exterior de ventilación se calcula por alguno de los cinco métodos del RITE. El método indirecto por persona usa la tabla 1.4.2.1, que fija, en decímetros cúbicos por segundo y por persona, 20 para la IDA 1, 12,5 para la IDA 2, 8 para la IDA 3 y 5 para la IDA 4. Esos valores suponen una actividad metabólica de alrededor de 1,2 met, una baja producción de contaminantes distinta de las personas y que no se permite fumar (IT 1.1.4.2.3, apartado A, letra a).",
+      "Cuando se permite fumar, los caudales de aire exterior deben ser, como mínimo, el doble de los de la tabla. Si el edificio tiene zonas específicas para fumadores, estas deben ser locales delimitados por cerramientos estancos al aire y en depresión respecto de los contiguos (letras b y c). El método directo por calidad del aire percibido sigue el informe CR 1752 y usa la tabla 1.4.2.2 (apartado B).",
+      "El RITE también regula el filtrado del aire exterior (IT 1.1.4.2.4) y el aire de extracción (IT 1.1.4.2.5). Estos apartados no se han leído en el texto en este tema, por lo que sus valores de filtros y recuperación deben consultarse en el reglamento."
+     ]
+    },
+    {
+     "titulo": "7. Eficiencia energética y seguridad de las instalaciones",
+     "parrafos": [
+      "La exigencia de eficiencia energética y de energías renovables está en la IT 1.2. Su apartado 1.2.4 caracteriza la exigencia para la generación de calor y frío, con requisitos mínimos de rendimientos energéticos de los generadores (IT 1.2.4.1.2.1 y IT 1.2.4.1.3.1), el fraccionamiento de la potencia (IT 1.2.4.1.2.2), la regulación de los quemadores (IT 1.2.4.1.2.3) y la preparación de agua caliente sanitaria (IT 1.2.4.1.2.4).",
+      "Para las redes de tuberías y conductos, la IT 1.2.4.2 exige aislamiento térmico (apartados 1.2.4.2.1 y 1.2.4.2.2), estanquidad de los conductos (apartado 1.2.4.2.3), limitación de caídas de presión en los componentes (apartado 1.2.4.2.4) y eficiencia de los motores y de las unidades de ventilación (apartados 1.2.4.2.5 a 1.2.4.2.8). Esos apartados no se han leído en su cuerpo en este tema.",
+      "La exigencia de seguridad está en la IT 1.3. Su procedimiento de verificación comienza por la seguridad en la generación de calor y frío (IT 1.3.2, letra a) y continúa con la de las redes de tuberías y conductos (letra b). Las instrucciones de seguridad para el uso y el manejo de las instalaciones se recogen en la IT 3.5 y la IT 3.6, y los límites de temperatura de las superficies accesibles en la IT 3.8."
+     ]
+    },
+    {
+     "titulo": "8. Ejecución, pruebas y puesta en servicio",
+     "parrafos": [
+      "Todas las redes de circulación de fluidos portadores deben probarse hidrostáticamente, para asegurar su estanquidad, antes de quedar ocultas por obras de albañilería, material de relleno o aislante (RITE, IT 2.2.2.1, punto 1). Las pruebas de estanquidad de las redes de tuberías de agua tienen sus apartados propios: la preparación y limpieza (IT 2.2.2.2), la prueba preliminar (IT 2.2.2.3) y la de resistencia mecánica (IT 2.2.2.4). Las fugas se reparan antes de la recepción (IT 2.2.2.5).",
+      "Los circuitos frigoríficos tienen su propia prueba de estanquidad (IT 2.2.3), y la prueba de libre dilatación de los circuitos de agua se trata en la IT 2.2.4. Las redes de conductos de aire tienen la prueba de recepción de la IT 2.2.5, y la limpieza interior de la red de conductos debe hacerse después del montaje de la red y de la unidad de tratamiento, pero antes de conectar las unidades terminales (IT 2.2.5.1, punto 1).",
+      "El RITE exige además el ajuste y el equilibrado de la instalación (IT 2.3), para que cada unidad terminal aporte el caudal de diseño, y el registro de los datos reales de funcionamiento de los equipos y aparatos, que pasan a formar parte de la documentación final de la instalación (IT 2.2.1, punto 1). Esta documentación es la que se entrega al propietario y se integra en el libro del edificio (CTE, art. 8.1)."
+     ]
+    },
+    {
+     "titulo": "9. Mantenimiento preventivo y uso",
+     "parrafos": [
+      "Las instalaciones térmicas se mantienen de acuerdo con el programa de mantenimiento preventivo del manual de uso y mantenimiento, con periodicidades que son, al menos, las de la tabla 3.1 del RITE (IT 3.3, punto 1). Esa tabla fija periodicidades distintas según el tipo de equipo, la potencia y el uso del edificio. Por ejemplo, los calentadores de agua caliente sanitaria a gas de potencia no superior a 24,4 kW se revisan cada 5 años en viviendas y cada 2 años en otros usos. Los aparatos de aire acondicionado de potencia no superior a 12 kW, cada 4 años en viviendas y cada 2 años en otros usos.",
+      "Las instalaciones de potencia superior a 70 kW tienen un mantenimiento mensual en cualquier uso, y las instalaciones solares térmicas de potencia no superior a 14 kW, un mantenimiento anual (tabla 3.1). Estas periodicidades son mínimas: el manual del fabricante puede exigir más frecuencia.",
+      "El RITE regula además el mantenimiento y uso de las instalaciones (IT 3.2), la gestión energética (IT 3.4) y la limitación de temperaturas (IT 3.8). Las operaciones deben quedar registradas, porque la inspección posterior las comprueba. El mantenimiento de la ventilación de las viviendas consiste, en la práctica, en limpiar las aberturas y los conductos, y en revisar los aireadores, que deben seguir cumpliendo la permeabilidad del DB-HS 3.",
+      "El mantenimiento de la climatización tiene una consecuencia económica directa: un equipo sin limpiar consume más energía para dar el mismo servicio. Por eso el RITE liga el mantenimiento a la eficiencia y a la gestión energética (IT 3.4), y las inspecciones de eficiencia energética de la IT 4 comprueban que el mantenimiento se ha hecho. Un fallo en el mantenimiento no solo afecta a la salud, sino también a la factura de energía y a la exigencia de eficiencia del propio edificio."
+     ]
+    },
+    {
+     "titulo": "10. Inspecciones de eficiencia energética",
+     "parrafos": [
+      "El RITE establece inspecciones periódicas de eficiencia energética (IT 4.2). Su periodicidad se fija en la IT 4.3: cada cuatro años para los sistemas de calefacción, de ventilación y de agua caliente sanitaria (IT 4.3.1), y también cada cuatro años para los de aire acondicionado y ventilación (IT 4.3.2).",
+      "La inspección de la instalación térmica completa se realiza cada quince años, y se hace coincidir con la primera inspección del generador de calor o de frío, una vez que la instalación haya superado los quince años de antigüedad (IT 4.3.3, puntos 1 y 2). Estas cifras son las que se preguntan con más frecuencia: cuatro años para los equipos y quince para la instalación completa.",
+      "Los exentos de inspección están en la IT 4.3.4, que no se ha leído en este tema. Las inspecciones se hacen por las entidades que el reglamento determina, y el resultado se incorpora al expediente de la instalación."
+     ]
+    },
+    {
+     "titulo": "11. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "Los riesgos de la climatización en obra son las caídas en cubierta, donde se instalan las unidades exteriores y los equipos de generación, los riesgos eléctricos de los equipos, la manipulación de fluidos frigoríficos y los riesgos térmicos de los equipos en funcionamiento. La evaluación de riesgos se apoya en la LPRL, cuyo artículo 16 regula el plan de prevención; de ese artículo solo se ha comprobado el inicio en el repositorio.",
+      "Para la cubierta, el anexo IV del Real Decreto 1627/1997, apartado 12.b, exige medidas de protección colectiva según la altura, la inclinación y el estado de la superficie, para evitar la caída de trabajadores, herramientas o materiales (apartado 12.b). Los equipos exteriores de la cubierta deben montarse con medios de elevación cuyas reglas están en el anexo IV, que no se ha desarrollado aquí.",
+      "Para las instalaciones eléctricas de los equipos, el anexo IV, apartado 10, exige verificar y mantener con regularidad las instalaciones de distribución de energía, localizar y señalar las existentes antes de la obra, y adoptar medidas frente a las líneas aéreas (apartado 10.a a 10.c). Los equipos que producen aire acondicionado tienen además riesgos biológicos, por la legionela de las torres de refrigeración, que el Real Decreto 865/2003 regula.",
+      "Los equipos de la climatización se instalan con frecuencia en la cubierta, en patinillos o en fachadas, y el acceso a ellos para el mantenimiento es un riesgo que se olvida en el proyecto. El DB-HS 4 exige que los equipos que necesitan operaciones periódicas se sitúen en espacios accesibles (apartado 7.3, punto 2), y el proyecto de climatización debe aplicar la misma idea. Un proyecto que sitúa un equipo sin acceso seguro traslada el riesgo al operario que lo mantiene, y debe resolverlo con medios de acceso o de protección en la fase de proyecto."
+     ]
+    },
+    {
+     "titulo": "12. Criterios de medición y factores del precio",
+     "parrafos": [
+      "Los conductos de ventilación y climatización se miden por metro cuadrado de chapa desarrollada o por metro lineal, según la sección y el material, con sus piezas especiales. Las unidades terminales, los difusores, las rejillas, los aireadores y los equipos de generación se miden por unidad. Las tuberías de agua y de refrigerante se miden por metro lineal y diámetro, con su aislamiento.",
+      "Los factores que influyen en el precio son el tipo de instalación (con o sin conductos, con unidades de expansión directa o con agua), la potencia de los equipos, la eficiencia exigida por el RITE, que puede imponer aislamientos más gruesos, el número de unidades terminales, la complejidad de los conductos, la altura de los medios de elevación y las pruebas de estanquidad y de ajuste.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). Las normas de medición concretas no se han verificado en el repositorio, por lo que el tema las presenta como principios."
+     ]
+    },
+    {
+     "titulo": "13. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las cifras que más se preguntan son los caudales mínimos de la tabla 2.1 del DB-HS 3 (8 l/s en el dormitorio principal, 50 l/s en la cocina, 12, 24 y 33 l/s en el total), las temperaturas del RITE (23 a 25 ºC en verano y 21 a 23 ºC en invierno), la temperatura de cálculo de 21 ºC y 25 ºC, y las periodicidades de la IT 4.3 (cuatro años y quince años).",
+      "Los errores habituales son cuatro. El primero es confundir los caudales de la vivienda, que fija el DB-HS 3, con los caudales de aire exterior por persona, que fija el RITE. El segundo es afirmar que la extracción de la cocina es la misma que la de un baño. El tercero es olvidar que el doble de caudal se exige donde se permite fumar. El cuarto es confundir la inspección de eficiencia energética de cuatro años con la inspección completa de quince.",
+      "Para un caso práctico de vivienda de tres dormitorios con cocina y dos baños, el orden de análisis es: determinar la categoría y los caudales de los locales secos y húmedos según la tabla 2.1; verificar la circulación del aire desde los locales secos hacia los húmedos; comprobar la altura de los aireadores y la permeabilidad de las carpinterías; dimensionar la extracción de la cocina en 50 l/s; y, por último, comprobar que el equipo de calefacción o refrigeración cumple con el programa de mantenimiento de la tabla 3.1 del RITE.",
+      "Para repasar el tema, conviene estudiar cuatro bloques por separado. El primero es el de ventilación de la vivienda, con los caudales de la tabla 2.1 del DB-HS 3, las aberturas de admisión y extracción, y la cocina. El segundo es el de bienestar del RITE, con la temperatura operativa, la humedad relativa, las categorías IDA y el caudal por persona. El tercero es el de ejecución, con las pruebas de estanquidad y de recepción. El cuarto es el de mantenimiento e inspección, con la tabla 3.1 y las periodicidades de la IT 4.3."
+     ]
+    },
+    {
+     "titulo": "14. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 13.3 del CTE; el DB-HS 3 en sus apartados 1.2 (encabezado), 2 (en parte, punto 4), 3.1.1 (puntos 1 y letras a a f) y la tabla 2.1; el RITE en sus apartados IT 1.1.4.1.2, 1.1.4.2.2 y 1.1.4.2.3, las tablas 1.4.1.1 y 1.4.2.1, los encabezados de los apartados IT 1.2, 1.3, 2.2, 2.3, 3.3 y 4.3, la tabla 3.1, y los puntos 1 de IT 2.2.2.1 y IT 2.2.5.1; el RD 1627/1997, anexo IV, apartados 10 y 12.b; y la LOE en su artículo 17.1.",
+      "No se han leído el resto de las instrucciones del RITE, en particular los cuerpos de las IT 1.2.4 (generación, redes y control), IT 2.3 (ajuste), IT 3.2 y IT 3.4 y la IT 4.2. Tampoco se ha leído el DB-HS 3 en sus apartados de ventilación híbrida, conductos, productos y mantenimiento (apartado 7), ni el DB-HE sobre demanda energética.",
+      "La versión del RITE descargada es la consolidada del BOE, con fecha de última modificación indicada en el PDF de 2 de agosto de 2022. Debe comprobarse si hay modificaciones posteriores antes de citar un valor de tabla."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2007-15820.pdf",
+    "leyes/DB-HS-salubridad.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/BOE-A-1997-22614.pdf",
+    "leyes/BOE-A-1995-24292.pdf",
+    "leyes/BOE-A-1999-21567.pdf"
    ]
   },
   "e20": {

@@ -1,0 +1,198 @@
+{
+  "id": "e09",
+  "resumen": [
+    {
+      "titulo": "Marco normativo",
+      "puntos": [
+        "El abastecimiento de agua y los desagües se rigen por el CTE (HS 4 y HS 5). El gas se rige por el RD 919/2006 y sus ITC-ICG 01 a 11; el CTE no regula el gas.",
+        "El RD 919/2006 consolidado indica como última modificación el 3 de septiembre de 2025. Debe comprobarse si el proyecto de nuevo reglamento ha entrado en vigor."
+      ]
+    },
+    {
+      "titulo": "Requisitos de la red de agua",
+      "puntos": [
+        "Exigencia HS 4: agua apta para el consumo, caudales suficientes, evitar retornos y medios de ahorro; los equipos de ACS deben evitar gérmenes patógenos (CTE, art. 13.4).",
+        "Materiales resistentes a la corrosión interior y a 40 ºC; sin incompatibilidad electroquímica entre ellos (DB-HS 4, apartado 2.1.1, punto 3)."
+      ]
+    },
+    {
+      "titulo": "Protección contra retornos y esquema",
+      "puntos": [
+        "La acometida tiene llave de toma o collarín, tubo de acometida, llave de corte general y llave de corte exterior (DB-HS 4, apartado 3.2.1.1).",
+        "No puede empalmarse la instalación de suministro directamente a una conducción de evacuación de aguas residuales (apartado 3.3.1, punto 2)."
+      ]
+    },
+    {
+      "titulo": "Presiones, temperaturas y caudales",
+      "puntos": [
+        "Presión mínima en los puntos de consumo: 100 kPa para grifos comunes y 150 kPa para fluxores y calentadores. Presión máxima: 500 kPa (DB-HS 4, apartado 2.1.3, puntos 2 y 3).",
+        "ACS entre 50 ºC y 65 ºC, con excepción de los edificios de uso exclusivo de vivienda (apartado 2.1.3, punto 4). Caudal instantáneo de ducha, 0,20 dm³/s; de bañera de 1,40 m o más, 0,30 dm³/s; de inodoro con fluxor, 1,25 dm³/s (tabla 2.1)."
+      ]
+    },
+    {
+      "titulo": "Dimensionado",
+      "puntos": [
+        "Circuito más desfavorable; caudal máximo por tramo según la tabla 2.1; coeficiente de simultaneidad; velocidad entre 0,50 y 2,00 m/s en metálicas y entre 0,50 y 3,50 m/s en termoplásticas y multicapas (apartado 4.2.1).",
+        "Retorno de ACS: pérdida máxima de 3 ºC en el grifo más alejado y no menos de 250 l/h por columna en el supuesto de la norma (apartado 4.4.2). Depósito de presión entre 2 y 3 bar por encima de la presión mínima (apartado 4.5.2.3)."
+      ]
+    },
+    {
+      "titulo": "Gas: régimen de las instalaciones",
+      "puntos": [
+        "Distribución por canalización con autorización administrativa previa (ITC-ICG 01, apartado 2). Instalaciones receptoras sin autorización; precisan proyecto las individuales de más de 70 kW y las comunes de más de 2.000 kW (ITC-ICG 07, apartados 3.1 y 3.2).",
+        "Presión de operación de hasta 5 bar: norma UNE 60670; más de 5 bar: norma UNE 60620 (ITC-ICG 07)."
+      ]
+    },
+    {
+      "titulo": "Pruebas, mantenimiento e inspección",
+      "puntos": [
+        "Prueba de resistencia mecánica y estanqueidad de toda la red de agua, con los componentes vistos y accesibles; tuberías metálicas según UNE 100151:1988 (DB-HS 4, apartado 5.2.1.1).",
+        "Mantenimiento según el RD 865/2003 (legionelosis), con equipos accesibles (apartado 7.3). Inspección periódica de las instalaciones de gas cada cinco años (ITC-ICG 07, apartado 4.1), con comprobación de estanquidad, combustión, ventilación y detección de gas."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CTE",
+      "rol": "Higiene, salud y protección del medio ambiente (art. 13.4 y 13.5) y control de la ejecución (art. 7)"
+    },
+    {
+      "id": "DB-HS",
+      "rol": "Suministro de agua (HS 4, apartados 2 a 7) y evacuación de aguas (HS 5, apartado 3.3)"
+    },
+    {
+      "id": "RD-919-2006",
+      "rol": "Reglamento técnico de distribución y utilización de combustibles gaseosos (arts. 5 y 7; ITC-ICG 01, 07 y 09)"
+    },
+    {
+      "id": "RD-1627-1997",
+      "rol": "Zanjas en la ejecución de las redes (anexo IV, apartado 9)"
+    },
+    {
+      "id": "LOE",
+      "rol": "Responsabilidad por daños en instalaciones y habitabilidad (art. 17.1.b)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el DB-HS 4, apartado 2.1.3, ¿cuál es la presión mínima en un punto de consumo para un grifo común?",
+      "opciones": [
+        "100 kPa",
+        "150 kPa",
+        "500 kPa",
+        "50 kPa"
+      ],
+      "correcta": 0,
+      "explicacion": "En los puntos de consumo, la presión mínima es de 100 kPa para grifos comunes y de 150 kPa para fluxores y calentadores.",
+      "referencia": "DB-HS 4, apartado 2.1.3, punto 2 a)"
+    },
+    {
+      "pregunta": "Según el DB-HS 4, apartado 2.1.3, ¿cuál es la presión máxima en cualquier punto de consumo?",
+      "opciones": [
+        "100 kPa",
+        "150 kPa",
+        "500 kPa",
+        "1.000 kPa"
+      ],
+      "correcta": 2,
+      "explicacion": "La presión en cualquier punto de consumo no debe superar 500 kPa.",
+      "referencia": "DB-HS 4, apartado 2.1.3, punto 3"
+    },
+    {
+      "pregunta": "Según el DB-HS 4, apartado 2.1.3, punto 4, ¿entre qué temperaturas debe estar el ACS en los puntos de consumo?",
+      "opciones": [
+        "Entre 70 ºC y 90 ºC",
+        "No hay límite",
+        "Entre 30 ºC y 40 ºC",
+        "Entre 50 ºC y 65 ºC"
+      ],
+      "correcta": 3,
+      "explicacion": "La temperatura del ACS en los puntos de consumo debe estar entre 50 ºC y 65 ºC, con la excepción de los edificios de uso exclusivo de vivienda en las condiciones que el apartado indica.",
+      "referencia": "DB-HS 4, apartado 2.1.3, punto 4"
+    },
+    {
+      "pregunta": "Según el DB-HS 4, apartado 4.2.1, punto 2, letra d, ¿cuál es el intervalo de velocidad de cálculo para tuberías metálicas?",
+      "opciones": [
+        "No hay límite",
+        "De 0,50 a 2,00 m/s",
+        "De 0,50 a 3,50 m/s",
+        "De 2,00 a 5,00 m/s"
+      ],
+      "correcta": 1,
+      "explicacion": "Para tuberías metálicas, la velocidad de cálculo debe estar entre 0,50 y 2,00 m/s; para termoplásticas y multicapas, entre 0,50 y 3,50 m/s.",
+      "referencia": "DB-HS 4, apartado 4.2.1, punto 2 d) i)"
+    },
+    {
+      "pregunta": "Según el DB-HS 4, tabla 2.1, ¿cuál es el caudal instantáneo mínimo de agua fría de un inodoro con fluxor?",
+      "opciones": [
+        "1,25 dm³/s",
+        "0,03 dm³/s",
+        "0,10 dm³/s",
+        "0,20 dm³/s"
+      ],
+      "correcta": 0,
+      "explicacion": "El caudal instantáneo mínimo de agua fría de un inodoro con fluxor es de 1,25 dm³/s, según la tabla de aparatos.",
+      "referencia": "DB-HS 4, tabla 2.1"
+    },
+    {
+      "pregunta": "Según la ITC-ICG 07, apartado 3.2, ¿a partir de qué potencia útil precisa proyecto una instalación receptora individual de gas?",
+      "opciones": [
+        "Nunca precisa proyecto",
+        "Desde 5 kW",
+        "Superior a 70 kW",
+        "Superior a 2.000 kW"
+      ],
+      "correcta": 2,
+      "explicacion": "Las instalaciones individuales de potencia útil superior a 70 kW precisan proyecto; las comunes, las de más de 2.000 kW.",
+      "referencia": "ITC-ICG 07, apartado 3.2"
+    },
+    {
+      "pregunta": "Según la ITC-ICG 07, ¿qué norma se aplica a las instalaciones receptoras con presión máxima de operación de hasta 5 bar?",
+      "opciones": [
+        "La norma UNE 100151",
+        "La norma UNE EN 12207",
+        "No hay norma",
+        "La norma UNE 60670"
+      ],
+      "correcta": 3,
+      "explicacion": "Las instalaciones receptoras con presión máxima de operación de hasta 5 bar se realizan conforme a la norma UNE 60670.",
+      "referencia": "ITC-ICG 07"
+    },
+    {
+      "pregunta": "Según la ITC-ICG 07, apartado 4.1, ¿con qué periodicidad se inspeccionan las instalaciones receptoras alimentadas desde una red de distribución?",
+      "opciones": [
+        "Nunca",
+        "Cada cinco años",
+        "Cada año",
+        "Cada veinte años"
+      ],
+      "correcta": 1,
+      "explicacion": "Las inspecciones periódicas de las instalaciones receptoras alimentadas desde redes de distribución se realizan cada cinco años.",
+      "referencia": "ITC-ICG 07, apartado 4.1"
+    },
+    {
+      "pregunta": "Según el DB-HS 4, apartado 5.2.1.1, punto 1, ¿qué prueba debe efectuar la empresa instaladora en la instalación de agua?",
+      "opciones": [
+        "Solo una prueba del contador",
+        "Ninguna prueba",
+        "Una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios",
+        "Solo una prueba visual del color del agua"
+      ],
+      "correcta": 2,
+      "explicacion": "La empresa instaladora está obligada a efectuar una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios que integran la instalación.",
+      "referencia": "DB-HS 4, apartado 5.2.1.1, punto 1"
+    },
+    {
+      "pregunta": "Según el DB-HS 4, apartado 3.3.1, punto 2, ¿puede empalmarse la instalación de suministro directamente a una conducción de evacuación de aguas residuales?",
+      "opciones": [
+        "No puede empalmarse directamente",
+        "Solo en obras menores",
+        "Solo con permiso del vecino",
+        "Sí, siempre"
+      ],
+      "correcta": 0,
+      "explicacion": "La instalación de suministro no puede empalmarse directamente a una conducción de evacuación de aguas residuales.",
+      "referencia": "DB-HS 4, apartado 3.3.1, punto 2"
+    }
+  ]
+}
