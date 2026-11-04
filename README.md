@@ -6,7 +6,7 @@ App de estudio para el Cuerpo de Técnicos de Grado Medio, opción Arquitectura 
 
 Abre `index.html` en el navegador. No necesita servidor ni conexión.
 
-El botón «Generador de tests» de la cabecera abre el generador. Cada tema tiene sus 10 preguntas revisadas y hasta 100 preguntas generadas: «¿Qué regula el art. N de la norma X?» con el contenido del artículo como opciones, extraído de los PDF de `leyes/`. El banco (`datos/banco.js`) lo genera `datos/generar-banco.js`, que necesita `pdftotext` (poppler). El banco se carga solo al abrir el generador.
+El botón «Generador de tests» de la cabecera abre el generador. Cada tema tiene sus 10 preguntas revisadas y hasta 100 preguntas generadas: «¿Qué regula el art. N de la norma X?» con el contenido del artículo como opciones, extraído de los PDF de `leyes/`. Las preguntas de hechos (quién nombra, qué órgano decide, cuánto dura…) están escritas a mano en `datos/hechos/<tema>.json`. El banco (`datos/banco.js`) lo genera `datos/generar-banco.js`, que necesita `pdftotext` (poppler). El banco se carga solo al abrir el generador.
 
 Modos del generador: **práctica** (corrección al responder) y **examen** (corrección al final: cada acierto suma 1, cada fallo resta 1/3, las preguntas en blanco no restan). Las estadísticas de aciertos, fallos y blancos se guardan en este navegador (`localStorage`) por tema, por bloque y en general.
 
