@@ -916,6 +916,39 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-04",
    "notas": "Extracto en PDF de 16 páginas del BOE original. Verificados en el texto los arts. 80 (encabezado y apartado 80.1 con las clases de exposición y la nota sobre nevadas), 81, 82 (encabezado), 83, 85.1 y 85.2 (tabla 85.2.a), 86.1, 87, 92.1.1 y 92.1.2, 94.1 (encabezado), 95.1 y las rúbricas de los arts. 96 a 103 y 109. Pendientes: el cuerpo de los arts. 79, 82, 84, 88 a 91, 93, 96 a 103 y 105 a 108. Se remite a la entrada de RD-470-2021 para la disposición derogatoria y la entrada en vigor."
+  },
+  "DB-SE-AE": {
+   "id": "DB-SE-AE",
+   "nombre": "Documento Básico SE-AE Acciones en la edificación del Código Técnico de la Edificación",
+   "referencia": "Documento Básico SE-AE Acciones en la edificación del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)",
+   "url": "https://www.codigotecnico.org/DocumentosCTE/SeguridadEstructural.html",
+   "boe_id": null,
+   "pdf": "leyes/DB-SE-AE.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF descargado de la web oficial del CTE. Verificado en el texto el apartado 3.5 (nieve), puntos 1 a 5 del apartado 3.5.1 y el encabezado del apartado 3.5.2. Pendientes: resto del documento (cargas de uso, viento, sismo y acciones térmicas). No se ha identificado la norma de aprobación de la versión descargada."
+  },
+  "RD-842-2002": {
+   "id": "RD-842-2002",
+   "nombre": "Reglamento electrotécnico para baja tensión",
+   "referencia": "Real Decreto 842/2002, de 2 de agosto, por el que se aprueba el Reglamento electrotécnico para baja tensión (BOE núm. 224, de 18 de septiembre de 2002)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-18099",
+   "boe_id": "BOE-A-2002-18099",
+   "pdf": "leyes/BOE-A-2002-18099.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 3 de septiembre de 2025). Verificados en el texto la ITC-BT-04 (apartados 2 a 4, en parte), la ITC-BT-05 (apartados 1, 2, 4 y 5, en parte), la ITC-BT-10 (apartado 2), la ITC-BT-18 (índice), la ITC-BT-19 (apartado 2.2.2), la ITC-BT-25 (apartados 1, 2 y tabla de circuitos) y la tabla 1 de la ITC-BT-52. Pendientes: el resto del articulado del reglamento y de las instrucciones, en particular las ITC-BT-11 a 17, 20 a 24 y 26 a 51."
+  },
+  "RD-346-2011": {
+   "id": "RD-346-2011",
+   "nombre": "Reglamento de infraestructuras comunes de telecomunicaciones (ICT)",
+   "referencia": "Real Decreto 346/2011, de 11 de marzo, por el que se aprueba el Reglamento regulador de las infraestructuras comunes de telecomunicaciones para el acceso a los servicios de telecomunicación en el interior de las edificaciones (BOE núm. 78, de 1 de abril de 2011)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-5834",
+   "boe_id": "BOE-A-2011-5834",
+   "pdf": "leyes/BOE-A-2011-5834.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 26 de marzo de 2025). Verificados en el texto los arts. 2 (apartados 1 y 4), 4, 9 (en parte), 10.1, 13 (apartados 1 a 3, en parte) y el encabezado del art. 15, y la localización de los RITI y RITS en el anexo II. Pendientes: los anexos I, III y IV, y el resto del articulado. Las especificaciones técnicas se desarrollan en la Orden ITC/1644/2011, no verificada aquí."
   }
  },
  "contenido": {
@@ -14669,6 +14702,652 @@ window.DATOS_ESTUDIO = {
     "leyes/BOE-A-1999-21567.pdf",
     "leyes/BOE-A-1997-22614.pdf",
     "leyes/BOE-A-1995-24292.pdf"
+   ]
+  },
+  "e07": {
+   "resumen": [
+    {
+     "titulo": "Tipos de cubierta",
+     "puntos": [
+      "Cubierta plana o azotea, transitable o no transitable; cubierta ajardinada con tierra vegetal; cubierta inclinada o tejado (DB-HS 1, apartados 2.4.2 y 2.4.3.1).",
+      "Pendientes de cubiertas planas según uso y protección: de 1 % a 5 % en transitables y en grava; de 1 % a 15 % en no transitables con lámina autoprotegida (tabla 2.9)."
+     ]
+    },
+    {
+     "titulo": "Requisitos",
+     "puntos": [
+      "Protección frente a la humedad: grado de impermeabilidad único, independiente de factores climáticos (CTE, art. 13.1; DB-HS 1, apartado 2.4.1). Seguridad estructural y aptitud al servicio (CTE, art. 10).",
+      "Seguridad de utilización: riesgo de caídas en el uso previsto (CTE, art. 12.1). Las acciones de nieve se fijan en el DB-SE-AE, apartado 3.5."
+     ]
+    },
+    {
+     "titulo": "Componentes y capas",
+     "puntos": [
+      "Elementos exigibles: pendientes, barrera de vapor, aislante, capas separadoras, impermeabilización, capa de protección y evacuación de aguas (DB-HS 1, apartado 2.4.2, punto 1, letras a a k).",
+      "La impermeabilización es obligatoria en cubierta plana, y en inclinada cuando la pendiente o el solape son insuficientes (letra f). El tejado es obligatorio en inclinada, salvo impermeabilización autoprotegida (letra j)."
+     ]
+    },
+    {
+     "titulo": "Pendientes de tejados",
+     "puntos": [
+      "Tejado: teja curva 32 %; teja mixta y plana monocanal 30 %; teja plana marsellesa o alicantina 40 %; teja plana con encaje 50 %; pizarra 60 %; cinc y placas de fibrocemento de onda grande 10 % (tabla 2.10).",
+      "Sin capa de impermeabilización, la pendiente del sistema de formación debe superar la de la tabla 2.10 (apartado 2.4.3.1, punto 4)."
+     ]
+    },
+    {
+     "titulo": "Nieve y cargas",
+     "puntos": [
+      "En cubiertas planas de edificios de pisos por debajo de 1.000 m de altitud, carga de nieve de 1,0 kN/m² (DB-SE-AE, apartado 3.5.1, punto 1).",
+      "Carga general qn = μ · sk; reducción del 20 % en construcción protegida del viento y aumento del 20 % en emplazamientos expuestos (apartado 3.5.1, puntos 2 y 3)."
+     ]
+    },
+    {
+     "titulo": "Evacuación, mantenimiento y limpieza",
+     "puntos": [
+      "El sistema de evacuación se dimensiona con el DB-HS 5 (apartado 2.4.2, punto 1, letra k). Sumideros de cubiertas transitables: limpieza cada seis meses; no transitables: al menos una vez al año (DB-HS 5, apartado 7, punto 3).",
+      "Canalones: diámetro según la tabla 4.7 para 100 mm/h. Número de sumideros: dos hasta 100 m² y uno cada 150 m² por encima de 500 m² (DB-HS 5, tablas 4.6 y 4.7)."
+     ]
+    },
+    {
+     "titulo": "Seguridad y responsabilidad",
+     "puntos": [
+      "Trabajos en tejados: protección colectiva según altura, inclinación y estado resbaladizo; superficies frágiles (RD 1627/1997, anexo IV, apartado 12.b).",
+      "Responsabilidad de diez años por daños a la estructura y de tres años por defectos de habitabilidad, como las humedades (LOE, art. 17.1.a y 17.1.b)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Humedad, seguridad estructural, utilización y control de la ejecución (arts. 7, 8.1, 10, 12.1 y 13.1)"
+    },
+    {
+     "id": "DB-HS",
+     "rol": "Protección frente a la humedad de las cubiertas (HS 1, apartado 2.4) y evacuación de aguas (HS 5, apartados 4 y 7)"
+    },
+    {
+     "id": "DB-SE-AE",
+     "rol": "Acciones de nieve sobre cubiertas (apartado 3.5)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Seguridad en trabajos en tejados (anexo IV, apartado 12.b)"
+    },
+    {
+     "id": "LOE",
+     "rol": "Responsabilidad por daños en la estructura y por defectos de habitabilidad (art. 17.1)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el DB-HS 1, apartado 2.4.1, ¿el grado de impermeabilidad exigido a las cubiertas depende de los factores climáticos?",
+     "opciones": [
+      "No, es único e independiente de factores climáticos",
+      "Sí, solo en invierno",
+      "Solo depende del color de la cubierta",
+      "Sí, varía con la zona climática"
+     ],
+     "correcta": 0,
+     "explicacion": "Para las cubiertas el grado de impermeabilidad exigido es único e independiente de factores climáticos.",
+     "referencia": "DB-HS 1, apartado 2.4.1, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-HS 1, tabla 2.9, ¿qué pendiente se exige a una cubierta transitable para peatones con solado fijo?",
+     "opciones": [
+      "Entre el 0 % y el 1 %",
+      "Exactamente el 32 %",
+      "Entre el 1 % y el 5 %",
+      "Entre el 10 % y el 60 %"
+     ],
+     "correcta": 2,
+     "explicacion": "Las cubiertas transitables para peatones con solado fijo tienen una pendiente de entre el 1 % y el 5 %.",
+     "referencia": "DB-HS 1, tabla 2.9"
+    },
+    {
+     "pregunta": "Según el DB-HS 1, tabla 2.10, ¿cuál es la pendiente mínima de una teja curva?",
+     "opciones": [
+      "60 %",
+      "10 %",
+      "25 %",
+      "32 %"
+     ],
+     "correcta": 3,
+     "explicacion": "La teja curva requiere una pendiente mínima del 32 %, según la tabla 2.10.",
+     "referencia": "DB-HS 1, tabla 2.10"
+    },
+    {
+     "pregunta": "Según el DB-HS 1, apartado 2.4.2, punto 1, letra f, ¿cuándo es obligatoria una capa de impermeabilización en una cubierta inclinada?",
+     "opciones": [
+      "Nunca",
+      "Cuando el sistema de formación de pendientes no tiene la pendiente exigida en la tabla 2.10 o el solape de las piezas es insuficiente",
+      "Siempre que la cubierta tenga más de 10 años",
+      "Solo si hay nieve"
+     ],
+     "correcta": 1,
+     "explicacion": "Se exige una capa de impermeabilización cuando la cubierta es plana o cuando es inclinada y el sistema de formación de pendientes no tiene la pendiente de la tabla 2.10 o el solape de las piezas de protección es insuficiente.",
+     "referencia": "DB-HS 1, apartado 2.4.2, punto 1, letra f"
+    },
+    {
+     "pregunta": "Según el DB-SE-AE, apartado 3.5.1, punto 1, ¿qué carga de nieve puede considerarse en cubiertas planas de edificios de pisos situados por debajo de 1.000 m de altitud?",
+     "opciones": [
+      "1,0 kN/m²",
+      "3,0 kN/m²",
+      "No hay carga de nieve",
+      "0,5 kN/m²"
+     ],
+     "correcta": 0,
+     "explicacion": "En esas condiciones basta considerar una carga de nieve de 1,0 kN/m².",
+     "referencia": "DB-SE-AE, apartado 3.5.1, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-SE-AE, apartado 3.5.1, punto 3, ¿en cuánto puede reducirse la carga de nieve cuando la construcción está protegida del viento?",
+     "opciones": [
+      "Un 5 %",
+      "Un 10 %",
+      "Un 20 %",
+      "Un 50 %"
+     ],
+     "correcta": 2,
+     "explicacion": "Cuando la construcción está protegida de la acción del viento, la carga de nieve puede reducirse en un 20 %.",
+     "referencia": "DB-SE-AE, apartado 3.5.1, punto 3"
+    },
+    {
+     "pregunta": "Según el DB-HS 5, apartado 7, punto 3, ¿con qué periodicidad se limpian los sumideros de cubiertas no transitables?",
+     "opciones": [
+      "Cada diez años",
+      "Cada quince días",
+      "Nunca",
+      "Al menos una vez al año"
+     ],
+     "correcta": 3,
+     "explicacion": "Los sumideros y calderetas de cubiertas no transitables se limpian, al menos, una vez al año.",
+     "referencia": "DB-HS 5, apartado 7, punto 3"
+    },
+    {
+     "pregunta": "Según el DB-HS 5, tabla 4.6, ¿cuántos sumideros se disponen en una cubierta de 80 m² de proyección horizontal?",
+     "opciones": [
+      "Uno",
+      "Dos",
+      "Tres",
+      "Cuatro"
+     ],
+     "correcta": 1,
+     "explicacion": "Para superficies menores de 100 m² se disponen dos sumideros, según la tabla 4.6.",
+     "referencia": "DB-HS 5, apartado 4.2.1, tabla 4.6"
+    },
+    {
+     "pregunta": "Según el anexo IV, apartado 12.b, del RD 1627/1997, ¿qué debe tenerse en cuenta en los trabajos en tejados para la protección colectiva?",
+     "opciones": [
+      "Solo la hora del día",
+      "Solo el color del tejado",
+      "La altura, la inclinación o el carácter o estado resbaladizo de la superficie",
+      "Nada: los tejados no tienen riesgo"
+     ],
+     "correcta": 2,
+     "explicacion": "Las medidas de protección colectiva deben adoptarse en atención a la altura, la inclinación o el carácter o estado resbaladizo de la cubierta, para evitar caídas.",
+     "referencia": "Anexo IV, apartado 12.b RD 1627/1997"
+    },
+    {
+     "pregunta": "Según el art. 17.1.a de la LOE, ¿durante cuánto tiempo responden los agentes de los daños materiales por defectos que afecten a la estructura de la cubierta y comprometan su estabilidad?",
+     "opciones": [
+      "Diez años",
+      "Veinte años",
+      "Un año",
+      "Tres años"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 17.1.a LOE fija diez años para los daños materiales causados por vicios o defectos que afecten a los elementos estructurales, entre ellos los que comprometen la estabilidad del edificio.",
+     "referencia": "Art. 17.1.a LOE"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué es una cubierta y cómo se clasifica",
+     "parrafos": [
+      "La cubierta es el cerramiento superior del edificio. Protege el interior de la lluvia, la nieve y el viento, aísla térmicamente la última planta y, en muchos casos, soporta el uso de personas o de instalaciones. Por su función, una cubierta debe impedir el paso del agua, evacuarla sin daños y resistir las cargas propias y las de nieve, viento y uso, de modo que su fallo tiene consecuencias en todo el edificio.",
+      "Hay dos grandes familias. La cubierta plana, o azotea, tiene una pendiente baja hacia los puntos de evacuación y puede ser transitable, cuando se puede pisar, o no transitable, cuando solo se accede para mantenimiento. La cubierta inclinada, o tejado, se resuelve con un faldón de piezas de teja, pizarra, cinc o fibrocemento, con una pendiente mucho mayor. Dentro de las planas, la cubierta ajardinada tiene una capa de tierra vegetal como protección.",
+      "El DB-HS 1 del Código Técnico de la Edificación distingue esta clasificación al fijar las pendientes mínimas y máximas por uso y por tipo de protección. Por eso, para estudiar el tema, conviene relacionar siempre el tipo de cubierta con su uso y con su protección, porque ambos fijan la pendiente admisible.",
+      "La cubierta forma parte de la envolvente térmica del edificio, por lo que su aislamiento y su barrera de vapor se diseñan junto con su impermeabilización. El DB-HS 1 exige una barrera contra el vapor inmediatamente bajo el aislante cuando el cálculo de condensaciones del DB-HE 1 lo prevea, y un aislante térmico según ese mismo cálculo (apartado 2.4.2, puntos b y d). Por eso una cubierta mal aislada puede tener condensaciones aunque la impermeabilización esté perfecta, y el diseño debe tratar ambas exigencias a la vez."
+     ]
+    },
+    {
+     "titulo": "2. Requisitos y exigencias básicas del CTE",
+     "parrafos": [
+      "La exigencia de protección frente a la humedad (HS 1) pide limitar el riesgo previsible de presencia inadecuada de agua en el interior de los edificios y en sus cerramientos, por precipitaciones atmosféricas, escorrentías, terreno o condensaciones. Debe impedirse su penetración o permitir su evacuación sin producción de daños (CTE, art. 13.1). La cubierta es, en la práctica, el elemento más expuesto a esta exigencia.",
+      "El DB-HS 1 establece un grado de impermeabilidad único para las cubiertas, independiente de los factores climáticos. Cualquier solución constructiva alcanza ese grado siempre que cumpla las condiciones de sus elementos (DB-HS 1, apartado 2.4.1, punto 1).",
+      "La seguridad estructural de la cubierta corresponde al artículo 10 del CTE. La exigencia SE 1 pide resistencia y estabilidad frente a las acciones previsibles, y la exigencia SE 2, aptitud al servicio, sin deformaciones inadmisibles (CTE, art. 10.1 y 10.2). Las acciones de nieve se fijan en el DB-SE-AE, que el artículo 10.3 incluye entre los documentos de acciones.",
+      "La exigencia de seguridad de utilización (SUA) pide reducir el riesgo de caídas en el uso previsto del edificio (CTE, art. 12.1), lo que obliga a considerar la protección de los bordes, los petos y las barandillas de la cubierta transitable. Esas reglas están en el DB-SUA, que no se ha leído en este tema."
+     ]
+    },
+    {
+     "titulo": "3. Componentes de la cubierta plana",
+     "parrafos": [
+      "El DB-HS 1 enumera los elementos que debe tener una cubierta (apartado 2.4.2, punto 1). Según el caso, pueden ser: un sistema de formación de pendientes, cuando la cubierta es plana o cuando el soporte no tiene la pendiente adecuada; una barrera contra el vapor, bajo el aislante, si el cálculo del DB-HE prevé condensaciones; una capa separadora bajo el aislante, si hay materiales químicamente incompatibles; el aislante térmico, según el DB-HE 1; una capa separadora bajo la impermeabilización; la capa de impermeabilización; una capa de protección, salvo que la impermeabilización sea autoprotegida; y un sistema de evacuación de aguas, dimensionado según el DB-HS 5 (letras a a k).",
+      "El sistema de formación de pendientes debe tener cohesión y estabilidad suficientes frente a las solicitaciones mecánicas y térmicas, y debe ser compatible con el material impermeabilizante y con la forma de unión de este (apartado 2.4.3.1, puntos 1 y 2). Su pendiente hacia los elementos de evacuación debe estar dentro de los intervalos de la tabla 2.9 según el uso y la protección (punto 3).",
+      "La capa de protección tiene que ser compatible con el uso. Puede ser un solado fijo, un solado flotante, una capa de rodadura, grava, tierra vegetal o una lámina autoprotegida. Cuando se usa grava, la capa separadora debe ser filtrante y antipunzonante, y cuando la cubierta es transitable para peatones, la capa separadora bajo la protección debe ser antipunzonante (apartado 2.4.2, punto 1, letras g y h).",
+      "Las capas de la cubierta plana se colocan en un orden lógico desde el soporte hacia el exterior: pendiente, barrera de vapor, aislante, separación, impermeabilización y protección. Ese orden no es arbitrario: el vapor debe quedar bajo el aislante para no condensar en la capa impermeable, y la protección debe proteger la impermeabilización de la radiación, de los ciclos térmicos y del tránsito.",
+      "La capa de impermeabilización es la barrera principal frente al agua en la cubierta plana. El DB-HS 1 exige una capa de impermeabilización cuando la cubierta es plana, o cuando es inclinada y el sistema de formación de pendientes no tiene la pendiente exigida en la tabla 2.10 o el solape de las piezas de protección es insuficiente (apartado 2.4.2, punto 1, letra f). Su continuidad es la condición básica: cualquier discontinuidad en un encuentro, un paso o un remate es el punto por el que entra el agua.",
+      "Los encuentros de la cubierta con los paramentos verticales, los petos, los sumideros, los pasos de instalaciones y los remates del perímetro son los puntos críticos de cualquier cubierta plana. El DB-HS 1 exige que el sistema de evacuación esté dimensionado con el DB-HS 5, pero no entra en el detalle de cada encuentro en los apartados verificados. El proyecto debe resolver cada encuentro con un detalle constructivo específico, y la ejecución debe seguir ese detalle sin variaciones."
+     ]
+    },
+    {
+     "titulo": "4. Pendientes de las cubiertas planas",
+     "parrafos": [
+      "La tabla 2.9 del DB-HS 1 fija las pendientes de las cubiertas planas en función del uso y de la protección. Las transitables para peatones con solado fijo o solado flotante tienen una pendiente de entre el 1 % y el 5 %. Las transitables para vehículos con capa de rodadura, también entre el 1 % y el 5 %. Las no transitables con grava, entre el 1 % y el 5 %, y las que llevan lámina autoprotegida, entre el 1 % y el 15 %. Las ajardinadas con tierra vegetal, entre el 1 % y el 5 % (tabla 2.9).",
+      "Un valor del 1 % es el mínimo para garantizar la evacuación del agua sin estancamientos. Por eso, la pendiente de la cubierta plana no puede ser nula, y el soporte debe formarla si no la tiene. La nota de la tabla indica que en las rampas no se aplica la limitación de pendiente máxima.",
+      "En cubiertas planas, el sistema de evacuación (canalones, sumideros y rebosaderos) debe dimensionarse según el DB-HS 5 (apartado 2.4.2, punto 1, letra k). Como se vio en el tema de saneamiento, el número mínimo de sumideros depende de la superficie de cubierta: dos hasta 100 m² y uno cada 150 m² por encima de 500 m² (DB-HS 5, tabla 4.6)."
+     ]
+    },
+    {
+     "titulo": "5. Cubiertas inclinadas y tejados",
+     "parrafos": [
+      "En las cubiertas inclinadas, el tejado es la capa de protección y de evacuación del agua. Su pendiente mínima depende del tipo de teja o de material, según la tabla 2.10 del DB-HS 1. La teja curva requiere una pendiente mínima del 32 %, la teja mixta y la plana monocanal del 30 %, la teja plana marsellesa o alicantina del 40 % y la teja plana con encaje del 50 %. La pizarra necesita el 60 %. El cinc, las placas de fibrocemento de onda grande y las placas asimétricas de nervadura grande necesitan el 10 %, y las placas asimétricas de nervadura media, el 25 % (tabla 2.10).",
+      "Estas cifras son las que distinguen un tejado de una cubierta plana en un examen. La teja curva es la que más pendiente exige, y el cinc y el fibrocemento de placas grandes admiten pendientes bajas, según los valores de la tabla 2.10.",
+      "Cuando la cubierta inclinada no tiene capa de impermeabilización, la pendiente del sistema de formación debe ser mayor que la de la tabla 2.10 según el tipo de tejado (apartado 2.4.3.1, punto 4). Si la impermeabilización existe, la capa de protección y el sistema de evacuación deben cumplir las mismas reglas que una cubierta plana, con el canalón y el sumidero del DB-HS 5.",
+      "En la cubierta inclinada, la impermeabilidad puede resolverla el propio tejado, siempre que la pendiente y el solape de las piezas sean suficientes. Cuando no lo son, el DB-HS 1 exige añadir una capa de impermeabilización bajo el tejado (apartado 2.4.2, punto 1, letra f). Por eso el tejado y la impermeabilización no son alternativas excluyentes: la primera depende de la pendiente y del solape, y la segunda, de la continuidad de la lámina. El tejado es también la capa de protección de la cubierta, con la exigencia de su letra j.",
+      "La cubierta inclinada requiere, además, un sistema de evacuación de aguas, que suele consistir en canalones y bajantes en el perímetro del faldón (apartado 2.4.2, punto 1, letra k). Los canalones se dimensionan según la superficie que sirven y la pendiente, con la tabla 4.7 del DB-HS 5, para una intensidad pluviométrica de 100 mm/h. Un canalón subdimensionado o mal pendiente desborda y vierte agua sobre el paramento, que es una de las causas más frecuentes de humedades en fachadas bajo cubierta."
+     ]
+    },
+    {
+     "titulo": "6. Acciones: nieve, viento y uso",
+     "parrafos": [
+      "La carga de nieve depende del clima del lugar, del tipo de precipitación, del relieve, de la forma del edificio o de la cubierta y de los efectos del viento (DB-SE-AE, apartado 3.5, punto 1). El modelo de carga cubre el depósito natural de la nieve; en cubiertas accesibles deben considerarse las acumulaciones por redistribución artificial, como la retirada de nieve con maquinaria (apartado 3.5, punto 2).",
+      "En cubiertas planas de edificios de pisos situados en localidades de altitud inferior a 1.000 m, basta considerar una carga de nieve de 1,0 kN/m² (apartado 3.5.1, punto 1). En otros casos, la carga por unidad de superficie en proyección horizontal se obtiene como qn = μ · sk, donde μ es el coeficiente de forma de la cubierta y sk la carga característica de la nieve sobre terreno horizontal (apartado 3.5.1, punto 2).",
+      "Si la construcción está protegida del viento, la carga de nieve puede reducirse en un 20 %. Si el emplazamiento está fuertemente expuesto, debe aumentarse en un 20 % (apartado 3.5.1, punto 3). En los edificios situados a más de 1.000 m de altitud, los voladizos de la cubierta deben calcularse además con una carga lineal por formación de hielo (punto 4).",
+      "Las cubiertas accesibles para personas o vehículos tienen sobrecargas de uso, además de la nieve. Estas cargas se fijan en el DB-SE-AE, y su valor depende del uso de la cubierta, que el proyecto debe definir expresamente (no leído en este tema)."
+     ]
+    },
+    {
+     "titulo": "7. Ejecución, control y obra terminada",
+     "parrafos": [
+      "Las obras de cubierta se ejecutan con sujeción al proyecto y a las instrucciones del director de obra y del director de la ejecución de la obra (CTE, art. 7.1.1). La ejecución incluye la formación de pendientes, la colocación de las capas en el orden del proyecto, la colocación de las piezas del tejado y la ejecución del sistema de evacuación según el DB-HS 5.",
+      "El control de la recepción de los productos (aislantes, láminas, tejas, placas y piezas de evacuación) se hace con los documentos de suministro, los distintivos de calidad y los ensayos previstos en el proyecto (CTE, art. 7.2). Durante la ejecución, el director de la ejecución verifica la correcta ejecución de cada unidad de obra y su conformidad con el proyecto (art. 7.3.1).",
+      "En la obra terminada, el CTE exige las pruebas de servicio previstas en el proyecto y las exigidas por la legislación (art. 7.4). Para la cubierta, la prueba de estanqueidad es la más relevante: el DB-HS 1 regula el control de la ejecución y de la obra terminada en sus apartados 5.2 y 5.3, que no se han leído en detalle en este tema.",
+      "Los puntos críticos de ejecución que la práctica señala son los encuentros con los paramentos verticales, los remates de la impermeabilización, los pasos de instalaciones y el solape de las piezas del tejado. Estos detalles no se han verificado en el texto del DB-HS 1 y deben consultarse en el proyecto.",
+      "El control de la recepción de la impermeabilización se apoya en la documentación del suministro: el documento de origen, la hoja de suministro, el etiquetado y el certificado de garantía del fabricante, firmado por persona física (CTE, art. 7.2.1, letras a y b). Cuando el producto lleva distintivo de calidad o evaluación técnica de idoneidad, esa documentación se controla según el artículo 7.2.2, y cuando hay que comprobar características mediante ensayos, según el artículo 7.2.3.",
+      "Durante la ejecución, la correcta colocación de la lámina, el solape entre bandas y la continuidad en los remates deben comprobarse antes de cubrir la impermeabilización con la capa de protección, porque después no son visibles. El director de la ejecución de la obra es el responsable de esa comprobación, con el control de ejecución del artículo 7.3 del CTE. Cubrir una capa sin haber comprobado su continuidad es una de las causas más frecuentes de fallos de cubierta que no se detectan hasta la primera lluvia intensa."
+     ]
+    },
+    {
+     "titulo": "8. Uso, conservación y mantenimiento",
+     "parrafos": [
+      "El mantenimiento de la cubierta es esencial porque la mayoría de los fallos de impermeabilización no son de construcción, sino de falta de limpieza y de revisión. El DB-HS 1 regula el mantenimiento en su apartado 6, que no se ha leído en detalle en este tema.",
+      "El DB-HS 5 sí fija las periodicidades de limpieza de los elementos de evacuación de la cubierta. Los sumideros y las calderetas de cubiertas no transitables se limpian al menos una vez al año, y los sumideros de cubiertas transitables, cada seis meses (DB-HS 5, apartado 7, punto 3). Si los sumideros se obstruyen, el agua se acumula sobre la cubierta y sobrecarga la impermeabilización.",
+      "Las anomalías típicas de una cubierta son las humedades en el último forjado, las goteras en los encuentros, las ampollas y las grietas de la impermeabilización, el desprendimiento de tejas y los charcos que persisten tras la lluvia, que indican pendiente insuficiente. Cada una tiene un origen distinto y requiere una revisión antes de cualquier reparación.",
+      "La LOE hace responder durante diez años de los daños materiales que afecten a la estructura de la cubierta, y durante tres años de los defectos que incumplan la habitabilidad, como las humedades en el interior (LOE, art. 17.1.a y 17.1.b). Por eso, la humedad en un techo puede ser una responsabilidad de los agentes de la edificación durante ese plazo.",
+      "Las revisiones periódicas de la cubierta deben comprender la limpieza de sumideros, canalones y calderetas, la comprobación de la protección y de los remates del perímetro y la inspección de los puntos singulares. Si la protección es de grava, se revisan además los puntos donde la grava se acumula o se desplaza, y si es de solado, los puntos de apoyo y las juntas. Estas inspecciones deben quedar registradas en el plan de mantenimiento del edificio (CTE, art. 8.1.3), que es el que fija su periodicidad."
+     ]
+    },
+    {
+     "titulo": "9. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "Los trabajos en cubierta son de alto riesgo: la caída desde altura es la causa principal de accidentes graves en la construcción. La evaluación de riesgos se apoya en la LPRL, cuyo artículo 16 regula el plan de prevención; solo se ha comprobado el inicio de ese artículo en el repositorio.",
+      "El Real Decreto 1627/1997, en su anexo IV, apartado 12.b, exige que en los trabajos en tejados se adopten las medidas de protección colectiva necesarias en atención a la altura, la inclinación o el carácter o estado resbaladizo, para evitar la caída de trabajadores, herramientas o materiales. Cuando haya que trabajar sobre superficies frágiles, deben tomarse medidas para evitar que los trabajadores las pisen inadvertidamente o caigan a través de ellas (apartado 12.b, último párrafo).",
+      "El estudio de seguridad y salud, o el estudio básico cuando no se alcanzan los supuestos del artículo 4.1, debe recoger estas medidas con su presupuesto (RD 1627/1997, arts. 4 y 5). El plan de seguridad de cada contratista debe desarrollarlo y aprobarse antes del inicio de la obra (art. 7). Las líneas de vida, los andamios y las barandillas provisionales se regulan en otros apartados del anexo IV, que no se han desarrollado aquí.",
+      "El montaje de piezas pesadas de cubierta, como las placas de cubierta o las cerchas, se hace con medios de elevación cuya utilización está sujeta a las reglas del anexo IV. En cualquier caso, la presencia de personas bajo la zona de trabajo debe controlarse, como medida general de prevención.",
+      "Los trabajos de reparación de cubiertas inclinadas, especialmente la sustitución de tejas, son de alto riesgo por la pendiente y por el estado de las piezas, que pueden romperse bajo el peso de una persona. El anexo IV, apartado 12.b, obliga a considerar el estado resbaladizo de la superficie y la inclinación en la protección colectiva, y las superficies frágiles requieren medidas para evitar que los trabajadores caigan a través de ellas."
+     ]
+    },
+    {
+     "titulo": "10. Criterios de medición y factores del precio",
+     "parrafos": [
+      "Las cubiertas se miden por metro cuadrado de superficie real, distinguiendo el tipo de cubierta, la pendiente y la protección. Los faldones de tejado se miden por metro cuadrado de proyección o de faldón, según el cuadro de precios del proyecto. Los canalones se miden por metro lineal y los sumideros, las calderetas y los rebosaderos, por unidad. Los aislantes y las láminas se incluyen en la medición de la cubierta o se miden por separado, según el proyecto.",
+      "Los factores que influyen en el precio son el tipo de cubierta (plana, ajardinada o inclinada), la pendiente, que determina el espesor del sistema de formación de pendientes, el tipo de protección y de teja o material, la altura y los medios de elevación necesarios, la complejidad de los encuentros y de los remates y el espesor del aislante exigido por el DB-HE.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). Las normas de medición concretas no se han verificado en el repositorio, por lo que el tema las presenta como principios."
+     ]
+    },
+    {
+     "titulo": "11. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir las pendientes de la tabla 2.9 y de la tabla 2.10, el número de sumideros de la tabla 4.6 del DB-HS 5, la carga de nieve de 1,0 kN/m² y la periodicidad de limpieza de los sumideros. Conviene memorizar esas cifras con su apartado, porque la respuesta correcta suele ser una de ellas.",
+      "Los errores habituales son cuatro. El primero es afirmar que el grado de impermeabilidad de la cubierta depende de la zona climática, cuando el DB-HS 1 lo fija como único. El segundo es confundir la pendiente mínima de la teja curva (32 %) con la del cinc (10 %). El tercero es olvidar que la pendiente de una cubierta plana no puede ser nula. El cuarto es asociar el riesgo de caída solo a la altura, cuando el anexo IV también considera la inclinación y el estado resbaladizo.",
+      "Para un caso práctico de rehabilitación de una azotea transitable con goteras en el último forjado, el orden de análisis es: comprobar si la pendiente cumple la tabla 2.9 y si hay estancamientos; revisar el sistema de evacuación y las periodicidades del DB-HS 5; identificar el estado de la impermeabilización y de la capa de protección; comprobar la barrera de vapor y el aislante; y, por último, la seguridad de los trabajos en la cubierta.",
+      "Para distinguir las respuestas, conviene separar tres conceptos que aparecen juntos en el DB-HS 1: la pendiente (tablas 2.9 y 2.10, que son valores numéricos), la impermeabilización (la capa continua exigida en el punto 2.4.2, letra f) y la protección (la capa que protege de la radiación, del tránsito y de los agentes atmosféricos, exigida en la letra i o en la letra j según el tipo de cubierta). Una pregunta que mezcle estos conceptos suele tener la respuesta en el punto en que se identifican."
+     ]
+    },
+    {
+     "titulo": "12. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 10 del CTE, los artículos 7 y 13.1 del CTE, y el artículo 12.1 del CTE en su objetivo; el DB-HS 1 en sus apartados 2.4.1, 2.4.2 y 2.4.3.1 (en parte) y en los encabezados de los apartados 3 a 6; el DB-HS 5 en su apartado 7, punto 3; el DB-SE-AE en su apartado 3.5; el RD 1627/1997 en su anexo IV, apartado 12.b; y la LOE en su artículo 17.1.",
+      "No se han leído los apartados 3 (dimensionado), 4 (productos), 5 (ejecución y control) y 6 (mantenimiento) del DB-HS 1 en su cuerpo; el DB-SUA, con sus exigencias de seguridad de utilización y de caídas; el DB-HE 1 con el aislamiento térmico de la cubierta; ni el DB-SE-AE en sus cargas de uso y de viento.",
+      "Las normas de medición y los criterios de precios no se han consultado. La versión del DB-HS 1 es la misma del saneamiento, descargada de codigotecnico.org, y la norma de aprobación de esa versión debe comprobarse en la web oficial."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/DB-HS-salubridad.pdf",
+    "leyes/DB-SE-AE.pdf",
+    "leyes/BOE-A-1997-22614.pdf",
+    "leyes/BOE-A-1995-24292.pdf",
+    "leyes/BOE-A-1999-21567.pdf"
+   ]
+  },
+  "e08": {
+   "resumen": [
+    {
+     "titulo": "Marco normativo",
+     "puntos": [
+      "Las instalaciones eléctricas de baja tensión se rigen por el Reglamento electrotécnico para baja tensión (RD 842/2002) y sus ITC-BT. Las infraestructuras comunes de telecomunicaciones, por el RD 346/2011 (ICT).",
+      "El CTE remite el detalle de la instalación eléctrica al reglamento. Sus exigencias afectan a la seguridad de utilización (art. 12.1) y al ahorro de energía (art. 15.1)."
+     ]
+    },
+    {
+     "titulo": "Grado de electrificación y potencia",
+     "puntos": [
+      "Grado básico: uso de los aparatos de uso común. Grado elevado: viviendas con calefacción o climatización eléctricas, superficie útil superior a 160 m² o recarga de vehículo en viviendas unifamiliares (ITC-BT-10, apartado 2.1).",
+      "Potencia a prever: no menos de 5.750 W a 230 V por vivienda en nuevas construcciones, y no menos de 9.200 W en grado elevado (ITC-BT-10, apartado 2.2)."
+     ]
+    },
+    {
+     "titulo": "Circuitos y protecciones",
+     "puntos": [
+      "Interruptor general automático de corte omnipolar de 25 A como mínimo; interruptores diferenciales de 30 mA como máximo, con intensidad asignada igual o superior a la del general (ITC-BT-25, apartado 2.1).",
+      "Potencia máxima de 5.750 W por circuito de calefacción o aire acondicionado; 2.300 W en automatización (tabla de circuitos de la ITC-BT-25, notas 2 y 4). Sobretensiones según la ITC-BT-23 si son necesarias."
+     ]
+    },
+    {
+     "titulo": "Caída de tensión y puesta a tierra",
+     "puntos": [
+      "Caída de tensión inferior al 3 % en circuitos interiores de viviendas, y del 3 % en alumbrado y 5 % en otros usos en las demás instalaciones interiores (ITC-BT-19, apartado 2.2.2).",
+      "La puesta a tierra regula las tomas de tierra, los conductores de tierra, los bornes y los conductores de protección (ITC-BT-18)."
+     ]
+    },
+    {
+     "titulo": "Documentación, verificación e inspección",
+     "puntos": [
+      "Proyecto o memoria técnica de diseño según la ITC-BT-04. Proyecto obligatorio, por ejemplo, para industrias con potencia superior a 20 kW y para locales húmedos con más de 10 kW (apartado 3.1).",
+      "La empresa instaladora realiza las verificaciones previas a la puesta en servicio (ITC-BT-05, apartado 2.1). Inspecciones periódicas cada cinco años y, en las comunes de viviendas de más de 100 kW, cada diez años (apartado 4.2)."
+     ]
+    },
+    {
+     "titulo": "Infraestructuras comunes de telecomunicaciones",
+     "puntos": [
+      "La ICT capta y distribuye radiodifusión, y da acceso a la telefonía y a la banda ancha hasta las viviendas y locales (RD 346/2011, art. 2.1). Requiere proyecto técnico (art. 9.1) y acta de replanteo presentada en 15 días naturales (art. 10.1).",
+      "Recintos: el RITI, donde se sitúa el punto de interconexión con los operadores, y el RITS, en el recinto superior (anexo II). El registro principal alberga el punto de interconexión."
+     ]
+    },
+    {
+     "titulo": "Seguridad y mantenimiento",
+     "puntos": [
+      "Anexo IV del RD 1627/1997, apartado 10: mantenimiento de las instalaciones de distribución de energía en obra, localización de las existentes y medidas frente a líneas aéreas.",
+      "Conservación de la ICT en propiedad horizontal según el artículo 10 de la Ley 49/1960 (RD 346/2011, art. 13.1). El plan de mantenimiento del edificio forma parte de su libro (CTE, art. 8.1)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Seguridad de utilización, ahorro de energía y libro del edificio (arts. 8.1, 12.1 y 15.1)"
+    },
+    {
+     "id": "RD-842-2002",
+     "rol": "Reglamento electrotécnico para baja tensión (ITC-BT-04, 05, 10, 18, 19, 25 y 52)"
+    },
+    {
+     "id": "RD-346-2011",
+     "rol": "Infraestructuras comunes de telecomunicaciones (arts. 2, 4, 9, 10, 13 y anexo II)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Instalaciones de distribución de energía en obra (anexo IV, apartado 10)"
+    },
+    {
+     "id": "LOE",
+     "rol": "Requisitos básicos de habitabilidad y responsabilidad (arts. 3 y 17.1.b)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la ITC-BT-10, apartado 2.2, ¿cuál es la potencia mínima a prever en una vivienda de nueva construcción con grado de electrificación elevado?",
+     "opciones": [
+      "9.200 W",
+      "11.085 W",
+      "3.450 W",
+      "5.750 W"
+     ],
+     "correcta": 0,
+     "explicacion": "En las viviendas con grado de electrificación elevada, la potencia a prever no será inferior a 9.200 W.",
+     "referencia": "ITC-BT-10, apartado 2.2"
+    },
+    {
+     "pregunta": "Según la ITC-BT-25, apartado 2.1, ¿cuál es la intensidad mínima del interruptor general automático de una vivienda?",
+     "opciones": [
+      "10 A",
+      "16 A",
+      "25 A",
+      "63 A"
+     ],
+     "correcta": 2,
+     "explicacion": "El interruptor general automático de corte omnipolar tiene una intensidad nominal mínima de 25 A.",
+     "referencia": "ITC-BT-25, apartado 2.1"
+    },
+    {
+     "pregunta": "Según la ITC-BT-25, apartado 2.1, ¿cuál es la intensidad diferencial-residual máxima de los diferenciales que protegen los circuitos de una vivienda?",
+     "opciones": [
+      "300 mA",
+      "1 A",
+      "10 mA",
+      "30 mA"
+     ],
+     "correcta": 3,
+     "explicacion": "Los interruptores diferenciales tienen una intensidad diferencial-residual máxima de 30 mA.",
+     "referencia": "ITC-BT-25, apartado 2.1"
+    },
+    {
+     "pregunta": "Según la ITC-BT-19, apartado 2.2.2, ¿cuál es la caída de tensión admisible para alumbrado en instalaciones interiores distintas de las de vivienda?",
+     "opciones": [
+      "1 %",
+      "3 %",
+      "5 %",
+      "10 %"
+     ],
+     "correcta": 1,
+     "explicacion": "Para alumbrado la caída de tensión es del 3 %, y para los demás usos, del 5 %, en las instalaciones interiores o receptoras distintas de los circuitos de viviendas.",
+     "referencia": "ITC-BT-19, apartado 2.2.2"
+    },
+    {
+     "pregunta": "Según la ITC-BT-05, apartado 4.2, ¿con qué periodicidad se inspeccionan las instalaciones que precisaron inspección inicial?",
+     "opciones": [
+      "Cada cinco años",
+      "Cada año",
+      "Cada veinte años",
+      "Nunca"
+     ],
+     "correcta": 0,
+     "explicacion": "Las instalaciones que precisaron inspección inicial se inspeccionan periódicamente cada cinco años; las comunes de viviendas de potencia superior a 100 kW, cada diez años.",
+     "referencia": "ITC-BT-05, apartado 4.2"
+    },
+    {
+     "pregunta": "Según la ITC-BT-04, apartado 3.1, ¿a partir de qué potencia precisa proyecto una nueva industria?",
+     "opciones": [
+      "Nunca precisa proyecto",
+      "Desde 5 kW",
+      "Desde 20 kW (potencia superior a 20 kW)",
+      "Desde 100 kW"
+     ],
+     "correcta": 2,
+     "explicacion": "Las instalaciones de industrias, en general, precisan proyecto cuando la potencia es superior a 20 kW.",
+     "referencia": "ITC-BT-04, apartado 3.1, grupo a"
+    },
+    {
+     "pregunta": "Según el RD 346/2011, art. 10.1, ¿en qué plazo debe presentarse electrónicamente el acta de replanteo de la ICT tras su redacción y firma?",
+     "opciones": [
+      "En un plazo de un año",
+      "No hace falta presentarla",
+      "Antes de empezar la obra, sin plazo",
+      "En un plazo no superior a 15 días naturales"
+     ],
+     "correcta": 3,
+     "explicacion": "El acta de replanteo se presenta a la Administración electrónicamente en el Registro electrónico del Ministerio en un plazo no superior a 15 días naturales tras su redacción y firma.",
+     "referencia": "RD 346/2011, art. 10.1"
+    },
+    {
+     "pregunta": "Según el RD 346/2011, art. 9.1, ¿qué debe incluir el proyecto técnico de la ICT?",
+     "opciones": [
+      "Solo el nombre del promotor",
+      "La descripción detallada de los elementos, su ubicación y dimensiones, con mención de las normas que cumplen",
+      "Nada, la ICT no requiere proyecto",
+      "Solo el coste de la obra"
+     ],
+     "correcta": 1,
+     "explicacion": "El proyecto técnico describe detalladamente todos los elementos de la instalación, su ubicación y dimensiones, con mención de las normas que cumplen.",
+     "referencia": "RD 346/2011, art. 9.1"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, anexo IV, apartado 10.b, ¿qué debe hacerse con las instalaciones eléctricas existentes antes del comienzo de la obra?",
+     "opciones": [
+      "Retirarlas a un vertedero",
+      "Ignorarlas",
+      "Localizarlas, verificarlas y señalizarlas claramente",
+      "Desconectarlas sin control"
+     ],
+     "correcta": 2,
+     "explicacion": "Las instalaciones existentes antes del comienzo de la obra deben estar localizadas, verificadas y señaladas claramente.",
+     "referencia": "Anexo IV, apartado 10.b RD 1627/1997"
+    },
+    {
+     "pregunta": "Según la ITC-BT-25, tabla de circuitos, ¿cuál es la potencia máxima por circuito de calefacción en una vivienda?",
+     "opciones": [
+      "5.750 W",
+      "9.200 W",
+      "2.300 W",
+      "3.450 W"
+     ],
+     "correcta": 0,
+     "explicacion": "Los circuitos de calefacción y de aire acondicionado tienen una potencia máxima permisible por circuito de 5.750 W (nota 2 de la tabla).",
+     "referencia": "ITC-BT-25, tabla de circuitos, nota 2"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué instalaciones forman este bloque y cómo se regulan",
+     "parrafos": [
+      "En un edificio conviven dos grandes redes de instalaciones que se ocupan de la energía y de la comunicación. La instalación eléctrica lleva la energía desde la red de distribución hasta cada punto de utilización: alumbrado, tomas de corriente, electrodomésticos, calefacción, climatización y receptores especiales. La instalación de telecomunicaciones permite el acceso a la radiodifusión, a la telefonía y a la banda ancha dentro de cada vivienda y local. Ambas deben proyectarse desde el inicio de la obra, porque ocupan canalizaciones, huecos y registros comunes.",
+      "La regulación no es la misma para las dos. Las instalaciones eléctricas de baja tensión se rigen por el Reglamento electrotécnico para baja tensión, aprobado por el Real Decreto 842/2002, con sus instrucciones técnicas complementarias (ITC-BT). Las infraestructuras comunes de telecomunicaciones se rigen por el Real Decreto 346/2011, que aprueba el reglamento de infraestructuras comunes de telecomunicaciones para el acceso a los servicios de telecomunicación en el interior de las edificaciones. Ninguna de las dos es, en sentido estricto, un documento del CTE.",
+      "El CTE sí fija algunas exigencias que afectan a las instalaciones eléctricas, como el alumbrado de emergencia, el alumbrado de las zonas de circulación y la contribución fotovoltaica. Sin embargo, el detalle de la instalación eléctrica se remite al reglamento electrotécnico. Por eso, en un examen, la respuesta sobre la instalación eléctrica debe citar el reglamento, y la del CTE debe limitarse a las exigencias básicas.",
+      "La documentación de ambas instalaciones forma parte del libro del edificio. El CTE indica que el libro del edificio incluye la documentación de la obra ejecutada y las instrucciones de uso y el plan de mantenimiento del edificio y de sus instalaciones (CTE, art. 8.1, apartados 1 y 3). Por eso los esquemas, los planos de la instalación eléctrica y de la ICT, y los certificados de las inspecciones deben entregarse al propietario con la obra terminada, y no solo al órgano de control."
+     ]
+    },
+    {
+     "titulo": "2. Requisitos y exigencias básicas",
+     "parrafos": [
+      "El requisito básico de seguridad en caso de incendio y el de seguridad de utilización y accesibilidad tienen exigencias que afectan a la instalación eléctrica. El requisito de seguridad de utilización pide reducir a límites aceptables el riesgo de daños inmediatos en el uso previsto, y facilitar el acceso y la utilización de los edificios (CTE, art. 12.1). Las exigencias concretas de alumbrado se desarrollan en el DB-SUA y en el DB-SI, que no se han leído en este tema.",
+      "El requisito de ahorro de energía pide un uso racional de la energía necesaria para utilizar los edificios, reduciendo su consumo a límites sostenibles, y que una parte del consumo proceda de fuentes renovables (CTE, art. 15.1). Esta exigencia se concreta en el DB-HE, que incluye la contribución fotovoltaica. Su parámetro concreto no se ha leído en este tema.",
+      "La LOE recoge entre los requisitos básicos la funcionalidad, la seguridad y la habitabilidad de los edificios (LOE, art. 3). La habitabilidad incluye el confort de los usuarios frente a la electricidad y a las comunicaciones, y en la práctica se verifica con la previsión de potencia y de puntos de utilización del reglamento electrotécnico. Los defectos de la instalación que incumplan la habitabilidad tienen un plazo de responsabilidad de tres años (LOE, art. 17.1.b).",
+      "La habitabilidad de la vivienda incluye también las comunicaciones. Un edificio que no tiene infraestructura común que permita el acceso a la telefonía y a la banda ancha no cumple con las previsiones del RD 346/2011, y su corrección posterior exige obra en elementos comunes. Por eso la ICT debe proyectarse junto con la instalación eléctrica, y no después de terminada la obra."
+     ]
+    },
+    {
+     "titulo": "3. Tipos de instalación eléctrica y su composición",
+     "parrafos": [
+      "La instalación eléctrica de un edificio de viviendas se organiza desde la red de distribución pública. La acometida lleva la energía desde la red hasta la caja general de protección. Desde ella, la línea general de alimentación alcanza el contador y los dispositivos generales de mando y protección, y la derivación individual lleva la energía hasta el cuadro de cada vivienda. Estos elementos forman las instalaciones de enlace, que son comunes al edificio, y están regulados en las ITC-BT-11 a ITC-BT-17.",
+      "Dentro de cada vivienda, la instalación interior o receptora se compone de los circuitos, con sus protecciones, y de los puntos de utilización, es decir, las tomas de corriente, los puntos de luz y los receptores. Las ITC-BT-19 a ITC-BT-26 regulan las instalaciones interiores, los sistemas de instalación, la protección contra sobreintensidades y contactos y el número de circuitos en las viviendas.",
+      "Además de las instalaciones de viviendas, el reglamento regula instalaciones con fines especiales, como las piscinas, las instalaciones provisionales de obra, las de locales húmedos y mojados, los locales de pública concurrencia y la recarga del vehículo eléctrico (ITC-BT-28 a ITC-BT-52). Cada una tiene sus prescripciones propias, que el tema no desarrolla en detalle. La regla general es que, cuanto más especial es el local, más exigencias de protección y de inspección tiene la instalación."
+     ]
+    },
+    {
+     "titulo": "4. Previsión de potencia y grado de electrificación",
+     "parrafos": [
+      "El grado de electrificación define la capacidad mínima de la instalación de una vivienda. El básico es el necesario para cubrir las necesidades primarias sin obras posteriores; permite el uso de los aparatos eléctricos de uso común (ITC-BT-10, apartado 2.1.1). El elevado corresponde a viviendas con previsión de electrodomésticos superior a la básica, con calefacción o climatización eléctrica, con superficie útil superior a 160 m², con recarga de vehículo eléctrico en viviendas unifamiliares, o con cualquier combinación de estos casos (apartado 2.1.2).",
+      "La potencia a prever en nuevas construcciones no puede ser inferior a 5.750 W a 230 V por vivienda, y en las de grado de electrificación elevado, no inferior a 9.200 W (ITC-BT-10, apartado 2.2). La potencia se corresponde con la capacidad máxima de la instalación, que es la intensidad asignada del interruptor general automático. Esta cifra es la que más se pregunta en examen.",
+      "La instalación de la vivienda debe ser capaz de alimentar los circuitos de uso con su protección. La ITC-BT-25 fija para el grado básico un interruptor general automático de corte omnipolar de 25 A como mínimo, con dispositivos de protección contra sobrecargas y cortocircuitos, independiente del interruptor de control de potencia (ITC-BT-25, apartado 2.1). La capacidad de la instalación no puede ser inferior a la intensidad del interruptor general, y lo mismo para la derivación individual (apartado 1)."
+     ]
+    },
+    {
+     "titulo": "5. Circuitos y protecciones de la vivienda",
+     "parrafos": [
+      "La ITC-BT-25 exige que la protección contra contactos indirectos de todos los circuitos de la vivienda se haga con uno o varios interruptores diferenciales, con una intensidad diferencial-residual máxima de 30 mA y una intensidad asignada igual o superior a la del interruptor general (ITC-BT-25, apartado 2.1). Los diferenciales en serie son posibles si todos los circuitos quedan protegidos a 30 mA como máximo (apartado 2.1).",
+      "La tabla de circuitos de la ITC-BT-25 fija para cada circuito la sección de los conductores, el interruptor automático y la potencia máxima por circuito. Por ejemplo, los circuitos de calefacción y de aire acondicionado tienen una potencia máxima por circuito de 5.750 W a 230 V (tabla, nota 2), y el circuito de automatización tiene 2.300 W (nota 4). El circuito de recarga de vehículo eléctrico tiene su propia previsión de potencia, con la tabla 1 de la ITC-BT-52 para la recarga en viviendas unifamiliares.",
+      "La caída de tensión limita la sección de los conductores. La ITC-BT-19 establece que la caída de tensión entre el origen de la instalación interior y cualquier punto de utilización sea inferior al 3 % de la tensión nominal para cualquier circuito interior de viviendas, y para las demás instalaciones interiores, del 3 % para alumbrado y del 5 % para los demás usos (ITC-BT-19, apartado 2.2.2). Un conductor de sección insuficiente produce caídas de tensión que afectan al funcionamiento de los receptores.",
+      "La instalación interior de la vivienda incluye también los dispositivos de protección contra sobretensiones, cuando sean necesarios, conforme a la ITC-BT-23 (ITC-BT-25, apartado 2.1). La decisión de instalarlos depende de la exposición de la línea a rayos y de la sensibilidad de los receptores. Es una protección que se suele olvidar en la fase de proyecto, y que la ITC-BT-25 deja a la valoración del proyectista."
+     ]
+    },
+    {
+     "titulo": "6. Puesta a tierra y protección contra contactos",
+     "parrafos": [
+      "La puesta a tierra es la conexión de partes de la instalación al terreno, para protección de las personas y para el funcionamiento correcto de la instalación. La ITC-BT-18 regula las tomas de tierra, los conductores de tierra, los bornes de puesta a tierra y los conductores de protección, así como la puesta a tierra por razones de protección y por razones funcionales (ITC-BT-18, apartados 2 a 5).",
+      "La ITC-BT-24 regula la protección contra contactos directos e indirectos. Las protecciones de la vivienda, como el interruptor diferencial de 30 mA, forman parte del sistema que limita el tiempo de contacto con partes que quedan bajo tensión por un fallo de aislamiento (ITC-BT-24, en relación con la ITC-BT-25, apartado 2.1).",
+      "La ITC-BT-05 exige que las instalaciones de locales mojados con potencia superior a 25 kW, las piscinas con potencia superior a 10 kW y las de locales de pública concurrencia se sometan a inspección inicial, junto con las demás previstas en la instrucción (ITC-BT-05, apartado 4.1). Las inspecciones periódicas se realizan cada cinco años para las instalaciones que tuvieron inspección inicial, y cada diez años para las comunes de edificios de viviendas de potencia total superior a 100 kW (apartado 4.2)."
+     ]
+    },
+    {
+     "titulo": "7. Documentación, puesta en servicio y verificaciones",
+     "parrafos": [
+      "Las instalaciones deben ejecutarse sobre la base de una documentación técnica que depende de su importancia. La ITC-BT-04 distingue entre proyecto, cuando la instalación lo precisa, y memoria técnica de diseño (MTD) en los demás casos (apartado 2). El proyecto debe incluir la memoria, el esquema unifilar, los planos y los cálculos justificativos del diseño (apartado 2.1). La MTD recoge los datos del propietario, la identificación de quien firma y su competencia, el emplazamiento, el uso, la relación de receptores y los cálculos de las líneas (apartado 2.2).",
+      "La ITC-BT-04 exige proyecto para las industrias con potencia superior a 20 kW, para los locales húmedos, polvorientos o con riesgo de corrosión con potencia superior a 10 kW, y para otros supuestos del apartado 3.1. Las demás instalaciones, entre ellas las de viviendas, se documentan con la MTD según el apartado 4, que no se ha leído en su totalidad.",
+      "Las verificaciones previas a la puesta en servicio las realiza la empresa instaladora que ejecuta la instalación (ITC-BT-05, apartado 2.1). Las inspecciones iniciales, cuando son exigibles, las realiza un organismo de control, según el apartado 2.2 de la ITC-BT-05. El resultado de las inspecciones se clasifica en defectos muy graves, graves y leves (apartado 6). Un defecto muy grave impide la puesta en servicio de una instalación nueva hasta que se corrija (apartado 5.2.3, letra a)."
+     ]
+    },
+    {
+     "titulo": "8. Infraestructuras comunes de telecomunicaciones",
+     "parrafos": [
+      "La infraestructura común de telecomunicaciones (ICT) es el conjunto de sistemas y redes que permiten, al menos, captar y distribuir las señales de radiodifusión sonora y televisión hasta los puntos de conexión de las viviendas y locales, y proporcionar el acceso a la telefonía disponible al público y a los servicios de banda ancha prestados por las redes de los operadores (RD 346/2011, art. 2.1, letras a y b).",
+      "El reglamento exige que la ICT tenga un proyecto técnico, que debe describir detalladamente los elementos de la instalación, su ubicación y sus dimensiones, con referencia a las normas que cumplen (art. 9.1). El proyecto de ejecución incluye, al menos, la memoria, los planos y el presupuesto, y debe tener en cuenta los resultados de la consulta a los operadores de telecomunicación (art. 9). Si los operadores no responden, el proyecto debe prever tecnologías de acceso basadas en fibra óptica en todas las poblaciones y en cable coaxial donde estén presentes los operadores de cable (art. 9.1).",
+      "En la ejecución, el promotor encarga al director de obra de la ICT, o a un profesional con la titulación establecida en el Real Decreto-ley 1/1998, la redacción de un acta de replanteo, que debe incluir la declaración expresa de validez del proyecto y la referencia a la consulta con los operadores. El acta se presenta electrónicamente al Registro del Ministerio en un plazo de 15 días naturales desde su redacción (art. 10.1). Las normas técnicas aplicables son el anexo I para la captación y distribución de la radiodifusión, el anexo II para la telefonía y la banda ancha, y el anexo III para la obra civil (art. 4.1)."
+     ]
+    },
+    {
+     "titulo": "9. Canalizaciones y recintos de la ICT",
+     "parrafos": [
+      "La ICT se organiza en canalizaciones y recintos. La canalización de enlace une la red del operador con el registro principal, situado en el recinto de instalaciones de telecomunicación inferior (RITI), donde se ubica el punto de interconexión. Desde el RITI, la canalización principal de la ICT lleva los cables hasta el recinto de instalaciones de telecomunicación superior (RITS), y desde allí se distribuye a las viviendas y locales (RD 346/2011, anexo II, que define los recintos).",
+      "Los nombres de los recintos y de las canalizaciones son los que más se preguntan. El RITI es el recinto inferior, donde se sitúa el punto de interconexión con las redes de los operadores. El RITS es el recinto superior, que alimenta las redes de la edificación. El registro principal es el punto en el que la canalización de enlace se conecta con la del edificio, y el punto de interconexión se sitúa en él.",
+      "La obra civil que soporta la ICT tiene sus especificaciones en el anexo III del reglamento, que se incorpora a la norma técnica básica de edificación correspondiente (art. 4.1, letra c). Esto significa que los huecos, las canalizaciones y los registros de telecomunicaciones deben preverse en el proyecto de obra, porque después no se pueden añadir sin obra."
+     ]
+    },
+    {
+     "titulo": "10. Conservación e inspección de la ICT",
+     "parrafos": [
+      "En edificios en régimen de propiedad horizontal, la conservación de la ICT se rige por el artículo 10 de la Ley 49/1960 de propiedad horizontal, en cuanto al mantenimiento de los elementos, pertenencias y servicios comunes (RD 346/2011, art. 13.1). En edificios arrendados, se aplica el artículo 21 de la Ley de Arrendamientos Urbanos, salvo que la instalación se hubiera solicitado por los arrendatarios (art. 13.2).",
+      "El anexo IV del reglamento incluye, con carácter orientativo, un protocolo de pruebas para evaluar la ICT en las inspecciones técnicas de los edificios (art. 13.3). Por tanto, el mantenimiento de la ICT debe reflejarse en el libro del edificio y en la documentación de las inspecciones.",
+      "El régimen sancionador de la ICT se regula en el artículo 15 del reglamento. Su alcance no se ha desarrollado en este tema."
+     ]
+    },
+    {
+     "titulo": "11. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "El riesgo eléctrico es el principal riesgo de la instalación en obra, por contacto directo con partes en tensión o por contacto indirecto con masas que quedan bajo tensión por un fallo. Las medidas para prevenirlo se apoyan en la LPRL, cuyo artículo 16 regula el plan de prevención; de ese artículo solo se ha comprobado el inicio en el repositorio.",
+      "El Real Decreto 1627/1997, en su anexo IV, apartado 10, regula las instalaciones de distribución de energía en las obras. Exige que las instalaciones de la obra se verifiquen y mantengan con regularidad, en particular las sometidas a factores externos (apartado 10.a). Las instalaciones existentes antes del comienzo de la obra deben estar localizadas, verificadas y señaladas claramente (apartado 10.b). Y cuando existan líneas de tendido eléctrico aéreas que puedan afectar a la seguridad, deben adoptarse las medidas que el apartado 10.c establece.",
+      "Las reglas de trabajo en tensión, de manipulación de cuadros y de acceso a instalaciones con riesgo de arco eléctrico se regulan en normativa específica de prevención del riesgo eléctrico, que no está en el repositorio y no se ha verificado en este tema. Esa normativa debe consultarse para la evaluación del riesgo concreto de cada obra.",
+      "El estudio de seguridad y salud, o el estudio básico cuando no se alcanzan los supuestos del artículo 4.1, debe recoger estas medidas con su presupuesto (RD 1627/1997, arts. 4 y 5). El plan de seguridad de cada contratista lo desarrolla y debe aprobarse antes del inicio de la obra (art. 7)."
+     ]
+    },
+    {
+     "titulo": "12. Criterios de medición y factores del precio",
+     "parrafos": [
+      "La instalación eléctrica se mide por puntos de utilización (tomas, puntos de luz, mecanismos), por metro lineal de canalización, de cable y de tubo, por unidad de cuadro, de protección y de mecanismo, y por unidad de caja o registro. La instalación de telecomunicaciones se mide por puntos de acceso al usuario, por metro lineal de canalización y de cable, y por unidad de registro o de equipo de cabecera.",
+      "Los factores que influyen en el precio son el grado de electrificación de la vivienda, que determina el número de circuitos y la sección de los conductores; la sección de los conductores, que sube con la longitud del circuito y con la caída de tensión admisible; el tipo de canalización, empotrada, en bandeja o en tubo; el número de puntos de utilización; y la complejidad de la ICT, con sus recintos y su canalización principal.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). Las normas de medición concretas no se han verificado en el repositorio, por lo que el tema las presenta como principios.",
+      "En la medición de la instalación de telecomunicaciones conviene separar la red de distribución de la red de captación. La captación, con sus antenas y sus equipos de cabecera, se mide por unidad; la distribución, por metro de cable y de canalización. Esta separación facilita la comprobación de la medición con el proyecto técnico de la ICT, que describe cada elemento y su ubicación (RD 346/2011, art. 9.1)."
+     ]
+    },
+    {
+     "titulo": "13. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las cifras que más se preguntan son la potencia mínima a prever (5.750 W en nuevas construcciones y 9.200 W en el grado elevado), el interruptor general de 25 A, el diferencial de 30 mA, la caída de tensión del 3 % en circuitos interiores de viviendas y el 5 % en otros usos, y la periodicidad de las inspecciones (cinco años y diez años). Conviene memorizarlas con su apartado de la ITC correspondiente.",
+      "Los errores habituales son cuatro. El primero es afirmar que el CTE regula el detalle de la instalación eléctrica, cuando la remite al reglamento. El segundo es confundir el grado básico con el elevado, por la superficie útil de 160 m². El tercero es olvidar que las inspecciones periódicas de las viviendas son cada diez años solo para las comunes de potencia superior a 100 kW. El cuarto es confundir el RITI con el RITS.",
+      "Para un caso práctico de vivienda de nueva construcción con calefacción eléctrica, el orden de análisis es: determinar el grado de electrificación, que es elevado por la calefacción eléctrica; fijar la potencia a prever en al menos 9.200 W; dimensionar el interruptor general y los circuitos de la tabla de la ITC-BT-25; comprobar la caída de tensión; prever la puesta a tierra y los diferenciales de 30 mA; y documentar la instalación con la memoria técnica de diseño, de acuerdo con la ITC-BT-04.",
+      "Para repasar el tema, conviene estudiar los tres bloques por separado. El primero es el de potencia y circuitos: grado de electrificación, potencia a prever, interruptor general, diferencial y caída de tensión. El segundo es el de documentación y verificación: proyecto o MTD, verificaciones previas de la empresa instaladora, inspecciones iniciales y periódicas. El tercero es el de telecomunicaciones: la ICT, sus recintos, el proyecto técnico, el acta de replanteo y la conservación en la propiedad horizontal."
+     ]
+    },
+    {
+     "titulo": "14. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el Reglamento electrotécnico para baja tensión (RD 842/2002) en las ITC-BT-04 (apartados 2 a 4, en parte), ITC-BT-05 (apartados 1, 2, 4 y 5, en parte), ITC-BT-10 (apartado 2), ITC-BT-18 (índice), ITC-BT-19 (apartado 2.2.2), ITC-BT-25 (apartados 1, 2.1, 2.2 y la tabla de circuitos) y la tabla 1 de la ITC-BT-52; el RD 346/2011 (ICT) en sus artículos 1, 2, 4, 9, 10, 13, 14 y 15 (títulos); el artículo 10 del CTE y sus exigencias de seguridad de utilización y de ahorro de energía en su enunciado; el artículo 3 y el 17.1 de la LOE; y el anexo IV del RD 1627/1997, apartado 10.",
+      "No se han leído los documentos del CTE sobre alumbrado (DB-SUA 4 y DB-SI 3 y 4) ni el DB-HE 5 de contribución fotovoltaica. No se han leído los anexos I, II y III de la ICT, que contienen las especificaciones técnicas de radiodifusión, telefonía, banda ancha y obra civil, ni el anexo IV de la ICT. Tampoco se ha leído el cuerpo de las ITC-BT-11 a ITC-BT-17 (instalaciones de enlace) ni el de la ITC-BT-24 en detalle.",
+      "El RD 842/2002 descargado indica como última modificación el 3 de septiembre de 2025, y el RD 346/2011 descargado, el 26 de marzo de 2025. Esas fechas deben contrastarse en el BOE, y no se han leído las modificaciones de sus anexos."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2002-18099.pdf",
+    "leyes/BOE-A-2011-5834.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/BOE-A-1999-21567.pdf",
+    "leyes/BOE-A-1995-24292.pdf",
+    "leyes/BOE-A-1997-22614.pdf"
    ]
   },
   "e20": {
