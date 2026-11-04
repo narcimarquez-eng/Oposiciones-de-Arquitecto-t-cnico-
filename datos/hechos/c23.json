@@ -202,5 +202,17 @@
   "correcta": 0,
   "explicacion": "Los procesos cooperativos colaboran intercambiando mensajes y sincronizándose.",
   "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Qué tipo de sistema operativo ejecuta trabajos agrupados sin interacción directa?",
+  "opciones": [
+   "Por lotes",
+   "De tiempo real",
+   "Monousuario gráfico",
+   "Multiusuario de tiempo compartido"
+  ],
+  "correcta": 0,
+  "explicacion": "Los sistemas por lotes ejecutan trabajos agrupados sin interacción directa.",
+  "referencia": "Tema c23"
  }
 ]
