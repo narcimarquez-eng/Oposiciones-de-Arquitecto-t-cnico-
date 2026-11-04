@@ -334,5 +334,29 @@
   "correcta": 1,
   "explicacion": "HTTPS cifra la comunicación entre cliente y servidor mediante TLS.",
   "referencia": "Tema c24"
+ },
+ {
+  "pregunta": "¿Qué sistema permite identificar electrónicamente a un ciudadano ante la Administración?",
+  "opciones": [
+   "DNI electrónico o certificado digital",
+   "Carnet de biblioteca",
+   "Tarjeta de transporte",
+   "Carnet de conducir sin firma"
+  ],
+  "correcta": 0,
+  "explicacion": "Los sistemas de identificación electrónica acreditan la identidad del ciudadano.",
+  "referencia": "Ley 39/2015, art. 9"
+ },
+ {
+  "pregunta": "¿Qué es el registro electrónico?",
+  "opciones": [
+   "Un libro de firmas manual",
+   "Registro de entrada y salida de documentos por medios telemáticos",
+   "Un archivo de fotografías",
+   "Un tablón de anuncios físico"
+  ],
+  "correcta": 1,
+  "explicacion": "El registro electrónico recibe y emite documentos por vía telemática.",
+  "referencia": "Ley 39/2015, art. 16"
  }
 ]

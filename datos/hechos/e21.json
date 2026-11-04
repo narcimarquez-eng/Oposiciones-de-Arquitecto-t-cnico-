@@ -274,5 +274,89 @@
   "correcta": 0,
   "explicacion": "El vestíbulo debe tener una circunferencia libre de 1,50 m.",
   "referencia": "Decreto 293/2009, art. 66"
+ },
+ {
+  "pregunta": "¿Qué ley regula los derechos de las personas con discapacidad y su inclusión?",
+  "opciones": [
+   "Real Decreto Legislativo 1/2013",
+   "Real Decreto Legislativo 5/2015",
+   "Ley 9/2017",
+   "Ley 19/2013"
+  ],
+  "correcta": 0,
+  "explicacion": "El RDL 1/2013 aprueba el texto refundido de la Ley General de derechos de las personas con discapacidad.",
+  "referencia": "RDL 1/2013"
+ },
+ {
+  "pregunta": "¿Qué decreto andaluz establece las normas para la accesibilidad en las infraestructuras y edificación?",
+  "opciones": [
+   "Decreto 314/2006",
+   "Decreto 293/2009",
+   "Decreto 1027/2007",
+   "Decreto 842/2002"
+  ],
+  "correcta": 1,
+  "explicacion": "El Decreto 293/2009 aprueba las normas de accesibilidad en Andalucía.",
+  "referencia": "Decreto 293/2009"
+ },
+ {
+  "pregunta": "¿Qué DB del CTE regula la accesibilidad?",
+  "opciones": [
+   "DB-SUA 1",
+   "DB-SI 5",
+   "DB-SUA 9",
+   "DB-HE 4"
+  ],
+  "correcta": 2,
+  "explicacion": "El DB-SUA 9 regula las condiciones de accesibilidad de los edificios.",
+  "referencia": "CTE, DB-SUA 9"
+ },
+ {
+  "pregunta": "¿Qué itinerario debe permitir el acceso a todas las personas al edificio?",
+  "opciones": [
+   "Itinerario de emergencia sin salida",
+   "Itinerario de servicio",
+   "Itinerario de carga",
+   "Itinerario accesible"
+  ],
+  "correcta": 3,
+  "explicacion": "El itinerario accesible permite el acceso y uso de forma autónoma.",
+  "referencia": "CTE, DB-SUA 9"
+ },
+ {
+  "pregunta": "¿Qué plazas de aparcamiento se reservan para personas con movilidad reducida?",
+  "opciones": [
+   "Plazas reservadas accesibles",
+   "Plazas de motos",
+   "Plazas de camiones",
+   "Plazas de carga y descarga"
+  ],
+  "correcta": 0,
+  "explicacion": "Se reservan plazas accesibles para personas con movilidad reducida.",
+  "referencia": "CTE, DB-SUA 9"
+ },
+ {
+  "pregunta": "¿Qué concepto define el diseño que pueden usar todas las personas sin adaptación?",
+  "opciones": [
+   "Diseño para todos o diseño universal",
+   "Diseño restringido",
+   "Diseño de lujo",
+   "Diseño sin normativa"
+  ],
+  "correcta": 0,
+  "explicacion": "El diseño universal busca entornos utilizables por todas las personas.",
+  "referencia": "RDL 1/2013"
+ },
+ {
+  "pregunta": "¿Qué se entiende por itinerario practicable?",
+  "opciones": [
+   "Recorrido sin obstáculos ni barreras de uso",
+   "Recorrido con escaleras obligatorias",
+   "Recorrido solo para vehículos",
+   "Recorrido de servicio sin acceso"
+  ],
+  "correcta": 0,
+  "explicacion": "El itinerario practicable carece de barreras para su uso con autonomía.",
+  "referencia": "Decreto 293/2009"
  }
 ]

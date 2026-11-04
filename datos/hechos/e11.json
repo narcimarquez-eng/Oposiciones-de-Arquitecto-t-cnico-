@@ -250,5 +250,113 @@
   "correcta": 0,
   "explicacion": "La accesibilidad entre plantas se exige con más de dos plantas que salvar.",
   "referencia": "DB-SUA 9, apartado 1.1.2"
+ },
+ {
+  "pregunta": "¿Qué DB del CTE regula la contribución solar mínima de agua caliente?",
+  "opciones": [
+   "DB-HE 4",
+   "DB-HE 1",
+   "DB-HE 3",
+   "DB-HS 2"
+  ],
+  "correcta": 0,
+  "explicacion": "El DB-HE 4 fija la contribución solar mínima para el agua caliente sanitaria.",
+  "referencia": "CTE, DB-HE 4"
+ },
+ {
+  "pregunta": "¿Qué DB del CTE regula la contribución fotovoltaica mínima?",
+  "opciones": [
+   "DB-HE 4",
+   "DB-HE 5",
+   "DB-HE 2",
+   "DB-HS 5"
+  ],
+  "correcta": 1,
+  "explicacion": "El DB-HE 5 regula la contribución fotovoltaica mínima de energía eléctrica.",
+  "referencia": "CTE, DB-HE 5"
+ },
+ {
+  "pregunta": "¿Qué DB del CTE regula la protección frente al rayo?",
+  "opciones": [
+   "DB-SU 1",
+   "DB-SI 1",
+   "DB-SU 8",
+   "DB-HR"
+  ],
+  "correcta": 2,
+  "explicacion": "El DB-SU 8 regula la protección frente a la acción del rayo.",
+  "referencia": "CTE, DB-SU 8"
+ },
+ {
+  "pregunta": "¿Qué DB del CTE regula la protección frente al ruido?",
+  "opciones": [
+   "DB-HS 3",
+   "DB-SE",
+   "DB-HE 3",
+   "DB-HR"
+  ],
+  "correcta": 3,
+  "explicacion": "El DB-HR establece las exigencias de protección frente al ruido.",
+  "referencia": "CTE, DB-HR"
+ },
+ {
+  "pregunta": "¿Qué elemento protege una instalación frente al impacto de rayos?",
+  "opciones": [
+   "Sistema de pararrayos o protección contra el rayo",
+   "Contador de agua",
+   "Canalón",
+   "Sifón"
+  ],
+  "correcta": 0,
+  "explicacion": "Los sistemas de protección captan la descarga del rayo y la conducen a tierra.",
+  "referencia": "Tema e11"
+ },
+ {
+  "pregunta": "¿Qué DB del CTE regula la protección frente a la humedad?",
+  "opciones": [
+   "DB-HS 2",
+   "DB-HS 1",
+   "DB-HE 1",
+   "DB-SI 2"
+  ],
+  "correcta": 1,
+  "explicacion": "El DB-HS 1 regula la protección frente a la humedad.",
+  "referencia": "CTE, DB-HS 1"
+ },
+ {
+  "pregunta": "¿Qué elementos elevadores regula la normativa de accesibilidad y seguridad de los edificios?",
+  "opciones": [
+   "Ascensores",
+   "Escaleras de mano",
+   "Andamios volados",
+   "Grúas torre sin control"
+  ],
+  "correcta": 0,
+  "explicacion": "Los ascensores son los aparatos elevadores de uso habitual en los edificios.",
+  "referencia": "Tema e11"
+ },
+ {
+  "pregunta": "¿Qué elemento de protección contra incendios se instala en instalaciones de edificios?",
+  "opciones": [
+   "Cortina de tela",
+   "Sistema de detección de incendios",
+   "Cuadro de mandos del ascensor sin protección",
+   "Bombilla decorativa"
+  ],
+  "correcta": 1,
+  "explicacion": "Los detectores de incendio forman parte de los sistemas de protección.",
+  "referencia": "CTE, DB-SI 4"
+ },
+ {
+  "pregunta": "¿Qué DB del CTE regula la limitación de la demanda energética?",
+  "opciones": [
+   "DB-HS 1",
+   "DB-SI 3",
+   "DB-HE 1",
+   "DB-SUA 2"
+  ],
+  "correcta": 2,
+  "explicacion": "El DB-HE 1 regula la limitación de la demanda energética de los edificios.",
+  "referencia": "CTE, DB-HE 1"
  }
 ]

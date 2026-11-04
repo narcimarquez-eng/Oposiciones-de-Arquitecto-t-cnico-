@@ -274,5 +274,89 @@
   "correcta": 0,
   "explicacion": "La temperatura de cálculo para calefacción es de 21 ºC.",
   "referencia": "RITE, tabla 1.4.1.1"
+ },
+ {
+  "pregunta": "¿Qué reglamento regula las instalaciones térmicas de los edificios?",
+  "opciones": [
+   "RITE, Real Decreto 1027/2007",
+   "RD 842/2002",
+   "RD 346/2011",
+   "RD 314/2006"
+  ],
+  "correcta": 0,
+  "explicacion": "El RITE, aprobado por el RD 1027/2007, regula las instalaciones térmicas.",
+  "referencia": "RD 1027/2007 (RITE)"
+ },
+ {
+  "pregunta": "¿Qué DB del CTE regula la calidad del aire interior?",
+  "opciones": [
+   "DB-HS 4",
+   "DB-HS 3",
+   "DB-HE 2",
+   "DB-SI 3"
+  ],
+  "correcta": 1,
+  "explicacion": "El DB-HS 3 regula la calidad del aire interior y la ventilación.",
+  "referencia": "CTE, DB-HS 3"
+ },
+ {
+  "pregunta": "¿Qué equipo impulsa aire tratado a los locales?",
+  "opciones": [
+   "Contador",
+   "Sifón",
+   "Climatizador",
+   "Acumulador de agua fría"
+  ],
+  "correcta": 2,
+  "explicacion": "El climatizador trata e impulsa aire a los locales.",
+  "referencia": "Tema e10"
+ },
+ {
+  "pregunta": "¿Qué riesgo sanitario se asocia a las torres de refrigeración mal mantenidas?",
+  "opciones": [
+   "Tétanos",
+   "Sarampión",
+   "Gripe aviar",
+   "Legionelosis"
+  ],
+  "correcta": 3,
+  "explicacion": "Las torres de refrigeración pueden favorecer la proliferación de Legionella.",
+  "referencia": "Tema e10"
+ },
+ {
+  "pregunta": "¿Qué elementos conducen el aire en una instalación de ventilación?",
+  "opciones": [
+   "Conductos",
+   "Bajantes",
+   "Canalones",
+   "Llaves de paso"
+  ],
+  "correcta": 0,
+  "explicacion": "Los conductos distribuyen el aire en la ventilación mecánica.",
+  "referencia": "Tema e10"
+ },
+ {
+  "pregunta": "¿Qué equipo transfiere calor del exterior al interior del edificio?",
+  "opciones": [
+   "Caldera de gasoil sin consumo",
+   "Bomba de calor",
+   "Termo eléctrico",
+   "Sumidero"
+  ],
+  "correcta": 1,
+  "explicacion": "La bomba de calor transfiere energía térmica desde el exterior.",
+  "referencia": "Tema e10"
+ },
+ {
+  "pregunta": "¿Qué elemento regula el caudal de aire que pasa por una rejilla?",
+  "opciones": [
+   "Compuerta o regulador",
+   "Sifón",
+   "Llave de paso de agua",
+   "Pararrayos"
+  ],
+  "correcta": 0,
+  "explicacion": "Las compuertas y reguladores regulan el caudal de aire en la ventilación.",
+  "referencia": "Tema e10"
  }
 ]

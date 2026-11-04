@@ -262,5 +262,113 @@
   "correcta": 0,
   "explicacion": "La cubierta inclinada o tejado tiene pendiente pronunciada.",
   "referencia": "DB-HS 1, apartado 2.4.3.1"
+ },
+ {
+  "pregunta": "¿Qué DB del CTE regula la impermeabilización de cubiertas?",
+  "opciones": [
+   "DB-HS 1",
+   "DB-HS 3",
+   "DB-SI 1",
+   "DB-HE 1"
+  ],
+  "correcta": 0,
+  "explicacion": "El DB-HS 1 regula la protección frente a la humedad, incluida la impermeabilización de cubiertas.",
+  "referencia": "CTE, DB-HS 1"
+ },
+ {
+  "pregunta": "¿Qué tipo de cubierta necesita mayor pendiente y se cubre con teja?",
+  "opciones": [
+   "Cubierta plana transitable",
+   "Cubierta inclinada",
+   "Cubierta ajardinada sin pendiente",
+   "Terraza industrial"
+  ],
+  "correcta": 1,
+  "explicacion": "Las cubiertas inclinadas con teja necesitan pendiente para evacuar el agua.",
+  "referencia": "Tema e07"
+ },
+ {
+  "pregunta": "¿Qué capa impide el paso del agua al interior de la cubierta?",
+  "opciones": [
+   "Capa de tierra vegetal",
+   "Capa de grava",
+   "Impermeabilización",
+   "Capa de arena"
+  ],
+  "correcta": 2,
+  "explicacion": "La capa de impermeabilización impide el paso del agua al interior.",
+  "referencia": "Tema e07"
+ },
+ {
+  "pregunta": "¿Qué capa impide la condensación intersticial en la cubierta?",
+  "opciones": [
+   "Capa de gravas",
+   "Canalón",
+   "Tejas cerámicas",
+   "Barrera de vapor"
+  ],
+  "correcta": 3,
+  "explicacion": "La barrera de vapor limita el paso del vapor de agua y evita condensaciones.",
+  "referencia": "Tema e07"
+ },
+ {
+  "pregunta": "¿Qué cubierta coloca el aislamiento sobre la impermeabilización?",
+  "opciones": [
+   "Cubierta invertida",
+   "Cubierta a dos aguas",
+   "Cubierta de chapa",
+   "Cubierta de teja árabe"
+  ],
+  "correcta": 0,
+  "explicacion": "En la cubierta invertida el aislamiento va sobre la impermeabilización.",
+  "referencia": "Tema e07"
+ },
+ {
+  "pregunta": "¿Qué elemento recoge el agua de la cubierta y la conduce a la bajante?",
+  "opciones": [
+   "Solera",
+   "Canalón",
+   "Dintel",
+   "Zócalo"
+  ],
+  "correcta": 1,
+  "explicacion": "El canalón recoge el agua de la cubierta y la conduce a las bajantes.",
+  "referencia": "Tema e07"
+ },
+ {
+  "pregunta": "¿Qué elemento de cubierta evacua el agua de lluvia por el interior del edificio?",
+  "opciones": [
+   "Sumidero o bajante interior",
+   "Cumbrera",
+   "Alero",
+   "Peto de fachada"
+  ],
+  "correcta": 0,
+  "explicacion": "En cubiertas planas el agua se recoge en sumideros y se evacua por bajantes.",
+  "referencia": "Tema e07"
+ },
+ {
+  "pregunta": "¿Qué capa aísla térmicamente la cubierta y se sitúa habitualmente bajo la impermeabilización?",
+  "opciones": [
+   "Capa de rodadura",
+   "Aislamiento térmico",
+   "Mortero de agarre",
+   "Canto rodado"
+  ],
+  "correcta": 1,
+  "explicacion": "El aislamiento térmico reduce las pérdidas de calor a través de la cubierta.",
+  "referencia": "Tema e07"
+ },
+ {
+  "pregunta": "¿Qué tipo de cubierta permite el uso de su superficie como terraza transitable?",
+  "opciones": [
+   "Cubierta de teja árabe",
+   "Cubierta de pizarra",
+   "Cubierta plana transitable",
+   "Cubierta a una vertiente de chapa"
+  ],
+  "correcta": 2,
+  "explicacion": "La cubierta plana transitable se diseña para permitir el paso de personas.",
+  "referencia": "Tema e07"
  }
 ]

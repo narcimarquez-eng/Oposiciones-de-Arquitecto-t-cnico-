@@ -262,5 +262,101 @@
   "correcta": 0,
   "explicacion": "La evaluación de estructuras de hormigón existentes está en el art. 74 del Código Estructural.",
   "referencia": "Código Estructural, art. 74"
+ },
+ {
+  "pregunta": "¿Qué estudio previo es necesario antes de rehabilitar un edificio existente?",
+  "opciones": [
+   "Estudio y análisis previos del estado del edificio",
+   "Ninguno si el edificio es antiguo",
+   "Solo un plano de situación",
+   "Solo la licencia de obra"
+  ],
+  "correcta": 0,
+  "explicacion": "Antes de intervenir es necesario analizar el estado existente del edificio.",
+  "referencia": "Tema e15"
+ },
+ {
+  "pregunta": "¿Qué ley regula la rehabilitación, regeneración y renovación urbanas?",
+  "opciones": [
+   "Ley 38/1999",
+   "Ley 8/2013",
+   "Ley 9/2017",
+   "Ley 7/1985"
+  ],
+  "correcta": 1,
+  "explicacion": "La Ley 8/2013 regula la rehabilitación, regeneración y renovación urbanas.",
+  "referencia": "Ley 8/2013"
+ },
+ {
+  "pregunta": "¿Qué trabajo permite conocer la estructura existente antes de intervenir?",
+  "opciones": [
+   "Pintado de fachada",
+   "Colocación de rótulos",
+   "Catas o calicatas",
+   "Desbroce de jardines"
+  ],
+  "correcta": 2,
+  "explicacion": "Las catas permiten comprobar materiales y estado de los elementos existentes.",
+  "referencia": "Tema e15"
+ },
+ {
+  "pregunta": "¿Qué trabajo provisional sostiene un elemento durante una obra de rehabilitación?",
+  "opciones": [
+   "Alicatado",
+   "Enlucido",
+   "Pintura plástica",
+   "Apeo o apuntalamiento"
+  ],
+  "correcta": 3,
+  "explicacion": "El apeo sostiene provisionalmente los elementos mientras se interviene.",
+  "referencia": "Tema e15"
+ },
+ {
+  "pregunta": "¿Qué documento evalúa el estado de conservación de un edificio?",
+  "opciones": [
+   "Informe de evaluación del edificio",
+   "Acta de replanteo",
+   "Certificado de final de obra sin inspección",
+   "Contrato de suministro"
+  ],
+  "correcta": 0,
+  "explicacion": "El informe de evaluación de edificios valora el estado de conservación del inmueble.",
+  "referencia": "Ley 8/2013"
+ },
+ {
+  "pregunta": "¿Qué inspección técnica es obligatoria para los edificios antiguos?",
+  "opciones": [
+   "Inspección de tráfico",
+   "Inspección técnica de edificios (ITE)",
+   "Inspección sanitaria de alimentos",
+   "Inspección fiscal de sociedades"
+  ],
+  "correcta": 1,
+  "explicacion": "La ITE es obligatoria para evaluar el estado de conservación de los edificios.",
+  "referencia": "Ley 8/2013"
+ },
+ {
+  "pregunta": "¿Qué técnica consiste en inyectar mortero o resina en grietas para consolidarlas?",
+  "opciones": [
+   "Inyección de grietas",
+   "Pintado con cal",
+   "Desbroce",
+   "Alicatado"
+  ],
+  "correcta": 0,
+  "explicacion": "La inyección de grietas rellena las fisuras para restituir la continuidad del elemento.",
+  "referencia": "Tema e15"
+ },
+ {
+  "pregunta": "¿Qué término define la intervención que devuelve un edificio a un estado anterior conocido?",
+  "opciones": [
+   "Demolición",
+   "Restauración",
+   "Ampliación",
+   "Ocupación"
+  ],
+  "correcta": 1,
+  "explicacion": "La restauración devuelve el edificio a su estado original documentado.",
+  "referencia": "Ley 16/1985 (patrimonio)"
  }
 ]

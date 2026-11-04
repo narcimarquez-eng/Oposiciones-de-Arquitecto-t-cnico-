@@ -250,5 +250,113 @@
   "correcta": 0,
   "explicacion": "La separación en origen se hace de acuerdo con el sistema público de recogida.",
   "referencia": "CTE, art. 13.2"
+ },
+ {
+  "pregunta": "¿Qué DB regula la gestión de los residuos en los edificios?",
+  "opciones": [
+   "DB-HS 2",
+   "DB-HS 1",
+   "DB-HS 5",
+   "DB-SI 2"
+  ],
+  "correcta": 0,
+  "explicacion": "El DB-HS 2 regula los espacios para residuos.",
+  "referencia": "CTE, DB-HS 2"
+ },
+ {
+  "pregunta": "¿Qué DB regula la protección frente al gas radón?",
+  "opciones": [
+   "DB-HS 3",
+   "DB-HS 6",
+   "DB-HS 4",
+   "DB-HR"
+  ],
+  "correcta": 1,
+  "explicacion": "El DB-HS 6 regula la protección frente a la exposición al radón.",
+  "referencia": "CTE, DB-HS 6"
+ },
+ {
+  "pregunta": "¿Qué DB regula la protección frente al ruido?",
+  "opciones": [
+   "DB-HS 3",
+   "DB-HS 6",
+   "DB-HR",
+   "DB-SUA 4"
+  ],
+  "correcta": 2,
+  "explicacion": "El DB-HR regula el aislamiento acústico y el ruido.",
+  "referencia": "CTE, DB-HR"
+ },
+ {
+  "pregunta": "¿Qué DB regula la calidad del aire interior?",
+  "opciones": [
+   "DB-HS 2",
+   "DB-HS 5",
+   "DB-HE 4",
+   "DB-HS 3"
+  ],
+  "correcta": 3,
+  "explicacion": "El DB-HS 3 regula la calidad del aire interior.",
+  "referencia": "CTE, DB-HS 3"
+ },
+ {
+  "pregunta": "¿Qué DB regula los espacios para la limpieza de los edificios y el mantenimiento de la higiene?",
+  "opciones": [
+   "DB-HS",
+   "DB-SE",
+   "DB-SI",
+   "DB-HE"
+  ],
+  "correcta": 0,
+  "explicacion": "La seguridad de salubridad es regulada por el DB-HS, en su conjunto.",
+  "referencia": "CTE, DB-HS"
+ },
+ {
+  "pregunta": "¿Qué requisito de salud se refiere a la higiene y prevención de la humedad?",
+  "opciones": [
+   "Seguridad estructural",
+   "Higiene, salud y protección del medio ambiente",
+   "Seguridad de incendio",
+   "Ahorro energético"
+  ],
+  "correcta": 1,
+  "explicacion": "El requisito básico de higiene, salud y protección del medio ambiente incluye la humedad y la calidad del aire.",
+  "referencia": "CTE, art. 13"
+ },
+ {
+  "pregunta": "¿Qué espacio debe reservarse en el edificio para el almacenamiento de residuos?",
+  "opciones": [
+   "Cuarto o espacio de residuos",
+   "Garaje de vehículos",
+   "Sala de reuniones",
+   "Cocina de restaurante"
+  ],
+  "correcta": 0,
+  "explicacion": "El DB-HS 2 exige espacios para el almacenamiento de residuos.",
+  "referencia": "CTE, DB-HS 2"
+ },
+ {
+  "pregunta": "¿Qué tratamiento se aplica para proteger un sótano de la humedad del terreno?",
+  "opciones": [
+   "Pintura de tiza",
+   "Impermeabilización",
+   "Entarimado",
+   "Falso techo"
+  ],
+  "correcta": 1,
+  "explicacion": "La impermeabilización protege los muros enterrados de la humedad del terreno.",
+  "referencia": "CTE, DB-HS 1"
+ },
+ {
+  "pregunta": "¿Qué se entiende por protección del medio ambiente en la edificación?",
+  "opciones": [
+   "Aumentar el consumo de agua",
+   "Eliminar la ventilación",
+   "Minimizar el impacto ambiental de la construcción y el uso",
+   "Ignorar los residuos"
+  ],
+  "correcta": 2,
+  "explicacion": "El requisito de protección del medio ambiente busca reducir el impacto ambiental del edificio.",
+  "referencia": "CTE, art. 13"
  }
 ]

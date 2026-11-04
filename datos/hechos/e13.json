@@ -322,5 +322,41 @@
   "correcta": 0,
   "explicacion": "El cierre automático de las puertas resistentes al fuego sigue la norma UNE-EN 1154.",
   "referencia": "DB-SI, generalidades punto 3"
+ },
+ {
+  "pregunta": "¿Cómo está formado un vidrio laminado?",
+  "opciones": [
+   "Dos vidrios unidos por una lámina intermedia",
+   "Un único vidrio de espesor fino",
+   "Dos vidrios separados por aire sin lámina",
+   "Un vidrio con pintura al fuego"
+  ],
+  "correcta": 0,
+  "explicacion": "El vidrio laminado está formado por vidrios unidos mediante una lámina intermedia.",
+  "referencia": "DB-SUA 2"
+ },
+ {
+  "pregunta": "¿Qué vidrio se templa para aumentar su resistencia mecánica?",
+  "opciones": [
+   "Vidrio de botella",
+   "Vidrio templado",
+   "Vidrio de ventana sin tratar",
+   "Vidrio soplado"
+  ],
+  "correcta": 1,
+  "explicacion": "El vidrio templado se somete a tratamiento térmico para aumentar su resistencia.",
+  "referencia": "DB-SUA 2"
+ },
+ {
+  "pregunta": "¿Qué elemento impide la entrada forzada en un hueco?",
+  "opciones": [
+   "Cortina de tela",
+   "Mosquitera",
+   "Cerradura de seguridad o reja",
+   "Tapete de bienvenida"
+  ],
+  "correcta": 2,
+  "explicacion": "Las cerraduras de seguridad y las rejas dificultan el acceso forzado.",
+  "referencia": "Tema e13"
  }
 ]

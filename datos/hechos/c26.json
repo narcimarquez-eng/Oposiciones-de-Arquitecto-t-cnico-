@@ -310,5 +310,101 @@
   "correcta": 0,
   "explicacion": "El registro electrónico debe cumplir las garantías de protección de datos.",
   "referencia": "LPAC, art. 16.1"
+ },
+ {
+  "pregunta": "¿Qué plazo tiene el responsable para responder a una solicitud de derecho de acceso según el RGPD?",
+  "opciones": [
+   "Un mes",
+   "Tres días hábiles",
+   "Seis meses",
+   "Un año"
+  ],
+  "correcta": 0,
+  "explicacion": "El RGPD fija con carácter general un mes para responder, prorrogable en ciertos casos.",
+  "referencia": "RGPD, art. 12.3"
+ },
+ {
+  "pregunta": "¿Qué derecho permite pedir la supresión de los datos personales?",
+  "opciones": [
+   "Derecho de huelga",
+   "Derecho de supresión (derecho al olvido)",
+   "Derecho de voto",
+   "Derecho de petición pública"
+  ],
+  "correcta": 1,
+  "explicacion": "El derecho de supresión permite obtener la eliminación de datos en los casos previstos.",
+  "referencia": "RGPD, art. 17"
+ },
+ {
+  "pregunta": "¿Qué derecho permite oponerse al tratamiento basado en interés legítimo?",
+  "opciones": [
+   "Derecho de propiedad",
+   "Derecho de reunión",
+   "Derecho de oposición",
+   "Derecho de sufragio"
+  ],
+  "correcta": 2,
+  "explicacion": "El derecho de oposición permite al interesado rechazar el tratamiento en los casos previstos.",
+  "referencia": "RGPD, art. 21"
+ },
+ {
+  "pregunta": "¿Qué derecho permite recibir los datos en formato estructurado para transmitirlos a otro responsable?",
+  "opciones": [
+   "Derecho de acceso sin copia",
+   "Derecho de rectificación",
+   "Derecho de oposición",
+   "Derecho a la portabilidad"
+  ],
+  "correcta": 3,
+  "explicacion": "El derecho a la portabilidad permite recibir y transmitir los datos en formato estructurado.",
+  "referencia": "RGPD, art. 20"
+ },
+ {
+  "pregunta": "¿Qué autoridad de control existe a nivel estatal en España?",
+  "opciones": [
+   "Agencia Española de Protección de Datos",
+   "Agencia Tributaria",
+   "Agencia Estatal de Meteorología",
+   "Agencia de Vivienda"
+  ],
+  "correcta": 0,
+  "explicacion": "La Agencia Española de Protección de Datos es la autoridad estatal de control.",
+  "referencia": "LOPDGDD"
+ },
+ {
+  "pregunta": "¿Qué principio exige que los datos se traten de forma lícita, leal y transparente?",
+  "opciones": [
+   "Opacidad",
+   "Licitud, lealtad y transparencia",
+   "Secreto absoluto",
+   "Retroactividad"
+  ],
+  "correcta": 1,
+  "explicacion": "Este principio del tratamiento está recogido en el art. 5.1 a) del RGPD.",
+  "referencia": "RGPD, art. 5.1 a)"
+ },
+ {
+  "pregunta": "¿Qué sanción máxima prevé el RGPD en porcentaje de la facturación mundial?",
+  "opciones": [
+   "1 %",
+   "10 %",
+   "4 % de la facturación anual",
+   "0,5 %"
+  ],
+  "correcta": 2,
+  "explicacion": "El art. 83.5 RGPD prevé multas de hasta el 4 % de la facturación anual o 20 millones de euros.",
+  "referencia": "RGPD, art. 83.5"
+ },
+ {
+  "pregunta": "¿Cuál es la edad mínima para consentir el tratamiento de datos personales en España según la LOPDGDD?",
+  "opciones": [
+   "12 años",
+   "16 años",
+   "18 años",
+   "14 años"
+  ],
+  "correcta": 3,
+  "explicacion": "La LOPDGDD fija en catorce años la edad para consentir el tratamiento de datos.",
+  "referencia": "LOPDGDD, art. 7"
  }
 ]

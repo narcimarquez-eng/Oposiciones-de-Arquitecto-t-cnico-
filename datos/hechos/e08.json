@@ -298,5 +298,65 @@
   "correcta": 0,
   "explicacion": "La caída de tensión debe ser inferior al 3 % en los circuitos interiores de viviendas.",
   "referencia": "ITC-BT-19, apartado 2.2.2"
+ },
+ {
+  "pregunta": "¿Qué ITC del REBT regula las instalaciones en locales de pública concurrencia?",
+  "opciones": [
+   "ITC-BT-28",
+   "ITC-BT-04",
+   "ITC-BT-18",
+   "ITC-BT-25"
+  ],
+  "correcta": 0,
+  "explicacion": "La ITC-BT-28 regula las instalaciones en locales de pública concurrencia.",
+  "referencia": "ITC-BT-28"
+ },
+ {
+  "pregunta": "¿Qué certificado documenta la verificación de una instalación eléctrica?",
+  "opciones": [
+   "Certificado de empadronamiento",
+   "Certificado de instalación eléctrica",
+   "Certificado de nacimiento",
+   "Carta de pago"
+  ],
+  "correcta": 1,
+  "explicacion": "El certificado de instalación recoge la verificación final de la instalación eléctrica.",
+  "referencia": "RD 842/2002"
+ },
+ {
+  "pregunta": "¿Qué elementos protegen a las personas frente a contactos indirectos?",
+  "opciones": [
+   "Cable de cobre sin funda",
+   "Bombilla de bajo consumo",
+   "Interruptor diferencial y puesta a tierra",
+   "Enchufe de dos patas"
+  ],
+  "correcta": 2,
+  "explicacion": "El diferencial y la puesta a tierra protegen frente a contactos indirectos.",
+  "referencia": "ITC-BT-24"
+ },
+ {
+  "pregunta": "¿Qué significa RITI en una ICT?",
+  "opciones": [
+   "Recinto impermeable de tejados",
+   "Red interior de telefonía independiente",
+   "Recinto de ITV",
+   "Recinto inferior de instalaciones de telecomunicaciones"
+  ],
+  "correcta": 3,
+  "explicacion": "El RITI es el recinto inferior de la infraestructura común de telecomunicaciones.",
+  "referencia": "RD 346/2011, anexo II"
+ },
+ {
+  "pregunta": "¿Qué tipo de cable se usa habitualmente en redes de telecomunicaciones de la ICT?",
+  "opciones": [
+   "Fibra óptica o cable coaxial",
+   "Cable de cartón",
+   "Hilo de algodón",
+   "Cuerda de esparto"
+  ],
+  "correcta": 0,
+  "explicacion": "Las ICT emplean cables de fibra óptica o coaxial para la distribución de señales.",
+  "referencia": "RD 346/2011"
  }
 ]
