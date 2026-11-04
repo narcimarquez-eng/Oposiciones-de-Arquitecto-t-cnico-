@@ -1,0 +1,202 @@
+{
+  "id": "e14",
+  "resumen": [
+    {
+      "titulo": "Marco normativo",
+      "puntos": [
+        "Las urbanizaciones no tienen documento básico del CTE. Sus condiciones básicas de accesibilidad están en el RD 505/2007 (espacios públicos urbanizados) y en la Orden TMA/851/2021, que desarrolla el documento técnico.",
+        "Planeamiento, viales, redes y jardinería se rigen por la normativa urbanística y municipal, que no está en el repositorio."
+      ]
+    },
+    {
+      "titulo": "Itinerario peatonal accesible",
+      "puntos": [
+        "Anchura libre de paso no inferior a 1,80 m; altura libre no inferior a 2,20 m; pendiente transversal máxima del 2 % y longitudinal máxima del 6 % (Orden TMA/851/2021, art. 5.2, letras b, c, f y g).",
+        "Itinerario continuo y sin escalones sueltos, que permita la circulación autónoma; franja-guía si no discurre junto a la fachada (RD 505/2007, art. 11.1; Orden, art. 5.2, letra a)."
+      ]
+    },
+    {
+      "titulo": "Pavimentos y rejillas",
+      "puntos": [
+        "Pavimento duro y estable, sin resaltes superiores a 4 mm y con resbaladicidad de zonas exteriores del DB-SUA (Orden TMA/851/2021, art. 11.1). Pavimento blando admisible con compactación superior al 90 % (Proctor modificado, UNE 103501) (art. 11.2).",
+        "Rejillas enrasadas con aberturas que no admitan un círculo de 1,6 cm de diámetro y superficie no deslizante (Orden, art. 12.1, letra a). Alcorques protegidos con rejilla o material drenante (art. 12.1, letra b)."
+      ]
+    },
+    {
+      "titulo": "Rampas y vados",
+      "puntos": [
+        "Rampa: anchura libre de 1,80 m, longitud máxima de 9 m, pendiente longitudinal del 10 % en tramos de hasta 3 m y del 8 % en tramos de hasta 9 m, y transversal del 2 % (Orden TMA/851/2021, art. 14.2).",
+        "Rellano entre tramos sin cambio de dirección con el ancho de la rampa y profundidad de 1,50 m (art. 14.3). Vados peatonales con pavimento diferenciado en textura y color (RD 505/2007, art. 12.2)."
+      ]
+    },
+    {
+      "titulo": "Mobiliario y ámbito de paso",
+      "puntos": [
+        "El mobiliario urbano no invade el ámbito de paso, ni en el suelo ni en altura; se coloca en la banda exterior de la acera (RD 505/2007, art. 15.1).",
+        "Elementos puntuales y no repetitivos admitidos como excepción, garantizando al menos el paso normal de peatones (art. 11.3)."
+      ]
+    },
+    {
+      "titulo": "Zanjas y redes",
+      "puntos": [
+        "Localizar y reducir al mínimo los peligros de cables y conducciones subterráneas; prevenir el sepultamiento y la irrupción de agua (RD 1627/1997, anexo IV, apartado 9.a y 9.b).",
+        "Las tapas de las redes que sobresalen del pavimento no se admiten en el itinerario accesible (Orden TMA/851/2021, art. 12)."
+      ]
+    },
+    {
+      "titulo": "Zonas de estancia y mantenimiento",
+      "puntos": [
+        "En plazas, parques y jardines, itinerario con continuidad hasta los puntos de interés (RD 505/2007, art. 11.4).",
+        "Mantenimiento: el resalte de más de 4 mm en el itinerario lo incumple; la resbaladicidad disminuye con el uso (Orden TMA/851/2021, art. 11.1)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "RD-505-2007",
+      "rol": "Condiciones básicas de accesibilidad de los espacios públicos urbanizados (arts. 9, 10, 11, 12, 14, 15 y 16)"
+    },
+    {
+      "id": "TMA-851-2021",
+      "rol": "Desarrollo técnico de la accesibilidad en espacios públicos (arts. 5, 10, 11, 12 y 14)"
+    },
+    {
+      "id": "RD-1627-1997",
+      "rol": "Zanjas y redes en la vía pública (anexo IV, apartados 9 y 10)"
+    },
+    {
+      "id": "DB-SUA",
+      "rol": "Resbaladicidad de los suelos exteriores (SUA 1, tabla 1.2)"
+    },
+    {
+      "id": "CTE",
+      "rol": "Seguridad de utilización (art. 12.1) y referencia a la resbaladicidad (art. 12)"
+    },
+    {
+      "id": "LPRL",
+      "rol": "Marco de la prevención de riesgos laborales (art. 16, en parte)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según la Orden TMA/851/2021, art. 5.2, letra b, ¿qué anchura libre de paso debe tener como mínimo un itinerario peatonal accesible?",
+      "opciones": [
+        "1,80 m",
+        "2,50 m",
+        "1,20 m",
+        "1,50 m"
+      ],
+      "correcta": 0,
+      "explicacion": "Todo itinerario peatonal accesible tendrá una anchura libre de paso no inferior a 1,80 m en todo su desarrollo.",
+      "referencia": "Orden TMA/851/2021, art. 5.2, letra b)"
+    },
+    {
+      "pregunta": "Según la Orden TMA/851/2021, art. 5.2, letras f y g, ¿cuáles son las pendientes máximas transversal y longitudinal del itinerario accesible?",
+      "opciones": [
+        "10 % transversal y 12 % longitudinal",
+        "1 % transversal y 3 % longitudinal",
+        "2 % transversal y 6 % longitudinal",
+        "6 % transversal y 10 % longitudinal"
+      ],
+      "correcta": 2,
+      "explicacion": "La pendiente transversal máxima es del 2 % y la longitudinal máxima, del 6 %.",
+      "referencia": "Orden TMA/851/2021, art. 5.2, letras f) y g)"
+    },
+    {
+      "pregunta": "Según la Orden TMA/851/2021, art. 11.1, ¿qué resalte máximo se admite en el pavimento del itinerario accesible?",
+      "opciones": [
+        "2 cm",
+        "10 cm",
+        "No se admite ninguno",
+        "4 mm"
+      ],
+      "correcta": 3,
+      "explicacion": "La colocación del pavimento asegurará la inexistencia de resaltes de altura superior a 4 mm.",
+      "referencia": "Orden TMA/851/2021, art. 11.1"
+    },
+    {
+      "pregunta": "Según la Orden TMA/851/2021, art. 14.2, letra c, ¿cuál es la pendiente longitudinal máxima de una rampa de tramo de hasta 3 m?",
+      "opciones": [
+        "8 %",
+        "10 %",
+        "12 %",
+        "6 %"
+      ],
+      "correcta": 1,
+      "explicacion": "La pendiente longitudinal máxima es del 10 % para tramos de hasta 3 m, y del 8 % para tramos de hasta 9 m.",
+      "referencia": "Orden TMA/851/2021, art. 14.2, letra c)"
+    },
+    {
+      "pregunta": "Según la Orden TMA/851/2021, art. 14.2, letra b, ¿cuál es la longitud máxima de un tramo de rampa en proyección horizontal?",
+      "opciones": [
+        "9 m",
+        "12 m",
+        "No hay límite",
+        "3 m"
+      ],
+      "correcta": 0,
+      "explicacion": "La longitud máxima de cada tramo de rampa en proyección horizontal es de 9 m.",
+      "referencia": "Orden TMA/851/2021, art. 14.2, letra b)"
+    },
+    {
+      "pregunta": "Según la Orden TMA/851/2021, art. 12.1, letra a, ¿qué diámetro máximo puede tener el círculo que admitan las aberturas de las rejillas enrasadas?",
+      "opciones": [
+        "10 cm",
+        "20 cm",
+        "1,6 cm",
+        "5 cm"
+      ],
+      "correcta": 2,
+      "explicacion": "Las aberturas de las rejillas y tapas de instalación en el itinerario no permiten inscribir un círculo de más de 1,6 cm de diámetro.",
+      "referencia": "Orden TMA/851/2021, art. 12.1, letra a)"
+    },
+    {
+      "pregunta": "Según el RD 505/2007, art. 15.1, ¿dónde se colocan como criterio general los elementos de mobiliario urbano?",
+      "opciones": [
+        "Sobre las rampas",
+        "En cualquier punto a elección del proyectista",
+        "En el centro del itinerario",
+        "Alineados en la banda exterior de la acera o junto a la zona de calzada"
+      ],
+      "correcta": 3,
+      "explicacion": "Como criterio general, los elementos de mobiliario urbano se dispondrán de forma alineada en la banda exterior de la acera o junto a la zona de calzada.",
+      "referencia": "RD 505/2007, art. 15.1"
+    },
+    {
+      "pregunta": "Según el RD 505/2007, art. 11.4, ¿qué se garantiza en las zonas de estancia, como plazas, parques y jardines?",
+      "opciones": [
+        "Que no haya itinerario alguno",
+        "La existencia de un itinerario con las características del capítulo y la circulación en continuidad hasta los puntos de interés",
+        "Que solo haya vallas",
+        "Que el mobiliario invada el paso"
+      ],
+      "correcta": 1,
+      "explicacion": "En las zonas de estancia se garantiza la existencia de un itinerario con las características del capítulo y la circulación en continuidad hasta los puntos de interés o de uso público.",
+      "referencia": "RD 505/2007, art. 11.4"
+    },
+    {
+      "pregunta": "Según el RD 1627/1997, anexo IV, apartado 9.a, ¿qué debe hacerse antes de comenzar los movimientos de tierras?",
+      "opciones": [
+        "Pintar el pavimento",
+        "Nada, la obra puede empezar directamente",
+        "Localizar y reducir al mínimo los peligros de cables y conducciones subterráneas",
+        "Derribar los árboles"
+      ],
+      "correcta": 2,
+      "explicacion": "Antes de comenzar los movimientos de tierras, deben tomarse medidas para localizar y reducir al mínimo los peligros debidos a cables subterráneos y demás sistemas de distribución.",
+      "referencia": "RD 1627/1997, anexo IV, apartado 9.a"
+    },
+    {
+      "pregunta": "Según el RD 505/2007, art. 12.2, ¿qué debe diferenciarse en el pavimento de los vados peatonales?",
+      "opciones": [
+        "Un pavimento diferenciado en textura y color y reconocible",
+        "Solo el color negro",
+        "Un pavimento de césped",
+        "Nada"
+      ],
+      "correcta": 0,
+      "explicacion": "En los vados peatonales se empleará un pavimento diferenciado en textura y color y reconocible, evitándose su uso en otros puntos.",
+      "referencia": "RD 505/2007, art. 12.2"
+    }
+  ]
+}

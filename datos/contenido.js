@@ -1015,6 +1015,28 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-04",
    "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 3 de septiembre de 2025). Verificados en el texto los arts. 1 (apartados 1 y 2), 3 (apartado 1, letras a a f, y el RAE), 5 (apartados 1 a 3), 11 (apartados 1, 2, 3 y 4) y la mención derogatoria del RD 88/2013 en su preámbulo y disposiciones. Pendientes: arts. 2, 4, 6 a 10 y 12 a 14, y los anexos (incluido el anexo VIII y la norma UNE 58720, no verificada)."
+  },
+  "RD-505-2007": {
+   "id": "RD-505-2007",
+   "nombre": "Condiciones básicas de accesibilidad y no discriminación en espacios públicos urbanizados y edificaciones",
+   "referencia": "Real Decreto 505/2007, de 20 de abril, por el que se aprueban las condiciones básicas de accesibilidad y no discriminación de las personas con discapacidad para el acceso y utilización de los espacios públicos urbanizados y edificaciones (BOE núm. 113, de 11 de mayo de 2007)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-9607",
+   "boe_id": "BOE-A-2007-9607",
+   "pdf": "leyes/BOE-A-2007-9607.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 11 de marzo de 2010). Verificados en el texto los arts. 9 (puntos 1 y 2), 10 (encabezado), 11 (puntos 1, 2, 4 y 5), 12 (puntos 1 y 2), 15 (punto 1) y 15 (encabezado). Los arts. 13, 14 y 16 solo en sus títulos. Pendientes: el resto del articulado y las disposiciones finales (modificadas por el RD 173/2010, no verificado en el texto)."
+  },
+  "TMA-851-2021": {
+   "id": "TMA-851-2021",
+   "nombre": "Documento técnico de condiciones básicas de accesibilidad de los espacios públicos urbanizados (Orden TMA/851/2021)",
+   "referencia": "Orden TMA/851/2021, de 23 de julio, por la que se desarrolla el documento técnico de condiciones básicas de accesibilidad y no discriminación para el acceso y la utilización de los espacios públicos urbanizados (BOE núm. 180, de 29 de julio de 2021)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-13488",
+   "boe_id": "BOE-A-2021-13488",
+   "pdf": "leyes/BOE-A-2021-13488.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF consolidado descargado (fecha de última modificación no indicada en el PDF). Verificados en el texto los arts. 5 (apartado 2, letras a a g), 10 (apartado 2), 11 (puntos 1 y 2), 12 (punto 1, letras a y b), 14 (puntos 1 a 4) y los encabezados de los capítulos. Pendientes: arts. 6 a 9, 13, 15 a 16 en su cuerpo, y el capítulo VI. Deroga la Orden VIV/561/2010 con efectos de 2 de enero de 2022."
   }
  },
  "contenido": {
@@ -16720,6 +16742,673 @@ window.DATOS_ESTUDIO = {
     "leyes/BOE-A-2006-5515.pdf",
     "leyes/DB-SE-F.pdf",
     "leyes/BOE-A-1997-22614.pdf"
+   ]
+  },
+  "e13": {
+   "resumen": [
+    {
+     "titulo": "Barreras de protección",
+     "puntos": [
+      "Altura mínima de 0,90 m cuando la diferencia de cota que protegen no excede de 6 m, y de 1,10 m en el resto; 0,90 m en huecos de escalera de menos de 40 cm de anchura (DB-SUA 1, apartado 3.2.1, punto 1).",
+      "La altura se mide desde el suelo o, en escaleras, desde la línea de inclinación de los peldaños."
+     ]
+    },
+    {
+     "titulo": "Impacto en acristalamientos y puertas",
+     "puntos": [
+      "Vidrios de áreas de riesgo sin barrera de protección: clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1; excluidos los vidrios de mayor dimensión inferior a 30 cm (DB-SUA 2, apartado 1.3, punto 1).",
+      "Áreas de riesgo: en puertas, hasta 1,50 m de altura y la anchura de la puerta más 0,30 m a cada lado; en paños fijos, hasta 0,90 m (apartado 1.3, punto 2). Partes vidriadas de puertas y duchas, laminadas o templadas con impacto de nivel 3 (apartado 1.3, punto 3)."
+     ]
+    },
+    {
+     "titulo": "Señalización, atrapamiento y aprisionamiento",
+     "puntos": [
+      "Grandes superficies acristaladas que pueden confundirse con puertas: señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1).",
+      "Puerta corredera manual: holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1). Puertas con bloqueo desde el interior: desbloqueo desde el exterior (DB-SUA 3, apartado 1, punto 1)."
+     ]
+    },
+    {
+     "titulo": "Alturas de paso y barrido de puertas",
+     "puntos": [
+      "Altura libre de paso de 2,20 m en zonas de circulación y de 2,10 m en uso restringido; 2 m en umbrales de puertas (DB-SUA 2, apartado 1.1, punto 1).",
+      "Barrido de hojas que no invade el pasillo cuando tiene menos de 2,50 m de anchura (apartado 1.2, punto 1)."
+     ]
+    },
+    {
+     "titulo": "Transmitancia y permeabilidad",
+     "puntos": [
+      "Huecos: transmitancia límite de 2,7 W/m²K en la zona climática A, 2,3 en B, 2,1 en C y 1,8 en D (DB-HE 1, tabla 3.1.1.a).",
+      "Carpinterías caracterizadas por la permeabilidad al aire, en m³/h·m² o por clase según UNE-EN 12207:2017 (DB-HE 1, apartado 5.1, punto 4). Aireadores a más de 1,80 m del suelo (DB-HS 3, apartado 3.1.1, punto 1, letra e)."
+     ]
+    },
+    {
+     "titulo": "Protección frente al incendio",
+     "puntos": [
+      "Cierre automático de las puertas resistentes al fuego según UNE-EN 1154; coordinación de hojas según UNE-EN 1158 (DB-SI 1, generalidades, punto 3).",
+      "Puertas para permanecer abiertas: dispositivo de cierre automático en caso de incendio (DB-SI 1, generalidades, punto 4). Establecimientos de más de 500 m²: puertas de acceso EI2 30-C5."
+     ]
+    },
+    {
+     "titulo": "Mantenimiento y medición",
+     "puntos": [
+      "Revisión de los cierres automáticos de las puertas de incendio y de los sellantes; revisión de la lámina de los vidrios laminados (CTE, art. 8.2).",
+      "Ventanas y puertas por unidad o por metro cuadrado de hueco; acristalamientos por metro cuadrado; barandillas y barreras por metro lineal (medición de principios)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Seguridad de utilización, ahorro de energía, ruido, incendio y control de la ejecución (arts. 7, 8.2, 11, 12.1, 14.2 y 15.1)"
+    },
+    {
+     "id": "DB-SUA",
+     "rol": "Barreras de protección (SUA 1, apartado 3.2), impacto y atrapamiento (SUA 2) y aprisionamiento (SUA 3)"
+    },
+    {
+     "id": "DB-HE",
+     "rol": "Transmitancia de los huecos y caracterización de las carpinterías (HE 1, tabla 3.1.1.a y apartado 5.1)"
+    },
+    {
+     "id": "DB-SI",
+     "rol": "Puertas resistentes al fuego y cierres automáticos (SI 1, generalidades, y establecimientos)"
+    },
+    {
+     "id": "DB-HS",
+     "rol": "Permeabilidad y aireadores de la ventilación (HS 3, apartado 3.1.1) y sellado de juntas (HS 1, apartado 2.3.3.1)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Protección de huecos y trabajos en altura (arts. 4, 5 y 7)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el DB-SUA 1, apartado 3.2.1, ¿qué altura mínima tiene una barrera de protección cuando la diferencia de cota no excede de 6 m?",
+     "opciones": [
+      "0,90 m",
+      "1,10 m",
+      "1,50 m",
+      "0,60 m"
+     ],
+     "correcta": 0,
+     "explicacion": "Cuando la diferencia de cota que protegen no excede de 6 m, la altura mínima de la barrera es de 0,90 m.",
+     "referencia": "DB-SUA 1, apartado 3.2.1, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-SUA 1, apartado 3.2.1, punto 1, ¿qué altura mínima tiene una barrera cuando la diferencia de cota supera los 6 m?",
+     "opciones": [
+      "2,20 m",
+      "0,90 m",
+      "1,10 m",
+      "1,30 m"
+     ],
+     "correcta": 2,
+     "explicacion": "En el resto de los casos, la barrera tendrá una altura mínima de 1,10 m.",
+     "referencia": "DB-SUA 1, apartado 3.2.1, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-SUA 2, apartado 1.3, punto 2, ¿hasta qué altura se extiende el área de riesgo de impacto en una puerta?",
+     "opciones": [
+      "2,20 m",
+      "1,10 m",
+      "0,90 m",
+      "1,50 m"
+     ],
+     "correcta": 3,
+     "explicacion": "En puertas, el área de riesgo de impacto es la comprendida entre el nivel del suelo, una altura de 1,50 m y una anchura igual a la de la puerta más 0,30 m a cada lado.",
+     "referencia": "DB-SUA 2, apartado 1.3, punto 2, letra a"
+    },
+    {
+     "pregunta": "Según el DB-SUA 2, apartado 2, punto 1, ¿qué holgura mínima debe existir entre una puerta corredera de accionamiento manual y el objeto fijo más próximo?",
+     "opciones": [
+      "10 cm",
+      "20 cm",
+      "50 cm",
+      "5 cm"
+     ],
+     "correcta": 1,
+     "explicacion": "La distancia a hasta el objeto fijo más próximo será de 20 cm como mínimo, para evitar el atrapamiento.",
+     "referencia": "DB-SUA 2, apartado 2, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-SUA 2, apartado 1.1, punto 1, ¿qué altura libre de paso se exige en zonas de circulación?",
+     "opciones": [
+      "2,10 m en uso restringido y 2,20 m en el resto",
+      "2,50 m",
+      "3,00 m",
+      "2,00 m"
+     ],
+     "correcta": 0,
+     "explicacion": "La altura libre de paso es de 2,10 m en zonas de uso restringido y de 2,20 m en el resto de las zonas de circulación.",
+     "referencia": "DB-SUA 2, apartado 1.1, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-HE 1, tabla 3.1.1.a, ¿cuál es el valor límite de transmitancia de los huecos en la zona climática A?",
+     "opciones": [
+      "0,8 W/m²K",
+      "3,2 W/m²K",
+      "2,7 W/m²K",
+      "1,8 W/m²K"
+     ],
+     "correcta": 2,
+     "explicacion": "El valor límite de transmitancia de los huecos es de 2,7 W/m²K en la zona A (3,2 es el valor de la zona de referencia α).",
+     "referencia": "DB-HE 1, tabla 3.1.1.a"
+    },
+    {
+     "pregunta": "Según el DB-HS 3, apartado 3.1.1, punto 1, letra e, ¿a qué distancia del suelo deben situarse los aireadores?",
+     "opciones": [
+      "Mayor que 3 m",
+      "No hay distancia mínima",
+      "Mayor que 0,50 m",
+      "Mayor que 1,80 m"
+     ],
+     "correcta": 3,
+     "explicacion": "Los aireadores deben disponerse a una distancia del suelo mayor que 1,80 m.",
+     "referencia": "DB-HS 3, apartado 3.1.1, punto 1, letra e"
+    },
+    {
+     "pregunta": "Según el DB-SI 1, generalidades, punto 3, ¿a qué norma debe ajustarse el sistema de cierre automático de las puertas resistentes al fuego?",
+     "opciones": [
+      "UNE 103501",
+      "UNE-EN 1154",
+      "UNE-EN 12207",
+      "UNE-EN 12600"
+     ],
+     "correcta": 1,
+     "explicacion": "Los sistemas de cierre automático de las puertas resistentes al fuego deben consistir en un dispositivo conforme a la norma UNE-EN 1154.",
+     "referencia": "DB-SI 1, generalidades, punto 3"
+    },
+    {
+     "pregunta": "Según el DB-SUA 2, apartado 1.3, punto 3, ¿qué deben cumplir las partes vidriadas de las puertas y de los cerramientos de duchas?",
+     "opciones": [
+      "Ser transparentes sin marco",
+      "Ser de vidrio común",
+      "Ser laminadas o templadas, con resistencia al impacto de nivel 3",
+      "No tener ninguna exigencia"
+     ],
+     "correcta": 2,
+     "explicacion": "Las partes vidriadas de puertas y de cerramientos de duchas y bañeras deben ser laminadas o templadas, y resistir sin rotura un impacto de nivel 3.",
+     "referencia": "DB-SUA 2, apartado 1.3, punto 3"
+    },
+    {
+     "pregunta": "Según el DB-SUA 1, apartado 3.2.1, punto 1, ¿cómo se mide la altura de una barrera en una escalera?",
+     "opciones": [
+      "Desde la línea de inclinación definida por los vértices de los peldaños",
+      "Desde el techo del piso inferior",
+      "No se mide",
+      "Desde la cota más baja de la escalera"
+     ],
+     "correcta": 0,
+     "explicacion": "En escaleras, la altura se mide desde la línea de inclinación definida por los vértices de los peldaños, hasta el límite superior de la barrera.",
+     "referencia": "DB-SUA 1, apartado 3.2.1, punto 1"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué son las carpinterías y los elementos de protección",
+     "parrafos": [
+      "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio: ventanas, puertas exteriores e interiores y puertas de paso. Los acristalamientos son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas. Los elementos de seguridad y protección son las barreras que impiden la caída, como las barandillas, los petos y los antepechos, y los dispositivos que evitan el atrapamiento, el impacto o el aprisionamiento de las personas.",
+      "Una carpintería cumple varias funciones a la vez: deja pasar la luz y las personas, aísla térmica y acústicamente el recinto, impide la entrada de agua y aire, y en las puertas de los edificios de uso público o de los sectores de incendio, contribuye a la seguridad frente al incendio. Un examen puede pedir cualquiera de estas funciones, y la respuesta debe identificar la exigencia del CTE que la regula.",
+      "Por su posición, las carpinterías exteriores son parte de la envolvente térmica, y las interiores, de la compartimentación. Los elementos de protección, en cambio, forman parte de la exigencia de seguridad de utilización, y su regulación está en el DB-SUA, junto con los pavimentos y las escaleras."
+     ]
+    },
+    {
+     "titulo": "2. Exigencias de seguridad de utilización: barreras de protección",
+     "parrafos": [
+      "La exigencia SUA 1 pide limitar el riesgo de caídas en el uso previsto del edificio (CTE, art. 12.1). Las barreras de protección de los desniveles tienen una altura mínima que depende de la diferencia de cota que protegen: 0,90 m cuando la diferencia no excede de 6 m, y 1,10 m en el resto de los casos (DB-SUA 1, apartado 3.2.1, punto 1). Para los huecos de escaleras de anchura menor de 40 cm, la altura mínima es de 0,90 m.",
+      "La altura se mide verticalmente desde el nivel del suelo o, en las escaleras, desde la línea de inclinación definida por los vértices de los peldaños, hasta el límite superior de la barrera (apartado 3.2.1, punto 1). Esta regla es la que más se controla en la recepción de las barandillas, porque la altura en escalera es menor que la de la planta si se mide desde el suelo.",
+      "Las barreras de protección deben tener una resistencia y una rigidez suficientes para resistir la fuerza horizontal que el DB-SUA 1 fija en su apartado 3.2. Las cifras de esa fuerza y las condiciones de los huecos de la barrera no se han leído en este tema, y deben consultarse en el documento."
+     ]
+    },
+    {
+     "titulo": "3. Exigencias de seguridad frente al impacto y al atrapamiento",
+     "parrafos": [
+      "La exigencia de impacto del DB-SUA 2 regula los acristalamientos y las puertas. Los vidrios de las áreas con riesgo de impacto que no tengan una barrera de protección conforme a SUA 1 deben tener una clasificación de prestaciones X(Y)Z según la norma UNE-EN 12600, que la tabla 1.1 relaciona con la diferencia de cota a ambos lados del acristalamiento (DB-SUA 2, apartado 1.3, punto 1). Los vidrios cuya mayor dimensión no exceda de 30 cm quedan excluidos de esa condición.",
+      "Las áreas con riesgo de impacto son, en las puertas, la franja comprendida entre el suelo, una altura de 1,50 m y una anchura igual a la de la puerta más 0,30 m a cada lado; y, en los paños fijos, la comprendida entre el suelo y una altura de 0,90 m (apartado 1.3, punto 2, letras a y b). Las partes vidriadas de las puertas y de los cerramientos de duchas y bañeras deben ser laminadas o templadas, y resistir sin rotura un impacto de nivel 3 (apartado 1.3, punto 3).",
+      "Las grandes superficies acristaladas que pueden confundirse con puertas o aberturas deben tener una señalización visualmente contrastada, a una altura inferior entre 0,85 y 1,10 m y a una altura superior (DB-SUA 2, apartado 1.4, punto 1). Esa señalización protege a las personas que no ven el vidrio. Quedan fuera las superficies del interior de viviendas, y el texto admite otras excepciones según la distancia y los travesaños, que deben consultarse en el documento.",
+      "La exigencia de atrapamiento (SUA 2, apartado 2) fija una holgura de 20 cm como mínimo entre una puerta corredera de accionamiento manual y el objeto fijo más próximo, incluidos sus mecanismos de apertura y cierre (apartado 2, punto 1). Los elementos de apertura y cierre automáticos deben tener dispositivos de protección adecuados a su accionamiento (punto 2).",
+      "La exigencia de aprisionamiento (SUA 3) regula las puertas de recintos con dispositivo de bloqueo desde el interior: cuando las personas pueden quedar atrapadas, debe existir un sistema de desbloqueo desde el exterior (DB-SUA 3, apartado 1, punto 1). En las zonas de uso público, los aseos y las cabinas de vestuarios accesibles deben tener un dispositivo de llamada de asistencia accesible desde el interior (punto 2). Esa regla se aplica también a las puertas de los aseos de uso público."
+     ]
+    },
+    {
+     "titulo": "4. Exigencias de puertas: uso, anchura y barrido",
+     "parrafos": [
+      "Las puertas de los recintos que no sean de ocupación nula, situadas en el lateral de los pasillos de anchura menor de 2,50 m, deben disponerse de forma que el barrido de la hoja no invada el pasillo (DB-SUA 2, apartado 1.2, punto 1). En pasillos de más de 2,50 m, el barrido no debe invadir la anchura determinada según las condiciones de evacuación del DB-SI 3.",
+      "En las zonas de circulación, la altura libre de paso es de 2,10 m en zonas de uso restringido y de 2,20 m en el resto. En los umbrales de las puertas, la altura libre es de 2 m como mínimo (DB-SUA 2, apartado 1.1, punto 1). Esa altura afecta a la altura de los dinteles de las puertas y, por tanto, a la ejecución del cerramiento sobre el hueco.",
+      "Las puertas de vidrio que no dispongan de elementos que permitan identificarlas, como cercos o travesaños, deben señalizarse. Esa exigencia está en el DB-SUA 2, apartado 1.4, punto 2, y su aplicación es la misma que la de las grandes superficies acristaladas del apartado anterior.",
+      "Las puertas son el elemento de la carpintería que más exigencias reúne, porque deben permitir el paso y, a la vez, cerrar el recinto, resistir el fuego en los casos que lo exigen y no atrapar a nadie. Un examen puede plantear una puerta que cumple una de esas funciones y no otra, como una puerta de aseo con cerradura que impide la salida o una puerta de cortafuegos sin cierre automático. La respuesta correcta identifica la exigencia que falla y la norma que la regula."
+     ]
+    },
+    {
+     "titulo": "5. Exigencias de energía: transmitancia y permeabilidad de las carpinterías",
+     "parrafos": [
+      "El DB-HE 1 limita la transmitancia térmica de cada elemento de la envolvente. Para los huecos, que incluyen el marco, el vidrio y, en su caso, el cajón de persiana, la tabla 3.1.1.a fija un valor límite Ulim que depende de la zona climática de invierno. Para las zonas A, B, C y D, los valores son de 2,7, 2,3, 2,1 y 1,8 W/m²K, respectivamente (DB-HE 1, apartado 3.1.1, tabla 3.1.1.a, fila de huecos).",
+      "Los productos para huecos se caracterizan por la transmitancia térmica U y el factor solar g para la parte semitransparente, y por la transmitancia U y la absortividad α para los marcos (DB-HE 1, apartado 5.1, punto 3). Las carpinterías se caracterizan además por la resistencia a la permeabilidad al aire, en m³/h·m² o por su clase según la norma UNE-EN 12207:2017 (punto 4). Los valores de diseño se obtienen de los valores declarados por el fabricante (punto 5).",
+      "El pliego del proyecto debe incluir las características higrotérmicas de los productos de la envolvente, y los cálculos justificativos deben incluirse en la memoria (DB-HE 1, apartado 5.1, punto 6). Esta documentación es la que se contrasta en la recepción de las ventanas en obra."
+     ]
+    },
+    {
+     "titulo": "6. Exigencias de ventilación y ruido",
+     "parrafos": [
+      "La ventilación de las viviendas se apoya en las aberturas de admisión de las carpinterías exteriores. Como abertura de admisión se usa un aireador o una apertura fija de la carpintería, con una permeabilidad según la norma UNE-EN 12207:2017 en posición de apertura de clase 1 o superior. Cuando la carpintería exterior es de clase 1, pueden considerarse como aberturas las juntas de apertura (DB-HS 3, apartado 3.1.1, punto 1, letra c).",
+      "La exigencia de protección frente al ruido (HR) pide que los elementos que conforman los recintos tengan características acústicas adecuadas para reducir la transmisión del ruido aéreo (CTE, art. 14.2). Las carpinterías son el punto débil acústico de la fachada, porque su hoja es más ligera que el muro, y por eso los vidrios y los sellados se especifican en el DB-HR, que no se ha leído en este tema.",
+      "Los aireadores de las ventanas deben situarse a una distancia del suelo mayor que 1,80 m (DB-HS 3, apartado 3.1.1, punto 1, letra e). La regla es la misma que la de la ventilación del tema 10, y la comprobación se hace en el proyecto de la carpintería."
+     ]
+    },
+    {
+     "titulo": "7. Exigencias de seguridad en caso de incendio",
+     "parrafos": [
+      "Las puertas resistentes al fuego tienen una clasificación EI, que indica la integridad y el aislamiento frente al fuego durante un tiempo determinado. Los sistemas de cierre automático de las puertas resistentes al fuego deben consistir en un dispositivo conforme a la norma UNE-EN 1154, y las puertas de dos hojas deben tener un dispositivo de coordinación de hojas conforme a la norma UNE-EN 1158 (DB-SI 1, generalidades, punto 3).",
+      "Las puertas previstas para permanecer habitualmente abiertas deben disponer de un dispositivo de cierre automático que actúe en caso de incendio (DB-SI 1, generalidades, punto 4). El DB-SI también exige puertas EI2 30-C5 en algunos vestíbulos de independencia, cuya sección no se ha identificado en este desarrollo.",
+      "En los establecimientos de más de 500 m² construidos, el DB-SI exige puertas de acceso EI2 30-C5 y paredes EI 60 de separación (texto de la sección de establecimientos del DB-SI, no localizado en el apartado concreto). Estas exigencias se combinan con las de accesibilidad y de aprisionamiento del apartado 3, que limitan el uso de cierres que impidan la salida."
+     ]
+    },
+    {
+     "titulo": "8. Materiales, productos y prescripciones técnicas",
+     "parrafos": [
+      "Las carpinterías y los vidrios son productos que se incorporan con carácter permanente y deben llevar el marcado CE, según el CTE (art. 5.2.1). El proyecto debe fijar las características técnicas mínimas de cada producto, sus condiciones de suministro y el control de recepción (art. 6.1.2, letra a). Para los vidrios de seguridad, la clasificación X(Y)Z y el tipo de laminado o templado son las características que el pliego debe fijar.",
+      "Las carpinterías de madera, de aluminio y de PVC se diferencian en el comportamiento térmico del marco, que el DB-HE 1 caracteriza con la transmitancia U del marco, y en la durabilidad frente a la humedad y a los agentes atmosféricos. Estas diferencias no se han desarrollado en cifras en este tema, y deben justificarse con los valores declarados por el fabricante (DB-HE 1, apartado 5.1, punto 5).",
+      "Los herrajes y los dispositivos de cierre automático deben cumplir sus normas de producto, y los de las puertas resistentes al fuego, las UNE-EN 1154 y UNE-EN 1158 del DB-SI 1. Las barandillas tienen una resistencia que se justifica con el cálculo de la fuerza horizontal del documento (DB-SUA 1, apartado 3.2)."
+     ]
+    },
+    {
+     "titulo": "9. Procesos de ejecución y juntas",
+     "parrafos": [
+      "La colocación de las carpinterías se hace con el hueco ya fijado en el proyecto, con los anclajes que el fabricante indique y con el sellado de la junta entre marco y fábrica. El DB-HS 1 exige que las juntas de dilatación y los sellantes sean de materiales con elasticidad y adherencia suficientes, impermeables y resistentes a los agentes atmosféricos (DB-HS 1, apartado 2.3.3.1, punto 2).",
+      "La profundidad del sellante debe ser mayor o igual que el mínimo fijado en el DB-HS 1 (apartado 2.3.3.1, punto 2). Los encuentros de las carpinterías con los paramentos y con los dinteles son puntos singulares del DB-HS 1, y las bandas de refuerzo y de terminación del sistema de impermeabilización deben respetarse en ellos (apartado 2.3.3, punto 1).",
+      "Las barandillas se anclan al forjado o al muro con los elementos que su cálculo determine, y su ejecución debe permitir comprobar la altura y la resistencia antes de la entrega a la propiedad. La altura y la fuerza se verifican en la recepción, antes de que la barandilla entre en uso.",
+      "Antes de instalar la carpintería, el proyecto debe fijar el hueco con sus dimensiones y su tolerancia, y comprobar que el dintel y el alféizar permiten el anclaje del marco y la continuidad del aislamiento. Un hueco mal replanteado obliga a corregir el marco en obra, y las correcciones afectan a la estanquidad y a la transmitancia del conjunto. Por eso el replanteo del hueco es una comprobación previa de la ejecución, y su resultado debe quedar en el libro de control de la obra."
+     ]
+    },
+    {
+     "titulo": "10. Control de la ejecución y de la obra terminada",
+     "parrafos": [
+      "El control de la ejecución de las carpinterías se hace en los términos del artículo 7.3 del CTE: el director de la ejecución verifica la ejecución de cada unidad de obra y su conformidad con el proyecto (CTE, art. 7.3.1). El control de recepción de los productos, con los documentos de suministro, los distintivos y los ensayos, se hace según el artículo 7.2.",
+      "El control de la obra terminada se hace en los términos del artículo 7.4 del CTE, con las pruebas de servicio previstas en el proyecto y las exigidas por la legislación (art. 7.4). Para las carpinterías, las pruebas típicas son la de estanquidad al agua y al aire, la de funcionamiento de los herrajes y la de la altura de las barreras de protección.",
+      "El control documental es también una exigencia. Las clasificaciones de los vidrios, las clases de permeabilidad de las carpinterías y los certificados de reacción al fuego de las puertas deben quedar en la documentación final de la obra, para que formen parte del libro del edificio (CTE, art. 8.1)."
+     ]
+    },
+    {
+     "titulo": "11. Uso, conservación y mantenimiento",
+     "parrafos": [
+      "El mantenimiento de las carpinterías consiste en la limpieza de los vidrios y de los marcos, en la lubricación y el ajuste de los herrajes, en la revisión de los sellantes y en la sustitución de los burletes. Las puertas resistentes al fuego deben revisarse para comprobar que el dispositivo de cierre automático funciona, porque de él depende que la puerta permanezca cerrada en caso de incendio.",
+      "Las barreras de protección deben revisarse periódicamente para comprobar que su altura y su fijación se mantienen, y que no han sufrido daños por impacto o por corrosión. Un cerramiento con un anclaje suelto deja de cumplir la exigencia de resistencia, aunque su altura sea correcta.",
+      "El CTE exige que el edificio se conserve en buen estado mediante el plan de mantenimiento, con técnico competente para las operaciones programadas (art. 8.2, apartados 1 y 2). Las carpinterías y las barandillas deben figurar en ese plan, con su periodicidad.",
+      "Los acristalamientos de seguridad, sobre todo los laminados, deben revisarse para comprobar que la lámina intermedia no presenta fisuras ni desprendimientos en los bordes, porque una pérdida de adherencia reduce la resistencia del conjunto al impacto aunque el vidrio parezca intacto. Los vidrios de las duchas y de las bañeras, por su exposición a la humedad, requieren la misma revisión de sus juntas y de sus fijaciones. Estas revisiones deben quedar registradas en el plan de mantenimiento del edificio (CTE, art. 8.2)."
+     ]
+    },
+    {
+     "titulo": "12. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "Los riesgos de la colocación de carpinterías y acristalamientos son las caídas desde el hueco de fachada, la rotura del vidrio durante el transporte y la colocación, los cortes con los vidrios y los riesgos de la manipulación de piezas pesadas. La evaluación de riesgos se apoya en la LPRL, cuyo artículo 16 regula el plan de prevención; de ese artículo solo se ha comprobado el inicio en el repositorio.",
+      "El anexo IV del Real Decreto 1627/1997 contiene prescripciones para los trabajos en altura, que no se han leído en este tema. La barandilla provisional que protege el hueco durante la obra debe mantenerse hasta que se coloque la definitiva, y su colocación debe incluirse en el estudio de seguridad y salud (RD 1627/1997, arts. 4 y 5). Las reglas concretas de los trabajos en altura del anexo no se han desarrollado aquí.",
+      "El plan de seguridad y salud de cada contratista desarrolla las medidas del estudio y debe aprobarse antes de empezar la obra (RD 1627/1997, art. 7)."
+     ]
+    },
+    {
+     "titulo": "13. Criterios de medición y factores del precio",
+     "parrafos": [
+      "Las ventanas y las puertas se miden por unidad, con su marco, sus herrajes y su vidrio, o por metro cuadrado de hueco según el cuadro de precios. Los acristalamientos se miden por metro cuadrado de vidrio, distinguiendo el tipo de laminado o templado. Las barandillas se miden por metro lineal, con sus montantes y su pasamanos, y las barreras de protección de desniveles, por metro lineal.",
+      "Los factores que influyen en el precio son el tipo de carpintería, el material del marco, la clase de vidrio exigida por el impacto y la transmitancia, la permeabilidad al aire, la resistencia al fuego de las puertas, la altura de la barandilla y su cálculo, el número de herrajes y de dispositivos de cierre automático, y la complejidad de los remates.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). Las normas de medición concretas no se han verificado en el repositorio, por lo que el tema las presenta como principios."
+     ]
+    },
+    {
+     "titulo": "14. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las cifras que más se preguntan son la altura de las barreras de protección (0,90 m hasta 6 m de diferencia de cota; 1,10 m en el resto), el área de riesgo de impacto de las puertas (1,50 m de altura y 0,30 m a cada lado), la holgura del atrapamiento (20 cm), la altura libre de paso (2,20 m y 2,10 m en uso restringido), el límite de transmitancia de los huecos (2,7 W/m²K en la zona A) y la distancia del aireador al suelo (1,80 m).",
+      "Los errores habituales son cuatro. El primero es medir la altura de la barandilla de escalera desde el suelo y no desde la línea de los peldaños. El segundo es confundir el área de riesgo de impacto de la puerta con la del paño fijo (0,90 m). El tercero es olvidar que el DB-SUA 2 exige la señalización de las grandes superficies acristaladas y de las puertas de vidrio. El cuarto es asignar la clase de impacto de los vidrios de duchas al vidrio común, cuando debe ser laminado o templado de nivel 3.",
+      "Para un caso práctico de vivienda con puerta de vidrio, ventana de fachada y barandilla de terraza, el orden de análisis es: identificar la altura de la barandilla según la diferencia de cota; comprobar la clasificación del vidrio en el área de riesgo de la puerta; verificar la transmitancia del hueco en la zona climática; comprobar la permeabilidad de la carpintería y la posición del aireador; y prever la documentación de los vidrios en el libro del edificio."
+     ]
+    },
+    {
+     "titulo": "15. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: los artículos 5.2.1, 6.1.2, 7.2, 7.3, 7.4, 8.1 y 8.2 del CTE; los artículos 12.1, 13.3 (en su enunciado) y 14.2 del CTE; el DB-SUA 1 en la tabla 3.2.1 (altura de barreras) y en el apartado 3.2 (encabezado); el DB-SUA 2 en los apartados 1.1 (punto 1), 1.2 (punto 1), 1.3 (puntos 1, 2 y 3, con la tabla 1.1), 1.4 (puntos 1 y 2, en parte) y 2 (puntos 1 y 2); el DB-SUA 3 en su apartado 1 (punto 2, en parte); el DB-HE 1 en su tabla 3.1.1.a y en su apartado 5.1 (puntos 3 a 6); el DB-HS 3 en su apartado 3.1.1 (puntos 1, letras c y e); el DB-SI 1 en su apartado 2 (puntos 3 y 4); el DB-HS 1 en su apartado 2.3.3 y 2.3.3.1; el RD 1627/1997 en sus artículos 4, 5 y 7.",
+      "No se han leído el DB-HR, con los parámetros acústicos de las ventanas y de las puertas, el DB-SI 3 en su cuerpo, el DB-SUA 1 en su apartado 3.2 (resistencia y huecos de las barreras), ni el DB-HE 1 en la tabla de las zonas climáticas completa. Tampoco se han leído las normas UNE-EN 12600, UNE-EN 12207, UNE-EN 1154 y UNE-EN 1158.",
+      "Las versiones de los documentos del CTE descargados son las publicadas en la web oficial, sin fecha de última modificación en el PDF. Su norma de aprobación y sus modificaciones deben comprobarse antes de citarlas como vigentes."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/DB-SUA.pdf",
+    "leyes/DB-HE.pdf",
+    "leyes/DB-SI.pdf",
+    "leyes/DB-HS-salubridad.pdf",
+    "leyes/BOE-A-1997-22614.pdf"
+   ]
+  },
+  "e14": {
+   "resumen": [
+    {
+     "titulo": "Marco normativo",
+     "puntos": [
+      "Las urbanizaciones no tienen documento básico del CTE. Sus condiciones básicas de accesibilidad están en el RD 505/2007 (espacios públicos urbanizados) y en la Orden TMA/851/2021, que desarrolla el documento técnico.",
+      "Planeamiento, viales, redes y jardinería se rigen por la normativa urbanística y municipal, que no está en el repositorio."
+     ]
+    },
+    {
+     "titulo": "Itinerario peatonal accesible",
+     "puntos": [
+      "Anchura libre de paso no inferior a 1,80 m; altura libre no inferior a 2,20 m; pendiente transversal máxima del 2 % y longitudinal máxima del 6 % (Orden TMA/851/2021, art. 5.2, letras b, c, f y g).",
+      "Itinerario continuo y sin escalones sueltos, que permita la circulación autónoma; franja-guía si no discurre junto a la fachada (RD 505/2007, art. 11.1; Orden, art. 5.2, letra a)."
+     ]
+    },
+    {
+     "titulo": "Pavimentos y rejillas",
+     "puntos": [
+      "Pavimento duro y estable, sin resaltes superiores a 4 mm y con resbaladicidad de zonas exteriores del DB-SUA (Orden TMA/851/2021, art. 11.1). Pavimento blando admisible con compactación superior al 90 % (Proctor modificado, UNE 103501) (art. 11.2).",
+      "Rejillas enrasadas con aberturas que no admitan un círculo de 1,6 cm de diámetro y superficie no deslizante (Orden, art. 12.1, letra a). Alcorques protegidos con rejilla o material drenante (art. 12.1, letra b)."
+     ]
+    },
+    {
+     "titulo": "Rampas y vados",
+     "puntos": [
+      "Rampa: anchura libre de 1,80 m, longitud máxima de 9 m, pendiente longitudinal del 10 % en tramos de hasta 3 m y del 8 % en tramos de hasta 9 m, y transversal del 2 % (Orden TMA/851/2021, art. 14.2).",
+      "Rellano entre tramos sin cambio de dirección con el ancho de la rampa y profundidad de 1,50 m (art. 14.3). Vados peatonales con pavimento diferenciado en textura y color (RD 505/2007, art. 12.2)."
+     ]
+    },
+    {
+     "titulo": "Mobiliario y ámbito de paso",
+     "puntos": [
+      "El mobiliario urbano no invade el ámbito de paso, ni en el suelo ni en altura; se coloca en la banda exterior de la acera (RD 505/2007, art. 15.1).",
+      "Elementos puntuales y no repetitivos admitidos como excepción, garantizando al menos el paso normal de peatones (art. 11.3)."
+     ]
+    },
+    {
+     "titulo": "Zanjas y redes",
+     "puntos": [
+      "Localizar y reducir al mínimo los peligros de cables y conducciones subterráneas; prevenir el sepultamiento y la irrupción de agua (RD 1627/1997, anexo IV, apartado 9.a y 9.b).",
+      "Las tapas de las redes que sobresalen del pavimento no se admiten en el itinerario accesible (Orden TMA/851/2021, art. 12)."
+     ]
+    },
+    {
+     "titulo": "Zonas de estancia y mantenimiento",
+     "puntos": [
+      "En plazas, parques y jardines, itinerario con continuidad hasta los puntos de interés (RD 505/2007, art. 11.4).",
+      "Mantenimiento: el resalte de más de 4 mm en el itinerario lo incumple; la resbaladicidad disminuye con el uso (Orden TMA/851/2021, art. 11.1)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "RD-505-2007",
+     "rol": "Condiciones básicas de accesibilidad de los espacios públicos urbanizados (arts. 9, 10, 11, 12, 14, 15 y 16)"
+    },
+    {
+     "id": "TMA-851-2021",
+     "rol": "Desarrollo técnico de la accesibilidad en espacios públicos (arts. 5, 10, 11, 12 y 14)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Zanjas y redes en la vía pública (anexo IV, apartados 9 y 10)"
+    },
+    {
+     "id": "DB-SUA",
+     "rol": "Resbaladicidad de los suelos exteriores (SUA 1, tabla 1.2)"
+    },
+    {
+     "id": "CTE",
+     "rol": "Seguridad de utilización (art. 12.1) y referencia a la resbaladicidad (art. 12)"
+    },
+    {
+     "id": "LPRL",
+     "rol": "Marco de la prevención de riesgos laborales (art. 16, en parte)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la Orden TMA/851/2021, art. 5.2, letra b, ¿qué anchura libre de paso debe tener como mínimo un itinerario peatonal accesible?",
+     "opciones": [
+      "1,80 m",
+      "2,50 m",
+      "1,20 m",
+      "1,50 m"
+     ],
+     "correcta": 0,
+     "explicacion": "Todo itinerario peatonal accesible tendrá una anchura libre de paso no inferior a 1,80 m en todo su desarrollo.",
+     "referencia": "Orden TMA/851/2021, art. 5.2, letra b)"
+    },
+    {
+     "pregunta": "Según la Orden TMA/851/2021, art. 5.2, letras f y g, ¿cuáles son las pendientes máximas transversal y longitudinal del itinerario accesible?",
+     "opciones": [
+      "10 % transversal y 12 % longitudinal",
+      "1 % transversal y 3 % longitudinal",
+      "2 % transversal y 6 % longitudinal",
+      "6 % transversal y 10 % longitudinal"
+     ],
+     "correcta": 2,
+     "explicacion": "La pendiente transversal máxima es del 2 % y la longitudinal máxima, del 6 %.",
+     "referencia": "Orden TMA/851/2021, art. 5.2, letras f) y g)"
+    },
+    {
+     "pregunta": "Según la Orden TMA/851/2021, art. 11.1, ¿qué resalte máximo se admite en el pavimento del itinerario accesible?",
+     "opciones": [
+      "2 cm",
+      "10 cm",
+      "No se admite ninguno",
+      "4 mm"
+     ],
+     "correcta": 3,
+     "explicacion": "La colocación del pavimento asegurará la inexistencia de resaltes de altura superior a 4 mm.",
+     "referencia": "Orden TMA/851/2021, art. 11.1"
+    },
+    {
+     "pregunta": "Según la Orden TMA/851/2021, art. 14.2, letra c, ¿cuál es la pendiente longitudinal máxima de una rampa de tramo de hasta 3 m?",
+     "opciones": [
+      "8 %",
+      "10 %",
+      "12 %",
+      "6 %"
+     ],
+     "correcta": 1,
+     "explicacion": "La pendiente longitudinal máxima es del 10 % para tramos de hasta 3 m, y del 8 % para tramos de hasta 9 m.",
+     "referencia": "Orden TMA/851/2021, art. 14.2, letra c)"
+    },
+    {
+     "pregunta": "Según la Orden TMA/851/2021, art. 14.2, letra b, ¿cuál es la longitud máxima de un tramo de rampa en proyección horizontal?",
+     "opciones": [
+      "9 m",
+      "12 m",
+      "No hay límite",
+      "3 m"
+     ],
+     "correcta": 0,
+     "explicacion": "La longitud máxima de cada tramo de rampa en proyección horizontal es de 9 m.",
+     "referencia": "Orden TMA/851/2021, art. 14.2, letra b)"
+    },
+    {
+     "pregunta": "Según la Orden TMA/851/2021, art. 12.1, letra a, ¿qué diámetro máximo puede tener el círculo que admitan las aberturas de las rejillas enrasadas?",
+     "opciones": [
+      "10 cm",
+      "20 cm",
+      "1,6 cm",
+      "5 cm"
+     ],
+     "correcta": 2,
+     "explicacion": "Las aberturas de las rejillas y tapas de instalación en el itinerario no permiten inscribir un círculo de más de 1,6 cm de diámetro.",
+     "referencia": "Orden TMA/851/2021, art. 12.1, letra a)"
+    },
+    {
+     "pregunta": "Según el RD 505/2007, art. 15.1, ¿dónde se colocan como criterio general los elementos de mobiliario urbano?",
+     "opciones": [
+      "Sobre las rampas",
+      "En cualquier punto a elección del proyectista",
+      "En el centro del itinerario",
+      "Alineados en la banda exterior de la acera o junto a la zona de calzada"
+     ],
+     "correcta": 3,
+     "explicacion": "Como criterio general, los elementos de mobiliario urbano se dispondrán de forma alineada en la banda exterior de la acera o junto a la zona de calzada.",
+     "referencia": "RD 505/2007, art. 15.1"
+    },
+    {
+     "pregunta": "Según el RD 505/2007, art. 11.4, ¿qué se garantiza en las zonas de estancia, como plazas, parques y jardines?",
+     "opciones": [
+      "Que no haya itinerario alguno",
+      "La existencia de un itinerario con las características del capítulo y la circulación en continuidad hasta los puntos de interés",
+      "Que solo haya vallas",
+      "Que el mobiliario invada el paso"
+     ],
+     "correcta": 1,
+     "explicacion": "En las zonas de estancia se garantiza la existencia de un itinerario con las características del capítulo y la circulación en continuidad hasta los puntos de interés o de uso público.",
+     "referencia": "RD 505/2007, art. 11.4"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, anexo IV, apartado 9.a, ¿qué debe hacerse antes de comenzar los movimientos de tierras?",
+     "opciones": [
+      "Pintar el pavimento",
+      "Nada, la obra puede empezar directamente",
+      "Localizar y reducir al mínimo los peligros de cables y conducciones subterráneas",
+      "Derribar los árboles"
+     ],
+     "correcta": 2,
+     "explicacion": "Antes de comenzar los movimientos de tierras, deben tomarse medidas para localizar y reducir al mínimo los peligros debidos a cables subterráneos y demás sistemas de distribución.",
+     "referencia": "RD 1627/1997, anexo IV, apartado 9.a"
+    },
+    {
+     "pregunta": "Según el RD 505/2007, art. 12.2, ¿qué debe diferenciarse en el pavimento de los vados peatonales?",
+     "opciones": [
+      "Un pavimento diferenciado en textura y color y reconocible",
+      "Solo el color negro",
+      "Un pavimento de césped",
+      "Nada"
+     ],
+     "correcta": 0,
+     "explicacion": "En los vados peatonales se empleará un pavimento diferenciado en textura y color y reconocible, evitándose su uso en otros puntos.",
+     "referencia": "RD 505/2007, art. 12.2"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué es una urbanización y qué normas la regulan",
+     "parrafos": [
+      "Una urbanización es el conjunto de obras que transforma un terreno en espacio público con capacidad para servir a los edificios que se construyen sobre él. Incluye los viales y las aceras, la pavimentación, las redes de servicios que pasan bajo ellos, la jardinería de las zonas verdes y el mobiliario que las usuarias y los usuarios utilizan. A diferencia de las obras de edificación, su unidad de medida no es el edificio, sino el espacio público y su uso colectivo.",
+      "Los temas de edificación tratados hasta aquí tienen su marco en el Código Técnico de la Edificación, que se aplica a los edificios. Las urbanizaciones no tienen su propio documento básico del CTE. Sus requisitos de accesibilidad se regulan en el Real Decreto 505/2007, que aprueba las condiciones básicas de accesibilidad y no discriminación para el acceso y la utilización de los espacios públicos urbanizados y las edificaciones, y en la Orden TMA/851/2021, que desarrolla el documento técnico de esas condiciones básicas.",
+      "Los demás aspectos de la urbanización, como el planeamiento, la clasificación del suelo, la reserva de espacios, las características de los viales y las redes de servicios, se regulan en la normativa urbanística autonómica y municipal, y en las ordenanzas de cada municipio. Esa normativa no está en el repositorio, y este tema no la reproduce. Un examen sobre urbanizaciones debe distinguir siempre entre lo que dicen las normas estatales de accesibilidad y lo que corresponde a la normativa municipal."
+     ]
+    },
+    {
+     "titulo": "2. Objeto de las condiciones básicas de accesibilidad",
+     "parrafos": [
+      "El Real Decreto 505/2007 tiene por objeto garantizar a todas las personas un uso no discriminatorio, independiente y seguro de los espacios públicos urbanizados, con el fin de hacer efectiva la igualdad de oportunidades y la accesibilidad universal (art. 9.1). Para ello, los espacios públicos se proyectan, construyen, restauran, mantienen, utilizan y reurbanizan cumpliendo como mínimo las condiciones básicas que establece el reglamento (art. 9.2).",
+      "El reglamento define los itinerarios peatonales como los espacios públicos destinados principalmente al tránsito de peatones que aseguren el uso no discriminatorio (art. 10). Un itinerario peatonal accesible es el que cumple las condiciones de la Orden TMA/851/2021, y es el eje de todo el diseño de la urbanización. Los elementos de urbanización, como las rejillas, los bordillos, el mobiliario y los alcorques, deben colocarse sin invadirlo (art. 15 y 12).",
+      "La Orden TMA/851/2021 es el documento técnico que desarrolla esas condiciones. Establece las dimensiones y pendientes de los itinerarios, las características de los pavimentos, de las rampas, de las escaleras y de los ascensores exteriores, y las condiciones de los vados, de los cruces y de los aparcamientos. Sus artículos 5 a 16 son los que se usan en el proyecto de urbanización."
+     ]
+    },
+    {
+     "titulo": "3. Itinerarios peatonales accesibles",
+     "parrafos": [
+      "Todo itinerario peatonal accesible debe discurrir de manera colindante a la línea de fachada o a una referencia edificada a nivel del suelo. Si no es posible, se facilita la orientación con una franja-guía longitudinal (Orden TMA/851/2021, art. 5.2, letra a). En todo su desarrollo, el itinerario debe tener una anchura libre de paso no inferior a 1,80 m, que permita el giro, el cruce y el cambio de dirección de las personas (art. 5.2, letra b), y una altura libre no inferior a 2,20 m (art. 5.2, letra c).",
+      "Las pendientes del itinerario son las que más se comprueban. La pendiente transversal máxima es del 2 %, y la longitudinal máxima, del 6 % (Orden TMA/851/2021, art. 5, letras f y g). Cuando el itinerario tenga una pendiente superior, deja de ser un itinerario sin rampa y se rige por las reglas de rampa del artículo 14.",
+      "El itinerario debe ser continuo y sin escalones sueltos, con pendientes transversal y longitudinal que posibiliten la circulación autónoma de las personas usuarias de sillas de ruedas y de las acompañadas de perros guía o de asistencia (RD 505/2007, art. 11.1). En los casos en que esto no sea posible, se ejecuta una solución de plataforma única, con la zona preferente de peatones diferenciada en el pavimento (art. 11.2)."
+     ]
+    },
+    {
+     "titulo": "4. Pavimentos y rejillas",
+     "parrafos": [
+      "El pavimento del itinerario peatonal accesible debe ser duro, estable y cumplir la exigencia de resbaladicidad para los suelos en zonas exteriores del DB-SUA, sin piezas ni elementos sueltos. Su colocación debe asegurar la continuidad, sin resaltes de altura superior a 4 mm, y su textura debe ser diferente a la de los pavimentos táctiles indicadores (Orden TMA/851/2021, art. 11.1).",
+      "Se admite un pavimento blando en el itinerario accesible si tiene una compactación superior al 90 % determinada con el ensayo Proctor modificado de la norma UNE 103501 (Orden TMA/851/2021, art. 11.2). La resistencia al deslizamiento de las zonas exteriores es la clase 3 de la tabla 1.2 del DB-SUA 1, como se estudia en el tema 12.",
+      "Las rejillas, las tapas de instalación y los alcorques se colocan preferentemente fuera del itinerario. Si están en él, deben estar enrasadas con el pavimento, con aberturas en las que no pueda inscribirse un círculo de 1,6 cm de diámetro, y con la cara vista no deslizante en seco y en mojado (Orden TMA/851/2021, art. 12.1, letra a). Los alcorques deben protegerse con rejillas, con material compacto drenante o con elementos enrasados (art. 12.1, letra b)."
+     ]
+    },
+    {
+     "titulo": "5. Vados, cruces y rampas",
+     "parrafos": [
+      "En los vados peatonales se usa un pavimento diferenciado en textura y color, reconocible, evitando su uso en otros puntos que puedan confundir a las personas con discapacidad visual. También deben diferenciarse en el pavimento los límites con desnivel, las zonas de peligro y el arranque de rampas y escaleras (RD 505/2007, art. 12.2). Los elementos para salvar los desniveles tienen sus propias reglas en el artículo 12.3.",
+      "Las rampas vinculadas a un itinerario peatonal accesible son los planos inclinados con pendiente superior al 6 % que se usan para salvar desniveles, salvo los que forman parte de un cruce con el itinerario vehicular (Orden TMA/851/2021, art. 14.1). Cada tramo debe tener una anchura libre de paso de 1,80 m, medida entre paredes o elementos de protección, sin descontar los pasamanos que no sobresalgan más de 12 cm (art. 14.2, letra a).",
+      "La longitud máxima de un tramo es de 9 m en proyección horizontal (art. 14.2, letra b). La pendiente longitudinal máxima es del 10 % para tramos de hasta 3 m, y del 8 % para tramos de hasta 9 m (letra c). La pendiente transversal máxima es del 2 % (letra d). Los rellanos entre tramos sin cambio de dirección tienen el ancho de la rampa y una profundidad mínima de 1,50 m (art. 14.3)."
+     ]
+    },
+    {
+     "titulo": "6. Mobiliario urbano",
+     "parrafos": [
+      "Todos los elementos de mobiliario urbano deben disponerse de manera que no invadan el ámbito de paso de los itinerarios peatonales, ni en el plano del suelo ni en altura (RD 505/2007, art. 15.1). Como criterio general, se colocan alineados en la banda exterior de la acera o junto a la zona de calzada.",
+      "En los itinerarios estrechos donde esa disposición dificulte el paso, los soportes verticales de señales, semáforos y báculos de iluminación se adosan a la fachada, con salientes a una altura que no obstaculice el paso. El resto de los elementos se relegan a zonas de dimensiones suficientes (art. 15.1). Los elementos de carácter puntual y no repetitivo son la única excepción, y deben garantizar al menos el paso normal de peatones (art. 11.3).",
+      "Las personas con discapacidad que usan perros guía o de asistencia tienen pleno derecho a usar los espacios públicos urbanizados, sin que su libertad de circulación se limite por esa causa (art. 11.5). Este derecho se relaciona con la ubicación del mobiliario: un banco o una papelera en medio del itinerario contradice la exigencia de paso libre.",
+      "El mobiliario urbano más habitual en un itinerario, como bancos, papeleras, bolardos y marquesinas, debe elegirse teniendo en cuenta su resistencia al impacto y su altura. Los bolardos, por ejemplo, deben ser detectables por las personas con discapacidad visual, y su colocación debe prever la franja libre entre ellos. La elección del modelo no es solo estética: un elemento que sobresale del pavimento a la altura de los ojos o de los bastones supone un obstáculo que el reglamento intenta evitar."
+     ]
+    },
+    {
+     "titulo": "7. Viales, aparcamientos y vados vehiculares",
+     "parrafos": [
+      "Los viales se diseñan con los itinerarios peatonales separados de la calzada, y los cruces entre los itinerarios peatonales y los vehiculares tienen sus reglas en el capítulo VI de la Orden TMA/851/2021. La separación física del itinerario y de la calzada es la solución que más protege al peatón, y la que el proyecto debe justificar cuando la anchura de la acera no alcanza el mínimo de 1,80 m.",
+      "Los vados vehiculares tienen reglas propias en el artículo 13 de la Orden TMA/851/2021, que no se han leído en este tema. Los aparcamientos y los elementos de control y protección del tráfico rodado se regulan en el artículo 16 del RD 505/2007, que tampoco se ha leído en su cuerpo.",
+      "Un vial sin acera diferenciada, o con una acera de anchura inferior al mínimo del itinerario, no cumple las condiciones básicas, por mucho que tenga la pavimentación adecuada. La anchura libre es, por tanto, una decisión de diseño que se fija desde el planeamiento, y no un detalle de ejecución.",
+      "El diseño de una calle comienza por la sección transversal: anchura de la calzada, de los carriles de estacionamiento, de los carriles bici cuando existen, de la franja de mobiliario y de la acera. La acera debe contar después con el itinerario libre de 1,80 m, y el resto de la anchura se reparte entre la franja de mobiliario, los alcorques y las zonas de carga. Cuando la acera es estrecha, la solución no es reducir el itinerario, sino cambiar la sección transversal, y ese cambio se decide en el planeamiento y en el proyecto de urbanización, antes de la obra."
+     ]
+    },
+    {
+     "titulo": "8. Redes e instalaciones de la urbanización",
+     "parrafos": [
+      "Las redes de abastecimiento, de saneamiento, de energía eléctrica, de alumbrado público y de telecomunicaciones de la urbanización discurren bajo los viales y las aceras. Su trazado y sus características se regulan en la normativa de cada suministrador y en las ordenanzas municipales, que no están en el repositorio. Los documentos del CTE de la edificación, como el DB-HS 4 y el DB-HS 5, se aplican al interior de los edificios y no al trazado de las redes públicas.",
+      "Las zanjas de estas redes son el riesgo principal de la ejecución. El anexo IV del Real Decreto 1627/1997, apartado 9, exige localizar y reducir al mínimo los peligros de los cables y de las conducciones subterráneas antes de empezar, prevenir el sepultamiento con entibación, blindaje, apeo o taludes, y prevenir la irrupción de agua (apartado 9.a y 9.b). Las tierras y los vehículos deben mantenerse alejados del borde de la zanja (apartado 9.d).",
+      "Las arquetas, los pozos de registro y las tapas de las redes son elementos de urbanización que deben cumplir las condiciones del artículo 12 de la Orden TMA/851/2021 cuando se sitúan en el itinerario peatonal, en cuanto a enrasado, aberturas y superficie no deslizante. La tapa de una arqueta que sobresale del pavimento es un obstáculo que el reglamento no admite en el itinerario accesible.",
+      "Las redes se coordinan en el subsuelo de la calle. El proyecto debe fijar la posición de cada servicio, su profundidad y la distancia entre ellos, y el orden de ejecución, para evitar que una zanja interfiera con otra recién ejecutada. Esta coordinación es también la que permite las futuras reparaciones sin levantar el pavimento completo, y se refleja en los planos de servicios del proyecto. Las normas de separación entre servicios no están en los documentos verificados en este tema."
+     ]
+    },
+    {
+     "titulo": "9. Jardinería y zonas verdes",
+     "parrafos": [
+      "En las zonas de estancia, como plazas, parques y jardines, áreas de juegos infantiles y playas urbanas, el reglamento garantiza la existencia de un itinerario con las características del capítulo de itinerarios, y su circulación en continuidad hasta los puntos de interés o de uso público (RD 505/2007, art. 11.4). La jardinería no puede interrumpir esa continuidad.",
+      "Los alcorques y las zonas ajardinadas que se sitúan junto al itinerario se protegen con rejillas o con material compacto drenante, y sus bordillos, si son elevados, tienen una altura mínima de 15 cm para que sean detectables (Orden TMA/851/2021, art. 12.1, letra b). Las plantaciones no deben invadir el ancho mínimo libre de paso ni la altura libre de 2,20 m del itinerario.",
+      "Las reglas de diseño de las zonas verdes, la elección de especies, el riego y el mantenimiento de la vegetación no están en los documentos verificados en este tema. Deben consultarse en la normativa municipal y en los pliegos del proyecto."
+     ]
+    },
+    {
+     "titulo": "10. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "Los riesgos de la urbanización en obra son los del movimiento de tierras y las zanjas, los del tráfico de la obra en el entorno urbano, los de la maquinaria pesada, los de la caída de materiales en las zonas de paso de peatones y los de los trabajos sobre redes en servicio, como el corte de un cable o de una tubería. La evaluación de riesgos se apoya en la LPRL, cuyo artículo 16 regula el plan de prevención; de ese artículo solo se ha comprobado el inicio en el repositorio.",
+      "El anexo IV del RD 1627/1997, apartado 9, regula los movimientos de tierras y las excavaciones, como se ha visto en el apartado 8. El apartado 10 regula las instalaciones de distribución de energía, y exige localizar y señalar las existentes antes de la obra, y adoptar medidas frente a las líneas aéreas que puedan afectar a la seguridad (apartado 10.b y 10.c). El apartado 8, sobre instalaciones, máquinas y equipos, no se ha leído en este tema.",
+      "El estudio de seguridad y salud, o el estudio básico cuando no se alcanzan los supuestos del artículo 4.1, debe recoger las medidas de la urbanización con su presupuesto (RD 1627/1997, arts. 4 y 5). El plan de seguridad de cada contratista lo desarrolla y debe aprobarse antes de empezar la obra (art. 7). Las zonas de paso de peatones deben protegerse durante la obra, con vallado y señalización.",
+      "La seguridad de la obra en el entorno urbano exige un plan de circulación de la maquinaria y de los vehículos de obra separado del de los peatones, siempre que sea posible. Los vallados deben dejar un paso peatonal con las características del itinerario del tema, o, si no es posible, un itinerario alternativo señalizado. Esta regla evita que la obra convierta una calle accesible en una calle sin paso para las personas con movilidad reducida durante meses."
+     ]
+    },
+    {
+     "titulo": "11. Uso, conservación y mantenimiento",
+     "parrafos": [
+      "El mantenimiento de la urbanización es una obligación de la administración titular del espacio público, que la realiza según el plan de mantenimiento y la normativa municipal. Los pavimentos deben conservar su continuidad y su nivel: un resalte de más de 4 mm en el itinerario accesible, producido por el asentamiento o por la raíz de un árbol, lo incumple (Orden TMA/851/2021, art. 11.1).",
+      "La resbaladicidad de los pavimentos exteriores disminuye con el uso y con la suciedad. Su mantenimiento forma parte de la exigencia de seguridad de utilización del DB-SUA, y la limpieza debe incluir las zonas de agua y de hielo, donde el riesgo de resbalamiento es mayor. La reposición de juntas y de piezas sueltas es también una operación de mantenimiento.",
+      "El mobiliario y las rejillas deben revisarse para comprobar que mantienen su enrasado y su fijación, y que no han sido desplazados invadiendo el itinerario. Un banco que se ha girado o una papelera que se ha desplazado vuelve a invadir el ámbito de paso, y debe corregirse.",
+      "Las redes enterradas de la urbanización requieren un mantenimiento propio: las arquetas se revisan para comprobar que su tapa está enrasada y que no ha sido desplazada por el tráfico, y los pozos de registro, para detectar hundimientos alrededor del brocal. Un hundimiento junto a un registro es una señal de fuga o de erosión del relleno, y debe investigarse antes de reparar el pavimento superficial. La reparación de una zanja debe ejecutarse con el mismo relleno compactado que el original, para no crear una discontinuidad en la compactación."
+     ]
+    },
+    {
+     "titulo": "12. Criterios de medición y factores del precio",
+     "parrafos": [
+      "Los viales y las aceras se miden por metro cuadrado de pavimento, distinguiendo el tipo de pavimento, las capas de firme y los bordillos por metro lineal. Las redes se miden por metro lineal de tubería o de conductor, con sus arquetas y pozos por unidad. Las rejillas, los alcorques y las tapas se miden por unidad. El mobiliario urbano se mide por unidad, y la jardinería, por metro cuadrado de superficie plantada o por unidad de planta.",
+      "Los factores que influyen en el precio son el tipo de pavimento y su resistencia al deslizamiento, la compactación exigida, la profundidad de las zanjas, el número de arquetas y de rejillas, la longitud de las rampas y los medios de elevación necesarios, la presencia de redes en servicio y las medidas de seguridad de la obra en el entorno urbano.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). Las normas de medición concretas de la urbanización no se han verificado en el repositorio, por lo que el tema las presenta como principios.",
+      "Para comparar presupuestos de urbanización conviene exigir que cada partida tenga su unidad y su medición, y que las partidas de accesibilidad se distingan de las de pavimentación general. La diferencia de coste entre un itinerario que cumple la Orden TMA/851/2021 y uno que no la cumple no es una cifra fija, sino el resultado de las mediciones de pendiente, de anchura y de pavimento. Por eso el proyecto debe incluir los perfiles longitudinales y transversales del itinerario, de modo que la medición sea comprobable."
+     ]
+    },
+    {
+     "titulo": "13. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las cifras que más se preguntan son las del itinerario peatonal accesible (1,80 m de anchura, 2,20 m de altura libre, 2 % de pendiente transversal y 6 % de longitudinal), las de las rampas (1,80 m de anchura, 10 % de pendiente para tramos de hasta 3 m, 8 % hasta 9 m, y 9 m de longitud máxima), el resalte máximo de 4 mm y la compactación del 90 % del Proctor modificado.",
+      "Los errores habituales son cuatro. El primero es afirmar que el CTE tiene un documento básico para las urbanizaciones, cuando las condiciones de accesibilidad están en el RD 505/2007 y la Orden TMA/851/2021. El segundo es confundir la pendiente longitudinal del itinerario (6 %) con la de la rampa (10 %). El tercero es olvidar que el itinerario accesible debe tener una anchura libre de 1,80 m, aunque la acera sea más ancha por un lado. El cuarto es considerar el mobiliario urbano como un elemento fuera del itinerario, cuando debe estar en la banda exterior y no invadir el paso.",
+      "Para un caso práctico de una calle nueva con acera de 2,40 m y un paso de peatones, el orden de análisis es: comprobar la anchura libre del itinerario (1,80 m como mínimo); revisar las pendientes transversal y longitudinal; ubicar el mobiliario en la banda exterior; comprobar el vado y el resalte del pavimento; y, por último, las medidas de seguridad de la zanja de las redes que cruzan la calle."
+     ]
+    },
+    {
+     "titulo": "14. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 12.1 del CTE; el RD 505/2007 en sus artículos 9, 10, 11 (puntos 1, 2, 4 y 5), 12 (puntos 1 y 2), 14 (encabezado) y 15 (punto 1), y los artículos 13 y 16 solo por su título; la Orden TMA/851/2021 en sus artículos 5.2 (letras a a g), 11 (puntos 1 y 2), 12 (punto 1, letras a y b), 14 (puntos 1 a 4) y el encabezado de los capítulos; el DB-SUA 1 en la tabla 1.2 (clase de zonas exteriores); el RD 1627/1997 en su anexo IV, apartados 9 y 10 (puntos a a c).",
+      "No se han leído el artículo 13 de la Orden TMA/851/2021 (vados), el artículo 15 de la Orden (escaleras) y el 16 (ascensores exteriores), ni el capítulo VI sobre los cruces, ni la normativa de urbanismo, de viales, de redes y de jardinería, que no está en el repositorio. Tampoco se ha leído la norma UNE 103501 ni la normativa de firmes.",
+      "Las versiones del RD 505/2007 y de la Orden TMA/851/2021 son las consolidadas del BOE, con su fecha de última modificación indicada en el PDF del repositorio. Las del DB-SUA son las de la web oficial del CTE. Debe comprobarse la vigencia de todos antes de citar un artículo."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2007-9607.pdf",
+    "leyes/BOE-A-2021-13488.pdf",
+    "leyes/DB-SUA.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/BOE-A-1997-22614.pdf",
+    "leyes/BOE-A-1995-24292.pdf"
    ]
   },
   "e20": {

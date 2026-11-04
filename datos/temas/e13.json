@@ -1,0 +1,202 @@
+{
+  "id": "e13",
+  "resumen": [
+    {
+      "titulo": "Barreras de protección",
+      "puntos": [
+        "Altura mínima de 0,90 m cuando la diferencia de cota que protegen no excede de 6 m, y de 1,10 m en el resto; 0,90 m en huecos de escalera de menos de 40 cm de anchura (DB-SUA 1, apartado 3.2.1, punto 1).",
+        "La altura se mide desde el suelo o, en escaleras, desde la línea de inclinación de los peldaños."
+      ]
+    },
+    {
+      "titulo": "Impacto en acristalamientos y puertas",
+      "puntos": [
+        "Vidrios de áreas de riesgo sin barrera de protección: clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1; excluidos los vidrios de mayor dimensión inferior a 30 cm (DB-SUA 2, apartado 1.3, punto 1).",
+        "Áreas de riesgo: en puertas, hasta 1,50 m de altura y la anchura de la puerta más 0,30 m a cada lado; en paños fijos, hasta 0,90 m (apartado 1.3, punto 2). Partes vidriadas de puertas y duchas, laminadas o templadas con impacto de nivel 3 (apartado 1.3, punto 3)."
+      ]
+    },
+    {
+      "titulo": "Señalización, atrapamiento y aprisionamiento",
+      "puntos": [
+        "Grandes superficies acristaladas que pueden confundirse con puertas: señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1).",
+        "Puerta corredera manual: holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1). Puertas con bloqueo desde el interior: desbloqueo desde el exterior (DB-SUA 3, apartado 1, punto 1)."
+      ]
+    },
+    {
+      "titulo": "Alturas de paso y barrido de puertas",
+      "puntos": [
+        "Altura libre de paso de 2,20 m en zonas de circulación y de 2,10 m en uso restringido; 2 m en umbrales de puertas (DB-SUA 2, apartado 1.1, punto 1).",
+        "Barrido de hojas que no invade el pasillo cuando tiene menos de 2,50 m de anchura (apartado 1.2, punto 1)."
+      ]
+    },
+    {
+      "titulo": "Transmitancia y permeabilidad",
+      "puntos": [
+        "Huecos: transmitancia límite de 2,7 W/m²K en la zona climática A, 2,3 en B, 2,1 en C y 1,8 en D (DB-HE 1, tabla 3.1.1.a).",
+        "Carpinterías caracterizadas por la permeabilidad al aire, en m³/h·m² o por clase según UNE-EN 12207:2017 (DB-HE 1, apartado 5.1, punto 4). Aireadores a más de 1,80 m del suelo (DB-HS 3, apartado 3.1.1, punto 1, letra e)."
+      ]
+    },
+    {
+      "titulo": "Protección frente al incendio",
+      "puntos": [
+        "Cierre automático de las puertas resistentes al fuego según UNE-EN 1154; coordinación de hojas según UNE-EN 1158 (DB-SI 1, generalidades, punto 3).",
+        "Puertas para permanecer abiertas: dispositivo de cierre automático en caso de incendio (DB-SI 1, generalidades, punto 4). Establecimientos de más de 500 m²: puertas de acceso EI2 30-C5."
+      ]
+    },
+    {
+      "titulo": "Mantenimiento y medición",
+      "puntos": [
+        "Revisión de los cierres automáticos de las puertas de incendio y de los sellantes; revisión de la lámina de los vidrios laminados (CTE, art. 8.2).",
+        "Ventanas y puertas por unidad o por metro cuadrado de hueco; acristalamientos por metro cuadrado; barandillas y barreras por metro lineal (medición de principios)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CTE",
+      "rol": "Seguridad de utilización, ahorro de energía, ruido, incendio y control de la ejecución (arts. 7, 8.2, 11, 12.1, 14.2 y 15.1)"
+    },
+    {
+      "id": "DB-SUA",
+      "rol": "Barreras de protección (SUA 1, apartado 3.2), impacto y atrapamiento (SUA 2) y aprisionamiento (SUA 3)"
+    },
+    {
+      "id": "DB-HE",
+      "rol": "Transmitancia de los huecos y caracterización de las carpinterías (HE 1, tabla 3.1.1.a y apartado 5.1)"
+    },
+    {
+      "id": "DB-SI",
+      "rol": "Puertas resistentes al fuego y cierres automáticos (SI 1, generalidades, y establecimientos)"
+    },
+    {
+      "id": "DB-HS",
+      "rol": "Permeabilidad y aireadores de la ventilación (HS 3, apartado 3.1.1) y sellado de juntas (HS 1, apartado 2.3.3.1)"
+    },
+    {
+      "id": "RD-1627-1997",
+      "rol": "Protección de huecos y trabajos en altura (arts. 4, 5 y 7)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el DB-SUA 1, apartado 3.2.1, ¿qué altura mínima tiene una barrera de protección cuando la diferencia de cota no excede de 6 m?",
+      "opciones": [
+        "0,90 m",
+        "1,10 m",
+        "1,50 m",
+        "0,60 m"
+      ],
+      "correcta": 0,
+      "explicacion": "Cuando la diferencia de cota que protegen no excede de 6 m, la altura mínima de la barrera es de 0,90 m.",
+      "referencia": "DB-SUA 1, apartado 3.2.1, punto 1"
+    },
+    {
+      "pregunta": "Según el DB-SUA 1, apartado 3.2.1, punto 1, ¿qué altura mínima tiene una barrera cuando la diferencia de cota supera los 6 m?",
+      "opciones": [
+        "2,20 m",
+        "0,90 m",
+        "1,10 m",
+        "1,30 m"
+      ],
+      "correcta": 2,
+      "explicacion": "En el resto de los casos, la barrera tendrá una altura mínima de 1,10 m.",
+      "referencia": "DB-SUA 1, apartado 3.2.1, punto 1"
+    },
+    {
+      "pregunta": "Según el DB-SUA 2, apartado 1.3, punto 2, ¿hasta qué altura se extiende el área de riesgo de impacto en una puerta?",
+      "opciones": [
+        "2,20 m",
+        "1,10 m",
+        "0,90 m",
+        "1,50 m"
+      ],
+      "correcta": 3,
+      "explicacion": "En puertas, el área de riesgo de impacto es la comprendida entre el nivel del suelo, una altura de 1,50 m y una anchura igual a la de la puerta más 0,30 m a cada lado.",
+      "referencia": "DB-SUA 2, apartado 1.3, punto 2, letra a"
+    },
+    {
+      "pregunta": "Según el DB-SUA 2, apartado 2, punto 1, ¿qué holgura mínima debe existir entre una puerta corredera de accionamiento manual y el objeto fijo más próximo?",
+      "opciones": [
+        "10 cm",
+        "20 cm",
+        "50 cm",
+        "5 cm"
+      ],
+      "correcta": 1,
+      "explicacion": "La distancia a hasta el objeto fijo más próximo será de 20 cm como mínimo, para evitar el atrapamiento.",
+      "referencia": "DB-SUA 2, apartado 2, punto 1"
+    },
+    {
+      "pregunta": "Según el DB-SUA 2, apartado 1.1, punto 1, ¿qué altura libre de paso se exige en zonas de circulación?",
+      "opciones": [
+        "2,10 m en uso restringido y 2,20 m en el resto",
+        "2,50 m",
+        "3,00 m",
+        "2,00 m"
+      ],
+      "correcta": 0,
+      "explicacion": "La altura libre de paso es de 2,10 m en zonas de uso restringido y de 2,20 m en el resto de las zonas de circulación.",
+      "referencia": "DB-SUA 2, apartado 1.1, punto 1"
+    },
+    {
+      "pregunta": "Según el DB-HE 1, tabla 3.1.1.a, ¿cuál es el valor límite de transmitancia de los huecos en la zona climática A?",
+      "opciones": [
+        "0,8 W/m²K",
+        "3,2 W/m²K",
+        "2,7 W/m²K",
+        "1,8 W/m²K"
+      ],
+      "correcta": 2,
+      "explicacion": "El valor límite de transmitancia de los huecos es de 2,7 W/m²K en la zona A (3,2 es el valor de la zona de referencia α).",
+      "referencia": "DB-HE 1, tabla 3.1.1.a"
+    },
+    {
+      "pregunta": "Según el DB-HS 3, apartado 3.1.1, punto 1, letra e, ¿a qué distancia del suelo deben situarse los aireadores?",
+      "opciones": [
+        "Mayor que 3 m",
+        "No hay distancia mínima",
+        "Mayor que 0,50 m",
+        "Mayor que 1,80 m"
+      ],
+      "correcta": 3,
+      "explicacion": "Los aireadores deben disponerse a una distancia del suelo mayor que 1,80 m.",
+      "referencia": "DB-HS 3, apartado 3.1.1, punto 1, letra e"
+    },
+    {
+      "pregunta": "Según el DB-SI 1, generalidades, punto 3, ¿a qué norma debe ajustarse el sistema de cierre automático de las puertas resistentes al fuego?",
+      "opciones": [
+        "UNE 103501",
+        "UNE-EN 1154",
+        "UNE-EN 12207",
+        "UNE-EN 12600"
+      ],
+      "correcta": 1,
+      "explicacion": "Los sistemas de cierre automático de las puertas resistentes al fuego deben consistir en un dispositivo conforme a la norma UNE-EN 1154.",
+      "referencia": "DB-SI 1, generalidades, punto 3"
+    },
+    {
+      "pregunta": "Según el DB-SUA 2, apartado 1.3, punto 3, ¿qué deben cumplir las partes vidriadas de las puertas y de los cerramientos de duchas?",
+      "opciones": [
+        "Ser transparentes sin marco",
+        "Ser de vidrio común",
+        "Ser laminadas o templadas, con resistencia al impacto de nivel 3",
+        "No tener ninguna exigencia"
+      ],
+      "correcta": 2,
+      "explicacion": "Las partes vidriadas de puertas y de cerramientos de duchas y bañeras deben ser laminadas o templadas, y resistir sin rotura un impacto de nivel 3.",
+      "referencia": "DB-SUA 2, apartado 1.3, punto 3"
+    },
+    {
+      "pregunta": "Según el DB-SUA 1, apartado 3.2.1, punto 1, ¿cómo se mide la altura de una barrera en una escalera?",
+      "opciones": [
+        "Desde la línea de inclinación definida por los vértices de los peldaños",
+        "Desde el techo del piso inferior",
+        "No se mide",
+        "Desde la cota más baja de la escalera"
+      ],
+      "correcta": 0,
+      "explicacion": "En escaleras, la altura se mide desde la línea de inclinación definida por los vértices de los peldaños, hasta el límite superior de la barrera.",
+      "referencia": "DB-SUA 1, apartado 3.2.1, punto 1"
+    }
+  ]
+}
