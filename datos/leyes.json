@@ -451,6 +451,50 @@
       "verificada": "parcial",
       "fecha_verificacion": "2026-11-04",
       "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 2 de agosto de 2022). Verificados en el texto las IT 1.1.4.1.2 (apartado 1, letra a y tabla 1.4.1.1), IT 1.1.4.2.2, IT 1.1.4.2.3 (apartado A, tabla 1.4.2.1), IT 1.2.4 (índice), IT 1.3.2 (encabezado), IT 2.2.1 (punto 1), IT 2.2.2.1 (punto 1), IT 2.2.5.1 (punto 1), IT 2.3 (encabezado), IT 3.3 (tabla 3.1) y IT 4.3 (apartados 4.3.1 a 4.3.3). Pendientes: el cuerpo del resto de las IT, en particular IT 1.2.4 (cuerpo), 2.3, 3.2, 3.4 y 4.2, y los anexos."
+    },
+    {
+      "id": "DB-SUA",
+      "nombre": "Documento Básico SUA Seguridad de utilización y accesibilidad",
+      "referencia": "Documento Básico SUA del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)",
+      "url": "https://www.codigotecnico.org/DocumentosCTE/SeguridadUtilizacion.html",
+      "boe_id": null,
+      "pdf": "leyes/DB-SUA.pdf",
+      "verificada": "parcial",
+      "fecha_verificacion": "2026-11-04",
+      "notas": "PDF descargado de la web oficial del CTE (47 páginas). Verificados en el texto el apartado 1 de SUA 1 (tabla 1.2 de resbaladicidad y apartado 1 completo en lo referente a la clase), el apartado 2 (discontinuidades, puntos 1 y 3), el encabezado del apartado 3 (desniveles), la estructura de SUA 4 (alumbrado normal, 20 y 100 lux), la tabla 2.1 de SUA 8 (niveles de protección) y el apartado 1.1 de SUA 9 (puntos 1 y 2, 1.1.1, 1.1.2). Pendientes: resto del documento y el cálculo del riesgo de rayo. No se ha identificado la norma de aprobación de la versión descargada ni la fecha de última modificación."
+    },
+    {
+      "id": "DB-HE",
+      "nombre": "Documento Básico HE Ahorro de energía",
+      "referencia": "Documento Básico HE Ahorro de energía del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)",
+      "url": "https://www.codigotecnico.org/DocumentosCTE/AhorroEnergia.html",
+      "boe_id": null,
+      "pdf": "leyes/DB-HE.pdf",
+      "verificada": "parcial",
+      "fecha_verificacion": "2026-11-04",
+      "notas": "PDF descargado de la web oficial del CTE (56 páginas), con fecha de 14 de junio de 2022 en su portada. Verificados en el texto la sección HE 4 (apartados 1, 3.1 puntos 1 a 5, en parte) y la sección HE 5 (apartados 1 y 2, punto 1). Pendientes: métodos de cálculo del anejo F, el resto de HE 0 a HE 3 y el apartado 6 de HE 4 y HE 5. No se ha identificado la norma de aprobación de la versión descargada."
+    },
+    {
+      "id": "DB-SI",
+      "nombre": "Documento Básico SI Seguridad en caso de incendio",
+      "referencia": "Documento Básico SI Seguridad en caso de incendio del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)",
+      "url": "https://www.codigotecnico.org/DocumentosCTE/SeguridadIncendio.html",
+      "boe_id": null,
+      "pdf": "leyes/DB-SI.pdf",
+      "verificada": "parcial",
+      "fecha_verificacion": "2026-11-04",
+      "notas": "PDF descargado de la web oficial del CTE (92 páginas). Verificados en el texto el encabezado y los apartados 1 a 3 del objetivo, el apartado 1 (puntos 1 a 11, en parte), el apartado 4 de SI 1 (tabla 4.1 con sus notas 1 y 2) y el índice. Pendientes: sectorización, evacuación, detección, extinción y resto de SI 1 a SI 6. No se ha identificado la norma de aprobación de la versión descargada."
+    },
+    {
+      "id": "RD-355-2024",
+      "nombre": "Instrucción técnica complementaria ITC AEM 1 Ascensores",
+      "referencia": "Real Decreto 355/2024, de 2 de abril, por el que se aprueba la Instrucción Técnica Complementaria ITC AEM 1 «Ascensores» (BOE núm. 91, de 13 de abril de 2024)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-7258",
+      "boe_id": "BOE-A-2024-7258",
+      "pdf": "leyes/BOE-A-2024-7258.pdf",
+      "verificada": "parcial",
+      "fecha_verificacion": "2026-11-04",
+      "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 3 de septiembre de 2025). Verificados en el texto los arts. 1 (apartados 1 y 2), 3 (apartado 1, letras a a f, y el RAE), 5 (apartados 1 a 3), 11 (apartados 1, 2, 3 y 4) y la mención derogatoria del RD 88/2013 en su preámbulo y disposiciones. Pendientes: arts. 2, 4, 6 a 10 y 12 a 14, y los anexos (incluido el anexo VIII y la norma UNE 58720, no verificada)."
     }
   ]
 }

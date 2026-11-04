@@ -1,0 +1,202 @@
+{
+  "id": "e11",
+  "resumen": [
+    {
+      "titulo": "Marco normativo",
+      "puntos": [
+        "Ascensores: ITC AEM 1 aprobada por el RD 355/2024, que sustituye al RD 88/2013 (disposición derogatoria). Pararrayos y accesibilidad: DB-SUA (SUA 8 y SUA 9). Basuras y bombeo: DB-HS (HS 2 y HS 5). Energía solar: DB-HE (HE 4 y HE 5).",
+        "El antirrobo no tiene exigencia básica en el CTE; su régimen no está en el repositorio."
+      ]
+    },
+    {
+      "titulo": "Ascensores: puesta en servicio",
+      "puntos": [
+        "Documentación de puesta en servicio: ficha técnica, declaración CE o UE de conformidad, manual de funcionamiento, contrato de mantenimiento, actas de ensayo cuando sean aplicables y certificado de inspección inicial favorable con no más de tres meses de antelación (RD 355/2024, art. 3.1, letras a a f).",
+        "Con la comunicación, el órgano competente asigna un número de registro (RAE) al aparato (art. 3.1)."
+      ]
+    },
+    {
+      "titulo": "Ascensores: mantenimiento e inspección",
+      "puntos": [
+        "El mantenimiento lo realiza una empresa conservadora, con plan de mantenimiento por ascensor según la norma UNE 58720 (art. 5.1 a 5.3).",
+        "Inspecciones iniciales antes de la primera puesta en servicio, con resultado favorable sin defectos (art. 11.3). Periódicas: cada dos años en uso industrial o pública concurrencia; cada cuatro años en edificios de más de veinte viviendas o con más de cuatro plantas servidas; cada seis años en los demás (art. 11.4)."
+      ]
+    },
+    {
+      "titulo": "Pararrayos",
+      "puntos": [
+        "Niveles de protección según la eficiencia requerida E: nivel 1 si E es superior a 0,98; nivel 2 entre 0,95 y 0,98; nivel 3 entre 0,80 y 0,95; nivel 4 entre 0 y 0,80 (DB-SUA 8, tabla 2.1).",
+        "Con eficiencia de 0 a 0,80, la protección contra el rayo no es obligatoria (nota de la tabla 2.1)."
+      ]
+    },
+    {
+      "titulo": "Basuras y bombeo",
+      "puntos": [
+        "Almacén de contenedores de edificio para las fracciones con recogida puerta a puerta; espacio de reserva para las de contenedores de calle (DB-HS 2, apartado 2.1, puntos 1 y 2).",
+        "Bombeo de residuales cuando no hay desagüe por gravedad (DB-HS 5, apartado 4.6); bombas de elevación revisadas una vez al año (apartado 7, punto 4). Grupo de presión con depósito entre 2 y 3 bar por encima de la mínima (DB-HS 4, apartado 4.5.2.3)."
+      ]
+    },
+    {
+      "titulo": "Energía solar",
+      "puntos": [
+        "DB-HE 4: contribución renovable de al menos el 70 % de la demanda anual de ACS en edificios con demanda superior a 100 l/d; 60 % si la demanda es inferior a 5.000 l/d (apartado 3.1, punto 1).",
+        "DB-HE 5: generación eléctrica renovable en edificios de nueva construcción de más de 1.000 m² construidos (apartado 1, letra a)."
+      ]
+    },
+    {
+      "titulo": "Accesibilidad y seguridad de utilización",
+      "puntos": [
+        "SUA 9: accesibilidad entre plantas en edificios de viviendas con más de dos plantas que salvar (apartado 1.1.2). Alumbrado: 20 lux en exteriores y 100 lux en interiores (SUA 4).",
+        "Seguridad de trabajos en cubierta: protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CTE",
+      "rol": "Exigencias de utilización, salubridad y ahorro de energía (arts. 12.1, 13.2, 13.5 y 15.1)"
+    },
+    {
+      "id": "DB-SUA",
+      "rol": "Pararrayos (SUA 8, tabla 2.1) y accesibilidad (SUA 9, apartado 1.1.2)"
+    },
+    {
+      "id": "DB-HS",
+      "rol": "Residuos (HS 2, apartado 2.1), bombeo (HS 5, apartados 4.6 y 7) y grupo de presión (HS 4, apartado 4.5.2.3)"
+    },
+    {
+      "id": "DB-HE",
+      "rol": "Contribución solar de ACS (HE 4) y generación eléctrica renovable (HE 5)"
+    },
+    {
+      "id": "RD-355-2024",
+      "rol": "Ascensores: puesta en servicio, mantenimiento e inspección (ITC AEM 1, arts. 1, 3, 5 y 11)"
+    },
+    {
+      "id": "RD-1627-1997",
+      "rol": "Seguridad en cubiertas y en instalaciones de energía (anexo IV, apartados 10 y 12.b)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el DB-SUA 8, tabla 2.1, ¿qué nivel de protección corresponde a una eficiencia requerida E superior a 0,98?",
+      "opciones": [
+        "Nivel 1",
+        "Nivel 2",
+        "Nivel 3",
+        "Nivel 4"
+      ],
+      "correcta": 0,
+      "explicacion": "Para E superior a 0,98, el nivel de protección es 1.",
+      "referencia": "DB-SUA 8, tabla 2.1"
+    },
+    {
+      "pregunta": "Según el RD 355/2024, art. 11.4, ¿con qué periodicidad se inspeccionan los ascensores de un edificio de uso industrial?",
+      "opciones": [
+        "Cada seis años",
+        "Cada diez años",
+        "Cada dos años",
+        "Cada cuatro años"
+      ],
+      "correcta": 2,
+      "explicacion": "Los ascensores instalados en edificios de uso industrial o en lugares de pública concurrencia se inspeccionan cada dos años.",
+      "referencia": "RD 355/2024, art. 11.4, letra a)"
+    },
+    {
+      "pregunta": "Según el RD 355/2024, art. 3.1, ¿qué documento debe presentarse con la comunicación de puesta en servicio?",
+      "opciones": [
+        "Un plano de la fachada",
+        "Ningún documento",
+        "La factura de la obra",
+        "El certificado de inspección inicial favorable, realizado con no más de tres meses de antelación"
+      ],
+      "correcta": 3,
+      "explicacion": "Se presenta, entre otros documentos, el certificado de inspección inicial favorable realizado como máximo con tres meses de antelación.",
+      "referencia": "RD 355/2024, art. 3.1, letra f)"
+    },
+    {
+      "pregunta": "Según el DB-HE 4, apartado 3.1, ¿qué contribución renovable mínima se exige para el ACS en edificios de demanda inferior a 5.000 l/d?",
+      "opciones": [
+        "Un 50 %",
+        "Un 60 %",
+        "Un 100 %",
+        "Un 30 %"
+      ],
+      "correcta": 1,
+      "explicacion": "La contribución mínima del 70 % puede reducirse al 60 % cuando la demanda de ACS sea inferior a 5.000 l/d.",
+      "referencia": "DB-HE 4, apartado 3.1, punto 1"
+    },
+    {
+      "pregunta": "Según el DB-HE 5, apartado 1, ¿a partir de qué superficie construida se aplica la generación eléctrica renovable en edificios de nueva construcción?",
+      "opciones": [
+        "Más de 1.000 m²",
+        "Más de 5.000 m²",
+        "Más de 100 m²",
+        "Más de 500 m²"
+      ],
+      "correcta": 0,
+      "explicacion": "La sección HE 5 se aplica a los edificios de nueva construcción que superen los 1.000 m² construidos.",
+      "referencia": "DB-HE 5, apartado 1, letra a)"
+    },
+    {
+      "pregunta": "Según el DB-HS 2, apartado 2.1, punto 1, ¿qué debe disponer cada edificio como mínimo para las fracciones con recogida puerta a puerta?",
+      "opciones": [
+        "Un incinerador",
+        "Nada",
+        "Un almacén de contenedores de edificio",
+        "Un vertedero propio"
+      ],
+      "correcta": 2,
+      "explicacion": "Cada edificio debe disponer, como mínimo, de un almacén de contenedores de edificio para las fracciones con recogida puerta a puerta.",
+      "referencia": "DB-HS 2, apartado 2.1, punto 1"
+    },
+    {
+      "pregunta": "Según el DB-HS 5, apartado 7, punto 4, ¿con qué periodicidad se revisan las bombas de elevación de la red de evacuación?",
+      "opciones": [
+        "Cada diez años",
+        "Cada seis meses",
+        "Nunca",
+        "Cada año"
+      ],
+      "correcta": 3,
+      "explicacion": "Una vez al año se revisan los colectores suspendidos y se limpian las arquetas sumidero, los pozos de registro y las bombas de elevación.",
+      "referencia": "DB-HS 5, apartado 7, punto 4"
+    },
+    {
+      "pregunta": "Según el DB-SUA 9, apartado 1.1.2, ¿en qué edificios de vivienda se regulan las condiciones de accesibilidad entre plantas?",
+      "opciones": [
+        "Solo en los de una planta",
+        "En los que haya que salvar más de dos plantas",
+        "En los de menos de 50 m²",
+        "En ninguno"
+      ],
+      "correcta": 1,
+      "explicacion": "Los edificios de uso residencial vivienda en los que haya que salvar más de dos plantas tienen condiciones de accesibilidad entre plantas.",
+      "referencia": "DB-SUA 9, apartado 1.1.2"
+    },
+    {
+      "pregunta": "Según el RD 1627/1997, anexo IV, apartado 12.b, ¿qué debe tenerse en cuenta para la protección colectiva en trabajos en tejados?",
+      "opciones": [
+        "Solo la hora del día",
+        "Solo el color de la cubierta",
+        "La altura, la inclinación o el carácter o estado resbaladizo de la superficie",
+        "Nada"
+      ],
+      "correcta": 2,
+      "explicacion": "Las medidas de protección colectiva deben adoptarse en atención a la altura, la inclinación o el carácter o estado resbaladizo de la cubierta.",
+      "referencia": "Anexo IV, apartado 12.b RD 1627/1997"
+    },
+    {
+      "pregunta": "Según el DB-SUA 4 (alumbrado normal), ¿qué iluminancia mínima se exige en zonas interiores de circulación?",
+      "opciones": [
+        "100 lux",
+        "500 lux",
+        "20 lux",
+        "50 lux"
+      ],
+      "correcta": 0,
+      "explicacion": "La iluminancia mínima es de 20 lux en zonas exteriores y de 100 lux en zonas interiores, salvo los aparcamientos interiores, que son de 50 lux.",
+      "referencia": "DB-SUA 4, apartado 1"
+    }
+  ]
+}

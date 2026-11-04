@@ -971,6 +971,50 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-04",
    "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 2 de agosto de 2022). Verificados en el texto las IT 1.1.4.1.2 (apartado 1, letra a y tabla 1.4.1.1), IT 1.1.4.2.2, IT 1.1.4.2.3 (apartado A, tabla 1.4.2.1), IT 1.2.4 (índice), IT 1.3.2 (encabezado), IT 2.2.1 (punto 1), IT 2.2.2.1 (punto 1), IT 2.2.5.1 (punto 1), IT 2.3 (encabezado), IT 3.3 (tabla 3.1) y IT 4.3 (apartados 4.3.1 a 4.3.3). Pendientes: el cuerpo del resto de las IT, en particular IT 1.2.4 (cuerpo), 2.3, 3.2, 3.4 y 4.2, y los anexos."
+  },
+  "DB-SUA": {
+   "id": "DB-SUA",
+   "nombre": "Documento Básico SUA Seguridad de utilización y accesibilidad",
+   "referencia": "Documento Básico SUA del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)",
+   "url": "https://www.codigotecnico.org/DocumentosCTE/SeguridadUtilizacion.html",
+   "boe_id": null,
+   "pdf": "leyes/DB-SUA.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF descargado de la web oficial del CTE (47 páginas). Verificados en el texto el apartado 1 de SUA 1 (tabla 1.2 de resbaladicidad y apartado 1 completo en lo referente a la clase), el apartado 2 (discontinuidades, puntos 1 y 3), el encabezado del apartado 3 (desniveles), la estructura de SUA 4 (alumbrado normal, 20 y 100 lux), la tabla 2.1 de SUA 8 (niveles de protección) y el apartado 1.1 de SUA 9 (puntos 1 y 2, 1.1.1, 1.1.2). Pendientes: resto del documento y el cálculo del riesgo de rayo. No se ha identificado la norma de aprobación de la versión descargada ni la fecha de última modificación."
+  },
+  "DB-HE": {
+   "id": "DB-HE",
+   "nombre": "Documento Básico HE Ahorro de energía",
+   "referencia": "Documento Básico HE Ahorro de energía del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)",
+   "url": "https://www.codigotecnico.org/DocumentosCTE/AhorroEnergia.html",
+   "boe_id": null,
+   "pdf": "leyes/DB-HE.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF descargado de la web oficial del CTE (56 páginas), con fecha de 14 de junio de 2022 en su portada. Verificados en el texto la sección HE 4 (apartados 1, 3.1 puntos 1 a 5, en parte) y la sección HE 5 (apartados 1 y 2, punto 1). Pendientes: métodos de cálculo del anejo F, el resto de HE 0 a HE 3 y el apartado 6 de HE 4 y HE 5. No se ha identificado la norma de aprobación de la versión descargada."
+  },
+  "DB-SI": {
+   "id": "DB-SI",
+   "nombre": "Documento Básico SI Seguridad en caso de incendio",
+   "referencia": "Documento Básico SI Seguridad en caso de incendio del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)",
+   "url": "https://www.codigotecnico.org/DocumentosCTE/SeguridadIncendio.html",
+   "boe_id": null,
+   "pdf": "leyes/DB-SI.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF descargado de la web oficial del CTE (92 páginas). Verificados en el texto el encabezado y los apartados 1 a 3 del objetivo, el apartado 1 (puntos 1 a 11, en parte), el apartado 4 de SI 1 (tabla 4.1 con sus notas 1 y 2) y el índice. Pendientes: sectorización, evacuación, detección, extinción y resto de SI 1 a SI 6. No se ha identificado la norma de aprobación de la versión descargada."
+  },
+  "RD-355-2024": {
+   "id": "RD-355-2024",
+   "nombre": "Instrucción técnica complementaria ITC AEM 1 Ascensores",
+   "referencia": "Real Decreto 355/2024, de 2 de abril, por el que se aprueba la Instrucción Técnica Complementaria ITC AEM 1 «Ascensores» (BOE núm. 91, de 13 de abril de 2024)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-7258",
+   "boe_id": "BOE-A-2024-7258",
+   "pdf": "leyes/BOE-A-2024-7258.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF consolidado descargado (última modificación indicada en el PDF: 3 de septiembre de 2025). Verificados en el texto los arts. 1 (apartados 1 y 2), 3 (apartado 1, letras a a f, y el RAE), 5 (apartados 1 a 3), 11 (apartados 1, 2, 3 y 4) y la mención derogatoria del RD 88/2013 en su preámbulo y disposiciones. Pendientes: arts. 2, 4, 6 a 10 y 12 a 14, y los anexos (incluido el anexo VIII y la norma UNE 58720, no verificada)."
   }
  },
  "contenido": {
@@ -16015,6 +16059,667 @@ window.DATOS_ESTUDIO = {
     "leyes/BOE-A-1997-22614.pdf",
     "leyes/BOE-A-1995-24292.pdf",
     "leyes/BOE-A-1999-21567.pdf"
+   ]
+  },
+  "e11": {
+   "resumen": [
+    {
+     "titulo": "Marco normativo",
+     "puntos": [
+      "Ascensores: ITC AEM 1 aprobada por el RD 355/2024, que sustituye al RD 88/2013 (disposición derogatoria). Pararrayos y accesibilidad: DB-SUA (SUA 8 y SUA 9). Basuras y bombeo: DB-HS (HS 2 y HS 5). Energía solar: DB-HE (HE 4 y HE 5).",
+      "El antirrobo no tiene exigencia básica en el CTE; su régimen no está en el repositorio."
+     ]
+    },
+    {
+     "titulo": "Ascensores: puesta en servicio",
+     "puntos": [
+      "Documentación de puesta en servicio: ficha técnica, declaración CE o UE de conformidad, manual de funcionamiento, contrato de mantenimiento, actas de ensayo cuando sean aplicables y certificado de inspección inicial favorable con no más de tres meses de antelación (RD 355/2024, art. 3.1, letras a a f).",
+      "Con la comunicación, el órgano competente asigna un número de registro (RAE) al aparato (art. 3.1)."
+     ]
+    },
+    {
+     "titulo": "Ascensores: mantenimiento e inspección",
+     "puntos": [
+      "El mantenimiento lo realiza una empresa conservadora, con plan de mantenimiento por ascensor según la norma UNE 58720 (art. 5.1 a 5.3).",
+      "Inspecciones iniciales antes de la primera puesta en servicio, con resultado favorable sin defectos (art. 11.3). Periódicas: cada dos años en uso industrial o pública concurrencia; cada cuatro años en edificios de más de veinte viviendas o con más de cuatro plantas servidas; cada seis años en los demás (art. 11.4)."
+     ]
+    },
+    {
+     "titulo": "Pararrayos",
+     "puntos": [
+      "Niveles de protección según la eficiencia requerida E: nivel 1 si E es superior a 0,98; nivel 2 entre 0,95 y 0,98; nivel 3 entre 0,80 y 0,95; nivel 4 entre 0 y 0,80 (DB-SUA 8, tabla 2.1).",
+      "Con eficiencia de 0 a 0,80, la protección contra el rayo no es obligatoria (nota de la tabla 2.1)."
+     ]
+    },
+    {
+     "titulo": "Basuras y bombeo",
+     "puntos": [
+      "Almacén de contenedores de edificio para las fracciones con recogida puerta a puerta; espacio de reserva para las de contenedores de calle (DB-HS 2, apartado 2.1, puntos 1 y 2).",
+      "Bombeo de residuales cuando no hay desagüe por gravedad (DB-HS 5, apartado 4.6); bombas de elevación revisadas una vez al año (apartado 7, punto 4). Grupo de presión con depósito entre 2 y 3 bar por encima de la mínima (DB-HS 4, apartado 4.5.2.3)."
+     ]
+    },
+    {
+     "titulo": "Energía solar",
+     "puntos": [
+      "DB-HE 4: contribución renovable de al menos el 70 % de la demanda anual de ACS en edificios con demanda superior a 100 l/d; 60 % si la demanda es inferior a 5.000 l/d (apartado 3.1, punto 1).",
+      "DB-HE 5: generación eléctrica renovable en edificios de nueva construcción de más de 1.000 m² construidos (apartado 1, letra a)."
+     ]
+    },
+    {
+     "titulo": "Accesibilidad y seguridad de utilización",
+     "puntos": [
+      "SUA 9: accesibilidad entre plantas en edificios de viviendas con más de dos plantas que salvar (apartado 1.1.2). Alumbrado: 20 lux en exteriores y 100 lux en interiores (SUA 4).",
+      "Seguridad de trabajos en cubierta: protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Exigencias de utilización, salubridad y ahorro de energía (arts. 12.1, 13.2, 13.5 y 15.1)"
+    },
+    {
+     "id": "DB-SUA",
+     "rol": "Pararrayos (SUA 8, tabla 2.1) y accesibilidad (SUA 9, apartado 1.1.2)"
+    },
+    {
+     "id": "DB-HS",
+     "rol": "Residuos (HS 2, apartado 2.1), bombeo (HS 5, apartados 4.6 y 7) y grupo de presión (HS 4, apartado 4.5.2.3)"
+    },
+    {
+     "id": "DB-HE",
+     "rol": "Contribución solar de ACS (HE 4) y generación eléctrica renovable (HE 5)"
+    },
+    {
+     "id": "RD-355-2024",
+     "rol": "Ascensores: puesta en servicio, mantenimiento e inspección (ITC AEM 1, arts. 1, 3, 5 y 11)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Seguridad en cubiertas y en instalaciones de energía (anexo IV, apartados 10 y 12.b)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el DB-SUA 8, tabla 2.1, ¿qué nivel de protección corresponde a una eficiencia requerida E superior a 0,98?",
+     "opciones": [
+      "Nivel 1",
+      "Nivel 2",
+      "Nivel 3",
+      "Nivel 4"
+     ],
+     "correcta": 0,
+     "explicacion": "Para E superior a 0,98, el nivel de protección es 1.",
+     "referencia": "DB-SUA 8, tabla 2.1"
+    },
+    {
+     "pregunta": "Según el RD 355/2024, art. 11.4, ¿con qué periodicidad se inspeccionan los ascensores de un edificio de uso industrial?",
+     "opciones": [
+      "Cada seis años",
+      "Cada diez años",
+      "Cada dos años",
+      "Cada cuatro años"
+     ],
+     "correcta": 2,
+     "explicacion": "Los ascensores instalados en edificios de uso industrial o en lugares de pública concurrencia se inspeccionan cada dos años.",
+     "referencia": "RD 355/2024, art. 11.4, letra a)"
+    },
+    {
+     "pregunta": "Según el RD 355/2024, art. 3.1, ¿qué documento debe presentarse con la comunicación de puesta en servicio?",
+     "opciones": [
+      "Un plano de la fachada",
+      "Ningún documento",
+      "La factura de la obra",
+      "El certificado de inspección inicial favorable, realizado con no más de tres meses de antelación"
+     ],
+     "correcta": 3,
+     "explicacion": "Se presenta, entre otros documentos, el certificado de inspección inicial favorable realizado como máximo con tres meses de antelación.",
+     "referencia": "RD 355/2024, art. 3.1, letra f)"
+    },
+    {
+     "pregunta": "Según el DB-HE 4, apartado 3.1, ¿qué contribución renovable mínima se exige para el ACS en edificios de demanda inferior a 5.000 l/d?",
+     "opciones": [
+      "Un 50 %",
+      "Un 60 %",
+      "Un 100 %",
+      "Un 30 %"
+     ],
+     "correcta": 1,
+     "explicacion": "La contribución mínima del 70 % puede reducirse al 60 % cuando la demanda de ACS sea inferior a 5.000 l/d.",
+     "referencia": "DB-HE 4, apartado 3.1, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-HE 5, apartado 1, ¿a partir de qué superficie construida se aplica la generación eléctrica renovable en edificios de nueva construcción?",
+     "opciones": [
+      "Más de 1.000 m²",
+      "Más de 5.000 m²",
+      "Más de 100 m²",
+      "Más de 500 m²"
+     ],
+     "correcta": 0,
+     "explicacion": "La sección HE 5 se aplica a los edificios de nueva construcción que superen los 1.000 m² construidos.",
+     "referencia": "DB-HE 5, apartado 1, letra a)"
+    },
+    {
+     "pregunta": "Según el DB-HS 2, apartado 2.1, punto 1, ¿qué debe disponer cada edificio como mínimo para las fracciones con recogida puerta a puerta?",
+     "opciones": [
+      "Un incinerador",
+      "Nada",
+      "Un almacén de contenedores de edificio",
+      "Un vertedero propio"
+     ],
+     "correcta": 2,
+     "explicacion": "Cada edificio debe disponer, como mínimo, de un almacén de contenedores de edificio para las fracciones con recogida puerta a puerta.",
+     "referencia": "DB-HS 2, apartado 2.1, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-HS 5, apartado 7, punto 4, ¿con qué periodicidad se revisan las bombas de elevación de la red de evacuación?",
+     "opciones": [
+      "Cada diez años",
+      "Cada seis meses",
+      "Nunca",
+      "Cada año"
+     ],
+     "correcta": 3,
+     "explicacion": "Una vez al año se revisan los colectores suspendidos y se limpian las arquetas sumidero, los pozos de registro y las bombas de elevación.",
+     "referencia": "DB-HS 5, apartado 7, punto 4"
+    },
+    {
+     "pregunta": "Según el DB-SUA 9, apartado 1.1.2, ¿en qué edificios de vivienda se regulan las condiciones de accesibilidad entre plantas?",
+     "opciones": [
+      "Solo en los de una planta",
+      "En los que haya que salvar más de dos plantas",
+      "En los de menos de 50 m²",
+      "En ninguno"
+     ],
+     "correcta": 1,
+     "explicacion": "Los edificios de uso residencial vivienda en los que haya que salvar más de dos plantas tienen condiciones de accesibilidad entre plantas.",
+     "referencia": "DB-SUA 9, apartado 1.1.2"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, anexo IV, apartado 12.b, ¿qué debe tenerse en cuenta para la protección colectiva en trabajos en tejados?",
+     "opciones": [
+      "Solo la hora del día",
+      "Solo el color de la cubierta",
+      "La altura, la inclinación o el carácter o estado resbaladizo de la superficie",
+      "Nada"
+     ],
+     "correcta": 2,
+     "explicacion": "Las medidas de protección colectiva deben adoptarse en atención a la altura, la inclinación o el carácter o estado resbaladizo de la cubierta.",
+     "referencia": "Anexo IV, apartado 12.b RD 1627/1997"
+    },
+    {
+     "pregunta": "Según el DB-SUA 4 (alumbrado normal), ¿qué iluminancia mínima se exige en zonas interiores de circulación?",
+     "opciones": [
+      "100 lux",
+      "500 lux",
+      "20 lux",
+      "50 lux"
+     ],
+     "correcta": 0,
+     "explicacion": "La iluminancia mínima es de 20 lux en zonas exteriores y de 100 lux en zonas interiores, salvo los aparcamientos interiores, que son de 50 lux.",
+     "referencia": "DB-SUA 4, apartado 1"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué instalaciones forman este bloque",
+     "parrafos": [
+      "El tema reúne instalaciones que, a diferencia de las de los temas anteriores, tienen una función de servicio concreta y un riesgo propio. Las electromecánicas son los aparatos elevadores, como los ascensores, y los equipos de bombeo, que mueven personas o agua por medios mecánicos. Las de protección son el sistema antirrobo y el pararrayos. Las de salubridad son la gestión de las basuras. Y la energía solar es la captación de la radiación para producir agua caliente o electricidad.",
+      "Estas instalaciones se regulan por distintas normas. El CTE fija las exigencias básicas en tres documentos: el DB-SUA, para la seguridad de utilización y accesibilidad, que incluye el pararrayos; el DB-HS, para la salubridad, que incluye la recogida de residuos y el bombeo de las aguas; y el DB-HE, para el ahorro de energía, que incluye la contribución solar. Los ascensores se rigen por el reglamento de aparatos de elevación y manutención, en su instrucción técnica ITC AEM 1, que el Real Decreto 355/2024 aprueba. El antirrobo no tiene una exigencia básica en el CTE.",
+      "En un examen, conviene asociar cada instalación con su norma antes de responder. La respuesta sobre el ascensor no debe citar el CTE, y la del pararrayos no debe citar el reglamento de ascensores. Esa separación es la que más errores evita."
+     ]
+    },
+    {
+     "titulo": "2. Requisitos básicos del CTE aplicables",
+     "parrafos": [
+      "La exigencia de seguridad de utilización y accesibilidad (SUA) pide reducir a límites aceptables el riesgo de daños inmediatos en el uso previsto del edificio, y facilitar el acceso y la utilización no discriminatoria a las personas con discapacidad (CTE, art. 12.1). La sección SUA 9 regula la accesibilidad entre plantas: en los edificios de viviendas en los que haya que salvar más de dos plantas, establece las condiciones que deben cumplir los medios de comunicación vertical (apartado 1.1.2).",
+      "La exigencia de salubridad HS 2 pide espacios y medios para extraer los residuos ordinarios generados en el edificio, de forma que se facilite su separación en origen, su recogida selectiva y su posterior gestión (CTE, art. 13.2). La exigencia HS 5 pide medios para extraer las aguas residuales, de forma independiente o conjunta con las pluviales (CTE, art. 13.5), y el bombeo se trata dentro de ella.",
+      "La exigencia de protección frente al rayo está en el DB-SUA 8, que se aplica a los edificios cuya instalación de protección contra el rayo sea necesaria. La exigencia de ahorro de energía (CTE, art. 15.1) incluye la contribución renovable de la demanda de agua caliente y la generación de electricidad renovable, que se concretan en el DB-HE 4 y el DB-HE 5."
+     ]
+    },
+    {
+     "titulo": "3. Aparatos elevadores: ascensores",
+     "parrafos": [
+      "El Real Decreto 355/2024 aprueba la ITC AEM 1 «Ascensores», que regula la puesta en servicio, la modificación, el mantenimiento y la inspección de los ascensores, y el incremento de la seguridad del parque existente. Sustituye al Real Decreto 88/2013, que había aprobado la misma instrucción y que queda derogado (RD 355/2024, disposición derogatoria). Su objeto es proteger a las personas, los animales de compañía y los bienes frente a los riesgos de accidente del funcionamiento, las modificaciones y el mantenimiento de los aparatos (art. 1.1).",
+      "La puesta en servicio exige una documentación que el titular presenta ante el órgano de la comunidad autónoma: la ficha técnica de la instalación, la declaración CE o UE de conformidad, el manual de funcionamiento, la copia del contrato de mantenimiento, las actas de ensayo cuando sean aplicables y el certificado de inspección inicial favorable, realizado con no más de tres meses de antelación (art. 3.1, letras a a f). Con esa comunicación, el órgano asigna un número de registro al aparato (RAE).",
+      "El mantenimiento debe realizarlo una empresa conservadora, y las comprobaciones mínimas de las revisiones preventivas son las de la norma UNE 58720 (art. 5.1 y 5.2). La empresa conservadora debe tener un plan de mantenimiento actualizado para cada ascensor que conserve, elaborado según esa misma norma (art. 5.3). Las obligaciones del titular, de la empresa y del conservador se recogen en los artículos 4, 6, 7 y 8.",
+      "Las inspecciones son de tres tipos: iniciales, antes de la primera puesta en servicio, realizadas por un organismo de control distinto del que evaluó la conformidad y con resultado favorable sin defectos (art. 11.3); periódicas, y otras inspecciones (art. 11.2). Las periódicas se realizan cada dos años en los ascensores de edificios de uso industrial o de pública concurrencia, cada cuatro años en los de edificios de más de veinte viviendas o con más de cuatro plantas servidas, y cada seis años en los demás (art. 11.4, letras a, b y c)."
+     ]
+    },
+    {
+     "titulo": "4. Equipos de bombeo",
+     "parrafos": [
+      "Los equipos de bombeo se usan cuando el agua no puede llegar por gravedad a su destino. En la evacuación, el DB-HS 5 contempla el sistema de bombeo y elevación de las aguas residuales cuando no es posible el desagüe por gravedad, con un depósito de recepción y las bombas. Su dimensionado se trata en el apartado 4.6 del documento, con el cálculo del depósito (4.6.1) y el de las bombas (4.6.2).",
+      "En la red de agua, el DB-HS 4 regula el grupo de presión. Cuando la presión disponible no basta para los puntos de consumo, se instala un grupo de presión con un depósito de presión cuya presión máxima se sitúa entre 2 y 3 bar por encima de la mínima, para limitar el número de arranques y paradas del grupo y prolongar su vida útil (DB-HS 4, apartado 4.5.2.3, punto 1).",
+      "Los equipos de bombeo necesitan operaciones de mantenimiento y accesibilidad. El DB-HS 4 exige que los equipos que requieren operaciones periódicas, como los elementos de medida, control, protección y maniobra, se sitúen en espacios accesibles (apartado 7.3, punto 2). Las bombas de elevación de residuales también requieren revisión anual, según la periodicidad del DB-HS 5 para los elementos de la red de evacuación (apartado 7, punto 4)."
+     ]
+    },
+    {
+     "titulo": "5. Antirrobo",
+     "parrafos": [
+      "El CTE no establece una exigencia básica específica para los sistemas antirrobo de los edificios. La seguridad de las personas en el uso del edificio está cubierta por las exigencias de utilización (SUA) y de incendio (SI), pero la protección de los bienes frente al robo no se regula en los documentos básicos verificados en este tema.",
+      "En la práctica, el antirrobo se resuelve con la puerta de acceso, las cerraduras, los cerramientos de las plantas bajas, la videovigilancia y los sistemas de alarma. Su régimen aplicable depende de la normativa municipal, de las condiciones de la comunidad de propietarios y de las exigencias de las aseguradoras. Por eso, en un examen, la respuesta debe señalar que el antirrobo no tiene un DB propio y que su regulación no está en el repositorio.",
+      "Cuando el antirrobo se integra en el edificio, debe respetar las exigencias de los medios de evacuación y de los accesos de emergencia. Una cerradura que impide la salida en caso de incendio contradice la exigencia de seguridad frente al incendio, que se regula en el DB-SI. Esa conexión entre dos exigencias es una pregunta de examen habitual.",
+      "En un supuesto de vivienda unifamiliar, el antirrobo más eficaz suele combinar las medidas de resistencia de los accesos con las de detección y disuasión. Ninguna de esas medidas puede impedir la evacuación en caso de incendio, que se regula en el DB-SI. Este equilibrio entre seguridad frente al robo y seguridad frente al incendio es el que el proyectista debe documentar."
+     ]
+    },
+    {
+     "titulo": "6. Pararrayos",
+     "parrafos": [
+      "La seguridad frente al riesgo causado por la acción del rayo está en el DB-SUA 8. El documento distingue niveles de protección según la eficiencia requerida E de la instalación, con cuatro niveles en la tabla 2.1. Para una eficiencia superior a 0,98, el nivel es 1; para un valor entre 0,95 y 0,98, el nivel es 2; entre 0,80 y 0,95, el nivel es 3; y entre 0 y 0,80, el nivel es 4.",
+      "La tabla 2.1 incluye una nota: dentro de los límites de eficiencia de 0 a 0,80, la instalación de protección contra el rayo no es obligatoria. Por tanto, el pararrayos no es una exigencia universal, sino que depende de la eficiencia requerida en cada edificio, que el documento calcula con sus propios métodos.",
+      "La instalación de pararrayos debe conectarse a la puesta a tierra del edificio, que el reglamento electrotécnico para baja tensión regula en su ITC-BT-18, y que se trata en el tema 8. Los componentes de la instalación, con su eficiencia requerida, deben indicarse en el proyecto."
+     ]
+    },
+    {
+     "titulo": "7. Recogida de basuras",
+     "parrafos": [
+      "El DB-HS 2 regula la recogida de residuos. Cada edificio debe disponer como mínimo de un almacén de contenedores de edificio, para las fracciones de residuos que tengan recogida puerta a puerta. Para las fracciones con recogida centralizada en contenedores de calle de superficie, debe disponer de un espacio de reserva en el que pueda construirse un almacén cuando alguna de esas fracciones pase a tener recogida puerta a puerta (DB-HS 2, apartado 2.1, puntos 1 y 2).",
+      "En viviendas aisladas o agrupadas horizontalmente, el almacén y el espacio de reserva pueden disponerse para varias viviendas (apartado 2.1, punto 2). La exigencia de separación en origen, que el CTE recoge en su artículo 13.2, se materializa en los contenedores separados por fracción en el almacén.",
+      "El DB-HS 2 regula también las instalaciones de traslado por bajantes y los espacios de almacenamiento inmediato en las viviendas (apartados 2.2 y 2.3), y el mantenimiento de los almacenes (apartado 3). Esos apartados no se han leído en su cuerpo en este tema."
+     ]
+    },
+    {
+     "titulo": "8. Energía solar",
+     "parrafos": [
+      "El DB-HE 4 regula la contribución mínima de energía renovable para cubrir la demanda de agua caliente sanitaria. Se aplica a edificios de nueva construcción con demanda de ACS superior a 100 litros al día, y a los existentes que se reformen íntegramente, con el mismo umbral (apartado 1, punto 1, letras a y b). La contribución renovable mínima cubre al menos el 70 % de la demanda energética anual para ACS, y puede reducirse al 60 % cuando la demanda sea inferior a 5.000 litros al día (apartado 3.1, punto 1).",
+      "Solo se considera la aportación renovable con origen in situ o en las proximidades del edificio, o procedente de biomasa sólida (apartado 3.1, punto 1). Las bombas de calor que cuentan para esa contribución deben tener un rendimiento medio estacional de al menos 2,5 si son eléctricas, y de 1,15 si son térmicas, determinado para una temperatura de preparación del ACS no inferior a 45 ºC (apartado 3.1, punto 4).",
+      "El DB-HE 5 regula la generación mínima de energía eléctrica procedente de fuentes renovables. Se aplica a los edificios de nueva construcción que superen los 1.000 m² construidos, a las ampliaciones que incrementen la superficie en más de 1.000 m², y a los edificios existentes que se reformen íntegramente con esa superficie (apartado 1, letras a a c). La superficie incluye los aparcamientos interiores y excluye las zonas exteriores comunes. La exigencia pide sistemas de generación para uso propio o para suministro a la red (apartado 2, punto 1).",
+      "La contribución solar del DB-HE 4 se consigue con captadores solares térmicos, un acumulador y un circuito de intercambio, y en algunos casos con un sistema de apoyo que garantiza el suministro cuando el sol no basta. El proyecto debe justificar la fracción solar mensual y anual de la demanda, con los valores de la demanda de ACS calculados según el anejo F del DB. Un examen puede pedir la diferencia entre la contribución solar y la producción total: la primera es la parte de la demanda cubierta por el sol, y la segunda incluye también el apoyo."
+     ]
+    },
+    {
+     "titulo": "9. Ejecución, control y puesta en servicio",
+     "parrafos": [
+      "La ejecución de estas instalaciones sigue las reglas generales del CTE: las obras se ejecutan con sujeción al proyecto y a las instrucciones de la dirección facultativa (CTE, art. 7.1.1), y el control de recepción de los productos, el control de ejecución y el control de la obra terminada se hacen en los términos de los artículos 7.2, 7.3 y 7.4.",
+      "En los ascensores, la instalación debe ser objeto de la inspección inicial antes de la puesta en servicio, y su documentación debe quedar en poder del titular, con el original o una copia de la ficha técnica y del manual de funcionamiento (RD 355/2024, art. 3). El instalador o el fabricante debe entregar esa documentación al titular.",
+      "En el DB-HS 4, la puesta en servicio de la red de agua exige la prueba de resistencia mecánica y de estanquidad de todas las tuberías y accesorios, con todos los componentes vistos y accesibles (apartado 5.2.1.1, punto 1). Esta prueba se aplica también a la red que alimenta el grupo de presión.",
+      "La ejecución de los captadores solares exige un anclaje que resista las acciones de viento y de nieve de la cubierta, según el DB-SE-AE, y una conexión hidráulica que no genere puntos de estancamiento. Los captadores se sitúan en la cubierta, por lo que su montaje y su mantenimiento deben planificarse con las medidas de protección del anexo IV del RD 1627/1997 para trabajos en tejados. Esta conexión entre la energía solar y la cubierta es la que el tema 7 trata con detalle."
+     ]
+    },
+    {
+     "titulo": "10. Uso, conservación y mantenimiento",
+     "parrafos": [
+      "El mantenimiento de los ascensores está regulado en el artículo 5 de la ITC AEM 1, que exige la realización por empresas conservadoras con un plan de mantenimiento por aparato, y en el artículo 7, sobre las obligaciones de las empresas en relación con su actividad. El titular del ascensor debe disponer del contrato de mantenimiento en la puesta en servicio (art. 3.1, letra d), y debe cumplir las obligaciones del artículo 4.",
+      "El mantenimiento de los sistemas solares y de los equipos de bombeo sigue los criterios del DB-HE y del DB-HS y las instrucciones del fabricante. El mantenimiento de los equipos de generación térmica, incluidos los de apoyo a la energía solar, se rige por el RITE (tema 10), en lo que afecte a esos equipos.",
+      "El pararrayos debe revisarse periódicamente para comprobar la continuidad de sus conductores y la puesta a tierra. Las revisiones concretas del DB-SUA 8 y la periodicidad de la comprobación no se han leído en este tema, y deben consultarse en el documento antes de fijar un plan.",
+      "El titular de un ascensor es responsable del cumplimiento de la ITC AEM 1, y debe mantener el contrato de mantenimiento y la documentación del aparato durante toda su vida."
+     ]
+    },
+    {
+     "titulo": "11. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "Los riesgos de estas instalaciones en obra son los de los trabajos en cubierta, donde se instalan los paneles solares, los pararrayos y los equipos de bombeo de cubierta; los de la instalación de aparatos elevadores en el hueco, con caída de personas y de piezas; y los eléctricos de las instalaciones solares fotovoltaicas, por la corriente continua y por el contacto con partes en tensión.",
+      "Para la cubierta, el anexo IV del Real Decreto 1627/1997, apartado 12.b, exige medidas de protección colectiva según la altura, la inclinación y el estado resbaladizo de la superficie. Para las instalaciones eléctricas de la obra, el apartado 10 del anexo exige verificar y mantener las instalaciones de distribución de energía, localizar las existentes y adoptar medidas frente a las líneas aéreas. Los trabajos en el hueco del ascensor se rigen por otras reglas del anexo IV, que no se han desarrollado aquí.",
+      "La evaluación de riesgos se apoya en la LPRL, cuyo artículo 16 regula el plan de prevención; de ese artículo solo se ha comprobado el inicio en el repositorio. El estudio de seguridad y salud debe recoger las medidas con su presupuesto (RD 1627/1997, arts. 4 y 5), y el plan de seguridad de cada contratista lo desarrolla (art. 7)."
+     ]
+    },
+    {
+     "titulo": "12. Criterios de medición y factores del precio",
+     "parrafos": [
+      "Los aparatos elevadores se miden por unidad, con su tipo (eléctrico o hidráulico), su capacidad y el número de paradas, y las obras de acondicionamiento del hueco por metro cuadrado o por unidad. Los equipos de bombeo se miden por unidad, con su depósito y su cuadro de control. El pararrayos se mide por unidad de captador y por metro lineal de bajante y de conductor de tierra.",
+      "La energía solar se mide por metro cuadrado de captador o por kilovatio pico instalado, según el proyecto. Los contenedores y almacenes de basuras se miden por unidad o por metro cuadrado de local. Los factores del precio son el tipo de instalación, la capacidad y la potencia, la altura de los medios de elevación, la complejidad del hueco y la necesidad de pruebas de inspección.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). Las normas de medición concretas no se han verificado en el repositorio, por lo que el tema las presenta como principios.",
+      "Para medir la energía solar, el proyecto debe indicar la superficie de captación útil de cada captador y su orientación e inclinación, porque la medición por metro cuadrado no refleja por sí sola la energía que se obtiene. La medición por kilovatio pico, por su parte, se refiere a la potencia nominal del generador fotovoltaico en condiciones estándar, y su precio se comporta de forma distinta según la escala de la instalación. Por eso el cuadro de precios debe distinguir ambas unidades cuando el proyecto las combine."
+     ]
+    },
+    {
+     "titulo": "13. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las cifras que más se preguntan son el umbral de 1.000 m² del DB-HE 5, el 70 % del DB-HE 4 (60 % si la demanda es inferior a 5.000 litros al día), el número de niveles de protección del pararrayos (cuatro, con eficiencia por tramos), las periodicidades de inspección del ascensor (dos, cuatro y seis años) y la distancia mínima de los aireadores del suelo de la vivienda, que es de 1,80 m en la ventilación.",
+      "Los errores habituales son cuatro. El primero es afirmar que el antirrobo tiene un DB propio. El segundo es confundir el RD 88/2013, derogado, con el RD 355/2024. El tercero es asumir que el pararrayos es obligatorio en todos los edificios, cuando la tabla 2.1 del DB-SUA 8 no lo exige para eficiencias bajas. El cuarto es confundir la contribución solar de ACS (70 %) con la generación eléctrica del DB-HE 5 (1.000 m²).",
+      "Para un caso práctico de edificio de viviendas de nueva construcción con 25 viviendas y 1.800 m² construidos, el orden de análisis es: comprobar la accesibilidad y el ascensor (SUA 9 y ITC AEM 1); verificar la demanda de ACS y la contribución solar (DB-HE 4); comprobar la superficie para la generación eléctrica (DB-HE 5, superada en este caso); determinar la eficiencia del pararrayos y su nivel de protección (DB-SUA 8); y prever el almacén de contenedores (DB-HS 2).",
+      "Conviene relacionar este tema con los anteriores. Las instalaciones de bombeo, de energía solar y de pararrayos comparten la cubierta con otras instalaciones, y la coordinación de esos elementos debe resolverse en el proyecto antes de la obra. El tema 7 trata la cubierta, el tema 8 la instalación eléctrica y de la puesta a tierra, y el tema 9 la fontanería y el agua caliente. Un examen que combine estos bloques suele preguntar por la coordinación en la cubierta, por la protección de la instalación eléctrica y por el dimensionado de la red de agua del grupo de presión."
+     ]
+    },
+    {
+     "titulo": "14. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 12.1 y el 13.2 y 13.5 del CTE; el DB-SUA en su encabezado de SUA 9 (apartado 1.1, puntos 1 y 2, y 1.1.2), en la tabla 1.2 de resbaladicidad, en el apartado de alumbrado de emergencia (encabezado) y en la tabla 2.1 de SUA 8; el DB-HE 4 en sus apartados 1, 3.1 (puntos 1, 3, 4 y 5); el DB-HE 5 en sus apartados 1 y 2 (punto 1); el DB-HS 2 en su apartado 2.1; el DB-HS 4 en el apartado 4.5.2.3 y en el 7.3; el DB-HS 5 en su apartado 4.6 (encabezado) y 7 (punto 4); el RD 355/2024 en sus artículos 1, 3, 5 (puntos 1 a 3), 11 (puntos 1 a 4) y la disposición derogatoria; el RD 1627/1997 en su anexo IV, apartados 10 y 12.b; y la LOE en su artículo 17.1.",
+      "No se han leído el DB-SUA 4 completo (alumbrado), el DB-SUA 8 en su cuerpo (campo de aplicación, cálculo de la eficiencia y mantenimiento), el DB-SUA 9 en sus condiciones de los ascensores, el DB-HE 4 en sus métodos de cálculo del anejo F, el DB-HS 2 en sus apartados 2.2 y 2.3, ni el apartado 4.6 del DB-HS 5 en su cuerpo. Tampoco se ha leído la norma UNE 58720 ni los anexos del RD 355/2024.",
+      "Las versiones del DB-SUA, del DB-HE y del DB-SI descargadas son las publicadas en la web oficial del CTE, sin fecha de última modificación en el PDF, y su norma de aprobación debe comprobarse. El antirrobo no tiene regulación en los documentos verificados y su régimen aplicable no está en el repositorio."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/DB-SUA.pdf",
+    "leyes/DB-HE.pdf",
+    "leyes/DB-HS-salubridad.pdf",
+    "leyes/BOE-A-2024-7258.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/BOE-A-1997-22614.pdf",
+    "leyes/BOE-A-1995-24292.pdf"
+   ]
+  },
+  "e12": {
+   "resumen": [
+    {
+     "titulo": "Clasificación y documentos aplicables",
+     "puntos": [
+      "Los revestimientos exteriores se justifican con el DB-HS 1; los pavimentos, con el DB-SUA 1 (resbaladicidad); techos, paredes y suelos, con el DB-SI 1 (reacción al fuego). El DB-HR completa la exigencia acústica (CTE, art. 14.2).",
+      "Las exigencias de humedad, de seguridad de utilización y de incendio se recogen en los artículos 13.1, 12.1 y 11 del CTE."
+     ]
+    },
+    {
+     "titulo": "Revestimientos exteriores de fachada",
+     "puntos": [
+      "Tabla 2.7 del DB-HS 1: la solución se obtiene combinando bloques de letras (R, B, C, H, J, N) y números; un número mayor es mejor prestación (apartado 2.3.2).",
+      "Bloque R: R1, resistencia media con revestimiento continuo de 10 a 15 mm o discontinuo rígido pegado de piezas menores de 300 mm sobre enfoscado; R2, resistencia alta con discontinuo fijado mecánicamente; R3, muy alta (apartado 2.3.2, punto 2)."
+     ]
+    },
+    {
+     "titulo": "Revestimiento intermedio y juntas",
+     "puntos": [
+      "Bloque N: N1, enfoscado de mortero de 10 mm como mínimo; N2, enfoscado con aditivos hidrofugantes de 15 mm o material adherido, continuo y sin juntas (apartado 2.3.2, punto 2, bloque N).",
+      "Bloque J: juntas de mortero sin interrupción con resistencia media (J1); con producto hidrófugo, resistencia alta (J2) (apartado 2.3.2, punto 2, bloque J)."
+     ]
+    },
+    {
+     "titulo": "Pavimentos: resbaladicidad y discontinuidades",
+     "puntos": [
+      "Clase de suelo exigible (tabla 1.2 del DB-SUA 1): 1 en zonas secas con pendiente inferior al 6 %; 2 en zonas húmedas con pendiente inferior al 6 % y en zonas secas con pendiente igual o superior o escaleras; 3 en zonas húmedas con pendiente igual o superior y en exteriores, piscinas y duchas.",
+      "Discontinuidades (apartado 2): no se admite un escalón aislado ni dos consecutivos en zonas de circulación, salvo los casos permitidos (apartado 2, punto 3)."
+     ]
+    },
+    {
+     "titulo": "Techos, paredes y suelos: reacción al fuego",
+     "puntos": [
+      "Tabla 4.1 del DB-SI 1: zonas ocupables, C-s2,d0 en techos y paredes y EFL en suelos; pasillos y escaleras protegidos, B-s1,d0 y CFL-s1; espacios ocultos (falsos techos, patinillos), B-s3,d0 y BFL-s2.",
+      "Los revestimientos solo determinan la clase si superan el 5 % de la superficie del conjunto de paredes, techos o suelos del recinto (nota 1 de la tabla 4.1)."
+     ]
+    },
+    {
+     "titulo": "Materiales, ejecución y juntas de dilatación",
+     "puntos": [
+      "Productos con marcado CE (CTE, art. 5.2.1). Piezas de fábrica humedecidas antes de su colocación, salvo las hidrofugadas o de succión muy baja (DB-SE-F, apartado 7.1.1).",
+      "Juntas de dilatación en coincidencia con las estructurales y con distancia según la tabla 2.1 del DB-SE-F; sellante sobre relleno elástico e impermeable (DB-HS 1, apartado 2.3.3.1)."
+     ]
+    },
+    {
+     "titulo": "Control, mantenimiento y seguridad",
+     "puntos": [
+      "Control de ejecución y de obra terminada en los artículos 7.3 y 7.4 del CTE. La resbaladicidad se mantiene durante la vida del pavimento, porque un pulido o un encerado la reduce con el uso.",
+      "Trabajos en tejados: protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b). Estudio de seguridad con presupuesto por valoración unitaria (arts. 4 y 5)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Exigencias de humedad, utilización, incendio y ruido (arts. 5.2, 11, 12.1, 13.1 y 14.2)"
+    },
+    {
+     "id": "DB-HS",
+     "rol": "Revestimientos de fachada (HS 1, apartado 2.3, tabla 2.7 y bloques R, N y J)"
+    },
+    {
+     "id": "DB-SUA",
+     "rol": "Resbaladicidad y discontinuidades de los pavimentos (SUA 1, tabla 1.2 y apartado 2)"
+    },
+    {
+     "id": "DB-SI",
+     "rol": "Reacción al fuego de los revestimientos (SI 1, apartado 4, tabla 4.1)"
+    },
+    {
+     "id": "DB-SE-F",
+     "rol": "Piezas de fábrica y juntas (apartados 7.1.1 y 7.1.3, tabla 2.1)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Protección colectiva en tejados (anexo IV, apartado 12.b)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el DB-SUA 1, tabla 1.2, ¿qué clase de resbaladicidad se exige en una zona interior seca con pendiente inferior al 6 %?",
+     "opciones": [
+      "Clase 1",
+      "Clase 2",
+      "Clase 3",
+      "No hay clase exigible"
+     ],
+     "correcta": 0,
+     "explicacion": "En las zonas interiores secas con superficies de pendiente menor que el 6 %, la clase exigible es 1.",
+     "referencia": "DB-SUA 1, tabla 1.2"
+    },
+    {
+     "pregunta": "Según el DB-SUA 1, tabla 1.2, ¿qué clase de resbaladicidad se exige en las piscinas y en las duchas?",
+     "opciones": [
+      "Clase 1",
+      "Clase 2",
+      "Clase 3",
+      "Clase 0"
+     ],
+     "correcta": 2,
+     "explicacion": "Las zonas exteriores, las piscinas y las duchas tienen clase exigible 3.",
+     "referencia": "DB-SUA 1, tabla 1.2"
+    },
+    {
+     "pregunta": "Según el DB-HS 1, apartado 2.3.2, bloque R, ¿qué resistencia a la filtración corresponde a un revestimiento exterior discontinuo fijado mecánicamente?",
+     "opciones": [
+      "Resistencia muy alta (R3)",
+      "Ninguna",
+      "Resistencia media (R1)",
+      "Resistencia alta (R2)"
+     ],
+     "correcta": 3,
+     "explicacion": "El revestimiento discontinuo fijado mecánicamente, con las características de R1 salvo el tamaño de las piezas, proporciona resistencia alta (R2).",
+     "referencia": "DB-HS 1, apartado 2.3.2, bloque R"
+    },
+    {
+     "pregunta": "Según el DB-HS 1, apartado 2.3.2, bloque N, ¿qué espesor mínimo tiene un enfoscado de mortero de resistencia media (N1)?",
+     "opciones": [
+      "5 mm",
+      "10 mm",
+      "15 mm",
+      "20 mm"
+     ],
+     "correcta": 1,
+     "explicacion": "N1 exige un enfoscado de mortero con un espesor mínimo de 10 mm.",
+     "referencia": "DB-HS 1, apartado 2.3.2, bloque N"
+    },
+    {
+     "pregunta": "Según el DB-SI 1, tabla 4.1, ¿qué clase de reacción al fuego se exige a los revestimientos de techos y paredes en zonas ocupables?",
+     "opciones": [
+      "C-s2,d0",
+      "EFL",
+      "D-s3,d2",
+      "B-s1,d0"
+     ],
+     "correcta": 0,
+     "explicacion": "En las zonas ocupables, los revestimientos de techos y paredes deben tener la clase C-s2,d0.",
+     "referencia": "DB-SI 1, tabla 4.1"
+    },
+    {
+     "pregunta": "Según el DB-SI 1, tabla 4.1, nota 1, ¿a partir de qué porcentaje de la superficie del conjunto de paredes, techos o suelos se aplica la clase del revestimiento?",
+     "opciones": [
+      "50 %",
+      "1 %",
+      "5 %",
+      "25 %"
+     ],
+     "correcta": 2,
+     "explicacion": "Los revestimientos se consideran cuando superan el 5 % de la superficie total de paredes, techos o suelos del recinto.",
+     "referencia": "DB-SI 1, tabla 4.1, nota 1"
+    },
+    {
+     "pregunta": "Según el DB-SI 1, tabla 4.1, ¿qué clase de reacción al fuego se exige a los revestimientos de los espacios ocultos no estancos, como los falsos techos?",
+     "opciones": [
+      "EFL",
+      "A1",
+      "C-s2,d0",
+      "B-s3,d0 en techos y paredes"
+     ],
+     "correcta": 3,
+     "explicacion": "En los espacios ocultos no estancos, la clase exigida es B-s3,d0 en techos y paredes, y BFL-s2 en suelos.",
+     "referencia": "DB-SI 1, tabla 4.1"
+    },
+    {
+     "pregunta": "Según el DB-HS 1, apartado 2.3.3.1, ¿con qué distancia máxima deben disponerse las juntas de dilatación de la hoja principal de fábrica sustentada?",
+     "opciones": [
+      "No hay distancia máxima",
+      "La que fija la tabla 2.1 del DB-SE-F",
+      "Cada 50 m",
+      "Cada 10 m"
+     ],
+     "correcta": 1,
+     "explicacion": "La distancia entre juntas de dilatación contiguas no debe superar la que figura en la tabla 2.1 del DB-SE-F para fábricas sustentadas.",
+     "referencia": "DB-HS 1, apartado 2.3.3.1, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-SUA 1, apartado 2, punto 3, ¿qué se prohíbe en las zonas de circulación?",
+     "opciones": [
+      "Los suelos de madera",
+      "Cualquier pavimento",
+      "Disponer un escalón aislado, ni dos consecutivos, salvo en los casos que el documento permite",
+      "Las alfombras de cualquier tipo"
+     ],
+     "correcta": 2,
+     "explicacion": "En las zonas de circulación no se puede disponer un escalón aislado ni dos consecutivos, salvo en los casos que el documento permite.",
+     "referencia": "DB-SUA 1, apartado 2, punto 3"
+    },
+    {
+     "pregunta": "Según el DB-HS 1, apartado 2.3.1, ¿de qué depende el grado de impermeabilidad mínimo exigido a las fachadas?",
+     "opciones": [
+      "De la zona pluviométrica de promedios y del grado de exposición al viento (tabla 2.5)",
+      "Solo de la altura del edificio en metros",
+      "De ninguna variable",
+      "Solo del color de la fachada"
+     ],
+     "correcta": 0,
+     "explicacion": "El grado de impermeabilidad mínimo de las fachadas se obtiene en la tabla 2.5 en función de la zona pluviométrica de promedios y del grado de exposición al viento.",
+     "referencia": "DB-HS 1, apartado 2.3.1, punto 1"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué son los revestimientos y cómo se clasifican",
+     "parrafos": [
+      "Los revestimientos y acabados son las capas que se aplican sobre los elementos constructivos para protegerlos, para darles el aspecto final y, en muchos casos, para cumplir una exigencia de seguridad o de comportamiento. Un muro de ladrillo sin revestir no protege mal, pero un revestimiento mal elegido o mal ejecutado sí puede dejar pasar el agua, deslizarse el pavimento o propagar el fuego. Por eso el revestimiento es, en el CTE, una pieza de la justificación de varias exigencias a la vez.",
+      "Se distinguen tres grupos. Los revestimientos exteriores de fachada protegen el cerramiento frente a la lluvia, el viento y la radiación; pueden ser continuos, como los enfoscados, los revocos y los morteros monocapa, o discontinuos, como las piezas cerámicas o pétreas adheridas o fijadas mecánicamente. Los revestimientos interiores de paredes son los enlucidos, las pinturas y los alicatados. Los pavimentos y los techos forman el acabado de los suelos y de los techos, y en el caso de los falsos techos, también ocultan las instalaciones.",
+      "Esta clasificación tiene una consecuencia para el examen: cada grupo se justifica con un documento básico distinto. Los exteriores, con el DB-HS 1; los pavimentos, con el DB-SUA 1 en lo relativo a la resbaladicidad; y los techos y paredes, con el DB-SI 1 en lo relativo a la reacción al fuego. El DB-HR completa las exigencias acústicas, aunque no se ha leído en este tema."
+     ]
+    },
+    {
+     "titulo": "2. Revestimientos exteriores de fachada",
+     "parrafos": [
+      "El DB-HS 1 fija las condiciones de las soluciones de fachada en función del grado de impermeabilidad exigido y de la existencia o no de revestimiento exterior (apartado 2.3.2, tabla 2.7). La tabla no se aplica sola: cada solución se obtiene combinando letras y números, donde la letra indica el tipo de condición y el número el nivel de prestación. Un número mayor corresponde a una prestación mejor, y una condición puede sustituir en la tabla a las que tienen un número menor dentro de su mismo bloque (apartado 2.3.2, punto 2).",
+      "El bloque R regula la resistencia a la filtración del revestimiento exterior. R1 exige al menos una resistencia media, que se obtiene con revestimientos continuos de espesor entre 10 y 15 mm, adherencia suficiente, permeabilidad al vapor y adaptación a los movimientos del soporte, o con revestimientos discontinuos rígidos pegados de piezas menores de 300 mm sobre un enfoscado de mortero (R1). R2 exige una resistencia alta, con revestimientos discontinuos fijados mecánicamente con las mismas características que R1, salvo el tamaño de las piezas (R2). R3 exige una resistencia muy alta y se logra con revestimientos continuos de estanquidad suficiente (R3).",
+      "El bloque N regula el revestimiento intermedio en la cara interior de la hoja principal. N1 exige un enfoscado de mortero de 10 mm como mínimo, y N2 un enfoscado con aditivos hidrofugantes de 15 mm, o un material adherido, continuo y sin juntas, impermeable y del mismo espesor (apartado 2.3.2, punto 2, bloque N). Este revestimiento interior es el que cierra la fachada frente al agua que haya atravesado la hoja principal."
+     ]
+    },
+    {
+     "titulo": "3. Revestimientos interiores y elementos que los componen",
+     "parrafos": [
+      "En los revestimientos interiores de paredes, el enlucido de yeso o de mortero, el enfoscado y la pintura forman el acabado habitual. El enfoscado de mortero con 10 mm de espesor es el revestimiento de resistencia media que el DB-HS 1 reconoce en el bloque N1, y por eso se usa también en fachadas por el interior.",
+      "En los cuartos húmedos, los alicatados son revestimientos discontinuos rígidos, con piezas de cerámica o de piedra adheridas sobre un soporte. El DB-HS 1 los reconoce como revestimiento de resistencia media (R1) cuando las piezas, de menos de 300 mm de lado, se pegan sobre un enfoscado de mortero, y de resistencia alta (R2) cuando se fijan mecánicamente (bloque R). En el interior, la estanquidad depende también de las juntas entre piezas, que el bloque J regula.",
+      "Las juntas entre las piezas de la hoja principal se clasifican en el bloque J: las de mortero sin interrupción tienen resistencia media (J1), y las de mortero con producto hidrófugo, resistencia alta (J2). Los revestimientos interiores de las fábricas también tienen que resistir la humedad del cerramiento, que el DB-HS 1 trata en las condiciones de la tabla 2.2 para los muros.",
+      "En los revestimientos de paredes de locales habitables, el DB-HS 1 no fija clases, pero el acabado interior debe ser compatible con la humedad del paramento. Un enlucido de yeso sobre un muro con humedad por capilaridad se degrada, y por eso el proyecto debe prever una barrera o un revestimiento de resistencia adecuada en las zonas que lo necesiten. El diagnóstico previo de la humedad del muro es, en la práctica, la primera tarea de la rehabilitación de un revestimiento."
+     ]
+    },
+    {
+     "titulo": "4. Pavimentos y su resbaladicidad",
+     "parrafos": [
+      "El DB-SUA 1 regula la seguridad frente al riesgo de caídas, y en particular la resbaladicidad de los suelos. Los suelos se clasifican según su valor de resistencia al deslizamiento Rd, y la tabla 1.2 fija la clase exigible en función de la localización. En las zonas interiores secas con pendiente inferior al 6 %, la clase es 1. En las zonas interiores secas con pendiente igual o superior al 6 % y en las escaleras, la clase es 2 (tabla 1.2).",
+      "En las zonas interiores húmedas, como las entradas desde el espacio exterior, las terrazas cubiertas, los vestuarios, los baños, los aseos y las cocinas, la clase es 2 si la pendiente es inferior al 6 %, y 3 si es igual o superior al 6 % o se trata de escaleras. En las zonas exteriores, en las piscinas y en las duchas, la clase exigible es 3 (tabla 1.2). La nota de la tabla exceptúa el acceso directo a zonas de uso restringido y fija condiciones para los fondos de las piscinas.",
+      "Las discontinuidades del pavimento también se regulan. Excepto en zonas de uso restringido o exteriores, y para limitar el riesgo de caídas por tropiezo, el suelo debe cumplir sus condiciones de discontinuidad (apartado 2, punto 1). En las zonas de circulación no se puede disponer un escalón aislado ni dos consecutivos, salvo en los casos que el documento permite (apartado 2, punto 3).",
+      "La elección del pavimento es, por tanto, una decisión de seguridad además de estética. Un solado liso y brillante puede ser correcto en un vestíbulo seco y peligroso en un baño. Por eso el proyecto debe indicar en la memoria la clase de resbaladicidad de cada local, con referencia a la tabla 1.2, y el pliego debe exigir al suministrador el valor de Rd del material que se coloca. Esta exigencia se comprueba en la recepción del producto, no solo en la obra terminada."
+     ]
+    },
+    {
+     "titulo": "5. Techos, falsos techos y reacción al fuego",
+     "parrafos": [
+      "La reacción al fuego de los revestimientos de techos, paredes y suelos se regula en el DB-SI 1, apartado 4, con la tabla 4.1. Para las zonas ocupables, los revestimientos de techos y paredes deben tener la clase C-s2,d0, y los de suelos, EFL (tabla 4.1). En los pasillos y escaleras protegidos, la clase exigida sube a B-s1,d0 en techos y paredes, y a CFL-s1 en suelos (tabla 4.1).",
+      "En los espacios ocultos no estancos, como los patinillos, los falsos techos y los suelos elevados, la clase exigida es B-s3,d0 en techos y paredes, y BFL-s2 en suelos. Esa exigencia alcanza también a los falsos techos y a los suelos elevados, que ocultan instalaciones susceptibles de iniciar o propagar un incendio (tabla 4.1).",
+      "La tabla 4.1 tiene una nota: los revestimientos se consideran solo cuando superan el 5 % de la superficie total de paredes, de techos o de suelos del recinto. Por debajo de ese porcentaje, el revestimiento no determina la clase del recinto. Además, las tuberías y conductos que transcurren por esas zonas sin recubrimiento resistente al fuego deben cumplir la misma clase, con el subíndice L si tienen aislamiento lineal (notas 1 y 2)."
+     ]
+    },
+    {
+     "titulo": "6. Requisitos básicos del CTE aplicables",
+     "parrafos": [
+      "La exigencia de protección frente a la humedad (HS 1) pide limitar el riesgo de presencia inadecuada de agua en el interior y en los cerramientos, por precipitaciones, escorrentías, terreno o condensaciones (CTE, art. 13.1). El revestimiento exterior es la primera barrera de esa exigencia, y el DB-HS 1 la desarrolla en su apartado 2.3.",
+      "La exigencia de seguridad de utilización (SUA 1) pide reducir el riesgo de caídas en el uso previsto, que incluye la resbaladicidad de los pavimentos y las discontinuidades (CTE, art. 12.1). La exigencia de seguridad en caso de incendio (SI) regula la reacción de los materiales y su resistencia (CTE, art. 11), desarrollada en el DB-SI 1 (apartado 4).",
+      "La exigencia de protección frente al ruido (HR) pide que los elementos constructivos que conforman los recintos tengan características acústicas adecuadas, para reducir la transmisión del ruido aéreo y de impactos y para limitar el ruido reverberante de los recintos (CTE, art. 14.2). Los revestimientos intervienen en esa exigencia, sobre todo en el control del ruido reverberante, pero sus parámetros están en el DB-HR, que no se ha leído en este tema."
+     ]
+    },
+    {
+     "titulo": "7. Prescripciones técnicas, materiales y compatibilidades",
+     "parrafos": [
+      "Los revestimientos deben cumplir las condiciones de los productos que se incorporan al edificio. Según el CTE, los productos que se incorporan con carácter permanente llevan el marcado CE, de acuerdo con la normativa de productos de construcción (CTE, art. 5.2.1). El proyecto debe fijar las características técnicas mínimas de cada producto, sus condiciones de suministro y el control de recepción (art. 6.1.2, letra a).",
+      "Los morteros de los enfoscados y de los revocos deben tener una permeabilidad al vapor suficiente para evitar la acumulación de vapor entre el revestimiento y la hoja principal, según el bloque R1 del DB-HS 1. Por eso los revestimientos exteriores continuos deben ser compatibles con el aislante cuando este va por el exterior de la hoja principal, y llevar una armadura de malla de fibra de vidrio o de poliéster (bloque R1, punto de compatibilidad química).",
+      "Las piezas cerámicas de los revestimientos deben humedecerse antes de su colocación, salvo las completamente hidrofugadas o de succión muy baja, según el DB-SE-F, apartado 7.1.1, para las piezas de fábrica. Los pavimentos de piedra natural deben tener su procedencia confirmada y sus características comprobadas según el proyecto, y deben estar sanos y sin fracturas.",
+      "La compatibilidad entre materiales es otra condición de los revestimientos. Un mortero de cemento sobre una pintura plástica, o un adhesivo de alicatado sobre un soporte no preparado, fallan por falta de adherencia, y el DB-HS 1 exige que el revestimiento tenga una adherencia suficiente para garantizar su estabilidad (bloque R1). La preparación del soporte es, por tanto, una operación de ejecución que el proyecto debe describir."
+     ]
+    },
+    {
+     "titulo": "8. Procesos de ejecución y juntas",
+     "parrafos": [
+      "En la fachada, el DB-HS 1 regula los puntos singulares: las bandas de refuerzo y de terminación, las condiciones de continuidad o discontinuidad del sistema de impermeabilización y los encuentros con los paramentos y los forjados (apartado 2.3.3, punto 1). Esas condiciones deben respetarse en la ejecución del revestimiento, porque el revestimiento solo protege si su continuidad coincide con la de la barrera.",
+      "Las juntas de dilatación de la hoja principal deben coincidir con cada junta estructural, y la distancia entre juntas contiguas no debe superar la de la tabla 2.1 del DB-SE-F para las fábricas sustentadas (apartado 2.3.3.1, punto 1). En las juntas se coloca un sellante sobre un relleno introducido en la junta, de materiales elásticos, adherentes e impermeables a los agentes atmosféricos, con una profundidad de sellante mayor o igual que el mínimo que el documento fija (apartado 2.3.3.1, punto 2).",
+      "En los revestimientos de piezas, el orden de ejecución sigue las reglas de colocación de la fábrica, con la humectación previa de las piezas y el llagueado con el mortero fresco (DB-SE-F, apartados 7.1.1 y 7.1.3, punto 4). En los revestimientos continuos, el espesor debe respetarse en toda la superficie, porque el bloque R1 exige un espesor entre 10 y 15 mm para ser de resistencia media."
+     ]
+    },
+    {
+     "titulo": "9. Control de la ejecución y de la obra terminada",
+     "parrafos": [
+      "El control de la ejecución se hace en los términos del artículo 7.3 del CTE: el director de la ejecución de la obra verifica la ejecución de cada unidad de obra, los materiales que se utilizan y la conformidad con el proyecto (CTE, art. 7.3.1). El control de recepción de los productos se apoya en la documentación del suministro, los distintivos de calidad y los ensayos previstos (art. 7.2).",
+      "El control de la obra terminada se hace en los términos del artículo 7.4 del CTE, con las pruebas de servicio previstas en el proyecto y las exigidas por la legislación (art. 7.4). Para los revestimientos exteriores, la comprobación más importante es la de la estanquidad de los encuentros, de las juntas y de los remates, que el DB-HS 1 trata como puntos singulares.",
+      "El control de la resbaladicidad de los pavimentos se hace con la clase de la tabla 1.2 del DB-SUA 1 como referencia, y el control de la reacción al fuego con la clase de la tabla 4.1 del DB-SI 1. Ambas comprobaciones deben quedar documentadas en el libro del edificio (CTE, art. 8.1)."
+     ]
+    },
+    {
+     "titulo": "10. Uso, conservación y mantenimiento",
+     "parrafos": [
+      "El mantenimiento de los revestimientos exteriores consiste en revisar periódicamente el estado de las juntas, los sellantes y los remates, y en reparar las fisuras y los desconchados antes de que dejen pasar el agua. El DB-HS 1 regula el mantenimiento en su apartado 6, que no se ha leído en este tema.",
+      "En los pavimentos, el mantenimiento incluye la limpieza y la reposición de piezas dañadas, y la conservación de la resbaladicidad: un pavimento pulido o encerado pierde clase con el uso. La clase de la tabla 1.2 se refiere al pavimento en servicio, por lo que su mantenimiento forma parte de la exigencia de seguridad de utilización.",
+      "En los revestimientos interiores, el mantenimiento consiste en repasar las pinturas, reparar los alicatados que se despegan y sellar las juntas de los cuartos húmedos. El CTE exige que el edificio se conserve en buen estado mediante el plan de mantenimiento, con técnico competente para las operaciones programadas (art. 8.2, apartados 1 y 2)."
+     ]
+    },
+    {
+     "titulo": "11. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "Los riesgos de los revestimientos en obra son los de los trabajos en altura, en andamios y plataformas, al revestir fachadas; los del polvo de los morteros y de los cortes de cerámica y de piedra, con sílice cristalina; los de las pinturas y disolventes, por inhalación y contacto; y los de la manipulación de piezas pesadas. La evaluación de riesgos se apoya en la LPRL, cuyo artículo 16 regula el plan de prevención; de ese artículo solo se ha comprobado el inicio en el repositorio.",
+      "Los trabajos en tejados, cuando se revisten las cubiertas o los remates de fachada, tienen reglas en el anexo IV del Real Decreto 1627/1997, apartado 12.b, que exige medidas de protección colectiva según la altura, la inclinación y el estado resbaladizo. Los andamios y las plataformas tienen reglas propias en el anexo IV, que no se han desarrollado aquí.",
+      "El estudio de seguridad y salud, o el estudio básico cuando no se alcanzan los supuestos del artículo 4.1, debe recoger estas medidas con su presupuesto (RD 1627/1997, arts. 4 y 5). El plan de seguridad de cada contratista lo desarrolla y debe aprobarse antes del inicio de la obra (art. 7)."
+     ]
+    },
+    {
+     "titulo": "12. Criterios de medición y factores del precio",
+     "parrafos": [
+      "Los revestimientos se miden por metro cuadrado de superficie revestida, descontando los huecos mayores que el umbral que fije el cuadro de precios del proyecto. Los enfoscados y los revocos exteriores se miden por metro cuadrado con su espesor; los alicatados y los pavimentos, por metro cuadrado con su tipo de pieza; las pinturas, por metro cuadrado y mano; los falsos techos, por metro cuadrado de techo; y los rodapiés, por metro lineal.",
+      "Los factores que influyen en el precio son el tipo de revestimiento, su espesor, la clase de resbaladicidad y de reacción al fuego exigida, la altura del paramento y los medios de elevación, la complejidad de los remates y de los encuentros, el número de huecos y el tipo de juntas. Un revestimiento de clase alta de reacción al fuego o de resistencia a la filtración cuesta más que uno de clase básica.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). Las normas de medición concretas no se han verificado en el repositorio, por lo que el tema las presenta como principios.",
+      "En la medición de los revestimientos de fachada conviene separar el revestimiento continuo del discontinuo, porque cada uno tiene un precio distinto por metro cuadrado y su ejecución exige medios diferentes. Los remates, las juntas de dilatación y los sellantes se miden aparte, por metro lineal, y sus cantidades deben coincidir con los planos de juntas del proyecto. Esa separación evita que una partida global oculte el coste de los puntos singulares, que son el origen habitual de las desviaciones de presupuesto."
+     ]
+    },
+    {
+     "titulo": "13. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las cifras que más se preguntan son la clase de resbaladicidad de la tabla 1.2 (1 en zonas secas con pendiente inferior al 6 %, 2 en zonas húmedas, 3 en exteriores y piscinas), las clases de reacción al fuego de la tabla 4.1 del DB-SI 1 (C-s2,d0 para techos y paredes en zonas ocupables, EFL para suelos), el espesor del enfoscado de 10 mm para N1 y de 15 mm para N2, y el 5 % de superficie para que el revestimiento determine la clase del recinto.",
+      "Los errores habituales son cuatro. El primero es confundir la clase de resbaladicidad de las zonas secas con la de las húmedas. El segundo es asignar a los falsos techos la clase de los techos de zonas ocupables, cuando en los espacios ocultos la exigencia es B-s3,d0. El tercero es confundir la resistencia media (R1) con la alta (R2), que solo cambia en el tamaño de las piezas. El cuarto es olvidar que el revestimiento exterior debe ser compatible con el aislante cuando este va por el exterior.",
+      "Para un caso práctico de fachada revestida de un edificio de viviendas, el orden de análisis es: identificar el grado de impermeabilidad y la solución de la tabla 2.7; elegir el revestimiento exterior (R1, R2 o R3) y el revestimiento intermedio (N1 o N2); comprobar las juntas y los puntos singulares; y verificar las clases de reacción al fuego de los revestimientos interiores de las zonas comunes.",
+      "Para repasar el tema, conviene estudiar cuatro bloques separados: el revestimiento exterior y su relación con la impermeabilidad de la fachada (DB-HS 1, bloques R, N y J), la resbaladicidad de los pavimentos (DB-SUA 1, tabla 1.2), la reacción al fuego de los techos, paredes y suelos (DB-SI 1, tabla 4.1), y la exigencia acústica, que se estudia en el DB-HR. Un examen que combine dos de estos bloques suele preguntar por una solución que cumple uno y no el otro, como un revestimiento de fachada impermeable pero no permeable al vapor."
+     ]
+    },
+    {
+     "titulo": "14. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: los artículos 5.2.1, 6.1.2, 7.2, 7.3, 7.4, 8.1 y 8.2 del CTE; los artículos 11, 12.1, 13.1 y 14.2 del CTE en sus enunciados; el DB-HS 1 en sus apartados 2.3.1 (encabezado), 2.3.2 (tabla 2.7 y bloques R, B, C, H, J y N), 2.3.3 (punto 1 y 2.3.3.1, puntos 1 y 2); el DB-SUA 1 en su tabla 1.2, en el apartado 2 (puntos 1 y 3) y en el encabezado del apartado 3; el DB-SI 1 en su apartado 4 (tabla 4.1 y notas 1 y 2); el DB-SE-F en sus apartados 7.1.1, 7.1.3 y la tabla 2.1; el RD 1627/1997 en su anexo IV, apartado 12.b.",
+      "No se han leído el DB-HR (parámetros acústicos de los revestimientos), el DB-HS 1 en sus apartados de suelos y cubiertas, el apartado 6 de mantenimiento del DB-HS 1, el apartado 2.2 de suelos, ni el DB-SI 1 en sus apartados de reacción al fuego de elementos de mobiliario. Tampoco se han leído las normas UNE de los revestimientos ni las de sus ensayos de reacción al fuego.",
+      "La versión del DB-SI descargada, del DB-SUA y del DB-HS 1 es la publicada en la web oficial del CTE, sin fecha de última modificación en el PDF, y su norma de aprobación debe comprobarse antes de citarlas como vigentes."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/DB-HS-salubridad.pdf",
+    "leyes/DB-SUA.pdf",
+    "leyes/DB-SI.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/DB-SE-F.pdf",
+    "leyes/BOE-A-1997-22614.pdf"
    ]
   },
   "e20": {
