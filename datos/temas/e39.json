@@ -1,0 +1,186 @@
+{
+  "id": "e39",
+  "resumen": [
+    {
+      "titulo": "Marco normativo",
+      "puntos": [
+        "La Ley 16/1985, del Patrimonio Histórico Español (LPHE), fija el marco estatal, con la declaración de bien de interés cultural por ley o por real decreto (art. 9). Su desarrollo parcial es el RD 111/1986.",
+        "La Ley 14/2007, del Patrimonio Histórico de Andalucía (LPHA), regula el patrimonio andaluz y deroga la Ley 1/1991."
+      ]
+    },
+    {
+      "titulo": "Tipología de los bienes inmuebles",
+      "puntos": [
+        "Ocho categorías de Bien de Interés Cultural: monumentos, conjuntos históricos, jardines históricos, sitios históricos, zonas arqueológicas, lugares de interés etnológico, lugares de interés industrial y zonas patrimoniales (LPHA, art. 25).",
+        "Monumentos: edificios y estructuras de relevante interés (art. 26, apartado 1). Zonas arqueológicas: espacios delimitados con restos arqueológicos o paleontológicos de interés relevante (apartado 5)."
+      ]
+    },
+    {
+      "titulo": "Catálogo General y procedimiento de inscripción",
+      "puntos": [
+        "El Catálogo General del Patrimonio Histórico Andaluz es instrumento de salvaguarda, consulta y divulgación. Lo forma y conserva la Consejería competente (art. 6).",
+        "La inscripción se incoa de oficio o a solicitud razonada; la solicitud se desestima por silencio transcurridos tres meses (art. 9, apartado 1). La incoación lleva anotación preventiva en el Catálogo (apartado 2)."
+      ]
+    },
+    {
+      "titulo": "Declaración de Bien de Interés Cultural (LPHE)",
+      "puntos": [
+        "La declaración por real decreto requiere expediente con informe favorable de una institución consultiva; si no se emite en tres meses, se entiende favorable. En los inmuebles, información pública y audiencia al ayuntamiento (art. 9, apartado 2).",
+        "El expediente se resuelve en veinte meses desde su incoación (art. 9, apartado 3). No puede declararse bien de interés cultural la obra de un autor vivo, salvo excepciones (apartado 4)."
+      ]
+    },
+    {
+      "titulo": "Protección: autorización y conservación",
+      "puntos": [
+        "El inmueble inscrito es inseparable de su lugar; su desplazamiento exige causa de fuerza mayor o interés social y autorización previa (LPHA, art. 33, apartado 1).",
+        "Cualquier obra, cambio de uso o modificación de un bien inscrito o de su entorno necesita autorización de la Consejería, previa a las restantes licencias (art. 33, apartado 3)."
+      ]
+    },
+    {
+      "titulo": "Patrimonio arqueológico y fomento",
+      "puntos": [
+        "Las excavaciones arqueológicas destinan hasta el 20 % del presupuesto a la conservación, restauración y difusión de los bienes (LPHA, art. 85).",
+        "Medidas de fomento: inversiones culturales, dación en pago para deudas con la Junta, donaciones y legados, estímulos a la rehabilitación de viviendas y subvenciones (arts. 84 a 91)."
+      ]
+    },
+    {
+      "titulo": "Infracciones, sanciones y órganos",
+      "puntos": [
+        "Multas: muy graves, de 250.001 a 1.000.000 euros; graves, de 100.001 a 250.000; leves, hasta 100.000 (art. 114, apartado 1). Prescripción: cinco años para leves y graves, diez para muy graves (art. 119).",
+        "La Consejería competente en patrimonio histórico formula y ejecuta la política de tutela, enriquecimiento y difusión (art. 93). Las Delegaciones Provinciales ejercen las funciones ejecutivas (art. 94)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LPHE-16-1985",
+      "rol": "Declaración de bienes de interés cultural por ley o por real decreto: procedimiento, plazos y autor vivo (art. 9)"
+    },
+    {
+      "id": "LPHA-14-2007",
+      "rol": "Patrimonio histórico andaluz: tipología, Catálogo, autorizaciones, fomento, infracciones y órganos (arts. 6, 25, 26, 33, 85, 93, 114 y 119)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según la LPHA, art. 25, ¿cuántas categorías de inmuebles pueden inscribirse como Bien de Interés Cultural?",
+      "opciones": [
+        "Ocho",
+        "Diez",
+        "Doce",
+        "Seis"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 25 enumera ocho categorías: monumentos, conjuntos históricos, jardines históricos, sitios históricos, zonas arqueológicas, lugares de interés etnológico, lugares de interés industrial y zonas patrimoniales.",
+      "referencia": "LPHA, art. 25"
+    },
+    {
+      "pregunta": "Según la LPHA, art. 26, apartado 1, ¿qué son los monumentos?",
+      "opciones": [
+        "Las plantaciones de árboles de una finca",
+        "Los espacios naturales protegidos",
+        "Los edificios y estructuras de relevante interés histórico, arqueológico, artístico o de otro tipo, con los muebles e instalaciones que expresamente se señalen",
+        "Los caminos rurales de uso público"
+      ],
+      "correcta": 2,
+      "explicacion": "Son monumentos los edificios y estructuras de relevante interés histórico, arqueológico, paleontológico, artístico, etnológico, industrial, científico, social o técnico, con inclusión de los muebles, instalaciones y accesorios que expresamente se señalen (art. 26, apartado 1).",
+      "referencia": "LPHA, art. 26, apartado 1"
+    },
+    {
+      "pregunta": "Según la LPHA, art. 33, apartado 1, ¿puede desplazarse o removerse un inmueble inscrito en el Catálogo?",
+      "opciones": [
+        "Sí, si el ayuntamiento lo pide",
+        "No, en ningún caso",
+        "Sí, libremente por el propietario",
+        "Solo por causa de fuerza mayor o de interés social, y en todo caso con autorización de la Consejería"
+      ],
+      "correcta": 3,
+      "explicacion": "El inmueble inscrito es inseparable del lugar donde se ubica. Solo puede desplazarse por causa imprescindible de fuerza mayor o de interés social, y en todo caso con autorización previa de la Consejería (art. 33, apartado 1).",
+      "referencia": "LPHA, art. 33, apartado 1"
+    },
+    {
+      "pregunta": "Según la LPHA, art. 33, apartado 3, ¿cuándo debe obtenerse la autorización de la Consejería para una obra en un bien inscrito?",
+      "opciones": [
+        "Después de conceder la licencia municipal",
+        "Con carácter previo a las restantes licencias o autorizaciones que fueran pertinentes",
+        "Solo al terminar la obra",
+        "No es necesaria si la obra es menor"
+      ],
+      "correcta": 1,
+      "explicacion": "La autorización de la Consejería es previa a las restantes licencias o autorizaciones pertinentes, para cualquier obra, remoción de terreno, cambio de uso o modificación de bienes muebles, pintura o instalaciones (art. 33, apartado 3).",
+      "referencia": "LPHA, art. 33, apartado 3"
+    },
+    {
+      "pregunta": "Según la LPHE, art. 9, apartado 2, ¿qué ocurre si el informe requerido para declarar un bien de interés cultural no se emite en tres meses?",
+      "opciones": [
+        "Se entiende que el dictamen es favorable a la declaración",
+        "Se entiende desfavorable",
+        "Se suspende el expediente hasta el año siguiente",
+        "El expediente caduca de inmediato"
+      ],
+      "correcta": 0,
+      "explicacion": "Transcurridos tres meses desde la solicitud del informe sin que se haya emitido, se entiende que el dictamen es favorable a la declaración de interés cultural (LPHE, art. 9, apartado 2).",
+      "referencia": "LPHE, art. 9, apartado 2"
+    },
+    {
+      "pregunta": "Según la LPHE, art. 9, apartado 3, ¿en qué plazo máximo debe resolverse el expediente de declaración de bien de interés cultural por real decreto?",
+      "opciones": [
+        "Seis meses",
+        "Un año",
+        "Veinte meses",
+        "Cinco años"
+      ],
+      "correcta": 2,
+      "explicacion": "El expediente debe resolverse en el plazo máximo de veinte meses desde la fecha de su incoación (LPHE, art. 9, apartado 3).",
+      "referencia": "LPHE, art. 9, apartado 3"
+    },
+    {
+      "pregunta": "Según la LPHA, art. 114, apartado 1, letra a, ¿qué cuantía de multa corresponde a las infracciones muy graves?",
+      "opciones": [
+        "De 1.000.001 a 5.000.000 euros",
+        "Hasta 100.000 euros",
+        "De 100.001 a 250.000 euros",
+        "De 250.001 a 1.000.000 euros"
+      ],
+      "correcta": 3,
+      "explicacion": "Las infracciones muy graves se sancionan con multa de 250.001 a 1.000.000 de euros (LPHA, art. 114, apartado 1, letra a).",
+      "referencia": "LPHA, art. 114, apartado 1, letra a)"
+    },
+    {
+      "pregunta": "Según la LPHA, art. 119, apartado 1, ¿en cuántos años prescriben las infracciones muy graves?",
+      "opciones": [
+        "Cinco años",
+        "Diez años",
+        "Un año",
+        "Veinte años"
+      ],
+      "correcta": 1,
+      "explicacion": "Las infracciones leves y graves prescriben a los cinco años, y las muy graves, a los diez años (LPHA, art. 119, apartado 1).",
+      "referencia": "LPHA, art. 119, apartado 1"
+    },
+    {
+      "pregunta": "Según la LPHA, art. 93, apartado 1, ¿quién es responsable de la formulación y ejecución de la política de tutela, enriquecimiento y difusión del patrimonio histórico?",
+      "opciones": [
+        "El Ministerio de Cultura de forma exclusiva",
+        "El Consejo de Gobierno en pleno",
+        "La Consejería competente en materia de patrimonio histórico",
+        "Los propietarios de los bienes"
+      ],
+      "correcta": 2,
+      "explicacion": "La Consejería competente en materia de patrimonio histórico es responsable de la formulación y ejecución de la política dirigida a su tutela, enriquecimiento y difusión (art. 93, apartado 1).",
+      "referencia": "LPHA, art. 93, apartado 1"
+    },
+    {
+      "pregunta": "Según la LPHA, art. 85, ¿qué porcentaje del presupuesto de un proyecto de excavación arqueológica puede destinarse a la conservación, restauración y difusión de los bienes descubiertos?",
+      "opciones": [
+        "Hasta el 20 %",
+        "Hasta el 50 %",
+        "Hasta el 5 %",
+        "Hasta el 10 %"
+      ],
+      "correcta": 0,
+      "explicacion": "Los proyectos de excavaciones arqueológicas incluyen un porcentaje de hasta el 20 % del presupuesto para la conservación, restauración y difusión de los bienes expuestos o de los materiales y estructuras descubiertos (art. 85).",
+      "referencia": "LPHA, art. 85"
+    }
+  ]
+}

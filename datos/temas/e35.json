@@ -1,0 +1,175 @@
+{
+  "id": "e35",
+  "resumen": [
+    {
+      "titulo": "Norma vigente",
+      "puntos": [
+        "La Ley 5/2025, de Vivienda de Andalucía (LVA), publicada en el BOJA de 24 de diciembre de 2025, es la norma vigente. Deroga la Ley 13/2005 (vivienda protegida y suelo), la Ley 1/2010, la Ley 4/2013 y la Ley 1/2018 (disposición derogatoria única, letras a a d).",
+        "Entra en vigor al mes de su publicación en el BOJA (disposición final octava)."
+      ]
+    },
+    {
+      "titulo": "Concepto y régimen de la vivienda protegida",
+      "puntos": [
+        "Las viviendas protegidas garantizan el acceso a una vivienda digna y adecuada a personas y familias con recursos limitados (LVA, art. 55, apartado 1).",
+        "Su régimen jurídico lo forman las ayudas, los beneficios fiscales, las limitaciones y los requisitos que deben cumplirse mientras persista la protección (art. 55, apartado 2)."
+      ]
+    },
+    {
+      "titulo": "Calidad, duración y destinatarios",
+      "puntos": [
+        "Calidad de la vivienda: funcionalidad, seguridad estructural, durabilidad, habitabilidad, accesibilidad, salubridad, ruido, incendio, eficiencia energética e hídrica (art. 26). Estudio geotécnico previo y sistemas de control durante la obra (art. 27, apartado 1).",
+        "Destinatarios: personas y unidades familiares que reúnan los requisitos del programa y tengan allí su residencia habitual (art. 56, apartado 1). Duración del régimen: la fija cada programa, no la condiciona el destino urbanístico del suelo (art. 57, apartado 1)."
+      ]
+    },
+    {
+      "titulo": "Promoción, selección y calificación",
+      "puntos": [
+        "Promoción pública, privada o de colaboración público-privada (art. 63). El precio máximo del terreno no puede exceder del 15 % del precio máximo de venta por la superficie construida (art. 65, apartado 1).",
+        "La selección puede hacerse con el listado del Registro Público Municipal de Demandantes o con convocatoria municipal (art. 61). La calificación corresponde a los ayuntamientos (art. 66, apartado 1)."
+      ]
+    },
+    {
+      "titulo": "Plan Vive y normativa técnica",
+      "puntos": [
+        "El Plan Vive en Andalucía (2020-2030) está regulado por el Decreto 91/2020, según la búsqueda; su programa define los destinatarios y los requisitos de cada tipo de vivienda.",
+        "La normativa técnica de diseño y calidad de la vivienda protegida se contiene en una orden de 2008 y en el reglamento de viviendas protegidas, según la búsqueda; ninguno de los dos se ha leído en el repositorio."
+      ]
+    },
+    {
+      "titulo": "Régimen sancionador",
+      "puntos": [
+        "Multas en materia de vivienda protegida: leves, hasta 3.000 euros; graves, de 3.001 a 25.000; muy graves, de 25.001 a 120.000 (LVA, art. 117, apartado 1).",
+        "Especial gravedad: el uso turístico de una vivienda protegida y las transmisiones irregulares (art. 117, apartados 3 y 4). Sanciones accesorias para infracciones graves y muy graves (art. 118)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LVA-5-2025",
+      "rol": "Vivienda de Andalucía: concepto de vivienda protegida, calidad, destinatarios, promoción, calificación y régimen sancionador (arts. 26, 27, 55 a 66, 113 a 118)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según la LVA, disposición derogatoria única, letra a, ¿qué ley queda derogada que regulaba la vivienda protegida y el suelo?",
+      "opciones": [
+        "La Ley 13/2005, de medidas para la vivienda protegida y el suelo",
+        "La Ley 7/2002, de Ordenación Urbanística",
+        "La Ley 14/2007, del Patrimonio Histórico",
+        "La Ley 4/2017, de Discapacidad"
+      ],
+      "correcta": 0,
+      "explicacion": "La disposición derogatoria única, letra a, deroga la Ley 13/2005, de 11 de noviembre, de medidas para la vivienda protegida y el suelo.",
+      "referencia": "LVA, disposición derogatoria única, letra a)"
+    },
+    {
+      "pregunta": "Según la LVA, disposición final octava, ¿cuándo entra en vigor la ley?",
+      "opciones": [
+        "El primer día del año siguiente",
+        "El día siguiente a su aprobación por el Parlamento",
+        "Al mes de su publicación en el Boletín Oficial de la Junta de Andalucía",
+        "A los dos años de su publicación en el BOE"
+      ],
+      "correcta": 2,
+      "explicacion": "La ley entra en vigor al mes de su publicación en el Boletín Oficial de la Junta de Andalucía (disposición final octava).",
+      "referencia": "LVA, disposición final octava"
+    },
+    {
+      "pregunta": "Según la LVA, art. 55, apartado 1, ¿cuál es el objeto de las viviendas protegidas?",
+      "opciones": [
+        "Construir oficinas en zonas residenciales",
+        "Fomentar la vivienda vacacional",
+        "Vender viviendas al precio de mercado",
+        "Garantizar el acceso a una vivienda digna y adecuada a personas y familias con recursos limitados"
+      ],
+      "correcta": 3,
+      "explicacion": "Las viviendas protegidas tienen como objeto garantizar el acceso a una vivienda digna y adecuada a las personas y familias con recursos limitados (art. 55, apartado 1).",
+      "referencia": "LVA, art. 55, apartado 1"
+    },
+    {
+      "pregunta": "Según la LVA, art. 55, apartado 2, ¿qué constituye el régimen jurídico de las viviendas protegidas?",
+      "opciones": [
+        "Solo el precio de venta",
+        "El conjunto de ayudas, beneficios fiscales, limitaciones y requisitos que han de cumplirse mientras persista su protección",
+        "La licencia de primera ocupación",
+        "El número de habitaciones de la vivienda"
+      ],
+      "correcta": 1,
+      "explicacion": "El régimen jurídico está constituido por el conjunto de ayudas, beneficios fiscales, limitaciones y requisitos que han de cumplirse mientras persista la protección (art. 55, apartado 2).",
+      "referencia": "LVA, art. 55, apartado 2"
+    },
+    {
+      "pregunta": "Según la LVA, art. 57, apartado 1, ¿de qué depende la duración del régimen de protección?",
+      "opciones": [
+        "Del programa, en el plan de vivienda que lo establezca o en el acuerdo del Consejo de Gobierno en los casos previstos",
+        "De la voluntad del promotor",
+        "De la antigüedad del edificio",
+        "Solo del destino urbanístico del suelo"
+      ],
+      "correcta": 0,
+      "explicacion": "La duración se establece para cada programa, en el plan de vivienda o en el acuerdo del Consejo de Gobierno en los casos del artículo 17, apartado 6. No se condiciona por el destino urbanístico del suelo, salvo en suelos dotacionales (art. 57, apartado 1).",
+      "referencia": "LVA, art. 57, apartado 1"
+    },
+    {
+      "pregunta": "Según la LVA, art. 61, apartado 1, ¿de qué modo puede realizarse la selección de adjudicatarios de viviendas protegidas de nueva construcción?",
+      "opciones": [
+        "Solo por antigüedad en el padrón",
+        "Solo por sorteo notarial",
+        "Mediante listado priorizado del Registro Público Municipal de Demandantes o por convocatoria específica municipal",
+        "Por adjudicación directa al promotor"
+      ],
+      "correcta": 2,
+      "explicacion": "La selección puede hacerse mediante listado priorizado del Registro Público Municipal de Demandantes de Vivienda Protegida o por convocatoria específica municipal (art. 61, apartado 1).",
+      "referencia": "LVA, art. 61, apartado 1"
+    },
+    {
+      "pregunta": "Según la LVA, art. 65, apartado 1, ¿qué límite tiene el precio máximo de los terrenos destinados a vivienda protegida, incluido el coste de urbanización?",
+      "opciones": [
+        "El 50 % del valor catastral",
+        "No tiene límite",
+        "El 5 % del precio de venta de las viviendas",
+        "El 15 % del importe resultante del precio máximo del metro cuadrado por la superficie construida"
+      ],
+      "correcta": 3,
+      "explicacion": "El precio máximo de los terrenos, incluido el coste de urbanización, no puede exceder del 15 % del importe resultante de multiplicar el precio máximo del metro cuadrado por la superficie construida (art. 65, apartado 1).",
+      "referencia": "LVA, art. 65, apartado 1"
+    },
+    {
+      "pregunta": "Según la LVA, art. 66, apartado 1, ¿quién tiene la competencia para calificar una vivienda o alojamiento protegido?",
+      "opciones": [
+        "El promotor privado",
+        "Los ayuntamientos, de acuerdo con los criterios de la Comunidad Autónoma",
+        "El notario autorizante",
+        "El Registro de la Propiedad"
+      ],
+      "correcta": 1,
+      "explicacion": "La calificación corresponde a los ayuntamientos, conforme a la Ley 5/2010 de Autonomía Local de Andalucía y de acuerdo con los criterios que establezca la Comunidad Autónoma (art. 66, apartado 1).",
+      "referencia": "LVA, art. 66, apartado 1"
+    },
+    {
+      "pregunta": "Según la LVA, art. 117, apartado 1, letra c, ¿qué multa corresponde a las infracciones muy graves en materia de vivienda protegida?",
+      "opciones": [
+        "Hasta 3.000 euros",
+        "De 3.001 a 25.000 euros",
+        "De 25.001 a 120.000 euros",
+        "De 120.001 a 500.000 euros"
+      ],
+      "correcta": 2,
+      "explicacion": "Las infracciones muy graves se sancionan con multa de 25.001 a 120.000 euros (LVA, art. 117, apartado 1, letra c).",
+      "referencia": "LVA, art. 117, apartado 1, letra c)"
+    },
+    {
+      "pregunta": "Según la LVA, art. 56, apartado 1, ¿quiénes son los destinatarios de las viviendas protegidas durante el periodo de protección?",
+      "opciones": [
+        "Personas físicas y unidades familiares o de convivencia que reúnan los requisitos del programa y tengan allí su residencia habitual",
+        "Solo las sociedades mercantiles",
+        "Cualquier persona, sin requisitos",
+        "Solo las personas extranjeras sin residencia en España"
+      ],
+      "correcta": 0,
+      "explicacion": "Las viviendas protegidas se destinan a las personas físicas y unidades familiares o de convivencia que reúnan los requisitos del programa y constituyan en ella su residencia habitual o permanente (LVA, art. 56, apartado 1).",
+      "referencia": "LVA, art. 56, apartado 1"
+    }
+  ]
+}

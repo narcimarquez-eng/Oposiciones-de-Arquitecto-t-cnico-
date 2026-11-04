@@ -1059,6 +1059,160 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-04",
    "notas": "PDF consolidado descargado de boe.es (última modificación indicada en el PDF o en la búsqueda: 12 de mayo de 2023, por el RDL 4/2023, que suprime el apartado 5 del anexo III). Verificados en el texto los arts. 1 a 12 (capítulos I y II), y el anexo VI, apartados A.1 a A.5 (en parte). Pendientes: anexos I a V completos, los arts. 13 y siguientes y las disposiciones finales."
+  },
+  "RD-513-2017": {
+   "id": "RD-513-2017",
+   "nombre": "Reglamento de instalaciones de protección contra incendios",
+   "referencia": "Real Decreto 513/2017, de 22 de mayo, por el que se aprueba el Reglamento de instalaciones de protección contra incendios (BOE núm. 139, de 12 de junio de 2017)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-6606",
+   "boe_id": "BOE-A-2017-6606",
+   "pdf": "leyes/BOE-A-2017-6606.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Texto consolidado descargado (última modificación indicada en el PDF: 18 de marzo de 2023). Verificados en el texto los arts. 1 a 23 en su encabezado o su contenido parcial (14, 15, 21, 22 y 23 en su texto); anexos II y III parcialmente. Según búsqueda, el RD 164/2025 modifica el reglamento; no se ha leído."
+  },
+  "LISTA-7-2021": {
+   "id": "LISTA-7-2021",
+   "nombre": "Ley de impulso para la sostenibilidad del territorio de Andalucía",
+   "referencia": "Ley 7/2021, de 1 de diciembre, de impulso para la sostenibilidad del territorio de Andalucía (BOJA y BOE de 2021)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-20916",
+   "boe_id": "BOE-A-2021-20916",
+   "pdf": "leyes/BOE-A-2021-20916.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Texto consolidado descargado (última modificación indicada en el PDF: 7 de abril de 2026). Deroga la Ley 7/2002 (LOUA) en su disposición derogatoria única, apartado 2, letra b. Verificados los arts. 12 a 14, 16 a 19, 24 a 32, 60 a 67, 119, 120, 127, 130, 137, 138, 144, 145 (en título), 161 (apartados 1 y 2) y el índice; no leídos los demás."
+  },
+  "LPHA-14-2007": {
+   "id": "LPHA-14-2007",
+   "nombre": "Ley del Patrimonio Histórico de Andalucía",
+   "referencia": "Ley 14/2007, de 26 de noviembre, del Patrimonio Histórico de Andalucía (BOJA núm. 248, de 19 de diciembre de 2007; BOE núm. 38, de 13 de febrero de 2008)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-2494",
+   "boe_id": "BOE-A-2008-2494",
+   "pdf": "leyes/BOE-A-2008-2494.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Texto consolidado descargado (última modificación indicada en el PDF: 7 de abril de 2026). Verificados los arts. 6, 8 (título), 9 (apartados 1 y 2), 12 a 28 (índice o encabezado), 25, 26, 33, 85, 86, 93, 94, 108, 114 y 119, en parte. No leídos los arts. 37 a 39, 47 a 60, 84, 87 a 91 y 109 a 110."
+  },
+  "LPHE-16-1985": {
+   "id": "LPHE-16-1985",
+   "nombre": "Ley del Patrimonio Histórico Español",
+   "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12534",
+   "boe_id": "BOE-A-1985-12534",
+   "pdf": "leyes/BOE-A-1985-12534.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Texto consolidado descargado. Verificado el art. 9, apartados 2 a 4 (declaración de BIC). No leídos los demás artículos."
+  },
+  "TRLS-7-2015": {
+   "id": "TRLS-7-2015",
+   "nombre": "Texto refundido de la Ley de Suelo y Rehabilitación Urbana",
+   "referencia": "Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana (BOE núm. 261, de 31 de octubre de 2015)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11723",
+   "boe_id": "BOE-A-2015-11723",
+   "pdf": "leyes/BOE-A-2015-11723.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Texto consolidado descargado (fecha de última actualización según búsqueda: 26 de mayo de 2023). Verificado el art. 35, apartados 1 a 3. Resto no leído."
+  },
+  "TRLCAT-1-2004": {
+   "id": "TRLCAT-1-2004",
+   "nombre": "Texto refundido de la Ley del Catastro Inmobiliario",
+   "referencia": "Real Decreto Legislativo 1/2004, de 5 de marzo, por el que se aprueba el texto refundido de la Ley del Catastro Inmobiliario (BOE núm. 58, de 8 de marzo de 2004)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4163",
+   "boe_id": "BOE-A-2004-4163",
+   "pdf": "leyes/BOE-A-2004-4163.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Texto consolidado descargado. Verificados los arts. 22, 23 (apartados 1 a 3) y 24 (apartados 1 y 2); índice de arts. 25 a 39. No leídos los arts. 25 a 32 en su texto."
+  },
+  "ECO-805-2003": {
+   "id": "ECO-805-2003",
+   "nombre": "Normas de valoración de bienes inmuebles",
+   "referencia": "Orden ECO/805/2003, de 27 de marzo, sobre normas de valoración de bienes inmuebles y determinados instrumentos financieros (BOE núm. 85, de 9 de abril de 2003)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-7253",
+   "boe_id": "BOE-A-2003-7253",
+   "pdf": "leyes/BOE-A-2003-7253.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Texto consolidado descargado (última modificación indicada en el PDF: 12 de junio de 2025, según búsqueda; Orden ECM/599/2025 la modifica). Verificados los arts. 3, 4 (definiciones de depreciación y comparables), 15, 17, 19 y 20. No leídos los arts. 5 a 14, 16, 18 y 21 a 25."
+  },
+  "RD-1020-1993": {
+   "id": "RD-1020-1993",
+   "nombre": "Normas técnicas de valoración catastral de bienes urbanos",
+   "referencia": "Real Decreto 1020/1993, de 25 de junio, por el que se aprueban las normas técnicas de valoración y el cuadro marco de valores del suelo y de los módulos de construcción (BOE núm. 174, de 22 de julio de 1993)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1993-19265",
+   "boe_id": "BOE-A-1993-19265",
+   "pdf": "leyes/BOE-A-1993-19265.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Texto consolidado descargado (última modificación indicada en el PDF: 20 de noviembre de 2007). Solo se ha leído el encabezado; las normas técnicas no se han leído."
+  },
+  "L-14-2010": {
+   "id": "L-14-2010",
+   "nombre": "Ley de infraestructuras y servicios de información geográfica en España",
+   "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-10707",
+   "boe_id": "BOE-A-2010-10707",
+   "pdf": "leyes/BOE-A-2010-10707.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Texto consolidado descargado. Verificados los arts. 1 (apartados 1 y 2), 3 (apartado 1, letras a, b, e, f y g), 5, 9 (apartados 1 y 2 en su inicio), 13, 14 (índice) y 17 (apartados 1 y 2, letra a). Según búsqueda, la Ley 2/2018 la modifica; no comprobado en el texto."
+  },
+  "L-37-2003": {
+   "id": "L-37-2003",
+   "nombre": "Ley del Ruido",
+   "referencia": "Ley 37/2003, de 17 de noviembre, del Ruido (BOE núm. 276, de 18 de noviembre de 2003)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20976",
+   "boe_id": "BOE-A-2003-20976",
+   "pdf": "leyes/BOE-A-2003-20976.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Texto consolidado descargado (última modificación indicada en el PDF: 7 de julio de 2011, según búsqueda). Verificados los arts. 20 y 28 (apartados 1 a 3, letras a, c y d; 2, letra d) y el índice de arts. 1 a 31."
+  },
+  "LVA-5-2025": {
+   "id": "LVA-5-2025",
+   "nombre": "Ley de Vivienda de Andalucía",
+   "referencia": "Ley 5/2025, de 16 de diciembre, de Vivienda de Andalucía (BOJA núm. 247, de 24 de diciembre de 2025; BOE núm. 7, de 8 de enero de 2026)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-423",
+   "boe_id": "BOE-A-2026-423",
+   "pdf": "leyes/BOE-A-2026-423.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Texto consolidado descargado. Verificados la disposición derogatoria única (letras a a d), la disposición final octava, los arts. 26, 27 (apartado 1), 30 (letra a), 55, 56 (apartado 1 en su inicio), 57 (apartado 1), 58, 59, 61 (apartados 1 y 2), 63, 65 (apartados 1 y 2), 66 (apartados 1 y 2), 113 (en parte), 114 (letra c), 115, 116, 117 (apartados 1 a 4), 118 (apartado 1, letra a) y los títulos de los títulos V a VIII. Los decretos reglamentarios (Decreto 149/2006, Orden de 2008, Decreto 91/2020) se mencionan según búsqueda y no se han leído."
+  },
+  "DEC-AND-293-2009": {
+   "id": "DEC-AND-293-2009",
+   "nombre": "Decreto de normas para la accesibilidad en las infraestructuras, el urbanismo, la edificación y el transporte en Andalucía",
+   "referencia": "Decreto 293/2009, de 7 de julio, por el que se aprueban las normas para la accesibilidad en las infraestructuras, el urbanismo, la edificación y el transporte en Andalucía (BOJA núm. 140, de 21 de julio de 2009)",
+   "url": "",
+   "boe_id": null,
+   "pdf": "leyes/DEC-AND-293-2009.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF del BOJA descargado (compendio normativo de la Junta que contiene el texto del decreto). Verificados los arts. 11, 12 (encabezado), 62, 64, 65 (apartado 1, letra a), 66, 70 (apartado 2, letra a), 74 (letra a) y 77 (encabezado), y el índice de la norma. Según búsqueda, puede haber modificaciones posteriores, no comprobadas."
+  },
+  "LAND-4-2017": {
+   "id": "LAND-4-2017",
+   "nombre": "Ley de los derechos y la atención a las personas con discapacidad en Andalucía",
+   "referencia": "Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-11910",
+   "boe_id": "BOE-A-2017-11910",
+   "pdf": "leyes/BOE-A-2017-11910.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Texto consolidado descargado (última modificación indicada en el PDF: 16 de febrero de 2024). Verificados los arts. 2, 3, 4 (letras j, k y l), 50, 53 (encabezado), 84 y 85, y el índice. No leídos los arts. 1, 5 a 49 y 54 a 83 en su texto."
+  },
+  "DB-HR": {
+   "id": "DB-HR",
+   "nombre": "Documento Básico HR. Protección frente al ruido",
+   "referencia": "Código Técnico de la Edificación, Documento Básico DB-HR Protección frente al ruido (versión descargada del Ministerio)",
+   "url": "",
+   "boe_id": null,
+   "pdf": "leyes/DB-HR.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF del DB-HR descargado (80 páginas). Verificados los apartados 2, 2.2, 2.3, 3.1, 3.1.2.3.4 (tabla 3.2) y 6 en el texto. Las tablas 3.1 y 3.2 completas, los anejos y las normas de referencia no se han leído."
   }
  },
  "contenido": {
@@ -18725,6 +18879,320 @@ window.DATOS_ESTUDIO = {
     "leyes/BOE-A-1997-8669.pdf"
    ]
   },
+  "e19": {
+   "resumen": [
+    {
+     "titulo": "Normativa del uso, la conservación y el mantenimiento",
+     "puntos": [
+      "Los propietarios deben conservar la edificación en buen estado mediante un adecuado uso y mantenimiento, y recibir, conservar y transmitir la documentación de la obra ejecutada (LOE, art. 16, apartado 1). Los usuarios deben utilizar el edificio conforme a sus instrucciones (art. 16, apartado 2).",
+      "El CTE exige un uso adecuado según las instrucciones de uso (art. 8.2, apartado 1) y un plan de mantenimiento con la planificación de las operaciones programadas (art. 8.1, apartado 3)."
+     ]
+    },
+    {
+     "titulo": "Documentación de la obra y libro del edificio",
+     "puntos": [
+      "La documentación de la obra ejecutada incluye el acta de recepción, la relación de los agentes que han intervenido y las instrucciones de uso y mantenimiento (LOE, art. 7, apartado 2). Toda esa documentación constituye el libro del edificio y se entrega a los usuarios finales (art. 7, apartado 3).",
+      "El libro del edificio incluye la documentación de los productos y sistemas incorporados (CTE, art. 8.1, apartado 2) y el plan de mantenimiento (art. 8.1, apartado 3)."
+     ]
+    },
+    {
+     "titulo": "Instrucciones y plan de mantenimiento",
+     "puntos": [
+      "Las instrucciones describen el uso previsto, los cuidados de conservación y las operaciones periódicas de mantenimiento, con sus frecuencias y responsables.",
+      "El plan de mantenimiento organiza las instrucciones en el tiempo, con registro de cada operación para acreditar el cumplimiento de la obligación de conservación."
+     ]
+    },
+    {
+     "titulo": "BIM",
+     "puntos": [
+      "El BIM es un proceso de trabajo basado en un modelo digital del edificio que se usa en el proyecto, la construcción y el mantenimiento. No se ha localizado una norma general de obligado cumplimiento en el repositorio: el tema no cita normas BIM concretas."
+     ]
+    },
+    {
+     "titulo": "Personal de la Administración: prevención",
+     "puntos": [
+      "La LPRL se aplica a las relaciones administrativas o estatutarias del personal al servicio de las Administraciones Públicas, con sus peculiaridades (art. 3, apartado 1).",
+      "Figuras: servicio de prevención, plan de prevención (art. 16), delegado de prevención (art. 37, garantías y sigilo) y comité de seguridad y salud (arts. 38 y 39)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LOE",
+     "rol": "Documentación de la obra ejecutada y libro del edificio (art. 7), obligaciones de propietarios y usuarios (art. 16)"
+    },
+    {
+     "id": "CTE",
+     "rol": "Uso, instrucciones de uso y mantenimiento; libro del edificio y plan de mantenimiento (arts. 8.1 y 8.2)"
+    },
+    {
+     "id": "LPRL",
+     "rol": "Aplicación a la Administración (art. 3), plan de prevención (art. 16), delegados y comité (arts. 37 a 39)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la LOE, art. 16, apartado 1, ¿cuál es una obligación de los propietarios de un edificio?",
+     "opciones": [
+      "Conservar la edificación en buen estado mediante un adecuado uso y mantenimiento",
+      "Construir nuevas plantas sin licencia",
+      "Retirar el libro del edificio del archivo municipal",
+      "Ninguna obligación, la conservación es de la Administración"
+     ],
+     "correcta": 0,
+     "explicacion": "Los propietarios deben conservar el edificio en buen estado mediante un adecuado uso y mantenimiento, y recibir, conservar y transmitir la documentación de la obra (LOE, art. 16, apartado 1).",
+     "referencia": "LOE, art. 16, apartado 1"
+    },
+    {
+     "pregunta": "Según la LOE, art. 7, apartado 3, ¿cómo se denomina el conjunto de la documentación de la obra ejecutada que se entrega a los usuarios finales?",
+     "opciones": [
+      "Certificado de eficiencia",
+      "Libro de órdenes",
+      "Libro del edificio",
+      "Cuaderno de obra"
+     ],
+     "correcta": 2,
+     "explicacion": "Toda la documentación de la obra ejecutada constituye el Libro del Edificio, que se entrega a los usuarios finales (LOE, art. 7, apartado 3).",
+     "referencia": "LOE, art. 7, apartado 3"
+    },
+    {
+     "pregunta": "Según el CTE, art. 8.1, apartado 3, ¿qué debe incluir el libro del edificio en materia de mantenimiento?",
+     "opciones": [
+      "Solo el presupuesto de la obra",
+      "Únicamente la fecha de la licencia",
+      "Nada sobre mantenimiento",
+      "Un plan de mantenimiento con la planificación de las operaciones programadas"
+     ],
+     "correcta": 3,
+     "explicacion": "El libro del edificio contiene las instrucciones de uso, conservación y mantenimiento y un plan de mantenimiento con la planificación de las operaciones programadas (CTE, art. 8.1, apartado 3).",
+     "referencia": "CTE, art. 8.1, apartado 3"
+    },
+    {
+     "pregunta": "Según la LOE, art. 7, apartado 2, ¿qué debe adjuntarse como mínimo a la documentación de la obra ejecutada?",
+     "opciones": [
+      "Solo las facturas de los materiales",
+      "El acta de recepción, la relación de agentes y las instrucciones de uso y mantenimiento",
+      "Únicamente el nombre del promotor",
+      "Nada, la documentación es opcional"
+     ],
+     "correcta": 1,
+     "explicacion": "A la documentación de la obra ejecutada se adjuntan, como mínimo, el acta de recepción, la relación identificativa de los agentes y las instrucciones de uso y mantenimiento (LOE, art. 7, apartado 2).",
+     "referencia": "LOE, art. 7, apartado 2"
+    },
+    {
+     "pregunta": "Según el CTE, art. 8.2, apartado 1, ¿cómo deben utilizarse el edificio y sus instalaciones?",
+     "opciones": [
+      "De forma adecuada, conforme a las instrucciones de uso, sin un uso incompatible con el previsto",
+      "Solo por el propietario, nunca por los inquilinos",
+      "Sin ninguna restricción",
+      "De cualquier forma, según el gusto del usuario"
+     ],
+     "correcta": 0,
+     "explicacion": "El edificio y sus instalaciones se utilizan adecuadamente de conformidad con las instrucciones de uso, absteniéndose de hacer un uso incompatible con el previsto (CTE, art. 8.2, apartado 1).",
+     "referencia": "CTE, art. 8.2, apartado 1"
+    },
+    {
+     "pregunta": "Según la LPRL, art. 3, apartado 1, ¿a qué personal se aplica la ley, con sus peculiaridades?",
+     "opciones": [
+      "Solo a los becarios",
+      "Solo a los trabajadores de empresas privadas",
+      "Al personal de las relaciones laborales y al de las relaciones administrativas o estatutarias de las Administraciones Públicas",
+      "Solo a los autónomos"
+     ],
+     "correcta": 2,
+     "explicacion": "La LPRL se aplica tanto en las relaciones laborales como en las administrativas o estatutarias del personal al servicio de las Administraciones Públicas, con las peculiaridades que establezca la ley (art. 3, apartado 1).",
+     "referencia": "LPRL, art. 3, apartado 1"
+    },
+    {
+     "pregunta": "Según la LPRL, art. 16, ¿qué instrumento regula el plan de prevención de riesgos laborales y la evaluación de riesgos?",
+     "opciones": [
+      "El artículo 2 del Código Civil",
+      "El artículo 12 del Código Penal",
+      "El artículo 25 de la Constitución",
+      "El artículo 16 de la LPRL"
+     ],
+     "correcta": 3,
+     "explicacion": "El artículo 16 de la LPRL regula el plan de prevención de riesgos laborales, la evaluación de los riesgos y la planificación de la actividad preventiva.",
+     "referencia": "LPRL, art. 16"
+    },
+    {
+     "pregunta": "Según la LPRL, art. 38, ¿qué órgano regula el comité de seguridad y salud?",
+     "opciones": [
+      "El delegado de prevención en solitario",
+      "El comité de seguridad y salud, órgano paritario de participación",
+      "El servicio de limpieza del edificio",
+      "El registro de la propiedad"
+     ],
+     "correcta": 1,
+     "explicacion": "El artículo 38 de la LPRL regula el comité de seguridad y salud, que es el órgano paritario de participación en materia de prevención.",
+     "referencia": "LPRL, art. 38"
+    },
+    {
+     "pregunta": "Según la LOE, art. 16, apartado 2, ¿quiénes deben utilizar adecuadamente los edificios conforme a las instrucciones de uso y mantenimiento?",
+     "opciones": [
+      "Solo la Administración",
+      "Solo los propietarios",
+      "Los usuarios, sean o no propietarios",
+      "Solo los agentes de la edificación"
+     ],
+     "correcta": 2,
+     "explicacion": "Son obligaciones de los usuarios, sean o no propietarios, la utilización adecuada de los edificios conforme a las instrucciones de uso y mantenimiento (LOE, art. 16, apartado 2).",
+     "referencia": "LOE, art. 16, apartado 2"
+    },
+    {
+     "pregunta": "Según el CTE, art. 8.1, apartado 1, ¿con qué se completa el contenido del libro del edificio?",
+     "opciones": [
+      "Con lo que establezcan los DB del CTE para el cumplimiento de las exigencias básicas",
+      "Con la publicidad comercial del promotor",
+      "Con el catálogo de precios de la obra",
+      "Con nada, el contenido es fijo"
+     ],
+     "correcta": 0,
+     "explicacion": "El contenido del libro del edificio establecido en la LOE se completa con lo que establezcan los DB del CTE (CTE, art. 8.1, apartado 1).",
+     "referencia": "CTE, art. 8.1, apartado 1"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Normativa reguladora del uso, la conservación y el mantenimiento",
+     "parrafos": [
+      "El uso, la conservación y el mantenimiento de los edificios se regulan en la LOE, en el CTE y en la normativa autonómica de vivienda y de urbanismo. La LOE establece las obligaciones de los propietarios y de los usuarios: los propietarios deben conservar la edificación en buen estado mediante un adecuado uso y mantenimiento, y recibir, conservar y transmitir la documentación de la obra ejecutada y los seguros y garantías (LOE, art. 16, apartado 1). Los usuarios, sean o no propietarios, deben utilizar los edificios de forma adecuada, de conformidad con las instrucciones de uso y mantenimiento (art. 16, apartado 2).",
+      "El CTE completa esas obligaciones en su artículo 8. El edificio y sus instalaciones se utilizan adecuadamente de acuerdo con sus instrucciones de uso, absteniéndose de hacer un uso incompatible con el previsto (CTE, art. 8.2, apartado 1). El libro del edificio incluye las instrucciones de uso, conservación y mantenimiento, con un plan de mantenimiento que recoge la planificación de las operaciones programadas (art. 8.1, apartado 3).",
+      "En la normativa urbanística, la conservación se articula con el deber de conservación y con las órdenes de ejecución. La LISTA regula el deber de conservación y rehabilitación de los inmuebles en su artículo 144, y la inspección técnica de las construcciones en el artículo 145, que se estudian en el tema de legislación urbanística. Los dos planos, el de la edificación y el de la ciudad, se complementan."
+     ]
+    },
+    {
+     "titulo": "2. Estudios y previsiones en el proyecto",
+     "parrafos": [
+      "El proyecto debe prever la conservación y el mantenimiento del edificio desde su concepción. Esto significa elegir los materiales y los sistemas con su vida útil, dejar accesibles las instalaciones para su revisión y sustitución, y definir las operaciones de mantenimiento con su periodicidad. Un proyecto que no prevé el acceso a una cubierta o a un patinillo genera costes de mantenimiento y de reparación que no aparecen en el presupuesto de la obra, pero que el propietario paga después.",
+      "El CTE exige que el proyecto incluya la documentación necesaria para la conservación. Su anejo I regula el contenido del proyecto, y el mantenimiento forma parte de la justificación de cada sección del DB que tiene apartado de mantenimiento. Así, el DB-HS 1 o el DB-HS 5 tienen un apartado de mantenimiento que el proyecto debe considerar, y el DB-SI tiene su propio régimen de revisión de las instalaciones.",
+      "Las previsiones del proyecto deben ser operativas. No basta con indicar que el edificio necesita mantenimiento: el proyecto debe concretar qué operación se hace, con qué frecuencia y por quién. Esa concreción es la que el plan de mantenimiento recoge y la que el propietario necesita para cumplir su obligación de conservación.",
+      "Las previsiones de accesibilidad para el mantenimiento son parte del proyecto. Un patinillo de instalaciones debe permitir el acceso a las válvulas y a los contadores; una cubierta debe tener un acceso seguro para la revisión de sus sumideros y de sus equipos; y una fachada ventilada debe permitir la inspección de su cámara. Si el proyecto no prevé esos accesos, el mantenimiento se hace con medios provisionales, más caros y menos seguros, y en algunos casos no se hace."
+     ]
+    },
+    {
+     "titulo": "3. La documentación de la obra ejecutada y el libro del edificio",
+     "parrafos": [
+      "La LOE regula la documentación de la obra ejecutada en su artículo 7. Una vez finalizada la obra, el director de obra entrega al promotor el proyecto con las modificaciones aprobadas, para la formalización de los trámites administrativos. A esa documentación se adjuntan, como mínimo, el acta de recepción, la relación identificativa de los agentes que han intervenido en el proceso de edificación y las instrucciones de uso y mantenimiento del edificio y sus instalaciones (LOE, art. 7, apartado 2).",
+      "Toda esa documentación constituye el libro del edificio, y se entrega a los usuarios finales del edificio (LOE, art. 7, apartado 3). El libro del edificio es, por tanto, el instrumento que transmite al usuario final la información necesaria para conservar el edificio. Su contenido se completa con lo que establezcan los DB del CTE (CTE, art. 8.1, apartado 1).",
+      "El CTE precisa que el libro del edificio incluye la documentación de los productos, equipos y sistemas incorporados a la obra (CTE, art. 8.1, apartado 2), las instrucciones de uso, conservación y mantenimiento, y el plan de mantenimiento (apartado 3). El arquitecto técnico que dirige la obra debe reunir esa documentación al final, porque sin ella el libro del edificio queda incompleto y el propietario no puede cumplir su obligación de conservar."
+     ]
+    },
+    {
+     "titulo": "3 ter. Garantías, seguros y transmisión de la documentación",
+     "parrafos": [
+      "La responsabilidad de los agentes de la edificación tiene plazos que se relacionan con el mantenimiento. La LOE responde durante diez años por los daños materiales causados por vicios o defectos que afecten a la cimentación, los soportes, las vigas, los forjados o los muros de carga (LOE, art. 17, apartado 1, letra a), durante tres años por los defectos de habitabilidad (letra b) y durante un año por los acabados (último párrafo del apartado 1). Un mantenimiento documentado es la prueba que el propietario necesita para reclamar dentro de esos plazos.",
+      "El propietario debe recibir, conservar y transmitir la documentación de la obra ejecutada y los seguros y garantías con que cuente el edificio (LOE, art. 16, apartado 1). Esa obligación es especialmente importante en las transmisiones de propiedad, porque el nuevo propietario recibe el libro del edificio y debe continuar el plan de mantenimiento.",
+      "En una comunidad de propietarios, la transmisión de la documentación se hace entre el promotor, la comunidad y los sucesivos administradores. Un libro del edificio que se pierde en una transmisión deja al edificio sin el historial de sus revisiones, y la reconstrucción del historial es costosa. Por eso la custodia de la documentación es una obligación práctica tanto como jurídica."
+     ]
+    },
+    {
+     "titulo": "4. Instrucciones de uso, conservación y mantenimiento",
+     "parrafos": [
+      "Las instrucciones de uso describen el uso previsto del edificio y de sus partes, con los límites de carga, las condiciones de utilización y las prohibiciones. Las instrucciones de conservación describen los cuidados que debe recibir cada elemento para mantener sus prestaciones. Las instrucciones de mantenimiento describen las operaciones periódicas, sus frecuencias y los responsables de cada una.",
+      "El CTE pide que las instrucciones se integren en el libro del edificio y que sean comprensibles para el usuario final. Una instrucción de mantenimiento que solo usa términos técnicos no sirve al propietario de una vivienda, por lo que el tema recomienda redactarla con un lenguaje claro y con los datos de contacto de los técnicos o de las empresas que deben intervenir.",
+      "El plan de mantenimiento es el instrumento que organiza esas instrucciones en el tiempo. Cada operación se registra con su fecha y su resultado, y el registro se conserva en el libro del edificio. Sin ese registro, el propietario no puede demostrar que cumplió su obligación de conservación, y la aseguradora puede negar la cobertura en un siniestro.",
+      "La redacción de las instrucciones debe distinguir el destinatario. Las instrucciones dirigidas a la comunidad de propietarios deben indicar qué operaciones puede encargar la comunidad y cuáles requieren una empresa habilitada. Las dirigidas al usuario final deben limitarse a las operaciones que el usuario puede hacer con seguridad, como la limpieza de los filtros, y remitir a la empresa en las demás."
+     ]
+    },
+    {
+     "titulo": "4 bis. Uso adecuado y usos incompatibles",
+     "parrafos": [
+      "El uso adecuado es el primer instrumento de conservación. El CTE exige que el edificio y sus instalaciones se utilicen de conformidad con las instrucciones de uso, absteniéndose de hacer un uso incompatible con el previsto (CTE, art. 8.2, apartado 1). Un local proyectado como oficina que se destina a un uso con cargas superiores, o una vivienda que se usa como almacén de sustancias húmedas, son usos incompatibles que deterioran el edificio.",
+      "La incompatibilidad se produce también por la sobrecarga, la alteración de un elemento estructural o la instalación de un equipo no previsto. Un forjado proyectado para una carga de uso no puede recibir una instalación pesada sin comprobación previa, y la falta de comprobación es la causa de muchos daños estructurales que aparecen años después.",
+      "El propietario y el usuario tienen obligaciones complementarias. El propietario debe conservar el edificio en buen estado (LOE, art. 16, apartado 1), y el usuario debe utilizarlo de forma adecuada (art. 16, apartado 2). Cuando el uso es incompatible, la responsabilidad se reparte según quién originó el cambio, y el libro del edificio es la prueba del uso previsto."
+     ]
+    },
+    {
+     "titulo": "5. Tecnología BIM en el proyecto, la construcción y el mantenimiento",
+     "parrafos": [
+      "El BIM (Building Information Modeling) es un proceso de trabajo basado en un modelo digital del edificio que contiene su geometría y sus datos. El modelo se construye en la fase de proyecto, se completa en la construcción y se utiliza en el mantenimiento. Su ventaja es que los datos de cada elemento, como el fabricante, la fecha de instalación y la frecuencia de revisión, quedan asociados a la geometría.",
+      "En el proyecto, el BIM permite detectar interferencias entre instalaciones y estructura antes de la obra. En la construcción, permite gestionar la planificación y el control de la ejecución. En el mantenimiento, el modelo sirve de base para el libro del edificio digital, en el que cada elemento tiene su historial de intervenciones y su plan de revisión.",
+      "El BIM no tiene por el momento una regulación de carácter general en el repositorio. Las referencias que el examen puede hacer proceden de la práctica profesional y de las normas de contratación que la exigen en algunos casos, y deben contrastarse con la norma vigente en cada caso. El tema no cita normas BIM concretas porque no se han verificado en el repositorio."
+     ]
+    },
+    {
+     "titulo": "5 bis. Mantenimiento por tipo de instalación y de elemento",
+     "parrafos": [
+      "El mantenimiento de las instalaciones tiene periodicidades que fijan sus reglamentos. En las instalaciones térmicas, el RITE establece en su instrucción técnica IT 3, en la tabla 3.1, las periodicidades de las revisiones: por ejemplo, para los calentadores de agua caliente sanitaria de gas de potencia no superior a 24,4 kW en vivienda, cada cinco años; y para los aparatos de aire acondicionado de potencia no superior a 12 kW en vivienda, cada cuatro años. Las instalaciones térmicas de más de 70 kW tienen revisión mensual (RITE, IT 3.3).",
+      "En los ascensores, el RD 355/2024 fija en su artículo 11, apartado 4, las inspecciones periódicas: cada dos años en los industriales y los de uso público, cada cuatro años en los edificios de más de veinte viviendas o de más de cuatro plantas servidas, y cada seis años en el resto. El mantenimiento del ascensor lo realizan empresas conservadoras, con su plan de mantenimiento (art. 5).",
+      "En la protección contra incendios, el RIPCI exige revisiones de mantenimiento con los intervalos máximos del anexo II, y las actas de mantenimiento deben conservarse al menos cinco años (RD 513/2017, art. 21, apartados 1 y 2). En los gases, la ITC-ICG 07 de la instalación de gas exige una inspección periódica cada cinco años para las instalaciones de gas (RD 919/2006, ITC-ICG 07, apartado 4.1). Cada instalación tiene así su periodicidad, y el plan de mantenimiento debe reunirlas en un calendario único."
+     ]
+    },
+    {
+     "titulo": "6. El deber de protección del personal al servicio de la Administración",
+     "parrafos": [
+      "La Ley 31/1995, de Prevención de Riesgos Laborales (LPRL), se aplica tanto a las relaciones laborales como a las relaciones administrativas o estatutarias del personal al servicio de las Administraciones Públicas, con las peculiaridades que la propia ley o sus normas de desarrollo establezcan (LPRL, art. 3, apartado 1). Esa aplicación es el punto de partida del deber de protección de la Administración frente a sus empleados.",
+      "Las figuras de la prevención en la Administración son las del servicio de prevención, el plan de prevención de riesgos laborales, el delegado de prevención y el comité de seguridad y salud. El artículo 37 de la LPRL regula las garantías y el sigilo profesional de los delegados de prevención, el artículo 38 el comité de seguridad y salud, y el artículo 39 sus competencias y facultades. El artículo 16 regula el plan de prevención de riesgos laborales y la evaluación de los riesgos, que el empresario debe elaborar.",
+      "Las peculiaridades de la Administración se desarrollan en su normativa propia, que no se ha leído en el repositorio. El tema presenta las figuras con la estructura de la LPRL, y deja la regulación concreta de la Junta de Andalucía para su contraste con la norma vigente."
+     ]
+    },
+    {
+     "titulo": "7. Servicios de prevención, delegados y comité",
+     "parrafos": [
+      "El servicio de prevención es el conjunto de medios para asesorar y asistir al empresario en la actividad preventiva. El plan de prevención es el documento que define la política, la organización y los recursos de la actividad preventiva. La LPRL exige que el plan se elabore con la evaluación de los riesgos, y que se revise cuando cambien las condiciones de trabajo.",
+      "Los delegados de prevención son los representantes de los trabajadores con funciones específicas en materia de prevención. Sus garantías y su sigilo profesional están en el artículo 37 de la LPRL. El comité de seguridad y salud es el órgano paritario de participación, constituido por los delegados y por representantes de la Administración (art. 38), y sus competencias y facultades están en el artículo 39.",
+      "En un edificio público, el arquitecto técnico que actúa como técnico de prevención o que participa en la evaluación de riesgos debe conocer estas figuras, porque el comité debe ser consultado sobre las actuaciones de prevención que afectan a las obras y a las instalaciones del edificio."
+     ]
+    },
+    {
+     "titulo": "7 bis. El deber de conservación en la ordenación urbanística",
+     "parrafos": [
+      "La conservación del edificio tiene también una dimensión urbanística. La LISTA regula el deber de conservación y rehabilitación de los inmuebles en su artículo 144, y la inspección técnica de las construcciones y edificaciones en el artículo 145, que se estudian en el tema de legislación urbanística. La inspección técnica permite a la Administración comprobar el estado de conservación de un edificio y ordenar las obras necesarias.",
+      "La conservación de un edificio protegido o de un edificio en el casco histórico puede tener condiciones adicionales, que se estudian en el tema de patrimonio histórico. Cuando el edificio está inscrito como bien de interés cultural, cualquier obra de conservación necesita la autorización de la Consejería competente (LPHA, art. 33, apartado 3).",
+      "El deber de conservación es, por tanto, un deber del propietario frente a la ciudad. El propietario que deja deteriorar su edificio puede recibir una orden de ejecución, y su incumplimiento puede dar lugar a la ejecución subsidiaria por la Administración, con cargo al propietario."
+     ]
+    },
+    {
+     "titulo": "8. Relación entre el mantenimiento y la prevención de riesgos",
+     "parrafos": [
+      "El mantenimiento de un edificio público tiene una dimensión preventiva. Un ascensor sin revisión, una instalación eléctrica sin control o una cubierta sin protección de caída son riesgos para los trabajadores y para los usuarios. La evaluación de riesgos del edificio debe incluir las tareas de mantenimiento, con sus riesgos específicos, como los de trabajo en altura.",
+      "El RD 1627/1997 regula los trabajos de mantenimiento en la obra, pero el edificio terminado está sometido a la LPRL y a la normativa de cada instalación. Por eso el plan de prevención debe considerar las operaciones de conservación de las instalaciones y de la envolvente, con sus medidas preventivas.",
+      "La relación con la conservación es, por tanto, bidireccional. Un edificio bien mantenido es más seguro para sus trabajadores, y un trabajador que realiza el mantenimiento tiene derecho a unas condiciones seguras. El examen puede preguntar por esa relación, y la respuesta debe mencionar ambas dimensiones."
+     ]
+    },
+    {
+     "titulo": "8 bis. Estudio práctico de un edificio de viviendas con más de veinte años",
+     "parrafos": [
+      "Un caso práctico frecuente es el de un edificio de viviendas de más de veinte años con ascensor, calderas comunes y cubierta transitable. El orden de análisis es el siguiente. Primero se comprueba el libro del edificio y el plan de mantenimiento, para saber qué operaciones se han hecho y cuáles faltan. Después se verifica la periodicidad de cada instalación: el ascensor con su inspección periódica según el RD 355/2024, la instalación térmica con la IT 3 del RITE y la protección contra incendios con el RIPCI.",
+      "En la cubierta transitable, se revisan la impermeabilización, la pendiente y los sumideros, y el mantenimiento de los sumideros según el DB-HS 5 (limpieza cada seis meses o cada año). Si hay humedades en la fachada, se revisan los encuentros y las juntas, y el DB-HS 1 es el criterio de referencia. Por último, se propone el calendario de mantenimiento y se informa a la comunidad de sus obligaciones y de la documentación que debe conservar.",
+      "El resultado es un informe con tres partes: el estado de conservación, las operaciones pendientes con su urgencia y el calendario de revisiones. Este informe es la base del plan de mantenimiento de la comunidad y de la decisión sobre las obras de rehabilitación."
+     ]
+    },
+    {
+     "titulo": "9. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir las obligaciones de propietarios y usuarios (LOE, art. 16), el contenido del libro del edificio (LOE, art. 7 y CTE, art. 8.1), la función de las instrucciones de mantenimiento, la aplicación de la LPRL a la Administración (art. 3, apartado 1) y las figuras de delegado de prevención y de comité (arts. 37 a 39). Conviene memorizar el artículo 16 de la LOE y los apartados del artículo 8.1 del CTE.",
+      "Los errores habituales son cuatro. El primero es confundir el libro del edificio con el proyecto de ejecución: el libro recoge la documentación de la obra ejecutada y las instrucciones de mantenimiento. El segundo es atribuir la conservación solo al propietario, cuando el usuario también tiene obligaciones de uso. El tercero es suponer que el BIM tiene una norma general de obligado cumplimiento en el repositorio. El cuarto es confundir el delegado de prevención con el comité de seguridad y salud.",
+      "Para un caso práctico de un edificio de viviendas recién entregado, el orden de análisis es: comprobar que el libro del edificio contiene la documentación de la obra ejecutada (LOE, art. 7); verificar el plan de mantenimiento con su periodicidad (CTE, art. 8.1, apartado 3); informar al propietario de sus obligaciones de conservación (LOE, art. 16); y dejar constancia de la transmisión de la documentación para las garantías.",
+      "Para repasar el tema conviene estudiar el mantenimiento en tres niveles: el edificio (LOE y CTE), las instalaciones (cada reglamento con su periodicidad) y la Administración (LPRL y las figuras de prevención). Un examen que mezcla los tres niveles suele pedir la relación entre ellos: por ejemplo, el mantenimiento de un ascensor en un edificio público combina la revisión del RD 355/2024 con el deber de protección de los empleados públicos."
+     ]
+    },
+    {
+     "titulo": "9 bis. Relación con el tema de daños y de garantías",
+     "parrafos": [
+      "El mantenimiento y los daños son dos caras del mismo proceso. Un daño que aparece por falta de mantenimiento puede ser responsabilidad del propietario o del usuario, y no del agente de la edificación. Un daño que aparece por un defecto de proyecto o de ejecución puede ser responsabilidad de los agentes dentro de los plazos de la LOE (art. 17). El técnico debe distinguir ambos casos en su informe.",
+      "Esta distinción es la que el examen suele pedir: si la causa es el uso incompatible, el mantenimiento o el defecto de origen. La respuesta depende del registro del mantenimiento en el libro del edificio, que demuestra si el propietario cumplió sus obligaciones."
+     ]
+    },
+    {
+     "titulo": "10. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio: el artículo 7 de la LOE (apartados 1 a 3 en su texto), el artículo 8 de la LOE (en su enunciado), el artículo 16 de la LOE (apartados 1 y 2); el artículo 8 del CTE (apartados 1 a 3); el artículo 3, apartado 1, de la LPRL; los artículos 15, 16, 37, 38 y 39 de la LPRL en sus títulos o en su texto.",
+      "No se han leído en el texto completo el artículo 144 y el 145 de la LISTA, el reglamento de los servicios de prevención, la normativa de la Junta sobre sus propios servicios de prevención, las normas de contratación que exigen el BIM ni el anejo I del CTE.",
+      "La regulación concreta del BIM, del plan de prevención de la Administración andaluza y de la documentación del libro del edificio en los edificios de la Junta debe contrastarse con la norma vigente. Este tema no cita cifras de frecuencias de mantenimiento, porque dependen de cada elemento y del DB correspondiente.",
+      "Las periodicidades citadas en el tema proceden de los textos reglamentarios leídos en otros temas del programa. Antes de citarlas en un examen, deben contrastarse con la versión vigente de cada reglamento, porque los reglamentos de instalaciones se modifican con frecuencia."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-1999-21567.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/BOE-A-1995-24292.pdf",
+    "leyes/BOE-A-2021-20916.pdf"
+   ]
+  },
   "e20": {
    "resumen": [
     {
@@ -19080,6 +19548,1263 @@ window.DATOS_ESTUDIO = {
      "url": "https://www.boe.es/eli/es/rd/2006/03/17/314/con",
      "pdf": "leyes/BOE-A-2006-5515.pdf"
     }
+   ]
+  },
+  "e21": {
+   "resumen": [
+    {
+     "titulo": "Normativa de aplicación",
+     "puntos": [
+      "Tres niveles: el RD 505/2007 y la Orden TMA/851/2021 para el espacio público; el CTE (SUA) y el Decreto 293/2009 para los edificios; y la Ley 4/2017 de derechos y atención a las personas con discapacidad en Andalucía.",
+      "La Ley 4/2017 sustituyó a la Ley 1/1999, que se derogó con efectos de 24 de octubre de 2017 (según la búsqueda)."
+     ]
+    },
+    {
+     "titulo": "Definiciones",
+     "puntos": [
+      "Accesibilidad universal: condición de los entornos, procesos, bienes y servicios para ser comprensibles, utilizables y practicables por todas las personas, con seguridad y comodidad (Ley 4/2017, art. 4, letra j).",
+      "Diseño universal o diseño para todas las personas: concebir o proyectar desde el origen para que cualquier persona pueda utilizarlo sin adaptación (art. 4, letra l). Accesibilidad cognitiva: letra k."
+     ]
+    },
+    {
+     "titulo": "Edificación: Decreto 293/2009",
+     "puntos": [
+      "Usos de concurrencia pública (art. 62). Acceso principal accesible al mismo nivel de la cota exterior siempre que sea posible (art. 64, apartado 1, letra a).",
+      "Círculo libre de 1,20 metros en puertas (art. 65); vestíbulo con circunferencia de 1,50 metros (art. 66, apartado 1); pasillo de 1,20 metros (apartado 2); escalera de 1,20 metros (art. 70, apartado 2, letra a); cabina de ascensor de 1 por 1,25 metros (art. 74, letra a)."
+     ]
+    },
+    {
+     "titulo": "Seguridad de utilización",
+     "puntos": [
+      "La LOE exige que el uso normal del edificio no suponga riesgo de accidente (art. 3, apartado 1, letra b.3). El CTE (art. 12) fija las exigencias SUA 1 a SUA 9.",
+      "Altura libre de paso de 2,20 metros en zonas de circulación y de 2,10 metros en uso restringido (DB-SUA 2, apartado 1.1). Las barreras de protección miden 0,90 o 1,10 metros según la cota (DB-SUA 1, apartado 3.2.1)."
+     ]
+    },
+    {
+     "titulo": "Control y régimen sancionador",
+     "puntos": [
+      "Infracciones leves, graves y muy graves (Ley 4/2017, art. 84, apartado 1). Multas: leves de 301 a 30.000 euros; graves de 30.001 a 90.000; muy graves de 90.001 a 1.000.000 (art. 85, apartado 1).",
+      "Los planes de accesibilidad de la Junta y de los municipios se revisan al menos cada cinco años (art. 53)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LAND-4-2017",
+     "rol": "Derechos de las personas con discapacidad en Andalucía: definiciones de accesibilidad universal y diseño universal (art. 4), planes de accesibilidad (art. 53), infracciones y sanciones (arts. 84 y 85)"
+    },
+    {
+     "id": "DEC-AND-293-2009",
+     "rol": "Normas de accesibilidad en edificios de uso público: usos (art. 62), accesos (art. 64), dimensiones de puertas, vestíbulos, pasillos y escaleras (arts. 65, 66 y 70), ascensores (art. 74)"
+    },
+    {
+     "id": "CTE",
+     "rol": "Exigencias SUA de seguridad de utilización y accesibilidad (art. 12) y seguridad en la LOE (art. 3)"
+    },
+    {
+     "id": "RD-505-2007",
+     "rol": "Condiciones básicas de accesibilidad de los espacios públicos urbanizados (arts. 9 a 16)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la Ley 4/2017, art. 4, letra j, ¿qué es la accesibilidad universal?",
+     "opciones": [
+      "La condición de los entornos y servicios para ser comprensibles, utilizables y practicables por todas las personas",
+      "La facilidad de acceso solo para los vehículos",
+      "La altura libre de paso de un edificio",
+      "El precio de un billete de transporte"
+     ],
+     "correcta": 0,
+     "explicacion": "La accesibilidad universal es la condición que deben cumplir los entornos, procesos, bienes y servicios para ser comprensibles, utilizables y practicables por todas las personas, en condiciones de seguridad y comodidad (Ley 4/2017, art. 4, letra j).",
+     "referencia": "Ley 4/2017, art. 4, letra j)"
+    },
+    {
+     "pregunta": "Según la Ley 4/2017, art. 4, letra l, ¿qué es el diseño universal o diseño para todas las personas?",
+     "opciones": [
+      "Diseñar solo para las personas con movilidad reducida",
+      "Un tipo de pintura para señalización",
+      "Concebir y proyectar desde el origen los entornos para que puedan ser utilizados por todas las personas, sin adaptación ni diseño especializado",
+      "Adaptar un edificio después de terminada la obra"
+     ],
+     "correcta": 2,
+     "explicacion": "El diseño universal se concibe o proyecta desde el origen, en la mayor medida posible, para que pueda ser utilizado por todas las personas, sin necesidad de adaptación ni diseño especializado (art. 4, letra l).",
+     "referencia": "Ley 4/2017, art. 4, letra l)"
+    },
+    {
+     "pregunta": "Según la Ley 4/2017, art. 53, ¿cada cuánto tiempo deben revisarse y actualizarse los planes de accesibilidad, en su caso?",
+     "opciones": [
+      "Cada diez años",
+      "Nunca",
+      "Cada año",
+      "Cada cinco años"
+     ],
+     "correcta": 3,
+     "explicacion": "Los planes de accesibilidad deben revisarse y actualizarse, en su caso, cada cinco años (art. 53).",
+     "referencia": "Ley 4/2017, art. 53"
+    },
+    {
+     "pregunta": "Según la Ley 4/2017, art. 85, apartado 1, ¿qué multa corresponde a las infracciones muy graves en su grado máximo?",
+     "opciones": [
+      "De 90.001 a 300.000 euros",
+      "De 600.001 a 1.000.000 euros",
+      "De 30.001 a 90.000 euros",
+      "Hasta 30.000 euros"
+     ],
+     "correcta": 1,
+     "explicacion": "Las infracciones muy graves se sancionan, en su grado máximo, con multas de 600.001 a 1.000.000 de euros (art. 85, apartado 1, letra c).",
+     "referencia": "Ley 4/2017, art. 85, apartado 1, letra c)"
+    },
+    {
+     "pregunta": "Según el Decreto 293/2009, art. 65, apartado 1, letra a, ¿qué círculo libre debe existir a ambos lados de las puertas de acceso?",
+     "opciones": [
+      "De 1,20 metros",
+      "De 1,50 metros",
+      "De 2,00 metros",
+      "De 0,90 metros"
+     ],
+     "correcta": 0,
+     "explicacion": "A ambos lados de las puertas debe existir un espacio libre donde pueda inscribirse un círculo de 1,20 metros de diámetro, no barrido por las hojas (art. 65, apartado 1, letra a).",
+     "referencia": "Decreto 293/2009, art. 65, apartado 1, letra a)"
+    },
+    {
+     "pregunta": "Según el Decreto 293/2009, art. 70, apartado 2, letra a, ¿cuál es la anchura libre mínima del tramo de una escalera de comunicación de uso público?",
+     "opciones": [
+      "0,90 metros",
+      "1,00 metros",
+      "1,20 metros",
+      "1,50 metros"
+     ],
+     "correcta": 2,
+     "explicacion": "La anchura libre del tramo de las escaleras de comunicación de uso público es de 1,20 metros como mínimo (art. 70, apartado 2, letra a).",
+     "referencia": "Decreto 293/2009, art. 70, apartado 2, letra a)"
+    },
+    {
+     "pregunta": "Según el CTE, art. 12, apartado 1, ¿qué objetivo tiene la exigencia de seguridad de utilización y accesibilidad?",
+     "opciones": [
+      "Eliminar todo riesgo de caída en la vía pública",
+      "Fijar el color de la fachada",
+      "Limitar el número de ocupantes de cualquier edificio",
+      "Reducir a límites aceptables el riesgo de que los usuarios sufran daños inmediatos en el uso normal del edificio"
+     ],
+     "correcta": 3,
+     "explicacion": "El objetivo de la exigencia SUA es reducir a límites aceptables el riesgo de que los usuarios sufran daños inmediatos en el uso normal del edificio (CTE, art. 12, apartado 1).",
+     "referencia": "CTE, art. 12, apartado 1"
+    },
+    {
+     "pregunta": "Según el DB-SUA 2, apartado 1.1, punto 1, ¿cuál es la altura libre de paso en zonas de circulación?",
+     "opciones": [
+      "2,00 metros",
+      "2,10 metros en uso restringido y 2,20 metros en el resto",
+      "2,50 metros",
+      "3,00 metros"
+     ],
+     "correcta": 1,
+     "explicacion": "La altura libre de paso es de 2,20 metros en zonas de circulación y de 2,10 metros en uso restringido (DB-SUA 2, apartado 1.1, punto 1).",
+     "referencia": "DB-SUA 2, apartado 1.1, punto 1"
+    },
+    {
+     "pregunta": "Según la Ley 4/2017, art. 84, apartado 1, ¿cómo se clasifican las infracciones en materia de accesibilidad universal?",
+     "opciones": [
+      "En menores y mayores",
+      "En leves y graves",
+      "En leves, graves y muy graves",
+      "En veniales y mortales"
+     ],
+     "correcta": 2,
+     "explicacion": "Las infracciones en materia de igualdad de oportunidades, no discriminación y accesibilidad universal se clasifican en leves, graves y muy graves (art. 84, apartado 1).",
+     "referencia": "Ley 4/2017, art. 84, apartado 1"
+    },
+    {
+     "pregunta": "Según la Ley 4/2017, art. 2, apartado 1, ¿a quién se aplica la ley?",
+     "opciones": [
+      "A las personas con discapacidad con vecindad administrativa en Andalucía",
+      "Solo a los trabajadores de la Junta",
+      "Solo a los menores de edad",
+      "A todas las personas que viven en España, sin excepción"
+     ],
+     "correcta": 0,
+     "explicacion": "La ley se aplica a las personas con discapacidad con vecindad administrativa en Andalucía (art. 2, apartado 1).",
+     "referencia": "Ley 4/2017, art. 2, apartado 1"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Normativa de aplicación de la accesibilidad",
+     "parrafos": [
+      "La accesibilidad se regula en varios niveles. El primero es la normativa estatal sobre las condiciones básicas de accesibilidad de los espacios públicos urbanizados, el Real Decreto 505/2007, desarrollado técnicamente por la Orden TMA/851/2021 (tema de urbanizaciones). El segundo es la normativa de edificación del CTE, cuya exigencia básica SUA de seguridad de utilización y accesibilidad (art. 12) remite al DB-SUA, con su sección SUA 9 de accesibilidad. El tercero es la normativa autonómica andaluza, que comprende el Decreto 293/2009, de normas para la accesibilidad en las infraestructuras, el urbanismo, la edificación y el transporte, y la Ley 4/2017, de los derechos y la atención a las personas con discapacidad en Andalucía.",
+      "La Ley 4/2017 sustituyó a la Ley 1/1999, de atención a las personas con discapacidad en Andalucía, que se derogó con efectos de 24 de octubre de 2017 (según la búsqueda, por la disposición derogatoria única de la Ley 4/2017). Un examen que cite la Ley 1/1999 como vigente está desactualizado.",
+      "Según la búsqueda, el Decreto 293/2009 sustituyó al Decreto 72/1992, que establecía las normas técnicas de accesibilidad. Su texto del repositorio es el original de 2009, y su vigencia debe comprobarse con las modificaciones posteriores, porque la normativa de accesibilidad se ha desarrollado en sucesivas normas."
+     ]
+    },
+    {
+     "titulo": "2. Ámbito de aplicación y definiciones",
+     "parrafos": [
+      "La Ley 4/2017 define la accesibilidad universal como la condición que deben cumplir los entornos, procesos, bienes, productos y servicios, así como los objetos, instrumentos, herramientas y dispositivos, para ser comprensibles, utilizables y practicables por todas las personas, en condiciones de seguridad y comodidad y de la forma más autónoma y natural posible. Presupone la estrategia de diseño universal o diseño para todas las personas, y se entiende sin perjuicio de los ajustes razonables (art. 4, letra j).",
+      "El diseño universal o diseño para todas las personas es la actividad por la que se conciben o proyectan, desde el origen y en la mayor medida posible, entornos y productos de tal forma que puedan ser utilizados por todas las personas, sin necesidad de adaptación ni de diseño especializado. No excluye los productos de apoyo para grupos particulares de personas con discapacidad cuando lo necesitan (art. 4, letra l).",
+      "El ámbito del Decreto 293/2009 se extiende a las infraestructuras, al urbanismo, a la edificación y al transporte. En la edificación, el artículo 62 relaciona los usos de edificios de concurrencia pública a los que se aplica, y, según la búsqueda, dedica a las viviendas un capítulo propio. El decreto dispone que sus disposiciones son mínimos exigibles, sin perjuicio de mayores exigencias de otras normas (art. 11).",
+      "La definición de accesibilidad universal de la ley tiene tres exigencias que conviene recordar: que el entorno sea comprensible, utilizable y practicable. Comprensible se refiere a la información, utilizable al uso de los elementos y practicable al acceso físico. Un examen puede pedir cuál de las tres falta en un caso dado, por lo que cada una debe distinguirse con claridad."
+     ]
+    },
+    {
+     "titulo": "2 bis. Ámbito subjetivo y reconocimiento de la discapacidad",
+     "parrafos": [
+      "La Ley 4/2017 se aplica a las personas con discapacidad con vecindad administrativa en Andalucía (art. 2, apartado 1). Se consideran personas con discapacidad las definidas en los apartados 1 y 2 del artículo 4 del texto refundido de la Ley General de derechos de las personas con discapacidad, aprobado por el Real Decreto Legislativo 1/2013 (art. 2, apartado 2). La ley asimila a la discapacidad los estados previos, entendidos como procesos en evolución que pueden llegar a limitar la actividad, a efectos de reconocer los servicios de prevención (art. 2, apartado 3).",
+      "El procedimiento de reconocimiento, declaración y calificación de la discapacidad se rige por la legislación estatal (art. 3, apartado 1). La competencia para resolver las solicitudes de reconocimiento y calificación del grado de discapacidad corresponde a la Consejería competente en materia de servicios sociales (art. 3, apartado 2). La accesibilidad universal de la edificación no depende del reconocimiento individual: sus exigencias se aplican a todos los usuarios del edificio, con independencia de si una persona tiene reconocida una discapacidad."
+     ]
+    },
+    {
+     "titulo": "3. Diseño y ejecución: exigencias del Decreto 293/2009",
+     "parrafos": [
+      "El diseño de la accesibilidad se exige desde la planificación. El artículo 12 del decreto establece que la planificación, el diseño y la urbanización de las vías y de los espacios libres de uso público se realizarán de manera que resulten accesibles a las personas con discapacidad. La accesibilidad no es un añadido posterior, sino un criterio de proyecto desde su origen.",
+      "En la edificación, el decreto regula los accesos (art. 64), las puertas con el círculo de 1,20 metros (art. 65), los vestíbulos con la circunferencia de 1,50 metros (art. 66), los pasillos de 1,20 metros (art. 66, apartado 2), las escaleras de 1,20 metros (art. 70), las rampas (art. 72), los ascensores con el rectángulo de 1 por 1,25 metros (art. 74), los aseos de uso público (art. 77) y el mobiliario y los mecanismos de accionamiento (arts. 80 a 83).",
+      "La ejecución debe comprobar que las dimensiones del proyecto se mantienen en la obra. Un pasillo proyectado con 1,20 metros que se reduce en obra por una instalación vista incumple la exigencia, aunque el proyecto fuese correcto. El control de ejecución del CTE (art. 7.3) debe incluir la comprobación de las dimensiones de accesibilidad."
+     ]
+    },
+    {
+     "titulo": "3 bis. Diseño universal y ajustes razonables en la práctica",
+     "parrafos": [
+      "La Ley 4/2017 distingue el diseño universal de los ajustes razonables. El diseño universal se concibe desde el origen del proyecto, y no requiere adaptación posterior (art. 4, letra l). Los ajustes razonables son las adaptaciones que se hacen cuando el entorno existente no puede diseñarse desde el origen, y la definición de accesibilidad universal se entiende sin perjuicio de ellos (art. 4, letra j).",
+      "En la obra nueva, el diseño universal debe ser la regla, y los ajustes razonables la excepción. En la rehabilitación de un edificio existente, los ajustes razonables son más frecuentes, porque la estructura o la configuración del edificio pueden imponer límites. El proyecto debe justificar qué parte de la exigencia se cumple por diseño y qué parte por ajuste, y la justificación debe quedar en la documentación.",
+      "La accesibilidad cognitiva, definida en la letra k del artículo 4, es la que hace comprensibles los entornos, los procesos y los servicios para las personas con dificultades de comprensión. Se refleja en la señalización, en la información y en la claridad de los recorridos, y es una exigencia que el examen puede plantear junto a la accesibilidad física.",
+      "En la práctica profesional, la mejor forma de distinguir ambos conceptos es preguntar si la solución habría podido hacerse en el proyecto inicial sin coste desproporcionado. Si la respuesta es sí, se trata de diseño universal, y debe estar en el proyecto. Si no, se trata de un ajuste razonable, y debe justificarse. Esa pregunta es también la que el técnico debe responder en la memoria."
+     ]
+    },
+    {
+     "titulo": "4. Seguridad de utilización: las exigencias del DB-SUA",
+     "parrafos": [
+      "La exigencia SUA de seguridad de utilización y accesibilidad tiene por objeto reducir a límites aceptables el riesgo de que los usuarios sufran daños inmediatos en el uso normal del edificio (CTE, art. 12, apartado 1). El DB-SUA concreta esa exigencia en secciones, y el tema de carpinterías y elementos de protección ha estudiado sus valores: la altura libre de paso de 2,20 metros en zonas de circulación y de 2,10 metros en uso restringido, y las barreras de protección de 0,90 metros o de 1,10 metros según la diferencia de cota (DB-SUA 1, apartado 3.2.1).",
+      "En la seguridad de utilización, el DB-SUA 1 limita el resbalamiento de los suelos con una clasificación de resbaladicidad (tabla 1.2), y el DB-SUA 2 regula el impacto con elementos fijos y con puertas de vidrio, con el vidrio de nivel 3 en las partes vidriadas de puertas y duchas (apartado 1.3, punto 3). El DB-SUA 3 regula el aprisionamiento, con el desbloqueo desde el exterior de las puertas con bloqueo desde el interior.",
+      "La accesibilidad de la sección SUA 9 se relaciona con el Decreto 293/2009 en el mismo edificio. La norma estatal establece las condiciones de accesibilidad de la edificación, y la norma andaluza las concreta para los usos de concurrencia pública. Cuando las dos normas exigen valores distintos, debe aplicarse el más exigente, según la cláusula de mínimos del artículo 11 del decreto.",
+      "Las exigencias de seguridad de utilización no se agotan en las cifras de las secciones. El proyecto debe considerar también el mantenimiento de los elementos, porque un suelo que resbala por el desgaste o una barandilla suelta incumplen la exigencia con el uso."
+     ]
+    },
+    {
+     "titulo": "4 bis. La seguridad de utilización en la LOE y en el CTE",
+     "parrafos": [
+      "La LOE incluye la seguridad de utilización entre los requisitos básicos de la edificación, de tal forma que el uso normal del edificio no suponga riesgo de accidente para las personas (LOE, art. 3.1, letra b.3). Es el requisito que da fundamento a la exigencia SUA del CTE, y su alcance se extiende a los accidentes de uso ordinario: caídas, choques, atrapamientos y aprisionamientos.",
+      "El CTE desarrolla ese requisito en el artículo 12. El objetivo es reducir a límites aceptables el riesgo de que los usuarios sufran daños inmediatos en el uso normal del edificio, como consecuencia de las características de su proyecto, construcción, uso y mantenimiento (art. 12, apartado 1). Las exigencias SUA 1 a SUA 9 se enumeran en el artículo 12, y el DB-SUA las concreta (art. 12, apartado 2 y siguientes).",
+      "La accesibilidad de la sección SUA 9 es la que más relación guarda con el Decreto 293/2009: el DB-SUA fija las condiciones de accesibilidad de la edificación para el uso general, y el decreto autonómico completa esas condiciones para los usos de concurrencia pública. El proyecto debe cumplir ambas, y los valores más exigentes prevalecen."
+     ]
+    },
+    {
+     "titulo": "5. Planes de accesibilidad y medidas de fomento",
+     "parrafos": [
+      "La Ley 4/2017 obliga a la Administración de la Junta y a las administraciones locales a aprobar planes de accesibilidad para adecuar los entornos susceptibles de ajustes razonables a las exigencias normativas de accesibilidad. Los planes deben revisarse y actualizarse, en su caso, cada cinco años (art. 53).",
+      "La ley regula el acceso y la utilización de bienes y servicios a disposición del público (art. 50), las relaciones con las administraciones de Andalucía (art. 51), y el uso preferente de alojamientos y espacios accesibles (art. 54). La contratación pública puede incluir criterios de accesibilidad (art. 76), y la ley prevé el fomento de la accesibilidad (art. 77).",
+      "Las medidas de fomento incluyen la toma de conciencia social (art. 78) y la participación de la iniciativa social (art. 80). El Consejo Andaluz de Atención a las Personas con Discapacidad es el órgano de participación previsto en el artículo 79.",
+      "Los planes de accesibilidad son el instrumento con el que la Administración programa las adaptaciones de los entornos existentes. Su revisión cada cinco años permite incorporar las nuevas exigencias y las mejoras detectadas en el control, y los municipios deben integrarlos en su planificación urbanística (art. 53)."
+     ]
+    },
+    {
+     "titulo": "5 bis. Acceso a bienes y servicios al público",
+     "parrafos": [
+      "El artículo 50 de la Ley 4/2017 regula el acceso y la utilización de los bienes y servicios a disposición del público. Su apartado 1 establece que las máquinas expendedoras o suministradoras automáticas, en el sector público o en el privado, deben ser utilizables por las personas con discapacidad en condiciones de plena accesibilidad, autonomía, seguridad y comodidad.",
+      "Cuando la naturaleza de la máquina impide cumplir esa exigencia, la persona que vende al público debe contar con medios alternativos, materiales o humanos, que sustituyan a la máquina o ayuden a su correcta utilización, de modo que se garantice la plena accesibilidad del servicio (art. 50, apartado 2). Esta regla deja abierta la forma de cumplir la exigencia, pero no permite que el servicio sea inaccesible sin alternativa.",
+      "Para el arquitecto técnico que diseña un establecimiento con máquinas o con mostradores, la consecuencia es la misma: el espacio de maniobra delante de la máquina o del mostrador debe permitir su uso, o debe existir una alternativa humana o material que lo haga posible.",
+      "La regla de acceso de la Ley 4/2017 se combina con la de la accesibilidad física: un mostrador accesible en su altura no basta si el acceso al local no lo es. El examen puede plantear esa combinación, en la que cada exigencia debe cumplirse por separado y en conjunto."
+     ]
+    },
+    {
+     "titulo": "6. Control y seguimiento",
+     "parrafos": [
+      "El control de la accesibilidad se realiza en la licencia o declaración responsable del proyecto y en la inspección de la obra y del edificio terminado. La Ley 4/2017 regula la potestad sancionadora en el artículo 82, los órganos competentes y el procedimiento en el artículo 83, y los requerimientos de la Administración autonómica en el artículo 87.",
+      "La Junta de Andalucía dispone de un sistema de seguimiento de la ley, con una memoria anual (art. 72), y de estudios y estadísticas sobre las personas con discapacidad (art. 75). Esos instrumentos permiten que la Administración evalúe la aplicación real de la accesibilidad, más allá del cumplimiento formal de los proyectos.",
+      "El arquitecto técnico que participa en un proyecto debe conocer que la accesibilidad es objeto de control en varias fases: en la licencia, en la ejecución y en la inspección posterior. Un proyecto que cumple la norma en el papel puede incumplirla en la obra, y eso lo convierte en objeto de inspección.",
+      "Cuando la Administración autonómica detecta un incumplimiento, puede dirigir requerimientos para que el responsable lo corrija (Ley 4/2017, art. 87). El requerimiento es el paso previo al procedimiento sancionador, y su cumplimiento evita la sanción. Para el técnico, la respuesta al requerimiento es una actuación de proyecto: debe describir la solución adoptada y justificarla con las dimensiones del decreto."
+     ]
+    },
+    {
+     "titulo": "7. Régimen sancionador",
+     "parrafos": [
+      "La Ley 4/2017 clasifica las infracciones en materia de igualdad de oportunidades, no discriminación y accesibilidad universal en leves, graves y muy graves (art. 84, apartado 1). Entre las leves figura el incumplimiento de las obligaciones meramente formales establecidas en la ley y en sus normas de desarrollo (art. 84, apartado 1, número 1.º, letra a), y el incumplimiento de las normas sobre la tarjeta de aparcamiento para personas con movilidad reducida (letra b).",
+      "Las multas se gradúan en tres grados para cada clase de infracción (art. 85, apartado 1). Las leves van de 301 a 30.000 euros, según el grado mínimo, medio o máximo; las graves, de 30.001 a 90.000 euros; y las muy graves, de 90.001 a 1.000.000 de euros. Las infracciones por uso indebido de la tarjeta de aparcamiento tienen una sanción específica de retirada de la tarjeta (art. 85, apartado 2).",
+      "El plazo de prescripción de las sanciones se regula en el artículo 86. La competencia sancionadora y el procedimiento corresponden a los órganos que fija el artículo 83, en el marco del régimen de la potestad sancionadora del artículo 82."
+     ]
+    },
+    {
+     "titulo": "8. Relación con el urbanismo y la infraestructura",
+     "parrafos": [
+      "La accesibilidad se aplica también a las infraestructuras y al urbanismo. Las aceras, los pasos de peatones, las rampas de los vados y el mobiliario urbano se regulan en el Real Decreto 505/2007 y en la Orden TMA/851/2021, con las cifras de itinerario de 1,80 metros de anchura, de pendiente longitudinal de hasta 6 % y de rampa de 1,80 metros de anchura, que el tema de urbanizaciones ha estudiado.",
+      "En el planeamiento, la accesibilidad condiciona la trama urbana, los itinerarios que comunican los equipamientos y el acceso a las zonas verdes. La relación entre el planeamiento y la accesibilidad se estudia en el tema de legislación urbanística.",
+      "La relación entre urbanismo y edificación es la que el examen suele pedir: un edificio accesible en su interior no lo es si su acceso exterior no lo es. El itinerario peatonal exterior y el acceso al edificio forman una sola cadena de accesibilidad.",
+      "Un itinerario accesible debe mantener su continuidad desde la vía pública hasta el acceso del edificio. Cualquier discontinuidad, como un escalón suelto, una pendiente fuera de límite o un pavimento con resaltes, rompe la cadena y obliga a revisar el conjunto. El tema de urbanizaciones estudia los valores de esos elementos en el espacio público."
+     ]
+    },
+    {
+     "titulo": "8 bis. La accesibilidad en la rehabilitación y el mantenimiento",
+     "parrafos": [
+      "Las intervenciones en edificios existentes tienen una regla específica en el CTE: la intervención no puede reducir las condiciones preexistentes menos exigentes que las del documento básico, y las más exigentes solo pueden reducirse hasta los niveles del documento (CTE, art. 2.3). En la accesibilidad, esto significa que una rehabilitación no puede empeorar un itinerario que ya era accesible, aunque el edificio no cumpla hoy todas las exigencias nuevas.",
+      "El mantenimiento de la accesibilidad es una obligación del propietario y del usuario, en los términos de la LOE (art. 16). Un rebaje de bordillo que se deteriora, una rampa con pasamanos suelto o un ascensor sin revisión dejan de cumplir la exigencia aunque el proyecto fuera correcto. El plan de mantenimiento del CTE (art. 8.1, apartado 3) debe incluir esas revisiones.",
+      "Las exigencias de accesibilidad de la Ley 4/2017 se aplican también al mantenimiento, porque el artículo 53 obliga a revisar los planes de accesibilidad, al menos, cada cinco años. La revisión es una obligación de la Administración, y el examen puede preguntar por ese plazo."
+     ]
+    },
+    {
+     "titulo": "9. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir la definición de accesibilidad universal y de diseño para todas las personas (Ley 4/2017, art. 4, letras j y l), las infracciones y las cuantías del régimen sancionador (arts. 84 y 85), los planes de accesibilidad y su revisión cada cinco años (art. 53), y las dimensiones del Decreto 293/2009. Conviene memorizar las tres clases de infracciones y los grados de sanción.",
+      "Los errores habituales son cuatro. El primero es citar la Ley 1/1999 como vigente, cuando la Ley 4/2017 la ha sustituido. El segundo es confundir el diseño universal con los ajustes razonables: el diseño universal se concibe desde el origen, y los ajustes son las adaptaciones excepcionales. El tercero es olvidar que la accesibilidad del exterior forma parte del edificio. El cuarto es confundir el Decreto 293/2009 con el RD 505/2007, que se aplican a espacios distintos.",
+      "Para un caso práctico de un centro público de atención al ciudadano, el orden de análisis es: identificar el uso (art. 62 del decreto); comprobar el acceso exterior y el itinerario desde la vía pública; verificar las puertas, los pasillos, el mostrador y los aseos; comprobar la seguridad de utilización del CTE; y, si hay incumplimiento, valorar la infracción según la Ley 4/2017.",
+      "Para repasar el tema conviene estudiar la accesibilidad en cuatro niveles: el espacio público (RD 505/2007), el edificio (CTE y Decreto 293/2009), el uso y la seguridad (SUA) y el control (Ley 4/2017). Cada nivel tiene su norma, sus definiciones y su régimen sancionador, y el examen suele mezclarlos en un mismo caso práctico.",
+      "Un caso práctico típico es el de un centro público con un acceso escalonado, un aseo no accesible y un mostrador de atención a la altura de una silla de ruedas. El examen espera que el aspirante identifique el uso (art. 62 del decreto), exija el acceso principal accesible (art. 64), compruebe el aseo accesible (art. 77), valore el mostrador como elemento de equipamiento (arts. 80 a 82) y proponga la solución y el procedimiento de subsanación."
+     ]
+    },
+    {
+     "titulo": "10. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 4, letras j y l, de la Ley 4/2017; sus artículos 50 a 54, 72 a 79 (en sus títulos) y 82 a 87 (en sus títulos y en los artículos 84 y 85); el artículo 12 del Decreto 293/2009 (encabezado), el artículo 11 (encabezado), y los artículos 62, 64, 65, 66, 70, 72, 74 y 77 en lo ya leído; el artículo 12 del CTE (apartado 1) y las secciones del DB-SUA que se han estudiado en otros temas.",
+      "No se han leído en el texto completo los artículos 1 a 49 de la Ley 4/2017, los artículos 80 a 83 y 86 y 87, los artículos 67 a 107 del Decreto 293/2009, la Orden TMA/851/2021 en sus cifras, ni el DB-SUA 9 de accesibilidad. Tampoco se ha verificado la vigencia de las modificaciones posteriores de la Ley 4/2017.",
+      "Las cuantías de las sanciones, que se han citado de la Ley 4/2017 en su texto del repositorio, deben contrastarse con la versión vigente de la ley, porque el texto consolidado tiene fecha de última modificación de 16 de febrero de 2024. El decreto de 2009 puede haber sido modificado, según se ha indicado en el tema.",
+      "Las cifras de las sanciones y de los plazos son las del texto del repositorio. Se citan para estudiar el régimen, y no como garantía de vigencia. El examen debe citar la norma vigente en el momento de la pregunta."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2017-11910.pdf",
+    "leyes/DEC-AND-293-2009.pdf",
+    "leyes/BOE-A-2007-9607.pdf",
+    "leyes/DB-SUA.pdf"
+   ]
+  },
+  "e22": {
+   "resumen": [
+    {
+     "titulo": "Marco normativo",
+     "puntos": [
+      "La LOE (art. 3.1, letra b.2) exige que los ocupantes puedan desalojar el edificio en condiciones seguras, que se limite la extensión del incendio y que se permita la actuación de los equipos de extinción.",
+      "El CTE (art. 11) fija las exigencias SI 1 a SI 6 y remite al DB-SI los parámetros objetivos. El RD 513/2017 (RIPCI) regula el diseño, la instalación, el mantenimiento y las inspecciones de las instalaciones de protección."
+     ]
+    },
+    {
+     "titulo": "Medianerías y fachadas (SI 2)",
+     "puntos": [
+      "Las medianerías con otro edificio deben ser al menos EI 120 (SI 2, apartado 1, punto 1).",
+      "Distancias de separación entre puntos de fachada que no sean EI 60: 3,00 m para fachadas enfrentadas paralelas (0º), 2,00 m a 90º y 0,50 m a 180º (SI 2, apartado 1, punto 2)."
+     ]
+    },
+    {
+     "titulo": "Evacuación y ocupación (SI 3)",
+     "puntos": [
+      "La tabla 2.1 fija la densidad de ocupación: 20 m² por persona en plantas de vivienda y 3 m² en aseos de planta.",
+      "La tabla 3.1 relaciona el número de salidas de planta y la longitud de los recorridos con la ocupación; se admite una única salida con ocupación de hasta 100 personas, con excepciones (500 en edificios de viviendas, 50 en zonas con altura ascendente mayor de 2 m)."
+     ]
+    },
+    {
+     "titulo": "Instalaciones de protección (SI 4)",
+     "puntos": [
+      "Extintores portátiles de eficacia 21A-113B a no más de 15 m de recorrido desde todo origen de evacuación; bocas de incendio en zonas de riesgo especial alto; ascensor de emergencia por encima de 28 m de altura de evacuación; instalación automática de extinción por encima de 80 m (tabla 1.1).",
+      "El mantenimiento de las instalaciones lo realizan empresas mantenedoras habilitadas, con un seguro de responsabilidad civil de 800.000 euros por siniestro como mínimo (RIPCI, arts. 14 y 15)."
+     ]
+    },
+    {
+     "titulo": "Intervención de los bomberos (SI 5)",
+     "puntos": [
+      "Viales de aproximación de 3,5 m de anchura libre, 4,5 m de gálibo y 20 kN/m² de capacidad portante. Espacio de maniobra de 5 m en edificios de altura de evacuación mayor de 9 m, con separación del vehículo de 23 m, 18 m o 10 m según la altura del edificio (SI 5, apartado 1).",
+      "Huecos de fachada accesibles desde el exterior: alféizar a no más de 1,20 m del suelo de la planta, dimensiones de 0,80 m por 1,20 m y distancia máxima de 25 m entre huecos consecutivos (SI 5, apartado 2)."
+     ]
+    },
+    {
+     "titulo": "Resistencia al fuego y materiales (SI 6 y SI 1)",
+     "puntos": [
+      "Los elementos estructurales principales deben alcanzar la clase R de la tabla 3.1 según el uso y la altura de evacuación: R 60 en vivienda con altura de evacuación de hasta 15 m; R 120 en plantas de sótano de viviendas (SI 6, apartado 3).",
+      "Los acabados se clasifican por reacción al fuego (SI 1, tabla 4.1). Las puertas resistentes al fuego tienen cierre automático según UNE-EN 1154 (DB-SI, generalidades, puntos 3 y 4)."
+     ]
+    },
+    {
+     "titulo": "Mantenimiento e inspección",
+     "puntos": [
+      "Los equipos de protección activa se someten a revisiones de mantenimiento con los intervalos del anexo II, y las actas se conservan al menos cinco años (RIPCI, art. 21).",
+      "Inspección periódica por organismo de control acreditado, al menos cada diez años, con las excepciones del artículo 22, apartado 2 (vivienda, y usos con superficies inferiores a los límites)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LOE",
+     "rol": "Requisito básico de seguridad en caso de incendio (art. 3.1, letra b.2)"
+    },
+    {
+     "id": "CTE",
+     "rol": "Exigencias básicas SI 1 a SI 6 y objetivo del requisito (art. 11)"
+    },
+    {
+     "id": "DB-SI",
+     "rol": "Parámetros objetivos: propagación, evacuación, instalaciones, bomberos y resistencia al fuego (SI 1 a SI 6)"
+    },
+    {
+     "id": "RD-513-2017",
+     "rol": "Reglamento de instalaciones de protección contra incendios: empresas, mantenimiento e inspecciones (arts. 14, 15, 21, 22 y 23)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el CTE, art. 11.4, ¿cuál es el objetivo de la exigencia básica SI 4?",
+     "opciones": [
+      "Disponer de equipos e instalaciones que permitan la detección, el control y la extinción del incendio, y la transmisión de la alarma",
+      "Fijar la altura de las barandillas",
+      "Establecer el color de la señalización de evacuación",
+      "Limitar la propagación del incendio por el exterior"
+     ],
+     "correcta": 0,
+     "explicacion": "La exigencia SI 4 requiere equipos e instalaciones adecuados para la detección, el control y la extinción del incendio, y para transmitir la alarma a los ocupantes (CTE, art. 11.4).",
+     "referencia": "CTE, art. 11.4"
+    },
+    {
+     "pregunta": "Según el DB-SI, SI 5, apartado 1.1, ¿cuál es la anchura mínima libre de los viales de aproximación de los bomberos?",
+     "opciones": [
+      "7,2 m",
+      "2,5 m",
+      "3,5 m",
+      "5 m"
+     ],
+     "correcta": 2,
+     "explicacion": "La anchura mínima libre del vial de aproximación es de 3,5 m, con 4,5 m de gálibo y 20 kN/m² de capacidad portante (SI 5, apartado 1.1).",
+     "referencia": "DB-SI, SI 5, apartado 1.1"
+    },
+    {
+     "pregunta": "Según el DB-SI, SI 5, apartado 1.2, ¿cuál es la separación máxima del vehículo de bomberos a la fachada en edificios de más de 20 m de altura de evacuación?",
+     "opciones": [
+      "30 m",
+      "23 m",
+      "18 m",
+      "10 m"
+     ],
+     "correcta": 3,
+     "explicacion": "La separación máxima es de 23 m hasta 15 m de altura de evacuación, 18 m entre 15 y 20 m, y 10 m por encima de 20 m (SI 5, apartado 1.2, letra c). Los 30 m son la distancia máxima a los accesos (letra d).",
+     "referencia": "DB-SI, SI 5, apartado 1.2, letra c)"
+    },
+    {
+     "pregunta": "Según el DB-SI, SI 5, apartado 2, punto 1, letra a, ¿hasta qué altura puede estar el alféizar de los huecos de acceso a cada planta?",
+     "opciones": [
+      "0,80 m",
+      "1,20 m",
+      "1,80 m",
+      "2,20 m"
+     ],
+     "correcta": 1,
+     "explicacion": "El alféizar no debe estar a más de 1,20 m del nivel de la planta a la que se accede (SI 5, apartado 2, punto 1, letra a).",
+     "referencia": "DB-SI, SI 5, apartado 2, punto 1, letra a)"
+    },
+    {
+     "pregunta": "Según el DB-SI, SI 6, tabla 3.1, ¿qué clase de resistencia al fuego corresponde a los elementos estructurales de un uso residencial vivienda con altura de evacuación de hasta 15 m?",
+     "opciones": [
+      "R 60",
+      "R 90",
+      "R 180",
+      "R 30"
+     ],
+     "correcta": 0,
+     "explicacion": "Según la tabla 3.1, el uso residencial vivienda con altura de evacuación de hasta 15 m exige R 60.",
+     "referencia": "DB-SI, SI 6, tabla 3.1"
+    },
+    {
+     "pregunta": "Según el DB-SI, SI 2, apartado 1, punto 1, ¿qué resistencia al fuego deben tener como mínimo los elementos verticales separadores de otro edificio?",
+     "opciones": [
+      "EI 60",
+      "EI 90",
+      "EI 120",
+      "EI 30"
+     ],
+     "correcta": 2,
+     "explicacion": "Los elementos verticales separadores de otro edificio deben ser al menos EI 120 (SI 2, apartado 1, punto 1).",
+     "referencia": "DB-SI, SI 2, apartado 1, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-SI, SI 3, tabla 2.1, ¿qué densidad de ocupación se asigna a las plantas de vivienda?",
+     "opciones": [
+      "50 m² por persona",
+      "3 m² por persona",
+      "10 m² por persona",
+      "20 m² por persona"
+     ],
+     "correcta": 3,
+     "explicacion": "Las plantas de vivienda tienen una densidad de ocupación de 20 m² por persona; los aseos de planta, de 3 m² por persona (SI 3, tabla 2.1).",
+     "referencia": "DB-SI, SI 3, tabla 2.1"
+    },
+    {
+     "pregunta": "Según el DB-SI, SI 4, tabla 1.1, ¿a qué distancia máxima de recorrido desde todo origen de evacuación debe situarse un extintor portátil?",
+     "opciones": [
+      "10 m",
+      "15 m",
+      "25 m",
+      "50 m"
+     ],
+     "correcta": 1,
+     "explicacion": "El extintor portátil de eficacia 21A-113B debe estar a 15 m de recorrido como máximo desde todo origen de evacuación en cada planta (SI 4, tabla 1.1).",
+     "referencia": "DB-SI, SI 4, tabla 1.1"
+    },
+    {
+     "pregunta": "Según el RD 513/2017 (RIPCI), art. 22, apartado 1, ¿con qué periodo máximo deben solicitar los titulares la inspección de sus instalaciones de protección activa, salvo las excepciones del apartado 2?",
+     "opciones": [
+      "Cada año",
+      "Cada cinco años",
+      "Cada diez años",
+      "Cada veinte años"
+     ],
+     "correcta": 2,
+     "explicacion": "Los titulares deben solicitar, al menos cada diez años, a un organismo de control acreditado la inspección de sus instalaciones, con las excepciones del apartado 2 (art. 22, apartado 1).",
+     "referencia": "RD 513/2017, art. 22, apartado 1"
+    },
+    {
+     "pregunta": "Según el RD 513/2017 (RIPCI), art. 15, apartado 1, letra e, ¿cuál es la cuantía mínima del seguro de responsabilidad civil que deben tener las empresas mantenedoras por siniestro?",
+     "opciones": [
+      "800.000 euros",
+      "2.000.000 euros",
+      "80.000 euros",
+      "300.000 euros"
+     ],
+     "correcta": 0,
+     "explicacion": "Las empresas mantenedoras deben tener un seguro de responsabilidad civil u otra garantía equivalente con una cuantía mínima de 800.000 euros por siniestro (art. 15, apartado 1, letra e).",
+     "referencia": "RD 513/2017, art. 15, apartado 1, letra e)"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Marco normativo de la seguridad en caso de incendio",
+     "parrafos": [
+      "La seguridad en caso de incendio es uno de los requisitos básicos de la edificación. La LOE la recoge en su artículo 3.1, letra b.2: los ocupantes deben poder desalojar el edificio en condiciones seguras, debe limitarse la extensión del incendio dentro del propio edificio y en los colindantes, y debe permitirse la actuación de los equipos de extinción y rescate.",
+      "El CTE desarrolla ese requisito en su artículo 11. El objetivo es reducir a límites aceptables el riesgo de que los usuarios sufran daños derivados de un incendio de origen accidental, como consecuencia de las características del proyecto, la construcción, el uso y el mantenimiento (art. 11.1). Los edificios se proyectan, construyen, mantienen y utilizan de forma que, en caso de incendio, se cumplan las seis exigencias básicas SI 1 a SI 6 (art. 11.2).",
+      "El Documento Básico DB-SI especifica los parámetros objetivos y los procedimientos que aseguran el cumplimiento de esas exigencias (art. 11.3). Las seis exigencias son la propagación interior (SI 1), la propagación exterior (SI 2), la evacuación de ocupantes (SI 3), las instalaciones de protección contra incendios (SI 4), la intervención de los bomberos (SI 5) y la resistencia estructural al incendio (SI 6) (art. 11.1 a 11.6).",
+      "Las instalaciones de protección contra incendios se rigen además por el Reglamento de instalaciones de protección contra incendios, aprobado por el Real Decreto 513/2017, de 22 de mayo, que sustituyó al Real Decreto 1942/1993. El DB-SI remite a ese reglamento para el diseño, la ejecución, la puesta en funcionamiento y el mantenimiento de las instalaciones (DB-SI, SI 4, apartado 1, punto 1)."
+     ]
+    },
+    {
+     "titulo": "2. Exigencias en el proyecto: propagación, zonas de riesgo y estructura",
+     "parrafos": [
+      "El proyecto debe clasificar los locales y zonas de riesgo especial según la tabla 2.1 del DB-SI, en alto, medio o bajo, con los criterios que la misma tabla establece. Los locales de riesgo especial, y las zonas de uso diferente y subsidiario del principal que deban constituir un sector independiente, deben dotarse de las instalaciones que les correspondan, sin que en ningún caso la dotación sea inferior a la general del uso principal (SI 4, apartado 1, segundo párrafo).",
+      "Los sectores de incendio se limitan según la tabla 1.1 de la Sección SI 1. El DB-SI fija también los acabados de los techos y paredes de las zonas ocupables, y los de los suelos, con una clase de reacción al fuego en las zonas de evacuación más exigente que en el resto. Las puertas resistentes al fuego se regulan en la sección SI 1 y en su generalidad, con cierre automático según la norma UNE-EN 1154 y coordinación de hojas según la UNE-EN 1158 (DB-SI, generalidades, puntos 3 y 4).",
+      "La exigencia SI 6 se cumple cuando cada elemento estructural principal (forjados, vigas y soportes) alcanza la clase de resistencia al fuego que fija la tabla 3.1 del DB-SI, según el uso del sector y la altura de evacuación del edificio (SI 6, apartado 3, punto 1, letra a). La tabla exige, por ejemplo, R 120 en las plantas de sótano de los edificios de viviendas y R 60 en las plantas de altura de evacuación de hasta 15 m; y R 180 en los usos comercial, de pública concurrencia y hospitalario de más de 28 m de altura de evacuación.",
+      "La alternativa es demostrar que el elemento soporta la acción del incendio durante el tiempo equivalente de exposición del anejo B (SI 6, apartado 3, punto 1, letra b). El DB-SI emplea métodos simplificados de cálculo que se refieren a la curva normalizada tiempo-temperatura, y no considera la capacidad portante de la estructura tras el incendio (SI 6, apartados 1 y 3)."
+     ]
+    },
+    {
+     "titulo": "2 bis. Propagación exterior (SI 2)",
+     "parrafos": [
+      "La exigencia SI 2 limita la propagación del incendio por el exterior, tanto en el propio edificio como hacia otros edificios (CTE, art. 11.2). La sección SI 2 la desarrolla en dos planos: las medianerías y las fachadas (apartado 1), y las cubiertas (apartado 2).",
+      "Los elementos verticales separadores de otro edificio deben ser al menos EI 120 (SI 2, apartado 1, punto 1). Es la medida que impide que el incendio de un edificio pase al colindante por la medianería, y es la exigencia de mayor resistencia del apartado.",
+      "Para limitar la propagación horizontal entre dos sectores de incendio a través de la fachada, los puntos de la fachada que no sean al menos EI 60 deben estar separados una distancia d en proyección horizontal, que depende del ángulo α formado por los planos exteriores de las fachadas (SI 2, apartado 1, punto 2). Para fachadas enfrentadas y paralelas (α de 0º) la distancia es de 3,00 m; para 45º, 2,75 m; para 60º, 2,50 m; para 90º, 2,00 m; para 135º, 1,25 m; y para 180º, 0,50 m. Los valores intermedios se obtienen por interpolación lineal.",
+      "Cuando se trata de edificios diferentes y colindantes, los puntos de la fachada del edificio considerado que no sean EI 60 cumplen el 50 % de la distancia d hasta la bisectriz del ángulo formado por ambas fachadas (SI 2, apartado 1, punto 2). El criterio se aplica también cuando la fachada da a una escalera protegida o a un pasillo protegido desde otras zonas, o cuando una zona de riesgo especial alto está próxima a otras zonas.",
+      "En el proyecto, la separación de fachadas es una decisión de implantación. Un patio de luces estrecho entre dos bloques, o una fachada de un edificio nuevo muy próxima a otra existente, pueden obligar a elegir huecos de menor tamaño, a usar fachadas EI 60 en los puntos afectados o a cambiar la disposición de los sectores. Por eso la separación es un dato que el arquitecto técnico debe comprobar desde el replanteo."
+     ]
+    },
+    {
+     "titulo": "3. Evacuación de ocupantes",
+     "parrafos": [
+      "La sección SI 3 fija la ocupación de cada zona por su densidad de ocupación, con la tabla 2.1, y el número mínimo de salidas y la longitud máxima de los recorridos de evacuación con la tabla 3.1 (SI 3, apartado 1). La tabla 3.1 admite una única salida de planta o de recinto en los casos en que la ocupación no excede de 100 personas, con excepciones: 500 personas en el conjunto de un edificio de viviendas, 50 personas en zonas con altura de evacuación ascendente mayor de 2 m, y 50 alumnos en escuelas infantiles, de primaria o de secundaria.",
+      "En los edificios hospitalarios no se admite una única salida en las plantas de hospitalización o de tratamiento intensivo cuya superficie construida exceda de 90 m² (tabla 3.1, condiciones).",
+      "La evacuación se relaciona con la intervención de los bomberos, porque las salidas sirven también de acceso a los equipos de extinción. Un edificio cuyas escaleras protegidas no están a la vista del vehículo de bomberos, o cuyas salidas dan a un espacio sin maniobra, dificulta a la vez la evacuación y el rescate."
+     ]
+    },
+    {
+     "titulo": "2 ter. Densidades de ocupación y dimensionado de la evacuación",
+     "parrafos": [
+      "La sección SI 3 usa la densidad de ocupación de la tabla 2.1 para calcular cuántas personas puede albergar cada zona, y a partir de ella el número de salidas y el ancho de los medios de evacuación (SI 3, apartado 1, y tabla 3.1). La tabla 2.1 fija la ocupación por uso: en las zonas de ocupación ocasional y accesibles solo para mantenimiento, como las salas de máquinas o los locales de material de limpieza, la ocupación es nula; en los aseos de planta, 3 m² por persona; y en las plantas de vivienda, 20 m² por persona.",
+      "Los valores de la tabla 2.1 son el punto de partida del cálculo. Con ellos se obtiene la ocupación de cada sector, y la ocupación de una planta de viviendas se obtiene dividiendo la superficie útil entre 20 m² por persona. Un error frecuente es aplicar la densidad de viviendas a un local comercial o a un aula, cuya densidad es mucho mayor, lo que lleva a subestimar el número de salidas.",
+      "La tabla 3.1 relaciona el número de salidas de planta y la longitud máxima de los recorridos de evacuación con la ocupación. Las excepciones a la salida única, como los 500 ocupantes en un edificio de viviendas, los 50 en zonas con altura de evacuación ascendente superior a 2 m o los 50 alumnos de escuelas infantiles y de primaria, deben justificarse en el proyecto con el cálculo de la ocupación correspondiente. La evacuación de un edificio se diseña con esa ocupación, no con su superficie total."
+     ]
+    },
+    {
+     "titulo": "4. Instalaciones de protección contra incendios: dotación",
+     "parrafos": [
+      "La sección SI 4 fija en su tabla 1.1 la dotación mínima de instalaciones. En general, los edificios deben disponer de extintores portátiles, uno de eficacia 21A-113B, a no más de 15 m de recorrido en cada planta desde todo origen de evacuación (SI 4, tabla 1.1). Las bocas de incendio equipadas se exigen en las zonas de riesgo especial alto donde el riesgo se deba principalmente a materias combustibles sólidas. Los hidrantes exteriores se exigen si la altura de evacuación descendente excede de 28 m, si la ascendente excede de 6 m, o en los establecimientos de densidad de ocupación alta de entre 2.000 y 10.000 m² construidos.",
+      "El ascensor de emergencia se exige en las plantas cuya altura de evacuación exceda de 28 m. La instalación automática de extinción se exige, salvo otra indicación por el uso, en los edificios de altura de evacuación superior a 80 m, en las cocinas con potencia instalada por encima de un umbral (20 kW en uso hospitalario o residencial público, y 50 kW en otros usos) y en los centros de transformación con aparatos de aislamiento de punto de inflamación inferior a 300 ºC, con umbrales de potencia que la tabla indica.",
+      "Estas dotaciones deben diseñarse, instalarse, ponerse en servicio y mantenerse según el reglamento de instalaciones de protección contra incendios. El RIPCI establece que las empresas instaladoras y mantenedoras deben estar habilitadas ante el órgano de la comunidad autónoma (arts. 9 a 18), que las instalaciones deben someterse a las revisiones de mantenimiento del anexo II (art. 21, apartado 1), y que las actas de mantenimiento se conservan al menos cinco años (art. 21, apartado 2)."
+     ]
+    },
+    {
+     "titulo": "5. Intervención de los bomberos: acceso y entorno",
+     "parrafos": [
+      "La sección SI 5 garantiza la intervención de los equipos de rescate y extinción. Los viales de aproximación de los vehículos de bomberos deben tener una anchura mínima libre de 3,5 m, una altura mínima libre o gálibo de 4,5 m y una capacidad portante de 20 kN/m². En los tramos curvos, el carril de rodadura se define por una corona circular de radios mínimos 5,30 m y 12,50 m, con una anchura libre de 7,20 m (SI 5, apartado 1.1, puntos 1 y 2).",
+      "Los edificios con altura de evacuación descendente mayor de 9 m deben disponer de un espacio de maniobra a lo largo de la fachada de acceso con una anchura mínima libre de 5 m y altura libre igual a la del edificio. La separación máxima del vehículo a la fachada depende de la altura: 23 m en edificios de hasta 15 m, 18 m entre 15 y 20 m, y 10 m por encima de 20 m. La distancia máxima hasta los accesos del edificio es de 30 m, la pendiente máxima del 10 % y la resistencia al punzonamiento del suelo de 100 kN sobre 20 cm (SI 5, apartado 1.2, punto 1, letras a a f).",
+      "El espacio de maniobra debe mantenerse libre de mobiliario urbano, arbolado, jardines y mojones, y debe evitarse que los cables eléctricos aéreos o las ramas interfieran con las escaleras o las plataformas hidráulicas (SI 5, apartado 1.2, punto 3). Si el edificio tiene columna seca, debe haber acceso para el equipo de bombeo a menos de 18 m de cada punto de conexión, visible desde el camión de bombeo (SI 5, apartado 1.2, punto 4). Las vías de acceso sin salida de más de 20 m deben tener espacio suficiente para la maniobra de los vehículos (punto 5).",
+      "En zonas edificadas limítrofes o interiores a áreas forestales, debe existir una franja de 25 m libre de vegetación que pueda propagar el incendio, con un camino perimetral de 5 m; la zona debe tener preferentemente dos vías de acceso alternativas, y si solo hay una, debe terminar en un fondo de saco circular de 12,50 m de radio (SI 5, apartado 1.2, punto 6)."
+     ]
+    },
+    {
+     "titulo": "6. Accesibilidad por fachada",
+     "parrafos": [
+      "Las fachadas del apartado anterior deben tener huecos que permitan el acceso desde el exterior al personal de extinción. Cada planta debe ser accesible desde un hueco cuyo alféizar no esté a más de 1,20 m del nivel de la planta, con dimensiones mínimas de 0,80 m horizontal y 1,20 m vertical, y con una distancia máxima de 25 m entre los ejes verticales de dos huecos consecutivos (SI 5, apartado 2, punto 1, letras a y b).",
+      "No deben instalarse en la fachada elementos que dificulten el acceso al interior desde el exterior (SI 5, apartado 2, punto 1, letra c). Esta exigencia tiene consecuencias de diseño claras: las rejas de seguridad, los acristalamientos fijos y los paños de fachada cerrados deben compatibilizarse con los huecos de acceso de bomberos, y el diseño de las fachadas de planta baja y de los patios debe tenerlo en cuenta."
+     ]
+    },
+    {
+     "titulo": "7. Materiales, soluciones constructivas y medidas preventivas",
+     "parrafos": [
+      "Las zonas de riesgo especial clasificadas en la tabla 2.1 de la sección SI 1 deben separarse del resto del edificio con las resistencias al fuego que fija el DB, y los materiales de revestimiento se clasifican según su reacción al fuego (SI 1, tabla 4.1). El acabado de los techos y paredes de las zonas ocupables debe tener una clase C-s2,d0 o mejor, y el de los suelos una clase EFL, con las diferencias que la tabla 4.1 establece para los pasillos y escaleras protegidos y los aparcamientos.",
+      "La compartimentación en sectores de incendio es la medida que limita la propagación dentro del edificio, y su eficacia depende de que los elementos separadores mantengan su resistencia en toda su superficie, incluidos los pasos de instalaciones. Este punto no se ha desarrollado con la sección SI 1 completa, por lo que se presenta como principio.",
+      "En el uso y el mantenimiento, el DB exige que las puertas resistentes al fuego que deben permanecer cerradas dispongan de cierre automático, y que las instalaciones de protección se revisen en los plazos del reglamento. Las puertas que deben permanecer abiertas tienen un dispositivo de cierre automático en caso de incendio (DB-SI, generalidades, punto 4). Los establecimientos de más de 500 m² deben tener puertas de acceso EI2 30-C5 (DB-SI 1, tabla de puertas de establecimientos)."
+     ]
+    },
+    {
+     "titulo": "7 bis. Exigencias durante la ejecución de la obra",
+     "parrafos": [
+      "Las exigencias de seguridad en caso de incendio se comprueban también durante la ejecución. El CTE encarga al director de la ejecución controlar la ejecución de cada unidad de obra, verificando su replanteo, los materiales y la correcta disposición de los elementos constructivos y de las instalaciones (CTE, art. 7.3, apartado 1). En la práctica, esto significa comprobar que los sectores de incendio se ejecutan con su espesor y sus encuentros completos antes de que se cierren con los acabados.",
+      "El control de recepción de los productos (CTE, art. 7.2) exige la documentación del suministrador, la justificación de sus prestaciones y, cuando el proyecto lo requiere, los ensayos. En el caso de incendio, esto afecta a los productos con función de resistencia al fuego y a los revestimientos con clase de reacción exigida. La documentación de esos productos forma parte del libro del edificio (CTE, art. 8.1, apartado 2), y es la prueba que el técnico necesita en una inspección.",
+      "Una comprobación de obra habitual es el paso de instalaciones por los elementos de compartimentación: cada paso debe quedar sellado con un material que mantenga la resistencia del elemento. El control de ejecución debe registrar esos pasos en la documentación de la obra. Las mismas comprobaciones sirven para el uso y el mantenimiento, porque los sellados que se deterioran con las obras posteriores son una fuente frecuente de propagación del incendio."
+     ]
+    },
+    {
+     "titulo": "8. Inspección, mantenimiento y régimen sancionador",
+     "parrafos": [
+      "El RIPCI obliga a someter los equipos y sistemas de protección activa a revisiones de mantenimiento, con los intervalos máximos del anexo II (art. 21, apartado 1). El mantenimiento lo realizan empresas mantenedoras habilitadas por la comunidad autónoma, que deben cumplir requisitos de medios humanos, medios materiales, certificado de calidad y un seguro de responsabilidad civil de 800.000 euros por siniestro como mínimo (art. 15, apartado 1, letras b, d, e y f). El usuario que tenga medios suficientes puede adquirir la condición de mantenedor mediante declaración responsable (art. 14, apartado 2).",
+      "Los titulares de instalaciones de protección activa deben solicitar la inspección periódica a un organismo de control acreditado, al menos cada diez años, salvo en los usos y superficies exceptuados por el artículo 22, apartado 2: vivienda, uso administrativo, docente, comercial, pública concurrencia y aparcamiento por debajo de los límites de superficie que el precepto fija, siempre que no confluyan zonas de riesgo especial alto o de almacén.",
+      "El incumplimiento del reglamento se sanciona conforme al título V de la Ley 21/1992, de Industria, en la redacción dada por la Ley 32/2014 (art. 23). Las obligaciones del CTE en el uso y el mantenimiento completan este régimen: el edificio debe conservarse en condiciones de seguridad, y las instalaciones deben mantenerse conforme a las instrucciones del libro del edificio (CTE, art. 8.2)."
+     ]
+    },
+    {
+     "titulo": "9. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir las seis exigencias básicas del artículo 11 del CTE, los valores de la tabla 3.1 de resistencia al fuego, las dimensiones del viario de bomberos y la altura de los huecos de fachada, y la dotación de la tabla 1.1 de SI 4. Conviene memorizar las cifras de SI 5 (3,5 m, 4,5 m, 20 kN/m², 5 m de espacio de maniobra, 23/18/10 m de separación, 30 m de distancia) y los huecos de fachada (1,20 m, 0,80 m por 1,20 m, 25 m).",
+      "Los errores habituales son cuatro. El primero es confundir la resistencia R con la clase de reacción al fuego de los materiales: la R mide la capacidad portante ante el incendio, y la clase de reacción mide el comportamiento del revestimiento. El segundo es suponer que la intervención de bomberos depende solo del viario, cuando también depende de los huecos de fachada. El tercero es confundir el mantenimiento de las instalaciones con la inspección periódica, que son obligaciones distintas. El cuarto es dar por cumplido el DB-SI con la dotación de extintores, cuando la tabla 1.1 exige más instalaciones según la altura y el uso.",
+      "Para un caso práctico de un edificio de viviendas de ocho plantas, el orden de análisis es: determinar la altura de evacuación; fijar la clase de resistencia de los elementos estructurales con la tabla 3.1; verificar el espacio de maniobra y la separación del vehículo; comprobar los huecos de fachada cada 25 m; y revisar la dotación de extintores y de ascensor de emergencia si la altura lo exige."
+     ]
+    },
+    {
+     "titulo": "10. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio: el artículo 11 del CTE (apartados 1 a 3 y las exigencias SI 1 a SI 6); el artículo 3.1, letra b.2, de la LOE; el DB-SI en sus secciones SI 1 (generalidades, tabla 4.1 y tabla de puertas de establecimientos, en parte), SI 3 (tabla 2.1, tabla 3.1 en parte), SI 4 (tabla 1.1 y apartado 1), SI 5 (apartados 1 y 2) y SI 6 (apartados 1, 3 y tabla 3.1); y el RIPCI en sus artículos 14, 15, 21, 22 y 23 en el texto del BOE.",
+      "No se han leído en el texto completo las tablas 2.1 y 3.1 de la sección SI 3, el anejo B del DB-SI (tiempo equivalente de exposición), las secciones SI 2 y el resto del DB-SI, el anexo II del RIPCI, ni los artículos del RIPCI sobre productos y empresas instaladoras (arts. 4 a 13). Tampoco se ha comprobado si el DB-SI ha sido modificado desde la versión del repositorio.",
+      "Los umbrales de potencia de cocinas y centros de transformación se citan según la tabla 1.1 leída en el repositorio, y deben contrastarse con la tabla completa antes de citarlos en un examen. Una búsqueda indica que el Real Decreto 164/2025 modifica el RIPCI; no se ha leído ese real decreto, y el texto consolidado del repositorio tiene fecha de última modificación de 18 de marzo de 2023."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-1999-21567.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/DB-SI.pdf",
+    "leyes/BOE-A-2017-6606.pdf"
+   ]
+  },
+  "e23": {
+   "resumen": [
+    {
+     "titulo": "Marco normativo",
+     "puntos": [
+      "La LOE (art. 3.1.c) fija los requisitos de habitabilidad: protección contra el ruido (c.2), ahorro de energía y aislamiento térmico (c.3). El CTE desarrolla la protección frente al ruido en su artículo 14 (HR) y el ahorro de energía en su artículo 15 (HE).",
+      "La Ley 37/2003, del Ruido, fija los objetivos de calidad acústica y el régimen de las licencias de vivienda y las infracciones."
+     ]
+    },
+    {
+     "titulo": "Ley del Ruido: licencias e infracciones",
+     "puntos": [
+      "No pueden concederse licencias de vivienda, uso hospitalario, educativo o cultural si los índices de inmisión incumplen los objetivos de calidad acústica del área, salvo en zonas acústicas especiales, donde basta con el espacio interior (Ley 37/2003, art. 20, apartado 1).",
+      "Son infracciones muy graves, entre otras, el incumplimiento de las normas de protección de las edificaciones contra el ruido cuando se pone en peligro grave la salud o la seguridad (art. 28, apartado 2, letra d)."
+     ]
+    },
+    {
+     "titulo": "DB-HR: tipos de ruido y requisitos",
+     "puntos": [
+      "El CTE (art. 14.2) exige controlar el ruido aéreo, el ruido de impactos, el ruido y las vibraciones de las instalaciones, y limitar el ruido reverberante.",
+      "Las exigencias se aplican a los elementos totalmente acabados (DB-HR, apartado 2, punto 1). Límite de ruido de los equipos generadores de ruido estacionario en recintos colindantes (apartado 2.3, punto 2)."
+     ]
+    },
+    {
+     "titulo": "DB-HR: diseño de los elementos de separación",
+     "puntos": [
+      "Opción simplificada, válida para cualquier uso, u opción general, con el índice de ruido día Ld de la zona (DB-HR, apartado 3.1).",
+      "Tabla 3.2: valores mínimos de los parámetros acústicos de los elementos de separación verticales. Los elementos de tipo 1 se trasdosan por ambas caras (apartado 3.1.2.3.4)."
+     ]
+    },
+    {
+     "titulo": "Ahorro de energía: HE 0 a HE 5",
+     "puntos": [
+      "HE 0: limitación del consumo energético por zona climática y uso. HE 1: envolvente térmica. HE 2: instalaciones térmicas, según el RITE. HE 3: iluminación eficiente, con control de la ocupación y aprovechamiento de la luz natural. HE 4: ACS renovable. HE 5: generación eléctrica renovable (CTE, art. 15).",
+      "HE 4: el 70 % de la demanda anual de ACS debe cubrirse con renovables, que puede reducirse al 60 % si la demanda es inferior a 5.000 litros diarios. HE 5 se aplica a los edificios nuevos de más de 1.000 m² construidos."
+     ]
+    },
+    {
+     "titulo": "Transmitancia de la envolvente (HE 1)",
+     "puntos": [
+      "Ulim según la zona climática (α a E): muros en contacto con el aire exterior, de 0,80 a 0,37 W/m²K; cubiertas, de 0,55 a 0,33 W/m²K; huecos, de 3,2 a 1,80 W/m²K (DB-HE, tabla 3.1.1.a).",
+      "Huecos en zona A: 2,7 W/m²K; zona B: 2,3; zona C: 2,1; zona D: 1,8. Los límites son valores máximos por elemento."
+     ]
+    },
+    {
+     "titulo": "Ejecución, control y mantenimiento",
+     "puntos": [
+      "DB-HE: ejecución (apartados 5.3 y 6.1), control de recepción de productos, de ejecución y de obra terminada, y mantenimiento (apartado 6.4). El director de la ejecución controla la ejecución según el CTE (art. 7.1, apartado 4).",
+      "DB-HR: el edificio debe mantener las condiciones acústicas iniciales, y las reparaciones o sustituciones de materiales no pueden alterarlas (DB-HR, apartado 6)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LOE",
+     "rol": "Requisitos de habitabilidad: ruido, ahorro de energía y aislamiento térmico (art. 3.1, letras c.2 y c.3)"
+    },
+    {
+     "id": "CTE",
+     "rol": "Protección frente al ruido (art. 14) y ahorro de energía (art. 15); mantenimiento (art. 8)"
+    },
+    {
+     "id": "DB-HR",
+     "rol": "Exigencias acústicas: tipos de ruido, diseño de los elementos de separación, instalaciones y mantenimiento"
+    },
+    {
+     "id": "DB-HE",
+     "rol": "Ahorro de energía: transmitancias límite (HE 1), ACS renovable (HE 4), renovables eléctricas (HE 5)"
+    },
+    {
+     "id": "L-37-2003",
+     "rol": "Ley del Ruido: objetivos de calidad acústica, licencias de edificaciones e infracciones (arts. 20 y 28)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la LOE, art. 3.1, letra c.2, ¿qué pretende el requisito de protección contra el ruido?",
+     "opciones": [
+      "Que el ruido percibido no ponga en peligro la salud de las personas y les permita realizar sus actividades",
+      "Que el edificio sea completamente silencioso en todas las plantas",
+      "Que se prohíban los equipos de climatización",
+      "Que no exista ningún ruido en el edificio"
+     ],
+     "correcta": 0,
+     "explicacion": "El requisito busca que el ruido percibido no ponga en peligro la salud de las personas y les permita realizar satisfactoriamente sus actividades (LOE, art. 3.1, letra c.2).",
+     "referencia": "LOE, art. 3.1, letra c.2)"
+    },
+    {
+     "pregunta": "Según el CTE, art. 14.2, ¿cuál de los siguientes NO es uno de los tipos de ruido que los elementos constructivos deben controlar?",
+     "opciones": [
+      "El ruido de impactos",
+      "El ruido y las vibraciones de las instalaciones propias del edificio",
+      "El ruido del tráfico exterior de la ciudad",
+      "El ruido aéreo"
+     ],
+     "correcta": 2,
+     "explicacion": "El artículo 14.2 enumera el ruido aéreo, el de impactos, el de las instalaciones propias y la limitación del ruido reverberante. El tráfico exterior no figura en esa enumeración.",
+     "referencia": "CTE, art. 14.2"
+    },
+    {
+     "pregunta": "Según la Ley 37/2003, art. 20, apartado 1, ¿qué ocurre con las licencias de viviendas si los índices de inmisión incumplen los objetivos de calidad acústica del área?",
+     "opciones": [
+      "Se conceden solo si la vivienda tiene más de cinco plantas",
+      "Se conceden siempre que el promotor pague una multa",
+      "Se conceden igualmente sin condiciones",
+      "No pueden concederse, salvo en zonas de protección o de situación acústica especial"
+     ],
+     "correcta": 3,
+     "explicacion": "No pueden concederse nuevas licencias de viviendas, usos hospitalarios, educativos o culturales si incumplen los objetivos de calidad acústica, excepto en las zonas de protección y de situación acústica especial (art. 20, apartado 1).",
+     "referencia": "Ley 37/2003, art. 20, apartado 1"
+    },
+    {
+     "pregunta": "Según la Ley 37/2003, art. 28, apartado 2, letra d, ¿cómo se clasifica el incumplimiento de las normas de protección de las edificaciones contra el ruido cuando se pone en peligro grave la salud de las personas?",
+     "opciones": [
+      "Como infracción grave",
+      "Como infracción muy grave",
+      "No constituye infracción",
+      "Como infracción leve"
+     ],
+     "correcta": 1,
+     "explicacion": "El incumplimiento de las normas que establecen requisitos de protección de las edificaciones contra el ruido, cuando se pone en peligro grave la seguridad o la salud, es infracción muy grave (art. 28, apartado 2, letra d).",
+     "referencia": "Ley 37/2003, art. 28, apartado 2, letra d)"
+    },
+    {
+     "pregunta": "Según el CTE, art. 15, exigencia HE 4, ¿qué porcentaje mínimo de la demanda anual de agua caliente sanitaria debe cubrir la energía procedente de fuentes renovables?",
+     "opciones": [
+      "70 %",
+      "100 %",
+      "50 %",
+      "60 %"
+     ],
+     "correcta": 0,
+     "explicacion": "La contribución mínima de energía renovable para el ACS debe cubrir al menos el 70 % de la demanda anual, con la reducción al 60 % cuando la demanda es inferior a 5.000 litros diarios (DB-HE, HE 4, apartado 1).",
+     "referencia": "DB-HE, HE 4, apartado 1"
+    },
+    {
+     "pregunta": "Según el DB-HE, HE 4, apartado 1, ¿a qué porcentaje puede reducirse la contribución renovable de ACS cuando la demanda es inferior a 5.000 litros diarios?",
+     "opciones": [
+      "40 %",
+      "No puede reducirse",
+      "60 %",
+      "50 %"
+     ],
+     "correcta": 2,
+     "explicacion": "Cuando la demanda de ACS es inferior a 5.000 litros diarios, la contribución mínima puede reducirse al 60 % (DB-HE, HE 4, apartado 1).",
+     "referencia": "DB-HE, HE 4, apartado 1"
+    },
+    {
+     "pregunta": "Según el DB-HE, HE 5, apartado 1, ¿a partir de qué superficie construida se aplica la exigencia de generación eléctrica renovable en los edificios de nueva construcción?",
+     "opciones": [
+      "5.000 m²",
+      "100 m²",
+      "500 m²",
+      "1.000 m²"
+     ],
+     "correcta": 3,
+     "explicacion": "La exigencia HE 5 se aplica a los edificios de nueva construcción que superen los 1.000 m² construidos (DB-HE, HE 5, apartado 1).",
+     "referencia": "DB-HE, HE 5, apartado 1"
+    },
+    {
+     "pregunta": "Según el DB-HE, tabla 3.1.1.a, ¿cuál es la transmitancia térmica límite de los huecos en la zona climática A?",
+     "opciones": [
+      "3,2 W/m²K",
+      "2,7 W/m²K",
+      "2,3 W/m²K",
+      "1,8 W/m²K"
+     ],
+     "correcta": 1,
+     "explicacion": "El valor límite de transmitancia de los huecos en la zona A es de 2,7 W/m²K; el de la zona α, de 3,2 W/m²K (DB-HE, tabla 3.1.1.a).",
+     "referencia": "DB-HE, tabla 3.1.1.a"
+    },
+    {
+     "pregunta": "Según el DB-HE, tabla 3.1.1.a, ¿cuál es la transmitancia límite de los muros y suelos en contacto con el aire exterior en la zona climática E?",
+     "opciones": [
+      "0,56 W/m²K",
+      "0,49 W/m²K",
+      "0,37 W/m²K",
+      "0,80 W/m²K"
+     ],
+     "correcta": 2,
+     "explicacion": "En la zona E, el límite de muros y suelos en contacto con el aire exterior es de 0,37 W/m²K (DB-HE, tabla 3.1.1.a).",
+     "referencia": "DB-HE, tabla 3.1.1.a"
+    },
+    {
+     "pregunta": "Según el CTE, art. 15.4, exigencia HE 3, ¿qué debe permitir el sistema de control de la instalación de iluminación?",
+     "opciones": [
+      "Ajustar el funcionamiento de la iluminación a la ocupación real de la zona",
+      "Eliminar la iluminación natural",
+      "Mantener siempre la máxima potencia instalada",
+      "Encender toda la iluminación del edificio a la vez"
+     ],
+     "correcta": 0,
+     "explicacion": "La exigencia HE 3 requiere un sistema de control que permita ajustar el funcionamiento de la iluminación a la ocupación real de la zona, además de un sistema de regulación que aproveche la luz natural (CTE, art. 15.4).",
+     "referencia": "CTE, art. 15.4"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Marco normativo: LOE, CTE y ley del ruido",
+     "parrafos": [
+      "La LOE recoge tres requisitos básicos de habitabilidad que interesan a este tema: la protección contra el ruido, de tal forma que el ruido percibido no ponga en peligro la salud de las personas y les permita realizar satisfactoriamente sus actividades (art. 3.1, letra c.2); el ahorro de energía y el aislamiento térmico, de tal forma que se consiga un uso racional de la energía necesaria (letra c.3); y los demás aspectos funcionales de los elementos y las instalaciones (letra c.4). La LOE encomienda al CTE la fijación de las exigencias básicas de calidad de la edificación nueva y de las intervenciones en la existente (art. 3.1.c, apartado 2).",
+      "El CTE desarrolla esos requisitos en dos artículos. El artículo 14 regula la protección frente al ruido (HR): limitar, en condiciones normales de utilización, el riesgo de molestias o enfermedades causadas por el ruido (art. 14.1). Para ello, los elementos constructivos deben tener características acústicas adecuadas para reducir la transmisión del ruido aéreo, del ruido de impactos y del ruido de las instalaciones propias, y para limitar el ruido reverberante (art. 14.2). El artículo 15 regula el ahorro de energía (HE), con un uso racional de la energía y una parte del consumo procedente de fuentes renovables (art. 15.1).",
+      "La normativa estatal del ruido es la Ley 37/2003, de 17 de noviembre, del Ruido, que incorpora la Directiva 2002/49/CE, y sus reglamentos de desarrollo: el Real Decreto 1513/2005, sobre evaluación y gestión del ruido ambiental, y el Real Decreto 1367/2007, sobre zonificación acústica, objetivos de calidad y emisiones. La ley fija los objetivos de calidad acústica, las áreas acústicas y los valores límite; el DB-HR concreta las exigencias de los edificios. Los reglamentos de instalaciones térmicas (RITE) desarrollan la exigencia HE 2, como indica el propio CTE (art. 15.3)."
+     ]
+    },
+    {
+     "titulo": "2. Ley 37/2003 del Ruido: edificaciones y régimen sancionador",
+     "parrafos": [
+      "La Ley del Ruido regula la contaminación acústica, entendida como la presencia de ruido y de vibraciones en el ambiente, y establece los objetivos de calidad acústica por áreas acústicas (arts. 7 y 8). Los valores límite de inmisión y de emisión se fijan en el artículo 12, y la evaluación acústica en el artículo 13.",
+      "El artículo 20 de la ley conecta el ruido con la licencia de construcción: no pueden concederse nuevas licencias de edificaciones destinadas a viviendas, usos hospitalarios, educativos o culturales si los índices de inmisión incumplen los objetivos de calidad acústica del área, salvo en las zonas de protección acústica especial y de situación acústica especial, donde se exige cumplir el objetivo en el espacio interior (art. 20, apartado 1). Los ayuntamientos pueden conceder la licencia por razones excepcionales de interés público, siempre que se satisfagan los objetivos en el espacio interior (art. 20, apartado 2).",
+      "El régimen sancionador clasifica las infracciones en muy graves, graves y leves (art. 28, apartado 1). Son muy graves, entre otras, el incumplimiento de las normas sobre protección de las edificaciones contra el ruido cuando se pone en peligro grave la seguridad o la salud de las personas (art. 28, apartado 2, letra d). Son graves, entre otras, la superación de los valores límite cuando no hay daño grave, y la ocultación o alteración maliciosas de datos sobre la contaminación acústica aportados a los expedientes (art. 28, apartado 3, letras a y c). La potestad sancionadora y las sanciones se regulan en los artículos 29 y 30."
+     ]
+    },
+    {
+     "titulo": "3. DB-HR: caracterización y exigencias acústicas",
+     "parrafos": [
+      "El DB-HR define las exigencias a partir de los elementos constructivos totalmente acabados, es decir, con las instalaciones del edificio y con cualquier actuación que pueda modificar sus características acústicas (DB-HR, apartado 2, punto 1). El cumplimiento de sus exigencias garantiza la conformidad del edificio con los objetivos de calidad acústica del espacio interior que la Ley 37/2003 establece (DB-HR, apartado 2, punto 2). Esto significa que el proyecto debe considerar el acabado final, no el elemento desnudo: un forjado sin falso techo ni suelo flotante no tiene las prestaciones que el DB exige para el conjunto.",
+      "El DB-HR exige también la limitación del ruido reverberante de las zonas comunes, con elementos constructivos, acabados y revestimientos absorbentes en esas zonas (DB-HR, apartado 2.2, puntos 1 y 2). En el caso de los equipos, el nivel de potencia acústica máximo de los generadores de ruido estacionario situados en recintos de instalaciones, como calderas, bombas, ascensores, compresores o extractores, debe ser tal que se cumplan los niveles de inmisión en los recintos colindantes (DB-HR, apartado 2.3, punto 2). Los equipos situados en cubiertas y zonas exteriores tienen un límite propio para el entorno y los recintos habitables (DB-HR, apartado 2.3, punto 3).",
+      "Las instalaciones deben limitar también el ruido y las vibraciones que transmiten a los recintos protegidos y habitables, a través de sus sujeciones o puntos de contacto con los elementos constructivos (DB-HR, apartado 2.3, punto 1). La solución habitual es la separación con soportes antivibratorios y la conexión flexible de conductos y tuberías, que se verifican en la ejecución."
+     ]
+    },
+    {
+     "titulo": "4. DB-HR: diseño y dimensionado de los elementos de separación",
+     "parrafos": [
+      "El diseño del aislamiento puede hacerse por dos opciones. La opción simplificada da soluciones de aislamiento que cumplen las exigencias, y es válida para edificios de cualquier uso, aunque en la vivienda unifamiliar y en los edificios con estructura horizontal de cierto tipo tiene condiciones específicas (DB-HR, apartado 3.1, puntos 1 y 2). La opción general exige calcular el aislamiento con los parámetros de cada elemento y con el índice de ruido día, Ld, de la zona donde se ubica el edificio (DB-HR, apartado 3.1, punto 3).",
+      "Una solución de aislamiento es el conjunto de todos los elementos constructivos que conforman la separación entre dos recintos: el elemento de separación, las fachadas, los suelos y techos, las instalaciones y los trasdosados. Los elementos de separación verticales son las particiones que separan una unidad de uso de otra o de las zonas comunes, y los horizontales las que separan una unidad de uso de la siguiente en altura. La tabiquería es el conjunto de particiones interiores de una unidad de uso (DB-HR, apartado 3.1).",
+      "La tabla 3.2 expresa los valores mínimos que deben cumplir los parámetros acústicos de los elementos de separación verticales. Los valores entre paréntesis son los que deben cumplir los elementos que delimitan un recinto de instalaciones o de actividad. Las casillas sombreadas indican elementos inadecuados, y las casillas con guión, elementos que no necesitan trasdosado (DB-HR, tabla 3.2, apartado 3.1.2.3.4). Cuando el elemento de separación vertical es de tipo 1, el trasdosado se aplica por ambas caras del elemento base (punto 2).",
+      "La transmisión por flancos, es decir, por los elementos que rodean la separación, se limita en las fachadas y medianerías que se encuentran en la misma línea de la separación (DB-HR, apartado 3.1.2.3.4, punto 7). Por eso el aislamiento de una partición interior puede ser inútil si el forjado o la fachada contigua transmiten el ruido sin interrupción. El detalle del encuentro es, en consecuencia, tan importante como el espesor del elemento."
+     ]
+    },
+    {
+     "titulo": "3 bis. Tipos de ruido que regula el CTE",
+     "parrafos": [
+      "El artículo 14.2 del CTE enumera los tres tipos de ruido que el edificio debe controlar, además del ruido reverberante. El primero es el ruido aéreo, que se transmite por el aire desde un recinto emisor a otro receptor, como una conversación o un equipo de música. El segundo es el ruido de impactos, que se origina por el contacto directo con el elemento, como los pasos sobre un forjado o la caída de objetos. El tercero es el ruido y las vibraciones de las instalaciones propias del edificio, que se transmiten a través de las sujeciones y los puntos de contacto con la estructura.",
+      "Cada tipo exige una solución distinta. El aislamiento al ruido aéreo se logra con masa, con cámaras de aire y con elementos absorbentes; el ruido de impactos se controla con revestimientos resilientes y suelos flotantes; y el ruido de instalaciones se reduce con soportes antivibratorios, conexiones flexibles y limitación de la potencia de los equipos. El DB-HR da valores para cada uno, y el proyecto debe justificar los tres.",
+      "El ruido reverberante, por último, depende de la absorción de las superficies de la zona. El DB-HR limita el tiempo de reverberación en los espacios comunes, y para ello recurre a los acabados absorbentes en techos y paredes (DB-HR, apartado 2.2). Un vestíbulo de paredes y techos duros puede cumplir el aislamiento y, sin embargo, resultar muy ruidoso para sus usuarios. Por eso la reverberación es una exigencia distinta del aislamiento."
+     ]
+    },
+    {
+     "titulo": "5. Ahorro de energía: exigencias HE 0 a HE 5",
+     "parrafos": [
+      "El artículo 15 del CTE enuncia seis exigencias de ahorro de energía. HE 0 limita el consumo energético en función de la zona climática, el uso del edificio y, en los edificios existentes, el alcance de la intervención, y prevé que ese consumo se satisfaga en gran medida con fuentes renovables (CTE, art. 15.1). HE 1 exige una envolvente térmica que limite las necesidades de energía primaria para alcanzar el bienestar térmico (art. 15.2). HE 2 remite al RITE para las instalaciones térmicas (art. 15.3). HE 3 exige instalaciones de iluminación eficientes, con sistemas de control de la ocupación y de regulación con aprovechamiento de la luz natural (art. 15.4). HE 4 exige una contribución mínima de energía renovable al agua caliente sanitaria (art. 15.5). HE 5, por último, regula la generación de electricidad con fuentes renovables.",
+      "La exigencia HE 4 establece que la contribución mínima de energía renovable cubra al menos el 70 % de la demanda anual de ACS, que puede reducirse al 60 % cuando la demanda sea inferior a 5.000 litros diarios (DB-HE, HE 4, apartado 1). La exigencia HE 5 se aplica, entre otros casos, a los edificios de nueva construcción que superen los 1.000 m² construidos (DB-HE, HE 5, apartado 1)."
+     ]
+    },
+    {
+     "titulo": "4 bis. Iluminación y control de la demanda (HE 3)",
+     "parrafos": [
+      "La exigencia HE 3 pide instalaciones de iluminación adecuadas a las necesidades de los usuarios y eficaces desde el punto de vista energético (CTE, art. 15.4). Para ello, el edificio debe disponer de un sistema de control que ajuste el funcionamiento de la iluminación a la ocupación real de la zona, y de un sistema de regulación que aproveche la luz natural en las zonas que reúnan determinadas condiciones.",
+      "El DB-HE desarrolla HE 3 en cuatro apartados: la eficiencia energética de la instalación (3.1), la potencia instalada (3.2), los sistemas de control y regulación (3.3) y los sistemas de aprovechamiento de la luz natural (3.4). El criterio de diseño es que la iluminación se encienda donde hay personas y se atenúe cuando la luz natural basta, de manera que el consumo siga a la ocupación y no al horario.",
+      "Esta exigencia tiene su contrapartida en la seguridad de utilización y en la accesibilidad, porque la iluminación debe garantizar la visibilidad de las rutas de circulación. Un sistema de apagado automático que deja zonas de paso a oscuras puede cumplir HE 3 y, sin embargo, incumplir la exigencia SUA 4 de alumbrado, por lo que los dos requisitos deben revisarse juntos."
+     ]
+    },
+    {
+     "titulo": "6. Aislamiento térmico: envolvente, huecos y condensaciones",
+     "parrafos": [
+      "La HE 1 fija en su tabla 3.1.1.a la transmitancia térmica límite, Ulim, de cada elemento de la envolvente según la zona climática de invierno, de la α a la E. Para los muros y suelos en contacto con el aire exterior, el límite va de 0,80 W/m²K en la zona α a 0,37 W/m²K en la zona E; para las cubiertas en contacto con el aire exterior, de 0,55 a 0,33 W/m²K; y para los huecos, de 3,2 W/m²K en la zona α a 1,80 W/m²K en la zona E. La zona A tiene 2,7 W/m²K en huecos; la B, 2,3; la C, 2,1; y la D, 1,8 (DB-HE 1, tabla 3.1.1.a).",
+      "La HE 1 regula también el control solar de la envolvente (apartado 3.1.2), la permeabilidad al aire (apartado 3.1.3) y la limitación de descompensaciones entre espacios habitables (apartado 3.2). Las particiones interiores deben limitar la transferencia de calor entre unidades de uso y con las zonas comunes (CTE, art. 15.2).",
+      "La limitación de las condensaciones (apartado 3.3) es un contenido de la HE 1 que enlaza con la HS 1 de salubridad: el riesgo de condensación superficial e intersticial debe limitarse para que no se deterioren las prestaciones térmicas ni la vida útil de la envolvente (CTE, art. 15.2, tercer párrafo). Una capa de aislamiento mal situada, sin barrera de vapor en el lado cálido, puede producir condensación intersticial que el proyecto debe evitar.",
+      "Las carpinterías se caracterizan por su permeabilidad al aire, según la norma UNE-EN 12207, y el DB-HE exige la caracterización de los productos en su apartado 5.1 (DB-HE 1, apartado 5.1). La permeabilidad de la carpintería es una de las fuentes principales de pérdida de energía y de ruido, por lo que las dos exigencias se estudian juntas en la elección del hueco."
+     ]
+    },
+    {
+     "titulo": "5 bis. Zonas climáticas y límites de transmitancia",
+     "parrafos": [
+      "Los límites de la tabla 3.1.1.a no son iguales en todo el territorio. La zona climática de invierno se identifica con una letra, de la α a la E, y cada zona tiene su límite para cada elemento. Cuanto más fría es la zona, más exigentes son los límites: el muro en contacto con el aire exterior pasa de 0,80 W/m²K en la zona α a 0,37 W/m²K en la zona E, y los huecos, de 3,2 a 1,80 W/m²K en el mismo recorrido.",
+      "Para el proyecto, la zona climática determina qué espesores de aislamiento y qué carpinterías son necesarios. Un proyecto redactado en la zona D aplicado en la zona A tendría un exceso de aislamiento y un coste innecesario; uno redactado en la zona A aplicado en la E no cumpliría los límites. Por eso el proyecto debe indicar la zona de su ubicación, y el técnico debe verificar esa zona en la documentación de la licencia.",
+      "Los límites son valores máximos por elemento, no por edificio. Un edificio puede cumplir la transmitancia de los muros y, a la vez, tener huecos que superan el límite de la carpintería, lo que obliga a revisar la envolvente completa. El cumplimiento se justifica elemento por elemento, y la media del edificio no sirve para compensar un elemento que incumple."
+     ]
+    },
+    {
+     "titulo": "7. Ejecución, control y mantenimiento",
+     "parrafos": [
+      "El DB-HE dedica su apartado 6 a la ejecución, al control y al mantenimiento: la ejecución (6.1), el control de la ejecución de la obra (6.2), el control de la obra terminada (6.3) y el mantenimiento y conservación del edificio (6.4). La HE 1 tiene su correspondiente en el apartado 5, que trata de las características exigibles a los productos (5.1), a los componentes de la envolvente (5.2), la ejecución (5.3), el control de recepción de los productos (5.4), el control de la ejecución (5.5), el control de la obra terminada (5.6) y el mantenimiento (5.7).",
+      "El DB-HR tiene su propio apartado de construcción (apartado 5) y de mantenimiento (apartado 6). El apartado 6 exige que los edificios se mantengan de manera que se conserven en sus recintos las condiciones acústicas exigidas inicialmente, y que cuando se realice una reparación, modificación o sustitución de materiales se mantengan esas condiciones (DB-HR, apartado 6, punto 2). Un cambio de pavimento o la sustitución de una carpintería por otra más pesada, por ejemplo, puede alterar el aislamiento del recinto.",
+      "En la ejecución, las medidas preventivas más habituales son las de control de los encuentros, de los pasos de instalaciones y de la continuidad de las capas aislantes. El control de ejecución y el de la obra terminada los dirige el director de la ejecución de la obra, según las competencias del CTE (art. 7.1, apartado 4, letras b y c). Los productos aislantes se reciben con su documentación según el artículo 7.2 del CTE."
+     ]
+    },
+    {
+     "titulo": "8. Coherencia entre exigencias y criterios de diseño",
+     "parrafos": [
+      "Las exigencias de ruido, energía y salubridad se cruzan en el diseño. Una fachada muy aislada térmicamente, con carpinterías estancas, puede aumentar el riesgo de condensación y reducir la ventilación natural, lo que obliga a prever la ventilación mecánica o los aireadores (HS 3). Un forjado con suelo flotante mejora el ruido de impactos, pero debe mantener la continuidad del aislamiento térmico de la envolvente.",
+      "El criterio de diseño que resume esas relaciones es que cada exigencia se resuelve en el mismo elemento y en el mismo detalle. Una solución de fachada se verifica a la vez en su transmitancia, en su permeabilidad al aire, en su aislamiento acústico a ruido aéreo y en su resistencia a la condensación. Una partición se verifica en su aislamiento acústico y, si se trata de una separación entre unidades, en su transmisión de calor.",
+      "En el uso y el mantenimiento, las medidas preventivas más eficaces son las de conservar la continuidad de las capas, revisar las juntas de las carpinterías, mantener los equipos de las instalaciones con sus soportes antivibratorios y no modificar los elementos sin comprobar sus prestaciones. El artículo 8.2 del CTE exige el uso adecuado y el mantenimiento del edificio según sus instrucciones de uso, con el plan de mantenimiento del libro del edificio (CTE, art. 8.1, apartado 3)."
+     ]
+    },
+    {
+     "titulo": "9. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir los artículos del CTE (14 para el ruido, 15 para la energía), los seis apartados HE 0 a HE 5, los valores de la tabla 3.1.1.a de transmitancia y la distinción entre la opción simplificada y la general del DB-HR. También es frecuente pedir qué establece el artículo 20 de la Ley del Ruido sobre las licencias de vivienda.",
+      "Los errores habituales son cuatro. El primero es confundir Ulim, que es un valor límite de transmitancia, con el valor de la solución que se proyecta, que debe ser igual o menor. El segundo es afirmar que la exigencia de ahorro de energía se cumple solo con el espesor del aislamiento, cuando también intervienen los huecos, las instalaciones y las fuentes renovables. El tercero es confundir los límites de la HE 4, del 70 % y del 60 %. El cuarto es olvidar que el DB-HR se aplica a los elementos acabados, no al soporte.",
+      "Para un caso práctico de un edificio de viviendas en la zona climática C, el orden de análisis es: fijar los valores límite de la tabla 3.1.1.a para muros, cubiertas y huecos; comprobar los parámetros acústicos de los elementos de separación con la tabla 3.2; verificar que la contribución renovable del ACS alcanza el 70 % de la demanda; revisar que los equipos de la cubierta no superen el límite de su entorno; y documentar el cumplimiento en el libro del edificio.",
+      "Un consejo práctico para el examen es distinguir siempre las tres exigencias por su lugar en el edificio. El ruido se resuelve sobre todo en los elementos de separación y en las instalaciones; la energía, en la envolvente y en los sistemas de producción; y la coherencia entre ambas se juzga en los encuentros y en las carpinterías, que son los puntos donde ambas exigencias se cruzan."
+     ]
+    },
+    {
+     "titulo": "10. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 3.1, letras c.2 a c.4, y el artículo 3.1.c, apartado 2, de la LOE; los artículos 14 y 15 del CTE; el DB-HE en la tabla 3.1.1.a, en los apartados de HE 4 (apartado 1) y HE 5 (apartado 1), y en su estructura de apartados 3, 5 y 6; el DB-HR en su apartado 2 (puntos 1 y 2), el apartado 2.2 (reverberación), el apartado 2.3 (instalaciones, puntos 1 a 4), el apartado 3.1 (puntos 1 a 3), el apartado 3.1.2.3.4 (tabla 3.2 y flancos) y el apartado 6 (puntos 1 y 2); y la Ley 37/2003 en sus artículos 7, 8, 12, 13, 20 y 28 (en el texto consolidado de la fecha de la búsqueda).",
+      "No se han leído en el texto completo las tablas 3.1 y 3.2 del DB-HR (solo su encabezado y su regla de uso), los anejos del DB-HR, el RITE (el desarrollo de HE 2), las tablas 3.1.a y 3.1.b de HE 0, ni las exigencias HE 1 de control solar y permeabilidad en su texto completo. Tampoco se han leído los reales decretos 1513/2005 y 1367/2007.",
+      "El texto consolidado de la Ley 37/2003 del repositorio tiene fecha de última modificación de 7 de julio de 2011, según la búsqueda. La versión vigente puede haber cambiado, y la cifra de los valores límite de la tabla 3.1.1.a debe contrastarse con la versión vigente del DB-HE antes de citarla en un examen."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-1999-21567.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/DB-HE.pdf",
+    "leyes/DB-HR.pdf",
+    "leyes/BOE-A-2003-20976.pdf"
+   ]
+  },
+  "e24": {
+   "resumen": [
+    {
+     "titulo": "Marco normativo",
+     "puntos": [
+      "La LOE (art. 3.1, letra c.1) exige condiciones aceptables de salubridad y estanqueidad, que el edificio no deteriore su entorno y una adecuada gestión de los residuos.",
+      "El CTE (art. 13) enuncia seis exigencias, HS 1 a HS 6, y remite al DB-HS los parámetros objetivos. El RD 105/2008 regula los residuos de construcción y demolición."
+     ]
+    },
+    {
+     "titulo": "HS 1: protección frente a la humedad",
+     "puntos": [
+      "Las humedades pueden proceder de las precipitaciones, las escorrentías, el terreno o las condensaciones (CTE, art. 13.1). Muros y suelos en contacto con el terreno según la presencia de agua y la permeabilidad del terreno (DB-HS 1, apartado 2.1.1); fachadas según la zona pluviométrica y el viento; cubiertas con grado de impermeabilidad único.",
+      "Tabla 2.2: soluciones de muro por composición (C), impermeabilización (I), drenaje (D) y ventilación (V). En las cubiertas, la impermeabilización es la letra f de la enumeración del apartado 2.4.2."
+     ]
+    },
+    {
+     "titulo": "HS 2 y HS 3: residuos y calidad del aire",
+     "puntos": [
+      "HS 2: espacios y medios para extraer los residuos ordinarios de acuerdo con el sistema público de recogida, con separación en origen (CTE, art. 13.2).",
+      "HS 3: ventilación para eliminar los contaminantes del uso normal (CTE, art. 13.3, apartado 1). Los productos de combustión de las instalaciones térmicas se evacúan por la cubierta, con carácter general (art. 13.3, apartado 2)."
+     ]
+    },
+    {
+     "titulo": "HS 4: suministro de agua",
+     "puntos": [
+      "Presión mínima en los puntos de consumo de 100 kPa para los grifos y de 150 kPa para los fluxores; presión máxima de 500 kPa (DB-HS 4, apartado 2.1.3).",
+      "Caudales instantáneos de la tabla 2.1: lavabo 0,10 dm³/s; ducha 0,20; bañera de 1,40 m o más, 0,30; inodoro con fluxor, 1,25 dm³/s. Pruebas según UNE 100151:1988."
+     ]
+    },
+    {
+     "titulo": "HS 5: evacuación de aguas",
+     "puntos": [
+      "Cierres hidráulicos: sello de 50 mm en los de cierre continuo y de 70 mm en los discontinuos, con un máximo de 100 mm (DB-HS 5, apartado 3.3.1).",
+      "Colectores colgados con pendiente mínima del 1 % y registros cada 15 m. Prueba de estanquidad a 0,3–0,6 bar durante 10 minutos (apartado 5.6.1). Mantenimiento: limpieza de sumideros y revisión de colectores y arquetas (apartado 7)."
+     ]
+    },
+    {
+     "titulo": "HS 6: protección frente al radón",
+     "puntos": [
+      "Nivel de referencia para el promedio anual de concentración de radón en los locales habitables: 300 Bq/m³ (DB-HS 6, apartado 2, punto 1).",
+      "En las zonas I de los municipios del apéndice B, barrera de protección entre el terreno y los locales habitables, o cámara de aire que mitigue la entrada del gas (apartado 3, punto 1, letra a)."
+     ]
+    },
+    {
+     "titulo": "Residuos de construcción y demolición",
+     "puntos": [
+      "El estudio de gestión de residuos forma parte del proyecto de ejecución de la obra, con la estimación de cantidades en toneladas y en metros cúbicos y codificada por la lista europea (RD 105/2008, art. 4, apartado 1, letra a).",
+      "Las obligaciones del productor y del poseedor están en los artículos 4 y 5 del RD 105/2008; la entrega debe hacerse a un gestor autorizado."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LOE",
+     "rol": "Requisito de habitabilidad de salubridad y protección del medio ambiente (art. 3.1, letra c.1)"
+    },
+    {
+     "id": "CTE",
+     "rol": "Exigencias básicas HS 1 a HS 6 (art. 13); mantenimiento (art. 8.2)"
+    },
+    {
+     "id": "DB-HS",
+     "rol": "Parámetros objetivos de humedad, residuos, ventilación, agua, evacuación y radón (HS 1 a HS 6)"
+    },
+    {
+     "id": "RD-105-2008",
+     "rol": "Residuos de construcción y demolición: estudio de gestión, productor y poseedor (arts. 4 y 5)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el CTE, art. 13, ¿cuántas exigencias básicas de salubridad enumera el artículo?",
+     "opciones": [
+      "Seis, de HS 1 a HS 6",
+      "Ocho, de HS 1 a HS 8",
+      "Cuatro, de HS 1 a HS 4",
+      "Cinco, de HS 1 a HS 5"
+     ],
+     "correcta": 0,
+     "explicacion": "El artículo 13 del CTE enuncia las exigencias básicas HS 1 a HS 6: protección frente a la humedad, recogida de residuos, calidad del aire interior, suministro de agua, evacuación de aguas y protección frente al radón.",
+     "referencia": "CTE, art. 13"
+    },
+    {
+     "pregunta": "Según el DB-HS 1, tabla 2.2, ¿qué indica la letra D en la clasificación de las soluciones de muro?",
+     "opciones": [
+      "Composición del muro",
+      "Impermeabilización",
+      "Drenaje",
+      "Ventilación de la cámara"
+     ],
+     "correcta": 2,
+     "explicacion": "En la tabla 2.2, las soluciones de muro se codifican por la composición (C1 a C3), la impermeabilización (I1 a I3), el drenaje (D1 a D5) y la ventilación (V1).",
+     "referencia": "DB-HS 1, tabla 2.2"
+    },
+    {
+     "pregunta": "Según el CTE, art. 13.3, apartado 2, ¿por dónde se evacúan con carácter general los productos de la combustión de las instalaciones térmicas?",
+     "opciones": [
+      "Por los patios de luces interiores",
+      "Por el sótano",
+      "Por las fachadas a nivel de calle",
+      "Por la cubierta del edificio"
+     ],
+     "correcta": 3,
+     "explicacion": "La evacuación de los productos de combustión se produce con carácter general por la cubierta, con independencia del combustible y del aparato (CTE, art. 13.3, apartado 2).",
+     "referencia": "CTE, art. 13.3, apartado 2"
+    },
+    {
+     "pregunta": "Según el DB-HS 4, apartado 2.1.3, ¿cuál es la presión mínima en los puntos de consumo para los grifos?",
+     "opciones": [
+      "50 kPa",
+      "100 kPa",
+      "150 kPa",
+      "500 kPa"
+     ],
+     "correcta": 1,
+     "explicacion": "La presión mínima en los grifos es de 100 kPa, y de 150 kPa en los fluxores (DB-HS 4, apartado 2.1.3).",
+     "referencia": "DB-HS 4, apartado 2.1.3"
+    },
+    {
+     "pregunta": "Según el DB-HS 4, apartado 2.1.3, ¿cuál es la presión máxima admisible en la instalación de agua?",
+     "opciones": [
+      "500 kPa",
+      "1.000 kPa",
+      "150 kPa",
+      "300 kPa"
+     ],
+     "correcta": 0,
+     "explicacion": "La presión máxima admisible en los puntos de consumo es de 500 kPa (DB-HS 4, apartado 2.1.3).",
+     "referencia": "DB-HS 4, apartado 2.1.3"
+    },
+    {
+     "pregunta": "Según el DB-HS 5, apartado 3.3.1, ¿cuál es el sello de agua mínimo de un cierre hidráulico de cierre continuo?",
+     "opciones": [
+      "100 mm",
+      "25 mm",
+      "50 mm",
+      "70 mm"
+     ],
+     "correcta": 2,
+     "explicacion": "Los cierres hidráulicos de cierre continuo tienen un sello mínimo de 50 mm, y los de cierre discontinuo, de 70 mm, con un máximo de 100 mm (DB-HS 5, apartado 3.3.1).",
+     "referencia": "DB-HS 5, apartado 3.3.1"
+    },
+    {
+     "pregunta": "Según el DB-HS 5, apartado 3.3.1, ¿qué pendiente mínima tienen los colectores colgados?",
+     "opciones": [
+      "3 %",
+      "10 %",
+      "0,5 %",
+      "1 %"
+     ],
+     "correcta": 3,
+     "explicacion": "Los colectores colgados tienen una pendiente mínima del 1 %, con registros cada 15 m (DB-HS 5, apartado 3.3.1).",
+     "referencia": "DB-HS 5, apartado 3.3.1"
+    },
+    {
+     "pregunta": "Según el DB-HS 6, apartado 2, punto 1, ¿cuál es el nivel de referencia para el promedio anual de concentración de radón en los locales habitables?",
+     "opciones": [
+      "150 Bq/m³",
+      "300 Bq/m³",
+      "1.000 Bq/m³",
+      "100 Bq/m³"
+     ],
+     "correcta": 1,
+     "explicacion": "El nivel de referencia para el promedio anual de concentración de radón en el interior de los locales habitables es de 300 Bq/m³ (DB-HS 6, apartado 2, punto 1).",
+     "referencia": "DB-HS 6, apartado 2, punto 1"
+    },
+    {
+     "pregunta": "Según el RD 105/2008, art. 4, apartado 1, letra a, ¿dónde debe incluirse el estudio de gestión de residuos de construcción y demolición?",
+     "opciones": [
+      "En el certificado final de obra",
+      "En el libro de incidencias",
+      "En el proyecto de ejecución de la obra",
+      "En el acta de replanteo"
+     ],
+     "correcta": 2,
+     "explicacion": "El productor debe incluir en el proyecto de ejecución de la obra un estudio de gestión de residuos de construcción y demolición (RD 105/2008, art. 4, apartado 1, letra a).",
+     "referencia": "RD 105/2008, art. 4, apartado 1, letra a)"
+    },
+    {
+     "pregunta": "Según el DB-HS 6, apartado 3, punto 1, letra a, ¿qué solución se exige en los municipios de zona I?",
+     "opciones": [
+      "Una barrera de protección entre el terreno y los locales habitables, o una cámara de aire que mitigue la entrada del gas",
+      "Ninguna medida",
+      "Un sumidero en cada habitación",
+      "Una chimenea de ventilación en cada local"
+     ],
+     "correcta": 0,
+     "explicacion": "En los municipios de zona I se dispondrá una barrera de protección entre el terreno y los locales habitables, o alternativamente una cámara de aire que mitigue la entrada del gas radón (DB-HS 6, apartado 3, punto 1, letra a).",
+     "referencia": "DB-HS 6, apartado 3, punto 1, letra a)"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Marco normativo de la salubridad",
+     "parrafos": [
+      "La LOE recoge el requisito de higiene, salud y protección del medio ambiente entre los requisitos de habitabilidad. Su artículo 3.1, letra c.1, exige que se alcancen condiciones aceptables de salubridad y estanqueidad en el ambiente interior del edificio, que el edificio no deteriore el medio ambiente de su entorno inmediato y que se garantice una adecuada gestión de toda clase de residuos.",
+      "El CTE desarrolla ese requisito en su artículo 13, bajo el término salubridad. El objetivo es reducir a límites aceptables el riesgo de que los usuarios padezcan molestias o enfermedades dentro de los edificios, el riesgo de deterioro de los edificios y el riesgo de que deterioren el medio ambiente de su entorno inmediato (art. 13.1). Para ello, el artículo 13 enuncia seis exigencias, HS 1 a HS 6, y remite al DB-HS la especificación de los parámetros objetivos y de los procedimientos de verificación (art. 13.3 y siguientes).",
+      "Los residuos de construcción y demolición tienen además su norma específica, el Real Decreto 105/2008, que regula la producción y gestión de esos residuos y se aplica en lo no contemplado por la legislación general sobre residuos (RD 105/2008, art. 3, apartado 2). La Ley 22/2011 de residuos y suelos contaminados es la norma general. Los reglamentos de agua y de instalaciones térmicas completan el DB-HS en sus instalaciones."
+     ]
+    },
+    {
+     "titulo": "2. HS 1: protección frente a la humedad",
+     "parrafos": [
+      "La exigencia HS 1 limita el riesgo previsible de presencia inadecuada de agua o humedad en el interior de los edificios y en sus cerramientos, procedente de las precipitaciones, las escorrentías, el terreno o las condensaciones, disponiendo medios que impidan su penetración o permitan su evacuación sin daños (CTE, art. 13.1). Es la exigencia más extensa del DB-HS, y la que más condiciona el diseño de los encuentros.",
+      "En los muros y suelos en contacto con el terreno, el grado de impermeabilidad mínimo depende de la presencia de agua y de la permeabilidad del terreno (DB-HS 1, apartado 2.1.1, tabla 2.1). La tabla 2.2 reúne las soluciones de muro según su composición (C1 a C3), su impermeabilización (I1 a I3), su drenaje (D1 a D5) y su ventilación (V1). En las fachadas, el grado de impermeabilidad depende de la zona pluviométrica de promedios y del grado de exposición al viento (apartado 2.3.1), y la tabla 2.7 reúne las soluciones de fachada por sus capas (R, B, C, H, J y N). En las cubiertas, el grado de impermeabilidad es único (apartado 2.4.1).",
+      "Los puntos singulares son los encuentros donde el agua encuentra un camino: la unión de la fachada con la cubierta, con los forjados y con las carpinterías. El apartado 2.3.3 exige que se respeten las bandas de refuerzo y de terminación del sistema de impermeabilización (punto 1), y el apartado 2.3.3.1 exige juntas de dilatación en la hoja principal, con una distancia máxima que fija la tabla 2.1 del DB-SE-F para las fábricas (punto 1). El sellado de las juntas es, por tanto, una parte de la exigencia, no un detalle de acabado.",
+      "Las cubiertas se ordenan por la letra de su solución: el apartado 2.4.2 enumera las capas de la cubierta, de la letra a a la k, incluidas la impermeabilización (f), el tejado (j) y la evacuación del agua (k). Las pendientes mínimas se fijan en el apartado 2.4.3.1, con las tablas 2.9 y 2.10 del DB. Una cubierta plana con pendiente insuficiente es una de las causas más frecuentes de humedad en la última planta."
+     ]
+    },
+    {
+     "titulo": "2 bis. Criterios de diseño de muros, fachadas y cubiertas",
+     "parrafos": [
+      "El DB-HS 1 distingue en el muro tres funciones que deben resolverse por separado: la impermeabilización (I1 a I3), el drenaje (D1 a D5) y la ventilación (V1). La composición del muro (C1 a C3) condiciona cuál de ellas es necesaria. Un muro de hormigón de buena calidad no sustituye la impermeabilización si el terreno tiene agua, y una impermeabilización sin drenaje concentra la presión del agua en el paramento. Esta separación de funciones es el criterio de diseño que el examen suele pedir.",
+      "El proyectista elige la solución de la tabla 2.2 a partir del grado de impermeabilidad que exige el apartado 2.1.1, y debe justificar que la combinación de capas cumple ese grado. Cuando el terreno tiene una permeabilidad alta y hay agua presente, la solución exigirá drenaje y ventilación además de la impermeabilización. Cuando el terreno es poco permeable y no hay agua, la exigencia puede resolverse con menos capas, sin que eso sea una simplificación del criterio.",
+      "En las fachadas, el diseño parte de la zona pluviométrica y de la exposición al viento (apartado 2.3.1). La solución se elige en la tabla 2.7 por la combinación de capas: una hoja principal, una cámara, un aislamiento, una hoja exterior con revestimiento. El punto débil de la fachada es su encuentro con la cubierta, los forjados y los huecos, donde el DB exige las bandas de refuerzo y de terminación del sistema de impermeabilización (apartado 2.3.3, punto 1).",
+      "En las cubiertas, el grado de impermeabilidad es único (apartado 2.4.1), por lo que la diferencia entre soluciones se hace por el tipo de cubierta y por sus capas, enumeradas de la a a la k en el apartado 2.4.2. La pendiente es el primer criterio de diseño: una cubierta con pendiente insuficiente retiene el agua y concentra las filtraciones en los puntos de menor cota. Las tablas 2.9 y 2.10 fijan los valores de pendiente que el apartado 2.4.3.1 exige según el tipo de cubierta."
+     ]
+    },
+    {
+     "titulo": "3. HS 2: recogida y evacuación de residuos",
+     "parrafos": [
+      "La exigencia HS 2 exige que los edificios dispongan de espacios y medios para extraer los residuos ordinarios generados en ellos, de acuerdo con el sistema público de recogida, de manera que se facilite la separación en origen, la recogida selectiva y la gestión posterior (CTE, art. 13.2). El DB-HS 2 desarrolla la exigencia en tres bloques: el diseño y dimensionado (apartado 2), el mantenimiento y la conservación (apartado 3), y las generalidades (apartado 1).",
+      "En el diseño, el DB distingue el almacén de contenedores del edificio y su espacio de reserva (apartado 2.1), las instalaciones de traslado por bajantes (apartado 2.2) y los espacios de almacenamiento inmediato en las viviendas (apartado 2.3). ",
+      "El Real Decreto 105/2008 se relaciona con esta exigencia en la fase de obra. El productor de residuos de construcción y demolición debe incluir en el proyecto de ejecución un estudio de gestión de residuos, con una estimación de su cantidad en toneladas y en metros cúbicos, codificada según la lista europea de residuos, y con las medidas de prevención, las operaciones de reutilización, valorización o eliminación, y las medidas de separación en obra (RD 105/2008, art. 4, apartado 1, letra a, puntos 1 a 4)."
+     ]
+    },
+    {
+     "titulo": "4. HS 3: calidad del aire interior",
+     "parrafos": [
+      "La exigencia HS 3 exige medios para ventilar adecuadamente los recintos, eliminando los contaminantes que se producen de forma habitual durante el uso normal, con un caudal suficiente de aire exterior y una extracción y expulsión del aire viciado (CTE, art. 13.3, apartado 1). Además, la evacuación de los productos de la combustión de las instalaciones térmicas se produce, con carácter general, por la cubierta del edificio, con independencia del combustible (art. 13.3, apartado 2).",
+      "El DB-HS 3 regula el caudal de ventilación en la tabla 2.1 según el uso y el tipo de local, y el apartado 3.1.1 regula la ventilación de las viviendas: el aire fluye de los locales secos a los húmedos, con aberturas de admisión y de extracción dimensionadas en cada local. Los aireadores se sitúan a más de 1,80 m del suelo (DB-HS 3, apartado 3.1.1, punto 1, letra e), y las carpinterías deben caracterizarse por su permeabilidad al aire, según la norma UNE-EN 12207 (DB-HE 1, apartado 5.1).",
+      "La relación con el aislamiento es directa. Una envolvente muy estanca, exigida por el ahorro de energía, reduce la infiltración de aire, y por eso la ventilación debe prever de forma expresa las aberturas de admisión. Un edificio sellado sin ventilación mecánica ni aireadores produce condensaciones, moho y pérdida de calidad del aire interior."
+     ]
+    },
+    {
+     "titulo": "5. HS 4: suministro de agua",
+     "parrafos": [
+      "La exigencia HS 4 exige medios adecuados para suministrar agua apta para el consumo de forma sostenible, con caudales suficientes, sin alterar sus propiedades y evitando los retornos que puedan contaminar la red. También exige medios de ahorro y de control del caudal (CTE, art. 13.4, apartado 1). El apartado 2 exige que los equipos de producción de agua caliente con acumulación y los puntos terminales eviten el desarrollo de bacterias como la legionela.",
+      "El DB-HS 4 fija la calidad del agua con referencia a la normativa de aguas de consumo (apartado 2.1.1), la presión mínima en los puntos de consumo, que es de 100 kPa para los grifos y de 150 kPa para los fluxores, y una presión máxima de 500 kPa (apartado 2.1.3).",
+      "Los caudales instantáneos mínimos de la tabla 2.1 son de 0,10 dm³/s para el lavabo, 0,20 dm³/s para la ducha, 0,30 dm³/s para la bañera de 1,40 m o más, y 1,25 dm³/s para el inodoro con fluxor. Las velocidades de circulación en las tuberías están limitadas: entre 0,50 y 2,00 m/s para las metálicas y entre 0,50 y 3,50 m/s para las termoplásticas y las multicapa (apartado 4.2.1). Las pruebas de la instalación se realizan según la norma UNE 100151:1988 (apartado 5.2.1.1)."
+     ]
+    },
+    {
+     "titulo": "6. HS 5: evacuación de aguas",
+     "parrafos": [
+      "La exigencia HS 5 exige medios para extraer las aguas residuales generadas en el edificio, de forma independiente o conjunta con las precipitaciones y las escorrentías (CTE, art. 13.5). El DB-HS 5 regula la red de evacuación de aguas residuales y pluviales en sus apartados 3 (diseño), 4 (dimensionado), 5 (construcción), 6 (pruebas) y 7 (mantenimiento).",
+      "Los cierres hidráulicos (sifones) tienen un sello de agua de 50 mm en los aparatos de desagüe de cierre continuo y de 70 mm en los de cierre discontinuo, con un máximo de 100 mm y una corona de cierre inferior a 60 cm (DB-HS 5, apartado 3.3.1). Los colectores colgados tienen una pendiente mínima del 1 %, y se disponen registros cada 15 m. El dimensionado de las bajantes se hace con la tabla 4.4 del apartado 4.1.2, para una presión de 250 Pa.",
+      "Los sumideros se dimensionan con la tabla 4.6 del apartado 4.2.1 y los canalones con la tabla 4.7 del apartado 4.2.2, que da un caudal de 100 mm/h de precipitación en las condiciones de cálculo. Las pruebas de estanquidad de la red se hacen según el apartado 5.6.1, con una presión de 0,3 a 0,6 bar durante 10 minutos, y deben cubrirse el 100 % de las uniones. En el mantenimiento, el apartado 7 fija la limpieza de los sumideros cada seis meses o cada año, la revisión anual de los colectores suspendidos y la de las arquetas al pie de bajante cada diez años (DB-HS 5, apartado 7, punto 3)."
+     ]
+    },
+    {
+     "titulo": "5 bis. Criterios de diseño de las redes de agua y de evacuación",
+     "parrafos": [
+      "En la red de agua, el criterio de diseño es que la presión y el caudal lleguen a cada punto de consumo dentro de los límites del apartado 2.1.3, y que la velocidad del agua en las tuberías no sea tan alta que produzca ruido ni daños en la instalación. El DB fija velocidades distintas para las tuberías metálicas y para las termoplásticas o multicapa, y el diámetro de cada tramo se elige para cumplirlas con el caudal de cálculo.",
+      "En la red de evacuación, el criterio básico es que cada aparato tenga su cierre hidráulico. El sello de agua de los sifones impide el paso de gases y olores de la red a los locales habitables, y su altura depende del tipo de cierre (50 mm para el continuo y 70 mm para el discontinuo, con un máximo de 100 mm). Un sifón sin agua, por falta de uso, deja pasar los gases, y por eso el mantenimiento incluye la reposición del sello.",
+      "El segundo criterio es la pendiente de los colectores. Un colector colgado con pendiente del 1 % y registros cada 15 m permite la limpieza y evita la acumulación de sólidos. El DB distingue las redes separadas de aguas residuales y pluviales de las redes unitarias, y el proyecto debe indicar cuál se adopta, porque las bajantes y los colectores se dimensionan de forma distinta según el caso."
+     ]
+    },
+    {
+     "titulo": "7. HS 6: protección frente a la exposición al radón",
+     "parrafos": [
+      "La exigencia HS 6 exige medios adecuados para limitar el riesgo de exposición inadecuada al radón procedente del terreno en los recintos cerrados (CTE, art. 13.6). El DB-HS 6 se aplica a los edificios de nueva construcción situados en los municipios del apéndice B, a las ampliaciones (a la parte nueva), a los cambios de uso (a todo el edificio si es un uso característico, o a la zona afectada si solo afecta a una parte) y a las obras de reforma que aumenten la protección o alteren la inicial (DB-HS 6, apartado 1, punto 1).",
+      "El nivel de referencia para el promedio anual de concentración de radón en el interior de los locales habitables es de 300 Bq/m³ (DB-HS 6, apartado 2, punto 1). Para verificar el cumplimiento, los municipios se clasifican en zonas, y en las zonas I se exige una barrera de protección entre el terreno y los locales habitables (apartado 3, punto 1, letra a). La barrera puede sustituirse por una cámara de aire que mitigue la entrada del gas.",
+      "La sección prevé, además, el espacio de contención ventilado (apartado 3.2) y la despresurización del terreno (apartado 3.3) como otras soluciones de protección, con las condiciones de cada una. El radón es un gas de origen natural que no se percibe por los sentidos, y el DB regula el control de la obra terminada en su apartado 5.3."
+     ]
+    },
+    {
+     "titulo": "8. Exigencias durante la ejecución y el control",
+     "parrafos": [
+      "En la ejecución de la obra, el director de la ejecución controla cada unidad de obra verificando su replanteo, los materiales y la correcta disposición de los elementos constructivos y de las instalaciones (CTE, art. 7.3, apartado 1). En el ámbito de la salubridad, esto significa comprobar que las capas de impermeabilización, los drenajes, las juntas y los sellados se ejecutan con la continuidad prevista, antes de que queden ocultos por los acabados.",
+      "El control de recepción de los productos del DB-HS se apoya en la documentación del suministrador y en sus prestaciones (CTE, art. 7.2). Los productos de impermeabilización, los tubos de la red de evacuación, las tuberías de agua y los materiales de los sumideros se reciben con su documentación, y la documentación forma parte del libro del edificio (CTE, art. 8.1, apartado 2).",
+      "Las pruebas de la instalación son parte de la ejecución y de la recepción, y las pruebas de estanquidad de la red de evacuación (apartado 5.6.1 de HS 5) se hacen antes de cubrir las redes. Una prueba que se hace después de los acabados no detecta las fugas ocultas, y por eso el orden de ejecución es un criterio de salubridad."
+     ]
+    },
+    {
+     "titulo": "9. Uso, mantenimiento y conservación",
+     "parrafos": [
+      "El uso y el mantenimiento son el complemento de las exigencias de salubridad. El CTE exige que el edificio y sus instalaciones se utilicen de acuerdo con las instrucciones de uso, que los propietarios conserven el edificio en buen estado y que se documenten las intervenciones (CTE, art. 8.2). El plan de mantenimiento recoge las operaciones programadas del edificio y de sus instalaciones (CTE, art. 8.1, apartado 3).",
+      "Las secciones del DB-HS tienen un apartado de mantenimiento y conservación. En la HS 5, el apartado 7 fija la limpieza periódica de los sumideros y la revisión de los colectores y arquetas, como se ha visto. En la HS 6, el apartado 6 regula el mantenimiento de la protección frente al radón (DB-HS 6, apartado 6).",
+      "Las medidas preventivas más eficaces en el uso son las de no alterar las capas del edificio sin comprobar su efecto. Abrir un hueco en un muro, instalar un equipo en una cubierta o cambiar el uso de un local húmedo pueden alterar la salubridad del conjunto."
+     ]
+    },
+    {
+     "titulo": "10. Relación con el medio ambiente y con los residuos",
+     "parrafos": [
+      "El requisito de salubridad incluye la protección del medio ambiente en el entorno inmediato del edificio (LOE, art. 3.1, letra c.1). Por eso los vertidos de las redes de evacuación, las emisiones de las instalaciones térmicas y la gestión de los residuos de la obra son objeto de esta exigencia, y no solo de la normativa sectorial.",
+      "La gestión de los residuos de la obra se realiza según el Real Decreto 105/2008. El productor y el poseedor deben cumplir las obligaciones de los artículos 4 y 5 del RD 105/2008, y entregar los residuos a un gestor autorizado. El estudio de gestión de residuos del proyecto es el instrumento que prevé esa gestión desde el inicio.",
+      "El arquitecto técnico debe conocer también la diferencia entre la gestión de los residuos de la obra y la de los residuos del edificio terminado. Los primeros son los que genera la obra, y se regulan por el Real Decreto 105/2008; los segundos son los residuos domésticos del uso, y se rigen por el espacio de recogida del DB-HS 2 y por el sistema público de recogida municipal."
+     ]
+    },
+    {
+     "titulo": "11. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir las seis exigencias HS 1 a HS 6 del artículo 13 del CTE, los valores de presión y de caudal de HS 4, los valores de cierre hidráulico y de prueba de HS 5, el nivel de referencia de radón de HS 6 (300 Bq/m³) y el contenido del estudio de gestión de residuos del RD 105/2008. Conviene memorizar las cifras de HS 4 (100 kPa, 150 kPa, 500 kPa, 50 a 65 ºC) y de HS 5 (50 mm, 70 mm, 100 mm, 60 cm, 1 %, 15 m).",
+      "Los errores habituales son cuatro. El primero es confundir las exigencias HS 1 y HS 3: la humedad procede del agua, y la calidad del aire procede de los contaminantes del uso. El segundo es suponer que el grado de impermeabilidad de una cubierta depende de la zona pluviométrica, cuando es único. El tercero es confundir los cierres hidráulicos continuos y discontinuos. El cuarto es olvidar que el radón solo se verifica con medición en la obra terminada.",
+      "Para un caso práctico de un sótano con humedad en un muro, el orden de análisis es: identificar el origen (terreno, precipitaciones o condensación); determinar el grado de impermeabilidad según el apartado 2.1.1; revisar la solución del muro en la tabla 2.2 (composición, impermeabilización, drenaje y ventilación); comprobar el drenaje y su conexión con la red; y documentar la intervención en el libro del edificio.",
+      "Este tema se relaciona con el de daños y defectos de la edificación. Las humedades que el DB-HS 1 pretende evitar son la causa más frecuente de las patologías estudiadas en ese tema, y las garantías de la LOE (diez, tres y un año) son las que determinan a quién corresponde la reparación. Un examen que combine ambos temas suele preguntar por la causa del daño y por la exigencia del DB que no se cumplió."
+     ]
+    },
+    {
+     "titulo": "12. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio: el artículo 13 del CTE (apartados 1 a 6 en su enunciado) y el artículo 3.1, letra c.1, de la LOE; el DB-HS en las secciones HS 1 (apartados 2.1.1, 2.1.2, 2.3.1, 2.3.3, 2.3.3.1, 2.4.1, 2.4.2 y 2.4.3.1 en su encabezado), HS 2 (índice y apartado de contenido), HS 3 (apartado 3.1.1, letra e, y la tabla 2.1 en parte), HS 4 (apartados 2.1.1, 2.1.3, 4.2.1, 5.2.1.1 en el resumen de sus valores), HS 5 (apartados 3.3.1, 4.1.2, 4.2.1, 4.2.2, 5.6.1 y 7) y HS 6 (apartados 1, 2, 3 y 5.3, en su encabezado); y el RD 105/2008 en su artículo 4, apartado 1, letra a.",
+      "No se han leído en el texto completo las tablas del DB-HS 1 (2.1, 2.2, 2.7 y 2.9-2.10), el DB-HS 3 (tabla 2.1 completa), el DB-HS 4 (tablas de caudal y de dimensionado), ni el DB-HS 5 (tablas 4.4 a 4.7 completas). Tampoco se ha leído el Real Decreto 865/2003, sobre prevención y control de la legionelosis, que el DB-HS 4 cita en su apartado 7.3, ni el RD 140/2003, sobre calidad del agua de consumo.",
+      "La versión del DB-HS del repositorio cita el Real Decreto 450/2022 en su norma de aprobación. Los valores de presión y de caudal deben contrastarse con la versión vigente del DB antes de citarlos en un examen."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-1999-21567.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/DB-HS-salubridad.pdf",
+    "leyes/BOE-A-2008-2486.pdf"
    ]
   },
   "e25": {
@@ -22579,6 +24304,2188 @@ window.DATOS_ESTUDIO = {
      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
      "pdf": "leyes/BOE-A-2017-12902.pdf"
     }
+   ]
+  },
+  "e34": {
+   "resumen": [
+    {
+     "titulo": "Norma vigente",
+     "puntos": [
+      "La Ley 7/2021, de impulso para la sostenibilidad del territorio de Andalucía (LISTA) es la norma vigente. Deroga la Ley 7/2002 (LOUA) y la Ley 1/1994 de Ordenación del Territorio (disposición derogatoria única, apartado 2).",
+      "En el ámbito estatal, el TRLS (RDL 7/2015) fija las bases del régimen del suelo y de su valoración (art. 35)."
+     ]
+    },
+    {
+     "titulo": "Clases de suelo y contenido de la propiedad",
+     "puntos": [
+      "El suelo se clasifica en urbano y rústico (LISTA, art. 12). El suelo urbano lo forman los terrenos integrados en la malla urbana de viales, dotaciones y parcelas del núcleo (art. 13).",
+      "Derechos: disposición, uso, disfrute y explotación sostenible conforme a la clasificación; vuelo y subsuelo hasta donde determine el planeamiento (art. 16). Deberes: conservar, destinar al uso previsto y obtener la licencia o la declaración responsable antes de cualquier acto (art. 17, apartado 1)."
+     ]
+    },
+    {
+     "titulo": "Criterios y planeamiento urbanístico",
+     "puntos": [
+      "Criterios de la ordenación: desarrollo sostenible, ocupación racional del suelo, evitar la dispersión urbana y favorecer la rehabilitación y la economía circular (art. 61, apartado 1).",
+      "Contenido del Plan General de Ordenación Municipal: clasificación del suelo, categorías de suelo rústico, esquema de elementos estructurantes, bienes con singular protección y criterios para nuevos desarrollos (art. 63, apartado 1)."
+     ]
+    },
+    {
+     "titulo": "Ejecución y patrimonios públicos de suelo",
+     "puntos": [
+      "Sistemas de actuación: compensación (art. 101), cooperación (art. 106) y expropiación (art. 105). Agente urbanizador (art. 94). Reparcelación (art. 92).",
+      "Patrimonios públicos de suelo, autonómico y municipales, con finalidad de crear reservas de suelo (art. 127, apartado 1). Reservas de terrenos (art. 130); derecho de superficie (art. 131); tanteo y retracto (art. 132)."
+     ]
+    },
+    {
+     "titulo": "Expropiación por razón de urbanismo",
+     "puntos": [
+      "Supuestos: determinación del sistema de expropiación para una unidad de ejecución y destino de los terrenos a sistemas generales y locales (art. 119, apartado 1, letras a y b).",
+      "Procedimiento: tasación conjunta o expropiación individualizada, ordinaria o urgente, con las reglas de la legislación de expropiación forzosa (art. 120). Justiprecio conforme a la LEF, con fecha de iniciación del expediente (LEF, art. 36)."
+     ]
+    },
+    {
+     "titulo": "Licencia y declaración responsable",
+     "puntos": [
+      "Están sujetos a previa licencia las obras, construcciones, edificaciones, instalaciones, infraestructuras y usos del suelo, incluidos el subsuelo y el vuelo (art. 137, apartado 1).",
+      "Las obras de escasa entidad constructiva y sencillez técnica que no requieran proyecto están sometidas a declaración responsable o comunicación previa (art. 138, apartado 1, letra a)."
+     ]
+    },
+    {
+     "titulo": "Disciplina urbanística",
+     "puntos": [
+      "Restablecimiento de la legalidad: actuaciones sin título preceptivo (art. 151), con título habilitante (art. 156) y sometidas a declaración responsable (art. 157).",
+      "Infracciones leves, graves y muy graves (art. 161, apartado 1). Son leves, por ejemplo, el incumplimiento del deber de información y publicidad de las obras (art. 161, apartado 2, letra a). Multas en el artículo 162."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LISTA-7-2021",
+     "rol": "Ordenación territorial y urbanística vigente en Andalucía: suelo, planeamiento, ejecución, expropiación, licencias y disciplina (arts. 12, 16, 17, 61, 63, 119 a 120, 137, 138 y 161)"
+    },
+    {
+     "id": "TRLS-7-2015",
+     "rol": "Bases estatales del régimen del suelo y criterios de valoración (art. 35)"
+    },
+    {
+     "id": "LEF",
+     "rol": "Procedimiento expropiatorio y justiprecio a la fecha de iniciación del expediente (art. 36)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la disposición derogatoria única de la Ley 7/2021 (LISTA), ¿qué norma andaluza queda expresamente derogada en materia urbanística?",
+     "opciones": [
+      "La Ley 7/2002, de Ordenación Urbanística de Andalucía",
+      "La Ley 14/2007 del Patrimonio Histórico",
+      "La Ley 4/2017 de Discapacidad",
+      "La Ley 1/1991 de Patrimonio Histórico"
+     ],
+     "correcta": 0,
+     "explicacion": "La disposición derogatoria única, apartado 2, letra b, de la LISTA deroga expresamente la Ley 7/2002, de 17 de diciembre, de Ordenación Urbanística de Andalucía.",
+     "referencia": "LISTA, disposición derogatoria única, apartado 2, letra b)"
+    },
+    {
+     "pregunta": "Según la LISTA, art. 12, ¿en qué clases se divide el suelo a efectos de la ley?",
+     "opciones": [
+      "Residencial e industrial",
+      "Urbano, urbanizable y no urbanizable",
+      "Urbano y rústico",
+      "Público y privado"
+     ],
+     "correcta": 2,
+     "explicacion": "A efectos de la LISTA, el suelo se clasifica en suelo urbano y suelo rústico (art. 12).",
+     "referencia": "LISTA, art. 12"
+    },
+    {
+     "pregunta": "Según la LISTA, art. 13, ¿qué integra la malla urbana que caracteriza al suelo urbano?",
+     "opciones": [
+      "Las explotaciones agrícolas dispersas",
+      "Las concesiones de dominio público marítimo",
+      "Solo los jardines y los espacios naturales",
+      "Una red de viales, dotaciones y parcelas propias del núcleo o asentamiento de población"
+     ],
+     "correcta": 3,
+     "explicacion": "El suelo urbano lo forman los terrenos integrados en la malla urbana, constituida por una red de viales, dotaciones y parcelas propias del núcleo o asentamiento de población (art. 13, apartado 1).",
+     "referencia": "LISTA, art. 13, apartado 1"
+    },
+    {
+     "pregunta": "Según la LISTA, art. 61, apartado 1, ¿qué criterio debe procurar la ordenación urbanística?",
+     "opciones": [
+      "La dispersión urbana para aprovechar más suelo",
+      "Una ocupación racional y eficiente del suelo, con desarrollo sostenible",
+      "La eliminación de los espacios libres",
+      "La paralización de toda edificación nueva"
+     ],
+     "correcta": 1,
+     "explicacion": "La ordenación urbanística promoverá una ocupación racional y eficiente del suelo, evitando la dispersión urbana y favoreciendo la economía circular, en el marco de un desarrollo urbano y territorial sostenible (art. 61, apartado 1).",
+     "referencia": "LISTA, art. 61, apartado 1"
+    },
+    {
+     "pregunta": "Según la LISTA, art. 63, apartado 1, letra a, ¿cuál es uno de los elementos que comprende el modelo general de ordenación del Plan General de Ordenación Municipal?",
+     "opciones": [
+      "La clasificación del suelo, con la delimitación del suelo urbano y del suelo rústico",
+      "El precio de los terrenos en el mercado",
+      "La contratación de las obras municipales",
+      "El número de vehículos del municipio"
+     ],
+     "correcta": 0,
+     "explicacion": "El Plan General comprende, entre otros elementos, la clasificación del suelo con la delimitación del suelo urbano y del suelo rústico (art. 63, apartado 1, letra a).",
+     "referencia": "LISTA, art. 63, apartado 1, letra a)"
+    },
+    {
+     "pregunta": "Según la LISTA, art. 16, apartado 2, ¿hasta dónde alcanzan las facultades de la propiedad del suelo?",
+     "opciones": [
+      "Solo al edificio construido",
+      "Solo a la superficie del terreno",
+      "Al vuelo y al subsuelo hasta donde determinen los instrumentos de ordenación",
+      "Hasta el centro de la Tierra, sin límite"
+     ],
+     "correcta": 2,
+     "explicacion": "Las facultades de la propiedad del suelo alcanzan al vuelo y al subsuelo hasta donde determinen los instrumentos de ordenación, con las limitaciones y servidumbres que exija la protección del dominio público (art. 16, apartado 2).",
+     "referencia": "LISTA, art. 16, apartado 2"
+    },
+    {
+     "pregunta": "Según la LISTA, art. 119, apartado 1, letra b, ¿cuál es uno de los supuestos en que la expropiación por razón de urbanismo puede operar?",
+     "opciones": [
+      "La ampliación de una vivienda privada",
+      "El cambio de nombre de una calle",
+      "La compra de terrenos por un particular",
+      "El destino de los terrenos, por su calificación urbanística, a sistemas generales y locales o al dominio público de uso o servicio público"
+     ],
+     "correcta": 3,
+     "explicacion": "La expropiación puede operar cuando los terrenos, por su calificación urbanística, se destinan a sistemas generales y locales y, en general, al dominio público de uso o servicio público (art. 119, apartado 1, letra b).",
+     "referencia": "LISTA, art. 119, apartado 1, letra b)"
+    },
+    {
+     "pregunta": "Según la LISTA, art. 120, ¿qué opción tiene la Administración actuante en las expropiaciones derivadas de la ley?",
+     "opciones": [
+      "Solo puede expropiar por tasación conjunta",
+      "Puede optar entre la tasación conjunta y la expropiación individualizada, ordinaria o urgente",
+      "No puede expropiar, solo permutar",
+      "Solo puede expropiar en casos de urgencia"
+     ],
+     "correcta": 1,
+     "explicacion": "En todas las expropiaciones derivadas de la ley, la Administración actuante puede optar entre la tasación conjunta y la expropiación individualizada, ordinaria o urgente, conforme a la legislación de expropiación forzosa (art. 120).",
+     "referencia": "LISTA, art. 120"
+    },
+    {
+     "pregunta": "Según la LISTA, art. 137, apartado 1, ¿qué actuaciones están sujetas a previa licencia urbanística municipal?",
+     "opciones": [
+      "Solo las actuaciones en suelo rústico",
+      "Solo las obras de nueva planta de más de cien viviendas",
+      "Las obras, construcciones, edificaciones, instalaciones, infraestructuras y usos del suelo, incluidos el subsuelo y el vuelo",
+      "Ninguna actuación, porque todas son libres"
+     ],
+     "correcta": 2,
+     "explicacion": "Están sujetas a previa licencia urbanística municipal las obras, construcciones, edificaciones, instalaciones, infraestructuras y usos del suelo, incluidos el subsuelo y el vuelo, así como las divisiones, segregaciones y parcelaciones (art. 137, apartado 1).",
+     "referencia": "LISTA, art. 137, apartado 1"
+    },
+    {
+     "pregunta": "Según la LISTA, art. 161, apartado 1, ¿cómo se clasifican las infracciones urbanísticas?",
+     "opciones": [
+      "En leves, graves y muy graves",
+      "En veniales y mortales",
+      "En menores y mayores",
+      "En leves, medias y graves"
+     ],
+     "correcta": 0,
+     "explicacion": "Las infracciones urbanísticas y contra la ordenación del territorio se clasifican en leves, graves y muy graves (art. 161, apartado 1).",
+     "referencia": "LISTA, art. 161, apartado 1"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Marco legislativo: de la Ley 7/2002 a la Ley 7/2021",
+     "parrafos": [
+      "La legislación urbanística de Andalucía ha cambiado de forma reciente, y el examen debe reflejarlo. La Ley 7/2002, de 17 de diciembre, de Ordenación Urbanística de Andalucía (LOUA), fue la norma de referencia durante casi veinte años. La Ley 7/2021, de 1 de diciembre, de impulso para la sostenibilidad del territorio de Andalucía (LISTA) la ha sustituido: su disposición derogatoria única, apartado 2, letra b, deroga expresamente la Ley 7/2002, junto con la Ley 1/1994 de Ordenación del Territorio de Andalucía.",
+      "La LISTA es la norma vigente en la Comunidad Autónoma. Su texto consolidado del repositorio tiene fecha de última modificación de 7 de abril de 2026. Se organiza en un título preliminar y en títulos sobre el suelo, la ordenación territorial, la ordenación urbanística, la ejecución, la intervención en el mercado de suelo y la edificación, y la disciplina urbanística. Los artículos de este tema se citan según la LISTA, salvo cuando se indique la LOUA para contraste histórico.",
+      "En el ámbito estatal, el texto refundido de la Ley de Suelo y Rehabilitación Urbana, aprobado por el Real Decreto Legislativo 7/2015, de 30 de octubre (TRLS), fija las bases del régimen del suelo y de la valoración, que la comunidad autónoma debe respetar. La Ley de Expropiación Forzosa de 1954 (LEF) regula el procedimiento expropiatorio con carácter general, y la LISTA lo adapta a la expropiación por razón de urbanismo."
+     ]
+    },
+    {
+     "titulo": "2. Clases de suelo",
+     "parrafos": [
+      "A efectos de la LISTA, el suelo se clasifica en suelo urbano y suelo rústico (art. 12). El suelo urbano lo forman los terrenos integrados en la malla urbana, constituida por una red de viales, dotaciones y parcelas propias del núcleo o asentamiento de población, que cumplan alguna de las condiciones del artículo 13, como haber sido urbanizados en ejecución de los instrumentos de ordenación o estar consolidados por la edificación.",
+      "El suelo rústico es el que no reúne las condiciones del suelo urbano y está sujeto a protección o a un régimen específico, que el artículo 14 regula. La clasificación determina los derechos y deberes de la propiedad: el artículo 16 fija el contenido urbanístico general de la propiedad del suelo, con sus derechos generales, y el artículo 17 los deberes generales. Los artículos 18 y 19 distinguen los derechos y deberes del suelo urbano y del suelo rústico.",
+      "La clasificación del suelo es una decisión del planeamiento y no de la propiedad. Un terreno que el planeamiento clasifica como rústico no se convierte en urbano por la voluntad de su propietario, y la calificación urbanística de un terreno se fija en el instrumento de ordenación y no en el registro de la propiedad."
+     ]
+    },
+    {
+     "titulo": "2 bis. Contenido urbanístico de la propiedad del suelo",
+     "parrafos": [
+      "La LISTA define el contenido urbanístico de la propiedad del suelo en dos partes: los derechos generales y los deberes generales. El contenido de los derechos lo integra el derecho de disposición, uso, disfrute y explotación sostenible del suelo, conforme a su clasificación y destino en cada momento (art. 16, apartado 1). Las facultades de la propiedad alcanzan al vuelo y al subsuelo hasta donde determinen los instrumentos de ordenación, con las limitaciones y servidumbres que exija la protección del dominio público (art. 16, apartado 2).",
+      "El contenido de la propiedad incluye también el derecho a participar y, en su caso, a promover las actuaciones de transformación urbanística (art. 16, apartado 3). Este derecho es el que permite al propietario presentar un proyecto de reparcelación o de urbanización, dentro del sistema de actuación que la ley establezca.",
+      "Los deberes generales del propietario se enumeran en el artículo 17, apartado 1. Entre ellos están conservar y mantener el suelo y su masa vegetal en las condiciones que exija la ordenación (letra a), destinar los terrenos, construcciones y edificaciones al uso que prevea la ordenación y cumplir el deber legal de conservación (letra b), y solicitar y obtener las autorizaciones preceptivas, o formular la declaración responsable o la comunicación, antes de cualquier acto o uso del suelo (letra c).",
+      "La distinción entre derecho y deber es la base de la valoración del suelo del tema e38: el valor del suelo se determina por su clasificación y su destino, y no por la voluntad del propietario. Un terreno que no cumple el deber de conservación puede dar lugar a órdenes de ejecución, y su valor puede verse afectado por esa situación."
+     ]
+    },
+    {
+     "titulo": "2 ter. Criterios de la ordenación urbanística",
+     "parrafos": [
+      "El artículo 61 de la LISTA fija los criterios para la ordenación urbanística. El apartado 1 exige procurar un desarrollo urbano y territorial sostenible, con una ocupación racional y eficiente del suelo. Para ello, los instrumentos de ordenación general deben establecer directrices que eviten la dispersión urbana, revitalicen la ciudad existente y favorezcan la economía circular, fomentando la consolidación de los núcleos y la diversidad de usos mediante la mejora, la rehabilitación, la regeneración y la renovación urbanas.",
+      "El apartado 2 del mismo artículo exige que la ordenación, en relación con las dotaciones, tanto públicas (sistemas generales o locales) como privadas, dote al municipio de espacios libres y zonas verdes en proporción suficiente para el esparcimiento de la población y la mitigación de los efectos del clima (art. 61, apartado 2, letra a). Los nuevos crecimientos deben cumplir además lo que establece el artículo 31 sobre las actuaciones de nueva urbanización.",
+      "Estos criterios explican por qué el planeamiento general no se limita a clasificar el suelo. El urbanismo andaluz de la LISTA pone el acento en la ciudad existente, en la rehabilitación y en la sostenibilidad, y sus instrumentos deben justificar cómo cumplen esos criterios."
+     ]
+    },
+    {
+     "titulo": "3. La ordenación territorial y la ordenación urbanística",
+     "parrafos": [
+      "La LISTA distingue la ordenación territorial de la ordenación urbanística. La ordenación territorial tiene por objeto el territorio de Andalucía en su conjunto y se instrumenta en los planes de ordenación del territorio (arts. 33 y 34). La ordenación urbanística tiene por objeto el suelo de cada municipio y se regula en los artículos 60 y siguientes.",
+      "El artículo 60 establece los niveles e instrumentos de la ordenación urbanística, y el artículo 62 el contenido documental de los instrumentos. Los principales son el Plan General de Ordenación Municipal (art. 63), el Plan de Ordenación Intermunicipal (art. 64), el Plan Básico de Ordenación Municipal (art. 65), el Plan de Ordenación Urbana (art. 66), los Planes Parciales de Ordenación (art. 67), los Planes de Reforma Interior (art. 68), los Estudios de Ordenación (art. 69), los Planes Especiales (art. 70), los Estudios de Detalle (art. 71), los catálogos (art. 72), las ordenanzas municipales de edificación y de urbanización (art. 73) y las normas directoras (art. 74).",
+      "La jerarquía de los instrumentos es la que organiza la práctica. El planeamiento general (el Plan General o el instrumento equivalente) establece la ordenación estructural del municipio, y el planeamiento de desarrollo, como los planes parciales o los estudios de detalle, concreta la ordenación en cada sector o parcela. Los planes especiales atienden finalidades específicas, como la protección del patrimonio o la mejora del medio urbano."
+     ]
+    },
+    {
+     "titulo": "3 bis. Contenido del Plan General de Ordenación Municipal",
+     "parrafos": [
+      "El Plan General de Ordenación Municipal tiene por objeto establecer, en el marco de la ordenación territorial, el modelo general de ordenación del municipio (LISTA, art. 63, apartado 1). Ese modelo comprende cinco elementos: la clasificación del suelo, con la delimitación del suelo urbano y del suelo rústico (letra a); la delimitación y la normativa general de las categorías de suelo rústico, y en su caso de los ámbitos de hábitat rural diseminado (letra b); el esquema de los elementos estructurantes y del futuro desarrollo urbano, con los sistemas generales de espacios libres, de movilidad y de equipamientos, y las redes de infraestructuras (letra c); la delimitación de los bienes y espacios que deben contar con singular protección por su valor histórico, cultural, urbanístico o arquitectónico (letra d); y los criterios y directrices para los nuevos desarrollos (letra e).",
+      "La letra d) conecta el planeamiento con el patrimonio histórico del tema e39: el Plan General delimita los bienes que deben protegerse, y los catálogos (art. 72) los recogen con su régimen. Un bien de interés cultural inscrito en el Catálogo General del patrimonio debe reflejarse también en el planeamiento municipal, aunque su régimen de autorización se rija por la ley de patrimonio.",
+      "La clasificación del suelo, letra a), es la decisión más importante del Plan General, porque determina el régimen de la propiedad del tema, y las categorías de suelo rústico, letra b), determinan qué usos y edificaciones son admisibles fuera del núcleo urbano."
+     ]
+    },
+    {
+     "titulo": "4. Procedimiento de aprobación y vigencia del planeamiento",
+     "parrafos": [
+      "La LISTA regula la aprobación de los instrumentos de ordenación urbanística en los artículos 75 a 83: la competencia para aprobar cada instrumento (art. 75), la colaboración administrativa (art. 76), el avance y la consulta pública (art. 77), el procedimiento (art. 78), la aprobación definitiva (art. 79), la tramitación a iniciativa privada (art. 80), la publicidad (art. 82) y la publicación (art. 83).",
+      "La entrada en vigor de los instrumentos se regula en el artículo 84, y su vigencia y suspensión en el artículo 85. La innovación de los instrumentos es la modificación del planeamiento vigente (art. 86), y los textos refundidos recogen en un único texto las modificaciones aprobadas (art. 87). Un examen puede preguntar por la diferencia entre innovación y revisión, que la ley trata en sus artículos 58, 59 y 86."
+     ]
+    },
+    {
+     "titulo": "5. La ejecución del planeamiento",
+     "parrafos": [
+      "La ejecución urbanística se regula desde el artículo 88, con sus principios y el reparto de las esferas de actuación pública y privada (arts. 88 y 89). Las actuaciones de transformación urbanística, como la nueva urbanización o la reforma interior, tienen deberes específicos (arts. 24 a 32). La parcelación urbanística se regula en el artículo 91, y la reparcelación, que reparte los beneficios y las cargas entre los propietarios, en el artículo 92.",
+      "La ley regula los sistemas de actuación en los artículos 100 a 108: el sistema de compensación (art. 101), en el que los propietarios se agrupan en una junta de compensación (art. 103); el sistema de cooperación (art. 106), en el que la urbanización la asume el propietario con la Administración; y el sistema de expropiación (art. 105). El agente urbanizador, figura regulada en el artículo 94, puede ejecutar la urbanización en determinados supuestos.",
+      "Las obras de urbanización tienen también reglas de recepción y conservación: el proyecto de urbanización (art. 96), la recepción de las obras (art. 97) y el deber de conservación de las obras de urbanización (art. 98). La recepción por la Administración es el momento en que las obras pasan a ser de uso público y su conservación cambia de titular."
+     ]
+    },
+    {
+     "titulo": "6. Instrumentos de intervención en el mercado del suelo",
+     "parrafos": [
+      "La LISTA obliga a la Comunidad Autónoma y a los municipios a constituir y ejercer la titularidad de los patrimonios públicos de suelo, el autonómico y los municipales (art. 127, apartado 1). Su finalidad es, entre otras, crear reservas de suelo para actuaciones públicas (art. 127, apartado 1, letra a). El régimen de estos patrimonios, con la clasificación, los bienes y recursos que los integran y su destino, se regula en los artículos 127 a 129.",
+      "Los instrumentos de intervención incluyen las reservas de terrenos, que los instrumentos de ordenación pueden establecer en cualquier clase de suelo para la constitución o ampliación de los patrimonios públicos (art. 130). El derecho de superficie (art. 131) permite separar la propiedad del suelo de la del edificio, y los derechos de tanteo y retracto (art. 132) permiten a la Administración adquirir preferentemente los terrenos que se transmiten en áreas delimitadas.",
+      "La finalidad de estos instrumentos es evitar que la especulación encarezca el suelo destinado a vivienda protegida o a dotaciones públicas. Por eso la Administración puede preferir la adquisición de un terreno en el momento de su transmisión, y no solo expropiarlo después."
+     ]
+    },
+    {
+     "titulo": "7. La expropiación forzosa por razón de urbanismo",
+     "parrafos": [
+      "La LISTA regula la expropiación por razón de urbanismo en los artículos 119 a 126. El artículo 119 enumera los supuestos en que la expropiación puede operar. Entre ellos está la determinación del sistema de expropiación para una unidad de ejecución (art. 119, apartado 1, letra a), y el destino de los terrenos, por su calificación urbanística, a sistemas generales y locales y, en general, al dominio público de uso o servicio público (apartado 1, letra b).",
+      "El procedimiento se regula en el artículo 120, con la tasación conjunta (art. 121), la relación de propietarios y la descripción de los bienes (art. 122), y el justiprecio y el pago en especie, con el órgano competente para fijarlo (art. 123). La liberación de la expropiación se regula en el artículo 124, y la reversión y la retasación de los bienes en el artículo 125. Los beneficiarios de la expropiación se regulan en el artículo 126.",
+      "El justiprecio de la expropiación urbanística se rige por la LEF en lo no previsto por la LISTA. La fecha de referencia es la de iniciación del expediente, y las plusvalías derivadas del propio planeamiento expropiante no se toman en cuenta (LEF, art. 36, apartado 1). Este criterio enlaza la expropiación con la valoración del tema e38."
+     ]
+    },
+    {
+     "titulo": "7 bis. Procedimientos de la expropiación urbanística",
+     "parrafos": [
+      "La LISTA permite a la Administración actuante optar, en cualquier expropiación derivada de la ley, entre el procedimiento de tasación conjunta y la expropiación individualizada, ordinaria o urgente, conforme a la legislación de expropiación forzosa con las particularidades de los artículos 121 a 126 (art. 120). La tasación conjunta sirve para expropiar un conjunto de bienes de una unidad de ejecución de forma agrupada, y la individualizada, para bienes concretos.",
+      "La resolución aprobatoria de la tasación conjunta debe notificarse en el plazo máximo de seis meses desde la incoación del expediente (art. 121, apartado 1). Esa resolución tiene efectos sobre el justiprecio de todos los bienes incluidos, por lo que el propietario debe comprobar que su bien aparece correctamente descrito en la relación de propietarios y bienes (art. 122).",
+      "La expropiación urbanística alcanza también a los terrenos colindantes afectados cuando son necesarios para implantar los sistemas generales y locales previstos, o cuando resultan especialmente beneficiados por las obras y se delimitan a ese fin (art. 119, apartado 1, con la referencia de la letra b). Esta extensión de la expropiación es propia del urbanismo y no tiene equivalente en la expropiación general."
+     ]
+    },
+    {
+     "titulo": "8. La intervención sobre la edificación: licencia y declaración responsable",
+     "parrafos": [
+      "Están sujetos a previa licencia urbanística municipal las obras, construcciones, edificaciones, instalaciones, infraestructuras y usos del suelo, incluidos el subsuelo y el vuelo, así como las divisiones, segregaciones y parcelaciones urbanísticas (LISTA, art. 137, apartado 1).",
+      "Están sometidas a declaración responsable o a comunicación previa las actuaciones que la ley enumera en el artículo 138. Entre ellas figuran las obras de escasa entidad constructiva y sencillez técnica que no requieran proyecto, según la legislación vigente (art. 138, apartado 1, letra a). Las ordenanzas municipales pueden eximir de declaración responsable determinados supuestos.",
+      "El artículo 140 regula la competencia y el procedimiento para otorgar las licencias, y el artículo 141 la eficacia temporal y la caducidad de los medios de intervención. La licencia y la declaración responsable son actos distintos: la licencia se concede antes de la obra, mientras que la declaración responsable habilita la actuación desde su presentación, sin perjuicio de la comprobación posterior.",
+      "En la práctica profesional, la distinción entre licencia y declaración responsable determina el momento de la intervención del técnico. Con licencia, el proyecto se tramita antes de la obra y la Administración lo examina. Con declaración responsable, el técnico asume la responsabilidad de que la actuación cumple la normativa desde su presentación, y la Administración la comprueba después. Por eso la documentación que el arquitecto técnico firma debe estar completa desde el primer día."
+     ]
+    },
+    {
+     "titulo": "9. La disciplina urbanística",
+     "parrafos": [
+      "La disciplina urbanística es el conjunto de medidas para que el uso del suelo y la edificación se ajusten al planeamiento y a la licencia. La LISTA regula la inspección técnica de las construcciones y edificaciones en el artículo 145, la situación legal de ruina urbanística en el artículo 146, las potestades públicas en el artículo 147, y la naturaleza y funciones de la inspección en el artículo 148.",
+      "El restablecimiento de la legalidad se regula en los artículos 151 a 157. Se aplica a las actuaciones sin título preceptivo (art. 151), a las actuaciones con título habilitante (art. 156) y a las sometidas a declaración responsable (art. 157). El procedimiento y su plazo se fijan en los artículos 152 y 153, y la ejecución forzosa en el artículo 154. Cuando la legalidad no puede restablecerse, el artículo 155 regula la imposibilidad de ejecución.",
+      "Las infracciones urbanísticas se clasifican en leves, graves y muy graves (art. 161, apartado 1). Son leves, por ejemplo, el incumplimiento del deber de información y publicidad de las obras sobre la licencia o título habilitante (art. 161, apartado 2, letra a), y el incumplimiento del deber de disponer en la obra de la copia de la licencia o de la declaración responsable (letra b). Las multas se regulan en el artículo 162, las sanciones accesorias en el artículo 163 y la graduación en el artículo 164.",
+      "La disciplina urbanística opera en dos planos. El primero es preventivo: la inspección y el control de las obras y los usos verifican que lo construido coincide con la licencia o la declaración responsable presentada. El segundo es represivo: si se detecta una actuación sin título o contraria a la ordenación, se inicia el restablecimiento de la legalidad, y si procede, el expediente sancionador. Ambos planos deben separarse en el examen, porque el restablecimiento no es una sanción, sino la medida que devuelve la realidad física al ajuste con la ordenación."
+     ]
+    },
+    {
+     "titulo": "10. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir la norma vigente (la LISTA, que deroga la LOUA), las clases de suelo, la jerarquía de los instrumentos de ordenación municipal, los sistemas de actuación, los patrimonios públicos de suelo, los supuestos de expropiación por razón de urbanismo y la diferencia entre licencia y declaración responsable. Conviene memorizar el artículo 12 (clases de suelo) y el artículo 137 (licencia).",
+      "Los errores habituales son cuatro. El primero es citar la LOUA como norma vigente, cuando la LISTA la ha derogado. El segundo es confundir la licencia con la declaración responsable. El tercero es confundir los sistemas de actuación: compensación, cooperación y expropiación no son lo mismo. El cuarto es olvidar que el justiprecio de la expropiación urbanística se rige por la LEF en lo no previsto por la LISTA.",
+      "Para un caso práctico de una vivienda ampliada sin licencia, el orden de análisis es: determinar la clase de suelo y la ordenación aplicable; comprobar si la actuación requiere licencia (art. 137) o solo declaración responsable (art. 138); verificar si hubo título habilitante; si no lo hubo, iniciar el restablecimiento de la legalidad (art. 151) y valorar la infracción (art. 161) y la sanción (arts. 162 a 164).",
+      "Conviene también recordar la cronología legislativa: la LOUA de 2002 es la norma histórica, que la LISTA de 2021 deroga. Un examen puede plantear preguntas sobre la norma que estaba vigente en un momento anterior, y la respuesta debe distinguir ambas fechas."
+     ]
+    },
+    {
+     "titulo": "11. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: la disposición derogatoria única de la LISTA (apartado 2, letra b); los artículos 12 a 14, 16 a 19, 24 a 32, 60 a 67, 119 (apartado 1, letras a y b), 127 (apartado 1, letra a), 130, 137 y 138 (apartado 1, letra a), 145 a 157 en sus títulos, y 161 (apartados 1 y 2, letras a y b); el artículo 36 de la LEF; y el índice de los artículos 88 a 132 de la LISTA.",
+      "No se han leído en el texto completo los artículos 33 y 34, los artículos 75 a 87, 88 a 118, 120 a 126, los artículos 128, 129, 131 y 132, ni los artículos 139 a 144 y 158 a 164 de la LISTA. Tampoco se han leído el TRLS (salvo su artículo 35 en el tema e38) ni la Ley 1/1994, de Ordenación del Territorio de Andalucía, derogada.",
+      "Las reglas de cómputo de las licencias y de las declaraciones, así como las cuantías de las multas, deben contrastarse con el texto vigente de la LISTA antes de citarlas, porque la ley fue modificada según la fecha de su texto consolidado.",
+      "Las referencias a la LOUA en este tema tienen solo valor histórico y no deben citarse como normativa vigente. Los artículos de la LOUA que se mencionan en otros temas del programa deben contrastarse con la LISTA antes de usarse."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2021-20916.pdf",
+    "leyes/BOE-A-2015-11723.pdf",
+    "leyes/BOE-A-1954-15431.pdf"
+   ]
+  },
+  "e35": {
+   "resumen": [
+    {
+     "titulo": "Norma vigente",
+     "puntos": [
+      "La Ley 5/2025, de Vivienda de Andalucía (LVA), publicada en el BOJA de 24 de diciembre de 2025, es la norma vigente. Deroga la Ley 13/2005 (vivienda protegida y suelo), la Ley 1/2010, la Ley 4/2013 y la Ley 1/2018 (disposición derogatoria única, letras a a d).",
+      "Entra en vigor al mes de su publicación en el BOJA (disposición final octava)."
+     ]
+    },
+    {
+     "titulo": "Concepto y régimen de la vivienda protegida",
+     "puntos": [
+      "Las viviendas protegidas garantizan el acceso a una vivienda digna y adecuada a personas y familias con recursos limitados (LVA, art. 55, apartado 1).",
+      "Su régimen jurídico lo forman las ayudas, los beneficios fiscales, las limitaciones y los requisitos que deben cumplirse mientras persista la protección (art. 55, apartado 2)."
+     ]
+    },
+    {
+     "titulo": "Calidad, duración y destinatarios",
+     "puntos": [
+      "Calidad de la vivienda: funcionalidad, seguridad estructural, durabilidad, habitabilidad, accesibilidad, salubridad, ruido, incendio, eficiencia energética e hídrica (art. 26). Estudio geotécnico previo y sistemas de control durante la obra (art. 27, apartado 1).",
+      "Destinatarios: personas y unidades familiares que reúnan los requisitos del programa y tengan allí su residencia habitual (art. 56, apartado 1). Duración del régimen: la fija cada programa, no la condiciona el destino urbanístico del suelo (art. 57, apartado 1)."
+     ]
+    },
+    {
+     "titulo": "Promoción, selección y calificación",
+     "puntos": [
+      "Promoción pública, privada o de colaboración público-privada (art. 63). El precio máximo del terreno no puede exceder del 15 % del precio máximo de venta por la superficie construida (art. 65, apartado 1).",
+      "La selección puede hacerse con el listado del Registro Público Municipal de Demandantes o con convocatoria municipal (art. 61). La calificación corresponde a los ayuntamientos (art. 66, apartado 1)."
+     ]
+    },
+    {
+     "titulo": "Plan Vive y normativa técnica",
+     "puntos": [
+      "El Plan Vive en Andalucía (2020-2030) está regulado por el Decreto 91/2020, según la búsqueda; su programa define los destinatarios y los requisitos de cada tipo de vivienda.",
+      "La normativa técnica de diseño y calidad de la vivienda protegida se contiene en una orden de 2008 y en el reglamento de viviendas protegidas, según la búsqueda; ninguno de los dos se ha leído en el repositorio."
+     ]
+    },
+    {
+     "titulo": "Régimen sancionador",
+     "puntos": [
+      "Multas en materia de vivienda protegida: leves, hasta 3.000 euros; graves, de 3.001 a 25.000; muy graves, de 25.001 a 120.000 (LVA, art. 117, apartado 1).",
+      "Especial gravedad: el uso turístico de una vivienda protegida y las transmisiones irregulares (art. 117, apartados 3 y 4). Sanciones accesorias para infracciones graves y muy graves (art. 118)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LVA-5-2025",
+     "rol": "Vivienda de Andalucía: concepto de vivienda protegida, calidad, destinatarios, promoción, calificación y régimen sancionador (arts. 26, 27, 55 a 66, 113 a 118)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la LVA, disposición derogatoria única, letra a, ¿qué ley queda derogada que regulaba la vivienda protegida y el suelo?",
+     "opciones": [
+      "La Ley 13/2005, de medidas para la vivienda protegida y el suelo",
+      "La Ley 7/2002, de Ordenación Urbanística",
+      "La Ley 14/2007, del Patrimonio Histórico",
+      "La Ley 4/2017, de Discapacidad"
+     ],
+     "correcta": 0,
+     "explicacion": "La disposición derogatoria única, letra a, deroga la Ley 13/2005, de 11 de noviembre, de medidas para la vivienda protegida y el suelo.",
+     "referencia": "LVA, disposición derogatoria única, letra a)"
+    },
+    {
+     "pregunta": "Según la LVA, disposición final octava, ¿cuándo entra en vigor la ley?",
+     "opciones": [
+      "El primer día del año siguiente",
+      "El día siguiente a su aprobación por el Parlamento",
+      "Al mes de su publicación en el Boletín Oficial de la Junta de Andalucía",
+      "A los dos años de su publicación en el BOE"
+     ],
+     "correcta": 2,
+     "explicacion": "La ley entra en vigor al mes de su publicación en el Boletín Oficial de la Junta de Andalucía (disposición final octava).",
+     "referencia": "LVA, disposición final octava"
+    },
+    {
+     "pregunta": "Según la LVA, art. 55, apartado 1, ¿cuál es el objeto de las viviendas protegidas?",
+     "opciones": [
+      "Construir oficinas en zonas residenciales",
+      "Fomentar la vivienda vacacional",
+      "Vender viviendas al precio de mercado",
+      "Garantizar el acceso a una vivienda digna y adecuada a personas y familias con recursos limitados"
+     ],
+     "correcta": 3,
+     "explicacion": "Las viviendas protegidas tienen como objeto garantizar el acceso a una vivienda digna y adecuada a las personas y familias con recursos limitados (art. 55, apartado 1).",
+     "referencia": "LVA, art. 55, apartado 1"
+    },
+    {
+     "pregunta": "Según la LVA, art. 55, apartado 2, ¿qué constituye el régimen jurídico de las viviendas protegidas?",
+     "opciones": [
+      "Solo el precio de venta",
+      "El conjunto de ayudas, beneficios fiscales, limitaciones y requisitos que han de cumplirse mientras persista su protección",
+      "La licencia de primera ocupación",
+      "El número de habitaciones de la vivienda"
+     ],
+     "correcta": 1,
+     "explicacion": "El régimen jurídico está constituido por el conjunto de ayudas, beneficios fiscales, limitaciones y requisitos que han de cumplirse mientras persista la protección (art. 55, apartado 2).",
+     "referencia": "LVA, art. 55, apartado 2"
+    },
+    {
+     "pregunta": "Según la LVA, art. 57, apartado 1, ¿de qué depende la duración del régimen de protección?",
+     "opciones": [
+      "Del programa, en el plan de vivienda que lo establezca o en el acuerdo del Consejo de Gobierno en los casos previstos",
+      "De la voluntad del promotor",
+      "De la antigüedad del edificio",
+      "Solo del destino urbanístico del suelo"
+     ],
+     "correcta": 0,
+     "explicacion": "La duración se establece para cada programa, en el plan de vivienda o en el acuerdo del Consejo de Gobierno en los casos del artículo 17, apartado 6. No se condiciona por el destino urbanístico del suelo, salvo en suelos dotacionales (art. 57, apartado 1).",
+     "referencia": "LVA, art. 57, apartado 1"
+    },
+    {
+     "pregunta": "Según la LVA, art. 61, apartado 1, ¿de qué modo puede realizarse la selección de adjudicatarios de viviendas protegidas de nueva construcción?",
+     "opciones": [
+      "Solo por antigüedad en el padrón",
+      "Solo por sorteo notarial",
+      "Mediante listado priorizado del Registro Público Municipal de Demandantes o por convocatoria específica municipal",
+      "Por adjudicación directa al promotor"
+     ],
+     "correcta": 2,
+     "explicacion": "La selección puede hacerse mediante listado priorizado del Registro Público Municipal de Demandantes de Vivienda Protegida o por convocatoria específica municipal (art. 61, apartado 1).",
+     "referencia": "LVA, art. 61, apartado 1"
+    },
+    {
+     "pregunta": "Según la LVA, art. 65, apartado 1, ¿qué límite tiene el precio máximo de los terrenos destinados a vivienda protegida, incluido el coste de urbanización?",
+     "opciones": [
+      "El 50 % del valor catastral",
+      "No tiene límite",
+      "El 5 % del precio de venta de las viviendas",
+      "El 15 % del importe resultante del precio máximo del metro cuadrado por la superficie construida"
+     ],
+     "correcta": 3,
+     "explicacion": "El precio máximo de los terrenos, incluido el coste de urbanización, no puede exceder del 15 % del importe resultante de multiplicar el precio máximo del metro cuadrado por la superficie construida (art. 65, apartado 1).",
+     "referencia": "LVA, art. 65, apartado 1"
+    },
+    {
+     "pregunta": "Según la LVA, art. 66, apartado 1, ¿quién tiene la competencia para calificar una vivienda o alojamiento protegido?",
+     "opciones": [
+      "El promotor privado",
+      "Los ayuntamientos, de acuerdo con los criterios de la Comunidad Autónoma",
+      "El notario autorizante",
+      "El Registro de la Propiedad"
+     ],
+     "correcta": 1,
+     "explicacion": "La calificación corresponde a los ayuntamientos, conforme a la Ley 5/2010 de Autonomía Local de Andalucía y de acuerdo con los criterios que establezca la Comunidad Autónoma (art. 66, apartado 1).",
+     "referencia": "LVA, art. 66, apartado 1"
+    },
+    {
+     "pregunta": "Según la LVA, art. 117, apartado 1, letra c, ¿qué multa corresponde a las infracciones muy graves en materia de vivienda protegida?",
+     "opciones": [
+      "Hasta 3.000 euros",
+      "De 3.001 a 25.000 euros",
+      "De 25.001 a 120.000 euros",
+      "De 120.001 a 500.000 euros"
+     ],
+     "correcta": 2,
+     "explicacion": "Las infracciones muy graves se sancionan con multa de 25.001 a 120.000 euros (LVA, art. 117, apartado 1, letra c).",
+     "referencia": "LVA, art. 117, apartado 1, letra c)"
+    },
+    {
+     "pregunta": "Según la LVA, art. 56, apartado 1, ¿quiénes son los destinatarios de las viviendas protegidas durante el periodo de protección?",
+     "opciones": [
+      "Personas físicas y unidades familiares o de convivencia que reúnan los requisitos del programa y tengan allí su residencia habitual",
+      "Solo las sociedades mercantiles",
+      "Cualquier persona, sin requisitos",
+      "Solo las personas extranjeras sin residencia en España"
+     ],
+     "correcta": 0,
+     "explicacion": "Las viviendas protegidas se destinan a las personas físicas y unidades familiares o de convivencia que reúnan los requisitos del programa y constituyan en ella su residencia habitual o permanente (LVA, art. 56, apartado 1).",
+     "referencia": "LVA, art. 56, apartado 1"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Marco legal vigente: la Ley 5/2025, de Vivienda de Andalucía",
+     "parrafos": [
+      "La norma vigente en materia de vivienda en Andalucía es la Ley 5/2025, de 16 de diciembre, de Vivienda de Andalucía (LVA). Se publicó en el BOJA núm. 247, de 24 de diciembre de 2025, y en el BOE núm. 7, de 8 de enero de 2026 (referencia BOE-A-2026-423). Su disposición final octava fija la entrada en vigor al mes de su publicación en el BOJA.",
+      "La LVA deroga expresamente cuatro leyes: la Ley 13/2005, de medidas para la vivienda protegida y el suelo; la Ley 1/2010, reguladora del derecho a la vivienda en Andalucía; la Ley 4/2013, de medidas para asegurar el cumplimiento de la función social de la vivienda; y la Ley 1/2018, sobre el derecho de tanteo y retracto en desahucios (disposición derogatoria única, letras a a d). Un examen que cite la Ley 13/2005 como vigente está, por tanto, desactualizado.",
+      "La LVA se completa con la Ley 7/2021 (LISTA) en lo urbanístico, que modifica por su disposición final primera, y con la Ley 9/2022, de Calidad de la Arquitectura, a la que remite el concepto de calidad de la vivienda (art. 26). La vivienda protegida tiene así una regulación legal de la Junta de Andalucía y una normativa técnica de diseño y calidad en la que se apoya."
+     ]
+    },
+    {
+     "titulo": "2. Concepto y régimen jurídico de la vivienda protegida",
+     "parrafos": [
+      "Las viviendas protegidas tienen como objeto garantizar el acceso a una vivienda digna y adecuada a las personas y familias con recursos limitados, asegurando que puedan satisfacer sus necesidades habitacionales en condiciones de calidad y accesibilidad (LVA, art. 55, apartado 1). Su finalidad es promover la equidad social mediante soluciones habitacionales para los sectores de la población más vulnerables.",
+      "El régimen jurídico de las viviendas protegidas está constituido por el conjunto de ayudas, beneficios fiscales, limitaciones y requisitos que han de cumplirse mientras persista su protección (art. 55, apartado 2). Las prohibiciones y limitaciones que resultan de la calificación como protegida se mantienen durante ese periodo, y su incumplimiento genera las consecuencias del régimen sancionador del título VIII.",
+      "La vivienda protegida es, por tanto, una vivienda calificada por la Administración, con un régimen de precios, de adjudicación y de transmisión que dura mientras persista la protección. La calificación es el acto que la Administración emite y que determina ese régimen. El arquitecto técnico que proyecta o dirige la obra debe conocer los requisitos de la calificación antes de la licencia, porque condicionan la superficie, la distribución y las instalaciones."
+     ]
+    },
+    {
+     "titulo": "2 bis. Destinatarios y duración del régimen de protección",
+     "parrafos": [
+      "Las viviendas protegidas, durante el periodo de protección, se destinan a las personas físicas y unidades familiares o de convivencia que reúnan los requisitos de cada programa del plan de vivienda y constituyan en ella su residencia habitual o permanente (LVA, art. 56, apartado 1). En los programas se atienden de manera prioritaria las necesidades de los colectivos prioritarios de acceso a la vivienda definidos en el artículo 4 de la ley.",
+      "La duración del régimen de protección se establece para cada programa, en el plan de vivienda que lo instituye o en el acuerdo del Consejo de Gobierno en los supuestos previstos en el artículo 17, apartado 6 (art. 57, apartado 1). Ese plazo no se ve condicionado por el destino urbanístico del suelo, salvo en las viviendas construidas en suelos dotacionales, y debe constar en la calificación (art. 57, apartado 1). Esta regla es la que explica por qué una vivienda protegida mantiene sus limitaciones aunque el planeamiento cambie.",
+      "Para el técnico, el plazo de protección es un dato del proyecto y de la calificación. Un proyecto que proyecta una vivienda protegida debe incluir en su memoria el programa al que se acoge y el plazo que este establece, porque el régimen posterior de transmisión y de alquiler depende de ambos."
+     ]
+    },
+    {
+     "titulo": "3. El suelo para vivienda protegida",
+     "parrafos": [
+      "El suelo es el soporte de la vivienda protegida. La LVA regula la colaboración público-privada para la construcción de vivienda protegida o asequible (art. 13), y la infraestructura residencial para la función social de la vivienda (título VI), que incluye los bienes y los derechos sobre suelos que la Administración puede constituir para este fin (capítulos I y III del título VI).",
+      "En la ordenación urbanística, el suelo para vivienda protegida se reserva en el planeamiento. La LISTA permite a los instrumentos de ordenación establecer reservas de terrenos en cualquier clase de suelo para constituir o ampliar los patrimonios públicos de suelo (art. 130), y el tema e34 explica ese régimen. Por eso la vivienda protegida depende en gran medida de la disponibilidad del suelo calificado.",
+      "La relación entre el suelo y la calificación es directa: un terreno clasificado y calificado para vivienda protegida puede recibir la calificación de la Administración solo si el proyecto cumple las normas técnicas y el planeamiento. El examen puede preguntar por esta cadena: planeamiento, suelo, proyecto, calificación y adjudicación."
+     ]
+    },
+    {
+     "titulo": "4. La calidad de la vivienda y el fomento de la calidad",
+     "parrafos": [
+      "La calidad de la vivienda se define en el artículo 26 de la LVA como el conjunto de condiciones físicas, ambientales y funcionales que hacen que una vivienda sea habitable y segura, en materia de funcionalidad, seguridad estructural, durabilidad, habitabilidad, accesibilidad universal, salubridad, protección frente al ruido y contra incendios, conectividad y eficiencia energética e hídrica, a partir de las prescripciones de la normativa vigente y de los principios de la Ley 9/2022.",
+      "El artículo 27 fomenta la calidad. En todas las obras de construcción y rehabilitación de viviendas, de promoción pública o privada, se realizará el estudio geotécnico previo que sea preceptivo, y se implantarán durante la construcción sistemas de aseguramiento, control y verificación para comprobar la calidad (art. 27, apartado 1). La LVA exige que la documentación técnica y comercial de la vivienda explicite los agentes que participan en esos sistemas.",
+      "El artículo 30 encomienda a la Junta de Andalucía la regulación de la calidad de la edificación, estableciendo y actualizando normas específicas, como las normas técnicas de diseño y calidad, que fijen los estándares y los niveles de control y los requisitos mínimos exigibles a las viviendas (art. 30, letra a). Esa regulación es la base de la normativa técnica de la vivienda protegida."
+     ]
+    },
+    {
+     "titulo": "5. La normativa técnica de diseño y calidad",
+     "parrafos": [
+      "La normativa técnica de diseño y calidad aplicable a las viviendas protegidas en Andalucía se contiene en una orden de la Consejería competente, la Orden de 21 de julio de 2008, según la búsqueda. Esta orden regula la normativa técnica de diseño y calidad de las viviendas protegidas, y su capítulo II se refiere a ella. El reglamento de viviendas protegidas, aprobado por el Decreto 149/2006, de 25 de julio, se complementa con esa normativa técnica, según la búsqueda.",
+      "La normativa técnica se ha modificado en el tiempo. El Decreto 1/2012, de 10 de enero, modificó el reglamento, y una búsqueda posterior indica una modificación por el Decreto 161/2018, de 28 de agosto, cuya vigencia no se ha confirmado. Por eso, antes de citar un requisito concreto de superficie, de distribución o de instalaciones, debe comprobarse el texto consolidado vigente en el BOJA.",
+      "En la práctica, la normativa técnica obliga a que el proyecto de una vivienda protegida cumpla los requisitos técnicos que fija para diseño, calidad e instalaciones, y que la documentación final acredite el cumplimiento para la calificación. El arquitecto técnico que dirige la obra debe reunir esa documentación, porque la calificación depende de ella.",
+      "Los requisitos de calidad de la LVA se combinan con los del CTE, que son de aplicación general a todas las viviendas. La vivienda protegida no sustituye al CTE: añade a sus exigencias básicas los requisitos específicos del régimen de protección, como los límites de precio del artículo 58."
+     ]
+    },
+    {
+     "titulo": "5 bis. Promoción pública, privada y en colaboración público-privada",
+     "parrafos": [
+      "Las viviendas protegidas pueden ser de promoción pública, de promoción privada o de colaboración público-privada (LVA, art. 63). Es de promoción pública la promovida por una Administración pública o por entidades del sector público; de promoción privada, la promovida por persona física o jurídica privada; y de colaboración público-privada, la que se articula mediante mecanismos como la cesión de suelo público o el otorgamiento de subvenciones que garanticen la accesibilidad.",
+      "El precio del suelo tiene un límite. El precio máximo de los terrenos destinados a vivienda o alojamiento protegido, incluido el coste total de las obras de urbanización necesarias, no puede exceder del 15 % del importe que resulte de multiplicar el precio máximo de venta o de referencia del metro cuadrado por la superficie construida de las viviendas y anejos vinculados (art. 65, apartado 1). Esa regla vincula el precio del suelo a la superficie que se construye, y es un dato que el tasador y el promotor deben calcular juntos.",
+      "Los locales comerciales y los anejos no vinculados tienen un precio que se determina en los planes de vivienda (art. 65, apartado 2). Esto significa que el precio de las viviendas protegidas no es el único que el promotor debe justificar."
+     ]
+    },
+    {
+     "titulo": "6. Precio, acceso y transmisión de la vivienda protegida",
+     "parrafos": [
+      "El precio máximo de venta o alquiler de la vivienda protegida se regula en el artículo 58 de la LVA, y el acceso en el artículo 59. La selección de adjudicatarios es objeto del capítulo II del título V, y la promoción y la calificación del capítulo III.",
+      "El capítulo IV regula la formalización de la adjudicación. El artículo 69 regula los contratos de adjudicación en venta, arrendamiento y otras formas, el artículo 70 la percepción de cantidades a cuenta, y el artículo 71 el otorgamiento de la escritura pública de venta en la primera adjudicación. El artículo 72 fija los derechos y obligaciones de las personas adjudicatarias.",
+      "El capítulo V regula la transmisión, el alquiler o la cesión de uso tras la primera adjudicación, y el capítulo VI la descalificación, es decir, la salida de la vivienda del régimen de protección. El artículo 67 regula la transmisión de la promoción antes de la formalización de los contratos, y el artículo 68 las obligaciones de publicidad del promotor.",
+      "El régimen de transmisión posterior a la primera adjudicación es distinto del de la primera venta. El artículo 74 regula los requisitos para la transmisión, el alquiler o la cesión de uso de una vivienda protegida, el artículo 75 la transmisión por la primera propiedad adjudicataria, y el artículo 76 el otorgamiento de la escritura pública de venta o de constitución de cualquier derecho. Los artículos 77 a 79 regulan el alquiler o la cesión de uso en régimen de venta, los segundos contratos de arrendamiento y el ejercicio de la opción de compra en promociones protegidas."
+     ]
+    },
+    {
+     "titulo": "6 bis. Sistema de información y selección de adjudicatarios",
+     "parrafos": [
+      "La LVA crea el Sistema de Información de Vivienda Protegida de Andalucía, cuya finalidad es recoger de forma sistemática la totalidad de las viviendas sujetas a algún régimen de protección, la información sobre ellas, las convocatorias para la selección de adjudicatarios y los datos estadísticos (art. 60, apartado 1). La información se publica en el Portal de la Junta de Andalucía y en el Portal de Datos Abiertos.",
+      "La selección de adjudicatarios de las viviendas de nueva construcción se puede realizar mediante un listado priorizado obtenido del Registro Público Municipal de Demandantes de Vivienda Protegida, o mediante una convocatoria específica municipal, en los términos que fije el reglamento (art. 61, apartado 1). Las segundas o posteriores adjudicaciones en alquiler pueden hacerse con la lista de suplentes (art. 61, apartado 2). Los registros municipales se regulan en el artículo 62.",
+      "El principio que rige la selección es el de publicidad, igualdad y pública concurrencia (art. 61, apartado 1). El técnico no interviene en la selección, pero su proyecto debe permitir que la vivienda se ofrezca en las condiciones que el registro y la convocatoria publican."
+     ]
+    },
+    {
+     "titulo": "6 ter. La calificación de la vivienda protegida",
+     "parrafos": [
+      "La calificación de vivienda o alojamiento protegido corresponde a los ayuntamientos, conforme al artículo 9.2, letra d, de la Ley 5/2010, de Autonomía Local de Andalucía, y de acuerdo con los criterios que fije la Comunidad Autónoma (LVA, art. 66, apartado 1). La calificación es el acto que sitúa la vivienda en el régimen de protección.",
+      "La calificación provisional se integra en el procedimiento de otorgamiento de la licencia de obras o de la declaración responsable, o en su modificación si la promoción ya tenía licencia. Se emite a solicitud del promotor, con el proyecto de obras, tras la verificación de la documentación exigida (art. 66, apartado 2). La calificación definitiva se obtiene después, con la terminación de la obra, según el procedimiento que regula el mismo artículo.",
+      "El orden práctico es, por tanto, que el proyecto se presenta con la calificación provisional, que la licencia y la calificación avanzan juntas, y que la calificación definitiva se obtiene al finalizar la obra. Un error común es esperar a la licencia para pedir la calificación, cuando la ley las vincula desde el inicio."
+     ]
+    },
+    {
+     "titulo": "7. El Plan de Vivienda y Rehabilitación: el Plan Vive",
+     "parrafos": [
+      "El instrumento de programación de las ayudas públicas a la vivienda es el plan. El plan vigente en Andalucía es el Plan Vive en Andalucía, de vivienda, rehabilitación y regeneración urbana, para el periodo 2020-2030, regulado por el Decreto 91/2020, de 30 de junio, publicado en el BOJA de 3 de julio de 2020, según la búsqueda. El plan anterior, de 2016-2020, se regulaba por el Decreto 141/2016.",
+      "El plan se conecta con la LVA: el texto de la ley lo menciona como instrumento de programación de las actuaciones en vivienda y rehabilitación. Un decreto-ley de 2025, según la búsqueda, incorporó modificaciones al Decreto 91/2020. El plan articula las ayudas a la promoción de viviendas protegidas, a la rehabilitación y a la regeneración urbana, con las condiciones que fija cada convocatoria.",
+      "El examen puede preguntar qué instrumento programa las ayudas públicas en Andalucía y qué periodo cubre. La respuesta correcta es el Plan Vive, de 2020 a 2030, y no el plan de 2016-2020, que ya no es el vigente.",
+      "La LVA y el plan se relacionan a través de los programas. Cada programa del plan define a sus destinatarios, los requisitos de acceso y el plazo de protección, y la ley remite a esos programas para fijar el régimen de cada vivienda (LVA, arts. 56 y 57). Por eso, para saber qué requisitos aplica una vivienda protegida concreta, hay que identificar primero el programa del plan al que se acoge.",
+      "El plan también organiza la coordinación con los municipios, porque la calificación y la selección de adjudicatarios corresponden en buena parte a los ayuntamientos (LVA, arts. 61 y 66). La vivienda protegida, así, combina una programación autonómica con una gestión municipal, y el examen puede pedir la distribución de competencias entre ambos niveles."
+     ]
+    },
+    {
+     "titulo": "8. Parque público y función inspectora",
+     "parrafos": [
+      "La LVA regula el parque público de vivienda de Andalucía en el título VI, capítulo II, con los bienes que lo integran, y el parque público de titularidad autonómica en el capítulo IV. Estos bienes se destinan a la función social de la vivienda, y su disposición está sujeta a las reglas de la ley.",
+      "La función inspectora de la Administración sobre vivienda se regula en el título VII. La inspección comprueba el cumplimiento de la normativa de vivienda, y es el paso previo al régimen sancionador. La LVA regula la inspección sobre vivienda como una función específica, distinta de la inspección técnica de construcciones y edificaciones del artículo 145 de la LISTA.",
+      "El parque público de vivienda de Andalucía es el conjunto de viviendas titularidad de la Comunidad Autónoma destinadas al alquiler y a los programas sociales. Su régimen de gestión, de adjudicación y de disposición está en la ley y en sus normas de desarrollo, por lo que el examen puede preguntar por la diferencia entre el parque público y la vivienda protegida de promoción privada, que se rigen por regímenes distintos aunque se parezcan en el precio."
+     ]
+    },
+    {
+     "titulo": "9. Régimen sancionador en materia de vivienda",
+     "parrafos": [
+      "El régimen sancionador de la LVA se regula en el título VIII. El capítulo I contiene las disposiciones comunes, el capítulo II la tipificación de las infracciones y las sanciones. El artículo 114 regula las sanciones en materia de vivienda en general, el artículo 115 clasifica las infracciones en materia de vivienda protegida, y el artículo 116 establece la presunción de vivienda protegida no habitada.",
+      "El artículo 117 fija las multas: para las infracciones leves, hasta 3.000 euros; para las graves, desde 3.001 hasta 25.000 euros; y para las muy graves, desde 25.001 hasta 120.000 euros (art. 117, apartado 1). Cuando las infracciones afectan a varias viviendas de una misma promoción, pueden imponerse tantas sanciones como infracciones se hayan cometido en cada vivienda, si la conducta es individualizada (art. 117, apartado 2).",
+      "Se consideran especialmente graves, a efectos de imponer la sanción en grado medio o superior, las infracciones relativas a las segundas y sucesivas transmisiones cuando el adquirente no reúne los requisitos, y el alquiler de una vivienda protegida o del parque público para uso turístico (art. 117, apartados 3 y 4).",
+      "El artículo 118 regula las sanciones accesorias para las infracciones graves y muy graves. Entre ellas está la pérdida y devolución, con los intereses legales, de las ayudas económicas percibidas en caso de infracciones al régimen de financiación protegida (art. 118, apartado 1, letra a). El incumplimiento de las normas técnicas de calidad específicas para las edificaciones de uso vivienda figura en la clasificación de infracciones en materia de vivienda en general (art. 113), siempre que no sea muy grave.",
+      "El régimen sancionador tiene una lógica de proporcionalidad: la multa se gradúa dentro de cada tramo, y la especial gravedad, como el uso turístico de una vivienda protegida, eleva el grado de la sanción dentro de su clasificación (LVA, art. 117, apartado 4). El expediente sancionador se tramita con el procedimiento sancionador de la ley (art. 112), y las infracciones prescriben según el artículo 110."
+     ]
+    },
+    {
+     "titulo": "10. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir la norma vigente (la LVA de 2025, que deroga la Ley 1/2010 y la Ley 13/2005), el concepto de vivienda protegida (art. 55), el precio y el acceso (arts. 58 y 59), la calidad (art. 26), el plan vigente (Plan Vive 2020-2030) y las multas del artículo 117. Conviene memorizar las tres cuantías de multa y el periodo del plan.",
+      "Los errores habituales son cuatro. El primero es citar la Ley 1/2010 o la Ley 13/2005 como vigentes, cuando la LVA las ha derogado. El segundo es confundir el Plan Vive 2020-2030 con el plan 2016-2020. El tercero es confundir la normativa técnica de la vivienda protegida con el CTE, que es de aplicación general. El cuarto es suponer que la calificación de la vivienda no condiciona el proyecto.",
+      "Para un caso práctico de una promoción de vivienda protegida, el orden de análisis es: comprobar la norma vigente; verificar el suelo y su calificación en el planeamiento; comprobar que el proyecto cumple la normativa técnica de diseño y calidad y el CTE; comprobar la calidad según los artículos 26 y 27 de la LVA; y tramitar la calificación con la documentación final.",
+      "Para repasar el tema conviene estudiar por bloques: la norma vigente y sus derogaciones, el régimen de la vivienda protegida (destinatarios, duración, precio, selección y calificación), la normativa técnica y el plan, y el régimen sancionador con sus cuantías. Un examen que mezcle los bloques suele preguntar por la relación entre ellos, como el plazo de protección que afecta a la transmisión posterior o la cuantía de la multa que corresponde a una transmisión irregular."
+     ]
+    },
+    {
+     "titulo": "11. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto de la LVA, según el BOE: la disposición final octava (entrada en vigor), la disposición derogatoria única (letras a a d), los artículos 13, 26, 27 (apartado 1), 30 (letra a), 55 (apartados 1 y 2), 58, 59, 67 a 72 en sus títulos, 114 (letra c), 115, 116, 117 (apartados 1 a 4) y 118 (apartado 1, letra a); y los títulos de la ley de los títulos V, VI, VII y VIII.",
+      "No se han leído en el texto completo los artículos 56 a 66 de la LVA, el capítulo V del título V, las normas del parque público, la función inspectora del título VII ni el régimen de los artículos 119 a 130. La normativa técnica de diseño y calidad, el Reglamento de viviendas protegidas (Decreto 149/2006) y la Orden de 2008 no se han leído en el repositorio; sus datos proceden de la búsqueda.",
+      "Las fechas y las modificaciones del Decreto 91/2020 (Plan Vive), del Decreto 1/2012 y del Decreto 161/2018 proceden de la búsqueda y deben contrastarse con el BOJA antes de citarlas. La LVA puede haber sido objeto de desarrollos reglamentarios posteriores a su publicación, que no se han comprobado."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2026-423.pdf",
+    "leyes/BOE-A-2015-11723.pdf"
+   ]
+  },
+  "e36": {
+   "resumen": [
+    {
+     "titulo": "Marco normativo",
+     "puntos": [
+      "Tres capas: el CTE, de aplicación general (arts. 10 a 15); el Decreto 293/2009, de accesibilidad en Andalucía; y las normas sectoriales y los criterios propios de cada tipo de edificio.",
+      "El Decreto 293/2009 fija mínimos exigibles, sin perjuicio de mayores exigencias de otras normas (art. 11)."
+     ]
+    },
+    {
+     "titulo": "Usos y accesos",
+     "puntos": [
+      "El artículo 62 relaciona los usos, entre ellos los administrativos, los docentes, los sanitarios, las actividades culturales y sociales y los espectáculos públicos.",
+      "Al menos un acceso, el principal, debe ser accesible y estar al mismo nivel de la cota exterior siempre que sea posible (art. 64, apartado 1, letra a). Círculo libre de 1,20 metros a ambos lados de las puertas (art. 65, apartado 1, letra a)."
+     ]
+    },
+    {
+     "titulo": "Circulaciones, escaleras y ascensores",
+     "puntos": [
+      "Vestíbulos: circunferencia libre de 1,50 metros (art. 66, apartado 1). Pasillos: ancho mínimo libre de 1,20 metros (apartado 2).",
+      "Escaleras de uso público: anchura libre del tramo de 1,20 metros como mínimo (art. 70, apartado 2, letra a). Ascensores: cabina con rectángulo libre de 1 metro de ancho y 1,25 metros de fondo (art. 74, letra a)."
+     ]
+    },
+    {
+     "titulo": "Aseos, mobiliario y equipamiento",
+     "puntos": [
+      "Aseos de uso público: al menos uno accesible y aislado en los edificios obligados (art. 77). Mobiliario, mostradores, ventanillas y mecanismos de accionamiento (arts. 80 a 83).",
+      "Las dotaciones deben tener cálculo, diseño y mantenimiento documentados (CTE, art. 8.1, apartado 3)."
+     ]
+    },
+    {
+     "titulo": "Exigencias del CTE aplicadas",
+     "puntos": [
+      "DB-SI 3: densidad de ocupación de 20 m² por persona en viviendas y 3 m² en aseos (tabla 2.1). DB-SI 4: extintores a no más de 15 m de recorrido (tabla 1.1). DB-SI 5: vial de 3,5 m de anchura libre.",
+      "DB-SUA 2: altura libre de paso de 2,20 m en zonas de circulación. DB-HE 1: transmitancia límite de huecos de 2,7 W/m²K en la zona A (tabla 3.1.1.a)."
+     ]
+    },
+    {
+     "titulo": "Normativa sectorial",
+     "puntos": [
+      "Según la búsqueda, la Orden de 24 de enero de 2003 aprueba las normas de diseño y constructivas de los edificios docentes, y el Real Decreto 1004/1991 fija requisitos de los centros docentes no universitarios. Ninguna de las dos normas se ha leído, y su vigencia no se ha confirmado."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "DEC-AND-293-2009",
+     "rol": "Accesibilidad en edificios de uso público: usos del artículo 62, accesos, vestíbulos, pasillos, escaleras, ascensores y aseos (arts. 62 a 77)"
+    },
+    {
+     "id": "CTE",
+     "rol": "Exigencias básicas de aplicación general a los edificios públicos (arts. 8, 10 a 15)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el Decreto 293/2009, art. 62, ¿cuál de los siguientes usos NO está entre los relacionados por el precepto?",
+     "opciones": [
+      "Industrias nucleares de producción de energía",
+      "Docentes",
+      "Administrativos",
+      "Sanitarios"
+     ],
+     "correcta": 0,
+     "explicacion": "El artículo 62 relaciona los usos de alojamientos, comerciales, sanitarios, servicios sociales, actividades culturales y sociales, hostelería, administrativos, docentes, transportes, religiosos, garajes y aparcamientos, y los espectáculos. Las industrias nucleares no figuran en la relación.",
+     "referencia": "Decreto 293/2009, art. 62"
+    },
+    {
+     "pregunta": "Según el Decreto 293/2009, art. 65, apartado 1, letra a, ¿qué diámetro debe tener el círculo libre a ambos lados de las puertas de acceso?",
+     "opciones": [
+      "2,00 metros",
+      "1,00 metros",
+      "1,20 metros",
+      "1,50 metros"
+     ],
+     "correcta": 2,
+     "explicacion": "A ambos lados de las puertas, en el sentido de paso, debe existir un espacio libre donde pueda inscribirse un círculo de 1,20 metros de diámetro, no barrido por las hojas (art. 65, apartado 1, letra a).",
+     "referencia": "Decreto 293/2009, art. 65, apartado 1, letra a)"
+    },
+    {
+     "pregunta": "Según el Decreto 293/2009, art. 66, apartado 1, ¿qué circunferencia debe poder inscribirse en los vestíbulos?",
+     "opciones": [
+      "De 2,00 metros de diámetro",
+      "De 0,90 metros de diámetro",
+      "De 1,20 metros de diámetro",
+      "De 1,50 metros de diámetro, no barrida por las hojas de las puertas"
+     ],
+     "correcta": 3,
+     "explicacion": "Las dimensiones de los vestíbulos deben permitir inscribir una circunferencia de 1,50 metros de diámetro no barrida por las hojas de las puertas (art. 66, apartado 1).",
+     "referencia": "Decreto 293/2009, art. 66, apartado 1"
+    },
+    {
+     "pregunta": "Según el Decreto 293/2009, art. 66, apartado 2, ¿cuál es el ancho mínimo libre practicable de los pasillos?",
+     "opciones": [
+      "0,90 metros",
+      "1,20 metros",
+      "1,50 metros",
+      "2,20 metros"
+     ],
+     "correcta": 1,
+     "explicacion": "El ancho mínimo libre practicable de los pasillos es de 1,20 metros, con alteraciones puntuales admitidas que dejen un paso mínimo de 0,90 metros (art. 66, apartado 2).",
+     "referencia": "Decreto 293/2009, art. 66, apartado 2"
+    },
+    {
+     "pregunta": "Según el Decreto 293/2009, art. 70, apartado 2, letra a, ¿cuál es la anchura libre mínima del tramo de una escalera de comunicación de uso público?",
+     "opciones": [
+      "1,20 metros",
+      "1,50 metros",
+      "0,80 metros",
+      "1,00 metros"
+     ],
+     "correcta": 0,
+     "explicacion": "La anchura libre del tramo de las escaleras de comunicación de uso público es de 1,20 metros como mínimo (art. 70, apartado 2, letra a).",
+     "referencia": "Decreto 293/2009, art. 70, apartado 2, letra a)"
+    },
+    {
+     "pregunta": "Según el Decreto 293/2009, art. 74, letra a, ¿qué fondo mínimo debe tener el rectángulo inscribible en la cabina del ascensor?",
+     "opciones": [
+      "2,00 metros",
+      "1,00 metros",
+      "1,25 metros",
+      "1,50 metros"
+     ],
+     "correcta": 2,
+     "explicacion": "La cabina debe permitir inscribir un rectángulo de 1 metro de ancho mínimo y 1,25 metros de fondo mínimo, salvo lo dispuesto en la normativa de ascensores (art. 74, letra a).",
+     "referencia": "Decreto 293/2009, art. 74, letra a)"
+    },
+    {
+     "pregunta": "Según el Decreto 293/2009, art. 64, apartado 1, letra a, ¿dónde debe estar el acceso principal accesible?",
+     "opciones": [
+      "Siempre en un sótano",
+      "En cualquier fachada, sin condiciones",
+      "A una altura de un metro sobre la cota exterior",
+      "Al mismo nivel de la cota exterior siempre que sea posible"
+     ],
+     "correcta": 3,
+     "explicacion": "El acceso principal desde el espacio exterior debe estar al mismo nivel de la cota exterior siempre que sea posible (art. 64, apartado 1, letra a).",
+     "referencia": "Decreto 293/2009, art. 64, apartado 1, letra a)"
+    },
+    {
+     "pregunta": "Según el DB-SI, tabla 2.1, ¿qué densidad de ocupación se asigna a los aseos de planta?",
+     "opciones": [
+      "1 m² por persona",
+      "3 m² por persona",
+      "10 m² por persona",
+      "20 m² por persona"
+     ],
+     "correcta": 1,
+     "explicacion": "Los aseos de planta tienen una densidad de ocupación de 3 m² por persona (DB-SI, SI 3, tabla 2.1).",
+     "referencia": "DB-SI, SI 3, tabla 2.1"
+    },
+    {
+     "pregunta": "Según el DB-SUA, apartado 1, punto 1, ¿qué altura libre de paso debe tener como mínimo una zona de circulación?",
+     "opciones": [
+      "2,00 metros",
+      "2,10 metros",
+      "2,20 metros",
+      "2,50 metros"
+     ],
+     "correcta": 2,
+     "explicacion": "La altura libre de paso en zonas de circulación es de 2,20 metros, y de 2,10 metros en zonas de uso restringido (DB-SUA 2, apartado 1.1, punto 1).",
+     "referencia": "DB-SUA 2, apartado 1.1, punto 1"
+    },
+    {
+     "pregunta": "Según el CTE, art. 8.1, apartado 3, ¿qué debe contener el libro del edificio en cuanto al mantenimiento?",
+     "opciones": [
+      "Las instrucciones de uso y mantenimiento y un plan de mantenimiento con la planificación de las operaciones programadas",
+      "Solo los planos de la cimentación",
+      "Únicamente las facturas de la obra",
+      "Nada sobre el mantenimiento"
+     ],
+     "correcta": 0,
+     "explicacion": "El libro del edificio contiene las instrucciones de uso y de mantenimiento del edificio terminado, con un plan de mantenimiento que recoge la planificación de las operaciones programadas (CTE, art. 8.1, apartado 3).",
+     "referencia": "CTE, art. 8.1, apartado 3"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Marco normativo de los edificios públicos de la Junta",
+     "parrafos": [
+      "Un edificio docente, administrativo o de justicia de la Junta de Andalucía se proyecta y se construye con tres capas de normativa. La primera es el Código Técnico de la Edificación, de aplicación general a todos los edificios, con sus exigencias básicas de seguridad estructural, de seguridad en caso de incendio, de seguridad de utilización y accesibilidad, de salubridad, de protección frente al ruido y de ahorro de energía (CTE, arts. 10 a 15). La segunda es la normativa de accesibilidad de Andalucía, el Decreto 293/2009. La tercera son las normas sectoriales y los criterios técnicos propios de cada tipo de edificio.",
+      "El CTE fija las exigencias básicas, y el DB correspondiente los parámetros objetivos. Un centro docente o un edificio administrativo debe cumplir el DB-SI en su evacuación, el DB-SUA en sus alturas y su seguridad de utilización, el DB-HE en su envolvente y el DB-HR en su aislamiento acústico. Las exigencias del CTE son mínimas, y la normativa sectorial puede añadir requisitos más exigentes, como señala el propio Decreto 293/2009 en su artículo 11, al decir que sus disposiciones son mínimos exigibles sin perjuicio de mayores exigencias de otras normas.",
+      "La Junta de Andalucía no tiene, en el repositorio, un decreto único que unifique los criterios de diseño de todos sus edificios administrativos y de justicia. Por eso este tema combina la normativa general con las normas sectoriales que se han podido localizar, y señala expresamente aquellos puntos que no están verificados."
+     ]
+    },
+    {
+     "titulo": "2. El Decreto 293/2009: accesibilidad en edificios de uso público",
+     "parrafos": [
+      "El Decreto 293/2009, de 7 de julio, regula las normas para la accesibilidad en las infraestructuras, el urbanismo, la edificación y el transporte en Andalucía. Su Título II trata la accesibilidad en los edificios, establecimientos e instalaciones de concurrencia pública. El artículo 62 relaciona los usos a los que se aplica, entre ellos los alojamientos, los comerciales, los sanitarios, los servicios sociales, las actividades culturales y sociales, la hostelería, los administrativos, los docentes, los transportes, los religiosos, los garajes y aparcamientos, y los espectáculos públicos.",
+      "Para un edificio administrativo, docente o de justicia, el decreto exige que al menos un acceso desde el espacio exterior, que debe ser el principal, cumpla las condiciones de accesibilidad, y que esté al mismo nivel de la cota exterior siempre que sea posible (art. 64, apartado 1, letra a). Deben ser accesibles a las personas con movilidad reducida, como mínimo, la comunicación entre el exterior y el interior y las áreas y dependencias de utilización colectiva (art. 64, apartado 1, letras a y b). En los edificios de las administraciones públicas o de sus entes instrumentales, la comunicación debe establecerse desde el acceso principal (art. 64, apartado 1, letra c).",
+      "Las puertas de acceso y las interiores deben tener, a ambos lados en el sentido del paso, un espacio libre horizontal donde pueda inscribirse un círculo de 1,20 metros de diámetro, no barrido por las hojas de la puerta (art. 65, apartado 1, letra a). Esta exigencia tiene consecuencias de distribución: los vestíbulos, los pasillos y los accesos a las salas deben dejar ese espacio libre, y un sistema de puerta corredera o de giro condiciona el diseño del hueco."
+     ]
+    },
+    {
+     "titulo": "3. Circulaciones, desniveles y ascensores",
+     "parrafos": [
+      "El Decreto 293/2009 regula las circulaciones interiores en sus artículos 66 a 75: los vestíbulos y pasillos (art. 66), los huecos de paso (art. 67), los paramentos verticales transparentes (art. 68), el acceso a las distintas plantas o desniveles (art. 69), las escaleras (art. 70), las escaleras mecánicas (art. 71), las rampas fijas (art. 72), los tapices rodantes (art. 73), los ascensores (art. 74) y las ayudas técnicas para salvar desniveles (art. 75).",
+      "Para los ascensores, el decreto exige que la cabina permita inscribir un rectángulo de ancho mínimo de 1 metro y de fondo mínimo de 1,25 metros, salvo lo dispuesto en el Real Decreto que regula los ascensores (art. 74, letra a). La normativa de ascensores aplicable es la ITC AEM 1 del RD 355/2024, que se estudia en el tema de instalaciones de transporte vertical.",
+      "En un edificio de varias plantas, la accesibilidad a cada planta es la exigencia que más condiciona el proyecto. Si el edificio tiene ascensor, debe garantizar el acceso a las áreas de uso colectivo; si no lo tiene, el proyecto debe justificar el acceso a las plantas por otros medios o limitar el uso a la planta de acceso. Un edificio docente de varias plantas sin ascensor accesible incumple la exigencia de acceso a las áreas colectivas, aunque la planta baja sea accesible."
+     ]
+    },
+    {
+     "titulo": "3 bis. Vestíbulos, pasillos y escaleras de uso público",
+     "parrafos": [
+      "El artículo 66 del Decreto 293/2009 fija las dimensiones de los vestíbulos: deben permitir inscribir en ellos una circunferencia de 1,50 metros de diámetro no barrida por las hojas de las puertas (art. 66, apartado 1). Esa dimensión es mayor que el círculo de 1,20 metros de las puertas, por lo que el vestíbulo de un edificio público debe prever el espacio de giro de una silla de ruedas en su entrada.",
+      "Los pasillos deben tener un ancho mínimo libre practicable de 1,20 metros. Se admiten alteraciones puntuales de longitud inferior a 50 centímetros, debidas a soluciones estructurales que sobresalen de los paramentos, siempre que dejen un paso mínimo de 0,90 metros de ancho (art. 66, apartado 2). Esta tolerancia permite pilares y pilastras en los pasillos, pero no reduce el paso a menos de 0,90 metros.",
+      "Las escaleras de comunicación entre áreas de uso público cumplen, además de las condiciones del CTE, las del artículo 70 del decreto (art. 70, apartado 1). La anchura libre del tramo debe ser de 1,20 metros como mínimo, sin descontar los pasamanos que sobresalgan de la pared menos de 12 centímetros (art. 70, apartado 2, letra a). Las rampas de comunicación, que el artículo 72 regula, cumplen también las exigencias del CTE y las de ese artículo (art. 72, apartado 1).",
+      "En un edificio docente, la escalera de un patio de recreo o de un pasillo de aulas debe cumplir estas anchuras, y la escalera de evacuación debe cumplir además el DB-SI 3. Una escalera que cumple la accesibilidad, pero no la anchura de evacuación, sigue incumpliendo. El proyecto debe comprobar las dos exigencias sobre el mismo elemento."
+     ]
+    },
+    {
+     "titulo": "4. Aseos, mobiliario y elementos de equipamiento",
+     "parrafos": [
+      "El artículo 77 del decreto regula los aseos de uso público. Los edificios obligados por su normativa sectorial a disponer de aseos de uso público deben tener al menos uno accesible, aislado, con las dimensiones y los elementos que el propio artículo fija (art. 77). En un centro docente, el aseo accesible debe estar en la planta de acceso y próximo a las aulas, porque la accesibilidad de un aseo que no se usa es una exigencia meramente formal.",
+      "El artículo 80 regula el mobiliario y los complementos, el 81 los mostradores, las ventanillas y los puntos de información, y el 82 el equipamiento complementario. Estas exigencias afectan directamente a los edificios administrativos y de justicia, donde las ventanillas, los mostradores de atención al público y las salas de espera deben ser accesibles. El artículo 83 regula los mecanismos de accionamiento y de control, como interruptores, timbres y sistemas de llamada, que deben estar a una altura y con un contraste que permitan su uso.",
+      "El equipamiento de los edificios de la Junta incluye también los sistemas de comunicación y señalización. En el decreto, la información debe ser accesible y los elementos de señalización deben tener el contraste y la altura que la norma establece. En la práctica, la señalética de un edificio público es una parte del diseño accesible, no un añadido posterior."
+     ]
+    },
+    {
+     "titulo": "5. Exigencias del CTE en los edificios docentes y administrativos",
+     "parrafos": [
+      "Un edificio docente tiene una alta densidad de ocupación y una evacuación exigente. El DB-SI, en su tabla de densidades de ocupación (tabla 2.1), fija la ocupación de cada zona por su uso, y en su sección SI 3 establece el número de salidas y la longitud de los recorridos de evacuación según la ocupación (tabla 3.1). El diseño de las aulas, de los pasillos y de las salidas debe calcularse con esa ocupación, no con la superficie total del centro.",
+      "Un edificio administrativo o de justicia tiene menos ocupación por metro cuadrado, pero exige control de accesos, circulaciones separadas para el público y el personal, y salas de espera y de vistas que pueden tener usos de alta ocupación. El DB-SI aplica a estas salas la densidad que corresponda a su uso concreto, por lo que la sala de vistas de un juzgado no puede calcularse con la densidad de una oficina.",
+      "En el ahorro de energía, el DB-HE fija la transmitancia límite de la envolvente según la zona climática, y el edificio público debe cumplirla en sus muros, cubiertas y huecos. La Ley 1/2020, de Andalucía, sobre la mejora de las condiciones térmicas y ambientales de los centros educativos mediante técnicas bioclimáticas y energías renovables, según la búsqueda, impone además criterios adicionales a los centros educativos, que deben verificarse en su texto."
+     ]
+    },
+    {
+     "titulo": "6. Normativa sectorial de los centros docentes",
+     "parrafos": [
+      "Los centros docentes no universitarios han tenido una normativa sectorial propia. Según la búsqueda, el Real Decreto 1004/1991, de 14 de junio, fijó los requisitos mínimos que deben reunir los centros docentes de los niveles no universitarios, y la Consejería de Educación y Ciencia aprobó por orden de 24 de enero de 2003 las normas de diseño y constructivas para los edificios de uso docente. Ninguna de esas dos normas se ha leído en el repositorio, y su vigencia no se ha confirmado.",
+      "Las normas de diseño de un centro docente suelen referirse a la superficie de las aulas por alumno, a las zonas de recreo, a los espacios de servicio y a la separación entre el uso docente y el resto del edificio. Como no se han leído, este tema no cita cifras: el examen debe contrastarlas con la orden vigente.",
+      "La búsqueda sobre la normativa sectorial no encontró un decreto vigente que unifique los criterios de diseño de los centros docentes, por lo que el tema deja la cuestión abierta. El examen debe presentarla como una capa normativa que debe comprobarse en el momento de aplicarla."
+     ]
+    },
+    {
+     "titulo": "7. Criterios de diseño y calidad",
+     "parrafos": [
+      "El criterio general del diseño de un edificio público es la accesibilidad universal desde la planificación, no solo en el acceso. El decreto 293/2009 exige en su artículo 12 que la planificación, el diseño y la urbanización de las vías y espacios de uso público se realicen de manera que resulten accesibles, y el artículo 11 establece que sus disposiciones son mínimos exigibles.",
+      "El segundo criterio es la coherencia de las exigencias. Un edificio docente debe equilibrar la iluminación natural de las aulas, el control solar, la ventilación y el aislamiento acústico entre aulas y pasillos. Un hueco amplio que mejora la luz natural puede empeorar la transmitancia y el aislamiento, por lo que la elección del hueco es un punto de diseño integrado, no una decisión aislada.",
+      "El tercer criterio es la durabilidad y el mantenimiento. Los edificios públicos tienen una vida útil larga y un uso intenso, por lo que los materiales de las zonas de paso, de las aulas y de las salas de atención deben elegirse por su resistencia. El tema no cita valores de resistencia, pero el criterio de elección es el mismo que el del CTE en la sección de mantenimiento.",
+      "Un cuarto criterio, de práctica profesional, es la separación de los flujos de circulación. Un centro docente separa los accesos de alumnos, personal y servicios de apoyo; un edificio de justicia separa el público, los detenidos cuando los hay y los jueces o funcionarios. Esa separación no es una exigencia numerada del CTE ni del Decreto 293/2009, pero condiciona el número de accesos, la ubicación de las escaleras y de los ascensores, y la seguridad del conjunto."
+     ]
+    },
+    {
+     "titulo": "8. Equipamiento, dotaciones e instalaciones",
+     "parrafos": [
+      "Las dotaciones de un edificio público son las instalaciones de protección contra incendios, las instalaciones de fontanería, saneamiento, climatización y electricidad, y el equipamiento específico de cada uso. El DB-SI exige extintores, bocas de incendio en las zonas de riesgo especial alto y la altura de ascensor de emergencia en los edificios de altura de evacuación superior a 28 metros (SI 4, tabla 1.1). Un centro docente de dos o tres plantas no suele llegar a esa altura, pero debe cumplir la dotación de extintores.",
+      "El DB-HS exige la red de agua y de evacuación, con sus caudales y presiones (HS 4 y HS 5), y el DB-HS 3 la ventilación de los recintos. En un centro docente, la ventilación de las aulas es una exigencia básica de calidad del aire interior, con un caudal de aire exterior suficiente para los ocupantes (CTE, art. 13.3). El equipamiento de climatización debe cumplir el RITE, que el tema e09 y e10 ya recogen.",
+      "Los ascensores, las plataformas y las escaleras de un edificio público siguen el régimen de la normativa de ascensores y de accesibilidad, con sus revisiones periódicas. El mantenimiento de estas dotaciones forma parte del plan de mantenimiento del edificio que exige el CTE (art. 8.1, apartado 3).",
+      "En cada instalación, el proyecto debe incluir el cálculo que la justifica y el mantenimiento que la conserva. Un equipamiento que no tiene mantenimiento documentado no cumple la exigencia de conservación del CTE, aunque su diseño sea correcto. Por eso, la dotación de un edificio público se valora por su diseño y por la capacidad de la Administración para mantenerla."
+     ]
+    },
+    {
+     "titulo": "8 bis. Relación con las exigencias del CTE ya estudiadas",
+     "parrafos": [
+      "Un edificio público aplica las exigencias del CTE que se han estudiado en los temas anteriores, y cada una tiene cifras que el examen puede pedir. En la seguridad de utilización, la altura libre de paso mínima de 2,20 metros en zonas de circulación y de 2,10 metros en uso restringido, y la barrido de hojas que no invade el pasillo cuando este tiene menos de 2,50 metros, son exigencias del DB-SUA 2 que se estudian en el tema de carpinterías y elementos de protección (DB-SUA 2, apartado 1, puntos 1 y 2). Las áreas de riesgo de impacto en puertas, hasta 1,50 metros de altura, son también de ese tema.",
+      "En la seguridad en caso de incendio, el edificio docente debe cumplir la tabla de densidades de ocupación, la tabla de salidas y los recorridos de evacuación del DB-SI 3, y las instalaciones de la tabla 1.1 del DB-SI 4, con extintores a no más de 15 metros de recorrido (tema de seguridad en caso de incendio). Los accesos de los bomberos exigen un vial de 3,5 metros de anchura libre y un espacio de maniobra cuando la altura de evacuación supera los 9 metros (DB-SI 5, apartados 1.1 y 1.2).",
+      "En el ahorro de energía, el edificio administrativo debe cumplir las transmitancias límite de la tabla 3.1.1.a del DB-HE 1 según su zona climática, y el edificio docente debe cumplir además las exigencias de iluminación de HE 3, con control de la ocupación (CTE, art. 15.4). En salubridad, la red de agua debe garantizar la presión mínima de 100 kPa en los grifos y la de evacuación debe cumplir el sello de agua de los cierres hidráulicos, y en la calidad del aire interior el DB-HS 3 exige la ventilación de los recintos (CTE, art. 13.3)."
+     ]
+    },
+    {
+     "titulo": "8 ter. Secuencia práctica de un proyecto de edificio público",
+     "parrafos": [
+      "La secuencia de un proyecto de edificio público sigue la de cualquier edificio, con los requisitos de la Administración como condiciones previas. Primero se define el programa de necesidades, es decir, los usos, las superficies y el número de ocupantes de cada zona, que es la base para el cálculo de la ocupación y de la evacuación. Después se elige la parcela y se estudia su planeamiento, porque el uso docente, administrativo o de justicia debe ser compatible con la calificación del suelo.",
+      "Después vienen el anteproyecto y el proyecto, en los que se resuelven las exigencias del CTE y del Decreto 293/2009. El proyecto debe incluir la justificación documental de cada exigencia, y en las instalaciones, el proyecto de cada instalación. La licencia municipal se concede sobre el proyecto, y la ejecución se controla según las reglas del control de calidad del CTE (art. 7, tema correspondiente).",
+      "Al final de la obra, el edificio público necesita la comprobación de las pruebas de servicio, la documentación final y el libro del edificio, que incluye el plan de mantenimiento (CTE, art. 8.1, apartado 3). Los usuarios de un edificio público dependen de ese mantenimiento para conservar la accesibilidad y la seguridad, por lo que el plan debe incluir las revisiones de los ascensores, de las instalaciones de incendio y de los aseos accesibles."
+     ]
+    },
+    {
+     "titulo": "9. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir la relación de usos del artículo 62 del Decreto 293/2009, el círculo de 1,20 metros de las puertas (art. 65), las dimensiones del rectángulo de la cabina del ascensor (art. 74), las exigencias del CTE aplicables a un edificio docente y la ocupación de la tabla 2.1 del DB-SI. Conviene memorizar la lista de usos del artículo 62 y los tres criterios de diseño.",
+      "Los errores habituales son cuatro. El primero es suponer que los edificios de la Junta tienen una normativa única de diseño, cuando la normativa se compone de capas. El segundo es calcular la evacuación de un centro docente con la densidad de oficina. El tercero es olvidar que el aseo accesible debe estar en la planta de acceso. El cuarto es citar la Orden de 2003 o el Real Decreto 1004/1991 como vigentes sin haber confirmado su vigencia.",
+      "Para un caso práctico de un centro docente de tres plantas, el orden de análisis es: determinar el uso según el artículo 62; comprobar la accesibilidad del acceso principal (art. 64) y de las puertas (art. 65); verificar el ascensor y los aseos accesibles (arts. 74 y 77); calcular la ocupación con la tabla 2.1 y la evacuación con la tabla 3.1 del DB-SI; y comprobar la envolvente y la ventilación según el DB-HE y el DB-HS 3.",
+      "El tema se relaciona con el de accesibilidad y con el de seguridad en caso de incendio. En los tres casos el examen busca la cifra exacta de la norma, y por eso conviene estudiar cada exigencia con su artículo. Un error frecuente es responder con la cifra de una exigencia parecida, como el círculo de 1,20 metros de las puertas, cuando la pregunta trata del vestíbulo, que tiene su propia circunferencia de 1,50 metros.",
+      "Para repasar el tema, conviene construir un cuadro comparativo con tres columnas: el elemento (puerta, vestíbulo, pasillo, escalera, ascensor, aseo), la dimensión del Decreto 293/2009 y la exigencia del CTE que se le aplica. Ese cuadro sirve para responder a casi todas las preguntas de caso práctico del tema."
+     ]
+    },
+    {
+     "titulo": "10. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 11 del Decreto 293/2009 (encabezado), el artículo 12 (encabezado), el artículo 62 (lista de usos), el artículo 64 (apartado 1, letras a, b y c), el artículo 65 (apartado 1, letra a), el artículo 74 (letra a) y el artículo 77 (encabezado); el CTE en sus artículos 8.1 (apartado 3), 10 a 15 (encabezados) y 13.3; el DB-SI en las tablas 2.1 y 3.1, y en SI 4 (tabla 1.1); y la Ley 1/2020 y el Real Decreto 1004/1991 solo a partir de la búsqueda.",
+      "No se han leído en el texto completo los artículos 66 a 83 del Decreto 293/2009, ni la normativa sectorial de centros docentes, administrativos o de justicia. Tampoco se ha localizado un decreto de la Junta que unifique los criterios de diseño de los edificios administrativos y de justicia en el repositorio.",
+      "La orden de 24 de enero de 2003 sobre normas de diseño de los edificios docentes, el Real Decreto 1004/1991 y la Ley 1/2020 deben contrastarse con su texto vigente, porque no se han leído y pueden estar derogados o modificados. Las cifras de superficie y de ocupación de las normas sectoriales no se han incluido por esa razón.",
+      "Las dimensiones citadas en este tema proceden del texto del Decreto 293/2009 leído en el repositorio. Antes de usarlas en un proyecto real, debe comprobarse que el decreto no ha sido modificado con posterioridad, porque la norma autonómica de accesibilidad ha tenido desarrollos sucesivos.",
+      "Las cifras de la sección 8 bis proceden de los temas de seguridad en caso de incendio, de seguridad de utilización, de energía y de salubridad, que se han verificado en su propio texto. Este tema solo las reúne, y no las vuelve a verificar."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-1999-21567.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/DB-SI.pdf",
+    "leyes/DB-HE.pdf",
+    "leyes/DEC-AND-293-2009.pdf"
+   ]
+  },
+  "e37": {
+   "resumen": [
+    {
+     "titulo": "Marco normativo",
+     "puntos": [
+      "Tres capas: el CTE (arts. 10 a 15), el Decreto 293/2009 de accesibilidad en Andalucía y la normativa sectorial de cada uso. El Decreto 293/2009 se aplica a los usos sanitarios, culturales y de espectáculos (art. 62).",
+      "Normativa sanitaria: Decreto 69/2008, según la búsqueda, con requisitos en su anexo III, que no se ha leído. Patrimonio: Ley 14/2007, título IX, para los espacios culturales."
+     ]
+    },
+    {
+     "titulo": "Usos y accesibilidad",
+     "puntos": [
+      "El artículo 62 relaciona los usos, entre ellos los sanitarios (letra c) y las actividades culturales y sociales (letra e). El acceso principal debe ser accesible, al mismo nivel de la cota exterior siempre que sea posible (art. 64, apartado 1, letra a).",
+      "Aseos de uso público: al menos uno accesible y aislado en los edificios obligados (art. 77)."
+     ]
+    },
+    {
+     "titulo": "Circulaciones",
+     "puntos": [
+      "Pasillos: ancho mínimo libre de 1,20 metros, con alteraciones puntuales que dejen un paso de 0,90 metros (art. 66, apartado 2). Las alteraciones deben tener menos de 50 centímetros de longitud."
+     ]
+    },
+    {
+     "titulo": "Exigencias del CTE",
+     "puntos": [
+      "Evacuación de aguas residuales de forma independiente o conjunta con las pluviales (CTE, art. 13.5). Extintor portátil de eficacia 21A-113B (DB-SI 4, tabla 1.1). Ascensor de emergencia en plantas con altura de evacuación superior a 28 metros (DB-SI 4, tabla 1.1).",
+      "El DB-HR limita el ruido reverberante en las zonas comunes (DB-HR, apartado 2.2)."
+     ]
+    },
+    {
+     "titulo": "Patrimonio y bienes culturales",
+     "puntos": [
+      "En los monumentos está prohibida la colocación de publicidad comercial y de cables, antenas y conducciones aparentes en fachadas y cubiertas (LPHA, art. 33, apartado 2).",
+      "No puede declararse bien de interés cultural la obra de un autor vivo, salvo autorización del propietario o adquisición por la Administración (LPHE, art. 9, apartado 4)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "DEC-AND-293-2009",
+     "rol": "Accesibilidad en edificios de uso público: usos sanitarios y culturales (art. 62), accesos (art. 64), pasillos (art. 66) y aseos (art. 77)"
+    },
+    {
+     "id": "LPHA-14-2007",
+     "rol": "Patrimonio histórico andaluz: prohibiciones en monumentos y espacios culturales (arts. 33 y 75 a 83)"
+    },
+    {
+     "id": "CTE",
+     "rol": "Exigencias básicas de salubridad y seguridad en caso de incendio aplicables a los equipamientos (arts. 13 y 11)"
+    },
+    {
+     "id": "LPHE-16-1985",
+     "rol": "Declaración de bien de interés cultural por ley o real decreto: autor vivo (art. 9, apartado 4)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el Decreto 293/2009, art. 62, letra c, ¿qué uso figura en la relación de edificios de uso público?",
+     "opciones": [
+      "Sanitarios",
+      "Ganadero",
+      "Agrícola",
+      "Forestal"
+     ],
+     "correcta": 0,
+     "explicacion": "El artículo 62 incluye, en la letra c, los edificios sanitarios entre los usos a los que se aplica el Título II de accesibilidad.",
+     "referencia": "Decreto 293/2009, art. 62, letra c)"
+    },
+    {
+     "pregunta": "Según el Decreto 293/2009, art. 62, letra e, ¿qué uso aparece en la relación?",
+     "opciones": [
+      "Almacenes agrícolas",
+      "Viviendas unifamiliares aisladas",
+      "Actividades culturales y sociales",
+      "Explotaciones mineras"
+     ],
+     "correcta": 2,
+     "explicacion": "La letra e del artículo 62 incluye las actividades culturales y sociales entre los usos afectados por el Título II.",
+     "referencia": "Decreto 293/2009, art. 62, letra e)"
+    },
+    {
+     "pregunta": "Según el Decreto 293/2009, art. 77, ¿cuántos aseos de uso público accesibles y aislados deben disponer los edificios obligados por su normativa sectorial?",
+     "opciones": [
+      "Exactamente tres",
+      "Uno por cada veinte personas",
+      "Ninguno",
+      "Al menos uno"
+     ],
+     "correcta": 3,
+     "explicacion": "En los edificios obligados por su normativa sectorial a disponer de aseos aislados de uso público, al menos uno debe ser accesible (art. 77).",
+     "referencia": "Decreto 293/2009, art. 77"
+    },
+    {
+     "pregunta": "Según el Decreto 293/2009, art. 66, apartado 2, ¿qué paso mínimo debe quedar cuando la alteración puntual de un pasillo es inferior a 50 centímetros?",
+     "opciones": [
+      "0,60 metros",
+      "0,90 metros",
+      "1,50 metros",
+      "2,00 metros"
+     ],
+     "correcta": 1,
+     "explicacion": "Se admiten alteraciones puntuales de longitud inferior a 50 centímetros, siempre que dejen un paso mínimo de 0,90 metros de ancho (art. 66, apartado 2).",
+     "referencia": "Decreto 293/2009, art. 66, apartado 2"
+    },
+    {
+     "pregunta": "Según el CTE, art. 13.5, ¿cómo deben extraerse las aguas residuales del edificio?",
+     "opciones": [
+      "De forma independiente o conjunta con las precipitaciones atmosféricas y las escorrentías",
+      "Solo mediante bombas portátiles",
+      "No se regula",
+      "Solo por la fachada, sin conexión a la red"
+     ],
+     "correcta": 0,
+     "explicacion": "El artículo 13.5 exige medios adecuados para extraer las aguas residuales de forma independiente o conjunta con las precipitaciones atmosféricas y las escorrentías (exigencia HS 5).",
+     "referencia": "CTE, art. 13.5"
+    },
+    {
+     "pregunta": "Según el DB-SI, SI 4, tabla 1.1, ¿qué eficacia mínima tiene el extintor portátil exigido con carácter general?",
+     "opciones": [
+      "55A-233B",
+      "2A-10B",
+      "21A-113B",
+      "34A-144B"
+     ],
+     "correcta": 2,
+     "explicacion": "La tabla 1.1 exige un extintor portátil de eficacia 21A-113B, a no más de 15 metros de recorrido desde todo origen de evacuación.",
+     "referencia": "DB-SI, SI 4, tabla 1.1"
+    },
+    {
+     "pregunta": "Según el DB-SI, SI 4, tabla 1.1, ¿a partir de qué altura de evacuación se exige un ascensor de emergencia?",
+     "opciones": [
+      "Más de 80 metros",
+      "Más de 9 metros",
+      "Más de 15 metros",
+      "Más de 28 metros"
+     ],
+     "correcta": 3,
+     "explicacion": "El ascensor de emergencia se exige en las plantas cuya altura de evacuación exceda de 28 metros (SI 4, tabla 1.1).",
+     "referencia": "DB-SI, SI 4, tabla 1.1"
+    },
+    {
+     "pregunta": "Según el DB-HR, apartado 2.2, ¿qué elemento limita este apartado?",
+     "opciones": [
+      "El consumo de agua caliente",
+      "El ruido reverberante en las zonas comunes, mediante acabados adecuados",
+      "El peso de las cimentaciones",
+      "La altura de los vallados de parcela"
+     ],
+     "correcta": 1,
+     "explicacion": "El apartado 2.2 del DB-HR define los valores límite del tiempo de reverberación, y para limitar el ruido reverberante en las zonas comunes exige que los elementos constructivos y acabados sean adecuados.",
+     "referencia": "DB-HR, apartado 2.2"
+    },
+    {
+     "pregunta": "Según la LPHE, art. 9, apartado 4, ¿puede declararse bien de interés cultural la obra de un autor vivo?",
+     "opciones": [
+      "Solo si el autor es arquitecto técnico",
+      "Sí, en todos los casos",
+      "No, salvo autorización expresa del propietario o adquisición por la Administración",
+      "Sí, si el autor lo solicita"
+     ],
+     "correcta": 2,
+     "explicacion": "No puede declararse bien de interés cultural la obra de un autor vivo, salvo si existe autorización expresa de su propietario o media su adquisición por la Administración (LPHE, art. 9, apartado 4).",
+     "referencia": "LPHE, art. 9, apartado 4"
+    },
+    {
+     "pregunta": "Según el DB-HR, apartado 2.3, punto 1, ¿qué deben limitar las instalaciones del edificio?",
+     "opciones": [
+      "El ruido y las vibraciones que transmiten a los recintos protegidos y habitables",
+      "El color de las tuberías",
+      "La altura de los techos",
+      "El número de ventanas"
+     ],
+     "correcta": 0,
+     "explicacion": "Se limitarán los niveles de ruido y de vibraciones que las instalaciones puedan transmitir a los recintos protegidos y habitables, a través de sus sujeciones o puntos de contacto (DB-HR, apartado 2.3, punto 1).",
+     "referencia": "DB-HR, apartado 2.3, punto 1"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Marco normativo de los equipamientos públicos",
+     "parrafos": [
+      "Los centros sanitarios, asistenciales, culturales y deportivos de la Junta de Andalucía se proyectan con un marco normativo que combina el Código Técnico de la Edificación, la normativa de accesibilidad de Andalucía y la normativa sectorial de cada uso. El CTE (arts. 10 a 15) fija las exigencias básicas de todos los edificios, y el Decreto 293/2009 fija la accesibilidad de los edificios de uso público.",
+      "La normativa sectorial es la que más varía según el tipo de centro. Los centros sanitarios tienen una regulación específica de autorización y de funcionamiento, que en Andalucía se articula en el Decreto 69/2008, según la búsqueda. Los espacios culturales tienen su propio régimen en la Ley 14/2007, del Patrimonio Histórico de Andalucía, que los regula en su título IX. Las instalaciones deportivas no tienen en el repositorio una norma autonómica de diseño que se haya podido verificar.",
+      "Este tema combina, por tanto, normas verificadas, como el Decreto 293/2009 y la Ley 14/2007, con normas localizadas por búsqueda, como el Decreto 69/2008, y con criterios de práctica profesional que no tienen rango normativo. Cada parte se señala en el texto.",
+      "La distinción entre norma verificada y norma localizada es el punto metodológico del tema. El Decreto 293/2009 y la Ley 14/2007 se han leído en el texto del repositorio; el Decreto 69/2008 y la consulta sobre su simplificación se han localizado por búsqueda; y los criterios de diseño son práctica profesional. Esa distinción debe mantenerse en la respuesta de examen."
+     ]
+    },
+    {
+     "titulo": "2. Accesibilidad de los centros de uso público: el Decreto 293/2009",
+     "parrafos": [
+      "El artículo 62 del Decreto 293/2009 relaciona los usos a los que se aplica el Título II, y entre ellos figuran los sanitarios, los servicios sociales, las actividades culturales y sociales, y los espectáculos públicos recogidos en el catálogo autonómico de espectáculos (art. 62, letras c, d, e y l). Un centro sanitario, un centro asistencial o un espacio cultural están, por tanto, incluidos en el régimen de accesibilidad del decreto.",
+      "El acceso principal desde el exterior debe cumplir las condiciones de accesibilidad, con el acceso al mismo nivel de la cota exterior siempre que sea posible (art. 64, apartado 1, letra a). Deben ser accesibles, como mínimo, la comunicación entre el exterior y el interior y las áreas de utilización colectiva (art. 64, apartado 1, letras a y b). En un centro sanitario, las áreas de espera, de consulta y de tratamiento son de utilización colectiva, y su acceso debe ser accesible.",
+      "Las puertas deben tener un círculo libre de 1,20 metros a ambos lados (art. 65, apartado 1, letra a), y los vestíbulos deben permitir inscribir una circunferencia de 1,50 metros no barrida por las hojas (art. 66, apartado 1). Estas dimensiones son las mismas para el centro sanitario, el centro cultural y el edificio administrativo, porque el decreto no distingue el uso en la accesibilidad básica.",
+      "La accesibilidad de un centro sanitario o cultural no se limita a su planta de acceso. El decreto exige accesibilidad a las áreas de utilización colectiva, y en un hospital o en un centro asistencial esas áreas son las salas de espera, las consultas, los pasillos de hospitalización y los aseos. Cada una de ellas debe cumplir las dimensiones de los artículos 65, 66 y 77, aunque el uso sea distinto."
+     ]
+    },
+    {
+     "titulo": "3. Circulaciones, aseos y equipamiento accesible",
+     "parrafos": [
+      "Los pasillos deben tener un ancho mínimo libre de 1,20 metros, con alteraciones puntuales que dejen al menos 0,90 metros de paso (art. 66, apartado 2). Las escaleras de uso público tienen una anchura libre de tramo de 1,20 metros como mínimo (art. 70, apartado 2, letra a), y los ascensores deben permitir inscribir un rectángulo de 1 metro de ancho y 1,25 metros de fondo en la cabina (art. 74, letra a).",
+      "El artículo 77 del decreto regula los aseos de uso público: en los edificios obligados por su normativa sectorial, al menos uno debe ser accesible y aislado. En un centro sanitario, los aseos de pacientes y de visitantes deben cumplir esta exigencia, y en un espacio cultural, los aseos del público. El artículo 79 regula los dormitorios y unidades de alojamiento, que pueden ser relevantes en los centros asistenciales.",
+      "El equipamiento accesible incluye el mobiliario, los mostradores, las ventanillas y los puntos de información (arts. 80 a 82), y los mecanismos de accionamiento y de control (art. 83). En un centro sanitario, los mecanismos de la camilla, las cabinas de consulta y las puertas de acceso a las salas de tratamiento son elementos que deben diseñarse con esta exigencia."
+     ]
+    },
+    {
+     "titulo": "4. Normativa sectorial de los centros sanitarios",
+     "parrafos": [
+      "Según la búsqueda, el Decreto 69/2008, de 26 de febrero, establece los procedimientos de las autorizaciones sanitarias en Andalucía y crea el Registro Andaluz de Centros, Servicios y Establecimientos Sanitarios. Sus requisitos técnicos de funcionamiento se encuentran en su anexo III, que contiene las condiciones de estructura, instalaciones y equipamiento para los distintos tipos de unidades asistenciales y centros.",
+      "Como el anexo III no se ha leído en el repositorio, este tema no reproduce sus exigencias. El arquitecto técnico que proyecta un centro sanitario debe obtener el anexo vigente y comprobar cada requisito con el tipo de centro concreto: un centro de atención primaria, un centro de diagnóstico y un hospital tienen condiciones distintas.",
+      "La búsqueda también indicó que el régimen de autorización está en proceso de simplificación, mediante una consulta pública de la Junta. Esa circunstancia debe comprobarse antes de citar el decreto como vigente en su forma actual.",
+      "El procedimiento de autorización sanitaria tiene dos fases en la práctica: la comprobación de los requisitos técnicos del centro, que se refleja en el proyecto y en su documentación, y el registro del centro en el registro autonómico una vez autorizado. Según la búsqueda, el Decreto 69/2008 crea ese registro, y el técnico debe presentar la documentación del proyecto con la solicitud. El orden exacto de la tramitación debe comprobarse en la norma vigente, porque el procedimiento ha sido objeto de cambios."
+     ]
+    },
+    {
+     "titulo": "5. Centros culturales y el patrimonio histórico",
+     "parrafos": [
+      "Los espacios culturales de la Junta se regulan, en su parte patrimonial, en la Ley 14/2007, del Patrimonio Histórico de Andalucía. Su título IX, en los artículos 75 a 83, regula las instituciones del patrimonio histórico: los espacios culturales, con su concepto (art. 76) y su clasificación (art. 77), los conjuntos culturales (arts. 78 a 80), los parques culturales (arts. 81 y 82) y la red de espacios culturales de Andalucía (art. 83).",
+      "Cuando el edificio cultural es un bien inscrito en el Catálogo General del Patrimonio Histórico Andaluz, cualquier obra de adecuación necesita la autorización de la Consejería competente, previa a las licencias (art. 33, apartado 3), como se ha estudiado en el tema de patrimonio histórico. Esta autorización puede condicionar la accesibilidad del edificio, porque las rampas, los ascensores y las puertas son intervenciones sobre el bien.",
+      "En un edificio cultural de nueva construcción no hay restricción patrimonial, pero el equipamiento escénico, las salas de exposición y los depósitos tienen exigencias propias de conservación y de seguridad, que la práctica profesional recoge y que no se han verificado en un texto normativo.",
+      "La LPHA y el Decreto 293/2009 coinciden en un punto práctico: la accesibilidad de un bien patrimonial no puede resolverse con cualquier solución. Una rampa o un ascensor en un edificio inscrito necesita la autorización de la Consejería, por lo que el proyecto debe presentar la solución de accesibilidad junto con la solicitud de intervención, y no después."
+     ]
+    },
+    {
+     "titulo": "5 bis. Autorización del patrimonio en un espacio cultural inscrito",
+     "parrafos": [
+      "Cuando el edificio cultural está inscrito en el Catálogo General como bien de interés cultural, la intervención sigue el régimen del tema de patrimonio histórico. La LPHA exige que cualquier cambio o modificación en el inmueble, o en su entorno, cuente con la autorización de la Consejería competente, previa a las restantes licencias, y que se trate de obras de todo tipo, cambios de uso o modificaciones de las instalaciones y accesorios (art. 33, apartado 3). Esa autorización alcanza a las instalaciones que un centro cultural renueva, como la climatización, la iluminación escénica o el ascensor.",
+      "La declaración de bien de interés cultural se regula en la LPHE, cuyo artículo 9 exige un expediente con informe favorable y, en los inmuebles, información pública y audiencia al ayuntamiento, con un plazo máximo de veinte meses (art. 9, apartados 2 y 3). Un espacio cultural que nace como bien de interés cultural debe considerar ese procedimiento antes del proyecto, porque condiciona su tramitación.",
+      "En la práctica, la intervención en un espacio cultural inscrito empieza por la consulta a la Consejería, sigue con el proyecto de conservación y termina con la licencia. Cada paso es previo al siguiente. El arquitecto técnico que dirige la obra debe comprobar que las dos autorizaciones, la del patrimonio y la de la licencia, están en el expediente antes del acta de replanteo."
+     ]
+    },
+    {
+     "titulo": "6. Instalaciones deportivas",
+     "parrafos": [
+      "Las instalaciones deportivas de uso público están incluidas en el régimen general de accesibilidad y de seguridad de los edificios. Los vestuarios, las duchas y los aseos son los elementos de accesibilidad más relevantes, y el Decreto 293/2009 regula el acceso a los vasos, los bordes y los vestuarios, duchas y aseos en sus artículos 86 a 88, según su índice, aunque el tema no ha leído el texto de esos artículos.",
+      "Las instalaciones deportivas tienen también exigencias específicas de seguridad de uso, de superficie de juego y de equipamiento. Esas exigencias proceden de las normas técnicas deportivas y de la normativa sectorial, que no se han localizado en el repositorio. Por eso el tema no cita cifras de dimensiones de pistas ni de equipamiento.",
+      "En un pabellón o en una piscina, la accesibilidad y la seguridad de uso se cruzan. Un vaso de piscina debe tener accesos accesibles y bordes con las condiciones de seguridad que fija la norma, y el técnico debe comprobar ambas exigencias en el mismo proyecto. Esta coordinación es la que el examen suele evaluar, más que las cifras concretas.",
+      "Las instalaciones deportivas de uso público también se apoyan en el CTE para su seguridad estructural, su evacuación y sus instalaciones, aunque la superficie de juego y el equipamiento deportivo tengan su propia norma. El técnico debe identificar qué parte del edificio es un recinto de pública concurrencia, con su ocupación y su evacuación, y qué parte es una pista o un vaso, con su norma específica."
+     ]
+    },
+    {
+     "titulo": "7. Exigencias del CTE aplicadas a los equipamientos",
+     "parrafos": [
+      "Un centro sanitario tiene exigencias de salubridad y de calidad del aire muy estrictas, porque la ventilación de los recintos y la evacuación de las aguas son parte de su seguridad. El DB-HS 3 regula la ventilación de los recintos (CTE, art. 13.3), y el DB-HS 4 y el DB-HS 5 regulan el agua y la evacuación (art. 13.4 y 13.5). En el centro sanitario, estos requisitos no son solo de confort, sino de control de infecciones.",
+      "En seguridad en caso de incendio, un centro sanitario tiene una evacuación especialmente exigente, por la presencia de personas con movilidad reducida. El DB-SI 3 fija la ocupación por uso y las salidas, y el DB-SI 4 la dotación de instalaciones, con los extintores a no más de 15 metros de recorrido (tabla 1.1). Un espacio cultural con gran ocupación, como un auditorio, se calcula con la densidad de ocupación que le corresponda por su uso.",
+      "En ahorro de energía, los centros sanitarios y culturales deben cumplir las transmitancias límite de la envolvente del DB-HE 1 según su zona climática, y las exigencias de iluminación de HE 3 con control de la ocupación. En el aislamiento acústico, un auditorio o una sala de terapia necesitan un tiempo de reverberación adecuado, que el DB-HR limita en sus zonas comunes (DB-HR, apartado 2.2).",
+      "El artículo 62 del Decreto 293/2009 es, así, el punto de partida: identifica el uso del edificio y, a partir de él, activa las exigencias de accesibilidad del título II. Un equipamiento que no figura en el listado de usos no queda por ello fuera de la accesibilidad, porque el CTE y la normativa general siguen siendo de aplicación."
+     ]
+    },
+    {
+     "titulo": "8. Equipamiento, dotaciones e instalaciones",
+     "parrafos": [
+      "Las dotaciones de un centro sanitario incluyen las instalaciones de gases medicinales, la climatización con control de calidad del aire, las instalaciones eléctricas con alimentación de seguridad y los sistemas de llamada. Muchas de ellas están reguladas por normas sectoriales que no se han verificado en el repositorio, y solo se enuncian como categorías.",
+      "Las dotaciones de un espacio cultural incluyen la iluminación escénica, los sistemas de sonido, los depósitos de obras y los sistemas de control climático para la conservación de los bienes expuestos. Estos sistemas tienen una relación directa con el RITE para la climatización (que se estudia en el tema de climatización) y con el REBT para la instalación eléctrica (que se estudia en el tema de instalaciones eléctricas).",
+      "Las dotaciones de un centro deportivo incluyen los vestuarios, las duchas, los sistemas de climatización y ventilación de la nave, y la instalación de agua y de depuración en las piscinas. Cada una tiene su norma sectorial, y el técnico debe localizarla antes de dimensionarla.",
+      "La dotación de un equipamiento debe calcularse con la misma lógica que la ocupación: a partir del uso previsto y del número de personas. Un centro sanitario calcula sus aseos y sus instalaciones de agua a partir de los puestos de consulta y de tratamiento, y un espacio cultural a partir del aforo. Esa coherencia entre el programa y la dotación es lo que el técnico debe justificar en la memoria."
+     ]
+    },
+    {
+     "titulo": "8 bis. Relación con las exigencias del CTE ya estudiadas",
+     "parrafos": [
+      "Un centro sanitario o cultural aplica las exigencias del CTE estudiadas en los temas anteriores, y cada una tiene cifras que el examen puede pedir. En la seguridad de utilización, las zonas de circulación exigen una altura libre de paso de 2,20 metros, y las puertas de vidrio de zonas de riesgo deben tener vidrio laminado o templado con impacto de nivel 3, según el DB-SUA 2 (tema de carpinterías y elementos de protección).",
+      "En la seguridad en caso de incendio, la ocupación se calcula con la densidad de la tabla 2.1 del DB-SI 3, las salidas con la tabla 3.1 y las dotaciones con la tabla 1.1 del DB-SI 4. En los centros con gran ocupación, como un auditorio, la evacuación es la exigencia que más condiciona la distribución (tema de seguridad en caso de incendio).",
+      "En el ahorro de energía, el DB-HE 1 fija las transmitancias límite de la envolvente según la zona climática, y el DB-HE 3 exige un sistema de control que ajuste la iluminación a la ocupación real (CTE, art. 15.4). En la protección frente al ruido, el DB-HR limita el ruido reverberante en las zonas comunes, con acabados y revestimientos adecuados (DB-HR, apartado 2.2). En la salubridad, el DB-HS 3 regula la ventilación de los recintos y el DB-HS 4 y el DB-HS 5 el agua y la evacuación (CTE, arts. 13.3 a 13.5)."
+     ]
+    },
+    {
+     "titulo": "9. Criterios de diseño y calidad",
+     "parrafos": [
+      "El primer criterio es la accesibilidad universal desde el diseño. En un centro sanitario o cultural, el usuario puede tener una discapacidad o una movilidad reducida transitoria, por lo que el acceso, los itinerarios y los aseos deben ser accesibles por diseño y no por adaptación posterior.",
+      "El segundo criterio es la separación de flujos. Un centro sanitario separa el acceso de pacientes del de personal y del de suministros, y un espacio cultural separa el público del de carga y descarga de obras. Esa separación afecta a la ubicación de los ascensores, de las escaleras y de los accesos, y tiene consecuencias de seguridad.",
+      "El tercer criterio es la durabilidad y la conservación. Un centro sanitario debe mantener la limpieza y la higiene de sus superficies, y un espacio cultural debe conservar sus obras con condiciones estables de temperatura y humedad. Estos criterios son de práctica profesional y no se han verificado en un texto normativo.",
+      "Un cuarto criterio es la flexibilidad. Un centro sanitario o un espacio cultural cambia con el tiempo: las salas se reconvierten, aparecen nuevas tecnologías y cambia la demanda. Un diseño que prevé espacios de reserva y de ampliación con accesos independientes facilita ese cambio sin que la obra afecte a la accesibilidad del conjunto."
+     ]
+    },
+    {
+     "titulo": "9 bis. Secuencia de un proyecto de equipamiento público",
+     "parrafos": [
+      "El proyecto de un equipamiento público sigue una secuencia que el examen puede pedir. Primero se define el programa de usos, con las superficies y la ocupación de cada zona, porque de ellas dependen la evacuación, los aseos y los accesos. Después se estudia la parcela y su planeamiento, y, si el edificio tiene valor patrimonial, la autorización de la Consejería. Solo entonces se redacta el proyecto, con la justificación del CTE, del Decreto 293/2009 y de la normativa sectorial.",
+      "En la ejecución, el control de calidad del CTE (art. 7) y las comprobaciones de las instalaciones son obligatorias. La puesta en servicio de las instalaciones sanitarias, de climatización y de protección contra incendios se documenta con sus pruebas, y esa documentación se incorpora al libro del edificio (CTE, art. 8.1, apartado 2).",
+      "Al final, el equipamiento necesita el plan de mantenimiento. En un centro sanitario, el mantenimiento de las instalaciones es una cuestión de seguridad del paciente; en un espacio cultural, de conservación de las obras; y en una instalación deportiva, de seguridad del usuario. El plan debe reflejar esas diferencias, y el CTE exige que incluya la planificación de las operaciones programadas (art. 8.1, apartado 3)."
+     ]
+    },
+    {
+     "titulo": "10. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir la inclusión de los centros sanitarios y culturales en el artículo 62 del Decreto 293/2009, las dimensiones de accesibilidad de los pasillos, las escaleras y los ascensores, la regulación de los espacios culturales en la Ley 14/2007 (art. 76 y siguientes) y las exigencias del CTE aplicables a un centro sanitario. Conviene memorizar la lista de usos del artículo 62 y las dimensiones comunes a todos los centros de uso público.",
+      "Los errores habituales son cuatro. El primero es suponer que el Decreto 293/2009 tiene dimensiones distintas para cada uso, cuando la accesibilidad básica es común. El segundo es olvidar que un edificio cultural inscrito como bien de interés cultural necesita autorización previa de la Consejería. El tercero es citar cifras de las normas sanitarias o deportivas sin haberlas verificado. El cuarto es olvidar que la licencia y las autorizaciones sectoriales son distintas.",
+      "Para un caso práctico de un centro sanitario de atención primaria, el orden de análisis es: identificar el uso en el artículo 62; comprobar la accesibilidad del acceso principal (art. 64), de las puertas (art. 65) y de los aseos (art. 77); verificar la ocupación y la evacuación del DB-SI; comprobar las exigencias de salubridad del CTE; y obtener la autorización sanitaria según la normativa sectorial vigente.",
+      "Para repasar el tema conviene construir un cuadro por tipo de equipamiento: sanitario, cultural, deportivo. En cada fila se anotan la norma principal, las exigencias de accesibilidad comunes y las específicas, y la situación de patrimonio. Ese cuadro permite distinguir lo que está verificado de lo que debe comprobarse en la norma sectorial vigente.",
+      "Un examen que presenta un centro sanitario suele exigir identificar el uso, la accesibilidad aplicable, las exigencias del CTE y el procedimiento de autorización. Un espacio cultural inscrito añade la autorización patrimonial. Un equipamiento deportivo exige la comprobación de la norma sectorial que no se ha leído en el repositorio. La respuesta debe decir, en cada caso, qué parte está verificada y qué parte debe comprobarse."
+     ]
+    },
+    {
+     "titulo": "11. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 62 del Decreto 293/2009 (letras c, d, e y l), los artículos 64 (apartado 1, letras a y b), 65 (apartado 1, letra a), 66 (apartados 1 y 2), 70 (apartado 2, letra a), 74 (letra a) y 77 (encabezado); los títulos y el índice de la Ley 14/2007, en sus artículos 33 (apartado 3), 75 a 83; y el CTE en sus artículos 13.3 a 13.5 y 15.4.",
+      "No se han leído en el texto completo el anexo III del Decreto 69/2008, las normas sectoriales de instalaciones deportivas, las normas de gases medicinales ni el resto de la Ley 14/2007 sobre los espacios culturales. Las categorías de equipamiento de los apartados 8 y 9 son criterios de práctica profesional.",
+      "El Decreto 69/2008 y la consulta pública sobre su simplificación proceden de la búsqueda, y deben contrastarse con el BOJA antes de citarlos. Ninguna cifra de dimensiones sanitarias o deportivas se incluye en este tema por esa razón."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/DEC-AND-293-2009.pdf",
+    "leyes/BOE-A-2008-2494.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/BOE-A-1999-21567.pdf"
+   ]
+  },
+  "e38": {
+   "resumen": [
+    {
+     "titulo": "Normativa reguladora",
+     "puntos": [
+      "Justiprecio: Ley de Expropiación Forzosa de 1954 (LEF, arts. 36 y siguientes). Suelo y edificación: TRLS, RDL 7/2015 (art. 35). Valor catastral: RDL 1/2004 (arts. 22 a 25). Métodos de valoración de inmuebles para entidades de crédito: Orden ECO/805/2003.",
+      "Normas técnicas de valoración catastral de bienes urbanos: RD 1020/1993; de bienes de características especiales: RD 1464/2007."
+     ]
+    },
+    {
+     "titulo": "Significados del valor",
+     "puntos": [
+      "Valor catastral: determinado objetivamente a partir de los datos del Catastro, formado por el del suelo y el de las construcciones (Ley del Catastro, art. 22).",
+      "Valor de mercado: precio más probable de venta entre partes independientes, libre de cargas (art. 23, apartado 2). El valor catastral no puede superarlo."
+     ]
+    },
+    {
+     "titulo": "El justiprecio",
+     "puntos": [
+      "Las tasaciones se hacen con el valor de los bienes al tiempo de iniciarse el expediente de justiprecio, sin plusvalías derivadas del proyecto expropiante (LEF, art. 36, apartado 1).",
+      "Las mejoras posteriores a la incoación no se indemnizan, salvo que se demuestre que eran necesarias (art. 36, apartado 2)."
+     ]
+    },
+    {
+     "titulo": "Suelo y edificaciones",
+     "puntos": [
+      "El valor del suelo corresponde a su pleno dominio, libre de cargas y gravámenes, y se tasa según su situación (TRLS, art. 35, apartados 1 y 2).",
+      "Las construcciones del suelo rural se tasan con independencia del terreno si son legales, compatibles con el uso y no se han tenido en cuenta en la valoración del suelo (art. 35, apartado 3)."
+     ]
+    },
+    {
+     "titulo": "Depreciación y métodos",
+     "puntos": [
+      "Depreciación física: pérdida por antigüedad, estado de conservación y duración de los componentes. Depreciación funcional: pérdida por defectuosa adaptación a la función (Orden ECO/805/2003, art. 4).",
+      "Valor de reemplazamiento neto: bruto menos depreciación física y funcional (art. 19, apartado 1). Amortización lineal con vida útil máxima de 100 años para uso residencial, 75 para oficinas, 50 para comercial y 35 para industrial (art. 19, apartado 2, letra b).",
+      "Métodos: coste, comparación, actualización de rentas y residual (art. 15, apartado 1)."
+     ]
+    },
+    {
+     "titulo": "Valor catastral: ponencias y límites",
+     "puntos": [
+      "La determinación del valor catastral se hace, con carácter general, aplicando la ponencia de valores vigente (Ley del Catastro, art. 24, apartado 1).",
+      "Criterios: localización, coste de ejecución material, gastos y beneficios de la promoción y circunstancias del mercado (art. 23, apartado 1). Límite: no puede superar el valor de mercado (apartado 2)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LEF",
+     "rol": "Justiprecio: valor a la fecha de iniciación del expediente y mejoras posteriores (art. 36)"
+    },
+    {
+     "id": "TRLS-7-2015",
+     "rol": "Criterios generales de valoración del suelo y de las edificaciones (art. 35)"
+    },
+    {
+     "id": "TRLCAT-1-2004",
+     "rol": "Valor catastral: concepto, criterios, límite frente al valor de mercado y ponencias (arts. 22 a 25)"
+    },
+    {
+     "id": "ECO-805-2003",
+     "rol": "Métodos técnicos de valoración, depreciación física y funcional, vida útil máxima y valor de reemplazamiento (arts. 4, 15, 17, 19 y 20)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la LEF, art. 36, apartado 1, ¿con referencia a qué momento se tasan los bienes expropiables?",
+     "opciones": [
+      "Al tiempo de iniciarse el expediente de justiprecio",
+      "Al tiempo de la publicación del BOE",
+      "Al tiempo de la sentencia del Tribunal Supremo",
+      "Al tiempo de la toma de posesión, siempre"
+     ],
+     "correcta": 0,
+     "explicacion": "Las tasaciones se efectúan con arreglo al valor que tengan los bienes expropiables al tiempo de iniciarse el expediente de justiprecio, sin tener en cuenta las plusvalías que sean consecuencia directa del proyecto (LEF, art. 36, apartado 1).",
+     "referencia": "LEF, art. 36, apartado 1"
+    },
+    {
+     "pregunta": "Según la LEF, art. 36, apartado 2, ¿se indemnizan las mejoras realizadas después de la incoación del expediente?",
+     "opciones": [
+      "Solo si el propietario no lo ha pedido",
+      "Siempre, sin excepción",
+      "No, salvo que se demuestre que eran necesarias",
+      "Sí, con el doble de su valor"
+     ],
+     "correcta": 2,
+     "explicacion": "Las mejoras posteriores a la incoación no son objeto de indemnización, a no ser que se demuestre que eran necesarias (LEF, art. 36, apartado 2).",
+     "referencia": "LEF, art. 36, apartado 2"
+    },
+    {
+     "pregunta": "Según el TRLS, art. 35, apartado 1, ¿a qué corresponde el valor del suelo?",
+     "opciones": [
+      "Al precio pagado en la última compraventa",
+      "Al coste de la licencia municipal",
+      "Solo al valor de los materiales de la construcción",
+      "A su pleno dominio, libre de toda carga, gravamen o derecho limitativo"
+     ],
+     "correcta": 3,
+     "explicacion": "El valor del suelo corresponde a su pleno dominio, libre de toda carga, gravamen o derecho limitativo de la propiedad (TRLS, art. 35, apartado 1).",
+     "referencia": "TRLS, art. 35, apartado 1"
+    },
+    {
+     "pregunta": "Según la Ley del Catastro, art. 22, ¿de qué se compone el valor catastral de un bien inmueble?",
+     "opciones": [
+      "Solo del valor de las construcciones",
+      "Del valor catastral del suelo y del valor catastral de las construcciones",
+      "Del precio de compra más los impuestos",
+      "Solo del valor del suelo"
+     ],
+     "correcta": 1,
+     "explicacion": "El valor catastral está integrado por el valor catastral del suelo y el valor catastral de las construcciones (Ley del Catastro, art. 22).",
+     "referencia": "RDL 1/2004, art. 22"
+    },
+    {
+     "pregunta": "Según la Ley del Catastro, art. 23, apartado 2, ¿con qué límite se relaciona el valor catastral?",
+     "opciones": [
+      "Con el valor de mercado, que no puede superarse",
+      "Con el número de plantas del edificio",
+      "Con la superficie del solar en metros cuadrados",
+      "No tiene ningún límite"
+     ],
+     "correcta": 0,
+     "explicacion": "El valor catastral de los inmuebles no puede superar el valor de mercado, entendido como el precio más probable de venta entre partes independientes (art. 23, apartado 2).",
+     "referencia": "RDL 1/2004, art. 23, apartado 2"
+    },
+    {
+     "pregunta": "Según la Orden ECO/805/2003, art. 15, apartado 1, ¿cuál de los siguientes NO es un método técnico de valoración?",
+     "opciones": [
+      "El método de comparación",
+      "El método de actualización de rentas",
+      "El método del precio fijo administrativo",
+      "El método del coste"
+     ],
+     "correcta": 2,
+     "explicacion": "Los métodos técnicos de valoración son el del coste, el de comparación, el de actualización de rentas y el residual (art. 15, apartado 1).",
+     "referencia": "Orden ECO/805/2003, art. 15, apartado 1"
+    },
+    {
+     "pregunta": "Según la Orden ECO/805/2003, art. 19, apartado 2, letra b, ¿cuál es la vida útil total máxima para un edificio de uso residencial en el cálculo por amortización lineal?",
+     "opciones": [
+      "35 años",
+      "50 años",
+      "75 años",
+      "100 años"
+     ],
+     "correcta": 3,
+     "explicacion": "Para edificios de uso residencial, la vida útil total máxima en la amortización lineal es de 100 años; para oficinas, 75; para comerciales, 50; y para industriales, 35 (art. 19, apartado 2, letra b).",
+     "referencia": "Orden ECO/805/2003, art. 19, apartado 2, letra b)"
+    },
+    {
+     "pregunta": "Según la Orden ECO/805/2003, art. 19, apartado 1, ¿cómo se obtiene el valor de reemplazamiento neto?",
+     "opciones": [
+      "Sumando la depreciación al valor de reemplazamiento bruto",
+      "Restando al valor de reemplazamiento bruto la depreciación física y funcional",
+      "Multiplicando el valor del suelo por dos",
+      "Dividiendo el valor de mercado entre la superficie"
+     ],
+     "correcta": 1,
+     "explicacion": "Para calcular el valor de reemplazamiento neto se resta del valor de reemplazamiento bruto la depreciación física y funcional del edificio terminado (art. 19, apartado 1).",
+     "referencia": "Orden ECO/805/2003, art. 19, apartado 1"
+    },
+    {
+     "pregunta": "Según la Ley del Catastro, art. 24, apartado 1, ¿cómo se determina con carácter general el valor catastral?",
+     "opciones": [
+      "Mediante el precio pagado en la última escritura",
+      "Mediante la tasación de un notario",
+      "Mediante la aplicación de la correspondiente ponencia de valores",
+      "Mediante la declaración libre del propietario"
+     ],
+     "correcta": 2,
+     "explicacion": "Salvo en los supuestos previstos en el artículo 30, apartado 2, la determinación del valor catastral se efectúa mediante la aplicación de la correspondiente ponencia de valores (art. 24, apartado 1).",
+     "referencia": "RDL 1/2004, art. 24, apartado 1"
+    },
+    {
+     "pregunta": "Según la Orden ECO/805/2003, art. 4, ¿qué es la depreciación física de un bien?",
+     "opciones": [
+      "La pérdida que experimenta el valor de reemplazamiento bruto en función de su antigüedad, estado de conservación y duración de sus componentes",
+      "El coste de la licencia de obras",
+      "El beneficio del promotor",
+      "La subida del valor del terreno por la cercanía de servicios"
+     ],
+     "correcta": 0,
+     "explicacion": "La depreciación física es la pérdida que experimenta el valor de reemplazamiento bruto de un bien en función de su antigüedad, de su estado de conservación y de la duración de sus componentes (Orden ECO/805/2003, art. 4, definiciones).",
+     "referencia": "Orden ECO/805/2003, art. 4"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Normativa reguladora de la valoración",
+     "parrafos": [
+      "La valoración de inmuebles se regula por normas de distinto origen, según la finalidad de la valoración. La Ley de Expropiación Forzosa de 1954 (LEF) regula el justiprecio de los bienes expropiados, en su artículo 36 y siguientes. El texto refundido de la Ley de Suelo y Rehabilitación Urbana, aprobado por el Real Decreto Legislativo 7/2015, de 30 de octubre (TRLS), fija en su artículo 35 los criterios generales de valoración del suelo y de las edificaciones, y en los artículos siguientes las reglas para el suelo rural y el urbanizado.",
+      "La valoración catastral se rige por el texto refundido de la Ley del Catastro Inmobiliario, aprobado por el Real Decreto Legislativo 1/2004, de 5 de marzo, que define el valor catastral en su artículo 22 y sus criterios y límites en el artículo 23. Las normas técnicas de valoración catastral de los bienes urbanos se aprobaron por el Real Decreto 1020/1993, de 25 de junio, y las de los bienes de características especiales, por el Real Decreto 1464/2007.",
+      "La valoración para las entidades de crédito, las sociedades de tasación y los fines hipotecarios se rige por la Orden ECO/805/2003, de 27 de marzo, sobre normas de valoración de bienes inmuebles, que define los métodos técnicos de valoración, la depreciación y los principios de la valoración. Esta orden fue modificada por la Orden ECM/599/2025, según la búsqueda, que añadió un principio de sostenibilidad a su artículo 3."
+     ]
+    },
+    {
+     "titulo": "2. El valor: concepto y significados",
+     "parrafos": [
+      "El valor de un inmueble no es una cifra única. Depende de la finalidad de la valoración, y el mismo inmueble puede tener varios valores según el fin. El valor de mercado es el precio más probable por el que podría venderse un inmueble, libre de cargas, entre partes independientes (Ley del Catastro, art. 23, apartado 2). El valor hipotecario es el que sirve de garantía a un préstamo, con criterios de prudencia, y el valor de reemplazamiento es el coste de construir un inmueble equivalente en la fecha de la valoración.",
+      "El valor catastral es el determinado objetivamente para cada bien inmueble a partir de los datos del Catastro, y está formado por el valor catastral del suelo y el valor catastral de las construcciones (art. 22). El justiprecio es el valor que se paga al propietario en una expropiación, y tiene sus propias reglas de fecha y de método. El valor de tasación es el que resulta de aplicar un método técnico a un inmueble concreto, y es el que emite un tasador.",
+      "La distinción entre estos valores es un punto de examen habitual. El valor catastral no puede superar el valor de mercado (art. 23, apartado 2). El valor hipotecario se calcula con criterios de prudencia y se refiere al inmueble como garantía. El justiprecio se fija en la fecha de iniciación del expediente, y excluye las plusvalías que procedan del proyecto que motiva la expropiación. Cada valor responde a una pregunta distinta, y por eso no son intercambiables."
+     ]
+    },
+    {
+     "titulo": "3. El justiprecio",
+     "parrafos": [
+      "El justiprecio es el precio que la Administración paga al propietario de un bien que se expropia. La LEF establece en su artículo 36, apartado 1, que las tasaciones se efectúan con arreglo al valor que tengan los bienes o derechos expropiables al tiempo de iniciarse el expediente de justiprecio, sin tener en cuenta las plusvalías que sean consecuencia directa del plano o proyecto de obras que dan lugar a la expropiación, ni las previsibles para el futuro.",
+      "El criterio tiene dos consecuencias. La primera es que la fecha de referencia es la de inicio del expediente, no la de la toma de posesión, de modo que la valoración no recoge las subidas del precio que el propio proyecto genera. La segunda es que las plusvalías que se atribuyen a la obra expropiante quedan excluidas, para evitar que el expropiado se beneficie de un valor que la expropiación crea.",
+      "El artículo 36, apartado 2, excluye de la indemnización las mejoras realizadas después de la incoación del expediente, salvo que se demuestre que eran necesarias. Esta regla protege a la Administración frente a inversiones hechas para aumentar el justiprecio. El tasador que valora un inmueble expropiable debe, por tanto, comprobar la fecha de las obras y su carácter."
+     ]
+    },
+    {
+     "titulo": "4. Los criterios generales del suelo y de la edificación",
+     "parrafos": [
+      "El TRLS establece en su artículo 35 que el valor del suelo corresponde a su pleno dominio, libre de toda carga, gravamen o derecho limitativo de la propiedad (apartado 1). El suelo se tasa según su situación, con independencia de la causa de la valoración y del instrumento legal que la motive (apartado 2).",
+      "Las edificaciones, construcciones e instalaciones del suelo rural se tasan con independencia de los terrenos, siempre que se ajusten a la legalidad en el momento de la valoración, sean compatibles con el uso considerado en la valoración del suelo y no se hayan tenido en cuenta en esa valoración (art. 35, apartado 3). Este criterio evita que la construcción se valore dos veces, como parte del suelo y como edificio.",
+      "La distinción entre suelo y edificación es la base de la valoración catastral, que suma el valor del suelo y el de las construcciones (Ley del Catastro, art. 22). La valoración del edificio exige el coste de reemplazamiento y su depreciación, mientras que la del suelo exige el método de comparación o el residual, según su situación."
+     ]
+    },
+    {
+     "titulo": "5. La depreciación y sus causas",
+     "parrafos": [
+      "La Orden ECO/805/2003 define las dos causas principales de depreciación. La depreciación física es la pérdida que experimenta el valor de reemplazamiento bruto de un bien en función de su antigüedad, de su estado de conservación y de la duración de sus componentes. La depreciación funcional es la pérdida que experimenta ese valor por la defectuosa adaptación del bien a la función a que se destina, que comprende la obsolescencia, el diseño y la falta de adaptación al uso (Orden ECO/805/2003, art. 4, definiciones).",
+      "El valor de reemplazamiento neto se obtiene restando del valor de reemplazamiento bruto la depreciación física y funcional del edificio terminado (art. 19, apartado 1). La depreciación física puede calcularse de tres formas: por la vida útil total y residual que estima el tasador, que debe justificarla (art. 19, apartado 2, letra a); por amortización lineal, multiplicando el valor de reemplazamiento bruto, sin el valor del terreno, por la antigüedad entre la vida útil total (letra b); o sumando los costes necesarios para transformar el edificio actual en uno nuevo de características similares (letra c).",
+      "La amortización lineal tiene límites de vida útil máxima por uso: 100 años para el residencial, 75 para oficinas, 50 para comercial y 35 para industrial o inmuebles ligados a una explotación económica (art. 19, apartado 2, letra b). En un edificio con varios usos, la vida útil máxima se obtiene ponderando los plazos según la superficie destinada a cada uso. Los elementos de un edificio siguen el régimen de depreciación que les corresponde (art. 19, apartado 3)."
+     ]
+    },
+    {
+     "titulo": "5 bis. Ejemplo numérico de depreciación por amortización lineal",
+     "parrafos": [
+      "Un ejemplo aclara la regla del artículo 19, apartado 2, letra b. Sea un edificio de uso residencial cuyo valor de reemplazamiento bruto, sin el valor del terreno, es de 300.000 euros, con una antigüedad de 40 años y una vida útil total estimada por el tasador de 100 años, que es el máximo para uso residencial. La depreciación física por amortización lineal es el valor de reemplazamiento bruto multiplicado por el cociente entre la antigüedad y la vida útil: 300.000 × 40 / 100 = 120.000 euros.",
+      "El valor de reemplazamiento neto es el bruto menos la depreciación física y la funcional: 300.000 − 120.000 = 180.000 euros, si no hay depreciación funcional. Si el tasador aprecia una obsolescencia del diseño que reduce el valor en 20.000 euros, el valor de reemplazamiento neto baja a 160.000 euros. Este cálculo muestra por qué la justificación de la vida útil es decisiva: con una vida útil de 75 años, que corresponde a oficinas, la depreciación subiría a 160.000 euros.",
+      "El ejemplo también muestra un punto de examen: la vida útil no puede superar el máximo del uso, y el resultado depende de la elección del tasador. Por eso la orden exige justificar el procedimiento elegido, y por eso el resultado debe contrastarse con el método de comparación antes de emitir el informe."
+     ]
+    },
+    {
+     "titulo": "6. Métodos de valoración",
+     "parrafos": [
+      "La Orden ECO/805/2003 admite cuatro métodos técnicos de valoración (art. 15, apartado 1): el método del coste, el método de comparación, el método de actualización de rentas y el método residual. Según el apartado 2 del mismo artículo, esos métodos permiten obtener el valor de mercado, el valor hipotecario y el valor de reemplazamiento.",
+      "El método del coste (art. 17) se aplica a la valoración de toda clase de edificios: el valor de reemplazamiento bruto es el coste de construir un edificio equivalente, y el valor de reemplazamiento neto resta la depreciación. Su punto débil es que no refleja el mercado; por eso se combina con otros métodos. El método de comparación (art. 20) se aplica a toda clase de inmuebles y se basa en comparables, es decir, inmuebles similares por localización, uso, tipología, superficie, antigüedad y estado de conservación, a los que se aplica una homogeneización.",
+      "El método de actualización de rentas estima el valor a partir de los ingresos que el inmueble produce, descontados al momento de la valoración. Es el método natural para inmuebles de explotación, como oficinas o locales en alquiler. El método residual estima el valor del suelo como diferencia entre el valor del producto terminado y los costes de la promoción, incluido el beneficio del promotor. Estos dos últimos son los métodos que el tasador combina con el de comparación en los inmuebles de mercado."
+     ]
+    },
+    {
+     "titulo": "6 bis. Tasación y valoración catastral: diferencias prácticas",
+     "parrafos": [
+      "La tasación es una valoración individual que encarga un cliente para un fin concreto, como una garantía hipotecaria o una compraventa, y que emite un tasador con un método técnico y un informe. La valoración catastral es un acto administrativo que determina la Administración, de forma objetiva y con criterios de masa, para cada inmueble del Catastro (Ley del Catastro, art. 22). Una no sustituye a la otra: la tasación no fija el valor catastral, y el valor catastral no sirve por sí solo para una operación de compraventa.",
+      "La diferencia de origen explica la de método. La tasación individual utiliza los métodos de la Orden ECO/805/2003 con los datos del inmueble concreto, y la valoración catastral aplica las ponencias de valores y los módulos de la zona. Por eso, un mismo inmueble puede tener un valor catastral bajo y un valor de tasación alto, sin que ninguno de ellos sea erróneo, siempre que cada uno responda a su finalidad y no supere el límite del artículo 23, apartado 2.",
+      "Para el arquitecto técnico, esta distinción es importante en la práctica. Cuando un cliente pide una tasación, debe explicarle que el valor catastral no es el valor de mercado, y que la tasación debe justificarse con el método elegido, la fecha y las fuentes. Confundirlos es un error que el cliente percibe como un fallo técnico."
+     ]
+    },
+    {
+     "titulo": "7. Valor catastral: concepto, límites y determinación",
+     "parrafos": [
+      "El valor catastral es el determinado objetivamente para cada bien inmueble a partir de los datos obrantes en el Catastro Inmobiliario, y está integrado por el valor catastral del suelo y el valor catastral de las construcciones (Ley del Catastro, art. 22). Es un valor fiscal y administrativo, que sirve de base para tributos como el IBI, y no es un valor de mercado.",
+      "Para determinarlo se tienen en cuenta criterios como la localización del inmueble y las circunstancias urbanísticas del suelo, el coste de ejecución material de las construcciones, los gastos de producción y los beneficios de la promoción, las circunstancias y valores del mercado, y cualquier otro factor que reglamentariamente se determine (art. 23, apartado 1, letras a a e).",
+      "El valor catastral tiene un límite. No puede superar el valor de mercado, entendido como el precio más probable de venta entre partes independientes, libre de cargas. Un coeficiente de referencia al mercado para los bienes de una misma clase, fijado por orden del Ministro de Hacienda, sirve para comprobar ese límite (art. 23, apartado 2). En los bienes con precio de venta limitado administrativamente, el valor catastral no puede superar ese precio."
+     ]
+    },
+    {
+     "titulo": "8. Determinación del valor catastral: ponencias de valores",
+     "parrafos": [
+      "La determinación del valor catastral se hace, con carácter general, mediante la aplicación de la correspondiente ponencia de valores (Ley del Catastro, art. 24, apartado 1). La ponencia de valores tiene el contenido que fija el artículo 25 de la ley, que el tema presenta sin haberlo leído en detalle.",
+      "Cuando se incorpora o modifica un inmueble en el Catastro, su valor se determina aplicando la ponencia vigente en el primer ejercicio de efectividad de la incorporación, o los módulos del procedimiento simplificado de valoración colectiva (art. 24, apartado 2). Los coeficientes de actualización que fijan las leyes de presupuestos generales del Estado modifican después esos valores (art. 24, apartado 2, párrafo segundo).",
+      "Las normas técnicas de valoración catastral de los bienes urbanos, aprobadas por el Real Decreto 1020/1993, desarrollan los criterios de la ley; su contenido detallado no se ha leído en el repositorio. Su texto consolidado del repositorio tiene fecha de última modificación de 20 de noviembre de 2007, y ha sido complementado por el Real Decreto 1464/2007 para los bienes de características especiales."
+     ]
+    },
+    {
+     "titulo": "8 ter. Procedimientos de valoración colectiva",
+     "parrafos": [
+      "La Ley del Catastro regula varios procedimientos de valoración colectiva, que aplican ponencias y módulos a conjuntos de inmuebles. El procedimiento de valoración colectiva de carácter general y parcial se regula en el artículo 29, y el procedimiento simplificado de valoración colectiva en el artículo 30. El artículo 31 regula la determinación del valor catastral de los bienes inmuebles de características especiales, y el artículo 32 la actualización de los valores catastrales.",
+      "Estos procedimientos explican por qué el valor catastral cambia en el tiempo sin que el inmueble se modifique. La actualización de valores puede venir de una nueva ponencia, o de los coeficientes de actualización que fijan las leyes de presupuestos generales del Estado, que se aplican sobre el valor vigente (art. 24, apartado 2, párrafo segundo). El examen puede preguntar por esa diferencia: un inmueble no cambia de valor catastral solo porque cambie el mercado, sino porque cambian la ponencia o los coeficientes.",
+      "La incorporación de un inmueble nuevo o de una modificación en el Catastro sigue el procedimiento de incorporación por declaración, comunicación o solicitud (arts. 13 a 15), y su valor se determina con la ponencia vigente en el primer ejercicio de efectividad (art. 24, apartado 2). El arquitecto técnico que tramita una obra nueva debe conocer ese circuito, porque la declaración de la obra terminada alimenta el Catastro."
+     ]
+    },
+    {
+     "titulo": "9. Aplicación práctica para el arquitecto técnico",
+     "parrafos": [
+      "El arquitecto técnico interviene en la valoración de inmuebles en varias situaciones. Puede realizar una tasación para una garantía hipotecaria, para una compraventa, para un seguro o para una expropiación. En cada caso debe identificar el valor que se pide, el método que corresponde y la fecha de referencia, porque un mismo edificio tiene resultados distintos según el valor que se pida.",
+      "En una valoración por el método del coste, el técnico debe calcular el valor de reemplazamiento bruto, estimar la depreciación física y funcional, y justificar la vida útil elegida. En una valoración por comparación, debe seleccionar comparables y homogeneizarlos. En ambos casos, el informe debe explicar el método y las fuentes, porque la orden exige la documentación de la tasación.",
+      "En una expropiación, el arquitecto técnico que asesora al propietario debe comprobar la fecha de iniciación del expediente, separar las plusvalías que proceden de la obra expropiante y documentar las mejoras posteriores, porque el artículo 36 de la LEF excluye ambas del justiprecio.",
+      "Otra aplicación frecuente es la valoración para un seguro de daños. En ese caso interesa el valor de reemplazamiento, es decir, el coste de volver a construir el edificio con características similares, más que su valor de mercado, porque la indemnización debe permitir reponer el bien. El técnico debe indicar si el informe se ha hecho a valor de reemplazamiento bruto o neto, y qué depreciación se ha aplicado, porque el asegurado y la aseguradora pueden entender cosas distintas por el mismo término.",
+      "Por último, la valoración exige un control de coherencia. Un informe debe comprobar que el resultado no es absurdo frente al mercado de la zona, que la superficie utilizada es la correcta según la definición de superficie que se emplee, y que la vida útil y la depreciación son razonables para el uso. Un error en la superficie se traslada a todo el resultado, por lo que la medición debe ser la primera comprobación del informe.",
+      "En cualquier informe, el tasador debe distinguir entre los datos que ha comprobado en el inmueble, los que ha tomado de terceros y los supuestos que ha adoptado. Esa separación permite que el informe sea revisable y que el cliente conozca el alcance de la cifra final."
+     ]
+    },
+    {
+     "titulo": "10. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir la definición de los distintos valores, el criterio de fecha del justiprecio (art. 36 de la LEF), las dos causas de depreciación, los cuatro métodos de la Orden ECO/805/2003, la composición del valor catastral (art. 22 de la Ley del Catastro) y su límite frente al valor de mercado (art. 23, apartado 2). Conviene memorizar la vida útil máxima de cada uso (100, 75, 50 y 35 años). Conviene además asociar cada valor con su norma: el valor catastral con la Ley del Catastro, el justiprecio con la LEF y los métodos de tasación con la Orden ECO/805/2003.",
+      "Los errores habituales son cinco. El primero es confundir el valor catastral con el valor de mercado: el catastral es un valor fiscal que no puede superar al de mercado. El segundo es fijar el justiprecio en la fecha de la ocupación, cuando la LEF usa la fecha de iniciación. El tercero es confundir la depreciación física con la funcional. El cuarto es olvidar que la amortización lineal tiene un límite de vida útil por uso. El quinto es pensar que el método residual sirve para una vivienda usada sin más. Un examen que plantea una valoración concreta suele exigir identificar primero el valor pedido y después el método, y no al revés.",
+      "Para un caso práctico de una valoración por el método del coste de un edificio de viviendas de 40 años, el orden de análisis es: calcular el valor de reemplazamiento bruto; aplicar la amortización lineal con la vida útil elegida, que no puede superar 100 años; aplicar la amortización lineal sobre el valor de reemplazamiento bruto sin el valor del terreno, que es la regla del artículo 19, apartado 2, letra b; y comparar el resultado con el método de comparación para validarlo. Los pasos de cálculo deben anotarse en el informe para que puedan revisarse."
+     ]
+    },
+    {
+     "titulo": "11. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 36 de la LEF (apartados 1 y 2), el artículo 35 del TRLS (apartados 1 a 3), los artículos 22, 23 (apartados 1 a 3) y 24 (apartados 1 y 2) de la Ley del Catastro, el artículo 4 (definiciones de depreciación y comparables) de la Orden ECO/805/2003, y sus artículos 15, 17, 19 y 20; y el índice del RD 1020/1993. También se ha leído el artículo 4 de la Orden como texto de definiciones, sin verificar el resto de definiciones de la norma.",
+      "No se han leído en el texto completo el método residual, el método de actualización de rentas, la homogeneización de comparables, las ponencias de valores (arts. 25 a 27 de la Ley del Catastro), el procedimiento de valoración colectiva (arts. 28 a 32) ni el texto del RD 1020/1993 en sus normas técnicas. Tampoco se ha leído el RD 1464/2007. Tampoco se han leído las tablas de vidas útiles de la Orden más allá del texto del artículo 19.",
+      "La Orden ECO/805/2003 fue modificada por la Orden ECM/599/2025, según la búsqueda, y el texto consolidado del repositorio tiene fecha de última modificación de 12 de junio de 2025. Los coeficientes de referencia al mercado y los módulos de la ponencia varían cada año, por lo que su cifra debe comprobarse en el momento de aplicarlos. Los ejemplos numéricos del tema son ilustrativos, y la cifra de cualquier resultado real depende de los datos de cada inmueble."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-1954-15431.pdf",
+    "leyes/BOE-A-2015-11723.pdf",
+    "leyes/BOE-A-2004-4163.pdf",
+    "leyes/BOE-A-2003-7253.pdf",
+    "leyes/BOE-A-1993-19265.pdf"
+   ]
+  },
+  "e39": {
+   "resumen": [
+    {
+     "titulo": "Marco normativo",
+     "puntos": [
+      "La Ley 16/1985, del Patrimonio Histórico Español (LPHE), fija el marco estatal, con la declaración de bien de interés cultural por ley o por real decreto (art. 9). Su desarrollo parcial es el RD 111/1986.",
+      "La Ley 14/2007, del Patrimonio Histórico de Andalucía (LPHA), regula el patrimonio andaluz y deroga la Ley 1/1991."
+     ]
+    },
+    {
+     "titulo": "Tipología de los bienes inmuebles",
+     "puntos": [
+      "Ocho categorías de Bien de Interés Cultural: monumentos, conjuntos históricos, jardines históricos, sitios históricos, zonas arqueológicas, lugares de interés etnológico, lugares de interés industrial y zonas patrimoniales (LPHA, art. 25).",
+      "Monumentos: edificios y estructuras de relevante interés (art. 26, apartado 1). Zonas arqueológicas: espacios delimitados con restos arqueológicos o paleontológicos de interés relevante (apartado 5)."
+     ]
+    },
+    {
+     "titulo": "Catálogo General y procedimiento de inscripción",
+     "puntos": [
+      "El Catálogo General del Patrimonio Histórico Andaluz es instrumento de salvaguarda, consulta y divulgación. Lo forma y conserva la Consejería competente (art. 6).",
+      "La inscripción se incoa de oficio o a solicitud razonada; la solicitud se desestima por silencio transcurridos tres meses (art. 9, apartado 1). La incoación lleva anotación preventiva en el Catálogo (apartado 2)."
+     ]
+    },
+    {
+     "titulo": "Declaración de Bien de Interés Cultural (LPHE)",
+     "puntos": [
+      "La declaración por real decreto requiere expediente con informe favorable de una institución consultiva; si no se emite en tres meses, se entiende favorable. En los inmuebles, información pública y audiencia al ayuntamiento (art. 9, apartado 2).",
+      "El expediente se resuelve en veinte meses desde su incoación (art. 9, apartado 3). No puede declararse bien de interés cultural la obra de un autor vivo, salvo excepciones (apartado 4)."
+     ]
+    },
+    {
+     "titulo": "Protección: autorización y conservación",
+     "puntos": [
+      "El inmueble inscrito es inseparable de su lugar; su desplazamiento exige causa de fuerza mayor o interés social y autorización previa (LPHA, art. 33, apartado 1).",
+      "Cualquier obra, cambio de uso o modificación de un bien inscrito o de su entorno necesita autorización de la Consejería, previa a las restantes licencias (art. 33, apartado 3)."
+     ]
+    },
+    {
+     "titulo": "Patrimonio arqueológico y fomento",
+     "puntos": [
+      "Las excavaciones arqueológicas destinan hasta el 20 % del presupuesto a la conservación, restauración y difusión de los bienes (LPHA, art. 85).",
+      "Medidas de fomento: inversiones culturales, dación en pago para deudas con la Junta, donaciones y legados, estímulos a la rehabilitación de viviendas y subvenciones (arts. 84 a 91)."
+     ]
+    },
+    {
+     "titulo": "Infracciones, sanciones y órganos",
+     "puntos": [
+      "Multas: muy graves, de 250.001 a 1.000.000 euros; graves, de 100.001 a 250.000; leves, hasta 100.000 (art. 114, apartado 1). Prescripción: cinco años para leves y graves, diez para muy graves (art. 119).",
+      "La Consejería competente en patrimonio histórico formula y ejecuta la política de tutela, enriquecimiento y difusión (art. 93). Las Delegaciones Provinciales ejercen las funciones ejecutivas (art. 94)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LPHE-16-1985",
+     "rol": "Declaración de bienes de interés cultural por ley o por real decreto: procedimiento, plazos y autor vivo (art. 9)"
+    },
+    {
+     "id": "LPHA-14-2007",
+     "rol": "Patrimonio histórico andaluz: tipología, Catálogo, autorizaciones, fomento, infracciones y órganos (arts. 6, 25, 26, 33, 85, 93, 114 y 119)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la LPHA, art. 25, ¿cuántas categorías de inmuebles pueden inscribirse como Bien de Interés Cultural?",
+     "opciones": [
+      "Ocho",
+      "Diez",
+      "Doce",
+      "Seis"
+     ],
+     "correcta": 0,
+     "explicacion": "El artículo 25 enumera ocho categorías: monumentos, conjuntos históricos, jardines históricos, sitios históricos, zonas arqueológicas, lugares de interés etnológico, lugares de interés industrial y zonas patrimoniales.",
+     "referencia": "LPHA, art. 25"
+    },
+    {
+     "pregunta": "Según la LPHA, art. 26, apartado 1, ¿qué son los monumentos?",
+     "opciones": [
+      "Las plantaciones de árboles de una finca",
+      "Los espacios naturales protegidos",
+      "Los edificios y estructuras de relevante interés histórico, arqueológico, artístico o de otro tipo, con los muebles e instalaciones que expresamente se señalen",
+      "Los caminos rurales de uso público"
+     ],
+     "correcta": 2,
+     "explicacion": "Son monumentos los edificios y estructuras de relevante interés histórico, arqueológico, paleontológico, artístico, etnológico, industrial, científico, social o técnico, con inclusión de los muebles, instalaciones y accesorios que expresamente se señalen (art. 26, apartado 1).",
+     "referencia": "LPHA, art. 26, apartado 1"
+    },
+    {
+     "pregunta": "Según la LPHA, art. 33, apartado 1, ¿puede desplazarse o removerse un inmueble inscrito en el Catálogo?",
+     "opciones": [
+      "Sí, si el ayuntamiento lo pide",
+      "No, en ningún caso",
+      "Sí, libremente por el propietario",
+      "Solo por causa de fuerza mayor o de interés social, y en todo caso con autorización de la Consejería"
+     ],
+     "correcta": 3,
+     "explicacion": "El inmueble inscrito es inseparable del lugar donde se ubica. Solo puede desplazarse por causa imprescindible de fuerza mayor o de interés social, y en todo caso con autorización previa de la Consejería (art. 33, apartado 1).",
+     "referencia": "LPHA, art. 33, apartado 1"
+    },
+    {
+     "pregunta": "Según la LPHA, art. 33, apartado 3, ¿cuándo debe obtenerse la autorización de la Consejería para una obra en un bien inscrito?",
+     "opciones": [
+      "Después de conceder la licencia municipal",
+      "Con carácter previo a las restantes licencias o autorizaciones que fueran pertinentes",
+      "Solo al terminar la obra",
+      "No es necesaria si la obra es menor"
+     ],
+     "correcta": 1,
+     "explicacion": "La autorización de la Consejería es previa a las restantes licencias o autorizaciones pertinentes, para cualquier obra, remoción de terreno, cambio de uso o modificación de bienes muebles, pintura o instalaciones (art. 33, apartado 3).",
+     "referencia": "LPHA, art. 33, apartado 3"
+    },
+    {
+     "pregunta": "Según la LPHE, art. 9, apartado 2, ¿qué ocurre si el informe requerido para declarar un bien de interés cultural no se emite en tres meses?",
+     "opciones": [
+      "Se entiende que el dictamen es favorable a la declaración",
+      "Se entiende desfavorable",
+      "Se suspende el expediente hasta el año siguiente",
+      "El expediente caduca de inmediato"
+     ],
+     "correcta": 0,
+     "explicacion": "Transcurridos tres meses desde la solicitud del informe sin que se haya emitido, se entiende que el dictamen es favorable a la declaración de interés cultural (LPHE, art. 9, apartado 2).",
+     "referencia": "LPHE, art. 9, apartado 2"
+    },
+    {
+     "pregunta": "Según la LPHE, art. 9, apartado 3, ¿en qué plazo máximo debe resolverse el expediente de declaración de bien de interés cultural por real decreto?",
+     "opciones": [
+      "Seis meses",
+      "Un año",
+      "Veinte meses",
+      "Cinco años"
+     ],
+     "correcta": 2,
+     "explicacion": "El expediente debe resolverse en el plazo máximo de veinte meses desde la fecha de su incoación (LPHE, art. 9, apartado 3).",
+     "referencia": "LPHE, art. 9, apartado 3"
+    },
+    {
+     "pregunta": "Según la LPHA, art. 114, apartado 1, letra a, ¿qué cuantía de multa corresponde a las infracciones muy graves?",
+     "opciones": [
+      "De 1.000.001 a 5.000.000 euros",
+      "Hasta 100.000 euros",
+      "De 100.001 a 250.000 euros",
+      "De 250.001 a 1.000.000 euros"
+     ],
+     "correcta": 3,
+     "explicacion": "Las infracciones muy graves se sancionan con multa de 250.001 a 1.000.000 de euros (LPHA, art. 114, apartado 1, letra a).",
+     "referencia": "LPHA, art. 114, apartado 1, letra a)"
+    },
+    {
+     "pregunta": "Según la LPHA, art. 119, apartado 1, ¿en cuántos años prescriben las infracciones muy graves?",
+     "opciones": [
+      "Cinco años",
+      "Diez años",
+      "Un año",
+      "Veinte años"
+     ],
+     "correcta": 1,
+     "explicacion": "Las infracciones leves y graves prescriben a los cinco años, y las muy graves, a los diez años (LPHA, art. 119, apartado 1).",
+     "referencia": "LPHA, art. 119, apartado 1"
+    },
+    {
+     "pregunta": "Según la LPHA, art. 93, apartado 1, ¿quién es responsable de la formulación y ejecución de la política de tutela, enriquecimiento y difusión del patrimonio histórico?",
+     "opciones": [
+      "El Ministerio de Cultura de forma exclusiva",
+      "El Consejo de Gobierno en pleno",
+      "La Consejería competente en materia de patrimonio histórico",
+      "Los propietarios de los bienes"
+     ],
+     "correcta": 2,
+     "explicacion": "La Consejería competente en materia de patrimonio histórico es responsable de la formulación y ejecución de la política dirigida a su tutela, enriquecimiento y difusión (art. 93, apartado 1).",
+     "referencia": "LPHA, art. 93, apartado 1"
+    },
+    {
+     "pregunta": "Según la LPHA, art. 85, ¿qué porcentaje del presupuesto de un proyecto de excavación arqueológica puede destinarse a la conservación, restauración y difusión de los bienes descubiertos?",
+     "opciones": [
+      "Hasta el 20 %",
+      "Hasta el 50 %",
+      "Hasta el 5 %",
+      "Hasta el 10 %"
+     ],
+     "correcta": 0,
+     "explicacion": "Los proyectos de excavaciones arqueológicas incluyen un porcentaje de hasta el 20 % del presupuesto para la conservación, restauración y difusión de los bienes expuestos o de los materiales y estructuras descubiertos (art. 85).",
+     "referencia": "LPHA, art. 85"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Marco normativo del patrimonio histórico",
+     "parrafos": [
+      "El patrimonio histórico tiene dos niveles normativos. El estatal lo regula la Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (LPHE), que fija la protección, el acrecentamiento y la transmisión a las generaciones futuras del patrimonio histórico español, y que incluye en él el patrimonio cultural inmaterial en los términos de su legislación específica. Su desarrollo parcial corresponde al Real Decreto 111/1986.",
+      "El autonómico lo regula la Ley 14/2007, de 26 de noviembre, del Patrimonio Histórico de Andalucía (LPHA), publicada en el BOJA de 19 de diciembre de 2007 y en el BOE de 13 de febrero de 2008. La ley derogó la Ley 1/1991, de 3 de julio, de Patrimonio Histórico de Andalucía, y ha sido modificada en varias ocasiones, entre ellas por la Ley 7/2011 y el Decreto-ley 1/2009, según la búsqueda; el texto consolidado del repositorio no se ha comparado con esas modificaciones.",
+      "La LPHA se aplica al patrimonio histórico de Andalucía, es decir, a los bienes inmuebles, muebles, arqueológicos, etnológicos, industriales y documentales que tienen valor cultural para la comunidad, y regula su inscripción en el Catálogo General, su protección, su fomento y el régimen sancionador. Las dos leyes deben leerse juntas: la estatal establece el marco de la declaración de bien de interés cultural, y la autonómica desarrolla el procedimiento, las medidas y las sanciones en Andalucía."
+     ]
+    },
+    {
+     "titulo": "2. El patrimonio inmueble: tipología",
+     "parrafos": [
+      "La LPHA clasifica los bienes inmuebles que pueden inscribirse como Bien de Interés Cultural en ocho categorías (art. 25): monumentos, conjuntos históricos, jardines históricos, sitios históricos, zonas arqueológicas, lugares de interés etnológico, lugares de interés industrial y zonas patrimoniales.",
+      "Los monumentos son los edificios y estructuras de relevante interés histórico, arqueológico, paleontológico, artístico, etnológico, industrial, científico, social o técnico, con inclusión de los muebles, instalaciones y accesorios que expresamente se señalen (art. 26, apartado 1). Son conjuntos históricos las agrupaciones de construcciones urbanas o rurales, con los accidentes geográficos que las conforman, con coherencia suficiente para constituir unidades susceptibles de clara delimitación (art. 26, apartado 2).",
+      "Los jardines históricos son los espacios delimitados producto de la ordenación humana de elementos naturales, a veces complementados con estructuras de fábrica, y estimados de interés por su origen, su pasado histórico o sus valores estéticos, sensoriales o botánicos (art. 26, apartado 3). Las zonas arqueológicas son los espacios claramente delimitados en los que se ha comprobado la existencia de restos arqueológicos o paleontológicos de interés relevante (art. 26, apartado 5). Los sitios históricos son los lugares vinculados a acontecimientos o recuerdos del pasado, o a tradiciones, creaciones culturales o naturaleza, con relevante valor (art. 26, apartado 4).",
+      "Las zonas patrimoniales, por último, son territorios o espacios que constituyen un conjunto patrimonial diverso y complementario, integrado por bienes representativos de la evolución humana, con valor de uso y disfrute para la colectividad (art. 26, apartado 8). Los lugares de interés etnológico e industrial completan la lista (art. 26, apartados 6 y 7)."
+     ]
+    },
+    {
+     "titulo": "2 bis. Relación entre la ley estatal y la ley andaluza",
+     "parrafos": [
+      "La LPHE establece el marco de la declaración de bien de interés cultural en todo el Estado, con el procedimiento de incoación, el informe de las instituciones consultivas, la información pública y los plazos (art. 9). La LPHA desarrolla ese marco para Andalucía: clasifica los inmuebles en su propia tipología del artículo 25, regula el Catálogo General y las medidas de protección, fomento y sanción, y crea los órganos de la Junta de Andalucía.",
+      "Las dos normas no deben confundirse. Las categorías de la LPHA (monumento, conjunto histórico, jardín histórico, sitio histórico, zona arqueológica, lugar de interés etnológico, lugar de interés industrial y zona patrimonial) son las que se aplican a los bienes de Andalucía, y no coinciden punto por punto con las del Estado. El examen puede pedir qué norma regula un aspecto concreto, y la respuesta correcta depende de si el bien está en Andalucía y de la materia de que se trate.",
+      "La coordinación entre el Estado y la comunidad autónoma es necesaria para los bienes de competencia estatal y para la protección de los bienes que se declaran por ley estatal. Para el arquitecto técnico, la consecuencia práctica es que, en un inmueble de Andalucía, la autorización necesaria es la de la Consejería, y que el origen de la declaración del bien debe comprobarse en el Catálogo antes de iniciar cualquier trabajo."
+     ]
+    },
+    {
+     "titulo": "3. El Catálogo General del Patrimonio Histórico Andaluz",
+     "parrafos": [
+      "El Catálogo General del Patrimonio Histórico Andaluz es el instrumento para la salvaguarda de los bienes inscritos en él, y para su consulta y divulgación (LPHA, art. 6, apartado 1). Su formación, conservación y difusión corresponden a la Consejería competente en materia de patrimonio histórico, que redacta y custodia la documentación de los bienes muebles, inmuebles y manifestaciones culturales (art. 6, apartado 2).",
+      "La inscripción produce los efectos que fija el artículo 8. El procedimiento de inscripción se incoa de oficio por la Consejería, aunque cualquier persona puede instarla mediante solicitud razonada. La solicitud se entiende desestimada si transcurren tres meses sin resolución expresa (art. 9, apartado 1). La resolución de incoación lleva aparejada la anotación preventiva del bien en el Catálogo y la protección cautelar desde ese momento (art. 9, apartado 2).",
+      "La ley prevé además la inclusión de la inscripción en el Registro de la Propiedad (art. 12), el Inventario de Bienes Reconocidos del Patrimonio Histórico Andaluz (art. 13), la modificación y la cancelación de la inscripción (art. 10) y las instrucciones particulares que la Consejería puede dictar para cada bien (art. 11). Esta documentación es la base de los trámites posteriores, porque cualquier intervención sobre un bien inscrito necesita que el bien esté identificado en el Catálogo."
+     ]
+    },
+    {
+     "titulo": "4. La declaración de Bien de Interés Cultural",
+     "parrafos": [
+      "En la LPHA, los inmuebles de interés para la Comunidad Autónoma que se inscriben en el Catálogo como Bien de Interés Cultural se clasifican según la tipología del artículo 25 (art. 25). El contenido de la inscripción se regula en el artículo 27, y el entorno de los bienes de interés cultural tiene su propio régimen en el artículo 28.",
+      "En la LPHE, la declaración de bien de interés cultural puede hacerse por ministerio de la ley o por real decreto de forma individualizada. La declaración por real decreto requiere la incoación y tramitación de un expediente, con informe favorable de alguna de las instituciones consultivas, y, en los inmuebles, un período de información pública y audiencia al ayuntamiento (LPHE, art. 9, apartado 2). Si el informe no se emite en tres meses, se entiende favorable (art. 9, apartado 2).",
+      "El expediente debe resolverse en un plazo máximo de veinte meses desde su incoación. Si transcurre ese plazo sin resolución, el expediente caduca cuando se ha denunciado la mora y no ha recaído resolución en los cuatro meses siguientes a la denuncia. Caducado el expediente, no puede volver a iniciarse en tres años, salvo a instancia del titular (art. 9, apartado 3). Por último, no puede declararse bien de interés cultural la obra de un autor vivo, salvo autorización expresa de su propietario o adquisición por la Administración (art. 9, apartado 4)."
+     ]
+    },
+    {
+     "titulo": "5. Entorno, planeamiento y protección urbanística",
+     "parrafos": [
+      "La protección del bien inmueble no se limita al edificio. La LPHA regula el entorno de los bienes de interés cultural (art. 28) y los instrumentos de ordenación con incidencia patrimonial (art. 29). El planeamiento urbanístico de protección es el que establece el régimen de los bienes y de su entorno (art. 30), con un contenido de protección que el artículo 31 define.",
+      "El informe en los procedimientos de prevención y control ambiental es un trámite que la ley reconoce al patrimonio histórico, para que el impacto sobre los bienes se valore en la evaluación ambiental (art. 32). De este modo, el patrimonio entra en el proceso de planificación del territorio desde el primer momento, no solo en la fase de obra.",
+      "Para el arquitecto técnico, el entorno es el punto de conflicto más frecuente: una obra nueva próxima a un monumento puede necesitar la autorización de la Consejería aunque el propio monumento no se toque. El planeamiento de protección indica en qué casos es así."
+     ]
+    },
+    {
+     "titulo": "6. Medidas de protección: autorización, conservación y ejecución",
+     "parrafos": [
+      "El inmueble inscrito es inseparable del lugar donde se ubica. No puede desplazarse ni removerse salvo causa de fuerza mayor o de interés social, y en todo caso con autorización previa de la Consejería (LPHA, art. 33, apartado 1). Está prohibida la publicidad comercial y los cables, antenas y conducciones aparentes en los jardines históricos y en las fachadas y cubiertas de los monumentos (art. 33, apartado 2). También se prohíbe toda construcción que altere el carácter del bien o perturbe su contemplación.",
+      "Cualquier cambio o modificación en un bien de interés cultural, o en su entorno, necesita la autorización de la Consejería, previa a las restantes licencias: obras de todo tipo, remociones de terreno, cambios de uso o modificaciones en las instalaciones y accesorios. La misma autorización se precisa para colocar rótulos, señales o símbolos en las fachadas o cubiertas de los monumentos (art. 33, apartado 3).",
+      "La ley regula además las obligaciones de las personas titulares (art. 14), las órdenes de ejecución (art. 15) y la ejecución forzosa (art. 16). La Administración dispone del derecho de tanteo y retracto (art. 17) y, en última instancia, de la expropiación (art. 18). Los criterios de conservación se fijan en el artículo 20, el proyecto de conservación en los artículos 21 y 22, la potestad de inspección en el artículo 23 y las intervenciones de emergencia en el artículo 24.",
+      "Los procedimientos de ruina, demolición y actuaciones ilegales se regulan en los artículos 37 a 39, que el tema presenta por su título, sin haber leído su texto completo."
+     ]
+    },
+    {
+     "titulo": "6 bis. Procedimiento de autorización de una intervención en un bien inscrito",
+     "parrafos": [
+      "La autorización de una intervención en un bien de interés cultural tiene un orden que el examen suele pedir. Primero se identifica si el inmueble está inscrito en el Catálogo General y si está declarado como bien de interés cultural, con su categoría del artículo 25. Después se comprueba si la actuación está en el propio bien o en su entorno, porque ambos necesitan autorización según el artículo 33, apartado 3.",
+      "El paso siguiente es presentar el proyecto ante la Consejería competente, antes de las licencias municipales. El artículo 33, apartado 3, exige esa autorización previa a las restantes licencias o autorizaciones que fueran pertinentes, para cualquier obra, remoción de terreno, cambio de uso o modificación de los bienes muebles, la pintura o las instalaciones. El proyecto de conservación que exige el artículo 21 y sus requisitos del artículo 22 se incorpora a esa presentación.",
+      "Una vez concedida la autorización, la licencia municipal se tramita con ella. Si la intervención se hace sin autorización, la Administración puede suspender la obra y paralizar las actuaciones (arts. 35 y 36, según su título), y la conducta puede ser una infracción muy grave si produce pérdida o daños irreparables (art. 108, apartado 2). El arquitecto técnico que dirige la ejecución debe comprobar esa autorización antes del acta de replanteo."
+     ]
+    },
+    {
+     "titulo": "7. El patrimonio arqueológico y las zonas arqueológicas",
+     "parrafos": [
+      "La LPHA define el patrimonio arqueológico en su título V, a partir del artículo 47. Las zonas arqueológicas son, según el artículo 26, apartado 5, los espacios claramente delimitados en los que se ha comprobado la existencia de restos de interés relevante. La ley prevé la declaración de zonas de servidumbre arqueológica (art. 48), su régimen (art. 49), el régimen de los hallazgos casuales (art. 50) y las autorizaciones para las actividades arqueológicas (arts. 52 a 54).",
+      "En la práctica, el arquitecto técnico encuentra la zona arqueológica en la fase de movimiento de tierras. Si durante la excavación aparecen restos, la ley prevé actuaciones de urgencia (art. 58) y actuaciones arqueológicas previas a la intervención sobre un inmueble (art. 59). El artículo 59 regula esas actuaciones previas, que deben estudiarse en la fase de proyecto y no como una incidencia de la obra.",
+      "Las excavaciones arqueológicas incluyen un porcentaje de hasta el 20 % del presupuesto para la conservación, restauración y difusión de los bienes expuestos o de los materiales y estructuras descubiertos (art. 85). Este porcentaje es una medida de fomento que se aplica sobre el presupuesto de la actuación arqueológica."
+     ]
+    },
+    {
+     "titulo": "8. Medidas de fomento",
+     "parrafos": [
+      "El título X de la LPHA regula las medidas de fomento. La ley prevé las inversiones culturales (art. 84), el porcentaje para conservación (art. 85), la dación en pago de bienes del patrimonio histórico para pagar deudas con la Administración de la Junta de Andalucía (art. 86), la aceptación de donaciones y legados (art. 87), los estímulos a la rehabilitación de viviendas y a la eliminación de la contaminación visual (art. 88), la cesión de inmuebles de titularidad autonómica (art. 89), el depósito voluntario de bienes muebles (art. 90) y las subvenciones (art. 91).",
+      "Las medidas de fomento complementan a las de protección. La ley prevé subvenciones (art. 91) y estímulos a la rehabilitación de viviendas (art. 88), y permite a la Administración aceptar donaciones y legados (art. 87) y ceder inmuebles de su titularidad (art. 89). La concreción de cada ayuda depende de su convocatoria, que no se ha leído en el repositorio."
+     ]
+    },
+    {
+     "titulo": "9. Infracciones administrativas y sus sanciones",
+     "parrafos": [
+      "Una intervención en un bien inscrito empieza por el conocimiento del edificio. El proyecto debe incluir un levantamiento del estado actual, la identificación de los materiales originales y de las adiciones posteriores, y un diagnóstico de las causas de los daños. Esta información es la que justifica la autorización, porque la Consejería evalúa si la intervención respeta el carácter del bien (art. 33, apartado 2).",
+      "En la práctica se distinguen varios tipos de actuación: la conservación, que mantiene el bien en su estado sin alterar sus elementos; la restauración, que devuelve los elementos a su estado original o de referencia; y la rehabilitación, que adapta el bien a un uso actual manteniendo sus valores. El tipo de actuación debe declararse en el proyecto, porque la autorización depende de cuál se pide. Esta distinción es de práctica profesional y no se ha verificado en el texto de la ley en su totalidad.",
+      "El control de la obra es una parte esencial de la intervención. Los trabajos sobre elementos originales deben supervisarse con la dirección facultativa y, en su caso, con la Consejería. Un hallazgo durante la obra, como restos de un muro anterior o de un pavimento histórico, obliga a suspender la parte afectada y a comunicarlo, según el régimen de los hallazgos casuales (art. 50) y de las actuaciones de urgencia (art. 58)."
+     ]
+    },
+    {
+     "titulo": "9 bis. Criterios prácticos de intervención en un bien de interés cultural",
+     "parrafos": [
+      "Las infracciones se clasifican en muy graves, graves y leves (LPHA, arts. 107 a 110, dentro del régimen sancionador de los artículos 106 a 119). Son muy graves, entre otras, el desplazamiento o remoción de un bien inscrito como bien de interés cultural sin la autorización del artículo 33.1, el incumplimiento de las medidas autorizadas en el supuesto del artículo 37.4, las demoliciones sin cumplir los requisitos del artículo 38, y la destrucción de restos arqueológicos inscritos que suponga una pérdida de información irreparable (art. 108, apartado 1). La pérdida o los daños irreparables en bienes inscritos también son infracciones muy graves (art. 108, apartado 2), y la omisión del deber de conservación que produzca un deterioro irreparable (art. 108, apartado 3).",
+      "Las sanciones de multa son las siguientes (art. 114, apartado 1): para las infracciones muy graves, de 250.001 a 1.000.000 de euros; para las graves, de 100.001 a 250.000 euros; y para las leves, hasta 100.000 euros. Además, pueden imponerse sanciones accesorias, como la inhabilitación durante cinco años para ejercer la profesión ante la Consejería del personal técnico que dirija o sea responsable de acciones muy graves (art. 114, apartado 2, letra a).",
+      "La prescripción de las infracciones es de cinco años para las leves y las graves, y de diez años para las muy graves (art. 119, apartado 1). El plazo se computa desde que se cometió la infracción, o, si es continuada, desde que cesó la conducta (art. 119, apartado 2). Las cifras de la sanción deben contrastarse con la versión vigente de la ley, porque la LPHA ha sido modificada."
+     ]
+    },
+    {
+     "titulo": "10. Órganos de la Administración del patrimonio histórico",
+     "parrafos": [
+      "El Consejo de Gobierno y la Consejería competente en materia de patrimonio histórico son los órganos ejecutivos de la ley (arts. 92 y 93). La Consejería es responsable de la formulación y ejecución de la política de tutela, enriquecimiento y difusión del patrimonio, y su titular desarrolla la acción del Gobierno en ese ámbito (art. 93, apartados 1 y 2).",
+      "Las Delegaciones Provinciales de la Consejería ejercen las funciones ejecutivas que se establezcan reglamentariamente, y las que les deleguen otros órganos (art. 94). El artículo 95 regula los órganos interadministrativos de gestión, y los artículos 96 y 97 regulan el Consejo Andaluz del Patrimonio Histórico como órgano consultivo y sus funciones.",
+      "En el procedimiento, la competencia para autorizar las intervenciones corresponde a la Consejería, mientras que la licencia municipal la concede el ayuntamiento. La ley prevé un procedimiento único (art. 41) y la delegación de competencias en los municipios (art. 40), por lo que la coordinación entre ambos niveles es esencial."
+     ]
+    },
+    {
+     "titulo": "11. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir la tipología del artículo 25 de la LPHA, la clasificación de los conceptos del artículo 26, el régimen de la autorización del artículo 33, las categorías de infracciones de los artículos 108 a 110, las cuantías del artículo 114 y los plazos de prescripción del artículo 119. Conviene memorizar las ocho categorías y los plazos de prescripción (cinco y diez años).",
+      "Los errores habituales son cuatro. El primero es confundir la declaración de BIC por ley con la declaración por real decreto de la LPHE. El segundo es suponer que solo el monumento necesita autorización, cuando el entorno también la necesita. El tercero es confundir las categorías de la LPHA con las de la LPHE, que son distintas. El cuarto es olvidar que el informe de la Consejería es previo a la licencia municipal.",
+      "Para un caso práctico de una rehabilitación de un edificio inscrito como monumento, el orden de análisis es: identificar la inscripción y su entorno; comprobar la autorización previa de la Consejería (art. 33, apartado 3); presentar el proyecto de conservación según los artículos 21 y 22; obtener la licencia municipal con la autorización; y comprobar que el proyecto no altera el carácter del bien (art. 33, apartado 2). Los plazos y las cuantías se memorizan mejor en el contexto de cada infracción.",
+      "Una forma eficaz de estudiar el tema es construir una tabla con tres columnas: el concepto, la norma que lo regula y la consecuencia práctica. Por ejemplo, el monumento se define en el artículo 26, apartado 1; se inscribe en el Catálogo con la tipología del artículo 25; y su intervención exige la autorización del artículo 33, apartado 3. Esa cadena de tres eslabones responde a la mayoría de las preguntas de caso práctico, y permite recordar los artículos sin memorizar el texto literal.",
+      "En el examen, conviene citar siempre la norma con su ámbito: la LPHE para la declaración estatal y la LPHA para los bienes de Andalucía. Una respuesta que mezcla las dos normas sin distinguirlas se considera imprecisa, aunque el contenido sea correcto."
+     ]
+    },
+    {
+     "titulo": "12. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: la LPHA en sus artículos 6 (apartados 1 y 2), 8, 9 (apartados 1 a 3 en su inicio), 12 a 19 (en el índice), 20 a 24 (en el índice), 25, 26 (apartados 1 a 8), 27, 28 (en el índice), 33 (apartados 1 a 3), 85, 86, 93, 94, 108 (apartados 1 a 3), 114 (apartados 1 y 2, letra a) y 119; y la LPHE en su artículo 9 (apartados 2 a 4) y en el índice de sus artículos.",
+      "No se han leído en el texto completo los artículos 37 a 39 de la LPHA, los artículos 47 a 60 sobre el patrimonio arqueológico, los artículos 84 y 87 a 91, los artículos 109 y 110 y el artículo 115 y siguientes, ni el artículo 96 y siguientes sobre el Consejo Andaluz. Tampoco se ha leído el Real Decreto 111/1986.",
+      "La versión consolidada de la LPHA del repositorio tiene fecha de última modificación de 7 de abril de 2026, según el propio texto. Las cuantías de las multas y los plazos de prescripción deben contrastarse con la versión vigente antes de citarlos en un examen."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-1985-12534.pdf",
+    "leyes/BOE-A-2008-2494.pdf"
+   ]
+  },
+  "e40": {
+   "resumen": [
+    {
+     "titulo": "Concepto y componentes de un SIG",
+     "puntos": [
+      "Un SIG captura, almacena, consulta, analiza y representa datos con referencia espacial. Su rasgo distintivo es que cada dato va asociado a una posición y puede combinarse con otros datos que comparten sistema de referencia.",
+      "Componentes: equipamiento físico, software, datos, personas y procedimientos. La calidad del sistema depende sobre todo de los datos y de los procedimientos de captura, control y actualización."
+     ]
+    },
+    {
+     "titulo": "Modelos de datos y referencia espacial",
+     "puntos": [
+      "Modelo vectorial: puntos, líneas y polígonos con atributos (parcelas, calles, redes). Modelo ráster: malla de celdas con un valor (altitudes, imágenes de satélite).",
+      "Los datos necesitan un sistema de referencia (datum y proyección). Los atributos son los datos no geométricos asociados a cada objeto."
+     ]
+    },
+    {
+     "titulo": "Implementación y organización",
+     "puntos": [
+      "Fases: análisis de necesidades, diseño de la base de datos, captura y carga, control de calidad (precisión posicional, completitud, coherencia topológica y actualidad), análisis y representación, difusión y mantenimiento.",
+      "La documentación con metadatos es obligatoria para los datos de los anexos de la Ley 14/2010 (art. 9, apartado 1)."
+     ]
+    },
+    {
+     "titulo": "Análisis y aplicaciones",
+     "puntos": [
+      "Operaciones básicas: consulta por atributos, consulta por localización, superposición de capas, zona de influencia (buffer), análisis de redes e interpolación.",
+      "Aplicaciones: urbanismo y planeamiento, catastro, gestión de patrimonio edificado, mapas de ruido (Ley 37/2003, arts. 14 a 16) y protección civil."
+     ]
+    },
+    {
+     "titulo": "Infraestructura de Datos Espaciales (IDE)",
+     "puntos": [
+      "Definición: estructura virtual en red de datos georreferenciados y servicios interoperables, accesible por Internet con protocolos normalizados (Ley 14/2010, art. 3.1, letra a).",
+      "La Infraestructura de Información Geográfica de España incluye el territorio nacional, el mar territorial, la zona contigua, la plataforma continental y la zona económica exclusiva (art. 1, apartado 2). Los datos se ponen a disposición a través del Geoportal (art. 5, apartado 1)."
+     ]
+    },
+    {
+     "titulo": "Definiciones de la Ley 14/2010",
+     "puntos": [
+      "Datos geográficos: cualesquiera datos que, de forma directa o indirecta, hagan referencia a una localización (art. 3.1, letra b). Metadatos: información que describe los conjuntos de datos y servicios y permite localizarlos, inventariarlos y utilizarlos (letra f). Interoperabilidad: capacidad de combinar conjuntos de datos sin intervención manual repetitiva (letra g).",
+      "Sistema Cartográfico Nacional: modelo de actuación que coordina a los operadores públicos con competencias concurrentes (art. 17, apartado 1)."
+     ]
+    },
+    {
+     "titulo": "Mapas de ruido",
+     "puntos": [
+      "La Ley 37/2003 regula la identificación de los mapas de ruido (art. 14), sus fines y contenido (art. 15) y su revisión (art. 16). Los mapas son la base para planificar las medidas correctoras y las zonas de servidumbre acústica (art. 10)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "L-14-2010",
+     "rol": "Infraestructuras y servicios de información geográfica: definiciones, geoportal, metadatos e interoperabilidad (arts. 1, 3, 5, 9 y 17)"
+    },
+    {
+     "id": "L-37-2003",
+     "rol": "Mapas de ruido: identificación, fines, contenido y revisión (arts. 14 a 16)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la Ley 14/2010, art. 3.1, letra a, ¿qué es una infraestructura de información geográfica?",
+     "opciones": [
+      "Una estructura virtual en red integrada por datos georreferenciados y servicios interoperables, accesible por Internet",
+      "Un mapa impreso del territorio nacional",
+      "Un contrato de suministro de hardware",
+      "Un edificio que aloja los servidores de una administración"
+     ],
+     "correcta": 0,
+     "explicacion": "La ley define la infraestructura de información geográfica como una estructura virtual en red integrada por datos georreferenciados y servicios interoperables, accesible por Internet con protocolos normalizados (art. 3.1, letra a).",
+     "referencia": "Ley 14/2010, art. 3.1, letra a)"
+    },
+    {
+     "pregunta": "Según la Ley 14/2010, art. 3.1, letra f, ¿qué son los metadatos?",
+     "opciones": [
+      "El tamaño en bytes de un fichero ráster",
+      "Los datos personales de los usuarios del geoportal",
+      "Información que describe los conjuntos de datos geográficos y los servicios, y que permite localizarlos, inventariarlos y utilizarlos",
+      "El precio de los datos geográficos"
+     ],
+     "correcta": 2,
+     "explicacion": "Los metadatos son la información que describe los conjuntos de datos geográficos y los servicios de información geográfica, y que hace posible localizarlos, inventariarlos y utilizarlos (art. 3.1, letra f).",
+     "referencia": "Ley 14/2010, art. 3.1, letra f)"
+    },
+    {
+     "pregunta": "Según la Ley 14/2010, art. 3.1, letra g, ¿qué es la interoperabilidad de servicios de información geográfica?",
+     "opciones": [
+      "La prohibición de compartir datos entre administraciones",
+      "La conversión de los mapas en fotografías",
+      "La posibilidad de imprimir un mapa en color",
+      "La capacidad de combinar conjuntos de datos sin intervención manual repetitiva, con resultados coherentes"
+     ],
+     "correcta": 3,
+     "explicacion": "La interoperabilidad es la capacidad de combinar conjuntos de datos geográficos y facilitar la interacción de los servicios sin intervención manual repetitiva, de forma que el resultado sea coherente (art. 3.1, letra g).",
+     "referencia": "Ley 14/2010, art. 3.1, letra g)"
+    },
+    {
+     "pregunta": "Según la Ley 14/2010, art. 5, apartado 1, ¿a través de qué instrumento estarán disponibles los datos y servicios de la IDE proporcionados por las administraciones?",
+     "opciones": [
+      "A través del Boletín Oficial del Estado",
+      "A través del Geoportal de la Infraestructura de Datos Espaciales de España",
+      "A través de los registros de la propiedad",
+      "A través de una aplicación de mensajería"
+     ],
+     "correcta": 1,
+     "explicacion": "Los datos geográficos y los servicios interoperables proporcionados a través de Internet por las administraciones integradas en la Infraestructura estarán disponibles a través del Geoportal (art. 5, apartado 1).",
+     "referencia": "Ley 14/2010, art. 5, apartado 1"
+    },
+    {
+     "pregunta": "Según la Ley 14/2010, art. 5, apartado 2, ¿quién actúa como secretaría técnica del Geoportal?",
+     "opciones": [
+      "La Dirección General del Instituto Geográfico Nacional",
+      "El Consejo General del Notariado",
+      "La Agencia Tributaria",
+      "El Ministerio de Hacienda"
+     ],
+     "correcta": 0,
+     "explicacion": "La Dirección General del Instituto Geográfico Nacional actúa como secretaría técnica del Geoportal (art. 5, apartado 2).",
+     "referencia": "Ley 14/2010, art. 5, apartado 2"
+    },
+    {
+     "pregunta": "Según la Ley 14/2010, art. 17, apartado 1, ¿qué es el Sistema Cartográfico Nacional?",
+     "opciones": [
+      "Un programa de software de dibujo",
+      "Un catálogo de precios de los levantamientos topográficos",
+      "Un modelo de actuación que persigue el ejercicio eficaz de las funciones públicas en materia de información geográfica mediante la coordinación de los operadores públicos",
+      "Un tipo de proyección cartográfica"
+     ],
+     "correcta": 2,
+     "explicacion": "El Sistema Cartográfico Nacional es un modelo de actuación que persigue el ejercicio eficaz de las funciones públicas en materia de información geográfica, mediante la coordinación de los operadores públicos con competencias concurrentes (art. 17, apartado 1).",
+     "referencia": "Ley 14/2010, art. 17, apartado 1"
+    },
+    {
+     "pregunta": "Según la Ley 14/2010, art. 9, apartado 1, ¿para qué datos deben las administraciones asegurar la creación y actualización de metadatos?",
+     "opciones": [
+      "Solo para los mapas en papel",
+      "Para ningún dato, porque los metadatos son voluntarios",
+      "Para todos los documentos de la administración, sin excepción",
+      "Para los datos geográficos y servicios de los apartados h), i) y j) del artículo 3.1, enumerados en sus anexos"
+     ],
+     "correcta": 3,
+     "explicacion": "Las administraciones deben asegurar la creación y actualización de metadatos para los datos geográficos y servicios de los apartados h), i) y j) del artículo 3.1, enumerados en los anexos I, II y III de la ley (art. 9, apartado 1).",
+     "referencia": "Ley 14/2010, art. 9, apartado 1"
+    },
+    {
+     "pregunta": "Según la Ley 14/2010, art. 1, apartado 2, ¿qué espacios incluye la Infraestructura de Información Geográfica de España?",
+     "opciones": [
+      "Solo el suelo de las comunidades autónomas",
+      "El territorio nacional, el mar territorial, la zona contigua, la plataforma continental y la zona económica exclusiva",
+      "Solo las capitales de provincia",
+      "Únicamente los terrenos de titularidad pública"
+     ],
+     "correcta": 1,
+     "explicacion": "La infraestructura está constituida por las infraestructuras y servicios interoperables disponibles sobre el territorio nacional, el mar territorial, la zona contigua, la plataforma continental y la zona económica exclusiva (art. 1, apartado 2).",
+     "referencia": "Ley 14/2010, art. 1, apartado 2"
+    },
+    {
+     "pregunta": "Según la Ley 37/2003, art. 14, ¿qué regula este precepto en relación con el ruido?",
+     "opciones": [
+      "El horario de las obras",
+      "El precio de los auriculares",
+      "La identificación de los mapas de ruido",
+      "La concesión de licencias de bares"
+     ],
+     "correcta": 2,
+     "explicacion": "El artículo 14 de la Ley del Ruido regula la identificación de los mapas de ruido, que el artículo 15 desarrolla en cuanto a sus fines y contenido.",
+     "referencia": "Ley 37/2003, art. 14"
+    },
+    {
+     "pregunta": "Según la Ley 14/2010, art. 3.1, letra b, ¿qué son los datos geográficos?",
+     "opciones": [
+      "Cualesquiera datos que, de forma directa o indirecta, hagan referencia a una localización o zona geográfica específica",
+      "Únicamente los datos obtenidos por satélite",
+      "Solo los datos del catastro de bienes rústicos",
+      "Los datos que expresamente carecen de localización"
+     ],
+     "correcta": 0,
+     "explicacion": "Los datos geográficos son cualesquiera datos que, de forma directa o indirecta, hagan referencia a una localización o zona geográfica específica (art. 3.1, letra b).",
+     "referencia": "Ley 14/2010, art. 3.1, letra b)"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Definición de un Sistema de Información Geográfica",
+     "parrafos": [
+      "Un Sistema de Información Geográfica (SIG, en inglés GIS) es un sistema de información que permite capturar, almacenar, consultar, analizar y representar datos que tienen una referencia espacial, es decir, que se localizan sobre la superficie terrestre. Su rasgo distintivo es que cada dato va asociado a una posición, de modo que pueden combinarse datos de distintas fuentes porque comparten un mismo sistema de referencia.",
+      "La norma legal recoge el concepto de forma indirecta. La Ley 14/2010, sobre las infraestructuras y los servicios de información geográfica en España, define los datos geográficos como cualesquiera datos que, de forma directa o indirecta, hagan referencia a una localización o zona geográfica específica (art. 3.1, letra b). Y define el servicio de información geográfica como la operación, o conjunto de operaciones, que pueden efectuarse, mediante una aplicación informática, sobre datos geográficos o sus metadatos (art. 3.1, letra e).",
+      "La diferencia entre un SIG y un mapa es la capacidad de análisis. Un mapa representa datos; un SIG permite preguntar a los datos, cruzarlos, medir distancias y superficies, y generar nuevos datos a partir de ellos. Por eso el SIG es, más que una herramienta de dibujo, un instrumento de decisión para la gestión del territorio y de los edificios."
+     ]
+    },
+    {
+     "titulo": "2. Componentes de un SIG",
+     "parrafos": [
+      "Un SIG se compone, en la práctica, de cinco elementos. El primero es el equipamiento físico o hardware, con los servidores, los equipos de trabajo y los dispositivos de captura, como los receptores GNSS, los escáneres o los drones. El segundo es el software, con el módulo de gestión de la base de datos, el de análisis espacial y el de representación cartográfica. El tercero son los datos, que son el componente más costoso y el que determina la calidad del conjunto.",
+      "El cuarto componente son las personas: los técnicos que diseñan la base de datos, capturan la información, la validan, analizan los resultados y mantienen el sistema. El quinto son los procedimientos o métodos, es decir, las normas de captura, de control de calidad, de documentación y de actualización que garantizan que los datos sean coherentes en el tiempo y entre equipos.",
+      "En la práctica, la mayoría de los fallos de un SIG no son de software ni de hardware, sino de datos y de procedimientos: datos sin metadatos, capturas sin control de calidad o actualizaciones que nadie realiza. La Ley 14/2010 se centra precisamente en esos dos aspectos, al exigir metadatos y normas de interoperabilidad (arts. 7 y 9)."
+     ]
+    },
+    {
+     "titulo": "3. Modelos de datos y referencia espacial",
+     "parrafos": [
+      "Los datos de un SIG se representan con dos modelos. El modelo vectorial describe los objetos mediante puntos, líneas y polígonos, con una geometría y unos atributos asociados. Es adecuado para parcelas, calles, redes de servicios y edificios. El modelo ráster describe el territorio como una malla de celdas, cada una con un valor, y es adecuado para superficies continuas, como las altitudes del terreno, las imágenes de satélite o la distribución de una magnitud.",
+      "Un dato espacial necesita un sistema de referencia que relacione las coordenadas con la superficie terrestre. Sin ese sistema, dos capas no pueden superponerse con precisión. Los sistemas de referencia combinan un datum (el modelo matemático de la forma de la Tierra) con un sistema de proyección (la forma de representar la superficie en un plano). Esta cuestión técnica es la que exige la interoperabilidad que la Ley 14/2010 regula.",
+      "Los atributos son los datos no geométricos asociados a cada objeto, como la referencia catastral, el uso, la superficie construida o el año de construcción. La unión entre geometría y atributos permite consultas del tipo ¿qué parcelas tienen uso residencial y superan 1.000 m² de superficie?, que son la base del análisis urbanístico."
+     ]
+    },
+    {
+     "titulo": "3 bis. Captura de datos y control de calidad",
+     "parrafos": [
+      "La captura es la fase que más esfuerzo consume. Los datos pueden proceder de un levantamiento topográfico con estación total o con receptores GNSS, de la digitalización de planos existentes, de la vectorización de ortofotografías, de la teledetección con imágenes de satélite o de drones, o de la importación de bases de datos de otras administraciones. Cada fuente tiene una precisión propia, y el SIG debe registrarla en los metadatos para que el usuario sepa con qué margen puede trabajar.",
+      "El control de calidad de los datos espaciales se hace sobre cuatro aspectos. La exactitud posicional mide la diferencia entre la posición de un objeto en la base de datos y su posición real. La completitud mide si están todos los objetos que deben estar. La coherencia lógica o topológica comprueba, por ejemplo, que dos parcelas contiguas no se superponen y que una red de tuberías es conexa. La actualidad mide la fecha de la información y su correspondencia con el estado actual del territorio.",
+      "Un error frecuente es capturar datos sin definir antes el nivel de detalle que requiere la aplicación. Una capa de planeamiento a escala 1:5.000 no sirve para replantear una cimentación, y una capa de edificios a escala 1:50.000 no sirve para calcular superficies. La escala de captura debe fijarse en la fase de diseño, no al final."
+     ]
+    },
+    {
+     "titulo": "4. Organización e implementación de un SIG",
+     "parrafos": [
+      "La implementación de un SIG sigue una secuencia de fases. La primera es el análisis de necesidades: qué preguntas debe responder el sistema, quiénes lo usarán y con qué frecuencia. La segunda es el diseño de la base de datos, con la definición del modelo de datos, de las capas, de los atributos y de los dominios de valores. La tercera es la captura y la carga de los datos, que puede proceder de levantamientos, de bases existentes o de documentos escaneados que se vectorizan.",
+      "La cuarta fase es el control de calidad, que comprueba la precisión posicional, la completitud, la coherencia topológica y la actualidad de los datos. La quinta es el análisis y la representación, y la sexta la difusión de los resultados, que puede ser interna o mediante servicios web. La séptima, a menudo olvidada, es el mantenimiento: sin actualización, un SIG se degrada en pocos años.",
+      "Cada conjunto de datos debe documentarse con sus metadatos, que son la información que describe los conjuntos de datos y los servicios y que permite localizarlos, inventariarlos y utilizarlos (Ley 14/2010, art. 3.1, letra f). La ley exige a las administraciones públicas la creación y actualización de metadatos para los datos geográficos que enumeran sus anexos (art. 9, apartado 1). Los metadatos incluyen, entre otros aspectos, la conformidad con las normas de ejecución europeas y las condiciones de acceso y de uso (art. 9, apartado 2, letras a y b)."
+     ]
+    },
+    {
+     "titulo": "4 bis. Análisis espacial: operaciones básicas",
+     "parrafos": [
+      "El análisis espacial es lo que distingue un SIG de un sistema de dibujo. Las operaciones básicas son la consulta por atributos (qué objetos cumplen una condición sobre sus datos), la consulta por localización (qué objetos están dentro de un área o junto a otro objeto), la superposición de capas (qué resulta de combinar dos capas, como uso del suelo y riesgo de inundación) y la zona de influencia o buffer (qué queda a una distancia determinada de un objeto).",
+      "Sobre redes, como calles, tuberías o cables, el análisis permite calcular rutas óptimas, zonas de cobertura de un servicio y tiempos de desplazamiento. Sobre superficies continuas, como el terreno o la radiación solar, el análisis permite calcular pendientes, orientaciones y perfiles. La interpolación estima valores en puntos sin medir a partir de los medidos, y la estadística zonal resume un valor ráster dentro de un polígono.",
+      "Estas operaciones se encadenan en un flujo de trabajo. Por ejemplo, para estudiar la accesibilidad de bomberos a un conjunto de edificios, se combinan la red viaria con el buffer de los edificios, se calcula el tiempo de llegada por la red y se comparan los resultados con el espacio de maniobra exigido. El resultado es un mapa de cumplimiento, y no un dato aislado."
+     ]
+    },
+    {
+     "titulo": "4 ter. Organización de un SIG en una administración",
+     "parrafos": [
+      "La implementación de un SIG en una administración no es solo una cuestión informática. Exige decidir quién es responsable de cada capa, quién puede modificarla y quién la consulta. El modelo más extendido es el de una unidad responsable de la base de datos geográfica, con un administrador del sistema, técnicos responsables de las capas temáticas y usuarios que consultan. Esa separación evita que varias oficinas modifiquen la misma capa sin control.",
+      "La organización también define el flujo de trabajo. Una modificación de una parcela, por ejemplo, empieza en la unidad que tramita la licencia, pasa por una validación de la geometría y de los atributos, se incorpora a la base de datos y queda reflejada en los metadatos con su fecha. Sin ese circuito, la base de datos y los expedientes se separan, y el SIG deja de reflejar el territorio real.",
+      "La formación del personal es parte de la implementación. Un SIG puede estar bien diseñado y usarse mal si los técnicos no conocen las escalas, los sistemas de referencia o las operaciones de análisis. Por eso la mayoría de los proyectos de implementación incluyen un plan de formación y un manual de procedimientos."
+     ]
+    },
+    {
+     "titulo": "5. Aplicaciones de los SIG",
+     "parrafos": [
+      "El urbanismo es la aplicación más extendida de los SIG. El planeamiento se representa como capas de clasificación y calificación del suelo, con sus índices y sus afecciones, y el SIG permite comprobar la conformidad de un proyecto con el planeamiento, calcular aprovechamientos y estudiar alternativas de ordenación.",
+      "El catastro usa el SIG para mantener la cartografía de las parcelas y para relacionar cada parcela con sus datos jurídicos y económicos. La gestión de los edificios usa el SIG para inventariar los inmuebles de un patrimonio público, con su estado de conservación y sus necesidades de mantenimiento.",
+      "En el medio ambiente, el SIG es la base de los mapas de ruido que exige la Ley 37/2003. La ley regula la identificación de los mapas de ruido (art. 14), sus fines y su contenido (art. 15) y su revisión (art. 16), y los mapas son la herramienta para planificar las medidas correctoras y las zonas de servidumbre acústica (arts. 10 y 17). En la protección civil y la extinción de incendios, el SIG permite calcular rutas de acceso, tiempos de respuesta y zonas de riesgo, como las áreas forestales que el DB-SI, en su apartado de accesibilidad de bomberos, exige separar del edificio."
+     ]
+    },
+    {
+     "titulo": "5 bis. Representación cartográfica y difusión",
+     "parrafos": [
+      "La representación es la forma en que el SIG comunica el resultado. Cada capa se simboliza según el tipo de dato y el mensaje que debe transmitir: los polígonos se colorean por rangos o por categorías, las líneas se graduan por anchura o por color, y los puntos se representan con símbolos de tamaño proporcional a un atributo. La escala del mapa determina qué detalle se muestra, y una escala mal elegida puede ocultar objetos importantes o saturar el mapa.",
+      "La difusión de los datos se hace por servicios. Un servicio de visualización devuelve imágenes de las capas, y un servicio de descarga devuelve los datos en su formato original. Los servicios estandarizados permiten que un cliente de otra administración o de una aplicación privada consuma los datos sin intervención manual. Este es el sentido de la interoperabilidad que regula la Ley 14/2010 (art. 3.1, letra g) y que el geoportal de la IDE debe garantizar (art. 5)."
+     ]
+    },
+    {
+     "titulo": "6. Las infraestructuras de datos espaciales (IDE)",
+     "parrafos": [
+      "Una infraestructura de datos espaciales (IDE) es una estructura virtual en red de datos georreferenciados y servicios interoperables distribuidos en distintos sistemas, accesible por Internet con protocolos normalizados. La Ley 14/2010 la define así, y añade que incluye también las tecnologías de búsqueda y acceso, las normas de producción, gestión y difusión, los acuerdos de puesta en común y los mecanismos de coordinación y seguimiento (art. 3.1, letra a).",
+      "La Ley 14/2010 establece la Infraestructura de Información Geográfica de España, constituida por el conjunto de infraestructuras y servicios interoperables de información geográfica disponible sobre el territorio nacional, el mar territorial, la zona contigua, la plataforma continental y la zona económica exclusiva (art. 1, apartado 2). Su objeto es fijar las normas generales para su establecimiento, orientadas a facilitar las políticas basadas en la información geográfica, especialmente las de medio ambiente (art. 1, apartado 1).",
+      "El elemento de acceso es el geoportal. Los datos y servicios interoperables proporcionados por las distintas administraciones integradas en la Infraestructura están disponibles a través del Geoportal de la Infraestructura de Datos Espaciales de España (art. 5, apartado 1). La Dirección General del Instituto Geográfico Nacional actúa como secretaría técnica (art. 5, apartado 2). La interoperabilidad, que es la capacidad de combinar conjuntos de datos sin intervención manual repetitiva (art. 3.1, letra g), es el criterio que hace útil la IDE, porque permite cruzar datos de distintas administraciones sin reelaborarlos."
+     ]
+    },
+    {
+     "titulo": "7. El Sistema Cartográfico Nacional y el acceso a los datos",
+     "parrafos": [
+      "El Sistema Cartográfico Nacional es el modelo de actuación que persigue el ejercicio eficaz de las funciones públicas en materia de información geográfica mediante la coordinación de los operadores públicos con competencias concurrentes (Ley 14/2010, art. 17, apartado 1). El Gobierno lo regula con respeto a la distribución competencial y previo informe del Consejo Superior Geográfico, con objetivos como garantizar la homogeneidad de la información producida (art. 17, apartado 2, letra a).",
+      "El acceso a los datos tiene límites. La ley admite limitaciones de acceso público a los datos geográficos y a los servicios cuando su difusión pueda afectar a intereses protegidos (Ley 14/2010, art. 13), y regula las condiciones de acceso a los servicios de información geográfica (art. 14). Los metadatos deben indicar esas condiciones y las tasas o precios públicos que, en su caso, se apliquen (art. 9, apartado 2, letra b).",
+      "Esta combinación de acceso público, límites y metadatos es el equilibrio que la IDE debe mantener: los datos de interés general deben ser accesibles, pero los datos con protección de la intimidad o de otros intereses no pueden difundirse sin más. El técnico que prepara una capa para la IDE debe comprobar esa condición antes de publicarla."
+     ]
+    },
+    {
+     "titulo": "8. Relación entre SIG e IDE: estándares e interoperabilidad",
+     "parrafos": [
+      "Un SIG aislado sirve a una sola organización. Una IDE permite que varias organizaciones compartan datos sin reelaborarlos. La condición técnica es la interoperabilidad: que los datos y los servicios sigan las mismas normas de descripción, de formato y de acceso. La ley exige que los datos y servicios de las administraciones sigan normas de interoperabilidad que el Gobierno puede regular (art. 6 y art. 7, normas para asegurar la interoperabilidad).",
+      "La descripción mediante metadatos es la otra pieza. Un conjunto de datos sin metadatos puede existir, pero no puede localizarse, inventariarse ni usarse con garantías. Por eso la ley hace obligatorios los metadatos de los datos de sus anexos (art. 9, apartado 1), y fija un plazo para crearlos (art. 10). El inventario de metadatos es el catálogo de la IDE, a través del cual el usuario encuentra los datos que necesita.",
+      "Esta relación explica la estructura de la IDE: los SIG de cada administración producen y mantienen los datos, los metadatos describen esos datos, los servicios interoperables los publican y el geoportal los reúne para el acceso. La coordinación entre esos niveles corresponde al Sistema Cartográfico Nacional (art. 17)."
+     ]
+    },
+    {
+     "titulo": "9. Aplicación práctica en la edificación",
+     "parrafos": [
+      "Para el arquitecto técnico, el SIG tiene aplicaciones concretas. En la fase de proyecto, la cartografía catastral y el planeamiento se cruzan en un SIG para comprobar las alineaciones, las distancias a linderos y la ocupación. En la fase de obra, los planos de replanteo, los servicios enterrados y los accesos de la maquinaria se gestionan como capas. En la fase de mantenimiento, el inventario de los elementos del edificio se mantiene en una base de datos asociada a su localización.",
+      "El SIG también permite el seguimiento de un patrimonio edificado. Cada edificio tiene una ficha con sus datos de superficie, de estado de conservación y de instalaciones, enlazada a su localización. El examen puede preguntar por esa función: el SIG organiza la información de muchos edificios para decidir prioridades de inversión y de mantenimiento."
+     ]
+    },
+    {
+     "titulo": "9 bis. Gestión de un patrimonio edificado con SIG",
+     "parrafos": [
+      "La gestión de un patrimonio de edificios públicos se beneficia de un SIG porque combina dos tipos de información: la localización de cada inmueble y sus datos técnicos. Cada edificio se representa como un objeto geográfico con sus atributos, como la superficie, el año de construcción, el estado de conservación, la última intervención y las instalaciones principales. El conjunto permite preguntas de gestión como qué edificios tienen una cubierta con más de treinta años y cuáles están en una zona de riesgo de inundación.",
+      "El SIG permite priorizar las inversiones. Cruzando el estado de conservación con la antigüedad, el uso y la ubicación, se puede construir un índice de prioridad y mostrarlo en un mapa. Esa visualización facilita la decisión, porque muestra en un solo documento lo que una lista de expedientes oculta.",
+      "Para el arquitecto técnico, la aplicación más útil es el seguimiento de las intervenciones. Cada obra se registra como un hecho con fecha y localización, y el SIG permite consultar el historial de un edificio, comprobar qué se ha hecho y cuándo. Esa trazabilidad enlaza con el libro del edificio y con el plan de mantenimiento del CTE (art. 8.1, apartado 3), aunque el SIG no sustituye a esos documentos."
+     ]
+    },
+    {
+     "titulo": "10. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir la definición de SIG, sus componentes, la diferencia entre el modelo vectorial y el ráster, las fases de implementación y la definición de IDE de la Ley 14/2010. Conviene memorizar la definición de infraestructura de datos espaciales (art. 3.1, letra a), la de metadatos (letra f), la definición de interoperabilidad (letra g) y el papel del Geoportal (art. 5).",
+      "Los errores habituales son cuatro. El primero es confundir el modelo vectorial con el ráster. El segundo es confundir la IDE, que es una estructura de acceso e interoperabilidad, con una base de datos centralizada. El tercero es olvidar que los metadatos son obligatorios para los datos de los anexos de la ley. El cuarto es confundir el Sistema Cartográfico Nacional con la IDE: el primero es un modelo de coordinación, y la segunda una infraestructura de datos.",
+      "Para un caso práctico de un ayuntamiento que quiere publicar su planeamiento como capa de la IDE, el orden de análisis es: verificar que los datos son geográficos según la definición; documentarlos con metadatos; comprobar las condiciones de acceso y las limitaciones; publicarlos mediante servicios interoperables a través del geoportal; y mantener la capa con la actualización del planeamiento.",
+      "Para el tema conviene distinguir tres niveles. El primero es el técnico, con los componentes, los modelos de datos y el análisis espacial, que se estudia en cualquier manual de SIG. El segundo es el legal, con la definición de IDE, el geoportal, los metadatos y el Sistema Cartográfico Nacional, que se estudia en la Ley 14/2010. El tercero es el de aplicación, con los ejemplos de urbanismo, catastro, medio ambiente y gestión de edificios, que sirve para responder preguntas de caso práctico.",
+      "En la respuesta a un caso práctico, el aspirante debe justificar siempre el sistema de referencia, la escala de captura y la fuente de los datos antes de presentar el resultado. Un análisis que no indica de dónde proceden los datos ni con qué precisión se han capturado no es verificable, y un examinador lo valorará como incompleto."
+     ]
+    },
+    {
+     "titulo": "11. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio: el artículo 1 (apartados 1 y 2), el artículo 3, apartado 1, letras a, b, e, f y g, el artículo 5 (apartados 1 y 2), el artículo 9 (apartados 1 y 2 en su inicio), el artículo 13 y el artículo 17 (apartados 1 y 2, letra a) de la Ley 14/2010; y los artículos 10, 14, 15 y 16 de la Ley 37/2003, en su índice, para los mapas de ruido.",
+      "La parte de componentes, modelos de datos, fases de implementación y aplicaciones es conocimiento técnico de la práctica de los SIG y no ha sido verificada en un texto normativo. Debe contrastarse con un manual de SIG antes de citarla en un examen. Las escalas y los ejemplos numéricos que aparecen en el texto son orientativos y no tienen valor normativo, y deben contrastarse con la norma técnica de cada administración antes de usarlos.",
+      "La Ley 14/2010 ha sido modificada por la Ley 2/2018, según la búsqueda, y el texto del repositorio no se ha comparado con esa modificación. La normativa andaluza de infraestructuras de datos espaciales no se ha leído, y la Directiva 2007/2/CE, que la ley transpone, no se ha leído en el texto."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2010-10707.pdf",
+    "leyes/BOE-A-2003-20976.pdf"
    ]
   }
  }

@@ -1,0 +1,175 @@
+{
+  "id": "e19",
+  "resumen": [
+    {
+      "titulo": "Normativa del uso, la conservación y el mantenimiento",
+      "puntos": [
+        "Los propietarios deben conservar la edificación en buen estado mediante un adecuado uso y mantenimiento, y recibir, conservar y transmitir la documentación de la obra ejecutada (LOE, art. 16, apartado 1). Los usuarios deben utilizar el edificio conforme a sus instrucciones (art. 16, apartado 2).",
+        "El CTE exige un uso adecuado según las instrucciones de uso (art. 8.2, apartado 1) y un plan de mantenimiento con la planificación de las operaciones programadas (art. 8.1, apartado 3)."
+      ]
+    },
+    {
+      "titulo": "Documentación de la obra y libro del edificio",
+      "puntos": [
+        "La documentación de la obra ejecutada incluye el acta de recepción, la relación de los agentes que han intervenido y las instrucciones de uso y mantenimiento (LOE, art. 7, apartado 2). Toda esa documentación constituye el libro del edificio y se entrega a los usuarios finales (art. 7, apartado 3).",
+        "El libro del edificio incluye la documentación de los productos y sistemas incorporados (CTE, art. 8.1, apartado 2) y el plan de mantenimiento (art. 8.1, apartado 3)."
+      ]
+    },
+    {
+      "titulo": "Instrucciones y plan de mantenimiento",
+      "puntos": [
+        "Las instrucciones describen el uso previsto, los cuidados de conservación y las operaciones periódicas de mantenimiento, con sus frecuencias y responsables.",
+        "El plan de mantenimiento organiza las instrucciones en el tiempo, con registro de cada operación para acreditar el cumplimiento de la obligación de conservación."
+      ]
+    },
+    {
+      "titulo": "BIM",
+      "puntos": [
+        "El BIM es un proceso de trabajo basado en un modelo digital del edificio que se usa en el proyecto, la construcción y el mantenimiento. No se ha localizado una norma general de obligado cumplimiento en el repositorio: el tema no cita normas BIM concretas."
+      ]
+    },
+    {
+      "titulo": "Personal de la Administración: prevención",
+      "puntos": [
+        "La LPRL se aplica a las relaciones administrativas o estatutarias del personal al servicio de las Administraciones Públicas, con sus peculiaridades (art. 3, apartado 1).",
+        "Figuras: servicio de prevención, plan de prevención (art. 16), delegado de prevención (art. 37, garantías y sigilo) y comité de seguridad y salud (arts. 38 y 39)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LOE",
+      "rol": "Documentación de la obra ejecutada y libro del edificio (art. 7), obligaciones de propietarios y usuarios (art. 16)"
+    },
+    {
+      "id": "CTE",
+      "rol": "Uso, instrucciones de uso y mantenimiento; libro del edificio y plan de mantenimiento (arts. 8.1 y 8.2)"
+    },
+    {
+      "id": "LPRL",
+      "rol": "Aplicación a la Administración (art. 3), plan de prevención (art. 16), delegados y comité (arts. 37 a 39)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según la LOE, art. 16, apartado 1, ¿cuál es una obligación de los propietarios de un edificio?",
+      "opciones": [
+        "Conservar la edificación en buen estado mediante un adecuado uso y mantenimiento",
+        "Construir nuevas plantas sin licencia",
+        "Retirar el libro del edificio del archivo municipal",
+        "Ninguna obligación, la conservación es de la Administración"
+      ],
+      "correcta": 0,
+      "explicacion": "Los propietarios deben conservar el edificio en buen estado mediante un adecuado uso y mantenimiento, y recibir, conservar y transmitir la documentación de la obra (LOE, art. 16, apartado 1).",
+      "referencia": "LOE, art. 16, apartado 1"
+    },
+    {
+      "pregunta": "Según la LOE, art. 7, apartado 3, ¿cómo se denomina el conjunto de la documentación de la obra ejecutada que se entrega a los usuarios finales?",
+      "opciones": [
+        "Certificado de eficiencia",
+        "Libro de órdenes",
+        "Libro del edificio",
+        "Cuaderno de obra"
+      ],
+      "correcta": 2,
+      "explicacion": "Toda la documentación de la obra ejecutada constituye el Libro del Edificio, que se entrega a los usuarios finales (LOE, art. 7, apartado 3).",
+      "referencia": "LOE, art. 7, apartado 3"
+    },
+    {
+      "pregunta": "Según el CTE, art. 8.1, apartado 3, ¿qué debe incluir el libro del edificio en materia de mantenimiento?",
+      "opciones": [
+        "Solo el presupuesto de la obra",
+        "Únicamente la fecha de la licencia",
+        "Nada sobre mantenimiento",
+        "Un plan de mantenimiento con la planificación de las operaciones programadas"
+      ],
+      "correcta": 3,
+      "explicacion": "El libro del edificio contiene las instrucciones de uso, conservación y mantenimiento y un plan de mantenimiento con la planificación de las operaciones programadas (CTE, art. 8.1, apartado 3).",
+      "referencia": "CTE, art. 8.1, apartado 3"
+    },
+    {
+      "pregunta": "Según la LOE, art. 7, apartado 2, ¿qué debe adjuntarse como mínimo a la documentación de la obra ejecutada?",
+      "opciones": [
+        "Solo las facturas de los materiales",
+        "El acta de recepción, la relación de agentes y las instrucciones de uso y mantenimiento",
+        "Únicamente el nombre del promotor",
+        "Nada, la documentación es opcional"
+      ],
+      "correcta": 1,
+      "explicacion": "A la documentación de la obra ejecutada se adjuntan, como mínimo, el acta de recepción, la relación identificativa de los agentes y las instrucciones de uso y mantenimiento (LOE, art. 7, apartado 2).",
+      "referencia": "LOE, art. 7, apartado 2"
+    },
+    {
+      "pregunta": "Según el CTE, art. 8.2, apartado 1, ¿cómo deben utilizarse el edificio y sus instalaciones?",
+      "opciones": [
+        "De forma adecuada, conforme a las instrucciones de uso, sin un uso incompatible con el previsto",
+        "Solo por el propietario, nunca por los inquilinos",
+        "Sin ninguna restricción",
+        "De cualquier forma, según el gusto del usuario"
+      ],
+      "correcta": 0,
+      "explicacion": "El edificio y sus instalaciones se utilizan adecuadamente de conformidad con las instrucciones de uso, absteniéndose de hacer un uso incompatible con el previsto (CTE, art. 8.2, apartado 1).",
+      "referencia": "CTE, art. 8.2, apartado 1"
+    },
+    {
+      "pregunta": "Según la LPRL, art. 3, apartado 1, ¿a qué personal se aplica la ley, con sus peculiaridades?",
+      "opciones": [
+        "Solo a los becarios",
+        "Solo a los trabajadores de empresas privadas",
+        "Al personal de las relaciones laborales y al de las relaciones administrativas o estatutarias de las Administraciones Públicas",
+        "Solo a los autónomos"
+      ],
+      "correcta": 2,
+      "explicacion": "La LPRL se aplica tanto en las relaciones laborales como en las administrativas o estatutarias del personal al servicio de las Administraciones Públicas, con las peculiaridades que establezca la ley (art. 3, apartado 1).",
+      "referencia": "LPRL, art. 3, apartado 1"
+    },
+    {
+      "pregunta": "Según la LPRL, art. 16, ¿qué instrumento regula el plan de prevención de riesgos laborales y la evaluación de riesgos?",
+      "opciones": [
+        "El artículo 2 del Código Civil",
+        "El artículo 12 del Código Penal",
+        "El artículo 25 de la Constitución",
+        "El artículo 16 de la LPRL"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 16 de la LPRL regula el plan de prevención de riesgos laborales, la evaluación de los riesgos y la planificación de la actividad preventiva.",
+      "referencia": "LPRL, art. 16"
+    },
+    {
+      "pregunta": "Según la LPRL, art. 38, ¿qué órgano regula el comité de seguridad y salud?",
+      "opciones": [
+        "El delegado de prevención en solitario",
+        "El comité de seguridad y salud, órgano paritario de participación",
+        "El servicio de limpieza del edificio",
+        "El registro de la propiedad"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 38 de la LPRL regula el comité de seguridad y salud, que es el órgano paritario de participación en materia de prevención.",
+      "referencia": "LPRL, art. 38"
+    },
+    {
+      "pregunta": "Según la LOE, art. 16, apartado 2, ¿quiénes deben utilizar adecuadamente los edificios conforme a las instrucciones de uso y mantenimiento?",
+      "opciones": [
+        "Solo la Administración",
+        "Solo los propietarios",
+        "Los usuarios, sean o no propietarios",
+        "Solo los agentes de la edificación"
+      ],
+      "correcta": 2,
+      "explicacion": "Son obligaciones de los usuarios, sean o no propietarios, la utilización adecuada de los edificios conforme a las instrucciones de uso y mantenimiento (LOE, art. 16, apartado 2).",
+      "referencia": "LOE, art. 16, apartado 2"
+    },
+    {
+      "pregunta": "Según el CTE, art. 8.1, apartado 1, ¿con qué se completa el contenido del libro del edificio?",
+      "opciones": [
+        "Con lo que establezcan los DB del CTE para el cumplimiento de las exigencias básicas",
+        "Con la publicidad comercial del promotor",
+        "Con el catálogo de precios de la obra",
+        "Con nada, el contenido es fijo"
+      ],
+      "correcta": 0,
+      "explicacion": "El contenido del libro del edificio establecido en la LOE se completa con lo que establezcan los DB del CTE (CTE, art. 8.1, apartado 1).",
+      "referencia": "CTE, art. 8.1, apartado 1"
+    }
+  ]
+}

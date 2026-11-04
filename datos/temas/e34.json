@@ -1,0 +1,190 @@
+{
+  "id": "e34",
+  "resumen": [
+    {
+      "titulo": "Norma vigente",
+      "puntos": [
+        "La Ley 7/2021, de impulso para la sostenibilidad del territorio de Andalucía (LISTA) es la norma vigente. Deroga la Ley 7/2002 (LOUA) y la Ley 1/1994 de Ordenación del Territorio (disposición derogatoria única, apartado 2).",
+        "En el ámbito estatal, el TRLS (RDL 7/2015) fija las bases del régimen del suelo y de su valoración (art. 35)."
+      ]
+    },
+    {
+      "titulo": "Clases de suelo y contenido de la propiedad",
+      "puntos": [
+        "El suelo se clasifica en urbano y rústico (LISTA, art. 12). El suelo urbano lo forman los terrenos integrados en la malla urbana de viales, dotaciones y parcelas del núcleo (art. 13).",
+        "Derechos: disposición, uso, disfrute y explotación sostenible conforme a la clasificación; vuelo y subsuelo hasta donde determine el planeamiento (art. 16). Deberes: conservar, destinar al uso previsto y obtener la licencia o la declaración responsable antes de cualquier acto (art. 17, apartado 1)."
+      ]
+    },
+    {
+      "titulo": "Criterios y planeamiento urbanístico",
+      "puntos": [
+        "Criterios de la ordenación: desarrollo sostenible, ocupación racional del suelo, evitar la dispersión urbana y favorecer la rehabilitación y la economía circular (art. 61, apartado 1).",
+        "Contenido del Plan General de Ordenación Municipal: clasificación del suelo, categorías de suelo rústico, esquema de elementos estructurantes, bienes con singular protección y criterios para nuevos desarrollos (art. 63, apartado 1)."
+      ]
+    },
+    {
+      "titulo": "Ejecución y patrimonios públicos de suelo",
+      "puntos": [
+        "Sistemas de actuación: compensación (art. 101), cooperación (art. 106) y expropiación (art. 105). Agente urbanizador (art. 94). Reparcelación (art. 92).",
+        "Patrimonios públicos de suelo, autonómico y municipales, con finalidad de crear reservas de suelo (art. 127, apartado 1). Reservas de terrenos (art. 130); derecho de superficie (art. 131); tanteo y retracto (art. 132)."
+      ]
+    },
+    {
+      "titulo": "Expropiación por razón de urbanismo",
+      "puntos": [
+        "Supuestos: determinación del sistema de expropiación para una unidad de ejecución y destino de los terrenos a sistemas generales y locales (art. 119, apartado 1, letras a y b).",
+        "Procedimiento: tasación conjunta o expropiación individualizada, ordinaria o urgente, con las reglas de la legislación de expropiación forzosa (art. 120). Justiprecio conforme a la LEF, con fecha de iniciación del expediente (LEF, art. 36)."
+      ]
+    },
+    {
+      "titulo": "Licencia y declaración responsable",
+      "puntos": [
+        "Están sujetos a previa licencia las obras, construcciones, edificaciones, instalaciones, infraestructuras y usos del suelo, incluidos el subsuelo y el vuelo (art. 137, apartado 1).",
+        "Las obras de escasa entidad constructiva y sencillez técnica que no requieran proyecto están sometidas a declaración responsable o comunicación previa (art. 138, apartado 1, letra a)."
+      ]
+    },
+    {
+      "titulo": "Disciplina urbanística",
+      "puntos": [
+        "Restablecimiento de la legalidad: actuaciones sin título preceptivo (art. 151), con título habilitante (art. 156) y sometidas a declaración responsable (art. 157).",
+        "Infracciones leves, graves y muy graves (art. 161, apartado 1). Son leves, por ejemplo, el incumplimiento del deber de información y publicidad de las obras (art. 161, apartado 2, letra a). Multas en el artículo 162."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LISTA-7-2021",
+      "rol": "Ordenación territorial y urbanística vigente en Andalucía: suelo, planeamiento, ejecución, expropiación, licencias y disciplina (arts. 12, 16, 17, 61, 63, 119 a 120, 137, 138 y 161)"
+    },
+    {
+      "id": "TRLS-7-2015",
+      "rol": "Bases estatales del régimen del suelo y criterios de valoración (art. 35)"
+    },
+    {
+      "id": "LEF",
+      "rol": "Procedimiento expropiatorio y justiprecio a la fecha de iniciación del expediente (art. 36)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según la disposición derogatoria única de la Ley 7/2021 (LISTA), ¿qué norma andaluza queda expresamente derogada en materia urbanística?",
+      "opciones": [
+        "La Ley 7/2002, de Ordenación Urbanística de Andalucía",
+        "La Ley 14/2007 del Patrimonio Histórico",
+        "La Ley 4/2017 de Discapacidad",
+        "La Ley 1/1991 de Patrimonio Histórico"
+      ],
+      "correcta": 0,
+      "explicacion": "La disposición derogatoria única, apartado 2, letra b, de la LISTA deroga expresamente la Ley 7/2002, de 17 de diciembre, de Ordenación Urbanística de Andalucía.",
+      "referencia": "LISTA, disposición derogatoria única, apartado 2, letra b)"
+    },
+    {
+      "pregunta": "Según la LISTA, art. 12, ¿en qué clases se divide el suelo a efectos de la ley?",
+      "opciones": [
+        "Residencial e industrial",
+        "Urbano, urbanizable y no urbanizable",
+        "Urbano y rústico",
+        "Público y privado"
+      ],
+      "correcta": 2,
+      "explicacion": "A efectos de la LISTA, el suelo se clasifica en suelo urbano y suelo rústico (art. 12).",
+      "referencia": "LISTA, art. 12"
+    },
+    {
+      "pregunta": "Según la LISTA, art. 13, ¿qué integra la malla urbana que caracteriza al suelo urbano?",
+      "opciones": [
+        "Las explotaciones agrícolas dispersas",
+        "Las concesiones de dominio público marítimo",
+        "Solo los jardines y los espacios naturales",
+        "Una red de viales, dotaciones y parcelas propias del núcleo o asentamiento de población"
+      ],
+      "correcta": 3,
+      "explicacion": "El suelo urbano lo forman los terrenos integrados en la malla urbana, constituida por una red de viales, dotaciones y parcelas propias del núcleo o asentamiento de población (art. 13, apartado 1).",
+      "referencia": "LISTA, art. 13, apartado 1"
+    },
+    {
+      "pregunta": "Según la LISTA, art. 61, apartado 1, ¿qué criterio debe procurar la ordenación urbanística?",
+      "opciones": [
+        "La dispersión urbana para aprovechar más suelo",
+        "Una ocupación racional y eficiente del suelo, con desarrollo sostenible",
+        "La eliminación de los espacios libres",
+        "La paralización de toda edificación nueva"
+      ],
+      "correcta": 1,
+      "explicacion": "La ordenación urbanística promoverá una ocupación racional y eficiente del suelo, evitando la dispersión urbana y favoreciendo la economía circular, en el marco de un desarrollo urbano y territorial sostenible (art. 61, apartado 1).",
+      "referencia": "LISTA, art. 61, apartado 1"
+    },
+    {
+      "pregunta": "Según la LISTA, art. 63, apartado 1, letra a, ¿cuál es uno de los elementos que comprende el modelo general de ordenación del Plan General de Ordenación Municipal?",
+      "opciones": [
+        "La clasificación del suelo, con la delimitación del suelo urbano y del suelo rústico",
+        "El precio de los terrenos en el mercado",
+        "La contratación de las obras municipales",
+        "El número de vehículos del municipio"
+      ],
+      "correcta": 0,
+      "explicacion": "El Plan General comprende, entre otros elementos, la clasificación del suelo con la delimitación del suelo urbano y del suelo rústico (art. 63, apartado 1, letra a).",
+      "referencia": "LISTA, art. 63, apartado 1, letra a)"
+    },
+    {
+      "pregunta": "Según la LISTA, art. 16, apartado 2, ¿hasta dónde alcanzan las facultades de la propiedad del suelo?",
+      "opciones": [
+        "Solo al edificio construido",
+        "Solo a la superficie del terreno",
+        "Al vuelo y al subsuelo hasta donde determinen los instrumentos de ordenación",
+        "Hasta el centro de la Tierra, sin límite"
+      ],
+      "correcta": 2,
+      "explicacion": "Las facultades de la propiedad del suelo alcanzan al vuelo y al subsuelo hasta donde determinen los instrumentos de ordenación, con las limitaciones y servidumbres que exija la protección del dominio público (art. 16, apartado 2).",
+      "referencia": "LISTA, art. 16, apartado 2"
+    },
+    {
+      "pregunta": "Según la LISTA, art. 119, apartado 1, letra b, ¿cuál es uno de los supuestos en que la expropiación por razón de urbanismo puede operar?",
+      "opciones": [
+        "La ampliación de una vivienda privada",
+        "El cambio de nombre de una calle",
+        "La compra de terrenos por un particular",
+        "El destino de los terrenos, por su calificación urbanística, a sistemas generales y locales o al dominio público de uso o servicio público"
+      ],
+      "correcta": 3,
+      "explicacion": "La expropiación puede operar cuando los terrenos, por su calificación urbanística, se destinan a sistemas generales y locales y, en general, al dominio público de uso o servicio público (art. 119, apartado 1, letra b).",
+      "referencia": "LISTA, art. 119, apartado 1, letra b)"
+    },
+    {
+      "pregunta": "Según la LISTA, art. 120, ¿qué opción tiene la Administración actuante en las expropiaciones derivadas de la ley?",
+      "opciones": [
+        "Solo puede expropiar por tasación conjunta",
+        "Puede optar entre la tasación conjunta y la expropiación individualizada, ordinaria o urgente",
+        "No puede expropiar, solo permutar",
+        "Solo puede expropiar en casos de urgencia"
+      ],
+      "correcta": 1,
+      "explicacion": "En todas las expropiaciones derivadas de la ley, la Administración actuante puede optar entre la tasación conjunta y la expropiación individualizada, ordinaria o urgente, conforme a la legislación de expropiación forzosa (art. 120).",
+      "referencia": "LISTA, art. 120"
+    },
+    {
+      "pregunta": "Según la LISTA, art. 137, apartado 1, ¿qué actuaciones están sujetas a previa licencia urbanística municipal?",
+      "opciones": [
+        "Solo las actuaciones en suelo rústico",
+        "Solo las obras de nueva planta de más de cien viviendas",
+        "Las obras, construcciones, edificaciones, instalaciones, infraestructuras y usos del suelo, incluidos el subsuelo y el vuelo",
+        "Ninguna actuación, porque todas son libres"
+      ],
+      "correcta": 2,
+      "explicacion": "Están sujetas a previa licencia urbanística municipal las obras, construcciones, edificaciones, instalaciones, infraestructuras y usos del suelo, incluidos el subsuelo y el vuelo, así como las divisiones, segregaciones y parcelaciones (art. 137, apartado 1).",
+      "referencia": "LISTA, art. 137, apartado 1"
+    },
+    {
+      "pregunta": "Según la LISTA, art. 161, apartado 1, ¿cómo se clasifican las infracciones urbanísticas?",
+      "opciones": [
+        "En leves, graves y muy graves",
+        "En veniales y mortales",
+        "En menores y mayores",
+        "En leves, medias y graves"
+      ],
+      "correcta": 0,
+      "explicacion": "Las infracciones urbanísticas y contra la ordenación del territorio se clasifican en leves, graves y muy graves (art. 161, apartado 1).",
+      "referencia": "LISTA, art. 161, apartado 1"
+    }
+  ]
+}
