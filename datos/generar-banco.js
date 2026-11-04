@@ -173,8 +173,19 @@ for (const t of temas) {
 
   const elegidas = barajar(candidatas, rnd).slice(0, POR_TEMA);
   const articulo = elegidas.map((g, i) => ({ id: `${t.id}-a${String(i + 1).padStart(3, '0')}`, ...g }));
-  const todas = [...revisadas, ...articulo];
-  informe.push({ tema: t.id, revisadas: revisadas.length, articulos: arts.length, candidatas: candidatas.length, articulo: articulo.length, total: todas.length });
+  // Preguntas de hechos escritas a mano (datos/hechos/<id>.json), si existen.
+  const rutaHechos = path.join(DIR, 'hechos', t.id + '.json');
+  const hechos = fs.existsSync(rutaHechos)
+    ? leer(rutaHechos).map((q, i) => ({
+        id: `${t.id}-h${String(i + 1).padStart(3, '0')}`,
+        tema: t.id, bloque: t.bloque, origen: 'hecho', reutilizada: false,
+        enunciado: q.pregunta, opciones: q.opciones, correcta: q.correcta,
+        explicacion: q.explicacion, referencia: q.referencia,
+      }))
+    : [];
+
+  const todas = [...revisadas, ...hechos, ...articulo];
+  informe.push({ tema: t.id, revisadas: revisadas.length, hechos: hechos.length, articulos: arts.length, candidatas: candidatas.length, articulo: articulo.length, total: todas.length });
   banco.push(...todas);
 }
 

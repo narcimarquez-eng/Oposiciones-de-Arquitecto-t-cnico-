@@ -526,7 +526,7 @@
     var sel = temasGen();
     return window.BANCO.filter(function (q) {
       if (!sel.has(q.tema)) return false;
-      if (gen.origen === 'revisadas') return q.origen === 'revisada';
+      if (gen.origen === 'revisadas') return q.origen === 'revisada' || q.origen === 'hecho';
       if (gen.origen === 'articulo') return q.origen === 'articulo';
       return true;
     });
@@ -586,7 +586,7 @@
     var n = poolGen().length;
     return volverInicio() +
       '<h2 class="tituloTema">Generador de tests</h2>' +
-      '<p class="sub">Banco de ' + window.BANCO.length + ' preguntas, hasta 100 generadas por tema. Las revisadas son las 10 de cada tema; las generadas preguntan por el contenido de artículos de las leyes del tema.</p>' +
+      '<p class="sub">Banco de ' + window.BANCO.length + ' preguntas, hasta 100 generadas por tema. Cada tema tiene 10 revisadas, unas 30 de hechos (quién nombra, qué órgano decide, cuánto dura…) y hasta 100 generadas a partir del texto de las leyes del tema.</p>' +
       '<section class="seccion"><h3>1. Temas</h3>' +
       '<div class="acciones" style="margin-top:0"><button class="btn sec" type="button" data-gen="todos">Todos</button>' +
       '<button class="btn sec" type="button" data-gen="ninguno">Ninguno</button>' +
@@ -599,7 +599,7 @@
       '</select></div>' +
       '<div class="campo" style="margin-top:10px"><label for="gNumero">Número de preguntas</label><select class="sel" id="gNumero" data-gcampo="numero">' + opcionesNumero() + '</select></div>' +
       '<div class="campo" style="margin-top:10px"><label for="gOrigen">Origen</label><select class="sel" id="gOrigen" data-gcampo="origen">' +
-      [['todas', 'Revisadas y generadas'], ['revisadas', 'Solo revisadas'], ['articulo', 'Solo generadas']]
+      [['todas', 'Revisadas y generadas'], ['revisadas', 'Solo revisadas y de hechos'], ['articulo', 'Solo generadas']]
         .map(function (o) { return '<option value="' + o[0] + '"' + (gen.origen === o[0] ? ' selected' : '') + '>' + esc(o[1]) + '</option>'; }).join('') +
       '</select></div>' +
       '<p class="sub">Preguntas disponibles con esta selección: ' + n + '.</p></section>' +
@@ -676,7 +676,7 @@
   }
 
   function etiquetaOrigen(q) {
-    return q.origen === 'revisada' ? 'revisada' : 'generada';
+    return q.origen === 'revisada' ? 'revisada' : (q.origen === 'hecho' ? 'hecho' : 'generada');
   }
 
   // ---------- Práctica: corrección al responder ----------
