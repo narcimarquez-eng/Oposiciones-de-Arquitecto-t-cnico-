@@ -98,4 +98,4 @@ Cada norma en `leyes.json` lleva: referencia completa, enlace oficial, estado (`
 ## 9. Decisiones
 
 - Junta: **Andalucía** (única del proyecto).
-- Test: el banco de test (`datos/banco.json`, generado con `datos/generar-banco.js`) tiene 100 preguntas por tema.
+- Test: el banco de test (`datos/banco.json`, generado con `datos/generar-banco.js`) tiene 10 preguntas revisadas por tema y hasta 100 de artículo, extraídas de los PDF de `leyes/`.
