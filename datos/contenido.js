@@ -872,6 +872,50 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-04",
    "notas": "Extracto en PDF de las páginas del BOE original que contienen los artículos 1 a 5, 8 a 10 (en parte), 24, 26, 27, 33, 34, 43 (en parte), 52, 57, 68 y las disposiciones transitoria única, derogatoria única y final cuarta. Verificado en el texto: arts. 1, 2, 3 (en parte), 5 (en parte), 9, 10 (en parte), 24, 26, 27.1, 33.1 a 33.3 (en parte), 34.1, 43 (en parte), 52.1, 52.2, 52.5, 57.1, 57.2, 68, disposiciones transitoria única, derogatoria única (apartado 1) y final cuarta (entrada en vigor a los tres meses). Pendientes: resto del articulado (arts. 28 a 32, 35 a 41, 44 a 50, 53 a 56, 58 a 67, 69 a 78) y el anejo 18. Sin consolidación identificada; la búsqueda identificó una corrección de errores de 2 de febrero de 2024 (BOE-A-2024-1989) que no se ha leído."
+  },
+  "DB-SE-A": {
+   "id": "DB-SE-A",
+   "nombre": "Documento Básico SE-A Acero del Código Técnico de la Edificación",
+   "referencia": "Documento Básico SE-A Acero del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)",
+   "url": "https://www.codigotecnico.org/DocumentosCTE/SeguridadEstructural.html",
+   "boe_id": null,
+   "pdf": "leyes/DB-SE-A.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF descargado de la web oficial del CTE. Verificados en el texto los apartados 1.1, 1.2 (encabezado), 3 (puntos 1 a 7), 4.1 y 4.2, 10.1, 10.3, 10.3.1, 10.3.2.1, 10.4.1, 12.1 a 12.3 (en parte) y 13.2. Pendientes: capítulos de cálculo 2, 5 a 9 y los capítulos 10.2, 10.5 a 10.8, 11 y 13.1. No se ha identificado la norma de aprobación de la versión descargada ni su fecha de última modificación."
+  },
+  "DB-SE-M": {
+   "id": "DB-SE-M",
+   "nombre": "Documento Básico SE-M Madera del Código Técnico de la Edificación",
+   "referencia": "Documento Básico SE-M Madera del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)",
+   "url": "https://www.codigotecnico.org/DocumentosCTE/SeguridadEstructural.html",
+   "boe_id": null,
+   "pdf": "leyes/DB-SE-M.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF descargado de la web oficial del CTE. Verificados en el texto los apartados 2 (puntos 1 a 3 y 5, en parte), 3.1 (puntos 1 a 3), 3.2 (punto 1), 4.1 (puntos 1 a 4) y 10.1.1.1 (puntos 1 y 2), y los encabezados de los capítulos 5 a 13. Pendientes: capítulos de cálculo 5 a 9, sistemas estructurales del capítulo 10, ejecución (11), tolerancias (12) y control (13). No se ha identificado la norma de aprobación de la versión descargada."
+  },
+  "DB-SE-F": {
+   "id": "DB-SE-F",
+   "nombre": "Documento Básico SE-F Fábrica del Código Técnico de la Edificación",
+   "referencia": "Documento Básico SE-F Fábrica del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)",
+   "url": "https://www.codigotecnico.org/DocumentosCTE/SeguridadEstructural.html",
+   "boe_id": null,
+   "pdf": "leyes/DB-SE-F.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF descargado de la web oficial del CTE. Verificados en el texto los apartados 1.1 a 1.2 (en parte), 3.1, 4.1 (tabla 4.1 y puntos 1, 3 y 4), 5.4.4, 6.1 (punto 1), 7.1.1 a 7.1.3 (puntos seleccionados), 7.2, 8.1 y 8.1.1 y 9. Pendientes: capítulos de cálculo 2 y 5 (salvo 5.4.4), y la ejecución de cerramientos y particiones, que no son objeto del documento. No se han encontrado bóvedas como capítulo específico."
+  },
+  "RD-470-2021-ACERO": {
+   "id": "RD-470-2021-ACERO",
+   "nombre": "Código Estructural (extracto de las estructuras de acero)",
+   "referencia": "Real Decreto 470/2021, de 29 de junio, por el que se aprueba el Código Estructural (BOE núm. 190, de 10 de agosto de 2021), extracto de las páginas del BOE original con los artículos 80 a 87, 92, 94, 95, 96 a 103 y 109",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-13681",
+   "boe_id": "BOE-A-2021-13681",
+   "pdf": "leyes/BOE-A-2021-13681-acero-extracto.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Extracto en PDF de 16 páginas del BOE original. Verificados en el texto los arts. 80 (encabezado y apartado 80.1 con las clases de exposición y la nota sobre nevadas), 81, 82 (encabezado), 83, 85.1 y 85.2 (tabla 85.2.a), 86.1, 87, 92.1.1 y 92.1.2, 94.1 (encabezado), 95.1 y las rúbricas de los arts. 96 a 103 y 109. Pendientes: el cuerpo de los arts. 79, 82, 84, 88 a 91, 93, 96 a 103 y 105 a 108. Se remite a la entrada de RD-470-2021 para la disposición derogatoria y la entrada en vigor."
   }
  },
  "contenido": {
@@ -13962,6 +14006,666 @@ window.DATOS_ESTUDIO = {
    "fuentes": [
     "leyes/BOE-A-2006-5515.pdf",
     "leyes/BOE-A-2021-13681-extracto.pdf",
+    "leyes/BOE-A-1999-21567.pdf",
+    "leyes/BOE-A-1997-22614.pdf",
+    "leyes/BOE-A-1995-24292.pdf"
+   ]
+  },
+  "e05": {
+   "resumen": [
+    {
+     "titulo": "Marco normativo",
+     "puntos": [
+      "El DB-SE-A verifica el acero en edificación; el DB-SE-M, la madera (CTE, art. 10.3). El Código Estructural (RD 470/2021) regula el acero en sus artículos 79 a 109 y deroga la EAE (disposición derogatoria única).",
+      "El DB-SE-A no cubre puentes, silos, chimeneas ni tanques, ni la resistencia al fuego (apartado 1.1)."
+     ]
+    },
+    {
+     "titulo": "Tipos de acero y de madera",
+     "puntos": [
+      "Aceros no aleados laminados en caliente y aceros con características especiales (soldables de grano fino, patinables, de alto límite elástico, inoxidables) (Código, art. 83). Chapas y perfiles según UNE-EN 10025, perfiles huecos según UNE-EN 10210-1 y UNE-EN 10219-1 (DB-SE-A, apartado 4.2).",
+      "Madera maciza aserrada por clase resistente: coníferas y chopo C14 a C50, frondosas D30 a D70 (DB-SE-M, apartado 4.1). Madera laminada encolada, microlaminada y vigas mixtas de madera y tablero (apartados 2 y 10.1)."
+     ]
+    },
+    {
+     "titulo": "Durabilidad del acero",
+     "puntos": [
+      "Estrategia global frente a la corrosión, protecciones indicadas en el proyecto y materiales protectores almacenados según el fabricante (DB-SE-A, apartado 3, puntos 1 a 3). Fases de la estrategia de durabilidad: formas, materiales, medidas frente a la corrosión, detalles y mantenimiento (Código, art. 87).",
+      "Clases de exposición para la corrosión atmosférica y para elementos sumergidos o enterrados (Código, art. 80.1, tablas 80.1.a y 80.1.b). Zonas con más de cinco nevadas anuales se consideran de clase C5 para puentes y pasarelas con fundentes."
+     ]
+    },
+    {
+     "titulo": "Durabilidad y protección de la madera",
+     "puntos": [
+      "La durabilidad depende del diseño y de la durabilidad natural, y a veces requiere tratamiento; la protección preventiva frente a agentes bióticos y abióticos mantiene la probabilidad de daño en un nivel aceptable (DB-SE-M, apartados 3.1 y 3.2).",
+      "Los tableros y derivados se emplean según su norma de producto para cada clase de servicio (DB-SE-M, apartado 3.1, punto 3)."
+     ]
+    },
+    {
+     "titulo": "Ejecución del acero",
+     "puntos": [
+      "Plan de soldeo con detalles de la unión y medidas para evitar el desgarro laminar (DB-SE-A, apartado 10.3.1). Tornillos de diámetro mínimo 12 mm y, al menos, cuatro filetes de rosca completos en pretensados y uno en no pretensados (apartado 10.4.1).",
+      "Ninguna pieza sale del taller sin autorización de la dirección facultativa (Código, art. 92.1.1). Soldadura conforme a UNE-EN ISO 3834 (art. 94.1). No se cambian las calidades sin autorización del director de obra (DB-SE-A, apartado 10.1, punto 2)."
+     ]
+    },
+    {
+     "titulo": "Control, uso y mantenimiento",
+     "puntos": [
+      "Registro documental de cada control en la documentación final (DB-SE-A, apartado 12.1). Control de materiales por certificado y trazabilidad (apartado 12.3). El Código organiza el control en los artículos 96 a 103.",
+      "El mantenimiento incluye los elementos de protección, especialmente la protección frente al fuego. Con fatiga, plan de mantenimiento independiente (DB-SE-A, apartado 13.2). La propiedad debe programar el mantenimiento desde la entrada en servicio (Código, art. 24.1)."
+     ]
+    },
+    {
+     "titulo": "Seguridad, medición y precios",
+     "puntos": [
+      "Montaje de estructuras metálicas bajo vigilancia de persona competente y medidas frente a la inestabilidad temporal (RD 1627/1997, anexo IV, apartado 11). Protección colectiva en cubiertas (apartado 12.b).",
+      "Se miden perfiles por kilogramo o metro lineal, chapas por metro cuadrado, uniones por unidad y protección por metro cuadrado; la madera, por metro cúbico o lineal. El precio depende de la clase resistente, la protección y el montaje en taller o en obra."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Seguridad estructural y control de la ejecución (arts. 7 y 10)"
+    },
+    {
+     "id": "DB-SE-A",
+     "rol": "Estructuras de acero: durabilidad, materiales, ejecución, control y mantenimiento (apartados 1, 3, 4, 10, 12 y 13)"
+    },
+    {
+     "id": "DB-SE-M",
+     "rol": "Estructuras de madera: durabilidad, materiales y sistemas (apartados 2, 3, 4 y 10)"
+    },
+    {
+     "id": "RD-470-2021-ACERO",
+     "rol": "Código Estructural: acero, protección, soldadura y control (arts. 80 a 87, 92, 94, 95 y 96 a 103)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Seguridad en el montaje de estructuras metálicas (anexo IV, apartados 11 y 12.b)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 83 del Código Estructural, ¿cuál de estos es un tipo de acero contemplado?",
+     "opciones": [
+      "Aceros inoxidables laminados en caliente",
+      "Madera microlaminada",
+      "Cerámica estructural",
+      "Hormigón de alta resistencia"
+     ],
+     "correcta": 0,
+     "explicacion": "El art. 83 contempla, entre los aceros con características especiales, los aceros inoxidables laminados en caliente.",
+     "referencia": "Art. 83 Código Estructural"
+    },
+    {
+     "pregunta": "Según el DB-SE-A, apartado 10.1, punto 1, ¿qué calidades de acero en chapas y perfiles se consideran?",
+     "opciones": [
+      "Solo S 275",
+      "Ninguna calidad está definida",
+      "De S 235 a S 450, ambos inclusive",
+      "De S 100 a S 150"
+     ],
+     "correcta": 2,
+     "explicacion": "El capítulo 10.1 del DB-SE-A se refiere a aceros en chapas y perfiles de calidad S 235 a S 450, ambos inclusive.",
+     "referencia": "DB-SE-A, apartado 10.1, punto 1 a)"
+    },
+    {
+     "pregunta": "Según el DB-SE-A, apartado 10.4.1, punto 1, ¿cuál es el diámetro nominal mínimo de los tornillos salvo especificación contraria?",
+     "opciones": [
+      "24 mm",
+      "6 mm",
+      "8 mm",
+      "12 mm"
+     ],
+     "correcta": 3,
+     "explicacion": "El diámetro nominal mínimo de los tornillos es de 12 mm, salvo que el proyecto especifique otra cosa.",
+     "referencia": "DB-SE-A, apartado 10.4.1, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-SE-M, apartado 4.1, punto 3, ¿qué clases resistentes corresponden a las frondosas?",
+     "opciones": [
+      "C14 a C50",
+      "D30 a D70",
+      "S 235 a S 450",
+      "X0 a XM3"
+     ],
+     "correcta": 1,
+     "explicacion": "Para frondosas, las clases resistentes son D30, D35, D40, D50, D60 y D70, y para coníferas y chopo, de C14 a C50.",
+     "referencia": "DB-SE-M, apartado 4.1, punto 3"
+    },
+    {
+     "pregunta": "Según el DB-SE-A, apartado 10.4.1, punto 3, ¿cuántos filetes de rosca completos deben quedar en un tornillo pretensado tras el apriete?",
+     "opciones": [
+      "Cuatro",
+      "Ninguno",
+      "Uno",
+      "Dos"
+     ],
+     "correcta": 0,
+     "explicacion": "La espiga debe salir de la rosca de la tuerca dejando cuatro filetes completos en los tornillos pretensados, y uno en los no pretensados.",
+     "referencia": "DB-SE-A, apartado 10.4.1, punto 3 a)"
+    },
+    {
+     "pregunta": "Según el art. 92.1.1 del Código Estructural, ¿quién debe autorizar que una pieza salga del taller?",
+     "opciones": [
+      "Nadie: la pieza puede salir libremente",
+      "El transportista",
+      "La dirección facultativa, una vez demostrada la conformidad con el proyecto",
+      "El fabricante del tornillo"
+     ],
+     "correcta": 2,
+     "explicacion": "Ninguna pieza puede salir del taller sin la autorización expresa de la dirección facultativa, una vez demostrada su conformidad con el proyecto.",
+     "referencia": "Art. 92.1.1 Código Estructural"
+    },
+    {
+     "pregunta": "Según el DB-SE-A, apartado 13.2, punto 3, ¿qué plan debe redactarse para edificios sometidos a acciones que inducen fatiga?",
+     "opciones": [
+      "Un plan de ensayos de laboratorio",
+      "Solo un plan de seguridad",
+      "No se necesita ningún plan",
+      "Un plan de mantenimiento independiente del general"
+     ],
+     "correcta": 3,
+     "explicacion": "Para edificios con acciones que inducen fatiga se redacta un plan de mantenimiento independiente del general, incluso con el criterio de vida segura.",
+     "referencia": "DB-SE-A, apartado 13.2, punto 3"
+    },
+    {
+     "pregunta": "Según el art. 80.1 del Código Estructural, ¿qué zonas se consideran de clase de exposición C5 para puentes y pasarelas con fundentes?",
+     "opciones": [
+      "Zonas sin ningún riesgo de corrosión",
+      "Zonas con más de cinco nevadas anuales o temperatura mínima media invernal inferior a 0 °C",
+      "Zonas con menos de cinco días de lluvia",
+      "Zonas con temperatura superior a 60 °C"
+     ],
+     "correcta": 1,
+     "explicacion": "En zonas con más de cinco nevadas anuales, o con temperatura mínima media invernal inferior a 0 °C, la clase de exposición de puentes y pasarelas con fundentes se considera C5.",
+     "referencia": "Art. 80.1 Código Estructural"
+    },
+    {
+     "pregunta": "Según el anexo IV, apartado 11.a, del RD 1627/1997, ¿cómo deben montarse las estructuras metálicas?",
+     "opciones": [
+      "Solo en días de lluvia",
+      "Sin supervisión, por seguridad del trabajo",
+      "Bajo vigilancia, control y dirección de una persona competente",
+      "Solo por el fabricante"
+     ],
+     "correcta": 2,
+     "explicacion": "Las estructuras metálicas o de hormigón, sus elementos y los encofrados solo pueden montarse o desmontarse bajo vigilancia, control y dirección de una persona competente.",
+     "referencia": "Anexo IV, apartado 11.a RD 1627/1997"
+    },
+    {
+     "pregunta": "Según el DB-SE-M, apartado 4.1, punto 2, ¿cómo se clasifica la madera aserrada para uso estructural?",
+     "opciones": [
+      "Por una clase resistente",
+      "Por su peso en báscula",
+      "No se clasifica",
+      "Por su color"
+     ],
+     "correcta": 0,
+     "explicacion": "La madera aserrada para uso estructural se clasifica y se le asigna una clase resistente, según el procedimiento del anejo C.",
+     "referencia": "DB-SE-M, apartado 4.1, punto 2"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Marco normativo de las estructuras de acero y de madera",
+     "parrafos": [
+      "Las estructuras metálicas y de madera se rigen por dos documentos básicos del Código Técnico de la Edificación, el DB-SE-A (acero) y el DB-SE-M (madera), que el artículo 10.3 del CTE enumera entre los documentos que concretan la seguridad estructural. El primero trata los elementos de acero en edificación, y el segundo, los de madera maciza, laminada y microlaminada, junto con los sistemas estructurales de madera y sus productos derivados.",
+      "El DB-SE-A verifica la seguridad estructural de los elementos metálicos realizados con acero en edificación. Queda fuera de su campo de aplicación la construcción de puentes, silos, chimeneas, antenas o tanques, y los elementos de carácter específico que requieren consideraciones especiales (DB-SE-A, apartado 1.1, punto 1). Se refiere a la seguridad en condiciones adecuadas de utilización, incluida la durabilidad. El aislamiento térmico, el acústico y la resistencia al fuego quedan fuera de su alcance (apartado 1.1, punto 2).",
+      "El Código Estructural, aprobado por el Real Decreto 470/2021, incluye también un título dedicado a las estructuras de acero, con sus artículos 79 a 109. Ese título sustituye a la antigua Instrucción de Acero Estructural (EAE), que el Real Decreto 751/2011 aprobaba y que el Código Estructural deroga (disposición derogatoria única, apartado 1). Por tanto, en un examen la norma de acero vigente es el Código, y el DB-SE-A es el documento que el CTE mantiene para la verificación de los elementos en edificación.",
+      "El artículo 109 del Código extiende su alcance a las estructuras mixtas hormigón-acero. Estas no se desarrollan en este tema, porque corresponden a la combinación de los dos materiales y no a la estructura metálica o de madera en sentido estricto."
+     ]
+    },
+    {
+     "titulo": "2. Tipos de estructura metálica",
+     "parrafos": [
+      "El Código distingue los tipos de acero utilizables en perfiles y chapas para estructuras: los aceros no aleados laminados en caliente, de ferrita-perlita normal; y los aceros con características especiales, como los soldables de grano fino normalizados o laminados termomecánicamente, los de resistencia mejorada a la corrosión atmosférica (aceros patinables), los de alto límite elástico templados y revenidos, los de resistencia mejorada a la deformación perpendicular a la superficie y los inoxidables laminados en caliente (art. 83).",
+      "El DB-SE-A trata los aceros de las chapas y los perfiles de la norma UNE-EN 10025, que son los laminados en caliente de acero no aleado para construcciones metálicas de uso general, con sus características mecánicas mínimas en la tabla 4.1. También considera los perfiles huecos para construcción, acabados en caliente, de la norma UNE-EN 10210-1, y las secciones huecas conformadas en frío, de la norma UNE-EN 10219-1 (DB-SE-A, apartado 4.2, puntos 1 y 2).",
+      "Los productos de acero son perfiles y chapas (Código, art. 84). En la práctica de la edificación, los elementos más habituales son los pilares y las vigas de perfil laminado en doble T, los perfiles huecos rectangulares o circulares, las cerchas de cubierta y las correas. Su descripción detallada, con sus dimensiones comerciales, corresponde al catálogo del fabricante y no se ha verificado en el repositorio.",
+      "Los medios de unión que contempla el Código son los tornillos, tuercas y arandelas para uniones atornilladas, y el material de aportación para uniones soldadas (art. 85.1). La tabla 85.2.a fija los grados de tornillo con su límite elástico y su resistencia a tracción mínimos. Las uniones pueden ser atornilladas, soldadas o, con elementos mecánicos específicos, fijadas con medios de fijación, como indica el artículo 93."
+     ]
+    },
+    {
+     "titulo": "3. Tipos de estructura de madera",
+     "parrafos": [
+      "El DB-SE-M distingue tres tipos de madera para uso estructural. La madera maciza incluye la madera aserrada y la madera de rollizo (DB-SE-M, apartado 4.1, punto 1). La madera aserrada se clasifica por clase resistente, que es el valor de la resistencia característica a flexión en N/mm². Para coníferas y chopo, las clases son C14, C16, C18, C20, C22, C24, C27, C30, C35, C40, C45 y C50; para frondosas, D30, D35, D40, D50, D60 y D70 (apartado 4.1, puntos 2 y 3).",
+      "Además de la madera maciza, el DB contempla la madera laminada encolada y la madera microlaminada, que se tratan en el apartado 2 como materiales con sus propios valores característicos (apartado 2, puntos 2 y 3). Los valores de resistencia, rigidez y densidad de cada clase de madera aserrada figuran en el anejo E (apartado 4.1, punto 4).",
+      "El DB-SE-M recoge también los sistemas estructurales de madera y de productos derivados, con las vigas mixtas de madera y tablero encoladas, cuyo cálculo admite secciones compuestas sin deslizamiento entre almas y alas en los planos de encolado, en piezas con relación luz/canto igual o inferior a 25 y longitud menor de 12 m (apartado 10.1.1.1, punto 2). El capítulo 10 del documento recoge otros sistemas, cuyo detalle no se ha desarrollado en este tema.",
+      "El tipo estructural más frecuente en la edificación de madera es la estructura de entramado o de pórticos de madera, con vigas, pilares, correas y forjados de madera. Su descripción, como la de los sistemas de cubierta, es de práctica constructiva y debe contrastarse con el proyecto y con las normas de producto.",
+      "Para el cálculo de la madera, los valores característicos de sus propiedades, Xk, se toman de los establecidos para cada producto y clase resistente (DB-SE-M, apartado 2, punto 1). Son los valores que el proyectista usa para obtener las propiedades de cálculo, aplicando los coeficientes parciales y los factores de corrección que el DB recoge en su tabla 2.1 (apartado 2, punto 5). Por eso, la clase resistente elegida en el proyecto condiciona directamente la sección de cada pieza."
+     ]
+    },
+    {
+     "titulo": "4. Requisitos y exigencias básicas",
+     "parrafos": [
+      "En el CTE, la exigencia de seguridad estructural está en el artículo 10. La exigencia SE 1, de resistencia y estabilidad, pide que se mantengan frente a las acciones previsibles durante la construcción y el uso, y que un evento extraordinario no produzca consecuencias desproporcionadas con la causa original. La exigencia SE 2, de aptitud al servicio, pide que no haya deformaciones inadmisibles, que se limite la probabilidad de un comportamiento dinámico inadmisible y que no se produzcan degradaciones o anomalías inadmisibles (art. 10.1 y 10.2).",
+      "El DB-SE-A concreta esas exigencias en las comprobaciones de los estados límite últimos y de servicio (capítulos 6 y 7), en la fatiga (capítulo 9) y en las uniones (capítulo 8). Según el DB-SE-A (apartado 1.1, punto 2), la seguridad se refiere a las condiciones adecuadas de utilización, incluida la durabilidad. Para la madera, el DB-SE-M sigue la misma lógica, con la durabilidad en el capítulo 3 y la verificación de los estados límite en los capítulos 6 y 7.",
+      "El Código Estructural exige que las estructuras sean idóneas para su uso durante toda su vida útil. El artículo 5 enumera los requisitos de seguridad estructural, de seguridad en caso de incendio y de protección del medio ambiente. El proyecto debe justificarlos con los procedimientos del Código (art. 3)."
+     ]
+    },
+    {
+     "titulo": "5. Durabilidad del acero",
+     "parrafos": [
+      "El DB-SE-A exige prevenir la corrosión del acero mediante una estrategia global que considere de forma conjunta el diseño, los materiales y las medidas de protección (DB-SE-A, apartado 3, punto 1). El proyecto de edificación debe indicar las protecciones adecuadas para evitar la corrosión (punto 2). Los materiales protectores deben almacenarse y utilizarse según las instrucciones del fabricante (punto 3).",
+      "El Código Estructural concreta esa estrategia en el artículo 87, que exige que el proyecto defina las medidas necesarias para alcanzar la vida útil establecida por la propiedad, según la agresividad del ambiente. Sus fases son la selección de formas estructurales adecuadas (apartado 87.1), la selección de materiales (87.2), las medidas específicas frente a la corrosión (87.3), los detalles constructivos (87.4) y las medidas de mantenimiento en la fase de uso (87.5).",
+      "Las clases de exposición de los elementos de acero se fijan en el artículo 80.1, con dos tablas: una para la corrosión atmosférica (tabla 80.1.a) y otra para los elementos sumergidos o enterrados (tabla 80.1.b). Cuando hay procesos mecánicos, biológicos, térmicos o agentes químicos agresivos, la clase debe reforzarse. Las condensaciones en espacios cerrados y en elementos huecos no herméticos agravan la corrosión. En zonas con más de cinco nevadas anuales, o con temperatura mínima media invernal inferior a 0 °C, los puentes y pasarelas con fundentes se consideran de clase C5.",
+      "La protección se realiza por pinturas, por galvanizado o por metalización, según el DB-SE-A (apartado 3, punto 7) y el artículo 95 del Código. El Código admite pinturas de secado al aire, de curado físico o químico, en base disolvente o agua, epoxídicas de dos componentes, de poliuretano de dos componentes y de curado por humedad (art. 86.1). El pliego de prescripciones técnicas particulares debe definir el sistema de protección, y el diseño debe evitar las zonas donde pueda depositarse humedad y suciedad (art. 95.1).",
+      "Las superficies que no se puedan limpiar por chorreado se someten a cepillado metálico, y los abrasivos utilizados en la preparación de las superficies deben cumplir sus propias especificaciones (DB-SE-A, apartado 3, puntos 5 y 6). Los métodos de recubrimiento, metalización, galvanización y pintura deben especificarse y ejecutarse de forma correcta (apartado 3, punto 7)."
+     ]
+    },
+    {
+     "titulo": "6. Durabilidad y protección de la madera",
+     "parrafos": [
+      "La durabilidad de la estructura de madera depende del diseño constructivo y de la durabilidad natural de la especie, y en algunos casos necesita un tratamiento (DB-SE-M, apartado 3.1, puntos 1 y 2). La madera puede sufrir daños causados por agentes bióticos, como hongos e insectos xilófagos, y por agentes abióticos, como la humedad y las variaciones dimensionales. La protección preventiva busca mantener la probabilidad de daño en un nivel aceptable (apartado 3.2, punto 1).",
+      "Los productos derivados de la madera, como los tableros estructurales de partículas, los contrachapados o las virutas orientadas, deben emplearse según sus normas de producto para cada clase de servicio (DB-SE-M, apartado 3.1, punto 3). La clase de servicio no se ha desarrollado en este tema, por lo que sus límites deben consultarse en el documento."
+     ]
+    },
+    {
+     "titulo": "7. Ejecución de la estructura de acero",
+     "parrafos": [
+      "El DB-SE-A exige que los materiales se correspondan con los especificados en el proyecto. No deben cambiarse, sin autorización del director de obra, las calidades de material especificadas, aunque el cambio implique un aumento de características mecánicas (apartado 10.1, punto 2). El capítulo 10 del DB regula los materiales de los elementos de acero, con calidades de S 235 a S 450 para aceros en chapas y perfiles, y los tornillos de los tipos 4.6 a 10.9 (apartado 10.1, punto 1, letras a y b).",
+      "El soldeo debe realizarse con un plan de soldeo que incluya los detalles de la unión, las dimensiones y el tipo de soldadura, la secuencia y las medidas para evitar el desgarro laminar (apartado 10.3.1, punto 1). El procedimiento de soldeo debe cualificarse por ensayo antes de la producción cuando el pliego lo exige, y si un procedimiento no se usa durante más de tres años debe inspeccionarse una probeta de la producción (apartado 10.3.2.1, punto 1). El valor máximo del carbono equivalente debe calcularse a partir del análisis del material o de la declaración del fabricante (apartado 10.1, letra c).",
+      "En las uniones atornilladas, el diámetro nominal mínimo de los tornillos es de 12 mm, salvo que el proyecto especifique otra cosa (apartado 10.4.1, punto 1). La espiga debe salir de la tuerca dejando al menos cuatro filetes completos en los tornillos pretensados y uno en los no pretensados (punto 3). Los tornillos no deben soldarse, salvo que lo indique el pliego (punto 4).",
+      "El Código regula la fabricación en taller y el transporte. Ninguna pieza puede salir del taller sin la autorización expresa de la dirección facultativa, una vez demostrada su conformidad con el proyecto (art. 92.1.1). La soldadura debe cumplir los requisitos de calidad de la norma UNE-EN ISO 3834 según la clase de ejecución (art. 94.1). Las manipulaciones de carga, descarga, transporte y almacenamiento se harán con cuidado para evitar sobresolicitaciones (art. 92.1.2)."
+     ]
+    },
+    {
+     "titulo": "8. Ejecución de la estructura de madera",
+     "parrafos": [
+      "El DB-SE-M trata la ejecución en su capítulo 11 y las tolerancias en el capítulo 12, mientras que el control se regula en el capítulo 13. Estos capítulos no se han leído en su totalidad en este tema, por lo que las reglas de montaje de la madera, de sus uniones y de su humedad de puesta en obra deben consultarse en el documento.",
+      "En la práctica, la madera se recepciona con el certificado de su clase resistente, que debe corresponder al especificado en el proyecto. El control de recepción de los materiales con certificado de origen se limita a establecer la trazabilidad de cada elemento con su certificado (DB-SE-A, apartado 12.3, punto 1)."
+     ]
+    },
+    {
+     "titulo": "9. Control de calidad",
+     "parrafos": [
+      "El control de calidad del DB-SE-A se refiere al control y la ejecución de la obra para su aceptación, con independencia del que realice el constructor. Cada actividad de control, y sus resultados, deben quedar registrados documentalmente en la documentación final de la obra (apartado 12.1, punto 2).",
+      "El control se organiza en cinco aspectos: la documentación del proyecto (apartado 12.2), que debe definir la solución estructural, su justificación y los requisitos de construcción; los materiales (apartado 12.3); la fabricación (apartado 12.4); el montaje (apartado 12.5); y la inspección y el mantenimiento posteriores (apartado 13).",
+      "El Código Estructural organiza el control de la misma manera en sus artículos 96 a 103, con el control de proyecto (art. 96), de los productos (art. 97), de los medios de unión (art. 98), de los sistemas de protección (art. 99), de las estructuras componentes (art. 100), la programación (art. 101), las comprobaciones previas (art. 102) y el control de la fabricación en taller y del montaje en obra (art. 103). Solo se han comprobado sus títulos en el repositorio, no su articulado."
+     ]
+    },
+    {
+     "titulo": "10. Uso, conservación y mantenimiento",
+     "parrafos": [
+      "El DB-SE-A extiende el mantenimiento de la estructura metálica a los elementos de protección, especialmente los de protección frente al incendio (apartado 13.2, punto 1). Las actividades de mantenimiento deben ajustarse a los plazos de garantía que declaren los fabricantes, por ejemplo, de las pinturas (punto 2).",
+      "Si el edificio está sometido a acciones que inducen fatiga, debe redactarse un plan de mantenimiento independiente del general, incluso cuando se adopte el criterio de vida segura en la comprobación a fatiga (apartado 13.2, punto 3). Si se adopta el criterio de tolerancia al daño, el plan debe especificar el procedimiento para evitar la propagación de fisuras, la maquinaria y el acabado a emplear (punto 4).",
+      "El Código Estructural exige que la propiedad programe y efectúe el mantenimiento desde la entrada en servicio, de forma coherente con el proyecto (art. 24.1). Esta obligación es común a todas las estructuras del Código, y en el caso del acero se completa con el mantenimiento de la protección."
+     ]
+    },
+    {
+     "titulo": "11. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "El montaje de estructuras metálicas es una de las actividades de mayor riesgo en obra, por la caída de piezas, de personas en altura y por el uso de grúas y medios de elevación. La evaluación de riesgos se apoya en la LPRL, cuyo artículo 16 regula el plan de prevención. Solo se ha comprobado el inicio de ese artículo en el repositorio.",
+      "El Real Decreto 1627/1997, en su anexo IV, apartado 11, incluye las estructuras metálicas y de hormigón entre los trabajos específicos. Exige que las estructuras metálicas, sus elementos, los encofrados y las piezas prefabricadas pesadas solo se monten o desmonten bajo vigilancia, control y dirección de una persona competente (apartado 11.a). Los elementos deben proyectarse, calcularse y mantenerse para soportar sin riesgo las cargas a las que se someten (apartado 11.b). Y deben adoptarse medidas frente a la fragilidad o la inestabilidad temporal de la obra (apartado 11.c).",
+      "En las cubiertas, donde se monta buena parte de la estructura metálica y de madera, el anexo IV, apartado 12.b exige medidas de protección colectiva según la altura, la inclinación o el estado resbaladizo, para evitar la caída de trabajadores, herramientas o materiales (apartado 12.b). El estudio de seguridad y salud debe recoger estas medidas con su presupuesto (RD 1627/1997, arts. 4 y 5), y el plan de seguridad de cada contratista debe desarrollarlo y aprobarse antes de empezar la obra (art. 7).",
+      "Los trabajos de soldadura y corte, así como el montaje de madera con herramientas eléctricas o neumáticas, tienen riesgos específicos, como las proyecciones y los humos de soldadura. Las reglas concretas de esos riesgos no se han verificado en el repositorio, y el tema solo indica la necesidad de incluirlos en la evaluación."
+     ]
+    },
+    {
+     "titulo": "12. Criterios de medición y factores del precio",
+     "parrafos": [
+      "En la estructura metálica se miden los perfiles por kilogramo o por metro lineal según la norma de medición del proyecto, las chapas por metro cuadrado o por kilogramo, las uniones atornilladas y soldadas por unidad o por metro de cordón, y la protección por metro cuadrado de superficie tratada. La medición debe coincidir con el cuadro de precios de referencia y con la documentación de taller.",
+      "En la estructura de madera se miden las piezas por metro cúbico o por metro lineal, según la sección y la clase resistente, y los tableros por metro cuadrado. Los factores del precio son la clase resistente de la madera, la protección frente a los agentes bióticos, la complejidad de las uniones, la calidad de la protección del acero, el montaje en taller frente al montaje en obra y los medios de elevación necesarios.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). Las normas de medición concretas no se han verificado en el repositorio, por lo que el tema las presenta como principios."
+     ]
+    },
+    {
+     "titulo": "13. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir la norma aplicable en cada caso. Para el acero, el DB-SE-A en el CTE y el Código Estructural en la norma de hormigón y acero; para la madera, el DB-SE-M. Conviene recordar que la EAE está derogada por el Código Estructural, y que la norma de madera no ha sido sustituida por el Código, porque el Código no regula la madera.",
+      "Las cifras que se preguntan con más frecuencia son las calidades del acero de la chapa (S 235 a S 450), el diámetro mínimo de los tornillos (12 mm), el número de filetes de rosca en pretensados (cuatro) y no pretensados (uno), la clase resistente de la madera (C14 a C50 y D30 a D70). Conviene memorizarlas con su apartado.",
+      "Los errores habituales son cuatro. El primero es afirmar que el DB-SE-A cubre la resistencia al fuego, que queda fuera de su alcance. El segundo es citar la EAE como norma vigente. El tercero es confundir la vida segura con la tolerancia al daño en la fatiga. El cuarto es olvidar que el plan de mantenimiento de un edificio sometido a fatiga es independiente del general.",
+      "Para un caso práctico de nave de estructura metálica en un entorno costero, el orden de análisis es: identificar la clase de exposición del acero, con el ambiente marino y la corrosividad de la tabla 80.1.a; definir el sistema de protección y la clase de exposición en el pliego; comprobar las uniones y el plan de soldeo; prever el control de los materiales con certificado y la trazabilidad; y, por último, las medidas de seguridad del montaje.",
+      "Para comparar el acero y la madera en un examen, conviene recordar que el primero se protege frente a la corrosión mediante recubrimientos y su durabilidad depende del sistema de pintura o galvanizado y de su mantenimiento, mientras que la segunda depende de su clase de servicio, de su durabilidad natural y de la protección preventiva frente a agentes bióticos y abióticos. Ambos documentos exigen que el proyecto defina esas medidas y que el constructor las cumpla sin cambios no autorizados."
+     ]
+    },
+    {
+     "titulo": "14. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el DB-SE-A en sus apartados 1.1, 3 (puntos 1 a 7), 4.1 y 4.2, 10.1, 10.3, 10.4, 12 y 13.2; el DB-SE-M en sus apartados 2 (en parte), 3.1 y 3.2, 4.1, 10.1.1.1 y los encabezados de sus capítulos 11 a 13; y el Código Estructural en sus artículos 80 a 87, 92, 94, 95, 96 a 103 (solo títulos) y 109 (en su enunciado), con la extracción de 16 páginas del BOE que se adjunta al repositorio.",
+      "No se han verificado los capítulos de cálculo de ambos documentos básicos (capítulos 5 a 9 del DB-SE-A y capítulos 5 a 9 del DB-SE-M), ni el capítulo de control de la madera (capítulo 13). Tampoco se ha leído el artículo 79 del Código, que delimita su ámbito de aplicación al acero, ni el artículo 82 con las características de los aceros, salvo su introducción.",
+      "La normativa de protección contra incendios de estructuras metálicas (DB-SI) no está en el repositorio. Las tablas de clases de exposición y de clases de servicio para la madera no se han consultado. Antes de citar un artículo concreto, debe comprobarse si hay modificaciones posteriores de los documentos."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/DB-SE-A.pdf",
+    "leyes/DB-SE-M.pdf",
+    "leyes/BOE-A-2021-13681-acero-extracto.pdf",
+    "leyes/BOE-A-1997-22614.pdf",
+    "leyes/BOE-A-1995-24292.pdf"
+   ]
+  },
+  "e06": {
+   "resumen": [
+    {
+     "titulo": "Campo de aplicación del DB-SE-F",
+     "puntos": [
+      "El DB-SE-F verifica la seguridad estructural de los muros resistentes de fábrica realizados con piezas pequeñas asentadas con mortero: ladrillo, bloque de hormigón, cerámica aligerada y piedra (apartado 1.1, punto 1).",
+      "Quedan excluidos los muros de carga sin encadenados con los forjados, las fábricas en seco y la piedra de mampuestos sin tendeles horizontales (apartado 1.1, punto 2)."
+     ]
+    },
+    {
+     "titulo": "Piezas y tipos de muro",
+     "puntos": [
+      "Piezas agrupadas por volumen de huecos: macizas (25 %) y los grupos con más huecos, hasta el 60 % (tabla 4.1). Resistencia normalizada mínima de 5 N/mm²; admisible 4 N/mm² en sustentantes y 3 N/mm² en sustentadas con limitaciones (apartado 4.1, punto 4).",
+      "Tipos de muro: una hoja, capuchino, doblado, careado, de tendel hueco, de revestimiento y de armado (apartado 6.1, punto 1)."
+     ]
+    },
+    {
+     "titulo": "Arcos y bóvedas",
+     "puntos": [
+      "El DB-SE-F contempla el arco estribado en sus extremos: el muro entre extremos capaces de resistir empuje puede resistir cargas perpendiculares mediante arcos (apartado 5.4.4, punto 1).",
+      "El cálculo es el de tres articulaciones, dos en los extremos y una intermedia (apartado 5.4.4, punto 2). Las bóvedas no tienen capítulo específico en los apartados verificados del DB-SE-F."
+     ]
+    },
+    {
+     "titulo": "Requisitos del CTE",
+     "puntos": [
+      "Seguridad estructural: SE 1 y SE 2 (CTE, art. 10). El DB-SE-F no trata el aislamiento térmico, el acústico ni la resistencia al fuego (apartado 1.1, punto 3).",
+      "Cerramientos y particiones: HS 1 de humedad (CTE, art. 13.1), HR de ruido aéreo, de impactos e instalaciones (art. 14.2) y HE de ahorro de energía (art. 15). Sus parámetros están en los DB correspondientes, no leídos en este tema."
+     ]
+    },
+    {
+     "titulo": "Exposición, piezas y humectación",
+     "puntos": [
+      "La clase de exposición considera el entorno y la exposición local a la humedad, incluidos aleros, cornisas y revestimientos. Si el acabado exterior es impermeable al agua de lluvia, debe ser permeable al vapor (DB-SE-F, apartado 3.1, puntos 2 y 3).",
+      "Las piezas cerámicas se humedecen antes de la fábrica, salvo las completamente hidrofugadas o de succión muy baja (apartado 7.1.1, punto 1). Las piezas de categoría I tienen resistencia declarada con probabilidad de no alcanzarla inferior al 5 % (apartado 8.1.1, punto 3)."
+     ]
+    },
+    {
+     "titulo": "Ejecución y dinteles",
+     "puntos": [
+      "Las piezas se colocan a restregón sobre tortada de mortero; no se mueve una pieza tras el restregón (apartado 7.1.2, punto 1). Una llaga está llena si el mortero macizo el 40 % del tizón (apartado 7.1.3, punto 1).",
+      "Dinteles: armadura de continuidad sobre apoyos no inferior al 50 % de la del centro del vano, y prolongación de al menos el 25 % hasta los apoyos (apartado 7.2, puntos 1 y 2)."
+     ]
+    },
+    {
+     "titulo": "Control, mantenimiento y responsabilidad",
+     "puntos": [
+      "Plan de mantenimiento con revisiones periódicas; las alteraciones que afectan a la durabilidad requieren intervención antes de que afecten a la estabilidad (DB-SE-F, apartado 9, puntos 1 a 3).",
+      "La LOE responde diez años por los daños en muros de carga que comprometan la estabilidad (art. 17.1.a) y tres años por los defectos que incumplan la habitabilidad (art. 17.1.b)."
+     ]
+    },
+    {
+     "titulo": "Seguridad y medición",
+     "puntos": [
+      "Medidas frente a la inestabilidad temporal de la obra (RD 1627/1997, anexo IV, apartado 11.c) y protección colectiva en tejados (apartado 12.b). El estudio de seguridad debe recoger estas medidas con su presupuesto (arts. 4 y 5).",
+      "Muros por metro cuadrado con su espesor; cerramientos y particiones por metro cuadrado con sus capas; arcos y bóvedas por metro cúbico o por superficie revestida, según el proyecto."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Seguridad estructural, humedad, ruido, energía y control de la ejecución (arts. 7, 10, 13.1, 14 y 15)"
+    },
+    {
+     "id": "DB-SE-F",
+     "rol": "Muros resistentes de fábrica, arcos estribados, ejecución y mantenimiento (apartados 1, 3, 4, 5.4.4, 6.1, 7, 8 y 9)"
+    },
+    {
+     "id": "DB-HS",
+     "rol": "Protección frente a la humedad de los cerramientos (HS 1, no leído en este tema)"
+    },
+    {
+     "id": "LOE",
+     "rol": "Responsabilidad por daños en muros de carga y habitabilidad (arts. 3 y 17.1)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Estabilidad temporal de la obra y cubiertas (anexo IV, apartados 11.c y 12.b)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el DB-SE-F, apartado 1.1, punto 2, ¿cuál de estos muros queda excluido del documento?",
+     "opciones": [
+      "Un muro de carga sin elementos que aseguren la continuidad con los forjados",
+      "Un muro de bloque de hormigón con armadura de refuerzo",
+      "Un muro de piedra con tendeles horizontales",
+      "Un muro de ladrillo con encadenados a los forjados"
+     ],
+     "correcta": 0,
+     "explicacion": "Quedan excluidos los muros de carga que carecen de elementos destinados a asegurar la continuidad con los forjados (encadenados).",
+     "referencia": "DB-SE-F, apartado 1.1, punto 2"
+    },
+    {
+     "pregunta": "Según el DB-SE-F, apartado 4.1, punto 4, ¿cuál es la resistencia normalizada mínima a compresión de las piezas?",
+     "opciones": [
+      "No hay mínimo",
+      "3 N/mm²",
+      "5 N/mm²",
+      "10 N/mm²"
+     ],
+     "correcta": 2,
+     "explicacion": "La resistencia normalizada a compresión mínima de las piezas es de 5 N/mm², con excepciones para fábricas sustentantes y sustentadas bajo condiciones.",
+     "referencia": "DB-SE-F, apartado 4.1, punto 4"
+    },
+    {
+     "pregunta": "Según el DB-SE-F, apartado 6.1, punto 1, ¿cuál de estos tipos de muro se describe en el documento?",
+     "opciones": [
+      "Muro de hormigón pretensado en cuatro niveles",
+      "Muro cortina de vidrio",
+      "Muro de madera laminada",
+      "Muro de tendel hueco"
+     ],
+     "correcta": 3,
+     "explicacion": "El apartado 6.1 ilustra los muros de una hoja, capuchinos, doblados, careados, de tendel hueco, de revestimiento y de armado de fábricas.",
+     "referencia": "DB-SE-F, apartado 6.1, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-SE-F, apartado 5.4.4, punto 2, ¿qué modelo se usa para calcular un arco estribado?",
+     "opciones": [
+      "El de una sola articulación",
+      "El de tres articulaciones, dos en los extremos y una intermedia",
+      "El de cuatro barras paralelas",
+      "No se calcula"
+     ],
+     "correcta": 1,
+     "explicacion": "El cálculo del arco se basa en el de tres articulaciones, dos en los extremos y una en una sección intermedia.",
+     "referencia": "DB-SE-F, apartado 5.4.4, punto 2"
+    },
+    {
+     "pregunta": "Según el DB-SE-F, apartado 7.1.3, punto 1, ¿cuándo se considera llena una llaga?",
+     "opciones": [
+      "Cuando el mortero macizo al menos el 40 % del tizón de la pieza",
+      "Cuando el mortero toca solo la cara exterior",
+      "Siempre que haya mortero en la junta",
+      "Cuando el mortero supera el 90 % del tizón"
+     ],
+     "correcta": 0,
+     "explicacion": "Una llaga se considera llena si el mortero macizo el grueso total de la pieza en al menos el 40 % de su tizón; en caso contrario, se considera hueca.",
+     "referencia": "DB-SE-F, apartado 7.1.3, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-SE-F, apartado 7.2, punto 1, ¿qué armadura de continuidad debe disponerse sobre los apoyos de un dintel?",
+     "opciones": [
+      "Solo un 10 % de la del centro del vano",
+      "No se dispone ninguna",
+      "No inferior al 50 % de la armadura en el centro del vano",
+      "Igual a la del centro del vano más un 100 %"
+     ],
+     "correcta": 2,
+     "explicacion": "Sobre los apoyos se dispone una armadura de continuidad de sección no inferior al 50 % de la armadura en el centro del vano.",
+     "referencia": "DB-SE-F, apartado 7.2, punto 1"
+    },
+    {
+     "pregunta": "Según el DB-SE-F, apartado 7.1.1, punto 1, ¿cómo deben tratarse previamente las piezas de cerámica?",
+     "opciones": [
+      "Se secan al horno siempre",
+      "No requieren ningún tratamiento",
+      "Se congelan antes de usarlas",
+      "Se humedecen por aspersión o inmersión, salvo las completamente hidrofugadas o de succión muy baja"
+     ],
+     "correcta": 3,
+     "explicacion": "Las piezas, fundamentalmente las cerámicas, se humedecen antes de la ejecución de la fábrica, por aspersión o inmersión, excepto las completamente hidrofugadas y las de succión inferior a 0,10 g/cm².",
+     "referencia": "DB-SE-F, apartado 7.1.1, punto 1"
+    },
+    {
+     "pregunta": "Según el art. 17.1.b de la LOE, ¿durante cuánto tiempo responden los agentes de los defectos de elementos constructivos que incumplan la habitabilidad?",
+     "opciones": [
+      "Un año",
+      "Tres años",
+      "Diez años",
+      "Treinta años"
+     ],
+     "correcta": 1,
+     "explicacion": "El art. 17.1.b LOE establece tres años para los daños materiales causados por vicios o defectos de los elementos constructivos o de las instalaciones que incumplan los requisitos de habitabilidad.",
+     "referencia": "Art. 17.1.b LOE"
+    },
+    {
+     "pregunta": "Según el art. 15.1 del CTE, ¿qué pretende el requisito básico de ahorro de energía?",
+     "opciones": [
+      "Prohibir el aislamiento térmico",
+      "Eliminar el consumo de energía en los edificios",
+      "Un uso racional de la energía necesaria, reduciendo su consumo a límites sostenibles",
+      "Obligar a usar siempre energía eléctrica"
+     ],
+     "correcta": 2,
+     "explicacion": "El requisito básico de ahorro de energía consiste en conseguir un uso racional de la energía necesaria para utilizar los edificios, reduciendo a límites sostenibles su consumo.",
+     "referencia": "Art. 15.1 CTE"
+    },
+    {
+     "pregunta": "Según el DB-SE-F, apartado 9, punto 1, ¿qué establece el plan de mantenimiento de un muro de fábrica?",
+     "opciones": [
+      "Las revisiones a las que debe someterse el edificio durante su periodo de servicio",
+      "Solo la pintura exterior cada cien años",
+      "La sustitución completa del muro cada diez años",
+      "Nada: los muros no requieren revisión"
+     ],
+     "correcta": 0,
+     "explicacion": "El plan de mantenimiento establece las revisiones a las que debe someterse el edificio durante su periodo de servicio.",
+     "referencia": "DB-SE-F, apartado 9, punto 1"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué son estos elementos y cómo se ordenan",
+     "parrafos": [
+      "En un edificio, los elementos de fábrica se agrupan según su función. Los muros de carga son elementos resistentes que transmiten a la cimentación las cargas de los forjados y de la cubierta. Los cerramientos forman la envolvente exterior del edificio, frente a la intemperie. Las particiones separan los recintos interiores y, en general, no soportan cargas de otros niveles. Los arcos y las bóvedas son elementos curvos que transmiten las cargas por compresión a sus apoyos, y forman parte de la tradición constructiva de la fábrica.",
+      "La distinción es importante porque la norma no regula todos por igual. El DB-SE-F del Código Técnico verifica la seguridad estructural de los muros resistentes de fábrica, que es el caso de los muros de carga. Los cerramientos y las particiones se rigen por las exigencias de salubridad (DB-HS), de protección frente al ruido (DB-HR) y de ahorro de energía (DB-HE), además de su función resistente cuando la tienen. Los arcos aparecen en el DB-SE-F como arcos estribados en los extremos del muro.",
+      "Este tema se organiza en torno a esa distinción: primero se describen los tipos y los materiales, después se presentan los requisitos del DB-SE-F y de las exigencias de salubridad, ruido y energía, y por último se tratan la ejecución, el control, el mantenimiento y la seguridad."
+     ]
+    },
+    {
+     "titulo": "2. Muros de carga: campo de aplicación",
+     "parrafos": [
+      "El DB-SE-F aplica a los muros resistentes de la edificación realizados con piezas relativamente pequeñas en comparación con las dimensiones del elemento, asentadas con mortero. Son las fábricas de ladrillo, de bloques de hormigón, de cerámica aligerada y de piedra, incluidos los casos con armaduras activas o pasivas en los morteros o con refuerzos de hormigón armado (DB-SE-F, apartado 1.1, punto 1).",
+      "Quedan excluidos los muros de carga que carecen de elementos destinados a asegurar la continuidad con los forjados, los encadenados. Esto incluye los muros cuya estabilidad se confía al rozamiento de los extremos de las viguetas, o a su grueso, o a su vinculación a otros muros perpendiculares sin colaboración de los forjados. Tampoco se incluyen las fábricas en seco, sin mortero en las juntas horizontales, ni las de piedra de mampuestos irregulares sin tendeles horizontales (apartado 1.1, punto 2).",
+      "La exclusión de los muros sin encadenados es una de las reglas que más se pregunta en examen, porque define hasta dónde llega el DB. Un muro de carga sin encadenado con los forjados no está cubierto por el DB-SE-F y debe justificarse de otro modo.",
+      "El DB-SE-F establece también condiciones para los elementos de fábrica sustentante, que forma parte de la estructura resistente, y para la fábrica sustentada, que se apoya en la estructura y no la integra. La fábrica sustentada debe enlazarse con la estructura general de modo adecuado para transmitir las acciones (apartado 1.2, puntos 1 y 3). El tipo estructural de referencia de la fábrica sustentante es el de muros de carga en dos direcciones (apartado 1.2, punto 2)."
+     ]
+    },
+    {
+     "titulo": "3. Tipos de muros y de piezas",
+     "parrafos": [
+      "El DB-SE-F clasifica las piezas para fábricas en grupos según su volumen de huecos. La tabla 4.1 distingue las piezas macizas, perforadas, aligeradas y huecas, de cerámica o de hormigón. Las piezas macizas tienen un volumen de huecos del 25 % del bruto, y las de los grupos con más huecos llegan hasta el 60 % (tabla 4.1, notas 1 y 2). El límite del 60 % puede superarse si se dispone de ensayos que confirmen que la seguridad no se reduce de forma importante.",
+      "Las piezas se designan por sus medidas modulares, que son la medida nominal más el ancho habitual de la junta (apartado 4.1, punto 1). La disposición de los huecos debe evitar la aparición de fisuras en los tabiquillos y las paredes durante la fabricación, el manejo o la colocación (apartado 4.1, punto 3).",
+      "En la sección de muros, el DB ilustra los tipos habituales: muro de una hoja, muro capuchino, muro doblado, muro careado, muro de tendel hueco, muro de revestimiento y muro de armado de fábricas (apartado 6.1, punto 1). Cada uno tiene un comportamiento y una solución de juntas distintos, y el proyecto debe identificar cuál se emplea.",
+      "La resistencia normalizada a compresión mínima de las piezas es de 5 N/mm² (apartado 4.1, punto 4). Se admiten piezas de hasta 4 N/mm² en fábricas sustentantes y de hasta 3 N/mm² en fábricas sustentadas, siempre que se limite la tensión de trabajo a compresión en el estado límite último al 75 % de la resistencia de cálculo de la fábrica, o que se realicen estudios específicos sobre su resistencia."
+     ]
+    },
+    {
+     "titulo": "4. Arcos y bóvedas",
+     "parrafos": [
+      "El DB-SE-F contempla el arco estribado en sus extremos. Cuando un muro se ejecuta entre extremos capaces de resistir empuje, puede suponerse que las acciones perpendiculares a su plano se resisten mediante arcos verticales u horizontales, siempre que se adopten las medidas constructivas adecuadas a ese comportamiento (apartado 5.4.4, punto 1).",
+      "El cálculo del arco se basa en el de tres articulaciones: dos en los extremos y una en una sección intermedia, situadas en el centro de bielas de ancho igual a 0,1 veces el canto del sólido capaz en el que puede inscribirse el arco (apartado 5.4.4, punto 2). La altura del arco se obtiene con la ecuación del apartado 5.4.4, punto 3.",
+      "Las bóvedas, como elemento autónomo de cubrición de recintos, no aparecen con ese nombre en los apartados verificados del DB-SE-F. Por tanto, su verificación debe hacerse con la teoría general de la fábrica y no con un capítulo específico. Esto debe indicarse en un examen si se pregunta por su regulación.",
+      "En la práctica, los arcos y las bóvedas trabajan a compresión, y su estabilidad depende de que los apoyos resistan el empuje horizontal. Por eso el diseño debe prever la contención de los empujes, los encadenados y la correcta ejecución del trasdós y de la cimbra hasta el cierre de la bóveda.",
+      "El arco funciona bien cuando la línea de presiones queda dentro de su espesor. Si la línea de presiones se sale del tercio central de la sección, aparecen tracciones en la fábrica, que fisura y pierde estabilidad. Por eso el DB-SE-F considera el arco como un mecanismo de tres articulaciones: el cálculo busca la posición de la línea de presiones y verifica que los apoyos resisten el empuje. El mismo razonamiento vale para las bóvedas de sección continua, aunque sin un capítulo específico en el documento.",
+      "La diferencia entre el arco y la bóveda es de geometría y de función. El arco es una línea curva en un plano, que se apoya en dos puntos y cubre un vano estrecho; la bóveda es una superficie curva que cubre un recinto y necesita un apoyo continuo en sus bordes. En un examen, la respuesta correcta suele apoyarse en esta diferencia, y en la idea de que ambos trabajan principalmente a compresión, siempre que la forma sea la adecuada para el tipo de carga."
+     ]
+    },
+    {
+     "titulo": "5. Requisitos y exigencias básicas del CTE",
+     "parrafos": [
+      "El requisito de seguridad estructural para los muros de carga está en el artículo 10 del CTE. La exigencia SE 1 pide resistencia y estabilidad frente a las acciones previsibles durante la construcción y el uso (art. 10.1). La exigencia SE 2 pide aptitud al servicio, sin deformaciones inadmisibles (art. 10.2). El artículo 10.3 incluye el DB-SE-F, que desarrolla estas exigencias para la fábrica.",
+      "El DB-SE-F se refiere a la seguridad estructural, y expresamente no trata otros requisitos, como el aislamiento térmico, el acústico o la resistencia al fuego (apartado 1.1, punto 3). Estos quedan para los documentos de salubridad, ruido y energía del CTE.",
+      "La exigencia de salubridad HS 1, de protección frente a la humedad, pide limitar el riesgo previsible de presencia inadecuada de agua en el interior de los edificios y en sus cerramientos, por precipitaciones, escorrentías, terreno o condensaciones, con medios que impidan su penetración o permitan su evacuación sin daños (CTE, art. 13.1). Es la exigencia que más afecta a los cerramientos exteriores.",
+      "La exigencia HR, de protección frente al ruido, pide que los elementos constructivos que conforman los recintos tengan características acústicas adecuadas para reducir la transmisión del ruido aéreo, del ruido de impactos y del ruido de instalaciones, y para limitar el ruido reverberante (CTE, art. 14.2). Esta es la exigencia que más afecta a las particiones. Sus parámetros se desarrollan en el DB-HR, que no se ha leído en este tema.",
+      "La exigencia HE, de ahorro de energía, pide un uso racional de la energía, y el DB-HE especifica los parámetros objetivos (CTE, art. 15.1 y 15.3). Afecta a los cerramientos, por su transmitancia térmica y su control de condensaciones. El DB-HE tampoco se ha leído en este tema."
+     ]
+    },
+    {
+     "titulo": "6. Prescripciones técnicas y materiales",
+     "parrafos": [
+      "El DB-SE-F exige que el proyecto considere la clase de exposición de cada elemento de fábrica. La asignación debe tener en cuenta el entorno, como la orientación, la salinidad del medio y el ataque químico, y también la severidad de la exposición local a la humedad: la situación del elemento en el edificio, la protección que ofrecen los aleros, las cornisas y las albardillas con un goterón bien dimensionado, y el efecto de los revestimientos y los chapados protectores (DB-SE-F, apartado 3.1, punto 2).",
+      "Si se usa un acabado exterior impermeable al agua de lluvia, debe ser permeable al vapor para evitar condensaciones en la masa del muro, en los términos del DB-HE (apartado 3.1, punto 3). Esta regla es la que resuelve la contradicción entre la estanqueidad frente a la lluvia y la salida del vapor de agua del interior.",
+      "Los morteros de junta, las piezas y los revestimientos son los materiales principales. Las piezas se suministran con una declaración del suministrador sobre su resistencia y su categoría de fabricación (apartado 8.1.1, punto 1). Las piezas de categoría I tienen una resistencia declarada con una probabilidad de no ser alcanzada inferior al 5 %, y el fabricante aporta la documentación que acredita ese valor (punto 3).",
+      "El DB-SE-F también regula el tratamiento de las piezas: las de cerámica, excepto las completamente hidrofugadas o las de succión muy baja, se humedecen antes de ejecutar la fábrica, por aspersión o inmersión, hasta que no absorban ni aporten agua al mortero (apartado 7.1.1, punto 1). Un ladrillo seco absorbe el agua del mortero y lo debilita; uno saturado lo diluye. Por eso la humectación controlada es una regla de ejecución y no un detalle."
+     ]
+    },
+    {
+     "titulo": "7. Procesos de ejecución de la fábrica",
+     "parrafos": [
+      "Las piezas se colocan generalmente a restregón sobre una tortada de mortero hasta que el mortero rebose por la llaga y el tendel. No se mueve ninguna pieza después del restregón, y si es necesario corregir su posición, se retira la pieza y el mortero (DB-SE-F, apartado 7.1.2, punto 1). Las piezas con machihembrado lateral se colocan verticalmente sobre la junta horizontal, haciendo tope con el machihembrado, para formar llagas a hueso.",
+      "Una llaga se considera llena si el mortero macizo el grueso total de la pieza en al menos el 40 % de su tizón; en caso contrario, se considera hueca (apartado 7.1.3, punto 1). El mortero debe llenar totalmente las juntas de tendel, salvo en el caso de tendel hueco, y las llagas, según el tipo de pieza (punto 2). El llagueado se realiza mientras el mortero está fresco (punto 4).",
+      "En muros de espesor menor de 200 mm no se rehundirán las juntas sin autorización expresa (apartado 7.1.3, punto 5). Los dinteles, es decir, los elementos horizontales sobre los huecos, deben tener una armadura de continuidad sobre los apoyos no inferior al 50 % de la armadura del centro del vano, y la del centro debe prolongarse hasta los apoyos al menos un 25 % de su sección (apartado 7.2, puntos 1 y 2).",
+      "Las fábricas de piedra y de ladrillo tienen reglas de ejecución distintas. La fábrica sustentada se enlaza con la estructura general por medio de anclajes y encadenados,. Este enlace es el que la exclusión de los muros sin encadenados protege en el apartado 1.1."
+     ]
+    },
+    {
+     "titulo": "8. Control de la ejecución y de la recepción",
+     "parrafos": [
+      "El control de la ejecución de los muros comprende la recepción de las piezas y del mortero y el control de la ejecución propiamente dicho. El DB-SE-F remite a documentos específicos la recepción de cementos y de hormigones, y se centra en la recepción de las piezas (apartado 8.1, punto 1).",
+      "Las piezas de piedra natural deben tener su procedencia confirmada y sus características comprobadas según el proyecto, constatando que la piedra está sana y sin fracturas (apartado 8.1.1, punto 2). Las piezas de categoría I deben tener la resistencia declarada que el fabricante documenta (punto 3).",
+      "El control de la ejecución lo realiza el director de la ejecución de la obra, que verifica el cumplimiento del proyecto y de las instrucciones de la dirección facultativa, además de las comprobaciones que el pliego fije. El control se apoya en el artículo 7.3 del CTE para la ejecución y en el artículo 7.4 para la obra terminada (CTE, art. 7).",
+      "Para la obra terminada, el CTE exige las pruebas de servicio previstas en el proyecto y las exigidas por la legislación, y que el director de la ejecución deje constancia de ello en la documentación final de la obra (CTE, art. 7.4). Esta documentación es la que sirve de base al plan de mantenimiento del edificio (CTE, art. 8.1)."
+     ]
+    },
+    {
+     "titulo": "9. Uso, conservación y mantenimiento",
+     "parrafos": [
+      "El DB-SE-F trata el mantenimiento en su apartado 9. El plan de mantenimiento establece las revisiones a las que debe someterse el edificio durante su periodo de servicio (apartado 9, punto 1). Tras cada revisión se valora la importancia de las alteraciones encontradas, tanto desde el punto de vista de su estabilidad como de la aptitud al servicio (punto 2).",
+      "Las alteraciones que producen pérdida de durabilidad requieren intervención para evitar que degeneren en alteraciones que afecten a la estabilidad (apartado 9, punto 3). La intervención se determina con un análisis estructural, la toma de muestras, los ensayos o las pruebas de carga que sean necesarios, y los cálculos oportunos (punto 4).",
+      "Las fisuras, los desplomes, los desconchados y la humedad en los paramentos son las manifestaciones más habituales. Su tratamiento depende de su origen: si la humedad procede del exterior, el problema está en el cerramiento y en la exigencia HS 1; si las fisuras afectan a los dinteles o a los arcos, el problema es estructural y requiere el análisis del apartado 9 del DB-SE-F.",
+      "Para la responsabilidad, la LOE hace responder durante diez años de los daños materiales por vicios o defectos que afecten a los muros de carga, cuando comprometan la resistencia mecánica y la estabilidad (LOE, art. 17.1.a). Los defectos de los elementos constructivos que incumplan los requisitos de habitabilidad del artículo 3 tienen un plazo de tres años (LOE, art. 17.1.b), lo que afecta a cerramientos y particiones.",
+      "En los muros de carga, el mantenimiento incluye vigilar los dinteles sobre los huecos, las juntas de los cerramientos exteriores y los puntos de apoyo de los forjados, porque son los lugares donde aparecen primero las fisuras de origen estructural. Una fisura inclinada en la fábrica o una fisura vertical que recorre varias plantas exige una valoración por el técnico antes de cualquier actuación, según el procedimiento del apartado 9 del DB-SE-F."
+     ]
+    },
+    {
+     "titulo": "10. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "Los riesgos de la fábrica en obra son el desplome de muros no arriostrados, la caída de personas y materiales desde los andamios y los paños, el corte con las piezas y el polvo de la cerámica y del hormigón. La evaluación de riesgos se apoya en la LPRL, cuyo artículo 16 regula el plan de prevención; de ese artículo solo se ha comprobado el inicio en el repositorio.",
+      "El Real Decreto 1627/1997 establece las prescripciones específicas. Su anexo IV, apartado 11.c, exige adoptar medidas para proteger a los trabajadores contra los peligros derivados de la fragilidad o inestabilidad temporal de la obra. Esta regla se aplica a los muros recién levantados, que necesitan arriostramiento hasta que los forjados los estabilicen. Los trabajos en tejados y cubiertas tienen reglas propias en el apartado 12.b.",
+      "El estudio de seguridad y salud, o el estudio básico cuando no se alcanzan los supuestos del artículo 4.1, debe recoger estas medidas con su presupuesto (RD 1627/1997, arts. 4 y 5). El plan de seguridad de cada contratista lo desarrolla y debe aprobarse antes de empezar la obra (art. 7). Los andamios y los medios auxiliares tienen previsiones propias en el anexo IV, que no se han desarrollado en este tema."
+     ]
+    },
+    {
+     "titulo": "11. Criterios de medición y factores del precio",
+     "parrafos": [
+      "Los muros se miden por metro cuadrado de superficie, con el espesor de la fábrica y la clase de pieza. Los cerramientos se miden por metro cuadrado, con sus capas, su aislamiento y su revestimiento. Las particiones, por metro cuadrado, con su sistema de montaje. Los arcos y las bóvedas se miden por metro cúbico de fábrica o por metro cuadrado de superficie revestida, según el proyecto. Los dinteles, por metro lineal o por unidad, y las armaduras de continuidad, por kilogramo.",
+      "Los factores que influyen en el precio son el tipo y el grupo de pieza, el espesor del muro y sus capas, la protección térmica y acústica exigida, el número de huecos y su dintelado, la cimbra necesaria para los arcos y las bóvedas, la complejidad del trazado y los revestimientos. La exigencia de salubridad y de ahorro de energía puede imponer capas adicionales que encarecen el cerramiento.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). Las normas de medición concretas no se han verificado en el repositorio, por lo que el tema las presenta como principios."
+     ]
+    },
+    {
+     "titulo": "12. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir la diferencia entre los tipos de elemento. Conviene memorizar que el DB-SE-F verifica los muros resistentes de fábrica, que excluye los muros sin encadenados, que los cerramientos se rigen por HS 1 (humedad), HR (ruido) y HE (energía), y que los arcos aparecen como arcos estribados en los extremos del muro.",
+      "Para las piezas, la cifra clave es la resistencia mínima de 5 N/mm² y la clasificación en grupos según sus huecos (tabla 4.1). Para la ejecución, la regla del 40 % del tizón para llagas llenas y el espesor de 200 mm como límite del rehundido de juntas. Para el mantenimiento, la secuencia revisión, valoración, intervención.",
+      "Los errores habituales son tres. El primero es aplicar el DB-SE-F a un muro sin encadenados, que queda excluido. El segundo es confundir el aislamiento térmico, que el DB-SE-F no trata, con la seguridad estructural. El tercero es afirmar que las bóvedas tienen un capítulo específico en el DB-SE-F, cuando los apartados verificados no lo contienen.",
+      "Para un caso práctico de un edificio de viviendas con muros de carga de ladrillo, el orden de análisis es: confirmar que existen encadenados con los forjados; clasificar las piezas en grupo y comprobar su resistencia; asignar la clase de exposición a cada muro según su situación; comprobar la humectación de las piezas, el relleno de juntas y los dinteles; y verificar los requisitos de humedad, ruido y energía del cerramiento y de las particiones."
+     ]
+    },
+    {
+     "titulo": "13. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en el documento oficial descargado de codigotecnico.org: el DB-SE-F en sus apartados 1.1 y 1.2 (en parte), 3.1, 4.1 (tabla 4.1 y puntos 1, 3 y 4), 5.4.4, 6.1 (punto 1), 7.1.1, 7.1.2, 7.1.3 (puntos 1, 2, 4 y 5), 7.2, 8.1 y 9; el artículo 10 del CTE; los artículos 13.1, 14 y 15 del CTE; el artículo 7 del CTE; el artículo 17.1 de la LOE; y el anexo IV del RD 1627/1997, apartados 11.c y 12.b.",
+      "No se ha leído el DB-HS en su sección HS 1, ni el DB-HR, ni el DB-HE. Por tanto, los parámetros de aislamiento acústico, de transmitancia térmica y de protección frente a la humedad del cerramiento se presentan solo como exigencias. Tampoco se ha leído el capítulo de cálculo de los muros del DB-SE-F, ni el capítulo 5 completo.",
+      "No se ha identificado en el repositorio un capítulo de bóvedas en el DB-SE-F. Las normas de medición y los criterios de precios no se han consultado. La EHE-08 y el Código Estructural no se aplican a la fábrica, porque su ámbito se limita a hormigón, acero y mixtas."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/DB-SE-F.pdf",
+    "leyes/DB-HS-salubridad.pdf",
     "leyes/BOE-A-1999-21567.pdf",
     "leyes/BOE-A-1997-22614.pdf",
     "leyes/BOE-A-1995-24292.pdf"
