@@ -286,5 +286,77 @@
   "correcta": 0,
   "explicacion": "La cesión de datos exige condiciones y protocolos previos.",
   "referencia": "Art. 155 LRJSP"
+ },
+ {
+  "pregunta": "¿Qué componentes forman la arquitectura de Von Neumann?",
+  "opciones": [
+   "CPU, memoria, dispositivos de entrada y salida y buses",
+   "Solo teclado y pantalla",
+   "Solo disco duro y red",
+   "Solo impresora y escáner"
+  ],
+  "correcta": 0,
+  "explicacion": "La arquitectura de Von Neumann se compone de unidad central, memoria, entrada/salida y buses.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Qué tipo de memoria es volátil?",
+  "opciones": [
+   "La memoria ROM",
+   "La memoria RAM",
+   "El disco duro",
+   "La memoria flash"
+  ],
+  "correcta": 1,
+  "explicacion": "La RAM pierde su contenido al cortar la alimentación, a diferencia de la ROM o los discos.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Cuántas capas tiene el modelo OSI?",
+  "opciones": [
+   "Cuatro",
+   "Cinco",
+   "Siete",
+   "Tres"
+  ],
+  "correcta": 2,
+  "explicacion": "El modelo de referencia OSI consta de siete capas.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Cuántas capas tiene el modelo TCP/IP habitual?",
+  "opciones": [
+   "Siete",
+   "Tres",
+   "Seis",
+   "Cuatro"
+  ],
+  "correcta": 3,
+  "explicacion": "El modelo TCP/IP suele describirse con cuatro capas.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Qué arquitectura separa al cliente que solicita servicios del servidor que los presta?",
+  "opciones": [
+   "Cliente-servidor",
+   "Peer to peer puro",
+   "Monolítica sin red",
+   "Mainframe aislado"
+  ],
+  "correcta": 0,
+  "explicacion": "En la arquitectura cliente-servidor, el cliente solicita y el servidor responde.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Cuántos bits tiene un byte?",
+  "opciones": [
+   "Cuatro",
+   "Ocho",
+   "Dieciséis",
+   "Dos"
+  ],
+  "correcta": 1,
+  "explicacion": "Un byte está formado por ocho bits.",
+  "referencia": "Tema c22"
  }
 ]

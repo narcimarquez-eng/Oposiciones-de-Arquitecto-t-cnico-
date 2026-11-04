@@ -1,28 +1,362 @@
 [
-{"pregunta":"¿Quién elige al Presidente de la Junta de Andalucía?","opciones":["Los ciudadanos directamente","El Parlamento de entre sus miembros","El Rey","El Consejo de Gobierno"],"correcta":1,"explicacion":"El Presidente de la Junta es elegido por el Parlamento de entre sus miembros.","referencia":"Art. 118.1 EA Andalucía"},
-{"pregunta":"¿Quién propone el candidato a la Presidencia de la Junta?","opciones":["El Presidente del Parlamento, tras consultar a los portavoces","El Consejo de Gobierno","El Rey","El Defensor del Pueblo Andaluz"],"correcta":0,"explicacion":"El Presidente del Parlamento propone candidato tras consultar a los portavoces.","referencia":"Art. 118.2 EA Andalucía"},
-{"pregunta":"¿Cuánto tiempo después de la primera votación se celebra la nueva votación para elegir al Presidente?","opciones":["24 horas","48 horas","Una semana","Un mes"],"correcta":1,"explicacion":"La nueva votación se celebra 48 horas después.","referencia":"Art. 118.3 EA Andalucía"},
-{"pregunta":"¿Qué mayoría basta en la segunda votación para elegir al Presidente de la Junta?","opciones":["Mayoría absoluta","Mayoría simple","Dos tercios","Tres quintos"],"correcta":1,"explicacion":"En la nueva votación basta mayoría simple.","referencia":"Art. 118.3 EA Andalucía"},
-{"pregunta":"¿Quién designa y separa a los Consejeros del Gobierno andaluz?","opciones":["El Parlamento","El Presidente de la Junta","El Rey","El Defensor del Pueblo"],"correcta":1,"explicacion":"El Presidente designa y separa a los Consejeros.","referencia":"Art. 117.1 EA Andalucía"},
-{"pregunta":"¿Qué representación ostenta el Presidente de la Junta?","opciones":["La representación de los partidos","La suprema representación de la Comunidad","La representación del Estado en Andalucía","La representación de los municipios"],"correcta":1,"explicacion":"El Presidente ostenta la suprema representación de la Comunidad Autónoma.","referencia":"Art. 117.1 EA Andalucía"},
-{"pregunta":"¿Puede el Presidente de la Junta delegar sus funciones ejecutivas?","opciones":["No, nunca","Sí, temporalmente en un Vicepresidente o un Consejero","Sí, de forma permanente en el Parlamento","Solo en el Defensor del Pueblo"],"correcta":1,"explicacion":"El Presidente puede delegar temporalmente funciones ejecutivas propias.","referencia":"Art. 117.2 EA Andalucía"},
-{"pregunta":"¿Qué naturaleza tiene el Consejo de Gobierno andaluz?","opciones":["Órgano judicial","Órgano colegiado de dirección política","Órgano consultivo independiente","Órgano del Parlamento"],"correcta":1,"explicacion":"El Consejo de Gobierno es el órgano colegiado de dirección política.","referencia":"Art. 119.2 EA Andalucía"},
-{"pregunta":"¿Qué potestad tiene el Consejo de Gobierno en el ámbito autonómico?","opciones":["Potestad legislativa","Potestad reglamentaria","Potestad judicial","Potestad constituyente"],"correcta":1,"explicacion":"El Consejo de Gobierno tiene potestad reglamentaria en el ámbito autonómico.","referencia":"Art. 119.3 EA Andalucía"},
-{"pregunta":"¿Cuál de estas causas provoca el cese del Presidente de la Junta?","opciones":["Un cambio de domicilio","La pérdida de una cuestión de confianza","Un viaje oficial","Una reunión del Consejo de Gobierno"],"correcta":1,"explicacion":"El cese del Presidente puede producirse por pérdida de una cuestión de confianza, entre otras causas.","referencia":"Art. 120 EA Andalucía"},
-{"pregunta":"¿Puede el Presidente de la Junta ejercer una actividad profesional o empresarial?","opciones":["Sí, sin límites","No, no puede ejercer actividad laboral, profesional ni empresarial","Sí, si lo autoriza el Parlamento","Sí, solo en el sector público"],"correcta":1,"explicacion":"El Presidente y los Consejeros no pueden ejercer ninguna actividad laboral, profesional o empresarial.","referencia":"Art. 121 EA Andalucía"},
-{"pregunta":"¿Qué mayoría se exige para aprobar una cuestión de confianza?","opciones":["Mayoría absoluta","Mayoría simple","Dos tercios","Tres quintos"],"correcta":1,"explicacion":"La cuestión de confianza se otorga por mayoría simple.","referencia":"Art. 125.1 EA Andalucía"},
-{"pregunta":"¿Qué debe hacer el Presidente si se le niega la confianza?","opciones":["Convocar un referéndum","Presentar su dimisión","Disolver el Consejo Consultivo","Pedir un recurso ante el Tribunal Constitucional"],"correcta":1,"explicacion":"Si se niega la confianza, el Presidente presenta su dimisión.","referencia":"Art. 125.2 EA Andalucía"},
-{"pregunta":"¿Quién puede proponer una moción de censura contra el Presidente de la Junta?","opciones":["Un décimo de los parlamentarios","Una cuarta parte de los parlamentarios","La mitad de los parlamentarios","El Consejo de Gobierno"],"correcta":1,"explicacion":"La moción de censura es propuesta por una cuarta parte de los parlamentarios, con candidato.","referencia":"Art. 126.1 EA Andalucía"},
-{"pregunta":"¿Qué mayoría se exige para aprobar una moción de censura en Andalucía?","opciones":["Mayoría simple","Mayoría absoluta","Dos tercios","Unanimidad"],"correcta":1,"explicacion":"La moción de censura requiere mayoría absoluta del Parlamento.","referencia":"Art. 126.1 EA Andalucía"},
-{"pregunta":"¿Quién puede decretar la disolución del Parlamento andaluz?","opciones":["El Defensor del Pueblo","El Presidente de la Junta, tras deliberación del Consejo de Gobierno","El Consejo Consultivo","El Tribunal Constitucional"],"correcta":1,"explicacion":"El Presidente puede decretar la disolución previa deliberación del Consejo de Gobierno.","referencia":"Art. 127.1 EA Andalucía"},
-{"pregunta":"¿Qué órgano es el superior órgano consultivo del Consejo de Gobierno y de la Administración andaluza?","opciones":["El Consejo de Estado","El Consejo Consultivo de Andalucía","El Tribunal de Cuentas","El Consejo General del Poder Judicial"],"correcta":1,"explicacion":"El Consejo Consultivo es el superior órgano consultivo andaluz.","referencia":"Art. 129.1 EA Andalucía"},
-{"pregunta":"¿Qué tipo de autonomía tiene el Consejo Consultivo?","opciones":["Ninguna","Autonomía orgánica y funcional","Solo autonomía presupuestaria","Autonomía militar"],"correcta":1,"explicacion":"El Consejo Consultivo tiene autonomía orgánica y funcional.","referencia":"Art. 129.2 EA Andalucía"},
-{"pregunta":"¿Quién debe elegir al Presidente de la Junta en la primera votación?","opciones":["Mayoría simple","Mayoría absoluta del Parlamento","Mayoría de dos tercios","Mayoría de tres quintos"],"correcta":1,"explicacion":"En la primera votación se exige mayoría absoluta del Parlamento.","referencia":"Art. 118.3 EA Andalucía"},
-{"pregunta":"¿Qué órgano de la Junta es el que dirige y coordina el Consejo de Gobierno?","opciones":["El Parlamento","La Presidencia de la Junta","El Consejo Consultivo","El Defensor del Pueblo"],"correcta":1,"explicacion":"La Presidencia dirige y coordina el Consejo de Gobierno.","referencia":"Art. 117.1 EA Andalucía"},
-{"pregunta":"¿Qué causas de cese del Presidente de la Junta recoge el Estatuto?","opciones":["Elecciones, pérdida de cuestión de confianza o moción de censura, dimisión, incapacidad, condena firme o fallecimiento","Solo la muerte","Solo la dimisión","Solo la pérdida de la mayoría parlamentaria"],"correcta":0,"explicacion":"El Estatuto recoge varias causas de cese del Presidente.","referencia":"Art. 120 EA Andalucía"},
-{"pregunta":"¿Qué órgano tiene la función de dirección política del Gobierno andaluz?","opciones":["El Consejo de Gobierno","El Tribunal Superior","El Defensor del Pueblo","La Cámara de Cuentas"],"correcta":0,"explicacion":"El Consejo de Gobierno es el órgano colegiado de dirección política.","referencia":"Art. 119.2 EA Andalucía"},
-{"pregunta":"¿Qué órgano de la Junta es el responsable de la coordinación de la Administración autonómica?","opciones":["El Parlamento","La Presidencia de la Junta","El Tribunal de Cuentas","El Consejo Consultivo"],"correcta":1,"explicacion":"La Presidencia coordina la Administración de la Comunidad.","referencia":"Art. 117.1 EA Andalucía"},
-{"pregunta":"¿Qué órgano puede disolver el Parlamento según el Estatuto?","opciones":["El Tribunal Constitucional","El Presidente de la Junta","El Consejo Consultivo","El Rey"],"correcta":1,"explicacion":"El Presidente de la Junta puede decretar la disolución del Parlamento.","referencia":"Art. 127.1 EA Andalucía"},
-{"pregunta":"¿Quién puede ejercer la moción de censura contra el Presidente de la Junta?","opciones":["El Consejo de Gobierno","Una cuarta parte de los parlamentarios","El Defensor del Pueblo","El Consejo Consultivo"],"correcta":1,"explicacion":"La moción de censura la propone una cuarta parte de los parlamentarios.","referencia":"Art. 126.1 EA Andalucía"},
-{"pregunta":"¿Qué órgano consultivo tiene autonomía orgánica y funcional en Andalucía?","opciones":["El Consejo Consultivo","La Presidencia","El Parlamento","El Consejo de Gobierno"],"correcta":0,"explicacion":"El Consejo Consultivo tiene autonomía orgánica y funcional.","referencia":"Art. 129.2 EA Andalucía"}
+ {
+  "pregunta": "¿Quién elige al Presidente de la Junta de Andalucía?",
+  "opciones": [
+   "Los ciudadanos directamente",
+   "El Parlamento de entre sus miembros",
+   "El Rey",
+   "El Consejo de Gobierno"
+  ],
+  "correcta": 1,
+  "explicacion": "El Presidente de la Junta es elegido por el Parlamento de entre sus miembros.",
+  "referencia": "Art. 118.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Quién propone el candidato a la Presidencia de la Junta?",
+  "opciones": [
+   "El Presidente del Parlamento, tras consultar a los portavoces",
+   "El Consejo de Gobierno",
+   "El Rey",
+   "El Defensor del Pueblo Andaluz"
+  ],
+  "correcta": 0,
+  "explicacion": "El Presidente del Parlamento propone candidato tras consultar a los portavoces.",
+  "referencia": "Art. 118.2 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Cuánto tiempo después de la primera votación se celebra la nueva votación para elegir al Presidente?",
+  "opciones": [
+   "24 horas",
+   "48 horas",
+   "Una semana",
+   "Un mes"
+  ],
+  "correcta": 1,
+  "explicacion": "La nueva votación se celebra 48 horas después.",
+  "referencia": "Art. 118.3 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué mayoría basta en la segunda votación para elegir al Presidente de la Junta?",
+  "opciones": [
+   "Mayoría absoluta",
+   "Mayoría simple",
+   "Dos tercios",
+   "Tres quintos"
+  ],
+  "correcta": 1,
+  "explicacion": "En la nueva votación basta mayoría simple.",
+  "referencia": "Art. 118.3 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Quién designa y separa a los Consejeros del Gobierno andaluz?",
+  "opciones": [
+   "El Parlamento",
+   "El Presidente de la Junta",
+   "El Rey",
+   "El Defensor del Pueblo"
+  ],
+  "correcta": 1,
+  "explicacion": "El Presidente designa y separa a los Consejeros.",
+  "referencia": "Art. 117.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué representación ostenta el Presidente de la Junta?",
+  "opciones": [
+   "La representación de los partidos",
+   "La suprema representación de la Comunidad",
+   "La representación del Estado en Andalucía",
+   "La representación de los municipios"
+  ],
+  "correcta": 1,
+  "explicacion": "El Presidente ostenta la suprema representación de la Comunidad Autónoma.",
+  "referencia": "Art. 117.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Puede el Presidente de la Junta delegar sus funciones ejecutivas?",
+  "opciones": [
+   "No, nunca",
+   "Sí, temporalmente en un Vicepresidente o un Consejero",
+   "Sí, de forma permanente en el Parlamento",
+   "Solo en el Defensor del Pueblo"
+  ],
+  "correcta": 1,
+  "explicacion": "El Presidente puede delegar temporalmente funciones ejecutivas propias.",
+  "referencia": "Art. 117.2 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué naturaleza tiene el Consejo de Gobierno andaluz?",
+  "opciones": [
+   "Órgano judicial",
+   "Órgano colegiado de dirección política",
+   "Órgano consultivo independiente",
+   "Órgano del Parlamento"
+  ],
+  "correcta": 1,
+  "explicacion": "El Consejo de Gobierno es el órgano colegiado de dirección política.",
+  "referencia": "Art. 119.2 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué potestad tiene el Consejo de Gobierno en el ámbito autonómico?",
+  "opciones": [
+   "Potestad legislativa",
+   "Potestad reglamentaria",
+   "Potestad judicial",
+   "Potestad constituyente"
+  ],
+  "correcta": 1,
+  "explicacion": "El Consejo de Gobierno tiene potestad reglamentaria en el ámbito autonómico.",
+  "referencia": "Art. 119.3 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Cuál de estas causas provoca el cese del Presidente de la Junta?",
+  "opciones": [
+   "Un cambio de domicilio",
+   "La pérdida de una cuestión de confianza",
+   "Un viaje oficial",
+   "Una reunión del Consejo de Gobierno"
+  ],
+  "correcta": 1,
+  "explicacion": "El cese del Presidente puede producirse por pérdida de una cuestión de confianza, entre otras causas.",
+  "referencia": "Art. 120 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Puede el Presidente de la Junta ejercer una actividad profesional o empresarial?",
+  "opciones": [
+   "Sí, sin límites",
+   "No, no puede ejercer actividad laboral, profesional ni empresarial",
+   "Sí, si lo autoriza el Parlamento",
+   "Sí, solo en el sector público"
+  ],
+  "correcta": 1,
+  "explicacion": "El Presidente y los Consejeros no pueden ejercer ninguna actividad laboral, profesional o empresarial.",
+  "referencia": "Art. 121 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué mayoría se exige para aprobar una cuestión de confianza?",
+  "opciones": [
+   "Mayoría absoluta",
+   "Mayoría simple",
+   "Dos tercios",
+   "Tres quintos"
+  ],
+  "correcta": 1,
+  "explicacion": "La cuestión de confianza se otorga por mayoría simple.",
+  "referencia": "Art. 125.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué debe hacer el Presidente si se le niega la confianza?",
+  "opciones": [
+   "Convocar un referéndum",
+   "Presentar su dimisión",
+   "Disolver el Consejo Consultivo",
+   "Pedir un recurso ante el Tribunal Constitucional"
+  ],
+  "correcta": 1,
+  "explicacion": "Si se niega la confianza, el Presidente presenta su dimisión.",
+  "referencia": "Art. 125.2 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Quién puede proponer una moción de censura contra el Presidente de la Junta?",
+  "opciones": [
+   "Un décimo de los parlamentarios",
+   "Una cuarta parte de los parlamentarios",
+   "La mitad de los parlamentarios",
+   "El Consejo de Gobierno"
+  ],
+  "correcta": 1,
+  "explicacion": "La moción de censura es propuesta por una cuarta parte de los parlamentarios, con candidato.",
+  "referencia": "Art. 126.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué mayoría se exige para aprobar una moción de censura en Andalucía?",
+  "opciones": [
+   "Mayoría simple",
+   "Mayoría absoluta",
+   "Dos tercios",
+   "Unanimidad"
+  ],
+  "correcta": 1,
+  "explicacion": "La moción de censura requiere mayoría absoluta del Parlamento.",
+  "referencia": "Art. 126.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Quién puede decretar la disolución del Parlamento andaluz?",
+  "opciones": [
+   "El Defensor del Pueblo",
+   "El Presidente de la Junta, tras deliberación del Consejo de Gobierno",
+   "El Consejo Consultivo",
+   "El Tribunal Constitucional"
+  ],
+  "correcta": 1,
+  "explicacion": "El Presidente puede decretar la disolución previa deliberación del Consejo de Gobierno.",
+  "referencia": "Art. 127.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué órgano es el superior órgano consultivo del Consejo de Gobierno y de la Administración andaluza?",
+  "opciones": [
+   "El Consejo de Estado",
+   "El Consejo Consultivo de Andalucía",
+   "El Tribunal de Cuentas",
+   "El Consejo General del Poder Judicial"
+  ],
+  "correcta": 1,
+  "explicacion": "El Consejo Consultivo es el superior órgano consultivo andaluz.",
+  "referencia": "Art. 129.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué tipo de autonomía tiene el Consejo Consultivo?",
+  "opciones": [
+   "Ninguna",
+   "Autonomía orgánica y funcional",
+   "Solo autonomía presupuestaria",
+   "Autonomía militar"
+  ],
+  "correcta": 1,
+  "explicacion": "El Consejo Consultivo tiene autonomía orgánica y funcional.",
+  "referencia": "Art. 129.2 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Quién debe elegir al Presidente de la Junta en la primera votación?",
+  "opciones": [
+   "Mayoría simple",
+   "Mayoría absoluta del Parlamento",
+   "Mayoría de dos tercios",
+   "Mayoría de tres quintos"
+  ],
+  "correcta": 1,
+  "explicacion": "En la primera votación se exige mayoría absoluta del Parlamento.",
+  "referencia": "Art. 118.3 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué órgano de la Junta es el que dirige y coordina el Consejo de Gobierno?",
+  "opciones": [
+   "El Parlamento",
+   "La Presidencia de la Junta",
+   "El Consejo Consultivo",
+   "El Defensor del Pueblo"
+  ],
+  "correcta": 1,
+  "explicacion": "La Presidencia dirige y coordina el Consejo de Gobierno.",
+  "referencia": "Art. 117.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué causas de cese del Presidente de la Junta recoge el Estatuto?",
+  "opciones": [
+   "Elecciones, pérdida de cuestión de confianza o moción de censura, dimisión, incapacidad, condena firme o fallecimiento",
+   "Solo la muerte",
+   "Solo la dimisión",
+   "Solo la pérdida de la mayoría parlamentaria"
+  ],
+  "correcta": 0,
+  "explicacion": "El Estatuto recoge varias causas de cese del Presidente.",
+  "referencia": "Art. 120 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué órgano tiene la función de dirección política del Gobierno andaluz?",
+  "opciones": [
+   "El Consejo de Gobierno",
+   "El Tribunal Superior",
+   "El Defensor del Pueblo",
+   "La Cámara de Cuentas"
+  ],
+  "correcta": 0,
+  "explicacion": "El Consejo de Gobierno es el órgano colegiado de dirección política.",
+  "referencia": "Art. 119.2 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué órgano de la Junta es el responsable de la coordinación de la Administración autonómica?",
+  "opciones": [
+   "El Parlamento",
+   "La Presidencia de la Junta",
+   "El Tribunal de Cuentas",
+   "El Consejo Consultivo"
+  ],
+  "correcta": 1,
+  "explicacion": "La Presidencia coordina la Administración de la Comunidad.",
+  "referencia": "Art. 117.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué órgano puede disolver el Parlamento según el Estatuto?",
+  "opciones": [
+   "El Tribunal Constitucional",
+   "El Presidente de la Junta",
+   "El Consejo Consultivo",
+   "El Rey"
+  ],
+  "correcta": 1,
+  "explicacion": "El Presidente de la Junta puede decretar la disolución del Parlamento.",
+  "referencia": "Art. 127.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Quién puede ejercer la moción de censura contra el Presidente de la Junta?",
+  "opciones": [
+   "El Consejo de Gobierno",
+   "Una cuarta parte de los parlamentarios",
+   "El Defensor del Pueblo",
+   "El Consejo Consultivo"
+  ],
+  "correcta": 1,
+  "explicacion": "La moción de censura la propone una cuarta parte de los parlamentarios.",
+  "referencia": "Art. 126.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué órgano consultivo tiene autonomía orgánica y funcional en Andalucía?",
+  "opciones": [
+   "El Consejo Consultivo",
+   "La Presidencia",
+   "El Parlamento",
+   "El Consejo de Gobierno"
+  ],
+  "correcta": 0,
+  "explicacion": "El Consejo Consultivo tiene autonomía orgánica y funcional.",
+  "referencia": "Art. 129.2 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Quién designa al Presidente de la Junta de Andalucía?",
+  "opciones": [
+   "El Parlamento, de entre sus miembros, y lo nombra el Rey",
+   "El Presidente del Gobierno",
+   "Los consejeros entre sí",
+   "El Tribunal Superior de Justicia"
+  ],
+  "correcta": 0,
+  "explicacion": "El Presidente de la Junta es elegido por el Parlamento de entre sus miembros y nombrado por el Rey.",
+  "referencia": "EA 2007, art. 118"
+ },
+ {
+  "pregunta": "¿Qué órgano ejerce la función ejecutiva en Andalucía junto al Presidente?",
+  "opciones": [
+   "El Consejo Consultivo",
+   "El Consejo de Gobierno",
+   "El Parlamento",
+   "El Tribunal de Cuentas"
+  ],
+  "correcta": 1,
+  "explicacion": "El Consejo de Gobierno dirige la acción ejecutiva junto al Presidente.",
+  "referencia": "EA 2007, art. 118"
+ },
+ {
+  "pregunta": "¿Quién dirige la acción del Consejo de Gobierno en Andalucía?",
+  "opciones": [
+   "El Consejero de Hacienda",
+   "El Presidente del Parlamento",
+   "El Defensor del Pueblo andaluz",
+   "El Presidente de la Junta de Andalucía"
+  ],
+  "correcta": 3,
+  "explicacion": "El Presidente dirige la acción del Consejo de Gobierno y coordina las consejerías.",
+  "referencia": "Estatuto de Autonomía para Andalucía (LO 2/2007)"
+ },
+ {
+  "pregunta": "¿Qué mecanismo permite al Parlamento exigir responsabilidad política al Presidente de la Junta?",
+  "opciones": [
+   "La moción de censura",
+   "La cuestión de confianza del Defensor del Pueblo",
+   "La revocación por el Consejo Consultivo",
+   "El recurso de amparo"
+  ],
+  "correcta": 0,
+  "explicacion": "El Parlamento puede exigir responsabilidad política mediante moción de censura.",
+  "referencia": "EA 2007, art. 118"
+ }
 ]

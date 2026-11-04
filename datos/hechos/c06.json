@@ -1,32 +1,422 @@
 [
-{"pregunta":"¿Qué órganos integran la Junta de Andalucía?","opciones":["El Parlamento, la Presidencia y el Consejo de Gobierno","El Consejo de Gobierno y el Tribunal Superior","El Parlamento y el Senado","La Presidencia y el Defensor del Pueblo"],"correcta":0,"explicacion":"La Junta está integrada por el Parlamento, la Presidencia y el Consejo de Gobierno.","referencia":"Art. 99.1 EA Andalucía"},
-{"pregunta":"¿Quién representa al pueblo andaluz?","opciones":["El Consejo de Gobierno","El Parlamento","El Presidente de la Junta","El Tribunal Superior de Justicia"],"correcta":1,"explicacion":"El Parlamento representa al pueblo andaluz.","referencia":"Art. 100 EA Andalucía"},
-{"pregunta":"¿Cuál es el número mínimo de diputados del Parlamento andaluz y con qué sufragio se eligen?","opciones":["100 diputados por sufragio indirecto","109 diputados por sufragio universal","109 diputados por sufragio censitario","150 diputados por sufragio universal"],"correcta":1,"explicacion":"El Parlamento tiene al menos 109 diputados, elegidos por sufragio universal.","referencia":"Art. 101.1 EA Andalucía"},
-{"pregunta":"¿Pueden los diputados andaluces recibir instrucciones de su partido sobre su voto?","opciones":["Sí, siempre","No, no tienen mandato imperativo","Solo en los presupuestos","Solo si lo aprueba el Consejo de Gobierno"],"correcta":1,"explicacion":"Los diputados no tienen mandato imperativo.","referencia":"Art. 101.1 EA Andalucía"},
-{"pregunta":"¿Cuánto dura el mandato del Parlamento andaluz?","opciones":["Dos años","Tres años","Cuatro años","Cinco años"],"correcta":2,"explicacion":"El mandato del Parlamento es de cuatro años.","referencia":"Art. 101.2 EA Andalucía"},
-{"pregunta":"¿Cuál es el límite de diferencia de diputados entre provincias?","opciones":["Ninguno","Ninguna provincia puede tener más del doble de diputados que otra","Ninguna puede tener más de diez diputados de diferencia","Todas deben tener los mismos diputados"],"correcta":1,"explicacion":"Ninguna provincia puede tener más del doble de diputados que otra.","referencia":"Art. 104.1 EA Andalucía"},
-{"pregunta":"¿En qué plazo deben celebrarse las elecciones tras la expiración del mandato?","opciones":["Entre 15 y 30 días","Entre 30 y 60 días","Entre 60 y 90 días","Entre 90 y 120 días"],"correcta":1,"explicacion":"Las elecciones se celebran entre 30 y 60 días tras la expiración del mandato.","referencia":"Art. 104.3 EA Andalucía"},
-{"pregunta":"¿Qué mayoría se exige para aprobar o reformar el Reglamento del Parlamento?","opciones":["Mayoría simple","Mayoría absoluta","Dos tercios","Tres quintos"],"correcta":1,"explicacion":"El Reglamento del Parlamento se aprueba o reforma por mayoría absoluta.","referencia":"Art. 102.2 EA Andalucía"},
-{"pregunta":"¿Cuántos periodos ordinarios de sesiones tiene el Parlamento al año?","opciones":["Uno","Dos","Tres","Cuatro"],"correcta":1,"explicacion":"El Parlamento tiene dos periodos ordinarios de sesiones al año.","referencia":"Art. 103.3 EA Andalucía"},
-{"pregunta":"¿Qué autonomías tiene el Parlamento andaluz?","opciones":["Reglamentaria, presupuestaria, administrativa y disciplinaria","Solo reglamentaria","Solo presupuestaria","Ninguna, depende del Gobierno"],"correcta":0,"explicacion":"El Parlamento tiene autonomía reglamentaria, presupuestaria, administrativa y disciplinaria.","referencia":"Art. 102.1 EA Andalucía"},
-{"pregunta":"¿Qué funciones tiene el Parlamento según el Estatuto?","opciones":["Solo legislar","Legislar, controlar al Consejo de Gobierno, aprobar presupuestos y autorizar tributos y deuda","Solo elegir al Presidente de la Junta","Solo nombrar magistrados"],"correcta":1,"explicacion":"Son funciones del Parlamento legislar, controlar al Consejo de Gobierno, aprobar presupuestos y autorizar tributos y deuda.","referencia":"Art. 106 EA Andalucía"},
-{"pregunta":"¿En qué plazo deben convalidarse los decretos-leyes del Gobierno andaluz?","opciones":["Diez días","Quince días","Treinta días","Sesenta días"],"correcta":2,"explicacion":"Los decretos-leyes deben convalidarse en treinta días.","referencia":"Art. 110 EA Andalucía"},
-{"pregunta":"¿Qué materias no pueden regular los decretos-leyes andaluces?","opciones":["Los presupuestos","Los derechos del Estatuto, el régimen electoral y las instituciones","La organización de la administración","La función pública"],"correcta":1,"explicacion":"Los decretos-leyes no pueden afectar a los derechos del Estatuto, al régimen electoral ni a las instituciones.","referencia":"Art. 110 EA Andalucía"},
-{"pregunta":"¿Quién controla la constitucionalidad de las normas andaluzas con fuerza de ley?","opciones":["El Tribunal Supremo","El Tribunal Constitucional","El Tribunal de Cuentas","El Consejo Consultivo"],"correcta":1,"explicacion":"El control de constitucionalidad de las normas autonómicas con fuerza de ley corresponde al Tribunal Constitucional.","referencia":"Art. 115 EA Andalucía"},
-{"pregunta":"¿Qué órgano culmina la organización judicial andaluza?","opciones":["El Tribunal Supremo","El Tribunal Superior de Justicia de Andalucía","El Tribunal Constitucional","La Audiencia Nacional"],"correcta":1,"explicacion":"El TSJA culmina la organización judicial en Andalucía.","referencia":"Art. 140 EA Andalucía"},
-{"pregunta":"¿Qué órgano es la última instancia de los procesos iniciados en Andalucía?","opciones":["El Tribunal Constitucional","El Tribunal Superior de Justicia de Andalucía","El Tribunal Supremo","El Defensor del Pueblo"],"correcta":1,"explicacion":"El TSJA es la última instancia de los procesos iniciados en Andalucía.","referencia":"Art. 140 EA Andalucía"},
-{"pregunta":"¿Qué naturaleza tiene el Defensor del Pueblo Andaluz?","opciones":["Un órgano del Consejo de Gobierno","Un comisionado del Parlamento","Un órgano judicial","Un órgano del Gobierno de la Nación"],"correcta":1,"explicacion":"El Defensor del Pueblo Andaluz es un comisionado del Parlamento.","referencia":"Art. 128 EA Andalucía"},
-{"pregunta":"¿De qué depende orgánicamente la Cámara de Cuentas de Andalucía?","opciones":["Del Gobierno de la Nación","Del Parlamento de Andalucía","Del Tribunal Superior de Justicia","Del Consejo Consultivo"],"correcta":1,"explicacion":"La Cámara de Cuentas depende orgánicamente del Parlamento.","referencia":"Art. 130 EA Andalucía"},
-{"pregunta":"¿Qué función tiene la Cámara de Cuentas?","opciones":["Dictar sentencias","Control externo de la actividad económica y financiera","Elegir al Presidente de la Junta","Legislar sobre tributos"],"correcta":1,"explicacion":"La Cámara de Cuentas ejerce el control externo.","referencia":"Art. 130 EA Andalucía"},
-{"pregunta":"¿Cuál es la estructura de la Mesa y órganos del Parlamento?","opciones":["Presidente, Mesa y Diputación Permanente","Presidente, Senado y Tribunal","Mesa, Consejo y Comisión de Justicia","Presidente y Consejo Consultivo"],"correcta":0,"explicacion":"El Parlamento tiene Presidente, Mesa y Diputación Permanente.","referencia":"Art. 103.1 EA Andalucía"},
-{"pregunta":"¿Qué órgano controla al Consejo de Gobierno andaluz?","opciones":["El Parlamento","El Tribunal de Cuentas","El Defensor del Pueblo","El Tribunal Supremo"],"correcta":0,"explicacion":"El Parlamento impulsa y controla al Consejo de Gobierno.","referencia":"Art. 106 EA Andalucía"},
-{"pregunta":"¿Qué órgano es el Parlamento de Andalucía en la Junta?","opciones":["Un órgano ejecutivo","Un órgano legislativo que integra la Junta","Un órgano judicial","Un órgano consultivo"],"correcta":1,"explicacion":"El Parlamento es el órgano legislativo que integra la Junta de Andalucía.","referencia":"Art. 99.1 EA Andalucía"},
-{"pregunta":"¿Qué mayoría se exige para elegir al Defensor del Pueblo Andaluz?","opciones":["Mayoría simple","Mayoría cualificada del Parlamento","Unanimidad","Mayoría del Consejo de Gobierno"],"correcta":1,"explicacion":"El Defensor del Pueblo Andaluz se elige por mayoría cualificada del Parlamento.","referencia":"Art. 128 EA Andalucía"},
-{"pregunta":"¿Qué instrumento ejecuta las funciones del Parlamento en la Junta?","opciones":["Los decretos-leyes","Las sesiones ordinarias","Las resoluciones del Consejo Consultivo","Los contratos administrativos"],"correcta":1,"explicacion":"El Parlamento celebra dos periodos ordinarios de sesiones al año para ejercer sus funciones.","referencia":"Art. 103.3 EA Andalucía"},
-{"pregunta":"¿Qué tipo de función tiene la Diputación Permanente del Parlamento andaluz?","opciones":["Legislar en nombre del Parlamento","Ejercer funciones del Parlamento fuera de los periodos de sesiones","Elegir al Presidente de la Junta","Juzgar los delitos de los diputados"],"correcta":1,"explicacion":"La Diputación Permanente actúa cuando el Parlamento no está en periodo de sesiones.","referencia":"Art. 103.1 EA Andalucía"},
-{"pregunta":"¿Qué órgano puede aprobar los presupuestos de la Comunidad Autónoma?","opciones":["El Consejo de Gobierno","El Parlamento de Andalucía","El Presidente de la Junta","El Tribunal de Cuentas"],"correcta":1,"explicacion":"El Parlamento aprueba los presupuestos de la Comunidad.","referencia":"Art. 106 EA Andalucía"},
-{"pregunta":"¿Qué órgano autoriza los tributos y la deuda de Andalucía?","opciones":["El Parlamento de Andalucía","El Consejo de Gobierno","El Consejo Consultivo","El Tribunal Constitucional"],"correcta":0,"explicacion":"El Parlamento autoriza tributos y deuda.","referencia":"Art. 106 EA Andalucía"},
-{"pregunta":"¿Qué derecho tienen los decretos-leyes respecto al Parlamento?","opciones":["No necesitan convalidación","Deben convalidarse en treinta días","Deben aprobarse por referéndum","Deben ser aprobados por el Senado"],"correcta":1,"explicacion":"Los decretos-leyes deben convalidarse por el Parlamento en treinta días.","referencia":"Art. 110 EA Andalucía"},
-{"pregunta":"¿Qué figura interviene cuando la Comunidad andaluza tiene conflictos de competencia?","opciones":["El Tribunal Constitucional","El Defensor del Pueblo Andaluz","El Consejo Consultivo","La Cámara de Cuentas"],"correcta":0,"explicacion":"El Tribunal Constitucional resuelve los conflictos de competencia entre el Estado y las Comunidades.","referencia":"Art. 161.1 c) CE"},
-{"pregunta":"¿Qué órgano integra la Junta de Andalucía además del Parlamento?","opciones":["El Tribunal Supremo","La Presidencia y el Consejo de Gobierno","El Consejo General del Poder Judicial","El Senado"],"correcta":1,"explicacion":"La Junta está integrada por el Parlamento, la Presidencia y el Consejo de Gobierno.","referencia":"Art. 99.1 EA Andalucía"}
+ {
+  "pregunta": "¿Qué órganos integran la Junta de Andalucía?",
+  "opciones": [
+   "El Parlamento, la Presidencia y el Consejo de Gobierno",
+   "El Consejo de Gobierno y el Tribunal Superior",
+   "El Parlamento y el Senado",
+   "La Presidencia y el Defensor del Pueblo"
+  ],
+  "correcta": 0,
+  "explicacion": "La Junta está integrada por el Parlamento, la Presidencia y el Consejo de Gobierno.",
+  "referencia": "Art. 99.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Quién representa al pueblo andaluz?",
+  "opciones": [
+   "El Consejo de Gobierno",
+   "El Parlamento",
+   "El Presidente de la Junta",
+   "El Tribunal Superior de Justicia"
+  ],
+  "correcta": 1,
+  "explicacion": "El Parlamento representa al pueblo andaluz.",
+  "referencia": "Art. 100 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Cuál es el número mínimo de diputados del Parlamento andaluz y con qué sufragio se eligen?",
+  "opciones": [
+   "100 diputados por sufragio indirecto",
+   "109 diputados por sufragio universal",
+   "109 diputados por sufragio censitario",
+   "150 diputados por sufragio universal"
+  ],
+  "correcta": 1,
+  "explicacion": "El Parlamento tiene al menos 109 diputados, elegidos por sufragio universal.",
+  "referencia": "Art. 101.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Pueden los diputados andaluces recibir instrucciones de su partido sobre su voto?",
+  "opciones": [
+   "Sí, siempre",
+   "No, no tienen mandato imperativo",
+   "Solo en los presupuestos",
+   "Solo si lo aprueba el Consejo de Gobierno"
+  ],
+  "correcta": 1,
+  "explicacion": "Los diputados no tienen mandato imperativo.",
+  "referencia": "Art. 101.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Cuánto dura el mandato del Parlamento andaluz?",
+  "opciones": [
+   "Dos años",
+   "Tres años",
+   "Cuatro años",
+   "Cinco años"
+  ],
+  "correcta": 2,
+  "explicacion": "El mandato del Parlamento es de cuatro años.",
+  "referencia": "Art. 101.2 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Cuál es el límite de diferencia de diputados entre provincias?",
+  "opciones": [
+   "Ninguno",
+   "Ninguna provincia puede tener más del doble de diputados que otra",
+   "Ninguna puede tener más de diez diputados de diferencia",
+   "Todas deben tener los mismos diputados"
+  ],
+  "correcta": 1,
+  "explicacion": "Ninguna provincia puede tener más del doble de diputados que otra.",
+  "referencia": "Art. 104.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿En qué plazo deben celebrarse las elecciones tras la expiración del mandato?",
+  "opciones": [
+   "Entre 15 y 30 días",
+   "Entre 30 y 60 días",
+   "Entre 60 y 90 días",
+   "Entre 90 y 120 días"
+  ],
+  "correcta": 1,
+  "explicacion": "Las elecciones se celebran entre 30 y 60 días tras la expiración del mandato.",
+  "referencia": "Art. 104.3 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué mayoría se exige para aprobar o reformar el Reglamento del Parlamento?",
+  "opciones": [
+   "Mayoría simple",
+   "Mayoría absoluta",
+   "Dos tercios",
+   "Tres quintos"
+  ],
+  "correcta": 1,
+  "explicacion": "El Reglamento del Parlamento se aprueba o reforma por mayoría absoluta.",
+  "referencia": "Art. 102.2 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Cuántos periodos ordinarios de sesiones tiene el Parlamento al año?",
+  "opciones": [
+   "Uno",
+   "Dos",
+   "Tres",
+   "Cuatro"
+  ],
+  "correcta": 1,
+  "explicacion": "El Parlamento tiene dos periodos ordinarios de sesiones al año.",
+  "referencia": "Art. 103.3 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué autonomías tiene el Parlamento andaluz?",
+  "opciones": [
+   "Reglamentaria, presupuestaria, administrativa y disciplinaria",
+   "Solo reglamentaria",
+   "Solo presupuestaria",
+   "Ninguna, depende del Gobierno"
+  ],
+  "correcta": 0,
+  "explicacion": "El Parlamento tiene autonomía reglamentaria, presupuestaria, administrativa y disciplinaria.",
+  "referencia": "Art. 102.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué funciones tiene el Parlamento según el Estatuto?",
+  "opciones": [
+   "Solo legislar",
+   "Legislar, controlar al Consejo de Gobierno, aprobar presupuestos y autorizar tributos y deuda",
+   "Solo elegir al Presidente de la Junta",
+   "Solo nombrar magistrados"
+  ],
+  "correcta": 1,
+  "explicacion": "Son funciones del Parlamento legislar, controlar al Consejo de Gobierno, aprobar presupuestos y autorizar tributos y deuda.",
+  "referencia": "Art. 106 EA Andalucía"
+ },
+ {
+  "pregunta": "¿En qué plazo deben convalidarse los decretos-leyes del Gobierno andaluz?",
+  "opciones": [
+   "Diez días",
+   "Quince días",
+   "Treinta días",
+   "Sesenta días"
+  ],
+  "correcta": 2,
+  "explicacion": "Los decretos-leyes deben convalidarse en treinta días.",
+  "referencia": "Art. 110 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué materias no pueden regular los decretos-leyes andaluces?",
+  "opciones": [
+   "Los presupuestos",
+   "Los derechos del Estatuto, el régimen electoral y las instituciones",
+   "La organización de la administración",
+   "La función pública"
+  ],
+  "correcta": 1,
+  "explicacion": "Los decretos-leyes no pueden afectar a los derechos del Estatuto, al régimen electoral ni a las instituciones.",
+  "referencia": "Art. 110 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Quién controla la constitucionalidad de las normas andaluzas con fuerza de ley?",
+  "opciones": [
+   "El Tribunal Supremo",
+   "El Tribunal Constitucional",
+   "El Tribunal de Cuentas",
+   "El Consejo Consultivo"
+  ],
+  "correcta": 1,
+  "explicacion": "El control de constitucionalidad de las normas autonómicas con fuerza de ley corresponde al Tribunal Constitucional.",
+  "referencia": "Art. 115 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué órgano culmina la organización judicial andaluza?",
+  "opciones": [
+   "El Tribunal Supremo",
+   "El Tribunal Superior de Justicia de Andalucía",
+   "El Tribunal Constitucional",
+   "La Audiencia Nacional"
+  ],
+  "correcta": 1,
+  "explicacion": "El TSJA culmina la organización judicial en Andalucía.",
+  "referencia": "Art. 140 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué órgano es la última instancia de los procesos iniciados en Andalucía?",
+  "opciones": [
+   "El Tribunal Constitucional",
+   "El Tribunal Superior de Justicia de Andalucía",
+   "El Tribunal Supremo",
+   "El Defensor del Pueblo"
+  ],
+  "correcta": 1,
+  "explicacion": "El TSJA es la última instancia de los procesos iniciados en Andalucía.",
+  "referencia": "Art. 140 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué naturaleza tiene el Defensor del Pueblo Andaluz?",
+  "opciones": [
+   "Un órgano del Consejo de Gobierno",
+   "Un comisionado del Parlamento",
+   "Un órgano judicial",
+   "Un órgano del Gobierno de la Nación"
+  ],
+  "correcta": 1,
+  "explicacion": "El Defensor del Pueblo Andaluz es un comisionado del Parlamento.",
+  "referencia": "Art. 128 EA Andalucía"
+ },
+ {
+  "pregunta": "¿De qué depende orgánicamente la Cámara de Cuentas de Andalucía?",
+  "opciones": [
+   "Del Gobierno de la Nación",
+   "Del Parlamento de Andalucía",
+   "Del Tribunal Superior de Justicia",
+   "Del Consejo Consultivo"
+  ],
+  "correcta": 1,
+  "explicacion": "La Cámara de Cuentas depende orgánicamente del Parlamento.",
+  "referencia": "Art. 130 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué función tiene la Cámara de Cuentas?",
+  "opciones": [
+   "Dictar sentencias",
+   "Control externo de la actividad económica y financiera",
+   "Elegir al Presidente de la Junta",
+   "Legislar sobre tributos"
+  ],
+  "correcta": 1,
+  "explicacion": "La Cámara de Cuentas ejerce el control externo.",
+  "referencia": "Art. 130 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Cuál es la estructura de la Mesa y órganos del Parlamento?",
+  "opciones": [
+   "Presidente, Mesa y Diputación Permanente",
+   "Presidente, Senado y Tribunal",
+   "Mesa, Consejo y Comisión de Justicia",
+   "Presidente y Consejo Consultivo"
+  ],
+  "correcta": 0,
+  "explicacion": "El Parlamento tiene Presidente, Mesa y Diputación Permanente.",
+  "referencia": "Art. 103.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué órgano controla al Consejo de Gobierno andaluz?",
+  "opciones": [
+   "El Parlamento",
+   "El Tribunal de Cuentas",
+   "El Defensor del Pueblo",
+   "El Tribunal Supremo"
+  ],
+  "correcta": 0,
+  "explicacion": "El Parlamento impulsa y controla al Consejo de Gobierno.",
+  "referencia": "Art. 106 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué órgano es el Parlamento de Andalucía en la Junta?",
+  "opciones": [
+   "Un órgano ejecutivo",
+   "Un órgano legislativo que integra la Junta",
+   "Un órgano judicial",
+   "Un órgano consultivo"
+  ],
+  "correcta": 1,
+  "explicacion": "El Parlamento es el órgano legislativo que integra la Junta de Andalucía.",
+  "referencia": "Art. 99.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué mayoría se exige para elegir al Defensor del Pueblo Andaluz?",
+  "opciones": [
+   "Mayoría simple",
+   "Mayoría cualificada del Parlamento",
+   "Unanimidad",
+   "Mayoría del Consejo de Gobierno"
+  ],
+  "correcta": 1,
+  "explicacion": "El Defensor del Pueblo Andaluz se elige por mayoría cualificada del Parlamento.",
+  "referencia": "Art. 128 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué instrumento ejecuta las funciones del Parlamento en la Junta?",
+  "opciones": [
+   "Los decretos-leyes",
+   "Las sesiones ordinarias",
+   "Las resoluciones del Consejo Consultivo",
+   "Los contratos administrativos"
+  ],
+  "correcta": 1,
+  "explicacion": "El Parlamento celebra dos periodos ordinarios de sesiones al año para ejercer sus funciones.",
+  "referencia": "Art. 103.3 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué tipo de función tiene la Diputación Permanente del Parlamento andaluz?",
+  "opciones": [
+   "Legislar en nombre del Parlamento",
+   "Ejercer funciones del Parlamento fuera de los periodos de sesiones",
+   "Elegir al Presidente de la Junta",
+   "Juzgar los delitos de los diputados"
+  ],
+  "correcta": 1,
+  "explicacion": "La Diputación Permanente actúa cuando el Parlamento no está en periodo de sesiones.",
+  "referencia": "Art. 103.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué órgano puede aprobar los presupuestos de la Comunidad Autónoma?",
+  "opciones": [
+   "El Consejo de Gobierno",
+   "El Parlamento de Andalucía",
+   "El Presidente de la Junta",
+   "El Tribunal de Cuentas"
+  ],
+  "correcta": 1,
+  "explicacion": "El Parlamento aprueba los presupuestos de la Comunidad.",
+  "referencia": "Art. 106 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué órgano autoriza los tributos y la deuda de Andalucía?",
+  "opciones": [
+   "El Parlamento de Andalucía",
+   "El Consejo de Gobierno",
+   "El Consejo Consultivo",
+   "El Tribunal Constitucional"
+  ],
+  "correcta": 0,
+  "explicacion": "El Parlamento autoriza tributos y deuda.",
+  "referencia": "Art. 106 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué derecho tienen los decretos-leyes respecto al Parlamento?",
+  "opciones": [
+   "No necesitan convalidación",
+   "Deben convalidarse en treinta días",
+   "Deben aprobarse por referéndum",
+   "Deben ser aprobados por el Senado"
+  ],
+  "correcta": 1,
+  "explicacion": "Los decretos-leyes deben convalidarse por el Parlamento en treinta días.",
+  "referencia": "Art. 110 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Qué figura interviene cuando la Comunidad andaluza tiene conflictos de competencia?",
+  "opciones": [
+   "El Tribunal Constitucional",
+   "El Defensor del Pueblo Andaluz",
+   "El Consejo Consultivo",
+   "La Cámara de Cuentas"
+  ],
+  "correcta": 0,
+  "explicacion": "El Tribunal Constitucional resuelve los conflictos de competencia entre el Estado y las Comunidades.",
+  "referencia": "Art. 161.1 c) CE"
+ },
+ {
+  "pregunta": "¿Qué órgano integra la Junta de Andalucía además del Parlamento?",
+  "opciones": [
+   "El Tribunal Supremo",
+   "La Presidencia y el Consejo de Gobierno",
+   "El Consejo General del Poder Judicial",
+   "El Senado"
+  ],
+  "correcta": 1,
+  "explicacion": "La Junta está integrada por el Parlamento, la Presidencia y el Consejo de Gobierno.",
+  "referencia": "Art. 99.1 EA Andalucía"
+ },
+ {
+  "pregunta": "¿Cuántos diputados componen el Parlamento de Andalucía?",
+  "opciones": [
+   "109",
+   "100",
+   "90",
+   "120"
+  ],
+  "correcta": 0,
+  "explicacion": "El Parlamento de Andalucía está compuesto por 109 diputados.",
+  "referencia": "Estatuto de Autonomía para Andalucía (LO 2/2007)"
+ },
+ {
+  "pregunta": "¿Cuánto dura el mandato del Parlamento de Andalucía?",
+  "opciones": [
+   "Dos años",
+   "Cuatro años",
+   "Cinco años",
+   "Seis años"
+  ],
+  "correcta": 1,
+  "explicacion": "El mandato del Parlamento de Andalucía dura cuatro años.",
+  "referencia": "Estatuto de Autonomía para Andalucía (LO 2/2007)"
+ },
+ {
+  "pregunta": "¿Qué institución representa al pueblo andaluz en el sistema institucional?",
+  "opciones": [
+   "El Consejo Consultivo",
+   "El Tribunal de Cuentas",
+   "El Parlamento de Andalucía",
+   "La Cámara de Comercio"
+  ],
+  "correcta": 2,
+  "explicacion": "El Parlamento de Andalucía representa al pueblo andaluz.",
+  "referencia": "Estatuto de Autonomía para Andalucía (LO 2/2007)"
+ },
+ {
+  "pregunta": "¿Qué potestad ejerce el Parlamento de Andalucía al aprobar leyes autonómicas?",
+  "opciones": [
+   "Potestad legislativa",
+   "Potestad reglamentaria del Gobierno",
+   "Potestad sancionadora de la Junta",
+   "Potestad de expropiación"
+  ],
+  "correcta": 0,
+  "explicacion": "El Parlamento de Andalucía ejerce la potestad legislativa y aprueba las leyes de la Comunidad.",
+  "referencia": "Estatuto de Autonomía para Andalucía (LO 2/2007)"
+ },
+ {
+  "pregunta": "¿Qué sistema electoral rige para el Parlamento de Andalucía?",
+  "opciones": [
+   "Representación proporcional",
+   "Mayoría absoluta en una sola circunscripción",
+   "Sorteo entre candidatos",
+   "Designación directa por el Gobierno"
+  ],
+  "correcta": 0,
+  "explicacion": "El Parlamento de Andalucía se elige por sufragio universal con representación proporcional.",
+  "referencia": "Estatuto de Autonomía para Andalucía (LO 2/2007)"
+ }
 ]
