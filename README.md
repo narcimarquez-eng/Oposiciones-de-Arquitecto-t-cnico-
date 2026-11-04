@@ -8,6 +8,8 @@ Abre `index.html` en el navegador. No necesita servidor ni conexión.
 
 El botón «Generador de tests» de la cabecera abre el generador: test por temas con 100 preguntas por tema (`datos/banco.js`, que genera `datos/generar-banco.js`). El banco se carga solo al abrir el generador.
 
+Modos del generador: **práctica** (corrección al responder) y **examen** (corrección al final: cada acierto suma 1, cada fallo resta 1/3, las preguntas en blanco no restan). Las estadísticas de aciertos, fallos y blancos se guardan en este navegador (`localStorage`) por tema, por bloque y en general.
+
 ## Contenido
 
 - `datos/temario-andalucia.json`: índice de los 70 temas (30 comunes `c01`–`c30`, 40 específicos `e01`–`e40`).
