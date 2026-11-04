@@ -1037,6 +1037,28 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-04",
    "notas": "PDF consolidado descargado (fecha de última modificación no indicada en el PDF). Verificados en el texto los arts. 5 (apartado 2, letras a a g), 10 (apartado 2), 11 (puntos 1 y 2), 12 (punto 1, letras a y b), 14 (puntos 1 a 4) y los encabezados de los capítulos. Pendientes: arts. 6 a 9, 13, 15 a 16 en su cuerpo, y el capítulo VI. Deroga la Orden VIV/561/2010 con efectos de 2 de enero de 2022."
+  },
+  "DEC-AND-67-2011": {
+   "id": "DEC-AND-67-2011",
+   "nombre": "Decreto por el que se regula el control de calidad de la construcción y obra pública (Andalucía)",
+   "referencia": "Decreto 67/2011, de 5 de abril, por el que se regula el control de calidad de la construcción y obra pública (BOJA núm. 77, de 19 de abril de 2011)",
+   "url": "https://www.juntadeandalucia.es/boja/2011/77/2",
+   "boe_id": null,
+   "pdf": "leyes/DEC-AND-67-2011.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF extraído del BOJA núm. 77 (19/04/2011), sección 2 (d2.pdf). Verificados en el texto los arts. 1 a 17, la disposición transitoria única, la derogatoria única (letras a a f) y las disposiciones finales primera y segunda. No se ha comprobado si el decreto ha sido modificado después de su publicación; no se ha encontrado un texto consolidado. El anexo I y el anexo II (modelos de declaración) no se han leído. El artículo 16 (requisitos de las entidades) se ha leído solo en su encabezado."
+  },
+  "RD-486-1997": {
+   "id": "RD-486-1997",
+   "nombre": "Disposiciones mínimas de seguridad y salud en los lugares de trabajo",
+   "referencia": "Real Decreto 486/1997, de 14 de abril, por el que se establecen las disposiciones mínimas de seguridad y de salud en los lugares de trabajo (BOE núm. 97, de 23 de abril de 1997)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-8669",
+   "boe_id": "BOE-A-1997-8669",
+   "pdf": "leyes/BOE-A-1997-8669.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF consolidado descargado de boe.es (última modificación indicada en el PDF o en la búsqueda: 12 de mayo de 2023, por el RDL 4/2023, que suprime el apartado 5 del anexo III). Verificados en el texto los arts. 1 a 12 (capítulos I y II), y el anexo VI, apartados A.1 a A.5 (en parte). Pendientes: anexos I a V completos, los arts. 13 y siguientes y las disposiciones finales."
   }
  },
  "contenido": {
@@ -18057,6 +18079,650 @@ window.DATOS_ESTUDIO = {
     "leyes/DB-SE-C-diciembre-2019.pdf",
     "leyes/BOE-A-2021-13681-extracto.pdf",
     "leyes/BOE-A-1995-24292.pdf"
+   ]
+  },
+  "e17": {
+   "resumen": [
+    {
+     "titulo": "Concepto y normativa de aplicación",
+     "puntos": [
+      "El director de la ejecución controla cualitativa y cuantitativamente la construcción y la calidad de lo edificado (LOE, art. 13.1). El CTE regula el control en su artículo 7; el Código Estructural, en su artículo 17 y siguientes; y el Decreto andaluz 67/2011, de 5 de abril, regula el control en Andalucía.",
+      "El control de calidad no exime de responsabilidad: el decreto andaluz establece que no puede invocarse para disminuir la responsabilidad civil, administrativa o penal de los agentes (art. 8)."
+     ]
+    },
+    {
+     "titulo": "Organigrama del control",
+     "puntos": [
+      "La propiedad encarga y paga el control; la dirección facultativa lo dirige en su nombre; el constructor realiza el autocontrol con su sistema de aseguramiento de la calidad; los suministradores entregan la documentación de sus productos (LOE, art. 15).",
+      "Laboratorios y entidades de control prestan asistencia técnica y deben ser independientes; el laboratorio entrega a la propiedad una declaración firmada que avala su independencia (Código Estructural, art. 17.2.2)."
+     ]
+    },
+    {
+     "titulo": "Controles del CTE",
+     "puntos": [
+      "Control de recepción de productos (art. 7.2): documentación de suministros, distintivos de calidad o evaluaciones de idoneidad, y ensayos.",
+      "Control de ejecución (art. 7.3), por unidad de obra; y control de la obra terminada (art. 7.4), con las comprobaciones y pruebas de servicio previstas en el proyecto."
+     ]
+    },
+    {
+     "titulo": "Plan de control y tipos de conformidad",
+     "puntos": [
+      "El proyecto incluye el plan de control de calidad con su presupuesto (Decreto 67/2011, art. 3.1). La dirección facultativa aprueba el programa de control que lo desarrolla (Código Estructural, art. 17.2.1).",
+      "Tipos de conformidad del Código (tabla 17.1): control del proyecto, de los productos, de la ejecución y de la estructura terminada. Definiciones: partida, remesa, acopio, lote y unidad de inspección (art. 17.1)."
+     ]
+    },
+    {
+     "titulo": "Certificaciones, distintivos y evaluaciones técnicas",
+     "puntos": [
+      "Distintivo de calidad: acredita un producto; el suministrador documenta su reconocimiento oficial (CTE, art. 7.2.2 y art. 5.2.3). Evaluación técnica de idoneidad: para productos innovadores (art. 5.2.5).",
+      "Certificación: justifica la adecuación del sistema de gestión del laboratorio o de la entidad (Decreto 67/2011, art. 2, letra n). Auditorías según UNE EN ISO/IEC 17025 (laboratorios) y 17020 (entidades)."
+     ]
+    },
+    {
+     "titulo": "Registro y justificación documental",
+     "puntos": [
+      "La documentación de la obra incluye el control realizado (CTE, art. 7.1, punto 2) y se incorpora al libro del edificio (art. 8.1). El director de la ejecución aporta los resultados del control (LOE, art. 13.2, letra f).",
+      "Los laboratorios mantienen registros de ensayos y de subcontrataciones (Decreto 67/2011, art. 15.1, letra e)."
+     ]
+    },
+    {
+     "titulo": "Registro andaluz y declaración responsable",
+     "puntos": [
+      "El Registro de laboratorios de ensayos y de entidades de control de Andalucía es electrónico, administrativo, público e informativo (art. 9). Tiene tres secciones: laboratorios, entidades de control y procedimientos y documentos reconocidos (art. 10).",
+      "La declaración responsable habilita desde su presentación, con duración indefinida (art. 11, punto 3). Sustituye a la autorización previa (LOE, art. 14, tras la Ley 25/2009)."
+     ]
+    },
+    {
+     "titulo": "Valoración y abono",
+     "puntos": [
+      "El pliego de prescripciones técnicas regula el control de calidad de los materiales y del proceso de ejecución (LCSP, art. 233.1, letra c). El coste del control de la dirección facultativa se considera de forma independiente en el presupuesto y lo retribuye la propiedad (Código Estructural, art. 17, apartado previo al 17.1).",
+      "Las reglas de abono concretas no se han verificado en el repositorio: se presentan como principios."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LOE",
+     "rol": "Director de la ejecución, entidades y laboratorios de control, suministradores y declaración responsable (arts. 13 a 15)"
+    },
+    {
+     "id": "CTE",
+     "rol": "Controles de recepción, ejecución y obra terminada; documentación del control y libro del edificio (arts. 5.2.3, 5.2.5, 7 y 8)"
+    },
+    {
+     "id": "RD-470-2021",
+     "rol": "Código Estructural: agentes del control, tipos de conformidad y laboratorios independientes (arts. 17 y 18)"
+    },
+    {
+     "id": "DEC-AND-67-2011",
+     "rol": "Control de calidad en Andalucía: plan de control, Registro de laboratorios y entidades, declaración responsable (arts. 2 a 15)"
+    },
+    {
+     "id": "LCSP",
+     "rol": "Contenido del proyecto y pliego de control de calidad en la contratación pública (art. 233.1, letra c)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la LOE, art. 13.2, letra b, ¿qué debe hacer el director de la ejecución de la obra al verificar la recepción en obra de los productos de construcción?",
+     "opciones": [
+      "Ordenar la realización de ensayos y pruebas precisas",
+      "Entregarlos sin revisión al constructor",
+      "Retirar el libro de órdenes",
+      "Pintar los productos con el color del proyecto"
+     ],
+     "correcta": 0,
+     "explicacion": "El director de la ejecución debe verificar la recepción en obra de los productos de construcción, ordenando la realización de ensayos y pruebas precisas (LOE, art. 13.2, letra b).",
+     "referencia": "LOE, art. 13.2, letra b)"
+    },
+    {
+     "pregunta": "Según el CTE, art. 7.2, ¿cuál de las siguientes NO es una de las tres formas de control de recepción en obra de productos?",
+     "opciones": [
+      "El control mediante distintivos de calidad o evaluaciones técnicas de idoneidad",
+      "El control mediante ensayos",
+      "El control visual del color de la fachada terminada",
+      "El control de la documentación de los suministros"
+     ],
+     "correcta": 2,
+     "explicacion": "El control de recepción comprende el control de la documentación de los suministros (art. 7.2.1), el control mediante distintivos o evaluaciones técnicas de idoneidad (art. 7.2.2) y el control mediante ensayos (art. 7.2.3).",
+     "referencia": "CTE, art. 7.2"
+    },
+    {
+     "pregunta": "Según el CTE, art. 7.4, ¿qué comprobaciones deben realizarse en la obra terminada?",
+     "opciones": [
+      "Ninguna, porque ya se controló la ejecución",
+      "Únicamente la pintura de los paramentos",
+      "Solo las fotografías de la fachada",
+      "Las comprobaciones y pruebas de servicio previstas en el proyecto u ordenadas por la dirección facultativa, y las exigidas por la legislación aplicable"
+     ],
+     "correcta": 3,
+     "explicacion": "En la obra terminada deben realizarse las comprobaciones y pruebas de servicio previstas en el proyecto u ordenadas por la dirección facultativa, además de las exigidas por la legislación aplicable (CTE, art. 7.4).",
+     "referencia": "CTE, art. 7.4"
+    },
+    {
+     "pregunta": "Según el Código Estructural, art. 17.2.2, ¿qué debe entregar un laboratorio o una entidad de control a la propiedad antes del inicio de la obra?",
+     "opciones": [
+      "La licencia de actividad del municipio",
+      "Una declaración firmada por persona física que avale su independencia respecto al resto de agentes",
+      "El presupuesto de la obra completa",
+      "Los planos de la estructura"
+     ],
+     "correcta": 1,
+     "explicacion": "Los laboratorios y entidades de control deben poder demostrar su independencia, y antes del inicio de la obra entregan a la propiedad una declaración firmada por persona física que la avale. La dirección facultativa la incorpora a la documentación final.",
+     "referencia": "Código Estructural, art. 17.2.2"
+    },
+    {
+     "pregunta": "Según el Código Estructural, art. 17.2.1, letra a, ¿quién aprueba el programa de control de calidad para la obra?",
+     "opciones": [
+      "La dirección facultativa, que desarrolla el plan de control incluido en el proyecto",
+      "El colegio profesional",
+      "El contratista",
+      "El fabricante del cemento"
+     ],
+     "correcta": 0,
+     "explicacion": "La dirección facultativa, en nombre de la propiedad, aprueba un programa de control de calidad para la obra que desarrolla el plan de control incluido en el proyecto (art. 17.2.1, letra a).",
+     "referencia": "Código Estructural, art. 17.2.1, letra a)"
+    },
+    {
+     "pregunta": "Según el Decreto 67/2011 de Andalucía, art. 3.1, ¿qué debe incluir el proyecto en relación con el control de calidad?",
+     "opciones": [
+      "Únicamente las certificaciones del fabricante",
+      "Solo la fecha de inicio de la obra",
+      "Las especificaciones técnicas detalladas de calidades y el plan de control de calidad con su presupuesto",
+      "El nombre del laboratorio que se contratará en el futuro"
+     ],
+     "correcta": 2,
+     "explicacion": "En los proyectos se incluyen las especificaciones técnicas detalladas de calidades y el plan de control de calidad a realizar sobre los productos y unidades de obra, con su correspondiente presupuesto (Decreto 67/2011, art. 3.1).",
+     "referencia": "Decreto 67/2011, art. 3.1"
+    },
+    {
+     "pregunta": "Según la LCSP, art. 233.1, letra c, ¿qué debe regular el pliego de prescripciones técnicas particulares de un proyecto de obras?",
+     "opciones": [
+      "La publicidad del anuncio de licitación",
+      "El número de trabajadores de la empresa",
+      "Solo los honorarios de los arquitectos",
+      "El control de calidad de los materiales empleados y del proceso de ejecución"
+     ],
+     "correcta": 3,
+     "explicacion": "El pliego de prescripciones técnicas particulares regula la ejecución de las obras, la medición de las unidades ejecutadas y el control de calidad de los materiales empleados y del proceso de ejecución (LCSP, art. 233.1, letra c).",
+     "referencia": "LCSP, art. 233.1, letra c)"
+    },
+    {
+     "pregunta": "Según el Decreto 67/2011, art. 10.1 y 10.3, ¿en qué sección del Registro andaluz se inscriben las entidades de control?",
+     "opciones": [
+      "Sección Primera de laboratorios de ensayos",
+      "Sección Segunda de entidades de control",
+      "Sección Tercera de procedimientos y documentos reconocidos",
+      "No se inscriben en el Registro"
+     ],
+     "correcta": 1,
+     "explicacion": "El Registro se estructura en tres secciones. Las entidades de control se inscriben en la Sección Segunda, conforme al contenido de su declaración responsable (art. 10, punto 3).",
+     "referencia": "Decreto 67/2011, art. 10, puntos 1 y 3"
+    },
+    {
+     "pregunta": "Según el Decreto 67/2011, art. 11, punto 3, ¿con qué duración habilita al laboratorio o a la entidad de control la presentación de su declaración responsable?",
+     "opciones": [
+      "Hasta la primera inspección de la Consejería",
+      "Cinco años",
+      "Con una duración indefinida, desde el momento de su presentación",
+      "Un año, prorrogable"
+     ],
+     "correcta": 2,
+     "explicacion": "La presentación de la declaración responsable habilita al laboratorio o a la entidad de control, desde el momento de su presentación, para ejercer la actividad con una duración indefinida (art. 11, punto 3).",
+     "referencia": "Decreto 67/2011, art. 11, punto 3"
+    },
+    {
+     "pregunta": "Según el Decreto 67/2011, art. 8, ¿qué efecto tiene la realización del control de calidad exigido por la Administración sobre la responsabilidad de los agentes?",
+     "opciones": [
+      "No puede invocarse para disminuir la responsabilidad civil, administrativa o penal de los agentes",
+      "La transfiere automáticamente al laboratorio",
+      "La elimina por completo",
+      "Permite reducirla a la mitad"
+     ],
+     "correcta": 0,
+     "explicacion": "La realización del control de calidad exigido por la Administración de la Junta de Andalucía no puede invocarse para disminuir la responsabilidad civil, administrativa o penal de los agentes intervinientes (art. 8).",
+     "referencia": "Decreto 67/2011, art. 8"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Concepto y finalidad del control de calidad",
+     "parrafos": [
+      "El control de calidad de una obra de edificación es el conjunto de comprobaciones que aseguran que lo construido coincide con lo proyectado, que los productos cumplen las características exigidas y que la ejecución se hace conforme a la normativa y a la buena práctica. No es una actividad única: se reparte entre el proyecto, los productos que llegan a la obra, la ejecución de cada unidad y la obra terminada. Su objetivo es garantizar que el edificio cumple las exigencias básicas durante su vida útil, y no solo en el momento de la recepción.",
+      "La Ley de Ordenación de la Edificación atribuye al director de la ejecución de la obra la función de controlar cualitativa y cuantitativamente la construcción y la calidad de lo edificado (LOE, art. 13.1). Entre sus obligaciones figuran verificar la recepción en obra de los productos de construcción, ordenando la realización de ensayos y pruebas precisas (art. 13.2, letra b), y colaborar con los restantes agentes aportando los resultados del control realizado (art. 13.2, letra f).",
+      "El control de calidad tiene además un efecto jurídico que conviene recordar. El Decreto andaluz 67/2011 establece que la realización del control de calidad exigido por la Administración no puede invocarse para disminuir la responsabilidad civil, administrativa o penal de los agentes que intervienen en el proceso constructivo (art. 8). El control completa la responsabilidad de cada agente, pero no la sustituye."
+     ]
+    },
+    {
+     "titulo": "2. Normativa de aplicación",
+     "parrafos": [
+      "La normativa estatal de referencia es, en primer lugar, la LOE (Ley 38/1999), que regula en sus artículos 13 a 16 los agentes del control: el director de la ejecución, las entidades y los laboratorios de control, los suministradores de productos y los propietarios y usuarios. Esa ley remite a la reglamentación técnica la concreción del control, que en la edificación es el Código Técnico de la Edificación.",
+      "El CTE, aprobado por el Real Decreto 314/2006, regula el control en su artículo 7, con cuatro bloques: las condiciones generales de ejecución (art. 7.1), el control de recepción en obra de productos, equipos y sistemas (art. 7.2), el control de ejecución de la obra (art. 7.3) y el control de la obra terminada (art. 7.4). El artículo 7.1.4 identifica a quién corresponde cada control: al director de obra y al director de la ejecución, según sus respectivas competencias.",
+      "Para las estructuras, el Código Estructural (Real Decreto 470/2021) regula el control en su artículo 17 y en los siguientes, con un sistema de tipos de conformidad que se explica más adelante. Ese código sustituyó a la antigua instrucción de hormigón EHE-08, que quedó derogada. El Real Decreto 410/2010, citado por el propio Código y por el decreto andaluz, desarrolla los requisitos de las entidades de control y de los laboratorios de ensayos para la edificación, y no se ha leído en el texto del repositorio.",
+      "En el ámbito de la contratación pública, la Ley de Contratos del Sector Público (Ley 9/2017) exige que el proyecto de obras incluya un pliego de prescripciones técnicas particulares que regule el control de calidad de los materiales empleados y del proceso de ejecución (art. 233.1, letra c). En Andalucía, el Decreto 67/2011, de 5 de abril, regula el control de calidad de la construcción y obra pública, el Registro de laboratorios y de entidades de control y los requisitos de su actividad. Ese decreto sustituyó al Decreto 13/1988 y al Decreto 21/2004, que quedaron derogados (disposición derogatoria única)."
+     ]
+    },
+    {
+     "titulo": "3. Organigrama del control",
+     "parrafos": [
+      "El control se organiza en torno a tres grandes agentes: la propiedad o promotor, que encarga y paga el control; la dirección facultativa, que lo dirige en nombre de la propiedad; y el constructor, que lo ejecuta en su parte de autocontrol. A ellos se suman los suministradores de productos, que deben entregar la documentación de sus productos, y los laboratorios y entidades de control, que prestan la asistencia técnica.",
+      "El Código Estructural distingue las funciones de la dirección facultativa. Esta debe aprobar un programa de control de calidad para la obra que desarrolle el plan de control incluido en el proyecto; velar por las actividades de control de recepción de productos, de control de los productos una vez recepcionados hasta su colocación y de control de la ejecución; y recopilar y archivar la documentación del control realizado (art. 17.2.1, letras a a c). El Código añade que, en el ámbito de la edificación, estas obligaciones son las del director de la ejecución, de acuerdo con el artículo 13 de la LOE.",
+      "El constructor, por su parte, debe disponer de un sistema de aseguramiento de la calidad propio que incluya las evidencias necesarias para cumplir los requisitos de control e inspección del proyecto y del Código. Ese sistema se describe en el procedimiento de autocontrol del constructor, que es la parte del control que él mismo ejecuta antes de que intervenga el control externo. En la práctica, el autocontrol del constructor y el control de la dirección facultativa se complementan: el primero garantiza que la obra se hace bien, y el segundo, que se puede demostrar que se ha hecho bien.",
+      "Los laboratorios de ensayos y las entidades de control deben poder demostrar su independencia respecto al resto de los agentes de la obra. Antes de iniciar la obra entregan a la propiedad una declaración firmada por persona física que avala esa independencia, y la dirección facultativa la incorpora a la documentación final (Código Estructural, art. 17.2.2)."
+     ]
+    },
+    {
+     "titulo": "4. El control de recepción, de ejecución y de la obra terminada en el CTE",
+     "parrafos": [
+      "El control de recepción en obra de productos tiene por objeto comprobar que sus características técnicas satisfacen lo exigido en el proyecto. El CTE lo organiza en tres niveles: el control de la documentación de los suministros (art. 7.2.1), el control mediante distintivos de calidad o evaluaciones técnicas de idoneidad (art. 7.2.2) y el control mediante ensayos (art. 7.2.3). En el primero, el suministrador entrega al constructor, quien lo facilita al director de la ejecución, el documento de origen, la hoja de suministro y el etiquetado, el certificado de garantía del fabricante firmado por persona física y los documentos de conformidad exigidos, incluido el marcado CE cuando proceda.",
+      "En el control de la documentación, el CTE exige también que el director de la ejecución verifique que la documentación de los distintivos es suficiente para aceptar los productos amparados por ella (art. 7.2.2, punto 2). Los ensayos del control de recepción se realizan de acuerdo con los criterios establecidos en el proyecto o indicados por la dirección facultativa sobre el muestreo, los ensayos, los criterios de aceptación y rechazo y las acciones a adoptar (art. 7.2.3, punto 2).",
+      "El control de ejecución de la obra, según el artículo 7.3, consiste en que el director de la ejecución controle cada unidad de obra verificando su replanteo, los materiales, la correcta ejecución y disposición de los elementos constructivos y de las instalaciones, así como las comprobaciones necesarias para su conformidad con el proyecto. Se comprueba además que se han adoptado las medidas necesarias para asegurar la compatibilidad entre los productos, elementos y sistemas. En la recepción de la obra ejecutada pueden tenerse en cuenta las certificaciones de gestión de calidad de los agentes y las verificaciones de las entidades de control de la edificación.",
+      "El control de la obra terminada (art. 7.4) comprende las comprobaciones y pruebas de servicio previstas en el proyecto u ordenadas por la dirección facultativa, así como las exigidas por la legislación aplicable, sobre el edificio en su conjunto o sobre sus partes e instalaciones. Este control es el que confirma la aptitud de uso antes de la recepción, y sus resultados se incluyen en el libro del edificio."
+     ]
+    },
+    {
+     "titulo": "5. El control de la estructura en el Código Estructural",
+     "parrafos": [
+      "El Código Estructural define los términos del control en su artículo 17.1: partida (la cantidad de producto de la misma designación y procedencia contenida en una misma unidad de transporte y recibida en la obra), remesa (conjunto de productos de la misma procedencia contenidos en una misma unidad de transporte que se reciben en el lugar de recepción), acopio (cantidad de material almacenada conjuntamente tras su entrada en la obra), lote de material o producto (cantidad sometida a recepción en su conjunto), lote de ejecución (parte de la obra sometida a aceptación en su conjunto) y unidad de inspección (actividades de un mismo proceso de ejecución sometidas a control para la recepción de un lote).",
+      "La conformidad de la estructura exige cuatro tipos de control, que la tabla 17.1 asocia a los artículos del Código para cada tipo de estructura: el control del proyecto (artículo 20), el control de la conformidad de los productos (artículo 21), el control de la ejecución de la estructura (artículo 22) y el control de la estructura terminada (artículo 23). Para el hormigón, cada uno se desarrolla en un capítulo propio (capítulos 12 a 14) y para el acero en otro (capítulos 22 a 24).",
+      "La propiedad, en función de las características de la estructura, establece la sistemática general para garantizar la conformidad de productos y procesos. Puede optar por un control basado en una comprobación estadística llevada a cabo por un laboratorio o entidad de control independiente que trabaje para la dirección facultativa, o por un control estadístico llevado a cabo directamente por el constructor, combinado con un control externo de la dirección facultativa, asistida o no por laboratorios o entidades de control. La dirección facultativa puede optar por otras alternativas siempre que demuestre, bajo su supervisión y responsabilidad, que son equivalentes a las del Código.",
+      "Las decisiones que se derivan del control se orientan a garantizar el buen funcionamiento y la seguridad de la estructura durante el periodo de vida útil definido en el proyecto. El Código recoge también el criterio de que el coste del control de calidad, cuando la legislación lo permita, se considere de forma independiente en el presupuesto de la obra y sea retribuido directamente por la propiedad y no por la empresa constructora. Ese criterio es el que sostiene la valoración del control como partida propia, que se trata en el último apartado."
+     ]
+    },
+    {
+     "titulo": "6. El plan de control de calidad",
+     "parrafos": [
+      "El plan de control es el documento que fija qué controles se realizan, sobre qué productos y unidades de obra, con qué ensayos y con qué criterios de aceptación. El Decreto andaluz 67/2011 exige que en los proyectos se incluyan las especificaciones técnicas detalladas de calidades y el plan de control de calidad a realizar sobre los productos y unidades de obra, con su correspondiente presupuesto (art. 3.1). El decreto aplica esta exigencia a todas las obras de construcción del ámbito autonómico (art. 1.2).",
+      "En la obra, la dirección facultativa aprueba el programa de control que desarrolla el plan de control del proyecto (Código Estructural, art. 17.2.1, letra a). El programa concreta la frecuencia de los muestreos, los laboratorios que intervienen y la secuencia de las inspecciones, y se convierte en la referencia de la documentación final de la obra.",
+      "En las obras de iniciativa pública que realizan las Consejerías y entidades instrumentales de la Junta de Andalucía, o las que se financian en todo o en parte con fondos autonómicos, el decreto exige además los ensayos, análisis e informes de los productos y unidades de obra que la norma y sus disposiciones de desarrollo determinen (art. 1.3). Esto supone que, en esas obras, el plan de control no depende solo de la normativa estatal, sino también de las exigencias autonómicas.",
+      "En los productos sin marcado CE, el decreto obliga a realizar los ensayos de control de procedencia exigidos por el plan de control del proyecto, por el pliego de prescripciones técnicas o por la dirección facultativa (art. 6.2). En los productos con marcado CE, el control de procedencia consiste en verificar documentalmente que los valores declarados cumplen las especificaciones del pliego, sin perjuicio de los ensayos adicionales que el pliego o la dirección facultativa puedan disponer."
+     ]
+    },
+    {
+     "titulo": "7. Certificaciones de conformidad y distintivos de calidad",
+     "parrafos": [
+      "Un distintivo de calidad es la marca que acredita que un producto, equipo o sistema cumple unas características técnicas. El CTE exige al suministrador la documentación sobre los distintivos que ostenten sus productos, y documenta, en su caso, el reconocimiento oficial del distintivo según el artículo 5.2.3 (art. 7.2.2, punto 1, letra a). Un distintivo sin reconocimiento oficial sirve como información, pero no sustituye al control por ensayo si el proyecto lo exige.",
+      "La evaluación técnica de idoneidad es un documento distinto. Se emplea para productos, equipos y sistemas innovadores que no tienen norma ni distintivo, y acredita su idoneidad para el uso previsto (CTE, art. 5.2.5 y art. 7.2.2, punto 1, letra b). En el Decreto andaluz 67/2011, la evaluación técnica es el informe sobre la aplicación de los procedimientos del laboratorio o de la entidad de control, emitido por un organismo independiente designado por la Consejería (art. 2, letra m).",
+      "La certificación, en cambio, se refiere al sistema de gestión. El decreto la define como el documento de justificación técnica de la adecuación continua del sistema de gestión de la calidad y de los procedimientos del laboratorio o de la entidad de control a los requisitos para la asistencia técnica que declaran (art. 2, letra n). Las auditorías, por su parte, son los informes de revisión del sistema de gestión según las normas UNE EN ISO/IEC 17025 para laboratorios y 17020 para entidades de control (art. 2, letra l).",
+      "El Código Estructural trata los distintivos y la garantía de conformidad de productos y procesos en su artículo 18: la ejecución de la estructura se lleva a cabo según el proyecto, y las modificaciones autorizadas se documentan. La elección entre ensayo, distintivo y evaluación técnica depende del tipo de producto y de lo que exija el proyecto, por lo que el plan de control debe fijarla antes de la obra. La certificación de la entidad no garantiza por sí sola la calidad de un producto concreto."
+     ]
+    },
+    {
+     "titulo": "8. Registro y justificación documental de los controles",
+     "parrafos": [
+      "El CTE exige que durante la obra se elabore la documentación reglamentariamente exigible, que incluya la documentación del control de calidad realizado (art. 7.1, punto 2). El anejo II del CTE detalla, con carácter indicativo, el contenido de la documentación del seguimiento de la obra. Esa documentación se incorpora al libro del edificio junto con la documentación de los productos, equipos y sistemas incorporados a la obra (art. 8.1, punto 2).",
+      "La LOE exige al director de la ejecución colaborar con los restantes agentes en la elaboración de la documentación de la obra ejecutada, aportando los resultados del control realizado (art. 13.2, letra f). Y los laboratorios y entidades de control deben entregar los resultados de su actividad al agente autor del encargo y, en todo caso, al responsable técnico de la recepción de los resultados, sea el director de la ejecución o el agente que corresponda en cada fase (art. 14.3, letra a).",
+      "El decreto andaluz exige que el laboratorio mantenga registros de los ensayos y de las subcontrataciones que realice (art. 15.1, letra e). Por su parte, el Código Estructural exige que las actas de toma de muestras se conserven, y que cada representante de los agentes implicados se quede con una copia (art. 18). La justificación documental no es un trámite final: cada control debe quedar registrado en el momento en que se realiza, con su fecha, su lote o unidad de inspección y su resultado.",
+      "Una práctica habitual, que el examen puede pedir, es la trazabilidad de los productos: la relación entre el albarán, la partida, el lote, el ensayo y la unidad de obra donde se colocó. Si un producto no es conforme, la trazabilidad permite identificar qué unidades de obra se ven afectadas, y decidir si se rechaza, se acepta con una justificación o se repara."
+     ]
+    },
+    {
+     "titulo": "9. Las entidades y los laboratorios de control de calidad",
+     "parrafos": [
+      "La LOE define las entidades de control de calidad de la edificación como las capacitadas para prestar asistencia técnica en la verificación de la calidad del proyecto, de los materiales y de la ejecución de la obra y sus instalaciones (art. 14.1). Los laboratorios de ensayos son las capacitadas para prestar asistencia mediante la realización de ensayos o pruebas de servicio de los materiales, sistemas o instalaciones de una obra (art. 14.2). El decreto andaluz recoge las mismas definiciones (art. 4, puntos 2 y 3).",
+      "Para ejercer su actividad en todo el territorio español, la LOE basta con una declaración responsable: una por cada establecimiento físico, en el caso de los laboratorios, y ante el organismo competente de la comunidad autónoma en la que la entidad tenga su domicilio social o profesional, en el caso de las entidades (art. 14.1 y 14.2). Este sistema sustituye a la autorización previa que existía antes de la reforma de la LOE por la Ley 25/2009.",
+      "Las obligaciones de ambas figuras son las de prestar la asistencia técnica y entregar los resultados al agente que encarga el trabajo y al responsable técnico de la recepción, y justificar que tienen implantado un sistema de gestión de la calidad que define los procedimientos y métodos de ensayo o inspección, con capacidad, personal, medios y equipos adecuados (LOE, art. 14.3, letras a y b). Los laboratorios deben cumplir, además, requisitos de personal, medios y calibración que el decreto andaluz detalla en su artículo 15, y que incluyen contar con un sistema de gestión según la norma UNE EN ISO/IEC 17025 (art. 15, letra d).",
+      "El Código Estructural exige independencia. Los ensayos de recepción de productos se encargan a laboratorios independientes del resto de agentes, y esa independencia se extiende a la propiedad, salvo en las obras promovidas por una administración. La propiedad puede visitar a los laboratorios para verificar su idoneidad, y si el constructor realiza ensayos para contrastar los resultados del control externo, el laboratorio implicado debe cumplir los mismos requisitos de capacidad e independencia (art. 17.2.2.1). Las entidades de control no necesitan ser independientes si pertenecen a la propiedad (art. 17.2.2.2).",
+      "Cuando un laboratorio no puede realizar con sus medios algún ensayo, puede subcontratarlo a otro laboratorio, previa aprobación de la dirección facultativa, siempre que este demuestre independencia y capacidad (Código Estructural, art. 17.2.2.1). La subcontratación debe quedar registrada, como exige el decreto andaluz (art. 15.1, letra e)."
+     ]
+    },
+    {
+     "titulo": "10. El Registro de laboratorios y de entidades de control de Andalucía",
+     "parrafos": [
+      "El Decreto 67/2011 crea el Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía (art. 9, punto 1). Es un registro electrónico, administrativo, público e informativo, adscrito a la Consejería competente en materia de control de calidad de la construcción y obra pública, que lo gestiona y mantiene (art. 9, puntos 3 y 4). Su finalidad es informar sobre la actividad de control de calidad, incrementar la transparencia y el control público, y suministrar datos para directorios y estadísticas (art. 9, punto 2).",
+      "El Registro se organiza en tres secciones: la Sección Primera, de laboratorios de ensayos; la Sección Segunda, de entidades de control; y la Sección Tercera, de procedimientos y documentos reconocidos (art. 10, punto 1). Los laboratorios y las entidades se inscriben conforme al contenido de la declaración responsable presentada (art. 10, puntos 2 y 3). La Sección Tercera recoge los procedimientos de carácter reglamentario y los documentos sin carácter reglamentario reconocidos por la Consejería (art. 10, punto 4).",
+      "La declaración responsable debe presentarse, antes de iniciar la actividad, por cada establecimiento físico en Andalucía, en el caso de los laboratorios (art. 11, punto 1), y por cada centro desde el que se preste la asistencia, en el caso de las entidades (art. 11, punto 2). Desde su presentación, la declaración habilita a la actividad con una duración indefinida (art. 11, punto 3). Puede presentarse por vía telemática, de acuerdo con los anexos I y II del decreto (art. 11, punto 4).",
+      "La declaración debe incluir, entre otros datos, la relación de los ensayos en los que el laboratorio va a prestar su asistencia, identificando el ensayo, el método que utiliza y su fecha de aprobación (art. 11, punto 1). Para las entidades, los campos de actuación que el decreto relaciona incluyen los estudios del terreno y del estado de conservación de los edificios, la verificación del cumplimiento del CTE en edificios de nueva construcción o en rehabilitación, y la evaluación de las prestaciones del edificio a lo largo de su vida útil (art. 11, punto 2). La documentación acreditativa no se presenta con la declaración, pero debe conservarse.",
+      "La Consejería puede comprobar, en cualquier momento desde la presentación de la declaración, mediante comprobaciones por muestreo o exhaustivas, el cumplimiento de los requisitos (art. 12, punto 1), y puede investigar los resultados de la asistencia técnica e inspeccionar las instalaciones (art. 12, punto 2). Para fomentar la calidad, la Consejería promueve la certificación voluntaria de los servicios por organismos independientes, y puede reducir la frecuencia de sus inspecciones a quienes aporten esas certificaciones (art. 13, puntos 1 y 2).",
+      "El decreto dispone, además, que la Consejería traslade al ministerio competente los datos de las declaraciones para su inclusión en el Registro General del Código Técnico de la Edificación, creado por el Real Decreto 314/2006 (art. 14). La disposición transitoria única concede a los laboratorios y entidades ya inscritos un plazo de un mes desde la entrada en vigor para presentar la declaración responsable; si no lo hacen, no pueden continuar con la actividad. La disposición derogatoria única deroga el Decreto 13/1988, el Decreto 21/2004 y varias órdenes de la Consejería de Obras Públicas y Transportes."
+     ]
+    },
+    {
+     "titulo": "11. Valoración y abono del control de calidad en la contratación pública",
+     "parrafos": [
+      "En la contratación pública, el control de calidad forma parte del proyecto y del contrato. La LCSP exige que el pliego de prescripciones técnicas particulares regule el control de calidad de los materiales empleados y del proceso de ejecución (art. 233.1, letra c), y que el presupuesto se ordene en los términos reglamentarios (art. 233.1, letra d). Por tanto, el control debe aparecer en el presupuesto del proyecto, con sus mediciones y precios.",
+      "El Decreto 67/2011 exige que el plan de control se presente con su correspondiente presupuesto (art. 3.1). Ese presupuesto es el que permite valorar el control como partida propia, separada de las unidades de obra, y el que sirve de referencia para su abono. El Código Estructural va en la misma dirección: el coste del control de la dirección facultativa, estimado en el plan de control, se considera de forma independiente en el presupuesto y lo retribuye directamente la propiedad, siempre que la legislación aplicable lo permita (Código Estructural, art. 17, apartado previo al 17.1).",
+      "El abono se produce según lo que se haya pactado en el contrato y lo que establezca la normativa de contratación. La LCSP regula el precio y la ejecución del contrato en sus artículos generales, que no se han leído en su totalidad; el reglamento general de contratación de las administraciones públicas (RD 1098/2001) regula las certificaciones y las partidas alzadas, y no está incluido en el repositorio. Por eso, en este tema las reglas de abono se presentan como principios y no como texto normativo verificado.",
+      "Una distinción práctica es la de las partidas alzadas. La LCSP y el reglamento permiten partidas alzadas en determinados supuestos, y el estudio de seguridad y salud del RD 1627/1997 admite solo las partidas alzadas de elementos u operaciones de difícil previsión (art. 5.4). Un control de calidad valorado por partida alzada sin justificar el alcance es un punto habitual de conflicto en la liquidación, y la medición del control por unidades ejecutadas evita ese conflicto."
+     ]
+    },
+    {
+     "titulo": "12. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir los controles del CTE (recepción, ejecución y obra terminada), los agentes del control y sus obligaciones según la LOE (arts. 13, 14 y 15), la clasificación de los tipos de conformidad del Código Estructural y la estructura del Registro andaluz (tres secciones y declaración responsable). Conviene memorizar los cuatro bloques del artículo 7 del CTE, las tres vías de control de recepción del artículo 7.2 y las tres secciones del Registro andaluz.",
+      "Los errores habituales son cuatro. El primero es confundir el distintivo de calidad con la evaluación técnica de idoneidad: el distintivo acredita un producto ya normalizado, y la evaluación se refiere a un producto innovador. El segundo es atribuir la autorización previa al sistema actual de declaración responsable de la LOE. El tercero es confundir la certificación del sistema de gestión, que es de la entidad o del laboratorio, con la conformidad de un producto. El cuarto es suponer que el control de calidad exime de responsabilidad a los agentes, cuando el decreto dice expresamente lo contrario (art. 8).",
+      "Para un caso práctico de recepción de un suministro de hormigón en una obra de viviendas, el orden de análisis es: comprobar la documentación de suministro del fabricante (control de la documentación); verificar si el proyecto exige ensayos de recepción y en qué muestreo (control mediante ensayos); asegurar que el laboratorio que los realiza es independiente y tiene declaración responsable en el registro; archivar el acta de toma de muestras y el informe de resultados en el libro del edificio; y decidir la aceptación del lote según los criterios de aceptación y rechazo del proyecto.",
+      "Conviene estudiar el tema en dos bloques. El primero es el control técnico, con el CTE, el Código Estructural y la LOE. El segundo es el control administrativo, con el decreto andaluz, el Registro y la contratación pública. Un examen que mezcla ambos suele preguntar por la relación entre ellos: por ejemplo, qué debe presentar una entidad de control en Andalucía antes de iniciar su actividad, o qué debe incluir el presupuesto del proyecto respecto al control de calidad."
+     ]
+    },
+    {
+     "titulo": "13. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 13 de la LOE (apartados 1 y 2, letras a a f), los artículos 14 a 16 de la LOE en sus obligaciones principales y el artículo 17.1 (letras a y b); el artículo 7 del CTE (apartados 7.1 a 7.4) y el artículo 8.1 (apartados 1 a 3); el artículo 17 del Código Estructural (apartados 17.1 y 17.2, con las letras de 17.2.1 y los apartados 17.2.2.1 y 17.2.2.2); el artículo 18 del Código; el Decreto 67/2011 en sus artículos 1 a 17, la disposición transitoria única, la derogatoria única y las disposiciones finales; y el artículo 233.1, letras c y d, de la LCSP.",
+      "No se han leído el Real Decreto 410/2010, el reglamento general de contratación (RD 1098/2001), el anexo II del CTE completo, los anexos I y II del Decreto 67/2011 (modelos de declaración), ni los artículos del Código Estructural sobre el control de hormigón y acero en su cuerpo completo (arts. 20 a 24). Tampoco se ha verificado si el Decreto 67/2011 ha sido modificado con posterioridad a su publicación en el BOJA del 19 de abril de 2011.",
+      "Las reglas concretas de abono y de medición del control de calidad, así como las modalidades de la partida alzada y de la certificación, se presentan como principios de la práctica. Deben contrastarse con el pliego del proyecto y con el reglamento de contratación antes de citarlos en un examen."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-1999-21567.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/BOE-A-2021-13681-extracto.pdf",
+    "leyes/BOE-A-2017-12902.pdf",
+    "leyes/DEC-AND-67-2011.pdf"
+   ]
+  },
+  "e18": {
+   "resumen": [
+    {
+     "titulo": "Marco normativo",
+     "puntos": [
+      "La LPRL (Ley 31/1995) fija los principios de la acción preventiva. Para las obras de construcción, el RD 1627/1997 establece las disposiciones mínimas de seguridad y salud (art. 1). Para los lugares de trabajo, el RD 486/1997.",
+      "El RD 1627/1997 remite a los RD 1215/1997 (equipos de trabajo) y 773/1997 (EPI), y el RD 486/1997 a la señalización del RD 485/1997."
+     ]
+    },
+    {
+     "titulo": "Lugares de trabajo y primeros auxilios",
+     "puntos": [
+      "El RD 486/1997 exige condiciones constructivas seguras frente a resbalones, caídas, choques y derrumbamientos (art. 4), y orden, limpieza, mantenimiento, iluminación e instalaciones de servicio (arts. 5, 6 y 8).",
+      "Botiquín portátil mínimo en todo lugar de trabajo; local de primeros auxilios en los lugares de más de 50 trabajadores (anexo VI, apartados A.3 y A.5)."
+     ]
+    },
+    {
+     "titulo": "Principios de la acción preventiva y protecciones",
+     "puntos": [
+      "Nueve principios de la acción preventiva (LPRL, art. 15.1): evitar, evaluar, combatir en origen, adaptar el trabajo a la persona, técnica, sustituir, planificar, proteger colectivamente antes que individualmente, e instruir.",
+      "Los EPI se usan cuando el riesgo no se puede evitar ni limitar suficientemente por medios de protección colectiva o de organización (LPRL, art. 17.2). El anexo IV del RD 1627/1997 fija las disposiciones mínimas por tipo de trabajo."
+     ]
+    },
+    {
+     "titulo": "Emergencias y riesgo grave e inminente",
+     "puntos": [
+      "El empresario analiza las emergencias, designa personal, lo forma y comprueba periódicamente el material (LPRL, art. 20).",
+      "Ante un riesgo grave e inminente, los trabajadores pueden interrumpir su actividad y abandonar el lugar de trabajo (LPRL, art. 21.1, letra b). El coordinador o la dirección facultativa pueden paralizar los tajos (RD 1627/1997, art. 14)."
+     ]
+    },
+    {
+     "titulo": "Estudio y estudio básico",
+     "puntos": [
+      "Estudio de seguridad si el presupuesto alcanza 75 millones de pesetas, si la duración supera 30 días laborables con más de 20 trabajadores, si el volumen supera 500 jornadas, o en túneles, galerías, conducciones subterráneas y presas (art. 4.1). En los demás casos, estudio básico (art. 4.2).",
+      "El estudio contiene memoria, pliego, planos, mediciones y presupuesto (art. 5.2); forma parte del proyecto (art. 5.3). Su presupuesto se valora unitariamente, con partidas alzadas solo para difícil previsión (art. 5.4). Sin visado ni licencia sin el estudio (art. 17)."
+     ]
+    },
+    {
+     "titulo": "Plan de seguridad y coordinadores",
+     "puntos": [
+      "Cada contratista elabora su plan (art. 7.1), que aprueba el coordinador de ejecución antes del inicio (art. 7.2). El coordinador de proyecto se designa si intervienen varios proyectistas; el de ejecución, si intervienen varias empresas o autónomos (art. 3).",
+      "Libro de incidencias en cada centro de trabajo (art. 13): lo custodia el coordinador y se remite copia a la Inspección en 24 horas cuando procede (art. 13.3 y 13.4)."
+     ]
+    },
+    {
+     "titulo": "Obligaciones de empresas, autónomos y trabajadores",
+     "puntos": [
+      "Contratistas y subcontratistas cumplen y hacen cumplir el plan, responden solidariamente de su incumplimiento (art. 11) y deben informar a los trabajadores (art. 15).",
+      "Los trabajadores autónomos cumplen el anexo IV, las obligaciones del artículo 29 de la LPRL y el plan (art. 12)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LPRL",
+     "rol": "Principios de la acción preventiva, protecciones, emergencias y riesgo grave e inminente (arts. 15, 17, 20 y 21)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Estudio y plan de seguridad, coordinadores, libro de incidencias, paralización y obligaciones (arts. 3 a 17 y anexo IV)"
+    },
+    {
+     "id": "RD-486-1997",
+     "rol": "Disposiciones mínimas de los lugares de trabajo: condiciones, servicios, primeros auxilios (arts. 3 a 10 y anexo VI)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la LPRL, art. 15.1, letra h, ¿qué principio de la acción preventiva debe aplicarse?",
+     "opciones": [
+      "Anteponer la protección colectiva a la individual",
+      "Eliminar cualquier equipo de protección",
+      "Evaluar solo los riesgos que ya han causado daños",
+      "Anteponer la protección individual a la colectiva"
+     ],
+     "correcta": 0,
+     "explicacion": "El empresario debe adoptar medidas que antepongan la protección colectiva a la individual (LPRL, art. 15.1, letra h).",
+     "referencia": "LPRL, art. 15.1, letra h)"
+    },
+    {
+     "pregunta": "Según el RD 486/1997, anexo VI, apartado A.3, ¿qué debe tener como mínimo todo lugar de trabajo para primeros auxilios?",
+     "opciones": [
+      "Nada, si hay menos de diez trabajadores",
+      "Un quirófano",
+      "Un botiquín portátil con desinfectantes, antisépticos autorizados, gasas, venda y otros elementos básicos",
+      "Una ambulancia propia"
+     ],
+     "correcta": 2,
+     "explicacion": "Todo lugar de trabajo debe disponer, como mínimo, de un botiquín portátil con los elementos enumerados en el apartado A.3 del anexo VI.",
+     "referencia": "RD 486/1997, anexo VI, apartado A.3"
+    },
+    {
+     "pregunta": "Según el RD 486/1997, anexo VI, apartado A.5, ¿a partir de cuántos trabajadores deben los lugares de trabajo disponer de un local destinado a primeros auxilios?",
+     "opciones": [
+      "Más de 100 trabajadores",
+      "Más de 10 trabajadores",
+      "Más de 25 trabajadores, en todos los casos",
+      "Más de 50 trabajadores"
+     ],
+     "correcta": 3,
+     "explicacion": "Los lugares de trabajo de más de 50 trabajadores deben disponer de un local destinado a los primeros auxilios y otras atenciones sanitarias (anexo VI, apartado A.5).",
+     "referencia": "RD 486/1997, anexo VI, apartado A.5"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, art. 4.1, ¿cuál de los siguientes NO es un supuesto que obliga a elaborar un estudio de seguridad y salud?",
+     "opciones": [
+      "Un presupuesto de ejecución por contrata igual o superior a 75 millones de pesetas",
+      "Una obra de un solo día con dos trabajadores",
+      "Las obras de túneles, galerías, conducciones subterráneas y presas",
+      "Una duración superior a 30 días laborables con más de 20 trabajadores simultáneos"
+     ],
+     "correcta": 1,
+     "explicacion": "Los supuestos del artículo 4.1 son el presupuesto igual o superior a 75 millones de pesetas, la duración superior a 30 días laborables con más de 20 trabajadores, el volumen superior a 500 jornadas, y las obras de túneles, galerías, conducciones subterráneas y presas. Una obra de un día con dos trabajadores no está en ellos.",
+     "referencia": "RD 1627/1997, art. 4.1"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, art. 4.2, ¿qué documento debe elaborarse en las obras que no alcanzan los supuestos del artículo 4.1?",
+     "opciones": [
+      "Un estudio básico de seguridad y salud",
+      "Ningún documento",
+      "Un plan de emergencia municipal",
+      "Un libro de visitas"
+     ],
+     "correcta": 0,
+     "explicacion": "En los proyectos de obras no incluidos en los supuestos del artículo 4.1, el promotor debe encargar un estudio básico de seguridad y salud (art. 4.2).",
+     "referencia": "RD 1627/1997, art. 4.2"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, art. 7.2, ¿quién debe aprobar el plan de seguridad y salud del contratista antes del inicio de la obra?",
+     "opciones": [
+      "El propio contratista",
+      "El promotor",
+      "El coordinador en materia de seguridad y salud durante la ejecución de la obra",
+      "El colegio profesional del técnico que redactó el proyecto"
+     ],
+     "correcta": 2,
+     "explicacion": "El plan debe ser aprobado, antes del inicio de la obra, por el coordinador en materia de seguridad y salud durante la ejecución (art. 7.2). Si no hay coordinador, lo asume la dirección facultativa.",
+     "referencia": "RD 1627/1997, art. 7.2"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, art. 3.2, ¿cuándo debe el promotor designar un coordinador en materia de seguridad y salud durante la ejecución de la obra?",
+     "opciones": [
+      "Nunca, lo hace el contratista",
+      "Solo en las obras de la Administración",
+      "Solo cuando el presupuesto supera 75 millones de pesetas",
+      "Cuando intervenga más de una empresa, o una empresa y trabajadores autónomos, o diversos autónomos"
+     ],
+     "correcta": 3,
+     "explicacion": "El promotor debe designar un coordinador durante la ejecución antes del inicio de los trabajos, o tan pronto como se constate, cuando intervenga más de una empresa, o una empresa y trabajadores autónomos, o diversos autónomos (art. 3.2).",
+     "referencia": "RD 1627/1997, art. 3.2"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, art. 13.4, ¿en qué plazo debe remitirse copia de determinadas anotaciones del libro de incidencias a la Inspección de Trabajo y Seguridad Social?",
+     "opciones": [
+      "No es necesario remitirla",
+      "En 24 horas",
+      "En 30 días laborables",
+      "En un año"
+     ],
+     "correcta": 1,
+     "explicacion": "Cuando la anotación se refiere a un incumplimiento de advertencias previas, o cuando se produce la paralización, debe remitirse copia a la Inspección de Trabajo y Seguridad Social en el plazo de veinticuatro horas (art. 13.4).",
+     "referencia": "RD 1627/1997, art. 13.4"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, art. 13.3, ¿quién tiene en su poder el libro de incidencias durante la ejecución de la obra, cuando es necesario designar coordinador?",
+     "opciones": [
+      "El promotor en su domicilio",
+      "El contratista principal",
+      "El coordinador en materia de seguridad y salud durante la ejecución de la obra",
+      "El representante de los trabajadores"
+     ],
+     "correcta": 2,
+     "explicacion": "El libro debe mantenerse siempre en la obra y estar en poder del coordinador durante la ejecución o, cuando no sea necesario designarlo, de la dirección facultativa (art. 13.3).",
+     "referencia": "RD 1627/1997, art. 13.3"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, art. 14.1, ¿quién puede disponer la paralización de los tajos en caso de riesgo grave e inminente?",
+     "opciones": [
+      "El coordinador de seguridad durante la ejecución o cualquier otra persona integrada en la dirección facultativa",
+      "Nadie, la obra no puede paralizarse nunca",
+      "Cualquier trabajador de la obra por su cuenta",
+      "Solo el promotor, sin informar a nadie"
+     ],
+     "correcta": 0,
+     "explicacion": "En circunstancias de riesgo grave e inminente, el coordinador durante la ejecución o cualquier persona integrada en la dirección facultativa puede disponer la paralización de los tajos o de la totalidad de la obra (art. 14.1).",
+     "referencia": "RD 1627/1997, art. 14.1"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Marco normativo",
+     "parrafos": [
+      "La seguridad y la salud en el trabajo tienen su base en la Ley 31/1995, de Prevención de Riesgos Laborales (LPRL), que fija los principios de la acción preventiva, las obligaciones del empresario y los derechos de los trabajadores. La LPRL es una ley de mínimos: las normas reglamentarias la desarrollan para cada tipo de centro de trabajo y de actividad.",
+      "Para las obras de construcción, la norma de referencia es el Real Decreto 1627/1997, de 24 de octubre, que establece las disposiciones mínimas de seguridad y salud aplicables a las obras de construcción en el marco de la LPRL (art. 1, apartado 1). Ese real decreto no se aplica a las industrias extractivas, y sus disposiciones sobre prevención se completan con el Reglamento de los Servicios de Prevención (RD 39/1997), que se aplica plenamente al ámbito de la obra (art. 1, apartado 3).",
+      "Para los lugares de trabajo en general, el Real Decreto 486/1997, de 14 de abril, fija las disposiciones mínimas de seguridad y salud en los lugares de trabajo, que la obra debe cumplir en sus instalaciones de servicio, en su orden, en su iluminación y en sus primeros auxilios (RD 486/1997, arts. 3 a 10 y anexos). La señalización se rige por el Real Decreto 485/1997, al que remite el artículo 5 del RD 486/1997.",
+      "El RD 1627/1997 remite también al Real Decreto 1215/1997, sobre la utilización de los equipos de trabajo, y al Real Decreto 773/1997, sobre los equipos de protección individual (art. 12, apartado 1, letras e y f). Ambos se citan aquí como referencia, y su texto no se ha leído en el repositorio."
+     ]
+    },
+    {
+     "titulo": "2. Disposiciones mínimas generales de los lugares de trabajo",
+     "parrafos": [
+      "El empresario debe adoptar las medidas necesarias para que la utilización de los lugares de trabajo no origine riesgos, o para que los riesgos se reduzcan al mínimo. Los lugares de trabajo deben cumplir las disposiciones mínimas sobre sus condiciones constructivas, orden, limpieza y mantenimiento, señalización, instalaciones de servicio o protección, condiciones ambientales, iluminación, servicios higiénicos y locales de descanso, y material y locales de primeros auxilios (RD 486/1997, art. 3).",
+      "Las condiciones constructivas deben ofrecer seguridad frente a los resbalones o caídas, los choques o golpes contra objetos y los derrumbamientos o caídas de materiales sobre los trabajadores. Deben además facilitar el control de las emergencias, en especial el incendio, y permitir la rápida y segura evacuación cuando sea necesario (art. 4, apartados 1 y 2). El anexo I fija los requisitos mínimos de seguridad de los lugares de trabajo (art. 4, apartado 3).",
+      "El orden, la limpieza y el mantenimiento se ajustan al anexo II (art. 5). Las condiciones ambientales, y en particular las termohigrométricas, se ajustan al anexo III (art. 7, apartado 1), mientras que la exposición a los agentes físicos, químicos y biológicos se rige por su normativa específica (art. 7, apartado 2). La iluminación debe permitir la visibilidad adecuada para circular y trabajar sin riesgo, y cumplir el anexo IV (art. 8).",
+      "Las instalaciones de servicio y de protección deben cumplir las disposiciones mínimas del RD 486/1997 y las reglamentaciones específicas de seguridad que resulten de aplicación (art. 6). Los servicios higiénicos y los locales de descanso se ajustan al anexo V (art. 9)."
+     ]
+    },
+    {
+     "titulo": "3. Medidas de emergencia, primeros auxilios y servicios sanitarios",
+     "parrafos": [
+      "La LPRL exige al empresario analizar las posibles situaciones de emergencia y adoptar las medidas necesarias en materia de primeros auxilios, lucha contra incendios y evacuación de los trabajadores. Debe designar al personal encargado de ponerlas en práctica, con la formación necesaria, suficiente en número y con el material adecuado, y comprobar periódicamente su correcto funcionamiento. Debe organizar además las relaciones con servicios externos, en particular para primeros auxilios, asistencia médica de urgencia, salvamento y lucha contra incendios (LPRL, art. 20).",
+      "El RD 486/1997 concreta el material de primeros auxilios. Los lugares de trabajo deben disponer del material adecuado a su número de trabajadores, a los riesgos y a la distancia del centro de asistencia médica más próximo, y el material debe adaptarse a las atribuciones del personal habilitado para prestarlo (art. 10 y anexo VI, apartado A.1). Su situación debe permitir prestar los primeros auxilios con la rapidez que requiera el daño previsible (anexo VI, apartado A.2).",
+      "Todo lugar de trabajo debe tener, como mínimo, un botiquín portátil con desinfectantes y antisépticos autorizados, gasas estériles, algodón hidrófilo, venda, esparadrapo, apósitos adhesivos, tijeras, pinzas y guantes desechables (anexo VI, apartado A.3). El material debe revisarse periódicamente y reponerse tan pronto como caduque o se utilice (anexo VI, apartado A.4).",
+      "Los lugares de trabajo de más de 50 trabajadores deben disponer de un local destinado a los primeros auxilios y a otras posibles atenciones sanitarias, y el mismo deber recae en algunos lugares de más de 25 trabajadores, en los casos que el anexo establece (anexo VI, apartado A.5). En una obra de edificación, el número de trabajadores varía con las fases, y la previsión de estos servicios debe hacerse en el estudio de seguridad con referencia a la fase de mayor personal."
+     ]
+    },
+    {
+     "titulo": "4. Principios de la acción preventiva",
+     "parrafos": [
+      "El empresario aplica las medidas preventivas con arreglo a nueve principios generales (LPRL, art. 15, apartado 1): evitar los riesgos; evaluar los que no se puedan evitar; combatir los riesgos en su origen; adaptar el trabajo a la persona, en particular en la concepción de los puestos y la elección de equipos y métodos; tener en cuenta la evolución de la técnica; sustituir lo peligroso por lo que entrañe poco o ningún peligro; planificar la prevención, integrando técnica, organización del trabajo, condiciones de trabajo, relaciones sociales e influencia de los factores ambientales; adoptar medidas que antepongan la protección colectiva a la individual; y dar las debidas instrucciones a los trabajadores.",
+      "La lista no fija un orden de aplicación en la ley, pero conviene leerla como una secuencia: primero evitar, por último instruir. Un riesgo que se puede eliminar en el diseño no debe transferirse a la protección individual. El principio de anteponer la protección colectiva a la individual (letra h) es la razón por la que en la obra las barandillas y las redes preceden al arnés, aunque ambos se usen.",
+      "El empresario debe tener en cuenta las capacidades profesionales de los trabajadores en materia de seguridad al encomendarles las tareas (LPRL, art. 15, apartado 2). Solo pueden acceder a las zonas de riesgo grave y específico los trabajadores que hayan recibido información suficiente y adecuada (art. 15, apartado 3). Y las medidas preventivas deben prever las distracciones o imprudencias no temerarias del trabajador, y solo pueden adoptarse medidas con riesgos adicionales cuando estos sean sustancialmente inferiores a los que se controlan y no existan alternativas más seguras (art. 15, apartado 4).",
+      "El RD 1627/1997 traslada estos principios a la obra. El artículo 8 obliga al proyectista a tenerlos en cuenta al tomar las decisiones constructivas, técnicas y de organización de los distintos trabajos, y al estimar la duración de cada uno de ellos. El artículo 10 los aplica a la ejecución: al mantenimiento de la obra en buen estado de orden y limpieza, a la elección del emplazamiento de los puestos, a la manipulación de los materiales, al control de las instalaciones y dispositivos, al almacenamiento de los materiales peligrosos y a la gestión de los residuos."
+     ]
+    },
+    {
+     "titulo": "5. Protecciones personales y colectivas",
+     "parrafos": [
+      "El empresario debe adoptar las medidas necesarias para que los equipos de trabajo sean adecuados al trabajo y garanticen la seguridad de quienes los usan. Cuando su utilización presente un riesgo específico, la utilización debe quedar reservada a los encargados de ella, y las reparaciones, transformaciones y labores de mantenimiento deben hacerlas trabajadores específicamente capacitados (LPRL, art. 17, apartado 1).",
+      "El empresario debe proporcionar equipos de protección individual adecuados a las funciones de cada trabajador, y velar por su uso efectivo (LPRL, art. 17, apartado 2). Estos equipos deben utilizarse cuando los riesgos no puedan evitarse ni limitarse suficientemente por medios técnicos de protección colectiva o por medidas de organización del trabajo. La selección y el uso de los EPI se regulan por el Real Decreto 773/1997, al que remite el RD 1627/1997.",
+      "La protección colectiva tiene prioridad, como ya se ha visto en el principio de la letra h del artículo 15. En la obra, las protecciones colectivas más habituales son las barandillas y las barreras de los huecos, las redes de recogida, los entablados de protección, los sistemas de apuntalamiento y apeo, y la señalización de los accesos. El anexo IV del RD 1627/1997 fija las disposiciones mínimas de cada tipo de trabajo, y en particular para los movimientos de tierras (apartado 9), las instalaciones de energía (apartado 10), las estructuras de hormigón y de acero (apartado 11), y los trabajos de derribo, tejados y explosivos (apartado 12).",
+      "En los apeos y apuntalamientos, el anexo IV exige que su montaje y desmontaje se haga bajo la vigilancia, el control y la dirección de una persona competente (apartado 11, letra a). En los tejados, el apartado 12, letra b, regula la protección colectiva según la altura, la inclinación y el estado resbaladizo de la superficie. En los movimientos de tierras, el apartado 9 exige localizar y reducir al mínimo los peligros de cables y conducciones subterráneas, y prevenir el sepultamiento y la irrupción de agua."
+     ]
+    },
+    {
+     "titulo": "6. El riesgo grave e inminente",
+     "parrafos": [
+      "Cuando los trabajadores estén o puedan estar expuestos a un riesgo grave e inminente, el empresario debe informarles lo antes posible de su existencia y de las medidas adoptadas. Debe también dar las instrucciones necesarias para que, si hay un peligro grave, inminente e inevitable, los trabajadores puedan interrumpir su actividad y abandonar el lugar de trabajo de inmediato (LPRL, art. 21, apartado 1, letras a y b).",
+      "En la obra, el riesgo grave e inminente justifica la paralización. El artículo 14 del RD 1627/1997 permite al coordinador de seguridad durante la ejecución, o a cualquier persona integrada en la dirección facultativa, advertir al contratista del incumplimiento de las medidas de seguridad, dejando constancia en el libro de incidencias. En caso de riesgo grave e inminente, puede disponer la paralización de los tajos o, en su caso, de la totalidad de la obra. La persona que ordena la paralización debe dar cuenta a la Inspección de Trabajo y Seguridad Social, a los contratistas y subcontratistas afectados y a sus representantes de los trabajadores (art. 14, apartados 1 y 2).",
+      "La paralización se entiende sin perjuicio de la normativa de contratos de las administraciones públicas en cuanto al cumplimiento de plazos y a la suspensión de obras (art. 14, apartado 3)."
+     ]
+    },
+    {
+     "titulo": "7. El estudio de seguridad y salud y el estudio básico",
+     "parrafos": [
+      "El promotor debe encargar, en la fase de redacción del proyecto, un estudio de seguridad y salud cuando la obra cumpla alguno de estos supuestos (RD 1627/1997, art. 4, apartado 1): presupuesto de ejecución por contrata igual o superior a 75 millones de pesetas; duración estimada superior a 30 días laborables con más de 20 trabajadores simultáneos; volumen de mano de obra superior a 500 jornadas; u obras de túneles, galerías, conducciones subterráneas y presas. El umbral de presupuesto está expresado en pesetas, y debe actualizarse a la moneda vigente en la comprobación del caso concreto.",
+      "Cuando la obra no cumple ninguno de esos supuestos, el promotor debe encargar un estudio básico de seguridad y salud (art. 4, apartado 2). El estudio básico debe precisar las normas de seguridad y salud aplicables a la obra, identificar los riesgos que pueden evitarse y las medidas técnicas para ello, relacionar los que no pueden eliminarse con las medidas preventivas y protecciones técnicas, y valorar su eficacia (art. 6, apartado 2). También debe contener las previsiones útiles para los trabajos posteriores (art. 6, apartado 3).",
+      "El estudio de seguridad lo elabora el técnico competente designado por el promotor, o el coordinador durante la elaboración del proyecto si existe, bajo su responsabilidad (art. 5, apartado 1). Debe contener, como mínimo, una memoria descriptiva de los procedimientos, equipos y medios auxiliares, con la identificación de los riesgos y las medidas técnicas; un pliego de condiciones particulares; los planos necesarios; las mediciones de las unidades de seguridad; y un presupuesto (art. 5, apartado 2, letras a a e). La memoria debe describir también los servicios sanitarios y comunes que debe tener el centro de trabajo, en función del número de trabajadores que los vayan a utilizar.",
+      "El estudio de seguridad debe formar parte del proyecto de ejecución, o del proyecto de obra, y ser coherente con él (art. 5, apartado 3). Debe tener en cuenta cualquier actividad que se lleve a cabo en la obra, y localizar las zonas en las que se realicen trabajos con riesgos especiales del anexo II (art. 5, apartado 5). Y debe contemplar las previsiones para los trabajos posteriores, como el mantenimiento (art. 5, apartado 6).",
+      "El presupuesto del estudio debe cuantificar el conjunto de gastos previstos, tanto en la suma total como en la valoración unitaria de los elementos, con referencia al cuadro de precios. Solo pueden figurar partidas alzadas para elementos u operaciones de difícil previsión (art. 5, apartado 4). El presupuesto del estudio debe incorporarse al presupuesto general de la obra como un capítulo más. No pueden incluirse en él los costes exigidos por la correcta ejecución profesional de los trabajos, conforme a las normas reglamentarias y los criterios técnicos generalmente admitidos."
+     ]
+    },
+    {
+     "titulo": "8. El plan de seguridad y salud en el trabajo",
+     "parrafos": [
+      "Cada contratista debe elaborar un plan de seguridad y salud en el trabajo, que analice, estudie, desarrolle y complemente las previsiones del estudio o del estudio básico según su propio sistema de ejecución (RD 1627/1997, art. 7, apartado 1). El plan puede incluir propuestas de medidas alternativas, con su justificación técnica, siempre que no supongan disminución de los niveles de protección previstos. Si el plan se elabora a partir de un estudio de seguridad, las alternativas deben valorarse económicamente, sin disminución del importe total (art. 7, apartado 1, segundo párrafo).",
+      "El plan debe ser aprobado, antes del inicio de la obra, por el coordinador de seguridad durante la ejecución. En las obras de las administraciones públicas, el plan, con el informe del coordinador, se eleva para su aprobación a la administración que haya adjudicado la obra. Cuando no sea necesaria la designación de coordinador, estas funciones las asume la dirección facultativa (art. 7, apartado 2).",
+      "El plan es el instrumento básico de ordenación de la identificación y evaluación de los riesgos y de la planificación de la actividad preventiva de cada puesto de trabajo en la obra, a las que se refiere el capítulo II del Reglamento de los Servicios de Prevención (art. 7, apartado 3). El contratista puede modificarlo según la evolución de los trabajos, pero siempre con la aprobación expresa del coordinador (art. 7, apartado 4). Las personas y órganos con responsabilidades en prevención de las empresas, y los representantes de los trabajadores, pueden presentar por escrito sugerencias y alternativas razonadas.",
+      "El plan debe estar en la obra a disposición permanente de quienes intervienen en ella, de los representantes de los trabajadores y de la dirección facultativa (art. 7, apartados 4 y 5). Los representantes de los trabajadores deben recibir una copia del plan y de sus modificaciones, facilitada por el contratista (art. 16, apartado 3)."
+     ]
+    },
+    {
+     "titulo": "9. Los coordinadores en materia de seguridad y salud",
+     "parrafos": [
+      "El RD 1627/1997 distingue dos coordinadores. El primero es el coordinador durante la elaboración del proyecto, que el promotor debe designar cuando en la redacción intervienen varios proyectistas (art. 3, apartado 1). Su función es coordinar la aplicación de los principios del artículo 8 durante la fase de proyecto (art. 8, apartado 3). El segundo es el coordinador durante la ejecución de la obra, que el promotor debe designar antes del inicio de los trabajos cuando intervienen varias empresas, o una empresa y trabajadores autónomos (art. 3, apartado 2).",
+      "Las dos figuras pueden recaer en la misma persona (art. 3, apartado 3). La designación no exime al promotor de sus responsabilidades (art. 3, apartado 4). El coordinador de ejecución es un técnico competente integrado en la dirección facultativa, designado por el promotor (art. 2, apartado 1, letra f).",
+      "El coordinador durante la ejecución debe coordinar la aplicación de los principios de prevención al tomar las decisiones técnicas y de organización, y al estimar la duración de los trabajos (art. 9, letra a). Debe coordinar las actividades de la obra para que contratistas, subcontratistas y autónomos apliquen de forma coherente los principios del artículo 15 de la LPRL (letra b). Debe aprobar el plan de seguridad de cada contratista y sus modificaciones (letra c). Debe organizar la coordinación de actividades empresariales del artículo 24 de la LPRL (letra d), coordinar el control de la correcta aplicación de los métodos de trabajo (letra e) y adoptar las medidas para que solo las personas autorizadas accedan a la obra (letra f).",
+      "Cuando no es necesario designar coordinador, la dirección facultativa asume las funciones de aprobar el plan y de controlar el acceso, y también la paralización y el libro de incidencias (art. 7, apartado 2; art. 9, letras c y f; art. 14, apartado 1)."
+     ]
+    },
+    {
+     "titulo": "10. El libro de incidencias",
+     "parrafos": [
+      "En cada centro de trabajo debe existir un libro de incidencias, con hojas por duplicado, para el control y seguimiento del plan de seguridad y salud (RD 1627/1997, art. 13, apartado 1). El libro lo facilita el colegio profesional al que pertenece el técnico que aprobó el plan, o la Oficina de Supervisión de Proyectos u órgano equivalente en las obras de las administraciones públicas (art. 13, apartado 2).",
+      "El libro debe mantenerse siempre en la obra y estar en poder del coordinador de seguridad durante la ejecución o, si no es necesario designarlo, de la dirección facultativa (art. 13, apartado 3). Tienen acceso a él la dirección facultativa, los contratistas y subcontratistas, los trabajadores autónomos, las personas con responsabilidades de prevención en las empresas, los representantes de los trabajadores y los técnicos de los órganos especializados de las administraciones públicas, que pueden hacer anotaciones relacionadas con sus fines (art. 13, apartado 3).",
+      "Cuando se hace una anotación, el coordinador (o la dirección facultativa) debe notificarla al contratista afectado y a los representantes de los trabajadores de este. Si la anotación se refiere a un incumplimiento de advertencias anteriores, o si se produce una paralización, debe remitirse una copia a la Inspección de Trabajo y Seguridad Social en el plazo de veinticuatro horas. En todo caso, la anotación debe indicar si es una reiteración o una observación nueva (art. 13, apartado 4).",
+      "El libro de incidencias es el instrumento de comunicación formal entre la dirección facultativa, las empresas y la Inspección. Su uso regular deja constancia de las advertencias, y las advertencias sin respuesta justifican la paralización. Por eso el examen suele preguntar por quién lo custodia, quién puede anotar en él y a quién debe comunicarse la anotación."
+     ]
+    },
+    {
+     "titulo": "11. Obligaciones de contratistas, subcontratistas y trabajadores autónomos",
+     "parrafos": [
+      "Los contratistas y subcontratistas deben aplicar los principios de la acción preventiva en las tareas del artículo 10, cumplir y hacer cumplir a su personal el plan de seguridad y salud, cumplir la normativa de prevención y las obligaciones de coordinación de actividades empresariales del artículo 24 de la LPRL, y cumplir las disposiciones mínimas del anexo IV del RD 1627/1997 (art. 11, apartado 1, letras a a c). Deben también informar y dar las instrucciones adecuadas a los trabajadores autónomos, y atender las indicaciones y cumplir las instrucciones del coordinador o de la dirección facultativa (art. 11, apartado 1, letras d y e).",
+      "Los contratistas y subcontratistas son responsables de la ejecución correcta de las medidas del plan en lo que les corresponda, directamente o a través de los autónomos que contraten. Además, responden solidariamente de las consecuencias del incumplimiento de las medidas previstas en el plan, en los términos del artículo 42, apartado 2, de la LPRL (art. 11, apartado 2). Las responsabilidades de los coordinadores, de la dirección facultativa y del promotor no eximen de sus responsabilidades a los contratistas y subcontratistas (art. 11, apartado 3).",
+      "Los trabajadores autónomos deben aplicar los principios de la acción preventiva en sus tareas, cumplir las disposiciones mínimas del anexo IV, cumplir las obligaciones de los trabajadores del artículo 29, apartados 1 y 2, de la LPRL, y ajustar su actuación a los deberes de coordinación. Deben utilizar equipos de trabajo conformes al RD 1215/1997 y elegir y usar los EPI conforme al RD 773/1997 (art. 12, apartado 1, letras a a f). Y deben cumplir lo establecido en el plan de seguridad y salud (art. 12, apartado 2).",
+      "Los contratistas deben garantizar que los trabajadores reciban una información adecuada y comprensible de las medidas de seguridad y salud de la obra (art. 15). El plan debe ser objeto de consulta y participación de los trabajadores o de sus representantes, en los términos del artículo 18, apartado 2, de la LPRL (art. 16, apartado 1)."
+     ]
+    },
+    {
+     "titulo": "12. Visado, licencia y tramitación",
+     "parrafos": [
+      "La inclusión en el proyecto de ejecución del estudio de seguridad y salud, o del estudio básico, es requisito necesario para el visado del proyecto por el colegio profesional correspondiente, para la expedición de la licencia municipal y para las demás autorizaciones y trámites de las administraciones públicas (RD 1627/1997, art. 17, apartado 1). En los proyectos de obras de las administraciones públicas, la Oficina de Supervisión de Proyectos u órgano equivalente debe hacer una declaración expresa sobre la inclusión del estudio correspondiente (art. 17, apartado 2).",
+      "El artículo 18 sobre el aviso previo está derogado. La información a la autoridad laboral se regula en el artículo 19, que no se ha leído en el texto del repositorio.",
+      "La tramitación tiene, por tanto, un orden lógico: el promotor encarga el estudio o el estudio básico durante la redacción del proyecto; el estudio forma parte del proyecto de ejecución; el colegio visa el proyecto con el estudio incluido; la licencia se concede con el estudio; el contratista elabora su plan antes del inicio; el coordinador lo aprueba; y el libro de incidencias se abre en la obra. Una omisión en cualquiera de estos pasos impide que la obra se inicie con garantías."
+     ]
+    },
+    {
+     "titulo": "13. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio: los artículos 15, 17, 20 y 21 de la LPRL; los artículos 1 a 17 del RD 1627/1997, con el anexo IV en sus apartados 9, 11 y 12 (ya verificados en temas anteriores); los artículos 3 a 10 y el anexo VI, apartados A.1 a A.5, del RD 486/1997, y el artículo 5 de ese real decreto sobre la señalización.",
+      "No se han leído en el repositorio la LPRL en sus artículos 14, 16, 24 y 42 en su texto completo, el RD 39/1997 (Reglamento de los Servicios de Prevención), el RD 485/1997, el RD 1215/1997, el RD 773/1997, el anexo I, el anexo II y el anexo IV completo del RD 1627/1997, ni la Ley 32/2006, reguladora de la subcontratación en el sector de la construcción.",
+      "La cifra del umbral del artículo 4 del RD 1627/1997 está expresada en pesetas, y el repositorio no contiene la norma que la actualice. La aplicación práctica del umbral debe comprobarse con la normativa vigente antes de citarla en un examen."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-1995-24292.pdf",
+    "leyes/BOE-A-1997-22614.pdf",
+    "leyes/BOE-A-1997-8669.pdf"
    ]
   },
   "e20": {
