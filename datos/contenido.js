@@ -17411,6 +17411,654 @@ window.DATOS_ESTUDIO = {
     "leyes/BOE-A-1995-24292.pdf"
    ]
   },
+  "e15": {
+   "resumen": [
+    {
+     "titulo": "Tipos de intervención",
+     "puntos": [
+      "Reparación, consolidación, refuerzo, reforma y rehabilitación. La LOE trata como edificación las intervenciones que alteran la configuración arquitectónica o el sistema estructural, o que cambian el uso (LOE, art. 2.2, letra b).",
+      "El CTE se aplica a las intervenciones en edificios existentes, con las limitaciones que indica su artículo 2.3."
+     ]
+    },
+    {
+     "titulo": "Razones de la intervención en estructuras existentes",
+     "puntos": [
+      "Asegurar la vida de servicio cuando el deterioro se ha acelerado; restablecer las prestaciones tras una acción accidental; dotar de nuevas prestaciones o vida útil adicional (Código Estructural, art. 25.1, letras a a c).",
+      "La intervención no puede reducir condiciones preexistentes menos exigentes que las del documento básico; las más exigentes solo hasta sus niveles (CTE, art. 2.3)."
+     ]
+    },
+    {
+     "titulo": "Estudios y diagnóstico",
+     "puntos": [
+      "El proyecto de reparación parte de la información disponible, de la evaluación estructural y de la vida útil residual, y de un diagnóstico que dictamine las causas (Código, art. 75.1).",
+      "Investigaciones: levantamiento real, catas, toma de muestras, ensayos y, en casos complejos, pruebas de carga. Evaluación de estructuras existentes (Código, arts. 25 y 74 para el hormigón y 104 para el acero)."
+     ]
+    },
+    {
+     "titulo": "Trabajos preparatorios y demolición",
+     "puntos": [
+      "Apeos que sostienen los elementos durante la intervención; protección de colindantes; vaciado de los elementos dañados antes del tratamiento.",
+      "Derribos que puedan suponer peligro bajo supervisión de persona competente (RD 1627/1997, anexo IV, apartado 12.a). Demolición de estructuras de hormigón como decisión de la propiedad, con proyecto específico (Código, art. 77.1)."
+     ]
+    },
+    {
+     "titulo": "Proyecto de ejecución y CTE",
+     "puntos": [
+      "Indicación del proyectista sobre si la intervención actúa en la estructura existente; si no lo indica, se entiende que no hay riesgo de daño del artículo 17.1.a de la LOE (CTE, art. 2.4).",
+      "Constancia en la documentación final del nivel de prestación alcanzado y de los condicionantes de uso y mantenimiento (CTE, art. 2.3)."
+     ]
+    },
+    {
+     "titulo": "Ejecución y apeos",
+     "puntos": [
+      "Reparación del hormigón: eliminar el deteriorado, tratar las armaduras corroídas y reconstruir el volumen (Código, arts. 75 y 40). Refuerzo: sistemas de refuerzo (Código, arts. 76 y 41).",
+      "Los apeos y apuntalamientos se montan y desmontan bajo vigilancia de persona competente (RD 1627/1997, anexo IV, apartado 11.a). No se retiran antes de que la intervención tenga la resistencia necesaria."
+     ]
+    },
+    {
+     "titulo": "Riesgos y precio",
+     "puntos": [
+      "Riesgos de la estructura existente durante la obra, del amianto y del edificio habitado; evaluación con el estado previo del edificio; estudio de seguridad con presupuesto por valoración unitaria (RD 1627/1997, arts. 4 y 5).",
+      "Factores del precio: diagnóstico y contingencias, accesibilidad, apeos y protecciones de colindantes, demolición parcial, estudios y ensayos."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Ámbito en intervenciones existentes y conservación del nivel de prestación (arts. 2.3, 2.4 y 8.2)"
+    },
+    {
+     "id": "LOE",
+     "rol": "Ámbito de la edificación en intervenciones existentes y responsabilidad (arts. 2.2, letra b, y 17.1.a)"
+    },
+    {
+     "id": "RD-470-2021",
+     "rol": "Código Estructural: evaluación, reparación, refuerzo y demolición de estructuras existentes (arts. 25, 40, 41, 74 a 77)"
+    },
+    {
+     "id": "DB-SE-M",
+     "rol": "Protección y tratamiento de la madera (apartado 3.2)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Apeos, demolición y trabajos preparatorios (anexo IV, apartados 11 y 12.a)"
+    },
+    {
+     "id": "LPRL",
+     "rol": "Marco de la prevención de riesgos laborales (art. 16, en parte)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el CTE, art. 2.4, ¿qué debe indicar el proyectista en una intervención en un edificio existente?",
+     "opciones": [
+      "Si la intervención incluye o no actuaciones en la estructura preexistente",
+      "El nombre del vecino colindante",
+      "El color de la fachada",
+      "El precio de la obra"
+     ],
+     "correcta": 0,
+     "explicacion": "El proyectista debe indicar en la documentación si la intervención incluye o no actuaciones en la estructura preexistente.",
+     "referencia": "CTE, art. 2.4"
+    },
+    {
+     "pregunta": "Según el CTE, art. 2.4, si el proyecto no indica actuaciones en la estructura, ¿qué se entiende?",
+     "opciones": [
+      "Que no se necesita licencia",
+      "Que la estructura va a demolerse",
+      "Que las obras no implican el riesgo de daño del artículo 17.1.a de la LOE",
+      "Que la obra es de nueva construcción"
+     ],
+     "correcta": 2,
+     "explicacion": "Si el proyecto no indica actuaciones en la estructura, se entiende que las obras no implican el riesgo de daño citado en el artículo 17.1.a de la LOE.",
+     "referencia": "CTE, art. 2.4"
+    },
+    {
+     "pregunta": "Según el Código Estructural, art. 25.1, ¿cuál de estas es una razón que justifica la intervención en una estructura existente?",
+     "opciones": [
+      "Porque el vecino lo pide",
+      "Para cambiar el color de la estructura",
+      "Porque el edificio es antiguo, sin más motivo",
+      "Restablecer las prestaciones de la estructura tras una acción accidental"
+     ],
+     "correcta": 3,
+     "explicacion": "El artículo 25.1 justifica la intervención, entre otras razones, para restablecer las prestaciones de la estructura tras una acción accidental.",
+     "referencia": "Código Estructural, art. 25.1, letra b)"
+    },
+    {
+     "pregunta": "Según el Código Estructural, art. 75.1, ¿en qué debe basarse el proyecto de reparación de una estructura de hormigón?",
+     "opciones": [
+      "Solo en el presupuesto",
+      "En un diagnóstico preciso que dictamine las causas de los daños",
+      "En la fotografía de la fachada",
+      "En la opinión de los vecinos"
+     ],
+     "correcta": 1,
+     "explicacion": "El proyecto de reparación debe ser el resultado de un estudio previo, de un análisis de evaluación estructural y de vida útil residual, y de un diagnóstico preciso que dictamine las causas de los daños.",
+     "referencia": "Código Estructural, art. 75.1"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, anexo IV, apartado 11.a, ¿cómo deben montarse o desmontarse los apeos y apuntalamientos?",
+     "opciones": [
+      "Bajo vigilancia, control y dirección de una persona competente",
+      "Solo de noche",
+      "Por cualquier trabajador",
+      "Sin supervisión"
+     ],
+     "correcta": 0,
+     "explicacion": "Los encofrados, los soportes temporales y los apuntalamientos solo pueden montarse o desmontarse bajo vigilancia, control y dirección de una persona competente.",
+     "referencia": "RD 1627/1997, anexo IV, apartado 11.a"
+    },
+    {
+     "pregunta": "Según el Código Estructural, art. 77.1, ¿quién es responsable de disponer de un proyecto específico para la demolición de una estructura de hormigón?",
+     "opciones": [
+      "Nadie",
+      "El operario de la demolición",
+      "La propiedad",
+      "El fabricante del cemento"
+     ],
+     "correcta": 2,
+     "explicacion": "La propiedad será responsable de disponer de un proyecto específico para la demolición.",
+     "referencia": "Código Estructural, art. 77.1"
+    },
+    {
+     "pregunta": "Según el CTE, art. 2.3, ¿qué no se puede hacer en las intervenciones en edificios existentes con las condiciones preexistentes?",
+     "opciones": [
+      "Mejorarlas",
+      "Documentarlas",
+      "Mantenerlas",
+      "Reducirlas por debajo de las exigencias de los documentos básicos cuando estas son más exigentes"
+     ],
+     "correcta": 3,
+     "explicacion": "Las condiciones preexistentes menos exigentes que las de los documentos básicos no pueden reducirse; las más exigentes solo pueden reducirse hasta los niveles de exigencia de los documentos básicos.",
+     "referencia": "CTE, art. 2.3"
+    },
+    {
+     "pregunta": "Según la LOE, art. 2.2, letra b, ¿qué intervención sobre edificios existentes queda incluida en el ámbito de la ley?",
+     "opciones": [
+      "Cualquier pintura interior",
+      "Las que alteran la configuración arquitectónica, el sistema estructural o el uso del edificio",
+      "Ninguna",
+      "Solo la limpieza de fachadas"
+     ],
+     "correcta": 1,
+     "explicacion": "Se incluyen las intervenciones que alteran la configuración arquitectónica, entendiendo por tales las que tienen carácter total o las parciales que producen una variación esencial de la composición exterior, la volumetría o el sistema estructural, o que cambian los usos.",
+     "referencia": "LOE, art. 2.2, letra b)"
+    },
+    {
+     "pregunta": "Según el DB-SE-M, apartado 3.2.1.2, ¿qué clase de uso corresponde al elemento a cubierto y no expuesto a la humedad?",
+     "opciones": [
+      "Clase de uso 3.1",
+      "Clase de uso 4",
+      "Clase de uso 1",
+      "Clase de uso 3.2"
+     ],
+     "correcta": 2,
+     "explicacion": "La clase de uso 1 corresponde al elemento estructural a cubierto, protegido de la intemperie y no expuesto a la humedad.",
+     "referencia": "DB-SE-M, apartado 3.2.1.2, letra a)"
+    },
+    {
+     "pregunta": "Según el Código Estructural, art. 40, ¿de qué trata este artículo?",
+     "opciones": [
+      "De los sistemas de reparación de estructuras de hormigón",
+      "De la fabricación del cemento",
+      "De la iluminación de obra",
+      "De la demolición de estructuras de acero"
+     ],
+     "correcta": 0,
+     "explicacion": "El artículo 40 regula los sistemas de reparación de estructuras de hormigón.",
+     "referencia": "Código Estructural, art. 40"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué es una obra en un edificio existente",
+     "parrafos": [
+      "Una obra en un edificio existente es cualquier intervención sobre un edificio que ya está construido y en uso, o que ha dejado de estar en uso. Se distingue de la obra de nueva construcción porque el punto de partida no es un proyecto, sino un edificio con una historia: materiales envejecidos, deterioros acumulados, instalaciones antiguas y, a veces, documentación incompleta o inexistente. Cada intervención debe partir de ese conocimiento previo, y no solo de la propuesta de diseño.",
+      "La Ley de Ordenación de la Edificación distingue dentro de su ámbito las intervenciones sobre los edificios existentes que alteran su configuración arquitectónica. Son las que tienen carácter de intervención total, las parciales que producen una variación esencial de la composición general exterior, de la volumetría o del conjunto del sistema estructural, y las que tienen por objeto cambiar los usos del edificio (LOE, art. 2.2, letra b). Esa definición determina qué intervenciones deben tratarse como edificación en sentido de la ley, con todas sus responsabilidades.",
+      "En la práctica, las obras en edificios existentes se agrupan en cinco tipos: la reparación, que restablece el estado original de un elemento dañado; la consolidación, que detiene el progreso de un deterioro; el refuerzo, que aumenta la capacidad resistente o la vida útil; la reforma, que modifica la distribución o las instalaciones sin alterar la estructura; y la rehabilitación, que combina las anteriores para devolver al edificio sus condiciones de uso. La demolición, parcial o total, es un tipo aparte, que el Código Estructural trata en sus artículos de demolición.",
+      "Las intervenciones sobre la envolvente y sobre las instalaciones son las más frecuentes en la rehabilitación actual, porque los edificios construidos antes de las normas de aislamiento térmico y de accesibilidad necesitan mejoras que no alteran su estructura. La sustitución de carpinterías, la colocación de aislamiento por el exterior, la renovación de la cubierta y la adaptación de las instalaciones a la normativa vigente son intervenciones que, aunque no tocan la estructura, pueden modificar la carga permanente y el comportamiento del conjunto. Por eso el técnico debe valorar siempre si una intervención no estructural tiene efectos sobre la estructura.",
+      "La distinción entre reforma y rehabilitación no siempre es clara en la práctica. Una reforma que cambia la distribución de los tabiques y abre huecos en un muro de carga es, en realidad, una intervención sobre la estructura, aunque su nombre no lo indique. La LOE y el CTE tratan esa realidad por su efecto, no por su denominación, y el proyecto debe describir la intervención por lo que hace al edificio."
+     ]
+    },
+    {
+     "titulo": "2. Razones que justifican la intervención en una estructura existente",
+     "parrafos": [
+      "El Código Estructural, en su artículo 25, fija los criterios generales para la evaluación de estructuras existentes y las razones que justifican intervenir. La primera es asegurar que se alcanza la vida de servicio prevista cuando el deterioro se ha acelerado respecto del escenario del proyecto, y el mantenimiento ordinario no basta (art. 25.1, letra a). La segunda es restablecer las prestaciones de la estructura tras una acción accidental (letra b). La tercera es dotar de nuevas prestaciones o de una vida útil adicional, por ejemplo cuando el cambio de uso implica mayores niveles de carga (letra c).",
+      "El CTE contempla la misma realidad en su artículo 2.3: sus exigencias se aplican también a las intervenciones en los edificios existentes, y su cumplimiento se justifica en el proyecto o en una memoria suscrita por técnico competente. Cuando la aplicación del CTE no sea viable, se pueden aplicar las soluciones de mayor adecuación efectiva bajo la responsabilidad del proyectista.",
+      "Estas razones determinan la primera decisión de la intervención: si basta con el mantenimiento, si hace falta reparar, reforzar o demoler. Una intervención que no está justificada en uno de estos supuestos es un gasto sin base técnica, y un proyecto que no las identifica no puede justificar las medidas que propone."
+     ]
+    },
+    {
+     "titulo": "3. Estudios, análisis e investigaciones previas",
+     "parrafos": [
+      "Antes de proyectar, el técnico debe reunir la información disponible del edificio: planos, proyectos anteriores, licencias, historial de obras, inspecciones y reparaciones. Esa documentación define el punto de partida y evita repetir estudios ya hechos. Cuando falta, la investigación debe completarla con un levantamiento de la geometría real del edificio, que frecuentemente no coincide con los planos antiguos.",
+      "El estudio de la estructura exige un análisis de su estado. Según el artículo 75.1 del Código, el proyecto de reparación debe basarse en un estudio de la información disponible, en un análisis de evaluación estructural y de vida útil residual, y en un diagnóstico preciso que dictamine las causas de los daños. Sin ese diagnóstico, no es posible definir una reparación adecuada, porque tratar un síntoma sin conocer la causa lleva a repetir la reparación.",
+      "Las investigaciones pueden incluir la inspección visual, la toma de muestras de hormigón o de acero, los ensayos de resistencia y de corrosión, la medición de la humedad de la madera, las catas para observar las armaduras o las uniones, y, en casos complejos, las pruebas de carga. El Código regula la evaluación de estructuras existentes en su artículo 25 y, para el hormigón, en el artículo 74, y para el acero, en el artículo 104.",
+      "El levantamiento del estado existente debe incluir las dimensiones reales de los elementos, las secciones de las vigas y de los pilares, las uniones, los apoyos y las zonas de humedad o de fisuración visibles. Una parte importante de los errores de proyecto en obras existentes proviene de tomar las dimensiones de los planos originales sin comprobarlas, porque las obras anteriores pueden haber modificado la estructura sin que quedara constancia en la documentación.",
+      "Las catas son la investigación destructiva más habitual: se abre una pequeña zona del elemento para ver las armaduras, el espesor del recubrimiento, la calidad del hormigón o la sección de la madera. Su número y su ubicación deben definirse en el plan de investigación, y deben ejecutarse de forma que no comprometan la estabilidad del elemento. Las catas en un forjado requieren apeo previo si el elemento está en carga."
+     ]
+    },
+    {
+     "titulo": "4. Trabajos preparatorios: apeos, protecciones y demolición parcial",
+     "parrafos": [
+      "Los trabajos preparatorios son los que se hacen antes de la intervención para garantizar la seguridad de la obra y la del edificio. Entre ellos están los apeos, que sostienen temporalmente los elementos que se van a reparar o sustituir; las protecciones de los colindantes, cuando la obra puede afectar a sus cimientos o sus fachadas; y el vaciado de los elementos dañados antes de su tratamiento.",
+      "Las demoliciones parciales forman parte de muchas intervenciones. El anexo IV del Real Decreto 1627/1997, apartado 12.a, exige que los trabajos de derribo o demolición que puedan suponer un peligro se estudien, planifiquen y ejecuten bajo la supervisión de una persona competente. El apartado 11 del mismo anexo regula el montaje y desmontaje de apeos y encofrados, que deben proyectarse, calcularse y mantenerse para soportar sin riesgo las cargas.",
+      "La demolición de una estructura de hormigón es, según el Código Estructural (art. 77), un conjunto de procesos de desmontaje o desmantelamiento que decide la propiedad al final de la vida de servicio, y exige un proyecto específico que la propiedad debe disponer. La deconstrucción de estructuras existentes tiene un artículo propio (art. 78), que no se ha leído en su cuerpo."
+     ]
+    },
+    {
+     "titulo": "5. Diagnosis y tratamientos",
+     "parrafos": [
+      "La diagnosis es el proceso que identifica el tipo de deterioro, sus mecanismos y su causa. En el hormigón, los deterioros frecuentes son la corrosión de las armaduras por carbonatación o por cloruros, la fisuración, la disgregación y la pérdida de recubrimiento. El Código regula la durabilidad del hormigón en el artículo 43, con las clases de exposición del artículo 27.1, que son el marco para entender por qué se ha producido el deterioro.",
+      "Una vez identificada la causa, el tratamiento se elige para eliminarla o para frenarla. El Código regula los sistemas de protección para la mejora de la durabilidad (art. 39), los sistemas de reparación de estructuras de hormigón (art. 40) y los sistemas de refuerzo (art. 41). La reparación debe ser proporcionada al daño y a la vida útil residual, y el refuerzo, cuando aumenta la capacidad, debe justificarse con la carga que lo exige.",
+      "En las estructuras de acero, los tratamientos son los de la protección frente a la corrosión, que el Código regula en el artículo 86 y en el artículo 95. En las de madera, el tratamiento preventivo y curativo frente a los agentes bióticos se elige según la clase de uso del elemento (DB-SE-M, apartado 3.2).",
+      "La diagnosis de la madera exige identificar el agente que causa el daño. Los hongos de pudrición requieren humedad sostenida del elemento, por encima del punto en que la madera se mantiene seca, y su presencia se manifiesta en la pérdida de resistencia y en el cambio de color. Los insectos xilófagos dejan galerías y orificios, y su actividad depende de la humedad y de la especie de madera. El DB-SE-M distingue esa causa por la clase de uso del elemento: a mayor exposición a la humedad, mayor riesgo de ataque biológico (DB-SE-M, apartado 3.2.1.2).",
+      "El tratamiento de una madera dañada depende de la causa y de la extensión del daño. Si la causa es la humedad, el primer tratamiento es eliminarla, con la reparación de la fuente de humedad y la ventilación del elemento. Si el daño es por agentes biológicos y el elemento conserva sección suficiente, puede tratarse con productos protectores según la clase de uso. Si la pérdida de sección es grande, la solución es sustituir el elemento o reforzarlo con una pieza nueva, y esa decisión debe quedar justificada en el proyecto."
+     ]
+    },
+    {
+     "titulo": "6. Contenido específico del proyecto de ejecución",
+     "parrafos": [
+      "El proyecto de una intervención en un edificio existente debe incluir, además del contenido general del proyecto de edificación, el estudio de la estructura preexistente y la justificación de las soluciones. El CTE exige que el proyectista indique en la documentación si la intervención incluye o no actuaciones en la estructura existente. Si no lo indica, se entiende que las obras no implican el riesgo de daño del artículo 17.1.a de la LOE (CTE, art. 2.4).",
+      "Ese contenido incluye el diagnóstico de los daños, el análisis de la capacidad resistente con las cargas actuales y las previstas, la descripción de los apeos y de los trabajos preparatorios, y las medidas de protección de los colindantes. En la documentación final de la obra debe quedar constancia del nivel de prestación alcanzado y de los condicionantes de uso y mantenimiento que resulten del grado final de adecuación (CTE, art. 2.3).",
+      "El proyecto debe reflejar también las reglas que el CTE impone en la intervención: en las intervenciones en edificios existentes no se pueden reducir las condiciones preexistentes cuando estas son menos exigentes que las del documento básico, salvo que el documento fije un criterio distinto; y las más exigentes solo pueden reducirse hasta los niveles de exigencia del documento (CTE, art. 2.3, párrafo sobre condiciones preexistentes)."
+     ]
+    },
+    {
+     "titulo": "7. Procesos de ejecución",
+     "parrafos": [
+      "La ejecución de una intervención en un edificio existente sigue el orden lógico del proyecto: primero los trabajos preparatorios y los apeos, después la preparación de los soportes, luego la reparación o el refuerzo, y por último los acabados y la verificación final. Cada fase debe comprobarse antes de pasar a la siguiente, porque un fallo en una fase oculta el defecto que aparecerá después.",
+      "En la reparación del hormigón, la preparación del soporte, la eliminación del hormigón deteriorado y el tratamiento de las armaduras corroídas son las operaciones decisivas. El Código regula la reparación en su artículo 75, con el criterio general de la reparación de estructuras de hormigón, y el refuerzo en su artículo 76. Las operaciones concretas dependen del sistema elegido, que debe estar definido en el proyecto.",
+      "Los apeos deben retirarse solo cuando la intervención tiene la resistencia suficiente. Un apeo retirado antes de tiempo transmite a la reparación cargas que no puede soportar, y es una de las causas más graves de accidente en obras de rehabilitación. El anexo IV del RD 1627/1997, apartado 11.a, exige que los apeos se monten o desmonten bajo vigilancia de una persona competente.",
+      "En la reparación del hormigón, el orden habitual de las operaciones es: eliminar el hormigón deteriorado hasta llegar a un soporte sano, limpiar las armaduras y tratar las corroídas, aplicar el puente de adherencia o el producto de protección de la armadura, y reconstruir el volumen con un mortero o un hormigón de reparación compatible con el existente. Cada una de esas operaciones tiene un control, y el orden no puede alterarse sin comprometer el resultado.",
+      "El refuerzo de un elemento de hormigón puede hacerse por recrecido de la sección, por adición de armaduras, por encamisado o por adhesión de materiales compuestos. Cada solución cambia la rigidez del elemento y la forma en que comparte las cargas con el existente, por lo que el proyecto debe comprobar la compatibilidad de los dos. La ejecución debe asegurar la adherencia entre el material nuevo y el antiguo, que es la condición para que trabajen juntos.",
+      "En la madera, la sustitución parcial de una pieza se hace con un empalme o con una pieza nueva unida a la antigua con herrajes o adhesivos, y su ejecución debe asegurar que la sección recuperada trabaja de forma solidaria. Las operaciones de madera dependen en gran medida de la experiencia del operario, y el control de la ejecución debe comprobar las uniones y la humedad de la madera nueva antes de cerrar el elemento."
+     ]
+    },
+    {
+     "titulo": "8. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "Las obras en edificios existentes tienen riesgos específicos: la inestabilidad de la estructura existente durante la obra, la caída de elementos en desprendimiento, la presencia de amianto en materiales antiguos, la presencia de instalaciones en servicio y el riesgo a los ocupantes del edificio, si la obra se realiza con el edificio habitado. La evaluación de riesgos debe partir del estado del edificio, y no solo del proceso constructivo.",
+      "El anexo IV del Real Decreto 1627/1997 contiene reglas generales para las estructuras metálicas y de hormigón y sus apeos (apartado 11), para la demolición (apartado 12.a) y para los movimientos de tierras y las excavaciones de las cimentaciones (apartado 9). Para el amianto, el Real Decreto 396/2006 regula la protección de los trabajadores, norma que la disposición adicional cuarta del RD 105/2008 cita, y que no se ha leído en este tema.",
+      "La evaluación de riesgos se apoya en la LPRL, cuyo artículo 16 regula el plan de prevención; de ese artículo solo se ha comprobado el inicio en el repositorio. El estudio de seguridad y salud debe recoger las medidas de apeo, de protección de colindantes y de demolición, con su presupuesto (RD 1627/1997, arts. 4 y 5), y el plan de seguridad de cada contratista lo desarrolla (art. 7).",
+      "La obra en un edificio habitado tiene riesgos añadidos para los ocupantes: el polvo y los ruidos de la demolición, la interrupción de servicios como el agua o la electricidad, la presencia de personas en zonas de paso que son también zonas de trabajo, y la posibilidad de que el daño de un elemento afecte a locales ajenos a la obra. El plan de seguridad debe prever la separación de la obra del uso del edificio, con cerramientos y vías de evacuación protegidas, y el cumplimiento de las condiciones de seguridad de utilización del CTE durante la obra.",
+      "La demolición parcial de un forjado o de un muro durante la intervención exige una secuencia de trabajo que se fija en el proyecto. El orden de retirada de los elementos, el apeo de los que quedan y la protección de los colindantes deben estar definidos antes de iniciar la demolición, porque una demolición en orden incorrecto puede desencadenar un colapso progresivo. La supervisión de la demolición corresponde a la persona competente que el anexo IV del RD 1627/1997 exige."
+     ]
+    },
+    {
+     "titulo": "9. Factores de influencia en el precio",
+     "parrafos": [
+      "El precio de una obra en un edificio existente depende de factores que no existen en la obra nueva. El primero es el grado de incertidumbre: el diagnóstico puede revelar daños no previstos, y el presupuesto debe prever partidas para las contingencias de la intervención. El segundo es la accesibilidad de la obra, que condiciona el uso de medios auxiliares y las horas de trabajo.",
+      "El tercer factor es la necesidad de apeos y de protección de colindantes, que puede superar el coste de la propia reparación. El cuarto es la complejidad de los trabajos de demolición parcial, que exigen supervisión de una persona competente. El quinto es el coste de los estudios previos y de los ensayos, que debe presupuestarse como partida independiente.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). En las obras en existentes, las partidas alzadas por contingencia son más frecuentes, pero el reglamento las limita a los elementos de difícil previsión.",
+      "El precio de la intervención en la madera depende de la clase de uso y del tratamiento que la madera necesita. Una madera de clase de uso 1 que solo requiere limpieza y repintado cuesta muy distinto que una madera de clase de uso 3.2 con pudrición que hay que sustituir en su sección extrema. Por eso la diagnosis tiene un coste que se justifica por la precisión que aporta al presupuesto.",
+      "En las obras de rehabilitación, el porcentaje de unidades imprevistas tiene un peso mayor que en la obra nueva. Una partida de reparación en un forjado puede multiplicar su coste si el diagnóstico encuentra más armaduras corroídas que las previstas. El presupuesto debe prever esa contingencia con partidas específicas y con una justificación de su cuantía."
+     ]
+    },
+    {
+     "titulo": "10. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir la diferencia entre los tipos de intervención (reparación, consolidación, refuerzo, reforma, rehabilitación), las razones del artículo 25.1 del Código, la exigencia del artículo 2.4 del CTE y la diferencia entre la demolición (art. 77) y la deconstrucción (art. 78). Conviene memorizar esos artículos con su contenido.",
+      "Los errores habituales son cuatro. El primero es confundir la reparación, que restablece, con el refuerzo, que aumenta la capacidad. El segundo es afirmar que el CTE no se aplica a las intervenciones en existentes: el artículo 2.3 lo aplica, con las limitaciones que el texto indica. El tercero es olvidar que la indicación del proyectista sobre la estructura existente tiene efectos sobre el riesgo de daño del artículo 17.1.a de la LOE. El cuarto es retirar los apeos antes de que la intervención tenga la resistencia necesaria.",
+      "Para un caso práctico de rehabilitación de un forjado de un edificio residencial con corrosión de armaduras, el orden de análisis es: reunir la documentación y levantar el estado real; diagnosticar la causa de la corrosión, que suele ser la carbonatación o los cloruros; decidir si basta la reparación o si es necesario el refuerzo, con la evaluación de la capacidad resistente; prever los apeos y las protecciones; ejecutar la reparación en el orden del proyecto; y comprobar la resistencia antes de retirar los apeos."
+     ]
+    },
+    {
+     "titulo": "11. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 2.3 y 2.4 del CTE; el artículo 12.1 del CTE en su objetivo; el artículo 2.2, letra b, de la LOE (en su encabezado y su texto); el Código Estructural en sus artículos 25 (apartado 25.1, letras a a c), 75 (apartado 75.1), 77 (apartado 77.1) y en los títulos de los artículos 39 a 41, 43, 74, 76, 78, 86, 95 y 104; el DB-SE-M en su apartado 3.2 (puntos 1 y 2) y en su apartado 3.2.1.2 (clases de uso 1 a 3.1); y el RD 1627/1997 en su anexo IV, apartados 9, 11 y 12.a.",
+      "No se han leído los apartados del Código sobre la evaluación de las estructuras existentes (art. 25, puntos 2 y siguientes), el cuerpo de los artículos 74 a 78, los artículos 39 a 41 en su contenido, ni el Real Decreto 396/2006 sobre amianto. Tampoco se ha leído el DB-SE-M en su clase de uso 3.2 y siguientes, ni el DB-HS 1 en las intervenciones sobre fachadas.",
+      "Las normas de precios y de medición de la rehabilitación, los catálogos de patologías y los manuales de intervención no están en el repositorio. Las versiones del CTE y del Código Estructural son las consultadas en el repositorio, y su vigencia debe comprobarse antes de citar un artículo."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/BOE-A-1999-21567.pdf",
+    "leyes/BOE-A-2021-13681-extracto.pdf",
+    "leyes/BOE-A-2021-13681-acero-extracto.pdf",
+    "leyes/DB-SE-M.pdf",
+    "leyes/BOE-A-1997-22614.pdf",
+    "leyes/BOE-A-1995-24292.pdf"
+   ]
+  },
+  "e16": {
+   "resumen": [
+    {
+     "titulo": "Daño, defecto y garantías",
+     "puntos": [
+      "Daño: pérdida de prestaciones de un elemento durante la vida del edificio. Defecto: causa que lo produce (proyecto, ejecución, materiales, uso y mantenimiento). La patología estudia el daño y su causa.",
+      "Plazos de responsabilidad de la LOE: 10 años para daños en cimentación, soportes, vigas, forjados y muros de carga que comprometan la estabilidad (art. 17.1.a); 3 años para defectos que incumplan la habitabilidad (art. 17.1.b); 1 año para defectos de acabado (último párrafo del art. 17)."
+     ]
+    },
+    {
+     "titulo": "Origen de las humedades",
+     "puntos": [
+      "El CTE identifica cuatro orígenes del agua: precipitaciones atmosféricas, escorrentías, terreno y condensaciones (CTE, art. 13.1).",
+      "DB-HS 1: muros y suelos en contacto con el terreno según la presencia de agua y la permeabilidad del terreno (apartado 2.1.1); fachadas según la zona pluviométrica y la exposición al viento (apartado 2.3.1); cubiertas con un grado de impermeabilidad único (apartado 2.4.1). La condensación se limita con el cálculo de la sección HE 1 (apartado 1.1, punto 2)."
+     ]
+    },
+    {
+     "titulo": "Efectos, prevención y tratamiento de humedades",
+     "puntos": [
+      "Efectos: manchas, eflorescencias, desconchados, pérdida de aislamiento, moho y corrosión de metales ocultos; en la madera, hongos de pudrición.",
+      "Prevención: capas drenantes y filtrantes, barreras y revestimientos de fachada (DB-HS 1, tabla 2.2, codificados como D1 a D5 en el drenaje) y ventilación para la condensación (DB-HS 3, tabla 2.1). El tratamiento empieza por identificar el origen: un revestimiento impermeable no resuelve una condensación y puede empeorarla."
+     ]
+    },
+    {
+     "titulo": "Fisuras: causas y diagnóstico",
+     "puntos": [
+      "Causas de las fisuras: estructurales (sobrecarga o sección insuficiente), de asiento (movimiento de la cimentación), térmicas e higrotérmicas, de retracción del hormigón, por corrosión de armaduras y por defectos de ejecución.",
+      "Las fisuras de asiento se relacionan con la cimentación: los asientos excesivos pueden indicar mal estado de las zapatas (DB-SE-C, apartado 4.6.1, punto 3). Las juntas de movimiento previenen la fisuración térmica (DB-HS 1, apartado 2.3.3.1, punto 1; tabla 2.1 del DB-SE-F).",
+      "Diagnóstico: activa o pasiva, anchura, evolución y tiempo de aparición. La anchura es orientativa: una fisura estrecha puede ser estructural y una ancha puede ser superficial."
+     ]
+    },
+    {
+     "titulo": "Tratamiento de las fisuras",
+     "puntos": [
+      "El tratamiento depende de la causa: reparación o refuerzo de la estructura (Código Estructural, arts. 40 y 41), corrección de la cimentación en las de asiento, sellado elástico en juntas de movimiento en las térmicas y de retracción, y tratamiento de la corrosión restableciendo el recubrimiento en las de armaduras.",
+      "El Código regula la durabilidad en el artículo 43 y las clases de exposición en el artículo 27.1."
+     ]
+    },
+    {
+     "titulo": "Patologías de la madera",
+     "puntos": [
+      "Agentes bióticos (hongos e insectos) y abióticos (humedad, variaciones dimensionales, intemperie y radiación) (DB-SE-M, apartado 3.2, punto 1).",
+      "Clases de uso (DB-SE-M, apartado 3.2.1.2): clase 1, a cubierto y no expuesta a la humedad; clase 2, a cubierto con humedad ocasionalmente superior al 20 %; clases 3.1 y 3.2, al exterior, protegida o no protegida de la intemperie."
+     ]
+    },
+    {
+     "titulo": "Prevención y tratamiento de la madera",
+     "puntos": [
+      "Protección según la clase de uso; la madera con durabilidad natural suficiente puede sustituir al tratamiento protector (DB-SE-M, apartado 3.2.1.1).",
+      "Tratamiento: eliminar primero la causa (humedad), luego tratar con producto protector si la sección se conserva, o sustituir o reforzar si la pérdida de sección es significativa."
+     ]
+    },
+    {
+     "titulo": "Diagnóstico, mantenimiento y riesgos",
+     "puntos": [
+      "El propietario y los usuarios deben comunicar las anomalías; el plan de mantenimiento y el libro del edificio recogen las intervenciones (CTE, art. 8.2, apartados 1 y 2).",
+      "Riesgos de la inspección en altura y de los productos protectores, controlados en la evaluación de riesgos y en el estudio de seguridad (RD 1627/1997, anexo IV, apartado 12.b)."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "LOE",
+     "rol": "Responsabilidad por daños según plazos de garantía de 10, 3 y 1 año (art. 17)"
+    },
+    {
+     "id": "CTE",
+     "rol": "Orígenes del agua (art. 13.1) y mantenimiento y comunicación de anomalías (art. 8.2)"
+    },
+    {
+     "id": "DB-HS",
+     "rol": "Humedades: impermeabilidad de muros, fachadas y cubiertas, drenaje, juntas de movimiento y ventilación (HS 1, apartados 2.1.1, 2.1.2, 2.3.1, 2.3.3.1 y 2.4.1; HS 3, tabla 2.1)"
+    },
+    {
+     "id": "DB-SE-M",
+     "rol": "Patologías de la madera: agentes, clases de uso y protección (apartados 3.2, 3.2.1.1 y 3.2.1.2)"
+    },
+    {
+     "id": "DB-SE-C",
+     "rol": "Asientos de la cimentación y su observación (apartado 4.6.1, punto 3)"
+    },
+    {
+     "id": "RD-470-2021",
+     "rol": "Código Estructural: clases de exposición, durabilidad, reparación y refuerzo del hormigón (arts. 27.1, 40, 41 y 43)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Riesgos de trabajos en tejados (anexo IV, apartado 12.b) y estudio de seguridad (arts. 4 y 5)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la LOE, art. 17.1.a, ¿qué plazo de responsabilidad se aplica a los daños por vicios que afectan a la cimentación, los soportes, las vigas, los forjados o los muros de carga y comprometen la estabilidad?",
+     "opciones": [
+      "Diez años",
+      "Quince años",
+      "Un año",
+      "Tres años"
+     ],
+     "correcta": 0,
+     "explicacion": "Los daños que comprometen la resistencia mecánica y la estabilidad de esos elementos tienen un plazo de responsabilidad de diez años (LOE, art. 17.1.a).",
+     "referencia": "LOE, art. 17.1.a"
+    },
+    {
+     "pregunta": "Según la LOE, art. 17.1.b, ¿qué plazo de responsabilidad corresponde a los defectos de elementos o instalaciones que incumplan los requisitos de habitabilidad?",
+     "opciones": [
+      "Diez años",
+      "Cinco años",
+      "Tres años",
+      "Un año"
+     ],
+     "correcta": 2,
+     "explicacion": "Los defectos que incumplen los requisitos de habitabilidad tienen un plazo de tres años (LOE, art. 17.1.b).",
+     "referencia": "LOE, art. 17.1.b"
+    },
+    {
+     "pregunta": "Según el CTE, art. 13.1, ¿cuál de los siguientes NO es un origen del agua que puede llegar al interior de los edificios?",
+     "opciones": [
+      "Las condensaciones",
+      "Las precipitaciones atmosféricas",
+      "Las escorrentías",
+      "La radiación solar"
+     ],
+     "correcta": 3,
+     "explicacion": "El artículo 13.1 del CTE identifica como orígenes las precipitaciones atmosféricas, las escorrentías, el terreno y las condensaciones. La radiación solar no figura entre ellos.",
+     "referencia": "CTE, art. 13.1"
+    },
+    {
+     "pregunta": "Según el DB-HS 1, apartado 2.1.1, ¿qué determina el grado de impermeabilidad mínimo de los muros y suelos en contacto con el terreno?",
+     "opciones": [
+      "El color del revestimiento",
+      "La presencia de agua y el coeficiente de permeabilidad del terreno",
+      "La altura del edificio",
+      "El número de plantas sobre rasante"
+     ],
+     "correcta": 1,
+     "explicacion": "El grado de impermeabilidad de estos muros y suelos depende de la presencia de agua y del coeficiente de permeabilidad del terreno (DB-HS 1, apartado 2.1.1).",
+     "referencia": "DB-HS 1, apartado 2.1.1"
+    },
+    {
+     "pregunta": "Según el DB-SE-M, apartado 3.2.1.2, ¿qué clase de uso corresponde al elemento de madera al exterior y no protegido de la intemperie?",
+     "opciones": [
+      "Clase de uso 3.2",
+      "Clase de uso 1",
+      "Clase de uso 2",
+      "Clase de uso 3.1"
+     ],
+     "correcta": 0,
+     "explicacion": "La clase de uso 3.2 corresponde al elemento al exterior no protegido de la intemperie; la 3.1 corresponde al exterior protegido.",
+     "referencia": "DB-SE-M, apartado 3.2.1.2"
+    },
+    {
+     "pregunta": "Según el DB-SE-M, apartado 3.2.1.1, ¿qué puede emplearse como alternativa a un tratamiento protector de un elemento estructural de madera?",
+     "opciones": [
+      "Nada: el tratamiento siempre es obligatorio",
+      "Cualquier madera sin tratar",
+      "Madera con durabilidad natural suficiente para la clase de uso prevista",
+      "Pintura en la cara exterior"
+     ],
+     "correcta": 2,
+     "explicacion": "La madera con durabilidad natural suficiente para la clase de uso prevista puede sustituir al tratamiento protector, según el apartado 3.2.1.1 del DB-SE-M.",
+     "referencia": "DB-SE-M, apartado 3.2.1.1"
+    },
+    {
+     "pregunta": "Según el DB-SE-C, apartado 4.6.1, punto 3, ¿qué debe observarse ante asientos excesivos de un edificio?",
+     "opciones": [
+      "Únicamente el color de las fisuras",
+      "Nada, los asientos no son relevantes",
+      "Solo la fachada exterior",
+      "La cimentación, el terreno circundante y la parte enterrada de los elementos verticales"
+     ],
+     "correcta": 3,
+     "explicacion": "La observación de asientos excesivos puede ser señal de mal estado de las zapatas, y entonces debe observarse la cimentación, el terreno circundante y la parte enterrada de los elementos verticales (DB-SE-C, apartado 4.6.1, punto 3).",
+     "referencia": "DB-SE-C, apartado 4.6.1, punto 3"
+    },
+    {
+     "pregunta": "Según el Código Estructural, art. 27.1, ¿de qué trata este artículo?",
+     "opciones": [
+      "De la fabricación del cemento",
+      "De las clases de exposición ambiental de las estructuras de hormigón",
+      "De la demolición de estructuras de acero",
+      "De la iluminación de la obra"
+     ],
+     "correcta": 1,
+     "explicacion": "El artículo 27.1 del Código Estructural regula las clases de exposición, que determinan los requisitos de durabilidad del hormigón.",
+     "referencia": "Código Estructural, art. 27.1"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, anexo IV, apartado 12.b, ¿qué se regula para los trabajos en tejados?",
+     "opciones": [
+      "El tipo de cemento",
+      "La pintura de las fachadas",
+      "La protección colectiva según la altura, la inclinación y el estado resbaladizo del tejado",
+      "El horario de la obra"
+     ],
+     "correcta": 2,
+     "explicacion": "El apartado 12.b del anexo IV regula la protección de los trabajos en tejados según la altura, la inclinación y el estado de la superficie.",
+     "referencia": "RD 1627/1997, anexo IV, apartado 12.b"
+    },
+    {
+     "pregunta": "Según el CTE, art. 8.2, apartado 1, ¿quién debe comunicar las anomalías que observe en el edificio?",
+     "opciones": [
+      "Los propietarios y los usuarios",
+      "Solo el fabricante del producto",
+      "Solo el proyectista",
+      "Nadie, es una obligación del constructor"
+     ],
+     "correcta": 0,
+     "explicacion": "Los propietarios y los usuarios deben comunicar cualquier anomalía observada, y esa comunicación es la primera fuente de información de un daño (CTE, art. 8.2, apartado 1).",
+     "referencia": "CTE, art. 8.2, apartado 1"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Daño, defecto y responsabilidad",
+     "parrafos": [
+      "En la edificación se llama daño a la pérdida de prestaciones de un elemento que aparece durante la vida del edificio, y defecto a la causa que lo produce, que puede estar en el proyecto, en la ejecución, en los materiales o en el uso y mantenimiento. La patología es el estudio del daño y de su causa. Distinguir daño y defecto es imprescindible, porque la responsabilidad recae en quien originó el defecto, y no necesariamente en quien sufre el daño.",
+      "La Ley de Ordenación de la Edificación regula esa responsabilidad por plazos. Los agentes responden durante diez años de los daños materiales por vicios o defectos que afecten a la cimentación, los soportes, las vigas, los forjados o los muros de carga, cuando comprometan la resistencia mecánica y la estabilidad (LOE, art. 17.1.a). Durante tres años responden de los daños por defectos de los elementos constructivos o de las instalaciones que incumplan los requisitos de habitabilidad (art. 17.1.b). El constructor responde de los defectos de ejecución en los elementos de terminación o acabado durante un año (art. 17, último párrafo).",
+      "Esta clasificación por plazos es la que organiza el diagnóstico en la práctica: un daño que compromete la estabilidad se trata como una patología estructural y tiene diez años de garantía; una humedad en un techo se trata como una patología de habitabilidad y tiene tres. Un examen puede pedir la clasificación de un daño concreto, y la respuesta correcta se apoya en el artículo 17 de la LOE."
+     ]
+    },
+    {
+     "titulo": "2. Las humedades: origen y clasificación",
+     "parrafos": [
+      "El CTE identifica el origen del agua que puede llegar al interior de los edificios: las precipitaciones atmosféricas, las escorrentías, el terreno y las condensaciones (CTE, art. 13.1). Cada origen tiene una patología distinta. El agua de precipitación y de escorrentía penetra por las fachadas y las cubiertas, el agua del terreno asciende o se filtra por los muros y los suelos en contacto con el terreno, y la condensación se forma cuando el vapor de agua del aire interior encuentra una superficie fría.",
+      "El DB-HS 1 distingue esos orígenes en sus apartados de diseño. Los muros y suelos en contacto con el terreno tienen un grado de impermeabilidad mínimo según la presencia de agua y el coeficiente de permeabilidad del terreno (DB-HS 1, apartado 2.1.1). Las fachadas, según la zona pluviométrica de promedios y el grado de exposición al viento (apartado 2.3.1). Y las cubiertas, con un grado de impermeabilidad único (apartado 2.4.1). Esa diferencia explica por qué una humedad en un sótano y una humedad en una fachada tienen causas y tratamientos distintos.",
+      "La condensación se controla con el cálculo de la limitación de las humedades de condensación superficiales e intersticiales, que el DB-HS 1 remite a la sección HE 1 del DB de ahorro de energía (DB-HS 1, apartado 1.1, punto 2). Una condensación intersticial, dentro del muro, es la más peligrosa porque no se ve y deteriora el aislante y los materiales de la capa interior."
+     ]
+    },
+    {
+     "titulo": "3. Las humedades: efectos, prevención y tratamiento",
+     "parrafos": [
+      "Los efectos de las humedades son manchas de color oscuro en los paramentos, eflorescencias blancas de sales cuando el agua evapora, desconchados del revestimiento, pérdida de aislamiento térmico, aparición de moho en las superficies frías y corrosión de los elementos metálicos ocultos. En los muros de fábrica, la humedad reduce la resistencia de las piezas y del mortero, y en la madera favorece la aparición de hongos de pudrición.",
+      "La prevención consiste en impedir la entrada del agua y en permitir su salida. El DB-HS 1 prevé las soluciones constructivas de cada elemento: en los muros, las capas drenantes y filtrantes, los pozos drenantes, los tubos drenantes en el arranque y las canaletas de recogida, que el documento codifica con las letras D1 a D5, junto con las barreras y los revestimientos de las fachadas (apartado 2.1.2, tabla 2.2). Para la condensación, la ventilación es la solución principal, y el DB-HS 3 fija los caudales mínimos de ventilación de las viviendas (tabla 2.1).",
+      "El tratamiento de una humedad empieza por identificar su origen, porque aplicar un revestimiento impermeable a una humedad de condensación no la resuelve, y puede empeorarla al cerrar la salida del vapor. Si el origen es el agua de lluvia, se repara el elemento que la deja pasar, como un remate de cubierta, una junta o un sistema de drenaje. Si es el terreno, se restablece la impermeabilización del muro y el drenaje. Si es la condensación, se mejora la ventilación y el aislamiento de la capa fría.",
+      "Una parte de la prevención de las humedades depende de la ejecución de los detalles. Los encuentros de la fachada con la cubierta, con los forjados y con las carpinterías son los puntos donde el agua encuentra un camino, y donde el DB-HS 1 exige que se respeten las bandas de refuerzo y de terminación del sistema de impermeabilización (apartado 2.3.3, punto 1). Un remate mal ejecutado en un encuentro produce una humedad que se atribuye a la fachada, aunque la fachada esté bien construida, y por eso el diagnóstico debe seguir el recorrido del agua y no solo la mancha visible."
+     ]
+    },
+    {
+     "titulo": "4. Las fisuras: tipos, causas y clasificación",
+     "parrafos": [
+      "Una fisura es una discontinuidad del material que se produce cuando la tensión supera su resistencia, o cuando los movimientos del elemento no pueden acomodarse. Las fisuras se clasifican por su causa: las estructurales, producidas por sobrecarga o por insuficiencia de la sección; las de asiento, producidas por el movimiento de la cimentación; las térmicas e higrotérmicas, por la dilatación y la retracción del material; las de retracción del hormigón durante su secado; las producidas por la corrosión de las armaduras; y las de defectos de ejecución, como la falta de juntas o el uso de un mortero inadecuado.",
+      "Las fisuras de asiento tienen una causa geotécnica o de cimentación. El DB-SE-C indica que la observación de asientos excesivos puede ser señal del mal estado de las zapatas, y que en ese caso debe observarse la cimentación, el terreno circundante y la parte enterrada de los elementos verticales (DB-SE-C, apartado 4.6.1, punto 3). Las fisuras inclinadas en un muro, anchas en la base y estrechas en la coronación, suelen ser de asiento diferencial.",
+      "Las fisuras térmicas y las de retracción suelen ser finas y repartidas, y se concentran en los puntos de cambio de sección o de rigidez, como las esquinas de los huecos. Las juntas de movimiento previenen esa fisuración. El DB-HS 1 exige juntas de dilatación en la hoja principal de forma que cada junta estructural coincida con una de ellas, con una distancia máxima que fija la tabla 2.1 del DB-SE-F para las fábricas sustentadas (DB-HS 1, apartado 2.3.3.1, punto 1). Una fisura en una fachada sin junta de movimiento suele ser de este tipo.",
+      "El tiempo de aparición es un dato útil del diagnóstico. Las fisuras de retracción aparecen en los primeros meses, cuando el hormigón se seca, y las de asiento o las de sobrecarga pueden aparecer años después, cuando la carga o el terreno cambian. Una fisura que aparece después de una obra vecina, de una modificación del uso o de una inundación debe investigarse en esa relación, porque la causa temporal suele ser la clave del diagnóstico."
+     ]
+    },
+    {
+     "titulo": "5. Las fisuras: diagnóstico y tratamiento",
+     "parrafos": [
+      "El diagnóstico de una fisura comienza por observar su dirección, su anchura, su evolución y su relación con los elementos vecinos. Una fisura activa, que aumenta con el tiempo, indica un movimiento que sigue en curso y debe vigilarse antes de repararla. Una fisura pasiva, estable, puede tratarse sin esperar. La anchura es un dato orientativo: una fisura estrecha puede ser grave si es estructural, y una fisura ancha puede ser inofensiva si es superficial.",
+      "El tratamiento depende de la causa. Si la fisura es estructural, la reparación debe devolver la capacidad resistente, con los sistemas de reparación de estructuras de hormigón del Código Estructural (art. 40) o con un refuerzo (art. 41). Si es de asiento, hay que corregir la cimentación antes que la fisura. Si es térmica o de retracción, se sella con un material elástico en una junta de movimiento o se reparan los puntos de cambio de sección. Si es por corrosión de armaduras, se trata la corrosión y se restablece el recubrimiento.",
+      "El Código Estructural regula la durabilidad del hormigón en su artículo 43, y las clases de exposición en el artículo 27.1. Una fisura por corrosión de armaduras es, en la mayoría de los casos, la señal de que el recubrimiento no era el adecuado para la clase de exposición del elemento, y el tratamiento debe asegurar que la nueva capa protectora cumple esa clase."
+     ]
+    },
+    {
+     "titulo": "6. Patologías de la madera: tipos y causas",
+     "parrafos": [
+      "La madera puede sufrir daños causados por agentes bióticos y abióticos (DB-SE-M, apartado 3.2, punto 1). Los agentes bióticos son los hongos y los insectos. Los hongos de pudrición degradan la celulosa y la lignina, y requieren humedad sostenida: la madera con un contenido de humedad superior al 20 % es la que está expuesta. Los insectos xilófagos atacan la madera seca o húmeda según la especie, y dejan galerías y orificios que debilitan la sección.",
+      "Los agentes abióticos son la humedad, las variaciones dimensionales por cambios de humedad, que producen grietas y deformaciones, la exposición a la intemperie y la radiación, que decolora y degrada la superficie. La clase de uso del elemento define la probabilidad de ataque: la clase 1 es el elemento a cubierto y no expuesto a la humedad, con contenido de humedad inferior al 20 %; la clase 2 es el elemento a cubierto con humedad ocasionalmente superior al 20 %; y las clases 3.1 y 3.2 son las del elemento al descubierto, protegido o no protegido de la intemperie (DB-SE-M, apartado 3.2.1.2).",
+      "Las patologías de la madera más frecuentes son, por tanto, la pudrición de los extremos de vigas apoyadas en muros húmedos, el ataque de insectos en elementos del interior con humedad por condensación, las grietas por secado en vigas de madera vista expuesta al sol, y la pérdida de sección de los elementos de cubierta por filtraciones. Cada una tiene una causa identificable por la clase de uso y por el lugar del elemento.",
+      "La madera tiene además una patología de origen constructivo que se repite: el encuentro con el muro húmedo. Una viga apoyada directamente en fábrica sin separación ni ventilación del apoyo recoge la humedad del muro durante años, y su testa se pudre sin que la superficie visible lo muestre. Por eso el diseño de los apoyos de la madera debe prever una separación, un material de corte de humedad y una ventilación del extremo, que son las medidas que las clases de uso exigen cuando el elemento está en contacto con la humedad."
+     ]
+    },
+    {
+     "titulo": "7. Patologías de la madera: prevención y tratamiento",
+     "parrafos": [
+      "La prevención de la madera empieza en el diseño. El DB-SE-M exige que los elementos estructurales de madera estén protegidos según su clase de uso, y permite el empleo de madera con durabilidad natural suficiente para la clase de uso prevista como alternativa a un tratamiento protector (DB-SE-M, apartado 3.2.1.1, puntos 1 y 2). La durabilidad natural es, por tanto, un criterio de selección de la especie, que se aplica junto con el tratamiento cuando la clase de uso lo exige.",
+      "El fabricante del producto protector debe indicar en el envase y en la documentación técnica las instrucciones de uso y de mantenimiento (DB-SE-M, apartado 3.2, punto 2). Esa instrucción es la que se cumple en la aplicación del tratamiento: un producto aplicado fuera de sus condiciones pierde eficacia, aunque su composición sea correcta.",
+      "El tratamiento de una madera dañada sigue el principio de eliminar la causa antes que la consecuencia. Si la causa es la humedad, se corrige la fuente, se ventila el elemento y se deja secar. Si el daño es biológico y el elemento conserva sección suficiente, se trata con un producto protector según la clase de uso. Si la pérdida de sección es significativa, el elemento se sustituye o se refuerza con una pieza nueva unida a la existente, con una justificación de que la sección resultante cumple."
+     ]
+    },
+    {
+     "titulo": "8. Otros daños y defectos",
+     "parrafos": [
+      "La corrosión de las armaduras del hormigón es el daño más frecuente de las estructuras de hormigón en ambiente húmedo o con sales. Su causa es la carbonatación del recubrimiento, que reduce la alcalinidad del hormigón, o la penetración de cloruros, que destruye la capa pasiva de la armadura. El Código clasifica los ambientes en clases de exposición (art. 27.1) y regula la durabilidad en el artículo 43, con un recubrimiento y una dosificación ajustados a la clase.",
+      "La corrosión del acero estructural se previene con la estrategia de protección del DB-SE-A (apartado 3), que exige prevenir la corrosión mediante una estrategia global de diseño, materiales y protección. El Código, en su artículo 80.1, clasifica la corrosividad del ambiente para los elementos de acero, y en el artículo 86 regula los sistemas de protección. Un acero sin protección en ambiente marino es un daño anunciado.",
+      "Los ataques químicos y los ciclos de hielo y deshielo deterioran el hormigón por disgregación de la superficie, y son los agentes de las clases XA y XF del Código. Los asientos de la cimentación, como se ha visto en las fisuras, producen daños estructurales que se manifiestan en el edificio. Los daños por sobrecarga, por cambio de uso sin comprobación o por obras vecinas que alteran el terreno completan el panorama de otros defectos estructurales.",
+      "Los daños por humedad y los daños por corrosión suelen aparecer juntos en los elementos de acero y de hormigón en ambientes húmedos. Una armadura corroída hincha el hormigón que la rodea, lo que produce fisuras longitudinales y desconchados, y estos abren nuevas vías de entrada al agua. La secuencia es conocida: humedad, corrosión, fisura, más humedad. Un tratamiento que solo sella la fisura interrumpe la secuencia en la superficie, pero deja la corrosión activa, y el daño vuelve a aparecer en pocos años."
+     ]
+    },
+    {
+     "titulo": "9. Diagnóstico, inspección y mantenimiento",
+     "parrafos": [
+      "El diagnóstico de un edificio con daños comienza por la inspección visual, que debe registrar la localización, la extensión y la evolución de cada daño. Después se establece la causa, con ensayos cuando es necesario, y se decide la intervención. Un diagnóstico que solo describe el daño no es suficiente para decidir la reparación.",
+      "El CTE exige que el edificio se conserve en buen estado mediante el plan de mantenimiento, con técnico competente para las operaciones programadas, y que se documenten las intervenciones en el libro del edificio (CTE, art. 8.2, apartados 1 y 2). Los propietarios y los usuarios deben comunicar cualquier anomalía (art. 8.2, apartado 1). Esa comunicación es la primera fuente de información de un daño, y debe organizarse en el plan.",
+      "Algunas operaciones de mantenimiento previenen las patologías más frecuentes. La limpieza periódica de sumideros y canalones evita las humedades de desbordamiento (DB-HS 5, apartado 7, punto 3). La revisión de los sellantes de las juntas de movimiento y de las carpinterías evita la entrada de agua por los encuentros. Y la inspección de la madera en zonas húmedas detecta el ataque biológico antes de que la sección se reduzca."
+     ]
+    },
+    {
+     "titulo": "10. Riesgos de la inspección y del tratamiento",
+     "parrafos": [
+      "Los trabajos de inspección y de tratamiento tienen riesgos propios. La inspección de cubiertas y de fachadas se hace en altura, con el riesgo de caída que el anexo IV del RD 1627/1997 regula en su apartado 12.b para los trabajos en tejados. Las catas en elementos estructurales pueden provocar la caída de fragmentos y deben hacerse con los apeos necesarios.",
+      "Los productos protectores de la madera, los biocidas y los tratamientos de hidrofugación contienen sustancias que pueden irritar la piel, las vías respiratorias y los ojos. El riesgo se controla con la ficha de datos de seguridad del producto y con la ventilación del local, y debe incluirse en la evaluación de riesgos de la obra. Los trabajos con inyecciones y con morteros de reparación generan polvo, que debe controlarse.",
+      "La evaluación de riesgos se apoya en la LPRL, cuyo artículo 16 regula el plan de prevención; de ese artículo solo se ha comprobado el inicio en el repositorio. El estudio de seguridad y salud, o el estudio básico cuando no se alcanzan los supuestos del artículo 4.1, debe recoger estas medidas con su presupuesto (RD 1627/1997, arts. 4 y 5)."
+     ]
+    },
+    {
+     "titulo": "11. Criterios de medición y factores del precio",
+     "parrafos": [
+      "Las humedades se miden por metro cuadrado de muro o de fachada tratada, por metro lineal de drenaje y por unidad de pozo o de tubo drenante. Las fisuras se miden por metro lineal de sellado o de cosido, por unidad de inyección o por metro cuadrado de refuerzo. La madera se mide por metro cúbico o por metro lineal de pieza sustituida, y el tratamiento protector, por metro cuadrado de superficie tratada.",
+      "Los factores que influyen en el precio son la causa del daño, que determina el tratamiento; la extensión y la profundidad del daño; la accesibilidad del elemento; la necesidad de apeos y de medios de elevación; la clase de uso de la madera; y el número de ensayos del diagnóstico. Un diagnóstico que cambia la causa de una humedad puede cambiar también el tratamiento y su coste.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). Las normas de medición concretas no se han verificado en el repositorio, por lo que el tema las presenta como principios."
+     ]
+    },
+    {
+     "titulo": "12. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir la clasificación de los daños por causa, el plazo de responsabilidad que corresponde a cada uno y la clase de uso de la madera. Conviene memorizar la clasificación del artículo 17 de la LOE (diez, tres y un año), las cuatro fuentes de agua del artículo 13.1 del CTE, y las clases de uso 1, 2, 3.1 y 3.2 de la madera.",
+      "Los errores habituales son cuatro. El primero es tratar una humedad de condensación con un revestimiento impermeable, que cierra la salida del vapor. El segundo es afirmar que toda fisura es estructural: la mayoría son térmicas o de retracción. El tercero es confundir la clase de uso 1 de la madera, a cubierto, con la 3.1, al exterior protegido. El cuarto es asignar a los daños de acabados la garantía de diez años, que corresponde a la estructura.",
+      "Para un caso práctico de un techo con manchas de humedad en un edificio de viviendas, el orden de análisis es: identificar la fuente, que puede ser la cubierta, la fachada o la condensación; medir la humedad y observar la evolución; clasificar el daño en la garantía que le corresponde, que es de habitabilidad en tres años; tratar la causa y no solo la mancha; y documentar la intervención en el libro del edificio.",
+      "Para repasar el tema, conviene estudiar tres bloques separados: las humedades, con sus cuatro orígenes y sus soluciones de DB-HS 1; las fisuras, con su clasificación por causa y su diagnóstico por actividad y anchura; y las patologías de la madera, con las clases de uso y los agentes bióticos y abióticos. Un examen que mezcla dos bloques suele preguntar por la relación entre ellos, como la humedad que causa la pudrición o la fisura que deja entrar el agua."
+     ]
+    },
+    {
+     "titulo": "13. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en fuente oficial: el artículo 13.1 del CTE; el artículo 8.2 del CTE; el artículo 17 de la LOE (apartados 1.a y 1.b y el último párrafo); el DB-HS 1 en sus apartados 1.1 (punto 2), 2.1.1, 2.1.2 (tabla 2.2, bloques), 2.3.1 (encabezado), 2.3.3.1 (puntos 1 y 2) y 2.4.1; el DB-HS 3 en su tabla 2.1; el DB-HS 5 en su apartado 7 (punto 3); el DB-SE-M en sus apartados 3.2 (puntos 1 y 2), 3.2.1.1 (puntos 1 y 2) y 3.2.1.2 (clases de uso 1 a 3.1); el DB-SE-C en su apartado 4.6.1 (punto 3); el DB-SE-A en su apartado 3 (punto 1); el Código Estructural en sus artículos 27.1, 40, 41, 43, 80.1 (encabezado) y 86 (encabezado); y el RD 1627/1997 en su anexo IV, apartado 12.b.",
+      "No se han leído el DB-SE-M en las clases de uso 3.2 y 4 completas, el tratamiento protector de la madera en su apartado 3.2.3 ni los apartados de durabilidad natural, ni el DB-HS 1 en sus apartados de suelos y de condensación completos. Tampoco se ha leído el cuerpo de los artículos 39, 43 y 86 del Código, ni las normas de los productos protectores.",
+      "Las causas y los efectos de las patologías que se describen por su naturaleza, como el moho, las eflorescencias y el ataque de insectos, son conocimiento de la práctica y no han sido verificados en el texto normativo. Deben contrastarse con manuales de patologías antes de citarlos en un examen."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-1999-21567.pdf",
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/DB-HS-salubridad.pdf",
+    "leyes/DB-SE-M.pdf",
+    "leyes/DB-SE-C-diciembre-2019.pdf",
+    "leyes/BOE-A-2021-13681-extracto.pdf",
+    "leyes/BOE-A-1995-24292.pdf"
+   ]
+  },
   "e20": {
    "resumen": [
     {

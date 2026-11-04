@@ -1,0 +1,202 @@
+{
+  "id": "e15",
+  "resumen": [
+    {
+      "titulo": "Tipos de intervención",
+      "puntos": [
+        "Reparación, consolidación, refuerzo, reforma y rehabilitación. La LOE trata como edificación las intervenciones que alteran la configuración arquitectónica o el sistema estructural, o que cambian el uso (LOE, art. 2.2, letra b).",
+        "El CTE se aplica a las intervenciones en edificios existentes, con las limitaciones que indica su artículo 2.3."
+      ]
+    },
+    {
+      "titulo": "Razones de la intervención en estructuras existentes",
+      "puntos": [
+        "Asegurar la vida de servicio cuando el deterioro se ha acelerado; restablecer las prestaciones tras una acción accidental; dotar de nuevas prestaciones o vida útil adicional (Código Estructural, art. 25.1, letras a a c).",
+        "La intervención no puede reducir condiciones preexistentes menos exigentes que las del documento básico; las más exigentes solo hasta sus niveles (CTE, art. 2.3)."
+      ]
+    },
+    {
+      "titulo": "Estudios y diagnóstico",
+      "puntos": [
+        "El proyecto de reparación parte de la información disponible, de la evaluación estructural y de la vida útil residual, y de un diagnóstico que dictamine las causas (Código, art. 75.1).",
+        "Investigaciones: levantamiento real, catas, toma de muestras, ensayos y, en casos complejos, pruebas de carga. Evaluación de estructuras existentes (Código, arts. 25 y 74 para el hormigón y 104 para el acero)."
+      ]
+    },
+    {
+      "titulo": "Trabajos preparatorios y demolición",
+      "puntos": [
+        "Apeos que sostienen los elementos durante la intervención; protección de colindantes; vaciado de los elementos dañados antes del tratamiento.",
+        "Derribos que puedan suponer peligro bajo supervisión de persona competente (RD 1627/1997, anexo IV, apartado 12.a). Demolición de estructuras de hormigón como decisión de la propiedad, con proyecto específico (Código, art. 77.1)."
+      ]
+    },
+    {
+      "titulo": "Proyecto de ejecución y CTE",
+      "puntos": [
+        "Indicación del proyectista sobre si la intervención actúa en la estructura existente; si no lo indica, se entiende que no hay riesgo de daño del artículo 17.1.a de la LOE (CTE, art. 2.4).",
+        "Constancia en la documentación final del nivel de prestación alcanzado y de los condicionantes de uso y mantenimiento (CTE, art. 2.3)."
+      ]
+    },
+    {
+      "titulo": "Ejecución y apeos",
+      "puntos": [
+        "Reparación del hormigón: eliminar el deteriorado, tratar las armaduras corroídas y reconstruir el volumen (Código, arts. 75 y 40). Refuerzo: sistemas de refuerzo (Código, arts. 76 y 41).",
+        "Los apeos y apuntalamientos se montan y desmontan bajo vigilancia de persona competente (RD 1627/1997, anexo IV, apartado 11.a). No se retiran antes de que la intervención tenga la resistencia necesaria."
+      ]
+    },
+    {
+      "titulo": "Riesgos y precio",
+      "puntos": [
+        "Riesgos de la estructura existente durante la obra, del amianto y del edificio habitado; evaluación con el estado previo del edificio; estudio de seguridad con presupuesto por valoración unitaria (RD 1627/1997, arts. 4 y 5).",
+        "Factores del precio: diagnóstico y contingencias, accesibilidad, apeos y protecciones de colindantes, demolición parcial, estudios y ensayos."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CTE",
+      "rol": "Ámbito en intervenciones existentes y conservación del nivel de prestación (arts. 2.3, 2.4 y 8.2)"
+    },
+    {
+      "id": "LOE",
+      "rol": "Ámbito de la edificación en intervenciones existentes y responsabilidad (arts. 2.2, letra b, y 17.1.a)"
+    },
+    {
+      "id": "RD-470-2021",
+      "rol": "Código Estructural: evaluación, reparación, refuerzo y demolición de estructuras existentes (arts. 25, 40, 41, 74 a 77)"
+    },
+    {
+      "id": "DB-SE-M",
+      "rol": "Protección y tratamiento de la madera (apartado 3.2)"
+    },
+    {
+      "id": "RD-1627-1997",
+      "rol": "Apeos, demolición y trabajos preparatorios (anexo IV, apartados 11 y 12.a)"
+    },
+    {
+      "id": "LPRL",
+      "rol": "Marco de la prevención de riesgos laborales (art. 16, en parte)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el CTE, art. 2.4, ¿qué debe indicar el proyectista en una intervención en un edificio existente?",
+      "opciones": [
+        "Si la intervención incluye o no actuaciones en la estructura preexistente",
+        "El nombre del vecino colindante",
+        "El color de la fachada",
+        "El precio de la obra"
+      ],
+      "correcta": 0,
+      "explicacion": "El proyectista debe indicar en la documentación si la intervención incluye o no actuaciones en la estructura preexistente.",
+      "referencia": "CTE, art. 2.4"
+    },
+    {
+      "pregunta": "Según el CTE, art. 2.4, si el proyecto no indica actuaciones en la estructura, ¿qué se entiende?",
+      "opciones": [
+        "Que no se necesita licencia",
+        "Que la estructura va a demolerse",
+        "Que las obras no implican el riesgo de daño del artículo 17.1.a de la LOE",
+        "Que la obra es de nueva construcción"
+      ],
+      "correcta": 2,
+      "explicacion": "Si el proyecto no indica actuaciones en la estructura, se entiende que las obras no implican el riesgo de daño citado en el artículo 17.1.a de la LOE.",
+      "referencia": "CTE, art. 2.4"
+    },
+    {
+      "pregunta": "Según el Código Estructural, art. 25.1, ¿cuál de estas es una razón que justifica la intervención en una estructura existente?",
+      "opciones": [
+        "Porque el vecino lo pide",
+        "Para cambiar el color de la estructura",
+        "Porque el edificio es antiguo, sin más motivo",
+        "Restablecer las prestaciones de la estructura tras una acción accidental"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 25.1 justifica la intervención, entre otras razones, para restablecer las prestaciones de la estructura tras una acción accidental.",
+      "referencia": "Código Estructural, art. 25.1, letra b)"
+    },
+    {
+      "pregunta": "Según el Código Estructural, art. 75.1, ¿en qué debe basarse el proyecto de reparación de una estructura de hormigón?",
+      "opciones": [
+        "Solo en el presupuesto",
+        "En un diagnóstico preciso que dictamine las causas de los daños",
+        "En la fotografía de la fachada",
+        "En la opinión de los vecinos"
+      ],
+      "correcta": 1,
+      "explicacion": "El proyecto de reparación debe ser el resultado de un estudio previo, de un análisis de evaluación estructural y de vida útil residual, y de un diagnóstico preciso que dictamine las causas de los daños.",
+      "referencia": "Código Estructural, art. 75.1"
+    },
+    {
+      "pregunta": "Según el RD 1627/1997, anexo IV, apartado 11.a, ¿cómo deben montarse o desmontarse los apeos y apuntalamientos?",
+      "opciones": [
+        "Bajo vigilancia, control y dirección de una persona competente",
+        "Solo de noche",
+        "Por cualquier trabajador",
+        "Sin supervisión"
+      ],
+      "correcta": 0,
+      "explicacion": "Los encofrados, los soportes temporales y los apuntalamientos solo pueden montarse o desmontarse bajo vigilancia, control y dirección de una persona competente.",
+      "referencia": "RD 1627/1997, anexo IV, apartado 11.a"
+    },
+    {
+      "pregunta": "Según el Código Estructural, art. 77.1, ¿quién es responsable de disponer de un proyecto específico para la demolición de una estructura de hormigón?",
+      "opciones": [
+        "Nadie",
+        "El operario de la demolición",
+        "La propiedad",
+        "El fabricante del cemento"
+      ],
+      "correcta": 2,
+      "explicacion": "La propiedad será responsable de disponer de un proyecto específico para la demolición.",
+      "referencia": "Código Estructural, art. 77.1"
+    },
+    {
+      "pregunta": "Según el CTE, art. 2.3, ¿qué no se puede hacer en las intervenciones en edificios existentes con las condiciones preexistentes?",
+      "opciones": [
+        "Mejorarlas",
+        "Documentarlas",
+        "Mantenerlas",
+        "Reducirlas por debajo de las exigencias de los documentos básicos cuando estas son más exigentes"
+      ],
+      "correcta": 3,
+      "explicacion": "Las condiciones preexistentes menos exigentes que las de los documentos básicos no pueden reducirse; las más exigentes solo pueden reducirse hasta los niveles de exigencia de los documentos básicos.",
+      "referencia": "CTE, art. 2.3"
+    },
+    {
+      "pregunta": "Según la LOE, art. 2.2, letra b, ¿qué intervención sobre edificios existentes queda incluida en el ámbito de la ley?",
+      "opciones": [
+        "Cualquier pintura interior",
+        "Las que alteran la configuración arquitectónica, el sistema estructural o el uso del edificio",
+        "Ninguna",
+        "Solo la limpieza de fachadas"
+      ],
+      "correcta": 1,
+      "explicacion": "Se incluyen las intervenciones que alteran la configuración arquitectónica, entendiendo por tales las que tienen carácter total o las parciales que producen una variación esencial de la composición exterior, la volumetría o el sistema estructural, o que cambian los usos.",
+      "referencia": "LOE, art. 2.2, letra b)"
+    },
+    {
+      "pregunta": "Según el DB-SE-M, apartado 3.2.1.2, ¿qué clase de uso corresponde al elemento a cubierto y no expuesto a la humedad?",
+      "opciones": [
+        "Clase de uso 3.1",
+        "Clase de uso 4",
+        "Clase de uso 1",
+        "Clase de uso 3.2"
+      ],
+      "correcta": 2,
+      "explicacion": "La clase de uso 1 corresponde al elemento estructural a cubierto, protegido de la intemperie y no expuesto a la humedad.",
+      "referencia": "DB-SE-M, apartado 3.2.1.2, letra a)"
+    },
+    {
+      "pregunta": "Según el Código Estructural, art. 40, ¿de qué trata este artículo?",
+      "opciones": [
+        "De los sistemas de reparación de estructuras de hormigón",
+        "De la fabricación del cemento",
+        "De la iluminación de obra",
+        "De la demolición de estructuras de acero"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 40 regula los sistemas de reparación de estructuras de hormigón.",
+      "referencia": "Código Estructural, art. 40"
+    }
+  ]
+}
