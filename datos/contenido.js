@@ -850,6 +850,28 @@ window.DATOS_ESTUDIO = {
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-03",
    "notas": "PDF de la versión de diciembre de 2019 descargado de la web oficial del CTE. Verificados los apartados 2.1, 2.2.1, 3.1, 3.3, 4.1, 4.4, 4.5.1, 4.6, 5.1.1, 5.1.2.1, 5.4.1.1, 6.1.1 y 7.1 a 7.3 en el texto, y los encabezados de los demás. No se ha identificado en el repositorio la norma de aprobación del documento; la ficha del documento cita el Real Decreto 1371/2007 y el Real Decreto 732/2019. No figura en la Orden VIV/984/2009 (BOE-A-2009-6743), que modifica otros documentos básicos. Pendiente: contraste con la versión vigente en codigotecnico.org."
+  },
+  "DB-HS": {
+   "id": "DB-HS",
+   "nombre": "Documento Básico HS Salubridad (sección HS 5, evacuación de aguas)",
+   "referencia": "Documento Básico HS Salubridad del Código Técnico de la Edificación, versión descargada de codigotecnico.org con las disposiciones citadas en su portada hasta el Real Decreto 450/2022 (no es un texto del BOE)",
+   "url": "https://www.codigotecnico.org/DocumentosCTE/Salubridad.html",
+   "boe_id": null,
+   "pdf": "leyes/DB-HS-salubridad.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "PDF del DB-HS descargado de la web oficial del CTE. Verificados en el texto la sección HS 5 (apartados 1 a 5, con las tablas 4.4 a 4.7, y el apartado 7 de mantenimiento) y el apartado 6 solo por su encabezado. No se ha leído el apartado 6 (productos) ni las tablas de ramales, botes sifónicos y bombeo (apartados 4.1.1 y 4.6). El documento cita modificaciones hasta el Real Decreto 450/2022; la norma de aprobación de la versión vigente debe comprobarse en la web oficial."
+  },
+  "RD-470-2021": {
+   "id": "RD-470-2021",
+   "nombre": "Código Estructural",
+   "referencia": "Real Decreto 470/2021, de 29 de junio, por el que se aprueba el Código Estructural (BOE núm. 190, de 10 de agosto de 2021)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-13681",
+   "boe_id": "BOE-A-2021-13681",
+   "pdf": "leyes/BOE-A-2021-13681-extracto.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-04",
+   "notas": "Extracto en PDF de las páginas del BOE original que contienen los artículos 1 a 5, 8 a 10 (en parte), 24, 26, 27, 33, 34, 43 (en parte), 52, 57, 68 y las disposiciones transitoria única, derogatoria única y final cuarta. Verificado en el texto: arts. 1, 2, 3 (en parte), 5 (en parte), 9, 10 (en parte), 24, 26, 27.1, 33.1 a 33.3 (en parte), 34.1, 43 (en parte), 52.1, 52.2, 52.5, 57.1, 57.2, 68, disposiciones transitoria única, derogatoria única (apartado 1) y final cuarta (entrada en vigor a los tres meses). Pendientes: resto del articulado (arts. 28 a 32, 35 a 41, 44 a 50, 53 a 56, 58 a 67, 69 a 78) y el anejo 18. Sin consolidación identificada; la búsqueda identificó una corrección de errores de 2 de febrero de 2024 (BOE-A-2024-1989) que no se ha leído."
   }
  },
  "contenido": {
@@ -13304,6 +13326,643 @@ window.DATOS_ESTUDIO = {
     "leyes/BOE-A-2006-5515.pdf",
     "leyes/BOE-A-1999-21567.pdf",
     "leyes/DB-SE-C-diciembre-2019.pdf",
+    "leyes/BOE-A-1997-22614.pdf",
+    "leyes/BOE-A-1995-24292.pdf"
+   ]
+  },
+  "e03": {
+   "resumen": [
+    {
+     "titulo": "Exigencia básica HS 5 y procedimiento",
+     "puntos": [
+      "La exigencia HS 5 pide medios adecuados para extraer las aguas residuales, de forma independiente o conjunta con las pluviales (CTE, art. 13.5). El DB-HS 5 se verifica en el orden diseño, dimensionado, ejecución, productos y uso y mantenimiento (apartado 1.2).",
+      "Seis criterios de diseño: cierres hidráulicos, trazado autolimpiable, diámetros adecuados, accesibilidad para mantenimiento, ventilación y uso exclusivo para aguas residuales o pluviales (apartado 2)."
+     ]
+    },
+    {
+     "titulo": "Tipos de sistemas y conexión",
+     "puntos": [
+      "El desagüe es preferentemente por gravedad al pozo o arqueta general (apartado 3.1, punto 1). Con una única red pública, sistema mixto o separativo con conexión final; con dos redes, separativo (apartado 3.2).",
+      "Sin red pública: sistemas individualizados, con estación depuradora particular para las residuales y vertido al terreno para las pluviales (apartado 3.1, punto 2)."
+     ]
+    },
+    {
+     "titulo": "Elementos de la instalación",
+     "puntos": [
+      "Cierres hidráulicos: sifones individuales, botes sifónicos, sumideros y arquetas sifónicas. Altura de 50 mm en usos continuos y 70 mm en discontinuos, con máximo de 100 mm (apartado 3.3.1.1).",
+      "Colectores colgados: pendiente mínima del 1 %, no más de dos colectores en un mismo punto y registros con tramos rectos de hasta 15 m (apartado 3.3.1.4.1). En sistemas mixtos, la bajante de pluviales se conecta a 3 m o más de la de residuales situada aguas arriba (apartado 3.3.1.4.1, punto 2)."
+     ]
+    },
+    {
+     "titulo": "Dimensionado",
+     "puntos": [
+      "Bajantes residuales: variación de presión no superior a 250 Pa y ocupación no superior a un tercio de la sección; diámetro según la tabla 4.4 (apartado 4.1.2).",
+      "Colectores horizontales: funcionamiento a media sección, máximo tres cuartos, con diámetro según la tabla 4.5 para pendientes del 1 %, 2 % o 4 % (apartado 4.1.3). Sumideros pluviales: dos hasta 100 m², tres hasta 200 m², cuatro hasta 500 m² y uno cada 150 m² por encima (tabla 4.6)."
+     ]
+    },
+    {
+     "titulo": "Ejecución y pruebas",
+     "puntos": [
+      "Las redes enterradas se ejecutan en zanjas según el material (apartados 5.4.3 y 5.4.4); las arquetas y pozos tienen apartado propio (apartado 5.4.5).",
+      "Prueba de la red horizontal: agua a 0,3 a 0,6 bar durante diez minutos, tramo a tramo; uniones, entronques y derivaciones al 100 %; cierre hidráulico mínimo de 25 mm tras la prueba (apartado 5.6.1)."
+     ]
+    },
+    {
+     "titulo": "Control, uso y mantenimiento",
+     "puntos": [
+      "Control de la ejecución según el proyecto y el artículo 7.3 del CTE; control de la obra terminada según el artículo 7.4 del CTE (apartados 5.2 y 5.3).",
+      "Mantenimiento: sifones y válvulas revisados al disminuir el caudal; sumideros y botes sifónicos cada seis meses; colectores suspendidos y arquetas sumidero cada año; arquetas de pie de bajante cada diez años (apartado 7, puntos 2 a 5)."
+     ]
+    },
+    {
+     "titulo": "Seguridad y medición",
+     "puntos": [
+      "Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9: localizar cables y conducciones, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras (apartado 9.a a 9.d). Los trabajos en tejados tienen reglas de protección colectiva en el apartado 12.b del anexo IV.",
+      "La medición se hace por metros lineales de tubería por diámetro y material, y por unidades de arqueta, sumidero, bote sifónico y sifón. El precio depende del diámetro, la profundidad de la zanja y el número de registros."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Exigencia HS 5 y control de la ejecución (arts. 5.2, 7, 8 y 13.5)"
+    },
+    {
+     "id": "DB-HS",
+     "rol": "Sección HS 5 Evacuación de aguas (apartados 1 a 5 y 7, tablas 4.4 a 4.7)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Seguridad en zanjas y trabajos en cubierta (arts. 4, 5 y anexo IV, apartados 9 y 12)"
+    },
+    {
+     "id": "LPRL",
+     "rol": "Marco de la prevención de riesgos laborales (art. 16, en parte)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según el art. 13.5 del CTE, ¿qué exige la exigencia básica HS 5?",
+     "opciones": [
+      "Medios adecuados para extraer las aguas residuales de forma independiente o conjunta con las pluviales",
+      "Medios para suministrar agua caliente",
+      "Protección frente al radón",
+      "Aislamiento acústico de fachadas"
+     ],
+     "correcta": 0,
+     "explicacion": "La exigencia HS 5 pide que los edificios dispongan de medios adecuados para extraer las aguas residuales generadas en ellos, de forma independiente o conjunta con las precipitaciones y escorrentías.",
+     "referencia": "Art. 13.5 CTE"
+    },
+    {
+     "pregunta": "Según el DB-HS 5, apartado 3.3.1.1, ¿cuál es la altura mínima del cierre hidráulico para usos continuos?",
+     "opciones": [
+      "100 mm",
+      "25 mm",
+      "50 mm",
+      "70 mm"
+     ],
+     "correcta": 2,
+     "explicacion": "La altura mínima del cierre hidráulico es de 50 mm para usos continuos y de 70 mm para usos discontinuos, con un máximo de 100 mm.",
+     "referencia": "DB-HS 5, apartado 3.3.1.1, punto 2 e)"
+    },
+    {
+     "pregunta": "Según el DB-HS 5, apartado 3.3.1.4.1, ¿cuál es la pendiente mínima de un colector colgado?",
+     "opciones": [
+      "4 %",
+      "10 %",
+      "0,5 %",
+      "1 %"
+     ],
+     "correcta": 3,
+     "explicacion": "Los colectores colgados deben tener una pendiente del 1 % como mínimo.",
+     "referencia": "DB-HS 5, apartado 3.3.1.4.1, punto 3"
+    },
+    {
+     "pregunta": "Según el DB-HS 5, apartado 3.3.1.4.1, punto 2, ¿a qué distancia mínima de la bajante de residuales debe conectarse la bajante de pluviales en un sistema mixto?",
+     "opciones": [
+      "A 1 m",
+      "A 3 m",
+      "A 10 m",
+      "A 30 cm"
+     ],
+     "correcta": 1,
+     "explicacion": "La conexión de la bajante de pluviales debe separarse al menos 3 m de la conexión de la bajante de residuales situada aguas arriba.",
+     "referencia": "DB-HS 5, apartado 3.3.1.4.1, punto 2"
+    },
+    {
+     "pregunta": "Según el DB-HS 5, apartado 4.2.1, punto 2, ¿cuántos sumideros se disponen en una cubierta de 150 m² de proyección horizontal?",
+     "opciones": [
+      "Tres",
+      "Cuatro",
+      "Uno cada 150 m²",
+      "Dos"
+     ],
+     "correcta": 0,
+     "explicacion": "Para superficies de 100 a 200 m² se disponen tres sumideros, según la tabla 4.6.",
+     "referencia": "DB-HS 5, apartado 4.2.1, tabla 4.6"
+    },
+    {
+     "pregunta": "Según el DB-HS 5, apartado 5.6.1, punto 4, ¿a qué presión y durante cuánto tiempo se prueba la red horizontal con agua?",
+     "opciones": [
+      "Sin presión, solo por observación",
+      "A 10 bar durante un día",
+      "Entre 0,3 y 0,6 bar durante diez minutos",
+      "Entre 3 y 6 bar durante una hora"
+     ],
+     "correcta": 2,
+     "explicacion": "La red horizontal se prueba introduciendo agua a presión entre 0,3 y 0,6 bar durante diez minutos, tramo a tramo.",
+     "referencia": "DB-HS 5, apartado 5.6.1, punto 4"
+    },
+    {
+     "pregunta": "Según el DB-HS 5, apartado 7, ¿con qué periodicidad se limpian los sumideros de locales húmedos y los botes sifónicos?",
+     "opciones": [
+      "Cada diez años",
+      "Nunca",
+      "Cada cinco años",
+      "Cada seis meses"
+     ],
+     "correcta": 3,
+     "explicacion": "Cada seis meses se limpian los sumideros de locales húmedos y cubiertas transitables, y los botes sifónicos.",
+     "referencia": "DB-HS 5, apartado 7, punto 3"
+    },
+    {
+     "pregunta": "Según el DB-HS 5, apartado 4.1.2, ¿qué variación de presión no debe superar el dimensionado de una bajante de residuales?",
+     "opciones": [
+      "25 Pa",
+      "250 Pa",
+      "2.500 Pa",
+      "Ninguna"
+     ],
+     "correcta": 1,
+     "explicacion": "El dimensionado de las bajantes debe hacerse para no rebasar el límite de 250 Pa de variación de presión.",
+     "referencia": "DB-HS 5, apartado 4.1.2, punto 1"
+    },
+    {
+     "pregunta": "Según el RD 1627/1997, anexo IV, apartado 9.b, ¿qué debe preverse en las excavaciones para prevenir la irrupción accidental de agua?",
+     "opciones": [
+      "Trabajar sin protección",
+      "Nada, si la zanja es corta",
+      "Sistemas o medidas adecuados para prevenir la irrupción accidental de agua",
+      "Acumular las tierras en el borde"
+     ],
+     "correcta": 2,
+     "explicacion": "El anexo IV, apartado 9.b.2.º, exige precauciones para prevenir la irrupción accidental de agua mediante los sistemas o medidas adecuados.",
+     "referencia": "Anexo IV, apartado 9.b.2.º RD 1627/1997"
+    },
+    {
+     "pregunta": "Según el DB-HS 5, apartado 3.1, punto 1, ¿cómo deben desaguar preferentemente los colectores del edificio?",
+     "opciones": [
+      "Por gravedad, en el pozo o arqueta general de conexión con la red",
+      "Directamente a la cubierta",
+      "Por ventilación natural",
+      "Por bombeo permanente"
+     ],
+     "correcta": 0,
+     "explicacion": "Los colectores deben desaguar, preferentemente por gravedad, en el pozo o arqueta general que constituye el punto de conexión con la red de alcantarillado público.",
+     "referencia": "DB-HS 5, apartado 3.1, punto 1"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué es el saneamiento y cómo se ordena",
+     "parrafos": [
+      "El saneamiento de un edificio es el conjunto de instalaciones que recogen y evacuan las aguas residuales (las procedentes de los aparatos sanitarios y de la cocina) y las aguas pluviales (las que caen sobre la cubierta y el terreno), y las conducen a la red de alcantarillado público o, cuando no existe, a un sistema individualizado. Es una instalación enterrada en gran parte y poco visible, por lo que sus defectos aparecen tarde y cuestan mucho de reparar.",
+      "El Código Técnico de la Edificación regula el saneamiento en la exigencia básica HS 5, «Evacuación de aguas», dentro del requisito de salubridad. Su desarrollo está en la sección HS 5 del Documento Básico de Salubridad (DB-HS). La sección se aplica a las instalaciones de evacuación de aguas residuales y pluviales de los edificios incluidos en el ámbito general del CTE, y también a las ampliaciones y reformas cuando se aumenta el número o la capacidad de los aparatos (DB-HS 5, apartado 1.1).",
+      "La sección ordena la verificación en cinco pasos: diseño (apartado 3), dimensionado (apartado 4), ejecución (apartado 5), productos (apartado 6) y uso y mantenimiento (apartado 7) (DB-HS 5, apartado 1.2). Este orden es el que conviene recordar en un examen, porque refleja la lógica del proyecto, la obra y la vida del edificio."
+     ]
+    },
+    {
+     "titulo": "2. Requisitos y exigencias básicas",
+     "parrafos": [
+      "El requisito de salubridad busca reducir a límites aceptables el riesgo de que los usuarios padezcan molestias o enfermedades, y el de que el edificio se deteriore o deteriore el medio ambiente (CTE, art. 13.1). La exigencia HS 5 pide que los edificios dispongan de medios adecuados para extraer las aguas residuales generadas en ellos, de forma independiente o conjunta con las precipitaciones y las escorrentías (CTE, art. 13.5).",
+      "El DB-HS 5 concreta esa exigencia en seis puntos (apartado 2). Primero, deben disponerse cierres hidráulicos que impidan el paso del aire de la instalación a los locales sin afectar al flujo de residuos. Segundo, el trazado debe ser lo más sencillo posible, con distancias y pendientes que faciliten la evacuación y que sea autolimpiable, sin retención de agua. Tercero, los diámetros deben ser los apropiados para los caudales previsibles. Cuarto, las redes deben ser accesibles para su mantenimiento, a la vista o en huecos registrables, o disponer de arquetas o registros. Quinto, deben preverse sistemas de ventilación que permitan el funcionamiento de los cierres hidráulicos y la evacuación de gases. Sexto, la instalación no debe usarse para evacuar residuos distintos de las aguas residuales o pluviales.",
+      "Estas seis reglas son el criterio de diseño que las demás reglas desarrollan. Cuando un examen pregunta por qué existe un sifón, la respuesta es la primera; cuando pregunta por la accesibilidad de una red enterrada, la respuesta es la cuarta. Conviene aprenderlas en ese orden."
+     ]
+    },
+    {
+     "titulo": "3. Tipos de sistemas de evacuación",
+     "parrafos": [
+      "El DB distingue primero la forma de desaguar. Los colectores del edificio deben desaguar, preferentemente por gravedad, en el pozo o arqueta general que constituye el punto de conexión con la red de alcantarillado público, a través de la acometida (DB-HS 5, apartado 3.1, punto 1). El desagüe por gravedad es la regla; el bombeo se reserva a los casos en que no es posible.",
+      "Si existe una única red de alcantarillado público, debe disponerse un sistema mixto (pluviales y residuales por la misma red) o un sistema separativo con una conexión final de ambas antes de su salida a la red exterior. La conexión entre la red de pluviales y la de residuales debe hacerse con un cierre hidráulico que impida la transmisión de gases entre ambas y su salida por los puntos de captación, como calderetas, rejillas o sumideros (apartado 3.2, punto 1). Si existen dos redes públicas, una de pluviales y otra de residuales, debe disponerse un sistema separativo, con cada red conectada de forma independiente (apartado 3.2, punto 2).",
+      "Cuando no existe red de alcantarillado público, deben utilizarse sistemas individualizados separados: uno para las aguas residuales, con una estación depuradora particular, y otro para las pluviales, que se vierten al terreno (apartado 3.1, punto 2). Este supuesto es el más exigente, porque la instalación tiene que tratar el agua antes de devolverla al medio.",
+      "Los residuos agresivos de origen industrial requieren un tratamiento previo al vertido a la red o al sistema de depuración (apartado 3.1, punto 3). Los residuos de cualquier actividad profesional ejercida en el interior de las viviendas, distintos de los domésticos, necesitan un tratamiento previo mediante depósitos de decantación, separadores o depósitos de neutralización (punto 4)."
+     ]
+    },
+    {
+     "titulo": "4. Elementos que componen la instalación",
+     "parrafos": [
+      "Los cierres hidráulicos son los elementos que sellan la instalación frente a los gases. Pueden ser sifones individuales, propios de cada aparato; botes sifónicos, que sirven a varios aparatos; sumideros sifónicos; y arquetas sifónicas, situadas en los encuentros de los conductos enterrados de pluviales (DB-HS 5, apartado 3.3.1.1, punto 1). Deben ser autolimpiables, no tener superficies que retengan sólidos ni partes móviles, y tener un registro de limpieza accesible.",
+      "Las dimensiones del cierre están fijadas. La altura mínima de la lámina de agua es de 50 mm para usos continuos y de 70 mm para usos discontinuos, y la máxima, de 100 mm. La corona debe estar a 60 cm o menos por debajo de la válvula de desagüe del aparato, y el diámetro del sifón debe ser igual o mayor que el de la válvula y no mayor que el del ramal de desagüe (apartado 3.3.1.1, punto 2, letra e). En la prueba de estanqueidad no se admite un cierre con menos de 25 mm de agua (apartado 5.6.1, punto 2).",
+      "Las redes de pequeña evacuación recogen los desagües de los aparatos y los conducen a las bajantes o a los colectores (apartado 3.3.1.2). Las bajantes son las tuberías verticales que bajan las aguas residuales y pluviales desde la cubierta o desde cada planta; los canalones recogen el agua de la cubierta y la llevan a las bajantes (apartado 3.3.1.3).",
+      "Los colectores son las tuberías horizontales que recogen las bajantes y conducen el agua hasta la arqueta general. Pueden ser colgados o enterrados (apartado 3.3.1.4, punto 1). Los colgados deben tener una pendiente mínima del 1 %, no pueden acometer en un mismo punto más de dos colectores, y deben disponer de registros en cada encuentro o acoplamiento, con tramos rectos no superiores a 15 m (apartado 3.3.1.4.1, puntos 3 a 5). La conexión de la bajante a un colector colgado no puede hacerse con simples codos, sino con piezas especiales (punto 1).",
+      "En los sistemas mixtos, la bajante de pluviales debe conectarse al colector a al menos 3 m de la conexión de la bajante de residuales situada aguas arriba (apartado 3.3.1.4.1, punto 2). Este dato es una pregunta frecuente de examen.",
+      "Los elementos especiales incluyen el sistema de bombeo y elevación, cuando el agua no puede desaguar por gravedad, y las válvulas antirretorno de seguridad (apartado 3.3.2). Por último, los subsistemas de ventilación, que son la primaria, la secundaria, la terciaria y la de válvulas de aireación, garantizan el funcionamiento de los cierres hidráulicos (apartado 3.3.3)."
+     ]
+    },
+    {
+     "titulo": "5. Dimensionado de las redes residuales",
+     "parrafos": [
+      "El dimensionado parte de las unidades de desagüe (UD) de cada aparato. Las bajantes de residuales deben dimensionarse para que la variación de presión no supere 250 Pa y para que la superficie ocupada por el agua no sea mayor que un tercio de la sección de la tubería (DB-HS 5, apartado 4.1.2, punto 1). El diámetro se obtiene en la tabla 4.4 como el mayor de los valores que resultan del máximo de UD en la bajante y del máximo en cada ramal, según el número de plantas (punto 2).",
+      "La tabla 4.4 relaciona el número máximo de UD con el diámetro. A modo de ejemplo, una bajante de hasta tres plantas con 10 UD tiene 50 mm de diámetro; con 135 UD en la bajante, 90 mm; y con 1.208 UD en bajantes de hasta tres plantas, o 2.240 en edificios de más de tres, 160 mm. Las desviaciones de la vertical menores de 45 grados no requieren cambio de sección; las mayores se dimensionan como un colector con pendiente del 4 % (apartado 4.1.2, punto 3, letras a y b).",
+      "Los colectores horizontales se dimensionan para funcionar a media sección, con un máximo de tres cuartos de sección y flujo uniforme (apartado 4.1.3, punto 1). El diámetro se obtiene en la tabla 4.5 en función del máximo de UD y de la pendiente, que puede ser del 1 %, del 2 % o del 4 % (punto 2).",
+      "Las redes residuales de pequeña evacuación, los ramales y los botes sifónicos se dimensionan según sus propias tablas en el apartado 4.1.1 y sus subapartados, que no se han desarrollado aquí con cifras."
+     ]
+    },
+    {
+     "titulo": "6. Dimensionado de las redes pluviales",
+     "parrafos": [
+      "El número mínimo de sumideros depende de la superficie de cubierta en proyección horizontal: dos para superficies menores de 100 m², tres para las de 100 a 200 m², cuatro para las de 200 a 500 m², y uno cada 150 m² para las superiores a 500 m² (DB-HS 5, apartado 4.2.1, punto 2, tabla 4.6).",
+      "Los puntos de recogida deben ser suficientes para que no haya desniveles mayores de 150 mm ni pendientes máximas superiores al 0,5 %, y para evitar una sobrecarga excesiva de la cubierta (apartado 4.2.1, punto 3). Si por razones de diseño no se instalan, debe preverse la evacuación de las aguas de precipitación, por ejemplo mediante rebosaderos (punto 4).",
+      "El área de la superficie de paso del elemento filtrante de una caldereta debe estar comprendida entre 1,5 y 2 veces la sección recta de la tubería a la que se conecta (apartado 4.2.1, punto 1). Los canalones semicirculares se dimensionan para una intensidad pluviométrica de 100 mm/h, con la tabla 4.7 en función de su pendiente y de la superficie que sirven (apartado 4.2.2, punto 1).",
+      "La pluviometría de cálculo y el resto de la red pluvial, colectores y bajantes de pluviales, se dimensionan en los apartados 4.2.3 y 4.2.4 del DB. No se han verificado sus cifras en este desarrollo."
+     ]
+    },
+    {
+     "titulo": "7. Ejecución de la instalación",
+     "parrafos": [
+      "Los puntos de captación se ejecutan según el apartado 5.1: válvulas de desagüe, sifones individuales y botes sifónicos, calderetas o cazoletas y sumideros, y canalones (DB-HS 5, apartados 5.1.1 a 5.1.4). Las bajantes y las redes de ventilación tienen sus reglas en el apartado 5.3, y los albañales y colectores, en el apartado 5.4.",
+      "Los colectores enterrados se ejecutan en zanjas (apartado 5.4.3), con reglas distintas según el material: las tuberías plásticas, las de fundición, hormigón y gres, y la protección de las tuberías de fundición enterradas (apartados 5.4.3.1, 5.4.3.2 y 5.4.4). Las arquetas y los pozos de registro, que son los elementos de conexión de las redes enterradas, tienen su apartado propio (apartado 5.4.5, con subapartados para arquetas y pozos).",
+      "Una regla de ejecución que se repite en la práctica es que las uniones, los entronques y las derivaciones se controlan al 100 % en la prueba de estanqueidad (apartado 5.6.1, punto 6). La prueba de la red horizontal se hace introduciendo agua a una presión entre 0,3 y 0,6 bar durante diez minutos, tramo a tramo (apartado 5.6.1, punto 4). Las arquetas y pozos se prueban llenándolos de agua y observando si baja el nivel (punto 5).",
+      "Las pruebas de estanqueidad parcial comprueban cada aparato, descargándolo aislado o simultáneamente, verificando los tiempos de desagüe, el sifonado, los ruidos y la altura de cierre hidráulico (apartado 5.6.1, puntos 1 a 3). Las pruebas de vaciado se hacen con el grifo y la válvula abiertos, sin acumulación de agua durante al menos un minuto (punto 3)."
+     ]
+    },
+    {
+     "titulo": "8. Productos, control de calidad y control de la obra terminada",
+     "parrafos": [
+      "Los productos que se incorporan al edificio deben cumplir las condiciones de la exigencia y llevar el marcado CE cuando les sea aplicable (CTE, art. 5.2.1). El DB-HS 5 trata en su apartado 6 los productos y su recepción en obra; ese apartado no se ha desarrollado en este tema. Las tuberías de materiales plásticos, de fundición o de hormigón tienen características de producto que el proyecto debe fijar, con sus controles de recepción.",
+      "El control de la ejecución se hace de acuerdo con las especificaciones del proyecto, sus anejos y sus modificaciones autorizadas por el director de obra, y con las instrucciones del director de la ejecución de la obra, conforme al artículo 7.3 del CTE (DB-HS 5, apartado 5.2, punto 1). Debe comprobarse que la ejecución sigue los controles y la frecuencia fijados en el pliego (punto 2). Cualquier modificación durante la ejecución debe quedar en la documentación de la obra ejecutada, sin que dejen de cumplirse las condiciones mínimas de la sección (punto 3).",
+      "El control de la obra terminada sigue los criterios del artículo 7.4 del CTE (DB-HS 5, apartado 5.3, punto 1), es decir, las pruebas de servicio previstas en el proyecto y las exigidas por la legislación. Las pruebas de estanqueidad del apartado 5.6 son el núcleo práctico de ese control.",
+      "En la recepción de la obra, el director de la ejecución debe disponer de la documentación de los productos y de los resultados de las pruebas, que se integran en el libro del edificio (CTE, art. 8.1, apartados 1 y 2)."
+     ]
+    },
+    {
+     "titulo": "9. Uso, conservación y mantenimiento",
+     "parrafos": [
+      "El DB-HS 5 fija un programa de mantenimiento en su apartado 7. La primera regla es comprobar periódicamente la estanqueidad general de la red, la existencia de olores y el estado del resto de elementos (apartado 7, punto 1). Los sifones y válvulas se revisan y desatascan cada vez que se aprecie una disminución del caudal de evacuación o haya obstrucciones (punto 2).",
+      "La periodicidad es el dato que más se pregunta. Cada seis meses se limpian los sumideros de locales húmedos y de cubiertas transitables, los botes sifónicos y el separador de grasas y fangos si existe (puntos 3 y 6). Los sumideros y calderetas de cubiertas no transitables se limpian al menos una vez al año (punto 3). Una vez al año se revisan los colectores suspendidos y se limpian las arquetas sumidero, los pozos de registro y las bombas de elevación (punto 4). Cada diez años se limpian las arquetas de pie de bajante, de paso y sifónicas, o antes si se aprecian olores (punto 5).",
+      "Además, debe mantenerse agua permanentemente en los sumideros, botes sifónicos y sifones individuales, para evitar malos olores, y limpiarse los de terrazas y cubiertas (punto 7). Esta regla se olvida con frecuencia en viviendas con aparatos de uso ocasional, y es la causa habitual de olores en los desagües sin uso.",
+      "Para la conservación, el plan de mantenimiento forma parte de las instrucciones de uso del edificio y del libro del edificio (CTE, art. 8.1, apartado 3). Las operaciones programadas se encargan a técnico competente y las intervenciones se documentan en el libro del edificio (art. 8.2, apartados 1 y 2).",
+      "La responsabilidad del mantenimiento no recae solo en el técnico. Los propietarios y los usuarios deben poner en conocimiento de los responsables del mantenimiento cualquier anomalía que observen en el funcionamiento normal del edificio, como un olor persistente, un desagüe lento o una humedad en un paramento junto a una bajante (CTE, art. 8.2, apartado 1). Esa comunicación es la que permite detectar a tiempo un fallo que, si se deja avanzar, afecta al forjado o a la red enterrada."
+     ]
+    },
+    {
+     "titulo": "10. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "En el saneamiento, los riesgos principales son los de la zanja (desprendimiento, caída de personas y materiales, irrupción de agua), los de los cables y conducciones enterradas, los de las pruebas de presión y los derivados de los trabajos en cubierta. La evaluación de riesgos y la planificación preventiva se apoyan en la Ley 31/1995 (LPRL) y en su reglamento; el texto de la LPRL verificado en el repositorio incluye su marco general y no los detalles de la evaluación.",
+      "En las zanjas de colectores enterrados rige el Real Decreto 1627/1997, anexo IV, apartado 9: antes de empezar, deben localizarse y reducirse al mínimo los peligros de cables y conducciones subterráneas (apartado 9.a); en las excavaciones deben preverse entibación, blindaje, apeo o taludes para prevenir el sepultamiento, y sistemas para prevenir la irrupción de agua (apartado 9.b); deben preverse vías seguras de entrada y salida, y mantenerse alejadas las tierras y los vehículos del borde (apartado 9, letras c y d).",
+      "El estudio de seguridad y salud, o el estudio básico cuando no se alcanzan los supuestos del artículo 4.1, debe recoger estas medidas con su presupuesto (RD 1627/1997, arts. 4 y 5). Los trabajos en cubierta, como la limpieza de calderetas y canalones, tienen reglas específicas de protección colectiva en el anexo IV, apartado 12.b, que exige medidas de protección contra la caída en función de la altura, inclinación o estado de la superficie.",
+      "Las prescripciones de este tema no incluyen las normas de trabajo en espacios confinados, como pozos y arquetas profundas, que no se han verificado en el repositorio y deben consultarse en la normativa de prevención específica."
+     ]
+    },
+    {
+     "titulo": "11. Criterios de medición y factores del precio",
+     "parrafos": [
+      "El saneamiento se mide por unidades de obra: metros lineales de tubería por diámetro y material, con las piezas especiales y las conexiones; unidades de arqueta, pozo, sumidero, bote sifónico, sifón individual y caldereta; y metros cúbicos de excavación y de relleno de zanja. Las medidas de la red deben coincidir con las del proyecto y con el cuadro de precios de referencia.",
+      "Los factores que influyen en el precio son el diámetro y el material de la tubería, la profundidad y la anchura de la zanja, el número de arquetas y registros, la existencia de bombeo, la proximidad a otras redes y la gestión del agua de la excavación. El precio también depende de si la red es colgada o enterrada, porque la enterrada exige excavación, lecho, relleno y pruebas de cada tramo.",
+      "El presupuesto del estudio de seguridad de la zanja debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). Las normas concretas de medición del saneamiento no se han verificado en el repositorio y el tema las formula como principios."
+     ]
+    },
+    {
+     "titulo": "12. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "Las preguntas de este tema suelen pedir las seis exigencias de diseño, las alturas de los cierres hidráulicos, la pendiente mínima de los colectores colgados, el número de sumideros según la superficie y la periodicidad de mantenimiento. Conviene memorizar esas cifras con su apartado, porque la respuesta correcta suele ser una cifra del DB.",
+      "Para un supuesto práctico, el orden de análisis es: identificar si existe red pública y si es mixta o separativa; decidir si el desagüe es por gravedad o requiere bombeo; dimensionar bajantes, colectores y sumideros con las tablas; comprobar la altura de los cierres hidráulicos y la ventilación; prever la prueba de estanqueidad y el mantenimiento; y, por último, las medidas de seguridad de la zanja.",
+      "Los errores habituales son tres. El primero es confundir las alturas de cierre para usos continuos (50 mm) y discontinuos (70 mm). El segundo es atribuir al colector colgado una pendiente del 2 %, cuando el mínimo del DB es el 1 %. El tercero es olvidar que el DB-HS 5 se aplica también a las reformas que aumentan la capacidad de los aparatos.",
+      "Conviene relacionar el saneamiento con otras exigencias del CTE. La exigencia de protección frente a la humedad (HS 1) y la de suministro de agua (HS 4) comparten con el saneamiento los paramentos, los patinillos y los pasos por forjados. Un examen puede plantear un conflicto entre ellas, y la respuesta debe partir de que cada exigencia se cumple sin degradar la otra, y de que las bajantes deben mantenerse separadas de los paramentos (DB-HS 5, en las reglas de ejecución de las bajantes)."
+     ]
+    },
+    {
+     "titulo": "13. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en el documento oficial descargado de codigotecnico.org: el artículo 13 del CTE (exigencias HS 1 a HS 6), el artículo 5.2 del CTE, el artículo 8 del CTE; el DB-HS 5 en sus apartados 1 a 5 y 7, con las cifras de las tablas 4.4 a 4.7; y el RD 1627/1997 en su anexo IV, apartados 9 y 12. El DB-HS descargado incluye en su portada las modificaciones hasta el Real Decreto 450/2022, de junio de 2022.",
+      "No se han verificado las tablas de dimensionado de los ramales, los botes sifónicos y los sistemas de bombeo (apartados 4.1.1 y 4.6), ni el apartado 6 de productos del DB-HS 5. Tampoco se han consultado las ordenanzas municipales de vertido ni la normativa autonómica de depuración, que pueden fijar condiciones propias de conexión a la red pública.",
+      "La LPRL se ha consultado en el repositorio solo en la parte señalada en su catálogo, y el RD 1627/1997 en su última versión consolidada indicada en el PDF (23 de marzo de 2010). Los umbrales de su artículo 4.1, que conservan cifras en pesetas, deben comprobarse."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/DB-HS-salubridad.pdf",
+    "leyes/BOE-A-1997-22614.pdf",
+    "leyes/BOE-A-1995-24292.pdf"
+   ]
+  },
+  "e04": {
+   "resumen": [
+    {
+     "titulo": "Norma vigente",
+     "puntos": [
+      "El Código Estructural (RD 470/2021, publicado el 10 de agosto de 2021) deroga la EHE-08 (RD 1247/2008) y la EAE (RD 751/2011) (disposición derogatoria única). Entró en vigor a los tres meses de su publicación (disposición final cuarta).",
+      "El CTE, en su artículo 10.4, remite a la instrucción vigente de hormigón; hoy esa referencia debe entenderse hecha al Código Estructural."
+     ]
+    },
+    {
+     "titulo": "Tipos de elementos y ámbito",
+     "puntos": [
+      "Hormigón en masa, armado y pretensado (art. 26). Elementos habituales: pilares, vigas, forjados, muros y losas. En edificación, pilares, forjados y vigas se hormigonan con consistencia fluida salvo justificación (art. 33).",
+      "Quedan fuera del título de hormigón, entre otros, las cimentaciones profundas, las presas, los depósitos a presión y las tuberías de hormigón para fluidos (art. 26)."
+     ]
+    },
+    {
+     "titulo": "Requisitos y exigencias",
+     "puntos": [
+      "CTE: SE 1 (resistencia y estabilidad) y SE 2 (aptitud al servicio) (art. 10.1 y 10.2). Código: seguridad y funcionalidad estructural, seguridad en caso de incendio y protección del medio ambiente (art. 5).",
+      "Estados límite últimos y de servicio (art. 10.1); situaciones de proyecto según el anejo 18 (art. 9)."
+     ]
+    },
+    {
+     "titulo": "Durabilidad y clases de exposición",
+     "puntos": [
+      "Clases de exposición (art. 27.1, tabla 27.1.a): X0, corrosión por carbonatación XC (XC2 para elementos enterrados o sumergidos en agua no agresiva), cloruros XD y XS, hielo y deshielo XF, ataque químico XA y abrasión XM.",
+      "La estrategia de durabilidad sigue cinco fases (art. 43). Relación agua/cemento máxima para armado: 0,60 en XC1 y XC2, y 0,55 en XC3 y XC4 (tabla 43.2.1.a, pendiente de confirmar en el original)."
+     ]
+    },
+    {
+     "titulo": "Materiales",
+     "puntos": [
+      "Cloruros del hormigón: 0,2 % del peso del cemento en pretensado y 0,4 % en armado; en XD o XS, 0,1 % y 0,2 % respectivamente (art. 33.1). Finos inferiores a 200 kg/m³ (art. 33.1).",
+      "Armaduras pasivas de acero corrugado o grafilado; no se permite alambre liso salvo como conexión de mallas electrosoldadas (art. 34.1). Componentes del hormigón: cemento, agua, áridos, aditivos y adiciones (arts. 28 a 32)."
+     ]
+    },
+    {
+     "titulo": "Ejecución, control y curado",
+     "puntos": [
+      "No se hormigona sin la conformidad de la dirección facultativa tras revisar las armaduras; no se tolera la colocación de masas con principio de fraguado; el curado mantiene la humedad durante el primer endurecimiento (art. 52.1 y 52.5).",
+      "Control de recepción en obra (art. 57): plantas automatizadas con registro de pesadas; dos probetas a 28 días como mínimo; desecho de las reservadas tras 60 días sin reclamación. El constructor comprueba las condiciones antes del hormigonado (art. 68)."
+     ]
+    },
+    {
+     "titulo": "Mantenimiento y responsabilidad",
+     "puntos": [
+      "El mantenimiento evita que las prestaciones bajen de un umbral durante la vida útil; la propiedad debe programarlo desde la entrada en servicio (Código, art. 24.1; CTE, art. 8.2).",
+      "La LOE responde diez años por los daños que afecten a los soportes, vigas, forjados o muros de carga (LOE, art. 17.1.a)."
+     ]
+    },
+    {
+     "titulo": "Seguridad y medición",
+     "puntos": [
+      "Encofrados, cimbras y apuntalamientos se calculan y mantienen para soportar las cargas, y su montaje y desmontaje se hace bajo vigilancia de persona competente (RD 1627/1997, anexo IV, apartado 11.a y 11.b).",
+      "Se miden por separado el hormigón (m³), el acero (kg) y el encofrado (m²), por unidades de obra y con referencia al cuadro de precios."
+     ]
+    }
+   ],
+   "leyes": [
+    {
+     "id": "CTE",
+     "rol": "Exigencias de seguridad estructural y referencia a la instrucción de hormigón (arts. 8.2, 10 y 10.4)"
+    },
+    {
+     "id": "RD-470-2021",
+     "rol": "Código Estructural: tipos, durabilidad, materiales, ejecución y control (arts. 1, 2, 5, 10, 24, 26, 27, 33, 34, 43, 52, 57 y 68; disposiciones)"
+    },
+    {
+     "id": "LOE",
+     "rol": "Responsabilidad por daños en la estructura (art. 17.1.a)"
+    },
+    {
+     "id": "RD-1627-1997",
+     "rol": "Seguridad en encofrados y estructuras de hormigón (arts. 4, 5 y anexo IV, apartado 11)"
+    }
+   ],
+   "test": [
+    {
+     "pregunta": "Según la disposición derogatoria única del RD 470/2021, ¿qué norma de hormigón queda derogada?",
+     "opciones": [
+      "El Real Decreto 1247/2008 (EHE-08)",
+      "El Código Técnico de la Edificación",
+      "El Real Decreto 39/1997",
+      "La Ley de Ordenación de la Edificación"
+     ],
+     "correcta": 0,
+     "explicacion": "La disposición derogatoria única, apartado 1, deroga el Real Decreto 1247/2008, que aprobó la EHE-08, y el Real Decreto 751/2011 (EAE).",
+     "referencia": "Disposición derogatoria única RD 470/2021"
+    },
+    {
+     "pregunta": "Según el art. 26 del Código Estructural, ¿qué tipos de elementos de hormigón estructural pueden construirse?",
+     "opciones": [
+      "Solo hormigón visto",
+      "Solo hormigón armado",
+      "Hormigón en masa, armado o pretensado",
+      "Solo hormigón prefabricado"
+     ],
+     "correcta": 2,
+     "explicacion": "El art. 26 indica que los elementos de hormigón estructural pueden ser construidos con hormigón en masa, armado o pretensado.",
+     "referencia": "Art. 26 RD 470/2021"
+    },
+    {
+     "pregunta": "Según el art. 26 del Código Estructural, ¿cuál de las siguientes estructuras queda fuera del título de hormigón?",
+     "opciones": [
+      "Los pilares de edificación",
+      "Las vigas de cubierta",
+      "Los forjados de viviendas",
+      "Las cimentaciones profundas"
+     ],
+     "correcta": 3,
+     "explicacion": "El art. 26 excluye expresamente las cimentaciones profundas, junto con las presas, los depósitos a presión y las tuberías de hormigón para fluidos.",
+     "referencia": "Art. 26 RD 470/2021"
+    },
+    {
+     "pregunta": "Según el art. 10.1 del CTE, ¿qué exigencia pide resistencia y estabilidad frente a las acciones previsibles?",
+     "opciones": [
+      "La exigencia SUA 2",
+      "La exigencia SE 1",
+      "La exigencia HS 1",
+      "La exigencia HE 2"
+     ],
+     "correcta": 1,
+     "explicacion": "La exigencia SE 1 del artículo 10 del CTE pide resistencia y estabilidad frente a las acciones previsibles durante la construcción y el uso.",
+     "referencia": "Art. 10.1 CTE (SE 1)"
+    },
+    {
+     "pregunta": "Según el art. 27.1 y la tabla 27.1.a del Código Estructural, ¿qué clase de exposición corresponde a elementos de hormigón armado permanentemente sumergidos en agua no agresiva o enterrados en suelos no agresivos?",
+     "opciones": [
+      "XC2",
+      "XF3",
+      "XM1",
+      "X0"
+     ],
+     "correcta": 0,
+     "explicacion": "La clase XC2 (húmedo, raramente seco) corresponde a elementos permanentemente sumergidos en agua no agresiva o enterrados en suelos no agresivos, como las cimentaciones.",
+     "referencia": "Art. 27.1, tabla 27.1.a"
+    },
+    {
+     "pregunta": "Según el art. 33.1 del Código Estructural, ¿cuál es el límite de cloruros para hormigón pretensado respecto al peso del cemento?",
+     "opciones": [
+      "1 %",
+      "No hay límite",
+      "0,2 %",
+      "0,4 %"
+     ],
+     "correcta": 2,
+     "explicacion": "El ion cloruro total aportado por los componentes no excederá del 0,2 % del peso del cemento en obras de hormigón pretensado.",
+     "referencia": "Art. 33.1 RD 470/2021"
+    },
+    {
+     "pregunta": "Según el art. 52.5 del Código Estructural, ¿qué debe asegurarse durante el fraguado y el primer período de endurecimiento del hormigón?",
+     "opciones": [
+      "El secado total del hormigón",
+      "La ausencia de armaduras",
+      "La temperatura del hormigón a cero grados",
+      "El mantenimiento de la humedad mediante un adecuado curado"
+     ],
+     "correcta": 3,
+     "explicacion": "Durante el fraguado y primer período de endurecimiento debe asegurarse el mantenimiento de la humedad del hormigón mediante un adecuado curado.",
+     "referencia": "Art. 52.5 RD 470/2021"
+    },
+    {
+     "pregunta": "Según el art. 57.2 del Código Estructural, ¿cuántas probetas se ensayan como mínimo a 28 días en cada determinación?",
+     "opciones": [
+      "Una, y solo a 90 días",
+      "Dos",
+      "Ninguna",
+      "Diez"
+     ],
+     "correcta": 1,
+     "explicacion": "Se ensayan a 28 días como mínimo dos probetas, cuya media es la base para comprobar la resistencia.",
+     "referencia": "Art. 57.2 RD 470/2021"
+    },
+    {
+     "pregunta": "Según el anexo IV, apartado 11.a, del RD 1627/1997, ¿cómo deben montarse o desmontarse las estructuras de hormigón y sus encofrados?",
+     "opciones": [
+      "Solo de noche",
+      "Sin supervisión",
+      "Bajo vigilancia, control y dirección de una persona competente",
+      "Solo por el suministrador del hormigón"
+     ],
+     "correcta": 2,
+     "explicacion": "Las estructuras de hormigón, sus encofrados, las piezas prefabricadas pesadas y los apuntalamientos solo pueden montarse o desmontarse bajo vigilancia, control y dirección de una persona competente.",
+     "referencia": "Anexo IV, apartado 11.a RD 1627/1997"
+    },
+    {
+     "pregunta": "Según el art. 52.1 del Código Estructural, ¿qué debe ocurrir antes de hormigonar un elemento?",
+     "opciones": [
+      "La conformidad de la dirección facultativa, una vez revisadas las armaduras en su posición definitiva",
+      "Que llueva",
+      "Retirar los encofrados",
+      "Nada, el hormigonado es libre"
+     ],
+     "correcta": 0,
+     "explicacion": "No se efectúa el hormigonado sin la conformidad de la dirección facultativa, una vez que se hayan revisado las armaduras ya colocadas en su posición definitiva.",
+     "referencia": "Art. 52.1 RD 470/2021"
+    }
+   ],
+   "desarrollo": [
+    {
+     "titulo": "1. Qué es una estructura de hormigón y qué norma la regula hoy",
+     "parrafos": [
+      "Una estructura de hormigón es el conjunto de elementos resistentes que soportan las cargas del edificio y las transmiten a la cimentación, hechos con hormigón, sea en masa, armado o pretensado. Su comportamiento depende de tres cosas: la calidad del hormigón, la cantidad y colocación de las armaduras de acero, y la ejecución en obra. Un error en cualquiera de las tres puede comprometer la seguridad del edificio.",
+      "El marco normativo ha cambiado y este punto es uno de los más importantes para el examen. Durante años la norma de referencia fue la Instrucción de Hormigón Estructural EHE-08, aprobada por el Real Decreto 1247/2008. Hoy esa instrucción está derogada: el Real Decreto 470/2021, que aprueba el Código Estructural, deroga el Real Decreto 1247/2008 y el Real Decreto 751/2011 (disposición derogatoria única, apartado 1). El Código se publicó el 10 de agosto de 2021 y entró en vigor a los tres meses de su publicación (disposición final cuarta).",
+      "El Código Estructural es el marco reglamentario que fija las exigencias que deben cumplir las estructuras de hormigón, de acero y mixtas, para satisfacer los requisitos de seguridad estructural y de seguridad en caso de incendio, además de la protección del medio ambiente y la utilización eficiente de los recursos (art. 1). Se aplica a todas las estructuras de hormigón, acero o mixtas, con las excepciones que cada título indica (art. 2), y se utiliza también para la intervención o la deconstrucción de estructuras existentes (art. 2, último párrafo).",
+      "El CTE sigue remitiendo en su artículo 10.4 a la «Instrucción de Hormigón Estructural vigente». Como esa instrucción ya no existe, la referencia debe entenderse hoy hecha al Código Estructural. Es una interpretación de las disposiciones derogatorias, no un texto del CTE actualizado, y conviene citarla así en un examen."
+     ]
+    },
+    {
+     "titulo": "2. Tipos de estructura de hormigón",
+     "parrafos": [
+      "Según su comportamiento, el Código distingue tres tipos de elementos de hormigón estructural: el hormigón en masa, sin armaduras o con armaduras que solo reducen la fisuración; el hormigón armado, con armaduras pasivas de acero corrugado que resisten tracciones; y el hormigón pretensado, en el que se introduce una compresión previa mediante armaduras activas (art. 26, en la referencia a los elementos de hormigón estructural, y art. 33.1 sobre armaduras que reducen la fisuración).",
+      "Por su función en el edificio, los elementos más habituales son los pilares, las vigas, los forjados, los muros y las losas. El Código no los describe en un catálogo en los artículos verificados, pero sí los nombra al fijar prescripciones: el artículo 33 establece que, en obras de edificación, los pilares, los forjados y las vigas se harán con hormigón de consistencia fluida, salvo justificación en contra. La descripción de cada elemento es, por tanto, de práctica constructiva y debe contrastarse con el proyecto.",
+      "Por su procedimiento constructivo, la estructura puede ser in situ, hormigonada en obra, o prefabricada, con elementos fabricados en taller y montados en obra. El Código regula los elementos prefabricados en su artículo 54 y su control en el artículo 62 y, para el montaje, en el artículo 70. Las piezas de entrevigado de los forjados tienen su propio artículo (art. 38), y los morteros para juntas húmedas entre elementos prefabricados, el artículo 42.",
+      "El Código excluye expresamente algunas estructuras de su título de hormigón. Son las mixtas de hormigón con otros materiales distintos del acero estructural; las pretensadas con armaduras activas fuera del canto del elemento; las de hormigones especiales no considerados, como los pesados o los refractarios; las que deben estar expuestas habitualmente a más de 70 °C; las cimentaciones profundas; las tuberías de hormigón para fluidos; los depósitos a presión y las presas (art. 26). Por eso, las cimentaciones profundas no se rigen por este título, y su cálculo sigue otra regulación."
+     ]
+    },
+    {
+     "titulo": "3. Requisitos y exigencias básicas",
+     "parrafos": [
+      "En el CTE, la exigencia de seguridad estructural está en el artículo 10. La exigencia SE 1 pide resistencia y estabilidad frente a las acciones previsibles durante la construcción y el uso, y que un evento extraordinario no produzca consecuencias desproporcionadas (art. 10.1). La exigencia SE 2 pide aptitud al servicio: que no se produzcan deformaciones inadmisibles, que la probabilidad de un comportamiento dinámico inadmisible sea aceptable y que no haya degradaciones inadmisibles (art. 10.2).",
+      "El Código Estructural concreta los requisitos en su artículo 5. Las estructuras deben ser idóneas para su uso durante toda la vida útil para la que se construyen, y deben satisfacer, entre otros, el requisito de seguridad y funcionalidad estructural, que consiste en reducir a límites aceptables el riesgo de un comportamiento mecánico inadecuado frente a las acciones previsibles, y el de seguridad en caso de incendio. El Código reitera también la protección del medio ambiente y la utilización eficiente de recursos.",
+      "Las situaciones de proyecto se remiten al anejo 18 (art. 9), y el método de comprobación es el de los estados límite (art. 10). Se distinguen los estados límite últimos, que afectan a la seguridad de las personas y a la capacidad de la estructura, y los estados límite de servicio, que afectan al uso, a la apariencia o a la durabilidad (art. 10.1). Los criterios generales de seguridad se fijan en el artículo 8, que no se ha leído en detalle en este tema.",
+      "La durabilidad se trata en el artículo 11 y, para el hormigón, en el artículo 43. El proyecto debe establecer la vida útil de la propiedad y la estrategia para alcanzarla frente a la agresividad del ambiente. En el CTE la durabilidad no es un requisito separado: su artículo 10.4 remite a la instrucción de hormigón vigente, que hoy es el Código Estructural."
+     ]
+    },
+    {
+     "titulo": "4. Durabilidad y clases de exposición",
+     "parrafos": [
+      "La agresividad del ambiente se clasifica en clases de exposición (art. 27.1, tabla 27.1.a). La clase X0 corresponde a elementos sin riesgo de corrosión, como el hormigón en masa en interiores muy secos. Las clases XC corresponden a la corrosión por carbonatación: XC1, en recintos cerrados con humedad baja; XC2, en elementos permanentemente sumergidos en agua no agresiva o enterrados en suelos no agresivos, como las cimentaciones; y XC3 y XC4, en ambientes con humedad media o alta (tabla 27.1.a).",
+      "Otras clases tratan la corrosión por cloruros (XD para cloruros no marinos y XS para los marinos), los ciclos de hielo y deshielo (XF), los ataques químicos (XA) y la abrasión (XM). La tabla de la clase de exposición identifica ejemplos de elementos: por ejemplo, las superficies verticales de fachadas y pilares expuestas a lluvia y helada corresponden a la clase XF1 (tabla 27.1.a, grupo 5).",
+      "El proyecto debe incluir una estrategia de durabilidad (art. 43). Sus fases son identificar la clase de exposición, seleccionar la forma estructural que evite detalles sensibles, prescribir la calidad del hormigón, prever medidas específicas frente a la agresividad, establecer las medidas de ejecución y las de uso (art. 43, lista de fases). Los detalles deben facilitar la evacuación del agua y ser eficaces frente a la degradación y la corrosión (art. 43, párrafo tercero).",
+      "La dosificación mínima depende de la clase de exposición. La tabla 43.2.1.a fija el contenido mínimo de cemento y la relación máxima agua/cemento para cada clase, distinguiendo el hormigón armado del pretensado. Por ejemplo, para hormigón armado, la relación máxima es de 0,60 en las clases XC1 y XC2, y de 0,55 en XC3 y XC4 (lectura de las columnas de la tabla en el PDF consolidado del repositorio; conviene confirmarlo en el original antes de citarla en un examen).",
+      "El cloruro total que aportan los componentes también está limitado. Para hormigón pretensado, el límite es del 0,2 % del peso del cemento; para hormigón armado o en masa con armaduras que reducen la fisuración, del 0,4 %. En ambientes XD o XS, los valores se reducen al 0,1 % en pretensado y al 0,2 % en armado (art. 33.1). La cantidad de finos del hormigón, que pasan por el tamiz de 0,063 mm más la componente caliza del cemento, debe ser inferior a 200 kg/m³, o 210 kg/m³ si se usa agua reciclada (art. 33.1)."
+     ]
+    },
+    {
+     "titulo": "5. Condiciones de los materiales",
+     "parrafos": [
+      "El Código fija las condiciones de los componentes del hormigón en sus artículos 28 a 32: el cemento (art. 28), el agua (art. 29), los áridos (art. 30), los aditivos (art. 31) y las adiciones (art. 32). El hormigón se compone con esos materiales y debe cumplir las prescripciones de dosificación del artículo 43.2.1 y la clase de exposición. Los componentes concretos de cada artículo no se han desarrollado en este tema.",
+      "El artículo 33 regula el hormigón. Antes de la obra, la composición debe estudiarse para asegurar que da las características mecánicas, reológicas y de durabilidad exigidas por el proyecto, teniendo en cuenta las condiciones reales de la obra, como los diámetros de las armaduras, la compactación y las dimensiones de las piezas (art. 33.1). Las condiciones de calidad se especifican en el pliego de prescripciones técnicas particulares, con la resistencia a compresión, la consistencia, el tamaño máximo del árido y el tipo de ambiente como datos obligatorios (art. 33.2).",
+      "La consistencia se mide por el asentamiento en el cono de Abrams, con las clases seca (0 a 20 mm), plástica (30 a 40 mm), blanda (50 a 90 mm), fluida (100 a 150 mm) y líquida (160 a 210 mm). Salvo justificación, no se emplean las consistencias seca y plástica en la práctica habitual, y la líquida solo con superplastificantes. En edificación, los pilares, los forjados y las vigas se hormigonan con consistencia fluida, salvo justificación en contra (art. 33, apartado de consistencia).",
+      "Las armaduras pasivas son barras rectas o rollos de acero corrugado o grafilado, o alambres corrugados. No se permite el alambre liso, salvo como elemento de conexión de mallas electrosoldadas en celosía, y los productos no deben presentar defectos superficiales ni grietas (art. 34.1). Las armaduras activas se regulan en los artículos 36 y 37, y las armaduras pasivas en el 35.",
+      "Los sistemas de protección para la durabilidad y los de reparación y refuerzo tienen sus artículos propios (arts. 39 a 41). En la práctica, el constructor debe disponer de los certificados de cada producto y el director de la ejecución debe verificar que coinciden con lo previsto en el proyecto (art. 7.2 del CTE; art. 56 del Código para el control de los productos)."
+     ]
+    },
+    {
+     "titulo": "6. Procesos de ejecución: armado, hormigonado y curado",
+     "parrafos": [
+      "La ejecución se organiza en procesos previos a la colocación de las armaduras (art. 48), elaboración, armado y montaje de las armaduras pasivas (art. 49), colocación y tesado de las armaduras activas (art. 50), fabricación y suministro del hormigón (art. 51), puesta en obra y curado (art. 52) y procesos posteriores al hormigonado (art. 53). Los artículos 48 a 53 no se han leído en su totalidad en este tema, salvo el 52.",
+      "El artículo 52 establece reglas de puesta en obra. No se tolera la colocación de masas que acusen un principio de fraguado. El vertido debe adoptar precauciones para evitar la disgregación. No se colocan tongadas de espesor superior al que permita una compactación completa. No se hormigona sin la conformidad de la dirección facultativa, una vez revisadas las armaduras en su posición definitiva. Y el hormigonado de cada elemento debe seguir un plan previo que tenga en cuenta las deformaciones previsibles de encofrados y cimbras (art. 52.1).",
+      "La compactación debe eliminar los huecos y dar una masa cerrada sin segregación, prolongándose hasta que refluya la pasta a la superficie (art. 52.2). El curado es la fase que más se olvida: durante el fraguado y el primer período de endurecimiento debe mantenerse la humedad del hormigón, prolongándose el plazo según el tipo y la clase del cemento y la temperatura y humedad del ambiente (art. 52.5). El curado puede hacerse con riego que no produzca deslavado, o con recubrimientos plásticos o agentes filmógenos que retengan la humedad. Cualquier curado especial, como el curado al vapor, requiere autorización de la dirección facultativa.",
+      "El artículo 68 regula el control del hormigonado. Antes de iniciar el suministro, el constructor comprueba y deja constancia documental de que se dan las condiciones para el vertido y de que dispone de medios para la puesta en obra, la compactación y el curado. La dirección facultativa verifica esas comprobaciones. Durante el hormigonado no deben formarse juntas frías entre tongadas, y el curado debe prolongarse al menos el plazo fijado en el proyecto o, en su defecto, en el Código.",
+      "Para el encofrado, el Real Decreto 1627/1997 exige en su anexo IV, apartado 11, que las estructuras de hormigón, sus encofrados y las piezas prefabricadas pesadas solo se monten o desmonten bajo vigilancia y dirección de una persona competente. Los encofrados, las cimbras y los apuntalamientos deben proyectarse, calcularse y mantenerse para soportar sin riesgo las cargas a las que se someten (apartado 11.a y 11.b)."
+     ]
+    },
+    {
+     "titulo": "7. Control de calidad",
+     "parrafos": [
+      "El Código organiza el control en cuatro niveles: la gestión de la calidad de la estructura (arts. 17 a 19, con el plan y el programa de control), el control del proyecto (art. 20), el control de los productos (art. 21 y 56) y el control de los procesos de ejecución (art. 22 y 63 a 69), al que se suma el control de la estructura terminada (art. 23 y 71). Los artículos 17 a 23 se han comprobado por su título; su cuerpo no se ha leído en este tema.",
+      "El control de recepción del hormigón (art. 57.1) comprueba la conformidad con el proyecto durante la recepción en obra, incluyendo la docilidad, la resistencia y la durabilidad. Se aplica tanto al hormigón preparado como al fabricado en central de obra. Para garantizar la durabilidad, el hormigón se fabrica en plantas automatizadas, con un dispositivo asociado a la báscula que registre las pesadas, o con certificados del fabricante del software de dosificación y del fabricante de hormigón que garanticen la trazabilidad (art. 57.1).",
+      "La toma de muestras se hace según la norma UNE-EN 12350-1, con la presencia de los representantes de la dirección facultativa, del constructor y del suministrador si lo desean (art. 57.2). Cada determinación debe tener el número mínimo suficiente de probetas: se ensayan al menos dos a 28 días, y su media es la base para comprobar la resistencia. Se reservan al menos dos probetas para ensayar a más edad, y si nadie las reclama en 60 días se desechan (art. 57.2).",
+      "El control de la estructura terminada y el control de los elementos construidos (art. 71) completan el sistema. El Código incluye además ensayos de información complementaria para la estructura (art. 72) cuando los resultados del control no son concluyentes. En la práctica, el director de la ejecución lleva el libro de control y lo integra en la documentación final de la obra. "
+     ]
+    },
+    {
+     "titulo": "8. Uso, conservación y mantenimiento",
+     "parrafos": [
+      "El Código define el mantenimiento como el conjunto de actividades necesarias para que el nivel de prestaciones de la estructura no disminuya durante su vida útil por debajo de un umbral vinculado a la resistencia, la durabilidad, la funcionalidad y, en su caso, la estética (art. 24.1). La propiedad debe programar y efectuar esas actividades a partir de la entrada en servicio, de forma coherente con los criterios del proyecto (art. 24.1). El mantenimiento es preventivo: evita o retrasa problemas que, de lo contrario, serían más difíciles de resolver.",
+      "El CTE completa esa obligación. El edificio debe conservarse en buen estado mediante el plan de mantenimiento, con técnico competente para las operaciones programadas, las inspecciones reglamentarias y la documentación de las intervenciones (art. 8.2, apartados 1 y 2). Los propietarios y los usuarios deben comunicar cualquier anomalía, como fisuras, flechas excesivas o desconchados, a los responsables del mantenimiento (art. 8.2, apartado 1).",
+      "La responsabilidad por daños en la estructura tiene plazos propios. La LOE responde durante diez años de los daños materiales por vicios o defectos que afecten a los soportes, las vigas, los forjados o los muros de carga, cuando comprometan directamente la resistencia y la estabilidad (LOE, art. 17.1.a). Los plazos se cuentan desde la recepción de la obra.",
+      "Las intervenciones sobre estructuras existentes se rigen por otros artículos del Código: la evaluación de estructuras existentes (art. 74), la reparación (art. 75), el refuerzo (art. 76), y la demolición y la deconstrucción (arts. 77 y 78). No se han leído en este tema. Cuando la reparación cambia el uso o las cargas, debe volver a comprobarse la estructura."
+     ]
+    },
+    {
+     "titulo": "9. Evaluación de riesgos y seguridad y salud",
+     "parrafos": [
+      "Los riesgos específicos del hormigón en obra son el hundimiento o el colapso de encofrados y cimbras durante el hormigonado, la caída de personas y materiales desde los forjados, el contacto con el hormigón fresco, que es agresivo para la piel, y la manipulación de armaduras, con cortes y pinchazos. La evaluación de riesgos y la planificación preventiva se apoyan en la LPRL, y su artículo 16 regula el plan de prevención.",
+      "El Real Decreto 1627/1997 contiene las prescripciones específicas. En su anexo IV, apartado 11, exige que los encofrados, las cimbras y los apuntalamientos se proyecten, calculen y mantengan para soportar las cargas, y que el montaje y desmontaje de las estructuras de hormigón se haga bajo vigilancia y dirección de una persona competente (apartado 11.a y 11.b). El apartado 11.c obliga a adoptar medidas para proteger a los trabajadores contra la fragilidad o inestabilidad temporal de la obra.",
+      "El estudio de seguridad y salud, o el estudio básico cuando no se alcanzan los supuestos del artículo 4.1, debe recoger estas medidas, con su presupuesto (RD 1627/1997, arts. 4 y 5). El plan de seguridad de cada contratista desarrolla el estudio y debe aprobarse antes del inicio de la obra (art. 7). Las bombas de hormigón, las grúas y los medios de elevación de las armaduras tienen reglas en otros apartados del anexo IV, que no se han desarrollado aquí.",
+      "El control de la seguridad es también una obligación de vigilancia: el libro de incidencias debe mantenerse en la obra y estar en poder del coordinador en materia de seguridad y salud durante la ejecución (RD 1627/1997, art. 13.3), y el coordinador puede paralizar los trabajos cuando observe un riesgo grave e inminente (art. 14.1)."
+     ]
+    },
+    {
+     "titulo": "10. Criterios de medición y factores del precio",
+     "parrafos": [
+      "En las estructuras de hormigón se miden por separado el hormigón, el acero de las armaduras y el encofrado. El hormigón se mide en metros cúbicos del elemento, descontando los huecos, y el acero, en kilogramos de armadura colocada según los planos. El encofrado se mide en metros cuadrados de superficie en contacto con el hormigón. La medición debe hacerse por unidades de obra, con criterios homogéneos y referidos al cuadro de precios de referencia.",
+      "Los factores que influyen en el precio son la clase de exposición, porque una clase más agresiva exige más cemento y una relación agua/cemento más baja; el tipo de consistencia y de hormigón; la cuantía de armadura y la complejidad de la armadura; el tipo de encofrado; el curado especial, en su caso; la prefabricación frente a la obra in situ; y el control de calidad que exige el plan de control del Código.",
+      "El presupuesto del estudio de seguridad debe cuantificar los gastos por valoración unitaria, con referencia al cuadro de precios, y solo puede incluir partidas alzadas en elementos de difícil previsión (RD 1627/1997, art. 5.4). Los criterios de medición de la contratación no se han consultado en el repositorio, por lo que en un examen deben formularse como principios y no como cifras."
+     ]
+    },
+    {
+     "titulo": "11. Cómo estudiarlo para el examen",
+     "parrafos": [
+      "La pregunta más importante es la norma vigente: el Código Estructural, aprobado por el Real Decreto 470/2021, que derogó la EHE-08 y la EAE. Conviene recordar la fecha de publicación (10 de agosto de 2021) y la de entrada en vigor (a los tres meses), y que la referencia del CTE al artículo 10.4 debe entenderse hoy hecha al Código.",
+      "Las clases de exposición se memorizan por grupos: sin riesgo de corrosión (X0), corrosión por carbonatación (XC), corrosión por cloruros de origen no marino (XD) o marino (XS), hielo y deshielo (XF), ataque químico (XA) y abrasión (XM). Para las dosificaciones, la pregunta típica es la relación agua/cemento de una clase concreta, que debe leerse en la tabla 43.2.1.a.",
+      "Los errores habituales son cuatro. El primero es citar la EHE-08 como norma vigente. El segundo es afirmar que las cimentaciones profundas se rigen por el título de hormigón del Código, cuando su artículo 26 las excluye. El tercero es confundir el límite de cloruros para el armado con el del pretensado. El cuarto es olvidar el curado, que el artículo 52.5 hace obligatorio durante el primer período de endurecimiento.",
+      "Para un caso práctico de forjado de hormigón armado en edificio de viviendas en el litoral, el orden de análisis es: identificar la clase de exposición; comprobar la dosificación mínima y la relación agua/cemento; comprobar los cloruros del hormigón y las armaduras; verificar la consistencia fluida de los forjados; prever el plan de hormigonado con los encofrados y el curado; y, por último, el control de recepción de las muestras a 28 días y las medidas de seguridad de los encofrados."
+     ]
+    },
+    {
+     "titulo": "12. Qué no se ha verificado en este tema",
+     "parrafos": [
+      "Se han comprobado en el texto del repositorio o en el BOE: el Real Decreto 470/2021 (Código Estructural), en sus artículos 1, 2, 3 (en parte), 5 (en parte), 9 y 10 (en parte), 24, 26, 27.1, 33, 34.1, 43 (en parte), 52, 57, 68 y las disposiciones transitoria única, derogatoria única y final cuarta; el artículo 10 del CTE; el RD 1627/1997, anexo IV, apartado 11 y 12; el artículo 17.1.a de la LOE. La versión consultada es la original del BOE de 10 de agosto de 2021, y la búsqueda identificó una corrección de errores de 2 de febrero de 2024, que no se ha leído.",
+      "La descripción detallada de las clases XD, XS, XF, XA y XM tampoco se ha leído en el texto. No se ha leído el cuerpo de los artículos 28 a 32 (componentes del hormigón), 35 a 41 (armaduras y productos), 44 a 50 (durabilidad y ejecución de armaduras), 53 a 56 (procesos posteriores y control de productos), 58 a 67 y 69 a 78. Tampoco se ha verificado el anejo 18 del Código, que define las situaciones de proyecto y los coeficientes de seguridad.",
+      "No se ha identificado en el repositorio una consolidación posterior del Código Estructural, y la búsqueda no la confirmó. Antes de citar un artículo concreto, debe comprobarse en el BOE si hay modificaciones posteriores. Los criterios de medición de la contratación no se han consultado."
+     ]
+    }
+   ],
+   "extension": "Desarrollo extenso (aprox. 10 páginas)",
+   "fuentes": [
+    "leyes/BOE-A-2006-5515.pdf",
+    "leyes/BOE-A-2021-13681-extracto.pdf",
+    "leyes/BOE-A-1999-21567.pdf",
     "leyes/BOE-A-1997-22614.pdf",
     "leyes/BOE-A-1995-24292.pdf"
    ]

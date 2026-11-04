@@ -1,0 +1,201 @@
+{
+  "id": "e04",
+  "resumen": [
+    {
+      "titulo": "Norma vigente",
+      "puntos": [
+        "El Código Estructural (RD 470/2021, publicado el 10 de agosto de 2021) deroga la EHE-08 (RD 1247/2008) y la EAE (RD 751/2011) (disposición derogatoria única). Entró en vigor a los tres meses de su publicación (disposición final cuarta).",
+        "El CTE, en su artículo 10.4, remite a la instrucción vigente de hormigón; hoy esa referencia debe entenderse hecha al Código Estructural."
+      ]
+    },
+    {
+      "titulo": "Tipos de elementos y ámbito",
+      "puntos": [
+        "Hormigón en masa, armado y pretensado (art. 26). Elementos habituales: pilares, vigas, forjados, muros y losas. En edificación, pilares, forjados y vigas se hormigonan con consistencia fluida salvo justificación (art. 33).",
+        "Quedan fuera del título de hormigón, entre otros, las cimentaciones profundas, las presas, los depósitos a presión y las tuberías de hormigón para fluidos (art. 26)."
+      ]
+    },
+    {
+      "titulo": "Requisitos y exigencias",
+      "puntos": [
+        "CTE: SE 1 (resistencia y estabilidad) y SE 2 (aptitud al servicio) (art. 10.1 y 10.2). Código: seguridad y funcionalidad estructural, seguridad en caso de incendio y protección del medio ambiente (art. 5).",
+        "Estados límite últimos y de servicio (art. 10.1); situaciones de proyecto según el anejo 18 (art. 9)."
+      ]
+    },
+    {
+      "titulo": "Durabilidad y clases de exposición",
+      "puntos": [
+        "Clases de exposición (art. 27.1, tabla 27.1.a): X0, corrosión por carbonatación XC (XC2 para elementos enterrados o sumergidos en agua no agresiva), cloruros XD y XS, hielo y deshielo XF, ataque químico XA y abrasión XM.",
+        "La estrategia de durabilidad sigue cinco fases (art. 43). Relación agua/cemento máxima para armado: 0,60 en XC1 y XC2, y 0,55 en XC3 y XC4 (tabla 43.2.1.a, pendiente de confirmar en el original)."
+      ]
+    },
+    {
+      "titulo": "Materiales",
+      "puntos": [
+        "Cloruros del hormigón: 0,2 % del peso del cemento en pretensado y 0,4 % en armado; en XD o XS, 0,1 % y 0,2 % respectivamente (art. 33.1). Finos inferiores a 200 kg/m³ (art. 33.1).",
+        "Armaduras pasivas de acero corrugado o grafilado; no se permite alambre liso salvo como conexión de mallas electrosoldadas (art. 34.1). Componentes del hormigón: cemento, agua, áridos, aditivos y adiciones (arts. 28 a 32)."
+      ]
+    },
+    {
+      "titulo": "Ejecución, control y curado",
+      "puntos": [
+        "No se hormigona sin la conformidad de la dirección facultativa tras revisar las armaduras; no se tolera la colocación de masas con principio de fraguado; el curado mantiene la humedad durante el primer endurecimiento (art. 52.1 y 52.5).",
+        "Control de recepción en obra (art. 57): plantas automatizadas con registro de pesadas; dos probetas a 28 días como mínimo; desecho de las reservadas tras 60 días sin reclamación. El constructor comprueba las condiciones antes del hormigonado (art. 68)."
+      ]
+    },
+    {
+      "titulo": "Mantenimiento y responsabilidad",
+      "puntos": [
+        "El mantenimiento evita que las prestaciones bajen de un umbral durante la vida útil; la propiedad debe programarlo desde la entrada en servicio (Código, art. 24.1; CTE, art. 8.2).",
+        "La LOE responde diez años por los daños que afecten a los soportes, vigas, forjados o muros de carga (LOE, art. 17.1.a)."
+      ]
+    },
+    {
+      "titulo": "Seguridad y medición",
+      "puntos": [
+        "Encofrados, cimbras y apuntalamientos se calculan y mantienen para soportar las cargas, y su montaje y desmontaje se hace bajo vigilancia de persona competente (RD 1627/1997, anexo IV, apartado 11.a y 11.b).",
+        "Se miden por separado el hormigón (m³), el acero (kg) y el encofrado (m²), por unidades de obra y con referencia al cuadro de precios."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CTE",
+      "rol": "Exigencias de seguridad estructural y referencia a la instrucción de hormigón (arts. 8.2, 10 y 10.4)"
+    },
+    {
+      "id": "RD-470-2021",
+      "rol": "Código Estructural: tipos, durabilidad, materiales, ejecución y control (arts. 1, 2, 5, 10, 24, 26, 27, 33, 34, 43, 52, 57 y 68; disposiciones)"
+    },
+    {
+      "id": "LOE",
+      "rol": "Responsabilidad por daños en la estructura (art. 17.1.a)"
+    },
+    {
+      "id": "RD-1627-1997",
+      "rol": "Seguridad en encofrados y estructuras de hormigón (arts. 4, 5 y anexo IV, apartado 11)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según la disposición derogatoria única del RD 470/2021, ¿qué norma de hormigón queda derogada?",
+      "opciones": [
+        "El Real Decreto 1247/2008 (EHE-08)",
+        "El Código Técnico de la Edificación",
+        "El Real Decreto 39/1997",
+        "La Ley de Ordenación de la Edificación"
+      ],
+      "correcta": 0,
+      "explicacion": "La disposición derogatoria única, apartado 1, deroga el Real Decreto 1247/2008, que aprobó la EHE-08, y el Real Decreto 751/2011 (EAE).",
+      "referencia": "Disposición derogatoria única RD 470/2021"
+    },
+    {
+      "pregunta": "Según el art. 26 del Código Estructural, ¿qué tipos de elementos de hormigón estructural pueden construirse?",
+      "opciones": [
+        "Solo hormigón visto",
+        "Solo hormigón armado",
+        "Hormigón en masa, armado o pretensado",
+        "Solo hormigón prefabricado"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 26 indica que los elementos de hormigón estructural pueden ser construidos con hormigón en masa, armado o pretensado.",
+      "referencia": "Art. 26 RD 470/2021"
+    },
+    {
+      "pregunta": "Según el art. 26 del Código Estructural, ¿cuál de las siguientes estructuras queda fuera del título de hormigón?",
+      "opciones": [
+        "Los pilares de edificación",
+        "Las vigas de cubierta",
+        "Los forjados de viviendas",
+        "Las cimentaciones profundas"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 26 excluye expresamente las cimentaciones profundas, junto con las presas, los depósitos a presión y las tuberías de hormigón para fluidos.",
+      "referencia": "Art. 26 RD 470/2021"
+    },
+    {
+      "pregunta": "Según el art. 10.1 del CTE, ¿qué exigencia pide resistencia y estabilidad frente a las acciones previsibles?",
+      "opciones": [
+        "La exigencia SUA 2",
+        "La exigencia SE 1",
+        "La exigencia HS 1",
+        "La exigencia HE 2"
+      ],
+      "correcta": 1,
+      "explicacion": "La exigencia SE 1 del artículo 10 del CTE pide resistencia y estabilidad frente a las acciones previsibles durante la construcción y el uso.",
+      "referencia": "Art. 10.1 CTE (SE 1)"
+    },
+    {
+      "pregunta": "Según el art. 27.1 y la tabla 27.1.a del Código Estructural, ¿qué clase de exposición corresponde a elementos de hormigón armado permanentemente sumergidos en agua no agresiva o enterrados en suelos no agresivos?",
+      "opciones": [
+        "XC2",
+        "XF3",
+        "XM1",
+        "X0"
+      ],
+      "correcta": 0,
+      "explicacion": "La clase XC2 (húmedo, raramente seco) corresponde a elementos permanentemente sumergidos en agua no agresiva o enterrados en suelos no agresivos, como las cimentaciones.",
+      "referencia": "Art. 27.1, tabla 27.1.a"
+    },
+    {
+      "pregunta": "Según el art. 33.1 del Código Estructural, ¿cuál es el límite de cloruros para hormigón pretensado respecto al peso del cemento?",
+      "opciones": [
+        "1 %",
+        "No hay límite",
+        "0,2 %",
+        "0,4 %"
+      ],
+      "correcta": 2,
+      "explicacion": "El ion cloruro total aportado por los componentes no excederá del 0,2 % del peso del cemento en obras de hormigón pretensado.",
+      "referencia": "Art. 33.1 RD 470/2021"
+    },
+    {
+      "pregunta": "Según el art. 52.5 del Código Estructural, ¿qué debe asegurarse durante el fraguado y el primer período de endurecimiento del hormigón?",
+      "opciones": [
+        "El secado total del hormigón",
+        "La ausencia de armaduras",
+        "La temperatura del hormigón a cero grados",
+        "El mantenimiento de la humedad mediante un adecuado curado"
+      ],
+      "correcta": 3,
+      "explicacion": "Durante el fraguado y primer período de endurecimiento debe asegurarse el mantenimiento de la humedad del hormigón mediante un adecuado curado.",
+      "referencia": "Art. 52.5 RD 470/2021"
+    },
+    {
+      "pregunta": "Según el art. 57.2 del Código Estructural, ¿cuántas probetas se ensayan como mínimo a 28 días en cada determinación?",
+      "opciones": [
+        "Una, y solo a 90 días",
+        "Dos",
+        "Ninguna",
+        "Diez"
+      ],
+      "correcta": 1,
+      "explicacion": "Se ensayan a 28 días como mínimo dos probetas, cuya media es la base para comprobar la resistencia.",
+      "referencia": "Art. 57.2 RD 470/2021"
+    },
+    {
+      "pregunta": "Según el anexo IV, apartado 11.a, del RD 1627/1997, ¿cómo deben montarse o desmontarse las estructuras de hormigón y sus encofrados?",
+      "opciones": [
+        "Solo de noche",
+        "Sin supervisión",
+        "Bajo vigilancia, control y dirección de una persona competente",
+        "Solo por el suministrador del hormigón"
+      ],
+      "correcta": 2,
+      "explicacion": "Las estructuras de hormigón, sus encofrados, las piezas prefabricadas pesadas y los apuntalamientos solo pueden montarse o desmontarse bajo vigilancia, control y dirección de una persona competente.",
+      "referencia": "Anexo IV, apartado 11.a RD 1627/1997"
+    },
+    {
+      "pregunta": "Según el art. 52.1 del Código Estructural, ¿qué debe ocurrir antes de hormigonar un elemento?",
+      "opciones": [
+        "La conformidad de la dirección facultativa, una vez revisadas las armaduras en su posición definitiva",
+        "Que llueva",
+        "Retirar los encofrados",
+        "Nada, el hormigonado es libre"
+      ],
+      "correcta": 0,
+      "explicacion": "No se efectúa el hormigonado sin la conformidad de la dirección facultativa, una vez que se hayan revisado las armaduras ya colocadas en su posición definitiva.",
+      "referencia": "Art. 52.1 RD 470/2021"
+    }
+  ]
+}
