@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generador de tests</title>
+<style>
+  :root {
+    --fondo: #f7f7f5; --panel: #ffffff; --texto: #1d1d1b; --suave: #5f5f5a;
+    --borde: #d9d9d3; --acento: #1f5f8b; --ok: #1e7a46; --ko: #b3261e; --aviso: #8a5a00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fondo: #141513; --panel: #1f201d; --texto: #ecece7; --suave: #a3a39c;
+      --borde: #3a3b36; --acento: #7fb6e0; --ok: #6cc38d; --ko: #ff8a80; --aviso: #e8b65c;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fondo: #141513; --panel: #1f201d; --texto: #ecece7; --suave: #a3a39c;
+    --borde: #3a3b36; --acento: #7fb6e0; --ok: #6cc38d; --ko: #ff8a80; --aviso: #e8b65c;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 1.4rem; margin: 8px 0 4px; }
+  h2 { font-size: 1.05rem; margin: 0 0 8px; }
+  .suave { color: var(--suave); font-size: .92rem; }
+  .panel { background: var(--panel); border: 1px solid var(--borde); border-radius: 10px; padding: 14px; margin: 12px 0; }
+  .temas { max-height: 260px; overflow: auto; border: 1px solid var(--borde); border-radius: 8px; padding: 8px; }
+  .bloque { font-weight: 600; margin: 8px 0 4px; }
+  label.tema { display: flex; gap: 8px; align-items: flex-start; padding: 2px 0; font-size: .93rem; }
+  .fila { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 8px 0; }
+  button { font: inherit; border: 1px solid var(--borde); background: var(--panel); color: var(--texto); border-radius: 8px; padding: 8px 12px; cursor: pointer; min-height: 40px; }
+  button.principal { background: var(--acento); color: #fff; border-color: var(--acento); }
+  button:disabled { opacity: .5; cursor: default; }
+  select { font: inherit; min-height: 40px; padding: 4px 8px; border-radius: 8px; border: 1px solid var(--borde); background: var(--panel); color: var(--texto); max-width: 100%; }
+  .opcion { display: block; width: 100%; text-align: left; margin: 6px 0; padding: 10px 12px; }
+  .opcion.ok { border-color: var(--ok); color: var(--ok); font-weight: 600; }
+  .opcion.ko { border-color: var(--ko); color: var(--ko); }
+  .explica { border-left: 4px solid var(--acento); padding: 8px 12px; margin-top: 10px; background: var(--fondo); border-radius: 6px; font-size: .93rem; }
+  .etiqueta { display: inline-block; font-size: .78rem; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--borde); color: var(--suave); margin-right: 6px; }
+  .aviso { color: var(--aviso); font-size: .92rem; }
+  .enunciado { font-size: 1.05rem; font-weight: 600; margin: 4px 0 10px; }
+  .resumen-n { font-size: 2rem; font-weight: 700; }
+  .error { border-bottom: 1px solid var(--borde); padding: 10px 0; }
+  .oculto { display: none !important; }
+  @media (max-width: 420px) { main { padding: 12px; } .temas { max-height: 220px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Generador de tests</h1>
+  <p class="suave" id="resumenBanco">Cargando banco de preguntas…</p>
+
+  <section id="configuracion" class="panel">
+    <h2>1. Elige los temas</h2>
+    <div class="fila">
+      <button type="button" id="todos">Seleccionar todos</button>
+      <button type="button" id="ninguno">Ninguno</button>
+      <span class="suave" id="contadorTemas"></span>
+    </div>
+    <div class="temas" id="listaTemas"></div>
+
+    <h2 style="margin-top:14px">2. Opciones</h2>
+    <div class="fila">
+      <label>Número de preguntas
+        <select id="numero">
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="30">30</option>
+          <option value="50" selected>50</option>
+          <option value="100">100</option>
+          <option value="0">Todas las disponibles</option>
+        </select>
+      </label>
+      <label>Origen
+        <select id="origen">
+          <option value="todas">Revisadas y generadas</option>
+          <option value="revisadas">Solo revisadas</option>
+          <option value="distintas" selected>Revisadas y generadas sin fragmento repetido</option>
+        </select>
+      </label>
+    </div>
+    <p class="suave" id="disponibles"></p>
+    <div class="fila">
+      <button type="button" class="principal" id="generar">Generar test</button>
+    </div>
+    <p class="aviso oculto" id="avisoPocas"></p>
+  </section>
+
+  <section id="test" class="panel oculto">
+    <div class="fila" style="justify-content:space-between">
+      <span class="suave" id="progreso"></span>
+      <button type="button" id="salir">Volver a configurar</button>
+    </div>
+    <div id="pregunta"></div>
+    <div class="fila" style="justify-content:flex-end">
+      <button type="button" class="principal" id="siguiente" disabled>Siguiente</button>
+    </div>
+  </section>
+
+  <section id="resultado" class="panel oculto">
+    <h2>Resultado</h2>
+    <p><span class="resumen-n" id="nota"></span></p>
+    <p id="detalle"></p>
+    <div class="fila">
+      <button type="button" id="repetirErrores">Repetir solo los fallos</button>
+      <button type="button" class="principal" id="nuevo">Nuevo test</button>
+    </div>
+    <div id="fallos"></div>
+  </section>
+</main>
+
+<script src="datos/banco.js"></script>
+<script>
+(function () {
+  "use strict";
+  const BANCO = window.BANCO || [];
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  // Temas y bloques a partir del banco (orden de aparición)
+  const temas = [];
+  const vistos = new Set();
+  const NOMBRE_BLOQUE = { comun: "Parte común", "arquitectura-tecnica": "Parte específica (Arquitectura Técnica)" };
+  for (const q of BANCO) {
+    if (!vistos.has(q.tema)) { vistos.add(q.tema); temas.push({ id: q.tema, bloque: q.bloque }); }
+  }
+  const titulos = {};
+  for (const q of BANCO) if (!titulos[q.tema]) titulos[q.tema] = q.tema;
+  // títulos cortos a partir del enunciado del banco (texto entre « »)
+  for (const q of BANCO) {
+    const m = /«([^»]+)»/.exec(q.enunciado);
+    if (m && titulos[q.tema] === q.tema) titulos[q.tema] = m[1];
+  }
+
+  const contadorPorTema = {};
+  for (const q of BANCO) contadorPorTema[q.tema] = (contadorPorTema[q.tema] || 0) + 1;
+
+  $("resumenBanco").textContent =
+    `${BANCO.length} preguntas en ${temas.length} temas. ` +
+    `${BANCO.filter((q) => q.origen === "revisada").length} revisadas y ` +
+    `${BANCO.filter((q) => q.origen === "generada").length} generadas a partir del texto del temario.`;
+
+  // Lista de temas por bloque
+  const lista = $("listaTemas");
+  const porBloque = {};
+  for (const t of temas) (porBloque[t.bloque] = porBloque[t.bloque] || []).push(t);
+  for (const b of Object.keys(porBloque)) {
+    const cab = document.createElement("div");
+    cab.className = "bloque";
+    cab.textContent = NOMBRE_BLOQUE[b] || b;
+    lista.appendChild(cab);
+    for (const t of porBloque[b]) {
+      const l = document.createElement("label");
+      l.className = "tema";
+      l.innerHTML = `<input type="checkbox" value="${esc(t.id)}" checked> <span><strong>${esc(t.id)}</strong> ${esc(titulos[t.id] || "")}</span>`;
+      lista.appendChild(l);
+    }
+  }
+
+  function temasElegidos() {
+    return Array.from(lista.querySelectorAll('input[type="checkbox"]:checked')).map((i) => i.value);
+  }
+  function actualizarContador() {
+    const sel = temasElegidos();
+    $("contadorTemas").textContent = `${sel.length} de ${temas.length} temas`;
+    actualizarDisponibles();
+  }
+  function poolFiltrado() {
+    const sel = new Set(temasElegidos());
+    const origen = $("origen").value;
+    return BANCO.filter((q) => {
+      if (!sel.has(q.tema)) return false;
+      if (origen === "revisadas") return q.origen === "revisada";
+      if (origen === "distintas") return q.origen === "revisada" || !q.reutilizada;
+      return true;
+    });
+  }
+  function actualizarDisponibles() {
+    const n = poolFiltrado().length;
+    $("disponibles").textContent = `Preguntas disponibles con esta selección: ${n}.`;
+  }
+  lista.addEventListener("change", actualizarContador);
+  $("origen").addEventListener("change", actualizarDisponibles);
+  $("todos").addEventListener("click", () => { lista.querySelectorAll("input").forEach((i) => (i.checked = true)); actualizarContador(); });
+  $("ninguno").addEventListener("click", () => { lista.querySelectorAll("input").forEach((i) => (i.checked = false)); actualizarContador(); });
+
+  // ---------- test ----------
+  let preguntas = [];
+  let indice = 0;
+  let aciertos = 0;
+  let errores = [];
+  let contestada = false;
+  let ultimoTitulo = "";
+
+  function barajar(a) {
+    const r = a.slice();
+    for (let i = r.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [r[i], r[j]] = [r[j], r[i]];
+    }
+    return r;
+  }
+
+  function generar(lista2) {
+    const pool = lista2 || poolFiltrado();
+    let n = parseInt($("numero").value, 10);
+    if (!n) n = pool.length;
+    const aviso = $("avisoPocas");
+    aviso.classList.add("oculto");
+    if (pool.length === 0) { alert("No hay preguntas con esta selección."); return; }
+    if (n > pool.length) {
+      aviso.textContent = `Solo hay ${pool.length} preguntas con esta selección; el test tendrá ${pool.length}.`;
+      aviso.classList.remove("oculto");
+      n = pool.length;
+    }
+    preguntas = barajar(pool).slice(0, n).map((q) => {
+      // reordena opciones y recalcula la posición de la correcta
+      const orden = barajar(q.opciones.map((_, i) => i));
+      return { ...q, opciones: orden.map((i) => q.opciones[i]), correcta: orden.indexOf(q.correcta), respuesta: null };
+    });
+    indice = 0; aciertos = 0; errores = [];
+    $("configuracion").classList.add("oculto");
+    $("resultado").classList.add("oculto");
+    $("test").classList.remove("oculto");
+    mostrar();
+  }
+
+  function mostrar() {
+    const q = preguntas[indice];
+    contestada = false;
+    $("progreso").textContent = `Pregunta ${indice + 1} de ${preguntas.length} · aciertos: ${aciertos}`;
+    const etiquetas = `<span class="etiqueta">${esc(q.tema)}</span>` +
+      `<span class="etiqueta">${q.origen === "revisada" ? "revisada" : (q.reutilizada ? "generada (fragmento repetido)" : "generada")}</span>`;
+    const ops = q.opciones.map((o, i) =>
+      `<button type="button" class="opcion" data-i="${i}">${String.fromCharCode(65 + i)}) ${esc(o)}</button>`).join("");
+    $("pregunta").innerHTML = `<div>${etiquetas}</div><p class="enunciado">${esc(q.enunciado)}</p><div id="ops">${ops}</div><div id="explica"></div>`;
+    $("ops").addEventListener("click", responder);
+    $("siguiente").disabled = true;
+    $("siguiente").textContent = indice === preguntas.length - 1 ? "Ver resultado" : "Siguiente";
+  }
+
+  function responder(ev) {
+    const b = ev.target.closest("button[data-i]");
+    if (!b || contestada) return;
+    contestada = true;
+    const q = preguntas[indice];
+    const elegida = parseInt(b.dataset.i, 10);
+    q.respuesta = elegida;
+    const ok = elegida === q.correcta;
+    if (ok) aciertos++; else errores.push(q);
+    document.querySelectorAll("#ops .opcion").forEach((el) => {
+      const i = parseInt(el.dataset.i, 10);
+      if (i === q.correcta) el.classList.add("ok");
+      if (i === elegida && !ok) el.classList.add("ko");
+      el.disabled = true;
+    });
+    $("explica").innerHTML = `<div class="explica"><strong>${ok ? "Correcta." : "Incorrecta."}</strong> ${esc(q.explicacion || "")}` +
+      (q.referencia ? `<div class="suave">Referencia: ${esc(q.referencia)}</div>` : "") + `</div>`;
+    $("progreso").textContent = `Pregunta ${indice + 1} de ${preguntas.length} · aciertos: ${aciertos}`;
+    $("siguiente").disabled = false;
+  }
+
+  $("siguiente").addEventListener("click", () => {
+    if (indice < preguntas.length - 1) { indice++; mostrar(); } else { terminar(); }
+  });
+
+  function terminar() {
+    $("test").classList.add("oculto");
+    $("resultado").classList.remove("oculto");
+    const total = preguntas.length;
+    const pct = total ? Math.round((aciertos / total) * 100) : 0;
+    $("nota").textContent = `${aciertos} / ${total} (${pct} %)`;
+    $("detalle").textContent = `${errores.length} fallos.`;
+    $("repetirErrores").disabled = errores.length === 0;
+    const cont = $("fallos");
+    cont.innerHTML = errores.length ? "<h2 style='margin-top:14px'>Preguntas falladas</h2>" + errores.map((q) =>
+      `<div class="error"><div class="suave">${esc(q.tema)} · ${esc(q.origen)}</div><div><strong>${esc(q.enunciado)}</strong></div>` +
+      `<div>Correcta: ${esc(q.opciones[q.correcta])}</div><div class="suave">${esc(q.explicacion || "")}</div></div>`).join("") : "";
+  }
+
+  $("generar").addEventListener("click", () => generar());
+  $("salir").addEventListener("click", () => {
+    $("test").classList.add("oculto");
+    $("configuracion").classList.remove("oculto");
+    actualizarDisponibles();
+  });
+  $("nuevo").addEventListener("click", () => {
+    $("resultado").classList.add("oculto");
+    $("configuracion").classList.remove("oculto");
+  });
+  $("repetirErrores").addEventListener("click", () => {
+    const fallos = errores.slice();
+    if (fallos.length) generar(fallos.map((q) => ({ ...q, opciones: q.opciones, correcta: q.correcta })));
+  });
+
+  actualizarContador();
+})();
+</script>
+</body>
+</html>
