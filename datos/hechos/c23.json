@@ -1,0 +1,206 @@
+[
+ {
+  "pregunta": "¿Qué tipo de sistema operativo ejecuta trabajos en lotes sin interacción?",
+  "opciones": [
+   "Por lotes",
+   "Multiusuario de tiempo compartido",
+   "De tiempo real",
+   "Monousuario gráfico"
+  ],
+  "correcta": 0,
+  "explicacion": "Los sistemas por lotes ejecutan trabajos agrupados sin interacción directa.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué estado de un proceso indica que espera un recurso y no ocupa la CPU?",
+  "opciones": [
+   "Bloqueado",
+   "En ejecución",
+   "Listo para la CPU",
+   "Terminado"
+  ],
+  "correcta": 0,
+  "explicacion": "Un proceso bloqueado espera un recurso y no ocupa la CPU.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué define el SGBD sobre los datos?",
+  "opciones": [
+   "Su estructura, su manipulación, el control de acceso y la integridad",
+   "Solo su color",
+   "Solo su tamaño en disco",
+   "Solo el precio"
+  ],
+  "correcta": 0,
+  "explicacion": "El SGBD define la estructura, permite manipular los datos, controla el acceso y garantiza integridad y seguridad.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué sirve para recuperar una base de datos tras un fallo?",
+  "opciones": [
+   "Las copias de seguridad y los registros de transacciones",
+   "Borrar los datos",
+   "Imprimir la base",
+   "Apagar el servidor"
+  ],
+  "correcta": 0,
+  "explicacion": "Las copias de seguridad y los registros de transacciones permiten la recuperación.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué sistema de información se usa para el control táctico de la organización?",
+  "opciones": [
+   "MIS",
+   "TPS",
+   "Groupware",
+   "Almacén de datos"
+  ],
+  "correcta": 0,
+  "explicacion": "Los MIS (sistemas de información de gestión) sirven para el control táctico.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué sistema sirve para la dirección ejecutiva?",
+  "opciones": [
+   "EIS",
+   "TPS",
+   "Workflow",
+   "Correo"
+  ],
+  "correcta": 0,
+  "explicacion": "Los EIS (sistemas de información para la dirección) sirven a la alta dirección.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Para qué se usan los almacenes de datos?",
+  "opciones": [
+   "Para el análisis de datos",
+   "Para la operación diaria",
+   "Para el envío de correo",
+   "Para imprimir"
+  ],
+  "correcta": 0,
+  "explicacion": "Los almacenes de datos (data warehouse) se usan para el análisis.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué tipo de sistema facilita la colaboración de un grupo de trabajo?",
+  "opciones": [
+   "Groupware",
+   "TPS",
+   "DSS",
+   "Sistema de cobro"
+  ],
+  "correcta": 0,
+  "explicacion": "El groupware sirve para la colaboración en grupo.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué protocolo se usa para recibir correo electrónico?",
+  "opciones": [
+   "IMAP o POP",
+   "SMTP",
+   "HTTP",
+   "TCP"
+  ],
+  "correcta": 0,
+  "explicacion": "IMAP o POP se usan para recibir correo.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué familia de protocolos es la base de Internet?",
+  "opciones": [
+   "TCP/IP",
+   "Bluetooth",
+   "RS-232",
+   "Morse"
+  ],
+  "correcta": 0,
+  "explicacion": "Internet se basa en TCP/IP.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué depende de la validez de una notificación?",
+  "opciones": [
+   "La forma establecida en la LPAC, no el medio",
+   "El medio elegido por la Administración",
+   "El color del sobre",
+   "El horario de envío"
+  ],
+  "correcta": 0,
+  "explicacion": "La validez de la notificación depende de la forma que establece la LPAC.",
+  "referencia": "Art. 40 LPAC"
+ },
+ {
+  "pregunta": "¿Qué mejora pretende la Junta al aplicar tecnologías?",
+  "opciones": [
+   "Su eficacia",
+   "Su opacidad",
+   "Su burocracia",
+   "Su tamaño"
+  ],
+  "correcta": 0,
+  "explicacion": "La Junta aplica las tecnologías para mejorar su eficacia.",
+  "referencia": "Art. 7.1 LAJA"
+ },
+ {
+  "pregunta": "¿Qué derecho tienen los ciudadanos sobre el medio para relacionarse con la Administración?",
+  "opciones": [
+   "Elegir el medio, salvo los obligados a relacionarse electrónicamente",
+   "Ninguno",
+   "Solo el papel",
+   "Solo el teléfono"
+  ],
+  "correcta": 0,
+  "explicacion": "Las personas físicas pueden elegir el medio, salvo los obligados a relacionarse electrónicamente.",
+  "referencia": "Art. 14 LPAC"
+ },
+ {
+  "pregunta": "¿Qué propiedades cumplen las transacciones de una base de datos?",
+  "opciones": [
+   "ACID",
+   "ABC",
+   "XYZ",
+   "Solo RAM"
+  ],
+  "correcta": 0,
+  "explicacion": "Las transacciones cumplen las propiedades ACID.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué tipo de sistemas estadísticos recogen, validan y analizan datos?",
+  "opciones": [
+   "Los sistemas estadísticos",
+   "Los buzones de voz",
+   "Los relojes",
+   "Los monitores"
+  ],
+  "correcta": 0,
+  "explicacion": "Los sistemas estadísticos recogen, validan, analizan y presentan datos.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué ley regula el registro de personal de la Junta?",
+  "opciones": [
+   "La Ley 5/2023",
+   "La Ley 39/2015",
+   "La Ley de Expropiación Forzosa",
+   "La Ley de Vivienda"
+  ],
+  "correcta": 0,
+  "explicacion": "El registro de personal se regula en la Ley 5/2023 de la Función Pública andaluza.",
+  "referencia": "Ley 5/2023, arts. 92 a 95"
+ },
+ {
+  "pregunta": "¿Qué es un proceso cooperativo?",
+  "opciones": [
+   "Un proceso que colabora intercambiando mensajes y sincronizándose",
+   "Un proceso que se borra solo",
+   "Un proceso que nunca se ejecuta",
+   "Un proceso sin datos"
+  ],
+  "correcta": 0,
+  "explicacion": "Los procesos cooperativos colaboran intercambiando mensajes y sincronizándose.",
+  "referencia": "Tema c22"
+ }
+]

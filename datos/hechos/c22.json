@@ -1,0 +1,290 @@
+[
+ {
+  "pregunta": "¿Qué combina un sistema informático?",
+  "opciones": [
+   "Hardware, software, datos, redes y personas, con los procedimientos que ordenan su uso",
+   "Solo hardware",
+   "Solo software de juegos",
+   "Solo papel y bolígrafos"
+  ],
+  "correcta": 0,
+  "explicacion": "Un sistema informático combina hardware, software, datos, redes y personas.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Qué tipo de memoria del ordenador es volátil?",
+  "opciones": [
+   "La memoria principal",
+   "El disco duro",
+   "La unidad USB",
+   "La memoria de vídeo permanente"
+  ],
+  "correcta": 0,
+  "explicacion": "La memoria principal es volátil; el almacenamiento secundario es permanente.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿En qué se divide el software?",
+  "opciones": [
+   "Sistema, utilidades y aplicaciones",
+   "Hardware y firmware",
+   "Datos y redes",
+   "Entrada y salida"
+  ],
+  "correcta": 0,
+  "explicacion": "El software se divide en software de sistema, utilidades y aplicaciones.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Cuál es el esquema básico de funcionamiento de un sistema informático?",
+  "opciones": [
+   "Entrada, proceso y salida",
+   "Solo proceso",
+   "Solo salida",
+   "Lectura y borrado"
+  ],
+  "correcta": 0,
+  "explicacion": "El esquema general es entrada, proceso y salida.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Dónde debe estar un programa para ejecutarse?",
+  "opciones": [
+   "En la memoria principal",
+   "Solo en un CD",
+   "En la impresora",
+   "En el ratón"
+  ],
+  "correcta": 0,
+  "explicacion": "Un programa debe estar en memoria principal para ejecutarse.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Qué gestiona el sistema operativo?",
+  "opciones": [
+   "Procesos, memoria, dispositivos y ficheros",
+   "Solo los correos electrónicos",
+   "Solo la impresora",
+   "Solo el teclado"
+  ],
+  "correcta": 0,
+  "explicacion": "El sistema operativo gestiona procesos, memoria, dispositivos y ficheros.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué software controla el acceso, la integridad y la concurrencia de una base de datos?",
+  "opciones": [
+   "El sistema gestor de bases de datos (SGBD)",
+   "El navegador web",
+   "El antivirus",
+   "La hoja de cálculo"
+  ],
+  "correcta": 0,
+  "explicacion": "El SGBD controla el acceso, la integridad y la concurrencia.",
+  "referencia": "Tema c22 y c23"
+ },
+ {
+  "pregunta": "¿Qué arquitectura concentra el proceso en un gran equipo?",
+  "opciones": [
+   "Centralizada",
+   "Distribuida",
+   "Cliente-servidor",
+   "Peer to peer"
+  ],
+  "correcta": 0,
+  "explicacion": "La arquitectura centralizada concentra el proceso en un gran equipo.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Qué arquitectura reparte el proceso entre varios equipos?",
+  "opciones": [
+   "Distribuida",
+   "Centralizada",
+   "Batch",
+   "Monousuario"
+  ],
+  "correcta": 0,
+  "explicacion": "La arquitectura distribuida reparte el proceso entre varios equipos.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Qué rol cumple el cliente en el modelo cliente-servidor?",
+  "opciones": [
+   "Pide servicios",
+   "Responde siempre",
+   "No hace nada",
+   "Gestiona la base de datos física"
+  ],
+  "correcta": 0,
+  "explicacion": "En cliente-servidor el cliente pide y el servidor responde.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Cuántas capas tiene la arquitectura de tres capas?",
+  "opciones": [
+   "Tres: presentación, lógica de negocio y datos",
+   "Dos",
+   "Cuatro",
+   "Una"
+  ],
+  "correcta": 0,
+  "explicacion": "La arquitectura de tres capas separa presentación, lógica de negocio y datos.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Qué protocolo es la base del modelo de petición y respuesta en la web?",
+  "opciones": [
+   "HTTP",
+   "IMAP",
+   "SMTP",
+   "FTP"
+  ],
+  "correcta": 0,
+  "explicacion": "HTTP es el protocolo de petición y respuesta de la web.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Qué modelo de nube separa la infraestructura, la plataforma y el software?",
+  "opciones": [
+   "IaaS, PaaS y SaaS",
+   "Solo SaaS",
+   "Solo ISO",
+   "Solo USB"
+  ],
+  "correcta": 0,
+  "explicacion": "La nube se ofrece como IaaS, PaaS o SaaS.",
+  "referencia": "Tema c22"
+ },
+ {
+  "pregunta": "¿Qué tipo de sistema operativo permite ejecutar un proceso en tiempo real con respuesta inmediata?",
+  "opciones": [
+   "De tiempo real",
+   "Por lotes",
+   "Monousuario",
+   "De papel"
+  ],
+  "correcta": 0,
+  "explicacion": "Los sistemas de tiempo real responden en un plazo garantizado.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué clase de sistema operativo permite ejecutar varios usuarios a la vez?",
+  "opciones": [
+   "Multiusuario",
+   "Monousuario",
+   "Por lotes",
+   "De papel"
+  ],
+  "correcta": 0,
+  "explicacion": "Un sistema multiusuario permite varios usuarios simultáneamente.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué permite la memoria virtual?",
+  "opciones": [
+   "Ejecutar programas mayores que la memoria física",
+   "Borrar la memoria",
+   "Imprimir más rápido",
+   "Ahorrar electricidad"
+  ],
+  "correcta": 0,
+  "explicacion": "La memoria virtual permite ejecutar programas mayores que la memoria física.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué propiedad de las transacciones significa que se completan del todo o no se aplican?",
+  "opciones": [
+   "La atomicidad",
+   "La duración",
+   "La concurrencia",
+   "El aislamiento"
+  ],
+  "correcta": 0,
+  "explicacion": "La atomicidad significa que la transacción se completa del todo o no se aplica.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué sistema de información sirve para la operación diaria?",
+  "opciones": [
+   "TPS",
+   "MIS",
+   "DSS",
+   "EIS"
+  ],
+  "correcta": 0,
+  "explicacion": "Los TPS (procesamiento de transacciones) sirven para la operación diaria.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué sistema ayuda a elegir entre alternativas?",
+  "opciones": [
+   "DSS",
+   "TPS",
+   "Groupware",
+   "EIS"
+  ],
+  "correcta": 0,
+  "explicacion": "Los DSS ayudan a elegir entre alternativas.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué protocolo se usa para enviar correo electrónico?",
+  "opciones": [
+   "SMTP",
+   "HTTP",
+   "FTP",
+   "TCP"
+  ],
+  "correcta": 0,
+  "explicacion": "SMTP se utiliza para enviar correo electrónico.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué protocolo cifra el tráfico web?",
+  "opciones": [
+   "HTTPS",
+   "HTTP",
+   "FTP",
+   "SMTP"
+  ],
+  "correcta": 0,
+  "explicacion": "HTTPS es HTTP con cifrado.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué tipo de sistema organiza las tareas de un procedimiento?",
+  "opciones": [
+   "Flujo de trabajo (workflow)",
+   "Hoja de cálculo",
+   "Correo electrónico",
+   "Ofimática sin conexión"
+  ],
+  "correcta": 0,
+  "explicacion": "Los flujos de trabajo (workflow) ordenan las tareas de un procedimiento.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué cualidad debe tener el archivo electrónico de los procedimientos finalizados?",
+  "opciones": [
+   "Autenticidad, integridad y conservación",
+   "Ser efímero",
+   "Ser público sin control",
+   "Ser secreto para siempre"
+  ],
+  "correcta": 0,
+  "explicacion": "El archivo electrónico garantiza autenticidad, integridad y conservación.",
+  "referencia": "Art. 17 LPAC"
+ },
+ {
+  "pregunta": "¿Qué requisito tiene la cesión de datos entre Administraciones?",
+  "opciones": [
+   "Condiciones y protocolos previos",
+   "Ninguno",
+   "Solo el pago de una tasa",
+   "Solo la firma de un político"
+  ],
+  "correcta": 0,
+  "explicacion": "La cesión de datos exige condiciones y protocolos previos.",
+  "referencia": "Art. 155 LRJSP"
+ }
+]
