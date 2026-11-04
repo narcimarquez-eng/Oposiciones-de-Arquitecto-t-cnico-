@@ -169,21 +169,6 @@ for (const t of temas) {
       });
     }
 
-    // Forma 2: «¿Qué artículo recoge «TÍTULO» en NORMA?» → número del artículo.
-    if (a.titulo) {
-      const numeros = [...new Set(mismaLey.map((b) => b.num))];
-      const dist2 = elegir(numeros, 3, rnd);
-      if (dist2.length === 3) {
-        const opc = barajar([a.num, ...dist2].map((n) => `art. ${n}`), rnd);
-        añadir({
-          tema: t.id, bloque: t.bloque, origen: 'articulo', reutilizada: false,
-          enunciado: `¿Qué artículo recoge «${a.titulo}» en ${alias(a.ley)}?`,
-          opciones: opc, correcta: opc.indexOf(`art. ${a.num}`),
-          explicacion: `${alias(a.ley)}, art. ${a.num}: ${a.frase}`,
-          referencia: ref,
-        });
-      }
-    }
   }
 
   const elegidas = barajar(candidatas, rnd).slice(0, POR_TEMA);
