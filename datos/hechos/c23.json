@@ -238,5 +238,113 @@
   "correcta": 0,
   "explicacion": "Los TPS sirven para la operación diaria.",
   "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué tipo de sistema operativo ejecuta trabajos agrupados sin interacción directa del usuario?",
+  "opciones": [
+   "Por lotes",
+   "De tiempo real",
+   "Monousuario gráfico",
+   "Multiusuario de tiempo compartido"
+  ],
+  "correcta": 0,
+  "explicacion": "Los sistemas por lotes ejecutan trabajos agrupados sin interacción directa.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué permite la memoria virtual?",
+  "opciones": [
+   "Ejecutar programas mayores que la memoria física",
+   "Borrar la memoria",
+   "Imprimir más rápido",
+   "Ahorrar electricidad"
+  ],
+  "correcta": 0,
+  "explicacion": "La memoria virtual permite ejecutar programas mayores que la memoria física.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué clase de sistema operativo atiende a varios usuarios a la vez?",
+  "opciones": [
+   "Multiusuario",
+   "Monousuario",
+   "Por lotes",
+   "De papel"
+  ],
+  "correcta": 0,
+  "explicacion": "Un sistema multiusuario permite a varios usuarios trabajar simultáneamente.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué sistema de información sirve para la operación diaria de la organización?",
+  "opciones": [
+   "TPS",
+   "MIS",
+   "DSS",
+   "EIS"
+  ],
+  "correcta": 0,
+  "explicacion": "Los TPS (procesamiento de transacciones) sirven para la operación diaria.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué sistema de información ayuda a elegir entre alternativas?",
+  "opciones": [
+   "DSS",
+   "TPS",
+   "Groupware",
+   "EIS"
+  ],
+  "correcta": 0,
+  "explicacion": "Los DSS (sistemas de apoyo a la decisión) ayudan a elegir entre alternativas.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué protocolo se usa para enviar correo electrónico?",
+  "opciones": [
+   "SMTP",
+   "HTTP",
+   "FTP",
+   "TCP"
+  ],
+  "correcta": 0,
+  "explicacion": "SMTP se utiliza para enviar correo electrónico.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué protocolo cifra el tráfico web?",
+  "opciones": [
+   "HTTPS",
+   "HTTP",
+   "FTP",
+   "SMTP"
+  ],
+  "correcta": 0,
+  "explicacion": "HTTPS es HTTP con cifrado.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué sistema facilita la colaboración de un grupo de trabajo?",
+  "opciones": [
+   "Groupware",
+   "TPS",
+   "DSS",
+   "Sistema de cobro"
+  ],
+  "correcta": 0,
+  "explicacion": "El groupware sirve para la colaboración en grupo.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué tipo de sistema ordena las tareas de un procedimiento?",
+  "opciones": [
+   "Flujo de trabajo (workflow)",
+   "Hoja de cálculo",
+   "Correo electrónico",
+   "Ofimática sin conexión"
+  ],
+  "correcta": 0,
+  "explicacion": "Los workflows ordenan las tareas de un procedimiento.",
+  "referencia": "Tema c23"
  }
 ]

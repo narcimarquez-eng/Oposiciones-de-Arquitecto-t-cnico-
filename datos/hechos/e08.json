@@ -238,5 +238,65 @@
   "correcta": 0,
   "explicacion": "El ahorro de energía se recoge en el art. 15.1 del CTE.",
   "referencia": "CTE, art. 15.1"
+ },
+ {
+  "pregunta": "¿Qué reglamento regula las infraestructuras comunes de telecomunicaciones?",
+  "opciones": [
+   "El RD 346/2011",
+   "El RD 842/2002",
+   "El RD 919/2006",
+   "El RD 1627/1997"
+  ],
+  "correcta": 0,
+  "explicacion": "Las ICT se regulan por el RD 346/2011.",
+  "referencia": "RD 346/2011"
+ },
+ {
+  "pregunta": "¿Qué grado de electrificación corresponde a viviendas con calefacción eléctrica?",
+  "opciones": [
+   "Grado elevado",
+   "Grado básico",
+   "Grado nulo",
+   "Grado de obra"
+  ],
+  "correcta": 0,
+  "explicacion": "Las viviendas con calefacción o climatización eléctricas tienen grado elevado.",
+  "referencia": "ITC-BT-10, apartado 2.1"
+ },
+ {
+  "pregunta": "¿Quién realiza las verificaciones previas a la puesta en servicio de la instalación eléctrica?",
+  "opciones": [
+   "La empresa instaladora",
+   "El vecino",
+   "El alcalde",
+   "El proveedor de cables"
+  ],
+  "correcta": 0,
+  "explicacion": "La empresa instaladora realiza las verificaciones previas a la puesta en servicio.",
+  "referencia": "ITC-BT-05, apartado 2.1"
+ },
+ {
+  "pregunta": "¿Qué ITC regula la puesta a tierra de las instalaciones?",
+  "opciones": [
+   "La ITC-BT-18",
+   "La ITC-BT-04",
+   "La ITC-BT-25",
+   "La ITC-BT-10"
+  ],
+  "correcta": 0,
+  "explicacion": "La puesta a tierra se regula en la ITC-BT-18.",
+  "referencia": "ITC-BT-18"
+ },
+ {
+  "pregunta": "¿Qué caída de tensión máxima se admite en los circuitos interiores de viviendas?",
+  "opciones": [
+   "Inferior al 3 %",
+   "Inferior al 30 %",
+   "Inferior al 50 %",
+   "Sin límite"
+  ],
+  "correcta": 0,
+  "explicacion": "La caída de tensión debe ser inferior al 3 % en los circuitos interiores de viviendas.",
+  "referencia": "ITC-BT-19, apartado 2.2.2"
  }
 ]
