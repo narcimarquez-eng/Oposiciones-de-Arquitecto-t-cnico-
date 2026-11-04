@@ -25,6 +25,3 @@ Abre `index.html` en el navegador. No necesita servidor ni conexión.
 4. Ejecuta `node datos/build.js`. Si hay errores, no sale `contenido.js`; los avisos indican normas sin verificar.
 5. Haz commit de los archivos de `datos/` junto con `datos/contenido.js`.
 
-## Otra Junta
-
-El temario de la Junta de Comunidades de Castilla-La Mancha (65 temas) queda archivado en `datos/temario-clm.json`, con su fuente en `fuentes/temario-cuerpo-tecnico-arquitectura-tecnica-clm.txt`.
