@@ -1,0 +1,266 @@
+[
+ {
+  "pregunta": "¿Qué tipo de cubierta es la plana o azotea?",
+  "opciones": [
+   "Cubierta plana, transitable o no transitable",
+   "Cubierta de teja árabe",
+   "Cubierta de chapa ondulada",
+   "Cubierta de vidrio"
+  ],
+  "correcta": 0,
+  "explicacion": "La cubierta plana o azotea puede ser transitable o no transitable.",
+  "referencia": "DB-HS 1, apartado 2.4.2"
+ },
+ {
+  "pregunta": "¿Qué tipo de cubierta lleva tierra vegetal?",
+  "opciones": [
+   "La cubierta ajardinada",
+   "La cubierta plana sin uso",
+   "El tejado de pizarra",
+   "La cubierta de cinc"
+  ],
+  "correcta": 0,
+  "explicacion": "La cubierta ajardinada tiene tierra vegetal.",
+  "referencia": "DB-HS 1, apartado 2.4.2"
+ },
+ {
+  "pregunta": "¿Cómo debe ser el grado de impermeabilidad de la cubierta frente a la humedad?",
+  "opciones": [
+   "Único, independiente de los factores climáticos",
+   "Variable según la hora",
+   "Nulo",
+   "Solo en invierno"
+  ],
+  "correcta": 0,
+  "explicacion": "La protección frente a la humedad exige un grado de impermeabilidad único, independiente de factores climáticos.",
+  "referencia": "CTE, art. 13.1; DB-HS 1, apartado 2.4.1"
+ },
+ {
+  "pregunta": "¿Qué se evalúa como seguridad de utilización en la cubierta?",
+  "opciones": [
+   "El riesgo de caídas en el uso previsto",
+   "El color de la teja",
+   "El precio",
+   "El número de antenas"
+  ],
+  "correcta": 0,
+  "explicacion": "La seguridad de utilización contempla el riesgo de caídas en el uso previsto.",
+  "referencia": "CTE, art. 12.1"
+ },
+ {
+  "pregunta": "¿Dónde se fijan las acciones de nieve en el CTE?",
+  "opciones": [
+   "En el DB-SE-AE, apartado 3.5",
+   "En el DB-HS 1",
+   "En el RD 1627/1997",
+   "En la LOE"
+  ],
+  "correcta": 0,
+  "explicacion": "Las acciones de nieve se fijan en el DB-SE-AE, apartado 3.5.",
+  "referencia": "DB-SE-AE, apartado 3.5"
+ },
+ {
+  "pregunta": "¿Qué elemento es obligatorio en las cubiertas planas?",
+  "opciones": [
+   "La impermeabilización",
+   "El tejado",
+   "La chimenea",
+   "La veleta"
+  ],
+  "correcta": 0,
+  "explicacion": "La impermeabilización es obligatoria en cubierta plana.",
+  "referencia": "DB-HS 1, apartado 2.4.2 letra f"
+ },
+ {
+  "pregunta": "¿Qué tipo de cubierta inclinada necesita tejado?",
+  "opciones": [
+   "La inclinada, salvo impermeabilización autoprotegida",
+   "Ninguna",
+   "La plana transitable",
+   "La ajardinada"
+  ],
+  "correcta": 0,
+  "explicacion": "El tejado es obligatorio en la cubierta inclinada, salvo que haya impermeabilización autoprotegida.",
+  "referencia": "DB-HS 1, apartado 2.4.2 letra j"
+ },
+ {
+  "pregunta": "¿Qué capa de la cubierta debe proteger de la radiación y el tráfico?",
+  "opciones": [
+   "La capa de protección",
+   "La capa de barro",
+   "La capa de pintura",
+   "La capa de cemento sin más"
+  ],
+  "correcta": 0,
+  "explicacion": "La capa de protección es uno de los elementos exigibles de la cubierta.",
+  "referencia": "DB-HS 1, apartado 2.4.2 punto 1"
+ },
+ {
+  "pregunta": "¿Qué sistema debe dimensionarse con el DB-HS 5 en la cubierta?",
+  "opciones": [
+   "El sistema de evacuación de aguas",
+   "El sistema de calefacción",
+   "El sistema de ascensor",
+   "El sistema de alarma"
+  ],
+  "correcta": 0,
+  "explicacion": "El sistema de evacuación se dimensiona con el DB-HS 5.",
+  "referencia": "DB-HS 1, apartado 2.4.2 letra k"
+ },
+ {
+  "pregunta": "¿Con qué frecuencia se limpian los sumideros de cubiertas transitables?",
+  "opciones": [
+   "Cada seis meses",
+   "Cada diez años",
+   "Cada hora",
+   "Nunca"
+  ],
+  "correcta": 0,
+  "explicacion": "Los sumideros de cubiertas transitables se limpian cada seis meses.",
+  "referencia": "DB-HS 5, apartado 7 punto 3"
+ },
+ {
+  "pregunta": "¿Con qué frecuencia se limpian los sumideros de cubiertas no transitables?",
+  "opciones": [
+   "Al menos una vez al año",
+   "Cada día",
+   "Cada cinco años",
+   "Nunca"
+  ],
+  "correcta": 0,
+  "explicacion": "En cubiertas no transitables se limpian al menos una vez al año.",
+  "referencia": "DB-HS 5, apartado 7 punto 3"
+ },
+ {
+  "pregunta": "¿Qué tipo de pendiente tienen las cubiertas planas transitables con grava?",
+  "opciones": [
+   "Del 1 % al 5 %",
+   "Del 50 % al 100 %",
+   "Ninguna",
+   "Del 10 % al 20 %"
+  ],
+  "correcta": 0,
+  "explicacion": "Las cubiertas planas transitables y en grava tienen pendiente del 1 % al 5 %.",
+  "referencia": "DB-HS 1, tabla 2.9"
+ },
+ {
+  "pregunta": "¿Qué pendiente mínima tiene la teja curva?",
+  "opciones": [
+   "El 32 %",
+   "El 5 %",
+   "El 90 %",
+   "El 1 %"
+  ],
+  "correcta": 0,
+  "explicacion": "La teja curva requiere una pendiente del 32 %.",
+  "referencia": "DB-HS 1, tabla 2.10"
+ },
+ {
+  "pregunta": "¿Qué pendiente se exige a la pizarra?",
+  "opciones": [
+   "El 60 %",
+   "El 5 %",
+   "El 1 %",
+   "El 100 %"
+  ],
+  "correcta": 0,
+  "explicacion": "La pizarra exige una pendiente del 60 %.",
+  "referencia": "DB-HS 1, tabla 2.10"
+ },
+ {
+  "pregunta": "¿Qué carga de nieve se considera en cubiertas planas de edificios por debajo de 1.000 m de altitud?",
+  "opciones": [
+   "1,0 kN/m²",
+   "10 kN/m²",
+   "0,01 kN/m²",
+   "No hay carga"
+  ],
+  "correcta": 0,
+  "explicacion": "Se considera 1,0 kN/m² de carga de nieve.",
+  "referencia": "DB-SE-AE, apartado 3.5.1"
+ },
+ {
+  "pregunta": "¿Cuál es la fórmula general de la carga de nieve?",
+  "opciones": [
+   "qn = μ · sk",
+   "qn = sk / 2",
+   "qn = 0",
+   "qn = μ + 10"
+  ],
+  "correcta": 0,
+  "explicacion": "La carga general de nieve es qn = μ · sk.",
+  "referencia": "DB-SE-AE, apartado 3.5.1 punto 2"
+ },
+ {
+  "pregunta": "¿Qué norma regula los canalones de cubierta?",
+  "opciones": [
+   "El DB-HS 5, tabla 4.7",
+   "El RITE",
+   "El RD 919/2006",
+   "La LOE"
+  ],
+  "correcta": 0,
+  "explicacion": "El diámetro de canalones se fija en la tabla 4.7 del DB-HS 5.",
+  "referencia": "DB-HS 5, tabla 4.7"
+ },
+ {
+  "pregunta": "¿Qué protección tiene el trabajo en tejados según el anexo IV?",
+  "opciones": [
+   "Protección colectiva según altura, inclinación y estado resbaladizo",
+   "Ninguna",
+   "Solo gafas",
+   "Solo casco"
+  ],
+  "correcta": 0,
+  "explicacion": "En los tejados se exige protección colectiva según altura, inclinación y estado resbaladizo.",
+  "referencia": "RD 1627/1997, anexo IV, apartado 12.b"
+ },
+ {
+  "pregunta": "¿Cuántos años de responsabilidad tiene la LOE por daños a la estructura de la cubierta?",
+  "opciones": [
+   "Diez años",
+   "Un año",
+   "Un mes",
+   "Cien años"
+  ],
+  "correcta": 0,
+  "explicacion": "La LOE responde diez años por daños a la estructura.",
+  "referencia": "LOE, art. 17.1 a)"
+ },
+ {
+  "pregunta": "¿Qué defecto de cubierta responde la LOE en tres años?",
+  "opciones": [
+   "Las humedades por defectos de habitabilidad",
+   "Los daños estructurales",
+   "La falta de color",
+   "La falta de ascensor"
+  ],
+  "correcta": 0,
+  "explicacion": "Las humedades, como defecto de habitabilidad, tienen tres años de responsabilidad.",
+  "referencia": "LOE, art. 17.1 b)"
+ },
+ {
+  "pregunta": "¿Qué sumideros se requieren por encima de 500 m² de cubierta?",
+  "opciones": [
+   "Uno cada 150 m² adicionales",
+   "Ninguno",
+   "Uno por cada mil metros",
+   "Dos por vivienda"
+  ],
+  "correcta": 0,
+  "explicacion": "Por encima de 500 m² se requiere un sumidero cada 150 m².",
+  "referencia": "DB-HS 5, tabla 4.6"
+ },
+ {
+  "pregunta": "¿Qué tipo de cubierta es la que tiene tejado y pendiente pronunciada?",
+  "opciones": [
+   "La cubierta inclinada",
+   "La cubierta plana",
+   "La cubierta ajardinada",
+   "La cubierta de cristal"
+  ],
+  "correcta": 0,
+  "explicacion": "La cubierta inclinada o tejado tiene pendiente pronunciada.",
+  "referencia": "DB-HS 1, apartado 2.4.3.1"
+ }
+]

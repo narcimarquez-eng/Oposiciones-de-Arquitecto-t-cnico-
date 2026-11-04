@@ -1,0 +1,266 @@
+[
+ {
+  "pregunta": "¿Qué documento del CTE regula el abastecimiento de agua?",
+  "opciones": [
+   "El DB-HS 4",
+   "El DB-SI",
+   "El DB-HE 1",
+   "El DB-SUA"
+  ],
+  "correcta": 0,
+  "explicacion": "El abastecimiento de agua se regula en el DB-HS 4.",
+  "referencia": "CTE, DB-HS 4"
+ },
+ {
+  "pregunta": "¿Qué regula el RD 919/2006?",
+  "opciones": [
+   "El gas en sus instalaciones",
+   "El agua potable",
+   "Las telecomunicaciones",
+   "La accesibilidad"
+  ],
+  "correcta": 0,
+  "explicacion": "El RD 919/2006 regula el gas y sus ITC-ICG 01 a 11.",
+  "referencia": "RD 919/2006"
+ },
+ {
+  "pregunta": "¿Qué debe garantizar el agua que se suministra según la exigencia HS 4?",
+  "opciones": [
+   "Que sea apta para el consumo",
+   "Que sea salada",
+   "Que sea caliente siempre",
+   "Que sea de lluvia"
+  ],
+  "correcta": 0,
+  "explicacion": "La exigencia HS 4 pide agua apta para el consumo, caudales suficientes y evitar retornos.",
+  "referencia": "CTE, art. 13.4"
+ },
+ {
+  "pregunta": "¿Qué tipo de llave se encuentra en la acometida?",
+  "opciones": [
+   "Llave de corte general",
+   "Llave inglesa",
+   "Llave de paso de gas",
+   "Llave de cocina"
+  ],
+  "correcta": 0,
+  "explicacion": "La acometida tiene llave de toma o collarín, tubo de acometida, llave de corte general y llave de corte exterior.",
+  "referencia": "DB-HS 4, apartado 3.2.1.1"
+ },
+ {
+  "pregunta": "¿Puede empalmarse la red de agua directamente a una conducción de aguas residuales?",
+  "opciones": [
+   "No",
+   "Sí, siempre",
+   "Sí, si lo autoriza el vecino",
+   "Sí, en Navidad"
+  ],
+  "correcta": 0,
+  "explicacion": "No puede empalmarse la instalación de suministro directamente a una conducción de evacuación de aguas residuales.",
+  "referencia": "DB-HS 4, apartado 3.3.1 punto 2"
+ },
+ {
+  "pregunta": "¿Qué presión mínima se exige en grifos comunes?",
+  "opciones": [
+   "100 kPa",
+   "10 kPa",
+   "1000 kPa",
+   "0 kPa"
+  ],
+  "correcta": 0,
+  "explicacion": "Los grifos comunes necesitan una presión mínima de 100 kPa.",
+  "referencia": "DB-HS 4, apartado 2.1.3"
+ },
+ {
+  "pregunta": "¿Cuál es la presión máxima en los puntos de consumo?",
+  "opciones": [
+   "500 kPa",
+   "50 kPa",
+   "5000 kPa",
+   "No hay límite"
+  ],
+  "correcta": 0,
+  "explicacion": "La presión máxima en los puntos de consumo es de 500 kPa.",
+  "referencia": "DB-HS 4, apartado 2.1.3"
+ },
+ {
+  "pregunta": "¿Entre qué temperaturas debe estar el agua caliente sanitaria?",
+  "opciones": [
+   "Entre 50 ºC y 65 ºC",
+   "Entre 0 ºC y 10 ºC",
+   "Entre 20 ºC y 25 ºC",
+   "Entre 80 ºC y 100 ºC"
+  ],
+  "correcta": 0,
+  "explicacion": "El ACS debe estar entre 50 ºC y 65 ºC, con excepciones.",
+  "referencia": "DB-HS 4, apartado 2.1.3 punto 4"
+ },
+ {
+  "pregunta": "¿Qué caudal instantáneo se asigna a una ducha?",
+  "opciones": [
+   "0,20 dm³/s",
+   "2 dm³/s",
+   "20 dm³/s",
+   "0,02 dm³/s"
+  ],
+  "correcta": 0,
+  "explicacion": "El caudal instantáneo de ducha es de 0,20 dm³/s.",
+  "referencia": "DB-HS 4, tabla 2.1"
+ },
+ {
+  "pregunta": "¿Qué material de tubería es adecuado para la red de agua?",
+  "opciones": [
+   "Materiales resistentes a la corrosión interior y a 40 ºC",
+   "Materiales que se oxidan",
+   "Papel",
+   "Cartón"
+  ],
+  "correcta": 0,
+  "explicacion": "Los materiales deben resistir la corrosión interior y 40 ºC, sin incompatibilidad electroquímica.",
+  "referencia": "DB-HS 4, apartado 2.1.1 punto 3"
+ },
+ {
+  "pregunta": "¿Qué tipo de velocidad máxima se admite en tuberías metálicas?",
+  "opciones": [
+   "2,00 m/s",
+   "10,00 m/s",
+   "0,01 m/s",
+   "No hay límite"
+  ],
+  "correcta": 0,
+  "explicacion": "En tuberías metálicas la velocidad está entre 0,50 y 2,00 m/s.",
+  "referencia": "DB-HS 4, apartado 4.2.1"
+ },
+ {
+  "pregunta": "¿Cuál es el límite de pérdida de temperatura del retorno de ACS en el grifo más alejado?",
+  "opciones": [
+   "3 ºC",
+   "30 ºC",
+   "0,3 ºC",
+   "Sin límite"
+  ],
+  "correcta": 0,
+  "explicacion": "La pérdida máxima es de 3 ºC en el grifo más alejado.",
+  "referencia": "DB-HS 4, apartado 4.4.2"
+ },
+ {
+  "pregunta": "¿Qué presión debe tener el depósito de presión sobre la mínima?",
+  "opciones": [
+   "Entre 2 y 3 bar",
+   "Entre 20 y 30 bar",
+   "Ninguna",
+   "Entre 0,01 y 0,02 bar"
+  ],
+  "correcta": 0,
+  "explicacion": "El depósito de presión debe tener entre 2 y 3 bar por encima de la presión mínima.",
+  "referencia": "DB-HS 4, apartado 4.5.2.3"
+ },
+ {
+  "pregunta": "¿Cómo se distribuye el gas en las instalaciones?",
+  "opciones": [
+   "Por canalización con autorización administrativa previa",
+   "Por correo",
+   "Por globo",
+   "Por el aire"
+  ],
+  "correcta": 0,
+  "explicacion": "La distribución de gas por canalización requiere autorización administrativa previa.",
+  "referencia": "ITC-ICG 01, apartado 2"
+ },
+ {
+  "pregunta": "¿A partir de qué potencia precisan proyecto las instalaciones receptoras individuales de gas?",
+  "opciones": [
+   "Más de 70 kW",
+   "Más de 1 kW",
+   "Más de 1.000 kW",
+   "Nunca"
+  ],
+  "correcta": 0,
+  "explicacion": "Las individuales de más de 70 kW precisan proyecto.",
+  "referencia": "ITC-ICG 07, apartado 3.1"
+ },
+ {
+  "pregunta": "¿Qué norma se aplica al gas a presión de operación de hasta 5 bar?",
+  "opciones": [
+   "UNE 60670",
+   "UNE 60620",
+   "UNE 1",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "Hasta 5 bar se aplica la norma UNE 60670.",
+  "referencia": "ITC-ICG 07"
+ },
+ {
+  "pregunta": "¿Qué norma se aplica al gas con presión superior a 5 bar?",
+  "opciones": [
+   "UNE 60620",
+   "UNE 60670",
+   "UNE 1",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "Por encima de 5 bar se aplica la norma UNE 60620.",
+  "referencia": "ITC-ICG 07"
+ },
+ {
+  "pregunta": "¿Cada cuánto se inspecciona periódicamente una instalación de gas?",
+  "opciones": [
+   "Cada cinco años",
+   "Cada día",
+   "Cada mes",
+   "Cada siglo"
+  ],
+  "correcta": 0,
+  "explicacion": "Las instalaciones de gas se inspeccionan periódicamente cada cinco años.",
+  "referencia": "ITC-ICG 07, apartado 4.1"
+ },
+ {
+  "pregunta": "¿Qué se comprueba en la inspección del gas?",
+  "opciones": [
+   "Estanquidad, combustión, ventilación y detección de gas",
+   "El color",
+   "La música",
+   "El precio del gas"
+  ],
+  "correcta": 0,
+  "explicacion": "La inspección comprueba la estanquidad, la combustión, la ventilación y la detección de gas.",
+  "referencia": "ITC-ICG 07, apartado 4.1"
+ },
+ {
+  "pregunta": "¿Qué reglamento regula el mantenimiento de la red de agua por la legionelosis?",
+  "opciones": [
+   "El RD 865/2003",
+   "El RD 842/2002",
+   "El RD 346/2011",
+   "El RD 1627/1997"
+  ],
+  "correcta": 0,
+  "explicacion": "El mantenimiento frente a la legionelosis se regula por el RD 865/2003.",
+  "referencia": "DB-HS 4, apartado 7.3"
+ },
+ {
+  "pregunta": "¿Qué prueba se hace en la red de agua?",
+  "opciones": [
+   "Prueba de resistencia mecánica y estanqueidad",
+   "Prueba de sonido",
+   "Prueba de color",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "Se hace prueba de resistencia mecánica y estanqueidad de toda la red de agua.",
+  "referencia": "DB-HS 4, apartado 5.2.1.1"
+ },
+ {
+  "pregunta": "¿Qué consumo instantáneo se asigna al inodoro con fluxor?",
+  "opciones": [
+   "1,25 dm³/s",
+   "12,5 dm³/s",
+   "0,125 dm³/s",
+   "Ninguno"
+  ],
+  "correcta": 0,
+  "explicacion": "El inodoro con fluxor tiene un caudal instantáneo de 1,25 dm³/s.",
+  "referencia": "DB-HS 4, tabla 2.1"
+ }
+]

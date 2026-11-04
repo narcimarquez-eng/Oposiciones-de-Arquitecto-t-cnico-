@@ -1,0 +1,242 @@
+[
+ {
+  "pregunta": "¿Qué reglamento regula las instalaciones eléctricas de baja tensión?",
+  "opciones": [
+   "El Reglamento electrotécnico para baja tensión (RD 842/2002)",
+   "El RD 1627/1997",
+   "El RD 919/2006",
+   "La Ley 22/2011"
+  ],
+  "correcta": 0,
+  "explicacion": "Las instalaciones eléctricas de baja tensión se rigen por el RD 842/2002 y sus ITC-BT.",
+  "referencia": "RD 842/2002"
+ },
+ {
+  "pregunta": "¿Qué reglamento regula las infraestructuras comunes de telecomunicaciones (ICT)?",
+  "opciones": [
+   "El RD 346/2011",
+   "El RD 842/2002",
+   "El RD 919/2006",
+   "El RD 1627/1997"
+  ],
+  "correcta": 0,
+  "explicacion": "Las ICT se regulan por el RD 346/2011.",
+  "referencia": "RD 346/2011"
+ },
+ {
+  "pregunta": "¿Qué grado de electrificación se da en viviendas con calefacción eléctrica?",
+  "opciones": [
+   "Grado elevado",
+   "Grado básico",
+   "Grado nulo",
+   "Grado de obra"
+  ],
+  "correcta": 0,
+  "explicacion": "Las viviendas con calefacción o climatización eléctricas tienen grado elevado de electrificación.",
+  "referencia": "ITC-BT-10, apartado 2.1"
+ },
+ {
+  "pregunta": "¿Qué grado de electrificación corresponde al uso de los aparatos de uso común?",
+  "opciones": [
+   "Grado básico",
+   "Grado elevado",
+   "Grado industrial",
+   "No tiene grado"
+  ],
+  "correcta": 0,
+  "explicacion": "El grado básico corresponde al uso de los aparatos de uso común.",
+  "referencia": "ITC-BT-10, apartado 2.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de interruptor general debe instalarse en la vivienda?",
+  "opciones": [
+   "Un interruptor general automático de corte omnipolar",
+   "Un interruptor de cordón",
+   "Un fusible de papel",
+   "Ninguno"
+  ],
+  "correcta": 0,
+  "explicacion": "Se instala un interruptor general automático de corte omnipolar.",
+  "referencia": "ITC-BT-25, apartado 2.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de protección diferencial se exige en las instalaciones?",
+  "opciones": [
+   "Interruptores diferenciales de 30 mA como máximo",
+   "Diferenciales de 300 A",
+   "Ninguna protección",
+   "Solo fusibles"
+  ],
+  "correcta": 0,
+  "explicacion": "Los interruptores diferenciales tienen un máximo de 30 mA.",
+  "referencia": "ITC-BT-25, apartado 2.1"
+ },
+ {
+  "pregunta": "¿Quién realiza las verificaciones previas a la puesta en servicio de la instalación?",
+  "opciones": [
+   "La empresa instaladora",
+   "El vecino",
+   "El alcalde",
+   "El proveedor de cables"
+  ],
+  "correcta": 0,
+  "explicacion": "La empresa instaladora realiza las verificaciones previas a la puesta en servicio.",
+  "referencia": "ITC-BT-05, apartado 2.1"
+ },
+ {
+  "pregunta": "¿Qué documento de diseño de la instalación eléctrica se exige según la ITC-BT-04?",
+  "opciones": [
+   "Proyecto o memoria técnica de diseño",
+   "Una factura",
+   "Un plano de tuberías de agua",
+   "Un contrato de telefonía"
+  ],
+  "correcta": 0,
+  "explicacion": "La ITC-BT-04 exige un proyecto o memoria técnica de diseño.",
+  "referencia": "ITC-BT-04, apartado 3.1"
+ },
+ {
+  "pregunta": "¿Cuál es el tipo de caída de tensión máxima en circuitos interiores de viviendas?",
+  "opciones": [
+   "Inferior al 3 %",
+   "Inferior al 30 %",
+   "Inferior al 50 %",
+   "Sin límite"
+  ],
+  "correcta": 0,
+  "explicacion": "La caída de tensión debe ser inferior al 3 % en los circuitos interiores de viviendas.",
+  "referencia": "ITC-BT-19, apartado 2.2.2"
+ },
+ {
+  "pregunta": "¿Qué ITC regula la puesta a tierra?",
+  "opciones": [
+   "La ITC-BT-18",
+   "La ITC-BT-04",
+   "La ITC-BT-25",
+   "La ITC-BT-10"
+  ],
+  "correcta": 0,
+  "explicacion": "La puesta a tierra se regula en la ITC-BT-18.",
+  "referencia": "ITC-BT-18"
+ },
+ {
+  "pregunta": "¿Qué tipo de inspección periódica se hace en las instalaciones eléctricas comunes de más de 100 kW?",
+  "opciones": [
+   "Cada diez años",
+   "Cada mes",
+   "Cada día",
+   "Nunca"
+  ],
+  "correcta": 0,
+  "explicacion": "En las comunes de viviendas de más de 100 kW la inspección es cada diez años.",
+  "referencia": "ITC-BT-05, apartado 4.2"
+ },
+ {
+  "pregunta": "¿Qué función tiene la ICT respecto a la radiodifusión?",
+  "opciones": [
+   "Captar y distribuir la radiodifusión",
+   "Emitir radio",
+   "Vender antenas",
+   "Repararlas"
+  ],
+  "correcta": 0,
+  "explicacion": "La ICT capta y distribuye la radiodifusión y da acceso a telefonía y banda ancha.",
+  "referencia": "RD 346/2011, art. 2.1"
+ },
+ {
+  "pregunta": "¿Qué documento se exige para las infraestructuras comunes de telecomunicaciones?",
+  "opciones": [
+   "Un proyecto técnico",
+   "Un cartel",
+   "Un croquis en servilleta",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "La ICT requiere proyecto técnico.",
+  "referencia": "RD 346/2011, art. 9.1"
+ },
+ {
+  "pregunta": "¿Dónde se sitúa el punto de interconexión con los operadores de telecomunicaciones?",
+  "opciones": [
+   "En el RITI",
+   "En el sótano de la piscina",
+   "En el garaje",
+   "En la azotea sin control"
+  ],
+  "correcta": 0,
+  "explicacion": "En el RITI se sitúa el punto de interconexión con los operadores.",
+  "referencia": "RD 346/2011, anexo II"
+ },
+ {
+  "pregunta": "¿Qué recinto se sitúa en el recinto superior de la ICT?",
+  "opciones": [
+   "El RITS",
+   "El RITI",
+   "El garaje",
+   "La sala de juntas"
+  ],
+  "correcta": 0,
+  "explicacion": "El RITS se sitúa en el recinto superior.",
+  "referencia": "RD 346/2011, anexo II"
+ },
+ {
+  "pregunta": "¿Qué ley regula la propiedad horizontal que se cita para la conservación de la ICT?",
+  "opciones": [
+   "La Ley 49/1960",
+   "La Ley 22/2011",
+   "La Ley 40/2015",
+   "La LEF"
+  ],
+  "correcta": 0,
+  "explicacion": "La conservación de la ICT en propiedad horizontal se regula por el art. 10 de la Ley 49/1960.",
+  "referencia": "RD 346/2011, art. 13.1"
+ },
+ {
+  "pregunta": "¿Dónde se incluye el plan de mantenimiento del edificio?",
+  "opciones": [
+   "En el libro del edificio",
+   "En la cuenta de la comunidad",
+   "En el calendario",
+   "En el tablón"
+  ],
+  "correcta": 0,
+  "explicacion": "El plan de mantenimiento forma parte del libro del edificio.",
+  "referencia": "CTE, art. 8.1"
+ },
+ {
+  "pregunta": "¿Qué se regula en el anexo IV del RD 1627/1997 sobre las instalaciones de energía en obra?",
+  "opciones": [
+   "El mantenimiento de las instalaciones de distribución de energía en obra",
+   "El color de los cables",
+   "El tipo de cerveza",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "El apartado 10 del anexo IV regula el mantenimiento de las instalaciones de energía en obra.",
+  "referencia": "RD 1627/1997, anexo IV, apartado 10"
+ },
+ {
+  "pregunta": "¿Qué exigencia del CTE regula la seguridad de utilización en las instalaciones?",
+  "opciones": [
+   "Art. 12.1 del CTE",
+   "Art. 2 de la Ley de Caza",
+   "Art. 30 de la LEF",
+   "Art. 10 de la LCSP"
+  ],
+  "correcta": 0,
+  "explicacion": "La seguridad de utilización se recoge en el art. 12.1 del CTE.",
+  "referencia": "CTE, art. 12.1"
+ },
+ {
+  "pregunta": "¿Qué norma regula las instalaciones de ahorro de energía en el CTE?",
+  "opciones": [
+   "El art. 15.1 del CTE",
+   "La LEF",
+   "El RD 1627/1997",
+   "La LGS"
+  ],
+  "correcta": 0,
+  "explicacion": "El ahorro de energía se recoge en el art. 15.1 del CTE.",
+  "referencia": "CTE, art. 15.1"
+ }
+]

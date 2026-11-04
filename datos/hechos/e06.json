@@ -1,0 +1,278 @@
+[
+ {
+  "pregunta": "¿Qué verifica el DB-SE-F del CTE?",
+  "opciones": [
+   "La seguridad estructural de los muros resistentes de fábrica",
+   "El ahorro de agua en grifos",
+   "La accesibilidad de los ascensores",
+   "La eficiencia de las calderas"
+  ],
+  "correcta": 0,
+  "explicacion": "El DB-SE-F verifica la seguridad estructural de los muros resistentes de fábrica.",
+  "referencia": "DB-SE-F, apartado 1.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de piezas se usan en los muros de fábrica del DB-SE-F?",
+  "opciones": [
+   "Piezas pequeñas asentadas con mortero: ladrillo, bloque de hormigón, cerámica aligerada y piedra",
+   "Piezas de madera de gran tamaño",
+   "Piezas de vidrio",
+   "Piezas de plástico"
+  ],
+  "correcta": 0,
+  "explicacion": "Son piezas pequeñas asentadas con mortero: ladrillo, bloque de hormigón, cerámica aligerada y piedra.",
+  "referencia": "DB-SE-F, apartado 1.1"
+ },
+ {
+  "pregunta": "¿Qué muros quedan excluidos del DB-SE-F?",
+  "opciones": [
+   "Los muros de carga sin encadenados con los forjados",
+   "Los muros de ladrillo visto con encadenados",
+   "Los tabiques de cartón yeso",
+   "Los muros de hormigón armado"
+  ],
+  "correcta": 0,
+  "explicacion": "Quedan excluidos los muros de carga sin encadenados con los forjados, las fábricas en seco y la piedra de mampuestos sin tendeles.",
+  "referencia": "DB-SE-F, apartado 1.1 punto 2"
+ },
+ {
+  "pregunta": "¿Qué tipo de muro tiene dos hojas con cámara entre ellas?",
+  "opciones": [
+   "El muro capuchino",
+   "El muro de una hoja",
+   "El muro de tendel hueco",
+   "El muro de armado"
+  ],
+  "correcta": 0,
+  "explicacion": "El muro capuchino tiene dos hojas con cámara de aire o de aislamiento entre ellas.",
+  "referencia": "DB-SE-F, apartado 6.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de muro es el de una sola hoja?",
+  "opciones": [
+   "Muro de una hoja",
+   "Muro doblado",
+   "Muro de armado",
+   "Muro capuchino"
+  ],
+  "correcta": 0,
+  "explicacion": "Es el muro formado por una sola hoja de fábrica.",
+  "referencia": "DB-SE-F, apartado 6.1"
+ },
+ {
+  "pregunta": "¿Qué tipos de muro recoge el DB-SE-F?",
+  "opciones": [
+   "Una hoja, capuchino, doblado, careado, de tendel hueco, de revestimiento y de armado",
+   "Solo el muro de adobe",
+   "Solo el muro de madera",
+   "Ninguno"
+  ],
+  "correcta": 0,
+  "explicacion": "Son los tipos de muro recogidos en el apartado 6.1.",
+  "referencia": "DB-SE-F, apartado 6.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de arco contempla el DB-SE-F en el apoyo de muros?",
+  "opciones": [
+   "Un arco estribado en sus extremos",
+   "Un arco de piedra sin apoyo",
+   "Un arco de vidrio",
+   "Un arco de cartón"
+  ],
+  "correcta": 0,
+  "explicacion": "El DB-SE-F contempla el arco estribado en sus extremos.",
+  "referencia": "DB-SE-F, apartado 5.4.4"
+ },
+ {
+  "pregunta": "¿Cuántas articulaciones tiene el cálculo del arco según el DB-SE-F?",
+  "opciones": [
+   "Tres: dos en los extremos y una intermedia",
+   "Una",
+   "Diez",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "El cálculo es el de tres articulaciones, dos en los extremos y una intermedia.",
+  "referencia": "DB-SE-F, apartado 5.4.4 punto 2"
+ },
+ {
+  "pregunta": "¿Qué exigencias de seguridad estructural debe cumplir la fábrica?",
+  "opciones": [
+   "SE 1 y SE 2",
+   "SI 1 y SI 2",
+   "HE 1 y HE 2",
+   "HS 1 y HS 2"
+  ],
+  "correcta": 0,
+  "explicacion": "La seguridad estructural de la fábrica sigue las exigencias SE 1 y SE 2.",
+  "referencia": "CTE, art. 10"
+ },
+ {
+  "pregunta": "¿Qué documento del CTE regula la humedad en cerramientos?",
+  "opciones": [
+   "El DB-HS 1",
+   "El DB-SI",
+   "El DB-HE 1",
+   "El DB-SUA"
+  ],
+  "correcta": 0,
+  "explicacion": "La humedad en cerramientos se regula en el DB-HS 1.",
+  "referencia": "CTE, art. 13.1"
+ },
+ {
+  "pregunta": "¿Qué debe ser el acabado exterior impermeable al agua de lluvia en un muro?",
+  "opciones": [
+   "Permeable al vapor",
+   "Impermeable al vapor",
+   "Metálico",
+   "Madera"
+  ],
+  "correcta": 0,
+  "explicacion": "Si el acabado exterior es impermeable al agua de lluvia, debe ser permeable al vapor.",
+  "referencia": "DB-SE-F, apartado 3.1 puntos 2 y 3"
+ },
+ {
+  "pregunta": "¿Qué se hace con las piezas cerámicas antes de la fábrica?",
+  "opciones": [
+   "Se humedecen, salvo las completamente hidrofugadas o de succión muy baja",
+   "Se secan al sol",
+   "Se pintan",
+   "Se congelan"
+  ],
+  "correcta": 0,
+  "explicacion": "Las piezas cerámicas se humedecen antes de la fábrica, salvo las hidrofugadas o de succión muy baja.",
+  "referencia": "DB-SE-F, apartado 7.1.1"
+ },
+ {
+  "pregunta": "¿Cómo se colocan las piezas en la fábrica?",
+  "opciones": [
+   "A restregón sobre tortada de mortero",
+   "Con clavos",
+   "Con cola de contacto",
+   "Sin mortero"
+  ],
+  "correcta": 0,
+  "explicacion": "Las piezas se colocan a restregón sobre tortada de mortero.",
+  "referencia": "DB-SE-F, apartado 7.1.2"
+ },
+ {
+  "pregunta": "¿Qué armadura debe tener un dintel sobre sus apoyos?",
+  "opciones": [
+   "Una armadura de continuidad no inferior al 50 % de la del centro del vano",
+   "Ninguna",
+   "Solo madera",
+   "Una armadura de plástico"
+  ],
+  "correcta": 0,
+  "explicacion": "La armadura de continuidad sobre apoyos no es inferior al 50 % de la del centro del vano.",
+  "referencia": "DB-SE-F, apartado 7.2 punto 1"
+ },
+ {
+  "pregunta": "¿Qué debe hacerse con las alteraciones que afectan a la durabilidad de un muro?",
+  "opciones": [
+   "Intervenir antes de que afecten a la estabilidad",
+   "Dejarlas",
+   "Ocultarlas",
+   "Pintarlas"
+  ],
+  "correcta": 0,
+  "explicacion": "Las alteraciones que afectan a la durabilidad requieren intervención antes de que afecten a la estabilidad.",
+  "referencia": "DB-SE-F, apartado 9"
+ },
+ {
+  "pregunta": "¿Cuántos años responde la LOE por daños en muros de carga que comprometan la estabilidad?",
+  "opciones": [
+   "Diez años",
+   "Un año",
+   "Tres meses",
+   "Veinte años"
+  ],
+  "correcta": 0,
+  "explicacion": "La LOE responde diez años por daños en muros de carga que comprometan la estabilidad.",
+  "referencia": "LOE, art. 17.1 a)"
+ },
+ {
+  "pregunta": "¿Cuántos años responde la LOE por defectos que incumplan la habitabilidad?",
+  "opciones": [
+   "Tres años",
+   "Diez años",
+   "Un mes",
+   "Cien años"
+  ],
+  "correcta": 0,
+  "explicacion": "La LOE responde tres años por los defectos que incumplan la habitabilidad.",
+  "referencia": "LOE, art. 17.1 b)"
+ },
+ {
+  "pregunta": "¿Qué medidas deben aplicarse frente a la inestabilidad temporal de la obra de fábrica?",
+  "opciones": [
+   "Las del anexo IV del RD 1627/1997, apartado 11.c",
+   "Ninguna",
+   "Solo colocar un cartel",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "El estudio de seguridad debe recoger estas medidas, con su presupuesto.",
+  "referencia": "RD 1627/1997, anexo IV, apartado 11.c"
+ },
+ {
+  "pregunta": "¿Cómo se miden los muros?",
+  "opciones": [
+   "Por metro cuadrado con su espesor",
+   "Por kilo",
+   "Por litro",
+   "Por hora"
+  ],
+  "correcta": 0,
+  "explicacion": "Los muros se miden por metro cuadrado con su espesor.",
+  "referencia": "Medición de unidades de obra"
+ },
+ {
+  "pregunta": "¿Qué clase de piezas tienen resistencia declarada con probabilidad de no alcanzarla inferior al 5 %?",
+  "opciones": [
+   "Las piezas de categoría I",
+   "Las de categoría III",
+   "Las de categoría de madera",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "Las piezas de categoría I tienen esa probabilidad inferior al 5 %.",
+  "referencia": "DB-SE-F, apartado 8.1.1 punto 3"
+ },
+ {
+  "pregunta": "¿Qué resistencia normalizada mínima se exige a las piezas de fábrica?",
+  "opciones": [
+   "5 N/mm²",
+   "50 N/mm²",
+   "0,5 N/mm²",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "La resistencia normalizada mínima es de 5 N/mm².",
+  "referencia": "DB-SE-F, apartado 4.1 punto 4"
+ },
+ {
+  "pregunta": "¿Qué se considera llaga llena en la fábrica?",
+  "opciones": [
+   "La llaga con mortero macizo en al menos el 40 % del tizón",
+   "La llaga vacía",
+   "La llaga con agua",
+   "La llaga con piedra"
+  ],
+  "correcta": 0,
+  "explicacion": "Una llaga está llena si el mortero macizo cubre el 40 % del tizón.",
+  "referencia": "DB-SE-F, apartado 7.1.3 punto 1"
+ },
+ {
+  "pregunta": "¿Qué plan debe tener el muro según el DB-SE-F?",
+  "opciones": [
+   "Un plan de mantenimiento con revisiones periódicas",
+   "Un plan de vacaciones",
+   "Un plan de compras",
+   "Ninguno"
+  ],
+  "correcta": 0,
+  "explicacion": "El muro debe tener un plan de mantenimiento con revisiones periódicas.",
+  "referencia": "DB-SE-F, apartado 9"
+ }
+]
