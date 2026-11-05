@@ -334,5 +334,53 @@
   "correcta": 1,
   "explicacion": "En escuelas infantiles y centros de enseñanza primaria se dispondrá otro pasamanos a una altura más baja.",
   "referencia": "CTE, DB-SUA 1, apartado 4.2.4"
+ },
+ {
+  "pregunta": "¿Qué fuerza máxima de apertura pueden requerir las puertas de salida?",
+  "opciones": [
+   "500 N",
+   "140 N, salvo en itinerarios accesibles",
+   "10 N",
+   "1.000 N"
+  ],
+  "correcta": 1,
+  "explicacion": "La fuerza de apertura de las puertas de salida será de 140 N como máximo, excepto en itinerarios accesibles.",
+  "referencia": "CTE, DB-SUA 3, apartado 1"
+ },
+ {
+  "pregunta": "¿Qué fuerza máxima de apertura se admite en las puertas de itinerarios accesibles, con carácter general?",
+  "opciones": [
+   "140 N",
+   "250 N",
+   "5 N",
+   "25 N (65 N si son resistentes al fuego)"
+  ],
+  "correcta": 3,
+  "explicacion": "En itinerarios accesibles se aplica como máximo 25 N en general y 65 N cuando sean resistentes al fuego.",
+  "referencia": "CTE, DB-SUA 3 y anejo A"
+ },
+ {
+  "pregunta": "¿Qué deben tener las puertas de vaivén situadas entre zonas de circulación?",
+  "opciones": [
+   "Cerradura con llave",
+   "Partes transparentes o translúcidas que permitan percibir la aproximación de personas",
+   "Muelles sin retorno",
+   "Pintura reflectante solamente"
+  ],
+  "correcta": 1,
+  "explicacion": "Las puertas de vaivén tendrán partes transparentes o translúcidas.",
+  "referencia": "CTE, DB-SUA 2, apartado 1.2"
+ },
+ {
+  "pregunta": "¿Qué radio debe cubrir la superficie exterior de un acristalamiento para poder limpiarse desde el interior?",
+  "opciones": [
+   "0,85 m desde el borde de la zona practicable, a una altura no mayor de 1,30 m",
+   "3 m",
+   "0,20 m",
+   "No se regula"
+  ],
+  "correcta": 0,
+  "explicacion": "Toda la superficie exterior del acristalamiento debe estar en un radio de 0,85 m desde algún punto del borde de la zona practicable situado a no más de 1,30 m.",
+  "referencia": "CTE, DB-SUA 1, apartado 5"
  }
 ]

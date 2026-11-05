@@ -370,5 +370,65 @@
   "correcta": 1,
   "explicacion": "La fosa séptica realiza un tratamiento primario de aguas residuales en zonas sin red.",
   "referencia": "Tema e03"
+ },
+ {
+  "pregunta": "¿Para qué se disponen cierres hidráulicos en la red de evacuación?",
+  "opciones": [
+   "Para aumentar la presión del agua potable",
+   "Para calentar el agua",
+   "Para impedir el paso del aire de la instalación a los locales ocupados",
+   "Para recoger pluviales"
+  ],
+  "correcta": 2,
+  "explicacion": "Deben disponerse cierres hidráulicos que impidan el paso del aire contenido en la instalación a los locales ocupados.",
+  "referencia": "CTE, DB-HS 5, apartado 2"
+ },
+ {
+  "pregunta": "¿En qué edificios es suficiente la ventilación primaria como único sistema?",
+  "opciones": [
+   "En rascacielos de más de 30 plantas",
+   "Nunca",
+   "En edificios de menos de 7 plantas (o de menos de 11 con bajante sobredimensionada)",
+   "En todos los edificios"
+  ],
+  "correcta": 2,
+  "explicacion": "La ventilación primaria se considera suficiente en edificios con menos de 7 plantas, o menos de 11 si la bajante está sobredimensionada.",
+  "referencia": "CTE, DB-HS 5, apartado 3.3.3.1"
+ },
+ {
+  "pregunta": "¿Cuándo debe disponerse un separador de grasas en la red de saneamiento?",
+  "opciones": [
+   "Siempre en viviendas",
+   "Nunca",
+   "Cuando las aguas residuales puedan transportar una cantidad excesiva de grasa",
+   "Solo en pluviales"
+  ],
+  "correcta": 2,
+  "explicacion": "El separador de grasas se dispone cuando se prevé que las aguas transporten una cantidad excesiva de grasa.",
+  "referencia": "CTE, DB-HS 5, apartado 3.3.1.5"
+ },
+ {
+  "pregunta": "¿Cuándo debe disponerse una arqueta de trasdós?",
+  "opciones": [
+   "Cuando llega al pozo general del edificio más de un colector",
+   "En cada bajante",
+   "Nunca",
+   "Solo en cubiertas"
+  ],
+  "correcta": 0,
+  "explicacion": "La arqueta de trasdós se dispone cuando llega más de un colector al pozo general.",
+  "referencia": "CTE, DB-HS 5, apartado 3.3.1.5"
+ },
+ {
+  "pregunta": "¿Qué pendiente mínima debe tener el fondo del tanque de un sistema de bombeo de aguas residuales?",
+  "opciones": [
+   "1 %",
+   "25 %",
+   "5 %",
+   "100 %"
+  ],
+  "correcta": 1,
+  "explicacion": "El fondo del tanque debe tener una pendiente mínima del 25 %.",
+  "referencia": "CTE, DB-HS 5, apartado 5.5"
  }
 ]
