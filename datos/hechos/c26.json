@@ -430,5 +430,53 @@
   "correcta": 2,
   "explicacion": "El art. 88 LOPDGDD reconoce el derecho a la desconexión digital.",
   "referencia": "LOPDGDD, art. 88"
+ },
+ {
+  "pregunta": "¿Cuándo prescriben las infracciones graves de protección de datos?",
+  "opciones": [
+   "A los seis meses",
+   "A los cinco años",
+   "A los dos años",
+   "A los diez años"
+  ],
+  "correcta": 2,
+  "explicacion": "Las infracciones graves prescriben a los dos años.",
+  "referencia": "LOPDGDD, art. 73"
+ },
+ {
+  "pregunta": "¿Cuándo prescriben las infracciones leves de protección de datos?",
+  "opciones": [
+   "Al año",
+   "A los tres años",
+   "A los seis meses",
+   "A los cuatro años"
+  ],
+  "correcta": 0,
+  "explicacion": "Las infracciones leves prescriben al año.",
+  "referencia": "LOPDGDD, art. 74"
+ },
+ {
+  "pregunta": "¿Cuándo puede considerarse repetitivo el ejercicio del derecho de acceso?",
+  "opciones": [
+   "Cuando se ejerce dos veces en diez años",
+   "Nunca",
+   "Cuando se pide por escrito",
+   "Cuando se ejerce más de una vez en seis meses sin causa legítima"
+  ],
+  "correcta": 3,
+  "explicacion": "Puede considerarse repetitivo el ejercicio del derecho de acceso en más de una ocasión durante seis meses, salvo causa legítima.",
+  "referencia": "LOPDGDD, art. 13.3"
+ },
+ {
+  "pregunta": "¿Qué obligación impone la LOPDGDD al responsable cuando rectifica o suprime datos?",
+  "opciones": [
+   "Publicarlos",
+   "Venderlos",
+   "Enviarlos al extranjero",
+   "Bloquear los datos"
+  ],
+  "correcta": 3,
+  "explicacion": "El responsable está obligado a bloquear los datos cuando proceda a su rectificación o supresión.",
+  "referencia": "LOPDGDD, art. 32.1"
  }
 ]

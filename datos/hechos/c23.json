@@ -430,5 +430,53 @@
   "correcta": 2,
   "explicacion": "La paginación divide la memoria en páginas y marcos de tamaño fijo.",
   "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué componente del SGBD describe la estructura de la base de datos?",
+  "opciones": [
+   "El diccionario de datos o catálogo",
+   "El monitor",
+   "La impresora",
+   "El router"
+  ],
+  "correcta": 0,
+  "explicacion": "El diccionario de datos almacena los metadatos que describen la base de datos.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué lenguaje de SQL define la estructura de las tablas?",
+  "opciones": [
+   "DML",
+   "DCL",
+   "HTML",
+   "DDL (lenguaje de definición de datos)"
+  ],
+  "correcta": 3,
+  "explicacion": "El DDL incluye sentencias como CREATE, ALTER o DROP.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué sentencia SQL se usa para dar permisos a un usuario?",
+  "opciones": [
+   "SELECT",
+   "UPDATE",
+   "JOIN",
+   "GRANT"
+  ],
+  "correcta": 3,
+  "explicacion": "GRANT pertenece al lenguaje de control de datos (DCL).",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué tipo de sistema de información apoya la toma de decisiones con análisis multidimensional?",
+  "opciones": [
+   "Los sistemas de nóminas",
+   "Los procesadores de texto",
+   "Los cortafuegos",
+   "Los sistemas OLAP o de inteligencia de negocio"
+  ],
+  "correcta": 3,
+  "explicacion": "Los sistemas OLAP permiten analizar datos desde varias dimensiones.",
+  "referencia": "Tema c23"
  }
 ]
