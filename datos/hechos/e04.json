@@ -370,5 +370,77 @@
   "correcta": 1,
   "explicacion": "El pretensado introduce tensiones de compresión que mejoran el comportamiento del hormigón a tracción.",
   "referencia": "Tema e04"
+ },
+ {
+  "pregunta": "¿Qué instrucciones quedaron derogadas con la aprobación del Código Estructural?",
+  "opciones": [
+   "El CTE completo",
+   "El RITE",
+   "El REBT",
+   "La EHE-08 y la EAE"
+  ],
+  "correcta": 3,
+  "explicacion": "El RD 470/2021, que aprueba el Código Estructural, deroga la EHE-08 y la EAE.",
+  "referencia": "RD 470/2021, preámbulo"
+ },
+ {
+  "pregunta": "¿Qué sobrecarga de uso uniforme corresponde a viviendas (categoría A1)?",
+  "opciones": [
+   "5 kN/m²",
+   "0,5 kN/m²",
+   "2 kN/m²",
+   "10 kN/m²"
+  ],
+  "correcta": 2,
+  "explicacion": "La tabla 3.1 del DB-SE-AE asigna 2 kN/m² a viviendas y zonas de habitaciones (A1).",
+  "referencia": "CTE, DB-SE-AE, tabla 3.1"
+ },
+ {
+  "pregunta": "¿Qué se considera cubierta ligera en el DB-SE-AE?",
+  "opciones": [
+   "La que pesa menos de 10 kN/m²",
+   "La de teja cerámica",
+   "La transitable",
+   "Aquella cuya carga permanente debida a su cerramiento no excede de 1 kN/m²"
+  ],
+  "correcta": 3,
+  "explicacion": "Se considera cubierta ligera la de carga permanente por cerramiento no superior a 1 kN/m².",
+  "referencia": "CTE, DB-SE-AE, tabla 3.1, nota"
+ },
+ {
+  "pregunta": "¿Cuándo puede asimilarse el peso de los tabiques ordinarios a una carga uniforme?",
+  "opciones": [
+   "Siempre",
+   "Nunca",
+   "Cuando su peso no supera 1,2 kN/m² y su distribución es sensiblemente homogénea",
+   "Cuando son de hormigón armado"
+  ],
+  "correcta": 2,
+  "explicacion": "Los tabiques de peso no superior a 1,2 kN/m² y distribución homogénea pueden asimilarse a una carga uniforme.",
+  "referencia": "CTE, DB-SE-AE, apartado 2.1"
+ },
+ {
+  "pregunta": "¿A partir de qué altitud no son aplicables las disposiciones de viento del DB-SE-AE?",
+  "opciones": [
+   "Más de 2.000 m",
+   "Más de 200 m",
+   "Más de 500 m",
+   "Se aplican a cualquier altitud"
+  ],
+  "correcta": 0,
+  "explicacion": "Las disposiciones no son aplicables a edificios situados en altitudes superiores a 2.000 m.",
+  "referencia": "CTE, DB-SE-AE, apartado 3.3"
+ },
+ {
+  "pregunta": "¿Qué índice de fiabilidad mínimo exige el Código Estructural para un período de referencia de 50 años?",
+  "opciones": [
+   "1,0",
+   "3,8",
+   "10",
+   "0,5"
+  ],
+  "correcta": 1,
+  "explicacion": "El índice de fiabilidad para un período de referencia de 50 años no deberá ser inferior a 3,8.",
+  "referencia": "RD 470/2021 (Código Estructural)"
  }
 ]

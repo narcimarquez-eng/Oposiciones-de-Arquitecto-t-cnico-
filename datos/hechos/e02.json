@@ -358,5 +358,101 @@
   "correcta": 1,
   "explicacion": "El hormigón de limpieza regulariza la base y protege la armadura.",
   "referencia": "Tema e02"
+ },
+ {
+  "pregunta": "¿Qué tipo de construcción es C-0 según el DB-SE-C?",
+  "opciones": [
+   "Construcciones de más de 20 plantas",
+   "Construcciones entre 4 y 10 plantas",
+   "Construcciones de menos de 4 plantas y superficie construida inferior a 300 m²",
+   "Monumentos singulares"
+  ],
+  "correcta": 2,
+  "explicacion": "La tabla 3.1 del DB-SE-C define el tipo C-0.",
+  "referencia": "CTE, DB-SE-C, tabla 3.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de construcción corresponde a edificios de entre 4 y 10 plantas?",
+  "opciones": [
+   "C-0",
+   "C-2",
+   "C-1",
+   "C-4"
+  ],
+  "correcta": 1,
+  "explicacion": "El tipo C-2 corresponde a construcciones entre 4 y 10 plantas.",
+  "referencia": "CTE, DB-SE-C, tabla 3.1"
+ },
+ {
+  "pregunta": "¿Qué grupo de terreno corresponde a los terrenos favorables con poca variabilidad?",
+  "opciones": [
+   "T-1",
+   "T-2",
+   "T-3",
+   "T-0"
+  ],
+  "correcta": 0,
+  "explicacion": "El grupo T-1 corresponde a terrenos favorables con poca variabilidad.",
+  "referencia": "CTE, DB-SE-C, tabla 3.2"
+ },
+ {
+  "pregunta": "¿Qué grupo de terreno es el de los terrenos desfavorables?",
+  "opciones": [
+   "T-1",
+   "T-2",
+   "T-0",
+   "T-3"
+  ],
+  "correcta": 3,
+  "explicacion": "El grupo T-3 incluye los terrenos desfavorables que no pueden clasificarse en los anteriores.",
+  "referencia": "CTE, DB-SE-C, tabla 3.2"
+ },
+ {
+  "pregunta": "¿Qué tipo de zapata se usa para alineaciones de tres o más pilares o muros?",
+  "opciones": [
+   "Zapata aislada",
+   "Pozo de cimentación",
+   "Encepado de un pilote",
+   "Zapata corrida"
+  ],
+  "correcta": 3,
+  "explicacion": "La zapata corrida se emplea en alineaciones de tres o más pilares o muros.",
+  "referencia": "CTE, DB-SE-C, tabla 4.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de zapata recoge dos o más pilares contiguos?",
+  "opciones": [
+   "Zapata corrida",
+   "Losa de cimentación",
+   "Zapata combinada",
+   "Pilote"
+  ],
+  "correcta": 2,
+  "explicacion": "La zapata combinada recoge dos o más pilares contiguos.",
+  "referencia": "CTE, DB-SE-C, tabla 4.1"
+ },
+ {
+  "pregunta": "¿Qué misión tiene la solera de asiento u hormigón de limpieza?",
+  "opciones": [
+   "Crear una superficie plana y horizontal de apoyo de la zapata",
+   "Impermeabilizar la cubierta",
+   "Aislar acústicamente",
+   "Aumentar el canto útil de la zapata"
+  ],
+  "correcta": 0,
+  "explicacion": "La solera de asiento tiene por misión crear una superficie plana y horizontal de apoyo.",
+  "referencia": "CTE, DB-SE-C, apartado 4.5"
+ },
+ {
+  "pregunta": "¿Cuánto debe quedar sumergido, con carácter general, el tubo de hormigonado de un pilote en el hormigón?",
+  "opciones": [
+   "10 cm",
+   "Al menos 3 m",
+   "20 m",
+   "No debe sumergirse"
+  ],
+  "correcta": 1,
+  "explicacion": "La profundidad mínima de inmersión del tubo es de tres metros, reducible a dos si se conoce con precisión el nivel del hormigón.",
+  "referencia": "CTE, DB-SE-C, apartado 5.4"
  }
 ]

@@ -358,5 +358,53 @@
   "correcta": 0,
   "explicacion": "El factor solar indica la proporción de la radiación solar que entra al interior.",
   "referencia": "CTE, DB-HE 1"
+ },
+ {
+  "pregunta": "¿Qué parámetro mide la eficiencia energética de una instalación de iluminación?",
+  "opciones": [
+   "La transmitancia",
+   "El factor solar",
+   "El índice de reverberación",
+   "El VEEI (Valor de Eficiencia Energética de la Instalación)"
+  ],
+  "correcta": 3,
+  "explicacion": "El DB-HE 3 usa el Valor de Eficiencia Energética de la Instalación (VEEI).",
+  "referencia": "CTE, DB-HE 3"
+ },
+ {
+  "pregunta": "¿Hasta qué porcentaje puede reducirse la contribución renovable mínima de ACS cuando la demanda es inferior a 5.000 l/d?",
+  "opciones": [
+   "Al 10 %",
+   "Al 90 %",
+   "Al 0 %",
+   "Al 60 %"
+  ],
+  "correcta": 3,
+  "explicacion": "La contribución mínima podrá reducirse al 60 % cuando la demanda de ACS sea inferior a 5.000 l/d.",
+  "referencia": "CTE, DB-HE 4"
+ },
+ {
+  "pregunta": "¿A partir de qué superficie construida se exige la generación eléctrica renovable del HE 5 en edificios nuevos?",
+  "opciones": [
+   "Más de 50 m²",
+   "Más de 1.000 m² construidos",
+   "Más de 100.000 m²",
+   "Siempre"
+  ],
+  "correcta": 1,
+  "explicacion": "El HE 5 se aplica a edificios de nueva construcción que superen los 1.000 m² construidos.",
+  "referencia": "CTE, DB-HE 5"
+ },
+ {
+  "pregunta": "¿Cuántas estaciones de recarga de vehículo eléctrico exige el HE 6 en aparcamientos de uso distinto al residencial privado?",
+  "opciones": [
+   "Una por cada 40 plazas o fracción",
+   "Una por cada 1.000 plazas",
+   "Una por plaza",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "Se instalará una estación de recarga por cada 40 plazas de aparcamiento, o fracción.",
+  "referencia": "CTE, DB-HE 6"
  }
 ]

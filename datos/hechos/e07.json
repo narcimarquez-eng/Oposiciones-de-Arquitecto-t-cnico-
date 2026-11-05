@@ -370,5 +370,29 @@
   "correcta": 2,
   "explicacion": "La cubierta plana transitable se diseña para permitir el paso de personas.",
   "referencia": "Tema e07"
+ },
+ {
+  "pregunta": "¿Qué pendiente mínima exige el DB-HS 1 para cubiertas de teja curva?",
+  "opciones": [
+   "32 %",
+   "5 %",
+   "10 %",
+   "60 %"
+  ],
+  "correcta": 0,
+  "explicacion": "La tabla 2.10 del DB-HS 1 fija una pendiente mínima del 32 % para teja curva.",
+  "referencia": "CTE, DB-HS 1, tabla 2.10"
+ },
+ {
+  "pregunta": "¿Qué pendiente mínima exige el DB-HS 1 para teja mixta y plana monocanal?",
+  "opciones": [
+   "30 %",
+   "2 %",
+   "15 %",
+   "45 %"
+  ],
+  "correcta": 0,
+  "explicacion": "La tabla 2.10 fija un 30 % para teja mixta y plana monocanal.",
+  "referencia": "CTE, DB-HS 1, tabla 2.10"
  }
 ]

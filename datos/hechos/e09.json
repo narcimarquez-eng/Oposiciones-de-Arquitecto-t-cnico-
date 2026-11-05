@@ -370,5 +370,41 @@
   "correcta": 2,
   "explicacion": "Las tuberías de polietileno reticulado o multicapa son habituales en la distribución de agua.",
   "referencia": "Tema e09"
+ },
+ {
+  "pregunta": "¿Qué presión mínima deben tener los fluxores y calentadores?",
+  "opciones": [
+   "100 kPa",
+   "50 kPa",
+   "500 kPa",
+   "150 kPa"
+  ],
+  "correcta": 3,
+  "explicacion": "La presión mínima es de 150 kPa para fluxores y calentadores.",
+  "referencia": "CTE, DB-HS 4, apartado 2.1.3"
+ },
+ {
+  "pregunta": "¿Qué presión no debe superarse en ningún punto de consumo?",
+  "opciones": [
+   "500 kPa",
+   "100 kPa",
+   "1.500 kPa",
+   "50 kPa"
+  ],
+  "correcta": 0,
+  "explicacion": "La presión en cualquier punto de consumo no debe superar 500 kPa.",
+  "referencia": "CTE, DB-HS 4, apartado 2.1.3"
+ },
+ {
+  "pregunta": "¿Entre qué temperaturas debe estar el ACS en los puntos de consumo?",
+  "opciones": [
+   "Entre 50 °C y 65 °C",
+   "Entre 20 °C y 30 °C",
+   "Entre 80 °C y 95 °C",
+   "Por debajo de 40 °C"
+  ],
+  "correcta": 0,
+  "explicacion": "La temperatura de ACS en los puntos de consumo debe estar comprendida entre 50 y 65 °C.",
+  "referencia": "CTE, DB-HS 4, apartado 2.1.3"
  }
 ]

@@ -322,5 +322,101 @@
   "correcta": 0,
   "explicacion": "El itinerario practicable carece de barreras para su uso con autonomía.",
   "referencia": "Decreto 293/2009"
+ },
+ {
+  "pregunta": "¿Qué huella mínima deben tener los peldaños de escaleras de uso general en tramos rectos?",
+  "opciones": [
+   "20 cm",
+   "28 cm",
+   "35 cm",
+   "15 cm"
+  ],
+  "correcta": 1,
+  "explicacion": "En tramos rectos la huella medirá 28 cm como mínimo.",
+  "referencia": "CTE, DB-SUA 1, apartado 4.2.1"
+ },
+ {
+  "pregunta": "¿Entre qué valores debe estar la contrahuella de las escaleras de uso general?",
+  "opciones": [
+   "Entre 20 y 25 cm",
+   "Entre 13 y 18,5 cm",
+   "Entre 5 y 10 cm",
+   "Entre 18,5 y 25 cm"
+  ],
+  "correcta": 1,
+  "explicacion": "La contrahuella medirá 13 cm como mínimo y 18,5 cm como máximo, con excepciones.",
+  "referencia": "CTE, DB-SUA 1, apartado 4.2.1"
+ },
+ {
+  "pregunta": "¿Qué relación deben cumplir huella y contrahuella en una misma escalera?",
+  "opciones": [
+   "C = H",
+   "2H + C = 100 cm",
+   "54 cm ≤ 2C + H ≤ 70 cm",
+   "C + H = 40 cm"
+  ],
+  "correcta": 2,
+  "explicacion": "La huella H y la contrahuella C cumplirán 54 cm ≤ 2C + H ≤ 70 cm.",
+  "referencia": "CTE, DB-SUA 1, apartado 4.2.1"
+ },
+ {
+  "pregunta": "¿Cuántos peldaños como mínimo debe tener cada tramo de escalera?",
+  "opciones": [
+   "Uno",
+   "Tres",
+   "Diez",
+   "Cinco"
+  ],
+  "correcta": 1,
+  "explicacion": "Cada tramo tendrá 3 peldaños como mínimo, salvo excepciones.",
+  "referencia": "CTE, DB-SUA 1, apartado 4.2.2"
+ },
+ {
+  "pregunta": "¿Qué altura máxima puede salvar un tramo de escalera en zonas de uso público?",
+  "opciones": [
+   "3,20 m",
+   "2,25 m",
+   "1,00 m",
+   "5,00 m"
+  ],
+  "correcta": 1,
+  "explicacion": "La máxima altura que puede salvar un tramo es 2,25 m en zonas de uso público.",
+  "referencia": "CTE, DB-SUA 1, apartado 4.2.2"
+ },
+ {
+  "pregunta": "¿Qué pendiente máxima tienen con carácter general las rampas?",
+  "opciones": [
+   "El 12 %",
+   "El 25 %",
+   "El 2 %",
+   "El 50 %"
+  ],
+  "correcta": 0,
+  "explicacion": "Las rampas tendrán una pendiente del 12 % como máximo, salvo las de itinerarios accesibles y otras excepciones.",
+  "referencia": "CTE, DB-SUA 1, apartado 4.3.1"
+ },
+ {
+  "pregunta": "¿Cuántas plazas accesibles deben reservarse en aparcamientos de uso público, comercial o de pública concurrencia?",
+  "opciones": [
+   "Una por cada 100 plazas",
+   "Una por cada 10 plazas",
+   "Ninguna",
+   "Una por cada 33 plazas o fracción"
+  ],
+  "correcta": 3,
+  "explicacion": "Se exige una plaza accesible por cada 33 plazas de aparcamiento o fracción.",
+  "referencia": "CTE, DB-SUA 9, apartado 1.2.3"
+ },
+ {
+  "pregunta": "¿Cuántas plazas accesibles se exigen en otros usos distintos de los anteriores?",
+  "opciones": [
+   "Una por cada 50 plazas o fracción",
+   "Una por cada 33 plazas",
+   "Una por cada 200 plazas",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "En cualquier otro uso, una plaza accesible por cada 50 plazas o fracción.",
+  "referencia": "CTE, DB-SUA 9, apartado 1.2.3"
  }
 ]

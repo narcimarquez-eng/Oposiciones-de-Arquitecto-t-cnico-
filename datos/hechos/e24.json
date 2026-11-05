@@ -358,5 +358,53 @@
   "correcta": 2,
   "explicacion": "El requisito de protección del medio ambiente busca reducir el impacto ambiental del edificio.",
   "referencia": "CTE, art. 13"
+ },
+ {
+  "pregunta": "¿Qué nivel de referencia de concentración de radón fija el DB-HS 6?",
+  "opciones": [
+   "30 Bq/m³",
+   "3.000 Bq/m³",
+   "No fija ninguno",
+   "300 Bq/m³ de promedio anual"
+  ],
+  "correcta": 3,
+  "explicacion": "Se establece un nivel de referencia de 300 Bq/m³ para el promedio anual de concentración de radón.",
+  "referencia": "CTE, DB-HS 6"
+ },
+ {
+  "pregunta": "¿Qué aislamiento acústico mínimo a ruido aéreo se exige entre un recinto protegido y otra unidad de uso colindante sin puertas ni ventanas compartidas?",
+  "opciones": [
+   "10 dBA",
+   "90 dBA",
+   "D2m,nT,Atr o DnT,A no menor que 50 dBA",
+   "No se exige"
+  ],
+  "correcta": 2,
+  "explicacion": "El aislamiento acústico a ruido aéreo no será menor que 50 dBA, siempre que no compartan puertas o ventanas.",
+  "referencia": "CTE, DB-HR, apartado 2.1"
+ },
+ {
+  "pregunta": "¿Qué nivel máximo de ruido de impactos L'nT,w se admite en un recinto protegido respecto de otra unidad de uso?",
+  "opciones": [
+   "30 dB",
+   "65 dB",
+   "100 dB",
+   "45 dB"
+  ],
+  "correcta": 1,
+  "explicacion": "El nivel global de presión de ruido de impactos no será mayor que 65 dB.",
+  "referencia": "CTE, DB-HR, apartado 2.1"
+ },
+ {
+  "pregunta": "¿Qué tiempo de reverberación máximo se admite en aulas vacías de menos de 350 m³?",
+  "opciones": [
+   "2 s",
+   "0,1 s",
+   "0,7 s",
+   "5 s"
+  ],
+  "correcta": 2,
+  "explicacion": "El tiempo de reverberación en aulas y salas de conferencias vacías de volumen menor de 350 m³ no será mayor que 0,7 s.",
+  "referencia": "CTE, DB-HR, apartado 2.2"
  }
 ]

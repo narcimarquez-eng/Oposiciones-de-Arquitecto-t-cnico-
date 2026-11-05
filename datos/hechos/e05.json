@@ -382,5 +382,53 @@
   "correcta": 1,
   "explicacion": "El pandeo es la inestabilidad lateral de piezas esbeltas comprimidas.",
   "referencia": "Tema e05"
+ },
+ {
+  "pregunta": "¿Qué condiciones definen la clase de servicio 1 de la madera?",
+  "opciones": [
+   "Madera sumergida en agua",
+   "Temperatura de 20 ± 2 °C y humedad relativa que solo excede el 65 % unas pocas semanas al año",
+   "Exposición permanente a la intemperie",
+   "Humedad relativa siempre superior al 95 %"
+  ],
+  "correcta": 1,
+  "explicacion": "El DB-SE-M define así la clase de servicio 1.",
+  "referencia": "CTE, DB-SE-M, apartado 2.2.2"
+ },
+ {
+  "pregunta": "¿Qué clase de servicio corresponde a condiciones con contenido de humedad superior al de la clase 2?",
+  "opciones": [
+   "Clase de servicio 1",
+   "Clase de servicio 0",
+   "Clase de servicio 2",
+   "Clase de servicio 3"
+  ],
+  "correcta": 3,
+  "explicacion": "La clase de servicio 3 corresponde a condiciones que conducen a contenidos de humedad superiores.",
+  "referencia": "CTE, DB-SE-M, apartado 2.2.2"
+ },
+ {
+  "pregunta": "¿Qué designación tienen las clases resistentes de coníferas y chopo?",
+  "opciones": [
+   "D30 a D70",
+   "GL24h a GL36h",
+   "C14 a C50",
+   "S235 a S460"
+  ],
+  "correcta": 2,
+  "explicacion": "Para coníferas y chopo las clases resistentes van de C14 a C50.",
+  "referencia": "CTE, DB-SE-M, apartado 4.1"
+ },
+ {
+  "pregunta": "¿Qué designación tienen las clases de madera laminada encolada homogénea?",
+  "opciones": [
+   "C14 a C50",
+   "D30 a D70",
+   "GL24h, GL28h, GL32h y GL36h",
+   "HA-25 a HA-50"
+  ],
+  "correcta": 2,
+  "explicacion": "Las clases de madera laminada encolada homogénea son GL24h, GL28h, GL32h y GL36h.",
+  "referencia": "CTE, DB-SE-M, apartado 4.2"
  }
 ]

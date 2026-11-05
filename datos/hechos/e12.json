@@ -358,5 +358,53 @@
   "correcta": 1,
   "explicacion": "El yeso se emplea como enlucido en paramentos interiores.",
   "referencia": "Tema e12"
+ },
+ {
+  "pregunta": "¿Qué clase de resbaladicidad corresponde a un pavimento con Rd > 45?",
+  "opciones": [
+   "Clase 3",
+   "Clase 0",
+   "Clase 1",
+   "Clase 2"
+  ],
+  "correcta": 0,
+  "explicacion": "Rd ≤ 15 clase 0; 15 < Rd ≤ 35 clase 1; 35 < Rd ≤ 45 clase 2; Rd > 45 clase 3.",
+  "referencia": "CTE, DB-SUA 1, tabla 1.1"
+ },
+ {
+  "pregunta": "¿Qué clase de resbaladicidad corresponde a un pavimento con 15 < Rd ≤ 35?",
+  "opciones": [
+   "Clase 1",
+   "Clase 0",
+   "Clase 2",
+   "Clase 3"
+  ],
+  "correcta": 0,
+  "explicacion": "Un pavimento con 15 < Rd ≤ 35 es de clase 1.",
+  "referencia": "CTE, DB-SUA 1, tabla 1.1"
+ },
+ {
+  "pregunta": "¿Qué resalto máximo pueden presentar las juntas del pavimento para limitar el riesgo de caídas?",
+  "opciones": [
+   "10 mm",
+   "4 mm",
+   "25 mm",
+   "50 mm"
+  ],
+  "correcta": 1,
+  "explicacion": "El suelo no tendrá juntas que presenten un resalto de más de 4 mm.",
+  "referencia": "CTE, DB-SUA 1, apartado 2"
+ },
+ {
+  "pregunta": "¿Con qué ensayo se obtiene el valor de resistencia al deslizamiento Rd?",
+  "opciones": [
+   "Con el ensayo del péndulo (valor PTV)",
+   "Con una prueba de carga",
+   "Con un ensayo de compresión",
+   "Con un ensayo acústico"
+  ],
+  "correcta": 0,
+  "explicacion": "El valor Rd es el valor PTV obtenido mediante el ensayo del péndulo.",
+  "referencia": "CTE, DB-SUA 1"
  }
 ]
