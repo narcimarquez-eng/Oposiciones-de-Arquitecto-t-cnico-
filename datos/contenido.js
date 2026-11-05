@@ -1363,8 +1363,18 @@ window.DATOS_ESTUDIO = {
    "url": "https://www.juntadeandalucia.es/boja/2022/232/BOJA22-232-00310-19728-01_00272914.pdf",
    "verificada": "parcial",
    "fecha_verificacion": "2026-11-05",
-   "notas": "Texto original publicado en el BOJA (no consolidado): pueden existir modificaciones posteriores no incorporadas. Comprobados, entre otros, los arts. 14, 20, 31, 34, 35, 88, 293, 294, 300, 302, 323, 324, 326, 328, 330 y 405.",
+   "notas": "Texto original publicado en el BOJA (no consolidado): pueden existir modificaciones posteriores no incorporadas. Comprobados, entre otros, los arts. 14, 20, 31, 34, 35, 88, 293, 294, 300, 302, 323, 324, 326, 328, 330 y 405. La Ley 5/2025 de Vivienda (disposición final cuarta) modifica los arts. 83 (reserva de vivienda protegida) y 195.4 (garantía de urbanización).",
    "pdf": "fuentes/boja/decreto-550-2022-reglamento-lista.pdf"
+  },
+  "DEC-AND-149-2006": {
+   "id": "DEC-AND-149-2006",
+   "nombre": "Reglamento de Viviendas Protegidas de la Comunidad Autónoma de Andalucía",
+   "referencia": "Decreto 149/2006, de 25 de julio (BOJA núm. 153, de 8 de agosto de 2006)",
+   "url": "https://www.juntadeandalucia.es/boja/2006/153/d2.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-05",
+   "notas": "Texto original de 2006, no consolidado. Modificado después, entre otras, por la Ley 5/2025 de Vivienda (disposición final tercera: arts. 12, 28, 35 y 36 unificados, 37 y 44). Desarrollaba la Ley 13/2005, derogada por la Ley 5/2025. Solo se han usado artículos no afectados por esas modificaciones (2, 3, 5, 6, 7, 10, 11 y 34).",
+   "pdf": "fuentes/boja/decreto-149-2006-reglamento-vivienda-protegida.pdf"
   }
  },
  "contenido": {
@@ -24832,6 +24842,10 @@ window.DATOS_ESTUDIO = {
     {
      "id": "LVA-5-2025",
      "rol": "Vivienda de Andalucía: concepto de vivienda protegida, calidad, destinatarios, promoción, calificación y régimen sancionador (arts. 26, 27, 55 a 66, 113 a 118)"
+    },
+    {
+     "id": "DEC-AND-149-2006",
+     "rol": "Reglamento de Viviendas Protegidas: concepto, promotores, destinatarios, superficies útil y construida, destino a residencia habitual y calificación provisional y definitiva (modificado por la Ley 5/2025)"
     }
    ],
    "test": [

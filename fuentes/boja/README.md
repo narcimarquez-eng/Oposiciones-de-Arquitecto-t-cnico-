@@ -54,3 +54,11 @@ Las normas solo publicadas en el BOJA (decretos y órdenes) no se pueden consult
   (el enlace de iberley aportado por el usuario bloquea las descargas automáticas).
 - Es el texto original, no un texto consolidado: si el Reglamento se ha modificado después, esas
   modificaciones no están incorporadas.
+
+## Decreto 149/2006 (Reglamento de Viviendas Protegidas de Andalucía)
+
+- `decreto-149-2006-reglamento-vivienda-protegida.pdf`: BOJA núm. 153, de 8 de agosto de 2006, descargado de
+  https://www.juntadeandalucia.es/boja/2006/153/d2.pdf (el enlace de iberley bloquea las descargas).
+- Texto original, no consolidado. La Ley 5/2025 de Vivienda modifica sus arts. 12, 28, 35-36, 37 y 44
+  (y deroga la Ley 13/2005 que desarrollaba); otras modificaciones posteriores pueden no estar incorporadas.
+  Las preguntas solo usan artículos no afectados por la Ley 5/2025.
