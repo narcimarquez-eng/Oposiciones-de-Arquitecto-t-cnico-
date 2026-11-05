@@ -1323,6 +1323,17 @@ window.DATOS_ESTUDIO = {
    "notas": "Texto consolidado descargado del BOE.",
    "boe_id": "BOE-A-2024-16885",
    "pdf": "leyes/BOE-A-2024-16885.pdf"
+  },
+  "RD-132-2010": {
+   "id": "RD-132-2010",
+   "nombre": "Requisitos mínimos de los centros que impartan el segundo ciclo de educación infantil, primaria y secundaria",
+   "referencia": "Real Decreto 132/2010, de 12 de febrero",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-4132",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-05",
+   "notas": "Texto consolidado descargado del BOE.",
+   "boe_id": "BOE-A-2010-4132",
+   "pdf": "leyes/BOE-A-2010-4132.pdf"
   }
  },
  "contenido": {
@@ -25097,6 +25108,10 @@ window.DATOS_ESTUDIO = {
     {
      "id": "CTE",
      "rol": "Exigencias básicas de aplicación general a los edificios públicos (arts. 8, 10 a 15)"
+    },
+    {
+     "id": "RD-132-2010",
+     "rol": "Requisitos mínimos de instalaciones de los centros docentes de infantil (segundo ciclo), primaria, ESO y bachillerato: edificio exclusivo, patio, biblioteca, aulas por puesto escolar y alumnos por unidad (arts. 3 a 16)"
     }
    ],
    "test": [

@@ -428,8 +428,8 @@
    "El Real Decreto 132/2010"
   ],
   "correcta": 3,
-  "explicacion": "El RD 132/2010 establece los requisitos mínimos de los centros docentes.",
-  "referencia": "RD 132/2010"
+  "explicacion": "El Real Decreto 132/2010, de 12 de febrero, establece los requisitos mínimos de los centros que imparten el segundo ciclo de infantil, primaria y secundaria.",
+  "referencia": "RD 132/2010, de 12 de febrero"
  },
  {
   "pregunta": "¿Qué espacio deportivo cubierto es habitual en los centros de educación primaria y secundaria?",
@@ -478,5 +478,221 @@
   "correcta": 2,
   "explicacion": "Las sedes judiciales diferencian los recorridos de público, profesionales y detenidos.",
   "referencia": "Tema e36"
+ },
+ {
+  "pregunta": "¿En qué tipo de edificios deben situarse con carácter general los centros docentes del RD 132/2010?",
+  "opciones": [
+   "En cualquier edificio de viviendas",
+   "En locales comerciales compartidos",
+   "En naves industriales",
+   "En edificios independientes destinados exclusivamente a uso escolar"
+  ],
+  "correcta": 3,
+  "explicacion": "Los centros deben situarse en edificios independientes de uso exclusivamente escolar, aunque sus instalaciones pueden usarse fuera del horario escolar para actividades educativas, culturales o deportivas.",
+  "referencia": "RD 132/2010, art. 3.2 a)"
+ },
+ {
+  "pregunta": "¿Qué requisito adicional tienen los centros que imparten el segundo ciclo de educación infantil respecto del acceso?",
+  "opciones": [
+   "Acceso por el garaje",
+   "Acceso compartido con secundaria obligatoriamente",
+   "Ningún requisito",
+   "Acceso independiente del resto de instalaciones"
+  ],
+  "correcta": 3,
+  "explicacion": "Los centros de segundo ciclo de infantil tendrán, además, acceso independiente del resto de instalaciones.",
+  "referencia": "RD 132/2010, art. 3.2 a)"
+ },
+ {
+  "pregunta": "¿Qué condiciones de ventilación e iluminación deben tener los espacios docentes?",
+  "opciones": [
+   "Solo iluminación artificial",
+   "Ventilación mecánica sin ventanas",
+   "Ventilación e iluminación natural y directa desde el exterior",
+   "Ninguna"
+  ],
+  "correcta": 2,
+  "explicacion": "Los espacios donde se desarrolla la práctica docente tendrán ventilación e iluminación natural y directa desde el exterior.",
+  "referencia": "RD 132/2010, art. 3.2 c)"
+ },
+ {
+  "pregunta": "¿Qué superficie mínima debe tener el patio de recreo de los centros de primaria, ESO o bachillerato?",
+  "opciones": [
+   "150 m²",
+   "900 m²",
+   "300 m²",
+   "2.000 m²"
+  ],
+  "correcta": 1,
+  "explicacion": "El patio de recreo, parcialmente cubierto y utilizable como pista polideportiva, no será inferior a 900 m².",
+  "referencia": "RD 132/2010, art. 3.3"
+ },
+ {
+  "pregunta": "¿Qué superficie mínima debe tener la biblioteca de un centro de educación primaria?",
+  "opciones": [
+   "75 m²",
+   "20 m²",
+   "150 m²",
+   "45 m²"
+  ],
+  "correcta": 3,
+  "explicacion": "La biblioteca tendrá como mínimo 45 m² en primaria y 75 m² en ESO o bachillerato.",
+  "referencia": "RD 132/2010, art. 3.3"
+ },
+ {
+  "pregunta": "¿Qué superficie mínima debe tener la biblioteca de un centro de ESO o bachillerato?",
+  "opciones": [
+   "45 m²",
+   "30 m²",
+   "75 m²",
+   "200 m²"
+  ],
+  "correcta": 2,
+  "explicacion": "La biblioteca de los centros de ESO o bachillerato tendrá como mínimo 75 m².",
+  "referencia": "RD 132/2010, art. 3.3"
+ },
+ {
+  "pregunta": "¿Cuántas unidades como mínimo debe tener un centro de segundo ciclo de educación infantil?",
+  "opciones": [
+   "Tres",
+   "Una",
+   "Seis",
+   "Doce"
+  ],
+  "correcta": 0,
+  "explicacion": "Los centros de segundo ciclo de infantil deben contar con un mínimo de tres unidades, salvo la disposición adicional tercera.",
+  "referencia": "RD 132/2010, art. 6.1"
+ },
+ {
+  "pregunta": "¿Qué superficie mínima por puesto escolar deben tener las aulas de segundo ciclo de educación infantil?",
+  "opciones": [
+   "2 m² por puesto escolar",
+   "1,5 m²",
+   "1 m²",
+   "4 m²"
+  ],
+  "correcta": 0,
+  "explicacion": "Cada aula tendrá un mínimo de 2 m² por puesto escolar.",
+  "referencia": "RD 132/2010, art. 6.2 a)"
+ },
+ {
+  "pregunta": "¿Qué superficie debe tener la sala polivalente de un centro de segundo ciclo de infantil?",
+  "opciones": [
+   "10 m²",
+   "30 m²",
+   "100 m²",
+   "900 m²"
+  ],
+  "correcta": 1,
+  "explicacion": "Estos centros deben contar con una sala polivalente de 30 m².",
+  "referencia": "RD 132/2010, art. 6.2 b)"
+ },
+ {
+  "pregunta": "¿Qué superficie mínima debe tener el patio de juegos de un centro de segundo ciclo de infantil?",
+  "opciones": [
+   "900 m² siempre",
+   "50 m² por unidad",
+   "150 m² por cada seis unidades o fracción",
+   "No se exige patio"
+  ],
+  "correcta": 2,
+  "explicacion": "El patio de juegos, de uso exclusivo, nunca será inferior a 150 m² por cada seis unidades o fracción.",
+  "referencia": "RD 132/2010, art. 6.2 c)"
+ },
+ {
+  "pregunta": "¿Cuántos alumnos por unidad como máximo admite el segundo ciclo de infantil según el RD 132/2010?",
+  "opciones": [
+   "20",
+   "30",
+   "35",
+   "25"
+  ],
+  "correcta": 3,
+  "explicacion": "Los centros de segundo ciclo de educación infantil tendrán como máximo 25 alumnos por unidad.",
+  "referencia": "RD 132/2010, art. 7"
+ },
+ {
+  "pregunta": "¿Qué superficie mínima por puesto escolar deben tener las aulas de educación primaria?",
+  "opciones": [
+   "2 m²",
+   "1 m²",
+   "3 m²",
+   "1,5 m² por puesto escolar"
+  ],
+  "correcta": 3,
+  "explicacion": "Las aulas de primaria tendrán un mínimo de 1,5 m² por puesto escolar.",
+  "referencia": "RD 132/2010, art. 10 a)"
+ },
+ {
+  "pregunta": "¿Cuántos espacios de desdoblamiento exige el RD 132/2010 en los centros de primaria?",
+  "opciones": [
+   "Uno por cada seis unidades",
+   "Uno por cada doce unidades",
+   "Uno por unidad",
+   "Ninguno"
+  ],
+  "correcta": 0,
+  "explicacion": "Primaria exige un espacio por cada seis unidades para desdoblamiento y otro para apoyo y refuerzo.",
+  "referencia": "RD 132/2010, art. 10 b)"
+ },
+ {
+  "pregunta": "¿Qué aulas específicas exige el RD 132/2010 en ESO por cada 12 unidades o fracción?",
+  "opciones": [
+   "Una piscina",
+   "Un salón de actos",
+   "Un aula taller de tecnología y dos aulas para música y educación plástica y visual",
+   "Un comedor"
+  ],
+  "correcta": 2,
+  "explicacion": "Por cada 12 unidades o fracción se exige un aula taller para tecnologías y dos aulas para música y plástica.",
+  "referencia": "RD 132/2010, art. 14 b)"
+ },
+ {
+  "pregunta": "¿Cuántos laboratorios de Ciencias Experimentales exige como mínimo el RD 132/2010 en ESO?",
+  "opciones": [
+   "Uno por cada 4 unidades",
+   "Ninguno",
+   "Tres siempre",
+   "Al menos uno por cada 12 unidades o fracción"
+  ],
+  "correcta": 3,
+  "explicacion": "Se exige al menos un laboratorio de Ciencias Experimentales por cada 12 unidades o fracción.",
+  "referencia": "RD 132/2010, art. 14 c)"
+ },
+ {
+  "pregunta": "¿Qué laboratorios exige la modalidad de Ciencias y Tecnología del bachillerato?",
+  "opciones": [
+   "Tres laboratorios diferenciados de Física, Química y Ciencias",
+   "Uno de Física",
+   "Ninguno",
+   "Uno de idiomas"
+  ],
+  "correcta": 0,
+  "explicacion": "La modalidad de Ciencias y Tecnología requiere tres laboratorios diferenciados, además de un aula de dibujo y otra de tecnología.",
+  "referencia": "RD 132/2010, art. 15.3 b)"
+ },
+ {
+  "pregunta": "¿Cuántos alumnos por unidad como máximo admite la ESO según el RD 132/2010?",
+  "opciones": [
+   "25",
+   "35",
+   "40",
+   "30"
+  ],
+  "correcta": 3,
+  "explicacion": "Los centros de secundaria tendrán como máximo 30 alumnos por unidad en ESO y 35 en bachillerato.",
+  "referencia": "RD 132/2010, art. 16"
+ },
+ {
+  "pregunta": "¿Cuántos alumnos por unidad como máximo admite el bachillerato según el RD 132/2010?",
+  "opciones": [
+   "25",
+   "30",
+   "40",
+   "35"
+  ],
+  "correcta": 3,
+  "explicacion": "El bachillerato admite como máximo 35 alumnos por unidad.",
+  "referencia": "RD 132/2010, art. 16"
  }
 ]
