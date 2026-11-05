@@ -358,5 +358,101 @@
   "correcta": 2,
   "explicacion": "Los elementos de la red de fibra óptica del edificio se sitúan en el registro principal óptico ubicado en el RITI o RITU.",
   "referencia": "RD 346/2011, anexo II"
+ },
+ {
+  "pregunta": "¿A qué se destina el circuito C1 de una vivienda?",
+  "opciones": [
+   "A la cocina y el horno",
+   "A alimentar los puntos de iluminación",
+   "A la lavadora",
+   "A los baños"
+  ],
+  "correcta": 1,
+  "explicacion": "El circuito C1 es el de distribución interna destinado a los puntos de iluminación.",
+  "referencia": "ITC-BT-25, apartado 2.3.1"
+ },
+ {
+  "pregunta": "¿A qué se destina el circuito C2 de una vivienda?",
+  "opciones": [
+   "A tomas de corriente de uso general y frigorífico",
+   "A la iluminación",
+   "Al horno",
+   "A la calefacción"
+  ],
+  "correcta": 0,
+  "explicacion": "El circuito C2 alimenta las tomas de corriente de uso general y el frigorífico.",
+  "referencia": "ITC-BT-25, apartado 2.3.1"
+ },
+ {
+  "pregunta": "¿A qué se destina el circuito C3 de una vivienda?",
+  "opciones": [
+   "A la iluminación",
+   "A los baños",
+   "A la lavadora",
+   "A la cocina y el horno"
+  ],
+  "correcta": 3,
+  "explicacion": "El circuito C3 alimenta la cocina y el horno.",
+  "referencia": "ITC-BT-25, apartado 2.3.1"
+ },
+ {
+  "pregunta": "¿A qué se destina el circuito C4 de una vivienda?",
+  "opciones": [
+   "A la iluminación",
+   "A las tomas de los baños",
+   "A la lavadora, el lavavajillas y el termo eléctrico",
+   "Al frigorífico"
+  ],
+  "correcta": 2,
+  "explicacion": "El circuito C4 alimenta la lavadora, el lavavajillas y el termo eléctrico.",
+  "referencia": "ITC-BT-25, apartado 2.3.1"
+ },
+ {
+  "pregunta": "¿A qué se destina el circuito C5 de una vivienda?",
+  "opciones": [
+   "A la iluminación",
+   "A las tomas de corriente de los cuartos de baño y de cocina",
+   "Al horno",
+   "A la calefacción eléctrica"
+  ],
+  "correcta": 1,
+  "explicacion": "El circuito C5 alimenta las tomas de corriente de los baños y las bases auxiliares de la cocina.",
+  "referencia": "ITC-BT-25, apartado 2.3.1"
+ },
+ {
+  "pregunta": "¿Cuándo se añade un circuito C6 adicional del tipo C1?",
+  "opciones": [
+   "Por cada 5 puntos de luz",
+   "Por cada 30 puntos de luz",
+   "Por cada 100 m²",
+   "Nunca"
+  ],
+  "correcta": 1,
+  "explicacion": "En electrificación elevada se dispone un circuito C6 adicional del tipo C1 por cada 30 puntos de luz.",
+  "referencia": "ITC-BT-25, apartado 2.3.2"
+ },
+ {
+  "pregunta": "¿Qué sección mínima deben tener los cables de la derivación individual?",
+  "opciones": [
+   "1 mm²",
+   "6 mm² para polares, neutro y protección, y 1,5 mm² para el hilo de mando",
+   "50 mm² siempre",
+   "2,5 mm² para todos"
+  ],
+  "correcta": 1,
+  "explicacion": "La sección mínima es de 6 mm² para los cables polares, neutro y protección, y de 1,5 mm² para el hilo de mando, de color rojo.",
+  "referencia": "ITC-BT-15, apartado 3"
+ },
+ {
+  "pregunta": "¿Qué instalaciones unen la caja general de protección con las instalaciones interiores del usuario?",
+  "opciones": [
+   "Las instalaciones de enlace",
+   "Las redes de distribución de alta tensión",
+   "Las acometidas de gas",
+   "Las instalaciones de telecomunicación"
+  ],
+  "correcta": 0,
+  "explicacion": "Son instalaciones de enlace las que unen la caja general de protección con las instalaciones interiores o receptoras.",
+  "referencia": "ITC-BT-12, apartado 1"
  }
 ]

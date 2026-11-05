@@ -394,5 +394,89 @@
   "correcta": 0,
   "explicacion": "La tabla 2.10 fija un 30 % para teja mixta y plana monocanal.",
   "referencia": "CTE, DB-HS 1, tabla 2.10"
+ },
+ {
+  "pregunta": "¿De qué elementos puede constar el sistema de evacuación de aguas de una cubierta?",
+  "opciones": [
+   "Solo bajantes de ventilación",
+   "Solo arquetas de pie de bajante",
+   "Canalones, sumideros y rebosaderos",
+   "Sifones individuales"
+  ],
+  "correcta": 2,
+  "explicacion": "El sistema de evacuación de cubiertas puede constar de canalones, sumideros y rebosaderos dimensionados según el HS 5.",
+  "referencia": "CTE, DB-HS 1, apartado 2.4"
+ },
+ {
+  "pregunta": "¿Qué debe disponerse en el encuentro de la cubierta con un paramento vertical o una junta estructural?",
+  "opciones": [
+   "Un sumidero",
+   "Una junta de dilatación",
+   "Una teja de ventilación",
+   "Nada"
+  ],
+  "correcta": 1,
+  "explicacion": "En el encuentro con un paramento vertical o junta estructural debe disponerse una junta de dilatación.",
+  "referencia": "CTE, DB-HS 1, apartado 2.4.4"
+ },
+ {
+  "pregunta": "¿Qué capa protege la impermeabilización de una cubierta plana no transitable frente a la radiación y el viento?",
+  "opciones": [
+   "El falso techo",
+   "Una capa de protección de grava o similar",
+   "El aislamiento interior",
+   "El forjado"
+  ],
+  "correcta": 1,
+  "explicacion": "La capa de protección (grava, solado, etc.) protege la impermeabilización.",
+  "referencia": "Tema e07"
+ },
+ {
+  "pregunta": "¿Qué elemento de una cubierta inclinada forma la línea superior de encuentro de dos faldones?",
+  "opciones": [
+   "La limahoya",
+   "El alero",
+   "La cumbrera",
+   "El canalón"
+  ],
+  "correcta": 2,
+  "explicacion": "La cumbrera es la arista superior donde se encuentran dos faldones.",
+  "referencia": "Tema e07"
+ },
+ {
+  "pregunta": "¿Qué nombre recibe la línea de encuentro entrante de dos faldones donde se recoge el agua?",
+  "opciones": [
+   "Limatesa",
+   "Cumbrera",
+   "Limahoya",
+   "Alero"
+  ],
+  "correcta": 2,
+  "explicacion": "La limahoya es el encuentro cóncavo de dos faldones, que recoge el agua.",
+  "referencia": "Tema e07"
+ },
+ {
+  "pregunta": "¿Qué es una cubierta ajardinada o ecológica?",
+  "opciones": [
+   "Una cubierta de chapa pintada de verde",
+   "Una cubierta sin impermeabilizar",
+   "Un patio",
+   "Una cubierta con capa de sustrato y vegetación sobre la impermeabilización"
+  ],
+  "correcta": 3,
+  "explicacion": "Las cubiertas ajardinadas incorporan sustrato, capa drenante y vegetación sobre la impermeabilización protegida.",
+  "referencia": "Tema e07"
+ },
+ {
+  "pregunta": "¿Qué elemento sobresale de la fachada en el borde inferior del faldón para alejar el agua?",
+  "opciones": [
+   "El alero",
+   "La cumbrera",
+   "La limatesa",
+   "El peto"
+  ],
+  "correcta": 0,
+  "explicacion": "El alero vuela sobre la fachada y aleja el agua de lluvia del paramento.",
+  "referencia": "Tema e07"
  }
 ]

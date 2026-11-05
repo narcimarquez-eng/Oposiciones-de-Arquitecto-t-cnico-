@@ -406,5 +406,41 @@
   "correcta": 0,
   "explicacion": "Se instalará una estación de recarga por cada 40 plazas de aparcamiento, o fracción.",
   "referencia": "CTE, DB-HE 6"
+ },
+ {
+  "pregunta": "¿En función de qué se limita el consumo energético de los edificios según el HE 0?",
+  "opciones": [
+   "Del color de la fachada",
+   "Del número de propietarios",
+   "De la zona climática de invierno, el uso del edificio y, en existentes, el alcance de la intervención",
+   "Solo de la altura del edificio"
+  ],
+  "correcta": 2,
+  "explicacion": "El consumo energético se limita en función de la zona climática de invierno, el uso y el alcance de la intervención.",
+  "referencia": "CTE, DB-HE 0"
+ },
+ {
+  "pregunta": "¿Qué condición deben cumplir las condensaciones intersticiales en la envolvente térmica?",
+  "opciones": [
+   "Ninguna",
+   "Deben ser visibles",
+   "Deben evitarse con calefacción eléctrica",
+   "No producir una merma significativa de sus prestaciones térmicas ni riesgo de degradación"
+  ],
+  "correcta": 3,
+  "explicacion": "Las condensaciones intersticiales no deben producir una merma significativa en las prestaciones de la envolvente.",
+  "referencia": "CTE, DB-HE 1, apartado 3.2"
+ },
+ {
+  "pregunta": "¿Qué propiedad de la envolvente regula el DB-HE 1 además de la transmitancia?",
+  "opciones": [
+   "La resistencia al fuego",
+   "La resistencia a compresión",
+   "El color",
+   "La permeabilidad al aire"
+  ],
+  "correcta": 3,
+  "explicacion": "El DB-HE 1 limita la permeabilidad al aire de la envolvente térmica.",
+  "referencia": "CTE, DB-HE 1, apartado 3.1.3"
  }
 ]

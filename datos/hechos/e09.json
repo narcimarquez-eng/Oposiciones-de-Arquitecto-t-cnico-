@@ -406,5 +406,53 @@
   "correcta": 0,
   "explicacion": "La temperatura de ACS en los puntos de consumo debe estar comprendida entre 50 y 65 °C.",
   "referencia": "CTE, DB-HS 4, apartado 2.1.3"
+ },
+ {
+  "pregunta": "¿Qué elementos componen la instalación general de suministro de agua con contador general?",
+  "opciones": [
+   "Solo el grifo",
+   "Caldera y radiadores",
+   "Acometida, armario o arqueta del contador general, tubo de alimentación y distribuidor principal",
+   "Bajantes y colectores"
+  ],
+  "correcta": 2,
+  "explicacion": "La red con contador general se compone de acometida, instalación general con contador, tubo de alimentación, distribuidor principal y derivaciones.",
+  "referencia": "CTE, DB-HS 4, apartado 3.1"
+ },
+ {
+  "pregunta": "¿Qué elementos componen la acometida de agua?",
+  "opciones": [
+   "Llave de toma, tubo de acometida y llave de corte en el exterior de la propiedad",
+   "Contador individual y grifo",
+   "Depósito y bomba exclusivamente",
+   "Bajante y arqueta"
+  ],
+  "correcta": 0,
+  "explicacion": "La acometida dispone de llave de toma, tubo de acometida que enlaza con la llave de corte general y llave de corte exterior.",
+  "referencia": "CTE, DB-HS 4, apartado 3.2.1.1"
+ },
+ {
+  "pregunta": "¿Qué sistemas deben disponerse para evitar la inversión del sentido del flujo en la instalación de agua?",
+  "opciones": [
+   "Sifones",
+   "Rebosaderos",
+   "Sistemas antirretorno",
+   "Separadores de grasas"
+  ],
+  "correcta": 2,
+  "explicacion": "Se disponen sistemas antirretorno para evitar la inversión del sentido del flujo.",
+  "referencia": "CTE, DB-HS 4, apartado 2.1.2"
+ },
+ {
+  "pregunta": "¿Dónde deben instalarse el grupo de presión y los contadores?",
+  "opciones": [
+   "En la vía pública sin protección",
+   "Dentro de los dormitorios",
+   "En locales con dimensiones suficientes para su mantenimiento",
+   "En el falso techo de la cocina"
+  ],
+  "correcta": 2,
+  "explicacion": "El grupo de presión, los sistemas de tratamiento y los contadores deben instalarse en locales de dimensiones suficientes.",
+  "referencia": "CTE, DB-HS 4"
  }
 ]
