@@ -334,5 +334,29 @@
   "correcta": 0,
   "explicacion": "La ITC-BT-27 clasifica los volúmenes 0, 1, 2 y 3.",
   "referencia": "ITC-BT-27, apartado 2.1"
+ },
+ {
+  "pregunta": "¿Qué documentación se presenta al terminar la instalación de una ICT, además del certificado del director de obra cuando proceda?",
+  "opciones": [
+   "Una factura de la compañía eléctrica",
+   "Un boletín de instalación expedido por la empresa instaladora",
+   "Una licencia de apertura",
+   "Un certificado de empadronamiento"
+  ],
+  "correcta": 1,
+  "explicacion": "Se presenta un boletín de instalación de la empresa instaladora y, en su caso, un certificado del director de obra.",
+  "referencia": "RD 346/2011"
+ },
+ {
+  "pregunta": "¿Dónde se ubica el registro principal óptico de la ICT?",
+  "opciones": [
+   "En la azotea sin recinto",
+   "En cada vivienda",
+   "En el RITI o en el RITU",
+   "En la arqueta de entrada"
+  ],
+  "correcta": 2,
+  "explicacion": "Los elementos de la red de fibra óptica del edificio se sitúan en el registro principal óptico ubicado en el RITI o RITU.",
+  "referencia": "RD 346/2011, anexo II"
  }
 ]
