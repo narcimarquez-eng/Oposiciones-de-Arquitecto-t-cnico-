@@ -370,5 +370,65 @@
   "correcta": 1,
   "explicacion": "La iluminancia horizontal en el suelo debe ser, como mínimo, 1 lux a lo largo del eje central.",
   "referencia": "CTE, DB-SUA 4, apartado 2.3"
+ },
+ {
+  "pregunta": "¿Con qué periodicidad se inspeccionan los ascensores de edificios industriales o de pública concurrencia?",
+  "opciones": [
+   "Cada año",
+   "Cada dos años",
+   "Cada seis años",
+   "Cada diez años"
+  ],
+  "correcta": 1,
+  "explicacion": "Los ascensores en edificios de uso industrial o de pública concurrencia se inspeccionan cada dos años.",
+  "referencia": "RD 355/2024, ITC AEM 1"
+ },
+ {
+  "pregunta": "¿Con qué periodicidad se inspeccionan los ascensores de edificios de más de veinte viviendas o más de cuatro plantas servidas?",
+  "opciones": [
+   "Cada dos años",
+   "Cada cuatro años",
+   "Cada seis años",
+   "Cada mes"
+  ],
+  "correcta": 1,
+  "explicacion": "Se inspeccionan cada cuatro años.",
+  "referencia": "RD 355/2024, ITC AEM 1"
+ },
+ {
+  "pregunta": "¿Con qué periodicidad se inspeccionan los ascensores no incluidos en los casos anteriores?",
+  "opciones": [
+   "Cada seis años",
+   "Cada dos años",
+   "Cada cuatro años",
+   "Cada quince años"
+  ],
+  "correcta": 0,
+  "explicacion": "El resto de ascensores se inspecciona cada seis años.",
+  "referencia": "RD 355/2024, ITC AEM 1"
+ },
+ {
+  "pregunta": "¿Durante cuánto tiempo debe conservar el titular la documentación de mantenimiento de las instalaciones de protección contra incendios?",
+  "opciones": [
+   "Al menos cinco años",
+   "Un mes",
+   "Seis meses",
+   "No debe conservarla"
+  ],
+  "correcta": 0,
+  "explicacion": "El titular debe conservar al menos durante cinco años la documentación de reparación y mantenimiento.",
+  "referencia": "RD 513/2017 (RIPCI)"
+ },
+ {
+  "pregunta": "¿Quién realiza las operaciones de mantenimiento de la tabla I del RIPCI con periodicidad de tres y seis meses?",
+  "opciones": [
+   "La Inspección de Trabajo",
+   "El ayuntamiento",
+   "El personal del usuario o titular de la instalación",
+   "El fabricante obligatoriamente"
+  ],
+  "correcta": 2,
+  "explicacion": "Las operaciones trimestrales y semestrales pueden realizarse por el personal del usuario o titular.",
+  "referencia": "RD 513/2017, anexo II"
  }
 ]

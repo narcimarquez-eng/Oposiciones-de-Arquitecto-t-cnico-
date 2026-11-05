@@ -358,5 +358,41 @@
   "correcta": 0,
   "explicacion": "Las fórmulas recogen los componentes de coste como mano de obra y materiales.",
   "referencia": "RD 1359/2011"
+ },
+ {
+  "pregunta": "¿Qué condiciones se exigen para que proceda la revisión de precios?",
+  "opciones": [
+   "Solo haber firmado el contrato",
+   "Que lo pida un vecino",
+   "Que haya pasado un mes",
+   "Haber ejecutado al menos el 20 % del importe y transcurrido dos años desde la formalización"
+  ],
+  "correcta": 3,
+  "explicacion": "La revisión procede cuando se ha ejecutado al menos el 20 % del importe y han transcurrido dos años desde la formalización.",
+  "referencia": "LCSP, art. 103.5"
+ },
+ {
+  "pregunta": "¿Qué índices se aplican en la revisión cuando la demora es imputable al contratista?",
+  "opciones": [
+   "Siempre los más altos",
+   "Ninguno",
+   "Los del año de la licitación duplicados",
+   "Los del período en que debió ejecutarse o los reales, el que resulte inferior"
+  ],
+  "correcta": 3,
+  "explicacion": "Si la demora es imputable al contratista se aplican los índices que resulten inferiores.",
+  "referencia": "LCSP, art. 104"
+ },
+ {
+  "pregunta": "¿Cómo se abona el importe de la revisión de precios?",
+  "opciones": [
+   "En efectivo al final de cada día",
+   "No se abona nunca",
+   "En las certificaciones o pagos parciales, o en la liquidación",
+   "Mediante un contrato nuevo"
+  ],
+  "correcta": 2,
+  "explicacion": "El importe de las revisiones se hace efectivo mediante el abono o descuento en los pagos parciales o en la liquidación.",
+  "referencia": "LCSP, art. 105"
  }
 ]

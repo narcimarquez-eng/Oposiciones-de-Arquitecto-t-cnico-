@@ -298,5 +298,41 @@
   "correcta": 0,
   "explicacion": "Las ICT emplean cables de fibra óptica o coaxial para la distribución de señales.",
   "referencia": "RD 346/2011"
+ },
+ {
+  "pregunta": "¿Qué potencia mínima debe preverse en una vivienda de electrificación básica?",
+  "opciones": [
+   "3.450 W",
+   "5.750 W a 230 V",
+   "9.200 W",
+   "15.000 W"
+  ],
+  "correcta": 1,
+  "explicacion": "Para nuevas construcciones la potencia a prever no será inferior a 5.750 W a 230 V en cada vivienda.",
+  "referencia": "ITC-BT-10, apartado 2.2.1"
+ },
+ {
+  "pregunta": "¿Qué potencia mínima debe preverse en una vivienda de electrificación elevada?",
+  "opciones": [
+   "5.750 W",
+   "9.200 W",
+   "2.300 W",
+   "4.600 W"
+  ],
+  "correcta": 1,
+  "explicacion": "En viviendas con grado de electrificación elevada la potencia a prever no será inferior a 9.200 W.",
+  "referencia": "ITC-BT-10, apartado 2.2.1"
+ },
+ {
+  "pregunta": "¿En cuántos volúmenes clasifica la ITC-BT-27 los locales que contienen bañera o ducha?",
+  "opciones": [
+   "Cuatro: volúmenes 0, 1, 2 y 3",
+   "Dos",
+   "Seis",
+   "Ninguno"
+  ],
+  "correcta": 0,
+  "explicacion": "La ITC-BT-27 clasifica los volúmenes 0, 1, 2 y 3.",
+  "referencia": "ITC-BT-27, apartado 2.1"
  }
 ]
