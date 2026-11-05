@@ -46,3 +46,11 @@ identificador BOE, y se volvieron a descargar sus textos consolidados para compa
 - Resto de textos consolidados: sin cambios respecto a los PDF del repositorio.
 
 Las normas solo publicadas en el BOJA (decretos y órdenes) no se pueden consultar por esta vía.
+
+## Decreto 550/2022 (Reglamento General de la LISTA)
+
+- `decreto-550-2022-reglamento-lista.pdf`: BOJA núm. 232, de 2 de diciembre de 2022, descargado de
+  https://www.juntadeandalucia.es/boja/2022/232/BOJA22-232-00310-19728-01_00272914.pdf
+  (el enlace de iberley aportado por el usuario bloquea las descargas automáticas).
+- Es el texto original, no un texto consolidado: si el Reglamento se ha modificado después, esas
+  modificaciones no están incorporadas.

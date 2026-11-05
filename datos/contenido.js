@@ -1355,6 +1355,16 @@ window.DATOS_ESTUDIO = {
    "notas": "Texto consolidado del BOE. Sustituye a la Ley 14/2007 desde el 7 de abril de 2027.",
    "boe_id": "BOE-A-2026-9798",
    "pdf": "leyes/BOE-A-2026-9798.pdf"
+  },
+  "DEC-AND-550-2022": {
+   "id": "DEC-AND-550-2022",
+   "nombre": "Reglamento General de la Ley de impulso para la sostenibilidad del territorio de Andalucía",
+   "referencia": "Decreto 550/2022, de 29 de noviembre (BOJA núm. 232, de 2 de diciembre de 2022)",
+   "url": "https://www.juntadeandalucia.es/boja/2022/232/BOJA22-232-00310-19728-01_00272914.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-05",
+   "notas": "Texto original publicado en el BOJA (no consolidado): pueden existir modificaciones posteriores no incorporadas. Comprobados, entre otros, los arts. 14, 20, 31, 34, 35, 88, 293, 294, 300, 302, 323, 324, 326, 328, 330 y 405.",
+   "pdf": "fuentes/boja/decreto-550-2022-reglamento-lista.pdf"
   }
  },
  "contenido": {
@@ -24512,6 +24522,10 @@ window.DATOS_ESTUDIO = {
     {
      "id": "LEF",
      "rol": "Procedimiento expropiatorio y justiprecio a la fecha de iniciación del expediente (art. 36)"
+    },
+    {
+     "id": "DEC-AND-550-2022",
+     "rol": "Reglamento General de la LISTA: suelo rústico y actuaciones extraordinarias, instrumentos de ordenación, licencias y declaración responsable, inspección técnica de edificios, ruina y asimilado a fuera de ordenación"
     }
    ],
    "test": [
