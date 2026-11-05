@@ -370,5 +370,65 @@
   "correcta": 2,
   "explicacion": "La documentación de la obra ejecutada incluye las instrucciones de uso y mantenimiento del edificio terminado.",
   "referencia": "CTE, anejo II"
+ },
+ {
+  "pregunta": "¿Qué tipo de mantenimiento se basa en la inspección del estado para anticipar fallos?",
+  "opciones": [
+   "Mantenimiento correctivo",
+   "Mantenimiento predictivo",
+   "Mantenimiento de urgencia",
+   "Mantenimiento cosmético"
+  ],
+  "correcta": 1,
+  "explicacion": "El mantenimiento predictivo vigila el estado de los elementos para intervenir antes del fallo.",
+  "referencia": "Tema e19"
+ },
+ {
+  "pregunta": "¿Qué deben conservar los propietarios en el Libro del Edificio?",
+  "opciones": [
+   "Las facturas del supermercado",
+   "Las actas electorales",
+   "La documentación de la obra ejecutada y las instrucciones de uso y mantenimiento",
+   "Nada"
+  ],
+  "correcta": 2,
+  "explicacion": "El Libro del Edificio reúne la documentación de la obra y las instrucciones de uso y mantenimiento.",
+  "referencia": "LOE, art. 7"
+ },
+ {
+  "pregunta": "¿Qué deber corresponde a los propietarios según la LOE?",
+  "opciones": [
+   "Demoler el edificio a los 50 años",
+   "Conservar en buen estado la edificación mediante un adecuado uso y mantenimiento",
+   "Ninguno",
+   "Pagar la licencia cada año"
+  ],
+  "correcta": 1,
+  "explicacion": "Son obligaciones de los propietarios conservar en buen estado la edificación mediante un adecuado uso y mantenimiento.",
+  "referencia": "LOE, art. 16.1"
+ },
+ {
+  "pregunta": "¿Qué deber corresponde a los usuarios según la LOE?",
+  "opciones": [
+   "Utilizar adecuadamente los edificios conforme a las instrucciones de uso y mantenimiento",
+   "Reformar sin licencia",
+   "Ninguno",
+   "Elegir al constructor"
+  ],
+  "correcta": 0,
+  "explicacion": "Los usuarios deben utilizar adecuadamente los edificios de acuerdo con las instrucciones de uso y mantenimiento.",
+  "referencia": "LOE, art. 16.2"
+ },
+ {
+  "pregunta": "¿Qué documento del CTE establece la obligación de mantener el edificio conforme al plan de mantenimiento?",
+  "opciones": [
+   "La LCSP",
+   "La Parte I del CTE, en sus condiciones del edificio",
+   "El Código Penal",
+   "El RITE exclusivamente"
+  ],
+  "correcta": 1,
+  "explicacion": "El CTE dispone que los edificios se conserven con el plan de mantenimiento recogido en el Libro del Edificio.",
+  "referencia": "CTE, art. 8"
  }
 ]

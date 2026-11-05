@@ -358,5 +358,125 @@
   "correcta": 0,
   "explicacion": "El dintel es el elemento horizontal que salva un hueco apoyándose en sus extremos.",
   "referencia": "Tema e06"
+ },
+ {
+  "pregunta": "¿Qué elemento horizontal de una fábrica recibe el nombre de tendel?",
+  "opciones": [
+   "La junta vertical entre piezas",
+   "La pieza de remate superior",
+   "El dintel",
+   "La junta horizontal de mortero entre hiladas"
+  ],
+  "correcta": 3,
+  "explicacion": "El tendel es la junta horizontal; la llaga es la junta vertical.",
+  "referencia": "CTE, DB-SE-F"
+ },
+ {
+  "pregunta": "¿Cómo se llama la junta vertical entre piezas de una fábrica?",
+  "opciones": [
+   "Llaga",
+   "Tendel",
+   "Hilada",
+   "Aparejo"
+  ],
+  "correcta": 0,
+  "explicacion": "La llaga es la junta vertical entre piezas contiguas de una misma hilada.",
+  "referencia": "CTE, DB-SE-F"
+ },
+ {
+  "pregunta": "¿Qué se denomina aparejo en una fábrica de ladrillo?",
+  "opciones": [
+   "El mortero de agarre",
+   "La armadura de tendel",
+   "La disposición o forma de trabar las piezas",
+   "El revestimiento exterior"
+  ],
+  "correcta": 2,
+  "explicacion": "El aparejo es la ley de traba o disposición de las piezas en el muro.",
+  "referencia": "Tema e06"
+ },
+ {
+  "pregunta": "¿Qué aparejo de ladrillo coloca todas las piezas a soga?",
+  "opciones": [
+   "Aparejo a tizón",
+   "Aparejo a soga",
+   "Aparejo flamenco",
+   "Aparejo inglés"
+  ],
+  "correcta": 1,
+  "explicacion": "En el aparejo a soga las piezas se colocan con su cara mayor paralela al paramento.",
+  "referencia": "Tema e06"
+ },
+ {
+  "pregunta": "¿Qué elemento se dispone en los muros de fábrica para absorber dilataciones y retracciones?",
+  "opciones": [
+   "Los dinteles",
+   "Las impostas",
+   "Las albardillas",
+   "Las juntas de movimiento"
+  ],
+  "correcta": 3,
+  "explicacion": "Las juntas de movimiento limitan las fisuras por deformaciones térmicas y de retracción.",
+  "referencia": "CTE, DB-SE-F, apartado 2.2"
+ },
+ {
+  "pregunta": "¿Qué tipo de bóveda se genera por traslación de un arco de medio punto?",
+  "opciones": [
+   "Bóveda de arista",
+   "Cúpula",
+   "Bóveda de cañón",
+   "Bóveda de crucería"
+  ],
+  "correcta": 2,
+  "explicacion": "La bóveda de cañón resulta de desplazar un arco a lo largo de un eje.",
+  "referencia": "Tema e06"
+ },
+ {
+  "pregunta": "¿Qué bóveda resulta del cruce de dos bóvedas de cañón?",
+  "opciones": [
+   "Bóveda de arista",
+   "Bóveda de cañón simple",
+   "Cúpula sobre pechinas",
+   "Bóveda tabicada de un solo tablero"
+  ],
+  "correcta": 0,
+  "explicacion": "La bóveda de arista se forma por la intersección de dos cañones.",
+  "referencia": "Tema e06"
+ },
+ {
+  "pregunta": "¿Qué bóveda tradicional se construye con ladrillos colocados de plano unidos con yeso o mortero rápido?",
+  "opciones": [
+   "La bóveda tabicada",
+   "La bóveda de sillería",
+   "La bóveda de hormigón armado",
+   "La cúpula de vidrio"
+  ],
+  "correcta": 0,
+  "explicacion": "La bóveda tabicada se ejecuta con ladrillos de plano tomados con yeso.",
+  "referencia": "Tema e06"
+ },
+ {
+  "pregunta": "¿Qué pieza central cierra un arco de dovelas?",
+  "opciones": [
+   "El salmer",
+   "La clave",
+   "La imposta",
+   "El riñón"
+  ],
+  "correcta": 1,
+  "explicacion": "La clave es la dovela central que cierra el arco.",
+  "referencia": "Tema e06"
+ },
+ {
+  "pregunta": "¿Qué se llama empuje en un arco?",
+  "opciones": [
+   "Su peso propio vertical exclusivamente",
+   "La flecha del arco",
+   "El ancho del vano",
+   "La componente horizontal de las fuerzas que transmite a sus apoyos"
+  ],
+  "correcta": 3,
+  "explicacion": "Los arcos transmiten empujes horizontales que deben contrarrestarse con estribos o tirantes.",
+  "referencia": "Tema e06"
  }
 ]

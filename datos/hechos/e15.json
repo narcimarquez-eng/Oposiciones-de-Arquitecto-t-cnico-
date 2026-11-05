@@ -370,5 +370,89 @@
   "correcta": 0,
   "explicacion": "El límite del deber legal de conservación es la mitad del valor actual de construcción de un inmueble de nueva planta equivalente.",
   "referencia": "RDL 7/2015 (TRLS), art. 15"
+ },
+ {
+  "pregunta": "¿Se aplica el CTE a las intervenciones en edificios existentes?",
+  "opciones": [
+   "No, nunca",
+   "Solo a los edificios públicos",
+   "Solo si el edificio tiene menos de 10 años",
+   "Sí, justificando su cumplimiento en el proyecto o memoria"
+  ],
+  "correcta": 3,
+  "explicacion": "El CTE se aplica también a intervenciones en edificios existentes, justificándolo en proyecto o memoria suscrita por técnico competente.",
+  "referencia": "CTE, art. 2.3"
+ },
+ {
+  "pregunta": "¿Qué ocurre cuando la aplicación del CTE en un edificio existente no es urbanística, técnica o económicamente viable?",
+  "opciones": [
+   "Pueden aplicarse soluciones que permitan el mayor grado posible de adecuación, justificándolo",
+   "Se prohíbe la obra",
+   "Se ignora el CTE sin justificación",
+   "Se demuele el edificio"
+  ],
+  "correcta": 0,
+  "explicacion": "Si no es viable o es incompatible con la protección del edificio, se aplican soluciones que permitan el mayor grado de adecuación efectiva, justificándolo.",
+  "referencia": "CTE, art. 2.3"
+ },
+ {
+  "pregunta": "¿Qué técnica de recalce transmite cargas a estratos más profundos mediante pilotes de pequeño diámetro?",
+  "opciones": [
+   "Las zapatas corridas superficiales",
+   "Los micropilotes",
+   "Las soleras",
+   "Los tabiques"
+  ],
+  "correcta": 1,
+  "explicacion": "Los micropilotes se emplean habitualmente en recalces de cimentaciones existentes.",
+  "referencia": "Tema e15"
+ },
+ {
+  "pregunta": "¿Qué técnica de refuerzo estructural adhiere láminas de fibra de carbono a vigas o pilares?",
+  "opciones": [
+   "El refuerzo con materiales compuestos (FRP)",
+   "El enlucido de yeso",
+   "La pintura intumescente decorativa",
+   "El alicatado"
+  ],
+  "correcta": 0,
+  "explicacion": "Las láminas de fibra de carbono (FRP) aumentan la capacidad resistente de elementos existentes.",
+  "referencia": "Tema e15"
+ },
+ {
+  "pregunta": "¿Qué técnica refuerza un pilar de hormigón aumentando su sección con hormigón y armadura nuevos?",
+  "opciones": [
+   "El recrecido o encamisado de hormigón",
+   "El picado del revestimiento",
+   "La impermeabilización",
+   "El desbroce"
+  ],
+  "correcta": 0,
+  "explicacion": "El encamisado o recrecido aumenta la sección y capacidad del pilar.",
+  "referencia": "Tema e15"
+ },
+ {
+  "pregunta": "¿Qué estudio documenta las fases constructivas y transformaciones históricas de un edificio antes de intervenir?",
+  "opciones": [
+   "El estudio de tráfico",
+   "El estudio de mercado",
+   "El plan de marketing",
+   "El estudio histórico-constructivo"
+  ],
+  "correcta": 3,
+  "explicacion": "El estudio histórico-constructivo analiza la evolución del edificio y orienta la intervención.",
+  "referencia": "Tema e15"
+ },
+ {
+  "pregunta": "¿Qué técnica de toma de datos genera una nube de puntos tridimensional del edificio existente?",
+  "opciones": [
+   "El escáner láser 3D",
+   "La cinta métrica exclusivamente",
+   "El croquis a mano alzada",
+   "El nivel de burbuja"
+  ],
+  "correcta": 0,
+  "explicacion": "El escáner láser 3D permite levantamientos precisos del estado actual.",
+  "referencia": "Tema e15"
  }
 ]
