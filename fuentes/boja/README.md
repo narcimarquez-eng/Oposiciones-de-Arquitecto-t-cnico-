@@ -25,3 +25,10 @@ fichero html. Cargando…»). No tienen título, ni artículos. Solo difieren en
 
 Con estos textos se han contrastado las preguntas de hechos que citan ambos decretos
 (e17, e21, e36, e37 y los demás). No se ha encontrado ninguna contradicción.
+
+## Orden de 24 de enero de 2003 (normas de diseño de edificios docentes)
+
+- `boja-2003-43-fasciculo-2.pdf`: BOJA núm. 43, de 5 de marzo de 2003, fascículo 2, descargado de
+  https://www.juntadeandalucia.es/boja/2003/43/fasciculo-2.pdf (el PDF aportado por el usuario solo contenía
+  la referencia del sumario: «Ver esta disposición en fascículo 2»).
+- `orden-24-enero-2003-diseno-centros-docentes.txt`: texto extraído desde el inicio de la Orden.

@@ -1334,6 +1334,16 @@ window.DATOS_ESTUDIO = {
    "notas": "Texto consolidado descargado del BOE.",
    "boe_id": "BOE-A-2010-4132",
    "pdf": "leyes/BOE-A-2010-4132.pdf"
+  },
+  "ORD-AND-24-01-2003": {
+   "id": "ORD-AND-24-01-2003",
+   "nombre": "Normas de diseño y constructivas para los edificios de uso docente",
+   "referencia": "Orden de 24 de enero de 2003, de la Consejería de Educación y Ciencia (BOJA núm. 43, de 5 de marzo de 2003)",
+   "url": "https://www.juntadeandalucia.es/boja/2003/43/fasciculo-2.pdf",
+   "verificada": "parcial",
+   "fecha_verificacion": "2026-11-05",
+   "notas": "Texto del BOJA núm. 43 de 2003, fascículo 2. Comprobadas las normas 11 a 48 del Título I (normas de diseño).",
+   "pdf": "fuentes/boja/boja-2003-43-fasciculo-2.pdf"
   }
  },
  "contenido": {
@@ -25112,6 +25122,10 @@ window.DATOS_ESTUDIO = {
     {
      "id": "RD-132-2010",
      "rol": "Requisitos mínimos de instalaciones de los centros docentes de infantil (segundo ciclo), primaria, ESO y bachillerato: edificio exclusivo, patio, biblioteca, aulas por puesto escolar y alumnos por unidad (arts. 3 a 16)"
+    },
+    {
+     "id": "ORD-AND-24-01-2003",
+     "rol": "Normas de diseño y constructivas de los centros docentes públicos andaluces: plantas, alturas libres, aulas, pasillos, escaleras, puertas, aseos y gimnasios (Título I, normas 1 a 48)"
     }
    ],
    "test": [
