@@ -346,5 +346,53 @@
   "correcta": 0,
   "explicacion": "Los servicios sociales figuran en la letra d del art. 62.",
   "referencia": "Decreto 293/2009, art. 62 d)"
+ },
+ {
+  "pregunta": "¿Qué superficie máxima tiene cada sector de incendio en uso Docente cuando el edificio tiene más de una planta?",
+  "opciones": [
+   "500 m²",
+   "2.500 m²",
+   "10.000 m²",
+   "4.000 m²"
+  ],
+  "correcta": 3,
+  "explicacion": "En uso Docente con más de una planta, la superficie de cada sector no debe exceder de 4.000 m².",
+  "referencia": "CTE, DB-SI 1, tabla 1.1"
+ },
+ {
+  "pregunta": "¿Qué tiempo de reverberación máximo se admite en aulas vacías de volumen inferior a 350 m³?",
+  "opciones": [
+   "1,5 s",
+   "3 s",
+   "0,7 s",
+   "0,05 s"
+  ],
+  "correcta": 2,
+  "explicacion": "El DB-HR limita a 0,7 s el tiempo de reverberación de aulas vacías de menos de 350 m³.",
+  "referencia": "CTE, DB-HR, apartado 2.2"
+ },
+ {
+  "pregunta": "¿Qué elemento adicional exige el DB-SUA en las escaleras de escuelas infantiles y centros de primaria?",
+  "opciones": [
+   "Un segundo pasamanos a menor altura",
+   "Una barandilla de cristal",
+   "Una alfombra",
+   "Un ascensor obligatorio en todo caso"
+  ],
+  "correcta": 0,
+  "explicacion": "En escuelas infantiles y centros de enseñanza primaria se dispone otro pasamanos a menor altura.",
+  "referencia": "CTE, DB-SUA 1, apartado 4.2.4"
+ },
+ {
+  "pregunta": "¿Qué edificios distintos de vivienda deben disponer de ascensor o rampa accesible?",
+  "opciones": [
+   "Ninguno",
+   "Solo los de más de 20 plantas",
+   "Solo los hospitales",
+   "Aquellos en que haya que salvar más de dos plantas o existan elementos accesibles en plantas sin entrada accesible"
+  ],
+  "correcta": 3,
+  "explicacion": "Los edificios de otros usos en esos casos dispondrán de ascensor accesible o rampa accesible.",
+  "referencia": "CTE, DB-SUA 9, apartado 1.1.2"
  }
 ]

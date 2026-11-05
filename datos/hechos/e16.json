@@ -358,5 +358,125 @@
   "correcta": 1,
   "explicacion": "La retracción plástica genera fisuras superficiales cuando el agua se evapora rápidamente.",
   "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué es una fisura, frente a una grieta?",
+  "opciones": [
+   "Una abertura de menor anchura que solo afecta generalmente a la superficie o al acabado",
+   "Una rotura que divide el elemento por completo",
+   "Una mancha de humedad",
+   "Un desprendimiento de pintura"
+  ],
+  "correcta": 0,
+  "explicacion": "Las fisuras son aberturas de pequeña anchura, frecuentemente superficiales; las grietas afectan a todo el espesor del elemento.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué patología se manifiesta como polvo o costra blanquecina sobre fábricas de ladrillo?",
+  "opciones": [
+   "Carbonatación",
+   "Oxidación del acero",
+   "Retracción hidráulica",
+   "Eflorescencia por cristalización de sales"
+  ],
+  "correcta": 3,
+  "explicacion": "Las eflorescencias se producen al cristalizar las sales solubles al evaporarse el agua.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué proceso reduce el pH del hormigón y despasiva las armaduras?",
+  "opciones": [
+   "La hidratación",
+   "El fraguado",
+   "La compactación",
+   "La carbonatación"
+  ],
+  "correcta": 3,
+  "explicacion": "El CO₂ atmosférico reacciona con el hidróxido cálcico y reduce la alcalinidad del hormigón.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué tratamiento se utiliza habitualmente contra la humedad por capilaridad en muros?",
+  "opciones": [
+   "Pintura plástica",
+   "Aumentar la calefacción",
+   "Barrera química por inyección o barrera física horizontal",
+   "Colocar un falso techo"
+  ],
+  "correcta": 2,
+  "explicacion": "Las barreras horizontales impiden el ascenso capilar del agua del terreno.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué humedad se debe a la condensación del vapor en el interior de un cerramiento?",
+  "opciones": [
+   "Condensación superficial",
+   "Humedad de obra",
+   "Condensación intersticial",
+   "Humedad accidental"
+  ],
+  "correcta": 2,
+  "explicacion": "La condensación intersticial se produce dentro del cerramiento cuando la temperatura baja del punto de rocío.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué medida reduce las condensaciones superficiales en paramentos interiores?",
+  "opciones": [
+   "Mejorar el aislamiento térmico y la ventilación",
+   "Cerrar todas las rejillas",
+   "Pintar con esmalte impermeable sin más",
+   "Retirar el aislamiento"
+  ],
+  "correcta": 0,
+  "explicacion": "Elevar la temperatura superficial y renovar el aire limita las condensaciones.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué fisuras aparecen típicamente en forma de arco en un muro por asiento de su zona central?",
+  "opciones": [
+   "Fisuras horizontales en la coronación",
+   "Fisuras en mapa sin orientación",
+   "Ninguna",
+   "Fisuras inclinadas convergentes hacia la zona que desciende"
+  ],
+  "correcta": 3,
+  "explicacion": "Los asientos diferenciales generan fisuras inclinadas que apuntan a la zona de mayor descenso.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué patología del hormigón produce un cuarteo en mapa por exceso de agua en la superficie?",
+  "opciones": [
+   "Retracción plástica o de secado superficial",
+   "Corrosión de armaduras",
+   "Asiento de cimentación",
+   "Ataque por sulfatos internos"
+  ],
+  "correcta": 0,
+  "explicacion": "La retracción superficial genera una red de fisuras finas en mapa.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué ensayo no destructivo estima la resistencia superficial del hormigón?",
+  "opciones": [
+   "La prueba de carga destructiva",
+   "El ensayo de tracción del acero",
+   "El índice de rebote con esclerómetro",
+   "La rotura de probetas de mortero"
+  ],
+  "correcta": 2,
+  "explicacion": "El esclerómetro mide el índice de rebote, relacionado con la dureza superficial.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué instrumento se utiliza para controlar la evolución de una grieta?",
+  "opciones": [
+   "Un termómetro",
+   "Un testigo o fisurómetro",
+   "Un nivel de burbuja",
+   "Un manómetro"
+  ],
+  "correcta": 1,
+  "explicacion": "Los testigos (de yeso o vidrio) y los fisurómetros permiten comprobar si la grieta está activa.",
+  "referencia": "Tema e16"
  }
 ]

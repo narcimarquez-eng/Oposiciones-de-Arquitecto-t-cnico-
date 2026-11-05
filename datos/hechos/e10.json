@@ -370,5 +370,89 @@
   "correcta": 0,
   "explicacion": "Cuando la potencia térmica nominal en generación de calor o frío sea mayor que 70 kW se requiere proyecto.",
   "referencia": "RITE, art. 15.1"
+ },
+ {
+  "pregunta": "¿Qué locales de una vivienda deben disponer de aberturas de extracción?",
+  "opciones": [
+   "Dormitorios",
+   "Salones",
+   "Aseos, cocinas y cuartos de baño",
+   "Pasillos"
+  ],
+  "correcta": 2,
+  "explicacion": "Los aseos, las cocinas y los cuartos de baño deben disponer de aberturas de extracción.",
+  "referencia": "CTE, DB-HS 3"
+ },
+ {
+  "pregunta": "¿Qué elementos se emplean como aberturas de admisión en las carpinterías?",
+  "opciones": [
+   "Rejillas de extracción de baño",
+   "Shunts",
+   "Aireadores o dispositivos de microventilación",
+   "Extractores de cocina"
+  ],
+  "correcta": 2,
+  "explicacion": "Como aberturas de admisión se disponen aireadores o aperturas fijas como los dispositivos de microventilación.",
+  "referencia": "CTE, DB-HS 3"
+ },
+ {
+  "pregunta": "¿Quién debe realizar el mantenimiento de las instalaciones térmicas según el RITE?",
+  "opciones": [
+   "El vecino más antiguo",
+   "El ayuntamiento",
+   "Una empresa mantenedora habilitada",
+   "El fabricante obligatoriamente"
+  ],
+  "correcta": 2,
+  "explicacion": "El titular debe encargar el mantenimiento a una empresa mantenedora habilitada.",
+  "referencia": "RITE, art. 25"
+ },
+ {
+  "pregunta": "¿Qué documento entrega la empresa instaladora con las instrucciones de seguridad, manejo y programas de funcionamiento de la instalación térmica?",
+  "opciones": [
+   "El Manual de Uso y Mantenimiento",
+   "El certificado de empadronamiento",
+   "El libro de órdenes de obra",
+   "La licencia de actividad"
+  ],
+  "correcta": 0,
+  "explicacion": "Se elabora un Manual de Uso y Mantenimiento con las instrucciones de seguridad, manejo y maniobra.",
+  "referencia": "RITE"
+ },
+ {
+  "pregunta": "¿Qué acredita a los profesionales para realizar instalaciones térmicas según el RITE?",
+  "opciones": [
+   "El título de bachiller",
+   "El permiso de conducir",
+   "Ninguna acreditación",
+   "El carné profesional en instalaciones térmicas de edificios"
+  ],
+  "correcta": 3,
+  "explicacion": "El RITE regula el carné profesional en instalaciones térmicas de edificios.",
+  "referencia": "RITE, art. 41"
+ },
+ {
+  "pregunta": "¿Qué locales de una vivienda deben disponer de aberturas de admisión de aire según el DB-HS 3?",
+  "opciones": [
+   "Aseos y baños",
+   "Cocinas",
+   "Comedores, dormitorios y salas de estar",
+   "Trasteros"
+  ],
+  "correcta": 2,
+  "explicacion": "Los comedores, dormitorios y salas de estar deben disponer de aberturas de admisión.",
+  "referencia": "CTE, DB-HS 3"
+ },
+ {
+  "pregunta": "¿Qué sistema adicional exige el DB-HS 3 en las cocinas?",
+  "opciones": [
+   "Una chimenea de leña",
+   "Un sistema específico de extracción mecánica para los vapores y contaminantes de la cocción",
+   "Una ventana fija",
+   "Ninguno"
+  ],
+  "correcta": 1,
+  "explicacion": "Las cocinas deben disponer de un sistema adicional específico de ventilación con extracción mecánica.",
+  "referencia": "CTE, DB-HS 3"
  }
 ]

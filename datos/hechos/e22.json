@@ -466,5 +466,17 @@
   "correcta": 2,
   "explicacion": "La cubierta tendrá REI 60 en una franja de 0,50 m medida desde el edificio colindante.",
   "referencia": "CTE, DB-SI 2"
+ },
+ {
+  "pregunta": "¿Cuándo se exigen al menos dos salidas de planta por la evacuación ascendente?",
+  "opciones": [
+   "Siempre que haya ascensor",
+   "Cuando hay menos de 10 personas",
+   "Cuando más de 50 personas precisan salvar en sentido ascendente una altura de evacuación mayor que 2 m",
+   "Nunca"
+  ],
+  "correcta": 2,
+  "explicacion": "El DB-SI 3 exige más de una salida de planta en esa situación.",
+  "referencia": "CTE, DB-SI 3, tabla 3.1"
  }
 ]

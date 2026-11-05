@@ -358,5 +358,41 @@
   "correcta": 3,
   "explicacion": "Las salas sanitarias requieren ventilación controlada para la calidad del aire.",
   "referencia": "CTE, DB-HS 3"
+ },
+ {
+  "pregunta": "¿Qué condiciones del DB-SI se aplican a los establecimientos sanitarios de carácter ambulatorio?",
+  "opciones": [
+   "Las del uso Administrativo",
+   "Las del uso Hospitalario",
+   "Las del uso Aparcamiento",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "A los usos sanitarios o asistenciales de carácter ambulatorio se les aplican las condiciones del uso Administrativo.",
+  "referencia": "CTE, DB-SI, terminología de usos"
+ },
+ {
+  "pregunta": "¿Qué deben estar compartimentadas en el uso Hospitalario según el DB-SI 1?",
+  "opciones": [
+   "Solo los aparcamientos",
+   "Las plantas con zonas de hospitalización o unidades especiales como quirófanos o UVI",
+   "Las cafeterías exclusivamente",
+   "Ninguna planta"
+  ],
+  "correcta": 1,
+  "explicacion": "Las plantas con zonas de hospitalización o unidades especiales deben estar compartimentadas en sectores.",
+  "referencia": "CTE, DB-SI 1, tabla 1.1"
+ },
+ {
+  "pregunta": "¿Qué zona prevé el DB-SI para la evacuación de personas con discapacidad?",
+  "opciones": [
+   "Un ascensor ordinario",
+   "Una terraza sin protección",
+   "La cubierta",
+   "Una zona de refugio o un sector de incendio alternativo"
+  ],
+  "correcta": 3,
+  "explicacion": "Los itinerarios accesibles para personas con discapacidad deben conducir a una zona de refugio o a un sector alternativo.",
+  "referencia": "CTE, DB-SI 3"
  }
 ]
