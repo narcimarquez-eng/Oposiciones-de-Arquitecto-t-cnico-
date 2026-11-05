@@ -394,5 +394,137 @@
   "correcta": 1,
   "explicacion": "Los miembros del Parlamento Europeo son elegidos por sufragio universal directo.",
   "referencia": "TUE, art. 14"
+ },
+ {
+  "pregunta": "¿Cuántos diputados puede tener como máximo el Parlamento Europeo, sin contar a su Presidente?",
+  "opciones": [
+   "500",
+   "750",
+   "1.000",
+   "350"
+  ],
+  "correcta": 1,
+  "explicacion": "El Parlamento Europeo no puede superar los setecientos cincuenta diputados, más el Presidente.",
+  "referencia": "TUE, art. 14.2"
+ },
+ {
+  "pregunta": "¿Cuántos escaños puede tener como máximo un Estado miembro en el Parlamento Europeo?",
+  "opciones": [
+   "50",
+   "120",
+   "72",
+   "96"
+  ],
+  "correcta": 3,
+  "explicacion": "Ningún Estado miembro tendrá más de noventa y seis escaños.",
+  "referencia": "TUE, art. 14.2"
+ },
+ {
+  "pregunta": "¿Cuál es el número mínimo de diputados por Estado miembro en el Parlamento Europeo?",
+  "opciones": [
+   "Uno",
+   "Seis",
+   "Diez",
+   "Quince"
+  ],
+  "correcta": 1,
+  "explicacion": "La representación es decrecientemente proporcional con un mínimo de seis diputados por Estado.",
+  "referencia": "TUE, art. 14.2"
+ },
+ {
+  "pregunta": "¿Por cuánto tiempo se elige a los diputados del Parlamento Europeo?",
+  "opciones": [
+   "Cinco años",
+   "Cuatro años",
+   "Seis años",
+   "Tres años"
+  ],
+  "correcta": 0,
+  "explicacion": "Los diputados al Parlamento Europeo se eligen por sufragio universal directo para un mandato de cinco años.",
+  "referencia": "TUE, art. 14.3"
+ },
+ {
+  "pregunta": "¿Cuánto dura el mandato del Presidente del Consejo Europeo?",
+  "opciones": [
+   "Cinco años",
+   "Seis meses rotatorios",
+   "Un año",
+   "Dos años y medio, renovable una vez"
+  ],
+  "correcta": 3,
+  "explicacion": "El Consejo Europeo elige a su Presidente por mayoría cualificada para dos años y medio, renovable una vez.",
+  "referencia": "TUE, art. 15.5"
+ },
+ {
+  "pregunta": "¿Cómo decide el Consejo sobre la adhesión de un nuevo Estado a la Unión?",
+  "opciones": [
+   "Por mayoría simple",
+   "Por mayoría cualificada",
+   "Por sorteo",
+   "Por unanimidad"
+  ],
+  "correcta": 3,
+  "explicacion": "El Consejo se pronuncia por unanimidad, previa consulta a la Comisión y aprobación del Parlamento Europeo.",
+  "referencia": "TUE, art. 49"
+ },
+ {
+  "pregunta": "¿Qué plazo se aplica a la retirada de un Estado miembro si no se alcanza un acuerdo?",
+  "opciones": [
+   "Seis meses",
+   "Diez años",
+   "Dos años desde la notificación, salvo prórroga",
+   "No existe plazo"
+  ],
+  "correcta": 2,
+  "explicacion": "Los Tratados dejan de aplicarse a los dos años de la notificación de retirada, salvo prórroga por unanimidad.",
+  "referencia": "TUE, art. 50.3"
+ },
+ {
+  "pregunta": "¿Qué cargo dirige la política exterior y de seguridad común de la Unión?",
+  "opciones": [
+   "El Presidente del Parlamento Europeo",
+   "El Alto Representante de la Unión para Asuntos Exteriores y Política de Seguridad",
+   "El Presidente del BCE",
+   "El Defensor del Pueblo Europeo"
+  ],
+  "correcta": 1,
+  "explicacion": "El Alto Representante dirige la política exterior y de seguridad común.",
+  "referencia": "TUE, art. 18"
+ },
+ {
+  "pregunta": "¿Cuál es el objetivo principal del Sistema Europeo de Bancos Centrales?",
+  "opciones": [
+   "Financiar a los Estados",
+   "Fijar los impuestos",
+   "Garantizar el pleno empleo como único fin",
+   "Mantener la estabilidad de precios"
+  ],
+  "correcta": 3,
+  "explicacion": "El objetivo principal del SEBC es mantener la estabilidad de precios.",
+  "referencia": "TFUE, art. 282"
+ },
+ {
+  "pregunta": "¿Cómo se compone el Tribunal de Cuentas Europeo?",
+  "opciones": [
+   "Por nueve miembros fijos",
+   "Por los ministros de Hacienda",
+   "Por diputados del Parlamento Europeo",
+   "Por un nacional de cada Estado miembro"
+  ],
+  "correcta": 3,
+  "explicacion": "El Tribunal de Cuentas está compuesto por un nacional de cada Estado miembro.",
+  "referencia": "TFUE, art. 285"
+ },
+ {
+  "pregunta": "¿Cómo se compone el Tribunal de Justicia de la Unión?",
+  "opciones": [
+   "Por quince jueces fijos",
+   "Por los presidentes de los tribunales supremos",
+   "Por diputados europeos",
+   "Por un juez por Estado miembro, asistido por abogados generales"
+  ],
+  "correcta": 3,
+  "explicacion": "El Tribunal de Justicia está compuesto por un juez por Estado miembro y asistido por abogados generales.",
+  "referencia": "TUE, art. 19.2"
  }
 ]

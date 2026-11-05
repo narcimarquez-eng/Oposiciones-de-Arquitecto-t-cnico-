@@ -346,5 +346,137 @@
   "correcta": 1,
   "explicacion": "El trámite de audiencia permite al interesado alegar y presentar documentos antes de resolver.",
   "referencia": "Ley 39/2015, art. 82"
+ },
+ {
+  "pregunta": "¿Qué días se excluyen del cómputo cuando los plazos se señalan por días?",
+  "opciones": [
+   "Sábados, domingos y festivos",
+   "Solo los domingos",
+   "Ninguno",
+   "Los lunes"
+  ],
+  "correcta": 0,
+  "explicacion": "Los plazos por días se entienden hábiles, excluyéndose sábados, domingos y festivos.",
+  "referencia": "LPAC, art. 30.2"
+ },
+ {
+  "pregunta": "¿Desde cuándo se computan los plazos fijados en meses o años?",
+  "opciones": [
+   "A partir del día siguiente a la notificación o publicación",
+   "Desde el mismo día",
+   "Desde el mes siguiente",
+   "Desde la firma del funcionario"
+  ],
+  "correcta": 0,
+  "explicacion": "El cómputo se inicia a partir del día siguiente a aquel en que tenga lugar la notificación o publicación.",
+  "referencia": "LPAC, art. 30.4"
+ },
+ {
+  "pregunta": "¿Cuánto puede ampliarse como máximo un plazo administrativo?",
+  "opciones": [
+   "Hasta el doble",
+   "Hasta un año",
+   "Hasta la mitad del plazo inicial",
+   "Sin límite"
+  ],
+  "correcta": 2,
+  "explicacion": "La ampliación de plazos no puede exceder de la mitad de los mismos.",
+  "referencia": "LPAC, art. 32.1"
+ },
+ {
+  "pregunta": "¿Qué efecto tiene la tramitación de urgencia sobre los plazos del procedimiento ordinario?",
+  "opciones": [
+   "Se duplican",
+   "Se suprimen",
+   "No varían",
+   "Se reducen a la mitad, salvo los de presentación de solicitudes y recursos"
+  ],
+  "correcta": 3,
+  "explicacion": "Por razones de interés público pueden reducirse los plazos a la mitad.",
+  "referencia": "LPAC, art. 33.1"
+ },
+ {
+  "pregunta": "¿Qué ocurre en los procedimientos de oficio con efectos desfavorables si vence el plazo sin resolución?",
+  "opciones": [
+   "Se entiende estimada la sanción",
+   "Se duplica la sanción",
+   "Se suspende indefinidamente",
+   "Se produce la caducidad"
+  ],
+  "correcta": 3,
+  "explicacion": "En los procedimientos sancionadores o de gravamen el vencimiento del plazo produce la caducidad.",
+  "referencia": "LPAC, art. 25.1 b)"
+ },
+ {
+  "pregunta": "¿Hasta cuándo pueden los interesados aducir alegaciones?",
+  "opciones": [
+   "Solo el primer día",
+   "Después de la resolución",
+   "Nunca",
+   "En cualquier momento anterior al trámite de audiencia"
+  ],
+  "correcta": 3,
+  "explicacion": "Los interesados pueden aducir alegaciones en cualquier momento anterior al trámite de audiencia.",
+  "referencia": "LPAC, art. 76.1"
+ },
+ {
+  "pregunta": "¿Qué carácter tienen los informes, salvo disposición expresa en contrario?",
+  "opciones": [
+   "Facultativos y no vinculantes",
+   "Obligatorios y vinculantes",
+   "Secretos",
+   "Judiciales"
+  ],
+  "correcta": 0,
+  "explicacion": "Salvo disposición en contrario, los informes son facultativos y no vinculantes.",
+  "referencia": "LPAC, art. 80.1"
+ },
+ {
+  "pregunta": "¿En qué plazo deben emitirse los informes, salvo otra disposición?",
+  "opciones": [
+   "Un mes",
+   "Tres meses",
+   "Dos días",
+   "Diez días"
+  ],
+  "correcta": 3,
+  "explicacion": "Los informes se emitirán en el plazo de diez días, salvo que una disposición fije otro.",
+  "referencia": "LPAC, art. 80.2"
+ },
+ {
+  "pregunta": "¿Qué plazo mínimo tiene el período de información pública?",
+  "opciones": [
+   "Cinco días",
+   "Tres meses",
+   "Veinte días",
+   "Un año"
+  ],
+  "correcta": 2,
+  "explicacion": "El plazo para formular alegaciones en información pública no puede ser inferior a veinte días.",
+  "referencia": "LPAC, art. 83.2"
+ },
+ {
+  "pregunta": "¿Qué formas de terminación del procedimiento prevé la LPAC además de la resolución?",
+  "opciones": [
+   "Solo la resolución",
+   "El sorteo",
+   "Desistimiento, renuncia, caducidad e imposibilidad material de continuarlo",
+   "La prescripción del funcionario"
+  ],
+  "correcta": 2,
+  "explicacion": "El art. 84 LPAC enumera la resolución, el desistimiento, la renuncia, la caducidad y la imposibilidad material.",
+  "referencia": "LPAC, art. 84"
+ },
+ {
+  "pregunta": "¿Quiénes están obligados a relacionarse electrónicamente con la Administración?",
+  "opciones": [
+   "Todas las personas físicas",
+   "Las personas jurídicas, entre otros sujetos",
+   "Solo los menores",
+   "Nadie"
+  ],
+  "correcta": 1,
+  "explicacion": "El art. 14.2 LPAC obliga, entre otros, a las personas jurídicas.",
+  "referencia": "LPAC, art. 14.2"
  }
 ]

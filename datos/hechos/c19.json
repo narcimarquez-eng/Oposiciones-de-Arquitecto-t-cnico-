@@ -180,18 +180,6 @@
   "referencia": "LGS, Ley 38/2003"
  },
  {
-  "pregunta": "¿Qué ley andaluza regula la Administración de la Junta de Andalucía?",
-  "opciones": [
-   "La Ley de la Administración de la Junta de Andalucía (LAJA)",
-   "La Ley de Expropiación Forzosa",
-   "La Ley General de Subvenciones",
-   "La Ley de Contratos del Sector Público"
-  ],
-  "correcta": 0,
-  "explicacion": "La LAJA regula la Administración de la Junta de Andalucía, también en materia de subvenciones.",
-  "referencia": "LAJA"
- },
- {
   "pregunta": "¿Qué plazo de prescripción tienen las infracciones y sanciones en subvenciones?",
   "opciones": [
    "Cuatro años",
@@ -372,30 +360,6 @@
   "referencia": "LGS, art. 59.1"
  },
  {
-  "pregunta": "¿Qué ley regula las subvenciones de ámbito estatal?",
-  "opciones": [
-   "Ley 38/2003, General de Subvenciones",
-   "Ley 47/2003, General Presupuestaria",
-   "Ley 9/2017, de Contratos",
-   "Ley 19/2013, de Transparencia"
-  ],
-  "correcta": 0,
-  "explicacion": "La Ley 38/2003, General de Subvenciones, regula el régimen jurídico de las subvenciones.",
-  "referencia": "Ley 38/2003 (LGS)"
- },
- {
-  "pregunta": "¿Cuál es el plazo general de prescripción según la LGS?",
-  "opciones": [
-   "Un año",
-   "Cuatro años",
-   "Diez años",
-   "Dos meses"
-  ],
-  "correcta": 1,
-  "explicacion": "La LGS fija con carácter general un plazo de prescripción de cuatro años.",
-  "referencia": "Ley 38/2003 (LGS), art. 39"
- },
- {
   "pregunta": "¿Qué principio exige que las subvenciones se concedan en régimen de competencia?",
   "opciones": [
    "Discrecionalidad absoluta",
@@ -442,5 +406,77 @@
   "correcta": 1,
   "explicacion": "Las subvenciones se rigen por el principio de publicidad, que exige difundir las convocatorias.",
   "referencia": "Ley 38/2003 (LGS), art. 8"
+ },
+ {
+  "pregunta": "¿En qué casos puede concederse directamente una subvención?",
+  "opciones": [
+   "Siempre que lo pida el beneficiario",
+   "Nunca",
+   "Solo a empresas extranjeras",
+   "Cuando esté prevista nominativamente, la imponga una ley o concurran razones acreditadas de interés público"
+  ],
+  "correcta": 3,
+  "explicacion": "El art. 22.2 LGS enumera los supuestos de concesión directa.",
+  "referencia": "LGS, art. 22.2"
+ },
+ {
+  "pregunta": "¿Qué efecto tiene el vencimiento del plazo sin notificar la resolución de concesión?",
+  "opciones": [
+   "Se entiende concedida",
+   "Se archiva y no cabe recurso",
+   "Se prorroga un año",
+   "Los interesados pueden entender desestimada su solicitud"
+  ],
+  "correcta": 3,
+  "explicacion": "El art. 25.5 LGS establece el silencio desestimatorio en la concesión de subvenciones.",
+  "referencia": "LGS, art. 25.5"
+ },
+ {
+  "pregunta": "¿Cuántas ofertas debe solicitar el beneficiario cuando el gasto supera la cuantía del contrato menor?",
+  "opciones": [
+   "Una",
+   "Diez",
+   "Ninguna",
+   "Tres ofertas de diferentes proveedores"
+  ],
+  "correcta": 3,
+  "explicacion": "El beneficiario debe solicitar como mínimo tres ofertas de diferentes proveedores.",
+  "referencia": "LGS, art. 31.3"
+ },
+ {
+  "pregunta": "¿Qué interés de demora se aplica, salvo otra previsión, al reintegro de subvenciones?",
+  "opciones": [
+   "El interés legal sin incremento",
+   "Un 50 % fijo",
+   "El interés legal del dinero incrementado en un 25 %",
+   "Ninguno"
+  ],
+  "correcta": 2,
+  "explicacion": "El interés de demora es el interés legal del dinero incrementado en un 25 por ciento, salvo que la Ley de Presupuestos establezca otro.",
+  "referencia": "LGS, art. 38.2"
+ },
+ {
+  "pregunta": "¿Con qué multa se sancionan las infracciones leves en materia de subvenciones?",
+  "opciones": [
+   "De 6.000 a 60.000 euros",
+   "Del tanto al triple",
+   "De 75 a 900 euros",
+   "De 1 a 10 euros"
+  ],
+  "correcta": 2,
+  "explicacion": "Las infracciones leves se sancionan con multa de 75 a 900 euros.",
+  "referencia": "LGS, art. 61.1"
+ },
+ {
+  "pregunta": "¿Con qué multa se sancionan las infracciones graves en materia de subvenciones?",
+  "opciones": [
+   "De 75 a 900 euros",
+   "Del tanto al quíntuplo",
+   "Multa pecuniaria proporcional del tanto al doble",
+   "Apercibimiento"
+  ],
+  "correcta": 2,
+  "explicacion": "Las infracciones graves se sancionan con multa proporcional del tanto al doble de la cantidad indebidamente obtenida.",
+  "referencia": "LGS, art. 62"
  }
 ]

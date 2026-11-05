@@ -252,30 +252,6 @@
   "referencia": "LEF, arts. 34 y 35"
  },
  {
-  "pregunta": "¿Qué norma regula con carácter general la expropiación forzosa en España?",
-  "opciones": [
-   "La Ley de Expropiación Forzosa de 1954",
-   "La Ley de Caza de 1970",
-   "El Código de Comercio",
-   "La Ley de Pesca"
-  ],
-  "correcta": 0,
-  "explicacion": "La LEF de 1954 es la norma general de expropiación forzosa.",
-  "referencia": "LEF"
- },
- {
-  "pregunta": "¿Qué puede hacer el propietario si el bien no se destina al fin que motivó la expropiación?",
-  "opciones": [
-   "Solicitar la reversión en un mes",
-   "Pedir el ascenso",
-   "Pedir una medalla",
-   "Nada"
-  ],
-  "correcta": 0,
-  "explicacion": "Puede solicitar la reversión en el plazo de un mes desde la notificación de la inejecución o desaparición de la obra.",
-  "referencia": "LEF, arts. 54 y 55"
- },
- {
   "pregunta": "¿Qué reconoce el art. 33.3 CE sobre la privación de bienes?",
   "opciones": [
    "Solo por causa justificada de utilidad pública o interés social, con indemnización",
@@ -288,18 +264,6 @@
   "referencia": "CE, art. 33.3"
  },
  {
-  "pregunta": "¿Qué ley regula la expropiación forzosa en España?",
-  "opciones": [
-   "Ley de Patrimonio de 2003",
-   "Ley de Expropiación Forzosa de 16 de diciembre de 1954",
-   "Ley de Suelo de 2015",
-   "Ley de Contratos del Sector Público"
-  ],
-  "correcta": 1,
-  "explicacion": "La Ley de Expropiación Forzosa de 16 de diciembre de 1954 regula la expropiación.",
-  "referencia": "LEF, 1954"
- },
- {
   "pregunta": "¿Qué es el justiprecio?",
   "opciones": [
    "La multa impuesta al propietario",
@@ -310,30 +274,6 @@
   "correcta": 2,
   "explicacion": "El justiprecio es la indemnización que la Administración paga al expropiado.",
   "referencia": "LEF"
- },
- {
-  "pregunta": "¿Qué derecho asiste al expropiado si el bien no se destina al fin que justificó la expropiación?",
-  "opciones": [
-   "El derecho de tanteo",
-   "El derecho de retracto",
-   "El derecho de superficie",
-   "El derecho de reversión"
-  ],
-  "correcta": 3,
-  "explicacion": "El derecho de reversión permite recuperar el bien si no se destina al fin previsto.",
-  "referencia": "LEF, arts. 54 a 58"
- },
- {
-  "pregunta": "¿Qué procedimiento permite a la Administración ocupar los bienes de forma inmediata?",
-  "opciones": [
-   "La tramitación de urgencia",
-   "La tramitación ordinaria sin plazo",
-   "La concertación privada",
-   "La subasta pública"
-  ],
-  "correcta": 0,
-  "explicacion": "Por la tramitación de urgencia, la Administración puede ocupar los bienes de forma inmediata.",
-  "referencia": "LEF, art. 52"
  },
  {
   "pregunta": "¿Quién puede ser beneficiario de una expropiación?",
@@ -358,5 +298,65 @@
   "correcta": 0,
   "explicacion": "La afectación vincula el bien a un uso o servicio público.",
   "referencia": "Tema c18"
+ },
+ {
+  "pregunta": "¿Con quién se entienden las actuaciones del expediente expropiatorio?",
+  "opciones": [
+   "Con el arrendatario exclusivamente",
+   "Con el propietario de la cosa o titular del derecho objeto de la expropiación",
+   "Con el alcalde",
+   "Con el notario"
+  ],
+  "correcta": 1,
+  "explicacion": "El art. 3 LEF dispone que las actuaciones se entienden con el propietario o titular del derecho.",
+  "referencia": "LEF, art. 3"
+ },
+ {
+  "pregunta": "¿Qué acuerdo concreta los bienes que es necesario ocupar para la finalidad expropiatoria?",
+  "opciones": [
+   "El acuerdo de necesidad de ocupación",
+   "El acta de recepción",
+   "La licencia de obras",
+   "El acuerdo de adjudicación"
+  ],
+  "correcta": 0,
+  "explicacion": "Declarada la utilidad pública, la Administración resuelve sobre la necesidad concreta de ocupar los bienes.",
+  "referencia": "LEF, art. 15"
+ },
+ {
+  "pregunta": "¿Qué porcentaje del justiprecio se abona como premio de afección?",
+  "opciones": [
+   "El 1 %",
+   "El 10 %",
+   "El 25 %",
+   "El 5 %"
+  ],
+  "correcta": 3,
+  "explicacion": "El art. 47 LEF fija el premio de afección en el cinco por ciento del justiprecio.",
+  "referencia": "LEF, art. 47"
+ },
+ {
+  "pregunta": "¿En qué plazo debe pagarse el justiprecio una vez determinado?",
+  "opciones": [
+   "En diez años",
+   "En un mes desde la sentencia",
+   "Sin plazo",
+   "En el plazo máximo de seis meses"
+  ],
+  "correcta": 3,
+  "explicacion": "El pago del justiprecio debe hacerse en el plazo máximo de seis meses.",
+  "referencia": "LEF, art. 48"
+ },
+ {
+  "pregunta": "¿Cuándo se devengan intereses por demora en la fijación del justiprecio?",
+  "opciones": [
+   "Si transcurren seis meses desde la iniciación del expediente sin determinarse el justiprecio",
+   "Desde el primer día",
+   "Al cabo de diez años",
+   "Nunca"
+  ],
+  "correcta": 0,
+  "explicacion": "El art. 56 LEF prevé intereses si pasan seis meses sin determinar el justiprecio por causa no imputable al expropiado.",
+  "referencia": "LEF, art. 56"
  }
 ]

@@ -276,30 +276,6 @@
   "referencia": "Art. 9.1 LRJSP"
  },
  {
-  "pregunta": "¿Es irrenunciable la competencia administrativa?",
-  "opciones": [
-   "Sí, debe ejercerse por el órgano que la tiene atribuida",
-   "No, puede renunciarse libremente",
-   "Solo si lo autoriza el Rey",
-   "Solo en materia tributaria"
-  ],
-  "correcta": 0,
-  "explicacion": "La competencia es irrenunciable y se ejerce por los órganos que la tienen atribuida como propia.",
-  "referencia": "Ley 40/2015, art. 8"
- },
- {
-  "pregunta": "¿Qué tipo de nulidad se produce cuando un acto lesiona derechos fundamentales?",
-  "opciones": [
-   "Anulabilidad",
-   "Nulidad de pleno derecho",
-   "Irregularidad no invalidante",
-   "Inexistencia por caducidad"
-  ],
-  "correcta": 1,
-  "explicacion": "Los actos que lesionan derechos fundamentales son nulos de pleno derecho.",
-  "referencia": "Ley 39/2015, art. 47.1"
- },
- {
   "pregunta": "¿Qué tipo de vicio determina la anulabilidad de un acto?",
   "opciones": [
    "La falta de firma en el registro",
@@ -336,27 +312,135 @@
   "referencia": "Ley 40/2015"
  },
  {
-  "pregunta": "¿Qué principio impide que un órgano abandone sus competencias en otro sin norma que lo permita?",
+  "pregunta": "¿Qué no puede delegarse en ningún caso según la LRJSP, entre otras materias?",
   "opciones": [
-   "Principio de oportunidad",
-   "Irrenunciabilidad de la competencia",
-   "Principio de publicidad",
-   "Principio de equivalencia"
-  ],
-  "correcta": 1,
-  "explicacion": "La competencia es irrenunciable, salvo delegación o avocación previstas en la ley.",
-  "referencia": "Ley 40/2015, art. 8"
- },
- {
-  "pregunta": "¿Qué es la avocación?",
-  "opciones": [
-   "Un superior asume una competencia atribuida a un inferior",
-   "Un inferior renuncia a su competencia",
-   "Un órgano cede su sede",
-   "Un particular ejerce funciones públicas"
+   "La resolución de recursos en el órgano que dictó el acto recurrido",
+   "La firma de oficios de trámite",
+   "La gestión de actividades materiales",
+   "La recepción de documentos"
   ],
   "correcta": 0,
-  "explicacion": "La avocación permite al superior asumir la competencia de su inferior en los casos previstos.",
-  "referencia": "Ley 40/2015"
+  "explicacion": "El art. 9.2 LRJSP impide delegar la resolución de recursos en los órganos que dictaron el acto recurrido.",
+  "referencia": "LRJSP, art. 9.2"
+ },
+ {
+  "pregunta": "¿Puede revocarse la delegación de competencias?",
+  "opciones": [
+   "No, es irrevocable",
+   "Solo al cabo de diez años",
+   "Sí, en cualquier momento por el órgano que la haya conferido",
+   "Solo por sentencia"
+  ],
+  "correcta": 2,
+  "explicacion": "La delegación es revocable en cualquier momento por el órgano que la confirió.",
+  "referencia": "LRJSP, art. 9.6"
+ },
+ {
+  "pregunta": "¿Qué puede encomendarse a otros órganos o entidades mediante encomienda de gestión?",
+  "opciones": [
+   "La titularidad de la competencia",
+   "Actividades de carácter material o técnico",
+   "La potestad sancionadora",
+   "La potestad legislativa"
+  ],
+  "correcta": 1,
+  "explicacion": "La encomienda de gestión tiene por objeto actividades de carácter material o técnico y no supone cesión de la titularidad.",
+  "referencia": "LRJSP, art. 11.1"
+ },
+ {
+  "pregunta": "¿Qué figura permite al titular de un órgano encargar a otro la firma de sus resoluciones sin alterar la competencia?",
+  "opciones": [
+   "La avocación",
+   "La delegación de firma",
+   "La encomienda de gestión",
+   "La desconcentración"
+  ],
+  "correcta": 1,
+  "explicacion": "La delegación de firma no altera la competencia del órgano delegante.",
+  "referencia": "LRJSP, art. 12"
+ },
+ {
+  "pregunta": "¿En qué casos opera la suplencia de los titulares de los órganos?",
+  "opciones": [
+   "Por decisión libre del inferior",
+   "En caso de vacante, ausencia o enfermedad",
+   "Solo en vacaciones",
+   "En caso de desacuerdo con el superior"
+  ],
+  "correcta": 1,
+  "explicacion": "La suplencia opera en los casos de vacante, ausencia o enfermedad, o de abstención o recusación.",
+  "referencia": "LRJSP, art. 13"
+ },
+ {
+  "pregunta": "¿Hasta qué grado de consanguinidad obliga el parentesco con un interesado a abstenerse?",
+  "opciones": [
+   "Hasta el primer grado",
+   "Hasta el décimo grado",
+   "Hasta el cuarto grado",
+   "No obliga"
+  ],
+  "correcta": 2,
+  "explicacion": "Es motivo de abstención el parentesco de consanguinidad dentro del cuarto grado o de afinidad dentro del segundo.",
+  "referencia": "LRJSP, art. 23.2 b)"
+ },
+ {
+  "pregunta": "¿Cuándo puede promoverse la recusación?",
+  "opciones": [
+   "Solo antes de iniciarse",
+   "En cualquier momento de la tramitación del procedimiento",
+   "Solo tras la resolución",
+   "Nunca"
+  ],
+  "correcta": 1,
+  "explicacion": "La recusación puede promoverse en cualquier momento de la tramitación.",
+  "referencia": "LRJSP, art. 24.1"
+ },
+ {
+  "pregunta": "¿Qué quórum se necesita para la constitución válida de un órgano colegiado?",
+  "opciones": [
+   "Presidente, Secretario y la mitad, al menos, de sus miembros",
+   "Solo el Presidente",
+   "Todos sus miembros sin excepción",
+   "Un tercio de sus miembros sin Secretario"
+  ],
+  "correcta": 0,
+  "explicacion": "El art. 17.2 LRJSP exige la presencia del Presidente, el Secretario y la mitad, al menos, de los miembros.",
+  "referencia": "LRJSP, art. 17.2"
+ },
+ {
+  "pregunta": "¿En qué plazo debe cursarse la notificación desde que se dicta el acto?",
+  "opciones": [
+   "Un mes",
+   "Tres meses",
+   "Un día",
+   "Diez días"
+  ],
+  "correcta": 3,
+  "explicacion": "La notificación debe cursarse dentro de los diez días siguientes a la fecha en que el acto haya sido dictado.",
+  "referencia": "LPAC, art. 40.2"
+ },
+ {
+  "pregunta": "¿Cuándo se entiende rechazada una notificación electrónica?",
+  "opciones": [
+   "A las 24 horas",
+   "Al mes",
+   "Cuando transcurren diez días naturales desde su puesta a disposición sin acceder a su contenido",
+   "Nunca"
+  ],
+  "correcta": 2,
+  "explicacion": "Transcurridos diez días naturales sin acceder, la notificación se entiende rechazada.",
+  "referencia": "LPAC, art. 43.2"
+ },
+ {
+  "pregunta": "¿Afecta la nulidad de un acto a los actos sucesivos independientes del primero?",
+  "opciones": [
+   "Sí, siempre",
+   "No, la nulidad no implica la de los actos sucesivos independientes",
+   "Solo si son favorables",
+   "Solo si los dicta el mismo órgano"
+  ],
+  "correcta": 1,
+  "explicacion": "El art. 49.1 LPAC limita los efectos de la invalidez a los actos que dependan del anulado.",
+  "referencia": "LPAC, art. 49.1"
  }
 ]

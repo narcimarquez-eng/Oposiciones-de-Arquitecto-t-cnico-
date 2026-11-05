@@ -312,54 +312,6 @@
   "referencia": "TFUE, arts. 28 a 66"
  },
  {
-  "pregunta": "¿Qué artículo del TFUE regula la libre circulación de trabajadores?",
-  "opciones": [
-   "Artículo 28",
-   "Artículo 45",
-   "Artículo 56",
-   "Artículo 63"
-  ],
-  "correcta": 1,
-  "explicacion": "El art. 45 TFUE regula la libre circulación de trabajadores dentro de la Unión.",
-  "referencia": "TFUE, art. 45"
- },
- {
-  "pregunta": "¿Qué artículos del TFUE regulan la libre circulación de mercancías?",
-  "opciones": [
-   "Artículos 45 a 48",
-   "Artículos 56 a 62",
-   "Artículos 28 a 37",
-   "Artículos 63 a 66"
-  ],
-  "correcta": 2,
-  "explicacion": "La libre circulación de mercancías se regula en los arts. 28 a 37 TFUE.",
-  "referencia": "TFUE, arts. 28 a 37"
- },
- {
-  "pregunta": "¿Qué artículo del TFUE regula la libertad de establecimiento?",
-  "opciones": [
-   "Artículo 34",
-   "Artículo 63",
-   "Artículo 101",
-   "Artículo 49"
-  ],
-  "correcta": 3,
-  "explicacion": "La libertad de establecimiento se regula en el art. 49 TFUE.",
-  "referencia": "TFUE, art. 49"
- },
- {
-  "pregunta": "¿Qué artículo del TFUE regula la libre prestación de servicios?",
-  "opciones": [
-   "Artículo 56",
-   "Artículo 45",
-   "Artículo 49",
-   "Artículo 107"
-  ],
-  "correcta": 0,
-  "explicacion": "La libre prestación de servicios se regula en el art. 56 TFUE.",
-  "referencia": "TFUE, art. 56"
- },
- {
   "pregunta": "¿Qué motivos justifican restringir la libre circulación de trabajadores?",
   "opciones": [
    "Las preferencias del empresario",
@@ -370,5 +322,125 @@
   "correcta": 1,
   "explicacion": "El art. 45.3 TFUE admite limitaciones por orden público, seguridad pública y salud pública.",
   "referencia": "TFUE, art. 45.3"
+ },
+ {
+  "pregunta": "¿Qué prohíbe el TFUE en el comercio de mercancías entre Estados miembros?",
+  "opciones": [
+   "La libre competencia",
+   "Las restricciones cuantitativas a la importación y las medidas de efecto equivalente",
+   "La venta por internet",
+   "El uso del euro"
+  ],
+  "correcta": 1,
+  "explicacion": "El art. 34 TFUE prohíbe las restricciones cuantitativas a la importación y las medidas de efecto equivalente.",
+  "referencia": "TFUE, art. 34"
+ },
+ {
+  "pregunta": "¿Qué motivo puede justificar restricciones a la importación entre Estados miembros?",
+  "opciones": [
+   "La protección de la industria nacional frente a la competencia",
+   "El deseo de recaudar más",
+   "La protección del patrimonio artístico, histórico o arqueológico nacional",
+   "La preferencia de los consumidores"
+  ],
+  "correcta": 2,
+  "explicacion": "El art. 36 TFUE admite restricciones justificadas por razones como la moralidad, el orden público o la protección del patrimonio artístico.",
+  "referencia": "TFUE, art. 36"
+ },
+ {
+  "pregunta": "¿A qué empleos no se aplica la libre circulación de trabajadores?",
+  "opciones": [
+   "A los empleos en la industria",
+   "A los trabajos agrícolas",
+   "A los contratos temporales",
+   "A los empleos en la administración pública"
+  ],
+  "correcta": 3,
+  "explicacion": "El art. 45.4 TFUE excluye los empleos en la administración pública.",
+  "referencia": "TFUE, art. 45.4"
+ },
+ {
+  "pregunta": "¿Qué actividades quedan excluidas de la libertad de establecimiento?",
+  "opciones": [
+   "Las actividades comerciales",
+   "Las que estén relacionadas con el ejercicio del poder público",
+   "Las profesiones liberales",
+   "Las actividades agrarias"
+  ],
+  "correcta": 1,
+  "explicacion": "El art. 51 TFUE excluye las actividades relacionadas con el ejercicio del poder público.",
+  "referencia": "TFUE, art. 51"
+ },
+ {
+  "pregunta": "¿Qué se considera servicio a efectos de los Tratados?",
+  "opciones": [
+   "Cualquier actividad gratuita",
+   "Las prestaciones realizadas normalmente a cambio de una remuneración",
+   "Solo la venta de mercancías",
+   "Solo los servicios públicos"
+  ],
+  "correcta": 1,
+  "explicacion": "El art. 57 TFUE define los servicios como prestaciones realizadas normalmente a cambio de una remuneración.",
+  "referencia": "TFUE, art. 57"
+ },
+ {
+  "pregunta": "¿Qué discriminación prohíbe con carácter general el art. 18 TFUE?",
+  "opciones": [
+   "La discriminación por razón de la nacionalidad",
+   "La diferencia de precios",
+   "La diversidad lingüística",
+   "La competencia entre empresas"
+  ],
+  "correcta": 0,
+  "explicacion": "El art. 18 TFUE prohíbe toda discriminación por razón de la nacionalidad.",
+  "referencia": "TFUE, art. 18"
+ },
+ {
+  "pregunta": "¿Quién es ciudadano de la Unión?",
+  "opciones": [
+   "Toda persona residente en Europa",
+   "Solo los nacidos en un Estado fundador",
+   "Toda persona que ostente la nacionalidad de un Estado miembro",
+   "Los funcionarios europeos"
+  ],
+  "correcta": 2,
+  "explicacion": "Es ciudadano de la Unión toda persona que tenga la nacionalidad de un Estado miembro.",
+  "referencia": "TFUE, art. 20.1"
+ },
+ {
+  "pregunta": "¿Qué derecho tiene todo ciudadano de la Unión según el art. 21 TFUE?",
+  "opciones": [
+   "Votar en las elecciones generales de cualquier Estado",
+   "Circular y residir libremente en el territorio de los Estados miembros",
+   "Cobrar prestaciones de cualquier Estado sin requisitos",
+   "Exención de impuestos"
+  ],
+  "correcta": 1,
+  "explicacion": "El art. 21 TFUE reconoce el derecho a circular y residir libremente.",
+  "referencia": "TFUE, art. 21.1"
+ },
+ {
+  "pregunta": "¿Cómo califica el TFUE, con carácter general, las ayudas de Estado que falsean la competencia?",
+  "opciones": [
+   "Obligatorias",
+   "Recomendables",
+   "Incompatibles con el mercado interior",
+   "Indiferentes"
+  ],
+  "correcta": 2,
+  "explicacion": "El art. 107 TFUE declara incompatibles con el mercado interior las ayudas que falseen la competencia.",
+  "referencia": "TFUE, art. 107.1"
+ },
+ {
+  "pregunta": "¿Qué prohíbe el art. 101 TFUE?",
+  "opciones": [
+   "La creación de empresas",
+   "Los acuerdos entre empresas que restrinjan la competencia",
+   "La exportación a terceros países",
+   "La publicidad"
+  ],
+  "correcta": 1,
+  "explicacion": "El art. 101 TFUE prohíbe los acuerdos y prácticas concertadas que restrinjan la competencia.",
+  "referencia": "TFUE, art. 101"
  }
 ]
