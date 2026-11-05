@@ -432,18 +432,6 @@
   "referencia": "RITE, art. 41"
  },
  {
-  "pregunta": "¿Qué locales de una vivienda deben disponer de aberturas de admisión de aire según el DB-HS 3?",
-  "opciones": [
-   "Aseos y baños",
-   "Cocinas",
-   "Comedores, dormitorios y salas de estar",
-   "Trasteros"
-  ],
-  "correcta": 2,
-  "explicacion": "Los comedores, dormitorios y salas de estar deben disponer de aberturas de admisión.",
-  "referencia": "CTE, DB-HS 3"
- },
- {
   "pregunta": "¿Qué sistema adicional exige el DB-HS 3 en las cocinas?",
   "opciones": [
    "Una chimenea de leña",
@@ -454,5 +442,41 @@
   "correcta": 1,
   "explicacion": "Las cocinas deben disponer de un sistema adicional específico de ventilación con extracción mecánica.",
   "referencia": "CTE, DB-HS 3"
+ },
+ {
+  "pregunta": "¿Qué unidad terminal emplea agua fría o caliente con un ventilador para climatizar un local?",
+  "opciones": [
+   "El fan-coil",
+   "El radiador de hierro sin ventilador",
+   "El termo eléctrico",
+   "La bomba de pozo"
+  ],
+  "correcta": 0,
+  "explicacion": "El fan-coil combina batería de agua y ventilador.",
+  "referencia": "Tema e10"
+ },
+ {
+  "pregunta": "¿Qué recupera un recuperador de calor en la ventilación?",
+  "opciones": [
+   "El agua de lluvia",
+   "El calor de la cocina de gas",
+   "Los gases de combustión",
+   "La energía del aire de extracción para tratar el aire exterior"
+  ],
+  "correcta": 3,
+  "explicacion": "El recuperador transfiere energía entre el aire extraído y el aire nuevo.",
+  "referencia": "Tema e10"
+ },
+ {
+  "pregunta": "¿Qué inspecciones periódicas regula el RITE para las instalaciones térmicas?",
+  "opciones": [
+   "Las inspecciones periódicas de eficiencia energética",
+   "Las inspecciones de vehículos",
+   "Las inspecciones de alimentos",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "El RITE regula las inspecciones periódicas de eficiencia energética de las instalaciones térmicas.",
+  "referencia": "RITE, art. 31"
  }
 ]

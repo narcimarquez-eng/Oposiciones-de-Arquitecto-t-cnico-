@@ -454,5 +454,29 @@
   "correcta": 2,
   "explicacion": "El grupo de presión, los sistemas de tratamiento y los contadores deben instalarse en locales de dimensiones suficientes.",
   "referencia": "CTE, DB-HS 4"
+ },
+ {
+  "pregunta": "¿Qué gas combustible es más denso que el aire y se acumula en zonas bajas?",
+  "opciones": [
+   "El gas natural",
+   "El hidrógeno",
+   "El gas licuado del petróleo (propano o butano)",
+   "El helio"
+  ],
+  "correcta": 2,
+  "explicacion": "El GLP es más pesado que el aire, por lo que se acumula en zonas bajas.",
+  "referencia": "Tema e09"
+ },
+ {
+  "pregunta": "¿Qué dispositivo corta el gas en un aparato si se apaga la llama?",
+  "opciones": [
+   "El dispositivo de seguridad por termopar",
+   "El contador",
+   "El regulador de presión doméstico",
+   "La llave de paso general"
+  ],
+  "correcta": 0,
+  "explicacion": "El termopar detecta la ausencia de llama y cierra el paso de gas.",
+  "referencia": "Tema e09"
  }
 ]

@@ -394,5 +394,89 @@
   "correcta": 3,
   "explicacion": "Los itinerarios accesibles para personas con discapacidad deben conducir a una zona de refugio o a un sector alternativo.",
   "referencia": "CTE, DB-SI 3"
+ },
+ {
+  "pregunta": "¿Qué densidad de ocupación fija el DB-SI para las zonas de hospitalización?",
+  "opciones": [
+   "2 m²",
+   "1,5 m²",
+   "40 m²",
+   "15 m² por persona"
+  ],
+  "correcta": 3,
+  "explicacion": "La tabla 2.1 fija 15 m²/persona en zonas de hospitalización y 2 m²/persona en salas de espera.",
+  "referencia": "CTE, DB-SI 3, tabla 2.1"
+ },
+ {
+  "pregunta": "¿Qué densidad de ocupación fija el DB-SI para las salas de espera hospitalarias?",
+  "opciones": [
+   "15 m²",
+   "10 m²",
+   "1 m²",
+   "2 m² por persona"
+  ],
+  "correcta": 3,
+  "explicacion": "Las salas de espera del uso Hospitalario se calculan a 2 m²/persona.",
+  "referencia": "CTE, DB-SI 3, tabla 2.1"
+ },
+ {
+  "pregunta": "¿Qué presión relativa se mantiene en un quirófano respecto a las zonas contiguas?",
+  "opciones": [
+   "Depresión",
+   "La misma presión",
+   "Vacío",
+   "Sobrepresión (presión positiva)"
+  ],
+  "correcta": 3,
+  "explicacion": "Los quirófanos se mantienen en sobrepresión para evitar la entrada de aire contaminado.",
+  "referencia": "Tema e37"
+ },
+ {
+  "pregunta": "¿Qué normativa técnica orienta el diseño de instalaciones deportivas en España?",
+  "opciones": [
+   "Las Normas NIDE",
+   "La EHE-08",
+   "El RITE",
+   "El REBT"
+  ],
+  "correcta": 0,
+  "explicacion": "Las Normas NIDE del Consejo Superior de Deportes orientan el diseño de instalaciones deportivas.",
+  "referencia": "Tema e37"
+ },
+ {
+  "pregunta": "¿Qué orientación del eje longitudinal se recomienda en campos deportivos al aire libre?",
+  "opciones": [
+   "Este-oeste",
+   "Noreste-suroeste",
+   "Indiferente",
+   "Norte-sur"
+  ],
+  "correcta": 3,
+  "explicacion": "La orientación norte-sur evita el deslumbramiento por el sol en la salida y la puesta.",
+  "referencia": "Normas NIDE"
+ },
+ {
+  "pregunta": "¿Qué condiciones ambientales requieren las salas de exposición de museos?",
+  "opciones": [
+   "Temperatura y humedad relativa estables y controladas",
+   "Exposición directa al sol",
+   "Humedad máxima",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "La conservación de los bienes culturales exige estabilidad de temperatura y humedad.",
+  "referencia": "Tema e37"
+ },
+ {
+  "pregunta": "¿Qué gases medicinales se distribuyen habitualmente por canalización en los hospitales?",
+  "opciones": [
+   "Gas natural para pacientes",
+   "Oxígeno, aire medicinal y vacío",
+   "Butano",
+   "Helio"
+  ],
+  "correcta": 1,
+  "explicacion": "Las redes de gases medicinales distribuyen oxígeno, aire medicinal y vacío.",
+  "referencia": "Tema e37"
  }
 ]

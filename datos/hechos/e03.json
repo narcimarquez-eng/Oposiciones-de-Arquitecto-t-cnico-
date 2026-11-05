@@ -430,5 +430,53 @@
   "correcta": 1,
   "explicacion": "El fondo del tanque debe tener una pendiente mínima del 25 %.",
   "referencia": "CTE, DB-HS 5, apartado 5.5"
+ },
+ {
+  "pregunta": "¿Qué material es habitual en los colectores enterrados de saneamiento de edificios?",
+  "opciones": [
+   "El vidrio",
+   "La madera",
+   "El cartón",
+   "El PVC"
+  ],
+  "correcta": 3,
+  "explicacion": "El PVC es habitual en colectores y bajantes por su durabilidad y ligereza.",
+  "referencia": "Tema e03"
+ },
+ {
+  "pregunta": "¿Qué elemento recoge el agua de lluvia en patios y terrazas?",
+  "opciones": [
+   "El contador",
+   "El grifo",
+   "El termo",
+   "El sumidero"
+  ],
+  "correcta": 3,
+  "explicacion": "Los sumideros recogen el agua en superficies horizontales y la conducen a la red.",
+  "referencia": "Tema e03"
+ },
+ {
+  "pregunta": "¿Qué elemento permite acceder a la red de alcantarillado para su inspección y limpieza?",
+  "opciones": [
+   "La llave de paso",
+   "El pozo de registro",
+   "El aireador",
+   "El radiador"
+  ],
+  "correcta": 1,
+  "explicacion": "Los pozos de registro permiten el acceso a la red para su mantenimiento.",
+  "referencia": "Tema e03"
+ },
+ {
+  "pregunta": "¿Qué dispositivo evita que el agua de la red pública inunde los sótanos en caso de entrada en carga?",
+  "opciones": [
+   "El sifón de lavabo",
+   "La válvula antirretorno de saneamiento",
+   "La rejilla de ventilación",
+   "El contador"
+  ],
+  "correcta": 1,
+  "explicacion": "Las válvulas antirretorno impiden el reflujo desde la red pública.",
+  "referencia": "Tema e03"
  }
 ]

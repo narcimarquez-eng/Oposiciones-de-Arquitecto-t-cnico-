@@ -406,5 +406,77 @@
   "correcta": 3,
   "explicacion": "La depreciación física es la pérdida que experimenta el valor de reemplazamiento bruto.",
   "referencia": "Orden ECO/805/2003, art. 4"
+ },
+ {
+  "pregunta": "¿Qué límite tiene el valor catastral respecto del valor de mercado?",
+  "opciones": [
+   "Debe duplicarlo",
+   "Es siempre igual",
+   "No tiene relación",
+   "No puede superar el valor de mercado"
+  ],
+  "correcta": 3,
+  "explicacion": "El valor catastral de los inmuebles no podrá superar el valor de mercado.",
+  "referencia": "RDL 1/2004 (TRLCI), art. 23.2"
+ },
+ {
+  "pregunta": "¿Qué es el Catastro Inmobiliario?",
+  "opciones": [
+   "Un registro administrativo dependiente del Ministerio de Hacienda que describe los bienes inmuebles",
+   "Un registro de la propiedad privada",
+   "Un archivo judicial",
+   "Una base de datos municipal de vecinos"
+  ],
+  "correcta": 0,
+  "explicacion": "El Catastro es un registro administrativo dependiente del Ministerio de Hacienda.",
+  "referencia": "RDL 1/2004 (TRLCI), art. 1.1"
+ },
+ {
+  "pregunta": "¿Qué valor determina la Dirección General del Catastro a partir de los precios de mercado?",
+  "opciones": [
+   "El valor de referencia",
+   "El valor sentimental",
+   "El valor de seguro",
+   "El valor de cambio de divisa"
+  ],
+  "correcta": 0,
+  "explicacion": "El TRLCI regula el valor de referencia de cada inmueble.",
+  "referencia": "RDL 1/2004 (TRLCI)"
+ },
+ {
+  "pregunta": "¿Qué componentes integran el valor catastral?",
+  "opciones": [
+   "Solo el mobiliario",
+   "El precio de alquiler",
+   "El valor del suelo y el valor de las construcciones",
+   "Las deudas del propietario"
+  ],
+  "correcta": 2,
+  "explicacion": "El valor catastral se determina por el valor catastral del suelo y el de las construcciones.",
+  "referencia": "RDL 1/2004 (TRLCI), art. 22"
+ },
+ {
+  "pregunta": "¿Qué entidades pueden emitir tasaciones conforme a la Orden ECO/805/2003?",
+  "opciones": [
+   "Cualquier particular",
+   "Las sociedades de tasación y los servicios de tasación de las entidades de crédito homologados",
+   "Los notarios",
+   "Los ayuntamientos"
+  ],
+  "correcta": 1,
+  "explicacion": "Las tasaciones para el mercado hipotecario las realizan sociedades y servicios de tasación homologados.",
+  "referencia": "Orden ECO/805/2003"
+ },
+ {
+  "pregunta": "¿Qué es el valor de reemplazamiento bruto?",
+  "opciones": [
+   "El precio de venta del solar",
+   "La suma de las inversiones necesarias para construir un inmueble de las mismas características",
+   "La renta anual",
+   "El valor catastral"
+  ],
+  "correcta": 1,
+  "explicacion": "El valor de reemplazamiento bruto es la suma de inversiones necesarias para reemplazar el edificio.",
+  "referencia": "Orden ECO/805/2003"
  }
 ]

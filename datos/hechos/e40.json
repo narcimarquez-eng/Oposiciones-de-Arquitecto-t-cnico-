@@ -394,5 +394,101 @@
   "correcta": 2,
   "explicacion": "La Ley 14/2010 regula las infraestructuras y servicios de información geográfica en España, entre ellas la IIGE.",
   "referencia": "Ley 14/2010"
+ },
+ {
+  "pregunta": "¿Qué operación SIG combina dos o más capas para obtener nueva información?",
+  "opciones": [
+   "La impresión",
+   "La compresión",
+   "La superposición (overlay)",
+   "El cifrado"
+  ],
+  "correcta": 2,
+  "explicacion": "La superposición cruza capas para generar una nueva con atributos combinados.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué operación SIG genera un área a una distancia determinada de un elemento?",
+  "opciones": [
+   "El área de influencia (buffer)",
+   "La georreferenciación",
+   "La digitalización",
+   "La vectorización"
+  ],
+  "correcta": 0,
+  "explicacion": "El buffer delimita la zona a una distancia dada de puntos, líneas o polígonos.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué es la georreferenciación?",
+  "opciones": [
+   "Asignar coordenadas de un sistema de referencia a datos o imágenes",
+   "Imprimir un mapa",
+   "Borrar capas",
+   "Colorear polígonos"
+  ],
+  "correcta": 0,
+  "explicacion": "Georreferenciar es situar los datos en un sistema de coordenadas conocido.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué formato vectorial de ESRI es muy usado en los SIG?",
+  "opciones": [
+   "El shapefile",
+   "El JPEG",
+   "El MP3",
+   "El DOCX"
+  ],
+  "correcta": 0,
+  "explicacion": "El shapefile almacena geometrías vectoriales y sus atributos.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué representa un Modelo Digital del Terreno (MDT)?",
+  "opciones": [
+   "La altitud del terreno en formato digital",
+   "La red de carreteras",
+   "Los límites municipales",
+   "La población"
+  ],
+  "correcta": 0,
+  "explicacion": "El MDT representa digitalmente la elevación del terreno.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué servicio web estándar del OGC sirve mapas como imágenes?",
+  "opciones": [
+   "WMS",
+   "WFS",
+   "FTP",
+   "SMTP"
+  ],
+  "correcta": 0,
+  "explicacion": "El Web Map Service sirve mapas en formato imagen.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué servicio web estándar del OGC sirve entidades vectoriales con sus atributos?",
+  "opciones": [
+   "WMS",
+   "HTTP simple",
+   "POP3",
+   "WFS"
+  ],
+  "correcta": 3,
+  "explicacion": "El Web Feature Service sirve entidades vectoriales.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué organismo produce la cartografía y estadística oficial de la Junta de Andalucía?",
+  "opciones": [
+   "El Instituto Geográfico Nacional exclusivamente",
+   "El INE",
+   "El Instituto de Estadística y Cartografía de Andalucía (IECA)",
+   "El Catastro"
+  ],
+  "correcta": 2,
+  "explicacion": "El IECA es el organismo de estadística y cartografía de la Junta de Andalucía.",
+  "referencia": "Tema e40"
  }
 ]

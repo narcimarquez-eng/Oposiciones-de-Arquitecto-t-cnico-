@@ -418,5 +418,65 @@
   "correcta": 0,
   "explicacion": "El pliego debe detallar, en su caso, la fórmula de revisión aplicable.",
   "referencia": "LCSP, art. 103.4"
+ },
+ {
+  "pregunta": "¿Qué índices se emplean en las fórmulas de revisión de precios?",
+  "opciones": [
+   "El índice de audiencia televisiva",
+   "El índice bursátil",
+   "Ninguno",
+   "Índices de precios de materiales y de mano de obra publicados oficialmente"
+  ],
+  "correcta": 3,
+  "explicacion": "Las fórmulas emplean índices oficiales de precios de los materiales básicos.",
+  "referencia": "Tema e31"
+ },
+ {
+  "pregunta": "¿Qué indica el coeficiente fijo de una fórmula polinómica de revisión?",
+  "opciones": [
+   "El beneficio industrial",
+   "La parte del precio que no se revisa",
+   "El IVA",
+   "El porcentaje de baja"
+  ],
+  "correcta": 1,
+  "explicacion": "El término fijo representa la parte no revisable del precio.",
+  "referencia": "Tema e31"
+ },
+ {
+  "pregunta": "¿Con qué periodicidad se calculan los coeficientes de revisión?",
+  "opciones": [
+   "Una vez cada diez años",
+   "En relación con los periodos de las certificaciones",
+   "Nunca",
+   "Diariamente"
+  ],
+  "correcta": 1,
+  "explicacion": "Los coeficientes se aplican a los importes de cada certificación según los índices del periodo.",
+  "referencia": "Tema e31"
+ },
+ {
+  "pregunta": "¿Qué contratos quedan excluidos con carácter general de la revisión de precios?",
+  "opciones": [
+   "Los contratos cuyo pago se concierte mediante sistemas de arrendamiento financiero o con precio cerrado no revisable, según los pliegos",
+   "Todos los de obras",
+   "Los contratos públicos en general",
+   "Ninguno"
+  ],
+  "correcta": 0,
+  "explicacion": "La revisión solo procede en los supuestos que prevén la ley y los pliegos.",
+  "referencia": "Ley 9/2017 (LCSP), art. 103"
+ },
+ {
+  "pregunta": "¿Qué componentes de coste suelen ponderarse en las fórmulas tipo de obras?",
+  "opciones": [
+   "Sueldos de funcionarios",
+   "Impuestos municipales",
+   "Cemento, acero, energía y materiales cerámicos, entre otros",
+   "Alquileres de vivienda"
+  ],
+  "correcta": 2,
+  "explicacion": "Las fórmulas tipo ponderan los materiales básicos de cada clase de obra.",
+  "referencia": "RD 1359/2011"
  }
 ]

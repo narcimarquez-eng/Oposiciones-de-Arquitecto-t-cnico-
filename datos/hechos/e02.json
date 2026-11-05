@@ -454,5 +454,29 @@
   "correcta": 1,
   "explicacion": "La profundidad mínima de inmersión del tubo es de tres metros, reducible a dos si se conoce con precisión el nivel del hormigón.",
   "referencia": "CTE, DB-SE-C, apartado 5.4"
+ },
+ {
+  "pregunta": "¿Qué ensayo de campo cuenta los golpes necesarios para hincar 30 cm un tomamuestras normalizado?",
+  "opciones": [
+   "El ensayo SPT (Standard Penetration Test)",
+   "El ensayo Proctor",
+   "El cono de Abrams",
+   "El ensayo Los Ángeles"
+  ],
+  "correcta": 0,
+  "explicacion": "El SPT registra el número de golpes N para hincar 30 cm el tomamuestras.",
+  "referencia": "Tema e02"
+ },
+ {
+  "pregunta": "¿Qué ensayo de penetración dinámica continua se emplea en el reconocimiento del terreno?",
+  "opciones": [
+   "El ensayo de flexión de vigas",
+   "El ensayo Marshall",
+   "El ensayo de dureza Brinell",
+   "El ensayo de penetración dinámica superpesada (DPSH)"
+  ],
+  "correcta": 3,
+  "explicacion": "Los penetrómetros dinámicos (DPSH) se usan para estimar la compacidad del terreno.",
+  "referencia": "Tema e02"
  }
 ]

@@ -454,5 +454,29 @@
   "correcta": 0,
   "explicacion": "Son instalaciones de enlace las que unen la caja general de protección con las instalaciones interiores o receptoras.",
   "referencia": "ITC-BT-12, apartado 1"
+ },
+ {
+  "pregunta": "¿Qué elemento señala el principio de la propiedad de las instalaciones del usuario en baja tensión?",
+  "opciones": [
+   "El enchufe",
+   "La lámpara",
+   "El diferencial del baño",
+   "La caja general de protección"
+  ],
+  "correcta": 3,
+  "explicacion": "La caja general de protección marca el principio de la propiedad de las instalaciones del usuario.",
+  "referencia": "ITC-BT-13"
+ },
+ {
+  "pregunta": "¿Con qué color se identifica el conductor de protección?",
+  "opciones": [
+   "Rojo",
+   "Azul",
+   "Negro",
+   "Verde-amarillo"
+  ],
+  "correcta": 3,
+  "explicacion": "El conductor de protección se identifica con el color verde-amarillo.",
+  "referencia": "ITC-BT-19"
  }
 ]

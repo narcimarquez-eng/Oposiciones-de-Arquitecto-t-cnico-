@@ -418,5 +418,65 @@
   "correcta": 0,
   "explicacion": "Si se demora, la Administración abona intereses de demora y la indemnización por costes de cobro conforme a la Ley 3/2004.",
   "referencia": "LCSP, art. 198.4"
+ },
+ {
+  "pregunta": "¿Sobre qué se calcula el importe de cada certificación de obra?",
+  "opciones": [
+   "Sobre el presupuesto total sin medir",
+   "Sobre el beneficio esperado",
+   "Sobre una cantidad fija mensual",
+   "Sobre la obra ejecutada, medida y valorada a los precios del contrato"
+  ],
+  "correcta": 3,
+  "explicacion": "Las certificaciones valoran la obra realmente ejecutada a los precios del contrato.",
+  "referencia": "Tema e30"
+ },
+ {
+  "pregunta": "¿Qué documento recoge el resultado de la medición general de las obras para el pago final?",
+  "opciones": [
+   "El acta de replanteo",
+   "La certificación final",
+   "El pliego de cláusulas",
+   "El certificado de empadronamiento"
+  ],
+  "correcta": 1,
+  "explicacion": "Tras la medición general se aprueba la certificación final.",
+  "referencia": "RGLCAP, art. 166"
+ },
+ {
+  "pregunta": "¿Qué se abona en la liquidación del contrato de obras?",
+  "opciones": [
+   "El saldo resultante a favor o en contra del contratista",
+   "Solo el IVA",
+   "Solo las penalidades",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "La liquidación fija el saldo final, a favor o en contra del contratista.",
+  "referencia": "Tema e30"
+ },
+ {
+  "pregunta": "¿Quién expide las certificaciones de obra?",
+  "opciones": [
+   "El contratista en exclusiva",
+   "El ayuntamiento",
+   "El banco",
+   "La dirección facultativa, para su aprobación por el órgano de contratación"
+  ],
+  "correcta": 3,
+  "explicacion": "La dirección facultativa expide las certificaciones mensuales.",
+  "referencia": "Tema e30"
+ },
+ {
+  "pregunta": "¿Qué carácter tienen las relaciones valoradas de la obra?",
+  "opciones": [
+   "Sentencias judiciales",
+   "Documentos previos a la certificación que valoran la obra ejecutada",
+   "Facturas finales",
+   "Pliegos de licitación"
+  ],
+  "correcta": 1,
+  "explicacion": "La relación valorada sirve de base para la certificación mensual.",
+  "referencia": "Tema e30"
  }
 ]

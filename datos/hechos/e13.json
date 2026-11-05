@@ -382,5 +382,101 @@
   "correcta": 0,
   "explicacion": "Toda la superficie exterior del acristalamiento debe estar en un radio de 0,85 m desde algún punto del borde de la zona practicable situado a no más de 1,30 m.",
   "referencia": "CTE, DB-SUA 1, apartado 5"
+ },
+ {
+  "pregunta": "¿Qué necesitan las carpinterías de aluminio para mejorar su aislamiento térmico?",
+  "opciones": [
+   "Rotura de puente térmico",
+   "Más pintura",
+   "Vidrio sencillo",
+   "Mayor peso"
+  ],
+  "correcta": 0,
+  "explicacion": "La rotura de puente térmico separa los perfiles interior y exterior con un material aislante.",
+  "referencia": "Tema e13"
+ },
+ {
+  "pregunta": "¿Qué ventana permite abrir tanto en giro vertical como en basculación superior?",
+  "opciones": [
+   "La corredera",
+   "La fija",
+   "La oscilobatiente",
+   "La guillotina"
+  ],
+  "correcta": 2,
+  "explicacion": "La ventana oscilobatiente combina apertura abatible y oscilante.",
+  "referencia": "Tema e13"
+ },
+ {
+  "pregunta": "¿Qué es un doble acristalamiento con cámara?",
+  "opciones": [
+   "Un vidrio con doble espesor",
+   "Dos ventanas separadas un metro",
+   "Dos vidrios separados por una cámara de aire o gas sellada",
+   "Un vidrio con lámina de plástico"
+  ],
+  "correcta": 2,
+  "explicacion": "El doble acristalamiento con cámara mejora el aislamiento térmico.",
+  "referencia": "Tema e13"
+ },
+ {
+  "pregunta": "¿Qué vidrio reduce la emisión de calor radiante mejorando el aislamiento?",
+  "opciones": [
+   "El vidrio impreso",
+   "El vidrio armado",
+   "El vidrio bajo emisivo",
+   "El vidrio de botella"
+  ],
+  "correcta": 2,
+  "explicacion": "El vidrio bajo emisivo tiene una capa que refleja la radiación de onda larga.",
+  "referencia": "Tema e13"
+ },
+ {
+  "pregunta": "¿Qué elemento protege el alféizar y aleja el agua de la fachada?",
+  "opciones": [
+   "El vierteaguas",
+   "El premarco",
+   "El tapajuntas interior",
+   "La persiana"
+  ],
+  "correcta": 0,
+  "explicacion": "El vierteaguas evacua el agua lejos del paramento bajo la ventana.",
+  "referencia": "Tema e13"
+ },
+ {
+  "pregunta": "¿Qué es el premarco de una carpintería?",
+  "opciones": [
+   "El vidrio exterior",
+   "La persiana",
+   "El bastidor fijado a la obra sobre el que se coloca la carpintería",
+   "La cerradura"
+  ],
+  "correcta": 2,
+  "explicacion": "El premarco se recibe en obra y sirve de apoyo a la carpintería.",
+  "referencia": "Tema e13"
+ },
+ {
+  "pregunta": "¿Qué propiedad de las ventanas clasifica la norma UNE-EN 12208?",
+  "opciones": [
+   "La permeabilidad al aire",
+   "La estanqueidad al agua",
+   "La resistencia al viento",
+   "La resistencia al fuego"
+  ],
+  "correcta": 1,
+  "explicacion": "La UNE-EN 12207 clasifica la permeabilidad al aire, la UNE-EN 12208 la estanqueidad al agua y la UNE-EN 12210 la resistencia al viento.",
+  "referencia": "UNE-EN 12208"
+ },
+ {
+  "pregunta": "¿Qué propiedad de las ventanas clasifica la norma UNE-EN 12210?",
+  "opciones": [
+   "La resistencia a la carga de viento",
+   "La estanqueidad al agua",
+   "La permeabilidad al aire",
+   "El aislamiento acústico"
+  ],
+  "correcta": 0,
+  "explicacion": "La UNE-EN 12210 clasifica la resistencia al viento.",
+  "referencia": "UNE-EN 12210"
  }
 ]

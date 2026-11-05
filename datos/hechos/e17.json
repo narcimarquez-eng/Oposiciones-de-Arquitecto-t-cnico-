@@ -442,5 +442,41 @@
   "correcta": 3,
   "explicacion": "El control de calidad no puede invocarse para disminuir la responsabilidad de los agentes intervinientes.",
   "referencia": "Decreto 67/2011, art. 8"
+ },
+ {
+  "pregunta": "¿Qué control se aplica a los productos con marcado CE al recibirlos en obra?",
+  "opciones": [
+   "El control de la documentación de los suministros",
+   "Ningún control",
+   "Un ensayo destructivo de cada unidad",
+   "Una prueba de carga obligatoria"
+  ],
+  "correcta": 0,
+  "explicacion": "El control de recepción comienza con el control de la documentación de los suministros.",
+  "referencia": "CTE, art. 7.2.1"
+ },
+ {
+  "pregunta": "¿Qué ensayo se realiza habitualmente sobre probetas de hormigón endurecido?",
+  "opciones": [
+   "El ensayo SPT",
+   "El ensayo de estanqueidad",
+   "El ensayo de resistencia a compresión",
+   "El cono de Abrams"
+  ],
+  "correcta": 2,
+  "explicacion": "Las probetas se rompen a compresión para comprobar la resistencia.",
+  "referencia": "Tema e17"
+ },
+ {
+  "pregunta": "¿Qué controla el control de ejecución de la obra según el CTE?",
+  "opciones": [
+   "La adecuación de la ejecución al proyecto, la normativa y las instrucciones de la dirección facultativa",
+   "Solo el pago al contratista",
+   "Las licencias municipales",
+   "El plan de marketing"
+  ],
+  "correcta": 0,
+  "explicacion": "El control de ejecución verifica la correcta ejecución y disposición de los elementos constructivos.",
+  "referencia": "CTE, art. 7.3"
  }
 ]

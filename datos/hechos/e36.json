@@ -394,5 +394,89 @@
   "correcta": 3,
   "explicacion": "Los edificios de otros usos en esos casos dispondrán de ascensor accesible o rampa accesible.",
   "referencia": "CTE, DB-SUA 9, apartado 1.1.2"
+ },
+ {
+  "pregunta": "¿Qué densidad de ocupación fija el DB-SI para aulas, excepto de escuelas infantiles?",
+  "opciones": [
+   "1,5 m² por persona",
+   "10 m² por persona",
+   "0,5 m² por persona",
+   "5 m² por persona"
+  ],
+  "correcta": 0,
+  "explicacion": "La tabla 2.1 del DB-SI fija 1,5 m²/persona en aulas, salvo escuelas infantiles.",
+  "referencia": "CTE, DB-SI 3, tabla 2.1"
+ },
+ {
+  "pregunta": "¿Qué densidad de ocupación fija el DB-SI para aulas de escuelas infantiles y salas de lectura?",
+  "opciones": [
+   "1 m²",
+   "2 m² por persona",
+   "10 m²",
+   "0,5 m²"
+  ],
+  "correcta": 1,
+  "explicacion": "Las aulas de escuelas infantiles y salas de lectura de bibliotecas se calculan a 2 m²/persona.",
+  "referencia": "CTE, DB-SI 3, tabla 2.1"
+ },
+ {
+  "pregunta": "¿Qué norma estatal fija los requisitos mínimos de los centros de infantil, primaria y secundaria?",
+  "opciones": [
+   "El Real Decreto 1627/1997",
+   "El Real Decreto 314/2006",
+   "El Real Decreto 105/2008",
+   "El Real Decreto 132/2010"
+  ],
+  "correcta": 3,
+  "explicacion": "El RD 132/2010 establece los requisitos mínimos de los centros docentes.",
+  "referencia": "RD 132/2010"
+ },
+ {
+  "pregunta": "¿Qué espacio deportivo cubierto es habitual en los centros de educación primaria y secundaria?",
+  "opciones": [
+   "La piscina olímpica",
+   "El velódromo",
+   "El campo de golf",
+   "El gimnasio o pabellón polideportivo"
+  ],
+  "correcta": 3,
+  "explicacion": "Los centros docentes disponen de gimnasio o espacio polideportivo.",
+  "referencia": "Tema e36"
+ },
+ {
+  "pregunta": "¿Qué edificios de la Junta incluye el tema de centros administrativos?",
+  "opciones": [
+   "Los hospitales",
+   "Los museos",
+   "Las sedes de servicios administrativos y de atención a la ciudadanía",
+   "Las cárceles"
+  ],
+  "correcta": 2,
+  "explicacion": "Los centros administrativos albergan servicios de gestión y atención a la ciudadanía.",
+  "referencia": "Tema e36"
+ },
+ {
+  "pregunta": "¿Qué espacios específicos requieren las sedes judiciales?",
+  "opciones": [
+   "Salas de vistas, calabozos y zonas de custodia separadas",
+   "Aulas de infantil",
+   "Quirófanos",
+   "Gradas"
+  ],
+  "correcta": 0,
+  "explicacion": "Las sedes judiciales incluyen salas de vistas y circuitos diferenciados para detenidos.",
+  "referencia": "Tema e36"
+ },
+ {
+  "pregunta": "¿Qué principio de diseño separa en las sedes judiciales las circulaciones de público, profesionales y detenidos?",
+  "opciones": [
+   "La circulación única compartida",
+   "La ausencia de control",
+   "La separación de circulaciones",
+   "El acceso libre a calabozos"
+  ],
+  "correcta": 2,
+  "explicacion": "Las sedes judiciales diferencian los recorridos de público, profesionales y detenidos.",
+  "referencia": "Tema e36"
  }
 ]

@@ -430,5 +430,53 @@
   "correcta": 2,
   "explicacion": "Las operaciones trimestrales y semestrales pueden realizarse por el personal del usuario o titular.",
   "referencia": "RD 513/2017, anexo II"
+ },
+ {
+  "pregunta": "¿Qué elemento de una instalación solar térmica capta la radiación solar?",
+  "opciones": [
+   "El captador o colector solar",
+   "El inversor",
+   "El contador",
+   "El vaso de expansión"
+  ],
+  "correcta": 0,
+  "explicacion": "El captador solar transforma la radiación en energía térmica.",
+  "referencia": "Tema e11"
+ },
+ {
+  "pregunta": "¿Qué equipo de una instalación fotovoltaica convierte corriente continua en alterna?",
+  "opciones": [
+   "El captador térmico",
+   "El acumulador de ACS",
+   "El intercambiador",
+   "El inversor"
+  ],
+  "correcta": 3,
+  "explicacion": "El inversor transforma la corriente continua de los módulos en alterna.",
+  "referencia": "Tema e11"
+ },
+ {
+  "pregunta": "¿Qué elemento del ascensor compensa el peso de la cabina?",
+  "opciones": [
+   "El foso",
+   "El limitador de velocidad",
+   "La botonera",
+   "El contrapeso"
+  ],
+  "correcta": 3,
+  "explicacion": "El contrapeso equilibra la cabina y reduce la potencia necesaria.",
+  "referencia": "Tema e11"
+ },
+ {
+  "pregunta": "¿Qué dispositivo detiene la cabina del ascensor ante un exceso de velocidad?",
+  "opciones": [
+   "El amortiguador de foso exclusivamente",
+   "El paracaídas accionado por el limitador de velocidad",
+   "La puerta de piso",
+   "El pulsador de alarma"
+  ],
+  "correcta": 1,
+  "explicacion": "El limitador de velocidad acciona el paracaídas, que detiene la cabina.",
+  "referencia": "Tema e11"
  }
 ]

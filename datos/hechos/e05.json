@@ -430,5 +430,53 @@
   "correcta": 2,
   "explicacion": "Las clases de madera laminada encolada homogénea son GL24h, GL28h, GL32h y GL36h.",
   "referencia": "CTE, DB-SE-M, apartado 4.2"
+ },
+ {
+  "pregunta": "¿Qué tipo de unión metálica se realiza fundiendo material de aportación?",
+  "opciones": [
+   "La soldadura",
+   "El atornillado",
+   "El remachado en frío",
+   "El encolado"
+  ],
+  "correcta": 0,
+  "explicacion": "La soldadura une las piezas mediante la fusión de material de aportación.",
+  "referencia": "Tema e05"
+ },
+ {
+  "pregunta": "¿Qué tornillos se emplean pretensados en uniones resistentes por rozamiento?",
+  "opciones": [
+   "Los tornillos ordinarios de madera",
+   "Los clavos",
+   "Los pasadores de plástico",
+   "Los tornillos de alta resistencia"
+  ],
+  "correcta": 3,
+  "explicacion": "Las uniones por rozamiento usan tornillos de alta resistencia pretensados.",
+  "referencia": "Tema e05"
+ },
+ {
+  "pregunta": "¿Qué protección contra el fuego es habitual en estructuras de acero?",
+  "opciones": [
+   "Barniz de madera",
+   "Pintura plástica común",
+   "Pinturas intumescentes o morteros proyectados",
+   "Ninguna"
+  ],
+  "correcta": 2,
+  "explicacion": "Las pinturas intumescentes y los morteros proyectados protegen el acero frente al fuego.",
+  "referencia": "Tema e05"
+ },
+ {
+  "pregunta": "¿Por qué las piezas de madera de gran escuadría resisten bien el fuego?",
+  "opciones": [
+   "Porque la capa carbonizada protege el núcleo",
+   "Porque la madera no arde",
+   "Porque se humedecen",
+   "Porque se funden"
+  ],
+  "correcta": 0,
+  "explicacion": "La carbonización superficial aísla el interior y ralentiza la pérdida de sección.",
+  "referencia": "Tema e05"
  }
 ]
