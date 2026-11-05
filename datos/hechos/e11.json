@@ -252,7 +252,7 @@
   "referencia": "DB-SUA 9, apartado 1.1.2"
  },
  {
-  "pregunta": "¿Qué DB del CTE regula la contribución solar mínima de agua caliente?",
+  "pregunta": "¿Qué sección del DB-HE regula la contribución mínima de energía renovable para el agua caliente sanitaria?",
   "opciones": [
    "DB-HE 4",
    "DB-HE 1",
@@ -260,11 +260,11 @@
    "DB-HS 2"
   ],
   "correcta": 0,
-  "explicacion": "El DB-HE 4 fija la contribución solar mínima para el agua caliente sanitaria.",
+  "explicacion": "La sección HE 4 regula la contribución mínima de energía renovable para cubrir la demanda de ACS.",
   "referencia": "CTE, DB-HE 4"
  },
  {
-  "pregunta": "¿Qué DB del CTE regula la contribución fotovoltaica mínima?",
+  "pregunta": "¿Qué sección del DB-HE regula la generación mínima de energía eléctrica procedente de fuentes renovables?",
   "opciones": [
    "DB-HE 4",
    "DB-HE 5",
@@ -272,20 +272,20 @@
    "DB-HS 5"
   ],
   "correcta": 1,
-  "explicacion": "El DB-HE 5 regula la contribución fotovoltaica mínima de energía eléctrica.",
+  "explicacion": "La sección HE 5 regula la generación mínima de energía eléctrica de fuentes renovables.",
   "referencia": "CTE, DB-HE 5"
  },
  {
   "pregunta": "¿Qué DB del CTE regula la protección frente al rayo?",
   "opciones": [
-   "DB-SU 1",
+   "DB-SUA 8",
+   "DB-SUA 1",
    "DB-SI 1",
-   "DB-SU 8",
    "DB-HR"
   ],
-  "correcta": 2,
-  "explicacion": "El DB-SU 8 regula la protección frente a la acción del rayo.",
-  "referencia": "CTE, DB-SU 8"
+  "correcta": 0,
+  "explicacion": "La sección SUA 8 regula la seguridad frente al riesgo causado por la acción del rayo.",
+  "referencia": "CTE, DB-SUA 8"
  },
  {
   "pregunta": "¿Qué DB del CTE regula la protección frente al ruido?",
@@ -348,7 +348,7 @@
   "referencia": "CTE, DB-SI 4"
  },
  {
-  "pregunta": "¿Qué DB del CTE regula la limitación de la demanda energética?",
+  "pregunta": "¿Qué sección del DB-HE establece las condiciones para el control de la demanda energética?",
   "opciones": [
    "DB-HS 1",
    "DB-SI 3",
@@ -356,7 +356,7 @@
    "DB-SUA 2"
   ],
   "correcta": 2,
-  "explicacion": "El DB-HE 1 regula la limitación de la demanda energética de los edificios.",
+  "explicacion": "La sección HE 1 establece las condiciones para el control de la demanda energética.",
   "referencia": "CTE, DB-HE 1"
  }
 ]
