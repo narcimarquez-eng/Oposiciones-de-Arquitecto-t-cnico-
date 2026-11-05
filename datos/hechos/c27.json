@@ -276,42 +276,6 @@
   "referencia": "Art. 1 LTPA"
  },
  {
-  "pregunta": "¿Qué ley estatal regula la transparencia, el acceso a la información pública y el buen gobierno?",
-  "opciones": [
-   "Ley 19/2013, de 9 de diciembre",
-   "Ley 39/2015",
-   "Ley 7/1985",
-   "Ley 40/2015"
-  ],
-  "correcta": 0,
-  "explicacion": "La Ley 19/2013 regula la transparencia, el acceso a la información y el buen gobierno.",
-  "referencia": "Ley 19/2013"
- },
- {
-  "pregunta": "¿Qué ley regula la transparencia pública de Andalucía?",
-  "opciones": [
-   "Ley 9/2007",
-   "Ley 1/2014, de 24 de junio",
-   "Ley 5/2023",
-   "Ley 12/2007"
-  ],
-  "correcta": 1,
-  "explicacion": "La Ley 1/2014, de 24 de junio, regula la transparencia pública de Andalucía.",
-  "referencia": "Ley 1/2014"
- },
- {
-  "pregunta": "¿Qué plazo general tiene la Administración para resolver una solicitud de acceso a la información según la Ley 19/2013?",
-  "opciones": [
-   "Un día",
-   "Un año",
-   "Un mes, ampliable en otro mes",
-   "Tres años"
-  ],
-  "correcta": 2,
-  "explicacion": "La Ley 19/2013 fija un mes para resolver, ampliable en otro mes por complejidad.",
-  "referencia": "Ley 19/2013, art. 20"
- },
- {
   "pregunta": "¿Qué principios básicos del gobierno abierto se citan habitualmente?",
   "opciones": [
    "Secreto, jerarquía y silencio",
@@ -358,5 +322,65 @@
   "correcta": 0,
   "explicacion": "La rendición de cuentas exige informar sobre la gestión pública.",
   "referencia": "Tema c27"
+ },
+ {
+  "pregunta": "¿Qué solicitudes de acceso pueden inadmitirse por referirse a información en elaboración?",
+  "opciones": [
+   "Todas las solicitudes",
+   "Las relativas a información en curso de elaboración o de publicación general",
+   "Las que piden datos estadísticos",
+   "Las presentadas en papel"
+  ],
+  "correcta": 1,
+  "explicacion": "El art. 18.1 a) LTBG permite inadmitir solicitudes sobre información en curso de elaboración.",
+  "referencia": "Ley 19/2013, art. 18.1 a)"
+ },
+ {
+  "pregunta": "¿En qué plazo puede presentarse la reclamación ante el Consejo de Transparencia?",
+  "opciones": [
+   "Tres días",
+   "Un año",
+   "Cinco años",
+   "Un mes desde la notificación del acto impugnado"
+  ],
+  "correcta": 3,
+  "explicacion": "La reclamación se interpone en el plazo de un mes.",
+  "referencia": "Ley 19/2013, art. 24.2"
+ },
+ {
+  "pregunta": "¿Qué coste tiene el acceso a la información pública?",
+  "opciones": [
+   "Siempre de pago",
+   "Cuesta 100 euros",
+   "Es gratuito, aunque la expedición de copias puede estar sujeta a tasas",
+   "Depende del funcionario"
+  ],
+  "correcta": 2,
+  "explicacion": "El acceso es gratuito; la expedición de copias o la transposición a otro formato pueden dar lugar a exacciones.",
+  "referencia": "Ley 19/2013, art. 22.4"
+ },
+ {
+  "pregunta": "¿Qué órgano estatal promueve la transparencia y garantiza el derecho de acceso?",
+  "opciones": [
+   "El Consejo de Transparencia y Buen Gobierno",
+   "El Tribunal de Cuentas",
+   "El Defensor del Pueblo",
+   "La Agencia Tributaria"
+  ],
+  "correcta": 0,
+  "explicacion": "La Ley 19/2013 crea el Consejo de Transparencia y Buen Gobierno.",
+  "referencia": "Ley 19/2013, art. 33"
+ },
+ {
+  "pregunta": "¿Dónde debe publicarse la información sujeta a publicidad activa?",
+  "opciones": [
+   "Solo en el tablón físico",
+   "En las sedes electrónicas o páginas web, de forma clara y estructurada",
+   "En la prensa privada",
+   "En ningún sitio"
+  ],
+  "correcta": 1,
+  "explicacion": "La información de publicidad activa se publica en las sedes electrónicas o páginas web.",
+  "referencia": "Ley 19/2013, art. 5.4"
  }
 ]

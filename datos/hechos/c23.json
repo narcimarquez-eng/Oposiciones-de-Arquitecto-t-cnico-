@@ -310,5 +310,125 @@
   "correcta": 0,
   "explicacion": "SQL es el lenguaje estándar para consultar y manipular bases de datos relacionales.",
   "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué modelo de base de datos organiza los datos en tablas relacionadas?",
+  "opciones": [
+   "El modelo jerárquico",
+   "El modelo en red",
+   "El modelo de ficheros planos",
+   "El modelo relacional"
+  ],
+  "correcta": 3,
+  "explicacion": "El modelo relacional representa los datos en tablas (relaciones).",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué es una clave primaria?",
+  "opciones": [
+   "Una contraseña de acceso",
+   "Un índice opcional sin unicidad",
+   "El atributo o conjunto de atributos que identifica de forma única cada fila",
+   "Un campo de texto libre"
+  ],
+  "correcta": 2,
+  "explicacion": "La clave primaria identifica unívocamente cada registro de una tabla.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué es una clave ajena o foránea?",
+  "opciones": [
+   "Un atributo que referencia la clave primaria de otra tabla",
+   "Una clave de cifrado",
+   "Una clave duplicada",
+   "Un usuario externo"
+  ],
+  "correcta": 0,
+  "explicacion": "La clave ajena garantiza la integridad referencial entre tablas.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué proceso del diseño relacional elimina redundancias?",
+  "opciones": [
+   "La indexación",
+   "La normalización",
+   "La compresión",
+   "La replicación"
+  ],
+  "correcta": 1,
+  "explicacion": "La normalización organiza las tablas para evitar redundancias y anomalías.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué sentencia SQL se usa para consultar datos?",
+  "opciones": [
+   "INSERT",
+   "DELETE",
+   "DROP",
+   "SELECT"
+  ],
+  "correcta": 3,
+  "explicacion": "SELECT recupera datos de una o varias tablas.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué propiedad ACID garantiza que los cambios confirmados persisten aunque falle el sistema?",
+  "opciones": [
+   "Atomicidad",
+   "Aislamiento",
+   "Consistencia",
+   "Durabilidad"
+  ],
+  "correcta": 3,
+  "explicacion": "La durabilidad asegura la persistencia de las transacciones confirmadas.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué algoritmo de planificación asigna a cada proceso un turno de tiempo fijo?",
+  "opciones": [
+   "Round Robin",
+   "FIFO",
+   "Prioridades estáticas",
+   "El más corto primero"
+  ],
+  "correcta": 0,
+  "explicacion": "Round Robin reparte el procesador en quantums de tiempo rotatorios.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Cómo se llama la situación en que varios procesos se bloquean esperando recursos retenidos entre sí?",
+  "opciones": [
+   "Paginación",
+   "Multiprogramación",
+   "Interbloqueo",
+   "Swapping"
+  ],
+  "correcta": 2,
+  "explicacion": "El interbloqueo (deadlock) bloquea indefinidamente a los procesos.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Cómo se llama el núcleo del sistema operativo?",
+  "opciones": [
+   "Shell",
+   "BIOS",
+   "Driver",
+   "Kernel"
+  ],
+  "correcta": 3,
+  "explicacion": "El kernel es el núcleo que gestiona los recursos del sistema.",
+  "referencia": "Tema c23"
+ },
+ {
+  "pregunta": "¿Qué técnica de gestión de memoria la divide en bloques de tamaño fijo?",
+  "opciones": [
+   "La segmentación variable",
+   "La fragmentación",
+   "La paginación",
+   "El spooling"
+  ],
+  "correcta": 2,
+  "explicacion": "La paginación divide la memoria en páginas y marcos de tamaño fijo.",
+  "referencia": "Tema c23"
  }
 ]
