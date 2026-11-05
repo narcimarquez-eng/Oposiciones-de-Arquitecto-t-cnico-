@@ -418,5 +418,41 @@
   "correcta": 0,
   "explicacion": "En cualquier otro uso, una plaza accesible por cada 50 plazas o fracción.",
   "referencia": "CTE, DB-SUA 9, apartado 1.2.3"
+ },
+ {
+  "pregunta": "¿Qué pendiente máxima puede tener una rampa de un itinerario accesible con proyección horizontal inferior a 3 m según el Decreto 293/2009?",
+  "opciones": [
+   "12 %",
+   "6 %",
+   "10 %",
+   "20 %"
+  ],
+  "correcta": 2,
+  "explicacion": "Las rampas con proyección inferior a 3 m tienen pendiente máxima del 10 %, del 8 % si es inferior a 6 m y del 6 % en el resto.",
+  "referencia": "Decreto 293/2009"
+ },
+ {
+  "pregunta": "¿Qué pendiente máxima puede tener esa rampa cuando su proyección horizontal está entre 3 y 6 m?",
+  "opciones": [
+   "10 %",
+   "6 %",
+   "8 %",
+   "12 %"
+  ],
+  "correcta": 2,
+  "explicacion": "Para proyecciones inferiores a 6 m la pendiente máxima es del 8 %.",
+  "referencia": "Decreto 293/2009"
+ },
+ {
+  "pregunta": "¿Qué pendiente máxima rige para las rampas accesibles de mayor longitud?",
+  "opciones": [
+   "8 %",
+   "10 %",
+   "6 %",
+   "15 %"
+  ],
+  "correcta": 2,
+  "explicacion": "En el resto de casos la pendiente máxima es del 6 %.",
+  "referencia": "Decreto 293/2009"
  }
 ]

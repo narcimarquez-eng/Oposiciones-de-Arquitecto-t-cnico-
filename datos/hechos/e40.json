@@ -358,5 +358,41 @@
   "correcta": 0,
   "explicacion": "El datum define el sistema de referencia geodésico que sitúa la cartografía.",
   "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Cómo se denomina la infraestructura europea de información geográfica?",
+  "opciones": [
+   "GALILEO",
+   "COPERNICUS",
+   "SEPA",
+   "INSPIRE"
+  ],
+  "correcta": 3,
+  "explicacion": "La Directiva INSPIRE establece la infraestructura de información espacial en la Unión Europea.",
+  "referencia": "Ley 14/2010, preámbulo"
+ },
+ {
+  "pregunta": "¿Qué órgano regula la Ley 14/2010 en materia de información geográfica y cartografía oficial?",
+  "opciones": [
+   "El Consejo Superior Geográfico",
+   "El Consejo de Estado",
+   "El Consejo Económico y Social",
+   "El Instituto Nacional de Estadística"
+  ],
+  "correcta": 0,
+  "explicacion": "La Ley 14/2010 regula el Consejo Superior Geográfico.",
+  "referencia": "Ley 14/2010, art. 19"
+ },
+ {
+  "pregunta": "¿Qué infraestructura nacional regula la Ley 14/2010?",
+  "opciones": [
+   "La Red de Carreteras del Estado",
+   "La Red Eléctrica de España",
+   "La Infraestructura de Información Geográfica de España",
+   "El Catastro de Rústica"
+  ],
+  "correcta": 2,
+  "explicacion": "La Ley 14/2010 regula las infraestructuras y servicios de información geográfica en España, entre ellas la IIGE.",
+  "referencia": "Ley 14/2010"
  }
 ]

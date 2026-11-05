@@ -358,5 +358,53 @@
   "correcta": 0,
   "explicacion": "El valor del suelo depende de su clasificación y del aprovechamiento urbanístico.",
   "referencia": "RDL 7/2015"
+ },
+ {
+  "pregunta": "¿Cómo se tasan los terrenos en situación de suelo rural según el texto refundido de la Ley de Suelo?",
+  "opciones": [
+   "Mediante la capitalización de la renta anual real o potencial, la que sea superior",
+   "Por el método residual dinámico",
+   "Por el valor catastral multiplicado por dos",
+   "Por el precio que fije el propietario"
+  ],
+  "correcta": 0,
+  "explicacion": "Los terrenos rurales se tasan por capitalización de la renta anual real o potencial de la explotación.",
+  "referencia": "RDL 7/2015 (TRLS), art. 36"
+ },
+ {
+  "pregunta": "¿Con qué método se determina el valor de repercusión del suelo urbanizado según el TRLS?",
+  "opciones": [
+   "El método de capitalización",
+   "El método del coste de reposición",
+   "El método de comparación con suelo rural",
+   "El método residual estático"
+  ],
+  "correcta": 3,
+  "explicacion": "El valor de repercusión del suelo se determina por el método residual estático.",
+  "referencia": "RDL 7/2015 (TRLS), art. 37"
+ },
+ {
+  "pregunta": "¿Qué diferencia el valor hipotecario del valor de mercado según la Orden ECO/805/2003?",
+  "opciones": [
+   "El valor hipotecario es siempre el doble",
+   "No hay diferencia",
+   "El valor hipotecario es el valor catastral",
+   "El valor hipotecario es el valor sostenible en el tiempo"
+  ],
+  "correcta": 3,
+  "explicacion": "El valor de mercado es el valor en un momento del tiempo y el hipotecario el valor sostenible en el tiempo.",
+  "referencia": "Orden ECO/805/2003, preámbulo"
+ },
+ {
+  "pregunta": "¿Qué es la depreciación física según la Orden ECO/805/2003?",
+  "opciones": [
+   "El aumento del valor por la inflación",
+   "La reducción de impuestos",
+   "El coste del solar",
+   "La pérdida del valor de reemplazamiento bruto por antigüedad, estado de conservación y duración de sus componentes"
+  ],
+  "correcta": 3,
+  "explicacion": "La depreciación física es la pérdida que experimenta el valor de reemplazamiento bruto.",
+  "referencia": "Orden ECO/805/2003, art. 4"
  }
 ]
