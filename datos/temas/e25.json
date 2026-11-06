@@ -1,0 +1,172 @@
+{
+  "id": "e25",
+  "resumen": [
+    {
+      "titulo": "Contrato de obras y documentos previos",
+      "puntos": [
+        "Contrato de obras: ejecución de una obra, aislada o con redacción del proyecto, o trabajos del anexo I (art. 13.1 LCSP).",
+        "Antes de adjudicar: elaboración, supervisión, aprobación y replanteo del proyecto (art. 231.1)."
+      ]
+    },
+    {
+      "titulo": "Clasificación y contenido del proyecto",
+      "puntos": [
+        "Grupos: primer establecimiento, reforma y gran reparación; reparación simple; conservación y mantenimiento; demolición (art. 232.1).",
+        "Contenido: memoria, planos, pliego de prescripciones técnicas particulares, presupuesto y programa de trabajos (art. 233.1)."
+      ]
+    },
+    {
+      "titulo": "Supervisión, replanteo y responsabilidad",
+      "puntos": [
+        "Supervisión obligatoria desde 500.000 euros de presupuesto base (art. 235).",
+        "Replanteo antes de aprobar el expediente (art. 236.1). Responsabilidad de los autores del proyecto según el caso (art. 233.4)."
+      ]
+    },
+    {
+      "titulo": "Expediente de contratación",
+      "puntos": [
+        "Motivación de la necesidad, publicación en el perfil de contratante y pliegos incorporados (art. 116 LCSP).",
+        "Aprobación por resolución motivada que incluye la aprobación del gasto (art. 117.1)."
+      ]
+    },
+    {
+      "titulo": "Contratos menores y urgencia",
+      "puntos": [
+        "Contrato menor: 40.000 euros en obras (art. 118.1); requiere informe de necesidad y factura (art. 118.2 y 118.3).",
+        "Tramitación urgente con declaración motivada (art. 119.1). Tramitación de emergencia (art. 120)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LCSP",
+      "rol": "Norma principal del tema (arts. 1, 13, 116 a 120, 231 a 236)"
+    },
+    {
+      "id": "EA-ANDALUCIA",
+      "rol": "Complementaria: competencia de organización contractual (art. 47.1.4.ª)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Qué comprende el contrato de obras según el art. 13.1 LCSP?",
+      "opciones": [
+        "La ejecución de una obra, aislada o con la redacción del proyecto, o los trabajos del anexo I",
+        "Solo el suministro de materiales",
+        "Solo la conservación de instalaciones",
+        "La compra de vehículos"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 13.1 LCSP define el contrato de obras como el que tiene por objeto la ejecución de una obra, aislada o con la redacción del proyecto, o la realización de los trabajos del anexo I.",
+      "referencia": "Art. 13.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué requisito previo exige la ley para adjudicar un contrato de obras?",
+      "opciones": [
+        "Solo el presupuesto",
+        "La firma del contrato",
+        "La elaboración, supervisión, aprobación y replanteo del proyecto",
+        "La publicación en prensa"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 231.1 LCSP exige la previa elaboración, supervisión, aprobación y replanteo del proyecto que defina con precisión el objeto del contrato.",
+      "referencia": "Art. 231.1 LCSP"
+    },
+    {
+      "pregunta": "¿Cuál NO es un grupo de obras a efectos de elaboración de proyectos?",
+      "opciones": [
+        "Primer establecimiento",
+        "Reparación simple",
+        "Demolición",
+        "Compraventa de solar"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 232.1 LCSP clasifica las obras en primer establecimiento, reforma, restauración, rehabilitación o gran reparación; reparación simple; conservación y mantenimiento; y demolición.",
+      "referencia": "Art. 232.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué debe contener, como mínimo, un proyecto de obras?",
+      "opciones": [
+        "Pólizas de seguro",
+        "Currículum del contratista",
+        "Memoria",
+        "Actas de la junta"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 233.1 LCSP exige memoria, planos, pliego de prescripciones técnicas particulares, presupuesto y programa de trabajos.",
+      "referencia": "Art. 233.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué debe comprobar el replanteo?",
+      "opciones": [
+        "La solvencia del licitador",
+        "La realidad geométrica de la obra y la disponibilidad de los terrenos",
+        "El precio final",
+        "La plantilla de trabajadores"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 236.1 LCSP establece que el replanteo consiste en comprobar la realidad geométrica de la obra y la disponibilidad de los terrenos.",
+      "referencia": "Art. 236.1 LCSP"
+    },
+    {
+      "pregunta": "¿Dónde debe publicarse el expediente de contratación?",
+      "opciones": [
+        "En el perfil de contratante",
+        "En el BOE siempre",
+        "En un periódico",
+        "En el registro civil"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 116.1 LCSP establece que el expediente debe publicarse en el perfil de contratante.",
+      "referencia": "Art. 116.1 LCSP"
+    },
+    {
+      "pregunta": "¿Cuál es el límite del contrato menor de obras?",
+      "opciones": [
+        "15.000 €",
+        "100.000 €",
+        "40.000 €",
+        "500.000 €"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 118.1 LCSP considera contratos menores los de obras de valor estimado inferior a 40.000 euros.",
+      "referencia": "Art. 118.1 LCSP"
+    },
+    {
+      "pregunta": "¿Cuál es el requisito de la tramitación urgente?",
+      "opciones": [
+        "Un decreto ley",
+        "Nada",
+        "Acuerdo del Pleno en todo caso",
+        "Declaración de urgencia motivada del órgano de contratación"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 119.1 LCSP exige que el expediente contenga la declaración de urgencia hecha por el órgano de contratación, debidamente motivada.",
+      "referencia": "Art. 119.1 LCSP"
+    },
+    {
+      "pregunta": "¿Desde qué presupuesto de licitación es obligatoria la supervisión del proyecto?",
+      "opciones": [
+        "100.000 €",
+        "1.000.000 €",
+        "Siempre",
+        "500.000 €, IVA excluido"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 235 LCSP exige la supervisión cuando el presupuesto base de licitación del contrato de obras es igual o superior a 500.000 euros, IVA excluido.",
+      "referencia": "Art. 235 LCSP"
+    },
+    {
+      "pregunta": "Si la Administración encarga íntegramente la elaboración del proyecto, ¿qué ocurre con su autor?",
+      "opciones": [
+        "No responde",
+        "El autor responde en los términos de la ley",
+        "Responde el licitador",
+        "Responde la Junta de Andalucía en todo caso"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 233.4 LCSP establece que, cuando la elaboración del proyecto se contrata íntegramente por la Administración, su autor incurre en responsabilidad en los términos de la ley.",
+      "referencia": "Art. 233.4 LCSP"
+    }
+  ]
+}

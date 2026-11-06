@@ -1,0 +1,185 @@
+{
+  "id": "e40",
+  "resumen": [
+    {
+      "titulo": "Concepto y componentes de un SIG",
+      "puntos": [
+        "Un SIG captura, almacena, consulta, analiza y representa datos con referencia espacial. Su rasgo distintivo es que cada dato va asociado a una posición y puede combinarse con otros datos que comparten sistema de referencia.",
+        "Componentes: equipamiento físico, software, datos, personas y procedimientos. La calidad del sistema depende sobre todo de los datos y de los procedimientos de captura, control y actualización."
+      ]
+    },
+    {
+      "titulo": "Modelos de datos y referencia espacial",
+      "puntos": [
+        "Modelo vectorial: puntos, líneas y polígonos con atributos (parcelas, calles, redes). Modelo ráster: malla de celdas con un valor (altitudes, imágenes de satélite).",
+        "Los datos necesitan un sistema de referencia (datum y proyección). Los atributos son los datos no geométricos asociados a cada objeto."
+      ]
+    },
+    {
+      "titulo": "Implementación y organización",
+      "puntos": [
+        "Fases: análisis de necesidades, diseño de la base de datos, captura y carga, control de calidad (precisión posicional, completitud, coherencia topológica y actualidad), análisis y representación, difusión y mantenimiento.",
+        "La documentación con metadatos es obligatoria para los datos de los anexos de la Ley 14/2010 (art. 9, apartado 1)."
+      ]
+    },
+    {
+      "titulo": "Análisis y aplicaciones",
+      "puntos": [
+        "Operaciones básicas: consulta por atributos, consulta por localización, superposición de capas, zona de influencia (buffer), análisis de redes e interpolación.",
+        "Aplicaciones: urbanismo y planeamiento, catastro, gestión de patrimonio edificado, mapas de ruido (Ley 37/2003, arts. 14 a 16) y protección civil."
+      ]
+    },
+    {
+      "titulo": "Infraestructura de Datos Espaciales (IDE)",
+      "puntos": [
+        "Definición: estructura virtual en red de datos georreferenciados y servicios interoperables, accesible por Internet con protocolos normalizados (Ley 14/2010, art. 3.1, letra a).",
+        "La Infraestructura de Información Geográfica de España incluye el territorio nacional, el mar territorial, la zona contigua, la plataforma continental y la zona económica exclusiva (art. 1, apartado 2). Los datos se ponen a disposición a través del Geoportal (art. 5, apartado 1)."
+      ]
+    },
+    {
+      "titulo": "Definiciones de la Ley 14/2010",
+      "puntos": [
+        "Datos geográficos: cualesquiera datos que, de forma directa o indirecta, hagan referencia a una localización (art. 3.1, letra b). Metadatos: información que describe los conjuntos de datos y servicios y permite localizarlos, inventariarlos y utilizarlos (letra f). Interoperabilidad: capacidad de combinar conjuntos de datos sin intervención manual repetitiva (letra g).",
+        "Sistema Cartográfico Nacional: modelo de actuación que coordina a los operadores públicos con competencias concurrentes (art. 17, apartado 1)."
+      ]
+    },
+    {
+      "titulo": "Mapas de ruido",
+      "puntos": [
+        "La Ley 37/2003 regula la identificación de los mapas de ruido (art. 14), sus fines y contenido (art. 15) y su revisión (art. 16). Los mapas son la base para planificar las medidas correctoras y las zonas de servidumbre acústica (art. 10)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "L-14-2010",
+      "rol": "Infraestructuras y servicios de información geográfica: definiciones, geoportal, metadatos e interoperabilidad (arts. 1, 3, 5, 9 y 17)"
+    },
+    {
+      "id": "L-37-2003",
+      "rol": "Mapas de ruido: identificación, fines, contenido y revisión (arts. 14 a 16)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según la Ley 14/2010, art. 3.1, letra a, ¿qué es una infraestructura de información geográfica?",
+      "opciones": [
+        "Una estructura virtual en red integrada por datos georreferenciados y servicios interoperables, accesible por Internet",
+        "Un mapa impreso del territorio nacional",
+        "Un contrato de suministro de hardware",
+        "Un edificio que aloja los servidores de una administración"
+      ],
+      "correcta": 0,
+      "explicacion": "La ley define la infraestructura de información geográfica como una estructura virtual en red integrada por datos georreferenciados y servicios interoperables, accesible por Internet con protocolos normalizados (art. 3.1, letra a).",
+      "referencia": "Ley 14/2010, art. 3.1, letra a)"
+    },
+    {
+      "pregunta": "Según la Ley 14/2010, art. 3.1, letra f, ¿qué son los metadatos?",
+      "opciones": [
+        "El tamaño en bytes de un fichero ráster",
+        "Los datos personales de los usuarios del geoportal",
+        "Información que describe los conjuntos de datos geográficos y los servicios, y que permite localizarlos, inventariarlos y utilizarlos",
+        "El precio de los datos geográficos"
+      ],
+      "correcta": 2,
+      "explicacion": "Los metadatos son la información que describe los conjuntos de datos geográficos y los servicios de información geográfica, y que hace posible localizarlos, inventariarlos y utilizarlos (art. 3.1, letra f).",
+      "referencia": "Ley 14/2010, art. 3.1, letra f)"
+    },
+    {
+      "pregunta": "Según la Ley 14/2010, art. 3.1, letra g, ¿qué es la interoperabilidad de servicios de información geográfica?",
+      "opciones": [
+        "La prohibición de compartir datos entre administraciones",
+        "La conversión de los mapas en fotografías",
+        "La posibilidad de imprimir un mapa en color",
+        "La capacidad de combinar conjuntos de datos sin intervención manual repetitiva, con resultados coherentes"
+      ],
+      "correcta": 3,
+      "explicacion": "La interoperabilidad es la capacidad de combinar conjuntos de datos geográficos y facilitar la interacción de los servicios sin intervención manual repetitiva, de forma que el resultado sea coherente (art. 3.1, letra g).",
+      "referencia": "Ley 14/2010, art. 3.1, letra g)"
+    },
+    {
+      "pregunta": "Según la Ley 14/2010, art. 5, apartado 1, ¿a través de qué instrumento estarán disponibles los datos y servicios de la IDE proporcionados por las administraciones?",
+      "opciones": [
+        "A través del Boletín Oficial del Estado",
+        "A través del Geoportal de la Infraestructura de Datos Espaciales de España",
+        "A través de los registros de la propiedad",
+        "A través de una aplicación de mensajería"
+      ],
+      "correcta": 1,
+      "explicacion": "Los datos geográficos y los servicios interoperables proporcionados a través de Internet por las administraciones integradas en la Infraestructura estarán disponibles a través del Geoportal (art. 5, apartado 1).",
+      "referencia": "Ley 14/2010, art. 5, apartado 1"
+    },
+    {
+      "pregunta": "Según la Ley 14/2010, art. 5, apartado 2, ¿quién actúa como secretaría técnica del Geoportal?",
+      "opciones": [
+        "La Dirección General del Instituto Geográfico Nacional",
+        "El Consejo General del Notariado",
+        "La Agencia Tributaria",
+        "El Ministerio de Hacienda"
+      ],
+      "correcta": 0,
+      "explicacion": "La Dirección General del Instituto Geográfico Nacional actúa como secretaría técnica del Geoportal (art. 5, apartado 2).",
+      "referencia": "Ley 14/2010, art. 5, apartado 2"
+    },
+    {
+      "pregunta": "Según la Ley 14/2010, art. 17, apartado 1, ¿qué es el Sistema Cartográfico Nacional?",
+      "opciones": [
+        "Un programa de software de dibujo",
+        "Un catálogo de precios de los levantamientos topográficos",
+        "Un modelo de actuación que persigue el ejercicio eficaz de las funciones públicas en materia de información geográfica mediante la coordinación de los operadores públicos",
+        "Un tipo de proyección cartográfica"
+      ],
+      "correcta": 2,
+      "explicacion": "El Sistema Cartográfico Nacional es un modelo de actuación que persigue el ejercicio eficaz de las funciones públicas en materia de información geográfica, mediante la coordinación de los operadores públicos con competencias concurrentes (art. 17, apartado 1).",
+      "referencia": "Ley 14/2010, art. 17, apartado 1"
+    },
+    {
+      "pregunta": "Según la Ley 14/2010, art. 9, apartado 1, ¿para qué datos deben las administraciones asegurar la creación y actualización de metadatos?",
+      "opciones": [
+        "Solo para los mapas en papel",
+        "Para ningún dato, porque los metadatos son voluntarios",
+        "Para todos los documentos de la administración, sin excepción",
+        "Para los datos geográficos y servicios de los apartados h), i) y j) del artículo 3.1, enumerados en sus anexos"
+      ],
+      "correcta": 3,
+      "explicacion": "Las administraciones deben asegurar la creación y actualización de metadatos para los datos geográficos y servicios de los apartados h), i) y j) del artículo 3.1, enumerados en los anexos I, II y III de la ley (art. 9, apartado 1).",
+      "referencia": "Ley 14/2010, art. 9, apartado 1"
+    },
+    {
+      "pregunta": "Según la Ley 14/2010, art. 1, apartado 2, ¿qué espacios incluye la Infraestructura de Información Geográfica de España?",
+      "opciones": [
+        "Solo el suelo de las comunidades autónomas",
+        "El territorio nacional, el mar territorial, la zona contigua, la plataforma continental y la zona económica exclusiva",
+        "Solo las capitales de provincia",
+        "Únicamente los terrenos de titularidad pública"
+      ],
+      "correcta": 1,
+      "explicacion": "La infraestructura está constituida por las infraestructuras y servicios interoperables disponibles sobre el territorio nacional, el mar territorial, la zona contigua, la plataforma continental y la zona económica exclusiva (art. 1, apartado 2).",
+      "referencia": "Ley 14/2010, art. 1, apartado 2"
+    },
+    {
+      "pregunta": "Según la Ley 37/2003, art. 14, ¿qué regula este precepto en relación con el ruido?",
+      "opciones": [
+        "El horario de las obras",
+        "El precio de los auriculares",
+        "La identificación de los mapas de ruido",
+        "La concesión de licencias de bares"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 14 de la Ley del Ruido regula la identificación de los mapas de ruido, que el artículo 15 desarrolla en cuanto a sus fines y contenido.",
+      "referencia": "Ley 37/2003, art. 14"
+    },
+    {
+      "pregunta": "Según la Ley 14/2010, art. 3.1, letra b, ¿qué son los datos geográficos?",
+      "opciones": [
+        "Cualesquiera datos que, de forma directa o indirecta, hagan referencia a una localización o zona geográfica específica",
+        "Únicamente los datos obtenidos por satélite",
+        "Solo los datos del catastro de bienes rústicos",
+        "Los datos que expresamente carecen de localización"
+      ],
+      "correcta": 0,
+      "explicacion": "Los datos geográficos son cualesquiera datos que, de forma directa o indirecta, hagan referencia a una localización o zona geográfica específica (art. 3.1, letra b).",
+      "referencia": "Ley 14/2010, art. 3.1, letra b)"
+    }
+  ]
+}

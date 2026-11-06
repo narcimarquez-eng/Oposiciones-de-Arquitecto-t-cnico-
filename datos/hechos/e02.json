@@ -1,0 +1,482 @@
+[
+ {
+  "pregunta": "¿Qué es el estudio geotécnico?",
+  "opciones": [
+   "Un compendio de información cuantificada sobre el terreno para dimensionar los cimientos",
+   "Un plano de la red de agua",
+   "Un estudio de tráfico",
+   "Un estudio de precios"
+  ],
+  "correcta": 0,
+  "explicacion": "El estudio geotécnico es el compendio de información cuantificada sobre el terreno, necesario para dimensionar los cimientos.",
+  "referencia": "DB-SE-C, apartado 3.1"
+ },
+ {
+  "pregunta": "¿Quién redacta el estudio geotécnico?",
+  "opciones": [
+   "El proyectista u otro técnico competente, con visado colegial",
+   "El vecino",
+   "El operario",
+   "El proveedor"
+  ],
+  "correcta": 0,
+  "explicacion": "Lo redacta el proyectista u otro técnico competente, con visado colegial.",
+  "referencia": "DB-SE-C, apartado 3.1 punto 6"
+ },
+ {
+  "pregunta": "¿Cuántos perfiles mínimos se necesitan en las categorías C-0 y C-1 del estudio geotécnico?",
+  "opciones": [
+   "Dos",
+   "Tres",
+   "Cinco",
+   "Ninguno"
+  ],
+  "correcta": 0,
+  "explicacion": "Para C-0 y C-1 son dos perfiles; para el resto, tres.",
+  "referencia": "DB-SE-C, apartado 3.3"
+ },
+ {
+  "pregunta": "¿Qué tipo de cimentación reparte las cargas en un plano horizontal?",
+  "opciones": [
+   "La cimentación directa",
+   "La cimentación profunda",
+   "La cimentación por pilotes",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "Las cimentaciones directas reparten las cargas en un plano horizontal.",
+  "referencia": "DB-SE-C, apartado 4.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de zapata sirve a un solo pilar?",
+  "opciones": [
+   "La zapata aislada",
+   "La zapata corrida",
+   "La losa",
+   "El emparrillado"
+  ],
+  "correcta": 0,
+  "explicacion": "La zapata aislada sirve a un pilar.",
+  "referencia": "DB-SE-C, tabla 4.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de cimentación sirve a tres o más pilares alineados?",
+  "opciones": [
+   "La zapata corrida",
+   "La zapata aislada",
+   "El pozo",
+   "El pilote"
+  ],
+  "correcta": 0,
+  "explicacion": "La zapata corrida sirve a tres o más pilares alineados.",
+  "referencia": "DB-SE-C, tabla 4.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de cimentación sirve a un conjunto de pilares y muros?",
+  "opciones": [
+   "La losa",
+   "La zapata aislada",
+   "El pozo",
+   "El pilote"
+  ],
+  "correcta": 0,
+  "explicacion": "La losa sirve a un conjunto de pilares y muros.",
+  "referencia": "DB-SE-C, tabla 4.1"
+ },
+ {
+  "pregunta": "¿Qué inconveniente puede tener la losa en suelos compresibles?",
+  "opciones": [
+   "Asientos considerables en suelos de gran espesor",
+   "Ninguno",
+   "Hundimiento inmediato del edificio",
+   "Pérdida del color"
+  ],
+  "correcta": 0,
+  "explicacion": "La losa da la mínima presión unitaria, pero puede dar asientos considerables en suelos compresibles de gran espesor.",
+  "referencia": "DB-SE-C, apartado 4.1.5"
+ },
+ {
+  "pregunta": "¿A partir de qué profundidad se considera profunda una cimentación?",
+  "opciones": [
+   "Más de ocho veces su diámetro o ancho",
+   "Un metro",
+   "Dos centímetros",
+   "Cualquier profundidad"
+  ],
+  "correcta": 0,
+  "explicacion": "Es profunda cuando el extremo inferior está a más de ocho veces su diámetro o ancho.",
+  "referencia": "DB-SE-C, apartado 5.1.1"
+ },
+ {
+  "pregunta": "¿Cómo se clasifican los pilotes según su trabajo?",
+  "opciones": [
+   "Por fuste (flotantes) o por punta (columna)",
+   "Por color",
+   "Por peso",
+   "Por nombre del fabricante"
+  ],
+  "correcta": 0,
+  "explicacion": "Los pilotes se clasifican por fuste (flotantes) o por punta (columna).",
+  "referencia": "DB-SE-C, apartado 5.1.2.1"
+ },
+ {
+  "pregunta": "¿Cuándo se ejecutan las pantallas de contención?",
+  "opciones": [
+   "Antes de la excavación",
+   "Después de terminar el edificio",
+   "Nunca",
+   "Solo en Navidad"
+  ],
+  "correcta": 0,
+  "explicacion": "Las pantallas se ejecutan antes de la excavación y trabajan a flexión.",
+  "referencia": "DB-SE-C, apartado 6.1.1"
+ },
+ {
+  "pregunta": "¿Qué exige el nivel freático en las pantallas?",
+  "opciones": [
+   "Impermeabilización suplementaria conforme al DB-HS",
+   "Nada",
+   "Un globo",
+   "Sólo pintura"
+  ],
+  "correcta": 0,
+  "explicacion": "Si hay nivel freático, las pantallas necesitan impermeabilización suplementaria conforme al DB-HS.",
+  "referencia": "DB-SE-C, apartado 6.1.1"
+ },
+ {
+  "pregunta": "¿Qué exigencia del CTE corresponde a la aptitud al servicio?",
+  "opciones": [
+   "SE 2, sin deformaciones inadmisibles",
+   "SI 1, incendios",
+   "HS 5, residuales",
+   "HE 1, energía"
+  ],
+  "correcta": 0,
+  "explicacion": "La exigencia SE 2 corresponde a la aptitud al servicio sin deformaciones inadmisibles.",
+  "referencia": "CTE, art. 10.2"
+ },
+ {
+  "pregunta": "¿Qué documento del CTE concreta las cimentaciones?",
+  "opciones": [
+   "El DB-SE-C",
+   "El DB-HS",
+   "El DB-SI",
+   "El DB-HE"
+  ],
+  "correcta": 0,
+  "explicacion": "El DB-SE-C concreta las cimentaciones.",
+  "referencia": "CTE, art. 10.3"
+ },
+ {
+  "pregunta": "¿Qué se comprueba durante la ejecución de la cimentación?",
+  "opciones": [
+   "Replanteo, dimensiones, armaduras, recubrimientos y compactación",
+   "Solo el color del hormigón",
+   "Solo la fecha",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "Durante la ejecución se comprueban el replanteo, las dimensiones, las armaduras, los recubrimientos y la compactación.",
+  "referencia": "DB-SE-C, apartado 4.6.4"
+ },
+ {
+  "pregunta": "¿Qué se hace con las bolsadas blandas del terreno?",
+  "opciones": [
+   "Se excavan y sustituyen",
+   "Se dejan",
+   "Se pintan",
+   "Se cubren con arena fina sin más"
+  ],
+  "correcta": 0,
+  "explicacion": "Las bolsadas blandas se excavan y sustituyen.",
+  "referencia": "DB-SE-C, apartado 4.5.1.1"
+ },
+ {
+  "pregunta": "¿Quién controla la calidad de lo edificado según la LOE?",
+  "opciones": [
+   "El director de la ejecución de la obra",
+   "El vecino",
+   "El proveedor de áridos",
+   "El alcalde"
+  ],
+  "correcta": 0,
+  "explicacion": "El director de la ejecución controla la calidad de lo edificado.",
+  "referencia": "LOE, art. 13.1"
+ },
+ {
+  "pregunta": "¿Qué forma parte del libro del edificio?",
+  "opciones": [
+   "El plan de mantenimiento",
+   "La lista de la compra",
+   "El menú del bar",
+   "El horario de la oficina"
+  ],
+  "correcta": 0,
+  "explicacion": "El plan de mantenimiento forma parte del libro del edificio.",
+  "referencia": "CTE, art. 8.1.3"
+ },
+ {
+  "pregunta": "¿Cuántos años responde la LOE por daños que afecten a la cimentación?",
+  "opciones": [
+   "Diez años",
+   "Un año",
+   "Cinco años",
+   "Veinte años"
+  ],
+  "correcta": 0,
+  "explicacion": "La LOE responde diez años por los daños que afecten a la cimentación.",
+  "referencia": "LOE, art. 17.1 a)"
+ },
+ {
+  "pregunta": "¿Qué se debe localizar antes de excavar?",
+  "opciones": [
+   "Cables y conducciones subterráneas",
+   "Ninguna cosa",
+   "Los nidos de pájaros",
+   "Las setas"
+  ],
+  "correcta": 0,
+  "explicacion": "Antes de excavar deben localizarse los cables y conducciones subterráneas.",
+  "referencia": "RD 1627/1997, anexo IV, apartado 9.a"
+ },
+ {
+  "pregunta": "¿Qué previene la entibación en una excavación?",
+  "opciones": [
+   "El sepultamiento",
+   "El ruido",
+   "El color",
+   "El retraso"
+  ],
+  "correcta": 0,
+  "explicacion": "La entibación, el blindaje, el apeo o los taludes previenen el sepultamiento.",
+  "referencia": "RD 1627/1997, anexo IV, apartado 9.b"
+ },
+ {
+  "pregunta": "¿Quién debe supervisar el derribo de elementos existentes?",
+  "opciones": [
+   "Una persona competente",
+   "El conductor de la grúa",
+   "El vecino",
+   "El proveedor"
+  ],
+  "correcta": 0,
+  "explicacion": "El derribo de elementos existentes exige supervisión de persona competente.",
+  "referencia": "RD 1627/1997, anexo IV, apartado 12.a"
+ },
+ {
+  "pregunta": "¿Qué mide el estudio geotécnico que sirve de base para los cimientos?",
+  "opciones": [
+   "Información cuantificada sobre el terreno",
+   "La altura de los vecinos",
+   "El precio del cemento",
+   "El horario de las obras"
+  ],
+  "correcta": 0,
+  "explicacion": "El estudio geotécnico aporta información cuantificada sobre el terreno.",
+  "referencia": "DB-SE-C, apartado 3.1"
+ },
+ {
+  "pregunta": "¿Qué se confirma antes de cimentar?",
+  "opciones": [
+   "El estudio geotécnico y que el terreno corresponde a lo previsto",
+   "La opinión del alcalde",
+   "La marca de la grúa",
+   "El precio del café"
+  ],
+  "correcta": 0,
+  "explicacion": "Antes de cimentar se confirma el estudio y se comprueba que el terreno corresponde a lo previsto.",
+  "referencia": "DB-SE-C, apartado 4.6.2"
+ },
+ {
+  "pregunta": "¿Qué estudio previo es necesario para diseñar la cimentación?",
+  "opciones": [
+   "Estudio geotécnico",
+   "Estudio de tráfico",
+   "Estudio acústico",
+   "Estudio de iluminación"
+  ],
+  "correcta": 0,
+  "explicacion": "El estudio geotécnico caracteriza el terreno para dimensionar la cimentación.",
+  "referencia": "Tema e02"
+ },
+ {
+  "pregunta": "¿Qué documento básico del CTE regula la cimentación?",
+  "opciones": [
+   "DB-SI",
+   "DB-SE-C",
+   "DB-HS",
+   "DB-HE"
+  ],
+  "correcta": 1,
+  "explicacion": "El DB-SE-C regula los cimientos dentro de la seguridad estructural.",
+  "referencia": "CTE, DB-SE-C"
+ },
+ {
+  "pregunta": "¿Qué cimentación reparte las cargas sobre toda la superficie del edificio?",
+  "opciones": [
+   "Zapata aislada",
+   "Pilote aislado",
+   "Losa de cimentación",
+   "Encepado sin riostra"
+  ],
+  "correcta": 2,
+  "explicacion": "La losa reparte las cargas sobre toda la superficie.",
+  "referencia": "Tema e02"
+ },
+ {
+  "pregunta": "¿Qué tipo de cimentación profunda transmite las cargas a estratos resistentes?",
+  "opciones": [
+   "Zapatas corridas",
+   "Zanjas drenantes",
+   "Solera",
+   "Pilotes"
+  ],
+  "correcta": 3,
+  "explicacion": "Los pilotes transmiten las cargas a capas profundas y resistentes del terreno.",
+  "referencia": "Tema e02"
+ },
+ {
+  "pregunta": "¿Qué daño suele producirse por asientos diferenciales?",
+  "opciones": [
+   "Fisuras en los muros",
+   "Oxidación de la pintura",
+   "Ruido en la instalación",
+   "Pérdida de color"
+  ],
+  "correcta": 0,
+  "explicacion": "Los asientos diferenciales provocan fisuras en los muros.",
+  "referencia": "Tema e02"
+ },
+ {
+  "pregunta": "¿Para qué sirve la capa de hormigón de limpieza bajo una zapata?",
+  "opciones": [
+   "Aumentar el ruido",
+   "Regularizar la superficie y proteger la armadura",
+   "Sustituir el terreno",
+   "Impermeabilizar la cubierta"
+  ],
+  "correcta": 1,
+  "explicacion": "El hormigón de limpieza regulariza la base y protege la armadura.",
+  "referencia": "Tema e02"
+ },
+ {
+  "pregunta": "¿Qué tipo de construcción es C-0 según el DB-SE-C?",
+  "opciones": [
+   "Construcciones de más de 20 plantas",
+   "Construcciones entre 4 y 10 plantas",
+   "Construcciones de menos de 4 plantas y superficie construida inferior a 300 m²",
+   "Monumentos singulares"
+  ],
+  "correcta": 2,
+  "explicacion": "La tabla 3.1 del DB-SE-C define el tipo C-0.",
+  "referencia": "CTE, DB-SE-C, tabla 3.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de construcción corresponde a edificios de entre 4 y 10 plantas?",
+  "opciones": [
+   "C-0",
+   "C-2",
+   "C-1",
+   "C-4"
+  ],
+  "correcta": 1,
+  "explicacion": "El tipo C-2 corresponde a construcciones entre 4 y 10 plantas.",
+  "referencia": "CTE, DB-SE-C, tabla 3.1"
+ },
+ {
+  "pregunta": "¿Qué grupo de terreno corresponde a los terrenos favorables con poca variabilidad?",
+  "opciones": [
+   "T-1",
+   "T-2",
+   "T-3",
+   "T-0"
+  ],
+  "correcta": 0,
+  "explicacion": "El grupo T-1 corresponde a terrenos favorables con poca variabilidad.",
+  "referencia": "CTE, DB-SE-C, tabla 3.2"
+ },
+ {
+  "pregunta": "¿Qué grupo de terreno es el de los terrenos desfavorables?",
+  "opciones": [
+   "T-1",
+   "T-2",
+   "T-0",
+   "T-3"
+  ],
+  "correcta": 3,
+  "explicacion": "El grupo T-3 incluye los terrenos desfavorables que no pueden clasificarse en los anteriores.",
+  "referencia": "CTE, DB-SE-C, tabla 3.2"
+ },
+ {
+  "pregunta": "¿Qué tipo de zapata se usa para alineaciones de tres o más pilares o muros?",
+  "opciones": [
+   "Zapata aislada",
+   "Pozo de cimentación",
+   "Encepado de un pilote",
+   "Zapata corrida"
+  ],
+  "correcta": 3,
+  "explicacion": "La zapata corrida se emplea en alineaciones de tres o más pilares o muros.",
+  "referencia": "CTE, DB-SE-C, tabla 4.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de zapata recoge dos o más pilares contiguos?",
+  "opciones": [
+   "Zapata corrida",
+   "Losa de cimentación",
+   "Zapata combinada",
+   "Pilote"
+  ],
+  "correcta": 2,
+  "explicacion": "La zapata combinada recoge dos o más pilares contiguos.",
+  "referencia": "CTE, DB-SE-C, tabla 4.1"
+ },
+ {
+  "pregunta": "¿Qué misión tiene la solera de asiento u hormigón de limpieza?",
+  "opciones": [
+   "Crear una superficie plana y horizontal de apoyo de la zapata",
+   "Impermeabilizar la cubierta",
+   "Aislar acústicamente",
+   "Aumentar el canto útil de la zapata"
+  ],
+  "correcta": 0,
+  "explicacion": "La solera de asiento tiene por misión crear una superficie plana y horizontal de apoyo.",
+  "referencia": "CTE, DB-SE-C, apartado 4.5"
+ },
+ {
+  "pregunta": "¿Cuánto debe quedar sumergido, con carácter general, el tubo de hormigonado de un pilote en el hormigón?",
+  "opciones": [
+   "10 cm",
+   "Al menos 3 m",
+   "20 m",
+   "No debe sumergirse"
+  ],
+  "correcta": 1,
+  "explicacion": "La profundidad mínima de inmersión del tubo es de tres metros, reducible a dos si se conoce con precisión el nivel del hormigón.",
+  "referencia": "CTE, DB-SE-C, apartado 5.4"
+ },
+ {
+  "pregunta": "¿Qué ensayo de campo cuenta los golpes necesarios para hincar 30 cm un tomamuestras normalizado?",
+  "opciones": [
+   "El ensayo SPT (Standard Penetration Test)",
+   "El ensayo Proctor",
+   "El cono de Abrams",
+   "El ensayo Los Ángeles"
+  ],
+  "correcta": 0,
+  "explicacion": "El SPT registra el número de golpes N para hincar 30 cm el tomamuestras.",
+  "referencia": "Tema e02"
+ },
+ {
+  "pregunta": "¿Qué ensayo de penetración dinámica continua se emplea en el reconocimiento del terreno?",
+  "opciones": [
+   "El ensayo de flexión de vigas",
+   "El ensayo Marshall",
+   "El ensayo de dureza Brinell",
+   "El ensayo de penetración dinámica superpesada (DPSH)"
+  ],
+  "correcta": 3,
+  "explicacion": "Los penetrómetros dinámicos (DPSH) se usan para estimar la compacidad del terreno.",
+  "referencia": "Tema e02"
+ }
+]

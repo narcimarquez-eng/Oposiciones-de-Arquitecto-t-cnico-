@@ -1,0 +1,175 @@
+{
+  "id": "e28",
+  "resumen": [
+    {
+      "titulo": "Partes y órganos",
+      "puntos": [
+        "Partes: la Administración, a través de su órgano de contratación, y el contratista (arts. 61.1 y 65.1 LCSP).",
+        "Delegación y desconcentración (art. 61.2). Mesa de contratación como órgano de asistencia (art. 326); Junta Consultiva como órgano de consulta (art. 328)."
+      ]
+    },
+    {
+      "titulo": "Responsable y perfil",
+      "puntos": [
+        "El responsable del contrato supervisa la ejecución (art. 62.1 LCSP). El perfil de contratante se difunde por Internet (art. 63.1)."
+      ]
+    },
+    {
+      "titulo": "Solvencia y capacidad",
+      "puntos": [
+        "Plena capacidad de obrar, no estar incurso en prohibición de contratar y acreditar solvencia (art. 65.1). Solvencia técnica en obras: relación de obras de los últimos cinco años con certificados (art. 88.1).",
+        "Uniones de empresarios temporales (art. 69.1). Prohibiciones de contratar (art. 71)."
+      ]
+    },
+    {
+      "titulo": "Ejecución",
+      "puntos": [
+        "Prerrogativas: interpretar, modificar por interés público, suspender y resolver (art. 190.1). Dirección facultativa de la LOE (arts. 12 y 13 LOE).",
+        "Sucesión por fusión: continúa el contrato (art. 98.1)."
+      ]
+    },
+    {
+      "titulo": "Cesión y subcontratación",
+      "puntos": [
+        "Cesión: transmisión del contrato a otro (art. 214.1). Subcontratación bajo responsabilidad del contratista (art. 215.1).",
+        "Pagos a subcontratistas en plazo, sin condiciones más desfavorables que la Ley 3/2004 (art. 216)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LCSP",
+      "rol": "Norma principal del tema (arts. 61 a 98, 190, 214 a 217 y 326 a 328)"
+    },
+    {
+      "id": "LOE",
+      "rol": "Complementaria: arts. 8, 11 a 13 (agentes y dirección facultativa)"
+    },
+    {
+      "id": "EA-ANDALUCIA",
+      "rol": "Complementaria: competencia de organización contractual (art. 47.1.4.ª)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Quién representa a la Administración en materia contractual?",
+      "opciones": [
+        "El Tribunal de Cuentas",
+        "El interesado",
+        "La mesa de contratación",
+        "El órgano de contratación"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 61.1 LCSP atribuye la representación de las entidades del sector público en materia contractual a los órganos de contratación.",
+      "referencia": "Art. 61.1 LCSP"
+    },
+    {
+      "pregunta": "¿Quién supervisa la ejecución del contrato?",
+      "opciones": [
+        "El responsable del contrato",
+        "El licitador",
+        "El Consejo de Estado",
+        "La Cámara de Cuentas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 62.1 LCSP atribuye al responsable del contrato la supervisión de su ejecución.",
+      "referencia": "Art. 62.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué órgano asiste al órgano de contratación en los procedimientos abiertos?",
+      "opciones": [
+        "El Pleno municipal",
+        "El Defensor del Pueblo",
+        "Una mesa de contratación",
+        "La Junta Consultiva"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 326.1 LCSP establece que, en los procedimientos abiertos, los órganos de contratación están asistidos por una mesa de contratación.",
+      "referencia": "Art. 326.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué es la Junta Consultiva de Contratación Pública del Estado?",
+      "opciones": [
+        "Un órgano judicial",
+        "Una empresa pública",
+        "Un licitador",
+        "Un órgano de regulación y consulta en materia de contratación pública estatal"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 328.1 LCSP la define como el órgano específico de regulación y consulta en materia de contratación pública del sector público estatal.",
+      "referencia": "Art. 328.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué requiere la aptitud para contratar con el sector público?",
+      "opciones": [
+        "Solo tener un local",
+        "Ser vecino del municipio",
+        "Tener el carné profesional",
+        "Plena capacidad de obrar, no estar en prohibición de contratar y acreditar solvencia"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 65.1 LCSP exige plena capacidad de obrar, no estar incurso en prohibición de contratar y acreditar solvencia.",
+      "referencia": "Art. 65.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué ocurre con el contrato si la sociedad contratista se fusiona?",
+      "opciones": [
+        "Continúa con la entidad absorbente o resultante",
+        "Se extingue siempre",
+        "Se cede automáticamente",
+        "Se resuelve de oficio"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 98.1 LCSP establece que, en la fusión en la que participa la sociedad contratista, el contrato continúa con la entidad absorbente o resultante.",
+      "referencia": "Art. 98.1 LCSP"
+    },
+    {
+      "pregunta": "¿Cómo se distingue la cesión de la subcontratación?",
+      "opciones": [
+        "Son lo mismo",
+        "En la cesión el contrato pasa a otro; en la subcontratación el contratista sigue responsable",
+        "En la subcontratación el contrato pasa a otro",
+        "No se distinguen"
+      ],
+      "correcta": 1,
+      "explicacion": "En la cesión (art. 214 LCSP) el contrato se transmite a otro; en la subcontratación (art. 215 LCSP) el contratista sigue respondiendo ante la Administración.",
+      "referencia": "Arts. 214 y 215 LCSP"
+    },
+    {
+      "pregunta": "¿Cuál es una prerrogativa del órgano de contratación?",
+      "opciones": [
+        "Firmar los planos",
+        "Ser el contratista",
+        "Interpretar el contrato y modificarlo por interés público",
+        "Cobrar el precio"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 190.1 LCSP atribuye al órgano de contratación la prerrogativa de interpretar el contrato y modificarlo por razones de interés público.",
+      "referencia": "Art. 190.1 LCSP"
+    },
+    {
+      "pregunta": "¿En qué se acredita la solvencia técnica en contratos de obras?",
+      "opciones": [
+        "Solo en el precio",
+        "En la edad del director",
+        "En la relación de obras ejecutadas en los últimos cinco años con certificados de buena ejecución",
+        "En el número de empleados"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 88.1 LCSP acredita la solvencia técnica en obras con la relación de obras ejecutadas en los últimos cinco años, avalada por certificados de buena ejecución.",
+      "referencia": "Art. 88.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué obligación tiene el contratista respecto a los subcontratistas?",
+      "opciones": [
+        "No pagarles nunca",
+        "Pagar solo al final de la obra sin plazos",
+        "Pagarles lo que quiera",
+        "Pagarles el precio pactado en los plazos legales"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 216.1 LCSP obliga al contratista a abonar a los subcontratistas el precio pactado en los plazos y condiciones que la ley indica.",
+      "referencia": "Art. 216.1 LCSP"
+    }
+  ]
+}

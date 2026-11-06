@@ -1,0 +1,482 @@
+[
+ {
+  "pregunta": "¿Qué debe permitir el edificio en caso de incendio según la LOE?",
+  "opciones": [
+   "Desalojo en condiciones seguras, limitar la extensión del incendio y actuación de los equipos de extinción",
+   "Que el fuego se propague",
+   "Que no haya salidas",
+   "Que se apaguen las luces para siempre"
+  ],
+  "correcta": 0,
+  "explicacion": "La LOE exige el desalojo seguro, la limitación de la extensión del incendio y la actuación de los equipos de extinción.",
+  "referencia": "LOE, art. 3.1 b.2"
+ },
+ {
+  "pregunta": "¿Qué documento del CTE regula la seguridad en caso de incendio?",
+  "opciones": [
+   "El DB-SI",
+   "El DB-HS",
+   "El DB-HE",
+   "El DB-HR"
+  ],
+  "correcta": 0,
+  "explicacion": "La seguridad en caso de incendio se regula en el DB-SI.",
+  "referencia": "CTE, art. 11"
+ },
+ {
+  "pregunta": "¿Qué reglamento regula las instalaciones de protección contra incendios?",
+  "opciones": [
+   "El RD 513/2017 (RIPCI)",
+   "El RD 842/2002",
+   "El RD 346/2011",
+   "El RD 919/2006"
+  ],
+  "correcta": 0,
+  "explicacion": "El RD 513/2017 regula el RIPCI.",
+  "referencia": "RD 513/2017"
+ },
+ {
+  "pregunta": "¿Qué se exige a las medianerías con otro edificio en el SI 2?",
+  "opciones": [
+   "Al menos EI 120",
+   "Nada",
+   "Solo madera",
+   "Solo vidrio"
+  ],
+  "correcta": 0,
+  "explicacion": "Las medianerías deben ser al menos EI 120.",
+  "referencia": "DB-SI 2, apartado 1 punto 1"
+ },
+ {
+  "pregunta": "¿Qué tipo de extintor se exige en el SI 4 como mínimo?",
+  "opciones": [
+   "Extintores portátiles de eficacia 21A-113B",
+   "Ninguno",
+   "Solo de agua sin eficacia",
+   "Solo de madera"
+  ],
+  "correcta": 0,
+  "explicacion": "Se exigen extintores portátiles de eficacia 21A-113B.",
+  "referencia": "DB-SI 4, tabla 1.1"
+ },
+ {
+  "pregunta": "¿Qué instalación se exige en zonas de riesgo especial alto en el SI 4?",
+  "opciones": [
+   "Bocas de incendio",
+   "Piscinas",
+   "Jardines",
+   "Fuentes"
+  ],
+  "correcta": 0,
+  "explicacion": "En zonas de riesgo especial alto se exigen bocas de incendio.",
+  "referencia": "DB-SI 4, tabla 1.1"
+ },
+ {
+  "pregunta": "¿Qué instalación se exige por encima de 80 m de altura de evacuación?",
+  "opciones": [
+   "Instalación automática de extinción",
+   "Piscina",
+   "Jardín colgante",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "Por encima de 80 m se exige instalación automática de extinción.",
+  "referencia": "DB-SI 4, tabla 1.1"
+ },
+ {
+  "pregunta": "¿Quién realiza el mantenimiento de las instalaciones de protección contra incendios?",
+  "opciones": [
+   "Empresas mantenedoras habilitadas",
+   "El vecino",
+   "El conserje sin formación",
+   "El alcalde"
+  ],
+  "correcta": 0,
+  "explicacion": "El mantenimiento lo realizan empresas mantenedoras habilitadas.",
+  "referencia": "RIPCI, arts. 14 y 15"
+ },
+ {
+  "pregunta": "¿Cuánto tiempo se conservan las actas de mantenimiento de los equipos de protección activa?",
+  "opciones": [
+   "Al menos cinco años",
+   "Un día",
+   "Un mes",
+   "Cien años"
+  ],
+  "correcta": 0,
+  "explicacion": "Las actas se conservan al menos cinco años.",
+  "referencia": "RIPCI, art. 21"
+ },
+ {
+  "pregunta": "¿Quién realiza la inspección periódica de las instalaciones de protección contra incendios?",
+  "opciones": [
+   "Un organismo de control acreditado",
+   "El vecino",
+   "El cartero",
+   "El alcalde en persona"
+  ],
+  "correcta": 0,
+  "explicacion": "La inspección periódica la realiza un organismo de control acreditado.",
+  "referencia": "RIPCI, art. 22"
+ },
+ {
+  "pregunta": "¿Qué tipo de vial se exige a los bomberos para la aproximación?",
+  "opciones": [
+   "Un vial de aproximación con anchura libre y capacidad portante",
+   "Un camino de cabras",
+   "Un sendero sin pavimento",
+   "Ninguno"
+  ],
+  "correcta": 0,
+  "explicacion": "Los viales de aproximación deben tener anchura libre, gálibo y capacidad portante suficientes.",
+  "referencia": "DB-SI 5, apartado 1"
+ },
+ {
+  "pregunta": "¿Qué espacio se exige para la maniobra de los bomberos en edificios altos?",
+  "opciones": [
+   "Un espacio de maniobra de 5 m",
+   "Ninguno",
+   "Un espacio de 50 m",
+   "Un espacio de 1 m"
+  ],
+  "correcta": 0,
+  "explicacion": "En edificios de altura de evacuación mayor de 9 m se exige un espacio de maniobra de 5 m.",
+  "referencia": "DB-SI 5, apartado 1"
+ },
+ {
+  "pregunta": "¿Qué deben tener los huecos de fachada accesibles desde el exterior?",
+  "opciones": [
+   "Una altura de alféizar no superior a 1,20 m del suelo de la planta",
+   "Un alféizar de 3 m",
+   "Ninguna condición",
+   "Un hueco cerrado"
+  ],
+  "correcta": 0,
+  "explicacion": "Los huecos deben tener el alféizar a no más de 1,20 m del suelo de la planta.",
+  "referencia": "DB-SI 5, apartado 2"
+ },
+ {
+  "pregunta": "¿Qué clase de resistencia al fuego se exige a los elementos estructurales principales en vivienda con altura de evacuación hasta 15 m?",
+  "opciones": [
+   "R 60",
+   "R 0",
+   "R 1000",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "En vivienda con altura de evacuación de hasta 15 m se exige R 60.",
+  "referencia": "DB-SI 6, apartado 3"
+ },
+ {
+  "pregunta": "¿Qué se clasifica por reacción al fuego en el SI 1?",
+  "opciones": [
+   "Los acabados",
+   "Los muebles de la cocina",
+   "Los coches del garaje",
+   "Los árboles"
+  ],
+  "correcta": 0,
+  "explicacion": "Los acabados se clasifican por reacción al fuego.",
+  "referencia": "DB-SI 1, tabla 4.1"
+ },
+ {
+  "pregunta": "¿Qué cierre se exige a las puertas resistentes al fuego?",
+  "opciones": [
+   "Cierre automático según UNE-EN 1154",
+   "Ninguno",
+   "Cierre a mano",
+   "Cierre con llave de paso"
+  ],
+  "correcta": 0,
+  "explicacion": "Las puertas resistentes al fuego tienen cierre automático según UNE-EN 1154.",
+  "referencia": "DB-SI, generalidades punto 3"
+ },
+ {
+  "pregunta": "¿Qué número de salidas se admite en una planta con ocupación de hasta 100 personas?",
+  "opciones": [
+   "Una única salida",
+   "Diez salidas obligatorias",
+   "Ninguna salida",
+   "Cien salidas"
+  ],
+  "correcta": 0,
+  "explicacion": "Se admite una única salida con ocupación de hasta 100 personas, con excepciones.",
+  "referencia": "DB-SI 3, tabla 3.1"
+ },
+ {
+  "pregunta": "¿Qué densidad de ocupación se usa en plantas de vivienda?",
+  "opciones": [
+   "20 m² por persona",
+   "1 m² por persona",
+   "100 m² por persona",
+   "No hay"
+  ],
+  "correcta": 0,
+  "explicacion": "La densidad de ocupación en plantas de vivienda es de 20 m² por persona.",
+  "referencia": "DB-SI 3, tabla 2.1"
+ },
+ {
+  "pregunta": "¿Qué requisito tiene el recorrido de evacuación hasta un extintor?",
+  "opciones": [
+   "No más de 15 m desde todo origen de evacuación",
+   "Sin límite",
+   "Mil metros",
+   "Cero metros"
+  ],
+  "correcta": 0,
+  "explicacion": "Los extintores se sitúan a no más de 15 m de recorrido desde todo origen de evacuación.",
+  "referencia": "DB-SI 4, tabla 1.1"
+ },
+ {
+  "pregunta": "¿Qué instalación se exige por encima de 28 m de altura de evacuación?",
+  "opciones": [
+   "Ascensor de emergencia",
+   "Un patio interior",
+   "Una piscina",
+   "Un garaje"
+  ],
+  "correcta": 0,
+  "explicacion": "Por encima de 28 m de altura de evacuación se exige ascensor de emergencia.",
+  "referencia": "DB-SI 4, tabla 1.1"
+ },
+ {
+  "pregunta": "¿Qué norma aprobó el Código Técnico de la Edificación?",
+  "opciones": [
+   "Real Decreto 314/2006",
+   "Real Decreto 1627/1997",
+   "Real Decreto 105/2008",
+   "Real Decreto 1027/2007"
+  ],
+  "correcta": 0,
+  "explicacion": "El CTE fue aprobado por el Real Decreto 314/2006.",
+  "referencia": "RD 314/2006"
+ },
+ {
+  "pregunta": "¿Qué DB regula la propagación interior del incendio?",
+  "opciones": [
+   "DB-SI 3",
+   "DB-SI 1",
+   "DB-SI 4",
+   "DB-SI 6"
+  ],
+  "correcta": 1,
+  "explicacion": "El DB-SI 1 regula la propagación interior del incendio.",
+  "referencia": "CTE, DB-SI 1"
+ },
+ {
+  "pregunta": "¿Qué DB regula la evacuación de los ocupantes?",
+  "opciones": [
+   "DB-SI 2",
+   "DB-SI 5",
+   "DB-SI 3",
+   "DB-HS 1"
+  ],
+  "correcta": 2,
+  "explicacion": "El DB-SI 3 regula la evacuación de los ocupantes.",
+  "referencia": "CTE, DB-SI 3"
+ },
+ {
+  "pregunta": "¿Qué DB regula los sistemas de detección y extinción de incendios?",
+  "opciones": [
+   "DB-SI 1",
+   "DB-SI 6",
+   "DB-HE 3",
+   "DB-SI 4"
+  ],
+  "correcta": 3,
+  "explicacion": "El DB-SI 4 regula las instalaciones de protección contra incendios.",
+  "referencia": "CTE, DB-SI 4"
+ },
+ {
+  "pregunta": "¿Qué DB regula la resistencia al fuego de la estructura?",
+  "opciones": [
+   "DB-SI 6",
+   "DB-SI 2",
+   "DB-SI 5",
+   "DB-SE-A"
+  ],
+  "correcta": 0,
+  "explicacion": "El DB-SI 6 regula la resistencia al fuego de los elementos estructurales.",
+  "referencia": "CTE, DB-SI 6"
+ },
+ {
+  "pregunta": "¿Qué DB regula la intervención de los bomberos?",
+  "opciones": [
+   "DB-SI 3",
+   "DB-SI 5",
+   "DB-SI 4",
+   "DB-HS 4"
+  ],
+  "correcta": 1,
+  "explicacion": "El DB-SI 5 regula las condiciones para la intervención de los bomberos.",
+  "referencia": "CTE, DB-SI 5"
+ },
+ {
+  "pregunta": "¿Qué es la compartimentación en caso de incendio?",
+  "opciones": [
+   "División del edificio en sectores resistentes al fuego",
+   "Unión de todos los espacios sin muros",
+   "Eliminación de las puertas",
+   "Colocación de moquetas"
+  ],
+  "correcta": 0,
+  "explicacion": "La compartimentación divide el edificio en sectores separados por elementos resistentes al fuego.",
+  "referencia": "CTE, DB-SI 1"
+ },
+ {
+  "pregunta": "¿Qué es un sector de incendio?",
+  "opciones": [
+   "Un tipo de extintor",
+   "Espacio delimitado por elementos resistentes al fuego",
+   "Una salida de emergencia exterior",
+   "Un sistema de alarma sonora"
+  ],
+  "correcta": 1,
+  "explicacion": "El sector de incendio es un espacio delimitado por elementos con resistencia al fuego.",
+  "referencia": "CTE, DB-SI 1"
+ },
+ {
+  "pregunta": "¿En qué sentido deben abrir las puertas de evacuación?",
+  "opciones": [
+   "Hacia dentro del local sin salida",
+   "Solo deslizantes sin tope",
+   "En el sentido de la evacuación",
+   "Hacia el techo"
+  ],
+  "correcta": 2,
+  "explicacion": "Las puertas de evacuación se abren en el sentido de la salida.",
+  "referencia": "CTE, DB-SI 3"
+ },
+ {
+  "pregunta": "¿Qué sistema debe mantener la estabilidad de la estructura durante un incendio?",
+  "opciones": [
+   "Ventilación sin control",
+   "Iluminación decorativa",
+   "Señalización publicitaria",
+   "Resistencia al fuego estructural"
+  ],
+  "correcta": 3,
+  "explicacion": "El DB-SI 6 exige resistencia al fuego de la estructura durante el tiempo necesario.",
+  "referencia": "CTE, DB-SI 6"
+ },
+ {
+  "pregunta": "¿Qué superficie construida máxima puede tener un sector de incendio de uso Residencial Vivienda?",
+  "opciones": [
+   "2.500 m²",
+   "500 m²",
+   "10.000 m²",
+   "1.000 m²"
+  ],
+  "correcta": 0,
+  "explicacion": "En Residencial Vivienda la superficie construida de todo sector de incendio no debe exceder de 2.500 m².",
+  "referencia": "CTE, DB-SI 1, tabla 1.1"
+ },
+ {
+  "pregunta": "¿Qué resistencia al fuego deben tener como mínimo los elementos que separan viviendas entre sí?",
+  "opciones": [
+   "EI 15",
+   "EI 240",
+   "EI 60",
+   "Ninguna"
+  ],
+  "correcta": 2,
+  "explicacion": "Los elementos que separan viviendas entre sí deben ser al menos EI 60.",
+  "referencia": "CTE, DB-SI 1, tabla 1.1"
+ },
+ {
+  "pregunta": "¿Entre qué valores debe estar la anchura de toda hoja de puerta de evacuación?",
+  "opciones": [
+   "Entre 0,60 m y 1,23 m",
+   "Entre 0,40 m y 0,60 m",
+   "Entre 1,50 m y 2,00 m",
+   "No hay límites"
+  ],
+  "correcta": 0,
+  "explicacion": "La anchura de toda hoja de puerta no debe ser menor que 0,60 m ni exceder de 1,23 m.",
+  "referencia": "CTE, DB-SI 3, tabla 4.1"
+ },
+ {
+  "pregunta": "¿Qué anchura mínima deben tener las puertas y pasos de evacuación?",
+  "opciones": [
+   "A ≥ P/50 y 2 m",
+   "0,50 m siempre",
+   "1,50 m siempre",
+   "A ≥ P/200 y nunca menos de 0,80 m"
+  ],
+  "correcta": 3,
+  "explicacion": "El dimensionado de puertas y pasos es A ≥ P/200 ≥ 0,80 m.",
+  "referencia": "CTE, DB-SI 3, tabla 4.1"
+ },
+ {
+  "pregunta": "¿Qué anchura mínima deben tener los pasillos y rampas de evacuación?",
+  "opciones": [
+   "A ≥ P/200 y nunca menos de 1,00 m",
+   "0,60 m",
+   "A ≥ P/600",
+   "2,50 m"
+  ],
+  "correcta": 0,
+  "explicacion": "Los pasillos y rampas se dimensionan con A ≥ P/200 ≥ 1,00 m.",
+  "referencia": "CTE, DB-SI 3, tabla 4.1"
+ },
+ {
+  "pregunta": "¿A partir de qué altura de evacuación se exige columna seca en Residencial Vivienda?",
+  "opciones": [
+   "Más de 6 m",
+   "Más de 100 m",
+   "Siempre",
+   "Más de 24 m"
+  ],
+  "correcta": 3,
+  "explicacion": "En Residencial Vivienda se exige columna seca si la altura de evacuación excede de 24 m.",
+  "referencia": "CTE, DB-SI 4, tabla 1.1"
+ },
+ {
+  "pregunta": "¿Cuándo se exigen hidrantes exteriores con carácter general?",
+  "opciones": [
+   "Solo en viviendas unifamiliares",
+   "Nunca",
+   "Si la altura de evacuación descendente excede de 28 m o la ascendente de 6 m",
+   "En todos los edificios de una planta"
+  ],
+  "correcta": 2,
+  "explicacion": "La tabla 1.1 del DB-SI 4 exige hidrantes exteriores en esos casos, entre otros.",
+  "referencia": "CTE, DB-SI 4, tabla 1.1"
+ },
+ {
+  "pregunta": "¿Hasta qué altura deben tener los materiales de fachada una reacción al fuego B-s3,d0 como mínimo?",
+  "opciones": [
+   "1 m",
+   "10 m",
+   "Toda la altura del edificio",
+   "3,5 m"
+  ],
+  "correcta": 3,
+  "explicacion": "La clase de reacción al fuego de los materiales de fachada debe ser al menos B-s3,d0 hasta una altura de 3,5 m como mínimo.",
+  "referencia": "CTE, DB-SI 2"
+ },
+ {
+  "pregunta": "¿Qué franja de la medianería debe ser REI 60 junto al edificio colindante?",
+  "opciones": [
+   "Una franja de 5 m",
+   "Toda la cubierta",
+   "Una franja de 0,50 m medida desde el edificio colindante",
+   "Ninguna"
+  ],
+  "correcta": 2,
+  "explicacion": "La cubierta tendrá REI 60 en una franja de 0,50 m medida desde el edificio colindante.",
+  "referencia": "CTE, DB-SI 2"
+ },
+ {
+  "pregunta": "¿Cuándo se exigen al menos dos salidas de planta por la evacuación ascendente?",
+  "opciones": [
+   "Siempre que haya ascensor",
+   "Cuando hay menos de 10 personas",
+   "Cuando más de 50 personas precisan salvar en sentido ascendente una altura de evacuación mayor que 2 m",
+   "Nunca"
+  ],
+  "correcta": 2,
+  "explicacion": "El DB-SI 3 exige más de una salida de planta en esa situación.",
+  "referencia": "CTE, DB-SI 3, tabla 3.1"
+ }
+]

@@ -1,0 +1,194 @@
+{
+  "id": "e03",
+  "resumen": [
+    {
+      "titulo": "Exigencia básica HS 5 y procedimiento",
+      "puntos": [
+        "La exigencia HS 5 pide medios adecuados para extraer las aguas residuales, de forma independiente o conjunta con las pluviales (CTE, art. 13.5). El DB-HS 5 se verifica en el orden diseño, dimensionado, ejecución, productos y uso y mantenimiento (apartado 1.2).",
+        "Seis criterios de diseño: cierres hidráulicos, trazado autolimpiable, diámetros adecuados, accesibilidad para mantenimiento, ventilación y uso exclusivo para aguas residuales o pluviales (apartado 2)."
+      ]
+    },
+    {
+      "titulo": "Tipos de sistemas y conexión",
+      "puntos": [
+        "El desagüe es preferentemente por gravedad al pozo o arqueta general (apartado 3.1, punto 1). Con una única red pública, sistema mixto o separativo con conexión final; con dos redes, separativo (apartado 3.2).",
+        "Sin red pública: sistemas individualizados, con estación depuradora particular para las residuales y vertido al terreno para las pluviales (apartado 3.1, punto 2)."
+      ]
+    },
+    {
+      "titulo": "Elementos de la instalación",
+      "puntos": [
+        "Cierres hidráulicos: sifones individuales, botes sifónicos, sumideros y arquetas sifónicas. Altura de 50 mm en usos continuos y 70 mm en discontinuos, con máximo de 100 mm (apartado 3.3.1.1).",
+        "Colectores colgados: pendiente mínima del 1 %, no más de dos colectores en un mismo punto y registros con tramos rectos de hasta 15 m (apartado 3.3.1.4.1). En sistemas mixtos, la bajante de pluviales se conecta a 3 m o más de la de residuales situada aguas arriba (apartado 3.3.1.4.1, punto 2)."
+      ]
+    },
+    {
+      "titulo": "Dimensionado",
+      "puntos": [
+        "Bajantes residuales: variación de presión no superior a 250 Pa y ocupación no superior a un tercio de la sección; diámetro según la tabla 4.4 (apartado 4.1.2).",
+        "Colectores horizontales: funcionamiento a media sección, máximo tres cuartos, con diámetro según la tabla 4.5 para pendientes del 1 %, 2 % o 4 % (apartado 4.1.3). Sumideros pluviales: dos hasta 100 m², tres hasta 200 m², cuatro hasta 500 m² y uno cada 150 m² por encima (tabla 4.6)."
+      ]
+    },
+    {
+      "titulo": "Ejecución y pruebas",
+      "puntos": [
+        "Las redes enterradas se ejecutan en zanjas según el material (apartados 5.4.3 y 5.4.4); las arquetas y pozos tienen apartado propio (apartado 5.4.5).",
+        "Prueba de la red horizontal: agua a 0,3 a 0,6 bar durante diez minutos, tramo a tramo; uniones, entronques y derivaciones al 100 %; cierre hidráulico mínimo de 25 mm tras la prueba (apartado 5.6.1)."
+      ]
+    },
+    {
+      "titulo": "Control, uso y mantenimiento",
+      "puntos": [
+        "Control de la ejecución según el proyecto y el artículo 7.3 del CTE; control de la obra terminada según el artículo 7.4 del CTE (apartados 5.2 y 5.3).",
+        "Mantenimiento: sifones y válvulas revisados al disminuir el caudal; sumideros y botes sifónicos cada seis meses; colectores suspendidos y arquetas sumidero cada año; arquetas de pie de bajante cada diez años (apartado 7, puntos 2 a 5)."
+      ]
+    },
+    {
+      "titulo": "Seguridad y medición",
+      "puntos": [
+        "Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9: localizar cables y conducciones, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras (apartado 9.a a 9.d). Los trabajos en tejados tienen reglas de protección colectiva en el apartado 12.b del anexo IV.",
+        "La medición se hace por metros lineales de tubería por diámetro y material, y por unidades de arqueta, sumidero, bote sifónico y sifón. El precio depende del diámetro, la profundidad de la zanja y el número de registros."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CTE",
+      "rol": "Exigencia HS 5 y control de la ejecución (arts. 5.2, 7, 8 y 13.5)"
+    },
+    {
+      "id": "DB-HS",
+      "rol": "Sección HS 5 Evacuación de aguas (apartados 1 a 5 y 7, tablas 4.4 a 4.7)"
+    },
+    {
+      "id": "RD-1627-1997",
+      "rol": "Seguridad en zanjas y trabajos en cubierta (arts. 4, 5 y anexo IV, apartados 9 y 12)"
+    },
+    {
+      "id": "LPRL",
+      "rol": "Marco de la prevención de riesgos laborales (art. 16, en parte)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 13.5 del CTE, ¿qué exige la exigencia básica HS 5?",
+      "opciones": [
+        "Medios adecuados para extraer las aguas residuales de forma independiente o conjunta con las pluviales",
+        "Medios para suministrar agua caliente",
+        "Protección frente al radón",
+        "Aislamiento acústico de fachadas"
+      ],
+      "correcta": 0,
+      "explicacion": "La exigencia HS 5 pide que los edificios dispongan de medios adecuados para extraer las aguas residuales generadas en ellos, de forma independiente o conjunta con las precipitaciones y escorrentías.",
+      "referencia": "Art. 13.5 CTE"
+    },
+    {
+      "pregunta": "Según el DB-HS 5, apartado 3.3.1.1, ¿cuál es la altura mínima del cierre hidráulico para usos continuos?",
+      "opciones": [
+        "100 mm",
+        "25 mm",
+        "50 mm",
+        "70 mm"
+      ],
+      "correcta": 2,
+      "explicacion": "La altura mínima del cierre hidráulico es de 50 mm para usos continuos y de 70 mm para usos discontinuos, con un máximo de 100 mm.",
+      "referencia": "DB-HS 5, apartado 3.3.1.1, punto 2 e)"
+    },
+    {
+      "pregunta": "Según el DB-HS 5, apartado 3.3.1.4.1, ¿cuál es la pendiente mínima de un colector colgado?",
+      "opciones": [
+        "4 %",
+        "10 %",
+        "0,5 %",
+        "1 %"
+      ],
+      "correcta": 3,
+      "explicacion": "Los colectores colgados deben tener una pendiente del 1 % como mínimo.",
+      "referencia": "DB-HS 5, apartado 3.3.1.4.1, punto 3"
+    },
+    {
+      "pregunta": "Según el DB-HS 5, apartado 3.3.1.4.1, punto 2, ¿a qué distancia mínima de la bajante de residuales debe conectarse la bajante de pluviales en un sistema mixto?",
+      "opciones": [
+        "A 1 m",
+        "A 3 m",
+        "A 10 m",
+        "A 30 cm"
+      ],
+      "correcta": 1,
+      "explicacion": "La conexión de la bajante de pluviales debe separarse al menos 3 m de la conexión de la bajante de residuales situada aguas arriba.",
+      "referencia": "DB-HS 5, apartado 3.3.1.4.1, punto 2"
+    },
+    {
+      "pregunta": "Según el DB-HS 5, apartado 4.2.1, punto 2, ¿cuántos sumideros se disponen en una cubierta de 150 m² de proyección horizontal?",
+      "opciones": [
+        "Tres",
+        "Cuatro",
+        "Uno cada 150 m²",
+        "Dos"
+      ],
+      "correcta": 0,
+      "explicacion": "Para superficies de 100 a 200 m² se disponen tres sumideros, según la tabla 4.6.",
+      "referencia": "DB-HS 5, apartado 4.2.1, tabla 4.6"
+    },
+    {
+      "pregunta": "Según el DB-HS 5, apartado 5.6.1, punto 4, ¿a qué presión y durante cuánto tiempo se prueba la red horizontal con agua?",
+      "opciones": [
+        "Sin presión, solo por observación",
+        "A 10 bar durante un día",
+        "Entre 0,3 y 0,6 bar durante diez minutos",
+        "Entre 3 y 6 bar durante una hora"
+      ],
+      "correcta": 2,
+      "explicacion": "La red horizontal se prueba introduciendo agua a presión entre 0,3 y 0,6 bar durante diez minutos, tramo a tramo.",
+      "referencia": "DB-HS 5, apartado 5.6.1, punto 4"
+    },
+    {
+      "pregunta": "Según el DB-HS 5, apartado 7, ¿con qué periodicidad se limpian los sumideros de locales húmedos y los botes sifónicos?",
+      "opciones": [
+        "Cada diez años",
+        "Nunca",
+        "Cada cinco años",
+        "Cada seis meses"
+      ],
+      "correcta": 3,
+      "explicacion": "Cada seis meses se limpian los sumideros de locales húmedos y cubiertas transitables, y los botes sifónicos.",
+      "referencia": "DB-HS 5, apartado 7, punto 3"
+    },
+    {
+      "pregunta": "Según el DB-HS 5, apartado 4.1.2, ¿qué variación de presión no debe superar el dimensionado de una bajante de residuales?",
+      "opciones": [
+        "25 Pa",
+        "250 Pa",
+        "2.500 Pa",
+        "Ninguna"
+      ],
+      "correcta": 1,
+      "explicacion": "El dimensionado de las bajantes debe hacerse para no rebasar el límite de 250 Pa de variación de presión.",
+      "referencia": "DB-HS 5, apartado 4.1.2, punto 1"
+    },
+    {
+      "pregunta": "Según el RD 1627/1997, anexo IV, apartado 9.b, ¿qué debe preverse en las excavaciones para prevenir la irrupción accidental de agua?",
+      "opciones": [
+        "Trabajar sin protección",
+        "Nada, si la zanja es corta",
+        "Sistemas o medidas adecuados para prevenir la irrupción accidental de agua",
+        "Acumular las tierras en el borde"
+      ],
+      "correcta": 2,
+      "explicacion": "El anexo IV, apartado 9.b.2.º, exige precauciones para prevenir la irrupción accidental de agua mediante los sistemas o medidas adecuados.",
+      "referencia": "Anexo IV, apartado 9.b.2.º RD 1627/1997"
+    },
+    {
+      "pregunta": "Según el DB-HS 5, apartado 3.1, punto 1, ¿cómo deben desaguar preferentemente los colectores del edificio?",
+      "opciones": [
+        "Por gravedad, en el pozo o arqueta general de conexión con la red",
+        "Directamente a la cubierta",
+        "Por ventilación natural",
+        "Por bombeo permanente"
+      ],
+      "correcta": 0,
+      "explicacion": "Los colectores deben desaguar, preferentemente por gravedad, en el pozo o arqueta general que constituye el punto de conexión con la red de alcantarillado público.",
+      "referencia": "DB-HS 5, apartado 3.1, punto 1"
+    }
+  ]
+}

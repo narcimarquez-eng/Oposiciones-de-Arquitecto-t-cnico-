@@ -1,0 +1,198 @@
+{
+  "id": "e07",
+  "resumen": [
+    {
+      "titulo": "Tipos de cubierta",
+      "puntos": [
+        "Cubierta plana o azotea, transitable o no transitable; cubierta ajardinada con tierra vegetal; cubierta inclinada o tejado (DB-HS 1, apartados 2.4.2 y 2.4.3.1).",
+        "Pendientes de cubiertas planas según uso y protección: de 1 % a 5 % en transitables y en grava; de 1 % a 15 % en no transitables con lámina autoprotegida (tabla 2.9)."
+      ]
+    },
+    {
+      "titulo": "Requisitos",
+      "puntos": [
+        "Protección frente a la humedad: grado de impermeabilidad único, independiente de factores climáticos (CTE, art. 13.1; DB-HS 1, apartado 2.4.1). Seguridad estructural y aptitud al servicio (CTE, art. 10).",
+        "Seguridad de utilización: riesgo de caídas en el uso previsto (CTE, art. 12.1). Las acciones de nieve se fijan en el DB-SE-AE, apartado 3.5."
+      ]
+    },
+    {
+      "titulo": "Componentes y capas",
+      "puntos": [
+        "Elementos exigibles: pendientes, barrera de vapor, aislante, capas separadoras, impermeabilización, capa de protección y evacuación de aguas (DB-HS 1, apartado 2.4.2, punto 1, letras a a k).",
+        "La impermeabilización es obligatoria en cubierta plana, y en inclinada cuando la pendiente o el solape son insuficientes (letra f). El tejado es obligatorio en inclinada, salvo impermeabilización autoprotegida (letra j)."
+      ]
+    },
+    {
+      "titulo": "Pendientes de tejados",
+      "puntos": [
+        "Tejado: teja curva 32 %; teja mixta y plana monocanal 30 %; teja plana marsellesa o alicantina 40 %; teja plana con encaje 50 %; pizarra 60 %; cinc y placas de fibrocemento de onda grande 10 % (tabla 2.10).",
+        "Sin capa de impermeabilización, la pendiente del sistema de formación debe superar la de la tabla 2.10 (apartado 2.4.3.1, punto 4)."
+      ]
+    },
+    {
+      "titulo": "Nieve y cargas",
+      "puntos": [
+        "En cubiertas planas de edificios de pisos por debajo de 1.000 m de altitud, carga de nieve de 1,0 kN/m² (DB-SE-AE, apartado 3.5.1, punto 1).",
+        "Carga general qn = μ · sk; reducción del 20 % en construcción protegida del viento y aumento del 20 % en emplazamientos expuestos (apartado 3.5.1, puntos 2 y 3)."
+      ]
+    },
+    {
+      "titulo": "Evacuación, mantenimiento y limpieza",
+      "puntos": [
+        "El sistema de evacuación se dimensiona con el DB-HS 5 (apartado 2.4.2, punto 1, letra k). Sumideros de cubiertas transitables: limpieza cada seis meses; no transitables: al menos una vez al año (DB-HS 5, apartado 7, punto 3).",
+        "Canalones: diámetro según la tabla 4.7 para 100 mm/h. Número de sumideros: dos hasta 100 m² y uno cada 150 m² por encima de 500 m² (DB-HS 5, tablas 4.6 y 4.7)."
+      ]
+    },
+    {
+      "titulo": "Seguridad y responsabilidad",
+      "puntos": [
+        "Trabajos en tejados: protección colectiva según altura, inclinación y estado resbaladizo; superficies frágiles (RD 1627/1997, anexo IV, apartado 12.b).",
+        "Responsabilidad de diez años por daños a la estructura y de tres años por defectos de habitabilidad, como las humedades (LOE, art. 17.1.a y 17.1.b)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CTE",
+      "rol": "Humedad, seguridad estructural, utilización y control de la ejecución (arts. 7, 8.1, 10, 12.1 y 13.1)"
+    },
+    {
+      "id": "DB-HS",
+      "rol": "Protección frente a la humedad de las cubiertas (HS 1, apartado 2.4) y evacuación de aguas (HS 5, apartados 4 y 7)"
+    },
+    {
+      "id": "DB-SE-AE",
+      "rol": "Acciones de nieve sobre cubiertas (apartado 3.5)"
+    },
+    {
+      "id": "RD-1627-1997",
+      "rol": "Seguridad en trabajos en tejados (anexo IV, apartado 12.b)"
+    },
+    {
+      "id": "LOE",
+      "rol": "Responsabilidad por daños en la estructura y por defectos de habitabilidad (art. 17.1)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el DB-HS 1, apartado 2.4.1, ¿el grado de impermeabilidad exigido a las cubiertas depende de los factores climáticos?",
+      "opciones": [
+        "No, es único e independiente de factores climáticos",
+        "Sí, solo en invierno",
+        "Solo depende del color de la cubierta",
+        "Sí, varía con la zona climática"
+      ],
+      "correcta": 0,
+      "explicacion": "Para las cubiertas el grado de impermeabilidad exigido es único e independiente de factores climáticos.",
+      "referencia": "DB-HS 1, apartado 2.4.1, punto 1"
+    },
+    {
+      "pregunta": "Según el DB-HS 1, tabla 2.9, ¿qué pendiente se exige a una cubierta transitable para peatones con solado fijo?",
+      "opciones": [
+        "Entre el 0 % y el 1 %",
+        "Exactamente el 32 %",
+        "Entre el 1 % y el 5 %",
+        "Entre el 10 % y el 60 %"
+      ],
+      "correcta": 2,
+      "explicacion": "Las cubiertas transitables para peatones con solado fijo tienen una pendiente de entre el 1 % y el 5 %.",
+      "referencia": "DB-HS 1, tabla 2.9"
+    },
+    {
+      "pregunta": "Según el DB-HS 1, tabla 2.10, ¿cuál es la pendiente mínima de una teja curva?",
+      "opciones": [
+        "60 %",
+        "10 %",
+        "25 %",
+        "32 %"
+      ],
+      "correcta": 3,
+      "explicacion": "La teja curva requiere una pendiente mínima del 32 %, según la tabla 2.10.",
+      "referencia": "DB-HS 1, tabla 2.10"
+    },
+    {
+      "pregunta": "Según el DB-HS 1, apartado 2.4.2, punto 1, letra f, ¿cuándo es obligatoria una capa de impermeabilización en una cubierta inclinada?",
+      "opciones": [
+        "Nunca",
+        "Cuando el sistema de formación de pendientes no tiene la pendiente exigida en la tabla 2.10 o el solape de las piezas es insuficiente",
+        "Siempre que la cubierta tenga más de 10 años",
+        "Solo si hay nieve"
+      ],
+      "correcta": 1,
+      "explicacion": "Se exige una capa de impermeabilización cuando la cubierta es plana o cuando es inclinada y el sistema de formación de pendientes no tiene la pendiente de la tabla 2.10 o el solape de las piezas de protección es insuficiente.",
+      "referencia": "DB-HS 1, apartado 2.4.2, punto 1, letra f"
+    },
+    {
+      "pregunta": "Según el DB-SE-AE, apartado 3.5.1, punto 1, ¿qué carga de nieve puede considerarse en cubiertas planas de edificios de pisos situados por debajo de 1.000 m de altitud?",
+      "opciones": [
+        "1,0 kN/m²",
+        "3,0 kN/m²",
+        "No hay carga de nieve",
+        "0,5 kN/m²"
+      ],
+      "correcta": 0,
+      "explicacion": "En esas condiciones basta considerar una carga de nieve de 1,0 kN/m².",
+      "referencia": "DB-SE-AE, apartado 3.5.1, punto 1"
+    },
+    {
+      "pregunta": "Según el DB-SE-AE, apartado 3.5.1, punto 3, ¿en cuánto puede reducirse la carga de nieve cuando la construcción está protegida del viento?",
+      "opciones": [
+        "Un 5 %",
+        "Un 10 %",
+        "Un 20 %",
+        "Un 50 %"
+      ],
+      "correcta": 2,
+      "explicacion": "Cuando la construcción está protegida de la acción del viento, la carga de nieve puede reducirse en un 20 %.",
+      "referencia": "DB-SE-AE, apartado 3.5.1, punto 3"
+    },
+    {
+      "pregunta": "Según el DB-HS 5, apartado 7, punto 3, ¿con qué periodicidad se limpian los sumideros de cubiertas no transitables?",
+      "opciones": [
+        "Cada diez años",
+        "Cada quince días",
+        "Nunca",
+        "Al menos una vez al año"
+      ],
+      "correcta": 3,
+      "explicacion": "Los sumideros y calderetas de cubiertas no transitables se limpian, al menos, una vez al año.",
+      "referencia": "DB-HS 5, apartado 7, punto 3"
+    },
+    {
+      "pregunta": "Según el DB-HS 5, tabla 4.6, ¿cuántos sumideros se disponen en una cubierta de 80 m² de proyección horizontal?",
+      "opciones": [
+        "Uno",
+        "Dos",
+        "Tres",
+        "Cuatro"
+      ],
+      "correcta": 1,
+      "explicacion": "Para superficies menores de 100 m² se disponen dos sumideros, según la tabla 4.6.",
+      "referencia": "DB-HS 5, apartado 4.2.1, tabla 4.6"
+    },
+    {
+      "pregunta": "Según el anexo IV, apartado 12.b, del RD 1627/1997, ¿qué debe tenerse en cuenta en los trabajos en tejados para la protección colectiva?",
+      "opciones": [
+        "Solo la hora del día",
+        "Solo el color del tejado",
+        "La altura, la inclinación o el carácter o estado resbaladizo de la superficie",
+        "Nada: los tejados no tienen riesgo"
+      ],
+      "correcta": 2,
+      "explicacion": "Las medidas de protección colectiva deben adoptarse en atención a la altura, la inclinación o el carácter o estado resbaladizo de la cubierta, para evitar caídas.",
+      "referencia": "Anexo IV, apartado 12.b RD 1627/1997"
+    },
+    {
+      "pregunta": "Según el art. 17.1.a de la LOE, ¿durante cuánto tiempo responden los agentes de los daños materiales por defectos que afecten a la estructura de la cubierta y comprometan su estabilidad?",
+      "opciones": [
+        "Diez años",
+        "Veinte años",
+        "Un año",
+        "Tres años"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 17.1.a LOE fija diez años para los daños materiales causados por vicios o defectos que afecten a los elementos estructurales, entre ellos los que comprometen la estabilidad del edificio.",
+      "referencia": "Art. 17.1.a LOE"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "e31",
+  "resumen": [
+    {
+      "titulo": "Concepto y límites",
+      "puntos": [
+        "Los precios solo pueden revisarse de forma periódica y predeterminada; no cabe la revisión no periódica ni la no predeterminada, salvo excepciones de contratos no armonizados (art. 103.1 LCSP).",
+        "Precio es cualquier retribución o contraprestación económica del contrato, abonada por la Administración o por los usuarios (art. 103.1 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Procedencia",
+      "puntos": [
+        "La revisión periódica y predeterminada procede en los contratos de obra, de armamento, de suministro de energía y en los de recuperación de la inversión igual o superior a cinco años (art. 103.2 LCSP).",
+        "En otros contratos cabe, con justificación, si las materias primas, bienes intermedios y energía superan el 20 por ciento del presupuesto base; la revisión solo afecta a esa fracción (art. 103.2 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Costes no revisables",
+      "puntos": [
+        "No son revisables en ningún caso las amortizaciones, los costes financieros, los gastos generales o de estructura ni el beneficio industrial (art. 103.2 LCSP).",
+        "La mano de obra de contratos distintos de obra solo se revisa en los supuestos de recuperación de cinco años y uso significativo del factor trabajo (art. 103.2 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Pliego, fórmula y fecha de referencia",
+      "puntos": [
+        "El órgano de contratación puede establecer la revisión y su fórmula (art. 103.3 LCSP). El pliego debe detallar la fórmula, que es invariable durante la vigencia del contrato (art. 103.4 LCSP).",
+        "La fecha de referencia es la de formalización si se formaliza en tres meses desde el fin del plazo de ofertas; si no, la del fin de ese plazo de tres meses (art. 103.4 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Inicio de la revisión: 20 por ciento y un año",
+      "puntos": [
+        "La revisión se aplica cuando se ha ejecutado al menos el 20 por ciento del importe y ha transcurrido un año desde la formalización. El primer 20 por ciento y el importe del primer año quedan excluidos (art. 103.5 LCSP).",
+        "La condición del porcentaje no se exige en los contratos de concesión de servicios (art. 103.5 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Fórmulas tipo, índices y coeficiente",
+      "puntos": [
+        "El Consejo de Ministros puede aprobar fórmulas tipo, previo informe de la Junta Consultiva y de la Comisión Delegada; una vez aprobadas, no puede usarse otra diferente (art. 103.6 LCSP).",
+        "El INE elabora los índices mensuales, aprobados por orden ministerial. El coeficiente se obtiene con las ponderaciones y se aplica a los importes líquidos de las prestaciones realizadas (arts. 103.7 a 103.9 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Demora y pago",
+      "puntos": [
+        "En períodos de mora del contratista se aplican los índices de la fecha prevista, salvo que los del período real den un coeficiente inferior (art. 104 LCSP).",
+        "La revisión se paga de oficio, mediante abono o descuento en las certificaciones o pagos parciales. Los desajustes, en la certificación final o en la liquidación (art. 105 LCSP)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LCSP",
+      "rol": "Norma principal del tema (arts. 103 a 105)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 103.1 LCSP, ¿qué tipo de revisión de precios admite la ley con carácter general?",
+      "opciones": [
+        "Solo la revisión periódica y predeterminada",
+        "La revisión no periódica, a discreción del órgano de contratación",
+        "Cualquier revisión que pida el contratista",
+        "Ninguna, en ningún caso"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 103.1 LCSP solo admite la revisión periódica y predeterminada, salvo excepciones de contratos no armonizados.",
+      "referencia": "Art. 103.1 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 103.2 LCSP, ¿cuál de estos costes no es revisable en ningún caso?",
+      "opciones": [
+        "Los materiales de construcción",
+        "La energía consumida en obra",
+        "El beneficio industrial",
+        "La mano de obra"
+      ],
+      "correcta": 2,
+      "explicacion": "Las amortizaciones, los costes financieros, los gastos generales o de estructura y el beneficio industrial no son revisables en ningún caso.",
+      "referencia": "Art. 103.2 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 103.5 LCSP, ¿cuándo empieza a aplicarse la revisión periódica en un contrato de obra?",
+      "opciones": [
+        "Desde la formalización del contrato",
+        "Cuando se ha ejecutado al menos el 20 por ciento del importe y ha transcurrido un año desde la formalización",
+        "Cuando se recibe la obra",
+        "Desde el primer mes de ejecución"
+      ],
+      "correcta": 1,
+      "explicacion": "Se exigen ambas condiciones: el 20 por ciento ejecutado y un año desde la formalización. El primer 20 por ciento queda excluido.",
+      "referencia": "Art. 103.5 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 103.4 LCSP, ¿cuál es la fecha de referencia si la formalización se produce después de tres meses desde el fin del plazo de presentación de ofertas?",
+      "opciones": [
+        "La fecha de la adjudicación",
+        "La fecha de inicio de la obra",
+        "La fecha de recepción",
+        "La fecha en que termina ese plazo de tres meses"
+      ],
+      "correcta": 3,
+      "explicacion": "Si la formalización es posterior a esos tres meses, la referencia es la fecha en que termina el plazo de tres meses.",
+      "referencia": "Art. 103.4 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 103.6 LCSP, ¿qué ocurre con las fórmulas tipo ya aprobadas para un tipo de contrato?",
+      "opciones": [
+        "El órgano de contratación no puede incluir otra fórmula diferente en los pliegos y el contrato",
+        "Son orientativas: el órgano puede proponer otra",
+        "Solo se aplican a los contratos de suministro",
+        "Deben combinarse con otra fórmula"
+      ],
+      "correcta": 0,
+      "explicacion": "Cuando hay fórmula tipo aprobada para un tipo de contrato, el órgano de contratación no puede incluir una fórmula diferente.",
+      "referencia": "Art. 103.6 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 103.8 LCSP, ¿quién elabora los índices mensuales de los componentes básicos de costes y cómo se aprueban?",
+      "opciones": [
+        "El Comité Superior de Precios, por Real Decreto",
+        "La Junta Consultiva, por resolución",
+        "El órgano de contratación, en cada pliego",
+        "El Instituto Nacional de Estadística; se aprueban por orden ministerial"
+      ],
+      "correcta": 3,
+      "explicacion": "El INE elabora los índices, que se aprueban por Orden del Ministerio de Hacienda y Función Pública, previo informe del Comité Superior de Precios.",
+      "referencia": "Art. 103.8 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 104 LCSP, en un período de mora del contratista, ¿qué índices se aplican?",
+      "opciones": [
+        "Los más altos entre los dos períodos",
+        "Los de la fecha prevista en el contrato, salvo que los del período real den un coeficiente inferior",
+        "Los del período real, siempre",
+        "Ninguno: se suspende la revisión"
+      ],
+      "correcta": 1,
+      "explicacion": "Se aplican los índices de la fecha prevista, salvo que los del período real produzcan un coeficiente inferior, en cuyo caso se aplican estos.",
+      "referencia": "Art. 104 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 105 LCSP, ¿cómo se hace efectivo el importe de la revisión?",
+      "opciones": [
+        "De oficio, mediante abono o descuento en las certificaciones o pagos parciales",
+        "Previa solicitud del contratista en cada año",
+        "Solo en la liquidación final",
+        "Mediante un pago único al término de la obra"
+      ],
+      "correcta": 0,
+      "explicacion": "El importe se hace efectivo de oficio en las certificaciones o pagos parciales. Los desajustes pueden regularizarse en la certificación final o en la liquidación.",
+      "referencia": "Art. 105 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 103.2 LCSP, ¿cuándo puede admitirse la revisión en un contrato de servicios con período de recuperación inferior a cinco años?",
+      "opciones": [
+        "Nunca",
+        "Siempre, sin justificación",
+        "Con justificación en el expediente, si materias primas, bienes intermedios y energía superan el 20 por ciento del presupuesto base",
+        "Solo si el contrato se formaliza con el Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "Cabe la revisión previa justificación, cuando la participación de materias primas, bienes intermedios y energía supera el 20 por ciento del presupuesto base. Entonces solo afecta a esa fracción.",
+      "referencia": "Art. 103.2 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 103.9 LCSP, ¿a qué importes se aplica el coeficiente de revisión?",
+      "opciones": [
+        "Al presupuesto base de licitación",
+        "Al beneficio industrial",
+        "A los pagos anticipados sin ejecución",
+        "A los importes líquidos de las prestaciones realizadas que tengan derecho a revisión"
+      ],
+      "correcta": 3,
+      "explicacion": "El coeficiente se aplica a los importes líquidos de las prestaciones realizadas con derecho a revisión, para calcular el precio que corresponde pagar.",
+      "referencia": "Art. 103.9 LCSP"
+    }
+  ]
+}

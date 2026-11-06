@@ -1,0 +1,482 @@
+[
+ {
+  "pregunta": "¿Qué documento básico del CTE verifica el acero en edificación?",
+  "opciones": [
+   "El DB-SE-A",
+   "El DB-HS",
+   "El DB-HE",
+   "El DB-SI"
+  ],
+  "correcta": 0,
+  "explicacion": "El DB-SE-A verifica el acero en edificación.",
+  "referencia": "CTE, art. 10.3"
+ },
+ {
+  "pregunta": "¿Qué documento básico verifica la madera en edificación?",
+  "opciones": [
+   "El DB-SE-M",
+   "El DB-SE-A",
+   "El DB-HR",
+   "El DB-SUA"
+  ],
+  "correcta": 0,
+  "explicacion": "El DB-SE-M verifica la madera.",
+  "referencia": "CTE, art. 10.3"
+ },
+ {
+  "pregunta": "¿Qué no cubre el DB-SE-A?",
+  "opciones": [
+   "Puentes, silos, chimeneas y tanques, ni la resistencia al fuego",
+   "La edificación ordinaria",
+   "Los forjados de viviendas",
+   "Las vigas de madera"
+  ],
+  "correcta": 0,
+  "explicacion": "El DB-SE-A no cubre puentes, silos, chimeneas ni tanques, ni la resistencia al fuego.",
+  "referencia": "DB-SE-A, apartado 1.1"
+ },
+ {
+  "pregunta": "¿Qué norma de referencia para chapas y perfiles de acero se cita en el DB-SE-A?",
+  "opciones": [
+   "UNE-EN 10025",
+   "UNE 1",
+   "Ley 22/2011",
+   "RD 1627/1997"
+  ],
+  "correcta": 0,
+  "explicacion": "Las chapas y perfiles siguen la norma UNE-EN 10025.",
+  "referencia": "DB-SE-A, apartado 4.2"
+ },
+ {
+  "pregunta": "¿Qué clase resistente tienen las coníferas en madera aserrada?",
+  "opciones": [
+   "De C14 a C50",
+   "De D30 a D70",
+   "De A1 a A5",
+   "No tienen clase"
+  ],
+  "correcta": 0,
+  "explicacion": "Las coníferas y el chopo se clasifican de C14 a C50.",
+  "referencia": "DB-SE-M, apartado 4.1"
+ },
+ {
+  "pregunta": "¿Qué clase resistente tienen las frondosas en madera aserrada?",
+  "opciones": [
+   "De D30 a D70",
+   "De C14 a C50",
+   "De A1 a A5",
+   "No tienen clase"
+  ],
+  "correcta": 0,
+  "explicacion": "Las frondosas se clasifican de D30 a D70.",
+  "referencia": "DB-SE-M, apartado 4.1"
+ },
+ {
+  "pregunta": "¿Qué regula el Código Estructural sobre el acero?",
+  "opciones": [
+   "Los artículos 79 a 109",
+   "Solo el color",
+   "Solo el precio",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "El Código Estructural regula el acero en sus artículos 79 a 109.",
+  "referencia": "RD 470/2021"
+ },
+ {
+  "pregunta": "¿Qué tipo de aceros recoge el Código entre los laminados en caliente?",
+  "opciones": [
+   "Soldables de grano fino, patinables, de alto límite elástico e inoxidables",
+   "Solo acero de cuchillería",
+   "Solo hierro de forja",
+   "Solo acero de cuerda"
+  ],
+  "correcta": 0,
+  "explicacion": "El Código recoge los aceros con características especiales: soldables de grano fino, patinables, de alto límite elástico e inoxidables.",
+  "referencia": "RD 470/2021, art. 83"
+ },
+ {
+  "pregunta": "¿Qué norma de referencia rige los perfiles huecos de acero?",
+  "opciones": [
+   "UNE-EN 10210-1 y UNE-EN 10219-1",
+   "UNE 1",
+   "Ley 22/2011",
+   "RD 105/2008"
+  ],
+  "correcta": 0,
+  "explicacion": "Los perfiles huecos siguen las normas UNE-EN 10210-1 y UNE-EN 10219-1.",
+  "referencia": "DB-SE-A, apartado 4.2"
+ },
+ {
+  "pregunta": "¿Qué establece el DB-SE-A sobre la estrategia global frente a la corrosión?",
+  "opciones": [
+   "Protecciones indicadas en el proyecto y materiales protectores según el fabricante",
+   "Ninguna protección",
+   "La pintura al azar",
+   "Sin proyecto"
+  ],
+  "correcta": 0,
+  "explicacion": "El DB-SE-A exige una estrategia global frente a la corrosión con protecciones indicadas en el proyecto.",
+  "referencia": "DB-SE-A, apartado 3"
+ },
+ {
+  "pregunta": "¿Cuántas fases tiene la estrategia de durabilidad del acero según el Código?",
+  "opciones": [
+   "Cinco: formas, materiales, medidas frente a la corrosión, detalles y mantenimiento",
+   "Dos",
+   "Diez",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "La estrategia de durabilidad del acero tiene esas cinco fases.",
+  "referencia": "RD 470/2021, art. 87"
+ },
+ {
+  "pregunta": "¿Cuál es el diámetro mínimo de los tornillos en uniones de acero?",
+  "opciones": [
+   "12 mm",
+   "2 mm",
+   "100 mm",
+   "No hay mínimo"
+  ],
+  "correcta": 0,
+  "explicacion": "Los tornillos tienen un diámetro mínimo de 12 mm.",
+  "referencia": "DB-SE-A, apartado 10.4.1"
+ },
+ {
+  "pregunta": "¿Qué debe existir antes de soldar en el acero estructural?",
+  "opciones": [
+   "Un plan de soldeo con detalles de la unión",
+   "Un permiso del vecino",
+   "Una canción",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "Se exige un plan de soldeo con detalles de la unión y medidas para evitar el desgarro laminar.",
+  "referencia": "DB-SE-A, apartado 10.3.1"
+ },
+ {
+  "pregunta": "¿Qué norma regula la soldadura del acero?",
+  "opciones": [
+   "UNE-EN ISO 3834",
+   "UNE 1",
+   "UNE 2",
+   "Ley 22/2011"
+  ],
+  "correcta": 0,
+  "explicacion": "La soldadura debe ser conforme a la norma UNE-EN ISO 3834.",
+  "referencia": "RD 470/2021, art. 94.1"
+ },
+ {
+  "pregunta": "¿Qué autorización se necesita para sacar una pieza del taller?",
+  "opciones": [
+   "La de la dirección facultativa",
+   "La del vecino",
+   "La del transportista",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "Ninguna pieza sale del taller sin autorización de la dirección facultativa.",
+  "referencia": "RD 470/2021, art. 92.1.1"
+ },
+ {
+  "pregunta": "¿Qué se requiere para cambiar las calidades de acero previstas?",
+  "opciones": [
+   "La autorización del director de obra",
+   "Nada",
+   "La firma del alcalde",
+   "Un sorteo"
+  ],
+  "correcta": 0,
+  "explicacion": "No se cambian las calidades sin autorización del director de obra.",
+  "referencia": "DB-SE-A, apartado 10.1 punto 2"
+ },
+ {
+  "pregunta": "¿Dónde debe registrarse el control del acero?",
+  "opciones": [
+   "En la documentación final",
+   "En el buzón",
+   "En la pared",
+   "No se registra"
+  ],
+  "correcta": 0,
+  "explicacion": "Cada control debe registrarse documentalmente en la documentación final.",
+  "referencia": "DB-SE-A, apartado 12.1"
+ },
+ {
+  "pregunta": "¿Qué garantiza el control de materiales por certificado?",
+  "opciones": [
+   "Trazabilidad",
+   "Ruido",
+   "Color",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "El control de materiales se hace por certificado y trazabilidad.",
+  "referencia": "DB-SE-A, apartado 12.3"
+ },
+ {
+  "pregunta": "¿Qué plan independiente requiere la fatiga en las estructuras de acero?",
+  "opciones": [
+   "Un plan de mantenimiento independiente",
+   "Ninguno",
+   "Un plan de vacaciones",
+   "Un plan de compras"
+  ],
+  "correcta": 0,
+  "explicacion": "Con fatiga se requiere un plan de mantenimiento independiente.",
+  "referencia": "DB-SE-A, apartado 13.2"
+ },
+ {
+  "pregunta": "¿Cómo se mide el acero en estructuras metálicas?",
+  "opciones": [
+   "Los perfiles por kilogramo o metro lineal",
+   "Por litro",
+   "Por hora",
+   "Por unidad de vecino"
+  ],
+  "correcta": 0,
+  "explicacion": "Los perfiles se miden por kilogramo o metro lineal.",
+  "referencia": "Medición de unidades de obra"
+ },
+ {
+  "pregunta": "¿Cómo se miden las chapas de acero?",
+  "opciones": [
+   "Por metro cuadrado",
+   "Por kilogramo",
+   "Por litro",
+   "Por hora"
+  ],
+  "correcta": 0,
+  "explicacion": "Las chapas se miden por metro cuadrado.",
+  "referencia": "Medición de unidades de obra"
+ },
+ {
+  "pregunta": "¿Cómo se mide la madera?",
+  "opciones": [
+   "Por metro cúbico o lineal",
+   "Por kilogramo de agua",
+   "Por número de sillas",
+   "Por hora de trabajo"
+  ],
+  "correcta": 0,
+  "explicacion": "La madera se mide por metro cúbico o lineal.",
+  "referencia": "Medición de unidades de obra"
+ },
+ {
+  "pregunta": "¿Qué protección colectiva se exige en cubiertas durante el montaje de estructuras metálicas?",
+  "opciones": [
+   "Protección colectiva en cubiertas",
+   "Ninguna",
+   "Solo gafas",
+   "Solo guantes"
+  ],
+  "correcta": 0,
+  "explicacion": "El montaje requiere protección colectiva en cubiertas, según el anexo IV.",
+  "referencia": "RD 1627/1997, anexo IV, apartado 12.b"
+ },
+ {
+  "pregunta": "¿Qué norma regula el acero en el Código Estructural?",
+  "opciones": [
+   "El RD 470/2021",
+   "El RD 1627/1997",
+   "La Ley de Caza",
+   "La Ley de Pesca"
+  ],
+  "correcta": 0,
+  "explicacion": "El Código Estructural (RD 470/2021) regula el acero.",
+  "referencia": "RD 470/2021"
+ },
+ {
+  "pregunta": "¿Qué clase de exposición sirve para elementos enterrados o sumergidos de acero?",
+  "opciones": [
+   "Tablas 80.1.a y 80.1.b del Código",
+   "Un color",
+   "Un sabor",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "Las clases de exposición para la corrosión se recogen en las tablas 80.1.a y 80.1.b.",
+  "referencia": "RD 470/2021, art. 80.1"
+ },
+ {
+  "pregunta": "¿Qué ocurre si una zona tiene más de cinco nevadas anuales en puentes con fundentes?",
+  "opciones": [
+   "Se considera clase C5",
+   "No cambia nada",
+   "Se prohíbe el puente",
+   "Se paga más"
+  ],
+  "correcta": 0,
+  "explicacion": "Las zonas con más de cinco nevadas anuales se consideran de clase C5 para puentes y pasarelas con fundentes.",
+  "referencia": "RD 470/2021, art. 80"
+ },
+ {
+  "pregunta": "¿Qué documento básico del CTE regula la seguridad estructural en acero?",
+  "opciones": [
+   "DB-SE-A",
+   "DB-SE-M",
+   "DB-SE-F",
+   "DB-SI 6"
+  ],
+  "correcta": 0,
+  "explicacion": "El DB-SE-A regula las estructuras de acero.",
+  "referencia": "CTE, DB-SE-A"
+ },
+ {
+  "pregunta": "¿Qué documento básico del CTE regula la seguridad estructural en madera?",
+  "opciones": [
+   "DB-SE-A",
+   "DB-SE-M",
+   "DB-SE-C",
+   "DB-HS 1"
+  ],
+  "correcta": 1,
+  "explicacion": "El DB-SE-M regula las estructuras de madera.",
+  "referencia": "CTE, DB-SE-M"
+ },
+ {
+  "pregunta": "¿Qué tipo de perfil de acero de alas paralelas se usa habitualmente en vigas?",
+  "opciones": [
+   "Perfil en cruz sin alas",
+   "Redondo macizo",
+   "Perfil IPE o HEB",
+   "Perfil de cartón"
+  ],
+  "correcta": 2,
+  "explicacion": "Los perfiles IPE y HEB, de alas paralelas, se emplean habitualmente en vigas y pilares.",
+  "referencia": "Tema e05"
+ },
+ {
+  "pregunta": "¿Qué tipo de madera estructural se fabrica pegando láminas?",
+  "opciones": [
+   "Madera maciza sin tratar",
+   "Tablero de aglomerado",
+   "Corcho",
+   "Madera laminada encolada"
+  ],
+  "correcta": 3,
+  "explicacion": "La madera laminada encolada se fabrica unificando láminas con adhesivo.",
+  "referencia": "Tema e05"
+ },
+ {
+  "pregunta": "¿Qué protección frente a la corrosión se aplica habitualmente al acero?",
+  "opciones": [
+   "Galvanizado",
+   "Enlucido de yeso",
+   "Barniz de uñas",
+   "Enfoscado de cemento sin tratar"
+  ],
+  "correcta": 0,
+  "explicacion": "El galvanizado recubre el acero con zinc para protegerlo de la corrosión.",
+  "referencia": "Tema e05"
+ },
+ {
+  "pregunta": "¿Qué fenómeno inestabiliza las piezas esbeltas sometidas a compresión?",
+  "opciones": [
+   "Fraguado",
+   "Pandeo",
+   "Retracción",
+   "Carbonatación"
+  ],
+  "correcta": 1,
+  "explicacion": "El pandeo es la inestabilidad lateral de piezas esbeltas comprimidas.",
+  "referencia": "Tema e05"
+ },
+ {
+  "pregunta": "¿Qué condiciones definen la clase de servicio 1 de la madera?",
+  "opciones": [
+   "Madera sumergida en agua",
+   "Temperatura de 20 ± 2 °C y humedad relativa que solo excede el 65 % unas pocas semanas al año",
+   "Exposición permanente a la intemperie",
+   "Humedad relativa siempre superior al 95 %"
+  ],
+  "correcta": 1,
+  "explicacion": "El DB-SE-M define así la clase de servicio 1.",
+  "referencia": "CTE, DB-SE-M, apartado 2.2.2"
+ },
+ {
+  "pregunta": "¿Qué clase de servicio corresponde a condiciones con contenido de humedad superior al de la clase 2?",
+  "opciones": [
+   "Clase de servicio 1",
+   "Clase de servicio 0",
+   "Clase de servicio 2",
+   "Clase de servicio 3"
+  ],
+  "correcta": 3,
+  "explicacion": "La clase de servicio 3 corresponde a condiciones que conducen a contenidos de humedad superiores.",
+  "referencia": "CTE, DB-SE-M, apartado 2.2.2"
+ },
+ {
+  "pregunta": "¿Qué designación tienen las clases resistentes de coníferas y chopo?",
+  "opciones": [
+   "D30 a D70",
+   "GL24h a GL36h",
+   "C14 a C50",
+   "S235 a S460"
+  ],
+  "correcta": 2,
+  "explicacion": "Para coníferas y chopo las clases resistentes van de C14 a C50.",
+  "referencia": "CTE, DB-SE-M, apartado 4.1"
+ },
+ {
+  "pregunta": "¿Qué designación tienen las clases de madera laminada encolada homogénea?",
+  "opciones": [
+   "C14 a C50",
+   "D30 a D70",
+   "GL24h, GL28h, GL32h y GL36h",
+   "HA-25 a HA-50"
+  ],
+  "correcta": 2,
+  "explicacion": "Las clases de madera laminada encolada homogénea son GL24h, GL28h, GL32h y GL36h.",
+  "referencia": "CTE, DB-SE-M, apartado 4.2"
+ },
+ {
+  "pregunta": "¿Qué tipo de unión metálica se realiza fundiendo material de aportación?",
+  "opciones": [
+   "La soldadura",
+   "El atornillado",
+   "El remachado en frío",
+   "El encolado"
+  ],
+  "correcta": 0,
+  "explicacion": "La soldadura une las piezas mediante la fusión de material de aportación.",
+  "referencia": "Tema e05"
+ },
+ {
+  "pregunta": "¿Qué tornillos se emplean pretensados en uniones resistentes por rozamiento?",
+  "opciones": [
+   "Los tornillos ordinarios de madera",
+   "Los clavos",
+   "Los pasadores de plástico",
+   "Los tornillos de alta resistencia"
+  ],
+  "correcta": 3,
+  "explicacion": "Las uniones por rozamiento usan tornillos de alta resistencia pretensados.",
+  "referencia": "Tema e05"
+ },
+ {
+  "pregunta": "¿Qué protección contra el fuego es habitual en estructuras de acero?",
+  "opciones": [
+   "Barniz de madera",
+   "Pintura plástica común",
+   "Pinturas intumescentes o morteros proyectados",
+   "Ninguna"
+  ],
+  "correcta": 2,
+  "explicacion": "Las pinturas intumescentes y los morteros proyectados protegen el acero frente al fuego.",
+  "referencia": "Tema e05"
+ },
+ {
+  "pregunta": "¿Por qué las piezas de madera de gran escuadría resisten bien el fuego?",
+  "opciones": [
+   "Porque la capa carbonizada protege el núcleo",
+   "Porque la madera no arde",
+   "Porque se humedecen",
+   "Porque se funden"
+  ],
+  "correcta": 0,
+  "explicacion": "La carbonización superficial aísla el interior y ralentiza la pérdida de sección.",
+  "referencia": "Tema e05"
+ }
+]

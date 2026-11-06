@@ -1,0 +1,482 @@
+[
+ {
+  "pregunta": "¿Qué es un daño en un edificio?",
+  "opciones": [
+   "La pérdida de prestaciones de un elemento durante la vida del edificio",
+   "Un color diferente",
+   "Una ventana nueva",
+   "Una visita de inspección"
+  ],
+  "correcta": 0,
+  "explicacion": "El daño es la pérdida de prestaciones de un elemento durante la vida del edificio.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué es un defecto en la edificación?",
+  "opciones": [
+   "La causa que produce el daño, en proyecto, ejecución, materiales o uso",
+   "Un adorno",
+   "Un premio",
+   "Un contrato"
+  ],
+  "correcta": 0,
+  "explicacion": "El defecto es la causa que produce el daño.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué estudia la patología de la edificación?",
+  "opciones": [
+   "El daño y su causa",
+   "Solo los colores",
+   "Solo los precios",
+   "Solo las fiestas"
+  ],
+  "correcta": 0,
+  "explicacion": "La patología estudia el daño y su causa.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Cuántos orígenes del agua identifica el CTE en las humedades?",
+  "opciones": [
+   "Cuatro: precipitaciones, escorrentías, terreno y condensaciones",
+   "Uno",
+   "Dos",
+   "Diez"
+  ],
+  "correcta": 0,
+  "explicacion": "El CTE identifica cuatro orígenes: precipitaciones atmosféricas, escorrentías, terreno y condensaciones.",
+  "referencia": "CTE, art. 13.1"
+ },
+ {
+  "pregunta": "¿Qué efecto tiene la humedad sobre los metales ocultos?",
+  "opciones": [
+   "Corrosión",
+   "Brillo",
+   "Calor",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "La humedad puede provocar corrosión de metales ocultos.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué provoca el moho en un edificio?",
+  "opciones": [
+   "Efectos de humedad y deterioro",
+   "Mejor aislamiento",
+   "Más luz",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "El moho es un efecto de la humedad.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué hongos provocan la pudrición de la madera?",
+  "opciones": [
+   "Hongos de pudrición",
+   "Hongos de la pared",
+   "Hongos de la pintura",
+   "Ninguno"
+  ],
+  "correcta": 0,
+  "explicacion": "En la madera la humedad provoca hongos de pudrición.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué es la condensación en una vivienda?",
+  "opciones": [
+   "Una causa de humedad que se limita con el cálculo de la sección HE 1 y con ventilación",
+   "Un tipo de tejado",
+   "Un tipo de ventana",
+   "Una tubería"
+  ],
+  "correcta": 0,
+  "explicacion": "La condensación se limita con el cálculo de la sección y con la ventilación.",
+  "referencia": "DB-HS 1; DB-HS 3"
+ },
+ {
+  "pregunta": "¿Qué sucede si se pone un revestimiento impermeable frente a una condensación?",
+  "opciones": [
+   "No resuelve el problema y puede empeorarlo",
+   "Lo resuelve siempre",
+   "Desaparece la humedad",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "Un revestimiento impermeable no resuelve una condensación y puede empeorarla.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué causa de fisura se relaciona con el movimiento de la cimentación?",
+  "opciones": [
+   "Las fisuras de asiento",
+   "Las de color",
+   "Las de sonido",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "Las fisuras de asiento se relacionan con el movimiento de la cimentación.",
+  "referencia": "DB-SE-C, apartado 4.6.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de fisura se previene con juntas de movimiento?",
+  "opciones": [
+   "Las térmicas",
+   "Las de pintura",
+   "Las de moda",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "Las juntas de movimiento previenen la fisuración térmica.",
+  "referencia": "DB-HS 1, apartado 2.3.3.1"
+ },
+ {
+  "pregunta": "¿Qué causa las fisuras por corrosión de armaduras?",
+  "opciones": [
+   "La corrosión de las armaduras del hormigón",
+   "La lluvia de verano",
+   "El viento",
+   "La luz"
+  ],
+  "correcta": 0,
+  "explicacion": "La corrosión de las armaduras provoca fisuras en el hormigón.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué dato no basta para diagnosticar una fisura?",
+  "opciones": [
+   "Solo su anchura",
+   "Su evolución",
+   "Su activa o pasiva",
+   "Su tiempo de aparición"
+  ],
+  "correcta": 0,
+  "explicacion": "La anchura es orientativa: una fisura estrecha puede ser estructural y una ancha puede ser superficial.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué tipo de tratamiento requieren las fisuras de asiento?",
+  "opciones": [
+   "Corregir la cimentación",
+   "Pintarlas",
+   "Taparlas con papel",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "Las fisuras de asiento requieren corregir la cimentación.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué tratamiento corresponde a las fisuras de retracción del hormigón?",
+  "opciones": [
+   "Sellado elástico en juntas de movimiento",
+   "Pintura de cal",
+   "Papel pintado",
+   "Ninguno"
+  ],
+  "correcta": 0,
+  "explicacion": "Las fisuras térmicas y de retracción se tratan con sellado elástico en juntas.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué agentes bióticos atacan la madera?",
+  "opciones": [
+   "Hongos e insectos",
+   "Hormigón y acero",
+   "Vidrio y plástico",
+   "Piedra y yeso"
+  ],
+  "correcta": 0,
+  "explicacion": "Los agentes bióticos de la madera son hongos e insectos.",
+  "referencia": "DB-SE-M, apartado 3.2"
+ },
+ {
+  "pregunta": "¿Qué agentes abióticos dañan la madera?",
+  "opciones": [
+   "Humedad, variaciones dimensionales, intemperie y radiación",
+   "Insectos",
+   "Hongos",
+   "Pájaros"
+  ],
+  "correcta": 0,
+  "explicacion": "Los agentes abióticos son la humedad, las variaciones dimensionales, la intemperie y la radiación.",
+  "referencia": "DB-SE-M, apartado 3.2 punto 1"
+ },
+ {
+  "pregunta": "¿Qué clase de uso de la madera corresponde a la madera a cubierto y no expuesta a la humedad?",
+  "opciones": [
+   "Clase 1",
+   "Clase 3.2",
+   "Clase 4",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "La clase 1 corresponde a madera a cubierto y no expuesta a la humedad.",
+  "referencia": "DB-SE-M, apartado 3.2.1.2"
+ },
+ {
+  "pregunta": "¿Qué se debe eliminar primero en el tratamiento de una madera dañada?",
+  "opciones": [
+   "La causa, que es la humedad",
+   "La pintura",
+   "El barniz",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "En el tratamiento se elimina primero la causa, la humedad.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Cuándo se sustituye o refuerza una pieza de madera?",
+  "opciones": [
+   "Cuando la pérdida de sección es significativa",
+   "Siempre",
+   "Nunca",
+   "Solo en verano"
+  ],
+  "correcta": 0,
+  "explicacion": "Si la pérdida de sección es significativa, la pieza se sustituye o refuerza.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Quién debe comunicar las anomalías de un edificio?",
+  "opciones": [
+   "El propietario y los usuarios",
+   "El vecino de enfrente",
+   "El Defensor del Pueblo",
+   "Nadie"
+  ],
+  "correcta": 0,
+  "explicacion": "El propietario y los usuarios deben comunicar las anomalías.",
+  "referencia": "CTE, art. 8.2"
+ },
+ {
+  "pregunta": "¿Dónde se recogen las intervenciones de un edificio?",
+  "opciones": [
+   "En el plan de mantenimiento y el libro del edificio",
+   "En el buzón",
+   "En la cuenta corriente",
+   "En el tablón"
+  ],
+  "correcta": 0,
+  "explicacion": "El plan de mantenimiento y el libro del edificio recogen las intervenciones.",
+  "referencia": "CTE, art. 8.2"
+ },
+ {
+  "pregunta": "¿Qué plazo de responsabilidad tiene la LOE por defectos de acabado?",
+  "opciones": [
+   "Un año",
+   "Diez años",
+   "Tres años",
+   "Cien años"
+  ],
+  "correcta": 0,
+  "explicacion": "Los defectos de acabado tienen un año de responsabilidad.",
+  "referencia": "LOE, art. 17, último párrafo"
+ },
+ {
+  "pregunta": "¿Qué sistema de protección de la madera se considera suficiente con durabilidad natural?",
+  "opciones": [
+   "La madera con durabilidad natural suficiente puede prescindir del tratamiento protector",
+   "Ninguno",
+   "Solo el pintado",
+   "Solo el barnizado"
+  ],
+  "correcta": 0,
+  "explicacion": "La madera con durabilidad natural suficiente puede sustituir al tratamiento protector.",
+  "referencia": "DB-SE-M, apartado 3.2.1.1"
+ },
+ {
+  "pregunta": "¿Qué tipo de humedad asciende desde el terreno por los poros de los muros?",
+  "opciones": [
+   "Humedad por capilaridad",
+   "Humedad de condensación",
+   "Humedad accidental",
+   "Humedad de lluvia directa"
+  ],
+  "correcta": 0,
+  "explicacion": "La humedad por capilaridad asciende desde el terreno a través de los poros del material.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué humedad aparece por diferencia de temperatura entre el interior y el exterior?",
+  "opciones": [
+   "Humedad por capilaridad",
+   "Humedad por condensación",
+   "Humedad accidental",
+   "Humedad de obra fresca"
+  ],
+  "correcta": 1,
+  "explicacion": "La condensación se produce cuando el vapor de agua se enfría sobre superficies frías.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué causa fisuras en diagonal en muros por asientos diferenciales?",
+  "opciones": [
+   "Exceso de pintura",
+   "Ruido de las instalaciones",
+   "Asientos diferenciales de la cimentación",
+   "Exceso de luz natural"
+  ],
+  "correcta": 2,
+  "explicacion": "Los asientos diferenciales provocan fisuras inclinadas en los muros.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué manchas blancas aparecen en fachadas por sales que migran a la superficie?",
+  "opciones": [
+   "Hongos negros",
+   "Grietas de retracción",
+   "Óxido de hierro",
+   "Eflorescencias"
+  ],
+  "correcta": 3,
+  "explicacion": "Las eflorescencias son depósitos salinos que aparecen en la superficie.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué daño provoca la corrosión de las armaduras en el hormigón?",
+  "opciones": [
+   "Desprendimiento del recubrimiento",
+   "Aumento de la resistencia",
+   "Mejora del aislamiento térmico",
+   "Eliminación del ruido"
+  ],
+  "correcta": 0,
+  "explicacion": "La corrosión de la armadura aumenta de volumen y desprende el recubrimiento.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué fisuras aparecen en hormigón fresco por evaporación rápida del agua?",
+  "opciones": [
+   "Fisuras de dilatación térmica",
+   "Fisuras de retracción plástica",
+   "Fisuras de asiento de cimentación",
+   "Fisuras de fuego"
+  ],
+  "correcta": 1,
+  "explicacion": "La retracción plástica genera fisuras superficiales cuando el agua se evapora rápidamente.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué es una fisura, frente a una grieta?",
+  "opciones": [
+   "Una abertura de menor anchura que solo afecta generalmente a la superficie o al acabado",
+   "Una rotura que divide el elemento por completo",
+   "Una mancha de humedad",
+   "Un desprendimiento de pintura"
+  ],
+  "correcta": 0,
+  "explicacion": "Las fisuras son aberturas de pequeña anchura, frecuentemente superficiales; las grietas afectan a todo el espesor del elemento.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué patología se manifiesta como polvo o costra blanquecina sobre fábricas de ladrillo?",
+  "opciones": [
+   "Carbonatación",
+   "Oxidación del acero",
+   "Retracción hidráulica",
+   "Eflorescencia por cristalización de sales"
+  ],
+  "correcta": 3,
+  "explicacion": "Las eflorescencias se producen al cristalizar las sales solubles al evaporarse el agua.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué proceso reduce el pH del hormigón y despasiva las armaduras?",
+  "opciones": [
+   "La hidratación",
+   "El fraguado",
+   "La compactación",
+   "La carbonatación"
+  ],
+  "correcta": 3,
+  "explicacion": "El CO₂ atmosférico reacciona con el hidróxido cálcico y reduce la alcalinidad del hormigón.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué tratamiento se utiliza habitualmente contra la humedad por capilaridad en muros?",
+  "opciones": [
+   "Pintura plástica",
+   "Aumentar la calefacción",
+   "Barrera química por inyección o barrera física horizontal",
+   "Colocar un falso techo"
+  ],
+  "correcta": 2,
+  "explicacion": "Las barreras horizontales impiden el ascenso capilar del agua del terreno.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué humedad se debe a la condensación del vapor en el interior de un cerramiento?",
+  "opciones": [
+   "Condensación superficial",
+   "Humedad de obra",
+   "Condensación intersticial",
+   "Humedad accidental"
+  ],
+  "correcta": 2,
+  "explicacion": "La condensación intersticial se produce dentro del cerramiento cuando la temperatura baja del punto de rocío.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué medida reduce las condensaciones superficiales en paramentos interiores?",
+  "opciones": [
+   "Mejorar el aislamiento térmico y la ventilación",
+   "Cerrar todas las rejillas",
+   "Pintar con esmalte impermeable sin más",
+   "Retirar el aislamiento"
+  ],
+  "correcta": 0,
+  "explicacion": "Elevar la temperatura superficial y renovar el aire limita las condensaciones.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué fisuras aparecen típicamente en forma de arco en un muro por asiento de su zona central?",
+  "opciones": [
+   "Fisuras horizontales en la coronación",
+   "Fisuras en mapa sin orientación",
+   "Ninguna",
+   "Fisuras inclinadas convergentes hacia la zona que desciende"
+  ],
+  "correcta": 3,
+  "explicacion": "Los asientos diferenciales generan fisuras inclinadas que apuntan a la zona de mayor descenso.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué patología del hormigón produce un cuarteo en mapa por exceso de agua en la superficie?",
+  "opciones": [
+   "Retracción plástica o de secado superficial",
+   "Corrosión de armaduras",
+   "Asiento de cimentación",
+   "Ataque por sulfatos internos"
+  ],
+  "correcta": 0,
+  "explicacion": "La retracción superficial genera una red de fisuras finas en mapa.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué ensayo no destructivo estima la resistencia superficial del hormigón?",
+  "opciones": [
+   "La prueba de carga destructiva",
+   "El ensayo de tracción del acero",
+   "El índice de rebote con esclerómetro",
+   "La rotura de probetas de mortero"
+  ],
+  "correcta": 2,
+  "explicacion": "El esclerómetro mide el índice de rebote, relacionado con la dureza superficial.",
+  "referencia": "Tema e16"
+ },
+ {
+  "pregunta": "¿Qué instrumento se utiliza para controlar la evolución de una grieta?",
+  "opciones": [
+   "Un termómetro",
+   "Un testigo o fisurómetro",
+   "Un nivel de burbuja",
+   "Un manómetro"
+  ],
+  "correcta": 1,
+  "explicacion": "Los testigos (de yeso o vidrio) y los fisurómetros permiten comprobar si la grieta está activa.",
+  "referencia": "Tema e16"
+ }
+]

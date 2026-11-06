@@ -1,0 +1,198 @@
+{
+  "id": "c17",
+  "resumen": [
+    {
+      "titulo": "Fundamento y requisitos",
+      "puntos": [
+        "El artículo 106.2 CE reconoce la indemnización por toda lesión que sufran los particulares en sus bienes y derechos, derivada del funcionamiento de los servicios públicos, salvo fuerza mayor.",
+        "El daño debe ser efectivo, evaluable económicamente e individualizado (art. 32.2 LRJSP). La anulación de un acto no presupone por sí misma indemnización (art. 32.1 LRJSP)."
+      ]
+    },
+    {
+      "titulo": "Límites e indemnización",
+      "puntos": [
+        "No son indemnizables los daños que el particular tenga el deber jurídico de soportar, ni los que no se pudieron prever según el estado de la ciencia y la técnica (art. 34.1 LRJSP).",
+        "La indemnización se calcula a la fecha de la lesión y se actualiza hasta el fin del procedimiento; puede sustituirse por compensación en especie con acuerdo del interesado (arts. 34.3 y 34.4 LRJSP)."
+      ]
+    },
+    {
+      "titulo": "Procedimiento de responsabilidad",
+      "puntos": [
+        "La reclamación prescribe al año de producido el hecho o de manifestarse el efecto lesivo (art. 67.1 LPAC). El servicio informa en diez días y se da audiencia (arts. 81.1 y 82.1 LPAC).",
+        "El dictamen del Consejo de Estado es preceptivo con indemnizaciones de 50.000 euros o más, sin perjuicio de la legislación autonómica (art. 81.2 LPAC). El silencio tras seis meses puede entenderse contrario a la indemnización (art. 91.3 LPAC)."
+      ]
+    },
+    {
+      "titulo": "Autoridades, personal y contratistas",
+      "puntos": [
+        "El particular reclama a la Administración, que exige de oficio al personal la responsabilidad por dolo o culpa o negligencia graves (art. 36 LRJSP).",
+        "El contratista responde de los daños a terceros; la Administración responde por órdenes directas y vicios del proyecto (art. 196 LCSP). El artículo 35 LRJSP extiende el régimen a las relaciones de derecho privado."
+      ]
+    },
+    {
+      "titulo": "Potestad sancionadora: principios",
+      "puntos": [
+        "Solo puede ejercerse si una ley la reconoce, con el procedimiento previsto (art. 25 LRJSP). Principios de irretroactividad, tipicidad, culpabilidad y proporcionalidad (arts. 26 a 29 LRJSP).",
+        "Las normas sancionadoras no admiten aplicación analógica (art. 27.4 LRJSP). Las infracciones prescriben a los tres, dos y seis meses según sean muy graves, graves o leves (art. 30.1 LRJSP)."
+      ]
+    },
+    {
+      "titulo": "Procedimiento sancionador",
+      "puntos": [
+        "El acuerdo de iniciación contiene responsables, hechos, instructor, órgano competente y medidas provisionales (art. 64.2 LPAC).",
+        "El reconocimiento de responsabilidad o el pago voluntario terminan el procedimiento (art. 85 LPAC). La resolución valora las pruebas y fija hechos, responsables y sanción (art. 90 LPAC)."
+      ]
+    },
+    {
+      "titulo": "Competencias de la Junta de Andalucía",
+      "puntos": [
+        "La Junta tiene competencia compartida en responsabilidad patrimonial, para determinar el procedimiento y los supuestos (art. 47.4 EA).",
+        "Tiene potestades de control, inspección y sanción en sus ámbitos materiales de competencia (art. 47.1.3.ª EA)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CE",
+      "rol": "Fundamento de la responsabilidad patrimonial (art. 106.2)"
+    },
+    {
+      "id": "LRJSP",
+      "rol": "Norma principal del tema (arts. 25 a 36)"
+    },
+    {
+      "id": "LPAC",
+      "rol": "Complementaria: procedimiento de responsabilidad y sancionador (arts. 64, 67, 81, 82, 85, 89, 90 y 91)"
+    },
+    {
+      "id": "LCSP",
+      "rol": "Complementaria: responsabilidad del contratista (art. 196)"
+    },
+    {
+      "id": "EA-ANDALUCIA",
+      "rol": "Complementaria: competencias de la Junta (art. 47.1.3.ª y 47.4)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 106.2 CE, ¿de qué lesión deriva el derecho a indemnización del particular?",
+      "opciones": [
+        "De la lesión que sufra en sus bienes y derechos como consecuencia del funcionamiento de los servicios públicos",
+        "Solo de los daños causados por funcionarios con dolo",
+        "Solo de las expropiaciones",
+        "De cualquier daño, aunque no lo cause la Administración"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 106.2 CE reconoce la indemnización por toda lesión en bienes y derechos que sea consecuencia del funcionamiento de los servicios públicos, salvo fuerza mayor.",
+      "referencia": "Art. 106.2 CE"
+    },
+    {
+      "pregunta": "Según el art. 32.2 LRJSP, ¿cuál NO es un requisito del daño indemnizable?",
+      "opciones": [
+        "Que sea efectivo",
+        "Que sea evaluable económicamente",
+        "Que sea de carácter general para toda la sociedad",
+        "Que sea individualizado"
+      ],
+      "correcta": 2,
+      "explicacion": "El daño debe ser efectivo, evaluable económicamente e individualizado con relación a una persona o grupo. Un daño general para toda la sociedad no cumple el requisito de individualización.",
+      "referencia": "Art. 32.2 LRJSP"
+    },
+    {
+      "pregunta": "Según el art. 67.1 LPAC, ¿en qué plazo prescribe el derecho a reclamar la responsabilidad patrimonial?",
+      "opciones": [
+        "Cinco años",
+        "Un mes",
+        "Seis meses",
+        "Un año desde el hecho o desde que se manifieste su efecto lesivo"
+      ],
+      "correcta": 3,
+      "explicacion": "El derecho a reclamar prescribe al año de producido el hecho o de manifestarse su efecto lesivo. En daños físicos, el plazo se cuenta desde la curación o la determinación de las secuelas.",
+      "referencia": "Art. 67.1 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 91.3 LPAC, ¿qué ocurre si transcurren seis meses sin resolución expresa en un procedimiento de responsabilidad patrimonial?",
+      "opciones": [
+        "La reclamación queda automáticamente estimada",
+        "Se puede entender que la resolución es contraria a la indemnización",
+        "El procedimiento se reinicia",
+        "Se paraliza hasta nueva orden"
+      ],
+      "correcta": 1,
+      "explicacion": "Transcurridos seis meses sin resolución expresa, puede entenderse que la resolución es contraria a la indemnización del particular.",
+      "referencia": "Art. 91.3 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 81.2 LPAC, ¿a partir de qué cuantía es preceptivo el dictamen del Consejo de Estado en responsabilidad patrimonial, sin perjuicio de la legislación autonómica?",
+      "opciones": [
+        "50.000 euros",
+        "100.000 euros",
+        "10.000 euros",
+        "25.000 euros"
+      ],
+      "correcta": 0,
+      "explicacion": "Cuando la indemnización reclamada sea igual o superior a 50.000 euros, o a la cuantía de la legislación autonómica, es preceptivo el dictamen del Consejo de Estado u órgano equivalente.",
+      "referencia": "Art. 81.2 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 36.2 LRJSP, ¿qué debe hacer la Administración que ha indemnizado a un particular por la actuación de su personal?",
+      "opciones": [
+        "Pagar también la sanción al personal",
+        "Nada, la responsabilidad recae solo en el particular",
+        "Exigir de oficio al personal la responsabilidad por dolo o culpa o negligencia graves, previa instrucción",
+        "Exigir la responsabilidad solo en vía penal"
+      ],
+      "correcta": 2,
+      "explicacion": "La Administración que ha indemnizado debe exigir de oficio la responsabilidad de su personal por dolo o culpa o negligencia graves, previa instrucción del procedimiento.",
+      "referencia": "Art. 36.2 LRJSP"
+    },
+    {
+      "pregunta": "Según el art. 30.1 LRJSP, ¿en qué plazo prescriben las infracciones muy graves si la ley no fija otro?",
+      "opciones": [
+        "Seis meses",
+        "Un año",
+        "Dos años",
+        "Tres años"
+      ],
+      "correcta": 3,
+      "explicacion": "Si las leyes no fijan plazos, las infracciones muy graves prescriben a los tres años, las graves a los dos años y las leves a los seis meses.",
+      "referencia": "Art. 30.1 LRJSP"
+    },
+    {
+      "pregunta": "Según el art. 28.1 LRJSP, ¿qué exige la ley para sancionar?",
+      "opciones": [
+        "Solo que el hecho esté prohibido por un reglamento",
+        "Que el responsable lo sea a título de dolo o culpa",
+        "Que haya daño económico",
+        "Una denuncia del particular"
+      ],
+      "correcta": 1,
+      "explicacion": "Solo pueden ser sancionados quienes resulten responsables de los hechos a título de dolo o culpa.",
+      "referencia": "Art. 28.1 LRJSP"
+    },
+    {
+      "pregunta": "Según el art. 64.2 LPAC, ¿qué debe contener como mínimo el acuerdo de iniciación del procedimiento sancionador?",
+      "opciones": [
+        "La cuantía de la multa definitiva",
+        "Solo la firma del órgano",
+        "Responsables, hechos y calificación, instructor, órgano competente y medidas provisionales",
+        "La sentencia que fundamenta la sanción"
+      ],
+      "correcta": 2,
+      "explicacion": "El acuerdo de iniciación debe contener, al menos, la identificación de los responsables, los hechos y su calificación, el instructor, el órgano competente y las medidas provisionales acordadas.",
+      "referencia": "Art. 64.2 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 47.4 del Estatuto de Autonomía para Andalucía, ¿qué tipo de competencia tiene la Junta en materia de responsabilidad patrimonial?",
+      "opciones": [
+        "Compartida, para determinar el procedimiento y los supuestos",
+        "Inexistente",
+        "Ejecutiva, sin límites",
+        "Exclusiva"
+      ],
+      "correcta": 0,
+      "explicacion": "La Junta de Andalucía tiene competencia compartida para determinar el procedimiento y los supuestos de responsabilidad, de acuerdo con el sistema general de responsabilidad de todas las Administraciones.",
+      "referencia": "Art. 47.4 EA Andalucía"
+    }
+  ]
+}

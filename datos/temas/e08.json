@@ -1,0 +1,198 @@
+{
+  "id": "e08",
+  "resumen": [
+    {
+      "titulo": "Marco normativo",
+      "puntos": [
+        "Las instalaciones eléctricas de baja tensión se rigen por el Reglamento electrotécnico para baja tensión (RD 842/2002) y sus ITC-BT. Las infraestructuras comunes de telecomunicaciones, por el RD 346/2011 (ICT).",
+        "El CTE remite el detalle de la instalación eléctrica al reglamento. Sus exigencias afectan a la seguridad de utilización (art. 12.1) y al ahorro de energía (art. 15.1)."
+      ]
+    },
+    {
+      "titulo": "Grado de electrificación y potencia",
+      "puntos": [
+        "Grado básico: uso de los aparatos de uso común. Grado elevado: viviendas con calefacción o climatización eléctricas, superficie útil superior a 160 m² o recarga de vehículo en viviendas unifamiliares (ITC-BT-10, apartado 2.1).",
+        "Potencia a prever: no menos de 5.750 W a 230 V por vivienda en nuevas construcciones, y no menos de 9.200 W en grado elevado (ITC-BT-10, apartado 2.2)."
+      ]
+    },
+    {
+      "titulo": "Circuitos y protecciones",
+      "puntos": [
+        "Interruptor general automático de corte omnipolar de 25 A como mínimo; interruptores diferenciales de 30 mA como máximo, con intensidad asignada igual o superior a la del general (ITC-BT-25, apartado 2.1).",
+        "Potencia máxima de 5.750 W por circuito de calefacción o aire acondicionado; 2.300 W en automatización (tabla de circuitos de la ITC-BT-25, notas 2 y 4). Sobretensiones según la ITC-BT-23 si son necesarias."
+      ]
+    },
+    {
+      "titulo": "Caída de tensión y puesta a tierra",
+      "puntos": [
+        "Caída de tensión inferior al 3 % en circuitos interiores de viviendas, y del 3 % en alumbrado y 5 % en otros usos en las demás instalaciones interiores (ITC-BT-19, apartado 2.2.2).",
+        "La puesta a tierra regula las tomas de tierra, los conductores de tierra, los bornes y los conductores de protección (ITC-BT-18)."
+      ]
+    },
+    {
+      "titulo": "Documentación, verificación e inspección",
+      "puntos": [
+        "Proyecto o memoria técnica de diseño según la ITC-BT-04. Proyecto obligatorio, por ejemplo, para industrias con potencia superior a 20 kW y para locales húmedos con más de 10 kW (apartado 3.1).",
+        "La empresa instaladora realiza las verificaciones previas a la puesta en servicio (ITC-BT-05, apartado 2.1). Inspecciones periódicas cada cinco años y, en las comunes de viviendas de más de 100 kW, cada diez años (apartado 4.2)."
+      ]
+    },
+    {
+      "titulo": "Infraestructuras comunes de telecomunicaciones",
+      "puntos": [
+        "La ICT capta y distribuye radiodifusión, y da acceso a la telefonía y a la banda ancha hasta las viviendas y locales (RD 346/2011, art. 2.1). Requiere proyecto técnico (art. 9.1) y acta de replanteo presentada en 15 días naturales (art. 10.1).",
+        "Recintos: el RITI, donde se sitúa el punto de interconexión con los operadores, y el RITS, en el recinto superior (anexo II). El registro principal alberga el punto de interconexión."
+      ]
+    },
+    {
+      "titulo": "Seguridad y mantenimiento",
+      "puntos": [
+        "Anexo IV del RD 1627/1997, apartado 10: mantenimiento de las instalaciones de distribución de energía en obra, localización de las existentes y medidas frente a líneas aéreas.",
+        "Conservación de la ICT en propiedad horizontal según el artículo 10 de la Ley 49/1960 (RD 346/2011, art. 13.1). El plan de mantenimiento del edificio forma parte de su libro (CTE, art. 8.1)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CTE",
+      "rol": "Seguridad de utilización, ahorro de energía y libro del edificio (arts. 8.1, 12.1 y 15.1)"
+    },
+    {
+      "id": "RD-842-2002",
+      "rol": "Reglamento electrotécnico para baja tensión (ITC-BT-04, 05, 10, 18, 19, 25 y 52)"
+    },
+    {
+      "id": "RD-346-2011",
+      "rol": "Infraestructuras comunes de telecomunicaciones (arts. 2, 4, 9, 10, 13 y anexo II)"
+    },
+    {
+      "id": "RD-1627-1997",
+      "rol": "Instalaciones de distribución de energía en obra (anexo IV, apartado 10)"
+    },
+    {
+      "id": "LOE",
+      "rol": "Requisitos básicos de habitabilidad y responsabilidad (arts. 3 y 17.1.b)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según la ITC-BT-10, apartado 2.2, ¿cuál es la potencia mínima a prever en una vivienda de nueva construcción con grado de electrificación elevado?",
+      "opciones": [
+        "9.200 W",
+        "11.085 W",
+        "3.450 W",
+        "5.750 W"
+      ],
+      "correcta": 0,
+      "explicacion": "En las viviendas con grado de electrificación elevada, la potencia a prever no será inferior a 9.200 W.",
+      "referencia": "ITC-BT-10, apartado 2.2"
+    },
+    {
+      "pregunta": "Según la ITC-BT-25, apartado 2.1, ¿cuál es la intensidad mínima del interruptor general automático de una vivienda?",
+      "opciones": [
+        "10 A",
+        "16 A",
+        "25 A",
+        "63 A"
+      ],
+      "correcta": 2,
+      "explicacion": "El interruptor general automático de corte omnipolar tiene una intensidad nominal mínima de 25 A.",
+      "referencia": "ITC-BT-25, apartado 2.1"
+    },
+    {
+      "pregunta": "Según la ITC-BT-25, apartado 2.1, ¿cuál es la intensidad diferencial-residual máxima de los diferenciales que protegen los circuitos de una vivienda?",
+      "opciones": [
+        "300 mA",
+        "1 A",
+        "10 mA",
+        "30 mA"
+      ],
+      "correcta": 3,
+      "explicacion": "Los interruptores diferenciales tienen una intensidad diferencial-residual máxima de 30 mA.",
+      "referencia": "ITC-BT-25, apartado 2.1"
+    },
+    {
+      "pregunta": "Según la ITC-BT-19, apartado 2.2.2, ¿cuál es la caída de tensión admisible para alumbrado en instalaciones interiores distintas de las de vivienda?",
+      "opciones": [
+        "1 %",
+        "3 %",
+        "5 %",
+        "10 %"
+      ],
+      "correcta": 1,
+      "explicacion": "Para alumbrado la caída de tensión es del 3 %, y para los demás usos, del 5 %, en las instalaciones interiores o receptoras distintas de los circuitos de viviendas.",
+      "referencia": "ITC-BT-19, apartado 2.2.2"
+    },
+    {
+      "pregunta": "Según la ITC-BT-05, apartado 4.2, ¿con qué periodicidad se inspeccionan las instalaciones que precisaron inspección inicial?",
+      "opciones": [
+        "Cada cinco años",
+        "Cada año",
+        "Cada veinte años",
+        "Nunca"
+      ],
+      "correcta": 0,
+      "explicacion": "Las instalaciones que precisaron inspección inicial se inspeccionan periódicamente cada cinco años; las comunes de viviendas de potencia superior a 100 kW, cada diez años.",
+      "referencia": "ITC-BT-05, apartado 4.2"
+    },
+    {
+      "pregunta": "Según la ITC-BT-04, apartado 3.1, ¿a partir de qué potencia precisa proyecto una nueva industria?",
+      "opciones": [
+        "Nunca precisa proyecto",
+        "Desde 5 kW",
+        "Desde 20 kW (potencia superior a 20 kW)",
+        "Desde 100 kW"
+      ],
+      "correcta": 2,
+      "explicacion": "Las instalaciones de industrias, en general, precisan proyecto cuando la potencia es superior a 20 kW.",
+      "referencia": "ITC-BT-04, apartado 3.1, grupo a"
+    },
+    {
+      "pregunta": "Según el RD 346/2011, art. 10.1, ¿en qué plazo debe presentarse electrónicamente el acta de replanteo de la ICT tras su redacción y firma?",
+      "opciones": [
+        "En un plazo de un año",
+        "No hace falta presentarla",
+        "Antes de empezar la obra, sin plazo",
+        "En un plazo no superior a 15 días naturales"
+      ],
+      "correcta": 3,
+      "explicacion": "El acta de replanteo se presenta a la Administración electrónicamente en el Registro electrónico del Ministerio en un plazo no superior a 15 días naturales tras su redacción y firma.",
+      "referencia": "RD 346/2011, art. 10.1"
+    },
+    {
+      "pregunta": "Según el RD 346/2011, art. 9.1, ¿qué debe incluir el proyecto técnico de la ICT?",
+      "opciones": [
+        "Solo el nombre del promotor",
+        "La descripción detallada de los elementos, su ubicación y dimensiones, con mención de las normas que cumplen",
+        "Nada, la ICT no requiere proyecto",
+        "Solo el coste de la obra"
+      ],
+      "correcta": 1,
+      "explicacion": "El proyecto técnico describe detalladamente todos los elementos de la instalación, su ubicación y dimensiones, con mención de las normas que cumplen.",
+      "referencia": "RD 346/2011, art. 9.1"
+    },
+    {
+      "pregunta": "Según el RD 1627/1997, anexo IV, apartado 10.b, ¿qué debe hacerse con las instalaciones eléctricas existentes antes del comienzo de la obra?",
+      "opciones": [
+        "Retirarlas a un vertedero",
+        "Ignorarlas",
+        "Localizarlas, verificarlas y señalizarlas claramente",
+        "Desconectarlas sin control"
+      ],
+      "correcta": 2,
+      "explicacion": "Las instalaciones existentes antes del comienzo de la obra deben estar localizadas, verificadas y señaladas claramente.",
+      "referencia": "Anexo IV, apartado 10.b RD 1627/1997"
+    },
+    {
+      "pregunta": "Según la ITC-BT-25, tabla de circuitos, ¿cuál es la potencia máxima por circuito de calefacción en una vivienda?",
+      "opciones": [
+        "5.750 W",
+        "9.200 W",
+        "2.300 W",
+        "3.450 W"
+      ],
+      "correcta": 0,
+      "explicacion": "Los circuitos de calefacción y de aire acondicionado tienen una potencia máxima permisible por circuito de 5.750 W (nota 2 de la tabla).",
+      "referencia": "ITC-BT-25, tabla de circuitos, nota 2"
+    }
+  ]
+}

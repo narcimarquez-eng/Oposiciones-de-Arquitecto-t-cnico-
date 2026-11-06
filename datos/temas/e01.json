@@ -1,0 +1,213 @@
+{
+  "id": "e01",
+  "resumen": [
+    {
+      "titulo": "Demoliciones y trabajos previos",
+      "puntos": [
+        "La obra de demolición es una obra de construcción en sentido normativo (RD 105/2008, art. 2.c). El productor de los residuos es el titular de la licencia urbanística (art. 2.e).",
+        "Los derribos que puedan suponer un peligro deben estudiarse, planificarse y ejecutarse bajo la supervisión de una persona competente (RD 1627/1997, anexo IV, apartado 12.a)."
+      ]
+    },
+    {
+      "titulo": "Acondicionamiento del terreno",
+      "puntos": [
+        "Acondicionar el terreno es excavar o rellenar de forma controlada para acomodar la topografía y controlar el agua freática (DB-SE-C, apartado 7.1). Sin estudio específico no se pueden tratar las obras vecinas (apartado 7.1, punto 2).",
+        "Excavación: vaciado limitado por un talud sin contención añadida (apartado 7.2.1). Relleno controlado: el proyecto debe definir el préstamo y las condiciones de explotación y colocación (apartado 7.3.1)."
+      ]
+    },
+    {
+      "titulo": "Requisitos y exigencias básicas del CTE",
+      "puntos": [
+        "El CTE (RD 314/2006) tiene una parte de exigencias básicas y otra de documentos básicos (art. 3.1). La seguridad estructural es el requisito del artículo 10; la exigencia SE 1 pide resistencia y estabilidad durante la construcción y el uso.",
+        "Se justifica con soluciones basadas en los DB o con soluciones alternativas de prestaciones al menos equivalentes (art. 5.1.3). Los agentes responden según el capítulo III de la LOE (art. 5.1.1)."
+      ]
+    },
+    {
+      "titulo": "Proyecto, ejecución y control de calidad",
+      "puntos": [
+        "El proyecto debe definir las obras con detalle suficiente para valorarlas e interpretarlas (art. 6.1.1). El proyecto básico no basta para empezar la obra; el de ejecución la define en su totalidad (art. 6.1.3).",
+        "Control de recepción, de ejecución y de obra terminada (art. 7.2 a 7.4 del CTE). El director de la ejecución de la obra controla la calidad de lo edificado (LOE, art. 13.1); en edificios del grupo a) del artículo 2.1, la titulación habilitante es la de arquitecto técnico (art. 13.2.a)."
+      ]
+    },
+    {
+      "titulo": "Seguridad y salud",
+      "puntos": [
+        "El estudio de seguridad y salud es obligatorio en los supuestos del artículo 4.1 del RD 1627/1997; en los demás casos se redacta un estudio básico (art. 4.2). El presupuesto se cuantifica por valoración unitaria con referencia al cuadro de precios (art. 5.4).",
+        "En excavaciones: entibación, blindaje, apeo o taludes; prevención de la irrupción de agua; localizar cables y conducciones (anexo IV, apartado 9). El plan de seguridad lo aprueba el coordinador antes de empezar (art. 7.2)."
+      ]
+    },
+    {
+      "titulo": "Medición y precios",
+      "puntos": [
+        "La medición se hace por unidades de obra con referencia a un cuadro de precios. Las partidas alzadas solo se admiten en elementos u operaciones de difícil previsión (RD 1627/1997, art. 5.4).",
+        "Los factores del precio son el volumen a retirar, los medios necesarios, la proximidad de colindantes, la profundidad de excavación, el agua y el coste de los residuos, que se valora en capítulo independiente (RD 105/2008, art. 4.1.a.7.º). Las normas de medición no se han verificado."
+      ]
+    },
+    {
+      "titulo": "Residuos de construcción y demolición",
+      "puntos": [
+        "El productor debe incluir en el proyecto un estudio de gestión de residuos y inventariar los peligrosos en las demoliciones (RD 105/2008, art. 4.1.a y 4.1.b). Debe conservar la documentación cinco años (art. 4.1.c).",
+        "El poseedor (quien ejecuta la obra) presenta un plan, entrega los residuos a gestor con documento fehaciente y separa fracciones cuando superan los umbrales del artículo 5.5 (hormigón 80 t; ladrillos 40 t; metal 2 t)."
+      ]
+    },
+    {
+      "titulo": "Jerarquía y objetivos de la Ley 22/2011",
+      "puntos": [
+        "Jerarquía de residuos: prevención, preparación para la reutilización, reciclado, otra valorización y eliminación (Ley 22/2011, art. 8.1).",
+        "Objetivo: antes de 2020, el 70 % en peso de los residuos de construcción y demolición no peligrosos debe destinarse a preparación para la reutilización, reciclado y otra valorización (art. 22.1.b). El RD 105/2008 cita la Ley 10/1998, sustituida por la Ley 22/2011."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CTE",
+      "rol": "Exigencias básicas y documentos básicos (arts. 3, 5, 6, 7, 8 y 10)"
+    },
+    {
+      "id": "DB-SE-C",
+      "rol": "Acondicionamiento del terreno, excavaciones y rellenos (apartados 3, 7.1 a 7.3)"
+    },
+    {
+      "id": "LOE",
+      "rol": "Director de la ejecución de la obra (arts. 2 y 13)"
+    },
+    {
+      "id": "LPRL",
+      "rol": "Marco de la prevención de riesgos laborales (art. 16, en parte)"
+    },
+    {
+      "id": "RD-1627-1997",
+      "rol": "Seguridad y salud en las obras: estudio, plan, excavaciones y demoliciones (arts. 4, 5, 7 y anexo IV, apartados 9 y 12)"
+    },
+    {
+      "id": "RD-105-2008",
+      "rol": "Producción y gestión de los residuos de construcción y demolición (arts. 2, 4 y 5)"
+    },
+    {
+      "id": "L-22-2011",
+      "rol": "Residuos y suelos contaminados: definiciones, jerarquía y objetivos (arts. 3, 8 y 22)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 2.e del RD 105/2008, ¿quién es el productor de los residuos de una obra con licencia urbanística?",
+      "opciones": [
+        "El titular de la licencia urbanística de la obra",
+        "El transportista",
+        "El vertedero",
+        "El trabajador por cuenta ajena"
+      ],
+      "correcta": 0,
+      "explicacion": "El productor es la persona titular de la licencia urbanística en una obra de construcción o demolición.",
+      "referencia": "Art. 2.e.1.º RD 105/2008"
+    },
+    {
+      "pregunta": "Según el DB-SE-C, apartado 7.1, ¿qué se entiende por acondicionamiento del terreno?",
+      "opciones": [
+        "La instalación de ascensores",
+        "La pintura de las fachadas",
+        "Las operaciones de excavación o relleno controlado para acomodar la topografía y el control del agua freática",
+        "El diseño de la cubierta"
+      ],
+      "correcta": 2,
+      "explicacion": "El DB-SE-C define el acondicionamiento del terreno como las operaciones de excavación o relleno controlado necesarias para acomodar la topografía, junto con el control del agua freática.",
+      "referencia": "DB-SE-C, apartado 7.1"
+    },
+    {
+      "pregunta": "Según el DB-SE-C, apartado 7.2.1, ¿qué es una excavación?",
+      "opciones": [
+        "Un relleno compactado con material de préstamo",
+        "La demolición de un forjado",
+        "Cualquier obra de hormigón armado",
+        "Todo vaciado o desmonte del terreno limitado lateralmente por un talud, sin contención mecánica añadida"
+      ],
+      "correcta": 3,
+      "explicacion": "Excavación es todo vaciado o desmonte del terreno limitado por un talud, provisional o permanente, sin contención mecánica añadida.",
+      "referencia": "DB-SE-C, apartado 7.2.1"
+    },
+    {
+      "pregunta": "Según el art. 10.1 del CTE, ¿qué exigencia pide resistencia y estabilidad frente a las acciones previsibles?",
+      "opciones": [
+        "La exigencia de ahorro de energía",
+        "La exigencia SE 1 de resistencia y estabilidad",
+        "La exigencia de protección frente al ruido",
+        "La exigencia de seguridad en caso de incendio"
+      ],
+      "correcta": 1,
+      "explicacion": "La exigencia básica SE 1 del artículo 10 del CTE exige resistencia y estabilidad frente a las acciones previsibles durante la construcción y el uso.",
+      "referencia": "Art. 10.1 CTE (SE 1)"
+    },
+    {
+      "pregunta": "Según el art. 13.2.a de la LOE, ¿qué titulación habilita como director de la ejecución en edificios del grupo a) del artículo 2.1?",
+      "opciones": [
+        "Arquitecto técnico",
+        "Ingeniero de caminos",
+        "Delineante",
+        "Técnico en prevención sin titulación"
+      ],
+      "correcta": 0,
+      "explicacion": "Para los edificios del grupo a) del artículo 2.1, la titulación habilitante del director de la ejecución es la de arquitecto técnico.",
+      "referencia": "Art. 13.2.a LOE"
+    },
+    {
+      "pregunta": "Según el art. 4.2 del RD 1627/1997, ¿qué se redacta cuando una obra no alcanza los supuestos del artículo 4.1?",
+      "opciones": [
+        "Un libro de visitas",
+        "Nada: nunca se requiere documento de seguridad",
+        "Un estudio básico de seguridad y salud",
+        "Un contrato de arrendamiento"
+      ],
+      "correcta": 2,
+      "explicacion": "En los proyectos que no alcanzan los supuestos del apartado 1 se elabora un estudio básico de seguridad y salud.",
+      "referencia": "Art. 4.2 RD 1627/1997"
+    },
+    {
+      "pregunta": "Según el anexo IV, apartado 12.a, del RD 1627/1997, ¿cómo deben realizarse los derribos que puedan suponer peligro para los trabajadores?",
+      "opciones": [
+        "Solo por la noche",
+        "Por cualquier trabajador sin formación",
+        "Sin ninguna supervisión",
+        "Estudiados, planificados y bajo la supervisión de una persona competente"
+      ],
+      "correcta": 3,
+      "explicacion": "Los trabajos de derribo o demolición que puedan suponer peligro deben estudiarse, planificarse y emprenderse bajo la supervisión de una persona competente.",
+      "referencia": "Anexo IV, apartado 12.a RD 1627/1997"
+    },
+    {
+      "pregunta": "Según el art. 5.5 del RD 105/2008, ¿a partir de qué cantidad prevista debe separarse la fracción de hormigón en obra?",
+      "opciones": [
+        "En todos los casos, sin umbral",
+        "A partir de 80 toneladas",
+        "A partir de 5 toneladas",
+        "A partir de 1.000 toneladas"
+      ],
+      "correcta": 1,
+      "explicacion": "La separación de la fracción de hormigón es obligatoria cuando la cantidad prevista para la obra supera las 80 toneladas.",
+      "referencia": "Art. 5.5 RD 105/2008"
+    },
+    {
+      "pregunta": "Según el art. 4.1.c del RD 105/2008, ¿cuánto tiempo debe conservarse la documentación de gestión de residuos del año natural correspondiente?",
+      "opciones": [
+        "Un mes",
+        "Durante cien años",
+        "Durante los cinco años siguientes",
+        "Solo durante la obra"
+      ],
+      "correcta": 2,
+      "explicacion": "El productor debe mantener la documentación correspondiente a cada año natural durante los cinco años siguientes.",
+      "referencia": "Art. 4.1.c RD 105/2008"
+    },
+    {
+      "pregunta": "Según el art. 22.1.b de la Ley 22/2011, ¿qué objetivo se fija para los residuos no peligrosos de construcción y demolición antes de 2020?",
+      "opciones": [
+        "El 70 % en peso de los producidos destinado a preparación para la reutilización, reciclado y otra valorización",
+        "El 100 % destinado a vertedero",
+        "Ningún objetivo",
+        "El 10 % en peso destinado a preparación para la reutilización, reciclado y otra valorización"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 22.1.b fija como mínimo el 70 % en peso de los residuos no peligrosos de construcción y demolición producidos, destinado a preparación para la reutilización, reciclado y otra valorización, antes de 2020.",
+      "referencia": "Art. 22.1.b Ley 22/2011"
+    }
+  ]
+}

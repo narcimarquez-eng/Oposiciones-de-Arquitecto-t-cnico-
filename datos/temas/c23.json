@@ -1,0 +1,183 @@
+{
+  "id": "c23",
+  "resumen": [
+    {
+      "titulo": "Sistemas operativos",
+      "puntos": [
+        "Gestionan procesos, memoria, dispositivos y ficheros. Clases: monousuario y multiusuario; por lotes, de tiempo compartido y de tiempo real.",
+        "Un proceso bloqueado espera un recurso y no ocupa la CPU. La memoria virtual permite ejecutar programas mayores que la memoria física."
+      ]
+    },
+    {
+      "titulo": "Sistemas de gestión de bases de datos",
+      "puntos": [
+        "El SGBD define la estructura de los datos, permite manipularlos, controla el acceso y garantiza la integridad y la seguridad.",
+        "Las transacciones cumplen propiedades ACID; la atomicidad significa que se completan del todo o no se aplican. Las copias de seguridad y los registros de transacciones permiten la recuperación."
+      ]
+    },
+    {
+      "titulo": "Tipología de los sistemas de información",
+      "puntos": [
+        "TPS para la operación diaria; MIS para el control táctico; DSS para elegir entre alternativas; sistemas para la dirección (EIS) y almacenes de datos para el análisis.",
+        "Sistemas de trabajo en grupo (groupware) para la colaboración; flujos de trabajo (workflow) para ordenar las tareas de un procedimiento."
+      ]
+    },
+    {
+      "titulo": "Gestión documental, archivo y estadística",
+      "puntos": [
+        "Cada Administración debe mantener un archivo electrónico único de los procedimientos finalizados, en formato que garantice autenticidad, integridad y conservación (arts. 17.1 y 17.2 LPAC).",
+        "Los sistemas estadísticos recogen, validan, analizan y presentan datos. La cesión de datos entre Administraciones exige condiciones y protocolos previos (art. 155 LRJSP)."
+      ]
+    },
+    {
+      "titulo": "Correo e Internet",
+      "puntos": [
+        "El correo usa SMTP para enviar y IMAP o POP para recibir. Internet usa TCP/IP, y la web usa HTTP, o HTTPS cuando el tráfico va cifrado.",
+        "La validez de una notificación depende de la forma establecida en la LPAC, no del medio."
+      ]
+    },
+    {
+      "titulo": "Sistemas de la Junta de Andalucía",
+      "puntos": [
+        "La Junta aplica las tecnologías para mejorar su eficacia (art. 7.1 LAJA). El registro de personal se regula en la Ley 5/2023 (arts. 92 a 95).",
+        "La relación concreta de sistemas adoptados por la Junta no está verificada en este tema y debe comprobarse en la documentación oficial vigente."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LPAC",
+      "rol": "Complementaria: registro y archivo electrónicos (arts. 16 y 17)"
+    },
+    {
+      "id": "LRJSP",
+      "rol": "Complementaria: sedes, portal y cesión de datos (arts. 38, 39, 41, 155 y 157)"
+    },
+    {
+      "id": "LAJA",
+      "rol": "Complementaria: tecnologías de la información en la Junta (art. 7.1)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 17.1 LPAC, ¿qué archivo debe mantener cada Administración?",
+      "opciones": [
+        "Un archivo electrónico único de los documentos de procedimientos finalizados",
+        "Ningún archivo electrónico",
+        "Un archivo en papel de todos los procedimientos en curso",
+        "Un archivo privado de cada funcionario"
+      ],
+      "correcta": 0,
+      "explicacion": "Cada Administración debe mantener un archivo electrónico único de los documentos de los procedimientos finalizados.",
+      "referencia": "Art. 17.1 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 16.2 LPAC, ¿qué criterio siguen los asientos del registro electrónico?",
+      "opciones": [
+        "No existe criterio",
+        "El orden alfabético del interesado",
+        "El orden temporal de recepción o salida",
+        "El orden de importancia del documento"
+      ],
+      "correcta": 2,
+      "explicacion": "Los asientos se anotan respetando el orden temporal de recepción o salida.",
+      "referencia": "Art. 16.2 LPAC"
+    },
+    {
+      "pregunta": "¿Qué clase de sistema operativo atiende a una sola persona?",
+      "opciones": [
+        "Multiusuario",
+        "De tiempo real",
+        "Por lotes",
+        "Monousuario"
+      ],
+      "correcta": 3,
+      "explicacion": "El sistema monousuario atiende a una sola persona; el multiusuario permite el acceso simultáneo de varias.",
+      "referencia": "Sistemas operativos (temario c23)"
+    },
+    {
+      "pregunta": "¿Cómo se llama la propiedad de una transacción que se completa del todo o no se aplica en absoluto?",
+      "opciones": [
+        "Normalización",
+        "Atomicidad",
+        "Concurrencia",
+        "Redundancia"
+      ],
+      "correcta": 1,
+      "explicacion": "La atomicidad, una de las propiedades ACID, garantiza que la transacción se complete del todo o no se aplique en absoluto.",
+      "referencia": "Bases de datos (temario c23)"
+    },
+    {
+      "pregunta": "¿Qué sistema de información sirve a la operación diaria, registrando solicitudes y pagos?",
+      "opciones": [
+        "El TPS",
+        "El DSS",
+        "El EIS",
+        "El almacén de datos"
+      ],
+      "correcta": 0,
+      "explicacion": "Los sistemas de procesamiento de transacciones (TPS) registran las operaciones diarias.",
+      "referencia": "Tipología de sistemas (temario c23)"
+    },
+    {
+      "pregunta": "¿Qué sistema de información ayuda a elegir entre alternativas concretas para una decisión?",
+      "opciones": [
+        "El SMTP",
+        "El TPS",
+        "El DSS",
+        "El correo electrónico"
+      ],
+      "correcta": 2,
+      "explicacion": "Los sistemas de ayuda a la decisión (DSS) analizan alternativas para una decisión concreta.",
+      "referencia": "Tipología de sistemas (temario c23)"
+    },
+    {
+      "pregunta": "Según el art. 155 LRJSP, ¿qué exige la transmisión de datos entre Administraciones?",
+      "opciones": [
+        "Solo la firma de un papel",
+        "Autorización de un notario",
+        "Nada, se transmiten sin condiciones",
+        "Condiciones, protocolos y criterios técnicos previos y respeto a la protección de datos"
+      ],
+      "correcta": 3,
+      "explicacion": "Cada Administración debe facilitar el acceso a los datos de los interesados especificando condiciones, protocolos y criterios técnicos, con respeto a la protección de datos.",
+      "referencia": "Art. 155 LRJSP"
+    },
+    {
+      "pregunta": "¿Qué protocolo cifra la comunicación entre el navegador y el servidor web?",
+      "opciones": [
+        "HTTP",
+        "HTTPS",
+        "POP",
+        "SMTP"
+      ],
+      "correcta": 1,
+      "explicacion": "HTTPS es la versión de HTTP que cifra la comunicación entre el navegador y el servidor.",
+      "referencia": "Internet (temario c23)"
+    },
+    {
+      "pregunta": "Según el art. 7.1 LAJA, ¿a qué está orientada la aplicación de las tecnologías de la información a la Administración?",
+      "opciones": [
+        "A eliminar los registros",
+        "A sustituir a los empleados públicos",
+        "A mejorar su eficacia, aproximarla a la ciudadanía y agilizar la gestión",
+        "A reducir la transparencia"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 7.1 LAJA orienta la aplicación de las tecnologías a mejorar la eficacia, aproximar la Administración a la ciudadanía y agilizar la gestión administrativa.",
+      "referencia": "Art. 7.1 LAJA"
+    },
+    {
+      "pregunta": "Según el art. 92 de la Ley 5/2023, ¿qué instrumento regula ese precepto?",
+      "opciones": [
+        "El registro de personal",
+        "La cuenta general",
+        "El registro mercantil",
+        "El Boletín Oficial del Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 92 de la Ley 5/2023 regula el registro de personal, que se desarrolla en los artículos 93 a 95.",
+      "referencia": "Art. 92 Ley 5/2023"
+    }
+  ]
+}

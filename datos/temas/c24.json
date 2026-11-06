@@ -1,0 +1,187 @@
+{
+  "id": "c24",
+  "resumen": [
+    {
+      "titulo": "Concepto y marco jurídico",
+      "puntos": [
+        "La Administración electrónica usa las tecnologías de la información para relacionarse con la ciudadanía y gestionar sus procedimientos de extremo a extremo (art. 7.1 LAJA).",
+        "El marco es la LPAC (identificación, derechos, registros, archivo), la LRJSP (sede, portal, automatización, interoperabilidad y seguridad) y la LAJA (régimen autonómico)."
+      ]
+    },
+    {
+      "titulo": "Principios y simplificación",
+      "puntos": [
+        "La LRJSP exige la racionalización y agilidad de los procedimientos (art. 3.1.d LRJSP). La Administración no puede pedir documentos que ya obran en su poder, salvo oposición del interesado (art. 28.2 LPAC).",
+        "La LAJA fija los principios de simplificación, libre acceso, accesibilidad universal, confidencialidad, seguridad y autenticidad (art. 7.2 LAJA)."
+      ]
+    },
+    {
+      "titulo": "Sede, portal e interoperabilidad",
+      "puntos": [
+        "La sede electrónica es una dirección cuya titularidad corresponde a la Administración, que responde de su integridad, veracidad y actualización (art. 38 LRJSP). El portal de internet da acceso e información (art. 39 LRJSP).",
+        "El ENI regula la interoperabilidad y el ENS la seguridad de la información (art. 156 LRJSP). Las Administraciones deben facilitarse datos en las condiciones que fijen (art. 155 LRJSP)."
+      ]
+    },
+    {
+      "titulo": "Derechos y relaciones electrónicas",
+      "puntos": [
+        "Las personas físicas pueden elegir el medio, salvo los obligados (art. 14 LPAC). Tienen derecho a ser asistidas en el uso de medios electrónicos y a acceder a la información pública (art. 13 LPAC).",
+        "El interesado puede conocer el estado de su expediente en cualquier momento (art. 53.1.a LPAC)."
+      ]
+    },
+    {
+      "titulo": "Registros, archivo y copias",
+      "puntos": [
+        "Cada Administración tiene un Registro Electrónico General, con asientos por orden temporal y cumplimiento de la protección de datos (art. 16 LPAC).",
+        "El archivo electrónico único conserva los procedimientos finalizados con autenticidad e integridad (art. 17 LPAC). Las copias auténticas de documentos privados solo surten efectos administrativos (art. 27 LPAC)."
+      ]
+    },
+    {
+      "titulo": "Automatización, seguridad y privacidad",
+      "puntos": [
+        "La actuación automatizada necesita órganos responsables previamente identificados (art. 41 LRJSP) y sistemas de firma previstos (art. 42 LRJSP).",
+        "El ENS fija la política de seguridad y los requisitos mínimos (art. 156.2 LRJSP). La ley orgánica de protección de datos adapta el ordenamiento al reglamento europeo (art. 1.a LOPDGDD)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LPAC",
+      "rol": "Norma principal del tema (arts. 9, 13, 14, 16, 17, 27, 28 y 53)"
+    },
+    {
+      "id": "LRJSP",
+      "rol": "Norma principal del tema (arts. 3.1, 38, 39, 41, 42, 46, 155, 156 y 157)"
+    },
+    {
+      "id": "LAJA",
+      "rol": "Complementaria: régimen autonómico (art. 7)"
+    },
+    {
+      "id": "LOPDGDD",
+      "rol": "Complementaria: protección de datos (art. 1)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 38.1 LRJSP, ¿qué es la sede electrónica?",
+      "opciones": [
+        "Una dirección electrónica disponible para los ciudadanos, de titularidad de una Administración",
+        "Un registro en papel",
+        "Una base de datos privada",
+        "Un edificio administrativo"
+      ],
+      "correcta": 0,
+      "explicacion": "La sede electrónica es la dirección electrónica disponible a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración pública o a sus organismos.",
+      "referencia": "Art. 38.1 LRJSP"
+    },
+    {
+      "pregunta": "Según el art. 13.a LPAC, ¿qué derecho permite comunicarse con las Administraciones a través de un punto de acceso general electrónico?",
+      "opciones": [
+        "Ninguno",
+        "El derecho a no comunicarse",
+        "El derecho a comunicarse a través de un punto de acceso general electrónico",
+        "El derecho a pagar una tasa"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 13.a LPAC reconoce el derecho a comunicarse con las Administraciones a través de un punto de acceso general electrónico.",
+      "referencia": "Art. 13.a LPAC"
+    },
+    {
+      "pregunta": "Según el art. 14.1 LPAC, ¿quién puede elegir en todo momento si se comunica por medios electrónicos o no?",
+      "opciones": [
+        "Nadie: la vía electrónica es obligatoria",
+        "Solo los funcionarios",
+        "Solo las personas jurídicas",
+        "Las personas físicas, salvo que estén obligadas a relacionarse electrónicamente"
+      ],
+      "correcta": 3,
+      "explicacion": "Las personas físicas pueden elegir el medio, salvo que estén obligadas a relacionarse electrónicamente, y pueden cambiarlo en cualquier momento.",
+      "referencia": "Art. 14.1 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 16.2 LPAC, ¿qué criterio siguen los asientos del registro electrónico?",
+      "opciones": [
+        "El orden alfabético",
+        "El orden temporal de recepción o salida",
+        "El orden de importancia",
+        "No hay criterio"
+      ],
+      "correcta": 1,
+      "explicacion": "Los asientos se anotan respetando el orden temporal de recepción o salida.",
+      "referencia": "Art. 16.2 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 17.2 LPAC, ¿qué deben garantizar los documentos electrónicos archivados?",
+      "opciones": [
+        "Su autenticidad, integridad y conservación, con consulta independiente del tiempo transcurrido",
+        "Que se impriman todos",
+        "Que se eliminen tras un año",
+        "Solo que ocupen poco espacio"
+      ],
+      "correcta": 0,
+      "explicacion": "Los documentos electrónicos deben conservarse en un formato que garantice su autenticidad, integridad y conservación, y su consulta con independencia del tiempo transcurrido.",
+      "referencia": "Art. 17.2 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 27.1 LPAC, ¿qué efectos tienen las copias auténticas de documentos privados?",
+      "opciones": [
+        "Efectos penales",
+        "Efectos en todas las Administraciones y en los tribunales",
+        "Solo efectos administrativos",
+        "Ninguno"
+      ],
+      "correcta": 2,
+      "explicacion": "Las copias auténticas de documentos privados surten únicamente efectos administrativos.",
+      "referencia": "Art. 27.1 LPAC"
+    },
+    {
+      "pregunta": "Según el art. 41.2 LRJSP, ¿qué debe establecerse antes de una actuación administrativa automatizada?",
+      "opciones": [
+        "Un contrato con una empresa privada",
+        "Una sentencia judicial",
+        "Nada",
+        "Los órganos competentes para especificaciones, programación, mantenimiento y supervisión del sistema"
+      ],
+      "correcta": 3,
+      "explicacion": "Debe establecerse previamente el órgano competente para la definición de especificaciones, programación, mantenimiento, supervisión, control de calidad y, en su caso, auditoría.",
+      "referencia": "Art. 41.2 LRJSP"
+    },
+    {
+      "pregunta": "Según el art. 156.2 LRJSP, ¿qué objeto tiene el Esquema Nacional de Seguridad?",
+      "opciones": [
+        "Regular los precios de los servicios",
+        "Establecer la política de seguridad en la utilización de medios electrónicos",
+        "Regular la jornada de los empleados",
+        "Fijar los impuestos"
+      ],
+      "correcta": 1,
+      "explicacion": "El Esquema Nacional de Seguridad tiene por objeto establecer la política de seguridad en la utilización de medios electrónicos, con principios básicos y requisitos mínimos.",
+      "referencia": "Art. 156.2 LRJSP"
+    },
+    {
+      "pregunta": "Según el art. 7.2 LAJA, ¿cuál NO es un principio de las relaciones electrónicas de la Junta?",
+      "opciones": [
+        "Simplificación y agilización de trámites",
+        "Accesibilidad universal",
+        "Opacidad en el tratamiento de la información",
+        "Seguridad y autenticidad"
+      ],
+      "correcta": 2,
+      "explicacion": "Los principios son la simplificación, el libre acceso, la accesibilidad universal, la confidencialidad y la seguridad y autenticidad. La opacidad no es un principio.",
+      "referencia": "Art. 7.2 LAJA"
+    },
+    {
+      "pregunta": "Según el art. 1.a LOPDGDD, ¿qué objeto tiene la ley orgánica de protección de datos?",
+      "opciones": [
+        "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679",
+        "Regular la fiscalidad de los datos",
+        "Sustituir la LPAC",
+        "Derogar el reglamento europeo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 1.a LOPDGDD tiene por objeto adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679.",
+      "referencia": "Art. 1.a LOPDGDD"
+    }
+  ]
+}

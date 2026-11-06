@@ -1,0 +1,170 @@
+{
+  "id": "e27",
+  "resumen": [
+    {
+      "titulo": "Objeto",
+      "puntos": [
+        "El objeto debe ser determinado; puede definirse por necesidades o funcionalidades, sin cerrarlo a una solución única (art. 99.1 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Presupuesto base de licitación",
+      "puntos": [
+        "Límite máximo de gasto que puede comprometer el órgano de contratación, con IVA salvo disposición en contrario (art. 100.1).",
+        "Debe ser adecuado a los precios de mercado (art. 100.2). Supervisión obligatoria desde 500.000 euros, IVA excluido (art. 235)."
+      ]
+    },
+    {
+      "titulo": "Valor estimado",
+      "puntos": [
+        "Sin IVA. En obras, suministros y servicios, el importe total pagadero según estimaciones (art. 101.1.a).",
+        "En concesiones, la cifra de negocios que generará el concesionario sin IVA (art. 101.2)."
+      ]
+    },
+    {
+      "titulo": "Precio y revisión",
+      "puntos": [
+        "Precio cierto, abonado según lo realmente ejecutado y lo pactado; IVA como partida independiente (art. 102.1).",
+        "En euros con carácter general (art. 102.2). Revisión solo periódica y predeterminada (art. 103.1); en demora, índices de la fecha prevista (art. 104.1)."
+      ]
+    },
+    {
+      "titulo": "Estructura del presupuesto",
+      "puntos": [
+        "Precios unitarios y descompuestos, mediciones y valoración (art. 233.1.d). Costes directos e indirectos, presupuesto de ejecución material, gastos generales y beneficio industrial, y presupuesto base con IVA (temario; detalle de desarrollo pendiente de verificar)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LCSP",
+      "rol": "Norma principal del tema (arts. 99 a 104, 118, 233 y 235)"
+    },
+    {
+      "id": "LOE",
+      "rol": "Complementaria: proyecto y dirección de obra (art. 4 LOE)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Cómo debe ser el objeto de un contrato del sector público?",
+      "opciones": [
+        "Indeterminado",
+        "Abierto a cualquier solución",
+        "Fijado después de adjudicar",
+        "Determinado"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 99.1 LCSP establece que el objeto de los contratos del sector público debe ser determinado.",
+      "referencia": "Art. 99.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué es el presupuesto base de licitación?",
+      "opciones": [
+        "El precio final pagado",
+        "El coste de los materiales",
+        "La oferta del licitador",
+        "El límite máximo de gasto que puede comprometer el órgano de contratación, incluido el IVA salvo disposición en contrario"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 100.1 LCSP define el presupuesto base como el límite máximo de gasto que puede comprometer el órgano de contratación, incluido el IVA salvo disposición en contrario.",
+      "referencia": "Art. 100.1 LCSP"
+    },
+    {
+      "pregunta": "¿Qué excluye el valor estimado de un contrato de obras?",
+      "opciones": [
+        "Nada",
+        "Los gastos generales",
+        "El IVA",
+        "El beneficio industrial"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 101.1.a) LCSP toma el importe total sin incluir el IVA.",
+      "referencia": "Art. 101.1.a) LCSP"
+    },
+    {
+      "pregunta": "¿Cómo debe ser el precio de los contratos del sector público?",
+      "opciones": [
+        "Variable libremente",
+        "Negociable tras la ejecución",
+        "Sin IVA",
+        "Cierto"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 102.1 LCSP establece que los contratos del sector público tienen siempre un precio cierto.",
+      "referencia": "Art. 102.1 LCSP"
+    },
+    {
+      "pregunta": "¿Cómo pueden revisarse los precios de los contratos?",
+      "opciones": [
+        "Libremente",
+        "Solo por revisión periódica y predeterminada",
+        "A petición del contratista en cualquier momento",
+        "Nunca"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 103.1 LCSP admite la revisión solo periódica y predeterminada, en los términos del capítulo correspondiente.",
+      "referencia": "Art. 103.1 LCSP"
+    },
+    {
+      "pregunta": "¿En qué moneda se expresa el precio con carácter general?",
+      "opciones": [
+        "En dólares",
+        "En la moneda del contratista",
+        "En libras",
+        "En euros"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 102.2 LCSP establece que, con carácter general, el precio debe expresarse en euros.",
+      "referencia": "Art. 102.2 LCSP"
+    },
+    {
+      "pregunta": "¿Desde qué presupuesto base de licitación es obligatoria la supervisión del proyecto de obras?",
+      "opciones": [
+        "100.000 €",
+        "Siempre",
+        "500.000 €, IVA excluido",
+        "1.000.000 €"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 235 LCSP exige la supervisión cuando el presupuesto base de licitación es igual o superior a 500.000 euros, IVA excluido.",
+      "referencia": "Art. 235 LCSP"
+    },
+    {
+      "pregunta": "En un contrato de concesión, ¿qué cifra sirve de valor estimado?",
+      "opciones": [
+        "El presupuesto de obra",
+        "El precio de licitación",
+        "La cifra de negocios sin IVA que generará el concesionario",
+        "El coste de los materiales"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 101.2 LCSP toma en las concesiones el importe neto de la cifra de negocios, sin IVA, que generará el concesionario.",
+      "referencia": "Art. 101.2 LCSP"
+    },
+    {
+      "pregunta": "¿Cuál es el límite de los contratos menores de suministro?",
+      "opciones": [
+        "15.000 €",
+        "40.000 €",
+        "100.000 €",
+        "500.000 €"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 118.1 LCSP fija en 15.000 euros el límite de los contratos menores de suministro y servicios, y en 40.000 euros el de obras.",
+      "referencia": "Art. 118.1 LCSP"
+    },
+    {
+      "pregunta": "Si el contratista incurre en mora, ¿qué índice de precios se aplica en la revisión?",
+      "opciones": [
+        "El índice de la fecha de la revisión",
+        "El más alto",
+        "El de la fecha prevista en el contrato",
+        "Ninguno"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 104.1 LCSP establece que los índices son los que correspondían a las fechas establecidas en el contrato, sin perjuicio de las penalidades.",
+      "referencia": "Art. 104.1 LCSP"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "e32",
+  "resumen": [
+    {
+      "titulo": "Potestad y vías de modificación",
+      "puntos": [
+        "Los contratos administrativos solo pueden modificarse por razones de interés público, en los casos y forma de la ley, con el procedimiento del artículo 191 (art. 203.1 LCSP).",
+        "Solo caben tres vías: lo previsto en el pliego (art. 204), la modificación no prevista que cumple los requisitos del artículo 205, o la resolución y un nuevo contrato (art. 203.2 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Modificaciones previstas en el pliego",
+      "puntos": [
+        "Hasta el 20 por ciento del precio inicial, si el pliego lo advierte de forma clara, precisa e inequívoca (art. 204.1 LCSP).",
+        "La cláusula debe fijar alcance, límites, condiciones objetivas y procedimiento, y no puede establecer nuevos precios unitarios (art. 204.1.b LCSP). No puede alterar la naturaleza global del contrato (art. 204.2 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Modificaciones no previstas: requisitos y supuestos",
+      "puntos": [
+        "Deben justificarse en uno de los supuestos del artículo 205.2 y limitarse a las variaciones estrictamente indispensables (art. 205.1 LCSP).",
+        "Supuestos: prestaciones adicionales (cambio de contratista imposible y alteración no superior al 50 por ciento); circunstancias imprevisibles (sin alterar la naturaleza global, y con tope del 50 por ciento); y modificaciones no sustanciales, con justificación especial (art. 205.2 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Modificación sustancial",
+      "puntos": [
+        "Es sustancial la que da lugar a un contrato de naturaleza materialmente diferente, o la que cumple alguna condición de los tres supuestos del artículo 205.2.c (art. 205.2.c LCSP).",
+        "Umbrales: unidades de obra nuevas por más del 50 por ciento del presupuesto inicial; alteración de cuantía superior al 15 por ciento en obras, o al 10 por ciento en otros contratos (art. 205.2.c LCSP)."
+      ]
+    },
+    {
+      "titulo": "Obligatoriedad y resolución",
+      "puntos": [
+        "Son obligatorias para el contratista si la alteración de cuantía no excede el 20 por ciento del precio inicial, IVA excluido (art. 206.1 LCSP). Por encima, se necesita su conformidad por escrito (art. 206.2 LCSP).",
+        "La modificación que no se ajusta a los artículos 204 y 205 da lugar a resolución (art. 212.2 LCSP). Y la alteración de precio superior al 20 por ciento es causa de resolución (art. 211.1.g LCSP). En ese caso el contratista tiene un 3 por ciento de indemnización (art. 213.4 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Procedimiento y publicidad",
+      "puntos": [
+        "Antes de modificar, audiencia al redactor del proyecto si fue un tercero ajeno, por plazo no inferior a tres días (art. 207.2 LCSP).",
+        "Publicación en el perfil de contratante en cinco días desde la aprobación, con alegaciones e informes; en el DOUE en los casos armonizados de los apartados a) y b) del artículo 205.2 (art. 207.3 LCSP). Formalización conforme al artículo 153 (art. 203.3 LCSP)."
+      ]
+    },
+    {
+      "titulo": "Modificación de proyecto y unidades no previstas en obra",
+      "puntos": [
+        "El director facultativo propone la modificación del proyecto, con autorización previa del órgano de contratación y audiencia del contratista y del redactor por tres días (art. 242.4 LCSP).",
+        "Las unidades no previstas se pagan a precio fijado por la Administración, previa audiencia de tres días hábiles. Si el contratista no acepta, puede contratarse con otro, ejecutarse directamente o resolver (art. 242.2 LCSP).",
+        "La supresión o reducción de unidades no da derecho a indemnización (art. 242.1 LCSP). El exceso de mediciones dentro del 10 por ciento no es modificación (art. 242.4.i LCSP)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LCSP",
+      "rol": "Norma principal del tema (arts. 29, 203 a 207, 211 a 213 y 242)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 204.1 LCSP, ¿hasta qué porcentaje del precio inicial puede modificarse un contrato si el pliego lo prevé?",
+      "opciones": [
+        "El 10 por ciento",
+        "El 50 por ciento",
+        "El 20 por ciento",
+        "Sin límite"
+      ],
+      "correcta": 2,
+      "explicacion": "Las modificaciones previstas en el pliego pueden llegar hasta el 20 por ciento del precio inicial, con cláusula clara, precisa e inequívoca.",
+      "referencia": "Art. 204.1 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 205.2.c LCSP, ¿cuándo se considera sustancial una modificación por la introducción de unidades de obra nuevas?",
+      "opciones": [
+        "Cuando superan el 10 por ciento del presupuesto",
+        "Cuando su importe supera el 50 por ciento del presupuesto inicial del contrato",
+        "Cuando superan el 20 por ciento del presupuesto",
+        "Nunca es sustancial"
+      ],
+      "correcta": 1,
+      "explicacion": "Se considera sustancial cuando se introducen unidades de obra nuevas cuyo importe supera el 50 por ciento del presupuesto inicial, en el supuesto de alteración del equilibrio económico.",
+      "referencia": "Art. 205.2.c LCSP"
+    },
+    {
+      "pregunta": "Según el art. 206.1 LCSP, ¿cuándo es obligatoria una modificación para el contratista?",
+      "opciones": [
+        "Siempre, aunque supere cualquier porcentaje",
+        "Nunca, sin excepciones",
+        "Cuando la alteración de cuantía no excede del 20 por ciento del precio inicial, IVA excluido",
+        "Cuando el precio supera los seis millones de euros"
+      ],
+      "correcta": 2,
+      "explicacion": "La modificación es obligatoria para el contratista cuando la alteración de cuantía no excede del 20 por ciento del precio inicial, IVA excluido.",
+      "referencia": "Art. 206.1 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 206.2 LCSP y el art. 211.1.g LCSP, ¿qué ocurre si una modificación supera el 20 por ciento y el contratista no da su conformidad por escrito?",
+      "opciones": [
+        "Se impone la modificación sin más trámite",
+        "Se reduce la modificación al 20 por ciento",
+        "Se suspende el contrato indefinidamente",
+        "El contrato se resuelve"
+      ],
+      "correcta": 3,
+      "explicacion": "Sin conformidad escrita, la modificación solo puede acordarse con ella; si no la hay, el contrato se resuelve conforme al artículo 211.1.g LCSP.",
+      "referencia": "Art. 206.2 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 207.3 LCSP, ¿dónde y en qué plazo debe publicarse un anuncio de modificación?",
+      "opciones": [
+        "En el BOE, en un mes",
+        "En el perfil de contratante, en cinco días desde la aprobación",
+        "En el registro mercantil, en diez días",
+        "No es obligatorio publicarla"
+      ],
+      "correcta": 1,
+      "explicacion": "El anuncio de modificación debe publicarse en el perfil de contratante en el plazo de cinco días desde su aprobación, con las alegaciones y los informes.",
+      "referencia": "Art. 207.3 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 207.2 LCSP, ¿qué audiencia previa se exige antes de modificar el contrato?",
+      "opciones": [
+        "La del redactor del proyecto, si lo redactó un tercero ajeno al órgano de contratación, por plazo no inferior a tres días",
+        "La de la Intervención, por quince días",
+        "La de los usuarios del servicio, por un mes",
+        "Ninguna audiencia"
+      ],
+      "correcta": 0,
+      "explicacion": "Antes de modificar, debe darse audiencia al redactor del proyecto o de las especificaciones técnicas, si lo preparó un tercero ajeno, por un plazo no inferior a tres días.",
+      "referencia": "Art. 207.2 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 242.2 LCSP, ¿quién fija el precio de las unidades de obra no previstas en el proyecto?",
+      "opciones": [
+        "El contratista, de común acuerdo",
+        "La Administración, previa audiencia del contratista por plazo mínimo de tres días hábiles",
+        "El director facultativo, sin audiencia",
+        "Un perito independiente designado por el juez"
+      ],
+      "correcta": 1,
+      "explicacion": "Los precios los fija la Administración, con audiencia previa del contratista por plazo mínimo de tres días hábiles.",
+      "referencia": "Art. 242.2 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 242.1 LCSP, ¿qué ocurre si una modificación supone supresión o reducción de unidades de obra?",
+      "opciones": [
+        "El contratista tiene derecho a indemnización total",
+        "El contratista no tiene derecho a reclamar indemnización alguna",
+        "La Administración paga el 50 por ciento del importe suprimido",
+        "El contrato se resuelve automáticamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La supresión o reducción de unidades de obra no da derecho a indemnización alguna al contratista.",
+      "referencia": "Art. 242.1 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 213.4 LCSP, ¿cuánto es la indemnización del contratista cuando la resolución se acuerda por la causa de la letra g) del artículo 211.1?",
+      "opciones": [
+        "El 1 por ciento de la prestación dejada de realizar",
+        "El 3 por ciento del importe de la prestación dejada de realizar",
+        "El 6 por ciento del precio de adjudicación",
+        "No hay indemnización en ningún caso"
+      ],
+      "correcta": 1,
+      "explicacion": "El contratista tiene derecho a una indemnización del 3 por ciento del importe de la prestación dejada de realizar, salvo que la causa le sea imputable o rechace la modificación.",
+      "referencia": "Art. 213.4 LCSP"
+    },
+    {
+      "pregunta": "Según el art. 205.2.a LCSP, ¿cuál es el límite de alteración de cuantía en el supuesto de prestaciones adicionales?",
+      "opciones": [
+        "El 10 por ciento del precio inicial",
+        "El 20 por ciento del precio inicial",
+        "El 50 por ciento del precio inicial, IVA excluido",
+        "No existe límite"
+      ],
+      "correcta": 2,
+      "explicacion": "En las prestaciones adicionales, la alteración de cuantía no puede exceder del 50 por ciento del precio inicial, IVA excluido, aislada o conjuntamente con otras modificaciones.",
+      "referencia": "Art. 205.2.a LCSP"
+    }
+  ]
+}

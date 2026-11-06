@@ -1,0 +1,118 @@
+{
+  "id": "c11",
+  "resumen": [
+    {
+      "titulo": "Concepto y caracteres de la Administración",
+      "puntos": [
+        "Sirve con objetividad los intereses generales y actúa con sometimiento pleno a la ley y al Derecho (art. 103.1 CE; art. 3.1 LRJSP).",
+        "Principios de actuación: servicio efectivo, simplicidad y proximidad, transparencia, buena fe y confianza legítima, eficacia y economía (art. 3.2 LRJSP)."
+      ]
+    },
+    {
+      "titulo": "Legalidad",
+      "puntos": [
+        "Principios constitucionales: legalidad, jerarquía normativa, publicidad, seguridad jurídica e interdicción de la arbitrariedad (art. 9.3 CE).",
+        "Vinculación positiva: la Administración solo puede hacer lo que la ley le permite. Control de los tribunales sobre la legalidad y los fines (art. 106.1 CE)."
+      ]
+    },
+    {
+      "titulo": "Potestades y su régimen",
+      "puntos": [
+        "Reglamentaria (art. 128 LPAC), sancionadora e inspectora (art. 47.1.3.ª del Estatuto), expropiatoria (art. 123.1 del Estatuto) y de fomento (art. 45 del Estatuto).",
+        "Límite general: la proporcionalidad y la medida menos restrictiva, con motivación (art. 4 LRJSP)."
+      ]
+    },
+    {
+      "titulo": "Discrecionalidad",
+      "puntos": [
+        "Actividad reglada: la norma predetermina la decisión. Actividad discrecional: margen de elección legítimo dentro de la ley.",
+        "La discrecionalidad no es arbitrariedad: exige razonabilidad, motivación y ajuste al fin de la norma (arts. 9.3 y 106.1 CE)."
+      ]
+    },
+    {
+      "titulo": "Derecho Administrativo",
+      "puntos": [
+        "Conjunto de normas que regulan la organización, la actividad y el control de la Administración.",
+        "Autonomía por sus instituciones propias (potestades, servicio público, responsabilidad patrimonial del art. 106.2 CE).",
+        "Criterios de aplicación: jerarquía, especialidad y principios de buena regulación (art. 129 LPAC)."
+      ]
+    }
+  ],
+  "leyes": [
+    { "id": "LRJSP", "rol": "Norma principal del tema: principios de actuación y proporcionalidad (arts. 3 y 4)" },
+    { "id": "LPAC", "rol": "Complementaria: potestad reglamentaria y nulidad (arts. 47, 128 y 129)" },
+    { "id": "CE", "rol": "Fundamento constitucional: arts. 9.3, 103, 106" }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Con qué criterio sirve la Administración pública los intereses generales?",
+      "opciones": ["Con objetividad", "Con parcialidad política", "Con discrecionalidad absoluta", "Con libertad de los particulares"],
+      "correcta": 0,
+      "explicacion": "El art. 103.1 CE establece que la Administración pública sirve con objetividad los intereses generales.",
+      "referencia": "Art. 103.1 CE"
+    },
+    {
+      "pregunta": "¿A qué se someten las Administraciones públicas según el art. 3.1 LRJSP?",
+      "opciones": ["Solo a la Constitución", "Solo a los reglamentos", "A la Constitución, la Ley y el Derecho", "A los usos y costumbres"],
+      "correcta": 2,
+      "explicacion": "El art. 3.1 LRJSP establece el sometimiento pleno de las Administraciones a la Constitución, a la Ley y al Derecho.",
+      "referencia": "Art. 3.1 LRJSP"
+    },
+    {
+      "pregunta": "¿Cuál de estos NO es un principio garantizado por el art. 9.3 CE?",
+      "opciones": ["Legalidad", "Jerarquía normativa", "Interdicción de la arbitrariedad", "Discrecionalidad absoluta"],
+      "correcta": 3,
+      "explicacion": "El art. 9.3 CE garantiza la legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad de las disposiciones sancionadoras restrictivas, la seguridad jurídica y la interdicción de la arbitrariedad. La discrecionalidad absoluta no es un principio, sino lo contrario del control.",
+      "referencia": "Art. 9.3 CE"
+    },
+    {
+      "pregunta": "¿Qué significa la vinculación positiva de la Administración a la ley?",
+      "opciones": ["Puede hacer todo lo que la ley no prohíbe", "Puede actuar sin norma previa si es urgente", "No está sometida a la ley", "Solo puede hacer lo que la ley le permite"],
+      "correcta": 3,
+      "explicacion": "La vinculación positiva significa que la Administración solo puede actuar cuando una norma le atribuye la potestad. Es lo contrario de la libertad que tienen los particulares.",
+      "referencia": "Arts. 9.3 y 103.1 CE"
+    },
+    {
+      "pregunta": "¿Qué derecho reconoce el art. 106.2 CE a los particulares?",
+      "opciones": ["A ser indemnizados por lesiones causadas por el funcionamiento de los servicios públicos", "A la propiedad privada", "Al derecho de petición", "Al derecho de asilo"],
+      "correcta": 0,
+      "explicacion": "El art. 106.2 CE reconoce el derecho a ser indemnizados por toda lesión que sufran en sus bienes y derechos, siempre que sea consecuencia del funcionamiento de los servicios públicos.",
+      "referencia": "Art. 106.2 CE"
+    },
+    {
+      "pregunta": "¿Qué potestad permite dictar normas generales por debajo de la ley?",
+      "opciones": ["Sancionadora", "Expropiatoria", "Reglamentaria", "De fomento"],
+      "correcta": 2,
+      "explicacion": "La potestad reglamentaria permite dictar normas de carácter general por debajo de la ley, y la ejercen los órganos de gobierno según el art. 128.1 LPAC.",
+      "referencia": "Art. 128.1 LPAC"
+    },
+    {
+      "pregunta": "¿A quién atribuye el Estatuto de Andalucía la potestad expropiatoria?",
+      "opciones": ["Consejo de Gobierno", "Parlamento", "TSJA", "Defensor del Pueblo Andaluz"],
+      "correcta": 0,
+      "explicacion": "El art. 123.1 del Estatuto atribuye al Consejo de Gobierno la potestad expropiatoria, conforme a la legislación estatal y autonómica.",
+      "referencia": "Art. 123.1 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué exige el principio de proporcionalidad a las medidas que limitan derechos?",
+      "opciones": ["Que sean las más gravosas", "Que no requieran motivación", "Que sean la medida menos restrictiva posible y motivada", "Que se apliquen sin límite de tiempo"],
+      "correcta": 2,
+      "explicacion": "El art. 4.1 y 4.2 LRJSP exigen elegir la medida menos restrictiva, motivar su necesidad para el interés público y justificar su adecuación a los fines perseguidos.",
+      "referencia": "Art. 4.1 y 4.2 LRJSP"
+    },
+    {
+      "pregunta": "¿Qué controlan los tribunales según el art. 106.1 CE?",
+      "opciones": ["Solo la competencia del órgano", "Solo el procedimiento", "Nada, porque la actividad es discrecional", "La potestad reglamentaria, la legalidad y el sometimiento de la actuación a los fines que la justifican"],
+      "correcta": 3,
+      "explicacion": "El art. 106.1 CE atribuye a los tribunales el control de la potestad reglamentaria y de la legalidad de la actuación administrativa, así como de su sometimiento a los fines que la justifican.",
+      "referencia": "Art. 106.1 CE"
+    },
+    {
+      "pregunta": "¿Qué actos son nulos de pleno derecho cuando los dicta un órgano incompetente?",
+      "opciones": ["Los anulables por cualquier vicio", "Los dictados por órgano manifiestamente incompetente por razón de materia o territorio", "Ninguno", "Los dictados fuera de plazo solamente"],
+      "correcta": 1,
+      "explicacion": "El art. 47.1.b) LPAC declara nulos de pleno derecho los actos dictados por órgano manifiestamente incompetente por razón de la materia o del territorio.",
+      "referencia": "Art. 47.1.b) LPAC"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "c28",
+  "resumen": [
+    {
+      "titulo": "Fundamento y ámbito",
+      "puntos": [
+        "Los poderes públicos velarán por la seguridad e higiene en el trabajo (art. 40.2 CE). La LPRL tiene por objeto promover la seguridad y la salud de los trabajadores (art. 2.1 LPRL).",
+        "La LPRL se aplica a las relaciones laborales y también a las administrativas o estatutarias del personal al servicio de las Administraciones públicas, con sus peculiaridades (art. 3.1 LPRL)."
+      ]
+    },
+    {
+      "titulo": "Conceptos básicos",
+      "puntos": [
+        "Prevención: conjunto de actividades y medidas para evitar o disminuir los riesgos derivados del trabajo (art. 4.1.º LPRL). El riesgo valora la probabilidad y la severidad del daño (art. 4.2.º LPRL).",
+        "Riesgo grave e inminente: el que se materializará en un futuro inmediato y puede suponer un daño grave (art. 4.4.º LPRL)."
+      ]
+    },
+    {
+      "titulo": "Derechos y deberes",
+      "puntos": [
+        "Protección eficaz frente a los riesgos, con deber correlativo del empresario y de las Administraciones públicas (art. 14.1 LPRL). El empresario integra la actividad preventiva en la organización (art. 14.2 LPRL).",
+        "El trabajador debe usar correctamente los medios y equipos de protección y no poner fuera de funcionamiento los dispositivos de seguridad (art. 29.2 LPRL)."
+      ]
+    },
+    {
+      "titulo": "Planificación, formación y emergencias",
+      "puntos": [
+        "El plan de prevención se basa en la evaluación de riesgos y en la planificación de la actividad preventiva (art. 16.1 y 16.2 LPRL).",
+        "La formación se da al contratarse y cuando cambian las funciones o las tecnologías (art. 19.1 LPRL). Las medidas de emergencia cubren primeros auxilios, incendios y evacuación (art. 20 LPRL)."
+      ]
+    },
+    {
+      "titulo": "Riesgo grave, salud y coordinación",
+      "puntos": [
+        "Ante un riesgo grave e inminente, el trabajador puede interrumpir su actividad, y no puede exigírsele que la reanude mientras persista el peligro (art. 21.1.b LPRL).",
+        "La vigilancia de la salud exige el consentimiento del trabajador, con excepciones (art. 22.1 LPRL). Cuando varias empresas comparten un centro, cooperan y el titular informa (art. 24 LPRL)."
+      ]
+    },
+    {
+      "titulo": "Participación y organización",
+      "puntos": [
+        "Los delegados de prevención representan a los trabajadores en prevención (art. 35.1 LPRL) y son consultados antes de las decisiones del artículo 33 (art. 36.1.c LPRL).",
+        "El comité de seguridad y salud es obligatorio con 50 o más trabajadores (art. 38.2 LPRL). La organización concreta de la prevención en la Junta no se ha verificado en este tema."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LPRL",
+      "rol": "Norma principal del tema (arts. 2 a 4, 14 a 16, 18 a 22, 24, 29, 31, 33, 35, 36, 38 y 39)"
+    },
+    {
+      "id": "CE",
+      "rol": "Fundamento constitucional (art. 40.2)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 40.2 CE, ¿qué deben velar los poderes públicos?",
+      "opciones": [
+        "La seguridad e higiene en el trabajo",
+        "Solo el precio del trabajo",
+        "Ninguna condición laboral",
+        "Solo el número de horas extraordinarias"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 40.2 CE establece que los poderes públicos velarán por la seguridad e higiene en el trabajo.",
+      "referencia": "Art. 40.2 CE"
+    },
+    {
+      "pregunta": "Según el art. 4.1.º LPRL, ¿qué es la prevención?",
+      "opciones": [
+        "La contratación de nuevo personal",
+        "La jubilación anticipada",
+        "Las actividades y medidas para evitar o disminuir los riesgos derivados del trabajo",
+        "La compra de seguros privados"
+      ],
+      "correcta": 2,
+      "explicacion": "La prevención es el conjunto de actividades o medidas adoptadas en todas las fases de la actividad para evitar o disminuir los riesgos derivados del trabajo.",
+      "referencia": "Art. 4.1.º LPRL"
+    },
+    {
+      "pregunta": "Según el art. 3.1 LPRL, ¿a quién se aplica la ley?",
+      "opciones": [
+        "Solo a los autónomos",
+        "A nadie del sector público",
+        "Solo a los trabajadores del sector privado",
+        "A las relaciones laborales y también a las administrativas o estatutarias del personal de las Administraciones públicas"
+      ],
+      "correcta": 3,
+      "explicacion": "La LPRL se aplica a las relaciones laborales y a las de carácter administrativo o estatutario del personal al servicio de las Administraciones públicas, con sus peculiaridades.",
+      "referencia": "Art. 3.1 LPRL"
+    },
+    {
+      "pregunta": "Según el art. 14.1 LPRL, ¿qué forma parte del derecho de los trabajadores a una protección eficaz?",
+      "opciones": [
+        "Solo el salario",
+        "La información, consulta y participación, la formación, la paralización ante riesgo grave e inminente y la vigilancia de la salud",
+        "Nada",
+        "Solo las vacaciones"
+      ],
+      "correcta": 1,
+      "explicacion": "Los derechos de información, consulta y participación, formación, paralización ante riesgo grave e inminente y vigilancia de la salud forman parte del derecho a la protección eficaz.",
+      "referencia": "Art. 14.1 LPRL"
+    },
+    {
+      "pregunta": "Según el art. 16.2 LPRL, ¿cuáles son los instrumentos esenciales del plan de prevención?",
+      "opciones": [
+        "La evaluación de riesgos y la planificación de la actividad preventiva",
+        "Solo la formación",
+        "El seguro de vida",
+        "El presupuesto y la publicidad"
+      ],
+      "correcta": 0,
+      "explicacion": "Los instrumentos esenciales son la evaluación de riesgos laborales y la planificación de la actividad preventiva.",
+      "referencia": "Art. 16.2 LPRL"
+    },
+    {
+      "pregunta": "Según el art. 19.1 LPRL, ¿cuándo debe recibir formación el trabajador?",
+      "opciones": [
+        "Solo cada diez años",
+        "Solo al jubilarse",
+        "Al contratarse y cuando cambien sus funciones o se introduzcan nuevas tecnologías",
+        "Nunca"
+      ],
+      "correcta": 2,
+      "explicacion": "La formación debe darse en el momento de la contratación y cuando cambien las funciones, las tecnologías o los equipos de trabajo.",
+      "referencia": "Art. 19.1 LPRL"
+    },
+    {
+      "pregunta": "Según el art. 21.1.b LPRL, ¿puede exigirse a un trabajador que reanude la actividad mientras persista un peligro grave e inminente?",
+      "opciones": [
+        "Sí, si lo ordena el jefe",
+        "Sí, con un aviso de una hora",
+        "Sí, siempre",
+        "No, no puede exigirse mientras persista el peligro, salvo excepción justificada"
+      ],
+      "correcta": 3,
+      "explicacion": "En caso de peligro grave, inminente e inevitable, no puede exigirse al trabajador que reanude su actividad mientras persista el peligro, salvo excepción debidamente justificada.",
+      "referencia": "Art. 21.1.b LPRL"
+    },
+    {
+      "pregunta": "Según el art. 35.1 LPRL, ¿quiénes son los representantes de los trabajadores con funciones específicas en prevención?",
+      "opciones": [
+        "Los proveedores",
+        "Los delegados de prevención",
+        "Los sindicatos sin representación",
+        "Los clientes"
+      ],
+      "correcta": 1,
+      "explicacion": "Los delegados de prevención son los representantes de los trabajadores con funciones específicas en materia de prevención de riesgos en el trabajo.",
+      "referencia": "Art. 35.1 LPRL"
+    },
+    {
+      "pregunta": "Según el art. 38.2 LPRL, ¿a partir de cuántos trabajadores debe constituirse el comité de seguridad y salud?",
+      "opciones": [
+        "Diez",
+        "Veinticinco",
+        "Cincuenta o más",
+        "Cien"
+      ],
+      "correcta": 2,
+      "explicacion": "El comité de seguridad y salud se constituye en todas las empresas o centros de trabajo con 50 o más trabajadores.",
+      "referencia": "Art. 38.2 LPRL"
+    },
+    {
+      "pregunta": "Según el art. 29.2.2.º LPRL, ¿qué deben hacer los trabajadores con los medios y equipos de protección?",
+      "opciones": [
+        "Utilizarlos correctamente, de acuerdo con las instrucciones recibidas",
+        "Venderlos",
+        "No usarlos nunca",
+        "Dejarlos en el almacén"
+      ],
+      "correcta": 0,
+      "explicacion": "Los trabajadores deben utilizar correctamente los medios y equipos de protección facilitados, de acuerdo con las instrucciones recibidas del empresario.",
+      "referencia": "Art. 29.2.2.º LPRL"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "e02",
+  "resumen": [
+    {
+      "titulo": "Estudio geotécnico",
+      "puntos": [
+        "El estudio geotécnico es el compendio de información cuantificada sobre el terreno, necesario para dimensionar los cimientos (DB-SE-C, apartado 3.1, punto 1). Lo redacta el proyectista u otro técnico competente, con visado colegial (apartado 3.1, punto 6).",
+        "El número mínimo de perfiles depende de la categoría: dos para C-0 y C-1, y tres para el resto (apartado 3.3, punto 2). Antes de cimentar, se confirma el estudio y se comprueba que el terreno corresponde a lo previsto (apartado 4.6.2)."
+      ]
+    },
+    {
+      "titulo": "Cimentaciones directas",
+      "puntos": [
+        "Las directas reparten las cargas en un plano horizontal. La zapata aislada sirve a un pilar; la combinada, a dos o más pilares contiguos; la corrida, a tres o más alineados; el pozo, a un pilar; el emparrillado, a una retícula; y la losa, a un conjunto de pilares y muros (DB-SE-C, apartados 4.1 y tabla 4.1).",
+        "Las losas cubren el área disponible y dan la mínima presión unitaria, pero pueden dar asientos considerables en suelos compresibles de gran espesor (apartado 4.1.5)."
+      ]
+    },
+    {
+      "titulo": "Cimentaciones profundas y contención",
+      "puntos": [
+        "Es profunda la cimentación con el extremo inferior a más de ocho veces su diámetro o ancho (DB-SE-C, apartado 5.1.1). Los pilotes se clasifican por la forma de trabajo: por fuste (flotantes) o por punta (columna) (apartado 5.1.2.1).",
+        "Las pantallas se ejecutan antes de la excavación y trabajan a flexión; si hay nivel freático, necesitan impermeabilización suplementaria conforme al DB-HS (apartado 6.1.1)."
+      ]
+    },
+    {
+      "titulo": "Requisitos del CTE",
+      "puntos": [
+        "La seguridad estructural es el requisito del artículo 10 del CTE: la exigencia SE 1 pide resistencia y estabilidad, y la SE 2, aptitud al servicio sin deformaciones inadmisibles (art. 10.1 y 10.2).",
+        "El DB-SE-C es el documento que concreta las cimentaciones (art. 10.3). Las estructuras de hormigón se rigen por la Instrucción de Hormigón Estructural vigente (art. 10.4), que no se ha verificado en el repositorio."
+      ]
+    },
+    {
+      "titulo": "Ejecución y control",
+      "puntos": [
+        "Durante la ejecución se comprueban el replanteo, las dimensiones, las armaduras, los recubrimientos y la compactación (DB-SE-C, apartado 4.6.4). Las bolsadas blandas se excavan y sustituyen (apartado 4.5.1.1).",
+        "El director de la ejecución controla la calidad de lo edificado (LOE, art. 13.1). El control del CTE se divide en recepción de productos, ejecución y obra terminada (CTE, art. 7.2 a 7.4)."
+      ]
+    },
+    {
+      "titulo": "Comprobaciones finales, conservación y responsabilidad",
+      "puntos": [
+        "Antes de la puesta en servicio se comprueba que las zapatas se comportan como se previó y que los asientos se ajustan (DB-SE-C, apartado 4.6.5). En edificios C-3 y C-4 es obligatoria la nivelación para controlar asientos (apartado 4.6.5, punto 2).",
+        "El plan de mantenimiento forma parte del libro del edificio (CTE, art. 8.1.3). La LOE responde diez años por los daños que afecten a la cimentación (LOE, art. 17.1.a)."
+      ]
+    },
+    {
+      "titulo": "Seguridad y salud en la cimentación",
+      "puntos": [
+        "En las excavaciones se previene el sepultamiento con entibación, blindaje, apeo o taludes, y la irrupción de agua (RD 1627/1997, anexo IV, apartado 9.b). Antes de excavar deben localizarse los cables y conducciones subterráneas (apartado 9.a).",
+        "El estudio de seguridad debe incluir las medidas de los riesgos de excavación y de cimentación, con presupuesto por valoración unitaria (arts. 4 y 5). El derribo de elementos existentes exige supervisión de persona competente (anexo IV, apartado 12.a)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CTE",
+      "rol": "Exigencias de seguridad estructural y conservación (arts. 5, 7, 8 y 10)"
+    },
+    {
+      "id": "DB-SE-C",
+      "rol": "Documento básico de cimientos (apartados 3, 4, 5, 6.1.1 y 7)"
+    },
+    {
+      "id": "LOE",
+      "rol": "Requisitos básicos, director de la ejecución y responsabilidad (arts. 3.1.b.1, 13 y 17.1.a)"
+    },
+    {
+      "id": "RD-1627-1997",
+      "rol": "Seguridad y salud en obras: excavaciones y trabajos específicos (arts. 4, 5 y anexo IV, apartados 9 y 12)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el DB-SE-C, apartado 5.1.1, ¿cuándo se considera profunda una cimentación?",
+      "opciones": [
+        "Cuando su extremo inferior está a más de ocho veces su diámetro o ancho",
+        "Cuando tiene más de un metro de altura",
+        "Cuando se construye con zapatas aisladas",
+        "Cuando el edificio tiene una planta"
+      ],
+      "correcta": 0,
+      "explicacion": "El DB-SE-C considera profunda la cimentación cuyo extremo inferior está a una profundidad superior a ocho veces su diámetro o ancho.",
+      "referencia": "DB-SE-C, apartado 5.1.1"
+    },
+    {
+      "pregunta": "Según el DB-SE-C, apartado 4.1.2, ¿qué es una zapata corrida?",
+      "opciones": [
+        "La que se usa solo en sótanos",
+        "La que recoge un solo pilar",
+        "La que recoge tres o más pilares o muros alineados",
+        "La que se apoya solo en pilotes"
+      ],
+      "correcta": 2,
+      "explicacion": "La zapata combinada recoge dos o más pilares, y la zapata corrida, tres o más alineados.",
+      "referencia": "DB-SE-C, apartado 4.1.2"
+    },
+    {
+      "pregunta": "Según el DB-SE-C, apartado 3.3, punto 2, ¿cuántos perfiles geotécnicos mínimos se exigen a un edificio de categoría C-2?",
+      "opciones": [
+        "Ninguno",
+        "Uno",
+        "Dos",
+        "Tres"
+      ],
+      "correcta": 3,
+      "explicacion": "Para los edificios C-0 y C-1 se exigen dos perfiles como mínimo y para el resto, tres; el C-2 queda en el segundo grupo.",
+      "referencia": "DB-SE-C, apartado 3.3, punto 2"
+    },
+    {
+      "pregunta": "Según el art. 10.1 del CTE, ¿qué exigencia básica pide resistencia y estabilidad?",
+      "opciones": [
+        "La exigencia HR 1",
+        "La exigencia SE 1",
+        "La exigencia HE 2",
+        "La exigencia SUA 1"
+      ],
+      "correcta": 1,
+      "explicacion": "La exigencia SE 1 del artículo 10 del CTE exige resistencia y estabilidad frente a las acciones previsibles.",
+      "referencia": "Art. 10.1 CTE (SE 1)"
+    },
+    {
+      "pregunta": "Según el art. 10.4 del CTE, ¿qué norma regula las estructuras de hormigón?",
+      "opciones": [
+        "La Instrucción de Hormigón Estructural vigente",
+        "El Código Civil",
+        "La Ley de Contratos del Sector Público",
+        "El reglamento de ascensores"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 10.4 del CTE remite las estructuras de hormigón a la Instrucción de Hormigón Estructural vigente.",
+      "referencia": "Art. 10.4 CTE"
+    },
+    {
+      "pregunta": "Según el DB-SE-C, apartado 4.6.5, punto 2, ¿en qué edificios es obligatorio un sistema de nivelación para controlar el asiento?",
+      "opciones": [
+        "En los garajes de una planta",
+        "En ningún edificio",
+        "En los edificios de tipo C-3 y C-4",
+        "En las casetas de obra"
+      ],
+      "correcta": 2,
+      "explicacion": "En edificios C-3 y C-4 es obligado establecer un sistema de nivelación que controle el asiento de las zonas más características.",
+      "referencia": "DB-SE-C, apartado 4.6.5, punto 2"
+    },
+    {
+      "pregunta": "Según el art. 17.1.a de la LOE, ¿durante cuánto tiempo responden los agentes de los daños materiales por defectos que afecten a la cimentación y comprometan la estabilidad?",
+      "opciones": [
+        "Durante treinta años",
+        "Durante un año",
+        "Durante tres años",
+        "Durante diez años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 17.1.a de la LOE establece la responsabilidad durante diez años por los daños materiales causados por vicios o defectos que afecten a la cimentación y comprometan la resistencia y la estabilidad.",
+      "referencia": "Art. 17.1.a LOE"
+    },
+    {
+      "pregunta": "Según el anexo IV, apartado 9.b, del RD 1627/1997, ¿qué debe preverse en las excavaciones para prevenir el sepultamiento?",
+      "opciones": [
+        "Nada, si la excavación es pequeña",
+        "Entibación, blindaje, apeo, taludes u otras medidas adecuadas",
+        "Trabajar sin protección",
+        "Acumular tierras junto al borde"
+      ],
+      "correcta": 1,
+      "explicacion": "El anexo IV, apartado 9.b.1.º, exige precauciones para prevenir el sepultamiento mediante entibación, blindaje, apeo, taludes u otras medidas adecuadas.",
+      "referencia": "Anexo IV, apartado 9.b.1.º RD 1627/1997"
+    },
+    {
+      "pregunta": "Según el DB-SE-C, apartado 4.6.1, punto 4, ¿qué no debe hacerse en una cimentación directa?",
+      "opciones": [
+        "Consultar el estudio geotécnico",
+        "Revisar su estado",
+        "Practicar perforaciones que reduzcan su capacidad resistente",
+        "Mantener el drenaje"
+      ],
+      "correcta": 2,
+      "explicacion": "El DB prohíbe hacer obras nuevas que pongan en peligro la cimentación, como perforaciones que reduzcan su capacidad resistente, pilares que transmitan cargas importantes o excavaciones importantes en sus proximidades.",
+      "referencia": "DB-SE-C, apartado 4.6.1, punto 4"
+    },
+    {
+      "pregunta": "Según el DB-SE-C, apartado 6.1.1, ¿qué caracteriza a las pantallas de contención?",
+      "opciones": [
+        "Se ejecutan desde la superficie antes de la excavación y trabajan fundamentalmente a flexión",
+        "Son siempre de madera",
+        "No requieren ninguna justificación",
+        "Se ejecutan después de la excavación y trabajan a tracción"
+      ],
+      "correcta": 0,
+      "explicacion": "Las pantallas se construyen desde la superficie antes de la excavación y trabajan fundamentalmente a flexión.",
+      "referencia": "DB-SE-C, apartado 6.1.1"
+    }
+  ]
+}

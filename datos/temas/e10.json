@@ -1,0 +1,198 @@
+{
+  "id": "e10",
+  "resumen": [
+    {
+      "titulo": "Marco normativo y calidad del aire",
+      "puntos": [
+        "La ventilación de las viviendas se rige por el CTE (HS 3, art. 13.3). La climatización y la ventilación de los demás usos, por el RITE (RD 1027/2007).",
+        "Los productos de combustión se evacuan, con carácter general, por la cubierta del edificio (CTE, art. 13.3.2)."
+      ]
+    },
+    {
+      "titulo": "Ventilación de la vivienda",
+      "puntos": [
+        "Sistema general híbrido o mecánico; aire desde los locales secos hacia los húmedos; aberturas de admisión en comedores, dormitorios y salas de estar; aberturas de extracción en aseos, cocinas y baños (DB-HS 3, apartado 3.1.1, punto 1).",
+        "Aireadores a más de 1,80 m del suelo; en la ventilación híbrida, admisión directa al exterior (apartado 3.1.1, punto 1, letras d y e)."
+      ]
+    },
+    {
+      "titulo": "Caudales mínimos de la vivienda",
+      "puntos": [
+        "Locales secos: dormitorio principal 8 l/s; resto de dormitorios 4 l/s; salas de estar y comedores de 6 a 10 l/s (tabla 2.1). Total: 12 l/s en 0 o 1 dormitorios, 24 l/s en 2 y 33 l/s en 3 o más.",
+        "Locales húmedos: 6 l/s por local en 0 o 1 dormitorios, 7 l/s en 2 y 8 l/s en 3 o más. Extracción de la zona de cocción: 50 l/s (DB-HS 3, apartado 2, punto 4)."
+      ]
+    },
+    {
+      "titulo": "Bienestar térmico y categorías de aire",
+      "puntos": [
+        "Temperatura operativa en verano de 23 a 25 ºC, con humedad del 45 al 60 %; en invierno de 21 a 23 ºC, con humedad del 40 al 50 % (RITE, IT 1.1.4.1.2, tabla 1.4.1.1). Temperatura de cálculo: 21 ºC para calefacción y 25 ºC para refrigeración.",
+        "Categorías de calidad del aire IDA 1 a IDA 4 según el uso del edificio (IT 1.1.4.2.2): IDA 1 en hospitales y laboratorios; IDA 2 en oficinas y aulas; IDA 3 en comercios y gimnasios."
+      ]
+    },
+    {
+      "titulo": "Caudal de aire exterior",
+      "puntos": [
+        "Método por persona (tabla 1.4.2.1): 20 dm³/s para IDA 1, 12,5 para IDA 2, 8 para IDA 3 y 5 para IDA 4. Si se permite fumar, el doble (IT 1.1.4.2.3, apartado A).",
+        "Zonas de fumadores: locales estancos al aire y en depresión respecto de los contiguos (apartado A, letra c)."
+      ]
+    },
+    {
+      "titulo": "Eficiencia, seguridad y ejecución",
+      "puntos": [
+        "Aislamiento de redes de tuberías y conductos (IT 1.2.4.2.1 y 1.2.4.2.2); estanquidad de conductos (IT 1.2.4.2.3); seguridad en la generación de calor y frío (IT 1.3.2).",
+        "Pruebas hidrostáticas antes de ocultar las redes (IT 2.2.2.1, punto 1). Limpieza de los conductos después del montaje y antes de conectar las unidades terminales (IT 2.2.5.1, punto 1). Ajuste y equilibrado (IT 2.3)."
+      ]
+    },
+    {
+      "titulo": "Mantenimiento e inspección",
+      "puntos": [
+        "Programa de mantenimiento preventivo con las periodicidades mínimas de la tabla 3.1: calentadores de ACS a gas de hasta 24,4 kW, cada 5 años en viviendas; aire acondicionado de hasta 12 kW, cada 4 años en viviendas (IT 3.3).",
+        "Inspección de eficiencia energética cada cuatro años para calefacción, ventilación, ACS y aire acondicionado (IT 4.3.1 y 4.3.2). Instalación térmica completa cada quince años (IT 4.3.3)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CTE",
+      "rol": "Calidad del aire interior y evacuación de productos de combustión (arts. 8.1 y 13.3)"
+    },
+    {
+      "id": "DB-HS",
+      "rol": "Ventilación de viviendas (HS 3, apartados 2, 3.1.1 y tabla 2.1)"
+    },
+    {
+      "id": "RITE",
+      "rol": "Reglamento de instalaciones térmicas en los edificios (IT 1.1, 1.2, 1.3, 2, 3 y 4)"
+    },
+    {
+      "id": "RD-1627-1997",
+      "rol": "Cubiertas e instalaciones de energía (anexo IV, apartados 10 y 12.b)"
+    },
+    {
+      "id": "LOE",
+      "rol": "Responsabilidad por daños y habitabilidad (art. 17.1.b)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el DB-HS 3, tabla 2.1, ¿cuál es el caudal mínimo de ventilación del dormitorio principal en un local seco?",
+      "opciones": [
+        "8 l/s",
+        "12 l/s",
+        "50 l/s",
+        "4 l/s"
+      ],
+      "correcta": 0,
+      "explicacion": "El dormitorio principal necesita un caudal mínimo de 8 l/s en los locales secos.",
+      "referencia": "DB-HS 3, tabla 2.1"
+    },
+    {
+      "pregunta": "Según el DB-HS 3, apartado 2, punto 4, ¿qué caudal mínimo debe extraer el sistema de la zona de cocción de una cocina?",
+      "opciones": [
+        "5 l/s",
+        "8 l/s",
+        "50 l/s",
+        "250 l/s"
+      ],
+      "correcta": 2,
+      "explicacion": "La zona de cocción debe disponer de un sistema que extraiga, como mínimo, 50 l/s, de forma independiente de la ventilación general.",
+      "referencia": "DB-HS 3, apartado 2, punto 4"
+    },
+    {
+      "pregunta": "Según el DB-HS 3, apartado 3.1.1, punto 1, letra e, ¿a qué altura mínima del suelo deben situarse los aireadores?",
+      "opciones": [
+        "Mayor que 3 m",
+        "No hay altura mínima",
+        "Mayor que 0,50 m",
+        "Mayor que 1,80 m"
+      ],
+      "correcta": 3,
+      "explicacion": "Los aireadores deben disponerse a una distancia del suelo mayor que 1,80 m.",
+      "referencia": "DB-HS 3, apartado 3.1.1, punto 1, letra e"
+    },
+    {
+      "pregunta": "Según el RITE, IT 1.1.4.1.2, tabla 1.4.1.1, ¿entre qué valores de temperatura operativa se sitúa el invierno?",
+      "opciones": [
+        "De 30 a 35 ºC",
+        "De 21 a 23 ºC",
+        "De 23 a 25 ºC",
+        "De 15 a 18 ºC"
+      ],
+      "correcta": 1,
+      "explicacion": "En invierno, la temperatura operativa debe estar entre 21 y 23 ºC, con una humedad relativa del 40 al 50 %.",
+      "referencia": "RITE, IT 1.1.4.1.2, tabla 1.4.1.1"
+    },
+    {
+      "pregunta": "Según el RITE, IT 1.1.4.1.2, ¿qué temperatura de cálculo se emplea para dimensionar la refrigeración?",
+      "opciones": [
+        "25 ºC",
+        "30 ºC",
+        "18 ºC",
+        "21 ºC"
+      ],
+      "correcta": 0,
+      "explicacion": "Para dimensionar la refrigeración se emplea una temperatura de cálculo de 25 ºC; para la calefacción, 21 ºC.",
+      "referencia": "RITE, IT 1.1.4.1.2"
+    },
+    {
+      "pregunta": "Según el RITE, IT 1.1.4.2.3, tabla 1.4.2.1, ¿cuántos dm³/s por persona corresponden a la categoría IDA 1?",
+      "opciones": [
+        "8",
+        "12,5",
+        "20",
+        "5"
+      ],
+      "correcta": 2,
+      "explicacion": "La tabla 1.4.2.1 fija 20 dm³/s por persona para la categoría IDA 1, 12,5 para la IDA 2, 8 para la IDA 3 y 5 para la IDA 4.",
+      "referencia": "RITE, IT 1.1.4.2.3, tabla 1.4.2.1"
+    },
+    {
+      "pregunta": "Según el RITE, IT 3.3, tabla 3.1, ¿con qué periodicidad mínima se revisa un calentador de ACS a gas de potencia no superior a 24,4 kW en viviendas?",
+      "opciones": [
+        "Cada 2 años",
+        "Mensual",
+        "No hay periodicidad",
+        "Cada 5 años"
+      ],
+      "correcta": 3,
+      "explicacion": "Los calentadores de ACS a gas de potencia no superior a 24,4 kW se revisan cada 5 años en viviendas, y cada 2 años en los demás usos.",
+      "referencia": "RITE, IT 3.3, tabla 3.1"
+    },
+    {
+      "pregunta": "Según el RITE, IT 4.3.3, ¿con qué periodicidad se inspecciona la instalación térmica completa?",
+      "opciones": [
+        "Cada 4 años",
+        "Cada 15 años",
+        "Cada 2 años",
+        "Cada 30 años"
+      ],
+      "correcta": 1,
+      "explicacion": "La inspección de la instalación térmica completa se realiza cada quince años, coincidiendo con la primera inspección del generador una vez superados los quince años de antigüedad.",
+      "referencia": "RITE, IT 4.3.3"
+    },
+    {
+      "pregunta": "Según el RITE, IT 2.2.2.1, punto 1, ¿cuándo deben probarse hidrostáticamente las redes de fluidos portadores?",
+      "opciones": [
+        "Solo en verano",
+        "Después de su uso durante cinco años",
+        "Antes de quedar ocultas por obras de albañilería, material de relleno o aislante",
+        "Nunca es necesario"
+      ],
+      "correcta": 2,
+      "explicacion": "Todas las redes de circulación de fluidos portadores deben probarse hidrostáticamente, antes de quedar ocultas por obras de albañilería, material de relleno o aislante.",
+      "referencia": "RITE, IT 2.2.2.1, punto 1"
+    },
+    {
+      "pregunta": "Según el RD 1627/1997, anexo IV, apartado 12.b, ¿qué debe tenerse en cuenta para la protección colectiva en trabajos en tejados?",
+      "opciones": [
+        "La altura, la inclinación o el carácter o estado resbaladizo de la cubierta",
+        "Nada, los tejados no tienen riesgo",
+        "Solo la hora del día",
+        "Solo el color del tejado"
+      ],
+      "correcta": 0,
+      "explicacion": "Las medidas de protección colectiva deben adoptarse en atención a la altura, la inclinación o el carácter o estado resbaladizo de la cubierta.",
+      "referencia": "Anexo IV, apartado 12.b RD 1627/1997"
+    }
+  ]
+}

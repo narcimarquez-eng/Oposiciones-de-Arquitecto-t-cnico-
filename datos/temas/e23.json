@@ -1,0 +1,198 @@
+{
+  "id": "e23",
+  "resumen": [
+    {
+      "titulo": "Marco normativo",
+      "puntos": [
+        "La LOE (art. 3.1.c) fija los requisitos de habitabilidad: protección contra el ruido (c.2), ahorro de energía y aislamiento térmico (c.3). El CTE desarrolla la protección frente al ruido en su artículo 14 (HR) y el ahorro de energía en su artículo 15 (HE).",
+        "La Ley 37/2003, del Ruido, fija los objetivos de calidad acústica y el régimen de las licencias de vivienda y las infracciones."
+      ]
+    },
+    {
+      "titulo": "Ley del Ruido: licencias e infracciones",
+      "puntos": [
+        "No pueden concederse licencias de vivienda, uso hospitalario, educativo o cultural si los índices de inmisión incumplen los objetivos de calidad acústica del área, salvo en zonas acústicas especiales, donde basta con el espacio interior (Ley 37/2003, art. 20, apartado 1).",
+        "Son infracciones muy graves, entre otras, el incumplimiento de las normas de protección de las edificaciones contra el ruido cuando se pone en peligro grave la salud o la seguridad (art. 28, apartado 2, letra d)."
+      ]
+    },
+    {
+      "titulo": "DB-HR: tipos de ruido y requisitos",
+      "puntos": [
+        "El CTE (art. 14.2) exige controlar el ruido aéreo, el ruido de impactos, el ruido y las vibraciones de las instalaciones, y limitar el ruido reverberante.",
+        "Las exigencias se aplican a los elementos totalmente acabados (DB-HR, apartado 2, punto 1). Límite de ruido de los equipos generadores de ruido estacionario en recintos colindantes (apartado 2.3, punto 2)."
+      ]
+    },
+    {
+      "titulo": "DB-HR: diseño de los elementos de separación",
+      "puntos": [
+        "Opción simplificada, válida para cualquier uso, u opción general, con el índice de ruido día Ld de la zona (DB-HR, apartado 3.1).",
+        "Tabla 3.2: valores mínimos de los parámetros acústicos de los elementos de separación verticales. Los elementos de tipo 1 se trasdosan por ambas caras (apartado 3.1.2.3.4)."
+      ]
+    },
+    {
+      "titulo": "Ahorro de energía: HE 0 a HE 5",
+      "puntos": [
+        "HE 0: limitación del consumo energético por zona climática y uso. HE 1: envolvente térmica. HE 2: instalaciones térmicas, según el RITE. HE 3: iluminación eficiente, con control de la ocupación y aprovechamiento de la luz natural. HE 4: ACS renovable. HE 5: generación eléctrica renovable (CTE, art. 15).",
+        "HE 4: el 70 % de la demanda anual de ACS debe cubrirse con renovables, que puede reducirse al 60 % si la demanda es inferior a 5.000 litros diarios. HE 5 se aplica a los edificios nuevos de más de 1.000 m² construidos."
+      ]
+    },
+    {
+      "titulo": "Transmitancia de la envolvente (HE 1)",
+      "puntos": [
+        "Ulim según la zona climática (α a E): muros en contacto con el aire exterior, de 0,80 a 0,37 W/m²K; cubiertas, de 0,55 a 0,33 W/m²K; huecos, de 3,2 a 1,80 W/m²K (DB-HE, tabla 3.1.1.a).",
+        "Huecos en zona A: 2,7 W/m²K; zona B: 2,3; zona C: 2,1; zona D: 1,8. Los límites son valores máximos por elemento."
+      ]
+    },
+    {
+      "titulo": "Ejecución, control y mantenimiento",
+      "puntos": [
+        "DB-HE: ejecución (apartados 5.3 y 6.1), control de recepción de productos, de ejecución y de obra terminada, y mantenimiento (apartado 6.4). El director de la ejecución controla la ejecución según el CTE (art. 7.1, apartado 4).",
+        "DB-HR: el edificio debe mantener las condiciones acústicas iniciales, y las reparaciones o sustituciones de materiales no pueden alterarlas (DB-HR, apartado 6)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LOE",
+      "rol": "Requisitos de habitabilidad: ruido, ahorro de energía y aislamiento térmico (art. 3.1, letras c.2 y c.3)"
+    },
+    {
+      "id": "CTE",
+      "rol": "Protección frente al ruido (art. 14) y ahorro de energía (art. 15); mantenimiento (art. 8)"
+    },
+    {
+      "id": "DB-HR",
+      "rol": "Exigencias acústicas: tipos de ruido, diseño de los elementos de separación, instalaciones y mantenimiento"
+    },
+    {
+      "id": "DB-HE",
+      "rol": "Ahorro de energía: transmitancias límite (HE 1), ACS renovable (HE 4), renovables eléctricas (HE 5)"
+    },
+    {
+      "id": "L-37-2003",
+      "rol": "Ley del Ruido: objetivos de calidad acústica, licencias de edificaciones e infracciones (arts. 20 y 28)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según la LOE, art. 3.1, letra c.2, ¿qué pretende el requisito de protección contra el ruido?",
+      "opciones": [
+        "Que el ruido percibido no ponga en peligro la salud de las personas y les permita realizar sus actividades",
+        "Que el edificio sea completamente silencioso en todas las plantas",
+        "Que se prohíban los equipos de climatización",
+        "Que no exista ningún ruido en el edificio"
+      ],
+      "correcta": 0,
+      "explicacion": "El requisito busca que el ruido percibido no ponga en peligro la salud de las personas y les permita realizar satisfactoriamente sus actividades (LOE, art. 3.1, letra c.2).",
+      "referencia": "LOE, art. 3.1, letra c.2)"
+    },
+    {
+      "pregunta": "Según el CTE, art. 14.2, ¿cuál de los siguientes NO es uno de los tipos de ruido que los elementos constructivos deben controlar?",
+      "opciones": [
+        "El ruido de impactos",
+        "El ruido y las vibraciones de las instalaciones propias del edificio",
+        "El ruido del tráfico exterior de la ciudad",
+        "El ruido aéreo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 14.2 enumera el ruido aéreo, el de impactos, el de las instalaciones propias y la limitación del ruido reverberante. El tráfico exterior no figura en esa enumeración.",
+      "referencia": "CTE, art. 14.2"
+    },
+    {
+      "pregunta": "Según la Ley 37/2003, art. 20, apartado 1, ¿qué ocurre con las licencias de viviendas si los índices de inmisión incumplen los objetivos de calidad acústica del área?",
+      "opciones": [
+        "Se conceden solo si la vivienda tiene más de cinco plantas",
+        "Se conceden siempre que el promotor pague una multa",
+        "Se conceden igualmente sin condiciones",
+        "No pueden concederse, salvo en zonas de protección o de situación acústica especial"
+      ],
+      "correcta": 3,
+      "explicacion": "No pueden concederse nuevas licencias de viviendas, usos hospitalarios, educativos o culturales si incumplen los objetivos de calidad acústica, excepto en las zonas de protección y de situación acústica especial (art. 20, apartado 1).",
+      "referencia": "Ley 37/2003, art. 20, apartado 1"
+    },
+    {
+      "pregunta": "Según la Ley 37/2003, art. 28, apartado 2, letra d, ¿cómo se clasifica el incumplimiento de las normas de protección de las edificaciones contra el ruido cuando se pone en peligro grave la salud de las personas?",
+      "opciones": [
+        "Como infracción grave",
+        "Como infracción muy grave",
+        "No constituye infracción",
+        "Como infracción leve"
+      ],
+      "correcta": 1,
+      "explicacion": "El incumplimiento de las normas que establecen requisitos de protección de las edificaciones contra el ruido, cuando se pone en peligro grave la seguridad o la salud, es infracción muy grave (art. 28, apartado 2, letra d).",
+      "referencia": "Ley 37/2003, art. 28, apartado 2, letra d)"
+    },
+    {
+      "pregunta": "Según el CTE, art. 15, exigencia HE 4, ¿qué porcentaje mínimo de la demanda anual de agua caliente sanitaria debe cubrir la energía procedente de fuentes renovables?",
+      "opciones": [
+        "70 %",
+        "100 %",
+        "50 %",
+        "60 %"
+      ],
+      "correcta": 0,
+      "explicacion": "La contribución mínima de energía renovable para el ACS debe cubrir al menos el 70 % de la demanda anual, con la reducción al 60 % cuando la demanda es inferior a 5.000 litros diarios (DB-HE, HE 4, apartado 1).",
+      "referencia": "DB-HE, HE 4, apartado 1"
+    },
+    {
+      "pregunta": "Según el DB-HE, HE 4, apartado 1, ¿a qué porcentaje puede reducirse la contribución renovable de ACS cuando la demanda es inferior a 5.000 litros diarios?",
+      "opciones": [
+        "40 %",
+        "No puede reducirse",
+        "60 %",
+        "50 %"
+      ],
+      "correcta": 2,
+      "explicacion": "Cuando la demanda de ACS es inferior a 5.000 litros diarios, la contribución mínima puede reducirse al 60 % (DB-HE, HE 4, apartado 1).",
+      "referencia": "DB-HE, HE 4, apartado 1"
+    },
+    {
+      "pregunta": "Según el DB-HE, HE 5, apartado 1, ¿a partir de qué superficie construida se aplica la exigencia de generación eléctrica renovable en los edificios de nueva construcción?",
+      "opciones": [
+        "5.000 m²",
+        "100 m²",
+        "500 m²",
+        "1.000 m²"
+      ],
+      "correcta": 3,
+      "explicacion": "La exigencia HE 5 se aplica a los edificios de nueva construcción que superen los 1.000 m² construidos (DB-HE, HE 5, apartado 1).",
+      "referencia": "DB-HE, HE 5, apartado 1"
+    },
+    {
+      "pregunta": "Según el DB-HE, tabla 3.1.1.a, ¿cuál es la transmitancia térmica límite de los huecos en la zona climática A?",
+      "opciones": [
+        "3,2 W/m²K",
+        "2,7 W/m²K",
+        "2,3 W/m²K",
+        "1,8 W/m²K"
+      ],
+      "correcta": 1,
+      "explicacion": "El valor límite de transmitancia de los huecos en la zona A es de 2,7 W/m²K; el de la zona α, de 3,2 W/m²K (DB-HE, tabla 3.1.1.a).",
+      "referencia": "DB-HE, tabla 3.1.1.a"
+    },
+    {
+      "pregunta": "Según el DB-HE, tabla 3.1.1.a, ¿cuál es la transmitancia límite de los muros y suelos en contacto con el aire exterior en la zona climática E?",
+      "opciones": [
+        "0,56 W/m²K",
+        "0,49 W/m²K",
+        "0,37 W/m²K",
+        "0,80 W/m²K"
+      ],
+      "correcta": 2,
+      "explicacion": "En la zona E, el límite de muros y suelos en contacto con el aire exterior es de 0,37 W/m²K (DB-HE, tabla 3.1.1.a).",
+      "referencia": "DB-HE, tabla 3.1.1.a"
+    },
+    {
+      "pregunta": "Según el CTE, art. 15.4, exigencia HE 3, ¿qué debe permitir el sistema de control de la instalación de iluminación?",
+      "opciones": [
+        "Ajustar el funcionamiento de la iluminación a la ocupación real de la zona",
+        "Eliminar la iluminación natural",
+        "Mantener siempre la máxima potencia instalada",
+        "Encender toda la iluminación del edificio a la vez"
+      ],
+      "correcta": 0,
+      "explicacion": "La exigencia HE 3 requiere un sistema de control que permita ajustar el funcionamiento de la iluminación a la ocupación real de la zona, además de un sistema de regulación que aproveche la luz natural (CTE, art. 15.4).",
+      "referencia": "CTE, art. 15.4"
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+[
+ {
+  "pregunta": "¿Qué norma regula la ventilación de las viviendas?",
+  "opciones": [
+   "El CTE, DB-HS 3",
+   "El RITE",
+   "El RD 919/2006",
+   "La Ley 49/1960"
+  ],
+  "correcta": 0,
+  "explicacion": "La ventilación de las viviendas se rige por el DB-HS 3 del CTE.",
+  "referencia": "CTE, art. 13.3"
+ },
+ {
+  "pregunta": "¿Qué reglamento regula la climatización y la ventilación de los demás usos?",
+  "opciones": [
+   "El RITE (RD 1027/2007)",
+   "El RD 842/2002",
+   "El RD 346/2011",
+   "El RD 919/2006"
+  ],
+  "correcta": 0,
+  "explicacion": "La climatización y la ventilación de los demás usos se rigen por el RITE.",
+  "referencia": "RITE, RD 1027/2007"
+ },
+ {
+  "pregunta": "¿Por dónde se evacuan con carácter general los productos de la combustión?",
+  "opciones": [
+   "Por la cubierta del edificio",
+   "Por el sótano",
+   "Por la ventana del vecino",
+   "Por el ascensor"
+  ],
+  "correcta": 0,
+  "explicacion": "Los productos de combustión se evacuan por la cubierta del edificio.",
+  "referencia": "CTE, art. 13.3.2"
+ },
+ {
+  "pregunta": "¿Qué tipo de sistema general de ventilación se usa en viviendas?",
+  "opciones": [
+   "Híbrido o mecánico",
+   "Solo natural sin aberturas",
+   "Solo eléctrico de cocina",
+   "Ninguno"
+  ],
+  "correcta": 0,
+  "explicacion": "El sistema general de ventilación puede ser híbrido o mecánico.",
+  "referencia": "DB-HS 3, apartado 3.1.1"
+ },
+ {
+  "pregunta": "¿Desde qué locales sale el aire en una vivienda?",
+  "opciones": [
+   "Desde los locales secos hacia los húmedos",
+   "Desde los baños a los dormitorios",
+   "Desde la cocina a la calle sin control",
+   "Desde el garaje"
+  ],
+  "correcta": 0,
+  "explicacion": "El aire va desde los locales secos hacia los húmedos.",
+  "referencia": "DB-HS 3, apartado 3.1.1 punto 1"
+ },
+ {
+  "pregunta": "¿En qué locales deben estar las aberturas de admisión?",
+  "opciones": [
+   "Comedores, dormitorios y salas de estar",
+   "Cuartos de baño",
+   "Trasteros",
+   "Garajes"
+  ],
+  "correcta": 0,
+  "explicacion": "Las aberturas de admisión están en comedores, dormitorios y salas de estar.",
+  "referencia": "DB-HS 3, apartado 3.1.1 punto 1"
+ },
+ {
+  "pregunta": "¿En qué locales están las aberturas de extracción?",
+  "opciones": [
+   "Aseos, cocinas y baños",
+   "Dormitorios",
+   "Comedores",
+   "Salones"
+  ],
+  "correcta": 0,
+  "explicacion": "Las aberturas de extracción están en aseos, cocinas y baños.",
+  "referencia": "DB-HS 3, apartado 3.1.1 punto 1"
+ },
+ {
+  "pregunta": "¿A qué altura mínima deben situarse los aireadores?",
+  "opciones": [
+   "Más de 1,80 m del suelo",
+   "Menos de 10 cm",
+   "A nivel del suelo",
+   "En el techo"
+  ],
+  "correcta": 0,
+  "explicacion": "Los aireadores se sitúan a más de 1,80 m del suelo.",
+  "referencia": "DB-HS 3, apartado 3.1.1 punto 1"
+ },
+ {
+  "pregunta": "¿Qué caudal mínimo se exige al dormitorio principal en locales secos?",
+  "opciones": [
+   "8 l/s",
+   "80 l/s",
+   "0,8 l/s",
+   "No hay mínimo"
+  ],
+  "correcta": 0,
+  "explicacion": "El dormitorio principal tiene un caudal de 8 l/s.",
+  "referencia": "DB-HS 3, tabla 2.1"
+ },
+ {
+  "pregunta": "¿Qué caudal de extracción tiene la zona de cocción?",
+  "opciones": [
+   "50 l/s",
+   "5 l/s",
+   "500 l/s",
+   "0 l/s"
+  ],
+  "correcta": 0,
+  "explicacion": "La extracción de la zona de cocción es de 50 l/s.",
+  "referencia": "DB-HS 3, apartado 2 punto 4"
+ },
+ {
+  "pregunta": "¿Qué temperatura operativa se usa en verano según el RITE?",
+  "opciones": [
+   "De 23 a 25 ºC",
+   "De 10 a 12 ºC",
+   "De 40 a 50 ºC",
+   "No hay"
+  ],
+  "correcta": 0,
+  "explicacion": "En verano la temperatura operativa va de 23 a 25 ºC.",
+  "referencia": "RITE, IT 1.1.4.1.2, tabla 1.4.1.1"
+ },
+ {
+  "pregunta": "¿Qué temperatura operativa se usa en invierno?",
+  "opciones": [
+   "De 21 a 23 ºC",
+   "De 0 a 5 ºC",
+   "De 35 a 40 ºC",
+   "No hay"
+  ],
+  "correcta": 0,
+  "explicacion": "En invierno la temperatura operativa va de 21 a 23 ºC.",
+  "referencia": "RITE, IT 1.1.4.1.2"
+ },
+ {
+  "pregunta": "¿Qué categoría de calidad del aire corresponde a hospitales y laboratorios?",
+  "opciones": [
+   "IDA 1",
+   "IDA 4",
+   "IDA 3",
+   "IDA 2"
+  ],
+  "correcta": 0,
+  "explicacion": "Hospitales y laboratorios corresponden a IDA 1.",
+  "referencia": "RITE, IT 1.1.4.2.2"
+ },
+ {
+  "pregunta": "¿Qué categoría de calidad del aire corresponde a oficinas y aulas?",
+  "opciones": [
+   "IDA 2",
+   "IDA 1",
+   "IDA 4",
+   "IDA 3"
+  ],
+  "correcta": 0,
+  "explicacion": "Oficinas y aulas corresponden a IDA 2.",
+  "referencia": "RITE, IT 1.1.4.2.2"
+ },
+ {
+  "pregunta": "¿Qué cualidad debe tener el local de fumadores?",
+  "opciones": [
+   "Estanco al aire y en depresión respecto de los contiguos",
+   "Abierto al exterior sin control",
+   "Con ventana de cristal",
+   "Con puerta giratoria"
+  ],
+  "correcta": 0,
+  "explicacion": "Las zonas de fumadores son locales estancos al aire y en depresión respecto de los contiguos.",
+  "referencia": "RITE, IT 1.1.4.2.3 apartado A letra c"
+ },
+ {
+  "pregunta": "¿Cuándo se hacen las pruebas hidrostáticas de las redes?",
+  "opciones": [
+   "Antes de ocultar las redes",
+   "Después de pintar",
+   "Nunca",
+   "Solo al final de la obra de la vida"
+  ],
+  "correcta": 0,
+  "explicacion": "Se hacen pruebas hidrostáticas antes de ocultar las redes.",
+  "referencia": "RITE, IT 2.2.2.1 punto 1"
+ },
+ {
+  "pregunta": "¿Cuándo se limpian los conductos según el RITE?",
+  "opciones": [
+   "Después del montaje y antes de conectar las unidades terminales",
+   "Nunca",
+   "Cada día",
+   "Solo en verano"
+  ],
+  "correcta": 0,
+  "explicacion": "Los conductos se limpian después del montaje y antes de conectar las unidades terminales.",
+  "referencia": "RITE, IT 2.2.5.1 punto 1"
+ },
+ {
+  "pregunta": "¿Qué instrucción técnica regula el ajuste y equilibrado?",
+  "opciones": [
+   "La IT 2.3",
+   "La IT 4.3",
+   "La IT 1.1",
+   "La IT 3.3"
+  ],
+  "correcta": 0,
+  "explicacion": "El ajuste y equilibrado se regula en la IT 2.3.",
+  "referencia": "RITE, IT 2.3"
+ },
+ {
+  "pregunta": "¿Cada cuánto se revisan los calentadores de ACS a gas de hasta 24,4 kW en viviendas?",
+  "opciones": [
+   "Cada 5 años",
+   "Cada mes",
+   "Cada día",
+   "Nunca"
+  ],
+  "correcta": 0,
+  "explicacion": "Se revisan cada 5 años en viviendas, según la tabla 3.1.",
+  "referencia": "RITE, IT 3.3, tabla 3.1"
+ },
+ {
+  "pregunta": "¿Cada cuánto se revisa el aire acondicionado de hasta 12 kW en viviendas?",
+  "opciones": [
+   "Cada 4 años",
+   "Cada 10 días",
+   "Cada 10 años",
+   "Nunca"
+  ],
+  "correcta": 0,
+  "explicacion": "El aire acondicionado de hasta 12 kW se revisa cada 4 años en viviendas.",
+  "referencia": "RITE, IT 3.3, tabla 3.1"
+ },
+ {
+  "pregunta": "¿Cada cuánto se hace la inspección de eficiencia energética de las instalaciones térmicas?",
+  "opciones": [
+   "Cada cuatro años",
+   "Cada día",
+   "Cada mes",
+   "Nunca"
+  ],
+  "correcta": 0,
+  "explicacion": "La inspección de eficiencia energética se hace cada cuatro años.",
+  "referencia": "RITE, IT 4.3.1 y 4.3.2"
+ },
+ {
+  "pregunta": "¿Cada cuánto se hace una inspección completa de la instalación térmica?",
+  "opciones": [
+   "Cada quince años",
+   "Cada año",
+   "Cada semana",
+   "Cada hora"
+  ],
+  "correcta": 0,
+  "explicacion": "La instalación térmica completa se inspecciona cada quince años.",
+  "referencia": "RITE, IT 4.3.3"
+ },
+ {
+  "pregunta": "¿Qué temperatura de cálculo se usa para calefacción?",
+  "opciones": [
+   "21 ºC",
+   "10 ºC",
+   "40 ºC",
+   "0 ºC"
+  ],
+  "correcta": 0,
+  "explicacion": "La temperatura de cálculo para calefacción es de 21 ºC.",
+  "referencia": "RITE, tabla 1.4.1.1"
+ },
+ {
+  "pregunta": "¿Qué reglamento regula las instalaciones térmicas de los edificios?",
+  "opciones": [
+   "RITE, Real Decreto 1027/2007",
+   "RD 842/2002",
+   "RD 346/2011",
+   "RD 314/2006"
+  ],
+  "correcta": 0,
+  "explicacion": "El RITE, aprobado por el RD 1027/2007, regula las instalaciones térmicas.",
+  "referencia": "RD 1027/2007 (RITE)"
+ },
+ {
+  "pregunta": "¿Qué DB del CTE regula la calidad del aire interior?",
+  "opciones": [
+   "DB-HS 4",
+   "DB-HS 3",
+   "DB-HE 2",
+   "DB-SI 3"
+  ],
+  "correcta": 1,
+  "explicacion": "El DB-HS 3 regula la calidad del aire interior y la ventilación.",
+  "referencia": "CTE, DB-HS 3"
+ },
+ {
+  "pregunta": "¿Qué equipo impulsa aire tratado a los locales?",
+  "opciones": [
+   "Contador",
+   "Sifón",
+   "Climatizador",
+   "Acumulador de agua fría"
+  ],
+  "correcta": 2,
+  "explicacion": "El climatizador trata e impulsa aire a los locales.",
+  "referencia": "Tema e10"
+ },
+ {
+  "pregunta": "¿Qué riesgo sanitario se asocia a las torres de refrigeración mal mantenidas?",
+  "opciones": [
+   "Tétanos",
+   "Sarampión",
+   "Gripe aviar",
+   "Legionelosis"
+  ],
+  "correcta": 3,
+  "explicacion": "Las torres de refrigeración pueden favorecer la proliferación de Legionella.",
+  "referencia": "Tema e10"
+ },
+ {
+  "pregunta": "¿Qué elementos conducen el aire en una instalación de ventilación?",
+  "opciones": [
+   "Conductos",
+   "Bajantes",
+   "Canalones",
+   "Llaves de paso"
+  ],
+  "correcta": 0,
+  "explicacion": "Los conductos distribuyen el aire en la ventilación mecánica.",
+  "referencia": "Tema e10"
+ },
+ {
+  "pregunta": "¿Qué equipo transfiere calor del exterior al interior del edificio?",
+  "opciones": [
+   "Caldera de gasoil sin consumo",
+   "Bomba de calor",
+   "Termo eléctrico",
+   "Sumidero"
+  ],
+  "correcta": 1,
+  "explicacion": "La bomba de calor transfiere energía térmica desde el exterior.",
+  "referencia": "Tema e10"
+ },
+ {
+  "pregunta": "¿Qué elemento regula el caudal de aire que pasa por una rejilla?",
+  "opciones": [
+   "Compuerta o regulador",
+   "Sifón",
+   "Llave de paso de agua",
+   "Pararrayos"
+  ],
+  "correcta": 0,
+  "explicacion": "Las compuertas y reguladores regulan el caudal de aire en la ventilación.",
+  "referencia": "Tema e10"
+ },
+ {
+  "pregunta": "¿A partir de qué potencia térmica nominal exige el RITE un proyecto?",
+  "opciones": [
+   "Más de 70 kW",
+   "Más de 5 kW",
+   "Más de 1.000 kW",
+   "Siempre"
+  ],
+  "correcta": 0,
+  "explicacion": "Cuando la potencia térmica nominal en generación de calor o frío sea mayor que 70 kW se requiere proyecto.",
+  "referencia": "RITE, art. 15.1"
+ },
+ {
+  "pregunta": "¿Qué locales de una vivienda deben disponer de aberturas de extracción?",
+  "opciones": [
+   "Dormitorios",
+   "Salones",
+   "Aseos, cocinas y cuartos de baño",
+   "Pasillos"
+  ],
+  "correcta": 2,
+  "explicacion": "Los aseos, las cocinas y los cuartos de baño deben disponer de aberturas de extracción.",
+  "referencia": "CTE, DB-HS 3"
+ },
+ {
+  "pregunta": "¿Qué elementos se emplean como aberturas de admisión en las carpinterías?",
+  "opciones": [
+   "Rejillas de extracción de baño",
+   "Shunts",
+   "Aireadores o dispositivos de microventilación",
+   "Extractores de cocina"
+  ],
+  "correcta": 2,
+  "explicacion": "Como aberturas de admisión se disponen aireadores o aperturas fijas como los dispositivos de microventilación.",
+  "referencia": "CTE, DB-HS 3"
+ },
+ {
+  "pregunta": "¿Quién debe realizar el mantenimiento de las instalaciones térmicas según el RITE?",
+  "opciones": [
+   "El vecino más antiguo",
+   "El ayuntamiento",
+   "Una empresa mantenedora habilitada",
+   "El fabricante obligatoriamente"
+  ],
+  "correcta": 2,
+  "explicacion": "El titular debe encargar el mantenimiento a una empresa mantenedora habilitada.",
+  "referencia": "RITE, art. 25"
+ },
+ {
+  "pregunta": "¿Qué documento entrega la empresa instaladora con las instrucciones de seguridad, manejo y programas de funcionamiento de la instalación térmica?",
+  "opciones": [
+   "El Manual de Uso y Mantenimiento",
+   "El certificado de empadronamiento",
+   "El libro de órdenes de obra",
+   "La licencia de actividad"
+  ],
+  "correcta": 0,
+  "explicacion": "Se elabora un Manual de Uso y Mantenimiento con las instrucciones de seguridad, manejo y maniobra.",
+  "referencia": "RITE"
+ },
+ {
+  "pregunta": "¿Qué acredita a los profesionales para realizar instalaciones térmicas según el RITE?",
+  "opciones": [
+   "El título de bachiller",
+   "El permiso de conducir",
+   "Ninguna acreditación",
+   "El carné profesional en instalaciones térmicas de edificios"
+  ],
+  "correcta": 3,
+  "explicacion": "El RITE regula el carné profesional en instalaciones térmicas de edificios.",
+  "referencia": "RITE, art. 41"
+ },
+ {
+  "pregunta": "¿Qué sistema adicional exige el DB-HS 3 en las cocinas?",
+  "opciones": [
+   "Una chimenea de leña",
+   "Un sistema específico de extracción mecánica para los vapores y contaminantes de la cocción",
+   "Una ventana fija",
+   "Ninguno"
+  ],
+  "correcta": 1,
+  "explicacion": "Las cocinas deben disponer de un sistema adicional específico de ventilación con extracción mecánica.",
+  "referencia": "CTE, DB-HS 3"
+ },
+ {
+  "pregunta": "¿Qué unidad terminal emplea agua fría o caliente con un ventilador para climatizar un local?",
+  "opciones": [
+   "El fan-coil",
+   "El radiador de hierro sin ventilador",
+   "El termo eléctrico",
+   "La bomba de pozo"
+  ],
+  "correcta": 0,
+  "explicacion": "El fan-coil combina batería de agua y ventilador.",
+  "referencia": "Tema e10"
+ },
+ {
+  "pregunta": "¿Qué recupera un recuperador de calor en la ventilación?",
+  "opciones": [
+   "El agua de lluvia",
+   "El calor de la cocina de gas",
+   "Los gases de combustión",
+   "La energía del aire de extracción para tratar el aire exterior"
+  ],
+  "correcta": 3,
+  "explicacion": "El recuperador transfiere energía entre el aire extraído y el aire nuevo.",
+  "referencia": "Tema e10"
+ },
+ {
+  "pregunta": "¿Qué inspecciones periódicas regula el RITE para las instalaciones térmicas?",
+  "opciones": [
+   "Las inspecciones periódicas de eficiencia energética",
+   "Las inspecciones de vehículos",
+   "Las inspecciones de alimentos",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "El RITE regula las inspecciones periódicas de eficiencia energética de las instalaciones térmicas.",
+  "referencia": "RITE, art. 31"
+ }
+]

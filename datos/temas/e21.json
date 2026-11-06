@@ -1,0 +1,180 @@
+{
+  "id": "e21",
+  "resumen": [
+    {
+      "titulo": "Normativa de aplicación",
+      "puntos": [
+        "Tres niveles: el RD 505/2007 y la Orden TMA/851/2021 para el espacio público; el CTE (SUA) y el Decreto 293/2009 para los edificios; y la Ley 4/2017 de derechos y atención a las personas con discapacidad en Andalucía.",
+        "La Ley 4/2017 sustituyó a la Ley 1/1999, que se derogó con efectos de 24 de octubre de 2017 (según la búsqueda)."
+      ]
+    },
+    {
+      "titulo": "Definiciones",
+      "puntos": [
+        "Accesibilidad universal: condición de los entornos, procesos, bienes y servicios para ser comprensibles, utilizables y practicables por todas las personas, con seguridad y comodidad (Ley 4/2017, art. 4, letra j).",
+        "Diseño universal o diseño para todas las personas: concebir o proyectar desde el origen para que cualquier persona pueda utilizarlo sin adaptación (art. 4, letra l). Accesibilidad cognitiva: letra k."
+      ]
+    },
+    {
+      "titulo": "Edificación: Decreto 293/2009",
+      "puntos": [
+        "Usos de concurrencia pública (art. 62). Acceso principal accesible al mismo nivel de la cota exterior siempre que sea posible (art. 64, apartado 1, letra a).",
+        "Círculo libre de 1,20 metros en puertas (art. 65); vestíbulo con circunferencia de 1,50 metros (art. 66, apartado 1); pasillo de 1,20 metros (apartado 2); escalera de 1,20 metros (art. 70, apartado 2, letra a); cabina de ascensor de 1 por 1,25 metros (art. 74, letra a)."
+      ]
+    },
+    {
+      "titulo": "Seguridad de utilización",
+      "puntos": [
+        "La LOE exige que el uso normal del edificio no suponga riesgo de accidente (art. 3, apartado 1, letra b.3). El CTE (art. 12) fija las exigencias SUA 1 a SUA 9.",
+        "Altura libre de paso de 2,20 metros en zonas de circulación y de 2,10 metros en uso restringido (DB-SUA 2, apartado 1.1). Las barreras de protección miden 0,90 o 1,10 metros según la cota (DB-SUA 1, apartado 3.2.1)."
+      ]
+    },
+    {
+      "titulo": "Control y régimen sancionador",
+      "puntos": [
+        "Infracciones leves, graves y muy graves (Ley 4/2017, art. 84, apartado 1). Multas: leves de 301 a 30.000 euros; graves de 30.001 a 90.000; muy graves de 90.001 a 1.000.000 (art. 85, apartado 1).",
+        "Los planes de accesibilidad de la Junta y de los municipios se revisan al menos cada cinco años (art. 53)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LAND-4-2017",
+      "rol": "Derechos de las personas con discapacidad en Andalucía: definiciones de accesibilidad universal y diseño universal (art. 4), planes de accesibilidad (art. 53), infracciones y sanciones (arts. 84 y 85)"
+    },
+    {
+      "id": "DEC-AND-293-2009",
+      "rol": "Normas de accesibilidad en edificios de uso público: usos (art. 62), accesos (art. 64), dimensiones de puertas, vestíbulos, pasillos y escaleras (arts. 65, 66 y 70), ascensores (art. 74)"
+    },
+    {
+      "id": "CTE",
+      "rol": "Exigencias SUA de seguridad de utilización y accesibilidad (art. 12) y seguridad en la LOE (art. 3)"
+    },
+    {
+      "id": "RD-505-2007",
+      "rol": "Condiciones básicas de accesibilidad de los espacios públicos urbanizados (arts. 9 a 16)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según la Ley 4/2017, art. 4, letra j, ¿qué es la accesibilidad universal?",
+      "opciones": [
+        "La condición de los entornos y servicios para ser comprensibles, utilizables y practicables por todas las personas",
+        "La facilidad de acceso solo para los vehículos",
+        "La altura libre de paso de un edificio",
+        "El precio de un billete de transporte"
+      ],
+      "correcta": 0,
+      "explicacion": "La accesibilidad universal es la condición que deben cumplir los entornos, procesos, bienes y servicios para ser comprensibles, utilizables y practicables por todas las personas, en condiciones de seguridad y comodidad (Ley 4/2017, art. 4, letra j).",
+      "referencia": "Ley 4/2017, art. 4, letra j)"
+    },
+    {
+      "pregunta": "Según la Ley 4/2017, art. 4, letra l, ¿qué es el diseño universal o diseño para todas las personas?",
+      "opciones": [
+        "Diseñar solo para las personas con movilidad reducida",
+        "Un tipo de pintura para señalización",
+        "Concebir y proyectar desde el origen los entornos para que puedan ser utilizados por todas las personas, sin adaptación ni diseño especializado",
+        "Adaptar un edificio después de terminada la obra"
+      ],
+      "correcta": 2,
+      "explicacion": "El diseño universal se concibe o proyecta desde el origen, en la mayor medida posible, para que pueda ser utilizado por todas las personas, sin necesidad de adaptación ni diseño especializado (art. 4, letra l).",
+      "referencia": "Ley 4/2017, art. 4, letra l)"
+    },
+    {
+      "pregunta": "Según la Ley 4/2017, art. 53, ¿cada cuánto tiempo deben revisarse y actualizarse los planes de accesibilidad, en su caso?",
+      "opciones": [
+        "Cada diez años",
+        "Nunca",
+        "Cada año",
+        "Cada cinco años"
+      ],
+      "correcta": 3,
+      "explicacion": "Los planes de accesibilidad deben revisarse y actualizarse, en su caso, cada cinco años (art. 53).",
+      "referencia": "Ley 4/2017, art. 53"
+    },
+    {
+      "pregunta": "Según la Ley 4/2017, art. 85, apartado 1, ¿qué multa corresponde a las infracciones muy graves en su grado máximo?",
+      "opciones": [
+        "De 90.001 a 300.000 euros",
+        "De 600.001 a 1.000.000 euros",
+        "De 30.001 a 90.000 euros",
+        "Hasta 30.000 euros"
+      ],
+      "correcta": 1,
+      "explicacion": "Las infracciones muy graves se sancionan, en su grado máximo, con multas de 600.001 a 1.000.000 de euros (art. 85, apartado 1, letra c).",
+      "referencia": "Ley 4/2017, art. 85, apartado 1, letra c)"
+    },
+    {
+      "pregunta": "Según el Decreto 293/2009, art. 65, apartado 1, letra a, ¿qué círculo libre debe existir a ambos lados de las puertas de acceso?",
+      "opciones": [
+        "De 1,20 metros",
+        "De 1,50 metros",
+        "De 2,00 metros",
+        "De 0,90 metros"
+      ],
+      "correcta": 0,
+      "explicacion": "A ambos lados de las puertas debe existir un espacio libre donde pueda inscribirse un círculo de 1,20 metros de diámetro, no barrido por las hojas (art. 65, apartado 1, letra a).",
+      "referencia": "Decreto 293/2009, art. 65, apartado 1, letra a)"
+    },
+    {
+      "pregunta": "Según el Decreto 293/2009, art. 70, apartado 2, letra a, ¿cuál es la anchura libre mínima del tramo de una escalera de comunicación de uso público?",
+      "opciones": [
+        "0,90 metros",
+        "1,00 metros",
+        "1,20 metros",
+        "1,50 metros"
+      ],
+      "correcta": 2,
+      "explicacion": "La anchura libre del tramo de las escaleras de comunicación de uso público es de 1,20 metros como mínimo (art. 70, apartado 2, letra a).",
+      "referencia": "Decreto 293/2009, art. 70, apartado 2, letra a)"
+    },
+    {
+      "pregunta": "Según el CTE, art. 12, apartado 1, ¿qué objetivo tiene la exigencia de seguridad de utilización y accesibilidad?",
+      "opciones": [
+        "Eliminar todo riesgo de caída en la vía pública",
+        "Fijar el color de la fachada",
+        "Limitar el número de ocupantes de cualquier edificio",
+        "Reducir a límites aceptables el riesgo de que los usuarios sufran daños inmediatos en el uso normal del edificio"
+      ],
+      "correcta": 3,
+      "explicacion": "El objetivo de la exigencia SUA es reducir a límites aceptables el riesgo de que los usuarios sufran daños inmediatos en el uso normal del edificio (CTE, art. 12, apartado 1).",
+      "referencia": "CTE, art. 12, apartado 1"
+    },
+    {
+      "pregunta": "Según el DB-SUA 2, apartado 1.1, punto 1, ¿cuál es la altura libre de paso en zonas de circulación?",
+      "opciones": [
+        "2,00 metros",
+        "2,10 metros en uso restringido y 2,20 metros en el resto",
+        "2,50 metros",
+        "3,00 metros"
+      ],
+      "correcta": 1,
+      "explicacion": "La altura libre de paso es de 2,20 metros en zonas de circulación y de 2,10 metros en uso restringido (DB-SUA 2, apartado 1.1, punto 1).",
+      "referencia": "DB-SUA 2, apartado 1.1, punto 1"
+    },
+    {
+      "pregunta": "Según la Ley 4/2017, art. 84, apartado 1, ¿cómo se clasifican las infracciones en materia de accesibilidad universal?",
+      "opciones": [
+        "En menores y mayores",
+        "En leves y graves",
+        "En leves, graves y muy graves",
+        "En veniales y mortales"
+      ],
+      "correcta": 2,
+      "explicacion": "Las infracciones en materia de igualdad de oportunidades, no discriminación y accesibilidad universal se clasifican en leves, graves y muy graves (art. 84, apartado 1).",
+      "referencia": "Ley 4/2017, art. 84, apartado 1"
+    },
+    {
+      "pregunta": "Según la Ley 4/2017, art. 2, apartado 1, ¿a quién se aplica la ley?",
+      "opciones": [
+        "A las personas con discapacidad con vecindad administrativa en Andalucía",
+        "Solo a los trabajadores de la Junta",
+        "Solo a los menores de edad",
+        "A todas las personas que viven en España, sin excepción"
+      ],
+      "correcta": 0,
+      "explicacion": "La ley se aplica a las personas con discapacidad con vecindad administrativa en Andalucía (art. 2, apartado 1).",
+      "referencia": "Ley 4/2017, art. 2, apartado 1"
+    }
+  ]
+}

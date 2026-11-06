@@ -1,0 +1,191 @@
+{
+  "id": "c26",
+  "resumen": [
+    {
+      "titulo": "Fundamento constitucional y europeo",
+      "puntos": [
+        "El artículo 18.1 CE garantiza el honor, la intimidad y la propia imagen. El artículo 18.4 CE manda limitar el uso de la informática para protegerlos (CE 18).",
+        "El artículo 16.1 TFUE reconoce a toda persona el derecho a la protección de sus datos personales, y el 16.2 TFUE encarga a la Unión establecer las normas, con control de autoridades independientes."
+      ]
+    },
+    {
+      "titulo": "Normativa nacional y ámbito",
+      "puntos": [
+        "La LOPDGDD adapta el ordenamiento español al Reglamento (UE) 2016/679 (art. 1.a LOPDGDD). Se aplica a los tratamientos automatizados y a los no automatizados contenidos en un fichero (art. 2.1 LOPDGDD).",
+        "El Reglamento europeo no está en el repositorio: sus principios y derechos se enuncian aquí solo en lo que la ley nacional remite."
+      ]
+    },
+    {
+      "titulo": "Principios y consentimiento",
+      "puntos": [
+        "El deber de confidencialidad subsiste aunque la relación termine (art. 5 LOPDGDD). El consentimiento debe ser libre, específico, informado e inequívoco (art. 6.1 LOPDGDD).",
+        "El solo consentimiento no basta para levantar la prohibición de tratar datos que revelen ideología, afiliación, religión, orientación sexual, creencias u origen racial o étnico cuando esa es la finalidad principal (art. 9.1 LOPDGDD)."
+      ]
+    },
+    {
+      "titulo": "Base del tratamiento en la Administración",
+      "puntos": [
+        "El tratamiento fundado en una obligación legal solo es válido si lo prevé una norma de Derecho de la Unión o una norma con rango de ley (art. 8.1 LOPDGDD).",
+        "La LRJSP exige que la cesión de datos entre Administraciones especifique condiciones, protocolos y criterios técnicos (art. 155.1 LRJSP)."
+      ]
+    },
+    {
+      "titulo": "Derechos de la persona",
+      "puntos": [
+        "Los derechos pueden ejercerse directamente o por representante (art. 12.1 LOPDGDD). El derecho de acceso se entiende cumplido con un acceso remoto, directo y seguro (art. 13.2 LOPDGDD).",
+        "La supresión de datos tras una oposición a la mercadotecnia conserva solo los datos identificativos mínimos (art. 15.2 LOPDGDD)."
+      ]
+    },
+    {
+      "titulo": "Responsables, delegado y Administración",
+      "puntos": [
+        "El responsable y el encargado aplican medidas técnicas y organizativas apropiadas y valoran la evaluación de impacto (art. 28.1 LOPDGDD). El delegado de protección de datos se designa en los supuestos previstos (art. 34 LOPDGDD).",
+        "El registro electrónico debe cumplir las garantías de protección de datos (art. 16.1 LPAC), y la LAJA exige respetar la normativa de protección de datos en las relaciones electrónicas (art. 7.3 LAJA)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LOPDGDD",
+      "rol": "Norma principal del tema (arts. 1, 2, 4 a 9, 12 a 15, 28, 31, 34, 35, 95 a 97)"
+    },
+    {
+      "id": "CE",
+      "rol": "Fundamento constitucional (art. 18.1 y 18.4)"
+    },
+    {
+      "id": "TUE-TFUE",
+      "rol": "Fundamento europeo (art. 16 TFUE)"
+    },
+    {
+      "id": "LRJSP",
+      "rol": "Cesión de datos entre Administraciones (art. 155)"
+    },
+    {
+      "id": "LPAC",
+      "rol": "Registros electrónicos y protección de datos (art. 16.1)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el art. 18.4 CE, ¿qué debe hacer la ley respecto al uso de la informática?",
+      "opciones": [
+        "Limitarlo para garantizar el honor y la intimidad personal y familiar",
+        "Prohibirlo totalmente",
+        "Nada: no hay mandato",
+        "Fomentarlo sin límites"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 18.4 CE manda a la ley limitar el uso de la informática para garantizar el honor y la intimidad de los ciudadanos.",
+      "referencia": "Art. 18.4 CE"
+    },
+    {
+      "pregunta": "Según el art. 16.1 TFUE, ¿qué derecho reconoce?",
+      "opciones": [
+        "El derecho a no tener datos",
+        "Ningún derecho",
+        "El derecho a la protección de los datos de carácter personal",
+        "El derecho a la propiedad de los datos públicos"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 16.1 TFUE reconoce que toda persona tiene derecho a la protección de los datos de carácter personal que le conciernan.",
+      "referencia": "Art. 16.1 TFUE"
+    },
+    {
+      "pregunta": "Según el art. 1.a LOPDGDD, ¿qué objeto tiene la ley?",
+      "opciones": [
+        "Regular la fiscalidad",
+        "Sustituir la LPAC",
+        "Derogar el reglamento europeo",
+        "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679"
+      ],
+      "correcta": 3,
+      "explicacion": "La LOPDGDD tiene por objeto adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679.",
+      "referencia": "Art. 1.a LOPDGDD"
+    },
+    {
+      "pregunta": "Según el art. 2.1 LOPDGDD, ¿qué tratamientos alcanza la ley?",
+      "opciones": [
+        "Solo los automatizados",
+        "Los automatizados y los no automatizados contenidos o destinados a un fichero",
+        "Solo los realizados por entidades privadas",
+        "Ninguno"
+      ],
+      "correcta": 1,
+      "explicacion": "La ley se aplica a los tratamientos automatizados y no automatizados contenidos o destinados a un fichero.",
+      "referencia": "Art. 2.1 LOPDGDD"
+    },
+    {
+      "pregunta": "Según el art. 6.1 LOPDGDD, ¿cómo debe ser el consentimiento del afectado?",
+      "opciones": [
+        "Libre, específico, informado e inequívoco",
+        "Verbal y sin plazo",
+        "Otorgado solo por el responsable",
+        "Tácito y sin información"
+      ],
+      "correcta": 0,
+      "explicacion": "El consentimiento es toda manifestación de voluntad libre, específica, informada e inequívoca.",
+      "referencia": "Art. 6.1 LOPDGDD"
+    },
+    {
+      "pregunta": "Según el art. 8.1 LOPDGDD, ¿en qué norma debe apoyarse el tratamiento fundado en una obligación legal?",
+      "opciones": [
+        "En ninguna norma",
+        "En un contrato privado",
+        "En una norma de Derecho de la Unión o con rango de ley que lo prevea",
+        "En la decisión del funcionario"
+      ],
+      "correcta": 2,
+      "explicacion": "El tratamiento fundado en una obligación legal solo puede considerarse así cuando lo prevé una norma de Derecho de la Unión o con rango de ley.",
+      "referencia": "Art. 8.1 LOPDGDD"
+    },
+    {
+      "pregunta": "Según el art. 9.1 LOPDGDD, ¿basta el solo consentimiento para tratar datos cuya finalidad principal sea identificar la ideología de una persona?",
+      "opciones": [
+        "Sí, si lo pide el responsable",
+        "No hay prohibición",
+        "Sí, siempre",
+        "No, el solo consentimiento no basta para levantar la prohibición"
+      ],
+      "correcta": 3,
+      "explicacion": "El solo consentimiento no basta para levantar la prohibición cuando la finalidad principal es identificar la ideología, la afiliación, la religión u otras características del artículo 9.1.",
+      "referencia": "Art. 9.1 LOPDGDD"
+    },
+    {
+      "pregunta": "Según el art. 13.2 LOPDGDD, ¿cuándo se entiende otorgado el derecho de acceso?",
+      "opciones": [
+        "Cuando se responde por correo postal en cualquier caso",
+        "Cuando se facilita un sistema de acceso remoto, directo y seguro a la totalidad de los datos",
+        "Nunca",
+        "Solo con una sentencia"
+      ],
+      "correcta": 1,
+      "explicacion": "El derecho de acceso se entiende otorgado si el responsable facilita un sistema de acceso remoto, directo y seguro que garantice el acceso permanente a la totalidad de los datos.",
+      "referencia": "Art. 13.2 LOPDGDD"
+    },
+    {
+      "pregunta": "Según el art. 155.1 LRJSP, ¿qué exige la cesión de datos entre Administraciones?",
+      "opciones": [
+        "Autorización de la Cámara de Cuentas",
+        "Nada, se cede sin condiciones",
+        "Condiciones, protocolos y criterios técnicos especificados, con respeto a la protección de datos",
+        "Solo la firma de un notario"
+      ],
+      "correcta": 2,
+      "explicacion": "Cada Administración debe facilitar el acceso a los datos de los interesados especificando condiciones, protocolos y criterios técnicos, respetando la protección de datos.",
+      "referencia": "Art. 155.1 LRJSP"
+    },
+    {
+      "pregunta": "Según el art. 16.1 LPAC, ¿qué deben cumplir los registros electrónicos?",
+      "opciones": [
+        "Las garantías y medidas de seguridad de la legislación de protección de datos",
+        "Solo ser gratuitos",
+        "Solo estar en papel",
+        "Ninguna garantía"
+      ],
+      "correcta": 0,
+      "explicacion": "Los registros electrónicos cumplirán con las garantías y medidas de seguridad previstas en la legislación de protección de datos de carácter personal.",
+      "referencia": "Art. 16.1 LPAC"
+    }
+  ]
+}

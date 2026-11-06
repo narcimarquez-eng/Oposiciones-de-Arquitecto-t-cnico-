@@ -1,0 +1,494 @@
+[
+ {
+  "pregunta": "¿Qué captura, almacena, consulta, analiza y representa un SIG?",
+  "opciones": [
+   "Datos con referencia espacial",
+   "Solo textos",
+   "Solo música",
+   "Solo fotos de vacaciones"
+  ],
+  "correcta": 0,
+  "explicacion": "Un SIG trabaja con datos con referencia espacial.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Cuáles son los componentes de un SIG?",
+  "opciones": [
+   "Equipamiento físico, software, datos, personas y procedimientos",
+   "Solo el ordenador",
+   "Solo el papel",
+   "Solo la impresora"
+  ],
+  "correcta": 0,
+  "explicacion": "Un SIG tiene equipamiento, software, datos, personas y procedimientos.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿De qué depende sobre todo la calidad de un SIG?",
+  "opciones": [
+   "De los datos y de los procedimientos de captura, control y actualización",
+   "Del color de la pantalla",
+   "Del nombre del programa",
+   "De la suerte"
+  ],
+  "correcta": 0,
+  "explicacion": "La calidad depende sobre todo de los datos y de los procedimientos.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué modelo de datos usa puntos, líneas y polígonos con atributos?",
+  "opciones": [
+   "El modelo vectorial",
+   "El modelo ráster",
+   "El modelo musical",
+   "El modelo de tarta"
+  ],
+  "correcta": 0,
+  "explicacion": "El modelo vectorial usa puntos, líneas y polígonos con atributos.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué modelo de datos usa una malla de celdas con un valor?",
+  "opciones": [
+   "El modelo ráster",
+   "El modelo vectorial",
+   "El modelo de carpeta",
+   "El modelo de tabla"
+  ],
+  "correcta": 0,
+  "explicacion": "El modelo ráster es una malla de celdas con un valor.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué necesitan los datos geográficos para ubicarse?",
+  "opciones": [
+   "Un sistema de referencia (datum y proyección)",
+   "Un nombre de persona",
+   "Un color",
+   "Un número de teléfono"
+  ],
+  "correcta": 0,
+  "explicacion": "Los datos necesitan un sistema de referencia, con datum y proyección.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué son los atributos en un SIG?",
+  "opciones": [
+   "Los datos no geométricos asociados a cada objeto",
+   "Los colores del mapa",
+   "La escala del papel",
+   "El tiempo de carga"
+  ],
+  "correcta": 0,
+  "explicacion": "Los atributos son los datos no geométricos asociados a cada objeto.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué fase de un SIG va después de la captura y carga de datos?",
+  "opciones": [
+   "El control de calidad",
+   "La pintura",
+   "El descanso",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "Tras la captura y la carga viene el control de calidad.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué aspectos se controlan en la calidad de los datos de un SIG?",
+  "opciones": [
+   "Precisión posicional, completitud, coherencia topológica y actualidad",
+   "Solo el peso",
+   "Solo la fecha de compra",
+   "Solo el color"
+  ],
+  "correcta": 0,
+  "explicacion": "El control de calidad revisa la precisión, la completitud, la coherencia topológica y la actualidad.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué documentación es obligatoria para los datos de los anexos de la Ley 14/2010?",
+  "opciones": [
+   "Los metadatos",
+   "Un cuento",
+   "Un poema",
+   "Nada"
+  ],
+  "correcta": 0,
+  "explicacion": "La documentación con metadatos es obligatoria para esos datos.",
+  "referencia": "Ley 14/2010, art. 9.1"
+ },
+ {
+  "pregunta": "¿Qué operación básica de un SIG consiste en crear una zona alrededor de un objeto?",
+  "opciones": [
+   "La zona de influencia (buffer)",
+   "La pintura",
+   "El plegado",
+   "La cocción"
+  ],
+  "correcta": 0,
+  "explicacion": "La zona de influencia (buffer) crea una zona alrededor de un objeto.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué operación de SIG permite combinar capas superpuestas?",
+  "opciones": [
+   "La superposición de capas",
+   "La cocción",
+   "La tintura",
+   "La carpintería"
+  ],
+  "correcta": 0,
+  "explicacion": "La superposición de capas combina capas.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué aplicación del SIG se relaciona con los mapas de ruido?",
+  "opciones": [
+   "Los mapas de ruido de la Ley 37/2003",
+   "La pesca",
+   "La caza",
+   "La cocina"
+  ],
+  "correcta": 0,
+  "explicacion": "Los mapas de ruido se regulan en la Ley 37/2003.",
+  "referencia": "Ley 37/2003, arts. 14 a 16"
+ },
+ {
+  "pregunta": "¿Qué es una Infraestructura de Datos Espaciales (IDE)?",
+  "opciones": [
+   "Una estructura virtual en red de datos georreferenciados y servicios interoperables",
+   "Un edificio de oficinas",
+   "Un tipo de carretera",
+   "Un tren"
+  ],
+  "correcta": 0,
+  "explicacion": "La IDE es una estructura virtual en red de datos georreferenciados y servicios interoperables.",
+  "referencia": "Ley 14/2010, art. 3.1 a)"
+ },
+ {
+  "pregunta": "¿Dónde se ponen a disposición los datos de la Infraestructura de Información Geográfica?",
+  "opciones": [
+   "En el Geoportal",
+   "En el tablón de la plaza",
+   "En la radio",
+   "En ningún sitio"
+  ],
+  "correcta": 0,
+  "explicacion": "Los datos se ponen a disposición a través del Geoportal.",
+  "referencia": "Ley 14/2010, art. 5.1"
+ },
+ {
+  "pregunta": "¿Qué son los datos geográficos según la Ley 14/2010?",
+  "opciones": [
+   "Cualesquiera datos que hagan referencia a una localización",
+   "Solo los datos de música",
+   "Solo los datos de tiempo",
+   "Solo los datos de bolsa"
+  ],
+  "correcta": 0,
+  "explicacion": "Son datos que hacen referencia, directa o indirecta, a una localización.",
+  "referencia": "Ley 14/2010, art. 3.1 b)"
+ },
+ {
+  "pregunta": "¿Qué son los metadatos según la Ley 14/2010?",
+  "opciones": [
+   "Información que describe conjuntos de datos y servicios y permite localizarlos",
+   "Un tipo de ladrillo",
+   "Un plato de comida",
+   "Un coche"
+  ],
+  "correcta": 0,
+  "explicacion": "Los metadatos describen conjuntos de datos y servicios y permiten localizarlos.",
+  "referencia": "Ley 14/2010, art. 3.1 f)"
+ },
+ {
+  "pregunta": "¿Qué es la interoperabilidad según la Ley 14/2010?",
+  "opciones": [
+   "La capacidad de combinar conjuntos de datos sin intervención manual repetitiva",
+   "La capacidad de cocinar",
+   "La capacidad de nadar",
+   "La capacidad de volar"
+  ],
+  "correcta": 0,
+  "explicacion": "La interoperabilidad permite combinar conjuntos de datos sin intervención manual repetitiva.",
+  "referencia": "Ley 14/2010, art. 3.1 g)"
+ },
+ {
+  "pregunta": "¿Qué coordina el Sistema Cartográfico Nacional?",
+  "opciones": [
+   "Los operadores públicos con competencias concurrentes",
+   "Las bodas",
+   "Las fiestas",
+   "Los bares"
+  ],
+  "correcta": 0,
+  "explicacion": "El Sistema Cartográfico Nacional coordina a los operadores públicos con competencias concurrentes.",
+  "referencia": "Ley 14/2010, art. 17.1"
+ },
+ {
+  "pregunta": "¿Qué abarca la Infraestructura de Información Geográfica de España?",
+  "opciones": [
+   "El territorio nacional, el mar territorial, la zona contigua y la zona económica exclusiva",
+   "Solo un solar",
+   "Solo una plaza",
+   "Solo un parque"
+  ],
+  "correcta": 0,
+  "explicacion": "Abarca el territorio, el mar territorial, la zona contigua, la plataforma y la zona económica exclusiva.",
+  "referencia": "Ley 14/2010, art. 1.2"
+ },
+ {
+  "pregunta": "¿Qué son los mapas de ruido según la Ley 37/2003?",
+  "opciones": [
+   "La base para planificar medidas correctoras y zonas de servidumbre acústica",
+   "Mapas del tesoro",
+   "Mapas de carreteras de montaña",
+   "Mapas de cine"
+  ],
+  "correcta": 0,
+  "explicacion": "Los mapas de ruido son la base para planificar las medidas correctoras y las zonas de servidumbre acústica.",
+  "referencia": "Ley 37/2003, art. 10"
+ },
+ {
+  "pregunta": "¿Qué normas regulan la identificación de los mapas de ruido?",
+  "opciones": [
+   "Los arts. 14 a 16 de la Ley 37/2003",
+   "Los arts. 1 a 3 de la Ley de Caza",
+   "Los arts. 1 a 3 de la Ley de Pesca",
+   "Ninguno"
+  ],
+  "correcta": 0,
+  "explicacion": "Los arts. 14 a 16 de la Ley 37/2003 regulan los mapas de ruido.",
+  "referencia": "Ley 37/2003, arts. 14 a 16"
+ },
+ {
+  "pregunta": "¿Qué fase de un SIG consiste en el análisis de necesidades?",
+  "opciones": [
+   "La primera fase",
+   "La última fase",
+   "No tiene fase",
+   "La fase de la comida"
+  ],
+  "correcta": 0,
+  "explicacion": "El análisis de necesidades es la primera fase.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué componentes integran un SIG?",
+  "opciones": [
+   "Hardware, software, datos, personas y procedimientos",
+   "Solo el ordenador",
+   "Solo el papel",
+   "Solo la impresora"
+  ],
+  "correcta": 0,
+  "explicacion": "Un SIG se compone de hardware, software, datos, personas y procedimientos.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué modelo de datos representa el espacio como una malla de celdas?",
+  "opciones": [
+   "Modelo vectorial",
+   "Modelo ráster",
+   "Modelo de texto plano",
+   "Modelo tabular sin geometría"
+  ],
+  "correcta": 1,
+  "explicacion": "El modelo ráster divide el espacio en celdas regulares.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué elementos básicos forman el modelo vectorial?",
+  "opciones": [
+   "Píxeles",
+   "Celdas",
+   "Puntos, líneas y polígonos",
+   "Bytes"
+  ],
+  "correcta": 2,
+  "explicacion": "El modelo vectorial utiliza puntos, líneas y polígonos.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué sistema de referencia geodésico oficial se adopta en Europa y en España?",
+  "opciones": [
+   "WGS84 sin ajuste",
+   "ED50 exclusivamente",
+   "Mercator simple",
+   "ETRS89"
+  ],
+  "correcta": 3,
+  "explicacion": "El ETRS89 es el sistema de referencia oficial europeo adoptado en España.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué proyección cartográfica se usa habitualmente en España?",
+  "opciones": [
+   "UTM",
+   "Proyección cónica de Lambert sin uso",
+   "Proyección cilíndrica sin escala",
+   "Ninguna"
+  ],
+  "correcta": 0,
+  "explicacion": "La proyección UTM es la más empleada en la cartografía oficial española.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué software SIG libre es muy utilizado?",
+  "opciones": [
+   "AutoCAD",
+   "QGIS",
+   "Excel",
+   "Photoshop"
+  ],
+  "correcta": 1,
+  "explicacion": "QGIS es un SIG de código abierto muy extendido.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué es un datum en cartografía?",
+  "opciones": [
+   "Sistema de referencia geodésico",
+   "Un tipo de archivo de imagen",
+   "Una escala de dibujo",
+   "Un color de capa"
+  ],
+  "correcta": 0,
+  "explicacion": "El datum define el sistema de referencia geodésico que sitúa la cartografía.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Cómo se denomina la infraestructura europea de información geográfica?",
+  "opciones": [
+   "GALILEO",
+   "COPERNICUS",
+   "SEPA",
+   "INSPIRE"
+  ],
+  "correcta": 3,
+  "explicacion": "La Directiva INSPIRE establece la infraestructura de información espacial en la Unión Europea.",
+  "referencia": "Ley 14/2010, preámbulo"
+ },
+ {
+  "pregunta": "¿Qué órgano regula la Ley 14/2010 en materia de información geográfica y cartografía oficial?",
+  "opciones": [
+   "El Consejo Superior Geográfico",
+   "El Consejo de Estado",
+   "El Consejo Económico y Social",
+   "El Instituto Nacional de Estadística"
+  ],
+  "correcta": 0,
+  "explicacion": "La Ley 14/2010 regula el Consejo Superior Geográfico.",
+  "referencia": "Ley 14/2010, art. 19"
+ },
+ {
+  "pregunta": "¿Qué infraestructura nacional regula la Ley 14/2010?",
+  "opciones": [
+   "La Red de Carreteras del Estado",
+   "La Red Eléctrica de España",
+   "La Infraestructura de Información Geográfica de España",
+   "El Catastro de Rústica"
+  ],
+  "correcta": 2,
+  "explicacion": "La Ley 14/2010 regula las infraestructuras y servicios de información geográfica en España, entre ellas la IIGE.",
+  "referencia": "Ley 14/2010"
+ },
+ {
+  "pregunta": "¿Qué operación SIG combina dos o más capas para obtener nueva información?",
+  "opciones": [
+   "La impresión",
+   "La compresión",
+   "La superposición (overlay)",
+   "El cifrado"
+  ],
+  "correcta": 2,
+  "explicacion": "La superposición cruza capas para generar una nueva con atributos combinados.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué operación SIG genera un área a una distancia determinada de un elemento?",
+  "opciones": [
+   "El área de influencia (buffer)",
+   "La georreferenciación",
+   "La digitalización",
+   "La vectorización"
+  ],
+  "correcta": 0,
+  "explicacion": "El buffer delimita la zona a una distancia dada de puntos, líneas o polígonos.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué es la georreferenciación?",
+  "opciones": [
+   "Asignar coordenadas de un sistema de referencia a datos o imágenes",
+   "Imprimir un mapa",
+   "Borrar capas",
+   "Colorear polígonos"
+  ],
+  "correcta": 0,
+  "explicacion": "Georreferenciar es situar los datos en un sistema de coordenadas conocido.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué formato vectorial de ESRI es muy usado en los SIG?",
+  "opciones": [
+   "El shapefile",
+   "El JPEG",
+   "El MP3",
+   "El DOCX"
+  ],
+  "correcta": 0,
+  "explicacion": "El shapefile almacena geometrías vectoriales y sus atributos.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué representa un Modelo Digital del Terreno (MDT)?",
+  "opciones": [
+   "La altitud del terreno en formato digital",
+   "La red de carreteras",
+   "Los límites municipales",
+   "La población"
+  ],
+  "correcta": 0,
+  "explicacion": "El MDT representa digitalmente la elevación del terreno.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué servicio web estándar del OGC sirve mapas como imágenes?",
+  "opciones": [
+   "WMS",
+   "WFS",
+   "FTP",
+   "SMTP"
+  ],
+  "correcta": 0,
+  "explicacion": "El Web Map Service sirve mapas en formato imagen.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué servicio web estándar del OGC sirve entidades vectoriales con sus atributos?",
+  "opciones": [
+   "WMS",
+   "HTTP simple",
+   "POP3",
+   "WFS"
+  ],
+  "correcta": 3,
+  "explicacion": "El Web Feature Service sirve entidades vectoriales.",
+  "referencia": "Tema e40"
+ },
+ {
+  "pregunta": "¿Qué organismo produce la cartografía y estadística oficial de la Junta de Andalucía?",
+  "opciones": [
+   "El Instituto Geográfico Nacional exclusivamente",
+   "El INE",
+   "El Instituto de Estadística y Cartografía de Andalucía (IECA)",
+   "El Catastro"
+  ],
+  "correcta": 2,
+  "explicacion": "El IECA es el organismo de estadística y cartografía de la Junta de Andalucía.",
+  "referencia": "Tema e40"
+ }
+]

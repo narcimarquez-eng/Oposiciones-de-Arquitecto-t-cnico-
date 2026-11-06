@@ -1,0 +1,188 @@
+{
+  "id": "e38",
+  "resumen": [
+    {
+      "titulo": "Normativa reguladora",
+      "puntos": [
+        "Justiprecio: Ley de Expropiación Forzosa de 1954 (LEF, arts. 36 y siguientes). Suelo y edificación: TRLS, RDL 7/2015 (art. 35). Valor catastral: RDL 1/2004 (arts. 22 a 25). Métodos de valoración de inmuebles para entidades de crédito: Orden ECO/805/2003.",
+        "Normas técnicas de valoración catastral de bienes urbanos: RD 1020/1993; de bienes de características especiales: RD 1464/2007."
+      ]
+    },
+    {
+      "titulo": "Significados del valor",
+      "puntos": [
+        "Valor catastral: determinado objetivamente a partir de los datos del Catastro, formado por el del suelo y el de las construcciones (Ley del Catastro, art. 22).",
+        "Valor de mercado: precio más probable de venta entre partes independientes, libre de cargas (art. 23, apartado 2). El valor catastral no puede superarlo."
+      ]
+    },
+    {
+      "titulo": "El justiprecio",
+      "puntos": [
+        "Las tasaciones se hacen con el valor de los bienes al tiempo de iniciarse el expediente de justiprecio, sin plusvalías derivadas del proyecto expropiante (LEF, art. 36, apartado 1).",
+        "Las mejoras posteriores a la incoación no se indemnizan, salvo que se demuestre que eran necesarias (art. 36, apartado 2)."
+      ]
+    },
+    {
+      "titulo": "Suelo y edificaciones",
+      "puntos": [
+        "El valor del suelo corresponde a su pleno dominio, libre de cargas y gravámenes, y se tasa según su situación (TRLS, art. 35, apartados 1 y 2).",
+        "Las construcciones del suelo rural se tasan con independencia del terreno si son legales, compatibles con el uso y no se han tenido en cuenta en la valoración del suelo (art. 35, apartado 3)."
+      ]
+    },
+    {
+      "titulo": "Depreciación y métodos",
+      "puntos": [
+        "Depreciación física: pérdida por antigüedad, estado de conservación y duración de los componentes. Depreciación funcional: pérdida por defectuosa adaptación a la función (Orden ECO/805/2003, art. 4).",
+        "Valor de reemplazamiento neto: bruto menos depreciación física y funcional (art. 19, apartado 1). Amortización lineal con vida útil máxima de 100 años para uso residencial, 75 para oficinas, 50 para comercial y 35 para industrial (art. 19, apartado 2, letra b).",
+        "Métodos: coste, comparación, actualización de rentas y residual (art. 15, apartado 1)."
+      ]
+    },
+    {
+      "titulo": "Valor catastral: ponencias y límites",
+      "puntos": [
+        "La determinación del valor catastral se hace, con carácter general, aplicando la ponencia de valores vigente (Ley del Catastro, art. 24, apartado 1).",
+        "Criterios: localización, coste de ejecución material, gastos y beneficios de la promoción y circunstancias del mercado (art. 23, apartado 1). Límite: no puede superar el valor de mercado (apartado 2)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LEF",
+      "rol": "Justiprecio: valor a la fecha de iniciación del expediente y mejoras posteriores (art. 36)"
+    },
+    {
+      "id": "TRLS-7-2015",
+      "rol": "Criterios generales de valoración del suelo y de las edificaciones (art. 35)"
+    },
+    {
+      "id": "TRLCAT-1-2004",
+      "rol": "Valor catastral: concepto, criterios, límite frente al valor de mercado y ponencias (arts. 22 a 25)"
+    },
+    {
+      "id": "ECO-805-2003",
+      "rol": "Métodos técnicos de valoración, depreciación física y funcional, vida útil máxima y valor de reemplazamiento (arts. 4, 15, 17, 19 y 20)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según la LEF, art. 36, apartado 1, ¿con referencia a qué momento se tasan los bienes expropiables?",
+      "opciones": [
+        "Al tiempo de iniciarse el expediente de justiprecio",
+        "Al tiempo de la publicación del BOE",
+        "Al tiempo de la sentencia del Tribunal Supremo",
+        "Al tiempo de la toma de posesión, siempre"
+      ],
+      "correcta": 0,
+      "explicacion": "Las tasaciones se efectúan con arreglo al valor que tengan los bienes expropiables al tiempo de iniciarse el expediente de justiprecio, sin tener en cuenta las plusvalías que sean consecuencia directa del proyecto (LEF, art. 36, apartado 1).",
+      "referencia": "LEF, art. 36, apartado 1"
+    },
+    {
+      "pregunta": "Según la LEF, art. 36, apartado 2, ¿se indemnizan las mejoras realizadas después de la incoación del expediente?",
+      "opciones": [
+        "Solo si el propietario no lo ha pedido",
+        "Siempre, sin excepción",
+        "No, salvo que se demuestre que eran necesarias",
+        "Sí, con el doble de su valor"
+      ],
+      "correcta": 2,
+      "explicacion": "Las mejoras posteriores a la incoación no son objeto de indemnización, a no ser que se demuestre que eran necesarias (LEF, art. 36, apartado 2).",
+      "referencia": "LEF, art. 36, apartado 2"
+    },
+    {
+      "pregunta": "Según el TRLS, art. 35, apartado 1, ¿a qué corresponde el valor del suelo?",
+      "opciones": [
+        "Al precio pagado en la última compraventa",
+        "Al coste de la licencia municipal",
+        "Solo al valor de los materiales de la construcción",
+        "A su pleno dominio, libre de toda carga, gravamen o derecho limitativo"
+      ],
+      "correcta": 3,
+      "explicacion": "El valor del suelo corresponde a su pleno dominio, libre de toda carga, gravamen o derecho limitativo de la propiedad (TRLS, art. 35, apartado 1).",
+      "referencia": "TRLS, art. 35, apartado 1"
+    },
+    {
+      "pregunta": "Según la Ley del Catastro, art. 22, ¿de qué se compone el valor catastral de un bien inmueble?",
+      "opciones": [
+        "Solo del valor de las construcciones",
+        "Del valor catastral del suelo y del valor catastral de las construcciones",
+        "Del precio de compra más los impuestos",
+        "Solo del valor del suelo"
+      ],
+      "correcta": 1,
+      "explicacion": "El valor catastral está integrado por el valor catastral del suelo y el valor catastral de las construcciones (Ley del Catastro, art. 22).",
+      "referencia": "RDL 1/2004, art. 22"
+    },
+    {
+      "pregunta": "Según la Ley del Catastro, art. 23, apartado 2, ¿con qué límite se relaciona el valor catastral?",
+      "opciones": [
+        "Con el valor de mercado, que no puede superarse",
+        "Con el número de plantas del edificio",
+        "Con la superficie del solar en metros cuadrados",
+        "No tiene ningún límite"
+      ],
+      "correcta": 0,
+      "explicacion": "El valor catastral de los inmuebles no puede superar el valor de mercado, entendido como el precio más probable de venta entre partes independientes (art. 23, apartado 2).",
+      "referencia": "RDL 1/2004, art. 23, apartado 2"
+    },
+    {
+      "pregunta": "Según la Orden ECO/805/2003, art. 15, apartado 1, ¿cuál de los siguientes NO es un método técnico de valoración?",
+      "opciones": [
+        "El método de comparación",
+        "El método de actualización de rentas",
+        "El método del precio fijo administrativo",
+        "El método del coste"
+      ],
+      "correcta": 2,
+      "explicacion": "Los métodos técnicos de valoración son el del coste, el de comparación, el de actualización de rentas y el residual (art. 15, apartado 1).",
+      "referencia": "Orden ECO/805/2003, art. 15, apartado 1"
+    },
+    {
+      "pregunta": "Según la Orden ECO/805/2003, art. 19, apartado 2, letra b, ¿cuál es la vida útil total máxima para un edificio de uso residencial en el cálculo por amortización lineal?",
+      "opciones": [
+        "35 años",
+        "50 años",
+        "75 años",
+        "100 años"
+      ],
+      "correcta": 3,
+      "explicacion": "Para edificios de uso residencial, la vida útil total máxima en la amortización lineal es de 100 años; para oficinas, 75; para comerciales, 50; y para industriales, 35 (art. 19, apartado 2, letra b).",
+      "referencia": "Orden ECO/805/2003, art. 19, apartado 2, letra b)"
+    },
+    {
+      "pregunta": "Según la Orden ECO/805/2003, art. 19, apartado 1, ¿cómo se obtiene el valor de reemplazamiento neto?",
+      "opciones": [
+        "Sumando la depreciación al valor de reemplazamiento bruto",
+        "Restando al valor de reemplazamiento bruto la depreciación física y funcional",
+        "Multiplicando el valor del suelo por dos",
+        "Dividiendo el valor de mercado entre la superficie"
+      ],
+      "correcta": 1,
+      "explicacion": "Para calcular el valor de reemplazamiento neto se resta del valor de reemplazamiento bruto la depreciación física y funcional del edificio terminado (art. 19, apartado 1).",
+      "referencia": "Orden ECO/805/2003, art. 19, apartado 1"
+    },
+    {
+      "pregunta": "Según la Ley del Catastro, art. 24, apartado 1, ¿cómo se determina con carácter general el valor catastral?",
+      "opciones": [
+        "Mediante el precio pagado en la última escritura",
+        "Mediante la tasación de un notario",
+        "Mediante la aplicación de la correspondiente ponencia de valores",
+        "Mediante la declaración libre del propietario"
+      ],
+      "correcta": 2,
+      "explicacion": "Salvo en los supuestos previstos en el artículo 30, apartado 2, la determinación del valor catastral se efectúa mediante la aplicación de la correspondiente ponencia de valores (art. 24, apartado 1).",
+      "referencia": "RDL 1/2004, art. 24, apartado 1"
+    },
+    {
+      "pregunta": "Según la Orden ECO/805/2003, art. 4, ¿qué es la depreciación física de un bien?",
+      "opciones": [
+        "La pérdida que experimenta el valor de reemplazamiento bruto en función de su antigüedad, estado de conservación y duración de sus componentes",
+        "El coste de la licencia de obras",
+        "El beneficio del promotor",
+        "La subida del valor del terreno por la cercanía de servicios"
+      ],
+      "correcta": 0,
+      "explicacion": "La depreciación física es la pérdida que experimenta el valor de reemplazamiento bruto de un bien en función de su antigüedad, de su estado de conservación y de la duración de sus componentes (Orden ECO/805/2003, art. 4, definiciones).",
+      "referencia": "Orden ECO/805/2003, art. 4"
+    }
+  ]
+}
