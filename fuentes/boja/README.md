@@ -72,8 +72,16 @@ Las normas solo publicadas en el BOJA (decretos y órdenes) no se pueden consult
 - `decreto-282-2010-reglamento-subvenciones.pdf` (`DEC-AND-282-2010`): Decreto 282/2010, de 4 de mayo, Reglamento de los Procedimientos de Concesión de Subvenciones de la Junta de Andalucía (BOJA núm. 108, de 04/06/2010, `d1.pdf`).
 - `decreto-1-2012-registros-demandantes-vivienda.pdf` (`DEC-AND-1-2012`): Decreto 1/2012, de 10 de enero, Reglamento Regulador de los Registros Públicos Municipales de Demandantes de Vivienda Protegida (BOJA núm. 19, de 30/01/2012, `d2.pdf`).
 - `decreto-161-2018-defensa-vivienda.pdf` (`DEC-AND-161-2018`): Decreto 161/2018, de 28 de agosto, defensa de la vivienda del parque público residencial de Andalucía (BOJA núm. 172, de 05/09/2018).
+- `orden-21-julio-2008-diseno-vivienda-protegida.pdf` (`ORD-AND-21-07-2008`): Orden de 21 de julio de 2008, sobre normativa técnica de diseño y calidad aplicable a las viviendas protegidas en Andalucía (texto integrado publicado por Orden de 12 de febrero de 2020, BOJA núm. 35, de 20/02/2020).
+- `decreto-6-2012-contaminacion-acustica.pdf` (`DEC-AND-6-2012`): Decreto 6/2012, de 17 de enero, Reglamento de Protección contra la Contaminación Acústica en Andalucía (BOJA núm. 24, de 06/02/2012, `d4.pdf`).
+- `decreto-70-2009-agua-consumo-humano.pdf` (`DEC-AND-70-2009`): Decreto 70/2009, de 31 de marzo, Reglamento de Vigilancia Sanitaria y Calidad del Agua de Consumo Humano de Andalucía (BOJA núm. 73, de 17/04/2009, `d4.pdf`).
+- `decreto-19-1995-reglamento-patrimonio-historico.pdf` (`DEC-AND-19-1995`): Decreto 19/1995, de 7 de febrero, Reglamento de Protección y Fomento del Patrimonio Histórico de Andalucía (BOJA núm. 43, de 17/03/1995, `d1.pdf`).
+- `decreto-168-2003-reglamento-actividades-arqueologicas.pdf` (`DEC-AND-168-2003`): Decreto 168/2003, de 17 de junio, Reglamento de Actividades Arqueológicas de Andalucía (BOJA núm. 134, de 15/07/2003, `d6.pdf`).
+- `decreto-622-2019-administracion-electronica.pdf` (`DEC-AND-622-2019`): Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31/12/2019).
 
-### Reales Decretos estatales (BOE en `leyes/`)
+### Reales Decretos y Leyes estatales (BOE en `leyes/`)
+- `BOE-A-1957-7998.pdf` (`REF-1957`): Decreto de 26 de abril de 1957 por el que se aprueba el Reglamento de la Ley de Expropiación Forzosa.
+- `BOE-A-1960-10906.pdf` (`LPH-49-1960`): Ley 49/1960, de 21 de julio, sobre propiedad horizontal.
 - `BOE-A-1986-2277.pdf` (`RD-111-1986`): Desarrollo parcial de la Ley 16/1985 del Patrimonio Histórico Español.
 - `BOE-A-1986-33252.pdf` (`RD-2568-1986`): Reglamento de Organización, Funcionamiento y Régimen Jurídico de las Entidades Locales (ROF).
 - `BOE-A-1991-16419.pdf` (`RD-1004-1991`): Requisitos mínimos de los centros de enseñanzas de régimen general no universitarias.
@@ -81,13 +89,19 @@ Las normas solo publicadas en el BOJA (decretos y órdenes) no se pueden consult
 - `BOE-A-1997-8668.pdf` (`RD-485-1997`): Disposiciones mínimas de señalización de seguridad y salud en el trabajo.
 - `BOE-A-1997-12735.pdf` (`RD-773-1997`): Disposiciones mínimas sobre equipos de protección individual (EPI).
 - `BOE-A-1997-17824.pdf` (`RD-1215-1997`): Disposiciones mínimas para la utilización de equipos de trabajo.
+- `BOE-A-1998-4769.pdf` (`RDL-1-1998`): Real Decreto-ley 1/1998, de 27 de febrero, sobre infraestructuras comunes en los edificios para el acceso a los servicios de telecomunicación (ICT).
 - `BOE-A-2003-3596.pdf` (`RD-140-2003`) y `BOE-A-2023-628.pdf` (`RD-3-2023`): Calidad del agua de consumo humano.
 - `BOE-A-2003-14408.pdf` (`RD-865-2003`) y `BOE-A-2022-10297.pdf` (`RD-487-2022`): Prevención y control de la legionelosis.
+- `BOE-A-2003-21614.pdf` (`LGP-47-2003`): Ley 47/2003, de 26 de noviembre, General Presupuestaria.
 - `BOE-A-2004-1848.pdf` (`RD-171-2004`): Coordinación de actividades empresariales (art. 24 LPRL).
+- `BOE-A-2004-21830.pdf` (`L-3-2004`): Ley 3/2004, de 29 de diciembre, de lucha contra la morosidad en las operaciones comerciales.
 - `BOE-A-2005-20792.pdf` (`RD-1513-2005`) y `BOE-A-2007-18397.pdf` (`RD-1367-2007`): Reglamentos de desarrollo de la Ley 37/2003 del Ruido.
 - `BOE-A-2006-6474.pdf` (`RD-396-2006`): Trabajos con riesgo de exposición al amianto.
+- `BOE-A-2006-18205.pdf` (`L-32-2006`) y `BOE-A-2007-15766.pdf` (`RD-1109-2007`): Ley 32/2006 reguladora de la subcontratación en el Sector de la Construcción y su Reglamento de desarrollo.
 - `BOE-A-2007-19881.pdf` (`RD-1464-2007`): Normas técnicas de valoración catastral de bienes inmuebles de características especiales.
 - `BOE-A-2010-6368.pdf` (`RD-410-2010`): Requisitos exigibles a entidades y laboratorios de control de calidad de la edificación.
 - `BOE-A-2011-16749.pdf` (`RD-1359-2011`): Fórmulas-tipo generales de revisión de precios de contratos de obras.
+- `BOE-A-2011-17629.pdf` (`RD-1492-2011`): Real Decreto 1492/2011, Reglamento de valoraciones de la Ley de Suelo.
+- `BOE-A-2015-3443.pdf` (`L-2-2015`) y `BOE-A-2017-1150.pdf` (`RD-55-2017`): Ley 2/2015 de desindexación de la economía española y su Reglamento de desarrollo.
 - `BOE-A-2025-7190.pdf` (`RD-164-2025`): Reglamento de seguridad contra incendios en establecimientos industriales y modificación del RIPCI.
 
