@@ -62,3 +62,32 @@ Las normas solo publicadas en el BOJA (decretos y órdenes) no se pueden consult
 - Texto original, no consolidado. La Ley 5/2025 de Vivienda modifica sus arts. 12, 28, 35-36, 37 y 44
   (y deroga la Ley 13/2005 que desarrollaba); otras modificaciones posteriores pueden no estar incorporadas.
   Las preguntas solo usan artículos no afectados por la Ley 5/2025.
+
+## Decretos adicionales incorporados (6 de noviembre de 2026)
+
+### Decretos autonómicos de Andalucía (BOJA)
+- `decreto-69-2008-autorizaciones-sanitarias.pdf` (`DEC-AND-69-2008`): Decreto 69/2008, de 26 de febrero, procedimientos de las Autorizaciones Sanitarias y Registro Andaluz de Centros, Servicios y Establecimientos Sanitarios (BOJA núm. 52, de 14/03/2008, `d14.pdf`).
+- `decreto-91-2020-plan-vive.pdf` (`DEC-AND-91-2020`): Decreto 91/2020, de 30 de junio, Plan Vive en Andalucía 2020-2030 (BOJA núm. 127, de 03/07/2020).
+- `decreto-60-2010-reglamento-disciplina-urbanistica.pdf` (`DEC-AND-60-2010`): Decreto 60/2010, de 16 de marzo, Reglamento de Disciplina Urbanística de Andalucía (BOJA núm. 66, de 07/04/2010, `d3.pdf`).
+- `decreto-282-2010-reglamento-subvenciones.pdf` (`DEC-AND-282-2010`): Decreto 282/2010, de 4 de mayo, Reglamento de los Procedimientos de Concesión de Subvenciones de la Junta de Andalucía (BOJA núm. 108, de 04/06/2010, `d1.pdf`).
+- `decreto-1-2012-registros-demandantes-vivienda.pdf` (`DEC-AND-1-2012`): Decreto 1/2012, de 10 de enero, Reglamento Regulador de los Registros Públicos Municipales de Demandantes de Vivienda Protegida (BOJA núm. 19, de 30/01/2012, `d2.pdf`).
+- `decreto-161-2018-defensa-vivienda.pdf` (`DEC-AND-161-2018`): Decreto 161/2018, de 28 de agosto, defensa de la vivienda del parque público residencial de Andalucía (BOJA núm. 172, de 05/09/2018).
+
+### Reales Decretos estatales (BOE en `leyes/`)
+- `BOE-A-1986-2277.pdf` (`RD-111-1986`): Desarrollo parcial de la Ley 16/1985 del Patrimonio Histórico Español.
+- `BOE-A-1986-33252.pdf` (`RD-2568-1986`): Reglamento de Organización, Funcionamiento y Régimen Jurídico de las Entidades Locales (ROF).
+- `BOE-A-1991-16419.pdf` (`RD-1004-1991`): Requisitos mínimos de los centros de enseñanzas de régimen general no universitarias.
+- `BOE-A-1997-1853.pdf` (`RD-39-1997`): Reglamento de los Servicios de Prevención.
+- `BOE-A-1997-8668.pdf` (`RD-485-1997`): Disposiciones mínimas de señalización de seguridad y salud en el trabajo.
+- `BOE-A-1997-12735.pdf` (`RD-773-1997`): Disposiciones mínimas sobre equipos de protección individual (EPI).
+- `BOE-A-1997-17824.pdf` (`RD-1215-1997`): Disposiciones mínimas para la utilización de equipos de trabajo.
+- `BOE-A-2003-3596.pdf` (`RD-140-2003`) y `BOE-A-2023-628.pdf` (`RD-3-2023`): Calidad del agua de consumo humano.
+- `BOE-A-2003-14408.pdf` (`RD-865-2003`) y `BOE-A-2022-10297.pdf` (`RD-487-2022`): Prevención y control de la legionelosis.
+- `BOE-A-2004-1848.pdf` (`RD-171-2004`): Coordinación de actividades empresariales (art. 24 LPRL).
+- `BOE-A-2005-20792.pdf` (`RD-1513-2005`) y `BOE-A-2007-18397.pdf` (`RD-1367-2007`): Reglamentos de desarrollo de la Ley 37/2003 del Ruido.
+- `BOE-A-2006-6474.pdf` (`RD-396-2006`): Trabajos con riesgo de exposición al amianto.
+- `BOE-A-2007-19881.pdf` (`RD-1464-2007`): Normas técnicas de valoración catastral de bienes inmuebles de características especiales.
+- `BOE-A-2010-6368.pdf` (`RD-410-2010`): Requisitos exigibles a entidades y laboratorios de control de calidad de la edificación.
+- `BOE-A-2011-16749.pdf` (`RD-1359-2011`): Fórmulas-tipo generales de revisión de precios de contratos de obras.
+- `BOE-A-2025-7190.pdf` (`RD-164-2025`): Reglamento de seguridad contra incendios en establecimientos industriales y modificación del RIPCI.
+
