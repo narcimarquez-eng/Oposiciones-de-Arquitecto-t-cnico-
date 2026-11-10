@@ -86,8 +86,14 @@ function articulosDeLey(id) {
   const ley = catalogo.find((l) => l.id === id);
   let lista = [];
   if (ley && ley.pdf && fs.existsSync(path.join(RAIZ, ley.pdf))) {
-    const txt = cp.execFileSync('pdftotext', ['-raw', path.join(RAIZ, ley.pdf), '-'],
-      { maxBuffer: 1e8, stdio: ['ignore', 'pipe', 'ignore'] }).toString();
+    let txt;
+    try {
+      txt = cp.execFileSync('pdftotext', ['-raw', path.join(RAIZ, ley.pdf), '-'],
+        { maxBuffer: 1e8, stdio: ['ignore', 'pipe', 'ignore'] }).toString();
+    } catch (e) {
+      txt = cp.execFileSync('gs', ['-q', '-dNOPAUSE', '-dBATCH', '-sDEVICE=txtwrite', '-sOutputFile=-', path.join(RAIZ, ley.pdf)],
+        { maxBuffer: 1e8, stdio: ['ignore', 'pipe', 'ignore'] }).toString();
+    }
     const lineas = txt.split('\n').map((s) => s.trim());
     const vistos = new Map();
     for (let i = 0; i < lineas.length; i++) {
@@ -189,7 +195,6 @@ for (const t of temas) {
   banco.push(...todas);
 }
 
-fs.writeFileSync(path.join(DIR, 'banco.json'), JSON.stringify(banco) + '\n');
 fs.writeFileSync(path.join(DIR, 'banco.js'), 'window.BANCO = ' + JSON.stringify(banco) + ';\n');
 
 const totRev = informe.reduce((n, x) => n + x.revisadas, 0);

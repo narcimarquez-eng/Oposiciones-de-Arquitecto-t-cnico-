@@ -3,8 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Estudio · Arquitecto Técnico · Junta de Andalucía</title>
-<meta name="description" content="Resúmenes, leyes aplicables y tests por tema del temario de Arquitecto Técnico (Cuerpo de Técnicos de Grado Medio, Arquitectura Técnica A2.2001) de la Junta de Andalucía.">
+<title>Oposiciones de Arquitecto Técnico</title>
+<meta name="description" content="Resumen de temas y plataforma de test interactivos para las oposiciones de Arquitecto Técnico.">
+<meta property="og:title" content="Oposiciones de Arquitecto Técnico">
+<meta property="og:description" content="Resumen de temas y plataforma de test interactivos para las oposiciones de Arquitecto Técnico.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
 <style>
   :root {
     --bg: #f6f5f1;
@@ -273,7 +277,8 @@
         ? '<span class="pill ok">Contenido listo</span>'
         : '<span class="pill">Pendiente</span>';
       var marca = p.visto ? '<span class="pill done">✓ estudiado</span>' : '';
-      var mejor = p.mejor != null ? '<span class="pill">Mejor test: ' + p.mejor + '/10</span>' : '';
+      var maxQ = c && c.test ? c.test.length : 40;
+      var mejor = p.mejor != null ? '<span class="pill">Mejor test: ' + p.mejor + '/' + maxQ + '</span>' : '';
       return '<li><button class="tema-card" type="button" data-tema="' + esc(t.id) + '">' +
         '<div class="tema-meta"><strong>' + esc(etiquetaTema(t)) + '</strong>' + estado + marca + mejor + '</div>' +
         '<p class="tema-title">' + esc(recortar(t.titulo, 170)) + '</p>' +
@@ -341,11 +346,12 @@
       }).join('') + '</section>';
     }
 
+    var maxPreguntas = c.test.length;
     var resultado = p.ultimo != null
-      ? '<p class="sub">Último test: ' + p.ultimo + '/10 · intentos: ' + (p.intentos || 0) + '</p>'
+      ? '<p class="sub">Último test: ' + p.ultimo + '/' + maxPreguntas + ' · intentos: ' + (p.intentos || 0) + '</p>'
       : '';
 
-    var accion = '<div class="acciones"><button class="btn" type="button" data-test="' + esc(id) + '">Hacer test (10 preguntas)</button></div>' + resultado;
+    var accion = '<div class="acciones"><button class="btn" type="button" data-test="' + esc(id) + '">Hacer test (' + maxPreguntas + ' preguntas)</button></div>' + resultado;
 
     return cabecera + resumen + desarrolloHtml + leyesHtml + fuentesHtml + accion;
   }
@@ -586,7 +592,7 @@
     var n = poolGen().length;
     return volverInicio() +
       '<h2 class="tituloTema">Generador de tests</h2>' +
-      '<p class="sub">Banco de ' + window.BANCO.length + ' preguntas, hasta 100 generadas por tema. Cada tema tiene 10 revisadas, al menos 40 de hechos (quién nombra, qué órgano decide, cuánto dura…) comprobadas con el texto de las normas y hasta 100 generadas a partir del texto de las leyes del tema.</p>' +
+      '<p class="sub">Banco de ' + window.BANCO.length + ' preguntas. Cada tema cuenta con 40 preguntas revisadas integradas en su test, preguntas adicionales de hechos comprobadas con las normas oficiales y preguntas generadas a partir del articulado de las leyes del tema.</p>' +
       '<section class="seccion"><h3>1. Temas</h3>' +
       '<div class="acciones" style="margin-top:0"><button class="btn sec" type="button" data-gen="todos">Todos</button>' +
       '<button class="btn sec" type="button" data-gen="ninguno">Ninguno</button>' +

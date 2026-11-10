@@ -88,8 +88,8 @@ for (const f of ficheros) {
   }
 
   // test
-  if (!Array.isArray(t.test) || t.test.length !== 10) {
-    err(`${p} test: se esperan exactamente 10 preguntas y hay ${t.test ? t.test.length : 0}`);
+  if (!Array.isArray(t.test) || t.test.length !== 40) {
+    err(`${p} test: se esperan exactamente 40 preguntas y hay ${t.test ? t.test.length : 0}`);
   } else {
     const preguntas = new Set();
     const posiciones = [0, 0, 0, 0];
@@ -112,7 +112,7 @@ for (const f of ficheros) {
       if (!esTextoNoVacio(q.referencia)) err(`${pq} sin referencia legal`);
     });
     const max = Math.max(...posiciones);
-    if (max > 5) aviso(`${p} la posición correcta se repite demasiado: ${posiciones.join('/')}`);
+    if (max > 15) aviso(`${p} la posición correcta se repite demasiado: ${posiciones.join('/')}`);
   }
 
   for (const l of t.leyes || []) {
@@ -202,7 +202,7 @@ const salida = {
 const js =
   '/* Generado por datos/build.js. No editar a mano: editar datos/temas/*.json y leyes.json. */\n' +
   'window.DATOS_ESTUDIO = ' +
-  JSON.stringify(salida, null, 1) +
+  JSON.stringify(salida) +
   ';\n';
 fs.writeFileSync(path.join(DIR, 'contenido.js'), js, 'utf8');
 console.log('\nOK: datos/contenido.js generado.');
