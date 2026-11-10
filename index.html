@@ -172,6 +172,135 @@
   table.est .num { text-align: right; white-space: nowrap; }
   .pie { color: var(--muted); font-size: .8rem; margin-top: 32px; border-top: 1px solid var(--border); padding-top: 12px; }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .cita-norma {
+    background: var(--surface-2);
+    padding: 1px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  .btn-cita {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    margin-left: 4px;
+    margin-right: 2px;
+    padding: 1px 7px;
+    font: inherit;
+    font-size: .76rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--accent);
+    background: var(--surface);
+    border: 1px solid var(--accent);
+    border-radius: 99px;
+    cursor: pointer;
+    vertical-align: baseline;
+    transition: background .15s, color .15s;
+  }
+  .btn-cita:hover, .btn-cita:focus-visible {
+    background: var(--accent);
+    color: var(--accent-text);
+  }
+  .normas-apartado {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+    font-size: .8rem;
+    color: var(--muted);
+  }
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .58);
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+  }
+  .modal-backdrop[hidden] { display: none; }
+  .modal-panel {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    width: 100%;
+    max-width: 880px;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 18px 48px rgba(0, 0, 0, .32);
+    overflow: hidden;
+  }
+  .modal-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface-2);
+  }
+  .modal-head h3 { margin: 2px 0 4px; font-size: 1.05rem; }
+  .modal-close {
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    border-radius: 8px;
+    padding: 6px 11px;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  .modal-body {
+    padding: 16px 18px;
+    overflow-y: auto;
+    display: grid;
+    gap: 14px;
+  }
+  .modal-buscador {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .modal-buscador input {
+    flex: 1;
+    min-width: 180px;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+    color: var(--text);
+    font: inherit;
+    font-size: .9rem;
+  }
+  .extracto-item {
+    border-left: 3px solid var(--accent);
+    background: var(--surface-2);
+    padding: 10px 12px;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 8px;
+    font-size: .9rem;
+  }
+  .extracto-item .meta {
+    font-size: .78rem;
+    color: var(--muted);
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+  .visor-pdf {
+    width: 100%;
+    height: 460px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #fff;
+  }
 </style>
 </head>
 <body>
@@ -186,6 +315,20 @@
 </header>
 
 <main class="wrap" id="app" tabindex="-1"></main>
+
+<div class="modal-backdrop" id="modal-norma" hidden role="dialog" aria-modal="true" aria-labelledby="modal-norma-titulo">
+  <div class="modal-panel">
+    <div class="modal-head">
+      <div>
+        <div class="tema-meta" id="modal-norma-meta"></div>
+        <h3 id="modal-norma-titulo">Norma</h3>
+        <div class="sub" id="modal-norma-ref" style="margin:0"></div>
+      </div>
+      <button type="button" class="modal-close" data-cerrar-modal="1" aria-label="Cerrar ventana de norma">✕ Cerrar</button>
+    </div>
+    <div class="modal-body" id="modal-norma-body"></div>
+  </div>
+</div>
 
 <div class="wrap">
   <p class="pie">
@@ -287,6 +430,482 @@
     return '<h2 class="tituloTema">' + (filtro === 'todos' ? 'Todos los temas' : esc(D.temario.bloques.filter(function (b) { return b.id === filtro; })[0].nombre)) + '</h2>' + html;
   }
 
+  // ---------- Enlazado de normas en apuntes y modal de consulta ----------
+  var $modalNorma = document.getElementById('modal-norma');
+  var $modalNormaMeta = document.getElementById('modal-norma-meta');
+  var $modalNormaTitulo = document.getElementById('modal-norma-titulo');
+  var $modalNormaRef = document.getElementById('modal-norma-ref');
+  var $modalNormaBody = document.getElementById('modal-norma-body');
+  var estadoModal = null;
+
+  // Índices para localizar normas mencionadas en el texto
+  var leyesPorNum = {};
+  var temasPorLey = {};
+  Object.keys(D.leyes).forEach(function (id) {
+    var l = D.leyes[id];
+    var texto = (l.referencia || '') + ' ' + (l.nombre || '');
+    var mNum = texto.match(/\b(\d{1,4}\/\d{4})\b/g);
+    if (mNum) {
+      mNum.forEach(function (par) {
+        if (!leyesPorNum[par]) leyesPorNum[par] = [];
+        if (leyesPorNum[par].indexOf(id) === -1) leyesPorNum[par].push(id);
+      });
+    }
+    var mOrd = texto.match(/\b([A-Z]{2,6}\/\d{1,4}\/\d{4})\b/g);
+    if (mOrd) {
+      mOrd.forEach(function (par) {
+        if (!leyesPorNum[par]) leyesPorNum[par] = [];
+        if (leyesPorNum[par].indexOf(id) === -1) leyesPorNum[par].push(id);
+      });
+    }
+  });
+
+  Object.keys(D.contenido).forEach(function (tid) {
+    var c = D.contenido[tid];
+    if (!c || !c.leyes) return;
+    c.leyes.forEach(function (entry) {
+      if (!temasPorLey[entry.id]) temasPorLey[entry.id] = [];
+      temasPorLey[entry.id].push({ temaId: tid, rol: entry.rol || '', articulos: entry.articulos || '' });
+    });
+  });
+
+  var ALIAS_NORMAS = {
+    'constitucion espanola': 'CE',
+    'constitucion': 'CE',
+    'ce': 'CE',
+    'estatuto de autonomia': 'EA-ANDALUCIA',
+    'estatuto de autonomia para andalucia': 'EA-ANDALUCIA',
+    'eaa': 'EA-ANDALUCIA',
+    'codigo tecnico de la edificacion': 'CTE',
+    'cte': 'CTE',
+    'codigo estructural': 'RD-470-2021',
+    'loe': 'LOE',
+    'lpac': 'LPAC',
+    'lpacap': 'LPAC',
+    'lrjsp': 'LRJSP',
+    'lcsp': 'LCSP',
+    'rglcap': 'RGLCAP-1098-2001',
+    'lef': 'LEF',
+    'ref': 'REF-1957',
+    'lgs': 'LGS',
+    'rlgs': 'RLGS-887-2006',
+    'laja': 'LAJA',
+    'ebep': 'EBEP',
+    'trebep': 'EBEP',
+    'lfp': 'LFP-ANDALUCIA',
+    'lghpa': 'LGHPA',
+    'trlghp': 'LGHPA',
+    'lgp': 'LGP-47-2003',
+    'lprl': 'LPRL',
+    'rite': 'RITE',
+    'rebt': 'RD-842-2002',
+    'lista': 'LISTA-7-2021',
+    'rglista': 'DEC-AND-550-2022',
+    'lpha': 'LPHA-14-2007',
+    'lphe': 'LPHE-16-1985',
+    'lpca': 'LPCA-4-2026',
+    'trls': 'TRLS-7-2015',
+    'trlsru': 'TRLS-7-2015',
+    'trlcat': 'TRLCAT-1-2004',
+    'rof': 'RD-2568-1986',
+    'lbrl': 'LBRL',
+    'lbtrl': 'LBRL',
+    'ripci': 'RD-513-2017',
+    'rsciei': 'RD-164-2025',
+    'lph': 'LPH-49-1960',
+    'ltbg': 'LTBG',
+    'ltpa': 'LTPA',
+    'lopdgdd': 'LOPDGDD',
+    'ljca': 'LJCA',
+    'ens': 'ENS-311-2022',
+    'lva': 'LVA-5-2025',
+    'db-si': 'DB-SI',
+    'db-sua': 'DB-SUA',
+    'db-he': 'DB-HE',
+    'db-hs': 'DB-HS',
+    'db-hr': 'DB-HR',
+    'db-se': 'CTE',
+    'db-se-ae': 'DB-SE-AE',
+    'db-se-c': 'DB-SE-C',
+    'db-se-a': 'DB-SE-A',
+    'db-se-m': 'DB-SE-M',
+    'db-se-f': 'DB-SE-F',
+    'db si': 'DB-SI',
+    'db sua': 'DB-SUA',
+    'db he': 'DB-HE',
+    'db hs': 'DB-HS',
+    'db hr': 'DB-HR',
+    'db se': 'CTE'
+  };
+
+  function normClave(s) {
+    return String(s || '').toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/\s+/g, ' ').trim();
+  }
+
+  function resolverLeyPorMencion(mencion, idTema) {
+    var m = String(mencion || '').trim();
+    if (!m) return null;
+    if (D.leyes[m]) return m;
+    var clave = normClave(m);
+    if (ALIAS_NORMAS[clave] && D.leyes[ALIAS_NORMAS[clave]]) return ALIAS_NORMAS[clave];
+
+    // Órdenes o Decretos por fecha específica
+    if (clave.indexOf('24 de enero de 2003') !== -1) return 'ORD-AND-24-01-2003';
+    if (clave.indexOf('21 de julio de 2008') !== -1 || clave.indexOf('12 de febrero de 2020') !== -1) return 'ORD-AND-21-07-2008';
+    if (clave.indexOf('26 de abril de 1957') !== -1) return 'REF-1957';
+    if (clave.indexOf('16 de diciembre de 1954') !== -1) return 'LEF';
+
+    // Código de Orden ministerial tipo TMA/851/2021, ECO/805/2003
+    var mOrd = m.match(/\b([A-Z]{2,6}\/\d{1,4}\/\d{4})\b/);
+    if (mOrd && leyesPorNum[mOrd[1]] && leyesPorNum[mOrd[1]].length) {
+      return leyesPorNum[mOrd[1]][0];
+    }
+
+    // Número/Año tipo 39/2015, 293/2009, 9/2017
+    var mNum = m.match(/\b(\d{1,4}\/\d{4})\b/);
+    if (mNum && leyesPorNum[mNum[1]]) {
+      var cands = leyesPorNum[mNum[1]];
+      if (cands.length === 1) return cands[0];
+      // Si hay varias con el mismo número/año, priorizar la que esté en las leyes del tema actual
+      if (idTema && D.contenido[idTema] && D.contenido[idTema].leyes) {
+        var idsTema = D.contenido[idTema].leyes.map(function (x) { return x.id; });
+        for (var i = 0; i < cands.length; i++) {
+          if (idsTema.indexOf(cands[i]) !== -1) return cands[i];
+        }
+      }
+      // O filtrar por tipo de rango (Real Decreto, Decreto, Ley Orgánica, Ley)
+      for (var j = 0; j < cands.length; j++) {
+        var ref = normClave(D.leyes[cands[j]].referencia + ' ' + D.leyes[cands[j]].nombre);
+        if (clave.indexOf('real decreto legislativo') !== -1 && ref.indexOf('real decreto legislativo') !== -1) return cands[j];
+        if (clave.indexOf('real decreto') !== -1 && ref.indexOf('real decreto') !== -1) return cands[j];
+        if (clave.indexOf('decreto legislativo') !== -1 && ref.indexOf('decreto legislativo') !== -1) return cands[j];
+        if (clave.indexOf('decreto-ley') !== -1 && ref.indexOf('decreto-ley') !== -1) return cands[j];
+        if (clave.indexOf('decreto') !== -1 && clave.indexOf('real') === -1 && ref.indexOf('decreto') !== -1 && ref.indexOf('real decreto') === -1) return cands[j];
+        if (clave.indexOf('ley organica') !== -1 && ref.indexOf('ley organica') !== -1) return cands[j];
+      }
+      return cands[0];
+    }
+
+    // Documentos Básicos del CTE
+    var mDb = clave.match(/^db[\s-](si|sua|he|hs|hr|se(?:-ae|-c|-a|-m|-f)?)/i);
+    if (mDb) {
+      var idDb = 'DB-' + mDb[1].toUpperCase();
+      if (D.leyes[idDb]) return idDb;
+      return 'CTE';
+    }
+
+    return null;
+  }
+
+  // Expresión regular para detectar citas normativas y artículos en los apuntes
+  var REGEX_CITAS = new RegExp(
+    '(' +
+      '(?:Real\\s+Decreto\\s+Legislativo|Real\\s+Decreto-ley|Real\\s+Decreto|Decreto\\s+Legislativo|Decreto-ley|Decreto|Ley\\s+Org[aá]nica|Ley)\\s+\\d{1,4}\\/\\d{4}' +
+      '|Orden\\s+[A-Z]{2,6}\\/\\d{1,4}\\/\\d{4}' +
+      '|Orden\\s+de\\s+(?:24\\s+de\\s+enero\\s+de\\s+2003|21\\s+de\\s+julio\\s+de\\s+2008|12\\s+de\\s+febrero\\s+de\\s+2020)' +
+      '|Decreto\\s+de\\s+26\\s+de\\s+abril\\s+de\\s+1957' +
+      '|Constituci[oó]n\\s+Espa[ñn]ola' +
+      '|Estatuto\\s+de\\s+Autonom[ií]a(?:\\s+para\\s+Andaluc[ií]a)?' +
+      '|C[oó]digo\\s+T[eé]cnico\\s+de\\s+la\\s+Edificaci[oó]n' +
+      '|C[oó]digo\\s+Estructural' +
+      '|\\bDB-(?:SI|SUA|HE|HS|HR|SE(?:-AE|-C|-A|-M|-F)?)\\b' +
+      '|\\b(?:LOE|LPAC|LPACAP|LRJSP|LCSP|RGLCAP|LEF|LGS|LAJA|TREBEP|EBEP|LGHPA|TRLGHP|LPRL|RITE|REBT|LISTA|RGLISTA|LPHA|LPHE|LPCA|TRLS|TRLCAT|RIPCI|RSCIEI|LPH|LGP|CTE)\\b' +
+      '|(?:art[ií]culos?|arts?\\.)\\s+\\d+(?:\\s*(?:a|y|,|del|de\\s+la)\\s*\\d+)*(?:\\.[0-9]+)?' +
+    ')',
+    'gi'
+  );
+
+  function leyPorDefectoTema(idTema) {
+    var c = idTema && D.contenido[idTema];
+    if (c && c.leyes && c.leyes.length) return c.leyes[0].id;
+    return 'CE';
+  }
+
+  function enlazarNormas(texto, idTema, leyesDetectadas) {
+    var raw = String(texto == null ? '' : texto);
+    var partes = [];
+    var lastIdx = 0;
+    var ultimaLeyId = leyPorDefectoTema(idTema);
+
+    // Primera pasada: ver si el texto menciona explícitamente alguna ley para usarla de contexto en "art. X"
+    var primeraLeyTexto = null;
+    raw.replace(REGEX_CITAS, function (match) {
+      if (!primeraLeyTexto && !/^(?:art[ií]culos?|arts?\.)/i.test(match)) {
+        var lid = resolverLeyPorMencion(match, idTema);
+        if (lid) primeraLeyTexto = lid;
+      }
+      return match;
+    });
+    if (primeraLeyTexto) ultimaLeyId = primeraLeyTexto;
+
+    REGEX_CITAS.lastIndex = 0;
+    var m;
+    while ((m = REGEX_CITAS.exec(raw)) !== null) {
+      var matchStr = m[0];
+      var idx = m.index;
+      if (idx > lastIdx) {
+        partes.push(esc(raw.slice(lastIdx, idx)));
+      }
+      var esArticulo = /^(?:art[ií]culos?|arts?\.)/i.test(matchStr);
+      var leyId = null;
+      if (esArticulo) {
+        // Mirar si justo después dice "de la Ley X", "del Decreto Y", "de la CE", etc.
+        var cola = raw.slice(idx + matchStr.length, idx + matchStr.length + 75);
+        var mCola = cola.match(/^\s*(?:de\s+la\s+|del\s+|de\s+)?((?:Real\s+Decreto\s+Legislativo|Real\s+Decreto-ley|Real\s+Decreto|Decreto\s+Legislativo|Decreto-ley|Decreto|Ley\s+Org[aá]nica|Ley)\s+\d{1,4}\/\d{4}|Orden\s+[A-Z]{2,6}\/\d{1,4}\/\d{4}|Constituci[oó]n\s+Espa[ñn]ola|Estatuto\s+de\s+Autonom[ií]a|C[oó]digo\s+T[eé]cnico|C[oó]digo\s+Estructural|CE|EAA|LOE|LPAC|LRJSP|LCSP|LEF|REF|LGS|LAJA|TREBEP|EBEP|LGHPA|TRLGHP|LPRL|RITE|REBT|LISTA|LPHA|LPHE|LPCA|TRLS|TRLCAT|RGLCAP|RIPCI|RSCIEI|LPH|LGP|CTE)\b/i);
+        if (mCola) {
+          leyId = resolverLeyPorMencion(mCola[1], idTema);
+        }
+        if (!leyId) leyId = ultimaLeyId;
+      } else {
+        leyId = resolverLeyPorMencion(matchStr, idTema);
+        if (leyId) ultimaLeyId = leyId;
+      }
+
+      if (leyId && D.leyes[leyId]) {
+        if (leyesDetectadas && leyesDetectadas.indexOf(leyId) === -1) {
+          leyesDetectadas.push(leyId);
+        }
+        var leyObj = D.leyes[leyId];
+        var etiquetaBtn = esArticulo ? '📖 Ver art. en norma' : '📖 Ver en norma';
+        partes.push(
+          '<span class="cita-norma">' + esc(matchStr) +
+          '<button type="button" class="btn-cita" data-ver-norma="' + esc(leyId) + '" data-ver-cita="' + esc(matchStr) + '" data-ver-tema="' + esc(idTema || '') + '" title="Consultar en ' + esc(leyObj.nombre) + '">' + etiquetaBtn + '</button>' +
+          '</span>'
+        );
+      } else {
+        partes.push(esc(matchStr));
+      }
+      lastIdx = idx + matchStr.length;
+    }
+    if (lastIdx < raw.length) {
+      partes.push(esc(raw.slice(lastIdx)));
+    }
+    return partes.join('');
+  }
+
+  function barraNormasApartado(leyesIds, idTema) {
+    if (!leyesIds || !leyesIds.length) return '';
+    return '<div class="normas-apartado"><span class="etiqueta">Normas citadas en este apartado:</span>' +
+      leyesIds.map(function (lid) {
+        var l = D.leyes[lid];
+        if (!l) return '';
+        return '<button type="button" class="btn-cita" data-ver-norma="' + esc(lid) + '" data-ver-cita="' + esc(l.referencia || l.nombre) + '" data-ver-tema="' + esc(idTema || '') + '">📖 ' + esc(recortar(l.nombre, 58)) + '</button>';
+      }).join('') + '</div>';
+  }
+
+  function extraerFragmentosNorma(leyId, idTema) {
+    var ley = D.leyes[leyId];
+    if (!ley) return [];
+    var resultados = [];
+    var numMatch = ((ley.referencia || '') + ' ' + (ley.nombre || '')).match(/\b(\d{1,4}\/\d{4}|[A-Z]{2,6}\/\d{1,4}\/\d{4})\b/);
+    var patronClave = numMatch ? numMatch[1].toLowerCase() : normClave(ley.nombre).slice(0, 25);
+
+    // 1. Párrafos y puntos de estudio del tema actual (o de los temas donde aplica esta ley)
+    var temasRevisar = [];
+    if (idTema && D.contenido[idTema]) temasRevisar.push(idTema);
+    (temasPorLey[leyId] || []).forEach(function (item) {
+      if (temasRevisar.indexOf(item.temaId) === -1) temasRevisar.push(item.temaId);
+    });
+
+    temasRevisar.forEach(function (tid) {
+      var c = D.contenido[tid];
+      var t = temaPorId[tid];
+      if (!c || !t) return;
+      var esTemaunicoLey = c.leyes && c.leyes.length === 1 && c.leyes[0].id === leyId;
+      (c.resumen || []).forEach(function (b) {
+        (b.puntos || []).forEach(function (pto) {
+          var pNorm = normClave(pto);
+          if (esTemaunicoLey || pNorm.indexOf(patronClave) !== -1 || resolverLeyEnTexto(pto, tid, leyId)) {
+            resultados.push({
+              origen: etiquetaTema(t) + ' · Resumen (' + b.titulo + ')',
+              texto: pto,
+              ref: ley.referencia
+            });
+          }
+        });
+      });
+      (c.desarrollo || []).forEach(function (sec) {
+        (sec.parrafos || []).forEach(function (par) {
+          var pNorm = normClave(par);
+          if (esTemaunicoLey || pNorm.indexOf(patronClave) !== -1 || resolverLeyEnTexto(par, tid, leyId)) {
+            resultados.push({
+              origen: etiquetaTema(t) + ' · ' + sec.titulo,
+              texto: par,
+              ref: ley.referencia
+            });
+          }
+        });
+      });
+      (c.test || []).forEach(function (q) {
+        var rNorm = normClave((q.referencia || '') + ' ' + (q.explicacion || ''));
+        if (rNorm.indexOf(patronClave) !== -1 || resolverLeyEnTexto((q.referencia || '') + ' ' + (q.pregunta || ''), tid, leyId)) {
+          resultados.push({
+            origen: etiquetaTema(t) + ' · Precepto en test verificado',
+            texto: q.pregunta + ' → Respuesta: ' + q.opciones[q.correcta] + '. ' + (q.explicacion || ''),
+            ref: q.referencia || ley.referencia
+          });
+        }
+      });
+    });
+
+    // 2. Si el banco de preguntas (window.BANCO) está cargado, incluir extractos literales de artículos ('articulo')
+    if (bancoListo()) {
+      var añadidos = 0;
+      for (var i = 0; i < window.BANCO.length && añadidos < 35; i++) {
+        var bq = window.BANCO[i];
+        if (bq.origen !== 'articulo') continue;
+        var refB = normClave(bq.referencia || '');
+        if (refB.indexOf(patronClave) !== -1) {
+          resultados.push({
+            origen: 'Articulado oficial (' + (bq.referencia || ley.referencia) + ')',
+            texto: bq.explicacion || (bq.enunciado + ' ' + bq.opciones[bq.correcta]),
+            ref: bq.referencia || ley.referencia
+          });
+          añadidos++;
+        }
+      }
+    }
+    return resultados;
+  }
+
+  function resolverLeyEnTexto(texto, idTema, leyIdBuscada) {
+    var encontrado = false;
+    REGEX_CITAS.lastIndex = 0;
+    var m;
+    while ((m = REGEX_CITAS.exec(texto)) !== null) {
+      if (resolverLeyPorMencion(m[0], idTema) === leyIdBuscada) {
+        encontrado = true;
+        break;
+      }
+    }
+    return encontrado;
+  }
+
+  function abrirModalNorma(leyId, cita, idTema) {
+    var ley = D.leyes[leyId];
+    if (!ley) return;
+    // Cargar el banco en segundo plano si aún no está cargado para enriquecer los artículos
+    if (!bancoListo() && !gen.cargando) {
+      var s = document.createElement('script');
+      s.src = 'datos/banco.js';
+      s.onload = function () {
+        if (estadoModal && estadoModal.leyId === leyId) {
+          estadoModal.fragmentos = extraerFragmentosNorma(leyId, idTema);
+          actualizarListaFragmentosModal();
+        }
+      };
+      document.head.appendChild(s);
+    }
+
+    var filtroInicial = '';
+    if (cita && /^(?:art[ií]culos?|arts?\.)/i.test(cita)) {
+      var mNumArt = cita.match(/\d+/);
+      if (mNumArt) filtroInicial = mNumArt[0];
+    }
+
+    estadoModal = {
+      leyId: leyId,
+      cita: cita || '',
+      idTema: idTema || '',
+      filtro: filtroInicial,
+      fragmentos: extraerFragmentosNorma(leyId, idTema)
+    };
+
+    $modalNormaMeta.innerHTML = badgeVerificacion(ley) +
+      (ley.boe_id ? '<span class="pill">' + esc(ley.boe_id) + '</span>' : '') +
+      (cita ? '<span class="pill done">Cita seleccionada: ' + esc(cita) + '</span>' : '');
+    $modalNormaTitulo.textContent = ley.nombre;
+    $modalNormaRef.textContent = ley.referencia || '';
+
+    // Relación con el tema actual y con todo el temario
+    var relTemas = temasPorLey[leyId] || [];
+    var relActual = null;
+    if (idTema) {
+      for (var i = 0; i < relTemas.length; i++) {
+        if (relTemas[i].temaId === idTema) { relActual = relTemas[i]; break; }
+      }
+    }
+
+    var ubicacionHtml = '<div class="card">' +
+      '<strong>📍 Ubicación en las normas y en el temario</strong>' +
+      (cita ? '<p style="margin:6px 0 0">Has pulsado sobre la referencia: <strong>«' + esc(cita) + '»</strong>.</p>' : '') +
+      (relActual
+        ? '<p style="margin:6px 0 0"><strong>En este tema (' + esc(etiquetaTema(temaPorId[idTema])) + '):</strong> ' +
+          esc(relActual.rol || 'Norma aplicable al tema') +
+          (relActual.articulos ? ' · <strong>Artículos clave:</strong> ' + esc(relActual.articulos) : '') + '</p>'
+        : '') +
+      (ley.notas ? '<p class="sub" style="margin:6px 0 0">Nota sobre vigencia/alcance: ' + esc(ley.notas) + '</p>' : '') +
+      (relTemas.length
+        ? '<div class="normas-apartado" style="margin-top:8px"><span class="etiqueta">Temas donde se estudia (' + relTemas.length + '):</span>' +
+          relTemas.map(function (rt) {
+            var tObj = temaPorId[rt.temaId];
+            if (!tObj) return '';
+            return '<button type="button" class="btn-cita" data-ir-desde-modal="#/tema/' + esc(rt.temaId) + '">' + esc(etiquetaTema(tObj)) + '</button>';
+          }).join('') + '</div>'
+        : '') +
+      '<div class="enlaces" style="margin-top:10px">' +
+      (ley.url ? '<a href="' + esc(ley.url) + '" target="_blank" rel="noopener">Abrir texto consolidado en BOE / BOJA ↗</a>' : '') +
+      (ley.pdf ? '<a href="' + esc(ley.pdf) + '" target="_blank" rel="noopener">Abrir PDF oficial en pestaña nueva ↗</a>' : '') +
+      (ley.pdf ? '<a href="' + esc(ley.pdf) + '" download>Descargar PDF (' + esc(ley.pdf.split('/').pop()) + ')</a>' : '') +
+      '</div></div>';
+
+    var buscadorHtml = '<div class="card">' +
+      '<strong>🔎 Localizador de artículos y preceptos en esta norma</strong>' +
+      '<p class="sub" style="margin:4px 0 8px">Busca por número de artículo (ej. «14», «artículo 28») o palabra clave para ver dónde aparece explicada o preguntada esta norma en el temario:</p>' +
+      '<div class="modal-buscador">' +
+      '<input type="search" id="modal-input-buscar" value="' + esc(estadoModal.filtro) + '" placeholder="Buscar artículo, plazo, concepto en ' + esc(recortar(ley.nombre, 40)) + '…">' +
+      (estadoModal.filtro ? '<button type="button" class="btn sec" data-limpiar-busqueda="1">Ver todos</button>' : '') +
+      '</div>' +
+      '<div id="modal-lista-fragmentos" style="margin-top:10px;display:grid;gap:8px;max-height:280px;overflow-y:auto"></div>' +
+      '</div>';
+
+    var visorPdfHtml = ley.pdf
+      ? '<div class="card">' +
+        '<strong>📄 Documento oficial completo (' + esc(ley.pdf) + ')</strong>' +
+        '<p class="sub" style="margin:4px 0 8px">Puedes consultar y buscar directamente dentro del texto oficial descargado en el repositorio:</p>' +
+        '<iframe class="visor-pdf" src="' + esc(ley.pdf) + '" title="Texto oficial de ' + esc(ley.nombre) + '"></iframe>' +
+        '</div>'
+      : '';
+
+    $modalNormaBody.innerHTML = ubicacionHtml + buscadorHtml + visorPdfHtml;
+    actualizarListaFragmentosModal();
+    $modalNorma.hidden = false;
+  }
+
+  function actualizarListaFragmentosModal() {
+    if (!estadoModal) return;
+    var $cont = document.getElementById('modal-lista-fragmentos');
+    if (!$cont) return;
+    var q = normClave(estadoModal.filtro);
+    var lista = estadoModal.fragmentos.filter(function (f) {
+      if (!q) return true;
+      var textoCompleto = normClave(f.origen + ' ' + f.texto + ' ' + f.ref);
+      return textoCompleto.indexOf(q) !== -1;
+    });
+    if (!lista.length && q) {
+      $cont.innerHTML = '<div class="extracto-item"><div class="extracto-meta">Sin coincidencias exactas para «' + esc(estadoModal.filtro) + '» en los extractos resumidos</div>' +
+        '<p style="margin:0">Pulsa <strong>Ver todos</strong> para mostrar todos los preceptos de esta norma en el temario o consulta el documento oficial en el visor PDF inferior.</p></div>';
+      return;
+    }
+    if (!lista.length) {
+      $cont.innerHTML = '<div class="extracto-item"><p style="margin:0">Consulta el texto íntegro en el visor PDF oficial situado justo debajo.</p></div>';
+      return;
+    }
+    $cont.innerHTML = lista.slice(0, 30).map(function (f) {
+      return '<div class="extracto-item">' +
+        '<div class="extracto-meta">' + esc(f.origen) + (f.ref ? ' · ' + esc(f.ref) : '') + '</div>' +
+        '<div>' + esc(f.texto) + '</div>' +
+        '</div>';
+    }).join('');
+  }
+
+  function cerrarModalNorma() {
+    $modalNorma.hidden = true;
+    estadoModal = null;
+  }
+
   function vistaTema(id) {
     var t = temaPorId[id];
     if (!t) return '<p>Tema no encontrado.</p><button class="btn sec" type="button" data-ir="#/">Volver a los temas</button>';
@@ -305,10 +924,14 @@
         '<div class="card"><p>Este tema todavía no tiene resumen, leyes ni test. Se completará en las siguientes fases.</p></div>';
     }
 
-    var resumen = '<section class="seccion"><h3>Resumen</h3>' + c.resumen.map(function (b) {
-      return '<div class="card"><strong>' + esc(b.titulo) + '</strong><ul>' +
-        b.puntos.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') +
-        '</ul></div>';
+    var resumen = '<section class="seccion"><h3>Resumen <span class="sub" style="font-weight:normal;font-size:.82rem">· Pulsa «📖 Ver en norma» junto a cualquier ley o artículo para abrir su texto oficial</span></h3>' + c.resumen.map(function (b) {
+      var leyesBloque = [];
+      var puntosHtml = b.puntos.map(function (x) {
+        return '<li>' + enlazarNormas(x, id, leyesBloque) + '</li>';
+      }).join('');
+      return '<div class="card"><strong>' + enlazarNormas(b.titulo, id, leyesBloque) + '</strong><ul>' +
+        puntosHtml +
+        '</ul>' + barraNormasApartado(leyesBloque, id) + '</div>';
     }).join('') + '</section>';
 
     var desarrolloHtml = '';
@@ -316,8 +939,12 @@
       desarrolloHtml = '<section class="seccion"><h3>Desarrollo extenso</h3>' +
         (c.extension ? '<p class="sub">' + esc(c.extension) + '</p>' : '') +
         c.desarrollo.map(function (s, i) {
+          var leyesSec = [];
+          var parrafosHtml = s.parrafos.map(function (par) {
+            return '<p>' + enlazarNormas(par, id, leyesSec) + '</p>';
+          }).join('');
           return '<details class="card"' + (i === 0 ? ' open' : '') + '><summary><strong>' + esc(s.titulo) + '</strong></summary>' +
-            s.parrafos.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') +
+            parrafosHtml + barraNormasApartado(leyesSec, id) +
             '</details>';
         }).join('') + '</section>';
     }
@@ -328,8 +955,9 @@
       return '<div class="card ley">' +
         '<strong>' + esc(ley.nombre) + '</strong>' +
         '<span>' + esc(ley.referencia) + '</span>' +
-        '<span class="tema-meta">' + badgeVerificacion(ley) + '<span>' + esc(l.rol) + '</span></span>' +
+        '<span class="tema-meta">' + badgeVerificacion(ley) + '<span>' + esc(l.rol) + (l.articulos ? ' · ' + esc(l.articulos) : '') + '</span></span>' +
         '<span class="enlaces">' +
+        '<button type="button" class="btn-cita" data-ver-norma="' + esc(l.id) + '" data-ver-cita="' + esc(l.articulos || ley.referencia) + '" data-ver-tema="' + esc(id) + '">📖 Ver en la norma (visor y artículos)</button>' +
         (ley.url ? '<a href="' + esc(ley.url) + '" target="_blank" rel="noopener">Texto en BOE ↗</a>' : '') +
         (ley.pdf ? '<a href="' + esc(ley.pdf) + '" download>Descargar PDF</a>' : '') +
         '</span></div>';
@@ -372,8 +1000,8 @@
         (fallos.length ? '<section class="seccion"><h3>Preguntas falladas</h3>' + fallos.map(function (x) {
           return '<div class="fallo"><strong>' + esc(x.q.pregunta) + '</strong>' +
             '<p class="sub">Correcta: ' + esc(x.q.opciones[x.q.correcta]) + '</p>' +
-            '<p>' + esc(x.q.explicacion) + '</p>' +
-            '<p class="sub">Ref.: ' + esc(x.q.referencia) + '</p></div>';
+            '<p>' + enlazarNormas(x.q.explicacion, e.id) + '</p>' +
+            '<p class="sub">Ref.: ' + enlazarNormas(x.q.referencia, e.id) + '</p></div>';
         }).join('') + '</section>' : '<p>Sin fallos. ¡Perfecto!</p>') +
         '<div class="acciones"><button class="btn" type="button" data-test="' + esc(e.id) + '">Repetir test</button>' +
         '<button class="btn sec" type="button" data-ir="#/tema/' + esc(e.id) + '">Volver al tema</button></div>';
@@ -395,7 +1023,7 @@
     if (contestada) {
       var acierto = e.seleccion === q.correcta;
       feedback = '<div class="feedback" aria-live="polite"><strong>' + (acierto ? '✓ Correcto' : '✗ Incorrecto') + '</strong>' +
-        esc(q.explicacion) + '<div class="ref">Ref.: ' + esc(q.referencia) + '</div></div>' +
+        enlazarNormas(q.explicacion, e.id) + '<div class="ref">Ref.: ' + enlazarNormas(q.referencia, e.id) + '</div></div>' +
         '<div class="acciones"><button class="btn" type="button" data-siguiente="1">' +
         (e.i + 1 < c.test.length ? 'Siguiente' : 'Ver resultado') + '</button></div>';
     }
@@ -698,8 +1326,8 @@
     var fb = '';
     if (contestada) {
       var ok = q.resp === q.correcta;
-      fb = '<div class="feedback" aria-live="polite"><strong>' + (ok ? '✓ Correcto' : '✗ Incorrecto') + '</strong>' + esc(q.explicacion || '') +
-        (q.referencia ? '<div class="ref">Ref.: ' + esc(q.referencia) + '</div>' : '') + '</div>' +
+      fb = '<div class="feedback" aria-live="polite"><strong>' + (ok ? '✓ Correcto' : '✗ Incorrecto') + '</strong>' + enlazarNormas(q.explicacion || '', q.tema) +
+        (q.referencia ? '<div class="ref">Ref.: ' + enlazarNormas(q.referencia, q.tema) + '</div>' : '') + '</div>' +
         '<div class="acciones"><button class="btn" type="button" data-gen="siguiente">' +
         (gen.i + 1 < gen.preguntas.length ? 'Siguiente' : 'Ver resultado') + '</button></div>';
     }
@@ -796,7 +1424,7 @@
         '<strong>' + esc(q.enunciado) + '</strong>' +
         (q.resp !== null && !acierto ? '<p class="sub">Tu respuesta: ' + esc(q.opciones[q.resp]) + '</p>' : '') +
         '<p class="sub">Correcta: ' + esc(q.opciones[q.correcta]) + '</p>' +
-        '<p>' + esc(q.explicacion || '') + '</p>' + (q.referencia ? '<p class="sub">Ref.: ' + esc(q.referencia) + '</p>' : '') + '</div>';
+        '<p>' + enlazarNormas(q.explicacion || '', q.tema) + '</p>' + (q.referencia ? '<p class="sub">Ref.: ' + enlazarNormas(q.referencia, q.tema) + '</p>' : '') + '</div>';
     }).join('');
     var repetir = gen.preguntas.filter(function (q) { return q.resp !== q.correcta; });
     return volverInicio() + '<h2 class="tituloTema">Resultado del ' + (examen ? 'examen' : 'test') + '</h2>' + cabecera +
@@ -822,8 +1450,31 @@
   }
 
   document.addEventListener('click', function (ev) {
+    if (ev.target === $modalNorma) { cerrarModalNorma(); return; }
     var el = ev.target.closest('button, a');
     if (!el) return;
+    if (el.dataset.cerrarModal) { cerrarModalNorma(); return; }
+    if (el.dataset.verNorma) {
+      ev.preventDefault();
+      ev.stopPropagation();
+      abrirModalNorma(el.dataset.verNorma, el.dataset.verCita || '', el.dataset.verTema || '');
+      return;
+    }
+    if (el.dataset.irDesdeModal) {
+      var destino = el.dataset.irDesdeModal;
+      cerrarModalNorma();
+      go(destino);
+      return;
+    }
+    if (el.dataset.limpiarBusqueda) {
+      if (estadoModal) {
+        estadoModal.filtro = '';
+        var $inp = document.getElementById('modal-input-buscar');
+        if ($inp) $inp.value = '';
+        actualizarListaFragmentosModal();
+      }
+      return;
+    }
     if (el.dataset.filtro) { filtro = el.dataset.filtro; if (location.hash === '#/generador') go('#/'); else render(); return; }
     if (el.dataset.gen) { accionGen(el.dataset.gen); return; }
     if (el.dataset.gex) { accionExamen(el.dataset.gex, el.dataset.n); return; }
@@ -833,6 +1484,19 @@
     if (el.dataset.test) { iniciarTest(el.dataset.test); return; }
     if (el.dataset.opcion !== undefined) { responder(Number(el.dataset.opcion)); return; }
     if (el.dataset.siguiente) { siguiente(); return; }
+  });
+
+  document.addEventListener('input', function (ev) {
+    if (ev.target && ev.target.id === 'modal-input-buscar' && estadoModal) {
+      estadoModal.filtro = ev.target.value;
+      actualizarListaFragmentosModal();
+    }
+  });
+
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key === 'Escape' && !$modalNorma.hidden) {
+      cerrarModalNorma();
+    }
   });
 
   document.addEventListener('change', function (ev) {
