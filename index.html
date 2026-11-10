@@ -301,6 +301,79 @@
     border-radius: 8px;
     background: #fff;
   }
+  .lector-precepto {
+    border: 2px solid var(--accent);
+    background: var(--surface);
+    border-radius: 10px;
+    padding: 14px 16px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .06);
+  }
+  .precepto-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 10px;
+  }
+  .precepto-titulo {
+    font-size: 1.02rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 2px 0 0;
+  }
+  .precepto-tabs {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .precepto-tab {
+    border: 1px solid var(--border);
+    background: var(--surface-2);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 4px 10px;
+    font: inherit;
+    font-size: .8rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .precepto-tab:hover {
+    border-color: var(--accent);
+  }
+  .precepto-tab.activo {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  .precepto-cuerpo {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: .93rem;
+    line-height: 1.6;
+    max-height: 340px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+  }
+  .precepto-cuerpo p {
+    margin: 0 0 8px;
+  }
+  .precepto-cuerpo p:last-child {
+    margin-bottom: 0;
+  }
+  .precepto-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
 </style>
 </head>
 <body>
@@ -588,8 +661,8 @@
       return cands[0];
     }
 
-    // Documentos Básicos del CTE
-    var mDb = clave.match(/^db[\s-](si|sua|he|hs|hr|se(?:-ae|-c|-a|-m|-f)?)/i);
+    // Documentos Básicos y secciones del CTE (DB-SI, SUA 1, SI 3, HE 1, HS 3, SE-AE, etc.)
+    var mDb = clave.match(/^(?:db[\s-]+|secci[oó]n\s+)?(si|sua|he|hs|hr|se(?:-ae|-c|-a|-m|-f)?)(?:\s+\d+)?\b/i);
     if (mDb) {
       var idDb = 'DB-' + mDb[1].toUpperCase();
       if (D.leyes[idDb]) return idDb;
@@ -599,7 +672,7 @@
     return null;
   }
 
-  // Expresión regular para detectar citas normativas y artículos en los apuntes
+  // Expresión regular para detectar citas normativas, artículos y secciones en los apuntes
   var REGEX_CITAS = new RegExp(
     '(' +
       '(?:Real\\s+Decreto\\s+Legislativo|Real\\s+Decreto-ley|Real\\s+Decreto|Decreto\\s+Legislativo|Decreto-ley|Decreto|Ley\\s+Org[aá]nica|Ley)\\s+\\d{1,4}\\/\\d{4}' +
@@ -610,9 +683,11 @@
       '|Estatuto\\s+de\\s+Autonom[ií]a(?:\\s+para\\s+Andaluc[ií]a)?' +
       '|C[oó]digo\\s+T[eé]cnico\\s+de\\s+la\\s+Edificaci[oó]n' +
       '|C[oó]digo\\s+Estructural' +
-      '|\\bDB-(?:SI|SUA|HE|HS|HR|SE(?:-AE|-C|-A|-M|-F)?)\\b' +
+      '|(?:Secci[oó]n\\s+|\\bDB-)(?:SI|SUA|HE|HS|HR|SE(?:-AE|-C|-A|-M|-F)?)(?:\\s*\\d+(?:\\.\\d+)*)?\\b' +
+      '|\\b(?:SUA|SI|HE|HS)\\s+[0-9](?:\\.[0-9]+)*\\b' +
       '|\\b(?:LOE|LPAC|LPACAP|LRJSP|LCSP|RGLCAP|LEF|LGS|LAJA|TREBEP|EBEP|LGHPA|TRLGHP|LPRL|RITE|REBT|LISTA|RGLISTA|LPHA|LPHE|LPCA|TRLS|TRLCAT|RIPCI|RSCIEI|LPH|LGP|CTE)\\b' +
-      '|(?:art[ií]culos?|arts?\\.)\\s+\\d+(?:\\s*(?:a|y|,|del|de\\s+la)\\s*\\d+)*(?:\\.[0-9]+)?' +
+      '|(?:art[ií]culos?|arts?\\.)\\s+\\d+(?:\\s*(?:bis|ter|qu[aá]ter))?(?:\\s*(?:a|al|y|,|del|de\\s+la)\\s*\\d+)*(?:\\.[0-9]+)?' +
+      '|(?:T[ií]tulo\\s+(?:Preliminar|[IVXLC]+)|Cap[ií]tulo\\s+[IVXLC0-9]+|Disposici[oó]n\\s+(?:adicional|transitoria|derogatoria|final)\\s+[a-záéíóúñ0-9ªº.]+|Anejo\\s+[A-Z0-9]+)' +
     ')',
     'gi'
   );
@@ -629,10 +704,10 @@
     var lastIdx = 0;
     var ultimaLeyId = leyPorDefectoTema(idTema);
 
-    // Primera pasada: ver si el texto menciona explícitamente alguna ley para usarla de contexto en "art. X"
+    // Primera pasada: ver si el texto menciona explícitamente alguna ley para usarla de contexto en "art. X" o "Título X"
     var primeraLeyTexto = null;
     raw.replace(REGEX_CITAS, function (match) {
-      if (!primeraLeyTexto && !/^(?:art[ií]culos?|arts?\.)/i.test(match)) {
+      if (!primeraLeyTexto && !/^(?:art[ií]culos?|arts?\.|T[ií]tulo|Cap[ií]tulo|Disposici[oó]n|Anejo)/i.test(match)) {
         var lid = resolverLeyPorMencion(match, idTema);
         if (lid) primeraLeyTexto = lid;
       }
@@ -649,11 +724,11 @@
         partes.push(esc(raw.slice(lastIdx, idx)));
       }
       var esArticulo = /^(?:art[ií]culos?|arts?\.)/i.test(matchStr);
+      var esSeccion = /^(?:Secci[oó]n|T[ií]tulo|Cap[ií]tulo|Disposici[oó]n|Anejo|(?:SUA|SI|HE|HS)\s+\d)/i.test(matchStr);
       var leyId = null;
-      if (esArticulo) {
-        // Mirar si justo después dice "de la Ley X", "del Decreto Y", "de la CE", etc.
-        var cola = raw.slice(idx + matchStr.length, idx + matchStr.length + 75);
-        var mCola = cola.match(/^\s*(?:de\s+la\s+|del\s+|de\s+)?((?:Real\s+Decreto\s+Legislativo|Real\s+Decreto-ley|Real\s+Decreto|Decreto\s+Legislativo|Decreto-ley|Decreto|Ley\s+Org[aá]nica|Ley)\s+\d{1,4}\/\d{4}|Orden\s+[A-Z]{2,6}\/\d{1,4}\/\d{4}|Constituci[oó]n\s+Espa[ñn]ola|Estatuto\s+de\s+Autonom[ií]a|C[oó]digo\s+T[eé]cnico|C[oó]digo\s+Estructural|CE|EAA|LOE|LPAC|LRJSP|LCSP|LEF|REF|LGS|LAJA|TREBEP|EBEP|LGHPA|TRLGHP|LPRL|RITE|REBT|LISTA|LPHA|LPHE|LPCA|TRLS|TRLCAT|RGLCAP|RIPCI|RSCIEI|LPH|LGP|CTE)\b/i);
+      if (esArticulo || /^(?:T[ií]tulo|Cap[ií]tulo|Disposici[oó]n|Anejo)/i.test(matchStr)) {
+        var cola = raw.slice(idx + matchStr.length, idx + matchStr.length + 80);
+        var mCola = cola.match(/^\s*(?:de\s+la\s+|del\s+|de\s+)?((?:Real\s+Decreto\s+Legislativo|Real\s+Decreto-ley|Real\s+Decreto|Decreto\s+Legislativo|Decreto-ley|Decreto|Ley\s+Org[aá]nica|Ley)\s+\d{1,4}\/\d{4}|Orden\s+[A-Z]{2,6}\/\d{1,4}\/\d{4}|Constituci[oó]n\s+Espa[ñn]ola|Estatuto\s+de\s+Autonom[ií]a|C[oó]digo\s+T[eé]cnico|C[oó]digo\s+Estructural|DB-(?:SI|SUA|HE|HS|HR|SE(?:-AE|-C|-A|-M|-F)?)|CE|EAA|LOE|LPAC|LRJSP|LCSP|LEF|REF|LGS|LAJA|TREBEP|EBEP|LGHPA|TRLGHP|LPRL|RITE|REBT|LISTA|LPHA|LPHE|LPCA|TRLS|TRLCAT|RGLCAP|RIPCI|RSCIEI|LPH|LGP|CTE)\b/i);
         if (mCola) {
           leyId = resolverLeyPorMencion(mCola[1], idTema);
         }
@@ -668,10 +743,10 @@
           leyesDetectadas.push(leyId);
         }
         var leyObj = D.leyes[leyId];
-        var etiquetaBtn = esArticulo ? '📖 Ver art. en norma' : '📖 Ver en norma';
+        var etiquetaBtn = esArticulo ? '📖 Ver artículo' : (esSeccion ? '📖 Ver sección' : '📖 Ver en norma');
         partes.push(
           '<span class="cita-norma">' + esc(matchStr) +
-          '<button type="button" class="btn-cita" data-ver-norma="' + esc(leyId) + '" data-ver-cita="' + esc(matchStr) + '" data-ver-tema="' + esc(idTema || '') + '" title="Consultar en ' + esc(leyObj.nombre) + '">' + etiquetaBtn + '</button>' +
+          '<button type="button" class="btn-cita" data-ver-norma="' + esc(leyId) + '" data-ver-cita="' + esc(matchStr) + '" data-ver-tema="' + esc(idTema || '') + '" title="Ver artículo o sección en ' + esc(leyObj.nombre) + '">' + etiquetaBtn + '</button>' +
           '</span>'
         );
       } else {
@@ -695,6 +770,161 @@
       }).join('') + '</div>';
   }
 
+  // Carga bajo demanda del articulado/secciones extraídos del PDF oficial (datos/preceptos/<id>.js)
+  var cargandoPreceptos = {};
+  function cargarPreceptosPdf(leyId, cb) {
+    window.PRECEPTOS_PDF = window.PRECEPTOS_PDF || {};
+    if (window.PRECEPTOS_PDF[leyId]) {
+      cb(window.PRECEPTOS_PDF[leyId]);
+      return;
+    }
+    if (cargandoPreceptos[leyId]) {
+      cargandoPreceptos[leyId].push(cb);
+      return;
+    }
+    cargandoPreceptos[leyId] = [cb];
+    var s = document.createElement('script');
+    s.src = 'datos/preceptos/' + encodeURIComponent(leyId) + '.js';
+    s.onload = function () {
+      var cbs = cargandoPreceptos[leyId] || [];
+      delete cargandoPreceptos[leyId];
+      var datos = (window.PRECEPTOS_PDF && window.PRECEPTOS_PDF[leyId]) || { numPages: 1, items: [] };
+      cbs.forEach(function (fn) { fn(datos); });
+    };
+    s.onerror = function () {
+      var cbs = cargandoPreceptos[leyId] || [];
+      delete cargandoPreceptos[leyId];
+      cbs.forEach(function (fn) { fn({ numPages: 1, items: [] }); });
+    };
+    document.head.appendChild(s);
+  }
+
+  function extraerNumerosArticulo(str) {
+    var s = String(str || '');
+    var nums = [];
+    // Detectar rangos tipo "arts. 14 a 20" o "artículos 47 al 50"
+    var mRango = s.match(/(?:art[ií]culos?|arts?\.)\s*(\d+)\s*(?:a|al|-)\s*(\d+)/i);
+    if (mRango) {
+      var ini = parseInt(mRango[1], 10);
+      var fin = parseInt(mRango[2], 10);
+      if (fin >= ini && fin - ini <= 25) {
+        for (var k = ini; k <= fin; k++) nums.push(String(k));
+      }
+    }
+    var mTodos = s.match(/\b\d+(?:\s*(?:bis|ter|qu[aá]ter))?\b/gi) || [];
+    mTodos.forEach(function (n) {
+      var limp = n.replace(/\s+/g, ' ').trim().toLowerCase();
+      // Evitar años tipo 2015, 1978, 2006
+      if (/^(19\d\d|20\d\d)$/.test(limp)) return;
+      if (nums.indexOf(limp) === -1) nums.push(limp);
+    });
+    return nums;
+  }
+
+  function localizarPreceptosEnPdf(datosPdf, cita, contexto, idTema, leyId) {
+    var items = (datosPdf && datosPdf.items) || [];
+    if (!items.length) return { seleccionados: [], indiceActivo: 0 };
+
+    var seleccionados = [];
+    var vistos = {};
+    function agregar(it) {
+      if (it && !vistos[it.clave]) {
+        vistos[it.clave] = true;
+        seleccionados.push(it);
+      }
+    }
+
+    var citaNorm = normClave(cita);
+    var ctxNorm = normClave(contexto);
+
+    // 1. Si la cita pulsada es un artículo concreto ("art. 14", "arts. 47 y 48")
+    if (/^(?:art[ií]culos?|arts?\.)/i.test(cita)) {
+      var numsCita = extraerNumerosArticulo(cita);
+      numsCita.forEach(function (n) {
+        items.forEach(function (it) {
+          if (it.tipo === 'art' && it.num === n) agregar(it);
+        });
+      });
+    }
+
+    // 2. Si la cita pulsada es una sección CTE ("Sección SUA 1", "SUA 1", "SI 3", "HE 1", "HS 3") o estructural ("Título I", "Capítulo II", "Disposición...")
+    var mCte = (cita + ' ' + contexto).match(/\b(SUA|SI|HE|HS|HR|SE(?:-[A-Z]+)?)\s*([0-9](?:\.[0-9]+)*)?\b/i);
+    if (mCte && mCte[2]) {
+      var codSec = (mCte[1] + ' ' + mCte[2].split('.')[0]).toLowerCase();
+      var codSub = (mCte[1] + ' ' + mCte[2]).toLowerCase().replace(/\s+/, ' ');
+      items.forEach(function (it) {
+        if (it.num === codSub || it.clave === 'sub-' + codSec + '-' + mCte[2]) agregar(it);
+      });
+      items.forEach(function (it) {
+        if (it.num === codSec || it.clave === 'sec-' + codSec) agregar(it);
+      });
+    }
+
+    if (/^(?:Secci[oó]n|T[ií]tulo|Cap[ií]tulo|Disposici[oó]n|Anejo)/i.test(cita)) {
+      items.forEach(function (it) {
+        if (normClave(it.titulo).indexOf(citaNorm) !== -1) agregar(it);
+      });
+    }
+
+    // 3. Buscar artículos citados en la misma frase/párrafo del apunte (contexto)
+    if (contexto) {
+      var mArtsCtx = contexto.match(/(?:art[ií]culos?|arts?\.)\s*\d+(?:\s*(?:bis|ter|qu[aá]ter))?(?:\s*(?:a|al|y|,)\s*\d+)*/gi) || [];
+      mArtsCtx.forEach(function (fragArt) {
+        extraerNumerosArticulo(fragArt).forEach(function (n) {
+          items.forEach(function (it) {
+            if (it.tipo === 'art' && it.num === n) agregar(it);
+          });
+        });
+      });
+    }
+
+    // 4. Coincidencia semántica automática entre el párrafo del apunte y el texto de los artículos/secciones del PDF
+    var textoBusqueda = normClave((contexto || '') + ' ' + (cita || ''));
+    var palabras = textoBusqueda.split(/[^a-z0-9]+/).filter(function (w) {
+      return w.length >= 4 && !/^(para|como|este|esta|estos|estas|sino|pero|según|segun|entre|sobre|desde|hasta|cuando|donde|toda|todo|todos|todas|cual|cuales|mismo|misma|leyes|norma|decreto|orden|real|junta|andalucia|articulo|articulos|apartado|seccion|capitulo|titulo)$/.test(w);
+    });
+
+    if (palabras.length) {
+      var puntuados = items.map(function (it) {
+        var titN = normClave(it.titulo);
+        var txtN = normClave(it.texto);
+        var pts = 0;
+        palabras.forEach(function (w) {
+          if (titN.indexOf(w) !== -1) pts += 6;
+          if (txtN.indexOf(w) !== -1) pts += 2;
+        });
+        // Bonificar subsecciones específicas de una sección CTE ya detectada
+        if (mCte && mCte[2] && it.padre && normClave(it.padre) === (mCte[1] + ' ' + mCte[2].split('.')[0]).toLowerCase()) {
+          pts += 5;
+        }
+        return { it: it, pts: pts };
+      }).filter(function (x) { return x.pts >= 6; })
+        .sort(function (a, b) { return b.pts - a.pts; });
+
+      puntuados.slice(0, 6).forEach(function (x) { agregar(x.it); });
+    }
+
+    // 5. Añadir también los artículos clave declarados en el tema para esta ley
+    if (idTema && D.contenido[idTema] && D.contenido[idTema].leyes) {
+      D.contenido[idTema].leyes.forEach(function (lEntry) {
+        if (lEntry.id === leyId && lEntry.articulos) {
+          extraerNumerosArticulo(lEntry.articulos).slice(0, 8).forEach(function (n) {
+            items.forEach(function (it) {
+              if (it.tipo === 'art' && it.num === n) agregar(it);
+            });
+          });
+        }
+      });
+    }
+
+    // 6. Si aún no hay ninguno seleccionado, mostrar los primeros artículos/secciones principales de la norma
+    if (!seleccionados.length) {
+      items.slice(0, 6).forEach(agregar);
+    }
+
+    return { seleccionados: seleccionados.slice(0, 12), indiceActivo: 0 };
+  }
+
   function extraerFragmentosNorma(leyId, idTema) {
     var ley = D.leyes[leyId];
     if (!ley) return [];
@@ -702,7 +932,6 @@
     var numMatch = ((ley.referencia || '') + ' ' + (ley.nombre || '')).match(/\b(\d{1,4}\/\d{4}|[A-Z]{2,6}\/\d{1,4}\/\d{4})\b/);
     var patronClave = numMatch ? numMatch[1].toLowerCase() : normClave(ley.nombre).slice(0, 25);
 
-    // 1. Párrafos y puntos de estudio del tema actual (o de los temas donde aplica esta ley)
     var temasRevisar = [];
     if (idTema && D.contenido[idTema]) temasRevisar.push(idTema);
     (temasPorLey[leyId] || []).forEach(function (item) {
@@ -750,23 +979,6 @@
       });
     });
 
-    // 2. Si el banco de preguntas (window.BANCO) está cargado, incluir extractos literales de artículos ('articulo')
-    if (bancoListo()) {
-      var añadidos = 0;
-      for (var i = 0; i < window.BANCO.length && añadidos < 35; i++) {
-        var bq = window.BANCO[i];
-        if (bq.origen !== 'articulo') continue;
-        var refB = normClave(bq.referencia || '');
-        if (refB.indexOf(patronClave) !== -1) {
-          resultados.push({
-            origen: 'Articulado oficial (' + (bq.referencia || ley.referencia) + ')',
-            texto: bq.explicacion || (bq.enunciado + ' ' + bq.opciones[bq.correcta]),
-            ref: bq.referencia || ley.referencia
-          });
-          añadidos++;
-        }
-      }
-    }
     return resultados;
   }
 
@@ -783,43 +995,90 @@
     return encontrado;
   }
 
-  function abrirModalNorma(leyId, cita, idTema) {
+  function abrirModalNorma(leyId, cita, idTema, contexto) {
     var ley = D.leyes[leyId];
     if (!ley) return;
-    // Cargar el banco en segundo plano si aún no está cargado para enriquecer los artículos
-    if (!bancoListo() && !gen.cargando) {
-      var s = document.createElement('script');
-      s.src = 'datos/banco.js';
-      s.onload = function () {
-        if (estadoModal && estadoModal.leyId === leyId) {
-          estadoModal.fragmentos = extraerFragmentosNorma(leyId, idTema);
-          actualizarListaFragmentosModal();
-        }
-      };
-      document.head.appendChild(s);
-    }
-
-    var filtroInicial = '';
-    if (cita && /^(?:art[ií]culos?|arts?\.)/i.test(cita)) {
-      var mNumArt = cita.match(/\d+/);
-      if (mNumArt) filtroInicial = mNumArt[0];
-    }
 
     estadoModal = {
       leyId: leyId,
       cita: cita || '',
+      contexto: contexto || '',
       idTema: idTema || '',
-      filtro: filtroInicial,
+      filtro: '',
+      datosPdf: null,
+      seleccionados: [],
+      preceptoActivo: null,
       fragmentos: extraerFragmentosNorma(leyId, idTema)
     };
 
     $modalNormaMeta.innerHTML = badgeVerificacion(ley) +
       (ley.boe_id ? '<span class="pill">' + esc(ley.boe_id) + '</span>' : '') +
-      (cita ? '<span class="pill done">Cita seleccionada: ' + esc(cita) + '</span>' : '');
+      (cita ? '<span class="pill done">Referencia pulsada: ' + esc(cita) + '</span>' : '');
     $modalNormaTitulo.textContent = ley.nombre;
     $modalNormaRef.textContent = ley.referencia || '';
 
-    // Relación con el tema actual y con todo el temario
+    $modalNormaBody.innerHTML = '<div class="card"><p style="margin:0">Buscando el artículo o sección en el PDF oficial de <strong>' + esc(ley.nombre) + '</strong>…</p></div>';
+    $modalNorma.hidden = false;
+
+    cargarPreceptosPdf(leyId, function (datosPdf) {
+      if (!estadoModal || estadoModal.leyId !== leyId) return;
+      estadoModal.datosPdf = datosPdf;
+      var loc = localizarPreceptosEnPdf(datosPdf, cita, contexto, idTema, leyId);
+      estadoModal.seleccionados = loc.seleccionados;
+      estadoModal.preceptoActivo = loc.seleccionados[0] || (datosPdf.items && datosPdf.items[0]) || null;
+      dibujarCuerpoModalNorma();
+    });
+  }
+
+  function dibujarCuerpoModalNorma() {
+    if (!estadoModal) return;
+    var leyId = estadoModal.leyId;
+    var ley = D.leyes[leyId];
+    var idTema = estadoModal.idTema;
+    var cita = estadoModal.cita;
+    var datosPdf = estadoModal.datosPdf || { numPages: 1, items: [] };
+    var todosItems = datosPdf.items || [];
+    var activo = estadoModal.preceptoActivo;
+    var pagInicial = (activo && activo.pag) ? activo.pag : 1;
+
+    // 1. Lector directo del artículo o sección extraído del PDF (lo primero que ve el usuario)
+    var lectorHtml = '<div class="lector-precepto" id="modal-lector-precepto">' +
+      renderInteriorLectorPrecepto() +
+      '</div>';
+
+    // 2. Buscador e índice directo de todos los artículos y secciones dentro del PDF
+    var opcionesSelect = '<option value="">— Elegir cualquier artículo o sección del PDF (' + todosItems.length + ' disponibles) —</option>' +
+      todosItems.map(function (it) {
+        var sel = (activo && activo.clave === it.clave) ? ' selected' : '';
+        return '<option value="' + esc(it.clave) + '"' + sel + '>' + esc(recortar(it.titulo, 95)) + ' (pág. ' + it.pag + ')</option>';
+      }).join('');
+
+    var buscadorPdfHtml = '<div class="card">' +
+      '<strong>🔎 Buscar otro artículo, sección o palabra dentro de esta norma</strong>' +
+      '<div class="modal-buscador" style="margin-top:8px">' +
+      '<select class="sel" id="modal-select-precepto" style="flex:1;min-width:240px">' + opcionesSelect + '</select>' +
+      '<input type="search" id="modal-input-buscar" value="' + esc(estadoModal.filtro) + '" placeholder="Filtrar por nº de artículo, sección o texto en el PDF…">' +
+      (estadoModal.filtro ? '<button type="button" class="btn sec" data-limpiar-busqueda="1">Limpiar</button>' : '') +
+      '</div>' +
+      '<div id="modal-lista-fragmentos" style="margin-top:10px;display:grid;gap:8px;max-height:240px;overflow-y:auto"></div>' +
+      '</div>';
+
+    // 3. Visor del PDF oficial abierto exactamente en la página del artículo/sección
+    var srcPdf = ley.pdf ? (ley.pdf + '#page=' + pagInicial) : '';
+    var visorPdfHtml = ley.pdf
+      ? '<div class="card" id="modal-card-visor">' +
+        '<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:8px">' +
+        '<strong>📄 PDF oficial abierto en la página ' + pagInicial + (datosPdf.numPages ? ' de ' + datosPdf.numPages : '') + ' (' + esc(ley.pdf) + ')</strong>' +
+        '<span class="enlaces" style="margin:0">' +
+        (ley.url ? '<a href="' + esc(ley.url) + '" target="_blank" rel="noopener">BOE / BOJA ↗</a>' : '') +
+        '<a href="' + esc(srcPdf) + '" target="_blank" rel="noopener" id="modal-link-pdf-pag">Abrir PDF en pág. ' + pagInicial + ' ↗</a>' +
+        '<a href="' + esc(ley.pdf) + '" download>Descargar PDF</a>' +
+        '</span></div>' +
+        '<iframe class="visor-pdf" id="visor-pdf-frame" src="' + esc(srcPdf) + '" title="Texto oficial de ' + esc(ley.nombre) + '"></iframe>' +
+        '</div>'
+      : '';
+
+    // 4. Relación con el tema actual y con el resto del temario
     var relTemas = temasPorLey[leyId] || [];
     var relActual = null;
     if (idTema) {
@@ -829,14 +1088,12 @@
     }
 
     var ubicacionHtml = '<div class="card">' +
-      '<strong>📍 Ubicación en las normas y en el temario</strong>' +
-      (cita ? '<p style="margin:6px 0 0">Has pulsado sobre la referencia: <strong>«' + esc(cita) + '»</strong>.</p>' : '') +
+      '<strong>📍 Aplicación en el temario</strong>' +
       (relActual
-        ? '<p style="margin:6px 0 0"><strong>En este tema (' + esc(etiquetaTema(temaPorId[idTema])) + '):</strong> ' +
+        ? '<p style="margin:6px 0 0"><strong>En ' + esc(etiquetaTema(temaPorId[idTema])) + ':</strong> ' +
           esc(relActual.rol || 'Norma aplicable al tema') +
           (relActual.articulos ? ' · <strong>Artículos clave:</strong> ' + esc(relActual.articulos) : '') + '</p>'
         : '') +
-      (ley.notas ? '<p class="sub" style="margin:6px 0 0">Nota sobre vigencia/alcance: ' + esc(ley.notas) + '</p>' : '') +
       (relTemas.length
         ? '<div class="normas-apartado" style="margin-top:8px"><span class="etiqueta">Temas donde se estudia (' + relTemas.length + '):</span>' +
           relTemas.map(function (rt) {
@@ -845,33 +1102,109 @@
             return '<button type="button" class="btn-cita" data-ir-desde-modal="#/tema/' + esc(rt.temaId) + '">' + esc(etiquetaTema(tObj)) + '</button>';
           }).join('') + '</div>'
         : '') +
-      '<div class="enlaces" style="margin-top:10px">' +
-      (ley.url ? '<a href="' + esc(ley.url) + '" target="_blank" rel="noopener">Abrir texto consolidado en BOE / BOJA ↗</a>' : '') +
-      (ley.pdf ? '<a href="' + esc(ley.pdf) + '" target="_blank" rel="noopener">Abrir PDF oficial en pestaña nueva ↗</a>' : '') +
-      (ley.pdf ? '<a href="' + esc(ley.pdf) + '" download>Descargar PDF (' + esc(ley.pdf.split('/').pop()) + ')</a>' : '') +
-      '</div></div>';
-
-    var buscadorHtml = '<div class="card">' +
-      '<strong>🔎 Localizador de artículos y preceptos en esta norma</strong>' +
-      '<p class="sub" style="margin:4px 0 8px">Busca por número de artículo (ej. «14», «artículo 28») o palabra clave para ver dónde aparece explicada o preguntada esta norma en el temario:</p>' +
-      '<div class="modal-buscador">' +
-      '<input type="search" id="modal-input-buscar" value="' + esc(estadoModal.filtro) + '" placeholder="Buscar artículo, plazo, concepto en ' + esc(recortar(ley.nombre, 40)) + '…">' +
-      (estadoModal.filtro ? '<button type="button" class="btn sec" data-limpiar-busqueda="1">Ver todos</button>' : '') +
-      '</div>' +
-      '<div id="modal-lista-fragmentos" style="margin-top:10px;display:grid;gap:8px;max-height:280px;overflow-y:auto"></div>' +
       '</div>';
 
-    var visorPdfHtml = ley.pdf
-      ? '<div class="card">' +
-        '<strong>📄 Documento oficial completo (' + esc(ley.pdf) + ')</strong>' +
-        '<p class="sub" style="margin:4px 0 8px">Puedes consultar y buscar directamente dentro del texto oficial descargado en el repositorio:</p>' +
-        '<iframe class="visor-pdf" src="' + esc(ley.pdf) + '" title="Texto oficial de ' + esc(ley.nombre) + '"></iframe>' +
-        '</div>'
-      : '';
-
-    $modalNormaBody.innerHTML = ubicacionHtml + buscadorHtml + visorPdfHtml;
+    $modalNormaBody.innerHTML = lectorHtml + buscadorPdfHtml + visorPdfHtml + ubicacionHtml;
     actualizarListaFragmentosModal();
-    $modalNorma.hidden = false;
+  }
+
+  function renderInteriorLectorPrecepto() {
+    if (!estadoModal) return '';
+    var datosPdf = estadoModal.datosPdf || { numPages: 1, items: [] };
+    var todos = datosPdf.items || [];
+    var sel = estadoModal.seleccionados || [];
+    var activo = estadoModal.preceptoActivo;
+
+    if (!activo) {
+      return '<div class="precepto-head"><div><span class="pill warn">Documento oficial</span>' +
+        '<h4 class="precepto-titulo">Consulta el documento en el visor PDF inferior</h4></div></div>';
+    }
+
+    var tabsHtml = '';
+    if (sel.length > 1) {
+      tabsHtml = '<div class="precepto-tabs">' +
+        '<span class="sub" style="align-self:center;margin:0 4px 0 0;font-size:.78rem">Artículos / secciones relacionados:</span>' +
+        sel.map(function (it) {
+          var esAct = activo && activo.clave === it.clave;
+          return '<button type="button" class="precepto-tab' + (esAct ? ' activo' : '') + '" data-seleccionar-precepto="' + esc(it.clave) + '">' +
+            esc(recortar(it.titulo, 48)) + ' (pág. ' + it.pag + ')' +
+            '</button>';
+        }).join('') +
+        '</div>';
+    }
+
+    var idxEnTodos = -1;
+    for (var i = 0; i < todos.length; i++) {
+      if (todos[i].clave === activo.clave) { idxEnTodos = i; break; }
+    }
+    var ant = idxEnTodos > 0 ? todos[idxEnTodos - 1] : null;
+    var sig = (idxEnTodos !== -1 && idxEnTodos + 1 < todos.length) ? todos[idxEnTodos + 1] : null;
+
+    var parrafosTexto = String(activo.texto || '').split('\n').filter(Boolean).map(function (linea) {
+      return '<p>' + esc(linea) + '</p>';
+    }).join('');
+
+    return '<div class="precepto-head">' +
+      '<div>' +
+      '<div class="tema-meta">' +
+      '<span class="pill done">📖 Texto literal en el PDF oficial</span>' +
+      '<span class="pill ok">Página ' + activo.pag + (datosPdf.numPages ? ' de ' + datosPdf.numPages : '') + ' del PDF</span>' +
+      (estadoModal.cita ? '<span class="sub" style="margin:0">Cita pulsada: «' + esc(estadoModal.cita) + '»</span>' : '') +
+      '</div>' +
+      '<h4 class="precepto-titulo">' + esc(activo.titulo) + '</h4>' +
+      '</div>' +
+      '<button type="button" class="btn-cita" data-ir-pagina-pdf="' + activo.pag + '">📄 Ver en pág. ' + activo.pag + ' del visor PDF ↓</button>' +
+      '</div>' +
+      tabsHtml +
+      '<div class="precepto-cuerpo">' + (parrafosTexto || '<p>Consulta este precepto en la página ' + activo.pag + ' del visor PDF inferior.</p>') + '</div>' +
+      '<div class="precepto-nav">' +
+      (ant
+        ? '<button type="button" class="btn-cita" data-seleccionar-precepto="' + esc(ant.clave) + '">← Anterior: ' + esc(recortar(ant.titulo, 42)) + '</button>'
+        : '<span></span>') +
+      (sig
+        ? '<button type="button" class="btn-cita" data-seleccionar-precepto="' + esc(sig.clave) + '">Siguiente: ' + esc(recortar(sig.titulo, 42)) + ' →</button>'
+        : '<span></span>') +
+      '</div>';
+  }
+
+  function cambiarPreceptoActivo(clave, hacerScrollPdf) {
+    if (!estadoModal || !estadoModal.datosPdf) return;
+    var todos = estadoModal.datosPdf.items || [];
+    var encontrado = null;
+    for (var i = 0; i < todos.length; i++) {
+      if (todos[i].clave === clave) { encontrado = todos[i]; break; }
+    }
+    if (!encontrado) return;
+    estadoModal.preceptoActivo = encontrado;
+    // Asegurar que esté en las pestañas seleccionadas para poder volver a él fácilmente
+    var yaEsta = estadoModal.seleccionados.some(function (x) { return x.clave === encontrado.clave; });
+    if (!yaEsta) {
+      estadoModal.seleccionados = [encontrado].concat(estadoModal.seleccionados.slice(0, 9));
+    }
+    var $lector = document.getElementById('modal-lector-precepto');
+    if ($lector) $lector.innerHTML = renderInteriorLectorPrecepto();
+    var $sel = document.getElementById('modal-select-precepto');
+    if ($sel) $sel.value = encontrado.clave;
+    irAPaginaVisorPdf(encontrado.pag, hacerScrollPdf);
+  }
+
+  function irAPaginaVisorPdf(pag, hacerScroll) {
+    if (!estadoModal) return;
+    var ley = D.leyes[estadoModal.leyId];
+    if (!ley || !ley.pdf) return;
+    var $frame = document.getElementById('visor-pdf-frame');
+    var nuevoSrc = ley.pdf + '#page=' + pag;
+    if ($frame && $frame.getAttribute('src') !== nuevoSrc) {
+      $frame.setAttribute('src', nuevoSrc);
+    }
+    var $link = document.getElementById('modal-link-pdf-pag');
+    if ($link) {
+      $link.setAttribute('href', nuevoSrc);
+      $link.textContent = 'Abrir PDF en pág. ' + pag + ' ↗';
+    }
+    if (hacerScroll && $frame) {
+      $frame.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 
   function actualizarListaFragmentosModal() {
@@ -879,23 +1212,41 @@
     var $cont = document.getElementById('modal-lista-fragmentos');
     if (!$cont) return;
     var q = normClave(estadoModal.filtro);
-    var lista = estadoModal.fragmentos.filter(function (f) {
+    var todosPdf = (estadoModal.datosPdf && estadoModal.datosPdf.items) || [];
+
+    if (q) {
+      // Buscar directamente en los artículos y secciones del PDF oficial
+      var coincidenciasPdf = todosPdf.filter(function (it) {
+        return normClave(it.titulo + ' ' + it.texto).indexOf(q) !== -1;
+      });
+      if (coincidenciasPdf.length) {
+        $cont.innerHTML = coincidenciasPdf.slice(0, 25).map(function (it) {
+          return '<div class="extracto-item">' +
+            '<div class="extracto-meta" style="display:flex;justify-content:space-between;align-items:center;gap:8px">' +
+            '<span>📄 ' + esc(it.titulo) + ' (Página ' + it.pag + ' del PDF)</span>' +
+            '<button type="button" class="btn-cita" data-seleccionar-precepto="' + esc(it.clave) + '">📖 Mostrar artículo arriba</button>' +
+            '</div>' +
+            '<div>' + esc(recortar(it.texto.replace(/\s+/g, ' '), 280)) + '</div>' +
+            '</div>';
+        }).join('');
+        return;
+      }
+    }
+
+    // Si no hay filtro o además se muestran los apuntes del temario donde aparece esta norma
+    var listaApuntes = estadoModal.fragmentos.filter(function (f) {
       if (!q) return true;
-      var textoCompleto = normClave(f.origen + ' ' + f.texto + ' ' + f.ref);
-      return textoCompleto.indexOf(q) !== -1;
+      return normClave(f.origen + ' ' + f.texto + ' ' + f.ref).indexOf(q) !== -1;
     });
-    if (!lista.length && q) {
-      $cont.innerHTML = '<div class="extracto-item"><div class="extracto-meta">Sin coincidencias exactas para «' + esc(estadoModal.filtro) + '» en los extractos resumidos</div>' +
-        '<p style="margin:0">Pulsa <strong>Ver todos</strong> para mostrar todos los preceptos de esta norma en el temario o consulta el documento oficial en el visor PDF inferior.</p></div>';
+
+    if (!listaApuntes.length) {
+      $cont.innerHTML = '<div class="extracto-item"><p style="margin:0">Usa el desplegable superior para elegir cualquier artículo o sección del PDF oficial.</p></div>';
       return;
     }
-    if (!lista.length) {
-      $cont.innerHTML = '<div class="extracto-item"><p style="margin:0">Consulta el texto íntegro en el visor PDF oficial situado justo debajo.</p></div>';
-      return;
-    }
-    $cont.innerHTML = lista.slice(0, 30).map(function (f) {
+
+    $cont.innerHTML = listaApuntes.slice(0, 15).map(function (f) {
       return '<div class="extracto-item">' +
-        '<div class="extracto-meta">' + esc(f.origen) + (f.ref ? ' · ' + esc(f.ref) : '') + '</div>' +
+        '<div class="extracto-meta">Apuntes del temario · ' + esc(f.origen) + '</div>' +
         '<div>' + esc(f.texto) + '</div>' +
         '</div>';
     }).join('');
@@ -1457,7 +1808,23 @@
     if (el.dataset.verNorma) {
       ev.preventDefault();
       ev.stopPropagation();
-      abrirModalNorma(el.dataset.verNorma, el.dataset.verCita || '', el.dataset.verTema || '');
+      var bloqueCtx = el.closest('li, p, .fallo, .feedback, .card');
+      var textoCtx = '';
+      if (bloqueCtx) {
+        var clon = bloqueCtx.cloneNode(true);
+        var btns = clon.querySelectorAll('button, .normas-apartado');
+        for (var b = 0; b < btns.length; b++) btns[b].remove();
+        textoCtx = (clon.textContent || '').replace(/\s+/g, ' ').trim();
+      }
+      abrirModalNorma(el.dataset.verNorma, el.dataset.verCita || '', el.dataset.verTema || '', textoCtx);
+      return;
+    }
+    if (el.dataset.seleccionarPrecepto) {
+      cambiarPreceptoActivo(el.dataset.seleccionarPrecepto, false);
+      return;
+    }
+    if (el.dataset.irPaginaPdf) {
+      irAPaginaVisorPdf(Number(el.dataset.irPaginaPdf), true);
       return;
     }
     if (el.dataset.irDesdeModal) {
@@ -1501,6 +1868,10 @@
 
   document.addEventListener('change', function (ev) {
     var t = ev.target;
+    if (t && t.id === 'modal-select-precepto' && t.value) {
+      cambiarPreceptoActivo(t.value, false);
+      return;
+    }
     if (t.dataset && t.dataset.gtema) {
       var s = temasGen();
       if (t.checked) s.add(t.dataset.gtema); else s.delete(t.dataset.gtema);
