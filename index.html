@@ -85,12 +85,60 @@
   .stats { display: flex; gap: 12px; flex-wrap: wrap; font-size: .85rem; color: var(--muted); margin-bottom: 8px; }
   .bar { height: 6px; background: var(--surface-2); border-radius: 99px; overflow: hidden; }
   .bar > span { display: block; height: 100%; background: var(--accent); width: 0; transition: width .3s; }
-  .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .tabs { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 10px; }
   .tab {
     border: 1px solid var(--border); background: var(--surface); color: var(--text);
     padding: 6px 12px; border-radius: 99px; font: inherit; font-size: .9rem; cursor: pointer;
   }
   .tab[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+  .btn-toggle-normas {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 11px;
+    border-radius: 6px;
+    border: 1.5px dashed var(--border);
+    background: var(--surface-2);
+    color: var(--muted);
+    font: inherit;
+    font-size: .82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .18s ease;
+  }
+  .btn-toggle-normas .sw-track {
+    position: relative;
+    width: 28px;
+    height: 16px;
+    border-radius: 99px;
+    background: var(--border);
+    display: inline-block;
+    transition: background .18s ease;
+    flex-shrink: 0;
+  }
+  .btn-toggle-normas .sw-thumb {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+    transition: transform .18s ease;
+  }
+  .btn-toggle-normas[aria-pressed="true"] {
+    border-style: solid;
+    border-color: var(--ok);
+    background: var(--ok-bg);
+    color: var(--ok);
+  }
+  .btn-toggle-normas[aria-pressed="true"] .sw-track {
+    background: var(--ok);
+  }
+  .btn-toggle-normas[aria-pressed="true"] .sw-thumb {
+    transform: translateX(12px);
+  }
 
   main { padding-bottom: 48px; }
   .lista { list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 10px; }
@@ -458,6 +506,31 @@
     return '<span class="pill bad">Pendiente de verificar</span>';
   }
 
+  var ENLACES_KEY = 'estudio-enlaces-normas-v1';
+  var enlacesNormasActivos = (function () {
+    try {
+      var v = localStorage.getItem(ENLACES_KEY);
+      return v === null ? true : v === '1';
+    } catch (e) { return true; }
+  })();
+
+  function alternarEnlacesNormas() {
+    enlacesNormasActivos = !enlacesNormasActivos;
+    try { localStorage.setItem(ENLACES_KEY, enlacesNormasActivos ? '1' : '0'); } catch (e) { /* sin almacenamiento */ }
+    var scrollY = window.scrollY;
+    render();
+    window.scrollTo(0, scrollY);
+  }
+
+  function botonToggleNormasHtml(extraStyle) {
+    return '<button class="btn-toggle-normas" type="button" data-toggle-normas="1" aria-pressed="' + enlacesNormasActivos + '"' +
+      (extraStyle ? ' style="' + extraStyle + '"' : '') +
+      ' title="Activar o desactivar los botones de consulta de leyes y artículos dentro de los apuntes">' +
+      '<span class="sw-track"><span class="sw-thumb"></span></span>' +
+      '<span>⚖️ Enlaces a leyes: ' + (enlacesNormasActivos ? 'ON' : 'OFF') + '</span>' +
+      '</button>';
+  }
+
   function renderTabs() {
     var comunes = D.temario.temas.filter(function (t) { return t.bloque === 'comun'; }).length;
     var espec = D.temario.temas.filter(function (t) { return t.bloque !== 'comun'; }).length;
@@ -469,7 +542,8 @@
     $tabs.innerHTML = opts.map(function (o) {
       return '<button class="tab" type="button" data-filtro="' + o[0] + '" aria-pressed="' + (filtro === o[0]) + '">' + esc(o[1]) + '</button>';
     }).join('') +
-      '<button class="tab" type="button" data-ir="#/generador" aria-pressed="' + (location.hash === '#/generador') + '">Generador de tests</button>';
+      '<button class="tab" type="button" data-ir="#/generador" aria-pressed="' + (location.hash === '#/generador') + '">Generador de tests</button>' +
+      botonToggleNormasHtml();
   }
 
   function renderStats() {
@@ -700,6 +774,7 @@
 
   function enlazarNormas(texto, idTema, leyesDetectadas) {
     var raw = String(texto == null ? '' : texto);
+    if (!enlacesNormasActivos) return esc(raw);
     var partes = [];
     var lastIdx = 0;
     var ultimaLeyId = leyPorDefectoTema(idTema);
@@ -761,7 +836,7 @@
   }
 
   function barraNormasApartado(leyesIds, idTema) {
-    if (!leyesIds || !leyesIds.length) return '';
+    if (!enlacesNormasActivos || !leyesIds || !leyesIds.length) return '';
     return '<div class="normas-apartado"><span class="etiqueta">Normas citadas en este apartado:</span>' +
       leyesIds.map(function (lid) {
         var l = D.leyes[lid];
@@ -1275,7 +1350,10 @@
         '<div class="card"><p>Este tema todavía no tiene resumen, leyes ni test. Se completará en las siguientes fases.</p></div>';
     }
 
-    var resumen = '<section class="seccion"><h3>Resumen <span class="sub" style="font-weight:normal;font-size:.82rem">· Pulsa «📖 Ver en norma» junto a cualquier ley o artículo para abrir su texto oficial</span></h3>' + c.resumen.map(function (b) {
+    var notaEnlaces = enlacesNormasActivos
+      ? ' <span class="sub" style="font-weight:normal;font-size:.82rem">· Pulsa «📖 Ver…» junto a cualquier ley o artículo para abrir su texto oficial</span>'
+      : '';
+    var resumen = '<section class="seccion"><h3>Resumen' + notaEnlaces + '</h3>' + c.resumen.map(function (b) {
       var leyesBloque = [];
       var puntosHtml = b.puntos.map(function (x) {
         return '<li>' + enlazarNormas(x, id, leyesBloque) + '</li>';
@@ -1330,7 +1408,9 @@
       ? '<p class="sub">Último test: ' + p.ultimo + '/' + maxPreguntas + ' · intentos: ' + (p.intentos || 0) + '</p>'
       : '';
 
-    var accion = '<div class="acciones"><button class="btn" type="button" data-test="' + esc(id) + '">Hacer test (' + maxPreguntas + ' preguntas)</button></div>' + resultado;
+    var accion = '<div class="acciones" style="align-items:center"><button class="btn" type="button" data-test="' + esc(id) + '">Hacer test (' + maxPreguntas + ' preguntas)</button>' +
+      botonToggleNormasHtml('margin-left:0;padding:9px 14px;font-size:.88rem') +
+      '</div>' + resultado;
 
     return cabecera + resumen + desarrolloHtml + leyesHtml + fuentesHtml + accion;
   }
@@ -1805,6 +1885,7 @@
     var el = ev.target.closest('button, a');
     if (!el) return;
     if (el.dataset.cerrarModal) { cerrarModalNorma(); return; }
+    if (el.dataset.toggleNormas) { alternarEnlacesNormas(); return; }
     if (el.dataset.verNorma) {
       ev.preventDefault();
       ev.stopPropagation();
