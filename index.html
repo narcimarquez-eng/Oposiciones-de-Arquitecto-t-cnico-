@@ -607,8 +607,11 @@
   }
   function badgeVerificacion(ley) {
     if (!ley) return '<span class="pill bad">Ley no catalogada</span>';
-    if (ley.verificada === true) return '<span class="pill ok">Verificada en BOE</span>';
-    if (ley.verificada === 'parcial') return '<span class="pill warn">Verificación parcial</span>';
+    if (ley.verificada === true) {
+      var origen = /BOJA/i.test(ley.referencia) ? 'BOJA' : (/DOUE|Tratado/i.test(ley.referencia) ? 'DOUE' : (/CTE|DB-/i.test(ley.id) ? 'CTE' : 'BOE'));
+      return '<span class="pill ok" title="Texto oficial completo y articulado indexado en el visor normativo">✓ Verificada en ' + origen + '</span>';
+    }
+    if (ley.verificada === 'parcial') return '<span class="pill warn" title="Texto en proceso de cotejo de artículos específicos">Verificación parcial</span>';
     return '<span class="pill bad">Pendiente de verificar</span>';
   }
 
@@ -1822,15 +1825,40 @@
     var c = D.contenido[idTema];
     if (!c) return [];
     var lista = [];
+    var firmasVistas = {};
+
+    function agregarFicha(apartado, texto) {
+      if (!texto || texto.length < 20) return;
+      var cl = clasificarFicha(texto);
+      if (cl && REGEX_DATOS_CLAVE.test(texto)) {
+        REGEX_DATOS_CLAVE.lastIndex = 0;
+        var fKey = normClave(texto).slice(0, 90);
+        if (!firmasVistas[fKey]) {
+          firmasVistas[fKey] = true;
+          lista.push({ temaId: idTema, apartado: apartado, cat: cl.cat, etiqueta: cl.etiqueta, texto: texto });
+        }
+      }
+    }
+
     (c.resumen || []).forEach(function (b) {
       (b.puntos || []).forEach(function (pto) {
-        var cl = clasificarFicha(pto);
-        if (cl && REGEX_DATOS_CLAVE.test(pto)) {
-          REGEX_DATOS_CLAVE.lastIndex = 0;
-          lista.push({ temaId: idTema, apartado: b.titulo, cat: cl.cat, etiqueta: cl.etiqueta, texto: pto });
-        }
+        agregarFicha(b.titulo, pto);
       });
     });
+
+    (c.desarrollo || []).forEach(function (sec) {
+      if (/Síntesis de verificación/i.test(sec.titulo)) return;
+      (sec.parrafos || []).forEach(function (par) {
+        // Frases individuales del desarrollo que contienen plazos o datos numéricos
+        var frases = par.split(/(?<=[.;])\s+/);
+        frases.forEach(function (fr) {
+          if (fr.length >= 35 && fr.length <= 320) {
+            agregarFicha(sec.titulo.replace(/^\d+\.\s*/, ''), fr);
+          }
+        });
+      });
+    });
+
     return lista;
   }
 

@@ -121,7 +121,9 @@ for (const f of ficheros) {
     }
   }
 
-  contenido[t.id] = { resumen: t.resumen, leyes: t.leyes, test: t.test };
+  const fHechos = path.join(DIR, 'hechos', `${t.id}.json`);
+  const hechos = fs.existsSync(fHechos) ? leerJSON(fHechos) : [];
+  contenido[t.id] = { resumen: t.resumen, leyes: t.leyes, test: t.test, hechos };
 
   // desarrollo extenso (opcional): datos/desarrollo/<id>.json
   const fDes = path.join(DIR, 'desarrollo', `${t.id}.json`);
