@@ -189,6 +189,10 @@ if (errores.length) {
 }
 
 // 5. Generar datos/contenido.js
+const cuerpos = fs.existsSync(path.join(DIR, 'cuerpos-andalucia.json'))
+  ? leerJSON(path.join(DIR, 'cuerpos-andalucia.json'))
+  : {};
+
 const salida = {
   temario: {
     fuente: temario.fuente || 'Junta de Andalucía',
@@ -197,6 +201,7 @@ const salida = {
     bloques: temario.bloques,
     temas: temario.temas.map((t) => ({ id: t.id, num: t.num, bloque: t.bloque, titulo: t.titulo })),
   },
+  cuerpos,
   leyes,
   contenido,
 };
