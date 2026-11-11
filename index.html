@@ -422,6 +422,110 @@
     flex-wrap: wrap;
     margin-top: 10px;
   }
+  .buscador-global {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 12px 0 14px;
+    background: var(--surface);
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 6px 12px;
+  }
+  .buscador-global:focus-within {
+    border-color: var(--accent);
+  }
+  .buscador-global input {
+    border: none;
+    background: transparent;
+    color: var(--text);
+    font: inherit;
+    font-size: .95rem;
+    width: 100%;
+    outline: none;
+    padding: 4px 0;
+  }
+  mark.hl {
+    background: var(--warn-bg);
+    color: var(--warn);
+    padding: 0 3px;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  .btn-dudosa {
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--muted);
+    border-radius: 8px;
+    padding: 5px 10px;
+    font: inherit;
+    font-size: .8rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .btn-dudosa.activa {
+    border-color: var(--warn);
+    background: var(--warn-bg);
+    color: var(--warn);
+  }
+  .cronometro-iaap {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    color: var(--accent);
+  }
+  .cronometro-iaap.alerta {
+    background: var(--bad-bg);
+    border-color: var(--bad);
+    color: var(--bad);
+  }
+  .dato-oculto {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--accent-text);
+    border-radius: 5px;
+    padding: 1px 7px;
+    font-weight: 700;
+    font-size: .84rem;
+    cursor: pointer;
+    user-select: none;
+  }
+  .dato-oculto.revelado {
+    background: var(--ok-bg);
+    color: var(--ok);
+    border: 1px solid var(--ok);
+  }
+  .notas-area {
+    width: 100%;
+    min-height: 95px;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface-2);
+    color: var(--text);
+    font: inherit;
+    font-size: .92rem;
+    resize: vertical;
+    margin-top: 8px;
+  }
+  .ficha-grid {
+    display: grid;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .ficha-item {
+    background: var(--surface-2);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 9px 12px;
+    font-size: .9rem;
+  }
 </style>
 </head>
 <body>
@@ -450,6 +554,8 @@
     <div class="modal-body" id="modal-norma-body"></div>
   </div>
 </div>
+
+<input type="file" id="input-importar-json" accept=".json,application/json" hidden>
 
 <div class="wrap">
   <p class="pie">
@@ -531,34 +637,284 @@
       '</button>';
   }
 
+  // ---------- Almacenamiento de Notas, Repaso (Falladas/Dudosas), Buscador y Fichas ----------
+  var NOTAS_KEY = 'estudio-notas-v1';
+  var REPASO_KEY = 'estudio-repaso-v1';
+  var busquedaGlobal = '';
+  var estadoFichas = { ocultarDatos: false, categoria: 'todas', bloque: 'todos', busqueda: '' };
+  var estadoNormativa = { categoria: 'todas', busqueda: '' };
+
+  function leerNotas() {
+    try { return JSON.parse(localStorage.getItem(NOTAS_KEY)) || {}; } catch (e) { return {}; }
+  }
+  function guardarNotaTema(idTema, texto) {
+    var n = leerNotas();
+    if (texto && texto.trim()) n[idTema] = texto;
+    else delete n[idTema];
+    try { localStorage.setItem(NOTAS_KEY, JSON.stringify(n)); } catch (e) { /* sin almacenamiento */ }
+  }
+
+  function leerRepaso() {
+    try {
+      var r = JSON.parse(localStorage.getItem(REPASO_KEY));
+      if (r && r.falladas && r.dudosas) return r;
+    } catch (e) { /* sin almacenamiento */ }
+    return { falladas: {}, dudosas: {} };
+  }
+  function guardarRepaso(r) {
+    try { localStorage.setItem(REPASO_KEY, JSON.stringify(r)); } catch (e) { /* sin almacenamiento */ }
+  }
+  function clavePreguntaRepaso(temaId, enunciado) {
+    return (temaId || 'g') + '::' + normClave(enunciado).slice(0, 110);
+  }
+  function normalizarPreguntaParaRepaso(q, temaId) {
+    var enun = q.enunciado || q.pregunta || '';
+    return {
+      clave: clavePreguntaRepaso(temaId || q.tema, enun),
+      tema: temaId || q.tema || 'c01',
+      origen: q.origen || 'revisada',
+      enunciado: enun,
+      opciones: (q.opciones || []).slice(),
+      correcta: q.correcta || 0,
+      explicacion: q.explicacion || '',
+      referencia: q.referencia || '',
+      fecha: new Date().toISOString()
+    };
+  }
+  function registrarFalloOAciertoRepaso(q, temaId, esAcierto) {
+    var r = leerRepaso();
+    var norm = normalizarPreguntaParaRepaso(q, temaId);
+    if (!esAcierto) {
+      var prev = r.falladas[norm.clave];
+      norm.veces = (prev && prev.veces ? prev.veces : 0) + 1;
+      r.falladas[norm.clave] = norm;
+      guardarRepaso(r);
+    } else if (r.falladas[norm.clave]) {
+      // Si se acierta en un repaso posterior, se elimina de pendientes de fallo
+      delete r.falladas[norm.clave];
+      guardarRepaso(r);
+    }
+  }
+  function esPreguntaDudosa(q, temaId) {
+    var r = leerRepaso();
+    var c = clavePreguntaRepaso(temaId || q.tema, q.enunciado || q.pregunta || '');
+    return !!r.dudosas[c];
+  }
+  function alternarPreguntaDudosa(q, temaId) {
+    var r = leerRepaso();
+    var norm = normalizarPreguntaParaRepaso(q, temaId);
+    if (r.dudosas[norm.clave]) delete r.dudosas[norm.clave];
+    else r.dudosas[norm.clave] = norm;
+    guardarRepaso(r);
+  }
+
+  // Exportar e importar copia de seguridad JSON completa
+  function exportarCopiaSeguridad() {
+    var datos = {
+      version: 1,
+      fecha: new Date().toISOString(),
+      progreso: leerProgreso(),
+      estadisticas: leerStats(),
+      repaso: leerRepaso(),
+      notas: leerNotas()
+    };
+    var blob = new Blob([JSON.stringify(datos, null, 2)], { type: 'application/json' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'progreso-arquitecto-tecnico-' + new Date().toISOString().slice(0, 10) + '.json';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1500);
+  }
+
+  function importarCopiaSeguridadArchivo(file) {
+    if (!file) return;
+    var reader = new FileReader();
+    reader.onload = function (ev) {
+      try {
+        var d = JSON.parse(ev.target.result);
+        if (d.progreso) guardarProgreso(d.progreso);
+        if (d.estadisticas) guardarStats(d.estadisticas);
+        if (d.repaso) guardarRepaso(d.repaso);
+        if (d.notas) localStorage.setItem(NOTAS_KEY, JSON.stringify(d.notas));
+        render();
+      } catch (e) { /* archivo inválido */ }
+    };
+    reader.readAsText(file);
+  }
+
   function renderTabs() {
     var comunes = D.temario.temas.filter(function (t) { return t.bloque === 'comun'; }).length;
     var espec = D.temario.temas.filter(function (t) { return t.bloque !== 'comun'; }).length;
+    var h = location.hash || '#/';
+    var enLista = h === '#/' || h === '';
     var opts = [
       ['todos', 'Todos (' + D.temario.temas.length + ')'],
       ['comun', 'Común (' + comunes + ')'],
       ['arquitectura-tecnica', 'Específico (' + espec + ')']
     ];
     $tabs.innerHTML = opts.map(function (o) {
-      return '<button class="tab" type="button" data-filtro="' + o[0] + '" aria-pressed="' + (filtro === o[0]) + '">' + esc(o[1]) + '</button>';
+      return '<button class="tab" type="button" data-filtro="' + o[0] + '" aria-pressed="' + (enLista && filtro === o[0]) + '">' + esc(o[1]) + '</button>';
     }).join('') +
-      '<button class="tab" type="button" data-ir="#/generador" aria-pressed="' + (location.hash === '#/generador') + '">Generador de tests</button>' +
+      '<button class="tab" type="button" data-ir="#/generador" aria-pressed="' + (h === '#/generador') + '">Generador de tests</button>' +
+      '<button class="tab" type="button" data-ir="#/fichas" aria-pressed="' + (h === '#/fichas') + '">⚡ Plazos y Cifras</button>' +
+      '<button class="tab" type="button" data-ir="#/normativa" aria-pressed="' + (h === '#/normativa') + '">📚 Normativa (' + Object.keys(D.leyes).length + ')</button>' +
       botonToggleNormasHtml();
   }
 
   function renderStats() {
     var prog = leerProgreso();
+    var rep = leerRepaso();
+    var notas = leerNotas();
     var total = D.temario.temas.length;
     var conC = Object.keys(D.contenido).length;
     var vistos = Object.keys(prog).filter(function (k) { return prog[k] && prog[k].visto; }).length;
+    var nFallos = Object.keys(rep.falladas).length;
+    var nDudosas = Object.keys(rep.dudosas).length;
+    var nNotas = Object.keys(notas).length;
     $stats.innerHTML =
       '<span>Con contenido: <strong>' + conC + '/' + total + '</strong></span>' +
-      '<span>Estudiados: <strong>' + vistos + '</strong></span>';
+      '<span>Estudiados: <strong>' + vistos + '</strong></span>' +
+      (nFallos ? '<span><button type="button" class="btn-cita" data-repasar="falladas" style="margin:0">📌 Falladas: ' + nFallos + '</button></span>' : '') +
+      (nDudosas ? '<span><button type="button" class="btn-cita" data-repasar="dudosas" style="margin:0">⭐ Dudosas: ' + nDudosas + '</button></span>' : '') +
+      (nNotas ? '<span>📝 Notas en <strong>' + nNotas + '</strong> temas</span>' : '') +
+      '<span style="margin-left:auto;display:inline-flex;gap:6px">' +
+      '<button type="button" class="btn-cita" data-backup="exportar" style="margin:0" title="Descargar copia de seguridad de tu progreso, notas y estadísticas">💾 Exportar</button>' +
+      '<button type="button" class="btn-cita" data-backup="importar" style="margin:0" title="Restaurar copia de seguridad desde un archivo JSON">📂 Importar</button>' +
+      '</span>';
     $barra.style.width = (conC / total * 100).toFixed(1) + '%';
+  }
+
+  function resaltarBusqueda(texto, query) {
+    var s = esc(texto);
+    if (!query || query.trim().length < 2) return s;
+    var qEsc = query.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    try {
+      var rx = new RegExp('(' + qEsc + ')', 'gi');
+      return s.replace(rx, '<mark class="hl">$1</mark>');
+    } catch (e) {
+      return s;
+    }
+  }
+
+  function vistaResultadosBusquedaGlobal(qRaw) {
+    var q = normClave(qRaw);
+    var resTemas = [];
+    var resApuntes = [];
+    var resPreguntas = [];
+    var resNormas = [];
+
+    D.temario.temas.forEach(function (t) {
+      if (filtro !== 'todos' && t.bloque !== filtro) return;
+      if (normClave(etiquetaTema(t) + ' ' + t.titulo).indexOf(q) !== -1) {
+        resTemas.push(t);
+      }
+      var c = D.contenido[t.id];
+      if (!c) return;
+      (c.resumen || []).forEach(function (b) {
+        (b.puntos || []).forEach(function (pto) {
+          if (resApuntes.length < 40 && normClave(b.titulo + ' ' + pto).indexOf(q) !== -1) {
+            resApuntes.push({ tema: t, seccion: 'Resumen · ' + b.titulo, texto: pto });
+          }
+        });
+      });
+      (c.desarrollo || []).forEach(function (s) {
+        (s.parrafos || []).forEach(function (par) {
+          if (resApuntes.length < 40 && normClave(s.titulo + ' ' + par).indexOf(q) !== -1) {
+            resApuntes.push({ tema: t, seccion: 'Desarrollo · ' + s.titulo, texto: par });
+          }
+        });
+      });
+      (c.test || []).forEach(function (preg) {
+        if (resPreguntas.length < 25 && normClave(preg.pregunta + ' ' + preg.explicacion + ' ' + preg.referencia).indexOf(q) !== -1) {
+          resPreguntas.push({ tema: t, q: preg });
+        }
+      });
+    });
+
+    Object.keys(D.leyes).forEach(function (lid) {
+      var l = D.leyes[lid];
+      if (resNormas.length < 20 && normClave(l.id + ' ' + l.nombre + ' ' + l.referencia).indexOf(q) !== -1) {
+        resNormas.push(l);
+      }
+    });
+
+    var html = '<p class="sub">Resultados para <strong>«' + esc(qRaw) + '»</strong>: ' +
+      resTemas.length + ' temas · ' + resApuntes.length + (resApuntes.length === 40 ? '+' : '') + ' apartados de apuntes · ' +
+      resPreguntas.length + (resPreguntas.length === 25 ? '+' : '') + ' preguntas · ' + resNormas.length + ' normas.</p>';
+
+    if (resTemas.length) {
+      html += '<section class="seccion"><h3>Temas (' + resTemas.length + ')</h3><ul class="lista">' +
+        resTemas.map(function (t) {
+          return '<li><button class="tema-card" type="button" data-tema="' + esc(t.id) + '">' +
+            '<div class="tema-meta"><strong>' + esc(etiquetaTema(t)) + '</strong></div>' +
+            '<p class="tema-title">' + resaltarBusqueda(t.titulo, qRaw) + '</p></button></li>';
+        }).join('') + '</ul></section>';
+    }
+
+    if (resApuntes.length) {
+      html += '<section class="seccion"><h3>Apuntes de resumen y desarrollo (' + resApuntes.length + ')</h3>' +
+        resApuntes.map(function (a) {
+          return '<div class="card">' +
+            '<div class="tema-meta" style="justify-content:space-between">' +
+            '<span><strong>' + esc(etiquetaTema(a.tema)) + '</strong> · ' + esc(a.seccion) + '</span>' +
+            '<button type="button" class="btn-cita" data-tema="' + esc(a.tema.id) + '">Ir al tema →</button>' +
+            '</div>' +
+            '<p style="margin:6px 0 0;font-size:.92rem">' + resaltarBusqueda(recortar(a.texto, 340), qRaw) + '</p>' +
+            '</div>';
+        }).join('') + '</section>';
+    }
+
+    if (resNormas.length) {
+      html += '<section class="seccion"><h3>Normas oficiales (' + resNormas.length + ')</h3>' +
+        resNormas.map(function (l) {
+          return '<div class="card ley">' +
+            '<strong>' + resaltarBusqueda(l.nombre, qRaw) + '</strong>' +
+            '<span class="sub" style="margin:0">' + resaltarBusqueda(l.referencia || '', qRaw) + '</span>' +
+            '<div class="enlaces" style="margin-top:6px">' +
+            '<button type="button" class="btn-cita" data-ver-norma="' + esc(l.id) + '" data-ver-cita="' + esc(qRaw) + '">📖 Abrir articulado y PDF</button>' +
+            '<button type="button" class="btn-cita" data-test-ley="' + esc(l.id) + '">📝 Hacer test de esta norma</button>' +
+            '</div></div>';
+        }).join('') + '</section>';
+    }
+
+    if (resPreguntas.length) {
+      html += '<section class="seccion"><h3>Preguntas de test relacionadas (' + resPreguntas.length + ')</h3>' +
+        resPreguntas.map(function (item) {
+          return '<div class="card">' +
+            '<div class="tema-meta" style="justify-content:space-between">' +
+            '<strong>' + esc(etiquetaTema(item.tema)) + '</strong>' +
+            '<button type="button" class="btn-cita" data-tema="' + esc(item.tema.id) + '">Ver tema</button>' +
+            '</div>' +
+            '<p style="margin:6px 0 4px"><strong>' + resaltarBusqueda(item.q.pregunta, qRaw) + '</strong></p>' +
+            '<p class="sub" style="margin:0">✓ ' + resaltarBusqueda(item.q.opciones[item.q.correcta], qRaw) + ' · ' + resaltarBusqueda(item.q.referencia || '', qRaw) + '</p>' +
+            '</div>';
+        }).join('') + '</section>';
+    }
+
+    if (!resTemas.length && !resApuntes.length && !resNormas.length && !resPreguntas.length) {
+      html += '<div class="card"><p style="margin:0">No se encontraron coincidencias para «' + esc(qRaw) + '».</p></div>';
+    }
+    return html;
   }
 
   function vistaLista() {
     var prog = leerProgreso();
+    var notas = leerNotas();
+    var buscadorHtml = '<div class="buscador-global">' +
+      '<span aria-hidden="true">🔎</span>' +
+      '<input type="search" id="input-busqueda-global" value="' + esc(busquedaGlobal) + '" placeholder="Buscar en los 70 temas, apuntes, preguntas y 119 leyes (ej. silencio administrativo, resbaladicidad, 40.000, art. 118)…">' +
+      (busquedaGlobal ? '<button type="button" class="btn-cita" data-limpiar-global="1">✕ Limpiar</button>' : '') +
+      '</div>';
+
+    var tituloCab = '<h2 class="tituloTema">' + (filtro === 'todos' ? 'Todos los temas' : esc(D.temario.bloques.filter(function (b) { return b.id === filtro; })[0].nombre)) + '</h2>';
+
+    if (busquedaGlobal && busquedaGlobal.trim().length >= 2) {
+      return tituloCab + buscadorHtml + '<div id="contenedor-resultados-lista">' + vistaResultadosBusquedaGlobal(busquedaGlobal.trim()) + '</div>';
+    }
+
     var temas = D.temario.temas.filter(function (t) { return filtro === 'todos' || t.bloque === filtro; });
     var html = '<ul class="lista">' + temas.map(function (t) {
       var c = D.contenido[t.id];
@@ -569,12 +925,13 @@
       var marca = p.visto ? '<span class="pill done">✓ estudiado</span>' : '';
       var maxQ = c && c.test ? c.test.length : 40;
       var mejor = p.mejor != null ? '<span class="pill">Mejor test: ' + p.mejor + '/' + maxQ + '</span>' : '';
+      var conNota = notas[t.id] ? '<span class="pill warn">📝 Con notas</span>' : '';
       return '<li><button class="tema-card" type="button" data-tema="' + esc(t.id) + '">' +
-        '<div class="tema-meta"><strong>' + esc(etiquetaTema(t)) + '</strong>' + estado + marca + mejor + '</div>' +
+        '<div class="tema-meta"><strong>' + esc(etiquetaTema(t)) + '</strong>' + estado + marca + mejor + conNota + '</div>' +
         '<p class="tema-title">' + esc(recortar(t.titulo, 170)) + '</p>' +
         '</button></li>';
     }).join('') + '</ul>';
-    return '<h2 class="tituloTema">' + (filtro === 'todos' ? 'Todos los temas' : esc(D.temario.bloques.filter(function (b) { return b.id === filtro; })[0].nombre)) + '</h2>' + html;
+    return tituloCab + buscadorHtml + '<div id="contenedor-resultados-lista">' + html + '</div>';
   }
 
   // ---------- Enlazado de normas en apuntes y modal de consulta ----------
@@ -1403,6 +1760,32 @@
       }).join('') + '</section>';
     }
 
+    // Fichas rápidas de plazos, cifras y parámetros técnicos de este tema
+    var fichasTema = extraerFichasTema(id);
+    var fichasHtml = '';
+    if (fichasTema.length) {
+      fichasHtml = '<section class="seccion"><details class="card">' +
+        '<summary><strong>⚡ Plazos, cifras, cuantías y parámetros técnicos clave del tema (' + fichasTema.length + ')</strong></summary>' +
+        '<div class="acciones" style="margin-top:10px">' +
+        '<button type="button" class="btn-cita" data-ocultar-datos="1">' +
+        (estadoFichas.ocultarDatos ? '👁️ Mostrar todas las cifras y plazos' : '🙈 Ocultar cifras y plazos para autoevaluarme') +
+        '</button></div>' +
+        '<div class="ficha-grid">' +
+        fichasTema.map(function (f) {
+          return '<div class="ficha-item"><div class="tema-meta"><span class="pill">' + esc(f.etiqueta) + '</span><span>' + esc(f.apartado) + '</span></div>' +
+            '<div style="margin-top:4px">' + formatearTextoFicha(f.texto, id) + '</div></div>';
+        }).join('') +
+        '</div></details></section>';
+    }
+
+    // Notas personales del opositor en este tema
+    var notaActual = leerNotas()[id] || '';
+    var notasPersonalesHtml = '<section class="seccion"><details class="card"' + (notaActual ? ' open' : '') + '>' +
+      '<summary><strong>📝 Mis notas personales y reglas mnemotécnicas' + (notaActual ? ' (guardadas)' : '') + '</strong></summary>' +
+      '<p class="sub" style="margin:6px 0 4px">Se guardan automáticamente en este navegador y se incluyen al exportar tu copia de seguridad:</p>' +
+      '<textarea class="notas-area" data-nota-tema="' + esc(id) + '" placeholder="Escribe aquí tus esquemas, plazos trampa de examen, recordatorios o reglas mnemotécnicas de ' + esc(etiquetaTema(t)) + '…">' + esc(notaActual) + '</textarea>' +
+      '</details></section>';
+
     var maxPreguntas = c.test.length;
     var resultado = p.ultimo != null
       ? '<p class="sub">Último test: ' + p.ultimo + '/' + maxPreguntas + ' · intentos: ' + (p.intentos || 0) + '</p>'
@@ -1412,7 +1795,260 @@
       botonToggleNormasHtml('margin-left:0;padding:9px 14px;font-size:.88rem') +
       '</div>' + resultado;
 
-    return cabecera + resumen + desarrolloHtml + leyesHtml + fuentesHtml + accion;
+    return cabecera + resumen + desarrolloHtml + fichasHtml + notasPersonalesHtml + leyesHtml + fuentesHtml + accion;
+  }
+
+  // ---------- Extractor de fichas de plazos, cuantías y parámetros técnicos ----------
+  var REGEX_DATOS_CLAVE = /\b(\d+(?:[.,]\d+)?\s*(?:d[ií]as?(?:\s+h[aá]biles|\s+naturales)?|mes(?:es)?|a[ñn]os?|horas?|euros?|€|%|por\s+ciento|m2|m²|m3|m³|cm|mm|metros?|lux|dB(?:A)?|kN(?:\/m²|\/m)?|MPa|N\/mm²|kW|W\/m²K|REI\s*\d+|EI\s*\d+|R\s*\d+|clase\s+[0-9A-Z]+)|(?:un|dos|tres|cuatro|cinco|seis|diez|quince|veinte|treinta)\s+(?:d[ií]as?(?:\s+h[aá]biles|\s+naturales)?|mes(?:es)?|a[ñn]os?)|mayor[ií]a\s+(?:absoluta|simple|de\s+dos\s+tercios|de\s+tres\s+quintos))\b/gi;
+
+  function clasificarFicha(texto) {
+    var t = normClave(texto);
+    if (/\b(\d+|un|dos|tres|cuatro|cinco|seis|diez|quince|veinte|treinta)\s+(dias?|mes|meses|anos?|horas?)\b/.test(t) || /plazo/.test(t)) {
+      return { cat: 'plazos', etiqueta: '⏱️ Plazo' };
+    }
+    if (/(euros?|€|%|por ciento|cuantia|presupuesto|menor|umbral|iva)/.test(t)) {
+      return { cat: 'cuantias', etiqueta: '💶 Cuantía / %' };
+    }
+    if (/\b(m2|m²|cm|mm|metros?|lux|db|kn|mpa|rei|ei|pendiente|anchura|altura|resbaladicidad|transmitancia)\b/.test(t)) {
+      return { cat: 'parametros', etiqueta: '📐 Parámetro técnico' };
+    }
+    if (/(mayoria|tercios|quintos|miembros|composicion)/.test(t)) {
+      return { cat: 'mayorias', etiqueta: '⚖️ Mayoría / Órgano' };
+    }
+    return null;
+  }
+
+  function extraerFichasTema(idTema) {
+    var c = D.contenido[idTema];
+    if (!c) return [];
+    var lista = [];
+    (c.resumen || []).forEach(function (b) {
+      (b.puntos || []).forEach(function (pto) {
+        var cl = clasificarFicha(pto);
+        if (cl && REGEX_DATOS_CLAVE.test(pto)) {
+          REGEX_DATOS_CLAVE.lastIndex = 0;
+          lista.push({ temaId: idTema, apartado: b.titulo, cat: cl.cat, etiqueta: cl.etiqueta, texto: pto });
+        }
+      });
+    });
+    return lista;
+  }
+
+  function formatearTextoFicha(texto, idTema) {
+    if (!estadoFichas.ocultarDatos) {
+      return enlazarNormas(texto, idTema);
+    }
+    var raw = String(texto == null ? '' : texto);
+    var partes = [];
+    var lastIdx = 0;
+    REGEX_DATOS_CLAVE.lastIndex = 0;
+    var m;
+    while ((m = REGEX_DATOS_CLAVE.exec(raw)) !== null) {
+      if (m.index > lastIdx) partes.push(esc(raw.slice(lastIdx, m.index)));
+      partes.push('<span class="dato-oculto" data-revelar-dato="1" data-valor="' + esc(m[0]) + '" title="Pulsa para comprobar el dato">❓ Revelar dato</span>');
+      lastIdx = m.index + m[0].length;
+    }
+    if (lastIdx < raw.length) partes.push(esc(raw.slice(lastIdx)));
+    return partes.join('');
+  }
+
+  function vistaFichasGlobal() {
+    var todas = [];
+    D.temario.temas.forEach(function (t) {
+      if (estadoFichas.bloque !== 'todos' && t.bloque !== estadoFichas.bloque) return;
+      extraerFichasTema(t.id).forEach(function (f) {
+        if (estadoFichas.categoria !== 'todas' && f.cat !== estadoFichas.categoria) return;
+        if (estadoFichas.busqueda && normClave(f.texto + ' ' + f.apartado + ' ' + t.titulo).indexOf(normClave(estadoFichas.busqueda)) === -1) return;
+        todas.push(f);
+      });
+    });
+
+    var cats = [
+      ['todas', 'Todas (' + todas.length + ')'],
+      ['plazos', '⏱️ Plazos'],
+      ['cuantias', '💶 Cuantías y %'],
+      ['parametros', '📐 Parámetros CTE / Técnicos'],
+      ['mayorias', '⚖️ Mayorías y Órganos']
+    ];
+
+    return volverInicio() +
+      '<h2 class="tituloTema">⚡ Tarjetas de Plazos, Cifras, Cuantías y Parámetros Técnicos</h2>' +
+      '<p class="sub">Repaso rápido de todos los datos numéricos, plazos administrativos, umbrales de la LCSP y parámetros técnicos del CTE y accesibilidad extraídos de los 70 temas.</p>' +
+      '<div class="card">' +
+      '<div class="acciones" style="margin-top:0;align-items:center;justify-content:space-between">' +
+      '<div style="display:flex;gap:6px;flex-wrap:wrap">' +
+      cats.map(function (c) {
+        return '<button type="button" class="tab" data-ficha-cat="' + c[0] + '" aria-pressed="' + (estadoFichas.categoria === c[0]) + '">' + esc(c[1]) + '</button>';
+      }).join('') +
+      '</div>' +
+      '<button type="button" class="btn-toggle-normas" data-ocultar-datos="1" aria-pressed="' + estadoFichas.ocultarDatos + '" style="margin-left:0">' +
+      '<span class="sw-track"><span class="sw-thumb"></span></span>' +
+      '<span>🙈 Modo autoevaluación (ocultar cifras): ' + (estadoFichas.ocultarDatos ? 'ON' : 'OFF') + '</span>' +
+      '</button>' +
+      '</div>' +
+      '<div class="modal-buscador" style="margin-top:10px">' +
+      '<select class="sel" data-ficha-bloque="1">' +
+      '<option value="todos"' + (estadoFichas.bloque === 'todos' ? ' selected' : '') + '>Todos los bloques (Común + Específico)</option>' +
+      '<option value="comun"' + (estadoFichas.bloque === 'comun' ? ' selected' : '') + '>Solo Bloque Común</option>' +
+      '<option value="arquitectura-tecnica"' + (estadoFichas.bloque === 'arquitectura-tecnica' ? ' selected' : '') + '>Solo Bloque Específico</option>' +
+      '</select>' +
+      '<input type="search" id="input-buscar-fichas" value="' + esc(estadoFichas.busqueda) + '" placeholder="Filtrar plazos, cifras o conceptos (ej. licencia, silencio, menor, SUA, resbaladicidad)…">' +
+      '</div></div>' +
+      '<div class="ficha-grid">' +
+      todas.slice(0, 120).map(function (f) {
+        var t = temaPorId[f.temaId];
+        return '<div class="card" style="margin-bottom:0">' +
+          '<div class="tema-meta" style="justify-content:space-between">' +
+          '<span><span class="pill ok">' + esc(f.etiqueta) + '</span> <strong>' + esc(etiquetaTema(t)) + '</strong> · ' + esc(f.apartado) + '</span>' +
+          '<button type="button" class="btn-cita" data-tema="' + esc(t.id) + '">Ir al tema →</button>' +
+          '</div>' +
+          '<div style="margin-top:6px">' + formatearTextoFicha(f.texto, f.temaId) + '</div>' +
+          '</div>';
+      }).join('') +
+      (todas.length > 120 ? '<p class="sub">Mostrando las primeras 120 fichas de ' + todas.length + '. Usa el buscador superior para acotar por tema o palabra.</p>' : '') +
+      '</div>';
+  }
+
+  // ---------- Biblioteca Normativa Interactiva (119 normas por materia) ----------
+  function categoriaNorma(l) {
+    var id = l.id;
+    var nom = normClave(l.nombre + ' ' + l.referencia);
+    if (/^(CE|EA-ANDALUCIA|LO-4-1981|TUE-TFUE|TLISBOA-2007|LGOB-AND-6-2006|LBRL)$/.test(id)) return 'constitucional';
+    if (/^(LPAC|LRJSP|LAJA|LJCA|LTBG|LOPDGDD|ENS-311-2022|DEC-AND-622-2019)$/.test(id)) return 'administrativo';
+    if (/^(LCSP|RGLCAP-1098-2001|RD-1359-2011|L-2-2015|RD-55-2017|L-3-2004)$/.test(id)) return 'contratacion';
+    if (/^(EBEP|LFP-ANDALUCIA|LO-3-2007|LIG-AND-12-2007|LO-1-2004|VG-AND-13-2007|LTPA)$/.test(id)) return 'funcion-publica';
+    if (/^(LGHPA|LGP-47-2003|LOEPSF-2-2012|LGS|RLGS-887-2006|DEC-AND-282-2010)$/.test(id)) return 'hacienda';
+    if (/^(LISTA-7-2021|DEC-AND-550-2022|TRLS-7-2015|DEC-AND-60-2010|RD-2568-1986)$/.test(id)) return 'urbanismo';
+    if (/^(LOE|CTE|DB-|RD-470-2021|DEC-AND-67-2011|RD-410-2010|CEE-390-2021)/.test(id)) return 'edificacion-cte';
+    if (/^(DEC-AND-293-2009|TMA-851-2021|RD-505-2007|LAND-4-2017|LGDPD-1-2013|LVA-5-2025|DEC-AND-149-2006|DEC-AND-91-2020|DEC-AND-1-2012|DEC-AND-161-2018|ORD-AND-21-07-2008|LPH-49-1960)$/.test(id)) return 'accesibilidad-vivienda';
+    if (/^(LPRL|RD-1627-1997|RD-486-1997|RD-39-1997|RD-485-1997|RD-773-1997|RD-1215-1997|RD-171-2004|RD-396-2006|L-32-2006|RD-1109-2007|RITE|RD-842-2002|RD-346-2011|RD-919-2006|RD-355-2024|RD-513-2017|RD-164-2025|RDL-1-1998)$/.test(id)) return 'seguridad-instalaciones';
+    if (/^(LEF|REF-1957|TRLCAT-1-2004|ECO-805-2003|RD-1020-1993|RD-1464-2007|RD-1492-2011)$/.test(id)) return 'expropiacion-valoraciones';
+    return 'patrimonio-medioambiente';
+  }
+
+  var NOMBRES_CAT_NORMA = {
+    'todas': 'Todas las normas (' + Object.keys(D.leyes).length + ')',
+    'constitucional': '🏛️ Constitucional, UE y Autonómico',
+    'administrativo': '📋 Procedimiento y Régimen Jurídico',
+    'contratacion': '📑 Contratación Pública (LCSP)',
+    'funcion-publica': '👥 Función Pública e Igualdad',
+    'hacienda': '💶 Hacienda, Presupuestos y Subvenciones',
+    'urbanismo': '🏙️ Urbanismo y Territorio (LISTA / TRLS)',
+    'edificacion-cte': '🏗️ Edificación, LOE, CTE y Código Estructural',
+    'accesibilidad-vivienda': '♿ Accesibilidad y Vivienda',
+    'seguridad-instalaciones': '🦺 Seguridad y Salud e Instalaciones',
+    'expropiacion-valoraciones': '📐 Expropiación, Valoraciones y Catastro',
+    'patrimonio-medioambiente': '🏛️ Patrimonio Histórico, Acústica y Medio Ambiente'
+  };
+
+  function vistaNormativaGlobal() {
+    var ids = Object.keys(D.leyes).filter(function (id) {
+      var l = D.leyes[id];
+      if (estadoNormativa.categoria !== 'todas' && categoriaNorma(l) !== estadoNormativa.categoria) return false;
+      if (estadoNormativa.busqueda) {
+        var q = normClave(estadoNormativa.busqueda);
+        if (normClave(l.id + ' ' + l.nombre + ' ' + l.referencia).indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+
+    return volverInicio() +
+      '<h2 class="tituloTema">📚 Biblioteca Normativa Interactiva (' + Object.keys(D.leyes).length + ' normas oficiales)</h2>' +
+      '<p class="sub">Todas las leyes, reales decretos, decretos autonómicos, órdenes y Documentos Básicos del CTE descargados en el repositorio. Pulsa «📖 Abrir articulado y PDF» para leer sus artículos o «📝 Hacer test de esta norma» para practicar solo preguntas de esa ley.</p>' +
+      '<div class="card">' +
+      '<div class="modal-buscador">' +
+      '<select class="sel" data-norma-cat="1" style="flex:1;min-width:240px">' +
+      Object.keys(NOMBRES_CAT_NORMA).map(function (k) {
+        return '<option value="' + k + '"' + (estadoNormativa.categoria === k ? ' selected' : '') + '>' + esc(NOMBRES_CAT_NORMA[k]) + '</option>';
+      }).join('') +
+      '</select>' +
+      '<input type="search" id="input-buscar-normativa" value="' + esc(estadoNormativa.busqueda) + '" placeholder="Buscar ley, decreto, orden o número (ej. 39/2015, 293/2009, SUA, LISTA)…">' +
+      '</div></div>' +
+      '<p class="sub">Mostrando ' + ids.length + ' normas:</p>' +
+      ids.map(function (id) {
+        var l = D.leyes[id];
+        var rels = temasPorLey[id] || [];
+        return '<div class="card ley">' +
+          '<div class="tema-meta">' + badgeVerificacion(l) + '<span class="pill">' + esc(NOMBRES_CAT_NORMA[categoriaNorma(l)] || '') + '</span></div>' +
+          '<strong>' + esc(l.nombre) + '</strong>' +
+          '<span>' + esc(l.referencia) + '</span>' +
+          (rels.length ? '<div class="normas-apartado" style="margin-top:6px"><span class="etiqueta">Se estudia en (' + rels.length + ' temas):</span>' +
+            rels.map(function (r) {
+              var t = temaPorId[r.temaId];
+              return t ? '<button type="button" class="btn-cita" data-tema="' + esc(t.id) + '">' + esc(etiquetaTema(t)) + '</button>' : '';
+            }).join('') + '</div>' : '') +
+          '<div class="enlaces" style="margin-top:8px;align-items:center">' +
+          '<button type="button" class="btn-cita" data-ver-norma="' + esc(l.id) + '" data-ver-cita="' + esc(rels[0] && rels[0].articulos ? rels[0].articulos : l.referencia) + '" data-ver-tema="' + esc(rels[0] ? rels[0].temaId : '') + '">📖 Abrir articulado y PDF</button>' +
+          '<button type="button" class="btn-cita" data-test-ley="' + esc(l.id) + '">📝 Hacer test de esta norma</button>' +
+          (l.url ? '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">BOE / BOJA ↗</a>' : '') +
+          (l.pdf ? '<a href="' + esc(l.pdf) + '" download>Descargar PDF</a>' : '') +
+          '</div></div>';
+      }).join('');
+  }
+
+  function iniciarTestDeNorma(leyId) {
+    var ley = D.leyes[leyId];
+    if (!ley) return;
+    if (!bancoListo()) {
+      go('#/generador');
+      cargarBanco();
+      var iv = setInterval(function () {
+        if (bancoListo()) { clearInterval(iv); iniciarTestDeNorma(leyId); }
+      }, 150);
+      return;
+    }
+    var numMatch = ((ley.referencia || '') + ' ' + (ley.nombre || '')).match(/\b(\d{1,4}\/\d{4}|[A-Z]{2,6}\/\d{1,4}\/\d{4})\b/);
+    var patron = numMatch ? numMatch[1].toLowerCase() : normClave(ley.id);
+    var temasLey = new Set((temasPorLey[leyId] || []).map(function (x) { return x.temaId; }));
+
+    var pool = window.BANCO.filter(function (q) {
+      var refTxt = normClave((q.referencia || '') + ' ' + (q.enunciado || '') + ' ' + (q.explicacion || ''));
+      if (refTxt.indexOf(patron) !== -1) return true;
+      if (resolverLeyEnTexto((q.referencia || '') + ' ' + (q.enunciado || ''), q.tema, leyId)) return true;
+      return false;
+    });
+    if (!pool.length && temasLey.size) {
+      pool = window.BANCO.filter(function (q) { return temasLey.has(q.tema); });
+    }
+    if (!pool.length) return;
+    detenerCronometroSimulacro();
+    gen.simulacro = false;
+    gen.modo = 'practica';
+    gen.numero = String(Math.min(40, pool.length));
+    go('#/generador');
+    generarGen(pool);
+  }
+
+  function iniciarRepasoEspecial(tipo) {
+    var rep = leerRepaso();
+    var lista = [];
+    if (tipo === 'falladas' || tipo === 'ambas') {
+      Object.keys(rep.falladas).forEach(function (k) { lista.push(rep.falladas[k]); });
+    }
+    if (tipo === 'dudosas' || tipo === 'ambas') {
+      Object.keys(rep.dudosas).forEach(function (k) {
+        if (!lista.some(function (x) { return x.clave === k; })) lista.push(rep.dudosas[k]);
+      });
+    }
+    if (!lista.length) return;
+    detenerCronometroSimulacro();
+    gen.simulacro = false;
+    gen.modo = 'practica';
+    gen.numero = String(lista.length);
+    if (!bancoListo()) cargarBanco();
+    gen.preguntas = barajarGen(lista).map(function (q) {
+      var orden = barajarGen(q.opciones.map(function (_, i) { return i; }));
+      return {
+        tema: q.tema, origen: q.origen || 'revisada', reutilizada: false, enunciado: q.enunciado,
+        explicacion: q.explicacion, referencia: q.referencia,
+        opciones: orden.map(function (i) { return q.opciones[i]; }), correcta: orden.indexOf(q.correcta),
+        resp: null, registrada: false
+      };
+    });
+    gen.i = 0; gen.fase = 'test';
+    go('#/generador');
+    render();
+    window.scrollTo(0, 0);
   }
 
   function vistaTest() {
@@ -1428,8 +2064,10 @@
         '<h2 class="tituloTema">Resultado · ' + esc(etiquetaTema(t)) + '</h2>' +
         '<div class="resultado" aria-live="polite">' + e.aciertos + ' / ' + c.test.length + '</div>' +
         '<p class="sub">' + (e.aciertos >= 8 ? 'Muy buen resultado.' : e.aciertos >= 5 ? 'Vas bien; repasa los fallos.' : 'Conviene repasar el resumen antes de otro intento.') + '</p>' +
-        (fallos.length ? '<section class="seccion"><h3>Preguntas falladas</h3>' + fallos.map(function (x) {
-          return '<div class="fallo"><strong>' + esc(x.q.pregunta) + '</strong>' +
+        (fallos.length ? '<section class="seccion"><h3>Preguntas falladas (guardadas automáticamente en tu banco de repaso)</h3>' + fallos.map(function (x) {
+          var dud = esPreguntaDudosa(x.q, e.id);
+          return '<div class="fallo"><div class="tema-meta" style="justify-content:space-between"><strong>' + esc(x.q.pregunta) + '</strong>' +
+            '<button type="button" class="btn-dudosa' + (dud ? ' activa' : '') + '" data-dudosa-test="' + x.i + '">' + (dud ? '★ Dudosa' : '☆ Marcar dudosa') + '</button></div>' +
             '<p class="sub">Correcta: ' + esc(x.q.opciones[x.q.correcta]) + '</p>' +
             '<p>' + enlazarNormas(x.q.explicacion, e.id) + '</p>' +
             '<p class="sub">Ref.: ' + enlazarNormas(x.q.referencia, e.id) + '</p></div>';
@@ -1440,6 +2078,7 @@
 
     var q = c.test[e.i];
     var contestada = e.seleccion !== null;
+    var dudosaActual = esPreguntaDudosa(q, e.id);
     var opciones = q.opciones.map(function (o, k) {
       var clase = 'opcion';
       if (contestada) {
@@ -1453,7 +2092,7 @@
     var feedback = '';
     if (contestada) {
       var acierto = e.seleccion === q.correcta;
-      feedback = '<div class="feedback" aria-live="polite"><strong>' + (acierto ? '✓ Correcto' : '✗ Incorrecto') + '</strong>' +
+      feedback = '<div class="feedback" aria-live="polite"><strong>' + (acierto ? '✓ Correcto' : '✗ Incorrecto (añadida a tu banco de preguntas falladas)') + '</strong>' +
         enlazarNormas(q.explicacion, e.id) + '<div class="ref">Ref.: ' + enlazarNormas(q.referencia, e.id) + '</div></div>' +
         '<div class="acciones"><button class="btn" type="button" data-siguiente="1">' +
         (e.i + 1 < c.test.length ? 'Siguiente' : 'Ver resultado') + '</button></div>';
@@ -1461,7 +2100,8 @@
 
     var pct = (e.i / c.test.length * 100).toFixed(0);
     return '<button class="volver" type="button" data-ir="#/tema/' + esc(e.id) + '">← Salir del test</button>' +
-      '<div class="tema-meta"><strong>Test · ' + esc(etiquetaTema(t)) + '</strong><span>Pregunta ' + (e.i + 1) + ' de ' + c.test.length + '</span></div>' +
+      '<div class="tema-meta" style="justify-content:space-between"><div><strong>Test · ' + esc(etiquetaTema(t)) + '</strong> <span>Pregunta ' + (e.i + 1) + ' de ' + c.test.length + '</span></div>' +
+      '<button type="button" class="btn-dudosa' + (dudosaActual ? ' activa' : '') + '" data-dudosa-actual="1">' + (dudosaActual ? '★ Marcada como dudosa' : '☆ Marcar como dudosa') + '</button></div>' +
       '<div class="bar" style="margin:8px 0 16px"><span style="width:' + pct + '%"></span></div>' +
       '<p class="pregunta">' + esc(q.pregunta) + '</p>' +
       '<div class="opciones">' + opciones + '</div>' + feedback;
@@ -1479,6 +2119,7 @@
     estadoTest.seleccion = k;
     var acierto = k === q.correcta;
     if (acierto) estadoTest.aciertos++;
+    registrarFalloOAciertoRepaso(q, estadoTest.id, acierto);
     estadoTest.respuestas.push({ acierto: acierto, seleccion: k });
     render();
   }
@@ -1502,10 +2143,9 @@
     render();
   }
 
-  // Navega y redibuja. Solo en cambios de pantalla se mueve el foco y se sube la página.
   function go(hash) {
     if (location.hash !== hash) {
-      location.hash = hash; // el listener de hashchange hace el render
+      location.hash = hash;
     } else {
       render();
     }
@@ -1526,18 +2166,26 @@
     } else if (h === '#/generador') {
       $app.innerHTML = vistaGenerador();
       cargarBanco();
+    } else if (h === '#/fichas') {
+      $app.innerHTML = vistaFichasGlobal();
+    } else if (h === '#/normativa') {
+      $app.innerHTML = vistaNormativaGlobal();
+      cargarBanco();
     } else {
       $app.innerHTML = vistaLista();
     }
   }
 
-  // ---------- Generador de tests (integrado en la app) ----------
-  var gen = { cargando: false, error: false, sel: null, numero: '50', origen: 'todas', modo: 'practica', fase: 'config', preguntas: [], i: 0 };
+  // ---------- Generador de tests y Simulacro Oficial IAAP ----------
+  var gen = {
+    cargando: false, error: false, sel: null, numero: '50', origen: 'todas',
+    modo: 'practica', fase: 'config', preguntas: [], i: 0,
+    simulacro: false, segundosRestantes: 7200, pausado: false, timerId: null
+  };
   var STATS_KEY = 'estudio-estadisticas-v1';
 
   function bancoListo() { return Array.isArray(window.BANCO) && window.BANCO.length > 0; }
 
-  // El banco (datos/banco.js) solo se descarga al abrir el generador.
   function cargarBanco() {
     if (bancoListo() || gen.cargando || gen.error) return;
     gen.cargando = true;
@@ -1548,22 +2196,86 @@
     document.head.appendChild(s);
   }
 
+  function formatearTiempo(seg) {
+    var s = Math.max(0, Math.floor(seg));
+    var h = Math.floor(s / 3600);
+    var m = Math.floor((s % 3600) / 60);
+    var r = s % 60;
+    return (h ? String(h).padStart(2, '0') + ':' : '') + String(m).padStart(2, '0') + ':' + String(r).padStart(2, '0');
+  }
+
+  function detenerCronometroSimulacro() {
+    if (gen.timerId) {
+      clearInterval(gen.timerId);
+      gen.timerId = null;
+    }
+  }
+
+  function iniciarCronometroSimulacro(segundos) {
+    detenerCronometroSimulacro();
+    gen.segundosRestantes = segundos || 7200;
+    gen.pausado = false;
+    gen.timerId = setInterval(function () {
+      if (gen.pausado || gen.fase !== 'test') return;
+      gen.segundosRestantes--;
+      var $c = document.getElementById('cronometro-examen');
+      if ($c) {
+        $c.textContent = '⏱️ ' + formatearTiempo(gen.segundosRestantes);
+        if (gen.segundosRestantes < 900) $c.classList.add('alerta');
+      }
+      if (gen.segundosRestantes <= 0) {
+        detenerCronometroSimulacro();
+        terminarGen();
+      }
+    }, 1000);
+  }
+
+  function iniciarSimulacroOficialIAAP() {
+    if (!bancoListo()) return;
+    // Selección proporcional oficial IAAP: 30 preguntas de Bloque Común + 70 preguntas de Bloque Específico + 3 de reserva (1 común, 2 específicas)
+    var comunPool = window.BANCO.filter(function (q) { return q.bloque === 'comun' && (q.origen === 'revisada' || q.origen === 'hecho'); });
+    var especPool = window.BANCO.filter(function (q) { return q.bloque !== 'comun' && (q.origen === 'revisada' || q.origen === 'hecho'); });
+    var titulares = barajarGen(comunPool).slice(0, 30).concat(barajarGen(especPool).slice(0, 70));
+    titulares = barajarGen(titulares);
+    var reservas = [barajarGen(comunPool)[30], barajarGen(especPool)[70], barajarGen(especPool)[71]].filter(Boolean);
+    var todas = titulares.concat(reservas);
+
+    gen.simulacro = true;
+    gen.modo = 'examen';
+    gen.preguntas = todas.map(function (q, idx) {
+      var orden = barajarGen(q.opciones.map(function (_, i) { return i; }));
+      return {
+        tema: q.tema, origen: q.origen, reutilizada: !!q.reutilizada, enunciado: q.enunciado,
+        explicacion: q.explicacion, referencia: q.referencia,
+        opciones: orden.map(function (i) { return q.opciones[i]; }), correcta: orden.indexOf(q.correcta),
+        resp: null, registrada: false, esReserva: idx >= 100, numReserva: idx >= 100 ? (idx - 99) : 0
+      };
+    });
+    gen.i = 0;
+    gen.fase = 'test';
+    iniciarCronometroSimulacro(120 * 60); // 120 minutos
+    render();
+    window.scrollTo(0, 0);
+  }
+
   // ---------- Estadísticas (localStorage) ----------
   function leerStats() {
     try {
       var s = JSON.parse(localStorage.getItem(STATS_KEY));
       if (s && s.temas && s.sesiones) return s;
-    } catch (e) { /* sin almacenamiento: no se guardan estadísticas */ }
+    } catch (e) { /* sin almacenamiento */ }
     return { temas: {}, sesiones: [] };
   }
   function guardarStats(s) {
     try { localStorage.setItem(STATS_KEY, JSON.stringify(s)); } catch (e) { /* sin almacenamiento */ }
   }
-  // Cada pregunta se cuenta una sola vez: al responder (práctica) o al entregar (examen).
   function registrarPregunta(q) {
     if (q.registrada) return;
     q.registrada = true;
     var tipo = (q.resp === null || q.resp === undefined) ? 'bl' : (q.resp === q.correcta ? 'ok' : 'mal');
+    if (tipo !== 'bl') {
+      registrarFalloOAciertoRepaso(q, q.tema, tipo === 'ok');
+    }
     var s = leerStats();
     var t = s.temas[q.tema] || (s.temas[q.tema] = { n: 0, ok: 0, mal: 0, bl: 0 });
     t.n++; t[tipo]++;
@@ -1571,7 +2283,7 @@
   }
   function registrarSesion(r) {
     var s = leerStats();
-    s.sesiones.push({ fecha: new Date().toISOString(), modo: gen.modo, n: r.n, ok: r.ok, mal: r.mal, bl: r.bl, puntuacion: gen.modo === 'examen' ? r.puntuacion : null });
+    s.sesiones.push({ fecha: new Date().toISOString(), modo: gen.simulacro ? 'simulacro-iaap' : gen.modo, n: r.n, ok: r.ok, mal: r.mal, bl: r.bl, puntuacion: gen.modo === 'examen' ? r.puntuacion : null });
     if (s.sesiones.length > 200) s.sesiones = s.sesiones.slice(-200);
     guardarStats(s);
   }
@@ -1608,10 +2320,13 @@
 
   function fmt(x, d) { return x.toFixed(d).replace('.', ','); }
 
-  // Aciertos, fallos y blancos de un conjunto de preguntas. Puntuación de examen: aciertos − fallos/3.
   function resumenGen(preguntas) {
-    var r = { n: preguntas.length, ok: 0, mal: 0, bl: 0 };
-    preguntas.forEach(function (q) {
+    var evaluables = preguntas;
+    if (gen.simulacro && preguntas.length > 100) {
+      evaluables = preguntas.slice(0, 100);
+    }
+    var r = { n: evaluables.length, ok: 0, mal: 0, bl: 0 };
+    evaluables.forEach(function (q) {
       if (q.resp === null || q.resp === undefined) r.bl++;
       else if (q.resp === q.correcta) r.ok++;
       else r.mal++;
@@ -1637,9 +2352,11 @@
       .map(function (o) { return '<option value="' + o[0] + '"' + (gen.numero === o[0] ? ' selected' : '') + '>' + esc(o[1]) + '</option>'; }).join('');
   }
 
-  // ---------- Configuración ----------
   function vistaConfigGen() {
     var sel = temasGen();
+    var rep = leerRepaso();
+    var nFallos = Object.keys(rep.falladas).length;
+    var nDudosas = Object.keys(rep.dudosas).length;
     var porBloque = {};
     D.temario.temas.forEach(function (t) { (porBloque[t.bloque] = porBloque[t.bloque] || []).push(t); });
     var lista = Object.keys(porBloque).map(function (b) {
@@ -1649,15 +2366,34 @@
       }).join('');
     }).join('');
     var n = poolGen().length;
+
+    var simulacroCard = '<div class="card" style="border-color:var(--accent)">' +
+      '<div class="tema-meta"><span class="pill done">🏛️ Formato Oficial Oposición Junta de Andalucía</span><span class="pill ok">120 minutos</span></div>' +
+      '<h3 style="margin:6px 0 4px">Simulacro Oficial IAAP · Cuerpo A2.2001</h3>' +
+      '<p class="sub" style="margin:0 0 10px">100 preguntas titulares (30 del Bloque Común + 70 del Bloque Específico de Arquitectura Técnica) + 3 preguntas de reserva, con cronómetro oficial de 2 horas y penalización de −1/3 por cada fallo.</p>' +
+      '<button class="btn" type="button" data-gen="simulacro">⏱️ Iniciar Simulacro Oficial IAAP (100 + 3 reserva)</button>' +
+      '</div>';
+
+    var repasoCard = '<div class="card">' +
+      '<strong>📌 Banco personal de preguntas falladas y dudosas</strong>' +
+      '<p class="sub" style="margin:4px 0 10px">Cada pregunta que fallas en cualquier test se guarda aquí automáticamente hasta que la aciertes. También puedes marcar cualquier pregunta con «☆ Marcar como dudosa».</p>' +
+      '<div class="acciones" style="margin-top:0">' +
+      '<button class="btn sec" type="button" data-repasar="falladas"' + (nFallos ? '' : ' disabled') + '>📌 Repasar falladas (' + nFallos + ')</button>' +
+      '<button class="btn sec" type="button" data-repasar="dudosas"' + (nDudosas ? '' : ' disabled') + '>⭐ Repasar dudosas (' + nDudosas + ')</button>' +
+      '<button class="btn sec" type="button" data-repasar="ambas"' + ((nFallos + nDudosas) ? '' : ' disabled') + '>🔥 Repasar todas (' + (nFallos + nDudosas) + ')</button>' +
+      '</div></div>';
+
     return volverInicio() +
-      '<h2 class="tituloTema">Generador de tests</h2>' +
-      '<p class="sub">Banco de ' + window.BANCO.length + ' preguntas. Cada tema cuenta con 40 preguntas revisadas integradas en su test, preguntas adicionales de hechos comprobadas con las normas oficiales y preguntas generadas a partir del articulado de las leyes del tema.</p>' +
-      '<section class="seccion"><h3>1. Temas</h3>' +
+      '<h2 class="tituloTema">Generador de tests y Simulacros</h2>' +
+      '<p class="sub">Banco de ' + window.BANCO.length + ' preguntas verificadas y del articulado oficial.</p>' +
+      simulacroCard +
+      repasoCard +
+      '<section class="seccion"><h3>1. Selección personalizada de temas</h3>' +
       '<div class="acciones" style="margin-top:0"><button class="btn sec" type="button" data-gen="todos">Todos</button>' +
       '<button class="btn sec" type="button" data-gen="ninguno">Ninguno</button>' +
       '<span class="sub">' + sel.size + ' de ' + D.temario.temas.length + ' temas</span></div>' +
       '<div class="caja" style="margin-top:10px">' + lista + '</div></section>' +
-      '<section class="seccion"><h3>2. Opciones</h3>' +
+      '<section class="seccion"><h3>2. Opciones del test personalizado</h3>' +
       '<div class="campo"><label for="gModo">Modo</label><select class="sel" id="gModo" data-gcampo="modo">' +
       '<option value="practica"' + (gen.modo === 'practica' ? ' selected' : '') + '>Práctica: corrección al responder</option>' +
       '<option value="examen"' + (gen.modo === 'examen' ? ' selected' : '') + '>Examen: corrección al final, fallo −1/3</option>' +
@@ -1698,19 +2434,22 @@
         '</td><td class="num">' + x.bl + '</td><td class="num">' + porcentaje(x) + '</td></tr>');
     });
     if (!total.n) {
-      return '<section class="seccion"><h3>3. Estadísticas</h3><p class="sub">Todavía no hay respuestas guardadas. Se registran al responder en práctica y al entregar un examen.</p></section>';
+      return '<section class="seccion"><h3>3. Estadísticas y Copia de Seguridad</h3><p class="sub">Todavía no hay respuestas guardadas. Se registran al responder en práctica y al entregar un examen.</p>' +
+        '<div class="acciones"><button class="btn sec" type="button" data-backup="exportar">💾 Exportar copia de seguridad (.json)</button>' +
+        '<button class="btn sec" type="button" data-backup="importar">📂 Importar copia (.json)</button></div></section>';
     }
     var bloques = Object.keys(porBloque).map(function (b) {
       return filaEst(esc(tituloBloque[b] || b), porBloque[b]);
     }).join('');
     var sesiones = s.sesiones.slice(-10).reverse().map(function (r) {
       var fecha = new Date(r.fecha).toLocaleDateString('es-ES');
-      var texto = r.modo === 'examen'
-        ? 'Examen · ' + r.ok + ' aciertos, ' + r.mal + ' fallos, ' + r.bl + ' en blanco · puntuación ' + fmt(r.puntuacion, 2)
-        : 'Práctica · ' + r.ok + ' de ' + r.n + ' aciertos';
+      var etModo = r.modo === 'simulacro-iaap' ? 'Simulacro IAAP' : (r.modo === 'examen' ? 'Examen' : 'Práctica');
+      var texto = (r.modo === 'examen' || r.modo === 'simulacro-iaap')
+        ? etModo + ' · ' + r.ok + ' aciertos, ' + r.mal + ' fallos, ' + r.bl + ' en blanco · puntuación ' + fmt(r.puntuacion, 2)
+        : etModo + ' · ' + r.ok + ' de ' + r.n + ' aciertos';
       return '<li>' + esc(fecha) + ' · ' + esc(texto) + '</li>';
     }).join('');
-    return '<section class="seccion"><h3>3. Estadísticas</h3>' +
+    return '<section class="seccion"><h3>3. Estadísticas y Copia de Seguridad</h3>' +
       '<p class="sub">Se guardan en este navegador. El % de acierto se calcula sobre las preguntas contestadas (el blanco no cuenta).</p>' +
       '<div class="tabla-wrap"><table class="est"><thead>' + CABECERA_EST + '</thead><tbody>' +
       filaEst('<strong>General</strong>', total) + bloques + '</tbody></table></div>' +
@@ -1718,13 +2457,19 @@
       '<div class="tabla-wrap"><table class="est"><thead><tr><th>Tema</th><th class="num">Resp.</th><th class="num">Aciert.</th><th class="num">Fallos</th><th class="num">Blanco</th><th class="num">%</th></tr></thead><tbody>' +
       filasTemas.join('') + '</tbody></table></div></details>' +
       (sesiones ? '<details class="card"><summary><strong>Últimos tests</strong></summary><ul>' + sesiones + '</ul></details>' : '') +
-      '<div class="acciones"><button class="btn sec" type="button" data-gen="borrarStats">Borrar estadísticas</button></div></section>';
+      '<div class="acciones">' +
+      '<button class="btn sec" type="button" data-backup="exportar">💾 Exportar progreso (.json)</button>' +
+      '<button class="btn sec" type="button" data-backup="importar">📂 Importar progreso (.json)</button>' +
+      '<button class="btn sec" type="button" data-gen="borrarStats">Borrar estadísticas</button>' +
+      '</div></section>';
   }
 
   // ---------- Generación ----------
   function generarGen(lista) {
     var pool = lista || poolGen();
     if (!pool.length) return;
+    detenerCronometroSimulacro();
+    gen.simulacro = false;
     var n = Math.min(parseInt(gen.numero, 10) || pool.length, pool.length);
     gen.preguntas = barajarGen(pool).slice(0, n).map(function (q) {
       var orden = barajarGen(q.opciones.map(function (_, i) { return i; }));
@@ -1748,6 +2493,7 @@
   function vistaPracticaGen() {
     var q = gen.preguntas[gen.i];
     var contestada = q.resp !== null;
+    var dudosa = esPreguntaDudosa(q, q.tema);
     var opc = q.opciones.map(function (o, k) {
       var c = 'opcion';
       if (contestada) { if (k === q.correcta) c += ' correcta'; else if (k === q.resp) c += ' incorrecta'; }
@@ -1757,7 +2503,7 @@
     var fb = '';
     if (contestada) {
       var ok = q.resp === q.correcta;
-      fb = '<div class="feedback" aria-live="polite"><strong>' + (ok ? '✓ Correcto' : '✗ Incorrecto') + '</strong>' + enlazarNormas(q.explicacion || '', q.tema) +
+      fb = '<div class="feedback" aria-live="polite"><strong>' + (ok ? '✓ Correcto' : '✗ Incorrecto (guardada en tus preguntas falladas)') + '</strong>' + enlazarNormas(q.explicacion || '', q.tema) +
         (q.referencia ? '<div class="ref">Ref.: ' + enlazarNormas(q.referencia, q.tema) + '</div>' : '') + '</div>' +
         '<div class="acciones"><button class="btn" type="button" data-gen="siguiente">' +
         (gen.i + 1 < gen.preguntas.length ? 'Siguiente' : 'Ver resultado') + '</button></div>';
@@ -1765,8 +2511,9 @@
     var pct = (gen.i / gen.preguntas.length * 100).toFixed(0);
     var tema = temaPorId[q.tema];
     return '<button class="volver" type="button" data-gen="salir">← Salir del test</button>' +
-      '<div class="tema-meta"><strong>Práctica · ' + esc(tema ? etiquetaTema(tema) : q.tema) + '</strong><span class="pill">' + esc(etiquetaOrigen(q)) + '</span>' +
+      '<div class="tema-meta" style="justify-content:space-between"><div><strong>Práctica · ' + esc(tema ? etiquetaTema(tema) : q.tema) + '</strong> <span class="pill">' + esc(etiquetaOrigen(q)) + '</span> ' +
       '<span>Pregunta ' + (gen.i + 1) + ' de ' + gen.preguntas.length + '</span></div>' +
+      '<button type="button" class="btn-dudosa' + (dudosa ? ' activa' : '') + '" data-dudosa-gen="' + gen.i + '">' + (dudosa ? '★ Marcada como dudosa' : '☆ Marcar como dudosa') + '</button></div>' +
       '<div class="bar" style="margin:8px 0 16px"><span style="width:' + pct + '%"></span></div>' +
       '<p class="pregunta">' + esc(q.enunciado) + '</p>' +
       '<div class="opciones">' + opc + '</div>' + fb;
@@ -1780,10 +2527,11 @@
     render();
   }
 
-  // ---------- Examen: sin corrección hasta el final ----------
+  // ---------- Examen y Simulacro Oficial IAAP ----------
   function vistaExamenGen() {
     var n = gen.preguntas.length;
     var q = gen.preguntas[gen.i];
+    var dudosa = esPreguntaDudosa(q, q.tema);
     var blancos = gen.preguntas.filter(function (p) { return p.resp === null; }).length;
     var ops = q.opciones.map(function (o, k) {
       return '<button class="opcion' + (q.resp === k ? ' sel' : '') + '" type="button" data-gop="' + k + '">' +
@@ -1791,17 +2539,31 @@
     }).join('');
     var chips = gen.preguntas.map(function (p, j) {
       var cl = 'chip' + (j === gen.i ? ' actual' : '') + (p.resp !== null ? ' resp' : '');
-      return '<button class="' + cl + '" type="button" data-gex="ir" data-n="' + j + '" aria-label="Ir a la pregunta ' + (j + 1) + '">' + (j + 1) + '</button>';
+      var et = p.esReserva ? 'R' + p.numReserva : (j + 1);
+      return '<button class="' + cl + '" type="button" data-gex="ir" data-n="' + j + '" aria-label="Ir a la pregunta ' + et + '">' + et + '</button>';
     }).join('');
+
+    var barraCrono = '';
+    if (gen.simulacro) {
+      barraCrono = '<span class="cronometro-iaap' + (gen.segundosRestantes < 900 ? ' alerta' : '') + '" id="cronometro-examen">⏱️ ' + formatearTiempo(gen.segundosRestantes) + '</span>' +
+        '<button type="button" class="btn-cita" data-pausar-crono="1">' + (gen.pausado ? '▶️ Reanudar' : '⏸️ Pausar') + '</button>';
+    }
+
+    var etPregunta = q.esReserva
+      ? '<span class="pill warn">Pregunta de Reserva ' + q.numReserva + ' de 3</span>'
+      : '<span>Pregunta ' + (gen.i + 1) + ' de ' + (gen.simulacro ? 100 : n) + '</span>';
+
     return '<button class="volver" type="button" data-gen="salir">← Salir del examen</button>' +
-      '<div class="tema-meta"><strong>Examen</strong><span>Pregunta ' + (gen.i + 1) + ' de ' + n + '</span><span>Sin contestar: ' + blancos + '</span></div>' +
-      '<p class="pregunta">' + esc(q.enunciado) + '</p>' +
+      '<div class="tema-meta" style="justify-content:space-between"><div><strong>' + (gen.simulacro ? '🏛️ Simulacro Oficial IAAP' : 'Examen') + '</strong> · ' + etPregunta + ' · <span>Sin contestar: ' + blancos + '</span></div>' +
+      '<div style="display:flex;gap:6px;align-items:center">' + barraCrono +
+      '<button type="button" class="btn-dudosa' + (dudosa ? ' activa' : '') + '" data-dudosa-gen="' + gen.i + '">' + (dudosa ? '★ Dudosa' : '☆ Dudosa') + '</button></div></div>' +
+      '<p class="pregunta" style="margin-top:12px">' + esc(q.enunciado) + '</p>' +
       '<div class="opciones">' + ops + '</div>' +
       '<div class="acciones"><button class="btn sec" type="button" data-gex="blanco">Dejar en blanco</button>' +
       '<button class="btn sec" type="button" data-gex="ant"' + (gen.i === 0 ? ' disabled' : '') + '>Anterior</button>' +
       '<button class="btn sec" type="button" data-gex="sig"' + (gen.i === n - 1 ? ' disabled' : '') + '>Siguiente</button></div>' +
       '<div class="chips" aria-label="Preguntas del examen">' + chips + '</div>' +
-      '<div class="acciones"><button class="btn" type="button" data-gex="entregar">Entregar examen</button></div>' +
+      '<div class="acciones"><button class="btn" type="button" data-gex="entregar">Entregar ' + (gen.simulacro ? 'simulacro' : 'examen') + '</button></div>' +
       '<p class="sub">Cada acierto suma 1, cada fallo resta 1/3 y las preguntas en blanco no restan.</p>';
   }
 
@@ -1825,6 +2587,7 @@
   }
 
   function terminarGen() {
+    detenerCronometroSimulacro();
     gen.preguntas.forEach(registrarPregunta);
     var r = resumenGen(gen.preguntas);
     registrarSesion(r);
@@ -1838,28 +2601,30 @@
     else terminarGen();
   }
 
-  // ---------- Resultado ----------
   function vistaResultadoGen() {
     var r = resumenGen(gen.preguntas);
     var examen = gen.modo === 'examen';
+    var nota10 = r.puntuacion / r.n * 10;
     var cabecera = examen
-      ? '<div class="resultado" aria-live="polite">' + fmt(r.puntuacion, 2) + ' puntos</div>' +
-        '<p class="sub">Sobre 10: ' + fmt(r.puntuacion / r.n * 10, 2) + ' · ' + r.ok + ' aciertos, ' + r.mal + ' fallos (−1/3 cada uno), ' + r.bl + ' en blanco</p>'
+      ? '<div class="resultado" aria-live="polite">' + fmt(r.puntuacion, 2) + ' / ' + r.n + ' puntos</div>' +
+        '<p class="sub">Nota sobre 10: <strong>' + fmt(nota10, 2) + '</strong> (' + (nota10 >= 5 ? '✓ APTO' : 'No alcanza el 5,00') + ') · ' + r.ok + ' aciertos, ' + r.mal + ' fallos (−1/3 cada uno), ' + r.bl + ' en blanco</p>'
       : '<div class="resultado" aria-live="polite">' + r.ok + ' / ' + r.n + ' (' + Math.round(r.ok / r.n * 100) + ' %)</div>' +
         '<p class="sub">' + r.mal + ' fallos · ' + r.bl + ' sin responder</p>';
     var revision = gen.preguntas.map(function (q, j) {
       var acierto = q.resp !== null && q.resp === q.correcta;
       if (!examen && acierto) return '';
+      var dud = esPreguntaDudosa(q, q.tema);
       var marca = q.resp === null ? '<span class="pill">En blanco</span>' : (acierto ? '<span class="pill ok">Acierto</span>' : '<span class="pill bad">Fallo</span>');
-      return '<div class="fallo"><div class="tema-meta">' + marca + '<span>Pregunta ' + (j + 1) + '</span></div>' +
+      return '<div class="fallo"><div class="tema-meta" style="justify-content:space-between"><div>' + marca + ' <span>' + (q.esReserva ? 'Reserva ' + q.numReserva : 'Pregunta ' + (j + 1)) + '</span></div>' +
+        '<button type="button" class="btn-dudosa' + (dud ? ' activa' : '') + '" data-dudosa-gen="' + j + '">' + (dud ? '★ Dudosa' : '☆ Marcar dudosa') + '</button></div>' +
         '<strong>' + esc(q.enunciado) + '</strong>' +
         (q.resp !== null && !acierto ? '<p class="sub">Tu respuesta: ' + esc(q.opciones[q.resp]) + '</p>' : '') +
         '<p class="sub">Correcta: ' + esc(q.opciones[q.correcta]) + '</p>' +
         '<p>' + enlazarNormas(q.explicacion || '', q.tema) + '</p>' + (q.referencia ? '<p class="sub">Ref.: ' + enlazarNormas(q.referencia, q.tema) + '</p>' : '') + '</div>';
     }).join('');
     var repetir = gen.preguntas.filter(function (q) { return q.resp !== q.correcta; });
-    return volverInicio() + '<h2 class="tituloTema">Resultado del ' + (examen ? 'examen' : 'test') + '</h2>' + cabecera +
-      '<section class="seccion"><h3>' + (examen ? 'Corrección' : 'Preguntas falladas') + '</h3>' + (revision || '<p>Sin fallos. ¡Perfecto!</p>') + '</section>' +
+    return volverInicio() + '<h2 class="tituloTema">Resultado del ' + (gen.simulacro ? 'Simulacro Oficial IAAP' : (examen ? 'examen' : 'test')) + '</h2>' + cabecera +
+      '<section class="seccion"><h3>' + (examen ? 'Corrección completa' : 'Preguntas falladas') + '</h3>' + (revision || '<p>Sin fallos. ¡Perfecto!</p>') + '</section>' +
       '<div class="acciones">' + (repetir.length ? '<button class="btn" type="button" data-gen="repetir">Repetir solo los fallos y blancos</button>' : '') +
       '<button class="btn sec" type="button" data-gen="configurar">Nuevo test</button></div>';
   }
@@ -1868,9 +2633,10 @@
     if (a === 'todos') { gen.sel = new Set(D.temario.temas.map(function (t) { return t.id; })); render(); }
     else if (a === 'ninguno') { gen.sel = new Set(); render(); }
     else if (a === 'generar') generarGen();
+    else if (a === 'simulacro') iniciarSimulacroOficialIAAP();
     else if (a === 'repetir') generarGen(gen.preguntas.filter(function (q) { return q.resp !== q.correcta; }));
     else if (a === 'siguiente') siguienteGen();
-    else if (a === 'salir' || a === 'configurar') { gen.fase = 'config'; render(); window.scrollTo(0, 0); }
+    else if (a === 'salir' || a === 'configurar') { detenerCronometroSimulacro(); gen.fase = 'config'; render(); window.scrollTo(0, 0); }
     else if (a === 'borrarStats') borrarStats();
   }
 
@@ -1882,14 +2648,83 @@
 
   document.addEventListener('click', function (ev) {
     if (ev.target === $modalNorma) { cerrarModalNorma(); return; }
+    var elDato = ev.target.closest('[data-revelar-dato]');
+    if (elDato) {
+      elDato.textContent = elDato.dataset.valor;
+      elDato.classList.add('revelado');
+      return;
+    }
     var el = ev.target.closest('button, a');
     if (!el) return;
     if (el.dataset.cerrarModal) { cerrarModalNorma(); return; }
     if (el.dataset.toggleNormas) { alternarEnlacesNormas(); return; }
+    if (el.dataset.ocultarDatos) {
+      estadoFichas.ocultarDatos = !estadoFichas.ocultarDatos;
+      var sy = window.scrollY;
+      render();
+      window.scrollTo(0, sy);
+      return;
+    }
+    if (el.dataset.fichaCat) {
+      estadoFichas.categoria = el.dataset.fichaCat;
+      render();
+      return;
+    }
+    if (el.dataset.limpiarGlobal) {
+      busquedaGlobal = '';
+      render();
+      return;
+    }
+    if (el.dataset.backup === 'exportar') {
+      exportarCopiaSeguridad();
+      return;
+    }
+    if (el.dataset.backup === 'importar') {
+      var $f = document.getElementById('input-importar-json');
+      if ($f) $f.click();
+      return;
+    }
+    if (el.dataset.repasar) {
+      iniciarRepasoEspecial(el.dataset.repasar);
+      return;
+    }
+    if (el.dataset.testLey) {
+      iniciarTestDeNorma(el.dataset.testLey);
+      return;
+    }
+    if (el.dataset.dudosaActual) {
+      if (estadoTest && D.contenido[estadoTest.id]) {
+        var qAct = D.contenido[estadoTest.id].test[estadoTest.i];
+        alternarPreguntaDudosa(qAct, estadoTest.id);
+        render();
+      }
+      return;
+    }
+    if (el.dataset.dudosaTest !== undefined) {
+      if (estadoTest && D.contenido[estadoTest.id]) {
+        var qIdx = Number(el.dataset.dudosaTest);
+        alternarPreguntaDudosa(D.contenido[estadoTest.id].test[qIdx], estadoTest.id);
+        render();
+      }
+      return;
+    }
+    if (el.dataset.dudosaGen !== undefined) {
+      var gIdx = Number(el.dataset.dudosaGen);
+      if (gen.preguntas[gIdx]) {
+        alternarPreguntaDudosa(gen.preguntas[gIdx], gen.preguntas[gIdx].tema);
+        render();
+      }
+      return;
+    }
+    if (el.dataset.pausarCrono) {
+      gen.pausado = !gen.pausado;
+      render();
+      return;
+    }
     if (el.dataset.verNorma) {
       ev.preventDefault();
       ev.stopPropagation();
-      var bloqueCtx = el.closest('li, p, .fallo, .feedback, .card');
+      var bloqueCtx = el.closest('li, p, .fallo, .feedback, .card, .ficha-item');
       var textoCtx = '';
       if (bloqueCtx) {
         var clon = bloqueCtx.cloneNode(true);
@@ -1923,7 +2758,12 @@
       }
       return;
     }
-    if (el.dataset.filtro) { filtro = el.dataset.filtro; if (location.hash === '#/generador') go('#/'); else render(); return; }
+    if (el.dataset.filtro) {
+      filtro = el.dataset.filtro;
+      if (location.hash && location.hash !== '#/') go('#/');
+      else render();
+      return;
+    }
     if (el.dataset.gen) { accionGen(el.dataset.gen); return; }
     if (el.dataset.gex) { accionExamen(el.dataset.gex, el.dataset.n); return; }
     if (el.dataset.gop !== undefined) { if (gen.modo === 'examen') seleccionarExamen(Number(el.dataset.gop)); else responderGen(Number(el.dataset.gop)); return; }
@@ -1935,9 +2775,44 @@
   });
 
   document.addEventListener('input', function (ev) {
-    if (ev.target && ev.target.id === 'modal-input-buscar' && estadoModal) {
-      estadoModal.filtro = ev.target.value;
+    var t = ev.target;
+    if (!t) return;
+    if (t.id === 'modal-input-buscar' && estadoModal) {
+      estadoModal.filtro = t.value;
       actualizarListaFragmentosModal();
+      return;
+    }
+    if (t.id === 'input-busqueda-global') {
+      busquedaGlobal = t.value;
+      var $cont = document.getElementById('contenedor-resultados-lista');
+      if ($cont) {
+        if (busquedaGlobal.trim().length >= 2) {
+          $cont.innerHTML = vistaResultadosBusquedaGlobal(busquedaGlobal.trim());
+        } else {
+          render();
+          var $inp = document.getElementById('input-busqueda-global');
+          if ($inp) { $inp.focus(); $inp.setSelectionRange($inp.value.length, $inp.value.length); }
+        }
+      }
+      return;
+    }
+    if (t.id === 'input-buscar-fichas') {
+      estadoFichas.busqueda = t.value;
+      render();
+      var $if = document.getElementById('input-buscar-fichas');
+      if ($if) { $if.focus(); $if.setSelectionRange($if.value.length, $if.value.length); }
+      return;
+    }
+    if (t.id === 'input-buscar-normativa') {
+      estadoNormativa.busqueda = t.value;
+      render();
+      var $in = document.getElementById('input-buscar-normativa');
+      if ($in) { $in.focus(); $in.setSelectionRange($in.value.length, $in.value.length); }
+      return;
+    }
+    if (t.dataset && t.dataset.notaTema) {
+      guardarNotaTema(t.dataset.notaTema, t.value);
+      renderStats();
     }
   });
 
@@ -1949,8 +2824,24 @@
 
   document.addEventListener('change', function (ev) {
     var t = ev.target;
-    if (t && t.id === 'modal-select-precepto' && t.value) {
+    if (!t) return;
+    if (t.id === 'input-importar-json' && t.files && t.files[0]) {
+      importarCopiaSeguridadArchivo(t.files[0]);
+      t.value = '';
+      return;
+    }
+    if (t.id === 'modal-select-precepto' && t.value) {
       cambiarPreceptoActivo(t.value, false);
+      return;
+    }
+    if (t.dataset && t.dataset.fichaBloque) {
+      estadoFichas.bloque = t.value;
+      render();
+      return;
+    }
+    if (t.dataset && t.dataset.normaCat) {
+      estadoNormativa.categoria = t.value;
+      render();
       return;
     }
     if (t.dataset && t.dataset.gtema) {
