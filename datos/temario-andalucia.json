@@ -3,19 +3,23 @@
   "cuerpo": "Cuerpo de Técnicos de Grado Medio, opción Arquitectura Técnica (A2.2001)",
   "fuentes": [
     {
-      "nombre": "Programa común (Res. 27/05/2024, BOJA 107 de 4/06/2024)",
-      "url": "https://cdn.juntadeandalucia.es/sites/default/files/2024-06/IAAP_Temario_A2-2_T%C3%A9cnicosGradoMedio_Com%C3%BAn.pdf"
+      "nombre": "Programas de Cuerpos Generales A1.1100, C1.1000 y C2.1000 (Res. 27/05/2024, BOJA 106 de 3/06/2024)",
+      "url": "https://www.juntadeandalucia.es/boja/2024/106/BOJA24-106-00055-45695-01_00302759.pdf"
     },
     {
-      "nombre": "Programa específico Arquitectura Técnica (Anexo VII, Res. 04/06/2019, BOJA 109 de 10/06/2019)",
+      "nombre": "Programas de Cuerpos Facultativos A1.2001 y Técnicos de Grado Medio A2 (Res. 27/05/2024, BOJA 107 de 4/06/2024)",
+      "url": "https://www.juntadeandalucia.es/boja/2024/107/BOJA24-107-00116-45696-01_00302763.pdf"
+    },
+    {
+      "nombre": "Programa específico Arquitectura Técnica A2.2001 (Anexo VII, Res. 04/06/2019, BOJA 109 de 10/06/2019)",
       "url": "https://juntadeandalucia.es/boja/2019/109/BOJA19-109-00043-8606-01_00156936.pdf"
     }
   ],
-  "total_temas": 70,
+  "total_temas": 87,
   "bloques": [
     {
       "id": "comun",
-      "nombre": "Programa común",
+      "nombre": "Programa común (A1 y A2)",
       "temas": [
         "c01",
         "c02",
@@ -46,7 +50,30 @@
         "c27",
         "c28",
         "c29",
-        "c30"
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c35"
+      ]
+    },
+    {
+      "id": "gestion-administrativa",
+      "nombre": "Gestión Administrativa, Financiera, Personal e Informática (C1, C2 y A1.1100)",
+      "temas": [
+        "g01",
+        "g02",
+        "g03",
+        "g04",
+        "g05",
+        "g06",
+        "g07",
+        "g08",
+        "g09",
+        "g10",
+        "g11",
+        "g12"
       ]
     },
     {
@@ -275,7 +302,109 @@
       "id": "c30",
       "num": 30,
       "bloque": "comun",
-      "titulo": "Normativa sobre igualdad. La igualdad de género en la Constitución y en el Estatuto de Autonomía para Andalucía. Normativa para la promoción de la igualdad de género y para la prevención y protección integral contra la violencia de género en Andalucía. La unidad de igualdad y género: funciones. Pertinencia e impacto de genero en la normativa: conceptos y objetivos. Comisión de Impacto de Género en los Presupuestos Públicos de la Comunidad Autónoma: objeto y competencias. Violencia de género. Concepto y tipos de violencia hacia las mujeres. Prevención y protección integral. Recursos y programas específicos en la Comunidad Autónoma de Andalucía. 4/5 PROGRAMA DE MATERIAS ESPECÍFICO DEL CUERPO TÉCNICO GRADO MEDIO, OPCIÓN Resolución de 27 de mayo de 2024, de la Dirección General de Recursos Humanos y Función Pública, por la que se aprueban los programas de materias que han de regir los procesos selectivos para ingreso en determinados cuerpos de funcionarios de la Administración General de la Junta de Andalucía.(BOJA Número 107 de 4 de junio de 2024)"
+      "titulo": "Normativa sobre igualdad. La igualdad de género en la Constitución y en el Estatuto de Autonomía para Andalucía. Normativa para la promoción de la igualdad de género y para la prevención y protección integral contra la violencia de género en Andalucía. La unidad de igualdad y género: funciones. Pertinencia e impacto de genero en la normativa: conceptos y objetivos. Comisión de Impacto de Género en los Presupuestos Públicos de la Comunidad Autónoma: objeto y competencias. Violencia de género. Concepto y tipos de violencia hacia las mujeres. Prevención y protección integral. Recursos y programas específicos en la Comunidad Autónoma de Andalucía."
+    },
+    {
+      "id": "c31",
+      "num": 31,
+      "bloque": "comun",
+      "titulo": "Innovación y Administración Pública. El concepto de innovación pública. La estrategia de innovación de Andalucía. El Sistema de Innovación Andaluz. Retos y objetivos de la estrategia."
+    },
+    {
+      "id": "c32",
+      "num": 32,
+      "bloque": "comun",
+      "titulo": "El servicio público. Doctrina clásica y evolución. Las diferentes formas de gestión de los servicios públicos. Las concesiones: naturaleza jurídica y clases. El régimen jurídico de las concesiones: modificación, novación, transmisión y extinción de las concesiones."
+    },
+    {
+      "id": "c33",
+      "num": 33,
+      "bloque": "comun",
+      "titulo": "Los bienes de la Administración: Bienes de dominio público: caracteres; uso y aprovechamiento; afectación y desafectación. Bienes de dominio privado: caracteres, adquisición, disponibilidad y uso. Responsabilidad y sanciones. El patrimonio de la Comunidad Autónoma de Andalucía. Regulación jurídica, concepto y clasificación de los bienes y derechos. El Inventario General de Bienes y Derechos."
+    },
+    {
+      "id": "c34",
+      "num": 34,
+      "bloque": "comun",
+      "titulo": "El control de la actividad financiera de la Comunidad Autónoma: Concepto y clases. El control interno: La función interventora y sus modalidades; el control financiero y el control financiero permanente. La Intervención General de la Junta de Andalucía. El control externo: La Cámara de Cuentas de Andalucía y el control parlamentario."
+    },
+    {
+      "id": "c35",
+      "num": 35,
+      "bloque": "comun",
+      "titulo": "Planificación estratégica, modernización y dirección pública en las Administraciones Públicas. Gestión del cambio y gestión del conocimiento. Gestión por objetivos y programación de proyectos. Liderazgo, competencias directivas y evaluación del desempeño en la Junta de Andalucía."
+    },
+    {
+      "id": "g01",
+      "num": 1,
+      "bloque": "gestion-administrativa",
+      "titulo": "Las modificaciones presupuestarias en el presupuesto de la Comunidad Autónoma de Andalucía: créditos extraordinarios y suplementos de crédito, ampliaciones, generaciones, transferencias e incorporaciones de crédito. La ejecución del presupuesto de gastos: fases (A, D, O, P), órganos competentes y documentos contables. Gastos plurianuales, tramitación anticipada, convalidación y operaciones de cierre del ejercicio."
+    },
+    {
+      "id": "g02",
+      "num": 2,
+      "bloque": "gestion-administrativa",
+      "titulo": "Las retribuciones del personal al servicio de la Comunidad Autónoma de Andalucía: retribuciones básicas y complementarias. Nóminas: estructura y normas de confección. Procedimiento de elaboración: formación, tramitación, aprobación, control, contabilización y pago (sistema SIRhUS y GIRO)."
+    },
+    {
+      "id": "g03",
+      "num": 3,
+      "bloque": "gestion-administrativa",
+      "titulo": "La Tesorería General de la Comunidad Autónoma de Andalucía: funciones, cuentas generales y cuentas autorizadas. Las cuentas de gastos de funcionamiento y anticipos de caja fija: principios generales, libros necesarios y normas sobre su cumplimentación y control. La justificación de los gastos librados «a justificar» y de «justificación diferida»."
+    },
+    {
+      "id": "g04",
+      "num": 4,
+      "bloque": "gestion-administrativa",
+      "titulo": "Derechos y deberes de los empleados públicos en la Junta de Andalucía. Derechos individuales y de ejercicio colectivo. Jornada, vacaciones, permisos y licencias. Deberes y código ético. Régimen de incompatibilidades y régimen disciplinario: faltas, sanciones y procedimiento."
+    },
+    {
+      "id": "g05",
+      "num": 5,
+      "bloque": "gestion-administrativa",
+      "titulo": "El sistema español de Seguridad Social. El Régimen General: campo de aplicación. Afiliación de trabajadores: altas, bajas, forma de practicarse y plazos. Cotización: bases y tipos. La recaudación de cuotas. Acción protectora y otros regímenes de previsión social del personal al servicio de la Junta de Andalucía (MUFACE y Régimen General)."
+    },
+    {
+      "id": "g06",
+      "num": 6,
+      "bloque": "gestion-administrativa",
+      "titulo": "La comunicación en la Administración y la atención al público. Relaciones de la ciudadanía con la Junta de Andalucía: derechos de información, petición y participación. Servicios de información y atención ciudadana (canales presencial, telefónico 012 y electrónico). El Libro de Sugerencias y Reclamaciones de la Junta de Andalucía: recepción, registro, tramitación y plazos."
+    },
+    {
+      "id": "g07",
+      "num": 7,
+      "bloque": "gestion-administrativa",
+      "titulo": "Documentos de la Administración de la Junta de Andalucía: tipos, estructura, identidad e imagen corporativa, estilo administrativo y lenguaje no sexista. Gestión de documentos: originales y copias autenticadas, desglose y formación del expediente electrónico. Los registros administrativos: presentación, digitalización y tramitación."
+    },
+    {
+      "id": "g08",
+      "num": 8,
+      "bloque": "gestion-administrativa",
+      "titulo": "El archivo administrativo y la gestión documental en la Junta de Andalucía. Concepto y clases de archivos según el ciclo vital de los documentos (de oficina, centrales, intermedios e históricos). El Sistema Archivístico de Andalucía (Ley 7/2011). Organización, valoración, expurgo, conservación, seguridad y derecho de acceso a los archivos. Racionalización y simplificación del trabajo administrativo."
+    },
+    {
+      "id": "g09",
+      "num": 9,
+      "bloque": "gestion-administrativa",
+      "titulo": "Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica."
+    },
+    {
+      "id": "g10",
+      "num": 10,
+      "bloque": "gestion-administrativa",
+      "titulo": "Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos."
+    },
+    {
+      "id": "g11",
+      "num": 11,
+      "bloque": "gestion-administrativa",
+      "titulo": "Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@)."
+    },
+    {
+      "id": "g12",
+      "num": 12,
+      "bloque": "gestion-administrativa",
+      "titulo": "Derecho Civil y Derecho Laboral en la Administración Pública (Especial A1.1100 Administradores Generales). Fuentes del Derecho Civil, persona, capacidad jurídica y de obrar, derechos reales, Registro de la Propiedad y teoría general del contrato civil. Fuentes del Derecho del Trabajo, contrato de trabajo, salario, representación colectiva, jurisdicción social y VI Convenio Colectivo del Personal Laboral de la Junta de Andalucía."
     },
     {
       "id": "e01",

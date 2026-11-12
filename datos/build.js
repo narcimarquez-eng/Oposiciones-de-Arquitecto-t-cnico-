@@ -23,8 +23,8 @@ const esTextoNoVacio = (s) => typeof s === 'string' && s.trim().length > 0;
 // 1. Temario de referencia
 const temario = leerJSON(path.join(DIR, 'temario-andalucia.json'));
 const idsTemario = temario.temas.map((t) => t.id);
-if (temario.total_temas !== 70 || temario.temas.length !== 70) {
-  err(`temario-andalucia.json: se esperaban 70 temas y hay ${temario.temas.length}`);
+if (temario.total_temas !== temario.temas.length) {
+  err(`temario-andalucia.json: total_temas (${temario.total_temas}) no coincide con temas.length (${temario.temas.length})`);
 }
 if (new Set(idsTemario).size !== idsTemario.length) err('temario: hay ids duplicados');
 

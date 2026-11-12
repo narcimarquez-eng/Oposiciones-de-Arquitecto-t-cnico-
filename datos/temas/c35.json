@@ -1,0 +1,541 @@
+{
+  "id": "c35",
+  "resumen": [
+    {
+      "titulo": "Modernización administrativa, gestión del cambio y gestión del conocimiento",
+      "puntos": [
+        "La modernización de las Administraciones Públicas ha evolucionado desde el modelo burocrático weberiano tradicional (centrado en el cumplimiento formal del procedimiento) hacia la Nueva Gestión Pública (New Public Management: orientación a resultados, indicadores de eficacia, eficiencia y economía) y la Gobernanza Pública e Inteligencia Institucional (valor público, transparencia, participación y cocreación).",
+        "La gestión del cambio en el sector público requiere liderazgo transformacional, comunicación interna transparente, participación de los empleados públicos, capacitación digital y superación de las resistencias organizativas.",
+        "La gestión del conocimiento (Knowledge Management, modelo SECI de Nonaka y Takeuchi: socialización, exteriorización, combinación e interiorización) transforma el conocimiento tácito individual de los empleados públicos en conocimiento explícito y capital intelectual institucional.",
+        "En la Junta de Andalucía, el Instituto Andaluz de Administración Pública (IAAP) impulsa comunidades de práctica, aprendizaje colaborativo, transferencia generacional del conocimiento y gestión por competencias."
+      ]
+    },
+    {
+      "titulo": "Planificación estratégica, planificación operativa y gestión de proyectos",
+      "puntos": [
+        "El artículo 3 de la Ley 9/2007 (LAJA) consagra como principios de funcionamiento de la Administración de la Junta de Andalucía la dirección por objetivos, la programación de la actividad y el control y evaluación de los resultados.",
+        "Niveles de planificación pública: 1) Planificación estratégica (largo plazo, 4-6 años: define misión, visión, valores, análisis DAFO/CAME y líneas estratégicas); 2) Planificación táctica o programática (medio plazo: programas plurianuales y planes directores); 3) Planificación operativa (corto plazo, anual: planes de actuación, asignación presupuestaria y metas operativas).",
+        "Herramientas de dirección estratégica y seguimiento: Cuadro de Mando Integral (Balanced Scorecard de Kaplan y Norton adaptado al sector público: perspectivas de ciudadanía/valor público, procesos internos, aprendizaje/personas y recursos financieros), indicadores SMART (específicos, medibles, alcanzables, relevantes y acotados en el tiempo) y sistemas OKR (Objectives and Key Results).",
+        "Gestión de proyectos públicos (PMBOK / PRINCE2 / metodologías ágiles Scrum y Kanban): estructurada en cinco grupos de procesos (inicio, planificación, ejecución, monitoreo/control y cierre), gestionando la triple restricción de alcance, tiempo (diagramas de Gantt, método del camino crítico CPM/PERT) y coste/calidad."
+      ]
+    },
+    {
+      "titulo": "Dirección Pública Profesional y liderazgo en la Ley 5/2023 (LFPA)",
+      "puntos": [
+        "El artículo 13 del TREBEP (RDL 5/2015) y el Título II de la Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (LFPA, arts. 16 a 25) regulan la Dirección Pública Profesional como espacio directivo intermedio entre el nivel político (altos cargos) y la función pública ordinaria.",
+        "Principios de designación del personal directivo público profesional (art. 13.2 TREBEP y art. 20 LFPA): mérito, capacidad, idoneidad, publicidad y concurrencia entre personal funcionario de carrera del subgrupo A1 (o personal laboral fijo del mismo nivel cuando así se prevea).",
+        "El personal directivo profesional está sujeto a evaluación con arreglo a los criterios de eficacia y eficiencia, responsabilidad por su gestión y control de resultados en relación con los objetivos que le hayan sido fijados (acuerdos de gestión).",
+        "Estilos de liderazgo y competencias directivas: liderazgo situacional (Hersey y Blanchard), liderazgo transformacional, visión estratégica, negociación integradora, comunicación eficaz, inteligencia emocional, motivación de equipos (teorías de Maslow, Herzberg y McClelland) y resolución de conflictos."
+      ]
+    },
+    {
+      "titulo": "Gestión por competencias, planificación de RRHH y evaluación del desempeño",
+      "puntos": [
+        "La Ley 5/2023 (LFPA) implanta la gestión basada en competencias profesionales (conocimientos técnicos, habilidades operativas y actitudes/conductas observables) como eje vertebrador de la selección, formación, provisión de puestos y carrera profesional.",
+        "Instrumentos de planificación de los recursos humanos (art. 69 TREBEP y Título III LFPA): los Planes de Ordenación de Recursos Humanos (PORH) y las Relaciones de Puestos de Trabajo (RPT), orientados al dimensionamiento adecuado de plantillas, relevo generacional y nuevos perfiles tecnológicos.",
+        "La evaluación del desempeño (art. 20 TREBEP y arts. 63 a 68 LFPA) es el procedimiento mediante el cual se mide y valora la conducta profesional y el rendimiento o el logro de resultados de los empleados públicos.",
+        "Efectos legales de la evaluación del desempeño: es requisito indispensable para la progresión en los tramos de la carrera horizontal, la percepción del complemento de desempeño, la valoración en concursos de provisión y la continuidad en el puesto obtenido por concurso (art. 20.3 TREBEP y LFPA)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LFP-ANDALUCIA",
+      "rol": "Regulación de la dirección pública profesional, la planificación estratégica de recursos humanos, la gestión por competencias y la evaluación del desempeño (Ley 5/2023)"
+    },
+    {
+      "id": "EBEP",
+      "rol": "Bases del régimen del personal directivo profesional (art. 13 TREBEP), evaluación del desempeño (art. 20) y planificación de recursos humanos (art. 69)"
+    },
+    {
+      "id": "LAJA",
+      "rol": "Principios de dirección y gestión por objetivos, programación y evaluación de resultados en la Administración de la Junta de Andalucía (art. 3 LAJA)"
+    },
+    {
+      "id": "DEC-AND-622-2019",
+      "rol": "Planificación organizativa, gestión por procesos, simplificación y transformación digital en la Junta de Andalucía"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Qué ley autonómica regula de forma sistemática la Dirección Pública Profesional, la gestión por competencias y la evaluación del desempeño en la Administración de la Junta de Andalucía?",
+      "opciones": [
+        "La Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía",
+        "La Ley 4/1986, de 5 de mayo, del Patrimonio de la Comunidad Autónoma de Andalucía",
+        "La Ley 7/2021, de 1 de diciembre, de impulso para la sostenibilidad del territorio de Andalucía",
+        "La Ley 14/2007, de 26 de noviembre, del Patrimonio Histórico de Andalucía"
+      ],
+      "correcta": 0,
+      "explicacion": "La Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (LFPA), regula en su Título II la Dirección Pública Profesional y en su Título V la carrera profesional y la evaluación del desempeño.",
+      "referencia": "Título II y V LFP-ANDALUCIA"
+    },
+    {
+      "pregunta": "Según el artículo 13 del TREBEP (RDL 5/2015) y la Ley 5/2023 (LFPA), ¿a qué principios debe atender la designación del personal directivo público profesional?",
+      "opciones": [
+        "A la libre designación política sin exigencia de titulación ni pertenencia al subgrupo A1",
+        "Al sorteo anual entre todos los aspirantes de las bolsas de interinos",
+        "A principios de mérito y capacidad y a criterios de idoneidad, llevándose a cabo mediante procedimientos que garanticen la publicidad y concurrencia",
+        "Exclusivamente a la antigüedad absoluta en el cuerpo sin convocatoria pública"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 13.2 del TREBEP y la Ley 5/2023 disponen que la designación del personal directivo atenderá a principios de mérito y capacidad y a criterios de idoneidad, garantizando la publicidad y concurrencia.",
+      "referencia": "Art. 13.2 EBEP; LFP-ANDALUCIA"
+    },
+    {
+      "pregunta": "De acuerdo con el artículo 20.1 del TREBEP y la Ley 5/2023 de Función Pública de Andalucía, ¿qué mide y valora el procedimiento de evaluación del desempeño de los empleados públicos?",
+      "opciones": [
+        "La afiliación política o sindical del empleado público",
+        "La conducta profesional y el rendimiento o el logro de resultados",
+        "Únicamente el número de horas extraordinarias realizadas fuera de la jornada",
+        "El patrimonio familiar declarado en el Impuesto sobre la Renta"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 20.1 del TREBEP define la evaluación del desempeño como el procedimiento mediante el cual se mide y valora la conducta profesional y el rendimiento o el logro de resultados.",
+      "referencia": "Art. 20.1 EBEP; LFP-ANDALUCIA"
+    },
+    {
+      "pregunta": "Conforme al artículo 13.4 del TREBEP, ¿son negociables en la mesa de negociación colectiva las condiciones de empleo del personal directivo público profesional?",
+      "opciones": [
+        "No, la determinación de las condiciones de empleo del personal directivo no tendrá la consideración de materia objeto de negociación colectiva",
+        "Depende exclusivamente de lo que decida el Alcalde del municipio",
+        "Sí, requieren acuerdo unánime de todos los sindicatos presentes en la Junta de Personal",
+        "Sí, deben aprobarse mediante laudo arbitral obligatorio cada seis meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 13.4 del TREBEP establece expresamente que la determinación de las condiciones de empleo del personal directivo no tendrá la consideración de materia objeto de negociación colectiva.",
+      "referencia": "Art. 13.4 EBEP"
+    },
+    {
+      "pregunta": "En la teoría de la gestión del conocimiento de Nonaka y Takeuchi (modelo SECI), ¿cómo se denomina el proceso de conversión de conocimiento tácito (experiencia personal) en conocimiento explícito (documentos, manuales, protocolos compartidos)?",
+      "opciones": [
+        "Exteriorización (o externalización)",
+        "Socialización tácita pura",
+        "Interiorización",
+        "Amortización contable"
+      ],
+      "correcta": 0,
+      "explicacion": "En el modelo SECI de Nonaka y Takeuchi: Socialización (tácito a tácito), Exteriorización (tácito a explícito), Combinación (explícito a explícito) e Interiorización (explícito a tácito).",
+      "referencia": "Gestión del conocimiento; LFP-ANDALUCIA"
+    },
+    {
+      "pregunta": "¿Qué herramienta de planificación estratégica creada por Kaplan y Norton traduce la misión y la estrategia de una organización pública en un conjunto coherente de objetivos e indicadores agrupados en cuatro perspectivas (ciudadanía/usuarios, procesos internos, aprendizaje/crecimiento y financiera/recursos)?",
+      "opciones": [
+        "El Cuadro de Mando Integral (Balanced Scorecard)",
+        "El Diagrama de Ishikawa o de espina de pescado",
+        "La tabla de amortización lineal de activos",
+        "El libro diario de arqueo de caja"
+      ],
+      "correcta": 0,
+      "explicacion": "El Cuadro de Mando Integral (CMI o Balanced Scorecard) permite alinear la planificación estratégica con la operativa mediante indicadores en cuatro perspectivas.",
+      "referencia": "Art. 3 LAJA; Planificación Estratégica"
+    },
+    {
+      "pregunta": "En la formulación de objetivos e indicadores dentro de la gestión pública por resultados, ¿qué significan las siglas del criterio «SMART»?",
+      "opciones": [
+        "Simples, Manuales, Anuales, Retroactivos y Tributarios",
+        "Secretos, Múltiples, Aleatorios, Rígidos y Teóricos",
+        "Subjetivos, Modificables, Abiertos, Reglamentarios y Temporales",
+        "Específicos (Specific), Medibles (Measurable), Alcanzables (Achievable), Relevantes (Relevant) y Acotados en el tiempo (Time-bound)"
+      ],
+      "correcta": 3,
+      "explicacion": "Los indicadores y objetivos SMART deben ser específicos, medibles, alcanzables, relevantes/realistas y definidos en un plazo temporal concreto.",
+      "referencia": "Art. 3 LAJA; Dirección por Objetivos"
+    },
+    {
+      "pregunta": "Según el artículo 69 del TREBEP y la Ley 5/2023 (LFPA), ¿cuál es el instrumento básico mediante el cual las Administraciones Públicas analizan las necesidades de personal y articulan medidas sobre dimensionamiento de efectivos, redistribución, promoción e incorporación?",
+      "opciones": [
+        "La Cuenta General de Tesorería",
+        "Los Planes para la ordenación de sus recursos humanos",
+        "Las Cartas de Servicios de atención telefónica",
+        "El Inventario General de Bienes Muebles"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 69 del TREBEP regula los Planes para la ordenación de los recursos humanos como instrumento básico de planificación estratégica de personal.",
+      "referencia": "Art. 69 EBEP; LFP-ANDALUCIA"
+    },
+    {
+      "pregunta": "En la teoría bifactorial de la motivación laboral de Frederick Herzberg, ¿cómo se clasifican los factores como el salario básico, las condiciones físicas de seguridad y las normas administrativas, cuya ausencia genera insatisfacción pero cuya mera presencia no produce motivación intrínseca duradera?",
+      "opciones": [
+        "Factores motivacionales intrínsecos de autorrealización",
+        "Factores de liderazgo carismático",
+        "Factores higiénicos (o extrínsecos)",
+        "Factores de desviación de poder"
+      ],
+      "correcta": 2,
+      "explicacion": "Herzberg distingue entre factores higiénicos o extrínsecos (evitan la insatisfacción: sueldo, condiciones físicas, estabilidad) y factores motivadores o intrínsecos (logro, reconocimiento, responsabilidad, crecimiento).",
+      "referencia": "Dirección Pública y Gestión de Personas; LFP-ANDALUCIA"
+    },
+    {
+      "pregunta": "Según el artículo 20.2 del TREBEP, ¿a qué tres principios deben adecuarse en todo caso los sistemas de evaluación del desempeño que implanten las Administraciones Públicas?",
+      "opciones": [
+        "Rotación automática, sorteo anual y confidencialidad frente al interesado",
+        "Secreto absoluto, discrecionalidad política y libre albedrío",
+        "Penalización económica, publicidad sancionadora y jerarquía militar",
+        "Transparencia, objetividad, imparcialidad y no discriminación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 20.2 del TREBEP exige que los sistemas de evaluación del desempeño se adecuen, en todo caso, a criterios de transparencia, objetividad, imparcialidad y no discriminación, aplicándose sin menoscabo de los derechos de los empleados públicos.",
+      "referencia": "Art. 20.2 EBEP"
+    },
+    {
+      "pregunta": "En el ámbito de «Modernización administrativa, gestión del cambio y gestión del conocimiento», ¿qué caracteriza o establece exactamente el concepto «La gestión del conocimiento (Knowledge Management, modelo SECI de Nonaka y Takeuchi»?",
+      "opciones": [
+        "Uso no sexista del lenguaje administrativo (art. 9 de la Ley 12/2007 para la promoción de la igualdad de género en Andalucía e Instrucción de…",
+        "Entidades Gestoras y Servicios Comunes (arts. 66 a 76 TRLGSS): Instituto Nacional de la Seguridad Social (INSS, gestión y administración de las…",
+        "socialización, exteriorización, combinación e interiorización) transforma el conocimiento tácito individual de los empleados públicos en…",
+        "Según el artículo 85 del TRLGHP, el control interno comprende dos grandes modalidades: el control previo (o función interventora) y el control…"
+      ],
+      "correcta": 2,
+      "explicacion": "La gestión del conocimiento (Knowledge Management, modelo SECI de Nonaka y Takeuchi: socialización, exteriorización, combinación e interiorización) transforma el conocimiento tácito individual de los empleados públicos en conocimiento explícito y capital intelectual institucional.",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Modernización administrativa, gestión del cambio y gestión del conocimiento"
+    },
+    {
+      "pregunta": "Dentro del bloque «Modernización administrativa, gestión del cambio y gestión del conocimiento», ¿a qué figura, principio o instrumento corresponde la siguiente regulación?: «socialización, exteriorización, combinación e interiorización) transforma el conocimiento tácito individual de los empleados públicos en conocimiento explícito y…»",
+      "opciones": [
+        "Duración máxima de las concesiones (art. 29.6 LCSP)",
+        "Prerrogativas y poderes de la Administración (arts. 261, 263, 290 LCSP)",
+        "La gestión del conocimiento (Knowledge Management, modelo SECI de Nonaka y Takeuchi",
+        "Clasificación de los pagos"
+      ],
+      "correcta": 2,
+      "explicacion": "La gestión del conocimiento (Knowledge Management, modelo SECI de Nonaka y Takeuchi: socialización, exteriorización, combinación e interiorización) transforma el conocimiento tácito individual de los empleados públicos en conocimiento explícito y capital intelectual institucional.",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Modernización administrativa, gestión del cambio y gestión del conocimiento"
+    },
+    {
+      "pregunta": "En el ámbito de «Planificación estratégica, planificación operativa y gestión de proyectos», ¿qué caracteriza o establece exactamente el concepto «Niveles de planificación pública»?",
+      "opciones": [
+        "Principios clásicos del servicio público («Leyes de Rolland»): continuidad y regularidad, mutabilidad o adaptación constante al interés general…",
+        "Límites cuantitativos del Anticipo de Caja Fija: la cuantía global del anticipo de caja fija concedido no podrá exceder del 10 % del total de…",
+        "Caracteres de los bienes patrimoniales: son alienables (pueden enajenarse previo expediente y declaración de alienabilidad), prescriptibles…",
+        "1) Planificación estratégica (largo plazo, 4-6 años: define misión, visión, valores, análisis DAFO/CAME y líneas estratégicas); 2) Planificación…"
+      ],
+      "correcta": 3,
+      "explicacion": "Niveles de planificación pública: 1) Planificación estratégica (largo plazo, 4-6 años: define misión, visión, valores, análisis DAFO/CAME y líneas estratégicas); 2) Planificación táctica o programática (medio plazo: programas plurianuales y planes directores); 3) Planificación operativa (corto plazo, anual: planes de actuación, asignación presupuestaria y metas operativas).",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Planificación estratégica, planificación operativa y gestión de proyectos"
+    },
+    {
+      "pregunta": "Dentro del bloque «Planificación estratégica, planificación operativa y gestión de proyectos», ¿a qué figura, principio o instrumento corresponde la siguiente regulación?: «1) Planificación estratégica (largo plazo, 4-6 años: define misión, visión, valores, análisis DAFO/CAME y líneas estratégicas); 2) Planificación táctica o…»",
+      "opciones": [
+        "Navegadores web (Mozilla Firefox, Google Chrome, Microsoft Edge, Safari)",
+        "Tablas y tabulaciones",
+        "Niveles de planificación pública",
+        "La doctrina clásica francesa (Escuela de Burdeos"
+      ],
+      "correcta": 2,
+      "explicacion": "Niveles de planificación pública: 1) Planificación estratégica (largo plazo, 4-6 años: define misión, visión, valores, análisis DAFO/CAME y líneas estratégicas); 2) Planificación táctica o programática (medio plazo: programas plurianuales y planes directores); 3) Planificación operativa (corto plazo, anual: planes de actuación, asignación presupuestaria y metas operativas).",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Planificación estratégica, planificación operativa y gestión de proyectos"
+    },
+    {
+      "pregunta": "En el ámbito de «Planificación estratégica, planificación operativa y gestión de proyectos», ¿qué caracteriza o establece exactamente el concepto «Herramientas de dirección estratégica y seguimiento»?",
+      "opciones": [
+        "Principios de la potestad disciplinaria (art. 94 TREBEP y Título X LFPA): legalidad y tipicidad de las faltas y sanciones, irretroactividad de…",
+        "Cuadro de Mando Integral (Balanced Scorecard de Kaplan y Norton adaptado al sector público: perspectivas de ciudadanía/valor público, procesos…",
+        "Contrato de concesión de servicios (art. 15 LCSP): aquel en cuya virtud uno o varios poderes adjudicadores encomiendan a título oneroso a una o…",
+        "Eficacia y aplicación de las normas jurídicas (arts. 2 a 7 CC): las leyes entrarán en vigor a los veinte días de su completa publicación en el…"
+      ],
+      "correcta": 1,
+      "explicacion": "Herramientas de dirección estratégica y seguimiento: Cuadro de Mando Integral (Balanced Scorecard de Kaplan y Norton adaptado al sector público: perspectivas de ciudadanía/valor público, procesos internos, aprendizaje/personas y recursos financieros), indicadores SMART (específicos, medibles, alcanzables, relevantes y acotados en el tiempo) y sistemas OKR (Objectives and Key Results).",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Planificación estratégica, planificación operativa y gestión de proyectos"
+    },
+    {
+      "pregunta": "Dentro del bloque «Planificación estratégica, planificación operativa y gestión de proyectos», ¿a qué figura, principio o instrumento corresponde la siguiente regulación?: «Cuadro de Mando Integral (Balanced Scorecard de Kaplan y Norton adaptado al sector público: perspectivas de ciudadanía/valor público, procesos internos,…»",
+      "opciones": [
+        "Modos de adquisición (art. 15 LPAP y art. 73 Ley 4/1986)",
+        "Cómputo de plazos en registros electrónicos (art. 31 LPAC)",
+        "Clasificación profesional en el Convenio Colectivo de la Junta de Andalucía",
+        "Herramientas de dirección estratégica y seguimiento"
+      ],
+      "correcta": 3,
+      "explicacion": "Herramientas de dirección estratégica y seguimiento: Cuadro de Mando Integral (Balanced Scorecard de Kaplan y Norton adaptado al sector público: perspectivas de ciudadanía/valor público, procesos internos, aprendizaje/personas y recursos financieros), indicadores SMART (específicos, medibles, alcanzables, relevantes y acotados en el tiempo) y sistemas OKR (Objectives and Key Results).",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Planificación estratégica, planificación operativa y gestión de proyectos"
+    },
+    {
+      "pregunta": "En el ámbito de «Planificación estratégica, planificación operativa y gestión de proyectos», ¿qué caracteriza o establece exactamente el concepto «Gestión de proyectos públicos (PMBOK / PRINCE2 / metodologías ágiles Scrum y Kanban)»?",
+      "opciones": [
+        "estructurada en cinco grupos de procesos (inicio, planificación, ejecución, monitoreo/control y cierre), gestionando la triple restricción de…",
+        "Agentes del SAC: Universidades de Andalucía, Organismos Públicos de Investigación (OPI), Centros e Institutos de Investigación, Parques…",
+        "Provisión de vacantes y estructura salarial en el Convenio Colectivo: el sistema ordinario de provisión de puestos vacantes de la RPT de…",
+        "Regímenes de previsión social del personal de la Junta de Andalucía: tras el Real Decreto-ley 13/2010, de 3 de diciembre (con efectos desde el…"
+      ],
+      "correcta": 0,
+      "explicacion": "Gestión de proyectos públicos (PMBOK / PRINCE2 / metodologías ágiles Scrum y Kanban): estructurada en cinco grupos de procesos (inicio, planificación, ejecución, monitoreo/control y cierre), gestionando la triple restricción de alcance, tiempo (diagramas de Gantt, método del camino crítico CPM/PERT) y coste/calidad.",
+      "referencia": "PMBOK / PRINCE2 / metodologías ágiles Scrum y Kanban"
+    },
+    {
+      "pregunta": "Dentro del bloque «Planificación estratégica, planificación operativa y gestión de proyectos», ¿a qué figura, principio o instrumento corresponde la siguiente regulación?: «estructurada en cinco grupos de procesos (inicio, planificación, ejecución, monitoreo/control y cierre), gestionando la triple restricción de alcance, tiempo…»",
+      "opciones": [
+        "Validez y eficacia de las copias (art. 27 LPAC y Decreto 622/2019)",
+        "Gestión de proyectos públicos (PMBOK / PRINCE2 / metodologías ágiles Scrum y Kanban)",
+        "Clasificación de los archivos públicos según el ciclo vital de los documentos (las tres edades documentales, Decreto 97/2000 y Ley 7/2011)",
+        "Tipos de comunicación"
+      ],
+      "correcta": 1,
+      "explicacion": "Gestión de proyectos públicos (PMBOK / PRINCE2 / metodologías ágiles Scrum y Kanban): estructurada en cinco grupos de procesos (inicio, planificación, ejecución, monitoreo/control y cierre), gestionando la triple restricción de alcance, tiempo (diagramas de Gantt, método del camino crítico CPM/PERT) y coste/calidad.",
+      "referencia": "PMBOK / PRINCE2 / metodologías ágiles Scrum y Kanban"
+    },
+    {
+      "pregunta": "En el ámbito de «Dirección Pública Profesional y liderazgo en la Ley 5/2023 (LFPA)», ¿qué caracteriza o establece exactamente el concepto «Estilos de liderazgo y competencias directivas»?",
+      "opciones": [
+        "El Archivo Electrónico Único (art. 17 LPAC y art. 41 Decreto 622/2019): la Administración de la Junta de Andalucía mantiene un archivo…",
+        "Reglas de devengo de retribuciones fijas y periódicas: se devengan y hacen efectivas por mensualidades completas y de acuerdo con la situación…",
+        "liderazgo situacional (Hersey y Blanchard), liderazgo transformacional, visión estratégica, negociación integradora, comunicación eficaz,…",
+        "Regímenes de previsión social del personal de la Junta de Andalucía: tras el Real Decreto-ley 13/2010, de 3 de diciembre (con efectos desde el…"
+      ],
+      "correcta": 2,
+      "explicacion": "Estilos de liderazgo y competencias directivas: liderazgo situacional (Hersey y Blanchard), liderazgo transformacional, visión estratégica, negociación integradora, comunicación eficaz, inteligencia emocional, motivación de equipos (teorías de Maslow, Herzberg y McClelland) y resolución de conflictos.",
+      "referencia": "Hersey y Blanchard"
+    },
+    {
+      "pregunta": "Dentro del bloque «Dirección Pública Profesional y liderazgo en la Ley 5/2023 (LFPA)», ¿a qué figura, principio o instrumento corresponde la siguiente regulación?: «liderazgo situacional (Hersey y Blanchard), liderazgo transformacional, visión estratégica, negociación integradora, comunicación eficaz, inteligencia emocional,…»",
+      "opciones": [
+        "Estilos de liderazgo y competencias directivas",
+        "Tramitación y plazos",
+        "La modernización de las Administraciones Públicas ha evolucionado desde el modelo burocrático weberiano tradicional (centrado en el cumplimiento…",
+        "Enajenación y cesión gratuita en la Junta de Andalucía (arts. 85-107 Ley 4/1986)"
+      ],
+      "correcta": 0,
+      "explicacion": "Estilos de liderazgo y competencias directivas: liderazgo situacional (Hersey y Blanchard), liderazgo transformacional, visión estratégica, negociación integradora, comunicación eficaz, inteligencia emocional, motivación de equipos (teorías de Maslow, Herzberg y McClelland) y resolución de conflictos.",
+      "referencia": "Hersey y Blanchard"
+    },
+    {
+      "pregunta": "En el ámbito de «Gestión por competencias, planificación de RRHH y evaluación del desempeño», ¿qué caracteriza o establece exactamente el concepto «Instrumentos de planificación de los recursos humanos (art. 69 TREBEP y Título III LFPA)»?",
+      "opciones": [
+        "Canal electrónico (arts. 13 a 35 Decreto 622/2019): integrado por el Punto de Acceso General Electrónico de la Junta de Andalucía (Portal de la…",
+        "los Planes de Ordenación de Recursos Humanos (PORH) y las Relaciones de Puestos de Trabajo (RPT), orientados al dimensionamiento adecuado de…",
+        "Cierre y liquidación del Presupuesto (art. 39 y Orden anual de cierre de la Consejería de Hacienda): el ejercicio presupuestario coincide con…",
+        "Conforme a los artículos 21 a 24 del TREBEP (RDL 5/2015) y los artículos 69 a 82 de la Ley 5/2023, de 7 de junio, de la Función Pública de…"
+      ],
+      "correcta": 1,
+      "explicacion": "Instrumentos de planificación de los recursos humanos (art. 69 TREBEP y Título III LFPA): los Planes de Ordenación de Recursos Humanos (PORH) y las Relaciones de Puestos de Trabajo (RPT), orientados al dimensionamiento adecuado de plantillas, relevo generacional y nuevos perfiles tecnológicos.",
+      "referencia": "art. 69 TREBEP y Título III LFPA"
+    },
+    {
+      "pregunta": "En el ámbito de «Gestión por competencias, planificación de RRHH y evaluación del desempeño», ¿qué caracteriza o establece exactamente el concepto «Efectos legales de la evaluación del desempeño»?",
+      "opciones": [
+        "Agentes del SAC: Universidades de Andalucía, Organismos Públicos de Investigación (OPI), Centros e Institutos de Investigación, Parques…",
+        "es requisito indispensable para la progresión en los tramos de la carrera horizontal, la percepción del complemento de desempeño, la valoración en…",
+        "Deducciones en la nómina: 1) Deducciones formales obligatorias: retención a cuenta del IRPF, cotización al Régimen General de la Seguridad…",
+        "Los Anticipos de Caja Fija (ACF, regulados en el art. 56 bis TRLGHP y en la Orden de 24 de julio de 2018) son provisiones de fondos de carácter…"
+      ],
+      "correcta": 1,
+      "explicacion": "Efectos legales de la evaluación del desempeño: es requisito indispensable para la progresión en los tramos de la carrera horizontal, la percepción del complemento de desempeño, la valoración en concursos de provisión y la continuidad en el puesto obtenido por concurso (art. 20.3 TREBEP y LFPA).",
+      "referencia": "art. 20.3 TREBEP y LFPA"
+    },
+    {
+      "pregunta": "Dentro del bloque «Gestión por competencias, planificación de RRHH y evaluación del desempeño», ¿a qué figura, principio o instrumento corresponde la siguiente regulación?: «es requisito indispensable para la progresión en los tramos de la carrera horizontal, la percepción del complemento de desempeño, la valoración en concursos de…»",
+      "opciones": [
+        "En el Derecho español actual coexisten dos grandes categorías",
+        "Clasificación de las redes por su alcance geográfico",
+        "Efectos legales de la evaluación del desempeño",
+        "Pagos en firme de «justificación diferida»"
+      ],
+      "correcta": 2,
+      "explicacion": "Efectos legales de la evaluación del desempeño: es requisito indispensable para la progresión en los tramos de la carrera horizontal, la percepción del complemento de desempeño, la valoración en concursos de provisión y la continuidad en el puesto obtenido por concurso (art. 20.3 TREBEP y LFPA).",
+      "referencia": "art. 20.3 TREBEP y LFPA"
+    },
+    {
+      "pregunta": "Indique el plazo o parámetro temporal exacto previsto en «Planificación estratégica, planificación operativa y gestión de proyectos»: Niveles de planificación pública: 1) Planificación estratégica (largo plazo, 4-«___»: define misión, visión, valores, análisis DAFO/CAME y líneas estratégicas); 2)…",
+      "opciones": [
+        "6 años",
+        "10 años",
+        "15 días hábiles",
+        "2 años"
+      ],
+      "correcta": 0,
+      "explicacion": "Niveles de planificación pública: 1) Planificación estratégica (largo plazo, 4-6 años: define misión, visión, valores, análisis DAFO/CAME y líneas estratégicas); 2) Planificación táctica o programática (medio plazo: programas plurianuales y planes directores); 3) Planificación operativa (corto plazo, anual: planes de actuación, asignación presupuestaria y metas operativas).",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Planificación estratégica, planificación operativa y gestión de proyectos"
+    },
+    {
+      "pregunta": "En el estudio del tema «Planificación estratégica, modernización y dirección pública en las Administraciones…», ¿qué aspecto regula específicamente la norma «Ley de la Función Pública de Andalucía» (Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023))?",
+      "opciones": [
+        "Ordenación del comercio marítimo internacional y abanderamiento de buques mercantes",
+        "Planificación organizativa, gestión por procesos, simplificación y transformación digital en la Junta de Andalucía",
+        "Principios de dirección y gestión por objetivos, programación y evaluación de resultados en la Administración de la Junta de Andalucía (art. 3 LAJA)",
+        "Regulación de la dirección pública profesional, la planificación estratégica de recursos humanos, la gestión por competencias y la evaluación del…"
+      ],
+      "correcta": 3,
+      "explicacion": "Ley de la Función Pública de Andalucía (Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023)): Regulación de la dirección pública profesional, la planificación estratégica de recursos humanos, la gestión por competencias y la evaluación del desempeño (Ley 5/2023).",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023)"
+    },
+    {
+      "pregunta": "¿Cuál es la disposición normativa oficial que tiene asignado en este tema el siguiente alcance: «Regulación de la dirección pública profesional, la planificación estratégica de recursos humanos, la gestión por competencias y la evaluación…»?",
+      "opciones": [
+        "Ley de la Función Pública de Andalucía (Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE…",
+        "Reglamento de la Ley 32/2006, reguladora de la subcontratación en el Sector de la Construcción (Real Decreto 1109/2007, de 24 de agosto, por el que…",
+        "Ley de Contratos del Sector Público (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017))",
+        "Ley de Transparencia Pública de Andalucía (Ley 1/2014, de 24 de junio, de Transparencia Pública de Andalucía (BOJA de 30 de junio de 2014; BOE núm.…"
+      ],
+      "correcta": 0,
+      "explicacion": "La norma que regula dicho contenido es Ley de la Función Pública de Andalucía (Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023)).",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023)"
+    },
+    {
+      "pregunta": "En el estudio del tema «Planificación estratégica, modernización y dirección pública en las Administraciones…», ¿qué aspecto regula específicamente la norma «Estatuto Básico del Empleado Público» (Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público (BOE núm. 261, de 31 de octubre de 2015))?",
+      "opciones": [
+        "Regulación de la jurisdicción militar y del régimen disciplinario de las Fuerzas Armadas",
+        "Regulación del sistema electoral general y financiación de partidos políticos estatales",
+        "Bases del régimen del personal directivo profesional (art. 13 TREBEP), evaluación del desempeño (art. 20) y planificación de recursos humanos (art.…",
+        "Regulación de la dirección pública profesional, la planificación estratégica de recursos humanos, la gestión por competencias y la evaluación del…"
+      ],
+      "correcta": 2,
+      "explicacion": "Estatuto Básico del Empleado Público (Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público (BOE núm. 261, de 31 de octubre de 2015)): Bases del régimen del personal directivo profesional (art. 13 TREBEP), evaluación del desempeño (art. 20) y planificación de recursos humanos (art. 69).",
+      "referencia": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público (BOE núm. 261, de 31 de octubre de 2015)"
+    },
+    {
+      "pregunta": "¿Cuál es la disposición normativa oficial que tiene asignado en este tema el siguiente alcance: «Bases del régimen del personal directivo profesional (art. 13 TREBEP), evaluación del desempeño (art. 20) y planificación de recursos humanos…»?",
+      "opciones": [
+        "Ley de la Administración de la Junta de Andalucía (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31…",
+        "Código Técnico de la Edificación (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación)",
+        "Ley General Presupuestaria (Ley 47/2003, de 26 de noviembre, General Presupuestaria (BOE núm. 284, de 27 de noviembre de 2003))",
+        "Estatuto Básico del Empleado Público (Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del…"
+      ],
+      "correcta": 3,
+      "explicacion": "La norma que regula dicho contenido es Estatuto Básico del Empleado Público (Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público (BOE núm. 261, de 31 de octubre de 2015)).",
+      "referencia": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público (BOE núm. 261, de 31 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el estudio del tema «Planificación estratégica, modernización y dirección pública en las Administraciones…», ¿qué aspecto regula específicamente la norma «Ley de la Administración de la Junta de Andalucía» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007))?",
+      "opciones": [
+        "Ordenación del comercio marítimo internacional y abanderamiento de buques mercantes",
+        "Principios de dirección y gestión por objetivos, programación y evaluación de resultados en la Administración de la Junta de Andalucía (art. 3 LAJA)",
+        "Bases del régimen del personal directivo profesional (art. 13 TREBEP), evaluación del desempeño (art. 20) y planificación de recursos humanos (art.…",
+        "Regulación de la dirección pública profesional, la planificación estratégica de recursos humanos, la gestión por competencias y la evaluación del…"
+      ],
+      "correcta": 1,
+      "explicacion": "Ley de la Administración de la Junta de Andalucía (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)): Principios de dirección y gestión por objetivos, programación y evaluación de resultados en la Administración de la Junta de Andalucía (art. 3 LAJA).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "¿Cuál es la disposición normativa oficial que tiene asignado en este tema el siguiente alcance: «Principios de dirección y gestión por objetivos, programación y evaluación de resultados en la Administración de la Junta de Andalucía (art. 3…»?",
+      "opciones": [
+        "Ley de la Administración de la Junta de Andalucía (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31…",
+        "Normas técnicas de valoración catastral de los bienes inmuebles de características especiales (Real Decreto 1464/2007, de 2 de noviembre, por el que…",
+        "Ley de la Jurisdicción Contencioso-administrativa (Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-administrativa (BOE núm.…",
+        "Ley del Patrimonio Histórico de Andalucía (Ley 14/2007, de 26 de noviembre, del Patrimonio Histórico de Andalucía (BOJA núm. 248, de 19 de diciembre…"
+      ],
+      "correcta": 0,
+      "explicacion": "La norma que regula dicho contenido es Ley de la Administración de la Junta de Andalucía (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el estudio del tema «Planificación estratégica, modernización y dirección pública en las Administraciones…», ¿qué aspecto regula específicamente la norma «Administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019))?",
+      "opciones": [
+        "Régimen jurídico de las cámaras agrarias y denominaciones de origen vitivinícolas",
+        "Planificación organizativa, gestión por procesos, simplificación y transformación digital en la Junta de Andalucía",
+        "Regulación de la jurisdicción militar y del régimen disciplinario de las Fuerzas Armadas",
+        "Ordenación del comercio marítimo internacional y abanderamiento de buques mercantes"
+      ],
+      "correcta": 1,
+      "explicacion": "Administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)): Planificación organizativa, gestión por procesos, simplificación y transformación digital en la Junta de Andalucía.",
+      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
+    },
+    {
+      "pregunta": "¿Cuál es la disposición normativa oficial que tiene asignado en este tema el siguiente alcance: «Planificación organizativa, gestión por procesos, simplificación y transformación digital en la Junta de Andalucía»?",
+      "opciones": [
+        "Ley del Patrimonio Histórico Español (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985))",
+        "Administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (Decreto 622/2019, de 27 de…",
+        "Reglamento de la Ley de Expropiación Forzosa (Decreto de 26 de abril de 1957 por el que se aprueba el Reglamento de la Ley de Expropiación Forzosa…",
+        "Requisitos mínimos de los Centros que impartan enseñanzas de régimen general no universitarias (Real Decreto 1004/1991, de 14 de junio, por el que…"
+      ],
+      "correcta": 1,
+      "explicacion": "La norma que regula dicho contenido es Administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
+      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
+    },
+    {
+      "pregunta": "Respecto al apartado 1 del epígrafe «Modernización administrativa, gestión del cambio y gestión del conocimiento» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "La Estrategia de Especialización Inteligente para la Sostenibilidad de Andalucía (S4 Andalucía 2021-2027) constituye la condición habilitante…",
+        "Devengo de los trienios: se perfeccionan el día en que se cumplen tres, o múltiplo de tres, años de servicios efectivos y tienen efectos…",
+        "Régimen de incompatibilidades (Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones…",
+        "La modernización de las Administraciones Públicas ha evolucionado desde el modelo burocrático weberiano tradicional (centrado en el cumplimiento…"
+      ],
+      "correcta": 3,
+      "explicacion": "La modernización de las Administraciones Públicas ha evolucionado desde el modelo burocrático weberiano tradicional (centrado en el cumplimiento formal del procedimiento) hacia la Nueva Gestión Pública (New Public Management: orientación a resultados, indicadores de eficacia, eficiencia y economía) y la Gobernanza Pública e Inteligencia Institucional (valor público, transparencia, participación y cocreación).",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Modernización administrativa, gestión del cambio y gestión del conocimiento"
+    },
+    {
+      "pregunta": "Respecto al apartado 2 del epígrafe «Modernización administrativa, gestión del cambio y gestión del conocimiento» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "Fases del ejercicio de la función interventora (art. 89 TRLGHP): a) Fiscalización previa de los actos que reconozcan derechos de contenido…",
+        "La gestión del cambio en el sector público requiere liderazgo transformacional, comunicación interna transparente, participación de los empleados…",
+        "Tablas y tabulaciones: creación de tablas, combinación y división de celdas, repetición automática de filas de título en cada página cuando la…",
+        "Familia de protocolos TCP/IP (4 capas: Acceso a red, Internet, Transporte y Aplicación): en la capa de Internet operan IPv4 (direcciones de 32…"
+      ],
+      "correcta": 1,
+      "explicacion": "La gestión del cambio en el sector público requiere liderazgo transformacional, comunicación interna transparente, participación de los empleados públicos, capacitación digital y superación de las resistencias organizativas.",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Modernización administrativa, gestión del cambio y gestión del conocimiento"
+    },
+    {
+      "pregunta": "Respecto al apartado 3 del epígrafe «Modernización administrativa, gestión del cambio y gestión del conocimiento» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "La gestión del conocimiento (Knowledge Management, modelo SECI de Nonaka y Takeuchi: socialización, exteriorización, combinación e interiorización)…",
+        "La concepción subjetiva y formal tradicional exigía la «publicatio» (reserva formal de titularidad al Estado, art. 128.2 CE) y el régimen…",
+        "Estructura documental de la nómina: a) Cuerpo de la nómina (relación nominal de perceptores con sus datos identificativos, puesto en la RPT,…",
+        "La hoja de cálculo (LibreOffice Calc con extensión `.ods` y plantilla `.ots`; Microsoft Excel con extensión `.xlsx`, plantilla `.xltx` y libro…"
+      ],
+      "correcta": 0,
+      "explicacion": "La gestión del conocimiento (Knowledge Management, modelo SECI de Nonaka y Takeuchi: socialización, exteriorización, combinación e interiorización) transforma el conocimiento tácito individual de los empleados públicos en conocimiento explícito y capital intelectual institucional.",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Modernización administrativa, gestión del cambio y gestión del conocimiento"
+    },
+    {
+      "pregunta": "Respecto al apartado 4 del epígrafe «Modernización administrativa, gestión del cambio y gestión del conocimiento» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "Revisión, control de cambios y exportación a PDF/A: corrección ortográfica y gramatical (`F7`), sinónimos (`Mayús + F7`), control de cambios…",
+        "Clasificación de las faltas disciplinarias (art. 95 TREBEP): Muy graves (tipificadas directamente en el art. 95.2 TREBEP y en la LFPA:…",
+        "Convalidación de gastos: procedimiento excepcional ante el Consejo de Gobierno o la Consejería de Hacienda cuando se han realizado prestaciones…",
+        "En la Junta de Andalucía, el Instituto Andaluz de Administración Pública (IAAP) impulsa comunidades de práctica, aprendizaje colaborativo,…"
+      ],
+      "correcta": 3,
+      "explicacion": "En la Junta de Andalucía, el Instituto Andaluz de Administración Pública (IAAP) impulsa comunidades de práctica, aprendizaje colaborativo, transferencia generacional del conocimiento y gestión por competencias.",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Modernización administrativa, gestión del cambio y gestión del conocimiento"
+    },
+    {
+      "pregunta": "Respecto al apartado 1 del epígrafe «Planificación estratégica, planificación operativa y gestión de proyectos» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "Uso no sexista del lenguaje administrativo (art. 9 de la Ley 12/2007 para la promoción de la igualdad de género en Andalucía e Instrucción de…",
+        "Estilos y Plantillas: los estilos (de párrafo, de carácter, de marco, de página y de lista en Writer) agrupan un conjunto de atributos de…",
+        "El reparo y la discrepancia (art. 91 TRLGHP): si la Intervención se manifiesta en desacuerdo con el fondo o con la forma de los actos o…",
+        "El artículo 3 de la Ley 9/2007 (LAJA) consagra como principios de funcionamiento de la Administración de la Junta de Andalucía la dirección por…"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 3 de la Ley 9/2007 (LAJA) consagra como principios de funcionamiento de la Administración de la Junta de Andalucía la dirección por objetivos, la programación de la actividad y el control y evaluación de los resultados.",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Planificación estratégica, planificación operativa y gestión de proyectos"
+    },
+    {
+      "pregunta": "Respecto al apartado 2 del epígrafe «Planificación estratégica, planificación operativa y gestión de proyectos» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "El Sistema Operativo (SO) es el software de sistema principal que gestiona los recursos de hardware del ordenador (CPU, memoria principal RAM,…",
+        "El análisis y racionalización del trabajo administrativo tiene por finalidad incrementar la productividad, eficacia y calidad de los servicios…",
+        "Niveles de planificación pública: 1) Planificación estratégica (largo plazo, 4-6 años: define misión, visión, valores, análisis DAFO/CAME y líneas…",
+        "Régimen de incompatibilidades (Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones…"
+      ],
+      "correcta": 2,
+      "explicacion": "Niveles de planificación pública: 1) Planificación estratégica (largo plazo, 4-6 años: define misión, visión, valores, análisis DAFO/CAME y líneas estratégicas); 2) Planificación táctica o programática (medio plazo: programas plurianuales y planes directores); 3) Planificación operativa (corto plazo, anual: planes de actuación, asignación presupuestaria y metas operativas).",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Planificación estratégica, planificación operativa y gestión de proyectos"
+    },
+    {
+      "pregunta": "Respecto al apartado 3 del epígrafe «Planificación estratégica, planificación operativa y gestión de proyectos» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "Uso no sexista del lenguaje administrativo (art. 9 de la Ley 12/2007 para la promoción de la igualdad de género en Andalucía e Instrucción de…",
+        "Documentos contables en el sistema GIRO: RC (Retención de Crédito), A (Autorización), D (Disposición/Compromiso), O (Obligación reconocida /…",
+        "Herramientas de dirección estratégica y seguimiento: Cuadro de Mando Integral (Balanced Scorecard de Kaplan y Norton adaptado al sector público:…",
+        "Indemnizaciones por razón del servicio (art. 28 TREBEP, art. 79 LFPA y Decreto 54/1989 de la Junta de Andalucía): dietas por manutención y…"
+      ],
+      "correcta": 2,
+      "explicacion": "Herramientas de dirección estratégica y seguimiento: Cuadro de Mando Integral (Balanced Scorecard de Kaplan y Norton adaptado al sector público: perspectivas de ciudadanía/valor público, procesos internos, aprendizaje/personas y recursos financieros), indicadores SMART (específicos, medibles, alcanzables, relevantes y acotados en el tiempo) y sistemas OKR (Objectives and Key Results).",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Planificación estratégica, planificación operativa y gestión de proyectos"
+    },
+    {
+      "pregunta": "Respecto al apartado 4 del epígrafe «Planificación estratégica, planificación operativa y gestión de proyectos» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "Autorización del gasto (Fase A): acto administrativo interno por el que el órgano competente acuerda la realización de un gasto determinado por…",
+        "Gastos exentos de fiscalización previa (art. 90.3 TRLGHP): contratos menores, gastos de carácter periódico y demás de tracto sucesivo una vez…",
+        "Normativa de uso de los sistemas informáticos y redes de comunicaciones de la Administración de la Junta de Andalucía (Orden de 15 de octubre…",
+        "Gestión de proyectos públicos (PMBOK / PRINCE2 / metodologías ágiles Scrum y Kanban): estructurada en cinco grupos de procesos (inicio,…"
+      ],
+      "correcta": 3,
+      "explicacion": "Gestión de proyectos públicos (PMBOK / PRINCE2 / metodologías ágiles Scrum y Kanban): estructurada en cinco grupos de procesos (inicio, planificación, ejecución, monitoreo/control y cierre), gestionando la triple restricción de alcance, tiempo (diagramas de Gantt, método del camino crítico CPM/PERT) y coste/calidad.",
+      "referencia": "Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía (BOJA núm. 112, de 14 de junio de 2023; BOE núm. 164, de 11 de julio de 2023) · Planificación estratégica, planificación operativa y gestión de proyectos"
+    }
+  ]
+}

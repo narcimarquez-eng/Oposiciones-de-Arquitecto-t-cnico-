@@ -540,9 +540,9 @@
         <label for="select-cuerpo-activo" style="font-size:.82rem;font-weight:600;color:var(--muted)">Oposición:</label>
         <select class="sel" id="select-cuerpo-activo" style="padding:6px 10px;font-size:.88rem;font-weight:600;background:var(--surface-2);color:var(--text);border-color:var(--border)">
           <option value="a2-2001">🏛️ Arquitecto Técnico (A2.2001 · 70 temas)</option>
-          <option value="a1-2001">🏢 Superior Facultativo / Administradores (A1 · 30 temas)</option>
-          <option value="c1-1100">📋 Administrativos Junta (C1.1000/1100 · 28 temas)</option>
-          <option value="c2-1100">📎 Auxiliares Administrativos (C2.1000/1100 · 20 temas)</option>
+          <option value="a1-2001">🏢 Superior Facultativo / Administradores (A1 · 41 temas)</option>
+          <option value="c1-1100">📋 Administrativos Junta (C1.1000/1100 · 42 temas BOJA)</option>
+          <option value="c2-1100">📎 Auxiliares Administrativos (C2.1000/1100 · 22 temas BOJA)</option>
         </select>
       </div>
     </div>
@@ -626,6 +626,7 @@
 
   var tituloBloque = {
     comun: 'Común',
+    'gestion-administrativa': 'Gestión/Admin.',
     'arquitectura-tecnica': 'Específico',
     'a1-juridico': 'Constitucional/Autonómico',
     'a1-ue-admin': 'Unión Europea/Admin.',
@@ -1036,7 +1037,7 @@
 
     var buscadorHtml = '<div class="buscador-global">' +
       '<span aria-hidden="true">🔎</span>' +
-      '<input type="search" id="input-busqueda-global" value="' + esc(busquedaGlobal) + '" placeholder="Buscar en los ' + todosTemasCuerpo.length + ' temas de ' + esc(c.codigo) + ', apuntes, preguntas y 119 leyes oficiales…">' +
+      '<input type="search" id="input-busqueda-global" value="' + esc(busquedaGlobal) + '" placeholder="Buscar en los ' + todosTemasCuerpo.length + ' temas de ' + esc(c.codigo) + ', apuntes, preguntas y ' + Object.keys(D.leyes).length + ' leyes oficiales…">' +
       (busquedaGlobal ? '<button type="button" class="btn-cita" data-limpiar-global="1">✕ Limpiar</button>' : '') +
       '</div>';
 
@@ -1177,7 +1178,15 @@
     'db he': 'DB-HE',
     'db hs': 'DB-HS',
     'db hr': 'DB-HR',
-    'db se': 'CTE'
+    'db se': 'CTE',
+    'lpap': 'LPAP-33-2003',
+    'laula': 'LAULA-5-2010',
+    'lgss': 'LGSS-8-2015',
+    'trlgss': 'LGSS-8-2015',
+    'et': 'ET-2-2015',
+    'estatuto de los trabajadores': 'ET-2-2015',
+    'ldapa': 'LDAPA-7-2011',
+    'lacc': 'LACC-16-2007'
   };
 
   function normClave(s) {
@@ -1254,7 +1263,7 @@
       '|C[oó]digo\\s+Estructural' +
       '|(?:Secci[oó]n\\s+|\\bDB-)(?:SI|SUA|HE|HS|HR|SE(?:-AE|-C|-A|-M|-F)?)(?:\\s*\\d+(?:\\.\\d+)*)?\\b' +
       '|\\b(?:SUA|SI|HE|HS)\\s+[0-9](?:\\.[0-9]+)*\\b' +
-      '|\\b(?:LOE|LPAC|LPACAP|LRJSP|LCSP|RGLCAP|LEF|LGS|LAJA|TREBEP|EBEP|LGHPA|TRLGHP|LPRL|RITE|REBT|LISTA|RGLISTA|LPHA|LPHE|LPCA|TRLS|TRLCAT|RIPCI|RSCIEI|LPH|LGP|CTE)\\b' +
+      '|\\b(?:LOE|LPAC|LPACAP|LRJSP|LCSP|RGLCAP|LEF|LGS|LAJA|TREBEP|EBEP|LGHPA|TRLGHP|LPRL|RITE|REBT|LISTA|RGLISTA|LPHA|LPHE|LPCA|TRLS|TRLCAT|RIPCI|RSCIEI|LPH|LGP|CTE|LPAP|LAULA|LGSS|TRLGSS|LDAPA|LACC)\\b' +
       '|(?:art[ií]culos?|arts?\\.)\\s+\\d+(?:\\s*(?:bis|ter|qu[aá]ter))?(?:\\s*(?:a|al|y|,|del|de\\s+la)\\s*\\d+)*(?:\\.[0-9]+)?' +
       '|(?:T[ií]tulo\\s+(?:Preliminar|[IVXLC]+)|Cap[ií]tulo\\s+[IVXLC0-9]+|Disposici[oó]n\\s+(?:adicional|transitoria|derogatoria|final)\\s+[a-záéíóúñ0-9ªº.]+|Anejo\\s+[A-Z0-9]+)' +
     ')',

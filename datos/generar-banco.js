@@ -28,7 +28,7 @@ const temas = leer(path.join(DIR, 'temario-andalucia.json')).temas;
 const catalogo = leer(path.join(DIR, 'leyes.json')).leyes;
 const POR_TEMA = 100; // preguntas de artículo por tema, como máximo
 
-// Nombre corto de cada norma tal como aparece en las preguntas revisadas.
+const vm = require('vm');
 const ALIAS = {
   'LO-3-2007': 'LO 3/2007', 'LO-1-2004': 'LO 1/2004', 'LO-4-1981': 'LO 4/1981',
   'LIG-AND-12-2007': 'Ley 12/2007', 'VG-AND-13-2007': 'Ley 13/2007',
@@ -42,6 +42,9 @@ const ALIAS = {
   'ECO-805-2003': 'Orden ECO/805/2003', 'TRLS-7-2015': 'TRLS', 'TRLCAT-1-2004': 'TRLCAT',
   'EA-ANDALUCIA': 'EA Andalucía', 'LFP-ANDALUCIA': 'LFP Andalucía', 'LGHPA': 'LGHPA',
   'TUE-TFUE': 'TUE/TFUE', 'TLISBOA-2007': 'Tratado de Lisboa', 'LISTA-7-2021': 'LISTA',
+  'LAULA-5-2010': 'LAULA 5/2010', 'LPAP-33-2003': 'LPAP 33/2003', 'LPCA-4-1986': 'Ley 4/1986 Patrimonio Andalucía',
+  'LGSS-8-2015': 'LGSS', 'ET-2-2015': 'Estatuto de los Trabajadores', 'LDAPA-7-2011': 'Ley 7/2011 Archivos Andalucía',
+  'LACC-16-2007': 'Ley 16/2007 Ciencia Andalucía', 'DEC-AND-317-2003': 'Decreto 317/2003', 'DEC-AND-204-1995': 'Decreto 204/1995',
 };
 const alias = (id) => ALIAS[id] || id;
 
@@ -67,13 +70,9 @@ function barajar(arr, rnd) {
 }
 const elegir = (arr, n, rnd) => barajar(arr, rnd).slice(0, n);
 
-// ---------- extracción de artículos desde los PDF ----------
-const HEAD = /^Artículo\s+(\d+(?:\s(?:bis|ter|quáter|quinquies))?)\s*\.?\s*(.*)$/;
-const RUIDO = /BOLETÍN OFICIAL|^Núm\. \d+|https?:\/\/|^\d+\s*$|^Página \d+/;
-const SECCION = /^(CAPÍTULO|TÍTULO|Capítulo|Título|SECCIÓN|Sección)\b/;
-
+// ---------- extracción de artículos desde datos/preceptos/<id>.js ----------
 function primeraFrase(texto) {
-  const t = texto.replace(/^\d+\s*\.\s*/, '').replace(/\s+/g, ' ').trim();
+  const t = String(texto || '').replace(/^\d+\s*\.\s*/, '').replace(/\s+/g, ' ').trim();
   const m = /^(.+?[a-záéíóúñ)]{4}[.;])\s/.exec(t);
   let f = m ? m[1] : t;
   if (f.length > 160) f = f.slice(0, 150).replace(/\s+\S*$/, '') + '…';
@@ -83,39 +82,25 @@ function primeraFrase(texto) {
 const cacheArticulos = new Map();
 function articulosDeLey(id) {
   if (cacheArticulos.has(id)) return cacheArticulos.get(id);
-  const ley = catalogo.find((l) => l.id === id);
   let lista = [];
-  if (ley && ley.pdf && fs.existsSync(path.join(RAIZ, ley.pdf))) {
-    let txt;
-    try {
-      txt = cp.execFileSync('pdftotext', ['-raw', path.join(RAIZ, ley.pdf), '-'],
-        { maxBuffer: 1e8, stdio: ['ignore', 'pipe', 'ignore'] }).toString();
-    } catch (e) {
-      txt = cp.execFileSync('gs', ['-q', '-dNOPAUSE', '-dBATCH', '-sDEVICE=txtwrite', '-sOutputFile=-', path.join(RAIZ, ley.pdf)],
-        { maxBuffer: 1e8, stdio: ['ignore', 'pipe', 'ignore'] }).toString();
-    }
-    const lineas = txt.split('\n').map((s) => s.trim());
+  const rutaPreceptos = path.join(DIR, 'preceptos', `${id}.js`);
+  if (fs.existsSync(rutaPreceptos)) {
+    const code = fs.readFileSync(rutaPreceptos, 'utf8');
+    const ctx = { window: { PRECEPTOS_PDF: {} } };
+    vm.runInNewContext(code, ctx);
+    const d = ctx.window.PRECEPTOS_PDF[id];
+    const items = (d && d.items) || [];
     const vistos = new Map();
-    for (let i = 0; i < lineas.length; i++) {
-      const s = lineas[i];
-      if (/\.\s\.\s\./.test(s)) continue; // línea del índice
-      const m = HEAD.exec(s);
-      if (!m) continue;
-      const num = m[1].replace(/\s+/g, ' ');
+    for (const it of items) {
+      if (it.tipo !== 'art' || !it.num) continue;
+      const num = String(it.num).trim();
       if (vistos.has(num)) continue;
-      const resto = m[2].trim();
-      let titulo = null;
-      if (resto && resto.length <= 100 && resto.endsWith('.')) titulo = resto.replace(/\.$/, '').trim();
-      const cuerpo = [];
-      for (let j = i + 1; j < lineas.length && cuerpo.join(' ').length < 400; j++) {
-        const t = lineas[j];
-        if (!t || RUIDO.test(t)) continue;
-        if (HEAD.test(t) || SECCION.test(t)) break;
-        cuerpo.push(t);
-      }
-      vistos.set(num, { num, titulo, frase: primeraFrase(cuerpo.join(' ')) });
+      const mTit = /^Art[ií]culo\s+[^.]+?\.\s*(.+)$/.exec(String(it.titulo || '').trim());
+      let titulo = mTit ? mTit[1].replace(/\.$/, '').trim() : null;
+      if (titulo && titulo.length > 100) titulo = null;
+      const frase = primeraFrase(it.texto || '');
+      vistos.set(num, { num, titulo, frase });
     }
-    // Un título repetido en la norma no identifica un artículo: se descarta como respuesta.
     const cuenta = new Map();
     for (const a of vistos.values()) if (a.titulo) cuenta.set(a.titulo, (cuenta.get(a.titulo) || 0) + 1);
     lista = [...vistos.values()]
