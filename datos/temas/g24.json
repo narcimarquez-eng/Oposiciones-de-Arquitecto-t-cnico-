@@ -1,0 +1,545 @@
+{
+  "id": "g24",
+  "resumen": [
+    {
+      "titulo": "1. Cultura y patrimonio en el marco constitucional y estatutario",
+      "puntos": [
+        "El artículo 44.1 CE reconoce el derecho de todos a acceder a la cultura y el fomento de la ciencia; el artículo 46 CE impone a los poderes públicos garantizar la conservación y promover el enriquecimiento del patrimonio histórico, cultural y artístico de los pueblos de España; y el artículo 149.1.28ª CE reserva al Estado la defensa del patrimonio contra la exportación y la expoliación, junto a museos, bibliotecas y archivos de titularidad estatal (sin perjuicio de su gestión autonómica).",
+        "El Estatuto de Autonomía para Andalucía (LO 2/2007) garantiza el derecho de acceso a la cultura (art. 33) y consagra competencias exclusivas en materia de cultura, patrimonio histórico, artístico, monumental, arqueológico y científico de Andalucía, archivos, bibliotecas y museos no estatales (art. 68), así como en deporte, espectáculos públicos y actividades recreativas (art. 72) y juventud (art. 74)."
+      ]
+    },
+    {
+      "titulo": "2. Patrimonio Cultural e Histórico de Andalucía: transición LPHA 14/2007 → LPCA 4/2026",
+      "puntos": [
+        "El régimen estatal básico descansa en la Ley 16/1985, del Patrimonio Histórico Español (LPHE). En Andalucía rige transitoriamente hasta el 7 de abril de 2027 la Ley 14/2007, del Patrimonio Histórico de Andalucía (LPHA), momento en que entrará plenamente en vigor la nueva Ley 4/2026, de Patrimonio Cultural de Andalucía (LPCA).",
+        "La tutela del patrimonio inmueble y mueble se articula mediante el Catálogo General del Patrimonio Histórico Andaluz (Bienes de Interés Cultural —BIC—, Bienes de Catalogación General y Bienes incluidos en el Inventario General de Bienes Muebles), regulando entornos de protección, deberes de conservación, prohibición de exportación ilegal, autorización previa de intervenciones y el patrimonio arqueológico, etnológico, industrial y científico."
+      ]
+    },
+    {
+      "titulo": "3. Archivos, Bibliotecas y Museos de Andalucía",
+      "puntos": [
+        "Archivos y Patrimonio Documental (Ley 7/2011, LDAPA): ordena el Sistema Archivístico de Andalucía, los tipos de archivos según el ciclo vital (oficina, centrales, intermedios e históricos), la valoración y expurgo por la Comisión Andaluza de Valoración de Documentos, y el acceso ciudadano.",
+        "Bibliotecas (Ley 16/2003 del Sistema Andaluz de Bibliotecas y Centros de Documentación): articula la Red de Bibliotecas Públicas de Andalucía con la Biblioteca de Andalucía (sede en Granada) como centro cabecera.",
+        "Museos (Ley 8/2007 de Museos y Colecciones Museográficas de Andalucía): distingue entre Museos y Colecciones Museográficas, regula el Registro y el Sistema Andaluz de Museos bajo tutela de la Consejería competente en cultura."
+      ]
+    },
+    {
+      "titulo": "4. Juventud y Deporte en la Comunidad Autónoma de Andalucía",
+      "puntos": [
+        "Juventud (art. 74 EA Andalucía): competencia exclusiva para la promoción integral de las personas jóvenes, asociacionismo, emancipación, movilidad y ocio educativo, gestionada instrumentalmente a través del Instituto Andaluz de la Juventud (IAJ, agencia administrativa adscrita a la Junta, Decreto 118/1997).",
+        "Deporte (art. 72.1 EA y Ley 5/2016, del Deporte de Andalucía): ordena el sistema deportivo andaluz entre deporte de competición y de ocio, regula las profesiones y titulaciones del deporte, las instalaciones deportivas, el Registro Andaluz de Entidades Deportivas (RAED), las federaciones deportivas andaluzas y el Tribunal Administrativo del Deporte de Andalucía."
+      ]
+    },
+    {
+      "titulo": "5. Espectáculos Públicos y Actividades Recreativas (Ley 13/1999 y Decreto 155/2018)",
+      "puntos": [
+        "El artículo 72.2 EA asigna competencia exclusiva en materia de espectáculos públicos y actividades recreativas (EPAR), regulados por la Ley 13/1999 (EPAR) y desarrollados por el Decreto 155/2018 (Catálogo de Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos).",
+        "Distribución de competencias: la Junta de Andalucía ejerce la potestad reglamentaria general, la autorización de espectáculos extraordinarios de ámbito supramunicipal y el control autonómico (espectáculos taurinos y juego); los Ayuntamientos ejercen las licencias o declaraciones responsables de establecimientos públicos, actividades ocasionales o extraordinarias municipales, horarios y control de aforos y seguridad."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "EA-ANDALUCIA",
+      "rol": "Competencias autonómicas en cultura, patrimonio, deporte, espectáculos y juventud (arts. 33, 68, 72 y 74)"
+    },
+    {
+      "id": "LPCA-4-2026",
+      "rol": "Nueva Ley 4/2026 de Patrimonio Cultural de Andalucía (sustituye a la Ley 14/2007 tras su vacatio legis el 07/04/2027)"
+    },
+    {
+      "id": "LPHA-14-2007",
+      "rol": "Ley 14/2007 del Patrimonio Histórico de Andalucía (vigente transitoriamente hasta el 07/04/2027)"
+    },
+    {
+      "id": "LPHE-16-1985",
+      "rol": "Ley 16/1985 del Patrimonio Histórico Español: régimen estatal básico y defensa contra la exportación y expoliación"
+    },
+    {
+      "id": "LDAPA-7-2011",
+      "rol": "Ley 7/2011 de Documentos, Archivos y Patrimonio Documental de Andalucía"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el artículo 149.1.28ª de la Constitución Española, ¿qué competencias en materia de patrimonio cultural, museos, bibliotecas y archivos corresponden en exclusiva al Estado?",
+      "opciones": [
+        "La defensa del patrimonio cultural, artístico y monumental español contra la exportación y la expoliación, y los museos, bibliotecas y archivos de titularidad estatal, sin perjuicio de su gestión por las Comunidades Autónomas",
+        "La gestión directa e indelegable de todos los museos y bibliotecas municipales",
+        "La aprobación de todas las licencias de espectáculos taurinos y verbenas locales",
+        "La declaración de todos los monumentos provinciales sin participación autonómica"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 149.1.28ª CE atribuye en exclusiva al Estado la defensa del patrimonio cultural contra la exportación y la expoliación y los museos, bibliotecas y archivos de titularidad estatal, sin perjuicio de su gestión por las CC.AA.",
+      "referencia": "Art. 149.1.28ª CE"
+    },
+    {
+      "pregunta": "¿Qué artículos del Estatuto de Autonomía para Andalucía (LO 2/2007) atribuyen a la Comunidad Autónoma la competencia exclusiva sobre cultura/patrimonio histórico y sobre deporte, espectáculos y juventud respectivamente?",
+      "opciones": [
+        "Artículos 49, 50 y 51",
+        "Artículos 68, 72 y 74",
+        "Artículos 118, 120 y 125",
+        "Artículos 225, 228 y 231"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 68 EA regula las competencias en cultura y patrimonio; el art. 72 atribuye competencias exclusivas en deportes, espectáculos y actividades recreativas; y el art. 74 en materia de juventud.",
+      "referencia": "Arts. 68, 72 y 74 EA Andalucía"
+    },
+    {
+      "pregunta": "En relación con el marco normativo del patrimonio histórico y cultural de Andalucía, ¿cuál es la situación vigente entre la Ley 14/2007 (LPHA) y la nueva Ley 4/2026 (LPCA)?",
+      "opciones": [
+        "La Ley 16/1985 derogó por completo la Ley 14/2007 en 2010",
+        "Ambas leyes carecen de aplicación hasta que lo autorice la UNESCO",
+        "La Ley 14/2007 (LPHA) permanece en vigor con carácter transitorio hasta el 7 de abril de 2027, fecha en que la sustituirá la nueva Ley 4/2026 de Patrimonio Cultural de Andalucía (LPCA)",
+        "La Ley 4/2026 regula únicamente archivos militares del Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "La Ley 4/2026 de Patrimonio Cultural de Andalucía establece una amplia vacatio legis hasta el 7 de abril de 2027, manteniendo entre tanto la vigencia transitoria de la Ley 14/2007 (LPHA).",
+      "referencia": "Ley 14/2007 (LPHA) y Ley 4/2026 (LPCA)"
+    },
+    {
+      "pregunta": "¿En qué instrumento público se inscriben en Andalucía los Bienes de Interés Cultural (BIC), los Bienes de Catalogación General y el Inventario General de Bienes Muebles?",
+      "opciones": [
+        "En el Inventario de Entidades del Sector Público (INVESPE)",
+        "En el Catálogo Oficial de Espectáculos Públicos de Andalucía",
+        "En el Registro Mercantil Central del Estado",
+        "En el Catálogo General del Patrimonio Histórico Andaluz (o Catálogo del Patrimonio Cultural en la LPCA 4/2026)"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 6 de la Ley 14/2007 LPHA regula el Catálogo General del Patrimonio Histórico Andaluz como instrumento para la salvaguarda de los bienes inscritos (BIC, catalogación general e inventario general de muebles), continuado en el nuevo marco de la Ley 4/2026.",
+      "referencia": "Art. 6 Ley 14/2007 (LPHA) y Ley 4/2026 (LPCA)"
+    },
+    {
+      "pregunta": "Conforme a la legislación de patrimonio histórico (art. 9.2 Ley 16/1985 LPHE y Ley 14/2007 LPHA), ¿qué tipos inmuebles pueden declararse como Bienes de Interés Cultural (BIC)?",
+      "opciones": [
+        "Monumentos, Jardines Históricos, Conjuntos Históricos, Sitios Históricos, Zonas Arqueológicas (además de Lugares de Interés Etnológico, Lugares de Interés Industrial y Zonas Patrimoniales en Andalucía)",
+        "Exclusivamente catedrales góticas y museos estatales",
+        "Únicamente fincas rústicas de cultivo intensivo",
+        "Solo documentos administrativos posteriores a 2015"
+      ],
+      "correcta": 0,
+      "explicacion": "La LPHA añade a las cinco tipologías clásicas estatales (Monumento, Jardín Histórico, Conjunto Histórico, Sitio Histórico y Zona Arqueológica) las categorías andaluzas de Lugar de Interés Etnológico, Lugar de Interés Industrial y Zona Patrimonial.",
+      "referencia": "Art. 25 Ley 14/2007 (LPHA) y art. 14 Ley 16/1985"
+    },
+    {
+      "pregunta": "La incoación de un procedimiento para la declaración o inscripción de un bien inmueble como Bien de Interés Cultural (BIC) produce de inmediato como efecto cautelar legal:",
+      "opciones": [
+        "La libre demolición del inmueble durante seis meses",
+        "La aplicación provisional inmediata del régimen de protección de los bienes inscritos y la suspensión de las actuaciones o licencias de parcelación, edificación o demolición en las zonas afectadas",
+        "La expropiación automática sin justiprecio a favor del Ayuntamiento",
+        "La pérdida de la titularidad privada en el plazo de diez días"
+      ],
+      "correcta": 1,
+      "explicacion": "Tanto el art. 16 LPHE como el art. 9.5 LPHA disponen que la incoación determina la aplicación provisional del régimen de protección y la suspensión de tramitaciones de licencias municipales de parcelación, edificación o demolición.",
+      "referencia": "Art. 16 Ley 16/1985 y art. 9 Ley 14/2007"
+    },
+    {
+      "pregunta": "Según el artículo 46 de la Constitución Española, los poderes públicos garantizarán la conservación y promoverán el enriquecimiento del patrimonio histórico, cultural y artístico de los pueblos de España y de los bienes que lo integran:",
+      "opciones": [
+        "Únicamente cuando sean de titularidad estatal o autonómica",
+        "Solo cuando hayan sido declarados Patrimonio Mundial por la UNESCO",
+        "Cualquiera que sea su régimen jurídico y su titularidad, sancionando la ley penal los atentados contra este patrimonio",
+        "Exclusivamente durante los diez años siguientes a su construcción"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 46 CE afirma textualmente «cualquiera que sea su régimen jurídico y su titularidad» y ordena que «la ley penal sancionará los atentados contra este patrimonio».",
+      "referencia": "Art. 46 CE"
+    },
+    {
+      "pregunta": "En la legislación de patrimonio histórico (art. 44 Ley 16/1985 y Título V LPHA), todos los objetos y restos materiales que posean los valores propios del Patrimonio Histórico y sean descubiertos como consecuencia de excavaciones, remociones de tierra u obras o por azar tienen la consideración jurídica de:",
+      "opciones": [
+        "Propiedad exclusiva de la empresa constructora que ejecute la obra",
+        "Bienes vacantes apropiables libremente por el hallador",
+        "Residuos inertes de construcción y demolición",
+        "Bienes de dominio público (patrimonio arqueológico)"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 44.1 de la Ley 16/1985 LPHE (y la LPHA/LPCA en Andalucía) declara bienes de dominio público todos los objetos y restos materiales arqueológicos descubiertos en excavaciones, obras o por azar.",
+      "referencia": "Art. 44.1 Ley 16/1985 (LPHE) y LPHA"
+    },
+    {
+      "pregunta": "¿Qué plazo tienen las intervenciones, excavaciones o hallazgos arqueológicos casuales para ser comunicados a la Administración competente en patrimonio histórico?",
+      "opciones": [
+        "Deben comunicarse de forma inmediata (en el plazo máximo establecido, 24 horas en la normativa andaluza / inmediato en la LPHE) y suspender preventivamente las obras o trabajos en el lugar",
+        "Dentro del ejercicio presupuestario siguiente en la memoria anual",
+        "A los seis meses de finalizar la obra",
+        "No existe obligación de comunicación si el terreno es privado"
+      ],
+      "correcta": 0,
+      "explicacion": "Ante un hallazgo casual de restos arqueológicos (art. 44.3 LPHE y art. 50 LPHA), el descubridor y la dirección de obra deben comunicarlo inmediatamente a la Consejería o Ayuntamiento (24 h en Andalucía) y paralizar preventivamente las obras en el entorno inmediato.",
+      "referencia": "Art. 44.3 LPHE y art. 50 LPHA"
+    },
+    {
+      "pregunta": "¿Qué derechos administrativos preferentes asisten a la Administración pública ante la enajenación onerosa (compraventa o subasta) de bienes declarados BIC o bienes muebles inventariados/catalogados?",
+      "opciones": [
+        "El embargo sin compensación económica",
+        "Los derechos de tanteo (antes de la transmisión) y de retracto (tras la transmisión efectuada sin notificación fehaciente previa)",
+        "La caducidad de la propiedad al cabo de dos años",
+        "El derecho de veto absoluto sobre cualquier herencia testamentaria"
+      ],
+      "correcta": 1,
+      "explicacion": "Tanto la LPHE (art. 38) como la LPHA (art. 17) y la LPCA 4/2026 atribuyen a la Administración los derechos de adquisición preferente de tanteo y retracto en enajenaciones onerosas.",
+      "referencia": "Art. 38 LPHE y art. 17 LPHA"
+    },
+    {
+      "pregunta": "En relación con el patrimonio científico-técnico e industrial de Andalucía, ¿cómo se protegen los inmuebles, instalaciones y máquinas representativas de actividades productivas, mineras, fabriles o de ingeniería histórica?",
+      "opciones": [
+        "Mediante su inscripción en el Registro Mercantil exclusivamente",
+        "A través del Catálogo de Espectáculos Públicos",
+        "Mediante la figura específica de Lugar de Interés Industrial (LPHA) o como patrimonio científico-técnico e industrial en el Catálogo del Patrimonio Cultural",
+        "Únicamente mediante ordenanza fiscal municipal de basuras"
+      ],
+      "correcta": 2,
+      "explicacion": "La legislación andaluza (LPHA 14/2007 y LPCA 4/2026) protege específicamente el patrimonio industrial, científico y técnico mediante categorías catalográficas propias como el Lugar de Interés Industrial y bienes muebles científico-técnicos.",
+      "referencia": "Ley 14/2007 (LPHA) y Ley 4/2026 (LPCA)"
+    },
+    {
+      "pregunta": "¿Cuál es la ley autonómica vigente que regula el Sistema Archivístico de Andalucía, los documentos de titularidad pública, su ciclo vital y el acceso a los mismos?",
+      "opciones": [
+        "La Ley 16/2003, de Bibliotecas",
+        "La Ley 8/2007, de Museos",
+        "La Ley 5/2016, del Deporte",
+        "La Ley 7/2011, de Documentos, Archivos y Patrimonio Documental de Andalucía (LDAPA)"
+      ],
+      "correcta": 3,
+      "explicacion": "La Ley 7/2011, de 3 de noviembre (LDAPA), ordena el Sistema Archivístico de Andalucía, las fases del archivo según el ciclo vital, la valoración y el acceso documental.",
+      "referencia": "Ley 7/2011 (LDAPA)"
+    },
+    {
+      "pregunta": "Según la Ley 7/2011 (LDAPA), ¿cuáles son los cuatro tipos de archivos que responden al ciclo vital completo de los documentos administrativos en la Junta de Andalucía?",
+      "opciones": [
+        "Archivos de oficina (o de gestión), archivos centrales, archivos intermedios y archivos históricos",
+        "Archivos secretos, archivos reservados, archivos mercantiles y archivos notariales",
+        "Archivos digitales, archivos impresos, archivos microfílmicos y archivos orales",
+        "Archivos provinciales, archivos judiciales y archivos privados únicamente"
+      ],
+      "correcta": 0,
+      "explicacion": "La LDAPA estructura el ciclo vital documental en cuatro etapas sucesivas: archivo de oficina/gestión -> archivo central -> archivo intermedio -> archivo histórico (eliminándose previa valoración de expurgo los carentes de valor permanente).",
+      "referencia": "Arts. 20–24 Ley 7/2011 (LDAPA)"
+    },
+    {
+      "pregunta": "Dentro del Sistema Archivístico de Andalucía (Ley 7/2011), ¿qué órgano colegiado es competente para dictaminar los plazos de conservación, transferencia, acceso y eliminación (expurgo) de series documentales?",
+      "opciones": [
+        "El Tribunal Administrativo del Deporte de Andalucía",
+        "La Comisión Andaluza de Valoración de Documentos",
+        "El Consejo de Transparencia de Madrid",
+        "La Intervención General de la Junta de Andalucía"
+      ],
+      "correcta": 1,
+      "explicacion": "La Comisión Andaluza de Valoración de Documentos evalúa las series documentales y aprueba las tablas de valoración que autorizan la conservación permanente o la eliminación controlada (expurgo) de documentos.",
+      "referencia": "Art. 15 y 32 Ley 7/2011 (LDAPA)"
+    },
+    {
+      "pregunta": "¿Qué centro archivístico actúa como archivo intermedio e histórico de la Administración de la Junta de Andalucía para los documentos generados por los órganos centrales autonómicos?",
+      "opciones": [
+        "El Archivo Histórico Nacional de Madrid",
+        "El Archivo Municipal de Cádiz",
+        "El Archivo General de Andalucía (sito en Sevilla)",
+        "La Biblioteca Nacional de España"
+      ],
+      "correcta": 2,
+      "explicacion": "Conforme a la Ley 7/2011 (LDAPA), el Archivo General de Andalucía (AGA) ejerce las funciones de archivo intermedio e histórico de los órganos centrales e instituciones de la Junta de Andalucía.",
+      "referencia": "Art. 23 Ley 7/2011 (LDAPA)"
+    },
+    {
+      "pregunta": "¿Qué ley autonómica regula las bibliotecas y la Red de Bibliotecas Públicas de Andalucía, situando a la Biblioteca de Andalucía como cabecera del sistema?",
+      "opciones": [
+        "La Ley 13/1999, de Espectáculos Públicos",
+        "La Ley 8/2007, de Museos",
+        "La Ley 7/2011, de Archivos",
+        "La Ley 16/2003, del Sistema Andaluz de Bibliotecas y Centros de Documentación"
+      ],
+      "correcta": 3,
+      "explicacion": "La Ley 16/2003, de 22 de diciembre, regula el Sistema Andaluz de Bibliotecas y Centros de Documentación y sitúa en su cúspide a la Biblioteca de Andalucía (con sede en Granada).",
+      "referencia": "Ley 16/2003 Andalucía"
+    },
+    {
+      "pregunta": "De acuerdo con la Ley 16/2003 y la Ley 7/1985 (LBRL), los municipios con población superior a 5.000 habitantes deben prestar en todo caso el servicio obligatorio de:",
+      "opciones": [
+        "Biblioteca pública",
+        "Archivo Histórico Nacional",
+        "Museo Arqueológico Provincial",
+        "Teatro Nacional de Ópera"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 26.1.b) LBRL establece la biblioteca pública como servicio municipal obligatorio en todos los municipios con población superior a 5.000 habitantes, integrado en la Red de Bibliotecas Públicas de Andalucía (Ley 16/2003).",
+      "referencia": "Art. 26.1.b) LBRL y Ley 16/2003"
+    },
+    {
+      "pregunta": "En la Ley 8/2007, de Museos y Colecciones Museográficas de Andalucía, ¿qué diferencia esencial distingue a un «Museo» de una «Colección Museográfica»?",
+      "opciones": [
+        "Los museos solo exhiben obras contemporáneas y las colecciones solo arte medieval",
+        "El Museo requiere una sede permanente, personal técnico cualificado suficiente, horario estable de visita pública e infraestructura completa de conservación, investigación y difusión, mientras que la Colección Museográfica posee un régimen más simplificado cuando no reúne todos esos requisitos",
+        "Las colecciones museográficas tienen entrada siempre gratuita y los museos tienen prohibida la gratuidad",
+        "No existe ninguna diferencia jurídica entre ambas categorías"
+      ],
+      "correcta": 1,
+      "explicacion": "La Ley 8/2007 diferencia los Museos (instituciones permanentes con plena estructura técnica, de conservación, investigación y exposición abierta) de las Colecciones Museográficas (conjuntos culturales visitables con menores exigencias estructurales), inscribiéndose ambos en el Registro Andaluz de Museos.",
+      "referencia": "Ley 8/2007 de Museos de Andalucía"
+    },
+    {
+      "pregunta": "Conforme a la Ley 8/2007 de Museos y Colecciones Museográficas de Andalucía, los museos de titularidad estatal ubicados en Andalucía cuya gestión ha sido transferida a la Junta de Andalucía (como los Museos Provinciales de Bellas Artes y Arqueológicos):",
+      "opciones": [
+        "Quedan excluidos del Sistema Andaluz de Museos en todo caso",
+        "Pasan a depender orgánicamente del Ayuntamiento correspondiente",
+        "Se integran en el Sistema Andaluz de Museos conforme a los convenios de gestión suscritos entre el Estado y la Comunidad Autónoma",
+        "Deben cerrar sus salas de exposición permanente"
+      ],
+      "correcta": 2,
+      "explicacion": "En virtud de los convenios de transferencia de gestión suscritos al amparo del art. 149.1.28ª CE y el art. 68.3 EA, la Junta de Andalucía gestiona los museos, bibliotecas públicas y archivos históricos provinciales de titularidad estatal en Andalucía.",
+      "referencia": "Art. 68.3 EA Andalucía y Ley 8/2007"
+    },
+    {
+      "pregunta": "¿Cuál es la entidad instrumental de la Junta de Andalucía encargada específicamente de ejecutar las políticas de promoción, emancipación, formación, información y participación en materia de juventud?",
+      "opciones": [
+        "El Instituto Andaluz de Administración Pública (IAAP)",
+        "La Agencia Digital de Andalucía (ADA)",
+        "El Servicio Andaluz de Empleo (SAE)",
+        "El Instituto Andaluz de la Juventud (IAJ)"
+      ],
+      "correcta": 3,
+      "explicacion": "El Instituto Andaluz de la Juventud (IAJ), creado por la Ley 9/1996 y regulado por sus estatutos (Decreto 118/1997), es el organismo/agencia administrativa responsable de coordinar e impulsar las políticas de juventud en Andalucía.",
+      "referencia": "Art. 74 EA Andalucía y Decreto 118/1997"
+    },
+    {
+      "pregunta": "Dentro de las políticas de juventud de la Junta de Andalucía, ¿qué órgano colegiado de representación y participación canaliza la interlocución del movimiento asociativo juvenil ante la Administración autonómica?",
+      "opciones": [
+        "El Consejo de la Juventud de Andalucía",
+        "La Comisión General de Viceconsejeros",
+        "El Consejo Consultivo de Andalucía",
+        "La Junta Electoral de Andalucía"
+      ],
+      "correcta": 0,
+      "explicacion": "El Consejo de la Juventud de Andalucía es la entidad representativa del asociacionismo juvenil andaluz encargada de promover la participación de la juventud y servir de cauce interlocutor ante los poderes públicos autonómicos.",
+      "referencia": "Art. 74 EA Andalucía y normativa IAJ"
+    },
+    {
+      "pregunta": "¿Qué ley autonómica constituye el marco jurídico vigente del deporte en nuestra Comunidad Autónoma, regulando el deporte de competición y de ocio, las entidades deportivas y las profesiones del deporte?",
+      "opciones": [
+        "La Ley 13/1999, de Espectáculos Públicos",
+        "La Ley 5/2016, del Deporte de Andalucía",
+        "La Ley 2/2026, para la Gestión Ambiental",
+        "La Ley 9/2016, de Servicios Sociales"
+      ],
+      "correcta": 1,
+      "explicacion": "La Ley 5/2016, de 19 de julio, del Deporte de Andalucía derogó la anterior Ley 6/1998 y regula integralmente el sistema deportivo andaluz bajo la competencia exclusiva del art. 72.1 EA.",
+      "referencia": "Ley 5/2016, del Deporte de Andalucía"
+    },
+    {
+      "pregunta": "Según la Ley 5/2016, del Deporte de Andalucía, ¿qué naturaleza jurídica tienen las federaciones deportivas andaluzas?",
+      "opciones": [
+        "Son agencias administrativas de la Consejería de Educación",
+        "Son sociedades mercantiles estatales",
+        "Son entidades privadas sin ánimo de lucro con personalidad jurídica propia que, además de sus atribuciones privadas, ejercen por delegación funciones públicas de carácter administrativo bajo tutela de la Consejería competente en deporte",
+        "Son ayuntamientos de ámbito sectorial"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 57 de la Ley 5/2016 define las federaciones deportivas andaluzas como entidades privadas de utilidad pública e interés social sin ánimo de lucro que ejercen por delegación funciones públicas administrativas (licencias, competiciones oficiales y potestad disciplinaria).",
+      "referencia": "Arts. 57–60 Ley 5/2016 del Deporte de Andalucía"
+    },
+    {
+      "pregunta": "En el sistema deportivo andaluz regulado por la Ley 5/2016, ¿qué órgano administrativo resuelve en última instancia administrativa las cuestiones de potestad disciplinaria deportiva, electoral federativa y sancionadora en vía administrativa?",
+      "opciones": [
+        "El Tribunal Superior de Justicia de Andalucía en única instancia",
+        "El Consejo Superior de Deportes estatal",
+        "La Cámara de Cuentas de Andalucía",
+        "El Tribunal Administrativo del Deporte de Andalucía (TADA)"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 146 de la Ley 5/2016 regula el Tribunal Administrativo del Deporte de Andalucía (TADA), órgano superior consultivo y resolutivo que agota la vía administrativa en materia disciplinaria, competitiva y electoral federativa en Andalucía.",
+      "referencia": "Art. 146 Ley 5/2016 del Deporte de Andalucía"
+    },
+    {
+      "pregunta": "De conformidad con la Ley 5/2016 del Deporte de Andalucía y el artículo 26.1.c) LBRL, ¿en qué municipios constituye un servicio público municipal obligatorio la existencia de instalaciones deportivas de uso público?",
+      "opciones": [
+        "En todos los municipios con población superior a 20.000 habitantes",
+        "Únicamente en municipios de más de 100.000 habitantes",
+        "Solo en municipios de menos de 1.000 habitantes",
+        "Exclusivamente en las capitales de provincia"
+      ],
+      "correcta": 0,
+      "explicacion": "Conforme al art. 26.1.c) LBRL, la prestación de instalaciones deportivas de uso público es servicio obligatorio para los municipios de más de 20.000 habitantes.",
+      "referencia": "Art. 26.1.c) LBRL y Ley 5/2016"
+    },
+    {
+      "pregunta": "¿Qué norma autonómica establece el régimen jurídico general de los Espectáculos Públicos y Actividades Recreativas en nuestra Comunidad Autónoma?",
+      "opciones": [
+        "La Ley 2/2002, de Gestión de Emergencias",
+        "La Ley 13/1999, de 15 de diciembre, de Espectáculos Públicos y Actividades Recreativas de Andalucía",
+        "La Ley 5/2023, de Función Pública",
+        "La Ley 10/2018, Audiovisual de Andalucía"
+      ],
+      "correcta": 1,
+      "explicacion": "La Ley 13/1999, de 15 de diciembre, regula el régimen de espectáculos públicos, actividades recreativas y establecimientos públicos en Andalucía al amparo de la competencia exclusiva estatutaria.",
+      "referencia": "Ley 13/1999 (EPAR Andalucía)"
+    },
+    {
+      "pregunta": "¿Qué decreto autonómico vigente aprueba el Catálogo de Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Andalucía (Nomenclátor)?",
+      "opciones": [
+        "El Decreto 50/2025",
+        "El Decreto 622/2019",
+        "El Decreto 155/2018, de 31 de julio",
+        "El Decreto 317/2003"
+      ],
+      "correcta": 2,
+      "explicacion": "El Decreto 155/2018, de 31 de julio, aprobó el vigente Catálogo de Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos y reguló sus modalidades, condiciones técnicas y horarios generales.",
+      "referencia": "Decreto 155/2018 (Andalucía)"
+    },
+    {
+      "pregunta": "En la distribución de competencias de la Ley 13/1999 (EPAR), ¿a qué Administración corresponde autorizar los espectáculos públicos y actividades recreativas que se celebren en más de un término municipal de Andalucía?",
+      "opciones": [
+        "Al Ayuntamiento donde se sitúe la meta",
+        "Al Ministerio del Interior estatal",
+        "A la Diputación Provincial en todos los supuestos",
+        "A la Administración de la Junta de Andalucía (órgano competente de la Consejería o Delegación del Gobierno autonómica)"
+      ],
+      "correcta": 3,
+      "explicacion": "Conforme a los artículos 5 y 6 de la Ley 13/1999, corresponde a los Ayuntamientos autorizar/controlar los establecimientos y actividades dentro de su término municipal, mientras que la Junta de Andalucía autoriza los de ámbito supramunicipal y los espectáculos taurinos y de juego.",
+      "referencia": "Arts. 5 y 6 Ley 13/1999 (EPAR)"
+    },
+    {
+      "pregunta": "Según el artículo 7 de la Ley 13/1999 (EPAR), ¿cómo se regula la admisión de las personas a los establecimientos y espectáculos públicos en Andalucía?",
+      "opciones": [
+        "Rige el derecho general de admisión en condiciones de igualdad y no discriminación; cualquier condición específica debe ser objetiva, no arbitraria ni discriminatoria y figurar expuesta de forma visible en los accesos",
+        "El titular del establecimiento puede denegar libremente la entrada sin criterio objetivo alguno",
+        "La admisión se decide por sorteo notarial previo",
+        "Únicamente pueden acceder residentes empadronados en el municipio"
+      ],
+      "correcta": 0,
+      "explicacion": "El derecho de admisión (art. 7 Ley 13/1999 y Decreto 10/2003) prohíbe cualquier discriminación por nacimiento, raza, sexo, religión u opinión y exige publicidad previa de las condiciones objetivas de acceso autorizadas.",
+      "referencia": "Art. 7 Ley 13/1999 y Decreto 10/2003"
+    },
+    {
+      "pregunta": "En el régimen sancionador de la Ley 13/1999 (EPAR), la superación del aforo máximo autorizado cuando comporte un grave riesgo para la seguridad de las personas o bienes se tipifica como:",
+      "opciones": [
+        "Falta meramente disciplinaria de carácter leve",
+        "Infracción muy grave",
+        "Acto administrativo anulable sin sanción pecuniaria",
+        "Infracción exclusiva del Código Civil"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 19.3 de la Ley 13/1999 tipifica como infracción muy grave permitir el acceso por encima del aforo autorizado cuando de ello se derive riesgo grave para la seguridad de personas o bienes.",
+      "referencia": "Art. 19.3 Ley 13/1999 (EPAR)"
+    },
+    {
+      "pregunta": "Con carácter general tras la adaptación a la Directiva de Servicios (Ley 17/2009 y reforma de la Ley 13/1999 EPAR), la apertura y puesta en funcionamiento de establecimientos públicos fijos destinados a espectáculos o actividades recreativas permanentes se somete por regla general ante el Ayuntamiento a:",
+      "opciones": [
+        "Ley especial del Parlamento de Andalucía en cada local",
+        "Autorización previa del Consejo Consultivo de Andalucía",
+        "Declaración responsable o comunicación previa acompañada de proyecto y certificación técnica (salvo supuestos legales excepcionales de licencia previa por impacto ambiental o seguridad)",
+        "Silencio administrativo negativo absoluto de dos años"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 10 de la Ley 13/1999 (adaptado por la Ley 3/2014 y normativa de simplificación) sustituyó la regla general de licencia de apertura previa por la declaración responsable de apertura ante el Ayuntamiento acompañada de la documentación técnica acreditativa, sin perjuicio de la verificación posterior.",
+      "referencia": "Art. 10 Ley 13/1999 (EPAR)"
+    },
+    {
+      "pregunta": "Según el artículo 68 del Estatuto de Autonomía para Andalucía, ¿cuándo asume la Junta de Andalucía la gestión de museos, bibliotecas y archivos de titularidad estatal ubicados en su territorio?",
+      "opciones": [
+        "Nunca, porque su gestión es indelegable por el Estado",
+        "Solo mediante expropiación forzosa pagada por la Comunidad Autónoma",
+        "Automáticamente a los diez años desde la inauguración del edificio",
+        "En virtud de los correspondientes convenios de encomienda o transferencia de gestión entre el Estado y la Comunidad Autónoma"
+      ],
+      "correcta": 3,
+      "explicacion": "Tanto el art. 149.1.28ª CE como el art. 68.3 EA establecen que corresponde a la Junta de Andalucía la gestión de museos, bibliotecas y archivos de titularidad estatal ubicados en Andalucía en los términos de los convenios suscritos con el Estado.",
+      "referencia": "Art. 68.3 EA Andalucía y art. 149.1.28ª CE"
+    },
+    {
+      "pregunta": "De acuerdo con la Ley 14/2007 LPHA y la Ley 4/2026 LPCA, las obras y actuaciones de conservación o rehabilitación que se proyecten realizar sobre un monumento declarado Bien de Interés Cultural (BIC) o en su entorno de protección requieren con carácter previo a la licencia municipal:",
+      "opciones": [
+        "Autorización expresa de la Consejería competente en materia de patrimonio histórico/cultural",
+        "Únicamente un informe no vinculante del contratista de la obra",
+        "La aprobación por referéndum vecinal",
+        "Autorización exclusiva de la Consejería de Agricultura"
+      ],
+      "correcta": 0,
+      "explicacion": "Toda intervención sobre un BIC o su entorno requiere autorización expresa previa de la Consejería competente en patrimonio histórico/cultural (art. 33 LPHA y régimen de tutela de la LPCA 4/2026) antes de concederse la licencia urbanística municipal.",
+      "referencia": "Art. 33 Ley 14/2007 (LPHA) y Ley 4/2026"
+    },
+    {
+      "pregunta": "En la Ley 14/2007 LPHA, ¿cómo se protegen las manifestaciones culturales inmateriales como tradiciones, fiestas populares, oficios artesanales, folclore o saberes propios del pueblo andaluz?",
+      "opciones": [
+        "Únicamente mediante su registro mercantil como marca privada",
+        "Mediante su inscripción en el Catálogo General como Bienes de Interés Cultural de carácter inmaterial (Actividades de Interés Etnológico), potenciando su documentación y transmisión",
+        "Quedan fuera del ámbito del patrimonio cultural por no ser bienes inmuebles",
+        "A través de la Ley del Ruido exclusivamente"
+      ],
+      "correcta": 1,
+      "explicacion": "Tanto la LPHA 14/2007 (Título VI, Patrimonio Etnológico y Actividad de Interés Etnológico) como la nueva LPCA 4/2026 y la Ley estatal 10/2015 de Salvaguardia del Patrimonio Cultural Inmaterial protegen específicamente las expresiones vivas e inmateriales.",
+      "referencia": "Título VI LPHA 14/2007, Ley 10/2015 y LPCA 4/2026"
+    },
+    {
+      "pregunta": "En virtud del artículo 149.2 de la Constitución Española, ¿cómo configura la Constitución la acción cultural respecto al Estado y las Comunidades Autónomas?",
+      "opciones": [
+        "Prohíbe que el Estado fomente o coordine actuaciones culturales dentro de las Comunidades Autónomas",
+        "Reserva el servicio de la cultura en monopolio al Ministerio de Cultura",
+        "Sin perjuicio de las competencias que podrán asumir las Comunidades Autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial y facilitará la comunicación cultural entre las Comunidades Autónomas, de acuerdo con ellas",
+        "Sujeta toda política cultural al control de las Diputaciones Provinciales"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 149.2 CE establece una competencia concurrente singular considerando el servicio de la cultura como deber y atribución esencial del Estado sin perjuicio de las competencias autonómicas.",
+      "referencia": "Art. 149.2 CE"
+    },
+    {
+      "pregunta": "¿Qué significa que el artículo 21 de la Ley 7/2011 (LDAPA) regule los «documentos de apoyo informativo» frente a los documentos administrativos constitutivos del Patrimonio Documental?",
+      "opciones": [
+        "Que deben ser enviados siempre al Archivo Histórico Nacional",
+        "Que solo pueden consultarse por resolución del Tribunal Constitucional",
+        "Que tienen valor probatorio superior al de la escritura pública notarial",
+        "Que las copias duplicadas, folletos o borradores meramente instrumentales pueden eliminarse al perder su utilidad sin seguir el expediente formal de expurgo exigido para las series documentales de valor administrativo o histórico"
+      ],
+      "correcta": 3,
+      "explicacion": "La LDAPA distingue la documentación administrativa sujeta a tablas de valoración y dictamen de expurgo de los documentos de apoyo informativo o copias de mero trámite susceptibles de eliminación directa tras su uso.",
+      "referencia": "Ley 7/2011 (LDAPA)"
+    },
+    {
+      "pregunta": "Conforme a la Ley 16/2003 del Sistema Andaluz de Bibliotecas, ¿a qué organismo corresponde recibir el Depósito Legal en Andalucía y conservar el patrimonio bibliográfico andaluz?",
+      "opciones": [
+        "A la Biblioteca de Andalucía (en coordinación con las bibliotecas provinciales designadas como centros depositarios)",
+        "Exclusivamente a los archivos parroquiales",
+        "Al Registro de la Propiedad Intelectual del Ministerio de Economía",
+        "A las cámaras de comercio provinciales"
+      ],
+      "correcta": 0,
+      "explicacion": "La Biblioteca de Andalucía, con sede en Granada (art. 9 Ley 16/2003 y Ley 23/2011 de Depósito Legal), constituye la cabecera del patrimonio bibliográfico andaluz y coordina los fondos depositados en Andalucía.",
+      "referencia": "Art. 9 Ley 16/2003 y Ley 23/2011"
+    },
+    {
+      "pregunta": "Según la Ley 5/2016 del Deporte de Andalucía, ¿en qué registro administrativo deben inscribirse obligatoriamente los clubes deportivos, secciones deportivas y federaciones deportivas andaluzas para obtener reconocimiento e intervenir en competiciones oficiales?",
+      "opciones": [
+        "En el Registro de Fundaciones Culturales de Madrid",
+        "En el Registro Andaluz de Entidades Deportivas (RAED)",
+        "En el Catálogo General del Patrimonio Histórico",
+        "En el Inventario de Contratos del Sector Público"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 64 de la Ley 5/2016 regula el Registro Andaluz de Entidades Deportivas (RAED) como requisito constitutivo del reconocimiento deportivo autonómico para clubes, secciones y federaciones deportivas andaluzas.",
+      "referencia": "Art. 64 Ley 5/2016 del Deporte de Andalucía"
+    },
+    {
+      "pregunta": "De acuerdo con la Ley 13/1999 (EPAR) y su normativa de desarrollo en Andalucía, ¿qué requisito obligatorio debe suscribir todo titular o empresa organizadora de un espectáculo público o actividad recreativa para responder de posibles daños a los asistentes o terceros?",
+      "opciones": [
+        "Una póliza de seguro exclusivamente contra incendios forestales",
+        "Una fianza ante el Tribunal Supremo",
+        "Un seguro de responsabilidad civil obligatorio que cubra los riesgos y daños personales y materiales derivados de la celebración del espectáculo o actividad",
+        "Un aval bancario a favor de la Cámara de Cuentas"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 14.c) de la Ley 13/1999 y el Decreto 109/2005 imponen como requisito inexcusable suscribir un contrato de seguro de responsabilidad civil obligatorio con los capitales mínimos fijados según el aforo y tipo de establecimiento.",
+      "referencia": "Art. 14.c) Ley 13/1999 y Decreto 109/2005"
+    },
+    {
+      "pregunta": "¿Qué mecanismo de protección especial establece el Estatuto de Autonomía para Andalucía (artículo 68.1) y la legislación cultural frente a los bienes del patrimonio cultural andaluz ilícitamente exportados o dispersos fuera de Andalucía?",
+      "opciones": [
+        "Su exclusión definitiva de cualquier inventario público",
+        "La prohibición de solicitar su regreso por vía diplomática",
+        "La renuncia expresa a los derechos históricos sobre dichos bienes",
+        "El mandato estatutario de procurar su recuperación, retorno, inventario científico y difusión en Andalucía"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 68.1 EA Andalucía proclama expresamente el deber de los poderes públicos andaluces de proteger, conservar, investigar y procurar la recuperación de los bienes integrantes del patrimonio histórico y cultural andaluz situados fuera del territorio de Andalucía.",
+      "referencia": "Art. 68.1 EA Andalucía"
+    }
+  ]
+}

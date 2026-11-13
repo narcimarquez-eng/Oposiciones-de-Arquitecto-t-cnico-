@@ -540,9 +540,11 @@
         <label for="select-cuerpo-activo" style="font-size:.82rem;font-weight:600;color:var(--muted)">Oposición:</label>
         <select class="sel" id="select-cuerpo-activo" style="padding:6px 10px;font-size:.88rem;font-weight:600;background:var(--surface-2);color:var(--text);border-color:var(--border)">
           <option value="a2-2001">🏛️ Arquitecto Técnico (A2.2001 · 70 temas)</option>
-          <option value="a1-2001">🏢 Superior Facultativo / Administradores (A1 · 41 temas)</option>
-          <option value="c1-1100">📋 Administrativos Junta (C1.1000/1100 · 42 temas BOJA)</option>
-          <option value="c2-1100">📎 Auxiliares Administrativos (C2.1000/1100 · 22 temas BOJA)</option>
+          <option value="a1-2001">🏢 Superior Facultativo Común (A1.2001 · 35 temas BOJA)</option>
+          <option value="a1-1100">⚖️ Administradores Generales (A1.1100 · 100 temas BOJA)</option>
+          <option value="a2-1100">📂 Gestión Administrativa (A2.1100 · 69 temas BOJA)</option>
+          <option value="c1-1100">📋 Administrativos Junta (C1.1000 · 42 temas BOJA)</option>
+          <option value="c2-1100">📎 Auxiliares Administrativos (C2.1000 · 22 temas BOJA)</option>
         </select>
       </div>
     </div>
@@ -641,12 +643,43 @@
     'c2-organizacion': 'Organización/Informática'
   };
 
-  function temasCuerpoActual() {
-    var c = cuerpoActual();
+  function temasDeCuerpo(cid) {
+    var c = (cid && CUERPOS[cid]) || cuerpoActual();
+    if (c && c.temas && c.temas.length) {
+      return c.temas;
+    }
     if (!c || !c.temasIds) return D.temario.temas;
     var idsSet = {};
     c.temasIds.forEach(function (id) { idsSet[id] = true; });
     return D.temario.temas.filter(function (t) { return !!idsSet[t.id]; });
+  }
+
+  function temasCuerpoActual() {
+    return temasDeCuerpo(cuerpoActivoId);
+  }
+
+  function claveRutaTema(t) {
+    if (!t) return '';
+    var c = cuerpoActual();
+    if (c && c.id !== 'a2-2001' && t.num != null) return 't' + t.num;
+    return t.id;
+  }
+
+  function buscarTemaEnCuerpo(id, cid) {
+    var lista = temasDeCuerpo(cid);
+    var mNum = String(id || '').match(/^t(\d+)$/);
+    if (mNum) {
+      for (var k = 0; k < lista.length; k++) {
+        if (String(lista[k].num) === mNum[1]) return lista[k];
+      }
+    }
+    for (var i = 0; i < lista.length; i++) {
+      if (lista[i].id === id) return lista[i];
+    }
+    for (var j = 0; j < lista.length; j++) {
+      if (String(lista[j].num) === String(id)) return lista[j];
+    }
+    return temaPorId[id] || null;
   }
 
   function actualizarEncabezadoCuerpo() {
@@ -694,21 +727,43 @@
     } catch (e) { /* sin almacenamiento */ }
   }
 
-  function etiquetaTema(t) {
+  function etiquetaTema(t, corpObj) {
+    if (!t) return '';
+    if (t.etiqueta) return t.etiqueta;
+    var c = corpObj || cuerpoActual();
+    if (c && (c.id === 'c1-1100' || c.id === 'c2-1100' || c.id === 'a1-2001')) {
+      return 'Tema ' + t.num;
+    }
     return (tituloBloque[t.bloque] || t.bloque) + ' ' + t.num;
   }
   function recortar(s, n) {
-    s = String(s);
+    if (Array.isArray(s)) s = s.join(' ');
+    s = String(s == null ? '' : s).replace(/\s+/g, ' ').trim();
     return s.length > n ? s.slice(0, n).replace(/\s+\S*$/, '') + '…' : s;
   }
   function badgeVerificacion(ley) {
     if (!ley) return '<span class="pill bad">Ley no catalogada</span>';
+    var badgeBase = '';
     if (ley.verificada === true) {
       var origen = /BOJA/i.test(ley.referencia) ? 'BOJA' : (/DOUE|Tratado/i.test(ley.referencia) ? 'DOUE' : (/CTE|DB-/i.test(ley.id) ? 'CTE' : 'BOE'));
-      return '<span class="pill ok" title="Texto oficial completo y articulado indexado en el visor normativo">✓ Verificada en ' + origen + '</span>';
+      badgeBase = '<span class="pill ok" title="Texto oficial completo y articulado indexado en el visor normativo">✓ Verificada en ' + origen + '</span>';
+    } else if (ley.verificada === 'parcial') {
+      badgeBase = '<span class="pill warn" title="Texto en proceso de cotejo de artículos específicos">Verificación parcial</span>';
+    } else {
+      badgeBase = '<span class="pill bad">Pendiente de verificar</span>';
     }
-    if (ley.verificada === 'parcial') return '<span class="pill warn" title="Texto en proceso de cotejo de artículos específicos">Verificación parcial</span>';
-    return '<span class="pill bad">Pendiente de verificar</span>';
+    var badgeVigencia = '';
+    if (ley.estado_vigencia === 'derogada') {
+      badgeVigencia = ' <span class="pill bad" title="' + esc(ley.notas || '') + '">⚠️ ' + esc(ley.texto_estado || 'Derogada') + '</span>';
+      if (ley.norma_sustituta && D.leyes && D.leyes[ley.norma_sustituta]) {
+        badgeVigencia += ' <button type="button" class="btn-cita" data-ver-norma="' + esc(ley.norma_sustituta) + '" title="Abrir la norma vigente que la sustituye">→ Ver vigente (' + esc(ley.norma_sustituta) + ')</button>';
+      }
+    } else if (ley.estado_vigencia === 'derogacion_diferida') {
+      badgeVigencia = ' <span class="pill warn" title="' + esc(ley.notas || '') + '">⏳ ' + esc(ley.texto_estado || 'Derogación diferida') + '</span>';
+    } else if (ley.estado_vigencia === 'vigencia_parcial_transitoria') {
+      badgeVigencia = ' <span class="pill warn" title="' + esc(ley.notas || '') + '">⚠️ ' + esc(ley.texto_estado || 'Vigencia parcial/transitoria') + '</span>';
+    }
+    return badgeBase + badgeVigencia;
   }
 
   var ENLACES_KEY = 'estudio-enlaces-normas-v1';
@@ -807,21 +862,34 @@
     guardarRepaso(r);
   }
 
+  var PRACTICOS_KEY = 'estudio-practicos-respuestas-v1';
+  function leerPracticosRespuestas() {
+    try {
+      var p = JSON.parse(localStorage.getItem(PRACTICOS_KEY));
+      return (p && typeof p === 'object') ? p : {};
+    } catch (e) { return {}; }
+  }
+  function guardarPracticosRespuestas(r) {
+    try { localStorage.setItem(PRACTICOS_KEY, JSON.stringify(r || {})); } catch (e) { /* sin almacenamiento */ }
+  }
+
   // Exportar e importar copia de seguridad JSON completa
   function exportarCopiaSeguridad() {
     var datos = {
-      version: 1,
+      version: 2,
+      cuerpoActivo: cuerpoActivoId,
       fecha: new Date().toISOString(),
       progreso: leerProgreso(),
       estadisticas: leerStats(),
       repaso: leerRepaso(),
-      notas: leerNotas()
+      notas: leerNotas(),
+      practicos: leerPracticosRespuestas()
     };
     var blob = new Blob([JSON.stringify(datos, null, 2)], { type: 'application/json' });
     var url = URL.createObjectURL(blob);
     var a = document.createElement('a');
     a.href = url;
-    a.download = 'progreso-arquitecto-tecnico-' + new Date().toISOString().slice(0, 10) + '.json';
+    a.download = 'progreso-oposiciones-andalucia-' + cuerpoActivoId + '-' + new Date().toISOString().slice(0, 10) + '.json';
     document.body.appendChild(a);
     a.click();
     a.remove();
@@ -838,6 +906,10 @@
         if (d.estadisticas) guardarStats(d.estadisticas);
         if (d.repaso) guardarRepaso(d.repaso);
         if (d.notas) localStorage.setItem(NOTAS_KEY, JSON.stringify(d.notas));
+        if (d.practicos && typeof d.practicos === 'object') {
+          estadoPracticos.respuestas = d.practicos;
+          guardarPracticosRespuestas(d.practicos);
+        }
         render();
       } catch (e) { /* archivo inválido */ }
     };
@@ -854,10 +926,10 @@
     if (c.bloques && c.bloques.length > 1) {
       c.bloques.forEach(function (b) {
         var num = temas.filter(function (t) {
-          if (b.temas) return b.temas.indexOf(t.id) !== -1;
-          return t.bloque === b.id;
+          return perteneceTemaABloque(t, b.id);
         }).length;
-        opts.push([b.id, b.nombre.replace(/\s*\(\d+\s*temas?\)/i, '') + ' (' + num + ')']);
+        var nombreVisible = b.nombreCorto || b.nombre.replace(/\s*\(\d+\s*temas?\)/i, '').replace(/\s*\(Temas\s+\d+.*?\)/i, '');
+        opts.push([b.id, nombreVisible + ' (' + num + ')']);
       });
     } else if (c.id === 'a2-2001') {
       var comunes = temas.filter(function (t) { return t.bloque === 'comun'; }).length;
@@ -866,9 +938,11 @@
       opts.push(['arquitectura-tecnica', 'Específico (' + espec + ')']);
     }
 
+    var numPracticos = ((D.supuestosPracticos && D.supuestosPracticos[c.id]) || []).length;
     $tabs.innerHTML = opts.map(function (o) {
       return '<button class="tab" type="button" data-filtro="' + o[0] + '" aria-pressed="' + (enLista && filtro === o[0]) + '">' + esc(o[1]) + '</button>';
     }).join('') +
+      '<button class="tab" type="button" data-ir="#/practicos" aria-pressed="' + (h === '#/practicos' || h.indexOf('#/practico/') === 0) + '">🧮 Supuestos Prácticos (' + numPracticos + ')</button>' +
       '<button class="tab" type="button" data-ir="#/generador" aria-pressed="' + (h === '#/generador') + '">Generador y Simulacro</button>' +
       '<button class="tab" type="button" data-ir="#/fichas" aria-pressed="' + (h === '#/fichas') + '">⚡ Plazos y Cifras</button>' +
       '<button class="tab" type="button" data-ir="#/normativa" aria-pressed="' + (h === '#/normativa') + '">📚 Normativa (' + Object.keys(D.leyes).length + ')</button>' +
@@ -883,7 +957,10 @@
     var temas = temasCuerpoActual();
     var total = temas.length;
     var conC = temas.filter(function (t) { return !!D.contenido[t.id]; }).length;
-    var vistos = temas.filter(function (t) { return prog[t.id] && prog[t.id].visto; }).length;
+    var vistos = temas.filter(function (t) {
+      var rk = claveRutaTema(t);
+      return (prog[rk] && prog[rk].visto) || (prog[t.id] && prog[t.id].visto);
+    }).length;
     var nFallos = Object.keys(rep.falladas).length;
     var nDudosas = Object.keys(rep.dudosas).length;
     var nNotas = Object.keys(notas).length;
@@ -919,11 +996,14 @@
     var resPreguntas = [];
     var resNormas = [];
 
-    D.temario.temas.forEach(function (t) {
-      if (filtro !== 'todos' && t.bloque !== filtro) return;
+    var vistosCont = {};
+    temasCuerpoActual().forEach(function (t) {
+      if (filtro !== 'todos' && !perteneceTemaABloque(t, filtro)) return;
       if (normClave(etiquetaTema(t) + ' ' + t.titulo).indexOf(q) !== -1) {
         resTemas.push(t);
       }
+      if (vistosCont[t.id]) return;
+      vistosCont[t.id] = true;
       var c = D.contenido[t.id];
       if (!c) return;
       (c.resumen || []).forEach(function (b) {
@@ -961,7 +1041,7 @@
     if (resTemas.length) {
       html += '<section class="seccion"><h3>Temas (' + resTemas.length + ')</h3><ul class="lista">' +
         resTemas.map(function (t) {
-          return '<li><button class="tema-card" type="button" data-tema="' + esc(t.id) + '">' +
+          return '<li><button class="tema-card" type="button" data-tema="' + esc(claveRutaTema(t)) + '">' +
             '<div class="tema-meta"><strong>' + esc(etiquetaTema(t)) + '</strong></div>' +
             '<p class="tema-title">' + resaltarBusqueda(t.titulo, qRaw) + '</p></button></li>';
         }).join('') + '</ul></section>';
@@ -973,7 +1053,7 @@
           return '<div class="card">' +
             '<div class="tema-meta" style="justify-content:space-between">' +
             '<span><strong>' + esc(etiquetaTema(a.tema)) + '</strong> · ' + esc(a.seccion) + '</span>' +
-            '<button type="button" class="btn-cita" data-tema="' + esc(a.tema.id) + '">Ir al tema →</button>' +
+            '<button type="button" class="btn-cita" data-tema="' + esc(claveRutaTema(a.tema)) + '">Ir al tema →</button>' +
             '</div>' +
             '<p style="margin:6px 0 0;font-size:.92rem">' + resaltarBusqueda(recortar(a.texto, 340), qRaw) + '</p>' +
             '</div>';
@@ -1015,17 +1095,20 @@
 
   function perteneceTemaABloque(t, bloqueId) {
     if (bloqueId === 'todos') return true;
+    if (t.bloque) return t.bloque === bloqueId;
     var c = cuerpoActual();
     if (c.bloques) {
       for (var i = 0; i < c.bloques.length; i++) {
         var b = c.bloques[i];
         if (b.id === bloqueId) {
-          if (b.temas) return b.temas.indexOf(t.id) !== -1;
+          if (b.temas) {
+            return b.temas.indexOf(t.id) !== -1 || b.temas.indexOf(String(t.num)) !== -1;
+          }
           return t.bloque === b.id;
         }
       }
     }
-    return t.bloque === bloqueId;
+    return false;
   }
 
   function vistaLista() {
@@ -1048,7 +1131,7 @@
 
     var tituloCab = '<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:8px">' +
       '<h2 class="tituloTema" style="margin:0">' + esc(nombreBloqueActivo) + '</h2>' +
-      '<span class="sub" style="margin:0">' + esc(c.nombreCorto) + '</span>' +
+      '<span class="sub" style="margin:0">' + esc(c.nombreCorto) + ' · BOJA</span>' +
       '</div>';
 
     if (busquedaGlobal && busquedaGlobal.trim().length >= 2) {
@@ -1056,18 +1139,20 @@
     }
 
     var html = '<ul class="lista">' + temas.map(function (t) {
+      var rk = claveRutaTema(t);
       var cont = D.contenido[t.id];
-      var p = prog[t.id] || {};
+      var p = prog[rk] || prog[t.id] || {};
       var estado = cont
         ? '<span class="pill ok">Contenido listo</span>'
         : '<span class="pill">Pendiente</span>';
       var marca = p.visto ? '<span class="pill done">✓ estudiado</span>' : '';
       var maxQ = cont && cont.test ? cont.test.length : 40;
       var mejor = p.mejor != null ? '<span class="pill">Mejor test: ' + p.mejor + '/' + maxQ + '</span>' : '';
-      var conNota = notas[t.id] ? '<span class="pill warn">📝 Con notas</span>' : '';
-      return '<li><button class="tema-card" type="button" data-tema="' + esc(t.id) + '">' +
-        '<div class="tema-meta"><strong>' + esc(etiquetaTema(t)) + '</strong>' + estado + marca + mejor + conNota + '</div>' +
-        '<p class="tema-title">' + esc(recortar(t.titulo, 170)) + '</p>' +
+      var conNota = (notas[rk] || notas[t.id]) ? '<span class="pill warn">📝 Con notas</span>' : '';
+      var pillBloque = t.bloqueNombre ? '<span class="pill">' + esc(t.bloqueNombre.replace(/\s*\(Temas\s+\d+.*?\)/i, '')) + '</span>' : '';
+      return '<li><button class="tema-card" type="button" data-tema="' + esc(rk) + '">' +
+        '<div class="tema-meta"><strong>' + esc(etiquetaTema(t)) + '</strong>' + pillBloque + estado + marca + mejor + conNota + '</div>' +
+        '<p class="tema-title">' + esc(recortar(t.titulo, 185)) + '</p>' +
         '</button></li>';
     }).join('') + '</ul>';
     return tituloCab + buscadorHtml + '<div id="contenedor-resultados-lista">' + html + '</div>';
@@ -1081,25 +1166,42 @@
   var $modalNormaBody = document.getElementById('modal-norma-body');
   var estadoModal = null;
 
-  // Índices para localizar normas mencionadas en el texto
+  // Índices para localizar normas mencionadas en el texto (solo cabecera propia + rango)
+  function detectarRangoNorma(s) {
+    var c = normClave(s);
+    if (/\breal decreto legislativo\b|\brdleg\b/.test(c)) return 'rdleg';
+    if (/\breal decreto[- ]ley\b|\brdl\b/.test(c)) return 'rdl';
+    if (/\breal decreto\b|\brd\b/.test(c)) return 'rd';
+    if (/\bdecreto legislativo\b|\bdleg\b/.test(c)) return 'dleg';
+    if (/\bdecreto[- ]ley\b|\bdl\b/.test(c)) return 'dl';
+    if (/\bdecreto\b|\bd\.?\b/.test(c)) return 'd';
+    if (/\bley organica\b|\blo\b/.test(c)) return 'lo';
+    if (/\bley\b/.test(c)) return 'ley';
+    if (/\borden\b/.test(c)) return 'orden';
+    return '';
+  }
+
   var leyesPorNum = {};
   var temasPorLey = {};
   Object.keys(D.leyes).forEach(function (id) {
     var l = D.leyes[id];
-    var texto = (l.referencia || '') + ' ' + (l.nombre || '');
-    var mNum = texto.match(/\b(\d{1,4}\/\d{4})\b/g);
+    var cabecera = ((l.referencia || '') + ' | ' + (l.nombre || '')).split(/\b(?:por el que|por la que|que desarrolla|sustituye|deroga|modifica)\b/i)[0];
+    var mNum = cabecera.match(/((?:Real\s+Decreto\s+Legislativo|Real\s+Decreto-ley|Real\s+Decreto|Decreto\s+Legislativo|Decreto-ley|Decreto|Ley\s+Org[aá]nica|Ley|Orden\s+[A-Z]{2,6})\s*(?:\([^)]+\)\s*)?(\d{1,4}\/\d{4}))/i);
     if (mNum) {
-      mNum.forEach(function (par) {
-        if (!leyesPorNum[par]) leyesPorNum[par] = [];
-        if (leyesPorNum[par].indexOf(id) === -1) leyesPorNum[par].push(id);
-      });
+      var par = mNum[2];
+      var rango = detectarRangoNorma(mNum[1]);
+      if (!leyesPorNum[par]) leyesPorNum[par] = [];
+      if (!leyesPorNum[par].some(function (x) { return x.id === id; })) {
+        leyesPorNum[par].push({ id: id, rango: rango });
+      }
     }
-    var mOrd = texto.match(/\b([A-Z]{2,6}\/\d{1,4}\/\d{4})\b/g);
+    var mOrd = cabecera.match(/\b([A-Z]{2,6}\/\d{1,4}\/\d{4})\b/);
     if (mOrd) {
-      mOrd.forEach(function (par) {
-        if (!leyesPorNum[par]) leyesPorNum[par] = [];
-        if (leyesPorNum[par].indexOf(id) === -1) leyesPorNum[par].push(id);
-      });
+      var parOrd = mOrd[1];
+      if (!leyesPorNum[parOrd]) leyesPorNum[parOrd] = [];
+      if (!leyesPorNum[parOrd].some(function (x) { return x.id === id; })) {
+        leyesPorNum[parOrd].push({ id: id, rango: 'orden' });
+      }
     }
   });
 
@@ -1118,6 +1220,10 @@
     'ce': 'CE',
     'estatuto de autonomia': 'EA-ANDALUCIA',
     'estatuto de autonomia para andalucia': 'EA-ANDALUCIA',
+    'estatuto de andalucia': 'EA-ANDALUCIA',
+    'estatuto': 'EA-ANDALUCIA',
+    'ea': 'EA-ANDALUCIA',
+    'ea andalucia': 'EA-ANDALUCIA',
     'eaa': 'EA-ANDALUCIA',
     'codigo tecnico de la edificacion': 'CTE',
     'cte': 'CTE',
@@ -1128,16 +1234,33 @@
     'lrjsp': 'LRJSP',
     'lcsp': 'LCSP',
     'rglcap': 'RGLCAP-1098-2001',
+    'reglamento general de la lcap': 'RGLCAP-1098-2001',
+    'reglamento general de la ley de contratos de las administraciones publicas': 'RGLCAP-1098-2001',
     'lef': 'LEF',
     'ref': 'REF-1957',
     'lgs': 'LGS',
+    'ley general de subvenciones': 'LGS',
     'rlgs': 'RLGS-887-2006',
+    'reglamento de la ley general de subvenciones': 'RLGS-887-2006',
     'laja': 'LAJA',
     'ebep': 'EBEP',
     'trebep': 'EBEP',
+    'estatuto basico del empleado publico': 'EBEP',
+    'texto refundido de la ley del estatuto basico del empleado publico': 'EBEP',
     'lfp': 'LFP-ANDALUCIA',
+    'lfpa': 'LFP-ANDALUCIA',
+    'ley de funcion publica de andalucia': 'LFP-ANDALUCIA',
+    'ley de la funcion publica de andalucia': 'LFP-ANDALUCIA',
     'lghpa': 'LGHPA',
     'trlghp': 'LGHPA',
+    'trlghpja': 'LGHPA',
+    'trghpja': 'LGHPA',
+    'ley general de la hacienda publica': 'LGHPA',
+    'texto refundido de la ley general de la hacienda publica': 'LGHPA',
+    'ley general de hacienda publica de la junta de andalucia': 'LGHPA',
+    'texto refundido de la ley general de hacienda publica de la junta de andalucia': 'LGHPA',
+    'ley general de la hacienda publica de la junta de andalucia': 'LGHPA',
+    'texto refundido de la ley general de la hacienda publica de la junta de andalucia': 'LGHPA',
     'lgp': 'LGP-47-2003',
     'lprl': 'LPRL',
     'rite': 'RITE',
@@ -1146,9 +1269,12 @@
     'rglista': 'DEC-AND-550-2022',
     'lpha': 'LPHA-14-2007',
     'lphe': 'LPHE-16-1985',
-    'lpca': 'LPCA-4-2026',
+    'lpca': 'LPCA-7-2025',
     'trls': 'TRLS-7-2015',
     'trlsru': 'TRLS-7-2015',
+    'texto refundido de la ley de suelo': 'TRLS-7-2015',
+    'texto refundido de la ley de suelo y rehabilitacion urbana': 'TRLS-7-2015',
+    'ley de suelo': 'TRLS-7-2015',
     'trlcat': 'TRLCAT-1-2004',
     'rof': 'RD-2568-1986',
     'lbrl': 'LBRL',
@@ -1157,11 +1283,13 @@
     'rsciei': 'RD-164-2025',
     'lph': 'LPH-49-1960',
     'ltbg': 'LTBG',
+    'ltaibg': 'LTBG',
     'ltpa': 'LTPA',
     'lopdgdd': 'LOPDGDD',
     'ljca': 'LJCA',
     'ens': 'ENS-311-2022',
     'lva': 'LVA-5-2025',
+    'plan vive': 'DEC-AND-91-2020',
     'db-si': 'DB-SI',
     'db-sua': 'DB-SUA',
     'db-he': 'DB-HE',
@@ -1180,13 +1308,58 @@
     'db hr': 'DB-HR',
     'db se': 'CTE',
     'lpap': 'LPAP-33-2003',
+    'ley del patrimonio de las administraciones publicas': 'LPAP-33-2003',
     'laula': 'LAULA-5-2010',
     'lgss': 'LGSS-8-2015',
     'trlgss': 'LGSS-8-2015',
+    'ley general de la seguridad social': 'LGSS-8-2015',
+    'texto refundido de la ley general de la seguridad social': 'LGSS-8-2015',
     'et': 'ET-2-2015',
     'estatuto de los trabajadores': 'ET-2-2015',
+    'texto refundido de la ley del estatuto de los trabajadores': 'ET-2-2015',
     'ldapa': 'LDAPA-7-2011',
-    'lacc': 'LACC-16-2007'
+    'lacc': 'LACC-16-2007',
+    'vi convenio colectivo': 'VI-CONV-LAB-JA',
+    'convenio colectivo del personal laboral': 'VI-CONV-LAB-JA',
+    'convenio colectivo del personal laboral de la administracion de la junta de andalucia': 'VI-CONV-LAB-JA',
+    'vi convenio': 'VI-CONV-LAB-JA',
+    'codigo civil': 'CC-1889',
+    'cc': 'CC-1889',
+    'ley hipotecaria': 'LH-1946',
+    'lh': 'LH-1946',
+    'lau': 'LAU-29-1994',
+    'ley de arrendamientos urbanos': 'LAU-29-1994',
+    'loreg': 'LOREG-5-1985',
+    'lols': 'LOLS-11-1985',
+    'lopp': 'LOPP-6-2002',
+    'losc': 'LOSC-4-2015',
+    'lgt': 'LGT-58-2003',
+    'lofca': 'LOFCA-8-1980',
+    'lrjs': 'LRJS-36-2011',
+    'ley reguladora de la jurisdiccion social': 'LRJS-36-2011',
+    'lisos': 'LISOS-5-2000',
+    'texto refundido de la ley sobre infracciones y sanciones en el orden social': 'LISOS-5-2000',
+    'lotc': 'LOTC-2-1979',
+    'lopj': 'LOPJ-6-1985',
+    'ley organica del poder judicial': 'LOPJ-6-1985',
+    'ley electoral de andalucia': 'LEA-1-1986',
+    'leda': 'LEDA-17-2007',
+    'ley de educacion de andalucia': 'LEDA-17-2007',
+    'reglamento de viviendas protegidas': 'DEC-AND-149-2006',
+    'reglamento de viviendas protegidas de andalucia': 'DEC-AND-149-2006',
+    'reglamento de los procedimientos de concesion de subvenciones': 'DEC-AND-282-2010',
+    'reglamento de subvenciones de la junta de andalucia': 'DEC-AND-282-2010',
+    'reglamento de organizacion y funcionamiento de la intervencion general de la junta de andalucia': 'DEC-AND-92-2022',
+    'lrhl': 'LRHL-2-2004',
+    'trlrhl': 'LRHL-2-2004',
+    'gica': 'LGICA-7-2007',
+    'legam': 'LEGAM-2-2026',
+    'tue': 'TUE-TFUE',
+    'tfue': 'TUE-TFUE',
+    'tratado de la union europea': 'TUE-TFUE',
+    'tratado de union europea': 'TUE-TFUE',
+    'tratado de funcionamiento de la union europea': 'TUE-TFUE',
+    'tratado de lisboa': 'TLISBOA-2007'
   };
 
   function normClave(s) {
@@ -1195,48 +1368,62 @@
       .replace(/\s+/g, ' ').trim();
   }
 
+  function esProsaMinusculaNoNorma(m, clave) {
+    return Boolean(m && m === m.toLowerCase() && !/\d/.test(m) &&
+      /^(?:lista|lea|lau|lva|ens|cte|loe|lef|lgs|et|cc|ea|lh|ley organica del poder judicial)$/.test(clave));
+  }
+
   function resolverLeyPorMencion(mencion, idTema) {
     var m = String(mencion || '').trim();
     if (!m) return null;
     if (D.leyes[m]) return m;
     var clave = normClave(m);
+    if (esProsaMinusculaNoNorma(m, clave)) return null;
+    if (clave === 'lea') {
+      if (idTema && D.contenido[idTema] && D.contenido[idTema].leyes) {
+        var idsT = D.contenido[idTema].leyes.map(function (x) { return x.id; });
+        if (idsT.indexOf('LEDA-17-2007') !== -1) return 'LEDA-17-2007';
+        if (idsT.indexOf('LEA-1-1986') !== -1) return 'LEA-1-1986';
+      }
+      return 'LEA-1-1986';
+    }
     if (ALIAS_NORMAS[clave] && D.leyes[ALIAS_NORMAS[clave]]) return ALIAS_NORMAS[clave];
 
-    // Órdenes o Decretos por fecha específica
+    // Órdenes, Convenios o Decretos por fecha o denominación específica
+    if (clave.indexOf('convenio colectivo') !== -1 || clave.indexOf('22 de noviembre de 2002') !== -1 || clave.indexOf('28 de noviembre de 2002') !== -1) return 'VI-CONV-LAB-JA';
+    if (clave.indexOf('19 de febrero de 2015') !== -1 || clave.indexOf('24 de octubre de 2019') !== -1) return 'ORD-AND-CONT-2015';
+    if (clave.indexOf('30 de marzo de 2015') !== -1) return 'ORD-AND-PGCF-2015';
+    if (clave.indexOf('8 de febrero de 1946') !== -1) return 'LH-1946';
+    if (clave.indexOf('24 de julio de 1889') !== -1) return 'CC-1889';
     if (clave.indexOf('24 de enero de 2003') !== -1) return 'ORD-AND-24-01-2003';
     if (clave.indexOf('21 de julio de 2008') !== -1 || clave.indexOf('12 de febrero de 2020') !== -1) return 'ORD-AND-21-07-2008';
     if (clave.indexOf('26 de abril de 1957') !== -1) return 'REF-1957';
     if (clave.indexOf('16 de diciembre de 1954') !== -1) return 'LEF';
+    if (clave.indexOf('reglamento de la ley 38/2003') !== -1 || clave.indexOf('reglamento general de subvenciones') !== -1) return 'RLGS-887-2006';
 
     // Código de Orden ministerial tipo TMA/851/2021, ECO/805/2003
     var mOrd = m.match(/\b([A-Z]{2,6}\/\d{1,4}\/\d{4})\b/);
     if (mOrd && leyesPorNum[mOrd[1]] && leyesPorNum[mOrd[1]].length) {
-      return leyesPorNum[mOrd[1]][0];
+      return leyesPorNum[mOrd[1]][0].id;
     }
 
-    // Número/Año tipo 39/2015, 293/2009, 9/2017
+    // Número/Año tipo 39/2015, 293/2009, 9/2017 con comprobación estricta de rango
     var mNum = m.match(/\b(\d{1,4}\/\d{4})\b/);
     if (mNum && leyesPorNum[mNum[1]]) {
       var cands = leyesPorNum[mNum[1]];
-      if (cands.length === 1) return cands[0];
-      // Si hay varias con el mismo número/año, priorizar la que esté en las leyes del tema actual
+      var rangoMencion = detectarRangoNorma(m);
+      if (rangoMencion) {
+        cands = cands.filter(function (c) { return c.rango === rangoMencion; });
+        if (!cands.length) return null;
+      }
+      if (cands.length === 1) return cands[0].id;
       if (idTema && D.contenido[idTema] && D.contenido[idTema].leyes) {
         var idsTema = D.contenido[idTema].leyes.map(function (x) { return x.id; });
         for (var i = 0; i < cands.length; i++) {
-          if (idsTema.indexOf(cands[i]) !== -1) return cands[i];
+          if (idsTema.indexOf(cands[i].id) !== -1) return cands[i].id;
         }
       }
-      // O filtrar por tipo de rango (Real Decreto, Decreto, Ley Orgánica, Ley)
-      for (var j = 0; j < cands.length; j++) {
-        var ref = normClave(D.leyes[cands[j]].referencia + ' ' + D.leyes[cands[j]].nombre);
-        if (clave.indexOf('real decreto legislativo') !== -1 && ref.indexOf('real decreto legislativo') !== -1) return cands[j];
-        if (clave.indexOf('real decreto') !== -1 && ref.indexOf('real decreto') !== -1) return cands[j];
-        if (clave.indexOf('decreto legislativo') !== -1 && ref.indexOf('decreto legislativo') !== -1) return cands[j];
-        if (clave.indexOf('decreto-ley') !== -1 && ref.indexOf('decreto-ley') !== -1) return cands[j];
-        if (clave.indexOf('decreto') !== -1 && clave.indexOf('real') === -1 && ref.indexOf('decreto') !== -1 && ref.indexOf('real decreto') === -1) return cands[j];
-        if (clave.indexOf('ley organica') !== -1 && ref.indexOf('ley organica') !== -1) return cands[j];
-      }
-      return cands[0];
+      return cands[0].id;
     }
 
     // Documentos Básicos y secciones del CTE (DB-SI, SUA 1, SI 3, HE 1, HS 3, SE-AE, etc.)
@@ -1251,23 +1438,51 @@
   }
 
   // Expresión regular para detectar citas normativas, artículos y secciones en los apuntes
+  var PATRON_NORMA_EXPLICITA =
+    'Reglamento\\s+de\\s+la\\s+Ley\\s+38\\/2003(?:,\\s*de\\s+17\\s+de\\s+noviembre,)?\\s+General\\s+de\\s+Subvenciones' +
+    '|Reglamento\\s+(?:\\(UE\\)\\s+\\d+\\/\\d+|General\\s+de\\s+Protecci[oó]n\\s+de\\s+Datos|de\\s+la\\s+Ley\\s+General\\s+de\\s+Subvenciones|General\\s+de\\s+la\\s+LCAP|General\\s+de\\s+la\\s+Ley\\s+de\\s+Contratos\\s+de\\s+las\\s+Administraciones\\s+P[úu]blicas|de\\s+Viviendas\\s+Protegidas(?:\\s+de\\s+Andaluc[ií]a)?|de\\s+los\\s+Procedimientos\\s+de\\s+Concesi[oó]n\\s+de\\s+Subvenciones|de\\s+Subvenciones\\s+de\\s+la\\s+Junta\\s+de\\s+Andaluc[ií]a|(?:General\\s+)?de\\s+(?:Ingreso|Recaudaci[oó]n|Organizaci[oó]n\\s+y\\s+Funcionamiento)[^,.;\\n)]{0,85})' +
+    '|Directiva\\s+(?:\\(UE\\)|CEE|CE)?\\s*\\d+\\/\\d+|Directiva\\s+H[aá]bitats' +
+    '|(?:Texto\\s+Refundido\\s+de\\s+la\\s+)?Ley\\s+(?:del\\s+)?Estatuto\\s+B[aá]sico\\s+del\\s+Empleado\\s+P[úu]blico' +
+    '|(?:Texto\\s+Refundido\\s+de\\s+la\\s+)?Ley\\s+General\\s+de\\s+(?:la\\s+)?Hacienda\\s+P[úu]blica(?:\\s+de\\s+la\\s+Junta\\s+de\\s+Andaluc[ií]a)?' +
+    '|(?:Texto\\s+Refundido\\s+de\\s+la\\s+)?Ley\\s+General\\s+de\\s+la\\s+Seguridad\\s+Social' +
+    '|(?:Texto\\s+Refundido\\s+de(?:l|\\s+la\\s+Ley\\s+del)\\s+)?Estatuto\\s+de\\s+los\\s+Trabajadores' +
+    '|Texto\\s+Refundido\\s+de\\s+la\\s+Ley\\s+sobre\\s+Infracciones\\s+y\\s+Sanciones\\s+en\\s+el\\s+Orden\\s+Social' +
+    '|(?:Texto\\s+Refundido\\s+de\\s+la\\s+)?Ley\\s+de\\s+Suelo(?:\\s+y\\s+Rehabilitaci[oó]n\\s+Urbana)?' +
+    '|Ley\\s+Org[aá]nica\\s+del\\s+Poder\\s+Judicial' +
+    '|Ley\\s+(?:36\\/2011[^.\\n]{0,50}?)?Reguladora\\s+de\\s+la\\s+Jurisdicci[oó]n\\s+Social' +
+    '|Ley\\s+(?:Electoral\\s+de\\s+Andaluc[ií]a|de\\s+Educaci[oó]n\\s+de\\s+Andaluc[ií]a|de\\s+Caza|del\\s+Ruido|de\\s+Arrendamientos\\s+Urbanos|de\\s+(?:la\\s+)?Funci[oó]n\\s+P[úu]blica\\s+de\\s+Andaluc[ií]a|del\\s+Patrimonio\\s+de\\s+las\\s+Administraciones\\s+P[úu]blicas|General\\s+de\\s+Subvenciones)' +
+    '|(?:Real\\s+Decreto\\s+Legislativo|Real\\s+Decreto-ley|Real\\s+Decreto|Decreto\\s+Legislativo|Decreto-ley|Decreto|Ley\\s+Org[aá]nica|Ley|RDL|RD-ley|RD|DL|D\\.|LO|DLeg)\\s*\\d{1,4}\\/\\d{4}' +
+    '|Orden\\s+[A-Z]{2,6}\\/\\d{1,4}\\/\\d{4}' +
+    '|Orden\\s+(?:de\\s+(?:la\\s+|el\\s+)?[^,.\\n]{3,110}\\s+)?de\\s+\\d{1,2}\\s+de\\s+[a-záéíóúñ]+\\s+de\\s+\\d{4}' +
+    '|Decreto\\s+(?:de\\s+(?:la\\s+|el\\s+)?[^,.\\n]{3,110}\\s+)?de\\s+\\d{1,2}\\s+de\\s+[a-záéíóúñ]+\\s+de\\s+\\d{4}' +
+    '|(?:VI\\s+)?Convenio(?:\\s+Colectivo)?\\s+(?:del|de)\\s+Personal\\s+Laboral|VI\\s+Convenio(?:\\s+Colectivo)?' +
+    '|C[oó]digo\\s+(?:Civil|Penal|de\\s+Comercio)' +
+    '|Ley\\s+Hipotecaria' +
+    '|Constituci[oó]n\\s+Espa[ñn]ola' +
+    '|Estatuto\\s+(?:de\\s+Autonom[ií]a(?:\\s+(?:para|de)\\s+Andaluc[ií]a)?|de\\s+Andaluc[ií]a)' +
+    '|(?:Texto\\s+Refundido\\s+de(?:l|\\s+la\\s+Ley\\s+del)\\s+)?Estatuto\\s+B[aá]sico\\s+del\\s+Empleado\\s+P[úu]blico' +
+    '|C[oó]digo\\s+T[eé]cnico\\s+de\\s+la\\s+Edificaci[oó]n' +
+    '|C[oó]digo\\s+Estructural' +
+    '|Plan\\s+Vive' +
+    '|Tratado\\s+(?:de\\s+(?:la\\s+)?Uni[oó]n\\s+Europea|de\\s+Funcionamiento\\s+de\\s+la\\s+Uni[oó]n\\s+Europea|de\\s+Lisboa)' +
+    '|(?:Secci[oó]n\\s+|\\bDB-)(?:SI|SUA|HE|HS|HR|SE(?:-AE|-C|-A|-M|-F)?)(?:\\s*\\d+(?:\\.\\d+)*)?\\b' +
+    '|\\b(?:SUA|SI|HE|HS)\\s+[0-9](?:\\.[0-9]+)*\\b' +
+    '|\\b(?:LOE|LPAC|LPACAP|LRJSP|LCSP|RGLCAP|LEF|LGS|LAJA|TREBEP|EBEP|TRLGHPJA|TRLGHP|TRGHPJA|LGHPA|LPRL|RITE|REBT|LISTA|RGLISTA|LPHA|LPHE|LPCA|TRLSRU|TRLS|TRLCAT|RIPCI|RSCIEI|LPH|LGP|CTE|LPAP|LAULA|LGSS|TRLGSS|LDAPA|LACC|LOREG|LOLS|LOPP|LOSC|LGT|LOFCA|LRJS|LISOS|LOTC|LOPJ|LRHL|TRLRHL|LEDA|LEA|LAU|LH|GICA|LEGAM|LFPA|LFP|LTAIBG|LTBG|LTPA|LOPDGDD|LJCA|ENS|LVA|RGPD|TUE|TFUE)\\b';
+
   var REGEX_CITAS = new RegExp(
-    '(' +
-      '(?:Real\\s+Decreto\\s+Legislativo|Real\\s+Decreto-ley|Real\\s+Decreto|Decreto\\s+Legislativo|Decreto-ley|Decreto|Ley\\s+Org[aá]nica|Ley)\\s+\\d{1,4}\\/\\d{4}' +
-      '|Orden\\s+[A-Z]{2,6}\\/\\d{1,4}\\/\\d{4}' +
-      '|Orden\\s+de\\s+(?:24\\s+de\\s+enero\\s+de\\s+2003|21\\s+de\\s+julio\\s+de\\s+2008|12\\s+de\\s+febrero\\s+de\\s+2020)' +
-      '|Decreto\\s+de\\s+26\\s+de\\s+abril\\s+de\\s+1957' +
-      '|Constituci[oó]n\\s+Espa[ñn]ola' +
-      '|Estatuto\\s+de\\s+Autonom[ií]a(?:\\s+para\\s+Andaluc[ií]a)?' +
-      '|C[oó]digo\\s+T[eé]cnico\\s+de\\s+la\\s+Edificaci[oó]n' +
-      '|C[oó]digo\\s+Estructural' +
-      '|(?:Secci[oó]n\\s+|\\bDB-)(?:SI|SUA|HE|HS|HR|SE(?:-AE|-C|-A|-M|-F)?)(?:\\s*\\d+(?:\\.\\d+)*)?\\b' +
-      '|\\b(?:SUA|SI|HE|HS)\\s+[0-9](?:\\.[0-9]+)*\\b' +
-      '|\\b(?:LOE|LPAC|LPACAP|LRJSP|LCSP|RGLCAP|LEF|LGS|LAJA|TREBEP|EBEP|LGHPA|TRLGHP|LPRL|RITE|REBT|LISTA|RGLISTA|LPHA|LPHE|LPCA|TRLS|TRLCAT|RIPCI|RSCIEI|LPH|LGP|CTE|LPAP|LAULA|LGSS|TRLGSS|LDAPA|LACC)\\b' +
-      '|(?:art[ií]culos?|arts?\\.)\\s+\\d+(?:\\s*(?:bis|ter|qu[aá]ter))?(?:\\s*(?:a|al|y|,|del|de\\s+la)\\s*\\d+)*(?:\\.[0-9]+)?' +
+    '(' + PATRON_NORMA_EXPLICITA +
+      '|(?:art[ií]culos?|arts?\\.)\\s+\\d+(?:\\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies))?(?:\\s*(?:a|al|y|,|del|de\\s+la)\\s*\\d+)*(?:\\.[0-9]+)?(?:\\s*(?:bis|ter|qu[aá]ter))?' +
       '|(?:T[ií]tulo\\s+(?:Preliminar|[IVXLC]+)|Cap[ií]tulo\\s+[IVXLC0-9]+|Disposici[oó]n\\s+(?:adicional|transitoria|derogatoria|final)\\s+[a-záéíóúñ0-9ªº.]+|Anejo\\s+[A-Z0-9]+)' +
     ')',
     'gi'
+  );
+
+  // Importante: las letras/apartados con punto (.ii, .b, .4.b) deben ir ANTES de [.,\s]+ para que no se borre el punto previo.
+  var REGEX_PREFIJO_ART = /^(?:\.\s*[a-z]{1,3}\b\)?|\.\s*\d+(?:\.\d+)*\.?[ºª]?|[.,\s]+|\b(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies|in\s+fine|y\s+siguientes|y\s+concordantes|y\s+sig[._]?|y\s+ss[._]?|ss[._]?|siguientes|concordantes)\b|(?:p[aá]rrafo|apartado|apartados|letra|letras)\s+[\w.,()-]+|en\s+relaci[oó]n\s+con\s+(?:la\s+|el\s+)?(?:D[TAF]\s*\d+[ªº]?|[IVXLC]+)|(?:[-–—]|y|a|al|e|o)\s*(?:\d+(?:\.\d+)*\.?[ºª]?|[a-z]{1,2}\))|\d+(?:\.\d+)*\.?[ºª]?|\b[a-z]\))/i;
+  var REGEX_PREPOSICION_NORMA = /^(?:de\s+la|del|de|en\s+(?:el|la)|introducid[oa]\s+por(?:\s+la|\s+el)?|(?:la|el)(?=\s+(?:Orden|Ley|Constituci[oó]n|Estatuto|Real\s+Decreto|Decreto))|,)\s+/i;
+  var REGEX_INICIO_NORMA = new RegExp(
+    '^(' + PATRON_NORMA_EXPLICITA + '|Constituci[oó]n|Estatuto|EA(?:\\s+Andaluc[ií]a)?|EAA|CE|ET|CC(?!\\.)|REF|RLGS|[A-Z]{2,10}(?:-[A-Z0-9]+)+)\\b',
+    'i'
   );
 
   function leyPorDefectoTema(idTema) {
@@ -1283,17 +1498,6 @@
     var lastIdx = 0;
     var ultimaLeyId = leyPorDefectoTema(idTema);
 
-    // Primera pasada: ver si el texto menciona explícitamente alguna ley para usarla de contexto en "art. X" o "Título X"
-    var primeraLeyTexto = null;
-    raw.replace(REGEX_CITAS, function (match) {
-      if (!primeraLeyTexto && !/^(?:art[ií]culos?|arts?\.|T[ií]tulo|Cap[ií]tulo|Disposici[oó]n|Anejo)/i.test(match)) {
-        var lid = resolverLeyPorMencion(match, idTema);
-        if (lid) primeraLeyTexto = lid;
-      }
-      return match;
-    });
-    if (primeraLeyTexto) ultimaLeyId = primeraLeyTexto;
-
     REGEX_CITAS.lastIndex = 0;
     var m;
     while ((m = REGEX_CITAS.exec(raw)) !== null) {
@@ -1304,17 +1508,38 @@
       }
       var esArticulo = /^(?:art[ií]culos?|arts?\.)/i.test(matchStr);
       var esSeccion = /^(?:Secci[oó]n|T[ií]tulo|Cap[ií]tulo|Disposici[oó]n|Anejo|(?:SUA|SI|HE|HS)\s+\d)/i.test(matchStr);
+      if (!esArticulo && !esSeccion && esProsaMinusculaNoNorma(matchStr, normClave(matchStr))) {
+        partes.push(esc(matchStr));
+        lastIdx = idx + matchStr.length;
+        continue;
+      }
       var leyId = null;
       if (esArticulo || /^(?:T[ií]tulo|Cap[ií]tulo|Disposici[oó]n|Anejo)/i.test(matchStr)) {
-        var cola = raw.slice(idx + matchStr.length, idx + matchStr.length + 80);
-        var mCola = cola.match(/^\s*(?:de\s+la\s+|del\s+|de\s+)?((?:Real\s+Decreto\s+Legislativo|Real\s+Decreto-ley|Real\s+Decreto|Decreto\s+Legislativo|Decreto-ley|Decreto|Ley\s+Org[aá]nica|Ley)\s+\d{1,4}\/\d{4}|Orden\s+[A-Z]{2,6}\/\d{1,4}\/\d{4}|Constituci[oó]n\s+Espa[ñn]ola|Estatuto\s+de\s+Autonom[ií]a|C[oó]digo\s+T[eé]cnico|C[oó]digo\s+Estructural|DB-(?:SI|SUA|HE|HS|HR|SE(?:-AE|-C|-A|-M|-F)?)|CE|EAA|LOE|LPAC|LRJSP|LCSP|LEF|REF|LGS|LAJA|TREBEP|EBEP|LGHPA|TRLGHP|LPRL|RITE|REBT|LISTA|LPHA|LPHE|LPCA|TRLS|TRLCAT|RGLCAP|RIPCI|RSCIEI|LPH|LGP|CTE)\b/i);
+        var cola = raw.slice(idx + matchStr.length, idx + matchStr.length + 180);
+        var colaProtegida = cola.replace(/\b(ss|etc|núm|num|pág|pag)\.\s+/gi, '$1_ ');
+        var colaClausula = colaProtegida.split(/[;·\n]|(?:\.\s+[A-ZÁÉÍÓÚÑ])|\b(?:art[ií]culos?|arts?\.)\b/i)[0];
+        var colaLimpia = colaClausula;
+        var mCola = null;
+        for (var k = 0; k < 12; k++) {
+          var colaSinPrep = colaLimpia.trimStart().replace(REGEX_PREPOSICION_NORMA, '');
+          mCola = colaSinPrep.match(REGEX_INICIO_NORMA);
+          if (mCola) break;
+          var prevCola = colaLimpia;
+          colaLimpia = colaLimpia.replace(REGEX_PREFIJO_ART, '').trimStart();
+          if (colaLimpia === prevCola) break;
+        }
+        if (!mCola) {
+          mCola = colaLimpia.trimStart().replace(REGEX_PREPOSICION_NORMA, '').match(REGEX_INICIO_NORMA);
+        }
         if (mCola) {
           leyId = resolverLeyPorMencion(mCola[1], idTema);
+        } else {
+          leyId = ultimaLeyId;
         }
-        if (!leyId) leyId = ultimaLeyId;
       } else {
         leyId = resolverLeyPorMencion(matchStr, idTema);
-        if (leyId) ultimaLeyId = leyId;
+        // Actualizar siempre ultimaLeyId (incluso a null si es norma no catalogada) para no heredar otra norma ajena
+        ultimaLeyId = leyId;
       }
 
       if (leyId && D.leyes[leyId]) {
@@ -1351,10 +1576,40 @@
 
   // Carga bajo demanda del articulado/secciones extraídos del PDF oficial (datos/preceptos/<id>.js)
   var cargandoPreceptos = {};
+  function normalizarPreceptosExternos(leyId) {
+    if (window.PRECEPTOS_PDF && window.PRECEPTOS_PDF[leyId]) {
+      return window.PRECEPTOS_PDF[leyId];
+    }
+    var raw = window.PRECEPTOS_LEYES && window.PRECEPTOS_LEYES[leyId];
+    if (raw && Array.isArray(raw.fragmentos)) {
+      var maxPag = Number(raw.paginas) || 1;
+      var items = raw.fragmentos.map(function (fr, idx) {
+        var tit = String(fr.titulo || '');
+        var m = tit.match(/^(?:Art[ií]culo|ART[IÍ]CULO)\s+(\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies))?|únic[oa]|ÚNIC[OA]|[IVXLC]+)/i);
+        var pag = Number(fr.pagina) || 1;
+        if (pag > maxPag) maxPag = pag;
+        return {
+          tipo: m ? 'art' : 'sec',
+          clave: fr.id || ((m ? 'art-' : 'sec-') + idx),
+          num: m ? m[1].replace(/\s+/g, ' ').trim().toLowerCase() : normClave(tit),
+          titulo: tit,
+          pag: pag,
+          texto: Array.isArray(fr.parrafos) ? fr.parrafos.join('\n') : String(fr.texto || '')
+        };
+      });
+      var norm = { numPages: maxPag, items: items };
+      window.PRECEPTOS_PDF = window.PRECEPTOS_PDF || {};
+      window.PRECEPTOS_PDF[leyId] = norm;
+      return norm;
+    }
+    return null;
+  }
+
   function cargarPreceptosPdf(leyId, cb) {
     window.PRECEPTOS_PDF = window.PRECEPTOS_PDF || {};
-    if (window.PRECEPTOS_PDF[leyId]) {
-      cb(window.PRECEPTOS_PDF[leyId]);
+    var existente = normalizarPreceptosExternos(leyId);
+    if (existente) {
+      cb(existente);
       return;
     }
     if (cargandoPreceptos[leyId]) {
@@ -1367,7 +1622,7 @@
     s.onload = function () {
       var cbs = cargandoPreceptos[leyId] || [];
       delete cargandoPreceptos[leyId];
-      var datos = (window.PRECEPTOS_PDF && window.PRECEPTOS_PDF[leyId]) || { numPages: 1, items: [] };
+      var datos = normalizarPreceptosExternos(leyId) || { numPages: 1, items: [] };
       cbs.forEach(function (fn) { fn(datos); });
     };
     s.onerror = function () {
@@ -1379,7 +1634,9 @@
   }
 
   function extraerNumerosArticulo(str) {
-    var s = String(str || '');
+    // Eliminar subapartados numéricos (.1, .2, .1.a) sin borrar .bis/.ter/.quater
+    var s = String(str || '').replace(/(\b\d+)\s*(?:\.\s*\d+\b)+/g, '$1');
+    s = s.replace(/(\b\d+)\.(bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies)\b/gi, '$1 $2');
     var nums = [];
     // Detectar rangos tipo "arts. 14 a 20" o "artículos 47 al 50"
     var mRango = s.match(/(?:art[ií]culos?|arts?\.)\s*(\d+)\s*(?:a|al|-)\s*(\d+)/i);
@@ -1390,7 +1647,7 @@
         for (var k = ini; k <= fin; k++) nums.push(String(k));
       }
     }
-    var mTodos = s.match(/\b\d+(?:\s*(?:bis|ter|qu[aá]ter))?\b/gi) || [];
+    var mTodos = s.match(/\b\d+(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies))?\b/gi) || [];
     mTodos.forEach(function (n) {
       var limp = n.replace(/\s+/g, ' ').trim().toLowerCase();
       // Evitar años tipo 2015, 1978, 2006
@@ -1402,7 +1659,7 @@
 
   function localizarPreceptosEnPdf(datosPdf, cita, contexto, idTema, leyId) {
     var items = (datosPdf && datosPdf.items) || [];
-    if (!items.length) return { seleccionados: [], indiceActivo: 0 };
+    if (!items.length) return { seleccionados: [], indiceActivo: 0, noEncontrado: false };
 
     var seleccionados = [];
     var vistos = {};
@@ -1414,20 +1671,38 @@
     }
 
     var citaNorm = normClave(cita);
-    var ctxNorm = normClave(contexto);
+    var esArtCita = /^(?:art[ií]culos?|arts?\.)/i.test(cita);
+    var artDirectoEncontrado = false;
 
     // 1. Si la cita pulsada es un artículo concreto ("art. 14", "arts. 47 y 48")
-    if (/^(?:art[ií]culos?|arts?\.)/i.test(cita)) {
+    if (esArtCita) {
       var numsCita = extraerNumerosArticulo(cita);
       numsCita.forEach(function (n) {
         items.forEach(function (it) {
-          if (it.tipo === 'art' && it.num === n) agregar(it);
+          if (it.tipo === 'art' && normClave(it.num) === n) {
+            agregar(it);
+            artDirectoEncontrado = true;
+          }
         });
       });
+      if (!artDirectoEncontrado && numsCita.length) {
+        // Respaldo: buscar aparición literal de "Artículo N" dentro de items/páginas si no figuraba como encabezado separado
+        numsCita.forEach(function (n) {
+          var reArtTxt = new RegExp('(?:^|\\n)\\s*Art[ií]culo\\s+' + n.replace(/\s+/g, '\\s+') + '\\b', 'i');
+          items.forEach(function (it) {
+            if (reArtTxt.test(it.texto || '') || reArtTxt.test(it.titulo || '')) {
+              agregar(it);
+              artDirectoEncontrado = true;
+            }
+          });
+        });
+      }
     }
 
     // 2. Si la cita pulsada es una sección CTE ("Sección SUA 1", "SUA 1", "SI 3", "HE 1", "HS 3") o estructural ("Título I", "Capítulo II", "Disposición...")
-    var mCte = (cita + ' ' + contexto).match(/\b(SUA|SI|HE|HS|HR|SE(?:-[A-Z]+)?)\s*([0-9](?:\.[0-9]+)*)?\b/i);
+    var mCte = /^(?:DB-|CTE)/.test(leyId || '')
+      ? (cita + ' ' + contexto).match(/\b(SUA|SI|HE|HS|HR|SE(?:-[A-Z]+)?)\s*([0-9](?:\.[0-9]+)*)?\b/)
+      : null;
     if (mCte && mCte[2]) {
       var codSec = (mCte[1] + ' ' + mCte[2].split('.')[0]).toLowerCase();
       var codSub = (mCte[1] + ' ' + mCte[2]).toLowerCase().replace(/\s+/, ' ');
@@ -1451,7 +1726,7 @@
       mArtsCtx.forEach(function (fragArt) {
         extraerNumerosArticulo(fragArt).forEach(function (n) {
           items.forEach(function (it) {
-            if (it.tipo === 'art' && it.num === n) agregar(it);
+            if (it.tipo === 'art' && normClave(it.num) === n) agregar(it);
           });
         });
       });
@@ -1472,7 +1747,6 @@
           if (titN.indexOf(w) !== -1) pts += 6;
           if (txtN.indexOf(w) !== -1) pts += 2;
         });
-        // Bonificar subsecciones específicas de una sección CTE ya detectada
         if (mCte && mCte[2] && it.padre && normClave(it.padre) === (mCte[1] + ' ' + mCte[2].split('.')[0]).toLowerCase()) {
           pts += 5;
         }
@@ -1489,7 +1763,7 @@
         if (lEntry.id === leyId && lEntry.articulos) {
           extraerNumerosArticulo(lEntry.articulos).slice(0, 8).forEach(function (n) {
             items.forEach(function (it) {
-              if (it.tipo === 'art' && it.num === n) agregar(it);
+              if (it.tipo === 'art' && normClave(it.num) === n) agregar(it);
             });
           });
         }
@@ -1501,7 +1775,11 @@
       items.slice(0, 6).forEach(agregar);
     }
 
-    return { seleccionados: seleccionados.slice(0, 12), indiceActivo: 0 };
+    return {
+      seleccionados: seleccionados.slice(0, 12),
+      indiceActivo: 0,
+      noEncontrado: Boolean(esArtCita && !artDirectoEncontrado)
+    };
   }
 
   function extraerFragmentosNorma(leyId, idTema) {
@@ -1604,6 +1882,7 @@
       estadoModal.datosPdf = datosPdf;
       var loc = localizarPreceptosEnPdf(datosPdf, cita, contexto, idTema, leyId);
       estadoModal.seleccionados = loc.seleccionados;
+      estadoModal.noEncontrado = Boolean(loc.noEncontrado);
       estadoModal.preceptoActivo = loc.seleccionados[0] || (datosPdf.items && datosPdf.items[0]) || null;
       dibujarCuerpoModalNorma();
     });
@@ -1728,6 +2007,7 @@
       '<div class="tema-meta">' +
       '<span class="pill done">📖 Texto literal en el PDF oficial</span>' +
       '<span class="pill ok">Página ' + activo.pag + (datosPdf.numPages ? ' de ' + datosPdf.numPages : '') + ' del PDF</span>' +
+      (estadoModal.noEncontrado ? '<span class="pill warn">Precepto exacto no localizado en el índice de esta norma</span>' : '') +
       (estadoModal.cita ? '<span class="sub" style="margin:0">Cita pulsada: «' + esc(estadoModal.cita) + '»</span>' : '') +
       '</div>' +
       '<h4 class="precepto-titulo">' + esc(activo.titulo) + '</h4>' +
@@ -1837,21 +2117,26 @@
   }
 
   function vistaTema(id) {
-    var t = temaPorId[id];
+    var corp = cuerpoActual();
+    var t = buscarTemaEnCuerpo(id);
     if (!t) return '<p>Tema no encontrado.</p><button class="btn sec" type="button" data-ir="#/">Volver a los temas</button>';
-    var c = D.contenido[id];
+    var contentId = t.id || id;
+    var rk = claveRutaTema(t);
+    var c = D.contenido[contentId];
     var prog = leerProgreso();
-    var p = prog[id] || {};
+    var p = prog[rk] || prog[contentId] || {};
 
     var cabecera =
-      '<button class="volver" type="button" data-ir="#/">← Todos los temas</button>' +
+      '<button class="volver" type="button" data-ir="#/">← Todos los temas de ' + esc(corp.nombreCorto || corp.codigo) + '</button>' +
       '<div class="tema-meta"><strong>' + esc(etiquetaTema(t)) + '</strong> ' +
+      (t.bloqueNombre ? '<span class="pill">' + esc(t.bloqueNombre.replace(/\s*\(Temas\s+\d+.*?\)/i, '')) + '</span> ' : '') +
+      '<span class="pill">' + esc(corp.codigo) + ' · BOJA</span> ' +
       (c ? '<span class="pill ok">Contenido listo</span>' : '<span class="pill">Pendiente</span>') + '</div>' +
       '<h2 class="tituloTema">' + esc(t.titulo) + '</h2>';
 
     if (!c) {
       return cabecera +
-        '<div class="card"><p>Este tema todavía no tiene resumen, leyes ni test. Se completará en las siguientes fases.</p></div>';
+        '<div class="card"><p>Este tema oficial de <strong>' + esc(corp.nombreCompleto) + '</strong> (' + esc(etiquetaTema(t)) + ') tiene registrado su epígrafe íntegro del BOJA. Su desarrollo normativo y test específico se integrarán en las próximas revisiones.</p></div>';
     }
 
     var notaEnlaces = enlacesNormasActivos
@@ -1860,11 +2145,11 @@
     var resumen = '<section class="seccion"><h3>Resumen' + notaEnlaces + '</h3>' + c.resumen.map(function (b) {
       var leyesBloque = [];
       var puntosHtml = b.puntos.map(function (x) {
-        return '<li>' + enlazarNormas(x, id, leyesBloque) + '</li>';
+        return '<li>' + enlazarNormas(x, contentId, leyesBloque) + '</li>';
       }).join('');
-      return '<div class="card"><strong>' + enlazarNormas(b.titulo, id, leyesBloque) + '</strong><ul>' +
+      return '<div class="card"><strong>' + enlazarNormas(b.titulo, contentId, leyesBloque) + '</strong><ul>' +
         puntosHtml +
-        '</ul>' + barraNormasApartado(leyesBloque, id) + '</div>';
+        '</ul>' + barraNormasApartado(leyesBloque, contentId) + '</div>';
     }).join('') + '</section>';
 
     var desarrolloHtml = '';
@@ -1874,10 +2159,10 @@
         c.desarrollo.map(function (s, i) {
           var leyesSec = [];
           var parrafosHtml = s.parrafos.map(function (par) {
-            return '<p>' + enlazarNormas(par, id, leyesSec) + '</p>';
+            return '<p>' + enlazarNormas(par, contentId, leyesSec) + '</p>';
           }).join('');
           return '<details class="card"' + (i === 0 ? ' open' : '') + '><summary><strong>' + esc(s.titulo) + '</strong></summary>' +
-            parrafosHtml + barraNormasApartado(leyesSec, id) +
+            parrafosHtml + barraNormasApartado(leyesSec, contentId) +
             '</details>';
         }).join('') + '</section>';
     }
@@ -1890,7 +2175,7 @@
         '<span>' + esc(ley.referencia) + '</span>' +
         '<span class="tema-meta">' + badgeVerificacion(ley) + '<span>' + esc(l.rol) + (l.articulos ? ' · ' + esc(l.articulos) : '') + '</span></span>' +
         '<span class="enlaces">' +
-        '<button type="button" class="btn-cita" data-ver-norma="' + esc(l.id) + '" data-ver-cita="' + esc(l.articulos || ley.referencia) + '" data-ver-tema="' + esc(id) + '">📖 Ver en la norma (visor y artículos)</button>' +
+        '<button type="button" class="btn-cita" data-ver-norma="' + esc(l.id) + '" data-ver-cita="' + esc(l.articulos || ley.referencia) + '" data-ver-tema="' + esc(contentId) + '">📖 Ver en la norma (visor y artículos)</button>' +
         (ley.url ? '<a href="' + esc(ley.url) + '" target="_blank" rel="noopener">Texto en BOE ↗</a>' : '') +
         (ley.pdf ? '<a href="' + esc(ley.pdf) + '" download>Descargar PDF</a>' : '') +
         '</span></div>';
@@ -1908,7 +2193,7 @@
     }
 
     // Fichas rápidas de plazos, cifras y parámetros técnicos de este tema
-    var fichasTema = extraerFichasTema(id);
+    var fichasTema = extraerFichasTema(contentId);
     var fichasHtml = '';
     if (fichasTema.length) {
       fichasHtml = '<section class="seccion"><details class="card">' +
@@ -1920,27 +2205,27 @@
         '<div class="ficha-grid">' +
         fichasTema.map(function (f) {
           return '<div class="ficha-item"><div class="tema-meta"><span class="pill">' + esc(f.etiqueta) + '</span><span>' + esc(f.apartado) + '</span></div>' +
-            '<div style="margin-top:4px">' + formatearTextoFicha(f.texto, id) + '</div></div>';
+            '<div style="margin-top:4px">' + formatearTextoFicha(f.texto, contentId) + '</div></div>';
         }).join('') +
         '</div></details></section>';
     }
 
     // Notas personales del opositor en este tema
-    var notaActual = leerNotas()[id] || '';
+    var notaActual = leerNotas()[contentId] || '';
     var notasPersonalesHtml = '<section class="seccion"><details class="card"' + (notaActual ? ' open' : '') + '>' +
       '<summary><strong>📝 Mis notas personales y reglas mnemotécnicas' + (notaActual ? ' (guardadas)' : '') + '</strong></summary>' +
       '<p class="sub" style="margin:6px 0 4px">Se guardan automáticamente en este navegador y se incluyen al exportar tu copia de seguridad:</p>' +
-      '<textarea class="notas-area" data-nota-tema="' + esc(id) + '" placeholder="Escribe aquí tus esquemas, plazos trampa de examen, recordatorios o reglas mnemotécnicas de ' + esc(etiquetaTema(t)) + '…">' + esc(notaActual) + '</textarea>' +
+      '<textarea class="notas-area" data-nota-tema="' + esc(contentId) + '" placeholder="Escribe aquí tus esquemas, plazos trampa de examen, recordatorios o reglas mnemotécnicas de ' + esc(etiquetaTema(t)) + '…">' + esc(notaActual) + '</textarea>' +
       '</details></section>';
 
-    var maxPreguntas = c.test.length;
+    var maxPreguntas = c.test ? c.test.length : 0;
     var resultado = p.ultimo != null
       ? '<p class="sub">Último test: ' + p.ultimo + '/' + maxPreguntas + ' · intentos: ' + (p.intentos || 0) + '</p>'
       : '';
 
-    var accion = '<div class="acciones" style="align-items:center"><button class="btn" type="button" data-test="' + esc(id) + '">Hacer test (' + maxPreguntas + ' preguntas)</button>' +
+    var accion = maxPreguntas > 0 ? ('<div class="acciones" style="align-items:center"><button class="btn" type="button" data-test="' + esc(id) + '">Hacer test (' + maxPreguntas + ' preguntas)</button>' +
       botonToggleNormasHtml('margin-left:0;padding:9px 14px;font-size:.88rem') +
-      '</div>' + resultado;
+      '</div>' + resultado) : '';
 
     return cabecera + resumen + desarrolloHtml + fichasHtml + notasPersonalesHtml + leyesHtml + fuentesHtml + accion;
   }
@@ -2068,11 +2353,11 @@
       '</div></div>' +
       '<div class="ficha-grid">' +
       todas.slice(0, 120).map(function (f) {
-        var t = temaPorId[f.temaId];
+        var t = buscarTemaEnCuerpo(f.temaId);
         return '<div class="card" style="margin-bottom:0">' +
           '<div class="tema-meta" style="justify-content:space-between">' +
           '<span><span class="pill ok">' + esc(f.etiqueta) + '</span> <strong>' + esc(etiquetaTema(t)) + '</strong> · ' + esc(f.apartado) + '</span>' +
-          '<button type="button" class="btn-cita" data-tema="' + esc(t.id) + '">Ir al tema →</button>' +
+          '<button type="button" class="btn-cita" data-tema="' + esc((t && t.id) || f.temaId) + '">Ir al tema →</button>' +
           '</div>' +
           '<div style="margin-top:6px">' + formatearTextoFicha(f.texto, f.temaId) + '</div>' +
           '</div>';
@@ -2084,22 +2369,22 @@
   // ---------- Biblioteca Normativa Interactiva (119 normas por materia) ----------
   function categoriaNorma(l) {
     var id = l.id;
-    var nom = normClave(l.nombre + ' ' + l.referencia);
-    if (/^(CE|EA-ANDALUCIA|LO-4-1981|TUE-TFUE|TLISBOA-2007|LGOB-AND-6-2006|LBRL)$/.test(id)) return 'constitucional';
-    if (/^(LPAC|LRJSP|LAJA|LJCA|LTBG|LOPDGDD|ENS-311-2022|DEC-AND-622-2019)$/.test(id)) return 'administrativo';
+    if (/^(CE|EA-ANDALUCIA|LO-4-1981|TUE-TFUE|TLISBOA-2007|LGOB-AND-6-2006|LBRL|LAULA-5-2010|LCCA-2-2024|LOREG-5-1985|LEA-1-1986|LOPP-6-2002|LOTC-2-1979|LOPJ-6-1985|LGOB-50-1997|LODP-3-1981|LDPA-9-1983|LCCA-1-1988|LOAFC-2-2021)$/.test(id)) return 'constitucional';
+    if (/^(LPAC|LRJSP|LAJA|LJCA|LTBG|LOPDGDD|ENS-311-2022|DEC-AND-622-2019|DEC-AND-317-2003|DEC-AND-204-1995|LDAPA-7-2011|LACC-16-2007|LPPCA-2-2017|LOSC-4-2015|LGEA-2-2002|LPLA-6-2023|CC-1889|LH-1946|LAU-29-1994)$/.test(id)) return 'administrativo';
     if (/^(LCSP|RGLCAP-1098-2001|RD-1359-2011|L-2-2015|RD-55-2017|L-3-2004)$/.test(id)) return 'contratacion';
-    if (/^(EBEP|LFP-ANDALUCIA|LO-3-2007|LIG-AND-12-2007|LO-1-2004|VG-AND-13-2007|LTPA)$/.test(id)) return 'funcion-publica';
-    if (/^(LGHPA|LGP-47-2003|LOEPSF-2-2012|LGS|RLGS-887-2006|DEC-AND-282-2010)$/.test(id)) return 'hacienda';
+    if (/^(EBEP|LFP-ANDALUCIA|VI-CONV-LAB-JA|LIPAP-53-1984|LINC-AND-3-2005|LO-3-2007|LIG-AND-12-2007|LO-1-2004|VG-AND-13-2007|LTPA|ET-2-2015|LGSS-8-2015|LOLS-11-1985|LRJS-36-2011|LISOS-5-2000|LITSS-23-2015|LSCA-14-2011)$/.test(id)) return 'funcion-publica';
+    if (/^(LGHPA|LGP-47-2003|LOEPSF-2-2012|LGS|RLGS-887-2006|DEC-AND-282-2010|LPAP-33-2003|LPCA-4-1986|LPCA-7-2025|LGT-58-2003|LOFCA-8-1980|LTCA-5-2021|LRHL-2-2004|DEC-AND-197-2021|DEC-AND-92-2022|ORD-AND-CONT-2015|ORD-AND-PGCF-2015)$/.test(id)) return 'hacienda';
     if (/^(LISTA-7-2021|DEC-AND-550-2022|TRLS-7-2015|DEC-AND-60-2010|RD-2568-1986)$/.test(id)) return 'urbanismo';
     if (/^(LOE|CTE|DB-|RD-470-2021|DEC-AND-67-2011|RD-410-2010|CEE-390-2021)/.test(id)) return 'edificacion-cte';
     if (/^(DEC-AND-293-2009|TMA-851-2021|RD-505-2007|LAND-4-2017|LGDPD-1-2013|LVA-5-2025|DEC-AND-149-2006|DEC-AND-91-2020|DEC-AND-1-2012|DEC-AND-161-2018|ORD-AND-21-07-2008|LPH-49-1960)$/.test(id)) return 'accesibilidad-vivienda';
-    if (/^(LPRL|RD-1627-1997|RD-486-1997|RD-39-1997|RD-485-1997|RD-773-1997|RD-1215-1997|RD-171-2004|RD-396-2006|L-32-2006|RD-1109-2007|RITE|RD-842-2002|RD-346-2011|RD-919-2006|RD-355-2024|RD-513-2017|RD-164-2025|RDL-1-1998)$/.test(id)) return 'seguridad-instalaciones';
+    if (/^(LPRL|RD-1627-1997|RD-486-1997|RD-39-1997|RD-485-1997|RD-773-1997|RD-1215-1997|RD-171-2004|RD-396-2006|RD-847-2026|L-32-2006|RD-1109-2007|RITE|RD-842-2002|RD-346-2011|RD-919-2006|RD-355-2024|RD-513-2017|RD-164-2025|RDL-1-1998)$/.test(id)) return 'seguridad-instalaciones';
     if (/^(LEF|REF-1957|TRLCAT-1-2004|ECO-805-2003|RD-1020-1993|RD-1464-2007|RD-1492-2011)$/.test(id)) return 'expropiacion-valoraciones';
     return 'patrimonio-medioambiente';
   }
 
   var NOMBRES_CAT_NORMA = {
     'todas': 'Todas las normas (' + Object.keys(D.leyes).length + ')',
+    'derogadas': '⚠️ Auditoría de vigencia: derogadas / sustituidas / en transición',
     'constitucional': '🏛️ Constitucional, UE y Autonómico',
     'administrativo': '📋 Procedimiento y Régimen Jurídico',
     'contratacion': '📑 Contratación Pública (LCSP)',
@@ -2116,10 +2401,14 @@
   function vistaNormativaGlobal() {
     var ids = Object.keys(D.leyes).filter(function (id) {
       var l = D.leyes[id];
-      if (estadoNormativa.categoria !== 'todas' && categoriaNorma(l) !== estadoNormativa.categoria) return false;
+      if (estadoNormativa.categoria === 'derogadas') {
+        if (!l.estado_vigencia || l.estado_vigencia === 'vigente') return false;
+      } else if (estadoNormativa.categoria !== 'todas' && categoriaNorma(l) !== estadoNormativa.categoria) {
+        return false;
+      }
       if (estadoNormativa.busqueda) {
         var q = normClave(estadoNormativa.busqueda);
-        if (normClave(l.id + ' ' + l.nombre + ' ' + l.referencia).indexOf(q) === -1) return false;
+        if (normClave(l.id + ' ' + l.nombre + ' ' + l.referencia + ' ' + (l.notas || '')).indexOf(q) === -1) return false;
       }
       return true;
     });
@@ -2127,6 +2416,14 @@
     return volverInicio() +
       '<h2 class="tituloTema">📚 Biblioteca Normativa Interactiva (' + Object.keys(D.leyes).length + ' normas oficiales)</h2>' +
       '<p class="sub">Todas las leyes, reales decretos, decretos autonómicos, órdenes y Documentos Básicos del CTE descargados en el repositorio. Pulsa «📖 Abrir articulado y PDF» para leer sus artículos o «📝 Hacer test de esta norma» para practicar solo preguntas de esa ley.</p>' +
+      '<div class="card" style="border-left:4px solid var(--accent)">' +
+      '<div class="tema-meta" style="justify-content:space-between;align-items:center">' +
+      '<div><strong>🔍 Auditoría de Vigencia Normativa (BOE / BOJA · Noviembre 2026)</strong> · <span class="pill ok">160 vigentes</span> <span class="pill bad">9 derogadas con su sustituta</span> <span class="pill warn">5 en vacatio / vigencia parcial</span></div>' +
+      '<div style="display:flex;gap:6px;flex-wrap:wrap">' +
+      '<a class="btn-cita" href="INFORME_AUDITORIA_NORMATIVA_DEROGADA.md" target="_blank" rel="noopener" download="INFORME_AUDITORIA_NORMATIVA_DEROGADA.md">📄 Descargar Informe de Conclusiones (.md)</a>' +
+      '</div></div>' +
+      '<p class="sub" style="margin:6px 0 0">Incluye las sustituciones recientes de 2025–2026: <strong>Ley 2/2026 LEGAM</strong> (deroga la Ley 7/2007 GICA desde el 20/06/2026), <strong>Ley 7/2025 de Patrimonio de Andalucía</strong> (deroga la Ley 4/1986 desde el 20/01/2026), <strong>RD 847/2026 de Amianto</strong> (deroga el RD 396/2006 desde el 24/10/2026), <strong>Decreto 50/2025 de Calidad Acústica</strong> (deroga el Decreto 6/2012) y <strong>Ley 4/2026 de Patrimonio Cultural</strong> (sustituye a la Ley 14/2007 desde el 07/04/2027).</p>' +
+      '</div>' +
       '<div class="card">' +
       '<div class="modal-buscador">' +
       '<select class="sel" data-norma-cat="1" style="flex:1;min-width:240px">' +
@@ -2146,7 +2443,7 @@
           '<span>' + esc(l.referencia) + '</span>' +
           (rels.length ? '<div class="normas-apartado" style="margin-top:6px"><span class="etiqueta">Se estudia en (' + rels.length + ' temas):</span>' +
             rels.map(function (r) {
-              var t = temaPorId[r.temaId];
+              var t = buscarTemaEnCuerpo(r.temaId);
               return t ? '<button type="button" class="btn-cita" data-tema="' + esc(t.id) + '">' + esc(etiquetaTema(t)) + '</button>' : '';
             }).join('') + '</div>' : '') +
           '<div class="enlaces" style="margin-top:8px;align-items:center">' +
@@ -2225,24 +2522,30 @@
 
   function vistaTest() {
     var e = estadoTest;
-    var t = temaPorId[e.id];
-    var c = D.contenido[e.id];
-    if (!c) return '<p>Este tema no tiene test.</p>';
+    var corp = cuerpoActual();
+    var t = buscarTemaEnCuerpo(e.id);
+    var contentId = (t && t.id) || e.id;
+    var c = D.contenido[contentId];
+    if (!c || !c.test || !c.test.length) {
+      return '<p>Este tema no tiene test disponible todavía.</p><button class="btn sec" type="button" data-ir="#/tema/' + esc(e.id) + '">Volver al tema</button>';
+    }
+
+    var etiqueta = t ? etiquetaTema(t) : ('Tema ' + e.id);
 
     if (e.i >= c.test.length) {
       var fallos = e.respuestas.map(function (r, i) { return { r: r, q: c.test[i], i: i }; })
         .filter(function (x) { return !x.r.acierto; });
-      return '<button class="volver" type="button" data-ir="#/tema/' + esc(e.id) + '">← Volver al tema</button>' +
-        '<h2 class="tituloTema">Resultado · ' + esc(etiquetaTema(t)) + '</h2>' +
+      return '<button class="volver" type="button" data-ir="#/tema/' + esc(e.id) + '">← Volver al ' + esc(etiqueta) + '</button>' +
+        '<h2 class="tituloTema">Resultado · ' + esc(etiqueta) + ' (' + esc(corp.codigo) + ')</h2>' +
         '<div class="resultado" aria-live="polite">' + e.aciertos + ' / ' + c.test.length + '</div>' +
         '<p class="sub">' + (e.aciertos >= 8 ? 'Muy buen resultado.' : e.aciertos >= 5 ? 'Vas bien; repasa los fallos.' : 'Conviene repasar el resumen antes de otro intento.') + '</p>' +
         (fallos.length ? '<section class="seccion"><h3>Preguntas falladas (guardadas automáticamente en tu banco de repaso)</h3>' + fallos.map(function (x) {
-          var dud = esPreguntaDudosa(x.q, e.id);
+          var dud = esPreguntaDudosa(x.q, contentId);
           return '<div class="fallo"><div class="tema-meta" style="justify-content:space-between"><strong>' + esc(x.q.pregunta) + '</strong>' +
             '<button type="button" class="btn-dudosa' + (dud ? ' activa' : '') + '" data-dudosa-test="' + x.i + '">' + (dud ? '★ Dudosa' : '☆ Marcar dudosa') + '</button></div>' +
             '<p class="sub">Correcta: ' + esc(x.q.opciones[x.q.correcta]) + '</p>' +
-            '<p>' + enlazarNormas(x.q.explicacion, e.id) + '</p>' +
-            '<p class="sub">Ref.: ' + enlazarNormas(x.q.referencia, e.id) + '</p></div>';
+            '<p>' + enlazarNormas(x.q.explicacion, contentId) + '</p>' +
+            '<p class="sub">Ref.: ' + enlazarNormas(x.q.referencia, contentId) + '</p></div>';
         }).join('') + '</section>' : '<p>Sin fallos. ¡Perfecto!</p>') +
         '<div class="acciones"><button class="btn" type="button" data-test="' + esc(e.id) + '">Repetir test</button>' +
         '<button class="btn sec" type="button" data-ir="#/tema/' + esc(e.id) + '">Volver al tema</button></div>';
@@ -2250,7 +2553,7 @@
 
     var q = c.test[e.i];
     var contestada = e.seleccion !== null;
-    var dudosaActual = esPreguntaDudosa(q, e.id);
+    var dudosaActual = esPreguntaDudosa(q, contentId);
     var opciones = q.opciones.map(function (o, k) {
       var clase = 'opcion';
       if (contestada) {
@@ -2265,14 +2568,14 @@
     if (contestada) {
       var acierto = e.seleccion === q.correcta;
       feedback = '<div class="feedback" aria-live="polite"><strong>' + (acierto ? '✓ Correcto' : '✗ Incorrecto (añadida a tu banco de preguntas falladas)') + '</strong>' +
-        enlazarNormas(q.explicacion, e.id) + '<div class="ref">Ref.: ' + enlazarNormas(q.referencia, e.id) + '</div></div>' +
+        enlazarNormas(q.explicacion, contentId) + '<div class="ref">Ref.: ' + enlazarNormas(q.referencia, contentId) + '</div></div>' +
         '<div class="acciones"><button class="btn" type="button" data-siguiente="1">' +
         (e.i + 1 < c.test.length ? 'Siguiente' : 'Ver resultado') + '</button></div>';
     }
 
     var pct = (e.i / c.test.length * 100).toFixed(0);
     return '<button class="volver" type="button" data-ir="#/tema/' + esc(e.id) + '">← Salir del test</button>' +
-      '<div class="tema-meta" style="justify-content:space-between"><div><strong>Test · ' + esc(etiquetaTema(t)) + '</strong> <span>Pregunta ' + (e.i + 1) + ' de ' + c.test.length + '</span></div>' +
+      '<div class="tema-meta" style="justify-content:space-between"><div><strong>Test · ' + esc(etiqueta) + ' (' + esc(corp.codigo) + ')</strong> <span>Pregunta ' + (e.i + 1) + ' de ' + c.test.length + '</span></div>' +
       '<button type="button" class="btn-dudosa' + (dudosaActual ? ' activa' : '') + '" data-dudosa-actual="1">' + (dudosaActual ? '★ Marcada como dudosa' : '☆ Marcar como dudosa') + '</button></div>' +
       '<div class="bar" style="margin:8px 0 16px"><span style="width:' + pct + '%"></span></div>' +
       '<p class="pregunta">' + esc(q.pregunta) + '</p>' +
@@ -2285,33 +2588,44 @@
   }
 
   function responder(k) {
-    var c = D.contenido[estadoTest.id];
+    var t = buscarTemaEnCuerpo(estadoTest.id);
+    var contentId = (t && t.id) || estadoTest.id;
+    var c = D.contenido[contentId];
+    if (!c || !c.test) return;
     if (estadoTest.seleccion !== null) return;
     var q = c.test[estadoTest.i];
     estadoTest.seleccion = k;
     var acierto = k === q.correcta;
     if (acierto) estadoTest.aciertos++;
-    registrarFalloOAciertoRepaso(q, estadoTest.id, acierto);
+    registrarFalloOAciertoRepaso(q, contentId, acierto);
     estadoTest.respuestas.push({ acierto: acierto, seleccion: k });
     render();
   }
 
   function guardarResultadoTest() {
     var prog = leerProgreso();
-    var previo = prog[estadoTest.id] || {};
-    prog[estadoTest.id] = {
+    var t = buscarTemaEnCuerpo(estadoTest.id);
+    var contentId = (t && t.id) || estadoTest.id;
+    var rk = t ? claveRutaTema(t) : contentId;
+    var previo = prog[rk] || prog[contentId] || {};
+    var reg = {
       visto: true,
       ultimo: estadoTest.aciertos,
       mejor: Math.max(previo.mejor || 0, estadoTest.aciertos),
       intentos: (previo.intentos || 0) + 1
     };
+    prog[rk] = reg;
+    prog[contentId] = reg;
     guardarProgreso(prog);
   }
 
   function siguiente() {
+    var t = buscarTemaEnCuerpo(estadoTest.id);
+    var contentId = (t && t.id) || estadoTest.id;
+    var c = D.contenido[contentId];
     estadoTest.i++;
     estadoTest.seleccion = null;
-    if (estadoTest.i >= D.contenido[estadoTest.id].test.length) guardarResultadoTest();
+    if (c && c.test && estadoTest.i >= c.test.length) guardarResultadoTest();
     render();
   }
 
@@ -2321,6 +2635,434 @@
     } else {
       render();
     }
+  }
+
+  // ---------- Supuestos Prácticos Oficiales IAAP (2018–2025) ----------
+  var estadoPracticos = {
+    filtroTurno: 'todos',
+    mostrarTodosCuerpos: false,
+    modoVista: 'interactivo', // 'interactivo' | 'resuelto'
+    mostrarPasos: true,
+    explicacionesAbiertas: {}, // { [supuestoId]: { [idxPregunta]: true } }
+    respuestas: leerPracticosRespuestas() // { [supuestoId]: { [idxPregunta]: indiceOpcion } }
+  };
+
+  function formatearInlineEnlazado(html) {
+    var btns = [];
+    var safe = String(html || '').replace(/<button\b[^>]*>/gi, function (tag) {
+      btns.push(tag);
+      return '\uE000' + (btns.length - 1) + '\uE001';
+    });
+    safe = safe
+      .replace(/\*\*((?:[^*\n]|\*(?!\*))+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/`([^`\n]+?)`/g, '<code style="background:var(--surface-2);padding:1px 5px;border-radius:4px;font-size:.89em">$1</code>');
+    return safe.replace(/\uE000(\d+)\uE001/g, function (_, idx) {
+      return btns[Number(idx)] || '';
+    });
+  }
+
+  function renderParrafosEnlazados(texto, temaRef, leyesOut) {
+    var lineas = String(texto == null ? '' : texto).split(/\n+/).map(function (l) {
+      return l.trim();
+    }).filter(Boolean);
+    if (!lineas.length) return '';
+    return lineas.map(function (linea, idxLin) {
+      var mEtiq = linea.match(/^(Regla aplicada:|Cálculo\s*\/\s*Análisis:|Cálculo:|Análisis:|Por qué no las demás:|NOTA DE ACTUALIZACIÓN NORMATIVA:|Nota:|PREGUNTA ANULADA[^:\n]*:|RESERVA COMPUTADA[^:\n]*:)\s*(.*)$/);
+      var estilo = 'margin:' + (idxLin === 0 ? '4px' : '6px') + ' 0 0;line-height:1.6';
+      if (mEtiq) {
+        var esAlerta = /^(PREGUNTA ANULADA|NOTA DE ACTUALIZACIÓN)/i.test(mEtiq[1]);
+        var esReserva = /^RESERVA COMPUTADA/i.test(mEtiq[1]);
+        var prefHtml = '<strong' + (esAlerta ? ' style="color:var(--bad)"' : (esReserva ? ' style="color:var(--ok)"' : '')) + '>' + esc(mEtiq[1]) + '</strong> ';
+        var cuerpoHtml = mEtiq[2] ? formatearInlineEnlazado(enlazarNormas(mEtiq[2], temaRef, leyesOut)) : '';
+        return '<p style="' + estilo + '">' + prefHtml + cuerpoHtml + '</p>';
+      }
+      var mBullet = linea.match(/^([•\-]\s+)(.*)$/);
+      if (mBullet) {
+        return '<p style="margin:4px 0 0 10px;line-height:1.58"><strong>•</strong> ' + formatearInlineEnlazado(enlazarNormas(mBullet[2], temaRef, leyesOut)) + '</p>';
+      }
+      return '<p style="' + estilo + '">' + formatearInlineEnlazado(enlazarNormas(linea, temaRef, leyesOut)) + '</p>';
+    }).join('');
+  }
+
+  function limpiarPrefijoOpcion(op) {
+    return String(op == null ? '' : op).replace(/^[A-D]\s*\)\s*/i, '');
+  }
+
+  function supuestosDeCuerpo(cid) {
+    return (D.supuestosPracticos && D.supuestosPracticos[cid]) || [];
+  }
+
+  function buscarSupuestoPorId(supId) {
+    var mapa = D.supuestosPracticos || {};
+    var cids = Object.keys(mapa);
+    for (var i = 0; i < cids.length; i++) {
+      var lista = mapa[cids[i]] || [];
+      for (var j = 0; j < lista.length; j++) {
+        if (lista[j].id === supId) {
+          return { supuesto: lista[j], cuerpoId: cids[i] };
+        }
+      }
+    }
+    return null;
+  }
+
+  function renderTarjetaSupuesto(sp, corpObj) {
+    var cid = (corpObj && corpObj.id) || sp.cuerpoId || cuerpoActivoId;
+    var esLibre = sp.acceso === 'Acceso Libre';
+    var badgeTurno = esLibre
+      ? '<span class="pill ok">🟢 Acceso Libre</span>'
+      : '<span class="pill warn">🟣 Promoción Interna</span>';
+    var resps = estadoPracticos.respuestas[sp.id] || {};
+    var totalPregs = (sp.preguntas || []).length;
+    var contestadas = Object.keys(resps).length;
+    var aciertos = 0;
+    (sp.preguntas || []).forEach(function (q, idx) {
+      if (resps[idx] !== undefined && resps[idx] === q.correcta) aciertos++;
+    });
+    var badgeProgreso = contestadas
+      ? '<span class="pill done">✓ ' + aciertos + '/' + totalPregs + ' acertadas</span>'
+      : '<span class="pill">📝 ' + totalPregs + ' preguntas prácticas</span>';
+
+    var botonesTemas = (sp.temasRelacionados || []).map(function (tid) {
+      var t = buscarTemaEnCuerpo(tid, cid);
+      var et = t ? etiquetaTema(t, corpObj) : tid.toUpperCase();
+      var attrCuerpo = cid !== cuerpoActivoId ? (' data-cuerpo-tema="' + esc(cid) + '"') : '';
+      return '<button type="button" class="btn-cita" data-tema="' + esc(tid) + '"' + attrCuerpo + '>' + esc(et) + '</button>';
+    }).join('');
+
+    var materiasHtml = (sp.materias && sp.materias.length)
+      ? '<div style="display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 8px">' +
+        sp.materias.slice(0, 4).map(function (mat) {
+          return '<span class="pill">' + esc(mat) + '</span>';
+        }).join('') + '</div>'
+      : '';
+
+    var pdfBotones = '';
+    if (sp.pdfCuestionario || sp.pdfPlantillaProv || sp.pdfAcuerdoDef) {
+      pdfBotones = '<div style="display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 10px">' +
+        (sp.pdfCuestionario ? '<a class="btn-cita" href="' + esc(sp.pdfCuestionario) + '" download style="text-decoration:none">📄 Cuestionario Oficial PDF</a>' : '') +
+        (sp.pdfPlantillaProv ? '<a class="btn-cita" href="' + esc(sp.pdfPlantillaProv) + '" download style="text-decoration:none">📝 Plantilla Provisional PDF</a>' : '') +
+        (sp.pdfAcuerdoDef ? '<a class="btn-cita" href="' + esc(sp.pdfAcuerdoDef) + '" download style="text-decoration:none">🏛️ Acuerdo Plantilla Definitiva PDF</a>' : '') +
+        '</div>';
+    }
+
+    var badgeOficial = sp.esOficialIaap
+      ? '<span class="pill" style="background:#0e7490;color:#fff;font-weight:600">🏛️ Examen Oficial IAAP (Portal Empleo Público)</span>'
+      : '';
+    var badgeTresOpc = sp.numOpciones === 3
+      ? '<span class="pill">3 opciones (A/B/C)</span>'
+      : '';
+
+    return '<div class="card" style="border-left:4px solid var(--accent)">' +
+      '<div class="tema-meta" style="justify-content:space-between">' +
+      '<div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center">' +
+      '<span class="pill"><strong>' + esc(corpObj ? corpObj.codigo : sp.cuerpo) + '</strong></span>' +
+      badgeTurno +
+      badgeOficial +
+      badgeTresOpc +
+      '<span class="pill done">📅 ' + esc(sp.fechaTexto) + '</span>' +
+      '<span class="pill">' + esc(sp.oep) + '</span>' +
+      badgeProgreso +
+      '</div>' +
+      '<span class="sub" style="margin:0;font-size:.78rem">' + esc(sp.boja || '') + '</span>' +
+      '</div>' +
+      '<h3 style="margin:8px 0 6px;font-size:1.05rem">' + esc(sp.titulo) + '</h3>' +
+      '<p style="margin:0 0 8px;font-size:.93rem;color:var(--muted)">' + esc(recortar(sp.enunciadoCaso, 290)) + '</p>' +
+      materiasHtml +
+      pdfBotones +
+      (botonesTemas ? '<div class="normas-apartado" style="margin:6px 0 10px"><span class="etiqueta">Temas del programa aplicados:</span>' + botonesTemas + '</div>' : '') +
+      '<div class="acciones" style="margin-top:8px">' +
+      '<button type="button" class="btn" data-abrir-practico="' + esc(sp.id) + '" data-modo-practico="interactivo">🧮 Resolver supuesto y test práctico (' + totalPregs + ' preguntas)</button>' +
+      '<button type="button" class="btn sec" data-abrir-practico="' + esc(sp.id) + '" data-modo-practico="resuelto">📐 Ver resolución paso a paso y explicación (' + (sp.pasosResolucion || []).length + ' pasos)</button>' +
+      '</div>' +
+      '</div>';
+  }
+
+  function vistaSupuestosPracticos() {
+    var c = cuerpoActual();
+    var listaCuerpo = supuestosDeCuerpo(c.id);
+    var nLibre = listaCuerpo.filter(function (s) { return s.acceso === 'Acceso Libre'; }).length;
+    var nPI = listaCuerpo.filter(function (s) { return s.acceso === 'Promoción Interna'; }).length;
+
+    var filtrados = listaCuerpo.filter(function (s) {
+      if (estadoPracticos.filtroTurno === 'libre') return s.acceso === 'Acceso Libre';
+      if (estadoPracticos.filtroTurno === 'pi') return s.acceso === 'Promoción Interna';
+      return true;
+    });
+
+    var totalTodosCuerpos = 0;
+    Object.keys(D.supuestosPracticos || {}).forEach(function (k) {
+      totalTodosCuerpos += (D.supuestosPracticos[k] || []).length;
+    });
+
+    var html = volverInicio() +
+      '<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">' +
+      '<h2 class="tituloTema" style="margin:0">🧮 Supuestos Prácticos Oficiales Resueltos (2018–2025) · ' + esc(c.nombreCorto) + '</h2>' +
+      '<span class="pill done">Cuerpo ' + esc(c.codigo) + ' · ' + listaCuerpo.length + ' supuestos completos</span>' +
+      '</div>' +
+      '<p class="sub" style="margin:6px 0 14px">Casos prácticos oficiales de las convocatorias celebradas (2018–2025, Acceso Libre, Estabilización y Promoción Interna). Cada supuesto incluye el <strong>planteamiento completo del caso</strong>, la <strong>resolución técnica y jurídica paso a paso</strong> y el <strong>cuestionario práctico resuelto y explicado</strong> con plantilla definitiva IAAP, enlaces al articulado y PDF oficial.</p>' +
+      '<div class="card" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px">' +
+      '<div style="display:flex;gap:6px;flex-wrap:wrap">' +
+      '<button type="button" class="tab" data-practico-turno="todos" aria-pressed="' + (estadoPracticos.filtroTurno === 'todos') + '">Todos (' + listaCuerpo.length + ')</button>' +
+      '<button type="button" class="tab" data-practico-turno="libre" aria-pressed="' + (estadoPracticos.filtroTurno === 'libre') + '">🟢 Acceso Libre (' + nLibre + ')</button>' +
+      '<button type="button" class="tab" data-practico-turno="pi" aria-pressed="' + (estadoPracticos.filtroTurno === 'pi') + '">🟣 Promoción Interna (' + nPI + ')</button>' +
+      '</div>' +
+      '<button type="button" class="btn sec" data-toggle-todos-cuerpos="1">' +
+      (estadoPracticos.mostrarTodosCuerpos ? 'Ver solo ' + esc(c.codigo) + ' (' + listaCuerpo.length + ')' : '📚 Ver los ' + totalTodosCuerpos + ' supuestos de las 6 oposiciones') +
+      '</button>' +
+      '</div>';
+
+    if (!estadoPracticos.mostrarTodosCuerpos) {
+      html += filtrados.map(function (sp) { return renderTarjetaSupuesto(sp, c); }).join('');
+    } else {
+      var ordenCuerpos = ['a2-2001', 'a1-2001', 'a1-1100', 'a2-1100', 'c1-1100', 'c2-1100'];
+      ordenCuerpos.forEach(function (cid) {
+        var corpObj = (D.cuerpos && D.cuerpos[cid]) || { id: cid, codigo: cid.toUpperCase(), nombreCorto: cid };
+        var sps = supuestosDeCuerpo(cid).filter(function (s) {
+          if (estadoPracticos.filtroTurno === 'libre') return s.acceso === 'Acceso Libre';
+          if (estadoPracticos.filtroTurno === 'pi') return s.acceso === 'Promoción Interna';
+          return true;
+        });
+        if (!sps.length) return;
+        html += '<section class="seccion"><h3>' + esc(corpObj.nombreCorto) + ' (' + esc(corpObj.codigo) + ') · ' + sps.length + ' supuestos</h3>' +
+          sps.map(function (sp) { return renderTarjetaSupuesto(sp, corpObj); }).join('') +
+          '</section>';
+      });
+    }
+
+    return html;
+  }
+
+  function vistaDetalleSupuestoPractico(supId) {
+    var hallado = buscarSupuestoPorId(supId);
+    if (!hallado) {
+      return '<button class="volver" type="button" data-ir="#/practicos">← Volver a Supuestos Prácticos</button>' +
+        '<div class="card"><p>No se ha encontrado el supuesto práctico solicitado.</p></div>';
+    }
+    var sp = hallado.supuesto;
+    var corpObj = (D.cuerpos && D.cuerpos[hallado.cuerpoId]) || cuerpoActual();
+    var temaRef = (sp.temasRelacionados && sp.temasRelacionados[0]) || 'c01';
+    var esLibre = sp.acceso === 'Acceso Libre';
+    var badgeTurno = esLibre
+      ? '<span class="pill ok">🟢 Acceso Libre</span>'
+      : '<span class="pill warn">🟣 Promoción Interna</span>';
+
+    var resps = estadoPracticos.respuestas[sp.id] || {};
+    var pregs = sp.preguntas || [];
+    var contestadas = Object.keys(resps).length;
+    var aciertos = 0;
+    var fallos = 0;
+    pregs.forEach(function (q, idx) {
+      if (resps[idx] !== undefined) {
+        if (resps[idx] === q.correcta) aciertos++;
+        else fallos++;
+      }
+    });
+    var modoResuelto = estadoPracticos.modoVista === 'resuelto';
+
+    var leyesCitadasEnunciado = [];
+    var enunciadoHtml = '';
+    if (Array.isArray(sp.enunciadoCaso)) {
+      enunciadoHtml = sp.enunciadoCaso.map(function (par, idxPar) {
+        var textoPar = String(par || '').trim();
+        if (!textoPar) return '';
+        var esCabecera = /^(PLANTEAMIENTO|SUPUESTO\s+(?:N[º°]\s*\d+|PR[ÁA]CTICO))/i.test(textoPar);
+        return '<p style="margin:' + (idxPar === 0 ? '10px' : '8px') + ' 0 0;line-height:1.65;font-size:.98rem;' +
+          (esCabecera ? 'font-weight:700;color:var(--accent)' : '') + '">' +
+          enlazarNormas(textoPar, temaRef, leyesCitadasEnunciado) + '</p>';
+      }).join('');
+    } else {
+      enunciadoHtml = '<p style="margin:10px 0 0;line-height:1.65;font-size:.98rem">' +
+        enlazarNormas(sp.enunciadoCaso || '', temaRef, leyesCitadasEnunciado) + '</p>';
+    }
+
+    var botonesTemas = (sp.temasRelacionados || []).map(function (tid) {
+      var t = buscarTemaEnCuerpo(tid, corpObj.id);
+      var et = t ? (etiquetaTema(t, corpObj) + ' · ' + recortar(t.titulo, 55)) : tid.toUpperCase();
+      var attrCuerpo = corpObj.id !== cuerpoActivoId ? (' data-cuerpo-tema="' + esc(corpObj.id) + '"') : '';
+      return '<button type="button" class="btn-cita" data-tema="' + esc(tid) + '"' + attrCuerpo + '>📘 ' + esc(et) + '</button>';
+    }).join('');
+
+    var materiasDetalleHtml = (sp.materias && sp.materias.length)
+      ? '<div style="display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 12px">' +
+        sp.materias.map(function (mat) { return '<span class="pill">' + esc(mat) + '</span>'; }).join('') +
+        '</div>'
+      : '';
+
+    var pasosHtml = '';
+    if (modoResuelto || estadoPracticos.mostrarPasos) {
+      pasosHtml = '<section class="seccion" id="resolucion-paso-a-paso">' +
+        '<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:8px">' +
+        '<h3 style="margin:0">📐 Resolución Técnica y Jurídica Explicada Paso a Paso</h3>' +
+        '<span class="pill ok">Fundamentación Oficial Verificada</span>' +
+        '</div>' +
+        (sp.pasosResolucion || []).map(function (paso, idx) {
+          var leyesPaso = [];
+          var esObj = paso && typeof paso === 'object';
+          var tituloPaso = esObj ? (paso.titulo || ('Paso ' + (idx + 1))) : ('Paso ' + (idx + 1));
+          var cuerpoPaso = esObj ? (paso.analisis || paso.desarrollo || '') : String(paso || '');
+          var txtPaso = renderParrafosEnlazados(cuerpoPaso, temaRef, leyesPaso);
+          return '<div class="card" style="border-left:4px solid var(--ok)">' +
+            '<div class="tema-meta"><span class="pill done">Paso ' + (idx + 1) + ' de ' + sp.pasosResolucion.length + '</span>' +
+            '<strong>' + esc(tituloPaso) + '</strong></div>' +
+            '<div style="margin-top:6px">' + txtPaso + '</div>' +
+            barraNormasApartado(leyesPaso, temaRef) +
+            '</div>';
+        }).join('') +
+        '</section>';
+    }
+
+    var expAbiertasSup = estadoPracticos.explicacionesAbiertas[sp.id] || {};
+    var supuestoAnterior = null;
+    var preguntasHtml = pregs.map(function (q, idx) {
+      var respUsuario = resps[idx];
+      var contestada = respUsuario !== undefined;
+      var mostrarSolucion = modoResuelto || contestada;
+      var expAbierta = !!expAbiertasSup[idx];
+      var mostrarExplicacion = mostrarSolucion || expAbierta;
+      var temaPreg = q.tema || temaRef;
+      var qParaRepaso = {
+        enunciado: '[' + sp.titulo + '] ' + q.enunciado,
+        opciones: (q.opciones || []).map(limpiarPrefijoOpcion),
+        correcta: q.correcta,
+        explicacion: q.explicacion,
+        referencia: q.referencia,
+        tema: temaPreg,
+        origen: 'revisada'
+      };
+      var dudosa = esPreguntaDudosa(qParaRepaso, temaPreg);
+
+      var divisorSubcaso = '';
+      if (q.supuestoTitulo && q.supuestoTitulo !== supuestoAnterior) {
+        supuestoAnterior = q.supuestoTitulo;
+        divisorSubcaso = '<div class="card" style="margin:18px 0 10px;padding:10px 14px;background:var(--accent-soft);border-left:4px solid var(--accent)">' +
+          '<div class="tema-meta" style="margin:0"><span class="pill" style="background:var(--accent);color:#fff">📑 Bloque / Supuesto</span>' +
+          '<strong style="font-size:1rem">' + esc(q.supuestoTitulo) + '</strong></div></div>';
+      }
+
+      var opcionesHtml = (q.opciones || []).map(function (op, k) {
+        var cl = 'opcion';
+        if (mostrarSolucion) {
+          if (k === q.correcta) cl += ' correcta';
+          else if (contestada && k === respUsuario) cl += ' incorrecta';
+        }
+        return '<button class="' + cl + '" type="button" data-resp-practico="' + esc(sp.id) + '" data-preg-idx="' + idx + '" data-op-idx="' + k + '"' + (contestada ? ' disabled' : '') + '>' +
+          '<strong>' + String.fromCharCode(65 + k) + ')</strong> ' + esc(limpiarPrefijoOpcion(op)) + '</button>';
+      }).join('');
+
+      var toggleExpBtn = '';
+      if (!modoResuelto && !contestada) {
+        toggleExpBtn = '<div style="margin-top:8px"><button type="button" class="btn sec" data-toggle-exp-practico="' + esc(sp.id) + '" data-preg-idx="' + idx + '" style="font-size:.86rem;padding:6px 12px">' +
+          (expAbierta ? '🙈 Ocultar explicación' : '💡 Ver explicación') + '</button></div>';
+      }
+
+      var leyesExp = [];
+      var expHtml = '';
+      if (mostrarExplicacion) {
+        var estadoResp = !mostrarSolucion
+          ? '<span class="pill done">💡 Explicación guiada · Opción correcta: ' + String.fromCharCode(65 + q.correcta) + '</span>'
+          : (!contestada
+            ? '<span class="pill ok">✓ Respuesta oficial correcta: ' + String.fromCharCode(65 + q.correcta) + '</span>'
+            : (respUsuario === q.correcta
+              ? '<span class="pill ok">✓ ¡Correcto! Has marcado la opción ' + String.fromCharCode(65 + q.correcta) + '</span>'
+              : '<span class="pill bad">✗ Incorrecto (marcaste ' + String.fromCharCode(65 + respUsuario) + '; la correcta es la ' + String.fromCharCode(65 + q.correcta) + ')</span>'));
+
+        expHtml = '<div class="feedback" style="margin-top:10px" aria-live="polite">' +
+          '<div style="margin-bottom:6px">' + estadoResp + '</div>' +
+          '<div style="margin:6px 0">' + renderParrafosEnlazados(q.explicacion, temaPreg, leyesExp) + '</div>' +
+          (q.referencia ? '<div class="ref"><strong>Normativa aplicable:</strong> ' + enlazarNormas(q.referencia, temaPreg, leyesExp) + '</div>' : '') +
+          barraNormasApartado(leyesExp, temaPreg) +
+          '</div>';
+      }
+
+      var badgesPreg = '<span class="pill">Cuestión Práctica ' + (idx + 1) + ' de ' + pregs.length + '</span> ';
+      if (q.num) badgesPreg += '<span class="pill">N.º ' + esc(q.num) + ' oficial</span> ';
+      if (q.supuestoTitulo) badgesPreg += '<span class="pill done">' + esc(q.supuestoTitulo) + '</span> ';
+      if (q.anulada) badgesPreg += '<span class="pill bad">⚠️ Anulada en Plantilla Definitiva</span> ';
+
+      return divisorSubcaso + '<div class="card" id="preg-practica-' + idx + '">' +
+        '<div class="tema-meta" style="justify-content:space-between">' +
+        '<div>' + badgesPreg +
+        '<span class="sub" style="margin:0">' + esc(sp.oep) + ' · ' + esc(sp.fechaTexto) + '</span></div>' +
+        '<button type="button" class="btn-dudosa' + (dudosa ? ' activa' : '') + '" data-dudosa-practico="' + esc(sp.id) + '" data-preg-idx="' + idx + '">' +
+        (dudosa ? '★ Dudosa' : '☆ Marcar dudosa') + '</button>' +
+        '</div>' +
+        '<p class="pregunta" style="margin:10px 0">' + enlazarNormas(q.enunciado, temaPreg) + '</p>' +
+        '<div class="opciones">' + opcionesHtml + '</div>' +
+        toggleExpBtn +
+        expHtml +
+        '</div>';
+    }).join('');
+
+    var resumenPuntuacionHtml = '';
+    if (contestadas > 0) {
+      var notaNet = Math.max(0, aciertos - fallos / 3);
+      var notaSobre10 = pregs.length ? (notaNet / pregs.length) * 10 : 0;
+      resumenPuntuacionHtml = '<div class="card" style="border-color:var(--accent);background:var(--accent-soft)">' +
+        '<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px">' +
+        '<div><strong>📊 Resultado en este Supuesto Práctico: ' + aciertos + ' aciertos · ' + fallos + ' fallos · ' + (pregs.length - contestadas) + ' sin contestar</strong>' +
+        '<p class="sub" style="margin:4px 0 0">Puntuación oficial IAAP (con penalización −1/3): <strong>' + fmt(notaNet, 2) + ' / ' + pregs.length + '</strong> (Nota sobre 10: <strong>' + fmt(notaSobre10, 2) + '</strong>)</p></div>' +
+        '<button type="button" class="btn sec" data-reiniciar-practico="' + esc(sp.id) + '">🔄 Reiniciar respuestas del supuesto</button>' +
+        '</div></div>';
+    }
+
+    var pdfPanel = '';
+    if (sp.pdfCuestionario || sp.pdfPlantillaProv || sp.pdfAcuerdoDef) {
+      pdfPanel = '<div class="card" style="border-left:4px solid #0e7490;background:rgba(14,116,144,0.06);margin-bottom:12px">' +
+        '<div class="tema-meta" style="margin-bottom:6px"><span class="pill" style="background:#0e7490;color:#fff;font-weight:600">🏛️ Portal de Empleo Público / IAAP</span><span class="pill ok">Documentos Oficiales Verificados</span></div>' +
+        '<strong>Descarga los documentos oficiales originales de esta convocatoria:</strong>' +
+        '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">' +
+        (sp.pdfCuestionario ? '<a class="btn" href="' + esc(sp.pdfCuestionario) + '" download style="text-decoration:none">📄 Descargar Cuestionario Oficial PDF</a>' : '') +
+        (sp.pdfPlantillaProv ? '<a class="btn sec" href="' + esc(sp.pdfPlantillaProv) + '" download style="text-decoration:none">📝 Plantilla Provisional PDF</a>' : '') +
+        (sp.pdfAcuerdoDef ? '<a class="btn sec" href="' + esc(sp.pdfAcuerdoDef) + '" download style="text-decoration:none">🏛️ Acuerdo Comisión Plantilla Definitiva PDF</a>' : '') +
+        '</div></div>';
+    }
+
+    var badgeOficialDetalle = sp.esOficialIaap
+      ? '<span class="pill" style="background:#0e7490;color:#fff;font-weight:600">🏛️ Examen Oficial IAAP (Portal Empleo Público)</span>'
+      : '';
+    var badgeTresDetalle = sp.numOpciones === 3
+      ? '<span class="pill">3 opciones (A/B/C)</span>'
+      : '';
+
+    return '<button class="volver" type="button" data-ir="#/practicos">← Todos los Supuestos Prácticos (' + esc(corpObj.codigo) + ')</button>' +
+      '<div class="tema-meta">' +
+      '<span class="pill"><strong>' + esc(corpObj.nombreCorto) + ' (' + esc(corpObj.codigo) + ')</strong></span>' +
+      badgeTurno +
+      badgeOficialDetalle +
+      badgeTresDetalle +
+      '<span class="pill done">📅 Examen: ' + esc(sp.fechaTexto) + '</span>' +
+      '<span class="pill">' + esc(sp.oep) + '</span>' +
+      '<span class="sub" style="margin:0">' + esc(sp.boja || '') + '</span>' +
+      '</div>' +
+      '<h2 class="tituloTema" style="margin:8px 0">' + esc(sp.titulo) + '</h2>' +
+      materiasDetalleHtml +
+      pdfPanel +
+      (botonesTemas ? '<div class="normas-apartado" style="margin-bottom:12px"><span class="etiqueta">Temas del programa oficial:</span>' + botonesTemas + '</div>' : '') +
+      '<div class="card" style="border-color:var(--accent);background:var(--card)">' +
+      '<div class="tema-meta" style="justify-content:space-between">' +
+      '<strong>📋 Planteamiento y Datos del Caso Práctico Oficial</strong>' +
+      '<span class="pill">Enunciado íntegro</span>' +
+      '</div>' +
+      enunciadoHtml +
+      barraNormasApartado(leyesCitadasEnunciado, temaRef) +
+      '</div>' +
+      '<div class="acciones" style="margin:12px 0;justify-content:space-between">' +
+      '<div style="display:flex;gap:8px;flex-wrap:wrap">' +
+      '<button type="button" class="tab" data-cambiar-modo-practico="interactivo" aria-pressed="' + (!modoResuelto) + '">📝 Modo Test Interactivo (responder y corregir)</button>' +
+      '<button type="button" class="tab" data-cambiar-modo-practico="resuelto" aria-pressed="' + modoResuelto + '">📐 Modo Caso Resuelto Completo (ver todas las soluciones)</button>' +
+      '</div>' +
+      (!modoResuelto ? '<button type="button" class="btn sec" data-toggle-pasos-practico="1">' + (estadoPracticos.mostrarPasos ? '🙈 Ocultar resolución paso a paso mientras respondo' : '👁️ Mostrar resolución técnica/jurídica paso a paso') + '</button>' : '') +
+      '</div>' +
+      resumenPuntuacionHtml +
+      pasosHtml +
+      '<section class="seccion"><h3>❓ Cuestionario Práctico Oficial del Caso (' + pregs.length + ' cuestiones con explicación detallada)</h3>' +
+      preguntasHtml +
+      '</section>' +
+      '<div class="acciones" style="margin-top:16px">' +
+      '<button type="button" class="btn sec" data-ir="#/practicos">← Volver al listado de Supuestos Prácticos</button>' +
+      (contestadas > 0 ? '<button type="button" class="btn sec" data-reiniciar-practico="' + esc(sp.id) + '">🔄 Volver a intentar este supuesto</button>' : '') +
+      '</div>';
   }
 
   function render() {
@@ -2335,6 +3077,10 @@
         estadoTest = { id: m[1], i: 0, aciertos: 0, seleccion: null, respuestas: [] };
       }
       $app.innerHTML = vistaTest();
+    } else if (h === '#/practicos') {
+      $app.innerHTML = vistaSupuestosPracticos();
+    } else if ((m = h.match(/^#\/practico\/([a-z0-9-]+)$/))) {
+      $app.innerHTML = vistaDetalleSupuestoPractico(m[1]);
     } else if (h === '#/generador') {
       $app.innerHTML = vistaGenerador();
       cargarBanco();
@@ -2352,7 +3098,8 @@
   var gen = {
     cargando: false, error: false, sel: null, numero: '50', origen: 'todas',
     modo: 'practica', fase: 'config', preguntas: [], i: 0,
-    simulacro: false, segundosRestantes: 7200, pausado: false, timerId: null
+    simulacro: false, convocatoriaActiva: null, enunciadosPracticos: [], filtroTurnoSim: 'todos',
+    segundosRestantes: 7200, pausado: false, timerId: null
   };
   var STATS_KEY = 'estudio-estadisticas-v1';
 
@@ -2402,42 +3149,147 @@
     }, 1000);
   }
 
-  function iniciarSimulacroOficialIAAP() {
+  // Barajado determinista con semilla para que cada convocatoria oficial de los últimos 5 años tenga su hoja de examen fija y reproducible
+  function barajarConSemilla(arr, seedStr) {
+    var r = arr.slice();
+    var h = 2166136261 >>> 0;
+    var s = String(seedStr || 'iaap');
+    for (var k = 0; k < s.length; k++) {
+      h ^= s.charCodeAt(k);
+      h = Math.imul(h, 16777619) >>> 0;
+    }
+    function nextRand() {
+      h += 0x6D2B79F5;
+      var t = Math.imul(h ^ (h >>> 15), 1 | h);
+      t ^= t + Math.imul(t ^ (t >>> 7), 61 | t);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    }
+    for (var i = r.length - 1; i > 0; i--) {
+      var j = Math.floor(nextRand() * (i + 1));
+      var tmp = r[i]; r[i] = r[j]; r[j] = tmp;
+    }
+    return r;
+  }
+
+  function iniciarSimulacroOficialIAAP(convId) {
     if (!bancoListo()) return;
     var c = cuerpoActual();
-    var temasValidos = temasCuerpoActual().map(function (t) { return t.id; });
+    var conv = null;
+    if (convId && c.convocatoriasExamen) {
+      for (var ci = 0; ci < c.convocatoriasExamen.length; ci++) {
+        if (c.convocatoriasExamen[ci].id === convId) {
+          conv = c.convocatoriasExamen[ci];
+          break;
+        }
+      }
+    }
+    gen.convocatoriaActiva = conv || null;
+
+    var exentosSet = {};
+    if (conv && conv.exentosNums && conv.exentosNums.length) {
+      conv.exentosNums.forEach(function (n) { exentosSet[String(n)] = true; });
+    }
+
+    var temasCuerpo = temasCuerpoActual().filter(function (t) {
+      if (conv && conv.soloBloque && t.bloque !== conv.soloBloque) return false;
+      if (exentosSet[String(t.num)]) return false;
+      return true;
+    });
+    var temasValidos = temasCuerpo.map(function (t) { return t.id; });
     var poolCuerpo = window.BANCO.filter(function (q) {
       return temasValidos.indexOf(q.tema) !== -1 && (q.origen === 'revisada' || q.origen === 'hecho');
     });
 
-    var numTitulares = c.preguntasExamen || 100;
-    var numReservas = c.reservaExamen || 3;
-    var minutos = c.minutosExamen || 120;
-    var todas = [];
+    var numTitulares = (conv && conv.preguntasExamen) || c.preguntasExamen || 100;
+    var numReservas = (conv && conv.reservaExamen) || c.reservaExamen || 3;
+    var minutos = (conv && conv.minutosExamen) || c.minutosExamen || 120;
+    var fnBarajar = conv
+      ? function (lista, suf) { return barajarConSemilla(lista, conv.id + '::' + (suf || 'base')); }
+      : function (lista) { return barajarGen(lista); };
 
-    if (c.id === 'a2-2001') {
-      var comunPool = poolCuerpo.filter(function (q) { return q.bloque === 'comun'; });
-      var especPool = poolCuerpo.filter(function (q) { return q.bloque !== 'comun'; });
-      var titulares = barajarGen(comunPool).slice(0, 30).concat(barajarGen(especPool).slice(0, 70));
-      titulares = barajarGen(titulares);
-      var reservas = [barajarGen(comunPool)[30], barajarGen(especPool)[70], barajarGen(especPool)[71]].filter(Boolean);
-      todas = titulares.concat(reservas);
+    var todas = [];
+    var examOficialObj = null;
+    if (conv && conv.examenOficialId && D.examenesOficiales) {
+      examOficialObj = D.examenesOficiales.find(function (eo) { return eo.id === conv.examenOficialId; });
+    }
+
+    if (examOficialObj && examOficialObj.preguntas && examOficialObj.preguntas.length) {
+      // Examen oficial verbatim del IAAP: preguntas titulares y de reserva con numeración, parte y anulaciones reales
+      var titLimit = examOficialObj.numTitulares || examOficialObj.preguntas.length;
+      var titularsOficiales = examOficialObj.preguntas.slice(0, titLimit).map(function (q, idx) {
+        return {
+          num: q.num || (idx + 1),
+          parte: q.parte || 'teorica',
+          supuestoTitulo: q.supuestoTitulo || '',
+          tema: q.tema || 'c01',
+          origen: 'oficial-iaap',
+          reutilizada: false,
+          enunciado: q.enunciado,
+          explicacion: q.explicacion,
+          referencia: q.referencia,
+          opciones: (q.opciones || []).map(limpiarPrefijoOpcion),
+          correcta: q.correcta,
+          anulada: !!q.anulada,
+          sustituidaPorReserva: q.sustituidaPorReserva != null ? q.sustituidaPorReserva : null,
+          modificadaDefinitiva: !!q.modificadaDefinitiva,
+          resp: null,
+          registrada: false,
+          esReserva: false,
+          numReserva: 0
+        };
+      });
+      var reservasOficiales = (examOficialObj.reservas || []).map(function (q, idx) {
+        return {
+          num: q.num || (151 + idx),
+          parte: q.parte || 'teorica',
+          supuestoTitulo: q.supuestoTitulo || '',
+          tema: q.tema || 'c01',
+          origen: 'oficial-iaap',
+          reutilizada: false,
+          enunciado: q.enunciado,
+          explicacion: q.explicacion,
+          referencia: q.referencia,
+          opciones: (q.opciones || []).map(limpiarPrefijoOpcion),
+          correcta: q.correcta,
+          anulada: !!q.anulada,
+          sustituidaPorReserva: null,
+          modificadaDefinitiva: !!q.modificadaDefinitiva,
+          resp: null,
+          registrada: false,
+          esReserva: true,
+          numReserva: idx + 1
+        };
+      });
+      gen.preguntas = titularsOficiales.concat(reservasOficiales);
+      gen.enunciadosPracticos = (examOficialObj.enunciadosPracticos || []).slice();
     } else {
-      var barajadas = barajarGen(poolCuerpo);
-      todas = barajadas.slice(0, numTitulares + numReservas);
+      gen.enunciadosPracticos = [];
+      if (c.id === 'a2-2001' && (!conv || !conv.soloBloque)) {
+        var comunPool = poolCuerpo.filter(function (q) { return q.bloque === 'comun'; });
+        var especPool = poolCuerpo.filter(function (q) { return q.bloque !== 'comun'; });
+        var cShuf = fnBarajar(comunPool, 'comun');
+        var eShuf = fnBarajar(especPool, 'espec');
+        var titulares = fnBarajar(cShuf.slice(0, 30).concat(eShuf.slice(0, 70)), 'tit');
+        var reservas = [cShuf[30], eShuf[70], eShuf[71]].filter(Boolean);
+        todas = titulares.concat(reservas);
+      } else {
+        var barajadas = fnBarajar(poolCuerpo, 'pool');
+        todas = barajadas.slice(0, numTitulares + numReservas);
+      }
+      gen.preguntas = todas.map(function (q, idx) {
+        var orden = fnBarajar(q.opciones.map(function (_, i) { return i; }), 'op-' + idx);
+        return {
+          num: idx + 1,
+          tema: q.tema, origen: q.origen, reutilizada: !!q.reutilizada, enunciado: q.enunciado,
+          explicacion: q.explicacion, referencia: q.referencia,
+          opciones: orden.map(function (i) { return limpiarPrefijoOpcion(q.opciones[i]); }), correcta: orden.indexOf(q.correcta),
+          resp: null, registrada: false, esReserva: idx >= numTitulares, numReserva: idx >= numTitulares ? (idx - numTitulares + 1) : 0
+        };
+      });
     }
 
     gen.simulacro = true;
     gen.modo = 'examen';
-    gen.preguntas = todas.map(function (q, idx) {
-      var orden = barajarGen(q.opciones.map(function (_, i) { return i; }));
-      return {
-        tema: q.tema, origen: q.origen, reutilizada: !!q.reutilizada, enunciado: q.enunciado,
-        explicacion: q.explicacion, referencia: q.referencia,
-        opciones: orden.map(function (i) { return q.opciones[i]; }), correcta: orden.indexOf(q.correcta),
-        resp: null, registrada: false, esReserva: idx >= numTitulares, numReserva: idx >= numTitulares ? (idx - numTitulares + 1) : 0
-      };
-    });
     gen.i = 0;
     gen.fase = 'test';
     iniciarCronometroSimulacro(minutos * 60);
@@ -2466,7 +3318,7 @@
     } catch (e) { /* sin almacenamiento */ }
   }
   function registrarPregunta(q) {
-    if (q.registrada) return;
+    if (q.registrada || q.anulada) return;
     q.registrada = true;
     var tipo = (q.resp === null || q.resp === undefined) ? 'bl' : (q.resp === q.correcta ? 'ok' : 'mal');
     if (tipo !== 'bl') {
@@ -2479,7 +3331,15 @@
   }
   function registrarSesion(r) {
     var s = leerStats();
-    s.sesiones.push({ fecha: new Date().toISOString(), modo: gen.simulacro ? 'simulacro-iaap' : gen.modo, n: r.n, ok: r.ok, mal: r.mal, bl: r.bl, puntuacion: gen.modo === 'examen' ? r.puntuacion : null });
+    var conv = gen.convocatoriaActiva;
+    var etConv = conv ? (conv.oep + ' · ' + conv.fechaTexto + ' (' + conv.acceso + ')') : null;
+    s.sesiones.push({
+      fecha: new Date().toISOString(),
+      modo: gen.simulacro ? 'simulacro-iaap' : gen.modo,
+      convocatoria: etConv,
+      n: r.n, ok: r.ok, mal: r.mal, bl: r.bl,
+      puntuacion: gen.modo === 'examen' ? r.puntuacion : null
+    });
     if (s.sesiones.length > 200) s.sesiones = s.sesiones.slice(-200);
     guardarStats(s);
   }
@@ -2520,20 +3380,70 @@
 
   function fmt(x, d) { return x.toFixed(d).replace('.', ','); }
 
-  function resumenGen(preguntas) {
-    var c = cuerpoActual();
-    var numTit = c.preguntasExamen || 100;
-    var evaluables = preguntas;
-    if (gen.simulacro && preguntas.length > numTit) {
-      evaluables = preguntas.slice(0, numTit);
-    }
-    var r = { n: evaluables.length, ok: 0, mal: 0, bl: 0 };
-    evaluables.forEach(function (q) {
+  function calcularBloqueResumen(lista) {
+    var r = { n: lista.length, ok: 0, mal: 0, bl: 0 };
+    lista.forEach(function (q) {
       if (q.resp === null || q.resp === undefined) r.bl++;
       else if (q.resp === q.correcta) r.ok++;
       else r.mal++;
     });
     r.puntuacion = r.ok - r.mal / 3;
+    return r;
+  }
+
+  function resumenGen(preguntas) {
+    var c = cuerpoActual();
+    var conv = gen.convocatoriaActiva;
+    var numTit = (conv && conv.preguntasExamen) || c.preguntasExamen || 100;
+    var tieneDatosOficiales = preguntas.some(function (q) { return q.origen === 'oficial-iaap'; });
+
+    var evaluables = [];
+    var reservasActivasSet = {};
+    var reservasActivadas = [];
+    var anuladasCount = 0;
+    var anuladasSinReserva = 0;
+
+    if (gen.simulacro && tieneDatosOficiales) {
+      var reservasPorNum = {};
+      preguntas.forEach(function (q) {
+        if (q.esReserva && q.num) reservasPorNum[q.num] = q;
+      });
+      var sustituyeMapa = {};
+      preguntas.forEach(function (q) {
+        if (q.esReserva) return;
+        if (q.anulada) {
+          anuladasCount++;
+          if (q.sustituidaPorReserva && reservasPorNum[q.sustituidaPorReserva] && !reservasPorNum[q.sustituidaPorReserva].anulada) {
+            reservasActivasSet[q.sustituidaPorReserva] = q.num;
+            sustituyeMapa[q.sustituidaPorReserva] = q.num;
+            reservasActivadas.push({ titNum: q.num, resNum: q.sustituidaPorReserva });
+          } else {
+            anuladasSinReserva++;
+          }
+        } else {
+          evaluables.push(q);
+        }
+      });
+      preguntas.forEach(function (q) {
+        if (q.esReserva && q.num && sustituyeMapa[q.num]) {
+          evaluables.push(q);
+        }
+      });
+    } else if (gen.simulacro && preguntas.length > numTit) {
+      evaluables = preguntas.slice(0, numTit);
+    } else {
+      evaluables = preguntas.slice();
+    }
+
+    var r = calcularBloqueResumen(evaluables);
+    var listaTeorica = evaluables.filter(function (q) { return q.parte === 'teorica'; });
+    var listaPractica = evaluables.filter(function (q) { return q.parte === 'practica'; });
+    r.anuladasCount = anuladasCount;
+    r.anuladasSinReserva = anuladasSinReserva;
+    r.reservasActivadas = reservasActivadas;
+    r.reservasActivasSet = reservasActivasSet;
+    r.teorica = listaTeorica.length ? calcularBloqueResumen(listaTeorica) : null;
+    r.practica = listaPractica.length ? calcularBloqueResumen(listaPractica) : null;
     return r;
   }
 
@@ -2566,8 +3476,7 @@
     if (c.bloques && c.bloques.length > 1) {
       bloquesHtml = c.bloques.map(function (b) {
         var temasB = temas.filter(function (t) {
-          if (b.temas) return b.temas.indexOf(t.id) !== -1;
-          return t.bloque === b.id;
+          return perteneceTemaABloque(t, b.id);
         });
         return '<div class="chk-bloque">' + esc(b.nombre) + '</div>' + temasB.map(function (t) {
           return '<label class="chk"><input type="checkbox" data-gtema="' + esc(t.id) + '"' + (sel.has(t.id) ? ' checked' : '') + '> <span><strong>' +
@@ -2594,11 +3503,81 @@
       ? '100 preguntas titulares (30 del Bloque Común + 70 del Bloque Específico de Arquitectura Técnica) + 3 preguntas de reserva, con cronómetro oficial de ' + minExamen + ' min y penalización de −1/3 por cada fallo.'
       : (numTit + ' preguntas de examen oficiales ajustadas al programa de ' + esc(c.codigo) + ' + ' + numRes + ' de reserva, con cronómetro oficial de ' + minExamen + ' min y penalización de −1/3.');
 
+    var convs = c.convocatoriasExamen || [];
+    var convsFiltradas = convs.filter(function (cv) {
+      if (gen.filtroTurnoSim === 'libre') return cv.acceso === 'Acceso Libre';
+      if (gen.filtroTurnoSim === 'pi') return cv.acceso === 'Promoción Interna';
+      return true;
+    });
+
+    var nLibre = convs.filter(function (cv) { return cv.acceso === 'Acceso Libre'; }).length;
+    var nPI = convs.filter(function (cv) { return cv.acceso === 'Promoción Interna'; }).length;
+
+    var historicoHtml = '';
+    if (convs.length) {
+      historicoHtml = '<div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--border)">' +
+        '<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:10px">' +
+        '<div><strong>📅 Convocatorias y Exámenes Oficiales IAAP (2018–2025) · ' + esc(c.codigo) + '</strong>' +
+        '<p class="sub" style="margin:2px 0 0">Selecciona cualquier examen celebrado con su fecha oficial, sistema de acceso (Acceso Libre, Estabilización o Promoción Interna con exención de temas) y duración oficial:</p></div>' +
+        '<div style="display:flex;gap:6px;flex-wrap:wrap">' +
+        '<button type="button" class="tab" data-filtro-turno="todos" aria-pressed="' + (gen.filtroTurnoSim === 'todos') + '">Todas (' + convs.length + ')</button>' +
+        '<button type="button" class="tab" data-filtro-turno="libre" aria-pressed="' + (gen.filtroTurnoSim === 'libre') + '">🟢 Acceso Libre (' + nLibre + ')</button>' +
+        '<button type="button" class="tab" data-filtro-turno="pi" aria-pressed="' + (gen.filtroTurnoSim === 'pi') + '">🟣 Promoción Interna (' + nPI + ')</button>' +
+        '</div></div>' +
+        '<div class="ficha-grid">' +
+        convsFiltradas.map(function (cv) {
+          var esLibre = cv.acceso === 'Acceso Libre';
+          var badgeTurno = esLibre
+            ? '<span class="pill ok">🟢 Acceso Libre' + (cv.subtipo ? ' · ' + esc(cv.subtipo) : '') + '</span>'
+            : '<span class="pill warn">🟣 Promoción Interna</span>';
+          var notaExentos = (cv.exentosNums && cv.exentosNums.length)
+            ? 'Exentos Temas 1 a ' + cv.exentosNums[cv.exentosNums.length - 1]
+            : (cv.soloBloque ? 'Exento Bloque Común (100% Específico)' : 'Temario íntegro (' + c.totalTemas + ' temas)');
+          var esExamenOficial = !!cv.examenOficialId;
+          var badgeOficialConv = esExamenOficial
+            ? '<span class="pill" style="background:#0e7490;color:#fff;font-weight:600">🏛️ Examen Oficial Verbatim IAAP</span>'
+            : '';
+
+          var pdfLinks = '';
+          if (cv.pdfCuestionario || cv.pdfPlantillaProv || cv.pdfAcuerdoDef || cv.pdfCuestionario2Ej) {
+            pdfLinks = '<div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:6px">' +
+              (cv.pdfCuestionario ? '<a class="btn-cita" href="' + esc(cv.pdfCuestionario) + '" download style="text-decoration:none">📄 Cuestionario PDF</a>' : '') +
+              (cv.pdfPlantillaProv ? '<a class="btn-cita" href="' + esc(cv.pdfPlantillaProv) + '" download style="text-decoration:none">📝 Plantilla Prov. PDF</a>' : '') +
+              (cv.pdfAcuerdoDef ? '<a class="btn-cita" href="' + esc(cv.pdfAcuerdoDef) + '" download style="text-decoration:none">🏛️ Acuerdo Def. PDF</a>' : '') +
+              (cv.pdfCuestionario2Ej ? '<a class="btn-cita" href="' + esc(cv.pdfCuestionario2Ej) + '" download style="text-decoration:none">🧮 2º Ejercicio PDF</a>' : '') +
+              '</div>';
+          }
+
+          return '<div class="card" style="margin-bottom:0;display:flex;flex-direction:column;justify-content:space-between;gap:8px">' +
+            '<div>' +
+            '<div class="tema-meta">' + badgeTurno + badgeOficialConv +
+            '<span class="pill done">📅 ' + esc(cv.fechaTexto) + '</span>' +
+            '<span class="pill">' + esc(cv.oep) + '</span>' +
+            '</div>' +
+            '<strong style="display:block;margin-top:6px">' + esc(c.nombreCorto) + ' · ' + esc(cv.oep) + ' (' + esc(cv.acceso) + ')</strong>' +
+            '<p class="sub" style="margin:4px 0">' + esc(cv.descripcion) + '</p>' +
+            pdfLinks +
+            '<div class="tema-meta" style="margin-top:6px">' +
+            '<span class="pill">📝 ' + cv.preguntasExamen + ' titulares + ' + cv.reservaExamen + ' reserva</span>' +
+            '<span class="pill">⏱️ ' + cv.minutosExamen + ' min</span>' +
+            '<span class="pill">' + esc(notaExentos) + '</span>' +
+            '<span class="sub" style="margin:0;font-size:.76rem">' + esc(cv.boja) + '</span>' +
+            '</div></div>' +
+            '<div class="acciones" style="margin-top:6px">' +
+            '<button class="btn" type="button" data-sim-conv="' + esc(cv.id) + '" style="width:100%">' + (esExamenOficial ? '🏛️ Realizar examen oficial verbatim (' : '⏱️ Realizar simulacro de ') + esc(cv.fechaTexto) + ')</button>' +
+            '</div></div>';
+        }).join('') +
+        '</div></div>';
+    }
+
     var simulacroCard = '<div class="card" style="border-color:var(--accent)">' +
       '<div class="tema-meta"><span class="pill done">🏛️ Formato Oficial Oposición Junta de Andalucía</span><span class="pill ok">' + minExamen + ' minutos</span><span class="pill">' + esc(c.codigo) + '</span></div>' +
-      '<h3 style="margin:6px 0 4px">Simulacro Oficial IAAP · ' + esc(c.nombreCorto) + '</h3>' +
+      '<h3 style="margin:6px 0 4px">Simulacros Oficiales IAAP y Exámenes 2021–2025 · ' + esc(c.nombreCorto) + '</h3>' +
       '<p class="sub" style="margin:0 0 10px">' + descSimulacro + '</p>' +
-      '<button class="btn" type="button" data-gen="simulacro">⏱️ Iniciar Simulacro Oficial IAAP (' + numTit + ' + ' + numRes + ' reserva)</button>' +
+      '<div class="acciones" style="margin-top:0">' +
+      '<button class="btn" type="button" data-gen="simulacro">🎲 Generar nuevo Simulacro Aleatorio IAAP (' + numTit + ' + ' + numRes + ' reserva · Acceso Libre)</button>' +
+      '</div>' +
+      historicoHtml +
       '</div>';
 
     var repasoCard = '<div class="card">' +
@@ -2610,13 +3589,23 @@
       '<button class="btn sec" type="button" data-repasar="ambas"' + ((nFallos + nDudosas) ? '' : ' disabled') + '>🔥 Repasar todas (' + (nFallos + nDudosas) + ')</button>' +
       '</div></div>';
 
+    var numPracticosCuerpo = supuestosDeCuerpo(c.id).length;
+    var practicosCard = '<div class="card" style="border-color:var(--ok)">' +
+      '<div class="tema-meta"><span class="pill ok">🧮 Segundo Ejercicio / Caso Práctico IAAP (2021–2025)</span><span class="pill done">' + numPracticosCuerpo + ' Supuestos Resueltos de ' + esc(c.codigo) + '</span></div>' +
+      '<h3 style="margin:6px 0 4px">Supuestos Prácticos Oficiales Resueltos y Explicados (2021–2025 · Acceso Libre y Promoción Interna)</h3>' +
+      '<p class="sub" style="margin:0 0 10px">Practica los casos prácticos completos de los últimos años de ' + esc(c.nombreCorto) + ' con resolución técnica y jurídica paso a paso, fórmulas, cómputo de plazos y preguntas prácticas comentadas con enlaces a la ley.</p>' +
+      '<div class="acciones" style="margin-top:0">' +
+      '<button class="btn" type="button" data-ir="#/practicos">🧮 Abrir Supuestos Prácticos Resueltos de ' + esc(c.codigo) + ' (' + numPracticosCuerpo + ' casos prácticos)</button>' +
+      '</div></div>';
+
     return volverInicio() +
       '<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">' +
       '<h2 class="tituloTema" style="margin:0">Generador de tests y Simulacros</h2>' +
       '<span class="sub" style="margin:0">Oposición: <strong>' + esc(c.nombreCorto) + '</strong></span>' +
       '</div>' +
-      '<p class="sub">Banco con más de 12.800 preguntas verificadas, plazos, datos numéricos y articulado oficial de las 119 leyes.</p>' +
+      '<p class="sub">Banco con más de 12.800 preguntas verificadas, supuestos prácticos resueltos (2021–2025), plazos, datos numéricos y articulado oficial de las ' + Object.keys(D.leyes).length + ' leyes.</p>' +
       simulacroCard +
+      practicosCard +
       repasoCard +
       '<section class="seccion"><h3>1. Selección personalizada de temas</h3>' +
       '<div class="acciones" style="margin-top:0"><button class="btn sec" type="button" data-gen="todos">Todos</button>' +
@@ -2651,39 +3640,54 @@
   var CABECERA_EST = '<tr><th>Ámbito</th><th class="num">Resp.</th><th class="num">Aciert.</th><th class="num">Fallos</th><th class="num">Blanco</th><th class="num">%</th></tr>';
 
   function vistaEstadisticas() {
+    var c = cuerpoActual();
+    var temasCuerpo = temasCuerpoActual();
     var s = leerStats();
     var total = { n: 0, ok: 0, mal: 0, bl: 0 };
     var porBloque = {};
     var filasTemas = [];
-    D.temario.temas.forEach(function (t) {
+    var nombresBloqueCuerpo = {};
+    if (c && c.bloques) {
+      c.bloques.forEach(function (b) {
+        nombresBloqueCuerpo[b.id] = b.nombreCorto || b.nombre.replace(/\s*\(\d+\s*temas?\)/i, '').replace(/\s*\(Temas\s+\d+.*?\)/i, '');
+      });
+    }
+    temasCuerpo.forEach(function (t) {
       var x = s.temas[t.id];
       if (!x || !x.n) return;
       sumar(total, x);
-      sumar(porBloque[t.bloque] || (porBloque[t.bloque] = { n: 0, ok: 0, mal: 0, bl: 0 }), x);
+      var bKey = t.bloque || 'general';
+      sumar(porBloque[bKey] || (porBloque[bKey] = { n: 0, ok: 0, mal: 0, bl: 0 }), x);
       filasTemas.push('<tr><td>' + esc(etiquetaTema(t)) + '</td><td class="num">' + x.n + '</td><td class="num">' + x.ok + '</td><td class="num">' + x.mal +
         '</td><td class="num">' + x.bl + '</td><td class="num">' + porcentaje(x) + '</td></tr>');
     });
+    if (s.temas.oficial && s.temas.oficial.n) {
+      sumar(total, s.temas.oficial);
+      filasTemas.push('<tr><td>Exámenes Oficiales IAAP (histórico)</td><td class="num">' + s.temas.oficial.n + '</td><td class="num">' + s.temas.oficial.ok + '</td><td class="num">' + s.temas.oficial.mal +
+        '</td><td class="num">' + s.temas.oficial.bl + '</td><td class="num">' + porcentaje(s.temas.oficial) + '</td></tr>');
+    }
     if (!total.n) {
-      return '<section class="seccion"><h3>3. Estadísticas y Copia de Seguridad</h3><p class="sub">Todavía no hay respuestas guardadas. Se registran al responder en práctica y al entregar un examen.</p>' +
+      return '<section class="seccion"><h3>3. Estadísticas y Copia de Seguridad</h3><p class="sub">Todavía no hay respuestas guardadas en ' + esc(c.codigo) + '. Se registran al responder en práctica y al entregar un examen.</p>' +
         '<div class="acciones"><button class="btn sec" type="button" data-backup="exportar">💾 Exportar copia de seguridad (.json)</button>' +
         '<button class="btn sec" type="button" data-backup="importar">📂 Importar copia (.json)</button></div></section>';
     }
     var bloques = Object.keys(porBloque).map(function (b) {
-      return filaEst(esc(tituloBloque[b] || b), porBloque[b]);
+      var nombreB = nombresBloqueCuerpo[b] || tituloBloque[b] || b;
+      return filaEst(esc(nombreB), porBloque[b]);
     }).join('');
     var sesiones = s.sesiones.slice(-10).reverse().map(function (r) {
       var fecha = new Date(r.fecha).toLocaleDateString('es-ES');
-      var etModo = r.modo === 'simulacro-iaap' ? 'Simulacro IAAP' : (r.modo === 'examen' ? 'Examen' : 'Práctica');
+      var etModo = r.convocatoria ? ('Examen IAAP (' + r.convocatoria + ')') : (r.modo === 'simulacro-iaap' ? 'Simulacro IAAP' : (r.modo === 'examen' ? 'Examen' : 'Práctica'));
       var texto = (r.modo === 'examen' || r.modo === 'simulacro-iaap')
         ? etModo + ' · ' + r.ok + ' aciertos, ' + r.mal + ' fallos, ' + r.bl + ' en blanco · puntuación ' + fmt(r.puntuacion, 2)
         : etModo + ' · ' + r.ok + ' de ' + r.n + ' aciertos';
       return '<li>' + esc(fecha) + ' · ' + esc(texto) + '</li>';
     }).join('');
-    return '<section class="seccion"><h3>3. Estadísticas y Copia de Seguridad</h3>' +
+    return '<section class="seccion"><h3>3. Estadísticas y Copia de Seguridad · ' + esc(c.codigo) + '</h3>' +
       '<p class="sub">Se guardan en este navegador. El % de acierto se calcula sobre las preguntas contestadas (el blanco no cuenta).</p>' +
       '<div class="tabla-wrap"><table class="est"><thead>' + CABECERA_EST + '</thead><tbody>' +
       filaEst('<strong>General</strong>', total) + bloques + '</tbody></table></div>' +
-      '<details class="card" style="margin-top:12px"><summary><strong>Por tema</strong></summary>' +
+      '<details class="card" style="margin-top:12px"><summary><strong>Por tema (' + filasTemas.length + ' con respuestas)</strong></summary>' +
       '<div class="tabla-wrap"><table class="est"><thead><tr><th>Tema</th><th class="num">Resp.</th><th class="num">Aciert.</th><th class="num">Fallos</th><th class="num">Blanco</th><th class="num">%</th></tr></thead><tbody>' +
       filasTemas.join('') + '</tbody></table></div></details>' +
       (sesiones ? '<details class="card"><summary><strong>Últimos tests</strong></summary><ul>' + sesiones + '</ul></details>' : '') +
@@ -2700,13 +3704,16 @@
     if (!pool.length) return;
     detenerCronometroSimulacro();
     gen.simulacro = false;
+    gen.convocatoriaActiva = null;
+    gen.enunciadosPracticos = [];
     var n = Math.min(parseInt(gen.numero, 10) || pool.length, pool.length);
-    gen.preguntas = barajarGen(pool).slice(0, n).map(function (q) {
+    gen.preguntas = barajarGen(pool).slice(0, n).map(function (q, idx) {
       var orden = barajarGen(q.opciones.map(function (_, i) { return i; }));
       return {
+        num: idx + 1,
         tema: q.tema, origen: q.origen, reutilizada: !!q.reutilizada, enunciado: q.enunciado,
         explicacion: q.explicacion, referencia: q.referencia,
-        opciones: orden.map(function (i) { return q.opciones[i]; }), correcta: orden.indexOf(q.correcta),
+        opciones: orden.map(function (i) { return limpiarPrefijoOpcion(q.opciones[i]); }), correcta: orden.indexOf(q.correcta),
         resp: null, registrada: false
       };
     });
@@ -2716,7 +3723,7 @@
   }
 
   function etiquetaOrigen(q) {
-    return q.origen === 'revisada' ? 'revisada' : (q.origen === 'hecho' ? 'hecho' : 'generada');
+    return q.origen === 'revisada' ? 'revisada' : (q.origen === 'hecho' ? 'hecho' : (q.origen === 'oficial-iaap' ? 'oficial IAAP' : 'generada'));
   }
 
   // ---------- Práctica: corrección al responder ----------
@@ -2728,7 +3735,7 @@
       var c = 'opcion';
       if (contestada) { if (k === q.correcta) c += ' correcta'; else if (k === q.resp) c += ' incorrecta'; }
       return '<button class="' + c + '" type="button" data-gop="' + k + '"' + (contestada ? ' disabled' : '') + '>' +
-        String.fromCharCode(65 + k) + ') ' + esc(o) + '</button>';
+        String.fromCharCode(65 + k) + ') ' + esc(limpiarPrefijoOpcion(o)) + '</button>';
     }).join('');
     var fb = '';
     if (contestada) {
@@ -2739,7 +3746,7 @@
         (gen.i + 1 < gen.preguntas.length ? 'Siguiente' : 'Ver resultado') + '</button></div>';
     }
     var pct = (gen.i / gen.preguntas.length * 100).toFixed(0);
-    var tema = temaPorId[q.tema];
+    var tema = buscarTemaEnCuerpo(q.tema);
     return '<button class="volver" type="button" data-gen="salir">← Salir del test</button>' +
       '<div class="tema-meta" style="justify-content:space-between"><div><strong>Práctica · ' + esc(tema ? etiquetaTema(tema) : q.tema) + '</strong> <span class="pill">' + esc(etiquetaOrigen(q)) + '</span> ' +
       '<span>Pregunta ' + (gen.i + 1) + ' de ' + gen.preguntas.length + '</span></div>' +
@@ -2762,15 +3769,17 @@
     var n = gen.preguntas.length;
     var q = gen.preguntas[gen.i];
     var dudosa = esPreguntaDudosa(q, q.tema);
-    var blancos = gen.preguntas.filter(function (p) { return p.resp === null; }).length;
+    var blancos = gen.preguntas.filter(function (p) { return p.resp === null && !p.anulada; }).length;
     var ops = q.opciones.map(function (o, k) {
       return '<button class="opcion' + (q.resp === k ? ' sel' : '') + '" type="button" data-gop="' + k + '">' +
-        String.fromCharCode(65 + k) + ') ' + esc(o) + '</button>';
+        String.fromCharCode(65 + k) + ') ' + esc(limpiarPrefijoOpcion(o)) + '</button>';
     }).join('');
     var chips = gen.preguntas.map(function (p, j) {
       var cl = 'chip' + (j === gen.i ? ' actual' : '') + (p.resp !== null ? ' resp' : '');
-      var et = p.esReserva ? 'R' + p.numReserva : (j + 1);
-      return '<button class="' + cl + '" type="button" data-gex="ir" data-n="' + j + '" aria-label="Ir a la pregunta ' + et + '">' + et + '</button>';
+      var et = p.esReserva ? ('R' + (p.num || p.numReserva)) : (p.num || (j + 1));
+      var extraStyle = p.anulada ? ' style="opacity:.55;text-decoration:line-through"' : '';
+      var extraTitle = p.anulada ? ' title="Anulada en Plantilla Definitiva"' : '';
+      return '<button class="' + cl + '" type="button" data-gex="ir" data-n="' + j + '"' + extraStyle + extraTitle + ' aria-label="Ir a la pregunta ' + et + '">' + et + '</button>';
     }).join('');
 
     var barraCrono = '';
@@ -2779,14 +3788,46 @@
         '<button type="button" class="btn-cita" data-pausar-crono="1">' + (gen.pausado ? '▶️ Reanudar' : '⏸️ Pausar') + '</button>';
     }
 
+    var c = cuerpoActual();
+    var conv = gen.convocatoriaActiva;
+    var titularesTot = gen.preguntas.filter(function (p) { return !p.esReserva; }).length || ((conv && conv.preguntasExamen) || c.preguntasExamen || 100);
+    var reservasTot = gen.preguntas.filter(function (p) { return p.esReserva; }).length || ((conv && conv.reservaExamen) || c.reservaExamen || 3);
     var etPregunta = q.esReserva
-      ? '<span class="pill warn">Pregunta de Reserva ' + q.numReserva + ' de 3</span>'
-      : '<span>Pregunta ' + (gen.i + 1) + ' de ' + (gen.simulacro ? 100 : n) + '</span>';
+      ? '<span class="pill warn">Pregunta de Reserva N.º ' + (q.num || q.numReserva) + ' (' + q.numReserva + '/' + reservasTot + ')</span>'
+      : '<span>Pregunta ' + (q.num || (gen.i + 1)) + ' de ' + (gen.simulacro ? titularesTot : n) + '</span>';
+
+    var badgesExtra = '';
+    if (q.parte === 'practica') badgesExtra += ' <span class="pill done">🧮 Parte Práctica</span>';
+    else if (q.parte === 'teorica') badgesExtra += ' <span class="pill">📚 Parte Teórica</span>';
+    if (q.supuestoTitulo) badgesExtra += ' <span class="pill">' + esc(q.supuestoTitulo) + '</span>';
+    if (q.anulada) {
+      badgesExtra += ' <span class="pill bad">⚠️ Anulada en Plantilla Definitiva' + (q.sustituidaPorReserva ? ' → Reserva ' + q.sustituidaPorReserva : '') + '</span>';
+    }
+
+    var bloqueSupuestoExamen = '';
+    if (q.parte === 'practica' && gen.enunciadosPracticos && gen.enunciadosPracticos.length) {
+      var textosEnun = gen.enunciadosPracticos.map(function (en) {
+        var esActivo = q.supuestoTitulo && en.titulo && q.supuestoTitulo.toLowerCase().indexOf(en.titulo.toLowerCase().slice(0, 12)) !== -1;
+        return '<div style="margin-top:8px;padding:10px;border-radius:8px;border:1px solid ' + (esActivo ? 'var(--accent)' : 'var(--border)') + ';background:var(--surface-2)">' +
+          '<strong>' + esc(en.titulo || 'Planteamiento del Supuesto Práctico') + '</strong>' +
+          '<p style="margin:6px 0 0;white-space:pre-line;line-height:1.55;font-size:.92rem">' + esc(en.texto || '') + '</p>' +
+          '</div>';
+      }).join('');
+      bloqueSupuestoExamen = '<details class="card" open style="border-left:4px solid var(--accent);margin-top:10px">' +
+        '<summary><strong>📋 Planteamiento del Supuesto Práctico Oficial (consultar mientras respondes)</strong></summary>' +
+        textosEnun +
+        '</details>';
+    }
+
+    var tituloExamen = gen.simulacro
+      ? (conv ? ('🏛️ Examen IAAP · ' + esc(c.codigo) + ' · ' + esc(conv.oep) + ' (' + esc(conv.fechaTexto) + ' · ' + esc(conv.acceso) + ')') : ('🏛️ Simulacro Oficial IAAP · ' + esc(c.codigo)))
+      : 'Examen';
 
     return '<button class="volver" type="button" data-gen="salir">← Salir del examen</button>' +
-      '<div class="tema-meta" style="justify-content:space-between"><div><strong>' + (gen.simulacro ? '🏛️ Simulacro Oficial IAAP' : 'Examen') + '</strong> · ' + etPregunta + ' · <span>Sin contestar: ' + blancos + '</span></div>' +
+      '<div class="tema-meta" style="justify-content:space-between"><div><strong>' + tituloExamen + '</strong> · ' + etPregunta + badgesExtra + ' · <span>Sin contestar: ' + blancos + '</span></div>' +
       '<div style="display:flex;gap:6px;align-items:center">' + barraCrono +
       '<button type="button" class="btn-dudosa' + (dudosa ? ' activa' : '') + '" data-dudosa-gen="' + gen.i + '">' + (dudosa ? '★ Dudosa' : '☆ Dudosa') + '</button></div></div>' +
+      bloqueSupuestoExamen +
       '<p class="pregunta" style="margin-top:12px">' + esc(q.enunciado) + '</p>' +
       '<div class="opciones">' + ops + '</div>' +
       '<div class="acciones"><button class="btn sec" type="button" data-gex="blanco">Dejar en blanco</button>' +
@@ -2794,7 +3835,7 @@
       '<button class="btn sec" type="button" data-gex="sig"' + (gen.i === n - 1 ? ' disabled' : '') + '>Siguiente</button></div>' +
       '<div class="chips" aria-label="Preguntas del examen">' + chips + '</div>' +
       '<div class="acciones"><button class="btn" type="button" data-gex="entregar">Entregar ' + (gen.simulacro ? 'simulacro' : 'examen') + '</button></div>' +
-      '<p class="sub">Cada acierto suma 1, cada fallo resta 1/3 y las preguntas en blanco no restan.</p>';
+      '<p class="sub">Cada acierto suma 1, cada fallo resta 1/3 y las preguntas en blanco no restan. En exámenes oficiales se excluyen automáticamente las anuladas y computan sus reservas activadas.</p>';
   }
 
   function seleccionarExamen(k) {
@@ -2808,7 +3849,7 @@
     else if (a === 'sig' && gen.i < gen.preguntas.length - 1) gen.i++;
     else if (a === 'blanco') gen.preguntas[gen.i].resp = null;
     else if (a === 'entregar') {
-      var bl = gen.preguntas.filter(function (p) { return p.resp === null; }).length;
+      var bl = gen.preguntas.filter(function (p) { return p.resp === null && !p.anulada; }).length;
       if (bl && !window.confirm('Quedan ' + bl + ' preguntas en blanco. ¿Entregar el examen?')) return;
       terminarGen();
       return;
@@ -2834,36 +3875,102 @@
   function vistaResultadoGen() {
     var r = resumenGen(gen.preguntas);
     var examen = gen.modo === 'examen';
-    var nota10 = r.puntuacion / r.n * 10;
+    var nota10 = r.n ? (r.puntuacion / r.n * 10) : 0;
     var cabecera = examen
       ? '<div class="resultado" aria-live="polite">' + fmt(r.puntuacion, 2) + ' / ' + r.n + ' puntos</div>' +
         '<p class="sub">Nota sobre 10: <strong>' + fmt(nota10, 2) + '</strong> (' + (nota10 >= 5 ? '✓ APTO' : 'No alcanza el 5,00') + ') · ' + r.ok + ' aciertos, ' + r.mal + ' fallos (−1/3 cada uno), ' + r.bl + ' en blanco</p>'
-      : '<div class="resultado" aria-live="polite">' + r.ok + ' / ' + r.n + ' (' + Math.round(r.ok / r.n * 100) + ' %)</div>' +
+      : '<div class="resultado" aria-live="polite">' + r.ok + ' / ' + r.n + ' (' + Math.round(r.ok / (r.n || 1) * 100) + ' %)</div>' +
         '<p class="sub">' + r.mal + ' fallos · ' + r.bl + ' sin responder</p>';
+
+    var desglosePartesHtml = '';
+    if (examen && r.teorica && r.practica) {
+      var t10 = r.teorica.n ? (r.teorica.puntuacion / r.teorica.n * 10) : 0;
+      var p10 = r.practica.n ? (r.practica.puntuacion / r.practica.n * 10) : 0;
+      desglosePartesHtml = '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin:10px 0 14px">' +
+        '<div class="card" style="margin-bottom:0;border-left:4px solid var(--accent)">' +
+        '<div class="tema-meta"><span class="pill">📚 Parte Teórica</span><span class="pill done">' + r.teorica.n + ' evaluables</span></div>' +
+        '<strong style="display:block;font-size:1.15rem;margin-top:4px">' + fmt(r.teorica.puntuacion, 2) + ' / ' + r.teorica.n + ' pts (' + fmt(t10, 2) + '/10)</strong>' +
+        '<p class="sub" style="margin:4px 0 0">' + r.teorica.ok + ' aciertos · ' + r.teorica.mal + ' fallos · ' + r.teorica.bl + ' en blanco</p>' +
+        '</div>' +
+        '<div class="card" style="margin-bottom:0;border-left:4px solid var(--ok)">' +
+        '<div class="tema-meta"><span class="pill ok">🧮 Parte Práctica</span><span class="pill done">' + r.practica.n + ' evaluables</span></div>' +
+        '<strong style="display:block;font-size:1.15rem;margin-top:4px">' + fmt(r.practica.puntuacion, 2) + ' / ' + r.practica.n + ' pts (' + fmt(p10, 2) + '/10)</strong>' +
+        '<p class="sub" style="margin:4px 0 0">' + r.practica.ok + ' aciertos · ' + r.practica.mal + ' fallos · ' + r.practica.bl + ' en blanco</p>' +
+        '</div>' +
+        '</div>';
+    }
+
+    var notaAnulacionesHtml = '';
+    if (r.anuladasCount > 0) {
+      var detalleSust = r.reservasActivadas.length
+        ? ' · Reservas activadas: ' + r.reservasActivadas.map(function (x) { return 'R' + x.resNum + ' → P' + x.titNum; }).join(', ')
+        : '';
+      var detalleSin = r.anuladasSinReserva > 0
+        ? ' · ' + r.anuladasSinReserva + ' anulada(s) sin reserva disponible (reduce base a ' + r.n + ')'
+        : '';
+      notaAnulacionesHtml = '<div class="card" style="border-left:4px solid var(--warn);background:var(--warn-bg);margin-bottom:12px">' +
+        '<strong>⚖️ Cómputo oficial IAAP aplicado:</strong> ' + r.anuladasCount + ' pregunta(s) anulada(s) excluida(s)' + esc(detalleSust + detalleSin) + '.</div>';
+    }
+
     var revision = gen.preguntas.map(function (q, j) {
       var acierto = q.resp !== null && q.resp === q.correcta;
       if (!examen && acierto) return '';
       var dud = esPreguntaDudosa(q, q.tema);
-      var marca = q.resp === null ? '<span class="pill">En blanco</span>' : (acierto ? '<span class="pill ok">Acierto</span>' : '<span class="pill bad">Fallo</span>');
-      return '<div class="fallo"><div class="tema-meta" style="justify-content:space-between"><div>' + marca + ' <span>' + (q.esReserva ? 'Reserva ' + q.numReserva : 'Pregunta ' + (j + 1)) + '</span></div>' +
+      var marca = q.anulada
+        ? '<span class="pill bad">Anulada</span>'
+        : (q.resp === null ? '<span class="pill">En blanco</span>' : (acierto ? '<span class="pill ok">Acierto</span>' : '<span class="pill bad">Fallo</span>'));
+      var parteTag = q.parte === 'practica' ? ' <span class="pill done">Práctica</span>' : (q.parte === 'teorica' ? ' <span class="pill">Teórica</span>' : '');
+      var sustTag = (q.esReserva && r.reservasActivasSet && r.reservasActivasSet[q.num])
+        ? ' <span class="pill ok">✓ Computa por P.' + r.reservasActivasSet[q.num] + '</span>'
+        : (q.esReserva && gen.simulacro ? ' <span class="pill">Reserva no activada</span>' : '');
+      var etiquetaPreg = q.esReserva ? ('Reserva ' + (q.num || q.numReserva)) : ('Pregunta ' + (q.num || (j + 1)));
+      var respUserTxt = (q.resp !== null && q.opciones[q.resp] != null)
+        ? (String.fromCharCode(65 + q.resp) + ') ' + limpiarPrefijoOpcion(q.opciones[q.resp]))
+        : '';
+      var respOkTxt = (q.opciones[q.correcta] != null)
+        ? (String.fromCharCode(65 + q.correcta) + ') ' + limpiarPrefijoOpcion(q.opciones[q.correcta]))
+        : '';
+
+      return '<div class="fallo"><div class="tema-meta" style="justify-content:space-between"><div>' + marca + parteTag + sustTag + ' <span>' + esc(etiquetaPreg) + '</span></div>' +
         '<button type="button" class="btn-dudosa' + (dud ? ' activa' : '') + '" data-dudosa-gen="' + j + '">' + (dud ? '★ Dudosa' : '☆ Marcar dudosa') + '</button></div>' +
         '<strong>' + esc(q.enunciado) + '</strong>' +
-        (q.resp !== null && !acierto ? '<p class="sub">Tu respuesta: ' + esc(q.opciones[q.resp]) + '</p>' : '') +
-        '<p class="sub">Correcta: ' + esc(q.opciones[q.correcta]) + '</p>' +
-        '<p>' + enlazarNormas(q.explicacion || '', q.tema) + '</p>' + (q.referencia ? '<p class="sub">Ref.: ' + enlazarNormas(q.referencia, q.tema) + '</p>' : '') + '</div>';
+        (q.resp !== null && !acierto && !q.anulada ? '<p class="sub">Tu respuesta: ' + esc(respUserTxt) + '</p>' : '') +
+        (!q.anulada ? '<p class="sub">Correcta: ' + esc(respOkTxt) + '</p>' : '') +
+        '<div style="margin:6px 0">' + renderParrafosEnlazados(q.explicacion || '', q.tema) + '</div>' + (q.referencia ? '<p class="sub">Ref.: ' + enlazarNormas(q.referencia, q.tema) + '</p>' : '') + '</div>';
     }).join('');
-    var repetir = gen.preguntas.filter(function (q) { return q.resp !== q.correcta; });
-    return volverInicio() + '<h2 class="tituloTema">Resultado del ' + (gen.simulacro ? 'Simulacro Oficial IAAP' : (examen ? 'examen' : 'test')) + '</h2>' + cabecera +
-      '<section class="seccion"><h3>' + (examen ? 'Corrección completa' : 'Preguntas falladas') + '</h3>' + (revision || '<p>Sin fallos. ¡Perfecto!</p>') + '</section>' +
+    var repetir = gen.preguntas.filter(function (q) { return !q.anulada && q.resp !== q.correcta; });
+    var convRes = gen.convocatoriaActiva;
+    var titRes = gen.simulacro
+      ? (convRes ? ('Examen Oficial IAAP · ' + convRes.oep + ' · ' + convRes.fechaTexto + ' (' + convRes.acceso + ')') : 'Simulacro Oficial IAAP')
+      : (examen ? 'examen' : 'test');
+
+    var panelOficialResultado = '';
+    if (convRes && (convRes.pdfCuestionario || convRes.pdfPlantillaProv || convRes.pdfAcuerdoDef)) {
+      panelOficialResultado = '<div class="card" style="border-left:4px solid #0e7490;background:rgba(14,116,144,0.06);margin-bottom:14px">' +
+        '<div class="tema-meta"><span class="pill" style="background:#0e7490;color:#fff;font-weight:600">🏛️ Examen Oficial descargable del IAAP</span>' +
+        '<span class="pill done">Plantilla Definitiva Oficial</span></div>' +
+        '<p style="margin:6px 0 8px;font-size:.92rem"><strong>Acuerdo de la Comisión de Selección:</strong> ' + esc(convRes.acuerdoDefTexto || 'Plantilla definitiva oficial aprobada por la Comisión de Selección.') + '</p>' +
+        '<div style="display:flex;gap:8px;flex-wrap:wrap">' +
+        (convRes.pdfCuestionario ? '<a class="btn" href="' + esc(convRes.pdfCuestionario) + '" download style="text-decoration:none">📄 Descargar Cuestionario Oficial PDF</a>' : '') +
+        (convRes.pdfPlantillaProv ? '<a class="btn sec" href="' + esc(convRes.pdfPlantillaProv) + '" download style="text-decoration:none">📝 Plantilla Provisional PDF</a>' : '') +
+        (convRes.pdfAcuerdoDef ? '<a class="btn sec" href="' + esc(convRes.pdfAcuerdoDef) + '" download style="text-decoration:none">🏛️ Acuerdo Comisión Plantilla Definitiva PDF</a>' : '') +
+        '</div></div>';
+    }
+
+    return volverInicio() + '<h2 class="tituloTema">Resultado del ' + esc(titRes) + '</h2>' + cabecera +
+      desglosePartesHtml +
+      notaAnulacionesHtml +
+      panelOficialResultado +
+      '<section class="seccion"><h3>' + (examen ? 'Corrección completa con Plantilla Definitiva IAAP' : 'Preguntas falladas') + '</h3>' + (revision || '<p>Sin fallos. ¡Perfecto!</p>') + '</section>' +
       '<div class="acciones">' + (repetir.length ? '<button class="btn" type="button" data-gen="repetir">Repetir solo los fallos y blancos</button>' : '') +
       '<button class="btn sec" type="button" data-gen="configurar">Nuevo test</button></div>';
   }
 
   function accionGen(a) {
-    if (a === 'todos') { gen.sel = new Set(D.temario.temas.map(function (t) { return t.id; })); render(); }
+    if (a === 'todos') { gen.sel = new Set(temasCuerpoActual().map(function (t) { return t.id; })); render(); }
     else if (a === 'ninguno') { gen.sel = new Set(); render(); }
     else if (a === 'generar') generarGen();
-    else if (a === 'simulacro') iniciarSimulacroOficialIAAP();
+    else if (a === 'simulacro') iniciarSimulacroOficialIAAP(null);
     else if (a === 'repetir') generarGen(gen.preguntas.filter(function (q) { return q.resp !== q.correcta; }));
     else if (a === 'siguiente') siguienteGen();
     else if (a === 'salir' || a === 'configurar') { detenerCronometroSimulacro(); gen.fase = 'config'; render(); window.scrollTo(0, 0); }
@@ -2923,18 +4030,26 @@
       return;
     }
     if (el.dataset.dudosaActual) {
-      if (estadoTest && D.contenido[estadoTest.id]) {
-        var qAct = D.contenido[estadoTest.id].test[estadoTest.i];
-        alternarPreguntaDudosa(qAct, estadoTest.id);
-        render();
+      if (estadoTest) {
+        var tAct = buscarTemaEnCuerpo(estadoTest.id);
+        var cidAct = (tAct && tAct.id) || estadoTest.id;
+        if (D.contenido[cidAct] && D.contenido[cidAct].test) {
+          var qAct = D.contenido[cidAct].test[estadoTest.i];
+          alternarPreguntaDudosa(qAct, cidAct);
+          render();
+        }
       }
       return;
     }
     if (el.dataset.dudosaTest !== undefined) {
-      if (estadoTest && D.contenido[estadoTest.id]) {
-        var qIdx = Number(el.dataset.dudosaTest);
-        alternarPreguntaDudosa(D.contenido[estadoTest.id].test[qIdx], estadoTest.id);
-        render();
+      if (estadoTest) {
+        var tTest = buscarTemaEnCuerpo(estadoTest.id);
+        var cidTest = (tTest && tTest.id) || estadoTest.id;
+        if (D.contenido[cidTest] && D.contenido[cidTest].test) {
+          var qIdx = Number(el.dataset.dudosaTest);
+          alternarPreguntaDudosa(D.contenido[cidTest].test[qIdx], cidTest);
+          render();
+        }
       }
       return;
     }
@@ -2994,10 +4109,127 @@
       else render();
       return;
     }
+    if (el.dataset.filtroTurno) {
+      gen.filtroTurnoSim = el.dataset.filtroTurno;
+      render();
+      return;
+    }
+    if (el.dataset.simConv) {
+      iniciarSimulacroOficialIAAP(el.dataset.simConv);
+      return;
+    }
+    if (el.dataset.practicoTurno) {
+      estadoPracticos.filtroTurno = el.dataset.practicoTurno;
+      render();
+      return;
+    }
+    if (el.dataset.toggleTodosCuerpos) {
+      estadoPracticos.mostrarTodosCuerpos = !estadoPracticos.mostrarTodosCuerpos;
+      render();
+      return;
+    }
+    if (el.dataset.abrirPractico) {
+      var mPrac = el.dataset.modoPractico || 'interactivo';
+      estadoPracticos.modoVista = mPrac;
+      estadoPracticos.mostrarPasos = (mPrac === 'resuelto');
+      go('#/practico/' + el.dataset.abrirPractico);
+      return;
+    }
+    if (el.dataset.cambiarModoPractico) {
+      estadoPracticos.modoVista = el.dataset.cambiarModoPractico;
+      if (estadoPracticos.modoVista === 'resuelto') estadoPracticos.mostrarPasos = true;
+      var syModo = window.scrollY;
+      render();
+      window.scrollTo(0, syModo);
+      return;
+    }
+    if (el.dataset.togglePasosPractico) {
+      estadoPracticos.mostrarPasos = !estadoPracticos.mostrarPasos;
+      var syPasos = window.scrollY;
+      render();
+      window.scrollTo(0, syPasos);
+      return;
+    }
+    if (el.dataset.toggleExpPractico) {
+      var supExp = el.dataset.toggleExpPractico;
+      var idxExp = Number(el.dataset.pregIdx);
+      if (!estadoPracticos.explicacionesAbiertas[supExp]) estadoPracticos.explicacionesAbiertas[supExp] = {};
+      estadoPracticos.explicacionesAbiertas[supExp][idxExp] = !estadoPracticos.explicacionesAbiertas[supExp][idxExp];
+      var syExp = window.scrollY;
+      render();
+      window.scrollTo(0, syExp);
+      return;
+    }
+    if (el.dataset.respPractico) {
+      var supId = el.dataset.respPractico;
+      var pIdx = Number(el.dataset.pregIdx);
+      var oIdx = Number(el.dataset.opIdx);
+      if (!estadoPracticos.respuestas[supId]) estadoPracticos.respuestas[supId] = {};
+      if (estadoPracticos.respuestas[supId][pIdx] === undefined) {
+        estadoPracticos.respuestas[supId][pIdx] = oIdx;
+        guardarPracticosRespuestas(estadoPracticos.respuestas);
+        var hall = buscarSupuestoPorId(supId);
+        if (hall && hall.supuesto && hall.supuesto.preguntas && hall.supuesto.preguntas[pIdx]) {
+          var qP = hall.supuesto.preguntas[pIdx];
+          var tRef = qP.tema || (hall.supuesto.temasRelacionados && hall.supuesto.temasRelacionados[0]) || 'c01';
+          registrarFalloOAciertoRepaso({
+            enunciado: '[' + hall.supuesto.titulo + '] ' + qP.enunciado,
+            opciones: (qP.opciones || []).map(limpiarPrefijoOpcion),
+            correcta: qP.correcta,
+            explicacion: qP.explicacion,
+            referencia: qP.referencia,
+            tema: tRef,
+            origen: 'revisada'
+          }, tRef, oIdx === qP.correcta);
+        }
+        var syResp = window.scrollY;
+        render();
+        window.scrollTo(0, syResp);
+      }
+      return;
+    }
+    if (el.dataset.reiniciarPractico) {
+      delete estadoPracticos.respuestas[el.dataset.reiniciarPractico];
+      delete estadoPracticos.explicacionesAbiertas[el.dataset.reiniciarPractico];
+      guardarPracticosRespuestas(estadoPracticos.respuestas);
+      render();
+      return;
+    }
+    if (el.dataset.dudosaPractico) {
+      var sIdDud = el.dataset.dudosaPractico;
+      var idxDud = Number(el.dataset.pregIdx);
+      var hDud = buscarSupuestoPorId(sIdDud);
+      if (hDud && hDud.supuesto && hDud.supuesto.preguntas && hDud.supuesto.preguntas[idxDud]) {
+        var qDud = hDud.supuesto.preguntas[idxDud];
+        var tRefDud = qDud.tema || (hDud.supuesto.temasRelacionados && hDud.supuesto.temasRelacionados[0]) || 'c01';
+        alternarPreguntaDudosa({
+          enunciado: '[' + hDud.supuesto.titulo + '] ' + qDud.enunciado,
+          opciones: (qDud.opciones || []).map(limpiarPrefijoOpcion),
+          correcta: qDud.correcta,
+          explicacion: qDud.explicacion,
+          referencia: qDud.referencia,
+          tema: tRefDud,
+          origen: 'revisada'
+        }, tRefDud);
+        var syDud = window.scrollY;
+        render();
+        window.scrollTo(0, syDud);
+      }
+      return;
+    }
     if (el.dataset.gen) { accionGen(el.dataset.gen); return; }
     if (el.dataset.gex) { accionExamen(el.dataset.gex, el.dataset.n); return; }
     if (el.dataset.gop !== undefined) { if (gen.modo === 'examen') seleccionarExamen(Number(el.dataset.gop)); else responderGen(Number(el.dataset.gop)); return; }
-    if (el.dataset.tema) { go('#/tema/' + el.dataset.tema); return; }
+    if (el.dataset.tema) {
+      if (el.dataset.cuerpoTema && CUERPOS[el.dataset.cuerpoTema] && el.dataset.cuerpoTema !== cuerpoActivoId) {
+        cuerpoActivoId = el.dataset.cuerpoTema;
+        try { localStorage.setItem(CUERPO_STORAGE_KEY, cuerpoActivoId); } catch (e) { /* sin almacenamiento */ }
+        gen.sel = null;
+        actualizarEncabezadoCuerpo();
+      }
+      go('#/tema/' + el.dataset.tema);
+      return;
+    }
     if (el.dataset.ir) { go(el.dataset.ir); return; }
     if (el.dataset.test) { iniciarTest(el.dataset.test); return; }
     if (el.dataset.opcion !== undefined) { responder(Number(el.dataset.opcion)); return; }

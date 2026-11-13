@@ -192,6 +192,12 @@ if (errores.length) {
 const cuerpos = fs.existsSync(path.join(DIR, 'cuerpos-andalucia.json'))
   ? leerJSON(path.join(DIR, 'cuerpos-andalucia.json'))
   : {};
+const supuestosPracticos = fs.existsSync(path.join(DIR, 'supuestos-practicos.json'))
+  ? leerJSON(path.join(DIR, 'supuestos-practicos.json'))
+  : {};
+const examenesOficiales = fs.existsSync(path.join(DIR, 'examenes-oficiales-iaap.json'))
+  ? leerJSON(path.join(DIR, 'examenes-oficiales-iaap.json'))
+  : [];
 
 const salida = {
   temario: {
@@ -202,6 +208,8 @@ const salida = {
     temas: temario.temas.map((t) => ({ id: t.id, num: t.num, bloque: t.bloque, titulo: t.titulo })),
   },
   cuerpos,
+  supuestosPracticos,
+  examenesOficiales,
   leyes,
   contenido,
 };

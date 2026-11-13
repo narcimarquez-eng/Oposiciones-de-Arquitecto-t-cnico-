@@ -15,7 +15,7 @@
       "url": "https://juntadeandalucia.es/boja/2019/109/BOJA19-109-00043-8606-01_00156936.pdf"
     }
   ],
-  "total_temas": 87,
+  "total_temas": 106,
   "bloques": [
     {
       "id": "comun",
@@ -73,7 +73,26 @@
         "g09",
         "g10",
         "g11",
-        "g12"
+        "g12",
+        "g13",
+        "g14",
+        "g15",
+        "g16",
+        "g17",
+        "g18",
+        "g19",
+        "g20",
+        "g21",
+        "g22",
+        "g23",
+        "g24",
+        "g25",
+        "g26",
+        "g27",
+        "g28",
+        "g29",
+        "g30",
+        "g31"
       ]
     },
     {
@@ -645,6 +664,120 @@
       "num": 40,
       "bloque": "arquitectura-tecnica",
       "titulo": "Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7"
+    },
+    {
+      "id": "g13",
+      "num": 13,
+      "bloque": "gestion-administrativa",
+      "titulo": "La representación política en España: los partidos políticos (LO 6/2002). El sistema electoral español y el sistema electoral de Andalucía (LOREG 5/1985 y Ley 1/1986): administración electoral, censo, procedimiento electoral, escrutinio, fórmula D'Hondt y recursos electorales. Organizaciones sindicales y empresariales: libertad sindical (LO 11/1985 LOLS), representatividad, elecciones sindicales y diálogo social."
+    },
+    {
+      "id": "g14",
+      "num": 14,
+      "bloque": "gestion-administrativa",
+      "titulo": "Derecho Civil (Código Civil): El Derecho objetivo y las fuentes del Derecho; aplicación, interpretación, eficacia temporal y prescripción/caducidad. La relación jurídica: persona física y jurídica, capacidad jurídica y ejercicio de la capacidad tras la Ley 8/2021, representación. Los derechos reales: concepto, clases, propiedad, posesión, usufructo y derechos reales de garantía (prenda e hipoteca). El contrato: concepto, elementos esenciales (art. 1261 CC), vicios del consentimiento, ineficacia (nulidad, anulabilidad y rescisión) y resolución (art. 1124 CC)."
+    },
+    {
+      "id": "g15",
+      "num": 15,
+      "bloque": "gestion-administrativa",
+      "titulo": "La Policía del Orden y la Seguridad Ciudadana (LO 4/2015). Competencias de la Comunidad Autónoma de Andalucía: la Unidad del Cuerpo Nacional de Policía adscrita a la Comunidad Autónoma. Protección civil y gestión de emergencias en Andalucía (Ley 2/2002): planes de emergencia, 112 y servicios de extinción de incendios y salvamento. Las Policías Locales y su coordinación en Andalucía (Ley 6/2023). La actividad administrativa de limitación: modalidades de intervención, autorización administrativa, declaración responsable y comunicación."
+    },
+    {
+      "id": "g16",
+      "num": 16,
+      "bloque": "gestion-administrativa",
+      "titulo": "El Derecho Financiero y los ingresos públicos: concepto y clases. El sistema tributario español (Ley 58/2003 General Tributaria): principios constitucionales (art. 31 CE), impuestos, tasas y contribuciones especiales, obligados tributarios, elementos del tributo y procedimientos tributarios. La financiación de las Comunidades Autónomas (LOFCA 8/1980 y Ley 22/2009): el Consejo de Política Fiscal y Financiera, tributos propios y cedidos en Andalucía (Ley 5/2021) y ATRIAN. La Contabilidad Pública en la Junta de Andalucía: PGCP, sistema GIRO y Cuenta General (formación y rendición)."
+    },
+    {
+      "id": "g17",
+      "num": 17,
+      "bloque": "gestion-administrativa",
+      "titulo": "El Derecho del Trabajo (RDLeg 2/2015 Estatuto de los Trabajadores): naturaleza, fuentes de la relación laboral y principios de aplicación. Los convenios colectivos (Título III ET): eficacia general, legitimación, vigencia y concurrencia. El contrato de trabajo: elementos, capacidad, forma y período de prueba. Modalidades del contrato de trabajo tras el RDL 32/2021 (indefinido, fijo-discontinuo, duración determinada por circunstancias de la producción y por sustitución, formativos). El salario, garantías salariales y el FOGASA (art. 33 ET). Modificación (arts. 39-41 ET), suspensión (arts. 45-48 ET) y extinción del contrato de trabajo (arts. 49-56 ET: despido colectivo, objetivo y disciplinario)."
+    },
+    {
+      "id": "g18",
+      "num": 18,
+      "bloque": "gestion-administrativa",
+      "titulo": "Representación colectiva del personal en la empresa (Título II ET: Delegados de Personal y Comités de Empresa). Los conflictos colectivos, el derecho de huelga (art. 28.2 CE y RDL 17/1977) y el cierre patronal. La Administración laboral estatal y autonómica: la Inspección de Trabajo y Seguridad Social (Ley 23/2015) y la potestad sancionadora en el orden social (LISOS RDLeg 5/2000). La Jurisdicción Social (Ley 36/2011 LRJS): órganos, conciliación previa, proceso ordinario y procesos especiales (despido). Competencias de Andalucía en empleo, SERCLA y economía social: sociedades cooperativas andaluzas (Ley 14/2011)."
+    },
+    {
+      "id": "g19",
+      "num": 19,
+      "bloque": "gestion-administrativa",
+      "titulo": "Políticas sociales sectoriales de la Comunidad Autónoma de Andalucía: 1) Salud, sanidad y farmacia (art. 55 EA, Ley 2/1998 de Salud de Andalucía y Ley 16/2011 de Salud Pública): el Sistema Sanitario Público de Andalucía y el Servicio Andaluz de Salud (SAS); 2) Educación y Universidades (arts. 52 y 53 EA, Ley 17/2007 de Educación de Andalucía LEA y TRLAU): el Sistema Educativo Público de Andalucía y el Sistema Universitario Andaluz; 3) Servicios Sociales y Dependencia (art. 61 EA, Ley 9/2016 de Servicios Sociales de Andalucía y Ley 39/2006 de Dependencia): estructura funcional (comunitarios y especializados), Catálogo de Prestaciones y ASSDA."
+    },
+    {
+      "id": "g20",
+      "num": 20,
+      "bloque": "gestion-administrativa",
+      "titulo": "Políticas económicas y territoriales sectoriales de la Comunidad Autónoma de Andalucía: 1) Agricultura, ganadería, pesca y desarrollo rural (art. 48 EA, PAC y FEAGA/FEADER); 2) Aguas (arts. 50 y 51 EA y Ley 9/2010 de Aguas de Andalucía): demarcaciones intracomunitarias, ciclo integral del agua urbana y canon de mejora; 3) Industria, energía y minas (art. 49 EA); 4) Consumo, comercio y turismo (arts. 58 y 71 EA, Ley 13/2003 de Consumidores y Usuarios y Ley 13/2011 del Turismo de Andalucía: Municipio Turístico y Registro de Turismo); 5) Medios de comunicación social y servicios audiovisuales (arts. 69 y 207-217 EA, Ley 10/2018 Audiovisual de Andalucía, RTVA y Consejo Audiovisual de Andalucía)."
+    },
+    {
+      "id": "g21",
+      "bloque": "gestion-administrativa",
+      "num": 21,
+      "titulo": "El personal laboral al servicio de la Junta de Andalucía. Peculiaridades del Derecho Laboral en su aplicación a la Administración Pública. El VI Convenio Colectivo del Personal Laboral de la Administración de la Junta de Andalucía: estructura, ámbito de aplicación, Comisión del Convenio, organización del trabajo, clasificación profesional (Grupos I a V), provisión de vacantes, contratación temporal, jornada, vacaciones, permisos, estructura salarial, incompatibilidades y régimen disciplinario."
+    },
+    {
+      "id": "g22",
+      "bloque": "gestion-administrativa",
+      "num": 22,
+      "titulo": "La Administración: regulación constitucional (arts. 97 y 103–107 CE). La Administración General del Estado: organización central y territorial (Ley 40/2015 LRJSP y Ley 50/1997). La Administración Institucional: Sector Público Institucional Estatal y Administración Instrumental de Andalucía (LAJA). La Administración Consultiva: Consejo de Estado y Consejo Consultivo de Andalucía (Ley 2/2024). La Administración Corporativa: Colegios Profesionales, Cámaras Oficiales y otras corporaciones."
+    },
+    {
+      "id": "g23",
+      "bloque": "gestion-administrativa",
+      "num": 23,
+      "titulo": "El Medio Ambiente en Andalucía: competencias estatutarias (art. 57 EA). Los instrumentos de prevención y control ambiental en la Ley 2/2026 (LEGAM — sustituye a la Ley 7/2007 GICA): EAE, AAI, AAU, Calificación Ambiental y Declaración Responsable. La calidad ambiental: atmósfera, ruido (Decreto 50/2025), aguas y residuos/economía circular (Ley 7/2022 y Ley 3/2023). Los gases de efecto invernadero y cambio climático (Ley Europea del Clima, Ley 7/2021 y Ley 8/2018 Andalucía). Biodiversidad, responsabilidad y disciplina ambiental."
+    },
+    {
+      "id": "g24",
+      "bloque": "gestion-administrativa",
+      "num": 24,
+      "titulo": "Cultura y patrimonio en Andalucía (art. 68 EA): protección del patrimonio cultural, histórico, artístico, monumental, arqueológico, industrial y científico (LPHE 16/1985, LPHA 14/2007 transitoria hasta 07/04/2027 y LPCA 4/2026). Archivos y Patrimonio Documental (Ley 7/2011 LDAPA). Bibliotecas (Ley 16/2003) y Museos (Ley 8/2007). Juventud (IAJ y art. 74 EA), Deporte (Ley 5/2016) y Espectáculos Públicos y Actividades Recreativas (Ley 13/1999 y Decreto 155/2018)."
+    },
+    {
+      "id": "g25",
+      "bloque": "gestion-administrativa",
+      "num": 25,
+      "titulo": "Las Administraciones Públicas como organizaciones y modelos de estructura administrativa. Políticas públicas y su evaluación. La calidad del servicio público y calidad percibida (SERVQUAL). Medición, modelos de evaluación (EFQM, CAF, ISO 9001) y costes de la no calidad. Las Cartas de Servicios en Andalucía (Decreto 317/2003): elaboración, aprobación, publicación, seguimiento y suspensión. Análisis cualitativo y cuantitativo del trabajo y simplificación administrativa (Decreto 622/2019)."
+    },
+    {
+      "id": "g26",
+      "bloque": "gestion-administrativa",
+      "num": 26,
+      "titulo": "Derecho Administrativo, fuentes y jerarquía normativa. La Ley y normas con fuerza de ley. El Reglamento administrativo: clases, fundamento, límites, jerarquía y titularidad. Inderogabilidad singular del reglamento (art. 37 LPAC). Actos administrativos generales e instrucciones, circulares y órdenes de servicio (art. 6 LRJSP). Procedimiento de elaboración reglamentaria. El Acto Administrativo: elementos, forma, motivación, notificación, publicación, silencio e invalidez. Recursos administrativos (alzada, reposición y extraordinario de revisión)."
+    },
+    {
+      "id": "g27",
+      "bloque": "gestion-administrativa",
+      "num": 27,
+      "titulo": "El Gobierno del Estado (Título IV CE y Ley 50/1997): naturaleza y funciones (art. 97 CE). Composición, estatuto e incompatibilidades (art. 98 CE y Ley 3/2015). El Presidente del Gobierno: investidura (art. 99 CE), nombramiento y atribuciones. Consejo de Ministros, Comisiones Delegadas y órganos de colaboración y apoyo. Cese y Gobierno en funciones (art. 21 Ley 50/1997). Responsabilidad política (arts. 108–116 CE) y criminal (art. 102 CE) de sus miembros."
+    },
+    {
+      "id": "g28",
+      "bloque": "gestion-administrativa",
+      "num": 28,
+      "titulo": "Las Cortes Generales (Título III CE): bicameralismo, composición y sistema electoral de Congreso y Senado (arts. 66–70 CE y LOREG). Estatuto parlamentario, organización y funcionamiento de las Cámaras (arts. 71–79 CE). Función legislativa (arts. 81–96 CE) y Presupuestos (art. 134 CE). Control parlamentario del Gobierno (Título V CE). Órganos auxiliares de las Cortes: El Defensor del Pueblo (art. 54 CE y LO 3/1981) y El Tribunal de Cuentas (art. 136 CE y LO 2/1982)."
+    },
+    {
+      "id": "g29",
+      "bloque": "gestion-administrativa",
+      "num": 29,
+      "titulo": "El Poder Judicial (Título VI CE y LOPJ 6/1985): regulación constitucional de la Justicia, principios informadores y participación ciudadana (art. 125 CE y Ministerio Fiscal art. 124 CE). Organización judicial española: órdenes jurisdiccionales y planta de Juzgados y Tribunales (Tribunal Supremo, Audiencia Nacional, TSJ, Audiencias Provinciales y Juzgados). El Consejo General del Poder Judicial (art. 122 CE): composición, designación, organización interna y competencias."
+    },
+    {
+      "id": "g30",
+      "bloque": "gestion-administrativa",
+      "num": 30,
+      "titulo": "El Tribunal Constitucional (Título IX CE y LOTC 2/1979): naturaleza, composición, estatuto de los Magistrados y organización en Pleno, Salas y Secciones. Control de constitucionalidad: recurso de inconstitucionalidad, cuestión de inconstitucionalidad y control previo de Tratados y Estatutos. El recurso de amparo constitucional (arts. 53.2 y 161.1.b CE). Conflictos constitucionales, impugnación del art. 161.2 CE y efectos de las sentencias (art. 164 CE)."
+    },
+    {
+      "id": "g31",
+      "bloque": "gestion-administrativa",
+      "num": 31,
+      "titulo": "La Jefatura del Estado: la Corona (art. 1.3 y Título II CE, arts. 56–65). Inviolabilidad, irresponsabilidad y funciones constitucionales del Rey. Orden de sucesión, Regencia y Tutela del Rey menor. El refrendo de los actos regios: fundamento, sujetos legitimados y formas (art. 64 CE). La Casa de S.M. el Rey: régimen presupuestario, transparencia y estructura orgánica (art. 65 CE y RD 434/1988)."
     }
   ]
 }
