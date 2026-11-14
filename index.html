@@ -1266,10 +1266,13 @@
     'rite': 'RITE',
     'rebt': 'RD-842-2002',
     'lista': 'LISTA-7-2021',
+    'reglamento general de la lista': 'DEC-AND-550-2022',
+    'reglamento de la lista': 'DEC-AND-550-2022',
     'rglista': 'DEC-AND-550-2022',
     'lpha': 'LPHA-14-2007',
     'lphe': 'LPHE-16-1985',
     'lpca': 'LPCA-7-2025',
+    'ley del ruido': 'L-37-2003',
     'trls': 'TRLS-7-2015',
     'trlsru': 'TRLS-7-2015',
     'texto refundido de la ley de suelo': 'TRLS-7-2015',
@@ -1370,7 +1373,7 @@
 
   function esProsaMinusculaNoNorma(m, clave) {
     return Boolean(m && m === m.toLowerCase() && !/\d/.test(m) &&
-      /^(?:lista|lea|lau|lva|ens|cte|loe|lef|lgs|et|cc|ea|lh|ley organica del poder judicial)$/.test(clave));
+      /^(?:ce|cc|et|ea|eaa|estatuto|lista|lea|lau|lva|ens|cte|loe|lef|lgs|lh|ley organica del poder judicial)$/.test(clave));
   }
 
   function resolverLeyPorMencion(mencion, idTema) {
@@ -1413,7 +1416,11 @@
       var cands = leyesPorNum[mNum[1]];
       var rangoMencion = detectarRangoNorma(m);
       if (rangoMencion) {
-        cands = cands.filter(function (c) { return c.rango === rangoMencion; });
+        var candsRango = cands.filter(function (c) { return c.rango === rangoMencion; });
+        if (!candsRango.length && rangoMencion === 'rdl') {
+          candsRango = cands.filter(function (c) { return c.rango === 'rdleg'; });
+        }
+        cands = candsRango;
         if (!cands.length) return null;
       }
       if (cands.length === 1) return cands[0].id;
@@ -1438,8 +1445,15 @@
   }
 
   // Expresión regular para detectar citas normativas, artículos y secciones en los apuntes
+  var PATRON_IDS_COMPUESTOS = Object.keys(D.leyes)
+    .filter(function (k) { return /-/.test(k); })
+    .sort(function (a, b) { return b.length - a.length; })
+    .map(function (k) { return '\\b' + k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b'; })
+    .join('|');
+
   var PATRON_NORMA_EXPLICITA =
     'Reglamento\\s+de\\s+la\\s+Ley\\s+38\\/2003(?:,\\s*de\\s+17\\s+de\\s+noviembre,)?\\s+General\\s+de\\s+Subvenciones' +
+    '|Reglamento\\s+(?:General\\s+)?de\\s+la\\s+LISTA' +
     '|Reglamento\\s+(?:\\(UE\\)\\s+\\d+\\/\\d+|General\\s+de\\s+Protecci[oó]n\\s+de\\s+Datos|de\\s+la\\s+Ley\\s+General\\s+de\\s+Subvenciones|General\\s+de\\s+la\\s+LCAP|General\\s+de\\s+la\\s+Ley\\s+de\\s+Contratos\\s+de\\s+las\\s+Administraciones\\s+P[úu]blicas|de\\s+Viviendas\\s+Protegidas(?:\\s+de\\s+Andaluc[ií]a)?|de\\s+los\\s+Procedimientos\\s+de\\s+Concesi[oó]n\\s+de\\s+Subvenciones|de\\s+Subvenciones\\s+de\\s+la\\s+Junta\\s+de\\s+Andaluc[ií]a|(?:General\\s+)?de\\s+(?:Ingreso|Recaudaci[oó]n|Organizaci[oó]n\\s+y\\s+Funcionamiento)[^,.;\\n)]{0,85})' +
     '|Directiva\\s+(?:\\(UE\\)|CEE|CE)?\\s*\\d+\\/\\d+|Directiva\\s+H[aá]bitats' +
     '|(?:Texto\\s+Refundido\\s+de\\s+la\\s+)?Ley\\s+(?:del\\s+)?Estatuto\\s+B[aá]sico\\s+del\\s+Empleado\\s+P[úu]blico' +
@@ -1451,7 +1465,7 @@
     '|Ley\\s+Org[aá]nica\\s+del\\s+Poder\\s+Judicial' +
     '|Ley\\s+(?:36\\/2011[^.\\n]{0,50}?)?Reguladora\\s+de\\s+la\\s+Jurisdicci[oó]n\\s+Social' +
     '|Ley\\s+(?:Electoral\\s+de\\s+Andaluc[ií]a|de\\s+Educaci[oó]n\\s+de\\s+Andaluc[ií]a|de\\s+Caza|del\\s+Ruido|de\\s+Arrendamientos\\s+Urbanos|de\\s+(?:la\\s+)?Funci[oó]n\\s+P[úu]blica\\s+de\\s+Andaluc[ií]a|del\\s+Patrimonio\\s+de\\s+las\\s+Administraciones\\s+P[úu]blicas|General\\s+de\\s+Subvenciones)' +
-    '|(?:Real\\s+Decreto\\s+Legislativo|Real\\s+Decreto-ley|Real\\s+Decreto|Decreto\\s+Legislativo|Decreto-ley|Decreto|Ley\\s+Org[aá]nica|Ley|RDL|RD-ley|RD|DL|D\\.|LO|DLeg)\\s*\\d{1,4}\\/\\d{4}' +
+    '|(?:Real\\s+Decreto\\s+Legislativo|Real\\s+Decreto-ley|Real\\s+Decreto|Decreto\\s+Legislativo|Decreto-ley|Decreto|Ley\\s+Org[aá]nica|Ley(?:\\s+(?:andaluza|estatal|auton[oó]mica))?|RDL|RD-ley|RD|DL|D\\.|LO|DLeg)\\s*\\d{1,4}\\/\\d{4}' +
     '|Orden\\s+[A-Z]{2,6}\\/\\d{1,4}\\/\\d{4}' +
     '|Orden\\s+(?:de\\s+(?:la\\s+|el\\s+)?[^,.\\n]{3,110}\\s+)?de\\s+\\d{1,2}\\s+de\\s+[a-záéíóúñ]+\\s+de\\s+\\d{4}' +
     '|Decreto\\s+(?:de\\s+(?:la\\s+|el\\s+)?[^,.\\n]{3,110}\\s+)?de\\s+\\d{1,2}\\s+de\\s+[a-záéíóúñ]+\\s+de\\s+\\d{4}' +
@@ -1459,29 +1473,30 @@
     '|C[oó]digo\\s+(?:Civil|Penal|de\\s+Comercio)' +
     '|Ley\\s+Hipotecaria' +
     '|Constituci[oó]n\\s+Espa[ñn]ola' +
-    '|Estatuto\\s+(?:de\\s+Autonom[ií]a(?:\\s+(?:para|de)\\s+Andaluc[ií]a)?|de\\s+Andaluc[ií]a)' +
     '|(?:Texto\\s+Refundido\\s+de(?:l|\\s+la\\s+Ley\\s+del)\\s+)?Estatuto\\s+B[aá]sico\\s+del\\s+Empleado\\s+P[úu]blico' +
+    '|Estatuto\\s+(?:de\\s+Autonom[ií]a(?:\\s+(?:para|de)\\s+Andaluc[ií]a)?|de\\s+Andaluc[ií]a)' +
     '|C[oó]digo\\s+T[eé]cnico\\s+de\\s+la\\s+Edificaci[oó]n' +
     '|C[oó]digo\\s+Estructural' +
     '|Plan\\s+Vive' +
     '|Tratado\\s+(?:de\\s+(?:la\\s+)?Uni[oó]n\\s+Europea|de\\s+Funcionamiento\\s+de\\s+la\\s+Uni[oó]n\\s+Europea|de\\s+Lisboa)' +
     '|(?:Secci[oó]n\\s+|\\bDB-)(?:SI|SUA|HE|HS|HR|SE(?:-AE|-C|-A|-M|-F)?)(?:\\s*\\d+(?:\\.\\d+)*)?\\b' +
     '|\\b(?:SUA|SI|HE|HS)\\s+[0-9](?:\\.[0-9]+)*\\b' +
-    '|\\b(?:LOE|LPAC|LPACAP|LRJSP|LCSP|RGLCAP|LEF|LGS|LAJA|TREBEP|EBEP|TRLGHPJA|TRLGHP|TRGHPJA|LGHPA|LPRL|RITE|REBT|LISTA|RGLISTA|LPHA|LPHE|LPCA|TRLSRU|TRLS|TRLCAT|RIPCI|RSCIEI|LPH|LGP|CTE|LPAP|LAULA|LGSS|TRLGSS|LDAPA|LACC|LOREG|LOLS|LOPP|LOSC|LGT|LOFCA|LRJS|LISOS|LOTC|LOPJ|LRHL|TRLRHL|LEDA|LEA|LAU|LH|GICA|LEGAM|LFPA|LFP|LTAIBG|LTBG|LTPA|LOPDGDD|LJCA|ENS|LVA|RGPD|TUE|TFUE)\\b';
+    (PATRON_IDS_COMPUESTOS ? '|' + PATRON_IDS_COMPUESTOS : '') +
+    '|\\b(?:LOE|LPAC|LPACAP|LRJSP|LCSP|RGLCAP|LEF|LGS|LAJA|TREBEP|EBEP|TRLGHPJA|TRLGHP|TRGHPJA|LGHPA|LPRL|RITE|REBT|LISTA|RGLISTA|LPHA|LPHE|LPCA|TRLSRU|TRLS|TRLCAT|RIPCI|RSCIEI|LPH|LGP|CTE|LPAP|LAULA|LGSS|TRLGSS|LDAPA|LACC|LOREG|LOLS|LOPP|LOSC|LGT|LOFCA|LRJS|LISOS|LOTC|LOPJ|LRHL|TRLRHL|LEDA|LEA|LAU|LH|GICA|LEGAM|LFPA|LFP|LTAIBG|LTBG|LTPA|LOPDGDD|LJCA|ENS|LVA|RGPD|TUE|TFUE|LBRL|LBTRL|CE|EA(?:\\s+Andaluc[ií]a)?|EAA|Estatuto|CC(?!\\.)|ET|REF|RLGS|LECrim|LEC|TRLA)\\b';
 
   var REGEX_CITAS = new RegExp(
     '(' + PATRON_NORMA_EXPLICITA +
-      '|(?:art[ií]culos?|arts?\\.)\\s+\\d+(?:\\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies))?(?:\\s*(?:a|al|y|,|del|de\\s+la)\\s*\\d+)*(?:\\.[0-9]+)?(?:\\s*(?:bis|ter|qu[aá]ter))?' +
+      '|(?:art[ií]culos?|arts?\\.)\\s+\\d+(?:\\s*\\.?\\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies))?(?:\\s*(?:a|al|y|,|\\/|del|de\\s+la|[-–—])\\s*\\d+)*(?:\\.[0-9]+)?(?:\\s*\\.?\\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies))?' +
       '|(?:T[ií]tulo\\s+(?:Preliminar|[IVXLC]+)|Cap[ií]tulo\\s+[IVXLC0-9]+|Disposici[oó]n\\s+(?:adicional|transitoria|derogatoria|final)\\s+[a-záéíóúñ0-9ªº.]+|Anejo\\s+[A-Z0-9]+)' +
     ')',
     'gi'
   );
 
   // Importante: las letras/apartados con punto (.ii, .b, .4.b) deben ir ANTES de [.,\s]+ para que no se borre el punto previo.
-  var REGEX_PREFIJO_ART = /^(?:\.\s*[a-z]{1,3}\b\)?|\.\s*\d+(?:\.\d+)*\.?[ºª]?|[.,\s]+|\b(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies|in\s+fine|y\s+siguientes|y\s+concordantes|y\s+sig[._]?|y\s+ss[._]?|ss[._]?|siguientes|concordantes)\b|(?:p[aá]rrafo|apartado|apartados|letra|letras)\s+[\w.,()-]+|en\s+relaci[oó]n\s+con\s+(?:la\s+|el\s+)?(?:D[TAF]\s*\d+[ªº]?|[IVXLC]+)|(?:[-–—]|y|a|al|e|o)\s*(?:\d+(?:\.\d+)*\.?[ºª]?|[a-z]{1,2}\))|\d+(?:\.\d+)*\.?[ºª]?|\b[a-z]\))/i;
-  var REGEX_PREPOSICION_NORMA = /^(?:de\s+la|del|de|en\s+(?:el|la)|introducid[oa]\s+por(?:\s+la|\s+el)?|(?:la|el)(?=\s+(?:Orden|Ley|Constituci[oó]n|Estatuto|Real\s+Decreto|Decreto))|,)\s+/i;
+  var REGEX_PREFIJO_ART = /^(?:\.\s*[a-z]{1,3}(?:\s*[-–—]\s*[a-z]{1,3})?\b\)?|\.\s*\d+(?:\.\d+)*\.?[ºª]?|[.,\s]+|\b(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies|in\s+fine|y\s+siguientes|y\s+(?:disposiciones\s+)?concordantes|y\s+Disposici[oó]n\s+(?:Adicional|Transitoria|Derogatoria|Final)(?:\s*\/\s*(?:Adicional|Transitoria|Derogatoria|Final))?|y\s+sig[._]?|y\s+ss[._]?|ss[._]?|siguientes|concordantes)\b|(?:p[aá]rrafo|apartado|apartados|letra|letras)\s+[\w.,()ºª-]+|en\s+relaci[oó]n\s+con\s+(?:la\s+|el\s+)?(?:D[TAF]\s*\d+[ªº]?|[IVXLC]+)|(?:[-–—\/]|y|a|al|e|o)\s*(?:\d+(?:\.\d+)*\.?[ºª]?|[a-z]{1,2}\))|\d+(?:\.\d+)*\.?[ºª]?|\b[a-z]\))/i;
+  var REGEX_PREPOSICION_NORMA = /^(?:de\s+(?:la\s+La|el\s+El)|de\s+la|del|de|en\s+(?:el|la)|introducid[oa]\s+por(?:\s+la|\s+el)?|(?:la|el)(?=\s+(?:Orden|Ley|Constituci[oó]n|Estatuto|Real\s+Decreto|Decreto))|,)\s+/i;
   var REGEX_INICIO_NORMA = new RegExp(
-    '^(' + PATRON_NORMA_EXPLICITA + '|Constituci[oó]n|Estatuto|EA(?:\\s+Andaluc[ií]a)?|EAA|CE|ET|CC(?!\\.)|REF|RLGS|[A-Z]{2,10}(?:-[A-Z0-9]+)+)\\b',
+    '^(' + PATRON_NORMA_EXPLICITA + '|Constituci[oó]n)\\b',
     'i'
   );
 
@@ -1638,8 +1653,8 @@
     var s = String(str || '').replace(/(\b\d+)\s*(?:\.\s*\d+\b)+/g, '$1');
     s = s.replace(/(\b\d+)\.(bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies)\b/gi, '$1 $2');
     var nums = [];
-    // Detectar rangos tipo "arts. 14 a 20" o "artículos 47 al 50"
-    var mRango = s.match(/(?:art[ií]culos?|arts?\.)\s*(\d+)\s*(?:a|al|-)\s*(\d+)/i);
+    // Detectar rangos tipo "arts. 14 a 20", "artículos 47 al 50" o "arts. 6–8"
+    var mRango = s.match(/(?:art[ií]culos?|arts?\.)\s*(\d+)\s*(?:a|al|[-–—])\s*(\d+)/i);
     if (mRango) {
       var ini = parseInt(mRango[1], 10);
       var fin = parseInt(mRango[2], 10);
@@ -1673,16 +1688,27 @@
     var citaNorm = normClave(cita);
     var esArtCita = /^(?:art[ií]culos?|arts?\.)/i.test(cita);
     var artDirectoEncontrado = false;
+    var prefTfue = leyId === 'TUE-TFUE'
+      ? (/\btfue\b|funcionamiento de la uni[oó]n/i.test((cita || '') + ' ' + (contexto || '')) ? 'tfue-' : (/\btue\b|tratado de la uni[oó]n/i.test((cita || '') + ' ' + (contexto || '')) ? 'tue-' : ''))
+      : '';
 
     // 1. Si la cita pulsada es un artículo concreto ("art. 14", "arts. 47 y 48")
     if (esArtCita) {
       var numsCita = extraerNumerosArticulo(cita);
       numsCita.forEach(function (n) {
-        items.forEach(function (it) {
-          if (it.tipo === 'art' && normClave(it.num) === n) {
-            agregar(it);
-            artDirectoEncontrado = true;
-          }
+        var coinc = items.filter(function (it) {
+          return it.tipo === 'art' && normClave(it.num) === n;
+        });
+        if (prefTfue && coinc.length > 1) {
+          coinc.sort(function (a, b) {
+            var ap = (a.clave || '').indexOf(prefTfue) === 0 ? 0 : 1;
+            var bp = (b.clave || '').indexOf(prefTfue) === 0 ? 0 : 1;
+            return ap - bp;
+          });
+        }
+        coinc.forEach(function (it) {
+          agregar(it);
+          artDirectoEncontrado = true;
         });
       });
       if (!artDirectoEncontrado && numsCita.length) {

@@ -1,1 +1,543 @@
-{"id":"e37","resumen":[{"titulo":"Marco normativo","puntos":["Tres capas: el CTE (arts. 10 a 15), el Decreto 293/2009 de accesibilidad en Andalucía y la normativa sectorial de cada uso. El Decreto 293/2009 se aplica a los usos sanitarios, culturales y de espectáculos (art. 62).","Normativa sanitaria: Decreto 69/2008, según la búsqueda, con requisitos en su anexo III, que no se ha leído. Patrimonio: Ley 14/2007, título IX, para los espacios culturales."]},{"titulo":"Usos y accesibilidad","puntos":["El artículo 62 relaciona los usos, entre ellos los sanitarios (letra c) y las actividades culturales y sociales (letra e). El acceso principal debe ser accesible, al mismo nivel de la cota exterior siempre que sea posible (art. 64, apartado 1, letra a).","Aseos de uso público: al menos uno accesible y aislado en los edificios obligados (art. 77)."]},{"titulo":"Circulaciones","puntos":["Pasillos: ancho mínimo libre de 1,20 metros, con alteraciones puntuales que dejen un paso de 0,90 metros (art. 66, apartado 2). Las alteraciones deben tener menos de 50 centímetros de longitud."]},{"titulo":"Exigencias del CTE","puntos":["Evacuación de aguas residuales de forma independiente o conjunta con las pluviales (CTE, art. 13.5). Extintor portátil de eficacia 21A-113B (DB-SI 4, tabla 1.1). Ascensor de emergencia en plantas con altura de evacuación superior a 28 metros (DB-SI 4, tabla 1.1).","El DB-HR limita el ruido reverberante en las zonas comunes (DB-HR, apartado 2.2)."]},{"titulo":"Patrimonio y bienes culturales","puntos":["En los monumentos está prohibida la colocación de publicidad comercial y de cables, antenas y conducciones aparentes en fachadas y cubiertas (LPHA, art. 33, apartado 2).","No puede declararse bien de interés cultural la obra de un autor vivo, salvo autorización del propietario o adquisición por la Administración (LPHE, art. 9, apartado 4)."]}],"leyes":[{"id":"DEC-AND-293-2009","rol":"Accesibilidad en edificios de uso público: usos sanitarios y culturales (art. 62), accesos (art. 64), pasillos (art. 66) y aseos (art. 77)"},{"id":"LPHA-14-2007","rol":"Patrimonio histórico andaluz: prohibiciones en monumentos y espacios culturales (arts. 33 y 75 a 83)"},{"id":"CTE","rol":"Exigencias básicas de salubridad y seguridad en caso de incendio aplicables a los equipamientos (arts. 13 y 11)"},{"id":"LPHE-16-1985","rol":"Declaración de bien de interés cultural por ley o real decreto: autor vivo (art. 9, apartado 4)"},{"id":"DEC-AND-69-2008","rol":"Procedimientos de las Autorizaciones Sanitarias y Registro Andaluz de Centros, Servicios y Establecimientos Sanitarios"}],"test":[{"pregunta":"Según el Decreto 293/2009, art. 62, letra c, ¿qué uso figura en la relación de edificios de uso público?","opciones":["Sanitarios","Ganadero","Agrícola","Forestal"],"correcta":0,"explicacion":"El artículo 62 incluye, en la letra c, los edificios sanitarios entre los usos a los que se aplica el Título II de accesibilidad.","referencia":"Decreto 293/2009, art. 62, letra c)"},{"pregunta":"Según el Decreto 293/2009, art. 62, letra e, ¿qué uso aparece en la relación?","opciones":["Almacenes agrícolas","Viviendas unifamiliares aisladas","Actividades culturales y sociales","Explotaciones mineras"],"correcta":2,"explicacion":"La letra e del artículo 62 incluye las actividades culturales y sociales entre los usos afectados por el Título II.","referencia":"Decreto 293/2009, art. 62, letra e)"},{"pregunta":"Según el Decreto 293/2009, art. 77, ¿cuántos aseos de uso público accesibles y aislados deben disponer los edificios obligados por su normativa sectorial?","opciones":["Exactamente tres","Uno por cada veinte personas","Ninguno","Al menos uno"],"correcta":3,"explicacion":"En los edificios obligados por su normativa sectorial a disponer de aseos aislados de uso público, al menos uno debe ser accesible (art. 77).","referencia":"Decreto 293/2009, art. 77"},{"pregunta":"Según el Decreto 293/2009, art. 66, apartado 2, ¿qué paso mínimo debe quedar cuando la alteración puntual de un pasillo es inferior a 50 centímetros?","opciones":["0,60 metros","0,90 metros","1,50 metros","2,00 metros"],"correcta":1,"explicacion":"Se admiten alteraciones puntuales de longitud inferior a 50 centímetros, siempre que dejen un paso mínimo de 0,90 metros de ancho (art. 66, apartado 2).","referencia":"Decreto 293/2009, art. 66, apartado 2"},{"pregunta":"Según el CTE, art. 13.5, ¿cómo deben extraerse las aguas residuales del edificio?","opciones":["De forma independiente o conjunta con las precipitaciones atmosféricas y las escorrentías","Solo mediante bombas portátiles","No se regula","Solo por la fachada, sin conexión a la red"],"correcta":0,"explicacion":"El artículo 13.5 exige medios adecuados para extraer las aguas residuales de forma independiente o conjunta con las precipitaciones atmosféricas y las escorrentías (exigencia HS 5).","referencia":"CTE, art. 13.5"},{"pregunta":"Según el DB-SI, SI 4, tabla 1.1, ¿qué eficacia mínima tiene el extintor portátil exigido con carácter general?","opciones":["55A-233B","2A-10B","21A-113B","34A-144B"],"correcta":2,"explicacion":"La tabla 1.1 exige un extintor portátil de eficacia 21A-113B, a no más de 15 metros de recorrido desde todo origen de evacuación.","referencia":"DB-SI, SI 4, tabla 1.1"},{"pregunta":"Según el DB-SI, SI 4, tabla 1.1, ¿a partir de qué altura de evacuación se exige un ascensor de emergencia?","opciones":["Más de 80 metros","Más de 9 metros","Más de 15 metros","Más de 28 metros"],"correcta":3,"explicacion":"El ascensor de emergencia se exige en las plantas cuya altura de evacuación exceda de 28 metros (SI 4, tabla 1.1).","referencia":"DB-SI, SI 4, tabla 1.1"},{"pregunta":"Según el DB-HR, apartado 2.2, ¿qué elemento limita este apartado?","opciones":["El consumo de agua caliente","El ruido reverberante en las zonas comunes, mediante acabados adecuados","El peso de las cimentaciones","La altura de los vallados de parcela"],"correcta":1,"explicacion":"El apartado 2.2 del DB-HR define los valores límite del tiempo de reverberación, y para limitar el ruido reverberante en las zonas comunes exige que los elementos constructivos y acabados sean adecuados.","referencia":"DB-HR, apartado 2.2"},{"pregunta":"Según la LPHE, art. 9, apartado 4, ¿puede declararse bien de interés cultural la obra de un autor vivo?","opciones":["Solo si el autor es arquitecto técnico","Sí, en todos los casos","No, salvo autorización expresa del propietario o adquisición por la Administración","Sí, si el autor lo solicita"],"correcta":2,"explicacion":"No puede declararse bien de interés cultural la obra de un autor vivo, salvo si existe autorización expresa de su propietario o media su adquisición por la Administración (LPHE, art. 9, apartado 4).","referencia":"LPHE, art. 9, apartado 4"},{"pregunta":"Según el DB-HR, apartado 2.3, punto 1, ¿qué deben limitar las instalaciones del edificio?","opciones":["El ruido y las vibraciones que transmiten a los recintos protegidos y habitables","El color de las tuberías","La altura de los techos","El número de ventanas"],"correcta":0,"explicacion":"Se limitarán los niveles de ruido y de vibraciones que las instalaciones puedan transmitir a los recintos protegidos y habitables, a través de sus sujeciones o puntos de contacto (DB-HR, apartado 2.3, punto 1).","referencia":"DB-HR, apartado 2.3, punto 1"},{"pregunta":"¿Qué decreto andaluz de accesibilidad se aplica a los usos sanitarios, culturales y de espectáculos?","opciones":["El Decreto 67/2011","El Decreto 293/2009","El Decreto 91/2020","El Decreto 105/2008"],"correcta":1,"explicacion":"El Decreto 293/2009 se aplica a esos usos según su art. 62.","referencia":"Decreto 293/2009, art. 62"},{"pregunta":"¿Qué ley regula el patrimonio histórico andaluz?","opciones":["La Ley 14/2007","La Ley 1/1991","La Ley 13/2005","La Ley 5/2025"],"correcta":0,"explicacion":"La Ley 14/2007 regula el Patrimonio Histórico de Andalucía.","referencia":"LPHA, Ley 14/2007"},{"pregunta":"¿Qué ley derogará la Ley 14/2007 del Patrimonio Histórico de Andalucía?","opciones":["La Ley 1/1991","La Ley 4/2026, de Patrimonio Cultural de Andalucía, con efectos desde el 7 de abril de 2027","La Ley 5/2025","Ninguna, seguirá vigente indefinidamente"],"correcta":1,"explicacion":"La Ley 4/2026, de 24 de marzo, de Patrimonio Cultural de Andalucía, deroga la Ley 14/2007 con efectos desde el 7 de abril de 2027.","referencia":"Ley 4/2026, disposición derogatoria única y final décima"},{"pregunta":"¿Qué ley estatal regula el Patrimonio Histórico Español?","opciones":["La Ley 14/2007","La Ley 37/2003","La Ley 22/2011","La Ley 16/1985"],"correcta":3,"explicacion":"La Ley 16/1985 regula el Patrimonio Histórico Español.","referencia":"LPHE, Ley 16/1985"},{"pregunta":"¿Qué norma tiene el uso sanitario en Andalucía?","opciones":["El Decreto 69/2008, según la normativa sectorial","El RD 842/2002","El RD 346/2011","La Ley 37/2003"],"correcta":0,"explicacion":"La normativa sanitaria se recoge en el Decreto 69/2008.","referencia":"Tema e37"},{"pregunta":"¿Qué ancho libre mínimo se exige en pasillos en el decreto de accesibilidad?","opciones":["0,30 m","1,20 m","5 m","No hay"],"correcta":1,"explicacion":"Los pasillos tienen un ancho libre mínimo de 1,20 m.","referencia":"Decreto 293/2009, art. 66.2"},{"pregunta":"¿Qué paso se admite en las alteraciones puntuales de un pasillo?","opciones":["Un paso de 5 m","Un paso de 10 cm","Un paso de 0,90 m","No hay"],"correcta":2,"explicacion":"Con alteraciones puntuales se admite un paso de 0,90 m.","referencia":"Decreto 293/2009, art. 66.2"},{"pregunta":"¿Qué longitud máxima tienen las alteraciones puntuales de un pasillo?","opciones":["Más de 5 m","Ilimitada","No hay","Menos de 50 cm"],"correcta":3,"explicacion":"Las alteraciones deben tener menos de 50 centímetros de longitud.","referencia":"Decreto 293/2009, art. 66.2"},{"pregunta":"¿Qué evacuación de aguas residuales exige el CTE?","opciones":["De forma independiente o conjunta con las pluviales","Solo en verano","Solo a mano","Ninguna"],"correcta":0,"explicacion":"El CTE permite la evacuación de forma independiente o conjunta con las pluviales.","referencia":"CTE, art. 13.5"},{"pregunta":"¿Qué tipo de extintor se exige en el DB-SI 4?","opciones":["De eficacia 0A","De eficacia 21A-113B","De agua con sal","Ninguno"],"correcta":1,"explicacion":"El DB-SI 4 exige extintor portátil de eficacia 21A-113B.","referencia":"DB-SI 4, tabla 1.1"},{"pregunta":"¿A partir de qué altura de evacuación se exige ascensor de emergencia?","opciones":["Por encima de 2 m","Por encima de 100 m","Por encima de 28 m","Nunca"],"correcta":2,"explicacion":"Se exige ascensor de emergencia en plantas con altura de evacuación superior a 28 m.","referencia":"DB-SI 4, tabla 1.1"},{"pregunta":"¿Qué tipo de ruido limita el DB-HR en las zonas comunes?","opciones":["El ruido de la lluvia","El ruido de la pesca","Ninguno","El ruido reverberante"],"correcta":3,"explicacion":"El DB-HR limita el ruido reverberante en las zonas comunes.","referencia":"DB-HR, apartado 2.2"},{"pregunta":"¿Qué está prohibido en las fachadas de los monumentos?","opciones":["La publicidad comercial y los cables, antenas y conducciones aparentes","Las ventanas","Las puertas","Las plantas"],"correcta":0,"explicacion":"En los monumentos se prohíben la publicidad comercial y los cables, antenas y conducciones aparentes en fachadas y cubiertas.","referencia":"LPHA, art. 33.2"},{"pregunta":"¿Puede declararse bien de interés cultural la obra de un autor vivo?","opciones":["Sí, siempre","No, salvo autorización del propietario o adquisición por la Administración","Solo si es de pintura","Solo si es de madera"],"correcta":1,"explicacion":"No puede declararse la obra de un autor vivo salvo esas excepciones.","referencia":"LPHE, art. 9.4"},{"pregunta":"¿Qué espacios culturales tienen la protección del título IX de la Ley 14/2007?","opciones":["Los gimnasios","Los garajes","Los espacios culturales en el patrimonio andaluz","Los vertederos"],"correcta":2,"explicacion":"El título IX de la Ley 14/2007 regula los espacios culturales.","referencia":"LPHA, título IX"},{"pregunta":"¿Qué uso del art. 62 corresponde a los sanitarios?","opciones":["La letra a","La letra z","No está","La letra c"],"correcta":3,"explicacion":"Los sanitarios están en la letra c del art. 62.","referencia":"Decreto 293/2009, art. 62 c)"},{"pregunta":"¿Qué uso del art. 62 corresponde a las actividades culturales y sociales?","opciones":["La letra e","La letra b","La letra f","No está"],"correcta":0,"explicacion":"Las actividades culturales y sociales están en la letra e.","referencia":"Decreto 293/2009, art. 62 e)"},{"pregunta":"¿Qué requisito de accesibilidad se exige en el acceso principal?","opciones":["Que sea secreto","Que sea accesible y al nivel de la calle si es posible","Que sea de cristal","Que no exista"],"correcta":1,"explicacion":"El acceso principal debe ser accesible y, si es posible, estar al nivel de la cota exterior.","referencia":"Decreto 293/2009, art. 64.1 a)"},{"pregunta":"¿Qué tipo de inmueble no puede desplazarse salvo causa de fuerza mayor o interés social?","opciones":["Un coche","Una silla","El inmueble inscrito en el catálogo","Una mesa"],"correcta":2,"explicacion":"El inmueble inscrito es inseparable de su lugar y solo puede desplazarse por causa justificada y autorización previa.","referencia":"LPHA, art. 33.1"},{"pregunta":"¿Qué autorización se necesita antes de cualquier obra en un bien inscrito?","opciones":["Ninguna","La del vecino","La del alcalde en solitario","La de la Consejería, previa a las restantes licencias"],"correcta":3,"explicacion":"Cualquier obra en un bien inscrito necesita autorización de la Consejería, previa a las demás licencias.","referencia":"LPHA, art. 33.3"},{"pregunta":"¿Qué ley andaluza regula la salud pública y los centros sanitarios?","opciones":["Ley 9/2007","Ley 1/2014","Ley 2/1998, de Salud de Andalucía","Ley 13/2007"],"correcta":2,"explicacion":"La Ley 2/1998, de Salud de Andalucía, regula el sistema sanitario de la Comunidad.","referencia":"Ley 2/1998"},{"pregunta":"¿Qué separación es esencial en un centro sanitario para evitar contaminación?","opciones":["Circuitos limpios y sucios","Circuitos de agua y de gas","Ascensor y escalera","Garaje y patio"],"correcta":0,"explicacion":"Los centros sanitarios separan circuitos limpios y sucios para evitar infecciones.","referencia":"Tema e37"},{"pregunta":"¿Qué instalación deportiva se regula con dimensiones reglamentarias?","opciones":["Escenarios teatrales","Pistas deportivas","Almacenes de aperos","Tiendas de campaña"],"correcta":1,"explicacion":"Las instalaciones deportivas deben cumplir las dimensiones reglamentarias de cada modalidad.","referencia":"Tema e37"},{"pregunta":"¿Qué tipo de centro requiere una sala de urgencias con acceso directo?","opciones":["Centro de jubilados","Biblioteca pública","Centro sanitario hospitalario","Museo de arte"],"correcta":2,"explicacion":"Los hospitales cuentan con urgencias de acceso directo desde el exterior.","referencia":"Tema e37"},{"pregunta":"¿Qué espacio cultural requiere control de aforo y evacuación?","opciones":["Aparcamientos sin uso público","Trasteros","Despensas","Teatros y auditorios"],"correcta":3,"explicacion":"Los teatros y auditorios tienen aforo y requisitos de evacuación regulados.","referencia":"CTE, DB-SI 3"},{"pregunta":"¿Qué normativa regula la seguridad de las instalaciones deportivas en el CTE?","opciones":["Documento de hidrología","Documento de ferrocarriles","Documento de caza","Documento básico de seguridad de utilización"],"correcta":3,"explicacion":"El DB-SUA regula la seguridad de utilización de las instalaciones.","referencia":"CTE, DB-SUA"},{"pregunta":"¿Qué concepto define la accesibilidad en centros culturales y deportivos?","opciones":["Accesibilidad universal","Acceso solo para socios","Acceso restringido por edad","Acceso sin control"],"correcta":0,"explicacion":"La accesibilidad universal permite el uso de los espacios a todas las personas.","referencia":"RDL 1/2013"},{"pregunta":"¿Qué riesgo sanitario se controla especialmente en un quirófano?","opciones":["Ruido de tráfico","Infección","Humedad de la fachada","Falta de color"],"correcta":1,"explicacion":"En quirófanos se controla la infección mediante ventilación y asepsia.","referencia":"Tema e37"},{"pregunta":"¿Qué tipo de valor se utiliza para los impuestos inmobiliarios?","opciones":["Valor sentimental","Valor de cambio de moneda","Valor catastral","Valor nutricional"],"correcta":2,"explicacion":"El valor catastral sirve de base para los impuestos sobre inmuebles.","referencia":"RDL 1/2004"},{"pregunta":"¿Qué requiere la ventilación de salas de tratamiento sanitario?","opciones":["Ausencia total de ventilación","Ventilación solo nocturna","Ventilación sin filtros","Renovación controlada del aire"],"correcta":3,"explicacion":"Las salas sanitarias requieren ventilación controlada para la calidad del aire.","referencia":"CTE, DB-HS 3"}]}
+{
+  "id": "e37",
+  "resumen": [
+    {
+      "titulo": "Marco normativo",
+      "puntos": [
+        "Tres capas: el CTE (arts. 10 a 15), el Decreto 293/2009 de accesibilidad en Andalucía y la normativa sectorial de cada uso. El Decreto 293/2009 se aplica a los usos sanitarios, culturales y de espectáculos (art. 62).",
+        "Normativa sanitaria: Decreto 69/2008, según la búsqueda, con requisitos en su anexo III, que no se ha leído. Patrimonio: Ley 14/2007, título IX, para los espacios culturales."
+      ]
+    },
+    {
+      "titulo": "Usos y accesibilidad",
+      "puntos": [
+        "El artículo 62 relaciona los usos, entre ellos los sanitarios (letra c) y las actividades culturales y sociales (letra e). El acceso principal debe ser accesible, al mismo nivel de la cota exterior siempre que sea posible (art. 64, apartado 1, letra a).",
+        "Aseos de uso público: al menos uno accesible y aislado en los edificios obligados (art. 77)."
+      ]
+    },
+    {
+      "titulo": "Circulaciones",
+      "puntos": [
+        "Pasillos: ancho mínimo libre de 1,20 metros, con alteraciones puntuales que dejen un paso de 0,90 metros (art. 66, apartado 2). Las alteraciones deben tener menos de 50 centímetros de longitud."
+      ]
+    },
+    {
+      "titulo": "Exigencias del CTE",
+      "puntos": [
+        "Evacuación de aguas residuales de forma independiente o conjunta con las pluviales (CTE, art. 13.5). Extintor portátil de eficacia 21A-113B (DB-SI 4, tabla 1.1). Ascensor de emergencia en plantas con altura de evacuación superior a 28 metros (DB-SI 4, tabla 1.1).",
+        "El DB-HR limita el ruido reverberante en las zonas comunes (DB-HR, apartado 2.2)."
+      ]
+    },
+    {
+      "titulo": "Patrimonio y bienes culturales",
+      "puntos": [
+        "En los monumentos está prohibida la colocación de publicidad comercial y de cables, antenas y conducciones aparentes en fachadas y cubiertas (LPHA, art. 33, apartado 2).",
+        "No puede declararse bien de interés cultural la obra de un autor vivo, salvo autorización del propietario o adquisición por la Administración (LPHE, art. 9, apartado 4)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "DEC-AND-293-2009",
+      "rol": "Accesibilidad en edificios de uso público: usos sanitarios y culturales (art. 62), accesos (art. 64), pasillos (art. 66) y aseos (art. 77)"
+    },
+    {
+      "id": "LPHA-14-2007",
+      "rol": "Patrimonio histórico andaluz: prohibiciones en monumentos y espacios culturales (arts. 33 y 75 a 83)"
+    },
+    {
+      "id": "CTE",
+      "rol": "Exigencias básicas de salubridad y seguridad en caso de incendio aplicables a los equipamientos (arts. 13 y 11)"
+    },
+    {
+      "id": "LPHE-16-1985",
+      "rol": "Declaración de bien de interés cultural por ley o real decreto: autor vivo (art. 9, apartado 4)"
+    },
+    {
+      "id": "DEC-AND-69-2008",
+      "rol": "Procedimientos de las Autorizaciones Sanitarias y Registro Andaluz de Centros, Servicios y Establecimientos Sanitarios"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el Decreto 293/2009, art. 62, letra c, ¿qué uso figura en la relación de edificios de uso público?",
+      "opciones": [
+        "Sanitarios",
+        "Ganadero",
+        "Agrícola",
+        "Forestal"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 62 incluye, en la letra c, los edificios sanitarios entre los usos a los que se aplica el Título II de accesibilidad.",
+      "referencia": "Decreto 293/2009, art. 62, letra c)"
+    },
+    {
+      "pregunta": "Según el Decreto 293/2009, art. 62, letra e, ¿qué uso aparece en la relación?",
+      "opciones": [
+        "Almacenes agrícolas",
+        "Viviendas unifamiliares aisladas",
+        "Actividades culturales y sociales",
+        "Explotaciones mineras"
+      ],
+      "correcta": 2,
+      "explicacion": "La letra e del artículo 62 incluye las actividades culturales y sociales entre los usos afectados por el Título II.",
+      "referencia": "Decreto 293/2009, art. 62, letra e)"
+    },
+    {
+      "pregunta": "Según el Decreto 293/2009, art. 77, ¿cuántos aseos de uso público accesibles y aislados deben disponer los edificios obligados por su normativa sectorial?",
+      "opciones": [
+        "Exactamente tres",
+        "Uno por cada veinte personas",
+        "Ninguno",
+        "Al menos uno"
+      ],
+      "correcta": 3,
+      "explicacion": "En los edificios obligados por su normativa sectorial a disponer de aseos aislados de uso público, al menos uno debe ser accesible (art. 77).",
+      "referencia": "Decreto 293/2009, art. 77"
+    },
+    {
+      "pregunta": "Según el Decreto 293/2009, art. 66, apartado 2, ¿qué paso mínimo debe quedar cuando la alteración puntual de un pasillo es inferior a 50 centímetros?",
+      "opciones": [
+        "0,60 metros",
+        "0,90 metros",
+        "1,50 metros",
+        "2,00 metros"
+      ],
+      "correcta": 1,
+      "explicacion": "Se admiten alteraciones puntuales de longitud inferior a 50 centímetros, siempre que dejen un paso mínimo de 0,90 metros de ancho (art. 66, apartado 2).",
+      "referencia": "Decreto 293/2009, art. 66, apartado 2"
+    },
+    {
+      "pregunta": "Según el CTE, art. 13.5, ¿cómo deben extraerse las aguas residuales del edificio?",
+      "opciones": [
+        "De forma independiente o conjunta con las precipitaciones atmosféricas y las escorrentías",
+        "Solo mediante bombas portátiles",
+        "No se regula",
+        "Solo por la fachada, sin conexión a la red"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 13.5 exige medios adecuados para extraer las aguas residuales de forma independiente o conjunta con las precipitaciones atmosféricas y las escorrentías (exigencia HS 5).",
+      "referencia": "CTE, art. 13.5"
+    },
+    {
+      "pregunta": "Según el DB-SI, SI 4, tabla 1.1, ¿qué eficacia mínima tiene el extintor portátil exigido con carácter general?",
+      "opciones": [
+        "55A-233B",
+        "2A-10B",
+        "21A-113B",
+        "34A-144B"
+      ],
+      "correcta": 2,
+      "explicacion": "La tabla 1.1 exige un extintor portátil de eficacia 21A-113B, a no más de 15 metros de recorrido desde todo origen de evacuación.",
+      "referencia": "DB-SI, SI 4, tabla 1.1"
+    },
+    {
+      "pregunta": "Según el DB-SI, SI 4, tabla 1.1, ¿a partir de qué altura de evacuación se exige un ascensor de emergencia?",
+      "opciones": [
+        "Más de 80 metros",
+        "Más de 9 metros",
+        "Más de 15 metros",
+        "Más de 28 metros"
+      ],
+      "correcta": 3,
+      "explicacion": "El ascensor de emergencia se exige en las plantas cuya altura de evacuación exceda de 28 metros (SI 4, tabla 1.1).",
+      "referencia": "DB-SI, SI 4, tabla 1.1"
+    },
+    {
+      "pregunta": "Según el DB-HR, apartado 2.2, ¿qué elemento limita este apartado?",
+      "opciones": [
+        "El consumo de agua caliente",
+        "El ruido reverberante en las zonas comunes, mediante acabados adecuados",
+        "El peso de las cimentaciones",
+        "La altura de los vallados de parcela"
+      ],
+      "correcta": 1,
+      "explicacion": "El apartado 2.2 del DB-HR define los valores límite del tiempo de reverberación, y para limitar el ruido reverberante en las zonas comunes exige que los elementos constructivos y acabados sean adecuados.",
+      "referencia": "DB-HR, apartado 2.2"
+    },
+    {
+      "pregunta": "Según la LPHE, art. 9, apartado 4, ¿puede declararse bien de interés cultural la obra de un autor vivo?",
+      "opciones": [
+        "Solo si el autor es arquitecto técnico",
+        "Sí, en todos los casos",
+        "No, salvo autorización expresa del propietario o adquisición por la Administración",
+        "Sí, si el autor lo solicita"
+      ],
+      "correcta": 2,
+      "explicacion": "No puede declararse bien de interés cultural la obra de un autor vivo, salvo si existe autorización expresa de su propietario o media su adquisición por la Administración (LPHE, art. 9, apartado 4).",
+      "referencia": "LPHE, art. 9, apartado 4"
+    },
+    {
+      "pregunta": "Según el DB-HR, apartado 2.3, punto 1, ¿qué deben limitar las instalaciones del edificio?",
+      "opciones": [
+        "El ruido y las vibraciones que transmiten a los recintos protegidos y habitables",
+        "El color de las tuberías",
+        "La altura de los techos",
+        "El número de ventanas"
+      ],
+      "correcta": 0,
+      "explicacion": "Se limitarán los niveles de ruido y de vibraciones que las instalaciones puedan transmitir a los recintos protegidos y habitables, a través de sus sujeciones o puntos de contacto (DB-HR, apartado 2.3, punto 1).",
+      "referencia": "DB-HR, apartado 2.3, punto 1"
+    },
+    {
+      "pregunta": "¿Qué decreto andaluz de accesibilidad se aplica a los usos sanitarios, culturales y de espectáculos?",
+      "opciones": [
+        "El Decreto 67/2011",
+        "El Decreto 293/2009",
+        "El Decreto 91/2020",
+        "El Decreto 105/2008"
+      ],
+      "correcta": 1,
+      "explicacion": "El Decreto 293/2009 se aplica a esos usos según su art. 62.",
+      "referencia": "Decreto 293/2009, art. 62"
+    },
+    {
+      "pregunta": "¿Qué ley regula el patrimonio histórico andaluz?",
+      "opciones": [
+        "La Ley 14/2007",
+        "La Ley 1/1991",
+        "La Ley 13/2005",
+        "La Ley 5/2025"
+      ],
+      "correcta": 0,
+      "explicacion": "La Ley 14/2007 regula el Patrimonio Histórico de Andalucía.",
+      "referencia": "LPHA, Ley 14/2007"
+    },
+    {
+      "pregunta": "¿Qué ley derogará la Ley 14/2007 del Patrimonio Histórico de Andalucía?",
+      "opciones": [
+        "La Ley 1/1991",
+        "La Ley 4/2026, de Patrimonio Cultural de Andalucía, con efectos desde el 7 de abril de 2027",
+        "La Ley 5/2025",
+        "Ninguna, seguirá vigente indefinidamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La Ley 4/2026, de 24 de marzo, de Patrimonio Cultural de Andalucía, deroga la Ley 14/2007 con efectos desde el 7 de abril de 2027.",
+      "referencia": "Ley 4/2026, disposición derogatoria única y final décima"
+    },
+    {
+      "pregunta": "¿Qué ley estatal regula el Patrimonio Histórico Español?",
+      "opciones": [
+        "La Ley 14/2007",
+        "La Ley 37/2003",
+        "La Ley 22/2011",
+        "La Ley 16/1985"
+      ],
+      "correcta": 3,
+      "explicacion": "La Ley 16/1985 regula el Patrimonio Histórico Español.",
+      "referencia": "LPHE, Ley 16/1985"
+    },
+    {
+      "pregunta": "¿Qué norma tiene el uso sanitario en Andalucía?",
+      "opciones": [
+        "El Decreto 69/2008, según la normativa sectorial",
+        "El RD 842/2002",
+        "El RD 346/2011",
+        "La Ley 37/2003"
+      ],
+      "correcta": 0,
+      "explicacion": "La normativa sanitaria se recoge en el Decreto 69/2008.",
+      "referencia": "Tema e37"
+    },
+    {
+      "pregunta": "¿Qué ancho libre mínimo se exige en pasillos en el decreto de accesibilidad?",
+      "opciones": [
+        "0,30 m",
+        "1,20 m",
+        "5 m",
+        "No hay"
+      ],
+      "correcta": 1,
+      "explicacion": "Los pasillos tienen un ancho libre mínimo de 1,20 m.",
+      "referencia": "Decreto 293/2009, art. 66.2"
+    },
+    {
+      "pregunta": "¿Qué paso se admite en las alteraciones puntuales de un pasillo?",
+      "opciones": [
+        "Un paso de 5 m",
+        "Un paso de 10 cm",
+        "Un paso de 0,90 m",
+        "No hay"
+      ],
+      "correcta": 2,
+      "explicacion": "Con alteraciones puntuales se admite un paso de 0,90 m.",
+      "referencia": "Decreto 293/2009, art. 66.2"
+    },
+    {
+      "pregunta": "¿Qué longitud máxima tienen las alteraciones puntuales de un pasillo?",
+      "opciones": [
+        "Más de 5 m",
+        "Ilimitada",
+        "No hay",
+        "Menos de 50 cm"
+      ],
+      "correcta": 3,
+      "explicacion": "Las alteraciones deben tener menos de 50 centímetros de longitud.",
+      "referencia": "Decreto 293/2009, art. 66.2"
+    },
+    {
+      "pregunta": "¿Qué evacuación de aguas residuales exige el CTE?",
+      "opciones": [
+        "De forma independiente o conjunta con las pluviales",
+        "Solo en verano",
+        "Solo a mano",
+        "Ninguna"
+      ],
+      "correcta": 0,
+      "explicacion": "El CTE permite la evacuación de forma independiente o conjunta con las pluviales.",
+      "referencia": "CTE, art. 13.5"
+    },
+    {
+      "pregunta": "¿Qué tipo de extintor se exige en el DB-SI 4?",
+      "opciones": [
+        "De eficacia 0A",
+        "De eficacia 21A-113B",
+        "De agua con sal",
+        "Ninguno"
+      ],
+      "correcta": 1,
+      "explicacion": "El DB-SI 4 exige extintor portátil de eficacia 21A-113B.",
+      "referencia": "DB-SI 4, tabla 1.1"
+    },
+    {
+      "pregunta": "¿A partir de qué altura de evacuación se exige ascensor de emergencia?",
+      "opciones": [
+        "Por encima de 2 m",
+        "Por encima de 100 m",
+        "Por encima de 28 m",
+        "Nunca"
+      ],
+      "correcta": 2,
+      "explicacion": "Se exige ascensor de emergencia en plantas con altura de evacuación superior a 28 m.",
+      "referencia": "DB-SI 4, tabla 1.1"
+    },
+    {
+      "pregunta": "¿Qué tipo de ruido limita el DB-HR en las zonas comunes?",
+      "opciones": [
+        "El ruido de la lluvia",
+        "El ruido de la pesca",
+        "Ninguno",
+        "El ruido reverberante"
+      ],
+      "correcta": 3,
+      "explicacion": "El DB-HR limita el ruido reverberante en las zonas comunes.",
+      "referencia": "DB-HR, apartado 2.2"
+    },
+    {
+      "pregunta": "¿Qué está prohibido en las fachadas de los monumentos?",
+      "opciones": [
+        "La publicidad comercial y los cables, antenas y conducciones aparentes",
+        "Las ventanas",
+        "Las puertas",
+        "Las plantas"
+      ],
+      "correcta": 0,
+      "explicacion": "En los monumentos se prohíben la publicidad comercial y los cables, antenas y conducciones aparentes en fachadas y cubiertas.",
+      "referencia": "LPHA, art. 33.2"
+    },
+    {
+      "pregunta": "¿Puede declararse bien de interés cultural la obra de un autor vivo?",
+      "opciones": [
+        "Sí, siempre",
+        "No, salvo autorización del propietario o adquisición por la Administración",
+        "Solo si es de pintura",
+        "Solo si es de madera"
+      ],
+      "correcta": 1,
+      "explicacion": "No puede declararse la obra de un autor vivo salvo esas excepciones.",
+      "referencia": "LPHE, art. 9.4"
+    },
+    {
+      "pregunta": "¿Qué espacios culturales tienen la protección del título IX de la Ley 14/2007?",
+      "opciones": [
+        "Los gimnasios",
+        "Los garajes",
+        "Los espacios culturales en el patrimonio andaluz",
+        "Los vertederos"
+      ],
+      "correcta": 2,
+      "explicacion": "El título IX de la Ley 14/2007 regula los espacios culturales.",
+      "referencia": "LPHA, título IX"
+    },
+    {
+      "pregunta": "¿Qué uso del art. 62 corresponde a los sanitarios?",
+      "opciones": [
+        "La letra a",
+        "La letra z",
+        "No está",
+        "La letra c"
+      ],
+      "correcta": 3,
+      "explicacion": "Los sanitarios están en la letra c del art. 62.",
+      "referencia": "Decreto 293/2009, art. 62 c)"
+    },
+    {
+      "pregunta": "¿Qué uso del art. 62 corresponde a las actividades culturales y sociales?",
+      "opciones": [
+        "La letra e",
+        "La letra b",
+        "La letra f",
+        "No está"
+      ],
+      "correcta": 0,
+      "explicacion": "Las actividades culturales y sociales están en la letra e.",
+      "referencia": "Decreto 293/2009, art. 62 e)"
+    },
+    {
+      "pregunta": "¿Qué requisito de accesibilidad se exige en el acceso principal?",
+      "opciones": [
+        "Que sea secreto",
+        "Que sea accesible y al nivel de la calle si es posible",
+        "Que sea de cristal",
+        "Que no exista"
+      ],
+      "correcta": 1,
+      "explicacion": "El acceso principal debe ser accesible y, si es posible, estar al nivel de la cota exterior.",
+      "referencia": "Decreto 293/2009, art. 64.1 a)"
+    },
+    {
+      "pregunta": "¿Qué tipo de inmueble no puede desplazarse salvo causa de fuerza mayor o interés social?",
+      "opciones": [
+        "Un coche",
+        "Una silla",
+        "El inmueble inscrito en el catálogo",
+        "Una mesa"
+      ],
+      "correcta": 2,
+      "explicacion": "El inmueble inscrito es inseparable de su lugar y solo puede desplazarse por causa justificada y autorización previa.",
+      "referencia": "LPHA, art. 33.1"
+    },
+    {
+      "pregunta": "¿Qué autorización se necesita antes de cualquier obra en un bien inscrito?",
+      "opciones": [
+        "Ninguna",
+        "La del vecino",
+        "La del alcalde en solitario",
+        "La de la Consejería, previa a las restantes licencias"
+      ],
+      "correcta": 3,
+      "explicacion": "Cualquier obra en un bien inscrito necesita autorización de la Consejería, previa a las demás licencias.",
+      "referencia": "LPHA, art. 33.3"
+    },
+    {
+      "pregunta": "¿Qué ley andaluza regula la salud pública y los centros sanitarios?",
+      "opciones": [
+        "Ley 9/2007",
+        "Ley 1/2014",
+        "Ley 2/1998, de Salud de Andalucía",
+        "Ley 13/2007"
+      ],
+      "correcta": 2,
+      "explicacion": "La Ley 2/1998, de Salud de Andalucía, regula el sistema sanitario de la Comunidad.",
+      "referencia": "Ley 2/1998"
+    },
+    {
+      "pregunta": "¿Qué separación es esencial en un centro sanitario para evitar contaminación?",
+      "opciones": [
+        "Circuitos limpios y sucios",
+        "Circuitos de agua y de gas",
+        "Ascensor y escalera",
+        "Garaje y patio"
+      ],
+      "correcta": 0,
+      "explicacion": "Los centros sanitarios separan circuitos limpios y sucios para evitar infecciones.",
+      "referencia": "Tema e37"
+    },
+    {
+      "pregunta": "¿Qué instalación deportiva se regula con dimensiones reglamentarias?",
+      "opciones": [
+        "Escenarios teatrales",
+        "Pistas deportivas",
+        "Almacenes de aperos",
+        "Tiendas de campaña"
+      ],
+      "correcta": 1,
+      "explicacion": "Las instalaciones deportivas deben cumplir las dimensiones reglamentarias de cada modalidad.",
+      "referencia": "Tema e37"
+    },
+    {
+      "pregunta": "¿Qué tipo de centro requiere una sala de urgencias con acceso directo?",
+      "opciones": [
+        "Centro de jubilados",
+        "Biblioteca pública",
+        "Centro sanitario hospitalario",
+        "Museo de arte"
+      ],
+      "correcta": 2,
+      "explicacion": "Los hospitales cuentan con urgencias de acceso directo desde el exterior.",
+      "referencia": "Tema e37"
+    },
+    {
+      "pregunta": "¿Qué espacio cultural requiere control de aforo y evacuación?",
+      "opciones": [
+        "Aparcamientos sin uso público",
+        "Trasteros",
+        "Despensas",
+        "Teatros y auditorios"
+      ],
+      "correcta": 3,
+      "explicacion": "Los teatros y auditorios tienen aforo y requisitos de evacuación regulados.",
+      "referencia": "CTE, DB-SI 3"
+    },
+    {
+      "pregunta": "¿Qué normativa regula la seguridad de las instalaciones deportivas en el CTE?",
+      "opciones": [
+        "Documento de hidrología",
+        "Documento de ferrocarriles",
+        "Documento de caza",
+        "Documento básico de seguridad de utilización"
+      ],
+      "correcta": 3,
+      "explicacion": "El DB-SUA regula la seguridad de utilización de las instalaciones.",
+      "referencia": "CTE, DB-SUA"
+    },
+    {
+      "pregunta": "¿Qué concepto define la accesibilidad en centros culturales y deportivos?",
+      "opciones": [
+        "Accesibilidad universal",
+        "Acceso solo para socios",
+        "Acceso restringido por edad",
+        "Acceso sin control"
+      ],
+      "correcta": 0,
+      "explicacion": "La accesibilidad universal permite el uso de los espacios a todas las personas.",
+      "referencia": "RDL 1/2013"
+    },
+    {
+      "pregunta": "¿Qué riesgo sanitario se controla especialmente en un quirófano?",
+      "opciones": [
+        "Ruido de tráfico",
+        "Infección",
+        "Humedad de la fachada",
+        "Falta de color"
+      ],
+      "correcta": 1,
+      "explicacion": "En quirófanos se controla la infección mediante ventilación y asepsia.",
+      "referencia": "Tema e37"
+    },
+    {
+      "pregunta": "¿Qué tipo de valor se utiliza para los impuestos inmobiliarios?",
+      "opciones": [
+        "Valor sentimental",
+        "Valor de cambio de moneda",
+        "Valor catastral",
+        "Valor nutricional"
+      ],
+      "correcta": 2,
+      "explicacion": "El valor catastral sirve de base para los impuestos sobre inmuebles.",
+      "referencia": "RDL 1/2004"
+    },
+    {
+      "pregunta": "¿Qué requiere la ventilación de salas de tratamiento sanitario?",
+      "opciones": [
+        "Ausencia total de ventilación",
+        "Ventilación solo nocturna",
+        "Ventilación sin filtros",
+        "Renovación controlada del aire"
+      ],
+      "correcta": 3,
+      "explicacion": "Las salas sanitarias requieren ventilación controlada para la calidad del aire.",
+      "referencia": "CTE, DB-HS 3"
+    }
+  ]
+}

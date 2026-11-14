@@ -112,7 +112,7 @@
       "parrafos": [
         "La interoperabilidad es la capacidad de dos o más sistemas para intercambiar información y utilizarla. Se logra con estándares de formato de datos, protocolos comunes y servicios bien definidos, y es esencial en las organizaciones con muchos sistemas heredados.",
         "La integración puede hacerse mediante intercambio de ficheros, llamadas a servicios web, colas de mensajes o un bus de servicios. Cada opción tiene un coste de mantenimiento y de rendimiento distinto. Para un examen, conviene distinguir interoperabilidad (poder intercambiar) de integración (conectar los procesos).",
-        "La Administración electrónica exige interoperabilidad entre administraciones. Las normas que lo regulan en el ámbito estatal no están en el repositorio y Su texto completo está indexado y disponible en el visor de normas del repositorio."
+        "La Administración electrónica exige interoperabilidad entre administraciones. Las normas que lo regulan en el ámbito estatal (su texto completo está indexado y disponible en el visor de normas del repositorio)."
       ]
     },
     {
@@ -128,7 +128,7 @@
       "parrafos": [
         "La arquitectura debe prever desde el diseño cómo se protegen los datos personales, quién accede a ellos y durante cuánto tiempo se conservan. Un sistema administrativo que trata datos de ciudadanos debe respetar la normativa de protección de datos, y el artículo 7.3 LAJA lo exige en las relaciones electrónicas con la Junta.",
         "La calidad de los datos (exactitud, completitud, actualidad y coherencia entre sistemas) es una propiedad de la arquitectura tanto como del programa. Un dato duplicado en dos sistemas sin sincronización acaba siendo contradictorio.",
-        "Para un examen, la pregunta es si la protección de datos es un asunto del diseño. Respuesta: sí, debe incorporarse desde el diseño y no añadirse después; la norma concreta que lo regula (LOPDGDD) Su texto completo está indexado y disponible en el visor de normas del repositorio."
+        "Para un examen, la pregunta es si la protección de datos es un asunto del diseño. Respuesta: sí, debe incorporarse desde el diseño y no añadirse después; la norma concreta que lo regula (LOPDGDD); su texto completo está indexado y disponible en el visor de normas del repositorio."
       ]
     },
     {
@@ -152,7 +152,7 @@
       "parrafos": [
         "La seguridad de la información se resume en tres propiedades: confidencialidad, integridad y disponibilidad. Una arquitectura debe proteger los datos frente a accesos no autorizados, garantizar que no se alteren sin control y asegurar que el servicio esté disponible cuando se necesita.",
         "La continuidad del servicio se apoya en la redundancia de componentes, las copias de seguridad y los planes de recuperación. La arquitectura en niveles ayuda a aislar fallos.",
-        "Para un examen, las tres propiedades son el núcleo de la seguridad. El esquema nacional de seguridad de la Administración electrónica exige aplicarlas, pero su texto no está en el repositorio y Su texto completo está indexado y disponible en el visor de normas del repositorio."
+        "Para un examen, las tres propiedades son el núcleo de la seguridad. El esquema nacional de seguridad de la Administración electrónica exige aplicarlas, pero su texto (su texto completo está indexado y disponible en el visor de normas del repositorio)."
       ]
     },
     {

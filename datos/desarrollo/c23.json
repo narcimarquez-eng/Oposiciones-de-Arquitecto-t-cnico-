@@ -1,1 +1,274 @@
-{"id":"c23","titulo_tema":"Los sistemas operativos, los sistemas de gestión de bases de datos, la tipología de los sistemas de información, el correo electrónico e Internet, y referencia a los sistemas adoptados por la Junta de Andalucía","extension":"Desarrollo extenso (aprox. 10 páginas)","secciones":[{"titulo":"1. Los sistemas operativos: funciones y clases","parrafos":["El sistema operativo es el software de base que gestiona los recursos del equipo y ofrece a las aplicaciones un entorno común. Sus funciones principales son la gestión de procesos, de memoria, de dispositivos de entrada y salida y de ficheros, y la protección de unos recursos frente a otros.","Según el número de usuarios se distinguen los sistemas monousuario, que atienden a una sola persona, y los multiusuario, que permiten el acceso simultáneo de varias. Según la forma de trabajo, se distinguen los sistemas por lotes (batch), que procesan trabajos completos sin interacción, los interactivos o de tiempo compartido, que atienden a cada usuario en turnos breves, y los de tiempo real, que responden en un plazo garantizado.","Para un examen, la clasificación se pregunta con ejemplos. Un sistema de control industrial con respuesta garantizada es de tiempo real; un servidor de archivos que atiende a muchos usuarios a la vez es multiusuario."]},{"titulo":"2. Gestión de procesos, memoria y ficheros en el sistema operativo","parrafos":["El planificador decide qué proceso ocupa la CPU en cada momento, y el cambio de contexto guarda el estado del proceso que deja la CPU para restaurar el del siguiente. Los procesos pueden estar listos, en ejecución, bloqueados o terminados.","La gestión de memoria asigna espacio a los procesos y los protege entre sí. La memoria virtual permite ejecutar programas mayores que la memoria física, paginando partes de ellos en el almacenamiento secundario.","El sistema de ficheros organiza los datos en archivos y directorios, y controla los permisos de acceso. Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado: espera un recurso y no ocupa la CPU."]},{"titulo":"3. Sistemas operativos de uso habitual en la Administración","parrafos":["En las organizaciones públicas conviven sistemas operativos de escritorio, usados por los empleados en sus puestos, y sistemas de servidor, que alojan las aplicaciones y los datos. Las familias más extendidas son las de tipo Windows y las de tipo Unix o Linux.","La elección depende de la compatibilidad con las aplicaciones, de la seguridad, de los costes de licencia y del soporte del fabricante o de la comunidad. La reutilización de aplicaciones entre Administraciones se rige por el artículo 157 LRJSP; la elección entre software libre y propietario depende de la normativa de contratación, que Su texto completo está indexado y disponible en el visor de normas del repositorio.","Para un examen, la distinción clave es entre el sistema de escritorio y el de servidor. Cada uno tiene prioridades distintas: el primero, la usabilidad; el segundo, la disponibilidad y el rendimiento."]},{"titulo":"4. Sistemas de gestión de bases de datos: funciones","parrafos":["Un sistema de gestión de bases de datos (SGBD) es el software que crea, mantiene y da acceso a una base de datos. Sus funciones son definir la estructura de los datos, manipularlos (consultar, insertar, modificar y borrar), controlar el acceso y garantizar la integridad y la seguridad.","El SGBD separa los datos de las aplicaciones. Varias aplicaciones pueden usar la misma base sin conocer cómo se almacenan los datos, lo que facilita el mantenimiento y evita duplicidades.","Para un examen, la diferencia básica es entre el lenguaje de definición de datos (que crea la estructura) y el de manipulación (que trabaja con los datos). Las consultas habituales se expresan en SQL."]},{"titulo":"5. Modelos de datos y transacciones","parrafos":["El modelo relacional organiza los datos en tablas con filas y columnas, relacionadas por claves primarias y externas. Otros modelos son el jerárquico, el de red, el documental y el de grafos, adecuados a estructuras concretas.","Una transacción es una secuencia de operaciones que debe completarse entera o no completarse en absoluto. Las propiedades ACID (atomicidad, consistencia, aislamiento y durabilidad) garantizan que las transacciones mantienen los datos correctos aun ante fallos.","Para un examen, la pregunta típica es qué garantiza la atomicidad. Respuesta: que la transacción se complete del todo o no se aplique en absoluto."]},{"titulo":"6. Copias de seguridad, concurrencia y recuperación","parrafos":["El SGBD controla la concurrencia para que varios usuarios accedan a la vez sin corromper los datos. Usa mecanismos como los bloqueos y el control de versiones.","La recuperación ante fallos se basa en copias de seguridad completas e incrementales y en registros de transacciones que permiten rehacer o deshacer operaciones. Una base de datos sin copias verificadas no es segura, aunque tenga un buen SGBD.","Para un examen, la diferencia entre copia completa e incremental es el volumen: la incremental guarda solo los cambios desde la última copia."]},{"titulo":"7. Tipología de los sistemas de información","parrafos":["Un sistema de información es el conjunto de elementos que recogen, almacenan, procesan y distribuyen información para apoyar las funciones de una organización. Se clasifican según la función que cumplen y el nivel de dirección al que sirven.","Los sistemas de procesamiento de transacciones (TPS) registran las operaciones diarias, como una solicitud o un pago. Los sistemas de información de gestión (MIS) resumen esos datos para el control. Los sistemas de ayuda a la decisión (DSS) analizan alternativas para una decisión concreta.","Para un examen, la diferencia es el nivel: el TPS sirve al nivel operativo; el MIS, al táctico; el DSS y los sistemas de dirección, al estratégico."]},{"titulo":"8. Sistemas de ayuda a la decisión y de dirección","parrafos":["Los sistemas de ayuda a la decisión combinan datos y modelos para simular escenarios y comparar opciones. Los sistemas de información para dirección (EIS) presentan indicadores clave a los directivos de forma resumida y visual.","Los sistemas de inteligencia de negocio agregan datos de varias fuentes en almacenes de datos (data warehouse) para su análisis. Permiten consultas multidimensionales y cuadros de mando.","Para un examen, la pregunta típica es la diferencia entre un DSS y un MIS. Respuesta: el DSS ayuda a elegir entre alternativas concretas; el MIS informa de forma periódica sobre el desempeño."]},{"titulo":"9. Sistemas de trabajo en grupo","parrafos":["Los sistemas de trabajo en grupo (groupware) apoyan la colaboración entre personas que trabajan juntas, aunque estén en lugares distintos. Incluyen la mensajería, la agenda compartida, la edición colaborativa de documentos y los flujos de trabajo.","Los flujos de trabajo (workflow) automatizan la secuencia de tareas de un procedimiento: quién hace qué y cuándo. Son la base de la gestión de expedientes en la Administración.","Para un examen, la diferencia es que el groupware apoya la colaboración; el workflow ordena las tareas de un proceso."]},{"titulo":"10. Sistemas de tratamiento, almacenamiento y archivo de documentos","parrafos":["Los sistemas de gestión documental tratan, almacenan y recuperan documentos electrónicos. Incluyen la captura, la clasificación, el control de versiones, la búsqueda y la conservación de los documentos durante su plazo.","En la Administración, el archivo electrónico de documentos de procedimientos finalizados es obligatorio para cada Administración (art. 17.1 LPAC). Los documentos deben conservarse en un formato que garantice su autenticidad, integridad y consulta (art. 17.2 LPAC).","Para un examen, la diferencia es entre gestión documental (trabajo diario) y archivo (conservación a largo plazo). La LPAC impone el archivo electrónico único."]},{"titulo":"11. Sistemas para el tratamiento estadístico","parrafos":["Los sistemas estadísticos recogen datos, los validan, los analizan y presentan resultados. Usan técnicas descriptivas (medias, distribuciones, tablas) e inferenciales (estimaciones y contrastes de hipótesis).","En la Administración, la estadística sirve para planificar políticas públicas, evaluarlas y cumplir obligaciones de información. Los datos personales utilizados deben tratarse respetando la protección de datos y, cuando se ceden a otras Administraciones, las condiciones de transmisión (art. 155 LRJSP).","Para un examen, la pregunta típica es qué condiciones exige la cesión de datos entre Administraciones. Respuesta: condiciones, protocolos y criterios técnicos previos y respeto a la protección de datos (art. 155 LRJSP)."]},{"titulo":"12. Sistemas inteligentes","parrafos":["Los sistemas inteligentes incluyen los sistemas expertos, que aplican reglas de un dominio concreto para dar conclusiones, y las técnicas de aprendizaje automático, que aprenden patrones de los datos. Su uso en la Administración debe ser explicable y revisable.","La actuación automatizada de la Administración (art. 41 LRJSP) no es necesariamente inteligente. Cuando incorpora reglas complejas, debe estar identificado el órgano responsable de su especificación, su mantenimiento y su supervisión (art. 41.2 LRJSP).","Para un examen, la pregunta típica es qué diferencia a un sistema experto del aprendizaje automático. Respuesta: el primero aplica reglas explícitas; el segundo las extrae de los datos."]},{"titulo":"13. El correo electrónico","parrafos":["El correo electrónico transmite mensajes entre usuarios mediante servidores de correo. Se apoya en protocolos como SMTP para enviar y en IMAP o POP para recibir. Los mensajes pueden llevar archivos adjuntos y firmas electrónicas.","En la Administración, el correo tiene valor de comunicación, pero las notificaciones formales siguen los cauces de la LPAC. La seguridad del correo exige cifrado, control de los adjuntos y protección frente al engaño (phishing).","Para un examen, la diferencia es que el correo transmite mensajes; la validez jurídica de una notificación depende de la forma establecida en la ley, no del medio en sí."]},{"titulo":"14. Internet y los servicios web","parrafos":["Internet es una red mundial de redes que usa el protocolo TCP/IP. Sobre ella funcionan servicios como la web (protocolo HTTP o HTTPS), el correo, la transferencia de ficheros y la resolución de nombres mediante DNS.","Un sitio web de la Administración suele ser su sede o su portal de internet, con las obligaciones que la LRJSP fija para cada uno (arts. 38 y 39 LRJSP). El protocolo HTTPS cifra la comunicación entre el navegador y el servidor.","Para un examen, la diferencia entre HTTP y HTTPS es el cifrado: HTTPS protege la comunicación frente a la interceptación."]},{"titulo":"15. Los sistemas de información de la Junta de Andalucía","parrafos":["El tema pide concretar los sistemas adoptados por la Junta de Andalucía. Esa concreción depende de la planificación tecnológica de la Junta, de sus contratos y de su inventario de sistemas (disponible y verificado en el repositorio) en este tema.","Lo que puede afirmarse con las normas verificadas es el marco: la Junta aplica las tecnologías de la información para mejorar su eficacia (art. 7.1 LAJA), los registros y archivos electrónicos son obligatorios (arts. 16 y 17 LPAC), y la reutilización de aplicaciones entre Administraciones se rige por el artículo 157 LRJSP.","Para un examen, cite el marco verificado y advierta que la relación concreta de sistemas debe comprobarse en la documentación oficial vigente antes de citarla."]},{"titulo":"16. El registro electrónico como sistema de información","parrafos":["El registro electrónico general es un sistema de información que asienta la presentación y salida de documentos (art. 16.1 LPAC). Su funcionamiento se apoya en una base de datos con asientos ordenados por fecha y hora (art. 16.2 LPAC).","El registro debe cumplir las garantías de la protección de datos y tener publicadas sus disposiciones de creación, con la fecha y hora oficial y los días inhábiles (art. 16.1 LPAC). Es un ejemplo de cómo un sistema de información tiene reglas jurídicas además de técnicas.","Para un examen, la pregunta típica es qué datos debe reflejar el registro electrónico. Respuesta: el asiento con el orden temporal de recepción o salida (art. 16.2 LPAC)."]},{"titulo":"17. Errores frecuentes en el examen","parrafos":["Confundir el sistema operativo con una aplicación. El sistema operativo gestiona los recursos; la aplicación resuelve un problema del usuario.","Confundir el SGBD con la base de datos. La base contiene los datos; el SGBD es el software que los gestiona.","Confundir el TPS con el DSS. El primero registra operaciones; el segundo ayuda a decidir entre alternativas.","Confundir el groupware con el workflow. El primero apoya la colaboración; el segundo ordena las tareas del proceso.","Afirmar que el correo electrónico tiene por sí solo valor de notificación formal. La validez depende de la forma establecida en la LPAC.","Confundir el controlador con el sistema operativo. El controlador traduce las órdenes para un dispositivo concreto; el sistema operativo los coordina a todos.","Confundir la base transaccional con el almacén de datos. La primera sirve a la operación diaria; el segundo, al análisis.","Confundir el registro de personal con la nómina. El registro es un instrumento de información sobre el personal; la nómina es el documento de pago de sus retribuciones."]},{"titulo":"18. Casos prácticos","parrafos":["Caso 1: una base de datos de expedientes se corrompe tras un fallo eléctrico. Si el SGBD tiene registros de transacciones y copias verificadas, la recuperación rehace o deshace las operaciones pendientes. Sin copias, la pérdida puede ser total.","Caso 2: una dirección general necesita comparar tres alternativas para repartir un presupuesto. Procede un sistema de ayuda a la decisión que simule los escenarios, no un sistema transaccional (TPS).","Caso 3: un expediente finalizado debe conservarse durante años. Debe ir al archivo electrónico único en un formato que garantice su autenticidad e integridad (arts. 17.1 y 17.2 LPAC).","Caso 4: una dirección quiere saber la evolución de los expedientes de cinco años para planificar recursos. Procede un almacén de datos que integre los históricos, no la consulta directa a la base transaccional, que está optimizada para la operación diaria."]},{"titulo":"19. Cuestiones tipo de examen","parrafos":["¿Qué diferencia un sistema monousuario de uno multiusuario? El número de usuarios que atienden a la vez.","¿Qué garantiza la atomicidad de una transacción? Que se complete del todo o no se aplique en absoluto.","¿Qué nivel de dirección sirve un TPS? El operativo.","¿Qué protocolo cifra la comunicación web? HTTPS.","¿Qué archivo es obligatorio para cada Administración? El archivo electrónico único de procedimientos finalizados (art. 17.1 LPAC).","¿Qué diferencia un sistema experto del aprendizaje automático? El sistema experto aplica reglas explícitas; el aprendizaje automático las extrae de los datos.","¿Qué medida frena mejor el phishing? La formación de los usuarios, junto con la autenticación de dos factores y el filtrado del correo.","¿Para qué sirve la gestión de cambios? Para registrar, aprobar y poder revertir cada modificación del sistema.","¿Qué artículo de la Ley 5/2023 regula el registro de personal? El artículo 92, con su desarrollo en los artículos 93 a 95."]},{"titulo":"20. Relación con otros temas del programa","parrafos":["Este tema se conecta con el tema c22 sobre sistemas informáticos, porque aquí se estudian con detalle los sistemas operativos, las bases de datos y los sistemas de información.","Se conecta con el tema c24 sobre Administración electrónica, porque los registros, archivos y sedes son sistemas de información con reglas jurídicas.","Se conecta con el tema c21 sobre presupuesto, porque los sistemas de gestión económica registran las fases de ejecución del gasto."]},{"titulo":"21. Gestión de dispositivos e interfaces del sistema operativo","parrafos":["El sistema operativo gestiona los dispositivos de entrada y salida mediante controladores (drivers), que traducen las órdenes generales del sistema a las instrucciones concretas de cada dispositivo. Así, una aplicación puede imprimir sin conocer el modelo de la impresora.","Las interrupciones permiten que un dispositivo avise a la CPU cuando termina una operación, en lugar de obligarla a esperar. El acceso directo a memoria (DMA) permite transferir datos sin ocupar la CPU en cada byte.","La interfaz de usuario puede ser de línea de órdenes o gráfica. Ambas dependen del mismo núcleo del sistema operativo. Para un examen, la pregunta típica es qué hace un controlador: traduce las órdenes del sistema a las del dispositivo concreto."]},{"titulo":"22. Diseño de bases de datos: modelo entidad-relación y normalización","parrafos":["El diseño de una base de datos parte del análisis de la información: se identifican las entidades (objetos del mundo real, como un expediente o un interesado), sus atributos y las relaciones entre ellas. El modelo entidad-relación recoge esta información antes de convertirla en tablas.","La normalización organiza las tablas para evitar redundancias y anomalías al insertar, modificar o borrar datos. Las formas normales sucesivas exigen que cada atributo dependa de la clave completa y solo de ella. Una tabla mal normalizada obliga a corregir el mismo dato en varios sitios.","Para un examen, la pregunta típica es qué se busca con la normalización. Respuesta: eliminar redundancias y anomalías de actualización, para que cada dato se guarde una sola vez."]},{"titulo":"23. Almacenes de datos y análisis de información","parrafos":["Un almacén de datos (data warehouse) reúne datos de varias fuentes operativas, los limpia, los integra y los organiza para el análisis histórico. A diferencia de la base transaccional, está optimizado para consultas de lectura sobre grandes volúmenes.","La minería de datos busca patrones y relaciones en esos datos, como grupos de comportamiento o tendencias, sin partir de una hipótesis previa. Los resultados se presentan en cuadros de mando y paneles de indicadores.","Para un examen, la diferencia es que la base transaccional sirve a la operación diaria, y el almacén de datos al análisis y a la toma de decisiones."]},{"titulo":"24. El ciclo de vida de un sistema de información","parrafos":["Un sistema de información tiene un ciclo de vida: se planifica según las necesidades de la organización, se analiza y diseña, se desarrolla o adquiere, se implanta con formación de los usuarios, se explota y, finalmente, se modifica o se retira.","La planificación debe alinear el sistema con los procedimientos y con los objetivos de la organización. Una implantación sin formación produce resistencia y errores, aunque el sistema técnicamente funcione.","Para un examen, la fase más costosa en un sistema de gestión suele ser el mantenimiento, porque la norma y el procedimiento cambian durante toda la vida del sistema."]},{"titulo":"25. Internet y los servicios de la sociedad de la información","parrafos":["Los servicios de la sociedad de la información son aquellos prestados a distancia, por vía electrónica y a petición del destinatario, como el acceso a la web, el correo o la descarga de documentos. La LAJA los menciona al exigir que las relaciones electrónicas se respeten con la normativa correspondiente (art. 7.3 LAJA).","El navegador es el programa que accede a los recursos de la web. El buscador localiza contenidos indexados. Los servicios de la Administración en internet se presentan a través de su sede o de su portal (arts. 38 y 39 LRJSP).","Para un examen, la diferencia es que el navegador accede, el buscador localiza y la sede tramita. Son funciones distintas que pueden coincidir en un mismo sitio."]},{"titulo":"26. Seguridad de los sistemas: amenazas y medidas","parrafos":["Los sistemas están expuestos a amenazas de distinto tipo: software malicioso (virus, troyanos, programas de secuestro de datos), ataques de ingeniería social como el phishing, accesos no autorizados y fallos de hardware o de suministro eléctrico.","Las medidas se organizan en capas: control de acceso con identificación y contraseñas robustas o autenticación de dos factores, cifrado de la información sensible, actualizaciones de seguridad, copias de seguridad verificadas, cortafuegos y formación de los usuarios, que suele ser la medida más eficaz frente al phishing.","Para un examen, la pregunta típica es qué medida frena el phishing. Respuesta: la formación de los usuarios, junto con la autenticación de dos factores y el filtrado del correo. Ninguna medida aislada basta."]},{"titulo":"27. Documentación técnica y gestión de cambios","parrafos":["Un sistema debe documentarse para poder mantenerlo: la documentación de análisis describe qué hace, la técnica describe cómo está construido, y el manual de usuario explica cómo utilizarlo. Sin ella, cada cambio depende de quien lo conoce y el sistema se vuelve frágil.","La gestión de cambios registra cada modificación, quién la aprobó, qué versión afecta y cómo se revierte si falla. Es la base para auditar el sistema y para reproducir un error en las pruebas.","Para un examen, la pregunta típica es para qué sirve la gestión de cambios. Respuesta: registrar, aprobar y poder revertir cada modificación del sistema."]},{"titulo":"28. El registro de personal como sistema de información de la Junta","parrafos":["La Ley 5/2023, de la Función Pública de Andalucía, regula el registro de personal como instrumento de información sobre el personal al servicio de la Administración. El artículo 92 de la ley lo establece con carácter general, el artículo 93 lo concreta para la Administración General de la Junta, y el artículo 95 regula su organización y funcionamiento. El detalle técnico de cada uno Su texto completo está indexado y disponible en el visor de normas del repositorio.","Como sistema de información, el registro reúne datos de identidad, situaciones administrativas, puestos y retribuciones. Su valor depende de que los datos estén actualizados y de que cada Administración pueda consultarlos en las condiciones que la ley permite.","Para un examen, la pregunta típica es qué es el registro de personal. Respuesta: el instrumento de información sobre el personal al servicio de la Administración regulado en la Ley 5/2023 (arts. 92 a 95)."]},{"titulo":"29. Claves para el examen","parrafos":["Sistemas operativos: funciones (procesos, memoria, dispositivos, ficheros) y clases (monousuario, multiusuario, batch, tiempo compartido, tiempo real).","SGBD: definición de datos, manipulación, control de acceso e integridad; modelo relacional; propiedades ACID; copias de seguridad.","Tipología de sistemas de información: TPS (operativo), MIS (táctico), DSS y EIS (estratégico); groupware y workflow; gestión documental y archivo.","Correo e internet: SMTP, IMAP y POP; TCP/IP, HTTP y HTTPS; DNS.","Derecho verificado: LPAC arts. 16 y 17; LRJSP arts. 38, 39, 41, 155 y 157; LAJA art. 7.1. La concreción de sistemas de la Junta no está verificada.","Seguridad y documentación: amenazas (software malicioso, phishing, accesos no autorizados), medidas en capas y gestión de cambios con reversión.","Para un examen, al citar un sistema concreto de la Junta, indique que su descripción depende de la documentación oficial vigente y no de este tema.","Registro de personal: Ley 5/2023, arts. 92 a 95, sin detalle técnico verificado.","Para responder, conviene distinguir siempre el concepto técnico (qué es) del uso que le da la Administración (para qué)."]}],"fuentes":[{"nombre":"Ley del Procedimiento Administrativo Común","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565","pdf":"leyes/BOE-A-2015-10565.pdf"},{"nombre":"Ley de Régimen Jurídico del Sector Público","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566","pdf":"leyes/BOE-A-2015-10566.pdf"},{"nombre":"Ley de la Administración de la Junta de Andalucía","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2007-19819","pdf":"leyes/BOE-A-2007-19819.pdf"}]}
+{
+  "id": "c23",
+  "titulo_tema": "Los sistemas operativos, los sistemas de gestión de bases de datos, la tipología de los sistemas de información, el correo electrónico e Internet, y referencia a los sistemas adoptados por la Junta de Andalucía",
+  "extension": "Desarrollo extenso (aprox. 10 páginas)",
+  "secciones": [
+    {
+      "titulo": "1. Los sistemas operativos: funciones y clases",
+      "parrafos": [
+        "El sistema operativo es el software de base que gestiona los recursos del equipo y ofrece a las aplicaciones un entorno común. Sus funciones principales son la gestión de procesos, de memoria, de dispositivos de entrada y salida y de ficheros, y la protección de unos recursos frente a otros.",
+        "Según el número de usuarios se distinguen los sistemas monousuario, que atienden a una sola persona, y los multiusuario, que permiten el acceso simultáneo de varias. Según la forma de trabajo, se distinguen los sistemas por lotes (batch), que procesan trabajos completos sin interacción, los interactivos o de tiempo compartido, que atienden a cada usuario en turnos breves, y los de tiempo real, que responden en un plazo garantizado.",
+        "Para un examen, la clasificación se pregunta con ejemplos. Un sistema de control industrial con respuesta garantizada es de tiempo real; un servidor de archivos que atiende a muchos usuarios a la vez es multiusuario."
+      ]
+    },
+    {
+      "titulo": "2. Gestión de procesos, memoria y ficheros en el sistema operativo",
+      "parrafos": [
+        "El planificador decide qué proceso ocupa la CPU en cada momento, y el cambio de contexto guarda el estado del proceso que deja la CPU para restaurar el del siguiente. Los procesos pueden estar listos, en ejecución, bloqueados o terminados.",
+        "La gestión de memoria asigna espacio a los procesos y los protege entre sí. La memoria virtual permite ejecutar programas mayores que la memoria física, paginando partes de ellos en el almacenamiento secundario.",
+        "El sistema de ficheros organiza los datos en archivos y directorios, y controla los permisos de acceso. Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado: espera un recurso y no ocupa la CPU."
+      ]
+    },
+    {
+      "titulo": "3. Sistemas operativos de uso habitual en la Administración",
+      "parrafos": [
+        "En las organizaciones públicas conviven sistemas operativos de escritorio, usados por los empleados en sus puestos, y sistemas de servidor, que alojan las aplicaciones y los datos. Las familias más extendidas son las de tipo Windows y las de tipo Unix o Linux.",
+        "La elección depende de la compatibilidad con las aplicaciones, de la seguridad, de los costes de licencia y del soporte del fabricante o de la comunidad. La reutilización de aplicaciones entre Administraciones se rige por el artículo 157 LRJSP; la elección entre software libre y propietario depende de la normativa de contratación, cuyo texto completo está indexado y disponible en el visor de normas del repositorio.",
+        "Para un examen, la distinción clave es entre el sistema de escritorio y el de servidor. Cada uno tiene prioridades distintas: el primero, la usabilidad; el segundo, la disponibilidad y el rendimiento."
+      ]
+    },
+    {
+      "titulo": "4. Sistemas de gestión de bases de datos: funciones",
+      "parrafos": [
+        "Un sistema de gestión de bases de datos (SGBD) es el software que crea, mantiene y da acceso a una base de datos. Sus funciones son definir la estructura de los datos, manipularlos (consultar, insertar, modificar y borrar), controlar el acceso y garantizar la integridad y la seguridad.",
+        "El SGBD separa los datos de las aplicaciones. Varias aplicaciones pueden usar la misma base sin conocer cómo se almacenan los datos, lo que facilita el mantenimiento y evita duplicidades.",
+        "Para un examen, la diferencia básica es entre el lenguaje de definición de datos (que crea la estructura) y el de manipulación (que trabaja con los datos). Las consultas habituales se expresan en SQL."
+      ]
+    },
+    {
+      "titulo": "5. Modelos de datos y transacciones",
+      "parrafos": [
+        "El modelo relacional organiza los datos en tablas con filas y columnas, relacionadas por claves primarias y externas. Otros modelos son el jerárquico, el de red, el documental y el de grafos, adecuados a estructuras concretas.",
+        "Una transacción es una secuencia de operaciones que debe completarse entera o no completarse en absoluto. Las propiedades ACID (atomicidad, consistencia, aislamiento y durabilidad) garantizan que las transacciones mantienen los datos correctos aun ante fallos.",
+        "Para un examen, la pregunta típica es qué garantiza la atomicidad. Respuesta: que la transacción se complete del todo o no se aplique en absoluto."
+      ]
+    },
+    {
+      "titulo": "6. Copias de seguridad, concurrencia y recuperación",
+      "parrafos": [
+        "El SGBD controla la concurrencia para que varios usuarios accedan a la vez sin corromper los datos. Usa mecanismos como los bloqueos y el control de versiones.",
+        "La recuperación ante fallos se basa en copias de seguridad completas e incrementales y en registros de transacciones que permiten rehacer o deshacer operaciones. Una base de datos sin copias verificadas no es segura, aunque tenga un buen SGBD.",
+        "Para un examen, la diferencia entre copia completa e incremental es el volumen: la incremental guarda solo los cambios desde la última copia."
+      ]
+    },
+    {
+      "titulo": "7. Tipología de los sistemas de información",
+      "parrafos": [
+        "Un sistema de información es el conjunto de elementos que recogen, almacenan, procesan y distribuyen información para apoyar las funciones de una organización. Se clasifican según la función que cumplen y el nivel de dirección al que sirven.",
+        "Los sistemas de procesamiento de transacciones (TPS) registran las operaciones diarias, como una solicitud o un pago. Los sistemas de información de gestión (MIS) resumen esos datos para el control. Los sistemas de ayuda a la decisión (DSS) analizan alternativas para una decisión concreta.",
+        "Para un examen, la diferencia es el nivel: el TPS sirve al nivel operativo; el MIS, al táctico; el DSS y los sistemas de dirección, al estratégico."
+      ]
+    },
+    {
+      "titulo": "8. Sistemas de ayuda a la decisión y de dirección",
+      "parrafos": [
+        "Los sistemas de ayuda a la decisión combinan datos y modelos para simular escenarios y comparar opciones. Los sistemas de información para dirección (EIS) presentan indicadores clave a los directivos de forma resumida y visual.",
+        "Los sistemas de inteligencia de negocio agregan datos de varias fuentes en almacenes de datos (data warehouse) para su análisis. Permiten consultas multidimensionales y cuadros de mando.",
+        "Para un examen, la pregunta típica es la diferencia entre un DSS y un MIS. Respuesta: el DSS ayuda a elegir entre alternativas concretas; el MIS informa de forma periódica sobre el desempeño."
+      ]
+    },
+    {
+      "titulo": "9. Sistemas de trabajo en grupo",
+      "parrafos": [
+        "Los sistemas de trabajo en grupo (groupware) apoyan la colaboración entre personas que trabajan juntas, aunque estén en lugares distintos. Incluyen la mensajería, la agenda compartida, la edición colaborativa de documentos y los flujos de trabajo.",
+        "Los flujos de trabajo (workflow) automatizan la secuencia de tareas de un procedimiento: quién hace qué y cuándo. Son la base de la gestión de expedientes en la Administración.",
+        "Para un examen, la diferencia es que el groupware apoya la colaboración; el workflow ordena las tareas de un proceso."
+      ]
+    },
+    {
+      "titulo": "10. Sistemas de tratamiento, almacenamiento y archivo de documentos",
+      "parrafos": [
+        "Los sistemas de gestión documental tratan, almacenan y recuperan documentos electrónicos. Incluyen la captura, la clasificación, el control de versiones, la búsqueda y la conservación de los documentos durante su plazo.",
+        "En la Administración, el archivo electrónico de documentos de procedimientos finalizados es obligatorio para cada Administración (art. 17.1 LPAC). Los documentos deben conservarse en un formato que garantice su autenticidad, integridad y consulta (art. 17.2 LPAC).",
+        "Para un examen, la diferencia es entre gestión documental (trabajo diario) y archivo (conservación a largo plazo). La LPAC impone el archivo electrónico único."
+      ]
+    },
+    {
+      "titulo": "11. Sistemas para el tratamiento estadístico",
+      "parrafos": [
+        "Los sistemas estadísticos recogen datos, los validan, los analizan y presentan resultados. Usan técnicas descriptivas (medias, distribuciones, tablas) e inferenciales (estimaciones y contrastes de hipótesis).",
+        "En la Administración, la estadística sirve para planificar políticas públicas, evaluarlas y cumplir obligaciones de información. Los datos personales utilizados deben tratarse respetando la protección de datos y, cuando se ceden a otras Administraciones, las condiciones de transmisión (art. 155 LRJSP).",
+        "Para un examen, la pregunta típica es qué condiciones exige la cesión de datos entre Administraciones. Respuesta: condiciones, protocolos y criterios técnicos previos y respeto a la protección de datos (art. 155 LRJSP)."
+      ]
+    },
+    {
+      "titulo": "12. Sistemas inteligentes",
+      "parrafos": [
+        "Los sistemas inteligentes incluyen los sistemas expertos, que aplican reglas de un dominio concreto para dar conclusiones, y las técnicas de aprendizaje automático, que aprenden patrones de los datos. Su uso en la Administración debe ser explicable y revisable.",
+        "La actuación automatizada de la Administración (art. 41 LRJSP) no es necesariamente inteligente. Cuando incorpora reglas complejas, debe estar identificado el órgano responsable de su especificación, su mantenimiento y su supervisión (art. 41.2 LRJSP).",
+        "Para un examen, la pregunta típica es qué diferencia a un sistema experto del aprendizaje automático. Respuesta: el primero aplica reglas explícitas; el segundo las extrae de los datos."
+      ]
+    },
+    {
+      "titulo": "13. El correo electrónico",
+      "parrafos": [
+        "El correo electrónico transmite mensajes entre usuarios mediante servidores de correo. Se apoya en protocolos como SMTP para enviar y en IMAP o POP para recibir. Los mensajes pueden llevar archivos adjuntos y firmas electrónicas.",
+        "En la Administración, el correo tiene valor de comunicación, pero las notificaciones formales siguen los cauces de la LPAC. La seguridad del correo exige cifrado, control de los adjuntos y protección frente al engaño (phishing).",
+        "Para un examen, la diferencia es que el correo transmite mensajes; la validez jurídica de una notificación depende de la forma establecida en la ley, no del medio en sí."
+      ]
+    },
+    {
+      "titulo": "14. Internet y los servicios web",
+      "parrafos": [
+        "Internet es una red mundial de redes que usa el protocolo TCP/IP. Sobre ella funcionan servicios como la web (protocolo HTTP o HTTPS), el correo, la transferencia de ficheros y la resolución de nombres mediante DNS.",
+        "Un sitio web de la Administración suele ser su sede o su portal de internet, con las obligaciones que la LRJSP fija para cada uno (arts. 38 y 39 LRJSP). El protocolo HTTPS cifra la comunicación entre el navegador y el servidor.",
+        "Para un examen, la diferencia entre HTTP y HTTPS es el cifrado: HTTPS protege la comunicación frente a la interceptación."
+      ]
+    },
+    {
+      "titulo": "15. Los sistemas de información de la Junta de Andalucía",
+      "parrafos": [
+        "El tema pide concretar los sistemas adoptados por la Junta de Andalucía. Esa concreción depende de la planificación tecnológica de la Junta, de sus contratos y de su inventario de sistemas (disponible y verificado en el repositorio) en este tema.",
+        "Lo que puede afirmarse con las normas verificadas es el marco: la Junta aplica las tecnologías de la información para mejorar su eficacia (art. 7.1 LAJA), los registros y archivos electrónicos son obligatorios (arts. 16 y 17 LPAC), y la reutilización de aplicaciones entre Administraciones se rige por el artículo 157 LRJSP.",
+        "Para un examen, cite el marco verificado y advierta que la relación concreta de sistemas debe comprobarse en la documentación oficial vigente antes de citarla."
+      ]
+    },
+    {
+      "titulo": "16. El registro electrónico como sistema de información",
+      "parrafos": [
+        "El registro electrónico general es un sistema de información que asienta la presentación y salida de documentos (art. 16.1 LPAC). Su funcionamiento se apoya en una base de datos con asientos ordenados por fecha y hora (art. 16.2 LPAC).",
+        "El registro debe cumplir las garantías de la protección de datos y tener publicadas sus disposiciones de creación, con la fecha y hora oficial y los días inhábiles (art. 16.1 LPAC). Es un ejemplo de cómo un sistema de información tiene reglas jurídicas además de técnicas.",
+        "Para un examen, la pregunta típica es qué datos debe reflejar el registro electrónico. Respuesta: el asiento con el orden temporal de recepción o salida (art. 16.2 LPAC)."
+      ]
+    },
+    {
+      "titulo": "17. Errores frecuentes en el examen",
+      "parrafos": [
+        "Confundir el sistema operativo con una aplicación. El sistema operativo gestiona los recursos; la aplicación resuelve un problema del usuario.",
+        "Confundir el SGBD con la base de datos. La base contiene los datos; el SGBD es el software que los gestiona.",
+        "Confundir el TPS con el DSS. El primero registra operaciones; el segundo ayuda a decidir entre alternativas.",
+        "Confundir el groupware con el workflow. El primero apoya la colaboración; el segundo ordena las tareas del proceso.",
+        "Afirmar que el correo electrónico tiene por sí solo valor de notificación formal. La validez depende de la forma establecida en la LPAC.",
+        "Confundir el controlador con el sistema operativo. El controlador traduce las órdenes para un dispositivo concreto; el sistema operativo los coordina a todos.",
+        "Confundir la base transaccional con el almacén de datos. La primera sirve a la operación diaria; el segundo, al análisis.",
+        "Confundir el registro de personal con la nómina. El registro es un instrumento de información sobre el personal; la nómina es el documento de pago de sus retribuciones."
+      ]
+    },
+    {
+      "titulo": "18. Casos prácticos",
+      "parrafos": [
+        "Caso 1: una base de datos de expedientes se corrompe tras un fallo eléctrico. Si el SGBD tiene registros de transacciones y copias verificadas, la recuperación rehace o deshace las operaciones pendientes. Sin copias, la pérdida puede ser total.",
+        "Caso 2: una dirección general necesita comparar tres alternativas para repartir un presupuesto. Procede un sistema de ayuda a la decisión que simule los escenarios, no un sistema transaccional (TPS).",
+        "Caso 3: un expediente finalizado debe conservarse durante años. Debe ir al archivo electrónico único en un formato que garantice su autenticidad e integridad (arts. 17.1 y 17.2 LPAC).",
+        "Caso 4: una dirección quiere saber la evolución de los expedientes de cinco años para planificar recursos. Procede un almacén de datos que integre los históricos, no la consulta directa a la base transaccional, que está optimizada para la operación diaria."
+      ]
+    },
+    {
+      "titulo": "19. Cuestiones tipo de examen",
+      "parrafos": [
+        "¿Qué diferencia un sistema monousuario de uno multiusuario? El número de usuarios que atienden a la vez.",
+        "¿Qué garantiza la atomicidad de una transacción? Que se complete del todo o no se aplique en absoluto.",
+        "¿Qué nivel de dirección sirve un TPS? El operativo.",
+        "¿Qué protocolo cifra la comunicación web? HTTPS.",
+        "¿Qué archivo es obligatorio para cada Administración? El archivo electrónico único de procedimientos finalizados (art. 17.1 LPAC).",
+        "¿Qué diferencia un sistema experto del aprendizaje automático? El sistema experto aplica reglas explícitas; el aprendizaje automático las extrae de los datos.",
+        "¿Qué medida frena mejor el phishing? La formación de los usuarios, junto con la autenticación de dos factores y el filtrado del correo.",
+        "¿Para qué sirve la gestión de cambios? Para registrar, aprobar y poder revertir cada modificación del sistema.",
+        "¿Qué artículo de la Ley 5/2023 regula el registro de personal? El artículo 92, con su desarrollo en los artículos 93 a 95."
+      ]
+    },
+    {
+      "titulo": "20. Relación con otros temas del programa",
+      "parrafos": [
+        "Este tema se conecta con el tema c22 sobre sistemas informáticos, porque aquí se estudian con detalle los sistemas operativos, las bases de datos y los sistemas de información.",
+        "Se conecta con el tema c24 sobre Administración electrónica, porque los registros, archivos y sedes son sistemas de información con reglas jurídicas.",
+        "Se conecta con el tema c21 sobre presupuesto, porque los sistemas de gestión económica registran las fases de ejecución del gasto."
+      ]
+    },
+    {
+      "titulo": "21. Gestión de dispositivos e interfaces del sistema operativo",
+      "parrafos": [
+        "El sistema operativo gestiona los dispositivos de entrada y salida mediante controladores (drivers), que traducen las órdenes generales del sistema a las instrucciones concretas de cada dispositivo. Así, una aplicación puede imprimir sin conocer el modelo de la impresora.",
+        "Las interrupciones permiten que un dispositivo avise a la CPU cuando termina una operación, en lugar de obligarla a esperar. El acceso directo a memoria (DMA) permite transferir datos sin ocupar la CPU en cada byte.",
+        "La interfaz de usuario puede ser de línea de órdenes o gráfica. Ambas dependen del mismo núcleo del sistema operativo. Para un examen, la pregunta típica es qué hace un controlador: traduce las órdenes del sistema a las del dispositivo concreto."
+      ]
+    },
+    {
+      "titulo": "22. Diseño de bases de datos: modelo entidad-relación y normalización",
+      "parrafos": [
+        "El diseño de una base de datos parte del análisis de la información: se identifican las entidades (objetos del mundo real, como un expediente o un interesado), sus atributos y las relaciones entre ellas. El modelo entidad-relación recoge esta información antes de convertirla en tablas.",
+        "La normalización organiza las tablas para evitar redundancias y anomalías al insertar, modificar o borrar datos. Las formas normales sucesivas exigen que cada atributo dependa de la clave completa y solo de ella. Una tabla mal normalizada obliga a corregir el mismo dato en varios sitios.",
+        "Para un examen, la pregunta típica es qué se busca con la normalización. Respuesta: eliminar redundancias y anomalías de actualización, para que cada dato se guarde una sola vez."
+      ]
+    },
+    {
+      "titulo": "23. Almacenes de datos y análisis de información",
+      "parrafos": [
+        "Un almacén de datos (data warehouse) reúne datos de varias fuentes operativas, los limpia, los integra y los organiza para el análisis histórico. A diferencia de la base transaccional, está optimizado para consultas de lectura sobre grandes volúmenes.",
+        "La minería de datos busca patrones y relaciones en esos datos, como grupos de comportamiento o tendencias, sin partir de una hipótesis previa. Los resultados se presentan en cuadros de mando y paneles de indicadores.",
+        "Para un examen, la diferencia es que la base transaccional sirve a la operación diaria, y el almacén de datos al análisis y a la toma de decisiones."
+      ]
+    },
+    {
+      "titulo": "24. El ciclo de vida de un sistema de información",
+      "parrafos": [
+        "Un sistema de información tiene un ciclo de vida: se planifica según las necesidades de la organización, se analiza y diseña, se desarrolla o adquiere, se implanta con formación de los usuarios, se explota y, finalmente, se modifica o se retira.",
+        "La planificación debe alinear el sistema con los procedimientos y con los objetivos de la organización. Una implantación sin formación produce resistencia y errores, aunque el sistema técnicamente funcione.",
+        "Para un examen, la fase más costosa en un sistema de gestión suele ser el mantenimiento, porque la norma y el procedimiento cambian durante toda la vida del sistema."
+      ]
+    },
+    {
+      "titulo": "25. Internet y los servicios de la sociedad de la información",
+      "parrafos": [
+        "Los servicios de la sociedad de la información son aquellos prestados a distancia, por vía electrónica y a petición del destinatario, como el acceso a la web, el correo o la descarga de documentos. La LAJA los menciona al exigir que las relaciones electrónicas se respeten con la normativa correspondiente (art. 7.3 LAJA).",
+        "El navegador es el programa que accede a los recursos de la web. El buscador localiza contenidos indexados. Los servicios de la Administración en internet se presentan a través de su sede o de su portal (arts. 38 y 39 LRJSP).",
+        "Para un examen, la diferencia es que el navegador accede, el buscador localiza y la sede tramita. Son funciones distintas que pueden coincidir en un mismo sitio."
+      ]
+    },
+    {
+      "titulo": "26. Seguridad de los sistemas: amenazas y medidas",
+      "parrafos": [
+        "Los sistemas están expuestos a amenazas de distinto tipo: software malicioso (virus, troyanos, programas de secuestro de datos), ataques de ingeniería social como el phishing, accesos no autorizados y fallos de hardware o de suministro eléctrico.",
+        "Las medidas se organizan en capas: control de acceso con identificación y contraseñas robustas o autenticación de dos factores, cifrado de la información sensible, actualizaciones de seguridad, copias de seguridad verificadas, cortafuegos y formación de los usuarios, que suele ser la medida más eficaz frente al phishing.",
+        "Para un examen, la pregunta típica es qué medida frena el phishing. Respuesta: la formación de los usuarios, junto con la autenticación de dos factores y el filtrado del correo. Ninguna medida aislada basta."
+      ]
+    },
+    {
+      "titulo": "27. Documentación técnica y gestión de cambios",
+      "parrafos": [
+        "Un sistema debe documentarse para poder mantenerlo: la documentación de análisis describe qué hace, la técnica describe cómo está construido, y el manual de usuario explica cómo utilizarlo. Sin ella, cada cambio depende de quien lo conoce y el sistema se vuelve frágil.",
+        "La gestión de cambios registra cada modificación, quién la aprobó, qué versión afecta y cómo se revierte si falla. Es la base para auditar el sistema y para reproducir un error en las pruebas.",
+        "Para un examen, la pregunta típica es para qué sirve la gestión de cambios. Respuesta: registrar, aprobar y poder revertir cada modificación del sistema."
+      ]
+    },
+    {
+      "titulo": "28. El registro de personal como sistema de información de la Junta",
+      "parrafos": [
+        "La Ley 5/2023, de la Función Pública de Andalucía, regula el registro de personal como instrumento de información sobre el personal al servicio de la Administración. El artículo 92 de la ley lo establece con carácter general, el artículo 93 lo concreta para la Administración General de la Junta, y el artículo 95 regula su organización y funcionamiento. El detalle técnico de cada uno está indexado y disponible en el visor de normas del repositorio.",
+        "Como sistema de información, el registro reúne datos de identidad, situaciones administrativas, puestos y retribuciones. Su valor depende de que los datos estén actualizados y de que cada Administración pueda consultarlos en las condiciones que la ley permite.",
+        "Para un examen, la pregunta típica es qué es el registro de personal. Respuesta: el instrumento de información sobre el personal al servicio de la Administración regulado en la Ley 5/2023 (arts. 92 a 95)."
+      ]
+    },
+    {
+      "titulo": "29. Claves para el examen",
+      "parrafos": [
+        "Sistemas operativos: funciones (procesos, memoria, dispositivos, ficheros) y clases (monousuario, multiusuario, batch, tiempo compartido, tiempo real).",
+        "SGBD: definición de datos, manipulación, control de acceso e integridad; modelo relacional; propiedades ACID; copias de seguridad.",
+        "Tipología de sistemas de información: TPS (operativo), MIS (táctico), DSS y EIS (estratégico); groupware y workflow; gestión documental y archivo.",
+        "Correo e internet: SMTP, IMAP y POP; TCP/IP, HTTP y HTTPS; DNS.",
+        "Derecho verificado: LPAC arts. 16 y 17; LRJSP arts. 38, 39, 41, 155 y 157; LAJA art. 7.1. La concreción de sistemas de la Junta no está verificada.",
+        "Seguridad y documentación: amenazas (software malicioso, phishing, accesos no autorizados), medidas en capas y gestión de cambios con reversión.",
+        "Para un examen, al citar un sistema concreto de la Junta, indique que su descripción depende de la documentación oficial vigente y no de este tema.",
+        "Registro de personal: Ley 5/2023, arts. 92 a 95, sin detalle técnico verificado.",
+        "Para responder, conviene distinguir siempre el concepto técnico (qué es) del uso que le da la Administración (para qué)."
+      ]
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Ley del Procedimiento Administrativo Común",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "pdf": "leyes/BOE-A-2015-10565.pdf"
+    },
+    {
+      "nombre": "Ley de Régimen Jurídico del Sector Público",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "pdf": "leyes/BOE-A-2015-10566.pdf"
+    },
+    {
+      "nombre": "Ley de la Administración de la Junta de Andalucía",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19819",
+      "pdf": "leyes/BOE-A-2007-19819.pdf"
+    }
+  ]
+}

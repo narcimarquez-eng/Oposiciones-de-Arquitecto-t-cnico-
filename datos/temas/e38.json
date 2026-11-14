@@ -1,1 +1,566 @@
-{"id":"e38","resumen":[{"titulo":"Normativa reguladora","puntos":["Justiprecio: Ley de Expropiación Forzosa de 1954 (LEF, arts. 36 y siguientes). Suelo y edificación: TRLS, RDL 7/2015 (art. 35). Valor catastral: RDL 1/2004 (arts. 22 a 25). Métodos de valoración de inmuebles para entidades de crédito: Orden ECO/805/2003.","Normas técnicas de valoración catastral de bienes urbanos: RD 1020/1993; de bienes de características especiales: RD 1464/2007."]},{"titulo":"Significados del valor","puntos":["Valor catastral: determinado objetivamente a partir de los datos del Catastro, formado por el del suelo y el de las construcciones (Ley del Catastro, art. 22).","Valor de mercado: precio más probable de venta entre partes independientes, libre de cargas (art. 23, apartado 2). El valor catastral no puede superarlo."]},{"titulo":"El justiprecio","puntos":["Las tasaciones se hacen con el valor de los bienes al tiempo de iniciarse el expediente de justiprecio, sin plusvalías derivadas del proyecto expropiante (LEF, art. 36, apartado 1).","Las mejoras posteriores a la incoación no se indemnizan, salvo que se demuestre que eran necesarias (art. 36, apartado 2)."]},{"titulo":"Suelo y edificaciones","puntos":["El valor del suelo corresponde a su pleno dominio, libre de cargas y gravámenes, y se tasa según su situación (TRLS, art. 35, apartados 1 y 2).","Las construcciones del suelo rural se tasan con independencia del terreno si son legales, compatibles con el uso y no se han tenido en cuenta en la valoración del suelo (art. 35, apartado 3)."]},{"titulo":"Depreciación y métodos","puntos":["Depreciación física: pérdida por antigüedad, estado de conservación y duración de los componentes. Depreciación funcional: pérdida por defectuosa adaptación a la función (Orden ECO/805/2003, art. 4).","Valor de reemplazamiento neto: bruto menos depreciación física y funcional (art. 19, apartado 1). Amortización lineal con vida útil máxima de 100 años para uso residencial, 75 para oficinas, 50 para comercial y 35 para industrial (art. 19, apartado 2, letra b).","Métodos: coste, comparación, actualización de rentas y residual (art. 15, apartado 1)."]},{"titulo":"Valor catastral: ponencias y límites","puntos":["La determinación del valor catastral se hace, con carácter general, aplicando la ponencia de valores vigente (Ley del Catastro, art. 24, apartado 1).","Criterios: localización, coste de ejecución material, gastos y beneficios de la promoción y circunstancias del mercado (art. 23, apartado 1). Límite: no puede superar el valor de mercado (apartado 2)."]}],"leyes":[{"id":"LEF","rol":"Justiprecio: valor a la fecha de iniciación del expediente y mejoras posteriores (art. 36)"},{"id":"TRLS-7-2015","rol":"Criterios generales de valoración del suelo y de las edificaciones (art. 35)"},{"id":"TRLCAT-1-2004","rol":"Valor catastral: concepto, criterios, límite frente al valor de mercado y ponencias (arts. 22 a 25)"},{"id":"ECO-805-2003","rol":"Métodos técnicos de valoración, depreciación física y funcional, vida útil máxima y valor de reemplazamiento (arts. 4, 15, 17, 19 y 20)"},{"id":"RD-1020-1993","rol":"Normas técnicas de valoración catastral y cuadro marco de valores del suelo y de las construcciones de bienes urbanos"},{"id":"RD-1464-2007","rol":"Normas técnicas de valoración catastral de los bienes inmuebles de características especiales"},{"id":"RD-1492-2011","articulos":"Texto íntegro de aplicación al tema","rol":"Reglamento de valoraciones de la Ley de Suelo"},{"id":"REF-1957","articulos":"Texto íntegro de aplicación al tema","rol":"Reglamento de la Ley de Expropiación Forzosa"}],"test":[{"pregunta":"Según la LEF, art. 36, apartado 1, ¿con referencia a qué momento se tasan los bienes expropiables?","opciones":["Al tiempo de iniciarse el expediente de justiprecio","Al tiempo de la publicación del BOE","Al tiempo de la sentencia del Tribunal Supremo","Al tiempo de la toma de posesión, siempre"],"correcta":0,"explicacion":"Las tasaciones se efectúan con arreglo al valor que tengan los bienes expropiables al tiempo de iniciarse el expediente de justiprecio, sin tener en cuenta las plusvalías que sean consecuencia directa del proyecto (LEF, art. 36, apartado 1).","referencia":"LEF, art. 36, apartado 1"},{"pregunta":"Según la LEF, art. 36, apartado 2, ¿se indemnizan las mejoras realizadas después de la incoación del expediente?","opciones":["Solo si el propietario no lo ha pedido","Siempre, sin excepción","No, salvo que se demuestre que eran necesarias","Sí, con el doble de su valor"],"correcta":2,"explicacion":"Las mejoras posteriores a la incoación no son objeto de indemnización, a no ser que se demuestre que eran necesarias (LEF, art. 36, apartado 2).","referencia":"LEF, art. 36, apartado 2"},{"pregunta":"Según el TRLS, art. 35, apartado 1, ¿a qué corresponde el valor del suelo?","opciones":["Al precio pagado en la última compraventa","Al coste de la licencia municipal","Solo al valor de los materiales de la construcción","A su pleno dominio, libre de toda carga, gravamen o derecho limitativo"],"correcta":3,"explicacion":"El valor del suelo corresponde a su pleno dominio, libre de toda carga, gravamen o derecho limitativo de la propiedad (TRLS, art. 35, apartado 1).","referencia":"TRLS, art. 35, apartado 1"},{"pregunta":"Según la Ley del Catastro, art. 22, ¿de qué se compone el valor catastral de un bien inmueble?","opciones":["Solo del valor de las construcciones","Del valor catastral del suelo y del valor catastral de las construcciones","Del precio de compra más los impuestos","Solo del valor del suelo"],"correcta":1,"explicacion":"El valor catastral está integrado por el valor catastral del suelo y el valor catastral de las construcciones (Ley del Catastro, art. 22).","referencia":"RDL 1/2004, art. 22"},{"pregunta":"Según la Ley del Catastro, art. 23, apartado 2, ¿con qué límite se relaciona el valor catastral?","opciones":["Con el valor de mercado, que no puede superarse","Con el número de plantas del edificio","Con la superficie del solar en metros cuadrados","No tiene ningún límite"],"correcta":0,"explicacion":"El valor catastral de los inmuebles no puede superar el valor de mercado, entendido como el precio más probable de venta entre partes independientes (art. 23, apartado 2).","referencia":"RDL 1/2004, art. 23, apartado 2"},{"pregunta":"Según la Orden ECO/805/2003, art. 15, apartado 1, ¿cuál de los siguientes NO es un método técnico de valoración?","opciones":["El método de comparación","El método de actualización de rentas","El método del precio fijo administrativo","El método del coste"],"correcta":2,"explicacion":"Los métodos técnicos de valoración son el del coste, el de comparación, el de actualización de rentas y el residual (art. 15, apartado 1).","referencia":"Orden ECO/805/2003, art. 15, apartado 1"},{"pregunta":"Según la Orden ECO/805/2003, art. 19, apartado 2, letra b, ¿cuál es la vida útil total máxima para un edificio de uso residencial en el cálculo por amortización lineal?","opciones":["35 años","50 años","75 años","100 años"],"correcta":3,"explicacion":"Para edificios de uso residencial, la vida útil total máxima en la amortización lineal es de 100 años; para oficinas, 75; para comerciales, 50; y para industriales, 35 (art. 19, apartado 2, letra b).","referencia":"Orden ECO/805/2003, art. 19, apartado 2, letra b)"},{"pregunta":"Según la Orden ECO/805/2003, art. 19, apartado 1, ¿cómo se obtiene el valor de reemplazamiento neto?","opciones":["Sumando la depreciación al valor de reemplazamiento bruto","Restando al valor de reemplazamiento bruto la depreciación física y funcional","Multiplicando el valor del suelo por dos","Dividiendo el valor de mercado entre la superficie"],"correcta":1,"explicacion":"Para calcular el valor de reemplazamiento neto se resta del valor de reemplazamiento bruto la depreciación física y funcional del edificio terminado (art. 19, apartado 1).","referencia":"Orden ECO/805/2003, art. 19, apartado 1"},{"pregunta":"Según la Ley del Catastro, art. 24, apartado 1, ¿cómo se determina con carácter general el valor catastral?","opciones":["Mediante el precio pagado en la última escritura","Mediante la tasación de un notario","Mediante la aplicación de la correspondiente ponencia de valores","Mediante la declaración libre del propietario"],"correcta":2,"explicacion":"Salvo en los supuestos previstos en el artículo 30, apartado 2, la determinación del valor catastral se efectúa mediante la aplicación de la correspondiente ponencia de valores (art. 24, apartado 1).","referencia":"RDL 1/2004, art. 24, apartado 1"},{"pregunta":"Según la Orden ECO/805/2003, art. 4, ¿qué es la depreciación física de un bien?","opciones":["La pérdida que experimenta el valor de reemplazamiento bruto en función de su antigüedad, estado de conservación y duración de sus componentes","El coste de la licencia de obras","El beneficio del promotor","La subida del valor del terreno por la cercanía de servicios"],"correcta":0,"explicacion":"La depreciación física es la pérdida que experimenta el valor de reemplazamiento bruto de un bien en función de su antigüedad, de su estado de conservación y de la duración de sus componentes (Orden ECO/805/2003, art. 4, definiciones).","referencia":"Orden ECO/805/2003, art. 4"},{"pregunta":"¿Qué ley regula el justiprecio en la expropiación forzosa?","opciones":["La Ley de Caza","La Ley de Expropiación Forzosa de 1954 (LEF)","La Ley de Pesca","La Ley de Vuelos"],"correcta":1,"explicacion":"El justiprecio se regula en la LEF de 1954, arts. 36 y siguientes.","referencia":"LEF, arts. 36 y ss."},{"pregunta":"¿Qué texto regula el valor del suelo y de las edificaciones en la legislación estatal?","opciones":["El TRLS (RDL 7/2015)","El RD 1627/1997","La LGS","La Ley de Caza"],"correcta":0,"explicacion":"El TRLS, RDL 7/2015, regula el suelo y la edificación.","referencia":"TRLS, art. 35"},{"pregunta":"¿Qué norma regula el valor catastral?","opciones":["El RD 842/2002","El Texto refundido de la Ley del Catastro (RDL 1/2004)","El RD 919/2006","La LCSP"],"correcta":1,"explicacion":"El valor catastral se regula en el Texto refundido de la Ley del Catastro.","referencia":"RDL 1/2004, arts. 22 a 25"},{"pregunta":"¿Qué orden regula los métodos de valoración de inmuebles para entidades de crédito?","opciones":["La Orden de Pesca","La Orden de Caza","La Orden de Vuelos","La Orden ECO/805/2003"],"correcta":3,"explicacion":"La Orden ECO/805/2003 regula esos métodos.","referencia":"Orden ECO/805/2003"},{"pregunta":"¿Qué es el valor catastral?","opciones":["El valor determinado a partir de los datos del Catastro, formado por el suelo y las construcciones","El precio del café","El salario del alcalde","La edad del edificio"],"correcta":0,"explicacion":"El valor catastral se determina objetivamente con los datos del Catastro.","referencia":"Ley del Catastro, art. 22"},{"pregunta":"¿Qué es el valor de mercado?","opciones":["Un precio de regalo","El precio más probable de venta entre partes independientes, libre de cargas","El valor de las antigüedades","La suma de los gastos"],"correcta":1,"explicacion":"El valor de mercado es el precio más probable de venta entre partes independientes, libre de cargas.","referencia":"Ley del Catastro, art. 23.2"},{"pregunta":"¿Puede el valor catastral superar el valor de mercado?","opciones":["Sí, siempre","Solo en verano","No","Solo en Navidad"],"correcta":2,"explicacion":"El valor catastral no puede superar el valor de mercado.","referencia":"Ley del Catastro, art. 23.2"},{"pregunta":"¿A qué momento se tasan los bienes en un justiprecio?","opciones":["Diez años después","Al final de la obra","Nunca","Al iniciarse el expediente de justiprecio"],"correcta":3,"explicacion":"Las tasaciones se hacen al tiempo de iniciarse el expediente.","referencia":"LEF, art. 36.1"},{"pregunta":"¿Qué plusvalías se excluyen en el justiprecio?","opciones":["Las derivadas del proyecto expropiante","Las de la lotería","Las de la bolsa","Ninguna"],"correcta":0,"explicacion":"Se excluyen las plusvalías derivadas del proyecto expropiante.","referencia":"LEF, art. 36.1"},{"pregunta":"¿Se indemnizan las mejoras posteriores a la iniciación del expediente?","opciones":["Sí, siempre","No, salvo que se demuestre que eran necesarias","Solo si son bonitas","Solo si las paga el vecino"],"correcta":1,"explicacion":"Las mejoras posteriores no se indemnizan, salvo que se demuestre que eran necesarias.","referencia":"LEF, art. 36.2"},{"pregunta":"¿Qué abarca el valor del suelo según el TRLS?","opciones":["La pintura del muro","El jardín","El pleno dominio, libre de cargas y gravámenes, según su situación","El menú"],"correcta":2,"explicacion":"El valor del suelo corresponde al pleno dominio libre de cargas y gravámenes, según su situación.","referencia":"TRLS, art. 35.1 y 35.2"},{"pregunta":"¿Qué métodos de valoración de inmuebles recoge el art. 15 de la Orden ECO/805/2003?","opciones":["Sorteo y suerte","Olfato y gusto","Ninguno","Coste, comparación, actualización de rentas y residual"],"correcta":3,"explicacion":"Los métodos son el coste, la comparación, la actualización de rentas y el residual.","referencia":"Orden ECO/805/2003, art. 15.1"},{"pregunta":"¿Qué es la depreciación física?","opciones":["La pérdida por antigüedad, estado de conservación y duración de los componentes","La pérdida de moda","La pérdida de dinero","Ninguna"],"correcta":0,"explicacion":"La depreciación física se debe a la antigüedad, el estado de conservación y la duración de los componentes.","referencia":"Orden ECO/805/2003, art. 4"},{"pregunta":"¿Qué es la depreciación funcional?","opciones":["La pérdida por lluvia","La pérdida por defectuosa adaptación a la función","La pérdida por ruido","Ninguna"],"correcta":1,"explicacion":"La depreciación funcional se debe a una defectuosa adaptación a la función.","referencia":"Orden ECO/805/2003, art. 4"},{"pregunta":"¿Qué mide el valor de reemplazamiento neto?","opciones":["El valor del terreno sin construir","El valor del vecino","El valor bruto menos la depreciación física y funcional","El valor de la moneda"],"correcta":2,"explicacion":"Es el valor bruto menos la depreciación física y funcional.","referencia":"Orden ECO/805/2003, art. 19.1"},{"pregunta":"¿Qué norma regula las valoraciones catastrales de bienes urbanos?","opciones":["El RD 842/2002","El RD 919/2006","El RD 346/2011","El RD 1020/1993"],"correcta":3,"explicacion":"El RD 1020/1993 regula las normas técnicas de valoración de bienes urbanos.","referencia":"RD 1020/1993"},{"pregunta":"¿Qué norma regula las valoraciones de bienes de características especiales?","opciones":["El RD 1464/2007","El RD 842/2002","El RD 919/2006","El RD 346/2011"],"correcta":0,"explicacion":"El RD 1464/2007 regula los bienes de características especiales.","referencia":"RD 1464/2007"},{"pregunta":"¿Qué criterio influye en el valor catastral?","opciones":["El color de la fachada","La localización y el coste de ejecución material","El nombre del dueño","La altura de los árboles"],"correcta":1,"explicacion":"Entre los criterios figuran la localización y el coste de ejecución material.","referencia":"Ley del Catastro, art. 23.1"},{"pregunta":"¿Qué ponencia de valores se aplica con carácter general para el valor catastral?","opciones":["La ponencia de la lotería","La ponencia de la fiesta","La ponencia de valores vigente","Ninguna"],"correcta":2,"explicacion":"El valor catastral se determina aplicando la ponencia de valores vigente.","referencia":"Ley del Catastro, art. 24.1"},{"pregunta":"¿Cuántos años de vida útil máxima tiene el uso residencial en la amortización lineal?","opciones":["10 años","1000 años","No hay","100 años"],"correcta":3,"explicacion":"La vida útil máxima para uso residencial es de 100 años.","referencia":"Orden ECO/805/2003, art. 19.2 b)"},{"pregunta":"¿Qué tipo de construcción del suelo rústico se tasa con independencia del terreno?","opciones":["Las de madera","Las de papel","Las construcciones legales, compatibles con el uso y no tenidas en cuenta en el suelo","Ninguna"],"correcta":2,"explicacion":"Las construcciones legales, compatibles y no tenidas en cuenta en la valoración del suelo se tasan aparte.","referencia":"TRLS, art. 35.3"},{"pregunta":"¿Qué ley regula el suelo y el régimen de valoraciones en el ámbito estatal?","opciones":["Real Decreto Legislativo 7/2015","Real Decreto Legislativo 1/2004","Real Decreto 1627/1997","Real Decreto 314/2006"],"correcta":0,"explicacion":"El RDL 7/2015 aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana.","referencia":"RDL 7/2015"},{"pregunta":"¿Qué norma regula el catastro inmobiliario?","opciones":["Real Decreto Legislativo 7/2015","Real Decreto Legislativo 1/2004","Ley 38/2003","Ley 9/2017"],"correcta":1,"explicacion":"El RDL 1/2004 aprueba el texto refundido de la Ley del Catastro Inmobiliario.","referencia":"RDL 1/2004"},{"pregunta":"¿Qué método valora un inmueble comparándolo con otros similares recientemente vendidos?","opciones":["Método del coste","Método de capitalización","Método de comparación","Método de sorteo"],"correcta":2,"explicacion":"El método de comparación toma como referencia precios de inmuebles semejantes.","referencia":"Tema e38"},{"pregunta":"¿Qué método estima el valor a partir de la renta que produce el inmueble?","opciones":["Método de comparación","Método de sorteo","Método de la raíz cuadrada","Método de capitalización de rentas"],"correcta":3,"explicacion":"El método de capitalización relaciona la renta con el valor del inmueble.","referencia":"Tema e38"},{"pregunta":"¿Qué método valora por el coste de reposición menos la depreciación?","opciones":["Método de comparación","Método de sorteo","Método de capitalización","Método del coste"],"correcta":3,"explicacion":"El método del coste calcula lo que costaría reproducir el inmueble, descontada la depreciación.","referencia":"Tema e38"},{"pregunta":"¿Qué es el valor de mercado de un inmueble?","opciones":["Precio que se pagaría en condiciones normales de mercado","El precio fijado por el vecino","El importe de la contribución","La cuota de la comunidad"],"correcta":0,"explicacion":"El valor de mercado es el precio probable en condiciones normales de compraventa.","referencia":"Tema e38"},{"pregunta":"¿Qué valor se utiliza en las valoraciones fiscales de inmuebles?","opciones":["Valor sentimental","Valor catastral","Valor de cambio de divisas","Valor nutritivo"],"correcta":1,"explicacion":"El valor catastral es el valor fiscal de referencia del inmueble.","referencia":"RDL 1/2004"},{"pregunta":"¿Qué es el valor de reposición de un inmueble?","opciones":["Precio de la parcela sin construir","Renta anual de alquiler","Coste de construir de nuevo un inmueble equivalente","Importe de la hipoteca"],"correcta":2,"explicacion":"El valor de reposición mide el coste de construir un inmueble equivalente hoy.","referencia":"Tema e38"},{"pregunta":"¿Qué factor influye de forma determinante en el valor del suelo urbano?","opciones":["El color de la fachada","El número de ventanas","El nombre del propietario","Su clasificación y aprovechamiento urbanístico"],"correcta":3,"explicacion":"El valor del suelo depende de su clasificación y del aprovechamiento urbanístico.","referencia":"RDL 7/2015"}]}
+{
+  "id": "e38",
+  "resumen": [
+    {
+      "titulo": "Normativa reguladora",
+      "puntos": [
+        "Justiprecio: Ley de Expropiación Forzosa de 1954 (LEF, arts. 36 y siguientes). Suelo y edificación: TRLS, RDL 7/2015 (art. 35). Valor catastral: RDL 1/2004 (arts. 22 a 25). Métodos de valoración de inmuebles para entidades de crédito: Orden ECO/805/2003.",
+        "Normas técnicas de valoración catastral de bienes urbanos: RD 1020/1993; de bienes de características especiales: RD 1464/2007."
+      ]
+    },
+    {
+      "titulo": "Significados del valor",
+      "puntos": [
+        "Valor catastral: determinado objetivamente a partir de los datos del Catastro, formado por el del suelo y el de las construcciones (Ley del Catastro, art. 22).",
+        "Valor de mercado: precio más probable de venta entre partes independientes, libre de cargas (art. 23, apartado 2). El valor catastral no puede superarlo."
+      ]
+    },
+    {
+      "titulo": "El justiprecio",
+      "puntos": [
+        "Las tasaciones se hacen con el valor de los bienes al tiempo de iniciarse el expediente de justiprecio, sin plusvalías derivadas del proyecto expropiante (LEF, art. 36, apartado 1).",
+        "Las mejoras posteriores a la incoación no se indemnizan, salvo que se demuestre que eran necesarias (art. 36, apartado 2)."
+      ]
+    },
+    {
+      "titulo": "Suelo y edificaciones",
+      "puntos": [
+        "El valor del suelo corresponde a su pleno dominio, libre de cargas y gravámenes, y se tasa según su situación (TRLS, art. 35, apartados 1 y 2).",
+        "Las construcciones del suelo rural se tasan con independencia del terreno si son legales, compatibles con el uso y no se han tenido en cuenta en la valoración del suelo (art. 35, apartado 3)."
+      ]
+    },
+    {
+      "titulo": "Depreciación y métodos",
+      "puntos": [
+        "Depreciación física: pérdida por antigüedad, estado de conservación y duración de los componentes. Depreciación funcional: pérdida por defectuosa adaptación a la función (Orden ECO/805/2003, art. 4).",
+        "Valor de reemplazamiento neto: bruto menos depreciación física y funcional (art. 19, apartado 1). Amortización lineal con vida útil máxima de 100 años para uso residencial, 75 para oficinas, 50 para comercial y 35 para industrial (art. 19, apartado 2, letra b).",
+        "Métodos: coste, comparación, actualización de rentas y residual (art. 15, apartado 1)."
+      ]
+    },
+    {
+      "titulo": "Valor catastral: ponencias y límites",
+      "puntos": [
+        "La determinación del valor catastral se hace, con carácter general, aplicando la ponencia de valores vigente (Ley del Catastro, art. 24, apartado 1).",
+        "Criterios: localización, coste de ejecución material, gastos y beneficios de la promoción y circunstancias del mercado (art. 23, apartado 1). Límite: no puede superar el valor de mercado (apartado 2)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LEF",
+      "rol": "Justiprecio: valor a la fecha de iniciación del expediente y mejoras posteriores (art. 36)"
+    },
+    {
+      "id": "TRLS-7-2015",
+      "rol": "Criterios generales de valoración del suelo y de las edificaciones (art. 35)"
+    },
+    {
+      "id": "TRLCAT-1-2004",
+      "rol": "Valor catastral: concepto, criterios, límite frente al valor de mercado y ponencias (arts. 22 a 25)"
+    },
+    {
+      "id": "ECO-805-2003",
+      "rol": "Métodos técnicos de valoración, depreciación física y funcional, vida útil máxima y valor de reemplazamiento (arts. 4, 15, 17, 19 y 20)"
+    },
+    {
+      "id": "RD-1020-1993",
+      "rol": "Normas técnicas de valoración catastral y cuadro marco de valores del suelo y de las construcciones de bienes urbanos"
+    },
+    {
+      "id": "RD-1464-2007",
+      "rol": "Normas técnicas de valoración catastral de los bienes inmuebles de características especiales"
+    },
+    {
+      "id": "RD-1492-2011",
+      "articulos": "Texto íntegro de aplicación al tema",
+      "rol": "Reglamento de valoraciones de la Ley de Suelo"
+    },
+    {
+      "id": "REF-1957",
+      "articulos": "Texto íntegro de aplicación al tema",
+      "rol": "Reglamento de la Ley de Expropiación Forzosa"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según la LEF, art. 36, apartado 1, ¿con referencia a qué momento se tasan los bienes expropiables?",
+      "opciones": [
+        "Al tiempo de iniciarse el expediente de justiprecio",
+        "Al tiempo de la publicación del BOE",
+        "Al tiempo de la sentencia del Tribunal Supremo",
+        "Al tiempo de la toma de posesión, siempre"
+      ],
+      "correcta": 0,
+      "explicacion": "Las tasaciones se efectúan con arreglo al valor que tengan los bienes expropiables al tiempo de iniciarse el expediente de justiprecio, sin tener en cuenta las plusvalías que sean consecuencia directa del proyecto (LEF, art. 36, apartado 1).",
+      "referencia": "LEF, art. 36, apartado 1"
+    },
+    {
+      "pregunta": "Según la LEF, art. 36, apartado 2, ¿se indemnizan las mejoras realizadas después de la incoación del expediente?",
+      "opciones": [
+        "Solo si el propietario no lo ha pedido",
+        "Siempre, sin excepción",
+        "No, salvo que se demuestre que eran necesarias",
+        "Sí, con el doble de su valor"
+      ],
+      "correcta": 2,
+      "explicacion": "Las mejoras posteriores a la incoación no son objeto de indemnización, a no ser que se demuestre que eran necesarias (LEF, art. 36, apartado 2).",
+      "referencia": "LEF, art. 36, apartado 2"
+    },
+    {
+      "pregunta": "Según el TRLS, art. 35, apartado 1, ¿a qué corresponde el valor del suelo?",
+      "opciones": [
+        "Al precio pagado en la última compraventa",
+        "Al coste de la licencia municipal",
+        "Solo al valor de los materiales de la construcción",
+        "A su pleno dominio, libre de toda carga, gravamen o derecho limitativo"
+      ],
+      "correcta": 3,
+      "explicacion": "El valor del suelo corresponde a su pleno dominio, libre de toda carga, gravamen o derecho limitativo de la propiedad (TRLS, art. 35, apartado 1).",
+      "referencia": "TRLS, art. 35, apartado 1"
+    },
+    {
+      "pregunta": "Según la Ley del Catastro, art. 22, ¿de qué se compone el valor catastral de un bien inmueble?",
+      "opciones": [
+        "Solo del valor de las construcciones",
+        "Del valor catastral del suelo y del valor catastral de las construcciones",
+        "Del precio de compra más los impuestos",
+        "Solo del valor del suelo"
+      ],
+      "correcta": 1,
+      "explicacion": "El valor catastral está integrado por el valor catastral del suelo y el valor catastral de las construcciones (Ley del Catastro, art. 22).",
+      "referencia": "RDL 1/2004, art. 22"
+    },
+    {
+      "pregunta": "Según la Ley del Catastro, art. 23, apartado 2, ¿con qué límite se relaciona el valor catastral?",
+      "opciones": [
+        "Con el valor de mercado, que no puede superarse",
+        "Con el número de plantas del edificio",
+        "Con la superficie del solar en metros cuadrados",
+        "No tiene ningún límite"
+      ],
+      "correcta": 0,
+      "explicacion": "El valor catastral de los inmuebles no puede superar el valor de mercado, entendido como el precio más probable de venta entre partes independientes (art. 23, apartado 2 del TRLCAT (RDL 1/2004)).",
+      "referencia": "RDL 1/2004, art. 23, apartado 2"
+    },
+    {
+      "pregunta": "Según la Orden ECO/805/2003, art. 15, apartado 1, ¿cuál de los siguientes NO es un método técnico de valoración?",
+      "opciones": [
+        "El método de comparación",
+        "El método de actualización de rentas",
+        "El método del precio fijo administrativo",
+        "El método del coste"
+      ],
+      "correcta": 2,
+      "explicacion": "Los métodos técnicos de valoración son el del coste, el de comparación, el de actualización de rentas y el residual (art. 15, apartado 1 de la Orden ECO/805/2003).",
+      "referencia": "Orden ECO/805/2003, art. 15, apartado 1"
+    },
+    {
+      "pregunta": "Según la Orden ECO/805/2003, art. 19, apartado 2, letra b, ¿cuál es la vida útil total máxima para un edificio de uso residencial en el cálculo por amortización lineal?",
+      "opciones": [
+        "35 años",
+        "50 años",
+        "75 años",
+        "100 años"
+      ],
+      "correcta": 3,
+      "explicacion": "Para edificios de uso residencial, la vida útil total máxima en la amortización lineal es de 100 años; para oficinas, 75; para comerciales, 50; y para industriales, 35 (art. 19, apartado 2, letra b de la Orden ECO/805/2003).",
+      "referencia": "Orden ECO/805/2003, art. 19, apartado 2, letra b)"
+    },
+    {
+      "pregunta": "Según la Orden ECO/805/2003, art. 19, apartado 1, ¿cómo se obtiene el valor de reemplazamiento neto?",
+      "opciones": [
+        "Sumando la depreciación al valor de reemplazamiento bruto",
+        "Restando al valor de reemplazamiento bruto la depreciación física y funcional",
+        "Multiplicando el valor del suelo por dos",
+        "Dividiendo el valor de mercado entre la superficie"
+      ],
+      "correcta": 1,
+      "explicacion": "Para calcular el valor de reemplazamiento neto se resta del valor de reemplazamiento bruto la depreciación física y funcional del edificio terminado (art. 19, apartado 1 de la Orden ECO/805/2003).",
+      "referencia": "Orden ECO/805/2003, art. 19, apartado 1"
+    },
+    {
+      "pregunta": "Según la Ley del Catastro, art. 24, apartado 1, ¿cómo se determina con carácter general el valor catastral?",
+      "opciones": [
+        "Mediante el precio pagado en la última escritura",
+        "Mediante la tasación de un notario",
+        "Mediante la aplicación de la correspondiente ponencia de valores",
+        "Mediante la declaración libre del propietario"
+      ],
+      "correcta": 2,
+      "explicacion": "Salvo en los supuestos previstos en el artículo 30, apartado 2, la determinación del valor catastral se efectúa mediante la aplicación de la correspondiente ponencia de valores (art del TRLCAT (RDL 1/2004). 24, apartado 1).",
+      "referencia": "RDL 1/2004, art. 24, apartado 1"
+    },
+    {
+      "pregunta": "Según la Orden ECO/805/2003, art. 4, ¿qué es la depreciación física de un bien?",
+      "opciones": [
+        "La pérdida que experimenta el valor de reemplazamiento bruto en función de su antigüedad, estado de conservación y duración de sus componentes",
+        "El coste de la licencia de obras",
+        "El beneficio del promotor",
+        "La subida del valor del terreno por la cercanía de servicios"
+      ],
+      "correcta": 0,
+      "explicacion": "La depreciación física es la pérdida que experimenta el valor de reemplazamiento bruto de un bien en función de su antigüedad, de su estado de conservación y de la duración de sus componentes (Orden ECO/805/2003, art. 4, definiciones).",
+      "referencia": "Orden ECO/805/2003, art. 4"
+    },
+    {
+      "pregunta": "¿Qué ley regula el justiprecio en la expropiación forzosa?",
+      "opciones": [
+        "La Ley de Caza",
+        "La Ley de Expropiación Forzosa de 1954 (LEF)",
+        "La Ley de Pesca",
+        "La Ley de Vuelos"
+      ],
+      "correcta": 1,
+      "explicacion": "El justiprecio se regula en la LEF de 1954, arts. 36 y siguientes.",
+      "referencia": "LEF, arts. 36 y ss."
+    },
+    {
+      "pregunta": "¿Qué texto regula el valor del suelo y de las edificaciones en la legislación estatal?",
+      "opciones": [
+        "El TRLS (RDL 7/2015)",
+        "El RD 1627/1997",
+        "La LGS",
+        "La Ley de Caza"
+      ],
+      "correcta": 0,
+      "explicacion": "El TRLS, RDL 7/2015, regula el suelo y la edificación.",
+      "referencia": "TRLS, art. 35"
+    },
+    {
+      "pregunta": "¿Qué norma regula el valor catastral?",
+      "opciones": [
+        "El RD 842/2002",
+        "El Texto refundido de la Ley del Catastro (RDL 1/2004)",
+        "El RD 919/2006",
+        "La LCSP"
+      ],
+      "correcta": 1,
+      "explicacion": "El valor catastral se regula en el Texto refundido de la Ley del Catastro.",
+      "referencia": "RDL 1/2004, arts. 22 a 25"
+    },
+    {
+      "pregunta": "¿Qué orden regula los métodos de valoración de inmuebles para entidades de crédito?",
+      "opciones": [
+        "La Orden de Pesca",
+        "La Orden de Caza",
+        "La Orden de Vuelos",
+        "La Orden ECO/805/2003"
+      ],
+      "correcta": 3,
+      "explicacion": "La Orden ECO/805/2003 regula esos métodos.",
+      "referencia": "Orden ECO/805/2003"
+    },
+    {
+      "pregunta": "¿Qué es el valor catastral?",
+      "opciones": [
+        "El valor determinado a partir de los datos del Catastro, formado por el suelo y las construcciones",
+        "El precio del café",
+        "El salario del alcalde",
+        "La edad del edificio"
+      ],
+      "correcta": 0,
+      "explicacion": "El valor catastral se determina objetivamente con los datos del Catastro.",
+      "referencia": "Ley del Catastro, art. 22"
+    },
+    {
+      "pregunta": "¿Qué es el valor de mercado?",
+      "opciones": [
+        "Un precio de regalo",
+        "El precio más probable de venta entre partes independientes, libre de cargas",
+        "El valor de las antigüedades",
+        "La suma de los gastos"
+      ],
+      "correcta": 1,
+      "explicacion": "El valor de mercado es el precio más probable de venta entre partes independientes, libre de cargas.",
+      "referencia": "Ley del Catastro, art. 23.2"
+    },
+    {
+      "pregunta": "¿Puede el valor catastral superar el valor de mercado?",
+      "opciones": [
+        "Sí, siempre",
+        "Solo en verano",
+        "No",
+        "Solo en Navidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El valor catastral no puede superar el valor de mercado.",
+      "referencia": "Ley del Catastro, art. 23.2"
+    },
+    {
+      "pregunta": "¿A qué momento se tasan los bienes en un justiprecio?",
+      "opciones": [
+        "Diez años después",
+        "Al final de la obra",
+        "Nunca",
+        "Al iniciarse el expediente de justiprecio"
+      ],
+      "correcta": 3,
+      "explicacion": "Las tasaciones se hacen al tiempo de iniciarse el expediente.",
+      "referencia": "LEF, art. 36.1"
+    },
+    {
+      "pregunta": "¿Qué plusvalías se excluyen en el justiprecio?",
+      "opciones": [
+        "Las derivadas del proyecto expropiante",
+        "Las de la lotería",
+        "Las de la bolsa",
+        "Ninguna"
+      ],
+      "correcta": 0,
+      "explicacion": "Se excluyen las plusvalías derivadas del proyecto expropiante.",
+      "referencia": "LEF, art. 36.1"
+    },
+    {
+      "pregunta": "¿Se indemnizan las mejoras posteriores a la iniciación del expediente?",
+      "opciones": [
+        "Sí, siempre",
+        "No, salvo que se demuestre que eran necesarias",
+        "Solo si son bonitas",
+        "Solo si las paga el vecino"
+      ],
+      "correcta": 1,
+      "explicacion": "Las mejoras posteriores no se indemnizan, salvo que se demuestre que eran necesarias.",
+      "referencia": "LEF, art. 36.2"
+    },
+    {
+      "pregunta": "¿Qué abarca el valor del suelo según el TRLS?",
+      "opciones": [
+        "La pintura del muro",
+        "El jardín",
+        "El pleno dominio, libre de cargas y gravámenes, según su situación",
+        "El menú"
+      ],
+      "correcta": 2,
+      "explicacion": "El valor del suelo corresponde al pleno dominio libre de cargas y gravámenes, según su situación.",
+      "referencia": "TRLS, art. 35.1 y 35.2"
+    },
+    {
+      "pregunta": "¿Qué métodos de valoración de inmuebles recoge el art. 15 de la Orden ECO/805/2003?",
+      "opciones": [
+        "Sorteo y suerte",
+        "Olfato y gusto",
+        "Ninguno",
+        "Coste, comparación, actualización de rentas y residual"
+      ],
+      "correcta": 3,
+      "explicacion": "Los métodos son el coste, la comparación, la actualización de rentas y el residual.",
+      "referencia": "Orden ECO/805/2003, art. 15.1"
+    },
+    {
+      "pregunta": "¿Qué es la depreciación física?",
+      "opciones": [
+        "La pérdida por antigüedad, estado de conservación y duración de los componentes",
+        "La pérdida de moda",
+        "La pérdida de dinero",
+        "Ninguna"
+      ],
+      "correcta": 0,
+      "explicacion": "La depreciación física se debe a la antigüedad, el estado de conservación y la duración de los componentes.",
+      "referencia": "Orden ECO/805/2003, art. 4"
+    },
+    {
+      "pregunta": "¿Qué es la depreciación funcional?",
+      "opciones": [
+        "La pérdida por lluvia",
+        "La pérdida por defectuosa adaptación a la función",
+        "La pérdida por ruido",
+        "Ninguna"
+      ],
+      "correcta": 1,
+      "explicacion": "La depreciación funcional se debe a una defectuosa adaptación a la función.",
+      "referencia": "Orden ECO/805/2003, art. 4"
+    },
+    {
+      "pregunta": "¿Qué mide el valor de reemplazamiento neto?",
+      "opciones": [
+        "El valor del terreno sin construir",
+        "El valor del vecino",
+        "El valor bruto menos la depreciación física y funcional",
+        "El valor de la moneda"
+      ],
+      "correcta": 2,
+      "explicacion": "Es el valor bruto menos la depreciación física y funcional.",
+      "referencia": "Orden ECO/805/2003, art. 19.1"
+    },
+    {
+      "pregunta": "¿Qué norma regula las valoraciones catastrales de bienes urbanos?",
+      "opciones": [
+        "El RD 842/2002",
+        "El RD 919/2006",
+        "El RD 346/2011",
+        "El RD 1020/1993"
+      ],
+      "correcta": 3,
+      "explicacion": "El RD 1020/1993 regula las normas técnicas de valoración de bienes urbanos.",
+      "referencia": "RD 1020/1993"
+    },
+    {
+      "pregunta": "¿Qué norma regula las valoraciones de bienes de características especiales?",
+      "opciones": [
+        "El RD 1464/2007",
+        "El RD 842/2002",
+        "El RD 919/2006",
+        "El RD 346/2011"
+      ],
+      "correcta": 0,
+      "explicacion": "El RD 1464/2007 regula los bienes de características especiales.",
+      "referencia": "RD 1464/2007"
+    },
+    {
+      "pregunta": "¿Qué criterio influye en el valor catastral?",
+      "opciones": [
+        "El color de la fachada",
+        "La localización y el coste de ejecución material",
+        "El nombre del dueño",
+        "La altura de los árboles"
+      ],
+      "correcta": 1,
+      "explicacion": "Entre los criterios figuran la localización y el coste de ejecución material.",
+      "referencia": "Ley del Catastro, art. 23.1"
+    },
+    {
+      "pregunta": "¿Qué ponencia de valores se aplica con carácter general para el valor catastral?",
+      "opciones": [
+        "La ponencia de la lotería",
+        "La ponencia de la fiesta",
+        "La ponencia de valores vigente",
+        "Ninguna"
+      ],
+      "correcta": 2,
+      "explicacion": "El valor catastral se determina aplicando la ponencia de valores vigente.",
+      "referencia": "Ley del Catastro, art. 24.1"
+    },
+    {
+      "pregunta": "¿Cuántos años de vida útil máxima tiene el uso residencial en la amortización lineal?",
+      "opciones": [
+        "10 años",
+        "1000 años",
+        "No hay",
+        "100 años"
+      ],
+      "correcta": 3,
+      "explicacion": "La vida útil máxima para uso residencial es de 100 años.",
+      "referencia": "Orden ECO/805/2003, art. 19.2 b)"
+    },
+    {
+      "pregunta": "¿Qué tipo de construcción del suelo rústico se tasa con independencia del terreno?",
+      "opciones": [
+        "Las de madera",
+        "Las de papel",
+        "Las construcciones legales, compatibles con el uso y no tenidas en cuenta en el suelo",
+        "Ninguna"
+      ],
+      "correcta": 2,
+      "explicacion": "Las construcciones legales, compatibles y no tenidas en cuenta en la valoración del suelo se tasan aparte.",
+      "referencia": "TRLS, art. 35.3"
+    },
+    {
+      "pregunta": "¿Qué ley regula el suelo y el régimen de valoraciones en el ámbito estatal?",
+      "opciones": [
+        "Real Decreto Legislativo 7/2015",
+        "Real Decreto Legislativo 1/2004",
+        "Real Decreto 1627/1997",
+        "Real Decreto 314/2006"
+      ],
+      "correcta": 0,
+      "explicacion": "El RDL 7/2015 aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana.",
+      "referencia": "RDL 7/2015"
+    },
+    {
+      "pregunta": "¿Qué norma regula el catastro inmobiliario?",
+      "opciones": [
+        "Real Decreto Legislativo 7/2015",
+        "Real Decreto Legislativo 1/2004",
+        "Ley 38/2003",
+        "Ley 9/2017"
+      ],
+      "correcta": 1,
+      "explicacion": "El RDL 1/2004 aprueba el texto refundido de la Ley del Catastro Inmobiliario.",
+      "referencia": "RDL 1/2004"
+    },
+    {
+      "pregunta": "¿Qué método valora un inmueble comparándolo con otros similares recientemente vendidos?",
+      "opciones": [
+        "Método del coste",
+        "Método de capitalización",
+        "Método de comparación",
+        "Método de sorteo"
+      ],
+      "correcta": 2,
+      "explicacion": "El método de comparación toma como referencia precios de inmuebles semejantes.",
+      "referencia": "Tema e38"
+    },
+    {
+      "pregunta": "¿Qué método estima el valor a partir de la renta que produce el inmueble?",
+      "opciones": [
+        "Método de comparación",
+        "Método de sorteo",
+        "Método de la raíz cuadrada",
+        "Método de capitalización de rentas"
+      ],
+      "correcta": 3,
+      "explicacion": "El método de capitalización relaciona la renta con el valor del inmueble.",
+      "referencia": "Tema e38"
+    },
+    {
+      "pregunta": "¿Qué método valora por el coste de reposición menos la depreciación?",
+      "opciones": [
+        "Método de comparación",
+        "Método de sorteo",
+        "Método de capitalización",
+        "Método del coste"
+      ],
+      "correcta": 3,
+      "explicacion": "El método del coste calcula lo que costaría reproducir el inmueble, descontada la depreciación.",
+      "referencia": "Tema e38"
+    },
+    {
+      "pregunta": "¿Qué es el valor de mercado de un inmueble?",
+      "opciones": [
+        "Precio que se pagaría en condiciones normales de mercado",
+        "El precio fijado por el vecino",
+        "El importe de la contribución",
+        "La cuota de la comunidad"
+      ],
+      "correcta": 0,
+      "explicacion": "El valor de mercado es el precio probable en condiciones normales de compraventa.",
+      "referencia": "Tema e38"
+    },
+    {
+      "pregunta": "¿Qué valor se utiliza en las valoraciones fiscales de inmuebles?",
+      "opciones": [
+        "Valor sentimental",
+        "Valor catastral",
+        "Valor de cambio de divisas",
+        "Valor nutritivo"
+      ],
+      "correcta": 1,
+      "explicacion": "El valor catastral es el valor fiscal de referencia del inmueble.",
+      "referencia": "RDL 1/2004"
+    },
+    {
+      "pregunta": "¿Qué es el valor de reposición de un inmueble?",
+      "opciones": [
+        "Precio de la parcela sin construir",
+        "Renta anual de alquiler",
+        "Coste de construir de nuevo un inmueble equivalente",
+        "Importe de la hipoteca"
+      ],
+      "correcta": 2,
+      "explicacion": "El valor de reposición mide el coste de construir un inmueble equivalente hoy.",
+      "referencia": "Tema e38"
+    },
+    {
+      "pregunta": "¿Qué factor influye de forma determinante en el valor del suelo urbano?",
+      "opciones": [
+        "El color de la fachada",
+        "El número de ventanas",
+        "El nombre del propietario",
+        "Su clasificación y aprovechamiento urbanístico"
+      ],
+      "correcta": 3,
+      "explicacion": "El valor del suelo depende de su clasificación y del aprovechamiento urbanístico.",
+      "referencia": "RDL 7/2015"
+    }
+  ]
+}
