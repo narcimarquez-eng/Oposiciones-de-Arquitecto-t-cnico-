@@ -694,6 +694,10 @@
     cuerpoActivoId = nuevoId;
     try { localStorage.setItem(CUERPO_STORAGE_KEY, nuevoId); } catch (e) { /* sin almacenamiento */ }
     filtro = 'todos';
+    estadoFichas.bloque = 'todos';
+    estadoNormativa.categoria = 'todas';
+    estadoNormativa.tipo = 'todos';
+    estadoNormativa.importancia = 'todas';
     gen.sel = null; // reiniciar selección del generador
     actualizarEncabezadoCuerpo();
     render();
@@ -945,7 +949,7 @@
       '<button class="tab" type="button" data-ir="#/practicos" aria-pressed="' + (h === '#/practicos' || h.indexOf('#/practico/') === 0) + '">🧮 Supuestos Prácticos (' + numPracticos + ')</button>' +
       '<button class="tab" type="button" data-ir="#/generador" aria-pressed="' + (h === '#/generador') + '">Generador y Simulacro</button>' +
       '<button class="tab" type="button" data-ir="#/fichas" aria-pressed="' + (h === '#/fichas') + '">⚡ Plazos y Cifras</button>' +
-      '<button class="tab" type="button" data-ir="#/normativa" aria-pressed="' + (h === '#/normativa') + '">📚 Normativa (' + Object.keys(D.leyes).length + ')</button>' +
+      '<button class="tab" type="button" data-ir="#/normativa" aria-pressed="' + (h === '#/normativa') + '">📚 Normativa ' + esc(c.codigo) + ' (' + obtenerNormativaDeCuerpo(c.id).ids.length + ')</button>' +
       botonToggleNormasHtml();
   }
 
@@ -1027,9 +1031,10 @@
       });
     });
 
-    Object.keys(D.leyes).forEach(function (lid) {
+    var normCuerpo = obtenerNormativaDeCuerpo();
+    normCuerpo.ids.forEach(function (lid) {
       var l = D.leyes[lid];
-      if (resNormas.length < 20 && normClave(l.id + ' ' + l.nombre + ' ' + l.referencia).indexOf(q) !== -1) {
+      if (l && resNormas.length < 20 && normClave(l.id + ' ' + l.nombre + ' ' + l.referencia).indexOf(q) !== -1) {
         resNormas.push(l);
       }
     });
@@ -1120,7 +1125,7 @@
 
     var buscadorHtml = '<div class="buscador-global">' +
       '<span aria-hidden="true">🔎</span>' +
-      '<input type="search" id="input-busqueda-global" value="' + esc(busquedaGlobal) + '" placeholder="Buscar en los ' + todosTemasCuerpo.length + ' temas de ' + esc(c.codigo) + ', apuntes, preguntas y ' + Object.keys(D.leyes).length + ' leyes oficiales…">' +
+      '<input type="search" id="input-busqueda-global" value="' + esc(busquedaGlobal) + '" placeholder="Buscar en los ' + todosTemasCuerpo.length + ' temas de ' + esc(c.codigo) + ', apuntes, preguntas y ' + obtenerNormativaDeCuerpo(c.id).ids.length + ' leyes de esta oposición…">' +
       (busquedaGlobal ? '<button type="button" class="btn-cita" data-limpiar-global="1">✕ Limpiar</button>' : '') +
       '</div>';
 
@@ -1549,6 +1554,114 @@
     return leyPorDefectoTema(t);
   }
 
+  function detectarLeyesExplicitasEnTexto(raw, idTema) {
+    var res = [];
+    if (!raw) return res;
+    REGEX_SOLO_NORMA_EXPLICITA.lastIndex = 0;
+    var m;
+    while ((m = REGEX_SOLO_NORMA_EXPLICITA.exec(String(raw))) !== null) {
+      var ms = m[0];
+      if (esProsaMinusculaNoNorma(ms, normClave(ms))) continue;
+      var lid = resolverLeyPorMencion(ms, idTema);
+      if (lid && D.leyes[lid] && res.indexOf(lid) === -1) res.push(lid);
+    }
+    return res;
+  }
+
+  var cacheLeyesPorTema = null;
+  var cacheNormativaCuerpo = {};
+
+  function obtenerLeyesDeTema(tid) {
+    if (!cacheLeyesPorTema) {
+      cacheLeyesPorTema = {};
+      Object.keys(D.contenido).forEach(function (k) {
+        var cont = D.contenido[k];
+        if (!cont) return;
+        var mapa = {};
+        var lista = [];
+        (cont.leyes || []).forEach(function (l) {
+          if (D.leyes[l.id] && !mapa[l.id]) {
+            mapa[l.id] = true;
+            lista.push({ leyId: l.id, temaId: k, rol: l.rol || '', articulos: l.articulos || '' });
+          }
+        });
+        var textosTest = (cont.test || []).map(function (q) {
+          return (q.referencia || '') + ' ' + (q.pregunta || '') + ' ' + (q.explicacion || '');
+        }).join('\n');
+        detectarLeyesExplicitasEnTexto(textosTest, k).forEach(function (lid) {
+          if (!mapa[lid]) {
+            mapa[lid] = true;
+            lista.push({ leyId: lid, temaId: k, rol: 'Norma evaluada en el test del tema', articulos: '' });
+          }
+        });
+        cacheLeyesPorTema[k] = lista;
+      });
+    }
+    return cacheLeyesPorTema[tid] || [];
+  }
+
+  function obtenerNormativaDeCuerpo(cid) {
+    var idCuerpo = cid || cuerpoActivoId;
+    if (cacheNormativaCuerpo[idCuerpo]) return cacheNormativaCuerpo[idCuerpo];
+
+    var temas = temasDeCuerpo(idCuerpo);
+    var leyesMap = {};
+    var temasPorLeyCuerpo = {};
+    var exPorLeyCuerpo = {};
+    var vistosTid = {};
+
+    temas.forEach(function (tObj) {
+      var tid = tObj.id;
+      if (vistosTid[tid]) return;
+      vistosTid[tid] = true;
+      obtenerLeyesDeTema(tid).forEach(function (item) {
+        leyesMap[item.leyId] = true;
+        if (!temasPorLeyCuerpo[item.leyId]) temasPorLeyCuerpo[item.leyId] = [];
+        temasPorLeyCuerpo[item.leyId].push({ temaId: item.temaId, rol: item.rol, articulos: item.articulos });
+      });
+    });
+
+    (D.examenesOficiales || []).forEach(function (eo) {
+      if ((eo.cuerpoId || eo.cuerpo) !== idCuerpo) return;
+      (eo.preguntas || []).forEach(function (q) {
+        var encontradas = detectarLeyesExplicitasEnTexto((q.referencia || '') + ' ' + (q.enunciado || '') + ' ' + (q.explicacion || ''), q.tema);
+        if (!encontradas.length) {
+          var def = leyPorDefectoPregunta(q, q.tema);
+          if (def && D.leyes[def]) encontradas = [def];
+        }
+        encontradas.forEach(function (lid) {
+          leyesMap[lid] = true;
+          exPorLeyCuerpo[lid] = (exPorLeyCuerpo[lid] || 0) + 1;
+        });
+      });
+    });
+
+    var supuestos = (D.supuestosPracticos && D.supuestosPracticos[idCuerpo]) || [];
+    supuestos.forEach(function (sp) {
+      (sp.preguntas || []).forEach(function (q) {
+        var tRef = q.tema || (sp.temasRelacionados && sp.temasRelacionados[0]);
+        var encontradas = detectarLeyesExplicitasEnTexto((q.referencia || '') + ' ' + (q.enunciado || '') + ' ' + (q.explicacion || ''), tRef);
+        if (!encontradas.length) {
+          var def = leyPorDefectoPregunta(q, tRef);
+          if (def && D.leyes[def]) encontradas = [def];
+        }
+        encontradas.forEach(function (lid) {
+          leyesMap[lid] = true;
+          exPorLeyCuerpo[lid] = (exPorLeyCuerpo[lid] || 0) + 1;
+        });
+      });
+    });
+
+    var res = {
+      ids: Object.keys(leyesMap),
+      leyesSet: leyesMap,
+      temasPorLey: temasPorLeyCuerpo,
+      exPorLey: exPorLeyCuerpo
+    };
+    cacheNormativaCuerpo[idCuerpo] = res;
+    return res;
+  }
+
   function enlazarNormas(texto, idTema, leyesDetectadas, leyInicial, estadoCtx) {
     var raw = String(texto == null ? '' : texto);
     if (!enlacesNormasActivos) return esc(raw);
@@ -1862,15 +1975,16 @@
     var numMatch = ((ley.referencia || '') + ' ' + (ley.nombre || '')).match(/\b(\d{1,4}\/\d{4}|[A-Z]{2,6}\/\d{1,4}\/\d{4})\b/);
     var patronClave = numMatch ? numMatch[1].toLowerCase() : normClave(ley.nombre).slice(0, 25);
 
+    var normCuerpo = obtenerNormativaDeCuerpo();
     var temasRevisar = [];
     if (idTema && D.contenido[idTema]) temasRevisar.push(idTema);
-    (temasPorLey[leyId] || []).forEach(function (item) {
+    (normCuerpo.temasPorLey[leyId] || temasPorLey[leyId] || []).forEach(function (item) {
       if (temasRevisar.indexOf(item.temaId) === -1) temasRevisar.push(item.temaId);
     });
 
     temasRevisar.forEach(function (tid) {
       var c = D.contenido[tid];
-      var t = temaPorId[tid];
+      var t = buscarTemaEnCuerpo(tid) || temaPorId[tid];
       if (!c || !t) return;
       var esTemaunicoLey = c.leyes && c.leyes.length === 1 && c.leyes[0].id === leyId;
       (c.resumen || []).forEach(function (b) {
@@ -2009,8 +2123,9 @@
         '</div>'
       : '';
 
-    // 4. Relación con el tema actual y con el resto del temario
-    var relTemas = temasPorLey[leyId] || [];
+    // 4. Relación con el tema actual y con el resto del temario de la oposición activa
+    var normCuerpoModal = obtenerNormativaDeCuerpo();
+    var relTemas = normCuerpoModal.temasPorLey[leyId] || temasPorLey[leyId] || [];
     var relActual = null;
     if (idTema) {
       for (var i = 0; i < relTemas.length; i++) {
@@ -2019,18 +2134,18 @@
     }
 
     var ubicacionHtml = '<div class="card">' +
-      '<strong>📍 Aplicación en el temario</strong>' +
+      '<strong>📍 Aplicación en el temario de ' + esc(cuerpoActual().nombreCorto) + '</strong>' +
       (relActual
-        ? '<p style="margin:6px 0 0"><strong>En ' + esc(etiquetaTema(temaPorId[idTema])) + ':</strong> ' +
+        ? '<p style="margin:6px 0 0"><strong>En ' + esc(etiquetaTema(buscarTemaEnCuerpo(idTema) || temaPorId[idTema])) + ':</strong> ' +
           esc(relActual.rol || 'Norma aplicable al tema') +
           (relActual.articulos ? ' · <strong>Artículos clave:</strong> ' + esc(relActual.articulos) : '') + '</p>'
         : '') +
       (relTemas.length
-        ? '<div class="normas-apartado" style="margin-top:8px"><span class="etiqueta">Temas donde se estudia (' + relTemas.length + '):</span>' +
+        ? '<div class="normas-apartado" style="margin-top:8px"><span class="etiqueta">Temas de ' + esc(cuerpoActual().codigo) + ' donde se estudia (' + relTemas.length + '):</span>' +
           relTemas.map(function (rt) {
-            var tObj = temaPorId[rt.temaId];
+            var tObj = buscarTemaEnCuerpo(rt.temaId);
             if (!tObj) return '';
-            return '<button type="button" class="btn-cita" data-ir-desde-modal="#/tema/' + esc(rt.temaId) + '">' + esc(etiquetaTema(tObj)) + '</button>';
+            return '<button type="button" class="btn-cita" data-ir-desde-modal="#/tema/' + esc(claveRutaTema(tObj)) + '">' + esc(etiquetaTema(tObj)) + '</button>';
           }).join('') + '</div>'
         : '') +
       '</div>';
@@ -2383,13 +2498,18 @@
   }
 
   function vistaFichasGlobal() {
+    var corp = cuerpoActual();
+    var temasCorp = temasCuerpoActual();
     var todas = [];
-    D.temario.temas.forEach(function (t) {
-      if (estadoFichas.bloque !== 'todos' && t.bloque !== estadoFichas.bloque) return;
+    var vistos = {};
+    temasCorp.forEach(function (t) {
+      if (estadoFichas.bloque !== 'todos' && !perteneceTemaABloque(t, estadoFichas.bloque)) return;
+      if (vistos[t.id]) return;
+      vistos[t.id] = true;
       extraerFichasTema(t.id).forEach(function (f) {
         if (estadoFichas.categoria !== 'todas' && f.cat !== estadoFichas.categoria) return;
         if (estadoFichas.busqueda && normClave(f.texto + ' ' + f.apartado + ' ' + t.titulo).indexOf(normClave(estadoFichas.busqueda)) === -1) return;
-        todas.push(f);
+        todas.push({ temaObj: t, ficha: f });
       });
     });
 
@@ -2401,9 +2521,19 @@
       ['mayorias', '⚖️ Mayorías y Órganos']
     ];
 
+    var bloquesSelectOpts = '<option value="todos"' + (estadoFichas.bloque === 'todos' ? ' selected' : '') + '>Todos los bloques de ' + esc(corp.codigo) + '</option>';
+    if (corp.bloques && corp.bloques.length > 1) {
+      corp.bloques.forEach(function (b) {
+        bloquesSelectOpts += '<option value="' + esc(b.id) + '"' + (estadoFichas.bloque === b.id ? ' selected' : '') + '>' + esc(b.nombreCorto || b.nombre) + '</option>';
+      });
+    } else if (corp.id === 'a2-2001') {
+      bloquesSelectOpts += '<option value="comun"' + (estadoFichas.bloque === 'comun' ? ' selected' : '') + '>Solo Bloque Común</option>' +
+        '<option value="arquitectura-tecnica"' + (estadoFichas.bloque === 'arquitectura-tecnica' ? ' selected' : '') + '>Solo Bloque Específico</option>';
+    }
+
     return volverInicio() +
-      '<h2 class="tituloTema">⚡ Tarjetas de Plazos, Cifras, Cuantías y Parámetros Técnicos</h2>' +
-      '<p class="sub">Repaso rápido de todos los datos numéricos, plazos administrativos, umbrales de la LCSP y parámetros técnicos del CTE y accesibilidad extraídos de los 70 temas.</p>' +
+      '<h2 class="tituloTema">⚡ Tarjetas de Plazos, Cifras, Cuantías y Parámetros · ' + esc(corp.nombreCorto) + '</h2>' +
+      '<p class="sub">Repaso rápido de todos los datos numéricos, plazos administrativos, cuantías y parámetros extraídos de los ' + temasCorp.length + ' temas de <strong>' + esc(corp.nombreCompleto) + '</strong>.</p>' +
       '<div class="card">' +
       '<div class="acciones" style="margin-top:0;align-items:center;justify-content:space-between">' +
       '<div style="display:flex;gap:6px;flex-wrap:wrap">' +
@@ -2417,20 +2547,17 @@
       '</button>' +
       '</div>' +
       '<div class="modal-buscador" style="margin-top:10px">' +
-      '<select class="sel" data-ficha-bloque="1">' +
-      '<option value="todos"' + (estadoFichas.bloque === 'todos' ? ' selected' : '') + '>Todos los bloques (Común + Específico)</option>' +
-      '<option value="comun"' + (estadoFichas.bloque === 'comun' ? ' selected' : '') + '>Solo Bloque Común</option>' +
-      '<option value="arquitectura-tecnica"' + (estadoFichas.bloque === 'arquitectura-tecnica' ? ' selected' : '') + '>Solo Bloque Específico</option>' +
-      '</select>' +
-      '<input type="search" id="input-buscar-fichas" value="' + esc(estadoFichas.busqueda) + '" placeholder="Filtrar plazos, cifras o conceptos (ej. licencia, silencio, menor, SUA, resbaladicidad)…">' +
+      '<select class="sel" data-ficha-bloque="1">' + bloquesSelectOpts + '</select>' +
+      '<input type="search" id="input-buscar-fichas" value="' + esc(estadoFichas.busqueda) + '" placeholder="Filtrar plazos, cifras o conceptos de ' + esc(corp.codigo) + '…">' +
       '</div></div>' +
       '<div class="ficha-grid">' +
-      todas.slice(0, 120).map(function (f) {
-        var t = buscarTemaEnCuerpo(f.temaId);
+      todas.slice(0, 120).map(function (item) {
+        var f = item.ficha;
+        var t = item.temaObj || buscarTemaEnCuerpo(f.temaId);
         return '<div class="card" style="margin-bottom:0">' +
           '<div class="tema-meta" style="justify-content:space-between">' +
           '<span><span class="pill ok">' + esc(f.etiqueta) + '</span> <strong>' + esc(etiquetaTema(t)) + '</strong> · ' + esc(f.apartado) + '</span>' +
-          '<button type="button" class="btn-cita" data-tema="' + esc((t && t.id) || f.temaId) + '">Ir al tema →</button>' +
+          '<button type="button" class="btn-cita" data-tema="' + esc(t ? claveRutaTema(t) : f.temaId) + '">Ir al tema →</button>' +
           '</div>' +
           '<div style="margin-top:6px">' + formatearTextoFicha(f.texto, f.temaId) + '</div>' +
           '</div>';
@@ -2439,7 +2566,7 @@
       '</div>';
   }
 
-  // ---------- Biblioteca Normativa Interactiva (por materia, tipo de norma e importancia) ----------
+  // ---------- Biblioteca Normativa Interactiva (independiente por cada oposición) ----------
   function categoriaNorma(l) {
     var id = l.id;
     if (/^(CE|EA-ANDALUCIA|LO-4-1981|TUE-TFUE|TLISBOA-2007|LGOB-AND-6-2006|LBRL|LAULA-5-2010|LCCA-2-2024|L-4-2005|LOREG-5-1985|LEA-1-1986|LOPP-6-2002|LOTC-2-1979|LOPJ-6-1985|LGOB-50-1997|LODP-3-1981|LDPA-9-1983|LCCA-1-1988|LOAFC-2-2021|LO-2-1982|LO-3-1980|LO-2-1986|RD-434-1988)$/.test(id)) return 'constitucional';
@@ -2457,7 +2584,7 @@
   }
 
   var NOMBRES_CAT_NORMA = {
-    'todas': 'Todas las normas (' + Object.keys(D.leyes).length + ')',
+    'todas': 'Todas las normas de esta oposición',
     'derogadas': '⚠️ Auditoría de vigencia: derogadas / sustituidas / en transición',
     'constitucional': '🏛️ Constitucional, UE y Autonómico',
     'administrativo': '📋 Procedimiento, Régimen Jurídico y Admin. Electrónica',
@@ -2488,62 +2615,81 @@
   }
 
   var NOMBRES_TIPO_NORMA = {
-    'todos': 'Todos los tipos de norma (' + Object.keys(D.leyes).length + ')',
-    '1-constitucion': '📜 Constitución y Estatuto de Autonomía (2)',
-    '2-ue': '🇪🇺 Derecho de la Unión Europea (3)',
-    '3-organica': '⚖️ Leyes Orgánicas (17)',
-    '4-ordinaria': '📘 Leyes Ordinarias y Códigos (90)',
-    '5-refundido': '📚 Textos Refundidos y Decretos Legislativos (12)',
-    '6-decreto-ley': '⚡ Reales Decretos-ley y Decretos-ley (4)',
-    '7-decreto': '📑 Reales Decretos y Decretos Autonómicos (75)',
-    '8-orden': '📋 Órdenes y Convenios Colectivos (8)',
-    '9-cte': '🏗️ Código Técnico (CTE) y Documentos Básicos (12)'
+    'todos': 'Todos los tipos de norma',
+    '1-constitucion': '📜 Constitución y Estatuto de Autonomía',
+    '2-ue': '🇪🇺 Derecho de la Unión Europea',
+    '3-organica': '⚖️ Leyes Orgánicas',
+    '4-ordinaria': '📘 Leyes Ordinarias y Códigos',
+    '5-refundido': '📚 Textos Refundidos y Decretos Legislativos',
+    '6-decreto-ley': '⚡ Reales Decretos-ley y Decretos-ley',
+    '7-decreto': '📑 Reales Decretos y Decretos Autonómicos',
+    '8-orden': '📋 Órdenes y Convenios Colectivos',
+    '9-cte': '🏗️ Código Técnico (CTE) y Documentos Básicos'
   };
 
-  var EX_OFICIALES_LEY = {'LCSP':418,'LPAC':380,'LGHPA':205,'EA-ANDALUCIA':201,'CE':181,'LFP-ANDALUCIA':177,'EBEP':149,'LRJSP':115,'CTE':113,'LISTA-7-2021':105,'LAJA':102,'VI-CONV-LAB-JA':77,'DEC-AND-550-2022':75,'RGLCAP-1098-2001':59,'LGSS-8-2015':56,'LIG-AND-12-2007':51,'LTPA':51,'ET-2-2015':50,'DEC-AND-2-2002':47,'DEC-AND-622-2019':45,'LFP-AND-6-1985':45,'LGS':44,'LPCA-4-1986':41,'DEC-AND-91-2020':39,'LPAP-33-2003':39,'TUE-TFUE':37,'DEC-AND-282-2010':36,'CC-1889':35,'DEC-AND-149-2006':35,'LPCA-7-2025':35,'VG-AND-13-2007':33,'LTBG':32,'LPHA-14-2007':31,'DEC-AND-293-2009':29,'LO-3-2007':26,'DEC-AND-197-2021':24,'LGOB-AND-6-2006':24,'DEC-AND-317-2003':23,'LOPDGDD':23,'RGPD':23,'LJCA':22,'ORD-AND-CONT-2015':21,'DB-HS':19,'TMA-851-2021':18,'LOE':17,'LBRL':16,'LPRL':16,'LRJS-36-2011':16,'LCCA-1-1988':15,'LGICA-7-2007':13,'DB-SI':12,'DEC-AND-524-2008':12,'DEC-AND-92-2022':12,'LIPAP-53-1984':12,'TRLS-7-2015':12,'DB-SUA':11,'DL-AND-3-2024':11,'DB-HE':10,'DEC-AND-51-2025':10,'ECO-805-2003':10,'LDAPA-7-2011':10,'RD-364-1995':10,'L-4-2005':8,'LEF':8,'ORD-AND-12-12-2005':8,'RD-1627-1997':8,'DEC-AND-39-2011':7,'RD-33-1986':7,'DEC-AND-262-1988':6,'DL-AND-13-2020':6,'L-50-1999':6,'LAULA-5-2010':6,'LGEA-2-2002':6,'LGT-58-2003':6,'LINC-AND-3-2005':6,'LPLA-6-2023':6,'ORD-AND-21-07-2008':6,'DEC-AND-54-1989':5,'L-1-2010':5,'L-13-2005':5,'LEGAM-2-2026':5,'LSA-2-1998':5,'RD-203-2021':5,'L-10-2021':4,'L-2-1989':4,'LEA-1-1986':4,'LISOS-5-2000':4,'LO-1-2004':4,'LOEPSF-2-2012':4,'LPHE-16-1985':4,'RDL-17-1977':4,'DEC-AND-40-2017':3,'DEC-AND-67-2011':3,'DLEG-AND-1-2012':3,'DLEG-AND-1-2013':3,'L-21-2013':3,'L-32-2006':3,'LAA-9-2010':3,'LAND-4-2017':3,'LDPA-9-1983':3,'LGP-47-2003':3,'LO-2-1982':3,'LOAFC-2-2021':3,'LOTC-2-1979':3,'LPPCA-2-2017':3,'RD-4-2010':3,'RD-470-2021':3,'RD-84-1996':3,'RD-842-2002':3,'RITE':3,'RLGS-887-2006':3,'DEC-AND-1-2012':2,'DEC-AND-204-1995':2,'L-1-2004':2,'L-15-2005':2,'L-22-2009':2,'L-5-2016':2,'LAAD-39-2006':2,'LGOB-50-1997':2,'LH-1946':2,'LODP-3-1981':2,'LOLS-11-1985':2,'LOREG-5-1985':2,'LPH-49-1960':2,'LSSA-9-2016':2,'RD-1020-1993':2,'RD-105-2008':2,'RD-132-2010':2,'RD-346-2011':2,'TRLCAT-1-2004':2,'CEE-390-2021':1,'DB-SE-C':1,'DEC-AND-60-2010':1,'L-3-2023':1,'L-42-2007':1,'L-8-2018':1,'LACC-16-2007':1,'LAVA-10-2018':1,'LCCA-2-2024':1,'LCUA-13-2003':1,'LEDA-17-2007':1,'LO-2-1986':1,'LO-4-1981':1,'LO-4-2001':1,'LOFCA-8-1980':1,'LOPJ-6-1985':1,'LOPP-6-2002':1,'LPCA-4-2026':1,'LRHL-2-2004':1,'ORD-AND-24-01-2003':1,'RD-1415-2004':1,'RD-1492-2011':1,'RD-355-2024':1,'RD-396-2006':1,'RD-470-2021-ACERO':1,'RD-487-2022':1,'RD-513-2017':1,'RD-847-2026':1,'REF-1957':1};
-
-  function importanciaNorma(l) {
+  function importanciaNormaEnCuerpo(l, normCuerpo) {
     var vig = !l.estado_vigencia || l.estado_vigencia === 'vigente';
     if (!vig) return 'nivel4';
-    var ex = EX_OFICIALES_LEY[l.id] || 0;
-    var nTemas = (temasPorLey[l.id] || []).length;
-    if (ex >= 20 || nTemas >= 6) return 'nivel1';
-    if (ex >= 5 || nTemas >= 3) return 'nivel2';
+    var nc = normCuerpo || obtenerNormativaDeCuerpo();
+    var ex = nc.exPorLey[l.id] || 0;
+    var nTemas = (nc.temasPorLey[l.id] || []).length;
+    if (ex >= 10 || nTemas >= 5) return 'nivel1';
+    if (ex >= 3 || nTemas >= 2) return 'nivel2';
     return 'nivel3';
   }
 
   var NOMBRES_IMP_NORMA = {
-    'todas': 'Todos los niveles de importancia (' + Object.keys(D.leyes).length + ')',
-    'nivel1': '🔥 Nivel 1 · Imprescindibles / Troncales (42 normas · ≥20 citas en examen o ≥6 temas)',
-    'nivel2': '⭐ Nivel 2 · Muy frecuentes (44 normas · 5–19 citas en examen o 3–5 temas)',
-    'nivel3': '📌 Nivel 3 · Específicas y de consulta (117 normas vigentes)',
-    'nivel4': '🏛️ Nivel 4 · Históricas / Derogadas o en transición (20 normas)'
+    'todas': 'Todos los niveles de importancia',
+    'nivel1': '🔥 Nivel 1 · Imprescindibles / Troncales en esta oposición',
+    'nivel2': '⭐ Nivel 2 · Muy frecuentes en esta oposición',
+    'nivel3': '📌 Nivel 3 · Específicas y de consulta en esta oposición',
+    'nivel4': '🏛️ Nivel 4 · Históricas / Derogadas o en transición'
   };
 
-  function badgeImportancia(l) {
-    var imp = importanciaNorma(l);
-    var ex = EX_OFICIALES_LEY[l.id] || 0;
-    var nT = (temasPorLey[l.id] || []).length;
-    var det = (ex ? ex + ' ex.' : '') + (ex && nT ? ' · ' : '') + (nT ? nT + ' temas' : '');
-    if (imp === 'nivel1') return '<span class="pill ok" title="Norma troncal de estudio prioritario">🔥 Nivel 1 · Imprescindible' + (det ? ' (' + det + ')' : '') + '</span>';
-    if (imp === 'nivel2') return '<span class="pill" style="background:#eff6ff;color:#1d4ed8;border-color:#bfdbfe" title="Norma frecuente en convocatorias oficiales">⭐ Nivel 2 · Muy frecuente' + (det ? ' (' + det + ')' : '') + '</span>';
-    if (imp === 'nivel3') return '<span class="pill" title="Norma específica o de referencia puntual">📌 Nivel 3 · Específica' + (det ? ' (' + det + ')' : '') + '</span>';
+  function badgeImportancia(l, normCuerpo) {
+    var nc = normCuerpo || obtenerNormativaDeCuerpo();
+    var imp = importanciaNormaEnCuerpo(l, nc);
+    var ex = nc.exPorLey[l.id] || 0;
+    var nT = (nc.temasPorLey[l.id] || []).length;
+    var det = (ex ? ex + ' ex. ' + cuerpoActual().codigo : '') + (ex && nT ? ' · ' : '') + (nT ? nT + ' temas' : '');
+    if (imp === 'nivel1') return '<span class="pill ok" title="Norma troncal de estudio prioritario en ' + esc(cuerpoActual().codigo) + '">🔥 Nivel 1 · Imprescindible' + (det ? ' (' + det + ')' : '') + '</span>';
+    if (imp === 'nivel2') return '<span class="pill" style="background:#eff6ff;color:#1d4ed8;border-color:#bfdbfe" title="Norma frecuente en ' + esc(cuerpoActual().codigo) + '">⭐ Nivel 2 · Muy frecuente' + (det ? ' (' + det + ')' : '') + '</span>';
+    if (imp === 'nivel3') return '<span class="pill" title="Norma específica de ' + esc(cuerpoActual().codigo) + '">📌 Nivel 3 · Específica' + (det ? ' (' + det + ')' : '') + '</span>';
     return '<span class="pill warn" title="Norma derogada o en régimen transitorio">🏛️ Nivel 4 · Histórica/Transición' + (det ? ' (' + det + ')' : '') + '</span>';
   }
 
   function vistaNormativaGlobal() {
-    var nTotal = Object.keys(D.leyes).length;
+    var corp = cuerpoActual();
+    var normCuerpo = obtenerNormativaDeCuerpo(corp.id);
+    var baseIds = normCuerpo.ids;
+    var nTotal = baseIds.length;
     var nVigentes = 0, nDerogadas = 0, nTransicion = 0;
-    Object.keys(D.leyes).forEach(function (id) {
-      var st = D.leyes[id].estado_vigencia;
+    var conteoCat = { todas: nTotal, derogadas: 0 };
+    var conteoTipo = { todos: nTotal };
+    var conteoImp = { todas: nTotal, nivel1: 0, nivel2: 0, nivel3: 0, nivel4: 0 };
+
+    baseIds.forEach(function (id) {
+      var l = D.leyes[id];
+      if (!l) return;
+      var st = l.estado_vigencia;
       if (!st || st === 'vigente') nVigentes++;
-      else if (st === 'derogada') nDerogadas++;
-      else nTransicion++;
+      else {
+        conteoCat.derogadas++;
+        if (st === 'derogada') nDerogadas++;
+        else nTransicion++;
+      }
+      var cat = categoriaNorma(l);
+      conteoCat[cat] = (conteoCat[cat] || 0) + 1;
+      var tp = tipoNorma(l);
+      conteoTipo[tp] = (conteoTipo[tp] || 0) + 1;
+      var imp = importanciaNormaEnCuerpo(l, normCuerpo);
+      conteoImp[imp] = (conteoImp[imp] || 0) + 1;
     });
 
     var modo = estadoNormativa.modo || 'materia';
-    var ids = Object.keys(D.leyes).filter(function (id) {
+    var ids = baseIds.filter(function (id) {
       var l = D.leyes[id];
+      if (!l) return false;
       if (modo === 'materia') {
         if (estadoNormativa.categoria === 'derogadas') {
           if (!l.estado_vigencia || l.estado_vigencia === 'vigente') return false;
@@ -2555,7 +2701,7 @@
           return false;
         }
       } else if (modo === 'importancia') {
-        if (estadoNormativa.importancia !== 'todas' && importanciaNorma(l) !== estadoNormativa.importancia) {
+        if (estadoNormativa.importancia !== 'todas' && importanciaNormaEnCuerpo(l, normCuerpo) !== estadoNormativa.importancia) {
           return false;
         }
       }
@@ -2568,9 +2714,9 @@
 
     if (modo === 'importancia') {
       ids.sort(function (a, b) {
-        var ea = EX_OFICIALES_LEY[a] || 0, eb = EX_OFICIALES_LEY[b] || 0;
+        var ea = normCuerpo.exPorLey[a] || 0, eb = normCuerpo.exPorLey[b] || 0;
         if (eb !== ea) return eb - ea;
-        var ta = (temasPorLey[a] || []).length, tb = (temasPorLey[b] || []).length;
+        var ta = (normCuerpo.temasPorLey[a] || []).length, tb = (normCuerpo.temasPorLey[b] || []).length;
         if (tb !== ta) return tb - ta;
         return a.localeCompare(b);
       });
@@ -2578,69 +2724,77 @@
       ids.sort(function (a, b) {
         var ta = tipoNorma(D.leyes[a]), tb = tipoNorma(D.leyes[b]);
         if (ta !== tb) return ta.localeCompare(tb);
-        return (EX_OFICIALES_LEY[b] || 0) - (EX_OFICIALES_LEY[a] || 0) || a.localeCompare(b);
+        return (normCuerpo.exPorLey[b] || 0) - (normCuerpo.exPorLey[a] || 0) ||
+          ((normCuerpo.temasPorLey[b] || []).length - (normCuerpo.temasPorLey[a] || []).length) ||
+          a.localeCompare(b);
+      });
+    } else {
+      ids.sort(function (a, b) {
+        return ((normCuerpo.temasPorLey[b] || []).length - (normCuerpo.temasPorLey[a] || []).length) ||
+          ((normCuerpo.exPorLey[b] || 0) - (normCuerpo.exPorLey[a] || 0)) ||
+          a.localeCompare(b);
       });
     }
 
     var selectFiltroHtml = '';
     if (modo === 'materia') {
       selectFiltroHtml = '<select class="sel" data-norma-cat="1" style="flex:1;min-width:260px">' +
-        Object.keys(NOMBRES_CAT_NORMA).map(function (k) {
-          return '<option value="' + k + '"' + (estadoNormativa.categoria === k ? ' selected' : '') + '>' + esc(NOMBRES_CAT_NORMA[k]) + '</option>';
+        Object.keys(NOMBRES_CAT_NORMA).filter(function (k) { return k === 'todas' || (conteoCat[k] || 0) > 0; }).map(function (k) {
+          return '<option value="' + k + '"' + (estadoNormativa.categoria === k ? ' selected' : '') + '>' + esc(NOMBRES_CAT_NORMA[k] + ' (' + (conteoCat[k] || 0) + ')') + '</option>';
         }).join('') + '</select>';
     } else if (modo === 'tipo') {
       selectFiltroHtml = '<select class="sel" data-norma-tipo="1" style="flex:1;min-width:260px">' +
-        Object.keys(NOMBRES_TIPO_NORMA).map(function (k) {
-          return '<option value="' + k + '"' + (estadoNormativa.tipo === k ? ' selected' : '') + '>' + esc(NOMBRES_TIPO_NORMA[k]) + '</option>';
+        Object.keys(NOMBRES_TIPO_NORMA).filter(function (k) { return k === 'todos' || (conteoTipo[k] || 0) > 0; }).map(function (k) {
+          return '<option value="' + k + '"' + (estadoNormativa.tipo === k ? ' selected' : '') + '>' + esc(NOMBRES_TIPO_NORMA[k] + ' (' + (conteoTipo[k] || 0) + ')') + '</option>';
         }).join('') + '</select>';
     } else {
       selectFiltroHtml = '<select class="sel" data-norma-imp="1" style="flex:1;min-width:260px">' +
         Object.keys(NOMBRES_IMP_NORMA).map(function (k) {
-          return '<option value="' + k + '"' + (estadoNormativa.importancia === k ? ' selected' : '') + '>' + esc(NOMBRES_IMP_NORMA[k]) + '</option>';
+          return '<option value="' + k + '"' + (estadoNormativa.importancia === k ? ' selected' : '') + '>' + esc(NOMBRES_IMP_NORMA[k] + ' (' + (conteoImp[k] || 0) + ')') + '</option>';
         }).join('') + '</select>';
     }
 
     return volverInicio() +
-      '<h2 class="tituloTema">📚 Biblioteca Normativa Interactiva (' + nTotal + ' normas oficiales)</h2>' +
-      '<p class="sub">Todas las leyes, reales decretos, decretos autonómicos, órdenes y Documentos Básicos del CTE descargados e indexados en el repositorio. Cambia entre el índice <strong>por materia</strong>, <strong>por tipo de norma</strong> o <strong>por importancia en exámenes</strong>.</p>' +
+      '<h2 class="tituloTema">📚 Biblioteca Normativa de ' + esc(corp.nombreCorto) + ' (' + nTotal + ' normas oficiales)</h2>' +
+      '<p class="sub">Mostrando exclusivamente las <strong>' + nTotal + ' normas aplicables al temario y exámenes oficiales de ' + esc(corp.nombreCompleto) + '</strong> (de las ' + Object.keys(D.leyes).length + ' del repositorio general). Si cambias de cuerpo u oposición en el selector superior, la biblioteca se adapta automáticamente a su programa oficial.</p>' +
       '<div class="card" style="border-left:4px solid var(--accent)">' +
       '<div class="tema-meta" style="justify-content:space-between;align-items:center">' +
-      '<div><strong>🔍 Auditoría de Vigencia Normativa (BOE / BOJA · Noviembre 2026)</strong> · <span class="pill ok">' + nVigentes + ' vigentes</span> <span class="pill bad">' + nDerogadas + ' derogadas con su sustituta</span> <span class="pill warn">' + nTransicion + ' en vigencia parcial / diferida</span></div>' +
+      '<div><strong>🔍 Vigencia Normativa en ' + esc(corp.codigo) + ' (BOE / BOJA · Noviembre 2026)</strong> · <span class="pill ok">' + nVigentes + ' vigentes</span> <span class="pill bad">' + nDerogadas + ' derogadas con su sustituta</span> <span class="pill warn">' + nTransicion + ' en vigencia parcial / diferida</span></div>' +
       '<div style="display:flex;gap:6px;flex-wrap:wrap">' +
       '<a class="btn-cita" href="INFORME_AUDITORIA_NORMATIVA_DEROGADA.md" target="_blank" rel="noopener" download="INFORME_AUDITORIA_NORMATIVA_DEROGADA.md">📄 Descargar Informe de Conclusiones (.md)</a>' +
       '</div></div>' +
-      '<p class="sub" style="margin:6px 0 0">Incluye las sustituciones recientes de 2025–2026: <strong>Ley 2/2026 LEGAM</strong> (deroga la Ley 7/2007 GICA), <strong>Ley 7/2025 de Patrimonio de Andalucía</strong> (deroga la Ley 4/1986), <strong>Ley 5/2025 de Vivienda de Andalucía</strong> (deroga las Leyes 1/2010 y 13/2005), <strong>Decreto 51/2025</strong> (deroga el Decreto 2/2002), <strong>RD 847/2026 de Amianto</strong> (deroga el RD 396/2006), <strong>Decreto 50/2025 de Calidad Acústica</strong> (deroga el Decreto 6/2012) y <strong>Ley 4/2026 de Patrimonio Cultural</strong> (sustituye a la Ley 14/2007 desde el 07/04/2027).</p>' +
+      '<p class="sub" style="margin:6px 0 0">Cada oposición muestra solo sus leyes propias: por ejemplo, las normas exclusivas de ' + (corp.id === 'a2-1100' ? 'A1.1100 o de Arquitectura Técnica no aparecen aquí en A2.1100' : 'otros cuerpos que no forman parte de ' + esc(corp.codigo) + ' quedan excluidas de este listado') + '.</p>' +
       '</div>' +
       '<div class="card">' +
       '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px">' +
       '<button type="button" class="tab" data-norma-modo="materia" aria-pressed="' + (modo === 'materia') + '">📂 Índice por materia</button>' +
       '<button type="button" class="tab" data-norma-modo="tipo" aria-pressed="' + (modo === 'tipo') + '">⚖️ Índice por tipo de norma</button>' +
-      '<button type="button" class="tab" data-norma-modo="importancia" aria-pressed="' + (modo === 'importancia') + '">🎯 Índice por importancia</button>' +
+      '<button type="button" class="tab" data-norma-modo="importancia" aria-pressed="' + (modo === 'importancia') + '">🎯 Índice por importancia en ' + esc(corp.codigo) + '</button>' +
       '</div>' +
       '<div class="modal-buscador">' +
       selectFiltroHtml +
-      '<input type="search" id="input-buscar-normativa" value="' + esc(estadoNormativa.busqueda) + '" placeholder="Buscar ley, decreto, orden o número (ej. 39/2015, RGPD, 293/2009, LISTA)…">' +
+      '<input type="search" id="input-buscar-normativa" value="' + esc(estadoNormativa.busqueda) + '" placeholder="Buscar ley, decreto, orden o número dentro de ' + esc(corp.codigo) + '…">' +
       '</div></div>' +
-      '<p class="sub">Mostrando ' + ids.length + ' de ' + nTotal + ' normas:</p>' +
+      '<p class="sub">Mostrando ' + ids.length + ' de las ' + nTotal + ' normas de ' + esc(corp.codigo) + ':</p>' +
       ids.map(function (id) {
         var l = D.leyes[id];
-        var rels = temasPorLey[id] || [];
+        var rels = normCuerpo.temasPorLey[id] || [];
         return '<div class="card ley">' +
           '<div class="tema-meta">' + badgeVerificacion(l) +
-          '<span class="pill">' + esc(NOMBRES_TIPO_NORMA[tipoNorma(l)].replace(/\s*\(\d+\)$/, '')) + '</span>' +
+          '<span class="pill">' + esc(NOMBRES_TIPO_NORMA[tipoNorma(l)]) + '</span>' +
           '<span class="pill">' + esc(NOMBRES_CAT_NORMA[categoriaNorma(l)] || '') + '</span>' +
-          badgeImportancia(l) +
+          badgeImportancia(l, normCuerpo) +
           '</div>' +
           '<strong>' + esc(l.nombre) + '</strong>' +
           '<span>' + esc(l.referencia) + '</span>' +
-          (rels.length ? '<div class="normas-apartado" style="margin-top:6px"><span class="etiqueta">Se estudia en (' + rels.length + ' temas):</span>' +
+          (rels.length ? '<div class="normas-apartado" style="margin-top:6px"><span class="etiqueta">Se estudia en ' + esc(corp.codigo) + ' (' + rels.length + ' temas):</span>' +
             rels.map(function (r) {
               var t = buscarTemaEnCuerpo(r.temaId);
-              return t ? '<button type="button" class="btn-cita" data-tema="' + esc(t.id) + '">' + esc(etiquetaTema(t)) + '</button>' : '';
+              return t ? '<button type="button" class="btn-cita" data-tema="' + esc(claveRutaTema(t)) + '">' + esc(etiquetaTema(t)) + '</button>' : '';
             }).join('') + '</div>' : '') +
           '<div class="enlaces" style="margin-top:8px;align-items:center">' +
           '<button type="button" class="btn-cita" data-ver-norma="' + esc(l.id) + '" data-ver-cita="' + esc(rels[0] && rels[0].articulos ? rels[0].articulos : l.referencia) + '" data-ver-tema="' + esc(rels[0] ? rels[0].temaId : '') + '">📖 Abrir articulado y PDF</button>' +
-          '<button type="button" class="btn-cita" data-test-ley="' + esc(l.id) + '">📝 Hacer test de esta norma</button>' +
+          '<button type="button" class="btn-cita" data-test-ley="' + esc(l.id) + '">📝 Hacer test de esta norma en ' + esc(corp.codigo) + '</button>' +
           (l.url ? '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">BOE / BOJA ↗</a>' : '') +
           (l.pdf ? '<a href="' + esc(l.pdf) + '" download>Descargar PDF</a>' : '') +
           '</div></div>';
@@ -2660,9 +2814,12 @@
     }
     var numMatch = ((ley.referencia || '') + ' ' + (ley.nombre || '')).match(/\b(\d{1,4}\/\d{4}|[A-Z]{2,6}\/\d{1,4}\/\d{4})\b/);
     var patron = numMatch ? numMatch[1].toLowerCase() : normClave(ley.id);
-    var temasLey = new Set((temasPorLey[leyId] || []).map(function (x) { return x.temaId; }));
+    var normCuerpo = obtenerNormativaDeCuerpo();
+    var temasCuerpoSet = new Set(temasCuerpoActual().map(function (t) { return t.id; }));
+    var temasLey = new Set((normCuerpo.temasPorLey[leyId] || []).map(function (x) { return x.temaId; }));
 
     var pool = window.BANCO.filter(function (q) {
+      if (q.tema && !temasCuerpoSet.has(q.tema)) return false;
       var refTxt = normClave((q.referencia || '') + ' ' + (q.enunciado || '') + ' ' + (q.explicacion || ''));
       if (refTxt.indexOf(patron) !== -1) return true;
       if (resolverLeyEnTexto((q.referencia || '') + ' ' + (q.enunciado || ''), q.tema, leyId)) return true;
@@ -3800,7 +3957,7 @@
       '<h2 class="tituloTema" style="margin:0">Generador de tests y Simulacros</h2>' +
       '<span class="sub" style="margin:0">Oposición: <strong>' + esc(c.nombreCorto) + '</strong></span>' +
       '</div>' +
-      '<p class="sub">Banco con más de 12.800 preguntas verificadas, supuestos prácticos resueltos (2021–2025), plazos, datos numéricos y articulado oficial de las ' + Object.keys(D.leyes).length + ' leyes.</p>' +
+      '<p class="sub">Banco de preguntas verificadas, supuestos prácticos resueltos (2021–2025), plazos, datos numéricos y articulado oficial de las ' + obtenerNormativaDeCuerpo(c.id).ids.length + ' leyes aplicables a ' + esc(c.codigo) + '.</p>' +
       simulacroCard +
       practicosCard +
       repasoCard +
