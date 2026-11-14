@@ -1,0 +1,686 @@
+[
+  {
+    "pregunta": "¿Qué ocurre si una zona tiene más de cinco nevadas anuales en puentes con fundentes?",
+    "opciones": [
+      "Se considera clase C5",
+      "No cambia nada",
+      "Se prohíbe el puente",
+      "Se paga más"
+    ],
+    "correcta": 0,
+    "explicacion": "Las zonas con más de cinco nevadas anuales se consideran de clase C5 para puentes y pasarelas con fundentes.",
+    "referencia": "RD 470/2021, art. 80"
+  },
+  {
+    "pregunta": "¿Qué documento básico del CTE regula la seguridad estructural en acero?",
+    "opciones": [
+      "DB-SE-A",
+      "DB-SE-M",
+      "DB-SE-F",
+      "DB-SI 6"
+    ],
+    "correcta": 0,
+    "explicacion": "El DB-SE-A regula las estructuras de acero.",
+    "referencia": "CTE, DB-SE-A"
+  },
+  {
+    "pregunta": "¿Qué documento básico del CTE regula la seguridad estructural en madera?",
+    "opciones": [
+      "DB-SE-A",
+      "DB-SE-M",
+      "DB-SE-C",
+      "DB-HS 1"
+    ],
+    "correcta": 1,
+    "explicacion": "El DB-SE-M regula las estructuras de madera.",
+    "referencia": "CTE, DB-SE-M"
+  },
+  {
+    "pregunta": "¿Qué tipo de perfil de acero de alas paralelas se usa habitualmente en vigas?",
+    "opciones": [
+      "Perfil en cruz sin alas",
+      "Redondo macizo",
+      "Perfil IPE o HEB",
+      "Perfil de cartón"
+    ],
+    "correcta": 2,
+    "explicacion": "Los perfiles IPE y HEB, de alas paralelas, se emplean habitualmente en vigas y pilares.",
+    "referencia": "Tema e05"
+  },
+  {
+    "pregunta": "¿Qué tipo de madera estructural se fabrica pegando láminas?",
+    "opciones": [
+      "Madera maciza sin tratar",
+      "Tablero de aglomerado",
+      "Corcho",
+      "Madera laminada encolada"
+    ],
+    "correcta": 3,
+    "explicacion": "La madera laminada encolada se fabrica unificando láminas con adhesivo.",
+    "referencia": "Tema e05"
+  },
+  {
+    "pregunta": "¿Qué protección frente a la corrosión se aplica habitualmente al acero?",
+    "opciones": [
+      "Galvanizado",
+      "Enlucido de yeso",
+      "Barniz de uñas",
+      "Enfoscado de cemento sin tratar"
+    ],
+    "correcta": 0,
+    "explicacion": "El galvanizado recubre el acero con zinc para protegerlo de la corrosión.",
+    "referencia": "Tema e05"
+  },
+  {
+    "pregunta": "¿Qué fenómeno inestabiliza las piezas esbeltas sometidas a compresión?",
+    "opciones": [
+      "Fraguado",
+      "Pandeo",
+      "Retracción",
+      "Carbonatación"
+    ],
+    "correcta": 1,
+    "explicacion": "El pandeo es la inestabilidad lateral de piezas esbeltas comprimidas.",
+    "referencia": "Tema e05"
+  },
+  {
+    "pregunta": "¿Qué condiciones definen la clase de servicio 1 de la madera?",
+    "opciones": [
+      "Madera sumergida en agua",
+      "Temperatura de 20 ± 2 °C y humedad relativa que solo excede el 65 % unas pocas semanas al año",
+      "Exposición permanente a la intemperie",
+      "Humedad relativa siempre superior al 95 %"
+    ],
+    "correcta": 1,
+    "explicacion": "El DB-SE-M define así la clase de servicio 1.",
+    "referencia": "CTE, DB-SE-M, apartado 2.2.2"
+  },
+  {
+    "pregunta": "¿Qué clase de servicio corresponde a condiciones con contenido de humedad superior al de la clase 2?",
+    "opciones": [
+      "Clase de servicio 1",
+      "Clase de servicio 0",
+      "Clase de servicio 2",
+      "Clase de servicio 3"
+    ],
+    "correcta": 3,
+    "explicacion": "La clase de servicio 3 corresponde a condiciones que conducen a contenidos de humedad superiores.",
+    "referencia": "CTE, DB-SE-M, apartado 2.2.2"
+  },
+  {
+    "pregunta": "¿Qué designación tienen las clases resistentes de coníferas y chopo?",
+    "opciones": [
+      "D30 a D70",
+      "GL24h a GL36h",
+      "C14 a C50",
+      "S235 a S460"
+    ],
+    "correcta": 2,
+    "explicacion": "Para coníferas y chopo las clases resistentes van de C14 a C50.",
+    "referencia": "CTE, DB-SE-M, apartado 4.1"
+  },
+  {
+    "pregunta": "¿Qué designación tienen las clases de madera laminada encolada homogénea?",
+    "opciones": [
+      "C14 a C50",
+      "D30 a D70",
+      "GL24h, GL28h, GL32h y GL36h",
+      "HA-25 a HA-50"
+    ],
+    "correcta": 2,
+    "explicacion": "Las clases de madera laminada encolada homogénea son GL24h, GL28h, GL32h y GL36h.",
+    "referencia": "CTE, DB-SE-M, apartado 4.2"
+  },
+  {
+    "pregunta": "¿Qué tipo de unión metálica se realiza fundiendo material de aportación?",
+    "opciones": [
+      "La soldadura",
+      "El atornillado",
+      "El remachado en frío",
+      "El encolado"
+    ],
+    "correcta": 0,
+    "explicacion": "La soldadura une las piezas mediante la fusión de material de aportación.",
+    "referencia": "Tema e05"
+  },
+  {
+    "pregunta": "¿Qué tornillos se emplean pretensados en uniones resistentes por rozamiento?",
+    "opciones": [
+      "Los tornillos ordinarios de madera",
+      "Los clavos",
+      "Los pasadores de plástico",
+      "Los tornillos de alta resistencia"
+    ],
+    "correcta": 3,
+    "explicacion": "Las uniones por rozamiento usan tornillos de alta resistencia pretensados.",
+    "referencia": "Tema e05"
+  },
+  {
+    "pregunta": "¿Qué protección contra el fuego es habitual en estructuras de acero?",
+    "opciones": [
+      "Barniz de madera",
+      "Pintura plástica común",
+      "Pinturas intumescentes o morteros proyectados",
+      "Ninguna"
+    ],
+    "correcta": 2,
+    "explicacion": "Las pinturas intumescentes y los morteros proyectados protegen el acero frente al fuego.",
+    "referencia": "Tema e05"
+  },
+  {
+    "pregunta": "¿Por qué las piezas de madera de gran escuadría resisten bien el fuego?",
+    "opciones": [
+      "Porque la capa carbonizada protege el núcleo",
+      "Porque la madera no arde",
+      "Porque se humedecen",
+      "Porque se funden"
+    ],
+    "correcta": 0,
+    "explicacion": "La carbonización superficial aísla el interior y ralentiza la pérdida de sección.",
+    "referencia": "Tema e05"
+  },
+  {
+    "pregunta": "Respecto a «Marco normativo» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "El DB-SE-A verifica el acero en edificación; el DB-SE-M, la madera (CTE, art. 10.3). El Código Estructural (RD 470/2021) regula el acero en sus artículos…",
+      "Piezas agrupadas por volumen de huecos: macizas (25 %) y los grupos con más huecos, hasta el 60 % (tabla 4.1). Resistencia normalizada mínima de 5 N/mm²;…",
+      "Partes: la Administración, a través de su órgano de contratación, y el contratista (arts. 61.1 y 65.1 LCSP)",
+      "Planeamiento, viales, redes y jardinería se rigen por la normativa urbanística y municipal, que no está en el repositorio"
+    ],
+    "correcta": 0,
+    "explicacion": "El DB-SE-A verifica el acero en edificación; el DB-SE-M, la madera (CTE, art. 10.3). El Código Estructural (RD 470/2021) regula el acero en sus artículos 79 a 109 y deroga la EAE (disposición derogatoria única).",
+    "referencia": "CTE, art. 10.3"
+  },
+  {
+    "pregunta": "Respecto a «Tipos de acero y de madera» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "Es obligatorio para edificios cuyo uso principal sea vivienda (disposición adicional segunda)",
+      "Aceros no aleados laminados en caliente y aceros con características especiales (soldables de grano fino, patinables, de alto límite elástico,…",
+      "Los derribos que puedan suponer un peligro deben estudiarse, planificarse y ejecutarse bajo la supervisión de una persona competente (RD 1627/1997, anexo…",
+      "La demora injustificada en la comprobación del replanteo es causa específica de resolución (art. 245.a LCSP)"
+    ],
+    "correcta": 1,
+    "explicacion": "Aceros no aleados laminados en caliente y aceros con características especiales (soldables de grano fino, patinables, de alto límite elástico, inoxidables) (Código Estructural (RD 470/2021), art. 83). Chapas y perfiles según UNE-EN 10025, perfiles huecos según UNE-EN 10210-1 y UNE-EN 10219-1 (DB-SE-A, apartado 4.2).",
+    "referencia": "Código Estructural (RD 470/2021), art. 83"
+  },
+  {
+    "pregunta": "En relación con «Madera maciza aserrada por clase resistente» (Tipos de acero y de madera), ¿qué establece la normativa estudiada en el tema?",
+    "opciones": [
+      "Ese título sustituye a la antigua Instrucción de Acero Estructural (EAE), que el Real Decreto 751/2011 aprobaba y que el Código Estructural deroga…",
+      "En zonas con más de cinco nevadas anuales, o con temperatura mínima media invernal inferior a 0 °C, los puentes y pasarelas con fundentes se consideran…",
+      "El DB-SE-A extiende el mantenimiento de la estructura metálica a los elementos de protección, especialmente los de protección frente al incendio…",
+      "coníferas y chopo C14 a C50, frondosas D30 a D70 (DB-SE-M, apartado 4.1). Madera laminada encolada, microlaminada y vigas mixtas de madera y tablero…"
+    ],
+    "correcta": 3,
+    "explicacion": "Madera maciza aserrada por clase resistente: coníferas y chopo C14 a C50, frondosas D30 a D70 (DB-SE-M, apartado 4.1). Madera laminada encolada, microlaminada y vigas mixtas de madera y tablero (apartados 2 y 10.1).",
+    "referencia": "DB-SE-M, apartado 4.1"
+  },
+  {
+    "pregunta": "Respecto a «Durabilidad del acero» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "El CTE (art. 11) fija las exigencias SI 1 a SI 6 y remite al DB-SI los parámetros objetivos. El RD 513/2017 (RIPCI) regula el diseño, la instalación, el…",
+      "Control de recepción, de ejecución y de obra terminada (art. 7.2 a 7.4 del CTE). El director de la ejecución de la obra controla la calidad de lo…",
+      "Estrategia global frente a la corrosión, protecciones indicadas en el proyecto y materiales protectores almacenados según el fabricante (DB-SE-A,…",
+      "Partes: la Administración, a través de su órgano de contratación, y el contratista (arts. 61.1 y 65.1 LCSP)"
+    ],
+    "correcta": 2,
+    "explicacion": "Estrategia global frente a la corrosión, protecciones indicadas en el proyecto y materiales protectores almacenados según el fabricante (DB-SE-A, apartado 3, puntos 1 a 3). Fases de la estrategia de durabilidad: formas, materiales, medidas frente a la corrosión, detalles y mantenimiento (Código, art. 87).",
+    "referencia": "DB-SE-A, apartado 3, puntos 1 a 3"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Durabilidad del acero»?: Clases de exposición para la corrosión atmosférica y para elementos sumergidos o enterrados (Código, art. 80.1, tablas 80.1.a y 80.1.b). Zonas con más de cinco nevadas…",
+    "opciones": [
+      "0,90 m",
+      "clase C5",
+      "2,00 m",
+      "2,0 kN/m²"
+    ],
+    "correcta": 1,
+    "explicacion": "Clases de exposición para la corrosión atmosférica y para elementos sumergidos o enterrados (Código Estructural (RD 470/2021), art. 80.1, tablas 80.1.a y 80.1.b). Zonas con más de cinco nevadas anuales se consideran de clase C5 para puentes y pasarelas con fundentes.",
+    "referencia": "Código Estructural (RD 470/2021), art. 80.1, tablas 80.1.a y 80.1.b"
+  },
+  {
+    "pregunta": "Respecto a «Durabilidad y protección de la madera» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "El estudio contiene memoria, pliego, planos, mediciones y presupuesto (art. 5.2); forma parte del proyecto (art. 5.3). Su presupuesto se valora…",
+      "La durabilidad depende del diseño y de la durabilidad natural, y a veces requiere tratamiento; la protección preventiva frente a agentes bióticos y…",
+      "Riesgos de la inspección en altura y de los productos protectores, controlados en la evaluación de riesgos y en el estudio de seguridad (RD 1627/1997,…",
+      "La certificación final se aprueba en tres meses desde la recepción (art. 243.1 LCSP)"
+    ],
+    "correcta": 1,
+    "explicacion": "La durabilidad depende del diseño y de la durabilidad natural, y a veces requiere tratamiento; la protección preventiva frente a agentes bióticos y abióticos mantiene la probabilidad de daño en un nivel aceptable (DB-SE-M, apartados 3.1 y 3.2).",
+    "referencia": "DB-SE-M, apartados 3.1 y 3.2"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Durabilidad y protección de la madera»?: Los tableros y derivados se emplean según su norma de producto para cada «___» servicio (DB-SE-M, apartado 3.1, punto 3)",
+    "opciones": [
+      "clase 3",
+      "EI 60",
+      "clase de",
+      "50 dBA"
+    ],
+    "correcta": 2,
+    "explicacion": "Los tableros y derivados se emplean según su norma de producto para cada clase de servicio (DB-SE-M, apartado 3.1, punto 3).",
+    "referencia": "DB-SE-M, apartado 3.1, punto 3"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Ejecución del acero»?: Plan de soldeo con detalles de la unión y medidas para evitar el desgarro laminar (DB-SE-A, apartado 10.3.1). Tornillos de diámetro mínimo «___» y, al menos, cuatro filetes…",
+    "opciones": [
+      "12 mm",
+      "50 dBA",
+      "0,90 m",
+      "1,50 m"
+    ],
+    "correcta": 0,
+    "explicacion": "Plan de soldeo con detalles de la unión y medidas para evitar el desgarro laminar (DB-SE-A, apartado 10.3.1). Tornillos de diámetro mínimo 12 mm y, al menos, cuatro filetes de rosca completos en pretensados y uno en no pretensados (apartado 10.4.1).",
+    "referencia": "DB-SE-A, apartado 10.3.1"
+  },
+  {
+    "pregunta": "Respecto a «Ejecución del acero» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "El empresario analiza las emergencias, designa personal, lo forma y comprueba periódicamente el material (LPRL, art. 20)",
+      "Bloque R: R1, resistencia media con revestimiento continuo de 10 a 15 mm o discontinuo rígido pegado de piezas menores de 300 mm sobre enfoscado; R2,…",
+      "En períodos de mora del contratista se aplican los índices de la fecha prevista, salvo que los del período real den un coeficiente inferior (art. 104 LCSP)",
+      "Ninguna pieza sale del taller sin autorización de la dirección facultativa (Código, art. 92.1.1). Soldadura conforme a UNE-EN ISO 3834 (art. 94.1). No se…"
+    ],
+    "correcta": 3,
+    "explicacion": "Ninguna pieza sale del taller sin autorización de la dirección facultativa (Código Estructural (RD 470/2021), art. 92.1.1). Soldadura conforme a UNE-EN ISO 3834 (art. 94.1). No se cambian las calidades sin autorización del director de obra (DB-SE-A, apartado 10.1, punto 2).",
+    "referencia": "Código Estructural (RD 470/2021), art. 92.1.1"
+  },
+  {
+    "pregunta": "Respecto a «Control, uso y mantenimiento» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "La seguridad estructural es el requisito del artículo 10 del CTE: la exigencia SE 1 pide resistencia y estabilidad, y la SE 2, aptitud al servicio sin…",
+      "La tabla 3.1 relaciona el número de salidas de planta y la longitud de los recorridos con la ocupación; se admite una única salida con ocupación de hasta…",
+      "El inmueble inscrito es inseparable de su lugar; su desplazamiento exige causa de fuerza mayor o interés social y autorización previa (LPHA, art. 33,…",
+      "Registro documental de cada control en la documentación final (DB-SE-A, apartado 12.1). Control de materiales por certificado y trazabilidad (apartado…"
+    ],
+    "correcta": 3,
+    "explicacion": "Registro documental de cada control en la documentación final (DB-SE-A, apartado 12.1). Control de materiales por certificado y trazabilidad (apartado 12.3). El Código organiza el control en los artículos 96 a 103.",
+    "referencia": "DB-SE-A, apartado 12.1"
+  },
+  {
+    "pregunta": "Respecto a «Seguridad, medición y precios» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "Montaje de estructuras metálicas bajo vigilancia de persona competente y medidas frente a la inestabilidad temporal (RD 1627/1997, anexo IV, apartado…",
+      "Normativa sanitaria: Decreto 69/2008, según la búsqueda, con requisitos en su anexo III, que no se ha leído. Patrimonio: Ley 14/2007, título IX, para los…",
+      "El plan de mantenimiento organiza las instrucciones en el tiempo, con registro de cada operación para acreditar el cumplimiento de la obligación de…",
+      "Director de obra (art. 12) y director de la ejecución de la obra (art. 13): dirigen y controlan el desarrollo técnico de la obra"
+    ],
+    "correcta": 0,
+    "explicacion": "Montaje de estructuras metálicas bajo vigilancia de persona competente y medidas frente a la inestabilidad temporal (RD 1627/1997, anexo IV, apartado 11). Protección colectiva en cubiertas (apartado 12.b).",
+    "referencia": "RD 1627/1997, anexo IV, apartado 11"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Seguridad, medición y precios»?: Se miden perfiles por kilogramo o metro lineal, chapas por metro cuadrado, uniones por unidad y protección por metro cuadrado; la madera, por metro cúbico o lineal. El…",
+    "opciones": [
+      "2,50 m",
+      "REI 60",
+      "2,0 kN/m²",
+      "clase resistente"
+    ],
+    "correcta": 3,
+    "explicacion": "Se miden perfiles por kilogramo o metro lineal, chapas por metro cuadrado, uniones por unidad y protección por metro cuadrado; la madera, por metro cúbico o lineal. El precio depende de la clase resistente, la protección y el montaje en taller o en obra.",
+    "referencia": "CTE · Seguridad, medición y precios"
+  },
+  {
+    "pregunta": "Respecto a «Marco normativo de las estructuras de acero y de madera» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "El BIM es un proceso de trabajo basado en un modelo digital del edificio que se usa en el proyecto, la construcción y el mantenimiento. No se ha…",
+      "El DB-SE-A verifica la seguridad estructural de los elementos metálicos realizados con acero en edificación",
+      "La medición se hace por unidades de obra con referencia a un cuadro de precios. Las partidas alzadas solo se admiten en elementos u operaciones de…",
+      "Durante la ejecución se comprueban el replanteo, las dimensiones, las armaduras, los recubrimientos y la compactación (DB-SE-C, apartado 4.6.4). Las…"
+    ],
+    "correcta": 1,
+    "explicacion": "El DB-SE-A verifica la seguridad estructural de los elementos metálicos realizados con acero en edificación.",
+    "referencia": "CTE · Marco normativo de las estructuras de acero y de madera"
+  },
+  {
+    "pregunta": "Respecto a «Tipos de estructura metálica» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "El DB-SE-A trata los aceros de las chapas y los perfiles de la norma UNE-EN 10025, que son los laminados en caliente de acero no aleado para…",
+      "La revisión se aplica cuando se ha ejecutado al menos el 20 por ciento del importe y ha transcurrido un año desde la formalización. El primer 20 por…",
+      "El mantenimiento lo realiza una empresa conservadora, con plan de mantenimiento por ascensor según la norma UNE 58720 (art. 5.1 a 5.3)",
+      "Destinatarios: personas y unidades familiares que reúnan los requisitos del programa y tengan allí su residencia habitual (art. 56, apartado 1). Duración…"
+    ],
+    "correcta": 0,
+    "explicacion": "El DB-SE-A trata los aceros de las chapas y los perfiles de la norma UNE-EN 10025, que son los laminados en caliente de acero no aleado para construcciones metálicas de uso general, con sus características mecánicas mínimas en la tabla 4.1.",
+    "referencia": "CTE · Tipos de estructura metálica"
+  },
+  {
+    "pregunta": "Respecto a «Tipos de estructura de madera» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "DB-HS 1: muros y suelos en contacto con el terreno según la presencia de agua y la permeabilidad del terreno (apartado 2.1.1); fachadas según la zona…",
+      "El DB-SE-M distingue tres tipos de madera para uso estructural",
+      "Grupos: primer establecimiento, reforma y gran reparación; reparación simple; conservación y mantenimiento; demolición (art. 232.1)",
+      "Patrimonios públicos de suelo, autonómico y municipales, con finalidad de crear reservas de suelo (art. 127, apartado 1). Reservas de terrenos (art.…"
+    ],
+    "correcta": 1,
+    "explicacion": "El DB-SE-M distingue tres tipos de madera para uso estructural.",
+    "referencia": "CTE · Tipos de estructura de madera"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Tipos de estructura de madera»?: La madera aserrada se clasifica por «___», que es el valor de la resistencia característica a flexión en N/mm²",
+    "opciones": [
+      "clase resistente",
+      "1,20 m",
+      "50 dBA",
+      "EI 60"
+    ],
+    "correcta": 0,
+    "explicacion": "La madera aserrada se clasifica por clase resistente, que es el valor de la resistencia característica a flexión en N/mm².",
+    "referencia": "CTE · Tipos de estructura de madera"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Tipos de estructura de madera»?: Los valores de resistencia, rigidez y densidad de cada «___» madera aserrada figuran en el anejo E (apartado 4.1, punto 4)",
+    "opciones": [
+      "clase 3",
+      "clase de",
+      "EI 60",
+      "1,20 m"
+    ],
+    "correcta": 1,
+    "explicacion": "Los valores de resistencia, rigidez y densidad de cada clase de madera aserrada figuran en el anejo E (apartado 4.1, punto 4).",
+    "referencia": "CTE · Tipos de estructura de madera"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Tipos de estructura de madera»?: Para el cálculo de la madera, los valores característicos de sus propiedades, Xk, se toman de los establecidos para cada producto y «___» (DB-SE-M, apartado 2, punto 1)",
+    "opciones": [
+      "clase resistente",
+      "REI 120",
+      "clase 3",
+      "EI 60"
+    ],
+    "correcta": 0,
+    "explicacion": "Para el cálculo de la madera, los valores característicos de sus propiedades, Xk, se toman de los establecidos para cada producto y clase resistente (DB-SE-M, apartado 2, punto 1).",
+    "referencia": "DB-SE-M, apartado 2, punto 1"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Tipos de estructura de madera»?: Por eso, la «___» elegida en el proyecto condiciona directamente la sección de cada pieza",
+    "opciones": [
+      "clase resistente",
+      "1,10 m",
+      "2,0 kN/m²",
+      "clase 3"
+    ],
+    "correcta": 0,
+    "explicacion": "Por eso, la clase resistente elegida en el proyecto condiciona directamente la sección de cada pieza.",
+    "referencia": "CTE · Tipos de estructura de madera"
+  },
+  {
+    "pregunta": "Respecto a «Requisitos y exigencias básicas» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "Causas específicas del artículo 245: demora en el replanteo; suspensión de la iniciación por más de cuatro meses; suspensión de las obras por más de ocho…",
+      "Las piezas se colocan a restregón sobre tortada de mortero; no se mueve una pieza tras el restregón (apartado 7.1.2, punto 1). Una llaga está llena si el…",
+      "Fases: análisis de necesidades, diseño de la base de datos, captura y carga, control de calidad (precisión posicional, completitud, coherencia topológica…",
+      "En el CTE, la exigencia de seguridad estructural está en el artículo 10"
+    ],
+    "correcta": 3,
+    "explicacion": "En el CTE, la exigencia de seguridad estructural está en el artículo 10.",
+    "referencia": "CTE · Requisitos y exigencias básicas"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Durabilidad del acero»?: Cuando hay procesos mecánicos, biológicos, térmicos o agentes químicos agresivos, la «___» reforzarse",
+    "opciones": [
+      "REI 60",
+      "50 dBA",
+      "clase debe",
+      "1,50 m"
+    ],
+    "correcta": 2,
+    "explicacion": "Cuando hay procesos mecánicos, biológicos, térmicos o agentes químicos agresivos, la clase debe reforzarse.",
+    "referencia": "CTE · Durabilidad del acero"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Durabilidad del acero»?: En zonas con más de cinco nevadas anuales, o con temperatura mínima media invernal inferior a 0 °C, los puentes y pasarelas con fundentes se consideran de «___»",
+    "opciones": [
+      "clase C5",
+      "EI 60",
+      "2,50 m",
+      "1,20 m"
+    ],
+    "correcta": 0,
+    "explicacion": "En zonas con más de cinco nevadas anuales, o con temperatura mínima media invernal inferior a 0 °C, los puentes y pasarelas con fundentes se consideran de clase C5.",
+    "referencia": "CTE · Durabilidad del acero"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Durabilidad y protección de la madera»?: Los productos derivados de la madera, como los tableros estructurales de partículas, los contrachapados o las virutas orientadas, deben emplearse según sus normas de…",
+    "opciones": [
+      "clase 2",
+      "0,90 m",
+      "1,10 m",
+      "clase de"
+    ],
+    "correcta": 3,
+    "explicacion": "Los productos derivados de la madera, como los tableros estructurales de partículas, los contrachapados o las virutas orientadas, deben emplearse según sus normas de producto para cada clase de servicio (DB-SE-M, apartado 3.1, punto 3).",
+    "referencia": "DB-SE-M, apartado 3.1, punto 3"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Durabilidad y protección de la madera»?: La «___» servicio no se ha desarrollado en este tema, por lo que sus límites deben consultarse en el documento",
+    "opciones": [
+      "1,0 kN/m²",
+      "1,20 m",
+      "2,50 m",
+      "clase de"
+    ],
+    "correcta": 3,
+    "explicacion": "La clase de servicio no se ha desarrollado en este tema, por lo que sus límites deben consultarse en el documento.",
+    "referencia": "CTE · Durabilidad y protección de la madera"
+  },
+  {
+    "pregunta": "Respecto a «Ejecución de la estructura de acero» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "El DB-SE-A exige que los materiales se correspondan con los especificados en el proyecto",
+      "Riesgos de la inspección en altura y de los productos protectores, controlados en la evaluación de riesgos y en el estudio de seguridad (RD 1627/1997,…",
+      "El CTE exige un uso adecuado según las instrucciones de uso (art. 8.2, apartado 1) y un plan de mantenimiento con la planificación de las operaciones…",
+      "Infracciones leves, graves y muy graves (Ley 4/2017, art. 84, apartado 1). Multas: leves de 301 a 30.000 euros; graves de 30.001 a 90.000; muy graves de…"
+    ],
+    "correcta": 0,
+    "explicacion": "El DB-SE-A exige que los materiales se correspondan con los especificados en el proyecto.",
+    "referencia": "CTE · Ejecución de la estructura de acero"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Ejecución de la estructura de acero»?: En las uniones atornilladas, el diámetro nominal mínimo de los tornillos es de «___», salvo que el proyecto especifique otra cosa (apartado 10.4.1, punto 1)",
+    "opciones": [
+      "EI 60",
+      "1,50 m",
+      "12 mm",
+      "0,80 m"
+    ],
+    "correcta": 2,
+    "explicacion": "En las uniones atornilladas, el diámetro nominal mínimo de los tornillos es de 12 mm, salvo que el proyecto especifique otra cosa (apartado 10.4.1, punto 1).",
+    "referencia": "CTE · Ejecución de la estructura de acero"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Ejecución de la estructura de acero»?: La soldadura debe cumplir los requisitos de calidad de la norma UNE-EN ISO 3834 según la «___» ejecución (art",
+    "opciones": [
+      "2,00 m",
+      "clase 3",
+      "clase de",
+      "50 dBA"
+    ],
+    "correcta": 2,
+    "explicacion": "La soldadura debe cumplir los requisitos de calidad de la norma UNE-EN ISO 3834 según la clase de ejecución (art.",
+    "referencia": "CTE · Ejecución de la estructura de acero"
+  },
+  {
+    "pregunta": "Respecto a «Ejecución de la estructura de madera» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "Exigencia HS 4: agua apta para el consumo, caudales suficientes, evitar retornos y medios de ahorro; los equipos de ACS deben evitar gérmenes patógenos…",
+      "La propiedad encarga y paga el control; la dirección facultativa lo dirige en su nombre; el constructor realiza el autocontrol con su sistema de…",
+      "El DB-SE-M trata la ejecución en su capítulo 11 y las tolerancias en el capítulo 12, mientras que el control se regula en el capítulo 13",
+      "3 años: daños por vicios o defectos de elementos constructivos o instalaciones que incumplan los requisitos de habitabilidad (art. 17.1.b)"
+    ],
+    "correcta": 2,
+    "explicacion": "El DB-SE-M trata la ejecución en su capítulo 11 y las tolerancias en el capítulo 12, mientras que el control se regula en el capítulo 13.",
+    "referencia": "CTE · Ejecución de la estructura de madera"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Ejecución de la estructura de madera»?: En la práctica, la madera se recepciona con el certificado de su «___», que debe corresponder al especificado en el proyecto",
+    "opciones": [
+      "EI 60",
+      "clase 1",
+      "1,20 m",
+      "clase resistente"
+    ],
+    "correcta": 3,
+    "explicacion": "En la práctica, la madera se recepciona con el certificado de su clase resistente, que debe corresponder al especificado en el proyecto.",
+    "referencia": "CTE · Ejecución de la estructura de madera"
+  },
+  {
+    "pregunta": "Respecto a «Control de calidad» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "El control de calidad del DB-SE-A se refiere al control y la ejecución de la obra para su aceptación, con independencia del que realice el constructor",
+      "Inspección periódica por organismo de control acreditado, al menos cada diez años, con las excepciones del artículo 22, apartado 2 (vivienda, y usos con…",
+      "Si la demora de la Administración supera los seis meses, el contratista puede resolver y reclamar perjuicios (art. 198.6 LCSP)",
+      "La acción por daños materiales prescribe en dos años desde que se manifiestan (art. 244.2 LCSP). La LOE fija diez años para daños estructurales (art.…"
+    ],
+    "correcta": 0,
+    "explicacion": "El control de calidad del DB-SE-A se refiere al control y la ejecución de la obra para su aceptación, con independencia del que realice el constructor.",
+    "referencia": "CTE · Control de calidad"
+  },
+  {
+    "pregunta": "En relación con «El control se organiza en cinco aspectos» (Control de calidad), ¿qué establece la normativa estudiada en el tema?",
+    "opciones": [
+      "La soldadura debe cumplir los requisitos de calidad de la norma UNE-EN ISO 3834 según la clase de ejecución (art",
+      "Aceros no aleados laminados en caliente y aceros con características especiales (soldables de grano fino, patinables, de alto límite elástico,…",
+      "la documentación del proyecto (apartado 12.2), que debe definir la solución estructural, su justificación y los requisitos de construcción;",
+      "Las clases de exposición de los elementos de acero se fijan en el artículo 80.1, con dos tablas: una para la corrosión atmosférica (tabla 80.1.a) y otra…"
+    ],
+    "correcta": 2,
+    "explicacion": "El control se organiza en cinco aspectos: la documentación del proyecto (apartado 12.2), que debe definir la solución estructural, su justificación y los requisitos de construcción;",
+    "referencia": "CTE · Control de calidad"
+  },
+  {
+    "pregunta": "Respecto a «Uso, conservación y mantenimiento» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "El DB-SE-A extiende el mantenimiento de la estructura metálica a los elementos de protección, especialmente los de protección frente al incendio…",
+      "La Administración expide mensualmente, en los primeros diez días siguientes al mes, certificaciones de la obra ejecutada conforme a proyecto. El pliego…",
+      "El CTE exige un uso adecuado según las instrucciones de uso (art. 8.2, apartado 1) y un plan de mantenimiento con la planificación de las operaciones…",
+      "Tabla 2.2: soluciones de muro por composición (C), impermeabilización (I), drenaje (D) y ventilación (V). En las cubiertas, la impermeabilización es la…"
+    ],
+    "correcta": 0,
+    "explicacion": "El DB-SE-A extiende el mantenimiento de la estructura metálica a los elementos de protección, especialmente los de protección frente al incendio (apartado 13.2, punto 1).",
+    "referencia": "CTE · Uso, conservación y mantenimiento"
+  },
+  {
+    "pregunta": "Respecto a «Evaluación de riesgos y seguridad y salud» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "Antes de iniciar las obras, o con suspensión de la iniciación de más de cuatro meses: 3 por ciento del precio de adjudicación (art. 246.3 LCSP)",
+      "Solo caben tres vías: lo previsto en el pliego (art. 204), la modificación no prevista que cumple los requisitos del artículo 205, o la resolución y un…",
+      "La evaluación de riesgos se apoya en la LPRL, cuyo artículo 16 regula el plan de prevención",
+      "No puede declararse bien de interés cultural la obra de un autor vivo, salvo autorización del propietario o adquisición por la Administración (LPHE, art.…"
+    ],
+    "correcta": 2,
+    "explicacion": "La evaluación de riesgos se apoya en la LPRL, cuyo artículo 16 regula el plan de prevención.",
+    "referencia": "CTE · Evaluación de riesgos y seguridad y salud"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Criterios de medición y factores del precio»?: En la estructura de madera se miden las piezas por metro cúbico o por metro lineal, según la sección y la «___», y los tableros por metro cuadrado",
+    "opciones": [
+      "clase 2",
+      "clase 3",
+      "clase resistente",
+      "1,50 m"
+    ],
+    "correcta": 2,
+    "explicacion": "En la estructura de madera se miden las piezas por metro cúbico o por metro lineal, según la sección y la clase resistente, y los tableros por metro cuadrado.",
+    "referencia": "CTE · Criterios de medición y factores del precio"
+  },
+  {
+    "pregunta": "Respecto a «Cómo estudiarlo para el examen» en el tema 5 (Bloque Específico), señale la afirmación correcta:",
+    "opciones": [
+      "Los trabajadores autónomos cumplen el anexo IV, las obligaciones del artículo 29 de la LPRL y el plan (art. 12)",
+      "Para el acero, el DB-SE-A en el CTE y el Código Estructural en la norma de hormigón y acero;",
+      "Sistema Cartográfico Nacional: modelo de actuación que coordina a los operadores públicos con competencias concurrentes (art. 17, apartado 1)",
+      "Escaleras de uso público: anchura libre del tramo de 1,20 metros como mínimo (art. 70, apartado 2, letra a). Ascensores: cabina con rectángulo libre de 1…"
+    ],
+    "correcta": 1,
+    "explicacion": "Para el acero, el DB-SE-A en el CTE y el Código Estructural en la norma de hormigón y acero;",
+    "referencia": "CTE · Cómo estudiarlo para el examen"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Cómo estudiarlo para el examen»?: Para un caso práctico de nave de estructura metálica en un entorno costero, el orden de análisis es: identificar la «___» exposición del acero, con el ambiente marino y la…",
+    "opciones": [
+      "REI 60",
+      "clase de",
+      "EI 60",
+      "clase 2"
+    ],
+    "correcta": 1,
+    "explicacion": "Para un caso práctico de nave de estructura metálica en un entorno costero, el orden de análisis es: identificar la clase de exposición del acero, con el ambiente marino y la corrosividad de la tabla 80.1.a;",
+    "referencia": "CTE · Cómo estudiarlo para el examen"
+  },
+  {
+    "pregunta": "¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «Cómo estudiarlo para el examen»?: definir el sistema de protección y la «___» exposición en el pliego;",
+    "opciones": [
+      "1,20 m",
+      "clase de",
+      "clase 3",
+      "2,00 m"
+    ],
+    "correcta": 1,
+    "explicacion": "definir el sistema de protección y la clase de exposición en el pliego;",
+    "referencia": "CTE · Cómo estudiarlo para el examen"
+  },
+  {
+    "pregunta": "Dentro del tema 5, ¿qué materia específica regula la norma «Código Técnico de la Edificación» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación)?",
+    "opciones": [
+      "Seguridad estructural y control de la ejecución (arts. 7 y 10)",
+      "Estructuras de madera: durabilidad, materiales y sistemas (apartados 2, 3, 4 y 10)",
+      "Ordenación del transporte marítimo y de la marina mercante internacional",
+      "Estructuras de acero: durabilidad, materiales, ejecución, control y mantenimiento (apartados 1, 3, 4, 10, 12 y 13)"
+    ],
+    "correcta": 0,
+    "explicacion": "Código Técnico de la Edificación (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación): Seguridad estructural y control de la ejecución (arts. 7 y 10).",
+    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Dentro del tema 5, ¿qué materia específica regula la norma «Documento Básico SE-A Acero del Código Técnico de la Edificación» (Documento Básico SE-A Acero del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE))?",
+    "opciones": [
+      "Seguridad en el montaje de estructuras metálicas (anexo IV, apartados 11 y 12.b)",
+      "Seguridad estructural y control de la ejecución (arts. 7 y 10)",
+      "Estructuras de madera: durabilidad, materiales y sistemas (apartados 2, 3, 4 y 10)",
+      "Estructuras de acero: durabilidad, materiales, ejecución, control y mantenimiento (apartados 1, 3, 4, 10, 12 y 13)"
+    ],
+    "correcta": 3,
+    "explicacion": "Documento Básico SE-A Acero del Código Técnico de la Edificación (Documento Básico SE-A Acero del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)): Estructuras de acero: durabilidad, materiales, ejecución, control y mantenimiento (apartados 1, 3, 4, 10, 12 y 13).",
+    "referencia": "Documento Básico SE-A Acero del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)"
+  },
+  {
+    "pregunta": "Dentro del tema 5, ¿qué materia específica regula la norma «Documento Básico SE-M Madera del Código Técnico de la Edificación» (Documento Básico SE-M Madera del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE))?",
+    "opciones": [
+      "Aprobación de los aranceles notariales y registrales de ámbito mercantil",
+      "Estructuras de madera: durabilidad, materiales y sistemas (apartados 2, 3, 4 y 10)",
+      "Seguridad en el montaje de estructuras metálicas (anexo IV, apartados 11 y 12.b)",
+      "Regulación exclusiva de la jurisdicción penal y procesal civil ordinaria"
+    ],
+    "correcta": 1,
+    "explicacion": "Documento Básico SE-M Madera del Código Técnico de la Edificación (Documento Básico SE-M Madera del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)): Estructuras de madera: durabilidad, materiales y sistemas (apartados 2, 3, 4 y 10).",
+    "referencia": "Documento Básico SE-M Madera del Código Técnico de la Edificación (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)"
+  },
+  {
+    "pregunta": "Dentro del tema 5, ¿qué materia específica regula la norma «Código Estructural (extracto de las estructuras de acero)» (Real Decreto 470/2021, de 29 de junio, por el que se aprueba el Código Estructural (BOE núm. 190, de 10 de agosto de 2021), extracto de las páginas del BOE original con los artículos 80 a 87, 92, 94, 95, 96 a 103 y 109)?",
+    "opciones": [
+      "Regulación del régimen electoral general y de las cámaras legislativas estatales",
+      "Aprobación de los aranceles notariales y registrales de ámbito mercantil",
+      "Código Estructural: acero, protección, soldadura y control (arts. 80 a 87, 92, 94, 95 y 96 a 103)",
+      "Estructuras de madera: durabilidad, materiales y sistemas (apartados 2, 3, 4 y 10)"
+    ],
+    "correcta": 2,
+    "explicacion": "Código Estructural (extracto de las estructuras de acero) (Real Decreto 470/2021, de 29 de junio, por el que se aprueba el Código Estructural (BOE núm. 190, de 10 de agosto de 2021), extracto de las páginas del BOE original con los artículos 80 a 87, 92, 94, 95, 96 a 103 y 109): Código Estructural: acero, protección, soldadura y control (arts. 80 a 87, 92, 94, 95 y 96 a 103).",
+    "referencia": "Real Decreto 470/2021, de 29 de junio, por el que se aprueba el Código Estructural (BOE núm. 190, de 10 de agosto de 2021), extracto de las páginas del BOE original con los artículos 80 a 87, 92, 94, 95, 96 a 103 y 109"
+  },
+  {
+    "pregunta": "Dentro del tema 5, ¿qué materia específica regula la norma «Disposiciones mínimas de seguridad y salud en las obras de construcción» (Real Decreto 1627/1997, de 24 de octubre, por el que se establecen disposiciones mínimas de seguridad y de salud en las obras de construcción (BOE núm. 256, de 25 de octubre de 1997))?",
+    "opciones": [
+      "Estructuras de acero: durabilidad, materiales, ejecución, control y mantenimiento (apartados 1, 3, 4, 10, 12 y 13)",
+      "Seguridad estructural y control de la ejecución (arts. 7 y 10)",
+      "Regulación exclusiva de la jurisdicción penal y procesal civil ordinaria",
+      "Seguridad en el montaje de estructuras metálicas (anexo IV, apartados 11 y 12.b)"
+    ],
+    "correcta": 3,
+    "explicacion": "Disposiciones mínimas de seguridad y salud en las obras de construcción (Real Decreto 1627/1997, de 24 de octubre, por el que se establecen disposiciones mínimas de seguridad y de salud en las obras de construcción (BOE núm. 256, de 25 de octubre de 1997)): Seguridad en el montaje de estructuras metálicas (anexo IV, apartados 11 y 12.b).",
+    "referencia": "Real Decreto 1627/1997, de 24 de octubre, por el que se establecen disposiciones mínimas de seguridad y de salud en las obras de construcción (BOE núm. 256, de 25 de octubre de 1997)"
+  }
+]

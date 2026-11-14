@@ -1,0 +1,783 @@
+{
+  "junta": "Junta de Andalucía",
+  "cuerpo": "Cuerpo de Técnicos de Grado Medio, opción Arquitectura Técnica (A2.2001)",
+  "fuentes": [
+    {
+      "nombre": "Programas de Cuerpos Generales A1.1100, C1.1000 y C2.1000 (Res. 27/05/2024, BOJA 106 de 3/06/2024)",
+      "url": "https://www.juntadeandalucia.es/boja/2024/106/BOJA24-106-00055-45695-01_00302759.pdf"
+    },
+    {
+      "nombre": "Programas de Cuerpos Facultativos A1.2001 y Técnicos de Grado Medio A2 (Res. 27/05/2024, BOJA 107 de 4/06/2024)",
+      "url": "https://www.juntadeandalucia.es/boja/2024/107/BOJA24-107-00116-45696-01_00302763.pdf"
+    },
+    {
+      "nombre": "Programa específico Arquitectura Técnica A2.2001 (Anexo VII, Res. 04/06/2019, BOJA 109 de 10/06/2019)",
+      "url": "https://juntadeandalucia.es/boja/2019/109/BOJA19-109-00043-8606-01_00156936.pdf"
+    }
+  ],
+  "total_temas": 106,
+  "bloques": [
+    {
+      "id": "comun",
+      "nombre": "Programa común (A1 y A2)",
+      "temas": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c08",
+        "c09",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c35"
+      ]
+    },
+    {
+      "id": "gestion-administrativa",
+      "nombre": "Gestión Administrativa, Financiera, Personal e Informática (C1, C2 y A1.1100)",
+      "temas": [
+        "g01",
+        "g02",
+        "g03",
+        "g04",
+        "g05",
+        "g06",
+        "g07",
+        "g08",
+        "g09",
+        "g10",
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g15",
+        "g16",
+        "g17",
+        "g18",
+        "g19",
+        "g20",
+        "g21",
+        "g22",
+        "g23",
+        "g24",
+        "g25",
+        "g26",
+        "g27",
+        "g28",
+        "g29",
+        "g30",
+        "g31"
+      ]
+    },
+    {
+      "id": "arquitectura-tecnica",
+      "nombre": "Programa específico (Arquitectura Técnica)",
+      "temas": [
+        "e01",
+        "e02",
+        "e03",
+        "e04",
+        "e05",
+        "e06",
+        "e07",
+        "e08",
+        "e09",
+        "e10",
+        "e11",
+        "e12",
+        "e13",
+        "e14",
+        "e15",
+        "e16",
+        "e17",
+        "e18",
+        "e19",
+        "e20",
+        "e21",
+        "e22",
+        "e23",
+        "e24",
+        "e25",
+        "e26",
+        "e27",
+        "e28",
+        "e29",
+        "e30",
+        "e31",
+        "e32",
+        "e33",
+        "e34",
+        "e35",
+        "e36",
+        "e37",
+        "e38",
+        "e39",
+        "e40"
+      ]
+    }
+  ],
+  "temas": [
+    {
+      "id": "c01",
+      "num": 1,
+      "bloque": "comun",
+      "titulo": "La Constitución Española de 1978. Antecedentes. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. Derechos y deberes fundamentales. Los principios rectores de la política social y económica. Garantías y casos de suspensión. El procedimiento de reforma constitucional."
+    },
+    {
+      "id": "c02",
+      "num": 2,
+      "bloque": "comun",
+      "titulo": "Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo."
+    },
+    {
+      "id": "c03",
+      "num": 3,
+      "bloque": "comun",
+      "titulo": "La organización territorial del Estado en la Constitución Española. Las Comunidades Autónomas: Fundamento constitucional. Los Estatutos de Autonomía. Delimitación de las funciones y competencias del Estado y las Comunidades Autónomas. Las potestades legislativas de las Comunidades Autónomas. La organización de las Comunidades Autónomas."
+    },
+    {
+      "id": "c04",
+      "num": 4,
+      "bloque": "comun",
+      "titulo": "La Administración Local: regulación constitucional. Tipología de los entes locales. Distribución de competencias entre el Estado y las Comunidades Autónomas sobre Administración Local. La organización territorial de la Comunidad Autónoma de Andalucía. El municipio: organización y competencias. La provincia: organización y competencias. Las relaciones entre la Comunidad Autónoma Andaluza y las Diputaciones provinciales."
+    },
+    {
+      "id": "c05",
+      "num": 5,
+      "bloque": "comun",
+      "titulo": "La Comunidad Autónoma de Andalucía: Antecedentes histórico-culturales. El Estatuto de Autonomía para Andalucía: proceso de elaboración, fundamento, estructura y contenido básico. Competencias de la Comunidad Autónoma. Reforma del Estatuto."
+    },
+    {
+      "id": "c06",
+      "num": 6,
+      "bloque": "comun",
+      "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (I): El Parlamento de Andalucía. Composición, atribuciones y funcionamiento. El Tribunal Superior de Justicia de Andalucía. El Defensor del Pueblo de Andalucía. La Cámara de Cuentas de Andalucía. La Oficina Andaluza contra el Fraude y la Corrupción."
+    },
+    {
+      "id": "c07",
+      "num": 7,
+      "bloque": "comun",
+      "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones."
+    },
+    {
+      "id": "c08",
+      "num": 8,
+      "bloque": "comun",
+      "titulo": "La Administración de la Comunidad Autónoma de Andalucía. Principios de organización, actuación y atención ciudadana. Los Consejeros, Viceconsejeros, Directores Generales, Secretarios Generales Técnicos y órganos análogos. La organización central y territorial de la Administración de la Junta de Andalucía. Entidades instrumentales de la Administración de la Junta de Andalucía."
+    },
+    {
+      "id": "c09",
+      "num": 9,
+      "bloque": "comun",
+      "titulo": "La Unión Europea. Los Tratados originarios y modificativos de la Unión Europea. Las instituciones de la Unión Europea. La representación de la Junta de Andalucía ante la Unión Europea. El Derecho de la UE y sus distintos tipos de fuentes."
+    },
+    {
+      "id": "c10",
+      "num": 10,
+      "bloque": "comun",
+      "titulo": "Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea."
+    },
+    {
+      "id": "c11",
+      "num": 11,
+      "bloque": "comun",
+      "titulo": "La Administración Pública: concepto, caracteres y clasificación. La Administración y el Derecho: El principio de legalidad. Las potestades administrativas. La actividad discrecional de la Administración. El Derecho Administrativo: Concepto y contenido. Autonomía del derecho Administrativo. Criterios de aplicación."
+    },
+    {
+      "id": "c12",
+      "num": 12,
+      "bloque": "comun",
+      "titulo": "Fuentes del Derecho Administrativo: Concepto y clasificación. Jerarquía normativa. La Ley: Concepto y clases. Disposiciones del Ejecutivo con fuerza de Ley. El Reglamento: Concepto y clasificación. La potestad reglamentaria: Fundamento, titularidad y límites. Procedimiento de elaboración de los Reglamentos. Fuentes subsidiarias e indirectas del Derecho Administrativo."
+    },
+    {
+      "id": "c13",
+      "num": 13,
+      "bloque": "comun",
+      "titulo": "Los órganos administrativos: Concepto y clases. La competencia: Clases y criterios de delimitación. El acto administrativo: Concepto, clases y elementos. La forma de los actos: La motivación. La eficacia de los actos administrativos: la notificación y la publicación. El silencio administrativo: naturaleza y régimen jurídico. Su regulación en la Comunidad Autónoma. La invalidez y revisión de oficio de los actos administrativos. La inderogabilidad singular del reglamento."
+    },
+    {
+      "id": "c14",
+      "num": 14,
+      "bloque": "comun",
+      "titulo": "El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento."
+    },
+    {
+      "id": "c15",
+      "num": 15,
+      "bloque": "comun",
+      "titulo": "La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza."
+    },
+    {
+      "id": "c16",
+      "num": 16,
+      "bloque": "comun",
+      "titulo": "Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos."
+    },
+    {
+      "id": "c17",
+      "num": 17,
+      "bloque": "comun",
+      "titulo": "La responsabilidad patrimonial de la Administración. Competencias de la Junta de Andalucía. El procedimiento. La responsabilidad de las autoridades y del personal. Responsabilidad de la Administración por actos de sus concesionarios y contratistas. La potestad sancionadora de la Administración Pública: principios y procedimiento para su ejercicio."
+    },
+    {
+      "id": "c18",
+      "num": 18,
+      "bloque": "comun",
+      "titulo": "La expropiación forzosa: regulación constitucional. Competencias de la Junta de Andalucía. Naturaleza y justificación de la potestad expropiatoria. Sujetos, objeto y causa. El procedimiento general. Peculiaridades del procedimiento de urgencia. Procedimientos especiales. La reversión de los bienes objeto de la expropiación."
+    },
+    {
+      "id": "c19",
+      "num": 19,
+      "bloque": "comun",
+      "titulo": "La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias. Concepto, naturaleza y clasificación de las subvenciones. Órganos competentes. El procedimiento de concesión y pago de las subvenciones. Justificación. Reintegro. Control financiero de las subvenciones. Infracciones y sanciones administrativas en materia de subvenciones. La Base de Datos de Subvenciones y Ayudas Públicas de la Comunidad Autónoma de Andalucía."
+    },
+    {
+      "id": "c20",
+      "num": 20,
+      "bloque": "comun",
+      "titulo": "Regulación de la Función Pública de la Junta de Andalucía. Normas constitucionales. Carácter de la legislación estatal. La Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía: Estructura y contenido. Clases de personal al servicio de la Junta de Andalucía. El personal funcionario: Provisión de puestos, carrera profesional, situaciones administrativas, régimen de incompatibilidades. Normas reguladoras del personal laboral. Contenido general del Convenio Colectivo del personal laboral de la Junta de Andalucía."
+    },
+    {
+      "id": "c21",
+      "num": 21,
+      "bloque": "comun",
+      "titulo": "El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control."
+    },
+    {
+      "id": "c22",
+      "num": 22,
+      "bloque": "comun",
+      "titulo": "Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía."
+    },
+    {
+      "id": "c23",
+      "num": 23,
+      "bloque": "comun",
+      "titulo": "Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía."
+    },
+    {
+      "id": "c24",
+      "num": 24,
+      "bloque": "comun",
+      "titulo": "La Administración Electrónica. Gestión de procesos administrativos y simplificación. Las tecnologías de la información y las comunicaciones. La información y los derechos de las personas. Régimen jurídico. El ciudadano en sus relaciones con la administración electrónica. Seguridad, privacidad y ciudadanía digital."
+    },
+    {
+      "id": "c25",
+      "num": 25,
+      "bloque": "comun",
+      "titulo": "Las Administraciones Públicas en su entorno y las políticas públicas. La evaluación de las políticas públicas. La ciudadanía en el centro de la actividad pública y el interés general. La calidad y la atención a la ciudadanía. Evaluación de la calidad de los servicios. Las cartas de servicios. Iniciativas en Andalucía."
+    },
+    {
+      "id": "c26",
+      "num": 26,
+      "bloque": "comun",
+      "titulo": "El régimen jurídico de la protección de los datos de carácter personal. Normativa europea y nacional."
+    },
+    {
+      "id": "c27",
+      "num": 27,
+      "bloque": "comun",
+      "titulo": "Transparencia y Gobierno Abierto. Colaboración y Participación Ciudadana. La Ley de Transparencia Pública de Andalucía. Derechos y Obligaciones. Publicidad Activa. El Derecho de Acceso a la Información Pública. El Consejo de Transparencia y Protección de Datos de Andalucía."
+    },
+    {
+      "id": "c28",
+      "num": 28,
+      "bloque": "comun",
+      "titulo": "Prevención de riesgos laborales. Normativa estatal de Prevención de Riesgos Laborales: Derechos y obligaciones; Consulta y participación de los trabajadores. Organización de la prevención de riesgos laborales en la Administración de la Junta de Andalucía."
+    },
+    {
+      "id": "c29",
+      "num": 29,
+      "bloque": "comun",
+      "titulo": "Conceptos generales: género, discriminación, desigualdad, acción positiva, roles y estereotipos. Discriminación por razón de sexo: discriminación directa e indirecta, discriminación salarial. Acoso por razón de sexo. Discriminación en la publicidad y lenguaje sexista. Igualdad entre mujeres y hombres igualdad de derechos, de trato y de oportunidades. Transversalidad de género. Concepto de mainstreaming: enfoque integrado de género en las políticas públicas."
+    },
+    {
+      "id": "c30",
+      "num": 30,
+      "bloque": "comun",
+      "titulo": "Normativa sobre igualdad. La igualdad de género en la Constitución y en el Estatuto de Autonomía para Andalucía. Normativa para la promoción de la igualdad de género y para la prevención y protección integral contra la violencia de género en Andalucía. La unidad de igualdad y género: funciones. Pertinencia e impacto de genero en la normativa: conceptos y objetivos. Comisión de Impacto de Género en los Presupuestos Públicos de la Comunidad Autónoma: objeto y competencias. Violencia de género. Concepto y tipos de violencia hacia las mujeres. Prevención y protección integral. Recursos y programas específicos en la Comunidad Autónoma de Andalucía."
+    },
+    {
+      "id": "c31",
+      "num": 31,
+      "bloque": "comun",
+      "titulo": "Innovación y Administración Pública. El concepto de innovación pública. La estrategia de innovación de Andalucía. El Sistema de Innovación Andaluz. Retos y objetivos de la estrategia."
+    },
+    {
+      "id": "c32",
+      "num": 32,
+      "bloque": "comun",
+      "titulo": "El servicio público. Doctrina clásica y evolución. Las diferentes formas de gestión de los servicios públicos. Las concesiones: naturaleza jurídica y clases. El régimen jurídico de las concesiones: modificación, novación, transmisión y extinción de las concesiones."
+    },
+    {
+      "id": "c33",
+      "num": 33,
+      "bloque": "comun",
+      "titulo": "Los bienes de la Administración: Bienes de dominio público: caracteres; uso y aprovechamiento; afectación y desafectación. Bienes de dominio privado: caracteres, adquisición, disponibilidad y uso. Responsabilidad y sanciones. El patrimonio de la Comunidad Autónoma de Andalucía. Regulación jurídica, concepto y clasificación de los bienes y derechos. El Inventario General de Bienes y Derechos."
+    },
+    {
+      "id": "c34",
+      "num": 34,
+      "bloque": "comun",
+      "titulo": "El control de la actividad financiera de la Comunidad Autónoma: Concepto y clases. El control interno: La función interventora y sus modalidades; el control financiero y el control financiero permanente. La Intervención General de la Junta de Andalucía. El control externo: La Cámara de Cuentas de Andalucía y el control parlamentario."
+    },
+    {
+      "id": "c35",
+      "num": 35,
+      "bloque": "comun",
+      "titulo": "Planificación estratégica, modernización y dirección pública en las Administraciones Públicas. Gestión del cambio y gestión del conocimiento. Gestión por objetivos y programación de proyectos. Liderazgo, competencias directivas y evaluación del desempeño en la Junta de Andalucía."
+    },
+    {
+      "id": "g01",
+      "num": 1,
+      "bloque": "gestion-administrativa",
+      "titulo": "Las modificaciones presupuestarias en el presupuesto de la Comunidad Autónoma de Andalucía: créditos extraordinarios y suplementos de crédito, ampliaciones, generaciones, transferencias e incorporaciones de crédito. La ejecución del presupuesto de gastos: fases (A, D, O, P), órganos competentes y documentos contables. Gastos plurianuales, tramitación anticipada, convalidación y operaciones de cierre del ejercicio."
+    },
+    {
+      "id": "g02",
+      "num": 2,
+      "bloque": "gestion-administrativa",
+      "titulo": "Las retribuciones del personal al servicio de la Comunidad Autónoma de Andalucía: retribuciones básicas y complementarias. Nóminas: estructura y normas de confección. Procedimiento de elaboración: formación, tramitación, aprobación, control, contabilización y pago (sistema SIRhUS y GIRO)."
+    },
+    {
+      "id": "g03",
+      "num": 3,
+      "bloque": "gestion-administrativa",
+      "titulo": "La Tesorería General de la Comunidad Autónoma de Andalucía: funciones, cuentas generales y cuentas autorizadas. Las cuentas de gastos de funcionamiento y anticipos de caja fija: principios generales, libros necesarios y normas sobre su cumplimentación y control. La justificación de los gastos librados «a justificar» y de «justificación diferida»."
+    },
+    {
+      "id": "g04",
+      "num": 4,
+      "bloque": "gestion-administrativa",
+      "titulo": "Derechos y deberes de los empleados públicos en la Junta de Andalucía. Derechos individuales y de ejercicio colectivo. Jornada, vacaciones, permisos y licencias. Deberes y código ético. Régimen de incompatibilidades y régimen disciplinario: faltas, sanciones y procedimiento."
+    },
+    {
+      "id": "g05",
+      "num": 5,
+      "bloque": "gestion-administrativa",
+      "titulo": "El sistema español de Seguridad Social. El Régimen General: campo de aplicación. Afiliación de trabajadores: altas, bajas, forma de practicarse y plazos. Cotización: bases y tipos. La recaudación de cuotas. Acción protectora y otros regímenes de previsión social del personal al servicio de la Junta de Andalucía (MUFACE y Régimen General)."
+    },
+    {
+      "id": "g06",
+      "num": 6,
+      "bloque": "gestion-administrativa",
+      "titulo": "La comunicación en la Administración y la atención al público. Relaciones de la ciudadanía con la Junta de Andalucía: derechos de información, petición y participación. Servicios de información y atención ciudadana (canales presencial, telefónico 012 y electrónico). El Libro de Sugerencias y Reclamaciones de la Junta de Andalucía: recepción, registro, tramitación y plazos."
+    },
+    {
+      "id": "g07",
+      "num": 7,
+      "bloque": "gestion-administrativa",
+      "titulo": "Documentos de la Administración de la Junta de Andalucía: tipos, estructura, identidad e imagen corporativa, estilo administrativo y lenguaje no sexista. Gestión de documentos: originales y copias autenticadas, desglose y formación del expediente electrónico. Los registros administrativos: presentación, digitalización y tramitación."
+    },
+    {
+      "id": "g08",
+      "num": 8,
+      "bloque": "gestion-administrativa",
+      "titulo": "El archivo administrativo y la gestión documental en la Junta de Andalucía. Concepto y clases de archivos según el ciclo vital de los documentos (de oficina, centrales, intermedios e históricos). El Sistema Archivístico de Andalucía (Ley 7/2011). Organización, valoración, expurgo, conservación, seguridad y derecho de acceso a los archivos. Racionalización y simplificación del trabajo administrativo."
+    },
+    {
+      "id": "g09",
+      "num": 9,
+      "bloque": "gestion-administrativa",
+      "titulo": "Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica."
+    },
+    {
+      "id": "g10",
+      "num": 10,
+      "bloque": "gestion-administrativa",
+      "titulo": "Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos."
+    },
+    {
+      "id": "g11",
+      "num": 11,
+      "bloque": "gestion-administrativa",
+      "titulo": "Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@)."
+    },
+    {
+      "id": "g12",
+      "num": 12,
+      "bloque": "gestion-administrativa",
+      "titulo": "Derecho Civil y Derecho Laboral en la Administración Pública (Especial A1.1100 Administradores Generales). Fuentes del Derecho Civil, persona, capacidad jurídica y de obrar, derechos reales, Registro de la Propiedad y teoría general del contrato civil. Fuentes del Derecho del Trabajo, contrato de trabajo, salario, representación colectiva, jurisdicción social y VI Convenio Colectivo del Personal Laboral de la Junta de Andalucía."
+    },
+    {
+      "id": "e01",
+      "num": 1,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Demoliciones, trabajos previos y acondicionamiento del terreno en los edificios. Requisitos y exigencias básicas según el Código Técnico de la Edificación (CTE), prescripciones técnicas y normativa de aplicación: Procesos y condiciones de ejecución y control de calidad. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. Regulación de la producción y gestión de los residuos de construcción y demolición."
+    },
+    {
+      "id": "e02",
+      "num": 2,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Cimentaciones en los edificios. Estudios geotécnicos. Tipos de cimentaciones y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, conservación y mantenimiento. Evaluación de riegos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios."
+    },
+    {
+      "id": "e03",
+      "num": 3,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios."
+    },
+    {
+      "id": "e04",
+      "num": 4,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Estructuras de hormigón en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios."
+    },
+    {
+      "id": "e05",
+      "num": 5,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios."
+    },
+    {
+      "id": "e06",
+      "num": 6,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7"
+    },
+    {
+      "id": "e07",
+      "num": 7,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios."
+    },
+    {
+      "id": "e08",
+      "num": 8,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios."
+    },
+    {
+      "id": "e09",
+      "num": 9,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios."
+    },
+    {
+      "id": "e10",
+      "num": 10,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios."
+    },
+    {
+      "id": "e11",
+      "num": 11,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios."
+    },
+    {
+      "id": "e12",
+      "num": 12,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7"
+    },
+    {
+      "id": "e13",
+      "num": 13,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios."
+    },
+    {
+      "id": "e14",
+      "num": 14,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Urbanizaciones. Viales. Pavimentaciones. Redes e instalaciones. Jardinería. Mobiliario urbano. Tipos y descripción. Requisitos básicos, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios."
+    },
+    {
+      "id": "e15",
+      "num": 15,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios."
+    },
+    {
+      "id": "e16",
+      "num": 16,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Daños y defectos en los edificios. Las humedades y las fisuras: Tipos, características, causas, efectos, prevención y tratamiento. Patologías de la madera: Tipos, características, causas, efectos, prevención y tratamiento. Otros daños y defectos."
+    },
+    {
+      "id": "e17",
+      "num": 17,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública."
+    },
+    {
+      "id": "e18",
+      "num": 18,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "La seguridad y salud en el trabajo en las obras de edificación. Normativa de aplicación. Disposiciones mínimas generales relativas a los lugares de trabajo. Protecciones personales y colectivas. Principios de la acción preventiva. Medidas preventivas y de emergencia, primeros auxilios y servicios sanitarios. El estudio, el estudio básico y el plan de seguridad y salud: Ámbito de aplicación, alcance, contenido documental y tramitación. El libro de incidencias. Obligaciones de contratistas, subcontratistas y trabajadores. Personal con funciones de coordinación y control en las fases de proyecto y obra."
+    },
+    {
+      "id": "e19",
+      "num": 19,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "El uso, conservación y mantenimiento de los edificios. Normativa reguladora. Estudios y previsiones en el proyecto sobre conservación y mantenimiento. Previsiones. La documentación de la obra ejecutada. El libro del edificio. Instrucciones de uso, conservación y mantenimiento. Tecnología BIM (Building Information Modeling) en el proyecto, construcción y mantenimiento de los edificios. El deber 3 de 7 de la Administración pública de protección del personal a su servicio: Servicios de Prevención, Plan de Prevención de Riesgos Laborales, Delegado de Prevención y Comité de Seguridad y Salud."
+    },
+    {
+      "id": "e20",
+      "num": 20,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios."
+    },
+    {
+      "id": "e21",
+      "num": 21,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "La accesibilidad en las infraestructuras, el urbanismo y la edificación. Normativa de aplicación. Ámbito de aplicación y definiciones. Diseño y ejecución. Medidas de fomento, control y seguimiento. Seguridad de utilización de los edificios. Exigencias básicas. Régimen sancionador."
+    },
+    {
+      "id": "e22",
+      "num": 22,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos."
+    },
+    {
+      "id": "e23",
+      "num": 23,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Requisitos y exigencias básicas, según el CTE, de ahorro de energía, aislamiento térmico y protección contra el ruido en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas y medidas preventivas."
+    },
+    {
+      "id": "e24",
+      "num": 24,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Requisitos y exigencias básicas, según el CTE, de higiene, salud y protección del medio ambiente en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas y medidas preventivas."
+    },
+    {
+      "id": "e25",
+      "num": 25,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Anteproyectos, proyectos y expedientes de contratación. Anteproyectos: Contenido y aprobación. Clasificación de las obras, contenido de los proyectos y responsabilidad derivada de su elaboración. Presentación del proyecto por el empresario. Clasificación de las obras, contenido de los proyectos y responsabilidad derivada de su elaboración: Instrucciones para la elaboración de proyectos y su contenido mínimo. El programa de trabajo. Clasificación de las empresas en los contratos de obras en relación con los proyectos. Aprobación del proyecto. Supervisión de proyectos: Oficinas o unidades de supervisión de proyectos, funciones. La subsanación de errores, indemnizaciones y responsabilidades en el contrato de elaboración de proyectos de obras."
+    },
+    {
+      "id": "e26",
+      "num": 26,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Los Pliegos de cláusulas administrativas generales. Los Pliegos de cláusulas administrativas particulares, contenido. El Pliego de prescripciones técnicas generales, contenido. El Pliego de prescripciones técnicas particulares, contenido, definición de determinadas prescripciones técnicas, exención de referencias a prescripciones técnicas comunes, excepción a la prohibición de indicar origen, producción, marcas patentes o tipos de bienes, reglas para el establecimiento de prescripciones técnicas, etiquetas, informes de pruebas, certificación y otros medios de prueba, información sobre las obligaciones relativas 4 de 7 a la fiscalidad, protección del medio ambiente, empleo y condiciones laborales y de contratar a un porcentaje específico de personas con discapacidad, información sobre las condiciones de subrogación en contratos de trabajo."
+    },
+    {
+      "id": "e27",
+      "num": 27,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato."
+    },
+    {
+      "id": "e28",
+      "num": 28,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores."
+    },
+    {
+      "id": "e29",
+      "num": 29,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Ejecución del contrato de obras. Comprobación del replanteo: Acta de comprobación del replanteo y sus efectos, modificaciones acordadas como consecuencia de la comprobación del replanteo. Incidencias en la ejecución, autorizaciones y licencias. Ocupación temporal de terrenos a favor del contratista. Ejecución de las obras y responsabilidad del contratista: Fuerza mayor, incumplimiento parcial o cumplimiento defectuoso, demora en la ejecución, daños y perjuicios e imposición de penalidades. Programa de trabajo a presentar por el contratista. Resolución del contrato de obras, causas y efectos."
+    },
+    {
+      "id": "e30",
+      "num": 30,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "El abono de la obra de contratación pública en ejecución. Principio de riesgo y ventura. Pago del precio. Mediciones. Relaciones valoradas. Audiencia del contratista. Certificaciones de obra. Modelos y numeración de certificaciones. Cómputo del plazo de las certificaciones que excedan de las anualidades previstas. Precios y gastos. Partidas alzadas. Abonos a cuenta por materiales acopiados. Abonos a cuenta por instalaciones y equipos. Garantías por abonos a cuenta por materiales acopiados y por instalaciones y equipos."
+    },
+    {
+      "id": "e31",
+      "num": 31,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "La revisión de precios en los contratos de obras: Procedencia y límites. Revisión en casos de demora en la ejecución. Pago del importe de la revisión. Procedimiento para la revisión de precios. Cobertura financiera y tramitación de los expedientes de revisión de precios. Práctica de la revisión de precios en contratos de obras. Relación de materiales básicos y las fórmulas-tipo generales de revisión de precios de los contratos de obras."
+    },
+    {
+      "id": "e32",
+      "num": 32,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario."
+    },
+    {
+      "id": "e33",
+      "num": 33,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "La suspensión y extinción de los contratos de obra. Suspensión de los contratos de obra. Cumplimiento del contrato de obras: Recepción y plazo de garantía, responsabilidad por vicios ocultos. Resolución del contrato de obras: Causas y efectos de la resolución. La extinción de los contratos de obras: Acta de recepción, recepciones parciales, medición general y certificación final de las obras. Obligaciones del contratista durante el plazo de garantía. Ocupación o puesta en servicio de las obras sin recepción formal. Liquidación en el contrato de obras. Suspensión definitiva de las obras. Desistimiento y suspensión de las obras. Resolución del contrato cuando las obras hayan de ser continuadas. Incorporación de obras al inventario general de bienes y derechos."
+    },
+    {
+      "id": "e34",
+      "num": 34,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "La Legislación urbanística en la Comunidad Autónoma Andaluza. La Ordenación Urbanística. El régimen urbanístico del suelo. Instrumentos de intervención del mercado de suelo. La expropiación forzosa por razón de urbanismo. La disciplina urbanística."
+    },
+    {
+      "id": "e35",
+      "num": 35,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "La vivienda protegida y el suelo en Andalucía. Regulación legal. Normativa técnica de diseño y calidad aplicable a las viviendas protegidas. El Plan de Vivienda y Rehabilitación de Andalucía. Régimen sancionador en materia de vivienda."
+    },
+    {
+      "id": "e36",
+      "num": 36,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones."
+    },
+    {
+      "id": "e37",
+      "num": 37,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Centros sanitarios, asistenciales, culturales e instalaciones deportivas de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones."
+    },
+    {
+      "id": "e38",
+      "num": 38,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Valoración de inmuebles. Normativa reguladora. El valor: Concepto y sus distintos significados. El justiprecio. La depreciación y sus diferentes causas. Métodos de valoración. Valor catastral: concepto, límites y determinación."
+    },
+    {
+      "id": "e39",
+      "num": 39,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones."
+    },
+    {
+      "id": "e40",
+      "num": 40,
+      "bloque": "arquitectura-tecnica",
+      "titulo": "Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7"
+    },
+    {
+      "id": "g13",
+      "num": 13,
+      "bloque": "gestion-administrativa",
+      "titulo": "La representación política en España: los partidos políticos (LO 6/2002). El sistema electoral español y el sistema electoral de Andalucía (LOREG 5/1985 y Ley 1/1986): administración electoral, censo, procedimiento electoral, escrutinio, fórmula D'Hondt y recursos electorales. Organizaciones sindicales y empresariales: libertad sindical (LO 11/1985 LOLS), representatividad, elecciones sindicales y diálogo social."
+    },
+    {
+      "id": "g14",
+      "num": 14,
+      "bloque": "gestion-administrativa",
+      "titulo": "Derecho Civil (Código Civil): El Derecho objetivo y las fuentes del Derecho; aplicación, interpretación, eficacia temporal y prescripción/caducidad. La relación jurídica: persona física y jurídica, capacidad jurídica y ejercicio de la capacidad tras la Ley 8/2021, representación. Los derechos reales: concepto, clases, propiedad, posesión, usufructo y derechos reales de garantía (prenda e hipoteca). El contrato: concepto, elementos esenciales (art. 1261 CC), vicios del consentimiento, ineficacia (nulidad, anulabilidad y rescisión) y resolución (art. 1124 CC)."
+    },
+    {
+      "id": "g15",
+      "num": 15,
+      "bloque": "gestion-administrativa",
+      "titulo": "La Policía del Orden y la Seguridad Ciudadana (LO 4/2015). Competencias de la Comunidad Autónoma de Andalucía: la Unidad del Cuerpo Nacional de Policía adscrita a la Comunidad Autónoma. Protección civil y gestión de emergencias en Andalucía (Ley 2/2002): planes de emergencia, 112 y servicios de extinción de incendios y salvamento. Las Policías Locales y su coordinación en Andalucía (Ley 6/2023). La actividad administrativa de limitación: modalidades de intervención, autorización administrativa, declaración responsable y comunicación."
+    },
+    {
+      "id": "g16",
+      "num": 16,
+      "bloque": "gestion-administrativa",
+      "titulo": "El Derecho Financiero y los ingresos públicos: concepto y clases. El sistema tributario español (Ley 58/2003 General Tributaria): principios constitucionales (art. 31 CE), impuestos, tasas y contribuciones especiales, obligados tributarios, elementos del tributo y procedimientos tributarios. La financiación de las Comunidades Autónomas (LOFCA 8/1980 y Ley 22/2009): el Consejo de Política Fiscal y Financiera, tributos propios y cedidos en Andalucía (Ley 5/2021) y ATRIAN. La Contabilidad Pública en la Junta de Andalucía: PGCP, sistema GIRO y Cuenta General (formación y rendición)."
+    },
+    {
+      "id": "g17",
+      "num": 17,
+      "bloque": "gestion-administrativa",
+      "titulo": "El Derecho del Trabajo (RDLeg 2/2015 Estatuto de los Trabajadores): naturaleza, fuentes de la relación laboral y principios de aplicación. Los convenios colectivos (Título III ET): eficacia general, legitimación, vigencia y concurrencia. El contrato de trabajo: elementos, capacidad, forma y período de prueba. Modalidades del contrato de trabajo tras el RDL 32/2021 (indefinido, fijo-discontinuo, duración determinada por circunstancias de la producción y por sustitución, formativos). El salario, garantías salariales y el FOGASA (art. 33 ET). Modificación (arts. 39-41 ET), suspensión (arts. 45-48 ET) y extinción del contrato de trabajo (arts. 49-56 ET: despido colectivo, objetivo y disciplinario)."
+    },
+    {
+      "id": "g18",
+      "num": 18,
+      "bloque": "gestion-administrativa",
+      "titulo": "Representación colectiva del personal en la empresa (Título II ET: Delegados de Personal y Comités de Empresa). Los conflictos colectivos, el derecho de huelga (art. 28.2 CE y RDL 17/1977) y el cierre patronal. La Administración laboral estatal y autonómica: la Inspección de Trabajo y Seguridad Social (Ley 23/2015) y la potestad sancionadora en el orden social (LISOS RDLeg 5/2000). La Jurisdicción Social (Ley 36/2011 LRJS): órganos, conciliación previa, proceso ordinario y procesos especiales (despido). Competencias de Andalucía en empleo, SERCLA y economía social: sociedades cooperativas andaluzas (Ley 14/2011)."
+    },
+    {
+      "id": "g19",
+      "num": 19,
+      "bloque": "gestion-administrativa",
+      "titulo": "Políticas sociales sectoriales de la Comunidad Autónoma de Andalucía: 1) Salud, sanidad y farmacia (art. 55 EA, Ley 2/1998 de Salud de Andalucía y Ley 16/2011 de Salud Pública): el Sistema Sanitario Público de Andalucía y el Servicio Andaluz de Salud (SAS); 2) Educación y Universidades (arts. 52 y 53 EA, Ley 17/2007 de Educación de Andalucía LEA y TRLAU): el Sistema Educativo Público de Andalucía y el Sistema Universitario Andaluz; 3) Servicios Sociales y Dependencia (art. 61 EA, Ley 9/2016 de Servicios Sociales de Andalucía y Ley 39/2006 de Dependencia): estructura funcional (comunitarios y especializados), Catálogo de Prestaciones y ASSDA."
+    },
+    {
+      "id": "g20",
+      "num": 20,
+      "bloque": "gestion-administrativa",
+      "titulo": "Políticas económicas y territoriales sectoriales de la Comunidad Autónoma de Andalucía: 1) Agricultura, ganadería, pesca y desarrollo rural (art. 48 EA, PAC y FEAGA/FEADER); 2) Aguas (arts. 50 y 51 EA y Ley 9/2010 de Aguas de Andalucía): demarcaciones intracomunitarias, ciclo integral del agua urbana y canon de mejora; 3) Industria, energía y minas (art. 49 EA); 4) Consumo, comercio y turismo (arts. 58 y 71 EA, Ley 13/2003 de Consumidores y Usuarios y Ley 13/2011 del Turismo de Andalucía: Municipio Turístico y Registro de Turismo); 5) Medios de comunicación social y servicios audiovisuales (arts. 69 y 207-217 EA, Ley 10/2018 Audiovisual de Andalucía, RTVA y Consejo Audiovisual de Andalucía)."
+    },
+    {
+      "id": "g21",
+      "bloque": "gestion-administrativa",
+      "num": 21,
+      "titulo": "El personal laboral al servicio de la Junta de Andalucía. Peculiaridades del Derecho Laboral en su aplicación a la Administración Pública. El VI Convenio Colectivo del Personal Laboral de la Administración de la Junta de Andalucía: estructura, ámbito de aplicación, Comisión del Convenio, organización del trabajo, clasificación profesional (Grupos I a V), provisión de vacantes, contratación temporal, jornada, vacaciones, permisos, estructura salarial, incompatibilidades y régimen disciplinario."
+    },
+    {
+      "id": "g22",
+      "bloque": "gestion-administrativa",
+      "num": 22,
+      "titulo": "La Administración: regulación constitucional (arts. 97 y 103–107 CE). La Administración General del Estado: organización central y territorial (Ley 40/2015 LRJSP y Ley 50/1997). La Administración Institucional: Sector Público Institucional Estatal y Administración Instrumental de Andalucía (LAJA). La Administración Consultiva: Consejo de Estado y Consejo Consultivo de Andalucía (Ley 2/2024). La Administración Corporativa: Colegios Profesionales, Cámaras Oficiales y otras corporaciones."
+    },
+    {
+      "id": "g23",
+      "bloque": "gestion-administrativa",
+      "num": 23,
+      "titulo": "El Medio Ambiente en Andalucía: competencias estatutarias (art. 57 EA). Los instrumentos de prevención y control ambiental en la Ley 2/2026 (LEGAM — sustituye a la Ley 7/2007 GICA): EAE, AAI, AAU, Calificación Ambiental y Declaración Responsable. La calidad ambiental: atmósfera, ruido (Decreto 50/2025), aguas y residuos/economía circular (Ley 7/2022 y Ley 3/2023). Los gases de efecto invernadero y cambio climático (Ley Europea del Clima, Ley 7/2021 y Ley 8/2018 Andalucía). Biodiversidad, responsabilidad y disciplina ambiental."
+    },
+    {
+      "id": "g24",
+      "bloque": "gestion-administrativa",
+      "num": 24,
+      "titulo": "Cultura y patrimonio en Andalucía (art. 68 EA): protección del patrimonio cultural, histórico, artístico, monumental, arqueológico, industrial y científico (LPHE 16/1985, LPHA 14/2007 transitoria hasta 07/04/2027 y LPCA 4/2026). Archivos y Patrimonio Documental (Ley 7/2011 LDAPA). Bibliotecas (Ley 16/2003) y Museos (Ley 8/2007). Juventud (IAJ y art. 74 EA), Deporte (Ley 5/2016) y Espectáculos Públicos y Actividades Recreativas (Ley 13/1999 y Decreto 155/2018)."
+    },
+    {
+      "id": "g25",
+      "bloque": "gestion-administrativa",
+      "num": 25,
+      "titulo": "Las Administraciones Públicas como organizaciones y modelos de estructura administrativa. Políticas públicas y su evaluación. La calidad del servicio público y calidad percibida (SERVQUAL). Medición, modelos de evaluación (EFQM, CAF, ISO 9001) y costes de la no calidad. Las Cartas de Servicios en Andalucía (Decreto 317/2003): elaboración, aprobación, publicación, seguimiento y suspensión. Análisis cualitativo y cuantitativo del trabajo y simplificación administrativa (Decreto 622/2019)."
+    },
+    {
+      "id": "g26",
+      "bloque": "gestion-administrativa",
+      "num": 26,
+      "titulo": "Derecho Administrativo, fuentes y jerarquía normativa. La Ley y normas con fuerza de ley. El Reglamento administrativo: clases, fundamento, límites, jerarquía y titularidad. Inderogabilidad singular del reglamento (art. 37 LPAC). Actos administrativos generales e instrucciones, circulares y órdenes de servicio (art. 6 LRJSP). Procedimiento de elaboración reglamentaria. El Acto Administrativo: elementos, forma, motivación, notificación, publicación, silencio e invalidez. Recursos administrativos (alzada, reposición y extraordinario de revisión)."
+    },
+    {
+      "id": "g27",
+      "bloque": "gestion-administrativa",
+      "num": 27,
+      "titulo": "El Gobierno del Estado (Título IV CE y Ley 50/1997): naturaleza y funciones (art. 97 CE). Composición, estatuto e incompatibilidades (art. 98 CE y Ley 3/2015). El Presidente del Gobierno: investidura (art. 99 CE), nombramiento y atribuciones. Consejo de Ministros, Comisiones Delegadas y órganos de colaboración y apoyo. Cese y Gobierno en funciones (art. 21 Ley 50/1997). Responsabilidad política (arts. 108–116 CE) y criminal (art. 102 CE) de sus miembros."
+    },
+    {
+      "id": "g28",
+      "bloque": "gestion-administrativa",
+      "num": 28,
+      "titulo": "Las Cortes Generales (Título III CE): bicameralismo, composición y sistema electoral de Congreso y Senado (arts. 66–70 CE y LOREG). Estatuto parlamentario, organización y funcionamiento de las Cámaras (arts. 71–79 CE). Función legislativa (arts. 81–96 CE) y Presupuestos (art. 134 CE). Control parlamentario del Gobierno (Título V CE). Órganos auxiliares de las Cortes: El Defensor del Pueblo (art. 54 CE y LO 3/1981) y El Tribunal de Cuentas (art. 136 CE y LO 2/1982)."
+    },
+    {
+      "id": "g29",
+      "bloque": "gestion-administrativa",
+      "num": 29,
+      "titulo": "El Poder Judicial (Título VI CE y LOPJ 6/1985): regulación constitucional de la Justicia, principios informadores y participación ciudadana (art. 125 CE y Ministerio Fiscal art. 124 CE). Organización judicial española: órdenes jurisdiccionales y planta de Juzgados y Tribunales (Tribunal Supremo, Audiencia Nacional, TSJ, Audiencias Provinciales y Juzgados). El Consejo General del Poder Judicial (art. 122 CE): composición, designación, organización interna y competencias."
+    },
+    {
+      "id": "g30",
+      "bloque": "gestion-administrativa",
+      "num": 30,
+      "titulo": "El Tribunal Constitucional (Título IX CE y LOTC 2/1979): naturaleza, composición, estatuto de los Magistrados y organización en Pleno, Salas y Secciones. Control de constitucionalidad: recurso de inconstitucionalidad, cuestión de inconstitucionalidad y control previo de Tratados y Estatutos. El recurso de amparo constitucional (arts. 53.2 y 161.1.b CE). Conflictos constitucionales, impugnación del art. 161.2 CE y efectos de las sentencias (art. 164 CE)."
+    },
+    {
+      "id": "g31",
+      "bloque": "gestion-administrativa",
+      "num": 31,
+      "titulo": "La Jefatura del Estado: la Corona (art. 1.3 y Título II CE, arts. 56–65). Inviolabilidad, irresponsabilidad y funciones constitucionales del Rey. Orden de sucesión, Regencia y Tutela del Rey menor. El refrendo de los actos regios: fundamento, sujetos legitimados y formas (art. 64 CE). La Casa de S.M. el Rey: régimen presupuestario, transparencia y estructura orgánica (art. 65 CE y RD 434/1988)."
+    }
+  ]
+}

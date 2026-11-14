@@ -1,0 +1,553 @@
+{
+  "id": "g25",
+  "resumen": [
+    {
+      "titulo": "1. Las Administraciones Públicas como organización y modelos de estructura administrativa",
+      "puntos": [
+        "Toda Administración Pública constituye una organización instrumental compleja al servicio del interés general (art. 103.1 CE). Henry Mintzberg identifica cinco partes fundamentales de la organización: ápice estratégico, línea media, núcleo de operaciones, tecnoestructura y staff de apoyo.",
+        "Modelos estructurales: burocracia maquinal y burocracia profesional (Weber / Mintzberg), estructura funcional (principio de especialización), divisional (por programas, territorios o agencias), matricial (doble dependencia funcional y por proyectos) y adhocracia u organización en red.",
+        "Tendencias actuales y situación en Andalucía: tránsito desde el modelo burocrático clásico hacia la Nueva Gestión Pública, la Gobernanza Pública, el Gobierno Abierto y la Administración Digital (Decreto 622/2019 y Agencia Digital de Andalucía)."
+      ]
+    },
+    {
+      "titulo": "2. Servicios públicos, políticas públicas y su evaluación",
+      "puntos": [
+        "El servicio público y la centralidad ciudadana sitúan la satisfacción de necesidades colectivas como razón de ser de la Administración (arts. 3 LRJSP, 5 y 6 LAJA y 138 EA Andalucía).",
+        "Ciclo de las políticas públicas: identificación y definición del problema en la agenda pública, formulación de alternativas, adopción de la decisión, implantación/ejecución y evaluación ex ante, concomitante (intermedia) y ex post (de diseño, procesos, resultados/impacto y eficiencia).",
+        "En la Junta de Andalucía, el Decreto 622/2019 y la Ley 1/2014 LTPA promueven la evaluación de políticas públicas y el control de eficacia del sector público instrumental (art. 85 LRJSP y art. 52 LAJA)."
+      ]
+    },
+    {
+      "titulo": "3. Calidad del servicio público, calidad percibida y costes de la no calidad",
+      "puntos": [
+        "Calidad del servicio público es el grado en que las prestaciones y características de un servicio satisfacen las necesidades y expectativas legítimas de la ciudadanía.",
+        "Calidad esperada vs. calidad percibida (modelo SERVQUAL de Parasuraman, Zeithaml y Berry): dimensiones de tangibilidad, fiabilidad, capacidad de respuesta, seguridad y empatía.",
+        "Costes de la calidad (prevención y evaluación) frente a costes de la no calidad (fallos internos —retrabajos, duplicidades, cuellos de botella— y fallos externos —quejas, reclamaciones, pérdida de confianza y responsabilidad patrimonial—)."
+      ]
+    },
+    {
+      "titulo": "4. Evaluación de la calidad y Cartas de Servicios (Decreto 317/2003)",
+      "puntos": [
+        "Modalidades de evaluación de la calidad (modelos EFQM de excelencia, Marco Común de Evaluación CAF para Administraciones Públicas, normas ISO 9001 y UNE 93200): autoevaluación interna y evaluación externa o auditoría/certificación.",
+        "El Decreto 317/2003 regula las Cartas de Servicios en la Junta de Andalucía: documentos escritos que informan a la ciudadanía sobre los servicios prestados, derechos, compromisos de calidad, indicadores de seguimiento y medidas de subsanación.",
+        "Procedimiento en el Decreto 317/2003: elaboración por el centro u organismo gestor, informe preceptivo del órgano competente en calidad e inspección de servicios, aprobación por Orden de la Consejería (o resolución del titular en entes), publicación en el BOJA, divulgación, actualización periódica, seguimiento anual de indicadores y posible suspensión motivada."
+      ]
+    },
+    {
+      "titulo": "5. Análisis y simplificación del trabajo administrativo en la Junta de Andalucía",
+      "puntos": [
+        "Técnicas de análisis cualitativo del trabajo administrativo: diagramas de flujo (flujogramas), cursogramas sinópticos y analíticos, organigramas, análisis documental y mapas de procesos.",
+        "Métodos estimativos de estudio cuantitativo: cronometraje, muestreo del trabajo (work sampling), tablas de tiempos predeterminados, estimaciones de cargas y análisis de tiempos de respuesta.",
+        "Simplificación y racionalización administrativa en Andalucía (Decreto 622/2019 y LAJA): reducción de cargas administrativas, sustitución de autorizaciones por declaraciones responsables, supresión de documentación ya obrante (art. 28 LPAC), formularios normalizados, tramitación electrónica y órganos especializados (Inspección General de Servicios y órganos de organización y calidad)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "DEC-AND-317-2003",
+      "rol": "Norma principal: Decreto 317/2003 de Cartas de Servicios, Evaluación de Calidad de los Servicios y Premios en Andalucía"
+    },
+    {
+      "id": "DEC-AND-622-2019",
+      "rol": "Reglamento de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía"
+    },
+    {
+      "id": "LAJA",
+      "rol": "Principios de organización, atención ciudadana, calidad y racionalización en la Junta de Andalucía (Ley 9/2007)"
+    },
+    {
+      "id": "LRJSP",
+      "rol": "Principios generales de actuación administrativa, eficacia, eficiencia y órganos administrativos (Ley 40/2015)"
+    },
+    {
+      "id": "DEC-AND-204-1995",
+      "rol": "Normativa de información administrativa y atención ciudadana (vigencia parcial residual tras Decreto 622/2019)"
+    },
+    {
+      "id": "CE",
+      "rol": "Principios constitucionales de eficacia, objetividad y servicio a la ciudadanía (art. 103.1 CE)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el modelo estructural de Henry Mintzberg sobre la configuración de las organizaciones públicas y privadas, ¿cuáles son las cinco partes fundamentales de toda organización?",
+      "opciones": [
+        "Ápice estratégico, línea media, núcleo de operaciones, tecnoestructura y staff de apoyo",
+        "Presidencia, Parlamento, Tribunal de Cuentas, Defensor del Pueblo y Consejo Consultivo",
+        "Planificación, ejecución, pago, contabilidad y auditoría externa",
+        "Dirección General, Subdirección, Negociado, Registro y Archivo"
+      ],
+      "correcta": 0,
+      "explicacion": "Mintzberg distingue cinco componentes esenciales: ápice estratégico (alta dirección), línea media (mandos intermedios), núcleo de operaciones (prestación directa), tecnoestructura (normalización de procesos/calidad) y staff de apoyo (asesoría jurídica, informática, servicios auxiliares).",
+      "referencia": "Teoría de la Organización (Mintzberg)"
+    },
+    {
+      "pregunta": "¿Qué caracteriza específicamente al modelo de estructura organizativa «matricial» frente a la estructura funcional tradicional?",
+      "opciones": [
+        "La ausencia total de jerarquía y de división del trabajo",
+        "La combinación simultánea de la departamentalización funcional vertical y la agrupación horizontal por proyectos o programas, implicando una doble línea de dependencia",
+        "La reserva exclusiva de funciones directivas a consultoras externas",
+        "La supresión de todos los mandos intermedios dejando únicamente un director general"
+      ],
+      "correcta": 1,
+      "explicacion": "La estructura matricial superpone equipos de proyecto o programa sobre departamentos funcionales, generando doble dependencia (del responsable funcional y del director de proyecto) para ganar flexibilidad ante tareas complejas.",
+      "referencia": "Modelos de estructura administrativa"
+    },
+    {
+      "pregunta": "De acuerdo con la teoría clásica de Max Weber, el «modelo burocrático» racional-legal se fundamenta en:",
+      "opciones": [
+        "El carisma personal del líder sin normas escritas",
+        "La libre designación arbitraria basada exclusivamente en la amistad",
+        "La división del trabajo, jerarquía de autoridad, normas escritas impersonales, separación entre cargo y titular, y selección profesional por mérito y capacidad",
+        "La gestión mercantil privada orientada únicamente al beneficio financiero"
+      ],
+      "correcta": 2,
+      "explicacion": "Weber definió la burocracia racional-legal como forma superior de eficiencia previsible basada en competencias regladas por normas escritas, jerarquía, documentación en expediente, profesionalidad e imparcialidad.",
+      "referencia": "Teoría de la Burocracia (Max Weber) y art. 103 CE"
+    },
+    {
+      "pregunta": "En el paradigma actual de la «Gobernanza Pública» frente a la «Nueva Gestión Pública» (NGP) de finales del siglo XX, ¿cuál es el elemento diferenciador principal?",
+      "opciones": [
+        "La sustitución de todas las leyes por contratos privados mercantiles",
+        "El retorno al centralismo administrativo absoluto sin participación",
+        "La prohibición de medir el rendimiento de los servicios públicos",
+        "La gestión en red, la cooperación interadministrativa y público-privada, la transparencia, la participación ciudadana en el diseño de políticas y la rendición de cuentas democrática"
+      ],
+      "correcta": 3,
+      "explicacion": "Mientras la Nueva Gestión Pública priorizaba el gerencialismo interno, eficiencia económica y descentralización en agencias, la Gobernanza Pública enfatiza las redes colaborativas multiactor, la participación ciudadana, el Gobierno Abierto y la creación de valor público.",
+      "referencia": "Tendencias actuales en Administración Pública"
+    },
+    {
+      "pregunta": "¿Cuál es la secuencia ordinaria correcta de las fases del ciclo de las políticas públicas?",
+      "opciones": [
+        "Identificación del problema e inclusión en la agenda -> Formulación de alternativas -> Adopción de la decisión -> Implantación -> Evaluación",
+        "Evaluación -> Sanción -> Ejecución -> Formulación -> Archivo",
+        "Licitación -> Adjudicación -> Recepción -> Pago -> Liquidación",
+        "Archivo histórico -> Registro de entrada -> Incoación -> Resolución"
+      ],
+      "correcta": 0,
+      "explicacion": "La ciencia de la Administración estructura el ciclo clásico de políticas públicas (policy cycle) en definición del problema/agenda, formulación, toma de decisión, implementación y evaluación retroalimentada.",
+      "referencia": "Políticas Públicas y su evaluación"
+    },
+    {
+      "pregunta": "Atendiendo al momento temporal en que se realiza, ¿qué diferencia existe entre evaluación «ex ante», «concomitante» (o intermedia) y «ex post» de una política o programa público?",
+      "opciones": [
+        "Solo cambian el idioma de redacción del informe",
+        "La ex ante estima impactos y viabilidad antes de aprobar o implantar; la concomitante supervisa la ejecución en curso para corregir desviaciones; y la ex post analiza eficacia, eficiencia e impacto tras su aplicación",
+        "La evaluación ex ante la realiza siempre el Tribunal Supremo y la ex post el Consejo de Estado",
+        "Únicamente la evaluación ex post está permitida por el Estatuto de Autonomía"
+      ],
+      "correcta": 1,
+      "explicacion": "La evaluación ex ante previene riesgos y analiza alternativas (como memorias de impacto normativo); la concomitante acompaña el despliegue operativo en curso; la ex post mide logros e impactos reales una vez ejecutada.",
+      "referencia": "Evaluación de Políticas Públicas"
+    },
+    {
+      "pregunta": "En el ámbito de la gestión de la calidad de los servicios públicos, ¿qué expresa el concepto de «calidad percibida» según el modelo SERVQUAL (Parasuraman, Zeithaml y Berry)?",
+      "opciones": [
+        "El coste presupuestario total del departamento dividido entre el número de empleados",
+        "El número de leyes publicadas en un ejercicio en el boletín oficial",
+        "La brecha o diferencia resultante entre las expectativas previas de la ciudadanía/usuario y su percepción real sobre el desempeño del servicio recibido",
+        "La antigüedad media de los equipos informáticos de una oficina"
+      ],
+      "correcta": 2,
+      "explicacion": "La calidad percibida mide la satisfacción subjetiva comparando lo esperado antes de recibir el servicio (calidad esperada) con la experiencia efectiva (percepción) en cinco dimensiones: fiabilidad, capacidad de respuesta, seguridad, empatía y elementos tangibles.",
+      "referencia": "Calidad del servicio y modelo SERVQUAL"
+    },
+    {
+      "pregunta": "Dentro de la clasificación económica de los costes vinculados a la calidad (Juran / Crosby), los gastos derivados de rehacer expedientes defectuosos, subsanar errores internos de tramitación o duplicar verificaciones antes de atender al ciudadano constituyen:",
+      "opciones": [
+        "Costes de prevención",
+        "Costes de fallos externos",
+        "Inversiones en capital intangible",
+        "Costes de fallos internos (costes de la no calidad)"
+      ],
+      "correcta": 3,
+      "explicacion": "Los costes de calidad se dividen en costes de conformidad (prevención y evaluación) y costes de no conformidad o no calidad: fallos internos (detectados antes de la entrega al usuario: retrabajos, desperdicios, retrasos) y fallos externos (detectados por el ciudadano: quejas, recursos, indemnizaciones).",
+      "referencia": "Costes de la calidad y de la no calidad"
+    },
+    {
+      "pregunta": "¿Qué coste de la no calidad tiene la consideración de «coste de fallo externo» en una Administración Pública?",
+      "opciones": [
+        "Las reclamaciones patrimoniales, indemnizaciones, recursos estimados con condena en costas y pérdida de confianza ciudadana tras prestarse un servicio deficiente",
+        "Los cursos de formación continua impartidos al personal de registro",
+        "Las auditorías preventivas internas de control de calidad",
+        "La compra de aplicaciones informáticas para evitar errores de cálculo"
+      ],
+      "correcta": 0,
+      "explicacion": "Los fallos externos se producen cuando el error o deficiencia alcanza al destinatario externo (ciudadano o empresa), generando reclamaciones, indemnizaciones, anulaciones judiciales o descrédito institucional.",
+      "referencia": "Costes de la no calidad"
+    },
+    {
+      "pregunta": "En la evaluación de la calidad de las organizaciones públicas europeas, ¿qué instrumento constituye específicamente un marco de autoevaluación gratuito diseñado por y para el sector público europeo inspirado en el modelo EFQM?",
+      "opciones": [
+        "El Código Técnico de la Edificación (CTE)",
+        "El Marco Común de Evaluación (CAF — Common Assessment Framework)",
+        "El Reglamento Electrotécnico de Baja Tensión",
+        "El Sistema INVESPE de inventario de entidades"
+      ],
+      "correcta": 1,
+      "explicacion": "El CAF (Marco Común de Evaluación) es la herramienta europea de gestión de la calidad total específica para Administraciones Públicas, estructurada en criterios de agentes facilitadores y resultados.",
+      "referencia": "Modelos de evaluación de la calidad (CAF / EFQM)"
+    },
+    {
+      "pregunta": "¿Qué modelo internacional establece una norma certificable por tercera parte acreditada orientada a los requisitos de un Sistema de Gestión de la Calidad (SGC)?",
+      "opciones": [
+        "La Directiva de Hábitats 92/43/CEE",
+        "El Tratado de Lisboa",
+        "La norma ISO 9001",
+        "El Plan General de Contabilidad Pública"
+      ],
+      "correcta": 2,
+      "explicacion": "ISO 9001 fija los requisitos auditables y certificables para Sistemas de Gestión de la Calidad basados en el enfoque a procesos, mejora continua (ciclo PDCA de Deming) y orientación al usuario.",
+      "referencia": "Norma ISO 9001 y evaluación de calidad"
+    },
+    {
+      "pregunta": "¿Qué decreto autonómico regula en la Administración de la Junta de Andalucía las Cartas de Servicios, la evaluación de la calidad de los servicios y los premios a la calidad?",
+      "opciones": [
+        "El Decreto 50/2025",
+        "El Decreto 155/2018",
+        "El Decreto 293/2009",
+        "El Decreto 317/2003, de 18 de noviembre"
+      ],
+      "correcta": 3,
+      "explicacion": "El Decreto 317/2003, de 18 de noviembre, regula las Cartas de Servicios, el sistema de evaluación de la calidad de los servicios y se establecen los Premios a la Calidad de los Servicios Públicos en Andalucía.",
+      "referencia": "Decreto 317/2003 (Andalucía)"
+    },
+    {
+      "pregunta": "Conforme al artículo 2 del Decreto 317/2003 de la Junta de Andalucía, ¿cómo se define una Carta de Servicios?",
+      "opciones": [
+        "El documento escrito que tiene por objeto informar a los ciudadanos sobre los servicios que presta el órgano o entidad, las condiciones de prestación, los derechos que les asisten, los compromisos de calidad asumidos y los indicadores de evaluación",
+        "Una norma reglamentaria con rango de decreto-ley que crea tasas fiscales obligatorias",
+        "Un contrato laboral colectivo suscrito entre sindicatos y empresas concesionarias",
+        "Una circular interna reservada que no puede publicarse ni divulgarse a la ciudadanía"
+      ],
+      "correcta": 0,
+      "explicacion": "El Decreto 317/2003 configura las Cartas de Servicios como instrumentos escritos de información pública y compromiso de mejora continua ante la ciudadanía sobre estándares concretos de prestación.",
+      "referencia": "Art. 2 Decreto 317/2003"
+    },
+    {
+      "pregunta": "Según el Decreto 317/2003 de Andalucía, ¿qué naturaleza jurídica tienen los compromisos recogidos en una Carta de Servicios respecto a reclamaciones patrimoniales o creación automática de derechos subjetivos?",
+      "opciones": [
+        "Son contratos mercantiles ejecutables directamente ante los juzgados de lo social",
+        "El incumplimiento de los compromisos declarados en una Carta de Servicios no dará lugar por sí mismo a responsabilidad patrimonial de la Administración, sin perjuicio de las medidas de subsanación previstas",
+        "Obligan a indemnizar con 6.000 euros automáticos por cada día de demora",
+        "Tienen fuerza de Ley Orgánica estatal"
+      ],
+      "correcta": 1,
+      "explicacion": "El Decreto 317/2003 precisa expresamente que el incumplimiento de los compromisos asumidos en la Carta de Servicios activa las medidas de corrección/subsanación previstas y la rendición de cuentas, pero no genera por sí solo responsabilidad patrimonial de la Administración.",
+      "referencia": "Decreto 317/2003 (Andalucía)"
+    },
+    {
+      "pregunta": "En el procedimiento de elaboración y aprobación de una Carta de Servicios regulado por el Decreto 317/2003 en la Junta de Andalucía, ¿qué órgano debe emitir informe preceptivo previo a su aprobación?",
+      "opciones": [
+        "El Tribunal Superior de Justicia de Andalucía",
+        "El Consejo de Estado en Pleno",
+        "El órgano directivo competente en materia de calidad de los servicios e inspección de servicios (Consejería competente en Administración Pública)",
+        "La Cámara de Comercio de Sevilla"
+      ],
+      "correcta": 2,
+      "explicacion": "El borrador elaborado por el centro directivo o entidad instrumental requiere el informe técnico preceptivo de la Dirección General competente en calidad/organización administrativa antes de su aprobación formal.",
+      "referencia": "Arts. 7–9 Decreto 317/2003"
+    },
+    {
+      "pregunta": "De acuerdo con el Decreto 317/2003, ¿cómo se aprueban y dónde deben publicarse oficialmente las Cartas de Servicios de las Consejerías y entidades instrumentales de la Junta de Andalucía?",
+      "opciones": [
+        "Por decreto-ley del Parlamento sin publicación oficial",
+        "Por acuerdo verbal del jefe de servicio sin inserción en boletines",
+        "Por resolución de la Dirección General de Tráfico publicada en el BOE",
+        "Se aprueban por Orden de la persona titular de la Consejería correspondiente (o resolución del órgano máximo de dirección si se trata de entidades públicas instrumentales) y se publican en el Boletín Oficial de la Junta de Andalucía (BOJA)"
+      ],
+      "correcta": 3,
+      "explicacion": "El Decreto 317/2003 exige aprobación formal mediante Orden de la Consejería (o resolución en agencias/entidades vinculadas) y publicación oficial en el BOJA, además de su divulgación en el portal web y oficinas.",
+      "referencia": "Arts. 8–10 Decreto 317/2003"
+    },
+    {
+      "pregunta": "¿Qué apartado esencial debe incluir obligatoriamente toda Carta de Servicios (Decreto 317/2003) para informar al ciudadano qué ocurre si se incumple un compromiso de calidad declarado?",
+      "opciones": [
+        "Las medidas de subsanación, compensación o reparación previstas ante eventuales incumplimientos, junto con los indicadores para medir su grado de cumplimiento y el cauce de sugerencias y reclamaciones",
+        "El historial retributivo individual de todo el personal funcionario",
+        "El inventario completo de vehículos oficiales del departamento",
+        "La relación de proveedores privados que suministran material de oficina"
+      ],
+      "correcta": 0,
+      "explicacion": "Entre los contenidos estructurales obligatorios del Decreto 317/2003 destacan los datos identificativos, servicios prestados, derechos ciudadanos, participación, compromisos de calidad, indicadores de seguimiento y medidas de subsanación.",
+      "referencia": "Art. 5 Decreto 317/2003"
+    },
+    {
+      "pregunta": "En relación con el seguimiento, actualización y suspensión de las Cartas de Servicios (Decreto 317/2003), ¿qué ocurre cuando concurren causas sobrevenidas extraordinarias o reorganizaciones administrativas que impidan temporalmente cumplir los compromisos asumidos?",
+      "opciones": [
+        "La Carta de Servicios continúa obligando eternamente sin posibilidad de alteración",
+        "Puede acordarse motivadamente la suspensión temporal total o parcial de la Carta de Servicios mediante acto publicado del órgano que la aprobó, previo informe del órgano competente en calidad",
+        "Se disuelve automáticamente la Consejería responsable",
+        "La suspensión solo puede acordarla el Tribunal Constitucional"
+      ],
+      "correcta": 1,
+      "explicacion": "El Decreto 317/2003 contempla expresamente tanto la evaluación/seguimiento anual de resultados y actualización periódica como el procedimiento motivado de suspensión (temporal o definitiva) cuando circunstancias extraordinarias o cambios organizativos lo justifiquen.",
+      "referencia": "Arts. 11–13 Decreto 317/2003"
+    },
+    {
+      "pregunta": "Según el Decreto 317/2003, ¿cuáles son las dos modalidades principales previstas para evaluar la calidad de los servicios públicos en la Junta de Andalucía?",
+      "opciones": [
+        "Inspección policial sorpresa y auditoría financiera exclusivamente",
+        "Licitación competitiva y subasta electrónica",
+        "La autoevaluación realizada por los propios órganos o unidades prestadoras y la evaluación externa realizada por unidades especializadas o evaluadores independientes conforme a modelos de calidad reconocidos",
+        "El referéndum municipal y la consulta parlamentaria"
+      ],
+      "correcta": 2,
+      "explicacion": "El Capítulo III del Decreto 317/2003 regula el sistema de evaluación de la calidad combinando procesos periódicos de autoevaluación interna por el propio órgano gestor con evaluaciones externas o verificaciones de excelencia.",
+      "referencia": "Capítulo III Decreto 317/2003"
+    },
+    {
+      "pregunta": "¿Qué norma técnica española (AENOR) especifica específicamente los requisitos de elaboración, contenido, seguimiento y certificación de las Cartas de Servicios?",
+      "opciones": [
+        "La norma UNE-EN ISO 14001",
+        "La norma CTE DB-HR",
+        "El Esquema Nacional de Seguridad RD 311/2022",
+        "La norma UNE 93200"
+      ],
+      "correcta": 3,
+      "explicacion": "La norma UNE 93200 es el estándar español de referencia para los requisitos de contenido, medición y gestión de las Cartas de Servicios.",
+      "referencia": "Norma UNE 93200 y gestión de calidad"
+    },
+    {
+      "pregunta": "En el estudio del trabajo administrativo, ¿qué diferencia fundamental existe entre las técnicas de análisis cualitativo y los métodos de estudio cuantitativo?",
+      "opciones": [
+        "Las técnicas cualitativas describen qué tareas se hacen, quién las realiza y en qué secuencia (diagramas de flujo, cursogramas, organigramas), mientras que los métodos cuantitativos miden cuánto tiempo, frecuencia o carga de trabajo requieren (cronometraje, muestreo del trabajo, tiempos predeterminados)",
+        "Las cualitativas solo usan hojas de cálculo financieras y las cuantitativas entrevistas abiertas",
+        "Las cuantitativas prohíben usar datos numéricos o estadísticos",
+        "No existe diferencia alguna entre ambos enfoques"
+      ],
+      "correcta": 0,
+      "explicacion": "El estudio de métodos y procesos (análisis cualitativo) examina la secuencia lógica y funcional del trabajo para eliminar pasos inútiles; la medición del trabajo (estudio cuantitativo) estima duraciones, cargas y dotaciones necesarias de personal.",
+      "referencia": "Organización y métodos: análisis del trabajo administrativo"
+    },
+    {
+      "pregunta": "Dentro de las técnicas cualitativas para el estudio del trabajo administrativo, ¿qué representa gráficamente un «cursograma analítico» (o diagrama de recorrido/proceso administrativo)?",
+      "opciones": [
+        "Exclusivamente la retribución bruta de cada puesto en la RPT",
+        "La secuencia detallada de todas las operaciones, transportes/traslados, inspecciones/controles, demoras o esperas y archivos que sigue un documento o expediente mediante símbolos normalizados",
+        "Únicamente las relaciones jurídicas entre el Gobierno y el Parlamento",
+        "Un presupuesto anual de gastos por capítulos económicos"
+      ],
+      "correcta": 1,
+      "explicacion": "El cursograma o flujograma de procesos emplea simbología normalizada (operación, transporte, inspección, espera y archivo) para detectar cuellos de botella, duplicidades y tiempos muertos en un trámite.",
+      "referencia": "Técnicas cualitativas de análisis del trabajo"
+    },
+    {
+      "pregunta": "Entre los métodos estimativos para el estudio cuantitativo del trabajo administrativo, ¿en qué consiste la técnica del «muestreo del trabajo» (work sampling o método de observaciones instantáneas)?",
+      "opciones": [
+        "En medir con cronómetro centesimal cada segundo de un puesto durante un año completo",
+        "En sustituir el trabajo administrativo por cuestionarios de opinión ciudadana",
+        "En realizar un gran número de observaciones instantáneas aleatorias sobre un grupo de puestos de trabajo para inferir estadísticamente el porcentaje de tiempo dedicado a cada actividad o inactividad",
+        "En promediar únicamente las horas extraordinarias anuales"
+      ],
+      "correcta": 2,
+      "explicacion": "El muestreo del trabajo se basa en la inferencia estadística mediante observaciones aleatorias puntuales, resultando mucho menos intrusivo y más idóneo para tareas administrativas variadas que el cronometraje continuo industrial.",
+      "referencia": "Métodos cuantitativos de medición del trabajo"
+    },
+    {
+      "pregunta": "En la organización administrativa, la representación gráfica estática de la estructura orgánica formal, los niveles jerárquicos y las relaciones de dependencia y coordinación de un organismo se denomina:",
+      "opciones": [
+        "Diagrama de Gantt",
+        "Curva de Pareto",
+        "Histograma salarial",
+        "Organigrama"
+      ],
+      "correcta": 3,
+      "explicacion": "El organigrama plasma visualmente las unidades orgánicas, niveles jerárquicos y líneas de autoridad o staff de una organización administrativa.",
+      "referencia": "Estructuras administrativas y técnicas cualitativas"
+    },
+    {
+      "pregunta": "¿Para qué se utiliza el denominado «Diagrama de Pareto» (regla 80/20) en la gestión de la calidad y mejora de procesos administrativos?",
+      "opciones": [
+        "Para identificar y priorizar aquel pequeño porcentaje de causas vitales (aprox. 20 %) que explican la gran mayoría (aprox. 80 %) de los retrasos, defectos o quejas",
+        "Para calcular las nóminas mensuales de funcionarios interinos",
+        "Para sortear las mesas de contratación administrativa",
+        "Para distribuir escaños parlamentarios según votos obtenidos"
+      ],
+      "correcta": 0,
+      "explicacion": "El Diagrama de Pareto, junto con el diagrama causa-efecto de Ishikawa (espina de pescado), es una de las siete herramientas básicas de la calidad orientada a priorizar los problemas críticos.",
+      "referencia": "Herramientas básicas de gestión de la calidad"
+    },
+    {
+      "pregunta": "En las técnicas de calidad de procesos, el «ciclo PDCA» o círculo de Deming consiste en encadenar de forma continua las cuatro fases:",
+      "opciones": [
+        "Prohibir, Denegar, Cobrar y Archivar",
+        "Planificar (Plan), Hacer (Do), Verificar (Check) y Actuar/Ajustar (Act)",
+        "Presupuestar, Disponer, Ordenar y Pagar",
+        "Publicar, Derogar, Consultar y Auditar"
+      ],
+      "correcta": 1,
+      "explicacion": "El ciclo PDCA de mejora continua (Plan-Do-Check-Act) sustenta tanto la norma ISO 9001 como los planes de mejora vinculados al modelo CAF y EFQM.",
+      "referencia": "Mejora continua de la calidad (Ciclo PDCA)"
+    },
+    {
+      "pregunta": "En Andalucía, ¿qué decreto vigente constituye el marco normativo transversal de simplificación de procedimientos administrativos, reducción de cargas, administración electrónica y racionalización organizativa?",
+      "opciones": [
+        "El Decreto 50/2025",
+        "El Decreto 155/2018",
+        "El Decreto 622/2019, de 27 de diciembre",
+        "El Decreto 149/2006"
+      ],
+      "correcta": 2,
+      "explicacion": "El Decreto 622/2019 regula la administración electrónica, la simplificación de procedimientos, el catálogo de procedimientos, la normalización de formularios y la racionalización organizativa de la Administración de la Junta de Andalucía.",
+      "referencia": "Decreto 622/2019 (Andalucía)"
+    },
+    {
+      "pregunta": "¿Qué principio clave de simplificación documental establece el artículo 28.2 y 28.3 de la Ley 39/2015 (LPAC) junto al Decreto 622/2019 de Andalucía respecto a los documentos que el ciudadano ya aportó o que obran en poder de la Administración?",
+      "opciones": [
+        "La obligación del ciudadano de presentar tres copias compulsadas en papel en cada trámite",
+        "La facultad de archivar el expediente si el ciudadano no aporta copias notariales del DNI",
+        "La prohibición de usar plataformas de intermediación de datos",
+        "El derecho de las personas interesadas a no aportar documentos que hayan sido elaborados por cualquier Administración o ya hayan sido aportados anteriormente, debiendo recabarlos electrónicamente la Administración actuante salvo oposición expresa"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 28 LPAC consagra la prohibición de exigir documentos ya elaborados por las Administraciones o aportados previamente, impulsando la consulta automática vía plataformas de interoperabilidad (SCSP / Nodo de Interoperabilidad de Andalucía).",
+      "referencia": "Art. 28.2–3 LPAC y Decreto 622/2019"
+    },
+    {
+      "pregunta": "En la Administración de la Junta de Andalucía, ¿qué técnicas de simplificación de cargas administrativas promueve expresamente el Decreto 622/2019 y la normativa de mejora regulatoria?",
+      "opciones": [
+        "Sustitución de autorizaciones previas por declaraciones responsables o comunicaciones cuando proceda, reducción de plazos, automatización de actuaciones administrativas, uso obligatorio de formularios normalizados e interoperabilidad de datos",
+        "Incremento del número de firmas manuscritas sucesivas hasta un mínimo de diez por resolución",
+        "Obligatoriedad de presentar todo escrito de forma presencial en papel sellado",
+        "Prohibición de la actuación administrativa automatizada mediante sello de órgano"
+      ],
+      "correcta": 0,
+      "explicacion": "Las estrategias de simplificación en Andalucía combinan reducción normativa de cargas, declaraciones responsables, normalización de formularios, interoperabilidad para no pedir datos ya poseídos y automatización de trámites reglados.",
+      "referencia": "Decreto 622/2019 (Andalucía)"
+    },
+    {
+      "pregunta": "De acuerdo con la normativa organizativa de la Junta de Andalucía, ¿qué órgano especializado desempeña las funciones superiores de vigilancia del funcionamiento de los servicios, evaluación organizativa, calidad y control del cumplimiento de procedimientos administrativos?",
+      "opciones": [
+        "El Consejo de Gobierno en Pleno mediante sesiones semanales",
+        "La Inspección General de Servicios de la Junta de Andalucía (junto con las unidades administrativas especializadas en organización, simplificación y calidad de los servicios de la Consejería competente en Administración Pública)",
+        "La Oficina del Defensor del Pueblo Español en Madrid",
+        "La Junta Electoral Central"
+      ],
+      "correcta": 1,
+      "explicacion": "La Inspección General de Servicios (Decreto 601/2019 / normativa orgánica de la Consejería de Justicia, Administración Local y Función Pública) y la Dirección General competente en organización, calidad y simplificación lideran la racionalización, evaluación y calidad en la Junta.",
+      "referencia": "Órganos especializados de simplificación y calidad en Andalucía"
+    },
+    {
+      "pregunta": "Según el artículo 5 de la Ley 9/2007 (LAJA), ¿qué principio de atención ciudadana rige en la Administración de la Junta de Andalucía respecto a la relación con las personas?",
+      "opciones": [
+        "El principio de opacidad procedimental salvo orden judicial",
+        "El principio de prelación jerárquica interna sobre los derechos ciudadanos",
+        "El principio de proximidad a la ciudadanía, buena administración, transparencia, eficacia y simplificación de cargas administrativas",
+        "El principio de exclusividad presencial sin sede electrónica"
+      ],
+      "correcta": 2,
+      "explicacion": "Los artículos 3, 5 y 6 de la LAJA y el art. 31 EA consagran el derecho a la buena administración, proximidad, transparencia, eficacia, economía y orientación servicial hacia la ciudadanía.",
+      "referencia": "Arts. 3, 5 y 6 LAJA y art. 31 EA Andalucía"
+    },
+    {
+      "pregunta": "En la Ley 40/2015 (LRJSP), ¿qué principio obliga a que los organismos públicos y entidades del sector público institucional sean evaluados continuamente sobre el cumplimiento de los objetivos que justificaron su creación y su sostenibilidad financiera?",
+      "opciones": [
+        "El principio de inderogabilidad singular",
+        "El principio de irretroactividad sancionadora",
+        "El principio de libertad de empresa",
+        "El sistema de supervisión continua y control de eficacia (artículo 85 LRJSP)"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 85 LRJSP obliga a todas las entidades integrantes del sector público institucional a someterse a un control de eficacia (ejercido por el departamento de adscripción) y a supervisión continua (sobre subsistencia de fines y sostenibilidad financiera).",
+      "referencia": "Art. 85 LRJSP"
+    },
+    {
+      "pregunta": "¿Qué ventaja práctica aporta la «desconcentración funcional» y la «gestión por objetivos» en las Administraciones Públicas modernas?",
+      "opciones": [
+        "Responsabilizar a cada unidad directiva de resultados medibles mediante indicadores de gestión (KPI), acercando la decisión operativa al ciudadano y superando la mera gestión burocrática centrada solo en el gasto y el trámite formal",
+        "Eliminar la sujeción de los órganos administrativos al principio de legalidad",
+        "Sustituir todos los concursos públicos por contratación verbal",
+        "Impedir cualquier tipo de fiscalización por la Intervención General"
+      ],
+      "correcta": 0,
+      "explicacion": "La dirección por objetivos y resultados permite evaluar el valor público efectivamente generado con los créditos presupuestarios mediante indicadores de eficacia, eficiencia y calidad percibida.",
+      "referencia": "Dirección pública y gestión por objetivos"
+    },
+    {
+      "pregunta": "Dentro de los conceptos básicos de calidad de los servicios, ¿qué diferencia conceptual existe entre «eficacia» y «eficiencia» en la actuación administrativa?",
+      "opciones": [
+        "Ambos términos significan exactamente lo mismo: gastar todo el crédito disponible",
+        "La eficacia mide el grado de consecución de los objetivos previstos, mientras que la eficiencia relaciona los resultados alcanzados con los recursos (económicos, humanos y de tiempo) empleados para lograrlos",
+        "La eficiencia es un principio constitucional del art. 103.1 CE y la eficacia no figura en la Constitución",
+        "La eficacia solo aplica al sector privado y la eficiencia solo al ejército"
+      ],
+      "correcta": 1,
+      "explicacion": "La eficacia atiende al logro del resultado u objetivo (art. 103.1 CE); la eficiencia exige alcanzar esos objetivos optimizando y asignando racionalmente los recursos públicos (art. 31.2 CE y art. 3.1.j LRJSP).",
+      "referencia": "Arts. 31.2 y 103.1 CE y art. 3.1 LRJSP"
+    },
+    {
+      "pregunta": "Cuando una unidad administrativa analiza un procedimiento mediante la técnica de «eliminación, combinación, reordenación y simplificación» (ECRS) durante la reingeniería de procesos, ¿cuál es su objetivo inmediato?",
+      "opciones": [
+        "Incrementar el número de informes duplicados para aumentar el archivo histórico",
+        "Alargar artificialmente los plazos máximos de resolución",
+        "Suprimir trámites o firmas que no añaden valor ni seguridad jurídica, fusionar fases redundantes y optimizar la secuencia de trabajo para reducir tiempos de respuesta",
+        "Trasladar todas las cargas de comprobación al solicitante en papel"
+      ],
+      "correcta": 2,
+      "explicacion": "La técnica clásica de simplificación ECRS (Eliminar pasos innecesarios, Combinar operaciones compatibles, Reordenar la secuencia y Simplificar las tareas restantes) es clave en el análisis cualitativo de procedimientos.",
+      "referencia": "Simplificación y análisis de procesos administrativos"
+    },
+    {
+      "pregunta": "¿Qué tipo de estructura administrativa descrita por Mintzberg predomina en hospitales públicos, universidades o centros de investigación integrados en el sector público?",
+      "opciones": [
+        "Estructura simple autocrática",
+        "Burocracia maquinal estricta basada en trabajo no cualificado",
+        "Sociedad anónima unipersonal",
+        "Burocracia profesional, en la que el núcleo de operaciones está integrado por especialistas altamente cualificados con notable autonomía técnica"
+      ],
+      "correcta": 3,
+      "explicacion": "La burocracia profesional descansa en la normalización de habilidades de profesionales cualificados (médicos, profesores, juristas o investigadores) que integran el núcleo de operaciones con amplia discrecionalidad técnica.",
+      "referencia": "Estructuras organizativas (Mintzberg)"
+    },
+    {
+      "pregunta": "En el ámbito de la Administración de la Junta de Andalucía, ¿qué agencia instrumental especializada lidera desde su creación la transformación digital, modernización tecnológica, ciberseguridad y provisión de sistemas de administración electrónica?",
+      "opciones": [
+        "La Agencia Digital de Andalucía (ADA)",
+        "El Instituto Andaluz del Patrimonio Histórico (IAPH)",
+        "La Agencia Tributaria de Andalucía (ATRIAN)",
+        "El Consejo Audiovisual de Andalucía"
+      ],
+      "correcta": 0,
+      "explicacion": "La Agencia Digital de Andalucía (creada por Decreto 128/2021) centraliza la estrategia digital, infraestructuras TIC, automatización, portales ciudadanos y ciberseguridad corporativa de la Junta de Andalucía.",
+      "referencia": "Modernización y situación en Andalucía"
+    },
+    {
+      "pregunta": "En el marco de la evaluación de políticas públicas, ¿qué mide específicamente una «evaluación de impacto» frente a una mera «evaluación de procesos o de gestión»?",
+      "opciones": [
+        "Únicamente cuántos folios se imprimieron durante la campaña",
+        "Los cambios netos reales producidos en la población destinataria o en el problema social atribuibles a la política pública (descontando factores externos mediante grupos de control o técnicas contrafactuales)",
+        "Solo el grado de cumplimiento formal de la Ley de Contratos del Sector Público",
+        "El horario de apertura de las oficinas de registro"
+      ],
+      "correcta": 1,
+      "explicacion": "Mientras la evaluación de procesos analiza cómo se ejecutó el programa y la de productos (outputs) contabiliza actividades realizadas, la evaluación de impacto (outcomes) determina el cambio causal neto producido en la realidad social.",
+      "referencia": "Evaluación de Políticas Públicas"
+    },
+    {
+      "pregunta": "Respecto a la duración y vigencia de las Cartas de Servicios aprobadas conforme al Decreto 317/2003 de Andalucía, ¿qué obligación de actualización recae sobre los órganos y entidades titulares?",
+      "opciones": [
+        "Una vez aprobadas no pueden revisarse nunca ni adaptarse a nuevos servicios",
+        "Deben volver a aprobarse por el Parlamento cada mes",
+        "Deben mantenerse permanentemente actualizadas y revisarse periódicamente (informando de los cambios normativos, mejoras en compromisos e indicadores anuales de seguimiento a la ciudadanía)",
+        "Caducan automáticamente a los 30 días de su publicación en el BOJA"
+      ],
+      "correcta": 2,
+      "explicacion": "El Decreto 317/2003 exige actualización periódica permanente (por ejemplo ante reformas orgánicas o mejora de estándares) y evaluación anual continua de sus indicadores para evitar Cartas obsoletas.",
+      "referencia": "Arts. 11 y 12 Decreto 317/2003"
+    },
+    {
+      "pregunta": "Para calcular las necesidades cuantitativas de plantilla de una unidad administrativa utilizando un estudio de cargas de trabajo, ¿qué elemento temporal hay que añadir al «tiempo normal» de ejecución de cada tarea administrativa para obtener el «tiempo tipo o estándar»?",
+      "opciones": [
+        "Se multiplica por el número de Consejerías del Gobierno",
+        "Se restan las horas de formación obligatoria",
+        "Se divide entre el salario mínimo interprofesional",
+        "Los suplementos por necesidades personales, fatiga e imprevistos u holguras operativas"
+      ],
+      "correcta": 3,
+      "explicacion": "En la técnica cuantitativa de medición del trabajo, el Tiempo Básico o Normal (tiempo observado x factor de ritmo) se incrementa con los suplementos (descanso, necesidades personales y contingencias) para fijar el Tiempo Estándar real.",
+      "referencia": "Métodos cuantitativos de estudio del trabajo"
+    }
+  ]
+}

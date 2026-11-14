@@ -1,0 +1,548 @@
+{
+  "id": "c04",
+  "resumen": [
+    {
+      "titulo": "Regulación constitucional",
+      "puntos": [
+        "Municipios y provincias tienen autonomía garantizada por la Constitución (arts. 137, 140 y 141 CE).",
+        "La alteración de los límites provinciales requiere ley orgánica de las Cortes Generales (art. 141.1 CE).",
+        "El Estado fija las bases del régimen jurídico de las Administraciones públicas (art. 149.1.18.ª CE). La LBRL (Ley 7/1985) es el marco básico."
+      ]
+    },
+    {
+      "titulo": "Tipología de entes locales",
+      "puntos": [
+        "Administraciones territoriales locales: municipios, provincias e islas (art. 4 LBRL).",
+        "La comarca es una agrupación voluntaria de municipios limítrofes, creada por ley del Parlamento andaluz (art. 97 del Estatuto)."
+      ]
+    },
+    {
+      "titulo": "El municipio",
+      "puntos": [
+        "Elementos del municipio: territorio, población y organización (art. 11.2 LBRL). Cada municipio pertenece a una sola provincia (art. 12.2).",
+        "Órganos: alcalde, tenientes de alcalde y pleno en todos los ayuntamientos; junta de gobierno local en los de mayor población (art. 20 LBRL).",
+        "Servicios obligatorios en todos los municipios: alumbrado público, cementerio, recogida de residuos, limpieza viaria, abastecimiento de agua y alcantarillado (art. 26 LBRL)."
+      ]
+    },
+    {
+      "titulo": "La provincia y las Diputaciones",
+      "puntos": [
+        "Fines propios de la provincia (art. 31.2 LBRL). Presidente, Vicepresidentes, Junta de Gobierno y Pleno en todas las Diputaciones (art. 32 LBRL).",
+        "En Andalucía, el gobierno y la administración autónoma de la provincia corresponden a la Diputación (art. 96.2 del Estatuto)."
+      ]
+    },
+    {
+      "titulo": "Andalucía: competencias y relaciones",
+      "puntos": [
+        "Núcleo competencial propio de los municipios, con urbanismo y vivienda (art. 92 del Estatuto).",
+        "Transferencia y delegación de competencias por ley aprobada por mayoría absoluta (art. 93).",
+        "Órgano mixto Junta-Ayuntamientos (art. 95) y ley de régimen local que regule las relaciones (art. 98)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CE",
+      "rol": "Fundamento constitucional: arts. 137, 140, 141 y 149.1.18.ª"
+    },
+    {
+      "id": "LBRL",
+      "rol": "Norma principal del tema: bases del régimen local"
+    },
+    {
+      "id": "EA-ANDALUCIA",
+      "rol": "Complementaria: organización territorial de Andalucía (arts. 90 a 98)"
+    },
+    {
+      "id": "RD-2568-1986",
+      "rol": "Reglamento de Organización, Funcionamiento y Régimen Jurídico de las Entidades Locales (ROF)"
+    },
+    {
+      "id": "LRHL-2-2004",
+      "rol": "Recursos de las haciendas locales, tributos municipales obligatorios y potestativos y régimen presupuestario de las entidades locales",
+      "articulos": "arts. 1 a 223"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Qué precepto de la Constitución garantiza la autonomía de los municipios?",
+      "opciones": [
+        "Art. 137",
+        "Art. 140",
+        "Art. 141",
+        "Art. 148"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 140 CE garantiza la autonomía de los municipios, que tienen personalidad jurídica plena y cuyo gobierno corresponde a sus Ayuntamientos.",
+      "referencia": "Art. 140 CE"
+    },
+    {
+      "pregunta": "¿Qué se requiere para alterar los límites provinciales?",
+      "opciones": [
+        "Mayoría simple del Senado",
+        "Ley orgánica de las Cortes Generales",
+        "Decreto del Gobierno",
+        "Ley ordinaria autonómica"
+      ],
+      "correcta": 1,
+      "explicacion": "Cualquier alteración de los límites provinciales debe aprobarse mediante ley orgánica de las Cortes Generales.",
+      "referencia": "Art. 141.1 CE"
+    },
+    {
+      "pregunta": "¿Cuántos elementos integran el municipio según el art. 11.2 LBRL?",
+      "opciones": [
+        "Dos",
+        "Cuatro",
+        "Tres: territorio, población y organización",
+        "Cinco"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 11.2 LBRL enumera como elementos del municipio el territorio, la población y la organización.",
+      "referencia": "Art. 11.2 LBRL"
+    },
+    {
+      "pregunta": "¿A cuántas provincias puede pertenecer un municipio?",
+      "opciones": [
+        "A varias provincias",
+        "A la comunidad autónoma",
+        "A ninguna",
+        "A una sola provincia"
+      ],
+      "correcta": 3,
+      "explicacion": "Cada municipio pertenece a una sola provincia (art. 12.2 LBRL).",
+      "referencia": "Art. 12.2 LBRL"
+    },
+    {
+      "pregunta": "¿Quién ostenta la presidencia de la corporación municipal?",
+      "opciones": [
+        "El Alcalde",
+        "El Pleno",
+        "La Junta de Gobierno",
+        "El Secretario"
+      ],
+      "correcta": 0,
+      "explicacion": "El alcalde es el presidente de la corporación y tiene las atribuciones del art. 21.1 LBRL.",
+      "referencia": "Art. 21.1 LBRL"
+    },
+    {
+      "pregunta": "¿Qué órganos existen en todos los ayuntamientos?",
+      "opciones": [
+        "Alcalde, tenientes de alcalde y pleno",
+        "Junta de gobierno y comisiones",
+        "Solo el alcalde",
+        "Pleno y secretario"
+      ],
+      "correcta": 0,
+      "explicacion": "El alcalde, los tenientes de alcalde y el pleno existen en todos los ayuntamientos. La junta de gobierno local existe en los municipios de población superior a la que fija la ley.",
+      "referencia": "Art. 20.1.a) LBRL"
+    },
+    {
+      "pregunta": "¿Cuál de estos servicios es obligatorio en todos los municipios?",
+      "opciones": [
+        "Transporte urbano",
+        "Teatro municipal",
+        "Alumbrado público",
+        "Mercados"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 26.1.a) LBRL impone a todos los municipios el alumbrado público, el cementerio, la recogida de residuos, la limpieza viaria y el abastecimiento de agua, entre otros servicios.",
+      "referencia": "Art. 26.1.a) LBRL"
+    },
+    {
+      "pregunta": "¿Qué se exige para transferir competencias a los ayuntamientos andaluces?",
+      "opciones": [
+        "Decreto del Consejo de Gobierno",
+        "Acuerdo del Pleno",
+        "Convenio con el Estado",
+        "Ley aprobada por mayoría absoluta"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 93 del Estatuto regula la transferencia y delegación de competencias en los ayuntamientos por ley aprobada por mayoría absoluta, con suficiencia financiera.",
+      "referencia": "Art. 93 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué entidad local tiene carácter voluntario y se crea por ley autonómica?",
+      "opciones": [
+        "El municipio",
+        "La provincia",
+        "La comarca",
+        "La isla"
+      ],
+      "correcta": 2,
+      "explicacion": "La comarca es la agrupación voluntaria de municipios limítrofes, cuya creación regula el Parlamento de Andalucía por ley (art. 97 del Estatuto).",
+      "referencia": "Art. 97 Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Qué competencia propia de los municipios andaluces incluye el urbanismo?",
+      "opciones": [
+        "Ordenación, gestión, ejecución y disciplina urbanística",
+        "Solo la licencia de obras menores",
+        "Ninguna, es estatal",
+        "Solo la limpieza viaria"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 92.2.a) del Estatuto atribuye a los ayuntamientos la ordenación, gestión, ejecución y disciplina urbanística, en los términos que determinen las leyes.",
+      "referencia": "Art. 92.2.a) Estatuto de Andalucía"
+    },
+    {
+      "pregunta": "¿Quién fija las bases del régimen jurídico de las Administraciones públicas?",
+      "opciones": [
+        "Las Comunidades Autónomas",
+        "El Estado",
+        "Los municipios",
+        "La Unión Europea"
+      ],
+      "correcta": 1,
+      "explicacion": "El Estado tiene competencia exclusiva para fijar las bases del régimen jurídico de las Administraciones públicas.",
+      "referencia": "Art. 149.1.18.ª CE"
+    },
+    {
+      "pregunta": "¿Qué norma es el marco básico del régimen local en España?",
+      "opciones": [
+        "La Ley 7/1985, Reguladora de las Bases del Régimen Local",
+        "La Ley 39/2015",
+        "La Ley 40/2015",
+        "El Real Decreto 2568/1986"
+      ],
+      "correcta": 0,
+      "explicacion": "La Ley 7/1985 (LBRL) es el marco básico del régimen local.",
+      "referencia": "LBRL, Ley 7/1985"
+    },
+    {
+      "pregunta": "¿Qué mayoría es necesaria para alterar los límites provinciales?",
+      "opciones": [
+        "Ley ordinaria",
+        "Ley orgánica de las Cortes Generales",
+        "Real decreto",
+        "Acuerdo del Consejo de Ministros"
+      ],
+      "correcta": 1,
+      "explicacion": "La alteración de los límites provinciales requiere ley orgánica de las Cortes Generales.",
+      "referencia": "Art. 141.1 CE"
+    },
+    {
+      "pregunta": "¿Cuáles son las Administraciones territoriales locales según la LBRL?",
+      "opciones": [
+        "Municipios, comarcas y mancomunidades",
+        "Provincias y regiones",
+        "Municipios y Comunidades Autónomas",
+        "Municipios, provincias e islas"
+      ],
+      "correcta": 3,
+      "explicacion": "Las Administraciones territoriales locales son los municipios, las provincias y las islas.",
+      "referencia": "Art. 3 LBRL"
+    },
+    {
+      "pregunta": "¿Qué elementos integran el municipio?",
+      "opciones": [
+        "Territorio, población y organización",
+        "Territorio, Gobierno y Parlamento",
+        "Población, leyes y tribunales",
+        "Territorio y presupuesto"
+      ],
+      "correcta": 0,
+      "explicacion": "Los elementos del municipio son el territorio, la población y la organización.",
+      "referencia": "Art. 11.2 LBRL"
+    },
+    {
+      "pregunta": "¿En qué ayuntamientos existe junta de gobierno local?",
+      "opciones": [
+        "En todos",
+        "Solo en los de mayor población",
+        "Solo en las capitales de provincia",
+        "En ninguno"
+      ],
+      "correcta": 1,
+      "explicacion": "La junta de gobierno local existe en los ayuntamientos de mayor población.",
+      "referencia": "Art. 20 LBRL"
+    },
+    {
+      "pregunta": "¿Quién elige al alcalde según el art. 140 CE?",
+      "opciones": [
+        "Los ciudadanos directamente en todo caso",
+        "El Gobierno de la Nación",
+        "Los concejales, o los vecinos en los casos que establezca la ley",
+        "El Presidente de la Diputación"
+      ],
+      "correcta": 2,
+      "explicacion": "El alcalde es elegido por los concejales o por los vecinos, en los casos que establezca la ley.",
+      "referencia": "Art. 140 CE"
+    },
+    {
+      "pregunta": "¿Qué servicio obligatorio en todos los municipios se refiere a los residuos?",
+      "opciones": [
+        "Transporte escolar",
+        "Vivienda pública",
+        "Teatro municipal",
+        "Recogida de residuos"
+      ],
+      "correcta": 3,
+      "explicacion": "La recogida de residuos es un servicio obligatorio en todos los municipios.",
+      "referencia": "Art. 26 LBRL"
+    },
+    {
+      "pregunta": "¿Qué órgano gobierna la provincia?",
+      "opciones": [
+        "La Diputación",
+        "El Ayuntamiento",
+        "El Parlamento autonómico",
+        "La Subdelegación del Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "La Diputación gobierna y administra la provincia.",
+      "referencia": "Art. 141.2 CE; art. 31 LBRL"
+    },
+    {
+      "pregunta": "¿Qué órganos tienen todas las Diputaciones?",
+      "opciones": [
+        "Alcalde, pleno y concejales",
+        "Presidente, Vicepresidentes, Junta de Gobierno y Pleno",
+        "Gobernador y Consejo de Estado",
+        "Director general y comité"
+      ],
+      "correcta": 1,
+      "explicacion": "Todas las Diputaciones tienen Presidente, Vicepresidentes, Junta de Gobierno y Pleno.",
+      "referencia": "Art. 32 LBRL"
+    },
+    {
+      "pregunta": "¿Qué es una comarca en Andalucía?",
+      "opciones": [
+        "Una provincia",
+        "Un municipio grande",
+        "Una agrupación voluntaria de municipios limítrofes",
+        "Una mancomunidad obligatoria"
+      ],
+      "correcta": 2,
+      "explicacion": "La comarca es una agrupación voluntaria de municipios limítrofes.",
+      "referencia": "Art. 97 EA Andalucía"
+    },
+    {
+      "pregunta": "¿Quién crea una comarca en Andalucía?",
+      "opciones": [
+        "El Gobierno de la Nación",
+        "Un acuerdo de la Diputación",
+        "Un decreto de la Junta",
+        "Una ley del Parlamento andaluz"
+      ],
+      "correcta": 3,
+      "explicacion": "La comarca se crea por ley del Parlamento andaluz.",
+      "referencia": "Art. 97 EA Andalucía"
+    },
+    {
+      "pregunta": "¿Qué competencias propias de los municipios andaluces se mencionan en el Estatuto?",
+      "opciones": [
+        "Urbanismo y vivienda",
+        "Solo el tráfico",
+        "La justicia",
+        "La defensa"
+      ],
+      "correcta": 0,
+      "explicacion": "El núcleo competencial propio de los municipios andaluces incluye urbanismo y vivienda.",
+      "referencia": "Art. 92 EA Andalucía"
+    },
+    {
+      "pregunta": "¿Qué mayoría se exige para transferir o delegar competencias en Andalucía?",
+      "opciones": [
+        "Mayoría simple del Parlamento",
+        "Mayoría absoluta del Parlamento",
+        "Dos tercios del Parlamento",
+        "Unanimidad"
+      ],
+      "correcta": 1,
+      "explicacion": "La transferencia o delegación de competencias se hace por ley aprobada por mayoría absoluta.",
+      "referencia": "Art. 93 EA Andalucía"
+    },
+    {
+      "pregunta": "¿Qué órgano mixto está previsto entre la Junta y los ayuntamientos?",
+      "opciones": [
+        "Un Senado local",
+        "Una Cámara de Cuentas",
+        "Un Consejo Mixto Junta-Ayuntamientos",
+        "Un Tribunal de Conflictos"
+      ],
+      "correcta": 2,
+      "explicacion": "El Estatuto prevé un órgano mixto Junta-Ayuntamientos.",
+      "referencia": "Art. 95 EA Andalucía"
+    },
+    {
+      "pregunta": "¿Qué norma debe regular las relaciones entre la Junta y los ayuntamientos andaluces?",
+      "opciones": [
+        "Un decreto del Consejo de Gobierno",
+        "Un convenio colectivo",
+        "Una orden de la Consejería",
+        "Una ley de régimen local"
+      ],
+      "correcta": 3,
+      "explicacion": "El Estatuto prevé una ley de régimen local que regule esas relaciones.",
+      "referencia": "Art. 98 EA Andalucía"
+    },
+    {
+      "pregunta": "¿Qué garantiza la Constitución a municipios y provincias?",
+      "opciones": [
+        "La autonomía",
+        "La independencia judicial",
+        "La soberanía nacional",
+        "La inviolabilidad"
+      ],
+      "correcta": 0,
+      "explicacion": "La Constitución garantiza la autonomía de municipios y provincias.",
+      "referencia": "Arts. 137, 140 y 141 CE"
+    },
+    {
+      "pregunta": "¿Qué tipo de entidad son las islas dentro de la organización local?",
+      "opciones": [
+        "Una provincia",
+        "Una Administración territorial local",
+        "Un municipio",
+        "Una comarca"
+      ],
+      "correcta": 1,
+      "explicacion": "Las islas son Administraciones territoriales locales, junto a municipios y provincias.",
+      "referencia": "Art. 3 LBRL"
+    },
+    {
+      "pregunta": "¿Qué fines tiene la provincia según la LBRL?",
+      "opciones": [
+        "Solo fines electorales",
+        "Solo fines judiciales",
+        "Fines propios de la provincia",
+        "Fines de defensa nacional"
+      ],
+      "correcta": 2,
+      "explicacion": "La provincia tiene fines propios, como la coordinación municipal y la asistencia a los municipios.",
+      "referencia": "Art. 31 LBRL"
+    },
+    {
+      "pregunta": "¿Qué órgano local ejerce la representación del municipio?",
+      "opciones": [
+        "El Presidente de la Diputación",
+        "El Delegado del Gobierno",
+        "El Presidente de la Junta",
+        "El alcalde"
+      ],
+      "correcta": 3,
+      "explicacion": "El alcalde ejerce la representación del municipio.",
+      "referencia": "Art. 21 LBRL"
+    },
+    {
+      "pregunta": "¿Qué instrumento garantiza la autonomía municipal frente al Estado y las Comunidades Autónomas?",
+      "opciones": [
+        "Una ley orgánica del Estado",
+        "Un decreto-ley",
+        "La Constitución, que reconoce la autonomía de los municipios",
+        "Un convenio internacional"
+      ],
+      "correcta": 2,
+      "explicacion": "La autonomía de los municipios está reconocida en la Constitución.",
+      "referencia": "Art. 140 CE"
+    },
+    {
+      "pregunta": "¿Qué recibe el nombre de núcleo competencial de los municipios andaluces?",
+      "opciones": [
+        "Un conjunto de competencias propias en urbanismo y vivienda",
+        "Las competencias de la defensa",
+        "Las competencias de justicia",
+        "Un cuerpo de funcionarios"
+      ],
+      "correcta": 0,
+      "explicacion": "El núcleo competencial propio incluye urbanismo y vivienda.",
+      "referencia": "Art. 92 EA Andalucía"
+    },
+    {
+      "pregunta": "¿Qué norma regula el régimen de la comarca en Andalucía?",
+      "opciones": [
+        "Un decreto del Gobierno de la Nación",
+        "La ley del Parlamento andaluz que la crea",
+        "La Constitución",
+        "Un reglamento municipal"
+      ],
+      "correcta": 1,
+      "explicacion": "La comarca se regula por la ley del Parlamento andaluz que la crea.",
+      "referencia": "Art. 97 EA Andalucía"
+    },
+    {
+      "pregunta": "¿Qué forma de agrupación territorial prevé el Estatuto para la coordinación de municipios andaluces?",
+      "opciones": [
+        "La provincia",
+        "La Comunidad Autónoma",
+        "La comarca",
+        "La isla"
+      ],
+      "correcta": 2,
+      "explicacion": "El Estatuto prevé la comarca como agrupación voluntaria de municipios.",
+      "referencia": "Art. 97 EA Andalucía"
+    },
+    {
+      "pregunta": "¿Qué entidad local es la provincia dentro del esquema constitucional?",
+      "opciones": [
+        "Una entidad sin autonomía",
+        "Un órgano del Estado",
+        "Un órgano de la Unión Europea",
+        "Una entidad con autonomía garantizada"
+      ],
+      "correcta": 3,
+      "explicacion": "La provincia es una entidad local con autonomía garantizada por la Constitución.",
+      "referencia": "Art. 141 CE"
+    },
+    {
+      "pregunta": "¿Qué garantiza el art. 140 CE a los municipios?",
+      "opciones": [
+        "La soberanía fiscal total",
+        "La supresión de las provincias",
+        "La facultad de dictar leyes orgánicas",
+        "La autonomía de los municipios"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 140 CE garantiza la autonomía de los municipios.",
+      "referencia": "CE, art. 140"
+    },
+    {
+      "pregunta": "¿Qué entidades locales enumera el art. 3 de la LBRL?",
+      "opciones": [
+        "Municipio, provincia e isla",
+        "Municipio, región y distrito",
+        "Provincia, cantón y parroquia",
+        "Comarca, barrio y mancomunidad"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 3 LBRL enumera el municipio, la provincia y la isla como entidades locales.",
+      "referencia": "Ley 7/1985 (LBRL), art. 3"
+    },
+    {
+      "pregunta": "¿Qué ley regula las bases del régimen local?",
+      "opciones": [
+        "Ley 39/2015",
+        "Ley 7/1985, de 2 de abril",
+        "Ley 5/2023",
+        "Ley 19/2013"
+      ],
+      "correcta": 1,
+      "explicacion": "La Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local, regula el régimen local.",
+      "referencia": "Ley 7/1985 (LBRL)"
+    },
+    {
+      "pregunta": "¿Qué entidad local es la provincia según el art. 141 CE?",
+      "opciones": [
+        "Una comunidad de vecinos",
+        "Una mancomunidad sin personalidad",
+        "Entidad local con personalidad jurídica propia, determinada por la agrupación de municipios",
+        "Un distrito electoral"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 141 CE define la provincia como entidad local con personalidad jurídica propia, determinada por la agrupación de municipios.",
+      "referencia": "CE, art. 141"
+    },
+    {
+      "pregunta": "¿Qué órgano de gobierno y administración de la provincia existe?",
+      "opciones": [
+        "El Ayuntamiento provincial",
+        "La Junta de distrito",
+        "El Pleno de la comarca",
+        "La Diputación provincial"
+      ],
+      "correcta": 3,
+      "explicacion": "La Diputación provincial es el órgano de gobierno y administración de la provincia.",
+      "referencia": "Ley 7/1985 (LBRL)"
+    }
+  ]
+}

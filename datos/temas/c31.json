@@ -1,0 +1,541 @@
+{
+  "id": "c31",
+  "resumen": [
+    {
+      "titulo": "Concepto y dimensiones de la innovación pública",
+      "puntos": [
+        "La innovación pública consiste en la creación, implementación y difusión de nuevas ideas, procesos, servicios o modelos organizativos en el sector público que generan valor público tangible para la ciudadanía.",
+        "Conforme al Manual de Oslo (OCDE/Eurostat) adaptado al sector público y a la Declaración de la OCDE sobre Innovación en el Sector Público (2019), comprende cuatro tipologías: innovación de servicios/productos, innovación de procesos, innovación organizativa e innovación comunicativa o de gobernanza.",
+        "En Andalucía, el Decreto 622/2019 (arts. 4 a 12) vincula la innovación administrativa con la simplificación procedimental, la administración electrónica, la gestión por procesos y la reducción de cargas administrativas.",
+        "Modalidades emergentes: Compra Pública de Innovación (CPI, regulada en el art. 118 LCSP y el procedimiento de asociación para la innovación del art. 177 de la Ley 9/2017, LCSP), laboratorios de gobierno (GovLabs), ciencia ciudadana e innovación abierta (Open Innovation)."
+      ]
+    },
+    {
+      "titulo": "Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento",
+      "puntos": [
+        "El artículo 54 del Estatuto de Autonomía para Andalucía (LO 2/2007) atribuye a la Comunidad Autónoma competencia exclusiva en materia de centros y estructuras de investigación de la Junta y proyectos propios de I+D+i, sin perjuicio del art. 149.1.15.ª CE.",
+        "La Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (LACC), establece el marco general de ordenación de la ciencia, la tecnología, la transferencia del conocimiento y la innovación en Andalucía.",
+        "Fines de la LACC (art. 2): contribuir al desarrollo social, económico y cultural sostenible, vertebrar el Sistema Andaluz del Conocimiento y promover la igualdad de género en la actividad investigadora e innovadora.",
+        "Gobernanza institucional (Título II LACC): Comisión Interdepartamental de Investigación, Tecnología e Innovación y Consejo Asesor para la Ciencia, la Tecnología y la Innovación."
+      ]
+    },
+    {
+      "titulo": "El Sistema Andaluz del Conocimiento (SAC)",
+      "puntos": [
+        "El Sistema Andaluz del Conocimiento (Título III de la Ley 16/2007) integra el conjunto de agentes públicos y privados que desarrollan funciones de generación, transmisión, transformación y aprovechamiento del conocimiento en Andalucía.",
+        "Agentes del SAC: Universidades de Andalucía, Organismos Públicos de Investigación (OPI), Centros e Institutos de Investigación, Parques Científicos y Tecnológicos, Centros Tecnológicos y de Innovación, y empresas innovadoras.",
+        "El Registro Electrónico de Agentes del Sistema Andaluz del Conocimiento acredita y clasifica oficialmente a las entidades integradas en el sistema para el acceso a incentivos públicos de I+D+i.",
+        "La Agencia Empresarial para la Transformación y el Desarrollo Económico (TRADE) y la Agencia para la Calidad Científica y Universitaria de Andalucía (ACCUA) actúan como entes instrumentales de apoyo, evaluación y fomento de la innovación."
+      ]
+    },
+    {
+      "titulo": "La Estrategia de Innovación de Andalucía (PAIDI y S4 Andalucía)",
+      "puntos": [
+        "El Plan Andaluz de Investigación, Desarrollo e Innovación (PAIDI 2021-2027) es el instrumento principal de planificación, programación y coordinación de las políticas de I+D+i de la Junta de Andalucía (art. 9 LACC).",
+        "La Estrategia de Especialización Inteligente para la Sostenibilidad de Andalucía (S4 Andalucía 2021-2027) constituye la condición habilitante para la cofinanciación europea del programa FEDER 2021-2027.",
+        "Prioridades transversales de la S4 Andalucía: transición ecológica y descarbonización, transformación digital e inteligencia artificial, cohesión territorial e innovación social.",
+        "Instrumentos de fomento: ayudas en concurrencia competitiva a proyectos de I+D+i colaborativa, Compra Pública Precomercial (CPP), Compra Pública de Tecnología Innovadora (CPTI) y ecosistemas de emprendimiento tecnológico."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LACC-16-2007",
+      "rol": "Norma principal autonómica reguladora del Sistema Andaluz del Conocimiento, la investigación científica y la innovación en Andalucía"
+    },
+    {
+      "id": "DEC-AND-622-2019",
+      "rol": "Regulación de la innovación administrativa, simplificación de procedimientos, automatización y racionalización organizativa en la Junta de Andalucía"
+    },
+    {
+      "id": "LAJA",
+      "rol": "Principios de organización, eficacia, eficiencia, racionalización y modernización de la Administración de la Junta de Andalucía"
+    },
+    {
+      "id": "EA-ANDALUCIA",
+      "rol": "Competencias exclusivas y compartidas en investigación, desarrollo e innovación tecnológica (art. 54 EA)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "¿Qué artículo del Estatuto de Autonomía para Andalucía (LO 2/2007) regula las competencias autonómicas en materia de investigación, desarrollo e innovación tecnológica?",
+      "opciones": [
+        "El artículo 72",
+        "El artículo 63",
+        "El artículo 47",
+        "El artículo 54"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 54 del Estatuto de Autonomía para Andalucía regula las competencias exclusivas y compartidas en materia de investigación, desarrollo e innovación tecnológica.",
+      "referencia": "Art. 54 EA-ANDALUCIA"
+    },
+    {
+      "pregunta": "¿Qué ley autonómica establece el marco general para la ordenación de las actividades de ciencia, tecnología e innovación y configura el Sistema Andaluz del Conocimiento?",
+      "opciones": [
+        "La Ley 1/2014, de 24 de junio, de Transparencia Pública de Andalucía",
+        "La Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía",
+        "La Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía",
+        "La Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento"
+      ],
+      "correcta": 3,
+      "explicacion": "La Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOE-A-2008-1183), regula el Sistema Andaluz del Conocimiento y la política de I+D+i en Andalucía.",
+      "referencia": "Art. 1 LACC-16-2007"
+    },
+    {
+      "pregunta": "Según la Ley 16/2007 Andaluza de la Ciencia y el Conocimiento, ¿cuál es el instrumento básico de planificación, programación y coordinación de las actividades de I+D+i de la Junta de Andalucía?",
+      "opciones": [
+        "El Plan Vive en Andalucía",
+        "El Plan General de Contabilidad Pública",
+        "El Plan de Ordenación del Territorio de Andalucía (POTA)",
+        "El Plan Andaluz de Investigación, Desarrollo e Innovación (PAIDI)"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 29 de la Ley 16/2007 define el Plan Andaluz de Investigación, Desarrollo e Innovación (PAIDI) como el instrumento de planificación, programación y coordinación de la política de I+D+i.",
+      "referencia": "Art. 9 LACC-16-2007"
+    },
+    {
+      "pregunta": "En el ámbito de la contratación pública (Ley 9/2017, LCSP), ¿qué procedimiento de adjudicación está diseñado específicamente para el desarrollo de productos, servicios u obras innovadores y su adquisición ulterior?",
+      "opciones": [
+        "La subasta electrónica directa",
+        "El procedimiento abierto simplificado",
+        "El contrato menor de suministros",
+        "La asociación para la innovación (art. 177 LCSP)"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 177 de la LCSP regula la asociación para la innovación, destinada al desarrollo de productos, servicios u obras innovadores y la compra ulterior de los suministros, servicios u obras resultantes.",
+      "referencia": "Art. 177 LCSP"
+    },
+    {
+      "pregunta": "¿Qué decreto de la Junta de Andalucía regula la administración electrónica, la simplificación de procedimientos y la racionalización organizativa como ejes de innovación administrativa?",
+      "opciones": [
+        "El Decreto 622/2019, de 27 de diciembre",
+        "El Decreto 204/1995, de 29 de agosto",
+        "El Decreto 282/2010, de 4 de mayo",
+        "El Decreto 317/2003, de 18 de noviembre"
+      ],
+      "correcta": 0,
+      "explicacion": "El Decreto 622/2019, de 27 de diciembre, regula la administración electrónica, la simplificación de procedimientos y la racionalización organizativa de la Junta de Andalucía.",
+      "referencia": "Art. 1 DEC-AND-622-2019"
+    },
+    {
+      "pregunta": "¿Qué estrategia autonómica actúa como condición habilitante del marco financiero europeo FEDER 2021-2027 en materia de investigación e innovación en Andalucía?",
+      "opciones": [
+        "La Estrategia de Paisaje de Andalucía",
+        "El Plan General de Inspección de Servicios",
+        "La Estrategia de Especialización Inteligente para la Sostenibilidad de Andalucía (S4 Andalucía 2021-2027)",
+        "El Plan Director de Instalaciones Deportivas"
+      ],
+      "correcta": 2,
+      "explicacion": "La Estrategia de Especialización Inteligente para la Sostenibilidad de Andalucía (S4 Andalucía 2021-2027) orienta las inversiones en I+D+i cofinanciadas con fondos europeos.",
+      "referencia": "LACC-16-2007; Estrategia S4 Andalucía 2021-2027"
+    },
+    {
+      "pregunta": "Dentro de la Compra Pública de Innovación (CPI), ¿qué modalidad tiene por objeto contratar servicios de I+D en los que el comprador público no se reserva los resultados para su propio uso en exclusiva, sino que comparte riesgos y beneficios con las empresas?",
+      "opciones": [
+        "Concesión demanial directa",
+        "Encomienda de gestión interadministrativa",
+        "Suministro homologado de catálogo centralizado",
+        "Compra Pública Precomercial (CPP)"
+      ],
+      "correcta": 3,
+      "explicacion": "La Compra Pública Precomercial (CPP) consiste en la contratación de servicios de I+D compartiendo riesgos y beneficios en condiciones de mercado para desarrollar soluciones aún no existentes.",
+      "referencia": "Art. 8 y 177 LCSP; LACC-16-2007"
+    },
+    {
+      "pregunta": "Según el Decreto 622/2019, ¿qué principio obliga a la Administración de la Junta de Andalucía a no solicitar a la ciudadanía datos o documentos que ya obren en poder de cualquier Administración Pública?",
+      "opciones": [
+        "Principio de inderogabilidad singular",
+        "Principio de especialidad presupuestaria",
+        "Principio de sola una vez (once-only) e interoperabilidad (art. 28 LPAC y Decreto 622/2019)",
+        "Principio de autotutela ejecutiva"
+      ],
+      "correcta": 2,
+      "explicacion": "El principio de «solo una vez» (once-only), recogido en el art. 28 de la LPAC y desarrollado en el Decreto 622/2019, garantiza que la ciudadanía no deba aportar documentos que ya obren en las Administraciones o hayan sido elaborados por ellas.",
+      "referencia": "Art. 28 LPAC; DEC-AND-622-2019"
+    },
+    {
+      "pregunta": "¿Dónde deben inscribirse las entidades públicas y privadas de investigación y transferencia para su reconocimiento oficial como agentes del Sistema Andaluz del Conocimiento?",
+      "opciones": [
+        "En el Registro Electrónico de Agentes del Sistema Andaluz del Conocimiento",
+        "En el Inventario General de Bienes y Derechos",
+        "En el Registro de Demandantes de Vivienda Protegida",
+        "En el Registro Mercantil Central exclusivamente"
+      ],
+      "correcta": 0,
+      "explicacion": "La Ley 16/2007 regula el Registro de Agentes del Sistema Andaluz del Conocimiento como instrumento de acreditación y clasificación oficial de las entidades de I+D+i en Andalucía.",
+      "referencia": "Título III LACC-16-2007"
+    },
+    {
+      "pregunta": "¿Qué órgano colegiado de la Junta de Andalucía asegura la coordinación entre las distintas Consejerías en la planificación y ejecución de las políticas de ciencia, tecnología e innovación según la Ley 16/2007?",
+      "opciones": [
+        "La Junta Superior de Hacienda",
+        "La Comisión Interdepartamental de Investigación, Tecnología e Innovación",
+        "El Consejo Andaluz de Concertación Local",
+        "La Comisión Central de Homologación"
+      ],
+      "correcta": 1,
+      "explicacion": "El Título II de la Ley 16/2007 establece la Comisión Interdepartamental como órgano de coordinación horizontal de las políticas de I+D+i entre las Consejerías de la Junta de Andalucía.",
+      "referencia": "Título II LACC-16-2007"
+    },
+    {
+      "pregunta": "En el ámbito de «Concepto y dimensiones de la innovación pública», ¿qué caracteriza o establece exactamente el concepto «Modalidades emergentes»?",
+      "opciones": [
+        "La información administrativa (Decreto 204/1995, de 29 de agosto, arts. 2 a 9) es el cauce adecuado a través del cual los ciudadanos pueden…",
+        "Compra Pública de Innovación (CPI, regulada en el art. 118 y el procedimiento de asociación para la innovación del art. 177 de la Ley 9/2017, LCSP),…",
+        "El documento administrativo es el soporte material o electrónico en el que se materializan y dejan constancia los actos de la Administración…",
+        "Operadores y precedencia en fórmulas (toda fórmula comienza por el signo `=`): 1) Operadores aritméticos por orden de prioridad: paréntesis…"
+      ],
+      "correcta": 1,
+      "explicacion": "Modalidades emergentes: Compra Pública de Innovación (CPI, regulada en la Ley 9/2017 (LCSP, arts. 115 y 145) y el procedimiento de asociación para la innovación (art. 177 LCSP)), laboratorios de gobierno (GovLabs), ciencia ciudadana e innovación abierta (Open Innovation).",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Concepto y dimensiones de la innovación pública"
+    },
+    {
+      "pregunta": "Dentro del bloque «Concepto y dimensiones de la innovación pública», ¿a qué figura, principio o instrumento corresponde la siguiente regulación?: «Compra Pública de Innovación (CPI, regulada en la Ley 9/2017 (LCSP, arts. 115 y 145) y el procedimiento de asociación para la innovación (art. 177 LCSP)), laboratorios…»",
+      "opciones": [
+        "Modalidades emergentes",
+        "Naturaleza jurídica (art. 6 Decreto 262/1988)",
+        "Estructura del libro",
+        "Requisitos de validez de los documentos electrónicos administrativos (art. 26.2 de la Ley 39/2015, LPAC)"
+      ],
+      "correcta": 0,
+      "explicacion": "Modalidades emergentes: Compra Pública de Innovación (CPI, regulada en la Ley 9/2017 (LCSP, arts. 115 y 145) y el procedimiento de asociación para la innovación (art. 177 LCSP)), laboratorios de gobierno (GovLabs), ciencia ciudadana e innovación abierta (Open Innovation).",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Concepto y dimensiones de la innovación pública"
+    },
+    {
+      "pregunta": "En el ámbito de «Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento», ¿qué caracteriza o establece exactamente el concepto «Fines de la LACC (art. 2)»?",
+      "opciones": [
+        "contribuir al desarrollo social, económico y cultural sostenible, vertebrar el Sistema Andaluz del Conocimiento y promover la igualdad de género en…",
+        "Fiscalización previa limitada o de requisitos básicos (art. 90.2 TRLGHP): el Consejo de Gobierno puede acordar que la fiscalización previa se…",
+        "Clasificación de las faltas disciplinarias (art. 95 TREBEP): Muy graves (tipificadas directamente en el art. 95.2 TREBEP y en la LFPA:…",
+        "El artículo 16 de la Ley 39/2015 (LPAC) y los artículos 26 a 29 del Decreto 622/2019 regulan el Registro Electrónico Único de la Administración…"
+      ],
+      "correcta": 0,
+      "explicacion": "Fines de la LACC (art. 2): contribuir al desarrollo social, económico y cultural sostenible, vertebrar el Sistema Andaluz del Conocimiento y promover la igualdad de género en la actividad investigadora e innovadora.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento"
+    },
+    {
+      "pregunta": "Dentro del bloque «Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento», ¿a qué figura, principio o instrumento corresponde la siguiente regulación?: «contribuir al desarrollo social, económico y cultural sostenible, vertebrar el Sistema Andaluz del Conocimiento y promover la igualdad de género en la actividad…»",
+      "opciones": [
+        "Fiscalización previa limitada o de requisitos básicos (art. 90.2 TRLGHP)",
+        "Navegadores web (Mozilla Firefox, Google Chrome, Microsoft Edge, Safari)",
+        "Fines de la LACC (art. 2)",
+        "Normalización en la composición de documentos administrativos (arts. 18 a 22 Decreto 204/1995)"
+      ],
+      "correcta": 2,
+      "explicacion": "Fines de la LACC (art. 2): contribuir al desarrollo social, económico y cultural sostenible, vertebrar el Sistema Andaluz del Conocimiento y promover la igualdad de género en la actividad investigadora e innovadora.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento"
+    },
+    {
+      "pregunta": "En el ámbito de «Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento», ¿qué caracteriza o establece exactamente el concepto «Gobernanza institucional (Título II LACC)»?",
+      "opciones": [
+        "Comisión Interdepartamental de Investigación, Tecnología e Innovación y Consejo Asesor para la Ciencia, la Tecnología y la Innovación",
+        "La Intervención General de la Junta de Andalucía (IGJA, art. 86 TRLGHP): es el centro directivo del control interno y el centro directivo y…",
+        "Composición de la Cámara de Cuentas: está integrada por siete Consejeros o Consejeras designados por el Parlamento de Andalucía mediante…",
+        "Supuestos de liquidación por días (excepciones a la regla del día 1): 1) En el mes de toma de posesión del primer destino en un cuerpo o…"
+      ],
+      "correcta": 0,
+      "explicacion": "Gobernanza institucional (Título II LACC): Comisión Interdepartamental de Investigación, Tecnología e Innovación y Consejo Asesor para la Ciencia, la Tecnología y la Innovación.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento"
+    },
+    {
+      "pregunta": "Dentro del bloque «Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento», ¿a qué figura, principio o instrumento corresponde la siguiente regulación?: «Comisión Interdepartamental de Investigación, Tecnología e Innovación y Consejo Asesor para la Ciencia, la Tecnología y la Innovación»",
+      "opciones": [
+        "Formatos de carácter y párrafo",
+        "Gobernanza institucional (Título II LACC)",
+        "Reglas de devengo de retribuciones fijas y periódicas",
+        "Requisitos de validez de los documentos electrónicos administrativos (art. 26.2 de la Ley 39/2015, LPAC)"
+      ],
+      "correcta": 1,
+      "explicacion": "Gobernanza institucional (Título II LACC): Comisión Interdepartamental de Investigación, Tecnología e Innovación y Consejo Asesor para la Ciencia, la Tecnología y la Innovación.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento"
+    },
+    {
+      "pregunta": "En el ámbito de «El Sistema Andaluz del Conocimiento (SAC)», ¿qué caracteriza o establece exactamente el concepto «Agentes del SAC»?",
+      "opciones": [
+        "Fases del ejercicio de la función interventora (art. 89 TRLGHP): a) Fiscalización previa de los actos que reconozcan derechos de contenido…",
+        "Sanciones disciplinarias (art. 96 TREBEP y LFPA): a) Separación del servicio de los funcionarios (solo por faltas muy graves; en los…",
+        "Universidades de Andalucía, Organismos Públicos de Investigación (OPI), Centros e Institutos de Investigación, Parques Científicos y Tecnológicos,…",
+        "La información administrativa (Decreto 204/1995, de 29 de agosto, arts. 2 a 9) es el cauce adecuado a través del cual los ciudadanos pueden…"
+      ],
+      "correcta": 2,
+      "explicacion": "Agentes del SAC: Universidades de Andalucía, Organismos Públicos de Investigación (OPI), Centros e Institutos de Investigación, Parques Científicos y Tecnológicos, Centros Tecnológicos y de Innovación, y empresas innovadoras.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · El Sistema Andaluz del Conocimiento (SAC)"
+    },
+    {
+      "pregunta": "Dentro del bloque «El Sistema Andaluz del Conocimiento (SAC)», ¿a qué figura, principio o instrumento corresponde la siguiente regulación?: «Universidades de Andalucía, Organismos Públicos de Investigación (OPI), Centros e Institutos de Investigación, Parques Científicos y Tecnológicos, Centros…»",
+      "opciones": [
+        "Instrumentos de fomento",
+        "Instrumentos de planificación de los recursos humanos (art. 69 TREBEP y Título III LFPA)",
+        "La Cuenta General de la Comunidad Autónoma (arts. 105 a 109 TRLGHP)",
+        "Agentes del SAC"
+      ],
+      "correcta": 3,
+      "explicacion": "Agentes del SAC: Universidades de Andalucía, Organismos Públicos de Investigación (OPI), Centros e Institutos de Investigación, Parques Científicos y Tecnológicos, Centros Tecnológicos y de Innovación, y empresas innovadoras.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · El Sistema Andaluz del Conocimiento (SAC)"
+    },
+    {
+      "pregunta": "En el ámbito de «La Estrategia de Innovación de Andalucía (PAIDI y S4 Andalucía)», ¿qué caracteriza o establece exactamente el concepto «Prioridades transversales de la S4 Andalucía»?",
+      "opciones": [
+        "La Ley 7/2011, de 3 de noviembre, de Documentos, Archivos y Patrimonio Documental de Andalucía (LDAPA, art. 2 y 8), define los archivos como…",
+        "transición ecológica y descarbonización, transformación digital e inteligencia artificial, cohesión territorial e innovación social",
+        "Reposición de fondos y rendición de cuentas: los habilitados rinden cuentas justificativas periódicamente a medida que sus necesidades de…",
+        "Por el órgano que lo ejerce, se clasifica en: 1) Control interno (ejercido por la Intervención General de la Junta de Andalucía, IGJA, con…"
+      ],
+      "correcta": 1,
+      "explicacion": "Prioridades transversales de la S4 Andalucía: transición ecológica y descarbonización, transformación digital e inteligencia artificial, cohesión territorial e innovación social.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · La Estrategia de Innovación de Andalucía (PAIDI y S4 Andalucía)"
+    },
+    {
+      "pregunta": "Dentro del bloque «La Estrategia de Innovación de Andalucía (PAIDI y S4 Andalucía)», ¿a qué figura, principio o instrumento corresponde la siguiente regulación?: «transición ecológica y descarbonización, transformación digital e inteligencia artificial, cohesión territorial e innovación social»",
+      "opciones": [
+        "Derechos individuales ejercidos colectivamente (art. 15 TREBEP y art. 54 LFPA)",
+        "Prioridades transversales de la S4 Andalucía",
+        "Canal electrónico (arts. 13 a 35 Decreto 622/2019)",
+        "Estilos y Plantillas"
+      ],
+      "correcta": 1,
+      "explicacion": "Prioridades transversales de la S4 Andalucía: transición ecológica y descarbonización, transformación digital e inteligencia artificial, cohesión territorial e innovación social.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · La Estrategia de Innovación de Andalucía (PAIDI y S4 Andalucía)"
+    },
+    {
+      "pregunta": "En el ámbito de «La Estrategia de Innovación de Andalucía (PAIDI y S4 Andalucía)», ¿qué caracteriza o establece exactamente el concepto «Instrumentos de fomento»?",
+      "opciones": [
+        "La Ley 7/2011, de 3 de noviembre, de Documentos, Archivos y Patrimonio Documental de Andalucía (LDAPA, art. 2 y 8), define los archivos como…",
+        "ayudas en concurrencia competitiva a proyectos de I+D+i colaborativa, Compra Pública Precomercial (CPP), Compra Pública de Tecnología Innovadora…",
+        "Prohibición de nuevos libramientos: no podrán expedirse nuevas órdenes de pago «a justificar», por los mismos conceptos presupuestarios, a…",
+        "Régimen de disposición de fondos: la movilización de fondos de cualquier cuenta de la Tesorería General exige siempre firmas mancomunadas (al…"
+      ],
+      "correcta": 1,
+      "explicacion": "Instrumentos de fomento: ayudas en concurrencia competitiva a proyectos de I+D+i colaborativa, Compra Pública Precomercial (CPP), Compra Pública de Tecnología Innovadora (CPTI) y ecosistemas de emprendimiento tecnológico.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · La Estrategia de Innovación de Andalucía (PAIDI y S4 Andalucía)"
+    },
+    {
+      "pregunta": "Dentro del bloque «La Estrategia de Innovación de Andalucía (PAIDI y S4 Andalucía)», ¿a qué figura, principio o instrumento corresponde la siguiente regulación?: «ayudas en concurrencia competitiva a proyectos de I+D+i colaborativa, Compra Pública Precomercial (CPP), Compra Pública de Tecnología Innovadora (CPTI) y…»",
+      "opciones": [
+        "Órganos específicos de representación de los funcionarios (art. 39 TREBEP)",
+        "1) PTw@nda (Plataforma de Tramitación «Trew@» y motor de tramitación)",
+        "Instrumentos de fomento",
+        "Estos principios se desarrollan en principios éticos (art. 53 TREBEP"
+      ],
+      "correcta": 2,
+      "explicacion": "Instrumentos de fomento: ayudas en concurrencia competitiva a proyectos de I+D+i colaborativa, Compra Pública Precomercial (CPP), Compra Pública de Tecnología Innovadora (CPTI) y ecosistemas de emprendimiento tecnológico.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · La Estrategia de Innovación de Andalucía (PAIDI y S4 Andalucía)"
+    },
+    {
+      "pregunta": "En el estudio del tema «Innovación y Administración Pública. El concepto de innovación pública. La estrategia de…», ¿qué aspecto regula específicamente la norma «Ley Andaluza de la Ciencia y el Conocimiento» (Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008))?",
+      "opciones": [
+        "Ordenación del comercio marítimo internacional y abanderamiento de buques mercantes",
+        "Principios de organización, eficacia, eficiencia, racionalización y modernización de la Administración de la Junta de Andalucía",
+        "Régimen jurídico de las cámaras agrarias y denominaciones de origen vitivinícolas",
+        "Norma principal autonómica reguladora del Sistema Andaluz del Conocimiento, la investigación científica y la innovación en Andalucía"
+      ],
+      "correcta": 3,
+      "explicacion": "Ley Andaluza de la Ciencia y el Conocimiento (Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008)): Norma principal autonómica reguladora del Sistema Andaluz del Conocimiento, la investigación científica y la innovación en Andalucía.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008)"
+    },
+    {
+      "pregunta": "¿Cuál es la disposición normativa oficial que tiene asignado en este tema el siguiente alcance: «Norma principal autonómica reguladora del Sistema Andaluz del Conocimiento, la investigación científica y la innovación en Andalucía»?",
+      "opciones": [
+        "Ley Andaluza de la Ciencia y el Conocimiento (Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de…",
+        "Ley de Contratos del Sector Público (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017))",
+        "Estatuto de Autonomía para Andalucía (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20…",
+        "Reglamento de Actividades Arqueológicas de Andalucía (Decreto 168/2003, de 17 de junio, por el que se aprueba el Reglamento de Actividades…"
+      ],
+      "correcta": 0,
+      "explicacion": "La norma que regula dicho contenido es Ley Andaluza de la Ciencia y el Conocimiento (Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008)).",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008)"
+    },
+    {
+      "pregunta": "En el estudio del tema «Innovación y Administración Pública. El concepto de innovación pública. La estrategia de…», ¿qué aspecto regula específicamente la norma «Administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019))?",
+      "opciones": [
+        "Regulación del sistema electoral general y financiación de partidos políticos estatales",
+        "Regulación de la innovación administrativa, simplificación de procedimientos, automatización y racionalización organizativa en la Junta de Andalucía",
+        "Régimen jurídico de las cámaras agrarias y denominaciones de origen vitivinícolas",
+        "Norma principal autonómica reguladora del Sistema Andaluz del Conocimiento, la investigación científica y la innovación en Andalucía"
+      ],
+      "correcta": 1,
+      "explicacion": "Administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)): Regulación de la innovación administrativa, simplificación de procedimientos, automatización y racionalización organizativa en la Junta de Andalucía.",
+      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
+    },
+    {
+      "pregunta": "¿Cuál es la disposición normativa oficial que tiene asignado en este tema el siguiente alcance: «Regulación de la innovación administrativa, simplificación de procedimientos, automatización y racionalización organizativa en la Junta de…»?",
+      "opciones": [
+        "Normativa técnica de diseño y calidad aplicable a las viviendas protegidas en Andalucía (Orden de 21 de julio de 2008, sobre normativa técnica de…",
+        "Administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (Decreto 622/2019, de 27 de…",
+        "Ley de Patrimonio Cultural de Andalucía (Ley 4/2026, de 24 de marzo (BOJA núm. 65, de 7 de abril de 2026); entra en vigor el 7 de abril de 2027)",
+        "Estatuto Básico del Empleado Público (Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del…"
+      ],
+      "correcta": 1,
+      "explicacion": "La norma que regula dicho contenido es Administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
+      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
+    },
+    {
+      "pregunta": "En el estudio del tema «Innovación y Administración Pública. El concepto de innovación pública. La estrategia de…», ¿qué aspecto regula específicamente la norma «Ley de la Administración de la Junta de Andalucía» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007))?",
+      "opciones": [
+        "Regulación de la innovación administrativa, simplificación de procedimientos, automatización y racionalización organizativa en la Junta de Andalucía",
+        "Principios de organización, eficacia, eficiencia, racionalización y modernización de la Administración de la Junta de Andalucía",
+        "Competencias exclusivas y compartidas en investigación, desarrollo e innovación tecnológica (art. 54 EA)",
+        "Regulación del sistema electoral general y financiación de partidos políticos estatales"
+      ],
+      "correcta": 1,
+      "explicacion": "Ley de la Administración de la Junta de Andalucía (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)): Principios de organización, eficacia, eficiencia, racionalización y modernización de la Administración de la Junta de Andalucía.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "¿Cuál es la disposición normativa oficial que tiene asignado en este tema el siguiente alcance: «Principios de organización, eficacia, eficiencia, racionalización y modernización de la Administración de la Junta de Andalucía»?",
+      "opciones": [
+        "Ley del Consejo Consultivo de Andalucía (Ley 2/2024, de 19 de julio)",
+        "Reglamento de seguridad contra incendios en los establecimientos industriales (RSCIEI) y modificación del RIPCI (Real Decreto 164/2025, de 4 de…",
+        "Documento Básico HS Salubridad (sección HS 5, evacuación de aguas) (Documento Básico HS Salubridad del Código Técnico de la Edificación, versión…",
+        "Ley de la Administración de la Junta de Andalucía (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31…"
+      ],
+      "correcta": 3,
+      "explicacion": "La norma que regula dicho contenido es Ley de la Administración de la Junta de Andalucía (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el estudio del tema «Innovación y Administración Pública. El concepto de innovación pública. La estrategia de…», ¿qué aspecto regula específicamente la norma «Estatuto de Autonomía para Andalucía» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007))?",
+      "opciones": [
+        "Regulación de la innovación administrativa, simplificación de procedimientos, automatización y racionalización organizativa en la Junta de Andalucía",
+        "Ordenación del comercio marítimo internacional y abanderamiento de buques mercantes",
+        "Competencias exclusivas y compartidas en investigación, desarrollo e innovación tecnológica (art. 54 EA)",
+        "Regulación del sistema electoral general y financiación de partidos políticos estatales"
+      ],
+      "correcta": 2,
+      "explicacion": "Estatuto de Autonomía para Andalucía (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)): Competencias exclusivas y compartidas en investigación, desarrollo e innovación tecnológica (art. 54 EA).",
+      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
+    },
+    {
+      "pregunta": "¿Cuál es la disposición normativa oficial que tiene asignado en este tema el siguiente alcance: «Competencias exclusivas y compartidas en investigación, desarrollo e innovación tecnológica (art. 54 EA)»?",
+      "opciones": [
+        "Estatuto de Autonomía para Andalucía (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20…",
+        "Texto refundido de la Ley del Estatuto de los Trabajadores (Real Decreto Legislativo 2/2015, de 23 de octubre, por el que se aprueba el texto…",
+        "Procedimientos de las Autorizaciones Sanitarias y Registro Andaluz de Centros, Servicios y Establecimientos Sanitarios (Decreto 69/2008, de 26 de…",
+        "Ley del Consejo Consultivo de Andalucía (Ley 2/2024, de 19 de julio)"
+      ],
+      "correcta": 0,
+      "explicacion": "La norma que regula dicho contenido es Estatuto de Autonomía para Andalucía (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
+      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
+    },
+    {
+      "pregunta": "Respecto al apartado 1 del epígrafe «Concepto y dimensiones de la innovación pública» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "La innovación pública consiste en la creación, implementación y difusión de nuevas ideas, procesos, servicios o modelos organizativos en el sector…",
+        "La desafectación (art. 69 LPAP y art. 60 Ley 4/1986) produce la pérdida de la condición demanial del bien, convirtiéndolo en patrimonial; salvo…",
+        "Calendario y formación de la nómina: las unidades de personal (habilitaciones o servicios de personal) graban y validan las incidencias en…",
+        "Según el artículo 72 del Texto Refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (Decreto Legislativo 1/2010,…"
+      ],
+      "correcta": 0,
+      "explicacion": "La innovación pública consiste en la creación, implementación y difusión de nuevas ideas, procesos, servicios o modelos organizativos en el sector público que generan valor público tangible para la ciudadanía.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Concepto y dimensiones de la innovación pública"
+    },
+    {
+      "pregunta": "Respecto al apartado 2 del epígrafe «Concepto y dimensiones de la innovación pública» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "Conforme al Manual de Oslo (OCDE/Eurostat) adaptado al sector público y a la Declaración de la OCDE sobre Innovación en el Sector Público (2019),…",
+        "Retribuciones básicas (art. 23 TREBEP y art. 71 LFPA): retribuyen al funcionario según la adscripción de su cuerpo o escala a un determinado…",
+        "Órganos colegiados del Sistema Archivístico de Andalucía (arts. 14 y 54 Ley 7/2011): 1) La Comisión del Sistema Archivístico de Andalucía…",
+        "El Explorador de archivos en Windows (`explorer.exe`) y Nautilus/Caja en Guadalinex permiten crear, copiar (`Ctrl + C`), cortar/mover (`Ctrl +…"
+      ],
+      "correcta": 0,
+      "explicacion": "Conforme al Manual de Oslo (OCDE/Eurostat) adaptado al sector público y a la Declaración de la OCDE sobre Innovación en el Sector Público (2019), comprende cuatro tipologías: innovación de servicios/productos, innovación de procesos, innovación organizativa e innovación comunicativa o de gobernanza.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Concepto y dimensiones de la innovación pública"
+    },
+    {
+      "pregunta": "Respecto al apartado 3 del epígrafe «Concepto y dimensiones de la innovación pública» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "Entidades Gestoras y Servicios Comunes (arts. 66 a 76 TRLGSS): Instituto Nacional de la Seguridad Social (INSS, gestión y administración de las…",
+        "Control parlamentario: el Parlamento de Andalucía ejerce el control político supremo mediante la aprobación de la Ley del Presupuesto, el…",
+        "Nociones de seguridad informática y ENS (RD 311/2022): bloqueo automático de pantalla por inactividad, uso de antivirus/EDR (Windows Defender),…",
+        "En Andalucía, el Decreto 622/2019 (arts. 4 a 12) vincula la innovación administrativa con la simplificación procedimental, la administración…"
+      ],
+      "correcta": 3,
+      "explicacion": "En Andalucía, el Decreto 622/2019 (arts. 4 a 12) vincula la innovación administrativa con la simplificación procedimental, la administración electrónica, la gestión por procesos y la reducción de cargas administrativas.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Concepto y dimensiones de la innovación pública"
+    },
+    {
+      "pregunta": "Respecto al apartado 4 del epígrafe «Concepto y dimensiones de la innovación pública» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "Encargos a medios propios personificados (art. 32 LCSP y art. 53 bis LAJA): negocio jurídico no contractual por el que la Administración…",
+        "Nivel de vinculación de los créditos (art. 39 TRLGHP): como regla general, los créditos vinculan a nivel de sección, servicio, programa y…",
+        "Modalidades emergentes: Compra Pública de Innovación (CPI, regulada en el art. 118 y el procedimiento de asociación para la innovación del art. 177…",
+        "Autorización del gasto (Fase A): acto administrativo interno por el que el órgano competente acuerda la realización de un gasto determinado por…"
+      ],
+      "correcta": 2,
+      "explicacion": "Modalidades emergentes: Compra Pública de Innovación (CPI, regulada en la Ley 9/2017 (LCSP, arts. 115 y 145) y el procedimiento de asociación para la innovación (art. 177 LCSP)), laboratorios de gobierno (GovLabs), ciencia ciudadana e innovación abierta (Open Innovation).",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Concepto y dimensiones de la innovación pública"
+    },
+    {
+      "pregunta": "Respecto al apartado 1 del epígrafe «Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "La Ley 5/2023 (LFPA) implanta la gestión basada en competencias profesionales (conocimientos técnicos, habilidades operativas y…",
+        "Variaciones en nómina: las altas, bajas y modificaciones requieren soporte documental fehaciente registrado en el Sistema de Información de…",
+        "Objeto y ámbito: se encuentra a disposición de la ciudadanía en todos los registros generales y auxiliares de las Consejerías, Delegaciones y…",
+        "El artículo 54 del Estatuto de Autonomía para Andalucía (LO 2/2007) atribuye a la Comunidad Autónoma competencia exclusiva en materia de centros y…"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 54 del Estatuto de Autonomía para Andalucía (LO 2/2007) atribuye a la Comunidad Autónoma competencia exclusiva en materia de centros y estructuras de investigación de la Junta y proyectos propios de I+D+i, sin perjuicio del art. 149.1.15.ª CE.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento"
+    },
+    {
+      "pregunta": "Respecto al apartado 2 del epígrafe «Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "La Agencia Digital de Andalucía (ADA, creada por el Decreto 128/2021 y adscrita a la Consejería de la Presidencia, Interior, Diálogo Social y…",
+        "La Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (LACC), establece el marco general de ordenación de la ciencia, la…",
+        "Copias de seguridad (Backup) y restauración: Puntos de restauración del sistema (guardan el estado de los archivos de sistema, registro y…",
+        "El análisis y racionalización del trabajo administrativo tiene por finalidad incrementar la productividad, eficacia y calidad de los servicios…"
+      ],
+      "correcta": 1,
+      "explicacion": "La Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (LACC), establece el marco general de ordenación de la ciencia, la tecnología, la transferencia del conocimiento y la innovación en Andalucía.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento"
+    },
+    {
+      "pregunta": "Respecto al apartado 3 del epígrafe «Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "Fines de la LACC (art. 2): contribuir al desarrollo social, económico y cultural sostenible, vertebrar el Sistema Andaluz del Conocimiento y…",
+        "El Sistema Archivístico de Andalucía (Título II de la Ley 7/2011) se configura como el conjunto de órganos, archivos y servicios encargados de…",
+        "Gestión de proyectos públicos (PMBOK / PRINCE2 / metodologías ágiles Scrum y Kanban): estructurada en cinco grupos de procesos (inicio,…",
+        "Organización archivística: comprende dos operaciones técnicas sucesivas: 1) La clasificación (agrupación jerárquica y lógica de los documentos…"
+      ],
+      "correcta": 0,
+      "explicacion": "Fines de la LACC (art. 2): contribuir al desarrollo social, económico y cultural sostenible, vertebrar el Sistema Andaluz del Conocimiento y promover la igualdad de género en la actividad investigadora e innovadora.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento"
+    },
+    {
+      "pregunta": "Respecto al apartado 4 del epígrafe «Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "Aprobación y fiscalización: cerrada y calculada la nómina en SIRhUS, el órgano competente aprueba el gasto y remite el expediente a la…",
+        "Objeto y ámbito: se encuentra a disposición de la ciudadanía en todos los registros generales y auxiliares de las Consejerías, Delegaciones y…",
+        "Gobernanza institucional (Título II LACC): Comisión Interdepartamental de Investigación, Tecnología e Innovación y Consejo Asesor para la Ciencia,…",
+        "Operaciones de búsqueda y caracteres comodín: el asterisco `*` sustituye a cualquier cadena de cero o más caracteres (p. ej. `*.pdf` busca…"
+      ],
+      "correcta": 2,
+      "explicacion": "Gobernanza institucional (Título II LACC): Comisión Interdepartamental de Investigación, Tecnología e Innovación y Consejo Asesor para la Ciencia, la Tecnología y la Innovación.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · Marco estatutario y legal: Ley 16/2007 Andaluza de la Ciencia y el Conocimiento"
+    },
+    {
+      "pregunta": "Respecto al apartado 1 del epígrafe «El Sistema Andaluz del Conocimiento (SAC)» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "Vacaciones anuales (art. 50 TREBEP y normativa autonómica): los empleados públicos tienen derecho a disfrutar, durante cada año natural, de…",
+        "Microsoft Windows (Windows 10 / Windows 11): sistema operativo propietario de arquitectura híbrida (núcleo NT), multiusuario y multitarea,…",
+        "El Sistema Andaluz del Conocimiento (Título III de la Ley 16/2007) integra el conjunto de agentes públicos y privados que desarrollan funciones de…",
+        "Tablas y tabulaciones: creación de tablas, combinación y división de celdas, repetición automática de filas de título en cada página cuando la…"
+      ],
+      "correcta": 2,
+      "explicacion": "El Sistema Andaluz del Conocimiento (Título III de la Ley 16/2007) integra el conjunto de agentes públicos y privados que desarrollan funciones de generación, transmisión, transformación y aprovechamiento del conocimiento en Andalucía.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · El Sistema Andaluz del Conocimiento (SAC)"
+    },
+    {
+      "pregunta": "Respecto al apartado 2 del epígrafe «El Sistema Andaluz del Conocimiento (SAC)» del programa oficial, señale la proposición correcta:",
+      "opciones": [
+        "Plazo crucial de la recuperación posesoria de oficio (art. 55 LPAP y art. 24 Ley 4/1986): sobre los bienes y derechos de dominio público la…",
+        "Según el artículo 72 del Texto Refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (Decreto Legislativo 1/2010,…",
+        "Agentes del SAC: Universidades de Andalucía, Organismos Públicos de Investigación (OPI), Centros e Institutos de Investigación, Parques Científicos…",
+        "Retribuciones básicas (art. 23 TREBEP y art. 71 LFPA): retribuyen al funcionario según la adscripción de su cuerpo o escala a un determinado…"
+      ],
+      "correcta": 2,
+      "explicacion": "Agentes del SAC: Universidades de Andalucía, Organismos Públicos de Investigación (OPI), Centros e Institutos de Investigación, Parques Científicos y Tecnológicos, Centros Tecnológicos y de Innovación, y empresas innovadoras.",
+      "referencia": "Ley 16/2007, de 3 de diciembre, Andaluza de la Ciencia y el Conocimiento (BOJA núm. 250, de 21 de diciembre de 2007; BOE núm. 20, de 23 de enero de 2008) · El Sistema Andaluz del Conocimiento (SAC)"
+    }
+  ]
+}

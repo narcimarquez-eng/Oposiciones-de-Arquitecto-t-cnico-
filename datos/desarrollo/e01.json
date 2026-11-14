@@ -1,0 +1,151 @@
+{
+  "id": "e01",
+  "titulo_tema": "Demoliciones, trabajos previos y acondicionamiento del terreno en los edificios. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación. Evaluación de riesgos y medidas de seguridad y salud. Criterios de medición y precios. Producción y gestión de los residuos de construcción y demolición",
+  "extension": "Desarrollo extenso (aprox. 10 páginas)",
+  "secciones": [
+    {
+      "titulo": "1. Qué abarca el tema y cómo se ordena",
+      "parrafos": [
+        "El tema recorre el ciclo que precede a la construcción de un edificio cuando el solar no está libre: primero se retiran las construcciones existentes (demoliciones y trabajos previos), después se prepara el terreno (excavaciones, rellenos y gestión del agua), y durante todo el proceso se aplican las exigencias del Código Técnico de la Edificación, las normas de seguridad y salud, la regulación de los residuos y los criterios con los que se mide y se valora la obra.",
+        "Conviene separar cuatro bloques para estudiarlo. El primero es técnico: qué es una demolición, qué trabajos previos hay que hacer y cómo se acondiciona el terreno. El segundo es normativo: el Código Técnico de la Edificación (CTE), la Ley de Ordenación de la Edificación (LOE) y los documentos básicos que la desarrollan. El tercero es preventivo: la evaluación de riesgos, el estudio de seguridad y salud y el plan de seguridad de la obra. El cuarto es ambiental y económico: la gestión de los residuos y la valoración de su coste, junto con la medición y el presupuesto de la obra.",
+        "Las fuentes de este desarrollo son el Real Decreto 314/2006 (CTE), la Ley 38/1999 (LOE), el documento básico DB-SE-C Cimientos, el Real Decreto 1627/1997 (seguridad y salud en las obras de construcción), el Real Decreto 105/2008 (residuos de construcción y demolición) y la Ley 22/2011 (residuos y suelos contaminados). Todas se han consultado en el texto del repositorio o en la fuente oficial que se indica, y los detalles no verificados se señalan al final."
+      ]
+    },
+    {
+      "titulo": "2. La demolición como obra y como fuente de residuos",
+      "parrafos": [
+        "El Real Decreto 105/2008 define la obra de construcción o demolición como la actividad que consiste en la construcción, rehabilitación, reparación, reforma o demolición de un bien inmueble, como un edificio, y en los trabajos que modifican la forma o la sustancia del terreno, como excavaciones o urbanizaciones (art. 2.c). La demolición es, por tanto, una obra en sentido jurídico, con las mismas obligaciones documentales que una construcción nueva, y no solo una operación de derribo.",
+        "La misma norma identifica quién es el productor de los residuos que genera la demolición. Es la persona titular de la licencia urbanística de la obra, y en las obras que no requieren licencia, la titular del bien inmueble (art. 2.e.1.º). Esta regla es importante en un examen porque el productor es el primer responsable de los residuos, aunque no sea quien los retira físicamente.",
+        "La normativa de seguridad trata la demolición como trabajo específico. El Real Decreto 1627/1997, en el apartado 12 del anexo IV, dispone que los trabajos de derribo o demolición que puedan suponer un peligro para los trabajadores deben estudiarse, planificarse y emprenderse bajo la supervisión de una persona competente, adoptando las precauciones, métodos y procedimientos apropiados (anexo IV, apartado 12.a).",
+        "Los trabajos previos a la demolición no tienen una definición única en los textos verificados. En la práctica incluyen la desconexión de los suministros, el vaciado de la edificación, la retirada de elementos peligrosos y la protección de los colindantes. Estos trabajos deben reflejarse en el proyecto y en el estudio de seguridad y salud, y la retirada de los materiales peligrosos debe programarse separadamente, como exige el Real Decreto 105/2008 para las obras de demolición (art. 4.1.b)."
+      ]
+    },
+    {
+      "titulo": "3. Acondicionamiento del terreno: concepto y criterios",
+      "parrafos": [
+        "El DB-SE-C Cimientos del Código Técnico define el acondicionamiento del terreno como todas las operaciones de excavación o relleno controlado que hacen falta para acomodar la topografía inicial a la que requiere el proyecto, así como el control del agua freática para que no interfiera con esas operaciones ni con las construcciones enterradas. Ese control se denomina gestión del agua (DB-SE-C, apartado 7.1, punto 1).",
+        "El mismo documento advierte que sus reglas no contemplan edificaciones u otras obras vecinas que puedan interferir con los trabajos. Si existen, se requiere un estudio específico y detallado del acondicionamiento del terreno (DB-SE-C, apartado 7.1, punto 2). En los solares entre medianeras, esta advertencia es la que decide si el proyecto necesita un estudio adicional.",
+        "La excavación se define como todo vaciado o desmonte del terreno limitado lateralmente por un talud, provisional o permanente, sin ninguna contención mecánica añadida (DB-SE-C, apartado 7.2.1, punto 1). El proyecto debe considerar la estabilidad del talud, la inestabilidad global en suelos sin cohesión, la erosión por lluvia y viento, el incremento de humedad y, en terrenos expansivos, la desecación (apartado 7.2.1, punto 2).",
+        "Los rellenos son los rellenos controlados utilizados en la edificación (DB-SE-C, apartado 7.3.1). Exigen un material de características adecuadas a la colocación y compactación, y el proyecto debe definir el préstamo, las condiciones de explotación, transporte y colocación del material (apartado 7.3.1, puntos 2 y 3). Un relleno que actúa como talud se analiza con los mismos estados límite de la excavación."
+      ]
+    },
+    {
+      "titulo": "4. El estudio geotécnico previo",
+      "parrafos": [
+        "El acondicionamiento del terreno no puede proyectarse sin un estudio geotécnico. El DB-SE-C lo define como el compendio de información cuantificada sobre las características del terreno en relación con el tipo de edificio previsto y su entorno, necesario para analizar y dimensionar los cimientos (apartado 3.1, punto 1). Su conclusión puede afectar a la concepción estructural, al tipo de cimiento y a la cota de apoyo, por lo que debe hacerse en la fase inicial del proyecto y, en cualquier caso, antes de que la estructura esté completamente dimensionada (apartado 3.1, punto 5).",
+        "El contenido mínimo del estudio se recoge en el apartado 3.3. Debe incluir los antecedentes, los trabajos de reconocimiento, la distribución de unidades geotécnicas, los niveles freáticos y las características del terreno con sus valores característicos. Para edificios de las categorías C-0 y C-1 se exigen al menos dos perfiles geotécnicos, y para el resto, al menos tres (apartado 3.3, punto 2).",
+        "El apartado 3.1 también fija quién puede redactarlo: el proyectista, otro técnico competente o, en su caso, el director de obra, con el preceptivo visado colegial (apartado 3.1, punto 6). Para el examen, conviene recordar que el estudio geotécnico es el punto de partida del acondicionamiento: sin él no se puede saber a qué cota excavar ni qué tipo de relleno ni qué control de agua se necesita."
+      ]
+    },
+    {
+      "titulo": "5. Requisitos y exigencias básicas del CTE",
+      "parrafos": [
+        "El Código Técnico de la Edificación (Real Decreto 314/2006) se ordena en dos partes. La primera contiene las disposiciones generales y las exigencias básicas; la segunda, los Documentos Básicos (DB) que concretan esas exigencias (art. 3.1). Los DB contienen la caracterización y cuantificación de las exigencias, y procedimientos que acreditan su cumplimiento, como métodos de verificación o soluciones sancionadas por la práctica (art. 3.2).",
+        "Para la demolición y el acondicionamiento, la exigencia relevante es la de seguridad estructural (SE), regulada en el artículo 10 del CTE. Su objetivo es que el edificio tenga un comportamiento estructural adecuado frente a las acciones previsibles durante su construcción y uso (art. 10.1). Entre los DB que la desarrollan figura el DB-SE-C Cimientos (art. 10.3), y la exigencia SE 1 exige resistencia y estabilidad frente a las acciones de las fases de construcción (art. 10.1 del CTE, exigencia SE 1).",
+        "El CTE permite justificar el cumplimiento de dos formas (art. 5.1.3). La primera es adoptar soluciones basadas en los DB, cuya aplicación acredita por sí sola el cumplimiento. La segunda es adoptar soluciones alternativas, que pueden apartarse total o parcialmente de los DB, siempre que el proyectista o el director de obra, bajo su responsabilidad y con la conformidad del promotor, justifiquen documentalmente que sus prestaciones son al menos equivalentes.",
+        "En cuanto a los agentes, el artículo 5.1.1 del CTE establece que son responsables de su aplicación los agentes que participan en el proceso de la edificación, según el capítulo III de la LOE. El artículo 5.1.2 les obliga a cumplir las condiciones que el CTE fija para el proyecto, la ejecución y el mantenimiento. Estas condiciones de proyecto, ejecución y mantenimiento son el contenido del requisito básico, y se desarrollan en los artículos 6, 7 y 8 del CTE."
+      ]
+    },
+    {
+      "titulo": "6. Prescripciones técnicas y condiciones del proyecto",
+      "parrafos": [
+        "El proyecto debe describir el edificio y definir las obras con el detalle suficiente para valorarlas e interpretarlas inequívocamente durante la ejecución (CTE, art. 6.1.1). Para comprobar que las soluciones cumplen las exigencias, el proyecto debe incluir, al menos, las características técnicas mínimas de los productos, equipos y sistemas que se incorporen de forma permanente; las características técnicas de cada unidad de obra con sus condiciones de ejecución y controles; las verificaciones y pruebas de servicio; y las instrucciones de uso y mantenimiento (art. 6.1.2, letras a a d).",
+        "El proyecto puede desarrollarse en dos fases. El proyecto básico define las características generales y justifica soluciones concretas; es suficiente para pedir la licencia, pero insuficiente para iniciar la construcción (art. 6.1.3.a). El proyecto de ejecución desarrolla el básico y define la obra en su totalidad, sin rebajar las prestaciones declaradas en el básico (art. 6.1.3.b). Para el acondicionamiento y la demolición, el proyecto debe contener el estudio geotécnico y, en obras de demolición, el estudio de gestión de residuos, que forma parte del proyecto de ejecución (RD 105/2008, art. 4.1.a).",
+        "En lo que se refiere a las prescripciones técnicas, el Real Decreto 105/2008 exige que el estudio de gestión de residuos incluya las prescripciones del pliego de prescripciones técnicas particulares del proyecto en relación con el almacenamiento, manejo y separación de los residuos dentro de la obra (art. 4.1.a.6.º). Esto significa que el pliego no es un documento aparte: debe recoger las condiciones de gestión de residuos.",
+        "El DB-SE-C también contiene prescripciones técnicas específicas para el terreno. Por ejemplo, exige que el proyecto considere los procesos que incrementan la humedad natural del terreno, porque reducen su resistencia y aumentan su deformabilidad (apartado 7.2.1, punto 2, letra d). Estas prescripciones deben trasladarse al pliego de condiciones del proyecto para que el constructor las cumpla."
+      ]
+    },
+    {
+      "titulo": "7. Procesos, condiciones de ejecución y control de calidad",
+      "parrafos": [
+        "Las obras se ejecutan con sujeción al proyecto y sus modificaciones autorizadas por el director de obra, con la conformidad del promotor, y conforme a la legislación aplicable, a las normas de buena práctica constructiva y a las instrucciones del director de obra y del director de la ejecución de la obra (CTE, art. 7.1.1).",
+        "La LOE define al director de la ejecución de la obra como el agente que, dentro de la dirección facultativa, asume la función técnica de dirigir la ejecución material y de controlar cualitativa y cuantitativamente la construcción y la calidad de lo edificado (LOE, art. 13.1). Para edificios de los usos del grupo a) del artículo 2.1, la titulación habilitante es la de arquitecto técnico (LOE, art. 13.2.a).",
+        "El control de calidad de la ejecución está regulado en el CTE en tres momentos: el control de recepción de productos, equipos y sistemas (art. 7.2), el control de ejecución de cada unidad de obra (art. 7.3) y el control de la obra terminada (art. 7.4). El control de recepción comprende la documentación de los suministros (art. 7.2.1), los distintivos de calidad y las evaluaciones técnicas de idoneidad (art. 7.2.2) y los ensayos (art. 7.2.3).",
+        "El control de ejecución lo realiza el director de la ejecución de la obra, que verifica el replanteo, los materiales, la correcta ejecución de los elementos constructivos y las comprobaciones previstas en el proyecto (CTE, art. 7.3.1). En la recepción pueden tenerse en cuenta las certificaciones de gestión de calidad de los agentes y las verificaciones de las entidades de control de calidad (art. 7.3.1). Para la obra terminada, el art. 7.4 exige las pruebas de servicio previstas en el proyecto y las exigidas por la legislación."
+      ]
+    },
+    {
+      "titulo": "8. Evaluación de riesgos y seguridad y salud en la demolición y el terreno",
+      "parrafos": [
+        "La prevención se basa en la evaluación de riesgos, que la Ley 31/1995 (LPRL) regula como instrumento de la planificación de la actividad preventiva (LPRL, art. 16). En las obras de construcción, el Real Decreto 1627/1997 es la norma específica: establece las disposiciones mínimas de seguridad y salud aplicables a las obras de construcción en el marco de la LPRL (art. 1.1).",
+        "El estudio de seguridad y salud es obligatorio en las obras con alguno de los supuestos del artículo 4.1: un presupuesto de ejecución igual o superior a 75 millones de pesetas, una duración superior a 30 días laborables con más de 20 trabajadores simultáneos, un volumen de mano de obra superior a 500 días de trabajo, o las obras de túneles, galerías, conducciones subterráneas y presas. En los demás casos basta con un estudio básico (art. 4.2). El texto consolidado conserva la cifra en pesetas; equivale a unos 450.759 euros, pero el umbral vigente debe comprobarse.",
+        "El estudio debe contener una memoria descriptiva de los procedimientos y medios auxiliares, identificación de riesgos evitables y no evitables con sus medidas, un pliego de condiciones, planos, mediciones de las unidades de seguridad y un presupuesto (art. 5.2, letras a a e). El presupuesto debe cuantificar los gastos por suma total y por valoración unitaria, con referencia al cuadro de precios, y solo pueden figurar partidas alzadas en elementos de difícil previsión (art. 5.4).",
+        "Cada contratista elabora un plan de seguridad y salud a partir del estudio, que puede proponer medidas alternativas siempre que no reduzcan los niveles de protección (art. 7.1). El plan debe ser aprobado antes del inicio de la obra por el coordinador en materia de seguridad y salud durante la ejecución (art. 7.2). El libro de incidencias debe mantenerse en la obra y estar en poder del coordinador (art. 13.3), y el coordinador puede paralizar los tajos en caso de riesgo grave e inminente (art. 14.1). Para los movimientos de tierras y las excavaciones, el anexo IV, apartado 9, exige localizar y reducir al mínimo los peligros de cables y conducciones subterráneas antes de empezar (apartado 9.a), prevenir el sepultamiento con entibación, blindaje, apeo o taludes, prevenir la irrupción de agua, garantizar la ventilación y permitir la salida de los trabajadores (apartado 9.b), y mantener alejadas las tierras, escombros y vehículos del borde de la excavación (apartado 9.d)."
+      ]
+    },
+    {
+      "titulo": "9. Criterios de medición y factores que influyen en el precio",
+      "parrafos": [
+        "La medición y el presupuesto de la obra se hacen por unidades de obra, con un cuadro de precios de referencia. El Real Decreto 1627/1997 exige que el presupuesto de seguridad y salud cuantifique los gastos por valoración unitaria con referencia al cuadro de precios sobre el que se calcula (art. 5.4). Esta exigencia muestra que la medición y el precio de la seguridad son parte del proyecto y no un añadido.",
+        "Los factores que influyen en el precio de las demoliciones y del acondicionamiento son el volumen de material a retirar, el tipo de medios necesarios (mecánicos, manuales o con explosivos, que tienen su normativa específica según el anexo IV, apartado 12.c), la proximidad de colindantes, la profundidad de excavación, la presencia de agua freática y el coste de gestión de los residuos. El Real Decreto 105/2008 exige valorar el coste previsto de la gestión de los residuos en un capítulo independiente del presupuesto (art. 4.1.a.7.º).",
+        "El texto completo de las normas de contratación pública está indexado y disponible en el visor de normas del repositorio. La Ley 9/2017 de contratos del sector público se ha consultado en el repositorio, pero sus artículos sobre valoración no forman parte de la verificación de este desarrollo. Por eso, en un examen, los criterios de medición deben formularse como principios (medir por unidades, referir a cuadro de precios, valorar la seguridad y los residuos como capítulos propios) y no como reglas numéricas."
+      ]
+    },
+    {
+      "titulo": "10. Residuos de construcción y demolición: productor, poseedor y gestor",
+      "parrafos": [
+        "El Real Decreto 105/2008 regula la producción y gestión de los residuos de construcción y demolición con el fin de fomentar, por este orden, su prevención, reutilización, reciclado y otras formas de valorización, y asegurar un tratamiento adecuado a los destinados a eliminación (art. 1). Define el residuo de construcción y demolición como cualquier sustancia u objeto que, cumpliendo la definición de residuo, se genere en una obra de construcción o demolición (art. 2.a).",
+        "Distingue entre productor y poseedor. El productor es el titular de la licencia urbanística (art. 2.e.1.º), y el poseedor es quien tiene los residuos y no ostenta la condición de gestor. En todo caso es poseedor quien ejecuta la obra, como el constructor, los subcontratistas o los trabajadores autónomos, pero no los trabajadores por cuenta ajena (art. 2.f). La Ley 22/2011 define al productor como quien produce residuos, y al poseedor como el productor u otra persona que los tiene en posesión (art. 3, letras i y j).",
+        "El productor tiene obligaciones propias (art. 4.1). Debe incluir en el proyecto de ejecución un estudio de gestión de residuos que contenga, al menos, la estimación de cantidades en toneladas y metros cúbicos codificadas según la lista europea, las medidas de prevención, las operaciones de reutilización, valorización o eliminación previstas, las medidas de separación y los planos de almacenamiento, el pliego de prescripciones y el coste de la gestión (art. 4.1.a). En las obras de demolición, debe inventariar los residuos peligrosos y prever su retirada selectiva (art. 4.1.b).",
+        "El productor debe conservar la documentación que acredite la gestión de los residuos durante cinco años siguientes al año natural correspondiente (art. 4.1.c). Cuando la obra requiere licencia, debe constituir la fianza o garantía que exija la comunidad autónoma (art. 4.1.d).",
+        "El poseedor debe presentar a la propiedad un plan que refleje cómo cumplirá sus obligaciones, que, una vez aprobado por la dirección facultativa y aceptado por la propiedad, forma parte de los documentos contractuales (art. 5.1). Debe entregar los residuos a un gestor o participar en un acuerdo de colaboración, y destinarlos preferentemente a reutilización, reciclado u otra valorización (art. 5.2). La entrega debe constar en documento fehaciente con la identificación de las partes, la obra, la cantidad, el tipo de residuo y el gestor de destino (art. 5.3).",
+        "La separación en fracciones es obligatoria cuando la cantidad prevista para la obra supera ciertos umbrales por fracción: 80 toneladas de hormigón, 40 de ladrillos, tejas y cerámicos, 2 de metal, 1 de madera, 1 de vidrio, 0,5 de plástico y 0,5 de papel y cartón (art. 5.5). El órgano ambiental autonómico puede eximir de esta obligación de forma excepcional, si no estaba especificada ni presupuestada en el proyecto (art. 5.6).",
+        "La Ley 22/2011 establece la jerarquía de residuos: prevención, preparación para la reutilización, reciclado, otro tipo de valorización y, por último, eliminación (art. 8.1). Fija como objetivo que, antes de 2020, la cantidad de residuos de construcción y demolición no peligrosos destinados a preparación para la reutilización, reciclado y otra valorización alcance el 70 % en peso de los producidos (art. 22.1.b). El texto del RD 105/2008 cita la Ley 10/1998, que la Ley 22/2011 sustituye. Esta sustitución debe tenerse en cuenta al citar las remisiones de la norma reglamentaria."
+      ]
+    },
+    {
+      "titulo": "11. Cómo estudiarlo para el examen",
+      "parrafos": [
+        "Las preguntas de este tema suelen pedir la definición de conceptos y la identificación del responsable de cada obligación. Conviene memorizar tres definiciones: la de acondicionamiento del terreno del DB-SE-C (apartado 7.1), la de obra de construcción o demolición del RD 105/2008 (art. 2.c) y la de productor de residuos (art. 2.e). Con esas tres, se responden la mayoría de las preguntas de definición.",
+        "Para los responsables, la clave es el orden: el promotor está obligado a que se elabore el estudio de seguridad (RD 1627/1997, art. 4.1); el estudio geotécnico lo redacta el proyectista u otro técnico competente (DB-SE-C, apartado 3.1, punto 6); el productor de residuos, que es el titular de la licencia, tiene las obligaciones del artículo 4 del RD 105/2008; el poseedor, que ejecuta la obra, tiene las del artículo 5; y el director de la ejecución controla la obra según el CTE (art. 7.3) y la LOE (art. 13).",
+        "Los errores habituales son tres. El primero es atribuir al poseedor la obligación de hacer el estudio de gestión, que corresponde al productor en el proyecto. El segundo es afirmar que el estudio de seguridad es obligatorio en todas las obras, cuando el RD 1627/1997 prevé el estudio básico en los casos menores (art. 4.2). El tercero es creer que el DB-SE-C trata la demolición: el documento se ocupa de cimientos, excavaciones, rellenos y contenciones, no del derribo.",
+        "Para un caso práctico de demolición con edificios colindantes, el orden de análisis es: identificar el productor y el poseedor; comprobar si hay estudio de seguridad o estudio básico; prever los trabajos de derribo bajo supervisión de persona competente (anexo IV, apartado 12.a); incluir el inventario de peligrosos (RD 105/2008, art. 4.1.b); y, finalmente, el estudio geotécnico y el estudio específico del acondicionamiento si hay construcciones vecinas (DB-SE-C, apartado 7.1, punto 2)."
+      ]
+    },
+    {
+      "titulo": "12. Síntesis de verificación normativa y textos oficiales del tema",
+      "parrafos": [
+        "Todas las normas principales y complementarias citadas en este tema se encuentran descargadas, verificadas e indexadas artículo por artículo en la biblioteca normativa del repositorio (7 disposiciones oficiales vinculadas directamente al tema E01).",
+        "Marco normativo verificado en texto oficial para este tema: Código Técnico de la Edificación (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación): Exigencias básicas y documentos básicos (arts. 3, 5, 6, 7, 8 y 10); Documento Básico SE-C Cimientos del Código Técnico de la Edificación (Documento Básico SE-C Cimientos del Código Técnico de la Edificación, versión de diciembre de 2019 (publicado por el Ministerio en codigotecnico.org; no es un texto del BOE)): Acondicionamiento del terreno, excavaciones y rellenos (apartados 3, 7.1 a 7.3); Ley de Ordenación de la Edificación (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)): Director de la ejecución de la obra (arts. 2 y 13); Ley de Prevención de Riesgos Laborales (Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales (BOE núm. 269, de 10 de noviembre de 1995)): Marco de la prevención de riesgos laborales (art. 16, en parte); Disposiciones mínimas de seguridad y salud en las obras de construcción (Real Decreto 1627/1997, de 24 de octubre, por el que se establecen disposiciones mínimas de seguridad y de salud en las obras de construcción (BOE núm. 256, de 25 de octubre de 1997)): Seguridad y salud en las obras: estudio, plan, excavaciones y demoliciones (arts. 4, 5, 7 y anexo IV, apartados 9 y 12); Producción y gestión de los residuos de construcción y demolición (Real Decreto 105/2008, de 1 de febrero, por el que se regula la producción y gestión de los residuos de construcción y demolición (BOE núm. 38, de 13 de febrero de 2008)): Producción y gestión de los residuos de construcción y demolición (arts. 2, 4 y 5); Ley de residuos y suelos contaminados (Ley 22/2011, de 28 de julio, de residuos y suelos contaminados (BOE núm. 181, de 29 de julio de 2011)): Residuos y suelos contaminados: definiciones, jerarquía y objetivos (arts. 3, 8 y 22).",
+        "Cada cita normativa del resumen y del desarrollo extenso cuenta con enlace directo al articulado extraído del PDF oficial (BOE, BOJA o Código Técnico de la Edificación) para su consulta inmediata sin salir del tema."
+      ]
+    }
+  ],
+  "fuentes": [
+    {
+      "nombre": "Código Técnico de la Edificación",
+      "url": "https://www.boe.es/eli/es/rd/2006/03/17/314/con",
+      "pdf": "leyes/BOE-A-2006-5515.pdf"
+    },
+    {
+      "nombre": "Documento Básico SE-C Cimientos del Código Técnico de la Edificación",
+      "url": "https://www.codigotecnico.org/DocumentosCTE/SeguridadEstructural.html",
+      "pdf": "leyes/DB-SE-C-diciembre-2019.pdf"
+    },
+    {
+      "nombre": "Ley de Ordenación de la Edificación",
+      "url": "https://www.boe.es/eli/es/l/1999/11/05/38/con",
+      "pdf": "leyes/BOE-A-1999-21567.pdf"
+    },
+    {
+      "nombre": "Ley de Prevención de Riesgos Laborales",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "pdf": "leyes/BOE-A-1995-24292.pdf"
+    },
+    {
+      "nombre": "Disposiciones mínimas de seguridad y salud en las obras de construcción",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-22614",
+      "pdf": "leyes/BOE-A-1997-22614.pdf"
+    },
+    {
+      "nombre": "Producción y gestión de los residuos de construcción y demolición",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-2486",
+      "pdf": "leyes/BOE-A-2008-2486.pdf"
+    },
+    {
+      "nombre": "Ley de residuos y suelos contaminados",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-13046",
+      "pdf": "leyes/BOE-A-2011-13046.pdf"
+    }
+  ]
+}

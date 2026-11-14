@@ -1,0 +1,434 @@
+[
+  {
+    "pregunta": "¿Cuántas capas tiene el modelo TCP/IP habitual?",
+    "opciones": [
+      "Siete",
+      "Tres",
+      "Seis",
+      "Cuatro"
+    ],
+    "correcta": 3,
+    "explicacion": "El modelo TCP/IP suele describirse con cuatro capas.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "¿Qué arquitectura separa al cliente que solicita servicios del servidor que los presta?",
+    "opciones": [
+      "Cliente-servidor",
+      "Peer to peer puro",
+      "Monolítica sin red",
+      "Mainframe aislado"
+    ],
+    "correcta": 0,
+    "explicacion": "En la arquitectura cliente-servidor, el cliente solicita y el servidor responde.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "¿Cuántos bits tiene un byte?",
+    "opciones": [
+      "Cuatro",
+      "Ocho",
+      "Dieciséis",
+      "Dos"
+    ],
+    "correcta": 1,
+    "explicacion": "Un byte está formado por ocho bits.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "¿Qué unidad de la CPU realiza las operaciones aritméticas y lógicas?",
+    "opciones": [
+      "La unidad aritmético-lógica (ALU)",
+      "La unidad de control",
+      "El bus de datos",
+      "La memoria caché"
+    ],
+    "correcta": 0,
+    "explicacion": "La ALU ejecuta las operaciones aritméticas y lógicas.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "¿Qué unidad de la CPU interpreta y coordina la ejecución de las instrucciones?",
+    "opciones": [
+      "La ALU",
+      "La unidad de control",
+      "El disco duro",
+      "La tarjeta de red"
+    ],
+    "correcta": 1,
+    "explicacion": "La unidad de control interpreta las instrucciones y coordina los componentes.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "¿Qué memoria de solo lectura contiene el firmware de arranque?",
+    "opciones": [
+      "La ROM",
+      "La RAM",
+      "La caché L1",
+      "El disco SSD"
+    ],
+    "correcta": 0,
+    "explicacion": "La ROM es memoria de solo lectura que conserva el firmware.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "¿Qué memoria de alta velocidad se sitúa entre la CPU y la RAM?",
+    "opciones": [
+      "El disco duro",
+      "La memoria virtual",
+      "La ROM",
+      "La memoria caché"
+    ],
+    "correcta": 3,
+    "explicacion": "La caché almacena los datos de uso frecuente para acelerar el acceso.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "¿Qué dispositivo de almacenamiento no tiene partes móviles?",
+    "opciones": [
+      "El disco duro magnético",
+      "La cinta magnética",
+      "El disquete",
+      "El disco de estado sólido (SSD)"
+    ],
+    "correcta": 3,
+    "explicacion": "El SSD almacena en memoria flash, sin partes mecánicas.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "¿Qué red cubre un área reducida, como un edificio?",
+    "opciones": [
+      "Una WAN",
+      "Una red de área local (LAN)",
+      "Una red troncal intercontinental",
+      "Una red satelital global"
+    ],
+    "correcta": 1,
+    "explicacion": "La LAN conecta equipos en un área limitada.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "¿Qué dispositivo interconecta redes distintas y encamina paquetes?",
+    "opciones": [
+      "El router o encaminador",
+      "El monitor",
+      "El teclado",
+      "El escáner"
+    ],
+    "correcta": 0,
+    "explicacion": "El router encamina paquetes entre redes diferentes.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "¿Qué capa del modelo OSI se encarga del encaminamiento de paquetes?",
+    "opciones": [
+      "La capa de red",
+      "La capa física",
+      "La capa de aplicación",
+      "La capa de presentación"
+    ],
+    "correcta": 0,
+    "explicacion": "La capa 3, de red, realiza el encaminamiento.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "¿Qué sistema de numeración usa los dígitos 0 a 9 y las letras A a F?",
+    "opciones": [
+      "Hexadecimal",
+      "Binario",
+      "Octal",
+      "Decimal"
+    ],
+    "correcta": 0,
+    "explicacion": "El sistema hexadecimal es de base 16.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "¿Qué tecnología permite ejecutar varios sistemas operativos en una misma máquina física?",
+    "opciones": [
+      "La compresión",
+      "La desfragmentación",
+      "El cifrado",
+      "La virtualización"
+    ],
+    "correcta": 3,
+    "explicacion": "La virtualización crea máquinas virtuales sobre un mismo hardware.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "¿Qué tipo de software se distribuye con libertad para usarlo, estudiarlo, modificarlo y redistribuirlo?",
+    "opciones": [
+      "Software propietario",
+      "Software libre",
+      "Shareware con licencia cerrada",
+      "Firmware"
+    ],
+    "correcta": 1,
+    "explicacion": "El software libre garantiza esas libertades a los usuarios.",
+    "referencia": "Tema c22"
+  },
+  {
+    "pregunta": "Respecto a «Conceptos y componentes» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "Atribución de competencias (art. 5.1 TUE). Subsidiariedad y proporcionalidad en su ejercicio (arts. 5.1 y 5.3 TUE)",
+      "Municipios y provincias tienen autonomía garantizada por la Constitución (arts. 137, 140 y 141 CE)",
+      "Un sistema informático combina hardware, software, datos, redes y personas, junto con los procedimientos que ordenan su uso",
+      "Procedimiento ordinario: iniciativa del Gobierno, de un tercio del Parlamento o de las Cortes; dos tercios del Parlamento; ley orgánica de las Cortes;…"
+    ],
+    "correcta": 2,
+    "explicacion": "Un sistema informático combina hardware, software, datos, redes y personas, junto con los procedimientos que ordenan su uso.",
+    "referencia": "LAJA · Conceptos y componentes"
+  },
+  {
+    "pregunta": "Respecto a «Funcionamiento general» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "Recurso de alzada en diez días, resoluble en veinte; la adquisición amistosa puede convenirse en cualquier momento (arts. 22 y 24 LEF)",
+      "El esquema es entrada, proceso y salida. Un programa debe estar en memoria principal para ejecutarse; el sistema operativo gestiona procesos, memoria,…",
+      "Cada Consejería encomienda sus funciones a uno de sus órganos directivos, en los términos que fije el reglamento (art. 60.2). La Junta garantiza el…",
+      "Todo trato desfavorable relacionado con el embarazo o la maternidad es discriminación directa (art. 8 LO 3/2007). Es discriminatorio también el trato…"
+    ],
+    "correcta": 1,
+    "explicacion": "El esquema es entrada, proceso y salida. Un programa debe estar en memoria principal para ejecutarse; el sistema operativo gestiona procesos, memoria, dispositivos y ficheros.",
+    "referencia": "LAJA · Funcionamiento general"
+  },
+  {
+    "pregunta": "Respecto a «Tipos y niveles de arquitectura» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "Centralizada (un gran equipo concentra el proceso), distribuida (el proceso se reparte) y cliente-servidor (el cliente pide y el servidor responde)",
+      "Nulidad de pleno derecho (art. 47.1), anulabilidad (art. 48.1), convalidación del anulable (art. 52.1)",
+      "Objetividad al interés general, eficacia, eficiencia, racionalidad organizativa, jerarquía, simplificación, desconcentración y coordinación (art. 133.1)",
+      "Solo pueden celebrarse los contratos necesarios para los fines institucionales, con necesidad e idoneidad determinadas antes de iniciar el procedimiento…"
+    ],
+    "correcta": 0,
+    "explicacion": "Centralizada (un gran equipo concentra el proceso), distribuida (el proceso se reparte) y cliente-servidor (el cliente pide y el servidor responde).",
+    "referencia": "un gran equipo concentra el proceso"
+  },
+  {
+    "pregunta": "Respecto a «Procesos cooperativos y cliente-servidor» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "Sus actos deben estar refrendados. Funciones regladas: sancionar y promulgar leyes, convocar y disolver las Cortes, convocar referéndum, proponer el…",
+      "Capital: Sevilla, sede del Parlamento, de la Presidencia de la Junta y del Consejo de Gobierno (art. 4)",
+      "Subvención es toda disposición dineraria a favor de personas públicas o privadas, sin contraprestación directa, sujeta a un objetivo o actividad y…",
+      "Los procesos cooperativos colaboran intercambiando mensajes y sincronizándose. El cliente y el servidor son roles de procesos, no necesariamente de…"
+    ],
+    "correcta": 3,
+    "explicacion": "Los procesos cooperativos colaboran intercambiando mensajes y sincronizándose. El cliente y el servidor son roles de procesos, no necesariamente de máquinas distintas.",
+    "referencia": "LAJA · Procesos cooperativos y cliente-servidor"
+  },
+  {
+    "pregunta": "Respecto a «Tendencias» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "Asamblea Legislativa, Consejo de Gobierno y Presidente elegido por la Asamblea (art. 152)",
+      "Arquitecturas orientadas a servicios y microservicios; virtualización y contenedores; computación en la nube (IaaS, PaaS y SaaS) en modelos públicos,…",
+      "Cláusula residual (art. 149.3): lo no asumido por los Estatutos corresponde al Estado. Leyes marco y transferencias (art. 150)",
+      "Reforma ordinaria (art. 167): aprobación por tres quintos de cada Cámara"
+    ],
+    "correcta": 1,
+    "explicacion": "Arquitecturas orientadas a servicios y microservicios; virtualización y contenedores; computación en la nube (IaaS, PaaS y SaaS) en modelos públicos, privados o híbridos.",
+    "referencia": "LAJA · Tendencias"
+  },
+  {
+    "pregunta": "Respecto a «Administración electrónica en Andalucía» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "CGPJ: presidido por el Presidente del Tribunal Supremo y con 20 miembros nombrados por el Rey por cinco años (art. 122.3)",
+      "El reconocimiento de responsabilidad o el pago voluntario terminan el procedimiento (art. 85 LPAC). La resolución valora las pruebas y fija hechos,…",
+      "Iniciativa: Gobierno, Congreso y Senado; las Asambleas autonómicas pueden solicitarla (art. 87)",
+      "La LAJA orienta la aplicación de las tecnologías a la eficacia y a la accesibilidad, con los principios de simplificación, libre acceso, accesibilidad…"
+    ],
+    "correcta": 3,
+    "explicacion": "La LAJA orienta la aplicación de las tecnologías a la eficacia y a la accesibilidad, con los principios de simplificación, libre acceso, accesibilidad universal, confidencialidad, seguridad y autenticidad (art. 7 LAJA).",
+    "referencia": "LAJA · Administración electrónica en Andalucía"
+  },
+  {
+    "pregunta": "Respecto a «Qué es un sistema informático» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "Para un examen, la definición completa exige mencionar que el sistema incluye a las personas y a los procedimientos, no solo a las máquinas",
+      "Cada Consejería encomienda sus funciones a uno de sus órganos directivos, en los términos que fije el reglamento (art. 60.2). La Junta garantiza el…",
+      "El personal laboral se rige por la legislación laboral y por el convenio colectivo propio de la Junta (art. 103 Ley 5/2023 y art. 7 EBEP). La negociación…",
+      "La función social de la propiedad delimita su contenido de acuerdo con las leyes (art. 33.2 CE)"
+    ],
+    "correcta": 0,
+    "explicacion": "Para un examen, la definición completa exige mencionar que el sistema incluye a las personas y a los procedimientos, no solo a las máquinas.",
+    "referencia": "LAJA · Qué es un sistema informático"
+  },
+  {
+    "pregunta": "Respecto a «Modelos de dos y tres capas» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "Iniciación: de oficio o a solicitud; subsanación en diez días (art. 68.1 LPAC)",
+      "La Administración sirve con objetividad los intereses generales (art. 103.1 CE). La ley regula el estatuto de los funcionarios, el acceso por mérito y…",
+      "Es sencillo, pero el cliente es pesado y cada cambio exige distribuir de nuevo la aplicación",
+      "Información institucional y organizativa, con organigrama actualizado (art. 10 LTPA). Catálogo de procedimientos con plazos y cartas de servicio (art. 14…"
+    ],
+    "correcta": 2,
+    "explicacion": "Es sencillo, pero el cliente es pesado y cada cambio exige distribuir de nuevo la aplicación.",
+    "referencia": "LAJA · Modelos de dos y tres capas"
+  },
+  {
+    "pregunta": "Respecto a «Interoperabilidad e integración de sistemas» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "El contratista responde de los daños a terceros; la Administración responde por órdenes directas y vicios del proyecto (art. 196 LCSP). El artículo 35…",
+      "La Administración electrónica exige interoperabilidad entre administraciones",
+      "La Junta lleva a cabo la mejora continua de la calidad mediante sistemas de gestión y evaluación aprobados por el Consejo de Gobierno (art. 6.1 LAJA)",
+      "La discrecionalidad no es arbitrariedad: exige razonabilidad, motivación y ajuste al fin de la norma (arts. 9.3 y 106.1 CE)"
+    ],
+    "correcta": 1,
+    "explicacion": "La Administración electrónica exige interoperabilidad entre administraciones.",
+    "referencia": "LAJA · Interoperabilidad e integración de sistemas"
+  },
+  {
+    "pregunta": "Respecto a «Datos, protección y calidad en la arquitectura» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "Forma política: monarquía parlamentaria (art. 1.3)",
+      "Principio garantizado por el art. 9.3 CE: la norma inferior no puede contradecir la superior",
+      "Un sistema administrativo que trata datos de ciudadanos debe respetar la normativa de protección de datos, y el artículo 7.3 LAJA lo exige en las…",
+      "Sistemas de trabajo en grupo (groupware) para la colaboración; flujos de trabajo (workflow) para ordenar las tareas de un procedimiento"
+    ],
+    "correcta": 2,
+    "explicacion": "Un sistema administrativo que trata datos de ciudadanos debe respetar la normativa de protección de datos, y el artículo 7.3 LAJA lo exige en las relaciones electrónicas con la Junta.",
+    "referencia": "LAJA · Datos, protección y calidad en la arquitectura"
+  },
+  {
+    "pregunta": "Respecto a «Otras tendencias: arquitectura orientada a eventos y datos masivos» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "Parlamento: mínimo de 109 diputados, elegidos por cuatro años, sin mandato imperativo (art. 101)",
+      "Facilita la integración de sistemas, aunque exige gestionar la coherencia de los datos",
+      "El plazo es de quince días con precio único y de dos meses con varios criterios (art. 158 LCSP). El contrato se perfecciona con su formalización (art.…",
+      "La Junta determina los supuestos y causas de la potestad expropiatoria, los criterios de valoración y crea su órgano de justiprecio (art. 47.3 EA). Son…"
+    ],
+    "correcta": 1,
+    "explicacion": "Facilita la integración de sistemas, aunque exige gestionar la coherencia de los datos.",
+    "referencia": "LAJA · Otras tendencias: arquitectura orientada a eventos y datos masivos"
+  },
+  {
+    "pregunta": "Respecto a «Seguridad, disponibilidad y continuidad» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "El esquema nacional de seguridad de la Administración electrónica exige aplicarlas, pero su texto no está en el repositorio y Su texto completo está…",
+      "Los principios rectores solo pueden alegarse ante la jurisdicción ordinaria, de acuerdo con lo que dispongan las leyes que los desarrollen (art. 53.3)",
+      "Solo pueden celebrarse los contratos necesarios para los fines institucionales, con necesidad e idoneidad determinadas antes de iniciar el procedimiento…",
+      "La igualdad es principio informador del ordenamiento: se integra en la interpretación y aplicación de las normas (art. 4). El requisito profesional…"
+    ],
+    "correcta": 0,
+    "explicacion": "El esquema nacional de seguridad de la Administración electrónica exige aplicarlas, pero su texto (su texto completo está indexado y disponible en el visor de normas del repositorio).",
+    "referencia": "LAJA · Seguridad, disponibilidad y continuidad"
+  },
+  {
+    "pregunta": "En relación con «El artículo 7.2 LAJA fija los principios de las relaciones a través de redes abiertas» (La administración electrónica en la Junta de Andalucía), ¿qué establece la normativa estudiada en el tema?",
+    "opciones": [
+      "Las bases de datos son gestionadas por un sistema gestor (SGBD), que controla el acceso, la integridad y la concurrencia",
+      "simplificación y agilización de trámites, libre acceso, accesibilidad universal, confidencialidad, seguridad y autenticidad",
+      "Se conecta con el tema c20 sobre función pública, porque el personal de la Junta usa y administra estos sistemas, y su régimen está en la Ley 5/2023",
+      "El artículo 41.1 LRJSP define la actuación administrativa automatizada como cualquier acto o actuación realizada íntegramente por medios electrónicos en…"
+    ],
+    "correcta": 1,
+    "explicacion": "El artículo 7.2 LAJA fija los principios de las relaciones a través de redes abiertas: simplificación y agilización de trámites, libre acceso, accesibilidad universal, confidencialidad, seguridad y autenticidad.",
+    "referencia": "LAJA · La administración electrónica en la Junta de Andalucía"
+  },
+  {
+    "pregunta": "Respecto a «La administración electrónica en la Junta de Andalucía» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "El expediente se inicia motivando la necesidad, se publica en el perfil de contratante y se completa con los pliegos (art. 116 LCSP)",
+      "TC: doce miembros, nueve años de mandato, renovación por terceras partes cada tres años (art. 159)",
+      "El artículo 7.3 LAJA exige que se respete la normativa de protección de datos y de la sociedad de la información",
+      "Principios de la LTPA: transparencia, libre acceso, responsabilidad, veracidad, utilidad y gratuidad, entre otros (art. 6 LTPA)"
+    ],
+    "correcta": 2,
+    "explicacion": "El artículo 7.3 LAJA exige que se respete la normativa de protección de datos y de la sociedad de la información.",
+    "referencia": "LAJA · La administración electrónica en la Junta de Andalucía"
+  },
+  {
+    "pregunta": "Respecto a «Relacionarse electrónicamente con la Administración» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "La Administración sirve con objetividad los intereses generales (art. 103.1 CE). La ley regula el estatuto de los funcionarios, el acceso por mérito y…",
+      "Riesgo grave e inminente: el que se materializará en un futuro inmediato y puede suponer un daño grave (art. 4.4.º LPRL)",
+      "El artículo 14.1 LPAC reconoce a las personas físicas el derecho a elegir si se comunican con la Administración por medios electrónicos o no, salvo que…",
+      "El marco es la LPAC (identificación, derechos, registros, archivo), la LRJSP (sede, portal, automatización, interoperabilidad y seguridad) y la LAJA…"
+    ],
+    "correcta": 2,
+    "explicacion": "El artículo 14.1 LPAC reconoce a las personas físicas el derecho a elegir si se comunican con la Administración por medios electrónicos o no, salvo que estén obligadas a relacionarse electrónicamente.",
+    "referencia": "LAJA · Relacionarse electrónicamente con la Administración"
+  },
+  {
+    "pregunta": "Respecto a «La actuación administrativa automatizada» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "El TC controla las leyes autonómicas y resuelve los conflictos de competencia (arts. 153.a y 161.1.c)",
+      "Notificación en diez días con el texto íntegro y los recursos (art. 40.2). Publicación cuando lo establece la norma o lo aconsejan razones de interés…",
+      "El artículo 41.1 LRJSP define la actuación administrativa automatizada como cualquier acto o actuación realizada íntegramente por medios electrónicos en…",
+      "Sus actos deben estar refrendados. Funciones regladas: sancionar y promulgar leyes, convocar y disolver las Cortes, convocar referéndum, proponer el…"
+    ],
+    "correcta": 2,
+    "explicacion": "El artículo 41.1 LRJSP define la actuación administrativa automatizada como cualquier acto o actuación realizada íntegramente por medios electrónicos en el marco de un procedimiento, sin intervención directa de un empleado público.",
+    "referencia": "LAJA · La actuación administrativa automatizada"
+  },
+  {
+    "pregunta": "Respecto a «Errores frecuentes en el examen» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "La obligación se aplica a los sujetos del artículo 14.2 LPAC",
+      "Ratificada en referéndum el 6 de diciembre de 1978 y publicada en el BOE el 29 de diciembre de 1978",
+      "Conjunto de normas que regulan la organización, la actividad y el control de la Administración",
+      "Presidente de la Junta elegido por el Parlamento; mayoría absoluta en primera votación y mayoría simple en la segunda (art. 118)"
+    ],
+    "correcta": 0,
+    "explicacion": "La obligación se aplica a los sujetos del artículo 14.2 LPAC.",
+    "referencia": "LAJA · Errores frecuentes en el examen"
+  },
+  {
+    "pregunta": "Respecto a «Cuestiones tipo de examen» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "El contenido del convenio no está verificado en este tema y debe consultarse en el texto vigente",
+      "Si no se aprueba antes del primer día del ejercicio, se prorroga automáticamente el del año anterior (art. 37 LGHPA; art. 190.5 EA)",
+      "¿Qué principios rigen las relaciones electrónicas de la Junta? Los del artículo 7.2 LAJA",
+      "Reglamento obligatorio en todos sus elementos y directamente aplicable; directiva necesitada de transposición; decisión obligatoria para su destinatario;…"
+    ],
+    "correcta": 2,
+    "explicacion": "¿Qué principios rigen las relaciones electrónicas de la Junta? Los del artículo 7.2 LAJA.",
+    "referencia": "LAJA · Cuestiones tipo de examen"
+  },
+  {
+    "pregunta": "Respecto a «Relación con otros temas del programa» en el tema 22 (Bloque Común), señale la afirmación correcta:",
+    "opciones": [
+      "Se conecta con el tema c20 sobre función pública, porque el personal de la Junta usa y administra estos sistemas, y su régimen está en la Ley 5/2023",
+      "La alteración de los límites provinciales requiere ley orgánica de las Cortes Generales (art. 141.1 CE)",
+      "Son contratos administrativos los celebrados por una Administración de obra, concesión, suministro y servicios, con excepciones (art. 25.1 LCSP). En los…",
+      "La igualdad es principio informador del ordenamiento: se integra en la interpretación y aplicación de las normas (art. 4). El requisito profesional…"
+    ],
+    "correcta": 0,
+    "explicacion": "Se conecta con el tema c20 sobre función pública, porque el personal de la Junta usa y administra estos sistemas, y su régimen está en la Ley 5/2023.",
+    "referencia": "LAJA · Relación con otros temas del programa"
+  },
+  {
+    "pregunta": "Dentro del tema 22, ¿qué materia específica regula la norma «Ley de la Administración de la Junta de Andalucía» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007))?",
+    "opciones": [
+      "Aprobación de los aranceles notariales y registrales de ámbito mercantil",
+      "Complementaria: actuación administrativa automatizada (art. 41)",
+      "Complementaria: relación electrónica con la Administración (art. 14)",
+      "Complementaria: administración electrónica (art. 7)"
+    ],
+    "correcta": 3,
+    "explicacion": "Ley de la Administración de la Junta de Andalucía (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)): Complementaria: administración electrónica (art. 7).",
+    "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+  },
+  {
+    "pregunta": "Dentro del tema 22, ¿qué materia específica regula la norma «Ley del Procedimiento Administrativo Común» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015))?",
+    "opciones": [
+      "Aprobación de los aranceles notariales y registrales de ámbito mercantil",
+      "Regulación del régimen electoral general y de las cámaras legislativas estatales",
+      "Complementaria: relación electrónica con la Administración (art. 14)",
+      "Complementaria: administración electrónica (art. 7)"
+    ],
+    "correcta": 2,
+    "explicacion": "Ley del Procedimiento Administrativo Común (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)): Complementaria: relación electrónica con la Administración (art. 14).",
+    "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+  },
+  {
+    "pregunta": "Dentro del tema 22, ¿qué materia específica regula la norma «Ley de Régimen Jurídico del Sector Público» (Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público (BOE núm. 236, de 2 de octubre de 2015))?",
+    "opciones": [
+      "Complementaria: administración electrónica (art. 7)",
+      "Complementaria: actuación administrativa automatizada (art. 41)",
+      "Complementaria: relación electrónica con la Administración (art. 14)",
+      "Regulación del régimen electoral general y de las cámaras legislativas estatales"
+    ],
+    "correcta": 1,
+    "explicacion": "Ley de Régimen Jurídico del Sector Público (Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público (BOE núm. 236, de 2 de octubre de 2015)): Complementaria: actuación administrativa automatizada (art. 41).",
+    "referencia": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público (BOE núm. 236, de 2 de octubre de 2015)"
+  }
+]

@@ -1,0 +1,580 @@
+{
+  "id": "e18",
+  "resumen": [
+    {
+      "titulo": "Marco normativo",
+      "puntos": [
+        "La LPRL (Ley 31/1995) fija los principios de la acción preventiva. Para las obras de construcción, el RD 1627/1997 establece las disposiciones mínimas de seguridad y salud (art. 1). Para los lugares de trabajo, el RD 486/1997.",
+        "El RD 1627/1997 remite a los RD 1215/1997 (equipos de trabajo) y 773/1997 (EPI), y el RD 486/1997 a la señalización del RD 485/1997."
+      ]
+    },
+    {
+      "titulo": "Lugares de trabajo y primeros auxilios",
+      "puntos": [
+        "El RD 486/1997 exige condiciones constructivas seguras frente a resbalones, caídas, choques y derrumbamientos (art. 4), y orden, limpieza, mantenimiento, iluminación e instalaciones de servicio (arts. 5, 6 y 8).",
+        "Botiquín portátil mínimo en todo lugar de trabajo; local de primeros auxilios en los lugares de más de 50 trabajadores (anexo VI, apartados A.3 y A.5)."
+      ]
+    },
+    {
+      "titulo": "Principios de la acción preventiva y protecciones",
+      "puntos": [
+        "Nueve principios de la acción preventiva (LPRL, art. 15.1): evitar, evaluar, combatir en origen, adaptar el trabajo a la persona, técnica, sustituir, planificar, proteger colectivamente antes que individualmente, e instruir.",
+        "Los EPI se usan cuando el riesgo no se puede evitar ni limitar suficientemente por medios de protección colectiva o de organización (LPRL, art. 17.2). El anexo IV del RD 1627/1997 fija las disposiciones mínimas por tipo de trabajo."
+      ]
+    },
+    {
+      "titulo": "Emergencias y riesgo grave e inminente",
+      "puntos": [
+        "El empresario analiza las emergencias, designa personal, lo forma y comprueba periódicamente el material (LPRL, art. 20).",
+        "Ante un riesgo grave e inminente, los trabajadores pueden interrumpir su actividad y abandonar el lugar de trabajo (LPRL, art. 21.1, letra b). El coordinador o la dirección facultativa pueden paralizar los tajos (RD 1627/1997, art. 14)."
+      ]
+    },
+    {
+      "titulo": "Estudio y estudio básico",
+      "puntos": [
+        "Estudio de seguridad si el presupuesto alcanza 75 millones de pesetas, si la duración supera 30 días laborables con más de 20 trabajadores, si el volumen supera 500 jornadas, o en túneles, galerías, conducciones subterráneas y presas (art. 4.1). En los demás casos, estudio básico (art. 4.2).",
+        "El estudio contiene memoria, pliego, planos, mediciones y presupuesto (art. 5.2); forma parte del proyecto (art. 5.3). Su presupuesto se valora unitariamente, con partidas alzadas solo para difícil previsión (art. 5.4). Sin visado ni licencia sin el estudio (art. 17)."
+      ]
+    },
+    {
+      "titulo": "Plan de seguridad y coordinadores",
+      "puntos": [
+        "Cada contratista elabora su plan (art. 7.1), que aprueba el coordinador de ejecución antes del inicio (art. 7.2). El coordinador de proyecto se designa si intervienen varios proyectistas; el de ejecución, si intervienen varias empresas o autónomos (art. 3).",
+        "Libro de incidencias en cada centro de trabajo (art. 13): lo custodia el coordinador y se remite copia a la Inspección en 24 horas cuando procede (art. 13.3 y 13.4)."
+      ]
+    },
+    {
+      "titulo": "Obligaciones de empresas, autónomos y trabajadores",
+      "puntos": [
+        "Contratistas y subcontratistas cumplen y hacen cumplir el plan, responden solidariamente de su incumplimiento (art. 11) y deben informar a los trabajadores (art. 15).",
+        "Los trabajadores autónomos cumplen el anexo IV, las obligaciones del artículo 29 de la LPRL y el plan (art. 12 RD 1627/1997)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "LPRL",
+      "rol": "Principios de la acción preventiva, protecciones, emergencias y riesgo grave e inminente (arts. 15, 17, 20 y 21)"
+    },
+    {
+      "id": "RD-1627-1997",
+      "rol": "Estudio y plan de seguridad, coordinadores, libro de incidencias, paralización y obligaciones (arts. 3 a 17 y anexo IV)"
+    },
+    {
+      "id": "RD-486-1997",
+      "rol": "Disposiciones mínimas de los lugares de trabajo: condiciones, servicios, primeros auxilios (arts. 3 a 10 y anexo VI)"
+    },
+    {
+      "id": "RD-39-1997",
+      "rol": "Reglamento de los Servicios de Prevención"
+    },
+    {
+      "id": "RD-485-1997",
+      "rol": "Disposiciones mínimas en materia de señalización de seguridad y salud en el trabajo"
+    },
+    {
+      "id": "RD-773-1997",
+      "rol": "Disposiciones mínimas de seguridad y salud relativas a la utilización de equipos de protección individual (EPI)"
+    },
+    {
+      "id": "RD-1215-1997",
+      "rol": "Disposiciones mínimas de seguridad y salud para la utilización de los equipos de trabajo"
+    },
+    {
+      "id": "RD-171-2004",
+      "rol": "Desarrollo del artículo 24 de la LPRL en materia de coordinación de actividades empresariales"
+    },
+    {
+      "id": "L-32-2006",
+      "articulos": "Texto íntegro de aplicación al tema",
+      "rol": "Ley reguladora de la subcontratación en el Sector de la Construcción"
+    },
+    {
+      "id": "RD-1109-2007",
+      "articulos": "Texto íntegro de aplicación al tema",
+      "rol": "Reglamento de la Ley 32/2006, reguladora de la subcontratación en el Sector de la Construcción"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según la LPRL, art. 15.1, letra h, ¿qué principio de la acción preventiva debe aplicarse?",
+      "opciones": [
+        "Anteponer la protección colectiva a la individual",
+        "Eliminar cualquier equipo de protección",
+        "Evaluar solo los riesgos que ya han causado daños",
+        "Anteponer la protección individual a la colectiva"
+      ],
+      "correcta": 0,
+      "explicacion": "El empresario debe adoptar medidas que antepongan la protección colectiva a la individual (LPRL, art. 15.1, letra h).",
+      "referencia": "LPRL, art. 15.1, letra h)"
+    },
+    {
+      "pregunta": "Según el RD 486/1997, anexo VI, apartado A.3, ¿qué debe tener como mínimo todo lugar de trabajo para primeros auxilios?",
+      "opciones": [
+        "Nada, si hay menos de diez trabajadores",
+        "Un quirófano",
+        "Un botiquín portátil con desinfectantes, antisépticos autorizados, gasas, venda y otros elementos básicos",
+        "Una ambulancia propia"
+      ],
+      "correcta": 2,
+      "explicacion": "Todo lugar de trabajo debe disponer, como mínimo, de un botiquín portátil con los elementos enumerados en el apartado A.3 del anexo VI.",
+      "referencia": "RD 486/1997, anexo VI, apartado A.3"
+    },
+    {
+      "pregunta": "Según el RD 486/1997, anexo VI, apartado A.5, ¿a partir de cuántos trabajadores deben los lugares de trabajo disponer de un local destinado a primeros auxilios?",
+      "opciones": [
+        "Más de 100 trabajadores",
+        "Más de 10 trabajadores",
+        "Más de 25 trabajadores, en todos los casos",
+        "Más de 50 trabajadores"
+      ],
+      "correcta": 3,
+      "explicacion": "Los lugares de trabajo de más de 50 trabajadores deben disponer de un local destinado a los primeros auxilios y otras atenciones sanitarias (anexo VI, apartado A.5).",
+      "referencia": "RD 486/1997, anexo VI, apartado A.5"
+    },
+    {
+      "pregunta": "Según el RD 1627/1997, art. 4.1, ¿cuál de los siguientes NO es un supuesto que obliga a elaborar un estudio de seguridad y salud?",
+      "opciones": [
+        "Un presupuesto de ejecución por contrata igual o superior a 75 millones de pesetas",
+        "Una obra de un solo día con dos trabajadores",
+        "Las obras de túneles, galerías, conducciones subterráneas y presas",
+        "Una duración superior a 30 días laborables con más de 20 trabajadores simultáneos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los supuestos del artículo 4.1 del RD 1627/1997 son el presupuesto igual o superior a 75 millones de pesetas, la duración superior a 30 días laborables con más de 20 trabajadores, el volumen superior a 500 jornadas, y las obras de túneles, galerías, conducciones subterráneas y presas. Una obra de un día con dos trabajadores no está en ellos.",
+      "referencia": "RD 1627/1997, art. 4.1"
+    },
+    {
+      "pregunta": "Según el RD 1627/1997, art. 4.2, ¿qué documento debe elaborarse en las obras que no alcanzan los supuestos del artículo 4.1?",
+      "opciones": [
+        "Un estudio básico de seguridad y salud",
+        "Ningún documento",
+        "Un plan de emergencia municipal",
+        "Un libro de visitas"
+      ],
+      "correcta": 0,
+      "explicacion": "En los proyectos de obras no incluidos en los supuestos del artículo 4.1 del RD 1627/1997, el promotor debe encargar un estudio básico de seguridad y salud (art. 4.2).",
+      "referencia": "RD 1627/1997, art. 4.2"
+    },
+    {
+      "pregunta": "Según el RD 1627/1997, art. 7.2, ¿quién debe aprobar el plan de seguridad y salud del contratista antes del inicio de la obra?",
+      "opciones": [
+        "El propio contratista",
+        "El promotor",
+        "El coordinador en materia de seguridad y salud durante la ejecución de la obra",
+        "El colegio profesional del técnico que redactó el proyecto"
+      ],
+      "correcta": 2,
+      "explicacion": "El plan debe ser aprobado, antes del inicio de la obra, por el coordinador en materia de seguridad y salud durante la ejecución (art. 7.2 del RD 1627/1997). Si no hay coordinador, lo asume la dirección facultativa.",
+      "referencia": "RD 1627/1997, art. 7.2"
+    },
+    {
+      "pregunta": "Según el RD 1627/1997, art. 3.2, ¿cuándo debe el promotor designar un coordinador en materia de seguridad y salud durante la ejecución de la obra?",
+      "opciones": [
+        "Nunca, lo hace el contratista",
+        "Solo en las obras de la Administración",
+        "Solo cuando el presupuesto supera 75 millones de pesetas",
+        "Cuando intervenga más de una empresa, o una empresa y trabajadores autónomos, o diversos autónomos"
+      ],
+      "correcta": 3,
+      "explicacion": "El promotor debe designar un coordinador durante la ejecución antes del inicio de los trabajos, o tan pronto como se constate, cuando intervenga más de una empresa, o una empresa y trabajadores autónomos, o diversos autónomos (art. 3.2 del RD 1627/1997).",
+      "referencia": "RD 1627/1997, art. 3.2"
+    },
+    {
+      "pregunta": "Según el RD 1627/1997, art. 13.4, ¿en qué plazo debe remitirse copia de determinadas anotaciones del libro de incidencias a la Inspección de Trabajo y Seguridad Social?",
+      "opciones": [
+        "No es necesario remitirla",
+        "En 24 horas",
+        "En 30 días laborables",
+        "En un año"
+      ],
+      "correcta": 1,
+      "explicacion": "Cuando la anotación se refiere a un incumplimiento de advertencias previas, o cuando se produce la paralización, debe remitirse copia a la Inspección de Trabajo y Seguridad Social en el plazo de veinticuatro horas (art. 13.4 del RD 1627/1997).",
+      "referencia": "RD 1627/1997, art. 13.4"
+    },
+    {
+      "pregunta": "Según el RD 1627/1997, art. 13.3, ¿quién tiene en su poder el libro de incidencias durante la ejecución de la obra, cuando es necesario designar coordinador?",
+      "opciones": [
+        "El promotor en su domicilio",
+        "El contratista principal",
+        "El coordinador en materia de seguridad y salud durante la ejecución de la obra",
+        "El representante de los trabajadores"
+      ],
+      "correcta": 2,
+      "explicacion": "El libro debe mantenerse siempre en la obra y estar en poder del coordinador durante la ejecución o, cuando no sea necesario designarlo, de la dirección facultativa (art. 13.3 del RD 1627/1997).",
+      "referencia": "RD 1627/1997, art. 13.3"
+    },
+    {
+      "pregunta": "Según el RD 1627/1997, art. 14.1, ¿quién puede disponer la paralización de los tajos en caso de riesgo grave e inminente?",
+      "opciones": [
+        "El coordinador de seguridad durante la ejecución o cualquier otra persona integrada en la dirección facultativa",
+        "Nadie, la obra no puede paralizarse nunca",
+        "Cualquier trabajador de la obra por su cuenta",
+        "Solo el promotor, sin informar a nadie"
+      ],
+      "correcta": 0,
+      "explicacion": "En circunstancias de riesgo grave e inminente, el coordinador durante la ejecución o cualquier persona integrada en la dirección facultativa puede disponer la paralización de los tajos o de la totalidad de la obra (art. 14.1 del RD 1627/1997).",
+      "referencia": "RD 1627/1997, art. 14.1"
+    },
+    {
+      "pregunta": "¿Qué ley fija los principios de la acción preventiva?",
+      "opciones": [
+        "La Ley 22/2011",
+        "La Ley 31/1995 (LPRL)",
+        "La Ley 40/2015",
+        "La Ley 39/2015"
+      ],
+      "correcta": 1,
+      "explicacion": "La LPRL, Ley 31/1995, fija los principios de la acción preventiva.",
+      "referencia": "LPRL"
+    },
+    {
+      "pregunta": "¿Qué real decreto establece las disposiciones mínimas de seguridad en las obras de construcción?",
+      "opciones": [
+        "El RD 1627/1997",
+        "El RD 486/1997",
+        "El RD 842/2002",
+        "El RD 919/2006"
+      ],
+      "correcta": 0,
+      "explicacion": "El RD 1627/1997 establece las disposiciones mínimas en obras de construcción.",
+      "referencia": "RD 1627/1997, art. 1"
+    },
+    {
+      "pregunta": "¿Qué real decreto establece las disposiciones mínimas en los lugares de trabajo?",
+      "opciones": [
+        "El RD 1627/1997",
+        "El RD 486/1997",
+        "El RD 842/2002",
+        "El RD 919/2006"
+      ],
+      "correcta": 1,
+      "explicacion": "El RD 486/1997 regula los lugares de trabajo.",
+      "referencia": "RD 486/1997"
+    },
+    {
+      "pregunta": "¿Qué real decreto regula los equipos de protección individual (EPI)?",
+      "opciones": [
+        "El RD 842/2002",
+        "El RD 346/2011",
+        "El RD 919/2006",
+        "El RD 773/1997"
+      ],
+      "correcta": 3,
+      "explicacion": "Los EPI se regulan por el RD 773/1997.",
+      "referencia": "RD 1627/1997"
+    },
+    {
+      "pregunta": "¿Qué condiciones constructivas seguras exige el RD 486/1997?",
+      "opciones": [
+        "Frente a resbalones, caídas, choques y derrumbamientos",
+        "Solo color",
+        "Solo luz",
+        "Ninguna"
+      ],
+      "correcta": 0,
+      "explicacion": "El RD 486/1997 exige condiciones constructivas seguras frente a resbalones, caídas, choques y derrumbamientos.",
+      "referencia": "RD 486/1997, art. 4"
+    },
+    {
+      "pregunta": "¿Qué tipo de botiquín es obligatorio en todo lugar de trabajo?",
+      "opciones": [
+        "Botiquín de lujo",
+        "Botiquín portátil mínimo",
+        "Ninguno",
+        "Solo un frasco de agua"
+      ],
+      "correcta": 1,
+      "explicacion": "Todo lugar de trabajo debe tener un botiquín portátil mínimo.",
+      "referencia": "RD 486/1997, anexo VI"
+    },
+    {
+      "pregunta": "¿Qué lugar de primeros auxilios se exige en lugares con más de 50 trabajadores?",
+      "opciones": [
+        "Un campo de fútbol",
+        "Un hangar",
+        "Un local de primeros auxilios",
+        "Ninguno"
+      ],
+      "correcta": 2,
+      "explicacion": "En los lugares con más de 50 trabajadores se exige local de primeros auxilios.",
+      "referencia": "RD 486/1997, anexo VI"
+    },
+    {
+      "pregunta": "¿Cuándo se usan los equipos de protección individual?",
+      "opciones": [
+        "Siempre",
+        "Nunca",
+        "Solo los domingos",
+        "Cuando el riesgo no se puede evitar ni limitar suficientemente por protección colectiva u organización"
+      ],
+      "correcta": 3,
+      "explicacion": "Los EPI se usan cuando el riesgo no se puede evitar ni limitar suficientemente por protección colectiva u organización.",
+      "referencia": "LPRL, art. 17.2"
+    },
+    {
+      "pregunta": "¿Qué analiza el empresario respecto a las emergencias?",
+      "opciones": [
+        "Las emergencias, designa y forma al personal, y comprueba el material",
+        "Nada",
+        "Solo el tiempo",
+        "Solo los precios"
+      ],
+      "correcta": 0,
+      "explicacion": "El empresario analiza las emergencias, designa personal, lo forma y comprueba periódicamente el material.",
+      "referencia": "LPRL, art. 20"
+    },
+    {
+      "pregunta": "¿Quién puede paralizar los tajos de obra en caso de peligro?",
+      "opciones": [
+        "El vecino",
+        "El coordinador o la dirección facultativa",
+        "El cartero",
+        "El proveedor"
+      ],
+      "correcta": 1,
+      "explicacion": "El coordinador o la dirección facultativa pueden paralizar los tajos.",
+      "referencia": "RD 1627/1997, art. 14"
+    },
+    {
+      "pregunta": "¿Qué estudio de seguridad es obligatorio si intervienen en un túnel o galería?",
+      "opciones": [
+        "El estudio de mercado",
+        "El estudio del clima",
+        "El estudio de seguridad y salud",
+        "Ninguno"
+      ],
+      "correcta": 2,
+      "explicacion": "Los túneles, galerías y conducciones subterráneas exigen estudio de seguridad.",
+      "referencia": "RD 1627/1997, art. 4.1"
+    },
+    {
+      "pregunta": "¿Qué contiene el estudio de seguridad y salud?",
+      "opciones": [
+        "Solo una foto",
+        "Solo una lista de la compra",
+        "Nada",
+        "Memoria, pliego, planos, mediciones y presupuesto"
+      ],
+      "correcta": 3,
+      "explicacion": "El estudio contiene memoria, pliego, planos, mediciones y presupuesto.",
+      "referencia": "RD 1627/1997, art. 5.2"
+    },
+    {
+      "pregunta": "¿Qué ocurre sin estudio de seguridad en una obra?",
+      "opciones": [
+        "No hay visado ni licencia",
+        "Nada",
+        "Se concede igual",
+        "Se multa al vecino"
+      ],
+      "correcta": 0,
+      "explicacion": "Sin estudio de seguridad no hay visado ni licencia.",
+      "referencia": "RD 1627/1997, art. 17"
+    },
+    {
+      "pregunta": "¿Quién designa al coordinador de proyecto?",
+      "opciones": [
+        "Cuando llueve",
+        "Cuando intervienen varios proyectistas",
+        "Cuando hace calor",
+        "Nunca"
+      ],
+      "correcta": 1,
+      "explicacion": "El coordinador de proyecto se designa si intervienen varios proyectistas.",
+      "referencia": "RD 1627/1997, art. 3"
+    },
+    {
+      "pregunta": "¿Quién designa al coordinador de ejecución?",
+      "opciones": [
+        "Cuando hay sol",
+        "Nunca",
+        "Cuando intervienen varias empresas o autónomos",
+        "Solo en los pueblos"
+      ],
+      "correcta": 2,
+      "explicacion": "El coordinador de ejecución se designa si intervienen varias empresas o autónomos.",
+      "referencia": "RD 1627/1997, art. 3"
+    },
+    {
+      "pregunta": "¿Quién custodia el libro de incidencias de la obra?",
+      "opciones": [
+        "El jardinero",
+        "El cartero",
+        "El alcalde",
+        "El coordinador"
+      ],
+      "correcta": 3,
+      "explicacion": "El libro de incidencias lo custodia el coordinador.",
+      "referencia": "RD 1627/1997, art. 13.3"
+    },
+    {
+      "pregunta": "¿Qué responsabilidad tienen los contratistas y subcontratistas por el incumplimiento del plan de seguridad?",
+      "opciones": [
+        "Responden solidariamente",
+        "Ninguna",
+        "Solo los autónomos",
+        "Solo el vecino"
+      ],
+      "correcta": 0,
+      "explicacion": "Los contratistas y subcontratistas responden solidariamente de su incumplimiento.",
+      "referencia": "RD 1627/1997, art. 11"
+    },
+    {
+      "pregunta": "¿Qué obligación tienen los trabajadores autónomos en la obra?",
+      "opciones": [
+        "No hacer nada",
+        "Cumplir el anexo IV y el plan de seguridad",
+        "Pagar la obra",
+        "Ninguna"
+      ],
+      "correcta": 1,
+      "explicacion": "Los autónomos cumplen el anexo IV, las obligaciones de la LPRL y el plan.",
+      "referencia": "RD 1627/1997, art. 12"
+    },
+    {
+      "pregunta": "¿Qué derechos tienen los trabajadores ante un riesgo grave e inminente?",
+      "opciones": [
+        "Trabajar igual",
+        "Dar una charla",
+        "Interrumpir su actividad y abandonar el lugar",
+        "Nada"
+      ],
+      "correcta": 2,
+      "explicacion": "Ante un riesgo grave e inminente, los trabajadores pueden interrumpir su actividad y abandonar el lugar.",
+      "referencia": "LPRL, art. 21.1 b)"
+    },
+    {
+      "pregunta": "¿Qué se aplica a los lugares de trabajo en el RD 486/1997?",
+      "opciones": [
+        "La señalización de los barcos",
+        "La de los trenes",
+        "Ninguna",
+        "La señalización del RD 485/1997"
+      ],
+      "correcta": 3,
+      "explicacion": "El RD 486/1997 remite a la señalización del RD 485/1997.",
+      "referencia": "RD 486/1997"
+    },
+    {
+      "pregunta": "¿Qué real decreto regula las disposiciones mínimas de seguridad y salud en las obras de construcción?",
+      "opciones": [
+        "Real Decreto 314/2006",
+        "Real Decreto 842/2002",
+        "Real Decreto 1627/1997",
+        "Real Decreto 105/2008"
+      ],
+      "correcta": 2,
+      "explicacion": "El RD 1627/1997 establece las disposiciones mínimas de seguridad y salud en obras.",
+      "referencia": "RD 1627/1997"
+    },
+    {
+      "pregunta": "¿Qué documento desarrolla el estudio de seguridad y salud en la obra?",
+      "opciones": [
+        "Plan de seguridad y salud",
+        "Plan de marketing",
+        "Plan de tráfico",
+        "Plan de jubilación"
+      ],
+      "correcta": 0,
+      "explicacion": "El plan de seguridad y salud desarrolla el estudio para la obra concreta.",
+      "referencia": "RD 1627/1997"
+    },
+    {
+      "pregunta": "¿Quién coordina la seguridad y salud durante la ejecución de la obra?",
+      "opciones": [
+        "El alcalde",
+        "Coordinador de seguridad y salud en fase de ejecución",
+        "El proveedor de hormigón",
+        "El vigilante municipal"
+      ],
+      "correcta": 1,
+      "explicacion": "El coordinador de seguridad y salud en fase de ejecución dirige la coordinación preventiva.",
+      "referencia": "RD 1627/1997"
+    },
+    {
+      "pregunta": "¿Qué libro se utiliza para registrar las incidencias relativas a la seguridad en la obra?",
+      "opciones": [
+        "Libro de visitas de la comunidad",
+        "Libro de familia",
+        "Libro de incidencias",
+        "Libro de fincas"
+      ],
+      "correcta": 2,
+      "explicacion": "El libro de incidencias registra las observaciones de seguridad en la obra.",
+      "referencia": "RD 1627/1997"
+    },
+    {
+      "pregunta": "¿Qué protección es obligatoria en los bordes de forjados y huecos durante la obra?",
+      "opciones": [
+        "Un cartel de precaución",
+        "Una cinta de papel",
+        "Nada",
+        "Barandillas de protección"
+      ],
+      "correcta": 3,
+      "explicacion": "Las barandillas protegen frente a caídas en altura durante la ejecución.",
+      "referencia": "Ley 31/1995 y RD 1627/1997"
+    },
+    {
+      "pregunta": "¿Quién debe elaborar el estudio de seguridad y salud en una obra?",
+      "opciones": [
+        "El vigilante de la obra",
+        "El vecino colindante",
+        "El suministrador de materiales",
+        "El proyectista"
+      ],
+      "correcta": 3,
+      "explicacion": "El estudio de seguridad y salud se elabora en la fase de proyecto por el proyectista.",
+      "referencia": "RD 1627/1997"
+    },
+    {
+      "pregunta": "¿Qué obliga el RD 1627/1997 respecto a la formación de los trabajadores?",
+      "opciones": [
+        "Formación e información en seguridad",
+        "Ninguna obligación",
+        "Solo formación de directivos",
+        "Solo formación en idiomas"
+      ],
+      "correcta": 0,
+      "explicacion": "Los trabajadores deben recibir formación e información en materia de seguridad.",
+      "referencia": "RD 1627/1997"
+    },
+    {
+      "pregunta": "¿Qué documento se exige cuando concurren varias empresas en una obra?",
+      "opciones": [
+        "Certificado de bodas",
+        "Documento de coordinación de actividades empresariales",
+        "Permiso de caza",
+        "Licencia de pesca"
+      ],
+      "correcta": 1,
+      "explicacion": "La concurrencia de empresas exige coordinar sus actividades preventivas.",
+      "referencia": "RD 171/2004"
+    },
+    {
+      "pregunta": "¿Qué equipo de protección individual es obligatorio en obra?",
+      "opciones": [
+        "Gorro de baño",
+        "Paraguas",
+        "Casco",
+        "Gafas de sol decorativas"
+      ],
+      "correcta": 2,
+      "explicacion": "El casco protege frente a golpes en la cabeza en la obra.",
+      "referencia": "RD 1627/1997"
+    },
+    {
+      "pregunta": "¿Qué riesgo es el principal en trabajos en altura?",
+      "opciones": [
+        "Ruido",
+        "Olor",
+        "Luz natural",
+        "Caída"
+      ],
+      "correcta": 3,
+      "explicacion": "El riesgo principal en altura es la caída de personas o materiales.",
+      "referencia": "RD 1627/1997"
+    }
+  ]
+}

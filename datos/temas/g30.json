@@ -1,0 +1,537 @@
+{
+  "id": "g30",
+  "resumen": [
+    {
+      "titulo": "1. Naturaleza, composición y estatuto del Tribunal Constitucional (Título IX CE y LOTC)",
+      "puntos": [
+        "El Tribunal Constitucional (TC) es el intérprete supremo de la Constitución, independiente de los demás órganos constitucionales y único en su orden jurisdiccional en todo el territorio nacional (art. 1 LOTC 2/1979 y Título IX CE, arts. 159–165).",
+        "Se compone de doce Magistrados nombrados por el Rey: cuatro a propuesta del Congreso por mayoría de 3/5, cuatro a propuesta del Senado por mayoría de 3/5, dos a propuesta del Gobierno y dos a propuesta del CGPJ (art. 159.1 CE).",
+        "Requisitos y mandato (art. 159.2–5 CE): juristas de reconocida competencia con más de 15 años de ejercicio profesional, designados por nueve años y renovados por terceras partes cada tres. Independientes, inamovibles y sujetos a severas incompatibilidades (art. 159.4 CE)."
+      ]
+    },
+    {
+      "titulo": "2. Organización interna y funcionamiento del Tribunal Constitucional (LOTC 2/1979)",
+      "puntos": [
+        "El Presidente y el Vicepresidente del TC son nombrados por el Rey de entre sus miembros a propuesta del propio Tribunal en Pleno por un período de tres años (reelegibles una sola vez), mediante mayoría absoluta en primera votación o mayoría simple en segunda (art. 160 CE y art. 9 LOTC).",
+        "El TC actúa en Pleno (12 Magistrados), en dos Salas (Sala Primera presidida por el Presidente y Sala Segunda presidida por el Vicepresidente, de 6 Magistrados cada una) y en Secciones (4 Secciones de 3 Magistrados para despacho ordinario y admisibilidad).",
+        "Los acuerdos requieren quorum de dos tercios de los miembros que compongan el órgano (art. 14 LOTC), decidiendo por mayoría y contando el Presidente con voto de calidad en caso de empate."
+      ]
+    },
+    {
+      "titulo": "3. Procesos de control de constitucionalidad: recurso, cuestión y control previo (arts. 161.1.a, 163 CE y LOTC)",
+      "puntos": [
+        "Objeto del control (art. 27.2 LOTC): Estatutos de Autonomía y leyes orgánicas, leyes/disposiciones/actos con fuerza de ley (Decretos-Leyes, Decretos Legislativos), Tratados internacionales, Reglamentos de las Cámaras y de las Cortes Generales y leyes/normas autonómicas.",
+        "Recurso de inconstitucionalidad (art. 162.1.a CE): legitimados el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores y los órganos colegiados ejecutivos y Asambleas de las CC.AA. (contra normas estatales que afecten a su ámbito de autonomía). Plazo: 3 meses desde publicación (ampliable a 9 meses por comisión bilateral Gobierno-CC.AA. ex art. 33.2 LOTC).",
+        "Cuestión de inconstitucionalidad (art. 163 CE): planteada por Jueces o Tribunales, de oficio o a instancia de parte, cuando consideren que una norma con rango de ley aplicable al caso y de cuya validez dependa el fallo pueda ser contraria a la CE. Control previo de Tratados Internacionales (art. 95 CE) y de Estatutos de Autonomía tras LO 12/2015."
+      ]
+    },
+    {
+      "titulo": "4. El recurso de amparo constitucional (arts. 53.2 y 161.1.b CE y Título III LOTC)",
+      "puntos": [
+        "Protege frente a violaciones de los derechos y libertades reconocidos en los arts. 14 a 29 CE más la objeción de conciencia del art. 30.2 CE originadas por disposiciones, actos jurídicos, omisiones o simple vía de hecho de los poderes públicos.",
+        "Legitimación (art. 162.1.b CE): toda persona natural o jurídica que invoque un interés legítimo, el Defensor del Pueblo y el Ministerio Fiscal. Carácter subsidiario: exige agotar previamente la vía judicial ordinaria y justificar la especial trascendencia constitucional (LO 6/2007).",
+        "Modalidades y plazos: contra actos parlamentarios sin valor de ley (3 meses, art. 42 LOTC); contra actos del Gobierno/Administraciones tras vía judicial (20 días desde notificación de la resolución judicial, art. 43 LOTC); contra actos u omisiones de órganos judiciales (30 días desde la notificación, art. 44 LOTC)."
+      ]
+    },
+    {
+      "titulo": "5. Conflictos constitucionales, impugnación del art. 161.2 CE y efectos de las sentencias (art. 164 CE)",
+      "puntos": [
+        "Conflictos de competencia entre el Estado y las Comunidades Autónomas o de éstas entre sí (positivos: reivindicación de competencia ejercida por disposición o resolución sin rango de ley; negativos: declinación de competencia, tras requerimiento previo en el caso autonómico).",
+        "Conflictos entre órganos constitucionales del Estado (Gobierno, Congreso, Senado y CGPJ) y conflictos en defensa de la autonomía local (municipios y provincias frente a leyes estatales o autonómicas que lesionen su autonomía local, art. 75 bis y ss. LOTC).",
+        "Impugnación de disposiciones y resoluciones autonómicas sin fuerza de ley por el Gobierno (art. 161.2 CE): produce suspensión inmediata por plazo máximo de 5 meses. Sentencias del TC (art. 164 CE): se publican en el BOE con votos particulares, tienen valor de cosa juzgada desde el día siguiente a su publicación, no cabe recurso alguno contra ellas y vinculan a todos los poderes públicos (erga omnes si declaran inconstitucionalidad)."
+      ]
+    }
+  ],
+  "leyes": [
+    {
+      "id": "CE",
+      "rol": "Norma suprema: Título IX Del Tribunal Constitucional (arts. 159–165), art. 53.2 (amparo) y art. 95.2 (control previo de tratados)"
+    },
+    {
+      "id": "LOTC-2-1979",
+      "rol": "Norma principal: Ley Orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional (organización, procesos constitucionales y efectos)"
+    }
+  ],
+  "test": [
+    {
+      "pregunta": "Según el artículo 159.1 de la Constitución Española, ¿de cuántos miembros se compone el Tribunal Constitucional y cómo son propuestos?",
+      "opciones": [
+        "Doce miembros nombrados por el Rey: cuatro a propuesta del Congreso por mayoría de 3/5, cuatro a propuesta del Senado por mayoría de 3/5, dos a propuesta del Gobierno y dos a propuesta del Consejo General del Poder Judicial",
+        "Diez miembros elegidos íntegramente por el Consejo General del Poder Judicial",
+        "Quince miembros nombrados por el Presidente del Gobierno previo informe del Consejo de Estado",
+        "Nueve miembros elegidos por el Congreso por mayoría absoluta"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 159.1 CE fija exactamente 12 miembros nombrados por el Rey: 4 del Congreso (3/5), 4 del Senado (3/5), 2 del Gobierno y 2 del CGPJ (también 3/5 conforme a la LOPJ).",
+      "referencia": "Art. 159.1 CE y art. 16 LOTC"
+    },
+    {
+      "pregunta": "¿Qué requisitos profesionales y de antigüedad exige el artículo 159.2 CE para poder ser nombrado Magistrado del Tribunal Constitucional?",
+      "opciones": [
+        "Ser obligatoriamente Magistrado del Tribunal Supremo con diez años de antigüedad",
+        "Ser ciudadano español entre Magistrados y Fiscales, Profesores de Universidad, funcionarios públicos y Abogados, todos ellos juristas de reconocida competencia con más de quince años de ejercicio profesional",
+        "Ser Diputado o Senador en activo con más de cinco años de mandato parlamentario",
+        "Tener al menos diez años de ejercicio como abogado colegiado sin límite de edad"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 159.2 CE exige ser Magistrado o Fiscal, Profesor de Universidad, funcionario público o Abogado, todos juristas de reconocida competencia con más de quince años de ejercicio profesional.",
+      "referencia": "Art. 159.2 CE y art. 18 LOTC"
+    },
+    {
+      "pregunta": "¿Por qué duración de mandato son designados los Magistrados del Tribunal Constitucional y cómo se renuevan (artículo 159.3 CE)?",
+      "opciones": [
+        "Por seis años renovándose por mitades cada tres",
+        "Por cinco años renovándose íntegramente en bloque",
+        "Por un período de nueve años, renovándose por terceras partes cada tres años",
+        "Con carácter vitalicio hasta los setenta y cinco años"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 159.3 CE establece un mandato de nueve años y una renovación escalonada por terceras partes (cuatro Magistrados) cada tres años.",
+      "referencia": "Art. 159.3 CE"
+    },
+    {
+      "pregunta": "Según el artículo 159.4 CE, ¿con qué es compatible la condición de miembro del Tribunal Constitucional?",
+      "opciones": [
+        "Con todo mandato representativo en las Cortes Generales",
+        "Con el desempeño de funciones directivas en un partido político o sindicato",
+        "Con el ejercicio activo de la abogacía ante el Tribunal Supremo",
+        "Con ninguna actividad política, administrativa, judicial, profesional o mercantil: es incompatible con todo mandato representativo, cargos políticos o administrativos, funciones directivas en partidos/sindicatos, carrera judicial/fiscal y cualquier actividad profesional o mercantil"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 159.4 CE somete a los Magistrados del TC a las incompatibilidades propias de los miembros del Poder Judicial más las exclusivas listadas en dicho artículo.",
+      "referencia": "Art. 159.4 CE y art. 19 LOTC"
+    },
+    {
+      "pregunta": "¿Cómo se elige y por cuánto tiempo ejerce el cargo el Presidente del Tribunal Constitucional conforme al artículo 160 CE y al artículo 9 LOTC?",
+      "opciones": [
+        "Es nombrado por el Rey entre sus miembros a propuesta del mismo Tribunal en Pleno y por un período de tres años (reelegible una sola vez)",
+        "Es nombrado directamente por el Presidente del Gobierno por cinco años",
+        "Es elegido por el Congreso de los Diputados por mayoría absoluta para nueve años",
+        "Recae automáticamente en el Presidente del Tribunal Supremo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 160 CE dispone que el Presidente del TC será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en Pleno y por un período de tres años (el art. 9 LOTC exige mayoría absoluta en 1.ª votación o mayoría simple en 2.ª, y permite una sola reelección).",
+      "referencia": "Art. 160 CE y art. 9 LOTC"
+    },
+    {
+      "pregunta": "¿Qué órganos jurisdiccionales internos forman parte del Tribunal Constitucional según el artículo 6 de la LOTC (LO 2/1979)?",
+      "opciones": [
+        "Cinco Salas especializadas por materias (Civil, Penal, Contenciosa, Social y Militar)",
+        "El Pleno (12 Magistrados), las Salas (dos Salas de 6 Magistrados cada una) y las Secciones (cuatro Secciones de 3 Magistrados)",
+        "Únicamente el Pleno y una Junta de Gobierno de cinco miembros",
+        "Un Tribunal Supremo Constitucional y Audiencias Constitucionales autonómicas"
+      ],
+      "correcta": 1,
+      "explicacion": "Según los arts. 6 a 8 de la LOTC, el TC actúa en Pleno (todos los Magistrados), en dos Salas de seis Magistrados (presididas respectivamente por el Presidente y el Vicepresidente del TC) y en Secciones de tres Magistrados.",
+      "referencia": "Arts. 6–8 LOTC"
+    },
+    {
+      "pregunta": "De acuerdo con el artículo 162.1.a de la Constitución Española, ¿quiénes están legitimados para interponer el recurso de inconstitucionalidad?",
+      "opciones": [
+        "Cualquier ciudadano que invoque un interés legítimo",
+        "Los Jueces y Tribunales ordinarios cuando duden de la constitucionalidad de una ley en un juicio",
+        "El Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas",
+        "Únicamente el Consejo de Ministros en pleno y el Fiscal General del Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 162.1.a CE reserva la legitimación del recurso de inconstitucionalidad a esos órganos políticos e institucionales (en tanto las CC.AA. solo pueden impugnar leyes estatales que puedan afectar a su propio ámbito de autonomía, art. 32.2 LOTC).",
+      "referencia": "Art. 162.1.a CE y art. 32 LOTC"
+    },
+    {
+      "pregunta": "¿Cuál es el plazo ordinario para interponer el recurso de inconstitucionalidad y en qué supuesto puede ampliarse a nueve meses según el artículo 33 de la LOTC?",
+      "opciones": [
+        "Plazo ordinario de dos meses, ampliable a seis meses por prórroga del TC",
+        "Plazo de seis meses en todo caso desde la sanción regia",
+        "No existe plazo alguno para impugnar leyes inconstitucionales",
+        "Plazo ordinario de tres meses a partir de la publicación de la ley; podrá ampliarse a nueve meses cuando el Presidente del Gobierno y los órganos ejecutivos autonómicos acuerden iniciar negociaciones en la Comisión Bilateral de Cooperación"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 33.1 LOTC fija el plazo general de tres meses desde la publicación oficial, ampliable a nueve meses conforme al art. 33.2 LOTC cuando se reúna la Comisión Bilateral de Cooperación para evitar el conflicto comunicándolo al TC dentro de los 3 primeros meses.",
+      "referencia": "Art. 33 LOTC"
+    },
+    {
+      "pregunta": "¿Cuándo y cómo puede plantearse una cuestión de inconstitucionalidad conforme al artículo 163 CE y al artículo 35 LOTC?",
+      "opciones": [
+        "Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley, aplicable al caso, de cuya validez dependa el fallo, pueda ser contraria a la Constitución, planteándola ante el TC tras oír a las partes y al Ministerio Fiscal, una vez concluso el procedimiento y dentro del plazo para dictar sentencia",
+        "Directamente por los abogados particulares durante la fase de prueba sin permiso del Juez",
+        "Únicamente contra reglamentos municipales antes de dictar auto de admisión",
+        "Por el Defensor del Pueblo contra sentencias del Tribunal Supremo"
+      ],
+      "correcta": 0,
+      "explicacion": "Conforme al art. 163 CE y art. 35 LOTC, es un control concreto suscitado por Jueces o Tribunales (de oficio o a instancia de parte) respecto a norma con rango de ley aplicable y relevante para el fallo, una vez concluso el procedimiento y dentro del plazo para dictar sentencia o resolución.",
+      "referencia": "Art. 163 CE y art. 35 LOTC"
+    },
+    {
+      "pregunta": "¿Qué efecto produce el planteamiento de la cuestión de inconstitucionalidad por un órgano judicial (artículo 35.3 LOTC)?",
+      "opciones": [
+        "Anula de inmediato la ley cuestionada para todo el país",
+        "Origina la suspensión provisional de las actuaciones en el proceso judicial hasta que el Tribunal Constitucional se pronuncie sobre su admisión y, en su caso, resuelva definitivamente la cuestión",
+        "No suspende el proceso judicial, debiendo el juez dictar sentencia ignorando la cuestión",
+        "Suspende la vigencia de la ley en el Boletín Oficial del Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 35.3 LOTC establece la suspensión provisional de las actuaciones del proceso judicial concreto (el art. 163 CE aclara en general que la cuestión no tiene efectos suspensivos sobre la vigencia general de la norma, pero sí suspende el fallo del pleito concreto).",
+      "referencia": "Art. 163 CE y art. 35.3 LOTC"
+    },
+    {
+      "pregunta": "¿Qué derechos y libertades son susceptibles de protección a través del recurso de amparo constitucional según el artículo 53.2 CE y el artículo 41 LOTC?",
+      "opciones": [
+        "Todos los derechos y principios rectores recogidos en el Título I CE incluidos los artículos 39 a 52",
+        "Exclusivamente el derecho a la propiedad privada (art. 33 CE) y la libertad de empresa (art. 38 CE)",
+        "La igualdad ante la ley (art. 14 CE), los derechos fundamentales y libertades públicas de la Sección 1.ª del Capítulo II del Título I (arts. 15 a 29 CE) y la objeción de conciencia militar (art. 30.2 CE)",
+        "Únicamente los derechos laborales de huelga y negociación colectiva"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 53.2 CE y el art. 41.1 LOTC delimitan con precisión el amparo a los arts. 14 a 29 CE y la objeción de conciencia del art. 30.2 CE.",
+      "referencia": "Art. 53.2 CE y art. 41.1 LOTC"
+    },
+    {
+      "pregunta": "¿Quiénes están legitimados para interponer el recurso de amparo constitucional según el artículo 162.1.b CE?",
+      "opciones": [
+        "Únicamente el Presidente del Gobierno y 50 Diputados",
+        "Solo los Jueces y Magistrados",
+        "Exclusivamente los Colegios Profesionales",
+        "Toda persona natural o jurídica que invoque un interés legítimo, así como el Defensor del Pueblo y el Ministerio Fiscal"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 162.1.b CE atribuye legitimación en el recurso de amparo a toda persona natural o jurídica que invoque un interés legítimo, al Defensor del Pueblo y al Ministerio Fiscal.",
+      "referencia": "Art. 162.1.b CE y art. 46 LOTC"
+    },
+    {
+      "pregunta": "¿Cuáles son los plazos para interponer el recurso de amparo constitucional en sus tres modalidades (artículos 42, 43 y 44 LOTC)?",
+      "opciones": [
+        "3 meses contra actos parlamentarios sin valor de ley (art. 42); 20 días contra actos del Gobierno/Administración tras agotarse la vía judicial (art. 43); y 30 días contra actos u omisiones de órganos judiciales (art. 44)",
+        "10 días en todas las modalidades",
+        "6 meses contra sentencias judiciales y 15 días contra actos parlamentarios",
+        "Un año natural desde la vulneración del derecho en todos los casos"
+      ],
+      "correcta": 0,
+      "explicacion": "La LOTC fija esos tres plazos exactos: tres meses para el art. 42 (actos parlamentarios sin valor de ley), veinte días para el art. 43 (actos administrativos tras vía judicial) y treinta días para el art. 44 (lesiones imputables directamente a un órgano judicial).",
+      "referencia": "Arts. 42, 43 y 44 LOTC"
+    },
+    {
+      "pregunta": "Tras la reforma operada por la Ley Orgánica 6/2007, ¿qué requisito sustantivo de admisibilidad exige el artículo 50.1.b de la LOTC para admitir a trámite todo recurso de amparo?",
+      "opciones": [
+        "Que la cuantía económica del pleito supere los 600.000 euros",
+        "Que el contenido del recurso justifique una decisión sobre el fondo por parte del Tribunal Constitucional en razón de su especial trascendencia constitucional",
+        "Que cuente con el aval previo del Consejo de Estado",
+        "Que haya sido interpuesto conjuntamente por dos Comunidades Autónomas"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 50.1.b LOTC (reforma LO 6/2007) objetivó el amparo exigiendo que el recurrente justifique expresamente la «especial trascendencia constitucional» del asunto para su admisión.",
+      "referencia": "Arts. 49.1 y 50.1.b LOTC"
+    },
+    {
+      "pregunta": "¿En qué consiste la autocuestión (o cuestión interna) de inconstitucionalidad regulada en el artículo 55.2 de la LOTC?",
+      "opciones": [
+        "Es la consulta que hace el TC al Tribunal Supremo antes de dictar sentencia",
+        "Es el recurso de los propios Magistrados contra su salario",
+        "Cuando una Sala (o, en su caso, el Pleno) al resolver un recurso de amparo estime que la lesión del derecho fundamental procede de la propia ley aplicada, elevará la cuestión al Pleno con suspensión del plazo para dictar sentencia en amparo",
+        "Es la petición del Gobierno para que el TC revoque un amparo ya concedido"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 55.2 LOTC prevé que si la Sala que conoce del amparo aprecia que la lesión deriva de la ley aplicada, eleva cuestión al Pleno (autocuestión) para que este pueda declarar inconstitucional la ley en proceso separado.",
+      "referencia": "Art. 55.2 LOTC"
+    },
+    {
+      "pregunta": "¿Qué órgano tiene legitimación para solicitar al Tribunal Constitucional la declaración previa sobre la existencia o inexistencia de contradicción entre un Tratado internacional y la Constitución (artículo 95.2 CE y artículo 78 LOTC)?",
+      "opciones": [
+        "Únicamente el Rey antes de ratificar el Tratado",
+        "Cualquier Juzgado de Primera Instancia o el Defensor del Pueblo",
+        "Los Ayuntamientos afectados por el Tratado",
+        "El Gobierno o cualquiera de ambas Cámaras (Congreso o Senado)"
+      ],
+      "correcta": 3,
+      "explicacion": "Conforme al art. 95.2 CE y el art. 78 LOTC, el Gobierno o cualquiera de ambas Cámaras pueden requerir al TC para que declare si existe o no contradicción entre las estipulaciones de un tratado internacional pendiente de consentimiento y la Constitución.",
+      "referencia": "Art. 95.2 CE y art. 78 LOTC"
+    },
+    {
+      "pregunta": "Tras la reforma introducida por la Ley Orgánica 12/2015 en la LOTC, ¿frente a qué normas vuelve a existir recurso previo de inconstitucionalidad ante el Tribunal Constitucional?",
+      "opciones": [
+        "Únicamente contra los Proyectos de Estatutos de Autonomía y contra las propuestas de reforma de los mismos (una vez aprobados por las Cortes Generales antes de su promulgación/referéndum)",
+        "Contra todas las leyes orgánicas antes de su publicación en el BOE",
+        "Contra los Decretos-Leyes antes de ser convalidados por el Congreso",
+        "Contra los Presupuestos Generales del Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "La LO 12/2015 reintrodujo el artículo 79 LOTC recuperando el recurso previo de inconstitucionalidad exclusivamente contra Proyectos de Estatutos de Autonomía y sus propuestas de reforma (plazo de 3 días tras su publicación en el BOCG, a resolver preferentemente en 6 meses).",
+      "referencia": "Art. 79 LOTC (LO 12/2015)"
+    },
+    {
+      "pregunta": "¿Qué efectos produce la impugnación por el Gobierno ante el Tribunal Constitucional de disposiciones sin fuerza de ley y resoluciones adoptadas por los órganos de las Comunidades Autónomas (artículo 161.2 CE)?",
+      "opciones": [
+        "No produce suspensión automática salvo que el TC la acuerde tras seis meses",
+        "Producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, deberá ratificarla o levantarla en un plazo no superior a cinco meses",
+        "Deroga definitivamente la norma autonómica en 48 horas",
+        "Obliga al Parlamento autonómico a repetir las elecciones"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el art. 161.2 CE (y art. 30 / Título V LOTC), cuando el Gobierno invoca el art. 161.2 CE respecto de disposiciones o resoluciones autonómicas, se produce la suspensión inmediata, debiendo el TC ratificarla o levantarla en un plazo no superior a cinco meses.",
+      "referencia": "Art. 161.2 CE y arts. 30, 62–65 y 76–77 LOTC"
+    },
+    {
+      "pregunta": "En los conflictos positivos de competencia entre el Estado y una Comunidad Autónoma (artículos 62 y 63 LOTC), ¿qué diferencia existe respecto al requerimiento previo de incompetencia?",
+      "opciones": [
+        "El Gobierno está siempre obligado a formular requerimiento previo de dos meses y la CC.AA. nunca",
+        "Es obligatorio tanto para el Gobierno como para las Comunidades Autónomas antes de acudir al TC",
+        "Cuando el conflicto lo plantea el Gobierno puede formalizarlo directamente ante el TC o usar previamente el requerimiento; cuando lo plantea una Comunidad Autónoma, debe dirigir obligatoriamente un requerimiento de incompetencia previo al órgano ejecutivo correspondiente dentro de los dos meses siguientes",
+        "No existe requerimiento previo en ningún caso"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 62 LOTC da opción potestativa al Gobierno (directo o previo requerimiento); el art. 63.1 LOTC impone el requerimiento previo obligatorio a los órganos ejecutivos autonómicos antes de plantear conflicto positivo ante el TC.",
+      "referencia": "Arts. 62–63 LOTC"
+    },
+    {
+      "pregunta": "¿Qué cuatro órganos constitucionales pueden ser parte en un conflicto entre órganos constitucionales del Estado (artículo 59.1.c LOTC)?",
+      "opciones": [
+        "El Rey, el Presidente del Gobierno, el Defensor del Pueblo y el Fiscal General del Estado",
+        "El Tribunal Supremo, la Audiencia Nacional, el Tribunal de Cuentas y el Consejo de Estado",
+        "El Consejo de Ministros, las Comunidades Autónomas y las Diputaciones Provinciales",
+        "El Gobierno, el Congreso de los Diputados, el Senado y el Consejo General del Poder Judicial"
+      ],
+      "correcta": 3,
+      "explicacion": "Conforme a los arts. 59.1.c y 73–75 LOTC, el conflicto entre órganos constitucionales del Estado enfrenta exclusivamente al Gobierno, el Congreso de los Diputados, el Senado o el Consejo General del Poder Judicial (y el Tribunal de Cuentas por su ámbito propio cuando proceda según el art. 59 LOTC —aunque los cuatro clásicos enumerados son Gobierno, Congreso, Senado y CGPJ).",
+      "referencia": "Arts. 59.1.c y 73–75 LOTC"
+    },
+    {
+      "pregunta": "¿Quiénes están legitimados para interponer un conflicto en defensa de la autonomía local contra leyes del Estado o de las Comunidades Autónomas (artículo 75 ter LOTC)?",
+      "opciones": [
+        "El municipio o provincia que sea destinatario único de la ley; o un número de municipios que supongan al menos 1/7 de los existentes en el ámbito territorial y representen como mínimo 1/6 de la población; o un número de provincias que supongan al menos la mitad de las existentes en el ámbito y representen al menos la mitad de la población",
+        "Un solo concejal o cualquier vecino empadronado",
+        "Únicamente la Federación Española de Municipios y Provincias",
+        "Cualquier Juzgado de lo Contencioso-Administrativo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 75 ter LOTC fija exactamente esos umbrales de legitimación (destinatario único; o 1/7 municipios + 1/6 población; o 1/2 provincias + 1/2 población) exigiendo además dictamen preceptivo del Consejo de Estado u órgano consultivo autonómico (art. 75 quater LOTC).",
+      "referencia": "Arts. 75 bis–75 quinquies LOTC"
+    },
+    {
+      "pregunta": "Según el artículo 164.1 de la Constitución Española, ¿desde qué momento tienen valor de cosa juzgada las sentencias del Tribunal Constitucional y qué recursos caben contra ellas?",
+      "opciones": [
+        "Desde el mes siguiente a su publicación en el BOE y cabe recurso de apelación ante el Tribunal Supremo",
+        "Se publicarán en el BOE con los votos particulares si los hubiere, tienen el valor de cosa juzgada a partir del día siguiente de su publicación y no cabe recurso alguno contra ellas",
+        "No tienen valor de cosa juzgada hasta su convalidación por el Congreso",
+        "Solo vinculan a las partes del proceso incluso cuando declaran inconstitucional una ley"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 164.1 CE establece que las sentencias del TC se publican en el BOE con los votos particulares, adquieren valor de cosa juzgada a partir del día siguiente a su publicación y no cabe recurso alguno contra ellas; las que declaren la inconstitucionalidad de una ley y todas las que no se limiten a la estimación subjetiva de un derecho tienen plenos efectos frente a todos (erga omnes).",
+      "referencia": "Art. 164.1 CE y art. 38 LOTC"
+    },
+    {
+      "pregunta": "¿Qué ocurre con las partes de una ley NO afectadas por la declaración de inconstitucionalidad en una sentencia del TC según el artículo 164.2 CE?",
+      "opciones": [
+        "Quedan también íntegramente anuladas por arrastre",
+        "Quedan suspendidas durante cinco meses",
+        "Salvo que en el fallo se disponga otra cosa, subsistirá la vigencia de la ley en la parte no afectada por la inconstitucionalidad",
+        "Deben ser sometidas a referéndum de ratificación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 164.2 CE consagra el principio de conservación de la norma («subsistirá la vigencia de la ley en la parte no afectada por la inconstitucionalidad, salvo que en el fallo se disponga otra cosa»).",
+      "referencia": "Art. 164.2 CE"
+    },
+    {
+      "pregunta": "De acuerdo con el artículo 40.1 de la LOTC, ¿pueden las sentencias declaratorias de inconstitucionalidad revisar procesos fenecidos mediante sentencia con fuerza de cosa juzgada en los que se haya hecho aplicación de la ley inconstitucional?",
+      "opciones": [
+        "Sí, reabren automáticamente todos los pleitos civiles, mercantiles y administrativos ya cerrados",
+        "No, en ningún supuesto ni siquiera en procesos penales condenatorios",
+        "Únicamente si los procesos tienen una antigüedad inferior a un año",
+        "No permiten revisar procesos fenecidos con fuerza de cosa juzgada, salvo en el caso de los procesos penales o contencioso-administrativos referentes a un procedimiento sancionador en que, como consecuencia de la nulidad de la norma aplicada, resulte una reducción de la pena o de la sanción o una exclusión, exención o limitación de la responsabilidad"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 40.1 LOTC protege la seguridad jurídica impidiendo revisar procesos concluidos por sentencia con fuerza de cosa juzgada, con la única excepción favorable al reo o sancionado en materia penal o administrativa sancionadora.",
+      "referencia": "Art. 40.1 LOTC"
+    },
+    {
+      "pregunta": "¿Qué efectos tiene la jurisprudencia del Tribunal Constitucional sobre la interpretación judicial ordinaria conforme al artículo 5.1 de la LOPJ y al artículo 40.2 LOTC?",
+      "opciones": [
+        "La jurisprudencia de los tribunales de justicia recaída sobre leyes, disposiciones o actos enjuiciados por el TC habrá de entenderse corregida por la doctrina derivada de las sentencias y autos que resuelvan procesos constitucionales, vinculando a todos los Jueces y Tribunales",
+        "Es meramente orientativa y no vincula a ningún tribunal ordinario",
+        "Solo vincula en recursos de amparo y nunca en cuestiones de inconstitucionalidad",
+        "Únicamente vincula a los Juzgados de Paz"
+      ],
+      "correcta": 0,
+      "explicacion": "Tanto el art. 40.2 LOTC como el art. 5.1 LOPJ consagran el carácter vinculante de la doctrina constitucional para todos los Jueces y Tribunales, corrigiendo cualquier jurisprudencia ordinaria anterior contraria.",
+      "referencia": "Art. 40.2 LOTC y art. 5.1 LOPJ"
+    },
+    {
+      "pregunta": "¿Cómo se resuelve la admisión o inadmisión de un recurso de amparo constitucional según el artículo 50 de la LOTC?",
+      "opciones": [
+        "Siempre por sentencia del Pleno tras vista oral pública",
+        "Por las Secciones mediante providencia (si hay unanimidad en su admisión o acuerdo unánime en causas concretas de inadmisión; si solo alcanza mayoría en la Sección decide la Sala correspondiente)",
+        "Por el Presidente del Gobierno previo informe del Ministerio Fiscal",
+        "Por decreto del Letrado de la Administración de Justicia"
+      ],
+      "correcta": 1,
+      "explicacion": "Conforme al art. 50.1 y 50.2 LOTC, la admisión a trámite corresponde a las Secciones por unanimidad de sus tres miembros (o a la Sala si solo hay mayoría); las providencias de inadmisión solo pueden ser recurridas en súplica por el Ministerio Fiscal en el plazo de tres días (art. 50.3 LOTC).",
+      "referencia": "Art. 50 LOTC"
+    },
+    {
+      "pregunta": "¿Qué medidas coercitivas prevé el artículo 92.4 de la LOTC (reforma LO 15/2015) si se advierte el incumplimiento de una resolución del Tribunal Constitucional?",
+      "opciones": [
+        "Ninguna: el TC carece de competencia para velar por la ejecución de sus propias resoluciones",
+        "Únicamente remitir una nota informativa a la prensa oficial",
+        "Tras requerimiento a las autoridades incumplidoras, el TC puede imponer multas coercitivas (de 3.000 a 30.000 euros), acordar la suspensión en sus funciones de las autoridades o empleados públicos responsables durante el tiempo preciso para asegurar la observancia, encomendar la ejecución sustitutoria al Gobierno y deducir testimonio para exigir responsabilidad penal",
+        "Disolver directamente el Congreso de los Diputados"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 92 LOTC atribuye al propio TC velar por el cumplimiento efectivo de sus resoluciones, previendo en el art. 92.4 multas coercitivas, suspensión temporal en funciones de autoridades/empleados responsables, ejecución sustitutoria y deducción de testimonio penal.",
+      "referencia": "Art. 92 LOTC (LO 15/2015)"
+    },
+    {
+      "pregunta": "¿Qué quorum de asistencia exige el artículo 14 de la LOTC para que el Pleno y las Salas del Tribunal Constitucional puedan adoptar acuerdos válidos?",
+      "opciones": [
+        "La mayoría simple de los Magistrados existentes",
+        "La totalidad de los doce Magistrados en todo caso",
+        "La mitad más uno en el Pleno y dos Magistrados en las Salas",
+        "La presencia, al menos, de dos tercios de los miembros que en cada momento lo compongan (en las Secciones, dos miembros, salvo discrepancia que requiere tres)"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 14 LOTC fija el quorum de asistencia de al menos dos tercios de sus miembros tanto para el Pleno como para las Salas (y en las Secciones dos miembros, o los tres si hay discrepancia).",
+      "referencia": "Art. 14 LOTC"
+    },
+    {
+      "pregunta": "¿Qué sucede si la declaración de inconstitucionalidad recae sobre una norma foral fiscal de los Territorios Históricos de Álava, Guipúzcoa y Vizcaya tras la reforma de la LO 1/2010?",
+      "opciones": [
+        "La Disposición Adicional Quinta de la LOTC atribuye al Tribunal Constitucional el conocimiento exclusivo de los recursos y cuestiones contra las normas forales fiscales de dichos Territorios Históricos",
+        "Su control corresponde únicamente a los Juzgados de lo Contencioso-Administrativo",
+        "Son normas irrecurribles ante cualquier tribunal",
+        "Solo pueden ser anuladas por el Parlamento Europeo"
+      ],
+      "correcta": 0,
+      "explicacion": "La LO 1/2010 añadió la Disposición Adicional 5.ª a la LOTC reservando en exclusiva al Tribunal Constitucional el conocimiento de recursos y cuestiones prejudiciales contra las normas forales fiscales de los Territorios Históricos del País Vasco.",
+      "referencia": "Disposición Adicional 5.ª LOTC (LO 1/2010)"
+    },
+    {
+      "pregunta": "En un conflicto negativo de competencia promovido por una persona física o jurídica ante el Tribunal Constitucional (artículo 68 LOTC), ¿cuándo queda abierta la vía constitucional?",
+      "opciones": [
+        "Directamente sin haber acudido previamente a ninguna Administración",
+        "Cuando tanto el órgano administrativo estatal como el autonómico hayan declinado su competencia para resolver una pretensión por entender que corresponde al otro, y tras reproducir la petición ante el segundo órgano que también la decline o guarde silencio durante un mes",
+        "Únicamente cuando lo solicite el Defensor del Pueblo",
+        "Solo tras agotar dos sentencias firmes del Tribunal Supremo"
+      ],
+      "correcta": 1,
+      "explicacion": "Los arts. 68 y 69 LOTC regulan el conflicto negativo de competencia promovido por particulares cuando Administración estatal y autonómica se declaran sucesivamente incompetentes (o guardan silencio durante un mes tras el segundo requerimiento).",
+      "referencia": "Arts. 68–70 LOTC"
+    },
+    {
+      "pregunta": "¿Qué efecto tiene un voto particular formulado por un Magistrado del Tribunal Constitucional respecto de una sentencia o auto que ponga fin al proceso (artículo 90.2 LOTC y artículo 164.1 CE)?",
+      "opciones": [
+        "Suspende la ejecución de la sentencia mayoritaria durante seis meses",
+        "Permite a la parte perdedora interponer recurso de casación ante la Sala Tercera del TS",
+        "Puede reflejar discrepancias con la fundamentación o con el fallo (concurrente o disidente) y debe publicarse en el BOE junto con la sentencia, sin alterar la eficacia jurídica ni el valor de cosa juzgada del fallo mayoritario",
+        "Es secreto y nunca puede publicarse en el BOE"
+      ],
+      "correcta": 2,
+      "explicacion": "El Presidente y los Magistrados pueden reflejar en voto particular su opinión discrepante (art. 90.2 LOTC), publicándose en el BOE junto a la sentencia conforme al art. 164.1 CE, sin restar validez vinculante al fallo.",
+      "referencia": "Art. 164.1 CE y art. 90.2 LOTC"
+    },
+    {
+      "pregunta": "¿Cuál es la relación constitucional de jerarquía e independencia entre el Tribunal Constitucional y el Tribunal Supremo?",
+      "opciones": [
+        "El Tribunal Supremo puede anular las sentencias del Tribunal Constitucional",
+        "El Tribunal Constitucional es una Sala Sexta integrada orgánicamente dentro del Tribunal Supremo",
+        "El Tribunal Constitucional resuelve todos los pleitos civiles y penales en tercera instancia",
+        "El Tribunal Constitucional es el órgano supremo en materia de garantías constitucionales (art. 123.1 CE) mientras el Tribunal Supremo es el órgano jurisdiccional superior en todos los demás órdenes de legalidad ordinaria, operando el TC como órgano constitucional autónomo fuera del Poder Judicial"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 123.1 CE distingue ambos planos: el Tribunal Supremo culmina todos los órdenes jurisdiccionales ordinarios «salvo lo dispuesto en materia de garantías constitucionales», ámbito donde el Tribunal Constitucional es intérprete supremo e independiente del Poder Judicial.",
+      "referencia": "Arts. 123.1 y 159–165 CE y art. 1 LOTC"
+    },
+    {
+      "pregunta": "¿Quién ostenta la facultad de presentar al Rey la propuesta de los cuatro Magistrados del TC elegidos por el Senado (artículo 16.1 LOTC)?",
+      "opciones": [
+        "El Senado, por mayoría de tres quintos de sus miembros, de entre los candidatos presentados por las Asambleas Legislativas de las Comunidades Autónomas en los términos que determine su Reglamento",
+        "El Consejo de Ministros mediante Decreto",
+        "Las Diputaciones Provinciales directamente sin votación senatorial",
+        "El Pleno del Consejo General del Poder Judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "Conforme a la reforma de la LO 6/2007 en el art. 16.1 LOTC, los Magistrados propuestos por el Senado (por mayoría de 3/5) son elegidos entre los candidatos presentados por las Asambleas Legislativas de las Comunidades Autónomas.",
+      "referencia": "Art. 16.1 LOTC (LO 6/2007)"
+    },
+    {
+      "pregunta": "¿Qué significa el concepto de «bloque de la constitucionalidad» recogido en el artículo 28.1 de la LOTC?",
+      "opciones": [
+        "Únicamente los primeros diez artículos de la Constitución Española",
+        "El conjunto de normas que, junto a la Constitución, utiliza el TC como parámetro para apreciar la conformidad o disconformidad con la Constitución de una ley (como los Estatutos de Autonomía y las leyes estatales de delimitación competencial del art. 150 CE)",
+        "Los reglamentos internos de los partidos políticos",
+        "Las ordenanzas fiscales aprobadas por los ayuntamientos"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el art. 28.1 LOTC, para apreciar la conformidad con la CE de leyes estatales o autonómicas el TC considerará, además de los preceptos constitucionales, las leyes dictadas dentro del marco constitucional para delimitar competencias (Estatutos de Autonomía, LOFCA, leyes del art. 150 CE, etc.).",
+      "referencia": "Art. 28.1 LOTC"
+    },
+    {
+      "pregunta": "¿Cuándo puede solicitar la medida cautelar de suspensión del acto recurrido un demandante en el recurso de amparo constitucional (artículo 56 LOTC)?",
+      "opciones": [
+        "La admisión a trámite del amparo suspende automáticamente siempre el acto judicial o administrativo",
+        "El TC no puede adoptar nunca medidas cautelares en el recurso de amparo",
+        "La interposición no suspende los efectos del acto o sentencia impugnados, pero la Sala (de oficio o a instancia de parte) podrá disponer la suspensión total o parcial cuando la ejecución hubiere de ocasionar un perjuicio que haría perder al amparo su finalidad, siempre que no ocasione perturbación grave de un interés constitucionalmente protegido ni de derechos de otra persona",
+        "Solo procede si el demandante deposita una fianza de un millón de euros"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 56.1 y 56.2 LOTC consagra la regla de no suspensión automática junto con la facultad de suspensión cautelar por la Sala cuando la ejecución haga perder al amparo su finalidad (periculum in mora) sin lesión grave a intereses generales o terceros.",
+      "referencia": "Art. 56 LOTC"
+    },
+    {
+      "pregunta": "¿Cómo se garantiza el derecho de los Magistrados del TC frente a ceses o presiones durante su mandato de nueve años (artículo 159.5 CE y artículos 22–24 LOTC)?",
+      "opciones": [
+        "Pueden ser revocados en cualquier momento por mayoría simple de la Cámara que los propuso",
+        "Solo pueden ser suspendidos por el Ministro de Justicia",
+        "Su mandato termina automáticamente cada vez que se disuelven las Cortes Generales",
+        "Son independientes e inamovibles en el ejercicio de su mandato; solo cesan por causas tasadas en el art. 23 LOTC (renuncia, expiración del plazo, incompatibilidad sobrevenida, incapacidad o responsabilidad apreciada por el propio Tribunal en Pleno), y gozan de inviolabilidad y fuero ante la Sala de lo Penal del Tribunal Supremo"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 159.5 CE proclama la independencia e inamovilidad de los Magistrados del TC durante todo su mandato, y los arts. 22–26 LOTC blindan las causas tasadas de cese/suspensión (resueltas por el propio Pleno del TC) y el fuero penal ante el Tribunal Supremo.",
+      "referencia": "Art. 159.5 CE y arts. 22–26 LOTC"
+    },
+    {
+      "pregunta": "¿Qué pronunciamientos puede contener la sentencia que otorgue el recurso de amparo constitucional según el artículo 55.1 LOTC?",
+      "opciones": [
+        "Declaración de nulidad de la decisión, acto o resolución que haya impedido el pleno ejercicio del derecho; reconocimiento del derecho o libertad pública; y restablecimiento del recurrente en la integridad de su derecho con adopción de las medidas apropiadas para su conservación",
+        "Únicamente una indemnización económica a cargo del Congreso",
+        "La reforma directa de la Constitución sin intervención parlamentaria",
+        "La condena penal inmediata del funcionario público responsable"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 55.1 LOTC contempla esa triple tutela restitutoria (declaración de nulidad, reconocimiento del derecho y restablecimiento en su integridad), no estando legitimado el TC para conceder indemnizaciones sustitutorias directas sino el restablecimiento jurídico.",
+      "referencia": "Art. 55.1 LOTC"
+    },
+    {
+      "pregunta": "¿Qué mayoría necesita la Sala de lo Penal del Tribunal Supremo... perdón: qué órgano del TC conoce de los procesos de recurso y cuestión de inconstitucionalidad, salvo casos especiales de aplicación de doctrina consolidada (artículo 10 LOTC)?",
+      "opciones": [
+        "Las Secciones por mayoría simple",
+        "El Pleno del Tribunal Constitucional (pudiendo deferirse a las Salas las cuestiones de inconstitucionalidad que el propio Pleno reserve para sí o les asigne cuando se limiten a aplicar doctrina consolidada, así como recursos de mera aplicación doctrinal)",
+        "Exclusivamente la Sala Segunda",
+        "Una Comisión Mixta del TC y del CGPJ"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 10.1.a–c LOTC atribuye al Pleno el conocimiento de los recursos y cuestiones de inconstitucionalidad, si bien desde la LO 6/2007 puede deferir a las Salas las cuestiones y recursos de mera aplicación de doctrina consolidada.",
+      "referencia": "Art. 10 LOTC"
+    },
+    {
+      "pregunta": "¿En qué supuesto previsto en la Constitución puede el Tribunal Constitucional controlar una norma ANTES de su entrada en vigor además de los Proyectos de Estatutos de Autonomía (art. 79 LOTC)?",
+      "opciones": [
+        "Los proyectos de ordenanzas fiscales municipales",
+        "Los anteproyectos de reglamentos ministeriales",
+        "Los Tratados internacionales cuyo texto estuviera ya definitivamente fijado pero al que no se hubiere prestado aún el consentimiento del Estado (control previo del art. 95.2 CE y art. 78 LOTC)",
+        "Los Reales Decretos-Leyes antes de ser aprobados en Consejo de Ministros"
+      ],
+      "correcta": 2,
+      "explicacion": "El único control previo previsto directamente en el texto constitucional originario es el de los Tratados Internacionales (art. 95.2 CE y art. 78 LOTC), al que la LO 12/2015 sumó el recurso previo contra Proyectos/Reformas de Estatutos de Autonomía (art. 79 LOTC).",
+      "referencia": "Art. 95.2 CE y arts. 78–79 LOTC"
+    },
+    {
+      "pregunta": "¿Qué establece el artículo 165 de la Constitución Española respecto al régimen orgánico del Tribunal Constitucional?",
+      "opciones": [
+        "Que su organización se regulará por Real Decreto del Consejo de Ministros",
+        "Que cada Comunidad Autónoma aprobará su propio reglamento procesal ante el TC",
+        "Que sus procedimientos se regirán exclusivamente por la Ley de Enjuiciamiento Civil sin ley propia",
+        "Que una ley orgánica regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 165 CE establece la reserva de Ley Orgánica para regular el funcionamiento, estatuto de miembros, procedimiento y ejercicio de acciones ante el TC, reserva satisfecha por la LO 2/1979 (LOTC).",
+      "referencia": "Art. 165 CE"
+    }
+  ]
+}
