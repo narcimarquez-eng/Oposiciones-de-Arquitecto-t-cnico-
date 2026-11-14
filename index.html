@@ -1362,7 +1362,19 @@
     'tratado de la union europea': 'TUE-TFUE',
     'tratado de union europea': 'TUE-TFUE',
     'tratado de funcionamiento de la union europea': 'TUE-TFUE',
-    'tratado de lisboa': 'TLISBOA-2007'
+    'tratado de lisboa': 'TLISBOA-2007',
+    'rgpd': 'RGPD',
+    'reglamento general de proteccion de datos': 'RGPD',
+    'reglamento (ue) 2016/679': 'RGPD',
+    'estatuto de autonomia de andalucia': 'EA-ANDALUCIA',
+    'texto refundido del estatuto basico del empleado publico': 'EBEP',
+    'vi convenio del personal laboral': 'VI-CONV-LAB-JA',
+    'reglamento de organizacion y funcionamiento de la tesoreria general de la junta de andalucia y de la gestion recaudatoria': 'DEC-AND-197-2021',
+    'reglamento de organizacion y funcionamiento de la tesoreria general de la junta de andalucia': 'DEC-AND-197-2021',
+    'reglamento general de ingreso': 'DEC-AND-2-2002',
+    'reglamento general de recaudacion de la seguridad social': 'RD-1415-2004',
+    'trla': 'TRLA-1-2001',
+    'texto refundido de la ley de aguas': 'TRLA-1-2001'
   };
 
   function normClave(s) {
@@ -1373,7 +1385,7 @@
 
   function esProsaMinusculaNoNorma(m, clave) {
     return Boolean(m && m === m.toLowerCase() && !/\d/.test(m) &&
-      /^(?:ce|cc|et|ea|eaa|estatuto|lista|lea|lau|lva|ens|cte|loe|lef|lgs|lh|ley organica del poder judicial)$/.test(clave));
+      /^(?:ce|cc|et|ea|eaa|estatuto|lista|lea|lau|lva|ens|cte|loe|lef|lgs|lh|gica|ley organica del poder judicial)$/.test(clave));
   }
 
   function resolverLeyPorMencion(mencion, idTema) {
@@ -1393,7 +1405,8 @@
     if (ALIAS_NORMAS[clave] && D.leyes[ALIAS_NORMAS[clave]]) return ALIAS_NORMAS[clave];
 
     // Órdenes, Convenios o Decretos por fecha o denominación específica
-    if (clave.indexOf('convenio colectivo') !== -1 || clave.indexOf('22 de noviembre de 2002') !== -1 || clave.indexOf('28 de noviembre de 2002') !== -1) return 'VI-CONV-LAB-JA';
+    if (clave.indexOf('convenio colectivo') !== -1 || clave.indexOf('convenio del personal laboral') !== -1 || clave.indexOf('22 de noviembre de 2002') !== -1 || clave.indexOf('28 de noviembre de 2002') !== -1) return 'VI-CONV-LAB-JA';
+    if (clave.indexOf('12 de diciembre de 2005') !== -1) return 'ORD-AND-12-12-2005';
     if (clave.indexOf('19 de febrero de 2015') !== -1 || clave.indexOf('24 de octubre de 2019') !== -1) return 'ORD-AND-CONT-2015';
     if (clave.indexOf('30 de marzo de 2015') !== -1) return 'ORD-AND-PGCF-2015';
     if (clave.indexOf('8 de febrero de 1946') !== -1) return 'LH-1946';
@@ -1403,6 +1416,9 @@
     if (clave.indexOf('26 de abril de 1957') !== -1) return 'REF-1957';
     if (clave.indexOf('16 de diciembre de 1954') !== -1) return 'LEF';
     if (clave.indexOf('reglamento de la ley 38/2003') !== -1 || clave.indexOf('reglamento general de subvenciones') !== -1) return 'RLGS-887-2006';
+    if (clave.indexOf('tesoreria general de la junta de andalucia') !== -1) return 'DEC-AND-197-2021';
+    if (clave.indexOf('recaudacion de la seguridad social') !== -1) return 'RD-1415-2004';
+    if (clave.indexOf('reglamento general de ingreso') !== -1) return 'DEC-AND-2-2002';
 
     // Código de Orden ministerial tipo TMA/851/2021, ECO/805/2003
     var mOrd = m.match(/\b([A-Z]{2,6}\/\d{1,4}\/\d{4})\b/);
@@ -1486,14 +1502,14 @@
 
   var REGEX_CITAS = new RegExp(
     '(' + PATRON_NORMA_EXPLICITA +
-      '|(?:art[ií]culos?|arts?\\.)\\s+\\d+(?:\\s*\\.?\\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies))?(?:\\s*(?:a|al|y|,|\\/|del|de\\s+la|[-–—])\\s*\\d+)*(?:\\.[0-9]+)?(?:\\s*\\.?\\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies))?' +
-      '|(?:T[ií]tulo\\s+(?:Preliminar|[IVXLC]+)|Cap[ií]tulo\\s+[IVXLC0-9]+|Disposici[oó]n\\s+(?:adicional|transitoria|derogatoria|final)\\s+[a-záéíóúñ0-9ªº.]+|Anejo\\s+[A-Z0-9]+)' +
+      '|\\b(?:art[ií]culos?|arts?\\.)\\s+\\d+(?:\\.[0-9]+)*(?:\\s*\\.?\\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies))?(?:\\s*(?:a|al|y|,|\\/|del|de\\s+la|[-–—])\\s*\\d+(?:\\.[0-9]+)*)*(?:\\s*\\.?\\s*(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies))?' +
+      '|\\b(?:T[ií]tulo\\s+(?:Preliminar|[IVXLC]+)|Cap[ií]tulo\\s+[IVXLC]+|Disposici[oó]n\\s+(?:adicional|transitoria|derogatoria|final)\\s+[a-záéíóúñ0-9ªº.]+|Anejo\\s+[A-Z0-9]+)\\b' +
     ')',
     'gi'
   );
 
   // Importante: las letras/apartados con punto (.ii, .b, .4.b) deben ir ANTES de [.,\s]+ para que no se borre el punto previo.
-  var REGEX_PREFIJO_ART = /^(?:\.\s*[a-z]{1,3}(?:\s*[-–—]\s*[a-z]{1,3})?\b\)?|\.\s*\d+(?:\.\d+)*\.?[ºª]?|[.,\s]+|\b(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies|in\s+fine|y\s+siguientes|y\s+(?:disposiciones\s+)?concordantes|y\s+Disposici[oó]n\s+(?:Adicional|Transitoria|Derogatoria|Final)(?:\s*\/\s*(?:Adicional|Transitoria|Derogatoria|Final))?|y\s+sig[._]?|y\s+ss[._]?|ss[._]?|siguientes|concordantes)\b|(?:p[aá]rrafo|apartado|apartados|letra|letras)\s+[\w.,()ºª-]+|en\s+relaci[oó]n\s+con\s+(?:la\s+|el\s+)?(?:D[TAF]\s*\d+[ªº]?|[IVXLC]+)|(?:[-–—\/]|y|a|al|e|o)\s*(?:\d+(?:\.\d+)*\.?[ºª]?|[a-z]{1,2}\))|\d+(?:\.\d+)*\.?[ºª]?|\b[a-z]\))/i;
+  var REGEX_PREFIJO_ART = /^(?:\.\s*[a-z]{1,3}(?:\s*[-–—]\s*[a-z]{1,3})?\b\)?|\.\s*\d+(?:\.\d+)*(?:\.?[ºª])?|[.,\s]+|\b(?:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|novies|decies|in\s+fine|y\s+siguientes|y\s+(?:disposiciones\s+)?concordantes|y\s+Disposici[oó]n\s+(?:Adicional|Transitoria|Derogatoria|Final)(?:\s*\/\s*(?:Adicional|Transitoria|Derogatoria|Final))?|(?:del\s+|de\s+la\s+)?(?:T[ií]tulo|Cap[ií]tulo|Secci[oó]n)\s+(?:Preliminar|[IVXLC0-9]+)|y\s+sig[._]?|y\s+ss[._]?|ss[._]?|siguientes|concordantes)\b|(?:p[aá]rrafo|apartado|apartados|letra|letras)\s+[\w.,()ºª-]+|en\s+relaci[oó]n\s+con\s+(?:la\s+|el\s+)?(?:D[TAF]\s*\d+[ªº]?|[IVXLC]+)|(?:[-–—\/]|y|a|al|e|o)\s*(?:\d+(?:\.\d+)*(?:\.?[ºª])?|[a-z]{1,2}\))|\d+(?:\.\d+)*(?:\.?[ºª])?|\b[a-z]\))/i;
   var REGEX_PREPOSICION_NORMA = /^(?:de\s+(?:la\s+La|el\s+El)|de\s+la|del|de|en\s+(?:el|la)|introducid[oa]\s+por(?:\s+la|\s+el)?|(?:la|el)(?=\s+(?:Orden|Ley|Constituci[oó]n|Estatuto|Real\s+Decreto|Decreto))|,)\s+/i;
   var REGEX_INICIO_NORMA = new RegExp(
     '^(' + PATRON_NORMA_EXPLICITA + '|Constituci[oó]n)\\b',
@@ -1506,12 +1522,41 @@
     return 'CE';
   }
 
-  function enlazarNormas(texto, idTema, leyesDetectadas) {
+  var REGEX_SOLO_NORMA_EXPLICITA = new RegExp('(' + PATRON_NORMA_EXPLICITA + ')', 'gi');
+  function detectarLeyExplicitaTexto(texto, idTema) {
+    var raw = String(texto == null ? '' : texto);
+    if (!raw) return null;
+    REGEX_SOLO_NORMA_EXPLICITA.lastIndex = 0;
+    var m;
+    while ((m = REGEX_SOLO_NORMA_EXPLICITA.exec(raw)) !== null) {
+      var ms = m[0];
+      if (esProsaMinusculaNoNorma(ms, normClave(ms))) continue;
+      var lid = resolverLeyPorMencion(ms, idTema);
+      if (lid && D.leyes[lid]) return lid;
+    }
+    return null;
+  }
+
+  function leyPorDefectoPregunta(q, idTema) {
+    if (!q) return leyPorDefectoTema(idTema);
+    var t = idTema || q.tema;
+    var lRef = detectarLeyExplicitaTexto(q.referencia, t);
+    if (lRef) return lRef;
+    var lEnun = detectarLeyExplicitaTexto(q.enunciado || q.pregunta, t);
+    if (lEnun) return lEnun;
+    var lExp = detectarLeyExplicitaTexto(q.explicacion, t);
+    if (lExp) return lExp;
+    return leyPorDefectoTema(t);
+  }
+
+  function enlazarNormas(texto, idTema, leyesDetectadas, leyInicial, estadoCtx) {
     var raw = String(texto == null ? '' : texto);
     if (!enlacesNormasActivos) return esc(raw);
     var partes = [];
     var lastIdx = 0;
-    var ultimaLeyId = leyPorDefectoTema(idTema);
+    var ultimaLeyId = (estadoCtx && estadoCtx.ultimaLeyId !== undefined)
+      ? estadoCtx.ultimaLeyId
+      : (leyInicial !== undefined ? leyInicial : leyPorDefectoTema(idTema));
 
     REGEX_CITAS.lastIndex = 0;
     var m;
@@ -1548,6 +1593,7 @@
         }
         if (mCola) {
           leyId = resolverLeyPorMencion(mCola[1], idTema);
+          ultimaLeyId = leyId;
         } else {
           leyId = ultimaLeyId;
         }
@@ -1576,6 +1622,7 @@
     if (lastIdx < raw.length) {
       partes.push(esc(raw.slice(lastIdx)));
     }
+    if (estadoCtx) estadoCtx.ultimaLeyId = ultimaLeyId;
     return partes.join('');
   }
 
@@ -2567,11 +2614,12 @@
         '<p class="sub">' + (e.aciertos >= 8 ? 'Muy buen resultado.' : e.aciertos >= 5 ? 'Vas bien; repasa los fallos.' : 'Conviene repasar el resumen antes de otro intento.') + '</p>' +
         (fallos.length ? '<section class="seccion"><h3>Preguntas falladas (guardadas automáticamente en tu banco de repaso)</h3>' + fallos.map(function (x) {
           var dud = esPreguntaDudosa(x.q, contentId);
+          var leyDefX = leyPorDefectoPregunta(x.q, contentId);
           return '<div class="fallo"><div class="tema-meta" style="justify-content:space-between"><strong>' + esc(x.q.pregunta) + '</strong>' +
             '<button type="button" class="btn-dudosa' + (dud ? ' activa' : '') + '" data-dudosa-test="' + x.i + '">' + (dud ? '★ Dudosa' : '☆ Marcar dudosa') + '</button></div>' +
             '<p class="sub">Correcta: ' + esc(x.q.opciones[x.q.correcta]) + '</p>' +
-            '<p>' + enlazarNormas(x.q.explicacion, contentId) + '</p>' +
-            '<p class="sub">Ref.: ' + enlazarNormas(x.q.referencia, contentId) + '</p></div>';
+            '<p>' + enlazarNormas(x.q.explicacion, contentId, null, leyDefX) + '</p>' +
+            '<p class="sub">Ref.: ' + enlazarNormas(x.q.referencia, contentId, null, leyDefX) + '</p></div>';
         }).join('') + '</section>' : '<p>Sin fallos. ¡Perfecto!</p>') +
         '<div class="acciones"><button class="btn" type="button" data-test="' + esc(e.id) + '">Repetir test</button>' +
         '<button class="btn sec" type="button" data-ir="#/tema/' + esc(e.id) + '">Volver al tema</button></div>';
@@ -2593,8 +2641,9 @@
     var feedback = '';
     if (contestada) {
       var acierto = e.seleccion === q.correcta;
+      var leyDefQ = leyPorDefectoPregunta(q, contentId);
       feedback = '<div class="feedback" aria-live="polite"><strong>' + (acierto ? '✓ Correcto' : '✗ Incorrecto (añadida a tu banco de preguntas falladas)') + '</strong>' +
-        enlazarNormas(q.explicacion, contentId) + '<div class="ref">Ref.: ' + enlazarNormas(q.referencia, contentId) + '</div></div>' +
+        enlazarNormas(q.explicacion, contentId, null, leyDefQ) + '<div class="ref">Ref.: ' + enlazarNormas(q.referencia, contentId, null, leyDefQ) + '</div></div>' +
         '<div class="acciones"><button class="btn" type="button" data-siguiente="1">' +
         (e.i + 1 < c.test.length ? 'Siguiente' : 'Ver resultado') + '</button></div>';
     }
@@ -2687,11 +2736,12 @@
     });
   }
 
-  function renderParrafosEnlazados(texto, temaRef, leyesOut) {
+  function renderParrafosEnlazados(texto, temaRef, leyesOut, leyInicial) {
     var lineas = String(texto == null ? '' : texto).split(/\n+/).map(function (l) {
       return l.trim();
     }).filter(Boolean);
     if (!lineas.length) return '';
+    var estadoCtx = { ultimaLeyId: leyInicial !== undefined ? leyInicial : leyPorDefectoTema(temaRef) };
     return lineas.map(function (linea, idxLin) {
       var mEtiq = linea.match(/^(Regla aplicada:|Cálculo\s*\/\s*Análisis:|Cálculo:|Análisis:|Por qué no las demás:|NOTA DE ACTUALIZACIÓN NORMATIVA:|Nota:|PREGUNTA ANULADA[^:\n]*:|RESERVA COMPUTADA[^:\n]*:)\s*(.*)$/);
       var estilo = 'margin:' + (idxLin === 0 ? '4px' : '6px') + ' 0 0;line-height:1.6';
@@ -2699,14 +2749,14 @@
         var esAlerta = /^(PREGUNTA ANULADA|NOTA DE ACTUALIZACIÓN)/i.test(mEtiq[1]);
         var esReserva = /^RESERVA COMPUTADA/i.test(mEtiq[1]);
         var prefHtml = '<strong' + (esAlerta ? ' style="color:var(--bad)"' : (esReserva ? ' style="color:var(--ok)"' : '')) + '>' + esc(mEtiq[1]) + '</strong> ';
-        var cuerpoHtml = mEtiq[2] ? formatearInlineEnlazado(enlazarNormas(mEtiq[2], temaRef, leyesOut)) : '';
+        var cuerpoHtml = mEtiq[2] ? formatearInlineEnlazado(enlazarNormas(mEtiq[2], temaRef, leyesOut, leyInicial, estadoCtx)) : '';
         return '<p style="' + estilo + '">' + prefHtml + cuerpoHtml + '</p>';
       }
       var mBullet = linea.match(/^([•\-]\s+)(.*)$/);
       if (mBullet) {
-        return '<p style="margin:4px 0 0 10px;line-height:1.58"><strong>•</strong> ' + formatearInlineEnlazado(enlazarNormas(mBullet[2], temaRef, leyesOut)) + '</p>';
+        return '<p style="margin:4px 0 0 10px;line-height:1.58"><strong>•</strong> ' + formatearInlineEnlazado(enlazarNormas(mBullet[2], temaRef, leyesOut, leyInicial, estadoCtx)) + '</p>';
       }
-      return '<p style="' + estilo + '">' + formatearInlineEnlazado(enlazarNormas(linea, temaRef, leyesOut)) + '</p>';
+      return '<p style="' + estilo + '">' + formatearInlineEnlazado(enlazarNormas(linea, temaRef, leyesOut, leyInicial, estadoCtx)) + '</p>';
     }).join('');
   }
 
@@ -2993,10 +3043,11 @@
               ? '<span class="pill ok">✓ ¡Correcto! Has marcado la opción ' + String.fromCharCode(65 + q.correcta) + '</span>'
               : '<span class="pill bad">✗ Incorrecto (marcaste ' + String.fromCharCode(65 + respUsuario) + '; la correcta es la ' + String.fromCharCode(65 + q.correcta) + ')</span>'));
 
+        var leyDefSp = leyPorDefectoPregunta(q, temaPreg);
         expHtml = '<div class="feedback" style="margin-top:10px" aria-live="polite">' +
           '<div style="margin-bottom:6px">' + estadoResp + '</div>' +
-          '<div style="margin:6px 0">' + renderParrafosEnlazados(q.explicacion, temaPreg, leyesExp) + '</div>' +
-          (q.referencia ? '<div class="ref"><strong>Normativa aplicable:</strong> ' + enlazarNormas(q.referencia, temaPreg, leyesExp) + '</div>' : '') +
+          '<div style="margin:6px 0">' + renderParrafosEnlazados(q.explicacion, temaPreg, leyesExp, leyDefSp) + '</div>' +
+          (q.referencia ? '<div class="ref"><strong>Normativa aplicable:</strong> ' + enlazarNormas(q.referencia, temaPreg, leyesExp, leyDefSp) + '</div>' : '') +
           barraNormasApartado(leyesExp, temaPreg) +
           '</div>';
       }
@@ -3006,6 +3057,7 @@
       if (q.supuestoTitulo) badgesPreg += '<span class="pill done">' + esc(q.supuestoTitulo) + '</span> ';
       if (q.anulada) badgesPreg += '<span class="pill bad">⚠️ Anulada en Plantilla Definitiva</span> ';
 
+      var leyDefEnun = leyPorDefectoPregunta(q, temaPreg);
       return divisorSubcaso + '<div class="card" id="preg-practica-' + idx + '">' +
         '<div class="tema-meta" style="justify-content:space-between">' +
         '<div>' + badgesPreg +
@@ -3013,7 +3065,7 @@
         '<button type="button" class="btn-dudosa' + (dudosa ? ' activa' : '') + '" data-dudosa-practico="' + esc(sp.id) + '" data-preg-idx="' + idx + '">' +
         (dudosa ? '★ Dudosa' : '☆ Marcar dudosa') + '</button>' +
         '</div>' +
-        '<p class="pregunta" style="margin:10px 0">' + enlazarNormas(q.enunciado, temaPreg) + '</p>' +
+        '<p class="pregunta" style="margin:10px 0">' + enlazarNormas(q.enunciado, temaPreg, null, leyDefEnun) + '</p>' +
         '<div class="opciones">' + opcionesHtml + '</div>' +
         toggleExpBtn +
         expHtml +
@@ -3766,8 +3818,9 @@
     var fb = '';
     if (contestada) {
       var ok = q.resp === q.correcta;
-      fb = '<div class="feedback" aria-live="polite"><strong>' + (ok ? '✓ Correcto' : '✗ Incorrecto (guardada en tus preguntas falladas)') + '</strong>' + enlazarNormas(q.explicacion || '', q.tema) +
-        (q.referencia ? '<div class="ref">Ref.: ' + enlazarNormas(q.referencia, q.tema) + '</div>' : '') + '</div>' +
+      var leyDefGen = leyPorDefectoPregunta(q, q.tema);
+      fb = '<div class="feedback" aria-live="polite"><strong>' + (ok ? '✓ Correcto' : '✗ Incorrecto (guardada en tus preguntas falladas)') + '</strong>' + renderParrafosEnlazados(q.explicacion || '', q.tema, null, leyDefGen) +
+        (q.referencia ? '<div class="ref">Ref.: ' + enlazarNormas(q.referencia, q.tema, null, leyDefGen) + '</div>' : '') + '</div>' +
         '<div class="acciones"><button class="btn" type="button" data-gen="siguiente">' +
         (gen.i + 1 < gen.preguntas.length ? 'Siguiente' : 'Ver resultado') + '</button></div>';
     }
@@ -3957,12 +4010,13 @@
         ? (String.fromCharCode(65 + q.correcta) + ') ' + limpiarPrefijoOpcion(q.opciones[q.correcta]))
         : '';
 
+      var leyDefRev = leyPorDefectoPregunta(q, q.tema);
       return '<div class="fallo"><div class="tema-meta" style="justify-content:space-between"><div>' + marca + parteTag + sustTag + ' <span>' + esc(etiquetaPreg) + '</span></div>' +
         '<button type="button" class="btn-dudosa' + (dud ? ' activa' : '') + '" data-dudosa-gen="' + j + '">' + (dud ? '★ Dudosa' : '☆ Marcar dudosa') + '</button></div>' +
         '<strong>' + esc(q.enunciado) + '</strong>' +
         (q.resp !== null && !acierto && !q.anulada ? '<p class="sub">Tu respuesta: ' + esc(respUserTxt) + '</p>' : '') +
         (!q.anulada ? '<p class="sub">Correcta: ' + esc(respOkTxt) + '</p>' : '') +
-        '<div style="margin:6px 0">' + renderParrafosEnlazados(q.explicacion || '', q.tema) + '</div>' + (q.referencia ? '<p class="sub">Ref.: ' + enlazarNormas(q.referencia, q.tema) + '</p>' : '') + '</div>';
+        '<div style="margin:6px 0">' + renderParrafosEnlazados(q.explicacion || '', q.tema, null, leyDefRev) + '</div>' + (q.referencia ? '<p class="sub">Ref.: ' + enlazarNormas(q.referencia, q.tema, null, leyDefRev) + '</p>' : '') + '</div>';
     }).join('');
     var repetir = gen.preguntas.filter(function (q) { return !q.anulada && q.resp !== q.correcta; });
     var convRes = gen.convocatoriaActiva;

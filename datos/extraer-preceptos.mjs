@@ -248,22 +248,98 @@ for (const l of catalogo) {
   if (!fs.existsSync(fullPath)) continue;
   const res = await extractFromPdf(fullPath, l.id);
 
-  // Caso especial: DEC-AND-19-1995 es un PDF escaneado de 1995; si no tiene texto embebido, extraer del BOJA HTML
-  if (l.id === 'DEC-AND-19-1995' && res.items.length === 0) {
+  // Si es un PDF escaneado del BOJA (menos de 2 artículos con texto embebido), extraer del HTML oficial del BOJA
+  const numArtsPdf = res.items.filter(x => x.tipo === 'art').length;
+  let bojaHtmlUrl = l.boja_html || '';
+  if (!bojaHtmlUrl && l.url && /juntadeandalucia\.es\/boja\/\d+\/\d+\//.test(l.url)) {
+    const mD = l.url.match(/^(https?:\/\/www\.juntadeandalucia\.es\/boja\/\d+\/\d+\/)d(\d+)\.pdf$/i);
+    if (mD) bojaHtmlUrl = mD[1] + mD[2];
+    else if (!/\.pdf$/i.test(l.url)) bojaHtmlUrl = l.url;
+  }
+  if (numArtsPdf < 5 && bojaHtmlUrl) {
     try {
-      const resp = await fetch('https://www.juntadeandalucia.es/boja/1995/43/1');
-      const html = await resp.text();
-      const paras = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)].map(m => m[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()).filter(Boolean);
-      let cur = null;
-      for (const p of paras) {
-        const m = HEAD_ART.exec(p);
-        if (m) {
-          const num = m[1].replace(/\s+/g, ' ').trim();
-          const tit = m[2].trim().replace(/\.$/, '');
-          cur = { tipo: 'art', clave: 'art-' + num.toLowerCase(), num: num.toLowerCase(), titulo: 'Artículo ' + num + (tit ? '. ' + tit : ''), pag: 1, texto: '' };
-          res.items.push(cur);
-        } else if (cur && cur.texto.length < 2500) {
-          cur.texto += (cur.texto ? '\n' : '') + p;
+      const resp = await fetch(bojaHtmlUrl);
+      if (resp.ok) {
+        const html = await resp.text();
+        const paras = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+          .map(m => m[1].replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim())
+          .filter(Boolean);
+        const htmlItems = [];
+        let cur = null;
+        for (const p of paras) {
+          if (RUIDO.test(p) || /\.\s*\.\s*\.\s*\./.test(p)) continue;
+          let m;
+          if ((m = HEAD_ART.exec(p))) {
+            const num = m[1].replace(/\s+/g, ' ').trim();
+            const rest = m[2].trim();
+            // Si rest contiene el título seguido de punto y texto del artículo, separar título corto
+            let tit = rest.replace(/\.$/, '');
+            let bodyInit = '';
+            const dotIdx = rest.indexOf('. ');
+            if (dotIdx > 0 && dotIdx < 95) {
+              tit = rest.slice(0, dotIdx).trim();
+              bodyInit = rest.slice(dotIdx + 2).trim();
+            } else if (rest.length > 95) {
+              tit = '';
+              bodyInit = rest;
+            }
+            cur = {
+              tipo: 'art',
+              clave: 'art-' + num.toLowerCase(),
+              num: num.toLowerCase(),
+              titulo: 'Artículo ' + num + (tit ? '. ' + tit : ''),
+              pag: 1,
+              texto: bodyInit
+            };
+            htmlItems.push(cur);
+            continue;
+          }
+          if ((m = HEAD_ART_PALABRA.exec(p))) {
+            const numConv = palabrasANumeroArticulo(m[1]);
+            if (numConv) {
+              const tit = m[2].trim().replace(/\.$/, '');
+              cur = {
+                tipo: 'art',
+                clave: 'art-' + numConv.toLowerCase(),
+                num: numConv.toLowerCase(),
+                titulo: 'Artículo ' + numConv + (tit ? '. ' + tit : ''),
+                pag: 1,
+                texto: ''
+              };
+              htmlItems.push(cur);
+              continue;
+            }
+          }
+          if ((m = HEAD_STRUCT.exec(p)) && p.length < 110) {
+            const code = m[1].replace(/\s+/g, ' ').trim();
+            const tit = (m[2] || '').trim();
+            cur = {
+              tipo: 'sec',
+              clave: 'str-' + code.toLowerCase(),
+              num: code.toLowerCase(),
+              titulo: code + (tit ? '. ' + tit : ''),
+              pag: 1,
+              texto: ''
+            };
+            htmlItems.push(cur);
+            continue;
+          }
+          if (cur && cur.texto.length < 2600) {
+            cur.texto += (cur.texto ? '\n' : '') + p;
+          }
+        }
+        const byClaveHtml = new Map();
+        for (const it of htmlItems) {
+          if (it.texto.trim().length < 15 && it.titulo.length < 25) continue;
+          const prev = byClaveHtml.get(it.clave);
+          if (!prev || it.texto.length > prev.texto.length) {
+            byClaveHtml.set(it.clave, it);
+          }
+        }
+        const htmlArts = [...byClaveHtml.values()].filter(x => x.tipo === 'art').length;
+        if (htmlArts > numArtsPdf) {
+          const pagesOnly = res.items.filter(x => x.tipo === 'pag');
+          res.items = [...byClaveHtml.values()].concat(pagesOnly);
         }
       }
     } catch (e) { /* ignore */ }
