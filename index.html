@@ -526,6 +526,66 @@
     padding: 9px 12px;
     font-size: .9rem;
   }
+  .btn-modo-enfoque {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 10px;
+    border: 1.5px solid var(--border);
+    background: var(--surface-2);
+    color: var(--text);
+    font: inherit;
+    font-size: .85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .18s ease;
+    white-space: nowrap;
+  }
+  .btn-modo-enfoque:hover, .btn-modo-enfoque:focus-visible {
+    border-color: var(--accent);
+  }
+  .btn-modo-enfoque[aria-pressed="true"] {
+    background: var(--accent);
+    color: var(--accent-text);
+    border-color: var(--accent);
+    box-shadow: 0 2px 8px rgba(31, 95, 139, .25);
+  }
+  .barra-enfoque-tema {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px 12px;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    font-size: .84rem;
+  }
+  body.modo-enfoque #stats,
+  body.modo-enfoque #barra-progreso,
+  body.modo-enfoque #tabs,
+  body.modo-enfoque #header-sub-cuerpo,
+  body.modo-enfoque #wrap-selector-cuerpo,
+  body.modo-enfoque #pie-pagina {
+    display: none !important;
+  }
+  body.modo-enfoque header.top .wrap {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  body.modo-enfoque header.top h1 {
+    font-size: 1rem;
+    margin: 0;
+    color: var(--muted);
+    font-weight: 600;
+  }
+  body.modo-enfoque main.wrap {
+    max-width: 820px;
+    padding-top: 22px;
+  }
 </style>
 </head>
 <body>
@@ -536,20 +596,25 @@
         <h1 id="header-titulo-cuerpo">Arquitecto Técnico · Junta de Andalucía</h1>
         <p class="sub" id="header-sub-cuerpo" style="margin:2px 0 0">Resumen, leyes aplicables y test por tema · Cuerpo de Técnicos de Grado Medio, Arquitectura Técnica (A2.2001)</p>
       </div>
-      <div style="display:flex;align-items:center;gap:8px">
-        <label for="select-cuerpo-activo" style="font-size:.82rem;font-weight:600;color:var(--muted)">Oposición:</label>
-        <select class="sel" id="select-cuerpo-activo" style="padding:6px 10px;font-size:.88rem;font-weight:600;background:var(--surface-2);color:var(--text);border-color:var(--border)">
-          <option value="a2-2001">🏛️ Arquitecto Técnico (A2.2001 · 70 temas)</option>
-          <option value="a1-2001">🏢 Superior Facultativo Común (A1.2001 · 35 temas BOJA)</option>
-          <option value="a1-1100">⚖️ Administradores Generales (A1.1100 · 100 temas BOJA)</option>
-          <option value="a2-1100">📂 Gestión Administrativa (A2.1100 · 69 temas BOJA)</option>
-          <option value="c1-1100">📋 Administrativos Junta (C1.1000 · 42 temas BOJA)</option>
-          <option value="c2-1100">📎 Auxiliares Administrativos (C2.1000 · 22 temas BOJA)</option>
-        </select>
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+        <div id="wrap-selector-cuerpo" style="display:inline-flex;align-items:center;gap:8px">
+          <label for="select-cuerpo-activo" style="font-size:.82rem;font-weight:600;color:var(--muted)">Oposición:</label>
+          <select class="sel" id="select-cuerpo-activo" style="padding:6px 10px;font-size:.88rem;font-weight:600;background:var(--surface-2);color:var(--text);border-color:var(--border)">
+            <option value="a2-2001">🏛️ Arquitecto Técnico (A2.2001 · 70 temas)</option>
+            <option value="a1-2001">🏢 Superior Facultativo Común (A1.2001 · 35 temas BOJA)</option>
+            <option value="a1-1100">⚖️ Administradores Generales (A1.1100 · 100 temas BOJA)</option>
+            <option value="a2-1100">📂 Gestión Administrativa (A2.1100 · 69 temas BOJA)</option>
+            <option value="c1-1100">📋 Administrativos Junta (C1.1000 · 42 temas BOJA)</option>
+            <option value="c2-1100">📎 Auxiliares Administrativos (C2.1000 · 22 temas BOJA)</option>
+          </select>
+        </div>
+        <button type="button" class="btn-modo-enfoque" id="btn-modo-enfoque" data-toggle-enfoque="1" aria-pressed="false" title="Modo Enfoque (Alt+F): oculta el panel de navegación y las estadísticas dejando solo el contenido del tema activo">
+          🎯 Modo Enfoque
+        </button>
       </div>
     </div>
     <div class="stats" id="stats"></div>
-    <div class="bar" aria-hidden="true"><span id="barra"></span></div>
+    <div class="bar" id="barra-progreso" aria-hidden="true"><span id="barra"></span></div>
     <nav class="tabs" id="tabs" aria-label="Filtrar temas"></nav>
   </div>
 </header>
@@ -572,7 +637,7 @@
 
 <input type="file" id="input-importar-json" accept=".json,application/json" hidden>
 
-<div class="wrap">
+<div class="wrap" id="pie-pagina">
   <p class="pie">
     Temario: <a href="https://cdn.juntadeandalucia.es/sites/default/files/2024-06/IAAP_Temario_A2-2_T%C3%A9cnicosGradoMedio_Com%C3%BAn.pdf" target="_blank" rel="noopener">programa común (BOJA 107, 4/06/2024)</a> y
     <a href="https://juntadeandalucia.es/boja/2019/109/BOJA19-109-00043-8606-01_00156936.pdf" target="_blank" rel="noopener">programa específico (Anexo VII, BOJA 109, 10/06/2019)</a>.
@@ -619,9 +684,12 @@
   var $selectCuerpo = document.getElementById('select-cuerpo-activo');
   var $headerTitulo = document.getElementById('header-titulo-cuerpo');
   var $headerSub = document.getElementById('header-sub-cuerpo');
+  var $btnModoEnfoque = document.getElementById('btn-modo-enfoque');
 
   var filtro = 'todos';
   var estadoTest = null;
+  var modoEnfoqueActivo = false;
+  var expandirTodoEnfoque = false;
 
   var temaPorId = {};
   D.temario.temas.forEach(function (t) { temaPorId[t.id] = t; });
@@ -682,17 +750,79 @@
     return temaPorId[id] || null;
   }
 
+  function guardarTemaActivoCuerpo(rutaId) {
+    if (!rutaId) return;
+    try { localStorage.setItem(storageKeyCuerpo('tema-activo'), String(rutaId)); } catch (e) { /* sin almacenamiento */ }
+  }
+
+  function obtenerTemaActivoCuerpo() {
+    var h = location.hash || '';
+    var m = h.match(/^#\/(?:tema|test)\/([a-z0-9]+)$/);
+    if (m && buscarTemaEnCuerpo(m[1])) return m[1];
+    try {
+      var guardado = localStorage.getItem(storageKeyCuerpo('tema-activo'));
+      if (guardado && buscarTemaEnCuerpo(guardado)) return guardado;
+    } catch (e) { /* sin almacenamiento */ }
+    var temas = temasCuerpoActual();
+    var prog = leerProgreso();
+    for (var i = 0; i < temas.length; i++) {
+      var rk = claveRutaTema(temas[i]);
+      if ((prog[rk] && prog[rk].visto) || (prog[temas[i].id] && prog[temas[i].id].visto)) {
+        return rk;
+      }
+    }
+    return temas.length ? claveRutaTema(temas[0]) : 'c01';
+  }
+
+  function sincronizarEstadoModoEnfoque() {
+    document.body.classList.toggle('modo-enfoque', !!modoEnfoqueActivo);
+    if ($btnModoEnfoque) {
+      $btnModoEnfoque.setAttribute('aria-pressed', modoEnfoqueActivo ? 'true' : 'false');
+      $btnModoEnfoque.innerHTML = modoEnfoqueActivo
+        ? '🎯 Modo Enfoque: ON · Salir'
+        : '🎯 Modo Enfoque';
+    }
+  }
+
+  function alternarModoEnfoque(forzarValor) {
+    modoEnfoqueActivo = typeof forzarValor === 'boolean' ? forzarValor : !modoEnfoqueActivo;
+    try { localStorage.setItem(storageKeyCuerpo('modo-enfoque'), modoEnfoqueActivo ? '1' : '0'); } catch (e) { /* sin almacenamiento */ }
+    sincronizarEstadoModoEnfoque();
+    if (modoEnfoqueActivo) {
+      var h = location.hash || '#/';
+      if (!/^#\/tema\/([a-z0-9]+)$/.test(h)) {
+        var tAct = obtenerTemaActivoCuerpo();
+        if (tAct) {
+          go('#/tema/' + tAct);
+          return;
+        }
+      }
+    }
+    render();
+  }
+
   function actualizarEncabezadoCuerpo() {
     var c = cuerpoActual();
-    if ($headerTitulo) $headerTitulo.textContent = c.nombreCompleto || 'Oposiciones Junta de Andalucía';
+    if ($headerTitulo) {
+      if (modoEnfoqueActivo) {
+        var tAct = buscarTemaEnCuerpo(obtenerTemaActivoCuerpo());
+        $headerTitulo.textContent = c.nombreCorto + (tAct ? ' · ' + etiquetaTema(tAct) : '');
+      } else {
+        $headerTitulo.textContent = c.nombreCompleto || 'Oposiciones Junta de Andalucía';
+      }
+    }
     if ($headerSub) $headerSub.textContent = (c.normativa ? c.normativa + ' · ' : '') + 'Resumen, legislación oficial con enlaces y banco de test tipo examen';
     if ($selectCuerpo) $selectCuerpo.value = cuerpoActivoId;
+    sincronizarEstadoModoEnfoque();
   }
 
   function cambiarCuerpoActivo(nuevoId) {
     if (!CUERPOS[nuevoId]) return;
     cuerpoActivoId = nuevoId;
     try { localStorage.setItem(CUERPO_STORAGE_KEY, nuevoId); } catch (e) { /* sin almacenamiento */ }
+    try {
+      modoEnfoqueActivo = localStorage.getItem(storageKeyCuerpo('modo-enfoque')) === '1';
+    } catch (e) { modoEnfoqueActivo = false; }
     filtro = 'todos';
     estadoFichas.bloque = 'todos';
     estadoNormativa.categoria = 'todas';
@@ -700,7 +830,11 @@
     estadoNormativa.importancia = 'todas';
     gen.sel = null; // reiniciar selección del generador
     actualizarEncabezadoCuerpo();
-    render();
+    if (modoEnfoqueActivo) {
+      go('#/tema/' + obtenerTemaActivoCuerpo());
+    } else {
+      render();
+    }
     window.scrollTo(0, 0);
   }
 
@@ -2310,12 +2444,42 @@
     if (!t) return '<p>Tema no encontrado.</p><button class="btn sec" type="button" data-ir="#/">Volver a los temas</button>';
     var contentId = t.id || id;
     var rk = claveRutaTema(t);
+    guardarTemaActivoCuerpo(rk);
+    actualizarEncabezadoCuerpo();
     var c = D.contenido[contentId];
     var prog = leerProgreso();
     var p = prog[rk] || prog[contentId] || {};
 
+    var listaTemasCuerpo = temasCuerpoActual();
+    var idxTemaActual = -1;
+    for (var ti = 0; ti < listaTemasCuerpo.length; ti++) {
+      if (claveRutaTema(listaTemasCuerpo[ti]) === rk || listaTemasCuerpo[ti].id === t.id) {
+        idxTemaActual = ti;
+        break;
+      }
+    }
+    var temaAnt = idxTemaActual > 0 ? listaTemasCuerpo[idxTemaActual - 1] : null;
+    var temaSig = (idxTemaActual !== -1 && idxTemaActual + 1 < listaTemasCuerpo.length) ? listaTemasCuerpo[idxTemaActual + 1] : null;
+
+    var barraEnfoqueHtml = '';
+    if (modoEnfoqueActivo) {
+      barraEnfoqueHtml = '<div class="barra-enfoque-tema">' +
+        '<div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">' +
+        '<span class="pill done">🎯 Modo Enfoque · ' + esc(corp.codigo) + '</span>' +
+        (temaAnt ? '<button type="button" class="btn-cita" data-tema="' + esc(claveRutaTema(temaAnt)) + '">← ' + esc(etiquetaTema(temaAnt)) + '</button>' : '') +
+        (temaSig ? '<button type="button" class="btn-cita" data-tema="' + esc(claveRutaTema(temaSig)) + '">' + esc(etiquetaTema(temaSig)) + ' →</button>' : '') +
+        '</div>' +
+        '<div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">' +
+        '<button type="button" class="btn-cita" data-expandir-enfoque="1">' + (expandirTodoEnfoque ? '▸ Plegar secciones' : '▾ Desplegar todo el tema') + '</button>' +
+        '<button type="button" class="btn-cita" data-toggle-enfoque="1">✕ Salir de Modo Enfoque</button>' +
+        '</div></div>';
+    }
+
     var cabecera =
-      '<button class="volver" type="button" data-ir="#/">← Todos los temas de ' + esc(corp.nombreCorto || corp.codigo) + '</button>' +
+      barraEnfoqueHtml +
+      (modoEnfoqueActivo
+        ? ''
+        : '<button class="volver" type="button" data-ir="#/">← Todos los temas de ' + esc(corp.nombreCorto || corp.codigo) + '</button>') +
       '<div class="tema-meta"><strong>' + esc(etiquetaTema(t)) + '</strong> ' +
       (t.bloqueNombre ? '<span class="pill">' + esc(t.bloqueNombre.replace(/\s*\(Temas\s+\d+.*?\)/i, '')) + '</span> ' : '') +
       '<span class="pill">' + esc(corp.codigo) + ' · BOJA</span> ' +
@@ -2349,7 +2513,8 @@
           var parrafosHtml = s.parrafos.map(function (par) {
             return '<p>' + enlazarNormas(par, contentId, leyesSec) + '</p>';
           }).join('');
-          return '<details class="card"' + (i === 0 ? ' open' : '') + '><summary><strong>' + esc(s.titulo) + '</strong></summary>' +
+          var abrirSec = (i === 0 || expandirTodoEnfoque) ? ' open' : '';
+          return '<details class="card"' + abrirSec + '><summary><strong>' + esc(s.titulo) + '</strong></summary>' +
             parrafosHtml + barraNormasApartado(leyesSec, contentId) +
             '</details>';
         }).join('') + '</section>';
@@ -3443,6 +3608,8 @@
     } else if (h === '#/normativa') {
       $app.innerHTML = vistaNormativaGlobal();
       cargarBanco();
+    } else if (modoEnfoqueActivo) {
+      $app.innerHTML = vistaTema(obtenerTemaActivoCuerpo());
     } else {
       $app.innerHTML = vistaLista();
     }
@@ -4350,6 +4517,14 @@
     var el = ev.target.closest('button, a');
     if (!el) return;
     if (el.dataset.cerrarModal) { cerrarModalNorma(); return; }
+    if (el.dataset.toggleEnfoque) { alternarModoEnfoque(); return; }
+    if (el.dataset.expandirEnfoque) {
+      expandirTodoEnfoque = !expandirTodoEnfoque;
+      var syEnf = window.scrollY;
+      render();
+      window.scrollTo(0, syEnf);
+      return;
+    }
     if (el.dataset.toggleNormas) { alternarEnlacesNormas(); return; }
     if (el.dataset.ocultarDatos) {
       estadoFichas.ocultarDatos = !estadoFichas.ocultarDatos;
@@ -4587,7 +4762,15 @@
       go('#/tema/' + el.dataset.tema);
       return;
     }
-    if (el.dataset.ir) { go(el.dataset.ir); return; }
+    if (el.dataset.ir) {
+      if (el.dataset.ir === '#/' && modoEnfoqueActivo) {
+        modoEnfoqueActivo = false;
+        try { localStorage.setItem(storageKeyCuerpo('modo-enfoque'), '0'); } catch (e) { /* sin almacenamiento */ }
+        sincronizarEstadoModoEnfoque();
+      }
+      go(el.dataset.ir);
+      return;
+    }
     if (el.dataset.test) { iniciarTest(el.dataset.test); return; }
     if (el.dataset.opcion !== undefined) { responder(Number(el.dataset.opcion)); return; }
     if (el.dataset.siguiente) { siguiente(); return; }
@@ -4638,6 +4821,11 @@
   document.addEventListener('keydown', function (ev) {
     if (ev.key === 'Escape' && !$modalNorma.hidden) {
       cerrarModalNorma();
+      return;
+    }
+    if (ev.altKey && (ev.key === 'f' || ev.key === 'F')) {
+      ev.preventDefault();
+      alternarModoEnfoque();
     }
   });
 
@@ -4688,7 +4876,14 @@
     }
   });
 
+  try {
+    modoEnfoqueActivo = localStorage.getItem(storageKeyCuerpo('modo-enfoque')) === '1';
+  } catch (e) { modoEnfoqueActivo = false; }
+  sincronizarEstadoModoEnfoque();
   window.addEventListener('hashchange', alCambiarRuta);
+  if (modoEnfoqueActivo && !/^#\/tema\/([a-z0-9]+)$/.test(location.hash || '')) {
+    location.hash = '#/tema/' + obtenerTemaActivoCuerpo();
+  }
   alCambiarRuta();
 })();
 </script>
