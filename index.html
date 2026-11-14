@@ -796,7 +796,7 @@
   var REPASO_KEY = 'estudio-repaso-v1';
   var busquedaGlobal = '';
   var estadoFichas = { ocultarDatos: false, categoria: 'todas', bloque: 'todos', busqueda: '' };
-  var estadoNormativa = { categoria: 'todas', busqueda: '' };
+  var estadoNormativa = { modo: 'materia', categoria: 'todas', tipo: 'todos', importancia: 'todas', busqueda: '' };
 
   function leerNotas() {
     try { return JSON.parse(localStorage.getItem(NOTAS_KEY)) || {}; } catch (e) { return {}; }
@@ -2439,19 +2439,20 @@
       '</div>';
   }
 
-  // ---------- Biblioteca Normativa Interactiva (119 normas por materia) ----------
+  // ---------- Biblioteca Normativa Interactiva (por materia, tipo de norma e importancia) ----------
   function categoriaNorma(l) {
     var id = l.id;
-    if (/^(CE|EA-ANDALUCIA|LO-4-1981|TUE-TFUE|TLISBOA-2007|LGOB-AND-6-2006|LBRL|LAULA-5-2010|LCCA-2-2024|LOREG-5-1985|LEA-1-1986|LOPP-6-2002|LOTC-2-1979|LOPJ-6-1985|LGOB-50-1997|LODP-3-1981|LDPA-9-1983|LCCA-1-1988|LOAFC-2-2021)$/.test(id)) return 'constitucional';
-    if (/^(LPAC|LRJSP|LAJA|LJCA|LTBG|LOPDGDD|ENS-311-2022|DEC-AND-622-2019|DEC-AND-317-2003|DEC-AND-204-1995|LDAPA-7-2011|LACC-16-2007|LPPCA-2-2017|LOSC-4-2015|LGEA-2-2002|LPLA-6-2023|CC-1889|LH-1946|LAU-29-1994)$/.test(id)) return 'administrativo';
-    if (/^(LCSP|RGLCAP-1098-2001|RD-1359-2011|L-2-2015|RD-55-2017|L-3-2004)$/.test(id)) return 'contratacion';
-    if (/^(EBEP|LFP-ANDALUCIA|VI-CONV-LAB-JA|LIPAP-53-1984|LINC-AND-3-2005|LO-3-2007|LIG-AND-12-2007|LO-1-2004|VG-AND-13-2007|LTPA|ET-2-2015|LGSS-8-2015|LOLS-11-1985|LRJS-36-2011|LISOS-5-2000|LITSS-23-2015|LSCA-14-2011)$/.test(id)) return 'funcion-publica';
-    if (/^(LGHPA|LGP-47-2003|LOEPSF-2-2012|LGS|RLGS-887-2006|DEC-AND-282-2010|LPAP-33-2003|LPCA-4-1986|LPCA-7-2025|LGT-58-2003|LOFCA-8-1980|LTCA-5-2021|LRHL-2-2004|DEC-AND-197-2021|DEC-AND-92-2022|ORD-AND-CONT-2015|ORD-AND-PGCF-2015)$/.test(id)) return 'hacienda';
+    if (/^(CE|EA-ANDALUCIA|LO-4-1981|TUE-TFUE|TLISBOA-2007|LGOB-AND-6-2006|LBRL|LAULA-5-2010|LCCA-2-2024|L-4-2005|LOREG-5-1985|LEA-1-1986|LOPP-6-2002|LOTC-2-1979|LOPJ-6-1985|LGOB-50-1997|LODP-3-1981|LDPA-9-1983|LCCA-1-1988|LOAFC-2-2021|LO-2-1982|LO-3-1980|LO-2-1986|RD-434-1988)$/.test(id)) return 'constitucional';
+    if (/^(LPAC|LRJSP|LAJA|LJCA|LTBG|LOPDGDD|RGPD|ENS-311-2022|RD-4-2010|RD-203-2021|DL-AND-3-2024|DL-AND-13-2020|DEC-AND-622-2019|DEC-AND-317-2003|DEC-AND-204-1995|DEC-AND-262-1988|LDAPA-7-2011|LACC-16-2007|LPPCA-2-2017|LOSC-4-2015|LO-4-2001|LGEA-2-2002|LPLA-6-2023|L-2-1974|L-14-2010|L-9-2021|LAVA-10-2018|CC-1889|LH-1946|LAU-29-1994)$/.test(id)) return 'administrativo';
+    if (/^(LCSP|RGLCAP-1098-2001|DEC-AND-39-2011|RD-1359-2011|L-2-2015|RD-55-2017|L-3-2004)$/.test(id)) return 'contratacion';
+    if (/^(EBEP|LFP-ANDALUCIA|LFP-AND-6-1985|VI-CONV-LAB-JA|DEC-AND-51-2025|DEC-AND-2-2002|DEC-AND-524-2008|DEC-AND-54-1989|RD-364-1995|RD-33-1986|RD-84-1996|RD-1415-2004|ORD-AND-12-12-2005|LIPAP-53-1984|LINC-AND-3-2005|LO-3-2007|LIG-AND-12-2007|LO-1-2004|VG-AND-13-2007|LTPA|ET-2-2015|LGSS-8-2015|LOLS-11-1985|LRJS-36-2011|LISOS-5-2000|LITSS-23-2015|LSCA-14-2011|RDL-17-1977|L-10-2021|L-3-2023)$/.test(id)) return 'funcion-publica';
+    if (/^(LGHPA|LGP-47-2003|LOEPSF-2-2012|LGS|RLGS-887-2006|DEC-AND-282-2010|LPAP-33-2003|LPCA-4-1986|LPCA-7-2025|LGT-58-2003|LOFCA-8-1980|L-22-2009|LTCA-5-2021|LRHL-2-2004|DEC-AND-197-2021|DEC-AND-40-2017|DEC-AND-92-2022|ORD-AND-CONT-2015|ORD-AND-PGCF-2015)$/.test(id)) return 'hacienda';
     if (/^(LISTA-7-2021|DEC-AND-550-2022|TRLS-7-2015|DEC-AND-60-2010|RD-2568-1986)$/.test(id)) return 'urbanismo';
-    if (/^(LOE|CTE|DB-|RD-470-2021|DEC-AND-67-2011|RD-410-2010|CEE-390-2021)/.test(id)) return 'edificacion-cte';
-    if (/^(DEC-AND-293-2009|TMA-851-2021|RD-505-2007|LAND-4-2017|LGDPD-1-2013|LVA-5-2025|DEC-AND-149-2006|DEC-AND-91-2020|DEC-AND-1-2012|DEC-AND-161-2018|ORD-AND-21-07-2008|LPH-49-1960)$/.test(id)) return 'accesibilidad-vivienda';
+    if (/^(LOE|CTE|DB-|RD-470-2021|DEC-AND-67-2011|RD-410-2010|CEE-390-2021|ORD-AND-24-01-2003|RD-132-2010|RD-1004-1991)/.test(id)) return 'edificacion-cte';
+    if (/^(DEC-AND-293-2009|TMA-851-2021|RD-505-2007|LAND-4-2017|LGDPD-1-2013|LVA-5-2025|L-1-2010|L-13-2005|DEC-AND-149-2006|DEC-AND-91-2020|DEC-AND-1-2012|DEC-AND-161-2018|ORD-AND-21-07-2008|LPH-49-1960)$/.test(id)) return 'accesibilidad-vivienda';
     if (/^(LPRL|RD-1627-1997|RD-486-1997|RD-39-1997|RD-485-1997|RD-773-1997|RD-1215-1997|RD-171-2004|RD-396-2006|RD-847-2026|L-32-2006|RD-1109-2007|RITE|RD-842-2002|RD-346-2011|RD-919-2006|RD-355-2024|RD-513-2017|RD-164-2025|RDL-1-1998)$/.test(id)) return 'seguridad-instalaciones';
     if (/^(LEF|REF-1957|TRLCAT-1-2004|ECO-805-2003|RD-1020-1993|RD-1464-2007|RD-1492-2011)$/.test(id)) return 'expropiacion-valoraciones';
+    if (/^(LSA-2-1998|LSPA-16-2011|L-16-2003|DEC-AND-69-2008|LSSA-9-2016|LAAD-39-2006|L-15-2005|LEDA-17-2007|DLEG-AND-1-2013|LCUA-13-2003|LTA-13-2011|L-1-2004|DLEG-AND-1-2012|L-5-2016|L-13-1999|L-50-1999)$/.test(id)) return 'sectorial';
     return 'patrimonio-medioambiente';
   }
 
@@ -2459,25 +2460,104 @@
     'todas': 'Todas las normas (' + Object.keys(D.leyes).length + ')',
     'derogadas': '⚠️ Auditoría de vigencia: derogadas / sustituidas / en transición',
     'constitucional': '🏛️ Constitucional, UE y Autonómico',
-    'administrativo': '📋 Procedimiento y Régimen Jurídico',
+    'administrativo': '📋 Procedimiento, Régimen Jurídico y Admin. Electrónica',
     'contratacion': '📑 Contratación Pública (LCSP)',
-    'funcion-publica': '👥 Función Pública e Igualdad',
-    'hacienda': '💶 Hacienda, Presupuestos y Subvenciones',
+    'funcion-publica': '👥 Función Pública, Laboral e Igualdad',
+    'hacienda': '💶 Hacienda, Presupuestos, Patrimonio y Subvenciones',
     'urbanismo': '🏙️ Urbanismo y Territorio (LISTA / TRLS)',
     'edificacion-cte': '🏗️ Edificación, LOE, CTE y Código Estructural',
     'accesibilidad-vivienda': '♿ Accesibilidad y Vivienda',
     'seguridad-instalaciones': '🦺 Seguridad y Salud e Instalaciones',
     'expropiacion-valoraciones': '📐 Expropiación, Valoraciones y Catastro',
-    'patrimonio-medioambiente': '🏛️ Patrimonio Histórico, Acústica y Medio Ambiente'
+    'patrimonio-medioambiente': '🌿 Patrimonio Histórico, Acústica, Aguas y Medio Ambiente',
+    'sectorial': '🏥 Normativa Sectorial (Salud, Servicios Sociales, Comercio, Turismo)'
   };
 
+  function tipoNorma(l) {
+    var id = l.id;
+    var ref = ((l.referencia || '') + ' ' + (l.nombre || '')).toLowerCase();
+    if (id === 'CE' || id === 'EA-ANDALUCIA') return '1-constitucion';
+    if (id === 'TUE-TFUE' || id === 'TLISBOA-2007' || id === 'RGPD') return '2-ue';
+    if (/^(LO-4-1981|LOTC-2-1979|LODP-3-1981|LOREG-5-1985|LOPJ-6-1985|LOLS-11-1985|LOPP-6-2002|LOFCA-8-1980|LO-3-1980|LO-2-1982|LO-2-1986|LO-4-2001|LO-1-2004|LO-3-2007|LOEPSF-2-2012|LOSC-4-2015|LOPDGDD)$/.test(id)) return '3-organica';
+    if (id === 'CTE' || id.indexOf('DB-') === 0 || id === 'RD-470-2021-ACERO') return '9-cte';
+    if (id.indexOf('DLEG-') === 0 || id.indexOf('TRL') === 0 || /^(EBEP|LGHPA|ET-2-2015|LGSS-8-2015|LISOS-5-2000|LGDPD-1-2013|LRHL-2-2004)$/.test(id) || /texto refundido|decreto legislativo/.test(ref)) return '5-refundido';
+    if (id.indexOf('DL-') === 0 || id.indexOf('RDL-') === 0 || /decreto-ley|decreto ley/.test(ref)) return '6-decreto-ley';
+    if (id.indexOf('ORD-') === 0 || id.indexOf('TMA-') === 0 || id.indexOf('ECO-') === 0 || id === 'VI-CONV-LAB-JA' || /\borden\b|\bconvenio colectivo\b/.test(ref)) return '8-orden';
+    if (id.indexOf('RD-') === 0 || id.indexOf('DEC-AND-') === 0 || /^(RGLCAP-1098-2001|RLGS-887-2006|REF-1957|ENS-311-2022|RITE|CEE-390-2021)$/.test(id)) return '7-decreto';
+    return '4-ordinaria';
+  }
+
+  var NOMBRES_TIPO_NORMA = {
+    'todos': 'Todos los tipos de norma (' + Object.keys(D.leyes).length + ')',
+    '1-constitucion': '📜 Constitución y Estatuto de Autonomía (2)',
+    '2-ue': '🇪🇺 Derecho de la Unión Europea (3)',
+    '3-organica': '⚖️ Leyes Orgánicas (17)',
+    '4-ordinaria': '📘 Leyes Ordinarias y Códigos (90)',
+    '5-refundido': '📚 Textos Refundidos y Decretos Legislativos (12)',
+    '6-decreto-ley': '⚡ Reales Decretos-ley y Decretos-ley (4)',
+    '7-decreto': '📑 Reales Decretos y Decretos Autonómicos (75)',
+    '8-orden': '📋 Órdenes y Convenios Colectivos (8)',
+    '9-cte': '🏗️ Código Técnico (CTE) y Documentos Básicos (12)'
+  };
+
+  var EX_OFICIALES_LEY = {'LCSP':418,'LPAC':380,'LGHPA':205,'EA-ANDALUCIA':201,'CE':181,'LFP-ANDALUCIA':177,'EBEP':149,'LRJSP':115,'CTE':113,'LISTA-7-2021':105,'LAJA':102,'VI-CONV-LAB-JA':77,'DEC-AND-550-2022':75,'RGLCAP-1098-2001':59,'LGSS-8-2015':56,'LIG-AND-12-2007':51,'LTPA':51,'ET-2-2015':50,'DEC-AND-2-2002':47,'DEC-AND-622-2019':45,'LFP-AND-6-1985':45,'LGS':44,'LPCA-4-1986':41,'DEC-AND-91-2020':39,'LPAP-33-2003':39,'TUE-TFUE':37,'DEC-AND-282-2010':36,'CC-1889':35,'DEC-AND-149-2006':35,'LPCA-7-2025':35,'VG-AND-13-2007':33,'LTBG':32,'LPHA-14-2007':31,'DEC-AND-293-2009':29,'LO-3-2007':26,'DEC-AND-197-2021':24,'LGOB-AND-6-2006':24,'DEC-AND-317-2003':23,'LOPDGDD':23,'RGPD':23,'LJCA':22,'ORD-AND-CONT-2015':21,'DB-HS':19,'TMA-851-2021':18,'LOE':17,'LBRL':16,'LPRL':16,'LRJS-36-2011':16,'LCCA-1-1988':15,'LGICA-7-2007':13,'DB-SI':12,'DEC-AND-524-2008':12,'DEC-AND-92-2022':12,'LIPAP-53-1984':12,'TRLS-7-2015':12,'DB-SUA':11,'DL-AND-3-2024':11,'DB-HE':10,'DEC-AND-51-2025':10,'ECO-805-2003':10,'LDAPA-7-2011':10,'RD-364-1995':10,'L-4-2005':8,'LEF':8,'ORD-AND-12-12-2005':8,'RD-1627-1997':8,'DEC-AND-39-2011':7,'RD-33-1986':7,'DEC-AND-262-1988':6,'DL-AND-13-2020':6,'L-50-1999':6,'LAULA-5-2010':6,'LGEA-2-2002':6,'LGT-58-2003':6,'LINC-AND-3-2005':6,'LPLA-6-2023':6,'ORD-AND-21-07-2008':6,'DEC-AND-54-1989':5,'L-1-2010':5,'L-13-2005':5,'LEGAM-2-2026':5,'LSA-2-1998':5,'RD-203-2021':5,'L-10-2021':4,'L-2-1989':4,'LEA-1-1986':4,'LISOS-5-2000':4,'LO-1-2004':4,'LOEPSF-2-2012':4,'LPHE-16-1985':4,'RDL-17-1977':4,'DEC-AND-40-2017':3,'DEC-AND-67-2011':3,'DLEG-AND-1-2012':3,'DLEG-AND-1-2013':3,'L-21-2013':3,'L-32-2006':3,'LAA-9-2010':3,'LAND-4-2017':3,'LDPA-9-1983':3,'LGP-47-2003':3,'LO-2-1982':3,'LOAFC-2-2021':3,'LOTC-2-1979':3,'LPPCA-2-2017':3,'RD-4-2010':3,'RD-470-2021':3,'RD-84-1996':3,'RD-842-2002':3,'RITE':3,'RLGS-887-2006':3,'DEC-AND-1-2012':2,'DEC-AND-204-1995':2,'L-1-2004':2,'L-15-2005':2,'L-22-2009':2,'L-5-2016':2,'LAAD-39-2006':2,'LGOB-50-1997':2,'LH-1946':2,'LODP-3-1981':2,'LOLS-11-1985':2,'LOREG-5-1985':2,'LPH-49-1960':2,'LSSA-9-2016':2,'RD-1020-1993':2,'RD-105-2008':2,'RD-132-2010':2,'RD-346-2011':2,'TRLCAT-1-2004':2,'CEE-390-2021':1,'DB-SE-C':1,'DEC-AND-60-2010':1,'L-3-2023':1,'L-42-2007':1,'L-8-2018':1,'LACC-16-2007':1,'LAVA-10-2018':1,'LCCA-2-2024':1,'LCUA-13-2003':1,'LEDA-17-2007':1,'LO-2-1986':1,'LO-4-1981':1,'LO-4-2001':1,'LOFCA-8-1980':1,'LOPJ-6-1985':1,'LOPP-6-2002':1,'LPCA-4-2026':1,'LRHL-2-2004':1,'ORD-AND-24-01-2003':1,'RD-1415-2004':1,'RD-1492-2011':1,'RD-355-2024':1,'RD-396-2006':1,'RD-470-2021-ACERO':1,'RD-487-2022':1,'RD-513-2017':1,'RD-847-2026':1,'REF-1957':1};
+
+  function importanciaNorma(l) {
+    var vig = !l.estado_vigencia || l.estado_vigencia === 'vigente';
+    if (!vig) return 'nivel4';
+    var ex = EX_OFICIALES_LEY[l.id] || 0;
+    var nTemas = (temasPorLey[l.id] || []).length;
+    if (ex >= 20 || nTemas >= 6) return 'nivel1';
+    if (ex >= 5 || nTemas >= 3) return 'nivel2';
+    return 'nivel3';
+  }
+
+  var NOMBRES_IMP_NORMA = {
+    'todas': 'Todos los niveles de importancia (' + Object.keys(D.leyes).length + ')',
+    'nivel1': '🔥 Nivel 1 · Imprescindibles / Troncales (42 normas · ≥20 citas en examen o ≥6 temas)',
+    'nivel2': '⭐ Nivel 2 · Muy frecuentes (44 normas · 5–19 citas en examen o 3–5 temas)',
+    'nivel3': '📌 Nivel 3 · Específicas y de consulta (117 normas vigentes)',
+    'nivel4': '🏛️ Nivel 4 · Históricas / Derogadas o en transición (20 normas)'
+  };
+
+  function badgeImportancia(l) {
+    var imp = importanciaNorma(l);
+    var ex = EX_OFICIALES_LEY[l.id] || 0;
+    var nT = (temasPorLey[l.id] || []).length;
+    var det = (ex ? ex + ' ex.' : '') + (ex && nT ? ' · ' : '') + (nT ? nT + ' temas' : '');
+    if (imp === 'nivel1') return '<span class="pill ok" title="Norma troncal de estudio prioritario">🔥 Nivel 1 · Imprescindible' + (det ? ' (' + det + ')' : '') + '</span>';
+    if (imp === 'nivel2') return '<span class="pill" style="background:#eff6ff;color:#1d4ed8;border-color:#bfdbfe" title="Norma frecuente en convocatorias oficiales">⭐ Nivel 2 · Muy frecuente' + (det ? ' (' + det + ')' : '') + '</span>';
+    if (imp === 'nivel3') return '<span class="pill" title="Norma específica o de referencia puntual">📌 Nivel 3 · Específica' + (det ? ' (' + det + ')' : '') + '</span>';
+    return '<span class="pill warn" title="Norma derogada o en régimen transitorio">🏛️ Nivel 4 · Histórica/Transición' + (det ? ' (' + det + ')' : '') + '</span>';
+  }
+
   function vistaNormativaGlobal() {
+    var nTotal = Object.keys(D.leyes).length;
+    var nVigentes = 0, nDerogadas = 0, nTransicion = 0;
+    Object.keys(D.leyes).forEach(function (id) {
+      var st = D.leyes[id].estado_vigencia;
+      if (!st || st === 'vigente') nVigentes++;
+      else if (st === 'derogada') nDerogadas++;
+      else nTransicion++;
+    });
+
+    var modo = estadoNormativa.modo || 'materia';
     var ids = Object.keys(D.leyes).filter(function (id) {
       var l = D.leyes[id];
-      if (estadoNormativa.categoria === 'derogadas') {
-        if (!l.estado_vigencia || l.estado_vigencia === 'vigente') return false;
-      } else if (estadoNormativa.categoria !== 'todas' && categoriaNorma(l) !== estadoNormativa.categoria) {
-        return false;
+      if (modo === 'materia') {
+        if (estadoNormativa.categoria === 'derogadas') {
+          if (!l.estado_vigencia || l.estado_vigencia === 'vigente') return false;
+        } else if (estadoNormativa.categoria !== 'todas' && categoriaNorma(l) !== estadoNormativa.categoria) {
+          return false;
+        }
+      } else if (modo === 'tipo') {
+        if (estadoNormativa.tipo !== 'todos' && tipoNorma(l) !== estadoNormativa.tipo) {
+          return false;
+        }
+      } else if (modo === 'importancia') {
+        if (estadoNormativa.importancia !== 'todas' && importanciaNorma(l) !== estadoNormativa.importancia) {
+          return false;
+        }
       }
       if (estadoNormativa.busqueda) {
         var q = normClave(estadoNormativa.busqueda);
@@ -2486,32 +2566,71 @@
       return true;
     });
 
+    if (modo === 'importancia') {
+      ids.sort(function (a, b) {
+        var ea = EX_OFICIALES_LEY[a] || 0, eb = EX_OFICIALES_LEY[b] || 0;
+        if (eb !== ea) return eb - ea;
+        var ta = (temasPorLey[a] || []).length, tb = (temasPorLey[b] || []).length;
+        if (tb !== ta) return tb - ta;
+        return a.localeCompare(b);
+      });
+    } else if (modo === 'tipo') {
+      ids.sort(function (a, b) {
+        var ta = tipoNorma(D.leyes[a]), tb = tipoNorma(D.leyes[b]);
+        if (ta !== tb) return ta.localeCompare(tb);
+        return (EX_OFICIALES_LEY[b] || 0) - (EX_OFICIALES_LEY[a] || 0) || a.localeCompare(b);
+      });
+    }
+
+    var selectFiltroHtml = '';
+    if (modo === 'materia') {
+      selectFiltroHtml = '<select class="sel" data-norma-cat="1" style="flex:1;min-width:260px">' +
+        Object.keys(NOMBRES_CAT_NORMA).map(function (k) {
+          return '<option value="' + k + '"' + (estadoNormativa.categoria === k ? ' selected' : '') + '>' + esc(NOMBRES_CAT_NORMA[k]) + '</option>';
+        }).join('') + '</select>';
+    } else if (modo === 'tipo') {
+      selectFiltroHtml = '<select class="sel" data-norma-tipo="1" style="flex:1;min-width:260px">' +
+        Object.keys(NOMBRES_TIPO_NORMA).map(function (k) {
+          return '<option value="' + k + '"' + (estadoNormativa.tipo === k ? ' selected' : '') + '>' + esc(NOMBRES_TIPO_NORMA[k]) + '</option>';
+        }).join('') + '</select>';
+    } else {
+      selectFiltroHtml = '<select class="sel" data-norma-imp="1" style="flex:1;min-width:260px">' +
+        Object.keys(NOMBRES_IMP_NORMA).map(function (k) {
+          return '<option value="' + k + '"' + (estadoNormativa.importancia === k ? ' selected' : '') + '>' + esc(NOMBRES_IMP_NORMA[k]) + '</option>';
+        }).join('') + '</select>';
+    }
+
     return volverInicio() +
-      '<h2 class="tituloTema">📚 Biblioteca Normativa Interactiva (' + Object.keys(D.leyes).length + ' normas oficiales)</h2>' +
-      '<p class="sub">Todas las leyes, reales decretos, decretos autonómicos, órdenes y Documentos Básicos del CTE descargados en el repositorio. Pulsa «📖 Abrir articulado y PDF» para leer sus artículos o «📝 Hacer test de esta norma» para practicar solo preguntas de esa ley.</p>' +
+      '<h2 class="tituloTema">📚 Biblioteca Normativa Interactiva (' + nTotal + ' normas oficiales)</h2>' +
+      '<p class="sub">Todas las leyes, reales decretos, decretos autonómicos, órdenes y Documentos Básicos del CTE descargados e indexados en el repositorio. Cambia entre el índice <strong>por materia</strong>, <strong>por tipo de norma</strong> o <strong>por importancia en exámenes</strong>.</p>' +
       '<div class="card" style="border-left:4px solid var(--accent)">' +
       '<div class="tema-meta" style="justify-content:space-between;align-items:center">' +
-      '<div><strong>🔍 Auditoría de Vigencia Normativa (BOE / BOJA · Noviembre 2026)</strong> · <span class="pill ok">160 vigentes</span> <span class="pill bad">9 derogadas con su sustituta</span> <span class="pill warn">5 en vacatio / vigencia parcial</span></div>' +
+      '<div><strong>🔍 Auditoría de Vigencia Normativa (BOE / BOJA · Noviembre 2026)</strong> · <span class="pill ok">' + nVigentes + ' vigentes</span> <span class="pill bad">' + nDerogadas + ' derogadas con su sustituta</span> <span class="pill warn">' + nTransicion + ' en vigencia parcial / diferida</span></div>' +
       '<div style="display:flex;gap:6px;flex-wrap:wrap">' +
       '<a class="btn-cita" href="INFORME_AUDITORIA_NORMATIVA_DEROGADA.md" target="_blank" rel="noopener" download="INFORME_AUDITORIA_NORMATIVA_DEROGADA.md">📄 Descargar Informe de Conclusiones (.md)</a>' +
       '</div></div>' +
-      '<p class="sub" style="margin:6px 0 0">Incluye las sustituciones recientes de 2025–2026: <strong>Ley 2/2026 LEGAM</strong> (deroga la Ley 7/2007 GICA desde el 20/06/2026), <strong>Ley 7/2025 de Patrimonio de Andalucía</strong> (deroga la Ley 4/1986 desde el 20/01/2026), <strong>RD 847/2026 de Amianto</strong> (deroga el RD 396/2006 desde el 24/10/2026), <strong>Decreto 50/2025 de Calidad Acústica</strong> (deroga el Decreto 6/2012) y <strong>Ley 4/2026 de Patrimonio Cultural</strong> (sustituye a la Ley 14/2007 desde el 07/04/2027).</p>' +
+      '<p class="sub" style="margin:6px 0 0">Incluye las sustituciones recientes de 2025–2026: <strong>Ley 2/2026 LEGAM</strong> (deroga la Ley 7/2007 GICA), <strong>Ley 7/2025 de Patrimonio de Andalucía</strong> (deroga la Ley 4/1986), <strong>Ley 5/2025 de Vivienda de Andalucía</strong> (deroga las Leyes 1/2010 y 13/2005), <strong>Decreto 51/2025</strong> (deroga el Decreto 2/2002), <strong>RD 847/2026 de Amianto</strong> (deroga el RD 396/2006), <strong>Decreto 50/2025 de Calidad Acústica</strong> (deroga el Decreto 6/2012) y <strong>Ley 4/2026 de Patrimonio Cultural</strong> (sustituye a la Ley 14/2007 desde el 07/04/2027).</p>' +
       '</div>' +
       '<div class="card">' +
+      '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px">' +
+      '<button type="button" class="tab" data-norma-modo="materia" aria-pressed="' + (modo === 'materia') + '">📂 Índice por materia</button>' +
+      '<button type="button" class="tab" data-norma-modo="tipo" aria-pressed="' + (modo === 'tipo') + '">⚖️ Índice por tipo de norma</button>' +
+      '<button type="button" class="tab" data-norma-modo="importancia" aria-pressed="' + (modo === 'importancia') + '">🎯 Índice por importancia</button>' +
+      '</div>' +
       '<div class="modal-buscador">' +
-      '<select class="sel" data-norma-cat="1" style="flex:1;min-width:240px">' +
-      Object.keys(NOMBRES_CAT_NORMA).map(function (k) {
-        return '<option value="' + k + '"' + (estadoNormativa.categoria === k ? ' selected' : '') + '>' + esc(NOMBRES_CAT_NORMA[k]) + '</option>';
-      }).join('') +
-      '</select>' +
-      '<input type="search" id="input-buscar-normativa" value="' + esc(estadoNormativa.busqueda) + '" placeholder="Buscar ley, decreto, orden o número (ej. 39/2015, 293/2009, SUA, LISTA)…">' +
+      selectFiltroHtml +
+      '<input type="search" id="input-buscar-normativa" value="' + esc(estadoNormativa.busqueda) + '" placeholder="Buscar ley, decreto, orden o número (ej. 39/2015, RGPD, 293/2009, LISTA)…">' +
       '</div></div>' +
-      '<p class="sub">Mostrando ' + ids.length + ' normas:</p>' +
+      '<p class="sub">Mostrando ' + ids.length + ' de ' + nTotal + ' normas:</p>' +
       ids.map(function (id) {
         var l = D.leyes[id];
         var rels = temasPorLey[id] || [];
         return '<div class="card ley">' +
-          '<div class="tema-meta">' + badgeVerificacion(l) + '<span class="pill">' + esc(NOMBRES_CAT_NORMA[categoriaNorma(l)] || '') + '</span></div>' +
+          '<div class="tema-meta">' + badgeVerificacion(l) +
+          '<span class="pill">' + esc(NOMBRES_TIPO_NORMA[tipoNorma(l)].replace(/\s*\(\d+\)$/, '')) + '</span>' +
+          '<span class="pill">' + esc(NOMBRES_CAT_NORMA[categoriaNorma(l)] || '') + '</span>' +
+          badgeImportancia(l) +
+          '</div>' +
           '<strong>' + esc(l.nombre) + '</strong>' +
           '<span>' + esc(l.referencia) + '</span>' +
           (rels.length ? '<div class="normas-apartado" style="margin-top:6px"><span class="etiqueta">Se estudia en (' + rels.length + ' temas):</span>' +
@@ -4297,6 +4416,7 @@
       }
       return;
     }
+    if (el.dataset.normaModo) { estadoNormativa.modo = el.dataset.normaModo; render(); return; }
     if (el.dataset.gen) { accionGen(el.dataset.gen); return; }
     if (el.dataset.gex) { accionExamen(el.dataset.gex, el.dataset.n); return; }
     if (el.dataset.gop !== undefined) { if (gen.modo === 'examen') seleccionarExamen(Number(el.dataset.gop)); else responderGen(Number(el.dataset.gop)); return; }
@@ -4387,6 +4507,16 @@
     }
     if (t.dataset && t.dataset.normaCat) {
       estadoNormativa.categoria = t.value;
+      render();
+      return;
+    }
+    if (t.dataset && t.dataset.normaTipo) {
+      estadoNormativa.tipo = t.value;
+      render();
+      return;
+    }
+    if (t.dataset && t.dataset.normaImp) {
+      estadoNormativa.importancia = t.value;
       render();
       return;
     }
