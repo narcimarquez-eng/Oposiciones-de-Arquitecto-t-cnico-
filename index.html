@@ -586,6 +586,47 @@
     max-width: 820px;
     padding-top: 22px;
   }
+  .semaforo-bar {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0 12px;
+  }
+  .sem-btn {
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    padding: 5px 10px;
+    border-radius: 99px;
+    font: inherit;
+    font-size: .8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  .sem-btn:hover { border-color: var(--accent); }
+  .sem-btn[aria-pressed="true"] {
+    background: var(--accent);
+    color: var(--accent-text);
+    border-color: var(--accent);
+  }
+  .heat-bar {
+    height: 7px;
+    background: var(--surface-2);
+    border-radius: 99px;
+    overflow: hidden;
+    margin: 6px 0;
+  }
+  .heat-bar > span {
+    display: block;
+    height: 100%;
+    border-radius: 99px;
+    background: linear-gradient(90deg, var(--accent), var(--ok));
+  }
+  .heat-bar.hot > span {
+    background: linear-gradient(90deg, #d97706, #dc2626);
+  }
 </style>
 </head>
 <body>
@@ -824,10 +865,14 @@
       modoEnfoqueActivo = localStorage.getItem(storageKeyCuerpo('modo-enfoque')) === '1';
     } catch (e) { modoEnfoqueActivo = false; }
     filtro = 'todos';
+    filtroSemaforo = 'todos';
     estadoFichas.bloque = 'todos';
     estadoNormativa.categoria = 'todas';
     estadoNormativa.tipo = 'todos';
     estadoNormativa.importancia = 'todas';
+    estadoRadar.ley = 'todas';
+    estadoRadar.filtro = 'top30';
+    estadoRadar.busqueda = '';
     gen.sel = null; // reiniciar selección del generador
     actualizarEncabezadoCuerpo();
     if (modoEnfoqueActivo) {
@@ -933,8 +978,10 @@
   var NOTAS_KEY = 'estudio-notas-v1';
   var REPASO_KEY = 'estudio-repaso-v1';
   var busquedaGlobal = '';
+  var filtroSemaforo = 'todos';
   var estadoFichas = { ocultarDatos: false, categoria: 'todas', bloque: 'todos', busqueda: '' };
   var estadoNormativa = { modo: 'materia', categoria: 'todas', tipo: 'todos', importancia: 'todas', busqueda: '' };
+  var estadoRadar = { seccion: 'ambas', filtro: 'top30', ley: 'todas', busqueda: '' };
 
   function leerNotas() {
     try { return JSON.parse(localStorage.getItem(NOTAS_KEY)) || {}; } catch (e) { return {}; }
@@ -1077,9 +1124,11 @@
     }
 
     var numPracticos = ((D.supuestosPracticos && D.supuestosPracticos[c.id]) || []).length;
+    var nRadarOficial = obtenerRadarIaapCuerpo(c.id).conExamenOficial;
     $tabs.innerHTML = opts.map(function (o) {
       return '<button class="tab" type="button" data-filtro="' + o[0] + '" aria-pressed="' + (enLista && filtro === o[0]) + '">' + esc(o[1]) + '</button>';
     }).join('') +
+      '<button class="tab" type="button" data-ir="#/radar" aria-pressed="' + (h === '#/radar') + '">🎯 Radar IAAP y Plan (' + nRadarOficial + ')</button>' +
       '<button class="tab" type="button" data-ir="#/practicos" aria-pressed="' + (h === '#/practicos' || h.indexOf('#/practico/') === 0) + '">🧮 Supuestos Prácticos (' + numPracticos + ')</button>' +
       '<button class="tab" type="button" data-ir="#/generador" aria-pressed="' + (h === '#/generador') + '">Generador y Simulacro</button>' +
       '<button class="tab" type="button" data-ir="#/fichas" aria-pressed="' + (h === '#/fichas') + '">⚡ Plazos y Cifras</button>' +
@@ -1250,17 +1299,160 @@
     return false;
   }
 
+  var INTERVALOS_LEITNER_DIAS = { 1: 1, 2: 3, 3: 7, 4: 14, 5: 30 };
+
+  function calcularDominioTema(t, progObj, statsObj, repObj) {
+    var prog = progObj || leerProgreso();
+    var stats = statsObj || leerStats();
+    var rep = repObj || leerRepaso();
+    var rk = claveRutaTema(t);
+    var p = prog[rk] || prog[t.id] || {};
+    var st = (stats.temas && (stats.temas[t.id] || stats.temas[rk])) || { n: 0, ok: 0, mal: 0, bl: 0 };
+    var cont = D.contenido[t.id];
+    var maxQ = (cont && cont.test && cont.test.length) ? cont.test.length : 40;
+
+    var nFallosPend = 0;
+    var nDudosasPend = 0;
+    Object.keys(rep.falladas || {}).forEach(function (k) {
+      if (rep.falladas[k] && rep.falladas[k].tema === t.id) nFallosPend++;
+    });
+    Object.keys(rep.dudosas || {}).forEach(function (k) {
+      if (rep.dudosas[k] && rep.dudosas[k].tema === t.id) nDudosasPend++;
+    });
+
+    var visto = Boolean(p.visto || st.n > 0);
+    var contestadas = (st.ok || 0) + (st.mal || 0);
+    var pct = null;
+    if (contestadas > 0) {
+      pct = Math.round((st.ok / contestadas) * 100);
+    } else if (p.mejor != null && maxQ > 0) {
+      pct = Math.round((p.mejor / maxQ) * 100);
+    } else if (visto) {
+      pct = 70; // Repasado en lectura sin test aún
+    }
+
+    var caja = 1;
+    var repasosManuales = Number(p.repasosLeitner) || 0;
+    var intentosTot = (Number(p.intentos) || 0) + repasosManuales;
+    if (!visto) {
+      caja = 1;
+    } else if (nFallosPend >= 3 || (pct !== null && pct < 60)) {
+      caja = 1;
+    } else if (pct !== null && pct < 75) {
+      caja = 2;
+    } else if (pct !== null && pct < 85) {
+      caja = intentosTot >= 2 ? 3 : 2;
+    } else {
+      caja = (intentosTot >= 3 && nFallosPend === 0) ? 5 : 4;
+    }
+
+    var ultimaFechaIso = p.ultimaFecha || null;
+    var diasDesde = null;
+    if (ultimaFechaIso) {
+      var ms = Date.now() - new Date(ultimaFechaIso).getTime();
+      diasDesde = Math.max(0, Math.floor(ms / 86400000));
+    }
+    var intervalo = INTERVALOS_LEITNER_DIAS[caja] || 1;
+    var vencido = visto && ((diasDesde !== null && diasDesde >= intervalo) || (diasDesde === null && caja <= 2));
+
+    var estado = 'critico';
+    var badge = '';
+    if (!visto) {
+      estado = 'critico';
+      badge = '<span class="pill bad" title="Tema aún pendiente de estudio en esta oposición">🔴 Pendiente · Caja 1</span>';
+    } else if ((pct !== null && pct < 60) || nFallosPend >= 2) {
+      estado = 'critico';
+      badge = '<span class="pill bad" title="Prioridad crítica: requiere reforzar fallos (' + (pct != null ? pct + '% acierto' : '') + ')">🔴 Crítico (' + (pct != null ? pct + '%' : 'reforzar') + ') · Caja 1</span>';
+    } else if (vencido || nFallosPend > 0 || nDudosasPend > 0) {
+      estado = 'repasar';
+      var motivo = nFallosPend > 0 ? (nFallosPend + ' fallo(s)') : (diasDesde != null ? ('hace ' + diasDesde + 'd') : 'programado');
+      badge = '<span class="pill warn" title="Toca repasar hoy según curva del olvido Leitner (' + motivo + ')">🟠 Toca repasar (' + motivo + ') · Caja ' + caja + '</span>';
+    } else if (caja >= 4 && pct !== null && pct >= 85) {
+      estado = 'dominado';
+      badge = '<span class="pill ok" title="Tema dominado y dentro del intervalo de retención Leitner (' + intervalo + ' días)">🟢 Dominado (' + pct + '%) · Caja ' + caja + '</span>';
+    } else {
+      estado = 'consolidacion';
+      badge = '<span class="pill" style="background:#fef9c3;color:#854d0e;border-color:#fde047" title="En consolidación · Próximo repaso cada ' + intervalo + ' días">🟡 En consolidación' + (pct != null ? ' (' + pct + '%)' : '') + ' · Caja ' + caja + '</span>';
+    }
+
+    var urgencia = 0;
+    if (estado === 'repasar') urgencia = 300 + nFallosPend * 25 + nDudosasPend * 10 + (diasDesde || 3);
+    else if (estado === 'critico' && visto) urgencia = 250 + nFallosPend * 30 + (100 - (pct || 0));
+    else if (estado === 'critico' && !visto) urgencia = 150 - Math.min(100, Number(t.num) || 1);
+    else if (estado === 'consolidacion') urgencia = 80 + (100 - (pct || 70));
+    else urgencia = 20;
+
+    return {
+      estado: estado,
+      caja: caja,
+      intervalo: intervalo,
+      pct: pct,
+      visto: visto,
+      diasDesde: diasDesde,
+      nFallosPend: nFallosPend,
+      nDudosasPend: nDudosasPend,
+      urgencia: urgencia,
+      badge: badge
+    };
+  }
+
+  function marcarTemaRepasadoHoy(idTema) {
+    var t = buscarTemaEnCuerpo(idTema);
+    if (!t) return;
+    var prog = leerProgreso();
+    var rk = claveRutaTema(t);
+    var prev = prog[rk] || prog[t.id] || {};
+    var reg = {
+      visto: true,
+      ultimo: prev.ultimo != null ? prev.ultimo : null,
+      mejor: prev.mejor != null ? prev.mejor : null,
+      intentos: prev.intentos || 0,
+      repasosLeitner: (Number(prev.repasosLeitner) || 0) + 1,
+      ultimaFecha: new Date().toISOString()
+    };
+    prog[rk] = reg;
+    prog[t.id] = reg;
+    guardarProgreso(prog);
+    var sy = window.scrollY;
+    render();
+    window.scrollTo(0, sy);
+  }
+
   function vistaLista() {
     var prog = leerProgreso();
+    var stats = leerStats();
+    var rep = leerRepaso();
     var notas = leerNotas();
     var c = cuerpoActual();
     var todosTemasCuerpo = temasCuerpoActual();
-    var temas = todosTemasCuerpo.filter(function (t) { return perteneceTemaABloque(t, filtro); });
+    var temasBloque = todosTemasCuerpo.filter(function (t) { return perteneceTemaABloque(t, filtro); });
+
+    var conteoSem = { todos: temasBloque.length, critico: 0, repasar: 0, consolidacion: 0, dominado: 0 };
+    var domPorTema = {};
+    temasBloque.forEach(function (t) {
+      var dom = calcularDominioTema(t, prog, stats, rep);
+      domPorTema[t.id] = dom;
+      conteoSem[dom.estado] = (conteoSem[dom.estado] || 0) + 1;
+    });
+
+    var temas = temasBloque.filter(function (t) {
+      if (filtroSemaforo === 'todos') return true;
+      return domPorTema[t.id] && domPorTema[t.id].estado === filtroSemaforo;
+    });
 
     var buscadorHtml = '<div class="buscador-global">' +
       '<span aria-hidden="true">🔎</span>' +
       '<input type="search" id="input-busqueda-global" value="' + esc(busquedaGlobal) + '" placeholder="Buscar en los ' + todosTemasCuerpo.length + ' temas de ' + esc(c.codigo) + ', apuntes, preguntas y ' + obtenerNormativaDeCuerpo(c.id).ids.length + ' leyes de esta oposición…">' +
       (busquedaGlobal ? '<button type="button" class="btn-cita" data-limpiar-global="1">✕ Limpiar</button>' : '') +
+      '</div>';
+
+    var semaforoBarHtml = '<div class="semaforo-bar" role="group" aria-label="Filtrar por Semáforo de Dominio Leitner">' +
+      '<button type="button" class="sem-btn" data-filtro-sem="todos" aria-pressed="' + (filtroSemaforo === 'todos') + '">🚦 Todos (' + conteoSem.todos + ')</button>' +
+      '<button type="button" class="sem-btn" data-filtro-sem="repasar" aria-pressed="' + (filtroSemaforo === 'repasar') + '">🟠 Toca repasar hoy (' + conteoSem.repasar + ')</button>' +
+      '<button type="button" class="sem-btn" data-filtro-sem="critico" aria-pressed="' + (filtroSemaforo === 'critico') + '">🔴 Críticos / Pendientes (' + conteoSem.critico + ')</button>' +
+      '<button type="button" class="sem-btn" data-filtro-sem="consolidacion" aria-pressed="' + (filtroSemaforo === 'consolidacion') + '">🟡 En consolidación (' + conteoSem.consolidacion + ')</button>' +
+      '<button type="button" class="sem-btn" data-filtro-sem="dominado" aria-pressed="' + (filtroSemaforo === 'dominado') + '">🟢 Dominados (' + conteoSem.dominado + ')</button>' +
+      '<button type="button" class="btn-cita" data-ir="#/radar" style="margin-left:auto">📅 Ver Plan de Hoy y Radar IAAP →</button>' +
       '</div>';
 
     var nombreBloqueActivo = 'Todos los temas (' + todosTemasCuerpo.length + ')';
@@ -1274,27 +1466,24 @@
       '</div>';
 
     if (busquedaGlobal && busquedaGlobal.trim().length >= 2) {
-      return tituloCab + buscadorHtml + '<div id="contenedor-resultados-lista">' + vistaResultadosBusquedaGlobal(busquedaGlobal.trim()) + '</div>';
+      return tituloCab + buscadorHtml + semaforoBarHtml + '<div id="contenedor-resultados-lista">' + vistaResultadosBusquedaGlobal(busquedaGlobal.trim()) + '</div>';
     }
 
     var html = '<ul class="lista">' + temas.map(function (t) {
       var rk = claveRutaTema(t);
       var cont = D.contenido[t.id];
       var p = prog[rk] || prog[t.id] || {};
-      var estado = cont
-        ? '<span class="pill ok">Contenido listo</span>'
-        : '<span class="pill">Pendiente</span>';
-      var marca = p.visto ? '<span class="pill done">✓ estudiado</span>' : '';
+      var dom = domPorTema[t.id] || calcularDominioTema(t, prog, stats, rep);
       var maxQ = cont && cont.test ? cont.test.length : 40;
       var mejor = p.mejor != null ? '<span class="pill">Mejor test: ' + p.mejor + '/' + maxQ + '</span>' : '';
       var conNota = (notas[rk] || notas[t.id]) ? '<span class="pill warn">📝 Con notas</span>' : '';
       var pillBloque = t.bloqueNombre ? '<span class="pill">' + esc(t.bloqueNombre.replace(/\s*\(Temas\s+\d+.*?\)/i, '')) + '</span>' : '';
       return '<li><button class="tema-card" type="button" data-tema="' + esc(rk) + '">' +
-        '<div class="tema-meta"><strong>' + esc(etiquetaTema(t)) + '</strong>' + pillBloque + estado + marca + mejor + conNota + '</div>' +
+        '<div class="tema-meta"><strong>' + esc(etiquetaTema(t)) + '</strong>' + pillBloque + dom.badge + mejor + conNota + '</div>' +
         '<p class="tema-title">' + esc(recortar(t.titulo, 185)) + '</p>' +
         '</button></li>';
     }).join('') + '</ul>';
-    return tituloCab + buscadorHtml + '<div id="contenedor-resultados-lista">' + html + '</div>';
+    return tituloCab + buscadorHtml + semaforoBarHtml + '<div id="contenedor-resultados-lista">' + html + '</div>';
   }
 
   // ---------- Enlazado de normas en apuntes y modal de consulta ----------
@@ -1523,6 +1712,7 @@
   }
 
   function esProsaMinusculaNoNorma(m, clave) {
+    if (clave === 'lista' && m !== 'LISTA') return true;
     return Boolean(m && m === m.toLowerCase() && !/\d/.test(m) &&
       /^(?:ce|cc|et|ea|eaa|estatuto|lista|lea|lau|lva|ens|cte|loe|lef|lgs|lh|gica|ley organica del poder judicial)$/.test(clave));
   }
@@ -1739,6 +1929,7 @@
     if (cacheNormativaCuerpo[idCuerpo]) return cacheNormativaCuerpo[idCuerpo];
 
     var temas = temasDeCuerpo(idCuerpo);
+    var temasCuerpoSet = {};
     var leyesMap = {};
     var temasPorLeyCuerpo = {};
     var exPorLeyCuerpo = {};
@@ -1746,6 +1937,7 @@
 
     temas.forEach(function (tObj) {
       var tid = tObj.id;
+      temasCuerpoSet[tid] = true;
       if (vistosTid[tid]) return;
       vistosTid[tid] = true;
       obtenerLeyesDeTema(tid).forEach(function (item) {
@@ -1758,12 +1950,14 @@
     (D.examenesOficiales || []).forEach(function (eo) {
       if ((eo.cuerpoId || eo.cuerpo) !== idCuerpo) return;
       (eo.preguntas || []).forEach(function (q) {
-        var encontradas = detectarLeyesExplicitasEnTexto((q.referencia || '') + ' ' + (q.enunciado || '') + ' ' + (q.explicacion || ''), q.tema);
+        if (idCuerpo === 'a1-2001' && q.tema && !temasCuerpoSet[q.tema]) return;
+        var encontradas = detectarLeyesExplicitasEnTexto(q.referencia || '', q.tema);
         if (!encontradas.length) {
           var def = leyPorDefectoPregunta(q, q.tema);
-          if (def && D.leyes[def]) encontradas = [def];
+          if (def && D.leyes[def] && leyesMap[def]) encontradas = [def];
         }
         encontradas.forEach(function (lid) {
+          if (idCuerpo === 'a1-2001' && !leyesMap[lid]) return;
           leyesMap[lid] = true;
           exPorLeyCuerpo[lid] = (exPorLeyCuerpo[lid] || 0) + 1;
         });
@@ -1774,12 +1968,14 @@
     supuestos.forEach(function (sp) {
       (sp.preguntas || []).forEach(function (q) {
         var tRef = q.tema || (sp.temasRelacionados && sp.temasRelacionados[0]);
-        var encontradas = detectarLeyesExplicitasEnTexto((q.referencia || '') + ' ' + (q.enunciado || '') + ' ' + (q.explicacion || ''), tRef);
+        if (idCuerpo === 'a1-2001' && tRef && !temasCuerpoSet[tRef]) return;
+        var encontradas = detectarLeyesExplicitasEnTexto(q.referencia || '', tRef);
         if (!encontradas.length) {
           var def = leyPorDefectoPregunta(q, tRef);
-          if (def && D.leyes[def]) encontradas = [def];
+          if (def && D.leyes[def] && leyesMap[def]) encontradas = [def];
         }
         encontradas.forEach(function (lid) {
+          if (idCuerpo === 'a1-2001' && !leyesMap[lid]) return;
           leyesMap[lid] = true;
           exPorLeyCuerpo[lid] = (exPorLeyCuerpo[lid] || 0) + 1;
         });
@@ -1794,6 +1990,446 @@
     };
     cacheNormativaCuerpo[idCuerpo] = res;
     return res;
+  }
+
+  // ---------- #3. Mapa de Calor ("Radar IAAP") de Artículos Más Preguntados por Oposición ----------
+  var cacheRadarCuerpo = {};
+  var RE_ART_RADAR = /\b(?:art[ií]culos?|arts?\.)\s*(\d+(?:\.[0-9]+)*(?:\s*(?:bis|ter|qu[aá]ter|quinquies|sexies))?(?:\s*(?:a|al|y|,|\/|[-–—])\s*\d+(?:\.[0-9]+)*)*)/gi;
+  var RE_SEC_CTE_RADAR = /\b(?:(?:Secci[oó]n\s+|DB-)?(SUA|SI|HE|HS)[\s-]+([0-9](?:\.[0-9]+)*)|(?:Secci[oó]n\s+|DB-)(SE-(?:AE|C|A|F|M)|HR))\b/g;
+
+  function extraerPreceptosPreguntaRadar(q, idTema, leyesSetCuerpo) {
+    var leyDef = leyPorDefectoPregunta(q, idTema);
+    var txt = (q.referencia || '') + ' · ' + (q.enunciado || q.pregunta || '');
+    var res = [];
+    var vistos = {};
+    var m;
+    RE_ART_RADAR.lastIndex = 0;
+    while ((m = RE_ART_RADAR.exec(txt)) !== null) {
+      var cola = txt.slice(m.index + m[0].length, m.index + m[0].length + 140);
+      var colaClausula = cola.split(/[;·\n]|(?:\.\s+[A-ZÁÉÍÓÚÑ])|\b(?:art[ií]culos?|arts?\.)\b/i)[0];
+      var leyArt = resolverLeyEnTexto(colaClausula, idTema, null) || leyDef;
+      if (!leyArt || !D.leyes[leyArt] || (leyesSetCuerpo && !leyesSetCuerpo[leyArt])) continue;
+      var nums = extraerNumerosArticulo(m[0]).slice(0, 3);
+      for (var i = 0; i < nums.length; i++) {
+        var num = nums[i];
+        var k = leyArt + '::art::' + num;
+        if (!vistos[k]) {
+          vistos[k] = true;
+          res.push({
+            clave: k,
+            leyId: leyArt,
+            tipo: 'art',
+            num: num,
+            etiqueta: 'Artículo ' + num,
+            cita: 'art. ' + num
+          });
+        }
+      }
+    }
+    RE_SEC_CTE_RADAR.lastIndex = 0;
+    while ((m = RE_SEC_CTE_RADAR.exec(txt)) !== null) {
+      var baseDoc = (m[1] || m[3] || '').toUpperCase();
+      var subNum = m[2] ? (' ' + m[2].split('.')[0]) : '';
+      var secNom = (baseDoc + subNum).trim();
+      var lidDoc = D.leyes['DB-' + baseDoc] ? ('DB-' + baseDoc) : (leyDef && /^(?:CTE|DB-)/.test(leyDef) ? leyDef : 'CTE');
+      if (!D.leyes[lidDoc] || (leyesSetCuerpo && !leyesSetCuerpo[lidDoc])) continue;
+      var kSec = lidDoc + '::sec::' + secNom;
+      if (!vistos[kSec]) {
+        vistos[kSec] = true;
+        res.push({
+          clave: kSec,
+          leyId: lidDoc,
+          tipo: 'sec',
+          num: secNom,
+          etiqueta: 'Sección ' + secNom,
+          cita: secNom
+        });
+      }
+    }
+    return res;
+  }
+
+  function obtenerRadarIaapCuerpo(cid) {
+    var idCuerpo = cid || cuerpoActivoId;
+    if (cacheRadarCuerpo[idCuerpo]) return cacheRadarCuerpo[idCuerpo];
+
+    var normCuerpo = obtenerNormativaDeCuerpo(idCuerpo);
+    var temas = temasDeCuerpo(idCuerpo);
+    var temasSet = {};
+    temas.forEach(function (t) { temasSet[t.id] = true; });
+
+    var mapa = {};
+    var porLey = {};
+
+    function registrarPrecepto(p, esOficial, tid, enunciadoMuestra, convTexto, pregObj) {
+      var item = mapa[p.clave];
+      if (!item) {
+        item = {
+          clave: p.clave,
+          leyId: p.leyId,
+          tipo: p.tipo,
+          num: p.num,
+          etiqueta: p.etiqueta,
+          cita: p.cita,
+          nOficial: 0,
+          nTest: 0,
+          temasMap: {},
+          convocatoriasMap: {},
+          muestra: enunciadoMuestra || '',
+          preguntas: []
+        };
+        mapa[p.clave] = item;
+      }
+      if (esOficial) item.nOficial++;
+      else item.nTest++;
+      if (tid && temasSet[tid]) item.temasMap[tid] = true;
+      if (convTexto) item.convocatoriasMap[convTexto] = true;
+      if (!item.muestra && enunciadoMuestra) item.muestra = enunciadoMuestra;
+      if (pregObj && item.preguntas.length < 40) {
+        item.preguntas.push(pregObj);
+      }
+    }
+
+    var vistosT = {};
+    temas.forEach(function (t) {
+      if (vistosT[t.id]) return;
+      vistosT[t.id] = true;
+      var c = D.contenido[t.id];
+      if (!c || !c.test) return;
+      c.test.forEach(function (q) {
+        var qNorm = {
+          tema: t.id,
+          origen: 'revisada',
+          enunciado: q.pregunta,
+          opciones: (q.opciones || []).slice(),
+          correcta: q.correcta,
+          explicacion: q.explicacion,
+          referencia: q.referencia
+        };
+        extraerPreceptosPreguntaRadar(q, t.id, normCuerpo.leyesSet).forEach(function (p) {
+          registrarPrecepto(p, false, t.id, q.pregunta, null, qNorm);
+        });
+      });
+    });
+
+    (D.examenesOficiales || []).forEach(function (eo) {
+      if ((eo.cuerpoId || eo.cuerpo) !== idCuerpo) return;
+      var etConv = eo.oep || eo.titulo || 'Examen IAAP';
+      (eo.preguntas || []).concat(eo.reservas || []).forEach(function (q) {
+        if (idCuerpo === 'a1-2001' && q.tema && !temasSet[q.tema]) return;
+        var qNorm = {
+          tema: q.tema || 'c01',
+          origen: 'oficial-iaap',
+          enunciado: q.enunciado,
+          opciones: (q.opciones || []).slice(),
+          correcta: q.correcta,
+          explicacion: q.explicacion,
+          referencia: q.referencia
+        };
+        extraerPreceptosPreguntaRadar(q, q.tema, normCuerpo.leyesSet).forEach(function (p) {
+          registrarPrecepto(p, true, q.tema, q.enunciado, etConv, qNorm);
+        });
+      });
+    });
+
+    ((D.supuestosPracticos && D.supuestosPracticos[idCuerpo]) || []).forEach(function (sp) {
+      var etConv = sp.oep || sp.fechaTexto || 'Supuesto IAAP';
+      (sp.preguntas || []).forEach(function (q) {
+        var tref = q.tema || (sp.temasRelacionados && sp.temasRelacionados[0]);
+        if (idCuerpo === 'a1-2001' && tref && !temasSet[tref]) return;
+        var qNorm = {
+          tema: tref || 'c01',
+          origen: 'oficial-iaap',
+          enunciado: '[' + sp.titulo + '] ' + q.enunciado,
+          opciones: (q.opciones || []).slice(),
+          correcta: q.correcta,
+          explicacion: q.explicacion,
+          referencia: q.referencia
+        };
+        extraerPreceptosPreguntaRadar(q, tref, normCuerpo.leyesSet).forEach(function (p) {
+          registrarPrecepto(p, true, tref, q.enunciado, etConv, qNorm);
+        });
+      });
+    });
+
+    var lista = Object.keys(mapa).map(function (k) {
+      var it = mapa[k];
+      it.temasIds = Object.keys(it.temasMap);
+      if (!it.temasIds.length && normCuerpo.temasPorLey[it.leyId] && normCuerpo.temasPorLey[it.leyId].length) {
+        it.temasIds = [normCuerpo.temasPorLey[it.leyId][0].temaId];
+      }
+      it.convocatorias = Object.keys(it.convocatoriasMap);
+      it.peso = it.nOficial * 3 + it.nTest;
+      porLey[it.leyId] = (porLey[it.leyId] || 0) + 1;
+      return it;
+    }).sort(function (a, b) {
+      return (b.peso - a.peso) || (b.nOficial - a.nOficial) || (b.nTest - a.nTest) || a.clave.localeCompare(b.clave);
+    });
+
+    var maxPeso = lista.length ? lista[0].peso : 1;
+    var conExamenOficial = lista.filter(function (x) { return x.nOficial > 0; }).length;
+    var res = {
+      items: lista,
+      mapa: mapa,
+      porLey: porLey,
+      maxPeso: maxPeso,
+      conExamenOficial: conExamenOficial
+    };
+    cacheRadarCuerpo[idCuerpo] = res;
+    return res;
+  }
+
+  function vistaRadarYPlan() {
+    var corp = cuerpoActual();
+    var temasCorp = temasCuerpoActual();
+    var prog = leerProgreso();
+    var stats = leerStats();
+    var rep = leerRepaso();
+    var radar = obtenerRadarIaapCuerpo(corp.id);
+
+    // 1. Calcular Semáforo de Dominio Leitner y Plan de Estudio de Hoy para esta oposición
+    var conteoSem = { critico: 0, repasar: 0, consolidacion: 0, dominado: 0 };
+    var evaluados = temasCorp.map(function (t) {
+      var dom = calcularDominioTema(t, prog, stats, rep);
+      conteoSem[dom.estado] = (conteoSem[dom.estado] || 0) + 1;
+      return { tema: t, dom: dom };
+    });
+
+    var priorizadosHoy = evaluados.slice().sort(function (a, b) {
+      return (b.dom.urgencia - a.dom.urgencia) || ((Number(a.tema.num) || 0) - (Number(b.tema.num) || 0));
+    }).slice(0, 3);
+
+    var planHoyHtml = '<div class="card" style="border-left:4px solid var(--ok)">' +
+      '<div class="tema-meta" style="justify-content:space-between;align-items:center">' +
+      '<div><span class="pill ok">🧠 Algoritmo Leitner (5 Cajas) · Repaso Espaciado</span> ' +
+      '<span class="pill done">Exclusivo de ' + esc(corp.codigo) + '</span></div>' +
+      '<div style="display:flex;gap:6px;flex-wrap:wrap">' +
+      '<span class="pill bad">🔴 Críticos/Pendientes: ' + conteoSem.critico + '</span>' +
+      '<span class="pill warn">🟠 Toca repasar hoy: ' + conteoSem.repasar + '</span>' +
+      '<span class="pill">🟡 Consolidando: ' + conteoSem.consolidacion + '</span>' +
+      '<span class="pill ok">🟢 Dominados: ' + conteoSem.dominado + '</span>' +
+      '</div></div>' +
+      '<h3 style="margin:8px 0 4px">📅 Plan de Estudio y Repaso de Hoy para ' + esc(corp.nombreCorto) + '</h3>' +
+      '<p class="sub" style="margin:0 0 10px">Selección automática de los <strong>3 temas prioritarios de hoy</strong> en <strong>' + esc(corp.codigo) + '</strong> combinando la curva del olvido (intervalos de 1, 3, 7, 14 y 30 días), tus preguntas falladas/dudosas y el avance secuencial del temario BOJA:</p>' +
+      '<div class="ficha-grid">' +
+      priorizadosHoy.map(function (item, idx) {
+        var t = item.tema;
+        var dom = item.dom;
+        var rk = claveRutaTema(t);
+        var leyesT = obtenerLeyesDeTema(t.id).slice(0, 3).map(function (l) {
+          var lo = D.leyes[l.leyId];
+          return lo ? lo.referencia || lo.nombre : l.leyId;
+        }).join(' · ');
+        return '<div class="card" style="margin-bottom:0;background:var(--surface-2)">' +
+          '<div class="tema-meta" style="justify-content:space-between">' +
+          '<div><span class="pill done">Prioridad #' + (idx + 1) + ' de hoy</span> <strong>' + esc(etiquetaTema(t)) + '</strong> ' + dom.badge + '</div>' +
+          '<div style="display:flex;gap:6px;flex-wrap:wrap">' +
+          '<button type="button" class="btn-cita" data-enfoque-tema="' + esc(rk) + '">🎯 Estudiar en Modo Enfoque</button>' +
+          '<button type="button" class="btn-cita" data-test="' + esc(rk) + '">📝 Hacer test</button>' +
+          '<button type="button" class="btn-cita" data-marcar-repasado="' + esc(rk) + '">✓ Marcar repasado hoy</button>' +
+          '</div></div>' +
+          '<p style="margin:6px 0 4px;font-weight:600">' + esc(t.titulo) + '</p>' +
+          (leyesT ? '<p class="sub" style="margin:0;font-size:.8rem">⚖️ Normativa troncal del tema: ' + esc(leyesT) + '</p>' : '') +
+          '</div>';
+      }).join('') +
+      '</div>' +
+      '<div class="acciones" style="margin-top:12px">' +
+      '<button type="button" class="btn" data-plan-hoy-test="1">🚀 Iniciar Sesión de Repaso de Hoy (25 preguntas de tus temas prioritarios de ' + esc(corp.codigo) + ')</button>' +
+      '<button type="button" class="btn sec" data-enfoque-tema="' + esc(claveRutaTema(priorizadosHoy[0].tema)) + '">🎯 Abrir Prioridad #1 en Modo Enfoque</button>' +
+      '</div></div>';
+
+    // 2. Filtrado del Mapa de Calor ("Radar IAAP") de Artículos Más Preguntados en esta oposición
+    var leyesConArticulos = Object.keys(radar.porLey).sort(function (a, b) {
+      return (radar.porLey[b] || 0) - (radar.porLey[a] || 0);
+    });
+
+    var selectLeyesRadarHtml = '<select class="sel" data-radar-ley="1" style="flex:1;min-width:250px">' +
+      '<option value="todas"' + (estadoRadar.ley === 'todas' ? ' selected' : '') + '>Todas las leyes con artículos evaluados en ' + esc(corp.codigo) + ' (' + leyesConArticulos.length + ' leyes)</option>' +
+      leyesConArticulos.map(function (lid) {
+        var l = D.leyes[lid];
+        var nom = l ? (l.referencia ? l.referencia + ' · ' + recortar(l.nombre, 55) : recortar(l.nombre, 70)) : lid;
+        return '<option value="' + esc(lid) + '"' + (estadoRadar.ley === lid ? ' selected' : '') + '>' + esc(nom + ' (' + radar.porLey[lid] + ' arts.)') + '</option>';
+      }).join('') +
+      '</select>';
+
+    var filtradosRadar = radar.items.filter(function (it) {
+      if (estadoRadar.ley !== 'todas' && it.leyId !== estadoRadar.ley) return false;
+      if (estadoRadar.filtro === 'oficial' && it.nOficial === 0) return false;
+      if (estadoRadar.busqueda) {
+        var l = D.leyes[it.leyId];
+        var txt = normClave(it.etiqueta + ' ' + it.leyId + ' ' + (l ? l.nombre + ' ' + l.referencia : '') + ' ' + it.muestra);
+        if (txt.indexOf(normClave(estadoRadar.busqueda)) === -1) return false;
+      }
+      return true;
+    });
+
+    var mostradosRadar = estadoRadar.filtro === 'top30' ? filtradosRadar.slice(0, 30) : filtradosRadar.slice(0, 80);
+
+    var radarHtml = '<section class="seccion">' +
+      '<div class="card" style="border-left:4px solid var(--accent)">' +
+      '<div class="tema-meta" style="justify-content:space-between;align-items:center">' +
+      '<div><span class="pill done">🔥 Mapa de Calor Normativo · ' + esc(corp.codigo) + '</span> ' +
+      '<span class="pill ok">' + radar.items.length + ' preceptos analizados en ' + esc(corp.codigo) + '</span> ' +
+      '<span class="pill warn">🏛️ ' + radar.conExamenOficial + ' preguntados en Examen Oficial IAAP</span></div>' +
+      '<button type="button" class="btn" data-radar-top-test="25" style="padding:8px 14px;font-size:.86rem">⚡ Test Intensivo: Top 25 Artículos de ' + esc(corp.codigo) + '</button>' +
+      '</div>' +
+      '<h3 style="margin:8px 0 4px">🎯 Radar IAAP: Artículos y Preceptos Más Preguntados en ' + esc(corp.nombreCorto) + '</h3>' +
+      '<p class="sub" style="margin:0 0 10px">Ranking calculado de forma <strong>exclusiva e independiente para ' + esc(corp.nombreCompleto) + '</strong> cruzando sus convocatorias oficiales IAAP (2018–2025), sus supuestos prácticos oficiales y el banco de preguntas de sus ' + temasCorp.length + ' temas. Pulsa cualquier precepto para leer el artículo literal en el PDF oficial o practicar sus preguntas de examen:</p>' +
+      '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px">' +
+      '<button type="button" class="tab" data-radar-filtro="top30" aria-pressed="' + (estadoRadar.filtro === 'top30') + '">🔥 Top 30 Artículos Estrella de ' + esc(corp.codigo) + '</button>' +
+      '<button type="button" class="tab" data-radar-filtro="oficial" aria-pressed="' + (estadoRadar.filtro === 'oficial') + '">🏛️ Preguntados en Examen Oficial IAAP (' + radar.conExamenOficial + ')</button>' +
+      '<button type="button" class="tab" data-radar-filtro="todos" aria-pressed="' + (estadoRadar.filtro === 'todos') + '">📚 Todos los artículos (' + radar.items.length + ')</button>' +
+      '</div>' +
+      '<div class="modal-buscador">' +
+      selectLeyesRadarHtml +
+      '<input type="search" id="input-buscar-radar" value="' + esc(estadoRadar.busqueda) + '" placeholder="Buscar artículo (ej. art. 21, 146, SUA 1), ley o concepto en ' + esc(corp.codigo) + '…">' +
+      '</div></div>' +
+      '<div class="ficha-grid">' +
+      mostradosRadar.map(function (it, idx) {
+        var ley = D.leyes[it.leyId];
+        var pctHeat = Math.max(12, Math.min(100, Math.round((it.peso / (radar.maxPeso || 1)) * 100)));
+        var esHot = it.nOficial >= 3 || idx < 10;
+        var badgeCalor = it.nOficial >= 3
+          ? '<span class="pill bad">🔥 Estrella en Examen IAAP (' + it.nOficial + ' veces en examen oficial)</span>'
+          : (it.nOficial > 0
+            ? '<span class="pill warn">🏛️ Examen Oficial IAAP (' + it.nOficial + ' ex. oficial · ' + it.nTest + ' test)</span>'
+            : '<span class="pill ok">📌 Frecuente en temario (' + it.nTest + ' pregs. verificadas)</span>');
+        var primerTemaId = it.temasIds[0] || '';
+        var botonesTemas = it.temasIds.slice(0, 4).map(function (tid) {
+          var tObj = buscarTemaEnCuerpo(tid);
+          return tObj ? '<button type="button" class="btn-cita" data-tema="' + esc(claveRutaTema(tObj)) + '">' + esc(etiquetaTema(tObj)) + '</button>' : '';
+        }).join('');
+        return '<div class="card" style="margin-bottom:0">' +
+          '<div class="tema-meta" style="justify-content:space-between">' +
+          '<div><span class="pill done">#' + (idx + 1) + ' en ' + esc(corp.codigo) + '</span> ' +
+          '<strong>' + esc(it.etiqueta) + ' · ' + esc(ley ? (ley.referencia || ley.nombre) : it.leyId) + '</strong> ' +
+          badgeCalor + '</div>' +
+          (ley ? badgeVerificacion(ley) : '') +
+          '</div>' +
+          '<div style="margin-top:4px;font-size:.9rem;color:var(--muted)">' + esc(ley ? ley.nombre : '') + '</div>' +
+          '<div class="heat-bar' + (esHot ? ' hot' : '') + '" title="Índice de impacto en ' + esc(corp.codigo) + ': ' + it.peso + ' pts"><span style="width:' + pctHeat + '%"></span></div>' +
+          (it.muestra ? '<p class="sub" style="margin:4px 0 6px;font-size:.83rem">💬 <em>Ejemplo evaluado en ' + esc(corp.codigo) + ':</em> «' + esc(recortar(it.muestra, 190)) + '»</p>' : '') +
+          '<div class="enlaces" style="margin-top:8px;align-items:center;justify-content:space-between">' +
+          '<div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center">' +
+          '<button type="button" class="btn-cita" data-ver-norma="' + esc(it.leyId) + '" data-ver-cita="' + esc(it.cita) + '" data-ver-tema="' + esc(primerTemaId) + '">📖 Leer ' + esc(it.etiqueta) + ' en PDF oficial</button>' +
+          '<button type="button" class="btn-cita" data-test-precepto="' + esc(it.clave) + '">📝 Practicar este artículo (' + it.preguntas.length + ' pregs.)</button>' +
+          '</div>' +
+          (botonesTemas ? '<div style="display:flex;gap:4px;flex-wrap:wrap;align-items:center"><span class="sub" style="margin:0;font-size:.76rem">Temas:</span>' + botonesTemas + '</div>' : '') +
+          '</div></div>';
+      }).join('') +
+      '</div></section>';
+
+    return volverInicio() +
+      '<h2 class="tituloTema">🎯 Radar IAAP de Artículos Más Preguntados y Plan de Estudio · ' + esc(corp.nombreCorto) + '</h2>' +
+      '<p class="sub">Entrenamiento jurídico inteligente adaptado en exclusiva a <strong>' + esc(corp.nombreCompleto) + '</strong>.</p>' +
+      planHoyHtml +
+      radarHtml;
+  }
+
+  function lanzarTestConPreguntasDirectas(listaPreguntas) {
+    if (!listaPreguntas || !listaPreguntas.length) return;
+    detenerCronometroSimulacro();
+    gen.simulacro = false;
+    gen.convocatoriaActiva = null;
+    gen.enunciadosPracticos = [];
+    gen.modo = 'practica';
+    gen.numero = String(listaPreguntas.length);
+    gen.preguntas = barajarGen(listaPreguntas).map(function (q, idx) {
+      var opcionesLimp = (q.opciones || []).map(limpiarPrefijoOpcion);
+      var orden = barajarGen(opcionesLimp.map(function (_, i) { return i; }));
+      return {
+        num: idx + 1,
+        tema: q.tema || 'c01',
+        origen: q.origen || 'revisada',
+        reutilizada: false,
+        enunciado: q.enunciado || q.pregunta || '',
+        explicacion: q.explicacion || '',
+        referencia: q.referencia || '',
+        opciones: orden.map(function (i) { return opcionesLimp[i]; }),
+        correcta: Math.max(0, orden.indexOf(q.correcta || 0)),
+        resp: null,
+        registrada: false
+      };
+    });
+    gen.i = 0;
+    gen.fase = 'test';
+    go('#/generador');
+    render();
+    window.scrollTo(0, 0);
+  }
+
+  function iniciarTestPreceptoRadar(clavePrecepto) {
+    var radar = obtenerRadarIaapCuerpo();
+    var it = radar.mapa[clavePrecepto];
+    if (!it || !it.preguntas || !it.preguntas.length) return;
+    lanzarTestConPreguntasDirectas(it.preguntas.slice(0, 30));
+  }
+
+  function iniciarTestTopRadar(topN) {
+    var radar = obtenerRadarIaapCuerpo();
+    var topItems = radar.items.slice(0, topN || 25);
+    var pool = [];
+    var vistosEnun = {};
+    topItems.forEach(function (it) {
+      (it.preguntas || []).slice(0, 3).forEach(function (q) {
+        var k = normClave(q.enunciado).slice(0, 95);
+        if (!vistosEnun[k]) {
+          vistosEnun[k] = true;
+          pool.push(q);
+        }
+      });
+    });
+    lanzarTestConPreguntasDirectas(barajarGen(pool).slice(0, 30));
+  }
+
+  function iniciarSesionPlanHoy() {
+    var temasCorp = temasCuerpoActual();
+    var prog = leerProgreso();
+    var stats = leerStats();
+    var rep = leerRepaso();
+    var evaluados = temasCorp.map(function (t) {
+      return { tema: t, dom: calcularDominioTema(t, prog, stats, rep) };
+    }).sort(function (a, b) {
+      return (b.dom.urgencia - a.dom.urgencia) || ((Number(a.tema.num) || 0) - (Number(b.tema.num) || 0));
+    }).slice(0, 3);
+
+    var pool = [];
+    var vistos = {};
+    function agregarQ(qObj) {
+      var k = normClave(qObj.enunciado || qObj.pregunta).slice(0, 95);
+      if (!vistos[k]) {
+        vistos[k] = true;
+        pool.push(qObj);
+      }
+    }
+
+    // Incluir primero preguntas falladas/dudosas de los temas de este cuerpo
+    var temasSet = {};
+    temasCorp.forEach(function (t) { temasSet[t.id] = true; });
+    Object.keys(rep.falladas || {}).forEach(function (k) {
+      var f = rep.falladas[k];
+      if (f && temasSet[f.tema] && pool.length < 10) agregarQ(f);
+    });
+
+    evaluados.forEach(function (item) {
+      var tid = item.tema.id;
+      var c = D.contenido[tid];
+      if (c && c.test) {
+        barajarGen(c.test).slice(0, 10).forEach(function (q) {
+          agregarQ({
+            tema: tid,
+            origen: 'revisada',
+            enunciado: q.pregunta,
+            opciones: q.opciones,
+            correcta: q.correcta,
+            explicacion: q.explicacion,
+            referencia: q.referencia
+          });
+        });
+      }
+    });
+
+    lanzarTestConPreguntasDirectas(pool.slice(0, 25));
   }
 
   function enlazarNormas(texto, idTema, leyesDetectadas, leyInicial, estadoCtx) {
@@ -2475,15 +3111,19 @@
         '</div></div>';
     }
 
+    var domTema = calcularDominioTema(t, prog);
     var cabecera =
       barraEnfoqueHtml +
       (modoEnfoqueActivo
         ? ''
         : '<button class="volver" type="button" data-ir="#/">← Todos los temas de ' + esc(corp.nombreCorto || corp.codigo) + '</button>') +
-      '<div class="tema-meta"><strong>' + esc(etiquetaTema(t)) + '</strong> ' +
+      '<div class="tema-meta" style="justify-content:space-between">' +
+      '<div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center"><strong>' + esc(etiquetaTema(t)) + '</strong> ' +
       (t.bloqueNombre ? '<span class="pill">' + esc(t.bloqueNombre.replace(/\s*\(Temas\s+\d+.*?\)/i, '')) + '</span> ' : '') +
       '<span class="pill">' + esc(corp.codigo) + ' · BOJA</span> ' +
-      (c ? '<span class="pill ok">Contenido listo</span>' : '<span class="pill">Pendiente</span>') + '</div>' +
+      domTema.badge + '</div>' +
+      '<button type="button" class="btn-cita" data-marcar-repasado="' + esc(rk) + '" title="Actualizar fecha de repaso en el sistema Leitner para este tema">✓ Marcar tema repasado hoy</button>' +
+      '</div>' +
       '<h2 class="tituloTema">' + esc(t.titulo) + '</h2>';
 
     if (!c) {
@@ -3128,7 +3768,9 @@
       visto: true,
       ultimo: estadoTest.aciertos,
       mejor: Math.max(previo.mejor || 0, estadoTest.aciertos),
-      intentos: (previo.intentos || 0) + 1
+      intentos: (previo.intentos || 0) + 1,
+      repasosLeitner: previo.repasosLeitner || 0,
+      ultimaFecha: new Date().toISOString()
     };
     prog[rk] = reg;
     prog[contentId] = reg;
@@ -3596,6 +4238,9 @@
         estadoTest = { id: m[1], i: 0, aciertos: 0, seleccion: null, respuestas: [] };
       }
       $app.innerHTML = vistaTest();
+    } else if (h === '#/radar') {
+      $app.innerHTML = vistaRadarYPlan();
+      cargarBanco();
     } else if (h === '#/practicos') {
       $app.innerHTML = vistaSupuestosPracticos();
     } else if ((m = h.match(/^#\/practico\/([a-z0-9-]+)$/))) {
@@ -4749,6 +5394,19 @@
       return;
     }
     if (el.dataset.normaModo) { estadoNormativa.modo = el.dataset.normaModo; render(); return; }
+    if (el.dataset.filtroSem) { filtroSemaforo = el.dataset.filtroSem; render(); return; }
+    if (el.dataset.radarFiltro) { estadoRadar.filtro = el.dataset.radarFiltro; render(); return; }
+    if (el.dataset.testPrecepto) { iniciarTestPreceptoRadar(el.dataset.testPrecepto); return; }
+    if (el.dataset.radarTopTest) { iniciarTestTopRadar(Number(el.dataset.radarTopTest) || 25); return; }
+    if (el.dataset.planHoyTest) { iniciarSesionPlanHoy(); return; }
+    if (el.dataset.marcarRepasado) { marcarTemaRepasadoHoy(el.dataset.marcarRepasado); return; }
+    if (el.dataset.enfoqueTema) {
+      modoEnfoqueActivo = true;
+      try { localStorage.setItem(storageKeyCuerpo('modo-enfoque'), '1'); } catch (e) { /* sin almacenamiento */ }
+      sincronizarEstadoModoEnfoque();
+      go('#/tema/' + el.dataset.enfoqueTema);
+      return;
+    }
     if (el.dataset.gen) { accionGen(el.dataset.gen); return; }
     if (el.dataset.gex) { accionExamen(el.dataset.gex, el.dataset.n); return; }
     if (el.dataset.gop !== undefined) { if (gen.modo === 'examen') seleccionarExamen(Number(el.dataset.gop)); else responderGen(Number(el.dataset.gop)); return; }
@@ -4812,6 +5470,13 @@
       if ($in) { $in.focus(); $in.setSelectionRange($in.value.length, $in.value.length); }
       return;
     }
+    if (t.id === 'input-buscar-radar') {
+      estadoRadar.busqueda = t.value;
+      render();
+      var $ir = document.getElementById('input-buscar-radar');
+      if ($ir) { $ir.focus(); $ir.setSelectionRange($ir.value.length, $ir.value.length); }
+      return;
+    }
     if (t.dataset && t.dataset.notaTema) {
       guardarNotaTema(t.dataset.notaTema, t.value);
       renderStats();
@@ -4862,6 +5527,11 @@
     }
     if (t.dataset && t.dataset.normaImp) {
       estadoNormativa.importancia = t.value;
+      render();
+      return;
+    }
+    if (t.dataset && t.dataset.radarLey) {
+      estadoRadar.ley = t.value;
       render();
       return;
     }
