@@ -3716,7 +3716,7 @@
         else if (k === e.seleccion) clase += ' incorrecta';
       }
       return '<button class="' + clase + '" type="button" data-opcion="' + k + '"' + (contestada ? ' disabled' : '') + '>' +
-        esc(o) + '</button>';
+        String.fromCharCode(65 + k) + ') ' + esc(limpiarPrefijoOpcion(o)) + '</button>';
     }).join('');
 
     var feedback = '';
@@ -3731,8 +3731,9 @@
 
     var pct = (e.i / c.test.length * 100).toFixed(0);
     return '<button class="volver" type="button" data-ir="#/tema/' + esc(e.id) + '">← Salir del test</button>' +
-      '<div class="tema-meta" style="justify-content:space-between"><div><strong>Test · ' + esc(etiqueta) + ' (' + esc(corp.codigo) + ')</strong> <span>Pregunta ' + (e.i + 1) + ' de ' + c.test.length + '</span></div>' +
+      '<div class="tema-meta" style="justify-content:space-between"><div><strong>Test · ' + esc(etiqueta) + ' (' + esc(corp.codigo) + ')</strong> <span class="pill">✓ Verificada · Temario</span> <span>Pregunta ' + (e.i + 1) + ' de ' + c.test.length + '</span></div>' +
       '<button type="button" class="btn-dudosa' + (dudosaActual ? ' activa' : '') + '" data-dudosa-actual="1">' + (dudosaActual ? '★ Marcada como dudosa' : '☆ Marcar como dudosa') + '</button></div>' +
+      contextoPreguntaTemaHtml(contentId, t) +
       '<div class="bar" style="margin:8px 0 16px"><span style="width:' + pct + '%"></span></div>' +
       '<p class="pregunta">' + esc(q.pregunta) + '</p>' +
       '<div class="opciones">' + opciones + '</div>' + feedback;
@@ -4785,7 +4786,7 @@
       '</select></div>' +
       '<div class="campo" style="margin-top:10px"><label for="gNumero">Número de preguntas</label><select class="sel" id="gNumero" data-gcampo="numero">' + opcionesNumero() + '</select></div>' +
       '<div class="campo" style="margin-top:10px"><label for="gOrigen">Origen</label><select class="sel" id="gOrigen" data-gcampo="origen">' +
-      [['todas', 'Revisadas y generadas'], ['revisadas', 'Solo revisadas y de hechos'], ['articulo', 'Solo generadas']]
+      [['todas', 'Verificadas y Articulado PDF'], ['revisadas', 'Solo verificadas (temario y datos clave)'], ['articulo', 'Solo artículos de leyes (PDF oficial)']]
         .map(function (o) { return '<option value="' + o[0] + '"' + (gen.origen === o[0] ? ' selected' : '') + '>' + esc(o[1]) + '</option>'; }).join('') +
       '</select></div>' +
       '<p class="sub">Preguntas disponibles con esta selección: ' + n + '.</p></section>' +
@@ -4889,7 +4890,24 @@
   }
 
   function etiquetaOrigen(q) {
-    return q.origen === 'revisada' ? 'revisada' : (q.origen === 'hecho' ? 'hecho' : (q.origen === 'oficial-iaap' ? 'oficial IAAP' : 'generada'));
+    if (q.origen === 'revisada') return '✓ Verificada · Temario';
+    if (q.origen === 'hecho') return '✓ Verificada · Hechos';
+    if (q.origen === 'oficial-iaap') return '🏛️ Oficial IAAP';
+    return '📖 Articulado PDF';
+  }
+
+  function contextoPreguntaTemaHtml(contentId, temaObj) {
+    var lista = temasCuerpoActual();
+    var relacionados = contentId ? lista.filter(function (x) { return x.id === contentId; }) : [];
+    var t = temaObj || relacionados[0] || buscarTemaEnCuerpo(contentId);
+    if (!t) return '';
+    var bloqueTxt = (t.bloqueNombre || tituloBloque[t.bloque] || '').replace(/\s*\(Temas?\s+[^)]+\)/i, '').trim();
+    var temasTxt = relacionados.length > 1
+      ? ('Temas ' + relacionados.map(function (x) { return x.num; }).join(', ') + ' (' + esc(recortar(t.titulo, 130)) + ')')
+      : (esc(etiquetaTema(t)) + ': ' + esc(recortar(t.titulo, 130)));
+    return '<div class="sub" style="margin:2px 0 8px;padding:6px 10px;border-left:3px solid var(--accent);background:var(--surface-2);border-radius:6px;font-size:.86rem">' +
+      (bloqueTxt ? '<strong>' + esc(bloqueTxt) + '</strong> · ' : '') + temasTxt +
+      '</div>';
   }
 
   // ---------- Práctica: corrección al responder ----------
@@ -4918,6 +4936,7 @@
       '<div class="tema-meta" style="justify-content:space-between"><div><strong>Práctica · ' + esc(tema ? etiquetaTema(tema) : q.tema) + '</strong> <span class="pill">' + esc(etiquetaOrigen(q)) + '</span> ' +
       '<span>Pregunta ' + (gen.i + 1) + ' de ' + gen.preguntas.length + '</span></div>' +
       '<button type="button" class="btn-dudosa' + (dudosa ? ' activa' : '') + '" data-dudosa-gen="' + gen.i + '">' + (dudosa ? '★ Marcada como dudosa' : '☆ Marcar como dudosa') + '</button></div>' +
+      contextoPreguntaTemaHtml(q.tema, tema) +
       '<div class="bar" style="margin:8px 0 16px"><span style="width:' + pct + '%"></span></div>' +
       '<p class="pregunta">' + esc(q.enunciado) + '</p>' +
       '<div class="opciones">' + opc + '</div>' + fb;
@@ -4988,12 +5007,15 @@
 
     var tituloExamen = gen.simulacro
       ? (conv ? ('🏛️ Examen IAAP · ' + esc(c.codigo) + ' · ' + esc(conv.oep) + ' (' + esc(conv.fechaTexto) + ' · ' + esc(conv.acceso) + ')') : ('🏛️ Simulacro Oficial IAAP · ' + esc(c.codigo)))
-      : 'Examen';
+      : ('Examen personalizado · ' + esc(c.codigo));
+    var contextoExamenHtml = (!gen.simulacro && q.tema) ? contextoPreguntaTemaHtml(q.tema) : '';
+    if (!gen.simulacro && q.origen) badgesExtra += ' <span class="pill">' + esc(etiquetaOrigen(q)) + '</span>';
 
     return '<button class="volver" type="button" data-gen="salir">← Salir del examen</button>' +
       '<div class="tema-meta" style="justify-content:space-between"><div><strong>' + tituloExamen + '</strong> · ' + etPregunta + badgesExtra + ' · <span>Sin contestar: ' + blancos + '</span></div>' +
       '<div style="display:flex;gap:6px;align-items:center">' + barraCrono +
       '<button type="button" class="btn-dudosa' + (dudosa ? ' activa' : '') + '" data-dudosa-gen="' + gen.i + '">' + (dudosa ? '★ Dudosa' : '☆ Dudosa') + '</button></div></div>' +
+      contextoExamenHtml +
       bloqueSupuestoExamen +
       '<p class="pregunta" style="margin-top:12px">' + esc(q.enunciado) + '</p>' +
       '<div class="opciones">' + ops + '</div>' +

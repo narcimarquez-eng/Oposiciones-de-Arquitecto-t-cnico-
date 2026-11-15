@@ -30,6 +30,10 @@ const POR_TEMA = 100; // preguntas de artículo por tema, como máximo
 
 const vm = require('vm');
 const ALIAS = {
+  'CE': 'Constitución Española', 'LOTC-2-1979': 'LOTC 2/1979',
+  'LPAC': 'LPAC (Ley 39/2015)', 'LRJSP': 'LRJSP (Ley 40/2015)', 'LCSP': 'LCSP (Ley 9/2017)',
+  'EBEP': 'TREBEP (RDL 5/2015)', 'LAJA': 'LAJA (Ley 9/2007)', 'RGPD': 'RGPD (UE 2016/679)',
+  'LOPDGDD-3-2018': 'LOPDGDD (LO 3/2018)',
   'LO-3-2007': 'LO 3/2007', 'LO-1-2004': 'LO 1/2004', 'LO-4-1981': 'LO 4/1981',
   'LIG-AND-12-2007': 'Ley 12/2007', 'VG-AND-13-2007': 'Ley 13/2007',
   'L-14-2010': 'Ley 14/2010', 'L-22-2011': 'Ley 22/2011', 'L-37-2003': 'Ley 37/2003',
@@ -40,7 +44,7 @@ const ALIAS = {
   'RD-486-1997': 'RD 486/1997', 'RD-505-2007': 'RD 505/2007', 'RD-513-2017': 'RD 513/2017',
   'RD-842-2002': 'RD 842/2002', 'RD-919-2006': 'RD 919/2006', 'TMA-851-2021': 'Orden TMA/851/2021',
   'ECO-805-2003': 'Orden ECO/805/2003', 'TRLS-7-2015': 'TRLS', 'TRLCAT-1-2004': 'TRLCAT',
-  'EA-ANDALUCIA': 'EA Andalucía', 'LFP-ANDALUCIA': 'LFP Andalucía', 'LGHPA': 'LGHPA',
+  'EA-ANDALUCIA': 'EA Andalucía', 'LFP-ANDALUCIA': 'LFPA (Ley 5/2023)', 'LGHPA': 'LGHPA',
   'TUE-TFUE': 'TUE/TFUE', 'TLISBOA-2007': 'Tratado de Lisboa', 'LISTA-7-2021': 'LISTA',
   'LAULA-5-2010': 'LAULA 5/2010', 'LPAP-33-2003': 'LPAP 33/2003', 'LPCA-4-1986': 'Ley 4/1986 Patrimonio Andalucía',
   'LGSS-8-2015': 'LGSS', 'ET-2-2015': 'Estatuto de los Trabajadores', 'LDAPA-7-2011': 'Ley 7/2011 Archivos Andalucía',
@@ -72,11 +76,25 @@ const elegir = (arr, n, rnd) => barajar(arr, rnd).slice(0, n);
 
 // ---------- extracción de artículos desde datos/preceptos/<id>.js ----------
 function primeraFrase(texto) {
-  const t = String(texto || '').replace(/^\d+\s*\.\s*/, '').replace(/\s+/g, ' ').trim();
-  const m = /^(.+?[a-záéíóúñ)]{4}[.;])\s/.exec(t);
-  let f = m ? m[1] : t;
-  if (f.length > 160) f = f.slice(0, 150).replace(/\s+\S*$/, '') + '…';
+  const t = String(texto || '')
+    .replace(/^(?:\d+|Uno|Dos|Tres|Cuatro|Cinco|Seis|Siete|Ocho|Nueve|Diez)\s*\.\s*/i, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const m = /^(.{20,175}?[a-záéíóúñ0-9)])[.;](?:\s|$)/.exec(t);
+  let f = m ? m[1].trim() : t;
+  if (f.length > 165) {
+    f = f.slice(0, 155).replace(/\s+\S*$/, '').replace(/\s*\([^)]*$/, '').trim() + '…';
+  }
+  f = f.replace(/\(\s*(?:art|núm|apartado|pág)?$/i, '').trim();
   return f;
+}
+
+function esFragmentoValido(txt) {
+  if (!txt || txt.length < 25) return false;
+  if (/^[a-z]\)\s/i.test(txt)) return false;
+  if (/^(?:El art[ií]culo anterior|Lo dispuesto en el (?:apartado|art[ií]culo)|Se except[uú]a|En el caso previsto|A los efectos del apartado anterior|Igual norma regir[aá]|De acuerdo con lo previsto en los apartados anteriores)/i.test(txt)) return false;
+  if (/derogad|suprimid|sin contenido/i.test(txt)) return false;
+  return true;
 }
 
 const cacheArticulos = new Map();
@@ -97,7 +115,7 @@ function articulosDeLey(id) {
       if (vistos.has(num)) continue;
       const mTit = /^Art[ií]culo\s+[^.]+?\.\s*(.+)$/.exec(String(it.titulo || '').trim());
       let titulo = mTit ? mTit[1].replace(/\.$/, '').trim() : null;
-      if (titulo && titulo.length > 100) titulo = null;
+      if (titulo && (titulo.length > 100 || titulo.length < 5)) titulo = null;
       const frase = primeraFrase(it.texto || '');
       vistos.set(num, { num, titulo, frase });
     }
@@ -105,11 +123,11 @@ function articulosDeLey(id) {
     for (const a of vistos.values()) if (a.titulo) cuenta.set(a.titulo, (cuenta.get(a.titulo) || 0) + 1);
     lista = [...vistos.values()]
       .map((a) => {
-        if (a.titulo && (cuenta.get(a.titulo) > 1 || /derogad|suprimid/i.test(a.titulo))) a.titulo = null;
+        if (a.titulo && (cuenta.get(a.titulo) > 1 || /derogad|suprimid|sin contenido/i.test(a.titulo))) a.titulo = null;
         return a;
       })
-      .filter((a) => !/derogad|suprimid/i.test(a.frase) && (a.titulo || a.frase.length >= 25))
-      .map((a) => ({ ...a, ley: id, contenido: a.titulo || a.frase }));
+      .filter((a) => (a.titulo && !/derogad|suprimid/i.test(a.frase)) || esFragmentoValido(a.frase))
+      .map((a) => ({ ...a, ley: id, esTitulo: !!a.titulo, contenido: a.titulo || a.frase }));
   }
   cacheArticulos.set(id, lista);
   return lista;
@@ -142,13 +160,14 @@ for (const t of temas) {
 
   for (const a of arts) {
     const ref = `art. ${a.num} ${alias(a.ley)}`;
-    const mismaLey = arts.filter((b) => b.ley === a.ley && b !== a);
-    const otros = arts.filter((b) => b !== a);
+    // Concordancia estricta: los distractores deben tener el mismo formato (rúbrica vs frase normativa)
+    // y proceder preferentemente de la misma norma (nunca mezclando títulos cortos con párrafos largos).
+    const mismaLeyMismoFormato = arts.filter((b) => b.ley === a.ley && b !== a && b.esTitulo === a.esTitulo);
+    const otrosMismoFormato = arts.filter((b) => b !== a && b.esTitulo === a.esTitulo);
 
-    // Forma 1: «¿Qué regula el art. N NORMA?» → contenido del artículo.
-    const contenidos = [...new Set(otros.map((b) => b.contenido))].filter((c) => c !== a.contenido);
-    const sameLaw = [...new Set(mismaLey.map((b) => b.contenido))].filter((c) => c !== a.contenido);
-    const dist1 = elegir(sameLaw, 3, rnd).concat(elegir(contenidos.filter((c) => !sameLaw.includes(c)), 3, rnd)).slice(0, 3);
+    const sameLaw = [...new Set(mismaLeyMismoFormato.map((b) => b.contenido))].filter((c) => c !== a.contenido);
+    const contenidos = [...new Set(otrosMismoFormato.map((b) => b.contenido))].filter((c) => c !== a.contenido && !sameLaw.includes(c));
+    const dist1 = elegir(sameLaw, 3, rnd).concat(elegir(contenidos, 3, rnd)).slice(0, 3);
     if (dist1.length === 3) {
       const opc = barajar([a.contenido, ...dist1], rnd);
       añadir({

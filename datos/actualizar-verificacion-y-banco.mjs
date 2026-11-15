@@ -216,239 +216,41 @@ for (const archivo of archivosDes) {
 console.log(`[2/3] Secciones de verificación actualizadas: ${seccionesActualizadas} | Párrafos actualizados: ${parrafosActualizados}`);
 
 // ---------------------------------------------------------------------------
-// 3. AMPLIACIÓN DE PREGUNTAS DE HECHOS (datos/hechos/<id>.json) EN LOS 70 TEMAS
+// 3. SANEAMIENTO Y DEDUPLICACIÓN DE PREGUNTAS DE HECHOS (datos/hechos/<id>.json)
+//    Nota: Se prohíbe generar preguntas automáticas por plantilla con
+//    distractores cruzados de otros temas/bloques o magnitudes incongruentes.
 // ---------------------------------------------------------------------------
-function prng(seedStr) {
-  let h = 2166136261;
-  for (const ch of seedStr) h = Math.imul(h ^ ch.charCodeAt(0), 16777619);
-  let s = h >>> 0;
-  return () => {
-    s |= 0; s = (s + 0x6d2b79f5) | 0;
-    let t = Math.imul(s ^ (s >>> 15), 1 | s);
-    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
-}
-
-function barajar(arr, rnd) {
-  const a = arr.slice();
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(rnd() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-function limpiarTexto(s) {
-  return String(s || '').replace(/\s+/g, ' ').trim();
-}
-
-function recortarOpcion(s, maxLen = 155) {
-  const t = limpiarTexto(s).replace(/\.$/, '');
-  if (t.length <= maxLen) return t;
-  return t.slice(0, maxLen - 1).replace(/\s+\S*$/, '') + '…';
+const REGEX_PLANTILLA_ROTA = /^(?:En relación con «|Complete el dato o plazo|¿Qué valor, umbral|Respecto a «|Dentro del tema \d+, ¿qué materia)/;
+function normalizarPregunta(s) {
+  return String(s || '').replace(/\s+/g, ' ').trim().toLowerCase();
 }
 
 const temario = leerJSON(path.join(__dirname, 'temario-andalucia.json'));
 let totalHechosAntes = 0;
 let totalHechosDespues = 0;
 
-// Recopilar todos los puntos de resumen y frases clave de desarrollo de todos los temas
-// para usarlos también como banco de distractores plausibles del mismo bloque
-const poolPuntosPorBloque = { comun: [], 'gestion-administrativa': [], 'arquitectura-tecnica': [] };
-const datosPorTema = {};
-
 for (const t of temario.temas) {
-  if (!poolPuntosPorBloque[t.bloque]) poolPuntosPorBloque[t.bloque] = [];
-  const tm = leerJSON(path.join(__dirname, 'temas', `${t.id}.json`));
-  const des = leerJSON(path.join(__dirname, 'desarrollo', `${t.id}.json`));
-  const puntos = [];
-
-  for (const b of tm.resumen || []) {
-    for (const pto of b.puntos || []) {
-      const limpio = limpiarTexto(pto);
-      if (limpio.length >= 30) {
-        puntos.push({ apartado: b.titulo, texto: limpio, origen: 'resumen' });
-        poolPuntosPorBloque[t.bloque].push(recortarOpcion(limpio));
-      }
-    }
-  }
-
-  for (const sec of des.secciones || []) {
-    if (/Síntesis de verificación/i.test(sec.titulo)) continue;
-    for (const par of sec.parrafos || []) {
-      // Dividir párrafo en frases sustantivas con referencias o datos clave
-      const frases = par.split(/(?<=[.;])\s+/).map(limpiarTexto).filter((f) => f.length >= 45 && f.length <= 240);
-      for (const fr of frases) {
-        if (/\b(art\.|artículo|apartado|sección|plazo|días|meses|años|%|euros|kN|MPa|dB|mm|cm|metros|REI|EI|clase|decreto|ley|orden|obligatori|corresponde|define|exige)\b/i.test(fr)) {
-          puntos.push({ apartado: sec.titulo.replace(/^\d+\.\s*/, ''), texto: fr, origen: 'desarrollo' });
-        }
-      }
-    }
-  }
-
-  datosPorTema[t.id] = { info: t, tm, des, puntos };
-}
-
-for (const t of temario.temas) {
-  const rnd = prng('hechos-v2-' + t.id);
   const rutaHechos = path.join(__dirname, 'hechos', `${t.id}.json`);
   const existentes = fs.existsSync(rutaHechos) ? leerJSON(rutaHechos) : [];
   totalHechosAntes += existentes.length;
 
-  const { tm, puntos } = datosPorTema[t.id];
-  const preguntasVistas = new Set();
-  for (const q of tm.test || []) preguntasVistas.add(limpiarTexto(q.pregunta).toLowerCase());
-  for (const q of existentes) preguntasVistas.add(limpiarTexto(q.pregunta).toLowerCase());
+  const tm = leerJSON(path.join(__dirname, 'temas', `${t.id}.json`));
+  const preguntasTemas = new Set((tm.test || []).map((q) => normalizarPregunta(q.pregunta)));
+  const vistas = new Set();
+  const limpias = [];
 
-  const nuevas = [...existentes];
-  const refLeyPrincipal = (tm.leyes && tm.leyes[0] && tm.leyes[0].id) || `Tema ${t.id.toUpperCase()}`;
-
-  // Distractores de otros apartados del mismo tema y de temas del mismo bloque
-  const textosTema = puntos.map((p) => recortarOpcion(p.texto));
-  const textosBloque = poolPuntosPorBloque[t.bloque];
-
-  const agregarPregunta = (pregunta, correctaStr, distractoresRaw, explicacion, referencia) => {
-    const pregLimpia = limpiarTexto(pregunta);
-    if (preguntasVistas.has(pregLimpia.toLowerCase())) return false;
-    const corr = recortarOpcion(correctaStr);
-    if (!corr || corr.length < 4) return false;
-    const distUnicos = [];
-    for (const d of distractoresRaw) {
-      const dl = recortarOpcion(d);
-      if (dl && dl !== corr && !distUnicos.includes(dl) && dl.length >= 4) {
-        distUnicos.push(dl);
-      }
-      if (distUnicos.length === 3) break;
-    }
-    if (distUnicos.length < 3) return false;
-    const opciones = barajar([corr, ...distUnicos], rnd);
-    const correcta = opciones.indexOf(corr);
-    preguntasVistas.add(pregLimpia.toLowerCase());
-    nuevas.push({
-      pregunta: pregLimpia,
-      opciones,
-      correcta,
-      explicacion: limpiarTexto(explicacion),
-      referencia: limpiarTexto(referencia || refLeyPrincipal)
-    });
-    return true;
-  };
-
-  // Tipo A: Preguntas de relación "Concepto / Regla : Definición o Contenido" de los puntos del resumen y desarrollo
-  for (const item of puntos) {
-    if (nuevas.length >= 65) break;
-    const txt = item.texto;
-    const refMatch = txt.match(/\(([^()]{3,55}(?:art\.|arts\.|apartado|sección|DB-|CE|LPAC|LRJSP|LCSP|LOE|CTE|LISTA|LGHPA|EBEP|LPHA|LPRL|RD|Decreto|Ley|Orden)[^()]{0,40})\)/i);
-    const refCita = refMatch ? refMatch[1].trim() : `${refLeyPrincipal} · ${item.apartado}`;
-
-    // A1: Punto con estructura "Concepto: explicación"
-    const colonIdx = txt.indexOf(':');
-    if (colonIdx >= 8 && colonIdx <= 85) {
-      const sujeto = txt.slice(0, colonIdx).trim();
-      const predicado = txt.slice(colonIdx + 1).trim();
-      if (predicado.length >= 25 && !/^(en|por|para|con|según|como)\b/i.test(sujeto)) {
-        const otrosPredicados = barajar(
-          puntos
-            .filter((p) => p !== item && p.texto.includes(':'))
-            .map((p) => p.texto.slice(p.texto.indexOf(':') + 1).trim())
-            .concat(textosTema.filter((x) => x !== recortarOpcion(txt))),
-          rnd
-        );
-        agregarPregunta(
-          `En relación con «${sujeto}» (${item.apartado}), ¿qué establece la normativa estudiada en el tema?`,
-          predicado,
-          otrosPredicados,
-          txt,
-          refCita
-        );
-        continue;
-      }
-    }
-
-    // A2: Punto con plazo numérico exacto (días, meses, años, horas)
-    const plazoMatch = txt.match(/\b(\d+\s*(?:días?(?:\s+hábiles|\s+naturales)?|mes(?:es)?|años?|horas?)|(?:un|dos|tres|cuatro|cinco|seis|diez|quince|veinte|treinta)\s+(?:días?(?:\s+hábiles|\s+naturales)?|mes(?:es)?|años?))\b/i);
-    if (plazoMatch) {
-      const plazoCorrecto = plazoMatch[1].trim();
-      const contextoSinPlazo = txt.replace(plazoMatch[0], '«___»');
-      const poolPlazos = [
-        '10 días hábiles', '15 días hábiles', '20 días hábiles', '30 días naturales',
-        '1 mes', '2 meses', '3 meses', '6 meses', '1 año', '2 años', '3 años', '4 años', '5 años', '10 años', '72 horas', '24 horas'
-      ].filter((p) => p.toLowerCase() !== plazoCorrecto.toLowerCase());
-      agregarPregunta(
-        `Complete el dato o plazo normativo exacto en «${item.apartado}»: ${recortarOpcion(contextoSinPlazo, 180)}`,
-        plazoCorrecto,
-        barajar(poolPlazos, rnd),
-        txt,
-        refCita
-      );
-      continue;
-    }
-
-    // A3: Punto con cuantía, porcentaje o parámetro técnico (%, €, m, cm, mm, kN, MPa, dB, REI, EI, clase)
-    const paramMatch = txt.match(/\b(\d+(?:[.,]\d+)?\s*(?:%|por\s+ciento|euros?|€|m²|m2|cm|mm|metros?|kN\/m²|kN|MPa|N\/mm²|dBA|dB|lux|kW|REI\s*\d+|EI\s*\d+)|clase\s+[0-9A-Z]+)\b/i);
-    if (paramMatch) {
-      const valorCorrecto = paramMatch[1].trim();
-      const contextoSinValor = txt.replace(paramMatch[0], '«___»');
-      const esPorcentaje = /%|por\s+ciento/i.test(valorCorrecto);
-      const esEuros = /euro|€/i.test(valorCorrecto);
-      const poolValores = esPorcentaje
-        ? ['5 %', '6 %', '10 %', '13 %', '15 %', '20 %', '25 %', '30 %', '50 %', '70 %']
-        : esEuros
-          ? ['15.000 euros', '40.000 euros', '50.000 euros', '100.000 euros', '500.000 euros', '600.000 euros']
-          : ['0,80 m', '0,90 m', '1,10 m', '1,20 m', '1,50 m', '2,00 m', '2,50 m', '50 dBA', '1,0 kN/m²', '2,0 kN/m²', 'REI 60', 'REI 120', 'EI 60', 'clase 1', 'clase 2', 'clase 3'];
-      agregarPregunta(
-        `¿Qué valor, umbral o parámetro técnico corresponde al siguiente precepto de «${item.apartado}»?: ${recortarOpcion(contextoSinValor, 175)}`,
-        valorCorrecto,
-        barajar(poolValores.filter((v) => v.toLowerCase() !== valorCorrecto.toLowerCase()), rnd),
-        txt,
-        refCita
-      );
-      continue;
-    }
-
-    // A4: Pregunta de identificación de regla verdadera dentro del apartado
-    const otrosPuntos = barajar(
-      textosBloque.filter((x) => !textosTema.includes(x)),
-      rnd
-    );
-    agregarPregunta(
-      `Respecto a «${item.apartado}» en el tema ${t.num} (${t.bloque === 'comun' ? 'Bloque Común' : 'Bloque Específico'}), señale la afirmación correcta:`,
-      txt,
-      otrosPuntos,
-      txt,
-      refCita
-    );
+  for (const q of existentes) {
+    if (!q || !q.pregunta || !Array.isArray(q.opciones) || q.opciones.length !== 4) continue;
+    if (REGEX_PLANTILLA_ROTA.test(q.pregunta)) continue;
+    const norm = normalizarPregunta(q.pregunta);
+    if (preguntasTemas.has(norm) || vistas.has(norm)) continue;
+    if (new Set(q.opciones).size !== 4) continue;
+    vistas.add(norm);
+    limpias.push(q);
   }
 
-  // Tipo B: Preguntas sobre el rol exacto de cada norma vinculada al tema
-  for (const leyTema of tm.leyes || []) {
-    if (nuevas.length >= 65) break;
-    const infoLey = mapaLeyes[leyTema.id];
-    if (!infoLey || !leyTema.rol) continue;
-    const otrosRoles = barajar(
-      (tm.leyes || [])
-        .filter((l) => l.id !== leyTema.id && l.rol !== leyTema.rol)
-        .map((l) => l.rol)
-        .concat([
-          'Regulación del régimen electoral general y de las cámaras legislativas estatales',
-          'Regulación exclusiva de la jurisdicción penal y procesal civil ordinaria',
-          'Aprobación de los aranceles notariales y registrales de ámbito mercantil',
-          'Ordenación del transporte marítimo y de la marina mercante internacional'
-        ]),
-      rnd
-    );
-    agregarPregunta(
-      `Dentro del tema ${t.num}, ¿qué materia específica regula la norma «${infoLey.nombre}» (${infoLey.referencia})?`,
-      leyTema.rol,
-      otrosRoles,
-      `${infoLey.nombre} (${infoLey.referencia}): ${leyTema.rol}.`,
-      infoLey.referencia
-    );
-  }
-
-  totalHechosDespues += nuevas.length;
-  fs.writeFileSync(rutaHechos, JSON.stringify(nuevas), 'utf8');
+  totalHechosDespues += limpias.length;
+  escribirJSON(rutaHechos, limpias);
 }
 
-console.log(`[3/3] Preguntas de hechos (datos/hechos/*.json): antes ${totalHechosAntes} -> ahora ${totalHechosDespues} (+${totalHechosDespues - totalHechosAntes} nuevas preguntas verificadas).`);
+console.log(`[3/3] Preguntas de hechos (datos/hechos/*.json): antes ${totalHechosAntes} -> ahora ${totalHechosDespues} (depuradas ${totalHechosAntes - totalHechosDespues}).`);
