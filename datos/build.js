@@ -88,8 +88,8 @@ for (const f of ficheros) {
   }
 
   // test
-  if (!Array.isArray(t.test) || t.test.length !== 40) {
-    err(`${p} test: se esperan exactamente 40 preguntas y hay ${t.test ? t.test.length : 0}`);
+  if (!Array.isArray(t.test) || t.test.length !== 60) {
+    err(`${p} test: se esperan exactamente 60 preguntas y hay ${t.test ? t.test.length : 0}`);
   } else {
     const preguntas = new Set();
     const posiciones = [0, 0, 0, 0];
@@ -112,7 +112,7 @@ for (const f of ficheros) {
       if (!esTextoNoVacio(q.referencia)) err(`${pq} sin referencia legal`);
     });
     const max = Math.max(...posiciones);
-    if (max > 15) aviso(`${p} la posición correcta se repite demasiado: ${posiciones.join('/')}`);
+    if (max > 22) aviso(`${p} la posición correcta se repite demasiado: ${posiciones.join('/')}`);
   }
 
   for (const l of t.leyes || []) {
