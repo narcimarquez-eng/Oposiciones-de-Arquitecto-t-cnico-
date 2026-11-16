@@ -78,10 +78,10 @@
     {
       "pregunta": "Según el art. 13.a LPAC, ¿qué derecho permite comunicarse con las Administraciones a través de un punto de acceso general electrónico?",
       "opciones": [
-        "Ninguno",
-        "El derecho a no comunicarse",
+        "El derecho a comunicarse a través de un punto de acceso general electrónico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El derecho a comunicarse a través de un punto de acceso general electrónico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El derecho a comunicarse a través de un punto de acceso general electrónico",
-        "El derecho a pagar una tasa"
+        "El derecho a comunicarse a través de un punto de acceso general electrónico, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 13.a LPAC reconoce el derecho a comunicarse con las Administraciones a través de un punto de acceso general electrónico.",
@@ -102,10 +102,10 @@
     {
       "pregunta": "Según el art. 16.2 LPAC, ¿qué criterio siguen los asientos del registro electrónico?",
       "opciones": [
-        "El orden alfabético",
+        "El orden temporal de recepción o salida, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El orden temporal de recepción o salida",
-        "El orden de importancia",
-        "No hay criterio"
+        "El orden temporal de recepción o salida, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El orden temporal de recepción o salida, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los asientos se anotan respetando el orden temporal de recepción o salida.",
@@ -126,10 +126,10 @@
     {
       "pregunta": "Según el art. 27.1 LPAC, ¿qué efectos tienen las copias auténticas de documentos privados?",
       "opciones": [
-        "Efectos penales",
-        "Efectos en todas las Administraciones y en los tribunales",
+        "Solo efectos administrativos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Solo efectos administrativos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Solo efectos administrativos",
-        "Ninguno"
+        "Solo efectos administrativos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las copias auténticas de documentos privados surten únicamente efectos administrativos.",
@@ -138,9 +138,9 @@
     {
       "pregunta": "Según el art. 41.2 LRJSP, ¿qué debe establecerse antes de una actuación administrativa automatizada?",
       "opciones": [
-        "Un contrato con una empresa privada",
-        "Una sentencia judicial",
-        "Nada",
+        "Los órganos competentes para especificaciones, programación, mantenimiento y supervisión del sistema, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los órganos competentes para especificaciones, programación, mantenimiento y supervisión del sistema, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los órganos competentes para especificaciones, programación, mantenimiento y supervisión del sistema, computándose los plazos en días naturales y con sentido desestimatorio",
         "Los órganos competentes para especificaciones, programación, mantenimiento y supervisión del sistema"
       ],
       "correcta": 3,
@@ -175,9 +175,9 @@
       "pregunta": "Según el art. 1.a LOPDGDD, ¿qué objeto tiene la ley orgánica de protección de datos?",
       "opciones": [
         "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679",
-        "Regular la fiscalidad de los datos",
-        "Sustituir la LPAC",
-        "Derogar el reglamento europeo"
+        "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El art. 1.a LOPDGDD tiene por objeto adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679.",
@@ -199,9 +199,9 @@
       "pregunta": "¿Qué ley regula la identificación, los derechos, los registros y el archivo en el procedimiento?",
       "opciones": [
         "La LPAC (Ley 39/2015)",
-        "La LCSP",
-        "La LEF",
-        "La LGS"
+        "La LPAC (Ley 39/2015), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La LPAC (Ley 39/2015), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La LPAC (Ley 39/2015), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La LPAC regula identificación, derechos, registros y archivo.",
@@ -210,10 +210,10 @@
     {
       "pregunta": "¿Qué ley regula la sede electrónica, el portal y la interoperabilidad?",
       "opciones": [
-        "La LPAC",
+        "La LRJSP (Ley 40/2015), previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La LRJSP (Ley 40/2015)",
-        "La LCSP",
-        "La LEF"
+        "La LRJSP (Ley 40/2015), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La LRJSP (Ley 40/2015), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La LRJSP regula la sede, el portal, la automatización, la interoperabilidad y la seguridad.",
@@ -222,9 +222,9 @@
     {
       "pregunta": "¿Qué exige la LRJSP en el funcionamiento de los procedimientos?",
       "opciones": [
-        "Lentitud deliberada",
-        "Secreto absoluto",
-        "Pagos por adelantado",
+        "Racionalización y agilidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Racionalización y agilidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Racionalización y agilidad, computándose los plazos en días naturales y con sentido desestimatorio",
         "Racionalización y agilidad"
       ],
       "correcta": 3,
@@ -235,9 +235,9 @@
       "pregunta": "¿Puede la Administración pedir documentos que ya obran en su poder?",
       "opciones": [
         "No, salvo oposición del interesado",
-        "Sí, siempre",
-        "Sí, si lo ordena el Consejo de Gobierno",
-        "Sí, si hay una multa"
+        "No, salvo oposición del interesado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No, salvo oposición del interesado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No, salvo oposición del interesado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La Administración no puede pedir documentos que ya obran en su poder, salvo oposición del interesado.",
@@ -258,10 +258,10 @@
     {
       "pregunta": "¿Quién es el titular de la sede electrónica?",
       "opciones": [
-        "El funcionario de turno",
-        "El ciudadano",
+        "La Administración, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La Administración, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La Administración",
-        "Una empresa privada"
+        "La Administración, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La sede electrónica es de titularidad de la Administración, que responde de su integridad, veracidad y actualización.",
@@ -270,9 +270,9 @@
     {
       "pregunta": "¿Para qué sirve el portal de internet de la Administración?",
       "opciones": [
-        "Cobrar multas",
-        "Sustituir a los jueces",
-        "Sortear plazas",
+        "Dar acceso e información, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Dar acceso e información, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Dar acceso e información, computándose los plazos en días naturales y con sentido desestimatorio",
         "Dar acceso e información"
       ],
       "correcta": 3,
@@ -294,10 +294,10 @@
     {
       "pregunta": "¿Qué regula el Esquema Nacional de Seguridad (ENS)?",
       "opciones": [
-        "Los horarios de los funcionarios",
+        "La seguridad de la información en la Administración electrónica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La seguridad de la información en la Administración electrónica",
-        "El reparto de subvenciones",
-        "La carretera"
+        "La seguridad de la información en la Administración electrónica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La seguridad de la información en la Administración electrónica, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El ENS fija la política de seguridad de la información y los requisitos mínimos.",
@@ -306,10 +306,10 @@
     {
       "pregunta": "¿Qué puede elegir la persona física en su relación con la Administración?",
       "opciones": [
-        "Nada",
-        "Solo el teléfono",
+        "El medio electrónico o papel, salvo los obligados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El medio electrónico o papel, salvo los obligados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El medio electrónico o papel, salvo los obligados",
-        "Solo el fax"
+        "El medio electrónico o papel, salvo los obligados, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las personas físicas pueden elegir el medio, salvo las obligadas a relacionarse electrónicamente.",
@@ -318,9 +318,9 @@
     {
       "pregunta": "¿Qué derecho tiene la persona respecto a la información pública?",
       "opciones": [
-        "No ser informada",
-        "Pagar por la información",
-        "Ninguno",
+        "Acceder a la información pública, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Acceder a la información pública, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Acceder a la información pública, computándose los plazos en días naturales y con sentido desestimatorio",
         "Acceder a la información pública"
       ],
       "correcta": 3,
@@ -331,9 +331,9 @@
       "pregunta": "¿Puede el interesado conocer el estado de su expediente?",
       "opciones": [
         "Sí, en cualquier momento",
-        "No nunca",
-        "Solo tras la resolución",
-        "Solo con una multa"
+        "Sí, en cualquier momento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sí, en cualquier momento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sí, en cualquier momento, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El interesado puede conocer el estado de su expediente en cualquier momento.",
@@ -342,10 +342,10 @@
     {
       "pregunta": "¿Qué registro tiene cada Administración para sus asientos electrónicos?",
       "opciones": [
-        "Un registro de pesca",
+        "Un Registro Electrónico General, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Un Registro Electrónico General",
-        "Un registro de vehículos militares",
-        "Ninguno"
+        "Un Registro Electrónico General, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un Registro Electrónico General, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Cada Administración tiene un Registro Electrónico General, con asientos por orden temporal.",
@@ -354,34 +354,22 @@
     {
       "pregunta": "¿Qué conserva el archivo electrónico único?",
       "opciones": [
-        "Solo los borradores",
-        "Solo las fotos",
+        "Los procedimientos finalizados, con autenticidad e integridad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los procedimientos finalizados, con autenticidad e integridad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Los procedimientos finalizados, con autenticidad e integridad",
-        "Nada"
+        "Los procedimientos finalizados, con autenticidad e integridad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El archivo electrónico único conserva los procedimientos finalizados con autenticidad e integridad.",
       "referencia": "Art. 17 LPAC"
     },
     {
-      "pregunta": "¿Qué efectos administrativos tienen las copias auténticas de documentos privados?",
-      "opciones": [
-        "Efectos penales",
-        "Efectos internacionales",
-        "Ninguno",
-        "Solo efectos administrativos"
-      ],
-      "correcta": 3,
-      "explicacion": "Las copias auténticas de documentos privados solo surten efectos administrativos.",
-      "referencia": "Art. 27 LPAC"
-    },
-    {
       "pregunta": "¿Qué necesita la actuación administrativa automatizada?",
       "opciones": [
         "Órganos responsables previamente identificados",
-        "Ninguna supervisión",
-        "Una votación popular",
-        "Un horario fijo"
+        "Órganos responsables previamente identificados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Órganos responsables previamente identificados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Órganos responsables previamente identificados, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La actuación automatizada necesita órganos responsables previamente identificados.",
@@ -390,10 +378,10 @@
     {
       "pregunta": "¿Qué ley orgánica adapta la protección de datos al reglamento europeo?",
       "opciones": [
-        "La LCSP",
+        "La LOPDGDD, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La LOPDGDD",
-        "La LEF",
-        "La LGS"
+        "La LOPDGDD, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La LOPDGDD, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La LOPDGDD adapta el ordenamiento al reglamento europeo de protección de datos.",
@@ -402,10 +390,10 @@
     {
       "pregunta": "¿Qué fomenta el Consejo de Gobierno en materia de cartas de servicio?",
       "opciones": [
-        "Su supresión",
-        "Su secreto",
+        "Su desarrollo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Su desarrollo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Su desarrollo",
-        "Su venta"
+        "Su desarrollo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El Consejo de Gobierno promueve el desarrollo de las cartas de servicio y de derechos.",
@@ -414,9 +402,9 @@
     {
       "pregunta": "¿Qué debe garantizar la sede electrónica en cuanto a quejas y sugerencias?",
       "opciones": [
-        "Ninguno",
-        "Solo quejas anónimas",
-        "Solo sugerencias verbales",
+        "Medios para formularlas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Medios para formularlas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Medios para formularlas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Medios para formularlas"
       ],
       "correcta": 3,
@@ -426,10 +414,10 @@
     {
       "pregunta": "¿Qué necesita la Administración para que sus sistemas de firma sean válidos en la actuación automatizada?",
       "opciones": [
-        "Una firma manuscrita",
-        "Un sello de notario",
+        "Sistemas de firma previstos en la ley, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sistemas de firma previstos en la ley, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Sistemas de firma previstos en la ley",
-        "Ninguno"
+        "Sistemas de firma previstos en la ley, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La actuación automatizada requiere sistemas de firma previstos en la ley.",
@@ -474,9 +462,9 @@
     {
       "pregunta": "¿Qué reglamento europeo regula la identificación electrónica y los servicios de confianza?",
       "opciones": [
-        "Reglamento RGPD 2016/679",
-        "Directiva 2004/38/CE",
-        "Reglamento 1/2003",
+        "Reglamento eIDAS (UE) 910/2014, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Reglamento eIDAS (UE) 910/2014, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Reglamento eIDAS (UE) 910/2014, computándose los plazos en días naturales y con sentido desestimatorio",
         "Reglamento eIDAS (UE) 910/2014"
       ],
       "correcta": 3,
@@ -510,10 +498,10 @@
     {
       "pregunta": "¿Qué tecnología permite la transmisión segura de datos por internet?",
       "opciones": [
-        "Fax",
+        "Cifrado y protocolos seguros como HTTPS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Cifrado y protocolos seguros como HTTPS",
-        "Correo postal",
-        "Telegrafía"
+        "Cifrado y protocolos seguros como HTTPS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cifrado y protocolos seguros como HTTPS, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "HTTPS cifra la comunicación entre cliente y servidor mediante TLS.",
@@ -606,10 +594,10 @@
     {
       "pregunta": "Dentro de la materia «La Administración Electrónica. Gestión de procesos administrativos y simplificación. Las tecnologías de la información y las comunicaciones. La información y los derechos de las personas. Régimen jurídico. El ciudadano en sus relaciones con la administración electrónica. Seguridad, privacidad y ciudadanía digital.» (Sede, portal e interoperabilidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una dirección cuya titularidad corresponde a la Administración, que responde de su integridad, veracidad y actualización (art. 38 LRJSP).»?",
       "opciones": [
-        "Respuesta.",
+        "La sede electrónica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La sede electrónica.",
-        "El artículo 156 LRJSP.",
-        "La eliminación."
+        "La sede electrónica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La sede electrónica, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es una dirección cuya titularidad corresponde a la Administración, que responde de su integridad, veracidad y actualización (art. 38 LRJSP).») define o regula específicamente a «La sede electrónica» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
@@ -678,9 +666,9 @@
     {
       "pregunta": "Dentro de la materia «La Administración Electrónica. Gestión de procesos administrativos y simplificación. Las tecnologías de la información y las comunicaciones. La información y los derechos de las personas. Régimen jurídico. El ciudadano en sus relaciones con la administración electrónica. Seguridad, privacidad y ciudadanía digital.» (Principios de las relaciones electrónicas en la Junta), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La seguridad y la autenticidad (art. 7.2 LAJA), junto con la confidencialidad.»?",
       "opciones": [
-        "El artículo 156 LRJSP.",
-        "La eliminación.",
-        "La privacidad se.",
+        "Respuesta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Respuesta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Respuesta, computándose los plazos en días naturales y con sentido desestimatorio",
         "Respuesta."
       ],
       "correcta": 3,
@@ -750,10 +738,10 @@
     {
       "pregunta": "Dentro de la materia «La Administración Electrónica. Gestión de procesos administrativos y simplificación. Las tecnologías de la información y las comunicaciones. La información y los derechos de las personas. Régimen jurídico. El ciudadano en sus relaciones con la administración electrónica. Seguridad, privacidad y ciudadanía digital.» (Las tecnologías de la información en la Administración), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula el Esquema Nacional de Interoperabilidad (ENI) y el Esquema Nacional de Seguridad (ENS).»?",
       "opciones": [
-        "La eliminación.",
+        "El artículo 156 LRJSP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El artículo 156 LRJSP.",
-        "La privacidad se.",
-        "La relación electrónica es un medio, no un fin."
+        "El artículo 156 LRJSP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El artículo 156 LRJSP, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Regula el Esquema Nacional de Interoperabilidad (ENI) y el Esquema Nacional de Seguridad (ENS).») define o regula específicamente a «El artículo 156 LRJSP» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
@@ -781,6 +769,18 @@
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («El ENI busca que los sistemas se entiendan entre sí.») define o regula específicamente a «Para un examen, la diferencia es el objeto» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Concepto y marco jurídico» (La Administración Electrónica. Gestión de procesos administrativos y simplificación. Las tecnologías de la información y las comunicaciones. La información y los derechos de las personas. Régimen jurídico. El ciudadano en sus relaciones con la administración electrónica. Seguridad, privacidad y ciudadanía digital.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Es la LPAC (identificación, derechos, registros, archivo), la LRJSP (sede, portal, automatización, interoperabilidad y seguridad) y la LAJA (régimen autonómico).»?",
+      "opciones": [
+        "La sede electrónica.",
+        "La Administración electrónica exige lo segundo.",
+        "La simplificación.",
+        "El marco."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha regulación («Es la LPAC (identificación, derechos, registros, archivo), la LRJSP (sede, portal, automatización, interoperabilidad y seguridad) y la LAJA (régimen autonómico).») define o regula específicamente a «El marco» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
       "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
     }
   ]

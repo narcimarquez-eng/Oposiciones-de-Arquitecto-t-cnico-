@@ -129,9 +129,9 @@
     {
       "pregunta": "Según el CTE, art. 13.3, apartado 2, ¿por dónde se evacúan con carácter general los productos de la combustión de las instalaciones térmicas?",
       "opciones": [
-        "Por los patios de luces interiores",
-        "Por el sótano",
-        "Por las fachadas a nivel de calle",
+        "Por la cubierta del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Por la cubierta del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Por la cubierta del edificio, computándose los plazos en días naturales y con sentido desestimatorio",
         "Por la cubierta del edificio"
       ],
       "correcta": 3,
@@ -141,10 +141,10 @@
     {
       "pregunta": "Según el DB-HS 4, apartado 2.1.3, ¿cuál es la presión mínima en los puntos de consumo para los grifos?",
       "opciones": [
-        "50 kPa",
+        "100 kPa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "100 kPa",
-        "150 kPa",
-        "500 kPa"
+        "100 kPa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "100 kPa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La presión mínima en los grifos es de 100 kPa, y de 150 kPa en los fluxores (DB-HS 4, apartado 2.1.3).",
@@ -154,9 +154,9 @@
       "pregunta": "Según el DB-HS 4, apartado 2.1.3, ¿cuál es la presión máxima admisible en la instalación de agua?",
       "opciones": [
         "500 kPa",
-        "1.000 kPa",
-        "150 kPa",
-        "300 kPa"
+        "500 kPa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "500 kPa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "500 kPa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La presión máxima admisible en los puntos de consumo es de 500 kPa (DB-HS 4, apartado 2.1.3).",
@@ -165,10 +165,10 @@
     {
       "pregunta": "Según el DB-HS 5, apartado 3.3.1, ¿cuál es el sello de agua mínimo de un cierre hidráulico de cierre continuo?",
       "opciones": [
-        "100 mm",
-        "25 mm",
+        "50 mm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "50 mm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "50 mm",
-        "70 mm"
+        "50 mm, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los cierres hidráulicos de cierre continuo tienen un sello mínimo de 50 mm, y los de cierre discontinuo, de 70 mm, con un máximo de 100 mm (DB-HS 5, apartado 3.3.1).",
@@ -177,9 +177,9 @@
     {
       "pregunta": "Según el DB-HS 5, apartado 3.3.1, ¿qué pendiente mínima tienen los colectores colgados?",
       "opciones": [
-        "3 %",
-        "10 %",
-        "0,5 %",
+        "1 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "1 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "1 %, computándose los plazos en días naturales y con sentido desestimatorio",
         "1 %"
       ],
       "correcta": 3,
@@ -189,10 +189,10 @@
     {
       "pregunta": "Según el DB-HS 6, apartado 2, punto 1, ¿cuál es el nivel de referencia para el promedio anual de concentración de radón en los locales habitables?",
       "opciones": [
-        "150 Bq/m³",
+        "300 Bq/m³, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "300 Bq/m³",
-        "1.000 Bq/m³",
-        "100 Bq/m³"
+        "300 Bq/m³, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "300 Bq/m³, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El nivel de referencia para el promedio anual de concentración de radón en el interior de los locales habitables es de 300 Bq/m³ (DB-HS 6, apartado 2, punto 1).",
@@ -214,9 +214,9 @@
       "pregunta": "Según el DB-HS 6, apartado 3, punto 1, letra a, ¿qué solución se exige en los municipios de zona I?",
       "opciones": [
         "Una barrera de protección entre el terreno y los locales habitables, o una cámara de aire que mitigue la entrada del gas",
-        "Ninguna medida",
-        "Un sumidero en cada habitación",
-        "Una chimenea de ventilación en cada local"
+        "Una barrera de protección entre el terreno y los locales habitables, o una cámara de aire que mitigue la entrada del gas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una barrera de protección entre el terreno y los locales habitables, o una cámara de aire que mitigue la entrada del gas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una barrera de protección entre el terreno y los locales habitables, o una cámara de aire que mitigue la entrada del gas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "En los municipios de zona I se dispondrá una barrera de protección entre el terreno y los locales habitables, o alternativamente una cámara de aire que mitigue la entrada del gas radón (DB-HS 6, apartado 3, punto 1, letra a).",
@@ -225,10 +225,10 @@
     {
       "pregunta": "¿Qué exige la LOE en materia de salubridad y estanqueidad?",
       "opciones": [
-        "Solo la pintura",
+        "Condiciones aceptables de salubridad y estanqueidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Condiciones aceptables de salubridad y estanqueidad",
-        "Solo el jardín",
-        "Nada"
+        "Condiciones aceptables de salubridad y estanqueidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Condiciones aceptables de salubridad y estanqueidad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La LOE exige condiciones aceptables de salubridad y estanqueidad.",
@@ -238,9 +238,9 @@
       "pregunta": "¿Cuántas exigencias de salubridad recoge el CTE?",
       "opciones": [
         "Seis, de HS 1 a HS 6",
-        "Dos",
-        "Diez",
-        "Ninguna"
+        "Seis, de HS 1 a HS 6, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Seis, de HS 1 a HS 6, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Seis, de HS 1 a HS 6, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El CTE enuncia seis exigencias, de HS 1 a HS 6.",
@@ -249,10 +249,10 @@
     {
       "pregunta": "¿De dónde pueden proceder las humedades de un edificio?",
       "opciones": [
-        "Solo del techo",
+        "Precipitaciones, escorrentías, terreno y condensaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Precipitaciones, escorrentías, terreno y condensaciones",
-        "Solo del vecino",
-        "De ninguna parte"
+        "Precipitaciones, escorrentías, terreno y condensaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Precipitaciones, escorrentías, terreno y condensaciones, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las humedades pueden proceder de las precipitaciones, las escorrentías, el terreno o las condensaciones.",
@@ -261,9 +261,9 @@
     {
       "pregunta": "¿Qué tabla del DB-HS 1 combina composición, impermeabilización, drenaje y ventilación de muros?",
       "opciones": [
-        "La tabla 4.6",
-        "La tabla 1.1",
-        "La tabla 3.1",
+        "La tabla 2.2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La tabla 2.2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La tabla 2.2, computándose los plazos en días naturales y con sentido desestimatorio",
         "La tabla 2.2"
       ],
       "correcta": 3,
@@ -274,9 +274,9 @@
       "pregunta": "¿Qué norma regula la extracción de residuos ordinarios de un edificio?",
       "opciones": [
         "El DB-HS 2",
-        "El DB-SI 1",
-        "El DB-HE 1",
-        "El DB-SUA 1"
+        "El DB-HS 2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DB-HS 2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-HS 2, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El DB-HS 2 regula la extracción de residuos ordinarios.",
@@ -285,33 +285,21 @@
     {
       "pregunta": "¿Qué documento del CTE regula la ventilación para eliminar contaminantes?",
       "opciones": [
-        "El DB-HE 1",
+        "El DB-HS 3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El DB-HS 3",
-        "El DB-SI 5",
-        "El DB-SUA 9"
+        "El DB-HS 3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-HS 3, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El DB-HS 3 regula la ventilación para eliminar contaminantes.",
       "referencia": "CTE, art. 13.3"
     },
     {
-      "pregunta": "¿Por dónde se evacúan con carácter general los productos de combustión de las instalaciones térmicas?",
-      "opciones": [
-        "Por el sótano",
-        "Por el ascensor",
-        "Por la cubierta del edificio",
-        "Por la ventana del vecino"
-      ],
-      "correcta": 2,
-      "explicacion": "Los productos de combustión se evacúan con carácter general por la cubierta.",
-      "referencia": "CTE, art. 13.3 punto 2"
-    },
-    {
       "pregunta": "¿Qué sistema de suministro de agua se regula en el DB-HS 4?",
       "opciones": [
-        "El alumbrado público",
-        "La piscina municipal",
-        "El garaje",
+        "El suministro de agua, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El suministro de agua, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El suministro de agua, computándose los plazos en días naturales y con sentido desestimatorio",
         "El suministro de agua"
       ],
       "correcta": 3,
@@ -322,9 +310,9 @@
       "pregunta": "¿Qué regula el DB-HS 5?",
       "opciones": [
         "La evacuación de aguas residuales y pluviales",
-        "El ruido",
-        "El fuego",
-        "La energía solar"
+        "La evacuación de aguas residuales y pluviales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La evacuación de aguas residuales y pluviales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La evacuación de aguas residuales y pluviales, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El DB-HS 5 regula la evacuación de aguas.",
@@ -333,10 +321,10 @@
     {
       "pregunta": "¿Qué regula el DB-HS 6?",
       "opciones": [
-        "El ruido",
+        "La protección frente al radón, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La protección frente al radón",
-        "La energía",
-        "La cubierta"
+        "La protección frente al radón, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La protección frente al radón, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El DB-HS 6 regula la protección frente al radón.",
@@ -345,10 +333,10 @@
     {
       "pregunta": "¿Qué se exige en las zonas de radón en las que hay que proteger los locales habitables?",
       "opciones": [
-        "Nada",
-        "Un jardín",
+        "Una barrera de protección entre el terreno y los locales, o una cámara de aire, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una barrera de protección entre el terreno y los locales, o una cámara de aire, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Una barrera de protección entre el terreno y los locales, o una cámara de aire",
-        "Una pintura de colores"
+        "Una barrera de protección entre el terreno y los locales, o una cámara de aire, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "En zonas de radón se exige una barrera entre el terreno y los locales, o una cámara de aire.",
@@ -357,9 +345,9 @@
     {
       "pregunta": "¿Qué norma de prueba se usa para las tuberías metálicas del agua?",
       "opciones": [
-        "UNE 1",
-        "UNE 2",
-        "Ninguna",
+        "UNE 100151:1988, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "UNE 100151:1988, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "UNE 100151:1988, computándose los plazos en días naturales y con sentido desestimatorio",
         "UNE 100151:1988"
       ],
       "correcta": 3,
@@ -370,9 +358,9 @@
       "pregunta": "¿Qué cierre hidráulico se exige en los de cierre continuo en el DB-HS 5?",
       "opciones": [
         "Sello de 50 mm",
-        "Sello de 1 m",
-        "Sin sello",
-        "Sello de 1 cm"
+        "Sello de 50 mm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sello de 50 mm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sello de 50 mm, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los cierres de cierre continuo tienen un sello de 50 mm.",
@@ -381,10 +369,10 @@
     {
       "pregunta": "¿Qué se revisa en el mantenimiento de la evacuación de aguas?",
       "opciones": [
-        "La pintura",
+        "La limpieza de sumideros y la revisión de colectores y arquetas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La limpieza de sumideros y la revisión de colectores y arquetas",
-        "La iluminación",
-        "Los muebles"
+        "La limpieza de sumideros y la revisión de colectores y arquetas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La limpieza de sumideros y la revisión de colectores y arquetas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El mantenimiento incluye la limpieza de sumideros y la revisión de colectores y arquetas.",
@@ -393,34 +381,22 @@
     {
       "pregunta": "¿Qué norma regula los residuos de construcción y demolición?",
       "opciones": [
-        "El RD 842/2002",
-        "El RD 919/2006",
+        "El RD 105/2008, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El RD 105/2008, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El RD 105/2008",
-        "El RD 1627/1997"
+        "El RD 105/2008, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El RD 105/2008 regula los residuos de construcción y demolición.",
       "referencia": "RD 105/2008"
     },
     {
-      "pregunta": "¿Dónde debe formar parte el estudio de gestión de residuos?",
-      "opciones": [
-        "En el menú",
-        "En la factura",
-        "En el buzón",
-        "En el proyecto de ejecución de la obra"
-      ],
-      "correcta": 3,
-      "explicacion": "El estudio de gestión de residuos forma parte del proyecto de ejecución.",
-      "referencia": "RD 105/2008, art. 4.1 a)"
-    },
-    {
       "pregunta": "¿A quién debe entregarse el residuo de construcción?",
       "opciones": [
         "A un gestor autorizado",
-        "Al vecino",
-        "Al cartero",
-        "Al supermercado"
+        "A un gestor autorizado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "A un gestor autorizado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "A un gestor autorizado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La entrega debe hacerse a un gestor autorizado.",
@@ -429,10 +405,10 @@
     {
       "pregunta": "¿Qué unidades se usan para estimar la cantidad de residuos en el estudio de gestión?",
       "opciones": [
-        "Litros y horas",
+        "Toneladas y metros cúbicos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Toneladas y metros cúbicos",
-        "Grados y minutos",
-        "Colores y tamaños"
+        "Toneladas y metros cúbicos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Toneladas y metros cúbicos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las cantidades se estiman en toneladas y en metros cúbicos.",
@@ -441,10 +417,10 @@
     {
       "pregunta": "¿Qué exige la LOE en materia de residuos del edificio?",
       "opciones": [
-        "Ningún control",
-        "Quemarlos",
+        "Una adecuada gestión de los residuos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una adecuada gestión de los residuos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Una adecuada gestión de los residuos",
-        "Tirarlos al río"
+        "Una adecuada gestión de los residuos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La LOE exige una adecuada gestión de los residuos.",
@@ -453,9 +429,9 @@
     {
       "pregunta": "¿Qué regula el RD 105/2008?",
       "opciones": [
-        "El agua potable",
-        "El gas",
-        "La electricidad",
+        "Los residuos de construcción y demolición, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los residuos de construcción y demolición, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los residuos de construcción y demolición, computándose los plazos en días naturales y con sentido desestimatorio",
         "Los residuos de construcción y demolición"
       ],
       "correcta": 3,
@@ -465,10 +441,10 @@
     {
       "pregunta": "¿Qué sistema de recogida se respeta con la separación en origen?",
       "opciones": [
-        "Un sistema privado sin control",
-        "Ningún sistema",
+        "El sistema público de recogida, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El sistema público de recogida, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El sistema público de recogida",
-        "El del vecino"
+        "El sistema público de recogida, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La separación en origen se hace de acuerdo con el sistema público de recogida.",
@@ -478,9 +454,9 @@
       "pregunta": "¿Qué DB regula la gestión de los residuos en los edificios?",
       "opciones": [
         "DB-HS 2",
-        "DB-HS 1",
-        "DB-HS 5",
-        "DB-SI 2"
+        "DB-HS 2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-HS 2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-HS 2, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El DB-HS 2 regula los espacios para residuos.",
@@ -489,10 +465,10 @@
     {
       "pregunta": "¿Qué DB regula la protección frente al gas radón?",
       "opciones": [
-        "DB-HS 3",
+        "DB-HS 6, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "DB-HS 6",
-        "DB-HS 4",
-        "DB-HR"
+        "DB-HS 6, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-HS 6, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El DB-HS 6 regula la protección frente a la exposición al radón.",
@@ -501,10 +477,10 @@
     {
       "pregunta": "¿Qué DB regula la protección frente al ruido?",
       "opciones": [
-        "DB-HS 3",
-        "DB-HS 6",
+        "DB-HR, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-HR, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "DB-HR",
-        "DB-SUA 4"
+        "DB-HR, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El DB-HR regula el aislamiento acústico y el ruido.",
@@ -513,9 +489,9 @@
     {
       "pregunta": "¿Qué DB regula la calidad del aire interior?",
       "opciones": [
-        "DB-HS 2",
-        "DB-HS 5",
-        "DB-HE 4",
+        "DB-HS 3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-HS 3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-HS 3, computándose los plazos en días naturales y con sentido desestimatorio",
         "DB-HS 3"
       ],
       "correcta": 3,
@@ -525,9 +501,9 @@
     {
       "pregunta": "¿Qué DB regula los espacios para la limpieza de los edificios y el mantenimiento de la higiene?",
       "opciones": [
-        "DB-SE",
-        "DB-SI",
-        "DB-HE",
+        "DB-HS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-HS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-HS, computándose los plazos en días naturales y con sentido desestimatorio",
         "DB-HS"
       ],
       "correcta": 3,
@@ -538,9 +514,9 @@
       "pregunta": "¿Qué requisito de salud se refiere a la higiene y prevención de la humedad?",
       "opciones": [
         "Higiene, salud y protección del medio ambiente",
-        "Seguridad estructural",
-        "Seguridad de incendio",
-        "Ahorro energético"
+        "Higiene, salud y protección del medio ambiente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Higiene, salud y protección del medio ambiente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Higiene, salud y protección del medio ambiente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El requisito básico de higiene, salud y protección del medio ambiente incluye la humedad y la calidad del aire.",
@@ -549,10 +525,10 @@
     {
       "pregunta": "¿Qué espacio debe reservarse en el edificio para el almacenamiento de residuos?",
       "opciones": [
-        "Garaje de vehículos",
+        "Cuarto o espacio de residuos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Cuarto o espacio de residuos",
-        "Sala de reuniones",
-        "Cocina de restaurante"
+        "Cuarto o espacio de residuos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cuarto o espacio de residuos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El DB-HS 2 exige espacios para el almacenamiento de residuos.",
@@ -561,10 +537,10 @@
     {
       "pregunta": "¿Qué tratamiento se aplica para proteger un sótano de la humedad del terreno?",
       "opciones": [
-        "Pintura de tiza",
-        "Entarimado",
+        "Impermeabilización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Impermeabilización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Impermeabilización",
-        "Falso techo"
+        "Impermeabilización, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La impermeabilización protege los muros enterrados de la humedad del terreno.",
@@ -741,10 +717,10 @@
     {
       "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de higiene, salud y protección del medio ambiente en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas y medidas preventivas.» (2 bis. Criterios de diseño de muros, fachadas y cubiertas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La impermeabilización (I1 a I3), el drenaje (D1 a D5) y la ventilación (V1).»?",
       "opciones": [
-        "El punto débil de la fachada.",
+        "El DB-HS 1 distingue en el muro tres funciones que deben resolverse por separado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El DB-HS 1 distingue en el muro tres funciones que deben resolverse por separado.",
-        "La exigencia HS 4.",
-        "El DB-HS 5."
+        "El DB-HS 1 distingue en el muro tres funciones que deben resolverse por separado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-HS 1 distingue en el muro tres funciones que deben resolverse por separado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («La impermeabilización (I1 a I3), el drenaje (D1 a D5) y la ventilación (V1).») define o regula específicamente a «El DB-HS 1 distingue en el muro tres funciones que deben resolverse por separado» (Ley 2/2026, de 12 de marzo, para la Gestión Ambiental de Andalucía (BOJA núm. 55, de 20 de marzo de 2026; BOE núm. 82, de 4 de abril de 2026)).",
@@ -813,13 +789,37 @@
     {
       "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de higiene, salud y protección del medio ambiente en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas y medidas preventivas.» (2 bis. Criterios de diseño de muros, fachadas y cubiertas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es su encuentro con la cubierta, los forjados y los huecos, donde el DB exige las bandas de refuerzo y de terminación del sistema de impermeabilización (apartado 2.3.3, punto 1).»?",
       "opciones": [
-        "La exigencia HS 4.",
-        "El DB-HS 5.",
-        "Las pruebas de la instalación.",
+        "El punto débil de la fachada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El punto débil de la fachada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El punto débil de la fachada, computándose los plazos en días naturales y con sentido desestimatorio",
         "El punto débil de la fachada."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Es su encuentro con la cubierta, los forjados y los huecos, donde el DB exige las bandas de refuerzo y de terminación del sistema de impermeabilización (apartado 2.3.3, punto 1).») define o regula específicamente a «El punto débil de la fachada» (Ley 2/2026, de 12 de marzo, para la Gestión Ambiental de Andalucía (BOJA núm. 55, de 20 de marzo de 2026; BOE núm. 82, de 4 de abril de 2026)).",
+      "referencia": "Ley 2/2026, de 12 de marzo, para la Gestión Ambiental de Andalucía (BOJA núm. 55, de 20 de marzo de 2026; BOE núm. 82, de 4 de abril de 2026)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Marco normativo» (Requisitos y exigencias básicas, según el CTE, de higiene, salud y protección del medio ambiente en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas y medidas preventivas.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Regula los residuos de construcción y demolición.»?",
+      "opciones": [
+        "Cierres hidráulicos.",
+        "Las cubiertas se ordenan por la letra de su solución.",
+        "El RD 105/2008.",
+        "El DB-HS 1 distingue en el muro tres funciones que deben resolverse por separado."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha regulación («Regula los residuos de construcción y demolición.») define o regula específicamente a «El RD 105/2008» (Ley 2/2026, de 12 de marzo, para la Gestión Ambiental de Andalucía (BOJA núm. 55, de 20 de marzo de 2026; BOE núm. 82, de 4 de abril de 2026)).",
+      "referencia": "Ley 2/2026, de 12 de marzo, para la Gestión Ambiental de Andalucía (BOJA núm. 55, de 20 de marzo de 2026; BOE núm. 82, de 4 de abril de 2026)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «HS 1: protección frente a la humedad» (Requisitos y exigencias básicas, según el CTE, de higiene, salud y protección del medio ambiente en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas y medidas preventivas.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Soluciones de muro por composición (C), impermeabilización (I), drenaje (D) y ventilación (V).»?",
+      "opciones": [
+        "Los puntos singulares son los encuentros donde el agua encuentra un camino.",
+        "Una cubierta plana con pendiente insuficiente.",
+        "Cuando el terreno.",
+        "Tabla 2.2."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha regulación («Soluciones de muro por composición (C), impermeabilización (I), drenaje (D) y ventilación (V).») define o regula específicamente a «Tabla 2.2» (Ley 2/2026, de 12 de marzo, para la Gestión Ambiental de Andalucía (BOJA núm. 55, de 20 de marzo de 2026; BOE núm. 82, de 4 de abril de 2026)).",
       "referencia": "Ley 2/2026, de 12 de marzo, para la Gestión Ambiental de Andalucía (BOJA núm. 55, de 20 de marzo de 2026; BOE núm. 82, de 4 de abril de 2026)"
     }
   ]

@@ -1,17 +1,5 @@
 [
   {
-    "pregunta": "En materia de «Doctrina de examen del IAAP y resolución razonada de supuestos normativos», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «En la misma unidad lógica la acción predeterminada es Mover (Ctrl fuerza Copiar), y entre distintas unidades es Copiar (Shift fuerza Mover)»",
-    "opciones": [
-      "Reglas de copia y arrastre con el ratón en el Explorador de Windows",
-      "El estudio sistemático del epígrafe «Sistemas Operativos en la Administración",
-      "Elementos del escritorio gráfico en Windows y Guadalinex",
-      "La fundamentación normativa radica en que Al arrastrar elementos con el botón principal del ratón en Windows"
-    ],
-    "correcta": 3,
-    "explicacion": "La fundamentación normativa radica en que Al arrastrar elementos con el botón principal del ratón en Windows: En la misma unidad lógica la acción predeterminada es Mover (Ctrl fuerza Copiar), y entre distintas unidades es Copiar (Shift fuerza Mover).",
-    "referencia": "ENS-311-2022"
-  },
-  {
     "pregunta": "Conforme a la norma Real Decreto 311/2022, de 3 de mayo, ¿qué materia regula específicamente su artículo 31?",
     "opciones": [
       "Auditoría de la seguridad",
@@ -38,9 +26,9 @@
   {
     "pregunta": "Conforme a la norma Real Decreto 311/2022, de 3 de mayo, ¿qué materia regula específicamente su artículo 28?",
     "opciones": [
-      "Mecanismos de control",
-      "Autorización y control de los accesos",
-      "Facultades",
+      "Cumplimiento de los requisitos mínimos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Cumplimiento de los requisitos mínimos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Cumplimiento de los requisitos mínimos, computándose los plazos en días naturales y con sentido desestimatorio",
       "Cumplimiento de los requisitos mínimos"
     ],
     "correcta": 3,
@@ -86,10 +74,10 @@
   {
     "pregunta": "Conforme a la norma Real Decreto 311/2022, de 3 de mayo, ¿qué materia regula específicamente su artículo 18?",
     "opciones": [
-      "Política de seguridad y requisitos mínimos de seguridad",
-      "Cumplimiento de los requisitos mínimos",
+      "Protección de las instalaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Protección de las instalaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Protección de las instalaciones",
-      "Facultades"
+      "Protección de las instalaciones, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El artículo 18 (Real Decreto 311/2022, de 3 de mayo) lleva por rúbrica «Protección de las instalaciones».",
@@ -158,10 +146,10 @@
   {
     "pregunta": "Conforme a la norma Real Decreto 311/2022, de 3 de mayo, ¿qué materia regula específicamente su artículo 9?",
     "opciones": [
-      "Actualización permanente",
+      "Existencia de líneas de defensa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Existencia de líneas de defensa",
-      "Gestión de personal",
-      "Facultades"
+      "Existencia de líneas de defensa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Existencia de líneas de defensa, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El artículo 9 (Real Decreto 311/2022, de 3 de mayo) lleva por rúbrica «Existencia de líneas de defensa»: El sistema de información ha de disponer de una estrategia de protección constituida por múltiples capas de seguridad, dispuesta de forma que",
@@ -358,5 +346,17 @@
     "correcta": 1,
     "explicacion": "Dicha determinación («Las líneas de defensa han de estar constituidas por medidas de naturaleza organizativa, física y lógica.») define o regula específicamente a «Existencia de líneas de defensa (art. 9 Esquema Nacional de Seguridad)» (Art. 9 de Esquema Nacional de Seguridad).",
     "referencia": "Art. 9 de Esquema Nacional de Seguridad"
+  },
+  {
+    "pregunta": "En relación con «Organización e implantación del proceso de seguridad (art. 13 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), señale la determinación correcta conforme a la normativa del tema:",
+    "opciones": [
+      "La seguridad de los sistemas de información deberá comprometer a todos los miembros de la organización, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+      "La seguridad de los sistemas de información deberá comprometer a todos los miembros de la organización.",
+      "La seguridad de los sistemas de información deberá comprometer a todos los miembros de la organización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+      "La seguridad de los sistemas de información deberá comprometer a todos los miembros de la organización, computándose los plazos en días naturales y con sentido desestimatorio."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Organización e implantación del proceso de seguridad (art. 13 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), la regulación vigente establece que: La seguridad de los sistemas de información deberá comprometer a todos los miembros de la organización.",
+    "referencia": "Art. 13 de Esquema Nacional de Seguridad"
   }
 ]

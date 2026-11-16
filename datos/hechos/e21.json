@@ -2,10 +2,10 @@
   {
     "pregunta": "¿Cuántos peldaños como mínimo debe tener cada tramo de escalera?",
     "opciones": [
-      "Uno",
+      "Tres, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Tres",
-      "Diez",
-      "Cinco"
+      "Tres, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Tres, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Cada tramo tendrá 3 peldaños como mínimo, salvo excepciones.",
@@ -14,10 +14,10 @@
   {
     "pregunta": "¿Qué altura máxima puede salvar un tramo de escalera en zonas de uso público?",
     "opciones": [
-      "3,20 m",
+      "2,25 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "2,25 m",
-      "1,00 m",
-      "5,00 m"
+      "2,25 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "2,25 m, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "La máxima altura que puede salvar un tramo es 2,25 m en zonas de uso público.",
@@ -27,9 +27,9 @@
     "pregunta": "¿Qué pendiente máxima tienen con carácter general las rampas?",
     "opciones": [
       "El 12 %",
-      "El 25 %",
-      "El 2 %",
-      "El 50 %"
+      "El 12 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El 12 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El 12 %, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Las rampas tendrán una pendiente del 12 % como máximo, salvo las de itinerarios accesibles y otras excepciones.",
@@ -38,9 +38,9 @@
   {
     "pregunta": "¿Cuántas plazas accesibles deben reservarse en aparcamientos de uso público, comercial o de pública concurrencia?",
     "opciones": [
-      "Una por cada 100 plazas",
-      "Una por cada 10 plazas",
-      "Ninguna",
+      "Una por cada 33 plazas o fracción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Una por cada 33 plazas o fracción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Una por cada 33 plazas o fracción, computándose los plazos en días naturales y con sentido desestimatorio",
       "Una por cada 33 plazas o fracción"
     ],
     "correcta": 3,
@@ -51,9 +51,9 @@
     "pregunta": "¿Cuántas plazas accesibles se exigen en otros usos distintos de los anteriores?",
     "opciones": [
       "Una por cada 50 plazas o fracción",
-      "Una por cada 33 plazas",
-      "Una por cada 200 plazas",
-      "Ninguna"
+      "Una por cada 50 plazas o fracción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Una por cada 50 plazas o fracción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Una por cada 50 plazas o fracción, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "En cualquier otro uso, una plaza accesible por cada 50 plazas o fracción.",
@@ -62,10 +62,10 @@
   {
     "pregunta": "¿Qué pendiente máxima puede tener una rampa de un itinerario accesible con proyección horizontal inferior a 3 m según el Decreto 293/2009?",
     "opciones": [
-      "12 %",
-      "6 %",
+      "10 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "10 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "10 %",
-      "20 %"
+      "10 %, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Las rampas con proyección inferior a 3 m tienen pendiente máxima del 10 %, del 8 % si es inferior a 6 m y del 6 % en el resto.",
@@ -74,10 +74,10 @@
   {
     "pregunta": "¿Qué pendiente máxima puede tener esa rampa cuando su proyección horizontal está entre 3 y 6 m?",
     "opciones": [
-      "10 %",
-      "6 %",
+      "8 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "8 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "8 %",
-      "12 %"
+      "8 %, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Para proyecciones inferiores a 6 m la pendiente máxima es del 8 %.",
@@ -86,10 +86,10 @@
   {
     "pregunta": "¿Qué pendiente máxima rige para las rampas accesibles de mayor longitud?",
     "opciones": [
-      "8 %",
-      "10 %",
+      "6 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "6 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "6 %",
-      "15 %"
+      "6 %, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "En el resto de casos la pendiente máxima es del 6 %.",
@@ -98,9 +98,9 @@
   {
     "pregunta": "¿Qué edificios de viviendas deben disponer de ascensor accesible o rampa accesible?",
     "opciones": [
-      "Todos los de una planta",
-      "Ninguno",
-      "Solo los de protección oficial",
+      "Los que obligan a salvar más de dos plantas hasta alguna vivienda o tienen más de 12 viviendas en plantas sin entrada accesible, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Los que obligan a salvar más de dos plantas hasta alguna vivienda o tienen más de 12 viviendas en plantas sin entrada accesible, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Los que obligan a salvar más de dos plantas hasta alguna vivienda o tienen más de 12 viviendas en plantas sin entrada accesible, computándose los plazos en días naturales y con sentido desestimatorio",
       "Los que obligan a salvar más de dos plantas hasta alguna vivienda o tienen más de 12 viviendas en plantas sin entrada accesible"
     ],
     "correcta": 3,

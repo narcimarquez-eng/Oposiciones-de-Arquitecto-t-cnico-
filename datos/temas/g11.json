@@ -95,10 +95,10 @@
     {
       "pregunta": "¿Cómo se denomina el sistema horizontal de la Junta de Andalucía encargado de la gestión y práctica de las notificaciones electrónicas obligatorias y voluntarias a las personas interesadas, accesible desde el Punto de Acceso General Electrónico y la Carpeta Ciudadana?",
       "opciones": [
-        "El sistema Diraya",
+        "El sistema Notific@, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El sistema Notific@",
-        "El sistema SUR",
-        "El sistema Séneca"
+        "El sistema Notific@, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El sistema Notific@, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Notific@ es el sistema corporativo horizontal de notificaciones telemáticas de la Junta de Andalucía (regulado en el Decreto 622/2019).",
@@ -179,25 +179,13 @@
     {
       "pregunta": "De acuerdo con la regulación de «Redes de comunicaciones e Internet: arquitecturas y protocolos elementales», ¿qué se establece respecto a «Clasificación de las redes por su alcance geográfico»?",
       "opciones": [
-        "1) SMTP; 2) POP3; 3) IMAP",
-        "Gestor de expedientes electrónicos y flujos de trabajo procedimentales",
-        "Licitación electrónica y Portal de Licitación Electrónica",
+        "PAN (Personal Area Network), LAN, MAN y WAN, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "PAN (Personal Area Network), LAN, MAN y WAN, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "PAN (Personal Area Network), LAN, MAN y WAN, computándose los plazos en días naturales y con sentido desestimatorio",
         "PAN (Personal Area Network), LAN, MAN y WAN"
       ],
       "correcta": 3,
       "explicacion": "Clasificación de las redes por su alcance geográfico: PAN (Personal Area Network), LAN, MAN y WAN.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Redes de comunicaciones e Internet: arquitecturas y protocolos elementales», ¿qué se establece respecto a «Dispositivos de interconexión en redes locales»?",
-      "opciones": [
-        "Sistema de Registro Electrónico Único de entrada y salida de documentos interconectado con SIR",
-        "1) Hub o concentrador; 2) Switch o conmutador; 3) Router o encaminador; 4) Firewall o cortafuegos",
-        "Sistema de Información de Archivos de la Junta de Andalucía y Archivo Electrónico Único",
-        "Sistema integral de gestión económico-financiera, presupuestaria, contable y de tesorería"
-      ],
-      "correcta": 1,
-      "explicacion": "Dispositivos de interconexión en redes locales: 1) Hub o concentrador; 2) Switch o conmutador; 3) Router o encaminador; 4) Firewall o cortafuegos.",
       "referencia": "DEC-AND-622-2019"
     },
     {
@@ -215,10 +203,10 @@
     {
       "pregunta": "De acuerdo con la regulación de «Navegadores web, búsquedas de información y correo electrónico», ¿qué se establece respecto a «Navegadores web»?",
       "opciones": [
-        "Navegación privada o de incógnito, gestión de certificados digitales (FNMT / DNIe) e integración con el programa `AutoFirma` para la firma electrónica en sedes administrativas",
+        "Interpretan el código HTML5, hojas de estilo CSS3 y JavaScript para renderizar páginas web identificadas mediante una URL (Uniform Resource Locator: `esquema://servidor:puerto/ruta?parámetros#ancla`), previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Interpretan el código HTML5, hojas de estilo CSS3 y JavaScript para renderizar páginas web identificadas mediante una URL (Uniform Resource Locator: `esquema://servidor:puerto/ruta?parámetros#ancla`)",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «GIRO es el sistema de gestión económico-financiera y presupuestaria",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «\"carta de servicios\" site:juntadeandalucia.es filetype:pdf»"
+        "Interpretan el código HTML5, hojas de estilo CSS3 y JavaScript para renderizar páginas web identificadas mediante una URL (Uniform Resource Locator: `esquema://servidor:puerto/ruta?parámetros#ancla`), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Interpretan el código HTML5, hojas de estilo CSS3 y JavaScript para renderizar páginas web identificadas mediante una URL (Uniform Resource Locator: `esquema://servidor:puerto/ruta?parámetros#ancla`), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Navegadores web: Interpretan el código HTML5, hojas de estilo CSS3 y JavaScript para renderizar páginas web identificadas mediante una URL (Uniform Resource Locator: `esquema://servidor:puerto/ruta?parámetros#ancla`).",
@@ -227,10 +215,10 @@
     {
       "pregunta": "De acuerdo con la regulación de «Navegadores web, búsquedas de información y correo electrónico», ¿qué se establece respecto a «Funciones de seguridad y privacidad»?",
       "opciones": [
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «SMTP se encarga del envío de mensajes",
+        "Navegación privada o de incógnito, gestión de certificados digitales (FNMT / DNIe) e integración con el programa `AutoFirma` para la firma electrónica en sedes administrativas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Navegación privada o de incógnito, gestión de certificados digitales (FNMT / DNIe) e integración con el programa `AutoFirma` para la firma electrónica en sedes administrativas",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «\"carta de servicios\" site:juntadeandalucia.es filetype:pdf»",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «GIRO es el sistema de gestión económico-financiera y presupuestaria"
+        "Navegación privada o de incógnito, gestión de certificados digitales (FNMT / DNIe) e integración con el programa `AutoFirma` para la firma electrónica en sedes administrativas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Navegación privada o de incógnito, gestión de certificados digitales (FNMT / DNIe) e integración con el programa `AutoFirma` para la firma electrónica en sedes administrativas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Funciones de seguridad y privacidad: Navegación privada o de incógnito, gestión de certificados digitales (FNMT / DNIe) e integración con el programa `AutoFirma` para la firma electrónica en sedes administrativas.",
@@ -239,9 +227,9 @@
     {
       "pregunta": "De acuerdo con la regulación de «Navegadores web, búsquedas de información y correo electrónico», ¿qué se establece respecto a «Operadores de búsqueda avanzada en buscadores web»?",
       "opciones": [
-        "Plataforma para la práctica y gestión de notificaciones electrónicas con comparecencia en sede y Carpeta Ciudadana",
-        "1) Hub o concentrador; 2) Switch o conmutador; 3) Router o encaminador; 4) Firewall o cortafuegos",
-        "Sistema corporativo horizontal de notificaciones telemáticas de la Junta de Andalucía (regulado en el Decreto 622/2019)",
+        "Comillas dobles `\"texto exacto\"`, signo menos `-palabra`, `site:juntadeandalucia.es`, `filetype:pdf` y `OR`, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Comillas dobles `\"texto exacto\"`, signo menos `-palabra`, `site:juntadeandalucia.es`, `filetype:pdf` y `OR`, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Comillas dobles `\"texto exacto\"`, signo menos `-palabra`, `site:juntadeandalucia.es`, `filetype:pdf` y `OR`, computándose los plazos en días naturales y con sentido desestimatorio",
         "Comillas dobles `\"texto exacto\"`, signo menos `-palabra`, `site:juntadeandalucia.es`, `filetype:pdf` y `OR`"
       ],
       "correcta": 3,
@@ -258,18 +246,6 @@
       ],
       "correcta": 1,
       "explicacion": "El correo electrónico: Servicio asíncrono de mensajería en red con formato `usuario@dominio.es`.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Navegadores web, búsquedas de información y correo electrónico», ¿qué se establece respecto a «Protocolos fundamentales»?",
-      "opciones": [
-        "Gestor de expedientes electrónicos y flujos de trabajo procedimentales",
-        "Licitación electrónica y Portal de Licitación Electrónica",
-        "1) SMTP; 2) POP3; 3) IMAP",
-        "PAN (Personal Area Network), LAN, MAN y WAN"
-      ],
-      "correcta": 2,
-      "explicacion": "Protocolos fundamentales: 1) SMTP; 2) POP3; 3) IMAP.",
       "referencia": "DEC-AND-622-2019"
     },
     {
@@ -299,9 +275,9 @@
     {
       "pregunta": "De acuerdo con la regulación de «Sistemas de Información Horizontales de la Junta de Andalucía», ¿qué se establece respecto a «@ries»?",
       "opciones": [
-        "Sistema de Información de Archivos de la Junta de Andalucía y Archivo Electrónico Único",
-        "Sistema integral de gestión económico-financiera, presupuestaria, contable y de tesorería",
-        "1) Hub o concentrador; 2) Switch o conmutador; 3) Router o encaminador; 4) Firewall o cortafuegos",
+        "Sistema de Registro Electrónico Único de entrada y salida de documentos interconectado con SIR, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sistema de Registro Electrónico Único de entrada y salida de documentos interconectado con SIR, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sistema de Registro Electrónico Único de entrada y salida de documentos interconectado con SIR, computándose los plazos en días naturales y con sentido desestimatorio",
         "Sistema de Registro Electrónico Único de entrada y salida de documentos interconectado con SIR"
       ],
       "correcta": 3,
@@ -383,98 +359,14 @@
     {
       "pregunta": "De acuerdo con la regulación de «Sistemas de Información Horizontales de la Junta de Andalucía», ¿qué se establece respecto a «Carpeta Ciudadana y Presentación Electrónica General (PEG)»?",
       "opciones": [
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «SMTP se encarga del envío de mensajes",
+        "Punto personalizado donde la ciudadanía consulta el estado de sus expedientes, recibe notificaciones, aporta documentación y consulta sus datos y tarjetas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Punto personalizado donde la ciudadanía consulta el estado de sus expedientes, recibe notificaciones, aporta documentación y consulta sus datos y tarjetas",
-        "Conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «El sistema Notific@»"
+        "Punto personalizado donde la ciudadanía consulta el estado de sus expedientes, recibe notificaciones, aporta documentación y consulta sus datos y tarjetas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Punto personalizado donde la ciudadanía consulta el estado de sus expedientes, recibe notificaciones, aporta documentación y consulta sus datos y tarjetas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Carpeta Ciudadana y Presentación Electrónica General (PEG): Punto personalizado donde la ciudadanía consulta el estado de sus expedientes, recibe notificaciones, aporta documentación y consulta sus datos y tarjetas.",
       "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Encuadre constitucional, estatutario y sistemático: Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos…», ¿qué se establece respecto a «El estudio sistemático del epígrafe «Redes de comunicaciones, Internet y correo electrónico»?",
-      "opciones": [
-        "Conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas",
-        "`Para`, `CC` y `CCO` o `BCC`; asunto, cuerpo del mensaje, archivos adjuntos y reglas o filtros automáticos de bandeja de entrada",
-        "Herramienta horizontal de firma electrónica reconocida/cualificada de documentos administrativos por autoridades y empleados",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «El sistema Notific@»"
-      ],
-      "correcta": 0,
-      "explicacion": "El estudio sistemático del epígrafe «Redes de comunicaciones, Internet y correo electrónico: Conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Doctrina de examen del IAAP y resolución razonada de supuestos normativos», ¿qué se establece respecto a «Supuesto normativo verificado 1»?",
-      "opciones": [
-        "Navegación privada o de incógnito, gestión de certificados digitales (FNMT / DNIe) e integración con el programa `AutoFirma` para la firma electrónica en sedes administrativas",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «El sistema Notific@»",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «SMTP se encarga del envío de mensajes",
-        "Punto personalizado donde la ciudadanía consulta el estado de sus expedientes, recibe notificaciones, aporta documentación y consulta sus datos y tarjetas"
-      ],
-      "correcta": 2,
-      "explicacion": "Supuesto normativo verificado 1: Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «SMTP se encarga del envío de mensajes.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Doctrina de examen del IAAP y resolución razonada de supuestos normativos», ¿qué se establece respecto a «Supuesto normativo verificado 3»?",
-      "opciones": [
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «\"carta de servicios\" site:juntadeandalucia.es filetype:pdf»",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «GIRO es el sistema de gestión económico-financiera y presupuestaria",
-        "Navegación privada o de incógnito, gestión de certificados digitales (FNMT / DNIe) e integración con el programa `AutoFirma` para la firma electrónica en sedes administrativas",
-        "Interpretan el código HTML5, hojas de estilo CSS3 y JavaScript para renderizar páginas web identificadas mediante una URL (Uniform Resource Locator: `esquema://servidor:puerto/ruta?parámetros#ancla`)"
-      ],
-      "correcta": 1,
-      "explicacion": "Supuesto normativo verificado 3: Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «GIRO es el sistema de gestión económico-financiera y presupuestaria.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Doctrina de examen del IAAP y resolución razonada de supuestos normativos», ¿qué se establece respecto a «La fundamentación normativa radica en que En la arquitectura horizontal de la Junta de Andalucía»?",
-      "opciones": [
-        "GIRO gestiona el presupuesto y la contabilidad (sustituyendo a Júpiter)",
-        "Servicio asíncrono de mensajería en red con formato `usuario@dominio.es`",
-        "Gestión integral de personal, Registro General de Personal y confección de nóminas",
-        "Gestor de expedientes electrónicos y flujos de trabajo procedimentales"
-      ],
-      "correcta": 0,
-      "explicacion": "La fundamentación normativa radica en que En la arquitectura horizontal de la Junta de Andalucía: GIRO gestiona el presupuesto y la contabilidad (sustituyendo a Júpiter).",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Doctrina de examen del IAAP y resolución razonada de supuestos normativos», ¿qué se establece respecto a «Supuesto normativo verificado 4»?",
-      "opciones": [
-        "Conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas",
-        "`Para`, `CC` y `CCO` o `BCC`; asunto, cuerpo del mensaje, archivos adjuntos y reglas o filtros automáticos de bandeja de entrada",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «El sistema Notific@»",
-        "Punto personalizado donde la ciudadanía consulta el estado de sus expedientes, recibe notificaciones, aporta documentación y consulta sus datos y tarjetas"
-      ],
-      "correcta": 2,
-      "explicacion": "Supuesto normativo verificado 4: Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «El sistema Notific@».",
-      "referencia": "Arts. 30 a 35 DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Doctrina de examen del IAAP y resolución razonada de supuestos normativos», ¿qué se establece respecto a «Fundamentación normativa radica en que Notific@»?",
-      "opciones": [
-        "Sistema corporativo horizontal de notificaciones telemáticas de la Junta de Andalucía (regulado en el Decreto 622/2019)",
-        "`Para`, `CC` y `CCO` o `BCC`; asunto, cuerpo del mensaje, archivos adjuntos y reglas o filtros automáticos de bandeja de entrada",
-        "Herramienta horizontal de firma electrónica reconocida/cualificada de documentos administrativos por autoridades y empleados",
-        "Plataforma para la práctica y gestión de notificaciones electrónicas con comparecencia en sede y Carpeta Ciudadana"
-      ],
-      "correcta": 0,
-      "explicacion": "Fundamentación normativa radica en que Notific@: Sistema corporativo horizontal de notificaciones telemáticas de la Junta de Andalucía (regulado en el Decreto 622/2019).",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Doctrina de examen del IAAP y resolución razonada de supuestos normativos», ¿qué se establece respecto a «Supuesto normativo verificado 5»?",
-      "opciones": [
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «GIRO es el sistema de gestión económico-financiera y presupuestaria",
-        "Navegación privada o de incógnito, gestión de certificados digitales (FNMT / DNIe) e integración con el programa `AutoFirma` para la firma electrónica en sedes administrativas",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «\"carta de servicios\" site:juntadeandalucia.es filetype:pdf»",
-        "Interpretan el código HTML5, hojas de estilo CSS3 y JavaScript para renderizar páginas web identificadas mediante una URL (Uniform Resource Locator: `esquema://servidor:puerto/ruta?parámetros#ancla`)"
-      ],
-      "correcta": 2,
-      "explicacion": "Supuesto normativo verificado 5: Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «\"carta de servicios\" site:juntadeandalucia.es filetype:pdf».",
-      "referencia": "Búsquedas de información en Internet"
     },
     {
       "pregunta": "En materia de «Redes de comunicaciones e Internet: arquitecturas y protocolos elementales», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «PAN (Personal Area Network), LAN, MAN y WAN»",
@@ -489,24 +381,12 @@
       "referencia": "DEC-AND-622-2019"
     },
     {
-      "pregunta": "En materia de «Redes de comunicaciones e Internet: arquitecturas y protocolos elementales», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «1) Hub o concentrador; 2) Switch o conmutador; 3) Router o encaminador; 4) Firewall o cortafuegos»",
-      "opciones": [
-        "Fundamentación normativa radica en que Notific@",
-        "Campos de un mensaje de correo electrónico",
-        "Dispositivos de interconexión en redes locales",
-        "Operadores de búsqueda avanzada en buscadores web"
-      ],
-      "correcta": 2,
-      "explicacion": "Dispositivos de interconexión en redes locales: 1) Hub o concentrador; 2) Switch o conmutador; 3) Router o encaminador; 4) Firewall o cortafuegos.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
       "pregunta": "En materia de «Redes de comunicaciones e Internet: arquitecturas y protocolos elementales», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «En la capa de Internet operan IPv4 e IPv6, junto con ICMP (diagnóstico `ping`) y ARP»",
       "opciones": [
-        "Supuesto normativo verificado 4",
+        "Familia de protocolos TCP/IP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Familia de protocolos TCP/IP",
-        "Supuesto normativo verificado 5",
-        "Supuesto normativo verificado 3"
+        "Familia de protocolos TCP/IP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Familia de protocolos TCP/IP, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Familia de protocolos TCP/IP: En la capa de Internet operan IPv4 e IPv6, junto con ICMP (diagnóstico `ping`) y ARP.",
@@ -515,9 +395,9 @@
     {
       "pregunta": "En materia de «Navegadores web, búsquedas de información y correo electrónico», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Interpretan el código HTML5, hojas de estilo CSS3 y JavaScript para renderizar páginas web identificadas mediante una URL (Uniform Resource Locator: `esquema://servidor:puerto/ruta?parámetros#ancla`)»",
       "opciones": [
-        "El correo electrónico",
-        "Port@firmas",
-        "Notific@",
+        "Navegadores web, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Navegadores web, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Navegadores web, computándose los plazos en días naturales y con sentido desestimatorio",
         "Navegadores web"
       ],
       "correcta": 3,
@@ -527,10 +407,10 @@
     {
       "pregunta": "En materia de «Navegadores web, búsquedas de información y correo electrónico», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Navegación privada o de incógnito, gestión de certificados digitales (FNMT / DNIe) e integración con el programa `AutoFirma` para la firma electrónica en sedes administrativas»",
       "opciones": [
-        "Supuesto normativo verificado 5",
+        "Funciones de seguridad y privacidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Funciones de seguridad y privacidad",
-        "Supuesto normativo verificado 4",
-        "Supuesto normativo verificado 1"
+        "Funciones de seguridad y privacidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Funciones de seguridad y privacidad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Funciones de seguridad y privacidad: Navegación privada o de incógnito, gestión de certificados digitales (FNMT / DNIe) e integración con el programa `AutoFirma` para la firma electrónica en sedes administrativas.",
@@ -552,24 +432,12 @@
       "pregunta": "Dentro de la materia «Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).» (Redes de comunicaciones e Internet: arquitecturas y protocolos elementales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Hub o concentrador (capa 1 Física del modelo OSI: repite la señal a todos los puertos).»?",
       "opciones": [
         "Dispositivos de interconexión en redes locales.",
-        "PTw@nda (Plataforma de Tramitación «Trew@» y motor de tramitación).",
-        "Port@firmas.",
-        "SUR (Sistema Unificado de Recursos)."
+        "Dispositivos de interconexión en redes locales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Dispositivos de interconexión en redes locales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Dispositivos de interconexión en redes locales, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Dicha determinación («Hub o concentrador (capa 1 Física del modelo OSI: repite la señal a todos los puertos).») define o regula específicamente a «Dispositivos de interconexión en redes locales» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
-      "pregunta": "En el ámbito de «Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).» (Navegadores web, búsquedas de información y correo electrónico), ¿qué establece la normativa respecto a «Navegadores web (Mozilla Firefox, Google Chrome, Microsoft Edge, Safari)»?",
-      "opciones": [
-        "Interpretan el código HTML5, hojas de estilo CSS3 y JavaScript para renderizar páginas web identificadas mediante una URL (Uniform Resource Locator: `esquema://servidor:puerto/ruta?parámetros#ancla`).",
-        "Sistema integral de gestión económico-financiera, presupuestaria, contable y de tesorería (sustituyó al antiguo sistema Júpiter).",
-        "Plataforma para la práctica y gestión de notificaciones electrónicas con comparecencia en sede y Carpeta Ciudadana.",
-        "Punto personalizado donde la ciudadanía consulta el estado de sus expedientes, recibe notificaciones, aporta documentación y consulta sus datos y tarjetas."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «Navegadores web (Mozilla Firefox, Google Chrome, Microsoft Edge, Safari)» (Navegadores web, búsquedas de información y correo electrónico), la regulación vigente establece que: Interpretan el código HTML5, hojas de estilo CSS3 y JavaScript para renderizar páginas web identificadas mediante una URL (Uniform Resource Locator: `esquema://servidor:puerto/ruta?parámetros#ancla`).",
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
@@ -585,18 +453,6 @@
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
-      "pregunta": "En el ámbito de «Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).» (Navegadores web, búsquedas de información y correo electrónico), ¿qué establece la normativa respecto a «El correo electrónico»?",
-      "opciones": [
-        "Servicio asíncrono de mensajería en red con formato `usuario@dominio.es`.",
-        "Licitación electrónica y Portal de Licitación Electrónica.",
-        "Gestión integral de personal, Registro General de Personal y confección de nóminas.",
-        "Constituye una brecha de confidencialidad sancionada por la normativa de protección de datos."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «El correo electrónico» (Navegadores web, búsquedas de información y correo electrónico), la regulación vigente establece que: Servicio asíncrono de mensajería en red con formato `usuario@dominio.es`.",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
       "pregunta": "Dentro de la materia «Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).» (Navegadores web, búsquedas de información y correo electrónico), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Servicio asíncrono de mensajería en red con formato `usuario@dominio.es`.»?",
       "opciones": [
         "SIREC (Sistema de Información de Relaciones Electrónicas en materia de Contratación).",
@@ -609,39 +465,15 @@
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
-      "pregunta": "En el ámbito de «Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).» (Sistemas de Información Horizontales de la Junta de Andalucía), ¿qué establece la normativa respecto a «PTw@nda (Plataforma de Tramitación «Trew@» y motor de tramitación)»?",
-      "opciones": [
-        "Herramienta horizontal de firma electrónica reconocida/cualificada de documentos administrativos por autoridades y empleados.",
-        "Gestión de ingresos tributarios y no tributarios.",
-        "Es el sistema corporativo horizontal de notificaciones telemáticas de la Junta de Andalucía (regulado en el Decreto 622/2019).",
-        "Gestor de expedientes electrónicos y flujos de trabajo procedimentales."
-      ],
-      "correcta": 3,
-      "explicacion": "Respecto a «PTw@nda (Plataforma de Tramitación «Trew@» y motor de tramitación)» (Sistemas de Información Horizontales de la Junta de Andalucía), la regulación vigente establece que: Gestor de expedientes electrónicos y flujos de trabajo procedimentales.",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
       "pregunta": "Dentro de la materia «Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).» (Sistemas de Información Horizontales de la Junta de Andalucía), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Gestor de expedientes electrónicos y flujos de trabajo procedimentales.»?",
       "opciones": [
         "PTw@nda (Plataforma de Tramitación «Trew@» y motor de tramitación).",
-        "Port@firmas.",
-        "SUR (Sistema Unificado de Recursos).",
-        "La fundamentación normativa radica en que Notific@."
+        "PTw@nda (Plataforma de Tramitación «Trew@» y motor de tramitación), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "PTw@nda (Plataforma de Tramitación «Trew@» y motor de tramitación), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "PTw@nda (Plataforma de Tramitación «Trew@» y motor de tramitación), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Dicha determinación («Gestor de expedientes electrónicos y flujos de trabajo procedimentales.») define o regula específicamente a «PTw@nda (Plataforma de Tramitación «Trew@» y motor de tramitación)» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
-      "pregunta": "En el ámbito de «Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).» (Sistemas de Información Horizontales de la Junta de Andalucía), ¿qué establece la normativa respecto a «GIRO (Gestión Integrada de Recursos Organizativos)»?",
-      "opciones": [
-        "Plataforma para la práctica y gestión de notificaciones electrónicas con comparecencia en sede y Carpeta Ciudadana.",
-        "Punto personalizado donde la ciudadanía consulta el estado de sus expedientes, recibe notificaciones, aporta documentación y consulta sus datos y tarjetas.",
-        "Sistema integral de gestión económico-financiera, presupuestaria, contable y de tesorería (sustituyó al antiguo sistema Júpiter).",
-        "Es el DNS (Domain Name System)»."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «GIRO (Gestión Integrada de Recursos Organizativos)» (Sistemas de Información Horizontales de la Junta de Andalucía), la regulación vigente establece que: Sistema integral de gestión económico-financiera, presupuestaria, contable y de tesorería (sustituyó al antiguo sistema Júpiter).",
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
@@ -657,18 +489,6 @@
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
-      "pregunta": "En el ámbito de «Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).» (Sistemas de Información Horizontales de la Junta de Andalucía), ¿qué establece la normativa respecto a «SIREC (Sistema de Información de Relaciones Electrónicas en materia de Contratación)»?",
-      "opciones": [
-        "Licitación electrónica y Portal de Licitación Electrónica.",
-        "Gestión integral de personal, Registro General de Personal y confección de nóminas.",
-        "Constituye una brecha de confidencialidad sancionada por la normativa de protección de datos.",
-        "Esquema Nacional de Seguridad en redes de comunicaciones, navegación web, correo electrónico y control de acceso."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «SIREC (Sistema de Información de Relaciones Electrónicas en materia de Contratación)» (Sistemas de Información Horizontales de la Junta de Andalucía), la regulación vigente establece que: Licitación electrónica y Portal de Licitación Electrónica.",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
       "pregunta": "Dentro de la materia «Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).» (Sistemas de Información Horizontales de la Junta de Andalucía), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Licitación electrónica y Portal de Licitación Electrónica.»?",
       "opciones": [
         "SIRhUS (Sistema de Información de Recursos Humanos).",
@@ -678,18 +498,6 @@
       ],
       "correcta": 2,
       "explicacion": "Dicha determinación («Licitación electrónica y Portal de Licitación Electrónica.») define o regula específicamente a «SIREC (Sistema de Información de Relaciones Electrónicas en materia de Contratación)» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
-      "pregunta": "En el ámbito de «Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).» (Sistemas de Información Horizontales de la Junta de Andalucía), ¿qué establece la normativa respecto a «Port@firmas»?",
-      "opciones": [
-        "Gestión de ingresos tributarios y no tributarios.",
-        "Es el sistema corporativo horizontal de notificaciones telemáticas de la Junta de Andalucía (regulado en el Decreto 622/2019).",
-        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.",
-        "Herramienta horizontal de firma electrónica reconocida/cualificada de documentos administrativos por autoridades y empleados."
-      ],
-      "correcta": 3,
-      "explicacion": "Respecto a «Port@firmas» (Sistemas de Información Horizontales de la Junta de Andalucía), la regulación vigente establece que: Herramienta horizontal de firma electrónica reconocida/cualificada de documentos administrativos por autoridades y empleados.",
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
@@ -705,18 +513,6 @@
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
-      "pregunta": "En el ámbito de «Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).» (Sistemas de Información Horizontales de la Junta de Andalucía), ¿qué establece la normativa respecto a «Notific@ (Sistema de Notificaciones Electrónicas de la Junta de Andalucía)»?",
-      "opciones": [
-        "Punto personalizado donde la ciudadanía consulta el estado de sus expedientes, recibe notificaciones, aporta documentación y consulta sus datos y tarjetas.",
-        "Es el DNS (Domain Name System)».",
-        "Plataforma para la práctica y gestión de notificaciones electrónicas con comparecencia en sede y Carpeta Ciudadana.",
-        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «Notific@ (Sistema de Notificaciones Electrónicas de la Junta de Andalucía)» (Sistemas de Información Horizontales de la Junta de Andalucía), la regulación vigente establece que: Plataforma para la práctica y gestión de notificaciones electrónicas con comparecencia en sede y Carpeta Ciudadana.",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
       "pregunta": "Dentro de la materia «Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).» (Sistemas de Información Horizontales de la Junta de Andalucía), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Plataforma para la práctica y gestión de notificaciones electrónicas con comparecencia en sede y Carpeta Ciudadana.»?",
       "opciones": [
         "Carpeta Ciudadana y Presentación Electrónica General (PEG).",
@@ -726,18 +522,6 @@
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Plataforma para la práctica y gestión de notificaciones electrónicas con comparecencia en sede y Carpeta Ciudadana.») define o regula específicamente a «Notific@ (Sistema de Notificaciones Electrónicas de la Junta de Andalucía)» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
-      "pregunta": "En el ámbito de «Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).» (Sistemas de Información Horizontales de la Junta de Andalucía), ¿qué establece la normativa respecto a «SIRhUS (Sistema de Información de Recursos Humanos)»?",
-      "opciones": [
-        "Gestión integral de personal, Registro General de Personal y confección de nóminas.",
-        "Constituye una brecha de confidencialidad sancionada por la normativa de protección de datos.",
-        "Esquema Nacional de Seguridad en redes de comunicaciones, navegación web, correo electrónico y control de acceso.",
-        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «SIRhUS (Sistema de Información de Recursos Humanos)» (Sistemas de Información Horizontales de la Junta de Andalucía), la regulación vigente establece que: Gestión integral de personal, Registro General de Personal y confección de nóminas.",
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
@@ -775,6 +559,222 @@
       "correcta": 3,
       "explicacion": "Dicha determinación («Gestión de ingresos tributarios y no tributarios.») define o regula específicamente a «SUR (Sistema Unificado de Recursos)» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Sistemas de Información Horizontales de la Junta de Andalucía» (Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Herramienta horizontal de firma electrónica reconocida/cualificada de documentos administrativos por autoridades y empleados.»?",
+      "opciones": [
+        "Port@firmas.",
+        "SIRhUS (Sistema de Información de Recursos Humanos).",
+        "Carpeta Ciudadana y Presentación Electrónica General (PEG).",
+        "Ámbito de aplicación (art. 2 Administración electrónica)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha regulación («Herramienta horizontal de firma electrónica reconocida/cualificada de documentos administrativos por autoridades y empleados.») define o regula específicamente a «Port@firmas» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
+      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Sistemas de Información Horizontales de la Junta de Andalucía» (Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Punto personalizado donde la ciudadanía consulta el estado de sus expedientes, recibe notificaciones, aporta documentación y consulta sus datos y tarjetas.»?",
+      "opciones": [
+        "Ámbito de aplicación (art. 2 Administración electrónica).",
+        "Revisión normativa (art. 9 Administración electrónica).",
+        "Carpeta Ciudadana y Presentación Electrónica General (PEG).",
+        "Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha regulación («Punto personalizado donde la ciudadanía consulta el estado de sus expedientes, recibe notificaciones, aporta documentación y consulta sus datos y tarjetas.») define o regula específicamente a «Carpeta Ciudadana y Presentación Electrónica General (PEG)» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
+      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
+    },
+    {
+      "pregunta": "En relación con «Esquema Nacional de Seguridad (Real Decreto 311/2022, de 3 de mayo)» (Síntesis de verificación normativa y textos oficiales del tema), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Esquema Nacional de Seguridad en redes de comunicaciones, navegación web, correo electrónico y control de acceso.",
+        "Esquema Nacional de Seguridad en redes de comunicaciones, navegación web, correo electrónico y control de acceso, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Esquema Nacional de Seguridad en redes de comunicaciones, navegación web, correo electrónico y control de acceso, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Esquema Nacional de Seguridad en redes de comunicaciones, navegación web, correo electrónico y control de acceso, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Esquema Nacional de Seguridad (Real Decreto 311/2022, de 3 de mayo)» (Síntesis de verificación normativa y textos oficiales del tema), la regulación vigente establece que: Esquema Nacional de Seguridad en redes de comunicaciones, navegación web, correo electrónico y control de acceso.",
+      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Síntesis de verificación normativa y textos oficiales del tema» (Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Esquema Nacional de Seguridad en redes de comunicaciones, navegación web, correo electrónico y control de acceso.»?",
+      "opciones": [
+        "Informe en materia de simplificación y organización (art. 8 Administración electrónica).",
+        "Registro de Procedimientos y Servicios (art. 10 Administración electrónica).",
+        "Esquema Nacional de Seguridad (Real Decreto 311/2022, de 3 de mayo).",
+        "Formularios (art. 12 Administración electrónica)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha regulación («Esquema Nacional de Seguridad en redes de comunicaciones, navegación web, correo electrónico y control de acceso.») define o regula específicamente a «Esquema Nacional de Seguridad (Real Decreto 311/2022, de 3 de mayo)» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
+      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
+    },
+    {
+      "pregunta": "En relación con «Ámbito de aplicación (art. 2 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.",
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Ámbito de aplicación (art. 2 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.",
+      "referencia": "Art. 2 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.»?",
+      "opciones": [
+        "Revisión normativa (art. 9 Administración electrónica).",
+        "Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica).",
+        "Ámbito de aplicación (art. 2 Administración electrónica).",
+        "Portal de la Junta de Andalucía (art. 15 Administración electrónica)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha regulación («ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.») define o regula específicamente a «Ámbito de aplicación (art. 2 Administración electrónica)» (Art. 2 de Administración electrónica).",
+      "referencia": "Art. 2 de Administración electrónica"
+    },
+    {
+      "pregunta": "En relación con «Informe en materia de simplificación y organización (art. 8 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos.",
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Informe en materia de simplificación y organización (art. 8 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos.",
+      "referencia": "Art. 8 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos.»?",
+      "opciones": [
+        "Registro de Procedimientos y Servicios (art. 10 Administración electrónica).",
+        "Formularios (art. 12 Administración electrónica).",
+        "Informe en materia de simplificación y organización (art. 8 Administración electrónica).",
+        "Portales de Internet específicos (art. 16 Administración electrónica)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha regulación («ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos.») define o regula específicamente a «Informe en materia de simplificación y organización (art. 8 Administración electrónica)» (Art. 8 de Administración electrónica).",
+      "referencia": "Art. 8 de Administración electrónica"
+    },
+    {
+      "pregunta": "En relación con «Revisión normativa (art. 9 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía.",
+        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Revisión normativa (art. 9 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía.",
+      "referencia": "Art. 9 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía.»?",
+      "opciones": [
+        "Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica).",
+        "Portal de la Junta de Andalucía (art. 15 Administración electrónica).",
+        "Revisión normativa (art. 9 Administración electrónica).",
+        "Contenidos y servicios de las sedes electrónicas (art. 18 Administración electrónica)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha regulación («Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía.») define o regula específicamente a «Revisión normativa (art. 9 Administración electrónica)» (Art. 9 de Administración electrónica).",
+      "referencia": "Art. 9 de Administración electrónica"
+    },
+    {
+      "pregunta": "En relación con «Registro de Procedimientos y Servicios (art. 10 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.",
+        "00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Registro de Procedimientos y Servicios (art. 10 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: 00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.",
+      "referencia": "Art. 10 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.»?",
+      "opciones": [
+        "Formularios (art. 12 Administración electrónica).",
+        "Registro de Procedimientos y Servicios (art. 10 Administración electrónica).",
+        "Portales de Internet específicos (art. 16 Administración electrónica).",
+        "Política de firma electrónica (art. 21 Administración electrónica)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.») define o regula específicamente a «Registro de Procedimientos y Servicios (art. 10 Administración electrónica)» (Art. 10 de Administración electrónica).",
+      "referencia": "Art. 10 de Administración electrónica"
+    },
+    {
+      "pregunta": "En relación con «Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas.",
+        "El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas.",
+      "referencia": "Art. 11 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas.»?",
+      "opciones": [
+        "Portal de la Junta de Andalucía (art. 15 Administración electrónica).",
+        "Contenidos y servicios de las sedes electrónicas (art. 18 Administración electrónica).",
+        "Registro Electrónico Único (art. 26 Administración electrónica).",
+        "Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha regulación («El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas.») define o regula específicamente a «Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica)» (Art. 11 de Administración electrónica).",
+      "referencia": "Art. 11 de Administración electrónica"
+    },
+    {
+      "pregunta": "En relación con «Formularios (art. 12 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.",
+        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Formularios (art. 12 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.",
+      "referencia": "Art. 12 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.»?",
+      "opciones": [
+        "Portales de Internet específicos (art. 16 Administración electrónica).",
+        "Formularios (art. 12 Administración electrónica).",
+        "Política de firma electrónica (art. 21 Administración electrónica).",
+        "Presentación de documentos (art. 27 Administración electrónica)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.») define o regula específicamente a «Formularios (art. 12 Administración electrónica)» (Art. 12 de Administración electrónica).",
+      "referencia": "Art. 12 de Administración electrónica"
+    },
+    {
+      "pregunta": "En relación con «Portal de la Junta de Andalucía (art. 15 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Su dirección electrónica será www.juntadeandalucia.es, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Su dirección electrónica será www.juntadeandalucia.es, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Su dirección electrónica será www.juntadeandalucia.es.",
+        "Su dirección electrónica será www.juntadeandalucia.es, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Portal de la Junta de Andalucía (art. 15 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: Su dirección electrónica será www.juntadeandalucia.es.",
+      "referencia": "Art. 15 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Redes de comunicaciones, Internet y correo electrónico: conceptos elementales, protocolos TCP/IP y HTTP/HTTPS, navegadores web, búsquedas avanzadas, seguridad y gestión de mensajes y agendas. Normativa de uso de sistemas informáticos y redes en la Junta de Andalucía. Sistemas de Información Horizontales de la Junta de Andalucía (GIRO, SIRhUS, PTw@nda, Port@firmas, @ries, Carpeta Ciudadana, Notific@).), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Su dirección electrónica será www.juntadeandalucia.es.»?",
+      "opciones": [
+        "Contenidos y servicios de las sedes electrónicas (art. 18 Administración electrónica).",
+        "Registro Electrónico Único (art. 26 Administración electrónica).",
+        "Funcionamiento del Registro Electrónico Único (art. 28 Administración electrónica).",
+        "Portal de la Junta de Andalucía (art. 15 Administración electrónica)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha regulación («Su dirección electrónica será www.juntadeandalucia.es.») define o regula específicamente a «Portal de la Junta de Andalucía (art. 15 Administración electrónica)» (Art. 15 de Administración electrónica).",
+      "referencia": "Art. 15 de Administración electrónica"
     }
   ]
 }

@@ -14,10 +14,10 @@
   {
     "pregunta": "¿Hasta qué grado de consanguinidad obliga el parentesco con un interesado a abstenerse?",
     "opciones": [
-      "Hasta el primer grado",
-      "Hasta el décimo grado",
+      "Hasta el cuarto grado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Hasta el cuarto grado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Hasta el cuarto grado",
-      "No obliga"
+      "Hasta el cuarto grado, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Es motivo de abstención el parentesco de consanguinidad dentro del cuarto grado o de afinidad dentro del segundo.",
@@ -26,10 +26,10 @@
   {
     "pregunta": "¿Cuándo puede promoverse la recusación?",
     "opciones": [
-      "Solo antes de iniciarse",
+      "En cualquier momento de la tramitación del procedimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "En cualquier momento de la tramitación del procedimiento",
-      "Solo tras la resolución",
-      "Nunca"
+      "En cualquier momento de la tramitación del procedimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "En cualquier momento de la tramitación del procedimiento, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "La recusación puede promoverse en cualquier momento de la tramitación.",
@@ -50,9 +50,9 @@
   {
     "pregunta": "¿En qué plazo debe cursarse la notificación desde que se dicta el acto?",
     "opciones": [
-      "Un mes",
-      "Tres meses",
-      "Un día",
+      "Diez días, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Diez días, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Diez días, computándose los plazos en días naturales y con sentido desestimatorio",
       "Diez días"
     ],
     "correcta": 3,
@@ -62,10 +62,10 @@
   {
     "pregunta": "¿Cuándo se entiende rechazada una notificación electrónica?",
     "opciones": [
-      "A las 24 horas",
-      "Al mes",
+      "Cuando transcurren diez días naturales desde su puesta a disposición sin acceder a su contenido, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Cuando transcurren diez días naturales desde su puesta a disposición sin acceder a su contenido, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Cuando transcurren diez días naturales desde su puesta a disposición sin acceder a su contenido",
-      "Nunca"
+      "Cuando transcurren diez días naturales desde su puesta a disposición sin acceder a su contenido, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Transcurridos diez días naturales sin acceder, la notificación se entiende rechazada.",
@@ -74,10 +74,10 @@
   {
     "pregunta": "¿Afecta la nulidad de un acto a los actos sucesivos independientes del primero?",
     "opciones": [
-      "Sí, siempre",
+      "No, la nulidad no implica la de los actos sucesivos independientes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "No, la nulidad no implica la de los actos sucesivos independientes",
-      "Solo si son favorables",
-      "Solo si los dicta el mismo órgano"
+      "No, la nulidad no implica la de los actos sucesivos independientes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "No, la nulidad no implica la de los actos sucesivos independientes, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El art. 49.1 LPAC limita los efectos de la invalidez a los actos que dependan del anulado.",
@@ -86,10 +86,10 @@
   {
     "pregunta": "¿Cuándo puede otorgarse eficacia retroactiva a los actos administrativos?",
     "opciones": [
-      "Siempre",
+      "Cuando se dicten en sustitución de actos anulados o produzcan efectos favorables al interesado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Cuando se dicten en sustitución de actos anulados o produzcan efectos favorables al interesado",
-      "Nunca",
-      "Cuando sean sanciones"
+      "Cuando se dicten en sustitución de actos anulados o produzcan efectos favorables al interesado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Cuando se dicten en sustitución de actos anulados o produzcan efectos favorables al interesado, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Excepcionalmente puede otorgarse eficacia retroactiva a los actos que produzcan efectos favorables.",
@@ -98,10 +98,10 @@
   {
     "pregunta": "¿Cuándo determina la anulabilidad un defecto de forma?",
     "opciones": [
-      "Siempre",
+      "Cuando el acto carece de los requisitos formales indispensables para alcanzar su fin o da lugar a indefensión, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Cuando el acto carece de los requisitos formales indispensables para alcanzar su fin o da lugar a indefensión",
-      "Nunca",
-      "Solo si hay una errata"
+      "Cuando el acto carece de los requisitos formales indispensables para alcanzar su fin o da lugar a indefensión, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Cuando el acto carece de los requisitos formales indispensables para alcanzar su fin o da lugar a indefensión, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El defecto de forma solo determina la anulabilidad en esos casos.",
@@ -111,9 +111,9 @@
     "pregunta": "¿Qué disposiciones administrativas son nulas de pleno derecho?",
     "opciones": [
       "Las que vulneren la Constitución, las leyes u otras disposiciones de rango superior",
-      "Las que se publiquen en el BOE",
-      "Las aprobadas por el Gobierno",
-      "Ninguna"
+      "Las que vulneren la Constitución, las leyes u otras disposiciones de rango superior, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Las que vulneren la Constitución, las leyes u otras disposiciones de rango superior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Las que vulneren la Constitución, las leyes u otras disposiciones de rango superior, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Son nulas de pleno derecho las disposiciones que vulneren la Constitución, las leyes u otras disposiciones de rango superior.",
@@ -122,9 +122,9 @@
   {
     "pregunta": "¿Quién levanta acta de cada sesión de un órgano colegiado?",
     "opciones": [
-      "El Presidente",
-      "El miembro más joven",
-      "Nadie",
+      "El Secretario, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El Secretario, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El Secretario, computándose los plazos en días naturales y con sentido desestimatorio",
       "El Secretario"
     ],
     "correcta": 3,

@@ -2,9 +2,9 @@
   {
     "pregunta": "¿Qué nivel de referencia de concentración de radón fija el DB-HS 6?",
     "opciones": [
-      "30 Bq/m³",
-      "3.000 Bq/m³",
-      "No fija ninguno",
+      "300 Bq/m³ de promedio anual, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "300 Bq/m³ de promedio anual, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "300 Bq/m³ de promedio anual, computándose los plazos en días naturales y con sentido desestimatorio",
       "300 Bq/m³ de promedio anual"
     ],
     "correcta": 3,
@@ -14,10 +14,10 @@
   {
     "pregunta": "¿Qué aislamiento acústico mínimo a ruido aéreo se exige entre un recinto protegido y otra unidad de uso colindante sin puertas ni ventanas compartidas?",
     "opciones": [
-      "10 dBA",
-      "90 dBA",
+      "D2m,nT,Atr o DnT,A no menor que 50 dBA, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "D2m,nT,Atr o DnT,A no menor que 50 dBA, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "D2m,nT,Atr o DnT,A no menor que 50 dBA",
-      "No se exige"
+      "D2m,nT,Atr o DnT,A no menor que 50 dBA, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El aislamiento acústico a ruido aéreo no será menor que 50 dBA, siempre que no compartan puertas o ventanas.",
@@ -26,10 +26,10 @@
   {
     "pregunta": "¿Qué nivel máximo de ruido de impactos L'nT,w se admite en un recinto protegido respecto de otra unidad de uso?",
     "opciones": [
-      "30 dB",
+      "65 dB, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "65 dB",
-      "100 dB",
-      "45 dB"
+      "65 dB, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "65 dB, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El nivel global de presión de ruido de impactos no será mayor que 65 dB.",
@@ -38,10 +38,10 @@
   {
     "pregunta": "¿Qué tiempo de reverberación máximo se admite en aulas vacías de menos de 350 m³?",
     "opciones": [
-      "2 s",
-      "0,1 s",
+      "0,7 s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "0,7 s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "0,7 s",
-      "5 s"
+      "0,7 s, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El tiempo de reverberación en aulas y salas de conferencias vacías de volumen menor de 350 m³ no será mayor que 0,7 s.",
@@ -75,9 +75,9 @@
     "pregunta": "¿Qué espacio de los edificios regula el DB-HS 2 para guardar los contenedores de residuos?",
     "opciones": [
       "El almacén de contenedores",
-      "El trastero privado",
-      "El garaje",
-      "El cuarto de calderas"
+      "El almacén de contenedores, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El almacén de contenedores, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El almacén de contenedores, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El HS 2 regula el almacén de contenedores de edificio y el espacio de reserva.",

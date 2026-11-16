@@ -38,9 +38,9 @@
   {
     "pregunta": "¿Qué plazo fija el artículo 99.5 CE desde la primera votación de investidura para que el Rey disuelva ambas Cámaras si ningún candidato obtiene la confianza?",
     "opciones": [
-      "Un mes",
-      "Tres meses",
-      "Cuarenta días",
+      "un mes contado a partir del día siguiente a la notificación",
+      "dos meses contados desde la entrada en el registro del órgano competente contados desde la publicación oficial",
+      "cuarenta y cinco días hábiles desde la notificación",
       "Dos meses"
     ],
     "correcta": 3,
@@ -51,9 +51,9 @@
     "pregunta": "¿Qué mayoría del Congreso de los Diputados se requiere para aprobar una cuestión de confianza planteada por el Presidente del Gobierno (art. 112 CE)?",
     "opciones": [
       "Mayoría simple",
-      "Mayoría absoluta",
-      "Tres quintos",
-      "Dos tercios"
+      "mayoría absoluta de los miembros presentes y representados",
+      "mayoría cualificada de dos tercios de los miembros de derecho",
+      "tres quintos de los miembros asistentes a la convocatoria"
     ],
     "correcta": 0,
     "explicacion": "La cuestión de confianza se entiende otorgada cuando vote a favor de la misma la mayoría simple de los Diputados.",
@@ -74,10 +74,10 @@
   {
     "pregunta": "¿Cuántos días deben transcurrir como mínimo desde la presentación de una moción de censura hasta que pueda ser votada (art. 113.3 CE)?",
     "opciones": [
-      "Cuarenta y ocho horas",
-      "Tres días",
+      "Cinco días (pudiendo presentarse mociones alternativas en los dos primeros días), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Cinco días (pudiendo presentarse mociones alternativas en los dos primeros días), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Cinco días (pudiendo presentarse mociones alternativas en los dos primeros días)",
-      "Diez días"
+      "Cinco días (pudiendo presentarse mociones alternativas en los dos primeros días), computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El artículo 113.3 CE establece un período de reflexión de cinco días tras la presentación de la moción de censura.",

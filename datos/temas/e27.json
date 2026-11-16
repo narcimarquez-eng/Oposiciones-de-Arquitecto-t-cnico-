@@ -49,9 +49,9 @@
     {
       "pregunta": "¿Cómo debe ser el objeto de un contrato del sector público?",
       "opciones": [
-        "Indeterminado",
-        "Abierto a cualquier solución",
-        "Fijado después de adjudicar",
+        "Determinado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Determinado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Determinado, computándose los plazos en días naturales y con sentido desestimatorio",
         "Determinado"
       ],
       "correcta": 3,
@@ -73,10 +73,10 @@
     {
       "pregunta": "¿Qué excluye el valor estimado de un contrato de obras?",
       "opciones": [
-        "Nada",
-        "Los gastos generales",
+        "El IVA, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El IVA, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El IVA",
-        "El beneficio industrial"
+        "El IVA, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 101.1.a) LCSP toma el importe total sin incluir el IVA.",
@@ -85,9 +85,9 @@
     {
       "pregunta": "¿Cómo debe ser el precio de los contratos del sector público?",
       "opciones": [
-        "Variable libremente",
-        "Negociable tras la ejecución",
-        "Sin IVA",
+        "Cierto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cierto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cierto, computándose los plazos en días naturales y con sentido desestimatorio",
         "Cierto"
       ],
       "correcta": 3,
@@ -97,10 +97,10 @@
     {
       "pregunta": "¿Cómo pueden revisarse los precios de los contratos?",
       "opciones": [
-        "Libremente",
+        "Solo por revisión periódica y predeterminada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Solo por revisión periódica y predeterminada",
-        "A petición del contratista en cualquier momento",
-        "Nunca"
+        "Solo por revisión periódica y predeterminada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Solo por revisión periódica y predeterminada, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El art. 103.1 LCSP admite la revisión solo periódica y predeterminada, en los términos del capítulo correspondiente.",
@@ -109,9 +109,9 @@
     {
       "pregunta": "¿En qué moneda se expresa el precio con carácter general?",
       "opciones": [
-        "En dólares",
-        "En la moneda del contratista",
-        "En libras",
+        "En euros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "En euros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "En euros, computándose los plazos en días naturales y con sentido desestimatorio",
         "En euros"
       ],
       "correcta": 3,
@@ -121,10 +121,10 @@
     {
       "pregunta": "¿Desde qué presupuesto base de licitación es obligatoria la supervisión del proyecto de obras?",
       "opciones": [
-        "100.000 €",
-        "Siempre",
+        "500.000 €, IVA excluido conforme al valor estimado del expediente conforme al presupuesto base de licitación",
+        "500.000 €, IVA excluido, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "500.000 €, IVA excluido",
-        "1.000.000 €"
+        "500.000 €, IVA excluido, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 235 LCSP exige la supervisión cuando el presupuesto base de licitación es igual o superior a 500.000 euros, IVA excluido.",
@@ -146,9 +146,9 @@
       "pregunta": "¿Cuál es el límite de los contratos menores de suministro?",
       "opciones": [
         "15.000 €",
-        "40.000 €",
-        "100.000 €",
-        "500.000 €"
+        "15.000 €, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "15.000 €, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "15.000 €, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El art. 118.1 LCSP fija en 15.000 euros el límite de los contratos menores de suministro y servicios, y en 40.000 euros el de obras.",
@@ -157,10 +157,10 @@
     {
       "pregunta": "Si el contratista incurre en mora, ¿qué índice de precios se aplica en la revisión?",
       "opciones": [
-        "El índice de la fecha de la revisión",
-        "El más alto",
+        "El de la fecha prevista en el contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El de la fecha prevista en el contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El de la fecha prevista en el contrato",
-        "Ninguno"
+        "El de la fecha prevista en el contrato, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 104.1 LCSP establece que los índices son los que correspondían a las fechas establecidas en el contrato, sin perjuicio de las penalidades.",
@@ -170,9 +170,9 @@
       "pregunta": "¿Cómo debe definirse el objeto de un contrato según la LCSP?",
       "opciones": [
         "De forma determinada, por necesidades o funcionalidades, sin cerrarlo a una solución única",
-        "Sin definir nada",
-        "Solo con un dibujo",
-        "Con un número de teléfono"
+        "De forma determinada, por necesidades o funcionalidades, sin cerrarlo a una solución única, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "De forma determinada, por necesidades o funcionalidades, sin cerrarlo a una solución única, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "De forma determinada, por necesidades o funcionalidades, sin cerrarlo a una solución única, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El objeto debe ser determinado y puede definirse por necesidades o funcionalidades, sin cerrarlo a una única solución.",
@@ -181,10 +181,10 @@
     {
       "pregunta": "¿El presupuesto base de licitación incluye el IVA?",
       "opciones": [
-        "No, nunca",
+        "Sí, salvo disposición en contrario, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Sí, salvo disposición en contrario",
-        "Solo en Navidad",
-        "Solo para vecinos"
+        "Sí, salvo disposición en contrario, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sí, salvo disposición en contrario, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El presupuesto base incluye el IVA, salvo disposición en contrario.",
@@ -194,9 +194,9 @@
       "pregunta": "¿A qué debe ser adecuado el presupuesto base?",
       "opciones": [
         "A los precios de mercado",
-        "Al gusto del alcalde",
-        "Al color del edificio",
-        "Al tiempo"
+        "A los precios de mercado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "A los precios de mercado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "A los precios de mercado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El presupuesto base debe ser adecuado a los precios de mercado.",
@@ -205,10 +205,10 @@
     {
       "pregunta": "¿Qué es el valor estimado de un contrato?",
       "opciones": [
-        "El precio del vino",
+        "Una cifra sin IVA que refleja el importe total pagadero según las estimaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Una cifra sin IVA que refleja el importe total pagadero según las estimaciones",
-        "El salario mínimo",
-        "La edad del edificio"
+        "Una cifra sin IVA que refleja el importe total pagadero según las estimaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una cifra sin IVA que refleja el importe total pagadero según las estimaciones, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El valor estimado se calcula sin IVA e incluye el importe total pagadero según las estimaciones.",
@@ -218,9 +218,9 @@
       "pregunta": "¿Cómo se calcula el valor estimado en concesiones?",
       "opciones": [
         "Por la cifra de negocios que generará el concesionario sin IVA",
-        "Por la altura del edificio",
-        "Por el número de bancos",
-        "Por el color"
+        "Por la cifra de negocios que generará el concesionario sin IVA, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Por la cifra de negocios que generará el concesionario sin IVA, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Por la cifra de negocios que generará el concesionario sin IVA, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "En concesiones se toma la cifra de negocios que generará el concesionario, sin IVA.",
@@ -229,10 +229,10 @@
     {
       "pregunta": "¿Qué tipo de precio exige la LCSP?",
       "opciones": [
-        "Un precio incierto",
+        "Un precio cierto, abonado según lo realmente ejecutado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Un precio cierto, abonado según lo realmente ejecutado",
-        "Un precio a voluntad del contratista",
-        "Un precio secreto"
+        "Un precio cierto, abonado según lo realmente ejecutado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un precio cierto, abonado según lo realmente ejecutado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El precio debe ser cierto y abonarse según lo realmente ejecutado y lo pactado.",
@@ -242,9 +242,9 @@
       "pregunta": "¿Cómo debe ser la revisión de precios?",
       "opciones": [
         "Solo periódica y predeterminada",
-        "Diaria y libre",
-        "Nunca",
-        "Solo a petición del vecino"
+        "Solo periódica y predeterminada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Solo periódica y predeterminada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Solo periódica y predeterminada, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La revisión de precios solo es periódica y predeterminada.",
@@ -253,10 +253,10 @@
     {
       "pregunta": "¿Qué índices se usan en caso de demora en la revisión de precios?",
       "opciones": [
-        "Los índices del tiempo",
+        "Los índices de la fecha prevista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Los índices de la fecha prevista",
-        "Los índices de la lotería",
-        "Ninguno"
+        "Los índices de la fecha prevista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los índices de la fecha prevista, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "En caso de demora se aplican los índices de la fecha prevista.",
@@ -266,9 +266,9 @@
       "pregunta": "¿Qué estructura tiene el presupuesto de un proyecto de obra?",
       "opciones": [
         "Precios unitarios, descompuestos, mediciones y valoración",
-        "Solo un número",
-        "Solo una foto",
-        "Nada"
+        "Precios unitarios, descompuestos, mediciones y valoración, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Precios unitarios, descompuestos, mediciones y valoración, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Precios unitarios, descompuestos, mediciones y valoración, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El presupuesto incluye precios unitarios, descompuestos, mediciones y valoración.",
@@ -277,10 +277,10 @@
     {
       "pregunta": "¿Qué elementos componen los costes del presupuesto de la obra?",
       "opciones": [
-        "Solo la fecha de inicio",
+        "Costes directos e indirectos, gastos generales y beneficio industrial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Costes directos e indirectos, gastos generales y beneficio industrial",
-        "Solo el color",
-        "Ninguno"
+        "Costes directos e indirectos, gastos generales y beneficio industrial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Costes directos e indirectos, gastos generales y beneficio industrial, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El presupuesto incluye costes directos e indirectos, gastos generales y beneficio industrial.",
@@ -301,9 +301,9 @@
     {
       "pregunta": "¿Desde qué importe es obligatoria la supervisión del proyecto?",
       "opciones": [
-        "Un euro",
-        "Cien euros",
-        "Nunca",
+        "500.000 euros, sin IVA, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "500.000 euros, sin IVA, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "500.000 euros, sin IVA, computándose los plazos en días naturales y con sentido desestimatorio",
         "500.000 euros, sin IVA"
       ],
       "correcta": 3,
@@ -314,9 +314,9 @@
       "pregunta": "¿Qué mide el valor estimado?",
       "opciones": [
         "El importe total del contrato sin IVA según estimaciones",
-        "El peso de la obra",
-        "El color",
-        "El horario"
+        "El importe total del contrato sin IVA según estimaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El importe total del contrato sin IVA según estimaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El importe total del contrato sin IVA según estimaciones, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El valor estimado mide el importe total del contrato sin IVA según estimaciones.",
@@ -325,10 +325,10 @@
     {
       "pregunta": "¿Qué diferencia hay entre el presupuesto base y el valor estimado?",
       "opciones": [
-        "No hay diferencia",
+        "El presupuesto base puede incluir IVA y el valor estimado no, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El presupuesto base puede incluir IVA y el valor estimado no",
-        "El valor estimado incluye el salario del alcalde",
-        "El presupuesto base es secreto"
+        "El presupuesto base puede incluir IVA y el valor estimado no, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El presupuesto base puede incluir IVA y el valor estimado no, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El presupuesto base puede incluir IVA y el valor estimado se calcula sin IVA.",
@@ -349,9 +349,9 @@
     {
       "pregunta": "¿El presupuesto base puede superar el precio de mercado?",
       "opciones": [
-        "Sí, siempre",
-        "Solo en verano",
-        "Nunca se fija",
+        "No, debe ser adecuado a los precios de mercado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No, debe ser adecuado a los precios de mercado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No, debe ser adecuado a los precios de mercado, computándose los plazos en días naturales y con sentido desestimatorio",
         "No, debe ser adecuado a los precios de mercado"
       ],
       "correcta": 3,
@@ -362,9 +362,9 @@
       "pregunta": "¿Cómo figura el IVA en el precio de un contrato del sector público?",
       "opciones": [
         "Como partida independiente",
-        "Incluido siempre en el precio sin distinguirlo",
-        "Nunca se aplica",
-        "Solo cuando el contratista lo pida"
+        "Como partida independiente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Como partida independiente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Como partida independiente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El precio cierto recoge el IVA como partida independiente.",
@@ -373,10 +373,10 @@
     {
       "pregunta": "¿Qué porcentaje mínimo del importe debe ejecutarse para que se aplique la revisión de precios?",
       "opciones": [
-        "El 1 %",
+        "El 20 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El 20 %",
-        "El 50 %",
-        "El 90 %"
+        "El 20 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El 20 %, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La revisión se aplica cuando se ha ejecutado al menos el 20 % del importe.",
@@ -397,9 +397,9 @@
     {
       "pregunta": "¿En qué tipos de contrato procede la revisión periódica y predeterminada de precios?",
       "opciones": [
-        "Solo en los de limpieza",
-        "Solo en los de fotografía",
-        "En ninguno",
+        "En los de obra, armamento, suministro de energía y recuperación de la inversión de cinco años o más, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "En los de obra, armamento, suministro de energía y recuperación de la inversión de cinco años o más, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "En los de obra, armamento, suministro de energía y recuperación de la inversión de cinco años o más, computándose los plazos en días naturales y con sentido desestimatorio",
         "En los de obra, armamento, suministro de energía y recuperación de la inversión de cinco años o más"
       ],
       "correcta": 3,
@@ -409,10 +409,10 @@
     {
       "pregunta": "¿Qué costes no son revisables en ningún caso?",
       "opciones": [
-        "Los materiales",
-        "La energía",
+        "Las amortizaciones, los costes financieros, los gastos generales y el beneficio industrial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las amortizaciones, los costes financieros, los gastos generales y el beneficio industrial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Las amortizaciones, los costes financieros, los gastos generales y el beneficio industrial",
-        "Los salarios"
+        "Las amortizaciones, los costes financieros, los gastos generales y el beneficio industrial, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "No son revisables las amortizaciones, los costes financieros, los gastos generales y el beneficio industrial.",
@@ -422,9 +422,9 @@
       "pregunta": "¿Quién puede aprobar fórmulas tipo de revisión de precios?",
       "opciones": [
         "El Consejo de Ministros",
-        "El contratista",
-        "El Defensor del Pueblo",
-        "Un vecino"
+        "El Consejo de Ministros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El Consejo de Ministros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Consejo de Ministros, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El Consejo de Ministros puede aprobar fórmulas tipo, previo informe de la Junta Consultiva y de la Comisión Delegada.",
@@ -433,10 +433,10 @@
     {
       "pregunta": "¿Quién puede establecer la revisión de precios y su fórmula en el contrato?",
       "opciones": [
-        "El contratista",
+        "El órgano de contratación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El órgano de contratación",
-        "El Tribunal de Cuentas",
-        "La Cámara de Comercio"
+        "El órgano de contratación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El órgano de contratación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El órgano de contratación puede establecer la revisión y su fórmula.",
@@ -469,9 +469,9 @@
     {
       "pregunta": "¿Quién elabora los índices mensuales de precios para la revisión de precios?",
       "opciones": [
-        "El Defensor del Pueblo",
-        "El contratista",
-        "El Tribunal Constitucional",
+        "El Instituto Nacional de Estadística, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El Instituto Nacional de Estadística, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Instituto Nacional de Estadística, computándose los plazos en días naturales y con sentido desestimatorio",
         "El Instituto Nacional de Estadística"
       ],
       "correcta": 3,
@@ -482,9 +482,9 @@
       "pregunta": "¿Cómo se paga la revisión de precios?",
       "opciones": [
         "De oficio, mediante abono o descuento en las certificaciones",
-        "Solo si el contratista lo reclama en juicio",
-        "Nunca se paga",
-        "Por sorteo"
+        "De oficio, mediante abono o descuento en las certificaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "De oficio, mediante abono o descuento en las certificaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "De oficio, mediante abono o descuento en las certificaciones, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La revisión se paga de oficio mediante abono o descuento en las certificaciones o pagos parciales.",
@@ -493,10 +493,10 @@
     {
       "pregunta": "¿Se aplica el requisito del 20 % de ejecución en los contratos de concesión de servicios?",
       "opciones": [
-        "Sí, siempre",
+        "No, no se exige en esos contratos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "No, no se exige en esos contratos",
-        "Solo si hay sol",
-        "Solo en Navidad"
+        "No, no se exige en esos contratos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No, no se exige en esos contratos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La condición del porcentaje no se exige en los contratos de concesión de servicios.",
@@ -505,10 +505,10 @@
     {
       "pregunta": "¿Cómo se calcula el valor estimado del contrato en cuanto al IVA?",
       "opciones": [
-        "Incluyendo el IVA",
-        "Duplicando el IVA",
+        "Sin incluir el IVA, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sin incluir el IVA, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Sin incluir el IVA",
-        "Solo con el IVA"
+        "Sin incluir el IVA, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El valor estimado es el importe total pagadero según las estimaciones, sin incluir el IVA.",
@@ -517,9 +517,9 @@
     {
       "pregunta": "¿Qué conceptos deben incluirse en el valor estimado además del importe inicial?",
       "opciones": [
-        "Solo el IVA",
-        "Las multas",
-        "Nada más",
+        "Las eventuales prórrogas y las modificaciones previstas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las eventuales prórrogas y las modificaciones previstas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las eventuales prórrogas y las modificaciones previstas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Las eventuales prórrogas y las modificaciones previstas"
       ],
       "correcta": 3,
@@ -565,9 +565,9 @@
     {
       "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El objeto del contrato (art. 99 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sin un objeto determinado no puede saberse qué se licita, ni qué debe ejecutar el contratista, ni qué precio es razonable.»?",
       "opciones": [
-        "La respuesta.",
-        "Los costes directos.",
-        "La diferencia con el presupuesto base.",
+        "Es una exigencia básica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Es una exigencia básica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Es una exigencia básica, computándose los plazos en días naturales y con sentido desestimatorio",
         "Es una exigencia básica."
       ],
       "correcta": 3,
@@ -613,9 +613,9 @@
     {
       "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El objeto del contrato (art. 99 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una fórmula general, sino lo que describen la memoria, los planos y el pliego de prescripciones técnicas particulares (art. 233.1 LCSP).»?",
       "opciones": [
-        "El presupuesto base.",
-        "Para un examen, la secuencia es.",
-        "Respuesta.",
+        "Por eso el objeto de la obra no, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Por eso el objeto de la obra no, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Por eso el objeto de la obra no, computándose los plazos en días naturales y con sentido desestimatorio",
         "Por eso el objeto de la obra no."
       ],
       "correcta": 3,
@@ -685,10 +685,10 @@
     {
       "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El presupuesto base de licitación (art. 100 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un límite de gasto, no un precio.»?",
       "opciones": [
-        "Para un examen, la secuencia es.",
+        "El presupuesto base, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El presupuesto base.",
-        "Respuesta.",
-        "Lo que la ley."
+        "El presupuesto base, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El presupuesto base, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es un límite de gasto, no un precio.») define o regula específicamente a «El presupuesto base» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -757,9 +757,9 @@
     {
       "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Estructura del presupuesto de la obra), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Precios unitarios y descompuestos, costes directos e indirectos, presupuesto de ejecución material, gastos generales y beneficio industrial, y presupuesto base de licitación con IVA.»?",
       "opciones": [
-        "Respuesta.",
-        "Lo que la ley.",
-        "Si la oferta.",
+        "Para un examen, la secuencia es, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Para un examen, la secuencia es, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Para un examen, la secuencia es, computándose los plazos en días naturales y con sentido desestimatorio",
         "Para un examen, la secuencia es."
       ],
       "correcta": 3,

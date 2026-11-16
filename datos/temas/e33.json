@@ -76,9 +76,9 @@
       "pregunta": "Según el art. 208.1 LCSP, ¿qué documento se extiende cuando la Administración acuerda la suspensión del contrato?",
       "opciones": [
         "Un acta en la que se consignan las circunstancias y la situación de hecho",
-        "Un decreto de la alcaldía",
-        "Un informe del director facultativo sin acta",
-        "Ningún documento"
+        "Un acta en la que se consignan las circunstancias y la situación de hecho, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un acta en la que se consignan las circunstancias y la situación de hecho, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un acta en la que se consignan las circunstancias y la situación de hecho, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Se extiende un acta, de oficio o a solicitud del contratista, con las circunstancias que motivaron la suspensión y la situación de hecho.",
@@ -99,9 +99,9 @@
     {
       "pregunta": "Según el art. 198.6 LCSP, ¿cuándo tiene el contratista derecho a resolver el contrato por demora de la Administración en el pago?",
       "opciones": [
-        "Cuando la demora supera un mes",
-        "Cuando la demora supera doce meses",
-        "Nunca",
+        "Cuando la demora supera tres meses prorrogables por otros tres meses",
+        "Cuando la demora supera doce meses conforme al plazo general supletorio",
+        "Cuando la demora supera cuatro meses contados desde la fecha de entrada en registro",
         "Cuando la demora supera seis meses"
       ],
       "correcta": 3,
@@ -145,24 +145,12 @@
       "referencia": "Art. 243.5 LCSP"
     },
     {
-      "pregunta": "Según el art. 243.6 LCSP, ¿qué ocurre si el órgano de contratación acuerda la ocupación efectiva de las obras por razones excepcionales de interés público, sin acto formal de recepción?",
-      "opciones": [
-        "Cuando la obra es susceptible de ejecutarse por fases que puedan entregarse al uso público, según el contrato",
-        "Siempre que la obra esté al 50 por ciento",
-        "Solo en los contratos de suministro",
-        "Nunca: la recepción es siempre total"
-      ],
-      "correcta": 0,
-      "explicacion": "Por razones excepcionales de interés público, motivadas en el expediente, la ocupación o la puesta en servicio producen los efectos de la recepción.",
-      "referencia": "Art. 243.6 LCSP"
-    },
-    {
       "pregunta": "Según el art. 244.2 LCSP, ¿en qué plazo prescriben las acciones por daños materiales derivados de vicios o defectos de la obra?",
       "opciones": [
-        "Seis meses",
-        "Un año",
+        "Dos años desde que se produzcan o manifiesten los daños, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Dos años desde que se produzcan o manifiesten los daños, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Dos años desde que se produzcan o manifiesten los daños",
-        "Quince años"
+        "Dos años desde que se produzcan o manifiesten los daños, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las acciones por daños materiales prescriben en dos años desde que se produzcan o manifiesten, sin perjuicio de las acciones por incumplimiento contractual.",
@@ -196,9 +184,9 @@
       "pregunta": "¿Cómo se documenta una suspensión de obra?",
       "opciones": [
         "En un acta, de oficio o a solicitud del contratista",
-        "En una servilleta",
-        "Oralmente",
-        "Nunca"
+        "En un acta, de oficio o a solicitud del contratista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "En un acta, de oficio o a solicitud del contratista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "En un acta, de oficio o a solicitud del contratista, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La suspensión se documenta en un acta, de oficio o a solicitud del contratista.",
@@ -207,9 +195,9 @@
     {
       "pregunta": "¿Qué abona la Administración cuando acuerda una suspensión?",
       "opciones": [
-        "Un regalo",
-        "Nada",
-        "El doble del precio",
+        "Los daños efectivamente sufridos, con las reglas del art. 208.2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los daños efectivamente sufridos, con las reglas del art. 208.2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los daños efectivamente sufridos, con las reglas del art. 208.2, computándose los plazos en días naturales y con sentido desestimatorio",
         "Los daños efectivamente sufridos, con las reglas del art. 208.2"
       ],
       "correcta": 3,
@@ -220,9 +208,9 @@
       "pregunta": "¿En qué plazo prescribe el derecho a reclamar los daños de la suspensión?",
       "opciones": [
         "Un año desde la orden de reanudar",
-        "Diez años",
-        "Un día",
-        "Nunca"
+        "Un año desde la orden de reanudar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un año desde la orden de reanudar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un año desde la orden de reanudar, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El derecho a reclamar prescribe en un año desde que se reciba la orden de reanudar.",
@@ -231,9 +219,9 @@
     {
       "pregunta": "¿Cuándo puede el contratista suspender el cumplimiento por demora en el pago?",
       "opciones": [
-        "Si la demora es de un día",
-        "Nunca",
-        "Solo en verano",
+        "Si la demora supera los cuatro meses, con un mes contado a partir del día siguiente a la notificación contados de fecha a fecha de antelación",
+        "Si la demora supera los cuatro meses, con quince días hábiles improrrogables de antelación",
+        "Si la demora supera los cuatro meses, con treinta días hábiles excluyendo sábados, domingos y festivos de antelación",
         "Si la demora supera los cuatro meses, con un mes de antelación"
       ],
       "correcta": 3,
@@ -244,9 +232,9 @@
       "pregunta": "¿Cuándo puede el contratista resolver por demora de la Administración?",
       "opciones": [
         "Si la demora supera los seis meses",
-        "Si llueve",
-        "Si hace frío",
-        "Nunca"
+        "Si la demora supera los tres meses prorrogables por otros tres meses",
+        "Si la demora supera los doce meses conforme al plazo general supletorio",
+        "Si la demora supera los cuatro meses contados desde la fecha de entrada en registro"
       ],
       "correcta": 0,
       "explicacion": "Si la demora de la Administración supera los seis meses, puede resolver y reclamar perjuicios.",
@@ -255,10 +243,10 @@
     {
       "pregunta": "¿Quiénes concurren a la recepción de la obra?",
       "opciones": [
-        "Solo el alcalde",
+        "Un facultativo de la Administración, el director de obra y el contratista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Un facultativo de la Administración, el director de obra y el contratista",
-        "Solo el vecino",
-        "Nadie"
+        "Un facultativo de la Administración, el director de obra y el contratista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un facultativo de la Administración, el director de obra y el contratista, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "A la recepción concurren un facultativo de la Administración, el director de obra y el contratista.",
@@ -267,10 +255,10 @@
     {
       "pregunta": "¿Qué sucede si las obras están en buen estado en la recepción?",
       "opciones": [
-        "Se derriba el edificio",
-        "Se paga doble",
+        "Se levanta acta y empieza el plazo de garantía, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Se levanta acta y empieza el plazo de garantía, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Se levanta acta y empieza el plazo de garantía",
-        "Nada"
+        "Se levanta acta y empieza el plazo de garantía, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Si las obras están en buen estado, se levanta acta y empieza el plazo de garantía.",
@@ -279,9 +267,9 @@
     {
       "pregunta": "¿Quién fija el plazo de garantía?",
       "opciones": [
-        "El contratista",
-        "El vecino",
-        "El Defensor del Pueblo",
+        "El pliego, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El pliego, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El pliego, computándose los plazos en días naturales y con sentido desestimatorio",
         "El pliego"
       ],
       "correcta": 3,
@@ -292,9 +280,9 @@
       "pregunta": "¿Cuándo se devuelve la garantía tras el informe del director de obra?",
       "opciones": [
         "Si el informe es favorable, quince días antes del fin del plazo",
-        "Nunca",
-        "Al día siguiente de la obra",
-        "Solo a los vecinos"
+        "Si el informe es favorable, diez días hábiles antes del fin del plazo",
+        "Si el informe es favorable, cuarenta y cinco días naturales hábiles naturales antes del fin del plazo",
+        "Si el informe es favorable, quince días naturales naturales antes del fin del plazo"
       ],
       "correcta": 0,
       "explicacion": "Con informe favorable del director, quince días antes del fin del plazo, se devuelve la garantía.",
@@ -303,10 +291,10 @@
     {
       "pregunta": "¿En qué plazo se liquida la garantía tras devolverla?",
       "opciones": [
-        "Un día",
+        "Sesenta días, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Sesenta días",
-        "Diez años",
-        "Nunca"
+        "Sesenta días, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sesenta días, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La garantía se liquida en sesenta días.",
@@ -315,10 +303,10 @@
     {
       "pregunta": "¿Qué recepciones parciales se permiten?",
       "opciones": [
-        "Ninguna",
-        "Las de las paredes solamente",
+        "Las de partes de obra ejecutables por fases entregables al uso público, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las de partes de obra ejecutables por fases entregables al uso público, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Las de partes de obra ejecutables por fases entregables al uso público",
-        "Las del color"
+        "Las de partes de obra ejecutables por fases entregables al uso público, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Caben recepciones parciales de partes de obra ejecutables por fases entregables al uso público.",
@@ -327,9 +315,9 @@
     {
       "pregunta": "¿Qué efectos tiene la ocupación efectiva de la obra por razones de interés público?",
       "opciones": [
-        "Ninguno",
-        "Se anulan",
-        "Se paga el doble",
+        "Producen los efectos de la recepción aunque no haya acta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Producen los efectos de la recepción aunque no haya acta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Producen los efectos de la recepción aunque no haya acta, computándose los plazos en días naturales y con sentido desestimatorio",
         "Producen los efectos de la recepción aunque no haya acta"
       ],
       "correcta": 3,
@@ -340,9 +328,9 @@
       "pregunta": "¿Cuántos años responde el contratista de daños graves tras el plazo de garantía?",
       "opciones": [
         "Quince años desde la recepción",
-        "Un día",
-        "Un mes",
-        "Nunca"
+        "Quince años desde la recepción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Quince años desde la recepción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Quince años desde la recepción, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El contratista responde de daños graves durante quince años desde la recepción.",
@@ -351,10 +339,10 @@
     {
       "pregunta": "¿En qué plazo prescribe la acción por daños materiales?",
       "opciones": [
-        "Diez años",
+        "Dos años desde que se manifiestan, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Dos años desde que se manifiestan",
-        "Un día",
-        "No prescribe"
+        "Dos años desde que se manifiestan, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Dos años desde que se manifiestan, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La acción por daños materiales prescribe en dos años desde que se manifiestan.",
@@ -363,10 +351,10 @@
     {
       "pregunta": "¿Qué causas generales de resolución recoge el art. 211 de la LCSP?",
       "opciones": [
-        "Solo la muerte del contratista",
-        "Solo el cambio de color",
+        "Concurso, mutuo acuerdo, demora, incumplimiento de obligaciones principales y modificación no admisible, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Concurso, mutuo acuerdo, demora, incumplimiento de obligaciones principales y modificación no admisible, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Concurso, mutuo acuerdo, demora, incumplimiento de obligaciones principales y modificación no admisible",
-        "Ninguna"
+        "Concurso, mutuo acuerdo, demora, incumplimiento de obligaciones principales y modificación no admisible, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 211 recoge esas causas generales de resolución.",
@@ -375,9 +363,9 @@
     {
       "pregunta": "¿Qué indemnización corresponde por modificación no admisible?",
       "opciones": [
-        "El 30 %",
-        "El 100 %",
-        "Ninguna",
+        "El 3 % del precio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El 3 % del precio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El 3 % del precio, computándose los plazos en días naturales y con sentido desestimatorio",
         "El 3 % del precio"
       ],
       "correcta": 3,
@@ -388,9 +376,9 @@
       "pregunta": "¿Qué se incauta en caso de culpa del contratista en la resolución?",
       "opciones": [
         "La garantía",
-        "La casa del contratista",
-        "El coche",
-        "Nada"
+        "La garantía, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La garantía, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La garantía, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "En culpa del contratista se incauta la garantía.",
@@ -399,10 +387,10 @@
     {
       "pregunta": "¿Qué indemnización corresponde por desistimiento antes de iniciar las obras?",
       "opciones": [
-        "El 50 %",
+        "El 3 % del precio de adjudicación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El 3 % del precio de adjudicación",
-        "El 100 %",
-        "Ninguna"
+        "El 3 % del precio de adjudicación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El 3 % del precio de adjudicación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Antes de iniciar las obras la indemnización es del 3 % del precio de adjudicación.",
@@ -411,10 +399,10 @@
     {
       "pregunta": "¿Qué indemnización corresponde por desistimiento tras iniciar las obras?",
       "opciones": [
-        "El 50 %",
-        "El 100 %",
+        "El 6 % del beneficio industrial sobre lo dejado de realizar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El 6 % del beneficio industrial sobre lo dejado de realizar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El 6 % del beneficio industrial sobre lo dejado de realizar",
-        "Ninguna"
+        "El 6 % del beneficio industrial sobre lo dejado de realizar, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Tras iniciar la ejecución, el 6 % del beneficio industrial sobre lo dejado de realizar.",
@@ -423,9 +411,9 @@
     {
       "pregunta": "¿En qué plazo puede impugnar el contratista la valoración de la liquidación?",
       "opciones": [
-        "Un año",
-        "Diez años",
-        "Nunca",
+        "diez días hábiles",
+        "cuarenta y cinco días naturales hábiles naturales",
+        "quince días naturales naturales",
         "Quince días"
       ],
       "correcta": 3,
@@ -435,10 +423,10 @@
     {
       "pregunta": "¿En qué plazo se aprueba la certificación final tras la recepción?",
       "opciones": [
-        "Tres días",
-        "Tres años",
+        "tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación",
+        "dos meses contados desde la entrada en el registro del órgano competente",
         "Tres meses",
-        "Nunca"
+        "un mes improrrogable desde la presentación de la solicitud"
       ],
       "correcta": 2,
       "explicacion": "La certificación final se aprueba en tres meses desde la recepción.",
@@ -459,10 +447,10 @@
     {
       "pregunta": "¿Quién acuerda la suspensión de un contrato de obras?",
       "opciones": [
-        "El director de la escuela de arquitectura",
+        "El órgano de contratación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El órgano de contratación",
-        "El contratista unilateralmente",
-        "El registrador"
+        "El órgano de contratación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El órgano de contratación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La suspensión se acuerda por el órgano de contratación y se formaliza en acta.",
@@ -471,10 +459,10 @@
     {
       "pregunta": "¿Qué documento formaliza la suspensión de la obra?",
       "opciones": [
-        "Acta de recepción",
-        "Acta de replanteo sin efectos",
+        "Acta de suspensión, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Acta de suspensión, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Acta de suspensión",
-        "Acta de la junta"
+        "Acta de suspensión, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El acta de suspensión formaliza la paralización de la obra.",
@@ -483,9 +471,9 @@
     {
       "pregunta": "¿Qué plazo mínimo de garantía tienen las obras según la LCSP?",
       "opciones": [
-        "Un mes",
-        "Diez años",
-        "Dos días",
+        "No inferior a un año, salvo casos especiales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No inferior a un año, salvo casos especiales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No inferior a un año, salvo casos especiales, computándose los plazos en días naturales y con sentido desestimatorio",
         "No inferior a un año, salvo casos especiales"
       ],
       "correcta": 3,
@@ -495,9 +483,9 @@
     {
       "pregunta": "¿Qué efecto tiene la recepción de la obra?",
       "opciones": [
-        "Cancela la garantía",
-        "Anula el contrato",
-        "Suspende el pago",
+        "Inicia el plazo de garantía, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Inicia el plazo de garantía, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Inicia el plazo de garantía, computándose los plazos en días naturales y con sentido desestimatorio",
         "Inicia el plazo de garantía"
       ],
       "correcta": 3,
@@ -508,9 +496,9 @@
       "pregunta": "¿Qué causa de extinción permite el acuerdo mutuo de las partes?",
       "opciones": [
         "Mutuo acuerdo",
-        "Decisión unilateral del vecino",
-        "Sorteo",
-        "Imposición de una multa de tráfico"
+        "Mutuo acuerdo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Mutuo acuerdo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Mutuo acuerdo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las partes pueden extinguir el contrato de mutuo acuerdo.",
@@ -531,10 +519,10 @@
     {
       "pregunta": "¿Qué es la resolución del contrato?",
       "opciones": [
-        "Prórroga automática",
-        "Adjudicación definitiva",
+        "Extinción anticipada del contrato por causa legal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Extinción anticipada del contrato por causa legal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Extinción anticipada del contrato por causa legal",
-        "Recepción parcial"
+        "Extinción anticipada del contrato por causa legal, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La resolución extingue el contrato antes de su término por las causas legales.",
@@ -567,10 +555,10 @@
     {
       "pregunta": "Dentro de la materia «La suspensión y extinción de los contratos de obra. Suspensión de los contratos de obra. Cumplimiento del contrato de obras: Recepción y plazo de garantía, responsabilidad por vicios ocultos. Resolución del contrato de obras: Causas y efectos de la resolución. La extinción de los contratos de obras: Acta de recepción, recepciones parciales, medición general y certificación final de las obras. Obligaciones del contratista durante el plazo de garantía. Ocupación o puesta en servicio de las obras sin recepción formal. Liquidación en el contrato de obras. Suspensión definitiva de las obras. Desistimiento y suspensión de las obras. Resolución del contrato cuando las obras hayan de ser continuadas. Incorporación de obras al inventario general de bienes y derechos.» (Recepción y plazo de garantía), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Si es favorable, se devuelve la garantía y se liquida en sesenta días (art. 243.3 LCSP).»?",
       "opciones": [
-        "La primera.",
+        "El informe del director, diez días hábiles antes del fin del plazo",
         "El informe del director, quince días antes del fin del plazo.",
-        "El artículo 208 LCSP.",
-        "Respuesta."
+        "El informe del director, cuarenta y cinco días naturales hábiles naturales antes del fin del plazo",
+        "El informe del director, quince días naturales naturales antes del fin del plazo"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Si es favorable, se devuelve la garantía y se liquida en sesenta días (art. 243.3 LCSP).») define o regula específicamente a «El informe del director, quince días antes del fin del plazo» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -591,9 +579,9 @@
     {
       "pregunta": "Dentro de la materia «La suspensión y extinción de los contratos de obra. Suspensión de los contratos de obra. Cumplimiento del contrato de obras: Recepción y plazo de garantía, responsabilidad por vicios ocultos. Resolución del contrato de obras: Causas y efectos de la resolución. La extinción de los contratos de obras: Acta de recepción, recepciones parciales, medición general y certificación final de las obras. Obligaciones del contratista durante el plazo de garantía. Ocupación o puesta en servicio de las obras sin recepción formal. Liquidación en el contrato de obras. Suspensión definitiva de las obras. Desistimiento y suspensión de las obras. Resolución del contrato cuando las obras hayan de ser continuadas. Incorporación de obras al inventario general de bienes y derechos.» (Desistimiento y suspensión prolongada), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «3 por ciento del precio de adjudicación (art. 246.3 LCSP).»?",
       "opciones": [
-        "La segunda.",
-        "El temario de este tema recorre esas tres vías.",
-        "Si la demora en el pago.",
+        "Antes de iniciar las obras, o con suspensión de la iniciación de más de cuatro meses, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Antes de iniciar las obras, o con suspensión de la iniciación de más de cuatro meses, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Antes de iniciar las obras, o con suspensión de la iniciación de más de cuatro meses, computándose los plazos en días naturales y con sentido desestimatorio",
         "Antes de iniciar las obras, o con suspensión de la iniciación de más de cuatro meses."
       ],
       "correcta": 3,
@@ -639,9 +627,9 @@
     {
       "pregunta": "Dentro de la materia «La suspensión y extinción de los contratos de obra. Suspensión de los contratos de obra. Cumplimiento del contrato de obras: Recepción y plazo de garantía, responsabilidad por vicios ocultos. Resolución del contrato de obras: Causas y efectos de la resolución. La extinción de los contratos de obras: Acta de recepción, recepciones parciales, medición general y certificación final de las obras. Obligaciones del contratista durante el plazo de garantía. Ocupación o puesta en servicio de las obras sin recepción formal. Liquidación en el contrato de obras. Suspensión definitiva de las obras. Desistimiento y suspensión de las obras. Resolución del contrato cuando las obras hayan de ser continuadas. Incorporación de obras al inventario general de bienes y derechos.» (Suspensión y extinción: el marco general), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el cumplimiento, cuando el contratista ha realizado la obra a satisfacción de la Administración.»?",
       "opciones": [
-        "El artículo 208 LCSP.",
-        "Respuesta.",
-        "El cumplimiento.",
+        "La primera, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La primera, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La primera, computándose los plazos en días naturales y con sentido desestimatorio",
         "La primera."
       ],
       "correcta": 3,
@@ -711,10 +699,10 @@
     {
       "pregunta": "Dentro de la materia «La suspensión y extinción de los contratos de obra. Suspensión de los contratos de obra. Cumplimiento del contrato de obras: Recepción y plazo de garantía, responsabilidad por vicios ocultos. Resolución del contrato de obras: Causas y efectos de la resolución. La extinción de los contratos de obras: Acta de recepción, recepciones parciales, medición general y certificación final de las obras. Obligaciones del contratista durante el plazo de garantía. Ocupación o puesta en servicio de las obras sin recepción formal. Liquidación en el contrato de obras. Suspensión definitiva de las obras. Desistimiento y suspensión de las obras. Resolución del contrato cuando las obras hayan de ser continuadas. Incorporación de obras al inventario general de bienes y derechos.» (Suspensión y extinción: el marco general), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la suspensión de los contratos, y los artículos 198.5 y 198.6 regulan la suspensión por demora en el pago.»?",
       "opciones": [
-        "Respuesta.",
+        "El artículo 208 LCSP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El artículo 208 LCSP.",
-        "El cumplimiento.",
-        "Son dos requisitos."
+        "El artículo 208 LCSP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El artículo 208 LCSP, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Regula la suspensión de los contratos, y los artículos 198.5 y 198.6 regulan la suspensión por demora en el pago.») define o regula específicamente a «El artículo 208 LCSP» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -735,9 +723,9 @@
     {
       "pregunta": "Dentro de la materia «La suspensión y extinción de los contratos de obra. Suspensión de los contratos de obra. Cumplimiento del contrato de obras: Recepción y plazo de garantía, responsabilidad por vicios ocultos. Resolución del contrato de obras: Causas y efectos de la resolución. La extinción de los contratos de obras: Acta de recepción, recepciones parciales, medición general y certificación final de las obras. Obligaciones del contratista durante el plazo de garantía. Ocupación o puesta en servicio de las obras sin recepción formal. Liquidación en el contrato de obras. Suspensión definitiva de las obras. Desistimiento y suspensión de las obras. Resolución del contrato cuando las obras hayan de ser continuadas. Incorporación de obras al inventario general de bienes y derechos.» (Suspensión y extinción: el marco general), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La suspensión, el cumplimiento con recepción y garantía, y la resolución con sus efectos, incluidos los desistimientos y la liquidación.»?",
       "opciones": [
-        "Si la demora en el pago.",
-        "Para un examen, la secuencia es.",
-        "Si el informe no.",
+        "El temario de este tema recorre esas tres vías, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El temario de este tema recorre esas tres vías, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El temario de este tema recorre esas tres vías, computándose los plazos en días naturales y con sentido desestimatorio",
         "El temario de este tema recorre esas tres vías."
       ],
       "correcta": 3,
@@ -759,10 +747,10 @@
     {
       "pregunta": "Dentro de la materia «La suspensión y extinción de los contratos de obra. Suspensión de los contratos de obra. Cumplimiento del contrato de obras: Recepción y plazo de garantía, responsabilidad por vicios ocultos. Resolución del contrato de obras: Causas y efectos de la resolución. La extinción de los contratos de obras: Acta de recepción, recepciones parciales, medición general y certificación final de las obras. Obligaciones del contratista durante el plazo de garantía. Ocupación o puesta en servicio de las obras sin recepción formal. Liquidación en el contrato de obras. Suspensión definitiva de las obras. Desistimiento y suspensión de las obras. Resolución del contrato cuando las obras hayan de ser continuadas. Incorporación de obras al inventario general de bienes y derechos.» (La suspensión de los contratos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es gratuita para la Administración, y que el contratista tiene derecho a ser compensado en la medida en que el perjuicio esté acreditado.»?",
       "opciones": [
-        "Para un examen, la diferencia es clara.",
+        "Esto significa que la suspensión no, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Esto significa que la suspensión no.",
-        "La recepción parcial.",
-        "Son, entre otras."
+        "Esto significa que la suspensión no, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Esto significa que la suspensión no, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es gratuita para la Administración, y que el contratista tiene derecho a ser compensado en la medida en que el perjuicio esté acreditado.») define o regula específicamente a «Esto significa que la suspensión no» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -783,13 +771,25 @@
     {
       "pregunta": "Dentro de la materia «La suspensión y extinción de los contratos de obra. Suspensión de los contratos de obra. Cumplimiento del contrato de obras: Recepción y plazo de garantía, responsabilidad por vicios ocultos. Resolución del contrato de obras: Causas y efectos de la resolución. La extinción de los contratos de obras: Acta de recepción, recepciones parciales, medición general y certificación final de las obras. Obligaciones del contratista durante el plazo de garantía. Ocupación o puesta en servicio de las obras sin recepción formal. Liquidación en el contrato de obras. Suspensión definitiva de las obras. Desistimiento y suspensión de las obras. Resolución del contrato cuando las obras hayan de ser continuadas. Incorporación de obras al inventario general de bienes y derechos.» (La suspensión de los contratos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sí, por los daños efectivamente sufridos, según las reglas del artículo 208.2 LCSP.»?",
       "opciones": [
-        "El cumplimiento.",
-        "Son dos requisitos.",
-        "El artículo 245 LCSP añade las causas propias de las obras.",
+        "Respuesta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Respuesta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Respuesta, computándose los plazos en días naturales y con sentido desestimatorio",
         "Respuesta."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Sí, por los daños efectivamente sufridos, según las reglas del artículo 208.2 LCSP.») define o regula específicamente a «Respuesta» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Suspensión y extinción: el marco general» (La suspensión y extinción de los contratos de obra. Suspensión de los contratos de obra. Cumplimiento del contrato de obras: Recepción y plazo de garantía, responsabilidad por vicios ocultos. Resolución del contrato de obras: Causas y efectos de la resolución. La extinción de los contratos de obras: Acta de recepción, recepciones parciales, medición general y certificación final de las obras. Obligaciones del contratista durante el plazo de garantía. Ocupación o puesta en servicio de las obras sin recepción formal. Liquidación en el contrato de obras. Suspensión definitiva de las obras. Desistimiento y suspensión de las obras. Resolución del contrato cuando las obras hayan de ser continuadas. Incorporación de obras al inventario general de bienes y derechos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Es la resolución, acordada conforme a la ley por una de las causas previstas.»?",
+      "opciones": [
+        "La segunda.",
+        "El artículo 208 LCSP.",
+        "Esto significa que la suspensión no.",
+        "Si la demora en el pago."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha regulación («Es la resolución, acordada conforme a la ley por una de las causas previstas.») define o regula específicamente a «La segunda» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
       "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     }
   ]

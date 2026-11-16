@@ -3,9 +3,9 @@
     "pregunta": "¿A qué edad se declara con carácter general la jubilación forzosa del funcionario?",
     "opciones": [
       "A los sesenta y cinco años",
-      "A los sesenta años",
-      "A los setenta y cinco años",
-      "No existe"
+      "A los sesenta y cinco años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "A los sesenta y cinco años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "A los sesenta y cinco años, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "La jubilación forzosa se declara de oficio al cumplir los sesenta y cinco años.",
@@ -26,9 +26,9 @@
   {
     "pregunta": "¿Cuánto puede durar como máximo la excedencia por cuidado de cada hijo?",
     "opciones": [
-      "Seis meses",
-      "Diez años",
-      "Un mes",
+      "Hasta dos años improrrogables",
+      "Hasta dos años desde la notificación de la resolución prorrogables por un año adicional",
+      "Hasta un año prorrogable hasta un máximo de dieciocho meses",
       "Hasta tres años"
     ],
     "correcta": 3,
@@ -39,9 +39,9 @@
     "pregunta": "¿Cuánto puede durar como máximo la suspensión firme de funciones?",
     "opciones": [
       "Seis años",
-      "Un año",
-      "Diez años",
-      "Indefinidamente"
+      "Seis años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Seis años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Seis años, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "La suspensión firme no puede exceder de seis años.",
@@ -74,9 +74,9 @@
   {
     "pregunta": "¿Cuántos días de permiso corresponden por matrimonio o pareja de hecho?",
     "opciones": [
-      "Tres días",
-      "Un mes",
-      "Siete días",
+      "diez días hábiles",
+      "cuarenta y cinco días naturales hábiles naturales",
+      "quince días naturales naturales",
       "Quince días"
     ],
     "correcta": 3,
@@ -86,9 +86,9 @@
   {
     "pregunta": "¿Cuántos días de vacaciones retribuidas anuales tienen los funcionarios?",
     "opciones": [
-      "Quince días naturales",
-      "Treinta días hábiles",
-      "Diez días",
+      "Veintidós días hábiles como mínimo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Veintidós días hábiles como mínimo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Veintidós días hábiles como mínimo, computándose los plazos en días naturales y con sentido desestimatorio",
       "Veintidós días hábiles como mínimo"
     ],
     "correcta": 3,
@@ -98,10 +98,10 @@
   {
     "pregunta": "¿En qué plazo debe ejecutarse la oferta de empleo público?",
     "opciones": [
-      "En diez años",
-      "En un mes",
+      "En el plazo improrrogable de dos años improrrogables",
+      "En el plazo improrrogable de dos años desde la notificación de la resolución prorrogables por un año adicional",
       "En el plazo improrrogable de tres años",
-      "Sin plazo"
+      "En el plazo improrrogable de un año prorrogable hasta un máximo de dieciocho meses"
     ],
     "correcta": 2,
     "explicacion": "La ejecución de la oferta de empleo público debe desarrollarse dentro del plazo improrrogable de tres años.",

@@ -14,9 +14,9 @@
   {
     "pregunta": "¿Qué presión mínima deben tener los fluxores y calentadores?",
     "opciones": [
-      "100 kPa",
-      "50 kPa",
-      "500 kPa",
+      "150 kPa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "150 kPa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "150 kPa, computándose los plazos en días naturales y con sentido desestimatorio",
       "150 kPa"
     ],
     "correcta": 3,
@@ -27,9 +27,9 @@
     "pregunta": "¿Qué presión no debe superarse en ningún punto de consumo?",
     "opciones": [
       "500 kPa",
-      "100 kPa",
-      "1.500 kPa",
-      "50 kPa"
+      "500 kPa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "500 kPa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "500 kPa, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "La presión en cualquier punto de consumo no debe superar 500 kPa.",
@@ -74,10 +74,10 @@
   {
     "pregunta": "¿Qué sistemas deben disponerse para evitar la inversión del sentido del flujo en la instalación de agua?",
     "opciones": [
-      "Sifones",
-      "Rebosaderos",
+      "Sistemas antirretorno, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Sistemas antirretorno, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Sistemas antirretorno",
-      "Separadores de grasas"
+      "Sistemas antirretorno, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Se disponen sistemas antirretorno para evitar la inversión del sentido del flujo.",
@@ -98,10 +98,10 @@
   {
     "pregunta": "¿Qué gas combustible es más denso que el aire y se acumula en zonas bajas?",
     "opciones": [
-      "El gas natural",
-      "El hidrógeno",
+      "El gas licuado del petróleo (propano o butano), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El gas licuado del petróleo (propano o butano), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "El gas licuado del petróleo (propano o butano)",
-      "El helio"
+      "El gas licuado del petróleo (propano o butano), computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El GLP es más pesado que el aire, por lo que se acumula en zonas bajas.",
@@ -111,9 +111,9 @@
     "pregunta": "¿Qué dispositivo corta el gas en un aparato si se apaga la llama?",
     "opciones": [
       "El dispositivo de seguridad por termopar",
-      "El contador",
-      "El regulador de presión doméstico",
-      "La llave de paso general"
+      "El dispositivo de seguridad por termopar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El dispositivo de seguridad por termopar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El dispositivo de seguridad por termopar, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El termopar detecta la ausencia de llama y cierra el paso de gas.",
@@ -266,10 +266,10 @@
   {
     "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Dimensionado de las redes de distribución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un procedimiento en varios pasos.»?",
     "opciones": [
-      "El DB-HS 4.",
-      "Los riesgos del gas.",
+      "El dimensionado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El dimensionado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "El dimensionado.",
-      "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)."
+      "El dimensionado, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Dicha determinación («Es un procedimiento en varios pasos.») define o regula específicamente a «El dimensionado» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",

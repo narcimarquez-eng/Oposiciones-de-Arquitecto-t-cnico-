@@ -3,9 +3,9 @@
     "pregunta": "¿Qué superficie construida máxima puede tener un sector de incendio de uso Residencial Vivienda?",
     "opciones": [
       "2.500 m²",
-      "500 m²",
-      "10.000 m²",
-      "1.000 m²"
+      "2.500 m², previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "2.500 m², salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "2.500 m², computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "En Residencial Vivienda la superficie construida de todo sector de incendio no debe exceder de 2.500 m².",
@@ -14,10 +14,10 @@
   {
     "pregunta": "¿Qué resistencia al fuego deben tener como mínimo los elementos que separan viviendas entre sí?",
     "opciones": [
-      "EI 15",
-      "EI 240",
+      "EI 60, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "EI 60, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "EI 60",
-      "Ninguna"
+      "EI 60, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Los elementos que separan viviendas entre sí deben ser al menos EI 60.",
@@ -51,9 +51,9 @@
     "pregunta": "¿Qué anchura mínima deben tener los pasillos y rampas de evacuación?",
     "opciones": [
       "A ≥ P/200 y nunca menos de 1,00 m",
-      "0,60 m",
-      "A ≥ P/600",
-      "2,50 m"
+      "A ≥ P/200 y nunca menos de 1,00 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "A ≥ P/200 y nunca menos de 1,00 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "A ≥ P/200 y nunca menos de 1,00 m, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Los pasillos y rampas se dimensionan con A ≥ P/200 ≥ 1,00 m.",
@@ -62,9 +62,9 @@
   {
     "pregunta": "¿A partir de qué altura de evacuación se exige columna seca en Residencial Vivienda?",
     "opciones": [
-      "Más de 6 m",
-      "Más de 100 m",
-      "Siempre",
+      "Más de 24 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Más de 24 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Más de 24 m, computándose los plazos en días naturales y con sentido desestimatorio",
       "Más de 24 m"
     ],
     "correcta": 3,
@@ -74,10 +74,10 @@
   {
     "pregunta": "¿Cuándo se exigen hidrantes exteriores con carácter general?",
     "opciones": [
-      "Solo en viviendas unifamiliares",
-      "Nunca",
+      "Si la altura de evacuación descendente excede de 28 m o la ascendente de 6 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Si la altura de evacuación descendente excede de 28 m o la ascendente de 6 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Si la altura de evacuación descendente excede de 28 m o la ascendente de 6 m",
-      "En todos los edificios de una planta"
+      "Si la altura de evacuación descendente excede de 28 m o la ascendente de 6 m, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La tabla 1.1 del DB-SI 4 exige hidrantes exteriores en esos casos, entre otros.",
@@ -86,9 +86,9 @@
   {
     "pregunta": "¿Hasta qué altura deben tener los materiales de fachada una reacción al fuego B-s3,d0 como mínimo?",
     "opciones": [
-      "1 m",
-      "10 m",
-      "Toda la altura del edificio",
+      "3,5 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "3,5 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "3,5 m, computándose los plazos en días naturales y con sentido desestimatorio",
       "3,5 m"
     ],
     "correcta": 3,
@@ -98,10 +98,10 @@
   {
     "pregunta": "¿Qué franja de la medianería debe ser REI 60 junto al edificio colindante?",
     "opciones": [
-      "Una franja de 5 m",
-      "Toda la cubierta",
+      "Una franja de 0,50 m medida desde el edificio colindante, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Una franja de 0,50 m medida desde el edificio colindante, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Una franja de 0,50 m medida desde el edificio colindante",
-      "Ninguna"
+      "Una franja de 0,50 m medida desde el edificio colindante, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La cubierta tendrá REI 60 en una franja de 0,50 m medida desde el edificio colindante.",
@@ -110,10 +110,10 @@
   {
     "pregunta": "¿Cuándo se exigen al menos dos salidas de planta por la evacuación ascendente?",
     "opciones": [
-      "Siempre que haya ascensor",
-      "Cuando hay menos de 10 personas",
+      "Cuando más de 50 personas precisan salvar en sentido ascendente una altura de evacuación mayor que 2 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Cuando más de 50 personas precisan salvar en sentido ascendente una altura de evacuación mayor que 2 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Cuando más de 50 personas precisan salvar en sentido ascendente una altura de evacuación mayor que 2 m",
-      "Nunca"
+      "Cuando más de 50 personas precisan salvar en sentido ascendente una altura de evacuación mayor que 2 m, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El DB-SI 3 exige más de una salida de planta en esa situación.",
@@ -170,10 +170,10 @@
   {
     "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Intervención de los bomberos: acceso y entorno), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «23 m en edificios de hasta 15 m, 18 m entre 15 y 20 m, y 10 m por encima de 20 m.»?",
     "opciones": [
-      "Las obligaciones del CTE en el uso y el mantenimiento completan este régimen.",
-      "El tercero.",
+      "La separación máxima del vehículo a la fachada depende de la altura, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La separación máxima del vehículo a la fachada depende de la altura, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "La separación máxima del vehículo a la fachada depende de la altura.",
-      "Proyecto (art. 4 Ley de Ordenación de la Edificación)."
+      "La separación máxima del vehículo a la fachada depende de la altura, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Dicha determinación («23 m en edificios de hasta 15 m, 18 m entre 15 y 20 m, y 10 m por encima de 20 m.») define o regula específicamente a «La separación máxima del vehículo a la fachada depende de la altura» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -195,9 +195,9 @@
     "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Intervención de los bomberos: acceso y entorno), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es de 30 m, la pendiente máxima del 10 % y la resistencia al punzonamiento del suelo de 100 kN sobre 20 cm (SI 5, apartado 1.2, punto 1, letras a a f).»?",
     "opciones": [
       "La distancia máxima hasta los accesos del edificio.",
-      "El primero.",
-      "Objeto (art. 1 Ley de Ordenación de la Edificación).",
-      "Recepción de la obra (art. 6 Ley de Ordenación de la Edificación)."
+      "La distancia máxima hasta los accesos del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La distancia máxima hasta los accesos del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La distancia máxima hasta los accesos del edificio, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Dicha determinación («Es de 30 m, la pendiente máxima del 10 % y la resistencia al punzonamiento del suelo de 100 kN sobre 20 cm (SI 5, apartado 1.2, punto 1, letras a a f).») define o regula específicamente a «La distancia máxima hasta los accesos del edificio» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -218,10 +218,10 @@
   {
     "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (7 bis. Exigencias durante la ejecución de la obra), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el paso de instalaciones por los elementos de compartimentación: cada paso debe quedar sellado con un material que mantenga la resistencia del elemento.»?",
     "opciones": [
-      "El segundo.",
-      "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación).",
+      "Una comprobación de obra habitual, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Una comprobación de obra habitual, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Una comprobación de obra habitual.",
-      "Documentación de la obra ejecutada (art. 7 Ley de Ordenación de la Edificación)."
+      "Una comprobación de obra habitual, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Dicha determinación («Es el paso de instalaciones por los elementos de compartimentación: cada paso debe quedar sellado con un material que mantenga la resistencia del elemento.») define o regula específicamente a «Una comprobación de obra habitual» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -243,9 +243,9 @@
     "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Inspección, mantenimiento y régimen sancionador), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El edificio debe conservarse en condiciones de seguridad, y las instalaciones deben mantenerse conforme a las instrucciones del libro del edificio (CTE, art. 8.2).»?",
     "opciones": [
       "Las obligaciones del CTE en el uso y el mantenimiento completan este régimen.",
-      "El tercero.",
-      "Proyecto (art. 4 Ley de Ordenación de la Edificación).",
-      "Concepto (art. 8 Ley de Ordenación de la Edificación)."
+      "Las obligaciones del CTE en el uso y el mantenimiento completan este régimen, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Las obligaciones del CTE en el uso y el mantenimiento completan este régimen, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Las obligaciones del CTE en el uso y el mantenimiento completan este régimen, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Dicha determinación («El edificio debe conservarse en condiciones de seguridad, y las instalaciones deben mantenerse conforme a las instrucciones del libro del edificio (CTE, art. 8.2).») define o regula específicamente a «Las obligaciones del CTE en el uso y el mantenimiento completan este régimen» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",

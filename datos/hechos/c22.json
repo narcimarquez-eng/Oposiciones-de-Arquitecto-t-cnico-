@@ -3,9 +3,9 @@
     "pregunta": "¿Qué memoria de solo lectura contiene el firmware de arranque?",
     "opciones": [
       "La ROM",
-      "La RAM",
-      "La caché L1",
-      "El disco SSD"
+      "La ROM, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La ROM, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La ROM, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "La ROM es memoria de solo lectura que conserva el firmware.",
@@ -14,9 +14,9 @@
   {
     "pregunta": "¿Qué memoria de alta velocidad se sitúa entre la CPU y la RAM?",
     "opciones": [
-      "El disco duro",
-      "La memoria virtual",
-      "La ROM",
+      "La memoria caché, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La memoria caché, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La memoria caché, computándose los plazos en días naturales y con sentido desestimatorio",
       "La memoria caché"
     ],
     "correcta": 3,
@@ -26,9 +26,9 @@
   {
     "pregunta": "¿Qué dispositivo de almacenamiento no tiene partes móviles?",
     "opciones": [
-      "El disco duro magnético",
-      "La cinta magnética",
-      "El disquete",
+      "El disco de estado sólido (SSD), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El disco de estado sólido (SSD), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El disco de estado sólido (SSD), computándose los plazos en días naturales y con sentido desestimatorio",
       "El disco de estado sólido (SSD)"
     ],
     "correcta": 3,
@@ -38,10 +38,10 @@
   {
     "pregunta": "¿Qué red cubre un área reducida, como un edificio?",
     "opciones": [
-      "Una WAN",
+      "Una red de área local (LAN), previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Una red de área local (LAN)",
-      "Una red troncal intercontinental",
-      "Una red satelital global"
+      "Una red de área local (LAN), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Una red de área local (LAN), computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "La LAN conecta equipos en un área limitada.",
@@ -51,9 +51,9 @@
     "pregunta": "¿Qué dispositivo interconecta redes distintas y encamina paquetes?",
     "opciones": [
       "El router o encaminador",
-      "El monitor",
-      "El teclado",
-      "El escáner"
+      "El router o encaminador, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El router o encaminador, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El router o encaminador, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El router encamina paquetes entre redes diferentes.",
@@ -75,9 +75,9 @@
     "pregunta": "¿Qué sistema de numeración usa los dígitos 0 a 9 y las letras A a F?",
     "opciones": [
       "Hexadecimal",
-      "Binario",
-      "Octal",
-      "Decimal"
+      "Hexadecimal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Hexadecimal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Hexadecimal, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El sistema hexadecimal es de base 16.",
@@ -86,9 +86,9 @@
   {
     "pregunta": "¿Qué tecnología permite ejecutar varios sistemas operativos en una misma máquina física?",
     "opciones": [
-      "La compresión",
-      "La desfragmentación",
-      "El cifrado",
+      "La virtualización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La virtualización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La virtualización, computándose los plazos en días naturales y con sentido desestimatorio",
       "La virtualización"
     ],
     "correcta": 3,
@@ -98,10 +98,10 @@
   {
     "pregunta": "¿Qué tipo de software se distribuye con libertad para usarlo, estudiarlo, modificarlo y redistribuirlo?",
     "opciones": [
-      "Software propietario",
+      "Software libre, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Software libre",
-      "Shareware con licencia cerrada",
-      "Firmware"
+      "Software libre, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Software libre, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El software libre garantiza esas libertades a los usuarios.",

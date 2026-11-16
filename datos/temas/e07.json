@@ -101,9 +101,9 @@
     {
       "pregunta": "Según el DB-HS 1, tabla 2.10, ¿cuál es la pendiente mínima de una teja curva?",
       "opciones": [
-        "60 %",
-        "10 %",
-        "25 %",
+        "32 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "32 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "32 %, computándose los plazos en días naturales y con sentido desestimatorio",
         "32 %"
       ],
       "correcta": 3,
@@ -113,10 +113,10 @@
     {
       "pregunta": "Según el DB-HS 1, apartado 2.4.2, punto 1, letra f, ¿cuándo es obligatoria una capa de impermeabilización en una cubierta inclinada?",
       "opciones": [
-        "Nunca",
+        "Cuando el sistema de formación de pendientes no tiene la pendiente exigida en la tabla 2.10 o el solape de las piezas es insuficiente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Cuando el sistema de formación de pendientes no tiene la pendiente exigida en la tabla 2.10 o el solape de las piezas es insuficiente",
-        "Siempre que la cubierta tenga más de 10 años",
-        "Solo si hay nieve"
+        "Cuando el sistema de formación de pendientes no tiene la pendiente exigida en la tabla 2.10 o el solape de las piezas es insuficiente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cuando el sistema de formación de pendientes no tiene la pendiente exigida en la tabla 2.10 o el solape de las piezas es insuficiente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Se exige una capa de impermeabilización cuando la cubierta es plana o cuando es inclinada y el sistema de formación de pendientes no tiene la pendiente de la tabla 2.10 o el solape de las piezas de protección es insuficiente.",
@@ -126,9 +126,9 @@
       "pregunta": "Según el DB-SE-AE, apartado 3.5.1, punto 1, ¿qué carga de nieve puede considerarse en cubiertas planas de edificios de pisos situados por debajo de 1.000 m de altitud?",
       "opciones": [
         "1,0 kN/m²",
-        "3,0 kN/m²",
-        "No hay carga de nieve",
-        "0,5 kN/m²"
+        "1,0 kN/m², previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "1,0 kN/m², salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "1,0 kN/m², computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "En esas condiciones basta considerar una carga de nieve de 1,0 kN/m².",
@@ -137,10 +137,10 @@
     {
       "pregunta": "Según el DB-SE-AE, apartado 3.5.1, punto 3, ¿en cuánto puede reducirse la carga de nieve cuando la construcción está protegida del viento?",
       "opciones": [
-        "Un 5 %",
-        "Un 10 %",
+        "Un 20 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un 20 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Un 20 %",
-        "Un 50 %"
+        "Un 20 %, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Cuando la construcción está protegida de la acción del viento, la carga de nieve puede reducirse en un 20 %.",
@@ -149,9 +149,9 @@
     {
       "pregunta": "Según el DB-HS 5, apartado 7, punto 3, ¿con qué periodicidad se limpian los sumideros de cubiertas no transitables?",
       "opciones": [
-        "Cada diez años",
-        "Cada quince días",
-        "Nunca",
+        "Al menos una vez al año, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Al menos una vez al año, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Al menos una vez al año, computándose los plazos en días naturales y con sentido desestimatorio",
         "Al menos una vez al año"
       ],
       "correcta": 3,
@@ -161,10 +161,10 @@
     {
       "pregunta": "Según el DB-HS 5, tabla 4.6, ¿cuántos sumideros se disponen en una cubierta de 80 m² de proyección horizontal?",
       "opciones": [
-        "Uno",
+        "Dos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Dos",
-        "Tres",
-        "Cuatro"
+        "Dos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Dos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Para superficies menores de 100 m² se disponen dos sumideros, según la tabla 4.6.",
@@ -186,9 +186,9 @@
       "pregunta": "Según el art. 17.1.a de la LOE, ¿durante cuánto tiempo responden los agentes de los daños materiales por defectos que afecten a la estructura de la cubierta y comprometan su estabilidad?",
       "opciones": [
         "Diez años",
-        "Veinte años",
-        "Un año",
-        "Tres años"
+        "Diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Diez años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El art. 17.1.a LOE fija diez años para los daños materiales causados por vicios o defectos que afecten a los elementos estructurales, entre ellos los que comprometen la estabilidad del edificio.",
@@ -221,10 +221,10 @@
     {
       "pregunta": "¿Cómo debe ser el grado de impermeabilidad de la cubierta frente a la humedad?",
       "opciones": [
-        "Variable según la hora",
+        "Único, independiente de los factores climáticos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Único, independiente de los factores climáticos",
-        "Nulo",
-        "Solo en invierno"
+        "Único, independiente de los factores climáticos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Único, independiente de los factores climáticos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La protección frente a la humedad exige un grado de impermeabilidad único, independiente de factores climáticos.",
@@ -233,9 +233,9 @@
     {
       "pregunta": "¿Qué se evalúa como seguridad de utilización en la cubierta?",
       "opciones": [
-        "El color de la teja",
-        "El precio",
-        "El número de antenas",
+        "El riesgo de caídas en el uso previsto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El riesgo de caídas en el uso previsto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El riesgo de caídas en el uso previsto, computándose los plazos en días naturales y con sentido desestimatorio",
         "El riesgo de caídas en el uso previsto"
       ],
       "correcta": 3,
@@ -246,9 +246,9 @@
       "pregunta": "¿Dónde se fijan las acciones de nieve en el CTE?",
       "opciones": [
         "En el DB-SE-AE, apartado 3.5",
-        "En el DB-HS 1",
-        "En el RD 1627/1997",
-        "En la LOE"
+        "En el DB-SE-AE, apartado 3.5, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "En el DB-SE-AE, apartado 3.5, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "En el DB-SE-AE, apartado 3.5, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las acciones de nieve se fijan en el DB-SE-AE, apartado 3.5.",
@@ -257,10 +257,10 @@
     {
       "pregunta": "¿Qué elemento es obligatorio en las cubiertas planas?",
       "opciones": [
-        "El tejado",
+        "La impermeabilización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La impermeabilización",
-        "La chimenea",
-        "La veleta"
+        "La impermeabilización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La impermeabilización, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La impermeabilización es obligatoria en cubierta plana.",
@@ -269,10 +269,10 @@
     {
       "pregunta": "¿Qué tipo de cubierta inclinada necesita tejado?",
       "opciones": [
-        "Ninguna",
-        "La plana transitable",
+        "La inclinada, salvo impermeabilización autoprotegida, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La inclinada, salvo impermeabilización autoprotegida, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La inclinada, salvo impermeabilización autoprotegida",
-        "La ajardinada"
+        "La inclinada, salvo impermeabilización autoprotegida, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El tejado es obligatorio en la cubierta inclinada, salvo que haya impermeabilización autoprotegida.",
@@ -281,9 +281,9 @@
     {
       "pregunta": "¿Qué capa de la cubierta debe proteger de la radiación y el tráfico?",
       "opciones": [
-        "La capa de barro",
-        "La capa de pintura",
-        "La capa de cemento sin más",
+        "La capa de protección, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La capa de protección, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La capa de protección, computándose los plazos en días naturales y con sentido desestimatorio",
         "La capa de protección"
       ],
       "correcta": 3,
@@ -305,10 +305,10 @@
     {
       "pregunta": "¿Con qué frecuencia se limpian los sumideros de cubiertas transitables?",
       "opciones": [
-        "Cada diez años",
+        "Cada tres meses prorrogables por otros tres meses",
         "Cada seis meses",
-        "Cada hora",
-        "Nunca"
+        "Cada doce meses conforme al plazo general supletorio",
+        "Cada cuatro meses contados desde la fecha de entrada en registro"
       ],
       "correcta": 1,
       "explicacion": "Los sumideros de cubiertas transitables se limpian cada seis meses.",
@@ -317,10 +317,10 @@
     {
       "pregunta": "¿Con qué frecuencia se limpian los sumideros de cubiertas no transitables?",
       "opciones": [
-        "Cada día",
-        "Cada cinco años",
+        "Al menos una vez al año, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Al menos una vez al año, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Al menos una vez al año",
-        "Nunca"
+        "Al menos una vez al año, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "En cubiertas no transitables se limpian al menos una vez al año.",
@@ -329,9 +329,9 @@
     {
       "pregunta": "¿Qué tipo de pendiente tienen las cubiertas planas transitables con grava?",
       "opciones": [
-        "Del 50 % al 100 %",
-        "Ninguna",
-        "Del 10 % al 20 %",
+        "Del 1 % al 5 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Del 1 % al 5 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Del 1 % al 5 %, computándose los plazos en días naturales y con sentido desestimatorio",
         "Del 1 % al 5 %"
       ],
       "correcta": 3,
@@ -342,9 +342,9 @@
       "pregunta": "¿Qué pendiente mínima tiene la teja curva?",
       "opciones": [
         "El 32 %",
-        "El 5 %",
-        "El 90 %",
-        "El 1 %"
+        "El 32 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El 32 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El 32 %, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La teja curva requiere una pendiente del 32 %.",
@@ -353,10 +353,10 @@
     {
       "pregunta": "¿Qué pendiente se exige a la pizarra?",
       "opciones": [
-        "El 5 %",
+        "El 60 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El 60 %",
-        "El 1 %",
-        "El 100 %"
+        "El 60 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El 60 %, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La pizarra exige una pendiente del 60 %.",
@@ -365,10 +365,10 @@
     {
       "pregunta": "¿Qué carga de nieve se considera en cubiertas planas de edificios por debajo de 1.000 m de altitud?",
       "opciones": [
-        "10 kN/m²",
-        "0,01 kN/m²",
+        "1,0 kN/m², previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "1,0 kN/m², salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "1,0 kN/m²",
-        "No hay carga"
+        "1,0 kN/m², computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Se considera 1,0 kN/m² de carga de nieve.",
@@ -377,9 +377,9 @@
     {
       "pregunta": "¿Cuál es la fórmula general de la carga de nieve?",
       "opciones": [
-        "qn = sk / 2",
-        "qn = 0",
-        "qn = μ + 10",
+        "qn = μ · sk, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "qn = μ · sk, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "qn = μ · sk, computándose los plazos en días naturales y con sentido desestimatorio",
         "qn = μ · sk"
       ],
       "correcta": 3,
@@ -390,9 +390,9 @@
       "pregunta": "¿Qué norma regula los canalones de cubierta?",
       "opciones": [
         "El DB-HS 5, tabla 4.7",
-        "El RITE",
-        "El RD 919/2006",
-        "La LOE"
+        "El DB-HS 5, tabla 4.7, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DB-HS 5, tabla 4.7, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-HS 5, tabla 4.7, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El diámetro de canalones se fija en la tabla 4.7 del DB-HS 5.",
@@ -401,10 +401,10 @@
     {
       "pregunta": "¿Qué protección tiene el trabajo en tejados según el anexo IV?",
       "opciones": [
-        "Ninguna",
+        "Protección colectiva según altura, inclinación y estado resbaladizo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Protección colectiva según altura, inclinación y estado resbaladizo",
-        "Solo gafas",
-        "Solo casco"
+        "Protección colectiva según altura, inclinación y estado resbaladizo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Protección colectiva según altura, inclinación y estado resbaladizo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "En los tejados se exige protección colectiva según altura, inclinación y estado resbaladizo.",
@@ -413,10 +413,10 @@
     {
       "pregunta": "¿Cuántos años de responsabilidad tiene la LOE por daños a la estructura de la cubierta?",
       "opciones": [
-        "Un año",
-        "Un mes",
+        "Diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Diez años",
-        "Cien años"
+        "Diez años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La LOE responde diez años por daños a la estructura.",
@@ -425,9 +425,9 @@
     {
       "pregunta": "¿Qué defecto de cubierta responde la LOE en tres años?",
       "opciones": [
-        "Los daños estructurales",
-        "La falta de color",
-        "La falta de ascensor",
+        "Las humedades por defectos de habitabilidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las humedades por defectos de habitabilidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las humedades por defectos de habitabilidad, computándose los plazos en días naturales y con sentido desestimatorio",
         "Las humedades por defectos de habitabilidad"
       ],
       "correcta": 3,
@@ -437,10 +437,10 @@
     {
       "pregunta": "¿Qué sumideros se requieren por encima de 500 m² de cubierta?",
       "opciones": [
-        "Ninguno",
-        "Uno por cada mil metros",
+        "Uno cada 150 m² adicionales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Uno cada 150 m² adicionales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Uno cada 150 m² adicionales",
-        "Dos por vivienda"
+        "Uno cada 150 m² adicionales, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Por encima de 500 m² se requiere un sumidero cada 150 m².",
@@ -450,9 +450,9 @@
       "pregunta": "¿Qué tipo de cubierta es la que tiene tejado y pendiente pronunciada?",
       "opciones": [
         "La cubierta inclinada",
-        "La cubierta plana",
-        "La cubierta ajardinada",
-        "La cubierta de cristal"
+        "La cubierta inclinada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La cubierta inclinada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La cubierta inclinada, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La cubierta inclinada o tejado tiene pendiente pronunciada.",
@@ -461,10 +461,10 @@
     {
       "pregunta": "¿Qué DB del CTE regula la impermeabilización de cubiertas?",
       "opciones": [
-        "DB-HS 3",
+        "DB-HS 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "DB-HS 1",
-        "DB-SI 1",
-        "DB-HE 1"
+        "DB-HS 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-HS 1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El DB-HS 1 regula la protección frente a la humedad, incluida la impermeabilización de cubiertas.",
@@ -485,9 +485,9 @@
     {
       "pregunta": "¿Qué capa impide el paso del agua al interior de la cubierta?",
       "opciones": [
-        "Capa de tierra vegetal",
-        "Capa de grava",
-        "Capa de arena",
+        "Impermeabilización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Impermeabilización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Impermeabilización, computándose los plazos en días naturales y con sentido desestimatorio",
         "Impermeabilización"
       ],
       "correcta": 3,
@@ -497,9 +497,9 @@
     {
       "pregunta": "¿Qué capa impide la condensación intersticial en la cubierta?",
       "opciones": [
-        "Capa de gravas",
-        "Canalón",
-        "Tejas cerámicas",
+        "Barrera de vapor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Barrera de vapor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Barrera de vapor, computándose los plazos en días naturales y con sentido desestimatorio",
         "Barrera de vapor"
       ],
       "correcta": 3,
@@ -510,9 +510,9 @@
       "pregunta": "¿Qué cubierta coloca el aislamiento sobre la impermeabilización?",
       "opciones": [
         "Cubierta invertida",
-        "Cubierta a dos aguas",
-        "Cubierta de chapa",
-        "Cubierta de teja árabe"
+        "Cubierta invertida, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cubierta invertida, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cubierta invertida, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "En la cubierta invertida el aislamiento va sobre la impermeabilización.",
@@ -521,10 +521,10 @@
     {
       "pregunta": "¿Qué elemento recoge el agua de la cubierta y la conduce a la bajante?",
       "opciones": [
-        "Solera",
+        "Canalón, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Canalón",
-        "Dintel",
-        "Zócalo"
+        "Canalón, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Canalón, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El canalón recoge el agua de la cubierta y la conduce a las bajantes.",
@@ -533,10 +533,10 @@
     {
       "pregunta": "¿Qué elemento de cubierta evacua el agua de lluvia por el interior del edificio?",
       "opciones": [
-        "Cumbrera",
-        "Alero",
+        "Sumidero o bajante interior, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sumidero o bajante interior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Sumidero o bajante interior",
-        "Peto de fachada"
+        "Sumidero o bajante interior, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "En cubiertas planas el agua se recoge en sumideros y se evacua por bajantes.",
@@ -545,9 +545,9 @@
     {
       "pregunta": "¿Qué capa aísla térmicamente la cubierta y se sitúa habitualmente bajo la impermeabilización?",
       "opciones": [
-        "Capa de rodadura",
-        "Mortero de agarre",
-        "Canto rodado",
+        "Aislamiento térmico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Aislamiento térmico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Aislamiento térmico, computándose los plazos en días naturales y con sentido desestimatorio",
         "Aislamiento térmico"
       ],
       "correcta": 3,
@@ -593,9 +593,9 @@
     {
       "pregunta": "Dentro de la materia «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Riesgo de caídas en el uso previsto (CTE, art. 12.1).»?",
       "opciones": [
-        "El tejado.",
-        "La cubierta.",
-        "La capa de impermeabilización.",
+        "Seguridad de utilización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Seguridad de utilización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Seguridad de utilización, computándose los plazos en días naturales y con sentido desestimatorio",
         "Seguridad de utilización."
       ],
       "correcta": 3,
@@ -617,10 +617,10 @@
     {
       "pregunta": "Dentro de la materia «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Componentes y capas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Pendientes, barrera de vapor, aislante, capas separadoras, impermeabilización, capa de protección y evacuación de aguas (DB-HS 1, apartado 2.4.2, punto 1, letras a a k).»?",
       "opciones": [
-        "Canalones.",
+        "Elementos exigibles, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Elementos exigibles.",
-        "El DB-HS 1.",
-        "Su continuidad es la condición básica."
+        "Elementos exigibles, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Elementos exigibles, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Pendientes, barrera de vapor, aislante, capas separadoras, impermeabilización, capa de protección y evacuación de aguas (DB-HS 1, apartado 2.4.2, punto 1, letras a a k).») define o regula específicamente a «Elementos exigibles» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -639,18 +639,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Componentes y capas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es obligatoria en cubierta plana, y en inclinada cuando la pendiente o el solape son insuficientes (letra f).»?",
-      "opciones": [
-        "Trabajos en tejados.",
-        "Ese orden no es arbitrario.",
-        "Un valor del 1 %.",
-        "La impermeabilización."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Es obligatoria en cubierta plana, y en inclinada cuando la pendiente o el solape son insuficientes (letra f).») define o regula específicamente a «La impermeabilización» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Componentes y capas), ¿qué establece la normativa respecto a «El tejado»?",
       "opciones": [
         "Es obligatorio en inclinada, salvo impermeabilización autoprotegida (letra j).",
@@ -665,10 +653,10 @@
     {
       "pregunta": "Dentro de la materia «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Componentes y capas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es obligatorio en inclinada, salvo impermeabilización autoprotegida (letra j).»?",
       "opciones": [
-        "La cubierta.",
+        "El tejado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El tejado.",
-        "La capa de impermeabilización.",
-        "La teja curva."
+        "El tejado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El tejado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es obligatorio en inclinada, salvo impermeabilización autoprotegida (letra j).») define o regula específicamente a «El tejado» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -689,9 +677,9 @@
     {
       "pregunta": "Dentro de la materia «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evacuación, mantenimiento y limpieza), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Diámetro según la tabla 4.7 para 100 mm/h.»?",
       "opciones": [
-        "El DB-HS 1.",
-        "Su continuidad es la condición básica.",
-        "Por eso el tejado y la impermeabilización no son alternativas excluyentes.",
+        "Canalones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Canalones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Canalones, computándose los plazos en días naturales y con sentido desestimatorio",
         "Canalones."
       ],
       "correcta": 3,
@@ -699,24 +687,12 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "En el ámbito de «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Seguridad y responsabilidad), ¿qué establece la normativa respecto a «Trabajos en tejados»?",
-      "opciones": [
-        "Protección colectiva según altura, inclinación y estado resbaladizo.",
-        "El vapor debe quedar bajo el aislante para no condensar en la capa impermeable, y la protección debe proteger la impermeabilización de la radiación, de los ciclos térmicos y del tránsito.",
-        "Es el mínimo para garantizar la evacuación del agua sin estancamientos.",
-        "El DB-HS 1 regula el control de la ejecución y de la obra terminada en sus apartados 5.2 y 5.3, que no se han leído en detalle en este tema."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «Trabajos en tejados» (Seguridad y responsabilidad), la regulación vigente establece que: Protección colectiva según altura, inclinación y estado resbaladizo.",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "Dentro de la materia «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Seguridad y responsabilidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Protección colectiva según altura, inclinación y estado resbaladizo.»?",
       "opciones": [
-        "Ese orden no es arbitrario.",
+        "Trabajos en tejados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Trabajos en tejados.",
-        "Un valor del 1 %.",
-        "Para la cubierta, la prueba de estanqueidad es la más relevante."
+        "Trabajos en tejados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Trabajos en tejados, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Protección colectiva según altura, inclinación y estado resbaladizo.») define o regula específicamente a «Trabajos en tejados» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -737,9 +713,9 @@
     {
       "pregunta": "Dentro de la materia «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué es una cubierta y cómo se clasifica), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el cerramiento superior del edificio.»?",
       "opciones": [
-        "La capa de impermeabilización.",
-        "La teja curva.",
-        "Los puntos críticos de ejecución que la práctica señala.",
+        "La cubierta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La cubierta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La cubierta, computándose los plazos en días naturales y con sentido desestimatorio",
         "La cubierta."
       ],
       "correcta": 3,
@@ -785,13 +761,37 @@
     {
       "pregunta": "Dentro de la materia «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Componentes de la cubierta plana), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El vapor debe quedar bajo el aislante para no condensar en la capa impermeable, y la protección debe proteger la impermeabilización de la radiación, de los ciclos térmicos y del tránsito.»?",
       "opciones": [
-        "Un valor del 1 %.",
-        "Para la cubierta, la prueba de estanqueidad es la más relevante.",
-        "Cubrir una capa sin haber comprobado su continuidad.",
+        "Ese orden no es arbitrario, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Ese orden no es arbitrario, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Ese orden no es arbitrario, computándose los plazos en días naturales y con sentido desestimatorio",
         "Ese orden no es arbitrario."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («El vapor debe quedar bajo el aislante para no condensar en la capa impermeable, y la protección debe proteger la impermeabilización de la radiación, de los ciclos térmicos y del tránsito.») define o regula específicamente a «Ese orden no es arbitrario» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En relación con «La capa de impermeabilización» (Componentes de la cubierta plana), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Es la barrera principal frente al agua en la cubierta plana.",
+        "Es la barrera principal frente al agua en la cubierta plana, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Es la barrera principal frente al agua en la cubierta plana, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Es la barrera principal frente al agua en la cubierta plana, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «La capa de impermeabilización» (Componentes de la cubierta plana), la regulación vigente establece que: Es la barrera principal frente al agua en la cubierta plana.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En relación con «Su continuidad es la condición básica» (Componentes de la cubierta plana), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Cualquier discontinuidad en un encuentro, un paso o un remate es el punto por el que entra el agua, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Cualquier discontinuidad en un encuentro, un paso o un remate es el punto por el que entra el agua, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Cualquier discontinuidad en un encuentro, un paso o un remate es el punto por el que entra el agua, computándose los plazos en días naturales y con sentido desestimatorio.",
+        "Cualquier discontinuidad en un encuentro, un paso o un remate es el punto por el que entra el agua."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Su continuidad es la condición básica» (Componentes de la cubierta plana), la regulación vigente establece que: Cualquier discontinuidad en un encuentro, un paso o un remate es el punto por el que entra el agua.",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     }
   ]

@@ -14,9 +14,9 @@
   {
     "pregunta": "¿Se aplica el CTE a las intervenciones en edificios existentes?",
     "opciones": [
-      "No, nunca",
-      "Solo a los edificios públicos",
-      "Solo si el edificio tiene menos de 10 años",
+      "Sí, justificando su cumplimiento en el proyecto o memoria, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Sí, justificando su cumplimiento en el proyecto o memoria, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Sí, justificando su cumplimiento en el proyecto o memoria, computándose los plazos en días naturales y con sentido desestimatorio",
       "Sí, justificando su cumplimiento en el proyecto o memoria"
     ],
     "correcta": 3,
@@ -38,10 +38,10 @@
   {
     "pregunta": "¿Qué técnica de recalce transmite cargas a estratos más profundos mediante pilotes de pequeño diámetro?",
     "opciones": [
-      "Las zapatas corridas superficiales",
+      "Los micropilotes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Los micropilotes",
-      "Las soleras",
-      "Los tabiques"
+      "Los micropilotes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Los micropilotes, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Los micropilotes se emplean habitualmente en recalces de cimentaciones existentes.",
@@ -63,9 +63,9 @@
     "pregunta": "¿Qué técnica refuerza un pilar de hormigón aumentando su sección con hormigón y armadura nuevos?",
     "opciones": [
       "El recrecido o encamisado de hormigón",
-      "El picado del revestimiento",
-      "La impermeabilización",
-      "El desbroce"
+      "El recrecido o encamisado de hormigón, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El recrecido o encamisado de hormigón, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El recrecido o encamisado de hormigón, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El encamisado o recrecido aumenta la sección y capacidad del pilar.",
@@ -99,9 +99,9 @@
     "pregunta": "¿Qué técnica de recalce ejecuta la excavación por tramos alternos para no descalzar el muro?",
     "opciones": [
       "La ejecución por bataches",
-      "La excavación completa de una vez",
-      "El vaciado total sin apeos",
-      "La voladura"
+      "La ejecución por bataches, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La ejecución por bataches, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La ejecución por bataches, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Los bataches se excavan y hormigonan por tramos alternos.",
@@ -206,10 +206,10 @@
   {
     "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Estudios, análisis e investigaciones previas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se abre una pequeña zona del elemento para ver las armaduras, el espesor del recubrimiento, la calidad del hormigón o la sección de la madera.»?",
     "opciones": [
-      "La diagnosis de la madera.",
+      "Las catas son la investigación destructiva más habitual, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Las catas son la investigación destructiva más habitual.",
-      "Si el daño.",
-      "La supervisión de la demolición."
+      "Las catas son la investigación destructiva más habitual, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Las catas son la investigación destructiva más habitual, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Se abre una pequeña zona del elemento para ver las armaduras, el espesor del recubrimiento, la calidad del hormigón o la sección de la madera.») define o regula específicamente a «Las catas son la investigación destructiva más habitual» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
@@ -254,10 +254,10 @@
   {
     "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Diagnosis y tratamientos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el proceso que identifica el tipo de deterioro, sus mecanismos y su causa.»?",
     "opciones": [
-      "Si la causa.",
+      "La diagnosis, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "La diagnosis.",
-      "La demolición parcial de un forjado o de un muro durante la intervención.",
-      "El segundo."
+      "La diagnosis, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La diagnosis, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Es el proceso que identifica el tipo de deterioro, sus mecanismos y su causa.») define o regula específicamente a «La diagnosis» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
@@ -278,9 +278,9 @@
   {
     "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Diagnosis y tratamientos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige identificar el agente que causa el daño.»?",
     "opciones": [
-      "Si el daño.",
-      "La supervisión de la demolición.",
-      "El tercer factor.",
+      "La diagnosis de la madera, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La diagnosis de la madera, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La diagnosis de la madera, computándose los plazos en días naturales y con sentido desestimatorio",
       "La diagnosis de la madera."
     ],
     "correcta": 3,
@@ -326,9 +326,9 @@
   {
     "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Diagnosis y tratamientos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la humedad, el primer tratamiento es eliminarla, con la reparación de la fuente de humedad y la ventilación del elemento.»?",
     "opciones": [
-      "La demolición parcial de un forjado o de un muro durante la intervención.",
-      "El segundo.",
-      "El primero.",
+      "Si la causa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Si la causa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Si la causa, computándose los plazos en días naturales y con sentido desestimatorio",
       "Si la causa."
     ],
     "correcta": 3,

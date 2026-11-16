@@ -14,10 +14,10 @@
   {
     "pregunta": "¿Qué tipo de construcción corresponde a edificios de entre 4 y 10 plantas?",
     "opciones": [
-      "C-0",
+      "C-2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "C-2",
-      "C-1",
-      "C-4"
+      "C-2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "C-2, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El tipo C-2 corresponde a construcciones entre 4 y 10 plantas.",
@@ -27,9 +27,9 @@
     "pregunta": "¿Qué grupo de terreno corresponde a los terrenos favorables con poca variabilidad?",
     "opciones": [
       "T-1",
-      "T-2",
-      "T-3",
-      "T-0"
+      "T-1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "T-1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "T-1, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El grupo T-1 corresponde a terrenos favorables con poca variabilidad.",
@@ -38,9 +38,9 @@
   {
     "pregunta": "¿Qué grupo de terreno es el de los terrenos desfavorables?",
     "opciones": [
-      "T-1",
-      "T-2",
-      "T-0",
+      "T-3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "T-3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "T-3, computándose los plazos en días naturales y con sentido desestimatorio",
       "T-3"
     ],
     "correcta": 3,
@@ -62,10 +62,10 @@
   {
     "pregunta": "¿Qué tipo de zapata recoge dos o más pilares contiguos?",
     "opciones": [
-      "Zapata corrida",
-      "Losa de cimentación",
+      "Zapata combinada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Zapata combinada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Zapata combinada",
-      "Pilote"
+      "Zapata combinada, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La zapata combinada recoge dos o más pilares contiguos.",
@@ -86,10 +86,10 @@
   {
     "pregunta": "¿Cuánto debe quedar sumergido, con carácter general, el tubo de hormigonado de un pilote en el hormigón?",
     "opciones": [
-      "10 cm",
+      "Al menos 3 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Al menos 3 m",
-      "20 m",
-      "No debe sumergirse"
+      "Al menos 3 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Al menos 3 m, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "La profundidad mínima de inmersión del tubo es de tres metros, reducible a dos si se conoce con precisión el nivel del hormigón.",

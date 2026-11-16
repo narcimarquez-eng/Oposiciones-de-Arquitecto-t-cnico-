@@ -85,10 +85,10 @@
     {
       "pregunta": "Según el DB-HS 5, apartado 3.3.1.1, ¿cuál es la altura mínima del cierre hidráulico para usos continuos?",
       "opciones": [
-        "100 mm",
-        "25 mm",
+        "50 mm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "50 mm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "50 mm",
-        "70 mm"
+        "50 mm, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La altura mínima del cierre hidráulico es de 50 mm para usos continuos y de 70 mm para usos discontinuos, con un máximo de 100 mm.",
@@ -97,9 +97,9 @@
     {
       "pregunta": "Según el DB-HS 5, apartado 3.3.1.4.1, ¿cuál es la pendiente mínima de un colector colgado?",
       "opciones": [
-        "4 %",
-        "10 %",
-        "0,5 %",
+        "1 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "1 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "1 %, computándose los plazos en días naturales y con sentido desestimatorio",
         "1 %"
       ],
       "correcta": 3,
@@ -109,10 +109,10 @@
     {
       "pregunta": "Según el DB-HS 5, apartado 3.3.1.4.1, punto 2, ¿a qué distancia mínima de la bajante de residuales debe conectarse la bajante de pluviales en un sistema mixto?",
       "opciones": [
-        "A 1 m",
+        "A 3 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "A 3 m",
-        "A 10 m",
-        "A 30 cm"
+        "A 3 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "A 3 m, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La conexión de la bajante de pluviales debe separarse al menos 3 m de la conexión de la bajante de residuales situada aguas arriba.",
@@ -122,9 +122,9 @@
       "pregunta": "Según el DB-HS 5, apartado 4.2.1, punto 2, ¿cuántos sumideros se disponen en una cubierta de 150 m² de proyección horizontal?",
       "opciones": [
         "Tres",
-        "Cuatro",
-        "Uno cada 150 m²",
-        "Dos"
+        "Tres, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Tres, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Tres, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Para superficies de 100 a 200 m² se disponen tres sumideros, según la tabla 4.6.",
@@ -145,9 +145,9 @@
     {
       "pregunta": "Según el DB-HS 5, apartado 7, ¿con qué periodicidad se limpian los sumideros de locales húmedos y los botes sifónicos?",
       "opciones": [
-        "Cada diez años",
-        "Nunca",
-        "Cada cinco años",
+        "Cada tres meses prorrogables por otros tres meses",
+        "Cada doce meses conforme al plazo general supletorio",
+        "Cada cuatro meses contados desde la fecha de entrada en registro",
         "Cada seis meses"
       ],
       "correcta": 3,
@@ -157,10 +157,10 @@
     {
       "pregunta": "Según el DB-HS 5, apartado 4.1.2, ¿qué variación de presión no debe superar el dimensionado de una bajante de residuales?",
       "opciones": [
-        "25 Pa",
+        "250 Pa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "250 Pa",
-        "2.500 Pa",
-        "Ninguna"
+        "250 Pa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "250 Pa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El dimensionado de las bajantes debe hacerse para no rebasar el límite de 250 Pa de variación de presión.",
@@ -206,9 +206,9 @@
       "pregunta": "¿Cuántos criterios de diseño recoge el DB-HS 5 para el saneamiento?",
       "opciones": [
         "Seis",
-        "Dos",
-        "Diez",
-        "Ninguno"
+        "Seis, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Seis, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Seis, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Son seis criterios de diseño.",
@@ -217,10 +217,10 @@
     {
       "pregunta": "¿Qué tipo de desagüe es preferible en el saneamiento?",
       "opciones": [
-        "Por bombeo siempre",
+        "Por gravedad al pozo o arqueta general, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Por gravedad al pozo o arqueta general",
-        "Por aire",
-        "Por evaporación"
+        "Por gravedad al pozo o arqueta general, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Por gravedad al pozo o arqueta general, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El desagüe es preferentemente por gravedad al pozo o arqueta general.",
@@ -229,9 +229,9 @@
     {
       "pregunta": "¿Qué sistema se usa con una única red pública de saneamiento?",
       "opciones": [
-        "Solo separativo con dos redes",
-        "Ninguno",
-        "Solo pozo negro",
+        "Mixto o separativo con conexión final, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Mixto o separativo con conexión final, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Mixto o separativo con conexión final, computándose los plazos en días naturales y con sentido desestimatorio",
         "Mixto o separativo con conexión final"
       ],
       "correcta": 3,
@@ -242,9 +242,9 @@
       "pregunta": "¿Qué sistema se usa con dos redes públicas?",
       "opciones": [
         "Separativo",
-        "Mixto",
-        "Ninguno",
-        "Solo pozo"
+        "Separativo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Separativo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Separativo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Con dos redes, el sistema es separativo.",
@@ -253,10 +253,10 @@
     {
       "pregunta": "¿Qué se hace con las aguas residuales si no hay red pública?",
       "opciones": [
-        "Se tiran a la calle",
+        "Una estación depuradora particular, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Una estación depuradora particular",
-        "Se guardan en un bidón",
-        "Nada"
+        "Una estación depuradora particular, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una estación depuradora particular, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Sin red pública, las residuales se tratan en una estación depuradora particular.",
@@ -265,10 +265,10 @@
     {
       "pregunta": "¿Qué altura mínima tienen los cierres hidráulicos en usos continuos?",
       "opciones": [
-        "10 mm",
-        "100 mm",
+        "50 mm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "50 mm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "50 mm",
-        "200 mm"
+        "50 mm, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La altura es de 50 mm en usos continuos y 70 mm en discontinuos, con máximo de 100 mm.",
@@ -277,9 +277,9 @@
     {
       "pregunta": "¿Cuál es la pendiente mínima de los colectores colgados?",
       "opciones": [
-        "0,1 %",
-        "10 %",
-        "0 %",
+        "1 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "1 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "1 %, computándose los plazos en días naturales y con sentido desestimatorio",
         "1 %"
       ],
       "correcta": 3,
@@ -290,9 +290,9 @@
       "pregunta": "¿Qué límite de tramo recto tienen los registros de los colectores?",
       "opciones": [
         "Hasta 15 m",
-        "Hasta 150 m",
-        "Hasta 1,5 m",
-        "Sin límite"
+        "Hasta 15 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Hasta 15 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Hasta 15 m, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los registros tienen tramos rectos de hasta 15 m.",
@@ -301,10 +301,10 @@
     {
       "pregunta": "¿Cuál es la variación de presión máxima admisible en las bajantes residuales?",
       "opciones": [
-        "25 Pa",
+        "250 Pa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "250 Pa",
-        "2500 Pa",
-        "No hay límite"
+        "250 Pa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "250 Pa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La variación de presión no debe superar 250 Pa.",
@@ -313,10 +313,10 @@
     {
       "pregunta": "¿Qué ocupación máxima se permite en la sección de una bajante residual?",
       "opciones": [
-        "La mitad",
-        "Toda la sección",
+        "Un tercio de la sección, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un tercio de la sección, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Un tercio de la sección",
-        "Un décimo"
+        "Un tercio de la sección, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La ocupación no debe superar un tercio de la sección.",
@@ -325,9 +325,9 @@
     {
       "pregunta": "¿Hasta qué fracción de la sección debe funcionar un colector horizontal?",
       "opciones": [
-        "Toda la sección",
-        "Un cuarto",
-        "La mitad exacta siempre",
+        "Tres cuartos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Tres cuartos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Tres cuartos, computándose los plazos en días naturales y con sentido desestimatorio",
         "Tres cuartos"
       ],
       "correcta": 3,
@@ -338,9 +338,9 @@
       "pregunta": "¿Cuántos sumideros pluviales se necesitan hasta 100 m² de cubierta?",
       "opciones": [
         "Dos",
-        "Uno",
-        "Cuatro",
-        "Ninguno"
+        "Dos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Dos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Dos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Se necesitan dos sumideros hasta 100 m².",
@@ -349,10 +349,10 @@
     {
       "pregunta": "¿Cuántos sumideros pluviales se necesitan hasta 200 m²?",
       "opciones": [
-        "Dos",
+        "Tres, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Tres",
-        "Cuatro",
-        "Cinco"
+        "Tres, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Tres, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Hasta 200 m² se necesitan tres sumideros.",
@@ -361,10 +361,10 @@
     {
       "pregunta": "¿Qué presión y tiempo se usan en la prueba de la red horizontal?",
       "opciones": [
-        "Aire a 10 bar durante un día",
-        "Vapor durante una hora",
+        "Agua a 0,3 a 0,6 bar durante diez minutos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Agua a 0,3 a 0,6 bar durante diez minutos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Agua a 0,3 a 0,6 bar durante diez minutos",
-        "No hay prueba"
+        "Agua a 0,3 a 0,6 bar durante diez minutos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La prueba es con agua a 0,3 a 0,6 bar durante diez minutos, tramo a tramo.",
@@ -373,9 +373,9 @@
     {
       "pregunta": "¿Cuál es el cierre hidráulico mínimo tras la prueba?",
       "opciones": [
-        "2 mm",
-        "250 mm",
-        "No hay cierre",
+        "25 mm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "25 mm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "25 mm, computándose los plazos en días naturales y con sentido desestimatorio",
         "25 mm"
       ],
       "correcta": 3,
@@ -386,9 +386,9 @@
       "pregunta": "¿Cada cuánto deben revisarse los sumideros y botes sifónicos?",
       "opciones": [
         "Cada seis meses",
-        "Cada siglo",
-        "Cada cinco minutos",
-        "Nunca"
+        "Cada tres meses prorrogables por otros tres meses",
+        "Cada doce meses conforme al plazo general supletorio",
+        "Cada cuatro meses contados desde la fecha de entrada en registro"
       ],
       "correcta": 0,
       "explicacion": "Los sumideros y botes sifónicos se revisan cada seis meses.",
@@ -397,10 +397,10 @@
     {
       "pregunta": "¿Cada cuánto se revisan las arquetas de pie de bajante?",
       "opciones": [
-        "Cada mes",
+        "Cada diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Cada diez años",
-        "Cada día",
-        "Cada semana"
+        "Cada diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cada diez años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las arquetas de pie de bajante se revisan cada diez años.",
@@ -409,10 +409,10 @@
     {
       "pregunta": "¿Cómo se miden las tuberías de saneamiento?",
       "opciones": [
-        "Por kilos de agua",
-        "Por número de vecinos",
+        "Por metros lineales de tubería por diámetro y material, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Por metros lineales de tubería por diámetro y material, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Por metros lineales de tubería por diámetro y material",
-        "Por horas"
+        "Por metros lineales de tubería por diámetro y material, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La tubería se mide por metros lineales, por diámetro y material.",
@@ -421,9 +421,9 @@
     {
       "pregunta": "¿Qué regula el anexo IV del RD 1627/1997 en las zanjas?",
       "opciones": [
-        "El color de las tuberías",
-        "El sabor del agua",
-        "La marca de la retroexcavadora",
+        "Localizar cables, prevenir sepultamientos y mantener alejadas las tierras, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Localizar cables, prevenir sepultamientos y mantener alejadas las tierras, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Localizar cables, prevenir sepultamientos y mantener alejadas las tierras, computándose los plazos en días naturales y con sentido desestimatorio",
         "Localizar cables, prevenir sepultamientos y mantener alejadas las tierras"
       ],
       "correcta": 3,
@@ -433,10 +433,10 @@
     {
       "pregunta": "¿Qué se controla en la ejecución del saneamiento?",
       "opciones": [
-        "El color de la fachada",
-        "La decoración",
+        "Que se ajuste al proyecto y al art. 7.3 del CTE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Que se ajuste al proyecto y al art. 7.3 del CTE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Que se ajuste al proyecto y al art. 7.3 del CTE",
-        "La iluminación del patio"
+        "Que se ajuste al proyecto y al art. 7.3 del CTE, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El control de la ejecución sigue el proyecto y el art. 7.3 del CTE.",
@@ -446,9 +446,9 @@
       "pregunta": "¿Qué protección colectiva se exige en tejados según el anexo IV?",
       "opciones": [
         "Reglas de protección colectiva en trabajos en tejados",
-        "Ninguna",
-        "Solo gafas de sol",
-        "Solo guantes"
+        "Reglas de protección colectiva en trabajos en tejados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Reglas de protección colectiva en trabajos en tejados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Reglas de protección colectiva en trabajos en tejados, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los trabajos en tejados tienen reglas de protección colectiva en el anexo IV, apartado 12.b.",
@@ -457,10 +457,10 @@
     {
       "pregunta": "¿Qué debe evitar la ventilación de la red de saneamiento?",
       "opciones": [
-        "Que el agua suba",
+        "Que los malos olores y gases pasen a los edificios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Que los malos olores y gases pasen a los edificios",
-        "Que entre luz",
-        "Nada"
+        "Que los malos olores y gases pasen a los edificios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Que los malos olores y gases pasen a los edificios, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La ventilación de la red evita que los gases y malos olores pasen a los edificios.",
@@ -469,10 +469,10 @@
     {
       "pregunta": "¿Qué tipo de sistema permite que las aguas pluviales y residuales vayan separadas?",
       "opciones": [
-        "Sistema mixto",
-        "Sistema de pozo ciego",
+        "Sistema separativo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sistema separativo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Sistema separativo",
-        "Ninguno"
+        "Sistema separativo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El sistema separativo lleva por separado las residuales y las pluviales.",
@@ -481,9 +481,9 @@
     {
       "pregunta": "¿Qué tipo de cierre hidráulico se usa en el saneamiento?",
       "opciones": [
-        "Solo puertas",
-        "Solo ventanas",
-        "Ninguno",
+        "Sifones individuales, botes sifónicos, sumideros y arquetas sifónicas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sifones individuales, botes sifónicos, sumideros y arquetas sifónicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sifones individuales, botes sifónicos, sumideros y arquetas sifónicas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Sifones individuales, botes sifónicos, sumideros y arquetas sifónicas"
       ],
       "correcta": 3,
@@ -493,9 +493,9 @@
     {
       "pregunta": "¿Qué sistema de saneamiento recoge en la misma red las aguas pluviales y residuales?",
       "opciones": [
-        "Separativo",
-        "Fosa séptica",
-        "Pozo ciego",
+        "Unitario, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Unitario, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Unitario, computándose los plazos en días naturales y con sentido desestimatorio",
         "Unitario"
       ],
       "correcta": 3,
@@ -506,9 +506,9 @@
       "pregunta": "¿Qué documento básico del CTE regula el saneamiento?",
       "opciones": [
         "DB-HS 5",
-        "DB-HS 3",
-        "DB-SI 1",
-        "DB-SE-A"
+        "DB-HS 5, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-HS 5, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-HS 5, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El DB-HS 5 regula la evacuación de aguas.",
@@ -517,10 +517,10 @@
     {
       "pregunta": "¿Qué elemento permite el registro y el cambio de dirección de la red de saneamiento?",
       "opciones": [
-        "Bajante",
+        "Arqueta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Arqueta",
-        "Sifón",
-        "Llave de paso"
+        "Arqueta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Arqueta, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las arquetas permiten el acceso y el cambio de dirección en la red.",
@@ -529,10 +529,10 @@
     {
       "pregunta": "¿Qué elemento impide el paso de gases malolientes desde la red?",
       "opciones": [
-        "Válvula de compuerta",
-        "Contador",
+        "Cierre hidráulico o sifón, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cierre hidráulico o sifón, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Cierre hidráulico o sifón",
-        "Ventosa"
+        "Cierre hidráulico o sifón, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El sifón mantiene un cierre hidráulico que impide el paso de gases.",
@@ -541,9 +541,9 @@
     {
       "pregunta": "¿Qué elemento vertical conduce las aguas residuales de las plantas hasta la red?",
       "opciones": [
-        "Cumbrera",
-        "Alero",
-        "Peto",
+        "Bajante, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Bajante, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Bajante, computándose los plazos en días naturales y con sentido desestimatorio",
         "Bajante"
       ],
       "correcta": 3,
@@ -613,25 +613,13 @@
     {
       "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Tipos de sistemas y conexión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sistemas individualizados, con estación depuradora particular para las residuales y vertido al terreno para las pluviales (apartado 3.1, punto 2).»?",
       "opciones": [
-        "Bajantes residuales.",
+        "Sin red pública, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Sin red pública.",
-        "Mantenimiento.",
-        "Los cierres hidráulicos."
+        "Sin red pública, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sin red pública, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Sistemas individualizados, con estación depuradora particular para las residuales y vertido al terreno para las pluviales (apartado 3.1, punto 2).») define o regula específicamente a «Sin red pública» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Elementos de la instalación), ¿qué establece la normativa respecto a «Cierres hidráulicos»?",
-      "opciones": [
-        "Funcionamiento a media sección, máximo tres cuartos, con diámetro según la tabla 4.5 para pendientes del 1 %, 2 % o 4 % (apartado 4.1.3).",
-        "Localizar cables y conducciones, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras (apartado 9.a a 9.d).",
-        "Sifones individuales, botes sifónicos, sumideros y arquetas sifónicas.",
-        "Es de 50 mm para usos continuos y de 70 mm para usos discontinuos, y la máxima, de 100 mm."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «Cierres hidráulicos» (Elementos de la instalación), la regulación vigente establece que: Sifones individuales, botes sifónicos, sumideros y arquetas sifónicas.",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -661,10 +649,10 @@
     {
       "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Elementos de la instalación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Pendiente mínima del 1 %, no más de dos colectores en un mismo punto y registros con tramos rectos de hasta 15 m (apartado 3.3.1.4.1).»?",
       "opciones": [
-        "Prueba de la red horizontal.",
+        "Colectores colgados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Colectores colgados.",
-        "El Código Técnico de la Edificación.",
-        "Las bajantes."
+        "Colectores colgados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Colectores colgados, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Pendiente mínima del 1 %, no más de dos colectores en un mismo punto y registros con tramos rectos de hasta 15 m (apartado 3.3.1.4.1).») define o regula específicamente a «Colectores colgados» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -685,9 +673,9 @@
     {
       "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Dimensionado), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Variación de presión no superior a 250 Pa y ocupación no superior a un tercio de la sección.»?",
       "opciones": [
-        "Mantenimiento.",
-        "Los cierres hidráulicos.",
-        "Los colectores.",
+        "Bajantes residuales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Bajantes residuales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Bajantes residuales, computándose los plazos en días naturales y con sentido desestimatorio",
         "Bajantes residuales."
       ],
       "correcta": 3,
@@ -733,9 +721,9 @@
     {
       "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución y pruebas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Agua a 0,3 a 0,6 bar durante diez minutos, tramo a tramo.»?",
       "opciones": [
-        "El Código Técnico de la Edificación.",
-        "Las bajantes.",
-        "Una regla de ejecución que se repite en la práctica.",
+        "Prueba de la red horizontal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Prueba de la red horizontal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Prueba de la red horizontal, computándose los plazos en días naturales y con sentido desestimatorio",
         "Prueba de la red horizontal."
       ],
       "correcta": 3,
@@ -757,10 +745,10 @@
     {
       "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Control, uso y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sifones y válvulas revisados al disminuir el caudal.»?",
       "opciones": [
-        "Los cierres hidráulicos.",
+        "Mantenimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Mantenimiento.",
-        "Los colectores.",
-        "La primera regla."
+        "Mantenimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Mantenimiento, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Sifones y válvulas revisados al disminuir el caudal.») define o regula específicamente a «Mantenimiento» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -781,13 +769,25 @@
     {
       "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Seguridad y medición), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Localizar cables y conducciones, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras (apartado 9.a a 9.d).»?",
       "opciones": [
-        "La altura mínima de la lámina de agua.",
-        "Los puntos de captación se ejecutan según el apartado 5.1.",
-        "Esa comunicación.",
+        "Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9, computándose los plazos en días naturales y con sentido desestimatorio",
         "Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Localizar cables y conducciones, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras (apartado 9.a a 9.d).») define o regula específicamente a «Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Tipos de sistemas y conexión» (Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Es preferentemente por gravedad al pozo o arqueta general (apartado 3.1, punto 1).»?",
+      "opciones": [
+        "Cierres hidráulicos.",
+        "Bajantes residuales.",
+        "El desagüe.",
+        "Prueba de la red horizontal."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha regulación («Es preferentemente por gravedad al pozo o arqueta general (apartado 3.1, punto 1).») define o regula específicamente a «El desagüe» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     }
   ]

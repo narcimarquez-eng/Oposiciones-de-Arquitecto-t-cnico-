@@ -15,9 +15,9 @@
     "pregunta": "¿Qué pendiente mínima exige el DB-HS 1 para cubiertas de teja curva?",
     "opciones": [
       "32 %",
-      "5 %",
-      "10 %",
-      "60 %"
+      "32 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "32 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "32 %, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "La tabla 2.10 del DB-HS 1 fija una pendiente mínima del 32 % para teja curva.",
@@ -27,9 +27,9 @@
     "pregunta": "¿Qué pendiente mínima exige el DB-HS 1 para teja mixta y plana monocanal?",
     "opciones": [
       "30 %",
-      "2 %",
-      "15 %",
-      "45 %"
+      "30 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "30 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "30 %, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "La tabla 2.10 fija un 30 % para teja mixta y plana monocanal.",
@@ -50,10 +50,10 @@
   {
     "pregunta": "¿Qué debe disponerse en el encuentro de la cubierta con un paramento vertical o una junta estructural?",
     "opciones": [
-      "Un sumidero",
+      "Una junta de dilatación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Una junta de dilatación",
-      "Una teja de ventilación",
-      "Nada"
+      "Una junta de dilatación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Una junta de dilatación, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "En el encuentro con un paramento vertical o junta estructural debe disponerse una junta de dilatación.",
@@ -62,10 +62,10 @@
   {
     "pregunta": "¿Qué capa protege la impermeabilización de una cubierta plana no transitable frente a la radiación y el viento?",
     "opciones": [
-      "El falso techo",
+      "Una capa de protección de grava o similar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Una capa de protección de grava o similar",
-      "El aislamiento interior",
-      "El forjado"
+      "Una capa de protección de grava o similar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Una capa de protección de grava o similar, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "La capa de protección (grava, solado, etc.) protege la impermeabilización.",
@@ -74,10 +74,10 @@
   {
     "pregunta": "¿Qué elemento de una cubierta inclinada forma la línea superior de encuentro de dos faldones?",
     "opciones": [
-      "La limahoya",
-      "El alero",
+      "La cumbrera, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La cumbrera, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "La cumbrera",
-      "El canalón"
+      "La cumbrera, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La cumbrera es la arista superior donde se encuentran dos faldones.",
@@ -86,10 +86,10 @@
   {
     "pregunta": "¿Qué nombre recibe la línea de encuentro entrante de dos faldones donde se recoge el agua?",
     "opciones": [
-      "Limatesa",
-      "Cumbrera",
+      "Limahoya, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Limahoya, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Limahoya",
-      "Alero"
+      "Limahoya, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La limahoya es el encuentro cóncavo de dos faldones, que recoge el agua.",
@@ -98,9 +98,9 @@
   {
     "pregunta": "¿Qué es una cubierta ajardinada o ecológica?",
     "opciones": [
-      "Una cubierta de chapa pintada de verde",
-      "Una cubierta sin impermeabilizar",
-      "Un patio",
+      "Una cubierta con capa de sustrato y vegetación sobre la impermeabilización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Una cubierta con capa de sustrato y vegetación sobre la impermeabilización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Una cubierta con capa de sustrato y vegetación sobre la impermeabilización, computándose los plazos en días naturales y con sentido desestimatorio",
       "Una cubierta con capa de sustrato y vegetación sobre la impermeabilización"
     ],
     "correcta": 3,
@@ -111,9 +111,9 @@
     "pregunta": "¿Qué elemento sobresale de la fachada en el borde inferior del faldón para alejar el agua?",
     "opciones": [
       "El alero",
-      "La cumbrera",
-      "La limatesa",
-      "El peto"
+      "El alero, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El alero, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El alero, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El alero vuela sobre la fachada y aleja el agua de lluvia del paramento.",
@@ -254,10 +254,10 @@
   {
     "pregunta": "Dentro de la materia «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cubiertas inclinadas y tejados), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La primera depende de la pendiente y del solape, y la segunda, de la continuidad de la lámina.»?",
     "opciones": [
-      "El director de la ejecución de la obra.",
+      "Por eso el tejado y la impermeabilización no son alternativas excluyentes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Por eso el tejado y la impermeabilización no son alternativas excluyentes.",
-      "Cada una tiene un origen distinto y.",
-      "El primero."
+      "Por eso el tejado y la impermeabilización no son alternativas excluyentes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Por eso el tejado y la impermeabilización no son alternativas excluyentes, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («La primera depende de la pendiente y del solape, y la segunda, de la continuidad de la lámina.») define o regula específicamente a «Por eso el tejado y la impermeabilización no son alternativas excluyentes» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -278,9 +278,9 @@
   {
     "pregunta": "Dentro de la materia «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución, control y obra terminada), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El DB-HS 1 regula el control de la ejecución y de la obra terminada en sus apartados 5.2 y 5.3, que no se han leído en detalle en este tema.»?",
     "opciones": [
-      "Cubrir una capa sin haber comprobado su continuidad.",
-      "Si la protección.",
-      "El segundo.",
+      "Para la cubierta, la prueba de estanqueidad es la más relevante, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Para la cubierta, la prueba de estanqueidad es la más relevante, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Para la cubierta, la prueba de estanqueidad es la más relevante, computándose los plazos en días naturales y con sentido desestimatorio",
       "Para la cubierta, la prueba de estanqueidad es la más relevante."
     ],
     "correcta": 3,
@@ -302,10 +302,10 @@
   {
     "pregunta": "Dentro de la materia «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución, control y obra terminada), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los encuentros con los paramentos verticales, los remates de la impermeabilización, los pasos de instalaciones y el solape de las piezas del tejado.»?",
     "opciones": [
-      "El mantenimiento de la cubierta.",
+      "Los puntos críticos de ejecución que la práctica señala, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Los puntos críticos de ejecución que la práctica señala.",
-      "Los trabajos en cubierta son de alto riesgo.",
-      "El tercero."
+      "Los puntos críticos de ejecución que la práctica señala, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Los puntos críticos de ejecución que la práctica señala, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Son los encuentros con los paramentos verticales, los remates de la impermeabilización, los pasos de instalaciones y el solape de las piezas del tejado.») define o regula específicamente a «Los puntos críticos de ejecución que la práctica señala» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -326,9 +326,9 @@
   {
     "pregunta": "Dentro de la materia «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución, control y obra terminada), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el responsable de esa comprobación, con el control de ejecución del artículo 7.3 del CTE.»?",
     "opciones": [
-      "Cada una tiene un origen distinto y.",
-      "El primero.",
-      "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+      "El director de la ejecución de la obra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El director de la ejecución de la obra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El director de la ejecución de la obra, computándose los plazos en días naturales y con sentido desestimatorio",
       "El director de la ejecución de la obra."
     ],
     "correcta": 3,
@@ -350,10 +350,10 @@
   {
     "pregunta": "Dentro de la materia «Cubiertas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación a las cubiertas de tejas y azoteas: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución, control y obra terminada), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una de las causas más frecuentes de fallos de cubierta que no se detectan hasta la primera lluvia intensa.»?",
     "opciones": [
-      "Si la protección.",
+      "Cubrir una capa sin haber comprobado su continuidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Cubrir una capa sin haber comprobado su continuidad.",
-      "El segundo.",
-      "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      "Cubrir una capa sin haber comprobado su continuidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Cubrir una capa sin haber comprobado su continuidad, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Es una de las causas más frecuentes de fallos de cubierta que no se detectan hasta la primera lluvia intensa.») define o regula específicamente a «Cubrir una capa sin haber comprobado su continuidad» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",

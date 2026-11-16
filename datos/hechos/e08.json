@@ -2,10 +2,10 @@
   {
     "pregunta": "¿A qué se destina el circuito C1 de una vivienda?",
     "opciones": [
-      "A la cocina y el horno",
+      "A alimentar los puntos de iluminación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "A alimentar los puntos de iluminación",
-      "A la lavadora",
-      "A los baños"
+      "A alimentar los puntos de iluminación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "A alimentar los puntos de iluminación, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El circuito C1 es el de distribución interna destinado a los puntos de iluminación.",
@@ -15,9 +15,9 @@
     "pregunta": "¿A qué se destina el circuito C2 de una vivienda?",
     "opciones": [
       "A tomas de corriente de uso general y frigorífico",
-      "A la iluminación",
-      "Al horno",
-      "A la calefacción"
+      "A tomas de corriente de uso general y frigorífico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "A tomas de corriente de uso general y frigorífico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "A tomas de corriente de uso general y frigorífico, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El circuito C2 alimenta las tomas de corriente de uso general y el frigorífico.",
@@ -26,9 +26,9 @@
   {
     "pregunta": "¿A qué se destina el circuito C3 de una vivienda?",
     "opciones": [
-      "A la iluminación",
-      "A los baños",
-      "A la lavadora",
+      "A la cocina y el horno, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "A la cocina y el horno, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "A la cocina y el horno, computándose los plazos en días naturales y con sentido desestimatorio",
       "A la cocina y el horno"
     ],
     "correcta": 3,
@@ -50,10 +50,10 @@
   {
     "pregunta": "¿A qué se destina el circuito C5 de una vivienda?",
     "opciones": [
-      "A la iluminación",
+      "A las tomas de corriente de los cuartos de baño y de cocina, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "A las tomas de corriente de los cuartos de baño y de cocina",
-      "Al horno",
-      "A la calefacción eléctrica"
+      "A las tomas de corriente de los cuartos de baño y de cocina, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "A las tomas de corriente de los cuartos de baño y de cocina, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El circuito C5 alimenta las tomas de corriente de los baños y las bases auxiliares de la cocina.",
@@ -62,10 +62,10 @@
   {
     "pregunta": "¿Cuándo se añade un circuito C6 adicional del tipo C1?",
     "opciones": [
-      "Por cada 5 puntos de luz",
+      "Por cada 30 puntos de luz, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Por cada 30 puntos de luz",
-      "Por cada 100 m²",
-      "Nunca"
+      "Por cada 30 puntos de luz, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Por cada 30 puntos de luz, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "En electrificación elevada se dispone un circuito C6 adicional del tipo C1 por cada 30 puntos de luz.",
@@ -74,10 +74,10 @@
   {
     "pregunta": "¿Qué sección mínima deben tener los cables de la derivación individual?",
     "opciones": [
-      "1 mm²",
+      "6 mm² para polares, neutro y protección, y 1,5 mm² para el hilo de mando, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "6 mm² para polares, neutro y protección, y 1,5 mm² para el hilo de mando",
-      "50 mm² siempre",
-      "2,5 mm² para todos"
+      "6 mm² para polares, neutro y protección, y 1,5 mm² para el hilo de mando, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "6 mm² para polares, neutro y protección, y 1,5 mm² para el hilo de mando, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "La sección mínima es de 6 mm² para los cables polares, neutro y protección, y de 1,5 mm² para el hilo de mando, de color rojo.",
@@ -98,9 +98,9 @@
   {
     "pregunta": "¿Qué elemento señala el principio de la propiedad de las instalaciones del usuario en baja tensión?",
     "opciones": [
-      "El enchufe",
-      "La lámpara",
-      "El diferencial del baño",
+      "La caja general de protección, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La caja general de protección, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La caja general de protección, computándose los plazos en días naturales y con sentido desestimatorio",
       "La caja general de protección"
     ],
     "correcta": 3,
@@ -110,9 +110,9 @@
   {
     "pregunta": "¿Con qué color se identifica el conductor de protección?",
     "opciones": [
-      "Rojo",
-      "Azul",
-      "Negro",
+      "Verde-amarillo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Verde-amarillo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Verde-amarillo, computándose los plazos en días naturales y con sentido desestimatorio",
       "Verde-amarillo"
     ],
     "correcta": 3,
@@ -206,10 +206,10 @@
   {
     "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Canalizaciones y recintos de la ICT), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el punto en el que la canalización de enlace se conecta con la del edificio, y el punto de interconexión se sitúa en él.»?",
     "opciones": [
-      "Los factores que influyen en el precio.",
+      "El registro principal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "El registro principal.",
-      "El tercero.",
-      "El tercero es el de telecomunicaciones."
+      "El registro principal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El registro principal, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Es el punto en el que la canalización de enlace se conecta con la del edificio, y el punto de interconexión se sitúa en él.») define o regula específicamente a «El registro principal» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -230,9 +230,9 @@
   {
     "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Conservación e inspección de la ICT), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula en el artículo 15 del reglamento.»?",
     "opciones": [
-      "El primero.",
-      "El primero es el de potencia y circuitos.",
-      "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+      "El régimen sancionador de la ICT se, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El régimen sancionador de la ICT se, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El régimen sancionador de la ICT se, computándose los plazos en días naturales y con sentido desestimatorio",
       "El régimen sancionador de la ICT se."
     ],
     "correcta": 3,
@@ -254,10 +254,10 @@
   {
     "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el principal riesgo de la instalación en obra, por contacto directo con partes en tensión o por contacto indirecto con masas que quedan bajo tensión por un fallo.»?",
     "opciones": [
-      "El segundo.",
+      "El riesgo eléctrico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "El riesgo eléctrico.",
-      "El segundo es el de documentación y verificación.",
-      "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      "El riesgo eléctrico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El riesgo eléctrico, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Es el principal riesgo de la instalación en obra, por contacto directo con partes en tensión o por contacto indirecto con masas que quedan bajo tensión por un fallo.») define o regula específicamente a «El riesgo eléctrico» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -278,9 +278,9 @@
   {
     "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Criterios de medición y factores del precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el grado de electrificación de la vivienda, que determina el número de circuitos y la sección de los conductores.»?",
     "opciones": [
-      "El tercero.",
-      "El tercero es el de telecomunicaciones.",
-      "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+      "Los factores que influyen en el precio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Los factores que influyen en el precio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Los factores que influyen en el precio, computándose los plazos en días naturales y con sentido desestimatorio",
       "Los factores que influyen en el precio."
     ],
     "correcta": 3,

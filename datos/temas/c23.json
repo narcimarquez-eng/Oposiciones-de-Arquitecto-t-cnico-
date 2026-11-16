@@ -86,9 +86,9 @@
     {
       "pregunta": "¿Qué clase de sistema operativo atiende a una sola persona?",
       "opciones": [
-        "Multiusuario",
-        "De tiempo real",
-        "Por lotes",
+        "Monousuario, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Monousuario, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Monousuario, computándose los plazos en días naturales y con sentido desestimatorio",
         "Monousuario"
       ],
       "correcta": 3,
@@ -98,10 +98,10 @@
     {
       "pregunta": "¿Cómo se llama la propiedad de una transacción que se completa del todo o no se aplica en absoluto?",
       "opciones": [
-        "Normalización",
+        "Atomicidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Atomicidad",
-        "Concurrencia",
-        "Redundancia"
+        "Atomicidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Atomicidad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La atomicidad, una de las propiedades ACID, garantiza que la transacción se complete del todo o no se aplique en absoluto.",
@@ -111,9 +111,9 @@
       "pregunta": "¿Qué sistema de información sirve a la operación diaria, registrando solicitudes y pagos?",
       "opciones": [
         "El TPS",
-        "El DSS",
-        "El EIS",
-        "El almacén de datos"
+        "El TPS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El TPS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El TPS, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los sistemas de procesamiento de transacciones (TPS) registran las operaciones diarias.",
@@ -122,10 +122,10 @@
     {
       "pregunta": "¿Qué sistema de información ayuda a elegir entre alternativas concretas para una decisión?",
       "opciones": [
-        "El SMTP",
-        "El TPS",
+        "El DSS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DSS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El DSS",
-        "El correo electrónico"
+        "El DSS, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los sistemas de ayuda a la decisión (DSS) analizan alternativas para una decisión concreta.",
@@ -146,10 +146,10 @@
     {
       "pregunta": "¿Qué protocolo cifra la comunicación entre el navegador y el servidor web?",
       "opciones": [
-        "HTTP",
+        "HTTPS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "HTTPS",
-        "POP",
-        "SMTP"
+        "HTTPS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "HTTPS, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "HTTPS es la versión de HTTP que cifra la comunicación entre el navegador y el servidor.",
@@ -171,9 +171,9 @@
       "pregunta": "Según el art. 92 de la Ley 5/2023, ¿qué instrumento regula ese precepto?",
       "opciones": [
         "El registro de personal",
-        "La cuenta general",
-        "El registro mercantil",
-        "El Boletín Oficial del Estado"
+        "El registro de personal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El registro de personal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El registro de personal, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El artículo 92 de la Ley 5/2023 regula el registro de personal, que se desarrolla en los artículos 93 a 95.",
@@ -182,10 +182,10 @@
     {
       "pregunta": "¿Qué tipo de sistema operativo ejecuta trabajos en lotes sin interacción?",
       "opciones": [
-        "Multiusuario de tiempo compartido",
+        "Por lotes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Por lotes",
-        "De tiempo real",
-        "Monousuario gráfico"
+        "Por lotes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Por lotes, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los sistemas por lotes ejecutan trabajos agrupados sin interacción directa.",
@@ -195,9 +195,9 @@
       "pregunta": "¿Qué estado de un proceso indica que espera un recurso y no ocupa la CPU?",
       "opciones": [
         "Bloqueado",
-        "En ejecución",
-        "Listo para la CPU",
-        "Terminado"
+        "Bloqueado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Bloqueado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Bloqueado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Un proceso bloqueado espera un recurso y no ocupa la CPU.",
@@ -206,10 +206,10 @@
     {
       "pregunta": "¿Qué define el SGBD sobre los datos?",
       "opciones": [
-        "Solo su color",
+        "Su estructura, su manipulación, el control de acceso y la integridad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Su estructura, su manipulación, el control de acceso y la integridad",
-        "Solo su tamaño en disco",
-        "Solo el precio"
+        "Su estructura, su manipulación, el control de acceso y la integridad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Su estructura, su manipulación, el control de acceso y la integridad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El SGBD define la estructura, permite manipular los datos, controla el acceso y garantiza integridad y seguridad.",
@@ -218,9 +218,9 @@
     {
       "pregunta": "¿Qué sirve para recuperar una base de datos tras un fallo?",
       "opciones": [
-        "Borrar los datos",
-        "Imprimir la base",
-        "Apagar el servidor",
+        "Las copias de seguridad y los registros de transacciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las copias de seguridad y los registros de transacciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las copias de seguridad y los registros de transacciones, computándose los plazos en días naturales y con sentido desestimatorio",
         "Las copias de seguridad y los registros de transacciones"
       ],
       "correcta": 3,
@@ -231,9 +231,9 @@
       "pregunta": "¿Qué sistema de información se usa para el control táctico de la organización?",
       "opciones": [
         "MIS",
-        "TPS",
-        "Groupware",
-        "Almacén de datos"
+        "MIS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "MIS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "MIS, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los MIS (sistemas de información de gestión) sirven para el control táctico.",
@@ -242,10 +242,10 @@
     {
       "pregunta": "¿Qué sistema sirve para la dirección ejecutiva?",
       "opciones": [
-        "TPS",
+        "EIS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "EIS",
-        "Workflow",
-        "Correo"
+        "EIS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "EIS, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los EIS (sistemas de información para la dirección) sirven a la alta dirección.",
@@ -254,10 +254,10 @@
     {
       "pregunta": "¿Para qué se usan los almacenes de datos?",
       "opciones": [
-        "Para la operación diaria",
-        "Para el envío de correo",
+        "Para el análisis de datos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Para el análisis de datos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Para el análisis de datos",
-        "Para imprimir"
+        "Para el análisis de datos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los almacenes de datos (data warehouse) se usan para el análisis.",
@@ -266,9 +266,9 @@
     {
       "pregunta": "¿Qué tipo de sistema facilita la colaboración de un grupo de trabajo?",
       "opciones": [
-        "TPS",
-        "DSS",
-        "Sistema de cobro",
+        "Groupware, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Groupware, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Groupware, computándose los plazos en días naturales y con sentido desestimatorio",
         "Groupware"
       ],
       "correcta": 3,
@@ -279,9 +279,9 @@
       "pregunta": "¿Qué protocolo se usa para recibir correo electrónico?",
       "opciones": [
         "IMAP o POP",
-        "SMTP",
-        "HTTP",
-        "TCP"
+        "IMAP o POP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "IMAP o POP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "IMAP o POP, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "IMAP o POP se usan para recibir correo.",
@@ -290,10 +290,10 @@
     {
       "pregunta": "¿Qué familia de protocolos es la base de Internet?",
       "opciones": [
-        "Bluetooth",
+        "TCP/IP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "TCP/IP",
-        "RS-232",
-        "Morse"
+        "TCP/IP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "TCP/IP, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Internet se basa en TCP/IP.",
@@ -314,9 +314,9 @@
     {
       "pregunta": "¿Qué mejora pretende la Junta al aplicar tecnologías?",
       "opciones": [
-        "Su opacidad",
-        "Su burocracia",
-        "Su tamaño",
+        "Su eficacia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Su eficacia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Su eficacia, computándose los plazos en días naturales y con sentido desestimatorio",
         "Su eficacia"
       ],
       "correcta": 3,
@@ -327,9 +327,9 @@
       "pregunta": "¿Qué derecho tienen los ciudadanos sobre el medio para relacionarse con la Administración?",
       "opciones": [
         "Elegir el medio, salvo los obligados a relacionarse electrónicamente",
-        "Ninguno",
-        "Solo el papel",
-        "Solo el teléfono"
+        "Elegir el medio, salvo los obligados a relacionarse electrónicamente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Elegir el medio, salvo los obligados a relacionarse electrónicamente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Elegir el medio, salvo los obligados a relacionarse electrónicamente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las personas físicas pueden elegir el medio, salvo los obligados a relacionarse electrónicamente.",
@@ -338,10 +338,10 @@
     {
       "pregunta": "¿Qué propiedades cumplen las transacciones de una base de datos?",
       "opciones": [
-        "ABC",
+        "ACID, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "ACID",
-        "XYZ",
-        "Solo RAM"
+        "ACID, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "ACID, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las transacciones cumplen las propiedades ACID.",
@@ -350,10 +350,10 @@
     {
       "pregunta": "¿Qué tipo de sistemas estadísticos recogen, validan y analizan datos?",
       "opciones": [
-        "Los buzones de voz",
-        "Los relojes",
+        "Los sistemas estadísticos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los sistemas estadísticos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Los sistemas estadísticos",
-        "Los monitores"
+        "Los sistemas estadísticos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los sistemas estadísticos recogen, validan, analizan y presentan datos.",
@@ -362,9 +362,9 @@
     {
       "pregunta": "¿Qué ley regula el registro de personal de la Junta?",
       "opciones": [
-        "La Ley 39/2015",
-        "La Ley de Expropiación Forzosa",
-        "La Ley de Vivienda",
+        "La Ley 5/2023, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La Ley 5/2023, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La Ley 5/2023, computándose los plazos en días naturales y con sentido desestimatorio",
         "La Ley 5/2023"
       ],
       "correcta": 3,
@@ -386,10 +386,10 @@
     {
       "pregunta": "¿Qué propiedad de las transacciones significa que se completan del todo o no se aplican?",
       "opciones": [
-        "La duración",
+        "La atomicidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La atomicidad",
-        "La concurrencia",
-        "El aislamiento"
+        "La atomicidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La atomicidad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La atomicidad: la transacción se completa del todo o no se aplica.",
@@ -398,10 +398,10 @@
     {
       "pregunta": "¿Qué sistema de información sirve para la operación diaria?",
       "opciones": [
-        "MIS",
-        "DSS",
+        "TPS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "TPS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "TPS",
-        "EIS"
+        "TPS, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los TPS sirven para la operación diaria.",
@@ -410,9 +410,9 @@
     {
       "pregunta": "¿Qué permite la memoria virtual?",
       "opciones": [
-        "Borrar la memoria",
-        "Imprimir más rápido",
-        "Ahorrar electricidad",
+        "Ejecutar programas mayores que la memoria física, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Ejecutar programas mayores que la memoria física, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Ejecutar programas mayores que la memoria física, computándose los plazos en días naturales y con sentido desestimatorio",
         "Ejecutar programas mayores que la memoria física"
       ],
       "correcta": 3,
@@ -422,10 +422,10 @@
     {
       "pregunta": "¿Qué clase de sistema operativo atiende a varios usuarios a la vez?",
       "opciones": [
-        "Monousuario",
-        "Por lotes",
+        "Multiusuario, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Multiusuario, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Multiusuario",
-        "De papel"
+        "Multiusuario, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Un sistema multiusuario permite a varios usuarios trabajar simultáneamente.",
@@ -435,9 +435,9 @@
       "pregunta": "¿Qué sistema de información ayuda a elegir entre alternativas?",
       "opciones": [
         "DSS",
-        "TPS",
-        "Groupware",
-        "EIS"
+        "DSS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DSS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DSS, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los DSS (sistemas de apoyo a la decisión) ayudan a elegir entre alternativas.",
@@ -446,10 +446,10 @@
     {
       "pregunta": "¿Qué protocolo se usa para enviar correo electrónico?",
       "opciones": [
-        "HTTP",
+        "SMTP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "SMTP",
-        "FTP",
-        "TCP"
+        "SMTP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "SMTP, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "SMTP se utiliza para enviar correo electrónico.",
@@ -458,10 +458,10 @@
     {
       "pregunta": "¿Qué protocolo cifra el tráfico web?",
       "opciones": [
-        "HTTP",
-        "FTP",
+        "HTTPS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "HTTPS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "HTTPS",
-        "SMTP"
+        "HTTPS, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "HTTPS es HTTP con cifrado.",
@@ -470,9 +470,9 @@
     {
       "pregunta": "¿Qué tipo de sistema ordena las tareas de un procedimiento?",
       "opciones": [
-        "Hoja de cálculo",
-        "Correo electrónico",
-        "Ofimática sin conexión",
+        "Flujo de trabajo (workflow), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Flujo de trabajo (workflow), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Flujo de trabajo (workflow), computándose los plazos en días naturales y con sentido desestimatorio",
         "Flujo de trabajo (workflow)"
       ],
       "correcta": 3,
@@ -482,9 +482,9 @@
     {
       "pregunta": "¿Qué lenguaje se usa para consultar bases de datos relacionales?",
       "opciones": [
-        "HTML",
-        "Morse",
-        "COBOL sin uso",
+        "SQL, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "SQL, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "SQL, computándose los plazos en días naturales y con sentido desestimatorio",
         "SQL"
       ],
       "correcta": 3,
@@ -495,9 +495,9 @@
       "pregunta": "¿Qué modelo de base de datos organiza los datos en tablas relacionadas?",
       "opciones": [
         "El modelo relacional",
-        "El modelo jerárquico",
-        "El modelo en red",
-        "El modelo de ficheros planos"
+        "El modelo relacional, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El modelo relacional, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El modelo relacional, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El modelo relacional representa los datos en tablas (relaciones).",
@@ -530,9 +530,9 @@
     {
       "pregunta": "¿Qué proceso del diseño relacional elimina redundancias?",
       "opciones": [
-        "La indexación",
-        "La compresión",
-        "La replicación",
+        "La normalización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La normalización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La normalización, computándose los plazos en días naturales y con sentido desestimatorio",
         "La normalización"
       ],
       "correcta": 3,
@@ -554,10 +554,10 @@
     {
       "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Gestión documental, archivo y estadística), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige condiciones y protocolos previos (art. 155 LRJSP).»?",
       "opciones": [
-        "Sus funciones principales.",
+        "La cesión de datos entre Administraciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La cesión de datos entre Administraciones.",
-        "Un sistema de gestión de bases de datos (SGBD).",
-        "Una transacción."
+        "La cesión de datos entre Administraciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La cesión de datos entre Administraciones, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Exige condiciones y protocolos previos (art. 155 LRJSP).») define o regula específicamente a «La cesión de datos entre Administraciones» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
@@ -578,9 +578,9 @@
     {
       "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas de la Junta de Andalucía), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula en la Ley 5/2023 (arts. 92 a 95).»?",
       "opciones": [
-        "Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado.",
-        "Sus funciones.",
-        "Respuesta.",
+        "El registro de personal se, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El registro de personal se, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El registro de personal se, computándose los plazos en días naturales y con sentido desestimatorio",
         "El registro de personal se."
       ],
       "correcta": 3,
@@ -602,10 +602,10 @@
     {
       "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Los sistemas operativos: funciones y clases), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el software de base que gestiona los recursos del equipo y ofrece a las aplicaciones un entorno común.»?",
       "opciones": [
-        "Las familias más extendidas.",
+        "El sistema operativo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El sistema operativo.",
-        "Otros modelos.",
-        "Una base de datos sin copias verificadas no."
+        "El sistema operativo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El sistema operativo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es el software de base que gestiona los recursos del equipo y ofrece a las aplicaciones un entorno común.») define o regula específicamente a «El sistema operativo» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
@@ -626,9 +626,9 @@
     {
       "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Los sistemas operativos: funciones y clases), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son la gestión de procesos, de memoria, de dispositivos de entrada y salida y de ficheros, y la protección de unos recursos frente a otros.»?",
       "opciones": [
-        "Un sistema de gestión de bases de datos (SGBD).",
-        "Una transacción.",
-        "Para un examen, la diferencia entre copia completa e incremental es el volumen.",
+        "Sus funciones principales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sus funciones principales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sus funciones principales, computándose los plazos en días naturales y con sentido desestimatorio",
         "Sus funciones principales."
       ],
       "correcta": 3,
@@ -650,10 +650,10 @@
     {
       "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Gestión de procesos, memoria y ficheros en el sistema operativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Espera un recurso y no ocupa la CPU.»?",
       "opciones": [
-        "Sus funciones.",
+        "Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado.",
-        "Respuesta.",
-        "Un sistema de información."
+        "Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Espera un recurso y no ocupa la CPU.») define o regula específicamente a «Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
@@ -674,9 +674,9 @@
     {
       "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas operativos de uso habitual en la Administración), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las de tipo Windows y las de tipo Unix o Linux.»?",
       "opciones": [
-        "Otros modelos.",
-        "Una base de datos sin copias verificadas no.",
-        "Para un examen, la diferencia es el nivel.",
+        "Las familias más extendidas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las familias más extendidas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las familias más extendidas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Las familias más extendidas."
       ],
       "correcta": 3,
@@ -698,10 +698,10 @@
     {
       "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas de gestión de bases de datos: funciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el software que crea, mantiene y da acceso a una base de datos.»?",
       "opciones": [
-        "Una transacción.",
+        "Un sistema de gestión de bases de datos (SGBD), previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Un sistema de gestión de bases de datos (SGBD).",
-        "Para un examen, la diferencia entre copia completa e incremental es el volumen.",
-        "La seguridad del correo."
+        "Un sistema de gestión de bases de datos (SGBD), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un sistema de gestión de bases de datos (SGBD), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es el software que crea, mantiene y da acceso a una base de datos.») define o regula específicamente a «Un sistema de gestión de bases de datos (SGBD)» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
@@ -722,9 +722,9 @@
     {
       "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas de gestión de bases de datos: funciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son definir la estructura de los datos, manipularlos (consultar, insertar, modificar y borrar), controlar el acceso y garantizar la integridad y la seguridad.»?",
       "opciones": [
-        "Respuesta.",
-        "Un sistema de información.",
-        "Para un examen, la diferencia entre HTTP y HTTPS es el cifrado.",
+        "Sus funciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sus funciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sus funciones, computándose los plazos en días naturales y con sentido desestimatorio",
         "Sus funciones."
       ],
       "correcta": 3,
@@ -770,9 +770,9 @@
     {
       "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Modelos de datos y transacciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una secuencia de operaciones que debe completarse entera o no completarse en absoluto.»?",
       "opciones": [
-        "Para un examen, la diferencia entre copia completa e incremental es el volumen.",
-        "La seguridad del correo.",
-        "El registro.",
+        "Una transacción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una transacción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una transacción, computándose los plazos en días naturales y con sentido desestimatorio",
         "Una transacción."
       ],
       "correcta": 3,

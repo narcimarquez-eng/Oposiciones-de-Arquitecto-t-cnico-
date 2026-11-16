@@ -14,10 +14,10 @@
   {
     "pregunta": "¿Por debajo de qué presupuesto base de licitación puede simplificarse el contenido del proyecto?",
     "opciones": [
-      "Inferior a 40.000 euros",
+      "Inferior a 500.000 euros, IVA excluido conforme al valor estimado del expediente conforme al presupuesto base de licitación",
       "Inferior a 500.000 euros, IVA excluido",
-      "Inferior a 5 millones",
-      "Nunca"
+      "Inferior a 500.000 euros, IVA excluido, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Inferior a 500.000 euros, IVA excluido, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "En proyectos de presupuesto base de licitación inferior a 500.000 euros pueden simplificarse, refundirse o suprimirse algunos documentos.",
@@ -26,10 +26,10 @@
   {
     "pregunta": "¿Cuándo es preceptivo el informe de supervisión del proyecto?",
     "opciones": [
-      "En todo contrato menor",
+      "Cuando el presupuesto base de licitación es igual o superior a 500.000 euros, IVA excluido conforme al valor estimado del expediente conforme al presupuesto base de licitación",
       "Cuando el presupuesto base de licitación es igual o superior a 500.000 euros, IVA excluido",
-      "Solo en obras privadas",
-      "Nunca"
+      "Cuando el presupuesto base de licitación es igual o superior a 500.000 euros, IVA excluido, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Cuando el presupuesto base de licitación es igual o superior a 500.000 euros, IVA excluido, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El informe de las oficinas o unidades de supervisión es preceptivo en proyectos de 500.000 euros o más.",
@@ -39,9 +39,9 @@
     "pregunta": "¿Qué comprueba el replanteo del proyecto?",
     "opciones": [
       "La realidad geométrica de la obra y la disponibilidad de los terrenos",
-      "La solvencia del contratista",
-      "El color de los acabados",
-      "La fianza"
+      "La realidad geométrica de la obra y la disponibilidad de los terrenos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La realidad geométrica de la obra y la disponibilidad de los terrenos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La realidad geométrica de la obra y la disponibilidad de los terrenos, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El replanteo comprueba la realidad geométrica y la disponibilidad de los terrenos precisos para la ejecución.",
@@ -50,10 +50,10 @@
   {
     "pregunta": "¿Qué carácter tiene la contratación conjunta de la elaboración del proyecto y la ejecución de las obras?",
     "opciones": [
-      "Obligatorio",
-      "Prohibido",
+      "Excepcional, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Excepcional, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Excepcional",
-      "Habitual en todo contrato"
+      "Excepcional, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La contratación conjunta de proyecto y obra tiene carácter excepcional.",
@@ -74,9 +74,9 @@
   {
     "pregunta": "¿En qué plazo debe iniciarse la ejecución en la tramitación de emergencia?",
     "opciones": [
-      "Un año",
-      "Seis meses",
-      "Sin plazo",
+      "No superior a un mes contado a partir del día siguiente a la notificación contados de fecha a fecha desde la adopción del acuerdo",
+      "No superior a quince días hábiles improrrogables desde la adopción del acuerdo",
+      "No superior a treinta días hábiles excluyendo sábados, domingos y festivos desde la adopción del acuerdo",
       "No superior a un mes desde la adopción del acuerdo"
     ],
     "correcta": 3,
@@ -86,10 +86,10 @@
   {
     "pregunta": "¿Qué debe justificarse en el expediente de contratación respecto de los lotes?",
     "opciones": [
-      "El color de cada lote",
-      "Nada",
+      "La decisión de no dividir en lotes el objeto del contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La decisión de no dividir en lotes el objeto del contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "La decisión de no dividir en lotes el objeto del contrato",
-      "La identidad del adjudicatario"
+      "La decisión de no dividir en lotes el objeto del contrato, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "En el expediente debe justificarse adecuadamente la decisión de no dividir en lotes.",
@@ -98,10 +98,10 @@
   {
     "pregunta": "¿Qué estudio debe incluir el proyecto de obras cuando sea necesario según la LCSP?",
     "opciones": [
-      "Un estudio de mercado inmobiliario",
-      "Un estudio de audiencias",
+      "Un estudio geotécnico de los terrenos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Un estudio geotécnico de los terrenos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Un estudio geotécnico de los terrenos",
-      "Ninguno"
+      "Un estudio geotécnico de los terrenos, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Salvo que resulte incompatible con su naturaleza, el proyecto incluye un estudio geotécnico.",
@@ -158,10 +158,10 @@
   {
     "pregunta": "Dentro de la materia «Anteproyectos, proyectos y expedientes de contratación. Anteproyectos: Contenido y aprobación. Clasificación de las obras, contenido de los proyectos y responsabilidad derivada de su elaboración. Presentación del proyecto por el empresario. Clasificación de las obras, contenido de los proyectos y responsabilidad derivada de su elaboración: Instrucciones para la elaboración de proyectos y su contenido mínimo. El programa de trabajo. Clasificación de las empresas en los contratos de obras en relación con los proyectos. Aprobación del proyecto. Supervisión de proyectos: Oficinas o unidades de supervisión de proyectos, funciones. La subsanación de errores, indemnizaciones y responsabilidades en el contrato de elaboración de proyectos de obras.» (Cuestiones tipo de examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es obligatoria la supervisión? Desde 500.000 euros de presupuesto base de licitación, IVA excluido (art. 235 LCSP).»?",
     "opciones": [
-      "Contrato menor de obras.",
+      "¿Desde qué presupuesto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "¿Desde qué presupuesto.",
-      "Simplificación de documentos del proyecto.",
-      "Proyecto."
+      "¿Desde qué presupuesto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "¿Desde qué presupuesto, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Es obligatoria la supervisión? Desde 500.000 euros de presupuesto base de licitación, IVA excluido (art. 235 LCSP).») define o regula específicamente a «¿Desde qué presupuesto» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -182,9 +182,9 @@
   {
     "pregunta": "Dentro de la materia «Anteproyectos, proyectos y expedientes de contratación. Anteproyectos: Contenido y aprobación. Clasificación de las obras, contenido de los proyectos y responsabilidad derivada de su elaboración. Presentación del proyecto por el empresario. Clasificación de las obras, contenido de los proyectos y responsabilidad derivada de su elaboración: Instrucciones para la elaboración de proyectos y su contenido mínimo. El programa de trabajo. Clasificación de las empresas en los contratos de obras en relación con los proyectos. Aprobación del proyecto. Supervisión de proyectos: Oficinas o unidades de supervisión de proyectos, funciones. La subsanación de errores, indemnizaciones y responsabilidades en el contrato de elaboración de proyectos de obras.» (Umbrales de cuantía que conviene memorizar), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Valor estimado inferior a 40.000 euros (art. 118.1 LCSP).»?",
     "opciones": [
-      "Simplificación de documentos del proyecto.",
-      "Proyecto.",
-      "Expediente.",
+      "Contrato menor de obras, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Contrato menor de obras, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Contrato menor de obras, computándose los plazos en días naturales y con sentido desestimatorio",
       "Contrato menor de obras."
     ],
     "correcta": 3,
@@ -254,10 +254,10 @@
   {
     "pregunta": "Dentro de la materia «Anteproyectos, proyectos y expedientes de contratación. Anteproyectos: Contenido y aprobación. Clasificación de las obras, contenido de los proyectos y responsabilidad derivada de su elaboración. Presentación del proyecto por el empresario. Clasificación de las obras, contenido de los proyectos y responsabilidad derivada de su elaboración: Instrucciones para la elaboración de proyectos y su contenido mínimo. El programa de trabajo. Clasificación de las empresas en los contratos de obras en relación con los proyectos. Aprobación del proyecto. Supervisión de proyectos: Oficinas o unidades de supervisión de proyectos, funciones. La subsanación de errores, indemnizaciones y responsabilidades en el contrato de elaboración de proyectos de obras.» (Umbrales de cuantía que conviene memorizar), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Proyectos de primer establecimiento, reforma o gran reparación inferiores a 500.000 euros, IVA excluido (art. 233.2 LCSP).»?",
     "opciones": [
-      "Proyecto.",
+      "Simplificación de documentos del proyecto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Simplificación de documentos del proyecto.",
-      "Expediente.",
-      "Ámbito subjetivo (art. 3 Ley de Contratos del Sector Público)."
+      "Simplificación de documentos del proyecto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Simplificación de documentos del proyecto, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Proyectos de primer establecimiento, reforma o gran reparación inferiores a 500.000 euros, IVA excluido (art. 233.2 LCSP).») define o regula específicamente a «Simplificación de documentos del proyecto» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",

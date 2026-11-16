@@ -89,10 +89,10 @@
     {
       "pregunta": "Según el DB-SI, SI 5, apartado 1.1, ¿cuál es la anchura mínima libre de los viales de aproximación de los bomberos?",
       "opciones": [
-        "7,2 m",
-        "2,5 m",
+        "3,5 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "3,5 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "3,5 m",
-        "5 m"
+        "3,5 m, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La anchura mínima libre del vial de aproximación es de 3,5 m, con 4,5 m de gálibo y 20 kN/m² de capacidad portante (SI 5, apartado 1.1).",
@@ -101,9 +101,9 @@
     {
       "pregunta": "Según el DB-SI, SI 5, apartado 1.2, ¿cuál es la separación máxima del vehículo de bomberos a la fachada en edificios de más de 20 m de altura de evacuación?",
       "opciones": [
-        "30 m",
-        "23 m",
-        "18 m",
+        "10 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "10 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "10 m, computándose los plazos en días naturales y con sentido desestimatorio",
         "10 m"
       ],
       "correcta": 3,
@@ -113,10 +113,10 @@
     {
       "pregunta": "Según el DB-SI, SI 5, apartado 2, punto 1, letra a, ¿hasta qué altura puede estar el alféizar de los huecos de acceso a cada planta?",
       "opciones": [
-        "0,80 m",
+        "1,20 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "1,20 m",
-        "1,80 m",
-        "2,20 m"
+        "1,20 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "1,20 m, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El alféizar no debe estar a más de 1,20 m del nivel de la planta a la que se accede (SI 5, apartado 2, punto 1, letra a).",
@@ -126,9 +126,9 @@
       "pregunta": "Según el DB-SI, SI 6, tabla 3.1, ¿qué clase de resistencia al fuego corresponde a los elementos estructurales de un uso residencial vivienda con altura de evacuación de hasta 15 m?",
       "opciones": [
         "R 60",
-        "R 90",
-        "R 180",
-        "R 30"
+        "R 60, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "R 60, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "R 60, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Según la tabla 3.1, el uso residencial vivienda con altura de evacuación de hasta 15 m exige R 60.",
@@ -137,10 +137,10 @@
     {
       "pregunta": "Según el DB-SI, SI 2, apartado 1, punto 1, ¿qué resistencia al fuego deben tener como mínimo los elementos verticales separadores de otro edificio?",
       "opciones": [
-        "EI 60",
-        "EI 90",
+        "EI 120, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "EI 120, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "EI 120",
-        "EI 30"
+        "EI 120, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los elementos verticales separadores de otro edificio deben ser al menos EI 120 (SI 2, apartado 1, punto 1).",
@@ -149,9 +149,9 @@
     {
       "pregunta": "Según el DB-SI, SI 3, tabla 2.1, ¿qué densidad de ocupación se asigna a las plantas de vivienda?",
       "opciones": [
-        "50 m² por persona",
-        "3 m² por persona",
-        "10 m² por persona",
+        "20 m² por persona, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "20 m² por persona, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "20 m² por persona, computándose los plazos en días naturales y con sentido desestimatorio",
         "20 m² por persona"
       ],
       "correcta": 3,
@@ -161,10 +161,10 @@
     {
       "pregunta": "Según el DB-SI, SI 4, tabla 1.1, ¿a qué distancia máxima de recorrido desde todo origen de evacuación debe situarse un extintor portátil?",
       "opciones": [
-        "10 m",
+        "15 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "15 m",
-        "25 m",
-        "50 m"
+        "15 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "15 m, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El extintor portátil de eficacia 21A-113B debe estar a 15 m de recorrido como máximo desde todo origen de evacuación en cada planta (SI 4, tabla 1.1).",
@@ -173,10 +173,10 @@
     {
       "pregunta": "Según el RD 513/2017 (RIPCI), art. 22, apartado 1, ¿con qué periodo máximo deben solicitar los titulares la inspección de sus instalaciones de protección activa, salvo las excepciones del apartado 2?",
       "opciones": [
-        "Cada año",
-        "Cada cinco años",
+        "Cada diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cada diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Cada diez años",
-        "Cada veinte años"
+        "Cada diez años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los titulares deben solicitar, al menos cada diez años, a un organismo de control acreditado la inspección de sus instalaciones, con las excepciones del apartado 2 (art. 22, apartado 1 del RD 513/2017 (RIPCI)).",
@@ -186,9 +186,9 @@
       "pregunta": "Según el RD 513/2017 (RIPCI), art. 15, apartado 1, letra e, ¿cuál es la cuantía mínima del seguro de responsabilidad civil que deben tener las empresas mantenedoras por siniestro?",
       "opciones": [
         "800.000 euros",
-        "2.000.000 euros",
-        "80.000 euros",
-        "300.000 euros"
+        "800.000 euros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "800.000 euros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "800.000 euros, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las empresas mantenedoras deben tener un seguro de responsabilidad civil u otra garantía equivalente con una cuantía mínima de 800.000 euros por siniestro (art. 15, apartado 1, letra e del RD 513/2017 (RIPCI)).",
@@ -210,9 +210,9 @@
       "pregunta": "¿Qué documento del CTE regula la seguridad en caso de incendio?",
       "opciones": [
         "El DB-SI",
-        "El DB-HS",
-        "El DB-HE",
-        "El DB-HR"
+        "El DB-SI, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DB-SI, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-SI, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La seguridad en caso de incendio se regula en el DB-SI.",
@@ -221,10 +221,10 @@
     {
       "pregunta": "¿Qué reglamento regula las instalaciones de protección contra incendios?",
       "opciones": [
-        "El RD 842/2002",
+        "El RD 513/2017 (RIPCI), previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El RD 513/2017 (RIPCI)",
-        "El RD 346/2011",
-        "El RD 919/2006"
+        "El RD 513/2017 (RIPCI), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El RD 513/2017 (RIPCI), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El RD 513/2017 regula el RIPCI.",
@@ -233,9 +233,9 @@
     {
       "pregunta": "¿Qué se exige a las medianerías con otro edificio en el SI 2?",
       "opciones": [
-        "Nada",
-        "Solo madera",
-        "Solo vidrio",
+        "Al menos EI 120, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Al menos EI 120, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Al menos EI 120, computándose los plazos en días naturales y con sentido desestimatorio",
         "Al menos EI 120"
       ],
       "correcta": 3,
@@ -246,9 +246,9 @@
       "pregunta": "¿Qué tipo de extintor se exige en el SI 4 como mínimo?",
       "opciones": [
         "Extintores portátiles de eficacia 21A-113B",
-        "Ninguno",
-        "Solo de agua sin eficacia",
-        "Solo de madera"
+        "Extintores portátiles de eficacia 21A-113B, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Extintores portátiles de eficacia 21A-113B, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Extintores portátiles de eficacia 21A-113B, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Se exigen extintores portátiles de eficacia 21A-113B.",
@@ -257,10 +257,10 @@
     {
       "pregunta": "¿Qué instalación se exige en zonas de riesgo especial alto en el SI 4?",
       "opciones": [
-        "Piscinas",
+        "Bocas de incendio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Bocas de incendio",
-        "Jardines",
-        "Fuentes"
+        "Bocas de incendio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Bocas de incendio, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "En zonas de riesgo especial alto se exigen bocas de incendio.",
@@ -269,10 +269,10 @@
     {
       "pregunta": "¿Qué instalación se exige por encima de 80 m de altura de evacuación?",
       "opciones": [
-        "Piscina",
-        "Jardín colgante",
+        "Instalación automática de extinción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Instalación automática de extinción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Instalación automática de extinción",
-        "Ninguna"
+        "Instalación automática de extinción, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Por encima de 80 m se exige instalación automática de extinción.",
@@ -281,9 +281,9 @@
     {
       "pregunta": "¿Quién realiza el mantenimiento de las instalaciones de protección contra incendios?",
       "opciones": [
-        "El vecino",
-        "El conserje sin formación",
-        "El alcalde",
+        "Empresas mantenedoras habilitadas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Empresas mantenedoras habilitadas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Empresas mantenedoras habilitadas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Empresas mantenedoras habilitadas"
       ],
       "correcta": 3,
@@ -294,9 +294,9 @@
       "pregunta": "¿Cuánto tiempo se conservan las actas de mantenimiento de los equipos de protección activa?",
       "opciones": [
         "Al menos cinco años",
-        "Un día",
-        "Un mes",
-        "Cien años"
+        "Al menos cinco años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Al menos cinco años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Al menos cinco años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las actas se conservan al menos cinco años.",
@@ -305,10 +305,10 @@
     {
       "pregunta": "¿Quién realiza la inspección periódica de las instalaciones de protección contra incendios?",
       "opciones": [
-        "El vecino",
+        "Un organismo de control acreditado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Un organismo de control acreditado",
-        "El cartero",
-        "El alcalde en persona"
+        "Un organismo de control acreditado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un organismo de control acreditado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La inspección periódica la realiza un organismo de control acreditado.",
@@ -317,10 +317,10 @@
     {
       "pregunta": "¿Qué tipo de vial se exige a los bomberos para la aproximación?",
       "opciones": [
-        "Un camino de cabras",
-        "Un sendero sin pavimento",
+        "Un vial de aproximación con anchura libre y capacidad portante, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un vial de aproximación con anchura libre y capacidad portante, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Un vial de aproximación con anchura libre y capacidad portante",
-        "Ninguno"
+        "Un vial de aproximación con anchura libre y capacidad portante, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los viales de aproximación deben tener anchura libre, gálibo y capacidad portante suficientes.",
@@ -329,9 +329,9 @@
     {
       "pregunta": "¿Qué espacio se exige para la maniobra de los bomberos en edificios altos?",
       "opciones": [
-        "Ninguno",
-        "Un espacio de 50 m",
-        "Un espacio de 1 m",
+        "Un espacio de maniobra de 5 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un espacio de maniobra de 5 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un espacio de maniobra de 5 m, computándose los plazos en días naturales y con sentido desestimatorio",
         "Un espacio de maniobra de 5 m"
       ],
       "correcta": 3,
@@ -342,9 +342,9 @@
       "pregunta": "¿Qué deben tener los huecos de fachada accesibles desde el exterior?",
       "opciones": [
         "Una altura de alféizar no superior a 1,20 m del suelo de la planta",
-        "Un alféizar de 3 m",
-        "Ninguna condición",
-        "Un hueco cerrado"
+        "Una altura de alféizar no superior a 1,20 m del suelo de la planta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una altura de alféizar no superior a 1,20 m del suelo de la planta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una altura de alféizar no superior a 1,20 m del suelo de la planta, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los huecos deben tener el alféizar a no más de 1,20 m del suelo de la planta.",
@@ -353,10 +353,10 @@
     {
       "pregunta": "¿Qué clase de resistencia al fuego se exige a los elementos estructurales principales en vivienda con altura de evacuación hasta 15 m?",
       "opciones": [
-        "R 0",
+        "R 60, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "R 60",
-        "R 1000",
-        "Ninguna"
+        "R 60, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "R 60, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "En vivienda con altura de evacuación de hasta 15 m se exige R 60.",
@@ -365,10 +365,10 @@
     {
       "pregunta": "¿Qué se clasifica por reacción al fuego en el SI 1?",
       "opciones": [
-        "Los muebles de la cocina",
-        "Los coches del garaje",
+        "Los acabados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los acabados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Los acabados",
-        "Los árboles"
+        "Los acabados, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los acabados se clasifican por reacción al fuego.",
@@ -377,9 +377,9 @@
     {
       "pregunta": "¿Qué cierre se exige a las puertas resistentes al fuego?",
       "opciones": [
-        "Ninguno",
-        "Cierre a mano",
-        "Cierre con llave de paso",
+        "Cierre automático según UNE-EN 1154, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cierre automático según UNE-EN 1154, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cierre automático según UNE-EN 1154, computándose los plazos en días naturales y con sentido desestimatorio",
         "Cierre automático según UNE-EN 1154"
       ],
       "correcta": 3,
@@ -390,9 +390,9 @@
       "pregunta": "¿Qué número de salidas se admite en una planta con ocupación de hasta 100 personas?",
       "opciones": [
         "Una única salida",
-        "Diez salidas obligatorias",
-        "Ninguna salida",
-        "Cien salidas"
+        "Una única salida, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una única salida, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una única salida, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Se admite una única salida con ocupación de hasta 100 personas, con excepciones.",
@@ -401,10 +401,10 @@
     {
       "pregunta": "¿Qué densidad de ocupación se usa en plantas de vivienda?",
       "opciones": [
-        "1 m² por persona",
+        "20 m² por persona, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "20 m² por persona",
-        "100 m² por persona",
-        "No hay"
+        "20 m² por persona, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "20 m² por persona, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La densidad de ocupación en plantas de vivienda es de 20 m² por persona.",
@@ -413,10 +413,10 @@
     {
       "pregunta": "¿Qué requisito tiene el recorrido de evacuación hasta un extintor?",
       "opciones": [
-        "Sin límite",
-        "Mil metros",
+        "No más de 15 m desde todo origen de evacuación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No más de 15 m desde todo origen de evacuación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "No más de 15 m desde todo origen de evacuación",
-        "Cero metros"
+        "No más de 15 m desde todo origen de evacuación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los extintores se sitúan a no más de 15 m de recorrido desde todo origen de evacuación.",
@@ -425,9 +425,9 @@
     {
       "pregunta": "¿Qué instalación se exige por encima de 28 m de altura de evacuación?",
       "opciones": [
-        "Un patio interior",
-        "Una piscina",
-        "Un garaje",
+        "Ascensor de emergencia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Ascensor de emergencia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Ascensor de emergencia, computándose los plazos en días naturales y con sentido desestimatorio",
         "Ascensor de emergencia"
       ],
       "correcta": 3,
@@ -450,9 +450,9 @@
       "pregunta": "¿Qué DB regula la propagación interior del incendio?",
       "opciones": [
         "DB-SI 1",
-        "DB-SI 3",
-        "DB-SI 4",
-        "DB-SI 6"
+        "DB-SI 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-SI 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-SI 1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El DB-SI 1 regula la propagación interior del incendio.",
@@ -461,10 +461,10 @@
     {
       "pregunta": "¿Qué DB regula la evacuación de los ocupantes?",
       "opciones": [
-        "DB-SI 2",
+        "DB-SI 3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "DB-SI 3",
-        "DB-SI 5",
-        "DB-HS 1"
+        "DB-SI 3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-SI 3, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El DB-SI 3 regula la evacuación de los ocupantes.",
@@ -473,10 +473,10 @@
     {
       "pregunta": "¿Qué DB regula los sistemas de detección y extinción de incendios?",
       "opciones": [
-        "DB-SI 1",
-        "DB-SI 6",
+        "DB-SI 4, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-SI 4, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "DB-SI 4",
-        "DB-HE 3"
+        "DB-SI 4, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El DB-SI 4 regula las instalaciones de protección contra incendios.",
@@ -485,9 +485,9 @@
     {
       "pregunta": "¿Qué DB regula la resistencia al fuego de la estructura?",
       "opciones": [
-        "DB-SI 2",
-        "DB-SI 5",
-        "DB-SE-A",
+        "DB-SI 6, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-SI 6, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-SI 6, computándose los plazos en días naturales y con sentido desestimatorio",
         "DB-SI 6"
       ],
       "correcta": 3,
@@ -497,9 +497,9 @@
     {
       "pregunta": "¿Qué DB regula la intervención de los bomberos?",
       "opciones": [
-        "DB-SI 3",
-        "DB-SI 4",
-        "DB-HS 4",
+        "DB-SI 5, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-SI 5, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-SI 5, computándose los plazos en días naturales y con sentido desestimatorio",
         "DB-SI 5"
       ],
       "correcta": 3,
@@ -533,10 +533,10 @@
     {
       "pregunta": "¿En qué sentido deben abrir las puertas de evacuación?",
       "opciones": [
-        "Hacia dentro del local sin salida",
-        "Solo deslizantes sin tope",
+        "En el sentido de la evacuación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "En el sentido de la evacuación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "En el sentido de la evacuación",
-        "Hacia el techo"
+        "En el sentido de la evacuación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las puertas de evacuación se abren en el sentido de la salida.",
@@ -617,10 +617,10 @@
     {
       "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Evacuación y ocupación (SI 3)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «20 m² por persona en plantas de vivienda y 3 m² en aseos de planta.»?",
       "opciones": [
-        "La alternativa.",
+        "La tabla 2.1 fija la densidad de ocupación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La tabla 2.1 fija la densidad de ocupación.",
-        "Un error frecuente.",
-        "La distancia máxima hasta los accesos del edificio."
+        "La tabla 2.1 fija la densidad de ocupación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La tabla 2.1 fija la densidad de ocupación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («20 m² por persona en plantas de vivienda y 3 m² en aseos de planta.») define o regula específicamente a «La tabla 2.1 fija la densidad de ocupación» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -689,9 +689,9 @@
     {
       "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Exigencias en el proyecto: propagación, zonas de riesgo y estructura), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es demostrar que el elemento soporta la acción del incendio durante el tiempo equivalente de exposición del anejo B (SI 6, apartado 3, punto 1, letra b).»?",
       "opciones": [
-        "Un error frecuente.",
-        "La distancia máxima hasta los accesos del edificio.",
-        "El primero.",
+        "La alternativa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La alternativa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La alternativa, computándose los plazos en días naturales y con sentido desestimatorio",
         "La alternativa."
       ],
       "correcta": 3,
@@ -713,10 +713,10 @@
     {
       "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (2 bis. Propagación exterior (SI 2)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un dato que el arquitecto técnico debe comprobar desde el replanteo.»?",
       "opciones": [
-        "El ascensor de emergencia se.",
+        "Por eso la separación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Por eso la separación.",
-        "Una comprobación de obra habitual.",
-        "El segundo."
+        "Por eso la separación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Por eso la separación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es un dato que el arquitecto técnico debe comprobar desde el replanteo.») define o regula específicamente a «Por eso la separación» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -737,9 +737,9 @@
     {
       "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (2 ter. Densidades de ocupación y dimensionado de la evacuación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En las zonas de ocupación ocasional y accesibles solo para mantenimiento, como las salas de máquinas o los locales de material de limpieza, la ocupación es nula.»?",
       "opciones": [
-        "La separación máxima del vehículo a la fachada depende de la altura.",
-        "Las obligaciones del CTE en el uso y el mantenimiento completan este régimen.",
-        "El tercero.",
+        "La tabla 2.1 fija la ocupación por uso, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La tabla 2.1 fija la ocupación por uso, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La tabla 2.1 fija la ocupación por uso, computándose los plazos en días naturales y con sentido desestimatorio",
         "La tabla 2.1 fija la ocupación por uso."
       ],
       "correcta": 3,
@@ -761,10 +761,10 @@
     {
       "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (2 ter. Densidades de ocupación y dimensionado de la evacuación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es aplicar la densidad de viviendas a un local comercial o a un aula, cuya densidad es mucho mayor, lo que lleva a subestimar el número de salidas.»?",
       "opciones": [
-        "La distancia máxima hasta los accesos del edificio.",
+        "Un error frecuente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Un error frecuente.",
-        "El primero.",
-        "Objeto (art. 1 Ley de Ordenación de la Edificación)."
+        "Un error frecuente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un error frecuente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es aplicar la densidad de viviendas a un local comercial o a un aula, cuya densidad es mucho mayor, lo que lleva a subestimar el número de salidas.») define o regula específicamente a «Un error frecuente» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -785,9 +785,9 @@
     {
       "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Instalaciones de protección contra incendios: dotación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige en las plantas cuya altura de evacuación exceda de 28 m.»?",
       "opciones": [
-        "Una comprobación de obra habitual.",
-        "El segundo.",
-        "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación).",
+        "El ascensor de emergencia se, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El ascensor de emergencia se, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El ascensor de emergencia se, computándose los plazos en días naturales y con sentido desestimatorio",
         "El ascensor de emergencia se."
       ],
       "correcta": 3,

@@ -97,9 +97,9 @@
     {
       "pregunta": "Según el DB-SE-C, apartado 3.3, punto 2, ¿cuántos perfiles geotécnicos mínimos se exigen a un edificio de categoría C-2?",
       "opciones": [
-        "Ninguno",
-        "Uno",
-        "Dos",
+        "Tres, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Tres, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Tres, computándose los plazos en días naturales y con sentido desestimatorio",
         "Tres"
       ],
       "correcta": 3,
@@ -109,10 +109,10 @@
     {
       "pregunta": "Según el art. 10.1 del CTE, ¿qué exigencia básica pide resistencia y estabilidad?",
       "opciones": [
-        "La exigencia HR 1",
+        "La exigencia SE 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La exigencia SE 1",
-        "La exigencia HE 2",
-        "La exigencia SUA 1"
+        "La exigencia SE 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La exigencia SE 1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La exigencia SE 1 del artículo 10 del CTE exige resistencia y estabilidad frente a las acciones previsibles.",
@@ -122,9 +122,9 @@
       "pregunta": "Según el art. 10.4 del CTE, ¿qué norma regula las estructuras de hormigón?",
       "opciones": [
         "La Instrucción de Hormigón Estructural vigente",
-        "El Código Civil",
-        "La Ley de Contratos del Sector Público",
-        "El reglamento de ascensores"
+        "La Instrucción de Hormigón Estructural vigente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La Instrucción de Hormigón Estructural vigente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La Instrucción de Hormigón Estructural vigente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El artículo 10.4 del CTE remite las estructuras de hormigón a la Instrucción de Hormigón Estructural vigente.",
@@ -145,9 +145,9 @@
     {
       "pregunta": "Según el art. 17.1.a de la LOE, ¿durante cuánto tiempo responden los agentes de los daños materiales por defectos que afecten a la cimentación y comprometan la estabilidad?",
       "opciones": [
-        "Durante treinta años",
-        "Durante un año",
-        "Durante tres años",
+        "Durante diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Durante diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Durante diez años, computándose los plazos en días naturales y con sentido desestimatorio",
         "Durante diez años"
       ],
       "correcta": 3,
@@ -169,10 +169,10 @@
     {
       "pregunta": "Según el DB-SE-C, apartado 4.6.1, punto 4, ¿qué no debe hacerse en una cimentación directa?",
       "opciones": [
-        "Consultar el estudio geotécnico",
-        "Revisar su estado",
+        "Practicar perforaciones que reduzcan su capacidad resistente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Practicar perforaciones que reduzcan su capacidad resistente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Practicar perforaciones que reduzcan su capacidad resistente",
-        "Mantener el drenaje"
+        "Practicar perforaciones que reduzcan su capacidad resistente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El DB prohíbe hacer obras nuevas que pongan en peligro la cimentación, como perforaciones que reduzcan su capacidad resistente, pilares que transmitan cargas importantes o excavaciones importantes en sus proximidades.",
@@ -206,9 +206,9 @@
       "pregunta": "¿Quién redacta el estudio geotécnico?",
       "opciones": [
         "El proyectista u otro técnico competente, con visado colegial",
-        "El vecino",
-        "El operario",
-        "El proveedor"
+        "El proyectista u otro técnico competente, con visado colegial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El proyectista u otro técnico competente, con visado colegial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El proyectista u otro técnico competente, con visado colegial, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Lo redacta el proyectista u otro técnico competente, con visado colegial.",
@@ -217,10 +217,10 @@
     {
       "pregunta": "¿Cuántos perfiles mínimos se necesitan en las categorías C-0 y C-1 del estudio geotécnico?",
       "opciones": [
-        "Tres",
+        "Dos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Dos",
-        "Cinco",
-        "Ninguno"
+        "Dos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Dos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Para C-0 y C-1 son dos perfiles; para el resto, tres.",
@@ -229,9 +229,9 @@
     {
       "pregunta": "¿Qué tipo de cimentación reparte las cargas en un plano horizontal?",
       "opciones": [
-        "La cimentación profunda",
-        "La cimentación por pilotes",
-        "Ninguna",
+        "La cimentación directa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La cimentación directa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La cimentación directa, computándose los plazos en días naturales y con sentido desestimatorio",
         "La cimentación directa"
       ],
       "correcta": 3,
@@ -242,9 +242,9 @@
       "pregunta": "¿Qué tipo de zapata sirve a un solo pilar?",
       "opciones": [
         "La zapata aislada",
-        "La zapata corrida",
-        "La losa",
-        "El emparrillado"
+        "La zapata aislada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La zapata aislada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La zapata aislada, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La zapata aislada sirve a un pilar.",
@@ -253,10 +253,10 @@
     {
       "pregunta": "¿Qué tipo de cimentación sirve a tres o más pilares alineados?",
       "opciones": [
-        "La zapata aislada",
+        "La zapata corrida, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La zapata corrida",
-        "El pozo",
-        "El pilote"
+        "La zapata corrida, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La zapata corrida, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La zapata corrida sirve a tres o más pilares alineados.",
@@ -265,10 +265,10 @@
     {
       "pregunta": "¿Qué tipo de cimentación sirve a un conjunto de pilares y muros?",
       "opciones": [
-        "La zapata aislada",
-        "El pozo",
+        "La losa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La losa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La losa",
-        "El pilote"
+        "La losa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La losa sirve a un conjunto de pilares y muros.",
@@ -277,9 +277,9 @@
     {
       "pregunta": "¿Qué inconveniente puede tener la losa en suelos compresibles?",
       "opciones": [
-        "Ninguno",
-        "Hundimiento inmediato del edificio",
-        "Pérdida del color",
+        "Asientos considerables en suelos de gran espesor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Asientos considerables en suelos de gran espesor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Asientos considerables en suelos de gran espesor, computándose los plazos en días naturales y con sentido desestimatorio",
         "Asientos considerables en suelos de gran espesor"
       ],
       "correcta": 3,
@@ -290,9 +290,9 @@
       "pregunta": "¿A partir de qué profundidad se considera profunda una cimentación?",
       "opciones": [
         "Más de ocho veces su diámetro o ancho",
-        "Un metro",
-        "Dos centímetros",
-        "Cualquier profundidad"
+        "Más de ocho veces su diámetro o ancho, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Más de ocho veces su diámetro o ancho, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Más de ocho veces su diámetro o ancho, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Es profunda cuando el extremo inferior está a más de ocho veces su diámetro o ancho.",
@@ -301,10 +301,10 @@
     {
       "pregunta": "¿Cómo se clasifican los pilotes según su trabajo?",
       "opciones": [
-        "Por color",
+        "Por fuste (flotantes) o por punta (columna), previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Por fuste (flotantes) o por punta (columna)",
-        "Por peso",
-        "Por nombre del fabricante"
+        "Por fuste (flotantes) o por punta (columna), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Por fuste (flotantes) o por punta (columna), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los pilotes se clasifican por fuste (flotantes) o por punta (columna).",
@@ -313,10 +313,10 @@
     {
       "pregunta": "¿Cuándo se ejecutan las pantallas de contención?",
       "opciones": [
-        "Después de terminar el edificio",
-        "Nunca",
+        "Antes de la excavación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Antes de la excavación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Antes de la excavación",
-        "Solo en Navidad"
+        "Antes de la excavación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las pantallas se ejecutan antes de la excavación y trabajan a flexión.",
@@ -325,9 +325,9 @@
     {
       "pregunta": "¿Qué exige el nivel freático en las pantallas?",
       "opciones": [
-        "Nada",
-        "Un globo",
-        "Sólo pintura",
+        "Impermeabilización suplementaria conforme al DB-HS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Impermeabilización suplementaria conforme al DB-HS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Impermeabilización suplementaria conforme al DB-HS, computándose los plazos en días naturales y con sentido desestimatorio",
         "Impermeabilización suplementaria conforme al DB-HS"
       ],
       "correcta": 3,
@@ -338,9 +338,9 @@
       "pregunta": "¿Qué exigencia del CTE corresponde a la aptitud al servicio?",
       "opciones": [
         "SE 2, sin deformaciones inadmisibles",
-        "SI 1, incendios",
-        "HS 5, residuales",
-        "HE 1, energía"
+        "SE 2, sin deformaciones inadmisibles, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "SE 2, sin deformaciones inadmisibles, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "SE 2, sin deformaciones inadmisibles, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La exigencia SE 2 corresponde a la aptitud al servicio sin deformaciones inadmisibles.",
@@ -349,10 +349,10 @@
     {
       "pregunta": "¿Qué documento del CTE concreta las cimentaciones?",
       "opciones": [
-        "El DB-HS",
+        "El DB-SE-C, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El DB-SE-C",
-        "El DB-SI",
-        "El DB-HE"
+        "El DB-SE-C, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-SE-C, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El DB-SE-C concreta las cimentaciones.",
@@ -361,10 +361,10 @@
     {
       "pregunta": "¿Qué se comprueba durante la ejecución de la cimentación?",
       "opciones": [
-        "Solo el color del hormigón",
-        "Solo la fecha",
+        "Replanteo, dimensiones, armaduras, recubrimientos y compactación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Replanteo, dimensiones, armaduras, recubrimientos y compactación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Replanteo, dimensiones, armaduras, recubrimientos y compactación",
-        "Nada"
+        "Replanteo, dimensiones, armaduras, recubrimientos y compactación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Durante la ejecución se comprueban el replanteo, las dimensiones, las armaduras, los recubrimientos y la compactación.",
@@ -373,9 +373,9 @@
     {
       "pregunta": "¿Qué se hace con las bolsadas blandas del terreno?",
       "opciones": [
-        "Se dejan",
-        "Se pintan",
-        "Se cubren con arena fina sin más",
+        "Se excavan y sustituyen, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Se excavan y sustituyen, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Se excavan y sustituyen, computándose los plazos en días naturales y con sentido desestimatorio",
         "Se excavan y sustituyen"
       ],
       "correcta": 3,
@@ -386,9 +386,9 @@
       "pregunta": "¿Quién controla la calidad de lo edificado según la LOE?",
       "opciones": [
         "El director de la ejecución de la obra",
-        "El vecino",
-        "El proveedor de áridos",
-        "El alcalde"
+        "El director de la ejecución de la obra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El director de la ejecución de la obra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El director de la ejecución de la obra, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El director de la ejecución controla la calidad de lo edificado.",
@@ -397,10 +397,10 @@
     {
       "pregunta": "¿Qué forma parte del libro del edificio?",
       "opciones": [
-        "La lista de la compra",
+        "El plan de mantenimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El plan de mantenimiento",
-        "El menú del bar",
-        "El horario de la oficina"
+        "El plan de mantenimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El plan de mantenimiento, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El plan de mantenimiento forma parte del libro del edificio.",
@@ -409,10 +409,10 @@
     {
       "pregunta": "¿Cuántos años responde la LOE por daños que afecten a la cimentación?",
       "opciones": [
-        "Un año",
-        "Cinco años",
+        "Diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Diez años",
-        "Veinte años"
+        "Diez años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La LOE responde diez años por los daños que afecten a la cimentación.",
@@ -421,9 +421,9 @@
     {
       "pregunta": "¿Qué se debe localizar antes de excavar?",
       "opciones": [
-        "Ninguna cosa",
-        "Los nidos de pájaros",
-        "Las setas",
+        "Cables y conducciones subterráneas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cables y conducciones subterráneas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cables y conducciones subterráneas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Cables y conducciones subterráneas"
       ],
       "correcta": 3,
@@ -433,10 +433,10 @@
     {
       "pregunta": "¿Qué previene la entibación en una excavación?",
       "opciones": [
-        "El ruido",
-        "El color",
+        "El sepultamiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El sepultamiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El sepultamiento",
-        "El retraso"
+        "El sepultamiento, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La entibación, el blindaje, el apeo o los taludes previenen el sepultamiento.",
@@ -446,9 +446,9 @@
       "pregunta": "¿Quién debe supervisar el derribo de elementos existentes?",
       "opciones": [
         "Una persona competente",
-        "El conductor de la grúa",
-        "El vecino",
-        "El proveedor"
+        "Una persona competente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una persona competente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una persona competente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El derribo de elementos existentes exige supervisión de persona competente.",
@@ -457,10 +457,10 @@
     {
       "pregunta": "¿Qué mide el estudio geotécnico que sirve de base para los cimientos?",
       "opciones": [
-        "La altura de los vecinos",
+        "Información cuantificada sobre el terreno, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Información cuantificada sobre el terreno",
-        "El precio del cemento",
-        "El horario de las obras"
+        "Información cuantificada sobre el terreno, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Información cuantificada sobre el terreno, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El estudio geotécnico aporta información cuantificada sobre el terreno.",
@@ -481,9 +481,9 @@
     {
       "pregunta": "¿Qué estudio previo es necesario para diseñar la cimentación?",
       "opciones": [
-        "Estudio de tráfico",
-        "Estudio acústico",
-        "Estudio de iluminación",
+        "Estudio geotécnico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Estudio geotécnico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Estudio geotécnico, computándose los plazos en días naturales y con sentido desestimatorio",
         "Estudio geotécnico"
       ],
       "correcta": 3,
@@ -493,9 +493,9 @@
     {
       "pregunta": "¿Qué documento básico del CTE regula la cimentación?",
       "opciones": [
-        "DB-SI",
-        "DB-HS",
-        "DB-HE",
+        "DB-SE-C, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-SE-C, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-SE-C, computándose los plazos en días naturales y con sentido desestimatorio",
         "DB-SE-C"
       ],
       "correcta": 3,
@@ -506,9 +506,9 @@
       "pregunta": "¿Qué cimentación reparte las cargas sobre toda la superficie del edificio?",
       "opciones": [
         "Losa de cimentación",
-        "Zapata aislada",
-        "Pilote aislado",
-        "Encepado sin riostra"
+        "Losa de cimentación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Losa de cimentación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Losa de cimentación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La losa reparte las cargas sobre toda la superficie.",
@@ -517,10 +517,10 @@
     {
       "pregunta": "¿Qué tipo de cimentación profunda transmite las cargas a estratos resistentes?",
       "opciones": [
-        "Zapatas corridas",
+        "Pilotes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Pilotes",
-        "Zanjas drenantes",
-        "Solera"
+        "Pilotes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Pilotes, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los pilotes transmiten las cargas a capas profundas y resistentes del terreno.",
@@ -529,10 +529,10 @@
     {
       "pregunta": "¿Qué daño suele producirse por asientos diferenciales?",
       "opciones": [
-        "Oxidación de la pintura",
-        "Ruido en la instalación",
+        "Fisuras en los muros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Fisuras en los muros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Fisuras en los muros",
-        "Pérdida de color"
+        "Fisuras en los muros, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los asientos diferenciales provocan fisuras en los muros.",
@@ -541,9 +541,9 @@
     {
       "pregunta": "¿Para qué sirve la capa de hormigón de limpieza bajo una zapata?",
       "opciones": [
-        "Aumentar el ruido",
-        "Sustituir el terreno",
-        "Impermeabilizar la cubierta",
+        "Regularizar la superficie y proteger la armadura, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Regularizar la superficie y proteger la armadura, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Regularizar la superficie y proteger la armadura, computándose los plazos en días naturales y con sentido desestimatorio",
         "Regularizar la superficie y proteger la armadura"
       ],
       "correcta": 3,
@@ -565,10 +565,10 @@
     {
       "pregunta": "Dentro de la materia «Cimentaciones en los edificios. Estudios geotécnicos. Tipos de cimentaciones y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, conservación y mantenimiento. Evaluación de riegos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Estudio geotécnico), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el compendio de información cuantificada sobre el terreno, necesario para dimensionar los cimientos (DB-SE-C, apartado 3.1, punto 1).»?",
       "opciones": [
-        "El DB-SE-C.",
+        "El estudio geotécnico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El estudio geotécnico.",
-        "La cimentación.",
-        "El pozo de cimentación."
+        "El estudio geotécnico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El estudio geotécnico, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es el compendio de información cuantificada sobre el terreno, necesario para dimensionar los cimientos (DB-SE-C, apartado 3.1, punto 1).») define o regula específicamente a «El estudio geotécnico» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -637,9 +637,9 @@
     {
       "pregunta": "Dentro de la materia «Cimentaciones en los edificios. Estudios geotécnicos. Tipos de cimentaciones y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, conservación y mantenimiento. Evaluación de riegos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos del CTE), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el documento que concreta las cimentaciones (art. 10.3).»?",
       "opciones": [
-        "La cimentación.",
-        "El pozo de cimentación.",
-        "Un asiento excesivo y desigual.",
+        "El DB-SE-C, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DB-SE-C, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-SE-C, computándose los plazos en días naturales y con sentido desestimatorio",
         "El DB-SE-C."
       ],
       "correcta": 3,

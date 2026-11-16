@@ -66,10 +66,10 @@
     {
       "pregunta": "¿Qué agente decide, impulsa, programa y financia la edificación?",
       "opciones": [
-        "El proyectista",
-        "El constructor",
+        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El promotor",
-        "El director de obra"
+        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 9.1 LOE define como promotor a quien decide, impulsa, programa y financia la edificación.",
@@ -78,10 +78,10 @@
     {
       "pregunta": "¿Qué agente redacta el proyecto por encargo del promotor?",
       "opciones": [
-        "El director de obra",
+        "El proyectista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El proyectista",
-        "El constructor",
-        "El suministrador de productos"
+        "El proyectista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El proyectista, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El proyectista es el agente que, por encargo del promotor, redacta el proyecto.",
@@ -90,10 +90,10 @@
     {
       "pregunta": "¿Durante cuánto tiempo responden los agentes por daños materiales en cimentación, pilares, vigas, forjados o muros de carga?",
       "opciones": [
-        "1 año",
-        "3 años",
+        "10 años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "10 años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "10 años",
-        "15 años"
+        "10 años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 17.1.a LOE establece diez años para los daños estructurales.",
@@ -102,10 +102,10 @@
     {
       "pregunta": "¿Cuál es el plazo de responsabilidad por daños por vicios que incumplan los requisitos de habitabilidad?",
       "opciones": [
-        "1 año",
+        "2 años improrrogables",
         "3 años",
-        "5 años",
-        "10 años"
+        "3 años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "3 años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El art. 17.1.b LOE fija tres años para los daños por vicios o defectos de elementos constructivos o instalaciones que incumplan la habitabilidad.",
@@ -115,9 +115,9 @@
       "pregunta": "¿Y el plazo para los defectos de acabado?",
       "opciones": [
         "Un año",
-        "Tres años",
-        "Cinco años",
-        "Seis meses"
+        "Un año, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un año, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un año, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los defectos de acabado tienen un plazo de un año, dentro del cual responde el constructor.",
@@ -126,9 +126,9 @@
     {
       "pregunta": "¿Quién está obligado a suscribir el seguro de daños materiales de diez años?",
       "opciones": [
-        "El constructor",
-        "El proyectista",
-        "El propietario",
+        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio",
         "El promotor"
       ],
       "correcta": 3,
@@ -150,9 +150,9 @@
     {
       "pregunta": "¿Quién entrega la obra al promotor en el acto de recepción?",
       "opciones": [
-        "El director de obra",
-        "El proyectista",
-        "La entidad de control de calidad",
+        "El constructor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El constructor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El constructor, computándose los plazos en días naturales y con sentido desestimatorio",
         "El constructor"
       ],
       "correcta": 3,
@@ -199,9 +199,9 @@
       "pregunta": "¿Quién decide, impulsa, programa y financia la edificación?",
       "opciones": [
         "El promotor",
-        "El proyectista",
-        "El constructor",
-        "El usuario"
+        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El promotor decide, impulsa, programa y financia la edificación.",
@@ -210,10 +210,10 @@
     {
       "pregunta": "¿Quién redacta el proyecto de edificación por encargo del promotor?",
       "opciones": [
-        "El constructor",
+        "El proyectista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El proyectista",
-        "El usuario",
-        "El suministrador"
+        "El proyectista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El proyectista, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El proyectista redacta el proyecto por encargo del promotor.",
@@ -222,10 +222,10 @@
     {
       "pregunta": "¿Quién ejecuta la obra con medios humanos y materiales?",
       "opciones": [
-        "El promotor",
-        "El usuario",
+        "El constructor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El constructor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El constructor",
-        "El proyectista"
+        "El constructor, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El constructor ejecuta la obra con medios humanos y materiales.",
@@ -235,9 +235,9 @@
       "pregunta": "¿Quién dirige y controla el desarrollo técnico de la obra?",
       "opciones": [
         "El director de obra y el director de la ejecución",
-        "El usuario",
-        "El proveedor",
-        "El vecino"
+        "El director de obra y el director de la ejecución, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El director de obra y el director de la ejecución, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El director de obra y el director de la ejecución, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los directores de obra y de la ejecución dirigen y controlan el desarrollo técnico.",
@@ -246,10 +246,10 @@
     {
       "pregunta": "¿Qué agentes son los laboratorios de control de calidad?",
       "opciones": [
-        "Los músicos",
+        "Entidades y laboratorios de control de calidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Entidades y laboratorios de control de calidad",
-        "Los vecinos",
-        "Los periodistas"
+        "Entidades y laboratorios de control de calidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Entidades y laboratorios de control de calidad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las entidades y laboratorios de control de calidad son agentes de la edificación.",
@@ -258,34 +258,22 @@
     {
       "pregunta": "¿Qué agente suministra los productos a la obra?",
       "opciones": [
-        "El promotor",
-        "El usuario",
+        "El suministrador de productos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El suministrador de productos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El suministrador de productos",
-        "El vecino"
+        "El suministrador de productos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El suministrador de productos aporta los productos a la obra.",
       "referencia": "LOE, art. 15"
     },
     {
-      "pregunta": "¿Qué tres grupos de requisitos básicos recoge la LOE?",
-      "opciones": [
-        "Color, forma y tamaño",
-        "Precio, plazo y calidad",
-        "Ruido, luz y agua",
-        "Funcionalidad, seguridad y habitabilidad"
-      ],
-      "correcta": 3,
-      "explicacion": "Los requisitos básicos son funcionalidad, seguridad y habitabilidad.",
-      "referencia": "LOE, art. 3"
-    },
-    {
       "pregunta": "¿Qué tipos de seguridad recoge la LOE?",
       "opciones": [
         "Estructural, en caso de incendio y de utilización",
-        "Solo de tráfico",
-        "Solo de la lluvia",
-        "Ninguna"
+        "Estructural, en caso de incendio y de utilización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Estructural, en caso de incendio y de utilización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Estructural, en caso de incendio y de utilización, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La seguridad se divide en estructural, en caso de incendio y de utilización.",
@@ -294,10 +282,10 @@
     {
       "pregunta": "¿Qué aspectos abarca la habitabilidad según la LOE?",
       "opciones": [
-        "Solo la pintura",
+        "Higiene, salud, medio ambiente, ruido, ahorro de energía y aislamiento térmico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Higiene, salud, medio ambiente, ruido, ahorro de energía y aislamiento térmico",
-        "Solo el jardín",
-        "Solo la piscina"
+        "Higiene, salud, medio ambiente, ruido, ahorro de energía y aislamiento térmico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Higiene, salud, medio ambiente, ruido, ahorro de energía y aislamiento térmico, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La habitabilidad incluye higiene, salud, medio ambiente, ruido, ahorro de energía y aislamiento térmico.",
@@ -306,10 +294,10 @@
     {
       "pregunta": "¿Qué desarrolla técnicamente los requisitos básicos de la LOE?",
       "opciones": [
-        "La LEF",
-        "La LGS",
+        "El CTE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El CTE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El CTE",
-        "La LCSP"
+        "El CTE, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El CTE desarrolla técnicamente los requisitos básicos.",
@@ -354,10 +342,10 @@
     {
       "pregunta": "¿Quién está obligado a suscribir el seguro decenal?",
       "opciones": [
-        "El vecino",
-        "El usuario",
+        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El promotor",
-        "El laboratorio"
+        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El promotor es el obligado a suscribir el seguro.",
@@ -366,9 +354,9 @@
     {
       "pregunta": "¿Para qué tipo de edificios es obligatorio el seguro decenal?",
       "opciones": [
-        "Para los de pesca",
-        "Para los de caza",
-        "Para ninguno",
+        "Para los de uso principal de vivienda, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Para los de uso principal de vivienda, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Para los de uso principal de vivienda, computándose los plazos en días naturales y con sentido desestimatorio",
         "Para los de uso principal de vivienda"
       ],
       "correcta": 3,
@@ -379,9 +367,9 @@
       "pregunta": "¿Cuántos años responde la LOE por daños en cimentación y estructura?",
       "opciones": [
         "Diez años",
-        "Un año",
-        "Tres años",
-        "Veinte años"
+        "Diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Diez años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La LOE responde diez años por daños en cimentación y elementos estructurales.",
@@ -390,10 +378,10 @@
     {
       "pregunta": "¿Qué responsabilidad tienen los defectos de acabado según la LOE?",
       "opciones": [
-        "Diez años",
+        "Un año desde la recepción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Un año desde la recepción",
-        "Cinco años",
-        "No hay"
+        "Un año desde la recepción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un año desde la recepción, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los defectos de acabado tienen un año de garantía desde la recepción.",
@@ -402,10 +390,10 @@
     {
       "pregunta": "¿Qué obligación tienen los propietarios y usuarios respecto al uso del edificio?",
       "opciones": [
-        "Usarlo como quieran",
-        "Destruirlo",
+        "Conservarlo y usarlo conforme a sus instrucciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Conservarlo y usarlo conforme a sus instrucciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Conservarlo y usarlo conforme a sus instrucciones",
-        "Nada"
+        "Conservarlo y usarlo conforme a sus instrucciones, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los propietarios y usuarios deben conservar y usar el edificio conforme a sus instrucciones.",
@@ -414,9 +402,9 @@
     {
       "pregunta": "¿Quién hace la entrega de la obra al promotor?",
       "opciones": [
-        "El usuario",
-        "El proveedor",
-        "El vecino",
+        "El constructor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El constructor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El constructor, computándose los plazos en días naturales y con sentido desestimatorio",
         "El constructor"
       ],
       "correcta": 3,
@@ -426,10 +414,10 @@
     {
       "pregunta": "¿Qué requisito básico agrupa la seguridad estructural y de incendio?",
       "opciones": [
-        "La habitabilidad",
-        "La funcionalidad",
+        "La seguridad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La seguridad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La seguridad",
-        "La estética"
+        "La seguridad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La seguridad incluye la estructural, en caso de incendio y de utilización.",
@@ -439,9 +427,9 @@
       "pregunta": "¿Qué documento final del director de obra da lugar al Libro del Edificio?",
       "opciones": [
         "La documentación final de la obra",
-        "El menú del día",
-        "La factura de la luz",
-        "El listado de invitados"
+        "La documentación final de la obra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La documentación final de la obra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La documentación final de la obra, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La documentación final constituye el Libro del Edificio.",
@@ -450,10 +438,10 @@
     {
       "pregunta": "¿Qué agente tiene el seguro de daños que cubre los daños estructurales?",
       "opciones": [
-        "El usuario",
+        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El promotor",
-        "El vecino",
-        "El jardinero"
+        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El promotor es el obligado a suscribir el seguro.",
@@ -462,10 +450,10 @@
     {
       "pregunta": "¿Qué pide el requisito de habitabilidad frente al ruido?",
       "opciones": [
-        "Un color determinado",
-        "Una altura de techo mínima",
+        "Protección contra el ruido, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Protección contra el ruido, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Protección contra el ruido",
-        "Un tipo de puerta"
+        "Protección contra el ruido, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La protección contra el ruido es un requisito de habitabilidad.",
@@ -474,9 +462,9 @@
     {
       "pregunta": "¿Qué seguro es obligatorio para el promotor de edificios de viviendas?",
       "opciones": [
-        "Seguro de viaje",
-        "Seguro de automóvil",
-        "Seguro de hogar sin daños",
+        "Seguro de daños materiales (decenal), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Seguro de daños materiales (decenal), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Seguro de daños materiales (decenal), computándose los plazos en días naturales y con sentido desestimatorio",
         "Seguro de daños materiales (decenal)"
       ],
       "correcta": 3,
@@ -486,9 +474,9 @@
     {
       "pregunta": "¿Qué plazo de garantía tienen los daños estructurales según la LOE?",
       "opciones": [
-        "Un año",
-        "Tres años",
-        "Cinco años",
+        "Diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Diez años, computándose los plazos en días naturales y con sentido desestimatorio",
         "Diez años"
       ],
       "correcta": 3,
@@ -499,9 +487,9 @@
       "pregunta": "¿Qué agente de la edificación elabora el proyecto?",
       "opciones": [
         "El proyectista",
-        "El inquilino",
-        "El vecino",
-        "El registrador de la propiedad"
+        "El proyectista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El proyectista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El proyectista, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El proyectista redacta el proyecto técnico de la edificación.",
@@ -510,10 +498,10 @@
     {
       "pregunta": "¿Qué agente ejecuta las obras de edificación?",
       "opciones": [
-        "El notario",
+        "El constructor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El constructor",
-        "El interventor municipal",
-        "El agente de la propiedad inmobiliaria"
+        "El constructor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El constructor, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El constructor es el agente que ejecuta la obra.",
@@ -522,10 +510,10 @@
     {
       "pregunta": "¿Qué agente de la edificación asume la iniciativa y costea la edificación?",
       "opciones": [
-        "El proyectista",
-        "El director de obra",
+        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El promotor",
-        "El técnico de control"
+        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El promotor impulsa y financia la edificación.",
@@ -534,9 +522,9 @@
     {
       "pregunta": "¿Qué agente dirige el desarrollo de la obra en los aspectos técnicos y estéticos?",
       "opciones": [
-        "El promotor",
-        "El constructor",
-        "El representante de la comunidad",
+        "El director de obra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El director de obra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El director de obra, computándose los plazos en días naturales y con sentido desestimatorio",
         "El director de obra"
       ],
       "correcta": 3,
@@ -558,10 +546,10 @@
     {
       "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Decide, impulsa, programa y financia la edificación.»?",
       "opciones": [
-        "Director de obra (art. 12) y director de la ejecución de la obra (art. 13).",
+        "Promotor (art. 9), previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Promotor (art. 9).",
-        "Habitabilidad.",
-        "Su desarrollo técnico."
+        "Promotor (art. 9), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Promotor (art. 9), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Decide, impulsa, programa y financia la edificación.») define o regula específicamente a «Promotor (art. 9)» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -582,9 +570,9 @@
     {
       "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Redacta el proyecto por encargo del promotor, de acuerdo con la normativa técnica y urbanística.»?",
       "opciones": [
-        "Tres grupos.",
-        "Recepción.",
-        "Su finalidad.",
+        "Proyectista (art. 10), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Proyectista (art. 10), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Proyectista (art. 10), computándose los plazos en días naturales y con sentido desestimatorio",
         "Proyectista (art. 10)."
       ],
       "correcta": 3,
@@ -606,10 +594,10 @@
     {
       "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Ejecuta la obra con medios humanos y materiales.»?",
       "opciones": [
-        "Seguridad.",
+        "Constructor (art. 11), previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Constructor (art. 11).",
-        "El promotor.",
-        "El Código Técnico de la Edificación."
+        "Constructor (art. 11), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Constructor (art. 11), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Ejecuta la obra con medios humanos y materiales.») define o regula específicamente a «Constructor (art. 11)» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -630,9 +618,9 @@
     {
       "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Dirigen y controlan el desarrollo técnico de la obra.»?",
       "opciones": [
-        "Habitabilidad.",
-        "Su desarrollo técnico.",
-        "El proyecto.",
+        "Director de obra (art. 12) y director de la ejecución de la obra (art. 13), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Director de obra (art. 12) y director de la ejecución de la obra (art. 13), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Director de obra (art. 12) y director de la ejecución de la obra (art. 13), computándose los plazos en días naturales y con sentido desestimatorio",
         "Director de obra (art. 12) y director de la ejecución de la obra (art. 13)."
       ],
       "correcta": 3,
@@ -640,47 +628,23 @@
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     },
     {
-      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos (art. 3)), ¿qué establece la normativa respecto a «Tres grupos»?",
-      "opciones": [
-        "Funcionalidad, seguridad y habitabilidad.",
-        "Acto por el que el constructor, una vez concluida la obra, la entrega al promotor, que la acepta.",
-        "Es garantizar la seguridad de las personas, el bienestar de la sociedad y la protección del medio ambiente.",
-        "El primero controla la ejecución material, y el segundo, los aspectos técnicos y estéticos del proyecto."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «Tres grupos» (Requisitos básicos (art. 3)), la regulación vigente establece que: Funcionalidad, seguridad y habitabilidad.",
-      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-    },
-    {
       "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos (art. 3)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Funcionalidad, seguridad y habitabilidad.»?",
       "opciones": [
-        "Recepción.",
+        "Tres grupos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Tres grupos.",
-        "Su finalidad.",
-        "Es distinto del director de obra."
+        "Tres grupos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Tres grupos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Funcionalidad, seguridad y habitabilidad.») define o regula específicamente a «Tres grupos» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     },
     {
-      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos (art. 3)), ¿qué establece la normativa respecto a «Seguridad»?",
-      "opciones": [
-        "Es el obligado a suscribirlo (art. 9.2.d).",
-        "Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE.",
-        "Estructural, en caso de incendio y de utilización.",
-        "Es el acto por el cual el constructor, una vez concluida la obra, hace entrega de la misma al promotor, que la acepta (art. 6.1)."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «Seguridad» (Requisitos básicos (art. 3)), la regulación vigente establece que: Estructural, en caso de incendio y de utilización.",
-      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-    },
-    {
       "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos (art. 3)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Estructural, en caso de incendio y de utilización.»?",
       "opciones": [
-        "El promotor.",
-        "El Código Técnico de la Edificación.",
-        "La recepción de la obra.",
+        "Seguridad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Seguridad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Seguridad, computándose los plazos en días naturales y con sentido desestimatorio",
         "Seguridad."
       ],
       "correcta": 3,
@@ -702,10 +666,10 @@
     {
       "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos (art. 3)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Higiene, salud, protección del medio ambiente, protección frente al ruido, ahorro de energía y aislamiento térmico.»?",
       "opciones": [
-        "Su desarrollo técnico.",
+        "Habitabilidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Habitabilidad.",
-        "El proyecto.",
-        "El artículo 7."
+        "Habitabilidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Habitabilidad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Higiene, salud, protección del medio ambiente, protección frente al ruido, ahorro de energía y aislamiento térmico.») define o regula específicamente a «Habitabilidad» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -726,9 +690,9 @@
     {
       "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Recepción y Libro del Edificio (arts. 6 y 7)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Acto por el que el constructor, una vez concluida la obra, la entrega al promotor, que la acepta.»?",
       "opciones": [
-        "Su finalidad.",
-        "Es distinto del director de obra.",
-        "El artículo 17.",
+        "Recepción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Recepción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Recepción, computándose los plazos en días naturales y con sentido desestimatorio",
         "Recepción."
       ],
       "correcta": 3,
@@ -750,10 +714,10 @@
     {
       "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Seguros obligatorios (art. 19)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el obligado a suscribirlo (art. 9.2.d).»?",
       "opciones": [
-        "El Código Técnico de la Edificación.",
+        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El promotor.",
-        "La recepción de la obra.",
-        "Los plazos."
+        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es el obligado a suscribirlo (art. 9.2.d).») define o regula específicamente a «El promotor» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -774,13 +738,49 @@
     {
       "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Origen, naturaleza y objeto), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Corresponde a normas como el Código Técnico de la Edificación (CTE), aprobado por el Real Decreto 314/2006, de 17 de marzo, que la propia ley menciona como referente técnico de los requisitos básicos.»?",
       "opciones": [
-        "El proyecto.",
-        "El artículo 7.",
-        "El artículo 18.",
+        "Su desarrollo técnico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Su desarrollo técnico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Su desarrollo técnico, computándose los plazos en días naturales y con sentido desestimatorio",
         "Su desarrollo técnico."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Corresponde a normas como el Código Técnico de la Edificación (CTE), aprobado por el Real Decreto 314/2006, de 17 de marzo, que la propia ley menciona como referente técnico de los requisitos básicos.») define o regula específicamente a «Su desarrollo técnico» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Recepción y Libro del Edificio (arts. 6 y 7)» (Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Acto por el que el constructor, una vez concluida la obra, la entrega al promotor, que la acepta.»?",
+      "opciones": [
+        "Recepción.",
+        "Su desarrollo técnico.",
+        "El Código Técnico de la Edificación.",
+        "Es distinto del director de obra."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha regulación («Acto por el que el constructor, una vez concluida la obra, la entrega al promotor, que la acepta.») define o regula específicamente a «Recepción» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En relación con «Su finalidad» (Requisitos básicos de la edificación (art. 3)), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Es garantizar la seguridad de las personas, el bienestar de la sociedad y la protección del medio ambiente, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Es garantizar la seguridad de las personas, el bienestar de la sociedad y la protección del medio ambiente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Es garantizar la seguridad de las personas, el bienestar de la sociedad y la protección del medio ambiente.",
+        "Es garantizar la seguridad de las personas, el bienestar de la sociedad y la protección del medio ambiente, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Su finalidad» (Requisitos básicos de la edificación (art. 3)), la regulación vigente establece que: Es garantizar la seguridad de las personas, el bienestar de la sociedad y la protección del medio ambiente.",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En relación con «El Código Técnico de la Edificación» (Requisitos básicos de la edificación (art. 3)), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE, computándose los plazos en días naturales y con sentido desestimatorio.",
+        "Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El Código Técnico de la Edificación» (Requisitos básicos de la edificación (art. 3)), la regulación vigente establece que: Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE.",
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     }
   ]

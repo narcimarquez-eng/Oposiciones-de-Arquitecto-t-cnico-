@@ -82,9 +82,9 @@
       "pregunta": "Según el DB-SUA 1, apartado 3.2.1, ¿qué altura mínima tiene una barrera de protección cuando la diferencia de cota no excede de 6 m?",
       "opciones": [
         "0,90 m",
-        "1,10 m",
-        "1,50 m",
-        "0,60 m"
+        "0,90 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "0,90 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "0,90 m, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Cuando la diferencia de cota que protegen no excede de 6 m, la altura mínima de la barrera es de 0,90 m.",
@@ -93,10 +93,10 @@
     {
       "pregunta": "Según el DB-SUA 1, apartado 3.2.1, punto 1, ¿qué altura mínima tiene una barrera cuando la diferencia de cota supera los 6 m?",
       "opciones": [
-        "2,20 m",
-        "0,90 m",
+        "1,10 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "1,10 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "1,10 m",
-        "1,30 m"
+        "1,10 m, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "En el resto de los casos, la barrera tendrá una altura mínima de 1,10 m.",
@@ -105,9 +105,9 @@
     {
       "pregunta": "Según el DB-SUA 2, apartado 1.3, punto 2, ¿hasta qué altura se extiende el área de riesgo de impacto en una puerta?",
       "opciones": [
-        "2,20 m",
-        "1,10 m",
-        "0,90 m",
+        "1,50 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "1,50 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "1,50 m, computándose los plazos en días naturales y con sentido desestimatorio",
         "1,50 m"
       ],
       "correcta": 3,
@@ -117,10 +117,10 @@
     {
       "pregunta": "Según el DB-SUA 2, apartado 2, punto 1, ¿qué holgura mínima debe existir entre una puerta corredera de accionamiento manual y el objeto fijo más próximo?",
       "opciones": [
-        "10 cm",
+        "20 cm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "20 cm",
-        "50 cm",
-        "5 cm"
+        "20 cm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "20 cm, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La distancia a hasta el objeto fijo más próximo será de 20 cm como mínimo, para evitar el atrapamiento.",
@@ -130,9 +130,9 @@
       "pregunta": "Según el DB-SUA 2, apartado 1.1, punto 1, ¿qué altura libre de paso se exige en zonas de circulación?",
       "opciones": [
         "2,10 m en uso restringido y 2,20 m en el resto",
-        "2,50 m",
-        "3,00 m",
-        "2,00 m"
+        "2,10 m en uso restringido y 2,20 m en el resto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "2,10 m en uso restringido y 2,20 m en el resto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "2,10 m en uso restringido y 2,20 m en el resto, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La altura libre de paso es de 2,10 m en zonas de uso restringido y de 2,20 m en el resto de las zonas de circulación.",
@@ -141,10 +141,10 @@
     {
       "pregunta": "Según el DB-HE 1, tabla 3.1.1.a, ¿cuál es el valor límite de transmitancia de los huecos en la zona climática A?",
       "opciones": [
-        "0,8 W/m²K",
-        "3,2 W/m²K",
+        "2,7 W/m²K, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "2,7 W/m²K, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "2,7 W/m²K",
-        "1,8 W/m²K"
+        "2,7 W/m²K, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El valor límite de transmitancia de los huecos es de 2,7 W/m²K en la zona A (3,2 es el valor de la zona de referencia α).",
@@ -153,9 +153,9 @@
     {
       "pregunta": "Según el DB-HS 3, apartado 3.1.1, punto 1, letra e, ¿a qué distancia del suelo deben situarse los aireadores?",
       "opciones": [
-        "Mayor que 3 m",
-        "No hay distancia mínima",
-        "Mayor que 0,50 m",
+        "Mayor que 1,80 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Mayor que 1,80 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Mayor que 1,80 m, computándose los plazos en días naturales y con sentido desestimatorio",
         "Mayor que 1,80 m"
       ],
       "correcta": 3,
@@ -165,10 +165,10 @@
     {
       "pregunta": "Según el DB-SI 1, generalidades, punto 3, ¿a qué norma debe ajustarse el sistema de cierre automático de las puertas resistentes al fuego?",
       "opciones": [
-        "UNE 103501",
+        "UNE-EN 1154, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "UNE-EN 1154",
-        "UNE-EN 12207",
-        "UNE-EN 12600"
+        "UNE-EN 1154, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "UNE-EN 1154, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los sistemas de cierre automático de las puertas resistentes al fuego deben consistir en un dispositivo conforme a la norma UNE-EN 1154.",
@@ -190,9 +190,9 @@
       "pregunta": "Según el DB-SUA 1, apartado 3.2.1, punto 1, ¿cómo se mide la altura de una barrera en una escalera?",
       "opciones": [
         "Desde la línea de inclinación definida por los vértices de los peldaños",
-        "Desde el techo del piso inferior",
-        "No se mide",
-        "Desde la cota más baja de la escalera"
+        "Desde la línea de inclinación definida por los vértices de los peldaños, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Desde la línea de inclinación definida por los vértices de los peldaños, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Desde la línea de inclinación definida por los vértices de los peldaños, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "En escaleras, la altura se mide desde la línea de inclinación definida por los vértices de los peldaños, hasta el límite superior de la barrera.",
@@ -201,10 +201,10 @@
     {
       "pregunta": "¿Qué protección se exige en las barreras de protección de los huecos?",
       "opciones": [
-        "Un vallado de madera sin altura",
+        "Barreras de protección, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Barreras de protección",
-        "Una cinta de papel",
-        "Nada"
+        "Barreras de protección, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Barreras de protección, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las barreras de protección impiden la caída en los huecos.",
@@ -214,9 +214,9 @@
       "pregunta": "¿Qué norma regula la altura mínima de las barreras de protección?",
       "opciones": [
         "El DB-SUA 1, apartado 3.2.1",
-        "El DB-HS 1",
-        "El DB-HE 1",
-        "El DB-SI 1"
+        "El DB-SUA 1, apartado 3.2.1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DB-SUA 1, apartado 3.2.1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-SUA 1, apartado 3.2.1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La altura mínima de las barreras se fija en el DB-SUA 1, apartado 3.2.1.",
@@ -225,10 +225,10 @@
     {
       "pregunta": "¿Desde dónde se mide la altura de la barrera de protección en una escalera?",
       "opciones": [
-        "Desde el techo",
+        "Desde la línea de inclinación de los peldaños, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Desde la línea de inclinación de los peldaños",
-        "Desde la calle",
-        "Desde el sótano"
+        "Desde la línea de inclinación de los peldaños, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Desde la línea de inclinación de los peldaños, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "En escaleras la altura se mide desde la línea de inclinación de los peldaños.",
@@ -237,9 +237,9 @@
     {
       "pregunta": "¿Qué clasificación tienen los vidrios de áreas de riesgo sin barrera?",
       "opciones": [
-        "A1 según UNE-EN 13501",
-        "H según UNE 2",
-        "Sin clase",
+        "X(Y)Z según UNE-EN 12600, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "X(Y)Z según UNE-EN 12600, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "X(Y)Z según UNE-EN 12600, computándose los plazos en días naturales y con sentido desestimatorio",
         "X(Y)Z según UNE-EN 12600"
       ],
       "correcta": 3,
@@ -250,9 +250,9 @@
       "pregunta": "¿Qué tipo de vidrios deben usarse en las partes vidriadas de puertas y duchas?",
       "opciones": [
         "Laminados o templados con impacto de nivel 3",
-        "Vidrio de botella",
-        "Cristal de ventana de casa",
-        "Plástico de juguete"
+        "Laminados o templados con impacto de nivel 3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Laminados o templados con impacto de nivel 3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Laminados o templados con impacto de nivel 3, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las partes vidriadas de puertas y duchas deben ser laminadas o templadas con impacto de nivel 3.",
@@ -261,10 +261,10 @@
     {
       "pregunta": "¿Qué se señala en las grandes superficies acristaladas que pueden confundirse con puertas?",
       "opciones": [
-        "Nada",
+        "Una señalización contrastada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Una señalización contrastada",
-        "Una canción",
-        "Un anuncio de cerveza"
+        "Una señalización contrastada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una señalización contrastada, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las grandes superficies acristaladas que pueden confundirse con puertas llevan una señalización contrastada.",
@@ -273,10 +273,10 @@
     {
       "pregunta": "¿Qué holgura mínima debe tener una puerta corredera manual con el objeto fijo más próximo?",
       "opciones": [
-        "2 cm",
-        "2 m",
+        "20 cm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "20 cm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "20 cm",
-        "No hay holgura"
+        "20 cm, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La holgura mínima es de 20 cm.",
@@ -285,9 +285,9 @@
     {
       "pregunta": "¿Qué debe permitir una puerta con bloqueo desde el interior?",
       "opciones": [
-        "Nada",
-        "Solo el cierre con llave de bronce",
-        "El cierre sin salida",
+        "El desbloqueo desde el exterior, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El desbloqueo desde el exterior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El desbloqueo desde el exterior, computándose los plazos en días naturales y con sentido desestimatorio",
         "El desbloqueo desde el exterior"
       ],
       "correcta": 3,
@@ -298,9 +298,9 @@
       "pregunta": "¿Qué altura libre de paso se exige en zonas de circulación?",
       "opciones": [
         "2,20 m",
-        "1,20 m",
-        "3,50 m",
-        "No hay"
+        "2,20 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "2,20 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "2,20 m, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La altura libre de paso en zonas de circulación es de 2,20 m.",
@@ -321,10 +321,10 @@
     {
       "pregunta": "¿Qué transmitancia límite tienen los huecos en la zona climática D?",
       "opciones": [
-        "2,7 W/m²K",
-        "3,0 W/m²K",
+        "1,8 W/m²K, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "1,8 W/m²K, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "1,8 W/m²K",
-        "No hay límite"
+        "1,8 W/m²K, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La transmitancia límite en la zona D es de 1,8 W/m²K.",
@@ -333,9 +333,9 @@
     {
       "pregunta": "¿Cómo se caracterizan las carpinterías por su estanqueidad al aire?",
       "opciones": [
-        "Por el color",
-        "Por el peso",
-        "Por el precio",
+        "Por la permeabilidad al aire, en m³/h·m² o por clase según UNE-EN 12207, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Por la permeabilidad al aire, en m³/h·m² o por clase según UNE-EN 12207, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Por la permeabilidad al aire, en m³/h·m² o por clase según UNE-EN 12207, computándose los plazos en días naturales y con sentido desestimatorio",
         "Por la permeabilidad al aire, en m³/h·m² o por clase según UNE-EN 12207"
       ],
       "correcta": 3,
@@ -346,9 +346,9 @@
       "pregunta": "¿Qué norma regula el cierre automático de las puertas resistentes al fuego?",
       "opciones": [
         "UNE-EN 1154",
-        "UNE 1",
-        "UNE-EN 12600",
-        "UNE 58720"
+        "UNE-EN 1154, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "UNE-EN 1154, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "UNE-EN 1154, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El cierre automático de las puertas resistentes al fuego sigue la norma UNE-EN 1154.",
@@ -357,10 +357,10 @@
     {
       "pregunta": "¿Qué se exige a las puertas para permanecer abiertas en un edificio?",
       "opciones": [
-        "Ninguno",
+        "Dispositivo de cierre automático en caso de incendio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Dispositivo de cierre automático en caso de incendio",
-        "Pintarlas de rojo",
-        "Quitarlas"
+        "Dispositivo de cierre automático en caso de incendio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Dispositivo de cierre automático en caso de incendio, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las puertas que permanecen abiertas llevan un dispositivo de cierre automático en caso de incendio.",
@@ -369,10 +369,10 @@
     {
       "pregunta": "¿Qué clase de puerta se exige en establecimientos de más de 500 m²?",
       "opciones": [
-        "Madera de pino",
-        "Cristal sin marco",
+        "EI2 30-C5, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "EI2 30-C5, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "EI2 30-C5",
-        "Cortina de tela"
+        "EI2 30-C5, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Para los establecimientos de más de 500 m² se exige EI2 30-C5.",
@@ -381,9 +381,9 @@
     {
       "pregunta": "¿Qué mantenimiento se requiere en los cierres automáticos de puertas de incendio?",
       "opciones": [
-        "Ninguno",
-        "Pintarlos cada día",
-        "Cambiarlos cada semana",
+        "Revisión de los cierres automáticos y de los sellantes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Revisión de los cierres automáticos y de los sellantes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Revisión de los cierres automáticos y de los sellantes, computándose los plazos en días naturales y con sentido desestimatorio",
         "Revisión de los cierres automáticos y de los sellantes"
       ],
       "correcta": 3,
@@ -394,9 +394,9 @@
       "pregunta": "¿Qué se revisa en los vidrios laminados?",
       "opciones": [
         "La lámina",
-        "El color",
-        "La marca",
-        "Nada"
+        "La lámina, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La lámina, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La lámina, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Se revisa la lámina de los vidrios laminados.",
@@ -405,10 +405,10 @@
     {
       "pregunta": "¿En qué se miden las ventanas y puertas?",
       "opciones": [
-        "Por kilo",
+        "Por unidad o por metro cuadrado de hueco, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Por unidad o por metro cuadrado de hueco",
-        "Por litro",
-        "Por hora"
+        "Por unidad o por metro cuadrado de hueco, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Por unidad o por metro cuadrado de hueco, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las ventanas y puertas se miden por unidad o por metro cuadrado de hueco.",
@@ -417,10 +417,10 @@
     {
       "pregunta": "¿En qué se miden las barandillas?",
       "opciones": [
-        "Por litro",
-        "Por kilo",
+        "Por metro lineal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Por metro lineal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Por metro lineal",
-        "Por hora"
+        "Por metro lineal, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las barandillas y barreras se miden por metro lineal.",
@@ -429,9 +429,9 @@
     {
       "pregunta": "¿Qué altura mínima tienen las barreras cuando protegen más de 6 m de diferencia de cota?",
       "opciones": [
-        "0,90 m",
-        "0,50 m",
-        "2,50 m",
+        "1,10 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "1,10 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "1,10 m, computándose los plazos en días naturales y con sentido desestimatorio",
         "1,10 m"
       ],
       "correcta": 3,
@@ -441,10 +441,10 @@
     {
       "pregunta": "¿Qué altura mínima tienen las barreras de protección cuando la diferencia de cota no excede de 6 m?",
       "opciones": [
-        "1,10 m",
-        "0,50 m",
+        "0,90 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "0,90 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "0,90 m",
-        "2 m"
+        "0,90 m, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Cuando la diferencia de cota no excede de 6 m, la altura mínima es de 0,90 m.",
@@ -477,10 +477,10 @@
     {
       "pregunta": "¿Qué vidrio se templa para aumentar su resistencia mecánica?",
       "opciones": [
-        "Vidrio de botella",
-        "Vidrio de ventana sin tratar",
+        "Vidrio templado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Vidrio templado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Vidrio templado",
-        "Vidrio soplado"
+        "Vidrio templado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El vidrio templado se somete a tratamiento térmico para aumentar su resistencia.",
@@ -489,9 +489,9 @@
     {
       "pregunta": "¿Qué elemento impide la entrada forzada en un hueco?",
       "opciones": [
-        "Cortina de tela",
-        "Mosquitera",
-        "Tapete de bienvenida",
+        "Cerradura de seguridad o reja, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cerradura de seguridad o reja, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cerradura de seguridad o reja, computándose los plazos en días naturales y con sentido desestimatorio",
         "Cerradura de seguridad o reja"
       ],
       "correcta": 3,
@@ -501,9 +501,9 @@
     {
       "pregunta": "¿Por qué esfera no deben poder ser atravesadas las aberturas de las barreras de protección?",
       "opciones": [
-        "Una esfera de 30 cm",
-        "Una esfera de 1 cm",
-        "No hay límite",
+        "Una esfera de 10 cm de diámetro, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una esfera de 10 cm de diámetro, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una esfera de 10 cm de diámetro, computándose los plazos en días naturales y con sentido desestimatorio",
         "Una esfera de 10 cm de diámetro"
       ],
       "correcta": 3,
@@ -514,9 +514,9 @@
       "pregunta": "¿A qué altura debe situarse el pasamanos de escaleras y rampas?",
       "opciones": [
         "Entre 90 y 110 cm",
-        "Entre 50 y 70 cm",
-        "A 150 cm",
-        "A 30 cm"
+        "Entre 90 y 110 cm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Entre 90 y 110 cm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Entre 90 y 110 cm, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El pasamanos estará a una altura comprendida entre 90 y 110 cm.",
@@ -525,10 +525,10 @@
     {
       "pregunta": "¿Qué deben tener además las escuelas infantiles y centros de primaria en escaleras?",
       "opciones": [
-        "Ningún pasamanos",
+        "Otro pasamanos a una altura más baja, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Otro pasamanos a una altura más baja",
-        "Un pasamanos de cristal",
-        "Una rampa obligatoria"
+        "Otro pasamanos a una altura más baja, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Otro pasamanos a una altura más baja, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "En escuelas infantiles y centros de enseñanza primaria se dispondrá otro pasamanos a una altura más baja.",
@@ -537,10 +537,10 @@
     {
       "pregunta": "¿Qué fuerza máxima de apertura pueden requerir las puertas de salida?",
       "opciones": [
-        "500 N",
-        "10 N",
+        "140 N, salvo en itinerarios accesibles, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "140 N, salvo en itinerarios accesibles, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "140 N, salvo en itinerarios accesibles",
-        "1.000 N"
+        "140 N, salvo en itinerarios accesibles, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La fuerza de apertura de las puertas de salida será de 140 N como máximo, excepto en itinerarios accesibles.",
@@ -549,9 +549,9 @@
     {
       "pregunta": "¿Qué fuerza máxima de apertura se admite en las puertas de itinerarios accesibles, con carácter general?",
       "opciones": [
-        "140 N",
-        "250 N",
-        "5 N",
+        "25 N (65 N si son resistentes al fuego), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "25 N (65 N si son resistentes al fuego), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "25 N (65 N si son resistentes al fuego), computándose los plazos en días naturales y con sentido desestimatorio",
         "25 N (65 N si son resistentes al fuego)"
       ],
       "correcta": 3,
@@ -573,10 +573,10 @@
     {
       "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Impacto en acristalamientos y puertas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1.»?",
       "opciones": [
-        "Puerta corredera manual.",
+        "Vidrios de áreas de riesgo sin barrera de protección, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Vidrios de áreas de riesgo sin barrera de protección.",
-        "Los acristalamientos.",
-        "Las puertas."
+        "Vidrios de áreas de riesgo sin barrera de protección, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Vidrios de áreas de riesgo sin barrera de protección, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1.») define o regula específicamente a «Vidrios de áreas de riesgo sin barrera de protección» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -621,10 +621,10 @@
     {
       "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Señalización, atrapamiento y aprisionamiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1).»?",
       "opciones": [
-        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio.",
+        "Grandes superficies acristaladas que pueden confundirse con puertas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Grandes superficies acristaladas que pueden confundirse con puertas.",
-        "La exigencia de impacto del DB-SUA 2.",
-        "El DB-SI también."
+        "Grandes superficies acristaladas que pueden confundirse con puertas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Grandes superficies acristaladas que pueden confundirse con puertas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1).») define o regula específicamente a «Grandes superficies acristaladas que pueden confundirse con puertas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -645,9 +645,9 @@
     {
       "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Señalización, atrapamiento y aprisionamiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1).»?",
       "opciones": [
-        "Los acristalamientos.",
-        "Las puertas.",
-        "Las carpinterías y los vidrios.",
+        "Puerta corredera manual, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Puerta corredera manual, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Puerta corredera manual, computándose los plazos en días naturales y con sentido desestimatorio",
         "Puerta corredera manual."
       ],
       "correcta": 3,
@@ -693,9 +693,9 @@
     {
       "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué son las carpinterías y los elementos de protección), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Ventanas, puertas exteriores e interiores y puertas de paso.»?",
       "opciones": [
-        "La exigencia de impacto del DB-SUA 2.",
-        "El DB-SI también.",
-        "Por eso el replanteo del hueco.",
+        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio, computándose los plazos en días naturales y con sentido desestimatorio",
         "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio."
       ],
       "correcta": 3,
@@ -717,10 +717,10 @@
     {
       "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué son las carpinterías y los elementos de protección), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas.»?",
       "opciones": [
-        "Las puertas.",
+        "Los acristalamientos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Los acristalamientos.",
-        "Las carpinterías y los vidrios.",
-        "El mantenimiento de las carpinterías."
+        "Los acristalamientos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los acristalamientos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas.») define o regula específicamente a «Los acristalamientos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -765,10 +765,10 @@
     {
       "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencias de seguridad frente al impacto y al atrapamiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula los acristalamientos y las puertas.»?",
       "opciones": [
-        "El DB-SI también.",
+        "La exigencia de impacto del DB-SUA 2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La exigencia de impacto del DB-SUA 2.",
-        "Por eso el replanteo del hueco.",
-        "El primero."
+        "La exigencia de impacto del DB-SUA 2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La exigencia de impacto del DB-SUA 2, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Regula los acristalamientos y las puertas.») define o regula específicamente a «La exigencia de impacto del DB-SUA 2» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -789,9 +789,9 @@
     {
       "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencias de puertas: uso, anchura y barrido), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el elemento de la carpintería que más exigencias reúne, porque deben permitir el paso y, a la vez, cerrar el recinto, resistir el fuego en los casos que lo exigen y no atrapar a nadie.»?",
       "opciones": [
-        "Las carpinterías y los vidrios.",
-        "El mantenimiento de las carpinterías.",
-        "El segundo.",
+        "Las puertas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las puertas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las puertas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Las puertas."
       ],
       "correcta": 3,

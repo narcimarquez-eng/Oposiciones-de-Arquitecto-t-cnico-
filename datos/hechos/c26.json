@@ -14,10 +14,10 @@
   {
     "pregunta": "¿En qué plazo deben suprimirse con carácter general las imágenes de videovigilancia?",
     "opciones": [
-      "En diez años",
-      "En un día",
+      "En el plazo máximo de un mes contado a partir del día siguiente a la notificación contados de fecha a fecha desde su captación",
+      "En el plazo máximo de quince días hábiles improrrogables desde su captación",
       "En el plazo máximo de un mes desde su captación",
-      "Nunca"
+      "En el plazo máximo de treinta días hábiles excluyendo sábados, domingos y festivos desde su captación"
     ],
     "correcta": 2,
     "explicacion": "Los datos de videovigilancia se suprimen en el plazo máximo de un mes, salvo que deban conservarse.",
@@ -38,10 +38,10 @@
   {
     "pregunta": "¿Cuándo prescriben las infracciones muy graves de protección de datos?",
     "opciones": [
-      "Al año",
-      "A los seis meses",
+      "A los dos años improrrogables",
+      "A los dos años desde la notificación de la resolución prorrogables por un año adicional",
       "A los tres años",
-      "A los diez años"
+      "A los un año prorrogable hasta un máximo de dieciocho meses"
     ],
     "correcta": 2,
     "explicacion": "Las infracciones muy graves prescriben a los tres años.",
@@ -98,9 +98,9 @@
   {
     "pregunta": "¿Cuándo puede considerarse repetitivo el ejercicio del derecho de acceso?",
     "opciones": [
-      "Cuando se ejerce dos veces en diez años",
-      "Nunca",
-      "Cuando se pide por escrito",
+      "Cuando se ejerce más de una vez en tres meses prorrogables por otros tres meses sin causa legítima",
+      "Cuando se ejerce más de una vez en doce meses conforme al plazo general supletorio sin causa legítima",
+      "Cuando se ejerce más de una vez en cuatro meses contados desde la fecha de entrada en registro sin causa legítima",
       "Cuando se ejerce más de una vez en seis meses sin causa legítima"
     ],
     "correcta": 3,
@@ -110,9 +110,9 @@
   {
     "pregunta": "¿Qué obligación impone la LOPDGDD al responsable cuando rectifica o suprime datos?",
     "opciones": [
-      "Publicarlos",
-      "Venderlos",
-      "Enviarlos al extranjero",
+      "Bloquear los datos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Bloquear los datos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Bloquear los datos, computándose los plazos en días naturales y con sentido desestimatorio",
       "Bloquear los datos"
     ],
     "correcta": 3,

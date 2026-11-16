@@ -2,10 +2,10 @@
   {
     "pregunta": "¿Qué plazo de suspensión acordada por la Administración permite al contratista resolver el contrato de obras?",
     "opciones": [
-      "Un día",
+      "Más de cuatro meses, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Más de cuatro meses",
-      "Diez años",
-      "No permite resolver"
+      "Más de cuatro meses, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Más de cuatro meses, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Es causa de resolución la suspensión por plazo superior a cuatro meses acordada por la Administración.",
@@ -27,9 +27,9 @@
     "pregunta": "¿Qué indemnización recibe el contratista si la Administración desiste una vez iniciadas las obras?",
     "opciones": [
       "El 6 % del precio de adjudicación de las obras dejadas de realizar, en concepto de beneficio industrial",
-      "El 50 % del contrato",
-      "Ninguna",
-      "El doble del precio"
+      "El 6 % del precio de adjudicación de las obras dejadas de realizar, en concepto de beneficio industrial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El 6 % del precio de adjudicación de las obras dejadas de realizar, en concepto de beneficio industrial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El 6 % del precio de adjudicación de las obras dejadas de realizar, en concepto de beneficio industrial, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "En caso de desistimiento el contratista tiene derecho al 6 por 100 del precio de las obras dejadas de realizar.",
@@ -38,9 +38,9 @@
   {
     "pregunta": "¿Qué indemnización recibe el contratista si el contrato se resuelve por demora injustificada en la comprobación del replanteo?",
     "opciones": [
-      "El 50 % del precio",
-      "Ninguna",
-      "El 20 % del precio",
+      "El 2 % del precio de adjudicación, IVA excluido conforme al valor estimado del expediente conforme al presupuesto base de licitación",
+      "El 2 % del precio de adjudicación, IVA excluido, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El 2 % del precio de adjudicación, IVA excluido, computándose los plazos en días naturales y con sentido desestimatorio",
       "El 2 % del precio de adjudicación, IVA excluido"
     ],
     "correcta": 3,
@@ -50,10 +50,10 @@
   {
     "pregunta": "¿Qué indemnización recibe el contratista si la Administración desiste antes de iniciar las obras?",
     "opciones": [
-      "El 6 %",
+      "El 3 % del precio de adjudicación, IVA excluido conforme al valor estimado del expediente conforme al presupuesto base de licitación",
       "El 3 % del precio de adjudicación, IVA excluido",
-      "El 100 %",
-      "Ninguna"
+      "El 3 % del precio de adjudicación, IVA excluido, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El 3 % del precio de adjudicación, IVA excluido, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "En caso de desistimiento antes de la iniciación de las obras la indemnización es del 3 por cien.",
@@ -62,10 +62,10 @@
   {
     "pregunta": "¿Cómo se extinguen los contratos?",
     "opciones": [
-      "Solo por sorteo",
+      "Por cumplimiento o por resolución, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Por cumplimiento o por resolución",
-      "Por el paso de un año siempre",
-      "Nunca"
+      "Por cumplimiento o por resolución, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Por cumplimiento o por resolución, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Los contratos se extinguen por su cumplimiento o por su resolución.",
@@ -86,10 +86,10 @@
   {
     "pregunta": "¿Cómo se acuerda la resolución del contrato?",
     "opciones": [
-      "Por el juez de paz",
-      "Por la mesa de contratación",
+      "Por el órgano de contratación, de oficio o a instancia del contratista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Por el órgano de contratación, de oficio o a instancia del contratista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Por el órgano de contratación, de oficio o a instancia del contratista",
-      "Por votación de los vecinos"
+      "Por el órgano de contratación, de oficio o a instancia del contratista, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La resolución se acuerda por el órgano de contratación, de oficio o a instancia del contratista.",
@@ -110,9 +110,9 @@
   {
     "pregunta": "¿Cuándo puede acordarse la resolución por mutuo acuerdo?",
     "opciones": [
-      "Siempre que lo pida el contratista",
-      "Nunca",
-      "Solo en contratos menores",
+      "Cuando no concurra otra causa de resolución imputable al contratista y razones de interés público lo hagan innecesario o inconveniente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Cuando no concurra otra causa de resolución imputable al contratista y razones de interés público lo hagan innecesario o inconveniente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Cuando no concurra otra causa de resolución imputable al contratista y razones de interés público lo hagan innecesario o inconveniente, computándose los plazos en días naturales y con sentido desestimatorio",
       "Cuando no concurra otra causa de resolución imputable al contratista y razones de interés público lo hagan innecesario o inconveniente"
     ],
     "correcta": 3,
@@ -182,9 +182,9 @@
   {
     "pregunta": "Dentro de la materia «La suspensión y extinción de los contratos de obra. Suspensión de los contratos de obra. Cumplimiento del contrato de obras: Recepción y plazo de garantía, responsabilidad por vicios ocultos. Resolución del contrato de obras: Causas y efectos de la resolución. La extinción de los contratos de obras: Acta de recepción, recepciones parciales, medición general y certificación final de las obras. Obligaciones del contratista durante el plazo de garantía. Ocupación o puesta en servicio de las obras sin recepción formal. Liquidación en el contrato de obras. Suspensión definitiva de las obras. Desistimiento y suspensión de las obras. Resolución del contrato cuando las obras hayan de ser continuadas. Incorporación de obras al inventario general de bienes y derechos.» (Resolución cuando las obras han de continuarse), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Liquidación de lo ejecutado, notificación al contratista, continuación por otro, y posibilidad de impugnar la valoración en quince días.»?",
     "opciones": [
-      "Para un examen, conviene separar las dos fases.",
-      "La recepción.",
-      "Recepción.",
+      "Para un examen, el orden es, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Para un examen, el orden es, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Para un examen, el orden es, computándose los plazos en días naturales y con sentido desestimatorio",
       "Para un examen, el orden es."
     ],
     "correcta": 3,

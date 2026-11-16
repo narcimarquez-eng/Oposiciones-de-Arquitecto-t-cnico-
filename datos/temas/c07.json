@@ -57,10 +57,10 @@
     {
       "pregunta": "¿Qué mayoría exige la primera votación de investidura del Presidente de la Junta?",
       "opciones": [
-        "Mayoría simple",
+        "mayoría cualificada de tres quintos de sus miembros",
         "Mayoría absoluta",
-        "Dos tercios",
-        "Tres quintos"
+        "mayoría cualificada de dos tercios de los miembros de derecho de los miembros presentes en primera votación",
+        "dos tercios de los votos válidamente emitidos en la sesión"
       ],
       "correcta": 1,
       "explicacion": "En la primera votación se exige mayoría absoluta. Si no se obtiene, la nueva votación 48 horas después requiere solo mayoría simple.",
@@ -69,10 +69,10 @@
     {
       "pregunta": "¿Qué mayoría basta para otorgar la confianza en la cuestión de confianza?",
       "opciones": [
-        "Mayoría absoluta",
-        "Dos tercios",
+        "mayoría absoluta de los miembros presentes y representados de los diputados",
+        "mayoría cualificada de dos tercios de los miembros de derecho de los diputados",
         "Mayoría simple de los diputados",
-        "Unanimidad"
+        "tres quintos de los miembros asistentes a la convocatoria de los diputados"
       ],
       "correcta": 2,
       "explicacion": "La confianza se entiende otorgada cuando vota a favor la mayoría simple de los diputados.",
@@ -81,10 +81,10 @@
     {
       "pregunta": "¿Cuántos parlamentarios, como mínimo, deben proponer una moción de censura andaluza?",
       "opciones": [
-        "Un décimo",
-        "Una tercera parte",
+        "Una cuarta parte, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una cuarta parte, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Una cuarta parte",
-        "La mayoría absoluta"
+        "Una cuarta parte, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La moción de censura debe ser propuesta por al menos una cuarta parte de los parlamentarios, con un candidato a la Presidencia de la Junta.",
@@ -94,9 +94,9 @@
       "pregunta": "¿Cuánto tiempo debe transcurrir desde su presentación antes de votar una moción de censura andaluza?",
       "opciones": [
         "Cinco días",
-        "Dos días",
-        "Ocho días",
-        "Quince días"
+        "Cinco días, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cinco días, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cinco días, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La moción de censura no puede votarse hasta que transcurran cinco días desde su presentación.",
@@ -117,9 +117,9 @@
     {
       "pregunta": "¿Quién designa y separa a los Consejeros de la Junta?",
       "opciones": [
-        "El Parlamento",
-        "El Rey",
-        "El Consejo de Gobierno",
+        "El Presidente de la Junta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El Presidente de la Junta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Presidente de la Junta, computándose los plazos en días naturales y con sentido desestimatorio",
         "El Presidente de la Junta"
       ],
       "correcta": 3,
@@ -139,24 +139,12 @@
       "referencia": "Art. 119.3 Estatuto de Andalucía"
     },
     {
-      "pregunta": "¿Quién puede decretar la disolución del Parlamento de Andalucía?",
-      "opciones": [
-        "El Presidente del Parlamento",
-        "El Consejo Consultivo",
-        "El Defensor del Pueblo Andaluz",
-        "El Presidente de la Junta"
-      ],
-      "correcta": 3,
-      "explicacion": "El Presidente de la Junta puede decretar la disolución del Parlamento, previa deliberación del Consejo de Gobierno y bajo su exclusiva responsabilidad.",
-      "referencia": "Art. 127.1 Estatuto de Andalucía"
-    },
-    {
       "pregunta": "¿Qué garantiza al Consejo Consultivo su independencia?",
       "opciones": [
-        "Ninguna garantía",
+        "Autonomía orgánica y funcional, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Autonomía orgánica y funcional",
-        "Dependencia del Consejo de Gobierno",
-        "Designación por el Rey"
+        "Autonomía orgánica y funcional, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Autonomía orgánica y funcional, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El Consejo Consultivo ejerce sus funciones con autonomía orgánica y funcional, y una ley del Parlamento regula su composición, competencia y funcionamiento.",
@@ -178,9 +166,9 @@
       "pregunta": "¿Quién elige al Presidente de la Junta de Andalucía?",
       "opciones": [
         "El Parlamento de entre sus miembros",
-        "Los ciudadanos directamente",
-        "El Rey",
-        "El Consejo de Gobierno"
+        "El Parlamento de entre sus miembros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El Parlamento de entre sus miembros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Parlamento de entre sus miembros, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El Presidente de la Junta es elegido por el Parlamento de entre sus miembros.",
@@ -189,10 +177,10 @@
     {
       "pregunta": "¿Quién propone el candidato a la Presidencia de la Junta?",
       "opciones": [
-        "El Consejo de Gobierno",
+        "El Presidente del Parlamento, tras consultar a los portavoces, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El Presidente del Parlamento, tras consultar a los portavoces",
-        "El Rey",
-        "El Defensor del Pueblo Andaluz"
+        "El Presidente del Parlamento, tras consultar a los portavoces, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Presidente del Parlamento, tras consultar a los portavoces, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El Presidente del Parlamento propone candidato tras consultar a los portavoces.",
@@ -202,9 +190,9 @@
       "pregunta": "¿Cuánto tiempo después de la primera votación se celebra la nueva votación para elegir al Presidente?",
       "opciones": [
         "48 horas",
-        "24 horas",
-        "Una semana",
-        "Un mes"
+        "48 horas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "48 horas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "48 horas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La nueva votación se celebra 48 horas después.",
@@ -213,26 +201,14 @@
     {
       "pregunta": "¿Qué mayoría basta en la segunda votación para elegir al Presidente de la Junta?",
       "opciones": [
-        "Mayoría absoluta",
+        "mayoría absoluta de los miembros presentes y representados",
         "Mayoría simple",
-        "Dos tercios",
-        "Tres quintos"
+        "mayoría cualificada de dos tercios de los miembros de derecho",
+        "tres quintos de los miembros asistentes a la convocatoria"
       ],
       "correcta": 1,
       "explicacion": "En la nueva votación basta mayoría simple.",
       "referencia": "Art. 118.3 EA Andalucía"
-    },
-    {
-      "pregunta": "¿Quién designa y separa a los Consejeros del Gobierno andaluz?",
-      "opciones": [
-        "El Parlamento",
-        "El Rey",
-        "El Presidente de la Junta",
-        "El Defensor del Pueblo"
-      ],
-      "correcta": 2,
-      "explicacion": "El Presidente designa y separa a los Consejeros.",
-      "referencia": "Art. 117.1 EA Andalucía"
     },
     {
       "pregunta": "¿Qué representación ostenta el Presidente de la Junta?",
@@ -249,10 +225,10 @@
     {
       "pregunta": "¿Puede el Presidente de la Junta delegar sus funciones ejecutivas?",
       "opciones": [
-        "No, nunca",
+        "Sí, temporalmente en un Vicepresidente o un Consejero, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Sí, temporalmente en un Vicepresidente o un Consejero",
-        "Sí, de forma permanente en el Parlamento",
-        "Solo en el Defensor del Pueblo"
+        "Sí, temporalmente en un Vicepresidente o un Consejero, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sí, temporalmente en un Vicepresidente o un Consejero, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El Presidente puede delegar temporalmente funciones ejecutivas propias.",
@@ -261,10 +237,10 @@
     {
       "pregunta": "¿Qué naturaleza tiene el Consejo de Gobierno andaluz?",
       "opciones": [
-        "Órgano judicial",
-        "Órgano consultivo independiente",
+        "Órgano colegiado de dirección política, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Órgano colegiado de dirección política, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Órgano colegiado de dirección política",
-        "Órgano del Parlamento"
+        "Órgano colegiado de dirección política, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El Consejo de Gobierno es el órgano colegiado de dirección política.",
@@ -274,9 +250,9 @@
       "pregunta": "¿Qué potestad tiene el Consejo de Gobierno en el ámbito autonómico?",
       "opciones": [
         "Potestad reglamentaria",
-        "Potestad legislativa",
-        "Potestad judicial",
-        "Potestad constituyente"
+        "Potestad reglamentaria, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Potestad reglamentaria, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Potestad reglamentaria, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El Consejo de Gobierno tiene potestad reglamentaria en el ámbito autonómico.",
@@ -285,10 +261,10 @@
     {
       "pregunta": "¿Cuál de estas causas provoca el cese del Presidente de la Junta?",
       "opciones": [
-        "Un cambio de domicilio",
+        "La pérdida de una cuestión de confianza, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La pérdida de una cuestión de confianza",
-        "Un viaje oficial",
-        "Una reunión del Consejo de Gobierno"
+        "La pérdida de una cuestión de confianza, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La pérdida de una cuestión de confianza, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El cese del Presidente puede producirse por pérdida de una cuestión de confianza, entre otras causas.",
@@ -297,10 +273,10 @@
     {
       "pregunta": "¿Puede el Presidente de la Junta ejercer una actividad profesional o empresarial?",
       "opciones": [
-        "Sí, sin límites",
-        "Sí, si lo autoriza el Parlamento",
+        "No, no puede ejercer actividad laboral, profesional ni empresarial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No, no puede ejercer actividad laboral, profesional ni empresarial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "No, no puede ejercer actividad laboral, profesional ni empresarial",
-        "Sí, solo en el sector público"
+        "No, no puede ejercer actividad laboral, profesional ni empresarial, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El Presidente y los Consejeros no pueden ejercer ninguna actividad laboral, profesional o empresarial.",
@@ -309,9 +285,9 @@
     {
       "pregunta": "¿Qué mayoría se exige para aprobar una cuestión de confianza?",
       "opciones": [
-        "Mayoría absoluta",
-        "Dos tercios",
-        "Tres quintos",
+        "mayoría absoluta de los miembros presentes y representados",
+        "mayoría cualificada de dos tercios de los miembros de derecho",
+        "tres quintos de los miembros asistentes a la convocatoria",
         "Mayoría simple"
       ],
       "correcta": 3,
@@ -345,10 +321,10 @@
     {
       "pregunta": "¿Qué mayoría se exige para aprobar una moción de censura en Andalucía?",
       "opciones": [
-        "Mayoría simple",
-        "Dos tercios",
+        "mayoría cualificada de tres quintos de sus miembros",
+        "mayoría cualificada de dos tercios de los miembros de derecho de los miembros presentes en primera votación",
         "Mayoría absoluta",
-        "Unanimidad"
+        "dos tercios de los votos válidamente emitidos en la sesión"
       ],
       "correcta": 2,
       "explicacion": "La moción de censura requiere mayoría absoluta del Parlamento.",
@@ -379,24 +355,12 @@
       "referencia": "Art. 129.1 EA Andalucía"
     },
     {
-      "pregunta": "¿Qué tipo de autonomía tiene el Consejo Consultivo?",
-      "opciones": [
-        "Ninguna",
-        "Autonomía orgánica y funcional",
-        "Solo autonomía presupuestaria",
-        "Autonomía militar"
-      ],
-      "correcta": 1,
-      "explicacion": "El Consejo Consultivo tiene autonomía orgánica y funcional.",
-      "referencia": "Art. 129.2 EA Andalucía"
-    },
-    {
       "pregunta": "¿Quién debe elegir al Presidente de la Junta en la primera votación?",
       "opciones": [
-        "Mayoría simple",
-        "Mayoría de dos tercios",
+        "mayoría cualificada de tres quintos de sus miembros del Parlamento",
+        "mayoría cualificada de dos tercios de los miembros de derecho de los miembros presentes en primera votación del Parlamento",
         "Mayoría absoluta del Parlamento",
-        "Mayoría de tres quintos"
+        "dos tercios de los votos válidamente emitidos en la sesión del Parlamento"
       ],
       "correcta": 2,
       "explicacion": "En la primera votación se exige mayoría absoluta del Parlamento.",
@@ -405,9 +369,9 @@
     {
       "pregunta": "¿Qué órgano de la Junta es el que dirige y coordina el Consejo de Gobierno?",
       "opciones": [
-        "El Parlamento",
-        "El Consejo Consultivo",
-        "El Defensor del Pueblo",
+        "La Presidencia de la Junta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La Presidencia de la Junta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La Presidencia de la Junta, computándose los plazos en días naturales y con sentido desestimatorio",
         "La Presidencia de la Junta"
       ],
       "correcta": 3,
@@ -417,10 +381,10 @@
     {
       "pregunta": "¿Qué causas de cese del Presidente de la Junta recoge el Estatuto?",
       "opciones": [
-        "Solo la muerte",
-        "Solo la dimisión",
+        "Elecciones, pérdida de cuestión de confianza o moción de censura, dimisión, incapacidad, condena firme o fallecimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Elecciones, pérdida de cuestión de confianza o moción de censura, dimisión, incapacidad, condena firme o fallecimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Elecciones, pérdida de cuestión de confianza o moción de censura, dimisión, incapacidad, condena firme o fallecimiento",
-        "Solo la pérdida de la mayoría parlamentaria"
+        "Elecciones, pérdida de cuestión de confianza o moción de censura, dimisión, incapacidad, condena firme o fallecimiento, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El Estatuto recoge varias causas de cese del Presidente.",
@@ -439,35 +403,11 @@
       "referencia": "Art. 119.2 EA Andalucía"
     },
     {
-      "pregunta": "¿Qué órgano de la Junta es el responsable de la coordinación de la Administración autonómica?",
-      "opciones": [
-        "El Parlamento",
-        "La Presidencia de la Junta",
-        "El Tribunal de Cuentas",
-        "El Consejo Consultivo"
-      ],
-      "correcta": 1,
-      "explicacion": "La Presidencia coordina la Administración de la Comunidad.",
-      "referencia": "Art. 117.1 EA Andalucía"
-    },
-    {
-      "pregunta": "¿Qué órgano puede disolver el Parlamento según el Estatuto?",
-      "opciones": [
-        "El Tribunal Constitucional",
-        "El Consejo Consultivo",
-        "El Presidente de la Junta",
-        "El Rey"
-      ],
-      "correcta": 2,
-      "explicacion": "El Presidente de la Junta puede decretar la disolución del Parlamento.",
-      "referencia": "Art. 127.1 EA Andalucía"
-    },
-    {
       "pregunta": "¿Qué órgano consultivo tiene autonomía orgánica y funcional en Andalucía?",
       "opciones": [
-        "La Presidencia",
-        "El Parlamento",
-        "El Consejo de Gobierno",
+        "El Consejo Consultivo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El Consejo Consultivo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Consejo Consultivo, computándose los plazos en días naturales y con sentido desestimatorio",
         "El Consejo Consultivo"
       ],
       "correcta": 3,
@@ -490,9 +430,9 @@
       "pregunta": "¿Qué órgano ejerce la función ejecutiva en Andalucía junto al Presidente?",
       "opciones": [
         "El Consejo de Gobierno",
-        "El Consejo Consultivo",
-        "El Parlamento",
-        "El Tribunal de Cuentas"
+        "El Consejo de Gobierno, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El Consejo de Gobierno, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Consejo de Gobierno, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El Consejo de Gobierno dirige la acción ejecutiva junto al Presidente.",
@@ -549,10 +489,10 @@
     {
       "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Control político y disolución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se otorga con mayoría simple (art. 125.1).»?",
       "opciones": [
-        "La delegación.",
+        "Cuestión de confianza, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Cuestión de confianza.",
-        "La responsabilidad política.",
-        "Hay dos reglas de cautela."
+        "Cuestión de confianza, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cuestión de confianza, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Se otorga con mayoría simple (art. 125.1).») define o regula específicamente a «Cuestión de confianza» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
@@ -573,9 +513,9 @@
     {
       "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Control político y disolución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Propuesta por una cuarta parte de los parlamentarios, con candidato, y mayoría absoluta (art. 126.1).»?",
       "opciones": [
-        "El artículo 121.",
-        "La expropiación.",
-        "La moción de censura andaluza.",
+        "Moción de censura, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Moción de censura, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Moción de censura, computándose los plazos en días naturales y con sentido desestimatorio",
         "Moción de censura."
       ],
       "correcta": 3,
@@ -597,10 +537,10 @@
     {
       "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Elección del Presidente de la Junta (art. 118)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Establece para el Presidente del Gobierno (art. 99.3 CE).»?",
       "opciones": [
-        "El artículo 124.",
+        "Es el mismo esquema de investidura que la Constitución, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Es el mismo esquema de investidura que la Constitución.",
-        "El mismo artículo.",
-        "El mismo precepto añade que el Consejo."
+        "Es el mismo esquema de investidura que la Constitución, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Es el mismo esquema de investidura que la Constitución, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Establece para el Presidente del Gobierno (art. 99.3 CE).») define o regula específicamente a «Es el mismo esquema de investidura que la Constitución» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
@@ -645,10 +585,10 @@
     {
       "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Régimen jurídico y responsabilidad de los Consejeros (arts. 121, 122 y 124)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Establece que el régimen jurídico del Consejo de Gobierno y el estatuto de sus miembros se regulan por ley del Parlamento de Andalucía, que determinará las causas de incompatibilidad.»?",
       "opciones": [
-        "La expropiación.",
+        "El artículo 121, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El artículo 121.",
-        "La moción de censura andaluza.",
-        "La autonomía orgánica y funcional."
+        "El artículo 121, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El artículo 121, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Establece que el régimen jurídico del Consejo de Gobierno y el estatuto de sus miembros se regulan por ley del Parlamento de Andalucía, que determinará las causas de incompatibilidad.») define o regula específicamente a «El artículo 121» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
@@ -741,10 +681,10 @@
     {
       "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (La potestad expropiatoria y la responsabilidad patrimonial (art. 123)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula también la responsabilidad patrimonial de la Comunidad.»?",
       "opciones": [
-        "El mismo precepto añade que el Consejo.",
+        "El mismo artículo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El mismo artículo.",
-        "Su régimen concreto.",
-        "El primer paso."
+        "El mismo artículo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El mismo artículo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Regula también la responsabilidad patrimonial de la Comunidad.») define o regula específicamente a «El mismo artículo» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
@@ -772,6 +712,66 @@
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («La moción no puede votarse hasta que transcurran cinco días desde su presentación, y si no se aprueba, sus signatarios no pueden presentar otra durante el mismo periodo de sesiones.») define o regula específicamente a «Hay dos reglas de cautela» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
+      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Régimen jurídico y responsabilidad de los Consejeros (arts. 121, 122 y 124)» (Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Establece que el régimen jurídico del Consejo de Gobierno y el estatuto de sus miembros se regulan por ley del Parlamento de Andalucía, que determinará las causas de incompatibilidad.»?",
+      "opciones": [
+        "La responsabilidad política.",
+        "El artículo 121.",
+        "El mismo artículo.",
+        "La moción de censura andaluza."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («Establece que el régimen jurídico del Consejo de Gobierno y el estatuto de sus miembros se regulan por ley del Parlamento de Andalucía, que determinará las causas de incompatibilidad.») define o regula específicamente a «El artículo 121» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
+      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «La potestad expropiatoria y la responsabilidad patrimonial (art. 123)» (Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Es una técnica de limitación de la propiedad en el interés general.»?",
+      "opciones": [
+        "Hay dos reglas de cautela.",
+        "El mismo precepto añade que el Consejo.",
+        "La expropiación.",
+        "La autonomía orgánica y funcional."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha regulación («Es una técnica de limitación de la propiedad en el interés general.») define o regula específicamente a «La expropiación» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
+      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «La potestad expropiatoria y la responsabilidad patrimonial (art. 123)» (Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Regula también la responsabilidad patrimonial de la Comunidad.»?",
+      "opciones": [
+        "La moción de censura andaluza.",
+        "El mismo artículo.",
+        "Una ley del Parlamento.",
+        "Su régimen concreto."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («Regula también la responsabilidad patrimonial de la Comunidad.») define o regula específicamente a «El mismo artículo» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
+      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
+    },
+    {
+      "pregunta": "En relación con «La moción de censura andaluza» (El control parlamentario: cuestión de confianza y moción de censura (arts. 125 y 126)), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Exige que la propongan la cuarta parte de los parlamentarios, mientras que la estatal (art. 113 CE) exige un décimo de los diputados, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Exige que la propongan la cuarta parte de los parlamentarios, mientras que la estatal (art. 113 CE) exige un décimo de los diputados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Exige que la propongan la cuarta parte de los parlamentarios, mientras que la estatal (art. 113 CE) exige un décimo de los diputados.",
+        "Exige que la propongan la cuarta parte de los parlamentarios, mientras que la estatal (art. 113 CE) exige un décimo de los diputados, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «La moción de censura andaluza» (El control parlamentario: cuestión de confianza y moción de censura (arts. 125 y 126)), la regulación vigente establece que: Exige que la propongan la cuarta parte de los parlamentarios, mientras que la estatal (art. 113 CE) exige un décimo de los diputados.",
+      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «El control parlamentario: cuestión de confianza y moción de censura (arts. 125 y 126)» (Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Exige que la propongan la cuarta parte de los parlamentarios, mientras que la estatal (art. 113 CE) exige un décimo de los diputados.»?",
+      "opciones": [
+        "Una ley del Parlamento.",
+        "Su régimen concreto.",
+        "El Título IX del Estatuto.",
+        "La moción de censura andaluza."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha regulación («Exige que la propongan la cuarta parte de los parlamentarios, mientras que la estatal (art. 113 CE) exige un décimo de los diputados.») define o regula específicamente a «La moción de censura andaluza» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
       "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
     }
   ]

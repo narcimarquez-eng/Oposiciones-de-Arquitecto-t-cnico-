@@ -2,9 +2,9 @@
   {
     "pregunta": "¿Qué sentencia SQL se usa para consultar datos?",
     "opciones": [
-      "INSERT",
-      "DELETE",
-      "DROP",
+      "SELECT, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "SELECT, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "SELECT, computándose los plazos en días naturales y con sentido desestimatorio",
       "SELECT"
     ],
     "correcta": 3,
@@ -14,9 +14,9 @@
   {
     "pregunta": "¿Qué propiedad ACID garantiza que los cambios confirmados persisten aunque falle el sistema?",
     "opciones": [
-      "Atomicidad",
-      "Aislamiento",
-      "Consistencia",
+      "Durabilidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Durabilidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Durabilidad, computándose los plazos en días naturales y con sentido desestimatorio",
       "Durabilidad"
     ],
     "correcta": 3,
@@ -27,9 +27,9 @@
     "pregunta": "¿Qué algoritmo de planificación asigna a cada proceso un turno de tiempo fijo?",
     "opciones": [
       "Round Robin",
-      "FIFO",
-      "Prioridades estáticas",
-      "El más corto primero"
+      "Round Robin, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Round Robin, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Round Robin, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Round Robin reparte el procesador en quantums de tiempo rotatorios.",
@@ -38,10 +38,10 @@
   {
     "pregunta": "¿Cómo se llama la situación en que varios procesos se bloquean esperando recursos retenidos entre sí?",
     "opciones": [
-      "Paginación",
-      "Multiprogramación",
+      "Interbloqueo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Interbloqueo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Interbloqueo",
-      "Swapping"
+      "Interbloqueo, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El interbloqueo (deadlock) bloquea indefinidamente a los procesos.",
@@ -50,9 +50,9 @@
   {
     "pregunta": "¿Cómo se llama el núcleo del sistema operativo?",
     "opciones": [
-      "Shell",
-      "BIOS",
-      "Driver",
+      "Kernel, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Kernel, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Kernel, computándose los plazos en días naturales y con sentido desestimatorio",
       "Kernel"
     ],
     "correcta": 3,
@@ -62,10 +62,10 @@
   {
     "pregunta": "¿Qué técnica de gestión de memoria la divide en bloques de tamaño fijo?",
     "opciones": [
-      "La segmentación variable",
-      "La fragmentación",
+      "La paginación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La paginación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "La paginación",
-      "El spooling"
+      "La paginación, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La paginación divide la memoria en páginas y marcos de tamaño fijo.",
@@ -75,9 +75,9 @@
     "pregunta": "¿Qué componente del SGBD describe la estructura de la base de datos?",
     "opciones": [
       "El diccionario de datos o catálogo",
-      "El monitor",
-      "La impresora",
-      "El router"
+      "El diccionario de datos o catálogo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El diccionario de datos o catálogo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El diccionario de datos o catálogo, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El diccionario de datos almacena los metadatos que describen la base de datos.",
@@ -86,9 +86,9 @@
   {
     "pregunta": "¿Qué lenguaje de SQL define la estructura de las tablas?",
     "opciones": [
-      "DML",
-      "DCL",
-      "HTML",
+      "DDL (lenguaje de definición de datos), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "DDL (lenguaje de definición de datos), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "DDL (lenguaje de definición de datos), computándose los plazos en días naturales y con sentido desestimatorio",
       "DDL (lenguaje de definición de datos)"
     ],
     "correcta": 3,
@@ -98,9 +98,9 @@
   {
     "pregunta": "¿Qué sentencia SQL se usa para dar permisos a un usuario?",
     "opciones": [
-      "SELECT",
-      "UPDATE",
-      "JOIN",
+      "GRANT, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "GRANT, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "GRANT, computándose los plazos en días naturales y con sentido desestimatorio",
       "GRANT"
     ],
     "correcta": 3,

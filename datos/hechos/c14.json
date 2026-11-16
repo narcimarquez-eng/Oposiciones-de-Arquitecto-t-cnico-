@@ -14,10 +14,10 @@
   {
     "pregunta": "¿Cuánto puede ampliarse como máximo un plazo administrativo?",
     "opciones": [
-      "Hasta el doble",
-      "Hasta un año",
+      "Hasta la mitad del plazo inicial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Hasta la mitad del plazo inicial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Hasta la mitad del plazo inicial",
-      "Sin límite"
+      "Hasta la mitad del plazo inicial, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La ampliación de plazos no puede exceder de la mitad de los mismos.",
@@ -26,9 +26,9 @@
   {
     "pregunta": "¿Qué efecto tiene la tramitación de urgencia sobre los plazos del procedimiento ordinario?",
     "opciones": [
-      "Se duplican",
-      "Se suprimen",
-      "No varían",
+      "Se reducen a la mitad, salvo los de presentación de solicitudes y recursos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Se reducen a la mitad, salvo los de presentación de solicitudes y recursos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Se reducen a la mitad, salvo los de presentación de solicitudes y recursos, computándose los plazos en días naturales y con sentido desestimatorio",
       "Se reducen a la mitad, salvo los de presentación de solicitudes y recursos"
     ],
     "correcta": 3,
@@ -50,9 +50,9 @@
   {
     "pregunta": "¿Hasta cuándo pueden los interesados aducir alegaciones?",
     "opciones": [
-      "Solo el primer día",
-      "Después de la resolución",
-      "Nunca",
+      "En cualquier momento anterior al trámite de audiencia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "En cualquier momento anterior al trámite de audiencia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "En cualquier momento anterior al trámite de audiencia, computándose los plazos en días naturales y con sentido desestimatorio",
       "En cualquier momento anterior al trámite de audiencia"
     ],
     "correcta": 3,
@@ -63,9 +63,9 @@
     "pregunta": "¿Qué carácter tienen los informes, salvo disposición expresa en contrario?",
     "opciones": [
       "Facultativos y no vinculantes",
-      "Obligatorios y vinculantes",
-      "Secretos",
-      "Judiciales"
+      "Facultativos y no vinculantes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Facultativos y no vinculantes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Facultativos y no vinculantes, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Salvo disposición en contrario, los informes son facultativos y no vinculantes.",
@@ -74,9 +74,9 @@
   {
     "pregunta": "¿En qué plazo deben emitirse los informes, salvo otra disposición?",
     "opciones": [
-      "Un mes",
-      "Tres meses",
-      "Dos días",
+      "Diez días, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Diez días, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Diez días, computándose los plazos en días naturales y con sentido desestimatorio",
       "Diez días"
     ],
     "correcta": 3,
@@ -86,10 +86,10 @@
   {
     "pregunta": "¿Qué plazo mínimo tiene el período de información pública?",
     "opciones": [
-      "Cinco días",
-      "Tres meses",
+      "quince días hábiles",
+      "cuarenta y cinco días naturales hábiles",
       "Veinte días",
-      "Un año"
+      "diez días naturales"
     ],
     "correcta": 2,
     "explicacion": "El plazo para formular alegaciones en información pública no puede ser inferior a veinte días.",
@@ -98,10 +98,10 @@
   {
     "pregunta": "¿Qué formas de terminación del procedimiento prevé la LPAC además de la resolución?",
     "opciones": [
-      "Solo la resolución",
-      "El sorteo",
+      "Desistimiento, renuncia, caducidad e imposibilidad material de continuarlo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Desistimiento, renuncia, caducidad e imposibilidad material de continuarlo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Desistimiento, renuncia, caducidad e imposibilidad material de continuarlo",
-      "La prescripción del funcionario"
+      "Desistimiento, renuncia, caducidad e imposibilidad material de continuarlo, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El art. 84 LPAC enumera la resolución, el desistimiento, la renuncia, la caducidad y la imposibilidad material.",
@@ -110,10 +110,10 @@
   {
     "pregunta": "¿Quiénes están obligados a relacionarse electrónicamente con la Administración?",
     "opciones": [
-      "Todas las personas físicas",
+      "Las personas jurídicas, entre otros sujetos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Las personas jurídicas, entre otros sujetos",
-      "Solo los menores",
-      "Nadie"
+      "Las personas jurídicas, entre otros sujetos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Las personas jurídicas, entre otros sujetos, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El art. 14.2 LPAC obliga, entre otros, a las personas jurídicas.",
@@ -182,9 +182,9 @@
   {
     "pregunta": "Dentro de la materia «El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.» (Cuadro de figuras afines), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Fin del procedimiento por paralización imputable al interesado, tras tres meses desde el requerimiento.»?",
     "opciones": [
-      "Alegaciones.",
-      "Caducidad.",
-      "Principios.",
+      "Caducidad (art. 95 LPAC), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Caducidad (art. 95 LPAC), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Caducidad (art. 95 LPAC), computándose los plazos en días naturales y con sentido desestimatorio",
       "Caducidad (art. 95 LPAC)."
     ],
     "correcta": 3,
@@ -278,9 +278,9 @@
   {
     "pregunta": "Dentro de la materia «El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.» (Cuadro de plazos del procedimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Tres meses desde el requerimiento de reanudación en procedimientos a solicitud paralizados por causa del interesado (art. 95.1 LPAC).»?",
     "opciones": [
-      "Principios.",
-      "Representación (art. 5 Ley del Procedimiento Administrativo Común).",
-      "Registros (art. 16 Ley del Procedimiento Administrativo Común).",
+      "Caducidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Caducidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Caducidad, computándose los plazos en días naturales y con sentido desestimatorio",
       "Caducidad."
     ],
     "correcta": 3,

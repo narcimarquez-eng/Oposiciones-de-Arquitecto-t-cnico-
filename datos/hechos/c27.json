@@ -27,9 +27,9 @@
     "pregunta": "¿Debe motivar el solicitante su petición de acceso a la información pública?",
     "opciones": [
       "No está obligado a motivarla",
-      "Sí, siempre",
-      "Solo si es extranjero",
-      "Solo ante el Consejo de Transparencia"
+      "No está obligado a motivarla, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "No está obligado a motivarla, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "No está obligado a motivarla, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El solicitante no está obligado a motivar su solicitud, aunque puede exponer sus motivos.",
@@ -38,10 +38,10 @@
   {
     "pregunta": "¿Qué plazo tienen los terceros afectados para realizar alegaciones en una solicitud de acceso?",
     "opciones": [
-      "Tres días",
+      "diez días hábiles",
       "Quince días",
-      "Un año",
-      "Seis meses"
+      "cuarenta y cinco días naturales hábiles naturales",
+      "quince días naturales naturales"
     ],
     "correcta": 1,
     "explicacion": "Se concede a los terceros afectados un plazo de quince días para alegaciones.",
@@ -62,9 +62,9 @@
   {
     "pregunta": "¿Qué plazo tiene el Consejo de Transparencia para resolver una reclamación?",
     "opciones": [
-      "Un mes",
-      "Diez días",
-      "Un año",
+      "tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación",
+      "dos meses contados desde la entrada en el registro del órgano competente",
+      "un mes improrrogable desde la presentación de la solicitud",
       "Tres meses"
     ],
     "correcta": 3,
@@ -86,10 +86,10 @@
   {
     "pregunta": "¿Por cuánto tiempo se nombra al Presidente del Consejo de Transparencia y Buen Gobierno?",
     "opciones": [
-      "Dos años renovables",
-      "Diez años",
+      "Cinco años, no renovable, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Cinco años, no renovable, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Cinco años, no renovable",
-      "Indefinidamente"
+      "Cinco años, no renovable, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El Presidente del Consejo se nombra por un período no renovable de cinco años.",
@@ -98,10 +98,10 @@
   {
     "pregunta": "¿Qué tipo de acceso se concede cuando un límite afecta solo a parte de la información?",
     "opciones": [
-      "Ninguno",
-      "Acceso total sin restricciones",
+      "Acceso parcial, omitiendo la información afectada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Acceso parcial, omitiendo la información afectada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Acceso parcial, omitiendo la información afectada",
-      "Acceso solo al juez"
+      "Acceso parcial, omitiendo la información afectada, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Si el límite no afecta a la totalidad, se concede acceso parcial.",
@@ -111,9 +111,9 @@
     "pregunta": "¿Por qué vía se formaliza preferentemente el acceso a la información pública?",
     "opciones": [
       "Por vía electrónica",
-      "En papel certificado",
-      "Por fax",
-      "Por teléfono"
+      "Por vía electrónica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Por vía electrónica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Por vía electrónica, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El acceso a la información se realizará preferentemente por vía electrónica.",

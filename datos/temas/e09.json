@@ -94,9 +94,9 @@
       "pregunta": "Según el DB-HS 4, apartado 2.1.3, ¿cuál es la presión mínima en un punto de consumo para un grifo común?",
       "opciones": [
         "100 kPa",
-        "150 kPa",
-        "500 kPa",
-        "50 kPa"
+        "100 kPa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "100 kPa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "100 kPa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "En los puntos de consumo, la presión mínima es de 100 kPa para grifos comunes y de 150 kPa para fluxores y calentadores.",
@@ -105,10 +105,10 @@
     {
       "pregunta": "Según el DB-HS 4, apartado 2.1.3, ¿cuál es la presión máxima en cualquier punto de consumo?",
       "opciones": [
-        "100 kPa",
-        "150 kPa",
+        "500 kPa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "500 kPa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "500 kPa",
-        "1.000 kPa"
+        "500 kPa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La presión en cualquier punto de consumo no debe superar 500 kPa.",
@@ -117,9 +117,9 @@
     {
       "pregunta": "Según el DB-HS 4, apartado 2.1.3, punto 4, ¿entre qué temperaturas debe estar el ACS en los puntos de consumo?",
       "opciones": [
-        "Entre 70 ºC y 90 ºC",
-        "No hay límite",
-        "Entre 30 ºC y 40 ºC",
+        "Entre 50 ºC y 65 ºC, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Entre 50 ºC y 65 ºC, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Entre 50 ºC y 65 ºC, computándose los plazos en días naturales y con sentido desestimatorio",
         "Entre 50 ºC y 65 ºC"
       ],
       "correcta": 3,
@@ -129,10 +129,10 @@
     {
       "pregunta": "Según el DB-HS 4, apartado 4.2.1, punto 2, letra d, ¿cuál es el intervalo de velocidad de cálculo para tuberías metálicas?",
       "opciones": [
-        "No hay límite",
+        "De 0,50 a 2,00 m/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "De 0,50 a 2,00 m/s",
-        "De 0,50 a 3,50 m/s",
-        "De 2,00 a 5,00 m/s"
+        "De 0,50 a 2,00 m/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "De 0,50 a 2,00 m/s, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Para tuberías metálicas, la velocidad de cálculo debe estar entre 0,50 y 2,00 m/s; para termoplásticas y multicapas, entre 0,50 y 3,50 m/s.",
@@ -142,9 +142,9 @@
       "pregunta": "Según el DB-HS 4, tabla 2.1, ¿cuál es el caudal instantáneo mínimo de agua fría de un inodoro con fluxor?",
       "opciones": [
         "1,25 dm³/s",
-        "0,03 dm³/s",
-        "0,10 dm³/s",
-        "0,20 dm³/s"
+        "1,25 dm³/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "1,25 dm³/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "1,25 dm³/s, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El caudal instantáneo mínimo de agua fría de un inodoro con fluxor es de 1,25 dm³/s, según la tabla de aparatos.",
@@ -153,10 +153,10 @@
     {
       "pregunta": "Según la ITC-ICG 07, apartado 3.2, ¿a partir de qué potencia útil precisa proyecto una instalación receptora individual de gas?",
       "opciones": [
-        "Nunca precisa proyecto",
-        "Desde 5 kW",
+        "Superior a 70 kW, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Superior a 70 kW, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Superior a 70 kW",
-        "Superior a 2.000 kW"
+        "Superior a 70 kW, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las instalaciones individuales de potencia útil superior a 70 kW precisan proyecto; las comunes, las de más de 2.000 kW.",
@@ -165,9 +165,9 @@
     {
       "pregunta": "Según la ITC-ICG 07, ¿qué norma se aplica a las instalaciones receptoras con presión máxima de operación de hasta 5 bar?",
       "opciones": [
-        "La norma UNE 100151",
-        "La norma UNE EN 12207",
-        "No hay norma",
+        "La norma UNE 60670, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La norma UNE 60670, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La norma UNE 60670, computándose los plazos en días naturales y con sentido desestimatorio",
         "La norma UNE 60670"
       ],
       "correcta": 3,
@@ -177,10 +177,10 @@
     {
       "pregunta": "Según la ITC-ICG 07, apartado 4.1, ¿con qué periodicidad se inspeccionan las instalaciones receptoras alimentadas desde una red de distribución?",
       "opciones": [
-        "Nunca",
+        "Cada cinco años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Cada cinco años",
-        "Cada año",
-        "Cada veinte años"
+        "Cada cinco años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cada cinco años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las inspecciones periódicas de las instalaciones receptoras alimentadas desde redes de distribución se realizan cada cinco años.",
@@ -189,10 +189,10 @@
     {
       "pregunta": "Según el DB-HS 4, apartado 5.2.1.1, punto 1, ¿qué prueba debe efectuar la empresa instaladora en la instalación de agua?",
       "opciones": [
-        "Solo una prueba del contador",
-        "Ninguna prueba",
+        "Una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios",
-        "Solo una prueba visual del color del agua"
+        "Una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La empresa instaladora está obligada a efectuar una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios que integran la instalación.",
@@ -202,9 +202,9 @@
       "pregunta": "Según el DB-HS 4, apartado 3.3.1, punto 2, ¿puede empalmarse la instalación de suministro directamente a una conducción de evacuación de aguas residuales?",
       "opciones": [
         "No puede empalmarse directamente",
-        "Solo en obras menores",
-        "Solo con permiso del vecino",
-        "Sí, siempre"
+        "No puede empalmarse directamente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No puede empalmarse directamente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No puede empalmarse directamente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La instalación de suministro no puede empalmarse directamente a una conducción de evacuación de aguas residuales.",
@@ -213,10 +213,10 @@
     {
       "pregunta": "¿Qué documento del CTE regula el abastecimiento de agua?",
       "opciones": [
-        "El DB-SI",
+        "El DB-HS 4, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El DB-HS 4",
-        "El DB-HE 1",
-        "El DB-SUA"
+        "El DB-HS 4, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-HS 4, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El abastecimiento de agua se regula en el DB-HS 4.",
@@ -226,9 +226,9 @@
       "pregunta": "¿Qué regula el RD 919/2006?",
       "opciones": [
         "El gas en sus instalaciones",
-        "El agua potable",
-        "Las telecomunicaciones",
-        "La accesibilidad"
+        "El gas en sus instalaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El gas en sus instalaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El gas en sus instalaciones, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El RD 919/2006 regula el gas y sus ITC-ICG 01 a 11.",
@@ -237,10 +237,10 @@
     {
       "pregunta": "¿Qué debe garantizar el agua que se suministra según la exigencia HS 4?",
       "opciones": [
-        "Que sea salada",
+        "Que sea apta para el consumo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Que sea apta para el consumo",
-        "Que sea caliente siempre",
-        "Que sea de lluvia"
+        "Que sea apta para el consumo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Que sea apta para el consumo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La exigencia HS 4 pide agua apta para el consumo, caudales suficientes y evitar retornos.",
@@ -249,9 +249,9 @@
     {
       "pregunta": "¿Qué tipo de llave se encuentra en la acometida?",
       "opciones": [
-        "Llave inglesa",
-        "Llave de paso de gas",
-        "Llave de cocina",
+        "Llave de corte general, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Llave de corte general, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Llave de corte general, computándose los plazos en días naturales y con sentido desestimatorio",
         "Llave de corte general"
       ],
       "correcta": 3,
@@ -262,9 +262,9 @@
       "pregunta": "¿Puede empalmarse la red de agua directamente a una conducción de aguas residuales?",
       "opciones": [
         "No",
-        "Sí, siempre",
-        "Sí, si lo autoriza el vecino",
-        "Sí, en Navidad"
+        "No, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "No puede empalmarse la instalación de suministro directamente a una conducción de evacuación de aguas residuales.",
@@ -273,10 +273,10 @@
     {
       "pregunta": "¿Qué presión mínima se exige en grifos comunes?",
       "opciones": [
-        "10 kPa",
+        "100 kPa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "100 kPa",
-        "1000 kPa",
-        "0 kPa"
+        "100 kPa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "100 kPa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los grifos comunes necesitan una presión mínima de 100 kPa.",
@@ -285,10 +285,10 @@
     {
       "pregunta": "¿Cuál es la presión máxima en los puntos de consumo?",
       "opciones": [
-        "50 kPa",
-        "5000 kPa",
+        "500 kPa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "500 kPa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "500 kPa",
-        "No hay límite"
+        "500 kPa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La presión máxima en los puntos de consumo es de 500 kPa.",
@@ -310,9 +310,9 @@
       "pregunta": "¿Qué caudal instantáneo se asigna a una ducha?",
       "opciones": [
         "0,20 dm³/s",
-        "2 dm³/s",
-        "20 dm³/s",
-        "0,02 dm³/s"
+        "0,20 dm³/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "0,20 dm³/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "0,20 dm³/s, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El caudal instantáneo de ducha es de 0,20 dm³/s.",
@@ -321,10 +321,10 @@
     {
       "pregunta": "¿Qué material de tubería es adecuado para la red de agua?",
       "opciones": [
-        "Materiales que se oxidan",
+        "Materiales resistentes a la corrosión interior y a 40 ºC, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Materiales resistentes a la corrosión interior y a 40 ºC",
-        "Papel",
-        "Cartón"
+        "Materiales resistentes a la corrosión interior y a 40 ºC, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Materiales resistentes a la corrosión interior y a 40 ºC, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los materiales deben resistir la corrosión interior y 40 ºC, sin incompatibilidad electroquímica.",
@@ -333,10 +333,10 @@
     {
       "pregunta": "¿Qué tipo de velocidad máxima se admite en tuberías metálicas?",
       "opciones": [
-        "10,00 m/s",
-        "0,01 m/s",
+        "2,00 m/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "2,00 m/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "2,00 m/s",
-        "No hay límite"
+        "2,00 m/s, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "En tuberías metálicas la velocidad está entre 0,50 y 2,00 m/s.",
@@ -345,9 +345,9 @@
     {
       "pregunta": "¿Cuál es el límite de pérdida de temperatura del retorno de ACS en el grifo más alejado?",
       "opciones": [
-        "30 ºC",
-        "0,3 ºC",
-        "Sin límite",
+        "3 ºC, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "3 ºC, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "3 ºC, computándose los plazos en días naturales y con sentido desestimatorio",
         "3 ºC"
       ],
       "correcta": 3,
@@ -358,9 +358,9 @@
       "pregunta": "¿Qué presión debe tener el depósito de presión sobre la mínima?",
       "opciones": [
         "Entre 2 y 3 bar",
-        "Entre 20 y 30 bar",
-        "Ninguna",
-        "Entre 0,01 y 0,02 bar"
+        "Entre 2 y 3 bar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Entre 2 y 3 bar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Entre 2 y 3 bar, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El depósito de presión debe tener entre 2 y 3 bar por encima de la presión mínima.",
@@ -369,10 +369,10 @@
     {
       "pregunta": "¿Cómo se distribuye el gas en las instalaciones?",
       "opciones": [
-        "Por correo",
+        "Por canalización con autorización administrativa previa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Por canalización con autorización administrativa previa",
-        "Por globo",
-        "Por el aire"
+        "Por canalización con autorización administrativa previa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Por canalización con autorización administrativa previa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La distribución de gas por canalización requiere autorización administrativa previa.",
@@ -381,10 +381,10 @@
     {
       "pregunta": "¿A partir de qué potencia precisan proyecto las instalaciones receptoras individuales de gas?",
       "opciones": [
-        "Más de 1 kW",
-        "Más de 1.000 kW",
+        "Más de 70 kW, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Más de 70 kW, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Más de 70 kW",
-        "Nunca"
+        "Más de 70 kW, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las individuales de más de 70 kW precisan proyecto.",
@@ -393,9 +393,9 @@
     {
       "pregunta": "¿Qué norma se aplica al gas a presión de operación de hasta 5 bar?",
       "opciones": [
-        "UNE 60620",
-        "UNE 1",
-        "Ninguna",
+        "UNE 60670, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "UNE 60670, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "UNE 60670, computándose los plazos en días naturales y con sentido desestimatorio",
         "UNE 60670"
       ],
       "correcta": 3,
@@ -406,9 +406,9 @@
       "pregunta": "¿Qué norma se aplica al gas con presión superior a 5 bar?",
       "opciones": [
         "UNE 60620",
-        "UNE 60670",
-        "UNE 1",
-        "Ninguna"
+        "UNE 60620, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "UNE 60620, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "UNE 60620, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Por encima de 5 bar se aplica la norma UNE 60620.",
@@ -417,10 +417,10 @@
     {
       "pregunta": "¿Cada cuánto se inspecciona periódicamente una instalación de gas?",
       "opciones": [
-        "Cada día",
+        "Cada cinco años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Cada cinco años",
-        "Cada mes",
-        "Cada siglo"
+        "Cada cinco años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cada cinco años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las instalaciones de gas se inspeccionan periódicamente cada cinco años.",
@@ -429,10 +429,10 @@
     {
       "pregunta": "¿Qué se comprueba en la inspección del gas?",
       "opciones": [
-        "El color",
-        "La música",
+        "Estanquidad, combustión, ventilación y detección de gas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Estanquidad, combustión, ventilación y detección de gas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Estanquidad, combustión, ventilación y detección de gas",
-        "El precio del gas"
+        "Estanquidad, combustión, ventilación y detección de gas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La inspección comprueba la estanquidad, la combustión, la ventilación y la detección de gas.",
@@ -441,9 +441,9 @@
     {
       "pregunta": "¿Qué reglamento regula el mantenimiento de la red de agua por la legionelosis?",
       "opciones": [
-        "El RD 842/2002",
-        "El RD 346/2011",
-        "El RD 1627/1997",
+        "El RD 865/2003, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El RD 865/2003, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El RD 865/2003, computándose los plazos en días naturales y con sentido desestimatorio",
         "El RD 865/2003"
       ],
       "correcta": 3,
@@ -453,10 +453,10 @@
     {
       "pregunta": "¿Qué prueba se hace en la red de agua?",
       "opciones": [
-        "Prueba de sonido",
-        "Prueba de color",
+        "Prueba de resistencia mecánica y estanqueidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Prueba de resistencia mecánica y estanqueidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Prueba de resistencia mecánica y estanqueidad",
-        "Ninguna"
+        "Prueba de resistencia mecánica y estanqueidad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Se hace prueba de resistencia mecánica y estanqueidad de toda la red de agua.",
@@ -466,9 +466,9 @@
       "pregunta": "¿Qué consumo instantáneo se asigna al inodoro con fluxor?",
       "opciones": [
         "1,25 dm³/s",
-        "12,5 dm³/s",
-        "0,125 dm³/s",
-        "Ninguno"
+        "1,25 dm³/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "1,25 dm³/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "1,25 dm³/s, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El inodoro con fluxor tiene un caudal instantáneo de 1,25 dm³/s.",
@@ -477,10 +477,10 @@
     {
       "pregunta": "¿Qué DB del CTE regula el suministro de agua?",
       "opciones": [
-        "DB-HS 3",
+        "DB-HS 4, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "DB-HS 4",
-        "DB-HS 5",
-        "DB-SI 4"
+        "DB-HS 4, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-HS 4, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El DB-HS 4 regula el suministro de agua en los edificios.",
@@ -501,9 +501,9 @@
     {
       "pregunta": "¿Qué elemento impide el retorno del agua en la instalación?",
       "opciones": [
-        "Llave de paso",
-        "Contador",
-        "Grifo temporizado",
+        "Válvula de retención, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Válvula de retención, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Válvula de retención, computándose los plazos en días naturales y con sentido desestimatorio",
         "Válvula de retención"
       ],
       "correcta": 3,
@@ -513,9 +513,9 @@
     {
       "pregunta": "¿Qué elemento mide el consumo de agua del edificio?",
       "opciones": [
-        "Termostato",
-        "Sifón",
-        "Llave de corte",
+        "Contador, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Contador, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Contador, computándose los plazos en días naturales y con sentido desestimatorio",
         "Contador"
       ],
       "correcta": 3,
@@ -526,9 +526,9 @@
       "pregunta": "¿Qué sistema calienta el agua para el consumo sanitario?",
       "opciones": [
         "Termo o calentador de agua caliente sanitaria",
-        "Caldera de carbón para calefacción sin consumo",
-        "Torre de refrigeración",
-        "Bomba de vacío"
+        "Termo o calentador de agua caliente sanitaria, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Termo o calentador de agua caliente sanitaria, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Termo o calentador de agua caliente sanitaria, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El termo o calentador produce el agua caliente sanitaria.",
@@ -537,10 +537,10 @@
     {
       "pregunta": "¿Qué elemento permite cortar el suministro en cada aparato?",
       "opciones": [
-        "Bajante",
+        "Llave de corte, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Llave de corte",
-        "Canalón",
-        "Sumidero"
+        "Llave de corte, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Llave de corte, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La llave de corte aísla el suministro de un aparato o zona.",
@@ -549,10 +549,10 @@
     {
       "pregunta": "¿Qué elemento de fontanería limita la presión de la red en el interior del edificio?",
       "opciones": [
-        "Termostato",
-        "Contador de gas",
+        "Reductor de presión, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Reductor de presión, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Reductor de presión",
-        "Campana extractora"
+        "Reductor de presión, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El reductor de presión mantiene la presión admisible en la instalación interior.",
@@ -561,9 +561,9 @@
     {
       "pregunta": "¿Qué elemento de gas detecta fugas y corta el suministro?",
       "opciones": [
-        "Sifón",
-        "Rejilla de ventilación de sumideros",
-        "Bomba de pozo",
+        "Válvula de corte de gas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Válvula de corte de gas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Válvula de corte de gas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Válvula de corte de gas"
       ],
       "correcta": 3,
@@ -585,10 +585,10 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos de la red de agua), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Agua apta para el consumo, caudales suficientes, evitar retornos y medios de ahorro.»?",
       "opciones": [
-        "Las instalaciones de fontanería y gas.",
+        "Exigencia HS 4, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Exigencia HS 4.",
-        "El tercero.",
-        "Si la presión de la red pública."
+        "Exigencia HS 4, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Exigencia HS 4, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Agua apta para el consumo, caudales suficientes, evitar retornos y medios de ahorro.») define o regula específicamente a «Exigencia HS 4» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -609,9 +609,9 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Presiones, temperaturas y caudales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «100 kPa para grifos comunes y 150 kPa para fluxores y calentadores.»?",
       "opciones": [
-        "El primero.",
-        "La incompatibilidad electroquímica entre materiales es otra regla de diseño.",
-        "El caudal instantáneo mínimo se toma de la tabla de aparatos.",
+        "Presión mínima en los puntos de consumo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Presión mínima en los puntos de consumo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Presión mínima en los puntos de consumo, computándose los plazos en días naturales y con sentido desestimatorio",
         "Presión mínima en los puntos de consumo."
       ],
       "correcta": 3,
@@ -633,10 +633,10 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Dimensionado), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Pérdida máxima de 3 ºC en el grifo más alejado y no menos de 250 l/h por columna en el supuesto de la norma (apartado 4.4.2).»?",
       "opciones": [
-        "El segundo.",
+        "Retorno de ACS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Retorno de ACS.",
-        "Las compañías suministradoras.",
-        "Para el ACS, los valores son menores."
+        "Retorno de ACS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Retorno de ACS, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Pérdida máxima de 3 ºC en el grifo más alejado y no menos de 250 l/h por columna en el supuesto de la norma (apartado 4.4.2).») define o regula específicamente a «Retorno de ACS» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -657,9 +657,9 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las que llevan el agua y el combustible hasta los aparatos del edificio, y que retiran el agua usada.»?",
       "opciones": [
-        "El tercero.",
-        "Si la presión de la red pública.",
-        "El dimensionado.",
+        "Las instalaciones de fontanería y gas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las instalaciones de fontanería y gas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las instalaciones de fontanería y gas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Las instalaciones de fontanería y gas."
       ],
       "correcta": 3,
@@ -729,10 +729,10 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los aparatos y equipos, como los grifos, los calentadores, las calderas y los depósitos.»?",
       "opciones": [
-        "Si la presión de la red pública.",
+        "El tercero, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El tercero.",
-        "El dimensionado.",
-        "El DB-HS 4."
+        "El tercero, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El tercero, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Son los aparatos y equipos, como los grifos, los calentadores, las calderas y los depósitos.») define o regula específicamente a «El tercero» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -801,9 +801,9 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos y exigencias básicas del agua), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es insuficiente para cumplir el mínimo del punto de consumo más desfavorable, la solución es un grupo de presión, cuyo cálculo se trata en el apartado 5 de este desarrollo.»?",
       "opciones": [
-        "El dimensionado.",
-        "El DB-HS 4.",
-        "Los riesgos del gas.",
+        "Si la presión de la red pública, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Si la presión de la red pública, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Si la presión de la red pública, computándose los plazos en días naturales y con sentido desestimatorio",
         "Si la presión de la red pública."
       ],
       "correcta": 3,

@@ -97,10 +97,10 @@
     {
       "pregunta": "Según el art. 25.1 LCSP, ¿qué carácter tienen los contratos de obra que celebra una Administración Pública?",
       "opciones": [
-        "Civil",
-        "Privado, en todo caso",
+        "Administrativo, con las excepciones de la propia ley, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Administrativo, con las excepciones de la propia ley, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Administrativo, con las excepciones de la propia ley",
-        "Laboral"
+        "Administrativo, con las excepciones de la propia ley, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los contratos de obra celebrados por una Administración tienen carácter administrativo, salvo las excepciones que el propio art. 25.1 enumera.",
@@ -109,10 +109,10 @@
     {
       "pregunta": "Según el art. 61.1 LCSP, ¿quién representa a las entidades del sector público en materia contractual?",
       "opciones": [
-        "Cualquier empleado público",
+        "Los órganos de contratación, unipersonales o colegiados, con facultad atribuida, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Los órganos de contratación, unipersonales o colegiados, con facultad atribuida",
-        "El director facultativo de la obra",
-        "El contratista"
+        "Los órganos de contratación, unipersonales o colegiados, con facultad atribuida, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los órganos de contratación, unipersonales o colegiados, con facultad atribuida, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La representación corresponde a los órganos de contratación, unipersonales o colegiados, que tengan la facultad de celebrar contratos en nombre de la entidad.",
@@ -145,10 +145,10 @@
     {
       "pregunta": "Según el art. 42.1 LCSP, ¿qué consecuencia tiene la declaración firme de nulidad de la adjudicación?",
       "opciones": [
-        "No tiene efectos",
-        "Solo se anula el acto de adjudicación, y el contrato sigue vigente",
+        "Lleva consigo la nulidad del contrato, que entra en liquidación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Lleva consigo la nulidad del contrato, que entra en liquidación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Lleva consigo la nulidad del contrato, que entra en liquidación",
-        "Se convierte en una simple anulabilidad"
+        "Lleva consigo la nulidad del contrato, que entra en liquidación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La declaración firme de nulidad de los actos preparatorios o de la adjudicación lleva consigo la del contrato, que entra en fase de liquidación.",
@@ -157,10 +157,10 @@
     {
       "pregunta": "Según el art. 158.1 LCSP, ¿en qué plazo debe producirse la adjudicación cuando el único criterio es el precio?",
       "opciones": [
-        "Sin plazo fijado",
+        "En diez días hábiles desde el siguiente a la apertura de proposiciones",
         "En quince días desde el siguiente a la apertura de proposiciones",
-        "En dos meses desde la apertura",
-        "En seis meses desde la formalización"
+        "En cuarenta y cinco días naturales hábiles naturales desde el siguiente a la apertura de proposiciones",
+        "En quince días naturales naturales desde el siguiente a la apertura de proposiciones"
       ],
       "correcta": 1,
       "explicacion": "Con precio como único criterio, la adjudicación debe recaer en quince días desde el siguiente a la apertura de las proposiciones.",
@@ -169,9 +169,9 @@
     {
       "pregunta": "Según el art. 36.1 LCSP, ¿cuándo se perfeccionan los contratos de los poderes adjudicadores, salvo los menores?",
       "opciones": [
-        "Con el inicio de la obra",
-        "Con la recepción",
-        "Con la oferta del licitador",
+        "Con la formalización del contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Con la formalización del contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Con la formalización del contrato, computándose los plazos en días naturales y con sentido desestimatorio",
         "Con la formalización del contrato"
       ],
       "correcta": 3,
@@ -182,9 +182,9 @@
       "pregunta": "¿Qué principios rigen la contratación del sector público?",
       "opciones": [
         "Publicidad, concurrencia, igualdad y uso eficiente de los fondos",
-        "Secreto, discrecionalidad, urgencia y exclusividad",
-        "Libre designación, mérito y antigüedad",
-        "Rapidez, silencio y desistimiento"
+        "Publicidad, concurrencia, precio óptimo y uso mínimo de los fondos públicos",
+        "Publicidad, libre competencia, adjudicación al precio más bajo y gasto mínimo",
+        "Transparencia, concurrencia por lotes, equilibrio financiero y preferencia territorial"
       ],
       "correcta": 0,
       "explicacion": "La LCSP regula la contratación con publicidad, concurrencia, igualdad y eficiente uso de los fondos públicos.",
@@ -217,10 +217,10 @@
     {
       "pregunta": "¿Cuáles de estos son contratos administrativos según la LCSP?",
       "opciones": [
-        "Solo los de obras",
+        "Obras, concesión de obras, concesión de servicios, suministro y servicios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Obras, concesión de obras, concesión de servicios, suministro y servicios",
-        "Los contratos laborales",
-        "Los contratos de alquiler de viviendas privadas"
+        "Obras, concesión de obras, concesión de servicios, suministro y servicios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Obras, concesión de obras, concesión de servicios, suministro y servicios, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Son contratos administrativos los de obras, concesión de obras, concesión de servicios, suministro y servicios, con excepciones.",
@@ -230,33 +230,21 @@
       "pregunta": "¿Qué debe quedar determinado antes de iniciar un procedimiento de contratación?",
       "opciones": [
         "La necesidad y la idoneidad del contrato",
-        "El nombre del contratista",
-        "El precio de la obra al céntimo",
-        "La fecha de la inauguración"
+        "La necesidad y la idoneidad del contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La necesidad y la idoneidad del contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La necesidad y la idoneidad del contrato, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Solo pueden celebrarse contratos necesarios para los fines institucionales, con necesidad e idoneidad determinadas antes del procedimiento.",
       "referencia": "Art. 28.1 LCSP"
     },
     {
-      "pregunta": "¿Quién representa a la Administración en la contratación pública?",
-      "opciones": [
-        "Los sindicatos",
-        "Los órganos de contratación, unipersonales o colegiados",
-        "Los contratistas",
-        "Los vecinos"
-      ],
-      "correcta": 1,
-      "explicacion": "Representan a la Administración los órganos de contratación, unipersonales o colegiados.",
-      "referencia": "Art. 61.1 LCSP"
-    },
-    {
       "pregunta": "¿Quién supervisa la ejecución del contrato?",
       "opciones": [
-        "El contratista",
-        "El Defensor del Pueblo",
+        "El responsable del contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El responsable del contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El responsable del contrato",
-        "El Tribunal de Cuentas"
+        "El responsable del contrato, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El responsable del contrato supervisa su ejecución.",
@@ -265,9 +253,9 @@
     {
       "pregunta": "¿Qué exige la LCSP para poder contratar con la Administración?",
       "opciones": [
-        "Ser funcionario",
-        "Tener sede en el municipio",
-        "Ser una persona mayor de setenta años",
+        "Plena capacidad de obrar, no estar prohibido, solvencia y habilitación si es exigible, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Plena capacidad de obrar, no estar prohibido, solvencia y habilitación si es exigible, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Plena capacidad de obrar, no estar prohibido, solvencia y habilitación si es exigible, computándose los plazos en días naturales y con sentido desestimatorio",
         "Plena capacidad de obrar, no estar prohibido, solvencia y habilitación si es exigible"
       ],
       "correcta": 3,
@@ -278,9 +266,9 @@
       "pregunta": "¿Cómo debe ser la solvencia exigida al contratista?",
       "opciones": [
         "Vinculada al objeto del contrato y proporcional",
-        "Ilimitada",
-        "Sin relación con el objeto",
-        "Fijada por el contratista"
+        "Vinculada al objeto del contrato y proporcional, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Vinculada al objeto del contrato y proporcional, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Vinculada al objeto del contrato y proporcional, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La solvencia debe estar vinculada al objeto del contrato y ser proporcional a él.",
@@ -289,10 +277,10 @@
     {
       "pregunta": "¿Qué consecuencia tiene la nulidad de la adjudicación?",
       "opciones": [
-        "Solo anula una cláusula",
+        "Lleva consigo la nulidad del contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Lleva consigo la nulidad del contrato",
-        "No produce efectos",
-        "Se convierte en un contrato privado"
+        "Lleva consigo la nulidad del contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Lleva consigo la nulidad del contrato, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La nulidad de la adjudicación lleva consigo la del contrato, que entra en liquidación.",
@@ -301,10 +289,10 @@
     {
       "pregunta": "¿Con qué criterios se adjudica un contrato con pluralidad de criterios?",
       "opciones": [
-        "Solo con el precio más bajo",
-        "Por sorteo",
+        "Con la mejor relación calidad-precio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Con la mejor relación calidad-precio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Con la mejor relación calidad-precio",
-        "Por antigüedad de la empresa"
+        "Con la mejor relación calidad-precio, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Con pluralidad de criterios se adjudica según la mejor relación calidad-precio.",
@@ -326,9 +314,9 @@
       "pregunta": "¿Cuál es el plazo de adjudicación cuando hay un único criterio de precio?",
       "opciones": [
         "Quince días",
-        "Dos meses",
-        "Un año",
-        "Seis meses"
+        "diez días hábiles",
+        "cuarenta y cinco días naturales hábiles naturales",
+        "quince días naturales naturales"
       ],
       "correcta": 0,
       "explicacion": "Con precio único el plazo de adjudicación es de quince días.",
@@ -349,10 +337,10 @@
     {
       "pregunta": "¿Quién asume el riesgo y ventura en la ejecución del contrato?",
       "opciones": [
-        "La Administración",
-        "El órgano de contratación",
+        "El contratista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El contratista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El contratista",
-        "El responsable de la obra"
+        "El contratista, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La ejecución se rige por el riesgo y ventura del contratista.",
@@ -385,10 +373,10 @@
     {
       "pregunta": "¿Dónde se publica el expediente de contratación?",
       "opciones": [
-        "En el diario de un partido",
+        "En el perfil de contratante, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "En el perfil de contratante",
-        "En el tablón de la cafetería",
-        "En ningún sitio"
+        "En el perfil de contratante, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "En el perfil de contratante, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El expediente se publica en el perfil de contratante.",
@@ -409,9 +397,9 @@
     {
       "pregunta": "¿Qué tipo de nulidad afecta a los contratos con causa de derecho civil?",
       "opciones": [
-        "Son válidos",
-        "Son automáticamente prorrogados",
-        "Son de libre resolución",
+        "Son inválidos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Son inválidos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Son inválidos, computándose los plazos en días naturales y con sentido desestimatorio",
         "Son inválidos"
       ],
       "correcta": 3,
@@ -434,9 +422,9 @@
       "pregunta": "¿Qué contratos pueden celebrar las entidades del sector público?",
       "opciones": [
         "Solo los necesarios para el cumplimiento de sus fines institucionales",
-        "Cualquier contrato que deseen",
-        "Solo contratos con familiares",
-        "Ninguno"
+        "Solo los necesarios para el cumplimiento de sus fines institucionales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Solo los necesarios para el cumplimiento de sus fines institucionales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Solo los necesarios para el cumplimiento de sus fines institucionales, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las entidades del sector público solo pueden celebrar los contratos necesarios para sus fines institucionales.",
@@ -457,10 +445,10 @@
     {
       "pregunta": "¿Qué órgano clasifica por orden decreciente las proposiciones presentadas?",
       "opciones": [
-        "El contratista",
-        "El Defensor del Pueblo",
+        "La mesa de contratación o, en su defecto, el órgano de contratación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La mesa de contratación o, en su defecto, el órgano de contratación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La mesa de contratación o, en su defecto, el órgano de contratación",
-        "El director de la obra"
+        "La mesa de contratación o, en su defecto, el órgano de contratación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La mesa de contratación o el órgano de contratación clasifica las proposiciones por orden decreciente.",
@@ -469,9 +457,9 @@
     {
       "pregunta": "¿Qué medio de difusión de la información de contratación regula la LCSP?",
       "opciones": [
-        "El tablón del ayuntamiento",
-        "La radio local",
-        "El periódico de papel",
+        "El perfil de contratante, difundido por Internet, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El perfil de contratante, difundido por Internet, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El perfil de contratante, difundido por Internet, computándose los plazos en días naturales y con sentido desestimatorio",
         "El perfil de contratante, difundido por Internet"
       ],
       "correcta": 3,
@@ -494,9 +482,9 @@
       "pregunta": "¿Qué forma pueden adoptar los empresarios que se unen temporalmente para contratar?",
       "opciones": [
         "Uniones temporales de empresarios",
-        "Un sindicato",
-        "Un club deportivo",
-        "Una comunidad de vecinos"
+        "Uniones temporales de empresarios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Uniones temporales de empresarios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Uniones temporales de empresarios, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las uniones temporales de empresarios permiten contratar conjuntamente.",
@@ -505,10 +493,10 @@
     {
       "pregunta": "¿Quién debe designar un responsable del contrato?",
       "opciones": [
-        "El contratista",
+        "Los órganos de contratación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Los órganos de contratación",
-        "El Tribunal de Cuentas",
-        "Los vecinos"
+        "Los órganos de contratación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los órganos de contratación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los órganos de contratación deberán designar un responsable del contrato.",
@@ -517,10 +505,10 @@
     {
       "pregunta": "¿Qué solvencia técnica se exige en obras en cuanto a trabajos anteriores?",
       "opciones": [
-        "Ninguna",
-        "Un currículum familiar",
+        "La relación de obras de los últimos cinco años con certificados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La relación de obras de los últimos cinco años con certificados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La relación de obras de los últimos cinco años con certificados",
-        "Un certificado de la lotería"
+        "La relación de obras de los últimos cinco años con certificados, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La solvencia técnica se acredita con la relación de obras de los últimos cinco años.",
@@ -577,9 +565,9 @@
     {
       "pregunta": "Dentro de la materia «Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos.» (Órganos, capacidad y solvencia), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige plena capacidad de obrar, no estar prohibido, solvencia acreditada y habilitación si es exigible (arts. 65 y 71 LCSP).»?",
       "opciones": [
-        "También lo.",
-        "El artículo 26 LCSP.",
-        "La aprobación del expediente se.",
+        "Para contratar se, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Para contratar se, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Para contratar se, computándose los plazos en días naturales y con sentido desestimatorio",
         "Para contratar se."
       ],
       "correcta": 3,
@@ -601,10 +589,10 @@
     {
       "pregunta": "Dentro de la materia «Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos.» (Adjudicación y formalización), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es de quince días con precio único y de dos meses con varios criterios (art. 158 LCSP).»?",
       "opciones": [
-        "La respuesta depende de su naturaleza pública.",
+        "El plazo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El plazo.",
-        "Respuesta.",
-        "El perfil de contratante."
+        "El plazo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El plazo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es de quince días con precio único y de dos meses con varios criterios (art. 158 LCSP).») define o regula específicamente a «El plazo» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -625,9 +613,9 @@
     {
       "pregunta": "Dentro de la materia «Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos.» (Objeto y finalidad de la ley de contratos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La de procedimiento (publicidad, concurrencia, igualdad) y la de gasto eficiente.»?",
       "opciones": [
-        "Los demás contratos tienen su propia definición en la ley.",
-        "Para un examen, el orden es.",
-        "La primera.",
+        "Para un examen, la finalidad tiene dos partes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Para un examen, la finalidad tiene dos partes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Para un examen, la finalidad tiene dos partes, computándose los plazos en días naturales y con sentido desestimatorio",
         "Para un examen, la finalidad tiene dos partes."
       ],
       "correcta": 3,
@@ -673,9 +661,9 @@
     {
       "pregunta": "Dentro de la materia «Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos.» (Ámbito subjetivo: quién está sometido a la ley), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La lista del artículo 3 es la guía, y las entidades que no son Administración tienen un régimen de contratación que la ley delimita.»?",
       "opciones": [
-        "Respuesta.",
-        "El perfil de contratante.",
-        "Para un examen, la diferencia es decisiva.",
+        "La respuesta depende de su naturaleza pública, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La respuesta depende de su naturaleza pública, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La respuesta depende de su naturaleza pública, computándose los plazos en días naturales y con sentido desestimatorio",
         "La respuesta depende de su naturaleza pública."
       ],
       "correcta": 3,
@@ -697,10 +685,10 @@
     {
       "pregunta": "Dentro de la materia «Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos.» (Calificación de los contratos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Concesión de obras (art. 14), concesión de servicios (art. 15), suministro (art. 16) y servicios (art. 17).»?",
       "opciones": [
-        "Para un examen, el orden es.",
+        "Los demás contratos tienen su propia definición en la ley, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Los demás contratos tienen su propia definición en la ley.",
-        "La primera.",
-        "Para un examen, el criterio único es el precio."
+        "Los demás contratos tienen su propia definición en la ley, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los demás contratos tienen su propia definición en la ley, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Concesión de obras (art. 14), concesión de servicios (art. 15), suministro (art. 16) y servicios (art. 17).») define o regula específicamente a «Los demás contratos tienen su propia definición en la ley» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -721,9 +709,9 @@
     {
       "pregunta": "Dentro de la materia «Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos.» (Contratos administrativos y contratos privados), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula los contratos privados, es decir, los que no tienen carácter administrativo conforme al artículo 25.»?",
       "opciones": [
-        "La aprobación del expediente se.",
-        "El artículo 40 LCSP establece que.",
-        "El documento.",
+        "El artículo 26 LCSP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El artículo 26 LCSP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El artículo 26 LCSP, computándose los plazos en días naturales y con sentido desestimatorio",
         "El artículo 26 LCSP."
       ],
       "correcta": 3,
@@ -769,13 +757,25 @@
     {
       "pregunta": "Dentro de la materia «Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos.» (El expediente de contratación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Necesidad motivada, expediente completo con pliegos y publicación en el perfil.»?",
       "opciones": [
-        "La primera.",
-        "Para un examen, el criterio único es el precio.",
-        "El artículo 209 LCSP.",
+        "Para un examen, el orden es, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Para un examen, el orden es, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Para un examen, el orden es, computándose los plazos en días naturales y con sentido desestimatorio",
         "Para un examen, el orden es."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Necesidad motivada, expediente completo con pliegos y publicación en el perfil.») define o regula específicamente a «Para un examen, el orden es» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Órganos, capacidad y solvencia» (Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Exige plena capacidad de obrar, no estar prohibido, solvencia acreditada y habilitación si es exigible (arts. 65 y 71 LCSP).»?",
+      "opciones": [
+        "Para un examen, la finalidad tiene dos partes.",
+        "Para contratar se.",
+        "La respuesta depende de su naturaleza pública.",
+        "El artículo 26 LCSP."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («Exige plena capacidad de obrar, no estar prohibido, solvencia acreditada y habilitación si es exigible (arts. 65 y 71 LCSP).») define o regula específicamente a «Para contratar se» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
       "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     }
   ]

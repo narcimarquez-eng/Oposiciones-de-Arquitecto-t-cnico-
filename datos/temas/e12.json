@@ -82,9 +82,9 @@
       "pregunta": "Según el DB-SUA 1, tabla 1.2, ¿qué clase de resbaladicidad se exige en una zona interior seca con pendiente inferior al 6 %?",
       "opciones": [
         "Clase 1",
-        "Clase 2",
-        "Clase 3",
-        "No hay clase exigible"
+        "Clase 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Clase 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Clase 1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "En las zonas interiores secas con superficies de pendiente menor que el 6 %, la clase exigible es 1.",
@@ -93,10 +93,10 @@
     {
       "pregunta": "Según el DB-SUA 1, tabla 1.2, ¿qué clase de resbaladicidad se exige en las piscinas y en las duchas?",
       "opciones": [
-        "Clase 1",
-        "Clase 2",
+        "Clase 3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Clase 3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Clase 3",
-        "Clase 0"
+        "Clase 3, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las zonas exteriores, las piscinas y las duchas tienen clase exigible 3.",
@@ -105,9 +105,9 @@
     {
       "pregunta": "Según el DB-HS 1, apartado 2.3.2, bloque R, ¿qué resistencia a la filtración corresponde a un revestimiento exterior discontinuo fijado mecánicamente?",
       "opciones": [
-        "Resistencia muy alta (R3)",
-        "Ninguna",
-        "Resistencia media (R1)",
+        "Resistencia alta (R2), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Resistencia alta (R2), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Resistencia alta (R2), computándose los plazos en días naturales y con sentido desestimatorio",
         "Resistencia alta (R2)"
       ],
       "correcta": 3,
@@ -117,10 +117,10 @@
     {
       "pregunta": "Según el DB-HS 1, apartado 2.3.2, bloque N, ¿qué espesor mínimo tiene un enfoscado de mortero de resistencia media (N1)?",
       "opciones": [
-        "5 mm",
+        "10 mm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "10 mm",
-        "15 mm",
-        "20 mm"
+        "10 mm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "10 mm, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "N1 exige un enfoscado de mortero con un espesor mínimo de 10 mm.",
@@ -130,9 +130,9 @@
       "pregunta": "Según el DB-SI 1, tabla 4.1, ¿qué clase de reacción al fuego se exige a los revestimientos de techos y paredes en zonas ocupables?",
       "opciones": [
         "C-s2,d0",
-        "EFL",
-        "D-s3,d2",
-        "B-s1,d0"
+        "C-s2,d0, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "C-s2,d0, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "C-s2,d0, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "En las zonas ocupables, los revestimientos de techos y paredes deben tener la clase C-s2,d0.",
@@ -141,10 +141,10 @@
     {
       "pregunta": "Según el DB-SI 1, tabla 4.1, nota 1, ¿a partir de qué porcentaje de la superficie del conjunto de paredes, techos o suelos se aplica la clase del revestimiento?",
       "opciones": [
-        "50 %",
-        "1 %",
+        "5 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "5 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "5 %",
-        "25 %"
+        "5 %, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los revestimientos se consideran cuando superan el 5 % de la superficie total de paredes, techos o suelos del recinto.",
@@ -153,9 +153,9 @@
     {
       "pregunta": "Según el DB-SI 1, tabla 4.1, ¿qué clase de reacción al fuego se exige a los revestimientos de los espacios ocultos no estancos, como los falsos techos?",
       "opciones": [
-        "EFL",
-        "A1",
-        "C-s2,d0",
+        "B-s3,d0 en techos y paredes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "B-s3,d0 en techos y paredes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "B-s3,d0 en techos y paredes, computándose los plazos en días naturales y con sentido desestimatorio",
         "B-s3,d0 en techos y paredes"
       ],
       "correcta": 3,
@@ -165,10 +165,10 @@
     {
       "pregunta": "Según el DB-HS 1, apartado 2.3.3.1, ¿con qué distancia máxima deben disponerse las juntas de dilatación de la hoja principal de fábrica sustentada?",
       "opciones": [
-        "No hay distancia máxima",
+        "La que fija la tabla 2.1 del DB-SE-F, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La que fija la tabla 2.1 del DB-SE-F",
-        "Cada 50 m",
-        "Cada 10 m"
+        "La que fija la tabla 2.1 del DB-SE-F, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La que fija la tabla 2.1 del DB-SE-F, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La distancia entre juntas de dilatación contiguas no debe superar la que figura en la tabla 2.1 del DB-SE-F para fábricas sustentadas.",
@@ -201,10 +201,10 @@
     {
       "pregunta": "¿Qué documento básico del CTE justifica los revestimientos exteriores de fachada?",
       "opciones": [
-        "El DB-SUA 1",
+        "El DB-HS 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El DB-HS 1",
-        "El DB-SI 1",
-        "El DB-HE 1"
+        "El DB-HS 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-HS 1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los revestimientos exteriores se justifican con el DB-HS 1.",
@@ -214,9 +214,9 @@
       "pregunta": "¿Qué documento básico justifica la resbaladicidad de los pavimentos?",
       "opciones": [
         "El DB-SUA 1",
-        "El DB-HS 1",
-        "El DB-SI 1",
-        "El DB-HE 1"
+        "El DB-SUA 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DB-SUA 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-SUA 1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La resbaladicidad de los pavimentos se justifica con el DB-SUA 1.",
@@ -225,10 +225,10 @@
     {
       "pregunta": "¿Qué documento básico justifica la reacción al fuego de techos, paredes y suelos?",
       "opciones": [
-        "El DB-HS 1",
+        "El DB-SI 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El DB-SI 1",
-        "El DB-SUA 1",
-        "El DB-HR"
+        "El DB-SI 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-SI 1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La reacción al fuego de techos, paredes y suelos se justifica con el DB-SI 1.",
@@ -237,9 +237,9 @@
     {
       "pregunta": "¿Qué documento completa la exigencia acústica del CTE?",
       "opciones": [
-        "El DB-SI 1",
-        "El DB-SUA 1",
-        "El DB-HE 1",
+        "El DB-HR, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DB-HR, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-HR, computándose los plazos en días naturales y con sentido desestimatorio",
         "El DB-HR"
       ],
       "correcta": 3,
@@ -250,9 +250,9 @@
       "pregunta": "¿Cómo se obtiene la solución de revestimiento exterior según la tabla 2.7 del DB-HS 1?",
       "opciones": [
         "Combinando bloques de letras y números",
-        "Con un sorteo",
-        "Con el color de la fachada",
-        "Con el precio del andamio"
+        "Combinando bloques de letras y números, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Combinando bloques de letras y números, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Combinando bloques de letras y números, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La solución se obtiene combinando bloques de letras (R, B, C, H, J, N) y números.",
@@ -261,10 +261,10 @@
     {
       "pregunta": "¿Qué significa un número mayor en la tabla de revestimientos del DB-HS 1?",
       "opciones": [
-        "Peor prestación",
+        "Mejor prestación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Mejor prestación",
-        "Menos superficie",
-        "Mayor color"
+        "Mejor prestación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Mejor prestación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Un número mayor indica mejor prestación.",
@@ -273,10 +273,10 @@
     {
       "pregunta": "¿Qué tipo de bloque corresponde a la resistencia de los revestimientos continuos o discontinuos rígidos?",
       "opciones": [
-        "Bloque N",
-        "Bloque J",
+        "Bloque R, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Bloque R, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Bloque R",
-        "Bloque C"
+        "Bloque R, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El bloque R corresponde a la resistencia de los revestimientos.",
@@ -285,9 +285,9 @@
     {
       "pregunta": "¿Qué tipo de junta de mortero tiene resistencia alta con producto hidrófugo?",
       "opciones": [
-        "J1",
-        "J3",
-        "N1",
+        "J2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "J2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "J2, computándose los plazos en días naturales y con sentido desestimatorio",
         "J2"
       ],
       "correcta": 3,
@@ -298,9 +298,9 @@
       "pregunta": "¿Qué tipo de enfoscado se necesita en el bloque N?",
       "opciones": [
         "Enfoscado de mortero como mínimo de 10 mm (N1)",
-        "Un enfoscado de papel",
-        "Un enfoscado de paja",
-        "Ninguno"
+        "Enfoscado de mortero como mínimo de 10 mm (N1), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Enfoscado de mortero como mínimo de 10 mm (N1), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Enfoscado de mortero como mínimo de 10 mm (N1), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El bloque N1 es un enfoscado de mortero de al menos 10 mm.",
@@ -309,10 +309,10 @@
     {
       "pregunta": "¿Qué se requiere de los pavimentos en zonas húmedas con pendiente igual o superior al 6 %?",
       "opciones": [
-        "Clase de suelo 1",
+        "Clase de suelo 3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Clase de suelo 3",
-        "Ninguna clase",
-        "Clase de papel"
+        "Clase de suelo 3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Clase de suelo 3, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "En zonas húmedas con pendiente igual o superior, la clase es 3.",
@@ -321,10 +321,10 @@
     {
       "pregunta": "¿Qué discontinuidades no se admiten en zonas de circulación?",
       "opciones": [
-        "Ninguna",
-        "Solo los escalones de madera",
+        "Un escalón aislado ni dos consecutivos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un escalón aislado ni dos consecutivos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Un escalón aislado ni dos consecutivos",
-        "Solo los de piedra"
+        "Un escalón aislado ni dos consecutivos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "No se admite un escalón aislado ni dos consecutivos en zonas de circulación, salvo los casos permitidos.",
@@ -333,9 +333,9 @@
     {
       "pregunta": "¿Qué clase de reacción al fuego corresponde a los techos y paredes de zonas ocupables?",
       "opciones": [
-        "A1",
-        "F",
-        "B-s1,d0",
+        "C-s2,d0, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "C-s2,d0, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "C-s2,d0, computándose los plazos en días naturales y con sentido desestimatorio",
         "C-s2,d0"
       ],
       "correcta": 3,
@@ -357,10 +357,10 @@
     {
       "pregunta": "¿Cuándo los revestimientos determinan la clase de reacción al fuego?",
       "opciones": [
-        "Siempre",
+        "Si superan el 5 % de la superficie del conjunto del recinto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Si superan el 5 % de la superficie del conjunto del recinto",
-        "Nunca",
-        "Si son de color rojo"
+        "Si superan el 5 % de la superficie del conjunto del recinto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Si superan el 5 % de la superficie del conjunto del recinto, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los revestimientos determinan la clase solo si superan el 5 % de la superficie del conjunto.",
@@ -369,10 +369,10 @@
     {
       "pregunta": "¿Qué marca deben tener los productos que se usan en la obra?",
       "opciones": [
-        "Ninguna marca",
-        "Una marca local",
+        "El marcado CE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El marcado CE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El marcado CE",
-        "Un sello del alcalde"
+        "El marcado CE, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los productos deben tener marcado CE.",
@@ -381,9 +381,9 @@
     {
       "pregunta": "¿Qué tratamiento se da a las piezas de fábrica antes de colocarlas?",
       "opciones": [
-        "Se congelan",
-        "Se pintan",
-        "Se queman",
+        "Se humedecen, salvo las hidrofugadas o de succión muy baja, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Se humedecen, salvo las hidrofugadas o de succión muy baja, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Se humedecen, salvo las hidrofugadas o de succión muy baja, computándose los plazos en días naturales y con sentido desestimatorio",
         "Se humedecen, salvo las hidrofugadas o de succión muy baja"
       ],
       "correcta": 3,
@@ -394,9 +394,9 @@
       "pregunta": "¿Dónde deben colocarse las juntas de dilatación en un revestimiento?",
       "opciones": [
         "En coincidencia con las juntas estructurales",
-        "En mitad de cada pieza sin relación",
-        "Nunca",
-        "Al azar"
+        "En coincidencia con las juntas estructurales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "En coincidencia con las juntas estructurales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "En coincidencia con las juntas estructurales, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las juntas de dilatación van en coincidencia con las estructurales.",
@@ -405,10 +405,10 @@
     {
       "pregunta": "¿Qué material se usa en el sellado de las juntas de dilatación?",
       "opciones": [
-        "Cinta adhesiva",
+        "Sellante sobre relleno elástico e impermeable, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Sellante sobre relleno elástico e impermeable",
-        "Papel",
-        "Yeso sin relleno"
+        "Sellante sobre relleno elástico e impermeable, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sellante sobre relleno elástico e impermeable, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El sellante se coloca sobre un relleno elástico e impermeable.",
@@ -417,10 +417,10 @@
     {
       "pregunta": "¿Qué reduce la resbaladicidad de un pavimento con el uso?",
       "opciones": [
-        "La lluvia limpia",
-        "El sol",
+        "Un pulido o un encerado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un pulido o un encerado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Un pulido o un encerado",
-        "Nada"
+        "Un pulido o un encerado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Un pulido o un encerado reduce la resbaladicidad con el uso.",
@@ -429,9 +429,9 @@
     {
       "pregunta": "¿Qué control se hace de la obra terminada en el CTE?",
       "opciones": [
-        "El del art. 2 de la LEF",
-        "El del art. 10 de la LCSP",
-        "Ninguno",
+        "El del art. 7.4 del CTE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El del art. 7.4 del CTE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El del art. 7.4 del CTE, computándose los plazos en días naturales y con sentido desestimatorio",
         "El del art. 7.4 del CTE"
       ],
       "correcta": 3,
@@ -441,10 +441,10 @@
     {
       "pregunta": "¿Qué estudio requiere la protección en los trabajos en tejados?",
       "opciones": [
-        "Ninguno",
-        "Estudio de mercado",
+        "Estudio de seguridad con presupuesto por valoración unitaria, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Estudio de seguridad con presupuesto por valoración unitaria, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Estudio de seguridad con presupuesto por valoración unitaria",
-        "Estudio de coches"
+        "Estudio de seguridad con presupuesto por valoración unitaria, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El estudio de seguridad con presupuesto por valoración unitaria es necesario.",
@@ -454,9 +454,9 @@
       "pregunta": "¿Qué tipo de documento es el que justifica los revestimientos interiores frente al fuego?",
       "opciones": [
         "El DB-SI 1",
-        "El DB-HE 4",
-        "El DB-HS 4",
-        "El DB-SUA 4"
+        "El DB-SI 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DB-SI 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-SI 1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los revestimientos interiores frente al fuego se justifican con el DB-SI 1.",
@@ -465,10 +465,10 @@
     {
       "pregunta": "¿Qué tipo de revestimiento es el de resistencia alta con discontinuo fijado mecánicamente?",
       "opciones": [
-        "N1",
+        "R2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "R2",
-        "J1",
-        "B1"
+        "R2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "R2, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El R2 es resistencia alta con discontinuo fijado mecánicamente.",
@@ -477,10 +477,10 @@
     {
       "pregunta": "¿Qué bloque de revestimiento corresponde al enfoscado con aditivos hidrofugantes de 15 mm?",
       "opciones": [
-        "N1",
-        "R1",
+        "N2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "N2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "N2",
-        "J2"
+        "N2, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "N2 es el enfoscado con aditivos hidrofugantes de 15 mm o material adherido.",
@@ -489,9 +489,9 @@
     {
       "pregunta": "¿Qué DB del CTE regula la protección frente a la humedad de fachadas?",
       "opciones": [
-        "DB-HS 4",
-        "DB-HE 3",
-        "DB-SI 6",
+        "DB-HS 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-HS 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-HS 1, computándose los plazos en días naturales y con sentido desestimatorio",
         "DB-HS 1"
       ],
       "correcta": 3,
@@ -501,9 +501,9 @@
     {
       "pregunta": "¿Qué DB regula la resbaladicidad de los pavimentos?",
       "opciones": [
-        "DB-SUA 4",
-        "DB-HR",
-        "DB-HE 1",
+        "DB-SUA 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-SUA 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-SUA 1, computándose los plazos en días naturales y con sentido desestimatorio",
         "DB-SUA 1"
       ],
       "correcta": 3,
@@ -514,9 +514,9 @@
       "pregunta": "¿Qué revestimiento cerámico se coloca en paredes de cocinas y baños?",
       "opciones": [
         "Alicatado",
-        "Solado de piedra",
-        "Falso techo de escayola",
-        "Zócalo de madera"
+        "Alicatado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Alicatado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Alicatado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El alicatado es el revestimiento cerámico de paramentos verticales.",
@@ -525,10 +525,10 @@
     {
       "pregunta": "¿Qué capa de mortero se aplica sobre el muro antes del revestimiento final?",
       "opciones": [
-        "Cubierta asfáltica",
+        "Enfoscado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Enfoscado",
-        "Barrera de vapor",
-        "Canalón"
+        "Enfoscado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Enfoscado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El enfoscado regulariza el soporte antes del acabado.",
@@ -537,10 +537,10 @@
     {
       "pregunta": "¿Qué elemento oculta las instalaciones bajo el forjado?",
       "opciones": [
-        "Alero",
-        "Antepecho",
+        "Falso techo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Falso techo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Falso techo",
-        "Pretil"
+        "Falso techo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El falso techo oculta las instalaciones y mejora la acústica.",
@@ -549,9 +549,9 @@
     {
       "pregunta": "¿Qué material se usa habitualmente en enlucidos de paramentos interiores?",
       "opciones": [
-        "Asfalto",
-        "Alquitrán",
-        "Corcho sin tratar",
+        "Yeso, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Yeso, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Yeso, computándose los plazos en días naturales y con sentido desestimatorio",
         "Yeso"
       ],
       "correcta": 3,
@@ -573,10 +573,10 @@
     {
       "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Revestimientos exteriores de fachada), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La solución se obtiene combinando bloques de letras (R, B, C, H, J, N) y números.»?",
       "opciones": [
-        "Bloque J.",
+        "Tabla 2.7 del DB-HS 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Tabla 2.7 del DB-HS 1.",
-        "Tabla 4.1 del DB-SI 1.",
-        "Los revestimientos interiores de paredes."
+        "Tabla 2.7 del DB-HS 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Tabla 2.7 del DB-HS 1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («La solución se obtiene combinando bloques de letras (R, B, C, H, J, N) y números.») define o regula específicamente a «Tabla 2.7 del DB-HS 1» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -621,10 +621,10 @@
     {
       "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Revestimiento intermedio y juntas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «N1, enfoscado de mortero de 10 mm como mínimo.»?",
       "opciones": [
-        "Discontinuidades (apartado 2).",
+        "Bloque N, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Bloque N.",
-        "Los revestimientos y acabados.",
-        "Un número mayor."
+        "Bloque N, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Bloque N, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («N1, enfoscado de mortero de 10 mm como mínimo.») define o regula específicamente a «Bloque N» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -645,9 +645,9 @@
     {
       "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Revestimiento intermedio y juntas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Juntas de mortero sin interrupción con resistencia media (J1).»?",
       "opciones": [
-        "Tabla 4.1 del DB-SI 1.",
-        "Los revestimientos interiores de paredes.",
-        "El bloque R.",
+        "Bloque J, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Bloque J, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Bloque J, computándose los plazos en días naturales y con sentido desestimatorio",
         "Bloque J."
       ],
       "correcta": 3,
@@ -669,10 +669,10 @@
     {
       "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Pavimentos: resbaladicidad y discontinuidades), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «1 en zonas secas con pendiente inferior al 6 %.»?",
       "opciones": [
-        "Trabajos en tejados.",
+        "Clase de suelo exigible (tabla 1.2 del DB-SUA 1), previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Clase de suelo exigible (tabla 1.2 del DB-SUA 1).",
-        "La tabla no se aplica sola.",
-        "El bloque N."
+        "Clase de suelo exigible (tabla 1.2 del DB-SUA 1), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Clase de suelo exigible (tabla 1.2 del DB-SUA 1), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («1 en zonas secas con pendiente inferior al 6 %.») define o regula específicamente a «Clase de suelo exigible (tabla 1.2 del DB-SUA 1)» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -693,9 +693,9 @@
     {
       "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Pavimentos: resbaladicidad y discontinuidades), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «No se admite un escalón aislado ni dos consecutivos en zonas de circulación, salvo los casos permitidos (apartado 2, punto 3).»?",
       "opciones": [
-        "Los revestimientos y acabados.",
-        "Un número mayor.",
-        "El enfoscado de mortero con 10 mm de espesor.",
+        "Discontinuidades (apartado 2), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Discontinuidades (apartado 2), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Discontinuidades (apartado 2), computándose los plazos en días naturales y con sentido desestimatorio",
         "Discontinuidades (apartado 2)."
       ],
       "correcta": 3,
@@ -717,10 +717,10 @@
     {
       "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Techos, paredes y suelos: reacción al fuego), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Zonas ocupables, C-s2,d0 en techos y paredes y EFL en suelos.»?",
       "opciones": [
-        "Los revestimientos interiores de paredes.",
+        "Tabla 4.1 del DB-SI 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Tabla 4.1 del DB-SI 1.",
-        "El bloque R.",
-        "Las juntas entre las piezas de la hoja principal se clasifican en el bloque J."
+        "Tabla 4.1 del DB-SI 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Tabla 4.1 del DB-SI 1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Zonas ocupables, C-s2,d0 en techos y paredes y EFL en suelos.») define o regula específicamente a «Tabla 4.1 del DB-SI 1» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -741,9 +741,9 @@
     {
       "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Control, mantenimiento y seguridad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b).»?",
       "opciones": [
-        "La tabla no se aplica sola.",
-        "El bloque N.",
-        "El DB-SUA 1.",
+        "Trabajos en tejados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Trabajos en tejados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Trabajos en tejados, computándose los plazos en días naturales y con sentido desestimatorio",
         "Trabajos en tejados."
       ],
       "correcta": 3,
@@ -765,10 +765,10 @@
     {
       "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Qué son los revestimientos y cómo se clasifican), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las capas que se aplican sobre los elementos constructivos para protegerlos, para darles el aspecto final y, en muchos casos, para cumplir una exigencia de seguridad o de comportamiento.»?",
       "opciones": [
-        "Un número mayor.",
+        "Los revestimientos y acabados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Los revestimientos y acabados.",
-        "El enfoscado de mortero con 10 mm de espesor.",
-        "La tabla 4.1 tiene una nota."
+        "Los revestimientos y acabados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los revestimientos y acabados, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Son las capas que se aplican sobre los elementos constructivos para protegerlos, para darles el aspecto final y, en muchos casos, para cumplir una exigencia de seguridad o de comportamiento.») define o regula específicamente a «Los revestimientos y acabados» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -789,9 +789,9 @@
     {
       "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Qué son los revestimientos y cómo se clasifican), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los enlucidos, las pinturas y los alicatados.»?",
       "opciones": [
-        "El bloque R.",
-        "Las juntas entre las piezas de la hoja principal se clasifican en el bloque J.",
-        "El revestimiento exterior.",
+        "Los revestimientos interiores de paredes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los revestimientos interiores de paredes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los revestimientos interiores de paredes, computándose los plazos en días naturales y con sentido desestimatorio",
         "Los revestimientos interiores de paredes."
       ],
       "correcta": 3,

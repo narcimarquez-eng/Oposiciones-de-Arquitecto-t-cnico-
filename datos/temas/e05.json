@@ -89,10 +89,10 @@
     {
       "pregunta": "Según el DB-SE-A, apartado 10.1, punto 1, ¿qué calidades de acero en chapas y perfiles se consideran?",
       "opciones": [
-        "Solo S 275",
-        "Ninguna calidad está definida",
+        "De S 235 a S 450, ambos inclusive, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "De S 235 a S 450, ambos inclusive, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "De S 235 a S 450, ambos inclusive",
-        "De S 100 a S 150"
+        "De S 235 a S 450, ambos inclusive, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El capítulo 10.1 del DB-SE-A se refiere a aceros en chapas y perfiles de calidad S 235 a S 450, ambos inclusive.",
@@ -101,9 +101,9 @@
     {
       "pregunta": "Según el DB-SE-A, apartado 10.4.1, punto 1, ¿cuál es el diámetro nominal mínimo de los tornillos salvo especificación contraria?",
       "opciones": [
-        "24 mm",
-        "6 mm",
-        "8 mm",
+        "12 mm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "12 mm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "12 mm, computándose los plazos en días naturales y con sentido desestimatorio",
         "12 mm"
       ],
       "correcta": 3,
@@ -113,10 +113,10 @@
     {
       "pregunta": "Según el DB-SE-M, apartado 4.1, punto 3, ¿qué clases resistentes corresponden a las frondosas?",
       "opciones": [
-        "C14 a C50",
+        "D30 a D70, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "D30 a D70",
-        "S 235 a S 450",
-        "X0 a XM3"
+        "D30 a D70, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "D30 a D70, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Para frondosas, las clases resistentes son D30, D35, D40, D50, D60 y D70, y para coníferas y chopo, de C14 a C50.",
@@ -126,9 +126,9 @@
       "pregunta": "Según el DB-SE-A, apartado 10.4.1, punto 3, ¿cuántos filetes de rosca completos deben quedar en un tornillo pretensado tras el apriete?",
       "opciones": [
         "Cuatro",
-        "Ninguno",
-        "Uno",
-        "Dos"
+        "Cuatro, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cuatro, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cuatro, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La espiga debe salir de la rosca de la tuerca dejando cuatro filetes completos en los tornillos pretensados, y uno en los no pretensados.",
@@ -137,10 +137,10 @@
     {
       "pregunta": "Según el art. 92.1.1 del Código Estructural, ¿quién debe autorizar que una pieza salga del taller?",
       "opciones": [
-        "Nadie: la pieza puede salir libremente",
-        "El transportista",
+        "La dirección facultativa, una vez demostrada la conformidad con el proyecto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La dirección facultativa, una vez demostrada la conformidad con el proyecto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La dirección facultativa, una vez demostrada la conformidad con el proyecto",
-        "El fabricante del tornillo"
+        "La dirección facultativa, una vez demostrada la conformidad con el proyecto, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Ninguna pieza puede salir del taller sin la autorización expresa de la dirección facultativa, una vez demostrada su conformidad con el proyecto.",
@@ -186,9 +186,9 @@
       "pregunta": "Según el DB-SE-M, apartado 4.1, punto 2, ¿cómo se clasifica la madera aserrada para uso estructural?",
       "opciones": [
         "Por una clase resistente",
-        "Por su peso en báscula",
-        "No se clasifica",
-        "Por su color"
+        "Por una clase resistente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Por una clase resistente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Por una clase resistente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La madera aserrada para uso estructural se clasifica y se le asigna una clase resistente, según el procedimiento del anejo C.",
@@ -197,10 +197,10 @@
     {
       "pregunta": "¿Qué documento básico del CTE verifica el acero en edificación?",
       "opciones": [
-        "El DB-HS",
+        "El DB-SE-A, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El DB-SE-A",
-        "El DB-HE",
-        "El DB-SI"
+        "El DB-SE-A, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-SE-A, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El DB-SE-A verifica el acero en edificación.",
@@ -210,9 +210,9 @@
       "pregunta": "¿Qué documento básico verifica la madera en edificación?",
       "opciones": [
         "El DB-SE-M",
-        "El DB-SE-A",
-        "El DB-HR",
-        "El DB-SUA"
+        "El DB-SE-M, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DB-SE-M, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-SE-M, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El DB-SE-M verifica la madera.",
@@ -233,9 +233,9 @@
     {
       "pregunta": "¿Qué norma de referencia para chapas y perfiles de acero se cita en el DB-SE-A?",
       "opciones": [
-        "UNE 1",
-        "Ley 22/2011",
-        "RD 1627/1997",
+        "UNE-EN 10025, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "UNE-EN 10025, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "UNE-EN 10025, computándose los plazos en días naturales y con sentido desestimatorio",
         "UNE-EN 10025"
       ],
       "correcta": 3,
@@ -246,9 +246,9 @@
       "pregunta": "¿Qué clase resistente tienen las coníferas en madera aserrada?",
       "opciones": [
         "De C14 a C50",
-        "De D30 a D70",
-        "De A1 a A5",
-        "No tienen clase"
+        "De C14 a C50, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "De C14 a C50, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "De C14 a C50, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las coníferas y el chopo se clasifican de C14 a C50.",
@@ -257,10 +257,10 @@
     {
       "pregunta": "¿Qué clase resistente tienen las frondosas en madera aserrada?",
       "opciones": [
-        "De C14 a C50",
+        "De D30 a D70, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "De D30 a D70",
-        "De A1 a A5",
-        "No tienen clase"
+        "De D30 a D70, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "De D30 a D70, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las frondosas se clasifican de D30 a D70.",
@@ -269,10 +269,10 @@
     {
       "pregunta": "¿Qué regula el Código Estructural sobre el acero?",
       "opciones": [
-        "Solo el color",
-        "Solo el precio",
+        "Los artículos 79 a 109, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los artículos 79 a 109, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Los artículos 79 a 109",
-        "Nada"
+        "Los artículos 79 a 109, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El Código Estructural regula el acero en sus artículos 79 a 109.",
@@ -294,9 +294,9 @@
       "pregunta": "¿Qué norma de referencia rige los perfiles huecos de acero?",
       "opciones": [
         "UNE-EN 10210-1 y UNE-EN 10219-1",
-        "UNE 1",
-        "Ley 22/2011",
-        "RD 105/2008"
+        "UNE-EN 10210-1 y UNE-EN 10219-1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "UNE-EN 10210-1 y UNE-EN 10219-1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "UNE-EN 10210-1 y UNE-EN 10219-1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los perfiles huecos siguen las normas UNE-EN 10210-1 y UNE-EN 10219-1.",
@@ -305,10 +305,10 @@
     {
       "pregunta": "¿Qué establece el DB-SE-A sobre la estrategia global frente a la corrosión?",
       "opciones": [
-        "Ninguna protección",
+        "Protecciones indicadas en el proyecto y materiales protectores según el fabricante, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Protecciones indicadas en el proyecto y materiales protectores según el fabricante",
-        "La pintura al azar",
-        "Sin proyecto"
+        "Protecciones indicadas en el proyecto y materiales protectores según el fabricante, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Protecciones indicadas en el proyecto y materiales protectores según el fabricante, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El DB-SE-A exige una estrategia global frente a la corrosión con protecciones indicadas en el proyecto.",
@@ -317,10 +317,10 @@
     {
       "pregunta": "¿Cuántas fases tiene la estrategia de durabilidad del acero según el Código?",
       "opciones": [
-        "Dos",
-        "Diez",
+        "Cinco: formas, materiales, medidas frente a la corrosión, detalles y mantenimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cinco: formas, materiales, medidas frente a la corrosión, detalles y mantenimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Cinco: formas, materiales, medidas frente a la corrosión, detalles y mantenimiento",
-        "Ninguna"
+        "Cinco: formas, materiales, medidas frente a la corrosión, detalles y mantenimiento, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La estrategia de durabilidad del acero tiene esas cinco fases.",
@@ -329,9 +329,9 @@
     {
       "pregunta": "¿Cuál es el diámetro mínimo de los tornillos en uniones de acero?",
       "opciones": [
-        "2 mm",
-        "100 mm",
-        "No hay mínimo",
+        "12 mm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "12 mm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "12 mm, computándose los plazos en días naturales y con sentido desestimatorio",
         "12 mm"
       ],
       "correcta": 3,
@@ -342,9 +342,9 @@
       "pregunta": "¿Qué debe existir antes de soldar en el acero estructural?",
       "opciones": [
         "Un plan de soldeo con detalles de la unión",
-        "Un permiso del vecino",
-        "Una canción",
-        "Nada"
+        "Un plan de soldeo con detalles de la unión, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un plan de soldeo con detalles de la unión, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un plan de soldeo con detalles de la unión, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Se exige un plan de soldeo con detalles de la unión y medidas para evitar el desgarro laminar.",
@@ -353,10 +353,10 @@
     {
       "pregunta": "¿Qué norma regula la soldadura del acero?",
       "opciones": [
-        "UNE 1",
+        "UNE-EN ISO 3834, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "UNE-EN ISO 3834",
-        "UNE 2",
-        "Ley 22/2011"
+        "UNE-EN ISO 3834, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "UNE-EN ISO 3834, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La soldadura debe ser conforme a la norma UNE-EN ISO 3834.",
@@ -365,10 +365,10 @@
     {
       "pregunta": "¿Qué autorización se necesita para sacar una pieza del taller?",
       "opciones": [
-        "La del vecino",
-        "La del transportista",
+        "La de la dirección facultativa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La de la dirección facultativa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La de la dirección facultativa",
-        "Ninguna"
+        "La de la dirección facultativa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Ninguna pieza sale del taller sin autorización de la dirección facultativa.",
@@ -377,9 +377,9 @@
     {
       "pregunta": "¿Qué se requiere para cambiar las calidades de acero previstas?",
       "opciones": [
-        "Nada",
-        "La firma del alcalde",
-        "Un sorteo",
+        "La autorización del director de obra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La autorización del director de obra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La autorización del director de obra, computándose los plazos en días naturales y con sentido desestimatorio",
         "La autorización del director de obra"
       ],
       "correcta": 3,
@@ -390,9 +390,9 @@
       "pregunta": "¿Dónde debe registrarse el control del acero?",
       "opciones": [
         "En la documentación final",
-        "En el buzón",
-        "En la pared",
-        "No se registra"
+        "En la documentación final, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "En la documentación final, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "En la documentación final, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Cada control debe registrarse documentalmente en la documentación final.",
@@ -401,10 +401,10 @@
     {
       "pregunta": "¿Qué garantiza el control de materiales por certificado?",
       "opciones": [
-        "Ruido",
+        "Trazabilidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Trazabilidad",
-        "Color",
-        "Nada"
+        "Trazabilidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Trazabilidad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El control de materiales se hace por certificado y trazabilidad.",
@@ -413,10 +413,10 @@
     {
       "pregunta": "¿Qué plan independiente requiere la fatiga en las estructuras de acero?",
       "opciones": [
-        "Ninguno",
-        "Un plan de vacaciones",
+        "Un plan de mantenimiento independiente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un plan de mantenimiento independiente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Un plan de mantenimiento independiente",
-        "Un plan de compras"
+        "Un plan de mantenimiento independiente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Con fatiga se requiere un plan de mantenimiento independiente.",
@@ -425,9 +425,9 @@
     {
       "pregunta": "¿Cómo se mide el acero en estructuras metálicas?",
       "opciones": [
-        "Por litro",
-        "Por hora",
-        "Por unidad de vecino",
+        "Los perfiles por kilogramo o metro lineal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los perfiles por kilogramo o metro lineal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los perfiles por kilogramo o metro lineal, computándose los plazos en días naturales y con sentido desestimatorio",
         "Los perfiles por kilogramo o metro lineal"
       ],
       "correcta": 3,
@@ -437,10 +437,10 @@
     {
       "pregunta": "¿Cómo se miden las chapas de acero?",
       "opciones": [
-        "Por kilogramo",
-        "Por litro",
+        "Por metro cuadrado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Por metro cuadrado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Por metro cuadrado",
-        "Por hora"
+        "Por metro cuadrado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las chapas se miden por metro cuadrado.",
@@ -450,9 +450,9 @@
       "pregunta": "¿Cómo se mide la madera?",
       "opciones": [
         "Por metro cúbico o lineal",
-        "Por kilogramo de agua",
-        "Por número de sillas",
-        "Por hora de trabajo"
+        "Por metro cúbico o lineal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Por metro cúbico o lineal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Por metro cúbico o lineal, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La madera se mide por metro cúbico o lineal.",
@@ -461,10 +461,10 @@
     {
       "pregunta": "¿Qué protección colectiva se exige en cubiertas durante el montaje de estructuras metálicas?",
       "opciones": [
-        "Ninguna",
+        "Protección colectiva en cubiertas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Protección colectiva en cubiertas",
-        "Solo gafas",
-        "Solo guantes"
+        "Protección colectiva en cubiertas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Protección colectiva en cubiertas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El montaje requiere protección colectiva en cubiertas, según el anexo IV.",
@@ -473,10 +473,10 @@
     {
       "pregunta": "¿Qué norma regula el acero en el Código Estructural?",
       "opciones": [
-        "El RD 1627/1997",
-        "La Ley de Caza",
+        "El RD 470/2021, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El RD 470/2021, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El RD 470/2021",
-        "La Ley de Pesca"
+        "El RD 470/2021, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El Código Estructural (RD 470/2021) regula el acero.",
@@ -485,9 +485,9 @@
     {
       "pregunta": "¿Qué clase de exposición sirve para elementos enterrados o sumergidos de acero?",
       "opciones": [
-        "Un color",
-        "Un sabor",
-        "Ninguna",
+        "Tablas 80.1.a y 80.1.b del Código, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Tablas 80.1.a y 80.1.b del Código, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Tablas 80.1.a y 80.1.b del Código, computándose los plazos en días naturales y con sentido desestimatorio",
         "Tablas 80.1.a y 80.1.b del Código"
       ],
       "correcta": 3,
@@ -497,9 +497,9 @@
     {
       "pregunta": "¿Qué ocurre si una zona tiene más de cinco nevadas anuales en puentes con fundentes?",
       "opciones": [
-        "No cambia nada",
-        "Se prohíbe el puente",
-        "Se paga más",
+        "Se considera clase C5, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Se considera clase C5, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Se considera clase C5, computándose los plazos en días naturales y con sentido desestimatorio",
         "Se considera clase C5"
       ],
       "correcta": 3,
@@ -510,9 +510,9 @@
       "pregunta": "¿Qué documento básico del CTE regula la seguridad estructural en acero?",
       "opciones": [
         "DB-SE-A",
-        "DB-SE-M",
-        "DB-SE-F",
-        "DB-SI 6"
+        "DB-SE-A, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-SE-A, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-SE-A, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El DB-SE-A regula las estructuras de acero.",
@@ -521,10 +521,10 @@
     {
       "pregunta": "¿Qué documento básico del CTE regula la seguridad estructural en madera?",
       "opciones": [
-        "DB-SE-A",
+        "DB-SE-M, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "DB-SE-M",
-        "DB-SE-C",
-        "DB-HS 1"
+        "DB-SE-M, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-SE-M, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El DB-SE-M regula las estructuras de madera.",
@@ -533,10 +533,10 @@
     {
       "pregunta": "¿Qué tipo de perfil de acero de alas paralelas se usa habitualmente en vigas?",
       "opciones": [
-        "Perfil en cruz sin alas",
-        "Redondo macizo",
+        "Perfil IPE o HEB, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Perfil IPE o HEB, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Perfil IPE o HEB",
-        "Perfil de cartón"
+        "Perfil IPE o HEB, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los perfiles IPE y HEB, de alas paralelas, se emplean habitualmente en vigas y pilares.",
@@ -545,9 +545,9 @@
     {
       "pregunta": "¿Qué tipo de madera estructural se fabrica pegando láminas?",
       "opciones": [
-        "Madera maciza sin tratar",
-        "Tablero de aglomerado",
-        "Corcho",
+        "Madera laminada encolada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Madera laminada encolada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Madera laminada encolada, computándose los plazos en días naturales y con sentido desestimatorio",
         "Madera laminada encolada"
       ],
       "correcta": 3,
@@ -569,10 +569,10 @@
     {
       "pregunta": "Dentro de la materia «Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Marco normativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula el acero en sus artículos 79 a 109 y deroga la EAE (disposición derogatoria única).»?",
       "opciones": [
-        "Los medios de unión que contempla el Código Estructural.",
+        "El Código Estructural (RD 470/2021), previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El Código Estructural (RD 470/2021).",
-        "El DB-SE-A.",
-        "El montaje de estructuras metálicas."
+        "El Código Estructural (RD 470/2021), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Código Estructural (RD 470/2021), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Regula el acero en sus artículos 79 a 109 y deroga la EAE (disposición derogatoria única).») define o regula específicamente a «El Código Estructural (RD 470/2021)» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -593,9 +593,9 @@
     {
       "pregunta": "Dentro de la materia «Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Tipos de acero y de madera), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Coníferas y chopo C14 a C50, frondosas D30 a D70 (DB-SE-M, apartado 4.1).»?",
       "opciones": [
-        "El tipo estructural más frecuente en la edificación de madera.",
-        "El capítulo 10 del DB.",
-        "El primero.",
+        "Madera maciza aserrada por clase resistente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Madera maciza aserrada por clase resistente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Madera maciza aserrada por clase resistente, computándose los plazos en días naturales y con sentido desestimatorio",
         "Madera maciza aserrada por clase resistente."
       ],
       "correcta": 3,
@@ -617,10 +617,10 @@
     {
       "pregunta": "Dentro de la materia «Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Tipos de estructura metálica), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son perfiles y chapas (Código Estructural, art. 84).»?",
       "opciones": [
-        "El Código Estructural.",
+        "Los productos de acero, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Los productos de acero.",
-        "El control se organiza en cinco aspectos.",
-        "El tercero."
+        "Los productos de acero, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los productos de acero, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Son perfiles y chapas (Código Estructural, art. 84).») define o regula específicamente a «Los productos de acero» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -641,9 +641,9 @@
     {
       "pregunta": "Dentro de la materia «Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Tipos de estructura metálica), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los tornillos, tuercas y arandelas para uniones atornilladas, y el material de aportación para uniones soldadas (art. 85.1).»?",
       "opciones": [
-        "El DB-SE-A.",
-        "El montaje de estructuras metálicas.",
-        "Marco normativo verificado en texto oficial para este tema.",
+        "Los medios de unión que contempla el Código Estructural, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los medios de unión que contempla el Código Estructural, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los medios de unión que contempla el Código Estructural, computándose los plazos en días naturales y con sentido desestimatorio",
         "Los medios de unión que contempla el Código Estructural."
       ],
       "correcta": 3,
@@ -665,10 +665,10 @@
     {
       "pregunta": "Dentro de la materia «Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Tipos de estructura de madera), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la estructura de entramado o de pórticos de madera, con vigas, pilares, correas y forjados de madera.»?",
       "opciones": [
-        "El capítulo 10 del DB.",
+        "El tipo estructural más frecuente en la edificación de madera, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El tipo estructural más frecuente en la edificación de madera.",
-        "El primero.",
-        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)."
+        "El tipo estructural más frecuente en la edificación de madera, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El tipo estructural más frecuente en la edificación de madera, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es la estructura de entramado o de pórticos de madera, con vigas, pilares, correas y forjados de madera.») define o regula específicamente a «El tipo estructural más frecuente en la edificación de madera» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -689,9 +689,9 @@
     {
       "pregunta": "Dentro de la materia «Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos y exigencias básicas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige que las estructuras sean idóneas para su uso durante toda su vida útil.»?",
       "opciones": [
-        "El control se organiza en cinco aspectos.",
-        "El tercero.",
-        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "El Código Estructural, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El Código Estructural, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Código Estructural, computándose los plazos en días naturales y con sentido desestimatorio",
         "El Código Estructural."
       ],
       "correcta": 3,
@@ -737,9 +737,9 @@
     {
       "pregunta": "Dentro de la materia «Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución de la estructura de acero), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula los materiales de los elementos de acero, con calidades de S 235 a S 450 para aceros en chapas y perfiles, y los tornillos de los tipos 4.6 a 10.9 (apartado 10.1, punto 1, letras a y b).»?",
       "opciones": [
-        "El primero.",
-        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
-        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "El capítulo 10 del DB, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El capítulo 10 del DB, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El capítulo 10 del DB, computándose los plazos en días naturales y con sentido desestimatorio",
         "El capítulo 10 del DB."
       ],
       "correcta": 3,
@@ -761,10 +761,10 @@
     {
       "pregunta": "Dentro de la materia «Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Control de calidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La documentación del proyecto (apartado 12.2), que debe definir la solución estructural, su justificación y los requisitos de construcción.»?",
       "opciones": [
-        "El tercero.",
+        "El control se organiza en cinco aspectos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El control se organiza en cinco aspectos.",
-        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
-        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)."
+        "El control se organiza en cinco aspectos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El control se organiza en cinco aspectos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («La documentación del proyecto (apartado 12.2), que debe definir la solución estructural, su justificación y los requisitos de construcción.») define o regula específicamente a «El control se organiza en cinco aspectos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",

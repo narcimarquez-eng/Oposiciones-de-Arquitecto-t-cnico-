@@ -2,10 +2,10 @@
   {
     "pregunta": "¿Suspende la interposición del recurso la ejecución del acto impugnado?",
     "opciones": [
-      "Sí, siempre",
-      "Solo si es de alzada",
+      "No, salvo que una disposición establezca lo contrario, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "No, salvo que una disposición establezca lo contrario, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "No, salvo que una disposición establezca lo contrario",
-      "Solo los martes"
+      "No, salvo que una disposición establezca lo contrario, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La interposición de cualquier recurso no suspende la ejecución del acto, salvo disposición en contrario.",
@@ -14,9 +14,9 @@
   {
     "pregunta": "¿Cuándo se entiende suspendida la ejecución si no se resuelve la solicitud de suspensión?",
     "opciones": [
-      "A los tres días",
-      "Al año",
-      "Nunca",
+      "Transcurrido un mes contado a partir del día siguiente a la notificación contados de fecha a fecha desde su registro sin resolución expresa",
+      "Transcurrido quince días hábiles improrrogables desde su registro sin resolución expresa",
+      "Transcurrido treinta días hábiles excluyendo sábados, domingos y festivos desde su registro sin resolución expresa",
       "Transcurrido un mes desde su registro sin resolución expresa"
     ],
     "correcta": 3,
@@ -26,10 +26,10 @@
   {
     "pregunta": "¿Puede agravarse la situación del recurrente al resolver su recurso?",
     "opciones": [
-      "Sí, siempre",
+      "No, en ningún caso puede agravarse su situación inicial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "No, en ningún caso puede agravarse su situación inicial",
-      "Solo en alzada",
-      "Solo si lo pide otro interesado"
+      "No, en ningún caso puede agravarse su situación inicial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "No, en ningún caso puede agravarse su situación inicial, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El art. 119.3 LPAC prohíbe la reforma peyorativa.",
@@ -38,10 +38,10 @@
   {
     "pregunta": "¿En qué plazo puede interponerse el recurso extraordinario de revisión por error de hecho?",
     "opciones": [
-      "Un mes",
+      "cinco años desde que el acto fue dictado desde la notificación de la resolución",
       "Cuatro años desde la notificación de la resolución",
-      "Seis meses",
-      "Diez años"
+      "dos años desde la notificación de la resolución desde la notificación de la resolución",
+      "tres años contados desde el día siguiente al vencimiento desde la notificación de la resolución"
     ],
     "correcta": 1,
     "explicacion": "En el supuesto de error de hecho el plazo es de cuatro años; en los demás, tres meses.",
@@ -51,9 +51,9 @@
     "pregunta": "¿Cuándo puede la Administración declarar de oficio la nulidad de sus actos firmes?",
     "opciones": [
       "En cualquier momento, previo dictamen favorable del órgano consultivo",
-      "Solo en el primer mes",
-      "Nunca",
-      "Solo a petición del Rey"
+      "En cualquier momento, previo dictamen favorable del órgano consultivo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "En cualquier momento, previo dictamen favorable del órgano consultivo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "En cualquier momento, previo dictamen favorable del órgano consultivo, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El art. 106.1 LPAC permite declarar la nulidad en cualquier momento.",
@@ -62,10 +62,10 @@
   {
     "pregunta": "¿En qué plazo puede declararse lesivo un acto favorable anulable?",
     "opciones": [
-      "En un mes",
-      "En diez años",
+      "En cinco años desde que el acto fue dictado desde que se dictó",
+      "En dos años desde la notificación de la resolución desde que se dictó",
       "En cuatro años desde que se dictó",
-      "Sin plazo"
+      "En tres años contados desde el día siguiente al vencimiento desde que se dictó"
     ],
     "correcta": 2,
     "explicacion": "La declaración de lesividad no puede adoptarse una vez transcurridos cuatro años desde que se dictó el acto.",
@@ -87,9 +87,9 @@
     "pregunta": "¿Cuándo caduca el procedimiento de revisión de oficio iniciado por la Administración?",
     "opciones": [
       "A los seis meses sin dictarse resolución",
-      "Al mes",
-      "A los diez años",
-      "Nunca"
+      "A los tres meses prorrogables por otros tres meses sin dictarse resolución",
+      "A los doce meses conforme al plazo general supletorio sin dictarse resolución",
+      "A los cuatro meses contados desde la fecha de entrada en registro sin dictarse resolución"
     ],
     "correcta": 0,
     "explicacion": "Si transcurren seis meses sin resolución, el procedimiento iniciado de oficio caduca.",
@@ -110,9 +110,9 @@
   {
     "pregunta": "¿En qué plazo se recurre en vía contencioso-administrativa una vía de hecho, si no se formula requerimiento?",
     "opciones": [
-      "Un año",
-      "Dos meses",
-      "Tres días",
+      "quince días hábiles desde el inicio de la actuación",
+      "cuarenta y cinco días naturales hábiles desde el inicio de la actuación",
+      "diez días naturales desde el inicio de la actuación",
       "Veinte días desde el inicio de la actuación"
     ],
     "correcta": 3,

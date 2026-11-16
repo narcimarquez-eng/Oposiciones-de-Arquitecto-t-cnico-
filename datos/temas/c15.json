@@ -75,9 +75,9 @@
       "pregunta": "Según el art. 106.1 LPAC, ¿qué requisito se exige para declarar de oficio la nulidad de un acto administrativo?",
       "opciones": [
         "Un dictamen favorable del Consejo de Estado u órgano consultivo equivalente",
-        "Solo la audiencia del interesado",
-        "Una sentencia firme previa",
-        "Ningún requisito"
+        "Un dictamen favorable del Consejo de Estado u órgano consultivo equivalente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un dictamen favorable del Consejo de Estado u órgano consultivo equivalente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un dictamen favorable del Consejo de Estado u órgano consultivo equivalente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La declaración de nulidad de los actos que pusieron fin a la vía o no fueron recurridos exige dictamen favorable del Consejo de Estado u órgano consultivo equivalente.",
@@ -98,10 +98,10 @@
     {
       "pregunta": "Según el art. 122.1 LPAC, ¿cuál es el plazo para interponer un recurso de alzada contra un acto expreso?",
       "opciones": [
-        "Tres meses",
+        "un mes contado a partir del día siguiente a la notificación contados de fecha a fecha",
         "Un mes",
-        "Quince días",
-        "Dos meses"
+        "quince días hábiles improrrogables",
+        "treinta días hábiles excluyendo sábados, domingos y festivos"
       ],
       "correcta": 1,
       "explicacion": "El plazo para interponer el recurso de alzada es de un mes si el acto es expreso.",
@@ -110,10 +110,10 @@
     {
       "pregunta": "Según el art. 124.2 LPAC, ¿cuál es el plazo máximo para resolver un recurso potestativo de reposición?",
       "opciones": [
-        "Tres meses",
-        "Un año",
+        "un mes contado a partir del día siguiente a la notificación contados de fecha a fecha",
+        "quince días hábiles improrrogables",
         "Un mes",
-        "Quince días hábiles"
+        "treinta días hábiles excluyendo sábados, domingos y festivos"
       ],
       "correcta": 2,
       "explicacion": "El plazo máximo para dictar y notificar la resolución del recurso de reposición es de un mes.",
@@ -134,10 +134,10 @@
     {
       "pregunta": "Según el art. 106.5 LPAC, ¿cuándo caduca un procedimiento de revisión de oficio iniciado de oficio?",
       "opciones": [
-        "A los dos meses sin resolución",
+        "A los tres meses prorrogables por otros tres meses sin resolución",
         "A los seis meses sin resolución",
-        "A los doce meses sin resolución",
-        "Nunca caduca"
+        "A los doce meses conforme al plazo general supletorio sin resolución",
+        "A los cuatro meses contados desde la fecha de entrada en registro sin resolución"
       ],
       "correcta": 1,
       "explicacion": "Si el procedimiento de revisión de oficio se inicia de oficio, el transcurso de seis meses sin resolución produce su caducidad.",
@@ -182,9 +182,9 @@
     {
       "pregunta": "Según el art. 112.3 LPAC, ¿cabe recurso administrativo contra una disposición administrativa de carácter general?",
       "opciones": [
-        "Sí, el de alzada",
-        "Sí, el de reposición",
-        "Sí, el extraordinario de revisión",
+        "No cabe recurso en vía administrativa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No cabe recurso en vía administrativa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No cabe recurso en vía administrativa, computándose los plazos en días naturales y con sentido desestimatorio",
         "No cabe recurso en vía administrativa"
       ],
       "correcta": 3,
@@ -207,9 +207,9 @@
       "pregunta": "¿Qué plazo tiene la Administración para resolver la revisión de oficio iniciada de oficio, si caduca?",
       "opciones": [
         "Seis meses",
-        "Dos días",
-        "Un año",
-        "Cinco años"
+        "tres meses prorrogables por otros tres meses",
+        "doce meses conforme al plazo general supletorio",
+        "cuatro meses contados desde la fecha de entrada en registro"
       ],
       "correcta": 0,
       "explicacion": "El procedimiento de revisión iniciado de oficio caduca a los seis meses.",
@@ -218,10 +218,10 @@
     {
       "pregunta": "¿Qué vicio hace anulable un acto administrativo?",
       "opciones": [
-        "Solo la falta de firma",
+        "Las infracciones del ordenamiento, incluida la desviación de poder, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Las infracciones del ordenamiento, incluida la desviación de poder",
-        "Un error de redacción",
-        "La falta de sello"
+        "Las infracciones del ordenamiento, incluida la desviación de poder, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las infracciones del ordenamiento, incluida la desviación de poder, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Son anulables las infracciones del ordenamiento, incluida la desviación de poder.",
@@ -230,10 +230,10 @@
     {
       "pregunta": "¿Qué debe declararse antes de acudir al contencioso contra un acto favorable anulable?",
       "opciones": [
-        "La prescripción",
-        "La caducidad",
+        "La lesividad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La lesividad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La lesividad",
-        "La avocación"
+        "La lesividad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Si el acto favorable es anulable, debe declararse su lesividad antes de acudir a la jurisdicción.",
@@ -243,9 +243,9 @@
       "pregunta": "¿Cuánto tiempo caduca la declaración de lesividad desde que se dictó el acto?",
       "opciones": [
         "Cuatro años",
-        "Un año",
-        "Dos meses",
-        "Diez años"
+        "cinco años desde que el acto fue dictado",
+        "dos años desde la notificación de la resolución",
+        "tres años contados desde el día siguiente al vencimiento"
       ],
       "correcta": 0,
       "explicacion": "La declaración de lesividad caduca a los cuatro años desde que se dictó el acto.",
@@ -254,10 +254,10 @@
     {
       "pregunta": "¿Hasta cuándo pueden revocarse los actos desfavorables?",
       "opciones": [
-        "Solo el día de su dictado",
+        "Mientras no haya prescrito la acción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Mientras no haya prescrito la acción",
-        "Nunca",
-        "Solo durante un año"
+        "Mientras no haya prescrito la acción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Mientras no haya prescrito la acción, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los actos desfavorables pueden revocarse mientras no haya prescrito la acción.",
@@ -266,10 +266,10 @@
     {
       "pregunta": "¿En qué plazo se interpone el recurso de alzada?",
       "opciones": [
-        "Tres días",
-        "Un año",
+        "un mes contado a partir del día siguiente a la notificación contados de fecha a fecha",
+        "quince días hábiles improrrogables",
         "Un mes",
-        "Seis meses"
+        "treinta días hábiles excluyendo sábados, domingos y festivos"
       ],
       "correcta": 2,
       "explicacion": "El recurso de alzada se interpone en un mes.",
@@ -278,9 +278,9 @@
     {
       "pregunta": "¿En qué plazo debe resolverse el recurso de alzada?",
       "opciones": [
-        "Un mes",
-        "Seis meses",
-        "Diez días",
+        "tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación",
+        "dos meses contados desde la entrada en el registro del órgano competente",
+        "un mes improrrogable desde la presentación de la solicitud",
         "Tres meses"
       ],
       "correcta": 3,
@@ -291,9 +291,9 @@
       "pregunta": "¿En qué plazo se interpone el recurso de reposición?",
       "opciones": [
         "Un mes",
-        "Dos meses",
-        "Tres meses",
-        "Un año"
+        "un mes contado a partir del día siguiente a la notificación contados de fecha a fecha",
+        "quince días hábiles improrrogables",
+        "treinta días hábiles excluyendo sábados, domingos y festivos"
       ],
       "correcta": 0,
       "explicacion": "El recurso de reposición se interpone en un mes.",
@@ -302,10 +302,10 @@
     {
       "pregunta": "¿En qué plazo debe resolverse el recurso de reposición?",
       "opciones": [
-        "Tres meses",
+        "un mes contado a partir del día siguiente a la notificación contados de fecha a fecha",
         "Un mes",
-        "Seis meses",
-        "Diez días"
+        "quince días hábiles improrrogables",
+        "treinta días hábiles excluyendo sábados, domingos y festivos"
       ],
       "correcta": 1,
       "explicacion": "El recurso de reposición debe resolverse en un mes.",
@@ -314,10 +314,10 @@
     {
       "pregunta": "¿Qué tipo de recurso se interpone contra actos que ponen fin a la vía administrativa?",
       "opciones": [
-        "Alzada obligatorio",
-        "Casación",
+        "Reposición (potestativo), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Reposición (potestativo), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Reposición (potestativo)",
-        "Amparo"
+        "Reposición (potestativo), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El recurso de reposición es potestativo contra actos que ponen fin a la vía administrativa.",
@@ -326,9 +326,9 @@
     {
       "pregunta": "¿Contra qué actos se interpone el recurso de alzada?",
       "opciones": [
-        "Contra sentencias",
-        "Contra disposiciones generales",
-        "Contra actos de particulares",
+        "Contra actos que no ponen fin a la vía administrativa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Contra actos que no ponen fin a la vía administrativa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Contra actos que no ponen fin a la vía administrativa, computándose los plazos en días naturales y con sentido desestimatorio",
         "Contra actos que no ponen fin a la vía administrativa"
       ],
       "correcta": 3,
@@ -339,9 +339,9 @@
       "pregunta": "¿Qué recurso administrativo puede interponerse contra actos firmes, solo por causas tasadas?",
       "opciones": [
         "El recurso extraordinario de revisión",
-        "El recurso de alzada",
-        "El recurso de reposición",
-        "La recusación"
+        "El recurso extraordinario de revisión, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El recurso extraordinario de revisión, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El recurso extraordinario de revisión, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El recurso extraordinario de revisión se interpone contra actos firmes, solo por causas tasadas.",
@@ -350,10 +350,10 @@
     {
       "pregunta": "¿Qué resoluciones ponen fin a la vía administrativa?",
       "opciones": [
-        "Las de los Ayuntamientos menores",
+        "Las de la alzada y las de órganos sin superior jerárquico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Las de la alzada y las de órganos sin superior jerárquico",
-        "Las de los jueces de paz",
-        "Ninguna"
+        "Las de la alzada y las de órganos sin superior jerárquico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las de la alzada y las de órganos sin superior jerárquico, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Ponen fin a la vía administrativa las resoluciones de alzada y las de órganos sin superior jerárquico, entre otras.",
@@ -362,10 +362,10 @@
     {
       "pregunta": "¿Cabe recurso administrativo contra las disposiciones generales?",
       "opciones": [
-        "Sí, siempre",
-        "Solo en el plazo de un año",
+        "No, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "No",
-        "Sí, ante el Defensor del Pueblo"
+        "No, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "No cabe recurso administrativo contra las disposiciones generales.",
@@ -374,9 +374,9 @@
     {
       "pregunta": "¿En qué plazo se presenta el recurso contencioso-administrativo contra un acto expreso que pone fin a la vía?",
       "opciones": [
-        "Un año",
-        "Seis meses",
-        "Quince días",
+        "un mes contado a partir del día siguiente a la notificación",
+        "dos meses contados desde la entrada en el registro del órgano competente contados desde la publicación oficial",
+        "cuarenta y cinco días hábiles desde la notificación",
         "Dos meses"
       ],
       "correcta": 3,
@@ -387,9 +387,9 @@
       "pregunta": "¿En qué plazo se presenta el contencioso frente a actos presuntos?",
       "opciones": [
         "Seis meses",
-        "Dos meses",
-        "Un año",
-        "Quince días"
+        "tres meses prorrogables por otros tres meses",
+        "doce meses conforme al plazo general supletorio",
+        "cuatro meses contados desde la fecha de entrada en registro"
       ],
       "correcta": 0,
       "explicacion": "Frente a actos presuntos el plazo es de seis meses.",
@@ -410,10 +410,10 @@
     {
       "pregunta": "¿Qué materia conoce la jurisdicción contencioso-administrativa además de las pretensiones frente a la Administración?",
       "opciones": [
-        "Los delitos de tráfico",
-        "Los divorcios",
+        "Los contratos administrativos y la responsabilidad patrimonial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los contratos administrativos y la responsabilidad patrimonial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Los contratos administrativos y la responsabilidad patrimonial",
-        "Los conflictos laborales privados"
+        "Los contratos administrativos y la responsabilidad patrimonial, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La jurisdicción conoce de los contratos administrativos y de la responsabilidad patrimonial, entre otras materias.",
@@ -447,9 +447,9 @@
       "pregunta": "¿Frente a qué no puede ejercerse la revisión de oficio?",
       "opciones": [
         "Frente a la equidad, la buena fe o el derecho de los particulares",
-        "Frente a la ley",
-        "Frente a la Constitución",
-        "Frente a los tratados"
+        "Frente a la equidad, la buena fe o el derecho de los particulares, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Frente a la equidad, la buena fe o el derecho de los particulares, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Frente a la equidad, la buena fe o el derecho de los particulares, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La revisión no puede ejercerse contra la equidad, la buena fe o el derecho de los particulares.",
@@ -458,10 +458,10 @@
     {
       "pregunta": "¿Qué ley regula el recurso contencioso-administrativo?",
       "opciones": [
-        "La Ley 39/2015 (LPAC)",
+        "La Ley 29/1998 (LJCA), previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La Ley 29/1998 (LJCA)",
-        "La Ley 40/2015 (LRJSP)",
-        "El Código Civil"
+        "La Ley 29/1998 (LJCA), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La Ley 29/1998 (LJCA), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La jurisdicción contencioso-administrativa se regula en la LJCA.",
@@ -470,10 +470,10 @@
     {
       "pregunta": "¿Qué procedimiento permite a la Administración revisar sus propios actos nulos?",
       "opciones": [
-        "La expropiación",
-        "La responsabilidad patrimonial",
+        "La revisión de oficio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La revisión de oficio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La revisión de oficio",
-        "La concesión"
+        "La revisión de oficio, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La revisión de oficio permite a la Administración revisar sus actos nulos o anulables.",
@@ -482,9 +482,9 @@
     {
       "pregunta": "¿Qué recurso se interpone ante el mismo órgano que dictó el acto?",
       "opciones": [
-        "Recurso de alzada",
-        "Recurso extraordinario de revisión",
-        "Recurso contencioso-administrativo",
+        "Recurso de reposición, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Recurso de reposición, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Recurso de reposición, computándose los plazos en días naturales y con sentido desestimatorio",
         "Recurso de reposición"
       ],
       "correcta": 3,
@@ -494,9 +494,9 @@
     {
       "pregunta": "¿Qué naturaleza tiene el recurso de reposición?",
       "opciones": [
-        "Obligatorio siempre",
-        "Judicial",
-        "Exclusivamente penal",
+        "Potestativo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Potestativo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Potestativo, computándose los plazos en días naturales y con sentido desestimatorio",
         "Potestativo"
       ],
       "correcta": 3,
@@ -507,9 +507,9 @@
       "pregunta": "¿Ante quién se interpone el recurso de alzada?",
       "opciones": [
         "Ante el órgano superior jerárquico del que dictó el acto",
-        "Ante el mismo órgano que dictó el acto",
-        "Ante el Defensor del Pueblo",
-        "Ante el notario"
+        "Ante el órgano superior jerárquico del que dictó el acto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Ante el órgano superior jerárquico del que dictó el acto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Ante el órgano superior jerárquico del que dictó el acto, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El recurso de alzada se interpone ante el superior jerárquico del órgano que dictó el acto.",
@@ -542,9 +542,9 @@
     {
       "pregunta": "¿Contra qué actos de trámite cabe recurso administrativo?",
       "opciones": [
-        "Contra todos sin excepción",
-        "Contra ninguno",
-        "Solo contra los informes",
+        "Los que deciden el fondo, impiden continuar el procedimiento o producen indefensión o perjuicio irreparable, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los que deciden el fondo, impiden continuar el procedimiento o producen indefensión o perjuicio irreparable, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los que deciden el fondo, impiden continuar el procedimiento o producen indefensión o perjuicio irreparable, computándose los plazos en días naturales y con sentido desestimatorio",
         "Los que deciden el fondo, impiden continuar el procedimiento o producen indefensión o perjuicio irreparable"
       ],
       "correcta": 3,
@@ -566,10 +566,10 @@
     {
       "pregunta": "Dentro de la materia «La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza.» (Anulabilidad y lesividad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es favorable, debe declararse su lesividad y acudir al contencioso.»?",
       "opciones": [
-        "Competencias.",
+        "Si el acto nulos de pleno derecho por carecer de los requisitos esenciales",
         "Si el acto anulable.",
-        "Para un examen, la pregunta de partida es siempre la misma.",
-        "Los ministros."
+        "Si el acto irregulares no invalidantes que solo generan responsabilidad disciplinaria",
+        "Si el acto meramente irregulares sin efecto invalidante sobre el procedimiento"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es favorable, debe declararse su lesividad y acudir al contencioso.») define o regula específicamente a «Si el acto anulable» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
@@ -590,9 +590,9 @@
     {
       "pregunta": "Dentro de la materia «La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza.» (Recursos administrativos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Un mes para interponer y tres meses para resolver (arts. 121 y 122 LPAC).»?",
       "opciones": [
-        "Revisar un acto administrativo.",
-        "La declaración.",
-        "Los secretarios de Estado.",
+        "Alzada contra actos que no ponen fin a la vía, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Alzada contra actos que no ponen fin a la vía, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Alzada contra actos que no ponen fin a la vía, computándose los plazos en días naturales y con sentido desestimatorio",
         "Alzada contra actos que no ponen fin a la vía."
       ],
       "correcta": 3,
@@ -638,9 +638,9 @@
     {
       "pregunta": "Dentro de la materia «La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza.» (Jurisdicción contencioso-administrativa), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Contratos administrativos, responsabilidad patrimonial y materias atribuidas por ley (art. 2 LJCA).»?",
       "opciones": [
-        "Para un examen, la pregunta de partida es siempre la misma.",
-        "Los ministros.",
-        "El artículo 115 LPAC.",
+        "Competencias, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Competencias, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Competencias, computándose los plazos en días naturales y con sentido desestimatorio",
         "Competencias."
       ],
       "correcta": 3,
@@ -662,10 +662,10 @@
     {
       "pregunta": "Dentro de la materia «La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza.» (Qué significa revisar un acto administrativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es someterlo a un nuevo examen para comprobar si es conforme a Derecho.»?",
       "opciones": [
-        "La declaración.",
+        "Revisar un acto administrativo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Revisar un acto administrativo.",
-        "Los secretarios de Estado.",
-        "El artículo 116 LPAC enumera las causas de inadmisión."
+        "Revisar un acto administrativo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Revisar un acto administrativo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es someterlo a un nuevo examen para comprobar si es conforme a Derecho.») define o regula específicamente a «Revisar un acto administrativo» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
@@ -710,10 +710,10 @@
     {
       "pregunta": "Dentro de la materia «La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza.» (Qué significa revisar un acto administrativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «¿existe un acto firme o un acto impugnable? Según la respuesta, cabe revisión de oficio, recurso administrativo, recurso contencioso o ninguna vía.»?",
       "opciones": [
-        "Los ministros.",
+        "Para un examen, la pregunta de partida es siempre la misma, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Para un examen, la pregunta de partida es siempre la misma.",
-        "El artículo 115 LPAC.",
-        "El artículo 119 LPAC regula la resolución."
+        "Para un examen, la pregunta de partida es siempre la misma, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Para un examen, la pregunta de partida es siempre la misma, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («¿existe un acto firme o un acto impugnable? Según la respuesta, cabe revisión de oficio, recurso administrativo, recurso contencioso o ninguna vía.») define o regula específicamente a «Para un examen, la pregunta de partida es siempre la misma» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",

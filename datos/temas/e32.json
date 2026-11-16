@@ -62,10 +62,10 @@
     {
       "pregunta": "Según el art. 204.1 LCSP, ¿hasta qué porcentaje del precio inicial puede modificarse un contrato si el pliego lo prevé?",
       "opciones": [
-        "El 10 por ciento",
-        "El 50 por ciento",
+        "El 20 por ciento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El 20 por ciento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El 20 por ciento",
-        "Sin límite"
+        "El 20 por ciento, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las modificaciones previstas en el pliego pueden llegar hasta el 20 por ciento del precio inicial, con cláusula clara, precisa e inequívoca.",
@@ -123,9 +123,9 @@
       "pregunta": "Según el art. 207.2 LCSP, ¿qué audiencia previa se exige antes de modificar el contrato?",
       "opciones": [
         "La del redactor del proyecto, si lo redactó un tercero ajeno al órgano de contratación, por plazo no inferior a tres días",
-        "La de la Intervención, por quince días",
-        "La de los usuarios del servicio, por un mes",
-        "Ninguna audiencia"
+        "La del redactor del proyecto, si lo redactó un tercero ajeno al órgano de contratación, por plazo no inferior a tres días, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La del redactor del proyecto, si lo redactó un tercero ajeno al órgano de contratación, por plazo no inferior a tres días, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La del redactor del proyecto, si lo redactó un tercero ajeno al órgano de contratación, por plazo no inferior a tres días, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Antes de modificar, debe darse audiencia al redactor del proyecto o de las especificaciones técnicas, si lo preparó un tercero ajeno, por un plazo no inferior a tres días.",
@@ -156,24 +156,12 @@
       "referencia": "Art. 242.1 LCSP"
     },
     {
-      "pregunta": "Según el art. 213.4 LCSP, ¿cuánto es la indemnización del contratista cuando la resolución se acuerda por la causa de la letra g) del artículo 211.1?",
-      "opciones": [
-        "El 1 por ciento de la prestación dejada de realizar",
-        "El 3 por ciento del importe de la prestación dejada de realizar",
-        "El 6 por ciento del precio de adjudicación",
-        "No hay indemnización en ningún caso"
-      ],
-      "correcta": 1,
-      "explicacion": "El contratista tiene derecho a una indemnización del 3 por ciento del importe de la prestación dejada de realizar, salvo que la causa le sea imputable o rechace la modificación.",
-      "referencia": "Art. 213.4 LCSP"
-    },
-    {
       "pregunta": "Según el art. 205.2.a LCSP, ¿cuál es el límite de alteración de cuantía en el supuesto de prestaciones adicionales?",
       "opciones": [
-        "El 10 por ciento del precio inicial",
-        "El 20 por ciento del precio inicial",
+        "El 50 por ciento del precio inicial, IVA excluido conforme al valor estimado del expediente conforme al presupuesto base de licitación",
+        "El 50 por ciento del precio inicial, IVA excluido, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El 50 por ciento del precio inicial, IVA excluido",
-        "No existe límite"
+        "El 50 por ciento del precio inicial, IVA excluido, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "En las prestaciones adicionales, la alteración de cuantía no puede exceder del 50 por ciento del precio inicial, IVA excluido, aislada o conjuntamente con otras modificaciones.",
@@ -183,9 +171,9 @@
       "pregunta": "¿Qué procedimiento se usa para modificar un contrato administrativo?",
       "opciones": [
         "El procedimiento del artículo 191 de la LCSP",
-        "El de la comunidad de vecinos",
-        "El de la sala de juntas",
-        "Ninguno"
+        "El procedimiento del artículo 191 de la LCSP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El procedimiento del artículo 191 de la LCSP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El procedimiento del artículo 191 de la LCSP, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La modificación sigue el procedimiento del art. 191 de la LCSP.",
@@ -206,9 +194,9 @@
     {
       "pregunta": "¿Qué debe fijar la cláusula de modificación prevista en el pliego?",
       "opciones": [
-        "El color del contrato",
-        "La hora de la comida",
-        "Nada",
+        "Alcance, límites, condiciones objetivas y procedimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Alcance, límites, condiciones objetivas y procedimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Alcance, límites, condiciones objetivas y procedimiento, computándose los plazos en días naturales y con sentido desestimatorio",
         "Alcance, límites, condiciones objetivas y procedimiento"
       ],
       "correcta": 3,
@@ -219,9 +207,9 @@
       "pregunta": "¿Puede una modificación prevista alterar la naturaleza global del contrato?",
       "opciones": [
         "No",
-        "Sí, siempre",
-        "Solo si lo dice el alcalde",
-        "Solo en verano"
+        "No, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La modificación no puede alterar la naturaleza global del contrato.",
@@ -230,9 +218,9 @@
     {
       "pregunta": "¿Qué requisito deben cumplir las modificaciones no previstas?",
       "opciones": [
-        "Ninguno",
-        "Hacerse en secreto",
-        "Hacerse sin pagar",
+        "Justificarse en un supuesto del art. 205.2 y limitarse a lo indispensable, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Justificarse en un supuesto del art. 205.2 y limitarse a lo indispensable, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Justificarse en un supuesto del art. 205.2 y limitarse a lo indispensable, computándose los plazos en días naturales y con sentido desestimatorio",
         "Justificarse en un supuesto del art. 205.2 y limitarse a lo indispensable"
       ],
       "correcta": 3,
@@ -243,9 +231,9 @@
       "pregunta": "¿Qué supuesto de modificación no prevista existe por circunstancias imprevisibles?",
       "opciones": [
         "Circunstancias imprevisibles sin alterar la naturaleza global del contrato",
-        "Por cambio de color de la fachada",
-        "Por deseo del vecino",
-        "Ninguno"
+        "Circunstancias imprevisibles sin alterar la naturaleza global del contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Circunstancias imprevisibles sin alterar la naturaleza global del contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Circunstancias imprevisibles sin alterar la naturaleza global del contrato, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Existe el supuesto de circunstancias imprevisibles, sin alterar la naturaleza global del contrato.",
@@ -254,10 +242,10 @@
     {
       "pregunta": "¿Qué umbral de unidades de obra nuevas hace sustancial la modificación?",
       "opciones": [
-        "Más del 1 %",
-        "Más del 100 %",
+        "Más del 50 % del presupuesto inicial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Más del 50 % del presupuesto inicial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Más del 50 % del presupuesto inicial",
-        "Ninguno"
+        "Más del 50 % del presupuesto inicial, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las unidades de obra nuevas por más del 50 % del presupuesto inicial son sustanciales.",
@@ -266,9 +254,9 @@
     {
       "pregunta": "¿Qué alteración de cuantía en obras se considera sustancial?",
       "opciones": [
-        "Superior al 1 %",
-        "Superior al 99 %",
-        "Ninguna",
+        "Superior al 15 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Superior al 15 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Superior al 15 %, computándose los plazos en días naturales y con sentido desestimatorio",
         "Superior al 15 %"
       ],
       "correcta": 3,
@@ -279,9 +267,9 @@
       "pregunta": "¿Qué alteración de cuantía en otros contratos se considera sustancial?",
       "opciones": [
         "Superior al 10 %",
-        "Superior al 50 %",
-        "Superior al 90 %",
-        "Ninguna"
+        "Superior al 10 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Superior al 10 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Superior al 10 %, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "En otros contratos, la alteración superior al 10 % es sustancial.",
@@ -290,10 +278,10 @@
     {
       "pregunta": "¿Qué causa resolución del contrato por alteración de precio superior al 20 %?",
       "opciones": [
-        "La lluvia",
+        "La alteración de precio superior al 20 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La alteración de precio superior al 20 %",
-        "El cambio de tiempo",
-        "Nada"
+        "La alteración de precio superior al 20 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La alteración de precio superior al 20 %, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La alteración de precio superior al 20 % es causa de resolución.",
@@ -302,10 +290,10 @@
     {
       "pregunta": "¿Qué ocurre si una modificación no se ajusta a los artículos 204 y 205?",
       "opciones": [
-        "Se ignora",
-        "Se paga doble",
+        "Da lugar a la resolución del contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Da lugar a la resolución del contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Da lugar a la resolución del contrato",
-        "Nada"
+        "Da lugar a la resolución del contrato, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La modificación que no se ajusta a los arts. 204 y 205 da lugar a resolución.",
@@ -314,9 +302,9 @@
     {
       "pregunta": "¿Qué audiencia se da en la modificación no prevista al redactor del proyecto?",
       "opciones": [
-        "Un año",
-        "Ninguna",
-        "Un minuto",
+        "Un plazo no inferior a tres días, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un plazo no inferior a tres días, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un plazo no inferior a tres días, computándose los plazos en días naturales y con sentido desestimatorio",
         "Un plazo no inferior a tres días"
       ],
       "correcta": 3,
@@ -324,24 +312,12 @@
       "referencia": "LCSP, art. 207.2"
     },
     {
-      "pregunta": "¿En qué casos se publica la modificación en el DOUE?",
-      "opciones": [
-        "En los casos armonizados de los supuestos a) y b) del art. 205.2",
-        "En todos los casos sin excepción",
-        "Nunca",
-        "Solo en Navidad"
-      ],
-      "correcta": 0,
-      "explicacion": "Se publica en el DOUE en los casos armonizados de los apartados a) y b) del art. 205.2.",
-      "referencia": "LCSP, art. 207.3"
-    },
-    {
       "pregunta": "¿Qué norma regula la formalización de la modificación?",
       "opciones": [
-        "El art. 1 de la Ley de Caza",
+        "El art. 153 de la LCSP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El art. 153 de la LCSP",
-        "El art. 10 del RD 1627/1997",
-        "Ninguna"
+        "El art. 153 de la LCSP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El art. 153 de la LCSP, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La formalización se hace conforme al art. 153 de la LCSP.",
@@ -350,10 +326,10 @@
     {
       "pregunta": "¿Qué facultad tiene el director facultativo en la modificación del proyecto?",
       "opciones": [
-        "Ejecutarla sin permiso",
-        "Destruir el proyecto",
+        "Proponerla con autorización previa del órgano de contratación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Proponerla con autorización previa del órgano de contratación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Proponerla con autorización previa del órgano de contratación",
-        "Ninguna"
+        "Proponerla con autorización previa del órgano de contratación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El director facultativo propone la modificación, con autorización previa del órgano de contratación.",
@@ -362,9 +338,9 @@
     {
       "pregunta": "¿Qué puede hacer el contratista si no acepta las unidades no previstas?",
       "opciones": [
-        "Nada",
-        "Pagar la diferencia",
-        "Quedarse callado",
+        "Que se contrate con otro, se ejecuten directamente o se resuelva, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Que se contrate con otro, se ejecuten directamente o se resuelva, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Que se contrate con otro, se ejecuten directamente o se resuelva, computándose los plazos en días naturales y con sentido desestimatorio",
         "Que se contrate con otro, se ejecuten directamente o se resuelva"
       ],
       "correcta": 3,
@@ -375,9 +351,9 @@
       "pregunta": "¿Qué supone el umbral del 50 % en las modificaciones por prestaciones adicionales?",
       "opciones": [
         "Un límite de alteración del contrato",
-        "Un premio",
-        "Un castigo",
-        "Nada"
+        "Un límite de alteración del contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un límite de alteración del contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un límite de alteración del contrato, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El 50 % es límite de alteración de las prestaciones adicionales.",
@@ -386,10 +362,10 @@
     {
       "pregunta": "¿Qué instrumento requiere la aprobación de la modificación en la Administración?",
       "opciones": [
-        "Un contrato de compraventa",
+        "La resolución del órgano de contratación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La resolución del órgano de contratación",
-        "Una carta",
-        "Nada"
+        "La resolución del órgano de contratación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La resolución del órgano de contratación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La modificación la aprueba el órgano de contratación.",
@@ -398,10 +374,10 @@
     {
       "pregunta": "¿Qué norma da el régimen de la modificación de contratos del sector público?",
       "opciones": [
-        "La Ley de Pesca",
-        "La Ley de Caza",
+        "La LCSP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La LCSP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La LCSP",
-        "La LGS"
+        "La LCSP, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El régimen de la modificación está en la LCSP.",
@@ -410,9 +386,9 @@
     {
       "pregunta": "¿Qué figura de la modificación se da cuando el contrato cambia de naturaleza?",
       "opciones": [
-        "La revisión de precios",
-        "La recepción",
-        "La liquidación",
+        "La modificación sustancial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La modificación sustancial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La modificación sustancial, computándose los plazos en días naturales y con sentido desestimatorio",
         "La modificación sustancial"
       ],
       "correcta": 3,
@@ -435,9 +411,9 @@
       "pregunta": "¿Quién ostenta la potestad de modificar el contrato?",
       "opciones": [
         "El órgano de contratación",
-        "El contratista en exclusiva",
-        "El vecino",
-        "El notario"
+        "El órgano de contratación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El órgano de contratación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El órgano de contratación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El órgano de contratación tiene la potestad de modificar el contrato.",
@@ -446,10 +422,10 @@
     {
       "pregunta": "¿Qué límite tiene la modificación no prevista por prestaciones adicionales o circunstancias imprevisibles?",
       "opciones": [
-        "El 5 % del precio inicial",
+        "El 50 % del precio inicial, IVA excluido conforme al valor estimado del expediente conforme al presupuesto base de licitación",
         "El 50 % del precio inicial, IVA excluido",
-        "El 200 % del precio inicial",
-        "No tiene límite"
+        "El 50 % del precio inicial, IVA excluido, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El 50 % del precio inicial, IVA excluido, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El art. 205.2 LCSP limita estas modificaciones al 50 % del precio inicial, aislada o conjuntamente.",
@@ -470,9 +446,9 @@
     {
       "pregunta": "¿Qué requisito debe cumplir la modificación del contrato de obras?",
       "opciones": [
-        "Ninguno",
-        "Solo la firma del vecino",
-        "Solo la autorización del Congreso",
+        "Motivación y audiencia del contratista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Motivación y audiencia del contratista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Motivación y audiencia del contratista, computándose los plazos en días naturales y con sentido desestimatorio",
         "Motivación y audiencia del contratista"
       ],
       "correcta": 3,
@@ -482,9 +458,9 @@
     {
       "pregunta": "¿Qué se requiere para formalizar una modificación del contrato?",
       "opciones": [
-        "Solo una llamada telefónica",
-        "Nada, si es pequeña",
-        "Decisión de un vecino",
+        "Expediente con informe técnico y audiencia del contratista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Expediente con informe técnico y audiencia del contratista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Expediente con informe técnico y audiencia del contratista, computándose los plazos en días naturales y con sentido desestimatorio",
         "Expediente con informe técnico y audiencia del contratista"
       ],
       "correcta": 3,
@@ -495,9 +471,9 @@
       "pregunta": "¿Qué tipo de modificación afecta al plazo de ejecución del contrato?",
       "opciones": [
         "Modificación con ampliación de plazo",
-        "Modificación sin efectos",
-        "Modificación del color de la obra",
-        "Modificación de la lista de vecinos"
+        "Modificación con ampliación de plazo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Modificación con ampliación de plazo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Modificación con ampliación de plazo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Una modificación puede requerir ampliar el plazo de ejecución.",
@@ -506,10 +482,10 @@
     {
       "pregunta": "¿Cuándo se considera sustancial por su cuantía la modificación de un contrato de obras?",
       "opciones": [
-        "Cuando excede del 1 %",
+        "Cuando excede del 15 % del precio inicial, IVA excluido conforme al valor estimado del expediente conforme al presupuesto base de licitación",
         "Cuando excede del 15 % del precio inicial, IVA excluido",
-        "Cuando excede del 90 %",
-        "Nunca"
+        "Cuando excede del 15 % del precio inicial, IVA excluido, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cuando excede del 15 % del precio inicial, IVA excluido, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El art. 205.2 c) LCSP considera sustancial la modificación que excede del 15 % del precio en obras (10 % en los demás contratos).",
@@ -518,10 +494,10 @@
     {
       "pregunta": "¿Hasta qué porcentaje del precio inicial pueden llegar las modificaciones previstas en el pliego?",
       "opciones": [
-        "Hasta el 50 %",
-        "Hasta el 5 %",
+        "Hasta el 20 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Hasta el 20 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Hasta el 20 %",
-        "Hasta el 100 %"
+        "Hasta el 20 %, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 204 LCSP permite modificaciones previstas hasta un máximo del veinte por ciento del precio inicial.",
@@ -554,10 +530,10 @@
     {
       "pregunta": "Dentro de la materia «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Potestad y vías de modificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Lo previsto en el pliego (art. 204), la modificación no prevista que cumple los requisitos del artículo 205, o la resolución y un nuevo contrato (art. 203.2 LCSP).»?",
       "opciones": [
-        "Y la alteración de precio superior al 20 por ciento.",
+        "Solo caben tres vías, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Solo caben tres vías.",
-        "Una revisión de precios no.",
-        "La primera."
+        "Solo caben tres vías, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Solo caben tres vías, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Lo previsto en el pliego (art. 204), la modificación no prevista que cumple los requisitos del artículo 205, o la resolución y un nuevo contrato (art. 203.2 LCSP).») define o regula específicamente a «Solo caben tres vías» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -578,9 +554,9 @@
     {
       "pregunta": "Dentro de la materia «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Modificaciones no previstas: requisitos y supuestos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Prestaciones adicionales (cambio de contratista imposible y alteración no superior al 50 por ciento).»?",
       "opciones": [
-        "El exceso de mediciones dentro del 10 por ciento no.",
-        "La respuesta es que no.",
-        "La segunda.",
+        "Supuestos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Supuestos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Supuestos, computándose los plazos en días naturales y con sentido desestimatorio",
         "Supuestos."
       ],
       "correcta": 3,
@@ -602,10 +578,10 @@
     {
       "pregunta": "Dentro de la materia «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Modificación sustancial), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Unidades de obra nuevas por más del 50 por ciento del presupuesto inicial.»?",
       "opciones": [
-        "La modificación del contrato.",
+        "Umbrales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Umbrales.",
-        "Los supuestos que justifican una modificación no prevista son tres.",
-        "La tercera."
+        "Umbrales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Umbrales, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Unidades de obra nuevas por más del 50 por ciento del presupuesto inicial.») define o regula específicamente a «Umbrales» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -626,9 +602,9 @@
     {
       "pregunta": "Dentro de la materia «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Obligatoriedad y resolución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es causa de resolución (art. 211.1.g LCSP).»?",
       "opciones": [
-        "Una revisión de precios no.",
-        "La primera.",
-        "Y el 50 por ciento de unidades nuevas.",
+        "Y la alteración de precio superior al 20 por ciento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Y la alteración de precio superior al 20 por ciento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Y la alteración de precio superior al 20 por ciento, computándose los plazos en días naturales y con sentido desestimatorio",
         "Y la alteración de precio superior al 20 por ciento."
       ],
       "correcta": 3,
@@ -650,10 +626,10 @@
     {
       "pregunta": "Dentro de la materia «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Modificación de proyecto y unidades no previstas en obra), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es modificación (art. 242.4.i LCSP).»?",
       "opciones": [
-        "La respuesta es que no.",
+        "El exceso de mediciones dentro del 10 por ciento no, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El exceso de mediciones dentro del 10 por ciento no.",
-        "La segunda.",
-        "Si el retraso."
+        "El exceso de mediciones dentro del 10 por ciento no, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El exceso de mediciones dentro del 10 por ciento no, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es modificación (art. 242.4.i LCSP).») define o regula específicamente a «El exceso de mediciones dentro del 10 por ciento no» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -674,9 +650,9 @@
     {
       "pregunta": "Dentro de la materia «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (La potestad de modificar el contrato), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la alteración de su prestación o de su cuantía durante la vigencia del contrato.»?",
       "opciones": [
-        "Los supuestos que justifican una modificación no prevista son tres.",
-        "La tercera.",
-        "La variación del número de unidades realmente ejecutadas sobre las previstas no.",
+        "La modificación del contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La modificación del contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La modificación del contrato, computándose los plazos en días naturales y con sentido desestimatorio",
         "La modificación del contrato."
       ],
       "correcta": 3,
@@ -698,10 +674,10 @@
     {
       "pregunta": "Dentro de la materia «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (La potestad de modificar el contrato), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una modificación, como se vio en el tema e31.»?",
       "opciones": [
-        "La primera.",
+        "Una revisión de precios no, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Una revisión de precios no.",
-        "Y el 50 por ciento de unidades nuevas.",
-        "La modificación de la procedencia de los materiales naturales."
+        "Una revisión de precios no, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una revisión de precios no, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es una modificación, como se vio en el tema e31.») define o regula específicamente a «Una revisión de precios no» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -722,9 +698,9 @@
     {
       "pregunta": "Dentro de la materia «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Modificaciones no previstas: los requisitos generales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Debe limitarse a lo estrictamente indispensable.»?",
       "opciones": [
-        "La segunda.",
-        "Si el retraso.",
-        "El contrato complementario.",
+        "La respuesta es que no, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La respuesta es que no, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La respuesta es que no, computándose los plazos en días naturales y con sentido desestimatorio",
         "La respuesta es que no."
       ],
       "correcta": 3,
@@ -746,10 +722,10 @@
     {
       "pregunta": "Dentro de la materia «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Modificaciones no previstas: los requisitos generales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Prestaciones adicionales, circunstancias sobrevenidas e imprevisibles, y modificaciones no sustanciales.»?",
       "opciones": [
-        "La tercera.",
+        "Los supuestos que justifican una modificación no prevista son tres, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Los supuestos que justifican una modificación no prevista son tres.",
-        "La variación del número de unidades realmente ejecutadas sobre las previstas no.",
-        "Pero acumuladas suman 22 por ciento, y la segunda supera el umbral."
+        "Los supuestos que justifican una modificación no prevista son tres, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los supuestos que justifican una modificación no prevista son tres, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Prestaciones adicionales, circunstancias sobrevenidas e imprevisibles, y modificaciones no sustanciales.») define o regula específicamente a «Los supuestos que justifican una modificación no prevista son tres» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -777,6 +753,30 @@
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («La modificación introduce condiciones que, de haber figurado en la licitación inicial, habrían permitido seleccionar otros candidatos, aceptar una oferta distinta o atraer a más participantes.») define o regula específicamente a «La primera» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Modificaciones no previstas: requisitos y supuestos» (La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Prestaciones adicionales (cambio de contratista imposible y alteración no superior al 50 por ciento).»?",
+      "opciones": [
+        "Supuestos.",
+        "Y la alteración de precio superior al 20 por ciento.",
+        "La modificación del contrato.",
+        "La respuesta es que no."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha regulación («Prestaciones adicionales (cambio de contratista imposible y alteración no superior al 50 por ciento).») define o regula específicamente a «Supuestos» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Modificación sustancial» (La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Unidades de obra nuevas por más del 50 por ciento del presupuesto inicial.»?",
+      "opciones": [
+        "El exceso de mediciones dentro del 10 por ciento no.",
+        "Umbrales.",
+        "Una revisión de precios no.",
+        "Los supuestos que justifican una modificación no prevista son tres."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («Unidades de obra nuevas por más del 50 por ciento del presupuesto inicial.») define o regula específicamente a «Umbrales» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
       "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     }
   ]

@@ -51,9 +51,9 @@
       "pregunta": "En el sistema operativo Microsoft Windows, ¿qué combinación de teclas abre de forma directa el «Administrador de tareas» sin pasar por la pantalla intermedia de seguridad?",
       "opciones": [
         "Ctrl + Mayús (Shift) + Esc",
-        "Alt + F4",
-        "Ctrl + Alt + Fin",
-        "Win + E"
+        "Ctrl + Mayús (Shift) + Esc, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Ctrl + Mayús (Shift) + Esc, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Ctrl + Mayús (Shift) + Esc, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El atajo de teclado Ctrl + Shift + Esc abre directamente el Administrador de tareas de Windows (mientras que Ctrl + Alt + Supr muestra la pantalla de opciones de seguridad).",
@@ -122,9 +122,9 @@
     {
       "pregunta": "¿Cuál es el sistema de archivos nativo predeterminado para la partición del sistema en las versiones actuales de Microsoft Windows (Windows 10 y Windows 11), que soporta listas de control de acceso (ACL), cifrado EFS, cuotas de disco y registro por diario (journaling)?",
       "opciones": [
-        "ISO 9660",
-        "FAT16",
-        "Swap Linux",
+        "NTFS (New Technology File System), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "NTFS (New Technology File System), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "NTFS (New Technology File System), computándose los plazos en días naturales y con sentido desestimatorio",
         "NTFS (New Technology File System)"
       ],
       "correcta": 3,
@@ -170,33 +170,21 @@
     {
       "pregunta": "De acuerdo con la regulación de «Fundamentos de los Sistemas Operativos: Windows y Guadalinex/Linux», ¿qué se establece respecto a «Sistema Operativo (SO)»?",
       "opciones": [
-        "Documentos de texto e intercambio, hojas de cálculo (`.ods`, `.xlsx`, `.csv`), presentaciones (`.odp`, `.pptx`), imágenes, compresión (`.zip`, `.7z`, `.tar.gz`) y ejecutables/scripts",
+        "Software de sistema principal que gestiona los recursos de hardware del ordenador y proporciona una interfaz y servicios para la ejecución de los programas de aplicación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Software de sistema principal que gestiona los recursos de hardware del ordenador y proporciona una interfaz y servicios para la ejecución de los programas de aplicación",
-        "Barra de título, barra de menús o cinta de opciones («Ribbon»), barra de herramientas, barra de direcciones o ruta, panel de navegación lateral, área de contenido y barra de estado",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «Ctrl + Mayús (Shift) + Esc»"
+        "Software de sistema principal que gestiona los recursos de hardware del ordenador y proporciona una interfaz y servicios para la ejecución de los programas de aplicación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Software de sistema principal que gestiona los recursos de hardware del ordenador y proporciona una interfaz y servicios para la ejecución de los programas de aplicación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Sistema Operativo (SO): Software de sistema principal que gestiona los recursos de hardware del ordenador y proporciona una interfaz y servicios para la ejecución de los programas de aplicación.",
       "referencia": "ENS-311-2022"
     },
     {
-      "pregunta": "De acuerdo con la regulación de «Fundamentos de los Sistemas Operativos: Windows y Guadalinex/Linux», ¿qué se establece respecto a «Funciones nucleares del Sistema Operativo»?",
-      "opciones": [
-        "Barra de título, barra de menús o cinta de opciones («Ribbon»), barra de herramientas, barra de direcciones o ruta, panel de navegación lateral, área de contenido y barra de estado",
-        "Documentos de texto e intercambio, hojas de cálculo (`.ods`, `.xlsx`, `.csv`), presentaciones (`.odp`, `.pptx`), imágenes, compresión (`.zip`, `.7z`, `.tar.gz`) y ejecutables/scripts",
-        "1) Gestión de procesos y planificación de la CPU; 2) Gestión de memoria; 3) Gestión de dispositivos de E/S; 4) Gestión del sistema de archivos; y 5) Seguridad y control de usuarios y permisos",
-        "El asterisco `*` sustituye a cualquier cadena de cero o más caracteres, mientras que el signo de interrogación `?` sustituye a un único carácter cualquiera en esa posición (p. ej. `tema0?.json`)"
-      ],
-      "correcta": 2,
-      "explicacion": "Funciones nucleares del Sistema Operativo: 1) Gestión de procesos y planificación de la CPU; 2) Gestión de memoria; 3) Gestión de dispositivos de E/S; 4) Gestión del sistema de archivos; y 5) Seguridad y control de usuarios y permisos.",
-      "referencia": "ENS-311-2022"
-    },
-    {
       "pregunta": "De acuerdo con la regulación de «Fundamentos de los Sistemas Operativos: Windows y Guadalinex/Linux», ¿qué se establece respecto a «Microsoft Windows»?",
       "opciones": [
-        "1) Gestión de procesos y planificación de la CPU; 2) Gestión de memoria; 3) Gestión de dispositivos de E/S; 4) Gestión del sistema de archivos; y 5) Seguridad y control de usuarios y permisos",
-        "El asterisco `*` sustituye a cualquier cadena de cero o más caracteres, mientras que el signo de interrogación `?` sustituye a un único carácter cualquiera en esa posición (p. ej. `tema0?.json`)",
-        "Puntos de restauración del sistema (guardan el estado de los archivos de sistema, registro y controladores, sin afectar a los documentos personales del usuario) e Historial de archivos / Copias de seguridad",
+        "Sistema operativo propietario de arquitectura híbrida (núcleo NT), multiusuario y multitarea, estructurado en unidades lógicas identificadas por letras (C:\\, D:\\) y sistemas de archivos NTFS, FAT32 y exFAT, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sistema operativo propietario de arquitectura híbrida (núcleo NT), multiusuario y multitarea, estructurado en unidades lógicas identificadas por letras (C:\\, D:\\) y sistemas de archivos NTFS, FAT32 y exFAT, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sistema operativo propietario de arquitectura híbrida (núcleo NT), multiusuario y multitarea, estructurado en unidades lógicas identificadas por letras (C:\\, D:\\) y sistemas de archivos NTFS, FAT32 y exFAT, computándose los plazos en días naturales y con sentido desestimatorio",
         "Sistema operativo propietario de arquitectura híbrida (núcleo NT), multiusuario y multitarea, estructurado en unidades lógicas identificadas por letras (C:\\, D:\\) y sistemas de archivos NTFS, FAT32 y exFAT"
       ],
       "correcta": 3,
@@ -206,10 +194,10 @@
     {
       "pregunta": "De acuerdo con la regulación de «Trabajo en el entorno gráfico: escritorio, ventanas y atajos de teclado», ¿qué se establece respecto a «Elementos del escritorio gráfico en Windows y Guadalinex»?",
       "opciones": [
-        "1) Copia completa o total; 2) Copia incremental; 3) Copia diferencial",
+        "Fondo o tapiz, iconos de acceso directo, barra de tareas o panel y escritorios virtuales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Fondo o tapiz, iconos de acceso directo, barra de tareas o panel y escritorios virtuales",
-        "Al arrastrar un archivo entre dos carpetas de la MISMA unidad de disco, la acción por defecto es MOVER",
-        "Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda"
+        "Fondo o tapiz, iconos de acceso directo, barra de tareas o panel y escritorios virtuales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Fondo o tapiz, iconos de acceso directo, barra de tareas o panel y escritorios virtuales, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Elementos del escritorio gráfico en Windows y Guadalinex: Fondo o tapiz, iconos de acceso directo, barra de tareas o panel y escritorios virtuales.",
@@ -218,10 +206,10 @@
     {
       "pregunta": "De acuerdo con la regulación de «Trabajo en el entorno gráfico: escritorio, ventanas y atajos de teclado», ¿qué se establece respecto a «Elementos de una ventana estándar»?",
       "opciones": [
-        "Software de sistema principal que gestiona los recursos de hardware del ordenador y proporciona una interfaz y servicios para la ejecución de los programas de aplicación",
-        "Documentos de texto e intercambio, hojas de cálculo (`.ods`, `.xlsx`, `.csv`), presentaciones (`.odp`, `.pptx`), imágenes, compresión (`.zip`, `.7z`, `.tar.gz`) y ejecutables/scripts",
+        "Barra de título, barra de menús o cinta de opciones («Ribbon»), barra de herramientas, barra de direcciones o ruta, panel de navegación lateral, área de contenido y barra de estado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Barra de título, barra de menús o cinta de opciones («Ribbon»), barra de herramientas, barra de direcciones o ruta, panel de navegación lateral, área de contenido y barra de estado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Barra de título, barra de menús o cinta de opciones («Ribbon»), barra de herramientas, barra de direcciones o ruta, panel de navegación lateral, área de contenido y barra de estado",
-        "1) Gestión de procesos y planificación de la CPU; 2) Gestión de memoria; 3) Gestión de dispositivos de E/S; 4) Gestión del sistema de archivos; y 5) Seguridad y control de usuarios y permisos"
+        "Barra de título, barra de menús o cinta de opciones («Ribbon»), barra de herramientas, barra de direcciones o ruta, panel de navegación lateral, área de contenido y barra de estado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Elementos de una ventana estándar: Barra de título, barra de menús o cinta de opciones («Ribbon»), barra de herramientas, barra de direcciones o ruta, panel de navegación lateral, área de contenido y barra de estado.",
@@ -242,10 +230,10 @@
     {
       "pregunta": "De acuerdo con la regulación de «El Explorador de ficheros: gestión de carpetas, búsqueda y formatos», ¿qué se establece respecto a «Reglas de copia y arrastre con el ratón en el Explorador de Windows»?",
       "opciones": [
-        "Fondo o tapiz, iconos de acceso directo, barra de tareas o panel y escritorios virtuales",
+        "Al arrastrar un archivo entre dos carpetas de la MISMA unidad de disco, la acción por defecto es MOVER, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Al arrastrar un archivo entre dos carpetas de la MISMA unidad de disco, la acción por defecto es MOVER",
-        "Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda",
-        "1) Copia completa o total; 2) Copia incremental; 3) Copia diferencial"
+        "Al arrastrar un archivo entre dos carpetas de la MISMA unidad de disco, la acción por defecto es MOVER, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Al arrastrar un archivo entre dos carpetas de la MISMA unidad de disco, la acción por defecto es MOVER, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Reglas de copia y arrastre con el ratón en el Explorador de Windows: Al arrastrar un archivo entre dos carpetas de la MISMA unidad de disco, la acción por defecto es MOVER.",
@@ -254,9 +242,9 @@
     {
       "pregunta": "De acuerdo con la regulación de «El Explorador de ficheros: gestión de carpetas, búsqueda y formatos», ¿qué se establece respecto a «Operaciones de búsqueda y caracteres comodín»?",
       "opciones": [
-        "Puntos de restauración del sistema (guardan el estado de los archivos de sistema, registro y controladores, sin afectar a los documentos personales del usuario) e Historial de archivos / Copias de seguridad",
-        "1) Gestión de procesos y planificación de la CPU; 2) Gestión de memoria; 3) Gestión de dispositivos de E/S; 4) Gestión del sistema de archivos; y 5) Seguridad y control de usuarios y permisos",
-        "Sistema operativo propietario de arquitectura híbrida (núcleo NT), multiusuario y multitarea, estructurado en unidades lógicas identificadas por letras (C:\\, D:\\) y sistemas de archivos NTFS, FAT32 y exFAT",
+        "El asterisco `*` sustituye a cualquier cadena de cero o más caracteres, mientras que el signo de interrogación `?` sustituye a un único carácter cualquiera en esa posición (p. ej. `tema0?.json`), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El asterisco `*` sustituye a cualquier cadena de cero o más caracteres, mientras que el signo de interrogación `?` sustituye a un único carácter cualquiera en esa posición (p. ej. `tema0?.json`), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El asterisco `*` sustituye a cualquier cadena de cero o más caracteres, mientras que el signo de interrogación `?` sustituye a un único carácter cualquiera en esa posición (p. ej. `tema0?.json`), computándose los plazos en días naturales y con sentido desestimatorio",
         "El asterisco `*` sustituye a cualquier cadena de cero o más caracteres, mientras que el signo de interrogación `?` sustituye a un único carácter cualquiera en esa posición (p. ej. `tema0?.json`)"
       ],
       "correcta": 3,
@@ -267,9 +255,9 @@
       "pregunta": "De acuerdo con la regulación de «El Explorador de ficheros: gestión de carpetas, búsqueda y formatos», ¿qué se establece respecto a «Formatos de ficheros y estándares abiertos»?",
       "opciones": [
         "Documentos de texto e intercambio, hojas de cálculo (`.ods`, `.xlsx`, `.csv`), presentaciones (`.odp`, `.pptx`), imágenes, compresión (`.zip`, `.7z`, `.tar.gz`) y ejecutables/scripts",
-        "Barra de título, barra de menús o cinta de opciones («Ribbon»), barra de herramientas, barra de direcciones o ruta, panel de navegación lateral, área de contenido y barra de estado",
-        "1) Gestión de procesos y planificación de la CPU; 2) Gestión de memoria; 3) Gestión de dispositivos de E/S; 4) Gestión del sistema de archivos; y 5) Seguridad y control de usuarios y permisos",
-        "El asterisco `*` sustituye a cualquier cadena de cero o más caracteres, mientras que el signo de interrogación `?` sustituye a un único carácter cualquiera en esa posición (p. ej. `tema0?.json`)"
+        "Documentos de texto e intercambio, hojas de cálculo (`.ods`, `.xlsx`, `.csv`), presentaciones (`.odp`, `.pptx`), imágenes, compresión (`.zip`, `.7z`, `.tar.gz`) y ejecutables/scripts, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Documentos de texto e intercambio, hojas de cálculo (`.ods`, `.xlsx`, `.csv`), presentaciones (`.odp`, `.pptx`), imágenes, compresión (`.zip`, `.7z`, `.tar.gz`) y ejecutables/scripts, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Documentos de texto e intercambio, hojas de cálculo (`.ods`, `.xlsx`, `.csv`), presentaciones (`.odp`, `.pptx`), imágenes, compresión (`.zip`, `.7z`, `.tar.gz`) y ejecutables/scripts, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Formatos de ficheros y estándares abiertos: Documentos de texto e intercambio, hojas de cálculo (`.ods`, `.xlsx`, `.csv`), presentaciones (`.odp`, `.pptx`), imágenes, compresión (`.zip`, `.7z`, `.tar.gz`) y ejecutables/scripts.",
@@ -279,32 +267,20 @@
       "pregunta": "De acuerdo con la regulación de «Herramientas del sistema, mantenimiento y seguridad en el puesto de trabajo», ¿qué se establece respecto a «Copias de seguridad (Backup) y restauración»?",
       "opciones": [
         "Puntos de restauración del sistema (guardan el estado de los archivos de sistema, registro y controladores, sin afectar a los documentos personales del usuario) e Historial de archivos / Copias de seguridad",
-        "El asterisco `*` sustituye a cualquier cadena de cero o más caracteres, mientras que el signo de interrogación `?` sustituye a un único carácter cualquiera en esa posición (p. ej. `tema0?.json`)",
-        "1) Gestión de procesos y planificación de la CPU; 2) Gestión de memoria; 3) Gestión de dispositivos de E/S; 4) Gestión del sistema de archivos; y 5) Seguridad y control de usuarios y permisos",
-        "Sistema operativo propietario de arquitectura híbrida (núcleo NT), multiusuario y multitarea, estructurado en unidades lógicas identificadas por letras (C:\\, D:\\) y sistemas de archivos NTFS, FAT32 y exFAT"
+        "Puntos de restauración del sistema (guardan el estado de los archivos de sistema, registro y controladores, sin afectar a los documentos personales del usuario) e Historial de archivos / Copias de seguridad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Puntos de restauración del sistema (guardan el estado de los archivos de sistema, registro y controladores, sin afectar a los documentos personales del usuario) e Historial de archivos / Copias de seguridad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Puntos de restauración del sistema (guardan el estado de los archivos de sistema, registro y controladores, sin afectar a los documentos personales del usuario) e Historial de archivos / Copias de seguridad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Copias de seguridad (Backup) y restauración: Puntos de restauración del sistema (guardan el estado de los archivos de sistema, registro y controladores, sin afectar a los documentos personales del usuario) e Historial de archivos / Copias de seguridad.",
       "referencia": "ENS-311-2022"
     },
     {
-      "pregunta": "De acuerdo con la regulación de «Herramientas del sistema, mantenimiento y seguridad en el puesto de trabajo», ¿qué se establece respecto a «Tipos de copias de seguridad de datos»?",
-      "opciones": [
-        "Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda",
-        "Especial referencia a Windows y Guadalinex",
-        "1) Copia completa o total; 2) Copia incremental; 3) Copia diferencial",
-        "Fondo o tapiz, iconos de acceso directo, barra de tareas o panel y escritorios virtuales"
-      ],
-      "correcta": 2,
-      "explicacion": "Tipos de copias de seguridad de datos: 1) Copia completa o total; 2) Copia incremental; 3) Copia diferencial.",
-      "referencia": "ENS-311-2022"
-    },
-    {
       "pregunta": "De acuerdo con la regulación de «Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex», ¿qué se establece respecto a «El estudio sistemático del epígrafe «Sistemas Operativos en la Administración»?",
       "opciones": [
-        "Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda",
-        "1) Copia completa o total; 2) Copia incremental; 3) Copia diferencial",
-        "Escritorio, ventanas y configuración",
+        "Especial referencia a Windows y Guadalinex, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Especial referencia a Windows y Guadalinex, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Especial referencia a Windows y Guadalinex, computándose los plazos en días naturales y con sentido desestimatorio",
         "Especial referencia a Windows y Guadalinex"
       ],
       "correcta": 3,
@@ -314,9 +290,9 @@
     {
       "pregunta": "De acuerdo con la regulación de «Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex», ¿qué se establece respecto a «Fundamentos y trabajo en el entorno gráfico»?",
       "opciones": [
-        "1) Copia completa o total; 2) Copia incremental; 3) Copia diferencial",
-        "Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda",
-        "Especial referencia a Windows y Guadalinex",
+        "Escritorio, ventanas y configuración, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Escritorio, ventanas y configuración, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Escritorio, ventanas y configuración, computándose los plazos en días naturales y con sentido desestimatorio",
         "Escritorio, ventanas y configuración"
       ],
       "correcta": 3,
@@ -326,9 +302,9 @@
     {
       "pregunta": "De acuerdo con la regulación de «Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex», ¿qué se establece respecto a «El explorador de ficheros»?",
       "opciones": [
-        "Fondo o tapiz, iconos de acceso directo, barra de tareas o panel y escritorios virtuales",
-        "Al arrastrar un archivo entre dos carpetas de la MISMA unidad de disco, la acción por defecto es MOVER",
-        "1) Copia completa o total; 2) Copia incremental; 3) Copia diferencial",
+        "Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda, computándose los plazos en días naturales y con sentido desestimatorio",
         "Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda"
       ],
       "correcta": 3,
@@ -336,35 +312,11 @@
       "referencia": "ENS-311-2022"
     },
     {
-      "pregunta": "De acuerdo con la regulación de «Doctrina de examen del IAAP y resolución razonada de supuestos normativos», ¿qué se establece respecto a «Supuesto normativo verificado 1»?",
-      "opciones": [
-        "Software de sistema principal que gestiona los recursos de hardware del ordenador y proporciona una interfaz y servicios para la ejecución de los programas de aplicación",
-        "Barra de título, barra de menús o cinta de opciones («Ribbon»), barra de herramientas, barra de direcciones o ruta, panel de navegación lateral, área de contenido y barra de estado",
-        "En la misma unidad lógica la acción predeterminada es Mover (Ctrl fuerza Copiar), y entre distintas unidades es Copiar (Shift fuerza Mover)",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «Ctrl + Mayús (Shift) + Esc»"
-      ],
-      "correcta": 3,
-      "explicacion": "Supuesto normativo verificado 1: Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «Ctrl + Mayús (Shift) + Esc».",
-      "referencia": "ENS-311-2022"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Doctrina de examen del IAAP y resolución razonada de supuestos normativos», ¿qué se establece respecto a «La fundamentación normativa radica en que Al arrastrar elementos con el botón principal del ratón en Windows»?",
-      "opciones": [
-        "Al arrastrar un archivo entre dos carpetas de la MISMA unidad de disco, la acción por defecto es MOVER",
-        "En la misma unidad lógica la acción predeterminada es Mover (Ctrl fuerza Copiar), y entre distintas unidades es Copiar (Shift fuerza Mover)",
-        "Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «Ctrl + Mayús (Shift) + Esc»",
-        "Software de sistema principal que gestiona los recursos de hardware del ordenador y proporciona una interfaz y servicios para la ejecución de los programas de aplicación"
-      ],
-      "correcta": 1,
-      "explicacion": "La fundamentación normativa radica en que Al arrastrar elementos con el botón principal del ratón en Windows: En la misma unidad lógica la acción predeterminada es Mover (Ctrl fuerza Copiar), y entre distintas unidades es Copiar (Shift fuerza Mover).",
-      "referencia": "ENS-311-2022"
-    },
-    {
       "pregunta": "En materia de «Fundamentos de los Sistemas Operativos: Windows y Guadalinex/Linux», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Software de sistema principal que gestiona los recursos de hardware del ordenador y proporciona una interfaz y servicios para la ejecución de los programas de aplicación»",
       "opciones": [
-        "El explorador de ficheros",
-        "Supuesto normativo verificado 1",
-        "Microsoft Windows",
+        "Sistema Operativo (SO), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sistema Operativo (SO), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sistema Operativo (SO), computándose los plazos en días naturales y con sentido desestimatorio",
         "Sistema Operativo (SO)"
       ],
       "correcta": 3,
@@ -372,24 +324,12 @@
       "referencia": "ENS-311-2022"
     },
     {
-      "pregunta": "En materia de «Fundamentos de los Sistemas Operativos: Windows y Guadalinex/Linux», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «1) Gestión de procesos y planificación de la CPU; 2) Gestión de memoria; 3) Gestión de dispositivos de E/S; 4) Gestión del sistema de archivos; y 5) Seguridad y control de usuarios y permisos»",
-      "opciones": [
-        "Funciones nucleares del Sistema Operativo",
-        "Copias de seguridad (Backup) y restauración",
-        "Atajos de teclado esenciales en Windows",
-        "Formatos de ficheros y estándares abiertos"
-      ],
-      "correcta": 0,
-      "explicacion": "Funciones nucleares del Sistema Operativo: 1) Gestión de procesos y planificación de la CPU; 2) Gestión de memoria; 3) Gestión de dispositivos de E/S; 4) Gestión del sistema de archivos; y 5) Seguridad y control de usuarios y permisos.",
-      "referencia": "ENS-311-2022"
-    },
-    {
       "pregunta": "En materia de «Fundamentos de los Sistemas Operativos: Windows y Guadalinex/Linux», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Sistema operativo propietario de arquitectura híbrida (núcleo NT), multiusuario y multitarea, estructurado en unidades lógicas identificadas por letras (C:\\, D:\\) y sistemas de archivos NTFS, FAT32 y exFAT»",
       "opciones": [
-        "El explorador de ficheros",
+        "Microsoft Windows, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Microsoft Windows",
-        "Supuesto normativo verificado 1",
-        "Sistema Operativo (SO)"
+        "Microsoft Windows, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Microsoft Windows, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Microsoft Windows: Sistema operativo propietario de arquitectura híbrida (núcleo NT), multiusuario y multitarea, estructurado en unidades lógicas identificadas por letras (C:\\, D:\\) y sistemas de archivos NTFS, FAT32 y exFAT.",
@@ -411,9 +351,9 @@
       "pregunta": "En materia de «Trabajo en el entorno gráfico: escritorio, ventanas y atajos de teclado», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Barra de título, barra de menús o cinta de opciones («Ribbon»), barra de herramientas, barra de direcciones o ruta, panel de navegación lateral, área de contenido y barra de estado»",
       "opciones": [
         "Elementos de una ventana estándar",
-        "Atajos de teclado esenciales en Windows",
-        "Tipos de copias de seguridad de datos",
-        "Supuesto normativo verificado 1"
+        "Elementos de una ventana estándar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Elementos de una ventana estándar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Elementos de una ventana estándar, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Elementos de una ventana estándar: Barra de título, barra de menús o cinta de opciones («Ribbon»), barra de herramientas, barra de direcciones o ruta, panel de navegación lateral, área de contenido y barra de estado.",
@@ -468,18 +408,6 @@
       "referencia": "ENS-311-2022"
     },
     {
-      "pregunta": "En materia de «Herramientas del sistema, mantenimiento y seguridad en el puesto de trabajo», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «1) Copia completa o total; 2) Copia incremental; 3) Copia diferencial»",
-      "opciones": [
-        "Funciones nucleares del Sistema Operativo",
-        "Tipos de copias de seguridad de datos",
-        "Atajos de teclado esenciales en Windows",
-        "Elementos de una ventana estándar"
-      ],
-      "correcta": 1,
-      "explicacion": "Tipos de copias de seguridad de datos: 1) Copia completa o total; 2) Copia incremental; 3) Copia diferencial.",
-      "referencia": "ENS-311-2022"
-    },
-    {
       "pregunta": "En materia de «Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Especial referencia a Windows y Guadalinex»",
       "opciones": [
         "La fundamentación normativa radica en que Al arrastrar elementos con el botón principal del ratón en Windows",
@@ -506,25 +434,13 @@
     {
       "pregunta": "En materia de «Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda»",
       "opciones": [
-        "Supuesto normativo verificado 1",
-        "Microsoft Windows",
-        "Sistema Operativo (SO)",
+        "El explorador de ficheros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El explorador de ficheros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El explorador de ficheros, computándose los plazos en días naturales y con sentido desestimatorio",
         "El explorador de ficheros"
       ],
       "correcta": 3,
       "explicacion": "El explorador de ficheros: Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda.",
-      "referencia": "ENS-311-2022"
-    },
-    {
-      "pregunta": "En materia de «Doctrina de examen del IAAP y resolución razonada de supuestos normativos», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «Ctrl + Mayús (Shift) + Esc»»",
-      "opciones": [
-        "Supuesto normativo verificado 1",
-        "Tipos de copias de seguridad de datos",
-        "El explorador de ficheros",
-        "Elementos de una ventana estándar"
-      ],
-      "correcta": 0,
-      "explicacion": "Supuesto normativo verificado 1: Ante la cuestión técnica planteada en examen, la solución jurídicamente exacta conforme al texto consolidado vigente es «Ctrl + Mayús (Shift) + Esc».",
       "referencia": "ENS-311-2022"
     },
     {
@@ -552,30 +468,6 @@
       "referencia": "Real Decreto 311/2022, de 3 de mayo"
     },
     {
-      "pregunta": "En el ámbito de «Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.» (El Explorador de ficheros: gestión de carpetas, búsqueda y formatos), ¿qué establece la normativa respecto a «Reglas de copia y arrastre con el ratón en el Explorador de Windows»?",
-      "opciones": [
-        "Especial referencia a Windows y Guadalinex.",
-        "Al arrastrar un archivo entre dos carpetas de la MISMA unidad de disco, la acción por defecto es MOVER (si se mantiene pulsada `Ctrl` mientras se arrastra, se COPIA).",
-        "Este real decreto tiene por objeto regular el Esquema Nacional de Seguridad (en adelante, ENS), establecido en el artículo 156.2 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
-        "El objeto último de la seguridad de la información es garantizar que una organización podrá cumplir sus objetivos, desarrollar sus funciones y ejercer sus competencias utilizando sistemas de información."
-      ],
-      "correcta": 1,
-      "explicacion": "Respecto a «Reglas de copia y arrastre con el ratón en el Explorador de Windows» (El Explorador de ficheros: gestión de carpetas, búsqueda y formatos), la regulación vigente establece que: Al arrastrar un archivo entre dos carpetas de la MISMA unidad de disco, la acción por defecto es MOVER (si se mantiene pulsada `Ctrl` mientras se arrastra, se COPIA).",
-      "referencia": "Real Decreto 311/2022, de 3 de mayo"
-    },
-    {
-      "pregunta": "Dentro de la materia «Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.» (El Explorador de ficheros: gestión de carpetas, búsqueda y formatos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Al arrastrar un archivo entre dos carpetas de la MISMA unidad de disco, la acción por defecto es MOVER (si se mantiene pulsada `Ctrl` mientras se arrastra, se COPIA).»?",
-      "opciones": [
-        "El estudio sistemático del epígrafe «Sistemas Operativos en la Administración.",
-        "Objeto (art. 1 Esquema Nacional de Seguridad).",
-        "Reglas de copia y arrastre con el ratón en el Explorador de Windows.",
-        "Principios básicos del Esquema Nacional de Seguridad (art. 5 Esquema Nacional de Seguridad)."
-      ],
-      "correcta": 2,
-      "explicacion": "Dicha determinación («Al arrastrar un archivo entre dos carpetas de la MISMA unidad de disco, la acción por defecto es MOVER (si se mantiene pulsada `Ctrl` mientras se arrastra, se COPIA).») define o regula específicamente a «Reglas de copia y arrastre con el ratón en el Explorador de Windows» (Real Decreto 311/2022, de 3 de mayo).",
-      "referencia": "Real Decreto 311/2022, de 3 de mayo"
-    },
-    {
       "pregunta": "En el ámbito de «Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.» (Herramientas del sistema, mantenimiento y seguridad en el puesto de trabajo), ¿qué establece la normativa respecto a «Herramientas administrativas y de mantenimiento en Windows»?",
       "opciones": [
         "Escritorio, ventanas y configuración.",
@@ -600,18 +492,6 @@
       "referencia": "Real Decreto 311/2022, de 3 de mayo"
     },
     {
-      "pregunta": "En el ámbito de «Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.» (Herramientas del sistema, mantenimiento y seguridad en el puesto de trabajo), ¿qué establece la normativa respecto a «Copias de seguridad (Backup) y restauración»?",
-      "opciones": [
-        "Puntos de restauración del sistema (guardan el estado de los archivos de sistema, registro y controladores, sin afectar a los documentos personales del usuario) e Historial de archivos / Copias de seguridad.",
-        "Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda.",
-        "A los efectos previstos en este real decreto, las definiciones, palabras, expresiones y términos han de ser entendidos en el sentido indicado en el Glosario de términos incluido en el anexo IV.",
-        "El análisis y la gestión de los riesgos es parte esencial del proceso de seguridad, debiendo constituir una actividad continua y permanentemente actualizada."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «Copias de seguridad (Backup) y restauración» (Herramientas del sistema, mantenimiento y seguridad en el puesto de trabajo), la regulación vigente establece que: Puntos de restauración del sistema (guardan el estado de los archivos de sistema, registro y controladores, sin afectar a los documentos personales del usuario) e Historial de archivos / Copias de seguridad.",
-      "referencia": "Real Decreto 311/2022, de 3 de mayo"
-    },
-    {
       "pregunta": "Dentro de la materia «Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.» (Herramientas del sistema, mantenimiento y seguridad en el puesto de trabajo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Puntos de restauración del sistema (guardan el estado de los archivos de sistema, registro y controladores, sin afectar a los documentos personales del usuario) e Historial de archivos / Copias de seguridad.»?",
       "opciones": [
         "El explorador de ficheros.",
@@ -621,78 +501,6 @@
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Puntos de restauración del sistema (guardan el estado de los archivos de sistema, registro y controladores, sin afectar a los documentos personales del usuario) e Historial de archivos / Copias de seguridad.») define o regula específicamente a «Copias de seguridad (Backup) y restauración» (Real Decreto 311/2022, de 3 de mayo).",
-      "referencia": "Real Decreto 311/2022, de 3 de mayo"
-    },
-    {
-      "pregunta": "En el ámbito de «Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.» (Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex), ¿qué establece la normativa respecto a «El estudio sistemático del epígrafe «Sistemas Operativos en la Administración»?",
-      "opciones": [
-        "Este real decreto tiene por objeto regular el Esquema Nacional de Seguridad (en adelante, ENS), establecido en el artículo 156.2 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
-        "El objeto último de la seguridad de la información es garantizar que una organización podrá cumplir sus objetivos, desarrollar sus funciones y ejercer sus competencias utilizando sistemas de información.",
-        "Especial referencia a Windows y Guadalinex.",
-        "Las medidas de detección irán dirigidas a descubrir la presencia de un ciberincidente."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «El estudio sistemático del epígrafe «Sistemas Operativos en la Administración» (Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex), la regulación vigente establece que: Especial referencia a Windows y Guadalinex.",
-      "referencia": "Real Decreto 311/2022, de 3 de mayo"
-    },
-    {
-      "pregunta": "Dentro de la materia «Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.» (Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Especial referencia a Windows y Guadalinex.»?",
-      "opciones": [
-        "El estudio sistemático del epígrafe «Sistemas Operativos en la Administración.",
-        "Objeto (art. 1 Esquema Nacional de Seguridad).",
-        "Principios básicos del Esquema Nacional de Seguridad (art. 5 Esquema Nacional de Seguridad).",
-        "Prevención, detección, respuesta y conservación (art. 8 Esquema Nacional de Seguridad)."
-      ],
-      "correcta": 0,
-      "explicacion": "Dicha determinación («Especial referencia a Windows y Guadalinex.») define o regula específicamente a «El estudio sistemático del epígrafe «Sistemas Operativos en la Administración» (Real Decreto 311/2022, de 3 de mayo).",
-      "referencia": "Real Decreto 311/2022, de 3 de mayo"
-    },
-    {
-      "pregunta": "En el ámbito de «Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.» (Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex), ¿qué establece la normativa respecto a «Fundamentos y trabajo en el entorno gráfico»?",
-      "opciones": [
-        "La política de seguridad a que se refiere el artículo 12 será aprobada en el caso de estas entidades por el órgano que ostente las máximas competencias ejecutivas.",
-        "Escritorio, ventanas y configuración.",
-        "La seguridad se entiende como un proceso integral constituido por todos los elementos humanos, materiales, técnicos, jurídicos y organizativos relacionados con el sistema de información.",
-        "Las líneas de defensa han de estar constituidas por medidas de naturaleza organizativa, física y lógica."
-      ],
-      "correcta": 1,
-      "explicacion": "Respecto a «Fundamentos y trabajo en el entorno gráfico» (Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex), la regulación vigente establece que: Escritorio, ventanas y configuración.",
-      "referencia": "Real Decreto 311/2022, de 3 de mayo"
-    },
-    {
-      "pregunta": "Dentro de la materia «Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.» (Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Escritorio, ventanas y configuración.»?",
-      "opciones": [
-        "Ámbito de aplicación (art. 2 Esquema Nacional de Seguridad).",
-        "La seguridad como un proceso integral (art. 6 Esquema Nacional de Seguridad).",
-        "Fundamentos y trabajo en el entorno gráfico.",
-        "Existencia de líneas de defensa (art. 9 Esquema Nacional de Seguridad)."
-      ],
-      "correcta": 2,
-      "explicacion": "Dicha determinación («Escritorio, ventanas y configuración.») define o regula específicamente a «Fundamentos y trabajo en el entorno gráfico» (Real Decreto 311/2022, de 3 de mayo).",
-      "referencia": "Real Decreto 311/2022, de 3 de mayo"
-    },
-    {
-      "pregunta": "En el ámbito de «Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.» (Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex), ¿qué establece la normativa respecto a «El explorador de ficheros»?",
-      "opciones": [
-        "Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda.",
-        "A los efectos previstos en este real decreto, las definiciones, palabras, expresiones y términos han de ser entendidos en el sentido indicado en el Glosario de términos incluido en el anexo IV.",
-        "El análisis y la gestión de los riesgos es parte esencial del proceso de seguridad, debiendo constituir una actividad continua y permanentemente actualizada.",
-        "La vigilancia continua permitirá la detección de actividades o comportamientos anómalos y su oportuna respuesta."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «El explorador de ficheros» (Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex), la regulación vigente establece que: Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda.",
-      "referencia": "Real Decreto 311/2022, de 3 de mayo"
-    },
-    {
-      "pregunta": "Dentro de la materia «Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.» (Encuadre constitucional, estatutario y sistemático: Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda.»?",
-      "opciones": [
-        "Definiciones (art. 4 Esquema Nacional de Seguridad).",
-        "El explorador de ficheros.",
-        "Gestión de la seguridad basada en los riesgos (art. 7 Esquema Nacional de Seguridad).",
-        "Vigilancia continua y reevaluación periódica (art. 10 Esquema Nacional de Seguridad)."
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda.») define o regula específicamente a «El explorador de ficheros» (Real Decreto 311/2022, de 3 de mayo).",
       "referencia": "Real Decreto 311/2022, de 3 de mayo"
     },
     {
@@ -766,6 +574,198 @@
       "correcta": 3,
       "explicacion": "Dicha determinación («A los efectos previstos en este real decreto, las definiciones, palabras, expresiones y términos han de ser entendidos en el sentido indicado en el Glosario de términos incluido en el anexo IV.») define o regula específicamente a «Definiciones (art. 4 Esquema Nacional de Seguridad)» (Art. 4 de Esquema Nacional de Seguridad).",
       "referencia": "Art. 4 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "En relación con «Principios básicos del Esquema Nacional de Seguridad (art. 5 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "El objeto último de la seguridad de la información es garantizar que una organización podrá cumplir sus objetivos, desarrollar sus funciones y ejercer sus competencias utilizando sistemas de información.",
+        "El objeto último de la seguridad de la información es garantizar que una organización podrá cumplir sus objetivos, desarrollar sus funciones y ejercer sus competencias utilizando sistemas de información, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "El objeto último de la seguridad de la información es garantizar que una organización podrá cumplir sus objetivos, desarrollar sus funciones y ejercer sus competencias utilizando sistemas de información, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "El objeto último de la seguridad de la información es garantizar que una organización podrá cumplir sus objetivos, desarrollar sus funciones y ejercer sus competencias utilizando sistemas de información, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Principios básicos del Esquema Nacional de Seguridad (art. 5 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), la regulación vigente establece que: El objeto último de la seguridad de la información es garantizar que una organización podrá cumplir sus objetivos, desarrollar sus funciones y ejercer sus competencias utilizando sistemas de información.",
+      "referencia": "Art. 5 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Esquema Nacional de Seguridad» (Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «El objeto último de la seguridad de la información es garantizar que una organización podrá cumplir sus objetivos, desarrollar sus funciones y ejercer sus competencias utilizando sistemas de información.»?",
+      "opciones": [
+        "Gestión de la seguridad basada en los riesgos (art. 7 Esquema Nacional de Seguridad).",
+        "Principios básicos del Esquema Nacional de Seguridad (art. 5 Esquema Nacional de Seguridad).",
+        "Existencia de líneas de defensa (art. 9 Esquema Nacional de Seguridad).",
+        "Diferenciación de responsabilidades (art. 11 Esquema Nacional de Seguridad)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («El objeto último de la seguridad de la información es garantizar que una organización podrá cumplir sus objetivos, desarrollar sus funciones y ejercer sus competencias utilizando sistemas de información.») define o regula específicamente a «Principios básicos del Esquema Nacional de Seguridad (art. 5 Esquema Nacional de Seguridad)» (Art. 5 de Esquema Nacional de Seguridad).",
+      "referencia": "Art. 5 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "En relación con «La seguridad como un proceso integral (art. 6 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "La seguridad se entiende como un proceso integral constituido por todos los elementos humanos, materiales, técnicos, jurídicos y organizativos relacionados con el sistema de información, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "La seguridad se entiende como un proceso integral constituido por todos los elementos humanos, materiales, técnicos, jurídicos y organizativos relacionados con el sistema de información, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "La seguridad se entiende como un proceso integral constituido por todos los elementos humanos, materiales, técnicos, jurídicos y organizativos relacionados con el sistema de información.",
+        "La seguridad se entiende como un proceso integral constituido por todos los elementos humanos, materiales, técnicos, jurídicos y organizativos relacionados con el sistema de información, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «La seguridad como un proceso integral (art. 6 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), la regulación vigente establece que: La seguridad se entiende como un proceso integral constituido por todos los elementos humanos, materiales, técnicos, jurídicos y organizativos relacionados con el sistema de información.",
+      "referencia": "Art. 6 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Esquema Nacional de Seguridad» (Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «La seguridad se entiende como un proceso integral constituido por todos los elementos humanos, materiales, técnicos, jurídicos y organizativos relacionados con el sistema de información.»?",
+      "opciones": [
+        "La seguridad como un proceso integral (art. 6 Esquema Nacional de Seguridad).",
+        "Prevención, detección, respuesta y conservación (art. 8 Esquema Nacional de Seguridad).",
+        "Vigilancia continua y reevaluación periódica (art. 10 Esquema Nacional de Seguridad).",
+        "Política de seguridad y requisitos mínimos de seguridad (art. 12 Esquema Nacional de Seguridad)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha regulación («La seguridad se entiende como un proceso integral constituido por todos los elementos humanos, materiales, técnicos, jurídicos y organizativos relacionados con el sistema de información.») define o regula específicamente a «La seguridad como un proceso integral (art. 6 Esquema Nacional de Seguridad)» (Art. 6 de Esquema Nacional de Seguridad).",
+      "referencia": "Art. 6 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "En relación con «Gestión de la seguridad basada en los riesgos (art. 7 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "El análisis y la gestión de los riesgos es parte esencial del proceso de seguridad, debiendo constituir una actividad continua y permanentemente actualizada, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "El análisis y la gestión de los riesgos es parte esencial del proceso de seguridad, debiendo constituir una actividad continua y permanentemente actualizada.",
+        "El análisis y la gestión de los riesgos es parte esencial del proceso de seguridad, debiendo constituir una actividad continua y permanentemente actualizada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "El análisis y la gestión de los riesgos es parte esencial del proceso de seguridad, debiendo constituir una actividad continua y permanentemente actualizada, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Gestión de la seguridad basada en los riesgos (art. 7 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), la regulación vigente establece que: El análisis y la gestión de los riesgos es parte esencial del proceso de seguridad, debiendo constituir una actividad continua y permanentemente actualizada.",
+      "referencia": "Art. 7 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Esquema Nacional de Seguridad» (Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «El análisis y la gestión de los riesgos es parte esencial del proceso de seguridad, debiendo constituir una actividad continua y permanentemente actualizada.»?",
+      "opciones": [
+        "Existencia de líneas de defensa (art. 9 Esquema Nacional de Seguridad).",
+        "Diferenciación de responsabilidades (art. 11 Esquema Nacional de Seguridad).",
+        "Gestión de la seguridad basada en los riesgos (art. 7 Esquema Nacional de Seguridad).",
+        "Organización e implantación del proceso de seguridad (art. 13 Esquema Nacional de Seguridad)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha regulación («El análisis y la gestión de los riesgos es parte esencial del proceso de seguridad, debiendo constituir una actividad continua y permanentemente actualizada.») define o regula específicamente a «Gestión de la seguridad basada en los riesgos (art. 7 Esquema Nacional de Seguridad)» (Art. 7 de Esquema Nacional de Seguridad).",
+      "referencia": "Art. 7 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "En relación con «Prevención, detección, respuesta y conservación (art. 8 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Las medidas de detección irán dirigidas a descubrir la presencia de un ciberincidente.",
+        "Las medidas de detección irán dirigidas a descubrir la presencia de un ciberincidente, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Las medidas de detección irán dirigidas a descubrir la presencia de un ciberincidente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Las medidas de detección irán dirigidas a descubrir la presencia de un ciberincidente, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Prevención, detección, respuesta y conservación (art. 8 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), la regulación vigente establece que: Las medidas de detección irán dirigidas a descubrir la presencia de un ciberincidente.",
+      "referencia": "Art. 8 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Esquema Nacional de Seguridad» (Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Las medidas de detección irán dirigidas a descubrir la presencia de un ciberincidente.»?",
+      "opciones": [
+        "Vigilancia continua y reevaluación periódica (art. 10 Esquema Nacional de Seguridad).",
+        "Prevención, detección, respuesta y conservación (art. 8 Esquema Nacional de Seguridad).",
+        "Política de seguridad y requisitos mínimos de seguridad (art. 12 Esquema Nacional de Seguridad).",
+        "Análisis y gestión de los riesgos (art. 14 Esquema Nacional de Seguridad)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («Las medidas de detección irán dirigidas a descubrir la presencia de un ciberincidente.») define o regula específicamente a «Prevención, detección, respuesta y conservación (art. 8 Esquema Nacional de Seguridad)» (Art. 8 de Esquema Nacional de Seguridad).",
+      "referencia": "Art. 8 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "En relación con «Existencia de líneas de defensa (art. 9 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Las líneas de defensa han de estar constituidas por medidas de naturaleza organizativa, física y lógica, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Las líneas de defensa han de estar constituidas por medidas de naturaleza organizativa, física y lógica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Las líneas de defensa han de estar constituidas por medidas de naturaleza organizativa, física y lógica.",
+        "Las líneas de defensa han de estar constituidas por medidas de naturaleza organizativa, física y lógica, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Existencia de líneas de defensa (art. 9 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), la regulación vigente establece que: Las líneas de defensa han de estar constituidas por medidas de naturaleza organizativa, física y lógica.",
+      "referencia": "Art. 9 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Esquema Nacional de Seguridad» (Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Las líneas de defensa han de estar constituidas por medidas de naturaleza organizativa, física y lógica.»?",
+      "opciones": [
+        "Existencia de líneas de defensa (art. 9 Esquema Nacional de Seguridad).",
+        "Diferenciación de responsabilidades (art. 11 Esquema Nacional de Seguridad).",
+        "Organización e implantación del proceso de seguridad (art. 13 Esquema Nacional de Seguridad).",
+        "Profesionalidad (art. 16 Esquema Nacional de Seguridad)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha regulación («Las líneas de defensa han de estar constituidas por medidas de naturaleza organizativa, física y lógica.») define o regula específicamente a «Existencia de líneas de defensa (art. 9 Esquema Nacional de Seguridad)» (Art. 9 de Esquema Nacional de Seguridad).",
+      "referencia": "Art. 9 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "En relación con «Vigilancia continua y reevaluación periódica (art. 10 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "La vigilancia continua permitirá la detección de actividades o comportamientos anómalos y su oportuna respuesta, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "La vigilancia continua permitirá la detección de actividades o comportamientos anómalos y su oportuna respuesta.",
+        "La vigilancia continua permitirá la detección de actividades o comportamientos anómalos y su oportuna respuesta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "La vigilancia continua permitirá la detección de actividades o comportamientos anómalos y su oportuna respuesta, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Vigilancia continua y reevaluación periódica (art. 10 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), la regulación vigente establece que: La vigilancia continua permitirá la detección de actividades o comportamientos anómalos y su oportuna respuesta.",
+      "referencia": "Art. 10 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Esquema Nacional de Seguridad» (Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «La vigilancia continua permitirá la detección de actividades o comportamientos anómalos y su oportuna respuesta.»?",
+      "opciones": [
+        "Política de seguridad y requisitos mínimos de seguridad (art. 12 Esquema Nacional de Seguridad).",
+        "Análisis y gestión de los riesgos (art. 14 Esquema Nacional de Seguridad).",
+        "Vigilancia continua y reevaluación periódica (art. 10 Esquema Nacional de Seguridad).",
+        "Mínimo privilegio (art. 20 Esquema Nacional de Seguridad)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha regulación («La vigilancia continua permitirá la detección de actividades o comportamientos anómalos y su oportuna respuesta.») define o regula específicamente a «Vigilancia continua y reevaluación periódica (art. 10 Esquema Nacional de Seguridad)» (Art. 10 de Esquema Nacional de Seguridad).",
+      "referencia": "Art. 10 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "En relación con «Diferenciación de responsabilidades (art. 11 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "En los sistemas de información se diferenciará el responsable de la información, el responsable del servicio, el responsable de la seguridad y el responsable del sistema.",
+        "En los sistemas de información se diferenciará el responsable de la información, el responsable del servicio, el responsable de la seguridad y el responsable del sistema, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "En los sistemas de información se diferenciará el responsable de la información, el responsable del servicio, el responsable de la seguridad y el responsable del sistema, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "En los sistemas de información se diferenciará el responsable de la información, el responsable del servicio, el responsable de la seguridad y el responsable del sistema, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Diferenciación de responsabilidades (art. 11 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), la regulación vigente establece que: En los sistemas de información se diferenciará el responsable de la información, el responsable del servicio, el responsable de la seguridad y el responsable del sistema.",
+      "referencia": "Art. 11 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Esquema Nacional de Seguridad» (Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «En los sistemas de información se diferenciará el responsable de la información, el responsable del servicio, el responsable de la seguridad y el responsable del sistema.»?",
+      "opciones": [
+        "Organización e implantación del proceso de seguridad (art. 13 Esquema Nacional de Seguridad).",
+        "Diferenciación de responsabilidades (art. 11 Esquema Nacional de Seguridad).",
+        "Profesionalidad (art. 16 Esquema Nacional de Seguridad).",
+        "Integridad y actualización del sistema (art. 21 Esquema Nacional de Seguridad)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («En los sistemas de información se diferenciará el responsable de la información, el responsable del servicio, el responsable de la seguridad y el responsable del sistema.») define o regula específicamente a «Diferenciación de responsabilidades (art. 11 Esquema Nacional de Seguridad)» (Art. 11 de Esquema Nacional de Seguridad).",
+      "referencia": "Art. 11 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "En relación con «Política de seguridad y requisitos mínimos de seguridad (art. 12 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "La política de seguridad de la información es el conjunto de directrices que rigen la forma en que una organización gestiona y protege la información que trata y los servicios que presta, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "La política de seguridad de la información es el conjunto de directrices que rigen la forma en que una organización gestiona y protege la información que trata y los servicios que presta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "La política de seguridad de la información es el conjunto de directrices que rigen la forma en que una organización gestiona y protege la información que trata y los servicios que presta.",
+        "La política de seguridad de la información es el conjunto de directrices que rigen la forma en que una organización gestiona y protege la información que trata y los servicios que presta, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Política de seguridad y requisitos mínimos de seguridad (art. 12 Esquema Nacional de Seguridad)» (Articulado de Esquema Nacional de Seguridad), la regulación vigente establece que: La política de seguridad de la información es el conjunto de directrices que rigen la forma en que una organización gestiona y protege la información que trata y los servicios que presta.",
+      "referencia": "Art. 12 de Esquema Nacional de Seguridad"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Esquema Nacional de Seguridad» (Sistemas Operativos en la Administración: especial referencia a Windows y Guadalinex. Fundamentos y trabajo en el entorno gráfico: escritorio, ventanas y configuración. El explorador de ficheros: gestión de carpetas, archivos, permisos, formatos y operaciones de búsqueda. Herramientas del sistema, mantenimiento y seguridad básica.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «La política de seguridad de la información es el conjunto de directrices que rigen la forma en que una organización gestiona y protege la información que trata y los servicios que presta.»?",
+      "opciones": [
+        "Análisis y gestión de los riesgos (art. 14 Esquema Nacional de Seguridad).",
+        "Mínimo privilegio (art. 20 Esquema Nacional de Seguridad).",
+        "Protección de información almacenada y en tránsito (art. 22 Esquema Nacional de Seguridad).",
+        "Política de seguridad y requisitos mínimos de seguridad (art. 12 Esquema Nacional de Seguridad)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha regulación («La política de seguridad de la información es el conjunto de directrices que rigen la forma en que una organización gestiona y protege la información que trata y los servicios que presta.») define o regula específicamente a «Política de seguridad y requisitos mínimos de seguridad (art. 12 Esquema Nacional de Seguridad)» (Art. 12 de Esquema Nacional de Seguridad).",
+      "referencia": "Art. 12 de Esquema Nacional de Seguridad"
     }
   ]
 }

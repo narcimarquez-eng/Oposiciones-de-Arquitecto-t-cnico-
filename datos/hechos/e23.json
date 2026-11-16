@@ -14,9 +14,9 @@
   {
     "pregunta": "¿Hasta qué porcentaje puede reducirse la contribución renovable mínima de ACS cuando la demanda es inferior a 5.000 l/d?",
     "opciones": [
-      "Al 10 %",
-      "Al 90 %",
-      "Al 0 %",
+      "Al 60 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Al 60 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Al 60 %, computándose los plazos en días naturales y con sentido desestimatorio",
       "Al 60 %"
     ],
     "correcta": 3,
@@ -26,10 +26,10 @@
   {
     "pregunta": "¿A partir de qué superficie construida se exige la generación eléctrica renovable del HE 5 en edificios nuevos?",
     "opciones": [
-      "Más de 50 m²",
+      "Más de 1.000 m² construidos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Más de 1.000 m² construidos",
-      "Más de 100.000 m²",
-      "Siempre"
+      "Más de 1.000 m² construidos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Más de 1.000 m² construidos, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El HE 5 se aplica a edificios de nueva construcción que superen los 1.000 m² construidos.",
@@ -39,9 +39,9 @@
     "pregunta": "¿Cuántas estaciones de recarga de vehículo eléctrico exige el HE 6 en aparcamientos de uso distinto al residencial privado?",
     "opciones": [
       "Una por cada 40 plazas o fracción",
-      "Una por cada 1.000 plazas",
-      "Una por plaza",
-      "Ninguna"
+      "Una por cada 40 plazas o fracción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Una por cada 40 plazas o fracción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Una por cada 40 plazas o fracción, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Se instalará una estación de recarga por cada 40 plazas de aparcamiento, o fracción.",
@@ -62,9 +62,9 @@
   {
     "pregunta": "¿Qué condición deben cumplir las condensaciones intersticiales en la envolvente térmica?",
     "opciones": [
-      "Ninguna",
-      "Deben ser visibles",
-      "Deben evitarse con calefacción eléctrica",
+      "No producir una merma significativa de sus prestaciones térmicas ni riesgo de degradación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "No producir una merma significativa de sus prestaciones térmicas ni riesgo de degradación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "No producir una merma significativa de sus prestaciones térmicas ni riesgo de degradación, computándose los plazos en días naturales y con sentido desestimatorio",
       "No producir una merma significativa de sus prestaciones térmicas ni riesgo de degradación"
     ],
     "correcta": 3,
@@ -74,9 +74,9 @@
   {
     "pregunta": "¿Qué propiedad de la envolvente regula el DB-HE 1 además de la transmitancia?",
     "opciones": [
-      "La resistencia al fuego",
-      "La resistencia a compresión",
-      "El color",
+      "La permeabilidad al aire, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La permeabilidad al aire, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La permeabilidad al aire, computándose los plazos en días naturales y con sentido desestimatorio",
       "La permeabilidad al aire"
     ],
     "correcta": 3,
@@ -86,10 +86,10 @@
   {
     "pregunta": "¿Qué validez máxima tiene el certificado de eficiencia energética?",
     "opciones": [
-      "Un año",
-      "Veinte años",
+      "Diez años, salvo calificación G, que es de cinco años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Diez años, salvo calificación G, que es de cinco años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Diez años, salvo calificación G, que es de cinco años",
-      "Indefinida"
+      "Diez años, salvo calificación G, que es de cinco años, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El certificado tiene una validez máxima de diez años, cinco si la calificación es G.",

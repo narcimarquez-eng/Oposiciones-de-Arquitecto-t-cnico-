@@ -14,9 +14,9 @@
   {
     "pregunta": "¿Qué instrucciones quedaron derogadas con la aprobación del Código Estructural?",
     "opciones": [
-      "El CTE completo",
-      "El RITE",
-      "El REBT",
+      "La EHE-08 y la EAE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La EHE-08 y la EAE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La EHE-08 y la EAE, computándose los plazos en días naturales y con sentido desestimatorio",
       "La EHE-08 y la EAE"
     ],
     "correcta": 3,
@@ -26,10 +26,10 @@
   {
     "pregunta": "¿Qué sobrecarga de uso uniforme corresponde a viviendas (categoría A1)?",
     "opciones": [
-      "5 kN/m²",
-      "0,5 kN/m²",
+      "2 kN/m², previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "2 kN/m², salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "2 kN/m²",
-      "10 kN/m²"
+      "2 kN/m², computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La tabla 3.1 del DB-SE-AE asigna 2 kN/m² a viviendas y zonas de habitaciones (A1).",
@@ -50,10 +50,10 @@
   {
     "pregunta": "¿Cuándo puede asimilarse el peso de los tabiques ordinarios a una carga uniforme?",
     "opciones": [
-      "Siempre",
-      "Nunca",
+      "Cuando su peso no supera 1,2 kN/m² y su distribución es sensiblemente homogénea, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Cuando su peso no supera 1,2 kN/m² y su distribución es sensiblemente homogénea, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Cuando su peso no supera 1,2 kN/m² y su distribución es sensiblemente homogénea",
-      "Cuando son de hormigón armado"
+      "Cuando su peso no supera 1,2 kN/m² y su distribución es sensiblemente homogénea, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Los tabiques de peso no superior a 1,2 kN/m² y distribución homogénea pueden asimilarse a una carga uniforme.",
@@ -74,10 +74,10 @@
   {
     "pregunta": "¿Qué índice de fiabilidad mínimo exige el Código Estructural para un período de referencia de 50 años?",
     "opciones": [
-      "1,0",
+      "3,8, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "3,8",
-      "10",
-      "0,5"
+      "3,8, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "3,8, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El índice de fiabilidad para un período de referencia de 50 años no deberá ser inferior a 3,8.",
@@ -110,10 +110,10 @@
   {
     "pregunta": "¿Qué aditivo se utiliza para retrasar el fraguado del hormigón?",
     "opciones": [
-      "Un acelerante",
+      "Un retardador de fraguado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Un retardador de fraguado",
-      "Un aireante",
-      "Un desencofrante"
+      "Un retardador de fraguado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Un retardador de fraguado, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Los retardadores prolongan el tiempo de fraguado, útil en tiempo caluroso o transportes largos.",
@@ -147,9 +147,9 @@
     "pregunta": "Dentro de la materia «Estructuras de hormigón en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Control de calidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se ensayan al menos dos a 28 días, y su media es la base para comprobar la resistencia.»?",
     "opciones": [
       "Cada determinación debe tener el número mínimo suficiente de probetas.",
-      "Y el control de calidad que.",
-      "El primero.",
-      "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)."
+      "Cada determinación debe tener el número mínimo suficiente de probetas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Cada determinación debe tener el número mínimo suficiente de probetas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Cada determinación debe tener el número mínimo suficiente de probetas, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Dicha determinación («Se ensayan al menos dos a 28 días, y su media es la base para comprobar la resistencia.») define o regula específicamente a «Cada determinación debe tener el número mínimo suficiente de probetas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -230,9 +230,9 @@
   {
     "pregunta": "Dentro de la materia «Estructuras de hormigón en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Durabilidad y clases de exposición), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Por ejemplo, las superficies verticales de fachadas y pilares expuestas a lluvia y helada corresponden a la clase XF1 (tabla 27.1.a, grupo 5).»?",
     "opciones": [
-      "Cada determinación debe tener el número mínimo suficiente de probetas.",
-      "Y el control de calidad que.",
-      "El primero.",
+      "La tabla de la clase de exposición identifica ejemplos de elementos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La tabla de la clase de exposición identifica ejemplos de elementos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La tabla de la clase de exposición identifica ejemplos de elementos, computándose los plazos en días naturales y con sentido desestimatorio",
       "La tabla de la clase de exposición identifica ejemplos de elementos."
     ],
     "correcta": 3,
@@ -254,10 +254,10 @@
   {
     "pregunta": "Dentro de la materia «Estructuras de hormigón en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Condiciones de los materiales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son barras rectas o rollos de acero corrugado o grafilado, o alambres corrugados.»?",
     "opciones": [
-      "El mantenimiento es preventivo.",
+      "Las armaduras pasivas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Las armaduras pasivas.",
-      "La pregunta más importante es la norma vigente.",
-      "El segundo."
+      "Las armaduras pasivas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Las armaduras pasivas, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Son barras rectas o rollos de acero corrugado o grafilado, o alambres corrugados.») define o regula específicamente a «Las armaduras pasivas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -278,9 +278,9 @@
   {
     "pregunta": "Dentro de la materia «Estructuras de hormigón en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Procesos de ejecución: armado, hormigonado y curado), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Durante el fraguado y el primer período de endurecimiento debe mantenerse la humedad del hormigón, prolongándose el plazo según el tipo y la clase del cemento y la temperatura y humedad del ambiente (art. 52.5).»?",
     "opciones": [
-      "Los factores que influyen en el precio.",
-      "Las clases de exposición se memorizan por grupos.",
-      "El tercero.",
+      "El curado es la fase que más se olvida, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El curado es la fase que más se olvida, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El curado es la fase que más se olvida, computándose los plazos en días naturales y con sentido desestimatorio",
       "El curado es la fase que más se olvida."
     ],
     "correcta": 3,
@@ -302,10 +302,10 @@
   {
     "pregunta": "Dentro de la materia «Estructuras de hormigón en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Uso, conservación y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Evita o retrasa problemas que, de lo contrario, serían más difíciles de resolver.»?",
     "opciones": [
-      "La pregunta más importante es la norma vigente.",
+      "El mantenimiento es preventivo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "El mantenimiento es preventivo.",
-      "El segundo.",
-      "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      "El mantenimiento es preventivo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El mantenimiento es preventivo, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Evita o retrasa problemas que, de lo contrario, serían más difíciles de resolver.») define o regula específicamente a «El mantenimiento es preventivo» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -326,9 +326,9 @@
   {
     "pregunta": "Dentro de la materia «Estructuras de hormigón en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Criterios de medición y factores del precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son la clase de exposición, porque una clase más agresiva exige más cemento y una relación agua/cemento más baja.»?",
     "opciones": [
-      "Las clases de exposición se memorizan por grupos.",
-      "El tercero.",
-      "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+      "Los factores que influyen en el precio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Los factores que influyen en el precio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Los factores que influyen en el precio, computándose los plazos en días naturales y con sentido desestimatorio",
       "Los factores que influyen en el precio."
     ],
     "correcta": 3,
@@ -350,10 +350,10 @@
   {
     "pregunta": "Dentro de la materia «Estructuras de hormigón en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Criterios de medición y factores del precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige el plan de control del Código Estructural.»?",
     "opciones": [
-      "El primero.",
+      "Y el control de calidad que, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Y el control de calidad que.",
-      "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
-      "Condiciones del proyecto (art. 6 Código Técnico de la Edificación)."
+      "Y el control de calidad que, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Y el control de calidad que, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Exige el plan de control del Código Estructural.») define o regula específicamente a «y el control de calidad que» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",

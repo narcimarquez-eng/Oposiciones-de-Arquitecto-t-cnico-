@@ -94,9 +94,9 @@
       "pregunta": "Según la LOE, art. 17.1.a, ¿qué plazo de responsabilidad se aplica a los daños por vicios que afectan a la cimentación, los soportes, las vigas, los forjados o los muros de carga y comprometen la estabilidad?",
       "opciones": [
         "Diez años",
-        "Quince años",
-        "Un año",
-        "Tres años"
+        "Diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Diez años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los daños que comprometen la resistencia mecánica y la estabilidad de esos elementos tienen un plazo de responsabilidad de diez años (LOE, art. 17.1.a).",
@@ -105,10 +105,10 @@
     {
       "pregunta": "Según la LOE, art. 17.1.b, ¿qué plazo de responsabilidad corresponde a los defectos de elementos o instalaciones que incumplan los requisitos de habitabilidad?",
       "opciones": [
-        "Diez años",
-        "Cinco años",
+        "dos años improrrogables",
+        "dos años desde la notificación de la resolución prorrogables por un año adicional",
         "Tres años",
-        "Un año"
+        "un año prorrogable hasta un máximo de dieciocho meses"
       ],
       "correcta": 2,
       "explicacion": "Los defectos que incumplen los requisitos de habitabilidad tienen un plazo de tres años (LOE, art. 17.1.b).",
@@ -117,9 +117,9 @@
     {
       "pregunta": "Según el CTE, art. 13.1, ¿cuál de los siguientes NO es un origen del agua que puede llegar al interior de los edificios?",
       "opciones": [
-        "Las condensaciones",
-        "Las precipitaciones atmosféricas",
-        "Las escorrentías",
+        "La radiación solar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La radiación solar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La radiación solar, computándose los plazos en días naturales y con sentido desestimatorio",
         "La radiación solar"
       ],
       "correcta": 3,
@@ -142,9 +142,9 @@
       "pregunta": "Según el DB-SE-M, apartado 3.2.1.2, ¿qué clase de uso corresponde al elemento de madera al exterior y no protegido de la intemperie?",
       "opciones": [
         "Clase de uso 3.2",
-        "Clase de uso 1",
-        "Clase de uso 2",
-        "Clase de uso 3.1"
+        "Clase de uso 3.2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Clase de uso 3.2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Clase de uso 3.2, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La clase de uso 3.2 corresponde al elemento al exterior no protegido de la intemperie; la 3.1 corresponde al exterior protegido.",
@@ -213,10 +213,10 @@
     {
       "pregunta": "¿Qué es un daño en un edificio?",
       "opciones": [
-        "Un color diferente",
+        "La pérdida de prestaciones de un elemento durante la vida del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La pérdida de prestaciones de un elemento durante la vida del edificio",
-        "Una ventana nueva",
-        "Una visita de inspección"
+        "La pérdida de prestaciones de un elemento durante la vida del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La pérdida de prestaciones de un elemento durante la vida del edificio, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El daño es la pérdida de prestaciones de un elemento durante la vida del edificio.",
@@ -226,9 +226,9 @@
       "pregunta": "¿Qué es un defecto en la edificación?",
       "opciones": [
         "La causa que produce el daño, en proyecto, ejecución, materiales o uso",
-        "Un adorno",
-        "Un premio",
-        "Un contrato"
+        "La causa que produce el daño, en proyecto, ejecución, materiales o uso, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La causa que produce el daño, en proyecto, ejecución, materiales o uso, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La causa que produce el daño, en proyecto, ejecución, materiales o uso, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El defecto es la causa que produce el daño.",
@@ -237,10 +237,10 @@
     {
       "pregunta": "¿Qué estudia la patología de la edificación?",
       "opciones": [
-        "Solo los colores",
+        "El daño y su causa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El daño y su causa",
-        "Solo los precios",
-        "Solo las fiestas"
+        "El daño y su causa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El daño y su causa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La patología estudia el daño y su causa.",
@@ -249,9 +249,9 @@
     {
       "pregunta": "¿Cuántos orígenes del agua identifica el CTE en las humedades?",
       "opciones": [
-        "Uno",
-        "Dos",
-        "Diez",
+        "Cuatro: precipitaciones, escorrentías, terreno y condensaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cuatro: precipitaciones, escorrentías, terreno y condensaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cuatro: precipitaciones, escorrentías, terreno y condensaciones, computándose los plazos en días naturales y con sentido desestimatorio",
         "Cuatro: precipitaciones, escorrentías, terreno y condensaciones"
       ],
       "correcta": 3,
@@ -262,9 +262,9 @@
       "pregunta": "¿Qué efecto tiene la humedad sobre los metales ocultos?",
       "opciones": [
         "Corrosión",
-        "Brillo",
-        "Calor",
-        "Nada"
+        "Corrosión, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Corrosión, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Corrosión, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La humedad puede provocar corrosión de metales ocultos.",
@@ -273,10 +273,10 @@
     {
       "pregunta": "¿Qué provoca el moho en un edificio?",
       "opciones": [
-        "Mejor aislamiento",
+        "Efectos de humedad y deterioro, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Efectos de humedad y deterioro",
-        "Más luz",
-        "Nada"
+        "Efectos de humedad y deterioro, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Efectos de humedad y deterioro, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El moho es un efecto de la humedad.",
@@ -285,10 +285,10 @@
     {
       "pregunta": "¿Qué hongos provocan la pudrición de la madera?",
       "opciones": [
-        "Hongos de la pared",
-        "Hongos de la pintura",
+        "Hongos de pudrición, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Hongos de pudrición, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Hongos de pudrición",
-        "Ninguno"
+        "Hongos de pudrición, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "En la madera la humedad provoca hongos de pudrición.",
@@ -297,9 +297,9 @@
     {
       "pregunta": "¿Qué es la condensación en una vivienda?",
       "opciones": [
-        "Un tipo de tejado",
-        "Un tipo de ventana",
-        "Una tubería",
+        "Una causa de humedad que se limita con el cálculo de la sección HE 1 y con ventilación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una causa de humedad que se limita con el cálculo de la sección HE 1 y con ventilación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una causa de humedad que se limita con el cálculo de la sección HE 1 y con ventilación, computándose los plazos en días naturales y con sentido desestimatorio",
         "Una causa de humedad que se limita con el cálculo de la sección HE 1 y con ventilación"
       ],
       "correcta": 3,
@@ -310,9 +310,9 @@
       "pregunta": "¿Qué sucede si se pone un revestimiento impermeable frente a una condensación?",
       "opciones": [
         "No resuelve el problema y puede empeorarlo",
-        "Lo resuelve siempre",
-        "Desaparece la humedad",
-        "Nada"
+        "No resuelve el problema y puede empeorarlo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No resuelve el problema y puede empeorarlo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No resuelve el problema y puede empeorarlo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Un revestimiento impermeable no resuelve una condensación y puede empeorarla.",
@@ -321,10 +321,10 @@
     {
       "pregunta": "¿Qué causa de fisura se relaciona con el movimiento de la cimentación?",
       "opciones": [
-        "Las de color",
+        "Las fisuras de asiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Las fisuras de asiento",
-        "Las de sonido",
-        "Ninguna"
+        "Las fisuras de asiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las fisuras de asiento, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las fisuras de asiento se relacionan con el movimiento de la cimentación.",
@@ -333,10 +333,10 @@
     {
       "pregunta": "¿Qué tipo de fisura se previene con juntas de movimiento?",
       "opciones": [
-        "Las de pintura",
-        "Las de moda",
+        "Las térmicas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las térmicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Las térmicas",
-        "Ninguna"
+        "Las térmicas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las juntas de movimiento previenen la fisuración térmica.",
@@ -345,9 +345,9 @@
     {
       "pregunta": "¿Qué causa las fisuras por corrosión de armaduras?",
       "opciones": [
-        "La lluvia de verano",
-        "El viento",
-        "La luz",
+        "La corrosión de las armaduras del hormigón, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La corrosión de las armaduras del hormigón, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La corrosión de las armaduras del hormigón, computándose los plazos en días naturales y con sentido desestimatorio",
         "La corrosión de las armaduras del hormigón"
       ],
       "correcta": 3,
@@ -358,9 +358,9 @@
       "pregunta": "¿Qué dato no basta para diagnosticar una fisura?",
       "opciones": [
         "Solo su anchura",
-        "Su evolución",
-        "Su activa o pasiva",
-        "Su tiempo de aparición"
+        "Solo su anchura, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Solo su anchura, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Solo su anchura, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La anchura es orientativa: una fisura estrecha puede ser estructural y una ancha puede ser superficial.",
@@ -369,10 +369,10 @@
     {
       "pregunta": "¿Qué tipo de tratamiento requieren las fisuras de asiento?",
       "opciones": [
-        "Pintarlas",
+        "Corregir la cimentación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Corregir la cimentación",
-        "Taparlas con papel",
-        "Nada"
+        "Corregir la cimentación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Corregir la cimentación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las fisuras de asiento requieren corregir la cimentación.",
@@ -381,10 +381,10 @@
     {
       "pregunta": "¿Qué tratamiento corresponde a las fisuras de retracción del hormigón?",
       "opciones": [
-        "Pintura de cal",
-        "Papel pintado",
+        "Sellado elástico en juntas de movimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sellado elástico en juntas de movimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Sellado elástico en juntas de movimiento",
-        "Ninguno"
+        "Sellado elástico en juntas de movimiento, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las fisuras térmicas y de retracción se tratan con sellado elástico en juntas.",
@@ -393,9 +393,9 @@
     {
       "pregunta": "¿Qué agentes bióticos atacan la madera?",
       "opciones": [
-        "Hormigón y acero",
-        "Vidrio y plástico",
-        "Piedra y yeso",
+        "Hongos e insectos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Hongos e insectos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Hongos e insectos, computándose los plazos en días naturales y con sentido desestimatorio",
         "Hongos e insectos"
       ],
       "correcta": 3,
@@ -406,9 +406,9 @@
       "pregunta": "¿Qué agentes abióticos dañan la madera?",
       "opciones": [
         "Humedad, variaciones dimensionales, intemperie y radiación",
-        "Insectos",
-        "Hongos",
-        "Pájaros"
+        "Humedad, variaciones dimensionales, intemperie y radiación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Humedad, variaciones dimensionales, intemperie y radiación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Humedad, variaciones dimensionales, intemperie y radiación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los agentes abióticos son la humedad, las variaciones dimensionales, la intemperie y la radiación.",
@@ -417,10 +417,10 @@
     {
       "pregunta": "¿Qué clase de uso de la madera corresponde a la madera a cubierto y no expuesta a la humedad?",
       "opciones": [
-        "Clase 3.2",
+        "Clase 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Clase 1",
-        "Clase 4",
-        "Ninguna"
+        "Clase 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Clase 1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La clase 1 corresponde a madera a cubierto y no expuesta a la humedad.",
@@ -429,10 +429,10 @@
     {
       "pregunta": "¿Qué se debe eliminar primero en el tratamiento de una madera dañada?",
       "opciones": [
-        "La pintura",
-        "El barniz",
+        "La causa, que es la humedad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La causa, que es la humedad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La causa, que es la humedad",
-        "Nada"
+        "La causa, que es la humedad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "En el tratamiento se elimina primero la causa, la humedad.",
@@ -441,9 +441,9 @@
     {
       "pregunta": "¿Cuándo se sustituye o refuerza una pieza de madera?",
       "opciones": [
-        "Siempre",
-        "Nunca",
-        "Solo en verano",
+        "Cuando la pérdida de sección es significativa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cuando la pérdida de sección es significativa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cuando la pérdida de sección es significativa, computándose los plazos en días naturales y con sentido desestimatorio",
         "Cuando la pérdida de sección es significativa"
       ],
       "correcta": 3,
@@ -453,10 +453,10 @@
     {
       "pregunta": "¿Quién debe comunicar las anomalías de un edificio?",
       "opciones": [
-        "El vecino de enfrente",
-        "El Defensor del Pueblo",
+        "El propietario y los usuarios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El propietario y los usuarios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El propietario y los usuarios",
-        "Nadie"
+        "El propietario y los usuarios, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El propietario y los usuarios deben comunicar las anomalías.",
@@ -466,9 +466,9 @@
       "pregunta": "¿Dónde se recogen las intervenciones de un edificio?",
       "opciones": [
         "En el plan de mantenimiento y el libro del edificio",
-        "En el buzón",
-        "En la cuenta corriente",
-        "En el tablón"
+        "En el plan de mantenimiento y el libro del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "En el plan de mantenimiento y el libro del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "En el plan de mantenimiento y el libro del edificio, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El plan de mantenimiento y el libro del edificio recogen las intervenciones.",
@@ -477,10 +477,10 @@
     {
       "pregunta": "¿Qué plazo de responsabilidad tiene la LOE por defectos de acabado?",
       "opciones": [
-        "Diez años",
+        "Un año, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Un año",
-        "Tres años",
-        "Cien años"
+        "Un año, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un año, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los defectos de acabado tienen un año de responsabilidad.",
@@ -489,10 +489,10 @@
     {
       "pregunta": "¿Qué sistema de protección de la madera se considera suficiente con durabilidad natural?",
       "opciones": [
-        "Ninguno",
-        "Solo el pintado",
+        "La madera con durabilidad natural suficiente puede prescindir del tratamiento protector, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La madera con durabilidad natural suficiente puede prescindir del tratamiento protector, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La madera con durabilidad natural suficiente puede prescindir del tratamiento protector",
-        "Solo el barnizado"
+        "La madera con durabilidad natural suficiente puede prescindir del tratamiento protector, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La madera con durabilidad natural suficiente puede sustituir al tratamiento protector.",
@@ -526,9 +526,9 @@
       "pregunta": "¿Qué causa fisuras en diagonal en muros por asientos diferenciales?",
       "opciones": [
         "Asientos diferenciales de la cimentación",
-        "Exceso de pintura",
-        "Ruido de las instalaciones",
-        "Exceso de luz natural"
+        "Asientos diferenciales de la cimentación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Asientos diferenciales de la cimentación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Asientos diferenciales de la cimentación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los asientos diferenciales provocan fisuras inclinadas en los muros.",
@@ -537,10 +537,10 @@
     {
       "pregunta": "¿Qué manchas blancas aparecen en fachadas por sales que migran a la superficie?",
       "opciones": [
-        "Hongos negros",
+        "Eflorescencias, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Eflorescencias",
-        "Grietas de retracción",
-        "Óxido de hierro"
+        "Eflorescencias, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Eflorescencias, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las eflorescencias son depósitos salinos que aparecen en la superficie.",
@@ -561,9 +561,9 @@
     {
       "pregunta": "¿Qué fisuras aparecen en hormigón fresco por evaporación rápida del agua?",
       "opciones": [
-        "Fisuras de dilatación térmica",
-        "Fisuras de asiento de cimentación",
-        "Fisuras de fuego",
+        "Fisuras de retracción plástica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Fisuras de retracción plástica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Fisuras de retracción plástica, computándose los plazos en días naturales y con sentido desestimatorio",
         "Fisuras de retracción plástica"
       ],
       "correcta": 3,
@@ -585,10 +585,10 @@
     {
       "pregunta": "Dentro de la materia «Daños y defectos en los edificios. Las humedades y las fisuras: Tipos, características, causas, efectos, prevención y tratamiento. Patologías de la madera: Tipos, características, causas, efectos, prevención y tratamiento. Otros daños y defectos.» (Daño, defecto y garantías), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «10 años para daños en cimentación, soportes, vigas, forjados y muros de carga que comprometan la estabilidad (art. 17.1.a).»?",
       "opciones": [
-        "Causas de las fisuras.",
+        "Plazos de responsabilidad de la LOE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Plazos de responsabilidad de la LOE.",
-        "El Código Estructural.",
-        "La patología."
+        "Plazos de responsabilidad de la LOE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Plazos de responsabilidad de la LOE, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («10 años para daños en cimentación, soportes, vigas, forjados y muros de carga que comprometan la estabilidad (art. 17.1.a).») define o regula específicamente a «Plazos de responsabilidad de la LOE» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -633,10 +633,10 @@
     {
       "pregunta": "Dentro de la materia «Daños y defectos en los edificios. Las humedades y las fisuras: Tipos, características, causas, efectos, prevención y tratamiento. Patologías de la madera: Tipos, características, causas, efectos, prevención y tratamiento. Otros daños y defectos.» (Efectos, prevención y tratamiento de humedades), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Capas drenantes y filtrantes, barreras y revestimientos de fachada (DB-HS 1, tabla 2.2, codificados como D1 a D5 en el drenaje) y ventilación para la condensación (DB-HS 3, tabla 2.1).»?",
       "opciones": [
-        "Diagnóstico.",
+        "Prevención, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Prevención.",
-        "Tratamiento.",
-        "La Ley de Ordenación de la Edificación."
+        "Prevención, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Prevención, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Capas drenantes y filtrantes, barreras y revestimientos de fachada (DB-HS 1, tabla 2.2, codificados como D1 a D5 en el drenaje) y ventilación para la condensación (DB-HS 3, tabla 2.1).») define o regula específicamente a «Prevención» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -657,9 +657,9 @@
     {
       "pregunta": "Dentro de la materia «Daños y defectos en los edificios. Las humedades y las fisuras: Tipos, características, causas, efectos, prevención y tratamiento. Patologías de la madera: Tipos, características, causas, efectos, prevención y tratamiento. Otros daños y defectos.» (Fisuras: causas y diagnóstico), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Estructurales (sobrecarga o sección insuficiente), de asiento (movimiento de la cimentación), térmicas e higrotérmicas, de retracción del hormigón, por corrosión de armaduras y por defectos de ejecución.»?",
       "opciones": [
-        "El Código Estructural.",
-        "La patología.",
-        "La prevención.",
+        "Causas de las fisuras, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Causas de las fisuras, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Causas de las fisuras, computándose los plazos en días naturales y con sentido desestimatorio",
         "Causas de las fisuras."
       ],
       "correcta": 3,
@@ -681,10 +681,10 @@
     {
       "pregunta": "Dentro de la materia «Daños y defectos en los edificios. Las humedades y las fisuras: Tipos, características, causas, efectos, prevención y tratamiento. Patologías de la madera: Tipos, características, causas, efectos, prevención y tratamiento. Otros daños y defectos.» (Fisuras: causas y diagnóstico), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Los asientos excesivos pueden indicar mal estado de las zapatas (DB-SE-C, apartado 4.6.1, punto 3).»?",
       "opciones": [
-        "Clases de uso (DB-SE-M, apartado 3.2.1.2).",
+        "Las fisuras de asiento se relacionan con la cimentación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Las fisuras de asiento se relacionan con la cimentación.",
-        "Distinguir daño y defecto.",
-        "Si el origen."
+        "Las fisuras de asiento se relacionan con la cimentación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las fisuras de asiento se relacionan con la cimentación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Los asientos excesivos pueden indicar mal estado de las zapatas (DB-SE-C, apartado 4.6.1, punto 3).») define o regula específicamente a «Las fisuras de asiento se relacionan con la cimentación» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -705,9 +705,9 @@
     {
       "pregunta": "Dentro de la materia «Daños y defectos en los edificios. Las humedades y las fisuras: Tipos, características, causas, efectos, prevención y tratamiento. Patologías de la madera: Tipos, características, causas, efectos, prevención y tratamiento. Otros daños y defectos.» (Fisuras: causas y diagnóstico), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Activa o pasiva, anchura, evolución y tiempo de aparición.»?",
       "opciones": [
-        "Tratamiento.",
-        "La Ley de Ordenación de la Edificación.",
-        "Una fisura.",
+        "Diagnóstico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Diagnóstico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Diagnóstico, computándose los plazos en días naturales y con sentido desestimatorio",
         "Diagnóstico."
       ],
       "correcta": 3,
@@ -729,10 +729,10 @@
     {
       "pregunta": "Dentro de la materia «Daños y defectos en los edificios. Las humedades y las fisuras: Tipos, características, causas, efectos, prevención y tratamiento. Patologías de la madera: Tipos, características, causas, efectos, prevención y tratamiento. Otros daños y defectos.» (Tratamiento de las fisuras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la durabilidad en el artículo 43 y las clases de exposición en el artículo 27.1.»?",
       "opciones": [
-        "La patología.",
+        "El Código Estructural, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El Código Estructural.",
-        "La prevención.",
-        "Las fisuras se clasifican por su causa."
+        "El Código Estructural, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Código Estructural, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Regula la durabilidad en el artículo 43 y las clases de exposición en el artículo 27.1.») define o regula específicamente a «El Código Estructural» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -753,9 +753,9 @@
     {
       "pregunta": "Dentro de la materia «Daños y defectos en los edificios. Las humedades y las fisuras: Tipos, características, causas, efectos, prevención y tratamiento. Patologías de la madera: Tipos, características, causas, efectos, prevención y tratamiento. Otros daños y defectos.» (Patologías de la madera), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Clase 1, a cubierto y no expuesta a la humedad.»?",
       "opciones": [
-        "Distinguir daño y defecto.",
-        "Si el origen.",
-        "El tiempo de aparición.",
+        "Clases de uso (DB-SE-M, apartado 3.2.1.2), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Clases de uso (DB-SE-M, apartado 3.2.1.2), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Clases de uso (DB-SE-M, apartado 3.2.1.2), computándose los plazos en días naturales y con sentido desestimatorio",
         "Clases de uso (DB-SE-M, apartado 3.2.1.2)."
       ],
       "correcta": 3,
@@ -777,10 +777,10 @@
     {
       "pregunta": "Dentro de la materia «Daños y defectos en los edificios. Las humedades y las fisuras: Tipos, características, causas, efectos, prevención y tratamiento. Patologías de la madera: Tipos, características, causas, efectos, prevención y tratamiento. Otros daños y defectos.» (Prevención y tratamiento de la madera), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Eliminar primero la causa (humedad), luego tratar con producto protector si la sección se conserva, o sustituir o reforzar si la pérdida de sección es significativa.»?",
       "opciones": [
-        "La Ley de Ordenación de la Edificación.",
+        "Tratamiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Tratamiento.",
-        "Una fisura.",
-        "La anchura es un dato orientativo."
+        "Tratamiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Tratamiento, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Eliminar primero la causa (humedad), luego tratar con producto protector si la sección se conserva, o sustituir o reforzar si la pérdida de sección es significativa.») define o regula específicamente a «Tratamiento» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -801,9 +801,9 @@
     {
       "pregunta": "Dentro de la materia «Daños y defectos en los edificios. Las humedades y las fisuras: Tipos, características, causas, efectos, prevención y tratamiento. Patologías de la madera: Tipos, características, causas, efectos, prevención y tratamiento. Otros daños y defectos.» (Daño, defecto y responsabilidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el estudio del daño y de su causa.»?",
       "opciones": [
-        "La prevención.",
-        "Las fisuras se clasifican por su causa.",
-        "Si la fisura.",
+        "La patología, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La patología, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La patología, computándose los plazos en días naturales y con sentido desestimatorio",
         "La patología."
       ],
       "correcta": 3,

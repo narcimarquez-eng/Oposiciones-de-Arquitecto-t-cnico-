@@ -2,9 +2,9 @@
   {
     "pregunta": "¿Cómo se denomina la infraestructura europea de información geográfica?",
     "opciones": [
-      "GALILEO",
-      "COPERNICUS",
-      "SEPA",
+      "INSPIRE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "INSPIRE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "INSPIRE, computándose los plazos en días naturales y con sentido desestimatorio",
       "INSPIRE"
     ],
     "correcta": 3,
@@ -38,10 +38,10 @@
   {
     "pregunta": "¿Qué operación SIG combina dos o más capas para obtener nueva información?",
     "opciones": [
-      "La impresión",
-      "La compresión",
+      "La superposición (overlay), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La superposición (overlay), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "La superposición (overlay)",
-      "El cifrado"
+      "La superposición (overlay), computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La superposición cruza capas para generar una nueva con atributos combinados.",
@@ -75,9 +75,9 @@
     "pregunta": "¿Qué formato vectorial de ESRI es muy usado en los SIG?",
     "opciones": [
       "El shapefile",
-      "El JPEG",
-      "El MP3",
-      "El DOCX"
+      "El shapefile, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El shapefile, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El shapefile, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El shapefile almacena geometrías vectoriales y sus atributos.",
@@ -99,9 +99,9 @@
     "pregunta": "¿Qué servicio web estándar del OGC sirve mapas como imágenes?",
     "opciones": [
       "WMS",
-      "WFS",
-      "FTP",
-      "SMTP"
+      "WMS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "WMS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "WMS, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El Web Map Service sirve mapas en formato imagen.",
@@ -110,9 +110,9 @@
   {
     "pregunta": "¿Qué servicio web estándar del OGC sirve entidades vectoriales con sus atributos?",
     "opciones": [
-      "WMS",
-      "HTTP simple",
-      "POP3",
+      "WFS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "WFS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "WFS, computándose los plazos en días naturales y con sentido desestimatorio",
       "WFS"
     ],
     "correcta": 3,
@@ -122,10 +122,10 @@
   {
     "pregunta": "¿Qué organismo produce la cartografía y estadística oficial de la Junta de Andalucía?",
     "opciones": [
-      "El Instituto Geográfico Nacional exclusivamente",
-      "El INE",
+      "El Instituto de Estadística y Cartografía de Andalucía (IECA), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El Instituto de Estadística y Cartografía de Andalucía (IECA), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "El Instituto de Estadística y Cartografía de Andalucía (IECA)",
-      "El Catastro"
+      "El Instituto de Estadística y Cartografía de Andalucía (IECA), computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El IECA es el organismo de estadística y cartografía de la Junta de Andalucía.",
@@ -243,9 +243,9 @@
     "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Mapas de ruido), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la identificación de los mapas de ruido (art. 14), sus fines y contenido (art. 15) y su revisión (art. 16).»?",
     "opciones": [
       "La Ley 37/2003.",
-      "El segundo.",
-      "Un error frecuente.",
-      "La segunda."
+      "La Ley 37/2003, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La Ley 37/2003, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La Ley 37/2003, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Dicha determinación («Regula la identificación de los mapas de ruido (art. 14), sus fines y contenido (art. 15) y su revisión (art. 16).») define o regula específicamente a «La Ley 37/2003» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
@@ -266,10 +266,10 @@
   {
     "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Mapas de ruido), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son la base para planificar las medidas correctoras y las zonas de servidumbre acústica (art. 10).»?",
     "opciones": [
-      "El tercero.",
-      "Una capa de planeamiento a escala 1.",
+      "Los mapas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Los mapas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Los mapas.",
-      "La tercera."
+      "Los mapas, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Dicha determinación («Son la base para planificar las medidas correctoras y las zonas de servidumbre acústica (art. 10).») define o regula específicamente a «Los mapas» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
@@ -314,10 +314,10 @@
   {
     "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Componentes de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el software, con el módulo de gestión de la base de datos, el de análisis espacial y el de representación cartográfica.»?",
     "opciones": [
-      "Un error frecuente.",
-      "La segunda.",
+      "El segundo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El segundo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "El segundo.",
-      "La séptima, a menudo olvidada, es el mantenimiento."
+      "El segundo, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Dicha determinación («Es el software, con el módulo de gestión de la base de datos, el de análisis espacial y el de representación cartográfica.») define o regula específicamente a «El segundo» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
@@ -339,9 +339,9 @@
     "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Componentes de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los datos, que son el componente más costoso y el que determina la calidad del conjunto.»?",
     "opciones": [
       "El tercero.",
-      "Una capa de planeamiento a escala 1.",
-      "La tercera.",
-      "El análisis espacial."
+      "El tercero, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El tercero, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El tercero, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Dicha determinación («Son los datos, que son el componente más costoso y el que determina la calidad del conjunto.») define o regula específicamente a «El tercero» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",

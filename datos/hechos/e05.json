@@ -14,10 +14,10 @@
   {
     "pregunta": "¿Qué fenómeno inestabiliza las piezas esbeltas sometidas a compresión?",
     "opciones": [
-      "Fraguado",
+      "Pandeo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Pandeo",
-      "Retracción",
-      "Carbonatación"
+      "Pandeo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Pandeo, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El pandeo es la inestabilidad lateral de piezas esbeltas comprimidas.",
@@ -50,10 +50,10 @@
   {
     "pregunta": "¿Qué designación tienen las clases resistentes de coníferas y chopo?",
     "opciones": [
-      "D30 a D70",
-      "GL24h a GL36h",
+      "C14 a C50, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "C14 a C50, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "C14 a C50",
-      "S235 a S460"
+      "C14 a C50, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Para coníferas y chopo las clases resistentes van de C14 a C50.",
@@ -62,10 +62,10 @@
   {
     "pregunta": "¿Qué designación tienen las clases de madera laminada encolada homogénea?",
     "opciones": [
-      "C14 a C50",
-      "D30 a D70",
+      "GL24h, GL28h, GL32h y GL36h, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "GL24h, GL28h, GL32h y GL36h, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "GL24h, GL28h, GL32h y GL36h",
-      "HA-25 a HA-50"
+      "GL24h, GL28h, GL32h y GL36h, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Las clases de madera laminada encolada homogénea son GL24h, GL28h, GL32h y GL36h.",
@@ -75,9 +75,9 @@
     "pregunta": "¿Qué tipo de unión metálica se realiza fundiendo material de aportación?",
     "opciones": [
       "La soldadura",
-      "El atornillado",
-      "El remachado en frío",
-      "El encolado"
+      "La soldadura, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La soldadura, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La soldadura, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "La soldadura une las piezas mediante la fusión de material de aportación.",
@@ -86,9 +86,9 @@
   {
     "pregunta": "¿Qué tornillos se emplean pretensados en uniones resistentes por rozamiento?",
     "opciones": [
-      "Los tornillos ordinarios de madera",
-      "Los clavos",
-      "Los pasadores de plástico",
+      "Los tornillos de alta resistencia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Los tornillos de alta resistencia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Los tornillos de alta resistencia, computándose los plazos en días naturales y con sentido desestimatorio",
       "Los tornillos de alta resistencia"
     ],
     "correcta": 3,
@@ -98,10 +98,10 @@
   {
     "pregunta": "¿Qué protección contra el fuego es habitual en estructuras de acero?",
     "opciones": [
-      "Barniz de madera",
-      "Pintura plástica común",
+      "Pinturas intumescentes o morteros proyectados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Pinturas intumescentes o morteros proyectados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Pinturas intumescentes o morteros proyectados",
-      "Ninguna"
+      "Pinturas intumescentes o morteros proyectados, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Las pinturas intumescentes y los morteros proyectados protegen el acero frente al fuego.",

@@ -2,10 +2,10 @@
   {
     "pregunta": "¿Qué deben recoger las instrucciones del edificio terminado que se entregan al usuario?",
     "opciones": [
-      "El precio de venta",
-      "La lista de vecinos",
+      "Las instrucciones de uso y mantenimiento de conformidad con el CTE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Las instrucciones de uso y mantenimiento de conformidad con el CTE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Las instrucciones de uso y mantenimiento de conformidad con el CTE",
-      "Las facturas del arquitecto"
+      "Las instrucciones de uso y mantenimiento de conformidad con el CTE, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La documentación de la obra ejecutada incluye las instrucciones de uso y mantenimiento del edificio terminado.",
@@ -26,10 +26,10 @@
   {
     "pregunta": "¿Qué deben conservar los propietarios en el Libro del Edificio?",
     "opciones": [
-      "Las facturas del supermercado",
-      "Las actas electorales",
+      "La documentación de la obra ejecutada y las instrucciones de uso y mantenimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La documentación de la obra ejecutada y las instrucciones de uso y mantenimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "La documentación de la obra ejecutada y las instrucciones de uso y mantenimiento",
-      "Nada"
+      "La documentación de la obra ejecutada y las instrucciones de uso y mantenimiento, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El Libro del Edificio reúne la documentación de la obra y las instrucciones de uso y mantenimiento.",
@@ -38,10 +38,10 @@
   {
     "pregunta": "¿Qué deber corresponde a los propietarios según la LOE?",
     "opciones": [
-      "Demoler el edificio a los 50 años",
+      "Conservar en buen estado la edificación mediante un adecuado uso y mantenimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Conservar en buen estado la edificación mediante un adecuado uso y mantenimiento",
-      "Ninguno",
-      "Pagar la licencia cada año"
+      "Conservar en buen estado la edificación mediante un adecuado uso y mantenimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Conservar en buen estado la edificación mediante un adecuado uso y mantenimiento, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Son obligaciones de los propietarios conservar en buen estado la edificación mediante un adecuado uso y mantenimiento.",
@@ -51,9 +51,9 @@
     "pregunta": "¿Qué deber corresponde a los usuarios según la LOE?",
     "opciones": [
       "Utilizar adecuadamente los edificios conforme a las instrucciones de uso y mantenimiento",
-      "Reformar sin licencia",
-      "Ninguno",
-      "Elegir al constructor"
+      "Utilizar adecuadamente los edificios conforme a las instrucciones de uso y mantenimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Utilizar adecuadamente los edificios conforme a las instrucciones de uso y mantenimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Utilizar adecuadamente los edificios conforme a las instrucciones de uso y mantenimiento, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Los usuarios deben utilizar adecuadamente los edificios de acuerdo con las instrucciones de uso y mantenimiento.",
@@ -62,10 +62,10 @@
   {
     "pregunta": "¿Qué documento del CTE establece la obligación de mantener el edificio conforme al plan de mantenimiento?",
     "opciones": [
-      "La LCSP",
+      "La Parte I del CTE, en sus condiciones del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "La Parte I del CTE, en sus condiciones del edificio",
-      "El Código Penal",
-      "El RITE exclusivamente"
+      "La Parte I del CTE, en sus condiciones del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La Parte I del CTE, en sus condiciones del edificio, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El CTE dispone que los edificios se conserven con el plan de mantenimiento recogido en el Libro del Edificio.",
@@ -98,10 +98,10 @@
   {
     "pregunta": "¿Qué tipo de mantenimiento organiza el plan de mantenimiento del Libro del Edificio?",
     "opciones": [
-      "El mantenimiento de urgencia solo",
-      "El mantenimiento decorativo",
+      "El mantenimiento preventivo programado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El mantenimiento preventivo programado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "El mantenimiento preventivo programado",
-      "Ninguno"
+      "El mantenimiento preventivo programado, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El plan de mantenimiento programa las operaciones preventivas periódicas.",
@@ -110,10 +110,10 @@
   {
     "pregunta": "¿Qué documento debe actualizarse con las obras de reforma y mantenimiento realizadas en el edificio?",
     "opciones": [
-      "El Registro Civil",
+      "El Libro del Edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "El Libro del Edificio",
-      "La escritura de constitución de la empresa",
-      "El padrón"
+      "El Libro del Edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El Libro del Edificio, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Las intervenciones posteriores se incorporan al Libro del Edificio.",

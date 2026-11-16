@@ -82,9 +82,9 @@
       "pregunta": "Según el DB-SUA 8, tabla 2.1, ¿qué nivel de protección corresponde a una eficiencia requerida E superior a 0,98?",
       "opciones": [
         "Nivel 1",
-        "Nivel 2",
-        "Nivel 3",
-        "Nivel 4"
+        "Nivel 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Nivel 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Nivel 1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Para E superior a 0,98, el nivel de protección es 1.",
@@ -93,10 +93,10 @@
     {
       "pregunta": "Según el RD 355/2024, art. 11.4, ¿con qué periodicidad se inspeccionan los ascensores de un edificio de uso industrial?",
       "opciones": [
-        "Cada seis años",
-        "Cada diez años",
+        "Cada dos años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cada dos años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Cada dos años",
-        "Cada cuatro años"
+        "Cada dos años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los ascensores instalados en edificios de uso industrial o en lugares de pública concurrencia se inspeccionan cada dos años.",
@@ -105,9 +105,9 @@
     {
       "pregunta": "Según el RD 355/2024, art. 3.1, ¿qué documento debe presentarse con la comunicación de puesta en servicio?",
       "opciones": [
-        "Un plano de la fachada",
-        "Ningún documento",
-        "La factura de la obra",
+        "El certificado de inspección inicial favorable, realizado con no más de tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación de antelación",
+        "El certificado de inspección inicial favorable, realizado con no más de dos meses contados desde la entrada en el registro del órgano competente de antelación",
+        "El certificado de inspección inicial favorable, realizado con no más de un mes improrrogable desde la presentación de la solicitud de antelación",
         "El certificado de inspección inicial favorable, realizado con no más de tres meses de antelación"
       ],
       "correcta": 3,
@@ -117,10 +117,10 @@
     {
       "pregunta": "Según el DB-HE 4, apartado 3.1, ¿qué contribución renovable mínima se exige para el ACS en edificios de demanda inferior a 5.000 l/d?",
       "opciones": [
-        "Un 50 %",
+        "Un 60 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Un 60 %",
-        "Un 100 %",
-        "Un 30 %"
+        "Un 60 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un 60 %, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La contribución mínima del 70 % puede reducirse al 60 % cuando la demanda de ACS sea inferior a 5.000 l/d.",
@@ -130,9 +130,9 @@
       "pregunta": "Según el DB-HE 5, apartado 1, ¿a partir de qué superficie construida se aplica la generación eléctrica renovable en edificios de nueva construcción?",
       "opciones": [
         "Más de 1.000 m²",
-        "Más de 5.000 m²",
-        "Más de 100 m²",
-        "Más de 500 m²"
+        "Más de 1.000 m², previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Más de 1.000 m², salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Más de 1.000 m², computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La sección HE 5 se aplica a los edificios de nueva construcción que superen los 1.000 m² construidos.",
@@ -141,10 +141,10 @@
     {
       "pregunta": "Según el DB-HS 2, apartado 2.1, punto 1, ¿qué debe disponer cada edificio como mínimo para las fracciones con recogida puerta a puerta?",
       "opciones": [
-        "Un incinerador",
-        "Nada",
+        "Un almacén de contenedores de edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un almacén de contenedores de edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Un almacén de contenedores de edificio",
-        "Un vertedero propio"
+        "Un almacén de contenedores de edificio, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Cada edificio debe disponer, como mínimo, de un almacén de contenedores de edificio para las fracciones con recogida puerta a puerta.",
@@ -153,9 +153,9 @@
     {
       "pregunta": "Según el DB-HS 5, apartado 7, punto 4, ¿con qué periodicidad se revisan las bombas de elevación de la red de evacuación?",
       "opciones": [
-        "Cada diez años",
-        "Cada seis meses",
-        "Nunca",
+        "Cada año, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cada año, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cada año, computándose los plazos en días naturales y con sentido desestimatorio",
         "Cada año"
       ],
       "correcta": 3,
@@ -165,10 +165,10 @@
     {
       "pregunta": "Según el DB-SUA 9, apartado 1.1.2, ¿en qué edificios de vivienda se regulan las condiciones de accesibilidad entre plantas?",
       "opciones": [
-        "Solo en los de una planta",
+        "En los que haya que salvar más de dos plantas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "En los que haya que salvar más de dos plantas",
-        "En los de menos de 50 m²",
-        "En ninguno"
+        "En los que haya que salvar más de dos plantas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "En los que haya que salvar más de dos plantas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los edificios de uso residencial vivienda en los que haya que salvar más de dos plantas tienen condiciones de accesibilidad entre plantas.",
@@ -177,10 +177,10 @@
     {
       "pregunta": "Según el RD 1627/1997, anexo IV, apartado 12.b, ¿qué debe tenerse en cuenta para la protección colectiva en trabajos en tejados?",
       "opciones": [
-        "Solo la hora del día",
-        "Solo el color de la cubierta",
+        "La altura, la inclinación o el carácter o estado resbaladizo de la superficie, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La altura, la inclinación o el carácter o estado resbaladizo de la superficie, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La altura, la inclinación o el carácter o estado resbaladizo de la superficie",
-        "Nada"
+        "La altura, la inclinación o el carácter o estado resbaladizo de la superficie, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las medidas de protección colectiva deben adoptarse en atención a la altura, la inclinación o el carácter o estado resbaladizo de la cubierta.",
@@ -190,9 +190,9 @@
       "pregunta": "Según el DB-SUA 4 (alumbrado normal), ¿qué iluminancia mínima se exige en zonas interiores de circulación?",
       "opciones": [
         "100 lux",
-        "500 lux",
-        "20 lux",
-        "50 lux"
+        "100 lux, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "100 lux, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "100 lux, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La iluminancia mínima es de 20 lux en zonas exteriores y de 100 lux en zonas interiores, salvo los aparcamientos interiores, que son de 50 lux.",
@@ -201,10 +201,10 @@
     {
       "pregunta": "¿Qué norma aprueba la ITC AEM 1 sobre ascensores?",
       "opciones": [
-        "El RD 842/2002",
+        "El RD 355/2024, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El RD 355/2024",
-        "El RD 919/2006",
-        "El RD 1627/1997"
+        "El RD 355/2024, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El RD 355/2024, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La ITC AEM 1 de ascensores la aprueba el RD 355/2024, que sustituye al RD 88/2013.",
@@ -214,9 +214,9 @@
       "pregunta": "¿Qué norma sustituye el RD 355/2024 en materia de ascensores?",
       "opciones": [
         "El RD 88/2013",
-        "El RD 842/2002",
-        "El RD 346/2011",
-        "El RD 1027/2007"
+        "El RD 88/2013, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El RD 88/2013, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El RD 88/2013, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El RD 355/2024 sustituye al RD 88/2013.",
@@ -225,10 +225,10 @@
     {
       "pregunta": "¿Qué documento de la puesta en servicio del ascensor debe presentarse?",
       "opciones": [
-        "Un plano de la cocina",
+        "La declaración de conformidad CE o UE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La declaración de conformidad CE o UE",
-        "La factura de la luz",
-        "Un informe del vecino"
+        "La declaración de conformidad CE o UE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La declaración de conformidad CE o UE, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Entre la documentación se exige la declaración CE o UE de conformidad.",
@@ -237,9 +237,9 @@
     {
       "pregunta": "¿Quién realiza el mantenimiento de los ascensores?",
       "opciones": [
-        "El vecino del piso",
-        "El portero",
-        "El alcalde",
+        "Una empresa conservadora, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una empresa conservadora, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una empresa conservadora, computándose los plazos en días naturales y con sentido desestimatorio",
         "Una empresa conservadora"
       ],
       "correcta": 3,
@@ -250,9 +250,9 @@
       "pregunta": "¿Qué norma técnica sirve de base al plan de mantenimiento del ascensor?",
       "opciones": [
         "UNE 58720",
-        "UNE 1",
-        "UNE 2",
-        "UNE 3"
+        "UNE 58720, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "UNE 58720, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "UNE 58720, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El plan de mantenimiento se basa en la norma UNE 58720.",
@@ -261,10 +261,10 @@
     {
       "pregunta": "¿Qué órgano asigna el número de registro al ascensor?",
       "opciones": [
-        "El Defensor del Pueblo",
+        "El órgano competente, con un número RAE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El órgano competente, con un número RAE",
-        "El vecino",
-        "El fabricante privado"
+        "El órgano competente, con un número RAE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El órgano competente, con un número RAE, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Con la comunicación, el órgano competente asigna un número de registro al aparato.",
@@ -273,10 +273,10 @@
     {
       "pregunta": "¿Cuándo se hace la inspección inicial del ascensor?",
       "opciones": [
-        "Después de cinco años de uso",
-        "Nunca",
+        "Antes de la primera puesta en servicio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Antes de la primera puesta en servicio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Antes de la primera puesta en servicio",
-        "Solo al jubilarse el propietario"
+        "Antes de la primera puesta en servicio, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las inspecciones iniciales se hacen antes de la primera puesta en servicio.",
@@ -298,9 +298,9 @@
       "pregunta": "¿Qué documento del CTE regula la accesibilidad en la edificación?",
       "opciones": [
         "El DB-SUA, en particular SUA 9",
-        "El DB-HE 4",
-        "El DB-HS 4",
-        "El DB-SI 1"
+        "El DB-SUA, en particular SUA 9, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DB-SUA, en particular SUA 9, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-SUA, en particular SUA 9, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La accesibilidad se recoge en el DB-SUA, en particular SUA 9.",
@@ -309,10 +309,10 @@
     {
       "pregunta": "¿Qué documento del CTE regula el bombeo de aguas residuales?",
       "opciones": [
-        "El DB-SI 3",
+        "El DB-HS 5, apartado 4.6, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El DB-HS 5, apartado 4.6",
-        "El DB-HE 2",
-        "El DB-SUA 4"
+        "El DB-HS 5, apartado 4.6, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-HS 5, apartado 4.6, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El bombeo de residuales se regula en el DB-HS 5, apartado 4.6.",
@@ -321,10 +321,10 @@
     {
       "pregunta": "¿Qué documento del CTE regula la energía solar térmica para ACS?",
       "opciones": [
-        "El DB-SI 4",
-        "El DB-HR 1",
+        "El DB-HE 4, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DB-HE 4, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El DB-HE 4",
-        "El DB-SUA 6"
+        "El DB-HE 4, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La contribución solar para ACS se regula en el DB-HE 4.",
@@ -333,9 +333,9 @@
     {
       "pregunta": "¿Qué documento del CTE regula la generación eléctrica renovable en edificios nuevos?",
       "opciones": [
-        "El DB-SI 5",
-        "El DB-HS 5",
-        "El DB-SUA 5",
+        "El DB-HE 5, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DB-HE 5, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-HE 5, computándose los plazos en días naturales y con sentido desestimatorio",
         "El DB-HE 5"
       ],
       "correcta": 3,
@@ -346,9 +346,9 @@
       "pregunta": "¿Qué tipo de almacén deben tener los contenedores de un edificio para la recogida puerta a puerta?",
       "opciones": [
         "Un almacén de contenedores del edificio",
-        "Un almacén en el jardín del vecino",
-        "Ningún almacén",
-        "Un camión en la calle"
+        "Un almacén de contenedores del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un almacén de contenedores del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un almacén de contenedores del edificio, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las fracciones con recogida puerta a puerta requieren un almacén de contenedores del edificio.",
@@ -357,10 +357,10 @@
     {
       "pregunta": "¿Cuándo se necesita el bombeo de residuales?",
       "opciones": [
-        "Siempre que llueva",
+        "Cuando no hay desagüe por gravedad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Cuando no hay desagüe por gravedad",
-        "Nunca",
-        "Solo en verano"
+        "Cuando no hay desagüe por gravedad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cuando no hay desagüe por gravedad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El bombeo de residuales se usa cuando no hay desagüe por gravedad.",
@@ -369,10 +369,10 @@
     {
       "pregunta": "¿Quién debe revisar las bombas de elevación de residuales?",
       "opciones": [
-        "El vecino",
-        "El cartero",
+        "Un técnico competente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un técnico competente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Un técnico competente",
-        "Nadie"
+        "Un técnico competente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las bombas de elevación se revisan una vez al año.",
@@ -381,9 +381,9 @@
     {
       "pregunta": "¿Qué regula el DB-SUA 9?",
       "opciones": [
-        "La protección contra el rayo",
-        "La energía solar",
-        "El ruido",
+        "La accesibilidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La accesibilidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La accesibilidad, computándose los plazos en días naturales y con sentido desestimatorio",
         "La accesibilidad"
       ],
       "correcta": 3,
@@ -405,10 +405,10 @@
     {
       "pregunta": "¿Qué norma regula la seguridad de los trabajos en cubierta?",
       "opciones": [
-        "La Ley de Caza",
+        "El RD 1627/1997, anexo IV, apartado 12.b, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El RD 1627/1997, anexo IV, apartado 12.b",
-        "El RD 346/2011",
-        "El RD 842/2002"
+        "El RD 1627/1997, anexo IV, apartado 12.b, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El RD 1627/1997, anexo IV, apartado 12.b, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La seguridad en cubiertas se regula en el RD 1627/1997, anexo IV, apartado 12.b.",
@@ -417,10 +417,10 @@
     {
       "pregunta": "¿Quién debe supervisar una intervención de demolición que pueda suponer peligro?",
       "opciones": [
-        "El conductor de la excavadora",
-        "El vecino",
+        "Una persona competente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una persona competente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Una persona competente",
-        "El proveedor"
+        "Una persona competente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los derribos que puedan suponer peligro deben supervisarse por persona competente.",
@@ -429,9 +429,9 @@
     {
       "pregunta": "¿Qué tipo de edificio está obligado a generación eléctrica renovable en el DB-HE 5?",
       "opciones": [
-        "Los de un solo piso",
-        "Los de madera",
-        "Los de piedra",
+        "Los de nueva construcción de más de 1.000 m² construidos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los de nueva construcción de más de 1.000 m² construidos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los de nueva construcción de más de 1.000 m² construidos, computándose los plazos en días naturales y con sentido desestimatorio",
         "Los de nueva construcción de más de 1.000 m² construidos"
       ],
       "correcta": 3,
@@ -441,10 +441,10 @@
     {
       "pregunta": "¿Cuándo se exige accesibilidad entre plantas en viviendas según el SUA 9?",
       "opciones": [
-        "Solo en las cabañas",
-        "Nunca",
+        "Con más de dos plantas que salvar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Con más de dos plantas que salvar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Con más de dos plantas que salvar",
-        "Solo en los garajes"
+        "Con más de dos plantas que salvar, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La accesibilidad entre plantas se exige con más de dos plantas que salvar.",
@@ -454,9 +454,9 @@
       "pregunta": "¿Qué sección del DB-HE regula la contribución mínima de energía renovable para el agua caliente sanitaria?",
       "opciones": [
         "DB-HE 4",
-        "DB-HE 1",
-        "DB-HE 3",
-        "DB-HS 2"
+        "DB-HE 4, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-HE 4, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-HE 4, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La sección HE 4 regula la contribución mínima de energía renovable para cubrir la demanda de ACS.",
@@ -465,10 +465,10 @@
     {
       "pregunta": "¿Qué sección del DB-HE regula la generación mínima de energía eléctrica procedente de fuentes renovables?",
       "opciones": [
-        "DB-HE 4",
+        "DB-HE 5, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "DB-HE 5",
-        "DB-HE 2",
-        "DB-HS 5"
+        "DB-HE 5, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-HE 5, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La sección HE 5 regula la generación mínima de energía eléctrica de fuentes renovables.",
@@ -477,10 +477,10 @@
     {
       "pregunta": "¿Qué DB del CTE regula la protección frente al rayo?",
       "opciones": [
-        "DB-SUA 1",
-        "DB-SI 1",
+        "DB-SUA 8, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-SUA 8, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "DB-SUA 8",
-        "DB-HR"
+        "DB-SUA 8, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La sección SUA 8 regula la seguridad frente al riesgo causado por la acción del rayo.",
@@ -489,9 +489,9 @@
     {
       "pregunta": "¿Qué DB del CTE regula la protección frente al ruido?",
       "opciones": [
-        "DB-HS 3",
-        "DB-SE",
-        "DB-HE 3",
+        "DB-HR, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-HR, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-HR, computándose los plazos en días naturales y con sentido desestimatorio",
         "DB-HR"
       ],
       "correcta": 3,
@@ -501,9 +501,9 @@
     {
       "pregunta": "¿Qué elemento protege una instalación frente al impacto de rayos?",
       "opciones": [
-        "Contador de agua",
-        "Canalón",
-        "Sifón",
+        "Sistema de pararrayos o protección contra el rayo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sistema de pararrayos o protección contra el rayo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sistema de pararrayos o protección contra el rayo, computándose los plazos en días naturales y con sentido desestimatorio",
         "Sistema de pararrayos o protección contra el rayo"
       ],
       "correcta": 3,
@@ -514,9 +514,9 @@
       "pregunta": "¿Qué DB del CTE regula la protección frente a la humedad?",
       "opciones": [
         "DB-HS 1",
-        "DB-HS 2",
-        "DB-HE 1",
-        "DB-SI 2"
+        "DB-HS 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-HS 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-HS 1, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El DB-HS 1 regula la protección frente a la humedad.",
@@ -525,10 +525,10 @@
     {
       "pregunta": "¿Qué elementos elevadores regula la normativa de accesibilidad y seguridad de los edificios?",
       "opciones": [
-        "Escaleras de mano",
+        "Ascensores, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Ascensores",
-        "Andamios volados",
-        "Grúas torre sin control"
+        "Ascensores, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Ascensores, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los ascensores son los aparatos elevadores de uso habitual en los edificios.",
@@ -537,10 +537,10 @@
     {
       "pregunta": "¿Qué elemento de protección contra incendios se instala en instalaciones de edificios?",
       "opciones": [
-        "Cortina de tela",
-        "Cuadro de mandos del ascensor sin protección",
+        "Sistema de detección de incendios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sistema de detección de incendios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Sistema de detección de incendios",
-        "Bombilla decorativa"
+        "Sistema de detección de incendios, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los detectores de incendio forman parte de los sistemas de protección.",
@@ -549,9 +549,9 @@
     {
       "pregunta": "¿Qué sección del DB-HE establece las condiciones para el control de la demanda energética?",
       "opciones": [
-        "DB-HS 1",
-        "DB-SI 3",
-        "DB-SUA 2",
+        "DB-HE 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "DB-HE 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "DB-HE 1, computándose los plazos en días naturales y con sentido desestimatorio",
         "DB-HE 1"
       ],
       "correcta": 3,
@@ -573,10 +573,10 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Marco normativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «ITC AEM 1 aprobada por el RD 355/2024, que sustituye al RD 88/2013 (disposición derogatoria).»?",
       "opciones": [
-        "Seguridad de trabajos en cubierta.",
+        "Ascensores, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Ascensores.",
-        "Y la energía solar.",
-        "El DB-HS 4."
+        "Ascensores, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Ascensores, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («ITC AEM 1 aprobada por el RD 355/2024, que sustituye al RD 88/2013 (disposición derogatoria).») define o regula específicamente a «Ascensores» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -645,9 +645,9 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Accesibilidad y seguridad de utilización), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b).»?",
       "opciones": [
-        "Y la energía solar.",
-        "El DB-HS 4.",
-        "La tabla 2.1 incluye una nota.",
+        "Seguridad de trabajos en cubierta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Seguridad de trabajos en cubierta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Seguridad de trabajos en cubierta, computándose los plazos en días naturales y con sentido desestimatorio",
         "Seguridad de trabajos en cubierta."
       ],
       "correcta": 3,
@@ -669,10 +669,10 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los aparatos elevadores, como los ascensores, y los equipos de bombeo, que mueven personas o agua por medios mecánicos.»?",
       "opciones": [
-        "El CTE fija las exigencias básicas en tres documentos.",
+        "Las electromecánicas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Las electromecánicas.",
-        "Cuando el antirrobo se.",
-        "El DB-HS 2."
+        "Las electromecánicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las electromecánicas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Son los aparatos elevadores, como los ascensores, y los equipos de bombeo, que mueven personas o agua por medios mecánicos.») define o regula específicamente a «Las electromecánicas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -693,9 +693,9 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el sistema antirrobo y el pararrayos.»?",
       "opciones": [
-        "Las inspecciones son de tres tipos.",
-        "Esa conexión entre dos exigencias.",
-        "El DB-HE 4.",
+        "Las de protección, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las de protección, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las de protección, computándose los plazos en días naturales y con sentido desestimatorio",
         "Las de protección."
       ],
       "correcta": 3,
@@ -717,10 +717,10 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la captación de la radiación para producir agua caliente o electricidad.»?",
       "opciones": [
-        "El DB-HS 4.",
+        "Y la energía solar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Y la energía solar.",
-        "La tabla 2.1 incluye una nota.",
-        "El DB-HE 5."
+        "Y la energía solar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Y la energía solar, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es la captación de la radiación para producir agua caliente o electricidad.») define o regula específicamente a «Y la energía solar» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -741,9 +741,9 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El DB-SUA, para la seguridad de utilización y accesibilidad, que incluye el pararrayos.»?",
       "opciones": [
-        "Cuando el antirrobo se.",
-        "El DB-HS 2.",
-        "La ejecución de los captadores solares.",
+        "El CTE fija las exigencias básicas en tres documentos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El CTE fija las exigencias básicas en tres documentos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El CTE fija las exigencias básicas en tres documentos, computándose los plazos en días naturales y con sentido desestimatorio",
         "El CTE fija las exigencias básicas en tres documentos."
       ],
       "correcta": 3,
@@ -765,10 +765,10 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Aparatos elevadores: ascensores), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Iniciales, antes de la primera puesta en servicio, realizadas por un organismo de control distinto del que evaluó la conformidad y con resultado favorable sin defectos (art. 11.3).»?",
       "opciones": [
-        "Esa conexión entre dos exigencias.",
+        "Las inspecciones son de tres tipos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Las inspecciones son de tres tipos.",
-        "El DB-HE 4.",
-        "El titular de un ascensor."
+        "Las inspecciones son de tres tipos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las inspecciones son de tres tipos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Iniciales, antes de la primera puesta en servicio, realizadas por un organismo de control distinto del que evaluó la conformidad y con resultado favorable sin defectos (art. 11.3).») define o regula específicamente a «Las inspecciones son de tres tipos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -789,9 +789,9 @@
     {
       "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Equipos de bombeo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige que los equipos que requieren operaciones periódicas, como los elementos de medida, control, protección y maniobra, se sitúen en espacios accesibles (apartado 7.3, punto 2).»?",
       "opciones": [
-        "La tabla 2.1 incluye una nota.",
-        "El DB-HE 5.",
-        "Los riesgos de estas instalaciones en obra.",
+        "El DB-HS 4, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El DB-HS 4, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El DB-HS 4, computándose los plazos en días naturales y con sentido desestimatorio",
         "El DB-HS 4."
       ],
       "correcta": 3,

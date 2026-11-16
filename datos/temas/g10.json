@@ -52,10 +52,10 @@
     {
       "pregunta": "En una hoja de cálculo (LibreOffice Calc o Microsoft Excel), si en la celda C2 escribimos la fórmula «=$A1+B$2» y la copiamos o arrastramos una columna a la derecha y una fila hacia abajo (hasta la celda D3), ¿qué fórmula aparecerá exactamente en la celda D3?",
       "opciones": [
-        "=$B2+C$3",
+        "=$A2+C$2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "=$A2+C$2",
-        "=A1+B2",
-        "=$A$1+$B$2"
+        "=$A2+C$2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "=$A2+C$2, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "En `$A1` la columna A es absoluta (`$A`) y la fila 1 es relativa (pasa a 2 al bajar una fila: `$A2`); en `B$2` la columna B es relativa (pasa a C al desplazarse una columna a la derecha) y la fila 2 es absoluta (`$2`), resultando `=$A2+C$2`.",
@@ -148,9 +148,9 @@
     {
       "pregunta": "En una hoja de cálculo, ¿qué resultado numérico exacto devuelve la fórmula «=2+3*4^2/8-1» de acuerdo con el orden de prioridad estándar de los operadores aritméticos?",
       "opciones": [
-        "25",
-        "19 (evaluando de izquierda a derecha sin jerarquía)",
-        "0",
+        "7 (primero la potencia 4^2=16, luego multiplicación y división 3*16/8=6, y finalmente suma y resta 2+6-1=7), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "7 (primero la potencia 4^2=16, luego multiplicación y división 3*16/8=6, y finalmente suma y resta 2+6-1=7), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "7 (primero la potencia 4^2=16, luego multiplicación y división 3*16/8=6, y finalmente suma y resta 2+6-1=7), computándose los plazos en días naturales y con sentido desestimatorio",
         "7 (primero la potencia 4^2=16, luego multiplicación y división 3*16/8=6, y finalmente suma y resta 2+6-1=7)"
       ],
       "correcta": 3,
@@ -184,10 +184,10 @@
     {
       "pregunta": "De acuerdo con la regulación de «Procesadores de texto (LibreOffice Writer / Microsoft Word): edición, formato y estilos», ¿qué se establece respecto a «Formatos de carácter y párrafo»?",
       "opciones": [
-        "1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`)",
-        "1) Operadores aritméticos por orden de prioridad: paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`",
+        "Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas",
-        "Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas"
+        "Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Formatos de carácter y párrafo: Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas.",
@@ -196,10 +196,10 @@
     {
       "pregunta": "De acuerdo con la regulación de «Procesadores de texto (LibreOffice Writer / Microsoft Word): edición, formato y estilos», ¿qué se establece respecto a «Estilos y Plantillas»?",
       "opciones": [
-        "Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas",
+        "Los estilos agrupan un conjunto de atributos de formato bajo un nombre para aplicarlos de forma consistente y permitir la generación automática de Índices o Tablas de Contenido (TOC) a partir de los niveles de esquema, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Los estilos agrupan un conjunto de atributos de formato bajo un nombre para aplicarlos de forma consistente y permitir la generación automática de Índices o Tablas de Contenido (TOC) a partir de los niveles de esquema",
-        "Corrección ortográfica y gramatical (`F7`), sinónimos (`Mayús + F7`), control de cambios, inspección de propiedades/metadatos y exportación directa a formato PDF/A-1b o PDF/A-2b con firma digital para el expediente electrónico",
-        "Herramienta fundamental en la gestión administrativa masiva que integra tres elementos: 1) El documento principal o modelo; 2) El origen o fuente de datos; y 3) El documento combinado resultante"
+        "Los estilos agrupan un conjunto de atributos de formato bajo un nombre para aplicarlos de forma consistente y permitir la generación automática de Índices o Tablas de Contenido (TOC) a partir de los niveles de esquema, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los estilos agrupan un conjunto de atributos de formato bajo un nombre para aplicarlos de forma consistente y permitir la generación automática de Índices o Tablas de Contenido (TOC) a partir de los niveles de esquema, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Estilos y Plantillas: Los estilos agrupan un conjunto de atributos de formato bajo un nombre para aplicarlos de forma consistente y permitir la generación automática de Índices o Tablas de Contenido (TOC) a partir de los niveles de esquema.",
@@ -230,23 +230,11 @@
       "referencia": "DEC-AND-622-2019"
     },
     {
-      "pregunta": "De acuerdo con la regulación de «Estructuración avanzada en procesadores de texto: secciones, tablas y combinación de correspondencia», ¿qué se establece respecto a «Combinación de correspondencia»?",
-      "opciones": [
-        "Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas",
-        "Corrección ortográfica y gramatical (`F7`), sinónimos (`Mayús + F7`), control de cambios, inspección de propiedades/metadatos y exportación directa a formato PDF/A-1b o PDF/A-2b con firma digital para el expediente electrónico",
-        "Los estilos agrupan un conjunto de atributos de formato bajo un nombre para aplicarlos de forma consistente y permitir la generación automática de Índices o Tablas de Contenido (TOC) a partir de los niveles de esquema",
-        "Herramienta fundamental en la gestión administrativa masiva que integra tres elementos: 1) El documento principal o modelo; 2) El origen o fuente de datos; y 3) El documento combinado resultante"
-      ],
-      "correcta": 3,
-      "explicacion": "Combinación de correspondencia: Herramienta fundamental en la gestión administrativa masiva que integra tres elementos: 1) El documento principal o modelo; 2) El origen o fuente de datos; y 3) El documento combinado resultante.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
       "pregunta": "De acuerdo con la regulación de «Estructuración avanzada en procesadores de texto: secciones, tablas y combinación de correspondencia», ¿qué se establece respecto a «Revisión, control de cambios y exportación a PDF/A»?",
       "opciones": [
-        "Los estilos agrupan un conjunto de atributos de formato bajo un nombre para aplicarlos de forma consistente y permitir la generación automática de Índices o Tablas de Contenido (TOC) a partir de los niveles de esquema",
-        "Herramienta fundamental en la gestión administrativa masiva que integra tres elementos: 1) El documento principal o modelo; 2) El origen o fuente de datos; y 3) El documento combinado resultante",
-        "Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas",
+        "Corrección ortográfica y gramatical (`F7`), sinónimos (`Mayús + F7`), control de cambios, inspección de propiedades/metadatos y exportación directa a formato PDF/A-1b o PDF/A-2b con firma digital para el expediente electrónico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Corrección ortográfica y gramatical (`F7`), sinónimos (`Mayús + F7`), control de cambios, inspección de propiedades/metadatos y exportación directa a formato PDF/A-1b o PDF/A-2b con firma digital para el expediente electrónico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Corrección ortográfica y gramatical (`F7`), sinónimos (`Mayús + F7`), control de cambios, inspección de propiedades/metadatos y exportación directa a formato PDF/A-1b o PDF/A-2b con firma digital para el expediente electrónico, computándose los plazos en días naturales y con sentido desestimatorio",
         "Corrección ortográfica y gramatical (`F7`), sinónimos (`Mayús + F7`), control de cambios, inspección de propiedades/metadatos y exportación directa a formato PDF/A-1b o PDF/A-2b con firma digital para el expediente electrónico"
       ],
       "correcta": 3,
@@ -256,9 +244,9 @@
     {
       "pregunta": "De acuerdo con la regulación de «Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias», ¿qué se establece respecto a «Estructura del libro»?",
       "opciones": [
-        "1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`)",
-        "Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas",
-        "1) Operadores aritméticos por orden de prioridad: paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`",
+        "Un archivo de Calc o Excel se denomina «Libro de trabajo» y contiene una o varias «Hojas» organizadas en una cuadrícula de columnas y filas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un archivo de Calc o Excel se denomina «Libro de trabajo» y contiene una o varias «Hojas» organizadas en una cuadrícula de columnas y filas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un archivo de Calc o Excel se denomina «Libro de trabajo» y contiene una o varias «Hojas» organizadas en una cuadrícula de columnas y filas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Un archivo de Calc o Excel se denomina «Libro de trabajo» y contiene una o varias «Hojas» organizadas en una cuadrícula de columnas y filas"
       ],
       "correcta": 3,
@@ -266,48 +254,12 @@
       "referencia": "DEC-AND-622-2019"
     },
     {
-      "pregunta": "De acuerdo con la regulación de «Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias», ¿qué se establece respecto a «Intersección de una columna y una fila»?",
-      "opciones": [
-        "«Celda» (p. ej. `B4`), y un conjunto rectangular de celdas es un «Rango» (denotado con dos puntos, p. ej. `A1:C10`",
-        "Creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión",
-        "Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`",
-        "1) Referencia relativa; 2) Referencia absoluta; 3) Referencia mixta; 4) Referencia externa a otra hoja del mismo libro"
-      ],
-      "correcta": 0,
-      "explicacion": "Intersección de una columna y una fila: «Celda» (p. ej. `B4`), y un conjunto rectangular de celdas es un «Rango» (denotado con dos puntos, p. ej. `A1:C10`.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias», ¿qué se establece respecto a «Tipos de referencias a celdas»?",
-      "opciones": [
-        "Creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión",
-        "«Celda» (p. ej. `B4`), y un conjunto rectangular de celdas es un «Rango» (denotado con dos puntos, p. ej. `A1:C10`",
-        "1) Referencia relativa; 2) Referencia absoluta; 3) Referencia mixta; 4) Referencia externa a otra hoja del mismo libro",
-        "Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`"
-      ],
-      "correcta": 2,
-      "explicacion": "Tipos de referencias a celdas: 1) Referencia relativa; 2) Referencia absoluta; 3) Referencia mixta; 4) Referencia externa a otra hoja del mismo libro.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias», ¿qué se establece respecto a «Operadores y precedencia en fórmulas»?",
-      "opciones": [
-        "Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas",
-        "Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas",
-        "1) Operadores aritméticos por orden de prioridad: paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`",
-        "1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`)"
-      ],
-      "correcta": 2,
-      "explicacion": "Operadores y precedencia en fórmulas: 1) Operadores aritméticos por orden de prioridad: paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
       "pregunta": "De acuerdo con la regulación de «Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias», ¿qué se establece respecto a «Operadores aritméticos por orden de prioridad»?",
       "opciones": [
-        "1) Referencia relativa; 2) Referencia absoluta; 3) Referencia mixta; 4) Referencia externa a otra hoja del mismo libro",
+        "Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`",
-        "Creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión",
-        "«Celda» (p. ej. `B4`), y un conjunto rectangular de celdas es un «Rango» (denotado con dos puntos, p. ej. `A1:C10`"
+        "Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Operadores aritméticos por orden de prioridad: Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`.",
@@ -353,32 +305,20 @@
       "pregunta": "De acuerdo con la regulación de «Funciones esenciales, errores, gráficos y gestión de datos en Calc y Excel», ¿qué se establece respecto a «Gráficos y gestión de datos»?",
       "opciones": [
         "Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas",
-        "Un archivo de Calc o Excel se denomina «Libro de trabajo» y contiene una o varias «Hojas» organizadas en una cuadrícula de columnas y filas",
-        "1) Operadores aritméticos por orden de prioridad: paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`",
-        "1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`)"
+        "Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Gráficos y gestión de datos: Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas.",
       "referencia": "DEC-AND-622-2019"
     },
     {
-      "pregunta": "De acuerdo con la regulación de «Encuadre constitucional, estatutario y sistemático: Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word…», ¿qué se establece respecto a «Procesadores de texto»?",
-      "opciones": [
-        "Creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión",
-        "«Celda» (p. ej. `B4`), y un conjunto rectangular de celdas es un «Rango» (denotado con dos puntos, p. ej. `A1:C10`",
-        "1) Referencia relativa; 2) Referencia absoluta; 3) Referencia mixta; 4) Referencia externa a otra hoja del mismo libro",
-        "Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`"
-      ],
-      "correcta": 0,
-      "explicacion": "Procesadores de texto: Creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
       "pregunta": "De acuerdo con la regulación de «Régimen de especialidades procedimentales, coordinación interadministrativa y supuestos prácticos», ¿qué se establece respecto a «Tal como precisa el articulado oficial, Por jerarquía de operadores»?",
       "opciones": [
-        "Un archivo de Calc o Excel se denomina «Libro de trabajo» y contiene una o varias «Hojas» organizadas en una cuadrícula de columnas y filas",
-        "1) Operadores aritméticos por orden de prioridad: paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`",
-        "Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas",
+        "1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`), computándose los plazos en días naturales y con sentido desestimatorio",
         "1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`)"
       ],
       "correcta": 3,
@@ -446,18 +386,6 @@
       "referencia": "DEC-AND-622-2019"
     },
     {
-      "pregunta": "En materia de «Estructuración avanzada en procesadores de texto: secciones, tablas y combinación de correspondencia», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Herramienta fundamental en la gestión administrativa masiva que integra tres elementos: 1) El documento principal o modelo; 2) El origen o fuente de datos; y 3) El documento combinado resultante»",
-      "opciones": [
-        "Combinación de correspondencia",
-        "Tipos de referencias a celdas",
-        "Códigos de error en Calc y Excel",
-        "Formatos de carácter y párrafo"
-      ],
-      "correcta": 0,
-      "explicacion": "Combinación de correspondencia: Herramienta fundamental en la gestión administrativa masiva que integra tres elementos: 1) El documento principal o modelo; 2) El origen o fuente de datos; y 3) El documento combinado resultante.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
       "pregunta": "En materia de «Estructuración avanzada en procesadores de texto: secciones, tablas y combinación de correspondencia», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Corrección ortográfica y gramatical (`F7`), sinónimos (`Mayús + F7`), control de cambios, inspección de propiedades/metadatos y exportación directa a formato PDF/A-1b o PDF/A-2b con firma digital para el expediente electrónico»",
       "opciones": [
         "Selección rápida de texto con el ratón y teclado",
@@ -482,42 +410,6 @@
       "referencia": "DEC-AND-622-2019"
     },
     {
-      "pregunta": "En materia de «Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: ««Celda» (p. ej. `B4`), y un conjunto rectangular de celdas es un «Rango» (denotado con dos puntos, p. ej. `A1:C10`»",
-      "opciones": [
-        "Saltos de página y Saltos de sección",
-        "Tipos de tabulaciones en la regla",
-        "Intersección de una columna y una fila",
-        "Operadores y precedencia en fórmulas"
-      ],
-      "correcta": 2,
-      "explicacion": "Intersección de una columna y una fila: «Celda» (p. ej. `B4`), y un conjunto rectangular de celdas es un «Rango» (denotado con dos puntos, p. ej. `A1:C10`.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "En materia de «Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «1) Referencia relativa; 2) Referencia absoluta; 3) Referencia mixta; 4) Referencia externa a otra hoja del mismo libro»",
-      "opciones": [
-        "Tipos de referencias a celdas",
-        "Formatos de carácter y párrafo",
-        "Gráficos y gestión de datos",
-        "Combinación de correspondencia"
-      ],
-      "correcta": 0,
-      "explicacion": "Tipos de referencias a celdas: 1) Referencia relativa; 2) Referencia absoluta; 3) Referencia mixta; 4) Referencia externa a otra hoja del mismo libro.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "En materia de «Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «1) Operadores aritméticos por orden de prioridad: paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`»",
-      "opciones": [
-        "Saltos de página y Saltos de sección",
-        "Operadores y precedencia en fórmulas",
-        "Tipos de tabulaciones en la regla",
-        "Intersección de una columna y una fila"
-      ],
-      "correcta": 1,
-      "explicacion": "Operadores y precedencia en fórmulas: 1) Operadores aritméticos por orden de prioridad: paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
       "pregunta": "En materia de «Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`»",
       "opciones": [
         "Selección rápida de texto con el ratón y teclado",
@@ -528,54 +420,6 @@
       "correcta": 1,
       "explicacion": "Operadores aritméticos por orden de prioridad: Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`.",
       "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Procesadores de texto (LibreOffice Writer / Microsoft Word): edición, formato y estilos), ¿qué establece la normativa respecto a «Selección rápida de texto con el ratón y teclado»?",
-      "opciones": [
-        "Operadores aritméticos por orden de prioridad: paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`.",
-        "Doble clic sobre una palabra selecciona la palabra completa.",
-        "`=`, `<>` (distinto), `<`, `>`, `<=`, `>=`.",
-        "Es absoluta (`$A`) y la fila 1 es relativa (pasa a 2 al bajar una fila: `$A2`)."
-      ],
-      "correcta": 1,
-      "explicacion": "Respecto a «Selección rápida de texto con el ratón y teclado» (Procesadores de texto (LibreOffice Writer / Microsoft Word): edición, formato y estilos), la regulación vigente establece que: Doble clic sobre una palabra selecciona la palabra completa.",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Procesadores de texto (LibreOffice Writer / Microsoft Word): edición, formato y estilos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Doble clic sobre una palabra selecciona la palabra completa.»?",
-      "opciones": [
-        "Operadores y precedencia en fórmulas (toda fórmula comienza por el signo `=`).",
-        "Operadores de comparación.",
-        "La fundamentación normativa radica en que En `$A1` la columna A.",
-        "Selección rápida de texto con el ratón y teclado."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Doble clic sobre una palabra selecciona la palabra completa.») define o regula específicamente a «Selección rápida de texto con el ratón y teclado» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
-      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Estructuración avanzada en procesadores de texto: secciones, tablas y combinación de correspondencia), ¿qué establece la normativa respecto a «Saltos de página y Saltos de sección»?",
-      "opciones": [
-        "Creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión.",
-        "El salto de página manual se inserta con `Ctrl + Intro` (`Ctrl + Enter`).",
-        "`=CONCATENAR` / `=CONCAT`, `=IZQUIERDA`, `=DERECHA`, `=EXTRAE` (`=MID`), `=LARGO` (longitud de cadena), `=ESPACIOS`.",
-        "Es relativa (pasa a C al desplazarse una columna a la derecha) y la fila 2 es absoluta (`$2`), resultando `=$A2+C$2`."
-      ],
-      "correcta": 1,
-      "explicacion": "Respecto a «Saltos de página y Saltos de sección» (Estructuración avanzada en procesadores de texto: secciones, tablas y combinación de correspondencia), la regulación vigente establece que: El salto de página manual se inserta con `Ctrl + Intro` (`Ctrl + Enter`).",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Estructuración avanzada en procesadores de texto: secciones, tablas y combinación de correspondencia), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El salto de página manual se inserta con `Ctrl + Intro` (`Ctrl + Enter`).»?",
-      "opciones": [
-        "Procesadores de texto.",
-        "Funciones de texto.",
-        "En `B$2` la columna B.",
-        "Saltos de página y Saltos de sección."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («El salto de página manual se inserta con `Ctrl + Intro` (`Ctrl + Enter`).») define o regula específicamente a «Saltos de página y Saltos de sección» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
       "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias), ¿qué establece la normativa respecto a «Tipos de referencias a celdas (pregunta constante en exámenes C1 y C2)»?",
@@ -623,30 +467,6 @@
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Operadores aritméticos por orden de prioridad: paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`.») define o regula específicamente a «Operadores y precedencia en fórmulas (toda fórmula comienza por el signo `=`)» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
-      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Estructuración avanzada en procesadores de texto: secciones, tablas y combinación de correspondencia), ¿qué establece la normativa respecto a «Tipos de tabulaciones en la regla»?",
-      "opciones": [
-        "Izquierda, centrada, derecha, decimal (alinea los números por el separador decimal) y barra.",
-        "`=HOY()` (fecha actual) y `=AHORA()` (fecha y hora actuales).",
-        "1.º Exponenciación (`4^2 = 16`).",
-        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «Tipos de tabulaciones en la regla» (Estructuración avanzada en procesadores de texto: secciones, tablas y combinación de correspondencia), la regulación vigente establece que: Izquierda, centrada, derecha, decimal (alinea los números por el separador decimal) y barra.",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Estructuración avanzada en procesadores de texto: secciones, tablas y combinación de correspondencia), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Izquierda, centrada, derecha, decimal (alinea los números por el separador decimal) y barra.»?",
-      "opciones": [
-        "Funciones de fecha.",
-        "Tipos de tabulaciones en la regla.",
-        "Tal como precisa el articulado oficial, Por jerarquía de operadores.",
-        "Informe en materia de simplificación y organización (art. 8 Administración electrónica)."
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Izquierda, centrada, derecha, decimal (alinea los números por el separador decimal) y barra.») define o regula específicamente a «Tipos de tabulaciones en la regla» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
@@ -722,52 +542,232 @@
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
-      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Doctrina de examen del IAAP y resolución razonada de supuestos normativos), ¿qué establece la normativa respecto a «La fundamentación normativa radica en que En `$A1` la columna A»?",
+      "pregunta": "En relación con «Operadores de comparación» (Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias), señale la determinación correcta conforme a la normativa del tema:",
       "opciones": [
-        "Es absoluta (`$A`) y la fila 1 es relativa (pasa a 2 al bajar una fila: `$A2`).",
-        "Protección de documentos ofimáticos, metadatos, firma electrónica y control de versiones.",
-        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía.",
-        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal."
+        "`=`, `<>` (distinto), `<`, `>`, `<=`, `>=`.",
+        "`=`, `<>` (distinto), `<`, `>`, `<=`, `>=`, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "`=`, `<>` (distinto), `<`, `>`, `<=`, `>=`, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "`=`, `<>` (distinto), `<`, `>`, `<=`, `>=`, computándose los plazos en días naturales y con sentido desestimatorio."
       ],
       "correcta": 0,
-      "explicacion": "Respecto a «La fundamentación normativa radica en que En `$A1` la columna A» (Doctrina de examen del IAAP y resolución razonada de supuestos normativos), la regulación vigente establece que: Es absoluta (`$A`) y la fila 1 es relativa (pasa a 2 al bajar una fila: `$A2`).",
+      "explicacion": "Respecto a «Operadores de comparación» (Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias), la regulación vigente establece que: `=`, `<>` (distinto), `<`, `>`, `<=`, `>=`.",
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
-      "pregunta": "Dentro de la materia «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Doctrina de examen del IAAP y resolución razonada de supuestos normativos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es absoluta (`$A`) y la fila 1 es relativa (pasa a 2 al bajar una fila: `$A2`).»?",
+      "pregunta": "Dentro del estudio de «Funciones esenciales, errores, gráficos y gestión de datos en Calc y Excel» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «`=CONCATENAR` / `=CONCAT`, `=IZQUIERDA`, `=DERECHA`, `=EXTRAE` (`=MID`), `=LARGO` (longitud de cadena), `=ESPACIOS`.»?",
+      "opciones": [
+        "Funciones de texto.",
+        "Tal como precisa el articulado oficial, Por jerarquía de operadores.",
+        "Ámbito de aplicación (art. 2 Administración electrónica).",
+        "Revisión normativa (art. 9 Administración electrónica)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha regulación («`=CONCATENAR` / `=CONCAT`, `=IZQUIERDA`, `=DERECHA`, `=EXTRAE` (`=MID`), `=LARGO` (longitud de cadena), `=ESPACIOS`.») define o regula específicamente a «funciones de texto» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
+      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Funciones esenciales, errores, gráficos y gestión de datos en Calc y Excel» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «`=HOY()` (fecha actual) y `=AHORA()` (fecha y hora actuales).»?",
       "opciones": [
         "Esquema Nacional de Seguridad (Real Decreto 311/2022, de 3 de mayo).",
-        "La fundamentación normativa radica en que En `$A1` la columna A.",
-        "Revisión normativa (art. 9 Administración electrónica).",
-        "Formularios (art. 12 Administración electrónica)."
+        "Funciones de fecha.",
+        "Informe en materia de simplificación y organización (art. 8 Administración electrónica).",
+        "Registro de Procedimientos y Servicios (art. 10 Administración electrónica)."
       ],
       "correcta": 1,
-      "explicacion": "Dicha determinación («Es absoluta (`$A`) y la fila 1 es relativa (pasa a 2 al bajar una fila: `$A2`).») define o regula específicamente a «La fundamentación normativa radica en que En `$A1` la columna A» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
+      "explicacion": "Dicha regulación («`=HOY()` (fecha actual) y `=AHORA()` (fecha y hora actuales).») define o regula específicamente a «funciones de fecha» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
-      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Doctrina de examen del IAAP y resolución razonada de supuestos normativos), ¿qué establece la normativa respecto a «en `B$2` la columna B»?",
+      "pregunta": "En relación con «Tal como precisa el articulado oficial, Por jerarquía de operadores» (Régimen de especialidades procedimentales, coordinación interadministrativa y supuestos prácticos), señale la determinación correcta conforme a la normativa del tema:",
       "opciones": [
-        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.",
-        "00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.",
-        "Es relativa (pasa a C al desplazarse una columna a la derecha) y la fila 2 es absoluta (`$2`), resultando `=$A2+C$2`.",
-        "Su dirección electrónica será www.juntadeandalucia.es."
+        "1.º Exponenciación (`4^2 = 16`).",
+        "1.º Exponenciación (`4^2 = 16`), previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "1.º Exponenciación (`4^2 = 16`), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "1.º Exponenciación (`4^2 = 16`), computándose los plazos en días naturales y con sentido desestimatorio."
       ],
-      "correcta": 2,
-      "explicacion": "Respecto a «en `B$2` la columna B» (Doctrina de examen del IAAP y resolución razonada de supuestos normativos), la regulación vigente establece que: Es relativa (pasa a C al desplazarse una columna a la derecha) y la fila 2 es absoluta (`$2`), resultando `=$A2+C$2`.",
+      "correcta": 0,
+      "explicacion": "Respecto a «Tal como precisa el articulado oficial, Por jerarquía de operadores» (Régimen de especialidades procedimentales, coordinación interadministrativa y supuestos prácticos), la regulación vigente establece que: 1.º Exponenciación (`4^2 = 16`).",
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
-      "pregunta": "Dentro de la materia «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Doctrina de examen del IAAP y resolución razonada de supuestos normativos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es relativa (pasa a C al desplazarse una columna a la derecha) y la fila 2 es absoluta (`$2`), resultando `=$A2+C$2`.»?",
+      "pregunta": "Dentro del estudio de «Régimen de especialidades procedimentales, coordinación interadministrativa y supuestos prácticos» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «1.º Exponenciación (`4^2 = 16`).»?",
       "opciones": [
         "Ámbito de aplicación (art. 2 Administración electrónica).",
+        "Tal como precisa el articulado oficial, Por jerarquía de operadores.",
+        "Revisión normativa (art. 9 Administración electrónica).",
+        "Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («1.º Exponenciación (`4^2 = 16`).») define o regula específicamente a «Tal como precisa el articulado oficial, Por jerarquía de operadores» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
+      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
+    },
+    {
+      "pregunta": "En relación con «Esquema Nacional de Seguridad (Real Decreto 311/2022, de 3 de mayo)» (Síntesis de verificación normativa y textos oficiales del tema), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Protección de documentos ofimáticos, metadatos, firma electrónica y control de versiones, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Protección de documentos ofimáticos, metadatos, firma electrónica y control de versiones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Protección de documentos ofimáticos, metadatos, firma electrónica y control de versiones.",
+        "Protección de documentos ofimáticos, metadatos, firma electrónica y control de versiones, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Esquema Nacional de Seguridad (Real Decreto 311/2022, de 3 de mayo)» (Síntesis de verificación normativa y textos oficiales del tema), la regulación vigente establece que: Protección de documentos ofimáticos, metadatos, firma electrónica y control de versiones.",
+      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Síntesis de verificación normativa y textos oficiales del tema» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Protección de documentos ofimáticos, metadatos, firma electrónica y control de versiones.»?",
+      "opciones": [
+        "Informe en materia de simplificación y organización (art. 8 Administración electrónica).",
         "Registro de Procedimientos y Servicios (art. 10 Administración electrónica).",
-        "Portal de la Junta de Andalucía (art. 15 Administración electrónica).",
-        "En `B$2` la columna B."
+        "Formularios (art. 12 Administración electrónica).",
+        "Esquema Nacional de Seguridad (Real Decreto 311/2022, de 3 de mayo)."
       ],
       "correcta": 3,
-      "explicacion": "Dicha determinación («Es relativa (pasa a C al desplazarse una columna a la derecha) y la fila 2 es absoluta (`$2`), resultando `=$A2+C$2`.») define o regula específicamente a «en `B$2` la columna B» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
+      "explicacion": "Dicha regulación («Protección de documentos ofimáticos, metadatos, firma electrónica y control de versiones.») define o regula específicamente a «Esquema Nacional de Seguridad (Real Decreto 311/2022, de 3 de mayo)» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
+    },
+    {
+      "pregunta": "En relación con «Ámbito de aplicación (art. 2 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.",
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Ámbito de aplicación (art. 2 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.",
+      "referencia": "Art. 2 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.»?",
+      "opciones": [
+        "Revisión normativa (art. 9 Administración electrónica).",
+        "Ámbito de aplicación (art. 2 Administración electrónica).",
+        "Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica).",
+        "Portal de la Junta de Andalucía (art. 15 Administración electrónica)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.») define o regula específicamente a «Ámbito de aplicación (art. 2 Administración electrónica)» (Art. 2 de Administración electrónica).",
+      "referencia": "Art. 2 de Administración electrónica"
+    },
+    {
+      "pregunta": "En relación con «Informe en materia de simplificación y organización (art. 8 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos.",
+        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Informe en materia de simplificación y organización (art. 8 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos.",
+      "referencia": "Art. 8 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos.»?",
+      "opciones": [
+        "Registro de Procedimientos y Servicios (art. 10 Administración electrónica).",
+        "Formularios (art. 12 Administración electrónica).",
+        "Portales de Internet específicos (art. 16 Administración electrónica).",
+        "Informe en materia de simplificación y organización (art. 8 Administración electrónica)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha regulación («ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos.») define o regula específicamente a «Informe en materia de simplificación y organización (art. 8 Administración electrónica)» (Art. 8 de Administración electrónica).",
+      "referencia": "Art. 8 de Administración electrónica"
+    },
+    {
+      "pregunta": "En relación con «Revisión normativa (art. 9 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía.",
+        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Revisión normativa (art. 9 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía.",
+      "referencia": "Art. 9 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía.»?",
+      "opciones": [
+        "Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica).",
+        "Revisión normativa (art. 9 Administración electrónica).",
+        "Portal de la Junta de Andalucía (art. 15 Administración electrónica).",
+        "Contenidos y servicios de las sedes electrónicas (art. 18 Administración electrónica)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía.») define o regula específicamente a «Revisión normativa (art. 9 Administración electrónica)» (Art. 9 de Administración electrónica).",
+      "referencia": "Art. 9 de Administración electrónica"
+    },
+    {
+      "pregunta": "En relación con «Registro de Procedimientos y Servicios (art. 10 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.",
+        "00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Registro de Procedimientos y Servicios (art. 10 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: 00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.",
+      "referencia": "Art. 10 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.»?",
+      "opciones": [
+        "Formularios (art. 12 Administración electrónica).",
+        "Portales de Internet específicos (art. 16 Administración electrónica).",
+        "Política de firma electrónica (art. 21 Administración electrónica).",
+        "Registro de Procedimientos y Servicios (art. 10 Administración electrónica)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha regulación («00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.») define o regula específicamente a «Registro de Procedimientos y Servicios (art. 10 Administración electrónica)» (Art. 10 de Administración electrónica).",
+      "referencia": "Art. 10 de Administración electrónica"
+    },
+    {
+      "pregunta": "En relación con «Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas.",
+        "El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas.",
+      "referencia": "Art. 11 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas.»?",
+      "opciones": [
+        "Portal de la Junta de Andalucía (art. 15 Administración electrónica).",
+        "Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica).",
+        "Contenidos y servicios de las sedes electrónicas (art. 18 Administración electrónica).",
+        "Registro Electrónico Único (art. 26 Administración electrónica)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas.») define o regula específicamente a «Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica)» (Art. 11 de Administración electrónica).",
+      "referencia": "Art. 11 de Administración electrónica"
+    },
+    {
+      "pregunta": "En relación con «Formularios (art. 12 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.",
+        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Formularios (art. 12 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.",
+      "referencia": "Art. 12 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.»?",
+      "opciones": [
+        "Portales de Internet específicos (art. 16 Administración electrónica).",
+        "Política de firma electrónica (art. 21 Administración electrónica).",
+        "Presentación de documentos (art. 27 Administración electrónica).",
+        "Formularios (art. 12 Administración electrónica)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha regulación («Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.») define o regula específicamente a «Formularios (art. 12 Administración electrónica)» (Art. 12 de Administración electrónica).",
+      "referencia": "Art. 12 de Administración electrónica"
     }
   ]
 }

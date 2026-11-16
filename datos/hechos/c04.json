@@ -2,10 +2,10 @@
   {
     "pregunta": "¿Qué principio prioriza que la actividad pública se ejerza por la Administración más próxima al ciudadano?",
     "opciones": [
-      "Jerarquía",
+      "Subsidiariedad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Subsidiariedad",
-      "Centralización",
-      "Exclusividad"
+      "Subsidiariedad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Subsidiariedad, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El principio de subsidiariedad atribuye la actividad a la Administración más cercana al ciudadano.",
@@ -26,10 +26,10 @@
   {
     "pregunta": "¿Qué servicio es obligatorio en los municipios de más de 5.000 habitantes?",
     "opciones": [
-      "Transporte colectivo urbano",
+      "Biblioteca pública, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Biblioteca pública",
-      "Aeropuerto",
-      "Universidad"
+      "Biblioteca pública, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Biblioteca pública, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El art. 26.1 b) LBRL añade parque público, biblioteca pública y tratamiento de residuos en municipios de más de 5.000 habitantes.",
@@ -38,10 +38,10 @@
   {
     "pregunta": "¿Qué servicio es obligatorio en los municipios de más de 20.000 habitantes?",
     "opciones": [
-      "Puerto deportivo",
+      "Prevención y extinción de incendios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Prevención y extinción de incendios",
-      "Metro",
-      "Hospital"
+      "Prevención y extinción de incendios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Prevención y extinción de incendios, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El art. 26.1 c) LBRL incluye protección civil, servicios sociales, prevención y extinción de incendios e instalaciones deportivas.",
@@ -51,9 +51,9 @@
     "pregunta": "¿Qué servicio es obligatorio en los municipios de más de 50.000 habitantes?",
     "opciones": [
       "Transporte colectivo urbano de viajeros",
-      "Biblioteca pública",
-      "Alumbrado público",
-      "Cementerio"
+      "Transporte colectivo urbano de viajeros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Transporte colectivo urbano de viajeros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Transporte colectivo urbano de viajeros, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El art. 26.1 d) LBRL incluye el transporte colectivo urbano de viajeros y el medio ambiente urbano.",
@@ -72,18 +72,6 @@
     "referencia": "LBRL, art. 15"
   },
   {
-    "pregunta": "¿Qué es el Padrón municipal?",
-    "opciones": [
-      "El censo electoral del Estado",
-      "El catastro de fincas",
-      "El inventario de bienes municipales",
-      "El registro administrativo donde constan los vecinos de un municipio"
-    ],
-    "correcta": 3,
-    "explicacion": "El art. 16.1 LBRL define el Padrón como registro administrativo donde constan los vecinos.",
-    "referencia": "LBRL, art. 16.1"
-  },
-  {
     "pregunta": "¿Qué derecho reconoce la LBRL a los municipios para asociarse?",
     "opciones": [
       "Constituir mancomunidades con otros municipios",
@@ -99,9 +87,9 @@
     "pregunta": "¿Qué potestad tienen los municipios, provincias e islas según el art. 4.1 LBRL?",
     "opciones": [
       "Reglamentaria y de autoorganización",
-      "Legislativa",
-      "Jurisdiccional",
-      "Constituyente"
+      "Reglamentaria y de autoorganización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Reglamentaria y de autoorganización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Reglamentaria y de autoorganización, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El art. 4.1 LBRL atribuye, entre otras, las potestades reglamentaria y de autoorganización.",
@@ -111,9 +99,9 @@
     "pregunta": "¿Qué función corresponde al Pleno municipal respecto de los órganos de gobierno?",
     "opciones": [
       "Su control y fiscalización",
-      "Su nombramiento por sorteo",
-      "Su financiación privada",
-      "Ninguna"
+      "Su control y fiscalización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Su control y fiscalización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Su control y fiscalización, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El art. 22.2 a) LBRL atribuye al Pleno el control y la fiscalización de los órganos de gobierno.",
@@ -358,5 +346,17 @@
     "correcta": 1,
     "explicacion": "Dicha regulación se contiene en el Artículo 77 de Ley Reguladora de las Bases del Régimen Local: La solicitud de ejercicio del derecho recogido en el párrafo anterior habrá de ser resuelta motivadamente en los cinco días naturales siguientes a aquél en que se hubiese presentado.",
     "referencia": "Art. 77 de Ley Reguladora de las Bases del Régimen Local"
+  },
+  {
+    "pregunta": "En relación con «La primera materia es el urbanismo» (Las competencias propias municipales: el catálogo del artículo 25.2), señale la determinación correcta conforme a la normativa del tema:",
+    "opciones": [
+      "Planeamiento, gestión, ejecución y disciplina urbanística, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+      "Planeamiento, gestión, ejecución y disciplina urbanística.",
+      "Planeamiento, gestión, ejecución y disciplina urbanística, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+      "Planeamiento, gestión, ejecución y disciplina urbanística, computándose los plazos en días naturales y con sentido desestimatorio."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «La primera materia es el urbanismo» (Las competencias propias municipales: el catálogo del artículo 25.2), la regulación vigente establece que: Planeamiento, gestión, ejecución y disciplina urbanística.",
+    "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
   }
 ]

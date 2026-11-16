@@ -2,10 +2,10 @@
   {
     "pregunta": "¿Cuántos magistrados componen el Tribunal Constitucional?",
     "opciones": [
-      "10",
-      "9",
+      "12, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "12, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "12",
-      "15"
+      "12, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El art. 159.1 CE establece que el Tribunal Constitucional se compone de 12 miembros.",
@@ -63,9 +63,9 @@
     "pregunta": "¿Cuántos senadores designa cada Comunidad Autónoma?",
     "opciones": [
       "Uno y otro más por cada millón de habitantes",
-      "Cuatro",
-      "Diez",
-      "Ninguno"
+      "Uno y otro más por cada millón de habitantes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Uno y otro más por cada millón de habitantes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Uno y otro más por cada millón de habitantes, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El art. 69.5 CE: cada Comunidad designa un senador y otro más por cada millón de habitantes de su territorio.",
@@ -123,9 +123,9 @@
     "pregunta": "¿Qué mayoría se requiere para otorgar la confianza en una cuestión de confianza?",
     "opciones": [
       "Mayoría simple de los diputados",
-      "Mayoría absoluta",
-      "Dos tercios",
-      "Tres quintos"
+      "mayoría absoluta de los miembros presentes y representados de los diputados",
+      "mayoría cualificada de dos tercios de los miembros de derecho de los diputados",
+      "tres quintos de los miembros asistentes a la convocatoria de los diputados"
     ],
     "correcta": 0,
     "explicacion": "El art. 112 CE: la confianza se entiende otorgada cuando vote a favor la mayoría simple de los diputados.",
@@ -146,10 +146,10 @@
   {
     "pregunta": "¿Qué órgano jurisdiccional es superior en todos los órdenes, salvo en materia de garantías constitucionales?",
     "opciones": [
-      "El Tribunal Constitucional",
-      "La Audiencia Nacional",
+      "El Tribunal Supremo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El Tribunal Supremo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "El Tribunal Supremo",
-      "El CGPJ"
+      "El Tribunal Supremo, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El art. 123.1 CE atribuye esa posición al Tribunal Supremo.",
@@ -158,10 +158,10 @@
   {
     "pregunta": "¿Quién propone el nombramiento del Fiscal General del Estado?",
     "opciones": [
-      "El Congreso",
-      "El Tribunal Supremo",
+      "El Gobierno, oído el Consejo General del Poder Judicial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El Gobierno, oído el Consejo General del Poder Judicial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "El Gobierno, oído el Consejo General del Poder Judicial",
-      "El Senado"
+      "El Gobierno, oído el Consejo General del Poder Judicial, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El art. 124.4 CE: lo nombra el Rey a propuesta del Gobierno, oído el CGPJ.",

@@ -72,10 +72,10 @@
     {
       "pregunta": "¿Quién propone el candidato a Presidente del Gobierno?",
       "opciones": [
-        "El Congreso de los Diputados",
+        "El Rey, previa consulta con los grupos políticos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El Rey, previa consulta con los grupos políticos",
-        "El Senado",
-        "El Presidente del Gobierno saliente"
+        "El Rey, previa consulta con los grupos políticos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Rey, previa consulta con los grupos políticos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Tras cada renovación del Congreso, el Rey, previa consulta con los representantes de los grupos políticos y a través del Presidente del Congreso, propone un candidato.",
@@ -84,9 +84,9 @@
     {
       "pregunta": "¿Entre cuántos diputados puede componerse el Congreso?",
       "opciones": [
-        "Entre 200 y 300",
-        "Entre 350 y 450",
-        "Entre 250 y 350",
+        "Entre 300 y 400, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Entre 300 y 400, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Entre 300 y 400, computándose los plazos en días naturales y con sentido desestimatorio",
         "Entre 300 y 400"
       ],
       "correcta": 3,
@@ -97,9 +97,9 @@
       "pregunta": "¿Cuántos senadores se eligen en cada provincia?",
       "opciones": [
         "Cuatro",
-        "Dos",
-        "Tres",
-        "Seis"
+        "Cuatro, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cuatro, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cuatro, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "En cada provincia se eligen cuatro senadores, con las particularidades de las provincias insulares.",
@@ -108,10 +108,10 @@
     {
       "pregunta": "¿Qué mayoría se exige en la primera votación de investidura del Presidente del Gobierno?",
       "opciones": [
-        "Mayoría simple",
-        "Mayoría de dos tercios",
+        "mayoría cualificada de tres quintos de sus miembros del Congreso",
+        "mayoría cualificada de dos tercios de los miembros de derecho de los miembros presentes en primera votación del Congreso",
         "Mayoría absoluta del Congreso",
-        "Mayoría de tres quintos"
+        "dos tercios de los votos válidamente emitidos en la sesión del Congreso"
       ],
       "correcta": 2,
       "explicacion": "En la primera votación se exige la mayoría absoluta del Congreso. Si no se alcanza, la nueva votación 48 horas después requiere solo mayoría simple.",
@@ -120,10 +120,10 @@
     {
       "pregunta": "¿Cuántos diputados, como mínimo, deben proponer una moción de censura?",
       "opciones": [
-        "Una quinta parte",
-        "Una cuarta parte",
+        "Una décima parte, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una décima parte, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Una décima parte",
-        "La mayoría absoluta"
+        "Una décima parte, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La moción de censura debe ser propuesta al menos por la décima parte de los diputados, con candidato a la Presidencia, y aprobada por mayoría absoluta.",
@@ -133,9 +133,9 @@
       "pregunta": "¿Qué mayoría necesita el Senado para vetar un proyecto de ley aprobado por el Congreso?",
       "opciones": [
         "Mayoría absoluta",
-        "Mayoría simple",
-        "Tres quintos",
-        "Dos tercios"
+        "mayoría cualificada de tres quintos de sus miembros",
+        "mayoría cualificada de dos tercios de los miembros de derecho de los miembros presentes en primera votación",
+        "dos tercios de los votos válidamente emitidos en la sesión"
       ],
       "correcta": 0,
       "explicacion": "El Senado puede vetar o enmendar el proyecto en el plazo de dos meses mediante mensaje motivado, y el veto debe aprobarse por mayoría absoluta.",
@@ -144,9 +144,9 @@
     {
       "pregunta": "¿En cuánto tiempo sanciona el Rey las leyes aprobadas por las Cortes?",
       "opciones": [
-        "Ocho días",
-        "Dos meses",
-        "Treinta días",
+        "diez días hábiles",
+        "cuarenta y cinco días naturales hábiles naturales",
+        "quince días naturales naturales",
         "Quince días"
       ],
       "correcta": 3,
@@ -156,9 +156,9 @@
     {
       "pregunta": "¿Cuántos vocales nombrados por el Rey integran el Consejo General del Poder Judicial, sin contar a su Presidente?",
       "opciones": [
-        "12",
-        "15",
-        "24",
+        "20, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "20, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "20, computándose los plazos en días naturales y con sentido desestimatorio",
         "20"
       ],
       "correcta": 3,
@@ -168,10 +168,10 @@
     {
       "pregunta": "¿Cada cuánto tiempo se renuevan por terceras partes los miembros del Tribunal Constitucional?",
       "opciones": [
-        "Cada dos años",
-        "Cada cuatro años",
+        "Cada dos años improrrogables",
+        "Cada dos años desde la notificación de la resolución prorrogables por un año adicional",
         "Cada tres años",
-        "Cada cinco años"
+        "Cada un año prorrogable hasta un máximo de dieciocho meses"
       ],
       "correcta": 2,
       "explicacion": "Los miembros del TC son designados por nueve años y se renuevan por terceras partes cada tres años.",
@@ -181,9 +181,9 @@
       "pregunta": "¿De qué órgano depende el Tribunal de Cuentas?",
       "opciones": [
         "De las Cortes Generales",
-        "Del Gobierno",
-        "Del Consejo General del Poder Judicial",
-        "Del Tribunal Supremo"
+        "De las Cortes Generales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "De las Cortes Generales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "De las Cortes Generales, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El Tribunal de Cuentas depende directamente de las Cortes Generales y ejerce sus funciones por delegación de ellas.",
@@ -217,9 +217,9 @@
       "pregunta": "¿Quién propone al candidato a Presidente del Gobierno?",
       "opciones": [
         "El Rey",
-        "El Congreso de los Diputados",
-        "El Presidente saliente",
-        "El Senado"
+        "El Rey, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El Rey, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Rey, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El Rey propone al candidato a Presidente del Gobierno, previa consulta con los representantes de los grupos políticos.",
@@ -228,10 +228,10 @@
     {
       "pregunta": "¿Quién sanciona y promulga las leyes?",
       "opciones": [
-        "El Presidente del Gobierno",
+        "El Rey, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El Rey",
-        "El Presidente del Congreso",
-        "El Senado"
+        "El Rey, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Rey, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El Rey sanciona y promulga las leyes.",
@@ -241,9 +241,9 @@
       "pregunta": "¿Cuál es el número mínimo de diputados del Congreso?",
       "opciones": [
         "300",
-        "250",
-        "350",
-        "400"
+        "300, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "300, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "300, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El Congreso tiene entre 300 y 400 diputados.",
@@ -252,10 +252,10 @@
     {
       "pregunta": "¿Cuántos senadores corresponden a cada provincia?",
       "opciones": [
-        "Dos",
+        "Cuatro, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Cuatro",
-        "Tres",
-        "Cinco"
+        "Cuatro, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cuatro, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Cada provincia elige cuatro senadores.",
@@ -264,10 +264,10 @@
     {
       "pregunta": "¿Cuántas Cámaras forman las Cortes Generales?",
       "opciones": [
-        "Una",
-        "Tres",
+        "Dos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Dos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Dos",
-        "Cuatro"
+        "Dos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las Cortes Generales están formadas por el Congreso y el Senado.",
@@ -276,9 +276,9 @@
     {
       "pregunta": "¿Qué órgano ejerce la potestad legislativa del Estado?",
       "opciones": [
-        "El Gobierno",
-        "El Rey",
-        "El Tribunal Constitucional",
+        "Las Cortes Generales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las Cortes Generales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las Cortes Generales, computándose los plazos en días naturales y con sentido desestimatorio",
         "Las Cortes Generales"
       ],
       "correcta": 3,
@@ -286,24 +286,12 @@
       "referencia": "Art. 66.2 CE"
     },
     {
-      "pregunta": "¿Qué mayoría exige la votación final sobre el conjunto de una ley orgánica?",
-      "opciones": [
-        "Mayoría absoluta del Congreso",
-        "Mayoría simple del Congreso",
-        "Dos tercios del Senado",
-        "Tres quintos del Congreso"
-      ],
-      "correcta": 0,
-      "explicacion": "Las leyes orgánicas exigen mayoría absoluta del Congreso en la votación final sobre el conjunto.",
-      "referencia": "Art. 81.2 CE"
-    },
-    {
       "pregunta": "¿Quiénes pueden ejercer la iniciativa legislativa?",
       "opciones": [
-        "Solo el Gobierno",
+        "El Gobierno, el Congreso y el Senado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El Gobierno, el Congreso y el Senado",
-        "Solo el Congreso",
-        "El Rey"
+        "El Gobierno, el Congreso y el Senado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Gobierno, el Congreso y el Senado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La iniciativa legislativa corresponde al Gobierno, al Congreso y al Senado.",
@@ -312,10 +300,10 @@
     {
       "pregunta": "¿Cuánto tiempo tiene el Senado para vetar un proyecto de ley?",
       "opciones": [
-        "Un mes",
-        "Tres meses",
+        "un mes contado a partir del día siguiente a la notificación",
+        "dos meses contados desde la entrada en el registro del órgano competente contados desde la publicación oficial",
         "Dos meses",
-        "Quince días"
+        "cuarenta y cinco días hábiles desde la notificación"
       ],
       "correcta": 2,
       "explicacion": "El Senado puede vetar un proyecto por mayoría absoluta en el plazo de dos meses.",
@@ -324,9 +312,9 @@
     {
       "pregunta": "¿En cuántos días sanciona el Rey una ley?",
       "opciones": [
-        "Diez días",
-        "Veinte días",
-        "Treinta días",
+        "diez días hábiles",
+        "cuarenta y cinco días naturales hábiles naturales",
+        "quince días naturales naturales",
         "Quince días"
       ],
       "correcta": 3,
@@ -337,25 +325,13 @@
       "pregunta": "¿Quién puede convocar un referéndum consultivo?",
       "opciones": [
         "El Rey, a propuesta del Gobierno y con autorización del Congreso",
-        "El Gobierno sin autorización",
-        "El Congreso por sí solo",
-        "El Senado"
+        "El Rey, a propuesta del Gobierno y con autorización del Congreso, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El Rey, a propuesta del Gobierno y con autorización del Congreso, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Rey, a propuesta del Gobierno y con autorización del Congreso, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El Rey puede convocar un referéndum consultivo a propuesta del Gobierno, con autorización del Congreso.",
       "referencia": "Art. 92 CE"
-    },
-    {
-      "pregunta": "¿Qué mayoría exige la investidura del Presidente del Gobierno en la primera votación?",
-      "opciones": [
-        "Mayoría simple",
-        "Mayoría absoluta del Congreso",
-        "Tres quintos del Congreso",
-        "Dos tercios del Senado"
-      ],
-      "correcta": 1,
-      "explicacion": "En la primera votación se exige mayoría absoluta del Congreso.",
-      "referencia": "Art. 99.2 CE"
     },
     {
       "pregunta": "Si transcurren dos meses desde la primera votación de investidura sin candidato elegido, ¿qué ocurre?",
@@ -372,9 +348,9 @@
     {
       "pregunta": "¿Qué proporción de diputados se necesita para presentar una moción de censura?",
       "opciones": [
-        "Un quinto",
-        "Un tercio",
-        "La mitad",
+        "Un décimo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un décimo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un décimo, computándose los plazos en días naturales y con sentido desestimatorio",
         "Un décimo"
       ],
       "correcta": 3,
@@ -396,10 +372,10 @@
     {
       "pregunta": "¿Quién nombra al Presidente del Gobierno tras la investidura?",
       "opciones": [
-        "El Congreso de los Diputados",
+        "El Rey, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El Rey",
-        "El Senado",
-        "El Presidente del Congreso"
+        "El Rey, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Rey, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Tras la investidura, el Rey nombra al Presidente del Gobierno.",
@@ -408,10 +384,10 @@
     {
       "pregunta": "¿Cuántos miembros tiene el Consejo General del Poder Judicial?",
       "opciones": [
-        "Doce",
-        "Treinta",
+        "Veinte, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Veinte, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Veinte",
-        "Cuarenta"
+        "Veinte, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El CGPJ tiene veinte miembros, nombrados por el Rey por cinco años.",
@@ -420,9 +396,9 @@
     {
       "pregunta": "¿Por cuántos años son nombrados los vocales del CGPJ?",
       "opciones": [
-        "Tres años",
-        "Cuatro años",
-        "Seis años",
+        "Cinco años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cinco años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cinco años, computándose los plazos en días naturales y con sentido desestimatorio",
         "Cinco años"
       ],
       "correcta": 3,
@@ -432,10 +408,10 @@
     {
       "pregunta": "¿Cuántos magistrados tiene el Tribunal Constitucional?",
       "opciones": [
-        "Nueve",
-        "Quince",
+        "Doce, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Doce, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Doce",
-        "Veinte"
+        "Doce, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El Tribunal Constitucional se compone de doce miembros.",
@@ -445,9 +421,9 @@
       "pregunta": "¿Cuánto dura el mandato de los magistrados del Tribunal Constitucional?",
       "opciones": [
         "Nueve años",
-        "Seis años",
-        "Ocho años",
-        "Diez años"
+        "Nueve años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Nueve años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Nueve años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los magistrados del TC son nombrados por nueve años.",
@@ -466,18 +442,6 @@
       "referencia": "Art. 159.3 CE"
     },
     {
-      "pregunta": "¿De quién depende el Tribunal de Cuentas?",
-      "opciones": [
-        "Del Gobierno",
-        "Del Poder Judicial",
-        "De las Cortes Generales",
-        "Del Rey"
-      ],
-      "correcta": 2,
-      "explicacion": "El Tribunal de Cuentas depende de las Cortes Generales.",
-      "referencia": "Art. 136.1 CE"
-    },
-    {
       "pregunta": "¿Qué es el Defensor del Pueblo?",
       "opciones": [
         "Un órgano del Gobierno",
@@ -492,9 +456,9 @@
     {
       "pregunta": "¿Qué órgano elige al Presidente de una Comunidad Autónoma según el art. 152 CE?",
       "opciones": [
-        "El Rey",
-        "El Gobierno de la Nación",
-        "Los ciudadanos directamente",
+        "La Asamblea Legislativa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La Asamblea Legislativa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La Asamblea Legislativa, computándose los plazos en días naturales y con sentido desestimatorio",
         "La Asamblea Legislativa"
       ],
       "correcta": 3,
@@ -505,9 +469,9 @@
       "pregunta": "¿Qué refrendo necesitan los actos del Rey?",
       "opciones": [
         "Del Presidente del Gobierno y, en su caso, de los ministros competentes",
-        "Ninguno",
-        "Del Congreso de los Diputados",
-        "Del Tribunal Constitucional"
+        "Del Presidente del Gobierno y, en su caso, de los ministros competentes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Del Presidente del Gobierno y, en su caso, de los ministros competentes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Del Presidente del Gobierno y, en su caso, de los ministros competentes, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Los actos del Rey deben estar refrendados por el Presidente del Gobierno y, en su caso, por los ministros competentes.",
@@ -528,10 +492,10 @@
     {
       "pregunta": "¿Cuántos diputados componen el Congreso de los Diputados?",
       "opciones": [
-        "300",
-        "400",
+        "350, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "350, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "350",
-        "250"
+        "350, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La Constitución fija entre 300 y 400 diputados (art. 68.1 CE) y la LOREG concreta el número en 350.",
@@ -540,9 +504,9 @@
     {
       "pregunta": "¿Cuánto dura la legislatura del Congreso de los Diputados?",
       "opciones": [
-        "Dos años",
-        "Cinco años",
-        "Seis años",
+        "cinco años desde que el acto fue dictado",
+        "dos años desde la notificación de la resolución",
+        "tres años contados desde el día siguiente al vencimiento",
         "Cuatro años"
       ],
       "correcta": 3,
@@ -550,24 +514,12 @@
       "referencia": "CE, art. 68.4"
     },
     {
-      "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (La Corona), ¿qué establece la normativa respecto a «La Corona»?",
-      "opciones": [
-        "Es hereditaria en los sucesores de la dinastía histórica (art. 57.1).",
-        "Mayoría absoluta del Congreso en la votación final sobre el conjunto (art. 81.2).",
-        "Supremo órgano fiscalizador, dependiente de las Cortes Generales (art. 136.1).",
-        "Cada órgano tiene asignadas funciones propias, y el sistema descansa en la separación y el equilibrio entre ellas."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «La Corona» (La Corona), la regulación vigente establece que: Es hereditaria en los sucesores de la dinastía histórica (art. 57.1).",
-      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
-    },
-    {
       "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (La Corona), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es hereditaria en los sucesores de la dinastía histórica (art. 57.1).»?",
       "opciones": [
-        "Leyes orgánicas.",
+        "La Corona, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La Corona.",
-        "Tribunal de Cuentas.",
-        "El primero es el de las funciones."
+        "La Corona, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La Corona, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es hereditaria en los sucesores de la dinastía histórica (art. 57.1).») define o regula específicamente a «La Corona» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
@@ -588,9 +540,9 @@
     {
       "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (La Corona), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sancionar y promulgar leyes, convocar y disolver las Cortes, convocar referéndum, proponer el candidato a Presidente del Gobierno (art. 62).»?",
       "opciones": [
-        "Investidura.",
-        "Defensor del Pueblo.",
-        "La regla básica para estudiar la Corona.",
+        "Sus actos deben estar refrendados. Funciones regladas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sus actos deben estar refrendados. Funciones regladas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sus actos deben estar refrendados. Funciones regladas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Sus actos deben estar refrendados. Funciones regladas."
       ],
       "correcta": 3,
@@ -787,6 +739,54 @@
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Cada órgano tiene asignadas funciones propias, y el sistema descansa en la separación y el equilibrio entre ellas.») define o regula específicamente a «El primero es el de las funciones» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Cortes Generales» (Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Mayoría absoluta del Congreso en la votación final sobre el conjunto (art. 81.2).»?",
+      "opciones": [
+        "Leyes orgánicas.",
+        "Moción de censura.",
+        "Defensor del Pueblo.",
+        "El primero es el de las funciones."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha regulación («Mayoría absoluta del Congreso en la votación final sobre el conjunto (art. 81.2).») define o regula específicamente a «Leyes orgánicas» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Gobierno y poder judicial» (Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Mayoría absoluta del Congreso en la primera votación y mayoría simple 48 horas después.»?",
+      "opciones": [
+        "Investidura.",
+        "Tribunal de Cuentas.",
+        "Un órgano constitucional.",
+        "La regla básica para estudiar la Corona."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha regulación («Mayoría absoluta del Congreso en la primera votación y mayoría simple 48 horas después.») define o regula específicamente a «Investidura» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Gobierno y poder judicial» (Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Propuesta de un décimo de los diputados con candidato y mayoría absoluta (art. 113).»?",
+      "opciones": [
+        "Defensor del Pueblo.",
+        "Moción de censura.",
+        "El primero es el de las funciones.",
+        "La circunscripción electoral."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («Propuesta de un décimo de los diputados con candidato y mayoría absoluta (art. 113).») define o regula específicamente a «Moción de censura» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Tribunal Constitucional, Tribunal de Cuentas y Defensor del Pueblo» (Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Supremo órgano fiscalizador, dependiente de las Cortes Generales (art. 136.1).»?",
+      "opciones": [
+        "Un órgano constitucional.",
+        "La regla básica para estudiar la Corona.",
+        "Tribunal de Cuentas.",
+        "La tramitación de las proposiciones de ley se."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha regulación («Supremo órgano fiscalizador, dependiente de las Cortes Generales (art. 136.1).») define o regula específicamente a «Tribunal de Cuentas» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
       "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
     }
   ]

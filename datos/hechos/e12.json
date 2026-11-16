@@ -3,9 +3,9 @@
     "pregunta": "¿Qué clase de resbaladicidad corresponde a un pavimento con Rd > 45?",
     "opciones": [
       "Clase 3",
-      "Clase 0",
-      "Clase 1",
-      "Clase 2"
+      "Clase 3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Clase 3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Clase 3, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Rd ≤ 15 clase 0; 15 < Rd ≤ 35 clase 1; 35 < Rd ≤ 45 clase 2; Rd > 45 clase 3.",
@@ -15,9 +15,9 @@
     "pregunta": "¿Qué clase de resbaladicidad corresponde a un pavimento con 15 < Rd ≤ 35?",
     "opciones": [
       "Clase 1",
-      "Clase 0",
-      "Clase 2",
-      "Clase 3"
+      "Clase 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Clase 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Clase 1, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Un pavimento con 15 < Rd ≤ 35 es de clase 1.",
@@ -26,10 +26,10 @@
   {
     "pregunta": "¿Qué resalto máximo pueden presentar las juntas del pavimento para limitar el riesgo de caídas?",
     "opciones": [
-      "10 mm",
+      "4 mm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "4 mm",
-      "25 mm",
-      "50 mm"
+      "4 mm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "4 mm, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El suelo no tendrá juntas que presenten un resalto de más de 4 mm.",
@@ -62,9 +62,9 @@
   {
     "pregunta": "¿Qué revestimiento continuo tradicional se hace con mortero de cal y acabado liso o pulido?",
     "opciones": [
-      "El alicatado",
-      "El parqué",
-      "El terrazo",
+      "El estuco, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El estuco, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El estuco, computándose los plazos en días naturales y con sentido desestimatorio",
       "El estuco"
     ],
     "correcta": 3,
@@ -74,10 +74,10 @@
   {
     "pregunta": "¿Qué pavimento está formado por fragmentos de piedra aglomerados con cemento y pulidos?",
     "opciones": [
-      "El linóleo",
-      "La moqueta",
+      "El terrazo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El terrazo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "El terrazo",
-      "El gres porcelánico"
+      "El terrazo, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El terrazo se compone de áridos de mármol aglomerados con cemento y pulidos.",
@@ -98,9 +98,9 @@
   {
     "pregunta": "¿Qué material se usa tradicionalmente en falsos techos de placas de yeso fino?",
     "opciones": [
-      "El hormigón armado",
-      "El vidrio templado",
-      "La piedra",
+      "La escayola, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La escayola, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La escayola, computándose los plazos en días naturales y con sentido desestimatorio",
       "La escayola"
     ],
     "correcta": 3,
@@ -230,9 +230,9 @@
   {
     "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Revestimientos interiores y elementos que los componen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el revestimiento de resistencia media que el DB-HS 1 reconoce en el bloque N1, y por eso se usa también en fachadas por el interior.»?",
     "opciones": [
-      "La tabla 4.1 tiene una nota.",
-      "La compatibilidad entre materiales.",
-      "El DB-HS 1.",
+      "El enfoscado de mortero con 10 mm de espesor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El enfoscado de mortero con 10 mm de espesor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El enfoscado de mortero con 10 mm de espesor, computándose los plazos en días naturales y con sentido desestimatorio",
       "El enfoscado de mortero con 10 mm de espesor."
     ],
     "correcta": 3,
@@ -278,9 +278,9 @@
   {
     "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Pavimentos y su resbaladicidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la seguridad frente al riesgo de caídas, y en particular la resbaladicidad de los suelos.»?",
     "opciones": [
-      "La exigencia de seguridad en caso de incendio (SI).",
-      "El mantenimiento de los revestimientos exteriores.",
-      "El primero.",
+      "El DB-SUA 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El DB-SUA 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El DB-SUA 1, computándose los plazos en días naturales y con sentido desestimatorio",
       "El DB-SUA 1."
     ],
     "correcta": 3,
@@ -302,10 +302,10 @@
   {
     "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Techos, falsos techos y reacción al fuego), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Los revestimientos se consideran solo cuando superan el 5 % de la superficie total de paredes, de techos o de suelos del recinto.»?",
     "opciones": [
-      "La compatibilidad entre materiales.",
+      "La tabla 4.1 tiene una nota, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "La tabla 4.1 tiene una nota.",
-      "El DB-HS 1.",
-      "El segundo."
+      "La tabla 4.1 tiene una nota, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La tabla 4.1 tiene una nota, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Los revestimientos se consideran solo cuando superan el 5 % de la superficie total de paredes, de techos o de suelos del recinto.») define o regula específicamente a «La tabla 4.1 tiene una nota» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -326,9 +326,9 @@
   {
     "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Requisitos básicos del CTE aplicables), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la primera barrera de esa exigencia, y el DB-HS 1 la desarrolla en su apartado 2.3.»?",
     "opciones": [
-      "El control de la ejecución se hace en los términos del artículo 7.3 del CTE.",
-      "Los riesgos de los revestimientos en obra.",
-      "El tercero.",
+      "El revestimiento exterior, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El revestimiento exterior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El revestimiento exterior, computándose los plazos en días naturales y con sentido desestimatorio",
       "El revestimiento exterior."
     ],
     "correcta": 3,
@@ -350,10 +350,10 @@
   {
     "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Requisitos básicos del CTE aplicables), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la reacción de los materiales y su resistencia (CTE, art. 11), desarrollada en el DB-SI 1 (apartado 4).»?",
     "opciones": [
-      "El mantenimiento de los revestimientos exteriores.",
+      "La exigencia de seguridad en caso de incendio (SI), previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "La exigencia de seguridad en caso de incendio (SI).",
-      "El primero.",
-      "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)."
+      "La exigencia de seguridad en caso de incendio (SI), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La exigencia de seguridad en caso de incendio (SI), computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Regula la reacción de los materiales y su resistencia (CTE, art. 11), desarrollada en el DB-SI 1 (apartado 4).») define o regula específicamente a «La exigencia de seguridad en caso de incendio (SI)» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",

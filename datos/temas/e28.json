@@ -59,9 +59,9 @@
     {
       "pregunta": "¿Quién representa a la Administración en materia contractual?",
       "opciones": [
-        "El Tribunal de Cuentas",
-        "El interesado",
-        "La mesa de contratación",
+        "El órgano de contratación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El órgano de contratación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El órgano de contratación, computándose los plazos en días naturales y con sentido desestimatorio",
         "El órgano de contratación"
       ],
       "correcta": 3,
@@ -72,9 +72,9 @@
       "pregunta": "¿Quién supervisa la ejecución del contrato?",
       "opciones": [
         "El responsable del contrato",
-        "El licitador",
-        "El Consejo de Estado",
-        "La Cámara de Cuentas"
+        "El responsable del contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El responsable del contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El responsable del contrato, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El art. 62.1 LCSP atribuye al responsable del contrato la supervisión de su ejecución.",
@@ -95,9 +95,9 @@
     {
       "pregunta": "¿Qué es la Junta Consultiva de Contratación Pública del Estado?",
       "opciones": [
-        "Un órgano judicial",
-        "Una empresa pública",
-        "Un licitador",
+        "Un órgano de regulación y consulta en materia de contratación pública estatal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un órgano de regulación y consulta en materia de contratación pública estatal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un órgano de regulación y consulta en materia de contratación pública estatal, computándose los plazos en días naturales y con sentido desestimatorio",
         "Un órgano de regulación y consulta en materia de contratación pública estatal"
       ],
       "correcta": 3,
@@ -107,9 +107,9 @@
     {
       "pregunta": "¿Qué requiere la aptitud para contratar con el sector público?",
       "opciones": [
-        "Solo tener un local",
-        "Ser vecino del municipio",
-        "Tener el carné profesional",
+        "Plena capacidad de obrar, no estar en prohibición de contratar y acreditar solvencia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Plena capacidad de obrar, no estar en prohibición de contratar y acreditar solvencia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Plena capacidad de obrar, no estar en prohibición de contratar y acreditar solvencia, computándose los plazos en días naturales y con sentido desestimatorio",
         "Plena capacidad de obrar, no estar en prohibición de contratar y acreditar solvencia"
       ],
       "correcta": 3,
@@ -131,10 +131,10 @@
     {
       "pregunta": "¿Cómo se distingue la cesión de la subcontratación?",
       "opciones": [
-        "Son lo mismo",
+        "En la cesión el contrato pasa a otro; en la subcontratación el contratista sigue responsable, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "En la cesión el contrato pasa a otro; en la subcontratación el contratista sigue responsable",
-        "En la subcontratación el contrato pasa a otro",
-        "No se distinguen"
+        "En la cesión el contrato pasa a otro; en la subcontratación el contratista sigue responsable, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "En la cesión el contrato pasa a otro; en la subcontratación el contratista sigue responsable, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "En la cesión (art. 214 LCSP) el contrato se transmite a otro; en la subcontratación (art. 215 LCSP) el contratista sigue respondiendo ante la Administración.",
@@ -143,10 +143,10 @@
     {
       "pregunta": "¿Cuál es una prerrogativa del órgano de contratación?",
       "opciones": [
-        "Firmar los planos",
-        "Ser el contratista",
+        "Interpretar el contrato y modificarlo por interés público, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Interpretar el contrato y modificarlo por interés público, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Interpretar el contrato y modificarlo por interés público",
-        "Cobrar el precio"
+        "Interpretar el contrato y modificarlo por interés público, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 190.1 LCSP atribuye al órgano de contratación la prerrogativa de interpretar el contrato y modificarlo por razones de interés público.",
@@ -155,10 +155,10 @@
     {
       "pregunta": "¿En qué se acredita la solvencia técnica en contratos de obras?",
       "opciones": [
-        "Solo en el precio",
-        "En la edad del director",
+        "En la relación de obras ejecutadas en los últimos cinco años con certificados de buena ejecución, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "En la relación de obras ejecutadas en los últimos cinco años con certificados de buena ejecución, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "En la relación de obras ejecutadas en los últimos cinco años con certificados de buena ejecución",
-        "En el número de empleados"
+        "En la relación de obras ejecutadas en los últimos cinco años con certificados de buena ejecución, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 88.1 LCSP acredita la solvencia técnica en obras con la relación de obras ejecutadas en los últimos cinco años, avalada por certificados de buena ejecución.",
@@ -167,9 +167,9 @@
     {
       "pregunta": "¿Qué obligación tiene el contratista respecto a los subcontratistas?",
       "opciones": [
-        "No pagarles nunca",
-        "Pagar solo al final de la obra sin plazos",
-        "Pagarles lo que quiera",
+        "Pagarles el precio pactado en los plazos legales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Pagarles el precio pactado en los plazos legales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Pagarles el precio pactado en los plazos legales, computándose los plazos en días naturales y con sentido desestimatorio",
         "Pagarles el precio pactado en los plazos legales"
       ],
       "correcta": 3,
@@ -179,10 +179,10 @@
     {
       "pregunta": "¿Quiénes son las partes de un contrato de obras?",
       "opciones": [
-        "El vecino y el alcalde",
+        "La Administración, a través de su órgano de contratación, y el contratista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La Administración, a través de su órgano de contratación, y el contratista",
-        "El arquitecto y el Defensor del Pueblo",
-        "Nadie"
+        "La Administración, a través de su órgano de contratación, y el contratista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La Administración, a través de su órgano de contratación, y el contratista, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las partes son la Administración, a través de su órgano de contratación, y el contratista.",
@@ -192,9 +192,9 @@
       "pregunta": "¿Qué órgano es la mesa de contratación?",
       "opciones": [
         "Un órgano de asistencia al órgano de contratación",
-        "Un órgano judicial",
-        "Un órgano de la policía",
-        "Un órgano de vecinos"
+        "Un órgano de asistencia al órgano de contratación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un órgano de asistencia al órgano de contratación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un órgano de asistencia al órgano de contratación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La mesa de contratación es un órgano de asistencia.",
@@ -216,9 +216,9 @@
       "pregunta": "¿Dónde se difunde el perfil de contratante?",
       "opciones": [
         "En Internet",
-        "En el tablón de la iglesia",
-        "En el periódico de papel únicamente",
-        "No se difunde"
+        "En Internet, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "En Internet, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "En Internet, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El perfil de contratante se difunde por Internet.",
@@ -227,10 +227,10 @@
     {
       "pregunta": "¿Qué debe acreditar el contratista para contratar?",
       "opciones": [
-        "Ser del mismo pueblo",
+        "Plena capacidad de obrar, no estar incurso en prohibición y solvencia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Plena capacidad de obrar, no estar incurso en prohibición y solvencia",
-        "Tener un perro",
-        "Nada"
+        "Plena capacidad de obrar, no estar incurso en prohibición y solvencia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Plena capacidad de obrar, no estar incurso en prohibición y solvencia, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El contratista debe tener plena capacidad, no estar prohibido y acreditar solvencia.",
@@ -240,9 +240,9 @@
       "pregunta": "¿Qué solvencia técnica se exige en obras?",
       "opciones": [
         "La relación de obras de los últimos cinco años con certificados",
-        "Ninguna",
-        "Un currículum de la familia",
-        "La afición al fútbol"
+        "La relación de obras de los últimos cinco años con certificados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La relación de obras de los últimos cinco años con certificados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La relación de obras de los últimos cinco años con certificados, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La solvencia técnica en obras se acredita con la relación de obras de los últimos cinco años.",
@@ -251,10 +251,10 @@
     {
       "pregunta": "¿Qué se forma cuando varios empresarios se unen temporalmente?",
       "opciones": [
-        "Un sindicato",
+        "Una unión temporal de empresarios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Una unión temporal de empresarios",
-        "Un club deportivo",
-        "Una comunidad de vecinos"
+        "Una unión temporal de empresarios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una unión temporal de empresarios, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La unión temporal de empresarios permite contratar varias empresas conjuntamente.",
@@ -263,10 +263,10 @@
     {
       "pregunta": "¿Qué prerrogativas tiene el órgano de contratación?",
       "opciones": [
-        "Ninguna",
-        "Solo cobrar",
+        "Interpretar, modificar por interés público, suspender y resolver, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Interpretar, modificar por interés público, suspender y resolver, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Interpretar, modificar por interés público, suspender y resolver",
-        "Solo multar al vecino"
+        "Interpretar, modificar por interés público, suspender y resolver, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El órgano tiene las prerrogativas de interpretar, modificar, suspender y resolver.",
@@ -276,9 +276,9 @@
       "pregunta": "¿Qué ocurre con el contrato si una empresa se fusiona?",
       "opciones": [
         "El contrato continúa",
-        "El contrato se rompe",
-        "El contrato se vende",
-        "Nada"
+        "El contrato continúa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El contrato continúa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El contrato continúa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "En la sucesión por fusión el contrato continúa.",
@@ -287,10 +287,10 @@
     {
       "pregunta": "¿Qué es la cesión de un contrato?",
       "opciones": [
-        "Un regalo de navidad",
+        "La transmisión del contrato a otro, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La transmisión del contrato a otro",
-        "Un préstamo de dinero",
-        "Una multa"
+        "La transmisión del contrato a otro, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La transmisión del contrato a otro, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La cesión es la transmisión del contrato a otro.",
@@ -299,10 +299,10 @@
     {
       "pregunta": "¿Bajo qué responsabilidad se subcontrata una obra?",
       "opciones": [
-        "Bajo la responsabilidad del vecino",
-        "Bajo la responsabilidad del Estado",
+        "Bajo la responsabilidad del contratista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Bajo la responsabilidad del contratista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Bajo la responsabilidad del contratista",
-        "Sin responsabilidad"
+        "Bajo la responsabilidad del contratista, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La subcontratación se hace bajo responsabilidad del contratista.",
@@ -311,9 +311,9 @@
     {
       "pregunta": "¿Cómo deben pagarse los subcontratistas?",
       "opciones": [
-        "Cuando quiera el contratista",
-        "Nunca",
-        "Con cartas de amor",
+        "En plazo, sin condiciones más desfavorables que la Ley 3/2004, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "En plazo, sin condiciones más desfavorables que la Ley 3/2004, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "En plazo, sin condiciones más desfavorables que la Ley 3/2004, computándose los plazos en días naturales y con sentido desestimatorio",
         "En plazo, sin condiciones más desfavorables que la Ley 3/2004"
       ],
       "correcta": 3,
@@ -324,9 +324,9 @@
       "pregunta": "¿Qué es el responsable del contrato en las obras?",
       "opciones": [
         "Quien supervisa la ejecución del contrato",
-        "El dueño del bar",
-        "El vecino",
-        "El cartero"
+        "Quien supervisa la ejecución del contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Quien supervisa la ejecución del contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Quien supervisa la ejecución del contrato, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El responsable del contrato supervisa la ejecución.",
@@ -335,10 +335,10 @@
     {
       "pregunta": "¿Quién ejerce las facultades del responsable del contrato en obras?",
       "opciones": [
-        "El vecino",
+        "El director facultativo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El director facultativo",
-        "El alcalde en persona",
-        "Nadie"
+        "El director facultativo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El director facultativo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "En las obras, sus facultades las ejerce el director facultativo.",
@@ -347,10 +347,10 @@
     {
       "pregunta": "¿Qué norma regula la dirección facultativa en la edificación?",
       "opciones": [
-        "La LEF",
-        "La LGS",
+        "La LOE, arts. 12 y 13, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La LOE, arts. 12 y 13, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La LOE, arts. 12 y 13",
-        "La Ley de Caza"
+        "La LOE, arts. 12 y 13, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La dirección facultativa se regula en los arts. 12 y 13 de la LOE.",
@@ -359,9 +359,9 @@
     {
       "pregunta": "¿Qué elemento de la contratación permite la prestación de garantía?",
       "opciones": [
-        "El menú",
-        "La lotería",
-        "Nada",
+        "Los abonos a cuenta por acopio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los abonos a cuenta por acopio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los abonos a cuenta por acopio, computándose los plazos en días naturales y con sentido desestimatorio",
         "Los abonos a cuenta por acopio"
       ],
       "correcta": 3,
@@ -372,9 +372,9 @@
       "pregunta": "¿Qué órgano asiste al órgano de contratación en la valoración de ofertas?",
       "opciones": [
         "La mesa de contratación",
-        "La Cámara de Cuentas",
-        "El Parlamento",
-        "El Tribunal Constitucional"
+        "La mesa de contratación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La mesa de contratación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La mesa de contratación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La mesa de contratación es el órgano de asistencia.",
@@ -383,33 +383,21 @@
     {
       "pregunta": "¿Qué se requiere para acreditar la solvencia técnica en obras?",
       "opciones": [
-        "Ninguna",
+        "Una relación de obras de los últimos cinco años con certificados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Una relación de obras de los últimos cinco años con certificados",
-        "Un currículum familiar",
-        "Una afición deportiva"
+        "Una relación de obras de los últimos cinco años con certificados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una relación de obras de los últimos cinco años con certificados, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Se acredita con la relación de obras de los últimos cinco años.",
       "referencia": "LCSP, art. 88.1"
     },
     {
-      "pregunta": "¿Qué tipo de unión permite a varias empresas contratar conjuntamente?",
-      "opciones": [
-        "Un sindicato",
-        "Un club deportivo",
-        "Una unión temporal de empresarios",
-        "Una comunidad de vecinos"
-      ],
-      "correcta": 2,
-      "explicacion": "La unión temporal de empresarios permite contratar conjuntamente.",
-      "referencia": "LCSP, art. 69.1"
-    },
-    {
       "pregunta": "¿Qué ley regula la contratación pública en España?",
       "opciones": [
-        "Ley 39/2015",
-        "Ley 38/2003",
-        "Ley 7/1985",
+        "Ley 9/2017, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Ley 9/2017, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Ley 9/2017, computándose los plazos en días naturales y con sentido desestimatorio",
         "Ley 9/2017"
       ],
       "correcta": 3,
@@ -419,10 +407,10 @@
     {
       "pregunta": "¿Quién es el órgano de contratación?",
       "opciones": [
-        "El contratista",
-        "El proveedor de materiales",
+        "Órgano competente de la Administración que celebra el contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Órgano competente de la Administración que celebra el contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Órgano competente de la Administración que celebra el contrato",
-        "El vecino afectado"
+        "Órgano competente de la Administración que celebra el contrato, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El órgano de contratación es el competente para adjudicar y celebrar el contrato.",
@@ -455,10 +443,10 @@
     {
       "pregunta": "¿Quién dirige técnicamente la obra en representación de la Administración?",
       "opciones": [
-        "El alcalde",
-        "El secretario del ayuntamiento",
+        "El director facultativo o responsable del contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El director facultativo o responsable del contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El director facultativo o responsable del contrato",
-        "El interventor general"
+        "El director facultativo o responsable del contrato, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El responsable del contrato supervisa la ejecución en nombre de la Administración.",
@@ -467,9 +455,9 @@
     {
       "pregunta": "¿Qué parte del contrato ejecuta la obra?",
       "opciones": [
-        "El órgano de contratación",
-        "La intervención",
-        "El Registro",
+        "El contratista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El contratista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El contratista, computándose los plazos en días naturales y con sentido desestimatorio",
         "El contratista"
       ],
       "correcta": 3,
@@ -492,9 +480,9 @@
       "pregunta": "¿Qué garantía se exige al licitador antes de la adjudicación?",
       "opciones": [
         "Garantía provisional o definitiva",
-        "Un aval de cortesía sin importe",
-        "Un seguro de viaje",
-        "Ninguna garantía"
+        "Garantía provisional o definitiva, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Garantía provisional o definitiva, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Garantía provisional o definitiva, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las garantías aseguran el cumplimiento de la oferta y del contrato.",
@@ -515,10 +503,10 @@
     {
       "pregunta": "¿A partir de qué valor estimado es exigible la clasificación en los contratos de obras?",
       "opciones": [
-        "Igual o superior a 40.000 euros",
-        "Superior a 5 millones",
+        "Igual o superior a 500.000 euros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Igual o superior a 500.000 euros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Igual o superior a 500.000 euros",
-        "Nunca"
+        "Igual o superior a 500.000 euros, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Para contratos de obras de valor estimado igual o superior a 500.000 euros es requisito indispensable la clasificación.",
@@ -527,9 +515,9 @@
     {
       "pregunta": "¿Cuándo deben las uniones temporales de empresarios formalizar su unión en escritura pública?",
       "opciones": [
-        "Antes de presentar la oferta",
-        "Nunca",
-        "Al recibir la obra",
+        "Una vez efectuada la adjudicación a su favor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una vez efectuada la adjudicación a su favor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Una vez efectuada la adjudicación a su favor, computándose los plazos en días naturales y con sentido desestimatorio",
         "Una vez efectuada la adjudicación a su favor"
       ],
       "correcta": 3,
@@ -537,24 +525,12 @@
       "referencia": "LCSP, art. 69.1"
     },
     {
-      "pregunta": "En el ámbito de «Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores.» (Ejecución), ¿qué establece la normativa respecto a «Prerrogativas»?",
-      "opciones": [
-        "Interpretar, modificar por interés público, suspender y resolver (art. 190.1).",
-        "Es la Administración, a través de su órgano de contratación, y el contratista.",
-        "Regula la mesa especial del diálogo competitivo y de la asociación para la innovación.",
-        "Regula el procedimiento de ejercicio de las prerrogativas."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «Prerrogativas» (Ejecución), la regulación vigente establece que: Interpretar, modificar por interés público, suspender y resolver (art. 190.1).",
-      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
-    },
-    {
       "pregunta": "Dentro de la materia «Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores.» (Ejecución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Interpretar, modificar por interés público, suspender y resolver (art. 190.1).»?",
       "opciones": [
-        "La respuesta.",
+        "Prerrogativas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Prerrogativas.",
-        "El artículo 327.",
-        "El artículo 191."
+        "Prerrogativas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Prerrogativas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Interpretar, modificar por interés público, suspender y resolver (art. 190.1).») define o regula específicamente a «Prerrogativas» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -575,9 +551,9 @@
     {
       "pregunta": "Dentro de la materia «Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores.» (Ejecución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Continúa el contrato (art. 98.1).»?",
       "opciones": [
-        "El responsable del contrato y la dirección facultativa no.",
-        "Los órganos consultivos.",
-        "El artículo 192.",
+        "Sucesión por fusión, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sucesión por fusión, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sucesión por fusión, computándose los plazos en días naturales y con sentido desestimatorio",
         "Sucesión por fusión."
       ],
       "correcta": 3,
@@ -599,10 +575,10 @@
     {
       "pregunta": "Dentro de la materia «Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores.» (Las partes en el contrato de obras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula por el contrato, por los pliegos y por la propia ley.»?",
       "opciones": [
-        "La mesa de contratación.",
+        "La relación entre ambos se, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La relación entre ambos se.",
-        "El primero.",
-        "El artículo 194."
+        "La relación entre ambos se, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La relación entre ambos se, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Regula por el contrato, por los pliegos y por la propia ley.») define o regula específicamente a «La relación entre ambos se» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -623,9 +599,9 @@
     {
       "pregunta": "Dentro de la materia «Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores.» (Las partes en el contrato de obras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la Administración, a través de su órgano de contratación, y el contratista.»?",
       "opciones": [
-        "El artículo 327.",
-        "El artículo 191.",
-        "El artículo 195.",
+        "La respuesta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La respuesta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La respuesta, computándose los plazos en días naturales y con sentido desestimatorio",
         "La respuesta."
       ],
       "correcta": 3,
@@ -647,10 +623,10 @@
     {
       "pregunta": "Dentro de la materia «Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores.» (Las partes en el contrato de obras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son partes, sino agentes que actúan por cuenta de la Administración.»?",
       "opciones": [
-        "Los órganos consultivos.",
+        "El responsable del contrato y la dirección facultativa no, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El responsable del contrato y la dirección facultativa no.",
-        "El artículo 192.",
-        "El artículo 196 LCSP."
+        "El responsable del contrato y la dirección facultativa no, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El responsable del contrato y la dirección facultativa no, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Son partes, sino agentes que actúan por cuenta de la Administración.») define o regula específicamente a «el responsable del contrato y la dirección facultativa no» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -669,18 +645,6 @@
       "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     },
     {
-      "pregunta": "Dentro de la materia «Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores.» (Órganos de asistencia y órganos consultivos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un órgano de asistencia, no de decisión.»?",
-      "opciones": [
-        "El primero.",
-        "El artículo 194.",
-        "El artículo 197 consagra el principio de riesgo y ventura.",
-        "La mesa de contratación."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Es un órgano de asistencia, no de decisión.») define o regula específicamente a «La mesa de contratación» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
-      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
-    },
-    {
       "pregunta": "En el ámbito de «Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores.» (Órganos de asistencia y órganos consultivos), ¿qué establece la normativa respecto a «El artículo 327»?",
       "opciones": [
         "Regula la mesa especial del diálogo competitivo y de la asociación para la innovación.",
@@ -695,10 +659,10 @@
     {
       "pregunta": "Dentro de la materia «Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores.» (Órganos de asistencia y órganos consultivos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la mesa especial del diálogo competitivo y de la asociación para la innovación.»?",
       "opciones": [
-        "El artículo 191.",
+        "El artículo 327, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El artículo 327.",
-        "El artículo 195.",
-        "Para un examen, el orden de respuesta es."
+        "El artículo 327, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El artículo 327, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Regula la mesa especial del diálogo competitivo y de la asociación para la innovación.») define o regula específicamente a «El artículo 327» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -719,9 +683,9 @@
     {
       "pregunta": "Dentro de la materia «Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores.» (Órganos de asistencia y órganos consultivos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los que informan sobre la contratación sin decidir.»?",
       "opciones": [
-        "El artículo 192.",
-        "El artículo 196 LCSP.",
-        "Su finalidad.",
+        "Los órganos consultivos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los órganos consultivos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los órganos consultivos, computándose los plazos en días naturales y con sentido desestimatorio",
         "Los órganos consultivos."
       ],
       "correcta": 3,
@@ -743,10 +707,10 @@
     {
       "pregunta": "Dentro de la materia «Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores.» (Dirección, inspección y facultades del órgano de contratación en la ejecución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el responsable del contrato, que supervisa la ejecución (art. 62.1 LCSP).»?",
       "opciones": [
-        "El artículo 194.",
+        "El primero, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El primero.",
-        "El artículo 197 consagra el principio de riesgo y ventura.",
-        "Para un examen, la diferencia con la subcontratación es esencial."
+        "El primero, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El primero, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es el responsable del contrato, que supervisa la ejecución (art. 62.1 LCSP).») define o regula específicamente a «El primero» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -767,13 +731,49 @@
     {
       "pregunta": "Dentro de la materia «Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores.» (Resolución de incidencias en la ejecución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula el procedimiento de ejercicio de las prerrogativas.»?",
       "opciones": [
-        "El artículo 195.",
-        "Para un examen, el orden de respuesta es.",
-        "El artículo 217 LCSP.",
+        "El artículo 191, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El artículo 191, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El artículo 191, computándose los plazos en días naturales y con sentido desestimatorio",
         "El artículo 191."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Regula el procedimiento de ejercicio de las prerrogativas.») define o regula específicamente a «El artículo 191» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En relación con «El artículo 192» (Resolución de incidencias en la ejecución), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Regula el incumplimiento parcial o el cumplimiento defectuoso.",
+        "Regula el incumplimiento parcial o el cumplimiento defectuoso, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Regula el incumplimiento parcial o el cumplimiento defectuoso, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Regula el incumplimiento parcial o el cumplimiento defectuoso, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El artículo 192» (Resolución de incidencias en la ejecución), la regulación vigente establece que: Regula el incumplimiento parcial o el cumplimiento defectuoso.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En relación con «El artículo 194» (Resolución de incidencias en la ejecución), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Regula los daños y perjuicios y la imposición de penalidades, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Regula los daños y perjuicios y la imposición de penalidades, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Regula los daños y perjuicios y la imposición de penalidades.",
+        "Regula los daños y perjuicios y la imposición de penalidades, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El artículo 194» (Resolución de incidencias en la ejecución), la regulación vigente establece que: Regula los daños y perjuicios y la imposición de penalidades.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Resolución de incidencias en la ejecución» (Las partes en el contrato de obras. Órganos competentes en materia de contratación. Órganos de contratación, de asistencia y consultivos. El órgano de contratación: Competencia para contratar, responsable del contrato, perfil de contratante. Capacidad y solvencia del empresario: Aptitud para contratar con el sector público, acreditación. Sucesión en la persona del contratista, supuestos. Dirección e inspección de la ejecución. Facultades del órgano de contratación en la ejecución del contrato. Resolución de incidencias surgidas en la ejecución de los contratos. Cesión de los contratos y subcontratación. Pagos a subcontratistas y suministradores. Comprobación de los pagos a los subcontratistas o suministradores.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Regula los daños y perjuicios y la imposición de penalidades.»?",
+      "opciones": [
+        "El artículo 196 LCSP.",
+        "Para un examen, el orden de respuesta es.",
+        "Para un examen, la diferencia con la subcontratación es esencial.",
+        "El artículo 194."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha regulación («Regula los daños y perjuicios y la imposición de penalidades.») define o regula específicamente a «El artículo 194» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
       "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     }
   ]

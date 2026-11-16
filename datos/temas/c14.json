@@ -53,10 +53,10 @@
     {
       "pregunta": "Según el art. 4.1 LPAC, ¿quién es interesado en el procedimiento?",
       "opciones": [
-        "Solo quien inicia el procedimiento",
-        "Solo los abogados",
+        "Quien tiene derechos o intereses legítimos afectados por la decisión, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Quien tiene derechos o intereses legítimos afectados por la decisión, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Quien tiene derechos o intereses legítimos afectados por la decisión",
-        "Solo las empresas"
+        "Quien tiene derechos o intereses legítimos afectados por la decisión, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 4.1 LPAC considera interesados a quienes promueven el procedimiento como titulares de derechos o intereses legítimos, a quienes tienen derechos afectados y a quienes tienen intereses legítimos que puedan resultar afectados.",
@@ -65,9 +65,9 @@
     {
       "pregunta": "¿En qué plazo debe subsanarse una solicitud incompleta?",
       "opciones": [
-        "Un mes",
-        "Tres meses",
-        "Cinco días",
+        "Diez días, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Diez días, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Diez días, computándose los plazos en días naturales y con sentido desestimatorio",
         "Diez días"
       ],
       "correcta": 3,
@@ -77,9 +77,9 @@
     {
       "pregunta": "¿Qué plazo tiene el trámite de audiencia?",
       "opciones": [
-        "Entre tres y cinco días",
-        "Un mes",
-        "Quince minutos",
+        "Entre diez y diez días hábiles",
+        "Entre diez y cuarenta y cinco días naturales hábiles naturales",
+        "Entre diez y quince días naturales naturales",
         "Entre diez y quince días"
       ],
       "correcta": 3,
@@ -89,10 +89,10 @@
     {
       "pregunta": "¿Cuál es el plazo para declarar la caducidad en un procedimiento paralizado por causa del interesado?",
       "opciones": [
-        "Un mes",
-        "Dos meses",
+        "tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación",
+        "dos meses contados desde la entrada en el registro del órgano competente",
         "Tres meses",
-        "Seis meses"
+        "un mes improrrogable desde la presentación de la solicitud"
       ],
       "correcta": 2,
       "explicacion": "El art. 95.1 LPAC establece que, transcurridos tres meses desde la advertencia, se produce la caducidad del procedimiento.",
@@ -101,10 +101,10 @@
     {
       "pregunta": "¿Quién debe abstenerse de intervenir en un procedimiento?",
       "opciones": [
-        "El interesado",
+        "La autoridad o personal en quien concurre una causa de abstención, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La autoridad o personal en quien concurre una causa de abstención",
-        "El secretario del ayuntamiento",
-        "El ciudadano que denuncia"
+        "La autoridad o personal en quien concurre una causa de abstención, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La autoridad o personal en quien concurre una causa de abstención, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El art. 23.1 LRJSP establece que las autoridades y el personal en quienes concurran causas de abstención deben abstenerse y comunicarlo a su superior.",
@@ -113,10 +113,10 @@
     {
       "pregunta": "¿Quién promueve la recusación?",
       "opciones": [
-        "El funcionario",
-        "El superior",
+        "El interesado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El interesado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El interesado",
-        "El juez de oficio"
+        "El interesado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 24.1 LRJSP establece que la recusación puede promoverla el interesado en cualquier momento de la tramitación.",
@@ -149,9 +149,9 @@
     {
       "pregunta": "¿Quién impulsa el procedimiento?",
       "opciones": [
-        "El interesado exclusivamente",
-        "El notario",
-        "El Consejo de Estado",
+        "La Administración, de oficio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La Administración, de oficio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La Administración, de oficio, computándose los plazos en días naturales y con sentido desestimatorio",
         "La Administración, de oficio"
       ],
       "correcta": 3,
@@ -185,10 +185,10 @@
     {
       "pregunta": "¿Quiénes son interesados en un procedimiento administrativo?",
       "opciones": [
-        "Solo los funcionarios",
+        "Titulares de derechos o intereses legítimos afectados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Titulares de derechos o intereses legítimos afectados",
-        "Solo los partidos políticos",
-        "Solo los abogados"
+        "Titulares de derechos o intereses legítimos afectados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Titulares de derechos o intereses legítimos afectados, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Son interesados los titulares de derechos o intereses legítimos, o quienes tienen derechos que puedan resultar afectados.",
@@ -198,9 +198,9 @@
       "pregunta": "¿Quién inicia la abstención de un funcionario en un procedimiento?",
       "opciones": [
         "El propio funcionario o autoridad",
-        "El interesado",
-        "El juez de paz",
-        "El alcalde siempre"
+        "El propio funcionario o autoridad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El propio funcionario o autoridad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El propio funcionario o autoridad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La abstención la inicia el propio funcionario o autoridad.",
@@ -222,9 +222,9 @@
       "pregunta": "¿Qué derecho tiene el interesado respecto a los documentos que ya obran en poder de la Administración?",
       "opciones": [
         "No tiene que presentarlos de nuevo",
-        "Debe presentarlos siempre",
-        "Debe pagar una tasa",
-        "Debe notariarlos"
+        "No tiene que presentarlos de nuevo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No tiene que presentarlos de nuevo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No tiene que presentarlos de nuevo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El interesado no tiene que presentar documentos que ya estén en poder de la Administración.",
@@ -233,10 +233,10 @@
     {
       "pregunta": "¿En qué plazo debe subsanarse una solicitud defectuosa?",
       "opciones": [
-        "Un año",
+        "Diez días, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Diez días",
-        "Dos meses",
-        "Un día"
+        "Diez días, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Diez días, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La subsanación se hace en el plazo de diez días.",
@@ -246,9 +246,9 @@
       "pregunta": "¿Cómo puede iniciarse un procedimiento administrativo?",
       "opciones": [
         "De oficio o a solicitud del interesado",
-        "Solo a solicitud del Gobierno",
-        "Solo por denuncia anónima",
-        "Solo por sorteo"
+        "De oficio o a solicitud del interesado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "De oficio o a solicitud del interesado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "De oficio o a solicitud del interesado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El procedimiento puede iniciarse de oficio o a solicitud del interesado.",
@@ -270,9 +270,9 @@
       "pregunta": "¿Qué trámite permite a los interesados presentar alegaciones durante la instrucción?",
       "opciones": [
         "Las alegaciones",
-        "El silencio",
-        "La caducidad",
-        "La avocación"
+        "Las alegaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las alegaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las alegaciones, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Durante la instrucción los interesados pueden presentar alegaciones.",
@@ -281,33 +281,21 @@
     {
       "pregunta": "¿Qué trámite de la instrucción permite aportar pruebas?",
       "opciones": [
-        "La avocación",
+        "La prueba, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La prueba",
-        "La delegación",
-        "La recusación"
+        "La prueba, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La prueba, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La prueba es un trámite de la instrucción.",
       "referencia": "Art. 77 LPAC"
     },
     {
-      "pregunta": "¿Qué plazo mínimo tiene el trámite de audiencia?",
-      "opciones": [
-        "Un día",
-        "Dos meses",
-        "Entre diez y quince días",
-        "Un año"
-      ],
-      "correcta": 2,
-      "explicacion": "El trámite de audiencia tiene un plazo de entre diez y quince días.",
-      "referencia": "Art. 82.2 LPAC"
-    },
-    {
       "pregunta": "¿Cuáles son las formas de terminación del procedimiento?",
       "opciones": [
-        "Solo la resolución",
-        "Solo el silencio",
-        "Solo la recusación",
+        "Resolución, desistimiento, renuncia y caducidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Resolución, desistimiento, renuncia y caducidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Resolución, desistimiento, renuncia y caducidad, computándose los plazos en días naturales y con sentido desestimatorio",
         "Resolución, desistimiento, renuncia y caducidad"
       ],
       "correcta": 3,
@@ -318,9 +306,9 @@
       "pregunta": "¿En qué plazo caduca un procedimiento iniciado de oficio sin resolución, en el caso general?",
       "opciones": [
         "Tres meses",
-        "Un día",
-        "Diez años",
-        "Un año exacto"
+        "tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación",
+        "dos meses contados desde la entrada en el registro del órgano competente",
+        "un mes improrrogable desde la presentación de la solicitud"
       ],
       "correcta": 0,
       "explicacion": "En el caso general, el procedimiento de oficio caduca a los tres meses.",
@@ -341,10 +329,10 @@
     {
       "pregunta": "¿Qué derechos tienen las personas en su relación con las Administraciones públicas?",
       "opciones": [
-        "Solo el derecho a votar",
-        "Solo el derecho de petición",
+        "Tratamiento respetuoso, protección de datos, medios electrónicos y lengua oficial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Tratamiento respetuoso, protección de datos, medios electrónicos y lengua oficial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Tratamiento respetuoso, protección de datos, medios electrónicos y lengua oficial",
-        "Ninguno"
+        "Tratamiento respetuoso, protección de datos, medios electrónicos y lengua oficial, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 13 LPAC recoge derechos de las personas ante las Administraciones.",
@@ -377,10 +365,10 @@
     {
       "pregunta": "¿Qué figura pone fin al procedimiento cuando el interesado renuncia a sus derechos?",
       "opciones": [
-        "La caducidad",
+        "La renuncia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La renuncia",
-        "La recusación",
-        "La avocación"
+        "La renuncia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La renuncia, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La renuncia es una forma de terminación del procedimiento.",
@@ -389,10 +377,10 @@
     {
       "pregunta": "¿Qué figura pone fin al procedimiento cuando el interesado pide su conclusión?",
       "opciones": [
-        "La caducidad",
-        "La recusación",
+        "El desistimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El desistimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El desistimiento",
-        "La delegación"
+        "El desistimiento, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El desistimiento pone fin al procedimiento por petición del interesado.",
@@ -401,9 +389,9 @@
     {
       "pregunta": "¿Qué norma regula el procedimiento común administrativo?",
       "opciones": [
-        "La Ley de Enjuiciamiento Civil",
-        "El Código Penal",
-        "La Ley Hipotecaria",
+        "La Ley 39/2015 (LPAC), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La Ley 39/2015 (LPAC), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La Ley 39/2015 (LPAC), computándose los plazos en días naturales y con sentido desestimatorio",
         "La Ley 39/2015 (LPAC)"
       ],
       "correcta": 3,
@@ -426,9 +414,9 @@
       "pregunta": "¿Qué órgano consultivo puede emitir informes en el procedimiento administrativo?",
       "opciones": [
         "Los órganos consultivos competentes",
-        "El Tribunal de Cuentas",
-        "El Defensor del Pueblo",
-        "El Senado"
+        "Los órganos consultivos competentes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los órganos consultivos competentes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los órganos consultivos competentes, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "En el procedimiento pueden emitirse informes de los órganos consultivos competentes.",
@@ -437,10 +425,10 @@
     {
       "pregunta": "¿Qué plazo máximo se aplica por defecto cuando no existe plazo específico para resolver?",
       "opciones": [
-        "Un mes",
+        "tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación",
         "Tres meses",
-        "Seis meses",
-        "Un año"
+        "dos meses contados desde la entrada en el registro del órgano competente",
+        "un mes improrrogable desde la presentación de la solicitud"
       ],
       "correcta": 1,
       "explicacion": "Cuando no hay plazo específico, el plazo máximo para resolver es de tres meses.",
@@ -449,10 +437,10 @@
     {
       "pregunta": "¿Qué efecto tiene por regla general el silencio en los procedimientos iniciados a solicitud del interesado según la Ley 39/2015?",
       "opciones": [
-        "Desestimatorio siempre",
-        "Ninguno",
+        "desestimatorio por afectar a facultades de servicio público, con las excepciones previstas",
+        "desestimatorio salvo que se haya constituido garantía definitiva previa, con las excepciones previstas",
         "Estimatorio, con las excepciones previstas",
-        "Sancionador"
+        "Estimatorio, con las excepciones previstas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Con la Ley 39/2015, el silencio es por regla general estimatorio, con excepciones legales.",
@@ -486,9 +474,9 @@
       "pregunta": "¿Qué principio rige la tramitación para evitar dilaciones innecesarias?",
       "opciones": [
         "Celeridad",
-        "Lentitud",
-        "Secreto",
-        "Reserva"
+        "Celeridad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Celeridad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Celeridad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El principio de celeridad exige agilizar la tramitación sin dilaciones.",
@@ -497,10 +485,10 @@
     {
       "pregunta": "¿Qué plazo tiene el interesado para subsanar una solicitud defectuosa?",
       "opciones": [
-        "Un mes",
+        "Diez días, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Diez días",
-        "Tres días naturales",
-        "Seis meses"
+        "Diez días, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Diez días, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El interesado dispone de diez días para subsanar la solicitud.",
@@ -509,10 +497,10 @@
     {
       "pregunta": "¿Qué es el trámite de audiencia en el procedimiento?",
       "opciones": [
-        "Juicio oral",
-        "Subasta pública",
+        "Derecho del interesado a alegar antes de la resolución, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Derecho del interesado a alegar antes de la resolución, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Derecho del interesado a alegar antes de la resolución",
-        "Votación popular"
+        "Derecho del interesado a alegar antes de la resolución, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El trámite de audiencia permite al interesado alegar y presentar documentos antes de resolver.",
@@ -521,9 +509,9 @@
     {
       "pregunta": "¿Qué días se excluyen del cómputo cuando los plazos se señalan por días?",
       "opciones": [
-        "Solo los domingos",
-        "Ninguno",
-        "Los lunes",
+        "Sábados, domingos y festivos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sábados, domingos y festivos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sábados, domingos y festivos, computándose los plazos en días naturales y con sentido desestimatorio",
         "Sábados, domingos y festivos"
       ],
       "correcta": 3,
@@ -545,10 +533,10 @@
     {
       "pregunta": "Dentro de la materia «El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.» (Interesados, abstención y recusación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Titulares de derechos o intereses legítimos, o quienes tienen derechos afectados (art. 4.1 LPAC).»?",
       "opciones": [
-        "Derechos de las personas.",
+        "Interesados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Interesados.",
-        "El procedimiento administrativo.",
-        "El segundo."
+        "Interesados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Interesados, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Titulares de derechos o intereses legítimos, o quienes tienen derechos afectados (art. 4.1 LPAC).») define o regula específicamente a «Interesados» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
@@ -569,9 +557,9 @@
     {
       "pregunta": "Dentro de la materia «El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.» (Interesados, abstención y recusación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La inicia el funcionario o autoridad (art. 23 LRJSP).»?",
       "opciones": [
-        "Instrucción.",
-        "No es un simple conjunto de formalidades.",
-        "El tercero.",
+        "Abstención, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Abstención, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Abstención, computándose los plazos en días naturales y con sentido desestimatorio",
         "Abstención."
       ],
       "correcta": 3,
@@ -593,33 +581,21 @@
     {
       "pregunta": "Dentro de la materia «El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.» (Derechos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Conocer el estado de la tramitación, acceder al expediente, no presentar documentos ya en poder de la Administración, alegar y aportar documentos (art. 53.1 LPAC).»?",
       "opciones": [
-        "Terminación.",
+        "Derechos del interesado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Derechos del interesado.",
-        "El primero.",
-        "El artículo 71.1 LPAC establece el principio de impulso."
+        "Derechos del interesado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Derechos del interesado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Conocer el estado de la tramitación, acceder al expediente, no presentar documentos ya en poder de la Administración, alegar y aportar documentos (art. 53.1 LPAC).») define o regula específicamente a «Derechos del interesado» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
       "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
     },
     {
-      "pregunta": "En el ámbito de «El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.» (Derechos), ¿qué establece la normativa respecto a «Derechos de las personas»?",
-      "opciones": [
-        "Es la serie ordenada de actos y trámites que conducen a una resolución de la Administración.",
-        "Es la legalidad y la objetividad de la decisión, que se consiguen con reglas de competencia, de motivación y de control.",
-        "Tratamiento respetuoso, protección de datos, medios electrónicos, lengua oficial (art. 13 LPAC).",
-        "Regula el cumplimiento de trámites, que deben cumplirse en el plazo señalado y de forma que no obstaculice la tramitación."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «Derechos de las personas» (Derechos), la regulación vigente establece que: Tratamiento respetuoso, protección de datos, medios electrónicos, lengua oficial (art. 13 LPAC).",
-      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
-    },
-    {
       "pregunta": "Dentro de la materia «El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.» (Derechos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Tratamiento respetuoso, protección de datos, medios electrónicos, lengua oficial (art. 13 LPAC).»?",
       "opciones": [
-        "El procedimiento administrativo.",
-        "El segundo.",
-        "El artículo 73.",
+        "Derechos de las personas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Derechos de las personas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Derechos de las personas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Derechos de las personas."
       ],
       "correcta": 3,
@@ -641,10 +617,10 @@
     {
       "pregunta": "Dentro de la materia «El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.» (Fases), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Alegaciones (art. 76), prueba (art. 77), informes (art. 80).»?",
       "opciones": [
-        "No es un simple conjunto de formalidades.",
+        "Instrucción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Instrucción.",
-        "El tercero.",
-        "El principio de audiencia."
+        "Instrucción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Instrucción, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Alegaciones (art. 76), prueba (art. 77), informes (art. 80).») define o regula específicamente a «Instrucción» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
@@ -665,9 +641,9 @@
     {
       "pregunta": "Dentro de la materia «El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.» (Fases), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Resolución, desistimiento, renuncia, caducidad (art. 84.1).»?",
       "opciones": [
-        "El primero.",
-        "El artículo 71.1 LPAC establece el principio de impulso.",
-        "El artículo 6.",
+        "Terminación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Terminación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Terminación, computándose los plazos en días naturales y con sentido desestimatorio",
         "Terminación."
       ],
       "correcta": 3,
@@ -689,10 +665,10 @@
     {
       "pregunta": "Dentro de la materia «El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.» (Naturaleza y fines del procedimiento administrativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la serie ordenada de actos y trámites que conducen a una resolución de la Administración.»?",
       "opciones": [
-        "El segundo.",
+        "El procedimiento administrativo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El procedimiento administrativo.",
-        "El artículo 73.",
-        "La respuesta."
+        "El procedimiento administrativo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El procedimiento administrativo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es la serie ordenada de actos y trámites que conducen a una resolución de la Administración.») define o regula específicamente a «El procedimiento administrativo» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
@@ -713,9 +689,9 @@
     {
       "pregunta": "Dentro de la materia «El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.» (Naturaleza y fines del procedimiento administrativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la forma en que la Administración ejerce sus potestades y en que los ciudadanos hacen valer sus derechos frente a ella.»?",
       "opciones": [
-        "El tercero.",
-        "El principio de audiencia.",
-        "El artículo 54 LPAC establece las clases de iniciación.",
+        "No es un simple conjunto de formalidades, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No es un simple conjunto de formalidades, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No es un simple conjunto de formalidades, computándose los plazos en días naturales y con sentido desestimatorio",
         "No es un simple conjunto de formalidades."
       ],
       "correcta": 3,
@@ -737,10 +713,10 @@
     {
       "pregunta": "Dentro de la materia «El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.» (Naturaleza y fines del procedimiento administrativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la garantía de los derechos de los interesados, que pueden alegar, aportar pruebas y conocer el expediente.»?",
       "opciones": [
-        "El artículo 71.1 LPAC establece el principio de impulso.",
+        "El primero, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El primero.",
-        "El artículo 6.",
-        "El artículo 69."
+        "El primero, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El primero, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es la garantía de los derechos de los interesados, que pueden alegar, aportar pruebas y conocer el expediente.») define o regula específicamente a «El primero» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
@@ -761,13 +737,37 @@
     {
       "pregunta": "Dentro de la materia «El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento.» (Naturaleza y fines del procedimiento administrativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la legalidad y la objetividad de la decisión, que se consiguen con reglas de competencia, de motivación y de control.»?",
       "opciones": [
-        "El artículo 73.",
-        "La respuesta.",
-        "La ordenación del procedimiento.",
+        "El segundo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El segundo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El segundo, computándose los plazos en días naturales y con sentido desestimatorio",
         "El segundo."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Es la legalidad y la objetividad de la decisión, que se consiguen con reglas de competencia, de motivación y de control.») define o regula específicamente a «El segundo» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En relación con «El tercero» (Naturaleza y fines del procedimiento administrativo), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Es la eficacia, que exige resolver en plazo y con simplicidad, como exige el artículo 103.1 CE al referirse a la eficacia de la Administración, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Es la eficacia, que exige resolver en plazo y con simplicidad, como exige el artículo 103.1 CE al referirse a la eficacia de la Administración, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Es la eficacia, que exige resolver en plazo y con simplicidad, como exige el artículo 103.1 CE al referirse a la eficacia de la Administración.",
+        "Es la eficacia, que exige resolver en plazo y con simplicidad, como exige el artículo 103.1 CE al referirse a la eficacia de la Administración, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El tercero» (Naturaleza y fines del procedimiento administrativo), la regulación vigente establece que: Es la eficacia, que exige resolver en plazo y con simplicidad, como exige el artículo 103.1 CE al referirse a la eficacia de la Administración.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En relación con «El artículo 71.1 LPAC establece el principio de impulso» (Principios generales del procedimiento), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "El procedimiento, sometido al principio de celeridad, se impulsa de oficio en todos sus trámites y a través de medios electrónicos, respetando los principios de transparencia y publicidad, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "El procedimiento, sometido al principio de celeridad, se impulsa de oficio en todos sus trámites y a través de medios electrónicos, respetando los principios de transparencia y publicidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "El procedimiento, sometido al principio de celeridad, se impulsa de oficio en todos sus trámites y a través de medios electrónicos, respetando los principios de transparencia y publicidad.",
+        "El procedimiento, sometido al principio de celeridad, se impulsa de oficio en todos sus trámites y a través de medios electrónicos, respetando los principios de transparencia y publicidad, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El artículo 71.1 LPAC establece el principio de impulso» (Principios generales del procedimiento), la regulación vigente establece que: El procedimiento, sometido al principio de celeridad, se impulsa de oficio en todos sus trámites y a través de medios electrónicos, respetando los principios de transparencia y publicidad.",
       "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
     }
   ]

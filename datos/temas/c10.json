@@ -125,10 +125,10 @@
     {
       "pregunta": "¿Hasta qué ámbito geográfico alcanza la prohibición de restricciones a los movimientos de capitales?",
       "opciones": [
-        "Solo a los Estados miembros",
-        "Solo a terceros países",
+        "Entre Estados miembros y frente a terceros países, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Entre Estados miembros y frente a terceros países, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Entre Estados miembros y frente a terceros países",
-        "Solo al euro"
+        "Entre Estados miembros y frente a terceros países, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 63.1 TFUE prohíbe todas las restricciones a los movimientos de capitales entre Estados miembros y entre Estados miembros y terceros países.",
@@ -137,9 +137,9 @@
     {
       "pregunta": "¿Cuál de estas NO es una competencia exclusiva de la Unión según el art. 3.1 TFUE?",
       "opciones": [
-        "La unión aduanera",
-        "La política monetaria del euro",
-        "La conservación de los recursos biológicos marinos",
+        "La política de empleo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La política de empleo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La política de empleo, computándose los plazos en días naturales y con sentido desestimatorio",
         "La política de empleo"
       ],
       "correcta": 3,
@@ -161,10 +161,10 @@
     {
       "pregunta": "¿Qué duración mínima tiene el marco financiero plurianual de la Unión?",
       "opciones": [
-        "Un año",
-        "Tres años",
+        "Cinco años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cinco años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Cinco años",
-        "Diez años"
+        "Cinco años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 312.1 TFUE establece que el marco financiero plurianual se establece para un periodo mínimo de cinco años.",
@@ -185,26 +185,14 @@
     {
       "pregunta": "¿Qué tipo de competencia es el mercado interior?",
       "opciones": [
-        "Exclusiva",
+        "Compartida, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Compartida",
-        "De apoyo",
-        "Residual"
+        "Compartida, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Compartida, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El mercado interior es competencia compartida.",
       "referencia": "Art. 4.2 a) TFUE"
-    },
-    {
-      "pregunta": "¿Qué prohíbe la unión aduanera entre los Estados miembros?",
-      "opciones": [
-        "Los derechos de aduana y las exacciones de efecto equivalente",
-        "Las importaciones desde terceros países solo",
-        "Las exportaciones de servicios",
-        "Las medidas sanitarias"
-      ],
-      "correcta": 0,
-      "explicacion": "La unión aduanera prohíbe los derechos de aduana y exacciones de efecto equivalente entre Estados.",
-      "referencia": "Arts. 28 y 30 TFUE"
     },
     {
       "pregunta": "¿Qué libertad garantiza el art. 45 TFUE?",
@@ -217,18 +205,6 @@
       "correcta": 1,
       "explicacion": "El art. 45 TFUE garantiza la libre circulación de trabajadores.",
       "referencia": "Art. 45 TFUE"
-    },
-    {
-      "pregunta": "¿Qué tipo de actividad temporal o a distancia regula la libre prestación de servicios?",
-      "opciones": [
-        "La libre prestación de servicios",
-        "La actividad de establecimiento",
-        "La libre circulación de capitales",
-        "La libre circulación de mercancías"
-      ],
-      "correcta": 0,
-      "explicacion": "La libre prestación de servicios cubre la actividad temporal o a distancia.",
-      "referencia": "Art. 56 TFUE"
     },
     {
       "pregunta": "¿Qué libertad requiere presencia permanente en el Estado de acogida?",
@@ -245,10 +221,10 @@
     {
       "pregunta": "¿Frente a qué países se prohíben las restricciones a la circulación de capitales?",
       "opciones": [
-        "Solo frente a los Estados miembros",
-        "Solo frente a Estados Unidos",
+        "También frente a terceros países, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "También frente a terceros países, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "También frente a terceros países",
-        "Ninguno"
+        "También frente a terceros países, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las restricciones a los capitales están prohibidas también frente a terceros países.",
@@ -270,9 +246,9 @@
       "pregunta": "¿Qué competencia es exclusiva de la Unión?",
       "opciones": [
         "La unión aduanera",
-        "La política social",
-        "La cohesión",
-        "La agricultura"
+        "La unión aduanera, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La unión aduanera, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La unión aduanera, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La unión aduanera es competencia exclusiva de la Unión.",
@@ -281,10 +257,10 @@
     {
       "pregunta": "¿Qué competencia es compartida con los Estados?",
       "opciones": [
-        "La política monetaria del euro",
+        "La agricultura y pesca, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La agricultura y pesca",
-        "La unión aduanera",
-        "La política comercial común"
+        "La agricultura y pesca, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La agricultura y pesca, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La agricultura y la pesca son competencias compartidas.",
@@ -353,9 +329,9 @@
     {
       "pregunta": "¿Cuál es el periodo mínimo del marco financiero plurianual de la Unión?",
       "opciones": [
-        "Dos años",
-        "Tres años",
-        "Diez años",
+        "Cinco años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cinco años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cinco años, computándose los plazos en días naturales y con sentido desestimatorio",
         "Cinco años"
       ],
       "correcta": 3,
@@ -399,18 +375,6 @@
       "referencia": "Art. 3.1 TFUE"
     },
     {
-      "pregunta": "¿Qué libertad permite a los trabajadores de la Unión trabajar en otro Estado miembro sin discriminación por nacionalidad?",
-      "opciones": [
-        "La libertad de culto",
-        "La libertad de voto",
-        "La libertad de prensa",
-        "La libre circulación de trabajadores"
-      ],
-      "correcta": 3,
-      "explicacion": "El art. 45 TFUE prohíbe la discriminación por nacionalidad para los trabajadores.",
-      "referencia": "Art. 45 TFUE"
-    },
-    {
       "pregunta": "¿Qué libertad regula la prohibición de restricciones a los pagos entre Estados?",
       "opciones": [
         "La libre circulación de mercancías",
@@ -421,18 +385,6 @@
       "correcta": 2,
       "explicacion": "La libre circulación de capitales prohíbe restricciones a los pagos y movimientos de capital.",
       "referencia": "Art. 63 TFUE"
-    },
-    {
-      "pregunta": "¿Qué libertad se refiere a actividades de empresa con presencia en otro Estado?",
-      "opciones": [
-        "El derecho de establecimiento",
-        "La libre circulación de capitales",
-        "La libre prestación de servicios",
-        "La libre circulación de mercancías"
-      ],
-      "correcta": 0,
-      "explicacion": "El derecho de establecimiento permite a empresas establecerse en otro Estado miembro.",
-      "referencia": "Art. 49 TFUE"
     },
     {
       "pregunta": "¿Qué política de la Unión incluye el objetivo de corregir desequilibrios regionales?",
@@ -449,10 +401,10 @@
     {
       "pregunta": "¿Qué tipo de competencia es la política social en la Unión?",
       "opciones": [
-        "Exclusiva",
-        "Residual",
+        "Compartida, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Compartida, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Compartida",
-        "Ejecutiva"
+        "Compartida, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La política social es competencia compartida.",
@@ -461,26 +413,14 @@
     {
       "pregunta": "¿Qué tipo de competencia es la política monetaria del euro?",
       "opciones": [
-        "Compartida",
-        "De apoyo",
-        "Residual",
+        "Exclusiva, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Exclusiva, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Exclusiva, computándose los plazos en días naturales y con sentido desestimatorio",
         "Exclusiva"
       ],
       "correcta": 3,
       "explicacion": "La política monetaria del euro es competencia exclusiva.",
       "referencia": "Art. 3.1 TFUE"
-    },
-    {
-      "pregunta": "¿Cuáles son las cuatro libertades fundamentales del mercado interior?",
-      "opciones": [
-        "Agua, energía, transporte y alimentos",
-        "Tierra, trabajo, moneda y tiempo",
-        "Ideas, religión, prensa y voto",
-        "Mercancías, personas, servicios y capitales"
-      ],
-      "correcta": 3,
-      "explicacion": "Son las cuatro libertades de circulación: mercancías, personas, servicios y capitales.",
-      "referencia": "TFUE, arts. 28 a 66"
     },
     {
       "pregunta": "¿Qué motivos justifican restringir la libre circulación de trabajadores?",
@@ -497,10 +437,10 @@
     {
       "pregunta": "¿Qué prohíbe el TFUE en el comercio de mercancías entre Estados miembros?",
       "opciones": [
-        "La libre competencia",
+        "Las restricciones cuantitativas a la importación y las medidas de efecto equivalente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Las restricciones cuantitativas a la importación y las medidas de efecto equivalente",
-        "La venta por internet",
-        "El uso del euro"
+        "Las restricciones cuantitativas a la importación y las medidas de efecto equivalente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las restricciones cuantitativas a la importación y las medidas de efecto equivalente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El art. 34 TFUE prohíbe las restricciones cuantitativas a la importación y las medidas de efecto equivalente.",
@@ -545,10 +485,10 @@
     {
       "pregunta": "Dentro de la materia «Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea.» (Mercado interior), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una competencia compartida (art. 4.2.a TFUE).»?",
       "opciones": [
-        "Trabajadores.",
+        "El mercado interior, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El mercado interior.",
-        "Compartidas.",
-        "El artículo 49 TFUE."
+        "El mercado interior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El mercado interior, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es una competencia compartida (art. 4.2.a TFUE).») define o regula específicamente a «El mercado interior» (Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)).",
@@ -569,9 +509,9 @@
     {
       "pregunta": "Dentro de la materia «Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea.» (Mercado interior), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son exclusivas (art. 3.1.b TFUE).»?",
       "opciones": [
-        "Capitales.",
-        "Las normas sobre competencia necesarias para su funcionamiento sí.",
-        "Para un examen, la diferencia es clave.",
+        "Las normas de competencia necesarias para su funcionamiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las normas de competencia necesarias para su funcionamiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las normas de competencia necesarias para su funcionamiento, computándose los plazos en días naturales y con sentido desestimatorio",
         "Las normas de competencia necesarias para su funcionamiento."
       ],
       "correcta": 3,
@@ -593,10 +533,10 @@
     {
       "pregunta": "Dentro de la materia «Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea.» (Libertades de circulación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Unión aduanera y prohibición de derechos de aduana y exacciones de efecto equivalente (arts. 28 y 30 TFUE).»?",
       "opciones": [
-        "Exclusivas.",
+        "Mercancías, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Mercancías.",
-        "El artículo 45 se completa con las excepciones que el propio precepto.",
-        "Las políticas comunes."
+        "Mercancías, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Mercancías, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Unión aduanera y prohibición de derechos de aduana y exacciones de efecto equivalente (arts. 28 y 30 TFUE).») define o regula específicamente a «Mercancías» (Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)).",
@@ -617,9 +557,9 @@
     {
       "pregunta": "Dentro de la materia «Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea.» (Libertades de circulación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Libre circulación y abolición de la discriminación por nacionalidad (art. 45 TFUE).»?",
       "opciones": [
-        "Compartidas.",
-        "El artículo 49 TFUE.",
-        "La política común.",
+        "Trabajadores, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Trabajadores, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Trabajadores, computándose los plazos en días naturales y con sentido desestimatorio",
         "Trabajadores."
       ],
       "correcta": 3,
@@ -768,6 +708,66 @@
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Establece que quedan prohibidas las restricciones a la libertad de establecimiento de los nacionales de un Estado miembro en el territorio de otro Estado miembro.») define o regula específicamente a «El artículo 49 TFUE» (Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)).",
+      "referencia": "Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Políticas comunes y competencias» (Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Unión aduanera, normas de competencia, política monetaria del euro, conservación de recursos marinos y política comercial común (art. 3.1 TFUE).»?",
+      "opciones": [
+        "Exclusivas.",
+        "Las normas sobre competencia necesarias para su funcionamiento sí.",
+        "El artículo 49 TFUE.",
+        "Las políticas comunes."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha regulación («Unión aduanera, normas de competencia, política monetaria del euro, conservación de recursos marinos y política comercial común (art. 3.1 TFUE).») define o regula específicamente a «Exclusivas» (Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)).",
+      "referencia": "Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Políticas comunes y competencias» (Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Mercado interior, política social, cohesión, agricultura y pesca, medio ambiente y consumidores, entre otras (art. 4.2 TFUE).»?",
+      "opciones": [
+        "Compartidas.",
+        "El artículo 45 se completa con las excepciones que el propio precepto.",
+        "Para un examen, la diferencia es clave.",
+        "La política común."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha regulación («Mercado interior, política social, cohesión, agricultura y pesca, medio ambiente y consumidores, entre otras (art. 4.2 TFUE).») define o regula específicamente a «Compartidas» (Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)).",
+      "referencia": "Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Libertad de establecimiento» (Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Establece que quedan prohibidas las restricciones a la libertad de establecimiento de los nacionales de un Estado miembro en el territorio de otro Estado miembro.»?",
+      "opciones": [
+        "Las políticas comunes.",
+        "El artículo 174 TFUE.",
+        "El artículo 176 TFUE.",
+        "El artículo 49 TFUE."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha regulación («Establece que quedan prohibidas las restricciones a la libertad de establecimiento de los nacionales de un Estado miembro en el territorio de otro Estado miembro.») define o regula específicamente a «El artículo 49 TFUE» (Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)).",
+      "referencia": "Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)"
+    },
+    {
+      "pregunta": "En relación con «Para un examen, la diferencia es clave» (Libertad de establecimiento), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "El establecimiento implica presencia permanente en el Estado de acogida.",
+        "El establecimiento implica presencia permanente en el Estado de acogida, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "El establecimiento implica presencia permanente en el Estado de acogida, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "El establecimiento implica presencia permanente en el Estado de acogida, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Para un examen, la diferencia es clave» (Libertad de establecimiento), la regulación vigente establece que: El establecimiento implica presencia permanente en el Estado de acogida.",
+      "referencia": "Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Libertad de establecimiento» (Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «El establecimiento implica presencia permanente en el Estado de acogida.»?",
+      "opciones": [
+        "La política común.",
+        "El artículo 175 TFUE.",
+        "El artículo 178 TFUE.",
+        "Para un examen, la diferencia es clave."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha regulación («El establecimiento implica presencia permanente en el Estado de acogida.») define o regula específicamente a «Para un examen, la diferencia es clave» (Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)).",
       "referencia": "Versiones consolidadas del Tratado de la Unión Europea y del Tratado de Funcionamiento de la Unión Europea (DOUE C 326, de 26 de octubre de 2012)"
     }
   ]

@@ -96,9 +96,9 @@
     {
       "pregunta": "Según el art. 25.4 LGS, ¿cuál es el plazo máximo para resolver y notificar la concesión?",
       "opciones": [
-        "Un año",
-        "Quince días",
-        "Tres meses",
+        "tres meses prorrogables por otros tres meses, salvo que una ley establezca un plazo mayor",
+        "doce meses conforme al plazo general supletorio, salvo que una ley establezca un plazo mayor",
+        "cuatro meses contados desde la fecha de entrada en registro, salvo que una ley establezca un plazo mayor",
         "Seis meses, salvo que una ley establezca un plazo mayor"
       ],
       "correcta": 3,
@@ -108,10 +108,10 @@
     {
       "pregunta": "Según el art. 30.2 LGS, si las bases no fijan plazo, ¿en cuánto tiempo debe rendirse la cuenta justificativa?",
       "opciones": [
-        "Un mes desde el pago",
+        "Como máximo tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación desde la finalización del plazo para realizar la actividad",
         "Como máximo tres meses desde la finalización del plazo para realizar la actividad",
-        "Un año desde la concesión",
-        "No hay plazo"
+        "Como máximo dos meses contados desde la entrada en el registro del órgano competente desde la finalización del plazo para realizar la actividad",
+        "Como máximo un mes improrrogable desde la presentación de la solicitud desde la finalización del plazo para realizar la actividad"
       ],
       "correcta": 1,
       "explicacion": "La cuenta debe presentarse, como máximo, en tres meses desde la finalización del plazo para realizar la actividad, si las bases no lo fijan.",
@@ -132,10 +132,10 @@
     {
       "pregunta": "Según el art. 39.1 LGS, ¿en qué plazo prescribe el derecho de la Administración a reconocer o liquidar el reintegro?",
       "opciones": [
-        "Un año",
-        "Dos años",
+        "cinco años desde que el acto fue dictado",
+        "dos años desde la notificación de la resolución",
         "Cuatro años",
-        "Diez años"
+        "tres años contados desde el día siguiente al vencimiento"
       ],
       "correcta": 2,
       "explicacion": "El derecho de la Administración a reconocer o liquidar el reintegro prescribe a los cuatro años, con los cómputos del artículo 39.2 LGS.",
@@ -144,9 +144,9 @@
     {
       "pregunta": "Según el art. 52 LGS, ¿qué se exige para sancionar una infracción en materia de subvenciones?",
       "opciones": [
-        "Dolo en todo caso",
-        "Nada: no basta la simple negligencia",
-        "Culpa grave",
+        "Basta la simple negligencia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Basta la simple negligencia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Basta la simple negligencia, computándose los plazos en días naturales y con sentido desestimatorio",
         "Basta la simple negligencia"
       ],
       "correcta": 3,
@@ -181,9 +181,9 @@
       "pregunta": "Según el art. 22.2 LGS, ¿qué subvenciones pueden concederse de forma directa?",
       "opciones": [
         "Las previstas nominativamente en los presupuestos generales, entre otras",
-        "Ninguna",
-        "Solo las de cuantía inferior a 100 euros",
-        "Todas, sin excepción"
+        "Las previstas nominativamente en los presupuestos generales, entre otras, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las previstas nominativamente en los presupuestos generales, entre otras, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las previstas nominativamente en los presupuestos generales, entre otras, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Pueden concederse de forma directa, entre otras, las subvenciones previstas nominativamente en los presupuestos generales.",
@@ -205,9 +205,9 @@
       "pregunta": "¿Son subvenciones las aportaciones entre Administraciones para financiar su actividad?",
       "opciones": [
         "No",
-        "Sí, siempre",
-        "Solo si son municipales",
-        "Solo si son europeas"
+        "No, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "No son subvenciones las aportaciones entre Administraciones para financiar globalmente su actividad.",
@@ -216,10 +216,10 @@
     {
       "pregunta": "¿Qué principios rigen la gestión de las subvenciones?",
       "opciones": [
-        "Secreto, discrecionalidad y urgencia",
+        "Publicidad, transparencia, concurrencia, objetividad, igualdad, eficacia y eficiencia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Publicidad, transparencia, concurrencia, objetividad, igualdad, eficacia y eficiencia",
-        "Sorteo, antigüedad y favor político",
-        "Libre designación y exclusividad"
+        "Publicidad, transparencia, concurrencia, objetividad, igualdad, eficacia y eficiencia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Publicidad, transparencia, concurrencia, objetividad, igualdad, eficacia y eficiencia, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La gestión de subvenciones se rige por publicidad, transparencia, concurrencia, objetividad, igualdad, eficacia y eficiencia.",
@@ -241,9 +241,9 @@
       "pregunta": "¿Qué tipo de concesión se da para las subvenciones nominativas?",
       "opciones": [
         "Concesión directa",
-        "Concurrencia competitiva",
-        "Sorteo",
-        "Subasta"
+        "Concesión directa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Concesión directa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Concesión directa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las subvenciones nominativas se conceden de forma directa.",
@@ -252,10 +252,10 @@
     {
       "pregunta": "¿Qué requisito previo deben cumplir las bases de una subvención?",
       "opciones": [
-        "Ser secretas",
+        "Ser previas y publicadas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Ser previas y publicadas",
-        "Ser fijadas después de la concesión",
-        "No existir"
+        "Ser previas y publicadas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Ser previas y publicadas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las bases reguladoras deben aprobarse previamente y publicarse.",
@@ -264,10 +264,10 @@
     {
       "pregunta": "¿En qué plazo máximo debe resolverse la concesión de una subvención, en el régimen general?",
       "opciones": [
-        "Dos días",
-        "Diez años",
+        "tres meses prorrogables por otros tres meses",
+        "doce meses conforme al plazo general supletorio",
         "Seis meses",
-        "Un año exacto"
+        "cuatro meses contados desde la fecha de entrada en registro"
       ],
       "correcta": 2,
       "explicacion": "La resolución de concesión debe dictarse en el plazo máximo de seis meses.",
@@ -289,9 +289,9 @@
       "pregunta": "¿En qué plazo debe rendirse la cuenta justificativa si las bases no fijan otro?",
       "opciones": [
         "Tres meses",
-        "Un día",
-        "Dos años",
-        "Un mes"
+        "tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación",
+        "dos meses contados desde la entrada en el registro del órgano competente",
+        "un mes improrrogable desde la presentación de la solicitud"
       ],
       "correcta": 0,
       "explicacion": "La cuenta justificativa se rinde en tres meses si las bases no fijan otro plazo.",
@@ -300,10 +300,10 @@
     {
       "pregunta": "¿Cuándo procede el reintegro de una subvención?",
       "opciones": [
-        "Siempre que el beneficiario lo pida",
+        "Si se falsean las condiciones o se incumple el objetivo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Si se falsean las condiciones o se incumple el objetivo",
-        "Nunca",
-        "Solo si lo decide el beneficiario"
+        "Si se falsean las condiciones o se incumple el objetivo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Si se falsean las condiciones o se incumple el objetivo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Procede el reintegro por falsear condiciones o incumplir el objetivo, entre otros supuestos.",
@@ -312,10 +312,10 @@
     {
       "pregunta": "¿En qué plazo prescribe el derecho de reintegro?",
       "opciones": [
-        "Un mes",
-        "Diez días",
+        "cinco años desde que el acto fue dictado",
+        "dos años desde la notificación de la resolución",
         "Cuatro años",
-        "Veinte años"
+        "tres años contados desde el día siguiente al vencimiento"
       ],
       "correcta": 2,
       "explicacion": "El reintegro prescribe a los cuatro años.",
@@ -337,9 +337,9 @@
       "pregunta": "¿Qué control se ejerce sobre las subvenciones del Estado?",
       "opciones": [
         "El control financiero",
-        "Ningún control",
-        "Solo el control de la prensa",
-        "Solo el control del partido"
+        "El control financiero, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El control financiero, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El control financiero, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las subvenciones del Estado están sujetas a control financiero.",
@@ -348,10 +348,10 @@
     {
       "pregunta": "¿Qué condición debe cumplirse para conceder una subvención?",
       "opciones": [
-        "Un aval bancario",
+        "Existencia de crédito suficiente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Existencia de crédito suficiente",
-        "Un informe del Defensor del Pueblo",
-        "Una votación popular"
+        "Existencia de crédito suficiente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Existencia de crédito suficiente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Para conceder una subvención debe existir crédito suficiente y competencia del órgano.",
@@ -372,9 +372,9 @@
     {
       "pregunta": "¿Qué plazo de prescripción tienen las infracciones y sanciones en subvenciones?",
       "opciones": [
-        "Un mes",
-        "Un año",
-        "Veinte años",
+        "cinco años desde que el acto fue dictado",
+        "dos años desde la notificación de la resolución",
+        "tres años contados desde el día siguiente al vencimiento",
         "Cuatro años"
       ],
       "correcta": 3,
@@ -385,9 +385,9 @@
       "pregunta": "¿Qué tipo de infracciones existen en la Ley General de Subvenciones?",
       "opciones": [
         "Leves, graves y muy graves",
-        "Solo graves",
-        "Solo penales",
-        "Ninguna"
+        "Leves, graves y muy graves, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Leves, graves y muy graves, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Leves, graves y muy graves, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las infracciones se clasifican en leves, graves y muy graves.",
@@ -396,10 +396,10 @@
     {
       "pregunta": "¿Qué basta para sancionar una infracción en materia de subvenciones?",
       "opciones": [
-        "La intención de dañar",
+        "La simple negligencia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La simple negligencia",
-        "Una sentencia penal",
-        "Un testigo"
+        "La simple negligencia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La simple negligencia, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Para sancionar basta la simple negligencia.",
@@ -408,10 +408,10 @@
     {
       "pregunta": "¿Qué procedimiento se sigue para sancionar en subvenciones?",
       "opciones": [
-        "Sin audiencia",
-        "Solo a instancia del Gobierno",
+        "De oficio, con audiencia del interesado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "De oficio, con audiencia del interesado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "De oficio, con audiencia del interesado",
-        "Solo por denuncia anónima"
+        "De oficio, con audiencia del interesado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El procedimiento se inicia de oficio y con audiencia del interesado.",
@@ -420,9 +420,9 @@
     {
       "pregunta": "¿Qué instrumento deben concretar con carácter previo los órganos que propongan subvenciones?",
       "opciones": [
-        "Un contrato de compraventa",
-        "Una sentencia",
-        "Un acta de playa",
+        "Un plan estratégico de subvenciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Un plan estratégico de subvenciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un plan estratégico de subvenciones, computándose los plazos en días naturales y con sentido desestimatorio",
         "Un plan estratégico de subvenciones"
       ],
       "correcta": 3,
@@ -432,10 +432,10 @@
     {
       "pregunta": "¿Quién puede obtener la condición de beneficiario de una subvención?",
       "opciones": [
-        "Cualquier persona sin requisitos",
-        "Solo las administraciones",
+        "Las personas o entidades que se encuentran en la situación que fundamenta la concesión, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las personas o entidades que se encuentran en la situación que fundamenta la concesión, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Las personas o entidades que se encuentran en la situación que fundamenta la concesión",
-        "Nadie"
+        "Las personas o entidades que se encuentran en la situación que fundamenta la concesión, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Pueden obtener la condición de beneficiario las personas o entidades que se encuentren en la situación que fundamenta la concesión.",
@@ -456,10 +456,10 @@
     {
       "pregunta": "¿Cómo se inicia el procedimiento de concesión de subvenciones?",
       "opciones": [
-        "Siempre a instancia del beneficiario",
+        "Siempre de oficio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Siempre de oficio",
-        "Por sorteo",
-        "Por votación vecinal"
+        "Siempre de oficio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Siempre de oficio, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El procedimiento de concesión de subvenciones se inicia siempre de oficio.",
@@ -480,9 +480,9 @@
     {
       "pregunta": "¿A quién corresponde la instrucción del procedimiento de concesión de subvenciones?",
       "opciones": [
-        "Al beneficiario",
-        "Al Defensor del Pueblo",
-        "Al notario",
+        "Al órgano que se designe en la convocatoria, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Al órgano que se designe en la convocatoria, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Al órgano que se designe en la convocatoria, computándose los plazos en días naturales y con sentido desestimatorio",
         "Al órgano que se designe en la convocatoria"
       ],
       "correcta": 3,
@@ -516,10 +516,10 @@
     {
       "pregunta": "¿Qué debe efectuarse antes de la convocatoria o de la concesión directa de una subvención?",
       "opciones": [
-        "Una fiesta de inauguración",
+        "La aprobación del gasto en los términos de la Ley General Presupuestaria, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La aprobación del gasto en los términos de la Ley General Presupuestaria",
-        "Un sorteo de beneficiarios",
-        "Nada"
+        "La aprobación del gasto en los términos de la Ley General Presupuestaria, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La aprobación del gasto en los términos de la Ley General Presupuestaria, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Con carácter previo a la convocatoria o a la concesión directa debe efectuarse la aprobación del gasto.",
@@ -540,9 +540,9 @@
     {
       "pregunta": "¿Qué tipos de sanción se pueden imponer en materia de subvenciones?",
       "opciones": [
-        "Solo la cárcel",
-        "Solo un aviso verbal",
-        "Ninguna sanción",
+        "Sanciones pecuniarias y, cuando proceda, no pecuniarias, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sanciones pecuniarias y, cuando proceda, no pecuniarias, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Sanciones pecuniarias y, cuando proceda, no pecuniarias, computándose los plazos en días naturales y con sentido desestimatorio",
         "Sanciones pecuniarias y, cuando proceda, no pecuniarias"
       ],
       "correcta": 3,
@@ -588,9 +588,9 @@
     {
       "pregunta": "Dentro de la materia «La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias. Concepto, naturaleza y clasificación de las subvenciones. Órganos competentes. El procedimiento de concesión y pago de las subvenciones. Justificación. Reintegro. Control financiero de las subvenciones. Infracciones y sanciones administrativas en materia de subvenciones. La Base de Datos de Subvenciones y Ayudas Públicas de la Comunidad Autónoma de Andalucía.» (Procedimiento de concesión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Comparación de solicitudes según criterios de las bases.»?",
       "opciones": [
-        "Respuesta.",
-        "Para un examen, la diferencia es la prelación.",
-        "El artículo 8.3 LGS enumera los principios de gestión.",
+        "Concurrencia competitiva, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Concurrencia competitiva, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Concurrencia competitiva, computándose los plazos en días naturales y con sentido desestimatorio",
         "Concurrencia competitiva."
       ],
       "correcta": 3,
@@ -612,10 +612,10 @@
     {
       "pregunta": "Dentro de la materia «La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias. Concepto, naturaleza y clasificación de las subvenciones. Órganos competentes. El procedimiento de concesión y pago de las subvenciones. Justificación. Reintegro. Control financiero de las subvenciones. Infracciones y sanciones administrativas en materia de subvenciones. La Base de Datos de Subvenciones y Ayudas Públicas de la Comunidad Autónoma de Andalucía.» (Qué es la actividad subvencionadora), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la forma en que las Administraciones públicas fomentan actividades de interés general entregando dinero sin pedir nada a cambio directamente.»?",
       "opciones": [
-        "La subvención.",
+        "La actividad subvencionadora, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La actividad subvencionadora.",
-        "Las agencias.",
-        "Para un examen, la secuencia es."
+        "La actividad subvencionadora, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La actividad subvencionadora, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es la forma en que las Administraciones públicas fomentan actividades de interés general entregando dinero sin pedir nada a cambio directamente.») define o regula específicamente a «La actividad subvencionadora» (Ley 38/2003, de 17 de noviembre, General de Subvenciones (BOE núm. 276, de 18 de noviembre de 2003)).",
@@ -684,9 +684,9 @@
     {
       "pregunta": "Dentro de la materia «La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias. Concepto, naturaleza y clasificación de las subvenciones. Órganos competentes. El procedimiento de concesión y pago de las subvenciones. Justificación. Reintegro. Control financiero de las subvenciones. Infracciones y sanciones administrativas en materia de subvenciones. La Base de Datos de Subvenciones y Ayudas Públicas de la Comunidad Autónoma de Andalucía.» (Naturaleza jurídica de la subvención), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una atribución patrimonial a favor de un beneficiario, condicionada al cumplimiento de una finalidad y sometida a control.»?",
       "opciones": [
-        "Las agencias.",
-        "Para un examen, la secuencia es.",
-        "El artículo 12 LGS.",
+        "La subvención, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La subvención, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La subvención, computándose los plazos en días naturales y con sentido desestimatorio",
         "La subvención."
       ],
       "correcta": 3,

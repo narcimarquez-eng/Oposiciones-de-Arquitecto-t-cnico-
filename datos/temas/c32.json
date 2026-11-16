@@ -73,25 +73,13 @@
       "pregunta": "De acuerdo con el artículo 29.6 de la LCSP, ¿cuál es el plazo máximo de duración de los contratos de concesión de obras y de concesión de servicios que comprendan la ejecución de obras y la explotación de servicio?",
       "opciones": [
         "40 años",
-        "75 años",
-        "25 años",
-        "10 años"
+        "40 años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "40 años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "40 años, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El art. 29.6.a) de la LCSP establece un plazo máximo de 40 años para los contratos de concesión de obras y de concesión de servicios que comprendan la ejecución de obras y la explotación de servicio.",
       "referencia": "Art. 29.6.a) LCSP"
-    },
-    {
-      "pregunta": "Según el artículo 29.6.b) de la LCSP, ¿cuál es la duración máxima de un contrato de concesión de servicios que NO comprenda la ejecución de obras y cuyo objeto NO consista en la prestación de servicios sanitarios?",
-      "opciones": [
-        "25 años",
-        "5 años",
-        "50 años",
-        "10 años"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 29.6.b) LCSP fija en 25 años la duración máxima en los contratos de concesión de servicios que comprendan la explotación de un servicio no relacionado con la prestación de servicios sanitarios (para sanitarios sin obra el límite es de 10 años).",
-      "referencia": "Art. 29.6.b) LCSP"
     },
     {
       "pregunta": "Para que el contratista pueda ceder sus derechos y obligaciones a un tercero en un contrato de concesión de obras o de concesión de servicios (art. 214.2.b LCSP), ¿qué fracción mínima del plazo de duración del contrato debe haber explotado previamente?",
@@ -108,9 +96,9 @@
     {
       "pregunta": "Según el artículo 263 de la LCSP, ¿cuál es la duración máxima del secuestro o intervención de una concesión (incluidas posibles prórrogas) acordado por el órgano de contratación?",
       "opciones": [
-        "Seis meses",
-        "Diez años",
-        "Un mes",
+        "dos años improrrogables",
+        "dos años desde la notificación de la resolución prorrogables por un año adicional",
+        "un año prorrogable hasta un máximo de dieciocho meses",
         "Tres años"
       ],
       "correcta": 3,
@@ -190,18 +178,6 @@
       "referencia": "«Leyes de Rolland»"
     },
     {
-      "pregunta": "De acuerdo con la regulación de «Formas de gestión de los servicios públicos», ¿qué se establece respecto a «Modalidades de gestión directa»?",
-      "opciones": [
-        "Procede restablecerlo cuando la Administración modifique las condiciones de explotación",
-        "Se produce por cumplimiento o por resolución",
-        "A) gestión por la propia Administración sin órgano diferenciado",
-        "Naturaleza jurídica y clases"
-      ],
-      "correcta": 2,
-      "explicacion": "Modalidades de gestión directa: A) gestión por la propia Administración sin órgano diferenciado.",
-      "referencia": "LCSP"
-    },
-    {
       "pregunta": "De acuerdo con la regulación de «Las concesiones: naturaleza jurídica, clases y transferencia del riesgo operacional», ¿qué se establece respecto a «Contrato de concesión de obras»?",
       "opciones": [
         "Requiere autorización previa y expresa del órgano de contratación y que el cedente haya efectuado la explotación durante al menos una quinta parte (1/5) del plazo de duración del contrato",
@@ -228,10 +204,10 @@
     {
       "pregunta": "De acuerdo con la regulación de «Régimen jurídico de las concesiones: duración, modificación, transmisión y extinción», ¿qué se establece respecto a «Mantenimiento del equilibrio económico de la concesión»?",
       "opciones": [
-        "Se produce por cumplimiento o por resolución",
+        "Procede restablecerlo cuando la Administración modifique las condiciones de explotación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Procede restablecerlo cuando la Administración modifique las condiciones de explotación",
-        "A) gestión por la propia Administración sin órgano diferenciado",
-        "Naturaleza jurídica y clases"
+        "Procede restablecerlo cuando la Administración modifique las condiciones de explotación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Procede restablecerlo cuando la Administración modifique las condiciones de explotación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Mantenimiento del equilibrio económico de la concesión: Procede restablecerlo cuando la Administración modifique las condiciones de explotación.",
@@ -253,9 +229,9 @@
       "pregunta": "De acuerdo con la regulación de «Régimen jurídico de las concesiones: duración, modificación, transmisión y extinción», ¿qué se establece respecto a «Extinción»?",
       "opciones": [
         "Se produce por cumplimiento o por resolución",
-        "Naturaleza jurídica y clases",
-        "Procede restablecerlo cuando la Administración modifique las condiciones de explotación",
-        "A) gestión por la propia Administración sin órgano diferenciado"
+        "Se produce por cumplimiento o por resolución, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Se produce por cumplimiento o por resolución, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Se produce por cumplimiento o por resolución, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Extinción: Se produce por cumplimiento o por resolución.",
@@ -264,9 +240,9 @@
     {
       "pregunta": "De acuerdo con la regulación de «Encuadre constitucional, estatutario y sistemático: El servicio público», ¿qué se establece respecto a «Las concesiones»?",
       "opciones": [
-        "Procede restablecerlo cuando la Administración modifique las condiciones de explotación",
-        "Se produce por cumplimiento o por resolución",
-        "A) gestión por la propia Administración sin órgano diferenciado",
+        "Naturaleza jurídica y clases, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Naturaleza jurídica y clases, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Naturaleza jurídica y clases, computándose los plazos en días naturales y con sentido desestimatorio",
         "Naturaleza jurídica y clases"
       ],
       "correcta": 3,
@@ -284,18 +260,6 @@
       "correcta": 2,
       "explicacion": "Principios clásicos del servicio público: Continuidad y regularidad, mutabilidad o adaptación constante al interés general («ius variandi»), igualdad de trato y no discriminación de los usuarios, y suficiencia tarifaria.",
       "referencia": "«Leyes de Rolland»"
-    },
-    {
-      "pregunta": "En materia de «Formas de gestión de los servicios públicos», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «A) gestión por la propia Administración sin órgano diferenciado»",
-      "opciones": [
-        "Principios clásicos del servicio público",
-        "Modalidades de gestión directa",
-        "Cesión o transmisión",
-        "Contrato de concesión de obras"
-      ],
-      "correcta": 1,
-      "explicacion": "Modalidades de gestión directa: A) gestión por la propia Administración sin órgano diferenciado.",
-      "referencia": "LCSP"
     },
     {
       "pregunta": "En materia de «Las concesiones: naturaleza jurídica, clases y transferencia del riesgo operacional», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Tiene por objeto la realización por el concesionario de algunas de las prestaciones de obra (art. 13), incluidas las de restauración y reparación de construcciones existentes»",
@@ -337,9 +301,9 @@
       "pregunta": "En materia de «Régimen jurídico de las concesiones: duración, modificación, transmisión y extinción», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Requiere autorización previa y expresa del órgano de contratación y que el cedente haya efectuado la explotación durante al menos una quinta parte (1/5) del plazo de duración del contrato»",
       "opciones": [
         "Cesión o transmisión",
-        "Contrato de concesión de obras",
-        "Modalidades de gestión directa",
-        "Las concesiones"
+        "Cesión o transmisión, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Cesión o transmisión, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Cesión o transmisión, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Cesión o transmisión: Requiere autorización previa y expresa del órgano de contratación y que el cedente haya efectuado la explotación durante al menos una quinta parte (1/5) del plazo de duración del contrato.",
@@ -348,10 +312,10 @@
     {
       "pregunta": "En materia de «Régimen jurídico de las concesiones: duración, modificación, transmisión y extinción», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Se produce por cumplimiento o por resolución»",
       "opciones": [
-        "Cesión o transmisión",
-        "Las concesiones",
+        "Extinción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Extinción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Extinción",
-        "Contrato de concesión de obras"
+        "Extinción, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Extinción: Se produce por cumplimiento o por resolución.",
@@ -360,10 +324,10 @@
     {
       "pregunta": "En materia de «Encuadre constitucional, estatutario y sistemático: El servicio público», ¿a qué concepto, órgano o figura corresponde el siguiente enunciado?: «Naturaleza jurídica y clases»",
       "opciones": [
-        "Extinción",
-        "Contrato de concesión de obras",
+        "Las concesiones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las concesiones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Las concesiones",
-        "Cesión o transmisión"
+        "Las concesiones, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las concesiones: Naturaleza jurídica y clases.",
@@ -468,10 +432,10 @@
     {
       "pregunta": "Conforme a la norma Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017), ¿qué materia regula específicamente su artículo 231?",
       "opciones": [
-        "Órganos de contratación estatales",
+        "Proyecto de obras, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Proyecto de obras",
-        "Solvencia técnica o profesional en los contratos de servicios",
-        "Participantes"
+        "Proyecto de obras, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Proyecto de obras, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El artículo 231 (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)) lleva por rúbrica «Proyecto de obras».",
@@ -505,9 +469,9 @@
       "pregunta": "Conforme a la norma Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017), ¿qué materia regula específicamente su artículo 269?",
       "opciones": [
         "Obras diferenciadas",
-        "Participantes",
-        "Exigencia y régimen de la garantía provisional",
-        "Cumplimiento de los contratos y recepción de la prestación"
+        "Obras diferenciadas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Obras diferenciadas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Obras diferenciadas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El artículo 269 (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)) lleva por rúbrica «Obras diferenciadas».",
@@ -536,18 +500,6 @@
       "correcta": 1,
       "explicacion": "El artículo 131 (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)) lleva por rúbrica «Procedimiento de adjudicación»: Los contratos que celebren las Administraciones Públicas se adjudicarán con arreglo a las normas de la presente sección",
       "referencia": "Art. 131 LCSP"
-    },
-    {
-      "pregunta": "En el ámbito de «El servicio público. Doctrina clásica y evolución. Las diferentes formas de gestión de los servicios públicos. Las concesiones: naturaleza jurídica y clases. El régimen jurídico de las concesiones: modificación, novación, transmisión y extinción de las concesiones.» (Doctrina clásica y evolución del servicio público), ¿qué establece la normativa respecto a «Principios clásicos del servicio público («Leyes de Rolland»)»?",
-      "opciones": [
-        "Igualmente se facilitará el acceso a la contratación pública de las pequeñas y medianas empresas, así como de las empresas de economía social.",
-        "Asimismo, quedan excluidas del ámbito de la presente Ley las encomiendas de gestión reguladas en la legislación vigente en materia de régimen jurídico del sector público.",
-        "Continuidad y regularidad, mutabilidad o adaptación constante al interés general («ius variandi»), igualdad de trato y no discriminación de los usuarios, y suficiencia tarifaria.",
-        "Se considerará que el concesionario asume un riesgo operacional cuando no esté garantizado que, en condiciones normales de funcionamiento, el mismo vaya a recuperar las."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «Principios clásicos del servicio público («Leyes de Rolland»)» (Doctrina clásica y evolución del servicio público), la regulación vigente establece que: Continuidad y regularidad, mutabilidad o adaptación constante al interés general («ius variandi»), igualdad de trato y no discriminación de los usuarios, y suficiencia tarifaria.",
-      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     },
     {
       "pregunta": "Dentro de la materia «El servicio público. Doctrina clásica y evolución. Las diferentes formas de gestión de los servicios públicos. Las concesiones: naturaleza jurídica y clases. El régimen jurídico de las concesiones: modificación, novación, transmisión y extinción de las concesiones.» (Doctrina clásica y evolución del servicio público), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Continuidad y regularidad, mutabilidad o adaptación constante al interés general («ius variandi»), igualdad de trato y no discriminación de los usuarios, y suficiencia tarifaria.»?",
@@ -583,18 +535,6 @@
       ],
       "correcta": 2,
       "explicacion": "Dicha determinación («Gestión por la propia Administración sin órgano diferenciado.») define o regula específicamente a «Modalidades de gestión directa» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
-      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
-    },
-    {
-      "pregunta": "En el ámbito de «El servicio público. Doctrina clásica y evolución. Las diferentes formas de gestión de los servicios públicos. Las concesiones: naturaleza jurídica y clases. El régimen jurídico de las concesiones: modificación, novación, transmisión y extinción de las concesiones.» (Régimen jurídico de las concesiones: duración, modificación, transmisión y extinción), ¿qué establece la normativa respecto a «Cesión o transmisión (art. 214 LCSP)»?",
-      "opciones": [
-        "2.º Que el patrimonio de la fundación esté integrado en más de un 50 por ciento por bienes o derechos aportados o cedidos por sujetos integrantes del sector público con carácter permanente.",
-        "Los restantes contratos del sector público se calificarán según las normas de derecho administrativo o de derecho privado que les sean de aplicación.",
-        "Requiere autorización previa y expresa del órgano de contratación y que el cedente haya efectuado la explotación durante al menos una quinta parte (1/5) del plazo de duración del contrato.",
-        "Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «Cesión o transmisión (art. 214 LCSP)» (Régimen jurídico de las concesiones: duración, modificación, transmisión y extinción), la regulación vigente establece que: Requiere autorización previa y expresa del órgano de contratación y que el cedente haya efectuado la explotación durante al menos una quinta parte (1/5) del plazo de duración del contrato.",
       "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     },
     {
@@ -776,6 +716,66 @@
       "correcta": 3,
       "explicacion": "Dicha determinación («Se considerará que el concesionario asume un riesgo operacional cuando no esté garantizado que, en condiciones normales de funcionamiento, el mismo vaya a recuperar las.») define o regula específicamente a «Contrato de concesión de obras (art. 14 Ley de Contratos del Sector Público)» (Art. 14 de Ley de Contratos del Sector Público).",
       "referencia": "Art. 14 de Ley de Contratos del Sector Público"
+    },
+    {
+      "pregunta": "En relación con «Contrato de concesión de servicios (art. 15 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "El derecho de explotación de los servicios implicará la transferencia al concesionario del riesgo operacional, en los términos señalados en el apartado cuarto del artículo anterior, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "El derecho de explotación de los servicios implicará la transferencia al concesionario del riesgo operacional, en los términos señalados en el apartado cuarto del artículo anterior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "El derecho de explotación de los servicios implicará la transferencia al concesionario del riesgo operacional, en los términos señalados en el apartado cuarto del artículo anterior.",
+        "El derecho de explotación de los servicios implicará la transferencia al concesionario del riesgo operacional, en los términos señalados en el apartado cuarto del artículo anterior, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Contrato de concesión de servicios (art. 15 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), la regulación vigente establece que: El derecho de explotación de los servicios implicará la transferencia al concesionario del riesgo operacional, en los términos señalados en el apartado cuarto del artículo anterior.",
+      "referencia": "Art. 15 de Ley de Contratos del Sector Público"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Ley de Contratos del Sector Público» (El servicio público. Doctrina clásica y evolución. Las diferentes formas de gestión de los servicios públicos. Las concesiones: naturaleza jurídica y clases. El régimen jurídico de las concesiones: modificación, novación, transmisión y extinción de las concesiones.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «El derecho de explotación de los servicios implicará la transferencia al concesionario del riesgo operacional, en los términos señalados en el apartado cuarto del artículo anterior.»?",
+      "opciones": [
+        "Contrato de servicios (art. 17 Ley de Contratos del Sector Público).",
+        "Delimitación general (art. 19 Ley de Contratos del Sector Público).",
+        "Contrato de concesión de servicios (art. 15 Ley de Contratos del Sector Público).",
+        "Contratos privados (art. 26 Ley de Contratos del Sector Público)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha regulación («El derecho de explotación de los servicios implicará la transferencia al concesionario del riesgo operacional, en los términos señalados en el apartado cuarto del artículo anterior.») define o regula específicamente a «Contrato de concesión de servicios (art. 15 Ley de Contratos del Sector Público)» (Art. 15 de Ley de Contratos del Sector Público).",
+      "referencia": "Art. 15 de Ley de Contratos del Sector Público"
+    },
+    {
+      "pregunta": "En relación con «Contrato de suministro (art. 16 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles.",
+        "Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Contrato de suministro (art. 16 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), la regulación vigente establece que: Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles.",
+      "referencia": "Art. 16 de Ley de Contratos del Sector Público"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Articulado de Ley de Contratos del Sector Público» (El servicio público. Doctrina clásica y evolución. Las diferentes formas de gestión de los servicios públicos. Las concesiones: naturaleza jurídica y clases. El régimen jurídico de las concesiones: modificación, novación, transmisión y extinción de las concesiones.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles.»?",
+      "opciones": [
+        "Contratos mixtos (art. 18 Ley de Contratos del Sector Público).",
+        "Contrato de suministro (art. 16 Ley de Contratos del Sector Público).",
+        "Contratos administrativos (art. 25 Ley de Contratos del Sector Público).",
+        "Perfección de los contratos (art. 36 Ley de Contratos del Sector Público)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles.») define o regula específicamente a «Contrato de suministro (art. 16 Ley de Contratos del Sector Público)» (Art. 16 de Ley de Contratos del Sector Público).",
+      "referencia": "Art. 16 de Ley de Contratos del Sector Público"
+    },
+    {
+      "pregunta": "En relación con «Contrato de servicios (art. 17 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "No podrán ser objeto de estos contratos los servicios que impliquen ejercicio de la autoridad inherente a los poderes públicos, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "No podrán ser objeto de estos contratos los servicios que impliquen ejercicio de la autoridad inherente a los poderes públicos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "No podrán ser objeto de estos contratos los servicios que impliquen ejercicio de la autoridad inherente a los poderes públicos.",
+        "No podrán ser objeto de estos contratos los servicios que impliquen ejercicio de la autoridad inherente a los poderes públicos, computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Contrato de servicios (art. 17 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), la regulación vigente establece que: No podrán ser objeto de estos contratos los servicios que impliquen ejercicio de la autoridad inherente a los poderes públicos.",
+      "referencia": "Art. 17 de Ley de Contratos del Sector Público"
     }
   ]
 }

@@ -111,9 +111,9 @@
     "pregunta": "¿Qué acto administrativo habilita la ejecución de obras sujetas a control previo en la LISTA?",
     "opciones": [
       "La licencia urbanística",
-      "La escritura pública",
-      "La inscripción registral",
-      "El padrón"
+      "La licencia urbanística, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La licencia urbanística, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La licencia urbanística, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "La LISTA regula la licencia urbanística y la declaración responsable.",
@@ -134,9 +134,9 @@
   {
     "pregunta": "¿En qué plazo debe solicitarse la licencia tras la autorización previa de una actuación extraordinaria en suelo rústico?",
     "opciones": [
-      "Diez años",
-      "Un mes",
-      "No hay plazo",
+      "Un año desde la resolución de la autorización previa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Un año desde la resolución de la autorización previa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Un año desde la resolución de la autorización previa, computándose los plazos en días naturales y con sentido desestimatorio",
       "Un año desde la resolución de la autorización previa"
     ],
     "correcta": 3,
@@ -147,9 +147,9 @@
     "pregunta": "¿Cuántas viviendas unifamiliares aisladas se permiten por parcela en las actuaciones extraordinarias de vivienda en suelo rústico?",
     "opciones": [
       "Una, sin divisiones horizontales salvo tipologías tradicionales como cortijos o haciendas",
-      "Dos",
-      "Cinco",
-      "Las que permita el promotor"
+      "Una, sin divisiones horizontales salvo tipologías tradicionales como cortijos o haciendas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Una, sin divisiones horizontales salvo tipologías tradicionales como cortijos o haciendas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Una, sin divisiones horizontales salvo tipologías tradicionales como cortijos o haciendas, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "No se permite más de una vivienda unifamiliar aislada por parcela ni las divisiones horizontales, salvo cortijos, haciendas o similares.",
@@ -170,10 +170,10 @@
   {
     "pregunta": "¿Cuándo deben someterse los edificios a la primera inspección técnica, salvo otra ordenanza municipal?",
     "opciones": [
-      "A los diez años",
+      "En el año natural siguiente a cumplir cincuenta años desde su terminación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "En el año natural siguiente a cumplir cincuenta años desde su terminación",
-      "A los cien años",
-      "Nunca"
+      "En el año natural siguiente a cumplir cincuenta años desde su terminación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "En el año natural siguiente a cumplir cincuenta años desde su terminación, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Todos los edificios se someten a una primera inspección técnica al año natural siguiente de cumplir cincuenta años desde su terminación.",
@@ -182,10 +182,10 @@
   {
     "pregunta": "¿Con qué periodicidad mínima debe repetirse la inspección técnica de edificios?",
     "opciones": [
-      "Un año",
+      "Diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Diez años",
-      "Cinco años",
-      "Veinticinco años"
+      "Diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Diez años, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "La inspección técnica se repite con una periodicidad mínima de diez años, salvo ordenanza.",
@@ -194,10 +194,10 @@
   {
     "pregunta": "¿Qué régimen específico regula el Título IX del Reglamento de la LISTA?",
     "opciones": [
-      "Las playas",
-      "Los puertos deportivos",
+      "El hábitat troglodítico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El hábitat troglodítico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "El hábitat troglodítico",
-      "Las autopistas"
+      "El hábitat troglodítico, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El Título IX regula el régimen del suelo y la ordenación y ejecución urbanística del hábitat troglodítico.",
@@ -206,9 +206,9 @@
   {
     "pregunta": "¿Durante cuánto tiempo deben conservar las entidades urbanísticas certificadoras la documentación de sus actuaciones?",
     "opciones": [
-      "Un mes",
-      "Un año",
-      "Indefinidamente sin mínimo",
+      "Un mínimo de seis años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Un mínimo de seis años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Un mínimo de seis años, computándose los plazos en días naturales y con sentido desestimatorio",
       "Un mínimo de seis años"
     ],
     "correcta": 3,
@@ -242,9 +242,9 @@
   {
     "pregunta": "¿Qué naturaleza tiene la prestación compensatoria en suelo rústico?",
     "opciones": [
-      "Tributaria (impuesto)",
-      "Sancionadora",
-      "Penal",
+      "No tributaria, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "No tributaria, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "No tributaria, computándose los plazos en días naturales y con sentido desestimatorio",
       "No tributaria"
     ],
     "correcta": 3,
@@ -278,9 +278,9 @@
   {
     "pregunta": "¿Es obligatorio el visado colegial de los proyectos con carácter general según el Reglamento de la LISTA?",
     "opciones": [
-      "Sí, siempre",
-      "Solo en obras públicas",
-      "Está prohibido",
+      "No, es voluntario salvo en los supuestos de la normativa estatal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "No, es voluntario salvo en los supuestos de la normativa estatal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "No, es voluntario salvo en los supuestos de la normativa estatal, computándose los plazos en días naturales y con sentido desestimatorio",
       "No, es voluntario salvo en los supuestos de la normativa estatal"
     ],
     "correcta": 3,
@@ -290,10 +290,10 @@
   {
     "pregunta": "¿Qué informes municipales deben emitirse antes de la propuesta de resolución de una licencia urbanística?",
     "opciones": [
-      "Solo un informe de la Policía Local",
-      "Un dictamen del Consejo de Estado",
+      "Informe técnico e informe jurídico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Informe técnico e informe jurídico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Informe técnico e informe jurídico",
-      "Ninguno"
+      "Informe técnico e informe jurídico, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Los servicios técnicos y jurídicos municipales emiten informes técnico y jurídico previos a la propuesta de resolución.",
@@ -326,10 +326,10 @@
   {
     "pregunta": "¿Qué evaluaciones debe contener como mínimo el Informe de inspección técnica?",
     "opciones": [
-      "Solo fotografías de la fachada",
+      "Estado de conservación, condiciones de accesibilidad y certificación de eficiencia energética, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Estado de conservación, condiciones de accesibilidad y certificación de eficiencia energética",
-      "El precio de mercado",
-      "El padrón de vecinos"
+      "Estado de conservación, condiciones de accesibilidad y certificación de eficiencia energética, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Estado de conservación, condiciones de accesibilidad y certificación de eficiencia energética, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El Informe evalúa el estado de conservación y la accesibilidad, e incorpora la certificación de eficiencia energética.",

@@ -157,9 +157,9 @@
     {
       "pregunta": "Según la Orden ECO/805/2003, art. 19, apartado 2, letra b, ¿cuál es la vida útil total máxima para un edificio de uso residencial en el cálculo por amortización lineal?",
       "opciones": [
-        "35 años",
-        "50 años",
-        "75 años",
+        "100 años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "100 años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "100 años, computándose los plazos en días naturales y con sentido desestimatorio",
         "100 años"
       ],
       "correcta": 3,
@@ -205,10 +205,10 @@
     {
       "pregunta": "¿Qué ley regula el justiprecio en la expropiación forzosa?",
       "opciones": [
-        "La Ley de Caza",
+        "La Ley de Expropiación Forzosa de 1954 (LEF), previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La Ley de Expropiación Forzosa de 1954 (LEF)",
-        "La Ley de Pesca",
-        "La Ley de Vuelos"
+        "La Ley de Expropiación Forzosa de 1954 (LEF), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La Ley de Expropiación Forzosa de 1954 (LEF), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El justiprecio se regula en la LEF de 1954, arts. 36 y siguientes.",
@@ -218,9 +218,9 @@
       "pregunta": "¿Qué texto regula el valor del suelo y de las edificaciones en la legislación estatal?",
       "opciones": [
         "El TRLS (RDL 7/2015)",
-        "El RD 1627/1997",
-        "La LGS",
-        "La Ley de Caza"
+        "El TRLS (RDL 7/2015), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El TRLS (RDL 7/2015), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El TRLS (RDL 7/2015), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El TRLS, RDL 7/2015, regula el suelo y la edificación.",
@@ -229,10 +229,10 @@
     {
       "pregunta": "¿Qué norma regula el valor catastral?",
       "opciones": [
-        "El RD 842/2002",
+        "El Texto refundido de la Ley del Catastro (RDL 1/2004), previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El Texto refundido de la Ley del Catastro (RDL 1/2004)",
-        "El RD 919/2006",
-        "La LCSP"
+        "El Texto refundido de la Ley del Catastro (RDL 1/2004), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Texto refundido de la Ley del Catastro (RDL 1/2004), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El valor catastral se regula en el Texto refundido de la Ley del Catastro.",
@@ -241,9 +241,9 @@
     {
       "pregunta": "¿Qué orden regula los métodos de valoración de inmuebles para entidades de crédito?",
       "opciones": [
-        "La Orden de Pesca",
-        "La Orden de Caza",
-        "La Orden de Vuelos",
+        "La Orden ECO/805/2003, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La Orden ECO/805/2003, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La Orden ECO/805/2003, computándose los plazos en días naturales y con sentido desestimatorio",
         "La Orden ECO/805/2003"
       ],
       "correcta": 3,
@@ -277,10 +277,10 @@
     {
       "pregunta": "¿Puede el valor catastral superar el valor de mercado?",
       "opciones": [
-        "Sí, siempre",
-        "Solo en verano",
+        "No, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "No, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "No",
-        "Solo en Navidad"
+        "No, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El valor catastral no puede superar el valor de mercado.",
@@ -289,9 +289,9 @@
     {
       "pregunta": "¿A qué momento se tasan los bienes en un justiprecio?",
       "opciones": [
-        "Diez años después",
-        "Al final de la obra",
-        "Nunca",
+        "Al iniciarse el expediente de justiprecio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Al iniciarse el expediente de justiprecio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Al iniciarse el expediente de justiprecio, computándose los plazos en días naturales y con sentido desestimatorio",
         "Al iniciarse el expediente de justiprecio"
       ],
       "correcta": 3,
@@ -302,33 +302,21 @@
       "pregunta": "¿Qué plusvalías se excluyen en el justiprecio?",
       "opciones": [
         "Las derivadas del proyecto expropiante",
-        "Las de la lotería",
-        "Las de la bolsa",
-        "Ninguna"
+        "Las derivadas del proyecto expropiante, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las derivadas del proyecto expropiante, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las derivadas del proyecto expropiante, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Se excluyen las plusvalías derivadas del proyecto expropiante.",
       "referencia": "LEF, art. 36.1"
     },
     {
-      "pregunta": "¿Se indemnizan las mejoras posteriores a la iniciación del expediente?",
-      "opciones": [
-        "Sí, siempre",
-        "No, salvo que se demuestre que eran necesarias",
-        "Solo si son bonitas",
-        "Solo si las paga el vecino"
-      ],
-      "correcta": 1,
-      "explicacion": "Las mejoras posteriores no se indemnizan, salvo que se demuestre que eran necesarias.",
-      "referencia": "LEF, art. 36.2"
-    },
-    {
       "pregunta": "¿Qué abarca el valor del suelo según el TRLS?",
       "opciones": [
-        "La pintura del muro",
-        "El jardín",
+        "El pleno dominio, libre de cargas y gravámenes, según su situación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El pleno dominio, libre de cargas y gravámenes, según su situación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El pleno dominio, libre de cargas y gravámenes, según su situación",
-        "El menú"
+        "El pleno dominio, libre de cargas y gravámenes, según su situación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El valor del suelo corresponde al pleno dominio libre de cargas y gravámenes, según su situación.",
@@ -337,9 +325,9 @@
     {
       "pregunta": "¿Qué métodos de valoración de inmuebles recoge el art. 15 de la Orden ECO/805/2003?",
       "opciones": [
-        "Sorteo y suerte",
-        "Olfato y gusto",
-        "Ninguno",
+        "Coste, comparación, actualización de rentas y residual, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Coste, comparación, actualización de rentas y residual, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Coste, comparación, actualización de rentas y residual, computándose los plazos en días naturales y con sentido desestimatorio",
         "Coste, comparación, actualización de rentas y residual"
       ],
       "correcta": 3,
@@ -350,9 +338,9 @@
       "pregunta": "¿Qué es la depreciación física?",
       "opciones": [
         "La pérdida por antigüedad, estado de conservación y duración de los componentes",
-        "La pérdida de moda",
-        "La pérdida de dinero",
-        "Ninguna"
+        "La pérdida por antigüedad, estado de conservación y duración de los componentes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La pérdida por antigüedad, estado de conservación y duración de los componentes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La pérdida por antigüedad, estado de conservación y duración de los componentes, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La depreciación física se debe a la antigüedad, el estado de conservación y la duración de los componentes.",
@@ -361,10 +349,10 @@
     {
       "pregunta": "¿Qué es la depreciación funcional?",
       "opciones": [
-        "La pérdida por lluvia",
+        "La pérdida por defectuosa adaptación a la función, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La pérdida por defectuosa adaptación a la función",
-        "La pérdida por ruido",
-        "Ninguna"
+        "La pérdida por defectuosa adaptación a la función, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La pérdida por defectuosa adaptación a la función, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La depreciación funcional se debe a una defectuosa adaptación a la función.",
@@ -373,10 +361,10 @@
     {
       "pregunta": "¿Qué mide el valor de reemplazamiento neto?",
       "opciones": [
-        "El valor del terreno sin construir",
-        "El valor del vecino",
+        "El valor bruto menos la depreciación física y funcional, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El valor bruto menos la depreciación física y funcional, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El valor bruto menos la depreciación física y funcional",
-        "El valor de la moneda"
+        "El valor bruto menos la depreciación física y funcional, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Es el valor bruto menos la depreciación física y funcional.",
@@ -385,9 +373,9 @@
     {
       "pregunta": "¿Qué norma regula las valoraciones catastrales de bienes urbanos?",
       "opciones": [
-        "El RD 842/2002",
-        "El RD 919/2006",
-        "El RD 346/2011",
+        "El RD 1020/1993, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El RD 1020/1993, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El RD 1020/1993, computándose los plazos en días naturales y con sentido desestimatorio",
         "El RD 1020/1993"
       ],
       "correcta": 3,
@@ -398,9 +386,9 @@
       "pregunta": "¿Qué norma regula las valoraciones de bienes de características especiales?",
       "opciones": [
         "El RD 1464/2007",
-        "El RD 842/2002",
-        "El RD 919/2006",
-        "El RD 346/2011"
+        "El RD 1464/2007, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El RD 1464/2007, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El RD 1464/2007, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El RD 1464/2007 regula los bienes de características especiales.",
@@ -421,10 +409,10 @@
     {
       "pregunta": "¿Qué ponencia de valores se aplica con carácter general para el valor catastral?",
       "opciones": [
-        "La ponencia de la lotería",
-        "La ponencia de la fiesta",
+        "La ponencia de valores vigente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La ponencia de valores vigente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La ponencia de valores vigente",
-        "Ninguna"
+        "La ponencia de valores vigente, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El valor catastral se determina aplicando la ponencia de valores vigente.",
@@ -433,9 +421,9 @@
     {
       "pregunta": "¿Cuántos años de vida útil máxima tiene el uso residencial en la amortización lineal?",
       "opciones": [
-        "10 años",
-        "1000 años",
-        "No hay",
+        "100 años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "100 años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "100 años, computándose los plazos en días naturales y con sentido desestimatorio",
         "100 años"
       ],
       "correcta": 3,
@@ -445,10 +433,10 @@
     {
       "pregunta": "¿Qué tipo de construcción del suelo rústico se tasa con independencia del terreno?",
       "opciones": [
-        "Las de madera",
-        "Las de papel",
+        "Las construcciones legales, compatibles con el uso y no tenidas en cuenta en el suelo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las construcciones legales, compatibles con el uso y no tenidas en cuenta en el suelo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Las construcciones legales, compatibles con el uso y no tenidas en cuenta en el suelo",
-        "Ninguna"
+        "Las construcciones legales, compatibles con el uso y no tenidas en cuenta en el suelo, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las construcciones legales, compatibles y no tenidas en cuenta en la valoración del suelo se tasan aparte.",
@@ -469,10 +457,10 @@
     {
       "pregunta": "¿Qué norma regula el catastro inmobiliario?",
       "opciones": [
-        "Real Decreto Legislativo 7/2015",
+        "Real Decreto Legislativo 1/2004, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Real Decreto Legislativo 1/2004",
-        "Ley 38/2003",
-        "Ley 9/2017"
+        "Real Decreto Legislativo 1/2004, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Real Decreto Legislativo 1/2004, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El RDL 1/2004 aprueba el texto refundido de la Ley del Catastro Inmobiliario.",
@@ -481,10 +469,10 @@
     {
       "pregunta": "¿Qué método valora un inmueble comparándolo con otros similares recientemente vendidos?",
       "opciones": [
-        "Método del coste",
-        "Método de capitalización",
+        "Método de comparación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Método de comparación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Método de comparación",
-        "Método de sorteo"
+        "Método de comparación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El método de comparación toma como referencia precios de inmuebles semejantes.",
@@ -493,9 +481,9 @@
     {
       "pregunta": "¿Qué método estima el valor a partir de la renta que produce el inmueble?",
       "opciones": [
-        "Método de comparación",
-        "Método de sorteo",
-        "Método de la raíz cuadrada",
+        "Método de capitalización de rentas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Método de capitalización de rentas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Método de capitalización de rentas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Método de capitalización de rentas"
       ],
       "correcta": 3,
@@ -505,9 +493,9 @@
     {
       "pregunta": "¿Qué método valora por el coste de reposición menos la depreciación?",
       "opciones": [
-        "Método de comparación",
-        "Método de sorteo",
-        "Método de capitalización",
+        "Método del coste, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Método del coste, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Método del coste, computándose los plazos en días naturales y con sentido desestimatorio",
         "Método del coste"
       ],
       "correcta": 3,
@@ -518,9 +506,9 @@
       "pregunta": "¿Qué es el valor de mercado de un inmueble?",
       "opciones": [
         "Precio que se pagaría en condiciones normales de mercado",
-        "El precio fijado por el vecino",
-        "El importe de la contribución",
-        "La cuota de la comunidad"
+        "Precio que se pagaría en condiciones normales de mercado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Precio que se pagaría en condiciones normales de mercado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Precio que se pagaría en condiciones normales de mercado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El valor de mercado es el precio probable en condiciones normales de compraventa.",
@@ -529,10 +517,10 @@
     {
       "pregunta": "¿Qué valor se utiliza en las valoraciones fiscales de inmuebles?",
       "opciones": [
-        "Valor sentimental",
+        "Valor catastral, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Valor catastral",
-        "Valor de cambio de divisas",
-        "Valor nutritivo"
+        "Valor catastral, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Valor catastral, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El valor catastral es el valor fiscal de referencia del inmueble.",
@@ -601,9 +589,9 @@
     {
       "pregunta": "Dentro de la materia «Valoración de inmuebles. Normativa reguladora. El valor: Concepto y sus distintos significados. El justiprecio. La depreciación y sus diferentes causas. Métodos de valoración. Valor catastral: concepto, límites y determinación.» (Significados del valor), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Determinado objetivamente a partir de los datos del Catastro, formado por el del suelo y el de las construcciones (Ley del Catastro, art. 22).»?",
       "opciones": [
-        "Las construcciones del suelo rural se tasan con independencia del terreno si.",
-        "Criterios.",
-        "El valor de mercado.",
+        "Valor catastral, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Valor catastral, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Valor catastral, computándose los plazos en días naturales y con sentido desestimatorio",
         "Valor catastral."
       ],
       "correcta": 3,
@@ -673,10 +661,10 @@
     {
       "pregunta": "Dentro de la materia «Valoración de inmuebles. Normativa reguladora. El valor: Concepto y sus distintos significados. El justiprecio. La depreciación y sus diferentes causas. Métodos de valoración. Valor catastral: concepto, límites y determinación.» (Suelo y edificaciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son legales, compatibles con el uso y no se han tenido en cuenta en la valoración del suelo (art. 35, apartado 3).»?",
       "opciones": [
-        "Criterios.",
+        "Las construcciones del suelo rural se tasan con independencia del terreno si, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Las construcciones del suelo rural se tasan con independencia del terreno si.",
-        "El valor de mercado.",
-        "El justiprecio."
+        "Las construcciones del suelo rural se tasan con independencia del terreno si, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las construcciones del suelo rural se tasan con independencia del terreno si, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Son legales, compatibles con el uso y no se han tenido en cuenta en la valoración del suelo (art. 35, apartado 3).») define o regula específicamente a «Las construcciones del suelo rural se tasan con independencia del terreno si» (Ley de 16 de diciembre de 1954 sobre expropiación forzosa (BOE núm. 351, de 17 de diciembre de 1954)).",
@@ -721,10 +709,10 @@
     {
       "pregunta": "Dentro de la materia «Valoración de inmuebles. Normativa reguladora. El valor: Concepto y sus distintos significados. El justiprecio. La depreciación y sus diferentes causas. Métodos de valoración. Valor catastral: concepto, límites y determinación.» (Depreciación y métodos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Bruto menos depreciación física y funcional (art. 19, apartado 1).»?",
       "opciones": [
-        "La Ley de Expropiación Forzosa de 1954 (LEF).",
+        "Valor de reemplazamiento neto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Valor de reemplazamiento neto.",
-        "El valor catastral.",
-        "La primera."
+        "Valor de reemplazamiento neto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Valor de reemplazamiento neto, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Bruto menos depreciación física y funcional (art. 19, apartado 1).») define o regula específicamente a «Valor de reemplazamiento neto» (Ley de 16 de diciembre de 1954 sobre expropiación forzosa (BOE núm. 351, de 17 de diciembre de 1954)).",
@@ -745,9 +733,9 @@
     {
       "pregunta": "Dentro de la materia «Valoración de inmuebles. Normativa reguladora. El valor: Concepto y sus distintos significados. El justiprecio. La depreciación y sus diferentes causas. Métodos de valoración. Valor catastral: concepto, límites y determinación.» (Valor catastral: ponencias y límites), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Localización, coste de ejecución material, gastos y beneficios de la promoción y circunstancias del mercado (art. 23, apartado 1).»?",
       "opciones": [
-        "El valor de mercado.",
-        "El justiprecio.",
-        "La segunda.",
+        "Criterios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Criterios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Criterios, computándose los plazos en días naturales y con sentido desestimatorio",
         "Criterios."
       ],
       "correcta": 3,
@@ -791,15 +779,27 @@
       "referencia": "Ley de 16 de diciembre de 1954 sobre expropiación forzosa (BOE núm. 351, de 17 de diciembre de 1954)"
     },
     {
-      "pregunta": "Dentro de la materia «Valoración de inmuebles. Normativa reguladora. El valor: Concepto y sus distintos significados. El justiprecio. La depreciación y sus diferentes causas. Métodos de valoración. Valor catastral: concepto, límites y determinación.» (Normativa reguladora de la valoración), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula el justiprecio de los bienes expropiados, en su artículo 36 y siguientes.»?",
+      "pregunta": "Dentro del estudio de «Significados del valor» (Valoración de inmuebles. Normativa reguladora. El valor: Concepto y sus distintos significados. El justiprecio. La depreciación y sus diferentes causas. Métodos de valoración. Valor catastral: concepto, límites y determinación.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Precio más probable de venta entre partes independientes, libre de cargas (art. 23, apartado 2).»?",
       "opciones": [
-        "El valor catastral.",
-        "La primera.",
-        "La distinción entre suelo y edificación.",
-        "La Ley de Expropiación Forzosa de 1954 (LEF)."
+        "Las construcciones del suelo rural se tasan con independencia del terreno si.",
+        "Valor de mercado.",
+        "Valor de reemplazamiento neto.",
+        "La valoración de inmuebles se."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («Precio más probable de venta entre partes independientes, libre de cargas (art. 23, apartado 2).») define o regula específicamente a «Valor de mercado» (Ley de 16 de diciembre de 1954 sobre expropiación forzosa (BOE núm. 351, de 17 de diciembre de 1954)).",
+      "referencia": "Ley de 16 de diciembre de 1954 sobre expropiación forzosa (BOE núm. 351, de 17 de diciembre de 1954)"
+    },
+    {
+      "pregunta": "En relación con «El valor de mercado» (El valor: concepto y significados), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Es el precio más probable por el que podría venderse un inmueble, libre de cargas, entre partes independientes (Ley del Catastro, art. 23, apartado 2), previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Es el precio más probable por el que podría venderse un inmueble, libre de cargas, entre partes independientes (Ley del Catastro, art. 23, apartado 2), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Es el precio más probable por el que podría venderse un inmueble, libre de cargas, entre partes independientes (Ley del Catastro, art. 23, apartado 2), computándose los plazos en días naturales y con sentido desestimatorio.",
+        "Es el precio más probable por el que podría venderse un inmueble, libre de cargas, entre partes independientes (Ley del Catastro, art. 23, apartado 2)."
       ],
       "correcta": 3,
-      "explicacion": "Dicha determinación («Regula el justiprecio de los bienes expropiados, en su artículo 36 y siguientes.») define o regula específicamente a «La Ley de Expropiación Forzosa de 1954 (LEF)» (Ley de 16 de diciembre de 1954 sobre expropiación forzosa (BOE núm. 351, de 17 de diciembre de 1954)).",
+      "explicacion": "Respecto a «El valor de mercado» (El valor: concepto y significados), la regulación vigente establece que: Es el precio más probable por el que podría venderse un inmueble, libre de cargas, entre partes independientes (Ley del Catastro, art. 23, apartado 2).",
       "referencia": "Ley de 16 de diciembre de 1954 sobre expropiación forzosa (BOE núm. 351, de 17 de diciembre de 1954)"
     }
   ]

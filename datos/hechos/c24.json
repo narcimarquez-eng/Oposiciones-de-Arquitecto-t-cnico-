@@ -26,10 +26,10 @@
   {
     "pregunta": "¿Por qué medio se practican preferentemente las notificaciones?",
     "opciones": [
-      "Por correo ordinario",
+      "Por medios electrónicos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Por medios electrónicos",
-      "Por edictos",
-      "Por teléfono"
+      "Por medios electrónicos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Por medios electrónicos, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Las notificaciones se practicarán preferentemente por medios electrónicos.",
@@ -39,9 +39,9 @@
     "pregunta": "¿Qué sistema de firma puede usarse en la actuación administrativa automatizada?",
     "opciones": [
       "El sello electrónico de Administración pública",
-      "La firma manuscrita del ciudadano",
-      "El sello de caucho",
-      "Ninguno"
+      "El sello electrónico de Administración pública, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El sello electrónico de Administración pública, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El sello electrónico de Administración pública, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "En la actuación automatizada puede utilizarse sello electrónico de Administración pública.",
@@ -50,10 +50,10 @@
   {
     "pregunta": "¿Qué deben garantizar las Administraciones a los interesados en el uso de medios electrónicos?",
     "opciones": [
-      "Su prohibición",
-      "El pago de un ordenador",
+      "La asistencia en su uso, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La asistencia en su uso, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "La asistencia en su uso",
-      "Nada"
+      "La asistencia en su uso, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "Las Administraciones deben garantizar la asistencia en el uso de medios electrónicos a los interesados que lo soliciten.",
@@ -63,9 +63,9 @@
     "pregunta": "¿Qué deben hacer las Administraciones con las aplicaciones de su propiedad que puedan servir a otras?",
     "opciones": [
       "Ponerlas a disposición de cualquier Administración que las solicite",
-      "Destruirlas",
-      "Venderlas a empresas",
-      "Ocultarlas"
+      "Ponerlas a disposición de cualquier Administración que las solicite, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Ponerlas a disposición de cualquier Administración que las solicite, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Ponerlas a disposición de cualquier Administración que las solicite, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El art. 157 LRJSP regula la reutilización de sistemas y aplicaciones de propiedad de la Administración.",
@@ -110,9 +110,9 @@
   {
     "pregunta": "¿Qué principio permite que sistemas de distintas Administraciones intercambien información?",
     "opciones": [
-      "La opacidad",
-      "La duplicidad",
-      "La desconexión",
+      "La interoperabilidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La interoperabilidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La interoperabilidad, computándose los plazos en días naturales y con sentido desestimatorio",
       "La interoperabilidad"
     ],
     "correcta": 3,

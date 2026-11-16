@@ -2,10 +2,10 @@
   {
     "pregunta": "¿Qué sistema depura las aguas residuales en zonas sin red municipal?",
     "opciones": [
-      "Aljibe",
+      "Fosa séptica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Fosa séptica",
-      "Depósito de gasoil",
-      "Torre de refrigeración"
+      "Fosa séptica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Fosa séptica, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "La fosa séptica realiza un tratamiento primario de aguas residuales en zonas sin red.",
@@ -26,10 +26,10 @@
   {
     "pregunta": "¿En qué edificios es suficiente la ventilación primaria como único sistema?",
     "opciones": [
-      "En rascacielos de más de 30 plantas",
-      "Nunca",
+      "En edificios de menos de 7 plantas (o de menos de 11 con bajante sobredimensionada), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "En edificios de menos de 7 plantas (o de menos de 11 con bajante sobredimensionada), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "En edificios de menos de 7 plantas (o de menos de 11 con bajante sobredimensionada)",
-      "En todos los edificios"
+      "En edificios de menos de 7 plantas (o de menos de 11 con bajante sobredimensionada), computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "La ventilación primaria se considera suficiente en edificios con menos de 7 plantas, o menos de 11 si la bajante está sobredimensionada.",
@@ -38,10 +38,10 @@
   {
     "pregunta": "¿Cuándo debe disponerse un separador de grasas en la red de saneamiento?",
     "opciones": [
-      "Siempre en viviendas",
-      "Nunca",
+      "Cuando las aguas residuales puedan transportar una cantidad excesiva de grasa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Cuando las aguas residuales puedan transportar una cantidad excesiva de grasa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
       "Cuando las aguas residuales puedan transportar una cantidad excesiva de grasa",
-      "Solo en pluviales"
+      "Cuando las aguas residuales puedan transportar una cantidad excesiva de grasa, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 2,
     "explicacion": "El separador de grasas se dispone cuando se prevé que las aguas transporten una cantidad excesiva de grasa.",
@@ -51,9 +51,9 @@
     "pregunta": "¿Cuándo debe disponerse una arqueta de trasdós?",
     "opciones": [
       "Cuando llega al pozo general del edificio más de un colector",
-      "En cada bajante",
-      "Nunca",
-      "Solo en cubiertas"
+      "Cuando llega al pozo general del edificio más de un colector, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Cuando llega al pozo general del edificio más de un colector, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Cuando llega al pozo general del edificio más de un colector, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "La arqueta de trasdós se dispone cuando llega más de un colector al pozo general.",
@@ -62,10 +62,10 @@
   {
     "pregunta": "¿Qué pendiente mínima debe tener el fondo del tanque de un sistema de bombeo de aguas residuales?",
     "opciones": [
-      "1 %",
+      "25 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "25 %",
-      "5 %",
-      "100 %"
+      "25 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "25 %, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El fondo del tanque debe tener una pendiente mínima del 25 %.",
@@ -74,9 +74,9 @@
   {
     "pregunta": "¿Qué material es habitual en los colectores enterrados de saneamiento de edificios?",
     "opciones": [
-      "El vidrio",
-      "La madera",
-      "El cartón",
+      "El PVC, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El PVC, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El PVC, computándose los plazos en días naturales y con sentido desestimatorio",
       "El PVC"
     ],
     "correcta": 3,
@@ -86,9 +86,9 @@
   {
     "pregunta": "¿Qué elemento recoge el agua de lluvia en patios y terrazas?",
     "opciones": [
-      "El contador",
-      "El grifo",
-      "El termo",
+      "El sumidero, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El sumidero, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El sumidero, computándose los plazos en días naturales y con sentido desestimatorio",
       "El sumidero"
     ],
     "correcta": 3,
@@ -98,10 +98,10 @@
   {
     "pregunta": "¿Qué elemento permite acceder a la red de alcantarillado para su inspección y limpieza?",
     "opciones": [
-      "La llave de paso",
+      "El pozo de registro, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "El pozo de registro",
-      "El aireador",
-      "El radiador"
+      "El pozo de registro, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El pozo de registro, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Los pozos de registro permiten el acceso a la red para su mantenimiento.",
@@ -110,10 +110,10 @@
   {
     "pregunta": "¿Qué dispositivo evita que el agua de la red pública inunde los sótanos en caso de entrada en carga?",
     "opciones": [
-      "El sifón de lavabo",
+      "La válvula antirretorno de saneamiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "La válvula antirretorno de saneamiento",
-      "La rejilla de ventilación",
-      "El contador"
+      "La válvula antirretorno de saneamiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La válvula antirretorno de saneamiento, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Las válvulas antirretorno impiden el reflujo desde la red pública.",
@@ -230,9 +230,9 @@
   {
     "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Elementos que componen la instalación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las tuberías horizontales que recogen las bajantes y conducen el agua hasta la arqueta general.»?",
     "opciones": [
-      "La primera regla.",
-      "El precio también depende de si la red.",
-      "El primero.",
+      "Los colectores, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Los colectores, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Los colectores, computándose los plazos en días naturales y con sentido desestimatorio",
       "Los colectores."
     ],
     "correcta": 3,
@@ -254,10 +254,10 @@
   {
     "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución de la instalación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Válvulas de desagüe, sifones individuales y botes sifónicos, calderetas o cazoletas y sumideros, y canalones (DB-HS 5, apartados 5.1.1 a 5.1.4).»?",
     "opciones": [
-      "Esa comunicación.",
+      "Los puntos de captación se ejecutan según el apartado 5.1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "Los puntos de captación se ejecutan según el apartado 5.1.",
-      "Para un supuesto práctico, el orden de análisis es.",
-      "El segundo."
+      "Los puntos de captación se ejecutan según el apartado 5.1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Los puntos de captación se ejecutan según el apartado 5.1, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Válvulas de desagüe, sifones individuales y botes sifónicos, calderetas o cazoletas y sumideros, y canalones (DB-HS 5, apartados 5.1.1 a 5.1.4).») define o regula específicamente a «Los puntos de captación se ejecutan según el apartado 5.1» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -278,9 +278,9 @@
   {
     "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución de la instalación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es que las uniones, los entronques y las derivaciones se controlan al 100 % en la prueba de estanqueidad (apartado 5.6.1, punto 6).»?",
     "opciones": [
-      "El saneamiento se mide por unidades de obra.",
-      "Decidir si el desagüe.",
-      "El tercero.",
+      "Una regla de ejecución que se repite en la práctica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Una regla de ejecución que se repite en la práctica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Una regla de ejecución que se repite en la práctica, computándose los plazos en días naturales y con sentido desestimatorio",
       "Una regla de ejecución que se repite en la práctica."
     ],
     "correcta": 3,
@@ -302,10 +302,10 @@
   {
     "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Uso, conservación y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es comprobar periódicamente la estanqueidad general de la red, la existencia de olores y el estado del resto de elementos (apartado 7, punto 1).»?",
     "opciones": [
-      "El precio también depende de si la red.",
+      "La primera regla, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "La primera regla.",
-      "El primero.",
-      "Marco normativo verificado en texto oficial para este tema."
+      "La primera regla, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La primera regla, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Es comprobar periódicamente la estanqueidad general de la red, la existencia de olores y el estado del resto de elementos (apartado 7, punto 1).») define o regula específicamente a «La primera regla» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
@@ -326,9 +326,9 @@
   {
     "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Uso, conservación y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la que permite detectar a tiempo un fallo que, si se deja avanzar, afecta al forjado o a la red enterrada.»?",
     "opciones": [
-      "Para un supuesto práctico, el orden de análisis es.",
-      "El segundo.",
-      "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+      "Esa comunicación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Esa comunicación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Esa comunicación, computándose los plazos en días naturales y con sentido desestimatorio",
       "Esa comunicación."
     ],
     "correcta": 3,
@@ -350,10 +350,10 @@
   {
     "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Criterios de medición y factores del precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Metros lineales de tubería por diámetro y material, con las piezas especiales y las conexiones.»?",
     "opciones": [
-      "Decidir si el desagüe.",
+      "El saneamiento se mide por unidades de obra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "El saneamiento se mide por unidades de obra.",
-      "El tercero.",
-      "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      "El saneamiento se mide por unidades de obra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El saneamiento se mide por unidades de obra, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Dicha determinación («Metros lineales de tubería por diámetro y material, con las piezas especiales y las conexiones.») define o regula específicamente a «El saneamiento se mide por unidades de obra» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",

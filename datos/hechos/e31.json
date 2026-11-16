@@ -2,9 +2,9 @@
   {
     "pregunta": "¿Qué condiciones se exigen para que proceda la revisión de precios?",
     "opciones": [
-      "Solo haber firmado el contrato",
-      "Que lo pida un vecino",
-      "Que haya pasado un mes",
+      "Haber ejecutado al menos el 20 % del importe y transcurrido dos años desde la formalización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Haber ejecutado al menos el 20 % del importe y transcurrido dos años desde la formalización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Haber ejecutado al menos el 20 % del importe y transcurrido dos años desde la formalización, computándose los plazos en días naturales y con sentido desestimatorio",
       "Haber ejecutado al menos el 20 % del importe y transcurrido dos años desde la formalización"
     ],
     "correcta": 3,
@@ -14,9 +14,9 @@
   {
     "pregunta": "¿Qué índices se aplican en la revisión cuando la demora es imputable al contratista?",
     "opciones": [
-      "Siempre los más altos",
-      "Ninguno",
-      "Los del año de la licitación duplicados",
+      "Los del período en que debió ejecutarse o los reales, el que resulte inferior, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Los del período en que debió ejecutarse o los reales, el que resulte inferior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Los del período en que debió ejecutarse o los reales, el que resulte inferior, computándose los plazos en días naturales y con sentido desestimatorio",
       "Los del período en que debió ejecutarse o los reales, el que resulte inferior"
     ],
     "correcta": 3,
@@ -39,9 +39,9 @@
     "pregunta": "¿Quién aprueba las fórmulas tipo de revisión de precios?",
     "opciones": [
       "El Consejo de Ministros, previo informe del Comité Superior de Precios de Contratos del Estado",
-      "El contratista",
-      "El Congreso",
-      "El ayuntamiento"
+      "El Consejo de Ministros, previo informe del Comité Superior de Precios de Contratos del Estado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "El Consejo de Ministros, previo informe del Comité Superior de Precios de Contratos del Estado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "El Consejo de Ministros, previo informe del Comité Superior de Precios de Contratos del Estado, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "Las fórmulas tipo se aprueban por el Consejo de Ministros, previo informe del Comité Superior de Precios.",
@@ -51,9 +51,9 @@
     "pregunta": "¿Qué debe detallar el pliego de cláusulas administrativas particulares sobre la revisión?",
     "opciones": [
       "La fórmula de revisión aplicable",
-      "El nombre del interventor",
-      "El horario de obra",
-      "Nada"
+      "La fórmula de revisión aplicable, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "La fórmula de revisión aplicable, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La fórmula de revisión aplicable, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "El pliego debe detallar, en su caso, la fórmula de revisión aplicable.",
@@ -62,9 +62,9 @@
   {
     "pregunta": "¿Qué índices se emplean en las fórmulas de revisión de precios?",
     "opciones": [
-      "El índice de audiencia televisiva",
-      "El índice bursátil",
-      "Ninguno",
+      "Índices de precios de materiales y de mano de obra publicados oficialmente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Índices de precios de materiales y de mano de obra publicados oficialmente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Índices de precios de materiales y de mano de obra publicados oficialmente, computándose los plazos en días naturales y con sentido desestimatorio",
       "Índices de precios de materiales y de mano de obra publicados oficialmente"
     ],
     "correcta": 3,
@@ -74,10 +74,10 @@
   {
     "pregunta": "¿Qué indica el coeficiente fijo de una fórmula polinómica de revisión?",
     "opciones": [
-      "El beneficio industrial",
+      "La parte del precio que no se revisa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "La parte del precio que no se revisa",
-      "El IVA",
-      "El porcentaje de baja"
+      "La parte del precio que no se revisa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "La parte del precio que no se revisa, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "El término fijo representa la parte no revisable del precio.",
@@ -86,10 +86,10 @@
   {
     "pregunta": "¿Con qué periodicidad se calculan los coeficientes de revisión?",
     "opciones": [
-      "Una vez cada diez años",
+      "En relación con los periodos de las certificaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
       "En relación con los periodos de las certificaciones",
-      "Nunca",
-      "Diariamente"
+      "En relación con los periodos de las certificaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "En relación con los periodos de las certificaciones, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 1,
     "explicacion": "Los coeficientes se aplican a los importes de cada certificación según los índices del periodo.",
@@ -99,9 +99,9 @@
     "pregunta": "¿Qué contratos quedan excluidos con carácter general de la revisión de precios?",
     "opciones": [
       "Los contratos cuyo pago se concierte mediante sistemas de arrendamiento financiero o con precio cerrado no revisable, según los pliegos",
-      "Todos los de obras",
-      "Los contratos públicos en general",
-      "Ninguno"
+      "Los contratos cuyo pago se concierte mediante sistemas de arrendamiento financiero o con precio cerrado no revisable, según los pliegos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+      "Los contratos cuyo pago se concierte mediante sistemas de arrendamiento financiero o con precio cerrado no revisable, según los pliegos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+      "Los contratos cuyo pago se concierte mediante sistemas de arrendamiento financiero o con precio cerrado no revisable, según los pliegos, computándose los plazos en días naturales y con sentido desestimatorio"
     ],
     "correcta": 0,
     "explicacion": "La revisión solo procede en los supuestos que prevén la ley y los pliegos.",

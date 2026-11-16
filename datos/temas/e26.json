@@ -58,9 +58,9 @@
       "pregunta": "¿Quién puede aprobar los pliegos de cláusulas administrativas generales de la Administración del Estado?",
       "opciones": [
         "El Consejo de Ministros, previo dictamen del Consejo de Estado",
-        "El órgano de contratación",
-        "El Parlamento",
-        "Un notario"
+        "El Consejo de Ministros, previo dictamen del Consejo de Estado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El Consejo de Ministros, previo dictamen del Consejo de Estado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Consejo de Ministros, previo dictamen del Consejo de Estado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El art. 121.1 LCSP atribuye la aprobación de los PCAG al Consejo de Ministros, previo dictamen del Consejo de Estado.",
@@ -69,9 +69,9 @@
     {
       "pregunta": "¿Cuándo deben aprobarse los pliegos de cláusulas administrativas particulares?",
       "opciones": [
-        "Después de adjudicar",
-        "Nunca",
-        "Tras la formalización",
+        "Antes de la autorización del gasto o conjuntamente con ella, y antes de la licitación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Antes de la autorización del gasto o conjuntamente con ella, y antes de la licitación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Antes de la autorización del gasto o conjuntamente con ella, y antes de la licitación, computándose los plazos en días naturales y con sentido desestimatorio",
         "Antes de la autorización del gasto o conjuntamente con ella, y antes de la licitación"
       ],
       "correcta": 3,
@@ -81,10 +81,10 @@
     {
       "pregunta": "¿Qué modificaciones admiten los PCAP ya aprobados?",
       "opciones": [
-        "Cualquiera",
-        "Las que pida el licitador",
+        "Solo error material, de hecho o aritmético, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Solo error material, de hecho o aritmético, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Solo error material, de hecho o aritmético",
-        "Ninguna nunca"
+        "Solo error material, de hecho o aritmético, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 122.1 LCSP admite solo la modificación por error material, de hecho o aritmético; en otro caso, la modificación conlleva la retroacción de actuaciones.",
@@ -94,9 +94,9 @@
       "pregunta": "¿Qué contenido debe incluir el PCAP?",
       "opciones": [
         "Criterios de solvencia y de adjudicación",
-        "Solo el precio",
-        "Solo la memoria",
-        "Las fotos de la obra"
+        "Criterios de solvencia y de adjudicación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Criterios de solvencia y de adjudicación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Criterios de solvencia y de adjudicación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El art. 122.2 LCSP exige que el PCAP incluya los criterios de solvencia y de adjudicación, junto con otros contenidos.",
@@ -129,10 +129,10 @@
     {
       "pregunta": "¿Qué comprende la prescripción técnica en contratos de obras?",
       "opciones": [
-        "Solo el precio",
+        "Características de materiales y procesos, incluido el impacto social y ambiental, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Características de materiales y procesos, incluido el impacto social y ambiental",
-        "Solo la fecha de inicio",
-        "Solo la plantilla de trabajadores"
+        "Características de materiales y procesos, incluido el impacto social y ambiental, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Características de materiales y procesos, incluido el impacto social y ambiental, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El art. 125.1.a) LCSP incluye en la prescripción técnica las características de materiales, productos y procesos, junto con el impacto social, laboral, ambiental y climático.",
@@ -141,10 +141,10 @@
     {
       "pregunta": "¿Qué es una etiqueta según el art. 127.1 LCSP?",
       "opciones": [
-        "Un contrato",
-        "Un plano",
+        "Documento, certificado o acreditación que confirma el cumplimiento de requisitos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Documento, certificado o acreditación que confirma el cumplimiento de requisitos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Documento, certificado o acreditación que confirma el cumplimiento de requisitos",
-        "Un sello de la Junta"
+        "Documento, certificado o acreditación que confirma el cumplimiento de requisitos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El art. 127.1 LCSP define la etiqueta como cualquier documento, certificado o acreditación que confirme que las obras, productos, servicios, procesos o procedimientos cumplen determinados requisitos.",
@@ -153,10 +153,10 @@
     {
       "pregunta": "¿Qué principios deben guiar la licitación?",
       "opciones": [
-        "Discrecionalidad absoluta",
+        "Tratamiento igualitario, no discriminatorio, transparencia y proporcionalidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Tratamiento igualitario, no discriminatorio, transparencia y proporcionalidad",
-        "Secreto",
-        "Prioridad a los locales"
+        "Tratamiento igualitario, no discriminatorio, transparencia y proporcionalidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Tratamiento igualitario, no discriminatorio, transparencia y proporcionalidad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El art. 132.1 LCSP exige tratamiento igualitario y no discriminatorio, y actuar con transparencia y proporcionalidad.",
@@ -166,9 +166,9 @@
       "pregunta": "¿Qué competencia tiene la Junta de Andalucía sobre la organización a efectos contractuales de su Administración?",
       "opciones": [
         "Exclusiva",
-        "Compartida",
-        "Ninguna",
-        "Delegada"
+        "Exclusiva, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Exclusiva, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Exclusiva, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El art. 47.1.4.ª del Estatuto atribuye a la Comunidad, como competencia exclusiva, la organización a efectos contractuales de su Administración propia.",
@@ -177,10 +177,10 @@
     {
       "pregunta": "¿Qué aprueba el Consejo de Ministros en relación con los pliegos generales de cláusulas administrativas?",
       "opciones": [
-        "El menú de la cafetería",
+        "El PCAG, previo dictamen del Consejo de Estado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El PCAG, previo dictamen del Consejo de Estado",
-        "El calendario escolar",
-        "Nada"
+        "El PCAG, previo dictamen del Consejo de Estado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El PCAG, previo dictamen del Consejo de Estado, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El PCAG lo aprueba el Consejo de Ministros, previo dictamen del Consejo de Estado.",
@@ -190,32 +190,20 @@
       "pregunta": "¿Quién aprueba el pliego de cláusulas administrativas particulares (PCAP)?",
       "opciones": [
         "El órgano de contratación, antes de la licitación",
-        "El Defensor del Pueblo",
-        "El contratista",
-        "El vecino"
+        "El órgano de contratación, antes de la licitación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El órgano de contratación, antes de la licitación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El órgano de contratación, antes de la licitación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El PCAP lo aprueba el órgano de contratación antes de la licitación.",
       "referencia": "LCSP, art. 122.1"
     },
     {
-      "pregunta": "¿Quién aprueba el pliego general de prescripciones técnicas (PPTG)?",
-      "opciones": [
-        "El alcalde solo",
-        "El Consejo de Ministros, previo informe de la Junta Consultiva",
-        "El contratista",
-        "Nadie"
-      ],
-      "correcta": 1,
-      "explicacion": "El PPTG lo aprueba el Consejo de Ministros, previo informe de la Junta Consultiva.",
-      "referencia": "LCSP, art. 123.1"
-    },
-    {
       "pregunta": "¿Qué puede modificar el PCAP después de aprobarse?",
       "opciones": [
-        "Cualquier cosa sin control",
-        "El precio del café",
-        "Nada",
+        "Solo errores materiales, de hecho o aritméticos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Solo errores materiales, de hecho o aritméticos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Solo errores materiales, de hecho o aritméticos, computándose los plazos en días naturales y con sentido desestimatorio",
         "Solo errores materiales, de hecho o aritméticos"
       ],
       "correcta": 3,
@@ -226,9 +214,9 @@
       "pregunta": "¿Qué incluye el PCAP sobre los criterios de adjudicación?",
       "opciones": [
         "Los criterios de solvencia y de adjudicación",
-        "Solo la fecha de la boda",
-        "Solo la lista de compras",
-        "Nada"
+        "Los criterios de solvencia y de adjudicación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Los criterios de solvencia y de adjudicación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Los criterios de solvencia y de adjudicación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El PCAP incluye los criterios de solvencia y de adjudicación.",
@@ -237,10 +225,10 @@
     {
       "pregunta": "¿Qué recogen las prescripciones técnicas en las obras?",
       "opciones": [
-        "Solo los nombres de los empleados",
+        "Las características de los materiales y procesos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Las características de los materiales y procesos",
-        "El horario de comida",
-        "Nada"
+        "Las características de los materiales y procesos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las características de los materiales y procesos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Las prescripciones técnicas definen las características de materiales y procesos.",
@@ -249,10 +237,10 @@
     {
       "pregunta": "¿Qué instrumento se usa como prueba del cumplimiento de una característica técnica?",
       "opciones": [
-        "Un rumor",
-        "Un dibujo infantil",
+        "La etiqueta o certificado de cumplimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La etiqueta o certificado de cumplimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La etiqueta o certificado de cumplimiento",
-        "Nada"
+        "La etiqueta o certificado de cumplimiento, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La etiqueta, el certificado o la acreditación sirven como prueba de cumplimiento.",
@@ -261,9 +249,9 @@
     {
       "pregunta": "¿Qué certifica un organismo de evaluación de la conformidad?",
       "opciones": [
-        "Un menú",
-        "Una factura",
-        "Un anuncio",
+        "El informe de pruebas o certificado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El informe de pruebas o certificado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El informe de pruebas o certificado, computándose los plazos en días naturales y con sentido desestimatorio",
         "El informe de pruebas o certificado"
       ],
       "correcta": 3,
@@ -271,24 +259,12 @@
       "referencia": "LCSP, art. 128.1"
     },
     {
-      "pregunta": "¿Qué principio rige la contratación pública?",
-      "opciones": [
-        "Tratamiento igualitario, no discriminatorio, transparencia y proporcionalidad",
-        "La arbitrariedad",
-        "El secreto",
-        "La improvisación"
-      ],
-      "correcta": 0,
-      "explicacion": "La contratación se rige por el tratamiento igualitario, la no discriminación, la transparencia y la proporcionalidad.",
-      "referencia": "LCSP, art. 132.1"
-    },
-    {
       "pregunta": "¿Qué criterio de adjudicación se basa en la mejor relación calidad-precio?",
       "opciones": [
-        "El sorteo",
+        "La pluralidad de criterios de adjudicación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La pluralidad de criterios de adjudicación",
-        "La antigüedad",
-        "La cercanía"
+        "La pluralidad de criterios de adjudicación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La pluralidad de criterios de adjudicación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La pluralidad de criterios se basa en la mejor relación calidad-precio.",
@@ -297,10 +273,10 @@
     {
       "pregunta": "¿Qué tipo de prescripción no puede crear obstáculos a la competencia?",
       "opciones": [
-        "La decoración",
-        "El horario",
+        "Las prescripciones técnicas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las prescripciones técnicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Las prescripciones técnicas",
-        "Ninguna"
+        "Las prescripciones técnicas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Las prescripciones técnicas no deben crear obstáculos a la competencia.",
@@ -309,9 +285,9 @@
     {
       "pregunta": "¿Qué norma andaluza permite a la Junta organizar su contratación?",
       "opciones": [
-        "La Ley de Caza",
-        "La Ley de Pesca",
-        "Ninguna",
+        "El Estatuto de Autonomía (art. 47, competencias compartidas), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El Estatuto de Autonomía (art. 47, competencias compartidas), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Estatuto de Autonomía (art. 47, competencias compartidas), computándose los plazos en días naturales y con sentido desestimatorio",
         "El Estatuto de Autonomía (art. 47, competencias compartidas)"
       ],
       "correcta": 3,
@@ -322,9 +298,9 @@
       "pregunta": "¿Qué documento del contrato define las condiciones de adjudicación y de ejecución?",
       "opciones": [
         "El pliego de cláusulas administrativas particulares",
-        "La lista de la compra",
-        "La carta de la boda",
-        "Nada"
+        "El pliego de cláusulas administrativas particulares, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El pliego de cláusulas administrativas particulares, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El pliego de cláusulas administrativas particulares, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El PCAP define las condiciones de adjudicación y de ejecución.",
@@ -333,10 +309,10 @@
     {
       "pregunta": "¿Qué pliego contiene las condiciones de las prescripciones técnicas particulares?",
       "opciones": [
-        "El pliego de bebidas",
+        "El pliego de prescripciones técnicas particulares (PPTP), previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El pliego de prescripciones técnicas particulares (PPTP)",
-        "El pliego de flores",
-        "Ninguno"
+        "El pliego de prescripciones técnicas particulares (PPTP), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El pliego de prescripciones técnicas particulares (PPTP), computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El PPTP recoge las prescripciones técnicas particulares de cada contrato.",
@@ -345,10 +321,10 @@
     {
       "pregunta": "¿Qué tipo de consideraciones pueden incluirse en el PCAP?",
       "opciones": [
-        "Solo las deportivas",
-        "Solo las culinarias",
+        "Sociales, laborales y ambientales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Sociales, laborales y ambientales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Sociales, laborales y ambientales",
-        "Ninguna"
+        "Sociales, laborales y ambientales, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El PCAP puede incluir consideraciones sociales, laborales y ambientales.",
@@ -357,9 +333,9 @@
     {
       "pregunta": "¿Qué puede incluir el PCAP sobre las condiciones salariales?",
       "opciones": [
-        "Los sueldos del alcalde",
-        "Nada",
-        "El color de la nómina",
+        "Las condiciones salariales del convenio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las condiciones salariales del convenio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las condiciones salariales del convenio, computándose los plazos en días naturales y con sentido desestimatorio",
         "Las condiciones salariales del convenio"
       ],
       "correcta": 3,
@@ -370,9 +346,9 @@
       "pregunta": "¿Qué tipo de procesos de producción puede recoger la prescripción técnica?",
       "opciones": [
         "Procesos y métodos de producción",
-        "Ningún proceso",
-        "Solo la cocina",
-        "Solo la jardinería"
+        "Procesos y métodos de producción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Procesos y métodos de producción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Procesos y métodos de producción, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "Las prescripciones pueden referirse a procesos y métodos de producción.",
@@ -381,10 +357,10 @@
     {
       "pregunta": "¿Qué medio de prueba es una etiqueta medioambiental o social?",
       "opciones": [
-        "Un adorno",
+        "Un medio de prueba de cumplimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Un medio de prueba de cumplimiento",
-        "Un plato",
-        "Una multa"
+        "Un medio de prueba de cumplimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Un medio de prueba de cumplimiento, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "La etiqueta medioambiental o social sirve como medio de prueba.",
@@ -393,34 +369,22 @@
     {
       "pregunta": "¿Qué tipo de procedimiento aprueba los pliegos antes de licitar?",
       "opciones": [
-        "La votación de los vecinos",
-        "El sorteo",
+        "La aprobación por el órgano de contratación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La aprobación por el órgano de contratación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La aprobación por el órgano de contratación",
-        "Ninguno"
+        "La aprobación por el órgano de contratación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los pliegos los aprueba el órgano de contratación antes de licitar.",
       "referencia": "LCSP, arts. 122.1 y 124.1"
     },
     {
-      "pregunta": "¿Qué tipo de criterio incluye el PCAP en obras?",
-      "opciones": [
-        "Criterios de cocina",
-        "Criterios de música",
-        "Criterios de moda",
-        "Criterios de solvencia y de adjudicación"
-      ],
-      "correcta": 3,
-      "explicacion": "El PCAP incluye criterios de solvencia y de adjudicación.",
-      "referencia": "LCSP, art. 122.2"
-    },
-    {
       "pregunta": "¿Qué norma regula la licitación de obras?",
       "opciones": [
-        "La LEF",
-        "La LGS",
+        "La LCSP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La LCSP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La LCSP",
-        "La Ley de Caza"
+        "La LCSP, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La licitación de obras se regula en la LCSP.",
@@ -441,10 +405,10 @@
     {
       "pregunta": "¿Qué documento fija las cláusulas particulares de un contrato administrativo?",
       "opciones": [
-        "Plan de marketing",
+        "Pliego de cláusulas administrativas particulares, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Pliego de cláusulas administrativas particulares",
-        "Libro de visitas",
-        "Certificado de final de obra"
+        "Pliego de cláusulas administrativas particulares, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Pliego de cláusulas administrativas particulares, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El PCAP fija las cláusulas particulares del contrato.",
@@ -453,10 +417,10 @@
     {
       "pregunta": "¿Qué documento describe las condiciones técnicas de la obra?",
       "opciones": [
-        "Plan de tesorería",
-        "Acta de recepción",
+        "Pliego de prescripciones técnicas particulares, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Pliego de prescripciones técnicas particulares, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Pliego de prescripciones técnicas particulares",
-        "Libro de familia"
+        "Pliego de prescripciones técnicas particulares, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El PPT describe las condiciones técnicas de ejecución de la obra.",
@@ -465,9 +429,9 @@
     {
       "pregunta": "¿Qué ley regula la contratación del sector público en España?",
       "opciones": [
-        "Ley 39/2015",
-        "Ley 38/2003",
-        "Ley 19/2013",
+        "Ley 9/2017, de Contratos del Sector Público, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Ley 9/2017, de Contratos del Sector Público, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Ley 9/2017, de Contratos del Sector Público, computándose los plazos en días naturales y con sentido desestimatorio",
         "Ley 9/2017, de Contratos del Sector Público"
       ],
       "correcta": 3,
@@ -477,26 +441,14 @@
     {
       "pregunta": "¿Qué tipo de pliego contiene las cláusulas generales de los contratos administrativos?",
       "opciones": [
-        "Pliego de cláusulas penales",
-        "Pliego de precios de mercado",
-        "Pliego de visitas",
+        "Pliego de cláusulas administrativas generales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Pliego de cláusulas administrativas generales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Pliego de cláusulas administrativas generales, computándose los plazos en días naturales y con sentido desestimatorio",
         "Pliego de cláusulas administrativas generales"
       ],
       "correcta": 3,
       "explicacion": "El PCAG contiene las cláusulas generales aplicables a los contratos de la Administración.",
       "referencia": "RD 1098/2001"
-    },
-    {
-      "pregunta": "¿Quién aprueba los pliegos de la contratación?",
-      "opciones": [
-        "El órgano de contratación",
-        "El Defensor del Pueblo",
-        "El Tribunal de Cuentas",
-        "El Registro de la Propiedad"
-      ],
-      "correcta": 0,
-      "explicacion": "El órgano de contratación aprueba los pliegos que rigen la licitación.",
-      "referencia": "Ley 9/2017 (LCSP)"
     },
     {
       "pregunta": "¿Qué es la licitación?",
@@ -525,9 +477,9 @@
     {
       "pregunta": "¿Qué procedimiento de adjudicación existe en la contratación pública?",
       "opciones": [
-        "Sorteo de ofertas",
-        "Reparto por antigüedad",
-        "Dedo del órgano",
+        "Abierto, restringido o negociado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Abierto, restringido o negociado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Abierto, restringido o negociado, computándose los plazos en días naturales y con sentido desestimatorio",
         "Abierto, restringido o negociado"
       ],
       "correcta": 3,
@@ -549,33 +501,21 @@
     {
       "pregunta": "Dentro de la materia «Los Pliegos de cláusulas administrativas generales. Los Pliegos de cláusulas administrativas particulares, contenido. El Pliego de prescripciones técnicas generales, contenido. El Pliego de prescripciones técnicas particulares, contenido, definición de determinadas prescripciones técnicas, exención de referencias a prescripciones técnicas comunes, excepción a la prohibición de indicar origen, producción, marcas patentes o tipos de bienes, reglas para el establecimiento de prescripciones técnicas, etiquetas, informes de pruebas, certificación y otros medios de prueba, información sobre las obligaciones relativas 4 de 7 a la fiscalidad, protección del medio ambiente, empleo y condiciones laborales y de contratar a un porcentaje específico de personas con discapacidad, información sobre las condiciones de subrogación en contratos de trabajo.» (Clases de pliegos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Aprobados por el órgano de contratación antes de la licitación (arts. 122.1 y 124.1).»?",
       "opciones": [
-        "Los pliegos.",
+        "PCAP y PPTP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "PCAP y PPTP.",
-        "El mismo apartado.",
-        "Su aplicación se hace en las condiciones que."
+        "PCAP y PPTP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "PCAP y PPTP, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Aprobados por el órgano de contratación antes de la licitación (arts. 122.1 y 124.1).») define o regula específicamente a «PCAP y PPTP» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
       "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     },
     {
-      "pregunta": "En el ámbito de «Los Pliegos de cláusulas administrativas generales. Los Pliegos de cláusulas administrativas particulares, contenido. El Pliego de prescripciones técnicas generales, contenido. El Pliego de prescripciones técnicas particulares, contenido, definición de determinadas prescripciones técnicas, exención de referencias a prescripciones técnicas comunes, excepción a la prohibición de indicar origen, producción, marcas patentes o tipos de bienes, reglas para el establecimiento de prescripciones técnicas, etiquetas, informes de pruebas, certificación y otros medios de prueba, información sobre las obligaciones relativas 4 de 7 a la fiscalidad, protección del medio ambiente, empleo y condiciones laborales y de contratar a un porcentaje específico de personas con discapacidad, información sobre las condiciones de subrogación en contratos de trabajo.» (Prescripciones técnicas), ¿qué establece la normativa respecto a «Definición en obras»?",
-      "opciones": [
-        "Son las reglas del contrato (derechos, obligaciones, solvencia, criterios de adjudicación).",
-        "Solvencia y adjudicación, consideraciones sociales, laborales y ambientales, derechos y obligaciones, cesión y condiciones salariales.",
-        "Características de materiales y procesos, incluido el impacto social, laboral y ambiental y la accesibilidad (art. 125.1).",
-        "Solo pueden corregirse por error material, de hecho o aritmético, y cualquier otra modificación conlleva la retroacción de actuaciones (art. 124.1 LCSP)."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «Definición en obras» (Prescripciones técnicas), la regulación vigente establece que: Características de materiales y procesos, incluido el impacto social, laboral y ambiental y la accesibilidad (art. 125.1).",
-      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
-    },
-    {
       "pregunta": "Dentro de la materia «Los Pliegos de cláusulas administrativas generales. Los Pliegos de cláusulas administrativas particulares, contenido. El Pliego de prescripciones técnicas generales, contenido. El Pliego de prescripciones técnicas particulares, contenido, definición de determinadas prescripciones técnicas, exención de referencias a prescripciones técnicas comunes, excepción a la prohibición de indicar origen, producción, marcas patentes o tipos de bienes, reglas para el establecimiento de prescripciones técnicas, etiquetas, informes de pruebas, certificación y otros medios de prueba, información sobre las obligaciones relativas 4 de 7 a la fiscalidad, protección del medio ambiente, empleo y condiciones laborales y de contratar a un porcentaje específico de personas con discapacidad, información sobre las condiciones de subrogación en contratos de trabajo.» (Prescripciones técnicas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Características de materiales y procesos, incluido el impacto social, laboral y ambiental y la accesibilidad (art. 125.1).»?",
       "opciones": [
-        "Las primeras.",
-        "Para un examen, conviene memorizar los cinco grandes contenidos del PCAP.",
-        "Las modificaciones del PPTP siguen la misma regla que los PCAP.",
+        "Definición en obras, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Definición en obras, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Definición en obras, computándose los plazos en días naturales y con sentido desestimatorio",
         "Definición en obras."
       ],
       "correcta": 3,
@@ -597,10 +537,10 @@
     {
       "pregunta": "Dentro de la materia «Los Pliegos de cláusulas administrativas generales. Los Pliegos de cláusulas administrativas particulares, contenido. El Pliego de prescripciones técnicas generales, contenido. El Pliego de prescripciones técnicas particulares, contenido, definición de determinadas prescripciones técnicas, exención de referencias a prescripciones técnicas comunes, excepción a la prohibición de indicar origen, producción, marcas patentes o tipos de bienes, reglas para el establecimiento de prescripciones técnicas, etiquetas, informes de pruebas, certificación y otros medios de prueba, información sobre las obligaciones relativas 4 de 7 a la fiscalidad, protección del medio ambiente, empleo y condiciones laborales y de contratar a un porcentaje específico de personas con discapacidad, información sobre las condiciones de subrogación en contratos de trabajo.» (Etiquetas y pruebas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Documento, certificado o acreditación de cumplimiento (art. 127.1).»?",
       "opciones": [
-        "Las segundas.",
+        "Etiqueta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "Etiqueta.",
-        "El PPTG tiene una función equivalente al PCAG, pero en el ámbito técnico.",
-        "La etiqueta."
+        "Etiqueta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Etiqueta, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Documento, certificado o acreditación de cumplimiento (art. 127.1).») define o regula específicamente a «Etiqueta» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -669,9 +609,9 @@
     {
       "pregunta": "Dentro de la materia «Los Pliegos de cláusulas administrativas generales. Los Pliegos de cláusulas administrativas particulares, contenido. El Pliego de prescripciones técnicas generales, contenido. El Pliego de prescripciones técnicas particulares, contenido, definición de determinadas prescripciones técnicas, exención de referencias a prescripciones técnicas comunes, excepción a la prohibición de indicar origen, producción, marcas patentes o tipos de bienes, reglas para el establecimiento de prescripciones técnicas, etiquetas, informes de pruebas, certificación y otros medios de prueba, información sobre las obligaciones relativas 4 de 7 a la fiscalidad, protección del medio ambiente, empleo y condiciones laborales y de contratar a un porcentaje específico de personas con discapacidad, información sobre las condiciones de subrogación en contratos de trabajo.» (Función de los pliegos en la contratación pública), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las características de lo que se contrata (materiales, calidades, procesos, pruebas).»?",
       "opciones": [
-        "El PPTG tiene una función equivalente al PCAG, pero en el ámbito técnico.",
-        "La etiqueta.",
-        "Afirmar que el PCAG.",
+        "Las segundas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Las segundas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Las segundas, computándose los plazos en días naturales y con sentido desestimatorio",
         "Las segundas."
       ],
       "correcta": 3,
@@ -741,10 +681,10 @@
     {
       "pregunta": "Dentro de la materia «Los Pliegos de cláusulas administrativas generales. Los Pliegos de cláusulas administrativas particulares, contenido. El Pliego de prescripciones técnicas generales, contenido. El Pliego de prescripciones técnicas particulares, contenido, definición de determinadas prescripciones técnicas, exención de referencias a prescripciones técnicas comunes, excepción a la prohibición de indicar origen, producción, marcas patentes o tipos de bienes, reglas para el establecimiento de prescripciones técnicas, etiquetas, informes de pruebas, certificación y otros medios de prueba, información sobre las obligaciones relativas 4 de 7 a la fiscalidad, protección del medio ambiente, empleo y condiciones laborales y de contratar a un porcentaje específico de personas con discapacidad, información sobre las condiciones de subrogación en contratos de trabajo.» (Los pliegos de prescripciones técnicas generales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Fija, con carácter general, las prescripciones que rigen una clase de prestación.»?",
       "opciones": [
-        "La etiqueta.",
+        "El PPTG tiene una función equivalente al PCAG, pero en el ámbito técnico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El PPTG tiene una función equivalente al PCAG, pero en el ámbito técnico.",
-        "Afirmar que el PCAG.",
-        "Para un examen, la conexión es directa."
+        "El PPTG tiene una función equivalente al PCAG, pero en el ámbito técnico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El PPTG tiene una función equivalente al PCAG, pero en el ámbito técnico, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Fija, con carácter general, las prescripciones que rigen una clase de prestación.») define o regula específicamente a «El PPTG tiene una función equivalente al PCAG, pero en el ámbito técnico» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
@@ -765,13 +705,73 @@
     {
       "pregunta": "Dentro de la materia «Los Pliegos de cláusulas administrativas generales. Los Pliegos de cláusulas administrativas particulares, contenido. El Pliego de prescripciones técnicas generales, contenido. El Pliego de prescripciones técnicas particulares, contenido, definición de determinadas prescripciones técnicas, exención de referencias a prescripciones técnicas comunes, excepción a la prohibición de indicar origen, producción, marcas patentes o tipos de bienes, reglas para el establecimiento de prescripciones técnicas, etiquetas, informes de pruebas, certificación y otros medios de prueba, información sobre las obligaciones relativas 4 de 7 a la fiscalidad, protección del medio ambiente, empleo y condiciones laborales y de contratar a un porcentaje específico de personas con discapacidad, información sobre las condiciones de subrogación en contratos de trabajo.» (Los pliegos de prescripciones técnicas generales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Establece la LCSP y la norma que lo aprueba, y el contrato concreto se completa con el PPTP.»?",
       "opciones": [
-        "El artículo 128 LCSP.",
-        "¿Qué define el art. 127.1 LCSP? La etiqueta.",
-        "La respuesta.",
+        "Su aplicación se hace en las condiciones que, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Su aplicación se hace en las condiciones que, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Su aplicación se hace en las condiciones que, computándose los plazos en días naturales y con sentido desestimatorio",
         "Su aplicación se hace en las condiciones que."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Establece la LCSP y la norma que lo aprueba, y el contrato concreto se completa con el PPTP.») define o regula específicamente a «Su aplicación se hace en las condiciones que» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Función de los pliegos en la contratación pública» (Los Pliegos de cláusulas administrativas generales. Los Pliegos de cláusulas administrativas particulares, contenido. El Pliego de prescripciones técnicas generales, contenido. El Pliego de prescripciones técnicas particulares, contenido, definición de determinadas prescripciones técnicas, exención de referencias a prescripciones técnicas comunes, excepción a la prohibición de indicar origen, producción, marcas patentes o tipos de bienes, reglas para el establecimiento de prescripciones técnicas, etiquetas, informes de pruebas, certificación y otros medios de prueba, información sobre las obligaciones relativas 4 de 7 a la fiscalidad, protección del medio ambiente, empleo y condiciones laborales y de contratar a un porcentaje específico de personas con discapacidad, información sobre las condiciones de subrogación en contratos de trabajo.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Son las reglas del contrato (derechos, obligaciones, solvencia, criterios de adjudicación).»?",
+      "opciones": [
+        "Las primeras.",
+        "El mismo apartado.",
+        "El PPTG tiene una función equivalente al PCAG, pero en el ámbito técnico.",
+        "Las modificaciones del PPTP siguen la misma regla que los PCAP."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha regulación («Son las reglas del contrato (derechos, obligaciones, solvencia, criterios de adjudicación).») define o regula específicamente a «Las primeras» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Contenido de los pliegos de cláusulas administrativas particulares» (Los Pliegos de cláusulas administrativas generales. Los Pliegos de cláusulas administrativas particulares, contenido. El Pliego de prescripciones técnicas generales, contenido. El Pliego de prescripciones técnicas particulares, contenido, definición de determinadas prescripciones técnicas, exención de referencias a prescripciones técnicas comunes, excepción a la prohibición de indicar origen, producción, marcas patentes o tipos de bienes, reglas para el establecimiento de prescripciones técnicas, etiquetas, informes de pruebas, certificación y otros medios de prueba, información sobre las obligaciones relativas 4 de 7 a la fiscalidad, protección del medio ambiente, empleo y condiciones laborales y de contratar a un porcentaje específico de personas con discapacidad, información sobre las condiciones de subrogación en contratos de trabajo.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Exige la previsión de la cesión del contrato, salvo los casos en que no sea posible.»?",
+      "opciones": [
+        "El mismo apartado.",
+        "El PPTG tiene una función equivalente al PCAG, pero en el ámbito técnico.",
+        "Las modificaciones del PPTP siguen la misma regla que los PCAP.",
+        "El artículo 128 LCSP."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha regulación («Exige la previsión de la cesión del contrato, salvo los casos en que no sea posible.») define o regula específicamente a «El mismo apartado» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En relación con «Las modificaciones del PPTP siguen la misma regla que los PCAP» (El pliego de prescripciones técnicas particulares), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Solo pueden corregirse por error material, de hecho o aritmético, y cualquier otra modificación conlleva la retroacción de actuaciones (art. 124.1 LCSP), previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Solo pueden corregirse por error material, de hecho o aritmético, y cualquier otra modificación conlleva la retroacción de actuaciones (art. 124.1 LCSP).",
+        "Solo pueden corregirse por error material, de hecho o aritmético, y cualquier otra modificación conlleva la retroacción de actuaciones (art. 124.1 LCSP), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Solo pueden corregirse por error material, de hecho o aritmético, y cualquier otra modificación conlleva la retroacción de actuaciones (art. 124.1 LCSP), computándose los plazos en días naturales y con sentido desestimatorio."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Las modificaciones del PPTP siguen la misma regla que los PCAP» (El pliego de prescripciones técnicas particulares), la regulación vigente establece que: Solo pueden corregirse por error material, de hecho o aritmético, y cualquier otra modificación conlleva la retroacción de actuaciones (art. 124.1 LCSP).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «El pliego de prescripciones técnicas particulares» (Los Pliegos de cláusulas administrativas generales. Los Pliegos de cláusulas administrativas particulares, contenido. El Pliego de prescripciones técnicas generales, contenido. El Pliego de prescripciones técnicas particulares, contenido, definición de determinadas prescripciones técnicas, exención de referencias a prescripciones técnicas comunes, excepción a la prohibición de indicar origen, producción, marcas patentes o tipos de bienes, reglas para el establecimiento de prescripciones técnicas, etiquetas, informes de pruebas, certificación y otros medios de prueba, información sobre las obligaciones relativas 4 de 7 a la fiscalidad, protección del medio ambiente, empleo y condiciones laborales y de contratar a un porcentaje específico de personas con discapacidad, información sobre las condiciones de subrogación en contratos de trabajo.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Solo pueden corregirse por error material, de hecho o aritmético, y cualquier otra modificación conlleva la retroacción de actuaciones (art. 124.1 LCSP).»?",
+      "opciones": [
+        "El artículo 128 LCSP.",
+        "Afirmar que el PCAG.",
+        "Las modificaciones del PPTP siguen la misma regla que los PCAP.",
+        "El mismo precepto."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha regulación («Solo pueden corregirse por error material, de hecho o aritmético, y cualquier otra modificación conlleva la retroacción de actuaciones (art. 124.1 LCSP).») define o regula específicamente a «Las modificaciones del PPTP siguen la misma regla que los PCAP» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En relación con «La etiqueta» (Etiquetas, informes de pruebas y medios de prueba), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Es un medio de prueba de la conformidad con la prescripción técnica, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Es un medio de prueba de la conformidad con la prescripción técnica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Es un medio de prueba de la conformidad con la prescripción técnica, computándose los plazos en días naturales y con sentido desestimatorio.",
+        "Es un medio de prueba de la conformidad con la prescripción técnica."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «La etiqueta» (Etiquetas, informes de pruebas y medios de prueba), la regulación vigente establece que: Es un medio de prueba de la conformidad con la prescripción técnica.",
       "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     }
   ]

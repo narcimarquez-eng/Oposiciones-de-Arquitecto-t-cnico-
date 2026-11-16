@@ -141,9 +141,9 @@
       "pregunta": "Según el Código Estructural, art. 17.2.1, letra a, ¿quién aprueba el programa de control de calidad para la obra?",
       "opciones": [
         "La dirección facultativa, que desarrolla el plan de control incluido en el proyecto",
-        "El colegio profesional",
-        "El contratista",
-        "El fabricante del cemento"
+        "La dirección facultativa, que desarrolla el plan de control incluido en el proyecto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La dirección facultativa, que desarrolla el plan de control incluido en el proyecto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La dirección facultativa, que desarrolla el plan de control incluido en el proyecto, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La dirección facultativa, en nombre de la propiedad, aprueba un programa de control de calidad para la obra que desarrolla el plan de control incluido en el proyecto (art. 17.2.1, letra a).",
@@ -188,10 +188,10 @@
     {
       "pregunta": "Según el Decreto 67/2011, art. 11, punto 3, ¿con qué duración habilita al laboratorio o a la entidad de control la presentación de su declaración responsable?",
       "opciones": [
-        "Hasta la primera inspección de la Consejería",
-        "Cinco años",
+        "Con una duración indefinida, desde el momento de su presentación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Con una duración indefinida, desde el momento de su presentación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Con una duración indefinida, desde el momento de su presentación",
-        "Un año, prorrogable"
+        "Con una duración indefinida, desde el momento de su presentación, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La presentación de la declaración responsable habilita al laboratorio o a la entidad de control, desde el momento de su presentación, para ejercer la actividad con una duración indefinida (art. 11, punto 3).",
@@ -212,10 +212,10 @@
     {
       "pregunta": "¿Quién controla la calidad de lo edificado según la LOE?",
       "opciones": [
-        "El alcalde",
+        "El director de la ejecución de la obra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El director de la ejecución de la obra",
-        "El vecino",
-        "El proveedor"
+        "El director de la ejecución de la obra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El director de la ejecución de la obra, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El director de la ejecución controla cualitativa y cuantitativamente la construcción.",
@@ -236,10 +236,10 @@
     {
       "pregunta": "¿Puede el control de calidad disminuir la responsabilidad de los agentes?",
       "opciones": [
-        "Sí, siempre",
+        "No, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "No",
-        "Solo en Navidad",
-        "Solo si lo paga el alcalde"
+        "No, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El control de calidad no puede invocarse para disminuir la responsabilidad de los agentes.",
@@ -248,9 +248,9 @@
     {
       "pregunta": "¿Quién encarga y paga el control de calidad?",
       "opciones": [
-        "El constructor",
-        "El suministrador",
-        "El laboratorio",
+        "La propiedad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La propiedad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La propiedad, computándose los plazos en días naturales y con sentido desestimatorio",
         "La propiedad"
       ],
       "correcta": 3,
@@ -261,9 +261,9 @@
       "pregunta": "¿Quién dirige el control de calidad en nombre de la propiedad?",
       "opciones": [
         "La dirección facultativa",
-        "El albañil",
-        "El fontanero",
-        "El jardinero"
+        "La dirección facultativa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La dirección facultativa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La dirección facultativa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La dirección facultativa dirige el control en nombre de la propiedad.",
@@ -272,10 +272,10 @@
     {
       "pregunta": "¿Qué hace el constructor en el control de calidad?",
       "opciones": [
-        "Nada",
+        "El autocontrol con su sistema de aseguramiento de la calidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El autocontrol con su sistema de aseguramiento de la calidad",
-        "Vende el control",
-        "Paga el control"
+        "El autocontrol con su sistema de aseguramiento de la calidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El autocontrol con su sistema de aseguramiento de la calidad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El constructor realiza el autocontrol con su sistema de aseguramiento de la calidad.",
@@ -284,10 +284,10 @@
     {
       "pregunta": "¿Qué entregan los suministradores de productos?",
       "opciones": [
-        "Un regalo",
-        "Nada",
+        "La documentación de sus productos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La documentación de sus productos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La documentación de sus productos",
-        "Las llaves"
+        "La documentación de sus productos, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los suministradores entregan la documentación de sus productos.",
@@ -296,9 +296,9 @@
     {
       "pregunta": "¿Qué control de productos exige el CTE en la recepción?",
       "opciones": [
-        "Control de sabor",
-        "Control de color",
-        "Ninguno",
+        "Control de recepción de productos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Control de recepción de productos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Control de recepción de productos, computándose los plazos en días naturales y con sentido desestimatorio",
         "Control de recepción de productos"
       ],
       "correcta": 3,
@@ -320,10 +320,10 @@
     {
       "pregunta": "¿Qué control se hace sobre la obra terminada?",
       "opciones": [
-        "Ninguno",
+        "El control de obra terminada, con pruebas de servicio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El control de obra terminada, con pruebas de servicio",
-        "El control de la pintura",
-        "El control de la música"
+        "El control de obra terminada, con pruebas de servicio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El control de obra terminada, con pruebas de servicio, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El control de obra terminada incluye las comprobaciones y pruebas de servicio previstas en el proyecto.",
@@ -332,10 +332,10 @@
     {
       "pregunta": "¿Quién incluye el plan de control de calidad en el proyecto?",
       "opciones": [
-        "El vecino",
-        "El jardinero",
+        "El proyecto, con su presupuesto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El proyecto, con su presupuesto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "El proyecto, con su presupuesto",
-        "El cartero"
+        "El proyecto, con su presupuesto, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El proyecto incluye el plan de control de calidad con su presupuesto.",
@@ -344,9 +344,9 @@
     {
       "pregunta": "¿Qué instrumento desarrolla el plan de control de calidad?",
       "opciones": [
-        "Una factura",
-        "Un plano de la cocina",
-        "Nada",
+        "El programa de control aprobado por la dirección facultativa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El programa de control aprobado por la dirección facultativa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El programa de control aprobado por la dirección facultativa, computándose los plazos en días naturales y con sentido desestimatorio",
         "El programa de control aprobado por la dirección facultativa"
       ],
       "correcta": 3,
@@ -368,10 +368,10 @@
     {
       "pregunta": "¿Qué evaluación se usa para productos innovadores?",
       "opciones": [
-        "La evaluación de la nieve",
+        "La evaluación técnica de idoneidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La evaluación técnica de idoneidad",
-        "La evaluación del sueldo",
-        "Ninguna"
+        "La evaluación técnica de idoneidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La evaluación técnica de idoneidad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Los productos innovadores tienen evaluación técnica de idoneidad.",
@@ -380,10 +380,10 @@
     {
       "pregunta": "¿Qué norma de auditoría se aplica a los laboratorios de ensayo?",
       "opciones": [
-        "UNE 1",
-        "UNE 2",
+        "UNE-EN ISO/IEC 17025, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "UNE-EN ISO/IEC 17025, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "UNE-EN ISO/IEC 17025",
-        "Ninguna"
+        "UNE-EN ISO/IEC 17025, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "Los laboratorios se auditan según la norma UNE-EN ISO/IEC 17025.",
@@ -392,9 +392,9 @@
     {
       "pregunta": "¿Qué norma de auditoría se aplica a las entidades de control?",
       "opciones": [
-        "UNE 1",
-        "UNE 2",
-        "Ninguna",
+        "UNE-EN ISO/IEC 17020, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "UNE-EN ISO/IEC 17020, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "UNE-EN ISO/IEC 17020, computándose los plazos en días naturales y con sentido desestimatorio",
         "UNE-EN ISO/IEC 17020"
       ],
       "correcta": 3,
@@ -405,25 +405,13 @@
       "pregunta": "¿Dónde se incorpora el control realizado a la obra?",
       "opciones": [
         "Al libro del edificio",
-        "Al cajón de la cocina",
-        "A la factura",
-        "Al periódico"
+        "Al libro del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Al libro del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Al libro del edificio, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "La documentación del control se incorpora al libro del edificio.",
       "referencia": "CTE, art. 8.1"
-    },
-    {
-      "pregunta": "¿Quién aporta los resultados del control de calidad?",
-      "opciones": [
-        "El vecino",
-        "El director de la ejecución de la obra",
-        "El jardinero",
-        "El contable"
-      ],
-      "correcta": 1,
-      "explicacion": "El director de la ejecución aporta los resultados del control.",
-      "referencia": "LOE, art. 13.2 f)"
     },
     {
       "pregunta": "¿Qué registro andaluz existe para los laboratorios de ensayos y entidades de control?",
@@ -440,9 +428,9 @@
     {
       "pregunta": "¿Cuántas secciones tiene el registro andaluz de laboratorios y entidades?",
       "opciones": [
-        "Una",
-        "Siete",
-        "Ninguna",
+        "Tres, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Tres, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Tres, computándose los plazos en días naturales y con sentido desestimatorio",
         "Tres"
       ],
       "correcta": 3,
@@ -452,10 +440,10 @@
     {
       "pregunta": "¿Qué reemplaza la declaración responsable en la LOE?",
       "opciones": [
-        "El precio",
-        "El color",
+        "La autorización previa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La autorización previa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "La autorización previa",
-        "Nada"
+        "La autorización previa, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "La declaración responsable sustituye a la autorización previa.",
@@ -465,9 +453,9 @@
       "pregunta": "¿Qué pliego regula el control de calidad de los materiales en la contratación?",
       "opciones": [
         "El pliego de prescripciones técnicas",
-        "El pliego de bebidas",
-        "El pliego de flores",
-        "Ninguno"
+        "El pliego de prescripciones técnicas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El pliego de prescripciones técnicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El pliego de prescripciones técnicas, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El pliego de prescripciones técnicas regula el control de calidad.",
@@ -476,10 +464,10 @@
     {
       "pregunta": "¿Quién retribuye el coste del control de la dirección facultativa?",
       "opciones": [
-        "El laboratorio gratuitamente",
+        "La propiedad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "La propiedad",
-        "El vecino",
-        "El Estado sin coste"
+        "La propiedad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La propiedad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "El coste lo retribuye la propiedad y se considera de forma independiente en el presupuesto.",
@@ -488,10 +476,10 @@
     {
       "pregunta": "¿Qué tipo de declaración firma el laboratorio para avalar su independencia?",
       "opciones": [
-        "Una canción",
-        "Un poema",
+        "Una declaración firmada de independencia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Una declaración firmada de independencia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Una declaración firmada de independencia",
-        "Un anuncio"
+        "Una declaración firmada de independencia, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El laboratorio entrega a la propiedad una declaración firmada que avala su independencia.",
@@ -500,9 +488,9 @@
     {
       "pregunta": "¿Qué documento acredita la adecuación del sistema de gestión de un laboratorio?",
       "opciones": [
-        "La factura",
-        "El anuncio",
-        "El presupuesto",
+        "La certificación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "La certificación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "La certificación, computándose los plazos en días naturales y con sentido desestimatorio",
         "La certificación"
       ],
       "correcta": 3,
@@ -512,9 +500,9 @@
     {
       "pregunta": "¿Qué documento define el control de calidad de una obra?",
       "opciones": [
-        "Plan de tráfico municipal",
-        "Plan de marketing",
-        "Plan general de ordenación",
+        "Plan de control de calidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Plan de control de calidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Plan de control de calidad, computándose los plazos en días naturales y con sentido desestimatorio",
         "Plan de control de calidad"
       ],
       "correcta": 3,
@@ -525,9 +513,9 @@
       "pregunta": "¿Qué tipo de control verifica la calidad de los productos a su llegada a la obra?",
       "opciones": [
         "Control de recepción",
-        "Control de mercado",
-        "Control fiscal",
-        "Control de precios"
+        "Control de recepción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Control de recepción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Control de recepción, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 0,
       "explicacion": "El control de recepción verifica los productos suministrados a la obra.",
@@ -548,10 +536,10 @@
     {
       "pregunta": "¿Cuántos niveles de control de calidad distingue el CTE?",
       "opciones": [
-        "Uno solo",
-        "Dos: diseño y coste",
+        "Tres: recepción, ejecución y obra terminada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Tres: recepción, ejecución y obra terminada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
         "Tres: recepción, ejecución y obra terminada",
-        "Cinco: legal, técnico, fiscal, social y ambiental"
+        "Tres: recepción, ejecución y obra terminada, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 2,
       "explicacion": "El CTE distingue control de recepción de productos, de ejecución y de la obra terminada.",
@@ -560,9 +548,9 @@
     {
       "pregunta": "¿Qué control se realiza al finalizar la obra?",
       "opciones": [
-        "Control de recepción de productos",
-        "Control de compras",
-        "Control fiscal",
+        "Control de la obra terminada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Control de la obra terminada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Control de la obra terminada, computándose los plazos en días naturales y con sentido desestimatorio",
         "Control de la obra terminada"
       ],
       "correcta": 3,
@@ -584,10 +572,10 @@
     {
       "pregunta": "Dentro de la materia «El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública.» (Concepto y normativa de aplicación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El decreto andaluz establece que no puede invocarse para disminuir la responsabilidad civil, administrativa o penal de los agentes (art. 8).»?",
       "opciones": [
-        "Certificación.",
+        "El control de calidad no exime de responsabilidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El control de calidad no exime de responsabilidad.",
-        "No es una actividad única.",
-        "El control se organiza en torno a tres grandes agentes."
+        "El control de calidad no exime de responsabilidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El control de calidad no exime de responsabilidad, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («El decreto andaluz establece que no puede invocarse para disminuir la responsabilidad civil, administrativa o penal de los agentes (art. 8).») define o regula específicamente a «El control de calidad no exime de responsabilidad» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -608,9 +596,9 @@
     {
       "pregunta": "Dentro de la materia «El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública.» (Controles del CTE), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Documentación de suministros, distintivos de calidad o evaluaciones de idoneidad, y ensayos.»?",
       "opciones": [
-        "El Registro de laboratorios de ensayos y de entidades de control de Andalucía.",
-        "Su objetivo.",
-        "El control de recepción en obra de productos.",
+        "Control de recepción de productos (art. 7.2), previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Control de recepción de productos (art. 7.2), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Control de recepción de productos (art. 7.2), computándose los plazos en días naturales y con sentido desestimatorio",
         "Control de recepción de productos (art. 7.2)."
       ],
       "correcta": 3,
@@ -656,9 +644,9 @@
     {
       "pregunta": "Dentro de la materia «El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública.» (Certificaciones, distintivos y evaluaciones técnicas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Justifica la adecuación del sistema de gestión del laboratorio o de la entidad (Decreto 67/2011, art. 2, letra n).»?",
       "opciones": [
-        "No es una actividad única.",
-        "El control se organiza en torno a tres grandes agentes.",
-        "Ese criterio.",
+        "Certificación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "Certificación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "Certificación, computándose los plazos en días naturales y con sentido desestimatorio",
         "Certificación."
       ],
       "correcta": 3,
@@ -680,10 +668,10 @@
     {
       "pregunta": "Dentro de la materia «El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública.» (Registro andaluz y declaración responsable), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es electrónico, administrativo, público e informativo (art. 9).»?",
       "opciones": [
-        "Su objetivo.",
+        "El Registro de laboratorios de ensayos y de entidades de control de Andalucía, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "El Registro de laboratorios de ensayos y de entidades de control de Andalucía.",
-        "El control de recepción en obra de productos.",
-        "El plan de control."
+        "El Registro de laboratorios de ensayos y de entidades de control de Andalucía, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El Registro de laboratorios de ensayos y de entidades de control de Andalucía, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Es electrónico, administrativo, público e informativo (art. 9).») define o regula específicamente a «El Registro de laboratorios de ensayos y de entidades de control de Andalucía» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -702,18 +690,6 @@
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     },
     {
-      "pregunta": "Dentro de la materia «El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública.» (Valoración y abono), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula el control de calidad de los materiales y del proceso de ejecución (LCSP, art. 233.1, letra c).»?",
-      "opciones": [
-        "El artículo 7.1.4 identifica a quién corresponde cada control.",
-        "El CTE lo organiza en tres niveles.",
-        "Un distintivo de calidad.",
-        "El pliego de prescripciones técnicas."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Regula el control de calidad de los materiales y del proceso de ejecución (LCSP, art. 233.1, letra c).») define o regula específicamente a «El pliego de prescripciones técnicas» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
-      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-    },
-    {
       "pregunta": "En el ámbito de «El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública.» (Concepto y finalidad del control de calidad), ¿qué establece la normativa respecto a «No es una actividad única»?",
       "opciones": [
         "Se reparte entre el proyecto, los productos que llegan a la obra, la ejecución de cada unidad y la obra terminada.",
@@ -728,10 +704,10 @@
     {
       "pregunta": "Dentro de la materia «El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública.» (Concepto y finalidad del control de calidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se reparte entre el proyecto, los productos que llegan a la obra, la ejecución de cada unidad y la obra terminada.»?",
       "opciones": [
-        "El control se organiza en torno a tres grandes agentes.",
+        "No es una actividad única, previa autorización preceptiva y vinculante del Consejo de Gobierno",
         "No es una actividad única.",
-        "Ese criterio.",
-        "El decreto andaluz."
+        "No es una actividad única, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "No es una actividad única, computándose los plazos en días naturales y con sentido desestimatorio"
       ],
       "correcta": 1,
       "explicacion": "Dicha determinación («Se reparte entre el proyecto, los productos que llegan a la obra, la ejecución de cada unidad y la obra terminada.») define o regula específicamente a «No es una actividad única» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
@@ -800,13 +776,37 @@
     {
       "pregunta": "Dentro de la materia «El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública.» (Organigrama del control), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La propiedad o promotor, que encarga y paga el control.»?",
       "opciones": [
-        "Ese criterio.",
-        "El decreto andaluz.",
-        "Los laboratorios de ensayos.",
+        "El control se organiza en torno a tres grandes agentes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
+        "El control se organiza en torno a tres grandes agentes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
+        "El control se organiza en torno a tres grandes agentes, computándose los plazos en días naturales y con sentido desestimatorio",
         "El control se organiza en torno a tres grandes agentes."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («La propiedad o promotor, que encarga y paga el control.») define o regula específicamente a «El control se organiza en torno a tres grandes agentes» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro del estudio de «Concepto y finalidad del control de calidad» (El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Es garantizar que el edificio cumple las exigencias básicas durante su vida útil, y no solo en el momento de la recepción.»?",
+      "opciones": [
+        "El control se organiza en torno a tres grandes agentes.",
+        "Su objetivo.",
+        "El CTE lo organiza en tres niveles.",
+        "El plan de control."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha regulación («Es garantizar que el edificio cumple las exigencias básicas durante su vida útil, y no solo en el momento de la recepción.») define o regula específicamente a «Su objetivo» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En relación con «El control de recepción en obra de productos» (El control de recepción, de ejecución y de la obra terminada en el CTE), señale la determinación correcta conforme a la normativa del tema:",
+      "opciones": [
+        "Tiene por objeto comprobar que sus características técnicas satisfacen lo exigido en el proyecto, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
+        "Tiene por objeto comprobar que sus características técnicas satisfacen lo exigido en el proyecto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
+        "Tiene por objeto comprobar que sus características técnicas satisfacen lo exigido en el proyecto, computándose los plazos en días naturales y con sentido desestimatorio.",
+        "Tiene por objeto comprobar que sus características técnicas satisfacen lo exigido en el proyecto."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El control de recepción en obra de productos» (El control de recepción, de ejecución y de la obra terminada en el CTE), la regulación vigente establece que: Tiene por objeto comprobar que sus características técnicas satisfacen lo exigido en el proyecto.",
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     }
   ]
