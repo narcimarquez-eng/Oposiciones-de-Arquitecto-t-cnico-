@@ -771,13 +771,367 @@
       }
     ]
   },
+  "a2-facultativo-comun": {
+    "id": "a2-facultativo-comun",
+    "codigo": "A2 Facultativo Común",
+    "nombreCorto": "A2 Facultativo Común (30 temas)",
+    "nombreCompleto": "Cuerpo de Técnicos de Grado Medio de la Junta de Andalucía · Temario Común (A2 Facultativo Común)",
+    "subgrupo": "A2",
+    "normativa": "Resolución de 27 de mayo de 2024 (BOJA núm. 107, de 4 de junio de 2024 · Anexo II: 30 temas comunes para todas las opciones del Cuerpo de Técnicos de Grado Medio)",
+    "totalTemas": 30,
+    "minutosExamen": 120,
+    "preguntasExamen": 100,
+    "reservaExamen": 4,
+    "penalizacion": 0.3333333333333333,
+    "bloques": [
+      {
+        "id": "a2f-juridico",
+        "nombre": "I. Derecho Constitucional y Organización Autonómica (Temas 1 a 8)",
+        "nombreCorto": "Constitucional y Autonómico",
+        "temas": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "id": "a2f-ue-admin",
+        "nombre": "II. Unión Europea y Derecho Administrativo (Temas 9 a 18)",
+        "nombreCorto": "Unión Europea y Admin.",
+        "temas": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "id": "a2f-gestion",
+        "nombre": "III. Contratación, Hacienda Pública, Subvenciones y Función Pública (Temas 19 a 23)",
+        "nombreCorto": "Gestión y Función Pública",
+        "temas": [
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "id": "a2f-transversal",
+        "nombre": "IV. Administración Electrónica, Transparencia, Calidad, PRL e Igualdad (Temas 24 a 30)",
+        "nombreCorto": "Tecnología e Igualdad",
+        "temas": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "temas": [
+      {
+        "num": 1,
+        "etiqueta": "Tema 1",
+        "id": "c01",
+        "bloque": "a2f-juridico",
+        "bloqueNombre": "Derecho Constitucional y Organización Autonómica",
+        "titulo": "La Constitución Española de 1978. Antecedentes. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. Derechos y deberes fundamentales. Los principios rectores de la política social y económica. Garantías y casos de suspensión. El procedimiento de reforma constitucional."
+      },
+      {
+        "num": 2,
+        "etiqueta": "Tema 2",
+        "id": "c02",
+        "bloque": "a2f-juridico",
+        "bloqueNombre": "Derecho Constitucional y Organización Autonómica",
+        "titulo": "Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo."
+      },
+      {
+        "num": 3,
+        "etiqueta": "Tema 3",
+        "id": "c03",
+        "bloque": "a2f-juridico",
+        "bloqueNombre": "Derecho Constitucional y Organización Autonómica",
+        "titulo": "La organización territorial del Estado en la Constitución Española. Las Comunidades Autónomas: Fundamento constitucional. Los Estatutos de Autonomía. Delimitación de las funciones y competencias del Estado y las Comunidades Autónomas. Las potestades legislativas de las Comunidades Autónomas. La organización de las Comunidades Autónomas."
+      },
+      {
+        "num": 4,
+        "etiqueta": "Tema 4",
+        "id": "c04",
+        "bloque": "a2f-juridico",
+        "bloqueNombre": "Derecho Constitucional y Organización Autonómica",
+        "titulo": "La Administración Local: regulación constitucional. Tipología de los entes locales. Distribución de competencias entre el Estado y las Comunidades Autónomas sobre Administración Local. La organización territorial de la Comunidad Autónoma de Andalucía. El municipio: organización y competencias. La provincia: organización y competencias. Las relaciones entre la Comunidad Autónoma Andaluza y las Diputaciones provinciales."
+      },
+      {
+        "num": 5,
+        "etiqueta": "Tema 5",
+        "id": "c05",
+        "bloque": "a2f-juridico",
+        "bloqueNombre": "Derecho Constitucional y Organización Autonómica",
+        "titulo": "La Comunidad Autónoma de Andalucía: Antecedentes histórico-culturales. El Estatuto de Autonomía para Andalucía: proceso de elaboración, fundamento, estructura y contenido básico. Competencias de la Comunidad Autónoma. Reforma del Estatuto."
+      },
+      {
+        "num": 6,
+        "etiqueta": "Tema 6",
+        "id": "c06",
+        "bloque": "a2f-juridico",
+        "bloqueNombre": "Derecho Constitucional y Organización Autonómica",
+        "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (I): El Parlamento de Andalucía. Composición, atribuciones y funcionamiento. El Tribunal Superior de Justicia de Andalucía. El Defensor del Pueblo de Andalucía. La Cámara de Cuentas de Andalucía. La Oficina Andaluza contra el Fraude y la Corrupción."
+      },
+      {
+        "num": 7,
+        "etiqueta": "Tema 7",
+        "id": "c07",
+        "bloque": "a2f-juridico",
+        "bloqueNombre": "Derecho Constitucional y Organización Autonómica",
+        "titulo": "Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones."
+      },
+      {
+        "num": 8,
+        "etiqueta": "Tema 8",
+        "id": "c08",
+        "bloque": "a2f-juridico",
+        "bloqueNombre": "Derecho Constitucional y Organización Autonómica",
+        "titulo": "La Administración de la Comunidad Autónoma de Andalucía. Principios de organización, actuación y atención ciudadana. Los Consejeros, Viceconsejeros, Directores Generales, Secretarios Generales Técnicos y órganos análogos. La organización central y territorial de la Administración de la Junta de Andalucía. Entidades instrumentales de la Administración de la Junta de Andalucía."
+      },
+      {
+        "num": 9,
+        "etiqueta": "Tema 9",
+        "id": "c09",
+        "bloque": "a2f-ue-admin",
+        "bloqueNombre": "Unión Europea y Derecho Administrativo",
+        "titulo": "La Unión Europea. Los Tratados originarios y modificativos de la Unión Europea. Las instituciones de la Unión Europea. La representación de la Junta de Andalucía ante la Unión Europea. El Derecho de la UE y sus distintos tipos de fuentes."
+      },
+      {
+        "num": 10,
+        "etiqueta": "Tema 10",
+        "id": "c10",
+        "bloque": "a2f-ue-admin",
+        "bloqueNombre": "Unión Europea y Derecho Administrativo",
+        "titulo": "Las libertades fundamentales del mercado interior: libre circulación de trabajadores, libre circulación de mercancías, libre circulación de capitales, libre prestación de servicios y libertad de establecimiento. Las principales políticas comunes, con especial referencia a la política regional de la Unión Europea: Los fondos estructurales y sus objetivos prioritarios. El presupuesto de la Unión Europea."
+      },
+      {
+        "num": 11,
+        "etiqueta": "Tema 11",
+        "id": "c11",
+        "bloque": "a2f-ue-admin",
+        "bloqueNombre": "Unión Europea y Derecho Administrativo",
+        "titulo": "La Administración Pública: concepto, caracteres y clasificación. La Administración y el Derecho: El principio de legalidad. Las potestades administrativas. La actividad discrecional de la Administración. El Derecho Administrativo: Concepto y contenido. Autonomía del derecho Administrativo. Criterios de aplicación."
+      },
+      {
+        "num": 12,
+        "etiqueta": "Tema 12",
+        "id": "c12",
+        "bloque": "a2f-ue-admin",
+        "bloqueNombre": "Unión Europea y Derecho Administrativo",
+        "titulo": "Fuentes del Derecho Administrativo: Concepto y clasificación. Jerarquía normativa. La Ley: Concepto y clases. Disposiciones del Ejecutivo con fuerza de Ley. El Reglamento: Concepto y clasificación. La potestad reglamentaria: Fundamento, titularidad y límites. Procedimiento de elaboración de los Reglamentos. Fuentes subsidiarias e indirectas del Derecho Administrativo."
+      },
+      {
+        "num": 13,
+        "etiqueta": "Tema 13",
+        "id": "c13",
+        "bloque": "a2f-ue-admin",
+        "bloqueNombre": "Unión Europea y Derecho Administrativo",
+        "titulo": "Los órganos administrativos: Concepto y clases. La competencia: Clases y criterios de delimitación. El acto administrativo: Concepto, clases y elementos. La forma de los actos: La motivación. La eficacia de los actos administrativos: la notificación y la publicación. El silencio administrativo: naturaleza y régimen jurídico. Su regulación en la Comunidad Autónoma. La invalidez y revisión de oficio de los actos administrativos. La inderogabilidad singular del reglamento."
+      },
+      {
+        "num": 14,
+        "etiqueta": "Tema 14",
+        "id": "c14",
+        "bloque": "a2f-ue-admin",
+        "bloqueNombre": "Unión Europea y Derecho Administrativo",
+        "titulo": "El procedimiento administrativo: Naturaleza y fines. El procedimiento administrativo común. Los principios generales. Abstención y recusación. Los interesados. Derechos del interesado en el procedimiento. Derechos de las personas en sus relaciones con las Administraciones Públicas. Las fases del procedimiento."
+      },
+      {
+        "num": 15,
+        "etiqueta": "Tema 15",
+        "id": "c15",
+        "bloque": "a2f-ue-admin",
+        "bloqueNombre": "Unión Europea y Derecho Administrativo",
+        "titulo": "La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza."
+      },
+      {
+        "num": 16,
+        "etiqueta": "Tema 16",
+        "id": "c16",
+        "bloque": "a2f-ue-admin",
+        "bloqueNombre": "Unión Europea y Derecho Administrativo",
+        "titulo": "Los contratos de la Administración: objeto y finalidad. Ámbito subjetivo de aplicación. Calificación de los contratos. El órgano de contratación. Capacidad y solvencia del empresario. Régimen de invalidez. Adjudicación de los contratos. Ejecución, modificación y extinción de los contratos."
+      },
+      {
+        "num": 17,
+        "etiqueta": "Tema 17",
+        "id": "c17",
+        "bloque": "a2f-ue-admin",
+        "bloqueNombre": "Unión Europea y Derecho Administrativo",
+        "titulo": "La responsabilidad patrimonial de la Administración. Competencias de la Junta de Andalucía. El procedimiento. La responsabilidad de las autoridades y del personal. Responsabilidad de la Administración por actos de sus concesionarios y contratistas. La potestad sancionadora de la Administración Pública: principios y procedimiento para su ejercicio."
+      },
+      {
+        "num": 18,
+        "etiqueta": "Tema 18",
+        "id": "c18",
+        "bloque": "a2f-ue-admin",
+        "bloqueNombre": "Unión Europea y Derecho Administrativo",
+        "titulo": "La expropiación forzosa: regulación constitucional. Competencias de la Junta de Andalucía. Naturaleza y justificación de la potestad expropiatoria. Sujetos, objeto y causa. El procedimiento general. Peculiaridades del procedimiento de urgencia. Procedimientos especiales. La reversión de los bienes objeto de la expropiación."
+      },
+      {
+        "num": 19,
+        "etiqueta": "Tema 19",
+        "id": "c19",
+        "bloque": "a2f-gestion",
+        "bloqueNombre": "Contratación, Hacienda Pública, Subvenciones y Función Pública",
+        "titulo": "La actividad subvencionadora de la Administración de la Junta de Andalucía y sus Agencias. Concepto, naturaleza y clasificación de las subvenciones. Órganos competentes. El procedimiento de concesión y pago de las subvenciones. Justificación. Reintegro. Control financiero de las subvenciones. Infracciones y sanciones administrativas en materia de subvenciones. La Base de Datos de Subvenciones y Ayudas Públicas de la Comunidad Autónoma de Andalucía."
+      },
+      {
+        "num": 20,
+        "etiqueta": "Tema 20",
+        "id": "c20",
+        "bloque": "a2f-gestion",
+        "bloqueNombre": "Contratación, Hacienda Pública, Subvenciones y Función Pública",
+        "titulo": "Regulación de la Función Pública de la Junta de Andalucía. Normas constitucionales. Carácter de la legislación estatal. La Ley 5/2023, de 7 de junio, de la Función Pública de Andalucía: Estructura y contenido. Clases de personal al servicio de la Junta de Andalucía. El personal funcionario: Provisión de puestos, carrera profesional, situaciones administrativas, régimen de incompatibilidades. Normas reguladoras del personal laboral. Contenido general del Convenio Colectivo del personal laboral de la Junta de Andalucía."
+      },
+      {
+        "num": 21,
+        "etiqueta": "Tema 21",
+        "id": "c21",
+        "bloque": "a2f-gestion",
+        "bloqueNombre": "Contratación, Hacienda Pública, Subvenciones y Función Pública",
+        "titulo": "El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control."
+      },
+      {
+        "num": 22,
+        "etiqueta": "Tema 22",
+        "id": "c22",
+        "bloque": "a2f-gestion",
+        "bloqueNombre": "Contratación, Hacienda Pública, Subvenciones y Función Pública",
+        "titulo": "Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía."
+      },
+      {
+        "num": 23,
+        "etiqueta": "Tema 23",
+        "id": "c23",
+        "bloque": "a2f-gestion",
+        "bloqueNombre": "Contratación, Hacienda Pública, Subvenciones y Función Pública",
+        "titulo": "Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía."
+      },
+      {
+        "num": 24,
+        "etiqueta": "Tema 24",
+        "id": "c24",
+        "bloque": "a2f-transversal",
+        "bloqueNombre": "Administración Electrónica, Transparencia, Calidad, PRL e Igualdad",
+        "titulo": "La Administración Electrónica. Gestión de procesos administrativos y simplificación. Las tecnologías de la información y las comunicaciones. La información y los derechos de las personas. Régimen jurídico. El ciudadano en sus relaciones con la administración electrónica. Seguridad, privacidad y ciudadanía digital."
+      },
+      {
+        "num": 25,
+        "etiqueta": "Tema 25",
+        "id": "c25",
+        "bloque": "a2f-transversal",
+        "bloqueNombre": "Administración Electrónica, Transparencia, Calidad, PRL e Igualdad",
+        "titulo": "Las Administraciones Públicas en su entorno y las políticas públicas. La evaluación de las políticas públicas. La ciudadanía en el centro de la actividad pública y el interés general. La calidad y la atención a la ciudadanía. Evaluación de la calidad de los servicios. Las cartas de servicios. Iniciativas en Andalucía."
+      },
+      {
+        "num": 26,
+        "etiqueta": "Tema 26",
+        "id": "c26",
+        "bloque": "a2f-transversal",
+        "bloqueNombre": "Administración Electrónica, Transparencia, Calidad, PRL e Igualdad",
+        "titulo": "El régimen jurídico de la protección de los datos de carácter personal. Normativa europea y nacional."
+      },
+      {
+        "num": 27,
+        "etiqueta": "Tema 27",
+        "id": "c27",
+        "bloque": "a2f-transversal",
+        "bloqueNombre": "Administración Electrónica, Transparencia, Calidad, PRL e Igualdad",
+        "titulo": "Transparencia y Gobierno Abierto. Colaboración y Participación Ciudadana. La Ley de Transparencia Pública de Andalucía. Derechos y Obligaciones. Publicidad Activa. El Derecho de Acceso a la Información Pública. El Consejo de Transparencia y Protección de Datos de Andalucía."
+      },
+      {
+        "num": 28,
+        "etiqueta": "Tema 28",
+        "id": "c28",
+        "bloque": "a2f-transversal",
+        "bloqueNombre": "Administración Electrónica, Transparencia, Calidad, PRL e Igualdad",
+        "titulo": "Prevención de riesgos laborales. Normativa estatal de Prevención de Riesgos Laborales: Derechos y obligaciones; Consulta y participación de los trabajadores. Organización de la prevención de riesgos laborales en la Administración de la Junta de Andalucía."
+      },
+      {
+        "num": 29,
+        "etiqueta": "Tema 29",
+        "id": "c29",
+        "bloque": "a2f-transversal",
+        "bloqueNombre": "Administración Electrónica, Transparencia, Calidad, PRL e Igualdad",
+        "titulo": "Conceptos generales: género, discriminación, desigualdad, acción positiva, roles y estereotipos. Discriminación por razón de sexo: discriminación directa e indirecta, discriminación salarial. Acoso por razón de sexo. Discriminación en la publicidad y lenguaje sexista. Igualdad entre mujeres y hombres igualdad de derechos, de trato y de oportunidades. Transversalidad de género. Concepto de mainstreaming: enfoque integrado de género en las políticas públicas."
+      },
+      {
+        "num": 30,
+        "etiqueta": "Tema 30",
+        "id": "c30",
+        "bloque": "a2f-transversal",
+        "bloqueNombre": "Administración Electrónica, Transparencia, Calidad, PRL e Igualdad",
+        "titulo": "Normativa sobre igualdad. La igualdad de género en la Constitución y en el Estatuto de Autonomía para Andalucía. Normativa para la promoción de la igualdad de género y para la prevención y protección integral contra la violencia de género en Andalucía. La unidad de igualdad y género: funciones. Pertinencia e impacto de genero en la normativa: conceptos y objetivos. Comisión de Impacto de Género en los Presupuestos Públicos de la Comunidad Autónoma: objeto y competencias. Violencia de género. Concepto y tipos de violencia hacia las mujeres. Prevención y protección integral. Recursos y programas específicos en la Comunidad Autónoma de Andalucía."
+      }
+    ],
+    "convocatoriasExamen": [
+      {
+        "id": "a2-facultativo-comun-2025-libre",
+        "oep": "OEP 2022/2023/2024",
+        "fecha": "2024-11-16",
+        "fechaTexto": "Convocatoria BOJA 107/2024 (Anexo II)",
+        "acceso": "Acceso Libre",
+        "boja": "BOJA núm. 107, de 4 de junio de 2024",
+        "preguntasExamen": 100,
+        "reservaExamen": 4,
+        "minutosExamen": 120,
+        "exentosNums": [],
+        "descripcion": "Simulacro oficial íntegro del Programa de Materias Comunes (30 temas BOJA 107/2024, Anexo II) común a todas las opciones del Cuerpo de Técnicos de Grado Medio (A2 Facultativo).",
+        "numOpciones": 4
+      },
+      {
+        "id": "a2-facultativo-comun-2024-pi",
+        "oep": "OEP 2022/2023/2024",
+        "fecha": "2024-10-26",
+        "fechaTexto": "Promoción Interna (Exento Bloque I)",
+        "acceso": "Promoción Interna",
+        "boja": "BOJA núm. 107, de 4 de junio de 2024",
+        "preguntasExamen": 75,
+        "reservaExamen": 3,
+        "minutosExamen": 90,
+        "exentosNums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "descripcion": "Simulacro de Promoción Interna del Programa Común A2 Facultativo con exención de los Temas 1 a 8 de Derecho Constitucional y Organización Autonómica (75 preguntas + 3 de reserva).",
+        "numOpciones": 4
+      }
+    ]
+  },
   "a1-2001": {
     "id": "a1-2001",
-    "codigo": "A1.2001",
+    "codigo": "A1 Facultativo Común",
     "subgrupo": "A1",
-    "nombreCorto": "A1.2001 · Superior Facultativo Común",
-    "nombreCompleto": "Cuerpo Superior Facultativo de la Junta de Andalucía (A1.2001 · Temario Común)",
-    "normativa": "Resolución de 27 de mayo de 2024 (BOJA núm. 107, de 4 de junio de 2024 · Anexo I: 35 temas comunes)",
+    "nombreCorto": "A1 Facultativo Común (35 temas)",
+    "nombreCompleto": "Cuerpo Superior Facultativo de la Junta de Andalucía · Temario Común (A1 Facultativo Común)",
+    "normativa": "Resolución de 27 de mayo de 2024 (BOJA núm. 107, de 4 de junio de 2024 · Anexo I: 35 temas comunes para todas las opciones del Cuerpo Superior Facultativo)",
     "totalTemas": 35,
     "minutosExamen": 120,
     "preguntasExamen": 100,

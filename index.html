@@ -642,7 +642,8 @@
           <label for="select-cuerpo-activo" style="font-size:.82rem;font-weight:600;color:var(--muted)">Oposición:</label>
           <select class="sel" id="select-cuerpo-activo" style="padding:6px 10px;font-size:.88rem;font-weight:600;background:var(--surface-2);color:var(--text);border-color:var(--border)">
             <option value="a2-2001">🏛️ Arquitecto Técnico (A2.2001 · 70 temas)</option>
-            <option value="a1-2001">🏢 Superior Facultativo Común (A1.2001 · 35 temas BOJA)</option>
+            <option value="a2-facultativo-comun">🎓 A2 Facultativo Común (30 temas BOJA · Todas las opciones)</option>
+            <option value="a1-2001">🏢 A1 Facultativo Común (35 temas BOJA · Todas las opciones)</option>
             <option value="a1-1100">⚖️ Administradores Generales (A1.1100 · 100 temas BOJA)</option>
             <option value="a2-1100">📂 Gestión Administrativa (A2.1100 · 69 temas BOJA)</option>
             <option value="c1-1100">📋 Administrativos Junta (C1.1000 · 42 temas BOJA)</option>
@@ -743,6 +744,10 @@
     'a1-ue-admin': 'Unión Europea/Admin.',
     'a1-gestion': 'Contratación/Hacienda',
     'a1-transversal': 'Tecnología/PRL/Igualdad',
+    'a2f-juridico': 'Constitucional/Autonómico',
+    'a2f-ue-admin': 'Unión Europea/Admin.',
+    'a2f-gestion': 'Contratación/Hacienda',
+    'a2f-transversal': 'Tecnología/PRL/Igualdad',
     'c1-juridico': 'Jurídico-Administrativa',
     'c1-financiera': 'Gestión Financiera',
     'c1-personal': 'Personal',
@@ -914,7 +919,7 @@
     if (!t) return '';
     if (t.etiqueta) return t.etiqueta;
     var c = corpObj || cuerpoActual();
-    if (c && (c.id === 'c1-1100' || c.id === 'c2-1100' || c.id === 'a1-2001')) {
+    if (c && (c.id === 'c1-1100' || c.id === 'c2-1100' || c.id === 'a1-2001' || c.id === 'a2-facultativo-comun')) {
       return 'Tema ' + t.num;
     }
     return (tituloBloque[t.bloque] || t.bloque) + ' ' + t.num;
@@ -1947,17 +1952,19 @@
       });
     });
 
+    var esComunFac = idCuerpo === 'a1-2001' || idCuerpo === 'a2-facultativo-comun';
     (D.examenesOficiales || []).forEach(function (eo) {
-      if ((eo.cuerpoId || eo.cuerpo) !== idCuerpo) return;
+      var eoCid = eo.cuerpoId || eo.cuerpo;
+      if (eoCid !== idCuerpo && !(idCuerpo === 'a2-facultativo-comun' && eoCid === 'a2-2001')) return;
       (eo.preguntas || []).forEach(function (q) {
-        if (idCuerpo === 'a1-2001' && q.tema && !temasCuerpoSet[q.tema]) return;
+        if (esComunFac && (!q.tema || !temasCuerpoSet[q.tema])) return;
         var encontradas = detectarLeyesExplicitasEnTexto(q.referencia || '', q.tema);
         if (!encontradas.length) {
           var def = leyPorDefectoPregunta(q, q.tema);
           if (def && D.leyes[def] && leyesMap[def]) encontradas = [def];
         }
         encontradas.forEach(function (lid) {
-          if (idCuerpo === 'a1-2001' && !leyesMap[lid]) return;
+          if (esComunFac && !leyesMap[lid]) return;
           leyesMap[lid] = true;
           exPorLeyCuerpo[lid] = (exPorLeyCuerpo[lid] || 0) + 1;
         });
@@ -1968,14 +1975,14 @@
     supuestos.forEach(function (sp) {
       (sp.preguntas || []).forEach(function (q) {
         var tRef = q.tema || (sp.temasRelacionados && sp.temasRelacionados[0]);
-        if (idCuerpo === 'a1-2001' && tRef && !temasCuerpoSet[tRef]) return;
+        if (esComunFac && tRef && !temasCuerpoSet[tRef]) return;
         var encontradas = detectarLeyesExplicitasEnTexto(q.referencia || '', tRef);
         if (!encontradas.length) {
           var def = leyPorDefectoPregunta(q, tRef);
           if (def && D.leyes[def] && leyesMap[def]) encontradas = [def];
         }
         encontradas.forEach(function (lid) {
-          if (idCuerpo === 'a1-2001' && !leyesMap[lid]) return;
+          if (esComunFac && !leyesMap[lid]) return;
           leyesMap[lid] = true;
           exPorLeyCuerpo[lid] = (exPorLeyCuerpo[lid] || 0) + 1;
         });
@@ -2112,11 +2119,13 @@
       });
     });
 
+    var esComunRadar = idCuerpo === 'a1-2001' || idCuerpo === 'a2-facultativo-comun';
     (D.examenesOficiales || []).forEach(function (eo) {
-      if ((eo.cuerpoId || eo.cuerpo) !== idCuerpo) return;
+      var eoCid = eo.cuerpoId || eo.cuerpo;
+      if (eoCid !== idCuerpo && !(idCuerpo === 'a2-facultativo-comun' && eoCid === 'a2-2001')) return;
       var etConv = eo.oep || eo.titulo || 'Examen IAAP';
       (eo.preguntas || []).concat(eo.reservas || []).forEach(function (q) {
-        if (idCuerpo === 'a1-2001' && q.tema && !temasSet[q.tema]) return;
+        if (esComunRadar && (!q.tema || !temasSet[q.tema])) return;
         var qNorm = {
           tema: q.tema || 'c01',
           origen: 'oficial-iaap',
@@ -2136,7 +2145,7 @@
       var etConv = sp.oep || sp.fechaTexto || 'Supuesto IAAP';
       (sp.preguntas || []).forEach(function (q) {
         var tref = q.tema || (sp.temasRelacionados && sp.temasRelacionados[0]);
-        if (idCuerpo === 'a1-2001' && tref && !temasSet[tref]) return;
+        if (esComunRadar && tref && !temasSet[tref]) return;
         var qNorm = {
           tema: tref || 'c01',
           origen: 'oficial-iaap',
@@ -3968,14 +3977,14 @@
       '<button type="button" class="tab" data-practico-turno="pi" aria-pressed="' + (estadoPracticos.filtroTurno === 'pi') + '">🟣 Promoción Interna (' + nPI + ')</button>' +
       '</div>' +
       '<button type="button" class="btn sec" data-toggle-todos-cuerpos="1">' +
-      (estadoPracticos.mostrarTodosCuerpos ? 'Ver solo ' + esc(c.codigo) + ' (' + listaCuerpo.length + ')' : '📚 Ver los ' + totalTodosCuerpos + ' supuestos de las 6 oposiciones') +
+      (estadoPracticos.mostrarTodosCuerpos ? 'Ver solo ' + esc(c.codigo) + ' (' + listaCuerpo.length + ')' : '📚 Ver los ' + totalTodosCuerpos + ' supuestos de todas las oposiciones') +
       '</button>' +
       '</div>';
 
     if (!estadoPracticos.mostrarTodosCuerpos) {
       html += filtrados.map(function (sp) { return renderTarjetaSupuesto(sp, c); }).join('');
     } else {
-      var ordenCuerpos = ['a2-2001', 'a1-2001', 'a1-1100', 'a2-1100', 'c1-1100', 'c2-1100'];
+      var ordenCuerpos = ['a2-2001', 'a2-facultativo-comun', 'a1-2001', 'a1-1100', 'a2-1100', 'c1-1100', 'c2-1100'];
       ordenCuerpos.forEach(function (cid) {
         var corpObj = (D.cuerpos && D.cuerpos[cid]) || { id: cid, codigo: cid.toUpperCase(), nombreCorto: cid };
         var sps = supuestosDeCuerpo(cid).filter(function (s) {
