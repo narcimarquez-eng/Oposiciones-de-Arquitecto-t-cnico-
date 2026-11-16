@@ -64,78 +64,6 @@
   ],
   "test": [
     {
-      "pregunta": "¿Qué agente decide, impulsa, programa y financia la edificación?",
-      "opciones": [
-        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El promotor",
-        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El art. 9.1 LOE define como promotor a quien decide, impulsa, programa y financia la edificación.",
-      "referencia": "Art. 9.1 LOE"
-    },
-    {
-      "pregunta": "¿Qué agente redacta el proyecto por encargo del promotor?",
-      "opciones": [
-        "El proyectista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El proyectista",
-        "El proyectista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El proyectista, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El proyectista es el agente que, por encargo del promotor, redacta el proyecto.",
-      "referencia": "Art. 10.1 LOE"
-    },
-    {
-      "pregunta": "¿Durante cuánto tiempo responden los agentes por daños materiales en cimentación, pilares, vigas, forjados o muros de carga?",
-      "opciones": [
-        "10 años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "10 años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "10 años",
-        "10 años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El art. 17.1.a LOE establece diez años para los daños estructurales.",
-      "referencia": "Art. 17.1.a LOE"
-    },
-    {
-      "pregunta": "¿Cuál es el plazo de responsabilidad por daños por vicios que incumplan los requisitos de habitabilidad?",
-      "opciones": [
-        "2 años improrrogables",
-        "3 años",
-        "3 años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "3 años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El art. 17.1.b LOE fija tres años para los daños por vicios o defectos de elementos constructivos o instalaciones que incumplan la habitabilidad.",
-      "referencia": "Art. 17.1.b LOE"
-    },
-    {
-      "pregunta": "¿Y el plazo para los defectos de acabado?",
-      "opciones": [
-        "Un año",
-        "Un año, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un año, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un año, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los defectos de acabado tienen un plazo de un año, dentro del cual responde el constructor.",
-      "referencia": "Art. 17.1, último párrafo, LOE"
-    },
-    {
-      "pregunta": "¿Quién está obligado a suscribir el seguro de daños materiales de diez años?",
-      "opciones": [
-        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El promotor"
-      ],
-      "correcta": 3,
-      "explicacion": "El art. 9.2.d) obliga al promotor a suscribir los seguros del art. 19, entre ellos el de daños materiales de diez años.",
-      "referencia": "Arts. 9.2.d y 19 LOE"
-    },
-    {
       "pregunta": "¿Qué tres grupos de requisitos básicos de la edificación establece el art. 3.1 LOE?",
       "opciones": [
         "Funcionalidad, seguridad y habitabilidad",
@@ -146,18 +74,6 @@
       "correcta": 0,
       "explicacion": "El art. 3.1 LOE establece los requisitos básicos relativos a la funcionalidad, la seguridad y la habitabilidad.",
       "referencia": "Art. 3.1 LOE"
-    },
-    {
-      "pregunta": "¿Quién entrega la obra al promotor en el acto de recepción?",
-      "opciones": [
-        "El constructor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El constructor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El constructor, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El constructor"
-      ],
-      "correcta": 3,
-      "explicacion": "El art. 6.1 LOE define la recepción como el acto por el que el constructor, concluida la obra, la entrega al promotor, que la acepta.",
-      "referencia": "Art. 6.1 LOE"
     },
     {
       "pregunta": "¿Qué documento recoge la documentación final de la obra, con sus datos de uso y mantenimiento?",
@@ -196,114 +112,6 @@
       "referencia": "LOE, art. 1"
     },
     {
-      "pregunta": "¿Quién decide, impulsa, programa y financia la edificación?",
-      "opciones": [
-        "El promotor",
-        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El promotor decide, impulsa, programa y financia la edificación.",
-      "referencia": "LOE, art. 9"
-    },
-    {
-      "pregunta": "¿Quién redacta el proyecto de edificación por encargo del promotor?",
-      "opciones": [
-        "El proyectista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El proyectista",
-        "El proyectista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El proyectista, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El proyectista redacta el proyecto por encargo del promotor.",
-      "referencia": "LOE, art. 10"
-    },
-    {
-      "pregunta": "¿Quién ejecuta la obra con medios humanos y materiales?",
-      "opciones": [
-        "El constructor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El constructor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El constructor",
-        "El constructor, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El constructor ejecuta la obra con medios humanos y materiales.",
-      "referencia": "LOE, art. 11"
-    },
-    {
-      "pregunta": "¿Quién dirige y controla el desarrollo técnico de la obra?",
-      "opciones": [
-        "El director de obra y el director de la ejecución",
-        "El director de obra y el director de la ejecución, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El director de obra y el director de la ejecución, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El director de obra y el director de la ejecución, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los directores de obra y de la ejecución dirigen y controlan el desarrollo técnico.",
-      "referencia": "LOE, arts. 12 y 13"
-    },
-    {
-      "pregunta": "¿Qué agentes son los laboratorios de control de calidad?",
-      "opciones": [
-        "Entidades y laboratorios de control de calidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Entidades y laboratorios de control de calidad",
-        "Entidades y laboratorios de control de calidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Entidades y laboratorios de control de calidad, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las entidades y laboratorios de control de calidad son agentes de la edificación.",
-      "referencia": "LOE, art. 14"
-    },
-    {
-      "pregunta": "¿Qué agente suministra los productos a la obra?",
-      "opciones": [
-        "El suministrador de productos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El suministrador de productos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El suministrador de productos",
-        "El suministrador de productos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El suministrador de productos aporta los productos a la obra.",
-      "referencia": "LOE, art. 15"
-    },
-    {
-      "pregunta": "¿Qué tipos de seguridad recoge la LOE?",
-      "opciones": [
-        "Estructural, en caso de incendio y de utilización",
-        "Estructural, en caso de incendio y de utilización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Estructural, en caso de incendio y de utilización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Estructural, en caso de incendio y de utilización, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La seguridad se divide en estructural, en caso de incendio y de utilización.",
-      "referencia": "LOE, art. 3"
-    },
-    {
-      "pregunta": "¿Qué aspectos abarca la habitabilidad según la LOE?",
-      "opciones": [
-        "Higiene, salud, medio ambiente, ruido, ahorro de energía y aislamiento térmico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Higiene, salud, medio ambiente, ruido, ahorro de energía y aislamiento térmico",
-        "Higiene, salud, medio ambiente, ruido, ahorro de energía y aislamiento térmico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Higiene, salud, medio ambiente, ruido, ahorro de energía y aislamiento térmico, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La habitabilidad incluye higiene, salud, medio ambiente, ruido, ahorro de energía y aislamiento térmico.",
-      "referencia": "LOE, art. 3"
-    },
-    {
-      "pregunta": "¿Qué desarrolla técnicamente los requisitos básicos de la LOE?",
-      "opciones": [
-        "El CTE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El CTE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El CTE",
-        "El CTE, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El CTE desarrolla técnicamente los requisitos básicos.",
-      "referencia": "LOE, art. 3"
-    },
-    {
       "pregunta": "¿Qué es la recepción de la obra?",
       "opciones": [
         "La firma de un contrato de empleo",
@@ -340,198 +148,6 @@
       "referencia": "LOE, art. 19"
     },
     {
-      "pregunta": "¿Quién está obligado a suscribir el seguro decenal?",
-      "opciones": [
-        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El promotor",
-        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El promotor es el obligado a suscribir el seguro.",
-      "referencia": "LOE, art. 9.2 d)"
-    },
-    {
-      "pregunta": "¿Para qué tipo de edificios es obligatorio el seguro decenal?",
-      "opciones": [
-        "Para los de uso principal de vivienda, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Para los de uso principal de vivienda, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Para los de uso principal de vivienda, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Para los de uso principal de vivienda"
-      ],
-      "correcta": 3,
-      "explicacion": "El seguro es obligatorio para edificios cuyo uso principal sea vivienda.",
-      "referencia": "LOE, disposición adicional segunda"
-    },
-    {
-      "pregunta": "¿Cuántos años responde la LOE por daños en cimentación y estructura?",
-      "opciones": [
-        "Diez años",
-        "Diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Diez años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La LOE responde diez años por daños en cimentación y elementos estructurales.",
-      "referencia": "LOE, art. 17.1 a)"
-    },
-    {
-      "pregunta": "¿Qué responsabilidad tienen los defectos de acabado según la LOE?",
-      "opciones": [
-        "Un año desde la recepción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un año desde la recepción",
-        "Un año desde la recepción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un año desde la recepción, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los defectos de acabado tienen un año de garantía desde la recepción.",
-      "referencia": "LOE, art. 17"
-    },
-    {
-      "pregunta": "¿Qué obligación tienen los propietarios y usuarios respecto al uso del edificio?",
-      "opciones": [
-        "Conservarlo y usarlo conforme a sus instrucciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Conservarlo y usarlo conforme a sus instrucciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Conservarlo y usarlo conforme a sus instrucciones",
-        "Conservarlo y usarlo conforme a sus instrucciones, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los propietarios y usuarios deben conservar y usar el edificio conforme a sus instrucciones.",
-      "referencia": "LOE, art. 16"
-    },
-    {
-      "pregunta": "¿Quién hace la entrega de la obra al promotor?",
-      "opciones": [
-        "El constructor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El constructor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El constructor, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El constructor"
-      ],
-      "correcta": 3,
-      "explicacion": "El constructor entrega la obra al promotor.",
-      "referencia": "LOE, art. 11"
-    },
-    {
-      "pregunta": "¿Qué requisito básico agrupa la seguridad estructural y de incendio?",
-      "opciones": [
-        "La seguridad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La seguridad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La seguridad",
-        "La seguridad, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La seguridad incluye la estructural, en caso de incendio y de utilización.",
-      "referencia": "LOE, art. 3"
-    },
-    {
-      "pregunta": "¿Qué documento final del director de obra da lugar al Libro del Edificio?",
-      "opciones": [
-        "La documentación final de la obra",
-        "La documentación final de la obra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La documentación final de la obra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La documentación final de la obra, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La documentación final constituye el Libro del Edificio.",
-      "referencia": "LOE, art. 7"
-    },
-    {
-      "pregunta": "¿Qué agente tiene el seguro de daños que cubre los daños estructurales?",
-      "opciones": [
-        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El promotor",
-        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El promotor es el obligado a suscribir el seguro.",
-      "referencia": "LOE, art. 9.2 d)"
-    },
-    {
-      "pregunta": "¿Qué pide el requisito de habitabilidad frente al ruido?",
-      "opciones": [
-        "Protección contra el ruido, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Protección contra el ruido, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Protección contra el ruido",
-        "Protección contra el ruido, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La protección contra el ruido es un requisito de habitabilidad.",
-      "referencia": "LOE, art. 3.1 c)"
-    },
-    {
-      "pregunta": "¿Qué seguro es obligatorio para el promotor de edificios de viviendas?",
-      "opciones": [
-        "Seguro de daños materiales (decenal), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Seguro de daños materiales (decenal), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Seguro de daños materiales (decenal), computándose los plazos en días naturales y con sentido desestimatorio",
-        "Seguro de daños materiales (decenal)"
-      ],
-      "correcta": 3,
-      "explicacion": "La LOE exige al promotor un seguro de daños materiales para garantizar los daños estructurales.",
-      "referencia": "Ley 38/1999 (LOE), art. 19"
-    },
-    {
-      "pregunta": "¿Qué plazo de garantía tienen los daños estructurales según la LOE?",
-      "opciones": [
-        "Diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Diez años, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Diez años"
-      ],
-      "correcta": 3,
-      "explicacion": "La LOE establece diez años de garantía para los daños estructurales.",
-      "referencia": "Ley 38/1999 (LOE), art. 17"
-    },
-    {
-      "pregunta": "¿Qué agente de la edificación elabora el proyecto?",
-      "opciones": [
-        "El proyectista",
-        "El proyectista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El proyectista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El proyectista, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El proyectista redacta el proyecto técnico de la edificación.",
-      "referencia": "Ley 38/1999 (LOE), art. 10"
-    },
-    {
-      "pregunta": "¿Qué agente ejecuta las obras de edificación?",
-      "opciones": [
-        "El constructor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El constructor",
-        "El constructor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El constructor, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El constructor es el agente que ejecuta la obra.",
-      "referencia": "Ley 38/1999 (LOE), art. 11"
-    },
-    {
-      "pregunta": "¿Qué agente de la edificación asume la iniciativa y costea la edificación?",
-      "opciones": [
-        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El promotor",
-        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El promotor impulsa y financia la edificación.",
-      "referencia": "Ley 38/1999 (LOE), art. 9"
-    },
-    {
-      "pregunta": "¿Qué agente dirige el desarrollo de la obra en los aspectos técnicos y estéticos?",
-      "opciones": [
-        "El director de obra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El director de obra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El director de obra, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El director de obra"
-      ],
-      "correcta": 3,
-      "explicacion": "El director de obra dirige la ejecución del proyecto en sus aspectos técnicos.",
-      "referencia": "Ley 38/1999 (LOE), art. 12"
-    },
-    {
       "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿qué establece la normativa respecto a «Promotor (art. 9)»?",
       "opciones": [
         "Decide, impulsa, programa y financia la edificación.",
@@ -541,18 +157,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Promotor (art. 9)» (Agentes de la edificación), la regulación vigente establece que: Decide, impulsa, programa y financia la edificación.",
-      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Decide, impulsa, programa y financia la edificación.»?",
-      "opciones": [
-        "Promotor (art. 9), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Promotor (art. 9).",
-        "Promotor (art. 9), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Promotor (art. 9), computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Decide, impulsa, programa y financia la edificación.») define o regula específicamente a «Promotor (art. 9)» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     },
     {
@@ -568,18 +172,6 @@
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     },
     {
-      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Redacta el proyecto por encargo del promotor, de acuerdo con la normativa técnica y urbanística.»?",
-      "opciones": [
-        "Proyectista (art. 10), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Proyectista (art. 10), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Proyectista (art. 10), computándose los plazos en días naturales y con sentido desestimatorio",
-        "Proyectista (art. 10)."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Redacta el proyecto por encargo del promotor, de acuerdo con la normativa técnica y urbanística.») define o regula específicamente a «Proyectista (art. 10)» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
-      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-    },
-    {
       "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿qué establece la normativa respecto a «Constructor (art. 11)»?",
       "opciones": [
         "Ejecuta la obra con medios humanos y materiales.",
@@ -589,18 +181,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Constructor (art. 11)» (Agentes de la edificación), la regulación vigente establece que: Ejecuta la obra con medios humanos y materiales.",
-      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Ejecuta la obra con medios humanos y materiales.»?",
-      "opciones": [
-        "Constructor (art. 11), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Constructor (art. 11).",
-        "Constructor (art. 11), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Constructor (art. 11), computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Ejecuta la obra con medios humanos y materiales.») define o regula específicamente a «Constructor (art. 11)» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     },
     {
@@ -616,42 +196,6 @@
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     },
     {
-      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Dirigen y controlan el desarrollo técnico de la obra.»?",
-      "opciones": [
-        "Director de obra (art. 12) y director de la ejecución de la obra (art. 13), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Director de obra (art. 12) y director de la ejecución de la obra (art. 13), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Director de obra (art. 12) y director de la ejecución de la obra (art. 13), computándose los plazos en días naturales y con sentido desestimatorio",
-        "Director de obra (art. 12) y director de la ejecución de la obra (art. 13)."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Dirigen y controlan el desarrollo técnico de la obra.») define o regula específicamente a «Director de obra (art. 12) y director de la ejecución de la obra (art. 13)» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
-      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos (art. 3)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Funcionalidad, seguridad y habitabilidad.»?",
-      "opciones": [
-        "Tres grupos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Tres grupos.",
-        "Tres grupos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Tres grupos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Funcionalidad, seguridad y habitabilidad.») define o regula específicamente a «Tres grupos» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
-      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos (art. 3)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Estructural, en caso de incendio y de utilización.»?",
-      "opciones": [
-        "Seguridad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Seguridad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Seguridad, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Seguridad."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Estructural, en caso de incendio y de utilización.») define o regula específicamente a «Seguridad» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
-      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-    },
-    {
       "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos (art. 3)), ¿qué establece la normativa respecto a «Habitabilidad»?",
       "opciones": [
         "Higiene, salud, protección del medio ambiente, protección frente al ruido, ahorro de energía y aislamiento térmico.",
@@ -661,18 +205,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Habitabilidad» (Requisitos básicos (art. 3)), la regulación vigente establece que: Higiene, salud, protección del medio ambiente, protección frente al ruido, ahorro de energía y aislamiento térmico.",
-      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos (art. 3)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Higiene, salud, protección del medio ambiente, protección frente al ruido, ahorro de energía y aislamiento térmico.»?",
-      "opciones": [
-        "Habitabilidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Habitabilidad.",
-        "Habitabilidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Habitabilidad, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Higiene, salud, protección del medio ambiente, protección frente al ruido, ahorro de energía y aislamiento térmico.») define o regula específicamente a «Habitabilidad» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     },
     {
@@ -688,18 +220,6 @@
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     },
     {
-      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Recepción y Libro del Edificio (arts. 6 y 7)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Acto por el que el constructor, una vez concluida la obra, la entrega al promotor, que la acepta.»?",
-      "opciones": [
-        "Recepción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Recepción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Recepción, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Recepción."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Acto por el que el constructor, una vez concluida la obra, la entrega al promotor, que la acepta.») define o regula específicamente a «Recepción» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
-      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-    },
-    {
       "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Seguros obligatorios (art. 19)), ¿qué establece la normativa respecto a «El promotor»?",
       "opciones": [
         "Es el obligado a suscribirlo (art. 9.2.d).",
@@ -709,18 +229,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «El promotor» (Seguros obligatorios (art. 19)), la regulación vigente establece que: Es el obligado a suscribirlo (art. 9.2.d).",
-      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Seguros obligatorios (art. 19)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el obligado a suscribirlo (art. 9.2.d).»?",
-      "opciones": [
-        "El promotor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El promotor.",
-        "El promotor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El promotor, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es el obligado a suscribirlo (art. 9.2.d).») define o regula específicamente a «El promotor» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     },
     {
@@ -736,18 +244,6 @@
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     },
     {
-      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Origen, naturaleza y objeto), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Corresponde a normas como el Código Técnico de la Edificación (CTE), aprobado por el Real Decreto 314/2006, de 17 de marzo, que la propia ley menciona como referente técnico de los requisitos básicos.»?",
-      "opciones": [
-        "Su desarrollo técnico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Su desarrollo técnico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Su desarrollo técnico, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Su desarrollo técnico."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Corresponde a normas como el Código Técnico de la Edificación (CTE), aprobado por el Real Decreto 314/2006, de 17 de marzo, que la propia ley menciona como referente técnico de los requisitos básicos.») define o regula específicamente a «Su desarrollo técnico» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
-      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-    },
-    {
       "pregunta": "Dentro del estudio de «Recepción y Libro del Edificio (arts. 6 y 7)» (Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Acto por el que el constructor, una vez concluida la obra, la entrega al promotor, que la acepta.»?",
       "opciones": [
         "Recepción.",
@@ -760,27 +256,531 @@
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     },
     {
-      "pregunta": "En relación con «Su finalidad» (Requisitos básicos de la edificación (art. 3)), señale la determinación correcta conforme a la normativa del tema:",
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Decide, impulsa, programa y financia la edificación.»?",
       "opciones": [
-        "Es garantizar la seguridad de las personas, el bienestar de la sociedad y la protección del medio ambiente, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "Es garantizar la seguridad de las personas, el bienestar de la sociedad y la protección del medio ambiente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "Es garantizar la seguridad de las personas, el bienestar de la sociedad y la protección del medio ambiente.",
-        "Es garantizar la seguridad de las personas, el bienestar de la sociedad y la protección del medio ambiente, computándose los plazos en días naturales y con sentido desestimatorio."
+        "Director de obra (art. 12) y director de la ejecución de la obra (art. 13).",
+        "Promotor (art. 9).",
+        "Habitabilidad.",
+        "Su desarrollo técnico."
       ],
-      "correcta": 2,
-      "explicacion": "Respecto a «Su finalidad» (Requisitos básicos de la edificación (art. 3)), la regulación vigente establece que: Es garantizar la seguridad de las personas, el bienestar de la sociedad y la protección del medio ambiente.",
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Decide, impulsa, programa y financia la edificación.») define o regula específicamente a «Promotor (art. 9)» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     },
     {
-      "pregunta": "En relación con «El Código Técnico de la Edificación» (Requisitos básicos de la edificación (art. 3)), señale la determinación correcta conforme a la normativa del tema:",
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Redacta el proyecto por encargo del promotor, de acuerdo con la normativa técnica y urbanística.»?",
       "opciones": [
-        "Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE, computándose los plazos en días naturales y con sentido desestimatorio.",
-        "Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE."
+        "Tres grupos.",
+        "Recepción.",
+        "Su finalidad.",
+        "Proyectista (art. 10)."
       ],
       "correcta": 3,
-      "explicacion": "Respecto a «El Código Técnico de la Edificación» (Requisitos básicos de la edificación (art. 3)), la regulación vigente establece que: Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE.",
+      "explicacion": "Dicha determinación («Redacta el proyecto por encargo del promotor, de acuerdo con la normativa técnica y urbanística.») define o regula específicamente a «Proyectista (art. 10)» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Ejecuta la obra con medios humanos y materiales.»?",
+      "opciones": [
+        "Seguridad.",
+        "Constructor (art. 11).",
+        "El promotor.",
+        "El Código Técnico de la Edificación."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Ejecuta la obra con medios humanos y materiales.») define o regula específicamente a «Constructor (art. 11)» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Agentes de la edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Dirigen y controlan el desarrollo técnico de la obra.»?",
+      "opciones": [
+        "Habitabilidad.",
+        "Su desarrollo técnico.",
+        "El proyecto.",
+        "Director de obra (art. 12) y director de la ejecución de la obra (art. 13)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Dirigen y controlan el desarrollo técnico de la obra.») define o regula específicamente a «Director de obra (art. 12) y director de la ejecución de la obra (art. 13)» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos (art. 3)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Funcionalidad, seguridad y habitabilidad.»?",
+      "opciones": [
+        "Recepción.",
+        "Tres grupos.",
+        "Su finalidad.",
+        "Es distinto del director de obra."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Funcionalidad, seguridad y habitabilidad.») define o regula específicamente a «Tres grupos» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos (art. 3)), ¿qué establece la normativa respecto a «Seguridad»?",
+      "opciones": [
+        "Es el obligado a suscribirlo (art. 9.2.d).",
+        "Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE.",
+        "Estructural, en caso de incendio y de utilización.",
+        "Es el acto por el cual el constructor, una vez concluida la obra, hace entrega de la misma al promotor, que la acepta (art. 6.1)."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Seguridad» (Requisitos básicos (art. 3)), la regulación vigente establece que: Estructural, en caso de incendio y de utilización.",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos (art. 3)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Estructural, en caso de incendio y de utilización.»?",
+      "opciones": [
+        "El promotor.",
+        "El Código Técnico de la Edificación.",
+        "La recepción de la obra.",
+        "Seguridad."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Estructural, en caso de incendio y de utilización.») define o regula específicamente a «Seguridad» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos (art. 3)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Higiene, salud, protección del medio ambiente, protección frente al ruido, ahorro de energía y aislamiento térmico.»?",
+      "opciones": [
+        "Su desarrollo técnico.",
+        "Habitabilidad.",
+        "El proyecto.",
+        "El artículo 7."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Higiene, salud, protección del medio ambiente, protección frente al ruido, ahorro de energía y aislamiento térmico.») define o regula específicamente a «Habitabilidad» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Recepción y Libro del Edificio (arts. 6 y 7)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Acto por el que el constructor, una vez concluida la obra, la entrega al promotor, que la acepta.»?",
+      "opciones": [
+        "Su finalidad.",
+        "Es distinto del director de obra.",
+        "Recepción.",
+        "El artículo 17."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Acto por el que el constructor, una vez concluida la obra, la entrega al promotor, que la acepta.») define o regula específicamente a «Recepción» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Seguros obligatorios (art. 19)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el obligado a suscribirlo (art. 9.2.d).»?",
+      "opciones": [
+        "El Código Técnico de la Edificación.",
+        "La recepción de la obra.",
+        "Los plazos.",
+        "El promotor."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es el obligado a suscribirlo (art. 9.2.d).») define o regula específicamente a «El promotor» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Origen, naturaleza y objeto), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Corresponde a normas como el Código Técnico de la Edificación (CTE), aprobado por el Real Decreto 314/2006, de 17 de marzo, que la propia ley menciona como referente técnico de los requisitos básicos.»?",
+      "opciones": [
+        "El proyecto.",
+        "Su desarrollo técnico.",
+        "El artículo 7.",
+        "El artículo 18."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Corresponde a normas como el Código Técnico de la Edificación (CTE), aprobado por el Real Decreto 314/2006, de 17 de marzo, que la propia ley menciona como referente técnico de los requisitos básicos.») define o regula específicamente a «Su desarrollo técnico» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Requisitos básicos de la edificación (art. 3)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE.»?",
+      "opciones": [
+        "La recepción de la obra.",
+        "Los plazos.",
+        "El Código Técnico de la Edificación.",
+        "El seguro decenal."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es la norma que los desarrolla en documentos básicos, y su existencia explica que muchas preguntas de examen combinen la LOE con el CTE.») define o regula específicamente a «El Código Técnico de la Edificación» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Los agentes de la edificación (arts. 8 a 16)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El primero controla la ejecución material, y el segundo, los aspectos técnicos y estéticos del proyecto.»?",
+      "opciones": [
+        "El artículo 17.",
+        "El artículo 19.",
+        "El usuario.",
+        "Es distinto del director de obra."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El primero controla la ejecución material, y el segundo, los aspectos técnicos y estéticos del proyecto.») define o regula específicamente a «Es distinto del director de obra» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Recepción de la obra y libro del edificio (arts. 6 y 7)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el acto por el cual el constructor, una vez concluida la obra, hace entrega de la misma al promotor, que la acepta (art. 6.1).»?",
+      "opciones": [
+        "Los plazos.",
+        "La recepción de la obra.",
+        "El seguro decenal.",
+        "Como el forjado."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es el acto por el cual el constructor, una vez concluida la obra, hace entrega de la misma al promotor, que la acepta (art. 6.1).») define o regula específicamente a «La recepción de la obra» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Recepción de la obra y libro del edificio (arts. 6 y 7)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la documentación de la obra ejecutada.»?",
+      "opciones": [
+        "El artículo 18.",
+        "El régimen de garantías es un ejemplo de la técnica general de la LOE.",
+        "El artículo 7.",
+        "Su función."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Regula la documentación de la obra ejecutada.») define o regula específicamente a «El artículo 7» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Responsabilidad y plazos (arts. 17 y 18)), ¿qué establece la normativa respecto a «El artículo 17»?",
+      "opciones": [
+        "Regula el régimen de garantías por daños materiales ocasionados por vicios y defectos de la construcción.",
+        "Dispone de dos años desde que se produce el daño para exigir la responsabilidad.",
+        "Es el agente que asume, contractualmente ante el promotor, el compromiso de ejecutar con medios humanos y materiales, propios o ajenos, las obras con sujeción al proyecto y al contrato (art. 11.1).",
+        "Regula la responsabilidad civil de los agentes que intervienen en el proceso de la edificación."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El artículo 17» (Responsabilidad y plazos (arts. 17 y 18)), la regulación vigente establece que: Regula la responsabilidad civil de los agentes que intervienen en el proceso de la edificación.",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Responsabilidad y plazos (arts. 17 y 18)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la responsabilidad civil de los agentes que intervienen en el proceso de la edificación.»?",
+      "opciones": [
+        "El artículo 17.",
+        "El artículo 19.",
+        "El usuario.",
+        "El constructor."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Regula la responsabilidad civil de los agentes que intervienen en el proceso de la edificación.») define o regula específicamente a «El artículo 17» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Responsabilidad y plazos (arts. 17 y 18)), ¿qué establece la normativa respecto a «Los plazos»?",
+      "opciones": [
+        "Es el más relevante para un examen.",
+        "Son tres, y conviene memorizarlos con su contenido.",
+        "Es un elemento estructural, el daño entra en el régimen de diez años del artículo 17.1.a, y el promotor debe haber suscrito el seguro decenal (arts. 9.2.d y 19).",
+        "Corresponde a otros usos del artículo 2.1, la exigencia de titulación se remite a lo que dispongan las normas aplicables."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Los plazos» (Responsabilidad y plazos (arts. 17 y 18)), la regulación vigente establece que: Son tres, y conviene memorizarlos con su contenido.",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Responsabilidad y plazos (arts. 17 y 18)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son tres, y conviene memorizarlos con su contenido.»?",
+      "opciones": [
+        "El seguro decenal.",
+        "Como el forjado.",
+        "Los plazos.",
+        "Si la obra."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Son tres, y conviene memorizarlos con su contenido.») define o regula específicamente a «Los plazos» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Responsabilidad y plazos (arts. 17 y 18)), ¿qué establece la normativa respecto a «El artículo 18»?",
+      "opciones": [
+        "Combinar la responsabilidad de los agentes con seguros que aseguren el pago de la reparación, sin que el usuario tenga que probar la solvencia de cada agente.",
+        "Es precisamente controlar cualitativa y cuantitativamente la construcción y la calidad de lo edificado (art. 13.1).",
+        "Es la base de la responsabilidad técnica durante la obra, y explica que la LOE defina ambas figuras por separado.",
+        "Regula los plazos de prescripción de las acciones."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El artículo 18» (Responsabilidad y plazos (arts. 17 y 18)), la regulación vigente establece que: Regula los plazos de prescripción de las acciones.",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Responsabilidad y plazos (arts. 17 y 18)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula los plazos de prescripción de las acciones.»?",
+      "opciones": [
+        "El artículo 18.",
+        "El régimen de garantías es un ejemplo de la técnica general de la LOE.",
+        "Su función.",
+        "Esa doble vigilancia."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Regula los plazos de prescripción de las acciones.») define o regula específicamente a «El artículo 18» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Garantías y seguros obligatorios (art. 19 y disposición adicional segunda)), ¿qué establece la normativa respecto a «El artículo 19»?",
+      "opciones": [
+        "Dispone de dos años desde que se produce el daño para exigir la responsabilidad.",
+        "Regula el régimen de garantías por daños materiales ocasionados por vicios y defectos de la construcción.",
+        "Es el agente que asume, contractualmente ante el promotor, el compromiso de ejecutar con medios humanos y materiales, propios o ajenos, las obras con sujeción al proyecto y al contrato (art. 11.1).",
+        "La ley, que es común a todos, y el contrato, que concreta lo que ha pactado con cada cliente."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El artículo 19» (Garantías y seguros obligatorios (art. 19 y disposición adicional segunda)), la regulación vigente establece que: Regula el régimen de garantías por daños materiales ocasionados por vicios y defectos de la construcción.",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Garantías y seguros obligatorios (art. 19 y disposición adicional segunda)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula el régimen de garantías por daños materiales ocasionados por vicios y defectos de la construcción.»?",
+      "opciones": [
+        "El usuario.",
+        "El constructor.",
+        "El artículo 19.",
+        "Esto significa que un mismo agente tiene dos fuentes de obligaciones."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Regula el régimen de garantías por daños materiales ocasionados por vicios y defectos de la construcción.») define o regula específicamente a «El artículo 19» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Garantías y seguros obligatorios (art. 19 y disposición adicional segunda)), ¿qué establece la normativa respecto a «El seguro decenal»?",
+      "opciones": [
+        "Es un elemento estructural, el daño entra en el régimen de diez años del artículo 17.1.a, y el promotor debe haber suscrito el seguro decenal (arts. 9.2.d y 19).",
+        "Corresponde a otros usos del artículo 2.1, la exigencia de titulación se remite a lo que dispongan las normas aplicables.",
+        "Exige « sin perjuicio de sus responsabilidades contractuales ».",
+        "Es el más relevante para un examen."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El seguro decenal» (Garantías y seguros obligatorios (art. 19 y disposición adicional segunda)), la regulación vigente establece que: Es el más relevante para un examen.",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Garantías y seguros obligatorios (art. 19 y disposición adicional segunda)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el más relevante para un examen.»?",
+      "opciones": [
+        "El seguro decenal.",
+        "Como el forjado.",
+        "Si la obra.",
+        "El artículo 17 aclara que la responsabilidad civil de los agentes se."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es el más relevante para un examen.») define o regula específicamente a «El seguro decenal» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Garantías y seguros obligatorios (art. 19 y disposición adicional segunda)), ¿qué establece la normativa respecto a «El régimen de garantías es un ejemplo de la técnica general de la LOE»?",
+      "opciones": [
+        "Es precisamente controlar cualitativa y cuantitativamente la construcción y la calidad de lo edificado (art. 13.1).",
+        "Combinar la responsabilidad de los agentes con seguros que aseguren el pago de la reparación, sin que el usuario tenga que probar la solvencia de cada agente.",
+        "Es la base de la responsabilidad técnica durante la obra, y explica que la LOE defina ambas figuras por separado.",
+        "A mayor gravedad del daño, mayor plazo de garantía y mayor exigencia de aseguramiento."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El régimen de garantías es un ejemplo de la técnica general de la LOE» (Garantías y seguros obligatorios (art. 19 y disposición adicional segunda)), la regulación vigente establece que: Combinar la responsabilidad de los agentes con seguros que aseguren el pago de la reparación, sin que el usuario tenga que probar la solvencia de cada agente.",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Garantías y seguros obligatorios (art. 19 y disposición adicional segunda)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Combinar la responsabilidad de los agentes con seguros que aseguren el pago de la reparación, sin que el usuario tenga que probar la solvencia de cada agente.»?",
+      "opciones": [
+        "Su función.",
+        "Esa doble vigilancia.",
+        "El régimen de garantías es un ejemplo de la técnica general de la LOE.",
+        "La estructura es coherente."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Combinar la responsabilidad de los agentes con seguros que aseguren el pago de la reparación, sin que el usuario tenga que probar la solvencia de cada agente.») define o regula específicamente a «El régimen de garantías es un ejemplo de la técnica general de la LOE» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Casos prácticos de examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un elemento estructural, el daño entra en el régimen de diez años del artículo 17.1.a, y el promotor debe haber suscrito el seguro decenal (arts. 9.2.d y 19).»?",
+      "opciones": [
+        "Si la obra.",
+        "El artículo 17 aclara que la responsabilidad civil de los agentes se.",
+        "Requisitos básicos.",
+        "Como el forjado."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es un elemento estructural, el daño entra en el régimen de diez años del artículo 17.1.a, y el promotor debe haber suscrito el seguro decenal (arts. 9.2.d y 19).») define o regula específicamente a «Como el forjado» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Casos prácticos de examen), ¿qué establece la normativa respecto a «Su función»?",
+      "opciones": [
+        "Es precisamente controlar cualitativa y cuantitativamente la construcción y la calidad de lo edificado (art. 13.1).",
+        "Es la base de la responsabilidad técnica durante la obra, y explica que la LOE defina ambas figuras por separado.",
+        "A mayor gravedad del daño, mayor plazo de garantía y mayor exigencia de aseguramiento.",
+        "Diez años para daños estructurales, tres años para habitabilidad y un año para acabados (art. 17.1)."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Su función» (Casos prácticos de examen), la regulación vigente establece que: Es precisamente controlar cualitativa y cuantitativamente la construcción y la calidad de lo edificado (art. 13.1).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Casos prácticos de examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es precisamente controlar cualitativa y cuantitativamente la construcción y la calidad de lo edificado (art. 13.1).»?",
+      "opciones": [
+        "Esa doble vigilancia.",
+        "Su función.",
+        "La estructura es coherente.",
+        "Responsabilidad."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es precisamente controlar cualitativa y cuantitativamente la construcción y la calidad de lo edificado (art. 13.1).») define o regula específicamente a «Su función» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Obligaciones concretas de promotor, constructor y director de la ejecución), ¿qué establece la normativa respecto a «El constructor»?",
+      "opciones": [
+        "La ley, que es común a todos, y el contrato, que concreta lo que ha pactado con cada cliente.",
+        "El mismo régimen de agentes, requisitos y garantías se aplica a la edificación pública y a la privada.",
+        "Es el agente que asume, contractualmente ante el promotor, el compromiso de ejecutar con medios humanos y materiales, propios o ajenos, las obras con sujeción al proyecto y al contrato (art. 11.1).",
+        "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El constructor» (Obligaciones concretas de promotor, constructor y director de la ejecución), la regulación vigente establece que: Es el agente que asume, contractualmente ante el promotor, el compromiso de ejecutar con medios humanos y materiales, propios o ajenos, las obras con sujeción al proyecto y al contrato (art. 11.1).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Obligaciones concretas de promotor, constructor y director de la ejecución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el agente que asume, contractualmente ante el promotor, el compromiso de ejecutar con medios humanos y materiales, propios o ajenos, las obras con sujeción al proyecto y al contrato (art. 11.1).»?",
+      "opciones": [
+        "Esto significa que un mismo agente tiene dos fuentes de obligaciones.",
+        "La LOE no distingue, por tanto, según quien promueva la obra.",
+        "Objeto (art. 1 Ley de Ordenación de la Edificación).",
+        "El constructor."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es el agente que asume, contractualmente ante el promotor, el compromiso de ejecutar con medios humanos y materiales, propios o ajenos, las obras con sujeción al proyecto y al contrato (art. 11.1).») define o regula específicamente a «El constructor» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Obligaciones concretas de promotor, constructor y director de la ejecución), ¿qué establece la normativa respecto a «Si la obra»?",
+      "opciones": [
+        "Corresponde a otros usos del artículo 2.1, la exigencia de titulación se remite a lo que dispongan las normas aplicables.",
+        "Exige « sin perjuicio de sus responsabilidades contractuales ».",
+        "Funcionalidad, seguridad y habitabilidad (art. 3.1).",
+        "De telecomunicaciones (referido a la ingeniería de las telecomunicaciones)."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Si la obra» (Obligaciones concretas de promotor, constructor y director de la ejecución), la regulación vigente establece que: Corresponde a otros usos del artículo 2.1, la exigencia de titulación se remite a lo que dispongan las normas aplicables.",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Obligaciones concretas de promotor, constructor y director de la ejecución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Corresponde a otros usos del artículo 2.1, la exigencia de titulación se remite a lo que dispongan las normas aplicables.»?",
+      "opciones": [
+        "El artículo 17 aclara que la responsabilidad civil de los agentes se.",
+        "Si la obra.",
+        "Requisitos básicos.",
+        "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Corresponde a otros usos del artículo 2.1, la exigencia de titulación se remite a lo que dispongan las normas aplicables.») define o regula específicamente a «Si la obra» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Obligaciones concretas de promotor, constructor y director de la ejecución), ¿qué establece la normativa respecto a «Esa doble vigilancia»?",
+      "opciones": [
+        "A mayor gravedad del daño, mayor plazo de garantía y mayor exigencia de aseguramiento.",
+        "Diez años para daños estructurales, tres años para habitabilidad y un año para acabados (art. 17.1).",
+        "Es la base de la responsabilidad técnica durante la obra, y explica que la LOE defina ambas figuras por separado.",
+        "El proyecto es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras contempladas en el artículo 2."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Esa doble vigilancia» (Obligaciones concretas de promotor, constructor y director de la ejecución), la regulación vigente establece que: Es la base de la responsabilidad técnica durante la obra, y explica que la LOE defina ambas figuras por separado.",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Obligaciones concretas de promotor, constructor y director de la ejecución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la base de la responsabilidad técnica durante la obra, y explica que la LOE defina ambas figuras por separado.»?",
+      "opciones": [
+        "La estructura es coherente.",
+        "Responsabilidad.",
+        "Proyecto (art. 4 Ley de Ordenación de la Edificación).",
+        "Esa doble vigilancia."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es la base de la responsabilidad técnica durante la obra, y explica que la LOE defina ambas figuras por separado.») define o regula específicamente a «Esa doble vigilancia» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Contrato y responsabilidad: dos planos distintos), ¿qué establece la normativa respecto a «Esto significa que un mismo agente tiene dos fuentes de obligaciones»?",
+      "opciones": [
+        "La ley, que es común a todos, y el contrato, que concreta lo que ha pactado con cada cliente.",
+        "El mismo régimen de agentes, requisitos y garantías se aplica a la edificación pública y a la privada.",
+        "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica.",
+        "La recepción de la obra es el acto por el cual el constructor, una vez concluida ésta, hace entrega de la misma al promotor y es aceptada por éste."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Esto significa que un mismo agente tiene dos fuentes de obligaciones» (Contrato y responsabilidad: dos planos distintos), la regulación vigente establece que: La ley, que es común a todos, y el contrato, que concreta lo que ha pactado con cada cliente.",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Contrato y responsabilidad: dos planos distintos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La ley, que es común a todos, y el contrato, que concreta lo que ha pactado con cada cliente.»?",
+      "opciones": [
+        "La LOE no distingue, por tanto, según quien promueva la obra.",
+        "Esto significa que un mismo agente tiene dos fuentes de obligaciones.",
+        "Objeto (art. 1 Ley de Ordenación de la Edificación).",
+        "Recepción de la obra (art. 6 Ley de Ordenación de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («La ley, que es común a todos, y el contrato, que concreta lo que ha pactado con cada cliente.») define o regula específicamente a «Esto significa que un mismo agente tiene dos fuentes de obligaciones» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Contrato y responsabilidad: dos planos distintos), ¿qué establece la normativa respecto a «El artículo 17 aclara que la responsabilidad civil de los agentes se»?",
+      "opciones": [
+        "Funcionalidad, seguridad y habitabilidad (art. 3.1).",
+        "De telecomunicaciones (referido a la ingeniería de las telecomunicaciones).",
+        "Exige « sin perjuicio de sus responsabilidades contractuales ».",
+        "Toda la documentación a que hace referencia los apartados anteriores, que constituirá el Libro del Edificio, será entregada a los usuarios finales del edificio."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El artículo 17 aclara que la responsabilidad civil de los agentes se» (Contrato y responsabilidad: dos planos distintos), la regulación vigente establece que: Exige « sin perjuicio de sus responsabilidades contractuales ».",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Contrato y responsabilidad: dos planos distintos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige « sin perjuicio de sus responsabilidades contractuales ».»?",
+      "opciones": [
+        "Requisitos básicos.",
+        "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación).",
+        "Documentación de la obra ejecutada (art. 7 Ley de Ordenación de la Edificación).",
+        "El artículo 17 aclara que la responsabilidad civil de los agentes se."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Exige « sin perjuicio de sus responsabilidades contractuales ».») define o regula específicamente a «El artículo 17 aclara que la responsabilidad civil de los agentes se» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Garantías y seguros en la práctica (art. 19.1)), ¿qué establece la normativa respecto a «La estructura es coherente»?",
+      "opciones": [
+        "A mayor gravedad del daño, mayor plazo de garantía y mayor exigencia de aseguramiento.",
+        "Diez años para daños estructurales, tres años para habitabilidad y un año para acabados (art. 17.1).",
+        "El proyecto es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras contempladas en el artículo 2.",
+        "Son agentes de la edificación todas las personas, físicas o jurídicas, que intervienen en el proceso de la edificación."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «La estructura es coherente» (Garantías y seguros en la práctica (art. 19.1)), la regulación vigente establece que: A mayor gravedad del daño, mayor plazo de garantía y mayor exigencia de aseguramiento.",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Garantías y seguros en la práctica (art. 19.1)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «A mayor gravedad del daño, mayor plazo de garantía y mayor exigencia de aseguramiento.»?",
+      "opciones": [
+        "Responsabilidad.",
+        "La estructura es coherente.",
+        "Proyecto (art. 4 Ley de Ordenación de la Edificación).",
+        "Concepto (art. 8 Ley de Ordenación de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («A mayor gravedad del daño, mayor plazo de garantía y mayor exigencia de aseguramiento.») define o regula específicamente a «La estructura es coherente» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "En el ámbito de «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Edificación pública y privada en la LOE), ¿qué establece la normativa respecto a «La LOE no distingue, por tanto, según quien promueva la obra»?",
+      "opciones": [
+        "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica.",
+        "La recepción de la obra es el acto por el cual el constructor, una vez concluida ésta, hace entrega de la misma al promotor y es aceptada por éste.",
+        "El mismo régimen de agentes, requisitos y garantías se aplica a la edificación pública y a la privada.",
+        "El proyectista es el agente que, por encargo del promotor y con sujeción a la normativa técnica y urbanística correspondiente, redacta el proyecto."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «La LOE no distingue, por tanto, según quien promueva la obra» (Edificación pública y privada en la LOE), la regulación vigente establece que: El mismo régimen de agentes, requisitos y garantías se aplica a la edificación pública y a la privada.",
+      "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Ley de Ordenación de la Edificación. Marco general de la normativa técnica sobre edificación. Agentes de la edificación: Obligaciones, responsabilidades y garantías. Código Técnico de la Edificación: presentación, marco reglamentario, historia, estructura y contenidos. Documentos básicos. Documentos complementarios.» (Edificación pública y privada en la LOE), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El mismo régimen de agentes, requisitos y garantías se aplica a la edificación pública y a la privada.»?",
+      "opciones": [
+        "Objeto (art. 1 Ley de Ordenación de la Edificación).",
+        "Recepción de la obra (art. 6 Ley de Ordenación de la Edificación).",
+        "El proyectista (art. 10 Ley de Ordenación de la Edificación).",
+        "La LOE no distingue, por tanto, según quien promueva la obra."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El mismo régimen de agentes, requisitos y garantías se aplica a la edificación pública y a la privada.») define o regula específicamente a «La LOE no distingue, por tanto, según quien promueva la obra» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
       "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
     }
   ]

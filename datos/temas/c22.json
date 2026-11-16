@@ -72,18 +72,6 @@
       "referencia": "Art. 7.2 LAJA"
     },
     {
-      "pregunta": "Según el art. 14.1 LPAC, ¿qué derecho tienen las personas físicas en su relación electrónica con la Administración?",
-      "opciones": [
-        "Elegir en todo momento si se comunican por medios electrónicos o no, salvo obligación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Elegir en todo momento si se comunican por medios electrónicos o no, salvo obligación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Elegir en todo momento si se comunican por medios electrónicos o no, salvo obligación",
-        "Elegir en todo momento si se comunican por medios electrónicos o no, salvo obligación, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las personas físicas pueden elegir en todo momento si se comunican por medios electrónicos o no, salvo que estén obligadas, y pueden cambiar el medio.",
-      "referencia": "Art. 14.1 LPAC"
-    },
-    {
       "pregunta": "Según el art. 41.1 LRJSP, ¿qué es una actuación administrativa automatizada?",
       "opciones": [
         "Un acto que no tiene procedimiento",
@@ -108,66 +96,6 @@
       "referencia": "Art. 41.2 LRJSP"
     },
     {
-      "pregunta": "¿Qué tipo de memoria pierde su contenido al apagarse el equipo?",
-      "opciones": [
-        "La memoria principal, que es volátil",
-        "La memoria principal, que es volátil, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La memoria principal, que es volátil, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La memoria principal, que es volátil, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La memoria principal es volátil: pierde su contenido al apagarse el equipo. El almacenamiento secundario es permanente.",
-      "referencia": "Conceptos generales de arquitectura (temario c22)"
-    },
-    {
-      "pregunta": "¿Dónde debe estar un programa para ejecutarse?",
-      "opciones": [
-        "En la memoria principal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "En la memoria principal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "En la memoria principal",
-        "En la memoria principal, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Para ejecutarse, el programa debe cargarse en la memoria principal, desde donde la CPU toma sus instrucciones.",
-      "referencia": "Funcionamiento general (temario c22)"
-    },
-    {
-      "pregunta": "¿Cuántos niveles tiene el modelo de referencia OSI?",
-      "opciones": [
-        "Siete, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Siete, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Siete, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Siete"
-      ],
-      "correcta": 3,
-      "explicacion": "El modelo OSI tiene siete niveles; el modelo TCP/IP, en el que se basa Internet, tiene cuatro.",
-      "referencia": "Redes y comunicaciones (temario c22)"
-    },
-    {
-      "pregunta": "¿Qué arquitectura separa la presentación, la lógica de negocio y los datos en tres niveles?",
-      "opciones": [
-        "La de tres capas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La de tres capas",
-        "La de tres capas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La de tres capas, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La arquitectura de tres capas separa la presentación, la lógica de negocio y los datos, que pueden estar en equipos distintos.",
-      "referencia": "Niveles de arquitectura (temario c22)"
-    },
-    {
-      "pregunta": "¿Qué modelo de nube ofrece aplicaciones listas para usar?",
-      "opciones": [
-        "SaaS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "SaaS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "SaaS",
-        "SaaS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "SaaS ofrece aplicaciones listas para usar; IaaS ofrece infraestructura y PaaS, una plataforma para desarrollar.",
-      "referencia": "Tendencias actuales (temario c22)"
-    },
-    {
       "pregunta": "En el modelo cliente-servidor, ¿qué hace el cliente?",
       "opciones": [
         "Solicita un servicio mediante una petición que el servidor atiende",
@@ -178,282 +106,6 @@
       "correcta": 0,
       "explicacion": "El cliente es el proceso que solicita un servicio, y el servidor es el que lo presta, siguiendo el modelo de petición y respuesta.",
       "referencia": "Arquitectura cliente-servidor (temario c22)"
-    },
-    {
-      "pregunta": "¿Qué combina un sistema informático?",
-      "opciones": [
-        "Hardware, software, datos, redes y personas, con los procedimientos que ordenan su uso, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Hardware, software, datos, redes y personas, con los procedimientos que ordenan su uso",
-        "Hardware, software, datos, redes y personas, con los procedimientos que ordenan su uso, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Hardware, software, datos, redes y personas, con los procedimientos que ordenan su uso, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Un sistema informático combina hardware, software, datos, redes y personas.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Qué tipo de memoria del ordenador es volátil?",
-      "opciones": [
-        "La memoria principal",
-        "La memoria principal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La memoria principal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La memoria principal, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La memoria principal es volátil; el almacenamiento secundario es permanente.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿En qué se divide el software?",
-      "opciones": [
-        "Sistema, utilidades y aplicaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Sistema, utilidades y aplicaciones",
-        "Sistema, utilidades y aplicaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Sistema, utilidades y aplicaciones, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El software se divide en software de sistema, utilidades y aplicaciones.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Cuál es el esquema básico de funcionamiento de un sistema informático?",
-      "opciones": [
-        "Entrada, proceso y salida, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Entrada, proceso y salida, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Entrada, proceso y salida, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Entrada, proceso y salida"
-      ],
-      "correcta": 3,
-      "explicacion": "El esquema general es entrada, proceso y salida.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Qué gestiona el sistema operativo?",
-      "opciones": [
-        "Procesos, memoria, dispositivos y ficheros",
-        "Procesos, memoria, dispositivos y ficheros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Procesos, memoria, dispositivos y ficheros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Procesos, memoria, dispositivos y ficheros, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El sistema operativo gestiona procesos, memoria, dispositivos y ficheros.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué software controla el acceso, la integridad y la concurrencia de una base de datos?",
-      "opciones": [
-        "El sistema gestor de bases de datos (SGBD), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El sistema gestor de bases de datos (SGBD)",
-        "El sistema gestor de bases de datos (SGBD), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El sistema gestor de bases de datos (SGBD), computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El SGBD controla el acceso, la integridad y la concurrencia.",
-      "referencia": "Tema c22 y c23"
-    },
-    {
-      "pregunta": "¿Qué arquitectura concentra el proceso en un gran equipo?",
-      "opciones": [
-        "Centralizada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Centralizada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Centralizada",
-        "Centralizada, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La arquitectura centralizada concentra el proceso en un gran equipo.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Qué arquitectura reparte el proceso entre varios equipos?",
-      "opciones": [
-        "Distribuida, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Distribuida, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Distribuida, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Distribuida"
-      ],
-      "correcta": 3,
-      "explicacion": "La arquitectura distribuida reparte el proceso entre varios equipos.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Qué rol cumple el cliente en el modelo cliente-servidor?",
-      "opciones": [
-        "Pide servicios",
-        "Pide servicios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Pide servicios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Pide servicios, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "En cliente-servidor el cliente pide y el servidor responde.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Cuántas capas tiene la arquitectura de tres capas?",
-      "opciones": [
-        "Tres: presentación, lógica de negocio y datos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Tres: presentación, lógica de negocio y datos",
-        "Tres: presentación, lógica de negocio y datos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Tres: presentación, lógica de negocio y datos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La arquitectura de tres capas separa presentación, lógica de negocio y datos.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Qué protocolo es la base del modelo de petición y respuesta en la web?",
-      "opciones": [
-        "HTTP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "HTTP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "HTTP",
-        "HTTP, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "HTTP es el protocolo de petición y respuesta de la web.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Qué modelo de nube separa la infraestructura, la plataforma y el software?",
-      "opciones": [
-        "IaaS, PaaS y SaaS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "IaaS, PaaS y SaaS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "IaaS, PaaS y SaaS, computándose los plazos en días naturales y con sentido desestimatorio",
-        "IaaS, PaaS y SaaS"
-      ],
-      "correcta": 3,
-      "explicacion": "La nube se ofrece como IaaS, PaaS o SaaS.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Qué tipo de sistema operativo permite ejecutar un proceso en tiempo real con respuesta inmediata?",
-      "opciones": [
-        "De tiempo real",
-        "De tiempo real, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "De tiempo real, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "De tiempo real, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los sistemas de tiempo real responden en un plazo garantizado.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué clase de sistema operativo permite ejecutar varios usuarios a la vez?",
-      "opciones": [
-        "Multiusuario, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Multiusuario",
-        "Multiusuario, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Multiusuario, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Un sistema multiusuario permite varios usuarios simultáneamente.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué permite la memoria virtual?",
-      "opciones": [
-        "Ejecutar programas mayores que la memoria física, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Ejecutar programas mayores que la memoria física, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Ejecutar programas mayores que la memoria física",
-        "Ejecutar programas mayores que la memoria física, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La memoria virtual permite ejecutar programas mayores que la memoria física.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué propiedad de las transacciones significa que se completan del todo o no se aplican?",
-      "opciones": [
-        "La atomicidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La atomicidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La atomicidad, computándose los plazos en días naturales y con sentido desestimatorio",
-        "La atomicidad"
-      ],
-      "correcta": 3,
-      "explicacion": "La atomicidad significa que la transacción se completa del todo o no se aplica.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué sistema de información sirve para la operación diaria?",
-      "opciones": [
-        "TPS",
-        "TPS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "TPS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "TPS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los TPS (procesamiento de transacciones) sirven para la operación diaria.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué sistema ayuda a elegir entre alternativas?",
-      "opciones": [
-        "DSS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "DSS",
-        "DSS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "DSS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los DSS ayudan a elegir entre alternativas.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué protocolo se usa para enviar correo electrónico?",
-      "opciones": [
-        "SMTP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "SMTP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "SMTP",
-        "SMTP, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "SMTP se utiliza para enviar correo electrónico.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué protocolo cifra el tráfico web?",
-      "opciones": [
-        "HTTPS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "HTTPS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "HTTPS, computándose los plazos en días naturales y con sentido desestimatorio",
-        "HTTPS"
-      ],
-      "correcta": 3,
-      "explicacion": "HTTPS es HTTP con cifrado.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué tipo de sistema organiza las tareas de un procedimiento?",
-      "opciones": [
-        "Flujo de trabajo (workflow), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Flujo de trabajo (workflow), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Flujo de trabajo (workflow)",
-        "Flujo de trabajo (workflow), computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los flujos de trabajo (workflow) ordenan las tareas de un procedimiento.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué cualidad debe tener el archivo electrónico de los procedimientos finalizados?",
-      "opciones": [
-        "Autenticidad, integridad y conservación",
-        "Autenticidad, integridad y conservación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Autenticidad, integridad y conservación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Autenticidad, integridad y conservación, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El archivo electrónico garantiza autenticidad, integridad y conservación.",
-      "referencia": "Art. 17 LPAC"
-    },
-    {
-      "pregunta": "¿Qué requisito tiene la cesión de datos entre Administraciones?",
-      "opciones": [
-        "Condiciones y protocolos previos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Condiciones y protocolos previos",
-        "Condiciones y protocolos previos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Condiciones y protocolos previos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La cesión de datos exige condiciones y protocolos previos.",
-      "referencia": "Art. 155 LRJSP"
     },
     {
       "pregunta": "¿Qué componentes forman la arquitectura de Von Neumann?",
@@ -468,78 +120,6 @@
       "referencia": "Tema c22"
     },
     {
-      "pregunta": "¿Cuántas capas tiene el modelo OSI?",
-      "opciones": [
-        "Siete, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Siete, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Siete, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Siete"
-      ],
-      "correcta": 3,
-      "explicacion": "El modelo de referencia OSI consta de siete capas.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Cuántas capas tiene el modelo TCP/IP habitual?",
-      "opciones": [
-        "Cuatro, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cuatro, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cuatro, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Cuatro"
-      ],
-      "correcta": 3,
-      "explicacion": "El modelo TCP/IP suele describirse con cuatro capas.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Qué arquitectura separa al cliente que solicita servicios del servidor que los presta?",
-      "opciones": [
-        "Cliente-servidor",
-        "Cliente-servidor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cliente-servidor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cliente-servidor, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "En la arquitectura cliente-servidor, el cliente solicita y el servidor responde.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Cuántos bits tiene un byte?",
-      "opciones": [
-        "Ocho, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Ocho",
-        "Ocho, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Ocho, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Un byte está formado por ocho bits.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Qué unidad de la CPU realiza las operaciones aritméticas y lógicas?",
-      "opciones": [
-        "La unidad aritmético-lógica (ALU), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La unidad aritmético-lógica (ALU), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La unidad aritmético-lógica (ALU)",
-        "La unidad aritmético-lógica (ALU), computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La ALU ejecuta las operaciones aritméticas y lógicas.",
-      "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Qué unidad de la CPU interpreta y coordina la ejecución de las instrucciones?",
-      "opciones": [
-        "La unidad de control, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La unidad de control, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La unidad de control, computándose los plazos en días naturales y con sentido desestimatorio",
-        "La unidad de control"
-      ],
-      "correcta": 3,
-      "explicacion": "La unidad de control interpreta las instrucciones y coordina los componentes.",
-      "referencia": "Tema c22"
-    },
-    {
       "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Funcionamiento general), ¿qué establece la normativa respecto a «Las bases de datos»?",
       "opciones": [
         "Son gestionadas por un sistema gestor (SGBD), que controla el acceso, la integridad y la concurrencia.",
@@ -549,18 +129,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Las bases de datos» (Funcionamiento general), la regulación vigente establece que: Son gestionadas por un sistema gestor (SGBD), que controla el acceso, la integridad y la concurrencia.",
-      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Funcionamiento general), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son gestionadas por un sistema gestor (SGBD), que controla el acceso, la integridad y la concurrencia.»?",
-      "opciones": [
-        "Las bases de datos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las bases de datos.",
-        "Las bases de datos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las bases de datos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Son gestionadas por un sistema gestor (SGBD), que controla el acceso, la integridad y la concurrencia.») define o regula específicamente a «Las bases de datos» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
       "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
     },
     {
@@ -600,18 +168,6 @@
       "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
     },
     {
-      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Qué es un sistema informático), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un conjunto organizado de elementos que recogen, almacenan, procesan y transmiten información para producir un resultado útil.»?",
-      "opciones": [
-        "Un sistema informático, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un sistema informático.",
-        "Un sistema informático, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un sistema informático, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es un conjunto organizado de elementos que recogen, almacenan, procesan y transmiten información para producir un resultado útil.») define o regula específicamente a «Un sistema informático» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
-      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
-    },
-    {
       "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Qué es un sistema informático), ¿qué establece la normativa respecto a «Los elementos»?",
       "opciones": [
         "Es el conjunto de programas e instrucciones que indican al hardware qué hacer.",
@@ -621,18 +177,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «Los elementos» (Qué es un sistema informático), la regulación vigente establece que: Son el hardware, el software, los datos, las redes y las personas que los operan y los usan, junto con los procedimientos que ordenan su uso.",
-      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Qué es un sistema informático), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el hardware, el software, los datos, las redes y las personas que los operan y los usan, junto con los procedimientos que ordenan su uso.»?",
-      "opciones": [
-        "Los elementos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los elementos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los elementos, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Los elementos."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Son el hardware, el software, los datos, las redes y las personas que los operan y los usan, junto con los procedimientos que ordenan su uso.») define o regula específicamente a «Los elementos» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
       "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
     },
     {
@@ -669,18 +213,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «Los componentes básicos» (El hardware: componentes principales), la regulación vigente establece que: Son la unidad central de proceso (CPU), que ejecuta las instrucciones.",
-      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (El hardware: componentes principales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son la unidad central de proceso (CPU), que ejecuta las instrucciones.»?",
-      "opciones": [
-        "Los componentes básicos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los componentes básicos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los componentes básicos, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Los componentes básicos."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Son la unidad central de proceso (CPU), que ejecuta las instrucciones.») define o regula específicamente a «Los componentes básicos» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
       "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
     },
     {
@@ -744,18 +276,6 @@
       "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
     },
     {
-      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Los datos y las bases de datos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el resultado de procesar datos en un contexto que les da significado.»?",
-      "opciones": [
-        "La información, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La información.",
-        "La información, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La información, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es el resultado de procesar datos en un contexto que les da significado.») define o regula específicamente a «La información» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
-      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
-    },
-    {
       "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Los datos y las bases de datos), ¿qué establece la normativa respecto a «Una base de datos»?",
       "opciones": [
         "Es la más extendida en aplicaciones de gestión.",
@@ -777,6 +297,486 @@
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Es un conjunto organizado de datos relacionados, gestionado por un sistema gestor de bases de datos (SGBD).») define o regula específicamente a «Una base de datos» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Funcionamiento general), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son gestionadas por un sistema gestor (SGBD), que controla el acceso, la integridad y la concurrencia.»?",
+      "opciones": [
+        "Los elementos.",
+        "Las bases de datos.",
+        "El software.",
+        "Una base de datos."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Son gestionadas por un sistema gestor (SGBD), que controla el acceso, la integridad y la concurrencia.») define o regula específicamente a «Las bases de datos» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Qué es un sistema informático), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un conjunto organizado de elementos que recogen, almacenan, procesan y transmiten información para producir un resultado útil.»?",
+      "opciones": [
+        "Los componentes básicos.",
+        "Un sistema informático.",
+        "La información.",
+        "Una red de ordenadores."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es un conjunto organizado de elementos que recogen, almacenan, procesan y transmiten información para producir un resultado útil.») define o regula específicamente a «Un sistema informático» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Qué es un sistema informático), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el hardware, el software, los datos, las redes y las personas que los operan y los usan, junto con los procedimientos que ordenan su uso.»?",
+      "opciones": [
+        "El software.",
+        "Una base de datos.",
+        "La arquitectura cliente-servidor.",
+        "Los elementos."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Son el hardware, el software, los datos, las redes y las personas que los operan y los usan, junto con los procedimientos que ordenan su uso.») define o regula específicamente a «Los elementos» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (El hardware: componentes principales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son la unidad central de proceso (CPU), que ejecuta las instrucciones.»?",
+      "opciones": [
+        "La información.",
+        "Los componentes básicos.",
+        "Una red de ordenadores.",
+        "Respuesta."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Son la unidad central de proceso (CPU), que ejecuta las instrucciones.») define o regula específicamente a «Los componentes básicos» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Los datos y las bases de datos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el resultado de procesar datos en un contexto que les da significado.»?",
+      "opciones": [
+        "Una red de ordenadores.",
+        "Respuesta.",
+        "La cuestión clave.",
+        "La información."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es el resultado de procesar datos en un contexto que les da significado.») define o regula específicamente a «La información» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Los datos y las bases de datos), ¿qué establece la normativa respecto a «Los modelos más usados»?",
+      "opciones": [
+        "En un único equipo (centralizada) o repartido (distribuida).",
+        "Son el relacional, con tablas y claves, y, en aplicaciones concretas, otros modelos como el documental o el de grafos.",
+        "El cliente envía una petición, el servidor la procesa y devuelve una respuesta.",
+        "Procesos, memoria, dispositivos y ficheros, ofreciendo una interfaz a las aplicaciones."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Los modelos más usados» (Los datos y las bases de datos), la regulación vigente establece que: Son el relacional, con tablas y claves, y, en aplicaciones concretas, otros modelos como el documental o el de grafos.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Los datos y las bases de datos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el relacional, con tablas y claves, y, en aplicaciones concretas, otros modelos como el documental o el de grafos.»?",
+      "opciones": [
+        "Para un examen, la diferencia básica es dónde está el proceso.",
+        "La comunicación sigue el modelo de petición y respuesta.",
+        "Los modelos más usados.",
+        "Para un examen, la pregunta típica es qué gestiona el sistema operativo."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Son el relacional, con tablas y claves, y, en aplicaciones concretas, otros modelos como el documental o el de grafos.») define o regula específicamente a «Los modelos más usados» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Redes y comunicaciones), ¿qué establece la normativa respecto a «Una red de ordenadores»?",
+      "opciones": [
+        "El de lógica de negocio, separado de la presentación y de los datos.",
+        "Es que cliente y servidor son roles de procesos, no necesariamente de máquinas distintas.",
+        "Es un producto concreto, sino un marco de decisión.",
+        "Es un conjunto de equipos conectados que comparten recursos e intercambian información."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Una red de ordenadores» (Redes y comunicaciones), la regulación vigente establece que: Es un conjunto de equipos conectados que comparten recursos e intercambian información.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Redes y comunicaciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un conjunto de equipos conectados que comparten recursos e intercambian información.»?",
+      "opciones": [
+        "Una red de ordenadores.",
+        "Respuesta.",
+        "La cuestión clave.",
+        "La arquitectura de referencia no."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es un conjunto de equipos conectados que comparten recursos e intercambian información.») define o regula específicamente a «Una red de ordenadores» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Tipos de arquitectura de los sistemas), ¿qué establece la normativa respecto a «La arquitectura cliente-servidor»?",
+      "opciones": [
+        "Es aquel en el que varios procesos colaboran para realizar una tarea, intercambiando datos o mensajes y sincronizándose cuando es necesario.",
+        "Es la más extendida en aplicaciones de gestión.",
+        "Crea, planifica y termina los programas en ejecución.",
+        "Es la capacidad de dos o más sistemas para intercambiar información y utilizarla."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «La arquitectura cliente-servidor» (Tipos de arquitectura de los sistemas), la regulación vigente establece que: Es la más extendida en aplicaciones de gestión.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Tipos de arquitectura de los sistemas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la más extendida en aplicaciones de gestión.»?",
+      "opciones": [
+        "Un proceso cooperativo.",
+        "El sistema operativo gestiona los procesos.",
+        "La arquitectura cliente-servidor.",
+        "La interoperabilidad."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es la más extendida en aplicaciones de gestión.») define o regula específicamente a «La arquitectura cliente-servidor» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Tipos de arquitectura de los sistemas), ¿qué establece la normativa respecto a «Para un examen, la diferencia básica es dónde está el proceso»?",
+      "opciones": [
+        "El cliente envía una petición, el servidor la procesa y devuelve una respuesta.",
+        "Procesos, memoria, dispositivos y ficheros, ofreciendo una interfaz a las aplicaciones.",
+        "Exige interoperabilidad entre administraciones.",
+        "En un único equipo (centralizada) o repartido (distribuida)."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Para un examen, la diferencia básica es dónde está el proceso» (Tipos de arquitectura de los sistemas), la regulación vigente establece que: En un único equipo (centralizada) o repartido (distribuida).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Tipos de arquitectura de los sistemas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En un único equipo (centralizada) o repartido (distribuida).»?",
+      "opciones": [
+        "Para un examen, la diferencia básica es dónde está el proceso.",
+        "La comunicación sigue el modelo de petición y respuesta.",
+        "Para un examen, la pregunta típica es qué gestiona el sistema operativo.",
+        "La Administración electrónica."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («En un único equipo (centralizada) o repartido (distribuida).») define o regula específicamente a «Para un examen, la diferencia básica es dónde está el proceso» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Niveles de arquitectura: presentación, lógica y datos), ¿qué establece la normativa respecto a «Respuesta»?",
+      "opciones": [
+        "Es que cliente y servidor son roles de procesos, no necesariamente de máquinas distintas.",
+        "El de lógica de negocio, separado de la presentación y de los datos.",
+        "Es un producto concreto, sino un marco de decisión.",
+        "Análisis de requisitos, diseño, desarrollo, pruebas, implantación y mantenimiento."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Respuesta» (Niveles de arquitectura: presentación, lógica y datos), la regulación vigente establece que: El de lógica de negocio, separado de la presentación y de los datos.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Niveles de arquitectura: presentación, lógica y datos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El de lógica de negocio, separado de la presentación y de los datos.»?",
+      "opciones": [
+        "La cuestión clave.",
+        "La arquitectura de referencia no.",
+        "Respuesta.",
+        "El software tiene un ciclo de vida."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («El de lógica de negocio, separado de la presentación y de los datos.») define o regula específicamente a «Respuesta» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Procesos cooperativos), ¿qué establece la normativa respecto a «Un proceso cooperativo»?",
+      "opciones": [
+        "Crea, planifica y termina los programas en ejecución.",
+        "Es la capacidad de dos o más sistemas para intercambiar información y utilizarla.",
+        "Desarrollo, donde se programa.",
+        "Es aquel en el que varios procesos colaboran para realizar una tarea, intercambiando datos o mensajes y sincronizándose cuando es necesario."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Un proceso cooperativo» (Procesos cooperativos), la regulación vigente establece que: Es aquel en el que varios procesos colaboran para realizar una tarea, intercambiando datos o mensajes y sincronizándose cuando es necesario.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Procesos cooperativos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es aquel en el que varios procesos colaboran para realizar una tarea, intercambiando datos o mensajes y sincronizándose cuando es necesario.»?",
+      "opciones": [
+        "Un proceso cooperativo.",
+        "El sistema operativo gestiona los procesos.",
+        "La interoperabilidad.",
+        "Los cambios se trabajan en entornos separados."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es aquel en el que varios procesos colaboran para realizar una tarea, intercambiando datos o mensajes y sincronizándose cuando es necesario.») define o regula específicamente a «Un proceso cooperativo» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (La arquitectura cliente-servidor), ¿qué establece la normativa respecto a «La comunicación sigue el modelo de petición y respuesta»?",
+      "opciones": [
+        "Procesos, memoria, dispositivos y ficheros, ofreciendo una interfaz a las aplicaciones.",
+        "El cliente envía una petición, el servidor la procesa y devuelve una respuesta.",
+        "Exige interoperabilidad entre administraciones.",
+        "Son los microservicios, pequeños servicios desplegados de forma independiente."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «La comunicación sigue el modelo de petición y respuesta» (La arquitectura cliente-servidor), la regulación vigente establece que: El cliente envía una petición, el servidor la procesa y devuelve una respuesta.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (La arquitectura cliente-servidor), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El cliente envía una petición, el servidor la procesa y devuelve una respuesta.»?",
+      "opciones": [
+        "Para un examen, la pregunta típica es qué gestiona el sistema operativo.",
+        "La Administración electrónica.",
+        "La comunicación sigue el modelo de petición y respuesta.",
+        "Una evolución de esta idea."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («El cliente envía una petición, el servidor la procesa y devuelve una respuesta.») define o regula específicamente a «La comunicación sigue el modelo de petición y respuesta» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (La arquitectura cliente-servidor), ¿qué establece la normativa respecto a «La cuestión clave»?",
+      "opciones": [
+        "Es un producto concreto, sino un marco de decisión.",
+        "Análisis de requisitos, diseño, desarrollo, pruebas, implantación y mantenimiento.",
+        "Integración (eventos), escala (datos masivos) y latencia (borde).",
+        "Es que cliente y servidor son roles de procesos, no necesariamente de máquinas distintas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «La cuestión clave» (La arquitectura cliente-servidor), la regulación vigente establece que: Es que cliente y servidor son roles de procesos, no necesariamente de máquinas distintas.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (La arquitectura cliente-servidor), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es que cliente y servidor son roles de procesos, no necesariamente de máquinas distintas.»?",
+      "opciones": [
+        "La cuestión clave.",
+        "La arquitectura de referencia no.",
+        "El software tiene un ciclo de vida.",
+        "Para un examen, conviene asociar cada tendencia con su problema."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es que cliente y servidor son roles de procesos, no necesariamente de máquinas distintas.») define o regula específicamente a «La cuestión clave» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (El sistema operativo: procesos, memoria y ficheros), ¿qué establece la normativa respecto a «El sistema operativo gestiona los procesos»?",
+      "opciones": [
+        "Es la capacidad de dos o más sistemas para intercambiar información y utilizarla.",
+        "Crea, planifica y termina los programas en ejecución.",
+        "Desarrollo, donde se programa.",
+        "Confidencialidad, integridad y disponibilidad."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El sistema operativo gestiona los procesos» (El sistema operativo: procesos, memoria y ficheros), la regulación vigente establece que: Crea, planifica y termina los programas en ejecución.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (El sistema operativo: procesos, memoria y ficheros), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Crea, planifica y termina los programas en ejecución.»?",
+      "opciones": [
+        "La interoperabilidad.",
+        "Los cambios se trabajan en entornos separados.",
+        "El sistema operativo gestiona los procesos.",
+        "La seguridad de la información se resume en tres propiedades."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Crea, planifica y termina los programas en ejecución.») define o regula específicamente a «El sistema operativo gestiona los procesos» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (El sistema operativo: procesos, memoria y ficheros), ¿qué establece la normativa respecto a «Para un examen, la pregunta típica es qué gestiona el sistema operativo»?",
+      "opciones": [
+        "Exige interoperabilidad entre administraciones.",
+        "Son los microservicios, pequeños servicios desplegados de forma independiente.",
+        "Exige aplicarlas, pero su texto (su texto completo está indexado y disponible en el visor de normas del repositorio).",
+        "Procesos, memoria, dispositivos y ficheros, ofreciendo una interfaz a las aplicaciones."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Para un examen, la pregunta típica es qué gestiona el sistema operativo» (El sistema operativo: procesos, memoria y ficheros), la regulación vigente establece que: Procesos, memoria, dispositivos y ficheros, ofreciendo una interfaz a las aplicaciones.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (El sistema operativo: procesos, memoria y ficheros), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Procesos, memoria, dispositivos y ficheros, ofreciendo una interfaz a las aplicaciones.»?",
+      "opciones": [
+        "Para un examen, la pregunta típica es qué gestiona el sistema operativo.",
+        "La Administración electrónica.",
+        "Una evolución de esta idea.",
+        "El esquema nacional de seguridad de la Administración electrónica."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Procesos, memoria, dispositivos y ficheros, ofreciendo una interfaz a las aplicaciones.») define o regula específicamente a «Para un examen, la pregunta típica es qué gestiona el sistema operativo» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (La arquitectura de referencia de una organización), ¿qué establece la normativa respecto a «La arquitectura de referencia no»?",
+      "opciones": [
+        "Análisis de requisitos, diseño, desarrollo, pruebas, implantación y mantenimiento.",
+        "Es un producto concreto, sino un marco de decisión.",
+        "Integración (eventos), escala (datos masivos) y latencia (borde).",
+        "Debe estar prevista y tener órganos responsables de su especificación y control (art. 41.2 LRJSP)."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «La arquitectura de referencia no» (La arquitectura de referencia de una organización), la regulación vigente establece que: Es un producto concreto, sino un marco de decisión.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (La arquitectura de referencia de una organización), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un producto concreto, sino un marco de decisión.»?",
+      "opciones": [
+        "El software tiene un ciclo de vida.",
+        "Para un examen, conviene asociar cada tendencia con su problema.",
+        "La arquitectura de referencia no.",
+        "Para un examen, la automatización no elimina la responsabilidad del órgano."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es un producto concreto, sino un marco de decisión.») define o regula específicamente a «La arquitectura de referencia no» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Interoperabilidad e integración de sistemas), ¿qué establece la normativa respecto a «La interoperabilidad»?",
+      "opciones": [
+        "Desarrollo, donde se programa.",
+        "Confidencialidad, integridad y disponibilidad.",
+        "Es la forma técnica de conectar los procesos.",
+        "Es la capacidad de dos o más sistemas para intercambiar información y utilizarla."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «La interoperabilidad» (Interoperabilidad e integración de sistemas), la regulación vigente establece que: Es la capacidad de dos o más sistemas para intercambiar información y utilizarla.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Interoperabilidad e integración de sistemas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la capacidad de dos o más sistemas para intercambiar información y utilizarla.»?",
+      "opciones": [
+        "La interoperabilidad.",
+        "Los cambios se trabajan en entornos separados.",
+        "La seguridad de la información se resume en tres propiedades.",
+        "La integración."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es la capacidad de dos o más sistemas para intercambiar información y utilizarla.») define o regula específicamente a «La interoperabilidad» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Interoperabilidad e integración de sistemas), ¿qué establece la normativa respecto a «La Administración electrónica»?",
+      "opciones": [
+        "Son los microservicios, pequeños servicios desplegados de forma independiente.",
+        "Exige interoperabilidad entre administraciones.",
+        "Exige aplicarlas, pero su texto (su texto completo está indexado y disponible en el visor de normas del repositorio).",
+        "Deben existir órganos responsables de su especificación y control (art. 41.2 LRJSP)."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «La Administración electrónica» (Interoperabilidad e integración de sistemas), la regulación vigente establece que: Exige interoperabilidad entre administraciones.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Interoperabilidad e integración de sistemas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige interoperabilidad entre administraciones.»?",
+      "opciones": [
+        "Una evolución de esta idea.",
+        "El esquema nacional de seguridad de la Administración electrónica.",
+        "La Administración electrónica.",
+        "Es una actuación administrativa automatizada."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Exige interoperabilidad entre administraciones.») define o regula específicamente a «La Administración electrónica» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Ciclo de vida del software y entornos de trabajo), ¿qué establece la normativa respecto a «El software tiene un ciclo de vida»?",
+      "opciones": [
+        "Integración (eventos), escala (datos masivos) y latencia (borde).",
+        "Debe estar prevista y tener órganos responsables de su especificación y control (art. 41.2 LRJSP).",
+        "Es una capa de integración con servicios bien definidos, que mantiene la interoperabilidad sin reescribir el sistema antiguo.",
+        "Análisis de requisitos, diseño, desarrollo, pruebas, implantación y mantenimiento."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El software tiene un ciclo de vida» (Ciclo de vida del software y entornos de trabajo), la regulación vigente establece que: Análisis de requisitos, diseño, desarrollo, pruebas, implantación y mantenimiento.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Ciclo de vida del software y entornos de trabajo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Análisis de requisitos, diseño, desarrollo, pruebas, implantación y mantenimiento.»?",
+      "opciones": [
+        "El software tiene un ciclo de vida.",
+        "Para un examen, conviene asociar cada tendencia con su problema.",
+        "Para un examen, la automatización no elimina la responsabilidad del órgano.",
+        "La solución."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Análisis de requisitos, diseño, desarrollo, pruebas, implantación y mantenimiento.») define o regula específicamente a «El software tiene un ciclo de vida» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Ciclo de vida del software y entornos de trabajo), ¿qué establece la normativa respecto a «Los cambios se trabajan en entornos separados»?",
+      "opciones": [
+        "Confidencialidad, integridad y disponibilidad.",
+        "Desarrollo, donde se programa.",
+        "Es la forma técnica de conectar los procesos.",
+        "Sistema informático como conjunto de hardware, software, datos, redes y personas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Los cambios se trabajan en entornos separados» (Ciclo de vida del software y entornos de trabajo), la regulación vigente establece que: Desarrollo, donde se programa.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Ciclo de vida del software y entornos de trabajo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Desarrollo, donde se programa.»?",
+      "opciones": [
+        "La seguridad de la información se resume en tres propiedades.",
+        "La integración.",
+        "Los cambios se trabajan en entornos separados.",
+        "Conceptos."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Desarrollo, donde se programa.») define o regula específicamente a «Los cambios se trabajan en entornos separados» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Tendencias actuales: servicios, virtualización y nube), ¿qué establece la normativa respecto a «Una evolución de esta idea»?",
+      "opciones": [
+        "Exige aplicarlas, pero su texto (su texto completo está indexado y disponible en el visor de normas del repositorio).",
+        "Deben existir órganos responsables de su especificación y control (art. 41.2 LRJSP).",
+        "CPU, memoria principal, almacenamiento secundario, buses.",
+        "Son los microservicios, pequeños servicios desplegados de forma independiente."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Una evolución de esta idea» (Tendencias actuales: servicios, virtualización y nube), la regulación vigente establece que: Son los microservicios, pequeños servicios desplegados de forma independiente.",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Tendencias actuales: servicios, virtualización y nube), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los microservicios, pequeños servicios desplegados de forma independiente.»?",
+      "opciones": [
+        "Una evolución de esta idea.",
+        "El esquema nacional de seguridad de la Administración electrónica.",
+        "Es una actuación administrativa automatizada.",
+        "Componentes y funcionamiento."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Son los microservicios, pequeños servicios desplegados de forma independiente.») define o regula específicamente a «Una evolución de esta idea» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Otras tendencias: arquitectura orientada a eventos y datos masivos), ¿qué establece la normativa respecto a «Para un examen, conviene asociar cada tendencia con su problema»?",
+      "opciones": [
+        "Debe estar prevista y tener órganos responsables de su especificación y control (art. 41.2 LRJSP).",
+        "Integración (eventos), escala (datos masivos) y latencia (borde).",
+        "Es una capa de integración con servicios bien definidos, que mantiene la interoperabilidad sin reescribir el sistema antiguo.",
+        "Centralizada, distribuida, cliente-servidor."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Para un examen, conviene asociar cada tendencia con su problema» (Otras tendencias: arquitectura orientada a eventos y datos masivos), la regulación vigente establece que: Integración (eventos), escala (datos masivos) y latencia (borde).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Otras tendencias: arquitectura orientada a eventos y datos masivos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Integración (eventos), escala (datos masivos) y latencia (borde).»?",
+      "opciones": [
+        "Para un examen, la automatización no elimina la responsabilidad del órgano.",
+        "La solución.",
+        "Para un examen, conviene asociar cada tendencia con su problema.",
+        "Arquitecturas."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Integración (eventos), escala (datos masivos) y latencia (borde).») define o regula específicamente a «Para un examen, conviene asociar cada tendencia con su problema» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+      "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Seguridad, disponibilidad y continuidad), ¿qué establece la normativa respecto a «La seguridad de la información se resume en tres propiedades»?",
+      "opciones": [
+        "Es la forma técnica de conectar los procesos.",
+        "Sistema informático como conjunto de hardware, software, datos, redes y personas.",
+        "SOA y microservicios, virtualización, contenedores, nube (IaaS, PaaS, SaaS), eventos, datos masivos y borde.",
+        "Confidencialidad, integridad y disponibilidad."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «La seguridad de la información se resume en tres propiedades» (Seguridad, disponibilidad y continuidad), la regulación vigente establece que: Confidencialidad, integridad y disponibilidad.",
       "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
     }
   ]

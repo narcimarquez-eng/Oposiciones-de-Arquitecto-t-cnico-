@@ -1,29 +1,5 @@
 [
   {
-    "pregunta": "¿Qué condiciones se exigen para que proceda la revisión de precios?",
-    "opciones": [
-      "Haber ejecutado al menos el 20 % del importe y transcurrido dos años desde la formalización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Haber ejecutado al menos el 20 % del importe y transcurrido dos años desde la formalización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Haber ejecutado al menos el 20 % del importe y transcurrido dos años desde la formalización, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Haber ejecutado al menos el 20 % del importe y transcurrido dos años desde la formalización"
-    ],
-    "correcta": 3,
-    "explicacion": "La revisión procede cuando se ha ejecutado al menos el 20 % del importe y han transcurrido dos años desde la formalización.",
-    "referencia": "LCSP, art. 103.5"
-  },
-  {
-    "pregunta": "¿Qué índices se aplican en la revisión cuando la demora es imputable al contratista?",
-    "opciones": [
-      "Los del período en que debió ejecutarse o los reales, el que resulte inferior, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Los del período en que debió ejecutarse o los reales, el que resulte inferior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Los del período en que debió ejecutarse o los reales, el que resulte inferior, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Los del período en que debió ejecutarse o los reales, el que resulte inferior"
-    ],
-    "correcta": 3,
-    "explicacion": "Si la demora es imputable al contratista se aplican los índices que resulten inferiores.",
-    "referencia": "LCSP, art. 104"
-  },
-  {
     "pregunta": "¿Cómo se abona el importe de la revisión de precios?",
     "opciones": [
       "En efectivo al final de cada día",
@@ -34,78 +10,6 @@
     "correcta": 2,
     "explicacion": "El importe de las revisiones se hace efectivo mediante el abono o descuento en los pagos parciales o en la liquidación.",
     "referencia": "LCSP, art. 105"
-  },
-  {
-    "pregunta": "¿Quién aprueba las fórmulas tipo de revisión de precios?",
-    "opciones": [
-      "El Consejo de Ministros, previo informe del Comité Superior de Precios de Contratos del Estado",
-      "El Consejo de Ministros, previo informe del Comité Superior de Precios de Contratos del Estado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El Consejo de Ministros, previo informe del Comité Superior de Precios de Contratos del Estado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El Consejo de Ministros, previo informe del Comité Superior de Precios de Contratos del Estado, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Las fórmulas tipo se aprueban por el Consejo de Ministros, previo informe del Comité Superior de Precios.",
-    "referencia": "LCSP, art. 103.6"
-  },
-  {
-    "pregunta": "¿Qué debe detallar el pliego de cláusulas administrativas particulares sobre la revisión?",
-    "opciones": [
-      "La fórmula de revisión aplicable",
-      "La fórmula de revisión aplicable, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La fórmula de revisión aplicable, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La fórmula de revisión aplicable, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "El pliego debe detallar, en su caso, la fórmula de revisión aplicable.",
-    "referencia": "LCSP, art. 103.4"
-  },
-  {
-    "pregunta": "¿Qué índices se emplean en las fórmulas de revisión de precios?",
-    "opciones": [
-      "Índices de precios de materiales y de mano de obra publicados oficialmente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Índices de precios de materiales y de mano de obra publicados oficialmente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Índices de precios de materiales y de mano de obra publicados oficialmente, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Índices de precios de materiales y de mano de obra publicados oficialmente"
-    ],
-    "correcta": 3,
-    "explicacion": "Las fórmulas emplean índices oficiales de precios de los materiales básicos.",
-    "referencia": "Tema e31"
-  },
-  {
-    "pregunta": "¿Qué indica el coeficiente fijo de una fórmula polinómica de revisión?",
-    "opciones": [
-      "La parte del precio que no se revisa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La parte del precio que no se revisa",
-      "La parte del precio que no se revisa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La parte del precio que no se revisa, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "El término fijo representa la parte no revisable del precio.",
-    "referencia": "Tema e31"
-  },
-  {
-    "pregunta": "¿Con qué periodicidad se calculan los coeficientes de revisión?",
-    "opciones": [
-      "En relación con los periodos de las certificaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "En relación con los periodos de las certificaciones",
-      "En relación con los periodos de las certificaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "En relación con los periodos de las certificaciones, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Los coeficientes se aplican a los importes de cada certificación según los índices del periodo.",
-    "referencia": "Tema e31"
-  },
-  {
-    "pregunta": "¿Qué contratos quedan excluidos con carácter general de la revisión de precios?",
-    "opciones": [
-      "Los contratos cuyo pago se concierte mediante sistemas de arrendamiento financiero o con precio cerrado no revisable, según los pliegos",
-      "Los contratos cuyo pago se concierte mediante sistemas de arrendamiento financiero o con precio cerrado no revisable, según los pliegos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Los contratos cuyo pago se concierte mediante sistemas de arrendamiento financiero o con precio cerrado no revisable, según los pliegos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Los contratos cuyo pago se concierte mediante sistemas de arrendamiento financiero o con precio cerrado no revisable, según los pliegos, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "La revisión solo procede en los supuestos que prevén la ley y los pliegos.",
-    "referencia": "Ley 9/2017 (LCSP), art. 103"
   },
   {
     "pregunta": "¿Qué componentes de coste suelen ponderarse en las fórmulas tipo de obras?",
@@ -358,5 +262,101 @@
     "correcta": 1,
     "explicacion": "Dicha determinación («El plazo mínimo para la recepción de las solicitudes de participación será de treinta días a partir de la fecha de envío del anuncio de licitación, cuando el contrato esté sujeto a regulación armonizada.») define o regula específicamente a «Selección de candidatos (art. 178 Ley de Contratos del Sector Público)» (Art. 178 de Ley de Contratos del Sector Público).",
     "referencia": "Art. 178 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "En el ámbito de «La revisión de precios en los contratos de obras: Procedencia y límites. Revisión en casos de demora en la ejecución. Pago del importe de la revisión. Procedimiento para la revisión de precios. Cobertura financiera y tramitación de los expedientes de revisión de precios. Práctica de la revisión de precios en contratos de obras. Relación de materiales básicos y las fórmulas-tipo generales de revisión de precios de los contratos de obras.» (Articulado de Ley de Contratos del Sector Público), ¿qué establece la normativa respecto a «Ámbito de aplicación (art. 2 Ley de Contratos del Sector Público)»?",
+    "opciones": [
+      "La relación de servicio de los funcionarios públicos y los contratos regulados en la legislación laboral queda excluida del ámbito de la presente Ley.",
+      "El derecho de explotación de los servicios implicará la transferencia al concesionario del riesgo operacional, en los términos señalados en el apartado cuarto del artículo anterior.",
+      "Se entenderá que un contrato tiene carácter oneroso en los casos en que el contratista obtenga algún tipo de beneficio económico, ya sea de forma directa o indirecta.",
+      "Se entenderá por contrato mixto aquel que contenga prestaciones correspondientes a otro u otros de distinta clase."
+    ],
+    "correcta": 2,
+    "explicacion": "Respecto a «Ámbito de aplicación (art. 2 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), la regulación vigente establece que: Se entenderá que un contrato tiene carácter oneroso en los casos en que el contratista obtenga algún tipo de beneficio económico, ya sea de forma directa o indirecta.",
+    "referencia": "Art. 2 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "Dentro de la materia «La revisión de precios en los contratos de obras: Procedencia y límites. Revisión en casos de demora en la ejecución. Pago del importe de la revisión. Procedimiento para la revisión de precios. Cobertura financiera y tramitación de los expedientes de revisión de precios. Práctica de la revisión de precios en contratos de obras. Relación de materiales básicos y las fórmulas-tipo generales de revisión de precios de los contratos de obras.» (Articulado de Ley de Contratos del Sector Público), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se entenderá que un contrato tiene carácter oneroso en los casos en que el contratista obtenga algún tipo de beneficio económico, ya sea de forma directa o indirecta.»?",
+    "opciones": [
+      "Otros negocios o contratos excluidos (art. 11 Ley de Contratos del Sector Público).",
+      "Contrato de concesión de servicios (art. 15 Ley de Contratos del Sector Público).",
+      "Contratos mixtos (art. 18 Ley de Contratos del Sector Público).",
+      "Ámbito de aplicación (art. 2 Ley de Contratos del Sector Público)."
+    ],
+    "correcta": 3,
+    "explicacion": "Dicha determinación («Se entenderá que un contrato tiene carácter oneroso en los casos en que el contratista obtenga algún tipo de beneficio económico, ya sea de forma directa o indirecta.») define o regula específicamente a «Ámbito de aplicación (art. 2 Ley de Contratos del Sector Público)» (Art. 2 de Ley de Contratos del Sector Público).",
+    "referencia": "Art. 2 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "En el ámbito de «La revisión de precios en los contratos de obras: Procedencia y límites. Revisión en casos de demora en la ejecución. Pago del importe de la revisión. Procedimiento para la revisión de precios. Cobertura financiera y tramitación de los expedientes de revisión de precios. Práctica de la revisión de precios en contratos de obras. Relación de materiales básicos y las fórmulas-tipo generales de revisión de precios de los contratos de obras.» (Articulado de Ley de Contratos del Sector Público), ¿qué establece la normativa respecto a «Convenios y encomiendas de gestión (art. 6 Ley de Contratos del Sector Público)»?",
+    "opciones": [
+      "Asimismo, quedan excluidas del ámbito de la presente Ley las encomiendas de gestión reguladas en la legislación vigente en materia de régimen jurídico del sector público.",
+      "Se considerará que el concesionario asume un riesgo operacional cuando no esté garantizado que, en condiciones normales de funcionamiento, el mismo vaya a recuperar las.",
+      "No podrán ser objeto de estos contratos los servicios que impliquen ejercicio de la autoridad inherente a los poderes públicos.",
+      "2.º Aquellos cuyo objeto sea la suscripción a revistas, publicaciones periódicas y bases de datos."
+    ],
+    "correcta": 0,
+    "explicacion": "Respecto a «Convenios y encomiendas de gestión (art. 6 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), la regulación vigente establece que: Asimismo, quedan excluidas del ámbito de la presente Ley las encomiendas de gestión reguladas en la legislación vigente en materia de régimen jurídico del sector público.",
+    "referencia": "Art. 6 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "Dentro de la materia «La revisión de precios en los contratos de obras: Procedencia y límites. Revisión en casos de demora en la ejecución. Pago del importe de la revisión. Procedimiento para la revisión de precios. Cobertura financiera y tramitación de los expedientes de revisión de precios. Práctica de la revisión de precios en contratos de obras. Relación de materiales básicos y las fórmulas-tipo generales de revisión de precios de los contratos de obras.» (Articulado de Ley de Contratos del Sector Público), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Asimismo, quedan excluidas del ámbito de la presente Ley las encomiendas de gestión reguladas en la legislación vigente en materia de régimen jurídico del sector público.»?",
+    "opciones": [
+      "Contrato de concesión de obras (art. 14 Ley de Contratos del Sector Público).",
+      "Convenios y encomiendas de gestión (art. 6 Ley de Contratos del Sector Público).",
+      "Contrato de servicios (art. 17 Ley de Contratos del Sector Público).",
+      "Contratos administrativos (art. 25 Ley de Contratos del Sector Público)."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («Asimismo, quedan excluidas del ámbito de la presente Ley las encomiendas de gestión reguladas en la legislación vigente en materia de régimen jurídico del sector público.») define o regula específicamente a «Convenios y encomiendas de gestión (art. 6 Ley de Contratos del Sector Público)» (Art. 6 de Ley de Contratos del Sector Público).",
+    "referencia": "Art. 6 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "En el ámbito de «La revisión de precios en los contratos de obras: Procedencia y límites. Revisión en casos de demora en la ejecución. Pago del importe de la revisión. Procedimiento para la revisión de precios. Cobertura financiera y tramitación de los expedientes de revisión de precios. Práctica de la revisión de precios en contratos de obras. Relación de materiales básicos y las fórmulas-tipo generales de revisión de precios de los contratos de obras.» (Articulado de Ley de Contratos del Sector Público), ¿qué establece la normativa respecto a «Otros negocios o contratos excluidos (art. 11 Ley de Contratos del Sector Público)»?",
+    "opciones": [
+      "El derecho de explotación de los servicios implicará la transferencia al concesionario del riesgo operacional, en los términos señalados en el apartado cuarto del artículo anterior.",
+      "Se entenderá por contrato mixto aquel que contenga prestaciones correspondientes a otro u otros de distinta clase.",
+      "La relación de servicio de los funcionarios públicos y los contratos regulados en la legislación laboral queda excluida del ámbito de la presente Ley.",
+      "En lo que respecta a su efectos, modificación y extinción, estos contratos se regirán por el derecho privado."
+    ],
+    "correcta": 2,
+    "explicacion": "Respecto a «Otros negocios o contratos excluidos (art. 11 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), la regulación vigente establece que: La relación de servicio de los funcionarios públicos y los contratos regulados en la legislación laboral queda excluida del ámbito de la presente Ley.",
+    "referencia": "Art. 11 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "Dentro de la materia «La revisión de precios en los contratos de obras: Procedencia y límites. Revisión en casos de demora en la ejecución. Pago del importe de la revisión. Procedimiento para la revisión de precios. Cobertura financiera y tramitación de los expedientes de revisión de precios. Práctica de la revisión de precios en contratos de obras. Relación de materiales básicos y las fórmulas-tipo generales de revisión de precios de los contratos de obras.» (Articulado de Ley de Contratos del Sector Público), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La relación de servicio de los funcionarios públicos y los contratos regulados en la legislación laboral queda excluida del ámbito de la presente Ley.»?",
+    "opciones": [
+      "Contrato de concesión de servicios (art. 15 Ley de Contratos del Sector Público).",
+      "Contratos mixtos (art. 18 Ley de Contratos del Sector Público).",
+      "Contratos privados (art. 26 Ley de Contratos del Sector Público).",
+      "Otros negocios o contratos excluidos (art. 11 Ley de Contratos del Sector Público)."
+    ],
+    "correcta": 3,
+    "explicacion": "Dicha determinación («La relación de servicio de los funcionarios públicos y los contratos regulados en la legislación laboral queda excluida del ámbito de la presente Ley.») define o regula específicamente a «Otros negocios o contratos excluidos (art. 11 Ley de Contratos del Sector Público)» (Art. 11 de Ley de Contratos del Sector Público).",
+    "referencia": "Art. 11 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "En el ámbito de «La revisión de precios en los contratos de obras: Procedencia y límites. Revisión en casos de demora en la ejecución. Pago del importe de la revisión. Procedimiento para la revisión de precios. Cobertura financiera y tramitación de los expedientes de revisión de precios. Práctica de la revisión de precios en contratos de obras. Relación de materiales básicos y las fórmulas-tipo generales de revisión de precios de los contratos de obras.» (Articulado de Ley de Contratos del Sector Público), ¿qué establece la normativa respecto a «Calificación de los contratos (art. 12 Ley de Contratos del Sector Público)»?",
+    "opciones": [
+      "Los restantes contratos del sector público se calificarán según las normas de derecho administrativo o de derecho privado que les sean de aplicación.",
+      "Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles.",
+      "Tendrán también la consideración de contratos sujetos a regulación armonizada los contratos subvencionados por estas entidades a los que se refiere el artículo 23.",
+      "Las partes deberán notificar su formalización al órgano que otorgó la subvención."
+    ],
+    "correcta": 0,
+    "explicacion": "Respecto a «Calificación de los contratos (art. 12 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), la regulación vigente establece que: Los restantes contratos del sector público se calificarán según las normas de derecho administrativo o de derecho privado que les sean de aplicación.",
+    "referencia": "Art. 12 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "Dentro de la materia «La revisión de precios en los contratos de obras: Procedencia y límites. Revisión en casos de demora en la ejecución. Pago del importe de la revisión. Procedimiento para la revisión de precios. Cobertura financiera y tramitación de los expedientes de revisión de precios. Práctica de la revisión de precios en contratos de obras. Relación de materiales básicos y las fórmulas-tipo generales de revisión de precios de los contratos de obras.» (Articulado de Ley de Contratos del Sector Público), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Los restantes contratos del sector público se calificarán según las normas de derecho administrativo o de derecho privado que les sean de aplicación.»?",
+    "opciones": [
+      "Contrato de suministro (art. 16 Ley de Contratos del Sector Público).",
+      "Calificación de los contratos (art. 12 Ley de Contratos del Sector Público).",
+      "Delimitación general (art. 19 Ley de Contratos del Sector Público).",
+      "Perfección de los contratos (art. 36 Ley de Contratos del Sector Público)."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («Los restantes contratos del sector público se calificarán según las normas de derecho administrativo o de derecho privado que les sean de aplicación.») define o regula específicamente a «Calificación de los contratos (art. 12 Ley de Contratos del Sector Público)» (Art. 12 de Ley de Contratos del Sector Público).",
+    "referencia": "Art. 12 de Ley de Contratos del Sector Público"
   }
 ]

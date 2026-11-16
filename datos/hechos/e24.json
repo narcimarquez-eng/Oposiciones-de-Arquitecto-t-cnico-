@@ -1,53 +1,5 @@
 [
   {
-    "pregunta": "¿Qué nivel de referencia de concentración de radón fija el DB-HS 6?",
-    "opciones": [
-      "300 Bq/m³ de promedio anual, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "300 Bq/m³ de promedio anual, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "300 Bq/m³ de promedio anual, computándose los plazos en días naturales y con sentido desestimatorio",
-      "300 Bq/m³ de promedio anual"
-    ],
-    "correcta": 3,
-    "explicacion": "Se establece un nivel de referencia de 300 Bq/m³ para el promedio anual de concentración de radón.",
-    "referencia": "CTE, DB-HS 6"
-  },
-  {
-    "pregunta": "¿Qué aislamiento acústico mínimo a ruido aéreo se exige entre un recinto protegido y otra unidad de uso colindante sin puertas ni ventanas compartidas?",
-    "opciones": [
-      "D2m,nT,Atr o DnT,A no menor que 50 dBA, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "D2m,nT,Atr o DnT,A no menor que 50 dBA, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "D2m,nT,Atr o DnT,A no menor que 50 dBA",
-      "D2m,nT,Atr o DnT,A no menor que 50 dBA, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "El aislamiento acústico a ruido aéreo no será menor que 50 dBA, siempre que no compartan puertas o ventanas.",
-    "referencia": "CTE, DB-HR, apartado 2.1"
-  },
-  {
-    "pregunta": "¿Qué nivel máximo de ruido de impactos L'nT,w se admite en un recinto protegido respecto de otra unidad de uso?",
-    "opciones": [
-      "65 dB, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "65 dB",
-      "65 dB, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "65 dB, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "El nivel global de presión de ruido de impactos no será mayor que 65 dB.",
-    "referencia": "CTE, DB-HR, apartado 2.1"
-  },
-  {
-    "pregunta": "¿Qué tiempo de reverberación máximo se admite en aulas vacías de menos de 350 m³?",
-    "opciones": [
-      "0,7 s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "0,7 s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "0,7 s",
-      "0,7 s, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "El tiempo de reverberación en aulas y salas de conferencias vacías de volumen menor de 350 m³ no será mayor que 0,7 s.",
-    "referencia": "CTE, DB-HR, apartado 2.2"
-  },
-  {
     "pregunta": "¿Qué instrumentos de la Ley del Ruido evalúan la exposición al ruido en una zona?",
     "opciones": [
       "Los planes de pensiones",
@@ -70,18 +22,6 @@
     "correcta": 3,
     "explicacion": "La Ley 37/2003 clasifica el territorio en áreas acústicas.",
     "referencia": "Ley 37/2003"
-  },
-  {
-    "pregunta": "¿Qué espacio de los edificios regula el DB-HS 2 para guardar los contenedores de residuos?",
-    "opciones": [
-      "El almacén de contenedores",
-      "El almacén de contenedores, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El almacén de contenedores, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El almacén de contenedores, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "El HS 2 regula el almacén de contenedores de edificio y el espacio de reserva.",
-    "referencia": "CTE, DB-HS 2"
   },
   {
     "pregunta": "¿Qué objetivo tiene el DB-HR?",
@@ -358,5 +298,65 @@
     "correcta": 1,
     "explicacion": "El artículo 102 de Ley de Gestión Integrada de la Calidad Ambiental de Andalucía (GICA — derogada por Ley 2/2026 LEGAM) («Obligaciones de los titulares de actividades de gestión de residuos») dispone literalmente: Esta documentación estará a disposición de la Consejería, a petición de la misma, y la referida a cada año natural deberá mantenerse durante los cinco años siguientes.",
     "referencia": "Art. 102 de Ley de Gestión Integrada de la Calidad Ambiental de Andalucía (GICA — derogada por Ley 2/2026 LEGAM)"
+  },
+  {
+    "pregunta": "En el ámbito de «Requisitos y exigencias básicas, según el CTE, de higiene, salud y protección del medio ambiente en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas y medidas preventivas.» (Articulado de Ley de Ordenación de la Edificación), ¿qué establece la normativa respecto a «Objeto (art. 1 Ley de Ordenación de la Edificación)»?",
+    "opciones": [
+      "La recepción de la obra es el acto por el cual el constructor, una vez concluida ésta, hace entrega de la misma al promotor y es aceptada por éste.",
+      "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica.",
+      "El proyectista es el agente que, por encargo del promotor y con sujeción a la normativa técnica y urbanística correspondiente, redacta el proyecto.",
+      "Se consideran suministradores de productos los fabricantes, almacenistas, importadores o vendedores de productos de construcción."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Objeto (art. 1 Ley de Ordenación de la Edificación)» (Articulado de Ley de Ordenación de la Edificación), la regulación vigente establece que: Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica.",
+    "referencia": "Art. 1 de Ley de Ordenación de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de higiene, salud y protección del medio ambiente en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas y medidas preventivas.» (Articulado de Ley de Ordenación de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica.»?",
+    "opciones": [
+      "Recepción de la obra (art. 6 Ley de Ordenación de la Edificación).",
+      "El proyectista (art. 10 Ley de Ordenación de la Edificación).",
+      "Objeto (art. 1 Ley de Ordenación de la Edificación).",
+      "Los suministradores de productos (art. 15 Ley de Ordenación de la Edificación)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica.») define o regula específicamente a «Objeto (art. 1 Ley de Ordenación de la Edificación)» (Art. 1 de Ley de Ordenación de la Edificación).",
+    "referencia": "Art. 1 de Ley de Ordenación de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Requisitos y exigencias básicas, según el CTE, de higiene, salud y protección del medio ambiente en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas y medidas preventivas.» (Articulado de Ley de Ordenación de la Edificación), ¿qué establece la normativa respecto a «Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación)»?",
+    "opciones": [
+      "Toda la documentación a que hace referencia los apartados anteriores, que constituirá el Libro del Edificio, será entregada a los usuarios finales del edificio.",
+      "Podrán dirigir las obras de los proyectos parciales otros técnicos, bajo la coordinación del director de obra.",
+      "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+      "De telecomunicaciones (referido a la ingeniería de las telecomunicaciones)."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación)» (Articulado de Ley de Ordenación de la Edificación), la regulación vigente establece que: De telecomunicaciones (referido a la ingeniería de las telecomunicaciones).",
+    "referencia": "Art. 2 de Ley de Ordenación de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de higiene, salud y protección del medio ambiente en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas y medidas preventivas.» (Articulado de Ley de Ordenación de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «De telecomunicaciones (referido a la ingeniería de las telecomunicaciones).»?",
+    "opciones": [
+      "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación).",
+      "Documentación de la obra ejecutada (art. 7 Ley de Ordenación de la Edificación).",
+      "El director de obra (art. 12 Ley de Ordenación de la Edificación).",
+      "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («De telecomunicaciones (referido a la ingeniería de las telecomunicaciones).») define o regula específicamente a «Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación)» (Art. 2 de Ley de Ordenación de la Edificación).",
+    "referencia": "Art. 2 de Ley de Ordenación de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Requisitos y exigencias básicas, según el CTE, de higiene, salud y protección del medio ambiente en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas y medidas preventivas.» (Articulado de Ley de Ordenación de la Edificación), ¿qué establece la normativa respecto a «Proyecto (art. 4 Ley de Ordenación de la Edificación)»?",
+    "opciones": [
+      "Son agentes de la edificación todas las personas, físicas o jurídicas, que intervienen en el proceso de la edificación.",
+      "El proyecto es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras contempladas en el artículo 2.",
+      "En caso de personas jurídicas, designar al técnico director de la ejecución de la obra que tenga la titulación profesional habilitante.",
+      "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Proyecto (art. 4 Ley de Ordenación de la Edificación)» (Articulado de Ley de Ordenación de la Edificación), la regulación vigente establece que: El proyecto es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras contempladas en el artículo 2.",
+    "referencia": "Art. 4 de Ley de Ordenación de la Edificación"
   }
 ]

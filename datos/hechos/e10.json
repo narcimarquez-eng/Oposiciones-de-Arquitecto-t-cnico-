@@ -1,53 +1,5 @@
 [
   {
-    "pregunta": "¿A partir de qué potencia térmica nominal exige el RITE un proyecto?",
-    "opciones": [
-      "Más de 70 kW",
-      "Más de 70 kW, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Más de 70 kW, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Más de 70 kW, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Cuando la potencia térmica nominal en generación de calor o frío sea mayor que 70 kW se requiere proyecto.",
-    "referencia": "RITE, art. 15.1"
-  },
-  {
-    "pregunta": "¿Qué locales de una vivienda deben disponer de aberturas de extracción?",
-    "opciones": [
-      "Aseos, cocinas y cuartos de baño, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Aseos, cocinas y cuartos de baño, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Aseos, cocinas y cuartos de baño",
-      "Aseos, cocinas y cuartos de baño, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Los aseos, las cocinas y los cuartos de baño deben disponer de aberturas de extracción.",
-    "referencia": "CTE, DB-HS 3"
-  },
-  {
-    "pregunta": "¿Qué elementos se emplean como aberturas de admisión en las carpinterías?",
-    "opciones": [
-      "Aireadores o dispositivos de microventilación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Aireadores o dispositivos de microventilación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Aireadores o dispositivos de microventilación",
-      "Aireadores o dispositivos de microventilación, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Como aberturas de admisión se disponen aireadores o aperturas fijas como los dispositivos de microventilación.",
-    "referencia": "CTE, DB-HS 3"
-  },
-  {
-    "pregunta": "¿Quién debe realizar el mantenimiento de las instalaciones térmicas según el RITE?",
-    "opciones": [
-      "Una empresa mantenedora habilitada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Una empresa mantenedora habilitada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Una empresa mantenedora habilitada",
-      "Una empresa mantenedora habilitada, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "El titular debe encargar el mantenimiento a una empresa mantenedora habilitada.",
-    "referencia": "RITE, art. 25"
-  },
-  {
     "pregunta": "¿Qué documento entrega la empresa instaladora con las instrucciones de seguridad, manejo y programas de funcionamiento de la instalación térmica?",
     "opciones": [
       "El Manual de Uso y Mantenimiento",
@@ -72,18 +24,6 @@
     "referencia": "RITE, art. 41"
   },
   {
-    "pregunta": "¿Qué sistema adicional exige el DB-HS 3 en las cocinas?",
-    "opciones": [
-      "Un sistema específico de extracción mecánica para los vapores y contaminantes de la cocción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Un sistema específico de extracción mecánica para los vapores y contaminantes de la cocción",
-      "Un sistema específico de extracción mecánica para los vapores y contaminantes de la cocción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Un sistema específico de extracción mecánica para los vapores y contaminantes de la cocción, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Las cocinas deben disponer de un sistema adicional específico de ventilación con extracción mecánica.",
-    "referencia": "CTE, DB-HS 3"
-  },
-  {
     "pregunta": "¿Qué unidad terminal emplea agua fría o caliente con un ventilador para climatizar un local?",
     "opciones": [
       "El fan-coil",
@@ -106,18 +46,6 @@
     "correcta": 3,
     "explicacion": "El recuperador transfiere energía entre el aire extraído y el aire nuevo.",
     "referencia": "Tema e10"
-  },
-  {
-    "pregunta": "¿Qué inspecciones periódicas regula el RITE para las instalaciones térmicas?",
-    "opciones": [
-      "Las inspecciones periódicas de eficiencia energética",
-      "Las inspecciones periódicas de eficiencia energética, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Las inspecciones periódicas de eficiencia energética, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Las inspecciones periódicas de eficiencia energética, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "El RITE regula las inspecciones periódicas de eficiencia energética de las instalaciones térmicas.",
-    "referencia": "RITE, art. 31"
   },
   {
     "pregunta": "En Reglamento de instalaciones térmicas en los edificios, ¿qué precepto establece literalmente: «La validez del certificado de mantenimiento expedido será como máximo de un año.»?",
@@ -177,18 +105,6 @@
     ],
     "correcta": 2,
     "explicacion": "Respecto a «Su periodicidad se fija en la IT 4.3» (Inspecciones de eficiencia energética), la regulación vigente establece que: Cada cuatro años para los sistemas de calefacción, de ventilación y de agua caliente sanitaria (IT 4.3.1), y también cada cuatro años para los de aire acondicionado y ventilación (IT 4.3.2).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
-    "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Inspecciones de eficiencia energética), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Cada cuatro años para los sistemas de calefacción, de ventilación y de agua caliente sanitaria (IT 4.3.1), y también cada cuatro años para los de aire acondicionado y ventilación (IT 4.3.2).»?",
-    "opciones": [
-      "Su periodicidad se fija en la IT 4.3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Su periodicidad se fija en la IT 4.3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Su periodicidad se fija en la IT 4.3, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Su periodicidad se fija en la IT 4.3."
-    ],
-    "correcta": 3,
-    "explicacion": "Dicha determinación («Cada cuatro años para los sistemas de calefacción, de ventilación y de agua caliente sanitaria (IT 4.3.1), y también cada cuatro años para los de aire acondicionado y ventilación (IT 4.3.2).») define o regula específicamente a «Su periodicidad se fija en la IT 4.3» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
@@ -312,18 +228,6 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos básicos del CTE en la calidad del aire), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El aire debe circular desde los locales menos contaminados hacia los más contaminados, para que los olores y la humedad de la cocina y de los baños no pasen a los dormitorios y a las salas de estar.»?",
-    "opciones": [
-      "La segunda es la dirección del flujo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La segunda es la dirección del flujo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La segunda es la dirección del flujo.",
-      "La segunda es la dirección del flujo, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Dicha determinación («El aire debe circular desde los locales menos contaminados hacia los más contaminados, para que los olores y la humedad de la cocina y de los baños no pasen a los dormitorios y a las salas de estar.») define o regula específicamente a «La segunda es la dirección del flujo» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
     "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ventilación de las viviendas: sistema general), ¿qué establece la normativa respecto a «La regla de la circulación del aire es la que se estudia en un supuesto práctico»?",
     "opciones": [
       "Corresponde a cada asunto, y esta estructura facilita la respuesta.",
@@ -333,18 +237,6 @@
     ],
     "correcta": 3,
     "explicacion": "Respecto a «La regla de la circulación del aire es la que se estudia en un supuesto práctico» (Ventilación de las viviendas: sistema general), la regulación vigente establece que: El aire debe entrar por los locales secos y salir por los húmedos, sin cortocircuitos.",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
-    "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ventilación de las viviendas: sistema general), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El aire debe entrar por los locales secos y salir por los húmedos, sin cortocircuitos.»?",
-    "opciones": [
-      "La regla de la circulación del aire es la que se estudia en un supuesto práctico.",
-      "La regla de la circulación del aire es la que se estudia en un supuesto práctico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La regla de la circulación del aire es la que se estudia en un supuesto práctico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La regla de la circulación del aire es la que se estudia en un supuesto práctico, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Dicha determinación («El aire debe entrar por los locales secos y salir por los húmedos, sin cortocircuitos.») define o regula específicamente a «La regla de la circulación del aire es la que se estudia en un supuesto práctico» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
@@ -358,5 +250,113 @@
     "correcta": 1,
     "explicacion": "Respecto a «El caudal mínimo en total» (Caudales mínimos de ventilación de las viviendas), la regulación vigente establece que: Es de 12 l/s en viviendas de 0 o 1 dormitorios, de 24 l/s en las de 2 dormitorios y de 33 l/s en las de 3 o más.",
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.»?",
+    "opciones": [
+      "Remisión a normas (art. 5 Reglamento de instalaciones térmicas en los edificios).",
+      "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+      "Bienestar e higiene (art. 11 Reglamento de instalaciones térmicas en los edificios).",
+      "Generalidades (art. 19 Reglamento de instalaciones térmicas en los edificios)."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.») define o regula específicamente a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Art. 15 de Código Técnico de la Edificación).",
+    "referencia": "Art. 15 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento de instalaciones térmicas en los edificios), ¿qué establece la normativa respecto a «Ámbito de aplicación (art. 2 Reglamento de instalaciones térmicas en los edificios)»?",
+    "opciones": [
+      "Las instalaciones objeto del RITE deben cumplir, asimismo, con los demás reglamentos que estén vigentes y que le sean de aplicación.",
+      "Cuando se precise proyecto, éste debe ser redactado y firmado por técnico titulado competente.",
+      "Se entenderá por reforma de una instalación térmica todo cambio que se efectúe en ella y que suponga una modificación del proyecto o memoria técnica con el que fue ejecutada y registrada.",
+      "Se pondrá en conocimiento del responsable de mantenimiento cualquier anomalía que se observe en el funcionamiento normal de las instalaciones térmicas."
+    ],
+    "correcta": 2,
+    "explicacion": "Respecto a «Ámbito de aplicación (art. 2 Reglamento de instalaciones térmicas en los edificios)» (Articulado de Reglamento de instalaciones térmicas en los edificios), la regulación vigente establece que: Se entenderá por reforma de una instalación térmica todo cambio que se efectúe en ella y que suponga una modificación del proyecto o memoria técnica con el que fue ejecutada y registrada.",
+    "referencia": "Art. 2 de Reglamento de instalaciones térmicas en los edificios"
+  },
+  {
+    "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento de instalaciones térmicas en los edificios), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se entenderá por reforma de una instalación térmica todo cambio que se efectúe en ella y que suponga una modificación del proyecto o memoria técnica con el que fue ejecutada y registrada.»?",
+    "opciones": [
+      "Otra reglamentación aplicable (art. 8 Reglamento de instalaciones térmicas en los edificios).",
+      "Proyecto (art. 16 Reglamento de instalaciones térmicas en los edificios).",
+      "Titulares y usuarios (art. 25 Reglamento de instalaciones térmicas en los edificios).",
+      "Ámbito de aplicación (art. 2 Reglamento de instalaciones térmicas en los edificios)."
+    ],
+    "correcta": 3,
+    "explicacion": "Dicha determinación («Se entenderá por reforma de una instalación térmica todo cambio que se efectúe en ella y que suponga una modificación del proyecto o memoria técnica con el que fue ejecutada y registrada.») define o regula específicamente a «Ámbito de aplicación (art. 2 Reglamento de instalaciones térmicas en los edificios)» (Art. 2 de Reglamento de instalaciones térmicas en los edificios).",
+    "referencia": "Art. 2 de Reglamento de instalaciones térmicas en los edificios"
+  },
+  {
+    "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento de instalaciones térmicas en los edificios), ¿qué establece la normativa respecto a «Contenido del RITE (art. 4 Reglamento de instalaciones térmicas en los edificios)»?",
+    "opciones": [
+      "Con el fin de facilitar su comprensión y utilización, el RITE se ordena en dos partes: 1.",
+      "A efectos de la aplicación del RITE, los términos que figuran en él deben utilizarse conforme al significado y a las condiciones que se establecen para cada uno de ellos en el apéndice 1.",
+      "Se explicitarán los parámetros de diseño elegidos.",
+      "La validez del certificado de mantenimiento expedido será como máximo de un año."
+    ],
+    "correcta": 0,
+    "explicacion": "Respecto a «Contenido del RITE (art. 4 Reglamento de instalaciones térmicas en los edificios)» (Articulado de Reglamento de instalaciones térmicas en los edificios), la regulación vigente establece que: Con el fin de facilitar su comprensión y utilización, el RITE se ordena en dos partes: 1.",
+    "referencia": "Art. 4 de Reglamento de instalaciones térmicas en los edificios"
+  },
+  {
+    "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento de instalaciones térmicas en los edificios), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Con el fin de facilitar su comprensión y utilización, el RITE se ordena en dos partes: 1.»?",
+    "opciones": [
+      "Términos y definiciones (art. 9 Reglamento de instalaciones térmicas en los edificios).",
+      "Contenido del RITE (art. 4 Reglamento de instalaciones térmicas en los edificios).",
+      "Memoria técnica (art. 17 Reglamento de instalaciones térmicas en los edificios).",
+      "Certificado de mantenimiento (art. 28 Reglamento de instalaciones térmicas en los edificios)."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («Con el fin de facilitar su comprensión y utilización, el RITE se ordena en dos partes: 1.») define o regula específicamente a «Contenido del RITE (art. 4 Reglamento de instalaciones térmicas en los edificios)» (Art. 4 de Reglamento de instalaciones térmicas en los edificios).",
+    "referencia": "Art. 4 de Reglamento de instalaciones térmicas en los edificios"
+  },
+  {
+    "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento de instalaciones térmicas en los edificios), ¿qué establece la normativa respecto a «Remisión a normas (art. 5 Reglamento de instalaciones térmicas en los edificios)»?",
+    "opciones": [
+      "Higiene: las instalaciones térmicas permitirán proporcionar una dotación de agua caliente sanitaria, en condiciones adecuadas, para la higiene de las personas.",
+      "La ejecución de las instalaciones sujetas a este RITE se realizará por empresas instaladoras habilitadas.",
+      "En el apéndice 2 se recoge el listado de todas las normas de referencia citadas en el texto del RITE, identificadas por su título, numeración y año de edición.",
+      "Las instalaciones térmicas se inspeccionarán con el fin de verificar el cumplimiento reglamentario."
+    ],
+    "correcta": 2,
+    "explicacion": "Respecto a «Remisión a normas (art. 5 Reglamento de instalaciones térmicas en los edificios)» (Articulado de Reglamento de instalaciones térmicas en los edificios), la regulación vigente establece que: En el apéndice 2 se recoge el listado de todas las normas de referencia citadas en el texto del RITE, identificadas por su título, numeración y año de edición.",
+    "referencia": "Art. 5 de Reglamento de instalaciones térmicas en los edificios"
+  },
+  {
+    "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento de instalaciones térmicas en los edificios), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En el apéndice 2 se recoge el listado de todas las normas de referencia citadas en el texto del RITE, identificadas por su título, numeración y año de edición.»?",
+    "opciones": [
+      "Bienestar e higiene (art. 11 Reglamento de instalaciones térmicas en los edificios).",
+      "Generalidades (art. 19 Reglamento de instalaciones térmicas en los edificios).",
+      "Generalidades (art. 29 Reglamento de instalaciones térmicas en los edificios).",
+      "Remisión a normas (art. 5 Reglamento de instalaciones térmicas en los edificios)."
+    ],
+    "correcta": 3,
+    "explicacion": "Dicha determinación («En el apéndice 2 se recoge el listado de todas las normas de referencia citadas en el texto del RITE, identificadas por su título, numeración y año de edición.») define o regula específicamente a «Remisión a normas (art. 5 Reglamento de instalaciones térmicas en los edificios)» (Art. 5 de Reglamento de instalaciones térmicas en los edificios).",
+    "referencia": "Art. 5 de Reglamento de instalaciones térmicas en los edificios"
+  },
+  {
+    "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento de instalaciones térmicas en los edificios), ¿qué establece la normativa respecto a «Otra reglamentación aplicable (art. 8 Reglamento de instalaciones térmicas en los edificios)»?",
+    "opciones": [
+      "Las instalaciones objeto del RITE deben cumplir, asimismo, con los demás reglamentos que estén vigentes y que le sean de aplicación.",
+      "Cuando se precise proyecto, éste debe ser redactado y firmado por técnico titulado competente.",
+      "Se pondrá en conocimiento del responsable de mantenimiento cualquier anomalía que se observe en el funcionamiento normal de las instalaciones térmicas.",
+      "La presentación de dicha declaración responsable habilita para el ejercicio de la actividad en todo el territorio español y se podrá adaptar al modelo establecido en el apéndice 5 de este reglamento."
+    ],
+    "correcta": 0,
+    "explicacion": "Respecto a «Otra reglamentación aplicable (art. 8 Reglamento de instalaciones térmicas en los edificios)» (Articulado de Reglamento de instalaciones térmicas en los edificios), la regulación vigente establece que: Las instalaciones objeto del RITE deben cumplir, asimismo, con los demás reglamentos que estén vigentes y que le sean de aplicación.",
+    "referencia": "Art. 8 de Reglamento de instalaciones térmicas en los edificios"
+  },
+  {
+    "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento de instalaciones térmicas en los edificios), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las instalaciones objeto del RITE deben cumplir, asimismo, con los demás reglamentos que estén vigentes y que le sean de aplicación.»?",
+    "opciones": [
+      "Proyecto (art. 16 Reglamento de instalaciones térmicas en los edificios).",
+      "Otra reglamentación aplicable (art. 8 Reglamento de instalaciones térmicas en los edificios).",
+      "Titulares y usuarios (art. 25 Reglamento de instalaciones térmicas en los edificios).",
+      "Libre prestación (art. 38 Reglamento de instalaciones térmicas en los edificios)."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («Las instalaciones objeto del RITE deben cumplir, asimismo, con los demás reglamentos que estén vigentes y que le sean de aplicación.») define o regula específicamente a «Otra reglamentación aplicable (art. 8 Reglamento de instalaciones térmicas en los edificios)» (Art. 8 de Reglamento de instalaciones térmicas en los edificios).",
+    "referencia": "Art. 8 de Reglamento de instalaciones térmicas en los edificios"
   }
 ]

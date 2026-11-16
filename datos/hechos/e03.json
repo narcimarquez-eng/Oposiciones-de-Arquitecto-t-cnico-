@@ -1,17 +1,5 @@
 [
   {
-    "pregunta": "¿Qué sistema depura las aguas residuales en zonas sin red municipal?",
-    "opciones": [
-      "Fosa séptica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Fosa séptica",
-      "Fosa séptica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Fosa séptica, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "La fosa séptica realiza un tratamiento primario de aguas residuales en zonas sin red.",
-    "referencia": "Tema e03"
-  },
-  {
     "pregunta": "¿Para qué se disponen cierres hidráulicos en la red de evacuación?",
     "opciones": [
       "Para aumentar la presión del agua potable",
@@ -22,102 +10,6 @@
     "correcta": 2,
     "explicacion": "Deben disponerse cierres hidráulicos que impidan el paso del aire contenido en la instalación a los locales ocupados.",
     "referencia": "CTE, DB-HS 5, apartado 2"
-  },
-  {
-    "pregunta": "¿En qué edificios es suficiente la ventilación primaria como único sistema?",
-    "opciones": [
-      "En edificios de menos de 7 plantas (o de menos de 11 con bajante sobredimensionada), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "En edificios de menos de 7 plantas (o de menos de 11 con bajante sobredimensionada), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "En edificios de menos de 7 plantas (o de menos de 11 con bajante sobredimensionada)",
-      "En edificios de menos de 7 plantas (o de menos de 11 con bajante sobredimensionada), computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "La ventilación primaria se considera suficiente en edificios con menos de 7 plantas, o menos de 11 si la bajante está sobredimensionada.",
-    "referencia": "CTE, DB-HS 5, apartado 3.3.3.1"
-  },
-  {
-    "pregunta": "¿Cuándo debe disponerse un separador de grasas en la red de saneamiento?",
-    "opciones": [
-      "Cuando las aguas residuales puedan transportar una cantidad excesiva de grasa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Cuando las aguas residuales puedan transportar una cantidad excesiva de grasa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Cuando las aguas residuales puedan transportar una cantidad excesiva de grasa",
-      "Cuando las aguas residuales puedan transportar una cantidad excesiva de grasa, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "El separador de grasas se dispone cuando se prevé que las aguas transporten una cantidad excesiva de grasa.",
-    "referencia": "CTE, DB-HS 5, apartado 3.3.1.5"
-  },
-  {
-    "pregunta": "¿Cuándo debe disponerse una arqueta de trasdós?",
-    "opciones": [
-      "Cuando llega al pozo general del edificio más de un colector",
-      "Cuando llega al pozo general del edificio más de un colector, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Cuando llega al pozo general del edificio más de un colector, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Cuando llega al pozo general del edificio más de un colector, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "La arqueta de trasdós se dispone cuando llega más de un colector al pozo general.",
-    "referencia": "CTE, DB-HS 5, apartado 3.3.1.5"
-  },
-  {
-    "pregunta": "¿Qué pendiente mínima debe tener el fondo del tanque de un sistema de bombeo de aguas residuales?",
-    "opciones": [
-      "25 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "25 %",
-      "25 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "25 %, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "El fondo del tanque debe tener una pendiente mínima del 25 %.",
-    "referencia": "CTE, DB-HS 5, apartado 5.5"
-  },
-  {
-    "pregunta": "¿Qué material es habitual en los colectores enterrados de saneamiento de edificios?",
-    "opciones": [
-      "El PVC, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El PVC, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El PVC, computándose los plazos en días naturales y con sentido desestimatorio",
-      "El PVC"
-    ],
-    "correcta": 3,
-    "explicacion": "El PVC es habitual en colectores y bajantes por su durabilidad y ligereza.",
-    "referencia": "Tema e03"
-  },
-  {
-    "pregunta": "¿Qué elemento recoge el agua de lluvia en patios y terrazas?",
-    "opciones": [
-      "El sumidero, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El sumidero, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El sumidero, computándose los plazos en días naturales y con sentido desestimatorio",
-      "El sumidero"
-    ],
-    "correcta": 3,
-    "explicacion": "Los sumideros recogen el agua en superficies horizontales y la conducen a la red.",
-    "referencia": "Tema e03"
-  },
-  {
-    "pregunta": "¿Qué elemento permite acceder a la red de alcantarillado para su inspección y limpieza?",
-    "opciones": [
-      "El pozo de registro, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El pozo de registro",
-      "El pozo de registro, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El pozo de registro, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Los pozos de registro permiten el acceso a la red para su mantenimiento.",
-    "referencia": "Tema e03"
-  },
-  {
-    "pregunta": "¿Qué dispositivo evita que el agua de la red pública inunde los sótanos en caso de entrada en carga?",
-    "opciones": [
-      "La válvula antirretorno de saneamiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La válvula antirretorno de saneamiento",
-      "La válvula antirretorno de saneamiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La válvula antirretorno de saneamiento, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Las válvulas antirretorno impiden el reflujo desde la red pública.",
-    "referencia": "Tema e03"
   },
   {
     "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué es el saneamiento y cómo se ordena), ¿qué establece la normativa respecto a «El Código Técnico de la Edificación»?",
@@ -228,18 +120,6 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Elementos que componen la instalación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las tuberías horizontales que recogen las bajantes y conducen el agua hasta la arqueta general.»?",
-    "opciones": [
-      "Los colectores, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Los colectores, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Los colectores, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Los colectores."
-    ],
-    "correcta": 3,
-    "explicacion": "Dicha determinación («Son las tuberías horizontales que recogen las bajantes y conducen el agua hasta la arqueta general.») define o regula específicamente a «Los colectores» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
     "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución de la instalación), ¿qué establece la normativa respecto a «Los puntos de captación se ejecutan según el apartado 5.1»?",
     "opciones": [
       "Válvulas de desagüe, sifones individuales y botes sifónicos, calderetas o cazoletas y sumideros, y canalones (DB-HS 5, apartados 5.1.1 a 5.1.4).",
@@ -249,18 +129,6 @@
     ],
     "correcta": 0,
     "explicacion": "Respecto a «Los puntos de captación se ejecutan según el apartado 5.1» (Ejecución de la instalación), la regulación vigente establece que: Válvulas de desagüe, sifones individuales y botes sifónicos, calderetas o cazoletas y sumideros, y canalones (DB-HS 5, apartados 5.1.1 a 5.1.4).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
-    "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución de la instalación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Válvulas de desagüe, sifones individuales y botes sifónicos, calderetas o cazoletas y sumideros, y canalones (DB-HS 5, apartados 5.1.1 a 5.1.4).»?",
-    "opciones": [
-      "Los puntos de captación se ejecutan según el apartado 5.1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Los puntos de captación se ejecutan según el apartado 5.1.",
-      "Los puntos de captación se ejecutan según el apartado 5.1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Los puntos de captación se ejecutan según el apartado 5.1, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Dicha determinación («Válvulas de desagüe, sifones individuales y botes sifónicos, calderetas o cazoletas y sumideros, y canalones (DB-HS 5, apartados 5.1.1 a 5.1.4).») define o regula específicamente a «Los puntos de captación se ejecutan según el apartado 5.1» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
@@ -276,18 +144,6 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución de la instalación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es que las uniones, los entronques y las derivaciones se controlan al 100 % en la prueba de estanqueidad (apartado 5.6.1, punto 6).»?",
-    "opciones": [
-      "Una regla de ejecución que se repite en la práctica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Una regla de ejecución que se repite en la práctica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Una regla de ejecución que se repite en la práctica, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Una regla de ejecución que se repite en la práctica."
-    ],
-    "correcta": 3,
-    "explicacion": "Dicha determinación («Es que las uniones, los entronques y las derivaciones se controlan al 100 % en la prueba de estanqueidad (apartado 5.6.1, punto 6).») define o regula específicamente a «Una regla de ejecución que se repite en la práctica» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
     "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Uso, conservación y mantenimiento), ¿qué establece la normativa respecto a «La primera regla»?",
     "opciones": [
       "Es comprobar periódicamente la estanqueidad general de la red, la existencia de olores y el estado del resto de elementos (apartado 7, punto 1).",
@@ -297,18 +153,6 @@
     ],
     "correcta": 0,
     "explicacion": "Respecto a «La primera regla» (Uso, conservación y mantenimiento), la regulación vigente establece que: Es comprobar periódicamente la estanqueidad general de la red, la existencia de olores y el estado del resto de elementos (apartado 7, punto 1).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
-    "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Uso, conservación y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es comprobar periódicamente la estanqueidad general de la red, la existencia de olores y el estado del resto de elementos (apartado 7, punto 1).»?",
-    "opciones": [
-      "La primera regla, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La primera regla.",
-      "La primera regla, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La primera regla, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Dicha determinación («Es comprobar periódicamente la estanqueidad general de la red, la existencia de olores y el estado del resto de elementos (apartado 7, punto 1).») define o regula específicamente a «La primera regla» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
@@ -324,18 +168,6 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Uso, conservación y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la que permite detectar a tiempo un fallo que, si se deja avanzar, afecta al forjado o a la red enterrada.»?",
-    "opciones": [
-      "Esa comunicación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Esa comunicación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Esa comunicación, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Esa comunicación."
-    ],
-    "correcta": 3,
-    "explicacion": "Dicha determinación («Es la que permite detectar a tiempo un fallo que, si se deja avanzar, afecta al forjado o a la red enterrada.») define o regula específicamente a «Esa comunicación» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
     "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Criterios de medición y factores del precio), ¿qué establece la normativa respecto a «El saneamiento se mide por unidades de obra»?",
     "opciones": [
       "Metros lineales de tubería por diámetro y material, con las piezas especiales y las conexiones.",
@@ -348,15 +180,183 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Criterios de medición y factores del precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Metros lineales de tubería por diámetro y material, con las piezas especiales y las conexiones.»?",
+    "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Generalidades (art. 9 Código Técnico de la Edificación)»?",
     "opciones": [
-      "El saneamiento se mide por unidades de obra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El saneamiento se mide por unidades de obra.",
-      "El saneamiento se mide por unidades de obra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El saneamiento se mide por unidades de obra, computándose los plazos en días naturales y con sentido desestimatorio"
+      "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+      "Específicamente podrá establecerse el sometimiento de estos procesos u operaciones a trámites de control administrativo, así como, en el caso de agentes peligrosos, la prohibición de su empleo.",
+      "La formación se podrá impartir por la empresa mediante medios propios o concertándola con servicios ajenos, y su coste no recaerá en ningún caso sobre los trabajadores.",
+      "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Generalidades (art. 9 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+    "referencia": "Art. 9 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.»?",
+    "opciones": [
+      "Generalidades (art. 9 Código Técnico de la Edificación).",
+      "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+      "Normas reglamentarias (art. 6 Ley de Prevención de Riesgos Laborales).",
+      "Formación de los trabajadores (art. 19 Ley de Prevención de Riesgos Laborales)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.») define o regula específicamente a «Generalidades (art. 9 Código Técnico de la Edificación)» (Art. 9 de Código Técnico de la Edificación).",
+    "referencia": "Art. 9 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)»?",
+    "opciones": [
+      "La presente Ley no será de aplicación en aquellas actividades cuyas particularidades lo impidan en el ámbito de las funciones públicas de: –Policía, seguridad y resguardo aduanero.",
+      "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+      "Corresponde a la Inspección de Trabajo y Seguridad Social la función de la vigilancia y control de la normativa sobre prevención de riesgos laborales.",
+      "El citado personal deberá poseer la formación necesaria, ser suficiente en número y disponer del material adecuado, en función de las circunstancias antes señaladas."
     ],
     "correcta": 1,
-    "explicacion": "Dicha determinación («Metros lineales de tubería por diámetro y material, con las piezas especiales y las conexiones.») define o regula específicamente a «El saneamiento se mide por unidades de obra» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    "explicacion": "Respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+    "referencia": "Art. 10 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.»?",
+    "opciones": [
+      "Ambito de aplicación (art. 3 Ley de Prevención de Riesgos Laborales).",
+      "Inspección de Trabajo y Seguridad Social (art. 9 Ley de Prevención de Riesgos Laborales).",
+      "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+      "Medidas de emergencia (art. 20 Ley de Prevención de Riesgos Laborales)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.») define o regula específicamente a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Art. 10 de Código Técnico de la Edificación).",
+    "referencia": "Art. 10 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)»?",
+    "opciones": [
+      "2.º Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
+      "El empresario tomará en consideración las capacidades profesionales de los trabajadores en materia de seguridad y de salud en el momento de encomendarles las tareas.",
+      "El empresario garantizará a los trabajadores a su servicio la vigilancia periódica de su estado de salud en función de los riesgos inherentes al trabajo.",
+      "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+    "referencia": "Art. 15 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.»?",
+    "opciones": [
+      "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+      "Definiciones (art. 4 Ley de Prevención de Riesgos Laborales).",
+      "Principios de la acción preventiva (art. 15 Ley de Prevención de Riesgos Laborales).",
+      "Vigilancia de la salud (art. 22 Ley de Prevención de Riesgos Laborales)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.») define o regula específicamente a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Art. 15 de Código Técnico de la Edificación).",
+    "referencia": "Art. 15 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Disposiciones mínimas de seguridad y salud en las obras de construcción), ¿qué establece la normativa respecto a «Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción)»?",
+    "opciones": [
+      "Específicamente podrá establecerse el sometimiento de estos procesos u operaciones a trámites de control administrativo, así como, en el caso de agentes peligrosos, la prohibición de su empleo.",
+      "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+      "La formación se podrá impartir por la empresa mediante medios propios o concertándola con servicios ajenos, y su coste no recaerá en ningún caso sobre los trabajadores.",
+      "En estos casos el empresario realizará, además, la notificación a que se refiere el apartado 3 del presente artículo."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción)» (Articulado de Disposiciones mínimas de seguridad y salud en las obras de construcción), la regulación vigente establece que: Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+    "referencia": "Art. 2 de Disposiciones mínimas de seguridad y salud en las obras de construcción"
+  },
+  {
+    "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Disposiciones mínimas de seguridad y salud en las obras de construcción), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.»?",
+    "opciones": [
+      "Normas reglamentarias (art. 6 Ley de Prevención de Riesgos Laborales).",
+      "Formación de los trabajadores (art. 19 Ley de Prevención de Riesgos Laborales).",
+      "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+      "Documentación (art. 23 Ley de Prevención de Riesgos Laborales)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.») define o regula específicamente a «Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción)» (Art. 2 de Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+    "referencia": "Art. 2 de Disposiciones mínimas de seguridad y salud en las obras de construcción"
+  },
+  {
+    "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Ley de Prevención de Riesgos Laborales), ¿qué establece la normativa respecto a «Ambito de aplicación (art. 3 Ley de Prevención de Riesgos Laborales)»?",
+    "opciones": [
+      "Corresponde a la Inspección de Trabajo y Seguridad Social la función de la vigilancia y control de la normativa sobre prevención de riesgos laborales.",
+      "El citado personal deberá poseer la formación necesaria, ser suficiente en número y disponer del material adecuado, en función de las circunstancias antes señaladas.",
+      "Cuando en un mismo centro de trabajo desarrollen actividades trabajadores de dos o más empresas, éstas deberán cooperar en la aplicación de la normativa sobre prevención de riesgos laborales.",
+      "La presente Ley no será de aplicación en aquellas actividades cuyas particularidades lo impidan en el ámbito de las funciones públicas de: –Policía, seguridad y resguardo aduanero."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Ambito de aplicación (art. 3 Ley de Prevención de Riesgos Laborales)» (Articulado de Ley de Prevención de Riesgos Laborales), la regulación vigente establece que: La presente Ley no será de aplicación en aquellas actividades cuyas particularidades lo impidan en el ámbito de las funciones públicas de: –Policía, seguridad y resguardo aduanero.",
+    "referencia": "Art. 3 de Ley de Prevención de Riesgos Laborales"
+  },
+  {
+    "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Ley de Prevención de Riesgos Laborales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La presente Ley no será de aplicación en aquellas actividades cuyas particularidades lo impidan en el ámbito de las funciones públicas de: –Policía, seguridad y resguardo aduanero.»?",
+    "opciones": [
+      "Ambito de aplicación (art. 3 Ley de Prevención de Riesgos Laborales).",
+      "Inspección de Trabajo y Seguridad Social (art. 9 Ley de Prevención de Riesgos Laborales).",
+      "Medidas de emergencia (art. 20 Ley de Prevención de Riesgos Laborales).",
+      "Coordinación de actividades empresariales (art. 24 Ley de Prevención de Riesgos Laborales)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («La presente Ley no será de aplicación en aquellas actividades cuyas particularidades lo impidan en el ámbito de las funciones públicas de: –Policía, seguridad y resguardo aduanero.») define o regula específicamente a «Ambito de aplicación (art. 3 Ley de Prevención de Riesgos Laborales)» (Art. 3 de Ley de Prevención de Riesgos Laborales).",
+    "referencia": "Art. 3 de Ley de Prevención de Riesgos Laborales"
+  },
+  {
+    "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Ley de Prevención de Riesgos Laborales), ¿qué establece la normativa respecto a «Definiciones (art. 4 Ley de Prevención de Riesgos Laborales)»?",
+    "opciones": [
+      "El empresario tomará en consideración las capacidades profesionales de los trabajadores en materia de seguridad y de salud en el momento de encomendarles las tareas.",
+      "2.º Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
+      "El empresario garantizará a los trabajadores a su servicio la vigilancia periódica de su estado de salud en función de los riesgos inherentes al trabajo.",
+      "Dichas medidas incluirán, cuando resulte necesario, la no realización de trabajo nocturno o de trabajo a turnos."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Definiciones (art. 4 Ley de Prevención de Riesgos Laborales)» (Articulado de Ley de Prevención de Riesgos Laborales), la regulación vigente establece que: 2.º Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
+    "referencia": "Art. 4 de Ley de Prevención de Riesgos Laborales"
+  },
+  {
+    "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Ley de Prevención de Riesgos Laborales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «2.º Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.»?",
+    "opciones": [
+      "Principios de la acción preventiva (art. 15 Ley de Prevención de Riesgos Laborales).",
+      "Vigilancia de la salud (art. 22 Ley de Prevención de Riesgos Laborales).",
+      "Definiciones (art. 4 Ley de Prevención de Riesgos Laborales).",
+      "Protección de la maternidad (art. 26 Ley de Prevención de Riesgos Laborales)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («2.º Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.») define o regula específicamente a «Definiciones (art. 4 Ley de Prevención de Riesgos Laborales)» (Art. 4 de Ley de Prevención de Riesgos Laborales).",
+    "referencia": "Art. 4 de Ley de Prevención de Riesgos Laborales"
+  },
+  {
+    "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Ley de Prevención de Riesgos Laborales), ¿qué establece la normativa respecto a «Normas reglamentarias (art. 6 Ley de Prevención de Riesgos Laborales)»?",
+    "opciones": [
+      "La formación se podrá impartir por la empresa mediante medios propios o concertándola con servicios ajenos, y su coste no recaerá en ningún caso sobre los trabajadores.",
+      "En estos casos el empresario realizará, además, la notificación a que se refiere el apartado 3 del presente artículo.",
+      "Teniendo en cuenta los factores anteriormente señalados, el Gobierno establecerá las limitaciones a la contratación de jóvenes menores de dieciocho años en trabajos que presenten riesgos específicos.",
+      "Específicamente podrá establecerse el sometimiento de estos procesos u operaciones a trámites de control administrativo, así como, en el caso de agentes peligrosos, la prohibición de su empleo."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Normas reglamentarias (art. 6 Ley de Prevención de Riesgos Laborales)» (Articulado de Ley de Prevención de Riesgos Laborales), la regulación vigente establece que: Específicamente podrá establecerse el sometimiento de estos procesos u operaciones a trámites de control administrativo, así como, en el caso de agentes peligrosos, la prohibición de su empleo.",
+    "referencia": "Art. 6 de Ley de Prevención de Riesgos Laborales"
+  },
+  {
+    "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Ley de Prevención de Riesgos Laborales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Específicamente podrá establecerse el sometimiento de estos procesos u operaciones a trámites de control administrativo, así como, en el caso de agentes peligrosos, la prohibición de su empleo.»?",
+    "opciones": [
+      "Normas reglamentarias (art. 6 Ley de Prevención de Riesgos Laborales).",
+      "Formación de los trabajadores (art. 19 Ley de Prevención de Riesgos Laborales).",
+      "Documentación (art. 23 Ley de Prevención de Riesgos Laborales).",
+      "Protección de los menores (art. 27 Ley de Prevención de Riesgos Laborales)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Específicamente podrá establecerse el sometimiento de estos procesos u operaciones a trámites de control administrativo, así como, en el caso de agentes peligrosos, la prohibición de su empleo.») define o regula específicamente a «Normas reglamentarias (art. 6 Ley de Prevención de Riesgos Laborales)» (Art. 6 de Ley de Prevención de Riesgos Laborales).",
+    "referencia": "Art. 6 de Ley de Prevención de Riesgos Laborales"
+  },
+  {
+    "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Ley de Prevención de Riesgos Laborales), ¿qué establece la normativa respecto a «Inspección de Trabajo y Seguridad Social (art. 9 Ley de Prevención de Riesgos Laborales)»?",
+    "opciones": [
+      "El citado personal deberá poseer la formación necesaria, ser suficiente en número y disponer del material adecuado, en función de las circunstancias antes señaladas.",
+      "Corresponde a la Inspección de Trabajo y Seguridad Social la función de la vigilancia y control de la normativa sobre prevención de riesgos laborales.",
+      "Cuando en un mismo centro de trabajo desarrollen actividades trabajadores de dos o más empresas, éstas deberán cooperar en la aplicación de la normativa sobre prevención de riesgos laborales.",
+      "Para el establecimiento de estos servicios en las Administraciones públicas se tendrá en cuenta su estructura organizativa y la existencia, en su caso, de ámbitos sectoriales y descentralizados."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Inspección de Trabajo y Seguridad Social (art. 9 Ley de Prevención de Riesgos Laborales)» (Articulado de Ley de Prevención de Riesgos Laborales), la regulación vigente establece que: Corresponde a la Inspección de Trabajo y Seguridad Social la función de la vigilancia y control de la normativa sobre prevención de riesgos laborales.",
+    "referencia": "Art. 9 de Ley de Prevención de Riesgos Laborales"
   }
 ]

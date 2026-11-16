@@ -1,65 +1,5 @@
 [
   {
-    "pregunta": "¿Por qué razones pueden modificarse los contratos de las Administraciones públicas?",
-    "opciones": [
-      "Solo por razones de interés público, en los casos y forma previstos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Solo por razones de interés público, en los casos y forma previstos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Solo por razones de interés público, en los casos y forma previstos, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Solo por razones de interés público, en los casos y forma previstos"
-    ],
-    "correcta": 3,
-    "explicacion": "Los contratos solo pueden modificarse por razones de interés público en los casos previstos.",
-    "referencia": "LCSP, art. 203.1"
-  },
-  {
-    "pregunta": "¿Son obligatorias para el contratista las modificaciones acordadas?",
-    "opciones": [
-      "Sí, cuando no superen el 20 % del precio inicial, IVA excluido conforme al valor estimado del expediente conforme al presupuesto base de licitación",
-      "Sí, cuando no superen el 20 % del precio inicial, IVA excluido, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Sí, cuando no superen el 20 % del precio inicial, IVA excluido",
-      "Sí, cuando no superen el 20 % del precio inicial, IVA excluido, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Las modificaciones acordadas son obligatorias para el contratista cuando impliquen una alteración que no exceda del 20 % del precio inicial.",
-    "referencia": "LCSP, art. 206.1"
-  },
-  {
-    "pregunta": "¿Qué plazo de audiencia tiene el contratista en el expediente de modificación del proyecto de obras?",
-    "opciones": [
-      "Tres días, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Tres días, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Tres días",
-      "Tres días, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "En la modificación del contrato de obras se da audiencia al contratista por plazo mínimo de tres días.",
-    "referencia": "LCSP, art. 242.4"
-  },
-  {
-    "pregunta": "¿Cómo se fijan los precios de unidades de obra nuevas no previstas en el contrato?",
-    "opciones": [
-      "Mediante precios contradictorios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Mediante precios contradictorios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Mediante precios contradictorios, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Mediante precios contradictorios"
-    ],
-    "correcta": 3,
-    "explicacion": "Los precios de las unidades nuevas se fijan contradictoriamente por la Administración, previa audiencia del contratista.",
-    "referencia": "LCSP, art. 242.4"
-  },
-  {
-    "pregunta": "¿Cómo deben formularse las modificaciones previstas en el pliego?",
-    "opciones": [
-      "De forma clara, precisa e inequívoca, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "De forma clara, precisa e inequívoca",
-      "De forma clara, precisa e inequívoca, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "De forma clara, precisa e inequívoca, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Las modificaciones previstas deben formularse de forma clara, precisa e inequívoca.",
-    "referencia": "LCSP, art. 204.1 a)"
-  },
-  {
     "pregunta": "¿A qué deben limitarse las modificaciones no previstas?",
     "opciones": [
       "A cualquier mejora deseada",
@@ -70,30 +10,6 @@
     "correcta": 2,
     "explicacion": "Las modificaciones no previstas se limitan a las variaciones estrictamente indispensables.",
     "referencia": "LCSP, art. 205.1"
-  },
-  {
-    "pregunta": "¿Qué deben suscribir las partes cuando se aprueba una modificación del contrato?",
-    "opciones": [
-      "Un documento de formalización de la modificación",
-      "Un documento de formalización de la modificación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Un documento de formalización de la modificación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Un documento de formalización de la modificación, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Las modificaciones deben formalizarse conforme a la LCSP.",
-    "referencia": "Ley 9/2017 (LCSP), art. 203.3"
-  },
-  {
-    "pregunta": "¿Qué informe es necesario en el expediente de modificación de obras?",
-    "opciones": [
-      "El informe de la dirección facultativa con la propuesta técnica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El informe de la dirección facultativa con la propuesta técnica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El informe de la dirección facultativa con la propuesta técnica, computándose los plazos en días naturales y con sentido desestimatorio",
-      "El informe de la dirección facultativa con la propuesta técnica"
-    ],
-    "correcta": 3,
-    "explicacion": "La modificación de obras requiere la redacción de la propuesta técnica por la dirección facultativa.",
-    "referencia": "Tema e32"
   },
   {
     "pregunta": "¿Qué permite la LCSP mientras se tramita una modificación de obras que exige suspensión temporal?",
@@ -358,5 +274,89 @@
     "correcta": 1,
     "explicacion": "Dicha determinación («Los plazos indicados en los apartados anteriores se ampliarán en quince días hábiles cuando sea necesario seguir los trámites a que se refiere el apartado 4 del artículo 149 de la presente Ley.») define o regula específicamente a «Adjudicación (art. 158 Ley de Contratos del Sector Público)» (Art. 158 de Ley de Contratos del Sector Público).",
     "referencia": "Art. 158 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "En el ámbito de «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Articulado de Ley de Contratos del Sector Público), ¿qué establece la normativa respecto a «Contrato de suministro (art. 16 Ley de Contratos del Sector Público)»?",
+    "opciones": [
+      "Tendrán también la consideración de contratos sujetos a regulación armonizada los contratos subvencionados por estas entidades a los que se refiere el artículo 23.",
+      "Las partes deberán notificar su formalización al órgano que otorgó la subvención.",
+      "En todo caso se entenderá legitimada la organización empresarial sectorial representativa de los intereses afectados.",
+      "Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Contrato de suministro (art. 16 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), la regulación vigente establece que: Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles.",
+    "referencia": "Art. 16 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "Dentro de la materia «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Articulado de Ley de Contratos del Sector Público), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles.»?",
+    "opciones": [
+      "Contrato de suministro (art. 16 Ley de Contratos del Sector Público).",
+      "Delimitación general (art. 19 Ley de Contratos del Sector Público).",
+      "Perfección de los contratos (art. 36 Ley de Contratos del Sector Público).",
+      "Legitimación (art. 48 Ley de Contratos del Sector Público)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles.») define o regula específicamente a «Contrato de suministro (art. 16 Ley de Contratos del Sector Público)» (Art. 16 de Ley de Contratos del Sector Público).",
+    "referencia": "Art. 16 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "En el ámbito de «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Articulado de Ley de Contratos del Sector Público), ¿qué establece la normativa respecto a «Contrato de servicios (art. 17 Ley de Contratos del Sector Público)»?",
+    "opciones": [
+      "2.º Aquellos cuyo objeto sea la suscripción a revistas, publicaciones periódicas y bases de datos.",
+      "No podrán ser objeto de estos contratos los servicios que impliquen ejercicio de la autoridad inherente a los poderes públicos.",
+      "Son causas de nulidad de derecho administrativo las indicadas en el artículo 47 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+      "Antes de interponer el recurso especial, las personas legitimadas para ello podrán solicitar ante el órgano competente para resolver el recurso la adopción de medidas cautelares."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Contrato de servicios (art. 17 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), la regulación vigente establece que: No podrán ser objeto de estos contratos los servicios que impliquen ejercicio de la autoridad inherente a los poderes públicos.",
+    "referencia": "Art. 17 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "Dentro de la materia «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Articulado de Ley de Contratos del Sector Público), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «No podrán ser objeto de estos contratos los servicios que impliquen ejercicio de la autoridad inherente a los poderes públicos.»?",
+    "opciones": [
+      "Contratos administrativos (art. 25 Ley de Contratos del Sector Público).",
+      "Causas de nulidad de derecho administrativo (art. 39 Ley de Contratos del Sector Público).",
+      "Contrato de servicios (art. 17 Ley de Contratos del Sector Público).",
+      "Solicitud de medidas cautelares (art. 49 Ley de Contratos del Sector Público)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («No podrán ser objeto de estos contratos los servicios que impliquen ejercicio de la autoridad inherente a los poderes públicos.») define o regula específicamente a «Contrato de servicios (art. 17 Ley de Contratos del Sector Público)» (Art. 17 de Ley de Contratos del Sector Público).",
+    "referencia": "Art. 17 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "En el ámbito de «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Articulado de Ley de Contratos del Sector Público), ¿qué establece la normativa respecto a «Contratos mixtos (art. 18 Ley de Contratos del Sector Público)»?",
+    "opciones": [
+      "En lo que respecta a su efectos, modificación y extinción, estos contratos se regirán por el derecho privado.",
+      "La revisión de oficio de dichos actos se efectuará de conformidad con lo dispuesto en el apartado anterior.",
+      "El procedimiento de recurso se iniciará mediante escrito que deberá presentarse en el plazo de quince días hábiles.",
+      "Se entenderá por contrato mixto aquel que contenga prestaciones correspondientes a otro u otros de distinta clase."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Contratos mixtos (art. 18 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), la regulación vigente establece que: Se entenderá por contrato mixto aquel que contenga prestaciones correspondientes a otro u otros de distinta clase.",
+    "referencia": "Art. 18 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "Dentro de la materia «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Articulado de Ley de Contratos del Sector Público), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se entenderá por contrato mixto aquel que contenga prestaciones correspondientes a otro u otros de distinta clase.»?",
+    "opciones": [
+      "Contratos mixtos (art. 18 Ley de Contratos del Sector Público).",
+      "Contratos privados (art. 26 Ley de Contratos del Sector Público).",
+      "Revisión de oficio (art. 41 Ley de Contratos del Sector Público).",
+      "Iniciación del procedimiento y plazo (art. 50 Ley de Contratos del Sector Público)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Se entenderá por contrato mixto aquel que contenga prestaciones correspondientes a otro u otros de distinta clase.») define o regula específicamente a «Contratos mixtos (art. 18 Ley de Contratos del Sector Público)» (Art. 18 de Ley de Contratos del Sector Público).",
+    "referencia": "Art. 18 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "En el ámbito de «La modificación de los contratos de obras. Potestad de modificación del contrato. Modificaciones previstas en el pliego de cláusulas administrativas particulares. Modificaciones no previstas en el pliego de cláusulas administrativas particulares: prestaciones adicionales, circunstancias imprevisibles y modificaciones no sustanciales. Obligatoriedad de las modificaciones del contrato. Especialidades procedimentales. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto. Variaciones sobre las unidades de obras ejecutadas. Modificación de la procedencia de materiales naturales. Reajuste del plazo de ejecución por modificaciones. 5 de 7 Obras complementarias: Concepto, procedimientos de adjudicación y requisitos. Contenido del proyecto complementario.» (Articulado de Ley de Contratos del Sector Público), ¿qué establece la normativa respecto a «Delimitación general (art. 19 Ley de Contratos del Sector Público)»?",
+    "opciones": [
+      "Las partes deberán notificar su formalización al órgano que otorgó la subvención.",
+      "Tendrán también la consideración de contratos sujetos a regulación armonizada los contratos subvencionados por estas entidades a los que se refiere el artículo 23.",
+      "En todo caso se entenderá legitimada la organización empresarial sectorial representativa de los intereses afectados.",
+      "La presentación de esta solicitud no paralizará en ningún caso el plazo para la interposición del recurso especial."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Delimitación general (art. 19 Ley de Contratos del Sector Público)» (Articulado de Ley de Contratos del Sector Público), la regulación vigente establece que: Tendrán también la consideración de contratos sujetos a regulación armonizada los contratos subvencionados por estas entidades a los que se refiere el artículo 23.",
+    "referencia": "Art. 19 de Ley de Contratos del Sector Público"
   }
 ]

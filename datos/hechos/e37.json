@@ -1,17 +1,5 @@
 [
   {
-    "pregunta": "¿Qué condiciones del DB-SI se aplican a los establecimientos sanitarios de carácter ambulatorio?",
-    "opciones": [
-      "Las del uso Administrativo",
-      "Las del uso Administrativo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Las del uso Administrativo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Las del uso Administrativo, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "A los usos sanitarios o asistenciales de carácter ambulatorio se les aplican las condiciones del uso Administrativo.",
-    "referencia": "CTE, DB-SI, terminología de usos"
-  },
-  {
     "pregunta": "¿Qué deben estar compartimentadas en el uso Hospitalario según el DB-SI 1?",
     "opciones": [
       "Solo los aparcamientos",
@@ -22,102 +10,6 @@
     "correcta": 1,
     "explicacion": "Las plantas con zonas de hospitalización o unidades especiales deben estar compartimentadas en sectores.",
     "referencia": "CTE, DB-SI 1, tabla 1.1"
-  },
-  {
-    "pregunta": "¿Qué zona prevé el DB-SI para la evacuación de personas con discapacidad?",
-    "opciones": [
-      "Una zona de refugio o un sector de incendio alternativo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Una zona de refugio o un sector de incendio alternativo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Una zona de refugio o un sector de incendio alternativo, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Una zona de refugio o un sector de incendio alternativo"
-    ],
-    "correcta": 3,
-    "explicacion": "Los itinerarios accesibles para personas con discapacidad deben conducir a una zona de refugio o a un sector alternativo.",
-    "referencia": "CTE, DB-SI 3"
-  },
-  {
-    "pregunta": "¿Qué densidad de ocupación fija el DB-SI para las zonas de hospitalización?",
-    "opciones": [
-      "15 m² por persona, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "15 m² por persona, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "15 m² por persona, computándose los plazos en días naturales y con sentido desestimatorio",
-      "15 m² por persona"
-    ],
-    "correcta": 3,
-    "explicacion": "La tabla 2.1 fija 15 m²/persona en zonas de hospitalización y 2 m²/persona en salas de espera.",
-    "referencia": "CTE, DB-SI 3, tabla 2.1"
-  },
-  {
-    "pregunta": "¿Qué densidad de ocupación fija el DB-SI para las salas de espera hospitalarias?",
-    "opciones": [
-      "2 m² por persona, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "2 m² por persona, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "2 m² por persona, computándose los plazos en días naturales y con sentido desestimatorio",
-      "2 m² por persona"
-    ],
-    "correcta": 3,
-    "explicacion": "Las salas de espera del uso Hospitalario se calculan a 2 m²/persona.",
-    "referencia": "CTE, DB-SI 3, tabla 2.1"
-  },
-  {
-    "pregunta": "¿Qué presión relativa se mantiene en un quirófano respecto a las zonas contiguas?",
-    "opciones": [
-      "Sobrepresión (presión positiva), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Sobrepresión (presión positiva), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Sobrepresión (presión positiva), computándose los plazos en días naturales y con sentido desestimatorio",
-      "Sobrepresión (presión positiva)"
-    ],
-    "correcta": 3,
-    "explicacion": "Los quirófanos se mantienen en sobrepresión para evitar la entrada de aire contaminado.",
-    "referencia": "Tema e37"
-  },
-  {
-    "pregunta": "¿Qué normativa técnica orienta el diseño de instalaciones deportivas en España?",
-    "opciones": [
-      "Las Normas NIDE",
-      "Las Normas NIDE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Las Normas NIDE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Las Normas NIDE, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Las Normas NIDE del Consejo Superior de Deportes orientan el diseño de instalaciones deportivas.",
-    "referencia": "Tema e37"
-  },
-  {
-    "pregunta": "¿Qué orientación del eje longitudinal se recomienda en campos deportivos al aire libre?",
-    "opciones": [
-      "Norte-sur, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Norte-sur, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Norte-sur, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Norte-sur"
-    ],
-    "correcta": 3,
-    "explicacion": "La orientación norte-sur evita el deslumbramiento por el sol en la salida y la puesta.",
-    "referencia": "Normas NIDE"
-  },
-  {
-    "pregunta": "¿Qué condiciones ambientales requieren las salas de exposición de museos?",
-    "opciones": [
-      "Temperatura y humedad relativa estables y controladas",
-      "Temperatura y humedad relativa estables y controladas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Temperatura y humedad relativa estables y controladas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Temperatura y humedad relativa estables y controladas, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "La conservación de los bienes culturales exige estabilidad de temperatura y humedad.",
-    "referencia": "Tema e37"
-  },
-  {
-    "pregunta": "¿Qué gases medicinales se distribuyen habitualmente por canalización en los hospitales?",
-    "opciones": [
-      "Oxígeno, aire medicinal y vacío, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Oxígeno, aire medicinal y vacío",
-      "Oxígeno, aire medicinal y vacío, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Oxígeno, aire medicinal y vacío, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Las redes de gases medicinales distribuyen oxígeno, aire medicinal y vacío.",
-    "referencia": "Tema e37"
   },
   {
     "pregunta": "En el ámbito de «Centros sanitarios, asistenciales, culturales e instalaciones deportivas de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿qué establece la normativa respecto a «Escaleras (art. 23 Decreto de normas para la accesibilidad en las infraestructuras)»?",
@@ -358,5 +250,113 @@
     "correcta": 1,
     "explicacion": "El artículo 66 de Decreto de normas para la accesibilidad en las infraestructuras («Vestíbulos y pasillos») dispone literalmente: Las dimensiones de los vestíbulos serán tales que pueda inscribirse en ellos una circunferencia de 1,50 metros de diámetro no barrido por las hojas de las puertas.",
     "referencia": "Art. 66 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "En el ámbito de «Centros sanitarios, asistenciales, culturales e instalaciones deportivas de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿qué establece la normativa respecto a «Condiciones mínimas (art. 95 Decreto de normas para la accesibilidad en las infraestructuras)»?",
+    "opciones": [
+      "Los taxis o vehículos especiales accesibles deberán reunir las condiciones establecidas en el Real Decreto 1544/2007, de 23 de noviembre.",
+      "Igualmente se utilizarán minúsculas y mayúsculas en los textos, así como en los folletos y carteles.",
+      "De manera que, a modo de comparativo, se pueda verificar el cumplimiento de las presentes normas.",
+      "Cuando exista un cambio de dirección entre dos tramos, la anchura de la rampa no se reducirá a lo largo de la meseta."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Condiciones mínimas (art. 95 Decreto de normas para la accesibilidad en las infraestructuras)» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), la regulación vigente establece que: Igualmente se utilizarán minúsculas y mayúsculas en los textos, así como en los folletos y carteles.",
+    "referencia": "Art. 95 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "Dentro de la materia «Centros sanitarios, asistenciales, culturales e instalaciones deportivas de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Igualmente se utilizarán minúsculas y mayúsculas en los textos, así como en los folletos y carteles.»?",
+    "opciones": [
+      "Normas generales (art. 133 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Memoria (art. 7 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Condiciones mínimas (art. 95 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Rampas (art. 22 Decreto de normas para la accesibilidad en las infraestructuras)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («Igualmente se utilizarán minúsculas y mayúsculas en los textos, así como en los folletos y carteles.») define o regula específicamente a «Condiciones mínimas (art. 95 Decreto de normas para la accesibilidad en las infraestructuras)» (Art. 95 de Decreto de normas para la accesibilidad en las infraestructuras).",
+    "referencia": "Art. 95 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "En el ámbito de «Centros sanitarios, asistenciales, culturales e instalaciones deportivas de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿qué establece la normativa respecto a «Normas generales (art. 97 Decreto de normas para la accesibilidad en las infraestructuras)»?",
+    "opciones": [
+      "A los efectos del presente Reglamento, se entenderá por: 1.",
+      "Se empleará un pavimento de botones normalizado u otro pavimento normalizado que cumpla con las exigencias requeridas para las personas viandantes por la normativa sectorial que sea de aplicación.",
+      "Las mismas deben estar señalizadas con una franja señalizadora de 0,60 metros de fondo y la anchura de la meseta, siendo su pavimento de diferente textura y color.",
+      "Instalaciones, construcciones y dotaciones para actividades temporales, ocasionales o extraordinarias en edificios de concurrencia pública."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Normas generales (art. 97 Decreto de normas para la accesibilidad en las infraestructuras)» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), la regulación vigente establece que: Instalaciones, construcciones y dotaciones para actividades temporales, ocasionales o extraordinarias en edificios de concurrencia pública.",
+    "referencia": "Art. 97 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "Dentro de la materia «Centros sanitarios, asistenciales, culturales e instalaciones deportivas de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Instalaciones, construcciones y dotaciones para actividades temporales, ocasionales o extraordinarias en edificios de concurrencia pública.»?",
+    "opciones": [
+      "Normas generales (art. 97 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Definiciones (art. 3 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Vados (art. 16 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Escaleras (art. 23 Decreto de normas para la accesibilidad en las infraestructuras)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Instalaciones, construcciones y dotaciones para actividades temporales, ocasionales o extraordinarias en edificios de concurrencia pública.») define o regula específicamente a «Normas generales (art. 97 Decreto de normas para la accesibilidad en las infraestructuras)» (Art. 97 de Decreto de normas para la accesibilidad en las infraestructuras).",
+    "referencia": "Art. 97 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "En el ámbito de «Centros sanitarios, asistenciales, culturales e instalaciones deportivas de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿qué establece la normativa respecto a «Normas generales (art. 124 Decreto de normas para la accesibilidad en las infraestructuras)»?",
+    "opciones": [
+      "A los efectos anteriores, el contenido mínimo de los distintos documentos de que se trate, será el que se establece en los artículos siguientes, según el alcance y contenido exigible en cada caso.",
+      "Las Administraciones Públicas competentes en el ámbito del transporte público contemplarán en sus planes de transportes la adaptación progresiva de los medios de transporte público existentes.",
+      "En el caso de barandillas o antepechos, éstos cumplirán con las condiciones establecidas en el artículo 23.3.",
+      "Las ayudas técnicas deberán reunir las condiciones establecidas en el artículo 75."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Normas generales (art. 124 Decreto de normas para la accesibilidad en las infraestructuras)» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), la regulación vigente establece que: Las Administraciones Públicas competentes en el ámbito del transporte público contemplarán en sus planes de transportes la adaptación progresiva de los medios de transporte público existentes.",
+    "referencia": "Art. 124 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "Dentro de la materia «Centros sanitarios, asistenciales, culturales e instalaciones deportivas de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las Administraciones Públicas competentes en el ámbito del transporte público contemplarán en sus planes de transportes la adaptación progresiva de los medios de transporte público existentes.»?",
+    "opciones": [
+      "Alcance y contenido (art. 6 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Puentes y pasarelas (art. 19 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Normas generales (art. 124 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Ayudas técnicas (art. 25 Decreto de normas para la accesibilidad en las infraestructuras)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («Las Administraciones Públicas competentes en el ámbito del transporte público contemplarán en sus planes de transportes la adaptación progresiva de los medios de transporte público existentes.») define o regula específicamente a «Normas generales (art. 124 Decreto de normas para la accesibilidad en las infraestructuras)» (Art. 124 de Decreto de normas para la accesibilidad en las infraestructuras).",
+    "referencia": "Art. 124 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "En el ámbito de «Centros sanitarios, asistenciales, culturales e instalaciones deportivas de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿qué establece la normativa respecto a «Normas generales (art. 133 Decreto de normas para la accesibilidad en las infraestructuras)»?",
+    "opciones": [
+      "De manera que, a modo de comparativo, se pueda verificar el cumplimiento de las presentes normas.",
+      "Cuando exista un cambio de dirección entre dos tramos, la anchura de la rampa no se reducirá a lo largo de la meseta.",
+      "En los espacios donde se instalen aseos aislados de uso público, al menos uno de cada diez de ellos deberá ser accesible de acuerdo con las características previstas en el artículo 77.1.",
+      "Los taxis o vehículos especiales accesibles deberán reunir las condiciones establecidas en el Real Decreto 1544/2007, de 23 de noviembre."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Normas generales (art. 133 Decreto de normas para la accesibilidad en las infraestructuras)» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), la regulación vigente establece que: Los taxis o vehículos especiales accesibles deberán reunir las condiciones establecidas en el Real Decreto 1544/2007, de 23 de noviembre.",
+    "referencia": "Art. 133 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "Dentro de la materia «Centros sanitarios, asistenciales, culturales e instalaciones deportivas de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Los taxis o vehículos especiales accesibles deberán reunir las condiciones establecidas en el Real Decreto 1544/2007, de 23 de noviembre.»?",
+    "opciones": [
+      "Normas generales (art. 133 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Memoria (art. 7 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Rampas (art. 22 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Aseos de uso público (art. 26 Decreto de normas para la accesibilidad en las infraestructuras)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Los taxis o vehículos especiales accesibles deberán reunir las condiciones establecidas en el Real Decreto 1544/2007, de 23 de noviembre.») define o regula específicamente a «Normas generales (art. 133 Decreto de normas para la accesibilidad en las infraestructuras)» (Art. 133 de Decreto de normas para la accesibilidad en las infraestructuras).",
+    "referencia": "Art. 133 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "En el ámbito de «Centros sanitarios, asistenciales, culturales e instalaciones deportivas de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿qué establece la normativa respecto a «Definiciones (art. 3 Decreto de normas para la accesibilidad en las infraestructuras)»?",
+    "opciones": [
+      "Se empleará un pavimento de botones normalizado u otro pavimento normalizado que cumpla con las exigencias requeridas para las personas viandantes por la normativa sectorial que sea de aplicación.",
+      "A los efectos del presente Reglamento, se entenderá por: 1.",
+      "Las mismas deben estar señalizadas con una franja señalizadora de 0,60 metros de fondo y la anchura de la meseta, siendo su pavimento de diferente textura y color.",
+      "Las plazas de estacionamiento reservadas para personas con movilidad reducida deberán mantener tal condición de reserva en caso de enajenación, cesión o arrendamiento."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Definiciones (art. 3 Decreto de normas para la accesibilidad en las infraestructuras)» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), la regulación vigente establece que: A los efectos del presente Reglamento, se entenderá por: 1.",
+    "referencia": "Art. 3 de Decreto de normas para la accesibilidad en las infraestructuras"
   }
 ]

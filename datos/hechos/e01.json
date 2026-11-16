@@ -12,18 +12,6 @@
     "referencia": "Tema e01"
   },
   {
-    "pregunta": "¿Qué operación se realiza en la preparación del terreno para eliminar vegetación?",
-    "opciones": [
-      "Desbroce",
-      "Desbroce, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Desbroce, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Desbroce, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "El desbroce elimina vegetación y restos antes de iniciar la obra.",
-    "referencia": "Tema e01"
-  },
-  {
     "pregunta": "¿Cómo deben clasificarse los residuos de construcción?",
     "opciones": [
       "En el vertedero de la obra",
@@ -94,30 +82,6 @@
     "correcta": 3,
     "explicacion": "Quien ejecuta la obra presenta a la propiedad un plan de gestión de los residuos, que se aprueba por la dirección facultativa.",
     "referencia": "RD 105/2008, art. 5.1"
-  },
-  {
-    "pregunta": "¿Durante cuánto tiempo debe conservarse la documentación anual de la gestión de residuos de la obra?",
-    "opciones": [
-      "Los cinco años siguientes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Los cinco años siguientes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Los cinco años siguientes, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Los cinco años siguientes"
-    ],
-    "correcta": 3,
-    "explicacion": "La documentación de cada año natural debe mantenerse durante los cinco años siguientes.",
-    "referencia": "RD 105/2008, art. 4"
-  },
-  {
-    "pregunta": "¿Qué garantía puede exigirse al productor vinculada a la licencia de obras?",
-    "opciones": [
-      "Una fianza u otra garantía financiera equivalente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Una fianza u otra garantía financiera equivalente",
-      "Una fianza u otra garantía financiera equivalente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Una fianza u otra garantía financiera equivalente, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Para obras sometidas a licencia puede exigirse una fianza que responda de la correcta gestión de los residuos.",
-    "referencia": "RD 105/2008, art. 4"
   },
   {
     "pregunta": "En Ley de residuos y suelos contaminados para una economía circular, ¿qué precepto establece literalmente: «El tipo impositivo será de 0,45 euros por kilogramo.»?",
@@ -358,5 +322,41 @@
     "correcta": 1,
     "explicacion": "Dicha regulación se contiene en el Artículo 113 de Ley de residuos y suelos contaminados para una economía circular (Prescripción de las infracciones y sanciones): Las infracciones leves prescribirán al año, las graves a los tres años y las muy graves a los cinco años.",
     "referencia": "Art. 113 de Ley de residuos y suelos contaminados para una economía circular"
+  },
+  {
+    "pregunta": "En el ámbito de «Demoliciones, trabajos previos y acondicionamiento del terreno en los edificios. Requisitos y exigencias básicas según el Código Técnico de la Edificación (CTE), prescripciones técnicas y normativa de aplicación: Procesos y condiciones de ejecución y control de calidad. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. Regulación de la producción y gestión de los residuos de construcción y demolición.» (Residuos de construcción y demolición: productor, poseedor y gestor), ¿qué establece la normativa respecto a «En todo caso»?",
+    "opciones": [
+      "El promotor está obligado a que se elabore el estudio de seguridad (RD 1627/1997, art. 4.1).",
+      "El documento se ocupa de cimientos, excavaciones, rellenos y contenciones, no del derribo.",
+      "Estas autorizaciones tendrán validez, únicamente, para el uso autorizado del subproducto en la actividad o proceso industrial de destino.",
+      "Es poseedor quien ejecuta la obra, como el constructor, los subcontratistas o los trabajadores autónomos, pero no los trabajadores por cuenta ajena (art. 2.f)."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «En todo caso» (Residuos de construcción y demolición: productor, poseedor y gestor), la regulación vigente establece que: Es poseedor quien ejecuta la obra, como el constructor, los subcontratistas o los trabajadores autónomos, pero no los trabajadores por cuenta ajena (art. 2.f).",
+    "referencia": "Ley 7/2022, de 8 de abril"
+  },
+  {
+    "pregunta": "Dentro de la materia «Demoliciones, trabajos previos y acondicionamiento del terreno en los edificios. Requisitos y exigencias básicas según el Código Técnico de la Edificación (CTE), prescripciones técnicas y normativa de aplicación: Procesos y condiciones de ejecución y control de calidad. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. Regulación de la producción y gestión de los residuos de construcción y demolición.» (Residuos de construcción y demolición: productor, poseedor y gestor), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es poseedor quien ejecuta la obra, como el constructor, los subcontratistas o los trabajadores autónomos, pero no los trabajadores por cuenta ajena (art. 2.f).»?",
+    "opciones": [
+      "En todo caso.",
+      "Para los responsables, la clave es el orden.",
+      "El tercero es creer que el DB-SE-C trata la demolición.",
+      "Subproductos (art. 4 Ley de residuos y suelos contaminados para una economía circular)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Es poseedor quien ejecuta la obra, como el constructor, los subcontratistas o los trabajadores autónomos, pero no los trabajadores por cuenta ajena (art. 2.f).») define o regula específicamente a «En todo caso» (Ley 7/2022, de 8 de abril).",
+    "referencia": "Ley 7/2022, de 8 de abril"
+  },
+  {
+    "pregunta": "En el ámbito de «Demoliciones, trabajos previos y acondicionamiento del terreno en los edificios. Requisitos y exigencias básicas según el Código Técnico de la Edificación (CTE), prescripciones técnicas y normativa de aplicación: Procesos y condiciones de ejecución y control de calidad. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. Regulación de la producción y gestión de los residuos de construcción y demolición.» (Residuos de construcción y demolición: productor, poseedor y gestor), ¿qué establece la normativa respecto a «Cuando la obra»?",
+    "opciones": [
+      "Es atribuir al poseedor la obligación de hacer el estudio de gestión, que corresponde al productor en el proyecto.",
+      "Requiere licencia, debe constituir la fianza o garantía que exija la comunidad autónoma (art. 4.1.d).",
+      "Código Técnico de la Edificación (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación): Exigencias básicas y documentos básicos (arts. 3, 5, 6, 7, 8 y 10).",
+      "Para la aplicación de la jerarquía de residuos, las autoridades competentes deberán usar instrumentos económicos y otras medidas incentivadoras, como las que se relacionan en el anexo V."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Cuando la obra» (Residuos de construcción y demolición: productor, poseedor y gestor), la regulación vigente establece que: Requiere licencia, debe constituir la fianza o garantía que exija la comunidad autónoma (art. 4.1.d).",
+    "referencia": "Ley 7/2022, de 8 de abril"
   }
 ]

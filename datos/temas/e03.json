@@ -83,54 +83,6 @@
       "referencia": "Art. 13.5 CTE"
     },
     {
-      "pregunta": "Según el DB-HS 5, apartado 3.3.1.1, ¿cuál es la altura mínima del cierre hidráulico para usos continuos?",
-      "opciones": [
-        "50 mm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "50 mm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "50 mm",
-        "50 mm, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La altura mínima del cierre hidráulico es de 50 mm para usos continuos y de 70 mm para usos discontinuos, con un máximo de 100 mm.",
-      "referencia": "DB-HS 5, apartado 3.3.1.1, punto 2 e)"
-    },
-    {
-      "pregunta": "Según el DB-HS 5, apartado 3.3.1.4.1, ¿cuál es la pendiente mínima de un colector colgado?",
-      "opciones": [
-        "1 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "1 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "1 %, computándose los plazos en días naturales y con sentido desestimatorio",
-        "1 %"
-      ],
-      "correcta": 3,
-      "explicacion": "Los colectores colgados deben tener una pendiente del 1 % como mínimo.",
-      "referencia": "DB-HS 5, apartado 3.3.1.4.1, punto 3"
-    },
-    {
-      "pregunta": "Según el DB-HS 5, apartado 3.3.1.4.1, punto 2, ¿a qué distancia mínima de la bajante de residuales debe conectarse la bajante de pluviales en un sistema mixto?",
-      "opciones": [
-        "A 3 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "A 3 m",
-        "A 3 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "A 3 m, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La conexión de la bajante de pluviales debe separarse al menos 3 m de la conexión de la bajante de residuales situada aguas arriba.",
-      "referencia": "DB-HS 5, apartado 3.3.1.4.1, punto 2"
-    },
-    {
-      "pregunta": "Según el DB-HS 5, apartado 4.2.1, punto 2, ¿cuántos sumideros se disponen en una cubierta de 150 m² de proyección horizontal?",
-      "opciones": [
-        "Tres",
-        "Tres, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Tres, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Tres, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Para superficies de 100 a 200 m² se disponen tres sumideros, según la tabla 4.6.",
-      "referencia": "DB-HS 5, apartado 4.2.1, tabla 4.6"
-    },
-    {
       "pregunta": "Según el DB-HS 5, apartado 5.6.1, punto 4, ¿a qué presión y durante cuánto tiempo se prueba la red horizontal con agua?",
       "opciones": [
         "Sin presión, solo por observación",
@@ -153,18 +105,6 @@
       "correcta": 3,
       "explicacion": "Cada seis meses se limpian los sumideros de locales húmedos y cubiertas transitables, y los botes sifónicos.",
       "referencia": "DB-HS 5, apartado 7, punto 3"
-    },
-    {
-      "pregunta": "Según el DB-HS 5, apartado 4.1.2, ¿qué variación de presión no debe superar el dimensionado de una bajante de residuales?",
-      "opciones": [
-        "250 Pa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "250 Pa",
-        "250 Pa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "250 Pa, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El dimensionado de las bajantes debe hacerse para no rebasar el límite de 250 Pa de variación de presión.",
-      "referencia": "DB-HS 5, apartado 4.1.2, punto 1"
     },
     {
       "pregunta": "Según el RD 1627/1997, anexo IV, apartado 9.b, ¿qué debe preverse en las excavaciones para prevenir la irrupción accidental de agua?",
@@ -203,186 +143,6 @@
       "referencia": "CTE, art. 13.5"
     },
     {
-      "pregunta": "¿Cuántos criterios de diseño recoge el DB-HS 5 para el saneamiento?",
-      "opciones": [
-        "Seis",
-        "Seis, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Seis, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Seis, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Son seis criterios de diseño.",
-      "referencia": "DB-HS 5, apartado 2"
-    },
-    {
-      "pregunta": "¿Qué tipo de desagüe es preferible en el saneamiento?",
-      "opciones": [
-        "Por gravedad al pozo o arqueta general, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Por gravedad al pozo o arqueta general",
-        "Por gravedad al pozo o arqueta general, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Por gravedad al pozo o arqueta general, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El desagüe es preferentemente por gravedad al pozo o arqueta general.",
-      "referencia": "DB-HS 5, apartado 3.1"
-    },
-    {
-      "pregunta": "¿Qué sistema se usa con una única red pública de saneamiento?",
-      "opciones": [
-        "Mixto o separativo con conexión final, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Mixto o separativo con conexión final, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Mixto o separativo con conexión final, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Mixto o separativo con conexión final"
-      ],
-      "correcta": 3,
-      "explicacion": "Con una única red pública se usa sistema mixto o separativo con conexión final.",
-      "referencia": "DB-HS 5, apartado 3.2"
-    },
-    {
-      "pregunta": "¿Qué sistema se usa con dos redes públicas?",
-      "opciones": [
-        "Separativo",
-        "Separativo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Separativo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Separativo, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Con dos redes, el sistema es separativo.",
-      "referencia": "DB-HS 5, apartado 3.2"
-    },
-    {
-      "pregunta": "¿Qué se hace con las aguas residuales si no hay red pública?",
-      "opciones": [
-        "Una estación depuradora particular, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una estación depuradora particular",
-        "Una estación depuradora particular, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una estación depuradora particular, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Sin red pública, las residuales se tratan en una estación depuradora particular.",
-      "referencia": "DB-HS 5, apartado 3.1 punto 2"
-    },
-    {
-      "pregunta": "¿Qué altura mínima tienen los cierres hidráulicos en usos continuos?",
-      "opciones": [
-        "50 mm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "50 mm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "50 mm",
-        "50 mm, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La altura es de 50 mm en usos continuos y 70 mm en discontinuos, con máximo de 100 mm.",
-      "referencia": "DB-HS 5, apartado 3.3.1.1"
-    },
-    {
-      "pregunta": "¿Cuál es la pendiente mínima de los colectores colgados?",
-      "opciones": [
-        "1 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "1 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "1 %, computándose los plazos en días naturales y con sentido desestimatorio",
-        "1 %"
-      ],
-      "correcta": 3,
-      "explicacion": "La pendiente mínima de los colectores colgados es del 1 %.",
-      "referencia": "DB-HS 5, apartado 3.3.1.4.1"
-    },
-    {
-      "pregunta": "¿Qué límite de tramo recto tienen los registros de los colectores?",
-      "opciones": [
-        "Hasta 15 m",
-        "Hasta 15 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Hasta 15 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Hasta 15 m, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los registros tienen tramos rectos de hasta 15 m.",
-      "referencia": "DB-HS 5, apartado 3.3.1.4.1"
-    },
-    {
-      "pregunta": "¿Cuál es la variación de presión máxima admisible en las bajantes residuales?",
-      "opciones": [
-        "250 Pa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "250 Pa",
-        "250 Pa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "250 Pa, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La variación de presión no debe superar 250 Pa.",
-      "referencia": "DB-HS 5, apartado 4.1.2"
-    },
-    {
-      "pregunta": "¿Qué ocupación máxima se permite en la sección de una bajante residual?",
-      "opciones": [
-        "Un tercio de la sección, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un tercio de la sección, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un tercio de la sección",
-        "Un tercio de la sección, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La ocupación no debe superar un tercio de la sección.",
-      "referencia": "DB-HS 5, apartado 4.1.2"
-    },
-    {
-      "pregunta": "¿Hasta qué fracción de la sección debe funcionar un colector horizontal?",
-      "opciones": [
-        "Tres cuartos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Tres cuartos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Tres cuartos, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Tres cuartos"
-      ],
-      "correcta": 3,
-      "explicacion": "Los colectores funcionan a media sección, con máximo de tres cuartos.",
-      "referencia": "DB-HS 5, apartado 4.1.3"
-    },
-    {
-      "pregunta": "¿Cuántos sumideros pluviales se necesitan hasta 100 m² de cubierta?",
-      "opciones": [
-        "Dos",
-        "Dos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Dos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Dos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Se necesitan dos sumideros hasta 100 m².",
-      "referencia": "DB-HS 5, tabla 4.6"
-    },
-    {
-      "pregunta": "¿Cuántos sumideros pluviales se necesitan hasta 200 m²?",
-      "opciones": [
-        "Tres, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Tres",
-        "Tres, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Tres, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Hasta 200 m² se necesitan tres sumideros.",
-      "referencia": "DB-HS 5, tabla 4.6"
-    },
-    {
-      "pregunta": "¿Qué presión y tiempo se usan en la prueba de la red horizontal?",
-      "opciones": [
-        "Agua a 0,3 a 0,6 bar durante diez minutos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Agua a 0,3 a 0,6 bar durante diez minutos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Agua a 0,3 a 0,6 bar durante diez minutos",
-        "Agua a 0,3 a 0,6 bar durante diez minutos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La prueba es con agua a 0,3 a 0,6 bar durante diez minutos, tramo a tramo.",
-      "referencia": "DB-HS 5, apartado 5.6.1"
-    },
-    {
-      "pregunta": "¿Cuál es el cierre hidráulico mínimo tras la prueba?",
-      "opciones": [
-        "25 mm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "25 mm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "25 mm, computándose los plazos en días naturales y con sentido desestimatorio",
-        "25 mm"
-      ],
-      "correcta": 3,
-      "explicacion": "Tras la prueba el cierre hidráulico debe ser de 25 mm mínimo.",
-      "referencia": "DB-HS 5, apartado 5.6.1"
-    },
-    {
       "pregunta": "¿Cada cuánto deben revisarse los sumideros y botes sifónicos?",
       "opciones": [
         "Cada seis meses",
@@ -393,162 +153,6 @@
       "correcta": 0,
       "explicacion": "Los sumideros y botes sifónicos se revisan cada seis meses.",
       "referencia": "DB-HS 5, apartado 7"
-    },
-    {
-      "pregunta": "¿Cada cuánto se revisan las arquetas de pie de bajante?",
-      "opciones": [
-        "Cada diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cada diez años",
-        "Cada diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cada diez años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las arquetas de pie de bajante se revisan cada diez años.",
-      "referencia": "DB-HS 5, apartado 7"
-    },
-    {
-      "pregunta": "¿Cómo se miden las tuberías de saneamiento?",
-      "opciones": [
-        "Por metros lineales de tubería por diámetro y material, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Por metros lineales de tubería por diámetro y material, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Por metros lineales de tubería por diámetro y material",
-        "Por metros lineales de tubería por diámetro y material, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La tubería se mide por metros lineales, por diámetro y material.",
-      "referencia": "DB-HS 5, medición"
-    },
-    {
-      "pregunta": "¿Qué regula el anexo IV del RD 1627/1997 en las zanjas?",
-      "opciones": [
-        "Localizar cables, prevenir sepultamientos y mantener alejadas las tierras, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Localizar cables, prevenir sepultamientos y mantener alejadas las tierras, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Localizar cables, prevenir sepultamientos y mantener alejadas las tierras, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Localizar cables, prevenir sepultamientos y mantener alejadas las tierras"
-      ],
-      "correcta": 3,
-      "explicacion": "Para las zanjas el anexo IV exige localizar cables y conducciones, prevenir el sepultamiento y mantener alejadas las tierras.",
-      "referencia": "RD 1627/1997, anexo IV, apartado 9"
-    },
-    {
-      "pregunta": "¿Qué se controla en la ejecución del saneamiento?",
-      "opciones": [
-        "Que se ajuste al proyecto y al art. 7.3 del CTE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Que se ajuste al proyecto y al art. 7.3 del CTE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Que se ajuste al proyecto y al art. 7.3 del CTE",
-        "Que se ajuste al proyecto y al art. 7.3 del CTE, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El control de la ejecución sigue el proyecto y el art. 7.3 del CTE.",
-      "referencia": "DB-HS 5, apartado 5.2"
-    },
-    {
-      "pregunta": "¿Qué protección colectiva se exige en tejados según el anexo IV?",
-      "opciones": [
-        "Reglas de protección colectiva en trabajos en tejados",
-        "Reglas de protección colectiva en trabajos en tejados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Reglas de protección colectiva en trabajos en tejados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Reglas de protección colectiva en trabajos en tejados, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los trabajos en tejados tienen reglas de protección colectiva en el anexo IV, apartado 12.b.",
-      "referencia": "RD 1627/1997, anexo IV, apartado 12.b"
-    },
-    {
-      "pregunta": "¿Qué debe evitar la ventilación de la red de saneamiento?",
-      "opciones": [
-        "Que los malos olores y gases pasen a los edificios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Que los malos olores y gases pasen a los edificios",
-        "Que los malos olores y gases pasen a los edificios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Que los malos olores y gases pasen a los edificios, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La ventilación de la red evita que los gases y malos olores pasen a los edificios.",
-      "referencia": "DB-HS 5, apartado 2"
-    },
-    {
-      "pregunta": "¿Qué tipo de sistema permite que las aguas pluviales y residuales vayan separadas?",
-      "opciones": [
-        "Sistema separativo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Sistema separativo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Sistema separativo",
-        "Sistema separativo, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El sistema separativo lleva por separado las residuales y las pluviales.",
-      "referencia": "DB-HS 5, apartado 3.2"
-    },
-    {
-      "pregunta": "¿Qué tipo de cierre hidráulico se usa en el saneamiento?",
-      "opciones": [
-        "Sifones individuales, botes sifónicos, sumideros y arquetas sifónicas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Sifones individuales, botes sifónicos, sumideros y arquetas sifónicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Sifones individuales, botes sifónicos, sumideros y arquetas sifónicas, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Sifones individuales, botes sifónicos, sumideros y arquetas sifónicas"
-      ],
-      "correcta": 3,
-      "explicacion": "Los cierres hidráulicos son sifones individuales, botes sifónicos, sumideros y arquetas sifónicas.",
-      "referencia": "DB-HS 5, apartado 3.3.1.1"
-    },
-    {
-      "pregunta": "¿Qué sistema de saneamiento recoge en la misma red las aguas pluviales y residuales?",
-      "opciones": [
-        "Unitario, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Unitario, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Unitario, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Unitario"
-      ],
-      "correcta": 3,
-      "explicacion": "El sistema unitario mezcla pluviales y residuales en una misma red.",
-      "referencia": "Tema e03"
-    },
-    {
-      "pregunta": "¿Qué documento básico del CTE regula el saneamiento?",
-      "opciones": [
-        "DB-HS 5",
-        "DB-HS 5, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "DB-HS 5, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "DB-HS 5, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El DB-HS 5 regula la evacuación de aguas.",
-      "referencia": "CTE, DB-HS 5"
-    },
-    {
-      "pregunta": "¿Qué elemento permite el registro y el cambio de dirección de la red de saneamiento?",
-      "opciones": [
-        "Arqueta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Arqueta",
-        "Arqueta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Arqueta, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las arquetas permiten el acceso y el cambio de dirección en la red.",
-      "referencia": "Tema e03"
-    },
-    {
-      "pregunta": "¿Qué elemento impide el paso de gases malolientes desde la red?",
-      "opciones": [
-        "Cierre hidráulico o sifón, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cierre hidráulico o sifón, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cierre hidráulico o sifón",
-        "Cierre hidráulico o sifón, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El sifón mantiene un cierre hidráulico que impide el paso de gases.",
-      "referencia": "Tema e03"
-    },
-    {
-      "pregunta": "¿Qué elemento vertical conduce las aguas residuales de las plantas hasta la red?",
-      "opciones": [
-        "Bajante, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Bajante, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Bajante, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Bajante"
-      ],
-      "correcta": 3,
-      "explicacion": "La bajante es el conducto vertical de evacuación de aguas.",
-      "referencia": "Tema e03"
     },
     {
       "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencia básica HS 5 y procedimiento), ¿qué establece la normativa respecto a «Seis criterios de diseño»?",
@@ -611,18 +215,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Tipos de sistemas y conexión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sistemas individualizados, con estación depuradora particular para las residuales y vertido al terreno para las pluviales (apartado 3.1, punto 2).»?",
-      "opciones": [
-        "Sin red pública, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Sin red pública.",
-        "Sin red pública, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Sin red pública, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Sistemas individualizados, con estación depuradora particular para las residuales y vertido al terreno para las pluviales (apartado 3.1, punto 2).») define o regula específicamente a «Sin red pública» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Elementos de la instalación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sifones individuales, botes sifónicos, sumideros y arquetas sifónicas.»?",
       "opciones": [
         "Colectores horizontales.",
@@ -647,18 +239,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Elementos de la instalación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Pendiente mínima del 1 %, no más de dos colectores en un mismo punto y registros con tramos rectos de hasta 15 m (apartado 3.3.1.4.1).»?",
-      "opciones": [
-        "Colectores colgados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Colectores colgados.",
-        "Colectores colgados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Colectores colgados, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Pendiente mínima del 1 %, no más de dos colectores en un mismo punto y registros con tramos rectos de hasta 15 m (apartado 3.3.1.4.1).») define o regula específicamente a «Colectores colgados» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Dimensionado), ¿qué establece la normativa respecto a «Bajantes residuales»?",
       "opciones": [
         "Sifones y válvulas revisados al disminuir el caudal.",
@@ -668,18 +248,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «Bajantes residuales» (Dimensionado), la regulación vigente establece que: Variación de presión no superior a 250 Pa y ocupación no superior a un tercio de la sección.",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Dimensionado), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Variación de presión no superior a 250 Pa y ocupación no superior a un tercio de la sección.»?",
-      "opciones": [
-        "Bajantes residuales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Bajantes residuales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Bajantes residuales, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Bajantes residuales."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Variación de presión no superior a 250 Pa y ocupación no superior a un tercio de la sección.») define o regula específicamente a «Bajantes residuales» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -719,18 +287,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución y pruebas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Agua a 0,3 a 0,6 bar durante diez minutos, tramo a tramo.»?",
-      "opciones": [
-        "Prueba de la red horizontal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Prueba de la red horizontal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Prueba de la red horizontal, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Prueba de la red horizontal."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Agua a 0,3 a 0,6 bar durante diez minutos, tramo a tramo.») define o regula específicamente a «Prueba de la red horizontal» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Control, uso y mantenimiento), ¿qué establece la normativa respecto a «Mantenimiento»?",
       "opciones": [
         "Sifones y válvulas revisados al disminuir el caudal.",
@@ -740,18 +296,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Mantenimiento» (Control, uso y mantenimiento), la regulación vigente establece que: Sifones y válvulas revisados al disminuir el caudal.",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Control, uso y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sifones y válvulas revisados al disminuir el caudal.»?",
-      "opciones": [
-        "Mantenimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Mantenimiento.",
-        "Mantenimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Mantenimiento, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Sifones y válvulas revisados al disminuir el caudal.») define o regula específicamente a «Mantenimiento» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -767,18 +311,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Seguridad y medición), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Localizar cables y conducciones, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras (apartado 9.a a 9.d).»?",
-      "opciones": [
-        "Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Localizar cables y conducciones, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras (apartado 9.a a 9.d).») define o regula específicamente a «Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "Dentro del estudio de «Tipos de sistemas y conexión» (Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Es preferentemente por gravedad al pozo o arqueta general (apartado 3.1, punto 1).»?",
       "opciones": [
         "Cierres hidráulicos.",
@@ -789,6 +321,474 @@
       "correcta": 2,
       "explicacion": "Dicha regulación («Es preferentemente por gravedad al pozo o arqueta general (apartado 3.1, punto 1).») define o regula específicamente a «El desagüe» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Tipos de sistemas y conexión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sistemas individualizados, con estación depuradora particular para las residuales y vertido al terreno para las pluviales (apartado 3.1, punto 2).»?",
+      "opciones": [
+        "Bajantes residuales.",
+        "Sin red pública.",
+        "Mantenimiento.",
+        "Los cierres hidráulicos."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Sistemas individualizados, con estación depuradora particular para las residuales y vertido al terreno para las pluviales (apartado 3.1, punto 2).») define o regula específicamente a «Sin red pública» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Elementos de la instalación), ¿qué establece la normativa respecto a «Cierres hidráulicos»?",
+      "opciones": [
+        "Funcionamiento a media sección, máximo tres cuartos, con diámetro según la tabla 4.5 para pendientes del 1 %, 2 % o 4 % (apartado 4.1.3).",
+        "Localizar cables y conducciones, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras (apartado 9.a a 9.d).",
+        "Es de 50 mm para usos continuos y de 70 mm para usos discontinuos, y la máxima, de 100 mm.",
+        "Sifones individuales, botes sifónicos, sumideros y arquetas sifónicas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Cierres hidráulicos» (Elementos de la instalación), la regulación vigente establece que: Sifones individuales, botes sifónicos, sumideros y arquetas sifónicas.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Elementos de la instalación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Pendiente mínima del 1 %, no más de dos colectores en un mismo punto y registros con tramos rectos de hasta 15 m (apartado 3.3.1.4.1).»?",
+      "opciones": [
+        "Prueba de la red horizontal.",
+        "Colectores colgados.",
+        "El Código Técnico de la Edificación.",
+        "Las bajantes."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Pendiente mínima del 1 %, no más de dos colectores en un mismo punto y registros con tramos rectos de hasta 15 m (apartado 3.3.1.4.1).») define o regula específicamente a «Colectores colgados» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Dimensionado), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Variación de presión no superior a 250 Pa y ocupación no superior a un tercio de la sección.»?",
+      "opciones": [
+        "Mantenimiento.",
+        "Los cierres hidráulicos.",
+        "Los colectores.",
+        "Bajantes residuales."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Variación de presión no superior a 250 Pa y ocupación no superior a un tercio de la sección.») define o regula específicamente a «Bajantes residuales» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución y pruebas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Agua a 0,3 a 0,6 bar durante diez minutos, tramo a tramo.»?",
+      "opciones": [
+        "El Código Técnico de la Edificación.",
+        "Prueba de la red horizontal.",
+        "Las bajantes.",
+        "Una regla de ejecución que se repite en la práctica."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Agua a 0,3 a 0,6 bar durante diez minutos, tramo a tramo.») define o regula específicamente a «Prueba de la red horizontal» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Control, uso y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sifones y válvulas revisados al disminuir el caudal.»?",
+      "opciones": [
+        "Los cierres hidráulicos.",
+        "Los colectores.",
+        "La primera regla.",
+        "Mantenimiento."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Sifones y válvulas revisados al disminuir el caudal.») define o regula específicamente a «Mantenimiento» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Seguridad y medición), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Localizar cables y conducciones, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras (apartado 9.a a 9.d).»?",
+      "opciones": [
+        "La altura mínima de la lámina de agua.",
+        "Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9.",
+        "Los puntos de captación se ejecutan según el apartado 5.1.",
+        "Esa comunicación."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Localizar cables y conducciones, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras (apartado 9.a a 9.d).») define o regula específicamente a «Las zanjas se rigen por el RD 1627/1997, anexo IV, apartado 9» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Elementos que componen la instalación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las tuberías horizontales que recogen las bajantes y conducen el agua hasta la arqueta general.»?",
+      "opciones": [
+        "La primera regla.",
+        "El precio también depende de si la red.",
+        "El primero.",
+        "Los colectores."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Son las tuberías horizontales que recogen las bajantes y conducen el agua hasta la arqueta general.») define o regula específicamente a «Los colectores» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución de la instalación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Válvulas de desagüe, sifones individuales y botes sifónicos, calderetas o cazoletas y sumideros, y canalones (DB-HS 5, apartados 5.1.1 a 5.1.4).»?",
+      "opciones": [
+        "Esa comunicación.",
+        "Los puntos de captación se ejecutan según el apartado 5.1.",
+        "Para un supuesto práctico, el orden de análisis es.",
+        "El segundo."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Válvulas de desagüe, sifones individuales y botes sifónicos, calderetas o cazoletas y sumideros, y canalones (DB-HS 5, apartados 5.1.1 a 5.1.4).») define o regula específicamente a «Los puntos de captación se ejecutan según el apartado 5.1» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución de la instalación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es que las uniones, los entronques y las derivaciones se controlan al 100 % en la prueba de estanqueidad (apartado 5.6.1, punto 6).»?",
+      "opciones": [
+        "El saneamiento se mide por unidades de obra.",
+        "Decidir si el desagüe.",
+        "Una regla de ejecución que se repite en la práctica.",
+        "El tercero."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es que las uniones, los entronques y las derivaciones se controlan al 100 % en la prueba de estanqueidad (apartado 5.6.1, punto 6).») define o regula específicamente a «Una regla de ejecución que se repite en la práctica» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Uso, conservación y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es comprobar periódicamente la estanqueidad general de la red, la existencia de olores y el estado del resto de elementos (apartado 7, punto 1).»?",
+      "opciones": [
+        "El precio también depende de si la red.",
+        "El primero.",
+        "Marco normativo verificado en texto oficial para este tema.",
+        "La primera regla."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es comprobar periódicamente la estanqueidad general de la red, la existencia de olores y el estado del resto de elementos (apartado 7, punto 1).») define o regula específicamente a «La primera regla» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Uso, conservación y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la que permite detectar a tiempo un fallo que, si se deja avanzar, afecta al forjado o a la red enterrada.»?",
+      "opciones": [
+        "Esa comunicación.",
+        "Para un supuesto práctico, el orden de análisis es.",
+        "El segundo.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es la que permite detectar a tiempo un fallo que, si se deja avanzar, afecta al forjado o a la red enterrada.») define o regula específicamente a «Esa comunicación» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Criterios de medición y factores del precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Metros lineales de tubería por diámetro y material, con las piezas especiales y las conexiones.»?",
+      "opciones": [
+        "Decidir si el desagüe.",
+        "El saneamiento se mide por unidades de obra.",
+        "El tercero.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Metros lineales de tubería por diámetro y material, con las piezas especiales y las conexiones.») define o regula específicamente a «El saneamiento se mide por unidades de obra» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Criterios de medición y factores del precio), ¿qué establece la normativa respecto a «El precio también depende de si la red»?",
+      "opciones": [
+        "Es confundir las alturas de cierre para usos continuos (50 mm) y discontinuos (70 mm).",
+        "Código Técnico de la Edificación (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación): Exigencia HS 5 y control de la ejecución (arts. 5.2, 7, 8 y 13.5).",
+        "Es colgada o enterrada, porque la enterrada exige excavación, lecho, relleno y pruebas de cada tramo.",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El precio también depende de si la red» (Criterios de medición y factores del precio), la regulación vigente establece que: Es colgada o enterrada, porque la enterrada exige excavación, lecho, relleno y pruebas de cada tramo.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Criterios de medición y factores del precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es colgada o enterrada, porque la enterrada exige excavación, lecho, relleno y pruebas de cada tramo.»?",
+      "opciones": [
+        "El primero.",
+        "Marco normativo verificado en texto oficial para este tema.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "El precio también depende de si la red."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es colgada o enterrada, porque la enterrada exige excavación, lecho, relleno y pruebas de cada tramo.») define o regula específicamente a «El precio también depende de si la red» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «Para un supuesto práctico, el orden de análisis es»?",
+      "opciones": [
+        "Identificar si existe red pública y si es mixta o separativa.",
+        "Es atribuir al colector colgado una pendiente del 2 %, cuando el mínimo del DB es el 1 %.",
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Para un supuesto práctico, el orden de análisis es» (Cómo estudiarlo para el examen), la regulación vigente establece que: Identificar si existe red pública y si es mixta o separativa.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Identificar si existe red pública y si es mixta o separativa.»?",
+      "opciones": [
+        "El segundo.",
+        "Para un supuesto práctico, el orden de análisis es.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Identificar si existe red pública y si es mixta o separativa.») define o regula específicamente a «Para un supuesto práctico, el orden de análisis es» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «decidir si el desagüe»?",
+      "opciones": [
+        "Es olvidar que el DB-HS 5 se aplica también a las reformas que aumentan la capacidad de los aparatos.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Es por gravedad o requiere bombeo.",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «decidir si el desagüe» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es por gravedad o requiere bombeo.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es por gravedad o requiere bombeo.»?",
+      "opciones": [
+        "El tercero.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Decidir si el desagüe."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es por gravedad o requiere bombeo.») define o regula específicamente a «decidir si el desagüe» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El primero»?",
+      "opciones": [
+        "Es confundir las alturas de cierre para usos continuos (50 mm) y discontinuos (70 mm).",
+        "Código Técnico de la Edificación (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación): Exigencia HS 5 y control de la ejecución (arts. 5.2, 7, 8 y 13.5).",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El primero» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es confundir las alturas de cierre para usos continuos (50 mm) y discontinuos (70 mm).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es confundir las alturas de cierre para usos continuos (50 mm) y discontinuos (70 mm).»?",
+      "opciones": [
+        "Marco normativo verificado en texto oficial para este tema.",
+        "El primero.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es confundir las alturas de cierre para usos continuos (50 mm) y discontinuos (70 mm).») define o regula específicamente a «El primero» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El segundo»?",
+      "opciones": [
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "Es atribuir al colector colgado una pendiente del 2 %, cuando el mínimo del DB es el 1 %.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El segundo» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es atribuir al colector colgado una pendiente del 2 %, cuando el mínimo del DB es el 1 %.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es atribuir al colector colgado una pendiente del 2 %, cuando el mínimo del DB es el 1 %.»?",
+      "opciones": [
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "El segundo."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es atribuir al colector colgado una pendiente del 2 %, cuando el mínimo del DB es el 1 %.») define o regula específicamente a «El segundo» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El tercero»?",
+      "opciones": [
+        "Es olvidar que el DB-HS 5 se aplica también a las reformas que aumentan la capacidad de los aparatos.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El tercero» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es olvidar que el DB-HS 5 se aplica también a las reformas que aumentan la capacidad de los aparatos.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es olvidar que el DB-HS 5 se aplica también a las reformas que aumentan la capacidad de los aparatos.»?",
+      "opciones": [
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "El tercero.",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es olvidar que el DB-HS 5 se aplica también a las reformas que aumentan la capacidad de los aparatos.») define o regula específicamente a «El tercero» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Síntesis de verificación normativa y textos oficiales del tema), ¿qué establece la normativa respecto a «Marco normativo verificado en texto oficial para este tema»?",
+      "opciones": [
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Código Técnico de la Edificación (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación): Exigencia HS 5 y control de la ejecución (arts. 5.2, 7, 8 y 13.5).",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Marco normativo verificado en texto oficial para este tema» (Síntesis de verificación normativa y textos oficiales del tema), la regulación vigente establece que: Código Técnico de la Edificación (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación): Exigencia HS 5 y control de la ejecución (arts. 5.2, 7, 8 y 13.5).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Síntesis de verificación normativa y textos oficiales del tema), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Código Técnico de la Edificación (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación): Exigencia HS 5 y control de la ejecución (arts. 5.2, 7, 8 y 13.5).»?",
+      "opciones": [
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Marco normativo verificado en texto oficial para este tema."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Código Técnico de la Edificación (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación): Exigencia HS 5 y control de la ejecución (arts. 5.2, 7, 8 y 13.5).») define o regula específicamente a «Marco normativo verificado en texto oficial para este tema» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.»?",
+      "opciones": [
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.») define o regula específicamente a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Art. único de Código Técnico de la Edificación).",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "La presente Ley no será de aplicación en aquellas actividades cuyas particularidades lo impidan en el ámbito de las funciones públicas de: –Policía, seguridad y resguardo aduanero."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.»?",
+      "opciones": [
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Ambito de aplicación (art. 3 Ley de Prevención de Riesgos Laborales).",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.») define o regula específicamente a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Art. 4 de Código Técnico de la Edificación).",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "2.º Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.»?",
+      "opciones": [
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Definiciones (art. 4 Ley de Prevención de Riesgos Laborales)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.») define o regula específicamente a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Art. 5 de Código Técnico de la Edificación).",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "Específicamente podrá establecerse el sometimiento de estos procesos u operaciones a trámites de control administrativo, así como, en el caso de agentes peligrosos, la prohibición de su empleo."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.»?",
+      "opciones": [
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+        "Normas reglamentarias (art. 6 Ley de Prevención de Riesgos Laborales).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.») define o regula específicamente a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Art. 6 de Código Técnico de la Edificación).",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "La presente Ley no será de aplicación en aquellas actividades cuyas particularidades lo impidan en el ámbito de las funciones públicas de: –Policía, seguridad y resguardo aduanero.",
+        "Corresponde a la Inspección de Trabajo y Seguridad Social la función de la vigilancia y control de la normativa sobre prevención de riesgos laborales."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+      "referencia": "Art. 7 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.»?",
+      "opciones": [
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Ambito de aplicación (art. 3 Ley de Prevención de Riesgos Laborales).",
+        "Inspección de Trabajo y Seguridad Social (art. 9 Ley de Prevención de Riesgos Laborales)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.») define o regula específicamente a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Art. 7 de Código Técnico de la Edificación).",
+      "referencia": "Art. 7 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "2.º Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "El empresario tomará en consideración las capacidades profesionales de los trabajadores en materia de seguridad y de salud en el momento de encomendarles las tareas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+      "referencia": "Art. 8 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Saneamiento en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.»?",
+      "opciones": [
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Definiciones (art. 4 Ley de Prevención de Riesgos Laborales).",
+        "Principios de la acción preventiva (art. 15 Ley de Prevención de Riesgos Laborales).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.») define o regula específicamente a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Art. 8 de Código Técnico de la Edificación).",
+      "referencia": "Art. 8 de Código Técnico de la Edificación"
     }
   ]
 }

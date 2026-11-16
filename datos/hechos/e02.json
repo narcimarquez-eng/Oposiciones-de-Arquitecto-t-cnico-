@@ -12,42 +12,6 @@
     "referencia": "CTE, DB-SE-C, tabla 3.1"
   },
   {
-    "pregunta": "¿Qué tipo de construcción corresponde a edificios de entre 4 y 10 plantas?",
-    "opciones": [
-      "C-2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "C-2",
-      "C-2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "C-2, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "El tipo C-2 corresponde a construcciones entre 4 y 10 plantas.",
-    "referencia": "CTE, DB-SE-C, tabla 3.1"
-  },
-  {
-    "pregunta": "¿Qué grupo de terreno corresponde a los terrenos favorables con poca variabilidad?",
-    "opciones": [
-      "T-1",
-      "T-1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "T-1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "T-1, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "El grupo T-1 corresponde a terrenos favorables con poca variabilidad.",
-    "referencia": "CTE, DB-SE-C, tabla 3.2"
-  },
-  {
-    "pregunta": "¿Qué grupo de terreno es el de los terrenos desfavorables?",
-    "opciones": [
-      "T-3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "T-3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "T-3, computándose los plazos en días naturales y con sentido desestimatorio",
-      "T-3"
-    ],
-    "correcta": 3,
-    "explicacion": "El grupo T-3 incluye los terrenos desfavorables que no pueden clasificarse en los anteriores.",
-    "referencia": "CTE, DB-SE-C, tabla 3.2"
-  },
-  {
     "pregunta": "¿Qué tipo de zapata se usa para alineaciones de tres o más pilares o muros?",
     "opciones": [
       "Zapata aislada",
@@ -57,18 +21,6 @@
     ],
     "correcta": 3,
     "explicacion": "La zapata corrida se emplea en alineaciones de tres o más pilares o muros.",
-    "referencia": "CTE, DB-SE-C, tabla 4.1"
-  },
-  {
-    "pregunta": "¿Qué tipo de zapata recoge dos o más pilares contiguos?",
-    "opciones": [
-      "Zapata combinada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Zapata combinada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Zapata combinada",
-      "Zapata combinada, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "La zapata combinada recoge dos o más pilares contiguos.",
     "referencia": "CTE, DB-SE-C, tabla 4.1"
   },
   {
@@ -82,18 +34,6 @@
     "correcta": 0,
     "explicacion": "La solera de asiento tiene por misión crear una superficie plana y horizontal de apoyo.",
     "referencia": "CTE, DB-SE-C, apartado 4.5"
-  },
-  {
-    "pregunta": "¿Cuánto debe quedar sumergido, con carácter general, el tubo de hormigonado de un pilote en el hormigón?",
-    "opciones": [
-      "Al menos 3 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Al menos 3 m",
-      "Al menos 3 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Al menos 3 m, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "La profundidad mínima de inmersión del tubo es de tres metros, reducible a dos si se conoce con precisión el nivel del hormigón.",
-    "referencia": "CTE, DB-SE-C, apartado 5.4"
   },
   {
     "pregunta": "¿Qué ensayo de campo cuenta los golpes necesarios para hincar 30 cm un tomamuestras normalizado?",
@@ -358,5 +298,65 @@
     "correcta": 1,
     "explicacion": "Dicha determinación («Es uno de los errores más frecuentes.») define o regula específicamente a «La confusión entre estos plazos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Cimentaciones en los edificios. Estudios geotécnicos. Tipos de cimentaciones y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, conservación y mantenimiento. Evaluación de riegos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Ley de Ordenación de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El proyectista es el agente que, por encargo del promotor y con sujeción a la normativa técnica y urbanística correspondiente, redacta el proyecto.»?",
+    "opciones": [
+      "Los suministradores de productos (art. 15 Ley de Ordenación de la Edificación).",
+      "El proyectista (art. 10 Ley de Ordenación de la Edificación).",
+      "El número mínimo de perfiles depende de la categoría.",
+      "En edificios C-3 y C-4."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («El proyectista es el agente que, por encargo del promotor y con sujeción a la normativa técnica y urbanística correspondiente, redacta el proyecto.») define o regula específicamente a «El proyectista (art. 10 Ley de Ordenación de la Edificación)» (Art. 10 de Ley de Ordenación de la Edificación).",
+    "referencia": "Art. 10 de Ley de Ordenación de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Cimentaciones en los edificios. Estudios geotécnicos. Tipos de cimentaciones y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, conservación y mantenimiento. Evaluación de riegos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Ley de Ordenación de la Edificación), ¿qué establece la normativa respecto a «El director de obra (art. 12 Ley de Ordenación de la Edificación)»?",
+    "opciones": [
+      "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+      "La exigencia SE 1 pide resistencia y estabilidad, y la SE 2, aptitud al servicio sin deformaciones inadmisibles (art. 10.1 y 10.2).",
+      "Podrán dirigir las obras de los proyectos parciales otros técnicos, bajo la coordinación del director de obra.",
+      "Exige supervisión de persona competente (anexo IV, apartado 12.a)."
+    ],
+    "correcta": 2,
+    "explicacion": "Respecto a «El director de obra (art. 12 Ley de Ordenación de la Edificación)» (Articulado de Ley de Ordenación de la Edificación), la regulación vigente establece que: Podrán dirigir las obras de los proyectos parciales otros técnicos, bajo la coordinación del director de obra.",
+    "referencia": "Art. 12 de Ley de Ordenación de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Cimentaciones en los edificios. Estudios geotécnicos. Tipos de cimentaciones y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, conservación y mantenimiento. Evaluación de riegos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Ley de Ordenación de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Podrán dirigir las obras de los proyectos parciales otros técnicos, bajo la coordinación del director de obra.»?",
+    "opciones": [
+      "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+      "La seguridad estructural es el requisito del artículo 10 del CTE.",
+      "El derribo de elementos existentes.",
+      "El director de obra (art. 12 Ley de Ordenación de la Edificación)."
+    ],
+    "correcta": 3,
+    "explicacion": "Dicha determinación («Podrán dirigir las obras de los proyectos parciales otros técnicos, bajo la coordinación del director de obra.») define o regula específicamente a «El director de obra (art. 12 Ley de Ordenación de la Edificación)» (Art. 12 de Ley de Ordenación de la Edificación).",
+    "referencia": "Art. 12 de Ley de Ordenación de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Cimentaciones en los edificios. Estudios geotécnicos. Tipos de cimentaciones y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, conservación y mantenimiento. Evaluación de riegos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Ley de Ordenación de la Edificación), ¿qué establece la normativa respecto a «El director de la ejecución de la obra (art. 13 Ley de Ordenación de la Edificación)»?",
+    "opciones": [
+      "En caso de personas jurídicas, designar al técnico director de la ejecución de la obra que tenga la titulación profesional habilitante.",
+      "Es el compendio de información cuantificada sobre el terreno, necesario para dimensionar los cimientos (DB-SE-C, apartado 3.1, punto 1).",
+      "Es el documento que concreta las cimentaciones (art. 10.3).",
+      "Es la parte del edificio que transmite al terreno las cargas de la estructura: las de los pilares, los muros de carga o de contención, los forjados y el peso propio del conjunto."
+    ],
+    "correcta": 0,
+    "explicacion": "Respecto a «El director de la ejecución de la obra (art. 13 Ley de Ordenación de la Edificación)» (Articulado de Ley de Ordenación de la Edificación), la regulación vigente establece que: En caso de personas jurídicas, designar al técnico director de la ejecución de la obra que tenga la titulación profesional habilitante.",
+    "referencia": "Art. 13 de Ley de Ordenación de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Cimentaciones en los edificios. Estudios geotécnicos. Tipos de cimentaciones y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, conservación y mantenimiento. Evaluación de riegos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Ley de Ordenación de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En caso de personas jurídicas, designar al técnico director de la ejecución de la obra que tenga la titulación profesional habilitante.»?",
+    "opciones": [
+      "El estudio geotécnico.",
+      "El director de la ejecución de la obra (art. 13 Ley de Ordenación de la Edificación).",
+      "El DB-SE-C.",
+      "La cimentación."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («En caso de personas jurídicas, designar al técnico director de la ejecución de la obra que tenga la titulación profesional habilitante.») define o regula específicamente a «El director de la ejecución de la obra (art. 13 Ley de Ordenación de la Edificación)» (Art. 13 de Ley de Ordenación de la Edificación).",
+    "referencia": "Art. 13 de Ley de Ordenación de la Edificación"
   }
 ]

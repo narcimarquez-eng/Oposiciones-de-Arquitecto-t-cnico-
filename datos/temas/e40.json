@@ -170,54 +170,6 @@
       "referencia": "Ley 14/2010, art. 3.1, letra b)"
     },
     {
-      "pregunta": "¿Qué captura, almacena, consulta, analiza y representa un SIG?",
-      "opciones": [
-        "Datos con referencia espacial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Datos con referencia espacial",
-        "Datos con referencia espacial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Datos con referencia espacial, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Un SIG trabaja con datos con referencia espacial.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Cuáles son los componentes de un SIG?",
-      "opciones": [
-        "Equipamiento físico, software, datos, personas y procedimientos",
-        "Equipamiento físico, software, datos, personas y procedimientos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Equipamiento físico, software, datos, personas y procedimientos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Equipamiento físico, software, datos, personas y procedimientos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Un SIG tiene equipamiento, software, datos, personas y procedimientos.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿De qué depende sobre todo la calidad de un SIG?",
-      "opciones": [
-        "De los datos y de los procedimientos de captura, control y actualización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "De los datos y de los procedimientos de captura, control y actualización",
-        "De los datos y de los procedimientos de captura, control y actualización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "De los datos y de los procedimientos de captura, control y actualización, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La calidad depende sobre todo de los datos y de los procedimientos.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Qué modelo de datos usa puntos, líneas y polígonos con atributos?",
-      "opciones": [
-        "El modelo vectorial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El modelo vectorial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El modelo vectorial, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El modelo vectorial"
-      ],
-      "correcta": 3,
-      "explicacion": "El modelo vectorial usa puntos, líneas y polígonos con atributos.",
-      "referencia": "Tema e40"
-    },
-    {
       "pregunta": "¿Qué modelo de datos usa una malla de celdas con un valor?",
       "opciones": [
         "El modelo ráster",
@@ -227,18 +179,6 @@
       ],
       "correcta": 0,
       "explicacion": "El modelo ráster es una malla de celdas con un valor.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Qué necesitan los datos geográficos para ubicarse?",
-      "opciones": [
-        "Un sistema de referencia (datum y proyección), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un sistema de referencia (datum y proyección)",
-        "Un sistema de referencia (datum y proyección), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un sistema de referencia (datum y proyección), computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los datos necesitan un sistema de referencia, con datum y proyección.",
       "referencia": "Tema e40"
     },
     {
@@ -254,102 +194,6 @@
       "referencia": "Tema e40"
     },
     {
-      "pregunta": "¿Qué fase de un SIG va después de la captura y carga de datos?",
-      "opciones": [
-        "El control de calidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El control de calidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El control de calidad, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El control de calidad"
-      ],
-      "correcta": 3,
-      "explicacion": "Tras la captura y la carga viene el control de calidad.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Qué aspectos se controlan en la calidad de los datos de un SIG?",
-      "opciones": [
-        "Precisión posicional, completitud, coherencia topológica y actualidad",
-        "Precisión posicional, completitud, coherencia topológica y actualidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Precisión posicional, completitud, coherencia topológica y actualidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Precisión posicional, completitud, coherencia topológica y actualidad, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El control de calidad revisa la precisión, la completitud, la coherencia topológica y la actualidad.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Qué documentación es obligatoria para los datos de los anexos de la Ley 14/2010?",
-      "opciones": [
-        "Los metadatos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los metadatos",
-        "Los metadatos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los metadatos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La documentación con metadatos es obligatoria para esos datos.",
-      "referencia": "Ley 14/2010, art. 9.1"
-    },
-    {
-      "pregunta": "¿Qué operación básica de un SIG consiste en crear una zona alrededor de un objeto?",
-      "opciones": [
-        "La zona de influencia (buffer), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La zona de influencia (buffer), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La zona de influencia (buffer)",
-        "La zona de influencia (buffer), computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La zona de influencia (buffer) crea una zona alrededor de un objeto.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Qué operación de SIG permite combinar capas superpuestas?",
-      "opciones": [
-        "La superposición de capas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La superposición de capas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La superposición de capas, computándose los plazos en días naturales y con sentido desestimatorio",
-        "La superposición de capas"
-      ],
-      "correcta": 3,
-      "explicacion": "La superposición de capas combina capas.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Qué aplicación del SIG se relaciona con los mapas de ruido?",
-      "opciones": [
-        "Los mapas de ruido de la Ley 37/2003",
-        "Los mapas de ruido de la Ley 37/2003, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los mapas de ruido de la Ley 37/2003, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los mapas de ruido de la Ley 37/2003, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los mapas de ruido se regulan en la Ley 37/2003.",
-      "referencia": "Ley 37/2003, arts. 14 a 16"
-    },
-    {
-      "pregunta": "¿Qué es una Infraestructura de Datos Espaciales (IDE)?",
-      "opciones": [
-        "Una estructura virtual en red de datos georreferenciados y servicios interoperables, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una estructura virtual en red de datos georreferenciados y servicios interoperables",
-        "Una estructura virtual en red de datos georreferenciados y servicios interoperables, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una estructura virtual en red de datos georreferenciados y servicios interoperables, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La IDE es una estructura virtual en red de datos georreferenciados y servicios interoperables.",
-      "referencia": "Ley 14/2010, art. 3.1 a)"
-    },
-    {
-      "pregunta": "¿Dónde se ponen a disposición los datos de la Infraestructura de Información Geográfica?",
-      "opciones": [
-        "En el Geoportal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "En el Geoportal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "En el Geoportal",
-        "En el Geoportal, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los datos se ponen a disposición a través del Geoportal.",
-      "referencia": "Ley 14/2010, art. 5.1"
-    },
-    {
       "pregunta": "¿Qué son los datos geográficos según la Ley 14/2010?",
       "opciones": [
         "Solo los datos de música",
@@ -362,150 +206,6 @@
       "referencia": "Ley 14/2010, art. 3.1 b)"
     },
     {
-      "pregunta": "¿Qué son los metadatos según la Ley 14/2010?",
-      "opciones": [
-        "Información que describe conjuntos de datos y servicios y permite localizarlos",
-        "Información que describe conjuntos de datos y servicios y permite localizarlos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Información que describe conjuntos de datos y servicios y permite localizarlos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Información que describe conjuntos de datos y servicios y permite localizarlos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los metadatos describen conjuntos de datos y servicios y permiten localizarlos.",
-      "referencia": "Ley 14/2010, art. 3.1 f)"
-    },
-    {
-      "pregunta": "¿Qué coordina el Sistema Cartográfico Nacional?",
-      "opciones": [
-        "Los operadores públicos con competencias concurrentes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los operadores públicos con competencias concurrentes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los operadores públicos con competencias concurrentes",
-        "Los operadores públicos con competencias concurrentes, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El Sistema Cartográfico Nacional coordina a los operadores públicos con competencias concurrentes.",
-      "referencia": "Ley 14/2010, art. 17.1"
-    },
-    {
-      "pregunta": "¿Qué son los mapas de ruido según la Ley 37/2003?",
-      "opciones": [
-        "La base para planificar medidas correctoras y zonas de servidumbre acústica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La base para planificar medidas correctoras y zonas de servidumbre acústica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La base para planificar medidas correctoras y zonas de servidumbre acústica",
-        "La base para planificar medidas correctoras y zonas de servidumbre acústica, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los mapas de ruido son la base para planificar las medidas correctoras y las zonas de servidumbre acústica.",
-      "referencia": "Ley 37/2003, art. 10"
-    },
-    {
-      "pregunta": "¿Qué normas regulan la identificación de los mapas de ruido?",
-      "opciones": [
-        "Los arts. 14 a 16 de la Ley 37/2003",
-        "Los arts. 14 a 16 de la Ley 37/2003, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los arts. 14 a 16 de la Ley 37/2003, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los arts. 14 a 16 de la Ley 37/2003, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los arts. 14 a 16 de la Ley 37/2003 regulan los mapas de ruido.",
-      "referencia": "Ley 37/2003, arts. 14 a 16"
-    },
-    {
-      "pregunta": "¿Qué fase de un SIG consiste en el análisis de necesidades?",
-      "opciones": [
-        "La primera fase, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La primera fase",
-        "La primera fase, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La primera fase, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El análisis de necesidades es la primera fase.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Qué componentes integran un SIG?",
-      "opciones": [
-        "Hardware, software, datos, personas y procedimientos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Hardware, software, datos, personas y procedimientos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Hardware, software, datos, personas y procedimientos",
-        "Hardware, software, datos, personas y procedimientos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Un SIG se compone de hardware, software, datos, personas y procedimientos.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Qué modelo de datos representa el espacio como una malla de celdas?",
-      "opciones": [
-        "Modelo ráster, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Modelo ráster, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Modelo ráster, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Modelo ráster"
-      ],
-      "correcta": 3,
-      "explicacion": "El modelo ráster divide el espacio en celdas regulares.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Qué elementos básicos forman el modelo vectorial?",
-      "opciones": [
-        "Puntos, líneas y polígonos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Puntos, líneas y polígonos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Puntos, líneas y polígonos, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Puntos, líneas y polígonos"
-      ],
-      "correcta": 3,
-      "explicacion": "El modelo vectorial utiliza puntos, líneas y polígonos.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Qué sistema de referencia geodésico oficial se adopta en Europa y en España?",
-      "opciones": [
-        "ETRS89",
-        "ETRS89, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "ETRS89, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "ETRS89, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El ETRS89 es el sistema de referencia oficial europeo adoptado en España.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Qué proyección cartográfica se usa habitualmente en España?",
-      "opciones": [
-        "UTM, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "UTM",
-        "UTM, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "UTM, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La proyección UTM es la más empleada en la cartografía oficial española.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Qué software SIG libre es muy utilizado?",
-      "opciones": [
-        "QGIS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "QGIS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "QGIS",
-        "QGIS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "QGIS es un SIG de código abierto muy extendido.",
-      "referencia": "Tema e40"
-    },
-    {
-      "pregunta": "¿Qué es un datum en cartografía?",
-      "opciones": [
-        "Sistema de referencia geodésico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Sistema de referencia geodésico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Sistema de referencia geodésico, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Sistema de referencia geodésico"
-      ],
-      "correcta": 3,
-      "explicacion": "El datum define el sistema de referencia geodésico que sitúa la cartografía.",
-      "referencia": "Tema e40"
-    },
-    {
       "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Concepto y componentes de un SIG), ¿qué establece la normativa respecto a «Su rasgo distintivo»?",
       "opciones": [
         "Es que cada dato va asociado a una posición y puede combinarse con otros datos que comparten sistema de referencia.",
@@ -515,30 +215,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Su rasgo distintivo» (Concepto y componentes de un SIG), la regulación vigente establece que: Es que cada dato va asociado a una posición y puede combinarse con otros datos que comparten sistema de referencia.",
-      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Concepto y componentes de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es que cada dato va asociado a una posición y puede combinarse con otros datos que comparten sistema de referencia.»?",
-      "opciones": [
-        "Su rasgo distintivo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Su rasgo distintivo.",
-        "Su rasgo distintivo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Su rasgo distintivo, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es que cada dato va asociado a una posición y puede combinarse con otros datos que comparten sistema de referencia.») define o regula específicamente a «Su rasgo distintivo» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
-      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Concepto y componentes de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Equipamiento físico, software, datos, personas y procedimientos.»?",
-      "opciones": [
-        "Componentes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Componentes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Componentes, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Componentes."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Equipamiento físico, software, datos, personas y procedimientos.») define o regula específicamente a «Componentes» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     },
     {
@@ -554,18 +230,6 @@
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     },
     {
-      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Modelos de datos y referencia espacial), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Puntos, líneas y polígonos con atributos (parcelas, calles, redes).»?",
-      "opciones": [
-        "Modelo vectorial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Modelo vectorial.",
-        "Modelo vectorial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Modelo vectorial, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Puntos, líneas y polígonos con atributos (parcelas, calles, redes).») define o regula específicamente a «Modelo vectorial» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
-      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
-    },
-    {
       "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Modelos de datos y referencia espacial), ¿qué establece la normativa respecto a «Los atributos»?",
       "opciones": [
         "Urbanismo y planeamiento, catastro, gestión de patrimonio edificado, mapas de ruido (Ley 37/2003, arts. 14 a 16) y protección civil.",
@@ -575,18 +239,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «Los atributos» (Modelos de datos y referencia espacial), la regulación vigente establece que: Son los datos no geométricos asociados a cada objeto.",
-      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Modelos de datos y referencia espacial), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los datos no geométricos asociados a cada objeto.»?",
-      "opciones": [
-        "Los atributos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los atributos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los atributos, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Los atributos."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Son los datos no geométricos asociados a cada objeto.») define o regula específicamente a «Los atributos» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     },
     {
@@ -602,18 +254,6 @@
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     },
     {
-      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Implementación y organización), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es obligatoria para los datos de los anexos de la Ley 14/2010 (art. 9, apartado 1).»?",
-      "opciones": [
-        "La documentación con metadatos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La documentación con metadatos.",
-        "La documentación con metadatos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La documentación con metadatos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es obligatoria para los datos de los anexos de la Ley 14/2010 (art. 9, apartado 1).») define o regula específicamente a «La documentación con metadatos» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
-      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
-    },
-    {
       "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Análisis y aplicaciones), ¿qué establece la normativa respecto a «Operaciones básicas»?",
       "opciones": [
         "Cualesquiera datos que, de forma directa o indirecta, hagan referencia a una localización (art. 3.1, letra b).",
@@ -623,18 +263,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «Operaciones básicas» (Análisis y aplicaciones), la regulación vigente establece que: Consulta por atributos, consulta por localización, superposición de capas, zona de influencia (buffer), análisis de redes e interpolación.",
-      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Análisis y aplicaciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Consulta por atributos, consulta por localización, superposición de capas, zona de influencia (buffer), análisis de redes e interpolación.»?",
-      "opciones": [
-        "Operaciones básicas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Operaciones básicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Operaciones básicas, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Operaciones básicas."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Consulta por atributos, consulta por localización, superposición de capas, zona de influencia (buffer), análisis de redes e interpolación.») define o regula específicamente a «Operaciones básicas» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     },
     {
@@ -650,18 +278,6 @@
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     },
     {
-      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Análisis y aplicaciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Urbanismo y planeamiento, catastro, gestión de patrimonio edificado, mapas de ruido (Ley 37/2003, arts. 14 a 16) y protección civil.»?",
-      "opciones": [
-        "Aplicaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Aplicaciones.",
-        "Aplicaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Aplicaciones, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Urbanismo y planeamiento, catastro, gestión de patrimonio edificado, mapas de ruido (Ley 37/2003, arts. 14 a 16) y protección civil.») define o regula específicamente a «Aplicaciones» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
-      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
-    },
-    {
       "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Infraestructura de Datos Espaciales (IDE)), ¿qué establece la normativa respecto a «Definición»?",
       "opciones": [
         "Regula la identificación de los mapas de ruido (art. 14), sus fines y contenido (art. 15) y su revisión (art. 16).",
@@ -671,30 +287,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «Definición» (Infraestructura de Datos Espaciales (IDE)), la regulación vigente establece que: Estructura virtual en red de datos georreferenciados y servicios interoperables, accesible por Internet con protocolos normalizados (Ley 14/2010, art. 3.1, letra a).",
-      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Infraestructura de Datos Espaciales (IDE)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Estructura virtual en red de datos georreferenciados y servicios interoperables, accesible por Internet con protocolos normalizados (Ley 14/2010, art. 3.1, letra a).»?",
-      "opciones": [
-        "Definición, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Definición, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Definición, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Definición."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Estructura virtual en red de datos georreferenciados y servicios interoperables, accesible por Internet con protocolos normalizados (Ley 14/2010, art. 3.1, letra a).») define o regula específicamente a «Definición» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
-      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Definiciones de la Ley 14/2010), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Cualesquiera datos que, de forma directa o indirecta, hagan referencia a una localización (art. 3.1, letra b).»?",
-      "opciones": [
-        "Datos geográficos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Datos geográficos.",
-        "Datos geográficos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Datos geográficos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Cualesquiera datos que, de forma directa o indirecta, hagan referencia a una localización (art. 3.1, letra b).») define o regula específicamente a «Datos geográficos» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     },
     {
@@ -710,75 +302,483 @@
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     },
     {
-      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Definiciones de la Ley 14/2010), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Modelo de actuación que coordina a los operadores públicos con competencias concurrentes (art. 17, apartado 1).»?",
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Concepto y componentes de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es que cada dato va asociado a una posición y puede combinarse con otros datos que comparten sistema de referencia.»?",
       "opciones": [
-        "Sistema Cartográfico Nacional, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Sistema Cartográfico Nacional, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Sistema Cartográfico Nacional, computándose los plazos en días naturales y con sentido desestimatorio",
+        "Los atributos.",
+        "Su rasgo distintivo.",
+        "Aplicaciones.",
         "Sistema Cartográfico Nacional."
       ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es que cada dato va asociado a una posición y puede combinarse con otros datos que comparten sistema de referencia.») define o regula específicamente a «Su rasgo distintivo» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Concepto y componentes de un SIG), ¿qué establece la normativa respecto a «Componentes»?",
+      "opciones": [
+        "Es obligatoria para los datos de los anexos de la Ley 14/2010 (art. 9, apartado 1).",
+        "Estructura virtual en red de datos georreferenciados y servicios interoperables, accesible por Internet con protocolos normalizados (Ley 14/2010, art. 3.1, letra a).",
+        "Regula la identificación de los mapas de ruido (art. 14), sus fines y contenido (art. 15) y su revisión (art. 16).",
+        "Equipamiento físico, software, datos, personas y procedimientos."
+      ],
       "correcta": 3,
+      "explicacion": "Respecto a «Componentes» (Concepto y componentes de un SIG), la regulación vigente establece que: Equipamiento físico, software, datos, personas y procedimientos.",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Concepto y componentes de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Equipamiento físico, software, datos, personas y procedimientos.»?",
+      "opciones": [
+        "La documentación con metadatos.",
+        "Componentes.",
+        "Definición.",
+        "La Ley 37/2003."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Equipamiento físico, software, datos, personas y procedimientos.») define o regula específicamente a «Componentes» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Modelos de datos y referencia espacial), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Puntos, líneas y polígonos con atributos (parcelas, calles, redes).»?",
+      "opciones": [
+        "Operaciones básicas.",
+        "Datos geográficos.",
+        "Los mapas.",
+        "Modelo vectorial."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Puntos, líneas y polígonos con atributos (parcelas, calles, redes).») define o regula específicamente a «Modelo vectorial» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Modelos de datos y referencia espacial), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los datos no geométricos asociados a cada objeto.»?",
+      "opciones": [
+        "Aplicaciones.",
+        "Los atributos.",
+        "Sistema Cartográfico Nacional.",
+        "El primero."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Son los datos no geométricos asociados a cada objeto.») define o regula específicamente a «Los atributos» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Implementación y organización), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es obligatoria para los datos de los anexos de la Ley 14/2010 (art. 9, apartado 1).»?",
+      "opciones": [
+        "Definición.",
+        "La Ley 37/2003.",
+        "El segundo.",
+        "La documentación con metadatos."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es obligatoria para los datos de los anexos de la Ley 14/2010 (art. 9, apartado 1).») define o regula específicamente a «La documentación con metadatos» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Análisis y aplicaciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Consulta por atributos, consulta por localización, superposición de capas, zona de influencia (buffer), análisis de redes e interpolación.»?",
+      "opciones": [
+        "Datos geográficos.",
+        "Operaciones básicas.",
+        "Los mapas.",
+        "El tercero."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Consulta por atributos, consulta por localización, superposición de capas, zona de influencia (buffer), análisis de redes e interpolación.») define o regula específicamente a «Operaciones básicas» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Análisis y aplicaciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Urbanismo y planeamiento, catastro, gestión de patrimonio edificado, mapas de ruido (Ley 37/2003, arts. 14 a 16) y protección civil.»?",
+      "opciones": [
+        "Sistema Cartográfico Nacional.",
+        "El primero.",
+        "El cuarto componente son las personas.",
+        "Aplicaciones."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Urbanismo y planeamiento, catastro, gestión de patrimonio edificado, mapas de ruido (Ley 37/2003, arts. 14 a 16) y protección civil.») define o regula específicamente a «Aplicaciones» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Infraestructura de Datos Espaciales (IDE)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Estructura virtual en red de datos georreferenciados y servicios interoperables, accesible por Internet con protocolos normalizados (Ley 14/2010, art. 3.1, letra a).»?",
+      "opciones": [
+        "La Ley 37/2003.",
+        "Definición.",
+        "El segundo.",
+        "Un error frecuente."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Estructura virtual en red de datos georreferenciados y servicios interoperables, accesible por Internet con protocolos normalizados (Ley 14/2010, art. 3.1, letra a).») define o regula específicamente a «Definición» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Definiciones de la Ley 14/2010), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Cualesquiera datos que, de forma directa o indirecta, hagan referencia a una localización (art. 3.1, letra b).»?",
+      "opciones": [
+        "Los mapas.",
+        "El tercero.",
+        "Una capa de planeamiento a escala 1.",
+        "Datos geográficos."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Cualesquiera datos que, de forma directa o indirecta, hagan referencia a una localización (art. 3.1, letra b).») define o regula específicamente a «Datos geográficos» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Definiciones de la Ley 14/2010), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Modelo de actuación que coordina a los operadores públicos con competencias concurrentes (art. 17, apartado 1).»?",
+      "opciones": [
+        "El primero.",
+        "Sistema Cartográfico Nacional.",
+        "El cuarto componente son las personas.",
+        "La primera es el análisis de necesidades."
+      ],
+      "correcta": 1,
       "explicacion": "Dicha determinación («Modelo de actuación que coordina a los operadores públicos con competencias concurrentes (art. 17, apartado 1).») define o regula específicamente a «Sistema Cartográfico Nacional» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     },
     {
-      "pregunta": "En relación con «La Ley 37/2003» (Mapas de ruido), señale la determinación correcta conforme a la normativa del tema:",
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Mapas de ruido), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la identificación de los mapas de ruido (art. 14), sus fines y contenido (art. 15) y su revisión (art. 16).»?",
       "opciones": [
-        "Regula la identificación de los mapas de ruido (art. 14), sus fines y contenido (art. 15) y su revisión (art. 16), previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "Regula la identificación de los mapas de ruido (art. 14), sus fines y contenido (art. 15) y su revisión (art. 16), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "Regula la identificación de los mapas de ruido (art. 14), sus fines y contenido (art. 15) y su revisión (art. 16), computándose los plazos en días naturales y con sentido desestimatorio.",
-        "Regula la identificación de los mapas de ruido (art. 14), sus fines y contenido (art. 15) y su revisión (art. 16)."
+        "El segundo.",
+        "Un error frecuente.",
+        "La segunda.",
+        "La Ley 37/2003."
       ],
       "correcta": 3,
-      "explicacion": "Respecto a «La Ley 37/2003» (Mapas de ruido), la regulación vigente establece que: Regula la identificación de los mapas de ruido (art. 14), sus fines y contenido (art. 15) y su revisión (art. 16).",
+      "explicacion": "Dicha determinación («Regula la identificación de los mapas de ruido (art. 14), sus fines y contenido (art. 15) y su revisión (art. 16).») define o regula específicamente a «La Ley 37/2003» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     },
     {
-      "pregunta": "En relación con «Los mapas» (Mapas de ruido), señale la determinación correcta conforme a la normativa del tema:",
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Mapas de ruido), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son la base para planificar las medidas correctoras y las zonas de servidumbre acústica (art. 10).»?",
       "opciones": [
-        "Son la base para planificar las medidas correctoras y las zonas de servidumbre acústica (art. 10).",
-        "Son la base para planificar las medidas correctoras y las zonas de servidumbre acústica (art. 10), previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "Son la base para planificar las medidas correctoras y las zonas de servidumbre acústica (art. 10), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "Son la base para planificar las medidas correctoras y las zonas de servidumbre acústica (art. 10), computándose los plazos en días naturales y con sentido desestimatorio."
+        "Los mapas.",
+        "El tercero.",
+        "Una capa de planeamiento a escala 1.",
+        "La tercera."
       ],
       "correcta": 0,
-      "explicacion": "Respecto a «Los mapas» (Mapas de ruido), la regulación vigente establece que: Son la base para planificar las medidas correctoras y las zonas de servidumbre acústica (art. 10).",
+      "explicacion": "Dicha determinación («Son la base para planificar las medidas correctoras y las zonas de servidumbre acústica (art. 10).») define o regula específicamente a «Los mapas» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     },
     {
-      "pregunta": "En relación con «El primero» (Componentes de un SIG), señale la determinación correcta conforme a la normativa del tema:",
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Componentes de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el software, con el módulo de gestión de la base de datos, el de análisis espacial y el de representación cartográfica.»?",
       "opciones": [
-        "Es el equipamiento físico o hardware, con los servidores, los equipos de trabajo y los dispositivos de captura, como los receptores GNSS, los escáneres o los drones, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "Es el equipamiento físico o hardware, con los servidores, los equipos de trabajo y los dispositivos de captura, como los receptores GNSS, los escáneres o los drones.",
-        "Es el equipamiento físico o hardware, con los servidores, los equipos de trabajo y los dispositivos de captura, como los receptores GNSS, los escáneres o los drones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "Es el equipamiento físico o hardware, con los servidores, los equipos de trabajo y los dispositivos de captura, como los receptores GNSS, los escáneres o los drones, computándose los plazos en días naturales y con sentido desestimatorio."
+        "Un error frecuente.",
+        "El segundo.",
+        "La segunda.",
+        "La séptima, a menudo olvidada, es el mantenimiento."
       ],
       "correcta": 1,
-      "explicacion": "Respecto a «El primero» (Componentes de un SIG), la regulación vigente establece que: Es el equipamiento físico o hardware, con los servidores, los equipos de trabajo y los dispositivos de captura, como los receptores GNSS, los escáneres o los drones.",
+      "explicacion": "Dicha determinación («Es el software, con el módulo de gestión de la base de datos, el de análisis espacial y el de representación cartográfica.») define o regula específicamente a «El segundo» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     },
     {
-      "pregunta": "En relación con «El segundo» (Componentes de un SIG), señale la determinación correcta conforme a la normativa del tema:",
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Componentes de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los datos, que son el componente más costoso y el que determina la calidad del conjunto.»?",
       "opciones": [
-        "Es el software, con el módulo de gestión de la base de datos, el de análisis espacial y el de representación cartográfica, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "Es el software, con el módulo de gestión de la base de datos, el de análisis espacial y el de representación cartográfica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "Es el software, con el módulo de gestión de la base de datos, el de análisis espacial y el de representación cartográfica.",
-        "Es el software, con el módulo de gestión de la base de datos, el de análisis espacial y el de representación cartográfica, computándose los plazos en días naturales y con sentido desestimatorio."
+        "Una capa de planeamiento a escala 1.",
+        "La tercera.",
+        "El tercero.",
+        "El análisis espacial."
       ],
       "correcta": 2,
-      "explicacion": "Respecto a «El segundo» (Componentes de un SIG), la regulación vigente establece que: Es el software, con el módulo de gestión de la base de datos, el de análisis espacial y el de representación cartográfica.",
+      "explicacion": "Dicha determinación («Son los datos, que son el componente más costoso y el que determina la calidad del conjunto.») define o regula específicamente a «El tercero» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     },
     {
-      "pregunta": "En relación con «El tercero» (Componentes de un SIG), señale la determinación correcta conforme a la normativa del tema:",
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Componentes de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Los técnicos que diseñan la base de datos, capturan la información, la validan, analizan los resultados y mantienen el sistema.»?",
       "opciones": [
-        "Son los datos, que son el componente más costoso y el que determina la calidad del conjunto, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "Son los datos, que son el componente más costoso y el que determina la calidad del conjunto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "Son los datos, que son el componente más costoso y el que determina la calidad del conjunto, computándose los plazos en días naturales y con sentido desestimatorio.",
-        "Son los datos, que son el componente más costoso y el que determina la calidad del conjunto."
+        "La primera es el análisis de necesidades.",
+        "La cuarta fase.",
+        "El resultado.",
+        "El cuarto componente son las personas."
       ],
       "correcta": 3,
-      "explicacion": "Respecto a «El tercero» (Componentes de un SIG), la regulación vigente establece que: Son los datos, que son el componente más costoso y el que determina la calidad del conjunto.",
+      "explicacion": "Dicha determinación («Los técnicos que diseñan la base de datos, capturan la información, la validan, analizan los resultados y mantienen el sistema.») define o regula específicamente a «El cuarto componente son las personas» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (3 bis. Captura de datos y control de calidad), ¿qué establece la normativa respecto a «Un error frecuente»?",
+      "opciones": [
+        "Es capturar datos sin definir antes el nivel de detalle que requiere la aplicación.",
+        "Es el diseño de la base de datos, con la definición del modelo de datos, de las capas, de los atributos y de los dominios de valores.",
+        "Sin actualización, un SIG se degrada en pocos años.",
+        "Es solo una cuestión informática."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Un error frecuente» (3 bis. Captura de datos y control de calidad), la regulación vigente establece que: Es capturar datos sin definir antes el nivel de detalle que requiere la aplicación.",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (3 bis. Captura de datos y control de calidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es capturar datos sin definir antes el nivel de detalle que requiere la aplicación.»?",
+      "opciones": [
+        "La segunda.",
+        "Un error frecuente.",
+        "La séptima, a menudo olvidada, es el mantenimiento.",
+        "La implementación de un SIG en una administración no."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es capturar datos sin definir antes el nivel de detalle que requiere la aplicación.») define o regula específicamente a «Un error frecuente» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (3 bis. Captura de datos y control de calidad), ¿qué establece la normativa respecto a «Una capa de planeamiento a escala 1»?",
+      "opciones": [
+        "Es la captura y la carga de los datos, que puede proceder de levantamientos, de bases existentes o de documentos escaneados que se vectorizan.",
+        "Es lo que distingue un SIG de un sistema de dibujo.",
+        "5.000 no sirve para replantear una cimentación, y una capa de edificios a escala 1:50.000 no sirve para calcular superficies.",
+        "Es responsable de cada capa, quién puede modificarla y quién la consulta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Una capa de planeamiento a escala 1» (3 bis. Captura de datos y control de calidad), la regulación vigente establece que: 5.000 no sirve para replantear una cimentación, y una capa de edificios a escala 1:50.000 no sirve para calcular superficies.",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (3 bis. Captura de datos y control de calidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «5.000 no sirve para replantear una cimentación, y una capa de edificios a escala 1:50.000 no sirve para calcular superficies.»?",
+      "opciones": [
+        "La tercera.",
+        "El análisis espacial.",
+        "Exige decidir quién.",
+        "Una capa de planeamiento a escala 1."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («5.000 no sirve para replantear una cimentación, y una capa de edificios a escala 1:50.000 no sirve para calcular superficies.») define o regula específicamente a «Una capa de planeamiento a escala 1» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Organización e implementación de un SIG), ¿qué establece la normativa respecto a «La primera es el análisis de necesidades»?",
+      "opciones": [
+        "Qué preguntas debe responder el sistema, quiénes lo usarán y con qué frecuencia.",
+        "Es el control de calidad, que comprueba la precisión posicional, la completitud, la coherencia topológica y la actualidad de los datos.",
+        "Es un mapa de cumplimiento, y no un dato aislado.",
+        "Es el de una unidad responsable de la base de datos geográfica, con un administrador del sistema, técnicos responsables de las capas temáticas y usuarios que consultan."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «La primera es el análisis de necesidades» (Organización e implementación de un SIG), la regulación vigente establece que: Qué preguntas debe responder el sistema, quiénes lo usarán y con qué frecuencia.",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Organización e implementación de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Qué preguntas debe responder el sistema, quiénes lo usarán y con qué frecuencia.»?",
+      "opciones": [
+        "La cuarta fase.",
+        "La primera es el análisis de necesidades.",
+        "El resultado.",
+        "El modelo más extendido."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Qué preguntas debe responder el sistema, quiénes lo usarán y con qué frecuencia.») define o regula específicamente a «La primera es el análisis de necesidades» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Organización e implementación de un SIG), ¿qué establece la normativa respecto a «La segunda»?",
+      "opciones": [
+        "Sin actualización, un SIG se degrada en pocos años.",
+        "Es solo una cuestión informática.",
+        "Es el diseño de la base de datos, con la definición del modelo de datos, de las capas, de los atributos y de los dominios de valores.",
+        "Es la forma en que el SIG comunica el resultado."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «La segunda» (Organización e implementación de un SIG), la regulación vigente establece que: Es el diseño de la base de datos, con la definición del modelo de datos, de las capas, de los atributos y de los dominios de valores.",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Organización e implementación de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el diseño de la base de datos, con la definición del modelo de datos, de las capas, de los atributos y de los dominios de valores.»?",
+      "opciones": [
+        "La séptima, a menudo olvidada, es el mantenimiento.",
+        "La implementación de un SIG en una administración no.",
+        "La representación.",
+        "La segunda."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es el diseño de la base de datos, con la definición del modelo de datos, de las capas, de los atributos y de los dominios de valores.») define o regula específicamente a «La segunda» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Organización e implementación de un SIG), ¿qué establece la normativa respecto a «La tercera»?",
+      "opciones": [
+        "Es la captura y la carga de los datos, que puede proceder de levantamientos, de bases existentes o de documentos escaneados que se vectorizan.",
+        "Es lo que distingue un SIG de un sistema de dibujo.",
+        "Es responsable de cada capa, quién puede modificarla y quién la consulta.",
+        "Los polígonos se colorean por rangos o por categorías, las líneas se graduan por anchura o por color, y los puntos se representan con símbolos de tamaño proporcional a un atributo."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «La tercera» (Organización e implementación de un SIG), la regulación vigente establece que: Es la captura y la carga de los datos, que puede proceder de levantamientos, de bases existentes o de documentos escaneados que se vectorizan.",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Organización e implementación de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la captura y la carga de los datos, que puede proceder de levantamientos, de bases existentes o de documentos escaneados que se vectorizan.»?",
+      "opciones": [
+        "El análisis espacial.",
+        "La tercera.",
+        "Exige decidir quién.",
+        "Cada capa se simboliza según el tipo de dato y el mensaje que debe transmitir."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es la captura y la carga de los datos, que puede proceder de levantamientos, de bases existentes o de documentos escaneados que se vectorizan.») define o regula específicamente a «La tercera» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Organización e implementación de un SIG), ¿qué establece la normativa respecto a «La cuarta fase»?",
+      "opciones": [
+        "Es un mapa de cumplimiento, y no un dato aislado.",
+        "Es el de una unidad responsable de la base de datos geográfica, con un administrador del sistema, técnicos responsables de las capas temáticas y usuarios que consultan.",
+        "Es el control de calidad, que comprueba la precisión posicional, la completitud, la coherencia topológica y la actualidad de los datos.",
+        "Es una estructura virtual en red de datos georreferenciados y servicios interoperables distribuidos en distintos sistemas, accesible por Internet con protocolos normalizados."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «La cuarta fase» (Organización e implementación de un SIG), la regulación vigente establece que: Es el control de calidad, que comprueba la precisión posicional, la completitud, la coherencia topológica y la actualidad de los datos.",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Organización e implementación de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el control de calidad, que comprueba la precisión posicional, la completitud, la coherencia topológica y la actualidad de los datos.»?",
+      "opciones": [
+        "El resultado.",
+        "El modelo más extendido.",
+        "Una infraestructura de datos espaciales (IDE).",
+        "La cuarta fase."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es el control de calidad, que comprueba la precisión posicional, la completitud, la coherencia topológica y la actualidad de los datos.») define o regula específicamente a «La cuarta fase» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Organización e implementación de un SIG), ¿qué establece la normativa respecto a «La séptima, a menudo olvidada, es el mantenimiento»?",
+      "opciones": [
+        "Sin actualización, un SIG se degrada en pocos años.",
+        "Es solo una cuestión informática.",
+        "Es la forma en que el SIG comunica el resultado.",
+        "Que los datos y los servicios sigan las mismas normas de descripción, de formato y de acceso."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «La séptima, a menudo olvidada, es el mantenimiento» (Organización e implementación de un SIG), la regulación vigente establece que: Sin actualización, un SIG se degrada en pocos años.",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (Organización e implementación de un SIG), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sin actualización, un SIG se degrada en pocos años.»?",
+      "opciones": [
+        "La implementación de un SIG en una administración no.",
+        "La séptima, a menudo olvidada, es el mantenimiento.",
+        "La representación.",
+        "La condición técnica es la interoperabilidad."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Sin actualización, un SIG se degrada en pocos años.») define o regula específicamente a «La séptima, a menudo olvidada, es el mantenimiento» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (4 bis. Análisis espacial: operaciones básicas), ¿qué establece la normativa respecto a «El análisis espacial»?",
+      "opciones": [
+        "Es responsable de cada capa, quién puede modificarla y quién la consulta.",
+        "Los polígonos se colorean por rangos o por categorías, las líneas se graduan por anchura o por color, y los puntos se representan con símbolos de tamaño proporcional a un atributo.",
+        "Es lo que distingue un SIG de un sistema de dibujo.",
+        "Es el catálogo de la IDE, a través del cual el usuario encuentra los datos que necesita."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El análisis espacial» (4 bis. Análisis espacial: operaciones básicas), la regulación vigente establece que: Es lo que distingue un SIG de un sistema de dibujo.",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (4 bis. Análisis espacial: operaciones básicas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es lo que distingue un SIG de un sistema de dibujo.»?",
+      "opciones": [
+        "Exige decidir quién.",
+        "Cada capa se simboliza según el tipo de dato y el mensaje que debe transmitir.",
+        "El inventario de metadatos.",
+        "El análisis espacial."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es lo que distingue un SIG de un sistema de dibujo.») define o regula específicamente a «El análisis espacial» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (4 bis. Análisis espacial: operaciones básicas), ¿qué establece la normativa respecto a «El resultado»?",
+      "opciones": [
+        "Es un mapa de cumplimiento, y no un dato aislado.",
+        "Es el de una unidad responsable de la base de datos geográfica, con un administrador del sistema, técnicos responsables de las capas temáticas y usuarios que consultan.",
+        "Es una estructura virtual en red de datos georreferenciados y servicios interoperables distribuidos en distintos sistemas, accesible por Internet con protocolos normalizados.",
+        "El SIG organiza la información de muchos edificios para decidir prioridades de inversión y de mantenimiento."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El resultado» (4 bis. Análisis espacial: operaciones básicas), la regulación vigente establece que: Es un mapa de cumplimiento, y no un dato aislado.",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (4 bis. Análisis espacial: operaciones básicas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un mapa de cumplimiento, y no un dato aislado.»?",
+      "opciones": [
+        "El modelo más extendido.",
+        "El resultado.",
+        "Una infraestructura de datos espaciales (IDE).",
+        "El examen puede preguntar por esa función."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es un mapa de cumplimiento, y no un dato aislado.») define o regula específicamente a «El resultado» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (4 ter. Organización de un SIG en una administración), ¿qué establece la normativa respecto a «La implementación de un SIG en una administración no»?",
+      "opciones": [
+        "Es la forma en que el SIG comunica el resultado.",
+        "Que los datos y los servicios sigan las mismas normas de descripción, de formato y de acceso.",
+        "Es solo una cuestión informática.",
+        "El primero es un modelo de coordinación, y la segunda una infraestructura de datos."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «La implementación de un SIG en una administración no» (4 ter. Organización de un SIG en una administración), la regulación vigente establece que: Es solo una cuestión informática.",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (4 ter. Organización de un SIG en una administración), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es solo una cuestión informática.»?",
+      "opciones": [
+        "La representación.",
+        "La condición técnica es la interoperabilidad.",
+        "El cuarto es confundir el Sistema Cartográfico Nacional con la IDE.",
+        "La implementación de un SIG en una administración no."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es solo una cuestión informática.») define o regula específicamente a «La implementación de un SIG en una administración no» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (4 ter. Organización de un SIG en una administración), ¿qué establece la normativa respecto a «Exige decidir quién»?",
+      "opciones": [
+        "Es responsable de cada capa, quién puede modificarla y quién la consulta.",
+        "Los polígonos se colorean por rangos o por categorías, las líneas se graduan por anchura o por color, y los puntos se representan con símbolos de tamaño proporcional a un atributo.",
+        "Es el catálogo de la IDE, a través del cual el usuario encuentra los datos que necesita.",
+        "Podrá incorporar infraestructuras y servicios interoperables de información geográfica de otras instituciones, entidades o particulares que así lo soliciten."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Exige decidir quién» (4 ter. Organización de un SIG en una administración), la regulación vigente establece que: Es responsable de cada capa, quién puede modificarla y quién la consulta.",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (4 ter. Organización de un SIG en una administración), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es responsable de cada capa, quién puede modificarla y quién la consulta.»?",
+      "opciones": [
+        "Cada capa se simboliza según el tipo de dato y el mensaje que debe transmitir.",
+        "Exige decidir quién.",
+        "El inventario de metadatos.",
+        "Objeto (art. 1 Ley de infraestructuras y servicios de información geográfica en España)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es responsable de cada capa, quién puede modificarla y quién la consulta.») define o regula específicamente a «Exige decidir quién» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (4 ter. Organización de un SIG en una administración), ¿qué establece la normativa respecto a «El modelo más extendido»?",
+      "opciones": [
+        "Es una estructura virtual en red de datos georreferenciados y servicios interoperables distribuidos en distintos sistemas, accesible por Internet con protocolos normalizados.",
+        "El SIG organiza la información de muchos edificios para decidir prioridades de inversión y de mantenimiento.",
+        "Es el de una unidad responsable de la base de datos geográfica, con un administrador del sistema, técnicos responsables de las capas temáticas y usuarios que consultan.",
+        "Esta ley tiene por objeto prevenir, vigilar y reducir la contaminación acústica, para evitar y reducir los daños que de ésta pueden derivarse para la salud humana, los bienes o el medio ambiente."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El modelo más extendido» (4 ter. Organización de un SIG en una administración), la regulación vigente establece que: Es el de una unidad responsable de la base de datos geográfica, con un administrador del sistema, técnicos responsables de las capas temáticas y usuarios que consultan.",
+      "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización e implementación de un SIG. Aplicaciones de los SIG. Infraestructuras de Datos Espaciales (IDE). ___________________________________ 6 de 7» (4 ter. Organización de un SIG en una administración), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el de una unidad responsable de la base de datos geográfica, con un administrador del sistema, técnicos responsables de las capas temáticas y usuarios que consultan.»?",
+      "opciones": [
+        "Una infraestructura de datos espaciales (IDE).",
+        "El examen puede preguntar por esa función.",
+        "Objeto y finalidad (art. 1 Ley del Ruido).",
+        "El modelo más extendido."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es el de una unidad responsable de la base de datos geográfica, con un administrador del sistema, técnicos responsables de las capas temáticas y usuarios que consultan.») define o regula específicamente a «El modelo más extendido» (Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)).",
       "referencia": "Ley 14/2010, de 5 de julio, sobre las infraestructuras y los servicios de información geográfica en España (BOE núm. 163, de 6 de julio de 2010)"
     }
   ]

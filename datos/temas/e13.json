@@ -79,102 +79,6 @@
   ],
   "test": [
     {
-      "pregunta": "Según el DB-SUA 1, apartado 3.2.1, ¿qué altura mínima tiene una barrera de protección cuando la diferencia de cota no excede de 6 m?",
-      "opciones": [
-        "0,90 m",
-        "0,90 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "0,90 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "0,90 m, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Cuando la diferencia de cota que protegen no excede de 6 m, la altura mínima de la barrera es de 0,90 m.",
-      "referencia": "DB-SUA 1, apartado 3.2.1, punto 1"
-    },
-    {
-      "pregunta": "Según el DB-SUA 1, apartado 3.2.1, punto 1, ¿qué altura mínima tiene una barrera cuando la diferencia de cota supera los 6 m?",
-      "opciones": [
-        "1,10 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "1,10 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "1,10 m",
-        "1,10 m, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "En el resto de los casos, la barrera tendrá una altura mínima de 1,10 m.",
-      "referencia": "DB-SUA 1, apartado 3.2.1, punto 1"
-    },
-    {
-      "pregunta": "Según el DB-SUA 2, apartado 1.3, punto 2, ¿hasta qué altura se extiende el área de riesgo de impacto en una puerta?",
-      "opciones": [
-        "1,50 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "1,50 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "1,50 m, computándose los plazos en días naturales y con sentido desestimatorio",
-        "1,50 m"
-      ],
-      "correcta": 3,
-      "explicacion": "En puertas, el área de riesgo de impacto es la comprendida entre el nivel del suelo, una altura de 1,50 m y una anchura igual a la de la puerta más 0,30 m a cada lado.",
-      "referencia": "DB-SUA 2, apartado 1.3, punto 2, letra a"
-    },
-    {
-      "pregunta": "Según el DB-SUA 2, apartado 2, punto 1, ¿qué holgura mínima debe existir entre una puerta corredera de accionamiento manual y el objeto fijo más próximo?",
-      "opciones": [
-        "20 cm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "20 cm",
-        "20 cm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "20 cm, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La distancia a hasta el objeto fijo más próximo será de 20 cm como mínimo, para evitar el atrapamiento.",
-      "referencia": "DB-SUA 2, apartado 2, punto 1"
-    },
-    {
-      "pregunta": "Según el DB-SUA 2, apartado 1.1, punto 1, ¿qué altura libre de paso se exige en zonas de circulación?",
-      "opciones": [
-        "2,10 m en uso restringido y 2,20 m en el resto",
-        "2,10 m en uso restringido y 2,20 m en el resto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "2,10 m en uso restringido y 2,20 m en el resto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "2,10 m en uso restringido y 2,20 m en el resto, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La altura libre de paso es de 2,10 m en zonas de uso restringido y de 2,20 m en el resto de las zonas de circulación.",
-      "referencia": "DB-SUA 2, apartado 1.1, punto 1"
-    },
-    {
-      "pregunta": "Según el DB-HE 1, tabla 3.1.1.a, ¿cuál es el valor límite de transmitancia de los huecos en la zona climática A?",
-      "opciones": [
-        "2,7 W/m²K, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "2,7 W/m²K, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "2,7 W/m²K",
-        "2,7 W/m²K, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El valor límite de transmitancia de los huecos es de 2,7 W/m²K en la zona A (3,2 es el valor de la zona de referencia α).",
-      "referencia": "DB-HE 1, tabla 3.1.1.a"
-    },
-    {
-      "pregunta": "Según el DB-HS 3, apartado 3.1.1, punto 1, letra e, ¿a qué distancia del suelo deben situarse los aireadores?",
-      "opciones": [
-        "Mayor que 1,80 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Mayor que 1,80 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Mayor que 1,80 m, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Mayor que 1,80 m"
-      ],
-      "correcta": 3,
-      "explicacion": "Los aireadores deben disponerse a una distancia del suelo mayor que 1,80 m.",
-      "referencia": "DB-HS 3, apartado 3.1.1, punto 1, letra e"
-    },
-    {
-      "pregunta": "Según el DB-SI 1, generalidades, punto 3, ¿a qué norma debe ajustarse el sistema de cierre automático de las puertas resistentes al fuego?",
-      "opciones": [
-        "UNE-EN 1154, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "UNE-EN 1154",
-        "UNE-EN 1154, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "UNE-EN 1154, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los sistemas de cierre automático de las puertas resistentes al fuego deben consistir en un dispositivo conforme a la norma UNE-EN 1154.",
-      "referencia": "DB-SI 1, generalidades, punto 3"
-    },
-    {
       "pregunta": "Según el DB-SUA 2, apartado 1.3, punto 3, ¿qué deben cumplir las partes vidriadas de las puertas y de los cerramientos de duchas?",
       "opciones": [
         "Ser transparentes sin marco",
@@ -187,126 +91,6 @@
       "referencia": "DB-SUA 2, apartado 1.3, punto 3"
     },
     {
-      "pregunta": "Según el DB-SUA 1, apartado 3.2.1, punto 1, ¿cómo se mide la altura de una barrera en una escalera?",
-      "opciones": [
-        "Desde la línea de inclinación definida por los vértices de los peldaños",
-        "Desde la línea de inclinación definida por los vértices de los peldaños, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Desde la línea de inclinación definida por los vértices de los peldaños, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Desde la línea de inclinación definida por los vértices de los peldaños, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "En escaleras, la altura se mide desde la línea de inclinación definida por los vértices de los peldaños, hasta el límite superior de la barrera.",
-      "referencia": "DB-SUA 1, apartado 3.2.1, punto 1"
-    },
-    {
-      "pregunta": "¿Qué protección se exige en las barreras de protección de los huecos?",
-      "opciones": [
-        "Barreras de protección, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Barreras de protección",
-        "Barreras de protección, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Barreras de protección, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las barreras de protección impiden la caída en los huecos.",
-      "referencia": "DB-SUA 1, apartado 3.2.1"
-    },
-    {
-      "pregunta": "¿Qué norma regula la altura mínima de las barreras de protección?",
-      "opciones": [
-        "El DB-SUA 1, apartado 3.2.1",
-        "El DB-SUA 1, apartado 3.2.1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El DB-SUA 1, apartado 3.2.1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El DB-SUA 1, apartado 3.2.1, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La altura mínima de las barreras se fija en el DB-SUA 1, apartado 3.2.1.",
-      "referencia": "DB-SUA 1, apartado 3.2.1"
-    },
-    {
-      "pregunta": "¿Desde dónde se mide la altura de la barrera de protección en una escalera?",
-      "opciones": [
-        "Desde la línea de inclinación de los peldaños, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Desde la línea de inclinación de los peldaños",
-        "Desde la línea de inclinación de los peldaños, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Desde la línea de inclinación de los peldaños, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "En escaleras la altura se mide desde la línea de inclinación de los peldaños.",
-      "referencia": "DB-SUA 1, apartado 3.2.1"
-    },
-    {
-      "pregunta": "¿Qué clasificación tienen los vidrios de áreas de riesgo sin barrera?",
-      "opciones": [
-        "X(Y)Z según UNE-EN 12600, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "X(Y)Z según UNE-EN 12600, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "X(Y)Z según UNE-EN 12600, computándose los plazos en días naturales y con sentido desestimatorio",
-        "X(Y)Z según UNE-EN 12600"
-      ],
-      "correcta": 3,
-      "explicacion": "Los vidrios de áreas de riesgo sin barrera se clasifican X(Y)Z según UNE-EN 12600.",
-      "referencia": "DB-SUA 2, apartado 1.3"
-    },
-    {
-      "pregunta": "¿Qué tipo de vidrios deben usarse en las partes vidriadas de puertas y duchas?",
-      "opciones": [
-        "Laminados o templados con impacto de nivel 3",
-        "Laminados o templados con impacto de nivel 3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Laminados o templados con impacto de nivel 3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Laminados o templados con impacto de nivel 3, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Las partes vidriadas de puertas y duchas deben ser laminadas o templadas con impacto de nivel 3.",
-      "referencia": "DB-SUA 2, apartado 1.3 punto 3"
-    },
-    {
-      "pregunta": "¿Qué se señala en las grandes superficies acristaladas que pueden confundirse con puertas?",
-      "opciones": [
-        "Una señalización contrastada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una señalización contrastada",
-        "Una señalización contrastada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una señalización contrastada, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las grandes superficies acristaladas que pueden confundirse con puertas llevan una señalización contrastada.",
-      "referencia": "DB-SUA 2, apartado 1.4 punto 1"
-    },
-    {
-      "pregunta": "¿Qué holgura mínima debe tener una puerta corredera manual con el objeto fijo más próximo?",
-      "opciones": [
-        "20 cm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "20 cm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "20 cm",
-        "20 cm, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La holgura mínima es de 20 cm.",
-      "referencia": "DB-SUA 2, apartado 2 punto 1"
-    },
-    {
-      "pregunta": "¿Qué debe permitir una puerta con bloqueo desde el interior?",
-      "opciones": [
-        "El desbloqueo desde el exterior, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El desbloqueo desde el exterior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El desbloqueo desde el exterior, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El desbloqueo desde el exterior"
-      ],
-      "correcta": 3,
-      "explicacion": "Las puertas con bloqueo desde el interior deben poder desbloquearse desde el exterior.",
-      "referencia": "DB-SUA 3, apartado 1 punto 1"
-    },
-    {
-      "pregunta": "¿Qué altura libre de paso se exige en zonas de circulación?",
-      "opciones": [
-        "2,20 m",
-        "2,20 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "2,20 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "2,20 m, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La altura libre de paso en zonas de circulación es de 2,20 m.",
-      "referencia": "DB-SUA 2, apartado 1.1 punto 1"
-    },
-    {
       "pregunta": "¿Qué regla hace que una hoja de puerta no invada el pasillo?",
       "opciones": [
         "Que la puerta sea de vidrio",
@@ -317,138 +101,6 @@
       "correcta": 1,
       "explicacion": "Cuando el pasillo tiene menos de 2,50 m, el barrido de la hoja no debe invadirlo.",
       "referencia": "DB-SUA 2, apartado 1.2 punto 1"
-    },
-    {
-      "pregunta": "¿Qué transmitancia límite tienen los huecos en la zona climática D?",
-      "opciones": [
-        "1,8 W/m²K, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "1,8 W/m²K, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "1,8 W/m²K",
-        "1,8 W/m²K, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La transmitancia límite en la zona D es de 1,8 W/m²K.",
-      "referencia": "DB-HE 1, tabla 3.1.1.a"
-    },
-    {
-      "pregunta": "¿Cómo se caracterizan las carpinterías por su estanqueidad al aire?",
-      "opciones": [
-        "Por la permeabilidad al aire, en m³/h·m² o por clase según UNE-EN 12207, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Por la permeabilidad al aire, en m³/h·m² o por clase según UNE-EN 12207, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Por la permeabilidad al aire, en m³/h·m² o por clase según UNE-EN 12207, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Por la permeabilidad al aire, en m³/h·m² o por clase según UNE-EN 12207"
-      ],
-      "correcta": 3,
-      "explicacion": "Las carpinterías se caracterizan por la permeabilidad al aire, según UNE-EN 12207.",
-      "referencia": "DB-HE 1, apartado 5.1 punto 4"
-    },
-    {
-      "pregunta": "¿Qué norma regula el cierre automático de las puertas resistentes al fuego?",
-      "opciones": [
-        "UNE-EN 1154",
-        "UNE-EN 1154, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "UNE-EN 1154, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "UNE-EN 1154, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El cierre automático de las puertas resistentes al fuego sigue la norma UNE-EN 1154.",
-      "referencia": "DB-SI 1, generalidades punto 3"
-    },
-    {
-      "pregunta": "¿Qué se exige a las puertas para permanecer abiertas en un edificio?",
-      "opciones": [
-        "Dispositivo de cierre automático en caso de incendio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Dispositivo de cierre automático en caso de incendio",
-        "Dispositivo de cierre automático en caso de incendio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Dispositivo de cierre automático en caso de incendio, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las puertas que permanecen abiertas llevan un dispositivo de cierre automático en caso de incendio.",
-      "referencia": "DB-SI 1, generalidades punto 4"
-    },
-    {
-      "pregunta": "¿Qué clase de puerta se exige en establecimientos de más de 500 m²?",
-      "opciones": [
-        "EI2 30-C5, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "EI2 30-C5, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "EI2 30-C5",
-        "EI2 30-C5, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Para los establecimientos de más de 500 m² se exige EI2 30-C5.",
-      "referencia": "DB-SI 1"
-    },
-    {
-      "pregunta": "¿Qué mantenimiento se requiere en los cierres automáticos de puertas de incendio?",
-      "opciones": [
-        "Revisión de los cierres automáticos y de los sellantes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Revisión de los cierres automáticos y de los sellantes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Revisión de los cierres automáticos y de los sellantes, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Revisión de los cierres automáticos y de los sellantes"
-      ],
-      "correcta": 3,
-      "explicacion": "Se revisan los cierres automáticos de las puertas de incendio y los sellantes.",
-      "referencia": "CTE, art. 8.2"
-    },
-    {
-      "pregunta": "¿Qué se revisa en los vidrios laminados?",
-      "opciones": [
-        "La lámina",
-        "La lámina, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La lámina, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La lámina, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Se revisa la lámina de los vidrios laminados.",
-      "referencia": "CTE, art. 8.2"
-    },
-    {
-      "pregunta": "¿En qué se miden las ventanas y puertas?",
-      "opciones": [
-        "Por unidad o por metro cuadrado de hueco, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Por unidad o por metro cuadrado de hueco",
-        "Por unidad o por metro cuadrado de hueco, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Por unidad o por metro cuadrado de hueco, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las ventanas y puertas se miden por unidad o por metro cuadrado de hueco.",
-      "referencia": "Medición de unidades de obra"
-    },
-    {
-      "pregunta": "¿En qué se miden las barandillas?",
-      "opciones": [
-        "Por metro lineal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Por metro lineal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Por metro lineal",
-        "Por metro lineal, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las barandillas y barreras se miden por metro lineal.",
-      "referencia": "Medición de unidades de obra"
-    },
-    {
-      "pregunta": "¿Qué altura mínima tienen las barreras cuando protegen más de 6 m de diferencia de cota?",
-      "opciones": [
-        "1,10 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "1,10 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "1,10 m, computándose los plazos en días naturales y con sentido desestimatorio",
-        "1,10 m"
-      ],
-      "correcta": 3,
-      "explicacion": "Cuando la diferencia de cota supera los 6 m, la altura es de 1,10 m.",
-      "referencia": "DB-SUA 1, apartado 3.2.1"
-    },
-    {
-      "pregunta": "¿Qué altura mínima tienen las barreras de protección cuando la diferencia de cota no excede de 6 m?",
-      "opciones": [
-        "0,90 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "0,90 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "0,90 m",
-        "0,90 m, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Cuando la diferencia de cota no excede de 6 m, la altura mínima es de 0,90 m.",
-      "referencia": "DB-SUA 1, apartado 3.2.1"
     },
     {
       "pregunta": "¿Cuándo no invade el pasillo la hoja de una puerta?",
@@ -475,90 +127,6 @@
       "referencia": "DB-SUA 2"
     },
     {
-      "pregunta": "¿Qué vidrio se templa para aumentar su resistencia mecánica?",
-      "opciones": [
-        "Vidrio templado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Vidrio templado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Vidrio templado",
-        "Vidrio templado, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El vidrio templado se somete a tratamiento térmico para aumentar su resistencia.",
-      "referencia": "DB-SUA 2"
-    },
-    {
-      "pregunta": "¿Qué elemento impide la entrada forzada en un hueco?",
-      "opciones": [
-        "Cerradura de seguridad o reja, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cerradura de seguridad o reja, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cerradura de seguridad o reja, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Cerradura de seguridad o reja"
-      ],
-      "correcta": 3,
-      "explicacion": "Las cerraduras de seguridad y las rejas dificultan el acceso forzado.",
-      "referencia": "Tema e13"
-    },
-    {
-      "pregunta": "¿Por qué esfera no deben poder ser atravesadas las aberturas de las barreras de protección?",
-      "opciones": [
-        "Una esfera de 10 cm de diámetro, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una esfera de 10 cm de diámetro, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una esfera de 10 cm de diámetro, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Una esfera de 10 cm de diámetro"
-      ],
-      "correcta": 3,
-      "explicacion": "Las barreras no tendrán aberturas que puedan ser atravesadas por una esfera de 10 cm de diámetro.",
-      "referencia": "CTE, DB-SUA 1, apartado 3.2.3"
-    },
-    {
-      "pregunta": "¿A qué altura debe situarse el pasamanos de escaleras y rampas?",
-      "opciones": [
-        "Entre 90 y 110 cm",
-        "Entre 90 y 110 cm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Entre 90 y 110 cm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Entre 90 y 110 cm, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El pasamanos estará a una altura comprendida entre 90 y 110 cm.",
-      "referencia": "CTE, DB-SUA 1, apartado 4.2.4"
-    },
-    {
-      "pregunta": "¿Qué deben tener además las escuelas infantiles y centros de primaria en escaleras?",
-      "opciones": [
-        "Otro pasamanos a una altura más baja, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Otro pasamanos a una altura más baja",
-        "Otro pasamanos a una altura más baja, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Otro pasamanos a una altura más baja, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "En escuelas infantiles y centros de enseñanza primaria se dispondrá otro pasamanos a una altura más baja.",
-      "referencia": "CTE, DB-SUA 1, apartado 4.2.4"
-    },
-    {
-      "pregunta": "¿Qué fuerza máxima de apertura pueden requerir las puertas de salida?",
-      "opciones": [
-        "140 N, salvo en itinerarios accesibles, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "140 N, salvo en itinerarios accesibles, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "140 N, salvo en itinerarios accesibles",
-        "140 N, salvo en itinerarios accesibles, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La fuerza de apertura de las puertas de salida será de 140 N como máximo, excepto en itinerarios accesibles.",
-      "referencia": "CTE, DB-SUA 3, apartado 1"
-    },
-    {
-      "pregunta": "¿Qué fuerza máxima de apertura se admite en las puertas de itinerarios accesibles, con carácter general?",
-      "opciones": [
-        "25 N (65 N si son resistentes al fuego), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "25 N (65 N si son resistentes al fuego), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "25 N (65 N si son resistentes al fuego), computándose los plazos en días naturales y con sentido desestimatorio",
-        "25 N (65 N si son resistentes al fuego)"
-      ],
-      "correcta": 3,
-      "explicacion": "En itinerarios accesibles se aplica como máximo 25 N en general y 65 N cuando sean resistentes al fuego.",
-      "referencia": "CTE, DB-SUA 3 y anejo A"
-    },
-    {
       "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Impacto en acristalamientos y puertas), ¿qué establece la normativa respecto a «Vidrios de áreas de riesgo sin barrera de protección»?",
       "opciones": [
         "Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1.",
@@ -568,18 +136,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Vidrios de áreas de riesgo sin barrera de protección» (Impacto en acristalamientos y puertas), la regulación vigente establece que: Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1.",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Impacto en acristalamientos y puertas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1.»?",
-      "opciones": [
-        "Vidrios de áreas de riesgo sin barrera de protección, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Vidrios de áreas de riesgo sin barrera de protección.",
-        "Vidrios de áreas de riesgo sin barrera de protección, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Vidrios de áreas de riesgo sin barrera de protección, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1.») define o regula específicamente a «Vidrios de áreas de riesgo sin barrera de protección» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -619,18 +175,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Señalización, atrapamiento y aprisionamiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1).»?",
-      "opciones": [
-        "Grandes superficies acristaladas que pueden confundirse con puertas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Grandes superficies acristaladas que pueden confundirse con puertas.",
-        "Grandes superficies acristaladas que pueden confundirse con puertas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Grandes superficies acristaladas que pueden confundirse con puertas, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1).») define o regula específicamente a «Grandes superficies acristaladas que pueden confundirse con puertas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Señalización, atrapamiento y aprisionamiento), ¿qué establece la normativa respecto a «Puerta corredera manual»?",
       "opciones": [
         "Son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas.",
@@ -640,18 +184,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «Puerta corredera manual» (Señalización, atrapamiento y aprisionamiento), la regulación vigente establece que: Holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Señalización, atrapamiento y aprisionamiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1).»?",
-      "opciones": [
-        "Puerta corredera manual, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Puerta corredera manual, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Puerta corredera manual, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Puerta corredera manual."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1).») define o regula específicamente a «Puerta corredera manual» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -691,18 +223,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué son las carpinterías y los elementos de protección), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Ventanas, puertas exteriores e interiores y puertas de paso.»?",
-      "opciones": [
-        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Ventanas, puertas exteriores e interiores y puertas de paso.») define o regula específicamente a «Las carpinterías son los marcos y las hojas que cierran los huecos del edificio» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué son las carpinterías y los elementos de protección), ¿qué establece la normativa respecto a «Los acristalamientos»?",
       "opciones": [
         "Son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas.",
@@ -712,18 +232,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Los acristalamientos» (Qué son las carpinterías y los elementos de protección), la regulación vigente establece que: Son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas.",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué son las carpinterías y los elementos de protección), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas.»?",
-      "opciones": [
-        "Los acristalamientos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los acristalamientos.",
-        "Los acristalamientos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los acristalamientos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas.») define o regula específicamente a «Los acristalamientos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -763,18 +271,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencias de seguridad frente al impacto y al atrapamiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula los acristalamientos y las puertas.»?",
-      "opciones": [
-        "La exigencia de impacto del DB-SUA 2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La exigencia de impacto del DB-SUA 2.",
-        "La exigencia de impacto del DB-SUA 2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La exigencia de impacto del DB-SUA 2, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Regula los acristalamientos y las puertas.») define o regula específicamente a «La exigencia de impacto del DB-SUA 2» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencias de puertas: uso, anchura y barrido), ¿qué establece la normativa respecto a «Las puertas»?",
       "opciones": [
         "Son productos que se incorporan con carácter permanente y deben llevar el marcado CE, según el CTE (art. 5.2.1).",
@@ -787,15 +283,519 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Impacto en acristalamientos y puertas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1.»?",
+      "opciones": [
+        "Puerta corredera manual.",
+        "Los acristalamientos.",
+        "Las puertas.",
+        "Vidrios de áreas de riesgo sin barrera de protección."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1.») define o regula específicamente a «Vidrios de áreas de riesgo sin barrera de protección» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Señalización, atrapamiento y aprisionamiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1).»?",
+      "opciones": [
+        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio.",
+        "Grandes superficies acristaladas que pueden confundirse con puertas.",
+        "La exigencia de impacto del DB-SUA 2.",
+        "El DB-SI también."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1).») define o regula específicamente a «Grandes superficies acristaladas que pueden confundirse con puertas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Señalización, atrapamiento y aprisionamiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1).»?",
+      "opciones": [
+        "Los acristalamientos.",
+        "Las puertas.",
+        "Las carpinterías y los vidrios.",
+        "Puerta corredera manual."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1).») define o regula específicamente a «Puerta corredera manual» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué son las carpinterías y los elementos de protección), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Ventanas, puertas exteriores e interiores y puertas de paso.»?",
+      "opciones": [
+        "La exigencia de impacto del DB-SUA 2.",
+        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio.",
+        "El DB-SI también.",
+        "Por eso el replanteo del hueco."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Ventanas, puertas exteriores e interiores y puertas de paso.») define o regula específicamente a «Las carpinterías son los marcos y las hojas que cierran los huecos del edificio» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué son las carpinterías y los elementos de protección), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas.»?",
+      "opciones": [
+        "Las puertas.",
+        "Las carpinterías y los vidrios.",
+        "El mantenimiento de las carpinterías.",
+        "Los acristalamientos."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas.») define o regula específicamente a «Los acristalamientos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencias de seguridad frente al impacto y al atrapamiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula los acristalamientos y las puertas.»?",
+      "opciones": [
+        "El DB-SI también.",
+        "La exigencia de impacto del DB-SUA 2.",
+        "Por eso el replanteo del hueco.",
+        "El primero."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Regula los acristalamientos y las puertas.») define o regula específicamente a «La exigencia de impacto del DB-SUA 2» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
       "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencias de puertas: uso, anchura y barrido), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el elemento de la carpintería que más exigencias reúne, porque deben permitir el paso y, a la vez, cerrar el recinto, resistir el fuego en los casos que lo exigen y no atrapar a nadie.»?",
       "opciones": [
-        "Las puertas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las puertas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las puertas, computándose los plazos en días naturales y con sentido desestimatorio",
+        "Las carpinterías y los vidrios.",
+        "El mantenimiento de las carpinterías.",
+        "El segundo.",
         "Las puertas."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Son el elemento de la carpintería que más exigencias reúne, porque deben permitir el paso y, a la vez, cerrar el recinto, resistir el fuego en los casos que lo exigen y no atrapar a nadie.») define o regula específicamente a «Las puertas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencias de ventilación y ruido), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es de clase 1, pueden considerarse como aberturas las juntas de apertura (DB-HS 3, apartado 3.1.1, punto 1, letra c).»?",
+      "opciones": [
+        "Cuando la carpintería exterior.",
+        "Los encuentros de las carpinterías con los paramentos y con los dinteles.",
+        "Los riesgos de la colocación de carpinterías y acristalamientos.",
+        "El tercero."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es de clase 1, pueden considerarse como aberturas las juntas de apertura (DB-HS 3, apartado 3.1.1, punto 1, letra c).») define o regula específicamente a «Cuando la carpintería exterior» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencias de seguridad en caso de incendio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige puertas EI2 30-C5 en algunos vestíbulos de independencia, cuya sección no se ha identificado en este desarrollo.»?",
+      "opciones": [
+        "Por eso el replanteo del hueco.",
+        "El DB-SI también.",
+        "El primero.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Exige puertas EI2 30-C5 en algunos vestíbulos de independencia, cuya sección no se ha identificado en este desarrollo.») define o regula específicamente a «El DB-SI también» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Materiales, productos y prescripciones técnicas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son productos que se incorporan con carácter permanente y deben llevar el marcado CE, según el CTE (art. 5.2.1).»?",
+      "opciones": [
+        "El mantenimiento de las carpinterías.",
+        "El segundo.",
+        "Las carpinterías y los vidrios.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Son productos que se incorporan con carácter permanente y deben llevar el marcado CE, según el CTE (art. 5.2.1).») define o regula específicamente a «Las carpinterías y los vidrios» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Procesos de ejecución y juntas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son puntos singulares del DB-HS 1, y las bandas de refuerzo y de terminación del sistema de impermeabilización deben respetarse en ellos (apartado 2.3.3, punto 1).»?",
+      "opciones": [
+        "Los riesgos de la colocación de carpinterías y acristalamientos.",
+        "El tercero.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Los encuentros de las carpinterías con los paramentos y con los dinteles."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Son puntos singulares del DB-HS 1, y las bandas de refuerzo y de terminación del sistema de impermeabilización deben respetarse en ellos (apartado 2.3.3, punto 1).») define o regula específicamente a «Los encuentros de las carpinterías con los paramentos y con los dinteles» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Procesos de ejecución y juntas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una comprobación previa de la ejecución, y su resultado debe quedar en el libro de control de la obra.»?",
+      "opciones": [
+        "Por eso el replanteo del hueco.",
+        "El primero.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es una comprobación previa de la ejecución, y su resultado debe quedar en el libro de control de la obra.») define o regula específicamente a «Por eso el replanteo del hueco» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Uso, conservación y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Consiste en la limpieza de los vidrios y de los marcos, en la lubricación y el ajuste de los herrajes, en la revisión de los sellantes y en la sustitución de los burletes.»?",
+      "opciones": [
+        "El segundo.",
+        "El mantenimiento de las carpinterías.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Consiste en la limpieza de los vidrios y de los marcos, en la lubricación y el ajuste de los herrajes, en la revisión de los sellantes y en la sustitución de los burletes.») define o regula específicamente a «El mantenimiento de las carpinterías» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las caídas desde el hueco de fachada, la rotura del vidrio durante el transporte y la colocación, los cortes con los vidrios y los riesgos de la manipulación de piezas pesadas.»?",
+      "opciones": [
+        "El tercero.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Los riesgos de la colocación de carpinterías y acristalamientos.",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Son las caídas desde el hueco de fachada, la rotura del vidrio durante el transporte y la colocación, los cortes con los vidrios y los riesgos de la manipulación de piezas pesadas.») define o regula específicamente a «Los riesgos de la colocación de carpinterías y acristalamientos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)»?",
+      "opciones": [
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.»?",
+      "opciones": [
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.») define o regula específicamente a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Art. único de Código Técnico de la Edificación).",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.»?",
+      "opciones": [
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Vidrios de áreas de riesgo sin barrera de protección."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.») define o regula específicamente a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Art. 4 de Código Técnico de la Edificación).",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "En puertas, hasta 1,50 m de altura y la anchura de la puerta más 0,30 m a cada lado.",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.»?",
+      "opciones": [
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Áreas de riesgo."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.») define o regula específicamente a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Art. 5 de Código Técnico de la Edificación).",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+        "Señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1)."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.»?",
+      "opciones": [
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Grandes superficies acristaladas que pueden confundirse con puertas."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.») define o regula específicamente a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Art. 6 de Código Técnico de la Edificación).",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1.",
+        "Holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1).",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+      "referencia": "Art. 7 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.»?",
+      "opciones": [
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Vidrios de áreas de riesgo sin barrera de protección.",
+        "Puerta corredera manual."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.») define o regula específicamente a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Art. 7 de Código Técnico de la Edificación).",
+      "referencia": "Art. 7 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "En puertas, hasta 1,50 m de altura y la anchura de la puerta más 0,30 m a cada lado.",
+        "Dispositivo de cierre automático en caso de incendio (DB-SI 1, generalidades, punto 4)."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+      "referencia": "Art. 8 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.»?",
+      "opciones": [
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Áreas de riesgo.",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Puertas para permanecer abiertas."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.») define o regula específicamente a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Art. 8 de Código Técnico de la Edificación).",
+      "referencia": "Art. 8 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Generalidades (art. 9 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+        "Señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1).",
+        "Ventanas, puertas exteriores e interiores y puertas de paso.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Generalidades (art. 9 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+      "referencia": "Art. 9 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.»?",
+      "opciones": [
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+        "Grandes superficies acristaladas que pueden confundirse con puertas.",
+        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.») define o regula específicamente a «Generalidades (art. 9 Código Técnico de la Edificación)» (Art. 9 de Código Técnico de la Edificación).",
+      "referencia": "Art. 9 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "Holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1).",
+        "Son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+      "referencia": "Art. 10 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.»?",
+      "opciones": [
+        "Vidrios de áreas de riesgo sin barrera de protección.",
+        "Puerta corredera manual.",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Los acristalamientos."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.») define o regula específicamente a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Art. 10 de Código Técnico de la Edificación).",
+      "referencia": "Art. 10 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "En puertas, hasta 1,50 m de altura y la anchura de la puerta más 0,30 m a cada lado.",
+        "Dispositivo de cierre automático en caso de incendio (DB-SI 1, generalidades, punto 4).",
+        "Son las barreras que impiden la caída, como las barandillas, los petos y los antepechos, y los dispositivos que evitan el atrapamiento, el impacto o el aprisionamiento de las personas.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+      "referencia": "Art. 15 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.»?",
+      "opciones": [
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Áreas de riesgo.",
+        "Puertas para permanecer abiertas.",
+        "Los elementos de seguridad y protección."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.») define o regula específicamente a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Art. 15 de Código Técnico de la Edificación).",
+      "referencia": "Art. 15 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Disposiciones mínimas de seguridad y salud en las obras de construcción), ¿qué establece la normativa respecto a «Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción)»?",
+      "opciones": [
+        "Señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1).",
+        "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+        "Ventanas, puertas exteriores e interiores y puertas de paso.",
+        "Regula los acristalamientos y las puertas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción)» (Articulado de Disposiciones mínimas de seguridad y salud en las obras de construcción), la regulación vigente establece que: Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+      "referencia": "Art. 2 de Disposiciones mínimas de seguridad y salud en las obras de construcción"
+    },
+    {
+      "pregunta": "Dentro de la materia «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Disposiciones mínimas de seguridad y salud en las obras de construcción), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.»?",
+      "opciones": [
+        "Grandes superficies acristaladas que pueden confundirse con puertas.",
+        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio.",
+        "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+        "La exigencia de impacto del DB-SUA 2."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.») define o regula específicamente a «Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción)» (Art. 2 de Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+      "referencia": "Art. 2 de Disposiciones mínimas de seguridad y salud en las obras de construcción"
+    },
+    {
+      "pregunta": "En relación con «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Impacto en acristalamientos y puertas), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Vidrios de áreas de riesgo sin barrera de protección» y las figuras del tema:",
+      "opciones": [
+        "Grandes superficies acristaladas que pueden confundirse con puertas: Señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1).",
+        "Puerta corredera manual: Holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1).",
+        "Puertas para permanecer abiertas: Dispositivo de cierre automático en caso de incendio (DB-SI 1, generalidades, punto 4).",
+        "Vidrios de áreas de riesgo sin barrera de protección: En puertas, hasta 1,50 m de altura y la anchura de la puerta más 0,30 m a cada lado."
+      ],
+      "correcta": 3,
+      "explicacion": "La proposición incorrecta es la referida a «Vidrios de áreas de riesgo sin barrera de protección», pues le atribuye la regulación propia de «Áreas de riesgo». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «Vidrios de áreas de riesgo sin barrera de protección» es: Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En relación con «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Impacto en acristalamientos y puertas), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Áreas de riesgo» y las figuras del tema:",
+      "opciones": [
+        "Áreas de riesgo: Señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1).",
+        "Puerta corredera manual: Holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1).",
+        "Puertas para permanecer abiertas: Dispositivo de cierre automático en caso de incendio (DB-SI 1, generalidades, punto 4).",
+        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio: Ventanas, puertas exteriores e interiores y puertas de paso."
+      ],
+      "correcta": 0,
+      "explicacion": "La proposición incorrecta es la referida a «Áreas de riesgo», pues le atribuye la regulación propia de «Grandes superficies acristaladas que pueden confundirse con puertas». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «Áreas de riesgo» es: En puertas, hasta 1,50 m de altura y la anchura de la puerta más 0,30 m a cada lado.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En relación con «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Señalización, atrapamiento y aprisionamiento), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Puerta corredera manual» y las figuras del tema:",
+      "opciones": [
+        "Las carpinterías son los marcos y las hojas que cierran los huecos del edificio: Ventanas, puertas exteriores e interiores y puertas de paso.",
+        "Puerta corredera manual: Dispositivo de cierre automático en caso de incendio (DB-SI 1, generalidades, punto 4).",
+        "Los acristalamientos: Son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas.",
+        "Los elementos de seguridad y protección: Son las barreras que impiden la caída, como las barandillas, los petos y los antepechos, y los dispositivos que evitan el atrapamiento, el impacto o el aprisionamiento de las personas."
+      ],
+      "correcta": 1,
+      "explicacion": "La proposición incorrecta es la referida a «Puerta corredera manual», pues le atribuye la regulación propia de «Puertas para permanecer abiertas». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «Puerta corredera manual» es: Holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En relación con «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Protección frente al incendio), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Puertas para permanecer abiertas» y las figuras del tema:",
+      "opciones": [
+        "Los acristalamientos: Son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas.",
+        "Los elementos de seguridad y protección: Son las barreras que impiden la caída, como las barandillas, los petos y los antepechos, y los dispositivos que evitan el atrapamiento, el impacto o el aprisionamiento de las personas.",
+        "Puertas para permanecer abiertas: Ventanas, puertas exteriores e interiores y puertas de paso.",
+        "La exigencia de impacto del DB-SUA 2: Regula los acristalamientos y las puertas."
+      ],
+      "correcta": 2,
+      "explicacion": "La proposición incorrecta es la referida a «Puertas para permanecer abiertas», pues le atribuye la regulación propia de «Las carpinterías son los marcos y las hojas que cierran los huecos del edificio». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «Puertas para permanecer abiertas» es: Dispositivo de cierre automático en caso de incendio (DB-SI 1, generalidades, punto 4).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En relación con «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué son las carpinterías y los elementos de protección), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Los acristalamientos» y las figuras del tema:",
+      "opciones": [
+        "La exigencia de impacto del DB-SUA 2: Regula los acristalamientos y las puertas.",
+        "Las puertas: Son el elemento de la carpintería que más exigencias reúne, porque deben permitir el paso y, a la vez, cerrar el recinto, resistir el fuego en los casos que lo exigen y no atrapar a nadie.",
+        "Cuando la carpintería exterior: Es de clase 1, pueden considerarse como aberturas las juntas de apertura (DB-HS 3, apartado 3.1.1, punto 1, letra c).",
+        "Los acristalamientos: Son las barreras que impiden la caída, como las barandillas, los petos y los antepechos, y los dispositivos que evitan el atrapamiento, el impacto o el aprisionamiento de las personas."
+      ],
+      "correcta": 3,
+      "explicacion": "La proposición incorrecta es la referida a «Los acristalamientos», pues le atribuye la regulación propia de «Los elementos de seguridad y protección». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «Los acristalamientos» es: Son los vidrios que se colocan en esos marcos, o en las barandillas y en las fachadas acristaladas.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En relación con «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué son las carpinterías y los elementos de protección), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Los elementos de seguridad y protección» y las figuras del tema:",
+      "opciones": [
+        "Los elementos de seguridad y protección: Regula los acristalamientos y las puertas.",
+        "Las puertas: Son el elemento de la carpintería que más exigencias reúne, porque deben permitir el paso y, a la vez, cerrar el recinto, resistir el fuego en los casos que lo exigen y no atrapar a nadie.",
+        "Cuando la carpintería exterior: Es de clase 1, pueden considerarse como aberturas las juntas de apertura (DB-HS 3, apartado 3.1.1, punto 1, letra c).",
+        "El DB-SI también: Exige puertas EI2 30-C5 en algunos vestíbulos de independencia, cuya sección no se ha identificado en este desarrollo."
+      ],
+      "correcta": 0,
+      "explicacion": "La proposición incorrecta es la referida a «Los elementos de seguridad y protección», pues le atribuye la regulación propia de «La exigencia de impacto del DB-SUA 2». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «Los elementos de seguridad y protección» es: Son las barreras que impiden la caída, como las barandillas, los petos y los antepechos, y los dispositivos que evitan el atrapamiento, el impacto o el aprisionamiento de las personas.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En relación con «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencias de seguridad frente al impacto y al atrapamiento), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «La exigencia de impacto del DB-SUA 2» y las figuras del tema:",
+      "opciones": [
+        "Cuando la carpintería exterior: Es de clase 1, pueden considerarse como aberturas las juntas de apertura (DB-HS 3, apartado 3.1.1, punto 1, letra c).",
+        "La exigencia de impacto del DB-SUA 2: Son el elemento de la carpintería que más exigencias reúne, porque deben permitir el paso y, a la vez, cerrar el recinto, resistir el fuego en los casos que lo exigen y no atrapar a nadie.",
+        "El DB-SI también: Exige puertas EI2 30-C5 en algunos vestíbulos de independencia, cuya sección no se ha identificado en este desarrollo.",
+        "Las carpinterías y los vidrios: Son productos que se incorporan con carácter permanente y deben llevar el marcado CE, según el CTE (art. 5.2.1)."
+      ],
+      "correcta": 1,
+      "explicacion": "La proposición incorrecta es la referida a «La exigencia de impacto del DB-SUA 2», pues le atribuye la regulación propia de «Las puertas». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «La exigencia de impacto del DB-SUA 2» es: Regula los acristalamientos y las puertas.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En relación con «Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Uso, conservación y mantenimiento), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «El mantenimiento de las carpinterías» y las figuras del tema:",
+      "opciones": [
+        "El primero: Es medir la altura de la barandilla de escalera desde el suelo y no desde la línea de los peldaños.",
+        "El segundo: Es confundir el área de riesgo de impacto de la puerta con la del paño fijo (0,90 m).",
+        "El mantenimiento de las carpinterías: Son las caídas desde el hueco de fachada, la rotura del vidrio durante el transporte y la colocación, los cortes con los vidrios y los riesgos de la manipulación de piezas pesadas.",
+        "El tercero: Es olvidar que el DB-SUA 2 exige la señalización de las grandes superficies acristaladas y de las puertas de vidrio."
+      ],
+      "correcta": 2,
+      "explicacion": "La proposición incorrecta es la referida a «El mantenimiento de las carpinterías», pues le atribuye la regulación propia de «Los riesgos de la colocación de carpinterías y acristalamientos». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «El mantenimiento de las carpinterías» es: Consiste en la limpieza de los vidrios y de los marcos, en la lubricación y el ajuste de los herrajes, en la revisión de los sellantes y en la sustitución de los burletes.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "De acuerdo con el régimen aplicable a «Impacto en acristalamientos y puertas» (Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.), señale la afirmación CORRECTA respecto a «Vidrios de áreas de riesgo sin barrera de protección»:",
+      "opciones": [
+        "Áreas de riesgo: Señalización contrastada entre 0,85 y 1,10 m de altura (DB-SUA 2, apartado 1.4, punto 1).",
+        "Grandes superficies acristaladas que pueden confundirse con puertas: Holgura de 20 cm como mínimo con el objeto fijo más próximo (DB-SUA 2, apartado 2, punto 1).",
+        "Puerta corredera manual: En puertas, hasta 1,50 m de altura y la anchura de la puerta más 0,30 m a cada lado.",
+        "Vidrios de áreas de riesgo sin barrera de protección: Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1."
+      ],
+      "correcta": 3,
+      "explicacion": "La afirmación correcta es «Vidrios de áreas de riesgo sin barrera de protección: Clasificación X(Y)Z según UNE-EN 12600 con los parámetros de la tabla 1.1.» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación). Las restantes opciones cruzan erróneamente las determinaciones de «Áreas de riesgo», «Grandes superficies acristaladas que pueden confundirse con puertas» y «Puerta corredera manual».",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     }
   ]

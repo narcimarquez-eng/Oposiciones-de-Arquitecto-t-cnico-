@@ -1,41 +1,5 @@
 [
   {
-    "pregunta": "¿Qué clase de resbaladicidad corresponde a un pavimento con Rd > 45?",
-    "opciones": [
-      "Clase 3",
-      "Clase 3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Clase 3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Clase 3, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Rd ≤ 15 clase 0; 15 < Rd ≤ 35 clase 1; 35 < Rd ≤ 45 clase 2; Rd > 45 clase 3.",
-    "referencia": "CTE, DB-SUA 1, tabla 1.1"
-  },
-  {
-    "pregunta": "¿Qué clase de resbaladicidad corresponde a un pavimento con 15 < Rd ≤ 35?",
-    "opciones": [
-      "Clase 1",
-      "Clase 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Clase 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Clase 1, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Un pavimento con 15 < Rd ≤ 35 es de clase 1.",
-    "referencia": "CTE, DB-SUA 1, tabla 1.1"
-  },
-  {
-    "pregunta": "¿Qué resalto máximo pueden presentar las juntas del pavimento para limitar el riesgo de caídas?",
-    "opciones": [
-      "4 mm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "4 mm",
-      "4 mm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "4 mm, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "El suelo no tendrá juntas que presenten un resalto de más de 4 mm.",
-    "referencia": "CTE, DB-SUA 1, apartado 2"
-  },
-  {
     "pregunta": "¿Con qué ensayo se obtiene el valor de resistencia al deslizamiento Rd?",
     "opciones": [
       "Con el ensayo del péndulo (valor PTV)",
@@ -60,30 +24,6 @@
     "referencia": "CTE, DB-HS 1, apartado 2.3.2"
   },
   {
-    "pregunta": "¿Qué revestimiento continuo tradicional se hace con mortero de cal y acabado liso o pulido?",
-    "opciones": [
-      "El estuco, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El estuco, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El estuco, computándose los plazos en días naturales y con sentido desestimatorio",
-      "El estuco"
-    ],
-    "correcta": 3,
-    "explicacion": "El estuco es un revestimiento de cal con acabado liso.",
-    "referencia": "Tema e12"
-  },
-  {
-    "pregunta": "¿Qué pavimento está formado por fragmentos de piedra aglomerados con cemento y pulidos?",
-    "opciones": [
-      "El terrazo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El terrazo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El terrazo",
-      "El terrazo, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "El terrazo se compone de áridos de mármol aglomerados con cemento y pulidos.",
-    "referencia": "Tema e12"
-  },
-  {
     "pregunta": "¿Qué es un trasdosado?",
     "opciones": [
       "Una hoja interior adosada a un muro o cerramiento",
@@ -93,18 +33,6 @@
     ],
     "correcta": 0,
     "explicacion": "El trasdosado es una hoja interior, a menudo de placa de yeso, adosada al cerramiento.",
-    "referencia": "Tema e12"
-  },
-  {
-    "pregunta": "¿Qué material se usa tradicionalmente en falsos techos de placas de yeso fino?",
-    "opciones": [
-      "La escayola, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La escayola, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La escayola, computándose los plazos en días naturales y con sentido desestimatorio",
-      "La escayola"
-    ],
-    "correcta": 3,
-    "explicacion": "La escayola es yeso de alta calidad usado en falsos techos.",
     "referencia": "Tema e12"
   },
   {
@@ -228,18 +156,6 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Revestimientos interiores y elementos que los componen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el revestimiento de resistencia media que el DB-HS 1 reconoce en el bloque N1, y por eso se usa también en fachadas por el interior.»?",
-    "opciones": [
-      "El enfoscado de mortero con 10 mm de espesor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El enfoscado de mortero con 10 mm de espesor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El enfoscado de mortero con 10 mm de espesor, computándose los plazos en días naturales y con sentido desestimatorio",
-      "El enfoscado de mortero con 10 mm de espesor."
-    ],
-    "correcta": 3,
-    "explicacion": "Dicha determinación («Es el revestimiento de resistencia media que el DB-HS 1 reconoce en el bloque N1, y por eso se usa también en fachadas por el interior.») define o regula específicamente a «El enfoscado de mortero con 10 mm de espesor» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
     "pregunta": "En el ámbito de «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Revestimientos interiores y elementos que los componen), ¿qué establece la normativa respecto a «Las juntas entre las piezas de la hoja principal se clasifican en el bloque J»?",
     "opciones": [
       "Las de mortero sin interrupción tienen resistencia media (J1), y las de mortero con producto hidrófugo, resistencia alta (J2).",
@@ -276,18 +192,6 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Pavimentos y su resbaladicidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la seguridad frente al riesgo de caídas, y en particular la resbaladicidad de los suelos.»?",
-    "opciones": [
-      "El DB-SUA 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El DB-SUA 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El DB-SUA 1, computándose los plazos en días naturales y con sentido desestimatorio",
-      "El DB-SUA 1."
-    ],
-    "correcta": 3,
-    "explicacion": "Dicha determinación («Regula la seguridad frente al riesgo de caídas, y en particular la resbaladicidad de los suelos.») define o regula específicamente a «El DB-SUA 1» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
     "pregunta": "En el ámbito de «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Techos, falsos techos y reacción al fuego), ¿qué establece la normativa respecto a «La tabla 4.1 tiene una nota»?",
     "opciones": [
       "Los revestimientos se consideran solo cuando superan el 5 % de la superficie total de paredes, de techos o de suelos del recinto.",
@@ -297,18 +201,6 @@
     ],
     "correcta": 0,
     "explicacion": "Respecto a «La tabla 4.1 tiene una nota» (Techos, falsos techos y reacción al fuego), la regulación vigente establece que: Los revestimientos se consideran solo cuando superan el 5 % de la superficie total de paredes, de techos o de suelos del recinto.",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
-    "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Techos, falsos techos y reacción al fuego), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Los revestimientos se consideran solo cuando superan el 5 % de la superficie total de paredes, de techos o de suelos del recinto.»?",
-    "opciones": [
-      "La tabla 4.1 tiene una nota, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La tabla 4.1 tiene una nota.",
-      "La tabla 4.1 tiene una nota, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La tabla 4.1 tiene una nota, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Dicha determinación («Los revestimientos se consideran solo cuando superan el 5 % de la superficie total de paredes, de techos o de suelos del recinto.») define o regula específicamente a «La tabla 4.1 tiene una nota» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
@@ -324,18 +216,6 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Requisitos básicos del CTE aplicables), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la primera barrera de esa exigencia, y el DB-HS 1 la desarrolla en su apartado 2.3.»?",
-    "opciones": [
-      "El revestimiento exterior, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El revestimiento exterior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El revestimiento exterior, computándose los plazos en días naturales y con sentido desestimatorio",
-      "El revestimiento exterior."
-    ],
-    "correcta": 3,
-    "explicacion": "Dicha determinación («Es la primera barrera de esa exigencia, y el DB-HS 1 la desarrolla en su apartado 2.3.») define o regula específicamente a «El revestimiento exterior» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
     "pregunta": "En el ámbito de «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Requisitos básicos del CTE aplicables), ¿qué establece la normativa respecto a «La exigencia de seguridad en caso de incendio (SI)»?",
     "opciones": [
       "Regula la reacción de los materiales y su resistencia (CTE, art. 11), desarrollada en el DB-SI 1 (apartado 4).",
@@ -348,15 +228,135 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Requisitos básicos del CTE aplicables), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la reacción de los materiales y su resistencia (CTE, art. 11), desarrollada en el DB-SI 1 (apartado 4).»?",
+    "pregunta": "En el ámbito de «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)»?",
     "opciones": [
-      "La exigencia de seguridad en caso de incendio (SI), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La exigencia de seguridad en caso de incendio (SI).",
-      "La exigencia de seguridad en caso de incendio (SI), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La exigencia de seguridad en caso de incendio (SI), computándose los plazos en días naturales y con sentido desestimatorio"
+      "R1, resistencia media con revestimiento continuo de 10 a 15 mm o discontinuo rígido pegado de piezas menores de 300 mm sobre enfoscado.",
+      "1 en zonas secas con pendiente inferior al 6 %.",
+      "Protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b).",
+      "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+    "referencia": "Art. 15 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.»?",
+    "opciones": [
+      "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+      "Bloque R.",
+      "Clase de suelo exigible (tabla 1.2 del DB-SUA 1).",
+      "Trabajos en tejados."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.») define o regula específicamente a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Art. 15 de Código Técnico de la Edificación).",
+    "referencia": "Art. 15 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Articulado de Disposiciones mínimas de seguridad y salud en las obras de construcción), ¿qué establece la normativa respecto a «Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción)»?",
+    "opciones": [
+      "N1, enfoscado de mortero de 10 mm como mínimo.",
+      "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+      "No se admite un escalón aislado ni dos consecutivos en zonas de circulación, salvo los casos permitidos (apartado 2, punto 3).",
+      "Son las capas que se aplican sobre los elementos constructivos para protegerlos, para darles el aspecto final y, en muchos casos, para cumplir una exigencia de seguridad o de comportamiento."
     ],
     "correcta": 1,
-    "explicacion": "Dicha determinación («Regula la reacción de los materiales y su resistencia (CTE, art. 11), desarrollada en el DB-SI 1 (apartado 4).») define o regula específicamente a «La exigencia de seguridad en caso de incendio (SI)» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+    "explicacion": "Respecto a «Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción)» (Articulado de Disposiciones mínimas de seguridad y salud en las obras de construcción), la regulación vigente establece que: Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+    "referencia": "Art. 2 de Disposiciones mínimas de seguridad y salud en las obras de construcción"
+  },
+  {
+    "pregunta": "Dentro de la materia «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Articulado de Disposiciones mínimas de seguridad y salud en las obras de construcción), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.»?",
+    "opciones": [
+      "Bloque N.",
+      "Discontinuidades (apartado 2).",
+      "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+      "Los revestimientos y acabados."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.») define o regula específicamente a «Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción)» (Art. 2 de Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+    "referencia": "Art. 2 de Disposiciones mínimas de seguridad y salud en las obras de construcción"
+  },
+  {
+    "pregunta": "En relación con «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Revestimientos exteriores de fachada), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Tabla 2.7 del DB-HS 1» y las figuras del tema:",
+    "opciones": [
+      "Bloque N: N1, enfoscado de mortero de 10 mm como mínimo.",
+      "Bloque J: Juntas de mortero sin interrupción con resistencia media (J1).",
+      "Clase de suelo exigible (tabla 1.2 del DB-SUA 1): 1 en zonas secas con pendiente inferior al 6 %.",
+      "Tabla 2.7 del DB-HS 1: R1, resistencia media con revestimiento continuo de 10 a 15 mm o discontinuo rígido pegado de piezas menores de 300 mm sobre enfoscado."
+    ],
+    "correcta": 3,
+    "explicacion": "La proposición incorrecta es la referida a «Tabla 2.7 del DB-HS 1», pues le atribuye la regulación propia de «Bloque R». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «Tabla 2.7 del DB-HS 1» es: La solución se obtiene combinando bloques de letras (R, B, C, H, J, N) y números.",
+    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En relación con «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Revestimientos exteriores de fachada), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Bloque R» y las figuras del tema:",
+    "opciones": [
+      "Bloque R: N1, enfoscado de mortero de 10 mm como mínimo.",
+      "Bloque J: Juntas de mortero sin interrupción con resistencia media (J1).",
+      "Clase de suelo exigible (tabla 1.2 del DB-SUA 1): 1 en zonas secas con pendiente inferior al 6 %.",
+      "Discontinuidades (apartado 2): No se admite un escalón aislado ni dos consecutivos en zonas de circulación, salvo los casos permitidos (apartado 2, punto 3)."
+    ],
+    "correcta": 0,
+    "explicacion": "La proposición incorrecta es la referida a «Bloque R», pues le atribuye la regulación propia de «Bloque N». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «Bloque R» es: R1, resistencia media con revestimiento continuo de 10 a 15 mm o discontinuo rígido pegado de piezas menores de 300 mm sobre enfoscado.",
+    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En relación con «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Revestimiento intermedio y juntas), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Bloque N» y las figuras del tema:",
+    "opciones": [
+      "Clase de suelo exigible (tabla 1.2 del DB-SUA 1): 1 en zonas secas con pendiente inferior al 6 %.",
+      "Bloque N: Juntas de mortero sin interrupción con resistencia media (J1).",
+      "Discontinuidades (apartado 2): No se admite un escalón aislado ni dos consecutivos en zonas de circulación, salvo los casos permitidos (apartado 2, punto 3).",
+      "Tabla 4.1 del DB-SI 1: Zonas ocupables, C-s2,d0 en techos y paredes y EFL en suelos."
+    ],
+    "correcta": 1,
+    "explicacion": "La proposición incorrecta es la referida a «Bloque N», pues le atribuye la regulación propia de «Bloque J». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «Bloque N» es: N1, enfoscado de mortero de 10 mm como mínimo.",
+    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En relación con «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Revestimiento intermedio y juntas), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Bloque J» y las figuras del tema:",
+    "opciones": [
+      "Discontinuidades (apartado 2): No se admite un escalón aislado ni dos consecutivos en zonas de circulación, salvo los casos permitidos (apartado 2, punto 3).",
+      "Tabla 4.1 del DB-SI 1: Zonas ocupables, C-s2,d0 en techos y paredes y EFL en suelos.",
+      "Bloque J: 1 en zonas secas con pendiente inferior al 6 %.",
+      "Trabajos en tejados: Protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b)."
+    ],
+    "correcta": 2,
+    "explicacion": "La proposición incorrecta es la referida a «Bloque J», pues le atribuye la regulación propia de «Clase de suelo exigible (tabla 1.2 del DB-SUA 1)». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «Bloque J» es: Juntas de mortero sin interrupción con resistencia media (J1).",
+    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En relación con «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Pavimentos: resbaladicidad y discontinuidades), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Clase de suelo exigible (tabla 1.2 del DB-SUA 1)» y las figuras del tema:",
+    "opciones": [
+      "Tabla 4.1 del DB-SI 1: Zonas ocupables, C-s2,d0 en techos y paredes y EFL en suelos.",
+      "Trabajos en tejados: Protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b).",
+      "Los revestimientos y acabados: Son las capas que se aplican sobre los elementos constructivos para protegerlos, para darles el aspecto final y, en muchos casos, para cumplir una exigencia de seguridad o de comportamiento.",
+      "Clase de suelo exigible (tabla 1.2 del DB-SUA 1): No se admite un escalón aislado ni dos consecutivos en zonas de circulación, salvo los casos permitidos (apartado 2, punto 3)."
+    ],
+    "correcta": 3,
+    "explicacion": "La proposición incorrecta es la referida a «Clase de suelo exigible (tabla 1.2 del DB-SUA 1)», pues le atribuye la regulación propia de «Discontinuidades (apartado 2)». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «Clase de suelo exigible (tabla 1.2 del DB-SUA 1)» es: 1 en zonas secas con pendiente inferior al 6 %.",
+    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En relación con «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Pavimentos: resbaladicidad y discontinuidades), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Discontinuidades (apartado 2)» y las figuras del tema:",
+    "opciones": [
+      "Discontinuidades (apartado 2): Zonas ocupables, C-s2,d0 en techos y paredes y EFL en suelos.",
+      "Trabajos en tejados: Protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b).",
+      "Los revestimientos y acabados: Son las capas que se aplican sobre los elementos constructivos para protegerlos, para darles el aspecto final y, en muchos casos, para cumplir una exigencia de seguridad o de comportamiento.",
+      "Los revestimientos interiores de paredes: Son los enlucidos, las pinturas y los alicatados."
+    ],
+    "correcta": 0,
+    "explicacion": "La proposición incorrecta es la referida a «Discontinuidades (apartado 2)», pues le atribuye la regulación propia de «Tabla 4.1 del DB-SI 1». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «Discontinuidades (apartado 2)» es: No se admite un escalón aislado ni dos consecutivos en zonas de circulación, salvo los casos permitidos (apartado 2, punto 3).",
+    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En relación con «Revestimientos y acabados de los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos y condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 2 de 7» (Techos, paredes y suelos: reacción al fuego), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Tabla 4.1 del DB-SI 1» y las figuras del tema:",
+    "opciones": [
+      "Los revestimientos y acabados: Son las capas que se aplican sobre los elementos constructivos para protegerlos, para darles el aspecto final y, en muchos casos, para cumplir una exigencia de seguridad o de comportamiento.",
+      "Tabla 4.1 del DB-SI 1: Protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b).",
+      "Los revestimientos interiores de paredes: Son los enlucidos, las pinturas y los alicatados.",
+      "La tabla no se aplica sola: Cada solución se obtiene combinando letras y números, donde la letra indica el tipo de condición y el número el nivel de prestación."
+    ],
+    "correcta": 1,
+    "explicacion": "La proposición incorrecta es la referida a «Tabla 4.1 del DB-SI 1», pues le atribuye la regulación propia de «Trabajos en tejados». Conforme a la normativa aplicable (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación), lo correcto respecto a «Tabla 4.1 del DB-SI 1» es: Zonas ocupables, C-s2,d0 en techos y paredes y EFL en suelos.",
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   }
 ]

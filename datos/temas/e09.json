@@ -91,210 +91,6 @@
   ],
   "test": [
     {
-      "pregunta": "Según el DB-HS 4, apartado 2.1.3, ¿cuál es la presión mínima en un punto de consumo para un grifo común?",
-      "opciones": [
-        "100 kPa",
-        "100 kPa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "100 kPa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "100 kPa, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "En los puntos de consumo, la presión mínima es de 100 kPa para grifos comunes y de 150 kPa para fluxores y calentadores.",
-      "referencia": "DB-HS 4, apartado 2.1.3, punto 2 a)"
-    },
-    {
-      "pregunta": "Según el DB-HS 4, apartado 2.1.3, ¿cuál es la presión máxima en cualquier punto de consumo?",
-      "opciones": [
-        "500 kPa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "500 kPa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "500 kPa",
-        "500 kPa, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La presión en cualquier punto de consumo no debe superar 500 kPa.",
-      "referencia": "DB-HS 4, apartado 2.1.3, punto 3"
-    },
-    {
-      "pregunta": "Según el DB-HS 4, apartado 2.1.3, punto 4, ¿entre qué temperaturas debe estar el ACS en los puntos de consumo?",
-      "opciones": [
-        "Entre 50 ºC y 65 ºC, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Entre 50 ºC y 65 ºC, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Entre 50 ºC y 65 ºC, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Entre 50 ºC y 65 ºC"
-      ],
-      "correcta": 3,
-      "explicacion": "La temperatura del ACS en los puntos de consumo debe estar entre 50 ºC y 65 ºC, con la excepción de los edificios de uso exclusivo de vivienda en las condiciones que el apartado indica.",
-      "referencia": "DB-HS 4, apartado 2.1.3, punto 4"
-    },
-    {
-      "pregunta": "Según el DB-HS 4, apartado 4.2.1, punto 2, letra d, ¿cuál es el intervalo de velocidad de cálculo para tuberías metálicas?",
-      "opciones": [
-        "De 0,50 a 2,00 m/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "De 0,50 a 2,00 m/s",
-        "De 0,50 a 2,00 m/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "De 0,50 a 2,00 m/s, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Para tuberías metálicas, la velocidad de cálculo debe estar entre 0,50 y 2,00 m/s; para termoplásticas y multicapas, entre 0,50 y 3,50 m/s.",
-      "referencia": "DB-HS 4, apartado 4.2.1, punto 2 d) i)"
-    },
-    {
-      "pregunta": "Según el DB-HS 4, tabla 2.1, ¿cuál es el caudal instantáneo mínimo de agua fría de un inodoro con fluxor?",
-      "opciones": [
-        "1,25 dm³/s",
-        "1,25 dm³/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "1,25 dm³/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "1,25 dm³/s, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El caudal instantáneo mínimo de agua fría de un inodoro con fluxor es de 1,25 dm³/s, según la tabla de aparatos.",
-      "referencia": "DB-HS 4, tabla 2.1"
-    },
-    {
-      "pregunta": "Según la ITC-ICG 07, apartado 3.2, ¿a partir de qué potencia útil precisa proyecto una instalación receptora individual de gas?",
-      "opciones": [
-        "Superior a 70 kW, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Superior a 70 kW, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Superior a 70 kW",
-        "Superior a 70 kW, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las instalaciones individuales de potencia útil superior a 70 kW precisan proyecto; las comunes, las de más de 2.000 kW.",
-      "referencia": "ITC-ICG 07, apartado 3.2"
-    },
-    {
-      "pregunta": "Según la ITC-ICG 07, ¿qué norma se aplica a las instalaciones receptoras con presión máxima de operación de hasta 5 bar?",
-      "opciones": [
-        "La norma UNE 60670, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La norma UNE 60670, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La norma UNE 60670, computándose los plazos en días naturales y con sentido desestimatorio",
-        "La norma UNE 60670"
-      ],
-      "correcta": 3,
-      "explicacion": "Las instalaciones receptoras con presión máxima de operación de hasta 5 bar se realizan conforme a la norma UNE 60670.",
-      "referencia": "ITC-ICG 07"
-    },
-    {
-      "pregunta": "Según la ITC-ICG 07, apartado 4.1, ¿con qué periodicidad se inspeccionan las instalaciones receptoras alimentadas desde una red de distribución?",
-      "opciones": [
-        "Cada cinco años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cada cinco años",
-        "Cada cinco años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cada cinco años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las inspecciones periódicas de las instalaciones receptoras alimentadas desde redes de distribución se realizan cada cinco años.",
-      "referencia": "ITC-ICG 07, apartado 4.1"
-    },
-    {
-      "pregunta": "Según el DB-HS 4, apartado 5.2.1.1, punto 1, ¿qué prueba debe efectuar la empresa instaladora en la instalación de agua?",
-      "opciones": [
-        "Una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios",
-        "Una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La empresa instaladora está obligada a efectuar una prueba de resistencia mecánica y estanqueidad de todas las tuberías, elementos y accesorios que integran la instalación.",
-      "referencia": "DB-HS 4, apartado 5.2.1.1, punto 1"
-    },
-    {
-      "pregunta": "Según el DB-HS 4, apartado 3.3.1, punto 2, ¿puede empalmarse la instalación de suministro directamente a una conducción de evacuación de aguas residuales?",
-      "opciones": [
-        "No puede empalmarse directamente",
-        "No puede empalmarse directamente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "No puede empalmarse directamente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "No puede empalmarse directamente, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La instalación de suministro no puede empalmarse directamente a una conducción de evacuación de aguas residuales.",
-      "referencia": "DB-HS 4, apartado 3.3.1, punto 2"
-    },
-    {
-      "pregunta": "¿Qué documento del CTE regula el abastecimiento de agua?",
-      "opciones": [
-        "El DB-HS 4, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El DB-HS 4",
-        "El DB-HS 4, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El DB-HS 4, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El abastecimiento de agua se regula en el DB-HS 4.",
-      "referencia": "CTE, DB-HS 4"
-    },
-    {
-      "pregunta": "¿Qué regula el RD 919/2006?",
-      "opciones": [
-        "El gas en sus instalaciones",
-        "El gas en sus instalaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El gas en sus instalaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El gas en sus instalaciones, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El RD 919/2006 regula el gas y sus ITC-ICG 01 a 11.",
-      "referencia": "RD 919/2006"
-    },
-    {
-      "pregunta": "¿Qué debe garantizar el agua que se suministra según la exigencia HS 4?",
-      "opciones": [
-        "Que sea apta para el consumo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Que sea apta para el consumo",
-        "Que sea apta para el consumo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Que sea apta para el consumo, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La exigencia HS 4 pide agua apta para el consumo, caudales suficientes y evitar retornos.",
-      "referencia": "CTE, art. 13.4"
-    },
-    {
-      "pregunta": "¿Qué tipo de llave se encuentra en la acometida?",
-      "opciones": [
-        "Llave de corte general, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Llave de corte general, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Llave de corte general, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Llave de corte general"
-      ],
-      "correcta": 3,
-      "explicacion": "La acometida tiene llave de toma o collarín, tubo de acometida, llave de corte general y llave de corte exterior.",
-      "referencia": "DB-HS 4, apartado 3.2.1.1"
-    },
-    {
-      "pregunta": "¿Puede empalmarse la red de agua directamente a una conducción de aguas residuales?",
-      "opciones": [
-        "No",
-        "No, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "No, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "No, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "No puede empalmarse la instalación de suministro directamente a una conducción de evacuación de aguas residuales.",
-      "referencia": "DB-HS 4, apartado 3.3.1 punto 2"
-    },
-    {
-      "pregunta": "¿Qué presión mínima se exige en grifos comunes?",
-      "opciones": [
-        "100 kPa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "100 kPa",
-        "100 kPa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "100 kPa, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los grifos comunes necesitan una presión mínima de 100 kPa.",
-      "referencia": "DB-HS 4, apartado 2.1.3"
-    },
-    {
-      "pregunta": "¿Cuál es la presión máxima en los puntos de consumo?",
-      "opciones": [
-        "500 kPa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "500 kPa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "500 kPa",
-        "500 kPa, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La presión máxima en los puntos de consumo es de 500 kPa.",
-      "referencia": "DB-HS 4, apartado 2.1.3"
-    },
-    {
       "pregunta": "¿Entre qué temperaturas debe estar el agua caliente sanitaria?",
       "opciones": [
         "Entre 0 ºC y 10 ºC",
@@ -305,186 +101,6 @@
       "correcta": 3,
       "explicacion": "El ACS debe estar entre 50 ºC y 65 ºC, con excepciones.",
       "referencia": "DB-HS 4, apartado 2.1.3 punto 4"
-    },
-    {
-      "pregunta": "¿Qué caudal instantáneo se asigna a una ducha?",
-      "opciones": [
-        "0,20 dm³/s",
-        "0,20 dm³/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "0,20 dm³/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "0,20 dm³/s, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El caudal instantáneo de ducha es de 0,20 dm³/s.",
-      "referencia": "DB-HS 4, tabla 2.1"
-    },
-    {
-      "pregunta": "¿Qué material de tubería es adecuado para la red de agua?",
-      "opciones": [
-        "Materiales resistentes a la corrosión interior y a 40 ºC, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Materiales resistentes a la corrosión interior y a 40 ºC",
-        "Materiales resistentes a la corrosión interior y a 40 ºC, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Materiales resistentes a la corrosión interior y a 40 ºC, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los materiales deben resistir la corrosión interior y 40 ºC, sin incompatibilidad electroquímica.",
-      "referencia": "DB-HS 4, apartado 2.1.1 punto 3"
-    },
-    {
-      "pregunta": "¿Qué tipo de velocidad máxima se admite en tuberías metálicas?",
-      "opciones": [
-        "2,00 m/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "2,00 m/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "2,00 m/s",
-        "2,00 m/s, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "En tuberías metálicas la velocidad está entre 0,50 y 2,00 m/s.",
-      "referencia": "DB-HS 4, apartado 4.2.1"
-    },
-    {
-      "pregunta": "¿Cuál es el límite de pérdida de temperatura del retorno de ACS en el grifo más alejado?",
-      "opciones": [
-        "3 ºC, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "3 ºC, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "3 ºC, computándose los plazos en días naturales y con sentido desestimatorio",
-        "3 ºC"
-      ],
-      "correcta": 3,
-      "explicacion": "La pérdida máxima es de 3 ºC en el grifo más alejado.",
-      "referencia": "DB-HS 4, apartado 4.4.2"
-    },
-    {
-      "pregunta": "¿Qué presión debe tener el depósito de presión sobre la mínima?",
-      "opciones": [
-        "Entre 2 y 3 bar",
-        "Entre 2 y 3 bar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Entre 2 y 3 bar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Entre 2 y 3 bar, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El depósito de presión debe tener entre 2 y 3 bar por encima de la presión mínima.",
-      "referencia": "DB-HS 4, apartado 4.5.2.3"
-    },
-    {
-      "pregunta": "¿Cómo se distribuye el gas en las instalaciones?",
-      "opciones": [
-        "Por canalización con autorización administrativa previa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Por canalización con autorización administrativa previa",
-        "Por canalización con autorización administrativa previa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Por canalización con autorización administrativa previa, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La distribución de gas por canalización requiere autorización administrativa previa.",
-      "referencia": "ITC-ICG 01, apartado 2"
-    },
-    {
-      "pregunta": "¿A partir de qué potencia precisan proyecto las instalaciones receptoras individuales de gas?",
-      "opciones": [
-        "Más de 70 kW, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Más de 70 kW, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Más de 70 kW",
-        "Más de 70 kW, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las individuales de más de 70 kW precisan proyecto.",
-      "referencia": "ITC-ICG 07, apartado 3.1"
-    },
-    {
-      "pregunta": "¿Qué norma se aplica al gas a presión de operación de hasta 5 bar?",
-      "opciones": [
-        "UNE 60670, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "UNE 60670, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "UNE 60670, computándose los plazos en días naturales y con sentido desestimatorio",
-        "UNE 60670"
-      ],
-      "correcta": 3,
-      "explicacion": "Hasta 5 bar se aplica la norma UNE 60670.",
-      "referencia": "ITC-ICG 07"
-    },
-    {
-      "pregunta": "¿Qué norma se aplica al gas con presión superior a 5 bar?",
-      "opciones": [
-        "UNE 60620",
-        "UNE 60620, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "UNE 60620, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "UNE 60620, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Por encima de 5 bar se aplica la norma UNE 60620.",
-      "referencia": "ITC-ICG 07"
-    },
-    {
-      "pregunta": "¿Cada cuánto se inspecciona periódicamente una instalación de gas?",
-      "opciones": [
-        "Cada cinco años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cada cinco años",
-        "Cada cinco años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cada cinco años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las instalaciones de gas se inspeccionan periódicamente cada cinco años.",
-      "referencia": "ITC-ICG 07, apartado 4.1"
-    },
-    {
-      "pregunta": "¿Qué se comprueba en la inspección del gas?",
-      "opciones": [
-        "Estanquidad, combustión, ventilación y detección de gas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Estanquidad, combustión, ventilación y detección de gas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Estanquidad, combustión, ventilación y detección de gas",
-        "Estanquidad, combustión, ventilación y detección de gas, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La inspección comprueba la estanquidad, la combustión, la ventilación y la detección de gas.",
-      "referencia": "ITC-ICG 07, apartado 4.1"
-    },
-    {
-      "pregunta": "¿Qué reglamento regula el mantenimiento de la red de agua por la legionelosis?",
-      "opciones": [
-        "El RD 865/2003, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El RD 865/2003, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El RD 865/2003, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El RD 865/2003"
-      ],
-      "correcta": 3,
-      "explicacion": "El mantenimiento frente a la legionelosis se regula por el RD 865/2003.",
-      "referencia": "DB-HS 4, apartado 7.3"
-    },
-    {
-      "pregunta": "¿Qué prueba se hace en la red de agua?",
-      "opciones": [
-        "Prueba de resistencia mecánica y estanqueidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Prueba de resistencia mecánica y estanqueidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Prueba de resistencia mecánica y estanqueidad",
-        "Prueba de resistencia mecánica y estanqueidad, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Se hace prueba de resistencia mecánica y estanqueidad de toda la red de agua.",
-      "referencia": "DB-HS 4, apartado 5.2.1.1"
-    },
-    {
-      "pregunta": "¿Qué consumo instantáneo se asigna al inodoro con fluxor?",
-      "opciones": [
-        "1,25 dm³/s",
-        "1,25 dm³/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "1,25 dm³/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "1,25 dm³/s, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El inodoro con fluxor tiene un caudal instantáneo de 1,25 dm³/s.",
-      "referencia": "DB-HS 4, tabla 2.1"
-    },
-    {
-      "pregunta": "¿Qué DB del CTE regula el suministro de agua?",
-      "opciones": [
-        "DB-HS 4, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "DB-HS 4",
-        "DB-HS 4, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "DB-HS 4, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El DB-HS 4 regula el suministro de agua en los edificios.",
-      "referencia": "CTE, DB-HS 4"
     },
     {
       "pregunta": "¿Qué reglamento regula las instalaciones de gas en edificios?",
@@ -499,78 +115,6 @@
       "referencia": "RD 919/2006"
     },
     {
-      "pregunta": "¿Qué elemento impide el retorno del agua en la instalación?",
-      "opciones": [
-        "Válvula de retención, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Válvula de retención, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Válvula de retención, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Válvula de retención"
-      ],
-      "correcta": 3,
-      "explicacion": "La válvula de retención impide el flujo inverso del agua.",
-      "referencia": "Tema e09"
-    },
-    {
-      "pregunta": "¿Qué elemento mide el consumo de agua del edificio?",
-      "opciones": [
-        "Contador, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Contador, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Contador, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Contador"
-      ],
-      "correcta": 3,
-      "explicacion": "El contador mide el volumen de agua consumido.",
-      "referencia": "Tema e09"
-    },
-    {
-      "pregunta": "¿Qué sistema calienta el agua para el consumo sanitario?",
-      "opciones": [
-        "Termo o calentador de agua caliente sanitaria",
-        "Termo o calentador de agua caliente sanitaria, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Termo o calentador de agua caliente sanitaria, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Termo o calentador de agua caliente sanitaria, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El termo o calentador produce el agua caliente sanitaria.",
-      "referencia": "Tema e09"
-    },
-    {
-      "pregunta": "¿Qué elemento permite cortar el suministro en cada aparato?",
-      "opciones": [
-        "Llave de corte, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Llave de corte",
-        "Llave de corte, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Llave de corte, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La llave de corte aísla el suministro de un aparato o zona.",
-      "referencia": "Tema e09"
-    },
-    {
-      "pregunta": "¿Qué elemento de fontanería limita la presión de la red en el interior del edificio?",
-      "opciones": [
-        "Reductor de presión, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Reductor de presión, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Reductor de presión",
-        "Reductor de presión, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El reductor de presión mantiene la presión admisible en la instalación interior.",
-      "referencia": "Tema e09"
-    },
-    {
-      "pregunta": "¿Qué elemento de gas detecta fugas y corta el suministro?",
-      "opciones": [
-        "Válvula de corte de gas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Válvula de corte de gas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Válvula de corte de gas, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Válvula de corte de gas"
-      ],
-      "correcta": 3,
-      "explicacion": "La válvula de corte de gas interrumpe el suministro cuando se detecta un riesgo.",
-      "referencia": "Tema e09"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos de la red de agua), ¿qué establece la normativa respecto a «Exigencia HS 4»?",
       "opciones": [
         "Agua apta para el consumo, caudales suficientes, evitar retornos y medios de ahorro.",
@@ -580,18 +124,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Exigencia HS 4» (Requisitos de la red de agua), la regulación vigente establece que: Agua apta para el consumo, caudales suficientes, evitar retornos y medios de ahorro.",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos de la red de agua), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Agua apta para el consumo, caudales suficientes, evitar retornos y medios de ahorro.»?",
-      "opciones": [
-        "Exigencia HS 4, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Exigencia HS 4.",
-        "Exigencia HS 4, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Exigencia HS 4, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Agua apta para el consumo, caudales suficientes, evitar retornos y medios de ahorro.») define o regula específicamente a «Exigencia HS 4» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -607,18 +139,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Presiones, temperaturas y caudales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «100 kPa para grifos comunes y 150 kPa para fluxores y calentadores.»?",
-      "opciones": [
-        "Presión mínima en los puntos de consumo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Presión mínima en los puntos de consumo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Presión mínima en los puntos de consumo, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Presión mínima en los puntos de consumo."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («100 kPa para grifos comunes y 150 kPa para fluxores y calentadores.») define o regula específicamente a «Presión mínima en los puntos de consumo» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Dimensionado), ¿qué establece la normativa respecto a «Retorno de ACS»?",
       "opciones": [
         "Pérdida máxima de 3 ºC en el grifo más alejado y no menos de 250 l/h por columna en el supuesto de la norma (apartado 4.4.2).",
@@ -631,18 +151,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Dimensionado), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Pérdida máxima de 3 ºC en el grifo más alejado y no menos de 250 l/h por columna en el supuesto de la norma (apartado 4.4.2).»?",
-      "opciones": [
-        "Retorno de ACS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Retorno de ACS.",
-        "Retorno de ACS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Retorno de ACS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Pérdida máxima de 3 ºC en el grifo más alejado y no menos de 250 l/h por columna en el supuesto de la norma (apartado 4.4.2).») define o regula específicamente a «Retorno de ACS» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿qué establece la normativa respecto a «Las instalaciones de fontanería y gas»?",
       "opciones": [
         "Son los aparatos y equipos, como los grifos, los calentadores, las calderas y los depósitos.",
@@ -652,18 +160,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «Las instalaciones de fontanería y gas» (Qué instalaciones forman este bloque), la regulación vigente establece que: Son las que llevan el agua y el combustible hasta los aparatos del edificio, y que retiran el agua usada.",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las que llevan el agua y el combustible hasta los aparatos del edificio, y que retiran el agua usada.»?",
-      "opciones": [
-        "Las instalaciones de fontanería y gas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las instalaciones de fontanería y gas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las instalaciones de fontanería y gas, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Las instalaciones de fontanería y gas."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Son las que llevan el agua y el combustible hasta los aparatos del edificio, y que retiran el agua usada.») define o regula específicamente a «Las instalaciones de fontanería y gas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -727,18 +223,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los aparatos y equipos, como los grifos, los calentadores, las calderas y los depósitos.»?",
-      "opciones": [
-        "El tercero, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El tercero.",
-        "El tercero, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El tercero, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Son los aparatos y equipos, como los grifos, los calentadores, las calderas y los depósitos.») define o regula específicamente a «El tercero» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos y exigencias básicas del agua), ¿qué establece la normativa respecto a «La incompatibilidad electroquímica entre materiales es otra regla de diseño»?",
       "opciones": [
         "0,05 dm³/s para lavamanos de agua fría, 0,10 para lavabo, 0,20 para ducha, 0,30 para bañera de 1,40 m o más, 0,10 para inodoro con cisterna y 1,25 para inodoro con fluxor.",
@@ -799,16 +283,532 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos y exigencias básicas del agua), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es insuficiente para cumplir el mínimo del punto de consumo más desfavorable, la solución es un grupo de presión, cuyo cálculo se trata en el apartado 5 de este desarrollo.»?",
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos de la red de agua), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Agua apta para el consumo, caudales suficientes, evitar retornos y medios de ahorro.»?",
       "opciones": [
-        "Si la presión de la red pública, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Si la presión de la red pública, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Si la presión de la red pública, computándose los plazos en días naturales y con sentido desestimatorio",
+        "Las instalaciones de fontanería y gas.",
+        "Exigencia HS 4.",
+        "El tercero.",
         "Si la presión de la red pública."
       ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Agua apta para el consumo, caudales suficientes, evitar retornos y medios de ahorro.») define o regula específicamente a «Exigencia HS 4» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Presiones, temperaturas y caudales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «100 kPa para grifos comunes y 150 kPa para fluxores y calentadores.»?",
+      "opciones": [
+        "El primero.",
+        "Presión mínima en los puntos de consumo.",
+        "La incompatibilidad electroquímica entre materiales es otra regla de diseño.",
+        "El caudal instantáneo mínimo se toma de la tabla de aparatos."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («100 kPa para grifos comunes y 150 kPa para fluxores y calentadores.») define o regula específicamente a «Presión mínima en los puntos de consumo» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Dimensionado), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Pérdida máxima de 3 ºC en el grifo más alejado y no menos de 250 l/h por columna en el supuesto de la norma (apartado 4.4.2).»?",
+      "opciones": [
+        "El segundo.",
+        "Las compañías suministradoras.",
+        "Para el ACS, los valores son menores.",
+        "Retorno de ACS."
+      ],
       "correcta": 3,
+      "explicacion": "Dicha determinación («Pérdida máxima de 3 ºC en el grifo más alejado y no menos de 250 l/h por columna en el supuesto de la norma (apartado 4.4.2).») define o regula específicamente a «Retorno de ACS» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las que llevan el agua y el combustible hasta los aparatos del edificio, y que retiran el agua usada.»?",
+      "opciones": [
+        "El tercero.",
+        "Las instalaciones de fontanería y gas.",
+        "Si la presión de la red pública.",
+        "El dimensionado."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Son las que llevan el agua y el combustible hasta los aparatos del edificio, y que retiran el agua usada.») define o regula específicamente a «Las instalaciones de fontanería y gas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los aparatos y equipos, como los grifos, los calentadores, las calderas y los depósitos.»?",
+      "opciones": [
+        "Si la presión de la red pública.",
+        "El dimensionado.",
+        "El DB-HS 4.",
+        "El tercero."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Son los aparatos y equipos, como los grifos, los calentadores, las calderas y los depósitos.») define o regula específicamente a «El tercero» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos y exigencias básicas del agua), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es insuficiente para cumplir el mínimo del punto de consumo más desfavorable, la solución es un grupo de presión, cuyo cálculo se trata en el apartado 5 de este desarrollo.»?",
+      "opciones": [
+        "Si la presión de la red pública.",
+        "El dimensionado.",
+        "El DB-HS 4.",
+        "Los riesgos del gas."
+      ],
+      "correcta": 0,
       "explicacion": "Dicha determinación («Es insuficiente para cumplir el mínimo del punto de consumo más desfavorable, la solución es un grupo de presión, cuyo cálculo se trata en el apartado 5 de este desarrollo.») define o regula específicamente a «Si la presión de la red pública» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Dimensionado de las redes de distribución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un procedimiento en varios pasos.»?",
+      "opciones": [
+        "El DB-HS 4.",
+        "El dimensionado.",
+        "Los riesgos del gas.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es un procedimiento en varios pasos.») define o regula específicamente a «El dimensionado» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los derivados de las zanjas, de los trabajos en altura en patinillos y de la manipulación de tuberías pesadas.»?",
+      "opciones": [
+        "El RD 919/2006.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Los riesgos de la fontanería en obra."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Son los derivados de las zanjas, de los trabajos en altura en patinillos y de la manipulación de tuberías pesadas.») define o regula específicamente a «Los riesgos de la fontanería en obra» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿qué establece la normativa respecto a «Las zanjas se rigen por el anexo IV del Real Decreto 1627/1997, apartado 9»?",
+      "opciones": [
+        "Localizar los cables y conducciones subterráneas antes de empezar, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras y los vehículos del borde.",
+        "Es el riesgo sanitario específico de la red de agua caliente.",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Las zanjas se rigen por el anexo IV del Real Decreto 1627/1997, apartado 9» (Evaluación de riesgos y seguridad y salud), la regulación vigente establece que: Localizar los cables y conducciones subterráneas antes de empezar, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras y los vehículos del borde.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Localizar los cables y conducciones subterráneas antes de empezar, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras y los vehículos del borde.»?",
+      "opciones": [
+        "La legionela.",
+        "Las zanjas se rigen por el anexo IV del Real Decreto 1627/1997, apartado 9.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Localizar los cables y conducciones subterráneas antes de empezar, prevenir el sepultamiento y la irrupción de agua, y mantener alejadas las tierras y los vehículos del borde.») define o regula específicamente a «Las zanjas se rigen por el anexo IV del Real Decreto 1627/1997, apartado 9» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿qué establece la normativa respecto a «Los riesgos del gas»?",
+      "opciones": [
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "Son la fuga, la explosión y la intoxicación por monóxido de carbono.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Los riesgos del gas» (Evaluación de riesgos y seguridad y salud), la regulación vigente establece que: Son la fuga, la explosión y la intoxicación por monóxido de carbono.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son la fuga, la explosión y la intoxicación por monóxido de carbono.»?",
+      "opciones": [
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Los riesgos del gas."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Son la fuga, la explosión y la intoxicación por monóxido de carbono.») define o regula específicamente a «Los riesgos del gas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿qué establece la normativa respecto a «El RD 919/2006»?",
+      "opciones": [
+        "Regula las infracciones y los accidentes en sus artículos 13 y 14, que no se han desarrollado aquí.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El RD 919/2006» (Evaluación de riesgos y seguridad y salud), la regulación vigente establece que: Regula las infracciones y los accidentes en sus artículos 13 y 14, que no se han desarrollado aquí.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula las infracciones y los accidentes en sus artículos 13 y 14, que no se han desarrollado aquí.»?",
+      "opciones": [
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "El RD 919/2006.",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Regula las infracciones y los accidentes en sus artículos 13 y 14, que no se han desarrollado aquí.») define o regula específicamente a «El RD 919/2006» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿qué establece la normativa respecto a «La legionela»?",
+      "opciones": [
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Es el riesgo sanitario específico de la red de agua caliente.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «La legionela» (Evaluación de riesgos y seguridad y salud), la regulación vigente establece que: Es el riesgo sanitario específico de la red de agua caliente.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el riesgo sanitario específico de la red de agua caliente.»?",
+      "opciones": [
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "La legionela."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es el riesgo sanitario específico de la red de agua caliente.») define o regula específicamente a «La legionela» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Se aprueba el Reglamento técnico de distribución y utilización de combustibles gaseosos y sus instrucciones técnicas complementarias (ITCs) ICG 01 a 11, que se insertan a continuación."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.»?",
+      "opciones": [
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Objeto (art. 1 Reglamento técnico de distribución y utilización de combustibles gaseosos)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.») define o regula específicamente a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Art. único de Código Técnico de la Edificación).",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "En el caso de instalaciones individuales con contaje (equipo contador) situado en el límite de la propiedad no existe acometida interior."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.»?",
+      "opciones": [
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Definiciones (art. 3 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.») define o regula específicamente a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Art. 4 de Código Técnico de la Edificación).",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "El citado órgano competente podrá desestimar la solicitud, o requerir la modificación de las medidas compensatorias, previo a conceder la autorización expresa de excepción."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.»?",
+      "opciones": [
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Excepciones (art. 10 Reglamento técnico de distribución y utilización de combustibles gaseosos)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.») define o regula específicamente a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Art. 5 de Código Técnico de la Edificación).",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Se aprueba el Reglamento técnico de distribución y utilización de combustibles gaseosos y sus instrucciones técnicas complementarias (ITCs) ICG 01 a 11, que se insertan a continuación.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "Las ITCs podrán prescribir el cumplimiento de normas (normas UNE u otras), de manera total o parcial, a fin de facilitar la adaptación al estado de la técnica en cada momento."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.»?",
+      "opciones": [
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Objeto (art. 1 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Normas (art. 12 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.») define o regula específicamente a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Art. 6 de Código Técnico de la Edificación).",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "En el caso de instalaciones individuales con contaje (equipo contador) situado en el límite de la propiedad no existe acometida interior.",
+        "Esta información estadística deberá incluir, al menos, los siguientes datos: Localidad y provincia."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+      "referencia": "Art. 7 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.»?",
+      "opciones": [
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Definiciones (art. 3 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Accidentes (art. 14 Reglamento técnico de distribución y utilización de combustibles gaseosos)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.») define o regula específicamente a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Art. 7 de Código Técnico de la Edificación).",
+      "referencia": "Art. 7 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "El citado órgano competente podrá desestimar la solicitud, o requerir la modificación de las medidas compensatorias, previo a conceder la autorización expresa de excepción.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+      "referencia": "Art. 8 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.»?",
+      "opciones": [
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Excepciones (art. 10 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.») define o regula específicamente a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Art. 8 de Código Técnico de la Edificación).",
+      "referencia": "Art. 8 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Generalidades (art. 9 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Se aprueba el Reglamento técnico de distribución y utilización de combustibles gaseosos y sus instrucciones técnicas complementarias (ITCs) ICG 01 a 11, que se insertan a continuación.",
+        "Las ITCs podrán prescribir el cumplimiento de normas (normas UNE u otras), de manera total o parcial, a fin de facilitar la adaptación al estado de la técnica en cada momento.",
+        "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Generalidades (art. 9 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+      "referencia": "Art. 9 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.»?",
+      "opciones": [
+        "Objeto (art. 1 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Normas (art. 12 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Objeto (art. 1 Ley de Ordenación de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.») define o regula específicamente a «Generalidades (art. 9 Código Técnico de la Edificación)» (Art. 9 de Código Técnico de la Edificación).",
+      "referencia": "Art. 9 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "En el caso de instalaciones individuales con contaje (equipo contador) situado en el límite de la propiedad no existe acometida interior.",
+        "Esta información estadística deberá incluir, al menos, los siguientes datos: Localidad y provincia.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "De telecomunicaciones (referido a la ingeniería de las telecomunicaciones)."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+      "referencia": "Art. 10 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.»?",
+      "opciones": [
+        "Definiciones (art. 3 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Accidentes (art. 14 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.») define o regula específicamente a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Art. 10 de Código Técnico de la Edificación).",
+      "referencia": "Art. 10 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "El citado órgano competente podrá desestimar la solicitud, o requerir la modificación de las medidas compensatorias, previo a conceder la autorización expresa de excepción.",
+        "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+        "El proyecto es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras contempladas en el artículo 2."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+      "referencia": "Art. 15 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.»?",
+      "opciones": [
+        "Excepciones (art. 10 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+        "Proyecto (art. 4 Ley de Ordenación de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.») define o regula específicamente a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Art. 15 de Código Técnico de la Edificación).",
+      "referencia": "Art. 15 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), ¿qué establece la normativa respecto a «Objeto (art. 1 Reglamento técnico de distribución y utilización de combustibles gaseosos)»?",
+      "opciones": [
+        "Las ITCs podrán prescribir el cumplimiento de normas (normas UNE u otras), de manera total o parcial, a fin de facilitar la adaptación al estado de la técnica en cada momento.",
+        "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica.",
+        "Se aprueba el Reglamento técnico de distribución y utilización de combustibles gaseosos y sus instrucciones técnicas complementarias (ITCs) ICG 01 a 11, que se insertan a continuación.",
+        "La recepción de la obra es el acto por el cual el constructor, una vez concluida ésta, hace entrega de la misma al promotor y es aceptada por éste."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Objeto (art. 1 Reglamento técnico de distribución y utilización de combustibles gaseosos)» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), la regulación vigente establece que: Se aprueba el Reglamento técnico de distribución y utilización de combustibles gaseosos y sus instrucciones técnicas complementarias (ITCs) ICG 01 a 11, que se insertan a continuación.",
+      "referencia": "Art. 1 de Reglamento técnico de distribución y utilización de combustibles gaseosos"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se aprueba el Reglamento técnico de distribución y utilización de combustibles gaseosos y sus instrucciones técnicas complementarias (ITCs) ICG 01 a 11, que se insertan a continuación.»?",
+      "opciones": [
+        "Normas (art. 12 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Objeto (art. 1 Ley de Ordenación de la Edificación).",
+        "Recepción de la obra (art. 6 Ley de Ordenación de la Edificación).",
+        "Objeto (art. 1 Reglamento técnico de distribución y utilización de combustibles gaseosos)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Se aprueba el Reglamento técnico de distribución y utilización de combustibles gaseosos y sus instrucciones técnicas complementarias (ITCs) ICG 01 a 11, que se insertan a continuación.») define o regula específicamente a «Objeto (art. 1 Reglamento técnico de distribución y utilización de combustibles gaseosos)» (Art. 1 de Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+      "referencia": "Art. 1 de Reglamento técnico de distribución y utilización de combustibles gaseosos"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), ¿qué establece la normativa respecto a «Definiciones (art. 3 Reglamento técnico de distribución y utilización de combustibles gaseosos)»?",
+      "opciones": [
+        "En el caso de instalaciones individuales con contaje (equipo contador) situado en el límite de la propiedad no existe acometida interior.",
+        "Esta información estadística deberá incluir, al menos, los siguientes datos: Localidad y provincia.",
+        "De telecomunicaciones (referido a la ingeniería de las telecomunicaciones).",
+        "Toda la documentación a que hace referencia los apartados anteriores, que constituirá el Libro del Edificio, será entregada a los usuarios finales del edificio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Definiciones (art. 3 Reglamento técnico de distribución y utilización de combustibles gaseosos)» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), la regulación vigente establece que: En el caso de instalaciones individuales con contaje (equipo contador) situado en el límite de la propiedad no existe acometida interior.",
+      "referencia": "Art. 3 de Reglamento técnico de distribución y utilización de combustibles gaseosos"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En el caso de instalaciones individuales con contaje (equipo contador) situado en el límite de la propiedad no existe acometida interior.»?",
+      "opciones": [
+        "Accidentes (art. 14 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Definiciones (art. 3 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación).",
+        "Documentación de la obra ejecutada (art. 7 Ley de Ordenación de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («En el caso de instalaciones individuales con contaje (equipo contador) situado en el límite de la propiedad no existe acometida interior.») define o regula específicamente a «Definiciones (art. 3 Reglamento técnico de distribución y utilización de combustibles gaseosos)» (Art. 3 de Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+      "referencia": "Art. 3 de Reglamento técnico de distribución y utilización de combustibles gaseosos"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), ¿qué establece la normativa respecto a «Excepciones (art. 10 Reglamento técnico de distribución y utilización de combustibles gaseosos)»?",
+      "opciones": [
+        "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+        "El proyecto es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras contempladas en el artículo 2.",
+        "El citado órgano competente podrá desestimar la solicitud, o requerir la modificación de las medidas compensatorias, previo a conceder la autorización expresa de excepción.",
+        "Son agentes de la edificación todas las personas, físicas o jurídicas, que intervienen en el proceso de la edificación."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Excepciones (art. 10 Reglamento técnico de distribución y utilización de combustibles gaseosos)» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), la regulación vigente establece que: El citado órgano competente podrá desestimar la solicitud, o requerir la modificación de las medidas compensatorias, previo a conceder la autorización expresa de excepción.",
+      "referencia": "Art. 10 de Reglamento técnico de distribución y utilización de combustibles gaseosos"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El citado órgano competente podrá desestimar la solicitud, o requerir la modificación de las medidas compensatorias, previo a conceder la autorización expresa de excepción.»?",
+      "opciones": [
+        "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+        "Proyecto (art. 4 Ley de Ordenación de la Edificación).",
+        "Concepto (art. 8 Ley de Ordenación de la Edificación).",
+        "Excepciones (art. 10 Reglamento técnico de distribución y utilización de combustibles gaseosos)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El citado órgano competente podrá desestimar la solicitud, o requerir la modificación de las medidas compensatorias, previo a conceder la autorización expresa de excepción.») define o regula específicamente a «Excepciones (art. 10 Reglamento técnico de distribución y utilización de combustibles gaseosos)» (Art. 10 de Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+      "referencia": "Art. 10 de Reglamento técnico de distribución y utilización de combustibles gaseosos"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), ¿qué establece la normativa respecto a «Normas (art. 12 Reglamento técnico de distribución y utilización de combustibles gaseosos)»?",
+      "opciones": [
+        "Las ITCs podrán prescribir el cumplimiento de normas (normas UNE u otras), de manera total o parcial, a fin de facilitar la adaptación al estado de la técnica en cada momento.",
+        "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica.",
+        "La recepción de la obra es el acto por el cual el constructor, una vez concluida ésta, hace entrega de la misma al promotor y es aceptada por éste.",
+        "El proyectista es el agente que, por encargo del promotor y con sujeción a la normativa técnica y urbanística correspondiente, redacta el proyecto."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Normas (art. 12 Reglamento técnico de distribución y utilización de combustibles gaseosos)» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), la regulación vigente establece que: Las ITCs podrán prescribir el cumplimiento de normas (normas UNE u otras), de manera total o parcial, a fin de facilitar la adaptación al estado de la técnica en cada momento.",
+      "referencia": "Art. 12 de Reglamento técnico de distribución y utilización de combustibles gaseosos"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las ITCs podrán prescribir el cumplimiento de normas (normas UNE u otras), de manera total o parcial, a fin de facilitar la adaptación al estado de la técnica en cada momento.»?",
+      "opciones": [
+        "Objeto (art. 1 Ley de Ordenación de la Edificación).",
+        "Normas (art. 12 Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+        "Recepción de la obra (art. 6 Ley de Ordenación de la Edificación).",
+        "El proyectista (art. 10 Ley de Ordenación de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Las ITCs podrán prescribir el cumplimiento de normas (normas UNE u otras), de manera total o parcial, a fin de facilitar la adaptación al estado de la técnica en cada momento.») define o regula específicamente a «Normas (art. 12 Reglamento técnico de distribución y utilización de combustibles gaseosos)» (Art. 12 de Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+      "referencia": "Art. 12 de Reglamento técnico de distribución y utilización de combustibles gaseosos"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), ¿qué establece la normativa respecto a «Accidentes (art. 14 Reglamento técnico de distribución y utilización de combustibles gaseosos)»?",
+      "opciones": [
+        "De telecomunicaciones (referido a la ingeniería de las telecomunicaciones).",
+        "Toda la documentación a que hace referencia los apartados anteriores, que constituirá el Libro del Edificio, será entregada a los usuarios finales del edificio.",
+        "Esta información estadística deberá incluir, al menos, los siguientes datos: Localidad y provincia.",
+        "Podrán dirigir las obras de los proyectos parciales otros técnicos, bajo la coordinación del director de obra."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Accidentes (art. 14 Reglamento técnico de distribución y utilización de combustibles gaseosos)» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), la regulación vigente establece que: Esta información estadística deberá incluir, al menos, los siguientes datos: Localidad y provincia.",
+      "referencia": "Art. 14 de Reglamento técnico de distribución y utilización de combustibles gaseosos"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de fontanería y gas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación para canalizaciones de abastecimiento, desagües, aparatos y equipos: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento técnico de distribución y utilización de combustibles gaseosos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Esta información estadística deberá incluir, al menos, los siguientes datos: Localidad y provincia.»?",
+      "opciones": [
+        "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación).",
+        "Documentación de la obra ejecutada (art. 7 Ley de Ordenación de la Edificación).",
+        "El director de obra (art. 12 Ley de Ordenación de la Edificación).",
+        "Accidentes (art. 14 Reglamento técnico de distribución y utilización de combustibles gaseosos)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Esta información estadística deberá incluir, al menos, los siguientes datos: Localidad y provincia.») define o regula específicamente a «Accidentes (art. 14 Reglamento técnico de distribución y utilización de combustibles gaseosos)» (Art. 14 de Reglamento técnico de distribución y utilización de combustibles gaseosos).",
+      "referencia": "Art. 14 de Reglamento técnico de distribución y utilización de combustibles gaseosos"
     }
   ]
 }

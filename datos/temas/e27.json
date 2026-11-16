@@ -47,18 +47,6 @@
   ],
   "test": [
     {
-      "pregunta": "¿Cómo debe ser el objeto de un contrato del sector público?",
-      "opciones": [
-        "Determinado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Determinado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Determinado, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Determinado"
-      ],
-      "correcta": 3,
-      "explicacion": "El art. 99.1 LCSP establece que el objeto de los contratos del sector público debe ser determinado.",
-      "referencia": "Art. 99.1 LCSP"
-    },
-    {
       "pregunta": "¿Qué es el presupuesto base de licitación?",
       "opciones": [
         "El precio final pagado",
@@ -69,66 +57,6 @@
       "correcta": 3,
       "explicacion": "El art. 100.1 LCSP define el presupuesto base como el límite máximo de gasto que puede comprometer el órgano de contratación, incluido el IVA salvo disposición en contrario.",
       "referencia": "Art. 100.1 LCSP"
-    },
-    {
-      "pregunta": "¿Qué excluye el valor estimado de un contrato de obras?",
-      "opciones": [
-        "El IVA, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El IVA, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El IVA",
-        "El IVA, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El art. 101.1.a) LCSP toma el importe total sin incluir el IVA.",
-      "referencia": "Art. 101.1.a) LCSP"
-    },
-    {
-      "pregunta": "¿Cómo debe ser el precio de los contratos del sector público?",
-      "opciones": [
-        "Cierto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cierto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cierto, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Cierto"
-      ],
-      "correcta": 3,
-      "explicacion": "El art. 102.1 LCSP establece que los contratos del sector público tienen siempre un precio cierto.",
-      "referencia": "Art. 102.1 LCSP"
-    },
-    {
-      "pregunta": "¿Cómo pueden revisarse los precios de los contratos?",
-      "opciones": [
-        "Solo por revisión periódica y predeterminada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Solo por revisión periódica y predeterminada",
-        "Solo por revisión periódica y predeterminada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Solo por revisión periódica y predeterminada, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El art. 103.1 LCSP admite la revisión solo periódica y predeterminada, en los términos del capítulo correspondiente.",
-      "referencia": "Art. 103.1 LCSP"
-    },
-    {
-      "pregunta": "¿En qué moneda se expresa el precio con carácter general?",
-      "opciones": [
-        "En euros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "En euros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "En euros, computándose los plazos en días naturales y con sentido desestimatorio",
-        "En euros"
-      ],
-      "correcta": 3,
-      "explicacion": "El art. 102.2 LCSP establece que, con carácter general, el precio debe expresarse en euros.",
-      "referencia": "Art. 102.2 LCSP"
-    },
-    {
-      "pregunta": "¿Desde qué presupuesto base de licitación es obligatoria la supervisión del proyecto de obras?",
-      "opciones": [
-        "500.000 €, IVA excluido conforme al valor estimado del expediente conforme al presupuesto base de licitación",
-        "500.000 €, IVA excluido, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "500.000 €, IVA excluido",
-        "500.000 €, IVA excluido, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El art. 235 LCSP exige la supervisión cuando el presupuesto base de licitación es igual o superior a 500.000 euros, IVA excluido.",
-      "referencia": "Art. 235 LCSP"
     },
     {
       "pregunta": "En un contrato de concesión, ¿qué cifra sirve de valor estimado?",
@@ -143,150 +71,6 @@
       "referencia": "Art. 101.2 LCSP"
     },
     {
-      "pregunta": "¿Cuál es el límite de los contratos menores de suministro?",
-      "opciones": [
-        "15.000 €",
-        "15.000 €, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "15.000 €, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "15.000 €, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 118.1 LCSP fija en 15.000 euros el límite de los contratos menores de suministro y servicios, y en 40.000 euros el de obras.",
-      "referencia": "Art. 118.1 LCSP"
-    },
-    {
-      "pregunta": "Si el contratista incurre en mora, ¿qué índice de precios se aplica en la revisión?",
-      "opciones": [
-        "El de la fecha prevista en el contrato, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El de la fecha prevista en el contrato, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El de la fecha prevista en el contrato",
-        "El de la fecha prevista en el contrato, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El art. 104.1 LCSP establece que los índices son los que correspondían a las fechas establecidas en el contrato, sin perjuicio de las penalidades.",
-      "referencia": "Art. 104.1 LCSP"
-    },
-    {
-      "pregunta": "¿Cómo debe definirse el objeto de un contrato según la LCSP?",
-      "opciones": [
-        "De forma determinada, por necesidades o funcionalidades, sin cerrarlo a una solución única",
-        "De forma determinada, por necesidades o funcionalidades, sin cerrarlo a una solución única, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "De forma determinada, por necesidades o funcionalidades, sin cerrarlo a una solución única, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "De forma determinada, por necesidades o funcionalidades, sin cerrarlo a una solución única, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El objeto debe ser determinado y puede definirse por necesidades o funcionalidades, sin cerrarlo a una única solución.",
-      "referencia": "LCSP, art. 99.1"
-    },
-    {
-      "pregunta": "¿El presupuesto base de licitación incluye el IVA?",
-      "opciones": [
-        "Sí, salvo disposición en contrario, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Sí, salvo disposición en contrario",
-        "Sí, salvo disposición en contrario, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Sí, salvo disposición en contrario, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El presupuesto base incluye el IVA, salvo disposición en contrario.",
-      "referencia": "LCSP, art. 100.1"
-    },
-    {
-      "pregunta": "¿A qué debe ser adecuado el presupuesto base?",
-      "opciones": [
-        "A los precios de mercado",
-        "A los precios de mercado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "A los precios de mercado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "A los precios de mercado, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El presupuesto base debe ser adecuado a los precios de mercado.",
-      "referencia": "LCSP, art. 100.2"
-    },
-    {
-      "pregunta": "¿Qué es el valor estimado de un contrato?",
-      "opciones": [
-        "Una cifra sin IVA que refleja el importe total pagadero según las estimaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una cifra sin IVA que refleja el importe total pagadero según las estimaciones",
-        "Una cifra sin IVA que refleja el importe total pagadero según las estimaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una cifra sin IVA que refleja el importe total pagadero según las estimaciones, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El valor estimado se calcula sin IVA e incluye el importe total pagadero según las estimaciones.",
-      "referencia": "LCSP, art. 101.1 a)"
-    },
-    {
-      "pregunta": "¿Cómo se calcula el valor estimado en concesiones?",
-      "opciones": [
-        "Por la cifra de negocios que generará el concesionario sin IVA",
-        "Por la cifra de negocios que generará el concesionario sin IVA, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Por la cifra de negocios que generará el concesionario sin IVA, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Por la cifra de negocios que generará el concesionario sin IVA, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "En concesiones se toma la cifra de negocios que generará el concesionario, sin IVA.",
-      "referencia": "LCSP, art. 101.2"
-    },
-    {
-      "pregunta": "¿Qué tipo de precio exige la LCSP?",
-      "opciones": [
-        "Un precio cierto, abonado según lo realmente ejecutado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un precio cierto, abonado según lo realmente ejecutado",
-        "Un precio cierto, abonado según lo realmente ejecutado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un precio cierto, abonado según lo realmente ejecutado, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El precio debe ser cierto y abonarse según lo realmente ejecutado y lo pactado.",
-      "referencia": "LCSP, art. 102.1"
-    },
-    {
-      "pregunta": "¿Cómo debe ser la revisión de precios?",
-      "opciones": [
-        "Solo periódica y predeterminada",
-        "Solo periódica y predeterminada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Solo periódica y predeterminada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Solo periódica y predeterminada, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La revisión de precios solo es periódica y predeterminada.",
-      "referencia": "LCSP, art. 103.1"
-    },
-    {
-      "pregunta": "¿Qué índices se usan en caso de demora en la revisión de precios?",
-      "opciones": [
-        "Los índices de la fecha prevista, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los índices de la fecha prevista",
-        "Los índices de la fecha prevista, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los índices de la fecha prevista, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "En caso de demora se aplican los índices de la fecha prevista.",
-      "referencia": "LCSP, art. 104.1"
-    },
-    {
-      "pregunta": "¿Qué estructura tiene el presupuesto de un proyecto de obra?",
-      "opciones": [
-        "Precios unitarios, descompuestos, mediciones y valoración",
-        "Precios unitarios, descompuestos, mediciones y valoración, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Precios unitarios, descompuestos, mediciones y valoración, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Precios unitarios, descompuestos, mediciones y valoración, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El presupuesto incluye precios unitarios, descompuestos, mediciones y valoración.",
-      "referencia": "LCSP, art. 233.1 d)"
-    },
-    {
-      "pregunta": "¿Qué elementos componen los costes del presupuesto de la obra?",
-      "opciones": [
-        "Costes directos e indirectos, gastos generales y beneficio industrial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Costes directos e indirectos, gastos generales y beneficio industrial",
-        "Costes directos e indirectos, gastos generales y beneficio industrial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Costes directos e indirectos, gastos generales y beneficio industrial, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El presupuesto incluye costes directos e indirectos, gastos generales y beneficio industrial.",
-      "referencia": "Tema e27"
-    },
-    {
       "pregunta": "¿Qué es el presupuesto de ejecución material?",
       "opciones": [
         "El salario del jefe",
@@ -297,42 +81,6 @@
       "correcta": 2,
       "explicacion": "El presupuesto de ejecución material suma los costes de ejecución de la obra.",
       "referencia": "Tema e27"
-    },
-    {
-      "pregunta": "¿Desde qué importe es obligatoria la supervisión del proyecto?",
-      "opciones": [
-        "500.000 euros, sin IVA, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "500.000 euros, sin IVA, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "500.000 euros, sin IVA, computándose los plazos en días naturales y con sentido desestimatorio",
-        "500.000 euros, sin IVA"
-      ],
-      "correcta": 3,
-      "explicacion": "La supervisión es obligatoria desde 500.000 euros de presupuesto base sin IVA.",
-      "referencia": "LCSP, art. 235"
-    },
-    {
-      "pregunta": "¿Qué mide el valor estimado?",
-      "opciones": [
-        "El importe total del contrato sin IVA según estimaciones",
-        "El importe total del contrato sin IVA según estimaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El importe total del contrato sin IVA según estimaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El importe total del contrato sin IVA según estimaciones, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El valor estimado mide el importe total del contrato sin IVA según estimaciones.",
-      "referencia": "LCSP, art. 101"
-    },
-    {
-      "pregunta": "¿Qué diferencia hay entre el presupuesto base y el valor estimado?",
-      "opciones": [
-        "El presupuesto base puede incluir IVA y el valor estimado no, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El presupuesto base puede incluir IVA y el valor estimado no",
-        "El presupuesto base puede incluir IVA y el valor estimado no, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El presupuesto base puede incluir IVA y el valor estimado no, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El presupuesto base puede incluir IVA y el valor estimado se calcula sin IVA.",
-      "referencia": "LCSP, arts. 100 y 101"
     },
     {
       "pregunta": "¿Qué tipo de precio es el de la obra ejecutada?",
@@ -347,42 +95,6 @@
       "referencia": "LCSP, art. 102.1"
     },
     {
-      "pregunta": "¿El presupuesto base puede superar el precio de mercado?",
-      "opciones": [
-        "No, debe ser adecuado a los precios de mercado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "No, debe ser adecuado a los precios de mercado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "No, debe ser adecuado a los precios de mercado, computándose los plazos en días naturales y con sentido desestimatorio",
-        "No, debe ser adecuado a los precios de mercado"
-      ],
-      "correcta": 3,
-      "explicacion": "El presupuesto debe ser adecuado a los precios de mercado.",
-      "referencia": "LCSP, art. 100.2"
-    },
-    {
-      "pregunta": "¿Cómo figura el IVA en el precio de un contrato del sector público?",
-      "opciones": [
-        "Como partida independiente",
-        "Como partida independiente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Como partida independiente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Como partida independiente, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El precio cierto recoge el IVA como partida independiente.",
-      "referencia": "LCSP, art. 102.1"
-    },
-    {
-      "pregunta": "¿Qué porcentaje mínimo del importe debe ejecutarse para que se aplique la revisión de precios?",
-      "opciones": [
-        "El 20 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El 20 %",
-        "El 20 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El 20 %, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La revisión se aplica cuando se ha ejecutado al menos el 20 % del importe.",
-      "referencia": "LCSP, art. 103.5"
-    },
-    {
       "pregunta": "¿Desde cuándo debe haber transcurrido un año para aplicar la revisión de precios?",
       "opciones": [
         "Desde el día de la publicación en el BOE",
@@ -393,54 +105,6 @@
       "correcta": 2,
       "explicacion": "La revisión exige que haya transcurrido un año desde la formalización.",
       "referencia": "LCSP, art. 103.5"
-    },
-    {
-      "pregunta": "¿En qué tipos de contrato procede la revisión periódica y predeterminada de precios?",
-      "opciones": [
-        "En los de obra, armamento, suministro de energía y recuperación de la inversión de cinco años o más, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "En los de obra, armamento, suministro de energía y recuperación de la inversión de cinco años o más, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "En los de obra, armamento, suministro de energía y recuperación de la inversión de cinco años o más, computándose los plazos en días naturales y con sentido desestimatorio",
-        "En los de obra, armamento, suministro de energía y recuperación de la inversión de cinco años o más"
-      ],
-      "correcta": 3,
-      "explicacion": "La revisión procede en esos contratos según el art. 103.2.",
-      "referencia": "LCSP, art. 103.2"
-    },
-    {
-      "pregunta": "¿Qué costes no son revisables en ningún caso?",
-      "opciones": [
-        "Las amortizaciones, los costes financieros, los gastos generales y el beneficio industrial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las amortizaciones, los costes financieros, los gastos generales y el beneficio industrial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las amortizaciones, los costes financieros, los gastos generales y el beneficio industrial",
-        "Las amortizaciones, los costes financieros, los gastos generales y el beneficio industrial, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "No son revisables las amortizaciones, los costes financieros, los gastos generales y el beneficio industrial.",
-      "referencia": "LCSP, art. 103.2"
-    },
-    {
-      "pregunta": "¿Quién puede aprobar fórmulas tipo de revisión de precios?",
-      "opciones": [
-        "El Consejo de Ministros",
-        "El Consejo de Ministros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El Consejo de Ministros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El Consejo de Ministros, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El Consejo de Ministros puede aprobar fórmulas tipo, previo informe de la Junta Consultiva y de la Comisión Delegada.",
-      "referencia": "LCSP, art. 103.6"
-    },
-    {
-      "pregunta": "¿Quién puede establecer la revisión de precios y su fórmula en el contrato?",
-      "opciones": [
-        "El órgano de contratación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El órgano de contratación",
-        "El órgano de contratación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El órgano de contratación, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El órgano de contratación puede establecer la revisión y su fórmula.",
-      "referencia": "LCSP, art. 103.3"
     },
     {
       "pregunta": "¿Qué debe detallar el pliego sobre la fórmula de revisión?",
@@ -465,66 +129,6 @@
       "correcta": 3,
       "explicacion": "La fecha de referencia es la de formalización si se formaliza en ese plazo.",
       "referencia": "LCSP, art. 103.4"
-    },
-    {
-      "pregunta": "¿Quién elabora los índices mensuales de precios para la revisión de precios?",
-      "opciones": [
-        "El Instituto Nacional de Estadística, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El Instituto Nacional de Estadística, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El Instituto Nacional de Estadística, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El Instituto Nacional de Estadística"
-      ],
-      "correcta": 3,
-      "explicacion": "El INE elabora los índices mensuales, que se aprueban por orden ministerial.",
-      "referencia": "LCSP, art. 103.7"
-    },
-    {
-      "pregunta": "¿Cómo se paga la revisión de precios?",
-      "opciones": [
-        "De oficio, mediante abono o descuento en las certificaciones",
-        "De oficio, mediante abono o descuento en las certificaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "De oficio, mediante abono o descuento en las certificaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "De oficio, mediante abono o descuento en las certificaciones, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La revisión se paga de oficio mediante abono o descuento en las certificaciones o pagos parciales.",
-      "referencia": "LCSP, art. 105"
-    },
-    {
-      "pregunta": "¿Se aplica el requisito del 20 % de ejecución en los contratos de concesión de servicios?",
-      "opciones": [
-        "No, no se exige en esos contratos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "No, no se exige en esos contratos",
-        "No, no se exige en esos contratos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "No, no se exige en esos contratos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La condición del porcentaje no se exige en los contratos de concesión de servicios.",
-      "referencia": "LCSP, art. 103.5"
-    },
-    {
-      "pregunta": "¿Cómo se calcula el valor estimado del contrato en cuanto al IVA?",
-      "opciones": [
-        "Sin incluir el IVA, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Sin incluir el IVA, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Sin incluir el IVA",
-        "Sin incluir el IVA, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El valor estimado es el importe total pagadero según las estimaciones, sin incluir el IVA.",
-      "referencia": "LCSP, art. 101.1"
-    },
-    {
-      "pregunta": "¿Qué conceptos deben incluirse en el valor estimado además del importe inicial?",
-      "opciones": [
-        "Las eventuales prórrogas y las modificaciones previstas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las eventuales prórrogas y las modificaciones previstas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las eventuales prórrogas y las modificaciones previstas, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Las eventuales prórrogas y las modificaciones previstas"
-      ],
-      "correcta": 3,
-      "explicacion": "En el valor estimado se tienen en cuenta las eventuales prórrogas y modificaciones previstas.",
-      "referencia": "LCSP, art. 101.2"
     },
     {
       "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Introducción: cuatro cifras que no son lo mismo), ¿qué establece la normativa respecto a «La LCSP las define en preceptos separados»?",
@@ -563,18 +167,6 @@
       "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     },
     {
-      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El objeto del contrato (art. 99 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sin un objeto determinado no puede saberse qué se licita, ni qué debe ejecutar el contratista, ni qué precio es razonable.»?",
-      "opciones": [
-        "Es una exigencia básica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Es una exigencia básica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Es una exigencia básica, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Es una exigencia básica."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Sin un objeto determinado no puede saberse qué se licita, ni qué debe ejecutar el contratista, ni qué precio es razonable.») define o regula específicamente a «Es una exigencia básica» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
-      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
-    },
-    {
       "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El objeto del contrato (art. 99 LCSP)), ¿qué establece la normativa respecto a «Es una vía de flexibilidad»?",
       "opciones": [
         "La Administración describe lo que necesita y deja abierta la forma de conseguirlo, siempre dentro de la legalidad.",
@@ -608,18 +200,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «Por eso el objeto de la obra no» (El objeto del contrato (art. 99 LCSP)), la regulación vigente establece que: Es una fórmula general, sino lo que describen la memoria, los planos y el pliego de prescripciones técnicas particulares (art. 233.1 LCSP).",
-      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El objeto del contrato (art. 99 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una fórmula general, sino lo que describen la memoria, los planos y el pliego de prescripciones técnicas particulares (art. 233.1 LCSP).»?",
-      "opciones": [
-        "Por eso el objeto de la obra no, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Por eso el objeto de la obra no, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Por eso el objeto de la obra no, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Por eso el objeto de la obra no."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Es una fórmula general, sino lo que describen la memoria, los planos y el pliego de prescripciones técnicas particulares (art. 233.1 LCSP).») define o regula específicamente a «Por eso el objeto de la obra no» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
       "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     },
     {
@@ -683,18 +263,6 @@
       "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     },
     {
-      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El presupuesto base de licitación (art. 100 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un límite de gasto, no un precio.»?",
-      "opciones": [
-        "El presupuesto base, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El presupuesto base.",
-        "El presupuesto base, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El presupuesto base, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es un límite de gasto, no un precio.») define o regula específicamente a «El presupuesto base» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
-      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
-    },
-    {
       "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Estructura del presupuesto de la obra), ¿qué establece la normativa respecto a «Los costes directos»?",
       "opciones": [
         "Es que el valor estimado excluye el IVA y se calcula con las estimaciones del órgano de contratación.",
@@ -755,15 +323,447 @@
       "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     },
     {
-      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Estructura del presupuesto de la obra), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Precios unitarios y descompuestos, costes directos e indirectos, presupuesto de ejecución material, gastos generales y beneficio industrial, y presupuesto base de licitación con IVA.»?",
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El objeto del contrato (art. 99 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sin un objeto determinado no puede saberse qué se licita, ni qué debe ejecutar el contratista, ni qué precio es razonable.»?",
       "opciones": [
-        "Para un examen, la secuencia es, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Para un examen, la secuencia es, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Para un examen, la secuencia es, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Para un examen, la secuencia es."
+        "La respuesta.",
+        "Es una exigencia básica.",
+        "Los costes directos.",
+        "La diferencia con el presupuesto base."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Sin un objeto determinado no puede saberse qué se licita, ni qué debe ejecutar el contratista, ni qué precio es razonable.») define o regula específicamente a «Es una exigencia básica» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El objeto del contrato (art. 99 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una fórmula general, sino lo que describen la memoria, los planos y el pliego de prescripciones técnicas particulares (art. 233.1 LCSP).»?",
+      "opciones": [
+        "El presupuesto base.",
+        "Para un examen, la secuencia es.",
+        "Respuesta.",
+        "Por eso el objeto de la obra no."
       ],
       "correcta": 3,
+      "explicacion": "Dicha determinación («Es una fórmula general, sino lo que describen la memoria, los planos y el pliego de prescripciones técnicas particulares (art. 233.1 LCSP).») define o regula específicamente a «Por eso el objeto de la obra no» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El presupuesto base de licitación (art. 100 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un límite de gasto, no un precio.»?",
+      "opciones": [
+        "El presupuesto base.",
+        "Para un examen, la secuencia es.",
+        "Respuesta.",
+        "Lo que la ley."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es un límite de gasto, no un precio.») define o regula específicamente a «El presupuesto base» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Estructura del presupuesto de la obra), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Precios unitarios y descompuestos, costes directos e indirectos, presupuesto de ejecución material, gastos generales y beneficio industrial, y presupuesto base de licitación con IVA.»?",
+      "opciones": [
+        "Respuesta.",
+        "Para un examen, la secuencia es.",
+        "Lo que la ley.",
+        "Si la oferta."
+      ],
+      "correcta": 1,
       "explicacion": "Dicha determinación («Precios unitarios y descompuestos, costes directos e indirectos, presupuesto de ejecución material, gastos generales y beneficio industrial, y presupuesto base de licitación con IVA.») define o regula específicamente a «Para un examen, la secuencia es» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El valor estimado del contrato (art. 101 LCSP)), ¿qué establece la normativa respecto a «La diferencia con el presupuesto base»?",
+      "opciones": [
+        "La cantidad que se pagará debe estar determinada.",
+        "La revisión debe estar prevista y seguir un método determinado.",
+        "Son los de valor estimado inferior a 40.000 euros (art. 118.1 LCSP).",
+        "Es que el valor estimado excluye el IVA y se calcula con las estimaciones del órgano de contratación."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «La diferencia con el presupuesto base» (El valor estimado del contrato (art. 101 LCSP)), la regulación vigente establece que: Es que el valor estimado excluye el IVA y se calcula con las estimaciones del órgano de contratación.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El valor estimado del contrato (art. 101 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es que el valor estimado excluye el IVA y se calcula con las estimaciones del órgano de contratación.»?",
+      "opciones": [
+        "La diferencia con el presupuesto base.",
+        "El precio cierto es una garantía de seguridad jurídica.",
+        "Es decir, no se puede revisar un precio de forma libre.",
+        "Los contratos menores de obras."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es que el valor estimado excluye el IVA y se calcula con las estimaciones del órgano de contratación.») define o regula específicamente a «La diferencia con el presupuesto base» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El valor estimado del contrato (art. 101 LCSP)), ¿qué establece la normativa respecto a «Su función principal»?",
+      "opciones": [
+        "Establece que en el precio se entiende incluido el importe del IVA, que en todo caso se indicará como partida independiente.",
+        "Es determinar el régimen aplicable, en particular los umbrales de publicidad y de procedimiento, y las reglas de los contratos menores (art. 118.1 LCSP).",
+        "Es el límite máximo de gasto (art. 100.1 LCSP).",
+        "Es obligatoria desde 500.000 euros, IVA excluido (art. 235 LCSP), y la simplificación de los documentos del proyecto se aplica por debajo de esa cifra (art. 233.2 LCSP)."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Su función principal» (El valor estimado del contrato (art. 101 LCSP)), la regulación vigente establece que: Es determinar el régimen aplicable, en particular los umbrales de publicidad y de procedimiento, y las reglas de los contratos menores (art. 118.1 LCSP).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El valor estimado del contrato (art. 101 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es determinar el régimen aplicable, en particular los umbrales de publicidad y de procedimiento, y las reglas de los contratos menores (art. 118.1 LCSP).»?",
+      "opciones": [
+        "El mismo precepto.",
+        "El presupuesto base de licitación incluye ese IVA y.",
+        "La supervisión del proyecto.",
+        "Su función principal."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es determinar el régimen aplicable, en particular los umbrales de publicidad y de procedimiento, y las reglas de los contratos menores (art. 118.1 LCSP).») define o regula específicamente a «Su función principal» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El valor estimado del contrato (art. 101 LCSP)), ¿qué establece la normativa respecto a «Respuesta»?",
+      "opciones": [
+        "El valor estimado, sin IVA, y no el presupuesto base con IVA.",
+        "Exige es que, en el momento de la adjudicación, el precio sea determinado.",
+        "Es menor que el presupuesto base, el precio es inferior y el gasto efectivo también.",
+        "Es aplicar el presupuesto con IVA a un umbral que se mide sin IVA, o al revés."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Respuesta» (El valor estimado del contrato (art. 101 LCSP)), la regulación vigente establece que: El valor estimado, sin IVA, y no el presupuesto base con IVA.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El valor estimado del contrato (art. 101 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El valor estimado, sin IVA, y no el presupuesto base con IVA.»?",
+      "opciones": [
+        "Lo que la ley.",
+        "Respuesta.",
+        "Si la oferta.",
+        "El error más frecuente."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («El valor estimado, sin IVA, y no el presupuesto base con IVA.») define o regula específicamente a «Respuesta» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El precio del contrato (art. 102 LCSP)), ¿qué establece la normativa respecto a «El precio cierto es una garantía de seguridad jurídica»?",
+      "opciones": [
+        "La revisión debe estar prevista y seguir un método determinado.",
+        "Son los de valor estimado inferior a 40.000 euros (art. 118.1 LCSP).",
+        "Exige identificar primero el umbral y después la cifra.",
+        "La cantidad que se pagará debe estar determinada."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El precio cierto es una garantía de seguridad jurídica» (El precio del contrato (art. 102 LCSP)), la regulación vigente establece que: La cantidad que se pagará debe estar determinada.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El precio del contrato (art. 102 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La cantidad que se pagará debe estar determinada.»?",
+      "opciones": [
+        "El precio cierto es una garantía de seguridad jurídica.",
+        "Es decir, no se puede revisar un precio de forma libre.",
+        "Los contratos menores de obras.",
+        "Por eso la pregunta."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («La cantidad que se pagará debe estar determinada.») define o regula específicamente a «El precio cierto es una garantía de seguridad jurídica» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El precio del contrato (art. 102 LCSP)), ¿qué establece la normativa respecto a «El mismo precepto»?",
+      "opciones": [
+        "Es el límite máximo de gasto (art. 100.1 LCSP).",
+        "Establece que en el precio se entiende incluido el importe del IVA, que en todo caso se indicará como partida independiente.",
+        "Es obligatoria desde 500.000 euros, IVA excluido (art. 235 LCSP), y la simplificación de los documentos del proyecto se aplica por debajo de esa cifra (art. 233.2 LCSP).",
+        "Sin las cifras correctas, no se puede aplicar el procedimiento ni controlar la ejecución."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El mismo precepto» (El precio del contrato (art. 102 LCSP)), la regulación vigente establece que: Establece que en el precio se entiende incluido el importe del IVA, que en todo caso se indicará como partida independiente.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El precio del contrato (art. 102 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Establece que en el precio se entiende incluido el importe del IVA, que en todo caso se indicará como partida independiente.»?",
+      "opciones": [
+        "El presupuesto base de licitación incluye ese IVA y.",
+        "La supervisión del proyecto.",
+        "Para un examen, el tema es el punto de partida de la economía del contrato.",
+        "El mismo precepto."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Establece que en el precio se entiende incluido el importe del IVA, que en todo caso se indicará como partida independiente.») define o regula específicamente a «El mismo precepto» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El precio del contrato (art. 102 LCSP)), ¿qué establece la normativa respecto a «Lo que la ley»?",
+      "opciones": [
+        "Exige es que, en el momento de la adjudicación, el precio sea determinado.",
+        "Es menor que el presupuesto base, el precio es inferior y el gasto efectivo también.",
+        "Es aplicar el presupuesto con IVA a un umbral que se mide sin IVA, o al revés.",
+        "Límite de gasto, valor a efectos de régimen, precio o presupuesto de la obra."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Lo que la ley» (El precio del contrato (art. 102 LCSP)), la regulación vigente establece que: Exige es que, en el momento de la adjudicación, el precio sea determinado.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (El precio del contrato (art. 102 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige es que, en el momento de la adjudicación, el precio sea determinado.»?",
+      "opciones": [
+        "Si la oferta.",
+        "Lo que la ley.",
+        "El error más frecuente.",
+        "Primero, identificar qué cifra pregunta el caso."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Exige es que, en el momento de la adjudicación, el precio sea determinado.») define o regula específicamente a «Lo que la ley» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (La revisión de precios: límite a la variación del precio (art. 103 LCSP)), ¿qué establece la normativa respecto a «Es decir, no se puede revisar un precio de forma libre»?",
+      "opciones": [
+        "Son los de valor estimado inferior a 40.000 euros (art. 118.1 LCSP).",
+        "Exige identificar primero el umbral y después la cifra.",
+        "El contratista sabe en qué moneda se le paga.",
+        "La revisión debe estar prevista y seguir un método determinado."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Es decir, no se puede revisar un precio de forma libre» (La revisión de precios: límite a la variación del precio (art. 103 LCSP)), la regulación vigente establece que: La revisión debe estar prevista y seguir un método determinado.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (La revisión de precios: límite a la variación del precio (art. 103 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La revisión debe estar prevista y seguir un método determinado.»?",
+      "opciones": [
+        "Es decir, no se puede revisar un precio de forma libre.",
+        "Los contratos menores de obras.",
+        "Por eso la pregunta.",
+        "Es una regla de claridad."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («La revisión debe estar prevista y seguir un método determinado.») define o regula específicamente a «Es decir, no se puede revisar un precio de forma libre» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Relación entre las cifras: un ejemplo), ¿qué establece la normativa respecto a «El presupuesto base de licitación incluye ese IVA y»?",
+      "opciones": [
+        "Es obligatoria desde 500.000 euros, IVA excluido (art. 235 LCSP), y la simplificación de los documentos del proyecto se aplica por debajo de esa cifra (art. 233.2 LCSP).",
+        "Es el límite máximo de gasto (art. 100.1 LCSP).",
+        "Sin las cifras correctas, no se puede aplicar el procedimiento ni controlar la ejecución.",
+        "Es lo que permite comparar las ofertas y calcular los umbrales."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El presupuesto base de licitación incluye ese IVA y» (Relación entre las cifras: un ejemplo), la regulación vigente establece que: Es el límite máximo de gasto (art. 100.1 LCSP).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Relación entre las cifras: un ejemplo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el límite máximo de gasto (art. 100.1 LCSP).»?",
+      "opciones": [
+        "La supervisión del proyecto.",
+        "Para un examen, el tema es el punto de partida de la economía del contrato.",
+        "El presupuesto base de licitación incluye ese IVA y.",
+        "La estimación en euros."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es el límite máximo de gasto (art. 100.1 LCSP).») define o regula específicamente a «El presupuesto base de licitación incluye ese IVA y» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Relación entre las cifras: un ejemplo), ¿qué establece la normativa respecto a «Si la oferta»?",
+      "opciones": [
+        "Es aplicar el presupuesto con IVA a un umbral que se mide sin IVA, o al revés.",
+        "Límite de gasto, valor a efectos de régimen, precio o presupuesto de la obra.",
+        "Consiste en dividir una prestación en contratos menores para no alcanzar el umbral del procedimiento ordinario.",
+        "Es menor que el presupuesto base, el precio es inferior y el gasto efectivo también."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Si la oferta» (Relación entre las cifras: un ejemplo), la regulación vigente establece que: Es menor que el presupuesto base, el precio es inferior y el gasto efectivo también.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Relación entre las cifras: un ejemplo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es menor que el presupuesto base, el precio es inferior y el gasto efectivo también.»?",
+      "opciones": [
+        "Si la oferta.",
+        "El error más frecuente.",
+        "Primero, identificar qué cifra pregunta el caso.",
+        "El fraccionamiento."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es menor que el presupuesto base, el precio es inferior y el gasto efectivo también.») define o regula específicamente a «Si la oferta» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Umbrales y cifras de control), ¿qué establece la normativa respecto a «El error más frecuente»?",
+      "opciones": [
+        "Límite de gasto, valor a efectos de régimen, precio o presupuesto de la obra.",
+        "Es aplicar el presupuesto con IVA a un umbral que se mide sin IVA, o al revés.",
+        "Consiste en dividir una prestación en contratos menores para no alcanzar el umbral del procedimiento ordinario.",
+        "Una oferta anormalmente baja puede comprometer la ejecución al precio pactado."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El error más frecuente» (Umbrales y cifras de control), la regulación vigente establece que: Es aplicar el presupuesto con IVA a un umbral que se mide sin IVA, o al revés.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Umbrales y cifras de control), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es aplicar el presupuesto con IVA a un umbral que se mide sin IVA, o al revés.»?",
+      "opciones": [
+        "Primero, identificar qué cifra pregunta el caso.",
+        "El fraccionamiento.",
+        "El error más frecuente.",
+        "Para un examen, la relación con el precio es directa."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es aplicar el presupuesto con IVA a un umbral que se mide sin IVA, o al revés.») define o regula específicamente a «El error más frecuente» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Umbrales y cifras de control), ¿qué establece la normativa respecto a «Por eso la pregunta»?",
+      "opciones": [
+        "El contratista sabe en qué moneda se le paga.",
+        "Es la que corresponde al objeto real del contrato (art. 101.1 LCSP).",
+        "Exige justificación antes de excluir la oferta y antes de adjudicar.",
+        "Exige identificar primero el umbral y después la cifra."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Por eso la pregunta» (Umbrales y cifras de control), la regulación vigente establece que: Exige identificar primero el umbral y después la cifra.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Umbrales y cifras de control), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige identificar primero el umbral y después la cifra.»?",
+      "opciones": [
+        "Por eso la pregunta.",
+        "Es una regla de claridad.",
+        "La cifra correcta.",
+        "Por eso la ley."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Exige identificar primero el umbral y después la cifra.») define o regula específicamente a «Por eso la pregunta» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Relación con otros temas del programa), ¿qué establece la normativa respecto a «Para un examen, el tema es el punto de partida de la economía del contrato»?",
+      "opciones": [
+        "Es lo que permite comparar las ofertas y calcular los umbrales.",
+        "Sin las cifras correctas, no se puede aplicar el procedimiento ni controlar la ejecución.",
+        "No se excluye una oferta baja sin darle la oportunidad de justificarla.",
+        "Si el retraso le hiciera cobrar precios más altos por una revisión, la revisión se calcularía con los índices de la fecha prevista en el contrato."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Para un examen, el tema es el punto de partida de la economía del contrato» (Relación con otros temas del programa), la regulación vigente establece que: Sin las cifras correctas, no se puede aplicar el procedimiento ni controlar la ejecución.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Relación con otros temas del programa), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sin las cifras correctas, no se puede aplicar el procedimiento ni controlar la ejecución.»?",
+      "opciones": [
+        "La estimación en euros.",
+        "La regla protege al contratista.",
+        "Para un examen, el tema es el punto de partida de la economía del contrato.",
+        "La regla evita que la demora del contratista beneficie al contratista."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Sin las cifras correctas, no se puede aplicar el procedimiento ni controlar la ejecución.») define o regula específicamente a «Para un examen, el tema es el punto de partida de la economía del contrato» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Método para resolver casos), ¿qué establece la normativa respecto a «Primero, identificar qué cifra pregunta el caso»?",
+      "opciones": [
+        "Consiste en dividir una prestación en contratos menores para no alcanzar el umbral del procedimiento ordinario.",
+        "Una oferta anormalmente baja puede comprometer la ejecución al precio pactado.",
+        "Límite máximo de gasto, con IVA salvo disposición en contrario.",
+        "Límite de gasto, valor a efectos de régimen, precio o presupuesto de la obra."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Primero, identificar qué cifra pregunta el caso» (Método para resolver casos), la regulación vigente establece que: Límite de gasto, valor a efectos de régimen, precio o presupuesto de la obra.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Método para resolver casos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Límite de gasto, valor a efectos de régimen, precio o presupuesto de la obra.»?",
+      "opciones": [
+        "Primero, identificar qué cifra pregunta el caso.",
+        "El fraccionamiento.",
+        "Para un examen, la relación con el precio es directa.",
+        "Presupuesto base de licitación (art. 100 LCSP)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Límite de gasto, valor a efectos de régimen, precio o presupuesto de la obra.») define o regula específicamente a «Primero, identificar qué cifra pregunta el caso» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (La moneda y la forma de pago del precio (art. 102.2 LCSP)), ¿qué establece la normativa respecto a «Es una regla de claridad»?",
+      "opciones": [
+        "Es la que corresponde al objeto real del contrato (art. 101.1 LCSP).",
+        "El contratista sabe en qué moneda se le paga.",
+        "Exige justificación antes de excluir la oferta y antes de adjudicar.",
+        "Base para determinar el régimen del contrato, sin IVA."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Es una regla de claridad» (La moneda y la forma de pago del precio (art. 102.2 LCSP)), la regulación vigente establece que: El contratista sabe en qué moneda se le paga.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (La moneda y la forma de pago del precio (art. 102.2 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El contratista sabe en qué moneda se le paga.»?",
+      "opciones": [
+        "La cifra correcta.",
+        "Por eso la ley.",
+        "Es una regla de claridad.",
+        "Valor estimado (art. 101 LCSP)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («El contratista sabe en qué moneda se le paga.») define o regula específicamente a «Es una regla de claridad» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (La moneda y la forma de pago del precio (art. 102.2 LCSP)), ¿qué establece la normativa respecto a «La estimación en euros»?",
+      "opciones": [
+        "No se excluye una oferta baja sin darle la oportunidad de justificarla.",
+        "Si el retraso le hiciera cobrar precios más altos por una revisión, la revisión se calcularía con los índices de la fecha prevista en el contrato.",
+        "Lo que se paga por lo ejecutado.",
+        "Es lo que permite comparar las ofertas y calcular los umbrales."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «La estimación en euros» (La moneda y la forma de pago del precio (art. 102.2 LCSP)), la regulación vigente establece que: Es lo que permite comparar las ofertas y calcular los umbrales.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (La moneda y la forma de pago del precio (art. 102.2 LCSP)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es lo que permite comparar las ofertas y calcular los umbrales.»?",
+      "opciones": [
+        "La estimación en euros.",
+        "La regla protege al contratista.",
+        "La regla evita que la demora del contratista beneficie al contratista.",
+        "Precio (art. 102 LCSP)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es lo que permite comparar las ofertas y calcular los umbrales.») define o regula específicamente a «La estimación en euros» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Prohibición de fraccionar el contrato y cálculo del valor), ¿qué establece la normativa respecto a «El fraccionamiento»?",
+      "opciones": [
+        "Una oferta anormalmente baja puede comprometer la ejecución al precio pactado.",
+        "Consiste en dividir una prestación en contratos menores para no alcanzar el umbral del procedimiento ordinario.",
+        "Límite máximo de gasto, con IVA salvo disposición en contrario.",
+        "Es anormalmente baja? No puede excluirse sin el procedimiento previo del artículo 149 LCSP."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El fraccionamiento» (Prohibición de fraccionar el contrato y cálculo del valor), la regulación vigente establece que: Consiste en dividir una prestación en contratos menores para no alcanzar el umbral del procedimiento ordinario.",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Prohibición de fraccionar el contrato y cálculo del valor), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Consiste en dividir una prestación en contratos menores para no alcanzar el umbral del procedimiento ordinario.»?",
+      "opciones": [
+        "Para un examen, la relación con el precio es directa.",
+        "Presupuesto base de licitación (art. 100 LCSP).",
+        "El fraccionamiento.",
+        "¿Qué ocurre si una oferta."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Consiste en dividir una prestación en contratos menores para no alcanzar el umbral del procedimiento ordinario.») define o regula específicamente a «El fraccionamiento» (Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)).",
+      "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
+    },
+    {
+      "pregunta": "En el ámbito de «Objeto, presupuesto base de licitación, valor estimado y precio del contrato. Objeto del contrato. Los precios de las distintas unidades de obra, costes directos e indirectos, presupuesto de ejecución material y presupuesto base de licitación. Valor estimado del contrato.» (Prohibición de fraccionar el contrato y cálculo del valor), ¿qué establece la normativa respecto a «La cifra correcta»?",
+      "opciones": [
+        "Exige justificación antes de excluir la oferta y antes de adjudicar.",
+        "Base para determinar el régimen del contrato, sin IVA.",
+        "Es el de la oferta adjudicataria, en euros, con el IVA indicado como partida independiente (arts. 102.1 y 102.2 LCSP).",
+        "Es la que corresponde al objeto real del contrato (art. 101.1 LCSP)."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «La cifra correcta» (Prohibición de fraccionar el contrato y cálculo del valor), la regulación vigente establece que: Es la que corresponde al objeto real del contrato (art. 101.1 LCSP).",
       "referencia": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (BOE núm. 272, de 9 de noviembre de 2017)"
     }
   ]

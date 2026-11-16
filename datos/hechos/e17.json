@@ -1,29 +1,5 @@
 [
   {
-    "pregunta": "¿Quién certifica en el certificado final de obra haber dirigido la ejecución material de las obras y su control?",
-    "opciones": [
-      "El director de la ejecución de la obra",
-      "El director de la ejecución de la obra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El director de la ejecución de la obra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El director de la ejecución de la obra, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "En el certificado final de obra el director de la ejecución certifica haber dirigido la ejecución material y controlado cuantitativa y cualitativamente la construcción y la calidad.",
-    "referencia": "CTE, anejo II.3"
-  },
-  {
-    "pregunta": "¿Qué marcado deben llevar los productos de construcción que se incorporen con carácter permanente a los edificios?",
-    "opciones": [
-      "El marcado CE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El marcado CE",
-      "El marcado CE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El marcado CE, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Los productos de construcción incorporados de forma permanente llevan el marcado CE conforme a la normativa europea.",
-    "referencia": "CTE, art. 5.2"
-  },
-  {
     "pregunta": "¿Qué debe incluirse en los proyectos de obras sujetos al Decreto 67/2011?",
     "opciones": [
       "Solo los planos de situación",
@@ -46,30 +22,6 @@
     "correcta": 3,
     "explicacion": "El Decreto regula el Registro de laboratorios de ensayos y de entidades de control de calidad de Andalucía.",
     "referencia": "Decreto 67/2011, art. 1.1"
-  },
-  {
-    "pregunta": "¿En qué obras de construcción en Andalucía debe realizarse el plan de control de calidad?",
-    "opciones": [
-      "En todas las obras de construcción que se lleven a cabo en la Comunidad Autónoma, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "En todas las obras de construcción que se lleven a cabo en la Comunidad Autónoma, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "En todas las obras de construcción que se lleven a cabo en la Comunidad Autónoma, computándose los plazos en días naturales y con sentido desestimatorio",
-      "En todas las obras de construcción que se lleven a cabo en la Comunidad Autónoma"
-    ],
-    "correcta": 3,
-    "explicacion": "En todas las obras de construcción en Andalucía se realizará el plan de control de calidad pertinente.",
-    "referencia": "Decreto 67/2011, art. 1.2"
-  },
-  {
-    "pregunta": "¿Cuándo no surten efecto los dictámenes de un laboratorio o entidad de control?",
-    "opciones": [
-      "Cuando los agentes del proceso constructivo son propietarios, partícipes o directivos de ese laboratorio o entidad",
-      "Cuando los agentes del proceso constructivo son propietarios, partícipes o directivos de ese laboratorio o entidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Cuando los agentes del proceso constructivo son propietarios, partícipes o directivos de ese laboratorio o entidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Cuando los agentes del proceso constructivo son propietarios, partícipes o directivos de ese laboratorio o entidad, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "El art. 7 establece la incompatibilidad entre los agentes de la obra y los laboratorios o entidades de control.",
-    "referencia": "Decreto 67/2011, art. 7"
   },
   {
     "pregunta": "¿Puede invocarse el control de calidad exigido por la Junta para reducir la responsabilidad de los agentes?",
@@ -358,5 +310,53 @@
     "correcta": 1,
     "explicacion": "Dicha regulación se contiene en el Artículo 17 de Ley de Ordenación de la Edificación (Responsabilidad civil de los agentes que intervienen en el proceso de la): El constructor también responderá de los daños materiales por vicios o defectos de ejecución que afecten a elementos de terminación o acabado de las obras dentro del plazo de un año.",
     "referencia": "Art. 17 de Ley de Ordenación de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública.» (Valoración y abono del control de calidad en la contratación pública), ¿qué establece la normativa respecto a «Un control de calidad valorado por partida alzada sin justificar el alcance»?",
+    "opciones": [
+      "Es confundir la certificación del sistema de gestión, que es de la entidad o del laboratorio, con la conformidad de un producto.",
+      "Por ejemplo, qué debe presentar una entidad de control en Andalucía antes de iniciar su actividad, o qué debe incluir el presupuesto del proyecto respecto al control de calidad.",
+      "Es un punto habitual de conflicto en la liquidación, y la medición del control por unidades ejecutadas evita ese conflicto.",
+      "El proyecto es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras contempladas en el artículo 2."
+    ],
+    "correcta": 2,
+    "explicacion": "Respecto a «Un control de calidad valorado por partida alzada sin justificar el alcance» (Valoración y abono del control de calidad en la contratación pública), la regulación vigente establece que: Es un punto habitual de conflicto en la liquidación, y la medición del control por unidades ejecutadas evita ese conflicto.",
+    "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+  },
+  {
+    "pregunta": "Dentro de la materia «El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública.» (Valoración y abono del control de calidad en la contratación pública), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un punto habitual de conflicto en la liquidación, y la medición del control por unidades ejecutadas evita ese conflicto.»?",
+    "opciones": [
+      "El tercero.",
+      "Un examen que mezcla ambos suele preguntar por la relación entre ellos.",
+      "Proyecto (art. 4 Ley de Ordenación de la Edificación).",
+      "Un control de calidad valorado por partida alzada sin justificar el alcance."
+    ],
+    "correcta": 3,
+    "explicacion": "Dicha determinación («Es un punto habitual de conflicto en la liquidación, y la medición del control por unidades ejecutadas evita ese conflicto.») define o regula específicamente a «Un control de calidad valorado por partida alzada sin justificar el alcance» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+    "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+  },
+  {
+    "pregunta": "En el ámbito de «El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El primero»?",
+    "opciones": [
+      "Es confundir el distintivo de calidad con la evaluación técnica de idoneidad: el distintivo acredita un producto ya normalizado, y la evaluación se refiere a un producto innovador.",
+      "Exige ensayos de recepción y en qué muestreo (control mediante ensayos).",
+      "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica.",
+      "La recepción de la obra es el acto por el cual el constructor, una vez concluida ésta, hace entrega de la misma al promotor y es aceptada por éste."
+    ],
+    "correcta": 0,
+    "explicacion": "Respecto a «El primero» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es confundir el distintivo de calidad con la evaluación técnica de idoneidad: el distintivo acredita un producto ya normalizado, y la evaluación se refiere a un producto innovador.",
+    "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+  },
+  {
+    "pregunta": "Dentro de la materia «El control de calidad en las obras de edificación. Normativa de aplicación. Organigrama del control. Plan de control de calidad. Certificaciones de conformidad y distintivos de calidad. Registro y justificación documental de los controles realizados. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la construcción y obra pública de Andalucía. Valoración y abono del control de calidad en las obras de contratación pública.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es confundir el distintivo de calidad con la evaluación técnica de idoneidad: el distintivo acredita un producto ya normalizado, y la evaluación se refiere a un producto innovador.»?",
+    "opciones": [
+      "Verificar si el proyecto.",
+      "El primero.",
+      "Objeto (art. 1 Ley de Ordenación de la Edificación).",
+      "Recepción de la obra (art. 6 Ley de Ordenación de la Edificación)."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («Es confundir el distintivo de calidad con la evaluación técnica de idoneidad: el distintivo acredita un producto ya normalizado, y la evaluación se refiere a un producto innovador.») define o regula específicamente a «El primero» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
+    "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
   }
 ]

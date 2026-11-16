@@ -79,30 +79,6 @@
   ],
   "test": [
     {
-      "pregunta": "Según el DB-SUA 8, tabla 2.1, ¿qué nivel de protección corresponde a una eficiencia requerida E superior a 0,98?",
-      "opciones": [
-        "Nivel 1",
-        "Nivel 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Nivel 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Nivel 1, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Para E superior a 0,98, el nivel de protección es 1.",
-      "referencia": "DB-SUA 8, tabla 2.1"
-    },
-    {
-      "pregunta": "Según el RD 355/2024, art. 11.4, ¿con qué periodicidad se inspeccionan los ascensores de un edificio de uso industrial?",
-      "opciones": [
-        "Cada dos años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cada dos años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cada dos años",
-        "Cada dos años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los ascensores instalados en edificios de uso industrial o en lugares de pública concurrencia se inspeccionan cada dos años.",
-      "referencia": "RD 355/2024, art. 11.4, letra a)"
-    },
-    {
       "pregunta": "Según el RD 355/2024, art. 3.1, ¿qué documento debe presentarse con la comunicación de puesta en servicio?",
       "opciones": [
         "El certificado de inspección inicial favorable, realizado con no más de tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación de antelación",
@@ -113,174 +89,6 @@
       "correcta": 3,
       "explicacion": "Se presenta, entre otros documentos, el certificado de inspección inicial favorable realizado como máximo con tres meses de antelación.",
       "referencia": "RD 355/2024, art. 3.1, letra f)"
-    },
-    {
-      "pregunta": "Según el DB-HE 4, apartado 3.1, ¿qué contribución renovable mínima se exige para el ACS en edificios de demanda inferior a 5.000 l/d?",
-      "opciones": [
-        "Un 60 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un 60 %",
-        "Un 60 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un 60 %, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La contribución mínima del 70 % puede reducirse al 60 % cuando la demanda de ACS sea inferior a 5.000 l/d.",
-      "referencia": "DB-HE 4, apartado 3.1, punto 1"
-    },
-    {
-      "pregunta": "Según el DB-HE 5, apartado 1, ¿a partir de qué superficie construida se aplica la generación eléctrica renovable en edificios de nueva construcción?",
-      "opciones": [
-        "Más de 1.000 m²",
-        "Más de 1.000 m², previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Más de 1.000 m², salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Más de 1.000 m², computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La sección HE 5 se aplica a los edificios de nueva construcción que superen los 1.000 m² construidos.",
-      "referencia": "DB-HE 5, apartado 1, letra a)"
-    },
-    {
-      "pregunta": "Según el DB-HS 2, apartado 2.1, punto 1, ¿qué debe disponer cada edificio como mínimo para las fracciones con recogida puerta a puerta?",
-      "opciones": [
-        "Un almacén de contenedores de edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un almacén de contenedores de edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un almacén de contenedores de edificio",
-        "Un almacén de contenedores de edificio, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Cada edificio debe disponer, como mínimo, de un almacén de contenedores de edificio para las fracciones con recogida puerta a puerta.",
-      "referencia": "DB-HS 2, apartado 2.1, punto 1"
-    },
-    {
-      "pregunta": "Según el DB-HS 5, apartado 7, punto 4, ¿con qué periodicidad se revisan las bombas de elevación de la red de evacuación?",
-      "opciones": [
-        "Cada año, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cada año, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cada año, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Cada año"
-      ],
-      "correcta": 3,
-      "explicacion": "Una vez al año se revisan los colectores suspendidos y se limpian las arquetas sumidero, los pozos de registro y las bombas de elevación.",
-      "referencia": "DB-HS 5, apartado 7, punto 4"
-    },
-    {
-      "pregunta": "Según el DB-SUA 9, apartado 1.1.2, ¿en qué edificios de vivienda se regulan las condiciones de accesibilidad entre plantas?",
-      "opciones": [
-        "En los que haya que salvar más de dos plantas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "En los que haya que salvar más de dos plantas",
-        "En los que haya que salvar más de dos plantas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "En los que haya que salvar más de dos plantas, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los edificios de uso residencial vivienda en los que haya que salvar más de dos plantas tienen condiciones de accesibilidad entre plantas.",
-      "referencia": "DB-SUA 9, apartado 1.1.2"
-    },
-    {
-      "pregunta": "Según el RD 1627/1997, anexo IV, apartado 12.b, ¿qué debe tenerse en cuenta para la protección colectiva en trabajos en tejados?",
-      "opciones": [
-        "La altura, la inclinación o el carácter o estado resbaladizo de la superficie, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La altura, la inclinación o el carácter o estado resbaladizo de la superficie, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La altura, la inclinación o el carácter o estado resbaladizo de la superficie",
-        "La altura, la inclinación o el carácter o estado resbaladizo de la superficie, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las medidas de protección colectiva deben adoptarse en atención a la altura, la inclinación o el carácter o estado resbaladizo de la cubierta.",
-      "referencia": "Anexo IV, apartado 12.b RD 1627/1997"
-    },
-    {
-      "pregunta": "Según el DB-SUA 4 (alumbrado normal), ¿qué iluminancia mínima se exige en zonas interiores de circulación?",
-      "opciones": [
-        "100 lux",
-        "100 lux, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "100 lux, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "100 lux, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La iluminancia mínima es de 20 lux en zonas exteriores y de 100 lux en zonas interiores, salvo los aparcamientos interiores, que son de 50 lux.",
-      "referencia": "DB-SUA 4, apartado 1"
-    },
-    {
-      "pregunta": "¿Qué norma aprueba la ITC AEM 1 sobre ascensores?",
-      "opciones": [
-        "El RD 355/2024, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El RD 355/2024",
-        "El RD 355/2024, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El RD 355/2024, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La ITC AEM 1 de ascensores la aprueba el RD 355/2024, que sustituye al RD 88/2013.",
-      "referencia": "RD 355/2024"
-    },
-    {
-      "pregunta": "¿Qué norma sustituye el RD 355/2024 en materia de ascensores?",
-      "opciones": [
-        "El RD 88/2013",
-        "El RD 88/2013, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El RD 88/2013, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El RD 88/2013, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El RD 355/2024 sustituye al RD 88/2013.",
-      "referencia": "RD 355/2024, disposición derogatoria"
-    },
-    {
-      "pregunta": "¿Qué documento de la puesta en servicio del ascensor debe presentarse?",
-      "opciones": [
-        "La declaración de conformidad CE o UE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La declaración de conformidad CE o UE",
-        "La declaración de conformidad CE o UE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La declaración de conformidad CE o UE, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Entre la documentación se exige la declaración CE o UE de conformidad.",
-      "referencia": "RD 355/2024, art. 3.1"
-    },
-    {
-      "pregunta": "¿Quién realiza el mantenimiento de los ascensores?",
-      "opciones": [
-        "Una empresa conservadora, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una empresa conservadora, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una empresa conservadora, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Una empresa conservadora"
-      ],
-      "correcta": 3,
-      "explicacion": "El mantenimiento lo realiza una empresa conservadora, con plan de mantenimiento por ascensor.",
-      "referencia": "RD 355/2024, art. 5"
-    },
-    {
-      "pregunta": "¿Qué norma técnica sirve de base al plan de mantenimiento del ascensor?",
-      "opciones": [
-        "UNE 58720",
-        "UNE 58720, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "UNE 58720, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "UNE 58720, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El plan de mantenimiento se basa en la norma UNE 58720.",
-      "referencia": "RD 355/2024, art. 5"
-    },
-    {
-      "pregunta": "¿Qué órgano asigna el número de registro al ascensor?",
-      "opciones": [
-        "El órgano competente, con un número RAE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El órgano competente, con un número RAE",
-        "El órgano competente, con un número RAE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El órgano competente, con un número RAE, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Con la comunicación, el órgano competente asigna un número de registro al aparato.",
-      "referencia": "RD 355/2024, art. 3.1"
-    },
-    {
-      "pregunta": "¿Cuándo se hace la inspección inicial del ascensor?",
-      "opciones": [
-        "Antes de la primera puesta en servicio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Antes de la primera puesta en servicio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Antes de la primera puesta en servicio",
-        "Antes de la primera puesta en servicio, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las inspecciones iniciales se hacen antes de la primera puesta en servicio.",
-      "referencia": "RD 355/2024, art. 11.3"
     },
     {
       "pregunta": "¿Qué es el pararrayos según el DB-SUA 8?",
@@ -295,102 +103,6 @@
       "referencia": "DB-SUA 8"
     },
     {
-      "pregunta": "¿Qué documento del CTE regula la accesibilidad en la edificación?",
-      "opciones": [
-        "El DB-SUA, en particular SUA 9",
-        "El DB-SUA, en particular SUA 9, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El DB-SUA, en particular SUA 9, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El DB-SUA, en particular SUA 9, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La accesibilidad se recoge en el DB-SUA, en particular SUA 9.",
-      "referencia": "CTE, DB-SUA 9"
-    },
-    {
-      "pregunta": "¿Qué documento del CTE regula el bombeo de aguas residuales?",
-      "opciones": [
-        "El DB-HS 5, apartado 4.6, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El DB-HS 5, apartado 4.6",
-        "El DB-HS 5, apartado 4.6, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El DB-HS 5, apartado 4.6, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El bombeo de residuales se regula en el DB-HS 5, apartado 4.6.",
-      "referencia": "DB-HS 5, apartado 4.6"
-    },
-    {
-      "pregunta": "¿Qué documento del CTE regula la energía solar térmica para ACS?",
-      "opciones": [
-        "El DB-HE 4, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El DB-HE 4, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El DB-HE 4",
-        "El DB-HE 4, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La contribución solar para ACS se regula en el DB-HE 4.",
-      "referencia": "DB-HE 4"
-    },
-    {
-      "pregunta": "¿Qué documento del CTE regula la generación eléctrica renovable en edificios nuevos?",
-      "opciones": [
-        "El DB-HE 5, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El DB-HE 5, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El DB-HE 5, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El DB-HE 5"
-      ],
-      "correcta": 3,
-      "explicacion": "La generación eléctrica renovable se regula en el DB-HE 5.",
-      "referencia": "DB-HE 5"
-    },
-    {
-      "pregunta": "¿Qué tipo de almacén deben tener los contenedores de un edificio para la recogida puerta a puerta?",
-      "opciones": [
-        "Un almacén de contenedores del edificio",
-        "Un almacén de contenedores del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un almacén de contenedores del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un almacén de contenedores del edificio, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Las fracciones con recogida puerta a puerta requieren un almacén de contenedores del edificio.",
-      "referencia": "DB-HS 2, apartado 2.1"
-    },
-    {
-      "pregunta": "¿Cuándo se necesita el bombeo de residuales?",
-      "opciones": [
-        "Cuando no hay desagüe por gravedad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cuando no hay desagüe por gravedad",
-        "Cuando no hay desagüe por gravedad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cuando no hay desagüe por gravedad, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El bombeo de residuales se usa cuando no hay desagüe por gravedad.",
-      "referencia": "DB-HS 5, apartado 4.6"
-    },
-    {
-      "pregunta": "¿Quién debe revisar las bombas de elevación de residuales?",
-      "opciones": [
-        "Un técnico competente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un técnico competente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un técnico competente",
-        "Un técnico competente, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las bombas de elevación se revisan una vez al año.",
-      "referencia": "DB-HS 5, apartado 7 punto 4"
-    },
-    {
-      "pregunta": "¿Qué regula el DB-SUA 9?",
-      "opciones": [
-        "La accesibilidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La accesibilidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La accesibilidad, computándose los plazos en días naturales y con sentido desestimatorio",
-        "La accesibilidad"
-      ],
-      "correcta": 3,
-      "explicacion": "El DB-SUA 9 regula la accesibilidad.",
-      "referencia": "DB-SUA 9"
-    },
-    {
       "pregunta": "¿Qué norma establece el DB-SUA 4 respecto a la iluminación?",
       "opciones": [
         "La iluminación de los espacios",
@@ -403,162 +115,6 @@
       "referencia": "DB-SUA 4"
     },
     {
-      "pregunta": "¿Qué norma regula la seguridad de los trabajos en cubierta?",
-      "opciones": [
-        "El RD 1627/1997, anexo IV, apartado 12.b, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El RD 1627/1997, anexo IV, apartado 12.b",
-        "El RD 1627/1997, anexo IV, apartado 12.b, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El RD 1627/1997, anexo IV, apartado 12.b, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La seguridad en cubiertas se regula en el RD 1627/1997, anexo IV, apartado 12.b.",
-      "referencia": "RD 1627/1997, anexo IV, apartado 12.b"
-    },
-    {
-      "pregunta": "¿Quién debe supervisar una intervención de demolición que pueda suponer peligro?",
-      "opciones": [
-        "Una persona competente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una persona competente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una persona competente",
-        "Una persona competente, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los derribos que puedan suponer peligro deben supervisarse por persona competente.",
-      "referencia": "RD 1627/1997, anexo IV, apartado 12.a"
-    },
-    {
-      "pregunta": "¿Qué tipo de edificio está obligado a generación eléctrica renovable en el DB-HE 5?",
-      "opciones": [
-        "Los de nueva construcción de más de 1.000 m² construidos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los de nueva construcción de más de 1.000 m² construidos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los de nueva construcción de más de 1.000 m² construidos, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Los de nueva construcción de más de 1.000 m² construidos"
-      ],
-      "correcta": 3,
-      "explicacion": "Los edificios de nueva construcción de más de 1.000 m² construidos deben tener generación renovable.",
-      "referencia": "DB-HE 5, apartado 1 a)"
-    },
-    {
-      "pregunta": "¿Cuándo se exige accesibilidad entre plantas en viviendas según el SUA 9?",
-      "opciones": [
-        "Con más de dos plantas que salvar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Con más de dos plantas que salvar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Con más de dos plantas que salvar",
-        "Con más de dos plantas que salvar, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La accesibilidad entre plantas se exige con más de dos plantas que salvar.",
-      "referencia": "DB-SUA 9, apartado 1.1.2"
-    },
-    {
-      "pregunta": "¿Qué sección del DB-HE regula la contribución mínima de energía renovable para el agua caliente sanitaria?",
-      "opciones": [
-        "DB-HE 4",
-        "DB-HE 4, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "DB-HE 4, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "DB-HE 4, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La sección HE 4 regula la contribución mínima de energía renovable para cubrir la demanda de ACS.",
-      "referencia": "CTE, DB-HE 4"
-    },
-    {
-      "pregunta": "¿Qué sección del DB-HE regula la generación mínima de energía eléctrica procedente de fuentes renovables?",
-      "opciones": [
-        "DB-HE 5, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "DB-HE 5",
-        "DB-HE 5, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "DB-HE 5, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La sección HE 5 regula la generación mínima de energía eléctrica de fuentes renovables.",
-      "referencia": "CTE, DB-HE 5"
-    },
-    {
-      "pregunta": "¿Qué DB del CTE regula la protección frente al rayo?",
-      "opciones": [
-        "DB-SUA 8, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "DB-SUA 8, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "DB-SUA 8",
-        "DB-SUA 8, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La sección SUA 8 regula la seguridad frente al riesgo causado por la acción del rayo.",
-      "referencia": "CTE, DB-SUA 8"
-    },
-    {
-      "pregunta": "¿Qué DB del CTE regula la protección frente al ruido?",
-      "opciones": [
-        "DB-HR, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "DB-HR, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "DB-HR, computándose los plazos en días naturales y con sentido desestimatorio",
-        "DB-HR"
-      ],
-      "correcta": 3,
-      "explicacion": "El DB-HR establece las exigencias de protección frente al ruido.",
-      "referencia": "CTE, DB-HR"
-    },
-    {
-      "pregunta": "¿Qué elemento protege una instalación frente al impacto de rayos?",
-      "opciones": [
-        "Sistema de pararrayos o protección contra el rayo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Sistema de pararrayos o protección contra el rayo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Sistema de pararrayos o protección contra el rayo, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Sistema de pararrayos o protección contra el rayo"
-      ],
-      "correcta": 3,
-      "explicacion": "Los sistemas de protección captan la descarga del rayo y la conducen a tierra.",
-      "referencia": "Tema e11"
-    },
-    {
-      "pregunta": "¿Qué DB del CTE regula la protección frente a la humedad?",
-      "opciones": [
-        "DB-HS 1",
-        "DB-HS 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "DB-HS 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "DB-HS 1, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El DB-HS 1 regula la protección frente a la humedad.",
-      "referencia": "CTE, DB-HS 1"
-    },
-    {
-      "pregunta": "¿Qué elementos elevadores regula la normativa de accesibilidad y seguridad de los edificios?",
-      "opciones": [
-        "Ascensores, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Ascensores",
-        "Ascensores, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Ascensores, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los ascensores son los aparatos elevadores de uso habitual en los edificios.",
-      "referencia": "Tema e11"
-    },
-    {
-      "pregunta": "¿Qué elemento de protección contra incendios se instala en instalaciones de edificios?",
-      "opciones": [
-        "Sistema de detección de incendios, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Sistema de detección de incendios, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Sistema de detección de incendios",
-        "Sistema de detección de incendios, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los detectores de incendio forman parte de los sistemas de protección.",
-      "referencia": "CTE, DB-SI 4"
-    },
-    {
-      "pregunta": "¿Qué sección del DB-HE establece las condiciones para el control de la demanda energética?",
-      "opciones": [
-        "DB-HE 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "DB-HE 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "DB-HE 1, computándose los plazos en días naturales y con sentido desestimatorio",
-        "DB-HE 1"
-      ],
-      "correcta": 3,
-      "explicacion": "La sección HE 1 establece las condiciones para el control de la demanda energética.",
-      "referencia": "CTE, DB-HE 1"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Marco normativo), ¿qué establece la normativa respecto a «Ascensores»?",
       "opciones": [
         "ITC AEM 1 aprobada por el RD 355/2024, que sustituye al RD 88/2013 (disposición derogatoria).",
@@ -568,18 +124,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Ascensores» (Marco normativo), la regulación vigente establece que: ITC AEM 1 aprobada por el RD 355/2024, que sustituye al RD 88/2013 (disposición derogatoria).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Marco normativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «ITC AEM 1 aprobada por el RD 355/2024, que sustituye al RD 88/2013 (disposición derogatoria).»?",
-      "opciones": [
-        "Ascensores, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Ascensores.",
-        "Ascensores, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Ascensores, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («ITC AEM 1 aprobada por el RD 355/2024, que sustituye al RD 88/2013 (disposición derogatoria).») define o regula específicamente a «Ascensores» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -643,18 +187,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Accesibilidad y seguridad de utilización), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b).»?",
-      "opciones": [
-        "Seguridad de trabajos en cubierta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Seguridad de trabajos en cubierta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Seguridad de trabajos en cubierta, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Seguridad de trabajos en cubierta."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b).») define o regula específicamente a «Seguridad de trabajos en cubierta» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿qué establece la normativa respecto a «Las electromecánicas»?",
       "opciones": [
         "Son los aparatos elevadores, como los ascensores, y los equipos de bombeo, que mueven personas o agua por medios mecánicos.",
@@ -664,18 +196,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Las electromecánicas» (Qué instalaciones forman este bloque), la regulación vigente establece que: Son los aparatos elevadores, como los ascensores, y los equipos de bombeo, que mueven personas o agua por medios mecánicos.",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los aparatos elevadores, como los ascensores, y los equipos de bombeo, que mueven personas o agua por medios mecánicos.»?",
-      "opciones": [
-        "Las electromecánicas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las electromecánicas.",
-        "Las electromecánicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las electromecánicas, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Son los aparatos elevadores, como los ascensores, y los equipos de bombeo, que mueven personas o agua por medios mecánicos.») define o regula específicamente a «Las electromecánicas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -691,18 +211,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el sistema antirrobo y el pararrayos.»?",
-      "opciones": [
-        "Las de protección, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las de protección, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las de protección, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Las de protección."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Son el sistema antirrobo y el pararrayos.») define o regula específicamente a «Las de protección» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿qué establece la normativa respecto a «Y la energía solar»?",
       "opciones": [
         "Es la captación de la radiación para producir agua caliente o electricidad.",
@@ -712,18 +220,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Y la energía solar» (Qué instalaciones forman este bloque), la regulación vigente establece que: Es la captación de la radiación para producir agua caliente o electricidad.",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la captación de la radiación para producir agua caliente o electricidad.»?",
-      "opciones": [
-        "Y la energía solar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Y la energía solar.",
-        "Y la energía solar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Y la energía solar, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es la captación de la radiación para producir agua caliente o electricidad.») define o regula específicamente a «Y la energía solar» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -739,18 +235,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El DB-SUA, para la seguridad de utilización y accesibilidad, que incluye el pararrayos.»?",
-      "opciones": [
-        "El CTE fija las exigencias básicas en tres documentos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El CTE fija las exigencias básicas en tres documentos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El CTE fija las exigencias básicas en tres documentos, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El CTE fija las exigencias básicas en tres documentos."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («El DB-SUA, para la seguridad de utilización y accesibilidad, que incluye el pararrayos.») define o regula específicamente a «El CTE fija las exigencias básicas en tres documentos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Aparatos elevadores: ascensores), ¿qué establece la normativa respecto a «Las inspecciones son de tres tipos»?",
       "opciones": [
         "Iniciales, antes de la primera puesta en servicio, realizadas por un organismo de control distinto del que evaluó la conformidad y con resultado favorable sin defectos (art. 11.3).",
@@ -760,18 +244,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Las inspecciones son de tres tipos» (Aparatos elevadores: ascensores), la regulación vigente establece que: Iniciales, antes de la primera puesta en servicio, realizadas por un organismo de control distinto del que evaluó la conformidad y con resultado favorable sin defectos (art. 11.3).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Aparatos elevadores: ascensores), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Iniciales, antes de la primera puesta en servicio, realizadas por un organismo de control distinto del que evaluó la conformidad y con resultado favorable sin defectos (art. 11.3).»?",
-      "opciones": [
-        "Las inspecciones son de tres tipos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las inspecciones son de tres tipos.",
-        "Las inspecciones son de tres tipos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las inspecciones son de tres tipos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Iniciales, antes de la primera puesta en servicio, realizadas por un organismo de control distinto del que evaluó la conformidad y con resultado favorable sin defectos (art. 11.3).») define o regula específicamente a «Las inspecciones son de tres tipos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -787,16 +259,544 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Equipos de bombeo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige que los equipos que requieren operaciones periódicas, como los elementos de medida, control, protección y maniobra, se sitúen en espacios accesibles (apartado 7.3, punto 2).»?",
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Marco normativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «ITC AEM 1 aprobada por el RD 355/2024, que sustituye al RD 88/2013 (disposición derogatoria).»?",
       "opciones": [
-        "El DB-HS 4, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El DB-HS 4, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El DB-HS 4, computándose los plazos en días naturales y con sentido desestimatorio",
+        "Seguridad de trabajos en cubierta.",
+        "Ascensores.",
+        "Y la energía solar.",
         "El DB-HS 4."
       ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («ITC AEM 1 aprobada por el RD 355/2024, que sustituye al RD 88/2013 (disposición derogatoria).») define o regula específicamente a «Ascensores» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Accesibilidad y seguridad de utilización), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b).»?",
+      "opciones": [
+        "Y la energía solar.",
+        "Seguridad de trabajos en cubierta.",
+        "El DB-HS 4.",
+        "La tabla 2.1 incluye una nota."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Protección colectiva según altura, inclinación y estado resbaladizo (RD 1627/1997, anexo IV, apartado 12.b).») define o regula específicamente a «Seguridad de trabajos en cubierta» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los aparatos elevadores, como los ascensores, y los equipos de bombeo, que mueven personas o agua por medios mecánicos.»?",
+      "opciones": [
+        "El CTE fija las exigencias básicas en tres documentos.",
+        "Las electromecánicas.",
+        "Cuando el antirrobo se.",
+        "El DB-HS 2."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Son los aparatos elevadores, como los ascensores, y los equipos de bombeo, que mueven personas o agua por medios mecánicos.») define o regula específicamente a «Las electromecánicas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el sistema antirrobo y el pararrayos.»?",
+      "opciones": [
+        "Las inspecciones son de tres tipos.",
+        "Esa conexión entre dos exigencias.",
+        "El DB-HE 4.",
+        "Las de protección."
+      ],
       "correcta": 3,
+      "explicacion": "Dicha determinación («Son el sistema antirrobo y el pararrayos.») define o regula específicamente a «Las de protección» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la captación de la radiación para producir agua caliente o electricidad.»?",
+      "opciones": [
+        "El DB-HS 4.",
+        "Y la energía solar.",
+        "La tabla 2.1 incluye una nota.",
+        "El DB-HE 5."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es la captación de la radiación para producir agua caliente o electricidad.») define o regula específicamente a «Y la energía solar» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué instalaciones forman este bloque), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El DB-SUA, para la seguridad de utilización y accesibilidad, que incluye el pararrayos.»?",
+      "opciones": [
+        "Cuando el antirrobo se.",
+        "El DB-HS 2.",
+        "La ejecución de los captadores solares.",
+        "El CTE fija las exigencias básicas en tres documentos."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El DB-SUA, para la seguridad de utilización y accesibilidad, que incluye el pararrayos.») define o regula específicamente a «El CTE fija las exigencias básicas en tres documentos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Aparatos elevadores: ascensores), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Iniciales, antes de la primera puesta en servicio, realizadas por un organismo de control distinto del que evaluó la conformidad y con resultado favorable sin defectos (art. 11.3).»?",
+      "opciones": [
+        "Esa conexión entre dos exigencias.",
+        "Las inspecciones son de tres tipos.",
+        "El DB-HE 4.",
+        "El titular de un ascensor."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Iniciales, antes de la primera puesta en servicio, realizadas por un organismo de control distinto del que evaluó la conformidad y con resultado favorable sin defectos (art. 11.3).») define o regula específicamente a «Las inspecciones son de tres tipos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Equipos de bombeo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige que los equipos que requieren operaciones periódicas, como los elementos de medida, control, protección y maniobra, se sitúen en espacios accesibles (apartado 7.3, punto 2).»?",
+      "opciones": [
+        "La tabla 2.1 incluye una nota.",
+        "El DB-HE 5.",
+        "El DB-HS 4.",
+        "Los riesgos de estas instalaciones en obra."
+      ],
+      "correcta": 2,
       "explicacion": "Dicha determinación («Exige que los equipos que requieren operaciones periódicas, como los elementos de medida, control, protección y maniobra, se sitúen en espacios accesibles (apartado 7.3, punto 2).») define o regula específicamente a «El DB-HS 4» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Antirrobo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Integra en el edificio, debe respetar las exigencias de los medios de evacuación y de los accesos de emergencia.»?",
+      "opciones": [
+        "El DB-HS 2.",
+        "La ejecución de los captadores solares.",
+        "Los factores del precio.",
+        "Cuando el antirrobo se."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Integra en el edificio, debe respetar las exigencias de los medios de evacuación y de los accesos de emergencia.») define o regula específicamente a «Cuando el antirrobo se» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Antirrobo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una pregunta de examen habitual.»?",
+      "opciones": [
+        "Esa conexión entre dos exigencias.",
+        "El DB-HE 4.",
+        "El titular de un ascensor.",
+        "El primero."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es una pregunta de examen habitual.») define o regula específicamente a «Esa conexión entre dos exigencias» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Pararrayos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Dentro de los límites de eficiencia de 0 a 0,80, la instalación de protección contra el rayo no es obligatoria.»?",
+      "opciones": [
+        "El DB-HE 5.",
+        "La tabla 2.1 incluye una nota.",
+        "Los riesgos de estas instalaciones en obra.",
+        "El segundo."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Dentro de los límites de eficiencia de 0 a 0,80, la instalación de protección contra el rayo no es obligatoria.») define o regula específicamente a «La tabla 2.1 incluye una nota» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Recogida de basuras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula también las instalaciones de traslado por bajantes y los espacios de almacenamiento inmediato en las viviendas (apartados 2.2 y 2.3), y el mantenimiento de los almacenes (apartado 3).»?",
+      "opciones": [
+        "La ejecución de los captadores solares.",
+        "Los factores del precio.",
+        "El DB-HS 2.",
+        "El tercero."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Regula también las instalaciones de traslado por bajantes y los espacios de almacenamiento inmediato en las viviendas (apartados 2.2 y 2.3), y el mantenimiento de los almacenes (apartado 3).») define o regula específicamente a «El DB-HS 2» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Energía solar), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la contribución mínima de energía renovable para cubrir la demanda de agua caliente sanitaria.»?",
+      "opciones": [
+        "El titular de un ascensor.",
+        "El primero.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "El DB-HE 4."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Regula la contribución mínima de energía renovable para cubrir la demanda de agua caliente sanitaria.») define o regula específicamente a «El DB-HE 4» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Energía solar), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la generación mínima de energía eléctrica procedente de fuentes renovables.»?",
+      "opciones": [
+        "El DB-HE 5.",
+        "Los riesgos de estas instalaciones en obra.",
+        "El segundo.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Regula la generación mínima de energía eléctrica procedente de fuentes renovables.») define o regula específicamente a «El DB-HE 5» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ejecución, control y puesta en servicio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige un anclaje que resista las acciones de viento y de nieve de la cubierta, según el DB-SE-AE, y una conexión hidráulica que no genere puntos de estancamiento.»?",
+      "opciones": [
+        "Los factores del precio.",
+        "La ejecución de los captadores solares.",
+        "El tercero.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Exige un anclaje que resista las acciones de viento y de nieve de la cubierta, según el DB-SE-AE, y una conexión hidráulica que no genere puntos de estancamiento.») define o regula específicamente a «La ejecución de los captadores solares» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Uso, conservación y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es responsable del cumplimiento de la ITC AEM 1, y debe mantener el contrato de mantenimiento y la documentación del aparato durante toda su vida.»?",
+      "opciones": [
+        "El primero.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "El titular de un ascensor.",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es responsable del cumplimiento de la ITC AEM 1, y debe mantener el contrato de mantenimiento y la documentación del aparato durante toda su vida.») define o regula específicamente a «El titular de un ascensor» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los de los trabajos en cubierta, donde se instalan los paneles solares, los pararrayos y los equipos de bombeo de cubierta.»?",
+      "opciones": [
+        "El segundo.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Los riesgos de estas instalaciones en obra."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Son los de los trabajos en cubierta, donde se instalan los paneles solares, los pararrayos y los equipos de bombeo de cubierta.») define o regula específicamente a «Los riesgos de estas instalaciones en obra» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Criterios de medición y factores del precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el tipo de instalación, la capacidad y la potencia, la altura de los medios de elevación, la complejidad del hueco y la necesidad de pruebas de inspección.»?",
+      "opciones": [
+        "Los factores del precio.",
+        "El tercero.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Son el tipo de instalación, la capacidad y la potencia, la altura de los medios de elevación, la complejidad del hueco y la necesidad de pruebas de inspección.») define o regula específicamente a «Los factores del precio» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El primero»?",
+      "opciones": [
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "Es afirmar que el antirrobo tiene un DB propio.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El primero» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es afirmar que el antirrobo tiene un DB propio.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es afirmar que el antirrobo tiene un DB propio.»?",
+      "opciones": [
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "El primero.",
+        "Generalidades (art. 9 Código Técnico de la Edificación)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es afirmar que el antirrobo tiene un DB propio.») define o regula específicamente a «El primero» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El segundo»?",
+      "opciones": [
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "Es confundir el RD 88/2013, derogado, con el RD 355/2024."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El segundo» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es confundir el RD 88/2013, derogado, con el RD 355/2024.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es confundir el RD 88/2013, derogado, con el RD 355/2024.»?",
+      "opciones": [
+        "El segundo.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es confundir el RD 88/2013, derogado, con el RD 355/2024.») define o regula específicamente a «El segundo» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El tercero»?",
+      "opciones": [
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Es asumir que el pararrayos es obligatorio en todos los edificios, cuando la tabla 2.1 del DB-SUA 8 no lo exige para eficiencias bajas.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El tercero» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es asumir que el pararrayos es obligatorio en todos los edificios, cuando la tabla 2.1 del DB-SUA 8 no lo exige para eficiencias bajas.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es asumir que el pararrayos es obligatorio en todos los edificios, cuando la tabla 2.1 del DB-SUA 8 no lo exige para eficiencias bajas.»?",
+      "opciones": [
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "El tercero.",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es asumir que el pararrayos es obligatorio en todos los edificios, cuando la tabla 2.1 del DB-SUA 8 no lo exige para eficiencias bajas.») define o regula específicamente a «El tercero» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)»?",
+      "opciones": [
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Esta ITC se aplica a todo ascensor según lo definido en el artículo 2.",
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.»?",
+      "opciones": [
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Objeto y ámbito de aplicación (art. 1 Instrucción técnica complementaria ITC AEM 1 Ascensores)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.») define o regula específicamente a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Art. único de Código Técnico de la Edificación).",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "2.º De personas, animales de compañía y objetos."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.»?",
+      "opciones": [
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Definiciones (art. 2 Instrucción técnica complementaria ITC AEM 1 Ascensores)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.») define o regula específicamente a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Art. 4 de Código Técnico de la Edificación).",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "El/la titular de un ascensor es responsable de: 1.",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.»?",
+      "opciones": [
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Obligaciones del o la titular (art. 4 Instrucción técnica complementaria ITC AEM 1 Ascensores)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.») define o regula específicamente a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Art. 5 de Código Técnico de la Edificación).",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "Esta ITC se aplica a todo ascensor según lo definido en el artículo 2.",
+        "El mantenimiento de los ascensores deberá ser realizado por empresas conservadoras, a las que se refiere el artículo 6 de esta ITC."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.»?",
+      "opciones": [
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Objeto y ámbito de aplicación (art. 1 Instrucción técnica complementaria ITC AEM 1 Ascensores).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Realización del mantenimiento (art. 5 Instrucción técnica complementaria ITC AEM 1 Ascensores)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.») define o regula específicamente a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Art. 6 de Código Técnico de la Edificación).",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "2.º De personas, animales de compañía y objetos.",
+        "El/la conservador/a de ascensores es la persona física que tiene conocimientos suficientes para desempeñar las actividades de mantenimiento y modificaciones importantes a que se refiere esta ITC.",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+      "referencia": "Art. 7 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.»?",
+      "opciones": [
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Definiciones (art. 2 Instrucción técnica complementaria ITC AEM 1 Ascensores).",
+        "Conservador/a de ascensores (art. 8 Instrucción técnica complementaria ITC AEM 1 Ascensores)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.») define o regula específicamente a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Art. 7 de Código Técnico de la Edificación).",
+      "referencia": "Art. 7 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "El/la titular de un ascensor es responsable de: 1.",
+        "Las modificaciones son cambios en ascensores ya existentes que no pueden ser considerados como operaciones de simple mantenimiento o reparación, o que afecten únicamente a la estética del ascensor."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+      "referencia": "Art. 8 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.»?",
+      "opciones": [
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Obligaciones del o la titular (art. 4 Instrucción técnica complementaria ITC AEM 1 Ascensores).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Concepto de modificación (art. 9 Instrucción técnica complementaria ITC AEM 1 Ascensores)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.») define o regula específicamente a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Art. 8 de Código Técnico de la Edificación).",
+      "referencia": "Art. 8 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Generalidades (art. 9 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Esta ITC se aplica a todo ascensor según lo definido en el artículo 2.",
+        "El mantenimiento de los ascensores deberá ser realizado por empresas conservadoras, a las que se refiere el artículo 6 de esta ITC.",
+        "Las inspecciones podrán ser: 1.º Inspecciones iniciales 2.º Inspecciones periódicas.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Generalidades (art. 9 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+      "referencia": "Art. 9 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.»?",
+      "opciones": [
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Objeto y ámbito de aplicación (art. 1 Instrucción técnica complementaria ITC AEM 1 Ascensores).",
+        "Realización del mantenimiento (art. 5 Instrucción técnica complementaria ITC AEM 1 Ascensores).",
+        "Inspecciones (art. 11 Instrucción técnica complementaria ITC AEM 1 Ascensores)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.») define o regula específicamente a «Generalidades (art. 9 Código Técnico de la Edificación)» (Art. 9 de Código Técnico de la Edificación).",
+      "referencia": "Art. 9 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "2.º De personas, animales de compañía y objetos.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "El/la conservador/a de ascensores es la persona física que tiene conocimientos suficientes para desempeñar las actividades de mantenimiento y modificaciones importantes a que se refiere esta ITC.",
+        "Se considerarán accidentes aquellos daños a las personas, animales de compañía, bienes o a la propia instalación, causados por el funcionamiento del propio aparato o por agentes externos al mismo."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+      "referencia": "Art. 10 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.»?",
+      "opciones": [
+        "Definiciones (art. 2 Instrucción técnica complementaria ITC AEM 1 Ascensores).",
+        "Conservador/a de ascensores (art. 8 Instrucción técnica complementaria ITC AEM 1 Ascensores).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Accidentes e incidentes (art. 13 Instrucción técnica complementaria ITC AEM 1 Ascensores)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.») define o regula específicamente a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Art. 10 de Código Técnico de la Edificación).",
+      "referencia": "Art. 10 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "El/la titular de un ascensor es responsable de: 1.",
+        "Las modificaciones son cambios en ascensores ya existentes que no pueden ser considerados como operaciones de simple mantenimiento o reparación, o que afecten únicamente a la estética del ascensor.",
+        "Las infracciones a lo dispuesto en esta instrucción técnica complementaria se clasificarán y sancionarán de acuerdo con lo establecido en el título V de la Ley 21/1992, de 16 de julio.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+      "referencia": "Art. 15 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.»?",
+      "opciones": [
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Obligaciones del o la titular (art. 4 Instrucción técnica complementaria ITC AEM 1 Ascensores).",
+        "Concepto de modificación (art. 9 Instrucción técnica complementaria ITC AEM 1 Ascensores).",
+        "Infracciones y sanciones (art. 14 Instrucción técnica complementaria ITC AEM 1 Ascensores)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.») define o regula específicamente a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Art. 15 de Código Técnico de la Edificación).",
+      "referencia": "Art. 15 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Instrucción técnica complementaria ITC AEM 1 Ascensores), ¿qué establece la normativa respecto a «Objeto y ámbito de aplicación (art. 1 Instrucción técnica complementaria ITC AEM 1 Ascensores)»?",
+      "opciones": [
+        "El mantenimiento de los ascensores deberá ser realizado por empresas conservadoras, a las que se refiere el artículo 6 de esta ITC.",
+        "Esta ITC se aplica a todo ascensor según lo definido en el artículo 2.",
+        "Las inspecciones podrán ser: 1.º Inspecciones iniciales 2.º Inspecciones periódicas.",
+        "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Objeto y ámbito de aplicación (art. 1 Instrucción técnica complementaria ITC AEM 1 Ascensores)» (Articulado de Instrucción técnica complementaria ITC AEM 1 Ascensores), la regulación vigente establece que: Esta ITC se aplica a todo ascensor según lo definido en el artículo 2.",
+      "referencia": "Art. 1 de Instrucción técnica complementaria ITC AEM 1 Ascensores"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Instrucción técnica complementaria ITC AEM 1 Ascensores), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Esta ITC se aplica a todo ascensor según lo definido en el artículo 2.»?",
+      "opciones": [
+        "Realización del mantenimiento (art. 5 Instrucción técnica complementaria ITC AEM 1 Ascensores).",
+        "Inspecciones (art. 11 Instrucción técnica complementaria ITC AEM 1 Ascensores).",
+        "Objeto y ámbito de aplicación (art. 1 Instrucción técnica complementaria ITC AEM 1 Ascensores).",
+        "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Esta ITC se aplica a todo ascensor según lo definido en el artículo 2.») define o regula específicamente a «Objeto y ámbito de aplicación (art. 1 Instrucción técnica complementaria ITC AEM 1 Ascensores)» (Art. 1 de Instrucción técnica complementaria ITC AEM 1 Ascensores).",
+      "referencia": "Art. 1 de Instrucción técnica complementaria ITC AEM 1 Ascensores"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones electromecánicas, de protección, salubridad y energía solar en los edificios. Aparatos elevadores. Equipos de bombeo. Antirrobo. Pararrayos. Basuras. Energía solar. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Instrucción técnica complementaria ITC AEM 1 Ascensores), ¿qué establece la normativa respecto a «Definiciones (art. 2 Instrucción técnica complementaria ITC AEM 1 Ascensores)»?",
+      "opciones": [
+        "El/la conservador/a de ascensores es la persona física que tiene conocimientos suficientes para desempeñar las actividades de mantenimiento y modificaciones importantes a que se refiere esta ITC.",
+        "Se considerarán accidentes aquellos daños a las personas, animales de compañía, bienes o a la propia instalación, causados por el funcionamiento del propio aparato o por agentes externos al mismo.",
+        "ITC AEM 1 aprobada por el RD 355/2024, que sustituye al RD 88/2013 (disposición derogatoria).",
+        "2.º De personas, animales de compañía y objetos."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Definiciones (art. 2 Instrucción técnica complementaria ITC AEM 1 Ascensores)» (Articulado de Instrucción técnica complementaria ITC AEM 1 Ascensores), la regulación vigente establece que: 2.º De personas, animales de compañía y objetos.",
+      "referencia": "Art. 2 de Instrucción técnica complementaria ITC AEM 1 Ascensores"
     }
   ]
 }

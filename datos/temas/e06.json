@@ -94,18 +94,6 @@
       "referencia": "DB-SE-F, apartado 1.1, punto 2"
     },
     {
-      "pregunta": "Según el DB-SE-F, apartado 4.1, punto 4, ¿cuál es la resistencia normalizada mínima a compresión de las piezas?",
-      "opciones": [
-        "5 N/mm², previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "5 N/mm², salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "5 N/mm²",
-        "5 N/mm², computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La resistencia normalizada a compresión mínima de las piezas es de 5 N/mm², con excepciones para fábricas sustentantes y sustentadas bajo condiciones.",
-      "referencia": "DB-SE-F, apartado 4.1, punto 4"
-    },
-    {
       "pregunta": "Según el DB-SE-F, apartado 6.1, punto 1, ¿cuál de estos tipos de muro se describe en el documento?",
       "opciones": [
         "Muro de hormigón pretensado en cuatro niveles",
@@ -116,18 +104,6 @@
       "correcta": 3,
       "explicacion": "El apartado 6.1 ilustra los muros de una hoja, capuchinos, doblados, careados, de tendel hueco, de revestimiento y de armado de fábricas.",
       "referencia": "DB-SE-F, apartado 6.1, punto 1"
-    },
-    {
-      "pregunta": "Según el DB-SE-F, apartado 5.4.4, punto 2, ¿qué modelo se usa para calcular un arco estribado?",
-      "opciones": [
-        "El de tres articulaciones, dos en los extremos y una intermedia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El de tres articulaciones, dos en los extremos y una intermedia",
-        "El de tres articulaciones, dos en los extremos y una intermedia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El de tres articulaciones, dos en los extremos y una intermedia, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El cálculo del arco se basa en el de tres articulaciones, dos en los extremos y una en una sección intermedia.",
-      "referencia": "DB-SE-F, apartado 5.4.4, punto 2"
     },
     {
       "pregunta": "Según el DB-SE-F, apartado 7.1.3, punto 1, ¿cuándo se considera llena una llaga?",
@@ -214,18 +190,6 @@
       "referencia": "DB-SE-F, apartado 1.1"
     },
     {
-      "pregunta": "¿Qué tipo de piezas se usan en los muros de fábrica del DB-SE-F?",
-      "opciones": [
-        "Piezas pequeñas asentadas con mortero: ladrillo, bloque de hormigón, cerámica aligerada y piedra",
-        "Piezas pequeñas asentadas con mortero: ladrillo, bloque de hormigón, cerámica aligerada y piedra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Piezas pequeñas asentadas con mortero: ladrillo, bloque de hormigón, cerámica aligerada y piedra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Piezas pequeñas asentadas con mortero: ladrillo, bloque de hormigón, cerámica aligerada y piedra, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Son piezas pequeñas asentadas con mortero: ladrillo, bloque de hormigón, cerámica aligerada y piedra.",
-      "referencia": "DB-SE-F, apartado 1.1"
-    },
-    {
       "pregunta": "¿Qué muros quedan excluidos del DB-SE-F?",
       "opciones": [
         "Los muros de ladrillo visto con encadenados",
@@ -236,162 +200,6 @@
       "correcta": 1,
       "explicacion": "Quedan excluidos los muros de carga sin encadenados con los forjados, las fábricas en seco y la piedra de mampuestos sin tendeles.",
       "referencia": "DB-SE-F, apartado 1.1 punto 2"
-    },
-    {
-      "pregunta": "¿Qué tipo de muro tiene dos hojas con cámara entre ellas?",
-      "opciones": [
-        "El muro capuchino, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El muro capuchino, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El muro capuchino, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El muro capuchino"
-      ],
-      "correcta": 3,
-      "explicacion": "El muro capuchino tiene dos hojas con cámara de aire o de aislamiento entre ellas.",
-      "referencia": "DB-SE-F, apartado 6.1"
-    },
-    {
-      "pregunta": "¿Qué tipo de muro es el de una sola hoja?",
-      "opciones": [
-        "Muro de una hoja",
-        "Muro de una hoja, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Muro de una hoja, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Muro de una hoja, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Es el muro formado por una sola hoja de fábrica.",
-      "referencia": "DB-SE-F, apartado 6.1"
-    },
-    {
-      "pregunta": "¿Qué tipos de muro recoge el DB-SE-F?",
-      "opciones": [
-        "Una hoja, capuchino, doblado, careado, de tendel hueco, de revestimiento y de armado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una hoja, capuchino, doblado, careado, de tendel hueco, de revestimiento y de armado",
-        "Una hoja, capuchino, doblado, careado, de tendel hueco, de revestimiento y de armado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una hoja, capuchino, doblado, careado, de tendel hueco, de revestimiento y de armado, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Son los tipos de muro recogidos en el apartado 6.1.",
-      "referencia": "DB-SE-F, apartado 6.1"
-    },
-    {
-      "pregunta": "¿Qué tipo de arco contempla el DB-SE-F en el apoyo de muros?",
-      "opciones": [
-        "Un arco estribado en sus extremos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un arco estribado en sus extremos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un arco estribado en sus extremos",
-        "Un arco estribado en sus extremos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El DB-SE-F contempla el arco estribado en sus extremos.",
-      "referencia": "DB-SE-F, apartado 5.4.4"
-    },
-    {
-      "pregunta": "¿Cuántas articulaciones tiene el cálculo del arco según el DB-SE-F?",
-      "opciones": [
-        "Tres: dos en los extremos y una intermedia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Tres: dos en los extremos y una intermedia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Tres: dos en los extremos y una intermedia, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Tres: dos en los extremos y una intermedia"
-      ],
-      "correcta": 3,
-      "explicacion": "El cálculo es el de tres articulaciones, dos en los extremos y una intermedia.",
-      "referencia": "DB-SE-F, apartado 5.4.4 punto 2"
-    },
-    {
-      "pregunta": "¿Qué exigencias de seguridad estructural debe cumplir la fábrica?",
-      "opciones": [
-        "SE 1 y SE 2",
-        "SE 1 y SE 2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "SE 1 y SE 2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "SE 1 y SE 2, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La seguridad estructural de la fábrica sigue las exigencias SE 1 y SE 2.",
-      "referencia": "CTE, art. 10"
-    },
-    {
-      "pregunta": "¿Qué documento del CTE regula la humedad en cerramientos?",
-      "opciones": [
-        "El DB-HS 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El DB-HS 1",
-        "El DB-HS 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El DB-HS 1, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La humedad en cerramientos se regula en el DB-HS 1.",
-      "referencia": "CTE, art. 13.1"
-    },
-    {
-      "pregunta": "¿Qué debe ser el acabado exterior impermeable al agua de lluvia en un muro?",
-      "opciones": [
-        "Permeable al vapor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Permeable al vapor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Permeable al vapor",
-        "Permeable al vapor, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Si el acabado exterior es impermeable al agua de lluvia, debe ser permeable al vapor.",
-      "referencia": "DB-SE-F, apartado 3.1 puntos 2 y 3"
-    },
-    {
-      "pregunta": "¿Qué se hace con las piezas cerámicas antes de la fábrica?",
-      "opciones": [
-        "Se humedecen, salvo las completamente hidrofugadas o de succión muy baja, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Se humedecen, salvo las completamente hidrofugadas o de succión muy baja, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Se humedecen, salvo las completamente hidrofugadas o de succión muy baja, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Se humedecen, salvo las completamente hidrofugadas o de succión muy baja"
-      ],
-      "correcta": 3,
-      "explicacion": "Las piezas cerámicas se humedecen antes de la fábrica, salvo las hidrofugadas o de succión muy baja.",
-      "referencia": "DB-SE-F, apartado 7.1.1"
-    },
-    {
-      "pregunta": "¿Cómo se colocan las piezas en la fábrica?",
-      "opciones": [
-        "A restregón sobre tortada de mortero",
-        "A restregón sobre tortada de mortero, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "A restregón sobre tortada de mortero, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "A restregón sobre tortada de mortero, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Las piezas se colocan a restregón sobre tortada de mortero.",
-      "referencia": "DB-SE-F, apartado 7.1.2"
-    },
-    {
-      "pregunta": "¿Qué armadura debe tener un dintel sobre sus apoyos?",
-      "opciones": [
-        "Una armadura de continuidad no inferior al 50 % de la del centro del vano, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una armadura de continuidad no inferior al 50 % de la del centro del vano",
-        "Una armadura de continuidad no inferior al 50 % de la del centro del vano, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una armadura de continuidad no inferior al 50 % de la del centro del vano, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La armadura de continuidad sobre apoyos no es inferior al 50 % de la del centro del vano.",
-      "referencia": "DB-SE-F, apartado 7.2 punto 1"
-    },
-    {
-      "pregunta": "¿Qué debe hacerse con las alteraciones que afectan a la durabilidad de un muro?",
-      "opciones": [
-        "Intervenir antes de que afecten a la estabilidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Intervenir antes de que afecten a la estabilidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Intervenir antes de que afecten a la estabilidad",
-        "Intervenir antes de que afecten a la estabilidad, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las alteraciones que afectan a la durabilidad requieren intervención antes de que afecten a la estabilidad.",
-      "referencia": "DB-SE-F, apartado 9"
-    },
-    {
-      "pregunta": "¿Cuántos años responde la LOE por daños en muros de carga que comprometan la estabilidad?",
-      "opciones": [
-        "Diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Diez años, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Diez años"
-      ],
-      "correcta": 3,
-      "explicacion": "La LOE responde diez años por daños en muros de carga que comprometan la estabilidad.",
-      "referencia": "LOE, art. 17.1 a)"
     },
     {
       "pregunta": "¿Cuántos años responde la LOE por defectos que incumplan la habitabilidad?",
@@ -406,138 +214,6 @@
       "referencia": "LOE, art. 17.1 b)"
     },
     {
-      "pregunta": "¿Qué medidas deben aplicarse frente a la inestabilidad temporal de la obra de fábrica?",
-      "opciones": [
-        "Las del anexo IV del RD 1627/1997, apartado 11.c, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las del anexo IV del RD 1627/1997, apartado 11.c",
-        "Las del anexo IV del RD 1627/1997, apartado 11.c, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las del anexo IV del RD 1627/1997, apartado 11.c, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El estudio de seguridad debe recoger estas medidas, con su presupuesto.",
-      "referencia": "RD 1627/1997, anexo IV, apartado 11.c"
-    },
-    {
-      "pregunta": "¿Cómo se miden los muros?",
-      "opciones": [
-        "Por metro cuadrado con su espesor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Por metro cuadrado con su espesor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Por metro cuadrado con su espesor",
-        "Por metro cuadrado con su espesor, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los muros se miden por metro cuadrado con su espesor.",
-      "referencia": "Medición de unidades de obra"
-    },
-    {
-      "pregunta": "¿Qué clase de piezas tienen resistencia declarada con probabilidad de no alcanzarla inferior al 5 %?",
-      "opciones": [
-        "Las piezas de categoría I, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las piezas de categoría I, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las piezas de categoría I, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Las piezas de categoría I"
-      ],
-      "correcta": 3,
-      "explicacion": "Las piezas de categoría I tienen esa probabilidad inferior al 5 %.",
-      "referencia": "DB-SE-F, apartado 8.1.1 punto 3"
-    },
-    {
-      "pregunta": "¿Qué resistencia normalizada mínima se exige a las piezas de fábrica?",
-      "opciones": [
-        "5 N/mm², previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "5 N/mm², salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "5 N/mm²",
-        "5 N/mm², computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La resistencia normalizada mínima es de 5 N/mm².",
-      "referencia": "DB-SE-F, apartado 4.1 punto 4"
-    },
-    {
-      "pregunta": "¿Qué se considera llaga llena en la fábrica?",
-      "opciones": [
-        "La llaga con mortero macizo en al menos el 40 % del tizón",
-        "La llaga con mortero macizo en al menos el 40 % del tizón, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La llaga con mortero macizo en al menos el 40 % del tizón, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La llaga con mortero macizo en al menos el 40 % del tizón, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Una llaga está llena si el mortero macizo cubre el 40 % del tizón.",
-      "referencia": "DB-SE-F, apartado 7.1.3 punto 1"
-    },
-    {
-      "pregunta": "¿Qué plan debe tener el muro según el DB-SE-F?",
-      "opciones": [
-        "Un plan de mantenimiento con revisiones periódicas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un plan de mantenimiento con revisiones periódicas",
-        "Un plan de mantenimiento con revisiones periódicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un plan de mantenimiento con revisiones periódicas, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El muro debe tener un plan de mantenimiento con revisiones periódicas.",
-      "referencia": "DB-SE-F, apartado 9"
-    },
-    {
-      "pregunta": "¿Qué documento básico del CTE regula las fábricas de muros?",
-      "opciones": [
-        "DB-SE-F, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "DB-SE-F, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "DB-SE-F",
-        "DB-SE-F, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El DB-SE-F regula la seguridad estructural de fábrica.",
-      "referencia": "CTE, DB-SE-F"
-    },
-    {
-      "pregunta": "¿Qué elemento transmite cargas verticales al terreno y tiene función estructural?",
-      "opciones": [
-        "Muro de carga, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Muro de carga, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Muro de carga, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Muro de carga"
-      ],
-      "correcta": 3,
-      "explicacion": "Los muros de carga transmiten cargas verticales a la cimentación.",
-      "referencia": "Tema e06"
-    },
-    {
-      "pregunta": "¿Qué elemento separa el interior del exterior del edificio?",
-      "opciones": [
-        "Cerramiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cerramiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cerramiento, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Cerramiento"
-      ],
-      "correcta": 3,
-      "explicacion": "El cerramiento separa el interior del exterior y protege frente a los agentes climáticos.",
-      "referencia": "Tema e06"
-    },
-    {
-      "pregunta": "¿Qué elemento divide espacios interiores sin función estructural?",
-      "opciones": [
-        "Partición o tabique",
-        "Partición o tabique, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Partición o tabique, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Partición o tabique, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Las particiones dividen espacios interiores sin función estructural.",
-      "referencia": "Tema e06"
-    },
-    {
-      "pregunta": "¿Qué elemento trabaja principalmente a compresión y salva un vano?",
-      "opciones": [
-        "Arco, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Arco",
-        "Arco, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Arco, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El arco salva vanos trabajando sobre todo a compresión.",
-      "referencia": "Tema e06"
-    },
-    {
       "pregunta": "¿Qué función tiene la cámara de aire en un cerramiento de fachada?",
       "opciones": [
         "Almacenar agua de lluvia",
@@ -550,18 +226,6 @@
       "referencia": "Tema e06"
     },
     {
-      "pregunta": "¿Qué elemento horizontal salva un vano con una pieza apoyada en sus extremos?",
-      "opciones": [
-        "Dintel, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Dintel, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Dintel, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Dintel"
-      ],
-      "correcta": 3,
-      "explicacion": "El dintel es el elemento horizontal que salva un hueco apoyándose en sus extremos.",
-      "referencia": "Tema e06"
-    },
-    {
       "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Piezas y tipos de muro), ¿qué establece la normativa respecto a «Piezas agrupadas por volumen de huecos»?",
       "opciones": [
         "Macizas (25 %) y los grupos con más huecos, hasta el 60 % (tabla 4.1).",
@@ -571,18 +235,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Piezas agrupadas por volumen de huecos» (Piezas y tipos de muro), la regulación vigente establece que: Macizas (25 %) y los grupos con más huecos, hasta el 60 % (tabla 4.1).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Piezas y tipos de muro), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Macizas (25 %) y los grupos con más huecos, hasta el 60 % (tabla 4.1).»?",
-      "opciones": [
-        "Piezas agrupadas por volumen de huecos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Piezas agrupadas por volumen de huecos.",
-        "Piezas agrupadas por volumen de huecos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Piezas agrupadas por volumen de huecos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Macizas (25 %) y los grupos con más huecos, hasta el 60 % (tabla 4.1).») define o regula específicamente a «Piezas agrupadas por volumen de huecos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -610,18 +262,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Arcos y bóvedas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El muro entre extremos capaces de resistir empuje puede resistir cargas perpendiculares mediante arcos (apartado 5.4.4, punto 1).»?",
-      "opciones": [
-        "El DB-SE-F contempla el arco estribado en sus extremos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El DB-SE-F contempla el arco estribado en sus extremos.",
-        "El DB-SE-F contempla el arco estribado en sus extremos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El DB-SE-F contempla el arco estribado en sus extremos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («El muro entre extremos capaces de resistir empuje puede resistir cargas perpendiculares mediante arcos (apartado 5.4.4, punto 1).») define o regula específicamente a «El DB-SE-F contempla el arco estribado en sus extremos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Arcos y bóvedas), ¿qué establece la normativa respecto a «El cálculo»?",
       "opciones": [
         "Armadura de continuidad sobre apoyos no inferior al 50 % de la del centro del vano, y prolongación de al menos el 25 % hasta los apoyos (apartado 7.2, puntos 1 y 2).",
@@ -631,18 +271,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «El cálculo» (Arcos y bóvedas), la regulación vigente establece que: Es el de tres articulaciones, dos en los extremos y una intermedia (apartado 5.4.4, punto 2).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Arcos y bóvedas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el de tres articulaciones, dos en los extremos y una intermedia (apartado 5.4.4, punto 2).»?",
-      "opciones": [
-        "El cálculo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El cálculo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El cálculo, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El cálculo."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Es el de tres articulaciones, dos en los extremos y una intermedia (apartado 5.4.4, punto 2).») define o regula específicamente a «El cálculo» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -682,18 +310,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Exposición, piezas y humectación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es impermeable al agua de lluvia, debe ser permeable al vapor (DB-SE-F, apartado 3.1, puntos 2 y 3).»?",
-      "opciones": [
-        "Si el acabado exterior, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Si el acabado exterior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Si el acabado exterior, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Si el acabado exterior."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Es impermeable al agua de lluvia, debe ser permeable al vapor (DB-SE-F, apartado 3.1, puntos 2 y 3).») define o regula específicamente a «Si el acabado exterior» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Ejecución y dinteles), ¿qué establece la normativa respecto a «Dinteles»?",
       "opciones": [
         "Armadura de continuidad sobre apoyos no inferior al 50 % de la del centro del vano, y prolongación de al menos el 25 % hasta los apoyos (apartado 7.2, puntos 1 y 2).",
@@ -703,18 +319,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Dinteles» (Ejecución y dinteles), la regulación vigente establece que: Armadura de continuidad sobre apoyos no inferior al 50 % de la del centro del vano, y prolongación de al menos el 25 % hasta los apoyos (apartado 7.2, puntos 1 y 2).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Ejecución y dinteles), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Armadura de continuidad sobre apoyos no inferior al 50 % de la del centro del vano, y prolongación de al menos el 25 % hasta los apoyos (apartado 7.2, puntos 1 y 2).»?",
-      "opciones": [
-        "Dinteles, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Dinteles.",
-        "Dinteles, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Dinteles, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Armadura de continuidad sobre apoyos no inferior al 50 % de la del centro del vano, y prolongación de al menos el 25 % hasta los apoyos (apartado 7.2, puntos 1 y 2).») define o regula específicamente a «Dinteles» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -754,18 +358,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Qué son estos elementos y cómo se ordenan), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son elementos curvos que transmiten las cargas por compresión a sus apoyos, y forman parte de la tradición constructiva de la fábrica.»?",
-      "opciones": [
-        "Los arcos y las bóvedas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los arcos y las bóvedas.",
-        "Los arcos y las bóvedas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los arcos y las bóvedas, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Son elementos curvos que transmiten las cargas por compresión a sus apoyos, y forman parte de la tradición constructiva de la fábrica.») define o regula específicamente a «Los arcos y las bóvedas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Qué son estos elementos y cómo se ordenan), ¿qué establece la normativa respecto a «La distinción»?",
       "opciones": [
         "Es el de muros de carga en dos direcciones (apartado 1.2, punto 2).",
@@ -800,6 +392,414 @@
       "correcta": 2,
       "explicacion": "Dicha regulación («Armadura de continuidad sobre apoyos no inferior al 50 % de la del centro del vano, y prolongación de al menos el 25 % hasta los apoyos (apartado 7.2, puntos 1 y 2).») define o regula específicamente a «Dinteles» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Piezas y tipos de muro), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Macizas (25 %) y los grupos con más huecos, hasta el 60 % (tabla 4.1).»?",
+      "opciones": [
+        "El cálculo.",
+        "Piezas agrupadas por volumen de huecos.",
+        "Dinteles.",
+        "La distinción."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Macizas (25 %) y los grupos con más huecos, hasta el 60 % (tabla 4.1).») define o regula específicamente a «Piezas agrupadas por volumen de huecos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Piezas y tipos de muro), ¿qué establece la normativa respecto a «Tipos de muro»?",
+      "opciones": [
+        "HS 1 de humedad (CTE, art. 13.1), HR de ruido aéreo, de impactos e instalaciones (art. 14.2) y HE de ahorro de energía (art. 15).",
+        "Una hoja, capuchino, doblado, careado, de tendel hueco, de revestimiento y de armado (apartado 6.1, punto 1).",
+        "Son elementos resistentes que transmiten a la cimentación las cargas de los forjados y de la cubierta.",
+        "Es una de las reglas que más se pregunta en examen, porque define hasta dónde llega el DB."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Tipos de muro» (Piezas y tipos de muro), la regulación vigente establece que: Una hoja, capuchino, doblado, careado, de tendel hueco, de revestimiento y de armado (apartado 6.1, punto 1).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Arcos y bóvedas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El muro entre extremos capaces de resistir empuje puede resistir cargas perpendiculares mediante arcos (apartado 5.4.4, punto 1).»?",
+      "opciones": [
+        "Si el acabado exterior.",
+        "Los arcos y las bóvedas.",
+        "El DB-SE-F.",
+        "El DB-SE-F contempla el arco estribado en sus extremos."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El muro entre extremos capaces de resistir empuje puede resistir cargas perpendiculares mediante arcos (apartado 5.4.4, punto 1).») define o regula específicamente a «El DB-SE-F contempla el arco estribado en sus extremos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Arcos y bóvedas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el de tres articulaciones, dos en los extremos y una intermedia (apartado 5.4.4, punto 2).»?",
+      "opciones": [
+        "Dinteles.",
+        "El cálculo.",
+        "La distinción.",
+        "El tipo estructural de referencia de la fábrica sustentante."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es el de tres articulaciones, dos en los extremos y una intermedia (apartado 5.4.4, punto 2).») define o regula específicamente a «El cálculo» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Exposición, piezas y humectación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es impermeable al agua de lluvia, debe ser permeable al vapor (DB-SE-F, apartado 3.1, puntos 2 y 3).»?",
+      "opciones": [
+        "Los arcos y las bóvedas.",
+        "El DB-SE-F.",
+        "La resistencia normalizada a compresión mínima de las piezas.",
+        "Si el acabado exterior."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es impermeable al agua de lluvia, debe ser permeable al vapor (DB-SE-F, apartado 3.1, puntos 2 y 3).») define o regula específicamente a «Si el acabado exterior» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Ejecución y dinteles), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Armadura de continuidad sobre apoyos no inferior al 50 % de la del centro del vano, y prolongación de al menos el 25 % hasta los apoyos (apartado 7.2, puntos 1 y 2).»?",
+      "opciones": [
+        "La distinción.",
+        "Dinteles.",
+        "El tipo estructural de referencia de la fábrica sustentante.",
+        "El cálculo del arco se basa en el de tres articulaciones."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Armadura de continuidad sobre apoyos no inferior al 50 % de la del centro del vano, y prolongación de al menos el 25 % hasta los apoyos (apartado 7.2, puntos 1 y 2).») define o regula específicamente a «Dinteles» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Qué son estos elementos y cómo se ordenan), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son elementos curvos que transmiten las cargas por compresión a sus apoyos, y forman parte de la tradición constructiva de la fábrica.»?",
+      "opciones": [
+        "El DB-SE-F.",
+        "La resistencia normalizada a compresión mínima de las piezas.",
+        "Por eso la humectación controlada.",
+        "Los arcos y las bóvedas."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Son elementos curvos que transmiten las cargas por compresión a sus apoyos, y forman parte de la tradición constructiva de la fábrica.») define o regula específicamente a «Los arcos y las bóvedas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Tipos de muros y de piezas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es de 5 N/mm² (apartado 4.1, punto 4).»?",
+      "opciones": [
+        "Por eso la humectación controlada.",
+        "La resistencia normalizada a compresión mínima de las piezas.",
+        "Su tratamiento depende de su origen.",
+        "El primero."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es de 5 N/mm² (apartado 4.1, punto 4).») define o regula específicamente a «La resistencia normalizada a compresión mínima de las piezas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Arcos y bóvedas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Dos en los extremos y una en una sección intermedia, situadas en el centro de bielas de ancho igual a 0,1 veces el canto del sólido capaz en el que puede inscribirse el arco (apartado 5.4.4, punto 2).»?",
+      "opciones": [
+        "El control de la ejecución de los muros.",
+        "Los riesgos de la fábrica en obra.",
+        "El cálculo del arco se basa en el de tres articulaciones.",
+        "El segundo."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Dos en los extremos y una en una sección intermedia, situadas en el centro de bielas de ancho igual a 0,1 veces el canto del sólido capaz en el que puede inscribirse el arco (apartado 5.4.4, punto 2).») define o regula específicamente a «El cálculo del arco se basa en el de tres articulaciones» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Arcos y bóvedas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El cálculo busca la posición de la línea de presiones y verifica que los apoyos resisten el empuje.»?",
+      "opciones": [
+        "El plan de mantenimiento.",
+        "El Real Decreto 1627/1997.",
+        "El tercero.",
+        "Por eso el DB-SE-F considera el arco como un mecanismo de tres articulaciones."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El cálculo busca la posición de la línea de presiones y verifica que los apoyos resisten el empuje.») define o regula específicamente a «Por eso el DB-SE-F considera el arco como un mecanismo de tres articulaciones» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Prescripciones técnicas y materiales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una regla de ejecución y no un detalle.»?",
+      "opciones": [
+        "Por eso la humectación controlada.",
+        "Su tratamiento depende de su origen.",
+        "El primero.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es una regla de ejecución y no un detalle.») define o regula específicamente a «Por eso la humectación controlada» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Control de la ejecución y de la recepción), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Comprende la recepción de las piezas y del mortero y el control de la ejecución propiamente dicho.»?",
+      "opciones": [
+        "Los riesgos de la fábrica en obra.",
+        "El control de la ejecución de los muros.",
+        "El segundo.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Comprende la recepción de las piezas y del mortero y el control de la ejecución propiamente dicho.») define o regula específicamente a «El control de la ejecución de los muros» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Uso, conservación y mantenimiento), ¿qué establece la normativa respecto a «El plan de mantenimiento»?",
+      "opciones": [
+        "Establece las prescripciones específicas.",
+        "Es afirmar que las bóvedas tienen un capítulo específico en el DB-SE-F, cuando los apartados verificados no lo contienen.",
+        "Establece las revisiones a las que debe someterse el edificio durante su periodo de servicio (apartado 9, punto 1).",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El plan de mantenimiento» (Uso, conservación y mantenimiento), la regulación vigente establece que: Establece las revisiones a las que debe someterse el edificio durante su periodo de servicio (apartado 9, punto 1).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Uso, conservación y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Establece las revisiones a las que debe someterse el edificio durante su periodo de servicio (apartado 9, punto 1).»?",
+      "opciones": [
+        "El Real Decreto 1627/1997.",
+        "El tercero.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "El plan de mantenimiento."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Establece las revisiones a las que debe someterse el edificio durante su periodo de servicio (apartado 9, punto 1).») define o regula específicamente a «El plan de mantenimiento» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Uso, conservación y mantenimiento), ¿qué establece la normativa respecto a «Su tratamiento depende de su origen»?",
+      "opciones": [
+        "Si la humedad procede del exterior, el problema está en el cerramiento y en la exigencia HS 1.",
+        "Es aplicar el DB-SE-F a un muro sin encadenados, que queda excluido.",
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Su tratamiento depende de su origen» (Uso, conservación y mantenimiento), la regulación vigente establece que: Si la humedad procede del exterior, el problema está en el cerramiento y en la exigencia HS 1.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Uso, conservación y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Si la humedad procede del exterior, el problema está en el cerramiento y en la exigencia HS 1.»?",
+      "opciones": [
+        "El primero.",
+        "Su tratamiento depende de su origen.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Si la humedad procede del exterior, el problema está en el cerramiento y en la exigencia HS 1.») define o regula específicamente a «Su tratamiento depende de su origen» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Evaluación de riesgos y seguridad y salud), ¿qué establece la normativa respecto a «Los riesgos de la fábrica en obra»?",
+      "opciones": [
+        "Es confundir el aislamiento térmico, que el DB-SE-F no trata, con la seguridad estructural.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Son el desplome de muros no arriostrados, la caída de personas y materiales desde los andamios y los paños, el corte con las piezas y el polvo de la cerámica y del hormigón.",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Los riesgos de la fábrica en obra» (Evaluación de riesgos y seguridad y salud), la regulación vigente establece que: Son el desplome de muros no arriostrados, la caída de personas y materiales desde los andamios y los paños, el corte con las piezas y el polvo de la cerámica y del hormigón.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el desplome de muros no arriostrados, la caída de personas y materiales desde los andamios y los paños, el corte con las piezas y el polvo de la cerámica y del hormigón.»?",
+      "opciones": [
+        "El segundo.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Los riesgos de la fábrica en obra."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Son el desplome de muros no arriostrados, la caída de personas y materiales desde los andamios y los paños, el corte con las piezas y el polvo de la cerámica y del hormigón.») define o regula específicamente a «Los riesgos de la fábrica en obra» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Evaluación de riesgos y seguridad y salud), ¿qué establece la normativa respecto a «El Real Decreto 1627/1997»?",
+      "opciones": [
+        "Establece las prescripciones específicas.",
+        "Es afirmar que las bóvedas tienen un capítulo específico en el DB-SE-F, cuando los apartados verificados no lo contienen.",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El Real Decreto 1627/1997» (Evaluación de riesgos y seguridad y salud), la regulación vigente establece que: Establece las prescripciones específicas.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Establece las prescripciones específicas.»?",
+      "opciones": [
+        "El tercero.",
+        "El Real Decreto 1627/1997.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Establece las prescripciones específicas.») define o regula específicamente a «El Real Decreto 1627/1997» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El primero»?",
+      "opciones": [
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "Es aplicar el DB-SE-F a un muro sin encadenados, que queda excluido.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El primero» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es aplicar el DB-SE-F a un muro sin encadenados, que queda excluido.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es aplicar el DB-SE-F a un muro sin encadenados, que queda excluido.»?",
+      "opciones": [
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "El primero."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es aplicar el DB-SE-F a un muro sin encadenados, que queda excluido.») define o regula específicamente a «El primero» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El segundo»?",
+      "opciones": [
+        "Es confundir el aislamiento térmico, que el DB-SE-F no trata, con la seguridad estructural.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El segundo» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es confundir el aislamiento térmico, que el DB-SE-F no trata, con la seguridad estructural.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es confundir el aislamiento térmico, que el DB-SE-F no trata, con la seguridad estructural.»?",
+      "opciones": [
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "El segundo.",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es confundir el aislamiento térmico, que el DB-SE-F no trata, con la seguridad estructural.») define o regula específicamente a «El segundo» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El tercero»?",
+      "opciones": [
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Es afirmar que las bóvedas tienen un capítulo específico en el DB-SE-F, cuando los apartados verificados no lo contienen.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El tercero» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es afirmar que las bóvedas tienen un capítulo específico en el DB-SE-F, cuando los apartados verificados no lo contienen.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es afirmar que las bóvedas tienen un capítulo específico en el DB-SE-F, cuando los apartados verificados no lo contienen.»?",
+      "opciones": [
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "El tercero."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es afirmar que las bóvedas tienen un capítulo específico en el DB-SE-F, cuando los apartados verificados no lo contienen.») define o regula específicamente a «El tercero» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.»?",
+      "opciones": [
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Objeto (art. 1 Ley de Ordenación de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.») define o regula específicamente a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Art. único de Código Técnico de la Edificación).",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "De telecomunicaciones (referido a la ingeniería de las telecomunicaciones)."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.»?",
+      "opciones": [
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación).",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.») define o regula específicamente a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Art. 4 de Código Técnico de la Edificación).",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "El proyecto es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras contempladas en el artículo 2."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.»?",
+      "opciones": [
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Proyecto (art. 4 Ley de Ordenación de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.») define o regula específicamente a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Art. 5 de Código Técnico de la Edificación).",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "La recepción de la obra es el acto por el cual el constructor, una vez concluida ésta, hace entrega de la misma al promotor y es aceptada por éste."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.»?",
+      "opciones": [
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Objeto (art. 1 Ley de Ordenación de la Edificación).",
+        "Recepción de la obra (art. 6 Ley de Ordenación de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.») define o regula específicamente a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Art. 6 de Código Técnico de la Edificación).",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
     }
   ]
 }

@@ -88,114 +88,6 @@
   ],
   "test": [
     {
-      "pregunta": "Según el DB-HS 3, tabla 2.1, ¿cuál es el caudal mínimo de ventilación del dormitorio principal en un local seco?",
-      "opciones": [
-        "8 l/s",
-        "8 l/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "8 l/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "8 l/s, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El dormitorio principal necesita un caudal mínimo de 8 l/s en los locales secos.",
-      "referencia": "DB-HS 3, tabla 2.1"
-    },
-    {
-      "pregunta": "Según el DB-HS 3, apartado 2, punto 4, ¿qué caudal mínimo debe extraer el sistema de la zona de cocción de una cocina?",
-      "opciones": [
-        "50 l/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "50 l/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "50 l/s",
-        "50 l/s, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La zona de cocción debe disponer de un sistema que extraiga, como mínimo, 50 l/s, de forma independiente de la ventilación general.",
-      "referencia": "DB-HS 3, apartado 2, punto 4"
-    },
-    {
-      "pregunta": "Según el DB-HS 3, apartado 3.1.1, punto 1, letra e, ¿a qué altura mínima del suelo deben situarse los aireadores?",
-      "opciones": [
-        "Mayor que 1,80 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Mayor que 1,80 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Mayor que 1,80 m, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Mayor que 1,80 m"
-      ],
-      "correcta": 3,
-      "explicacion": "Los aireadores deben disponerse a una distancia del suelo mayor que 1,80 m.",
-      "referencia": "DB-HS 3, apartado 3.1.1, punto 1, letra e"
-    },
-    {
-      "pregunta": "Según el RITE, IT 1.1.4.1.2, tabla 1.4.1.1, ¿entre qué valores de temperatura operativa se sitúa el invierno?",
-      "opciones": [
-        "De 21 a 23 ºC, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "De 21 a 23 ºC",
-        "De 21 a 23 ºC, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "De 21 a 23 ºC, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "En invierno, la temperatura operativa debe estar entre 21 y 23 ºC, con una humedad relativa del 40 al 50 %.",
-      "referencia": "RITE, IT 1.1.4.1.2, tabla 1.4.1.1"
-    },
-    {
-      "pregunta": "Según el RITE, IT 1.1.4.1.2, ¿qué temperatura de cálculo se emplea para dimensionar la refrigeración?",
-      "opciones": [
-        "25 ºC",
-        "25 ºC, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "25 ºC, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "25 ºC, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Para dimensionar la refrigeración se emplea una temperatura de cálculo de 25 ºC; para la calefacción, 21 ºC.",
-      "referencia": "RITE, IT 1.1.4.1.2"
-    },
-    {
-      "pregunta": "Según el RITE, IT 1.1.4.2.3, tabla 1.4.2.1, ¿cuántos dm³/s por persona corresponden a la categoría IDA 1?",
-      "opciones": [
-        "20, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "20, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "20",
-        "20, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La tabla 1.4.2.1 fija 20 dm³/s por persona para la categoría IDA 1, 12,5 para la IDA 2, 8 para la IDA 3 y 5 para la IDA 4.",
-      "referencia": "RITE, IT 1.1.4.2.3, tabla 1.4.2.1"
-    },
-    {
-      "pregunta": "Según el RITE, IT 3.3, tabla 3.1, ¿con qué periodicidad mínima se revisa un calentador de ACS a gas de potencia no superior a 24,4 kW en viviendas?",
-      "opciones": [
-        "Cada 5 años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cada 5 años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cada 5 años, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Cada 5 años"
-      ],
-      "correcta": 3,
-      "explicacion": "Los calentadores de ACS a gas de potencia no superior a 24,4 kW se revisan cada 5 años en viviendas, y cada 2 años en los demás usos.",
-      "referencia": "RITE, IT 3.3, tabla 3.1"
-    },
-    {
-      "pregunta": "Según el RITE, IT 4.3.3, ¿con qué periodicidad se inspecciona la instalación térmica completa?",
-      "opciones": [
-        "Cada 15 años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cada 15 años",
-        "Cada 15 años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cada 15 años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La inspección de la instalación térmica completa se realiza cada quince años, coincidiendo con la primera inspección del generador una vez superados los quince años de antigüedad.",
-      "referencia": "RITE, IT 4.3.3"
-    },
-    {
-      "pregunta": "Según el RITE, IT 2.2.2.1, punto 1, ¿cuándo deben probarse hidrostáticamente las redes de fluidos portadores?",
-      "opciones": [
-        "Antes de quedar ocultas por obras de albañilería, material de relleno o aislante, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Antes de quedar ocultas por obras de albañilería, material de relleno o aislante, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Antes de quedar ocultas por obras de albañilería, material de relleno o aislante",
-        "Antes de quedar ocultas por obras de albañilería, material de relleno o aislante, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Todas las redes de circulación de fluidos portadores deben probarse hidrostáticamente, antes de quedar ocultas por obras de albañilería, material de relleno o aislante.",
-      "referencia": "RITE, IT 2.2.2.1, punto 1"
-    },
-    {
       "pregunta": "Según el RD 1627/1997, anexo IV, apartado 12.b, ¿qué debe tenerse en cuenta para la protección colectiva en trabajos en tejados?",
       "opciones": [
         "La altura, la inclinación o el carácter o estado resbaladizo de la cubierta",
@@ -206,174 +98,6 @@
       "correcta": 0,
       "explicacion": "Las medidas de protección colectiva deben adoptarse en atención a la altura, la inclinación o el carácter o estado resbaladizo de la cubierta.",
       "referencia": "Anexo IV, apartado 12.b RD 1627/1997"
-    },
-    {
-      "pregunta": "¿Qué norma regula la ventilación de las viviendas?",
-      "opciones": [
-        "El CTE, DB-HS 3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El CTE, DB-HS 3",
-        "El CTE, DB-HS 3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El CTE, DB-HS 3, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La ventilación de las viviendas se rige por el DB-HS 3 del CTE.",
-      "referencia": "CTE, art. 13.3"
-    },
-    {
-      "pregunta": "¿Qué reglamento regula la climatización y la ventilación de los demás usos?",
-      "opciones": [
-        "El RITE (RD 1027/2007)",
-        "El RITE (RD 1027/2007), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El RITE (RD 1027/2007), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El RITE (RD 1027/2007), computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La climatización y la ventilación de los demás usos se rigen por el RITE.",
-      "referencia": "RITE, RD 1027/2007"
-    },
-    {
-      "pregunta": "¿Por dónde se evacuan con carácter general los productos de la combustión?",
-      "opciones": [
-        "Por la cubierta del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Por la cubierta del edificio",
-        "Por la cubierta del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Por la cubierta del edificio, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los productos de combustión se evacuan por la cubierta del edificio.",
-      "referencia": "CTE, art. 13.3.2"
-    },
-    {
-      "pregunta": "¿Qué tipo de sistema general de ventilación se usa en viviendas?",
-      "opciones": [
-        "Híbrido o mecánico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Híbrido o mecánico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Híbrido o mecánico, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Híbrido o mecánico"
-      ],
-      "correcta": 3,
-      "explicacion": "El sistema general de ventilación puede ser híbrido o mecánico.",
-      "referencia": "DB-HS 3, apartado 3.1.1"
-    },
-    {
-      "pregunta": "¿Desde qué locales sale el aire en una vivienda?",
-      "opciones": [
-        "Desde los locales secos hacia los húmedos",
-        "Desde los locales secos hacia los húmedos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Desde los locales secos hacia los húmedos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Desde los locales secos hacia los húmedos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El aire va desde los locales secos hacia los húmedos.",
-      "referencia": "DB-HS 3, apartado 3.1.1 punto 1"
-    },
-    {
-      "pregunta": "¿En qué locales deben estar las aberturas de admisión?",
-      "opciones": [
-        "Comedores, dormitorios y salas de estar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Comedores, dormitorios y salas de estar",
-        "Comedores, dormitorios y salas de estar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Comedores, dormitorios y salas de estar, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las aberturas de admisión están en comedores, dormitorios y salas de estar.",
-      "referencia": "DB-HS 3, apartado 3.1.1 punto 1"
-    },
-    {
-      "pregunta": "¿En qué locales están las aberturas de extracción?",
-      "opciones": [
-        "Aseos, cocinas y baños, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Aseos, cocinas y baños, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Aseos, cocinas y baños",
-        "Aseos, cocinas y baños, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las aberturas de extracción están en aseos, cocinas y baños.",
-      "referencia": "DB-HS 3, apartado 3.1.1 punto 1"
-    },
-    {
-      "pregunta": "¿A qué altura mínima deben situarse los aireadores?",
-      "opciones": [
-        "Más de 1,80 m del suelo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Más de 1,80 m del suelo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Más de 1,80 m del suelo, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Más de 1,80 m del suelo"
-      ],
-      "correcta": 3,
-      "explicacion": "Los aireadores se sitúan a más de 1,80 m del suelo.",
-      "referencia": "DB-HS 3, apartado 3.1.1 punto 1"
-    },
-    {
-      "pregunta": "¿Qué caudal mínimo se exige al dormitorio principal en locales secos?",
-      "opciones": [
-        "8 l/s",
-        "8 l/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "8 l/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "8 l/s, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El dormitorio principal tiene un caudal de 8 l/s.",
-      "referencia": "DB-HS 3, tabla 2.1"
-    },
-    {
-      "pregunta": "¿Qué caudal de extracción tiene la zona de cocción?",
-      "opciones": [
-        "50 l/s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "50 l/s",
-        "50 l/s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "50 l/s, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La extracción de la zona de cocción es de 50 l/s.",
-      "referencia": "DB-HS 3, apartado 2 punto 4"
-    },
-    {
-      "pregunta": "¿Qué temperatura operativa se usa en verano según el RITE?",
-      "opciones": [
-        "De 23 a 25 ºC, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "De 23 a 25 ºC, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "De 23 a 25 ºC",
-        "De 23 a 25 ºC, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "En verano la temperatura operativa va de 23 a 25 ºC.",
-      "referencia": "RITE, IT 1.1.4.1.2, tabla 1.4.1.1"
-    },
-    {
-      "pregunta": "¿Qué temperatura operativa se usa en invierno?",
-      "opciones": [
-        "De 21 a 23 ºC, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "De 21 a 23 ºC, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "De 21 a 23 ºC, computándose los plazos en días naturales y con sentido desestimatorio",
-        "De 21 a 23 ºC"
-      ],
-      "correcta": 3,
-      "explicacion": "En invierno la temperatura operativa va de 21 a 23 ºC.",
-      "referencia": "RITE, IT 1.1.4.1.2"
-    },
-    {
-      "pregunta": "¿Qué categoría de calidad del aire corresponde a hospitales y laboratorios?",
-      "opciones": [
-        "IDA 1",
-        "IDA 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "IDA 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "IDA 1, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Hospitales y laboratorios corresponden a IDA 1.",
-      "referencia": "RITE, IT 1.1.4.2.2"
-    },
-    {
-      "pregunta": "¿Qué categoría de calidad del aire corresponde a oficinas y aulas?",
-      "opciones": [
-        "IDA 2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "IDA 2",
-        "IDA 2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "IDA 2, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Oficinas y aulas corresponden a IDA 2.",
-      "referencia": "RITE, IT 1.1.4.2.2"
     },
     {
       "pregunta": "¿Qué cualidad debe tener el local de fumadores?",
@@ -388,66 +112,6 @@
       "referencia": "RITE, IT 1.1.4.2.3 apartado A letra c"
     },
     {
-      "pregunta": "¿Cuándo se hacen las pruebas hidrostáticas de las redes?",
-      "opciones": [
-        "Antes de ocultar las redes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Antes de ocultar las redes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Antes de ocultar las redes, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Antes de ocultar las redes"
-      ],
-      "correcta": 3,
-      "explicacion": "Se hacen pruebas hidrostáticas antes de ocultar las redes.",
-      "referencia": "RITE, IT 2.2.2.1 punto 1"
-    },
-    {
-      "pregunta": "¿Cuándo se limpian los conductos según el RITE?",
-      "opciones": [
-        "Después del montaje y antes de conectar las unidades terminales",
-        "Después del montaje y antes de conectar las unidades terminales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Después del montaje y antes de conectar las unidades terminales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Después del montaje y antes de conectar las unidades terminales, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los conductos se limpian después del montaje y antes de conectar las unidades terminales.",
-      "referencia": "RITE, IT 2.2.5.1 punto 1"
-    },
-    {
-      "pregunta": "¿Qué instrucción técnica regula el ajuste y equilibrado?",
-      "opciones": [
-        "La IT 2.3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La IT 2.3",
-        "La IT 2.3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La IT 2.3, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El ajuste y equilibrado se regula en la IT 2.3.",
-      "referencia": "RITE, IT 2.3"
-    },
-    {
-      "pregunta": "¿Cada cuánto se revisan los calentadores de ACS a gas de hasta 24,4 kW en viviendas?",
-      "opciones": [
-        "Cada 5 años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cada 5 años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cada 5 años",
-        "Cada 5 años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Se revisan cada 5 años en viviendas, según la tabla 3.1.",
-      "referencia": "RITE, IT 3.3, tabla 3.1"
-    },
-    {
-      "pregunta": "¿Cada cuánto se revisa el aire acondicionado de hasta 12 kW en viviendas?",
-      "opciones": [
-        "Cada 5 años desde la firmeza del acto administrativo",
-        "Cada 4 años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cada 4 años, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Cada 4 años"
-      ],
-      "correcta": 3,
-      "explicacion": "El aire acondicionado de hasta 12 kW se revisa cada 4 años en viviendas.",
-      "referencia": "RITE, IT 3.3, tabla 3.1"
-    },
-    {
       "pregunta": "¿Cada cuánto se hace la inspección de eficiencia energética de las instalaciones térmicas?",
       "opciones": [
         "Cada cinco años desde que el acto fue dictado",
@@ -458,114 +122,6 @@
       "correcta": 2,
       "explicacion": "La inspección de eficiencia energética se hace cada cuatro años.",
       "referencia": "RITE, IT 4.3.1 y 4.3.2"
-    },
-    {
-      "pregunta": "¿Cada cuánto se hace una inspección completa de la instalación térmica?",
-      "opciones": [
-        "Cada quince años",
-        "Cada quince años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cada quince años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cada quince años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La instalación térmica completa se inspecciona cada quince años.",
-      "referencia": "RITE, IT 4.3.3"
-    },
-    {
-      "pregunta": "¿Qué temperatura de cálculo se usa para calefacción?",
-      "opciones": [
-        "21 ºC, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "21 ºC",
-        "21 ºC, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "21 ºC, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La temperatura de cálculo para calefacción es de 21 ºC.",
-      "referencia": "RITE, tabla 1.4.1.1"
-    },
-    {
-      "pregunta": "¿Qué reglamento regula las instalaciones térmicas de los edificios?",
-      "opciones": [
-        "RITE, Real Decreto 1027/2007, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "RITE, Real Decreto 1027/2007, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "RITE, Real Decreto 1027/2007",
-        "RITE, Real Decreto 1027/2007, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El RITE, aprobado por el RD 1027/2007, regula las instalaciones térmicas.",
-      "referencia": "RD 1027/2007 (RITE)"
-    },
-    {
-      "pregunta": "¿Qué DB del CTE regula la calidad del aire interior?",
-      "opciones": [
-        "DB-HS 3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "DB-HS 3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "DB-HS 3, computándose los plazos en días naturales y con sentido desestimatorio",
-        "DB-HS 3"
-      ],
-      "correcta": 3,
-      "explicacion": "El DB-HS 3 regula la calidad del aire interior y la ventilación.",
-      "referencia": "CTE, DB-HS 3"
-    },
-    {
-      "pregunta": "¿Qué equipo impulsa aire tratado a los locales?",
-      "opciones": [
-        "Climatizador, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Climatizador, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Climatizador, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Climatizador"
-      ],
-      "correcta": 3,
-      "explicacion": "El climatizador trata e impulsa aire a los locales.",
-      "referencia": "Tema e10"
-    },
-    {
-      "pregunta": "¿Qué riesgo sanitario se asocia a las torres de refrigeración mal mantenidas?",
-      "opciones": [
-        "Legionelosis",
-        "Legionelosis, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Legionelosis, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Legionelosis, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Las torres de refrigeración pueden favorecer la proliferación de Legionella.",
-      "referencia": "Tema e10"
-    },
-    {
-      "pregunta": "¿Qué elementos conducen el aire en una instalación de ventilación?",
-      "opciones": [
-        "Conductos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Conductos",
-        "Conductos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Conductos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los conductos distribuyen el aire en la ventilación mecánica.",
-      "referencia": "Tema e10"
-    },
-    {
-      "pregunta": "¿Qué equipo transfiere calor del exterior al interior del edificio?",
-      "opciones": [
-        "Bomba de calor, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Bomba de calor, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Bomba de calor",
-        "Bomba de calor, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La bomba de calor transfiere energía térmica desde el exterior.",
-      "referencia": "Tema e10"
-    },
-    {
-      "pregunta": "¿Qué elemento regula el caudal de aire que pasa por una rejilla?",
-      "opciones": [
-        "Compuerta o regulador, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Compuerta o regulador, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Compuerta o regulador, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Compuerta o regulador"
-      ],
-      "correcta": 3,
-      "explicacion": "Las compuertas y reguladores regulan el caudal de aire en la ventilación.",
-      "referencia": "Tema e10"
     },
     {
       "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Caudales mínimos de la vivienda), ¿qué establece la normativa respecto a «Locales húmedos»?",
@@ -625,18 +181,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Método por persona (tabla 1.4.2.1)» (Caudal de aire exterior), la regulación vigente establece que: 20 dm³/s para IDA 1, 12,5 para IDA 2, 8 para IDA 3 y 5 para IDA 4.",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Caudal de aire exterior), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «20 dm³/s para IDA 1, 12,5 para IDA 2, 8 para IDA 3 y 5 para IDA 4.»?",
-      "opciones": [
-        "Método por persona (tabla 1.4.2.1), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Método por persona (tabla 1.4.2.1).",
-        "Método por persona (tabla 1.4.2.1), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Método por persona (tabla 1.4.2.1), computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («20 dm³/s para IDA 1, 12,5 para IDA 2, 8 para IDA 3 y 5 para IDA 4.») define o regula específicamente a «Método por persona (tabla 1.4.2.1)» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -724,18 +268,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué son la climatización y la ventilación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Aporta aire exterior limpio y extrae el aire viciado, con los contaminantes, la humedad y los olores que se producen en el uso normal.»?",
-      "opciones": [
-        "La ventilación es la renovación del aire de los locales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La ventilación es la renovación del aire de los locales.",
-        "La ventilación es la renovación del aire de los locales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La ventilación es la renovación del aire de los locales, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Aporta aire exterior limpio y extrae el aire viciado, con los contaminantes, la humedad y los olores que se producen en el uso normal.») define o regula específicamente a «La ventilación es la renovación del aire de los locales» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué son la climatización y la ventilación), ¿qué establece la normativa respecto a «Por su función, las instalaciones de climatización se clasifican en tres grupos»?",
       "opciones": [
         "El aire debe circular desde los locales menos contaminados hacia los más contaminados, para que los olores y la humedad de la cocina y de los baños no pasen a los dormitorios y a las salas de estar.",
@@ -796,16 +328,484 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Caudal de aire exterior), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «20 dm³/s para IDA 1, 12,5 para IDA 2, 8 para IDA 3 y 5 para IDA 4.»?",
+      "opciones": [
+        "La climatización.",
+        "Método por persona (tabla 1.4.2.1).",
+        "La verificación sigue las mismas etapas que el resto de los documentos básicos.",
+        "La regla de la circulación del aire es la que se estudia en un supuesto práctico."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («20 dm³/s para IDA 1, 12,5 para IDA 2, 8 para IDA 3 y 5 para IDA 4.») define o regula específicamente a «Método por persona (tabla 1.4.2.1)» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Qué son la climatización y la ventilación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Aporta aire exterior limpio y extrae el aire viciado, con los contaminantes, la humedad y los olores que se producen en el uso normal.»?",
+      "opciones": [
+        "La primera es el caudal.",
+        "La ventilación es la renovación del aire de los locales.",
+        "El caudal mínimo en total.",
+        "El RITE también."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Aporta aire exterior limpio y extrae el aire viciado, con los contaminantes, la humedad y los olores que se producen en el uso normal.») define o regula específicamente a «La ventilación es la renovación del aire de los locales» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
       "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos básicos del CTE en la calidad del aire), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El aire exterior que entra debe ser suficiente para diluir los contaminantes del uso normal, y el DB-HS 3 lo fija en litros por segundo para cada local de la vivienda.»?",
       "opciones": [
-        "La primera es el caudal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La primera es el caudal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La primera es el caudal, computándose los plazos en días naturales y con sentido desestimatorio",
+        "El caudal mínimo en total.",
+        "El RITE también.",
+        "El DB-HS 4.",
         "La primera es el caudal."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («El aire exterior que entra debe ser suficiente para diluir los contaminantes del uso normal, y el DB-HS 3 lo fija en litros por segundo para cada local de la vivienda.») define o regula específicamente a «La primera es el caudal» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Requisitos básicos del CTE en la calidad del aire), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El aire debe circular desde los locales menos contaminados hacia los más contaminados, para que los olores y la humedad de la cocina y de los baños no pasen a los dormitorios y a las salas de estar.»?",
+      "opciones": [
+        "La tabla 1.4.1.1 fija los límites.",
+        "La segunda es la dirección del flujo.",
+        "El mantenimiento de la climatización tiene una consecuencia económica directa.",
+        "El primero."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («El aire debe circular desde los locales menos contaminados hacia los más contaminados, para que los olores y la humedad de la cocina y de los baños no pasen a los dormitorios y a las salas de estar.») define o regula específicamente a «La segunda es la dirección del flujo» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Ventilación de las viviendas: sistema general), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El aire debe entrar por los locales secos y salir por los húmedos, sin cortocircuitos.»?",
+      "opciones": [
+        "El examen suele pedir la instrucción que.",
+        "Su periodicidad se fija en la IT 4.3.",
+        "El segundo.",
+        "La regla de la circulación del aire es la que se estudia en un supuesto práctico."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El aire debe entrar por los locales secos y salir por los húmedos, sin cortocircuitos.») define o regula específicamente a «La regla de la circulación del aire es la que se estudia en un supuesto práctico» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Caudales mínimos de ventilación de las viviendas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es de 12 l/s en viviendas de 0 o 1 dormitorios, de 24 l/s en las de 2 dormitorios y de 33 l/s en las de 3 o más.»?",
+      "opciones": [
+        "El caudal mínimo en total.",
+        "El RITE también.",
+        "El DB-HS 4.",
+        "El tercero."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es de 12 l/s en viviendas de 0 o 1 dormitorios, de 24 l/s en las de 2 dormitorios y de 33 l/s en las de 3 o más.») define o regula específicamente a «El caudal mínimo en total» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencias de calidad térmica y del aire en el RITE), ¿qué establece la normativa respecto a «La tabla 1.4.1.1 fija los límites»?",
+      "opciones": [
+        "Un equipo sin limpiar consume más energía para dar el mismo servicio.",
+        "En verano, de 23 a 25 ºC de temperatura operativa y de 45 a 60 % de humedad relativa.",
+        "Es confundir los caudales de la vivienda, que fija el DB-HS 3, con los caudales de aire exterior por persona, que fija el RITE.",
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «La tabla 1.4.1.1 fija los límites» (Exigencias de calidad térmica y del aire en el RITE), la regulación vigente establece que: En verano, de 23 a 25 ºC de temperatura operativa y de 45 a 60 % de humedad relativa.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencias de calidad térmica y del aire en el RITE), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En verano, de 23 a 25 ºC de temperatura operativa y de 45 a 60 % de humedad relativa.»?",
+      "opciones": [
+        "El mantenimiento de la climatización tiene una consecuencia económica directa.",
+        "El primero.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "La tabla 1.4.1.1 fija los límites."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («En verano, de 23 a 25 ºC de temperatura operativa y de 45 a 60 % de humedad relativa.») define o regula específicamente a «La tabla 1.4.1.1 fija los límites» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencias de calidad térmica y del aire en el RITE), ¿qué establece la normativa respecto a «El examen suele pedir la instrucción que»?",
+      "opciones": [
+        "Corresponde a cada asunto, y esta estructura facilita la respuesta.",
+        "Cada cuatro años para los sistemas de calefacción, de ventilación y de agua caliente sanitaria (IT 4.3.1), y también cada cuatro años para los de aire acondicionado y ventilación (IT 4.3.2).",
+        "Es afirmar que la extracción de la cocina es la misma que la de un baño.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El examen suele pedir la instrucción que» (Exigencias de calidad térmica y del aire en el RITE), la regulación vigente establece que: Corresponde a cada asunto, y esta estructura facilita la respuesta.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Exigencias de calidad térmica y del aire en el RITE), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Corresponde a cada asunto, y esta estructura facilita la respuesta.»?",
+      "opciones": [
+        "Su periodicidad se fija en la IT 4.3.",
+        "El examen suele pedir la instrucción que.",
+        "El segundo.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Corresponde a cada asunto, y esta estructura facilita la respuesta.») define o regula específicamente a «El examen suele pedir la instrucción que» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Caudal mínimo de aire exterior en el RITE), ¿qué establece la normativa respecto a «El RITE también»?",
+      "opciones": [
+        "Exige que los equipos que necesitan operaciones periódicas se sitúen en espacios accesibles (apartado 7.3, punto 2), y el proyecto de climatización debe aplicar la misma idea.",
+        "Es olvidar que el doble de caudal se exige donde se permite fumar.",
+        "Regula el filtrado del aire exterior (IT 1.1.4.2.4) y el aire de extracción (IT 1.1.4.2.5).",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El RITE también» (Caudal mínimo de aire exterior en el RITE), la regulación vigente establece que: Regula el filtrado del aire exterior (IT 1.1.4.2.4) y el aire de extracción (IT 1.1.4.2.5).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Caudal mínimo de aire exterior en el RITE), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula el filtrado del aire exterior (IT 1.1.4.2.4) y el aire de extracción (IT 1.1.4.2.5).»?",
+      "opciones": [
+        "El DB-HS 4.",
+        "El tercero.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "El RITE también."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Regula el filtrado del aire exterior (IT 1.1.4.2.4) y el aire de extracción (IT 1.1.4.2.5).») define o regula específicamente a «El RITE también» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Mantenimiento preventivo y uso), ¿qué establece la normativa respecto a «El mantenimiento de la climatización tiene una consecuencia económica directa»?",
+      "opciones": [
+        "Un equipo sin limpiar consume más energía para dar el mismo servicio.",
+        "Es confundir los caudales de la vivienda, que fija el DB-HS 3, con los caudales de aire exterior por persona, que fija el RITE.",
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El mantenimiento de la climatización tiene una consecuencia económica directa» (Mantenimiento preventivo y uso), la regulación vigente establece que: Un equipo sin limpiar consume más energía para dar el mismo servicio.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Mantenimiento preventivo y uso), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Un equipo sin limpiar consume más energía para dar el mismo servicio.»?",
+      "opciones": [
+        "El primero.",
+        "El mantenimiento de la climatización tiene una consecuencia económica directa.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Un equipo sin limpiar consume más energía para dar el mismo servicio.») define o regula específicamente a «El mantenimiento de la climatización tiene una consecuencia económica directa» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Inspecciones de eficiencia energética), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Cada cuatro años para los sistemas de calefacción, de ventilación y de agua caliente sanitaria (IT 4.3.1), y también cada cuatro años para los de aire acondicionado y ventilación (IT 4.3.2).»?",
+      "opciones": [
+        "El segundo.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Su periodicidad se fija en la IT 4.3.",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Cada cuatro años para los sistemas de calefacción, de ventilación y de agua caliente sanitaria (IT 4.3.1), y también cada cuatro años para los de aire acondicionado y ventilación (IT 4.3.2).») define o regula específicamente a «Su periodicidad se fija en la IT 4.3» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿qué establece la normativa respecto a «El DB-HS 4»?",
+      "opciones": [
+        "Es olvidar que el doble de caudal se exige donde se permite fumar.",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Exige que los equipos que necesitan operaciones periódicas se sitúen en espacios accesibles (apartado 7.3, punto 2), y el proyecto de climatización debe aplicar la misma idea."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El DB-HS 4» (Evaluación de riesgos y seguridad y salud), la regulación vigente establece que: Exige que los equipos que necesitan operaciones periódicas se sitúen en espacios accesibles (apartado 7.3, punto 2), y el proyecto de climatización debe aplicar la misma idea.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige que los equipos que necesitan operaciones periódicas se sitúen en espacios accesibles (apartado 7.3, punto 2), y el proyecto de climatización debe aplicar la misma idea.»?",
+      "opciones": [
+        "El DB-HS 4.",
+        "El tercero.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Exige que los equipos que necesitan operaciones periódicas se sitúen en espacios accesibles (apartado 7.3, punto 2), y el proyecto de climatización debe aplicar la misma idea.») define o regula específicamente a «El DB-HS 4» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El primero»?",
+      "opciones": [
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "Es confundir los caudales de la vivienda, que fija el DB-HS 3, con los caudales de aire exterior por persona, que fija el RITE.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El primero» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es confundir los caudales de la vivienda, que fija el DB-HS 3, con los caudales de aire exterior por persona, que fija el RITE.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es confundir los caudales de la vivienda, que fija el DB-HS 3, con los caudales de aire exterior por persona, que fija el RITE.»?",
+      "opciones": [
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "El primero.",
+        "Generalidades (art. 9 Código Técnico de la Edificación)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es confundir los caudales de la vivienda, que fija el DB-HS 3, con los caudales de aire exterior por persona, que fija el RITE.») define o regula específicamente a «El primero» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El segundo»?",
+      "opciones": [
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "Es afirmar que la extracción de la cocina es la misma que la de un baño."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El segundo» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es afirmar que la extracción de la cocina es la misma que la de un baño.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es afirmar que la extracción de la cocina es la misma que la de un baño.»?",
+      "opciones": [
+        "El segundo.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es afirmar que la extracción de la cocina es la misma que la de un baño.») define o regula específicamente a «El segundo» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El tercero»?",
+      "opciones": [
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Es olvidar que el doble de caudal se exige donde se permite fumar.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El tercero» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es olvidar que el doble de caudal se exige donde se permite fumar.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es olvidar que el doble de caudal se exige donde se permite fumar.»?",
+      "opciones": [
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "El tercero.",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es olvidar que el doble de caudal se exige donde se permite fumar.») define o regula específicamente a «El tercero» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)»?",
+      "opciones": [
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Se entenderá por reforma de una instalación térmica todo cambio que se efectúe en ella y que suponga una modificación del proyecto o memoria técnica con el que fue ejecutada y registrada.",
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.»?",
+      "opciones": [
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Ámbito de aplicación (art. 2 Reglamento de instalaciones térmicas en los edificios)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.») define o regula específicamente a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Art. único de Código Técnico de la Edificación).",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "Con el fin de facilitar su comprensión y utilización, el RITE se ordena en dos partes: 1."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.»?",
+      "opciones": [
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Contenido del RITE (art. 4 Reglamento de instalaciones térmicas en los edificios)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.») define o regula específicamente a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Art. 4 de Código Técnico de la Edificación).",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "En el apéndice 2 se recoge el listado de todas las normas de referencia citadas en el texto del RITE, identificadas por su título, numeración y año de edición.",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.»?",
+      "opciones": [
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Remisión a normas (art. 5 Reglamento de instalaciones térmicas en los edificios)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.») define o regula específicamente a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Art. 5 de Código Técnico de la Edificación).",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "Se entenderá por reforma de una instalación térmica todo cambio que se efectúe en ella y que suponga una modificación del proyecto o memoria técnica con el que fue ejecutada y registrada.",
+        "Las instalaciones objeto del RITE deben cumplir, asimismo, con los demás reglamentos que estén vigentes y que le sean de aplicación."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.»?",
+      "opciones": [
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Ámbito de aplicación (art. 2 Reglamento de instalaciones térmicas en los edificios).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Otra reglamentación aplicable (art. 8 Reglamento de instalaciones térmicas en los edificios)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.») define o regula específicamente a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Art. 6 de Código Técnico de la Edificación).",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "Con el fin de facilitar su comprensión y utilización, el RITE se ordena en dos partes: 1.",
+        "A efectos de la aplicación del RITE, los términos que figuran en él deben utilizarse conforme al significado y a las condiciones que se establecen para cada uno de ellos en el apéndice 1.",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+      "referencia": "Art. 7 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.»?",
+      "opciones": [
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Contenido del RITE (art. 4 Reglamento de instalaciones térmicas en los edificios).",
+        "Términos y definiciones (art. 9 Reglamento de instalaciones térmicas en los edificios)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.») define o regula específicamente a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Art. 7 de Código Técnico de la Edificación).",
+      "referencia": "Art. 7 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "En el apéndice 2 se recoge el listado de todas las normas de referencia citadas en el texto del RITE, identificadas por su título, numeración y año de edición.",
+        "Higiene: las instalaciones térmicas permitirán proporcionar una dotación de agua caliente sanitaria, en condiciones adecuadas, para la higiene de las personas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+      "referencia": "Art. 8 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.»?",
+      "opciones": [
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Remisión a normas (art. 5 Reglamento de instalaciones térmicas en los edificios).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Bienestar e higiene (art. 11 Reglamento de instalaciones térmicas en los edificios)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.») define o regula específicamente a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Art. 8 de Código Técnico de la Edificación).",
+      "referencia": "Art. 8 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Generalidades (art. 9 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Se entenderá por reforma de una instalación térmica todo cambio que se efectúe en ella y que suponga una modificación del proyecto o memoria técnica con el que fue ejecutada y registrada.",
+        "Las instalaciones objeto del RITE deben cumplir, asimismo, con los demás reglamentos que estén vigentes y que le sean de aplicación.",
+        "Cuando se precise proyecto, éste debe ser redactado y firmado por técnico titulado competente.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Generalidades (art. 9 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+      "referencia": "Art. 9 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.»?",
+      "opciones": [
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Ámbito de aplicación (art. 2 Reglamento de instalaciones térmicas en los edificios).",
+        "Otra reglamentación aplicable (art. 8 Reglamento de instalaciones térmicas en los edificios).",
+        "Proyecto (art. 16 Reglamento de instalaciones térmicas en los edificios)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.») define o regula específicamente a «Generalidades (art. 9 Código Técnico de la Edificación)» (Art. 9 de Código Técnico de la Edificación).",
+      "referencia": "Art. 9 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Con el fin de facilitar su comprensión y utilización, el RITE se ordena en dos partes: 1.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "A efectos de la aplicación del RITE, los términos que figuran en él deben utilizarse conforme al significado y a las condiciones que se establecen para cada uno de ellos en el apéndice 1.",
+        "Se explicitarán los parámetros de diseño elegidos."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+      "referencia": "Art. 10 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.»?",
+      "opciones": [
+        "Contenido del RITE (art. 4 Reglamento de instalaciones térmicas en los edificios).",
+        "Términos y definiciones (art. 9 Reglamento de instalaciones térmicas en los edificios).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Memoria técnica (art. 17 Reglamento de instalaciones térmicas en los edificios)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.») define o regula específicamente a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Art. 10 de Código Técnico de la Edificación).",
+      "referencia": "Art. 10 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones de climatización y ventilación en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "En el apéndice 2 se recoge el listado de todas las normas de referencia citadas en el texto del RITE, identificadas por su título, numeración y año de edición.",
+        "Higiene: las instalaciones térmicas permitirán proporcionar una dotación de agua caliente sanitaria, en condiciones adecuadas, para la higiene de las personas.",
+        "La ejecución de las instalaciones sujetas a este RITE se realizará por empresas instaladoras habilitadas.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+      "referencia": "Art. 15 de Código Técnico de la Edificación"
     }
   ]
 }

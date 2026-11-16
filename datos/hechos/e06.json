@@ -1,29 +1,5 @@
 [
   {
-    "pregunta": "¿Qué elemento horizontal de una fábrica recibe el nombre de tendel?",
-    "opciones": [
-      "La junta horizontal de mortero entre hiladas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La junta horizontal de mortero entre hiladas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La junta horizontal de mortero entre hiladas, computándose los plazos en días naturales y con sentido desestimatorio",
-      "La junta horizontal de mortero entre hiladas"
-    ],
-    "correcta": 3,
-    "explicacion": "El tendel es la junta horizontal; la llaga es la junta vertical.",
-    "referencia": "CTE, DB-SE-F"
-  },
-  {
-    "pregunta": "¿Cómo se llama la junta vertical entre piezas de una fábrica?",
-    "opciones": [
-      "Llaga",
-      "Llaga, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Llaga, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Llaga, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "La llaga es la junta vertical entre piezas contiguas de una misma hilada.",
-    "referencia": "CTE, DB-SE-F"
-  },
-  {
     "pregunta": "¿Qué se denomina aparejo en una fábrica de ladrillo?",
     "opciones": [
       "El mortero de agarre",
@@ -60,18 +36,6 @@
     "referencia": "CTE, DB-SE-F, apartado 2.2"
   },
   {
-    "pregunta": "¿Qué tipo de bóveda se genera por traslación de un arco de medio punto?",
-    "opciones": [
-      "Bóveda de cañón, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Bóveda de cañón, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Bóveda de cañón",
-      "Bóveda de cañón, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "La bóveda de cañón resulta de desplazar un arco a lo largo de un eje.",
-    "referencia": "Tema e06"
-  },
-  {
     "pregunta": "¿Qué bóveda resulta del cruce de dos bóvedas de cañón?",
     "opciones": [
       "Bóveda de arista",
@@ -93,18 +57,6 @@
     ],
     "correcta": 0,
     "explicacion": "La bóveda tabicada se ejecuta con ladrillos de plano tomados con yeso.",
-    "referencia": "Tema e06"
-  },
-  {
-    "pregunta": "¿Qué pieza central cierra un arco de dovelas?",
-    "opciones": [
-      "La clave, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La clave",
-      "La clave, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La clave, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "La clave es la dovela central que cierra el arco.",
     "referencia": "Tema e06"
   },
   {
@@ -252,18 +204,6 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Tipos de muros y de piezas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es de 5 N/mm² (apartado 4.1, punto 4).»?",
-    "opciones": [
-      "La resistencia normalizada a compresión mínima de las piezas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La resistencia normalizada a compresión mínima de las piezas.",
-      "La resistencia normalizada a compresión mínima de las piezas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La resistencia normalizada a compresión mínima de las piezas, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Dicha determinación («Es de 5 N/mm² (apartado 4.1, punto 4).») define o regula específicamente a «La resistencia normalizada a compresión mínima de las piezas» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
     "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Arcos y bóvedas), ¿qué establece la normativa respecto a «El cálculo del arco se basa en el de tres articulaciones»?",
     "opciones": [
       "Comprende la recepción de las piezas y del mortero y el control de la ejecución propiamente dicho.",
@@ -273,18 +213,6 @@
     ],
     "correcta": 2,
     "explicacion": "Respecto a «El cálculo del arco se basa en el de tres articulaciones» (Arcos y bóvedas), la regulación vigente establece que: Dos en los extremos y una en una sección intermedia, situadas en el centro de bielas de ancho igual a 0,1 veces el canto del sólido capaz en el que puede inscribirse el arco (apartado 5.4.4, punto 2).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
-    "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Arcos y bóvedas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Dos en los extremos y una en una sección intermedia, situadas en el centro de bielas de ancho igual a 0,1 veces el canto del sólido capaz en el que puede inscribirse el arco (apartado 5.4.4, punto 2).»?",
-    "opciones": [
-      "El cálculo del arco se basa en el de tres articulaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El cálculo del arco se basa en el de tres articulaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El cálculo del arco se basa en el de tres articulaciones, computándose los plazos en días naturales y con sentido desestimatorio",
-      "El cálculo del arco se basa en el de tres articulaciones."
-    ],
-    "correcta": 3,
-    "explicacion": "Dicha determinación («Dos en los extremos y una en una sección intermedia, situadas en el centro de bielas de ancho igual a 0,1 veces el canto del sólido capaz en el que puede inscribirse el arco (apartado 5.4.4, punto 2).») define o regula específicamente a «El cálculo del arco se basa en el de tres articulaciones» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
@@ -300,18 +228,6 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Arcos y bóvedas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El cálculo busca la posición de la línea de presiones y verifica que los apoyos resisten el empuje.»?",
-    "opciones": [
-      "Por eso el DB-SE-F considera el arco como un mecanismo de tres articulaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Por eso el DB-SE-F considera el arco como un mecanismo de tres articulaciones.",
-      "Por eso el DB-SE-F considera el arco como un mecanismo de tres articulaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Por eso el DB-SE-F considera el arco como un mecanismo de tres articulaciones, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Dicha determinación («El cálculo busca la posición de la línea de presiones y verifica que los apoyos resisten el empuje.») define o regula específicamente a «Por eso el DB-SE-F considera el arco como un mecanismo de tres articulaciones» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
     "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Prescripciones técnicas y materiales), ¿qué establece la normativa respecto a «Por eso la humectación controlada»?",
     "opciones": [
       "Si la humedad procede del exterior, el problema está en el cerramiento y en la exigencia HS 1.",
@@ -321,18 +237,6 @@
     ],
     "correcta": 2,
     "explicacion": "Respecto a «Por eso la humectación controlada» (Prescripciones técnicas y materiales), la regulación vigente establece que: Es una regla de ejecución y no un detalle.",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
-    "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Prescripciones técnicas y materiales), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una regla de ejecución y no un detalle.»?",
-    "opciones": [
-      "Por eso la humectación controlada, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Por eso la humectación controlada, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Por eso la humectación controlada, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Por eso la humectación controlada."
-    ],
-    "correcta": 3,
-    "explicacion": "Dicha determinación («Es una regla de ejecución y no un detalle.») define o regula específicamente a «Por eso la humectación controlada» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
@@ -348,15 +252,111 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Control de la ejecución y de la recepción), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Comprende la recepción de las piezas y del mortero y el control de la ejecución propiamente dicho.»?",
+    "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)»?",
     "opciones": [
-      "El control de la ejecución de los muros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El control de la ejecución de los muros.",
-      "El control de la ejecución de los muros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El control de la ejecución de los muros, computándose los plazos en días naturales y con sentido desestimatorio"
+      "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+      "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+      "De telecomunicaciones (referido a la ingeniería de las telecomunicaciones).",
+      "Toda la documentación a que hace referencia los apartados anteriores, que constituirá el Libro del Edificio, será entregada a los usuarios finales del edificio."
     ],
     "correcta": 1,
-    "explicacion": "Dicha determinación («Comprende la recepción de las piezas y del mortero y el control de la ejecución propiamente dicho.») define o regula específicamente a «El control de la ejecución de los muros» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    "explicacion": "Respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+    "referencia": "Art. 7 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.»?",
+    "opciones": [
+      "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+      "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación).",
+      "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+      "Documentación de la obra ejecutada (art. 7 Ley de Ordenación de la Edificación)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.») define o regula específicamente a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Art. 7 de Código Técnico de la Edificación).",
+    "referencia": "Art. 7 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)»?",
+    "opciones": [
+      "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+      "El proyecto es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras contempladas en el artículo 2.",
+      "Son agentes de la edificación todas las personas, físicas o jurídicas, que intervienen en el proceso de la edificación.",
+      "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+    "referencia": "Art. 8 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.»?",
+    "opciones": [
+      "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+      "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+      "Proyecto (art. 4 Ley de Ordenación de la Edificación).",
+      "Concepto (art. 8 Ley de Ordenación de la Edificación)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.») define o regula específicamente a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Art. 8 de Código Técnico de la Edificación).",
+    "referencia": "Art. 8 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Generalidades (art. 9 Código Técnico de la Edificación)»?",
+    "opciones": [
+      "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica.",
+      "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+      "La recepción de la obra es el acto por el cual el constructor, una vez concluida ésta, hace entrega de la misma al promotor y es aceptada por éste.",
+      "El proyectista es el agente que, por encargo del promotor y con sujeción a la normativa técnica y urbanística correspondiente, redacta el proyecto."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Generalidades (art. 9 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+    "referencia": "Art. 9 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.»?",
+    "opciones": [
+      "Objeto (art. 1 Ley de Ordenación de la Edificación).",
+      "Recepción de la obra (art. 6 Ley de Ordenación de la Edificación).",
+      "Generalidades (art. 9 Código Técnico de la Edificación).",
+      "El proyectista (art. 10 Ley de Ordenación de la Edificación)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.») define o regula específicamente a «Generalidades (art. 9 Código Técnico de la Edificación)» (Art. 9 de Código Técnico de la Edificación).",
+    "referencia": "Art. 9 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)»?",
+    "opciones": [
+      "De telecomunicaciones (referido a la ingeniería de las telecomunicaciones).",
+      "Toda la documentación a que hace referencia los apartados anteriores, que constituirá el Libro del Edificio, será entregada a los usuarios finales del edificio.",
+      "Podrán dirigir las obras de los proyectos parciales otros técnicos, bajo la coordinación del director de obra.",
+      "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+    "referencia": "Art. 10 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.»?",
+    "opciones": [
+      "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+      "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación).",
+      "Documentación de la obra ejecutada (art. 7 Ley de Ordenación de la Edificación).",
+      "El director de obra (art. 12 Ley de Ordenación de la Edificación)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.») define o regula específicamente a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Art. 10 de Código Técnico de la Edificación).",
+    "referencia": "Art. 10 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Muros de carga, cerramientos, particiones, arcos y bóvedas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios. 1 de 7» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)»?",
+    "opciones": [
+      "El proyecto es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras contempladas en el artículo 2.",
+      "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+      "Son agentes de la edificación todas las personas, físicas o jurídicas, que intervienen en el proceso de la edificación.",
+      "En caso de personas jurídicas, designar al técnico director de la ejecución de la obra que tenga la titulación profesional habilitante."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+    "referencia": "Art. 15 de Código Técnico de la Edificación"
   }
 ]

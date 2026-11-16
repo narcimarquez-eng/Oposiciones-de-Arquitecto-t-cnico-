@@ -1,113 +1,5 @@
 [
   {
-    "pregunta": "¿Qué sentencia SQL se usa para consultar datos?",
-    "opciones": [
-      "SELECT, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "SELECT, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "SELECT, computándose los plazos en días naturales y con sentido desestimatorio",
-      "SELECT"
-    ],
-    "correcta": 3,
-    "explicacion": "SELECT recupera datos de una o varias tablas.",
-    "referencia": "Tema c23"
-  },
-  {
-    "pregunta": "¿Qué propiedad ACID garantiza que los cambios confirmados persisten aunque falle el sistema?",
-    "opciones": [
-      "Durabilidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Durabilidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Durabilidad, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Durabilidad"
-    ],
-    "correcta": 3,
-    "explicacion": "La durabilidad asegura la persistencia de las transacciones confirmadas.",
-    "referencia": "Tema c23"
-  },
-  {
-    "pregunta": "¿Qué algoritmo de planificación asigna a cada proceso un turno de tiempo fijo?",
-    "opciones": [
-      "Round Robin",
-      "Round Robin, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Round Robin, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Round Robin, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Round Robin reparte el procesador en quantums de tiempo rotatorios.",
-    "referencia": "Tema c23"
-  },
-  {
-    "pregunta": "¿Cómo se llama la situación en que varios procesos se bloquean esperando recursos retenidos entre sí?",
-    "opciones": [
-      "Interbloqueo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Interbloqueo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Interbloqueo",
-      "Interbloqueo, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "El interbloqueo (deadlock) bloquea indefinidamente a los procesos.",
-    "referencia": "Tema c23"
-  },
-  {
-    "pregunta": "¿Cómo se llama el núcleo del sistema operativo?",
-    "opciones": [
-      "Kernel, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Kernel, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Kernel, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Kernel"
-    ],
-    "correcta": 3,
-    "explicacion": "El kernel es el núcleo que gestiona los recursos del sistema.",
-    "referencia": "Tema c23"
-  },
-  {
-    "pregunta": "¿Qué técnica de gestión de memoria la divide en bloques de tamaño fijo?",
-    "opciones": [
-      "La paginación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La paginación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La paginación",
-      "La paginación, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "La paginación divide la memoria en páginas y marcos de tamaño fijo.",
-    "referencia": "Tema c23"
-  },
-  {
-    "pregunta": "¿Qué componente del SGBD describe la estructura de la base de datos?",
-    "opciones": [
-      "El diccionario de datos o catálogo",
-      "El diccionario de datos o catálogo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El diccionario de datos o catálogo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El diccionario de datos o catálogo, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "El diccionario de datos almacena los metadatos que describen la base de datos.",
-    "referencia": "Tema c23"
-  },
-  {
-    "pregunta": "¿Qué lenguaje de SQL define la estructura de las tablas?",
-    "opciones": [
-      "DDL (lenguaje de definición de datos), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "DDL (lenguaje de definición de datos), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "DDL (lenguaje de definición de datos), computándose los plazos en días naturales y con sentido desestimatorio",
-      "DDL (lenguaje de definición de datos)"
-    ],
-    "correcta": 3,
-    "explicacion": "El DDL incluye sentencias como CREATE, ALTER o DROP.",
-    "referencia": "Tema c23"
-  },
-  {
-    "pregunta": "¿Qué sentencia SQL se usa para dar permisos a un usuario?",
-    "opciones": [
-      "GRANT, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "GRANT, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "GRANT, computándose los plazos en días naturales y con sentido desestimatorio",
-      "GRANT"
-    ],
-    "correcta": 3,
-    "explicacion": "GRANT pertenece al lenguaje de control de datos (DCL).",
-    "referencia": "Tema c23"
-  },
-  {
     "pregunta": "¿Qué tipo de sistema de información apoya la toma de decisiones con análisis multidimensional?",
     "opciones": [
       "Los sistemas de nóminas",
@@ -358,5 +250,113 @@
     "correcta": 1,
     "explicacion": "El artículo 82 de Ley del Procedimiento Administrativo Común («Trámite de audiencia») dispone literalmente: Los interesados, en un plazo no inferior a diez días ni superior a quince, podrán alegar y presentar los documentos y justificaciones que estimen pertinentes.",
     "referencia": "Art. 82 de Ley del Procedimiento Administrativo Común"
+  },
+  {
+    "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Seguridad de los sistemas: amenazas y medidas), ¿qué establece la normativa respecto a «Los sistemas están expuestos a amenazas de distinto tipo»?",
+    "opciones": [
+      "Funciones (procesos, memoria, dispositivos, ficheros) y clases (monousuario, multiusuario, batch, tiempo compartido, tiempo real).",
+      "Software malicioso (virus, troyanos, programas de secuestro de datos), ataques de ingeniería social como el phishing, accesos no autorizados y fallos de hardware o de suministro eléctrico.",
+      "Ley 5/2023, arts. 92 a 95, sin detalle técnico verificado.",
+      "Los interesados con capacidad de obrar podrán actuar por medio de representante, entendiéndose con éste las actuaciones administrativas, salvo manifestación expresa en contra del interesado."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Los sistemas están expuestos a amenazas de distinto tipo» (Seguridad de los sistemas: amenazas y medidas), la regulación vigente establece que: Software malicioso (virus, troyanos, programas de secuestro de datos), ataques de ingeniería social como el phishing, accesos no autorizados y fallos de hardware o de suministro eléctrico.",
+    "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+  },
+  {
+    "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Seguridad de los sistemas: amenazas y medidas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Software malicioso (virus, troyanos, programas de secuestro de datos), ataques de ingeniería social como el phishing, accesos no autorizados y fallos de hardware o de suministro eléctrico.»?",
+    "opciones": [
+      "Sistemas operativos.",
+      "Registro de personal.",
+      "Los sistemas están expuestos a amenazas de distinto tipo.",
+      "Representación (art. 5 Ley del Procedimiento Administrativo Común)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («Software malicioso (virus, troyanos, programas de secuestro de datos), ataques de ingeniería social como el phishing, accesos no autorizados y fallos de hardware o de suministro eléctrico.») define o regula específicamente a «Los sistemas están expuestos a amenazas de distinto tipo» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+    "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+  },
+  {
+    "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Documentación técnica y gestión de cambios), ¿qué establece la normativa respecto a «Un sistema debe documentarse para poder mantenerlo»?",
+    "opciones": [
+      "TPS (operativo), MIS (táctico), DSS y EIS (estratégico).",
+      "Se exceptúa el supuesto de los menores incapacitados, cuando la extensión de la incapacitación afecte al ejercicio y defensa de los derechos o intereses de que se trate.",
+      "También deberá constar el bastanteo realizado del poder.",
+      "La documentación de análisis describe qué hace, la técnica describe cómo está construido, y el manual de usuario explica cómo utilizarlo."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Un sistema debe documentarse para poder mantenerlo» (Documentación técnica y gestión de cambios), la regulación vigente establece que: La documentación de análisis describe qué hace, la técnica describe cómo está construido, y el manual de usuario explica cómo utilizarlo.",
+    "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+  },
+  {
+    "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Documentación técnica y gestión de cambios), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La documentación de análisis describe qué hace, la técnica describe cómo está construido, y el manual de usuario explica cómo utilizarlo.»?",
+    "opciones": [
+      "Un sistema debe documentarse para poder mantenerlo.",
+      "Tipología de sistemas de información.",
+      "Capacidad de obrar (art. 3 Ley del Procedimiento Administrativo Común).",
+      "Registros electrónicos de apoderamientos (art. 6 Ley del Procedimiento Administrativo Común)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («La documentación de análisis describe qué hace, la técnica describe cómo está construido, y el manual de usuario explica cómo utilizarlo.») define o regula específicamente a «Un sistema debe documentarse para poder mantenerlo» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+    "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+  },
+  {
+    "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (El registro de personal como sistema de información de la Junta), ¿qué establece la normativa respecto a «El artículo 92 de la ley lo»?",
+    "opciones": [
+      "Amenazas (software malicioso, phishing, accesos no autorizados), medidas en capas y gestión de cambios con reversión.",
+      "Establece con carácter general, el artículo 93 lo concreta para la Administración General de la Junta, y el artículo 95 regula su organización y funcionamiento.",
+      "Las asociaciones y organizaciones representativas de intereses económicos y sociales serán titulares de intereses legítimos colectivos en los términos que la Ley reconozca.",
+      "La lengua de los procedimientos tramitados por la Administración General del Estado será el castellano."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «El artículo 92 de la ley lo» (El registro de personal como sistema de información de la Junta), la regulación vigente establece que: Establece con carácter general, el artículo 93 lo concreta para la Administración General de la Junta, y el artículo 95 regula su organización y funcionamiento.",
+    "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+  },
+  {
+    "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (El registro de personal como sistema de información de la Junta), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Establece con carácter general, el artículo 93 lo concreta para la Administración General de la Junta, y el artículo 95 regula su organización y funcionamiento.»?",
+    "opciones": [
+      "Seguridad y documentación.",
+      "Concepto de interesado (art. 4 Ley del Procedimiento Administrativo Común).",
+      "El artículo 92 de la ley lo.",
+      "Lengua de los procedimientos (art. 15 Ley del Procedimiento Administrativo Común)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («Establece con carácter general, el artículo 93 lo concreta para la Administración General de la Junta, y el artículo 95 regula su organización y funcionamiento.») define o regula específicamente a «El artículo 92 de la ley lo» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+    "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+  },
+  {
+    "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Claves para el examen), ¿qué establece la normativa respecto a «Sistemas operativos»?",
+    "opciones": [
+      "Ley 5/2023, arts. 92 a 95, sin detalle técnico verificado.",
+      "Los interesados con capacidad de obrar podrán actuar por medio de representante, entendiéndose con éste las actuaciones administrativas, salvo manifestación expresa en contra del interesado.",
+      "También se podrán anotar en el mismo, la salida de los documentos oficiales dirigidos a otros órganos o particulares.",
+      "Funciones (procesos, memoria, dispositivos, ficheros) y clases (monousuario, multiusuario, batch, tiempo compartido, tiempo real)."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Sistemas operativos» (Claves para el examen), la regulación vigente establece que: Funciones (procesos, memoria, dispositivos, ficheros) y clases (monousuario, multiusuario, batch, tiempo compartido, tiempo real).",
+    "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+  },
+  {
+    "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Claves para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Funciones (procesos, memoria, dispositivos, ficheros) y clases (monousuario, multiusuario, batch, tiempo compartido, tiempo real).»?",
+    "opciones": [
+      "Sistemas operativos.",
+      "Registro de personal.",
+      "Representación (art. 5 Ley del Procedimiento Administrativo Común).",
+      "Registros (art. 16 Ley del Procedimiento Administrativo Común)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Funciones (procesos, memoria, dispositivos, ficheros) y clases (monousuario, multiusuario, batch, tiempo compartido, tiempo real).») define o regula específicamente a «Sistemas operativos» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+    "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+  },
+  {
+    "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Claves para el examen), ¿qué establece la normativa respecto a «Tipología de sistemas de información»?",
+    "opciones": [
+      "Se exceptúa el supuesto de los menores incapacitados, cuando la extensión de la incapacitación afecte al ejercicio y defensa de los derechos o intereses de que se trate.",
+      "TPS (operativo), MIS (táctico), DSS y EIS (estratégico).",
+      "También deberá constar el bastanteo realizado del poder.",
+      "Los interesados en un procedimiento que conozcan datos que permitan identificar a otros interesados que no hayan comparecido en él tienen el deber de proporcionárselos a la Administración actuante."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Tipología de sistemas de información» (Claves para el examen), la regulación vigente establece que: TPS (operativo), MIS (táctico), DSS y EIS (estratégico).",
+    "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
   }
 ]

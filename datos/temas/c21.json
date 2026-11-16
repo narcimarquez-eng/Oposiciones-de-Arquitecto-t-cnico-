@@ -79,18 +79,6 @@
   ],
   "test": [
     {
-      "pregunta": "Según el art. 134.2 CE, ¿qué carácter tienen los Presupuestos Generales del Estado?",
-      "opciones": [
-        "Anual, con la totalidad de los gastos e ingresos del sector público estatal",
-        "Anual, con la totalidad de los gastos e ingresos del sector público estatal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Anual, con la totalidad de los gastos e ingresos del sector público estatal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Anual, con la totalidad de los gastos e ingresos del sector público estatal, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los Presupuestos Generales del Estado tienen carácter anual e incluyen la totalidad de los gastos e ingresos del sector público estatal.",
-      "referencia": "Art. 134.2 CE"
-    },
-    {
       "pregunta": "Según el art. 190.1 EA, ¿quién elabora y ejecuta el presupuesto de la Comunidad Autónoma?",
       "opciones": [
         "Cada consejería por separado",
@@ -115,42 +103,6 @@
       "referencia": "Art. 9.1.d LGHPA"
     },
     {
-      "pregunta": "Según el art. 32 LGHPA, ¿con qué período coincide el ejercicio presupuestario?",
-      "opciones": [
-        "Con el año natural, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Con el año natural",
-        "Con el año natural, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Con el año natural, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El ejercicio presupuestario coincide con el año natural.",
-      "referencia": "Art. 32 LGHPA"
-    },
-    {
-      "pregunta": "Según el art. 34.2 LGHPA, ¿qué clasificaciones aplica el estado de gastos?",
-      "opciones": [
-        "Orgánica, funcional por programas y económica",
-        "Orgánica, funcional por programas y económica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Orgánica, funcional por programas y económica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Orgánica, funcional por programas y económica, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El estado de gastos aplica la clasificación orgánica, la funcional por programas y la económica; los gastos de inversión se clasifican además territorialmente.",
-      "referencia": "Art. 34.2 LGHPA"
-    },
-    {
-      "pregunta": "Según el art. 39.2 LGHPA, ¿qué naturaleza tienen los créditos autorizados en los estados de gastos?",
-      "opciones": [
-        "Limitativa y vinculante, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Limitativa y vinculante, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Limitativa y vinculante",
-        "Limitativa y vinculante, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los créditos tienen carácter limitativo y vinculante; no pueden adquirirse compromisos de gasto por cuantía superior a su importe.",
-      "referencia": "Art. 39.2 LGHPA"
-    },
-    {
       "pregunta": "Según el art. 11.2.a LGHPA, ¿mediante qué instrumento se conceden los créditos extraordinarios y los suplementos de crédito?",
       "opciones": [
         "Por acuerdo de la Intervención General",
@@ -161,18 +113,6 @@
       "correcta": 3,
       "explicacion": "La concesión de créditos extraordinarios y de suplementos de crédito se regula por ley del Parlamento de Andalucía.",
       "referencia": "Art. 11.2.a LGHPA"
-    },
-    {
-      "pregunta": "Según el art. 52 bis.1 LGHPA, ¿cuál NO es una fase de la ejecución del presupuesto de gastos?",
-      "opciones": [
-        "Liquidación de la deuda pública del ejercicio anterior, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Liquidación de la deuda pública del ejercicio anterior",
-        "Liquidación de la deuda pública del ejercicio anterior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Liquidación de la deuda pública del ejercicio anterior, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las fases son la aprobación de la realización del gasto, la disposición, el reconocimiento de la obligación y la ordenación del pago con el pago material.",
-      "referencia": "Art. 52 bis.1 LGHPA"
     },
     {
       "pregunta": "Según el art. 56.2 LGHPA, ¿en qué plazo debe justificarse la aplicación de un pago a justificar?",
@@ -199,30 +139,6 @@
       "referencia": "Art. 93.1 LGHPA"
     },
     {
-      "pregunta": "¿Con qué carácter se aprueban los Presupuestos Generales del Estado?",
-      "opciones": [
-        "Anuales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Anuales",
-        "Anuales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Anuales, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los Presupuestos Generales del Estado son anuales.",
-      "referencia": "Art. 134.2 CE"
-    },
-    {
-      "pregunta": "¿Quién elabora y ejecuta el presupuesto de la Junta de Andalucía?",
-      "opciones": [
-        "El Consejo de Gobierno",
-        "El Consejo de Gobierno, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El Consejo de Gobierno, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El Consejo de Gobierno, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El Consejo de Gobierno elabora y ejecuta el presupuesto de la Junta.",
-      "referencia": "Art. 190.1 EA Andalucía"
-    },
-    {
       "pregunta": "¿Quién examina, enmienda, aprueba y controla el presupuesto andaluz?",
       "opciones": [
         "El Consejo de Gobierno",
@@ -233,18 +149,6 @@
       "correcta": 1,
       "explicacion": "El Parlamento examina, enmienda, aprueba y controla el presupuesto.",
       "referencia": "Art. 190.1 EA Andalucía"
-    },
-    {
-      "pregunta": "¿Pueden aprobarse los presupuestos andaluces por decreto-ley?",
-      "opciones": [
-        "No, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "No, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "No, computándose los plazos en días naturales y con sentido desestimatorio",
-        "No"
-      ],
-      "correcta": 3,
-      "explicacion": "Los presupuestos no pueden aprobarse por decreto-ley.",
-      "referencia": "Art. 110.1 EA Andalucía"
     },
     {
       "pregunta": "¿Qué es el presupuesto según la LGHPA?",
@@ -271,30 +175,6 @@
       "referencia": "Art. 33 LGHPA"
     },
     {
-      "pregunta": "¿Qué coincide con el ejercicio presupuestario?",
-      "opciones": [
-        "El año natural, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El año natural, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El año natural",
-        "El año natural, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El ejercicio presupuestario coincide con el año natural.",
-      "referencia": "Art. 32 LGHPA"
-    },
-    {
-      "pregunta": "¿Qué tipo de créditos son los presupuestarios?",
-      "opciones": [
-        "Limitativos y vinculantes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Limitativos y vinculantes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Limitativos y vinculantes, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Limitativos y vinculantes"
-      ],
-      "correcta": 3,
-      "explicacion": "Los créditos son limitativos y vinculantes: no pueden comprometerse por encima de su importe.",
-      "referencia": "Art. 39.2 LGHPA"
-    },
-    {
       "pregunta": "¿Qué sucede si el presupuesto no se aprueba antes del primer día del ejercicio?",
       "opciones": [
         "Se prorroga automáticamente el del año anterior",
@@ -319,30 +199,6 @@
       "referencia": "Arts. 11.2 a) y 43 LGHPA"
     },
     {
-      "pregunta": "¿Qué órgano autoriza las transferencias de crédito superiores a 3.000.000 de euros?",
-      "opciones": [
-        "El Consejo de Gobierno, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El Consejo de Gobierno, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El Consejo de Gobierno",
-        "El Consejo de Gobierno, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El Consejo de Gobierno autoriza las transferencias superiores a 3.000.000 de euros.",
-      "referencia": "Art. 48 LGHPA"
-    },
-    {
-      "pregunta": "¿Cuántas fases tiene la ejecución del gasto público?",
-      "opciones": [
-        "Cuatro, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cuatro, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cuatro, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Cuatro"
-      ],
-      "correcta": 3,
-      "explicacion": "La ejecución tiene cuatro fases: aprobación de la realización, disposición, reconocimiento de la obligación y ordenación del pago con pago material.",
-      "referencia": "Art. 52 bis.1 LGHPA"
-    },
-    {
       "pregunta": "¿En qué plazo deben justificarse los pagos a justificar?",
       "opciones": [
         "Tres meses",
@@ -353,30 +209,6 @@
       "correcta": 0,
       "explicacion": "Los pagos a justificar tienen un plazo de tres meses para justificarse.",
       "referencia": "Art. 56.2 LGHPA"
-    },
-    {
-      "pregunta": "¿Cuándo se cierra el presupuesto anual?",
-      "opciones": [
-        "El 31 de diciembre, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El 31 de diciembre",
-        "El 31 de diciembre, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El 31 de diciembre, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El presupuesto se cierra el 31 de diciembre.",
-      "referencia": "Art. 57 LGHPA"
-    },
-    {
-      "pregunta": "¿Qué modalidades tiene el control interno del gasto?",
-      "opciones": [
-        "Previo y financiero posterior, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Previo y financiero posterior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Previo y financiero posterior",
-        "Previo y financiero posterior, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El control interno tiene modalidad previa (fiscalización) y financiera posterior.",
-      "referencia": "Arts. 88 y 89 LGHPA"
     },
     {
       "pregunta": "¿Cuál es el superior órgano de control interno de la Junta?",
@@ -391,18 +223,6 @@
       "referencia": "Art. 86 LGHPA"
     },
     {
-      "pregunta": "¿Qué principio presupuestario exige que todas las operaciones se intervengan?",
-      "opciones": [
-        "La intervención de todas las operaciones",
-        "La intervención de todas las operaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La intervención de todas las operaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La intervención de todas las operaciones, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Entre los principios figura la intervención de todas las operaciones.",
-      "referencia": "Art. 9.1 LGHPA"
-    },
-    {
       "pregunta": "¿Cuándo se presenta el proyecto de presupuesto al Parlamento?",
       "opciones": [
         "Al menos un mes contado a partir del día siguiente a la notificación antes de la expiración del vigente",
@@ -415,30 +235,6 @@
       "referencia": "Art. 36 LGHPA; art. 190.4 EA"
     },
     {
-      "pregunta": "¿Qué tipo de gasto puede comprometerse en un ejercicio?",
-      "opciones": [
-        "Solo los gastos del año, con excepciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Solo los gastos del año, con excepciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Solo los gastos del año, con excepciones",
-        "Solo los gastos del año, con excepciones, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Solo pueden contraerse obligaciones de gasto del año, con las excepciones legales.",
-      "referencia": "Art. 42 LGHPA"
-    },
-    {
-      "pregunta": "¿Cómo se clasifican los gastos presupuestarios?",
-      "opciones": [
-        "Por órgano, por función y programa, y económicamente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Por órgano, por función y programa, y económicamente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Por órgano, por función y programa, y económicamente, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Por órgano, por función y programa, y económicamente"
-      ],
-      "correcta": 3,
-      "explicacion": "Los gastos se clasifican por órgano, función y programa, y económicamente.",
-      "referencia": "Art. 34.2 LGHPA"
-    },
-    {
       "pregunta": "¿Qué regulan los gastos plurianuales?",
       "opciones": [
         "Gastos que no pueden superar un día",
@@ -449,30 +245,6 @@
       "correcta": 2,
       "explicacion": "Los gastos plurianuales se autorizan a cargo de dos o más ejercicios.",
       "referencia": "Art. 40 LGHPA"
-    },
-    {
-      "pregunta": "¿Qué tipo de transferencia redistribuye créditos entre partidas?",
-      "opciones": [
-        "La transferencia de crédito",
-        "La transferencia de crédito, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La transferencia de crédito, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La transferencia de crédito, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Las transferencias redistribuyen créditos entre partidas.",
-      "referencia": "Art. 45 LGHPA"
-    },
-    {
-      "pregunta": "¿Qué instrumento incrementa los créditos con ingresos nuevos?",
-      "opciones": [
-        "La generación de crédito, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La generación de crédito",
-        "La generación de crédito, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La generación de crédito, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las generaciones de crédito incrementan los créditos con ingresos nuevos.",
-      "referencia": "Art. 46 LGHPA"
     },
     {
       "pregunta": "¿Qué cualidades deben tener los presupuestos según los principios de la LGHPA?",
@@ -499,42 +271,6 @@
       "referencia": "LGHPA"
     },
     {
-      "pregunta": "¿Qué norma regula el régimen presupuestario general del Estado?",
-      "opciones": [
-        "Ley 47/2003, General Presupuestaria, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Ley 47/2003, General Presupuestaria, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Ley 47/2003, General Presupuestaria, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Ley 47/2003, General Presupuestaria"
-      ],
-      "correcta": 3,
-      "explicacion": "La Ley 47/2003, General Presupuestaria, regula el régimen presupuestario del sector público estatal.",
-      "referencia": "Ley 47/2003 (LGP)"
-    },
-    {
-      "pregunta": "¿Qué principio presupuestario exige que el presupuesto se elabore para un año?",
-      "opciones": [
-        "Anualidad",
-        "Anualidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Anualidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Anualidad, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El principio de anualidad exige que el presupuesto se elabore y ejecute para un ejercicio.",
-      "referencia": "Ley 47/2003 (LGP)"
-    },
-    {
-      "pregunta": "¿Qué dos partes integran el presupuesto?",
-      "opciones": [
-        "Estado de gastos y estado de ingresos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Estado de gastos y estado de ingresos",
-        "Estado de gastos y estado de ingresos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Estado de gastos y estado de ingresos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El presupuesto contiene el estado de gastos y el estado de ingresos.",
-      "referencia": "Ley 47/2003 (LGP)"
-    },
-    {
       "pregunta": "¿Qué norma regula la estabilidad presupuestaria?",
       "opciones": [
         "Ley Orgánica 3/2007",
@@ -545,18 +281,6 @@
       "correcta": 2,
       "explicacion": "La LO 2/2012 de Estabilidad Presupuestaria y Sostenibilidad Financiera regula esa materia.",
       "referencia": "LO 2/2012"
-    },
-    {
-      "pregunta": "¿Qué principio presupuestario impide destinar un crédito a fin distinto del previsto?",
-      "opciones": [
-        "Especialidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Especialidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Especialidad, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Especialidad"
-      ],
-      "correcta": 3,
-      "explicacion": "El principio de especialidad exige que cada crédito se destine a la finalidad prevista.",
-      "referencia": "Ley 47/2003 (LGP)"
     },
     {
       "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Marco constitucional y estatutario), ¿qué establece la normativa respecto a «Los presupuestos generales del Estado»?",
@@ -616,18 +340,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Los créditos tienen carácter limitativo y vinculante» (Vinculación y especialidad), la regulación vigente establece que: No pueden comprometerse por encima de su importe (art. 39.2 LGHPA).",
-      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
-    },
-    {
-      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Vinculación y especialidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «No pueden comprometerse por encima de su importe (art. 39.2 LGHPA).»?",
-      "opciones": [
-        "Los créditos tienen carácter limitativo y vinculante, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los créditos tienen carácter limitativo y vinculante.",
-        "Los créditos tienen carácter limitativo y vinculante, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los créditos tienen carácter limitativo y vinculante, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («No pueden comprometerse por encima de su importe (art. 39.2 LGHPA).») define o regula específicamente a «Los créditos tienen carácter limitativo y vinculante» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
       "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
     },
     {
@@ -703,18 +415,6 @@
       "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
     },
     {
-      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Control), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es posterior y puede ser permanente (arts. 93 y 94 LGHPA).»?",
-      "opciones": [
-        "El control financiero, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El control financiero.",
-        "El control financiero, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El control financiero, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es posterior y puede ser permanente (arts. 93 y 94 LGHPA).») define o regula específicamente a «El control financiero» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
-      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
-    },
-    {
       "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (El marco constitucional y estatutario del presupuesto), ¿qué establece la normativa respecto a «El artículo 134 de la Constitución regula los Presupuestos Generales del Estado»?",
       "opciones": [
         "Es un programa, sino un documento de autorización del gasto y de previsión de ingresos.",
@@ -775,18 +475,6 @@
       "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
     },
     {
-      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Concepto de presupuesto), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Expresión cifrada, conjunta y sistemática.»?",
-      "opciones": [
-        "Para un examen, las palabras clave son tres, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Para un examen, las palabras clave son tres, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Para un examen, las palabras clave son tres, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Para un examen, las palabras clave son tres."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Expresión cifrada, conjunta y sistemática.») define o regula específicamente a «Para un examen, las palabras clave son tres» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
-      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
-    },
-    {
       "pregunta": "Dentro del estudio de «Concepto, contenido y principios» (El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Es la expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, pueden reconocerse, y de los derechos que se prevé liquidar (art. 31 LGHPA).»?",
       "opciones": [
         "La ejecución del gasto tiene cuatro fases.",
@@ -796,6 +484,318 @@
       ],
       "correcta": 3,
       "explicacion": "Dicha regulación («Es la expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, pueden reconocerse, y de los derechos que se prevé liquidar (art. 31 LGHPA).») define o regula específicamente a «El presupuesto» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Vinculación y especialidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «No pueden comprometerse por encima de su importe (art. 39.2 LGHPA).»?",
+      "opciones": [
+        "La Intervención General de la Junta.",
+        "Los créditos tienen carácter limitativo y vinculante.",
+        "Respuesta.",
+        "Por eso las obligaciones son un máximo."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («No pueden comprometerse por encima de su importe (art. 39.2 LGHPA).») define o regula específicamente a «Los créditos tienen carácter limitativo y vinculante» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Control), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es posterior y puede ser permanente (arts. 93 y 94 LGHPA).»?",
+      "opciones": [
+        "Para un examen, las palabras clave son tres.",
+        "El control financiero.",
+        "El artículo 33.2 LGHPA concreta su contenido.",
+        "La consecuencia."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es posterior y puede ser permanente (arts. 93 y 94 LGHPA).») define o regula específicamente a «El control financiero» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Concepto de presupuesto), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Expresión cifrada, conjunta y sistemática.»?",
+      "opciones": [
+        "El artículo 33.2 LGHPA concreta su contenido.",
+        "La consecuencia.",
+        "El artículo 42 LGHPA regula la temporalidad.",
+        "Para un examen, las palabras clave son tres."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Expresión cifrada, conjunta y sistemática.») define o regula específicamente a «Para un examen, las palabras clave son tres» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Concepto de presupuesto), ¿qué establece la normativa respecto a «El presupuesto no»?",
+      "opciones": [
+        "Es un programa, sino un documento de autorización del gasto y de previsión de ingresos.",
+        "El ejercicio coincide con el año natural.",
+        "Los créditos para gastos se destinan exclusivamente a la finalidad para la que fueron autorizados por la ley del presupuesto o por las modificaciones aprobadas.",
+        "Comprende las fases de elaboración, aprobación, ejecución, modificación, cierre, control y rendición de cuentas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El presupuesto no» (Concepto de presupuesto), la regulación vigente establece que: Es un programa, sino un documento de autorización del gasto y de previsión de ingresos.",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Concepto de presupuesto), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un programa, sino un documento de autorización del gasto y de previsión de ingresos.»?",
+      "opciones": [
+        "Para un examen, el principio de anualidad se relaciona con el artículo 32 LGHPA.",
+        "El presupuesto no.",
+        "El artículo 39.1 LGHPA establece el principio de especialidad.",
+        "El ciclo presupuestario."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es un programa, sino un documento de autorización del gasto y de previsión de ingresos.») define o regula específicamente a «El presupuesto no» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Concepto de presupuesto), ¿qué establece la normativa respecto a «Por eso las obligaciones son un máximo»?",
+      "opciones": [
+        "Dispone que el ejercicio presupuestario coincide con el año natural.",
+        "Los créditos vinculan a nivel de sección presupuestaria y servicio, por programas y económica a nivel de artículo.",
+        "El Consejo de Gobierno y la consejería de Hacienda elaboran.",
+        "No pueden reconocerse por encima de lo autorizado."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Por eso las obligaciones son un máximo» (Concepto de presupuesto), la regulación vigente establece que: No pueden reconocerse por encima de lo autorizado.",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Concepto de presupuesto), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «No pueden reconocerse por encima de lo autorizado.»?",
+      "opciones": [
+        "Por eso las obligaciones son un máximo.",
+        "El artículo 32 LGHPA.",
+        "El artículo 39.3 LGHPA establece la vinculación ordinaria.",
+        "Cada fase tiene su órgano y su norma."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («No pueden reconocerse por encima de lo autorizado.») define o regula específicamente a «Por eso las obligaciones son un máximo» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Contenido y unidad del presupuesto), ¿qué establece la normativa respecto a «El artículo 33.2 LGHPA concreta su contenido»?",
+      "opciones": [
+        "Es que lo no reconocido antes del cierre del ejercicio, en principio, pierde la cobertura del presupuesto.",
+        "Los estados de gastos de la Junta y de sus agencias administrativas y de régimen especial, con los créditos necesarios para atender las obligaciones (letra a).",
+        "Los créditos son del año natural, con excepciones como las obligaciones derivadas de atrasos a favor del personal (art. 42.2.a).",
+        "Mientras se ejecuta un presupuesto se prepara el siguiente, y el control de un ejercicio puede coincidir con la ejecución del siguiente."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El artículo 33.2 LGHPA concreta su contenido» (Contenido y unidad del presupuesto), la regulación vigente establece que: Los estados de gastos de la Junta y de sus agencias administrativas y de régimen especial, con los créditos necesarios para atender las obligaciones (letra a).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Contenido y unidad del presupuesto), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Los estados de gastos de la Junta y de sus agencias administrativas y de régimen especial, con los créditos necesarios para atender las obligaciones (letra a).»?",
+      "opciones": [
+        "La consecuencia.",
+        "El artículo 42 LGHPA regula la temporalidad.",
+        "El artículo 33.2 LGHPA concreta su contenido.",
+        "El ciclo es anual, pero se solapa."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Los estados de gastos de la Junta y de sus agencias administrativas y de régimen especial, con los créditos necesarios para atender las obligaciones (letra a).») define o regula específicamente a «El artículo 33.2 LGHPA concreta su contenido» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Principios presupuestarios), ¿qué establece la normativa respecto a «Para un examen, el principio de anualidad se relaciona con el artículo 32 LGHPA»?",
+      "opciones": [
+        "Los créditos para gastos se destinan exclusivamente a la finalidad para la que fueron autorizados por la ley del presupuesto o por las modificaciones aprobadas.",
+        "Comprende las fases de elaboración, aprobación, ejecución, modificación, cierre, control y rendición de cuentas.",
+        "Establece que el proyecto de ley del presupuesto, con el texto articulado y los estados de ingresos y gastos, se remite al Parlamento al menos dos meses antes de la expiración del presupuesto corriente.",
+        "El ejercicio coincide con el año natural."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Para un examen, el principio de anualidad se relaciona con el artículo 32 LGHPA» (Principios presupuestarios), la regulación vigente establece que: El ejercicio coincide con el año natural.",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Principios presupuestarios), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El ejercicio coincide con el año natural.»?",
+      "opciones": [
+        "Para un examen, el principio de anualidad se relaciona con el artículo 32 LGHPA.",
+        "El artículo 39.1 LGHPA establece el principio de especialidad.",
+        "El ciclo presupuestario.",
+        "El artículo 36 LGHPA."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («El ejercicio coincide con el año natural.») define o regula específicamente a «Para un examen, el principio de anualidad se relaciona con el artículo 32 LGHPA» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Ámbito temporal del presupuesto), ¿qué establece la normativa respecto a «El artículo 32 LGHPA»?",
+      "opciones": [
+        "Los créditos vinculan a nivel de sección presupuestaria y servicio, por programas y económica a nivel de artículo.",
+        "Dispone que el ejercicio presupuestario coincide con el año natural.",
+        "El Consejo de Gobierno y la consejería de Hacienda elaboran.",
+        "El artículo 109.2.b EA excluye de la delegación legislativa las leyes del presupuesto, y el artículo 110.1 EA prohíbe aprobar los presupuestos por decreto-ley."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El artículo 32 LGHPA» (Ámbito temporal del presupuesto), la regulación vigente establece que: Dispone que el ejercicio presupuestario coincide con el año natural.",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Ámbito temporal del presupuesto), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Dispone que el ejercicio presupuestario coincide con el año natural.»?",
+      "opciones": [
+        "El artículo 39.3 LGHPA establece la vinculación ordinaria.",
+        "Cada fase tiene su órgano y su norma.",
+        "El artículo 32 LGHPA.",
+        "Para un examen, la reserva de la ley del presupuesto es relevante."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Dispone que el ejercicio presupuestario coincide con el año natural.») define o regula específicamente a «El artículo 32 LGHPA» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Ámbito temporal del presupuesto), ¿qué establece la normativa respecto a «La consecuencia»?",
+      "opciones": [
+        "Los créditos son del año natural, con excepciones como las obligaciones derivadas de atrasos a favor del personal (art. 42.2.a).",
+        "Mientras se ejecuta un presupuesto se prepara el siguiente, y el control de un ejercicio puede coincidir con la ejecución del siguiente.",
+        "No requiere acuerdo, pero no alcanza a todas las operaciones.",
+        "Es que lo no reconocido antes del cierre del ejercicio, en principio, pierde la cobertura del presupuesto."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «La consecuencia» (Ámbito temporal del presupuesto), la regulación vigente establece que: Es que lo no reconocido antes del cierre del ejercicio, en principio, pierde la cobertura del presupuesto.",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Ámbito temporal del presupuesto), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es que lo no reconocido antes del cierre del ejercicio, en principio, pierde la cobertura del presupuesto.»?",
+      "opciones": [
+        "La consecuencia.",
+        "El artículo 42 LGHPA regula la temporalidad.",
+        "El ciclo es anual, pero se solapa.",
+        "Para un examen, la prórroga es automática."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es que lo no reconocido antes del cierre del ejercicio, en principio, pierde la cobertura del presupuesto.») define o regula específicamente a «La consecuencia» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Vinculación y especialidad de los créditos), ¿qué establece la normativa respecto a «El artículo 39.1 LGHPA establece el principio de especialidad»?",
+      "opciones": [
+        "Comprende las fases de elaboración, aprobación, ejecución, modificación, cierre, control y rendición de cuentas.",
+        "Los créditos para gastos se destinan exclusivamente a la finalidad para la que fueron autorizados por la ley del presupuesto o por las modificaciones aprobadas.",
+        "Establece que el proyecto de ley del presupuesto, con el texto articulado y los estados de ingresos y gastos, se remite al Parlamento al menos dos meses antes de la expiración del presupuesto corriente.",
+        "Regula los créditos extraordinarios y los suplementos de crédito."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El artículo 39.1 LGHPA establece el principio de especialidad» (Vinculación y especialidad de los créditos), la regulación vigente establece que: Los créditos para gastos se destinan exclusivamente a la finalidad para la que fueron autorizados por la ley del presupuesto o por las modificaciones aprobadas.",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Vinculación y especialidad de los créditos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Los créditos para gastos se destinan exclusivamente a la finalidad para la que fueron autorizados por la ley del presupuesto o por las modificaciones aprobadas.»?",
+      "opciones": [
+        "El ciclo presupuestario.",
+        "El artículo 36 LGHPA.",
+        "El artículo 39.1 LGHPA establece el principio de especialidad.",
+        "El artículo 43 LGHPA."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Los créditos para gastos se destinan exclusivamente a la finalidad para la que fueron autorizados por la ley del presupuesto o por las modificaciones aprobadas.») define o regula específicamente a «El artículo 39.1 LGHPA establece el principio de especialidad» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Vinculación y especialidad de los créditos), ¿qué establece la normativa respecto a «El artículo 39.3 LGHPA establece la vinculación ordinaria»?",
+      "opciones": [
+        "El Consejo de Gobierno y la consejería de Hacienda elaboran.",
+        "El artículo 109.2.b EA excluye de la delegación legislativa las leyes del presupuesto, y el artículo 110.1 EA prohíbe aprobar los presupuestos por decreto-ley.",
+        "Es insuficiente y no ampliable, la consejería de Hacienda eleva al Consejo de Gobierno la remisión de un proyecto de ley al Parlamento.",
+        "Los créditos vinculan a nivel de sección presupuestaria y servicio, por programas y económica a nivel de artículo."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El artículo 39.3 LGHPA establece la vinculación ordinaria» (Vinculación y especialidad de los créditos), la regulación vigente establece que: Los créditos vinculan a nivel de sección presupuestaria y servicio, por programas y económica a nivel de artículo.",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Vinculación y especialidad de los créditos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Los créditos vinculan a nivel de sección presupuestaria y servicio, por programas y económica a nivel de artículo.»?",
+      "opciones": [
+        "El artículo 39.3 LGHPA establece la vinculación ordinaria.",
+        "Cada fase tiene su órgano y su norma.",
+        "Para un examen, la reserva de la ley del presupuesto es relevante.",
+        "Cuando un gasto no puede demorarse al ejercicio siguiente y no existe crédito o."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Los créditos vinculan a nivel de sección presupuestaria y servicio, por programas y económica a nivel de artículo.») define o regula específicamente a «El artículo 39.3 LGHPA establece la vinculación ordinaria» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Gastos plurianuales y temporalidad), ¿qué establece la normativa respecto a «El artículo 42 LGHPA regula la temporalidad»?",
+      "opciones": [
+        "Mientras se ejecuta un presupuesto se prepara el siguiente, y el control de un ejercicio puede coincidir con la ejecución del siguiente.",
+        "Los créditos son del año natural, con excepciones como las obligaciones derivadas de atrasos a favor del personal (art. 42.2.a).",
+        "No requiere acuerdo, pero no alcanza a todas las operaciones.",
+        "No afectan a los créditos extraordinarios ni a los incrementados con suplementos, y no minoran créditos ya incrementados por transferencias (art. 45.2 LGHPA)."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El artículo 42 LGHPA regula la temporalidad» (Gastos plurianuales y temporalidad), la regulación vigente establece que: Los créditos son del año natural, con excepciones como las obligaciones derivadas de atrasos a favor del personal (art. 42.2.a).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (Gastos plurianuales y temporalidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Los créditos son del año natural, con excepciones como las obligaciones derivadas de atrasos a favor del personal (art. 42.2.a).»?",
+      "opciones": [
+        "El ciclo es anual, pero se solapa.",
+        "Para un examen, la prórroga es automática.",
+        "El artículo 42 LGHPA regula la temporalidad.",
+        "Están sujetas a limitaciones."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Los créditos son del año natural, con excepciones como las obligaciones derivadas de atrasos a favor del personal (art. 42.2.a).») define o regula específicamente a «El artículo 42 LGHPA regula la temporalidad» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (El ciclo presupuestario), ¿qué establece la normativa respecto a «El ciclo presupuestario»?",
+      "opciones": [
+        "Establece que el proyecto de ley del presupuesto, con el texto articulado y los estados de ingresos y gastos, se remite al Parlamento al menos dos meses antes de la expiración del presupuesto corriente.",
+        "Regula los créditos extraordinarios y los suplementos de crédito.",
+        "La transferencia redistribuye créditos existentes.",
+        "Comprende las fases de elaboración, aprobación, ejecución, modificación, cierre, control y rendición de cuentas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El ciclo presupuestario» (El ciclo presupuestario), la regulación vigente establece que: Comprende las fases de elaboración, aprobación, ejecución, modificación, cierre, control y rendición de cuentas.",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (El ciclo presupuestario), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Comprende las fases de elaboración, aprobación, ejecución, modificación, cierre, control y rendición de cuentas.»?",
+      "opciones": [
+        "El ciclo presupuestario.",
+        "El artículo 36 LGHPA.",
+        "El artículo 43 LGHPA.",
+        "Para un examen, la diferencia es el origen."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Comprende las fases de elaboración, aprobación, ejecución, modificación, cierre, control y rendición de cuentas.») define o regula específicamente a «El ciclo presupuestario» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (El ciclo presupuestario), ¿qué establece la normativa respecto a «Cada fase tiene su órgano y su norma»?",
+      "opciones": [
+        "El artículo 109.2.b EA excluye de la delegación legislativa las leyes del presupuesto, y el artículo 110.1 EA prohíbe aprobar los presupuestos por decreto-ley.",
+        "El Consejo de Gobierno y la consejería de Hacienda elaboran.",
+        "Es insuficiente y no ampliable, la consejería de Hacienda eleva al Consejo de Gobierno la remisión de un proyecto de ley al Parlamento.",
+        "Lo pequeño lo autoriza la consejería."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Cada fase tiene su órgano y su norma» (El ciclo presupuestario), la regulación vigente establece que: El Consejo de Gobierno y la consejería de Hacienda elaboran.",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (El ciclo presupuestario), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El Consejo de Gobierno y la consejería de Hacienda elaboran.»?",
+      "opciones": [
+        "Para un examen, la reserva de la ley del presupuesto es relevante.",
+        "Cuando un gasto no puede demorarse al ejercicio siguiente y no existe crédito o.",
+        "Cada fase tiene su órgano y su norma.",
+        "Para un examen, la regla es escalonada."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («El Consejo de Gobierno y la consejería de Hacienda elaboran.») define o regula específicamente a «Cada fase tiene su órgano y su norma» (Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)).",
+      "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
+    },
+    {
+      "pregunta": "En el ámbito de «El presupuesto de la Comunidad Autónoma de Andalucía. Concepto y estructura. Los criterios de clasificación de los créditos presupuestarios. El ciclo presupuestario. El procedimiento general de ejecución del gasto público. El control de la actividad financiera de la Comunidad Autónoma de Andalucía: Tipos de control.» (El ciclo presupuestario), ¿qué establece la normativa respecto a «El ciclo es anual, pero se solapa»?",
+      "opciones": [
+        "No requiere acuerdo, pero no alcanza a todas las operaciones.",
+        "No afectan a los créditos extraordinarios ni a los incrementados con suplementos, y no minoran créditos ya incrementados por transferencias (art. 45.2 LGHPA).",
+        "Requiere autorización del Consejo de Gobierno, debe obtenerse antes de adoptarlo (art. 52.1 LGHPA).",
+        "Mientras se ejecuta un presupuesto se prepara el siguiente, y el control de un ejercicio puede coincidir con la ejecución del siguiente."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El ciclo es anual, pero se solapa» (El ciclo presupuestario), la regulación vigente establece que: Mientras se ejecuta un presupuesto se prepara el siguiente, y el control de un ejercicio puede coincidir con la ejecución del siguiente.",
       "referencia": "Decreto Legislativo 1/2010, de 2 de marzo, por el que se aprueba el texto refundido de la Ley General de la Hacienda Pública de la Junta de Andalucía (BOE núm. 79, de 1 de abril de 2010)"
     }
   ]

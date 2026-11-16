@@ -1,113 +1,5 @@
 [
   {
-    "pregunta": "¿Cuántos peldaños como mínimo debe tener cada tramo de escalera?",
-    "opciones": [
-      "Tres, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Tres",
-      "Tres, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Tres, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Cada tramo tendrá 3 peldaños como mínimo, salvo excepciones.",
-    "referencia": "CTE, DB-SUA 1, apartado 4.2.2"
-  },
-  {
-    "pregunta": "¿Qué altura máxima puede salvar un tramo de escalera en zonas de uso público?",
-    "opciones": [
-      "2,25 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "2,25 m",
-      "2,25 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "2,25 m, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "La máxima altura que puede salvar un tramo es 2,25 m en zonas de uso público.",
-    "referencia": "CTE, DB-SUA 1, apartado 4.2.2"
-  },
-  {
-    "pregunta": "¿Qué pendiente máxima tienen con carácter general las rampas?",
-    "opciones": [
-      "El 12 %",
-      "El 12 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El 12 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El 12 %, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Las rampas tendrán una pendiente del 12 % como máximo, salvo las de itinerarios accesibles y otras excepciones.",
-    "referencia": "CTE, DB-SUA 1, apartado 4.3.1"
-  },
-  {
-    "pregunta": "¿Cuántas plazas accesibles deben reservarse en aparcamientos de uso público, comercial o de pública concurrencia?",
-    "opciones": [
-      "Una por cada 33 plazas o fracción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Una por cada 33 plazas o fracción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Una por cada 33 plazas o fracción, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Una por cada 33 plazas o fracción"
-    ],
-    "correcta": 3,
-    "explicacion": "Se exige una plaza accesible por cada 33 plazas de aparcamiento o fracción.",
-    "referencia": "CTE, DB-SUA 9, apartado 1.2.3"
-  },
-  {
-    "pregunta": "¿Cuántas plazas accesibles se exigen en otros usos distintos de los anteriores?",
-    "opciones": [
-      "Una por cada 50 plazas o fracción",
-      "Una por cada 50 plazas o fracción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Una por cada 50 plazas o fracción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Una por cada 50 plazas o fracción, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "En cualquier otro uso, una plaza accesible por cada 50 plazas o fracción.",
-    "referencia": "CTE, DB-SUA 9, apartado 1.2.3"
-  },
-  {
-    "pregunta": "¿Qué pendiente máxima puede tener una rampa de un itinerario accesible con proyección horizontal inferior a 3 m según el Decreto 293/2009?",
-    "opciones": [
-      "10 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "10 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "10 %",
-      "10 %, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Las rampas con proyección inferior a 3 m tienen pendiente máxima del 10 %, del 8 % si es inferior a 6 m y del 6 % en el resto.",
-    "referencia": "Decreto 293/2009"
-  },
-  {
-    "pregunta": "¿Qué pendiente máxima puede tener esa rampa cuando su proyección horizontal está entre 3 y 6 m?",
-    "opciones": [
-      "8 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "8 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "8 %",
-      "8 %, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Para proyecciones inferiores a 6 m la pendiente máxima es del 8 %.",
-    "referencia": "Decreto 293/2009"
-  },
-  {
-    "pregunta": "¿Qué pendiente máxima rige para las rampas accesibles de mayor longitud?",
-    "opciones": [
-      "6 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "6 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "6 %",
-      "6 %, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "En el resto de casos la pendiente máxima es del 6 %.",
-    "referencia": "Decreto 293/2009"
-  },
-  {
-    "pregunta": "¿Qué edificios de viviendas deben disponer de ascensor accesible o rampa accesible?",
-    "opciones": [
-      "Los que obligan a salvar más de dos plantas hasta alguna vivienda o tienen más de 12 viviendas en plantas sin entrada accesible, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Los que obligan a salvar más de dos plantas hasta alguna vivienda o tienen más de 12 viviendas en plantas sin entrada accesible, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Los que obligan a salvar más de dos plantas hasta alguna vivienda o tienen más de 12 viviendas en plantas sin entrada accesible, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Los que obligan a salvar más de dos plantas hasta alguna vivienda o tienen más de 12 viviendas en plantas sin entrada accesible"
-    ],
-    "correcta": 3,
-    "explicacion": "El DB-SUA 9 exige ascensor accesible o rampa accesible en esos edificios.",
-    "referencia": "CTE, DB-SUA 9, apartado 1.1.2"
-  },
-  {
     "pregunta": "¿Qué concepto define las adaptaciones necesarias del entorno sin una carga desproporcionada?",
     "opciones": [
       "Los ajustes razonables",
@@ -358,5 +250,113 @@
     "correcta": 1,
     "explicacion": "Dicha regulación se contiene en el Artículo 85 de Ley de los derechos y la atención a las personas con discapacidad en Andalucía (Sanciones): en su grado medio, de 6.001 a 18.000 euros.",
     "referencia": "Art. 85 de Ley de los derechos y la atención a las personas con discapacidad en Andalucía"
+  },
+  {
+    "pregunta": "En el ámbito de «La accesibilidad en las infraestructuras, el urbanismo y la edificación. Normativa de aplicación. Ámbito de aplicación y definiciones. Diseño y ejecución. Medidas de fomento, control y seguimiento. Seguridad de utilización de los edificios. Exigencias básicas. Régimen sancionador.» (8 bis. La accesibilidad en la rehabilitación y el mantenimiento), ¿qué establece la normativa respecto a «La revisión»?",
+    "opciones": [
+      "Es olvidar que la accesibilidad del exterior forma parte del edificio.",
+      "Es una obligación de la Administración, y el examen puede preguntar por ese plazo.",
+      "Se exceptúan los espacios de uso restringido tales como salas de máquinas, equipos e instala- ciones, cuartos de contadores u otros de análoga naturaleza a los que sólo tenga acceso el personal autorizado.",
+      "Igualmente se utilizarán minúsculas y mayúsculas en los textos, así como en los folletos y carteles."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «La revisión» (8 bis. La accesibilidad en la rehabilitación y el mantenimiento), la regulación vigente establece que: Es una obligación de la Administración, y el examen puede preguntar por ese plazo.",
+    "referencia": "Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)"
+  },
+  {
+    "pregunta": "Dentro de la materia «La accesibilidad en las infraestructuras, el urbanismo y la edificación. Normativa de aplicación. Ámbito de aplicación y definiciones. Diseño y ejecución. Medidas de fomento, control y seguimiento. Seguridad de utilización de los edificios. Exigencias básicas. Régimen sancionador.» (8 bis. La accesibilidad en la rehabilitación y el mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una obligación de la Administración, y el examen puede preguntar por ese plazo.»?",
+    "opciones": [
+      "El tercero.",
+      "Ámbito de aplicación (art. 2 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "La revisión.",
+      "Condiciones mínimas (art. 95 Decreto de normas para la accesibilidad en las infraestructuras)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («Es una obligación de la Administración, y el examen puede preguntar por ese plazo.») define o regula específicamente a «La revisión» (Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)).",
+    "referencia": "Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)"
+  },
+  {
+    "pregunta": "En el ámbito de «La accesibilidad en las infraestructuras, el urbanismo y la edificación. Normativa de aplicación. Ámbito de aplicación y definiciones. Diseño y ejecución. Medidas de fomento, control y seguimiento. Seguridad de utilización de los edificios. Exigencias básicas. Régimen sancionador.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El primero»?",
+    "opciones": [
+      "El espacio público (RD 505/2007), el edificio (CTE y Decreto 293/2009), el uso y la seguridad (SUA) y el control (Ley 4/2017).",
+      "Se señalizarán en la calzada DECRETO 293/2009, de 7 de julio con pintura antideslizante y dispondrán de señalización vertical para los vehículos.",
+      "Instalaciones, construcciones y dotaciones para actividades temporales, ocasionales o extraordinarias en edificios de concurrencia pública.",
+      "Es citar la Ley 1/1999 como vigente, cuando la Ley 4/2017 la ha sustituido."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «El primero» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es citar la Ley 1/1999 como vigente, cuando la Ley 4/2017 la ha sustituido.",
+    "referencia": "Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)"
+  },
+  {
+    "pregunta": "Dentro de la materia «La accesibilidad en las infraestructuras, el urbanismo y la edificación. Normativa de aplicación. Ámbito de aplicación y definiciones. Diseño y ejecución. Medidas de fomento, control y seguimiento. Seguridad de utilización de los edificios. Exigencias básicas. Régimen sancionador.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es citar la Ley 1/1999 como vigente, cuando la Ley 4/2017 la ha sustituido.»?",
+    "opciones": [
+      "El primero.",
+      "Para repasar el tema conviene estudiar la accesibilidad en cuatro niveles.",
+      "Pasos peatonales (art. 17 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Normas generales (art. 97 Decreto de normas para la accesibilidad en las infraestructuras)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Es citar la Ley 1/1999 como vigente, cuando la Ley 4/2017 la ha sustituido.») define o regula específicamente a «El primero» (Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)).",
+    "referencia": "Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)"
+  },
+  {
+    "pregunta": "En el ámbito de «La accesibilidad en las infraestructuras, el urbanismo y la edificación. Normativa de aplicación. Ámbito de aplicación y definiciones. Diseño y ejecución. Medidas de fomento, control y seguimiento. Seguridad de utilización de los edificios. Exigencias básicas. Régimen sancionador.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El segundo es confundir el diseño universal con los ajustes razonables»?",
+    "opciones": [
+      "Es el de un centro público con un acceso escalonado, un aseo no accesible y un mostrador de atención a la altura de una silla de ruedas.",
+      "El diseño universal se concibe desde el origen, y los ajustes son las adaptaciones excepcionales.",
+      "Y condiciones de los espacios reservados 1.",
+      "Las Administraciones Públicas competentes en el ámbito del transporte público contemplarán en sus planes de transportes la adaptación progresiva de los medios de transporte público existentes."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «El segundo es confundir el diseño universal con los ajustes razonables» (Cómo estudiarlo para el examen), la regulación vigente establece que: El diseño universal se concibe desde el origen, y los ajustes son las adaptaciones excepcionales.",
+    "referencia": "Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)"
+  },
+  {
+    "pregunta": "Dentro de la materia «La accesibilidad en las infraestructuras, el urbanismo y la edificación. Normativa de aplicación. Ámbito de aplicación y definiciones. Diseño y ejecución. Medidas de fomento, control y seguimiento. Seguridad de utilización de los edificios. Exigencias básicas. Régimen sancionador.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El diseño universal se concibe desde el origen, y los ajustes son las adaptaciones excepcionales.»?",
+    "opciones": [
+      "Un caso práctico típico.",
+      "Ámbito de aplicación (art. 76 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "El segundo es confundir el diseño universal con los ajustes razonables.",
+      "Normas generales (art. 124 Decreto de normas para la accesibilidad en las infraestructuras)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («El diseño universal se concibe desde el origen, y los ajustes son las adaptaciones excepcionales.») define o regula específicamente a «El segundo es confundir el diseño universal con los ajustes razonables» (Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)).",
+    "referencia": "Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)"
+  },
+  {
+    "pregunta": "En el ámbito de «La accesibilidad en las infraestructuras, el urbanismo y la edificación. Normativa de aplicación. Ámbito de aplicación y definiciones. Diseño y ejecución. Medidas de fomento, control y seguimiento. Seguridad de utilización de los edificios. Exigencias básicas. Régimen sancionador.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El tercero»?",
+    "opciones": [
+      "Se exceptúan los espacios de uso restringido tales como salas de máquinas, equipos e instala- ciones, cuartos de contadores u otros de análoga naturaleza a los que sólo tenga acceso el personal autorizado.",
+      "Igualmente se utilizarán minúsculas y mayúsculas en los textos, así como en los folletos y carteles.",
+      "Los taxis o vehículos especiales accesibles deberán reunir las condiciones establecidas en el Real Decreto 1544/2007, de 23 de noviembre.",
+      "Es olvidar que la accesibilidad del exterior forma parte del edificio."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «El tercero» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es olvidar que la accesibilidad del exterior forma parte del edificio.",
+    "referencia": "Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)"
+  },
+  {
+    "pregunta": "Dentro de la materia «La accesibilidad en las infraestructuras, el urbanismo y la edificación. Normativa de aplicación. Ámbito de aplicación y definiciones. Diseño y ejecución. Medidas de fomento, control y seguimiento. Seguridad de utilización de los edificios. Exigencias básicas. Régimen sancionador.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es olvidar que la accesibilidad del exterior forma parte del edificio.»?",
+    "opciones": [
+      "El tercero.",
+      "Ámbito de aplicación (art. 2 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Condiciones mínimas (art. 95 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Normas generales (art. 133 Decreto de normas para la accesibilidad en las infraestructuras)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Es olvidar que la accesibilidad del exterior forma parte del edificio.») define o regula específicamente a «El tercero» (Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)).",
+    "referencia": "Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)"
+  },
+  {
+    "pregunta": "En el ámbito de «La accesibilidad en las infraestructuras, el urbanismo y la edificación. Normativa de aplicación. Ámbito de aplicación y definiciones. Diseño y ejecución. Medidas de fomento, control y seguimiento. Seguridad de utilización de los edificios. Exigencias básicas. Régimen sancionador.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «Para repasar el tema conviene estudiar la accesibilidad en cuatro niveles»?",
+    "opciones": [
+      "Se señalizarán en la calzada DECRETO 293/2009, de 7 de julio con pintura antideslizante y dispondrán de señalización vertical para los vehículos.",
+      "El espacio público (RD 505/2007), el edificio (CTE y Decreto 293/2009), el uso y la seguridad (SUA) y el control (Ley 4/2017).",
+      "Instalaciones, construcciones y dotaciones para actividades temporales, ocasionales o extraordinarias en edificios de concurrencia pública.",
+      "A los efectos del presente Reglamento, se entenderá por: 1."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Para repasar el tema conviene estudiar la accesibilidad en cuatro niveles» (Cómo estudiarlo para el examen), la regulación vigente establece que: El espacio público (RD 505/2007), el edificio (CTE y Decreto 293/2009), el uso y la seguridad (SUA) y el control (Ley 4/2017).",
+    "referencia": "Ley 4/2017, de 25 de septiembre, de los Derechos y la Atención a las Personas con Discapacidad en Andalucía (BOJA y BOE de 2017)"
   }
 ]

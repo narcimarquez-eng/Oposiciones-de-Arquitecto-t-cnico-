@@ -84,54 +84,6 @@
       "referencia": "Art. 16.2 LPAC"
     },
     {
-      "pregunta": "¿Qué clase de sistema operativo atiende a una sola persona?",
-      "opciones": [
-        "Monousuario, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Monousuario, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Monousuario, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Monousuario"
-      ],
-      "correcta": 3,
-      "explicacion": "El sistema monousuario atiende a una sola persona; el multiusuario permite el acceso simultáneo de varias.",
-      "referencia": "Sistemas operativos (temario c23)"
-    },
-    {
-      "pregunta": "¿Cómo se llama la propiedad de una transacción que se completa del todo o no se aplica en absoluto?",
-      "opciones": [
-        "Atomicidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Atomicidad",
-        "Atomicidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Atomicidad, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La atomicidad, una de las propiedades ACID, garantiza que la transacción se complete del todo o no se aplique en absoluto.",
-      "referencia": "Bases de datos (temario c23)"
-    },
-    {
-      "pregunta": "¿Qué sistema de información sirve a la operación diaria, registrando solicitudes y pagos?",
-      "opciones": [
-        "El TPS",
-        "El TPS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El TPS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El TPS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los sistemas de procesamiento de transacciones (TPS) registran las operaciones diarias.",
-      "referencia": "Tipología de sistemas (temario c23)"
-    },
-    {
-      "pregunta": "¿Qué sistema de información ayuda a elegir entre alternativas concretas para una decisión?",
-      "opciones": [
-        "El DSS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El DSS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El DSS",
-        "El DSS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los sistemas de ayuda a la decisión (DSS) analizan alternativas para una decisión concreta.",
-      "referencia": "Tipología de sistemas (temario c23)"
-    },
-    {
       "pregunta": "Según el art. 155 LRJSP, ¿qué exige la transmisión de datos entre Administraciones?",
       "opciones": [
         "Solo la firma de un papel",
@@ -142,18 +94,6 @@
       "correcta": 3,
       "explicacion": "Cada Administración debe facilitar el acceso a los datos de los interesados especificando condiciones, protocolos y criterios técnicos, con respeto a la protección de datos.",
       "referencia": "Art. 155 LRJSP"
-    },
-    {
-      "pregunta": "¿Qué protocolo cifra la comunicación entre el navegador y el servidor web?",
-      "opciones": [
-        "HTTPS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "HTTPS",
-        "HTTPS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "HTTPS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "HTTPS es la versión de HTTP que cifra la comunicación entre el navegador y el servidor.",
-      "referencia": "Internet (temario c23)"
     },
     {
       "pregunta": "Según el art. 7.1 LAJA, ¿a qué está orientada la aplicación de las tecnologías de la información a la Administración?",
@@ -168,138 +108,6 @@
       "referencia": "Art. 7.1 LAJA"
     },
     {
-      "pregunta": "Según el art. 92 de la Ley 5/2023, ¿qué instrumento regula ese precepto?",
-      "opciones": [
-        "El registro de personal",
-        "El registro de personal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El registro de personal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El registro de personal, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El artículo 92 de la Ley 5/2023 regula el registro de personal, que se desarrolla en los artículos 93 a 95.",
-      "referencia": "Art. 92 Ley 5/2023"
-    },
-    {
-      "pregunta": "¿Qué tipo de sistema operativo ejecuta trabajos en lotes sin interacción?",
-      "opciones": [
-        "Por lotes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Por lotes",
-        "Por lotes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Por lotes, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los sistemas por lotes ejecutan trabajos agrupados sin interacción directa.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué estado de un proceso indica que espera un recurso y no ocupa la CPU?",
-      "opciones": [
-        "Bloqueado",
-        "Bloqueado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Bloqueado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Bloqueado, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Un proceso bloqueado espera un recurso y no ocupa la CPU.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué define el SGBD sobre los datos?",
-      "opciones": [
-        "Su estructura, su manipulación, el control de acceso y la integridad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Su estructura, su manipulación, el control de acceso y la integridad",
-        "Su estructura, su manipulación, el control de acceso y la integridad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Su estructura, su manipulación, el control de acceso y la integridad, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El SGBD define la estructura, permite manipular los datos, controla el acceso y garantiza integridad y seguridad.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué sirve para recuperar una base de datos tras un fallo?",
-      "opciones": [
-        "Las copias de seguridad y los registros de transacciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las copias de seguridad y los registros de transacciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las copias de seguridad y los registros de transacciones, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Las copias de seguridad y los registros de transacciones"
-      ],
-      "correcta": 3,
-      "explicacion": "Las copias de seguridad y los registros de transacciones permiten la recuperación.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué sistema de información se usa para el control táctico de la organización?",
-      "opciones": [
-        "MIS",
-        "MIS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "MIS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "MIS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los MIS (sistemas de información de gestión) sirven para el control táctico.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué sistema sirve para la dirección ejecutiva?",
-      "opciones": [
-        "EIS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "EIS",
-        "EIS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "EIS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los EIS (sistemas de información para la dirección) sirven a la alta dirección.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Para qué se usan los almacenes de datos?",
-      "opciones": [
-        "Para el análisis de datos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Para el análisis de datos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Para el análisis de datos",
-        "Para el análisis de datos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los almacenes de datos (data warehouse) se usan para el análisis.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué tipo de sistema facilita la colaboración de un grupo de trabajo?",
-      "opciones": [
-        "Groupware, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Groupware, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Groupware, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Groupware"
-      ],
-      "correcta": 3,
-      "explicacion": "El groupware sirve para la colaboración en grupo.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué protocolo se usa para recibir correo electrónico?",
-      "opciones": [
-        "IMAP o POP",
-        "IMAP o POP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "IMAP o POP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "IMAP o POP, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "IMAP o POP se usan para recibir correo.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué familia de protocolos es la base de Internet?",
-      "opciones": [
-        "TCP/IP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "TCP/IP",
-        "TCP/IP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "TCP/IP, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Internet se basa en TCP/IP.",
-      "referencia": "Tema c23"
-    },
-    {
       "pregunta": "¿Qué depende de la validez de una notificación?",
       "opciones": [
         "El medio elegido por la Administración",
@@ -312,66 +120,6 @@
       "referencia": "Art. 40 LPAC"
     },
     {
-      "pregunta": "¿Qué mejora pretende la Junta al aplicar tecnologías?",
-      "opciones": [
-        "Su eficacia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Su eficacia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Su eficacia, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Su eficacia"
-      ],
-      "correcta": 3,
-      "explicacion": "La Junta aplica las tecnologías para mejorar su eficacia.",
-      "referencia": "Art. 7.1 LAJA"
-    },
-    {
-      "pregunta": "¿Qué derecho tienen los ciudadanos sobre el medio para relacionarse con la Administración?",
-      "opciones": [
-        "Elegir el medio, salvo los obligados a relacionarse electrónicamente",
-        "Elegir el medio, salvo los obligados a relacionarse electrónicamente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Elegir el medio, salvo los obligados a relacionarse electrónicamente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Elegir el medio, salvo los obligados a relacionarse electrónicamente, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Las personas físicas pueden elegir el medio, salvo los obligados a relacionarse electrónicamente.",
-      "referencia": "Art. 14 LPAC"
-    },
-    {
-      "pregunta": "¿Qué propiedades cumplen las transacciones de una base de datos?",
-      "opciones": [
-        "ACID, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "ACID",
-        "ACID, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "ACID, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las transacciones cumplen las propiedades ACID.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué tipo de sistemas estadísticos recogen, validan y analizan datos?",
-      "opciones": [
-        "Los sistemas estadísticos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los sistemas estadísticos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los sistemas estadísticos",
-        "Los sistemas estadísticos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los sistemas estadísticos recogen, validan, analizan y presentan datos.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué ley regula el registro de personal de la Junta?",
-      "opciones": [
-        "La Ley 5/2023, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La Ley 5/2023, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La Ley 5/2023, computándose los plazos en días naturales y con sentido desestimatorio",
-        "La Ley 5/2023"
-      ],
-      "correcta": 3,
-      "explicacion": "El registro de personal se regula en la Ley 5/2023 de la Función Pública andaluza.",
-      "referencia": "Ley 5/2023, arts. 92 a 95"
-    },
-    {
       "pregunta": "¿Qué es un proceso cooperativo?",
       "opciones": [
         "Un proceso que colabora intercambiando mensajes y sincronizándose",
@@ -382,126 +130,6 @@
       "correcta": 0,
       "explicacion": "Los procesos cooperativos colaboran intercambiando mensajes y sincronizándose.",
       "referencia": "Tema c22"
-    },
-    {
-      "pregunta": "¿Qué propiedad de las transacciones significa que se completan del todo o no se aplican?",
-      "opciones": [
-        "La atomicidad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La atomicidad",
-        "La atomicidad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La atomicidad, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La atomicidad: la transacción se completa del todo o no se aplica.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué sistema de información sirve para la operación diaria?",
-      "opciones": [
-        "TPS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "TPS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "TPS",
-        "TPS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los TPS sirven para la operación diaria.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué permite la memoria virtual?",
-      "opciones": [
-        "Ejecutar programas mayores que la memoria física, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Ejecutar programas mayores que la memoria física, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Ejecutar programas mayores que la memoria física, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Ejecutar programas mayores que la memoria física"
-      ],
-      "correcta": 3,
-      "explicacion": "La memoria virtual permite ejecutar programas mayores que la memoria física.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué clase de sistema operativo atiende a varios usuarios a la vez?",
-      "opciones": [
-        "Multiusuario, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Multiusuario, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Multiusuario",
-        "Multiusuario, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Un sistema multiusuario permite a varios usuarios trabajar simultáneamente.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué sistema de información ayuda a elegir entre alternativas?",
-      "opciones": [
-        "DSS",
-        "DSS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "DSS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "DSS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los DSS (sistemas de apoyo a la decisión) ayudan a elegir entre alternativas.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué protocolo se usa para enviar correo electrónico?",
-      "opciones": [
-        "SMTP, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "SMTP",
-        "SMTP, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "SMTP, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "SMTP se utiliza para enviar correo electrónico.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué protocolo cifra el tráfico web?",
-      "opciones": [
-        "HTTPS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "HTTPS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "HTTPS",
-        "HTTPS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "HTTPS es HTTP con cifrado.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué tipo de sistema ordena las tareas de un procedimiento?",
-      "opciones": [
-        "Flujo de trabajo (workflow), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Flujo de trabajo (workflow), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Flujo de trabajo (workflow), computándose los plazos en días naturales y con sentido desestimatorio",
-        "Flujo de trabajo (workflow)"
-      ],
-      "correcta": 3,
-      "explicacion": "Los workflows ordenan las tareas de un procedimiento.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué lenguaje se usa para consultar bases de datos relacionales?",
-      "opciones": [
-        "SQL, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "SQL, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "SQL, computándose los plazos en días naturales y con sentido desestimatorio",
-        "SQL"
-      ],
-      "correcta": 3,
-      "explicacion": "SQL es el lenguaje estándar para consultar y manipular bases de datos relacionales.",
-      "referencia": "Tema c23"
-    },
-    {
-      "pregunta": "¿Qué modelo de base de datos organiza los datos en tablas relacionadas?",
-      "opciones": [
-        "El modelo relacional",
-        "El modelo relacional, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El modelo relacional, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El modelo relacional, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El modelo relacional representa los datos en tablas (relaciones).",
-      "referencia": "Tema c23"
     },
     {
       "pregunta": "¿Qué es una clave primaria?",
@@ -528,18 +156,6 @@
       "referencia": "Tema c23"
     },
     {
-      "pregunta": "¿Qué proceso del diseño relacional elimina redundancias?",
-      "opciones": [
-        "La normalización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La normalización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La normalización, computándose los plazos en días naturales y con sentido desestimatorio",
-        "La normalización"
-      ],
-      "correcta": 3,
-      "explicacion": "La normalización organiza las tablas para evitar redundancias y anomalías.",
-      "referencia": "Tema c23"
-    },
-    {
       "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Gestión documental, archivo y estadística), ¿qué establece la normativa respecto a «La cesión de datos entre Administraciones»?",
       "opciones": [
         "Exige condiciones y protocolos previos (art. 155 LRJSP).",
@@ -549,18 +165,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «La cesión de datos entre Administraciones» (Gestión documental, archivo y estadística), la regulación vigente establece que: Exige condiciones y protocolos previos (art. 155 LRJSP).",
-      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Gestión documental, archivo y estadística), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige condiciones y protocolos previos (art. 155 LRJSP).»?",
-      "opciones": [
-        "La cesión de datos entre Administraciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La cesión de datos entre Administraciones.",
-        "La cesión de datos entre Administraciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La cesión de datos entre Administraciones, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Exige condiciones y protocolos previos (art. 155 LRJSP).») define o regula específicamente a «La cesión de datos entre Administraciones» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
       "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
     },
     {
@@ -576,18 +180,6 @@
       "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
     },
     {
-      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas de la Junta de Andalucía), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula en la Ley 5/2023 (arts. 92 a 95).»?",
-      "opciones": [
-        "El registro de personal se, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El registro de personal se, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El registro de personal se, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El registro de personal se."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Regula en la Ley 5/2023 (arts. 92 a 95).») define o regula específicamente a «El registro de personal se» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
-      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
-    },
-    {
       "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Los sistemas operativos: funciones y clases), ¿qué establece la normativa respecto a «El sistema operativo»?",
       "opciones": [
         "Es el software de base que gestiona los recursos del equipo y ofrece a las aplicaciones un entorno común.",
@@ -597,18 +189,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «El sistema operativo» (Los sistemas operativos: funciones y clases), la regulación vigente establece que: Es el software de base que gestiona los recursos del equipo y ofrece a las aplicaciones un entorno común.",
-      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Los sistemas operativos: funciones y clases), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el software de base que gestiona los recursos del equipo y ofrece a las aplicaciones un entorno común.»?",
-      "opciones": [
-        "El sistema operativo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El sistema operativo.",
-        "El sistema operativo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El sistema operativo, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es el software de base que gestiona los recursos del equipo y ofrece a las aplicaciones un entorno común.») define o regula específicamente a «El sistema operativo» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
       "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
     },
     {
@@ -624,18 +204,6 @@
       "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
     },
     {
-      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Los sistemas operativos: funciones y clases), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son la gestión de procesos, de memoria, de dispositivos de entrada y salida y de ficheros, y la protección de unos recursos frente a otros.»?",
-      "opciones": [
-        "Sus funciones principales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Sus funciones principales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Sus funciones principales, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Sus funciones principales."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Son la gestión de procesos, de memoria, de dispositivos de entrada y salida y de ficheros, y la protección de unos recursos frente a otros.») define o regula específicamente a «Sus funciones principales» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
-      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
-    },
-    {
       "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Gestión de procesos, memoria y ficheros en el sistema operativo), ¿qué establece la normativa respecto a «Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado»?",
       "opciones": [
         "Espera un recurso y no ocupa la CPU.",
@@ -645,18 +213,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado» (Gestión de procesos, memoria y ficheros en el sistema operativo), la regulación vigente establece que: Espera un recurso y no ocupa la CPU.",
-      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Gestión de procesos, memoria y ficheros en el sistema operativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Espera un recurso y no ocupa la CPU.»?",
-      "opciones": [
-        "Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado.",
-        "Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Espera un recurso y no ocupa la CPU.») define o regula específicamente a «Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
       "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
     },
     {
@@ -672,18 +228,6 @@
       "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
     },
     {
-      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas operativos de uso habitual en la Administración), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las de tipo Windows y las de tipo Unix o Linux.»?",
-      "opciones": [
-        "Las familias más extendidas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las familias más extendidas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las familias más extendidas, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Las familias más extendidas."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Son las de tipo Windows y las de tipo Unix o Linux.») define o regula específicamente a «Las familias más extendidas» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
-      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
-    },
-    {
       "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas de gestión de bases de datos: funciones), ¿qué establece la normativa respecto a «Un sistema de gestión de bases de datos (SGBD)»?",
       "opciones": [
         "Es el software que crea, mantiene y da acceso a una base de datos.",
@@ -696,18 +240,6 @@
       "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
     },
     {
-      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas de gestión de bases de datos: funciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el software que crea, mantiene y da acceso a una base de datos.»?",
-      "opciones": [
-        "Un sistema de gestión de bases de datos (SGBD), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un sistema de gestión de bases de datos (SGBD).",
-        "Un sistema de gestión de bases de datos (SGBD), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un sistema de gestión de bases de datos (SGBD), computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es el software que crea, mantiene y da acceso a una base de datos.») define o regula específicamente a «Un sistema de gestión de bases de datos (SGBD)» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
-      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
-    },
-    {
       "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas de gestión de bases de datos: funciones), ¿qué establece la normativa respecto a «Sus funciones»?",
       "opciones": [
         "Que la transacción se complete del todo o no se aplique en absoluto.",
@@ -717,18 +249,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «Sus funciones» (Sistemas de gestión de bases de datos: funciones), la regulación vigente establece que: Son definir la estructura de los datos, manipularlos (consultar, insertar, modificar y borrar), controlar el acceso y garantizar la integridad y la seguridad.",
-      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas de gestión de bases de datos: funciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son definir la estructura de los datos, manipularlos (consultar, insertar, modificar y borrar), controlar el acceso y garantizar la integridad y la seguridad.»?",
-      "opciones": [
-        "Sus funciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Sus funciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Sus funciones, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Sus funciones."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Son definir la estructura de los datos, manipularlos (consultar, insertar, modificar y borrar), controlar el acceso y garantizar la integridad y la seguridad.») define o regula específicamente a «Sus funciones» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
       "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
     },
     {
@@ -768,15 +288,495 @@
       "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
     },
     {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Gestión documental, archivo y estadística), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige condiciones y protocolos previos (art. 155 LRJSP).»?",
+      "opciones": [
+        "Sus funciones principales.",
+        "Un sistema de gestión de bases de datos (SGBD).",
+        "Una transacción.",
+        "La cesión de datos entre Administraciones."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Exige condiciones y protocolos previos (art. 155 LRJSP).») define o regula específicamente a «La cesión de datos entre Administraciones» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas de la Junta de Andalucía), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula en la Ley 5/2023 (arts. 92 a 95).»?",
+      "opciones": [
+        "Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado.",
+        "El registro de personal se.",
+        "Sus funciones.",
+        "Respuesta."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Regula en la Ley 5/2023 (arts. 92 a 95).») define o regula específicamente a «El registro de personal se» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Los sistemas operativos: funciones y clases), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el software de base que gestiona los recursos del equipo y ofrece a las aplicaciones un entorno común.»?",
+      "opciones": [
+        "Las familias más extendidas.",
+        "Otros modelos.",
+        "Una base de datos sin copias verificadas no.",
+        "El sistema operativo."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es el software de base que gestiona los recursos del equipo y ofrece a las aplicaciones un entorno común.») define o regula específicamente a «El sistema operativo» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Los sistemas operativos: funciones y clases), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son la gestión de procesos, de memoria, de dispositivos de entrada y salida y de ficheros, y la protección de unos recursos frente a otros.»?",
+      "opciones": [
+        "Un sistema de gestión de bases de datos (SGBD).",
+        "Sus funciones principales.",
+        "Una transacción.",
+        "Para un examen, la diferencia entre copia completa e incremental es el volumen."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Son la gestión de procesos, de memoria, de dispositivos de entrada y salida y de ficheros, y la protección de unos recursos frente a otros.») define o regula específicamente a «Sus funciones principales» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Gestión de procesos, memoria y ficheros en el sistema operativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Espera un recurso y no ocupa la CPU.»?",
+      "opciones": [
+        "Sus funciones.",
+        "Respuesta.",
+        "Un sistema de información.",
+        "Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Espera un recurso y no ocupa la CPU.») define o regula específicamente a «Para un examen, la pregunta típica es qué ocurre con un proceso bloqueado» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas operativos de uso habitual en la Administración), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las de tipo Windows y las de tipo Unix o Linux.»?",
+      "opciones": [
+        "Otros modelos.",
+        "Las familias más extendidas.",
+        "Una base de datos sin copias verificadas no.",
+        "Para un examen, la diferencia es el nivel."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Son las de tipo Windows y las de tipo Unix o Linux.») define o regula específicamente a «Las familias más extendidas» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas de gestión de bases de datos: funciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el software que crea, mantiene y da acceso a una base de datos.»?",
+      "opciones": [
+        "Una transacción.",
+        "Para un examen, la diferencia entre copia completa e incremental es el volumen.",
+        "La seguridad del correo.",
+        "Un sistema de gestión de bases de datos (SGBD)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es el software que crea, mantiene y da acceso a una base de datos.») define o regula específicamente a «Un sistema de gestión de bases de datos (SGBD)» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Sistemas de gestión de bases de datos: funciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son definir la estructura de los datos, manipularlos (consultar, insertar, modificar y borrar), controlar el acceso y garantizar la integridad y la seguridad.»?",
+      "opciones": [
+        "Respuesta.",
+        "Sus funciones.",
+        "Un sistema de información.",
+        "Para un examen, la diferencia entre HTTP y HTTPS es el cifrado."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Son definir la estructura de los datos, manipularlos (consultar, insertar, modificar y borrar), controlar el acceso y garantizar la integridad y la seguridad.») define o regula específicamente a «Sus funciones» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
       "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Modelos de datos y transacciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una secuencia de operaciones que debe completarse entera o no completarse en absoluto.»?",
       "opciones": [
-        "Una transacción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una transacción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una transacción, computándose los plazos en días naturales y con sentido desestimatorio",
+        "Para un examen, la diferencia entre copia completa e incremental es el volumen.",
+        "La seguridad del correo.",
+        "El registro.",
         "Una transacción."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Es una secuencia de operaciones que debe completarse entera o no completarse en absoluto.») define o regula específicamente a «Una transacción» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Modelos de datos y transacciones), ¿qué establece la normativa respecto a «Respuesta»?",
+      "opciones": [
+        "Es el conjunto de elementos que recogen, almacenan, procesan y distribuyen información para apoyar las funciones de una organización.",
+        "Que la transacción se complete del todo o no se aplique en absoluto.",
+        "HTTPS protege la comunicación frente a la interceptación.",
+        "Es obligatorio para cada Administración? El archivo electrónico único de procedimientos finalizados (art. 17.1 LPAC)."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Respuesta» (Modelos de datos y transacciones), la regulación vigente establece que: Que la transacción se complete del todo o no se aplique en absoluto.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Modelos de datos y transacciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Que la transacción se complete del todo o no se aplique en absoluto.»?",
+      "opciones": [
+        "Un sistema de información.",
+        "Para un examen, la diferencia entre HTTP y HTTPS es el cifrado.",
+        "¿Qué archivo.",
+        "Respuesta."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Que la transacción se complete del todo o no se aplique en absoluto.») define o regula específicamente a «Respuesta» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Copias de seguridad, concurrencia y recuperación), ¿qué establece la normativa respecto a «Una base de datos sin copias verificadas no»?",
+      "opciones": [
+        "Es segura, aunque tenga un buen SGBD.",
+        "El TPS sirve al nivel operativo.",
+        "Es un sistema de información que asienta la presentación y salida de documentos (art. 16.1 LPAC).",
+        "Regula el registro de personal? El artículo 92, con su desarrollo en los artículos 93 a 95."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Una base de datos sin copias verificadas no» (Copias de seguridad, concurrencia y recuperación), la regulación vigente establece que: Es segura, aunque tenga un buen SGBD.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Copias de seguridad, concurrencia y recuperación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es segura, aunque tenga un buen SGBD.»?",
+      "opciones": [
+        "Para un examen, la diferencia es el nivel.",
+        "Una base de datos sin copias verificadas no.",
+        "El registro electrónico general.",
+        "¿Qué artículo de la Ley 5/2023."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es segura, aunque tenga un buen SGBD.») define o regula específicamente a «Una base de datos sin copias verificadas no» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Copias de seguridad, concurrencia y recuperación), ¿qué establece la normativa respecto a «Para un examen, la diferencia entre copia completa e incremental es el volumen»?",
+      "opciones": [
+        "Exige cifrado, control de los adjuntos y protección frente al engaño (phishing).",
+        "Es un instrumento de información sobre el personal.",
+        "Traduce las órdenes del sistema a las del dispositivo concreto.",
+        "La incremental guarda solo los cambios desde la última copia."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Para un examen, la diferencia entre copia completa e incremental es el volumen» (Copias de seguridad, concurrencia y recuperación), la regulación vigente establece que: La incremental guarda solo los cambios desde la última copia.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Copias de seguridad, concurrencia y recuperación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La incremental guarda solo los cambios desde la última copia.»?",
+      "opciones": [
+        "Para un examen, la diferencia entre copia completa e incremental es el volumen.",
+        "La seguridad del correo.",
+        "El registro.",
+        "Para un examen, la pregunta típica es qué hace un controlador."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («La incremental guarda solo los cambios desde la última copia.») define o regula específicamente a «Para un examen, la diferencia entre copia completa e incremental es el volumen» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Tipología de los sistemas de información), ¿qué establece la normativa respecto a «Un sistema de información»?",
+      "opciones": [
+        "HTTPS protege la comunicación frente a la interceptación.",
+        "Es el conjunto de elementos que recogen, almacenan, procesan y distribuyen información para apoyar las funciones de una organización.",
+        "Es obligatorio para cada Administración? El archivo electrónico único de procedimientos finalizados (art. 17.1 LPAC).",
+        "Se identifican las entidades (objetos del mundo real, como un expediente o un interesado), sus atributos y las relaciones entre ellas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Un sistema de información» (Tipología de los sistemas de información), la regulación vigente establece que: Es el conjunto de elementos que recogen, almacenan, procesan y distribuyen información para apoyar las funciones de una organización.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Tipología de los sistemas de información), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el conjunto de elementos que recogen, almacenan, procesan y distribuyen información para apoyar las funciones de una organización.»?",
+      "opciones": [
+        "Para un examen, la diferencia entre HTTP y HTTPS es el cifrado.",
+        "¿Qué archivo.",
+        "El diseño de una base de datos parte del análisis de la información.",
+        "Un sistema de información."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es el conjunto de elementos que recogen, almacenan, procesan y distribuyen información para apoyar las funciones de una organización.») define o regula específicamente a «Un sistema de información» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Tipología de los sistemas de información), ¿qué establece la normativa respecto a «Para un examen, la diferencia es el nivel»?",
+      "opciones": [
+        "El TPS sirve al nivel operativo.",
+        "Es un sistema de información que asienta la presentación y salida de documentos (art. 16.1 LPAC).",
+        "Regula el registro de personal? El artículo 92, con su desarrollo en los artículos 93 a 95.",
+        "Se planifica según las necesidades de la organización, se analiza y diseña, se desarrolla o adquiere, se implanta con formación de los usuarios, se explota y, finalmente, se modifica o se retira."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Para un examen, la diferencia es el nivel» (Tipología de los sistemas de información), la regulación vigente establece que: El TPS sirve al nivel operativo.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Tipología de los sistemas de información), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El TPS sirve al nivel operativo.»?",
+      "opciones": [
+        "El registro electrónico general.",
+        "Para un examen, la diferencia es el nivel.",
+        "¿Qué artículo de la Ley 5/2023.",
+        "Un sistema de información tiene un ciclo de vida."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («El TPS sirve al nivel operativo.») define o regula específicamente a «Para un examen, la diferencia es el nivel» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (El correo electrónico), ¿qué establece la normativa respecto a «La seguridad del correo»?",
+      "opciones": [
+        "Es un instrumento de información sobre el personal.",
+        "Traduce las órdenes del sistema a las del dispositivo concreto.",
+        "Exige cifrado, control de los adjuntos y protección frente al engaño (phishing).",
+        "Son aquellos prestados a distancia, por vía electrónica y a petición del destinatario, como el acceso a la web, el correo o la descarga de documentos."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «La seguridad del correo» (El correo electrónico), la regulación vigente establece que: Exige cifrado, control de los adjuntos y protección frente al engaño (phishing).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (El correo electrónico), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige cifrado, control de los adjuntos y protección frente al engaño (phishing).»?",
+      "opciones": [
+        "El registro.",
+        "Para un examen, la pregunta típica es qué hace un controlador.",
+        "Los servicios de la sociedad de la información.",
+        "La seguridad del correo."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Exige cifrado, control de los adjuntos y protección frente al engaño (phishing).») define o regula específicamente a «La seguridad del correo» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Internet y los servicios web), ¿qué establece la normativa respecto a «Para un examen, la diferencia entre HTTP y HTTPS es el cifrado»?",
+      "opciones": [
+        "HTTPS protege la comunicación frente a la interceptación.",
+        "Es obligatorio para cada Administración? El archivo electrónico único de procedimientos finalizados (art. 17.1 LPAC).",
+        "Se identifican las entidades (objetos del mundo real, como un expediente o un interesado), sus atributos y las relaciones entre ellas.",
+        "Es el programa que accede a los recursos de la web."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Para un examen, la diferencia entre HTTP y HTTPS es el cifrado» (Internet y los servicios web), la regulación vigente establece que: HTTPS protege la comunicación frente a la interceptación.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Internet y los servicios web), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «HTTPS protege la comunicación frente a la interceptación.»?",
+      "opciones": [
+        "¿Qué archivo.",
+        "Para un examen, la diferencia entre HTTP y HTTPS es el cifrado.",
+        "El diseño de una base de datos parte del análisis de la información.",
+        "El navegador."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («HTTPS protege la comunicación frente a la interceptación.») define o regula específicamente a «Para un examen, la diferencia entre HTTP y HTTPS es el cifrado» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (El registro electrónico como sistema de información), ¿qué establece la normativa respecto a «El registro electrónico general»?",
+      "opciones": [
+        "Regula el registro de personal? El artículo 92, con su desarrollo en los artículos 93 a 95.",
+        "Se planifica según las necesidades de la organización, se analiza y diseña, se desarrolla o adquiere, se implanta con formación de los usuarios, se explota y, finalmente, se modifica o se retira.",
+        "Es un sistema de información que asienta la presentación y salida de documentos (art. 16.1 LPAC).",
+        "Software malicioso (virus, troyanos, programas de secuestro de datos), ataques de ingeniería social como el phishing, accesos no autorizados y fallos de hardware o de suministro eléctrico."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El registro electrónico general» (El registro electrónico como sistema de información), la regulación vigente establece que: Es un sistema de información que asienta la presentación y salida de documentos (art. 16.1 LPAC).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (El registro electrónico como sistema de información), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un sistema de información que asienta la presentación y salida de documentos (art. 16.1 LPAC).»?",
+      "opciones": [
+        "¿Qué artículo de la Ley 5/2023.",
+        "Un sistema de información tiene un ciclo de vida.",
+        "Los sistemas están expuestos a amenazas de distinto tipo.",
+        "El registro electrónico general."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es un sistema de información que asienta la presentación y salida de documentos (art. 16.1 LPAC).») define o regula específicamente a «El registro electrónico general» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Errores frecuentes en el examen), ¿qué establece la normativa respecto a «El registro»?",
+      "opciones": [
+        "Es un instrumento de información sobre el personal.",
+        "Traduce las órdenes del sistema a las del dispositivo concreto.",
+        "Son aquellos prestados a distancia, por vía electrónica y a petición del destinatario, como el acceso a la web, el correo o la descarga de documentos.",
+        "La documentación de análisis describe qué hace, la técnica describe cómo está construido, y el manual de usuario explica cómo utilizarlo."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El registro» (Errores frecuentes en el examen), la regulación vigente establece que: Es un instrumento de información sobre el personal.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Errores frecuentes en el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un instrumento de información sobre el personal.»?",
+      "opciones": [
+        "Para un examen, la pregunta típica es qué hace un controlador.",
+        "El registro.",
+        "Los servicios de la sociedad de la información.",
+        "Un sistema debe documentarse para poder mantenerlo."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es un instrumento de información sobre el personal.») define o regula específicamente a «El registro» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Cuestiones tipo de examen), ¿qué establece la normativa respecto a «¿Qué archivo»?",
+      "opciones": [
+        "Se identifican las entidades (objetos del mundo real, como un expediente o un interesado), sus atributos y las relaciones entre ellas.",
+        "Es el programa que accede a los recursos de la web.",
+        "Es obligatorio para cada Administración? El archivo electrónico único de procedimientos finalizados (art. 17.1 LPAC).",
+        "Establece con carácter general, el artículo 93 lo concreta para la Administración General de la Junta, y el artículo 95 regula su organización y funcionamiento."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «¿Qué archivo» (Cuestiones tipo de examen), la regulación vigente establece que: Es obligatorio para cada Administración? El archivo electrónico único de procedimientos finalizados (art. 17.1 LPAC).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Cuestiones tipo de examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es obligatorio para cada Administración? El archivo electrónico único de procedimientos finalizados (art. 17.1 LPAC).»?",
+      "opciones": [
+        "El diseño de una base de datos parte del análisis de la información.",
+        "El navegador.",
+        "El artículo 92 de la ley lo.",
+        "¿Qué archivo."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es obligatorio para cada Administración? El archivo electrónico único de procedimientos finalizados (art. 17.1 LPAC).») define o regula específicamente a «¿Qué archivo» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Cuestiones tipo de examen), ¿qué establece la normativa respecto a «¿Qué artículo de la Ley 5/2023»?",
+      "opciones": [
+        "Regula el registro de personal? El artículo 92, con su desarrollo en los artículos 93 a 95.",
+        "Se planifica según las necesidades de la organización, se analiza y diseña, se desarrolla o adquiere, se implanta con formación de los usuarios, se explota y, finalmente, se modifica o se retira.",
+        "Software malicioso (virus, troyanos, programas de secuestro de datos), ataques de ingeniería social como el phishing, accesos no autorizados y fallos de hardware o de suministro eléctrico.",
+        "Funciones (procesos, memoria, dispositivos, ficheros) y clases (monousuario, multiusuario, batch, tiempo compartido, tiempo real)."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «¿Qué artículo de la Ley 5/2023» (Cuestiones tipo de examen), la regulación vigente establece que: Regula el registro de personal? El artículo 92, con su desarrollo en los artículos 93 a 95.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Cuestiones tipo de examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula el registro de personal? El artículo 92, con su desarrollo en los artículos 93 a 95.»?",
+      "opciones": [
+        "Un sistema de información tiene un ciclo de vida.",
+        "¿Qué artículo de la Ley 5/2023.",
+        "Los sistemas están expuestos a amenazas de distinto tipo.",
+        "Sistemas operativos."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Regula el registro de personal? El artículo 92, con su desarrollo en los artículos 93 a 95.») define o regula específicamente a «¿Qué artículo de la Ley 5/2023» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Gestión de dispositivos e interfaces del sistema operativo), ¿qué establece la normativa respecto a «Para un examen, la pregunta típica es qué hace un controlador»?",
+      "opciones": [
+        "Son aquellos prestados a distancia, por vía electrónica y a petición del destinatario, como el acceso a la web, el correo o la descarga de documentos.",
+        "La documentación de análisis describe qué hace, la técnica describe cómo está construido, y el manual de usuario explica cómo utilizarlo.",
+        "Traduce las órdenes del sistema a las del dispositivo concreto.",
+        "TPS (operativo), MIS (táctico), DSS y EIS (estratégico)."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Para un examen, la pregunta típica es qué hace un controlador» (Gestión de dispositivos e interfaces del sistema operativo), la regulación vigente establece que: Traduce las órdenes del sistema a las del dispositivo concreto.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Gestión de dispositivos e interfaces del sistema operativo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Traduce las órdenes del sistema a las del dispositivo concreto.»?",
+      "opciones": [
+        "Los servicios de la sociedad de la información.",
+        "Un sistema debe documentarse para poder mantenerlo.",
+        "Tipología de sistemas de información.",
+        "Para un examen, la pregunta típica es qué hace un controlador."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Traduce las órdenes del sistema a las del dispositivo concreto.») define o regula específicamente a «Para un examen, la pregunta típica es qué hace un controlador» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Diseño de bases de datos: modelo entidad-relación y normalización), ¿qué establece la normativa respecto a «El diseño de una base de datos parte del análisis de la información»?",
+      "opciones": [
+        "Se identifican las entidades (objetos del mundo real, como un expediente o un interesado), sus atributos y las relaciones entre ellas.",
+        "Es el programa que accede a los recursos de la web.",
+        "Establece con carácter general, el artículo 93 lo concreta para la Administración General de la Junta, y el artículo 95 regula su organización y funcionamiento.",
+        "Amenazas (software malicioso, phishing, accesos no autorizados), medidas en capas y gestión de cambios con reversión."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El diseño de una base de datos parte del análisis de la información» (Diseño de bases de datos: modelo entidad-relación y normalización), la regulación vigente establece que: Se identifican las entidades (objetos del mundo real, como un expediente o un interesado), sus atributos y las relaciones entre ellas.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Diseño de bases de datos: modelo entidad-relación y normalización), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se identifican las entidades (objetos del mundo real, como un expediente o un interesado), sus atributos y las relaciones entre ellas.»?",
+      "opciones": [
+        "El navegador.",
+        "El diseño de una base de datos parte del análisis de la información.",
+        "El artículo 92 de la ley lo.",
+        "Seguridad y documentación."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Se identifican las entidades (objetos del mundo real, como un expediente o un interesado), sus atributos y las relaciones entre ellas.») define o regula específicamente a «El diseño de una base de datos parte del análisis de la información» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (El ciclo de vida de un sistema de información), ¿qué establece la normativa respecto a «Un sistema de información tiene un ciclo de vida»?",
+      "opciones": [
+        "Software malicioso (virus, troyanos, programas de secuestro de datos), ataques de ingeniería social como el phishing, accesos no autorizados y fallos de hardware o de suministro eléctrico.",
+        "Funciones (procesos, memoria, dispositivos, ficheros) y clases (monousuario, multiusuario, batch, tiempo compartido, tiempo real).",
+        "Se planifica según las necesidades de la organización, se analiza y diseña, se desarrolla o adquiere, se implanta con formación de los usuarios, se explota y, finalmente, se modifica o se retira.",
+        "Ley 5/2023, arts. 92 a 95, sin detalle técnico verificado."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Un sistema de información tiene un ciclo de vida» (El ciclo de vida de un sistema de información), la regulación vigente establece que: Se planifica según las necesidades de la organización, se analiza y diseña, se desarrolla o adquiere, se implanta con formación de los usuarios, se explota y, finalmente, se modifica o se retira.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (El ciclo de vida de un sistema de información), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se planifica según las necesidades de la organización, se analiza y diseña, se desarrolla o adquiere, se implanta con formación de los usuarios, se explota y, finalmente, se modifica o se retira.»?",
+      "opciones": [
+        "Los sistemas están expuestos a amenazas de distinto tipo.",
+        "Sistemas operativos.",
+        "Registro de personal.",
+        "Un sistema de información tiene un ciclo de vida."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Se planifica según las necesidades de la organización, se analiza y diseña, se desarrolla o adquiere, se implanta con formación de los usuarios, se explota y, finalmente, se modifica o se retira.») define o regula específicamente a «Un sistema de información tiene un ciclo de vida» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Internet y los servicios de la sociedad de la información), ¿qué establece la normativa respecto a «Los servicios de la sociedad de la información»?",
+      "opciones": [
+        "Son aquellos prestados a distancia, por vía electrónica y a petición del destinatario, como el acceso a la web, el correo o la descarga de documentos.",
+        "La documentación de análisis describe qué hace, la técnica describe cómo está construido, y el manual de usuario explica cómo utilizarlo.",
+        "TPS (operativo), MIS (táctico), DSS y EIS (estratégico).",
+        "Se exceptúa el supuesto de los menores incapacitados, cuando la extensión de la incapacitación afecte al ejercicio y defensa de los derechos o intereses de que se trate."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Los servicios de la sociedad de la información» (Internet y los servicios de la sociedad de la información), la regulación vigente establece que: Son aquellos prestados a distancia, por vía electrónica y a petición del destinatario, como el acceso a la web, el correo o la descarga de documentos.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Internet y los servicios de la sociedad de la información), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son aquellos prestados a distancia, por vía electrónica y a petición del destinatario, como el acceso a la web, el correo o la descarga de documentos.»?",
+      "opciones": [
+        "Un sistema debe documentarse para poder mantenerlo.",
+        "Los servicios de la sociedad de la información.",
+        "Tipología de sistemas de información.",
+        "Capacidad de obrar (art. 3 Ley del Procedimiento Administrativo Común)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Son aquellos prestados a distancia, por vía electrónica y a petición del destinatario, como el acceso a la web, el correo o la descarga de documentos.») define o regula específicamente a «Los servicios de la sociedad de la información» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Internet y los servicios de la sociedad de la información), ¿qué establece la normativa respecto a «El navegador»?",
+      "opciones": [
+        "Establece con carácter general, el artículo 93 lo concreta para la Administración General de la Junta, y el artículo 95 regula su organización y funcionamiento.",
+        "Amenazas (software malicioso, phishing, accesos no autorizados), medidas en capas y gestión de cambios con reversión.",
+        "Es el programa que accede a los recursos de la web.",
+        "Las asociaciones y organizaciones representativas de intereses económicos y sociales serán titulares de intereses legítimos colectivos en los términos que la Ley reconozca."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El navegador» (Internet y los servicios de la sociedad de la información), la regulación vigente establece que: Es el programa que accede a los recursos de la web.",
+      "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los sistemas operativos. Los sistemas de gestión de bases de datos. Tipología de los sistemas de información. Sistemas de ayuda a la toma de decisiones, sistemas de trabajo en grupo, sistemas de tratamiento, almacenamiento y archivo de documentos, sistemas para tratamiento estadísticos, sistemas inteligentes, correo electrónico e internet. Concreción de los sistemas adoptados por la Junta de Andalucía.» (Internet y los servicios de la sociedad de la información), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el programa que accede a los recursos de la web.»?",
+      "opciones": [
+        "El artículo 92 de la ley lo.",
+        "Seguridad y documentación.",
+        "Concepto de interesado (art. 4 Ley del Procedimiento Administrativo Común).",
+        "El navegador."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es el programa que accede a los recursos de la web.») define o regula específicamente a «El navegador» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
       "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
     }
   ]

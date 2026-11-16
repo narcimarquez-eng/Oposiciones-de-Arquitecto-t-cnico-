@@ -1,17 +1,5 @@
 [
   {
-    "pregunta": "¿Suspende la interposición del recurso la ejecución del acto impugnado?",
-    "opciones": [
-      "No, salvo que una disposición establezca lo contrario, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "No, salvo que una disposición establezca lo contrario, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "No, salvo que una disposición establezca lo contrario",
-      "No, salvo que una disposición establezca lo contrario, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "La interposición de cualquier recurso no suspende la ejecución del acto, salvo disposición en contrario.",
-    "referencia": "LPAC, art. 117.1"
-  },
-  {
     "pregunta": "¿Cuándo se entiende suspendida la ejecución si no se resuelve la solicitud de suspensión?",
     "opciones": [
       "Transcurrido un mes contado a partir del día siguiente a la notificación contados de fecha a fecha desde su registro sin resolución expresa",
@@ -24,18 +12,6 @@
     "referencia": "LPAC, art. 117.3"
   },
   {
-    "pregunta": "¿Puede agravarse la situación del recurrente al resolver su recurso?",
-    "opciones": [
-      "No, en ningún caso puede agravarse su situación inicial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "No, en ningún caso puede agravarse su situación inicial",
-      "No, en ningún caso puede agravarse su situación inicial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "No, en ningún caso puede agravarse su situación inicial, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "El art. 119.3 LPAC prohíbe la reforma peyorativa.",
-    "referencia": "LPAC, art. 119.3"
-  },
-  {
     "pregunta": "¿En qué plazo puede interponerse el recurso extraordinario de revisión por error de hecho?",
     "opciones": [
       "cinco años desde que el acto fue dictado desde la notificación de la resolución",
@@ -46,18 +22,6 @@
     "correcta": 1,
     "explicacion": "En el supuesto de error de hecho el plazo es de cuatro años; en los demás, tres meses.",
     "referencia": "LPAC, art. 125.2"
-  },
-  {
-    "pregunta": "¿Cuándo puede la Administración declarar de oficio la nulidad de sus actos firmes?",
-    "opciones": [
-      "En cualquier momento, previo dictamen favorable del órgano consultivo",
-      "En cualquier momento, previo dictamen favorable del órgano consultivo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "En cualquier momento, previo dictamen favorable del órgano consultivo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "En cualquier momento, previo dictamen favorable del órgano consultivo, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "El art. 106.1 LPAC permite declarar la nulidad en cualquier momento.",
-    "referencia": "LPAC, art. 106.1"
   },
   {
     "pregunta": "¿En qué plazo puede declararse lesivo un acto favorable anulable?",
@@ -358,5 +322,41 @@
     "correcta": 1,
     "explicacion": "Dicha determinación («El procedimiento de recurso se iniciará mediante escrito que deberá presentarse en el plazo de quince días hábiles.») define o regula específicamente a «Iniciación del procedimiento y plazo (art. 50 Ley de Contratos del Sector Público)» (Art. 50 de Ley de Contratos del Sector Público).",
     "referencia": "Art. 50 de Ley de Contratos del Sector Público"
+  },
+  {
+    "pregunta": "En el ámbito de «La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza.» (El recurso potestativo de reposición), ¿qué establece la normativa respecto a «Para un examen, el punto clave es que la reposición es opcional»?",
+    "opciones": [
+      "Solo contra los actos que ponen fin a la vía administrativa (art. 123.1 LPAC).",
+      "Es el orden de los tribunales que controla la actuación de la Administración sujeta al Derecho administrativo.",
+      "Es de dos meses (art. 46.5 LJCA).",
+      "El interesado puede ir directamente al contencioso, cuyo plazo se cuenta desde la notificación de la resolución del recurso de reposición (art. 46.4 LJCA)."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Para un examen, el punto clave es que la reposición es opcional» (El recurso potestativo de reposición), la regulación vigente establece que: El interesado puede ir directamente al contencioso, cuyo plazo se cuenta desde la notificación de la resolución del recurso de reposición (art. 46.4 LJCA).",
+    "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+  },
+  {
+    "pregunta": "Dentro de la materia «La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza.» (El recurso potestativo de reposición), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El interesado puede ir directamente al contencioso, cuyo plazo se cuenta desde la notificación de la resolución del recurso de reposición (art. 46.4 LJCA).»?",
+    "opciones": [
+      "Para un examen, el punto clave es que la reposición es opcional.",
+      "Respuesta.",
+      "La jurisdicción contencioso-administrativa.",
+      "El plazo de lesividad."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («El interesado puede ir directamente al contencioso, cuyo plazo se cuenta desde la notificación de la resolución del recurso de reposición (art. 46.4 LJCA).») define o regula específicamente a «Para un examen, el punto clave es que la reposición es opcional» (Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)).",
+    "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+  },
+  {
+    "pregunta": "En el ámbito de «La revisión de los actos administrativos. Revisión de oficio. Los recursos administrativos: Concepto, clases y principios generales de su regulación. Actos que agotan la vía administrativa. La jurisdicción contencioso-administrativa: Concepto y naturaleza.» (Actos que ponen fin a la vía administrativa), ¿qué establece la normativa respecto a «El artículo 114.1 LPAC enumera los actos que ponen fin a la vía administrativa»?",
+    "opciones": [
+      "Se interpone contra actos firmes, solo por las causas tasadas del artículo 125.1, y su plazo depende de la causa.",
+      "Las resoluciones de los recursos de alzada.",
+      "La Administración General del Estado, las de las comunidades autónomas, las entidades que integran la Administración local, y las entidades de derecho público dependientes de ellas.",
+      "Primero la propia Administración (revisión y recursos), después los tribunales."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «El artículo 114.1 LPAC enumera los actos que ponen fin a la vía administrativa» (Actos que ponen fin a la vía administrativa), la regulación vigente establece que: Las resoluciones de los recursos de alzada.",
+    "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
   }
 ]

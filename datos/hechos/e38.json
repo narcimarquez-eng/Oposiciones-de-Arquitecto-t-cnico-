@@ -60,18 +60,6 @@
     "referencia": "RDL 1/2004 (TRLCI), art. 23.2"
   },
   {
-    "pregunta": "¿Qué es el Catastro Inmobiliario?",
-    "opciones": [
-      "Un registro administrativo dependiente del Ministerio de Hacienda que describe los bienes inmuebles",
-      "Un registro administrativo dependiente del Ministerio de Hacienda que describe los bienes inmuebles, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Un registro administrativo dependiente del Ministerio de Hacienda que describe los bienes inmuebles, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Un registro administrativo dependiente del Ministerio de Hacienda que describe los bienes inmuebles, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "El Catastro es un registro administrativo dependiente del Ministerio de Hacienda.",
-    "referencia": "RDL 1/2004 (TRLCI), art. 1.1"
-  },
-  {
     "pregunta": "¿Qué valor determina la Dirección General del Catastro a partir de los precios de mercado?",
     "opciones": [
       "El valor de referencia",
@@ -358,5 +346,17 @@
     "correcta": 1,
     "explicacion": "El artículo 48 de Ley de Expropiación Forzosa dispone literalmente: Una vez determinado el justo precio, se procederá al pago de la cantidad que resultare en el plazo máximo de seis meses.",
     "referencia": "Art. 48 de Ley de Expropiación Forzosa"
+  },
+  {
+    "pregunta": "En el ámbito de «Valoración de inmuebles. Normativa reguladora. El valor: Concepto y sus distintos significados. El justiprecio. La depreciación y sus diferentes causas. Métodos de valoración. Valor catastral: concepto, límites y determinación.» (La depreciación y sus causas), ¿qué establece la normativa respecto a «La depreciación física puede calcularse de tres formas»?",
+    "opciones": [
+      "Es el bruto menos la depreciación física y la funcional: 300.000 − 120.000 = 180.000 euros, si no hay depreciación funcional.",
+      "Por la vida útil total y residual que estima el tasador, que debe justificarla (art. 19, apartado 2, letra a).",
+      "Es una valoración individual que encarga un cliente para un fin concreto, como una garantía hipotecaria o una compraventa, y que emite un tasador con un método técnico y un informe.",
+      "Es un error que el cliente percibe como un fallo técnico."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «La depreciación física puede calcularse de tres formas» (La depreciación y sus causas), la regulación vigente establece que: Por la vida útil total y residual que estima el tasador, que debe justificarla (art. 19, apartado 2, letra a).",
+    "referencia": "Ley de 16 de diciembre de 1954 sobre expropiación forzosa (BOE núm. 351, de 17 de diciembre de 1954)"
   }
 ]

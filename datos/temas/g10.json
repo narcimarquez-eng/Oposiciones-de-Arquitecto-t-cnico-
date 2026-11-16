@@ -50,18 +50,6 @@
   ],
   "test": [
     {
-      "pregunta": "En una hoja de cálculo (LibreOffice Calc o Microsoft Excel), si en la celda C2 escribimos la fórmula «=$A1+B$2» y la copiamos o arrastramos una columna a la derecha y una fila hacia abajo (hasta la celda D3), ¿qué fórmula aparecerá exactamente en la celda D3?",
-      "opciones": [
-        "=$A2+C$2, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "=$A2+C$2",
-        "=$A2+C$2, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "=$A2+C$2, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "En `$A1` la columna A es absoluta (`$A`) y la fila 1 es relativa (pasa a 2 al bajar una fila: `$A2`); en `B$2` la columna B es relativa (pasa a C al desplazarse una columna a la derecha) y la fila 2 es absoluta (`$2`), resultando `=$A2+C$2`.",
-      "referencia": "Referencias relativas, absolutas y mixtas en Hojas de Cálculo"
-    },
-    {
       "pregunta": "En LibreOffice Calc y Microsoft Excel, dado un rango A1:A5 que contiene tres números (10, 20, 30), una palabra (\"Junta\") y una celda vacía, ¿qué resultado devolverán respectivamente las funciones «=CONTAR(A1:A5)» y «=CONTARA(A1:A5)»?",
       "opciones": [
         "=CONTAR(A1:A5) devolverá 4 y =CONTARA(A1:A5) devolverá 3",
@@ -146,18 +134,6 @@
       "referencia": "Atajos en Sistemas Ofimáticos"
     },
     {
-      "pregunta": "En una hoja de cálculo, ¿qué resultado numérico exacto devuelve la fórmula «=2+3*4^2/8-1» de acuerdo con el orden de prioridad estándar de los operadores aritméticos?",
-      "opciones": [
-        "7 (primero la potencia 4^2=16, luego multiplicación y división 3*16/8=6, y finalmente suma y resta 2+6-1=7), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "7 (primero la potencia 4^2=16, luego multiplicación y división 3*16/8=6, y finalmente suma y resta 2+6-1=7), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "7 (primero la potencia 4^2=16, luego multiplicación y división 3*16/8=6, y finalmente suma y resta 2+6-1=7), computándose los plazos en días naturales y con sentido desestimatorio",
-        "7 (primero la potencia 4^2=16, luego multiplicación y división 3*16/8=6, y finalmente suma y resta 2+6-1=7)"
-      ],
-      "correcta": 3,
-      "explicacion": "Por jerarquía de operadores: 1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`).",
-      "referencia": "Fórmulas y precedencia de operadores en Hojas de Cálculo"
-    },
-    {
       "pregunta": "En LibreOffice Calc y Microsoft Excel, ¿qué herramienta interactiva permite resumir, cruzar, agrupar y analizar dinámicamente grandes tablas de datos administrativos arrastrando campos a las áreas de Filas, Columnas, Valores y Filtros sin alterar la tabla de datos original?",
       "opciones": [
         "El salto de página preliminar",
@@ -182,30 +158,6 @@
       "referencia": "DEC-AND-622-2019"
     },
     {
-      "pregunta": "De acuerdo con la regulación de «Procesadores de texto (LibreOffice Writer / Microsoft Word): edición, formato y estilos», ¿qué se establece respecto a «Formatos de carácter y párrafo»?",
-      "opciones": [
-        "Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas",
-        "Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Formatos de carácter y párrafo: Fuente, tamaño, estilos de fuente, superíndice y subíndice; alineaciones, sangrías, interlineado, espaciado anterior/posterior y control de líneas viudas y huérfanas.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Procesadores de texto (LibreOffice Writer / Microsoft Word): edición, formato y estilos», ¿qué se establece respecto a «Estilos y Plantillas»?",
-      "opciones": [
-        "Los estilos agrupan un conjunto de atributos de formato bajo un nombre para aplicarlos de forma consistente y permitir la generación automática de Índices o Tablas de Contenido (TOC) a partir de los niveles de esquema, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los estilos agrupan un conjunto de atributos de formato bajo un nombre para aplicarlos de forma consistente y permitir la generación automática de Índices o Tablas de Contenido (TOC) a partir de los niveles de esquema",
-        "Los estilos agrupan un conjunto de atributos de formato bajo un nombre para aplicarlos de forma consistente y permitir la generación automática de Índices o Tablas de Contenido (TOC) a partir de los niveles de esquema, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los estilos agrupan un conjunto de atributos de formato bajo un nombre para aplicarlos de forma consistente y permitir la generación automática de Índices o Tablas de Contenido (TOC) a partir de los niveles de esquema, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Estilos y Plantillas: Los estilos agrupan un conjunto de atributos de formato bajo un nombre para aplicarlos de forma consistente y permitir la generación automática de Índices o Tablas de Contenido (TOC) a partir de los niveles de esquema.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
       "pregunta": "De acuerdo con la regulación de «Estructuración avanzada en procesadores de texto: secciones, tablas y combinación de correspondencia», ¿qué se establece respecto a «Saltos de página y Saltos de sección»?",
       "opciones": [
         "Doble clic sobre una palabra selecciona la palabra completa",
@@ -227,42 +179,6 @@
       ],
       "correcta": 0,
       "explicacion": "Tipos de tabulaciones en la regla: Izquierda, centrada, derecha, decimal (alinea los números por el separador decimal) y barra.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Estructuración avanzada en procesadores de texto: secciones, tablas y combinación de correspondencia», ¿qué se establece respecto a «Revisión, control de cambios y exportación a PDF/A»?",
-      "opciones": [
-        "Corrección ortográfica y gramatical (`F7`), sinónimos (`Mayús + F7`), control de cambios, inspección de propiedades/metadatos y exportación directa a formato PDF/A-1b o PDF/A-2b con firma digital para el expediente electrónico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Corrección ortográfica y gramatical (`F7`), sinónimos (`Mayús + F7`), control de cambios, inspección de propiedades/metadatos y exportación directa a formato PDF/A-1b o PDF/A-2b con firma digital para el expediente electrónico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Corrección ortográfica y gramatical (`F7`), sinónimos (`Mayús + F7`), control de cambios, inspección de propiedades/metadatos y exportación directa a formato PDF/A-1b o PDF/A-2b con firma digital para el expediente electrónico, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Corrección ortográfica y gramatical (`F7`), sinónimos (`Mayús + F7`), control de cambios, inspección de propiedades/metadatos y exportación directa a formato PDF/A-1b o PDF/A-2b con firma digital para el expediente electrónico"
-      ],
-      "correcta": 3,
-      "explicacion": "Revisión, control de cambios y exportación a PDF/A: Corrección ortográfica y gramatical (`F7`), sinónimos (`Mayús + F7`), control de cambios, inspección de propiedades/metadatos y exportación directa a formato PDF/A-1b o PDF/A-2b con firma digital para el expediente electrónico.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias», ¿qué se establece respecto a «Estructura del libro»?",
-      "opciones": [
-        "Un archivo de Calc o Excel se denomina «Libro de trabajo» y contiene una o varias «Hojas» organizadas en una cuadrícula de columnas y filas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un archivo de Calc o Excel se denomina «Libro de trabajo» y contiene una o varias «Hojas» organizadas en una cuadrícula de columnas y filas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un archivo de Calc o Excel se denomina «Libro de trabajo» y contiene una o varias «Hojas» organizadas en una cuadrícula de columnas y filas, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Un archivo de Calc o Excel se denomina «Libro de trabajo» y contiene una o varias «Hojas» organizadas en una cuadrícula de columnas y filas"
-      ],
-      "correcta": 3,
-      "explicacion": "Estructura del libro: Un archivo de Calc o Excel se denomina «Libro de trabajo» y contiene una o varias «Hojas» organizadas en una cuadrícula de columnas y filas.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias», ¿qué se establece respecto a «Operadores aritméticos por orden de prioridad»?",
-      "opciones": [
-        "Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`",
-        "Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Operadores aritméticos por orden de prioridad: Paréntesis `()`, porcentaje `%`, exponenciación `^`, multiplicación `*` y división `/`, suma `+` y resta `-`.",
       "referencia": "DEC-AND-622-2019"
     },
     {
@@ -299,30 +215,6 @@
       ],
       "correcta": 0,
       "explicacion": "Códigos de error en Calc y Excel: `#####`, `#¡DIV/0!`, `#¡VALOR!`, `#¿NOMBRE?`, `#¡REF!` y `#N/A` o `#N/D`.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Funciones esenciales, errores, gráficos y gestión de datos en Calc y Excel», ¿qué se establece respecto a «Gráficos y gestión de datos»?",
-      "opciones": [
-        "Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas",
-        "Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Gráficos y gestión de datos: Creación de gráficos, ordenación multinivel, Autofiltros y Filtros avanzados, Validación de datos, Formato condicional, Subtotales y Tablas Dinámicas.",
-      "referencia": "DEC-AND-622-2019"
-    },
-    {
-      "pregunta": "De acuerdo con la regulación de «Régimen de especialidades procedimentales, coordinación interadministrativa y supuestos prácticos», ¿qué se establece respecto a «Tal como precisa el articulado oficial, Por jerarquía de operadores»?",
-      "opciones": [
-        "1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`), computándose los plazos en días naturales y con sentido desestimatorio",
-        "1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`)"
-      ],
-      "correcta": 3,
-      "explicacion": "Tal como precisa el articulado oficial, Por jerarquía de operadores: 1.º Exponenciación (`4^2 = 16`); 2.º Multiplicación y división de izquierda a derecha (`3 * 16 = 48`; `48 / 8 = 6`); 3.º Suma y resta (`2 + 6 - 1 = 7`).",
       "referencia": "DEC-AND-622-2019"
     },
     {
@@ -542,18 +434,6 @@
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
-      "pregunta": "En relación con «Operadores de comparación» (Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias), señale la determinación correcta conforme a la normativa del tema:",
-      "opciones": [
-        "`=`, `<>` (distinto), `<`, `>`, `<=`, `>=`.",
-        "`=`, `<>` (distinto), `<`, `>`, `<=`, `>=`, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "`=`, `<>` (distinto), `<`, `>`, `<=`, `>=`, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "`=`, `<>` (distinto), `<`, `>`, `<=`, `>=`, computándose los plazos en días naturales y con sentido desestimatorio."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «Operadores de comparación» (Hojas de cálculo (LibreOffice Calc / Microsoft Excel): libros, celdas y referencias), la regulación vigente establece que: `=`, `<>` (distinto), `<`, `>`, `<=`, `>=`.",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
       "pregunta": "Dentro del estudio de «Funciones esenciales, errores, gráficos y gestión de datos en Calc y Excel» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «`=CONCATENAR` / `=CONCAT`, `=IZQUIERDA`, `=DERECHA`, `=EXTRAE` (`=MID`), `=LARGO` (longitud de cadena), `=ESPACIOS`.»?",
       "opciones": [
         "Funciones de texto.",
@@ -578,18 +458,6 @@
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
-      "pregunta": "En relación con «Tal como precisa el articulado oficial, Por jerarquía de operadores» (Régimen de especialidades procedimentales, coordinación interadministrativa y supuestos prácticos), señale la determinación correcta conforme a la normativa del tema:",
-      "opciones": [
-        "1.º Exponenciación (`4^2 = 16`).",
-        "1.º Exponenciación (`4^2 = 16`), previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "1.º Exponenciación (`4^2 = 16`), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "1.º Exponenciación (`4^2 = 16`), computándose los plazos en días naturales y con sentido desestimatorio."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «Tal como precisa el articulado oficial, Por jerarquía de operadores» (Régimen de especialidades procedimentales, coordinación interadministrativa y supuestos prácticos), la regulación vigente establece que: 1.º Exponenciación (`4^2 = 16`).",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
       "pregunta": "Dentro del estudio de «Régimen de especialidades procedimentales, coordinación interadministrativa y supuestos prácticos» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «1.º Exponenciación (`4^2 = 16`).»?",
       "opciones": [
         "Ámbito de aplicación (art. 2 Administración electrónica).",
@@ -599,18 +467,6 @@
       ],
       "correcta": 1,
       "explicacion": "Dicha regulación («1.º Exponenciación (`4^2 = 16`).») define o regula específicamente a «Tal como precisa el articulado oficial, Por jerarquía de operadores» (Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)).",
-      "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
-    },
-    {
-      "pregunta": "En relación con «Esquema Nacional de Seguridad (Real Decreto 311/2022, de 3 de mayo)» (Síntesis de verificación normativa y textos oficiales del tema), señale la determinación correcta conforme a la normativa del tema:",
-      "opciones": [
-        "Protección de documentos ofimáticos, metadatos, firma electrónica y control de versiones, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "Protección de documentos ofimáticos, metadatos, firma electrónica y control de versiones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "Protección de documentos ofimáticos, metadatos, firma electrónica y control de versiones.",
-        "Protección de documentos ofimáticos, metadatos, firma electrónica y control de versiones, computándose los plazos en días naturales y con sentido desestimatorio."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «Esquema Nacional de Seguridad (Real Decreto 311/2022, de 3 de mayo)» (Síntesis de verificación normativa y textos oficiales del tema), la regulación vigente establece que: Protección de documentos ofimáticos, metadatos, firma electrónica y control de versiones.",
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
@@ -626,18 +482,6 @@
       "referencia": "Decreto 622/2019, de 27 de diciembre, de administración electrónica, simplificación de procedimientos y racionalización organizativa de la Junta de Andalucía (BOJA núm. 250, de 31 de diciembre de 2019)"
     },
     {
-      "pregunta": "En relación con «Ámbito de aplicación (art. 2 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
-      "opciones": [
-        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.",
-        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas, computándose los plazos en días naturales y con sentido desestimatorio."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «Ámbito de aplicación (art. 2 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.",
-      "referencia": "Art. 2 de Administración electrónica"
-    },
-    {
       "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.»?",
       "opciones": [
         "Revisión normativa (art. 9 Administración electrónica).",
@@ -648,18 +492,6 @@
       "correcta": 1,
       "explicacion": "Dicha regulación («ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA los mismos en los preceptos de este decreto y, en todo caso, cuando ejerzan potestades administrativas.») define o regula específicamente a «Ámbito de aplicación (art. 2 Administración electrónica)» (Art. 2 de Administración electrónica).",
       "referencia": "Art. 2 de Administración electrónica"
-    },
-    {
-      "pregunta": "En relación con «Informe en materia de simplificación y organización (art. 8 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
-      "opciones": [
-        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos.",
-        "ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos, computándose los plazos en días naturales y con sentido desestimatorio."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «Informe en materia de simplificación y organización (art. 8 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos.",
-      "referencia": "Art. 8 de Administración electrónica"
     },
     {
       "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «ISSN: 2253 - 802X http://www.juntadeandalucia.es/eboja BOJA aprobación, en lo relativo a organización administrativa y procedimientos administrativos.»?",
@@ -674,18 +506,6 @@
       "referencia": "Art. 8 de Administración electrónica"
     },
     {
-      "pregunta": "En relación con «Revisión normativa (art. 9 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
-      "opciones": [
-        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía.",
-        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía, computándose los plazos en días naturales y con sentido desestimatorio."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «Revisión normativa (art. 9 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía.",
-      "referencia": "Art. 9 de Administración electrónica"
-    },
-    {
       "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía.»?",
       "opciones": [
         "Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica).",
@@ -696,18 +516,6 @@
       "correcta": 1,
       "explicacion": "Dicha regulación («Estos planes tendrán como objetivo la revisión, simplificación y, en su caso, consolidación normativa de las disposiciones vigentes en el Derecho propio de la Comunidad Autónoma de Andalucía.») define o regula específicamente a «Revisión normativa (art. 9 Administración electrónica)» (Art. 9 de Administración electrónica).",
       "referencia": "Art. 9 de Administración electrónica"
-    },
-    {
-      "pregunta": "En relación con «Registro de Procedimientos y Servicios (art. 10 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
-      "opciones": [
-        "00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.",
-        "00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979, computándose los plazos en días naturales y con sentido desestimatorio."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «Registro de Procedimientos y Servicios (art. 10 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: 00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.",
-      "referencia": "Art. 10 de Administración electrónica"
     },
     {
       "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.»?",
@@ -722,18 +530,6 @@
       "referencia": "Art. 10 de Administración electrónica"
     },
     {
-      "pregunta": "En relación con «Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
-      "opciones": [
-        "El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas.",
-        "El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas, computándose los plazos en días naturales y con sentido desestimatorio."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas.",
-      "referencia": "Art. 11 de Administración electrónica"
-    },
-    {
       "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas.»?",
       "opciones": [
         "Portal de la Junta de Andalucía (art. 15 Administración electrónica).",
@@ -746,18 +542,6 @@
       "referencia": "Art. 11 de Administración electrónica"
     },
     {
-      "pregunta": "En relación con «Formularios (art. 12 Administración electrónica)» (Articulado de Administración electrónica), señale la determinación correcta conforme a la normativa del tema:",
-      "opciones": [
-        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal, previa autorización preceptiva y vinculante del Consejo de Gobierno.",
-        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo.",
-        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.",
-        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal, computándose los plazos en días naturales y con sentido desestimatorio."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «Formularios (art. 12 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.",
-      "referencia": "Art. 12 de Administración electrónica"
-    },
-    {
       "pregunta": "Dentro del estudio de «Articulado de Administración electrónica» (Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.»?",
       "opciones": [
         "Portales de Internet específicos (art. 16 Administración electrónica).",
@@ -768,6 +552,222 @@
       "correcta": 3,
       "explicacion": "Dicha regulación («Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.») define o regula específicamente a «Formularios (art. 12 Administración electrónica)» (Art. 12 de Administración electrónica).",
       "referencia": "Art. 12 de Administración electrónica"
+    },
+    {
+      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿qué establece la normativa respecto a «Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica)»?",
+      "opciones": [
+        "El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas.",
+        "Podrán crearse portales específicos para difundir de manera más directa la información relativa a una concreta competencia o materia.",
+        "El Registro Electrónico Único será accesible en las sedes electrónicas, rigiéndose por su fecha y hora oficial y donde constará el calendario de días inhábiles.",
+        "El acceso se podrá efectuar: 1.º Por parte de la persona interesada o su representante, empleando un medio de identificación electrónica de los previstos en los artículos 21 y 22."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Catálogo de Procedimientos y Servicios (art. 11 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: El Catálogo de Procedimientos y Servicios estará publicado en el Portal de la Junta de Andalucía y en las sedes electrónicas.",
+      "referencia": "Art. 11 de Administración electrónica"
+    },
+    {
+      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿qué establece la normativa respecto a «Formularios (art. 12 Administración electrónica)»?",
+      "opciones": [
+        "Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.",
+        "Los puntos de acceso electrónico que tengan la condición de sede electrónica deberán hacerlo constar de forma visible e inequívoca.",
+        "El Registro Electrónico Único permitirá la presentación de los datos y documentos que las personas interesadas deseen acompañar voluntariamente a los escritos.",
+        "No cabrá realizar mediante actuación administrativa automatizada actividades que supongan juicios de valor."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Formularios (art. 12 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: Los formularios incluirán una cláusula que garantice el cumplimiento de los requisitos establecidos en materia de información sobre la protección de datos de carácter personal.",
+      "referencia": "Art. 12 de Administración electrónica"
+    },
+    {
+      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿qué establece la normativa respecto a «Portal de la Junta de Andalucía (art. 15 Administración electrónica)»?",
+      "opciones": [
+        "La política de firma electrónica de la Administración de la Junta de Andalucía, sus agencias y, en su caso, consorcios adscritos será la que se establece en el Anexo I.",
+        "El Registro Electrónico Único funcionará ininterrumpidamente para la recepción de solicitudes, escritos y comunicaciones.",
+        "Su dirección electrónica será www.juntadeandalucia.es.",
+        "En el caso de la publicación de notificaciones infructuosas, ésta será previa y complementaria a la que establece el artículo 44 de la Ley 39/2015, de 1 de octubre."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Portal de la Junta de Andalucía (art. 15 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: Su dirección electrónica será www.juntadeandalucia.es.",
+      "referencia": "Art. 15 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro de la materia «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Su dirección electrónica será www.juntadeandalucia.es.»?",
+      "opciones": [
+        "Portal de la Junta de Andalucía (art. 15 Administración electrónica).",
+        "Política de firma electrónica (art. 21 Administración electrónica).",
+        "Funcionamiento del Registro Electrónico Único (art. 28 Administración electrónica).",
+        "Publicación de actos y tablón de edictos electrónico (art. 41 Administración electrónica)."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Su dirección electrónica será www.juntadeandalucia.es.») define o regula específicamente a «Portal de la Junta de Andalucía (art. 15 Administración electrónica)» (Art. 15 de Administración electrónica).",
+      "referencia": "Art. 15 de Administración electrónica"
+    },
+    {
+      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿qué establece la normativa respecto a «Portales de Internet específicos (art. 16 Administración electrónica)»?",
+      "opciones": [
+        "El Registro Electrónico Único será accesible en las sedes electrónicas, rigiéndose por su fecha y hora oficial y donde constará el calendario de días inhábiles.",
+        "El acceso se podrá efectuar: 1.º Por parte de la persona interesada o su representante, empleando un medio de identificación electrónica de los previstos en los artículos 21 y 22.",
+        "Podrán crearse portales específicos para difundir de manera más directa la información relativa a una concreta competencia o materia.",
+        "Sus principales finalidades son: 00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Portales de Internet específicos (art. 16 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: Podrán crearse portales específicos para difundir de manera más directa la información relativa a una concreta competencia o materia.",
+      "referencia": "Art. 16 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro de la materia «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Podrán crearse portales específicos para difundir de manera más directa la información relativa a una concreta competencia o materia.»?",
+      "opciones": [
+        "Registro Electrónico Único (art. 26 Administración electrónica).",
+        "Medios de notificación electrónica y vías de acceso (art. 30 Administración electrónica).",
+        "Gestión documental (art. 43 Administración electrónica).",
+        "Portales de Internet específicos (art. 16 Administración electrónica)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Podrán crearse portales específicos para difundir de manera más directa la información relativa a una concreta competencia o materia.») define o regula específicamente a «Portales de Internet específicos (art. 16 Administración electrónica)» (Art. 16 de Administración electrónica).",
+      "referencia": "Art. 16 de Administración electrónica"
+    },
+    {
+      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿qué establece la normativa respecto a «Contenidos y servicios de las sedes electrónicas (art. 18 Administración electrónica)»?",
+      "opciones": [
+        "Los puntos de acceso electrónico que tengan la condición de sede electrónica deberán hacerlo constar de forma visible e inequívoca.",
+        "El Registro Electrónico Único permitirá la presentación de los datos y documentos que las personas interesadas deseen acompañar voluntariamente a los escritos.",
+        "No cabrá realizar mediante actuación administrativa automatizada actividades que supongan juicios de valor.",
+        "La Administración de la Junta de Andalucía dispondrá de un Registro electrónico de apoderamientos conforme a lo previsto en la legislación del procedimiento administrativo común."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Contenidos y servicios de las sedes electrónicas (art. 18 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: Los puntos de acceso electrónico que tengan la condición de sede electrónica deberán hacerlo constar de forma visible e inequívoca.",
+      "referencia": "Art. 18 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro de la materia «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Los puntos de acceso electrónico que tengan la condición de sede electrónica deberán hacerlo constar de forma visible e inequívoca.»?",
+      "opciones": [
+        "Presentación de documentos (art. 27 Administración electrónica).",
+        "Contenidos y servicios de las sedes electrónicas (art. 18 Administración electrónica).",
+        "Actuación administrativa automatizada (art. 40 Administración electrónica).",
+        "Registro electrónico de apoderamientos (art. 45 Administración electrónica)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Los puntos de acceso electrónico que tengan la condición de sede electrónica deberán hacerlo constar de forma visible e inequívoca.») define o regula específicamente a «Contenidos y servicios de las sedes electrónicas (art. 18 Administración electrónica)» (Art. 18 de Administración electrónica).",
+      "referencia": "Art. 18 de Administración electrónica"
+    },
+    {
+      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿qué establece la normativa respecto a «Política de firma electrónica (art. 21 Administración electrónica)»?",
+      "opciones": [
+        "El Registro Electrónico Único funcionará ininterrumpidamente para la recepción de solicitudes, escritos y comunicaciones.",
+        "En el caso de la publicación de notificaciones infructuosas, ésta será previa y complementaria a la que establece el artículo 44 de la Ley 39/2015, de 1 de octubre.",
+        "La política de firma electrónica de la Administración de la Junta de Andalucía, sus agencias y, en su caso, consorcios adscritos será la que se establece en el Anexo I.",
+        "La habilitación se llevará a cabo por la persona titular del órgano directivo central con competencia en materia de personal de la Consejería de adscripción o unidad equivalente en el caso de las agencias."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Política de firma electrónica (art. 21 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: La política de firma electrónica de la Administración de la Junta de Andalucía, sus agencias y, en su caso, consorcios adscritos será la que se establece en el Anexo I.",
+      "referencia": "Art. 21 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro de la materia «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La política de firma electrónica de la Administración de la Junta de Andalucía, sus agencias y, en su caso, consorcios adscritos será la que se establece en el Anexo I.»?",
+      "opciones": [
+        "Funcionamiento del Registro Electrónico Único (art. 28 Administración electrónica).",
+        "Publicación de actos y tablón de edictos electrónico (art. 41 Administración electrónica).",
+        "Funcionarios públicos habilitados (art. 46 Administración electrónica).",
+        "Política de firma electrónica (art. 21 Administración electrónica)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («La política de firma electrónica de la Administración de la Junta de Andalucía, sus agencias y, en su caso, consorcios adscritos será la que se establece en el Anexo I.») define o regula específicamente a «Política de firma electrónica (art. 21 Administración electrónica)» (Art. 21 de Administración electrónica).",
+      "referencia": "Art. 21 de Administración electrónica"
+    },
+    {
+      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿qué establece la normativa respecto a «Registro Electrónico Único (art. 26 Administración electrónica)»?",
+      "opciones": [
+        "El Registro Electrónico Único será accesible en las sedes electrónicas, rigiéndose por su fecha y hora oficial y donde constará el calendario de días inhábiles.",
+        "El acceso se podrá efectuar: 1.º Por parte de la persona interesada o su representante, empleando un medio de identificación electrónica de los previstos en los artículos 21 y 22.",
+        "Sus principales finalidades son: 00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.",
+        "Este real decreto tiene por objeto regular el Esquema Nacional de Seguridad (en adelante, ENS), establecido en el artículo 156.2 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Registro Electrónico Único (art. 26 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: El Registro Electrónico Único será accesible en las sedes electrónicas, rigiéndose por su fecha y hora oficial y donde constará el calendario de días inhábiles.",
+      "referencia": "Art. 26 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro de la materia «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El Registro Electrónico Único será accesible en las sedes electrónicas, rigiéndose por su fecha y hora oficial y donde constará el calendario de días inhábiles.»?",
+      "opciones": [
+        "Medios de notificación electrónica y vías de acceso (art. 30 Administración electrónica).",
+        "Registro Electrónico Único (art. 26 Administración electrónica).",
+        "Gestión documental (art. 43 Administración electrónica).",
+        "Objeto (art. 1 Esquema Nacional de Seguridad)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («El Registro Electrónico Único será accesible en las sedes electrónicas, rigiéndose por su fecha y hora oficial y donde constará el calendario de días inhábiles.») define o regula específicamente a «Registro Electrónico Único (art. 26 Administración electrónica)» (Art. 26 de Administración electrónica).",
+      "referencia": "Art. 26 de Administración electrónica"
+    },
+    {
+      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿qué establece la normativa respecto a «Presentación de documentos (art. 27 Administración electrónica)»?",
+      "opciones": [
+        "No cabrá realizar mediante actuación administrativa automatizada actividades que supongan juicios de valor.",
+        "La Administración de la Junta de Andalucía dispondrá de un Registro electrónico de apoderamientos conforme a lo previsto en la legislación del procedimiento administrativo común.",
+        "El Registro Electrónico Único permitirá la presentación de los datos y documentos que las personas interesadas deseen acompañar voluntariamente a los escritos.",
+        "La política de seguridad a que se refiere el artículo 12 será aprobada en el caso de estas entidades por el órgano que ostente las máximas competencias ejecutivas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Presentación de documentos (art. 27 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: El Registro Electrónico Único permitirá la presentación de los datos y documentos que las personas interesadas deseen acompañar voluntariamente a los escritos.",
+      "referencia": "Art. 27 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro de la materia «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El Registro Electrónico Único permitirá la presentación de los datos y documentos que las personas interesadas deseen acompañar voluntariamente a los escritos.»?",
+      "opciones": [
+        "Actuación administrativa automatizada (art. 40 Administración electrónica).",
+        "Registro electrónico de apoderamientos (art. 45 Administración electrónica).",
+        "Ámbito de aplicación (art. 2 Esquema Nacional de Seguridad).",
+        "Presentación de documentos (art. 27 Administración electrónica)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El Registro Electrónico Único permitirá la presentación de los datos y documentos que las personas interesadas deseen acompañar voluntariamente a los escritos.») define o regula específicamente a «Presentación de documentos (art. 27 Administración electrónica)» (Art. 27 de Administración electrónica).",
+      "referencia": "Art. 27 de Administración electrónica"
+    },
+    {
+      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿qué establece la normativa respecto a «Funcionamiento del Registro Electrónico Único (art. 28 Administración electrónica)»?",
+      "opciones": [
+        "El Registro Electrónico Único funcionará ininterrumpidamente para la recepción de solicitudes, escritos y comunicaciones.",
+        "En el caso de la publicación de notificaciones infructuosas, ésta será previa y complementaria a la que establece el artículo 44 de la Ley 39/2015, de 1 de octubre.",
+        "La habilitación se llevará a cabo por la persona titular del órgano directivo central con competencia en materia de personal de la Consejería de adscripción o unidad equivalente en el caso de las agencias.",
+        "A los efectos previstos en este real decreto, las definiciones, palabras, expresiones y términos han de ser entendidos en el sentido indicado en el Glosario de términos incluido en el anexo IV."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Funcionamiento del Registro Electrónico Único (art. 28 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: El Registro Electrónico Único funcionará ininterrumpidamente para la recepción de solicitudes, escritos y comunicaciones.",
+      "referencia": "Art. 28 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro de la materia «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El Registro Electrónico Único funcionará ininterrumpidamente para la recepción de solicitudes, escritos y comunicaciones.»?",
+      "opciones": [
+        "Publicación de actos y tablón de edictos electrónico (art. 41 Administración electrónica).",
+        "Funcionamiento del Registro Electrónico Único (art. 28 Administración electrónica).",
+        "Funcionarios públicos habilitados (art. 46 Administración electrónica).",
+        "Definiciones (art. 4 Esquema Nacional de Seguridad)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («El Registro Electrónico Único funcionará ininterrumpidamente para la recepción de solicitudes, escritos y comunicaciones.») define o regula específicamente a «Funcionamiento del Registro Electrónico Único (art. 28 Administración electrónica)» (Art. 28 de Administración electrónica).",
+      "referencia": "Art. 28 de Administración electrónica"
+    },
+    {
+      "pregunta": "En el ámbito de «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿qué establece la normativa respecto a «Medios de notificación electrónica y vías de acceso (art. 30 Administración electrónica)»?",
+      "opciones": [
+        "Sus principales finalidades son: 00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.",
+        "Este real decreto tiene por objeto regular el Esquema Nacional de Seguridad (en adelante, ENS), establecido en el artículo 156.2 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
+        "El acceso se podrá efectuar: 1.º Por parte de la persona interesada o su representante, empleando un medio de identificación electrónica de los previstos en los artículos 21 y 22.",
+        "El objeto último de la seguridad de la información es garantizar que una organización podrá cumplir sus objetivos, desarrollar sus funciones y ejercer sus competencias utilizando sistemas de información."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Medios de notificación electrónica y vías de acceso (art. 30 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: El acceso se podrá efectuar: 1.º Por parte de la persona interesada o su representante, empleando un medio de identificación electrónica de los previstos en los artículos 21 y 22.",
+      "referencia": "Art. 30 de Administración electrónica"
+    },
+    {
+      "pregunta": "Dentro de la materia «Sistemas Ofimáticos en la Administración Pública (LibreOffice Writer y Calc / Microsoft Word y Excel). Procesadores de texto: creación y estructuración de documentos, estilos, plantillas, tablas, combinación de correspondencia e impresión. Hojas de cálculo: libros, hojas, celdas, referencias relativas y absolutas, fórmulas, funciones lógicas, de búsqueda y estadísticas, tablas dinámicas y gráficos.» (Articulado de Administración electrónica), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El acceso se podrá efectuar: 1.º Por parte de la persona interesada o su representante, empleando un medio de identificación electrónica de los previstos en los artículos 21 y 22.»?",
+      "opciones": [
+        "Gestión documental (art. 43 Administración electrónica).",
+        "Objeto (art. 1 Esquema Nacional de Seguridad).",
+        "Principios básicos del Esquema Nacional de Seguridad (art. 5 Esquema Nacional de Seguridad).",
+        "Medios de notificación electrónica y vías de acceso (art. 30 Administración electrónica)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El acceso se podrá efectuar: 1.º Por parte de la persona interesada o su representante, empleando un medio de identificación electrónica de los previstos en los artículos 21 y 22.») define o regula específicamente a «Medios de notificación electrónica y vías de acceso (art. 30 Administración electrónica)» (Art. 30 de Administración electrónica).",
+      "referencia": "Art. 30 de Administración electrónica"
     }
   ]
 }

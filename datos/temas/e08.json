@@ -85,78 +85,6 @@
   ],
   "test": [
     {
-      "pregunta": "Según la ITC-BT-10, apartado 2.2, ¿cuál es la potencia mínima a prever en una vivienda de nueva construcción con grado de electrificación elevado?",
-      "opciones": [
-        "9.200 W",
-        "9.200 W, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "9.200 W, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "9.200 W, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "En las viviendas con grado de electrificación elevada, la potencia a prever no será inferior a 9.200 W.",
-      "referencia": "ITC-BT-10, apartado 2.2"
-    },
-    {
-      "pregunta": "Según la ITC-BT-25, apartado 2.1, ¿cuál es la intensidad mínima del interruptor general automático de una vivienda?",
-      "opciones": [
-        "25 A, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "25 A, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "25 A",
-        "25 A, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El interruptor general automático de corte omnipolar tiene una intensidad nominal mínima de 25 A.",
-      "referencia": "ITC-BT-25, apartado 2.1"
-    },
-    {
-      "pregunta": "Según la ITC-BT-25, apartado 2.1, ¿cuál es la intensidad diferencial-residual máxima de los diferenciales que protegen los circuitos de una vivienda?",
-      "opciones": [
-        "30 mA, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "30 mA, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "30 mA, computándose los plazos en días naturales y con sentido desestimatorio",
-        "30 mA"
-      ],
-      "correcta": 3,
-      "explicacion": "Los interruptores diferenciales tienen una intensidad diferencial-residual máxima de 30 mA.",
-      "referencia": "ITC-BT-25, apartado 2.1"
-    },
-    {
-      "pregunta": "Según la ITC-BT-19, apartado 2.2.2, ¿cuál es la caída de tensión admisible para alumbrado en instalaciones interiores distintas de las de vivienda?",
-      "opciones": [
-        "3 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "3 %",
-        "3 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "3 %, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Para alumbrado la caída de tensión es del 3 %, y para los demás usos, del 5 %, en las instalaciones interiores o receptoras distintas de los circuitos de viviendas.",
-      "referencia": "ITC-BT-19, apartado 2.2.2"
-    },
-    {
-      "pregunta": "Según la ITC-BT-05, apartado 4.2, ¿con qué periodicidad se inspeccionan las instalaciones que precisaron inspección inicial?",
-      "opciones": [
-        "Cada cinco años",
-        "Cada cinco años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cada cinco años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cada cinco años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Las instalaciones que precisaron inspección inicial se inspeccionan periódicamente cada cinco años; las comunes de viviendas de potencia superior a 100 kW, cada diez años.",
-      "referencia": "ITC-BT-05, apartado 4.2"
-    },
-    {
-      "pregunta": "Según la ITC-BT-04, apartado 3.1, ¿a partir de qué potencia precisa proyecto una nueva industria?",
-      "opciones": [
-        "Desde 20 kW (potencia superior a 20 kW), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Desde 20 kW (potencia superior a 20 kW), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Desde 20 kW (potencia superior a 20 kW)",
-        "Desde 20 kW (potencia superior a 20 kW), computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las instalaciones de industrias, en general, precisan proyecto cuando la potencia es superior a 20 kW.",
-      "referencia": "ITC-BT-04, apartado 3.1, grupo a"
-    },
-    {
       "pregunta": "Según el RD 346/2011, art. 10.1, ¿en qué plazo debe presentarse electrónicamente el acta de replanteo de la ICT tras su redacción y firma?",
       "opciones": [
         "En un plazo de un año",
@@ -181,294 +109,6 @@
       "referencia": "RD 346/2011, art. 9.1"
     },
     {
-      "pregunta": "Según el RD 1627/1997, anexo IV, apartado 10.b, ¿qué debe hacerse con las instalaciones eléctricas existentes antes del comienzo de la obra?",
-      "opciones": [
-        "Localizarlas, verificarlas y señalizarlas claramente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Localizarlas, verificarlas y señalizarlas claramente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Localizarlas, verificarlas y señalizarlas claramente",
-        "Localizarlas, verificarlas y señalizarlas claramente, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las instalaciones existentes antes del comienzo de la obra deben estar localizadas, verificadas y señaladas claramente.",
-      "referencia": "Anexo IV, apartado 10.b RD 1627/1997"
-    },
-    {
-      "pregunta": "Según la ITC-BT-25, tabla de circuitos, ¿cuál es la potencia máxima por circuito de calefacción en una vivienda?",
-      "opciones": [
-        "5.750 W",
-        "5.750 W, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "5.750 W, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "5.750 W, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los circuitos de calefacción y de aire acondicionado tienen una potencia máxima permisible por circuito de 5.750 W (nota 2 de la tabla).",
-      "referencia": "ITC-BT-25, tabla de circuitos, nota 2"
-    },
-    {
-      "pregunta": "¿Qué reglamento regula las instalaciones eléctricas de baja tensión?",
-      "opciones": [
-        "El Reglamento electrotécnico para baja tensión (RD 842/2002), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El Reglamento electrotécnico para baja tensión (RD 842/2002)",
-        "El Reglamento electrotécnico para baja tensión (RD 842/2002), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El Reglamento electrotécnico para baja tensión (RD 842/2002), computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las instalaciones eléctricas de baja tensión se rigen por el RD 842/2002 y sus ITC-BT.",
-      "referencia": "RD 842/2002"
-    },
-    {
-      "pregunta": "¿Qué reglamento regula las infraestructuras comunes de telecomunicaciones (ICT)?",
-      "opciones": [
-        "El RD 346/2011",
-        "El RD 346/2011, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El RD 346/2011, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El RD 346/2011, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Las ICT se regulan por el RD 346/2011.",
-      "referencia": "RD 346/2011"
-    },
-    {
-      "pregunta": "¿Qué grado de electrificación se da en viviendas con calefacción eléctrica?",
-      "opciones": [
-        "Grado elevado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Grado elevado",
-        "Grado elevado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Grado elevado, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las viviendas con calefacción o climatización eléctricas tienen grado elevado de electrificación.",
-      "referencia": "ITC-BT-10, apartado 2.1"
-    },
-    {
-      "pregunta": "¿Qué grado de electrificación corresponde al uso de los aparatos de uso común?",
-      "opciones": [
-        "Grado básico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Grado básico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Grado básico, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Grado básico"
-      ],
-      "correcta": 3,
-      "explicacion": "El grado básico corresponde al uso de los aparatos de uso común.",
-      "referencia": "ITC-BT-10, apartado 2.1"
-    },
-    {
-      "pregunta": "¿Qué tipo de interruptor general debe instalarse en la vivienda?",
-      "opciones": [
-        "Un interruptor general automático de corte omnipolar",
-        "Un interruptor general automático de corte omnipolar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un interruptor general automático de corte omnipolar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un interruptor general automático de corte omnipolar, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Se instala un interruptor general automático de corte omnipolar.",
-      "referencia": "ITC-BT-25, apartado 2.1"
-    },
-    {
-      "pregunta": "¿Qué tipo de protección diferencial se exige en las instalaciones?",
-      "opciones": [
-        "Interruptores diferenciales de 30 mA como máximo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Interruptores diferenciales de 30 mA como máximo",
-        "Interruptores diferenciales de 30 mA como máximo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Interruptores diferenciales de 30 mA como máximo, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los interruptores diferenciales tienen un máximo de 30 mA.",
-      "referencia": "ITC-BT-25, apartado 2.1"
-    },
-    {
-      "pregunta": "¿Quién realiza las verificaciones previas a la puesta en servicio de la instalación?",
-      "opciones": [
-        "La empresa instaladora, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La empresa instaladora, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La empresa instaladora",
-        "La empresa instaladora, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La empresa instaladora realiza las verificaciones previas a la puesta en servicio.",
-      "referencia": "ITC-BT-05, apartado 2.1"
-    },
-    {
-      "pregunta": "¿Qué documento de diseño de la instalación eléctrica se exige según la ITC-BT-04?",
-      "opciones": [
-        "Proyecto o memoria técnica de diseño, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Proyecto o memoria técnica de diseño, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Proyecto o memoria técnica de diseño, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Proyecto o memoria técnica de diseño"
-      ],
-      "correcta": 3,
-      "explicacion": "La ITC-BT-04 exige un proyecto o memoria técnica de diseño.",
-      "referencia": "ITC-BT-04, apartado 3.1"
-    },
-    {
-      "pregunta": "¿Cuál es el tipo de caída de tensión máxima en circuitos interiores de viviendas?",
-      "opciones": [
-        "Inferior al 3 %",
-        "Inferior al 3 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Inferior al 3 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Inferior al 3 %, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La caída de tensión debe ser inferior al 3 % en los circuitos interiores de viviendas.",
-      "referencia": "ITC-BT-19, apartado 2.2.2"
-    },
-    {
-      "pregunta": "¿Qué ITC regula la puesta a tierra?",
-      "opciones": [
-        "La ITC-BT-18, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La ITC-BT-18",
-        "La ITC-BT-18, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La ITC-BT-18, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La puesta a tierra se regula en la ITC-BT-18.",
-      "referencia": "ITC-BT-18"
-    },
-    {
-      "pregunta": "¿Qué tipo de inspección periódica se hace en las instalaciones eléctricas comunes de más de 100 kW?",
-      "opciones": [
-        "Cada diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cada diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cada diez años",
-        "Cada diez años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "En las comunes de viviendas de más de 100 kW la inspección es cada diez años.",
-      "referencia": "ITC-BT-05, apartado 4.2"
-    },
-    {
-      "pregunta": "¿Qué función tiene la ICT respecto a la radiodifusión?",
-      "opciones": [
-        "Captar y distribuir la radiodifusión, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Captar y distribuir la radiodifusión, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Captar y distribuir la radiodifusión, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Captar y distribuir la radiodifusión"
-      ],
-      "correcta": 3,
-      "explicacion": "La ICT capta y distribuye la radiodifusión y da acceso a telefonía y banda ancha.",
-      "referencia": "RD 346/2011, art. 2.1"
-    },
-    {
-      "pregunta": "¿Qué documento se exige para las infraestructuras comunes de telecomunicaciones?",
-      "opciones": [
-        "Un proyecto técnico",
-        "Un proyecto técnico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un proyecto técnico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un proyecto técnico, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La ICT requiere proyecto técnico.",
-      "referencia": "RD 346/2011, art. 9.1"
-    },
-    {
-      "pregunta": "¿Dónde se sitúa el punto de interconexión con los operadores de telecomunicaciones?",
-      "opciones": [
-        "En el RITI, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "En el RITI",
-        "En el RITI, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "En el RITI, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "En el RITI se sitúa el punto de interconexión con los operadores.",
-      "referencia": "RD 346/2011, anexo II"
-    },
-    {
-      "pregunta": "¿Qué recinto se sitúa en el recinto superior de la ICT?",
-      "opciones": [
-        "El RITS, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El RITS, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El RITS",
-        "El RITS, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El RITS se sitúa en el recinto superior.",
-      "referencia": "RD 346/2011, anexo II"
-    },
-    {
-      "pregunta": "¿Qué ley regula la propiedad horizontal que se cita para la conservación de la ICT?",
-      "opciones": [
-        "La Ley 49/1960, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La Ley 49/1960, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La Ley 49/1960, computándose los plazos en días naturales y con sentido desestimatorio",
-        "La Ley 49/1960"
-      ],
-      "correcta": 3,
-      "explicacion": "La conservación de la ICT en propiedad horizontal se regula por el art. 10 de la Ley 49/1960.",
-      "referencia": "RD 346/2011, art. 13.1"
-    },
-    {
-      "pregunta": "¿Dónde se incluye el plan de mantenimiento del edificio?",
-      "opciones": [
-        "En el libro del edificio",
-        "En el libro del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "En el libro del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "En el libro del edificio, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El plan de mantenimiento forma parte del libro del edificio.",
-      "referencia": "CTE, art. 8.1"
-    },
-    {
-      "pregunta": "¿Qué se regula en el anexo IV del RD 1627/1997 sobre las instalaciones de energía en obra?",
-      "opciones": [
-        "El mantenimiento de las instalaciones de distribución de energía en obra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El mantenimiento de las instalaciones de distribución de energía en obra",
-        "El mantenimiento de las instalaciones de distribución de energía en obra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El mantenimiento de las instalaciones de distribución de energía en obra, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El apartado 10 del anexo IV regula el mantenimiento de las instalaciones de energía en obra.",
-      "referencia": "RD 1627/1997, anexo IV, apartado 10"
-    },
-    {
-      "pregunta": "¿Qué exigencia del CTE regula la seguridad de utilización en las instalaciones?",
-      "opciones": [
-        "Art. 12.1 del CTE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Art. 12.1 del CTE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Art. 12.1 del CTE",
-        "Art. 12.1 del CTE, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La seguridad de utilización se recoge en el art. 12.1 del CTE.",
-      "referencia": "CTE, art. 12.1"
-    },
-    {
-      "pregunta": "¿Qué norma regula las instalaciones de ahorro de energía en el CTE?",
-      "opciones": [
-        "El art. 15.1 del CTE, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El art. 15.1 del CTE, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El art. 15.1 del CTE, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El art. 15.1 del CTE"
-      ],
-      "correcta": 3,
-      "explicacion": "El ahorro de energía se recoge en el art. 15.1 del CTE.",
-      "referencia": "CTE, art. 15.1"
-    },
-    {
-      "pregunta": "¿Qué ITC del REBT regula las instalaciones en locales de pública concurrencia?",
-      "opciones": [
-        "ITC-BT-28, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "ITC-BT-28, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "ITC-BT-28",
-        "ITC-BT-28, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La ITC-BT-28 regula las instalaciones en locales de pública concurrencia.",
-      "referencia": "ITC-BT-28"
-    },
-    {
-      "pregunta": "¿Qué certificado documenta la verificación de una instalación eléctrica?",
-      "opciones": [
-        "Certificado de instalación eléctrica",
-        "Certificado de instalación eléctrica, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Certificado de instalación eléctrica, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Certificado de instalación eléctrica, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El certificado de instalación recoge la verificación final de la instalación eléctrica.",
-      "referencia": "RD 842/2002"
-    },
-    {
       "pregunta": "¿Qué elementos protegen a las personas frente a contactos indirectos?",
       "opciones": [
         "Cable de cobre sin funda",
@@ -479,66 +119,6 @@
       "correcta": 1,
       "explicacion": "El diferencial y la puesta a tierra protegen frente a contactos indirectos.",
       "referencia": "ITC-BT-24"
-    },
-    {
-      "pregunta": "¿Qué significa RITI en una ICT?",
-      "opciones": [
-        "Recinto inferior de instalaciones de telecomunicaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Recinto inferior de instalaciones de telecomunicaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Recinto inferior de instalaciones de telecomunicaciones",
-        "Recinto inferior de instalaciones de telecomunicaciones, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El RITI es el recinto inferior de la infraestructura común de telecomunicaciones.",
-      "referencia": "RD 346/2011, anexo II"
-    },
-    {
-      "pregunta": "¿Qué tipo de cable se usa habitualmente en redes de telecomunicaciones de la ICT?",
-      "opciones": [
-        "Fibra óptica o cable coaxial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Fibra óptica o cable coaxial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Fibra óptica o cable coaxial, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Fibra óptica o cable coaxial"
-      ],
-      "correcta": 3,
-      "explicacion": "Las ICT emplean cables de fibra óptica o coaxial para la distribución de señales.",
-      "referencia": "RD 346/2011"
-    },
-    {
-      "pregunta": "¿Qué potencia mínima debe preverse en una vivienda de electrificación básica?",
-      "opciones": [
-        "5.750 W a 230 V, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "5.750 W a 230 V, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "5.750 W a 230 V, computándose los plazos en días naturales y con sentido desestimatorio",
-        "5.750 W a 230 V"
-      ],
-      "correcta": 3,
-      "explicacion": "Para nuevas construcciones la potencia a prever no será inferior a 5.750 W a 230 V en cada vivienda.",
-      "referencia": "ITC-BT-10, apartado 2.2.1"
-    },
-    {
-      "pregunta": "¿Qué potencia mínima debe preverse en una vivienda de electrificación elevada?",
-      "opciones": [
-        "9.200 W",
-        "9.200 W, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "9.200 W, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "9.200 W, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "En viviendas con grado de electrificación elevada la potencia a prever no será inferior a 9.200 W.",
-      "referencia": "ITC-BT-10, apartado 2.2.1"
-    },
-    {
-      "pregunta": "¿En cuántos volúmenes clasifica la ITC-BT-27 los locales que contienen bañera o ducha?",
-      "opciones": [
-        "Cuatro: volúmenes 0, 1, 2 y 3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cuatro: volúmenes 0, 1, 2 y 3",
-        "Cuatro: volúmenes 0, 1, 2 y 3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cuatro: volúmenes 0, 1, 2 y 3, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La ITC-BT-27 clasifica los volúmenes 0, 1, 2 y 3.",
-      "referencia": "ITC-BT-27, apartado 2.1"
     },
     {
       "pregunta": "¿Qué documentación se presenta al terminar la instalación de una ICT, además del certificado del director de obra cuando proceda?",
@@ -553,18 +133,6 @@
       "referencia": "RD 346/2011"
     },
     {
-      "pregunta": "¿Dónde se ubica el registro principal óptico de la ICT?",
-      "opciones": [
-        "En el RITI o en el RITU, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "En el RITI o en el RITU, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "En el RITI o en el RITU, computándose los plazos en días naturales y con sentido desestimatorio",
-        "En el RITI o en el RITU"
-      ],
-      "correcta": 3,
-      "explicacion": "Los elementos de la red de fibra óptica del edificio se sitúan en el registro principal óptico ubicado en el RITI o RITU.",
-      "referencia": "RD 346/2011, anexo II"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Grado de electrificación y potencia), ¿qué establece la normativa respecto a «Grado básico»?",
       "opciones": [
         "Uso de los aparatos de uso común.",
@@ -574,18 +142,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Grado básico» (Grado de electrificación y potencia), la regulación vigente establece que: Uso de los aparatos de uso común.",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Grado de electrificación y potencia), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Uso de los aparatos de uso común.»?",
-      "opciones": [
-        "Grado básico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Grado básico.",
-        "Grado básico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Grado básico, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Uso de los aparatos de uso común.») define o regula específicamente a «Grado básico» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -601,18 +157,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Grado de electrificación y potencia), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «No menos de 5.750 W a 230 V por vivienda en nuevas construcciones, y no menos de 9.200 W en grado elevado (ITC-BT-10, apartado 2.2).»?",
-      "opciones": [
-        "Potencia a prever, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Potencia a prever, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Potencia a prever, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Potencia a prever."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («No menos de 5.750 W a 230 V por vivienda en nuevas construcciones, y no menos de 9.200 W en grado elevado (ITC-BT-10, apartado 2.2).») define o regula específicamente a «Potencia a prever» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Caída de tensión y puesta a tierra), ¿qué establece la normativa respecto a «La puesta a tierra»?",
       "opciones": [
         "Regula las tomas de tierra, los conductores de tierra, los bornes y los conductores de protección (ITC-BT-18).",
@@ -622,18 +166,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «La puesta a tierra» (Caída de tensión y puesta a tierra), la regulación vigente establece que: Regula las tomas de tierra, los conductores de tierra, los bornes y los conductores de protección (ITC-BT-18).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Caída de tensión y puesta a tierra), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula las tomas de tierra, los conductores de tierra, los bornes y los conductores de protección (ITC-BT-18).»?",
-      "opciones": [
-        "La puesta a tierra, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La puesta a tierra.",
-        "La puesta a tierra, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La puesta a tierra, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Regula las tomas de tierra, los conductores de tierra, los bornes y los conductores de protección (ITC-BT-18).») define o regula específicamente a «La puesta a tierra» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -673,18 +205,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Seguridad y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Mantenimiento de las instalaciones de distribución de energía en obra, localización de las existentes y medidas frente a líneas aéreas.»?",
-      "opciones": [
-        "Anexo IV del RD 1627/1997, apartado 10, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Anexo IV del RD 1627/1997, apartado 10.",
-        "Anexo IV del RD 1627/1997, apartado 10, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Anexo IV del RD 1627/1997, apartado 10, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Mantenimiento de las instalaciones de distribución de energía en obra, localización de las existentes y medidas frente a líneas aéreas.») define o regula específicamente a «Anexo IV del RD 1627/1997, apartado 10» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Tipos de instalación eléctrica y su composición), ¿qué establece la normativa respecto a «La regla general»?",
       "opciones": [
         "Exige que la ICT tenga un proyecto técnico, que debe describir detalladamente los elementos de la instalación, su ubicación y sus dimensiones, con referencia a las normas que cumplen (art. 9.1).",
@@ -694,18 +214,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «La regla general» (Tipos de instalación eléctrica y su composición), la regulación vigente establece que: Es que, cuanto más especial es el local, más exigencias de protección y de inspección tiene la instalación.",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Tipos de instalación eléctrica y su composición), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es que, cuanto más especial es el local, más exigencias de protección y de inspección tiene la instalación.»?",
-      "opciones": [
-        "La regla general, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La regla general, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La regla general, computándose los plazos en días naturales y con sentido desestimatorio",
-        "La regla general."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Es que, cuanto más especial es el local, más exigencias de protección y de inspección tiene la instalación.») define o regula específicamente a «La regla general» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -721,18 +229,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Circuitos y protecciones de la vivienda), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son posibles si todos los circuitos quedan protegidos a 30 mA como máximo (apartado 2.1).»?",
-      "opciones": [
-        "Los diferenciales en serie, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los diferenciales en serie.",
-        "Los diferenciales en serie, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los diferenciales en serie, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Son posibles si todos los circuitos quedan protegidos a 30 mA como máximo (apartado 2.1).») define o regula específicamente a «Los diferenciales en serie» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Puesta a tierra y protección contra contactos), ¿qué establece la normativa respecto a «La ITC-BT-24»?",
       "opciones": [
         "Es el punto en el que la canalización de enlace se conecta con la del edificio, y el punto de interconexión se sitúa en él.",
@@ -742,18 +238,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «La ITC-BT-24» (Puesta a tierra y protección contra contactos), la regulación vigente establece que: Regula la protección contra contactos directos e indirectos.",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
-      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Puesta a tierra y protección contra contactos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la protección contra contactos directos e indirectos.»?",
-      "opciones": [
-        "La ITC-BT-24, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La ITC-BT-24, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La ITC-BT-24, computándose los plazos en días naturales y con sentido desestimatorio",
-        "La ITC-BT-24."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Regula la protección contra contactos directos e indirectos.») define o regula específicamente a «La ITC-BT-24» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
@@ -769,18 +253,6 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
-      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Infraestructuras comunes de telecomunicaciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige que la ICT tenga un proyecto técnico, que debe describir detalladamente los elementos de la instalación, su ubicación y sus dimensiones, con referencia a las normas que cumplen (art. 9.1).»?",
-      "opciones": [
-        "El reglamento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El reglamento.",
-        "El reglamento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El reglamento, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Exige que la ICT tenga un proyecto técnico, que debe describir detalladamente los elementos de la instalación, su ubicación y sus dimensiones, con referencia a las normas que cumplen (art. 9.1).») define o regula específicamente a «El reglamento» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-    },
-    {
       "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Infraestructuras comunes de telecomunicaciones), ¿qué establece la normativa respecto a «Las normas técnicas aplicables»?",
       "opciones": [
         "Es el principal riesgo de la instalación en obra, por contacto directo con partes en tensión o por contacto indirecto con masas que quedan bajo tensión por un fallo.",
@@ -793,16 +265,544 @@
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
     },
     {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Grado de electrificación y potencia), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Uso de los aparatos de uso común.»?",
+      "opciones": [
+        "Recintos.",
+        "Grado básico.",
+        "Los diferenciales en serie.",
+        "Las normas técnicas aplicables."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Uso de los aparatos de uso común.») define o regula específicamente a «Grado básico» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Grado de electrificación y potencia), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «No menos de 5.750 W a 230 V por vivienda en nuevas construcciones, y no menos de 9.200 W en grado elevado (ITC-BT-10, apartado 2.2).»?",
+      "opciones": [
+        "Anexo IV del RD 1627/1997, apartado 10.",
+        "La ITC-BT-24.",
+        "El registro principal.",
+        "Potencia a prever."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («No menos de 5.750 W a 230 V por vivienda en nuevas construcciones, y no menos de 9.200 W en grado elevado (ITC-BT-10, apartado 2.2).») define o regula específicamente a «Potencia a prever» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Caída de tensión y puesta a tierra), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula las tomas de tierra, los conductores de tierra, los bornes y los conductores de protección (ITC-BT-18).»?",
+      "opciones": [
+        "La regla general.",
+        "La puesta a tierra.",
+        "El reglamento.",
+        "El régimen sancionador de la ICT se."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Regula las tomas de tierra, los conductores de tierra, los bornes y los conductores de protección (ITC-BT-18).») define o regula específicamente a «La puesta a tierra» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Seguridad y mantenimiento), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Mantenimiento de las instalaciones de distribución de energía en obra, localización de las existentes y medidas frente a líneas aéreas.»?",
+      "opciones": [
+        "La ITC-BT-24.",
+        "El registro principal.",
+        "Los factores que influyen en el precio.",
+        "Anexo IV del RD 1627/1997, apartado 10."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Mantenimiento de las instalaciones de distribución de energía en obra, localización de las existentes y medidas frente a líneas aéreas.») define o regula específicamente a «Anexo IV del RD 1627/1997, apartado 10» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Tipos de instalación eléctrica y su composición), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es que, cuanto más especial es el local, más exigencias de protección y de inspección tiene la instalación.»?",
+      "opciones": [
+        "El reglamento.",
+        "La regla general.",
+        "El régimen sancionador de la ICT se.",
+        "El primero."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es que, cuanto más especial es el local, más exigencias de protección y de inspección tiene la instalación.») define o regula específicamente a «La regla general» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Circuitos y protecciones de la vivienda), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son posibles si todos los circuitos quedan protegidos a 30 mA como máximo (apartado 2.1).»?",
+      "opciones": [
+        "Las normas técnicas aplicables.",
+        "El riesgo eléctrico.",
+        "El segundo.",
+        "Los diferenciales en serie."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Son posibles si todos los circuitos quedan protegidos a 30 mA como máximo (apartado 2.1).») define o regula específicamente a «Los diferenciales en serie» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Puesta a tierra y protección contra contactos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula la protección contra contactos directos e indirectos.»?",
+      "opciones": [
+        "La ITC-BT-24.",
+        "El registro principal.",
+        "Los factores que influyen en el precio.",
+        "El tercero."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Regula la protección contra contactos directos e indirectos.») define o regula específicamente a «La ITC-BT-24» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Infraestructuras comunes de telecomunicaciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige que la ICT tenga un proyecto técnico, que debe describir detalladamente los elementos de la instalación, su ubicación y sus dimensiones, con referencia a las normas que cumplen (art. 9.1).»?",
+      "opciones": [
+        "El régimen sancionador de la ICT se.",
+        "El reglamento.",
+        "El primero.",
+        "El primero es el de potencia y circuitos."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Exige que la ICT tenga un proyecto técnico, que debe describir detalladamente los elementos de la instalación, su ubicación y sus dimensiones, con referencia a las normas que cumplen (art. 9.1).») define o regula específicamente a «El reglamento» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
       "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Infraestructuras comunes de telecomunicaciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el anexo I para la captación y distribución de la radiodifusión, el anexo II para la telefonía y la banda ancha, y el anexo III para la obra civil (art. 4.1).»?",
       "opciones": [
-        "Las normas técnicas aplicables, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las normas técnicas aplicables, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las normas técnicas aplicables, computándose los plazos en días naturales y con sentido desestimatorio",
+        "El riesgo eléctrico.",
+        "El segundo.",
+        "El segundo es el de documentación y verificación.",
         "Las normas técnicas aplicables."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Son el anexo I para la captación y distribución de la radiodifusión, el anexo II para la telefonía y la banda ancha, y el anexo III para la obra civil (art. 4.1).») define o regula específicamente a «Las normas técnicas aplicables» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
       "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Canalizaciones y recintos de la ICT), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el punto en el que la canalización de enlace se conecta con la del edificio, y el punto de interconexión se sitúa en él.»?",
+      "opciones": [
+        "El registro principal.",
+        "Los factores que influyen en el precio.",
+        "El tercero.",
+        "El tercero es el de telecomunicaciones."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es el punto en el que la canalización de enlace se conecta con la del edificio, y el punto de interconexión se sitúa en él.») define o regula específicamente a «El registro principal» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Conservación e inspección de la ICT), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula en el artículo 15 del reglamento.»?",
+      "opciones": [
+        "El primero.",
+        "El régimen sancionador de la ICT se.",
+        "El primero es el de potencia y circuitos.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Regula en el artículo 15 del reglamento.») define o regula específicamente a «El régimen sancionador de la ICT se» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el principal riesgo de la instalación en obra, por contacto directo con partes en tensión o por contacto indirecto con masas que quedan bajo tensión por un fallo.»?",
+      "opciones": [
+        "El segundo.",
+        "El segundo es el de documentación y verificación.",
+        "El riesgo eléctrico.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es el principal riesgo de la instalación en obra, por contacto directo con partes en tensión o por contacto indirecto con masas que quedan bajo tensión por un fallo.») define o regula específicamente a «El riesgo eléctrico» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Criterios de medición y factores del precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el grado de electrificación de la vivienda, que determina el número de circuitos y la sección de los conductores.»?",
+      "opciones": [
+        "El tercero.",
+        "El tercero es el de telecomunicaciones.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Los factores que influyen en el precio."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Son el grado de electrificación de la vivienda, que determina el número de circuitos y la sección de los conductores.») define o regula específicamente a «Los factores que influyen en el precio» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El segundo es el de documentación y verificación»?",
+      "opciones": [
+        "Proyecto o MTD, verificaciones previas de la empresa instaladora, inspecciones iniciales y periódicas.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El segundo es el de documentación y verificación» (Cómo estudiarlo para el examen), la regulación vigente establece que: Proyecto o MTD, verificaciones previas de la empresa instaladora, inspecciones iniciales y periódicas.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Proyecto o MTD, verificaciones previas de la empresa instaladora, inspecciones iniciales y periódicas.»?",
+      "opciones": [
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "El segundo es el de documentación y verificación.",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Proyecto o MTD, verificaciones previas de la empresa instaladora, inspecciones iniciales y periódicas.») define o regula específicamente a «El segundo es el de documentación y verificación» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El tercero es el de telecomunicaciones»?",
+      "opciones": [
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "La ICT, sus recintos, el proyecto técnico, el acta de replanteo y la conservación en la propiedad horizontal.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El tercero es el de telecomunicaciones» (Cómo estudiarlo para el examen), la regulación vigente establece que: La ICT, sus recintos, el proyecto técnico, el acta de replanteo y la conservación en la propiedad horizontal.",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La ICT, sus recintos, el proyecto técnico, el acta de replanteo y la conservación en la propiedad horizontal.»?",
+      "opciones": [
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "El tercero es el de telecomunicaciones."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («La ICT, sus recintos, el proyecto técnico, el acta de replanteo y la conservación en la propiedad horizontal.») define o regula específicamente a «El tercero es el de telecomunicaciones» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
+      "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Igualmente se considerará modificación de importancia la que afecte a líneas completas de procesos productivos con nuevos circuitos y cuadros, aun con reducción de potencia."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.»?",
+      "opciones": [
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Campo de aplicación (art. 2 Reglamento electrotécnico para baja tensión)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.») define o regula específicamente a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Art. único de Código Técnico de la Edificación).",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Los materiales y equipos utilizados en las instalaciones deberán ser utilizados en la forma y para la finalidad que fueron fabricados."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.»?",
+      "opciones": [
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Equipos y materiales (art. 6 Reglamento electrotécnico para baja tensión).",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.») define o regula específicamente a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Art. 4 de Código Técnico de la Edificación).",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "A efectos del presente Reglamento, los suministros se clasifican en normales y complementarios."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.»?",
+      "opciones": [
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Tipos de suministro (art. 10 Reglamento electrotécnico para baja tensión)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.») define o regula específicamente a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Art. 5 de Código Técnico de la Edificación).",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Igualmente se considerará modificación de importancia la que afecte a líneas completas de procesos productivos con nuevos circuitos y cuadros, aun con reducción de potencia.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "Se denomina acometida la parte de la instalación de la red de distribución que alimenta la caja o cajas generales de protección o unidad funcional equivalente."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.»?",
+      "opciones": [
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Campo de aplicación (art. 2 Reglamento electrotécnico para baja tensión).",
+        "Acometidas e instalaciones de enlace (art. 15 Reglamento electrotécnico para baja tensión).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.») define o regula específicamente a «Condiciones del proyecto (art. 6 Código Técnico de la Edificación)» (Art. 6 de Código Técnico de la Edificación).",
+      "referencia": "Art. 6 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "Los materiales y equipos utilizados en las instalaciones deberán ser utilizados en la forma y para la finalidad que fueron fabricados.",
+        "Las instalaciones interiores o receptoras son las que, alimentadas por una red de distribución o por una fuente de energía propia, tienen como finalidad principal la utilización de la energía eléctrica."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+      "referencia": "Art. 7 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.»?",
+      "opciones": [
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Equipos y materiales (art. 6 Reglamento electrotécnico para baja tensión).",
+        "Instalaciones interiores o receptoras (art. 16 Reglamento electrotécnico para baja tensión)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.») define o regula específicamente a «Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)» (Art. 7 de Código Técnico de la Edificación).",
+      "referencia": "Art. 7 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "A efectos del presente Reglamento, los suministros se clasifican en normales y complementarios.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Ello se entiende sin perjuicio del posible proyecto y dirección de obra por técnicos titulados competentes que, en su caso, requieran las citadas instalaciones."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+      "referencia": "Art. 8 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.»?",
+      "opciones": [
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Tipos de suministro (art. 10 Reglamento electrotécnico para baja tensión).",
+        "Empresas instaladoras (art. 22 Reglamento electrotécnico para baja tensión).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.») define o regula específicamente a «Condiciones del edificio (art. 8 Código Técnico de la Edificación)» (Art. 8 de Código Técnico de la Edificación).",
+      "referencia": "Art. 8 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Generalidades (art. 9 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Igualmente se considerará modificación de importancia la que afecte a líneas completas de procesos productivos con nuevos circuitos y cuadros, aun con reducción de potencia.",
+        "Se denomina acometida la parte de la instalación de la red de distribución que alimenta la caja o cajas generales de protección o unidad funcional equivalente.",
+        "Las prescripciones establecidas en el presente Reglamento tendrán la condición de mínimos obligatorios, en el sentido de lo indicado por el artículo 12.5 de la Ley 21/1992, de Industria."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Generalidades (art. 9 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+      "referencia": "Art. 9 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.»?",
+      "opciones": [
+        "Campo de aplicación (art. 2 Reglamento electrotécnico para baja tensión).",
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Acometidas e instalaciones de enlace (art. 15 Reglamento electrotécnico para baja tensión).",
+        "Cumplimiento de las prescripciones (art. 23 Reglamento electrotécnico para baja tensión)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.») define o regula específicamente a «Generalidades (art. 9 Código Técnico de la Edificación)» (Art. 9 de Código Técnico de la Edificación).",
+      "referencia": "Art. 9 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Los materiales y equipos utilizados en las instalaciones deberán ser utilizados en la forma y para la finalidad que fueron fabricados.",
+        "Las instalaciones interiores o receptoras son las que, alimentadas por una red de distribución o por una fuente de energía propia, tienen como finalidad principal la utilización de la energía eléctrica.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "Dicha referencia se realizará, por regla general, sin indicar el año de edición de las normas en cuestión."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+      "referencia": "Art. 10 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.»?",
+      "opciones": [
+        "Equipos y materiales (art. 6 Reglamento electrotécnico para baja tensión).",
+        "Instalaciones interiores o receptoras (art. 16 Reglamento electrotécnico para baja tensión).",
+        "Normas de referencia (art. 26 Reglamento electrotécnico para baja tensión).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.») define o regula específicamente a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Art. 10 de Código Técnico de la Edificación).",
+      "referencia": "Art. 10 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "A efectos del presente Reglamento, los suministros se clasifican en normales y complementarios.",
+        "Ello se entiende sin perjuicio del posible proyecto y dirección de obra por técnicos titulados competentes que, en su caso, requieran las citadas instalaciones.",
+        "Para ello, cuando se produzca un accidente que ocasione daños o víctimas, la compañía suministradora deberá redactar un informe que recoja los aspectos esenciales del mismo."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+      "referencia": "Art. 15 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.»?",
+      "opciones": [
+        "Tipos de suministro (art. 10 Reglamento electrotécnico para baja tensión).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Empresas instaladoras (art. 22 Reglamento electrotécnico para baja tensión).",
+        "Accidentes (art. 27 Reglamento electrotécnico para baja tensión)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.») define o regula específicamente a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Art. 15 de Código Técnico de la Edificación).",
+      "referencia": "Art. 15 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿qué establece la normativa respecto a «Campo de aplicación (art. 2 Reglamento electrotécnico para baja tensión)»?",
+      "opciones": [
+        "Se denomina acometida la parte de la instalación de la red de distribución que alimenta la caja o cajas generales de protección o unidad funcional equivalente.",
+        "Las prescripciones establecidas en el presente Reglamento tendrán la condición de mínimos obligatorios, en el sentido de lo indicado por el artículo 12.5 de la Ley 21/1992, de Industria.",
+        "Igualmente se considerará modificación de importancia la que afecte a líneas completas de procesos productivos con nuevos circuitos y cuadros, aun con reducción de potencia.",
+        "Las infracciones a lo dispuesto en el presente reglamento se clasificarán y sancionarán de acuerdo con lo dispuesto en el Título V de la Ley 21/1992, de Industria."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Campo de aplicación (art. 2 Reglamento electrotécnico para baja tensión)» (Articulado de Reglamento electrotécnico para baja tensión), la regulación vigente establece que: Igualmente se considerará modificación de importancia la que afecte a líneas completas de procesos productivos con nuevos circuitos y cuadros, aun con reducción de potencia.",
+      "referencia": "Art. 2 de Reglamento electrotécnico para baja tensión"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Igualmente se considerará modificación de importancia la que afecte a líneas completas de procesos productivos con nuevos circuitos y cuadros, aun con reducción de potencia.»?",
+      "opciones": [
+        "Acometidas e instalaciones de enlace (art. 15 Reglamento electrotécnico para baja tensión).",
+        "Cumplimiento de las prescripciones (art. 23 Reglamento electrotécnico para baja tensión).",
+        "Infracciones y sanciones (art. 28 Reglamento electrotécnico para baja tensión).",
+        "Campo de aplicación (art. 2 Reglamento electrotécnico para baja tensión)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Igualmente se considerará modificación de importancia la que afecte a líneas completas de procesos productivos con nuevos circuitos y cuadros, aun con reducción de potencia.») define o regula específicamente a «Campo de aplicación (art. 2 Reglamento electrotécnico para baja tensión)» (Art. 2 de Reglamento electrotécnico para baja tensión).",
+      "referencia": "Art. 2 de Reglamento electrotécnico para baja tensión"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿qué establece la normativa respecto a «Equipos y materiales (art. 6 Reglamento electrotécnico para baja tensión)»?",
+      "opciones": [
+        "Los materiales y equipos utilizados en las instalaciones deberán ser utilizados en la forma y para la finalidad que fueron fabricados.",
+        "Las instalaciones interiores o receptoras son las que, alimentadas por una red de distribución o por una fuente de energía propia, tienen como finalidad principal la utilización de la energía eléctrica.",
+        "Dicha referencia se realizará, por regla general, sin indicar el año de edición de las normas en cuestión.",
+        "La adaptación podrá llevarse a cabo, en la medida en que resulte indispensable, mediante la construcción de una infraestructura adicional a la preexistente."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Equipos y materiales (art. 6 Reglamento electrotécnico para baja tensión)» (Articulado de Reglamento electrotécnico para baja tensión), la regulación vigente establece que: Los materiales y equipos utilizados en las instalaciones deberán ser utilizados en la forma y para la finalidad que fueron fabricados.",
+      "referencia": "Art. 6 de Reglamento electrotécnico para baja tensión"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Los materiales y equipos utilizados en las instalaciones deberán ser utilizados en la forma y para la finalidad que fueron fabricados.»?",
+      "opciones": [
+        "Instalaciones interiores o receptoras (art. 16 Reglamento electrotécnico para baja tensión).",
+        "Equipos y materiales (art. 6 Reglamento electrotécnico para baja tensión).",
+        "Normas de referencia (art. 26 Reglamento electrotécnico para baja tensión).",
+        "Definiciones (art. 2 Reglamento de infraestructuras comunes de telecomunicaciones (ICT))."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Los materiales y equipos utilizados en las instalaciones deberán ser utilizados en la forma y para la finalidad que fueron fabricados.») define o regula específicamente a «Equipos y materiales (art. 6 Reglamento electrotécnico para baja tensión)» (Art. 6 de Reglamento electrotécnico para baja tensión).",
+      "referencia": "Art. 6 de Reglamento electrotécnico para baja tensión"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿qué establece la normativa respecto a «Tipos de suministro (art. 10 Reglamento electrotécnico para baja tensión)»?",
+      "opciones": [
+        "Ello se entiende sin perjuicio del posible proyecto y dirección de obra por técnicos titulados competentes que, en su caso, requieran las citadas instalaciones.",
+        "Para ello, cuando se produzca un accidente que ocasione daños o víctimas, la compañía suministradora deberá redactar un informe que recoja los aspectos esenciales del mismo.",
+        "A efectos del presente Reglamento, los suministros se clasifican en normales y complementarios.",
+        "En el proyecto técnico se describirán, detalladamente, todos los elementos que componen la instalación y su ubicación y dimensiones, con mención de las normas que cumplen."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Tipos de suministro (art. 10 Reglamento electrotécnico para baja tensión)» (Articulado de Reglamento electrotécnico para baja tensión), la regulación vigente establece que: A efectos del presente Reglamento, los suministros se clasifican en normales y complementarios.",
+      "referencia": "Art. 10 de Reglamento electrotécnico para baja tensión"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «A efectos del presente Reglamento, los suministros se clasifican en normales y complementarios.»?",
+      "opciones": [
+        "Empresas instaladoras (art. 22 Reglamento electrotécnico para baja tensión).",
+        "Accidentes (art. 27 Reglamento electrotécnico para baja tensión).",
+        "Proyecto técnico (art. 9 Reglamento de infraestructuras comunes de telecomunicaciones (ICT)).",
+        "Tipos de suministro (art. 10 Reglamento electrotécnico para baja tensión)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («A efectos del presente Reglamento, los suministros se clasifican en normales y complementarios.») define o regula específicamente a «Tipos de suministro (art. 10 Reglamento electrotécnico para baja tensión)» (Art. 10 de Reglamento electrotécnico para baja tensión).",
+      "referencia": "Art. 10 de Reglamento electrotécnico para baja tensión"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿qué establece la normativa respecto a «Acometidas e instalaciones de enlace (art. 15 Reglamento electrotécnico para baja tensión)»?",
+      "opciones": [
+        "Se denomina acometida la parte de la instalación de la red de distribución que alimenta la caja o cajas generales de protección o unidad funcional equivalente.",
+        "Las prescripciones establecidas en el presente Reglamento tendrán la condición de mínimos obligatorios, en el sentido de lo indicado por el artículo 12.5 de la Ley 21/1992, de Industria.",
+        "Las infracciones a lo dispuesto en el presente reglamento se clasificarán y sancionarán de acuerdo con lo dispuesto en el Título V de la Ley 21/1992, de Industria.",
+        "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Acometidas e instalaciones de enlace (art. 15 Reglamento electrotécnico para baja tensión)» (Articulado de Reglamento electrotécnico para baja tensión), la regulación vigente establece que: Se denomina acometida la parte de la instalación de la red de distribución que alimenta la caja o cajas generales de protección o unidad funcional equivalente.",
+      "referencia": "Art. 15 de Reglamento electrotécnico para baja tensión"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se denomina acometida la parte de la instalación de la red de distribución que alimenta la caja o cajas generales de protección o unidad funcional equivalente.»?",
+      "opciones": [
+        "Cumplimiento de las prescripciones (art. 23 Reglamento electrotécnico para baja tensión).",
+        "Acometidas e instalaciones de enlace (art. 15 Reglamento electrotécnico para baja tensión).",
+        "Infracciones y sanciones (art. 28 Reglamento electrotécnico para baja tensión).",
+        "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Se denomina acometida la parte de la instalación de la red de distribución que alimenta la caja o cajas generales de protección o unidad funcional equivalente.») define o regula específicamente a «Acometidas e instalaciones de enlace (art. 15 Reglamento electrotécnico para baja tensión)» (Art. 15 de Reglamento electrotécnico para baja tensión).",
+      "referencia": "Art. 15 de Reglamento electrotécnico para baja tensión"
+    },
+    {
+      "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿qué establece la normativa respecto a «Instalaciones interiores o receptoras (art. 16 Reglamento electrotécnico para baja tensión)»?",
+      "opciones": [
+        "Dicha referencia se realizará, por regla general, sin indicar el año de edición de las normas en cuestión.",
+        "La adaptación podrá llevarse a cabo, en la medida en que resulte indispensable, mediante la construcción de una infraestructura adicional a la preexistente.",
+        "Las instalaciones interiores o receptoras son las que, alimentadas por una red de distribución o por una fuente de energía propia, tienen como finalidad principal la utilización de la energía eléctrica.",
+        "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Instalaciones interiores o receptoras (art. 16 Reglamento electrotécnico para baja tensión)» (Articulado de Reglamento electrotécnico para baja tensión), la regulación vigente establece que: Las instalaciones interiores o receptoras son las que, alimentadas por una red de distribución o por una fuente de energía propia, tienen como finalidad principal la utilización de la energía eléctrica.",
+      "referencia": "Art. 16 de Reglamento electrotécnico para baja tensión"
+    },
+    {
+      "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las instalaciones interiores o receptoras son las que, alimentadas por una red de distribución o por una fuente de energía propia, tienen como finalidad principal la utilización de la energía eléctrica.»?",
+      "opciones": [
+        "Normas de referencia (art. 26 Reglamento electrotécnico para baja tensión).",
+        "Definiciones (art. 2 Reglamento de infraestructuras comunes de telecomunicaciones (ICT)).",
+        "Objeto (art. 1 Ley de Ordenación de la Edificación).",
+        "Instalaciones interiores o receptoras (art. 16 Reglamento electrotécnico para baja tensión)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Las instalaciones interiores o receptoras son las que, alimentadas por una red de distribución o por una fuente de energía propia, tienen como finalidad principal la utilización de la energía eléctrica.») define o regula específicamente a «Instalaciones interiores o receptoras (art. 16 Reglamento electrotécnico para baja tensión)» (Art. 16 de Reglamento electrotécnico para baja tensión).",
+      "referencia": "Art. 16 de Reglamento electrotécnico para baja tensión"
     }
   ]
 }

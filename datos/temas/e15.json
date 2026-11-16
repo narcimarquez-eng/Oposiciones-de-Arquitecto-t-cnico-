@@ -89,18 +89,6 @@
   ],
   "test": [
     {
-      "pregunta": "Según el CTE, art. 2.4, ¿qué debe indicar el proyectista en una intervención en un edificio existente?",
-      "opciones": [
-        "Si la intervención incluye o no actuaciones en la estructura preexistente",
-        "Si la intervención incluye o no actuaciones en la estructura preexistente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Si la intervención incluye o no actuaciones en la estructura preexistente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Si la intervención incluye o no actuaciones en la estructura preexistente, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El proyectista debe indicar en la documentación si la intervención incluye o no actuaciones en la estructura preexistente.",
-      "referencia": "CTE, art. 2.4"
-    },
-    {
       "pregunta": "Según el CTE, art. 2.4, si el proyecto no indica actuaciones en la estructura, ¿qué se entiende?",
       "opciones": [
         "Que no se necesita licencia",
@@ -111,90 +99,6 @@
       "correcta": 2,
       "explicacion": "Si el proyecto no indica actuaciones en la estructura, se entiende que las obras no implican el riesgo de daño citado en el artículo 17.1.a de la LOE.",
       "referencia": "CTE, art. 2.4"
-    },
-    {
-      "pregunta": "Según el Código Estructural, art. 25.1, ¿cuál de estas es una razón que justifica la intervención en una estructura existente?",
-      "opciones": [
-        "Restablecer las prestaciones de la estructura tras una acción accidental, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Restablecer las prestaciones de la estructura tras una acción accidental, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Restablecer las prestaciones de la estructura tras una acción accidental, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Restablecer las prestaciones de la estructura tras una acción accidental"
-      ],
-      "correcta": 3,
-      "explicacion": "El artículo 25.1 del Código Estructural (RD 470/2021) justifica la intervención, entre otras razones, para restablecer las prestaciones de la estructura tras una acción accidental.",
-      "referencia": "Código Estructural, art. 25.1, letra b)"
-    },
-    {
-      "pregunta": "Según el Código Estructural, art. 75.1, ¿en qué debe basarse el proyecto de reparación de una estructura de hormigón?",
-      "opciones": [
-        "En un diagnóstico preciso que dictamine las causas de los daños, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "En un diagnóstico preciso que dictamine las causas de los daños",
-        "En un diagnóstico preciso que dictamine las causas de los daños, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "En un diagnóstico preciso que dictamine las causas de los daños, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El proyecto de reparación debe ser el resultado de un estudio previo, de un análisis de evaluación estructural y de vida útil residual, y de un diagnóstico preciso que dictamine las causas de los daños.",
-      "referencia": "Código Estructural, art. 75.1"
-    },
-    {
-      "pregunta": "Según el RD 1627/1997, anexo IV, apartado 11.a, ¿cómo deben montarse o desmontarse los apeos y apuntalamientos?",
-      "opciones": [
-        "Bajo vigilancia, control y dirección de una persona competente",
-        "Bajo vigilancia, control y dirección de una persona competente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Bajo vigilancia, control y dirección de una persona competente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Bajo vigilancia, control y dirección de una persona competente, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los encofrados, los soportes temporales y los apuntalamientos solo pueden montarse o desmontarse bajo vigilancia, control y dirección de una persona competente.",
-      "referencia": "RD 1627/1997, anexo IV, apartado 11.a"
-    },
-    {
-      "pregunta": "Según el Código Estructural, art. 77.1, ¿quién es responsable de disponer de un proyecto específico para la demolición de una estructura de hormigón?",
-      "opciones": [
-        "La propiedad, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La propiedad, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La propiedad",
-        "La propiedad, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La propiedad será responsable de disponer de un proyecto específico para la demolición.",
-      "referencia": "Código Estructural, art. 77.1"
-    },
-    {
-      "pregunta": "Según el CTE, art. 2.3, ¿qué no se puede hacer en las intervenciones en edificios existentes con las condiciones preexistentes?",
-      "opciones": [
-        "Reducirlas por debajo de las exigencias de los documentos básicos cuando estas son más exigentes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Reducirlas por debajo de las exigencias de los documentos básicos cuando estas son más exigentes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Reducirlas por debajo de las exigencias de los documentos básicos cuando estas son más exigentes, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Reducirlas por debajo de las exigencias de los documentos básicos cuando estas son más exigentes"
-      ],
-      "correcta": 3,
-      "explicacion": "Las condiciones preexistentes menos exigentes que las de los documentos básicos no pueden reducirse; las más exigentes solo pueden reducirse hasta los niveles de exigencia de los documentos básicos.",
-      "referencia": "CTE, art. 2.3"
-    },
-    {
-      "pregunta": "Según la LOE, art. 2.2, letra b, ¿qué intervención sobre edificios existentes queda incluida en el ámbito de la ley?",
-      "opciones": [
-        "Las que alteran la configuración arquitectónica, el sistema estructural o el uso del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las que alteran la configuración arquitectónica, el sistema estructural o el uso del edificio",
-        "Las que alteran la configuración arquitectónica, el sistema estructural o el uso del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las que alteran la configuración arquitectónica, el sistema estructural o el uso del edificio, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Se incluyen las intervenciones que alteran la configuración arquitectónica, entendiendo por tales las que tienen carácter total o las parciales que producen una variación esencial de la composición exterior, la volumetría o el sistema estructural, o que cambian los usos.",
-      "referencia": "LOE, art. 2.2, letra b)"
-    },
-    {
-      "pregunta": "Según el DB-SE-M, apartado 3.2.1.2, ¿qué clase de uso corresponde al elemento a cubierto y no expuesto a la humedad?",
-      "opciones": [
-        "Clase de uso 1, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Clase de uso 1, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Clase de uso 1",
-        "Clase de uso 1, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La clase de uso 1 corresponde al elemento estructural a cubierto, protegido de la intemperie y no expuesto a la humedad.",
-      "referencia": "DB-SE-M, apartado 3.2.1.2, letra a)"
     },
     {
       "pregunta": "Según el Código Estructural, art. 40, ¿de qué trata este artículo?",
@@ -209,42 +113,6 @@
       "referencia": "Código Estructural, art. 40"
     },
     {
-      "pregunta": "¿Qué tipos de intervención en un edificio existente recoge la LOE?",
-      "opciones": [
-        "Reparación, consolidación, refuerzo, reforma y rehabilitación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Reparación, consolidación, refuerzo, reforma y rehabilitación",
-        "Reparación, consolidación, refuerzo, reforma y rehabilitación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Reparación, consolidación, refuerzo, reforma y rehabilitación, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las intervenciones incluyen reparación, consolidación, refuerzo, reforma y rehabilitación.",
-      "referencia": "LOE, art. 2.2 b)"
-    },
-    {
-      "pregunta": "¿Cuándo trata la LOE una intervención como edificación?",
-      "opciones": [
-        "Cuando altera la configuración arquitectónica o el sistema estructural, o cambia el uso",
-        "Cuando altera la configuración arquitectónica o el sistema estructural, o cambia el uso, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cuando altera la configuración arquitectónica o el sistema estructural, o cambia el uso, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cuando altera la configuración arquitectónica o el sistema estructural, o cambia el uso, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La LOE trata como edificación las intervenciones que alteran la configuración arquitectónica o el sistema estructural, o cambian el uso.",
-      "referencia": "LOE, art. 2.2 b)"
-    },
-    {
-      "pregunta": "¿Qué tipo de edificios alcanza el CTE en sus intervenciones?",
-      "opciones": [
-        "Los edificios existentes, con las limitaciones de su art. 2.3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los edificios existentes, con las limitaciones de su art. 2.3",
-        "Los edificios existentes, con las limitaciones de su art. 2.3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los edificios existentes, con las limitaciones de su art. 2.3, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El CTE se aplica a las intervenciones en edificios existentes, con las limitaciones de su art. 2.3.",
-      "referencia": "CTE, art. 2.3"
-    },
-    {
       "pregunta": "¿Cuál es una razón para intervenir en una estructura existente?",
       "opciones": [
         "Pintar el edificio de colores",
@@ -255,174 +123,6 @@
       "correcta": 3,
       "explicacion": "Una razón es asegurar la vida de servicio cuando el deterioro se ha acelerado.",
       "referencia": "Código Estructural, art. 25.1 a)"
-    },
-    {
-      "pregunta": "¿Qué puede hacer una intervención respecto a las condiciones preexistentes menos exigentes?",
-      "opciones": [
-        "No puede reducirlas",
-        "No puede reducirlas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "No puede reducirlas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "No puede reducirlas, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La intervención no puede reducir condiciones preexistentes menos exigentes que las del documento básico.",
-      "referencia": "CTE, art. 2.3"
-    },
-    {
-      "pregunta": "¿En qué se basa el proyecto de reparación de una estructura?",
-      "opciones": [
-        "En la información disponible, la evaluación estructural y la vida útil residual, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "En la información disponible, la evaluación estructural y la vida útil residual",
-        "En la información disponible, la evaluación estructural y la vida útil residual, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "En la información disponible, la evaluación estructural y la vida útil residual, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El proyecto parte de la información disponible, de la evaluación estructural y de la vida útil residual.",
-      "referencia": "Código Estructural, art. 75.1"
-    },
-    {
-      "pregunta": "¿Qué investigaciones pueden hacerse en una estructura existente?",
-      "opciones": [
-        "Levantamiento real, catas, toma de muestras y ensayos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Levantamiento real, catas, toma de muestras y ensayos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Levantamiento real, catas, toma de muestras y ensayos",
-        "Levantamiento real, catas, toma de muestras y ensayos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las investigaciones incluyen levantamiento, catas, toma de muestras, ensayos y, en casos complejos, pruebas de carga.",
-      "referencia": "Código Estructural, arts. 25 y 74"
-    },
-    {
-      "pregunta": "¿Qué tipo de prueba se usa en casos complejos de estructuras existentes?",
-      "opciones": [
-        "Pruebas de carga, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Pruebas de carga, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Pruebas de carga, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Pruebas de carga"
-      ],
-      "correcta": 3,
-      "explicacion": "En casos complejos se realizan pruebas de carga.",
-      "referencia": "Código Estructural, arts. 25 y 74"
-    },
-    {
-      "pregunta": "¿Qué se coloca para sostener los elementos durante la intervención?",
-      "opciones": [
-        "Apeos",
-        "Apeos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Apeos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Apeos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los apeos sostienen los elementos durante la intervención.",
-      "referencia": "Trabajos preparatorios"
-    },
-    {
-      "pregunta": "¿Qué se hace con los elementos dañados antes del tratamiento?",
-      "opciones": [
-        "Se vacían, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Se vacían",
-        "Se vacían, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Se vacían, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los elementos dañados se vacían antes del tratamiento.",
-      "referencia": "Trabajos preparatorios"
-    },
-    {
-      "pregunta": "¿Quién debe supervisar los derribos que puedan suponer peligro?",
-      "opciones": [
-        "Una persona competente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una persona competente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una persona competente",
-        "Una persona competente, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Los derribos que puedan suponer peligro deben supervisarse por persona competente.",
-      "referencia": "RD 1627/1997, anexo IV, apartado 12.a"
-    },
-    {
-      "pregunta": "¿Quién decide la demolición de estructuras de hormigón?",
-      "opciones": [
-        "La propiedad, con proyecto específico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La propiedad, con proyecto específico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La propiedad, con proyecto específico, computándose los plazos en días naturales y con sentido desestimatorio",
-        "La propiedad, con proyecto específico"
-      ],
-      "correcta": 3,
-      "explicacion": "La demolición de estructuras de hormigón es decisión de la propiedad, con proyecto específico.",
-      "referencia": "Código Estructural, art. 77.1"
-    },
-    {
-      "pregunta": "¿Qué debe indicar el proyectista sobre la estructura existente?",
-      "opciones": [
-        "Si la intervención actúa en la estructura existente",
-        "Si la intervención actúa en la estructura existente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Si la intervención actúa en la estructura existente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Si la intervención actúa en la estructura existente, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El proyectista debe indicar si la intervención actúa en la estructura existente.",
-      "referencia": "CTE, art. 2.4"
-    },
-    {
-      "pregunta": "¿Qué debe constar en la documentación final de la intervención?",
-      "opciones": [
-        "El nivel de prestación alcanzado y los condicionantes de uso y mantenimiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El nivel de prestación alcanzado y los condicionantes de uso y mantenimiento",
-        "El nivel de prestación alcanzado y los condicionantes de uso y mantenimiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El nivel de prestación alcanzado y los condicionantes de uso y mantenimiento, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Debe constar el nivel de prestación alcanzado y los condicionantes de uso y mantenimiento.",
-      "referencia": "CTE, art. 2.3"
-    },
-    {
-      "pregunta": "¿Qué se hace con las armaduras corroídas en la reparación del hormigón?",
-      "opciones": [
-        "Se tratan, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Se tratan, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Se tratan",
-        "Se tratan, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las armaduras corroídas se tratan y el volumen se reconstruye.",
-      "referencia": "Código Estructural, arts. 75 y 40"
-    },
-    {
-      "pregunta": "¿Qué se hace en un refuerzo estructural?",
-      "opciones": [
-        "Se aplican sistemas de refuerzo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Se aplican sistemas de refuerzo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Se aplican sistemas de refuerzo, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Se aplican sistemas de refuerzo"
-      ],
-      "correcta": 3,
-      "explicacion": "El refuerzo aplica sistemas de refuerzo.",
-      "referencia": "Código Estructural, arts. 76 y 41"
-    },
-    {
-      "pregunta": "¿Cuándo se pueden retirar los apeos?",
-      "opciones": [
-        "Cuando la intervención tenga la resistencia necesaria",
-        "Cuando la intervención tenga la resistencia necesaria, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cuando la intervención tenga la resistencia necesaria, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cuando la intervención tenga la resistencia necesaria, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los apeos no se retiran antes de que la intervención tenga la resistencia necesaria.",
-      "referencia": "Trabajos de apeo"
-    },
-    {
-      "pregunta": "¿Qué riesgo especial tiene la intervención en un edificio existente?",
-      "opciones": [
-        "El amianto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El amianto",
-        "El amianto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El amianto, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Un riesgo es el amianto, además del riesgo de la estructura existente y del edificio habitado.",
-      "referencia": "RD 1627/1997, arts. 4 y 5"
     },
     {
       "pregunta": "¿Qué factor influye en el precio de la intervención?",
@@ -449,30 +149,6 @@
       "referencia": "Trabajos preparatorios"
     },
     {
-      "pregunta": "¿Qué norma regula la evaluación de estructuras existentes de acero?",
-      "opciones": [
-        "El Código Estructural, art. 104, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El Código Estructural, art. 104, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El Código Estructural, art. 104",
-        "El Código Estructural, art. 104, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La evaluación de estructuras de acero existentes se recoge en el Código Estructural, art. 104.",
-      "referencia": "Código Estructural, art. 104"
-    },
-    {
-      "pregunta": "¿Qué norma regula la evaluación de estructuras de hormigón existentes?",
-      "opciones": [
-        "El Código Estructural, art. 74",
-        "El Código Estructural, art. 74, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El Código Estructural, art. 74, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El Código Estructural, art. 74, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La evaluación de estructuras de hormigón existentes está en el art. 74 del Código Estructural.",
-      "referencia": "Código Estructural, art. 74"
-    },
-    {
       "pregunta": "¿Qué estudio previo es necesario antes de rehabilitar un edificio existente?",
       "opciones": [
         "Ninguno si el edificio es antiguo",
@@ -483,18 +159,6 @@
       "correcta": 1,
       "explicacion": "Antes de intervenir es necesario analizar el estado existente del edificio.",
       "referencia": "Tema e15"
-    },
-    {
-      "pregunta": "¿Qué norma estatal vigente integra la regulación de la rehabilitación edificatoria y la regeneración urbanas?",
-      "opciones": [
-        "Real Decreto Legislativo 7/2015 (Ley de Suelo y Rehabilitación Urbana), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Real Decreto Legislativo 7/2015 (Ley de Suelo y Rehabilitación Urbana), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Real Decreto Legislativo 7/2015 (Ley de Suelo y Rehabilitación Urbana)",
-        "Real Decreto Legislativo 7/2015 (Ley de Suelo y Rehabilitación Urbana), computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El RDL 7/2015 refundió la Ley de Suelo y la Ley 8/2013 de rehabilitación, regeneración y renovación urbanas.",
-      "referencia": "RDL 7/2015 (TRLS)"
     },
     {
       "pregunta": "¿Qué trabajo permite conocer la estructura existente antes de intervenir?",
@@ -509,30 +173,6 @@
       "referencia": "Tema e15"
     },
     {
-      "pregunta": "¿Qué trabajo provisional sostiene un elemento durante una obra de rehabilitación?",
-      "opciones": [
-        "Apeo o apuntalamiento, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Apeo o apuntalamiento, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Apeo o apuntalamiento, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Apeo o apuntalamiento"
-      ],
-      "correcta": 3,
-      "explicacion": "El apeo sostiene provisionalmente los elementos mientras se interviene.",
-      "referencia": "Tema e15"
-    },
-    {
-      "pregunta": "¿Qué documento evalúa el estado de conservación de un edificio?",
-      "opciones": [
-        "Informe de evaluación del edificio",
-        "Informe de evaluación del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Informe de evaluación del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Informe de evaluación del edificio, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El informe de evaluación de edificios valora el estado de conservación del inmueble.",
-      "referencia": "RDL 7/2015 (TRLS), art. 29"
-    },
-    {
       "pregunta": "¿Qué informe regula el art. 29 del texto refundido de la Ley de Suelo para evaluar los edificios?",
       "opciones": [
         "Informe de tráfico",
@@ -545,30 +185,6 @@
       "referencia": "RDL 7/2015 (TRLS), art. 29"
     },
     {
-      "pregunta": "¿Qué técnica consiste en inyectar mortero o resina en grietas para consolidarlas?",
-      "opciones": [
-        "Inyección de grietas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Inyección de grietas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Inyección de grietas",
-        "Inyección de grietas, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La inyección de grietas rellena las fisuras para restituir la continuidad del elemento.",
-      "referencia": "Tema e15"
-    },
-    {
-      "pregunta": "¿Qué término define la intervención que devuelve un edificio a un estado anterior conocido?",
-      "opciones": [
-        "Restauración, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Restauración, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Restauración, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Restauración"
-      ],
-      "correcta": 3,
-      "explicacion": "La restauración devuelve el edificio a su estado original documentado.",
-      "referencia": "Ley 16/1985 (patrimonio)"
-    },
-    {
       "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Estudios y diagnóstico), ¿qué establece la normativa respecto a «Investigaciones»?",
       "opciones": [
         "Levantamiento real, catas, toma de muestras, ensayos y, en casos complejos, pruebas de carga.",
@@ -578,18 +194,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Investigaciones» (Estudios y diagnóstico), la regulación vigente establece que: Levantamiento real, catas, toma de muestras, ensayos y, en casos complejos, pruebas de carga.",
-      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Estudios y diagnóstico), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Levantamiento real, catas, toma de muestras, ensayos y, en casos complejos, pruebas de carga.»?",
-      "opciones": [
-        "Investigaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Investigaciones.",
-        "Investigaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Investigaciones, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Levantamiento real, catas, toma de muestras, ensayos y, en casos complejos, pruebas de carga.») define o regula específicamente a «Investigaciones» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
       "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
     },
     {
@@ -605,18 +209,6 @@
       "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
     },
     {
-      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Ejecución y apeos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Eliminar el deteriorado, tratar las armaduras corroídas y reconstruir el volumen (Código Estructural, arts. 75 y 40).»?",
-      "opciones": [
-        "Reparación del hormigón, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Reparación del hormigón, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Reparación del hormigón, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Reparación del hormigón."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Eliminar el deteriorado, tratar las armaduras corroídas y reconstruir el volumen (Código Estructural, arts. 75 y 40).») define o regula específicamente a «Reparación del hormigón» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
-      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
-    },
-    {
       "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Riesgos y precio), ¿qué establece la normativa respecto a «Factores del precio»?",
       "opciones": [
         "Diagnóstico y contingencias, accesibilidad, apeos y protecciones de colindantes, demolición parcial, estudios y ensayos.",
@@ -626,18 +218,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Factores del precio» (Riesgos y precio), la regulación vigente establece que: Diagnóstico y contingencias, accesibilidad, apeos y protecciones de colindantes, demolición parcial, estudios y ensayos.",
-      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Riesgos y precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Diagnóstico y contingencias, accesibilidad, apeos y protecciones de colindantes, demolición parcial, estudios y ensayos.»?",
-      "opciones": [
-        "Factores del precio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Factores del precio.",
-        "Factores del precio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Factores del precio, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Diagnóstico y contingencias, accesibilidad, apeos y protecciones de colindantes, demolición parcial, estudios y ensayos.») define o regula específicamente a «Factores del precio» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
       "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
     },
     {
@@ -653,18 +233,6 @@
       "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
     },
     {
-      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Qué es una obra en un edificio existente), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es cualquier intervención sobre un edificio que ya está construido y en uso, o que ha dejado de estar en uso.»?",
-      "opciones": [
-        "Una obra en un edificio existente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una obra en un edificio existente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una obra en un edificio existente, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Una obra en un edificio existente."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Es cualquier intervención sobre un edificio que ya está construido y en uso, o que ha dejado de estar en uso.») define o regula específicamente a «Una obra en un edificio existente» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
-      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
-    },
-    {
       "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Qué es una obra en un edificio existente), ¿qué establece la normativa respecto a «Se distingue de la obra de nueva construcción porque el punto de partida no»?",
       "opciones": [
         "Es un proyecto, sino un edificio con una historia: materiales envejecidos, deterioros acumulados, instalaciones antiguas y, a veces, documentación incompleta o inexistente.",
@@ -677,18 +245,6 @@
       "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
     },
     {
-      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Qué es una obra en un edificio existente), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un proyecto, sino un edificio con una historia: materiales envejecidos, deterioros acumulados, instalaciones antiguas y, a veces, documentación incompleta o inexistente.»?",
-      "opciones": [
-        "Se distingue de la obra de nueva construcción porque el punto de partida no, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Se distingue de la obra de nueva construcción porque el punto de partida no.",
-        "Se distingue de la obra de nueva construcción porque el punto de partida no, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Se distingue de la obra de nueva construcción porque el punto de partida no, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es un proyecto, sino un edificio con una historia: materiales envejecidos, deterioros acumulados, instalaciones antiguas y, a veces, documentación incompleta o inexistente.») define o regula específicamente a «Se distingue de la obra de nueva construcción porque el punto de partida no» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
-      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
-    },
-    {
       "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Qué es una obra en un edificio existente), ¿qué establece la normativa respecto a «Las intervenciones sobre la envolvente y sobre las instalaciones»?",
       "opciones": [
         "Es dotar de nuevas prestaciones o de una vida útil adicional, por ejemplo cuando el cambio de uso implica mayores niveles de carga (letra c).",
@@ -698,18 +254,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «Las intervenciones sobre la envolvente y sobre las instalaciones» (Qué es una obra en un edificio existente), la regulación vigente establece que: Son las más frecuentes en la rehabilitación actual, porque los edificios construidos antes de las normas de aislamiento térmico y de accesibilidad necesitan mejoras que no alteran su estructura.",
-      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Qué es una obra en un edificio existente), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las más frecuentes en la rehabilitación actual, porque los edificios construidos antes de las normas de aislamiento térmico y de accesibilidad necesitan mejoras que no alteran su estructura.»?",
-      "opciones": [
-        "Las intervenciones sobre la envolvente y sobre las instalaciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las intervenciones sobre la envolvente y sobre las instalaciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las intervenciones sobre la envolvente y sobre las instalaciones, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Las intervenciones sobre la envolvente y sobre las instalaciones."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Son las más frecuentes en la rehabilitación actual, porque los edificios construidos antes de las normas de aislamiento térmico y de accesibilidad necesitan mejoras que no alteran su estructura.») define o regula específicamente a «Las intervenciones sobre la envolvente y sobre las instalaciones» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
       "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
     },
     {
@@ -773,18 +317,6 @@
       "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
     },
     {
-      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Razones que justifican la intervención en una estructura existente), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es dotar de nuevas prestaciones o de una vida útil adicional, por ejemplo cuando el cambio de uso implica mayores niveles de carga (letra c).»?",
-      "opciones": [
-        "La tercera, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La tercera.",
-        "La tercera, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La tercera, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es dotar de nuevas prestaciones o de una vida útil adicional, por ejemplo cuando el cambio de uso implica mayores niveles de carga (letra c).») define o regula específicamente a «La tercera» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
-      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
-    },
-    {
       "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Razones que justifican la intervención en una estructura existente), ¿qué establece la normativa respecto a «El CTE contempla la misma realidad en su artículo 2.3»?",
       "opciones": [
         "Se abre una pequeña zona del elemento para ver las armaduras, el espesor del recubrimiento, la calidad del hormigón o la sección de la madera.",
@@ -797,16 +329,484 @@
       "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
     },
     {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Estudios y diagnóstico), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Levantamiento real, catas, toma de muestras, ensayos y, en casos complejos, pruebas de carga.»?",
+      "opciones": [
+        "Una obra en un edificio existente.",
+        "Investigaciones.",
+        "La primera.",
+        "El CTE contempla la misma realidad en su artículo 2.3."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Levantamiento real, catas, toma de muestras, ensayos y, en casos complejos, pruebas de carga.») define o regula específicamente a «Investigaciones» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Ejecución y apeos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Eliminar el deteriorado, tratar las armaduras corroídas y reconstruir el volumen (Código Estructural, arts. 75 y 40).»?",
+      "opciones": [
+        "Se distingue de la obra de nueva construcción porque el punto de partida no.",
+        "Reparación del hormigón.",
+        "La segunda.",
+        "Una intervención que no está justificada en uno de estos supuestos."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Eliminar el deteriorado, tratar las armaduras corroídas y reconstruir el volumen (Código Estructural, arts. 75 y 40).») define o regula específicamente a «Reparación del hormigón» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Riesgos y precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Diagnóstico y contingencias, accesibilidad, apeos y protecciones de colindantes, demolición parcial, estudios y ensayos.»?",
+      "opciones": [
+        "Las intervenciones sobre la envolvente y sobre las instalaciones.",
+        "La tercera.",
+        "El Código Estructural.",
+        "Factores del precio."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Diagnóstico y contingencias, accesibilidad, apeos y protecciones de colindantes, demolición parcial, estudios y ensayos.») define o regula específicamente a «Factores del precio» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Qué es una obra en un edificio existente), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es cualquier intervención sobre un edificio que ya está construido y en uso, o que ha dejado de estar en uso.»?",
+      "opciones": [
+        "La primera.",
+        "Una obra en un edificio existente.",
+        "El CTE contempla la misma realidad en su artículo 2.3.",
+        "Las catas son la investigación destructiva más habitual."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es cualquier intervención sobre un edificio que ya está construido y en uso, o que ha dejado de estar en uso.») define o regula específicamente a «Una obra en un edificio existente» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Qué es una obra en un edificio existente), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un proyecto, sino un edificio con una historia: materiales envejecidos, deterioros acumulados, instalaciones antiguas y, a veces, documentación incompleta o inexistente.»?",
+      "opciones": [
+        "La segunda.",
+        "Una intervención que no está justificada en uno de estos supuestos.",
+        "Los trabajos preparatorios.",
+        "Se distingue de la obra de nueva construcción porque el punto de partida no."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es un proyecto, sino un edificio con una historia: materiales envejecidos, deterioros acumulados, instalaciones antiguas y, a veces, documentación incompleta o inexistente.») define o regula específicamente a «Se distingue de la obra de nueva construcción porque el punto de partida no» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Qué es una obra en un edificio existente), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son las más frecuentes en la rehabilitación actual, porque los edificios construidos antes de las normas de aislamiento térmico y de accesibilidad necesitan mejoras que no alteran su estructura.»?",
+      "opciones": [
+        "Las intervenciones sobre la envolvente y sobre las instalaciones.",
+        "La tercera.",
+        "El Código Estructural.",
+        "La diagnosis."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Son las más frecuentes en la rehabilitación actual, porque los edificios construidos antes de las normas de aislamiento térmico y de accesibilidad necesitan mejoras que no alteran su estructura.») define o regula específicamente a «Las intervenciones sobre la envolvente y sobre las instalaciones» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Razones que justifican la intervención en una estructura existente), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es dotar de nuevas prestaciones o de una vida útil adicional, por ejemplo cuando el cambio de uso implica mayores niveles de carga (letra c).»?",
+      "opciones": [
+        "El Código Estructural.",
+        "La tercera.",
+        "La diagnosis.",
+        "Si la causa."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es dotar de nuevas prestaciones o de una vida útil adicional, por ejemplo cuando el cambio de uso implica mayores niveles de carga (letra c).») define o regula específicamente a «La tercera» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
       "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Razones que justifican la intervención en una estructura existente), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sus exigencias se aplican también a las intervenciones en los edificios existentes, y su cumplimiento se justifica en el proyecto o en una memoria suscrita por técnico competente.»?",
       "opciones": [
-        "El CTE contempla la misma realidad en su artículo 2.3, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El CTE contempla la misma realidad en su artículo 2.3, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El CTE contempla la misma realidad en su artículo 2.3, computándose los plazos en días naturales y con sentido desestimatorio",
+        "Las catas son la investigación destructiva más habitual.",
+        "La diagnosis de la madera.",
+        "Si el daño.",
         "El CTE contempla la misma realidad en su artículo 2.3."
       ],
       "correcta": 3,
       "explicacion": "Dicha determinación («Sus exigencias se aplican también a las intervenciones en los edificios existentes, y su cumplimiento se justifica en el proyecto o en una memoria suscrita por técnico competente.») define o regula específicamente a «El CTE contempla la misma realidad en su artículo 2.3» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
       "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Estudios, análisis e investigaciones previas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se abre una pequeña zona del elemento para ver las armaduras, el espesor del recubrimiento, la calidad del hormigón o la sección de la madera.»?",
+      "opciones": [
+        "Las catas son la investigación destructiva más habitual.",
+        "La diagnosis de la madera.",
+        "Si el daño.",
+        "La supervisión de la demolición."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Se abre una pequeña zona del elemento para ver las armaduras, el espesor del recubrimiento, la calidad del hormigón o la sección de la madera.») define o regula específicamente a «Las catas son la investigación destructiva más habitual» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Diagnosis y tratamientos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el proceso que identifica el tipo de deterioro, sus mecanismos y su causa.»?",
+      "opciones": [
+        "Si la causa.",
+        "La diagnosis.",
+        "La demolición parcial de un forjado o de un muro durante la intervención.",
+        "El segundo."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es el proceso que identifica el tipo de deterioro, sus mecanismos y su causa.») define o regula específicamente a «La diagnosis» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Diagnosis y tratamientos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige identificar el agente que causa el daño.»?",
+      "opciones": [
+        "Si el daño.",
+        "La supervisión de la demolición.",
+        "La diagnosis de la madera.",
+        "El tercer factor."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Exige identificar el agente que causa el daño.») define o regula específicamente a «La diagnosis de la madera» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Diagnosis y tratamientos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la humedad, el primer tratamiento es eliminarla, con la reparación de la fuente de humedad y la ventilación del elemento.»?",
+      "opciones": [
+        "La demolición parcial de un forjado o de un muro durante la intervención.",
+        "El segundo.",
+        "El primero.",
+        "Si la causa."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es la humedad, el primer tratamiento es eliminarla, con la reparación de la fuente de humedad y la ventilación del elemento.») define o regula específicamente a «Si la causa» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Diagnosis y tratamientos), ¿qué establece la normativa respecto a «Si la pérdida de sección»?",
+      "opciones": [
+        "Es grande, la solución es sustituir el elemento o reforzarlo con una pieza nueva, y esa decisión debe quedar justificada en el proyecto.",
+        "El diagnóstico puede revelar daños no previstos, y el presupuesto debe prever partidas para las contingencias de la intervención.",
+        "Requiere limpieza y repintado cuesta muy distinto que una madera de clase de uso 3.2 con pudrición que hay que sustituir en su sección extrema.",
+        "Es olvidar que la indicación del proyectista sobre la estructura existente tiene efectos sobre el riesgo de daño del artículo 17.1.a de la LOE."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Si la pérdida de sección» (Diagnosis y tratamientos), la regulación vigente establece que: Es grande, la solución es sustituir el elemento o reforzarlo con una pieza nueva, y esa decisión debe quedar justificada en el proyecto.",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Diagnosis y tratamientos), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es grande, la solución es sustituir el elemento o reforzarlo con una pieza nueva, y esa decisión debe quedar justificada en el proyecto.»?",
+      "opciones": [
+        "El primero es el grado de incertidumbre.",
+        "Si la pérdida de sección.",
+        "Una madera de clase de uso 1 que solo.",
+        "El tercero."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es grande, la solución es sustituir el elemento o reforzarlo con una pieza nueva, y esa decisión debe quedar justificada en el proyecto.») define o regula específicamente a «Si la pérdida de sección» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿qué establece la normativa respecto a «La demolición parcial de un forjado o de un muro durante la intervención»?",
+      "opciones": [
+        "Es la accesibilidad de la obra, que condiciona el uso de medios auxiliares y las horas de trabajo.",
+        "Es confundir la reparación, que restablece, con el refuerzo, que aumenta la capacidad.",
+        "Exige una secuencia de trabajo que se fija en el proyecto.",
+        "Es necesario el refuerzo, con la evaluación de la capacidad resistente."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «La demolición parcial de un forjado o de un muro durante la intervención» (Evaluación de riesgos y seguridad y salud), la regulación vigente establece que: Exige una secuencia de trabajo que se fija en el proyecto.",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige una secuencia de trabajo que se fija en el proyecto.»?",
+      "opciones": [
+        "El segundo.",
+        "El primero.",
+        "Decidir si basta la reparación o si.",
+        "La demolición parcial de un forjado o de un muro durante la intervención."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Exige una secuencia de trabajo que se fija en el proyecto.») define o regula específicamente a «La demolición parcial de un forjado o de un muro durante la intervención» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿qué establece la normativa respecto a «La supervisión de la demolición»?",
+      "opciones": [
+        "Corresponde a la persona competente que el anexo IV del RD 1627/1997 exige.",
+        "Es la necesidad de apeos y de protección de colindantes, que puede superar el coste de la propia reparación.",
+        "El artículo 2.3 lo aplica, con las limitaciones que el texto indica.",
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «La supervisión de la demolición» (Evaluación de riesgos y seguridad y salud), la regulación vigente establece que: Corresponde a la persona competente que el anexo IV del RD 1627/1997 exige.",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Corresponde a la persona competente que el anexo IV del RD 1627/1997 exige.»?",
+      "opciones": [
+        "El tercer factor.",
+        "La supervisión de la demolición.",
+        "El segundo es afirmar que el CTE no se aplica a las intervenciones en existentes.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Corresponde a la persona competente que el anexo IV del RD 1627/1997 exige.») define o regula específicamente a «La supervisión de la demolición» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Factores de influencia en el precio), ¿qué establece la normativa respecto a «El primero es el grado de incertidumbre»?",
+      "opciones": [
+        "Requiere limpieza y repintado cuesta muy distinto que una madera de clase de uso 3.2 con pudrición que hay que sustituir en su sección extrema.",
+        "Es olvidar que la indicación del proyectista sobre la estructura existente tiene efectos sobre el riesgo de daño del artículo 17.1.a de la LOE.",
+        "El diagnóstico puede revelar daños no previstos, y el presupuesto debe prever partidas para las contingencias de la intervención.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El primero es el grado de incertidumbre» (Factores de influencia en el precio), la regulación vigente establece que: El diagnóstico puede revelar daños no previstos, y el presupuesto debe prever partidas para las contingencias de la intervención.",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Factores de influencia en el precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El diagnóstico puede revelar daños no previstos, y el presupuesto debe prever partidas para las contingencias de la intervención.»?",
+      "opciones": [
+        "Una madera de clase de uso 1 que solo.",
+        "El tercero.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "El primero es el grado de incertidumbre."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («El diagnóstico puede revelar daños no previstos, y el presupuesto debe prever partidas para las contingencias de la intervención.») define o regula específicamente a «El primero es el grado de incertidumbre» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Factores de influencia en el precio), ¿qué establece la normativa respecto a «El segundo»?",
+      "opciones": [
+        "Es la accesibilidad de la obra, que condiciona el uso de medios auxiliares y las horas de trabajo.",
+        "Es confundir la reparación, que restablece, con el refuerzo, que aumenta la capacidad.",
+        "Es necesario el refuerzo, con la evaluación de la capacidad resistente.",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El segundo» (Factores de influencia en el precio), la regulación vigente establece que: Es la accesibilidad de la obra, que condiciona el uso de medios auxiliares y las horas de trabajo.",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Factores de influencia en el precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la accesibilidad de la obra, que condiciona el uso de medios auxiliares y las horas de trabajo.»?",
+      "opciones": [
+        "El primero.",
+        "El segundo.",
+        "Decidir si basta la reparación o si.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es la accesibilidad de la obra, que condiciona el uso de medios auxiliares y las horas de trabajo.») define o regula específicamente a «El segundo» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Factores de influencia en el precio), ¿qué establece la normativa respecto a «El tercer factor»?",
+      "opciones": [
+        "El artículo 2.3 lo aplica, con las limitaciones que el texto indica.",
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "Es la necesidad de apeos y de protección de colindantes, que puede superar el coste de la propia reparación.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El tercer factor» (Factores de influencia en el precio), la regulación vigente establece que: Es la necesidad de apeos y de protección de colindantes, que puede superar el coste de la propia reparación.",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Factores de influencia en el precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la necesidad de apeos y de protección de colindantes, que puede superar el coste de la propia reparación.»?",
+      "opciones": [
+        "El segundo es afirmar que el CTE no se aplica a las intervenciones en existentes.",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "El tercer factor."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es la necesidad de apeos y de protección de colindantes, que puede superar el coste de la propia reparación.») define o regula específicamente a «El tercer factor» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Factores de influencia en el precio), ¿qué establece la normativa respecto a «Una madera de clase de uso 1 que solo»?",
+      "opciones": [
+        "Requiere limpieza y repintado cuesta muy distinto que una madera de clase de uso 3.2 con pudrición que hay que sustituir en su sección extrema.",
+        "Es olvidar que la indicación del proyectista sobre la estructura existente tiene efectos sobre el riesgo de daño del artículo 17.1.a de la LOE.",
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Una madera de clase de uso 1 que solo» (Factores de influencia en el precio), la regulación vigente establece que: Requiere limpieza y repintado cuesta muy distinto que una madera de clase de uso 3.2 con pudrición que hay que sustituir en su sección extrema.",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Factores de influencia en el precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Requiere limpieza y repintado cuesta muy distinto que una madera de clase de uso 3.2 con pudrición que hay que sustituir en su sección extrema.»?",
+      "opciones": [
+        "El tercero.",
+        "Una madera de clase de uso 1 que solo.",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Requiere limpieza y repintado cuesta muy distinto que una madera de clase de uso 3.2 con pudrición que hay que sustituir en su sección extrema.») define o regula específicamente a «Una madera de clase de uso 1 que solo» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El primero»?",
+      "opciones": [
+        "Es necesario el refuerzo, con la evaluación de la capacidad resistente.",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Es confundir la reparación, que restablece, con el refuerzo, que aumenta la capacidad.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El primero» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es confundir la reparación, que restablece, con el refuerzo, que aumenta la capacidad.",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es confundir la reparación, que restablece, con el refuerzo, que aumenta la capacidad.»?",
+      "opciones": [
+        "Decidir si basta la reparación o si.",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "El primero."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es confundir la reparación, que restablece, con el refuerzo, que aumenta la capacidad.») define o regula específicamente a «El primero» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El segundo es afirmar que el CTE no se aplica a las intervenciones en existentes»?",
+      "opciones": [
+        "El artículo 2.3 lo aplica, con las limitaciones que el texto indica.",
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El segundo es afirmar que el CTE no se aplica a las intervenciones en existentes» (Cómo estudiarlo para el examen), la regulación vigente establece que: El artículo 2.3 lo aplica, con las limitaciones que el texto indica.",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El artículo 2.3 lo aplica, con las limitaciones que el texto indica.»?",
+      "opciones": [
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación).",
+        "El segundo es afirmar que el CTE no se aplica a las intervenciones en existentes.",
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Generalidades (art. 9 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («El artículo 2.3 lo aplica, con las limitaciones que el texto indica.») define o regula específicamente a «El segundo es afirmar que el CTE no se aplica a las intervenciones en existentes» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «El tercero»?",
+      "opciones": [
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Es olvidar que la indicación del proyectista sobre la estructura existente tiene efectos sobre el riesgo de daño del artículo 17.1.a de la LOE.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El tercero» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es olvidar que la indicación del proyectista sobre la estructura existente tiene efectos sobre el riesgo de daño del artículo 17.1.a de la LOE.",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es olvidar que la indicación del proyectista sobre la estructura existente tiene efectos sobre el riesgo de daño del artículo 17.1.a de la LOE.»?",
+      "opciones": [
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "El tercero."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es olvidar que la indicación del proyectista sobre la estructura existente tiene efectos sobre el riesgo de daño del artículo 17.1.a de la LOE.») define o regula específicamente a «El tercero» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿qué establece la normativa respecto a «decidir si basta la reparación o si»?",
+      "opciones": [
+        "Es necesario el refuerzo, con la evaluación de la capacidad resistente.",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «decidir si basta la reparación o si» (Cómo estudiarlo para el examen), la regulación vigente establece que: Es necesario el refuerzo, con la evaluación de la capacidad resistente.",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Cómo estudiarlo para el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es necesario el refuerzo, con la evaluación de la capacidad resistente.»?",
+      "opciones": [
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación).",
+        "Decidir si basta la reparación o si.",
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es necesario el refuerzo, con la evaluación de la capacidad resistente.») define o regula específicamente a «decidir si basta la reparación o si» (Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)).",
+      "referencia": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto (BOE núm. 255, de 23 de octubre de 2026)"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)»?",
+      "opciones": [
+        "El proyecto describirá el edificio y definirá las obras de ejecución del mismo con el detalle suficiente para que puedan valorarse e interpretarse inequívocamente durante su ejecución.",
+        "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+        "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+        "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.»?",
+      "opciones": [
+        "Condiciones del proyecto (art. 6 Código Técnico de la Edificación).",
+        "Generalidades (art. 9 Código Técnico de la Edificación).",
+        "Objeto (art. 1 Ley de Ordenación de la Edificación).",
+        "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.») define o regula específicamente a «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)» (Art. único de Código Técnico de la Edificación).",
+      "referencia": "Art. único de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+        "Durante la construcción de la obra se elaborará la documentación reglamentariamente exigible.",
+        "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+        "De telecomunicaciones (referido a la ingeniería de las telecomunicaciones)."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.»?",
+      "opciones": [
+        "Condiciones en la ejecución de las obras (art. 7 Código Técnico de la Edificación).",
+        "Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación).",
+        "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+        "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación)."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.») define o regula específicamente a «Documentos Reconocidos y Registro General del CTE (art. 4 Código Técnico de la Edificación)» (Art. 4 de Código Técnico de la Edificación).",
+      "referencia": "Art. 4 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "En el ámbito de «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)»?",
+      "opciones": [
+        "Se incluirá en el Libro del Edificio la documentación indicada en el artículo 7.2 de los productos equipos y sistemas que se incorporen a la obra.",
+        "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+        "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+        "El proyecto es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras contempladas en el artículo 2."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
+    },
+    {
+      "pregunta": "Dentro de la materia «Obras en edificios existentes. Tipos y descripción. Estudios, análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. Procesos de ejecución. El Código Técnico de la Edificación y la intervención en edificios existentes. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Factores de influencia en la determinación de los precios.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.»?",
+      "opciones": [
+        "Condiciones del edificio (art. 8 Código Técnico de la Edificación).",
+        "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+        "Proyecto (art. 4 Ley de Ordenación de la Edificación).",
+        "Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.») define o regula específicamente a «Condiciones generales para el cumplimiento del CTE (art. 5 Código Técnico de la Edificación)» (Art. 5 de Código Técnico de la Edificación).",
+      "referencia": "Art. 5 de Código Técnico de la Edificación"
     }
   ]
 }

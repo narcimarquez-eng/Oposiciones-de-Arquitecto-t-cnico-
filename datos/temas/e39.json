@@ -81,18 +81,6 @@
   ],
   "test": [
     {
-      "pregunta": "Según la LPHA, art. 25, ¿cuántas categorías de inmuebles pueden inscribirse como Bien de Interés Cultural?",
-      "opciones": [
-        "Ocho",
-        "Ocho, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Ocho, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Ocho, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El artículo 25 enumera ocho categorías: monumentos, conjuntos históricos, jardines históricos, sitios históricos, zonas arqueológicas, lugares de interés etnológico, lugares de interés industrial y zonas patrimoniales.",
-      "referencia": "LPHA, art. 25"
-    },
-    {
       "pregunta": "Según la LPHA, art. 26, apartado 1, ¿qué son los monumentos?",
       "opciones": [
         "Las plantaciones de árboles de una finca",
@@ -141,18 +129,6 @@
       "referencia": "LPHE, art. 9, apartado 2"
     },
     {
-      "pregunta": "Según la LPHE, art. 9, apartado 3, ¿en qué plazo máximo debe resolverse el expediente de declaración de bien de interés cultural por real decreto?",
-      "opciones": [
-        "Veinte meses, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Veinte meses, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Veinte meses",
-        "Veinte meses, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El expediente debe resolverse en el plazo máximo de veinte meses desde la fecha de su incoación (LPHE, art. 9, apartado 3).",
-      "referencia": "LPHE, art. 9, apartado 3"
-    },
-    {
       "pregunta": "Según la LPHA, art. 114, apartado 1, letra a, ¿qué cuantía de multa corresponde a las infracciones muy graves?",
       "opciones": [
         "De 1.000.001 a 5.000.000 euros",
@@ -163,18 +139,6 @@
       "correcta": 3,
       "explicacion": "Las infracciones muy graves se sancionan con multa de 250.001 a 1.000.000 de euros (LPHA, art. 114, apartado 1, letra a).",
       "referencia": "LPHA, art. 114, apartado 1, letra a)"
-    },
-    {
-      "pregunta": "Según la LPHA, art. 119, apartado 1, ¿en cuántos años prescriben las infracciones muy graves?",
-      "opciones": [
-        "Diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Diez años",
-        "Diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Diez años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Las infracciones leves y graves prescriben a los cinco años, y las muy graves, a los diez años (LPHA, art. 119, apartado 1).",
-      "referencia": "LPHA, art. 119, apartado 1"
     },
     {
       "pregunta": "Según la LPHA, art. 93, apartado 1, ¿quién es responsable de la formulación y ejecución de la política de tutela, enriquecimiento y difusión del patrimonio histórico?",
@@ -189,102 +153,6 @@
       "referencia": "LPHA, art. 93, apartado 1"
     },
     {
-      "pregunta": "Según la LPHA, art. 85, ¿qué porcentaje del presupuesto de un proyecto de excavación arqueológica puede destinarse a la conservación, restauración y difusión de los bienes descubiertos?",
-      "opciones": [
-        "Hasta el 20 %",
-        "Hasta el 20 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Hasta el 20 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Hasta el 20 %, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los proyectos de excavaciones arqueológicas incluyen un porcentaje de hasta el 20 % del presupuesto para la conservación, restauración y difusión de los bienes expuestos o de los materiales y estructuras descubiertos (art. 85 de la LPHA (Ley 14/2007)).",
-      "referencia": "LPHA, art. 85"
-    },
-    {
-      "pregunta": "¿Qué ley estatal fija el marco del patrimonio histórico español?",
-      "opciones": [
-        "La Ley 16/1985, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La Ley 16/1985",
-        "La Ley 16/1985, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La Ley 16/1985, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La Ley 16/1985 es el marco estatal del patrimonio histórico español.",
-      "referencia": "LPHE, Ley 16/1985"
-    },
-    {
-      "pregunta": "¿Qué norma andaluza regula el patrimonio histórico hasta el 7 de abril de 2027?",
-      "opciones": [
-        "La Ley 14/2007",
-        "La Ley 14/2007, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La Ley 14/2007, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La Ley 14/2007, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La Ley 14/2007 está vigente hasta el 7 de abril de 2027; desde esa fecha la sustituye la Ley 4/2026, de Patrimonio Cultural de Andalucía.",
-      "referencia": "LPHA, Ley 14/2007"
-    },
-    {
-      "pregunta": "¿Cómo se declara un bien de interés cultural a nivel estatal?",
-      "opciones": [
-        "Por ley o por real decreto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Por ley o por real decreto",
-        "Por ley o por real decreto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Por ley o por real decreto, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La declaración se hace por ley o por real decreto.",
-      "referencia": "LPHE, art. 9"
-    },
-    {
-      "pregunta": "¿Qué desarrolla parcialmente la Ley 16/1985?",
-      "opciones": [
-        "El RD 111/1986, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El RD 111/1986, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El RD 111/1986, computándose los plazos en días naturales y con sentido desestimatorio",
-        "El RD 111/1986"
-      ],
-      "correcta": 3,
-      "explicacion": "El desarrollo parcial de la LPHE es el RD 111/1986.",
-      "referencia": "RD 111/1986"
-    },
-    {
-      "pregunta": "¿Cuántas categorías de bien de interés cultural inmueble recoge la LPHA?",
-      "opciones": [
-        "Ocho",
-        "Ocho, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Ocho, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Ocho, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La LPHA recoge ocho categorías de bien de interés cultural inmueble.",
-      "referencia": "LPHA, art. 25"
-    },
-    {
-      "pregunta": "¿Qué categoría es la de los edificios y estructuras de relevante interés?",
-      "opciones": [
-        "Los monumentos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Los monumentos",
-        "Los monumentos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Los monumentos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Los monumentos son edificios y estructuras de relevante interés.",
-      "referencia": "LPHA, art. 26.1"
-    },
-    {
-      "pregunta": "¿Qué categoría corresponde a los espacios con restos arqueológicos de interés relevante?",
-      "opciones": [
-        "Las zonas arqueológicas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las zonas arqueológicas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las zonas arqueológicas",
-        "Las zonas arqueológicas, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las zonas arqueológicas son espacios delimitados con restos de interés relevante.",
-      "referencia": "LPHA, art. 26.5"
-    },
-    {
       "pregunta": "¿Qué instrumento es el Catálogo General del Patrimonio Histórico Andaluz?",
       "opciones": [
         "Un catálogo de comidas",
@@ -294,18 +162,6 @@
       ],
       "correcta": 3,
       "explicacion": "El Catálogo General es instrumento de salvaguarda, consulta y divulgación.",
-      "referencia": "LPHA, art. 6"
-    },
-    {
-      "pregunta": "¿Quién forma y conserva el Catálogo General?",
-      "opciones": [
-        "La Consejería competente",
-        "La Consejería competente, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La Consejería competente, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La Consejería competente, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "La Consejería competente forma y conserva el Catálogo General.",
       "referencia": "LPHA, art. 6"
     },
     {
@@ -321,90 +177,6 @@
       "referencia": "LPHA, art. 9.1"
     },
     {
-      "pregunta": "¿Qué lleva la incoación de la inscripción en el Catálogo?",
-      "opciones": [
-        "Una anotación preventiva, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una anotación preventiva, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una anotación preventiva",
-        "Una anotación preventiva, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La incoación lleva una anotación preventiva en el Catálogo.",
-      "referencia": "LPHA, art. 9.2"
-    },
-    {
-      "pregunta": "¿Qué informe se exige para declarar un bien de interés cultural por real decreto?",
-      "opciones": [
-        "Un informe favorable de una institución consultiva, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un informe favorable de una institución consultiva, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un informe favorable de una institución consultiva, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Un informe favorable de una institución consultiva"
-      ],
-      "correcta": 3,
-      "explicacion": "Se exige el informe favorable de una institución consultiva.",
-      "referencia": "LPHE, art. 9.2"
-    },
-    {
-      "pregunta": "¿Qué se requiere antes de cualquier obra en un bien inscrito?",
-      "opciones": [
-        "Autorización de la Consejería, previa a las demás licencias",
-        "Autorización de la Consejería, previa a las demás licencias, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Autorización de la Consejería, previa a las demás licencias, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Autorización de la Consejería, previa a las demás licencias, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Se requiere autorización de la Consejería, previa a las demás licencias.",
-      "referencia": "LPHA, art. 33.3"
-    },
-    {
-      "pregunta": "¿Qué porcentaje del presupuesto de excavaciones arqueológicas se destina a conservación y difusión?",
-      "opciones": [
-        "Hasta el 20 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Hasta el 20 %",
-        "Hasta el 20 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Hasta el 20 %, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Hasta el 20 % del presupuesto se destina a conservación, restauración y difusión.",
-      "referencia": "LPHA, art. 85"
-    },
-    {
-      "pregunta": "¿Qué medidas de fomento recoge la LPHA?",
-      "opciones": [
-        "Inversiones culturales, donaciones, legados y subvenciones, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Inversiones culturales, donaciones, legados y subvenciones, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Inversiones culturales, donaciones, legados y subvenciones",
-        "Inversiones culturales, donaciones, legados y subvenciones, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La LPHA recoge inversiones culturales, donaciones, legados, estímulos y subvenciones.",
-      "referencia": "LPHA, arts. 84 a 91"
-    },
-    {
-      "pregunta": "¿Cuál es la multa máxima por una infracción muy grave en patrimonio andaluz?",
-      "opciones": [
-        "Hasta 1.000.000 euros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Hasta 1.000.000 euros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Hasta 1.000.000 euros, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Hasta 1.000.000 euros"
-      ],
-      "correcta": 3,
-      "explicacion": "Las infracciones muy graves se castigan hasta 1.000.000 euros.",
-      "referencia": "LPHA, art. 114.1"
-    },
-    {
-      "pregunta": "¿Qué plazo de prescripción tienen las infracciones muy graves en patrimonio?",
-      "opciones": [
-        "Diez años",
-        "Diez años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Diez años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Diez años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Las muy graves prescriben a los diez años.",
-      "referencia": "LPHA, art. 119"
-    },
-    {
       "pregunta": "¿Qué órgano formula la política de tutela del patrimonio histórico andaluz?",
       "opciones": [
         "El Defensor del Pueblo",
@@ -415,18 +187,6 @@
       "correcta": 1,
       "explicacion": "La Consejería competente formula la política de tutela, enriquecimiento y difusión.",
       "referencia": "LPHA, art. 93"
-    },
-    {
-      "pregunta": "¿Qué órganos ejercen las funciones ejecutivas en patrimonio en las provincias?",
-      "opciones": [
-        "Las Delegaciones Provinciales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las Delegaciones Provinciales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las Delegaciones Provinciales",
-        "Las Delegaciones Provinciales, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las Delegaciones Provinciales ejercen las funciones ejecutivas.",
-      "referencia": "LPHA, art. 94"
     },
     {
       "pregunta": "¿Qué bienes inmuebles de interés para Andalucía se clasifican según su tipología?",
@@ -453,18 +213,6 @@
       "referencia": "LPHA, art. 33.1"
     },
     {
-      "pregunta": "¿Qué causas permiten desplazar un inmueble inscrito en el Catálogo?",
-      "opciones": [
-        "Causa de fuerza mayor o de interés social, con autorización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Causa de fuerza mayor o de interés social, con autorización",
-        "Causa de fuerza mayor o de interés social, con autorización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Causa de fuerza mayor o de interés social, con autorización, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El desplazamiento solo procede si resulta imprescindible por causa de fuerza mayor o de interés social.",
-      "referencia": "LPHA, art. 33.1"
-    },
-    {
       "pregunta": "¿Cuándo se entiende desestimada una solicitud de inscripción en el Catálogo sin resolución expresa?",
       "opciones": [
         "Transcurridos tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación desde su presentación",
@@ -475,66 +223,6 @@
       "correcta": 2,
       "explicacion": "La solicitud se entiende desestimada transcurridos tres meses sin resolución expresa.",
       "referencia": "LPHA, art. 9.1"
-    },
-    {
-      "pregunta": "¿Qué plazo de prescripción tienen las infracciones leves y graves en patrimonio andaluz?",
-      "opciones": [
-        "Cinco años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cinco años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cinco años, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Cinco años"
-      ],
-      "correcta": 3,
-      "explicacion": "Las infracciones leves y graves prescriben a los cinco años.",
-      "referencia": "LPHA, art. 119.1 a)"
-    },
-    {
-      "pregunta": "¿Qué partida mínima se exige en las obras públicas de la Junta superiores a un millón de euros para patrimonio?",
-      "opciones": [
-        "Al menos el 1 % de la aportación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Al menos el 1 % de la aportación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Al menos el 1 % de la aportación, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Al menos el 1 % de la aportación"
-      ],
-      "correcta": 3,
-      "explicacion": "En obras financiadas por la Junta con presupuesto superior a un millón de euros se incluye una partida de al menos el 1 %.",
-      "referencia": "LPHA, art. 84.1"
-    },
-    {
-      "pregunta": "¿Entre qué cuantías se mueve la multa por infracciones graves en patrimonio histórico andaluz?",
-      "opciones": [
-        "Entre 100.001 y 250.000 euros",
-        "Entre 100.001 y 250.000 euros, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Entre 100.001 y 250.000 euros, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Entre 100.001 y 250.000 euros, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Las infracciones graves se sancionan con multas de 100.001 a 250.000 euros.",
-      "referencia": "LPHA, art. 114.1 b)"
-    },
-    {
-      "pregunta": "¿Qué efecto tiene la incoación de la inscripción de un bien en el Catálogo?",
-      "opciones": [
-        "Una anotación preventiva en el Catálogo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una anotación preventiva en el Catálogo",
-        "Una anotación preventiva en el Catálogo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una anotación preventiva en el Catálogo, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La incoación lleva anotación preventiva en el Catálogo.",
-      "referencia": "LPHA, art. 9.2"
-    },
-    {
-      "pregunta": "¿Qué figura de protección de nueva creación introdujo la Ley 14/2007 del Patrimonio Histórico de Andalucía?",
-      "opciones": [
-        "La Zona Patrimonial, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La Zona Patrimonial, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La Zona Patrimonial",
-        "La Zona Patrimonial, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La Ley 14/2007 crea la Zona Patrimonial como nueva figura.",
-      "referencia": "Ley 14/2007 (LPHA), exposición de motivos"
     },
     {
       "pregunta": "¿Qué categorías de bienes comprende el Catálogo General del Patrimonio Histórico Andaluz?",
@@ -558,18 +246,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «Ocho categorías de Bien de Interés Cultural» (Tipología de los bienes inmuebles), la regulación vigente establece que: Monumentos, conjuntos históricos, jardines históricos, sitios históricos, zonas arqueológicas, lugares de interés etnológico, lugares de interés industrial y zonas patrimoniales (LPHA, art. 25).",
-      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
-    },
-    {
-      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Tipología de los bienes inmuebles), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Monumentos, conjuntos históricos, jardines históricos, sitios históricos, zonas arqueológicas, lugares de interés etnológico, lugares de interés industrial y zonas patrimoniales (LPHA, art. 25).»?",
-      "opciones": [
-        "Ocho categorías de Bien de Interés Cultural, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Ocho categorías de Bien de Interés Cultural.",
-        "Ocho categorías de Bien de Interés Cultural, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Ocho categorías de Bien de Interés Cultural, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Monumentos, conjuntos históricos, jardines históricos, sitios históricos, zonas arqueológicas, lugares de interés etnológico, lugares de interés industrial y zonas patrimoniales (LPHA, art. 25).») define o regula específicamente a «Ocho categorías de Bien de Interés Cultural» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
       "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
     },
     {
@@ -630,18 +306,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «La declaración por real decreto» (Declaración de Bien de Interés Cultural (LPHE)), la regulación vigente establece que: Requiere expediente con informe favorable de una institución consultiva.",
-      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
-    },
-    {
-      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Declaración de Bien de Interés Cultural (LPHE)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Requiere expediente con informe favorable de una institución consultiva.»?",
-      "opciones": [
-        "La declaración por real decreto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La declaración por real decreto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La declaración por real decreto, computándose los plazos en días naturales y con sentido desestimatorio",
-        "La declaración por real decreto."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Requiere expediente con informe favorable de una institución consultiva.») define o regula específicamente a «La declaración por real decreto» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
       "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
     },
     {
@@ -798,6 +462,342 @@
       ],
       "correcta": 3,
       "explicacion": "Dicha regulación («Inversiones culturales, dación en pago para deudas con la Junta, donaciones y legados, estímulos a la rehabilitación de viviendas y subvenciones (LPHA, arts. 84 a 91).») define o regula específicamente a «Medidas de fomento» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Tipología de los bienes inmuebles), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Monumentos, conjuntos históricos, jardines históricos, sitios históricos, zonas arqueológicas, lugares de interés etnológico, lugares de interés industrial y zonas patrimoniales (LPHA, art. 25).»?",
+      "opciones": [
+        "Ocho categorías de Bien de Interés Cultural.",
+        "La declaración por real decreto.",
+        "El autonómico lo.",
+        "Los sitios históricos."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Monumentos, conjuntos históricos, jardines históricos, sitios históricos, zonas arqueológicas, lugares de interés etnológico, lugares de interés industrial y zonas patrimoniales (LPHA, art. 25).») define o regula específicamente a «Ocho categorías de Bien de Interés Cultural» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Declaración de Bien de Interés Cultural (LPHE)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Requiere expediente con informe favorable de una institución consultiva.»?",
+      "opciones": [
+        "El autonómico lo.",
+        "La declaración por real decreto.",
+        "Los sitios históricos.",
+        "La coordinación entre el Estado y la comunidad autónoma."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Requiere expediente con informe favorable de una institución consultiva.») define o regula específicamente a «La declaración por real decreto» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (El patrimonio inmueble: tipología), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son los espacios claramente delimitados en los que se ha comprobado la existencia de restos arqueológicos o paleontológicos de interés relevante (art. 26, apartado 5).»?",
+      "opciones": [
+        "Las zonas arqueológicas.",
+        "El examen puede pedir qué norma.",
+        "El planeamiento urbanístico de protección.",
+        "El inmueble inscrito."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Son los espacios claramente delimitados en los que se ha comprobado la existencia de restos arqueológicos o paleontológicos de interés relevante (art. 26, apartado 5).») define o regula específicamente a «Las zonas arqueológicas» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "En el ámbito de «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (2 bis. Relación entre la ley estatal y la ley andaluza), ¿qué establece la normativa respecto a «La LPHA desarrolla ese marco para Andalucía»?",
+      "opciones": [
+        "Regula en el artículo 27, y el entorno de los bienes de interés cultural tiene su propio régimen en el artículo 28.",
+        "Clasifica los inmuebles en su propia tipología del artículo 25, regula el Catálogo General y las medidas de protección, fomento y sanción, y crea los órganos de la Junta de Andalucía.",
+        "Una obra nueva próxima a un monumento puede necesitar la autorización de la Consejería aunque el propio monumento no se toque.",
+        "Es presentar el proyecto ante la Consejería competente, antes de las licencias municipales."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «La LPHA desarrolla ese marco para Andalucía» (2 bis. Relación entre la ley estatal y la ley andaluza), la regulación vigente establece que: Clasifica los inmuebles en su propia tipología del artículo 25, regula el Catálogo General y las medidas de protección, fomento y sanción, y crea los órganos de la Junta de Andalucía.",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (2 bis. Relación entre la ley estatal y la ley andaluza), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Clasifica los inmuebles en su propia tipología del artículo 25, regula el Catálogo General y las medidas de protección, fomento y sanción, y crea los órganos de la Junta de Andalucía.»?",
+      "opciones": [
+        "La LPHA desarrolla ese marco para Andalucía.",
+        "El contenido de la inscripción se.",
+        "Para el arquitecto técnico, el entorno es el punto de conflicto más frecuente.",
+        "El paso siguiente."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Clasifica los inmuebles en su propia tipología del artículo 25, regula el Catálogo General y las medidas de protección, fomento y sanción, y crea los órganos de la Junta de Andalucía.») define o regula específicamente a «La LPHA desarrolla ese marco para Andalucía» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "En el ámbito de «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (2 bis. Relación entre la ley estatal y la ley andaluza), ¿qué establece la normativa respecto a «El examen puede pedir qué norma»?",
+      "opciones": [
+        "Es el que establece el régimen de los bienes y de su entorno (art. 30), con un contenido de protección que el artículo 31 define.",
+        "Regula un aspecto concreto, y la respuesta correcta depende de si el bien está en Andalucía y de la materia de que se trate.",
+        "Es inseparable del lugar donde se ubica.",
+        "Exige el artículo 21 y sus requisitos del artículo 22 se incorpora a esa presentación."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El examen puede pedir qué norma» (2 bis. Relación entre la ley estatal y la ley andaluza), la regulación vigente establece que: Regula un aspecto concreto, y la respuesta correcta depende de si el bien está en Andalucía y de la materia de que se trate.",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (2 bis. Relación entre la ley estatal y la ley andaluza), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula un aspecto concreto, y la respuesta correcta depende de si el bien está en Andalucía y de la materia de que se trate.»?",
+      "opciones": [
+        "El planeamiento urbanístico de protección.",
+        "El inmueble inscrito.",
+        "El examen puede pedir qué norma.",
+        "El proyecto de conservación que."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Regula un aspecto concreto, y la respuesta correcta depende de si el bien está en Andalucía y de la materia de que se trate.») define o regula específicamente a «El examen puede pedir qué norma» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "En el ámbito de «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (2 bis. Relación entre la ley estatal y la ley andaluza), ¿qué establece la normativa respecto a «La coordinación entre el Estado y la comunidad autónoma»?",
+      "opciones": [
+        "Es un trámite que la ley reconoce al patrimonio histórico, para que el impacto sobre los bienes se valore en la evaluación ambiental (LPHA, art. 32).",
+        "Dispone del derecho de tanteo y retracto (art. 17) y, en última instancia, de la expropiación (art. 18).",
+        "Regula esas actuaciones previas, que deben estudiarse en la fase de proyecto y no como una incidencia de la obra.",
+        "Es necesaria para los bienes de competencia estatal y para la protección de los bienes que se declaran por ley estatal."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «La coordinación entre el Estado y la comunidad autónoma» (2 bis. Relación entre la ley estatal y la ley andaluza), la regulación vigente establece que: Es necesaria para los bienes de competencia estatal y para la protección de los bienes que se declaran por ley estatal.",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (2 bis. Relación entre la ley estatal y la ley andaluza), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es necesaria para los bienes de competencia estatal y para la protección de los bienes que se declaran por ley estatal.»?",
+      "opciones": [
+        "La coordinación entre el Estado y la comunidad autónoma.",
+        "El informe en los procedimientos de prevención y control ambiental.",
+        "La Administración.",
+        "El artículo 59."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es necesaria para los bienes de competencia estatal y para la protección de los bienes que se declaran por ley estatal.») define o regula específicamente a «La coordinación entre el Estado y la comunidad autónoma» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "En el ámbito de «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (La declaración de Bien de Interés Cultural), ¿qué establece la normativa respecto a «El contenido de la inscripción se»?",
+      "opciones": [
+        "Una obra nueva próxima a un monumento puede necesitar la autorización de la Consejería aunque el propio monumento no se toque.",
+        "Regula en el artículo 27, y el entorno de los bienes de interés cultural tiene su propio régimen en el artículo 28.",
+        "Es presentar el proyecto ante la Consejería competente, antes de las licencias municipales.",
+        "Es una parte esencial de la intervención."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El contenido de la inscripción se» (La declaración de Bien de Interés Cultural), la regulación vigente establece que: Regula en el artículo 27, y el entorno de los bienes de interés cultural tiene su propio régimen en el artículo 28.",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (La declaración de Bien de Interés Cultural), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula en el artículo 27, y el entorno de los bienes de interés cultural tiene su propio régimen en el artículo 28.»?",
+      "opciones": [
+        "Para el arquitecto técnico, el entorno es el punto de conflicto más frecuente.",
+        "El paso siguiente.",
+        "El contenido de la inscripción se.",
+        "El control de la obra."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Regula en el artículo 27, y el entorno de los bienes de interés cultural tiene su propio régimen en el artículo 28.») define o regula específicamente a «El contenido de la inscripción se» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "En el ámbito de «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Entorno, planeamiento y protección urbanística), ¿qué establece la normativa respecto a «El planeamiento urbanístico de protección»?",
+      "opciones": [
+        "Es inseparable del lugar donde se ubica.",
+        "Exige el artículo 21 y sus requisitos del artículo 22 se incorpora a esa presentación.",
+        "Son infracciones muy graves (art. 108, apartado 2), y la omisión del deber de conservación que produzca un deterioro irreparable (art. 108, apartado 3).",
+        "Es el que establece el régimen de los bienes y de su entorno (art. 30), con un contenido de protección que el artículo 31 define."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El planeamiento urbanístico de protección» (Entorno, planeamiento y protección urbanística), la regulación vigente establece que: Es el que establece el régimen de los bienes y de su entorno (art. 30), con un contenido de protección que el artículo 31 define.",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Entorno, planeamiento y protección urbanística), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el que establece el régimen de los bienes y de su entorno (art. 30), con un contenido de protección que el artículo 31 define.»?",
+      "opciones": [
+        "El planeamiento urbanístico de protección.",
+        "El inmueble inscrito.",
+        "El proyecto de conservación que.",
+        "La pérdida o los daños irreparables en bienes inscritos también."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es el que establece el régimen de los bienes y de su entorno (art. 30), con un contenido de protección que el artículo 31 define.») define o regula específicamente a «El planeamiento urbanístico de protección» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "En el ámbito de «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Entorno, planeamiento y protección urbanística), ¿qué establece la normativa respecto a «El informe en los procedimientos de prevención y control ambiental»?",
+      "opciones": [
+        "Dispone del derecho de tanteo y retracto (art. 17) y, en última instancia, de la expropiación (art. 18).",
+        "Es un trámite que la ley reconoce al patrimonio histórico, para que el impacto sobre los bienes se valore en la evaluación ambiental (LPHA, art. 32).",
+        "Regula esas actuaciones previas, que deben estudiarse en la fase de proyecto y no como una incidencia de la obra.",
+        "Para las infracciones muy graves, de 250.001 a 1.000.000 de euros."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El informe en los procedimientos de prevención y control ambiental» (Entorno, planeamiento y protección urbanística), la regulación vigente establece que: Es un trámite que la ley reconoce al patrimonio histórico, para que el impacto sobre los bienes se valore en la evaluación ambiental (LPHA, art. 32).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Entorno, planeamiento y protección urbanística), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es un trámite que la ley reconoce al patrimonio histórico, para que el impacto sobre los bienes se valore en la evaluación ambiental (LPHA, art. 32).»?",
+      "opciones": [
+        "La Administración.",
+        "El artículo 59.",
+        "El informe en los procedimientos de prevención y control ambiental.",
+        "Las sanciones de multa son las siguientes (LPHA, art. 114, apartado 1)."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es un trámite que la ley reconoce al patrimonio histórico, para que el impacto sobre los bienes se valore en la evaluación ambiental (LPHA, art. 32).») define o regula específicamente a «El informe en los procedimientos de prevención y control ambiental» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "En el ámbito de «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Entorno, planeamiento y protección urbanística), ¿qué establece la normativa respecto a «Para el arquitecto técnico, el entorno es el punto de conflicto más frecuente»?",
+      "opciones": [
+        "Es presentar el proyecto ante la Consejería competente, antes de las licencias municipales.",
+        "Es una parte esencial de la intervención.",
+        "Es de cinco años para las leves y las graves, y de diez años para las muy graves (LPHA, art. 119, apartado 1).",
+        "Una obra nueva próxima a un monumento puede necesitar la autorización de la Consejería aunque el propio monumento no se toque."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Para el arquitecto técnico, el entorno es el punto de conflicto más frecuente» (Entorno, planeamiento y protección urbanística), la regulación vigente establece que: Una obra nueva próxima a un monumento puede necesitar la autorización de la Consejería aunque el propio monumento no se toque.",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Entorno, planeamiento y protección urbanística), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Una obra nueva próxima a un monumento puede necesitar la autorización de la Consejería aunque el propio monumento no se toque.»?",
+      "opciones": [
+        "Para el arquitecto técnico, el entorno es el punto de conflicto más frecuente.",
+        "El paso siguiente.",
+        "El control de la obra.",
+        "La prescripción de las infracciones."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Una obra nueva próxima a un monumento puede necesitar la autorización de la Consejería aunque el propio monumento no se toque.») define o regula específicamente a «Para el arquitecto técnico, el entorno es el punto de conflicto más frecuente» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Medidas de protección: autorización, conservación y ejecución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es inseparable del lugar donde se ubica.»?",
+      "opciones": [
+        "El proyecto de conservación que.",
+        "El inmueble inscrito.",
+        "La pérdida o los daños irreparables en bienes inscritos también.",
+        "El artículo 95."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es inseparable del lugar donde se ubica.») define o regula específicamente a «El inmueble inscrito» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "En el ámbito de «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Medidas de protección: autorización, conservación y ejecución), ¿qué establece la normativa respecto a «La Administración»?",
+      "opciones": [
+        "Regula esas actuaciones previas, que deben estudiarse en la fase de proyecto y no como una incidencia de la obra.",
+        "Para las infracciones muy graves, de 250.001 a 1.000.000 de euros.",
+        "Dispone del derecho de tanteo y retracto (art. 17) y, en última instancia, de la expropiación (art. 18).",
+        "Es confundir la declaración de BIC por ley con la declaración por real decreto de la LPHE."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «La Administración» (Medidas de protección: autorización, conservación y ejecución), la regulación vigente establece que: Dispone del derecho de tanteo y retracto (art. 17) y, en última instancia, de la expropiación (art. 18).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Medidas de protección: autorización, conservación y ejecución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Dispone del derecho de tanteo y retracto (art. 17) y, en última instancia, de la expropiación (art. 18).»?",
+      "opciones": [
+        "El artículo 59.",
+        "Las sanciones de multa son las siguientes (LPHA, art. 114, apartado 1).",
+        "El primero.",
+        "La Administración."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Dispone del derecho de tanteo y retracto (art. 17) y, en última instancia, de la expropiación (art. 18).») define o regula específicamente a «La Administración» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "En el ámbito de «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (6 bis. Procedimiento de autorización de una intervención en un bien inscrito), ¿qué establece la normativa respecto a «El paso siguiente»?",
+      "opciones": [
+        "Es presentar el proyecto ante la Consejería competente, antes de las licencias municipales.",
+        "Es una parte esencial de la intervención.",
+        "Es de cinco años para las leves y las graves, y de diez años para las muy graves (LPHA, art. 119, apartado 1).",
+        "Es suponer que solo el monumento necesita autorización, cuando el entorno también la necesita."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El paso siguiente» (6 bis. Procedimiento de autorización de una intervención en un bien inscrito), la regulación vigente establece que: Es presentar el proyecto ante la Consejería competente, antes de las licencias municipales.",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (6 bis. Procedimiento de autorización de una intervención en un bien inscrito), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es presentar el proyecto ante la Consejería competente, antes de las licencias municipales.»?",
+      "opciones": [
+        "El control de la obra.",
+        "El paso siguiente.",
+        "La prescripción de las infracciones.",
+        "El segundo."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es presentar el proyecto ante la Consejería competente, antes de las licencias municipales.») define o regula específicamente a «El paso siguiente» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "En el ámbito de «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (6 bis. Procedimiento de autorización de una intervención en un bien inscrito), ¿qué establece la normativa respecto a «El proyecto de conservación que»?",
+      "opciones": [
+        "Son infracciones muy graves (art. 108, apartado 2), y la omisión del deber de conservación que produzca un deterioro irreparable (art. 108, apartado 3).",
+        "Regula los órganos interadministrativos de gestión, y los artículos 96 y 97 regulan el Consejo Andaluz del Patrimonio Histórico como órgano consultivo y sus funciones.",
+        "Exige el artículo 21 y sus requisitos del artículo 22 se incorpora a esa presentación.",
+        "Es confundir las categorías de la LPHA con las de la LPHE, que son distintas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El proyecto de conservación que» (6 bis. Procedimiento de autorización de una intervención en un bien inscrito), la regulación vigente establece que: Exige el artículo 21 y sus requisitos del artículo 22 se incorpora a esa presentación.",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (6 bis. Procedimiento de autorización de una intervención en un bien inscrito), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige el artículo 21 y sus requisitos del artículo 22 se incorpora a esa presentación.»?",
+      "opciones": [
+        "La pérdida o los daños irreparables en bienes inscritos también.",
+        "El artículo 95.",
+        "El tercero.",
+        "El proyecto de conservación que."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Exige el artículo 21 y sus requisitos del artículo 22 se incorpora a esa presentación.») define o regula específicamente a «El proyecto de conservación que» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "En el ámbito de «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (El patrimonio arqueológico y las zonas arqueológicas), ¿qué establece la normativa respecto a «El artículo 59»?",
+      "opciones": [
+        "Regula esas actuaciones previas, que deben estudiarse en la fase de proyecto y no como una incidencia de la obra.",
+        "Para las infracciones muy graves, de 250.001 a 1.000.000 de euros.",
+        "Es confundir la declaración de BIC por ley con la declaración por real decreto de la LPHE.",
+        "Es previo a la licencia municipal."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «El artículo 59» (El patrimonio arqueológico y las zonas arqueológicas), la regulación vigente establece que: Regula esas actuaciones previas, que deben estudiarse en la fase de proyecto y no como una incidencia de la obra.",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (El patrimonio arqueológico y las zonas arqueológicas), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula esas actuaciones previas, que deben estudiarse en la fase de proyecto y no como una incidencia de la obra.»?",
+      "opciones": [
+        "Las sanciones de multa son las siguientes (LPHA, art. 114, apartado 1).",
+        "El artículo 59.",
+        "El primero.",
+        "El cuarto es olvidar que el informe de la Consejería."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Regula esas actuaciones previas, que deben estudiarse en la fase de proyecto y no como una incidencia de la obra.») define o regula específicamente a «El artículo 59» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "En el ámbito de «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Infracciones administrativas y sus sanciones), ¿qué establece la normativa respecto a «El control de la obra»?",
+      "opciones": [
+        "Es de cinco años para las leves y las graves, y de diez años para las muy graves (LPHA, art. 119, apartado 1).",
+        "Es suponer que solo el monumento necesita autorización, cuando el entorno también la necesita.",
+        "Es una parte esencial de la intervención.",
+        "El concepto, la norma que lo regula y la consecuencia práctica."
+      ],
+      "correcta": 2,
+      "explicacion": "Respecto a «El control de la obra» (Infracciones administrativas y sus sanciones), la regulación vigente establece que: Es una parte esencial de la intervención.",
+      "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
+    },
+    {
+      "pregunta": "Dentro de la materia «El patrimonio histórico de Andalucía. Normativa reguladora. El patrimonio inmueble: Los monumentos, los conjuntos históricos, los jardines históricos, las zonas arqueológicas, etc. La declaración de bienes de interés cultural. Medidas de protección. Medidas de fomento. Infracciones administrativas y sus sanciones. Órganos de administración: Competencias y funciones.» (Infracciones administrativas y sus sanciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es una parte esencial de la intervención.»?",
+      "opciones": [
+        "La prescripción de las infracciones.",
+        "El segundo.",
+        "Una forma eficaz de estudiar el tema es construir una tabla con tres columnas.",
+        "El control de la obra."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Es una parte esencial de la intervención.») define o regula específicamente a «El control de la obra» (Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)).",
       "referencia": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español (BOE núm. 155, de 29 de junio de 1985)"
     }
   ]

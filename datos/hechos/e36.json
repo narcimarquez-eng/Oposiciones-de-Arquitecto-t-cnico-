@@ -1,17 +1,5 @@
 [
   {
-    "pregunta": "¿Qué tiempo de reverberación máximo se admite en aulas vacías de volumen inferior a 350 m³?",
-    "opciones": [
-      "0,7 s, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "0,7 s, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "0,7 s",
-      "0,7 s, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "El DB-HR limita a 0,7 s el tiempo de reverberación de aulas vacías de menos de 350 m³.",
-    "referencia": "CTE, DB-HR, apartado 2.2"
-  },
-  {
     "pregunta": "¿Qué elemento adicional exige el DB-SUA en las escaleras de escuelas infantiles y centros de primaria?",
     "opciones": [
       "Un segundo pasamanos a menor altura",
@@ -24,18 +12,6 @@
     "referencia": "CTE, DB-SUA 1, apartado 4.2.4"
   },
   {
-    "pregunta": "¿Qué edificios distintos de vivienda deben disponer de ascensor o rampa accesible?",
-    "opciones": [
-      "Aquellos en que haya que salvar más de dos plantas o existan elementos accesibles en plantas sin entrada accesible, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Aquellos en que haya que salvar más de dos plantas o existan elementos accesibles en plantas sin entrada accesible, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Aquellos en que haya que salvar más de dos plantas o existan elementos accesibles en plantas sin entrada accesible, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Aquellos en que haya que salvar más de dos plantas o existan elementos accesibles en plantas sin entrada accesible"
-    ],
-    "correcta": 3,
-    "explicacion": "Los edificios de otros usos en esos casos dispondrán de ascensor accesible o rampa accesible.",
-    "referencia": "CTE, DB-SUA 9, apartado 1.1.2"
-  },
-  {
     "pregunta": "¿Qué densidad de ocupación fija el DB-SI para aulas, excepto de escuelas infantiles?",
     "opciones": [
       "1,5 m² por persona",
@@ -45,18 +21,6 @@
     ],
     "correcta": 0,
     "explicacion": "La tabla 2.1 del DB-SI fija 1,5 m²/persona en aulas, salvo escuelas infantiles.",
-    "referencia": "CTE, DB-SI 3, tabla 2.1"
-  },
-  {
-    "pregunta": "¿Qué densidad de ocupación fija el DB-SI para aulas de escuelas infantiles y salas de lectura?",
-    "opciones": [
-      "2 m² por persona, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "2 m² por persona",
-      "2 m² por persona, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "2 m² por persona, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Las aulas de escuelas infantiles y salas de lectura de bibliotecas se calculan a 2 m²/persona.",
     "referencia": "CTE, DB-SI 3, tabla 2.1"
   },
   {
@@ -81,30 +45,6 @@
     ],
     "correcta": 3,
     "explicacion": "Los centros docentes disponen de gimnasio o espacio polideportivo.",
-    "referencia": "Tema e36"
-  },
-  {
-    "pregunta": "¿Qué edificios de la Junta incluye el tema de centros administrativos?",
-    "opciones": [
-      "Las sedes de servicios administrativos y de atención a la ciudadanía, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Las sedes de servicios administrativos y de atención a la ciudadanía, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Las sedes de servicios administrativos y de atención a la ciudadanía",
-      "Las sedes de servicios administrativos y de atención a la ciudadanía, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Los centros administrativos albergan servicios de gestión y atención a la ciudadanía.",
-    "referencia": "Tema e36"
-  },
-  {
-    "pregunta": "¿Qué espacios específicos requieren las sedes judiciales?",
-    "opciones": [
-      "Salas de vistas, calabozos y zonas de custodia separadas",
-      "Salas de vistas, calabozos y zonas de custodia separadas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Salas de vistas, calabozos y zonas de custodia separadas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Salas de vistas, calabozos y zonas de custodia separadas, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Las sedes judiciales incluyen salas de vistas y circuitos diferenciados para detenidos.",
     "referencia": "Tema e36"
   },
   {
@@ -144,90 +84,6 @@
     "referencia": "RD 132/2010, art. 3.2 a)"
   },
   {
-    "pregunta": "¿Qué condiciones de ventilación e iluminación deben tener los espacios docentes?",
-    "opciones": [
-      "Ventilación e iluminación natural y directa desde el exterior, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Ventilación e iluminación natural y directa desde el exterior, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Ventilación e iluminación natural y directa desde el exterior",
-      "Ventilación e iluminación natural y directa desde el exterior, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Los espacios donde se desarrolla la práctica docente tendrán ventilación e iluminación natural y directa desde el exterior.",
-    "referencia": "RD 132/2010, art. 3.2 c)"
-  },
-  {
-    "pregunta": "¿Qué superficie mínima debe tener el patio de recreo de los centros de primaria, ESO o bachillerato?",
-    "opciones": [
-      "900 m², previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "900 m²",
-      "900 m², salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "900 m², computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "El patio de recreo, parcialmente cubierto y utilizable como pista polideportiva, no será inferior a 900 m².",
-    "referencia": "RD 132/2010, art. 3.3"
-  },
-  {
-    "pregunta": "¿Qué superficie mínima debe tener la biblioteca de un centro de educación primaria?",
-    "opciones": [
-      "45 m², previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "45 m², salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "45 m², computándose los plazos en días naturales y con sentido desestimatorio",
-      "45 m²"
-    ],
-    "correcta": 3,
-    "explicacion": "La biblioteca tendrá como mínimo 45 m² en primaria y 75 m² en ESO o bachillerato.",
-    "referencia": "RD 132/2010, art. 3.3"
-  },
-  {
-    "pregunta": "¿Qué superficie mínima debe tener la biblioteca de un centro de ESO o bachillerato?",
-    "opciones": [
-      "75 m², previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "75 m², salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "75 m²",
-      "75 m², computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "La biblioteca de los centros de ESO o bachillerato tendrá como mínimo 75 m².",
-    "referencia": "RD 132/2010, art. 3.3"
-  },
-  {
-    "pregunta": "¿Cuántas unidades como mínimo debe tener un centro de segundo ciclo de educación infantil?",
-    "opciones": [
-      "Tres",
-      "Tres, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Tres, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Tres, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Los centros de segundo ciclo de infantil deben contar con un mínimo de tres unidades, salvo la disposición adicional tercera.",
-    "referencia": "RD 132/2010, art. 6.1"
-  },
-  {
-    "pregunta": "¿Qué superficie mínima por puesto escolar deben tener las aulas de segundo ciclo de educación infantil?",
-    "opciones": [
-      "2 m² por puesto escolar",
-      "2 m² por puesto escolar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "2 m² por puesto escolar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "2 m² por puesto escolar, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Cada aula tendrá un mínimo de 2 m² por puesto escolar.",
-    "referencia": "RD 132/2010, art. 6.2 a)"
-  },
-  {
-    "pregunta": "¿Qué superficie debe tener la sala polivalente de un centro de segundo ciclo de infantil?",
-    "opciones": [
-      "30 m², previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "30 m²",
-      "30 m², salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "30 m², computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Estos centros deben contar con una sala polivalente de 30 m².",
-    "referencia": "RD 132/2010, art. 6.2 b)"
-  },
-  {
     "pregunta": "¿Qué superficie mínima debe tener el patio de juegos de un centro de segundo ciclo de infantil?",
     "opciones": [
       "900 m² siempre",
@@ -238,126 +94,6 @@
     "correcta": 2,
     "explicacion": "El patio de juegos, de uso exclusivo, nunca será inferior a 150 m² por cada seis unidades o fracción.",
     "referencia": "RD 132/2010, art. 6.2 c)"
-  },
-  {
-    "pregunta": "¿Cuántos alumnos por unidad como máximo admite el segundo ciclo de infantil según el RD 132/2010?",
-    "opciones": [
-      "25, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "25, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "25, computándose los plazos en días naturales y con sentido desestimatorio",
-      "25"
-    ],
-    "correcta": 3,
-    "explicacion": "Los centros de segundo ciclo de educación infantil tendrán como máximo 25 alumnos por unidad.",
-    "referencia": "RD 132/2010, art. 7"
-  },
-  {
-    "pregunta": "¿Qué superficie mínima por puesto escolar deben tener las aulas de educación primaria?",
-    "opciones": [
-      "1,5 m² por puesto escolar, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "1,5 m² por puesto escolar, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "1,5 m² por puesto escolar, computándose los plazos en días naturales y con sentido desestimatorio",
-      "1,5 m² por puesto escolar"
-    ],
-    "correcta": 3,
-    "explicacion": "Las aulas de primaria tendrán un mínimo de 1,5 m² por puesto escolar.",
-    "referencia": "RD 132/2010, art. 10 a)"
-  },
-  {
-    "pregunta": "¿Cuántos espacios de desdoblamiento exige el RD 132/2010 en los centros de primaria?",
-    "opciones": [
-      "Uno por cada seis unidades",
-      "Uno por cada seis unidades, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Uno por cada seis unidades, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Uno por cada seis unidades, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Primaria exige un espacio por cada seis unidades para desdoblamiento y otro para apoyo y refuerzo.",
-    "referencia": "RD 132/2010, art. 10 b)"
-  },
-  {
-    "pregunta": "¿Qué aulas específicas exige el RD 132/2010 en ESO por cada 12 unidades o fracción?",
-    "opciones": [
-      "Un aula taller de tecnología y dos aulas para música y educación plástica y visual, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Un aula taller de tecnología y dos aulas para música y educación plástica y visual, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Un aula taller de tecnología y dos aulas para música y educación plástica y visual",
-      "Un aula taller de tecnología y dos aulas para música y educación plástica y visual, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Por cada 12 unidades o fracción se exige un aula taller para tecnologías y dos aulas para música y plástica.",
-    "referencia": "RD 132/2010, art. 14 b)"
-  },
-  {
-    "pregunta": "¿Cuántos laboratorios de Ciencias Experimentales exige como mínimo el RD 132/2010 en ESO?",
-    "opciones": [
-      "Al menos uno por cada 12 unidades o fracción, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Al menos uno por cada 12 unidades o fracción, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Al menos uno por cada 12 unidades o fracción, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Al menos uno por cada 12 unidades o fracción"
-    ],
-    "correcta": 3,
-    "explicacion": "Se exige al menos un laboratorio de Ciencias Experimentales por cada 12 unidades o fracción.",
-    "referencia": "RD 132/2010, art. 14 c)"
-  },
-  {
-    "pregunta": "¿Qué laboratorios exige la modalidad de Ciencias y Tecnología del bachillerato?",
-    "opciones": [
-      "Tres laboratorios diferenciados de Física, Química y Ciencias",
-      "Tres laboratorios diferenciados de Física, Química y Ciencias, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Tres laboratorios diferenciados de Física, Química y Ciencias, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Tres laboratorios diferenciados de Física, Química y Ciencias, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "La modalidad de Ciencias y Tecnología requiere tres laboratorios diferenciados, además de un aula de dibujo y otra de tecnología.",
-    "referencia": "RD 132/2010, art. 15.3 b)"
-  },
-  {
-    "pregunta": "¿Cuántos alumnos por unidad como máximo admite la ESO según el RD 132/2010?",
-    "opciones": [
-      "30, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "30, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "30, computándose los plazos en días naturales y con sentido desestimatorio",
-      "30"
-    ],
-    "correcta": 3,
-    "explicacion": "Los centros de secundaria tendrán como máximo 30 alumnos por unidad en ESO y 35 en bachillerato.",
-    "referencia": "RD 132/2010, art. 16"
-  },
-  {
-    "pregunta": "¿Cuántos alumnos por unidad como máximo admite el bachillerato según el RD 132/2010?",
-    "opciones": [
-      "35, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "35, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "35, computándose los plazos en días naturales y con sentido desestimatorio",
-      "35"
-    ],
-    "correcta": 3,
-    "explicacion": "El bachillerato admite como máximo 35 alumnos por unidad.",
-    "referencia": "RD 132/2010, art. 16"
-  },
-  {
-    "pregunta": "¿Cuántas plantas pueden tener los centros de Educación Infantil según las normas de diseño de la Junta?",
-    "opciones": [
-      "Una sola planta, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Una sola planta, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Una sola planta, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Una sola planta"
-    ],
-    "correcta": 3,
-    "explicacion": "Los Centros de Educación Infantil serán siempre de una sola planta.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 11"
-  },
-  {
-    "pregunta": "¿Cuántas plantas como máximo pueden tener los centros de Primaria y Secundaria?",
-    "opciones": [
-      "Tres plantas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Tres plantas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Tres plantas",
-      "Tres plantas, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Los Centros de Educación Primaria y los de Secundaria no deberán ser de más de tres plantas.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 11"
   },
   {
     "pregunta": "¿Se admiten sótanos en los edificios docentes no universitarios?",
@@ -396,18 +132,6 @@
     "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 16"
   },
   {
-    "pregunta": "¿Cómo deben ser las entradas de personas respecto a las de vehículos?",
-    "opciones": [
-      "Independientes",
-      "Independientes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Independientes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Independientes, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Las entradas de personas serán independientes a las de vehículos.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 17"
-  },
-  {
     "pregunta": "¿Qué deben tener los centros que incluyan Educación Infantil y Primaria en el exterior?",
     "opciones": [
       "Una única zona de juegos común",
@@ -430,30 +154,6 @@
     "correcta": 0,
     "explicacion": "Las aulas exteriores son espacios ligados al aula donde se realiza la actividad escolar al aire libre.",
     "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 22"
-  },
-  {
-    "pregunta": "¿Qué anchura mínima deben tener los porches de los centros docentes?",
-    "opciones": [
-      "4 m",
-      "4 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "4 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "4 m, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "El ancho de los porches no será inferior a 4 m para poder usarse en caso de lluvia.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 25"
-  },
-  {
-    "pregunta": "¿Qué locales pueden carecer de luz y ventilación natural directa en un centro docente?",
-    "opciones": [
-      "Almacenes, cuartos de limpieza y basuras, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Almacenes, cuartos de limpieza y basuras",
-      "Almacenes, cuartos de limpieza y basuras, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Almacenes, cuartos de limpieza y basuras, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Todos los locales tendrán luz y ventilación natural directa, salvo almacenes, cuartos de limpieza y basuras.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 27"
   },
   {
     "pregunta": "¿Qué espacio no debe ubicarse junto a las aulas por razones acústicas?",
@@ -480,162 +180,6 @@
     "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 34"
   },
   {
-    "pregunta": "¿Qué altura libre mínima deben tener los espacios docentes?",
-    "opciones": [
-      "3,00 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "3,00 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "3,00 m, computándose los plazos en días naturales y con sentido desestimatorio",
-      "3,00 m"
-    ],
-    "correcta": 3,
-    "explicacion": "La altura libre de los espacios docentes será como mínimo de 3,00 m; en circulaciones y locales pequeños, 2,80 m.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 35"
-  },
-  {
-    "pregunta": "¿Qué altura libre mínima se admite en circulaciones, seminarios y despachos de los centros docentes?",
-    "opciones": [
-      "2,80 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "2,80 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "2,80 m, computándose los plazos en días naturales y con sentido desestimatorio",
-      "2,80 m"
-    ],
-    "correcta": 3,
-    "explicacion": "En circulaciones, seminarios, despachos y locales de reducidas dimensiones se admite una altura mínima de 2,80 m.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 35"
-  },
-  {
-    "pregunta": "¿Qué longitud libre mínima debe tener el lado menor de un aula?",
-    "opciones": [
-      "6,00 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "6,00 m",
-      "6,00 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "6,00 m, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "La longitud libre del lado menor del aula ha de ser igual o superior a 6,00 m.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 36"
-  },
-  {
-    "pregunta": "¿Por qué lado debe entrar la luz natural respecto de los alumnos en el aula?",
-    "opciones": [
-      "Por la izquierda de los alumnos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Por la izquierda de los alumnos",
-      "Por la izquierda de los alumnos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Por la izquierda de los alumnos, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "La disposición de la pizarra permitirá la entrada de luz natural por la izquierda de los alumnos.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 36"
-  },
-  {
-    "pregunta": "¿Qué se dispone en un aula cuando la distancia entre el paramento iluminado y su opuesto supera 7,20 m?",
-    "opciones": [
-      "Montantes acristalados en el paramento opuesto, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Montantes acristalados en el paramento opuesto, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Montantes acristalados en el paramento opuesto, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Montantes acristalados en el paramento opuesto"
-    ],
-    "correcta": 3,
-    "explicacion": "Si la distancia supera 7,20 m se disponen montantes acristalados en el paramento opuesto.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 36"
-  },
-  {
-    "pregunta": "¿Cuántas puertas de evacuación como mínimo deben tener los locales docentes?",
-    "opciones": [
-      "Dos, abriendo hacia fuera y de al menos 90 cm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Dos, abriendo hacia fuera y de al menos 90 cm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Dos, abriendo hacia fuera y de al menos 90 cm, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Dos, abriendo hacia fuera y de al menos 90 cm"
-    ],
-    "correcta": 3,
-    "explicacion": "Todos los locales docentes tendrán como mínimo dos puertas de evacuación que abrirán hacia fuera, de ancho no inferior a 90 cm.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 37"
-  },
-  {
-    "pregunta": "¿Cuánto pueden invadir el pasillo las puertas de los locales docentes al abrir?",
-    "opciones": [
-      "No más de 15 cm, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "No más de 15 cm",
-      "No más de 15 cm, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "No más de 15 cm, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Las puertas abrirán hacia fuera sin invadir el pasillo más de 15 cm.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 37"
-  },
-  {
-    "pregunta": "¿Entre qué anchuras deben estar las escaleras principales de centros no universitarios?",
-    "opciones": [
-      "Entre 1,50 m y 2,40 m",
-      "Entre 1,50 m y 2,40 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Entre 1,50 m y 2,40 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Entre 1,50 m y 2,40 m, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Su anchura no será inferior a 1,50 m ni superior a 2,40 m en centros no universitarios.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 38"
-  },
-  {
-    "pregunta": "¿Qué tipo de escaleras no se admiten en los centros docentes?",
-    "opciones": [
-      "Las helicoidales y las de escalones compensados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Las helicoidales y las de escalones compensados",
-      "Las helicoidales y las de escalones compensados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Las helicoidales y las de escalones compensados, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "No se admitirán escaleras helicoidales ni escalones compensados en ningún tramo.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 38"
-  },
-  {
-    "pregunta": "¿Hasta qué altura deben protegerse los paramentos de los espacios de circulación?",
-    "opciones": [
-      "1,65 m",
-      "1,65 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "1,65 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "1,65 m, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Los paramentos de circulación se protegerán hasta una altura mínima de 1,65 m con materiales resistentes y de fácil limpieza.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 41"
-  },
-  {
-    "pregunta": "¿Qué anchura mínima deben tener los pasillos con aulas a un solo lado?",
-    "opciones": [
-      "1,50 m",
-      "1,50 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "1,50 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "1,50 m, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "La anchura mínima es de 1,50 m con aulas a un lado, 2 m con aulas a ambos lados y 1,20 m en zonas exclusivas de administración.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 42"
-  },
-  {
-    "pregunta": "¿Qué anchura mínima deben tener los pasillos con aulas a ambos lados?",
-    "opciones": [
-      "2 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "2 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "2 m",
-      "2 m, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Con aulas a ambos lados del pasillo la anchura mínima es de 2 m.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 42"
-  },
-  {
-    "pregunta": "¿Cada cuánto debe disponerse un rellano en las rampas de un centro docente?",
-    "opciones": [
-      "Un rellano de 1,50 m cada 15 m como máximo, recomendable cada 10 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Un rellano de 1,50 m cada 15 m como máximo, recomendable cada 10 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Un rellano de 1,50 m cada 15 m como máximo, recomendable cada 10 m, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Un rellano de 1,50 m cada 15 m como máximo, recomendable cada 10 m"
-    ],
-    "correcta": 3,
-    "explicacion": "En las rampas se prevé un rellano de 1,50 m cada 15 m como máximo de tramo, siendo recomendable cada 10 m.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 43"
-  },
-  {
     "pregunta": "¿Qué dotación de aseos de alumnos se proyecta por aula en primaria y secundaria?",
     "opciones": [
       "1 inodoro por cada 3 aulas",
@@ -648,63 +192,171 @@
     "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 44"
   },
   {
-    "pregunta": "¿Qué porcentaje de los aseos de alumnos conviene concentrar en planta baja?",
+    "pregunta": "En el ámbito de «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿qué establece la normativa respecto a «Normas generales (art. 133 Decreto de normas para la accesibilidad en las infraestructuras)»?",
     "opciones": [
-      "El 50 %, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El 50 %",
-      "El 50 %, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El 50 %, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Es conveniente concentrar el 50 % del total en planta baja, próximos a las salidas a las zonas de juegos.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 44"
-  },
-  {
-    "pregunta": "¿Qué dotación de aseos se proyecta por aula en las Escuelas Infantiles?",
-    "opciones": [
-      "2 inodoros de tamaño infantil y 2 lavabos-piletas",
-      "2 inodoros de tamaño infantil y 2 lavabos-piletas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "2 inodoros de tamaño infantil y 2 lavabos-piletas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "2 inodoros de tamaño infantil y 2 lavabos-piletas, computándose los plazos en días naturales y con sentido desestimatorio"
+      "Los taxis o vehículos especiales accesibles deberán reunir las condiciones establecidas en el Real Decreto 1544/2007, de 23 de noviembre.",
+      "De manera que, a modo de comparativo, se pueda verificar el cumplimiento de las presentes normas.",
+      "Cuando exista un cambio de dirección entre dos tramos, la anchura de la rampa no se reducirá a lo largo de la meseta.",
+      "En los espacios donde se instalen aseos aislados de uso público, al menos uno de cada diez de ellos deberá ser accesible de acuerdo con las características previstas en el artículo 77.1."
     ],
     "correcta": 0,
-    "explicacion": "La dotación en las Escuelas Infantiles es de 2 inodoros de tamaño infantil y 2 lavabos-piletas por aula.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 45"
+    "explicacion": "Respecto a «Normas generales (art. 133 Decreto de normas para la accesibilidad en las infraestructuras)» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), la regulación vigente establece que: Los taxis o vehículos especiales accesibles deberán reunir las condiciones establecidas en el Real Decreto 1544/2007, de 23 de noviembre.",
+    "referencia": "Art. 133 de Decreto de normas para la accesibilidad en las infraestructuras"
   },
   {
-    "pregunta": "¿Qué altura libre mínima debe tener el gimnasio de Educación Secundaria?",
+    "pregunta": "Dentro de la materia «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Los taxis o vehículos especiales accesibles deberán reunir las condiciones establecidas en el Real Decreto 1544/2007, de 23 de noviembre.»?",
     "opciones": [
-      "5,50 m",
-      "5,50 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "5,50 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "5,50 m, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "La altura libre mínima del gimnasio es de 4,00 m en Primaria y 5,50 m en Secundaria.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 48"
-  },
-  {
-    "pregunta": "¿Qué dimensiones interiores libres debe tener el gimnasio de Educación Secundaria?",
-    "opciones": [
-      "27 x 15 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "27 x 15 m",
-      "27 x 15 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "27 x 15 m, computándose los plazos en días naturales y con sentido desestimatorio"
+      "Memoria (art. 7 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Normas generales (art. 133 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Rampas (art. 22 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Aseos de uso público (art. 26 Decreto de normas para la accesibilidad en las infraestructuras)."
     ],
     "correcta": 1,
-    "explicacion": "Para Secundaria el espacio interior libre del gimnasio será de 27 x 15 m; en Primaria se recomienda 12 x 14 m.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 48"
+    "explicacion": "Dicha determinación («Los taxis o vehículos especiales accesibles deberán reunir las condiciones establecidas en el Real Decreto 1544/2007, de 23 de noviembre.») define o regula específicamente a «Normas generales (art. 133 Decreto de normas para la accesibilidad en las infraestructuras)» (Art. 133 de Decreto de normas para la accesibilidad en las infraestructuras).",
+    "referencia": "Art. 133 de Decreto de normas para la accesibilidad en las infraestructuras"
   },
   {
-    "pregunta": "¿Qué elementos no se dispondrán en los gimnasios de los centros docentes?",
+    "pregunta": "En el ámbito de «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿qué establece la normativa respecto a «Definiciones (art. 3 Decreto de normas para la accesibilidad en las infraestructuras)»?",
     "opciones": [
-      "Falsos techos ni elementos peligrosos o inestables a los golpes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Falsos techos ni elementos peligrosos o inestables a los golpes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Falsos techos ni elementos peligrosos o inestables a los golpes, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Falsos techos ni elementos peligrosos o inestables a los golpes"
+      "Se empleará un pavimento de botones normalizado u otro pavimento normalizado que cumpla con las exigencias requeridas para las personas viandantes por la normativa sectorial que sea de aplicación.",
+      "Las mismas deben estar señalizadas con una franja señalizadora de 0,60 metros de fondo y la anchura de la meseta, siendo su pavimento de diferente textura y color.",
+      "A los efectos del presente Reglamento, se entenderá por: 1.",
+      "Las plazas de estacionamiento reservadas para personas con movilidad reducida deberán mantener tal condición de reserva en caso de enajenación, cesión o arrendamiento."
+    ],
+    "correcta": 2,
+    "explicacion": "Respecto a «Definiciones (art. 3 Decreto de normas para la accesibilidad en las infraestructuras)» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), la regulación vigente establece que: A los efectos del presente Reglamento, se entenderá por: 1.",
+    "referencia": "Art. 3 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "Dentro de la materia «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «A los efectos del presente Reglamento, se entenderá por: 1.»?",
+    "opciones": [
+      "Vados (art. 16 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Escaleras (art. 23 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Reservas de plazas (art. 29 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Definiciones (art. 3 Decreto de normas para la accesibilidad en las infraestructuras)."
     ],
     "correcta": 3,
-    "explicacion": "En el gimnasio no se dispondrán falsos techos ni elementos peligrosos e inestables a los golpes o balonazos.",
-    "referencia": "Orden de 24 de enero de 2003 (normas de diseño de edificios docentes), norma 48"
+    "explicacion": "Dicha determinación («A los efectos del presente Reglamento, se entenderá por: 1.») define o regula específicamente a «Definiciones (art. 3 Decreto de normas para la accesibilidad en las infraestructuras)» (Art. 3 de Decreto de normas para la accesibilidad en las infraestructuras).",
+    "referencia": "Art. 3 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "En el ámbito de «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿qué establece la normativa respecto a «Alcance y contenido (art. 6 Decreto de normas para la accesibilidad en las infraestructuras)»?",
+    "opciones": [
+      "A los efectos anteriores, el contenido mínimo de los distintos documentos de que se trate, será el que se establece en los artículos siguientes, según el alcance y contenido exigible en cada caso.",
+      "En el caso de barandillas o antepechos, éstos cumplirán con las condiciones establecidas en el artículo 23.3.",
+      "Las ayudas técnicas deberán reunir las condiciones establecidas en el artículo 75.",
+      "Las rejillas y registros estarán situados en el mismo plano del pavimento circundante y estarán fabricados con materiales resistentes a la deformación."
+    ],
+    "correcta": 0,
+    "explicacion": "Respecto a «Alcance y contenido (art. 6 Decreto de normas para la accesibilidad en las infraestructuras)» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), la regulación vigente establece que: A los efectos anteriores, el contenido mínimo de los distintos documentos de que se trate, será el que se establece en los artículos siguientes, según el alcance y contenido exigible en cada caso.",
+    "referencia": "Art. 6 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "Dentro de la materia «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «A los efectos anteriores, el contenido mínimo de los distintos documentos de que se trate, será el que se establece en los artículos siguientes, según el alcance y contenido exigible en cada caso.»?",
+    "opciones": [
+      "Puentes y pasarelas (art. 19 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Alcance y contenido (art. 6 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Ayudas técnicas (art. 25 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Rejillas y registros (art. 32 Decreto de normas para la accesibilidad en las infraestructuras)."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («A los efectos anteriores, el contenido mínimo de los distintos documentos de que se trate, será el que se establece en los artículos siguientes, según el alcance y contenido exigible en cada caso.») define o regula específicamente a «Alcance y contenido (art. 6 Decreto de normas para la accesibilidad en las infraestructuras)» (Art. 6 de Decreto de normas para la accesibilidad en las infraestructuras).",
+    "referencia": "Art. 6 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "En el ámbito de «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿qué establece la normativa respecto a «Memoria (art. 7 Decreto de normas para la accesibilidad en las infraestructuras)»?",
+    "opciones": [
+      "Cuando exista un cambio de dirección entre dos tramos, la anchura de la rampa no se reducirá a lo largo de la meseta.",
+      "En los espacios donde se instalen aseos aislados de uso público, al menos uno de cada diez de ellos deberá ser accesible de acuerdo con las características previstas en el artículo 77.1.",
+      "De manera que, a modo de comparativo, se pueda verificar el cumplimiento de las presentes normas.",
+      "La anchura de los orificios de las rejillas y huecos existentes en el pavimento cumplirán los requisitos establecidos en el artículo 32."
+    ],
+    "correcta": 2,
+    "explicacion": "Respecto a «Memoria (art. 7 Decreto de normas para la accesibilidad en las infraestructuras)» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), la regulación vigente establece que: De manera que, a modo de comparativo, se pueda verificar el cumplimiento de las presentes normas.",
+    "referencia": "Art. 7 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "Dentro de la materia «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «De manera que, a modo de comparativo, se pueda verificar el cumplimiento de las presentes normas.»?",
+    "opciones": [
+      "Rampas (art. 22 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Aseos de uso público (art. 26 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Elementos vegetales (art. 33 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Memoria (art. 7 Decreto de normas para la accesibilidad en las infraestructuras)."
+    ],
+    "correcta": 3,
+    "explicacion": "Dicha determinación («De manera que, a modo de comparativo, se pueda verificar el cumplimiento de las presentes normas.») define o regula específicamente a «Memoria (art. 7 Decreto de normas para la accesibilidad en las infraestructuras)» (Art. 7 de Decreto de normas para la accesibilidad en las infraestructuras).",
+    "referencia": "Art. 7 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "En el ámbito de «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿qué establece la normativa respecto a «Vados (art. 16 Decreto de normas para la accesibilidad en las infraestructuras)»?",
+    "opciones": [
+      "Se empleará un pavimento de botones normalizado u otro pavimento normalizado que cumpla con las exigencias requeridas para las personas viandantes por la normativa sectorial que sea de aplicación.",
+      "Las mismas deben estar señalizadas con una franja señalizadora de 0,60 metros de fondo y la anchura de la meseta, siendo su pavimento de diferente textura y color.",
+      "Las plazas de estacionamiento reservadas para personas con movilidad reducida deberán mantener tal condición de reserva en caso de enajenación, cesión o arrendamiento.",
+      "Asimismo, dispondrán de las canalizaciones necesarias para que no se formen encharcamientos o estancamientos de aguas."
+    ],
+    "correcta": 0,
+    "explicacion": "Respecto a «Vados (art. 16 Decreto de normas para la accesibilidad en las infraestructuras)» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), la regulación vigente establece que: Se empleará un pavimento de botones normalizado u otro pavimento normalizado que cumpla con las exigencias requeridas para las personas viandantes por la normativa sectorial que sea de aplicación.",
+    "referencia": "Art. 16 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "Dentro de la materia «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se empleará un pavimento de botones normalizado u otro pavimento normalizado que cumpla con las exigencias requeridas para las personas viandantes por la normativa sectorial que sea de aplicación.»?",
+    "opciones": [
+      "Escaleras (art. 23 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Vados (art. 16 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Reservas de plazas (art. 29 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Requisitos generales (art. 34 Decreto de normas para la accesibilidad en las infraestructuras)."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («Se empleará un pavimento de botones normalizado u otro pavimento normalizado que cumpla con las exigencias requeridas para las personas viandantes por la normativa sectorial que sea de aplicación.») define o regula específicamente a «Vados (art. 16 Decreto de normas para la accesibilidad en las infraestructuras)» (Art. 16 de Decreto de normas para la accesibilidad en las infraestructuras).",
+    "referencia": "Art. 16 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "En el ámbito de «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿qué establece la normativa respecto a «Puentes y pasarelas (art. 19 Decreto de normas para la accesibilidad en las infraestructuras)»?",
+    "opciones": [
+      "Las ayudas técnicas deberán reunir las condiciones establecidas en el artículo 75.",
+      "Las rejillas y registros estarán situados en el mismo plano del pavimento circundante y estarán fabricados con materiales resistentes a la deformación.",
+      "En el caso de barandillas o antepechos, éstos cumplirán con las condiciones establecidas en el artículo 23.3.",
+      "Al menos uno de los accesos habilitados para el público en general será accesible para personas con discapacidad."
+    ],
+    "correcta": 2,
+    "explicacion": "Respecto a «Puentes y pasarelas (art. 19 Decreto de normas para la accesibilidad en las infraestructuras)» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), la regulación vigente establece que: En el caso de barandillas o antepechos, éstos cumplirán con las condiciones establecidas en el artículo 23.3.",
+    "referencia": "Art. 19 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "Dentro de la materia «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En el caso de barandillas o antepechos, éstos cumplirán con las condiciones establecidas en el artículo 23.3.»?",
+    "opciones": [
+      "Ayudas técnicas (art. 25 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Rejillas y registros (art. 32 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Accesos (art. 45 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Puentes y pasarelas (art. 19 Decreto de normas para la accesibilidad en las infraestructuras)."
+    ],
+    "correcta": 3,
+    "explicacion": "Dicha determinación («En el caso de barandillas o antepechos, éstos cumplirán con las condiciones establecidas en el artículo 23.3.») define o regula específicamente a «Puentes y pasarelas (art. 19 Decreto de normas para la accesibilidad en las infraestructuras)» (Art. 19 de Decreto de normas para la accesibilidad en las infraestructuras).",
+    "referencia": "Art. 19 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "En el ámbito de «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿qué establece la normativa respecto a «Rampas (art. 22 Decreto de normas para la accesibilidad en las infraestructuras)»?",
+    "opciones": [
+      "Cuando exista un cambio de dirección entre dos tramos, la anchura de la rampa no se reducirá a lo largo de la meseta.",
+      "En los espacios donde se instalen aseos aislados de uso público, al menos uno de cada diez de ellos deberá ser accesible de acuerdo con las características previstas en el artículo 77.1.",
+      "La anchura de los orificios de las rejillas y huecos existentes en el pavimento cumplirán los requisitos establecidos en el artículo 32.",
+      "71 Normas para la accesibilidad en las infraestructuras, el urbanismo, la edificación y el transporte en Andalucía 72."
+    ],
+    "correcta": 0,
+    "explicacion": "Respecto a «Rampas (art. 22 Decreto de normas para la accesibilidad en las infraestructuras)» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), la regulación vigente establece que: Cuando exista un cambio de dirección entre dos tramos, la anchura de la rampa no se reducirá a lo largo de la meseta.",
+    "referencia": "Art. 22 de Decreto de normas para la accesibilidad en las infraestructuras"
+  },
+  {
+    "pregunta": "Dentro de la materia «Centros docentes, administrativos y de justicia de la Junta de Andalucía. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones.» (Articulado de Decreto de normas para la accesibilidad en las infraestructuras), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Cuando exista un cambio de dirección entre dos tramos, la anchura de la rampa no se reducirá a lo largo de la meseta.»?",
+    "opciones": [
+      "Aseos de uso público (art. 26 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Rampas (art. 22 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Elementos vegetales (art. 33 Decreto de normas para la accesibilidad en las infraestructuras).",
+      "Dotaciones (art. 46 Decreto de normas para la accesibilidad en las infraestructuras)."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («Cuando exista un cambio de dirección entre dos tramos, la anchura de la rampa no se reducirá a lo largo de la meseta.») define o regula específicamente a «Rampas (art. 22 Decreto de normas para la accesibilidad en las infraestructuras)» (Art. 22 de Decreto de normas para la accesibilidad en las infraestructuras).",
+    "referencia": "Art. 22 de Decreto de normas para la accesibilidad en las infraestructuras"
   }
 ]

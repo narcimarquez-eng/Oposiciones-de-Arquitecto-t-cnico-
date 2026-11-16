@@ -1,29 +1,5 @@
 [
   {
-    "pregunta": "¿Qué superficie construida máxima puede tener un sector de incendio de uso Residencial Vivienda?",
-    "opciones": [
-      "2.500 m²",
-      "2.500 m², previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "2.500 m², salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "2.500 m², computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "En Residencial Vivienda la superficie construida de todo sector de incendio no debe exceder de 2.500 m².",
-    "referencia": "CTE, DB-SI 1, tabla 1.1"
-  },
-  {
-    "pregunta": "¿Qué resistencia al fuego deben tener como mínimo los elementos que separan viviendas entre sí?",
-    "opciones": [
-      "EI 60, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "EI 60, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "EI 60",
-      "EI 60, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Los elementos que separan viviendas entre sí deben ser al menos EI 60.",
-    "referencia": "CTE, DB-SI 1, tabla 1.1"
-  },
-  {
     "pregunta": "¿Entre qué valores debe estar la anchura de toda hoja de puerta de evacuación?",
     "opciones": [
       "Entre 0,60 m y 1,23 m",
@@ -46,78 +22,6 @@
     "correcta": 3,
     "explicacion": "El dimensionado de puertas y pasos es A ≥ P/200 ≥ 0,80 m.",
     "referencia": "CTE, DB-SI 3, tabla 4.1"
-  },
-  {
-    "pregunta": "¿Qué anchura mínima deben tener los pasillos y rampas de evacuación?",
-    "opciones": [
-      "A ≥ P/200 y nunca menos de 1,00 m",
-      "A ≥ P/200 y nunca menos de 1,00 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "A ≥ P/200 y nunca menos de 1,00 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "A ≥ P/200 y nunca menos de 1,00 m, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Los pasillos y rampas se dimensionan con A ≥ P/200 ≥ 1,00 m.",
-    "referencia": "CTE, DB-SI 3, tabla 4.1"
-  },
-  {
-    "pregunta": "¿A partir de qué altura de evacuación se exige columna seca en Residencial Vivienda?",
-    "opciones": [
-      "Más de 24 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Más de 24 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Más de 24 m, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Más de 24 m"
-    ],
-    "correcta": 3,
-    "explicacion": "En Residencial Vivienda se exige columna seca si la altura de evacuación excede de 24 m.",
-    "referencia": "CTE, DB-SI 4, tabla 1.1"
-  },
-  {
-    "pregunta": "¿Cuándo se exigen hidrantes exteriores con carácter general?",
-    "opciones": [
-      "Si la altura de evacuación descendente excede de 28 m o la ascendente de 6 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Si la altura de evacuación descendente excede de 28 m o la ascendente de 6 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Si la altura de evacuación descendente excede de 28 m o la ascendente de 6 m",
-      "Si la altura de evacuación descendente excede de 28 m o la ascendente de 6 m, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "La tabla 1.1 del DB-SI 4 exige hidrantes exteriores en esos casos, entre otros.",
-    "referencia": "CTE, DB-SI 4, tabla 1.1"
-  },
-  {
-    "pregunta": "¿Hasta qué altura deben tener los materiales de fachada una reacción al fuego B-s3,d0 como mínimo?",
-    "opciones": [
-      "3,5 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "3,5 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "3,5 m, computándose los plazos en días naturales y con sentido desestimatorio",
-      "3,5 m"
-    ],
-    "correcta": 3,
-    "explicacion": "La clase de reacción al fuego de los materiales de fachada debe ser al menos B-s3,d0 hasta una altura de 3,5 m como mínimo.",
-    "referencia": "CTE, DB-SI 2"
-  },
-  {
-    "pregunta": "¿Qué franja de la medianería debe ser REI 60 junto al edificio colindante?",
-    "opciones": [
-      "Una franja de 0,50 m medida desde el edificio colindante, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Una franja de 0,50 m medida desde el edificio colindante, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Una franja de 0,50 m medida desde el edificio colindante",
-      "Una franja de 0,50 m medida desde el edificio colindante, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "La cubierta tendrá REI 60 en una franja de 0,50 m medida desde el edificio colindante.",
-    "referencia": "CTE, DB-SI 2"
-  },
-  {
-    "pregunta": "¿Cuándo se exigen al menos dos salidas de planta por la evacuación ascendente?",
-    "opciones": [
-      "Cuando más de 50 personas precisan salvar en sentido ascendente una altura de evacuación mayor que 2 m, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Cuando más de 50 personas precisan salvar en sentido ascendente una altura de evacuación mayor que 2 m, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Cuando más de 50 personas precisan salvar en sentido ascendente una altura de evacuación mayor que 2 m",
-      "Cuando más de 50 personas precisan salvar en sentido ascendente una altura de evacuación mayor que 2 m, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "El DB-SI 3 exige más de una salida de planta en esa situación.",
-    "referencia": "CTE, DB-SI 3, tabla 3.1"
   },
   {
     "pregunta": "En Ley de Ordenación de la Edificación, ¿qué precepto establece literalmente: «El constructor también responderá de los daños materiales por vicios o defectos de ejecución que afecten a elementos de terminación o acabado de las obras dentro del plazo de un año.»?",
@@ -168,18 +72,6 @@
     "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
   },
   {
-    "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Intervención de los bomberos: acceso y entorno), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «23 m en edificios de hasta 15 m, 18 m entre 15 y 20 m, y 10 m por encima de 20 m.»?",
-    "opciones": [
-      "La separación máxima del vehículo a la fachada depende de la altura, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La separación máxima del vehículo a la fachada depende de la altura, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La separación máxima del vehículo a la fachada depende de la altura.",
-      "La separación máxima del vehículo a la fachada depende de la altura, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Dicha determinación («23 m en edificios de hasta 15 m, 18 m entre 15 y 20 m, y 10 m por encima de 20 m.») define o regula específicamente a «La separación máxima del vehículo a la fachada depende de la altura» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
-    "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-  },
-  {
     "pregunta": "En el ámbito de «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Intervención de los bomberos: acceso y entorno), ¿qué establece la normativa respecto a «La distancia máxima hasta los accesos del edificio»?",
     "opciones": [
       "Es confundir la resistencia R con la clase de reacción al fuego de los materiales: la R mide la capacidad portante ante el incendio, y la clase de reacción mide el comportamiento del revestimiento.",
@@ -189,18 +81,6 @@
     ],
     "correcta": 3,
     "explicacion": "Respecto a «La distancia máxima hasta los accesos del edificio» (Intervención de los bomberos: acceso y entorno), la regulación vigente establece que: Es de 30 m, la pendiente máxima del 10 % y la resistencia al punzonamiento del suelo de 100 kN sobre 20 cm (SI 5, apartado 1.2, punto 1, letras a a f).",
-    "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-  },
-  {
-    "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Intervención de los bomberos: acceso y entorno), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es de 30 m, la pendiente máxima del 10 % y la resistencia al punzonamiento del suelo de 100 kN sobre 20 cm (SI 5, apartado 1.2, punto 1, letras a a f).»?",
-    "opciones": [
-      "La distancia máxima hasta los accesos del edificio.",
-      "La distancia máxima hasta los accesos del edificio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La distancia máxima hasta los accesos del edificio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La distancia máxima hasta los accesos del edificio, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Dicha determinación («Es de 30 m, la pendiente máxima del 10 % y la resistencia al punzonamiento del suelo de 100 kN sobre 20 cm (SI 5, apartado 1.2, punto 1, letras a a f).») define o regula específicamente a «La distancia máxima hasta los accesos del edificio» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
     "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
   },
   {
@@ -216,18 +96,6 @@
     "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
   },
   {
-    "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (7 bis. Exigencias durante la ejecución de la obra), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el paso de instalaciones por los elementos de compartimentación: cada paso debe quedar sellado con un material que mantenga la resistencia del elemento.»?",
-    "opciones": [
-      "Una comprobación de obra habitual, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Una comprobación de obra habitual, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Una comprobación de obra habitual.",
-      "Una comprobación de obra habitual, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Dicha determinación («Es el paso de instalaciones por los elementos de compartimentación: cada paso debe quedar sellado con un material que mantenga la resistencia del elemento.») define o regula específicamente a «Una comprobación de obra habitual» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
-    "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-  },
-  {
     "pregunta": "En el ámbito de «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Inspección, mantenimiento y régimen sancionador), ¿qué establece la normativa respecto a «Las obligaciones del CTE en el uso y el mantenimiento completan este régimen»?",
     "opciones": [
       "Es confundir el mantenimiento de las instalaciones con la inspección periódica, que son obligaciones distintas.",
@@ -237,18 +105,6 @@
     ],
     "correcta": 3,
     "explicacion": "Respecto a «Las obligaciones del CTE en el uso y el mantenimiento completan este régimen» (Inspección, mantenimiento y régimen sancionador), la regulación vigente establece que: El edificio debe conservarse en condiciones de seguridad, y las instalaciones deben mantenerse conforme a las instrucciones del libro del edificio (CTE, art. 8.2).",
-    "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
-  },
-  {
-    "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Inspección, mantenimiento y régimen sancionador), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «El edificio debe conservarse en condiciones de seguridad, y las instalaciones deben mantenerse conforme a las instrucciones del libro del edificio (CTE, art. 8.2).»?",
-    "opciones": [
-      "Las obligaciones del CTE en el uso y el mantenimiento completan este régimen.",
-      "Las obligaciones del CTE en el uso y el mantenimiento completan este régimen, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Las obligaciones del CTE en el uso y el mantenimiento completan este régimen, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Las obligaciones del CTE en el uso y el mantenimiento completan este régimen, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "Dicha determinación («El edificio debe conservarse en condiciones de seguridad, y las instalaciones deben mantenerse conforme a las instrucciones del libro del edificio (CTE, art. 8.2).») define o regula específicamente a «Las obligaciones del CTE en el uso y el mantenimiento completan este régimen» (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)).",
     "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
   },
   {
@@ -358,5 +214,149 @@
     "correcta": 1,
     "explicacion": "Respecto a «Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación)» (Articulado de Ley de Ordenación de la Edificación), la regulación vigente establece que: De telecomunicaciones (referido a la ingeniería de las telecomunicaciones).",
     "referencia": "Art. 2 de Ley de Ordenación de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.»?",
+    "opciones": [
+      "Instalación (art. 19 Reglamento de instalaciones de protección contra incendios).",
+      "La tabla 2.1 fija la densidad de ocupación.",
+      "Generalidades (art. 9 Código Técnico de la Edificación).",
+      "La alternativa."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.») define o regula específicamente a «Generalidades (art. 9 Código Técnico de la Edificación)» (Art. 9 de Código Técnico de la Edificación).",
+    "referencia": "Art. 9 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)»?",
+    "opciones": [
+      "Regula el diseño, la instalación, el mantenimiento y las inspecciones de las instalaciones de protección.",
+      "Alféizar a no más de 1,20 m del suelo de la planta, dimensiones de 0,80 m por 1,20 m y distancia máxima de 25 m entre huecos consecutivos (SI 5, apartado 2).",
+      "Es un dato que el arquitecto técnico debe comprobar desde el replanteo.",
+      "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+    "referencia": "Art. 10 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.»?",
+    "opciones": [
+      "Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación).",
+      "El RD 513/2017 (RIPCI).",
+      "Huecos de fachada accesibles desde el exterior.",
+      "Por eso la separación."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.») define o regula específicamente a «Exigencias básicas de seguridad estructural (SE) (art. 10 Código Técnico de la Edificación)» (Art. 10 de Código Técnico de la Edificación).",
+    "referencia": "Art. 10 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Articulado de Código Técnico de la Edificación), ¿qué establece la normativa respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)»?",
+    "opciones": [
+      "3,00 m para fachadas enfrentadas paralelas (0º), 2,00 m a 90º y 0,50 m a 180º (SI 2, apartado 1, punto 2).",
+      "Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+      "Es uno de los requisitos básicos de la edificación.",
+      "En las zonas de ocupación ocasional y accesibles solo para mantenimiento, como las salas de máquinas o los locales de material de limpieza, la ocupación es nula."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Articulado de Código Técnico de la Edificación), la regulación vigente establece que: Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.",
+    "referencia": "Art. 15 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Articulado de Código Técnico de la Edificación), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.»?",
+    "opciones": [
+      "Distancias de separación entre puntos de fachada que no sean EI 60.",
+      "La seguridad en caso de incendio.",
+      "Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación).",
+      "La tabla 2.1 fija la ocupación por uso."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («Para satisfacer este objetivo, los edificios se proyectarán, construirán, utilizarán y mantendrán de forma que se cumplan las exigencias básicas que se establecen en los apartados siguientes.») define o regula específicamente a «Exigencias básicas de ahorro de energía (HE) (art. 15 Código Técnico de la Edificación)» (Art. 15 de Código Técnico de la Edificación).",
+    "referencia": "Art. 15 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Articulado de Reglamento de instalaciones de protección contra incendios), ¿qué establece la normativa respecto a «Instalación (art. 19 Reglamento de instalaciones de protección contra incendios)»?",
+    "opciones": [
+      "20 m² por persona en plantas de vivienda y 3 m² en aseos de planta.",
+      "Es demostrar que el elemento soporta la acción del incendio durante el tiempo equivalente de exposición del anejo B (SI 6, apartado 3, punto 1, letra b).",
+      "Es aplicar la densidad de viviendas a un local comercial o a un aula, cuya densidad es mucho mayor, lo que lleva a subestimar el número de salidas.",
+      "En los edificios a los que sea de aplicación el Código Técnico de la Edificación, contra incendios se atendrán a lo dispuesto en el mismo."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «Instalación (art. 19 Reglamento de instalaciones de protección contra incendios)» (Articulado de Reglamento de instalaciones de protección contra incendios), la regulación vigente establece que: En los edificios a los que sea de aplicación el Código Técnico de la Edificación, contra incendios se atendrán a lo dispuesto en el mismo.",
+    "referencia": "Art. 19 de Reglamento de instalaciones de protección contra incendios"
+  },
+  {
+    "pregunta": "Dentro de la materia «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Articulado de Reglamento de instalaciones de protección contra incendios), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «En los edificios a los que sea de aplicación el Código Técnico de la Edificación, contra incendios se atendrán a lo dispuesto en el mismo.»?",
+    "opciones": [
+      "Instalación (art. 19 Reglamento de instalaciones de protección contra incendios).",
+      "La tabla 2.1 fija la densidad de ocupación.",
+      "La alternativa.",
+      "Un error frecuente."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («En los edificios a los que sea de aplicación el Código Técnico de la Edificación, contra incendios se atendrán a lo dispuesto en el mismo.») define o regula específicamente a «Instalación (art. 19 Reglamento de instalaciones de protección contra incendios)» (Art. 19 de Reglamento de instalaciones de protección contra incendios).",
+    "referencia": "Art. 19 de Reglamento de instalaciones de protección contra incendios"
+  },
+  {
+    "pregunta": "En relación con «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Marco normativo), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «El RD 513/2017 (RIPCI)» y las figuras del tema:",
+    "opciones": [
+      "La tabla 2.1 fija la densidad de ocupación: 20 m² por persona en plantas de vivienda y 3 m² en aseos de planta.",
+      "El RD 513/2017 (RIPCI): 3,00 m para fachadas enfrentadas paralelas (0º), 2,00 m a 90º y 0,50 m a 180º (SI 2, apartado 1, punto 2).",
+      "Huecos de fachada accesibles desde el exterior: Alféizar a no más de 1,20 m del suelo de la planta, dimensiones de 0,80 m por 1,20 m y distancia máxima de 25 m entre huecos consecutivos (SI 5, apartado 2).",
+      "La seguridad en caso de incendio: Es uno de los requisitos básicos de la edificación."
+    ],
+    "correcta": 1,
+    "explicacion": "La proposición incorrecta es la referida a «El RD 513/2017 (RIPCI)», pues le atribuye la regulación propia de «Distancias de separación entre puntos de fachada que no sean EI 60». Conforme a la normativa aplicable (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)), lo correcto respecto a «El RD 513/2017 (RIPCI)» es: Regula el diseño, la instalación, el mantenimiento y las inspecciones de las instalaciones de protección.",
+    "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+  },
+  {
+    "pregunta": "En relación con «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Evacuación y ocupación (SI 3)), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «La tabla 2.1 fija la densidad de ocupación» y las figuras del tema:",
+    "opciones": [
+      "La seguridad en caso de incendio: Es uno de los requisitos básicos de la edificación.",
+      "La alternativa: Es demostrar que el elemento soporta la acción del incendio durante el tiempo equivalente de exposición del anejo B (SI 6, apartado 3, punto 1, letra b).",
+      "La tabla 2.1 fija la densidad de ocupación: Alféizar a no más de 1,20 m del suelo de la planta, dimensiones de 0,80 m por 1,20 m y distancia máxima de 25 m entre huecos consecutivos (SI 5, apartado 2).",
+      "Por eso la separación: Es un dato que el arquitecto técnico debe comprobar desde el replanteo."
+    ],
+    "correcta": 2,
+    "explicacion": "La proposición incorrecta es la referida a «La tabla 2.1 fija la densidad de ocupación», pues le atribuye la regulación propia de «Huecos de fachada accesibles desde el exterior». Conforme a la normativa aplicable (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)), lo correcto respecto a «La tabla 2.1 fija la densidad de ocupación» es: 20 m² por persona en plantas de vivienda y 3 m² en aseos de planta.",
+    "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+  },
+  {
+    "pregunta": "En relación con «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Intervención de los bomberos (SI 5)), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «Huecos de fachada accesibles desde el exterior» y las figuras del tema:",
+    "opciones": [
+      "La alternativa: Es demostrar que el elemento soporta la acción del incendio durante el tiempo equivalente de exposición del anejo B (SI 6, apartado 3, punto 1, letra b).",
+      "Por eso la separación: Es un dato que el arquitecto técnico debe comprobar desde el replanteo.",
+      "La tabla 2.1 fija la ocupación por uso: En las zonas de ocupación ocasional y accesibles solo para mantenimiento, como las salas de máquinas o los locales de material de limpieza, la ocupación es nula.",
+      "Huecos de fachada accesibles desde el exterior: Es uno de los requisitos básicos de la edificación."
+    ],
+    "correcta": 3,
+    "explicacion": "La proposición incorrecta es la referida a «Huecos de fachada accesibles desde el exterior», pues le atribuye la regulación propia de «La seguridad en caso de incendio». Conforme a la normativa aplicable (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)), lo correcto respecto a «Huecos de fachada accesibles desde el exterior» es: Alféizar a no más de 1,20 m del suelo de la planta, dimensiones de 0,80 m por 1,20 m y distancia máxima de 25 m entre huecos consecutivos (SI 5, apartado 2).",
+    "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+  },
+  {
+    "pregunta": "En relación con «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Marco normativo de la seguridad en caso de incendio), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «La seguridad en caso de incendio» y las figuras del tema:",
+    "opciones": [
+      "La seguridad en caso de incendio: Es demostrar que el elemento soporta la acción del incendio durante el tiempo equivalente de exposición del anejo B (SI 6, apartado 3, punto 1, letra b).",
+      "Por eso la separación: Es un dato que el arquitecto técnico debe comprobar desde el replanteo.",
+      "La tabla 2.1 fija la ocupación por uso: En las zonas de ocupación ocasional y accesibles solo para mantenimiento, como las salas de máquinas o los locales de material de limpieza, la ocupación es nula.",
+      "Un error frecuente: Es aplicar la densidad de viviendas a un local comercial o a un aula, cuya densidad es mucho mayor, lo que lleva a subestimar el número de salidas."
+    ],
+    "correcta": 0,
+    "explicacion": "La proposición incorrecta es la referida a «La seguridad en caso de incendio», pues le atribuye la regulación propia de «La alternativa». Conforme a la normativa aplicable (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)), lo correcto respecto a «La seguridad en caso de incendio» es: Es uno de los requisitos básicos de la edificación.",
+    "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
+  },
+  {
+    "pregunta": "En relación con «Requisitos y exigencias básicas, según el CTE, de seguridad en caso de incendio en los edificios. Normativa reguladora. Exigencias en el proyecto, durante la ejecución de la obra, en el uso y mantenimiento: Objetivos, criterios de diseño, materiales, soluciones constructivas, instalaciones, dotaciones y medidas preventivas. Intervención de los bomberos.» (Exigencias en el proyecto: propagación, zonas de riesgo y estructura), señale cuál de las siguientes proposiciones es INCORRECTA respecto a «La alternativa» y las figuras del tema:",
+    "opciones": [
+      "La tabla 2.1 fija la ocupación por uso: En las zonas de ocupación ocasional y accesibles solo para mantenimiento, como las salas de máquinas o los locales de material de limpieza, la ocupación es nula.",
+      "La alternativa: Es un dato que el arquitecto técnico debe comprobar desde el replanteo.",
+      "Un error frecuente: Es aplicar la densidad de viviendas a un local comercial o a un aula, cuya densidad es mucho mayor, lo que lleva a subestimar el número de salidas.",
+      "El ascensor de emergencia se: Exige en las plantas cuya altura de evacuación exceda de 28 m."
+    ],
+    "correcta": 1,
+    "explicacion": "La proposición incorrecta es la referida a «La alternativa», pues le atribuye la regulación propia de «Por eso la separación». Conforme a la normativa aplicable (Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)), lo correcto respecto a «La alternativa» es: Es demostrar que el elemento soporta la acción del incendio durante el tiempo equivalente de exposición del anejo B (SI 6, apartado 3, punto 1, letra b).",
+    "referencia": "Ley 38/1999, de 5 de noviembre, de Ordenación de la Edificación (BOE núm. 266, de 6 de noviembre de 1999)"
   }
 ]

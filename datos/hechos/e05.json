@@ -12,18 +12,6 @@
     "referencia": "Tema e05"
   },
   {
-    "pregunta": "¿Qué fenómeno inestabiliza las piezas esbeltas sometidas a compresión?",
-    "opciones": [
-      "Pandeo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Pandeo",
-      "Pandeo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Pandeo, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "El pandeo es la inestabilidad lateral de piezas esbeltas comprimidas.",
-    "referencia": "Tema e05"
-  },
-  {
     "pregunta": "¿Qué condiciones definen la clase de servicio 1 de la madera?",
     "opciones": [
       "Madera sumergida en agua",
@@ -46,66 +34,6 @@
     "correcta": 3,
     "explicacion": "La clase de servicio 3 corresponde a condiciones que conducen a contenidos de humedad superiores.",
     "referencia": "CTE, DB-SE-M, apartado 2.2.2"
-  },
-  {
-    "pregunta": "¿Qué designación tienen las clases resistentes de coníferas y chopo?",
-    "opciones": [
-      "C14 a C50, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "C14 a C50, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "C14 a C50",
-      "C14 a C50, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Para coníferas y chopo las clases resistentes van de C14 a C50.",
-    "referencia": "CTE, DB-SE-M, apartado 4.1"
-  },
-  {
-    "pregunta": "¿Qué designación tienen las clases de madera laminada encolada homogénea?",
-    "opciones": [
-      "GL24h, GL28h, GL32h y GL36h, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "GL24h, GL28h, GL32h y GL36h, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "GL24h, GL28h, GL32h y GL36h",
-      "GL24h, GL28h, GL32h y GL36h, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Las clases de madera laminada encolada homogénea son GL24h, GL28h, GL32h y GL36h.",
-    "referencia": "CTE, DB-SE-M, apartado 4.2"
-  },
-  {
-    "pregunta": "¿Qué tipo de unión metálica se realiza fundiendo material de aportación?",
-    "opciones": [
-      "La soldadura",
-      "La soldadura, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La soldadura, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La soldadura, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "La soldadura une las piezas mediante la fusión de material de aportación.",
-    "referencia": "Tema e05"
-  },
-  {
-    "pregunta": "¿Qué tornillos se emplean pretensados en uniones resistentes por rozamiento?",
-    "opciones": [
-      "Los tornillos de alta resistencia, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Los tornillos de alta resistencia, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Los tornillos de alta resistencia, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Los tornillos de alta resistencia"
-    ],
-    "correcta": 3,
-    "explicacion": "Las uniones por rozamiento usan tornillos de alta resistencia pretensados.",
-    "referencia": "Tema e05"
-  },
-  {
-    "pregunta": "¿Qué protección contra el fuego es habitual en estructuras de acero?",
-    "opciones": [
-      "Pinturas intumescentes o morteros proyectados, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Pinturas intumescentes o morteros proyectados, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Pinturas intumescentes o morteros proyectados",
-      "Pinturas intumescentes o morteros proyectados, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 2,
-    "explicacion": "Las pinturas intumescentes y los morteros proyectados protegen el acero frente al fuego.",
-    "referencia": "Tema e05"
   },
   {
     "pregunta": "¿Por qué las piezas de madera de gran escuadría resisten bien el fuego?",
@@ -358,5 +286,77 @@
     "correcta": 1,
     "explicacion": "Dicha determinación («En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.») define o regula específicamente a «Generalidades (art. 9 Código Técnico de la Edificación)» (Art. 9 de Código Técnico de la Edificación).",
     "referencia": "Art. 9 de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "De acuerdo con el régimen aplicable a «Control de calidad» (Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.), señale la afirmación CORRECTA respecto a «El control se organiza en cinco aspectos»:",
+    "opciones": [
+      "El control se organiza en cinco aspectos: La documentación del proyecto (apartado 12.2), que debe definir la solución estructural, su justificación y los requisitos de construcción.",
+      "El montaje de estructuras metálicas: Es afirmar que el DB-SE-A cubre la resistencia al fuego, que queda fuera de su alcance.",
+      "El primero: Es confundir la vida segura con la tolerancia al daño en la fatiga.",
+      "El tercero: Es una de las actividades de mayor riesgo en obra, por la caída de piezas, de personas en altura y por el uso de grúas y medios de elevación."
+    ],
+    "correcta": 0,
+    "explicacion": "La afirmación correcta es «El control se organiza en cinco aspectos: La documentación del proyecto (apartado 12.2), que debe definir la solución estructural, su justificación y los requisitos de construcción.» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación). Las restantes opciones cruzan erróneamente las determinaciones de «El montaje de estructuras metálicas», «El primero» y «El tercero».",
+    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "De acuerdo con el régimen aplicable a «Evaluación de riesgos y seguridad y salud» (Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.), señale la afirmación CORRECTA respecto a «El montaje de estructuras metálicas»:",
+    "opciones": [
+      "El primero: Es confundir la vida segura con la tolerancia al daño en la fatiga.",
+      "El montaje de estructuras metálicas: Es una de las actividades de mayor riesgo en obra, por la caída de piezas, de personas en altura y por el uso de grúas y medios de elevación.",
+      "El tercero: Código Técnico de la Edificación (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación): Seguridad estructural y control de la ejecución (arts. 7 y 10).",
+      "Marco normativo verificado en texto oficial para este tema: Es afirmar que el DB-SE-A cubre la resistencia al fuego, que queda fuera de su alcance."
+    ],
+    "correcta": 1,
+    "explicacion": "La afirmación correcta es «El montaje de estructuras metálicas: Es una de las actividades de mayor riesgo en obra, por la caída de piezas, de personas en altura y por el uso de grúas y medios de elevación.» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación). Las restantes opciones cruzan erróneamente las determinaciones de «El primero», «El tercero» y «Marco normativo verificado en texto oficial para este tema».",
+    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "De acuerdo con el régimen aplicable a «Cómo estudiarlo para el examen» (Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.), señale la afirmación CORRECTA respecto a «El primero»:",
+    "opciones": [
+      "El tercero: Código Técnico de la Edificación (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación): Seguridad estructural y control de la ejecución (arts. 7 y 10).",
+      "Marco normativo verificado en texto oficial para este tema: Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+      "El primero: Es afirmar que el DB-SE-A cubre la resistencia al fuego, que queda fuera de su alcance.",
+      "Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación): Es confundir la vida segura con la tolerancia al daño en la fatiga."
+    ],
+    "correcta": 2,
+    "explicacion": "La afirmación correcta es «El primero: Es afirmar que el DB-SE-A cubre la resistencia al fuego, que queda fuera de su alcance.» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación). Las restantes opciones cruzan erróneamente las determinaciones de «El tercero», «Marco normativo verificado en texto oficial para este tema» y «Aprobación del Código Técnico de la Edificación (art. único Código Técnico de la Edificación)».",
+    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Conforme al artículo único de Código Técnico de la Edificación («Aprobación del Código Técnico de la Edificación»), aplicable al tema «Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.», ¿qué dispone expresamente dicho precepto?",
+    "opciones": [
+      "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo.",
+      "En los artículos siguientes se relacionan dichas exigencias básicas como prestaciones de carácter cualitativo que los edificios deben cumplir para alcanzar la calidad que la sociedad demanda.",
+      "Estos Documentos, basados en el conocimiento consolidado de las distintas técnicas constructivas, se actualizarán en función de los avances técnicos y las demandas sociales y se aprobarán reglamentariamente.",
+      "Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación."
+    ],
+    "correcta": 3,
+    "explicacion": "El artículo único de Código Técnico de la Edificación («Aprobación del Código Técnico de la Edificación») dispone literalmente: Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+    "referencia": "Art. único de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En Código Técnico de la Edificación, ¿qué precepto establece literalmente: «Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.»?",
+    "opciones": [
+      "Artículo único de Código Técnico de la Edificación (Aprobación del Código Técnico de la Edificación).",
+      "Artículo 4 de Código Técnico de la Edificación (Documentos Reconocidos y Registro General del CTE).",
+      "Artículo 9 de Código Técnico de la Edificación (Generalidades).",
+      "Artículo 3 de Código Técnico de la Edificación (Contenido del CTE)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha regulación se contiene en el Artículo único de Código Técnico de la Edificación (Aprobación del Código Técnico de la Edificación): Se aprueba el Código Técnico de la Edificación, cuyo texto se incluye a continuación.",
+    "referencia": "Art. único de Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "Conforme al artículo 3 de Código Técnico de la Edificación («Contenido del CTE»), aplicable al tema «Estructuras metálicas y de madera en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.», ¿qué dispone expresamente dicho precepto?",
+    "opciones": [
+      "Serán responsables de la aplicación del CTE los agentes que participan en el proceso de la edificación, según lo establecido en el capítulo III de la LOE.",
+      "Estos Documentos, basados en el conocimiento consolidado de las distintas técnicas constructivas, se actualizarán en función de los avances técnicos y las demandas sociales y se aprobarán reglamentariamente.",
+      "Las estructuras de hormigón están reguladas por la Instrucción de Hormigón Estructural vigente.",
+      "Se crea, en el Ministerio de Vivienda, y adscrito a la Dirección General de Arquitectura y Política de Vivienda, el Registro General del CTE, que tendrá carácter público e informativo."
+    ],
+    "correcta": 1,
+    "explicacion": "El artículo 3 de Código Técnico de la Edificación («Contenido del CTE») dispone literalmente: Estos Documentos, basados en el conocimiento consolidado de las distintas técnicas constructivas, se actualizarán en función de los avances técnicos y las demandas sociales y se aprobarán reglamentariamente.",
+    "referencia": "Art. 3 de Código Técnico de la Edificación"
   }
 ]

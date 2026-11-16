@@ -1,65 +1,5 @@
 [
   {
-    "pregunta": "¿Qué memoria de solo lectura contiene el firmware de arranque?",
-    "opciones": [
-      "La ROM",
-      "La ROM, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La ROM, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La ROM, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "La ROM es memoria de solo lectura que conserva el firmware.",
-    "referencia": "Tema c22"
-  },
-  {
-    "pregunta": "¿Qué memoria de alta velocidad se sitúa entre la CPU y la RAM?",
-    "opciones": [
-      "La memoria caché, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La memoria caché, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La memoria caché, computándose los plazos en días naturales y con sentido desestimatorio",
-      "La memoria caché"
-    ],
-    "correcta": 3,
-    "explicacion": "La caché almacena los datos de uso frecuente para acelerar el acceso.",
-    "referencia": "Tema c22"
-  },
-  {
-    "pregunta": "¿Qué dispositivo de almacenamiento no tiene partes móviles?",
-    "opciones": [
-      "El disco de estado sólido (SSD), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El disco de estado sólido (SSD), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El disco de estado sólido (SSD), computándose los plazos en días naturales y con sentido desestimatorio",
-      "El disco de estado sólido (SSD)"
-    ],
-    "correcta": 3,
-    "explicacion": "El SSD almacena en memoria flash, sin partes mecánicas.",
-    "referencia": "Tema c22"
-  },
-  {
-    "pregunta": "¿Qué red cubre un área reducida, como un edificio?",
-    "opciones": [
-      "Una red de área local (LAN), previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Una red de área local (LAN)",
-      "Una red de área local (LAN), salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Una red de área local (LAN), computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "La LAN conecta equipos en un área limitada.",
-    "referencia": "Tema c22"
-  },
-  {
-    "pregunta": "¿Qué dispositivo interconecta redes distintas y encamina paquetes?",
-    "opciones": [
-      "El router o encaminador",
-      "El router o encaminador, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El router o encaminador, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El router o encaminador, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "El router encamina paquetes entre redes diferentes.",
-    "referencia": "Tema c22"
-  },
-  {
     "pregunta": "¿Qué capa del modelo OSI se encarga del encaminamiento de paquetes?",
     "opciones": [
       "La capa de red",
@@ -69,42 +9,6 @@
     ],
     "correcta": 0,
     "explicacion": "La capa 3, de red, realiza el encaminamiento.",
-    "referencia": "Tema c22"
-  },
-  {
-    "pregunta": "¿Qué sistema de numeración usa los dígitos 0 a 9 y las letras A a F?",
-    "opciones": [
-      "Hexadecimal",
-      "Hexadecimal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Hexadecimal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Hexadecimal, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "El sistema hexadecimal es de base 16.",
-    "referencia": "Tema c22"
-  },
-  {
-    "pregunta": "¿Qué tecnología permite ejecutar varios sistemas operativos en una misma máquina física?",
-    "opciones": [
-      "La virtualización, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La virtualización, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La virtualización, computándose los plazos en días naturales y con sentido desestimatorio",
-      "La virtualización"
-    ],
-    "correcta": 3,
-    "explicacion": "La virtualización crea máquinas virtuales sobre un mismo hardware.",
-    "referencia": "Tema c22"
-  },
-  {
-    "pregunta": "¿Qué tipo de software se distribuye con libertad para usarlo, estudiarlo, modificarlo y redistribuirlo?",
-    "opciones": [
-      "Software libre, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Software libre",
-      "Software libre, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Software libre, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "El software libre garantiza esas libertades a los usuarios.",
     "referencia": "Tema c22"
   },
   {
@@ -358,5 +262,101 @@
     "correcta": 1,
     "explicacion": "El artículo 22 de Ley del Procedimiento Administrativo Común («Suspensión del plazo máximo para resolver») dispone literalmente: Este plazo de suspensión no podrá exceder en ningún caso de tres meses.",
     "referencia": "Art. 22 de Ley del Procedimiento Administrativo Común"
+  },
+  {
+    "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Seguridad, disponibilidad y continuidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Confidencialidad, integridad y disponibilidad.»?",
+    "opciones": [
+      "La integración.",
+      "Conceptos.",
+      "La seguridad de la información se resume en tres propiedades.",
+      "Tendencias."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («Confidencialidad, integridad y disponibilidad.») define o regula específicamente a «La seguridad de la información se resume en tres propiedades» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+    "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+  },
+  {
+    "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Seguridad, disponibilidad y continuidad), ¿qué establece la normativa respecto a «El esquema nacional de seguridad de la Administración electrónica»?",
+    "opciones": [
+      "Deben existir órganos responsables de su especificación y control (art. 41.2 LRJSP).",
+      "CPU, memoria principal, almacenamiento secundario, buses.",
+      "Desarrollo, pruebas y producción.",
+      "Exige aplicarlas, pero su texto (su texto completo está indexado y disponible en el visor de normas del repositorio)."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «El esquema nacional de seguridad de la Administración electrónica» (Seguridad, disponibilidad y continuidad), la regulación vigente establece que: Exige aplicarlas, pero su texto (su texto completo está indexado y disponible en el visor de normas del repositorio).",
+    "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+  },
+  {
+    "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Seguridad, disponibilidad y continuidad), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige aplicarlas, pero su texto (su texto completo está indexado y disponible en el visor de normas del repositorio).»?",
+    "opciones": [
+      "El esquema nacional de seguridad de la Administración electrónica.",
+      "Es una actuación administrativa automatizada.",
+      "Componentes y funcionamiento.",
+      "Entornos y ciclo de vida."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Exige aplicarlas, pero su texto (su texto completo está indexado y disponible en el visor de normas del repositorio).») define o regula específicamente a «El esquema nacional de seguridad de la Administración electrónica» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+    "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+  },
+  {
+    "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (La actuación administrativa automatizada), ¿qué establece la normativa respecto a «Para un examen, la automatización no elimina la responsabilidad del órgano»?",
+    "opciones": [
+      "Es una capa de integración con servicios bien definidos, que mantiene la interoperabilidad sin reescribir el sistema antiguo.",
+      "Debe estar prevista y tener órganos responsables de su especificación y control (art. 41.2 LRJSP).",
+      "Centralizada, distribuida, cliente-servidor.",
+      "La Administración de la Junta de Andalucía, bajo la dirección del Consejo de Gobierno, desarrolla funciones ejecutivas de carácter administrativo."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Para un examen, la automatización no elimina la responsabilidad del órgano» (La actuación administrativa automatizada), la regulación vigente establece que: Debe estar prevista y tener órganos responsables de su especificación y control (art. 41.2 LRJSP).",
+    "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+  },
+  {
+    "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (La actuación administrativa automatizada), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Debe estar prevista y tener órganos responsables de su especificación y control (art. 41.2 LRJSP).»?",
+    "opciones": [
+      "La solución.",
+      "Arquitecturas.",
+      "Para un examen, la automatización no elimina la responsabilidad del órgano.",
+      "Personalidad jurídica y potestades (art. 2 Ley de la Administración de la Junta de Andalucía)."
+    ],
+    "correcta": 2,
+    "explicacion": "Dicha determinación («Debe estar prevista y tener órganos responsables de su especificación y control (art. 41.2 LRJSP).») define o regula específicamente a «Para un examen, la automatización no elimina la responsabilidad del órgano» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+    "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+  },
+  {
+    "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Errores frecuentes en el examen), ¿qué establece la normativa respecto a «la integración»?",
+    "opciones": [
+      "Sistema informático como conjunto de hardware, software, datos, redes y personas.",
+      "SOA y microservicios, virtualización, contenedores, nube (IaaS, PaaS, SaaS), eventos, datos masivos y borde.",
+      "En la organización y gestión de los servicios públicos se tendrán especialmente en cuenta las necesidades de las personas con discapacidad.",
+      "Es la forma técnica de conectar los procesos."
+    ],
+    "correcta": 3,
+    "explicacion": "Respecto a «la integración» (Errores frecuentes en el examen), la regulación vigente establece que: Es la forma técnica de conectar los procesos.",
+    "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+  },
+  {
+    "pregunta": "Dentro de la materia «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Errores frecuentes en el examen), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la forma técnica de conectar los procesos.»?",
+    "opciones": [
+      "La integración.",
+      "Conceptos.",
+      "Tendencias.",
+      "Principio de buena administración (art. 5 Ley de la Administración de la Junta de Andalucía)."
+    ],
+    "correcta": 0,
+    "explicacion": "Dicha determinación («Es la forma técnica de conectar los procesos.») define o regula específicamente a «la integración» (Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)).",
+    "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+  },
+  {
+    "pregunta": "En el ámbito de «Los sistemas informáticos: Conceptos, componentes y funcionamiento general. Tipos de arquitecturas. Niveles de arquitectura informática. Tendencias actuales de arquitectura informática para organizaciones complejas. Los procesos cooperativos y la arquitectura cliente-servidor. Referencia a la arquitectura de la Junta de Andalucía.» (Casos prácticos), ¿qué establece la normativa respecto a «Es una actuación administrativa automatizada»?",
+    "opciones": [
+      "CPU, memoria principal, almacenamiento secundario, buses.",
+      "Deben existir órganos responsables de su especificación y control (art. 41.2 LRJSP).",
+      "Desarrollo, pruebas y producción.",
+      "La aplicación de las tecnologías de la información a la Administración estará orientada a mejorar su eficacia, aproximarla a la ciudadanía y agilizar la gestión administrativa."
+    ],
+    "correcta": 1,
+    "explicacion": "Respecto a «Es una actuación administrativa automatizada» (Casos prácticos), la regulación vigente establece que: Deben existir órganos responsables de su especificación y control (art. 41.2 LRJSP).",
+    "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
   }
 ]

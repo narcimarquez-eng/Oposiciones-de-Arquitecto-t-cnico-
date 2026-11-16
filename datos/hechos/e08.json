@@ -1,41 +1,5 @@
 [
   {
-    "pregunta": "¿A qué se destina el circuito C1 de una vivienda?",
-    "opciones": [
-      "A alimentar los puntos de iluminación, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "A alimentar los puntos de iluminación",
-      "A alimentar los puntos de iluminación, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "A alimentar los puntos de iluminación, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "El circuito C1 es el de distribución interna destinado a los puntos de iluminación.",
-    "referencia": "ITC-BT-25, apartado 2.3.1"
-  },
-  {
-    "pregunta": "¿A qué se destina el circuito C2 de una vivienda?",
-    "opciones": [
-      "A tomas de corriente de uso general y frigorífico",
-      "A tomas de corriente de uso general y frigorífico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "A tomas de corriente de uso general y frigorífico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "A tomas de corriente de uso general y frigorífico, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 0,
-    "explicacion": "El circuito C2 alimenta las tomas de corriente de uso general y el frigorífico.",
-    "referencia": "ITC-BT-25, apartado 2.3.1"
-  },
-  {
-    "pregunta": "¿A qué se destina el circuito C3 de una vivienda?",
-    "opciones": [
-      "A la cocina y el horno, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "A la cocina y el horno, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "A la cocina y el horno, computándose los plazos en días naturales y con sentido desestimatorio",
-      "A la cocina y el horno"
-    ],
-    "correcta": 3,
-    "explicacion": "El circuito C3 alimenta la cocina y el horno.",
-    "referencia": "ITC-BT-25, apartado 2.3.1"
-  },
-  {
     "pregunta": "¿A qué se destina el circuito C4 de una vivienda?",
     "opciones": [
       "A la iluminación",
@@ -48,42 +12,6 @@
     "referencia": "ITC-BT-25, apartado 2.3.1"
   },
   {
-    "pregunta": "¿A qué se destina el circuito C5 de una vivienda?",
-    "opciones": [
-      "A las tomas de corriente de los cuartos de baño y de cocina, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "A las tomas de corriente de los cuartos de baño y de cocina",
-      "A las tomas de corriente de los cuartos de baño y de cocina, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "A las tomas de corriente de los cuartos de baño y de cocina, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "El circuito C5 alimenta las tomas de corriente de los baños y las bases auxiliares de la cocina.",
-    "referencia": "ITC-BT-25, apartado 2.3.1"
-  },
-  {
-    "pregunta": "¿Cuándo se añade un circuito C6 adicional del tipo C1?",
-    "opciones": [
-      "Por cada 30 puntos de luz, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Por cada 30 puntos de luz",
-      "Por cada 30 puntos de luz, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Por cada 30 puntos de luz, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "En electrificación elevada se dispone un circuito C6 adicional del tipo C1 por cada 30 puntos de luz.",
-    "referencia": "ITC-BT-25, apartado 2.3.2"
-  },
-  {
-    "pregunta": "¿Qué sección mínima deben tener los cables de la derivación individual?",
-    "opciones": [
-      "6 mm² para polares, neutro y protección, y 1,5 mm² para el hilo de mando, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "6 mm² para polares, neutro y protección, y 1,5 mm² para el hilo de mando",
-      "6 mm² para polares, neutro y protección, y 1,5 mm² para el hilo de mando, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "6 mm² para polares, neutro y protección, y 1,5 mm² para el hilo de mando, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "La sección mínima es de 6 mm² para los cables polares, neutro y protección, y de 1,5 mm² para el hilo de mando, de color rojo.",
-    "referencia": "ITC-BT-15, apartado 3"
-  },
-  {
     "pregunta": "¿Qué instalaciones unen la caja general de protección con las instalaciones interiores del usuario?",
     "opciones": [
       "Las instalaciones de enlace",
@@ -94,30 +22,6 @@
     "correcta": 0,
     "explicacion": "Son instalaciones de enlace las que unen la caja general de protección con las instalaciones interiores o receptoras.",
     "referencia": "ITC-BT-12, apartado 1"
-  },
-  {
-    "pregunta": "¿Qué elemento señala el principio de la propiedad de las instalaciones del usuario en baja tensión?",
-    "opciones": [
-      "La caja general de protección, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "La caja general de protección, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "La caja general de protección, computándose los plazos en días naturales y con sentido desestimatorio",
-      "La caja general de protección"
-    ],
-    "correcta": 3,
-    "explicacion": "La caja general de protección marca el principio de la propiedad de las instalaciones del usuario.",
-    "referencia": "ITC-BT-13"
-  },
-  {
-    "pregunta": "¿Con qué color se identifica el conductor de protección?",
-    "opciones": [
-      "Verde-amarillo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Verde-amarillo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Verde-amarillo, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Verde-amarillo"
-    ],
-    "correcta": 3,
-    "explicacion": "El conductor de protección se identifica con el color verde-amarillo.",
-    "referencia": "ITC-BT-19"
   },
   {
     "pregunta": "En Ley de Ordenación de la Edificación, ¿qué precepto establece literalmente: «El constructor también responderá de los daños materiales por vicios o defectos de ejecución que afecten a elementos de terminación o acabado de las obras dentro del plazo de un año.»?",
@@ -204,18 +108,6 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Canalizaciones y recintos de la ICT), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el punto en el que la canalización de enlace se conecta con la del edificio, y el punto de interconexión se sitúa en él.»?",
-    "opciones": [
-      "El registro principal, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El registro principal.",
-      "El registro principal, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El registro principal, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Dicha determinación («Es el punto en el que la canalización de enlace se conecta con la del edificio, y el punto de interconexión se sitúa en él.») define o regula específicamente a «El registro principal» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
     "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Conservación e inspección de la ICT), ¿qué establece la normativa respecto a «El régimen sancionador de la ICT se»?",
     "opciones": [
       "Es afirmar que el CTE regula el detalle de la instalación eléctrica, cuando la remite al reglamento.",
@@ -225,18 +117,6 @@
     ],
     "correcta": 2,
     "explicacion": "Respecto a «El régimen sancionador de la ICT se» (Conservación e inspección de la ICT), la regulación vigente establece que: Regula en el artículo 15 del reglamento.",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
-    "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Conservación e inspección de la ICT), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula en el artículo 15 del reglamento.»?",
-    "opciones": [
-      "El régimen sancionador de la ICT se, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El régimen sancionador de la ICT se, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El régimen sancionador de la ICT se, computándose los plazos en días naturales y con sentido desestimatorio",
-      "El régimen sancionador de la ICT se."
-    ],
-    "correcta": 3,
-    "explicacion": "Dicha determinación («Regula en el artículo 15 del reglamento.») define o regula específicamente a «El régimen sancionador de la ICT se» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
@@ -252,18 +132,6 @@
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
-    "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Evaluación de riesgos y seguridad y salud), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el principal riesgo de la instalación en obra, por contacto directo con partes en tensión o por contacto indirecto con masas que quedan bajo tensión por un fallo.»?",
-    "opciones": [
-      "El riesgo eléctrico, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "El riesgo eléctrico.",
-      "El riesgo eléctrico, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "El riesgo eléctrico, computándose los plazos en días naturales y con sentido desestimatorio"
-    ],
-    "correcta": 1,
-    "explicacion": "Dicha determinación («Es el principal riesgo de la instalación en obra, por contacto directo con partes en tensión o por contacto indirecto con masas que quedan bajo tensión por un fallo.») define o regula específicamente a «El riesgo eléctrico» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
     "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Criterios de medición y factores del precio), ¿qué establece la normativa respecto a «Los factores que influyen en el precio»?",
     "opciones": [
       "Es olvidar que las inspecciones periódicas de las viviendas son cada diez años solo para las comunes de potencia superior a 100 kW.",
@@ -273,18 +141,6 @@
     ],
     "correcta": 2,
     "explicacion": "Respecto a «Los factores que influyen en el precio» (Criterios de medición y factores del precio), la regulación vigente establece que: Son el grado de electrificación de la vivienda, que determina el número de circuitos y la sección de los conductores.",
-    "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
-  },
-  {
-    "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Criterios de medición y factores del precio), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son el grado de electrificación de la vivienda, que determina el número de circuitos y la sección de los conductores.»?",
-    "opciones": [
-      "Los factores que influyen en el precio, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-      "Los factores que influyen en el precio, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-      "Los factores que influyen en el precio, computándose los plazos en días naturales y con sentido desestimatorio",
-      "Los factores que influyen en el precio."
-    ],
-    "correcta": 3,
-    "explicacion": "Dicha determinación («Son el grado de electrificación de la vivienda, que determina el número de circuitos y la sección de los conductores.») define o regula específicamente a «Los factores que influyen en el precio» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
   },
   {
@@ -358,5 +214,149 @@
     "correcta": 1,
     "explicacion": "Dicha determinación («Grado de electrificación, potencia a prever, interruptor general, diferencial y caída de tensión.») define o regula específicamente a «El primero es el de potencia y circuitos» (Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación).",
     "referencia": "Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación"
+  },
+  {
+    "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿qué establece la normativa respecto a «Empresas instaladoras (art. 22 Reglamento electrotécnico para baja tensión)»?",
+    "opciones": [
+      "Para ello, cuando se produzca un accidente que ocasione daños o víctimas, la compañía suministradora deberá redactar un informe que recoja los aspectos esenciales del mismo.",
+      "En el proyecto técnico se describirán, detalladamente, todos los elementos que componen la instalación y su ubicación y dimensiones, con mención de las normas que cumplen.",
+      "Ello se entiende sin perjuicio del posible proyecto y dirección de obra por técnicos titulados competentes que, en su caso, requieran las citadas instalaciones.",
+      "De telecomunicaciones (referido a la ingeniería de las telecomunicaciones)."
+    ],
+    "correcta": 2,
+    "explicacion": "Respecto a «Empresas instaladoras (art. 22 Reglamento electrotécnico para baja tensión)» (Articulado de Reglamento electrotécnico para baja tensión), la regulación vigente establece que: Ello se entiende sin perjuicio del posible proyecto y dirección de obra por técnicos titulados competentes que, en su caso, requieran las citadas instalaciones.",
+    "referencia": "Art. 22 de Reglamento electrotécnico para baja tensión"
+  },
+  {
+    "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Ello se entiende sin perjuicio del posible proyecto y dirección de obra por técnicos titulados competentes que, en su caso, requieran las citadas instalaciones.»?",
+    "opciones": [
+      "Accidentes (art. 27 Reglamento electrotécnico para baja tensión).",
+      "Proyecto técnico (art. 9 Reglamento de infraestructuras comunes de telecomunicaciones (ICT)).",
+      "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación).",
+      "Empresas instaladoras (art. 22 Reglamento electrotécnico para baja tensión)."
+    ],
+    "correcta": 3,
+    "explicacion": "Dicha determinación («Ello se entiende sin perjuicio del posible proyecto y dirección de obra por técnicos titulados competentes que, en su caso, requieran las citadas instalaciones.») define o regula específicamente a «Empresas instaladoras (art. 22 Reglamento electrotécnico para baja tensión)» (Art. 22 de Reglamento electrotécnico para baja tensión).",
+    "referencia": "Art. 22 de Reglamento electrotécnico para baja tensión"
+  },
+  {
+    "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿qué establece la normativa respecto a «Cumplimiento de las prescripciones (art. 23 Reglamento electrotécnico para baja tensión)»?",
+    "opciones": [
+      "Las prescripciones establecidas en el presente Reglamento tendrán la condición de mínimos obligatorios, en el sentido de lo indicado por el artículo 12.5 de la Ley 21/1992, de Industria.",
+      "Las infracciones a lo dispuesto en el presente reglamento se clasificarán y sancionarán de acuerdo con lo dispuesto en el Título V de la Ley 21/1992, de Industria.",
+      "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+      "El proyecto es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras contempladas en el artículo 2."
+    ],
+    "correcta": 0,
+    "explicacion": "Respecto a «Cumplimiento de las prescripciones (art. 23 Reglamento electrotécnico para baja tensión)» (Articulado de Reglamento electrotécnico para baja tensión), la regulación vigente establece que: Las prescripciones establecidas en el presente Reglamento tendrán la condición de mínimos obligatorios, en el sentido de lo indicado por el artículo 12.5 de la Ley 21/1992, de Industria.",
+    "referencia": "Art. 23 de Reglamento electrotécnico para baja tensión"
+  },
+  {
+    "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las prescripciones establecidas en el presente Reglamento tendrán la condición de mínimos obligatorios, en el sentido de lo indicado por el artículo 12.5 de la Ley 21/1992, de Industria.»?",
+    "opciones": [
+      "Infracciones y sanciones (art. 28 Reglamento electrotécnico para baja tensión).",
+      "Cumplimiento de las prescripciones (art. 23 Reglamento electrotécnico para baja tensión).",
+      "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+      "Proyecto (art. 4 Ley de Ordenación de la Edificación)."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («Las prescripciones establecidas en el presente Reglamento tendrán la condición de mínimos obligatorios, en el sentido de lo indicado por el artículo 12.5 de la Ley 21/1992, de Industria.») define o regula específicamente a «Cumplimiento de las prescripciones (art. 23 Reglamento electrotécnico para baja tensión)» (Art. 23 de Reglamento electrotécnico para baja tensión).",
+    "referencia": "Art. 23 de Reglamento electrotécnico para baja tensión"
+  },
+  {
+    "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿qué establece la normativa respecto a «Normas de referencia (art. 26 Reglamento electrotécnico para baja tensión)»?",
+    "opciones": [
+      "La adaptación podrá llevarse a cabo, en la medida en que resulte indispensable, mediante la construcción de una infraestructura adicional a la preexistente.",
+      "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica.",
+      "Dicha referencia se realizará, por regla general, sin indicar el año de edición de las normas en cuestión.",
+      "La recepción de la obra es el acto por el cual el constructor, una vez concluida ésta, hace entrega de la misma al promotor y es aceptada por éste."
+    ],
+    "correcta": 2,
+    "explicacion": "Respecto a «Normas de referencia (art. 26 Reglamento electrotécnico para baja tensión)» (Articulado de Reglamento electrotécnico para baja tensión), la regulación vigente establece que: Dicha referencia se realizará, por regla general, sin indicar el año de edición de las normas en cuestión.",
+    "referencia": "Art. 26 de Reglamento electrotécnico para baja tensión"
+  },
+  {
+    "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Dicha referencia se realizará, por regla general, sin indicar el año de edición de las normas en cuestión.»?",
+    "opciones": [
+      "Definiciones (art. 2 Reglamento de infraestructuras comunes de telecomunicaciones (ICT)).",
+      "Objeto (art. 1 Ley de Ordenación de la Edificación).",
+      "Recepción de la obra (art. 6 Ley de Ordenación de la Edificación).",
+      "Normas de referencia (art. 26 Reglamento electrotécnico para baja tensión)."
+    ],
+    "correcta": 3,
+    "explicacion": "Dicha determinación («Dicha referencia se realizará, por regla general, sin indicar el año de edición de las normas en cuestión.») define o regula específicamente a «Normas de referencia (art. 26 Reglamento electrotécnico para baja tensión)» (Art. 26 de Reglamento electrotécnico para baja tensión).",
+    "referencia": "Art. 26 de Reglamento electrotécnico para baja tensión"
+  },
+  {
+    "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿qué establece la normativa respecto a «Accidentes (art. 27 Reglamento electrotécnico para baja tensión)»?",
+    "opciones": [
+      "Para ello, cuando se produzca un accidente que ocasione daños o víctimas, la compañía suministradora deberá redactar un informe que recoja los aspectos esenciales del mismo.",
+      "En el proyecto técnico se describirán, detalladamente, todos los elementos que componen la instalación y su ubicación y dimensiones, con mención de las normas que cumplen.",
+      "De telecomunicaciones (referido a la ingeniería de las telecomunicaciones).",
+      "Toda la documentación a que hace referencia los apartados anteriores, que constituirá el Libro del Edificio, será entregada a los usuarios finales del edificio."
+    ],
+    "correcta": 0,
+    "explicacion": "Respecto a «Accidentes (art. 27 Reglamento electrotécnico para baja tensión)» (Articulado de Reglamento electrotécnico para baja tensión), la regulación vigente establece que: Para ello, cuando se produzca un accidente que ocasione daños o víctimas, la compañía suministradora deberá redactar un informe que recoja los aspectos esenciales del mismo.",
+    "referencia": "Art. 27 de Reglamento electrotécnico para baja tensión"
+  },
+  {
+    "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Para ello, cuando se produzca un accidente que ocasione daños o víctimas, la compañía suministradora deberá redactar un informe que recoja los aspectos esenciales del mismo.»?",
+    "opciones": [
+      "Proyecto técnico (art. 9 Reglamento de infraestructuras comunes de telecomunicaciones (ICT)).",
+      "Accidentes (art. 27 Reglamento electrotécnico para baja tensión).",
+      "Ámbito de aplicación (art. 2 Ley de Ordenación de la Edificación).",
+      "Documentación de la obra ejecutada (art. 7 Ley de Ordenación de la Edificación)."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («Para ello, cuando se produzca un accidente que ocasione daños o víctimas, la compañía suministradora deberá redactar un informe que recoja los aspectos esenciales del mismo.») define o regula específicamente a «Accidentes (art. 27 Reglamento electrotécnico para baja tensión)» (Art. 27 de Reglamento electrotécnico para baja tensión).",
+    "referencia": "Art. 27 de Reglamento electrotécnico para baja tensión"
+  },
+  {
+    "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿qué establece la normativa respecto a «Infracciones y sanciones (art. 28 Reglamento electrotécnico para baja tensión)»?",
+    "opciones": [
+      "Cuando el trabajador autónomo emplee en la obra a trabajadores por cuenta ajena tendrá la consideración de contratista o subcontratista a efectos del presente Real Decreto.",
+      "El proyecto es el conjunto de documentos mediante los cuales se definen y determinan las exigencias técnicas de las obras contempladas en el artículo 2.",
+      "Las infracciones a lo dispuesto en el presente reglamento se clasificarán y sancionarán de acuerdo con lo dispuesto en el Título V de la Ley 21/1992, de Industria.",
+      "Son agentes de la edificación todas las personas, físicas o jurídicas, que intervienen en el proceso de la edificación."
+    ],
+    "correcta": 2,
+    "explicacion": "Respecto a «Infracciones y sanciones (art. 28 Reglamento electrotécnico para baja tensión)» (Articulado de Reglamento electrotécnico para baja tensión), la regulación vigente establece que: Las infracciones a lo dispuesto en el presente reglamento se clasificarán y sancionarán de acuerdo con lo dispuesto en el Título V de la Ley 21/1992, de Industria.",
+    "referencia": "Art. 28 de Reglamento electrotécnico para baja tensión"
+  },
+  {
+    "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento electrotécnico para baja tensión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Las infracciones a lo dispuesto en el presente reglamento se clasificarán y sancionarán de acuerdo con lo dispuesto en el Título V de la Ley 21/1992, de Industria.»?",
+    "opciones": [
+      "Definiciones (art. 2 Disposiciones mínimas de seguridad y salud en las obras de construcción).",
+      "Proyecto (art. 4 Ley de Ordenación de la Edificación).",
+      "Concepto (art. 8 Ley de Ordenación de la Edificación).",
+      "Infracciones y sanciones (art. 28 Reglamento electrotécnico para baja tensión)."
+    ],
+    "correcta": 3,
+    "explicacion": "Dicha determinación («Las infracciones a lo dispuesto en el presente reglamento se clasificarán y sancionarán de acuerdo con lo dispuesto en el Título V de la Ley 21/1992, de Industria.») define o regula específicamente a «Infracciones y sanciones (art. 28 Reglamento electrotécnico para baja tensión)» (Art. 28 de Reglamento electrotécnico para baja tensión).",
+    "referencia": "Art. 28 de Reglamento electrotécnico para baja tensión"
+  },
+  {
+    "pregunta": "En el ámbito de «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento de infraestructuras comunes de telecomunicaciones (ICT)), ¿qué establece la normativa respecto a «Definiciones (art. 2 Reglamento de infraestructuras comunes de telecomunicaciones (ICT))»?",
+    "opciones": [
+      "La adaptación podrá llevarse a cabo, en la medida en que resulte indispensable, mediante la construcción de una infraestructura adicional a la preexistente.",
+      "Las obligaciones y responsabilidades relativas a la prevención de riesgos laborales en las obras de edificación se regirán por su legislación específica.",
+      "La recepción de la obra es el acto por el cual el constructor, una vez concluida ésta, hace entrega de la misma al promotor y es aceptada por éste.",
+      "El proyectista es el agente que, por encargo del promotor y con sujeción a la normativa técnica y urbanística correspondiente, redacta el proyecto."
+    ],
+    "correcta": 0,
+    "explicacion": "Respecto a «Definiciones (art. 2 Reglamento de infraestructuras comunes de telecomunicaciones (ICT))» (Articulado de Reglamento de infraestructuras comunes de telecomunicaciones (ICT)), la regulación vigente establece que: La adaptación podrá llevarse a cabo, en la medida en que resulte indispensable, mediante la construcción de una infraestructura adicional a la preexistente.",
+    "referencia": "Art. 2 de Reglamento de infraestructuras comunes de telecomunicaciones (ICT)"
+  },
+  {
+    "pregunta": "Dentro de la materia «Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE, prescripciones técnicas y normativa de aplicación: Criterios de diseño, condiciones que han de reunir los materiales, procesos, condiciones de ejecución, control de calidad, uso, conservación y mantenimiento. Evaluación de riesgos y medidas de seguridad y salud en el trabajo. Criterios de medición y factores de influencia en la determinación de los precios.» (Articulado de Reglamento de infraestructuras comunes de telecomunicaciones (ICT)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La adaptación podrá llevarse a cabo, en la medida en que resulte indispensable, mediante la construcción de una infraestructura adicional a la preexistente.»?",
+    "opciones": [
+      "Objeto (art. 1 Ley de Ordenación de la Edificación).",
+      "Definiciones (art. 2 Reglamento de infraestructuras comunes de telecomunicaciones (ICT)).",
+      "Recepción de la obra (art. 6 Ley de Ordenación de la Edificación).",
+      "El proyectista (art. 10 Ley de Ordenación de la Edificación)."
+    ],
+    "correcta": 1,
+    "explicacion": "Dicha determinación («La adaptación podrá llevarse a cabo, en la medida en que resulte indispensable, mediante la construcción de una infraestructura adicional a la preexistente.») define o regula específicamente a «Definiciones (art. 2 Reglamento de infraestructuras comunes de telecomunicaciones (ICT))» (Art. 2 de Reglamento de infraestructuras comunes de telecomunicaciones (ICT)).",
+    "referencia": "Art. 2 de Reglamento de infraestructuras comunes de telecomunicaciones (ICT)"
   }
 ]

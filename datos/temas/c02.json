@@ -70,42 +70,6 @@
   ],
   "test": [
     {
-      "pregunta": "¿Quién propone el candidato a Presidente del Gobierno?",
-      "opciones": [
-        "El Rey, previa consulta con los grupos políticos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El Rey, previa consulta con los grupos políticos",
-        "El Rey, previa consulta con los grupos políticos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El Rey, previa consulta con los grupos políticos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Tras cada renovación del Congreso, el Rey, previa consulta con los representantes de los grupos políticos y a través del Presidente del Congreso, propone un candidato.",
-      "referencia": "Arts. 99.1 y 62.d CE"
-    },
-    {
-      "pregunta": "¿Entre cuántos diputados puede componerse el Congreso?",
-      "opciones": [
-        "Entre 300 y 400, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Entre 300 y 400, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Entre 300 y 400, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Entre 300 y 400"
-      ],
-      "correcta": 3,
-      "explicacion": "El Congreso se compone de un mínimo de 300 y un máximo de 400 diputados.",
-      "referencia": "Art. 68.1 CE"
-    },
-    {
-      "pregunta": "¿Cuántos senadores se eligen en cada provincia?",
-      "opciones": [
-        "Cuatro",
-        "Cuatro, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cuatro, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cuatro, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "En cada provincia se eligen cuatro senadores, con las particularidades de las provincias insulares.",
-      "referencia": "Art. 69.2 y 69.3 CE"
-    },
-    {
       "pregunta": "¿Qué mayoría se exige en la primera votación de investidura del Presidente del Gobierno?",
       "opciones": [
         "mayoría cualificada de tres quintos de sus miembros del Congreso",
@@ -116,18 +80,6 @@
       "correcta": 2,
       "explicacion": "En la primera votación se exige la mayoría absoluta del Congreso. Si no se alcanza, la nueva votación 48 horas después requiere solo mayoría simple.",
       "referencia": "Art. 99.3 CE"
-    },
-    {
-      "pregunta": "¿Cuántos diputados, como mínimo, deben proponer una moción de censura?",
-      "opciones": [
-        "Una décima parte, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Una décima parte, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Una décima parte",
-        "Una décima parte, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La moción de censura debe ser propuesta al menos por la décima parte de los diputados, con candidato a la Presidencia, y aprobada por mayoría absoluta.",
-      "referencia": "Art. 113.1 y 113.2 CE"
     },
     {
       "pregunta": "¿Qué mayoría necesita el Senado para vetar un proyecto de ley aprobado por el Congreso?",
@@ -154,18 +106,6 @@
       "referencia": "Art. 91 CE"
     },
     {
-      "pregunta": "¿Cuántos vocales nombrados por el Rey integran el Consejo General del Poder Judicial, sin contar a su Presidente?",
-      "opciones": [
-        "20, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "20, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "20, computándose los plazos en días naturales y con sentido desestimatorio",
-        "20"
-      ],
-      "correcta": 3,
-      "explicacion": "El CGPJ está presidido por el Presidente del Tribunal Supremo e integrado por veinte miembros nombrados por el Rey por un periodo de cinco años.",
-      "referencia": "Art. 122.3 CE"
-    },
-    {
       "pregunta": "¿Cada cuánto tiempo se renuevan por terceras partes los miembros del Tribunal Constitucional?",
       "opciones": [
         "Cada dos años improrrogables",
@@ -176,18 +116,6 @@
       "correcta": 2,
       "explicacion": "Los miembros del TC son designados por nueve años y se renuevan por terceras partes cada tres años.",
       "referencia": "Art. 159.3 CE"
-    },
-    {
-      "pregunta": "¿De qué órgano depende el Tribunal de Cuentas?",
-      "opciones": [
-        "De las Cortes Generales",
-        "De las Cortes Generales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "De las Cortes Generales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "De las Cortes Generales, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El Tribunal de Cuentas depende directamente de las Cortes Generales y ejerce sus funciones por delegación de ellas.",
-      "referencia": "Art. 136.1 CE"
     },
     {
       "pregunta": "¿Quién es el Jefe del Estado según la Constitución?",
@@ -214,90 +142,6 @@
       "referencia": "Art. 57.1 CE"
     },
     {
-      "pregunta": "¿Quién propone al candidato a Presidente del Gobierno?",
-      "opciones": [
-        "El Rey",
-        "El Rey, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El Rey, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El Rey, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El Rey propone al candidato a Presidente del Gobierno, previa consulta con los representantes de los grupos políticos.",
-      "referencia": "Art. 62 d) CE"
-    },
-    {
-      "pregunta": "¿Quién sanciona y promulga las leyes?",
-      "opciones": [
-        "El Rey, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El Rey",
-        "El Rey, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El Rey, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "El Rey sanciona y promulga las leyes.",
-      "referencia": "Art. 62 a) CE"
-    },
-    {
-      "pregunta": "¿Cuál es el número mínimo de diputados del Congreso?",
-      "opciones": [
-        "300",
-        "300, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "300, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "300, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El Congreso tiene entre 300 y 400 diputados.",
-      "referencia": "Art. 68.1 CE"
-    },
-    {
-      "pregunta": "¿Cuántos senadores corresponden a cada provincia?",
-      "opciones": [
-        "Cuatro, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cuatro",
-        "Cuatro, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cuatro, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Cada provincia elige cuatro senadores.",
-      "referencia": "Art. 69.5 CE"
-    },
-    {
-      "pregunta": "¿Cuántas Cámaras forman las Cortes Generales?",
-      "opciones": [
-        "Dos, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Dos, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Dos",
-        "Dos, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "Las Cortes Generales están formadas por el Congreso y el Senado.",
-      "referencia": "Art. 66.1 CE"
-    },
-    {
-      "pregunta": "¿Qué órgano ejerce la potestad legislativa del Estado?",
-      "opciones": [
-        "Las Cortes Generales, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Las Cortes Generales, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Las Cortes Generales, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Las Cortes Generales"
-      ],
-      "correcta": 3,
-      "explicacion": "Las Cortes Generales ejercen la potestad legislativa.",
-      "referencia": "Art. 66.2 CE"
-    },
-    {
-      "pregunta": "¿Quiénes pueden ejercer la iniciativa legislativa?",
-      "opciones": [
-        "El Gobierno, el Congreso y el Senado, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El Gobierno, el Congreso y el Senado",
-        "El Gobierno, el Congreso y el Senado, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El Gobierno, el Congreso y el Senado, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "La iniciativa legislativa corresponde al Gobierno, al Congreso y al Senado.",
-      "referencia": "Art. 87.1 CE"
-    },
-    {
       "pregunta": "¿Cuánto tiempo tiene el Senado para vetar un proyecto de ley?",
       "opciones": [
         "un mes contado a partir del día siguiente a la notificación",
@@ -322,18 +166,6 @@
       "referencia": "Art. 91 CE"
     },
     {
-      "pregunta": "¿Quién puede convocar un referéndum consultivo?",
-      "opciones": [
-        "El Rey, a propuesta del Gobierno y con autorización del Congreso",
-        "El Rey, a propuesta del Gobierno y con autorización del Congreso, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El Rey, a propuesta del Gobierno y con autorización del Congreso, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El Rey, a propuesta del Gobierno y con autorización del Congreso, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "El Rey puede convocar un referéndum consultivo a propuesta del Gobierno, con autorización del Congreso.",
-      "referencia": "Art. 92 CE"
-    },
-    {
       "pregunta": "Si transcurren dos meses desde la primera votación de investidura sin candidato elegido, ¿qué ocurre?",
       "opciones": [
         "Se disuelve solo el Senado",
@@ -346,18 +178,6 @@
       "referencia": "Art. 99.5 CE"
     },
     {
-      "pregunta": "¿Qué proporción de diputados se necesita para presentar una moción de censura?",
-      "opciones": [
-        "Un décimo, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Un décimo, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Un décimo, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Un décimo"
-      ],
-      "correcta": 3,
-      "explicacion": "La moción de censura debe ser propuesta por al menos un décimo de los diputados.",
-      "referencia": "Art. 113.2 CE"
-    },
-    {
       "pregunta": "¿Quién nombra a los ministros?",
       "opciones": [
         "El Rey, a propuesta del Presidente del Gobierno",
@@ -368,66 +188,6 @@
       "correcta": 0,
       "explicacion": "Los ministros son nombrados y separados por el Rey, a propuesta de su Presidente.",
       "referencia": "Art. 100 CE"
-    },
-    {
-      "pregunta": "¿Quién nombra al Presidente del Gobierno tras la investidura?",
-      "opciones": [
-        "El Rey, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "El Rey",
-        "El Rey, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "El Rey, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Tras la investidura, el Rey nombra al Presidente del Gobierno.",
-      "referencia": "Art. 99.3 CE"
-    },
-    {
-      "pregunta": "¿Cuántos miembros tiene el Consejo General del Poder Judicial?",
-      "opciones": [
-        "Veinte, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Veinte, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Veinte",
-        "Veinte, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El CGPJ tiene veinte miembros, nombrados por el Rey por cinco años.",
-      "referencia": "Art. 122.3 CE"
-    },
-    {
-      "pregunta": "¿Por cuántos años son nombrados los vocales del CGPJ?",
-      "opciones": [
-        "Cinco años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Cinco años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Cinco años, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Cinco años"
-      ],
-      "correcta": 3,
-      "explicacion": "Los vocales del CGPJ son nombrados por cinco años.",
-      "referencia": "Art. 122.3 CE"
-    },
-    {
-      "pregunta": "¿Cuántos magistrados tiene el Tribunal Constitucional?",
-      "opciones": [
-        "Doce, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Doce, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Doce",
-        "Doce, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "El Tribunal Constitucional se compone de doce miembros.",
-      "referencia": "Art. 159.1 CE"
-    },
-    {
-      "pregunta": "¿Cuánto dura el mandato de los magistrados del Tribunal Constitucional?",
-      "opciones": [
-        "Nueve años",
-        "Nueve años, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Nueve años, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Nueve años, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los magistrados del TC son nombrados por nueve años.",
-      "referencia": "Art. 159.3 CE"
     },
     {
       "pregunta": "¿Cada cuánto se renueva el Tribunal Constitucional?",
@@ -454,30 +214,6 @@
       "referencia": "Art. 54 CE"
     },
     {
-      "pregunta": "¿Qué órgano elige al Presidente de una Comunidad Autónoma según el art. 152 CE?",
-      "opciones": [
-        "La Asamblea Legislativa, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La Asamblea Legislativa, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La Asamblea Legislativa, computándose los plazos en días naturales y con sentido desestimatorio",
-        "La Asamblea Legislativa"
-      ],
-      "correcta": 3,
-      "explicacion": "El Presidente de la Comunidad Autónoma es elegido por la Asamblea Legislativa.",
-      "referencia": "Art. 152 CE"
-    },
-    {
-      "pregunta": "¿Qué refrendo necesitan los actos del Rey?",
-      "opciones": [
-        "Del Presidente del Gobierno y, en su caso, de los ministros competentes",
-        "Del Presidente del Gobierno y, en su caso, de los ministros competentes, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Del Presidente del Gobierno y, en su caso, de los ministros competentes, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Del Presidente del Gobierno y, en su caso, de los ministros competentes, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 0,
-      "explicacion": "Los actos del Rey deben estar refrendados por el Presidente del Gobierno y, en su caso, por los ministros competentes.",
-      "referencia": "Art. 64 CE"
-    },
-    {
       "pregunta": "¿Quién ostenta la Jefatura del Estado?",
       "opciones": [
         "El Presidente del Gobierno",
@@ -488,18 +224,6 @@
       "correcta": 1,
       "explicacion": "El art. 56.1 CE establece que el Rey es el Jefe del Estado.",
       "referencia": "CE, art. 56.1"
-    },
-    {
-      "pregunta": "¿Cuántos diputados componen el Congreso de los Diputados?",
-      "opciones": [
-        "350, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "350, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "350",
-        "350, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 2,
-      "explicacion": "La Constitución fija entre 300 y 400 diputados (art. 68.1 CE) y la LOREG concreta el número en 350.",
-      "referencia": "CE, art. 68.1; LOREG, art. 162.1"
     },
     {
       "pregunta": "¿Cuánto dura la legislatura del Congreso de los Diputados?",
@@ -514,18 +238,6 @@
       "referencia": "CE, art. 68.4"
     },
     {
-      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (La Corona), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es hereditaria en los sucesores de la dinastía histórica (art. 57.1).»?",
-      "opciones": [
-        "La Corona, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "La Corona.",
-        "La Corona, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "La Corona, computándose los plazos en días naturales y con sentido desestimatorio"
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es hereditaria en los sucesores de la dinastía histórica (art. 57.1).») define o regula específicamente a «La Corona» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
-      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
-    },
-    {
       "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (La Corona), ¿qué establece la normativa respecto a «Sus actos deben estar refrendados. Funciones regladas»?",
       "opciones": [
         "Mayoría absoluta del Congreso en la primera votación y mayoría simple 48 horas después.",
@@ -535,18 +247,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «Sus actos deben estar refrendados. Funciones regladas» (La Corona), la regulación vigente establece que: Sancionar y promulgar leyes, convocar y disolver las Cortes, convocar referéndum, proponer el candidato a Presidente del Gobierno (art. 62).",
-      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (La Corona), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sancionar y promulgar leyes, convocar y disolver las Cortes, convocar referéndum, proponer el candidato a Presidente del Gobierno (art. 62).»?",
-      "opciones": [
-        "Sus actos deben estar refrendados. Funciones regladas, previa autorización preceptiva y vinculante del Consejo de Gobierno",
-        "Sus actos deben estar refrendados. Funciones regladas, salvo cuando el pliego o norma reglamentaria disponga su carácter facultativo",
-        "Sus actos deben estar refrendados. Funciones regladas, computándose los plazos en días naturales y con sentido desestimatorio",
-        "Sus actos deben estar refrendados. Funciones regladas."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Sancionar y promulgar leyes, convocar y disolver las Cortes, convocar referéndum, proponer el candidato a Presidente del Gobierno (art. 62).») define o regula específicamente a «Sus actos deben estar refrendados. Funciones regladas» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
       "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
     },
     {
@@ -787,6 +487,306 @@
       ],
       "correcta": 2,
       "explicacion": "Dicha regulación («Supremo órgano fiscalizador, dependiente de las Cortes Generales (art. 136.1).») define o regula específicamente a «Tribunal de Cuentas» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (La Corona), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es hereditaria en los sucesores de la dinastía histórica (art. 57.1).»?",
+      "opciones": [
+        "La Corona.",
+        "Leyes orgánicas.",
+        "Tribunal de Cuentas.",
+        "El primero es el de las funciones."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es hereditaria en los sucesores de la dinastía histórica (art. 57.1).») define o regula específicamente a «La Corona» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (La Corona), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Sancionar y promulgar leyes, convocar y disolver las Cortes, convocar referéndum, proponer el candidato a Presidente del Gobierno (art. 62).»?",
+      "opciones": [
+        "Investidura.",
+        "Defensor del Pueblo.",
+        "La regla básica para estudiar la Corona.",
+        "Sus actos deben estar refrendados. Funciones regladas."
+      ],
+      "correcta": 3,
+      "explicacion": "Dicha determinación («Sancionar y promulgar leyes, convocar y disolver las Cortes, convocar referéndum, proponer el candidato a Presidente del Gobierno (art. 62).») define o regula específicamente a «Sus actos deben estar refrendados. Funciones regladas» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (La Corona), ¿qué establece la normativa respecto a «La regla básica para estudiar la Corona»?",
+      "opciones": [
+        "Es la distinción entre el acto del Rey y su responsabilidad.",
+        "Exige la mayoría absoluta del Congreso.",
+        "Exige una propuesta de al menos la décima parte de los diputados, que incluya un candidato a la Presidencia, y su aprobación por mayoría absoluta (art. 113.1 y 113.2).",
+        "Es nombrado por el Rey a propuesta del Consejo General del Poder Judicial (art. 123.2)."
+      ],
+      "correcta": 0,
+      "explicacion": "Respecto a «La regla básica para estudiar la Corona» (La Corona), la regulación vigente establece que: Es la distinción entre el acto del Rey y su responsabilidad.",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (La Corona), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la distinción entre el acto del Rey y su responsabilidad.»?",
+      "opciones": [
+        "Para la primera votación se.",
+        "La regla básica para estudiar la Corona.",
+        "La moción de censura.",
+        "Su Presidente."
+      ],
+      "correcta": 1,
+      "explicacion": "Dicha determinación («Es la distinción entre el acto del Rey y su responsabilidad.») define o regula específicamente a «La regla básica para estudiar la Corona» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (Las Cortes Generales: composición y funciones), ¿qué establece la normativa respecto a «La circunscripción electoral»?",
+      "opciones": [
+        "Son nombrados y separados por el Rey a propuesta de su Presidente (art. 100).",
+        "Es el órgano de gobierno del poder judicial (art. 122.2).",
+        "Es nombrado entre sus miembros por el Rey, a propuesta del Tribunal en pleno, por un periodo de tres años (art. 160).",
+        "Es la provincia (art. 68.1 y 68.2)."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «La circunscripción electoral» (Las Cortes Generales: composición y funciones), la regulación vigente establece que: Es la provincia (art. 68.1 y 68.2).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (Las Cortes Generales: composición y funciones), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es la provincia (art. 68.1 y 68.2).»?",
+      "opciones": [
+        "La circunscripción electoral.",
+        "Los demás ministros.",
+        "El Consejo General del Poder Judicial.",
+        "El Presidente del Tribunal Constitucional."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es la provincia (art. 68.1 y 68.2).») define o regula específicamente a «La circunscripción electoral» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (La función legislativa), ¿qué establece la normativa respecto a «La tramitación de las proposiciones de ley se»?",
+      "opciones": [
+        "Exige ante la Sala de lo Penal del Tribunal Supremo (art. 102.1).",
+        "Regula por los reglamentos de las Cámaras, sin que la prioridad debida a los proyectos impida la iniciativa legislativa (art. 89.1).",
+        "Es el órgano jurisdiccional superior en todos los órdenes, salvo lo dispuesto en materia de garantías constitucionales (art. 123.1).",
+        "Es el supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado y del sector público (art. 136.1)."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «La tramitación de las proposiciones de ley se» (La función legislativa), la regulación vigente establece que: Regula por los reglamentos de las Cámaras, sin que la prioridad debida a los proyectos impida la iniciativa legislativa (art. 89.1).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (La función legislativa), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula por los reglamentos de las Cámaras, sin que la prioridad debida a los proyectos impida la iniciativa legislativa (art. 89.1).»?",
+      "opciones": [
+        "La responsabilidad penal del Presidente y de los ministros se.",
+        "El Tribunal Supremo.",
+        "La tramitación de las proposiciones de ley se.",
+        "El Tribunal de Cuentas."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Regula por los reglamentos de las Cámaras, sin que la prioridad debida a los proyectos impida la iniciativa legislativa (art. 89.1).») define o regula específicamente a «La tramitación de las proposiciones de ley se» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El Gobierno del Estado), ¿qué establece la normativa respecto a «Para la primera votación se»?",
+      "opciones": [
+        "Exige una propuesta de al menos la décima parte de los diputados, que incluya un candidato a la Presidencia, y su aprobación por mayoría absoluta (art. 113.1 y 113.2).",
+        "Es nombrado por el Rey a propuesta del Consejo General del Poder Judicial (art. 123.2).",
+        "Son la investidura, la cuestión de confianza, la moción de censura y la disolución.",
+        "Exige la mayoría absoluta del Congreso."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Para la primera votación se» (El Gobierno del Estado), la regulación vigente establece que: Exige la mayoría absoluta del Congreso.",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El Gobierno del Estado), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige la mayoría absoluta del Congreso.»?",
+      "opciones": [
+        "Para la primera votación se.",
+        "La moción de censura.",
+        "Su Presidente.",
+        "Los cuatro instrumentos clave."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Exige la mayoría absoluta del Congreso.») define o regula específicamente a «Para la primera votación se» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El Gobierno del Estado), ¿qué establece la normativa respecto a «Los demás ministros»?",
+      "opciones": [
+        "Es el órgano de gobierno del poder judicial (art. 122.2).",
+        "Son nombrados y separados por el Rey a propuesta de su Presidente (art. 100).",
+        "Es nombrado entre sus miembros por el Rey, a propuesta del Tribunal en pleno, por un periodo de tres años (art. 160).",
+        "Es la absoluta, y la segunda votación basta con la simple."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «Los demás ministros» (El Gobierno del Estado), la regulación vigente establece que: Son nombrados y separados por el Rey a propuesta de su Presidente (art. 100).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El Gobierno del Estado), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Son nombrados y separados por el Rey a propuesta de su Presidente (art. 100).»?",
+      "opciones": [
+        "El Consejo General del Poder Judicial.",
+        "El Presidente del Tribunal Constitucional.",
+        "Los demás ministros.",
+        "La mayoría exigida en primera votación."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Son nombrados y separados por el Rey a propuesta de su Presidente (art. 100).») define o regula específicamente a «Los demás ministros» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El Gobierno del Estado), ¿qué establece la normativa respecto a «La responsabilidad penal del Presidente y de los ministros se»?",
+      "opciones": [
+        "Es el órgano jurisdiccional superior en todos los órdenes, salvo lo dispuesto en materia de garantías constitucionales (art. 123.1).",
+        "Es el supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado y del sector público (art. 136.1).",
+        "El Gobierno presenta su dimisión al Rey y se procede a designar un nuevo Presidente según el art. 99.",
+        "Exige ante la Sala de lo Penal del Tribunal Supremo (art. 102.1)."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «La responsabilidad penal del Presidente y de los ministros se» (El Gobierno del Estado), la regulación vigente establece que: Exige ante la Sala de lo Penal del Tribunal Supremo (art. 102.1).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El Gobierno del Estado), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige ante la Sala de lo Penal del Tribunal Supremo (art. 102.1).»?",
+      "opciones": [
+        "La responsabilidad penal del Presidente y de los ministros se.",
+        "El Tribunal Supremo.",
+        "El Tribunal de Cuentas.",
+        "El art. 114.1 regula el caso de que el Congreso niegue su confianza al Gobierno."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Exige ante la Sala de lo Penal del Tribunal Supremo (art. 102.1).») define o regula específicamente a «La responsabilidad penal del Presidente y de los ministros se» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El Gobierno del Estado), ¿qué establece la normativa respecto a «La moción de censura»?",
+      "opciones": [
+        "Es nombrado por el Rey a propuesta del Consejo General del Poder Judicial (art. 123.2).",
+        "Exige una propuesta de al menos la décima parte de los diputados, que incluya un candidato a la Presidencia, y su aprobación por mayoría absoluta (art. 113.1 y 113.2).",
+        "Son la investidura, la cuestión de confianza, la moción de censura y la disolución.",
+        "Iniciativa, aprobación en el Congreso, revisión en el Senado y sanción y publicación."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «La moción de censura» (El Gobierno del Estado), la regulación vigente establece que: Exige una propuesta de al menos la décima parte de los diputados, que incluya un candidato a la Presidencia, y su aprobación por mayoría absoluta (art. 113.1 y 113.2).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El Gobierno del Estado), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Exige una propuesta de al menos la décima parte de los diputados, que incluya un candidato a la Presidencia, y su aprobación por mayoría absoluta (art. 113.1 y 113.2).»?",
+      "opciones": [
+        "Su Presidente.",
+        "Los cuatro instrumentos clave.",
+        "La moción de censura.",
+        "El procedimiento legislativo ordinario tiene cuatro fases."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Exige una propuesta de al menos la décima parte de los diputados, que incluya un candidato a la Presidencia, y su aprobación por mayoría absoluta (art. 113.1 y 113.2).») define o regula específicamente a «La moción de censura» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El poder judicial), ¿qué establece la normativa respecto a «El Consejo General del Poder Judicial»?",
+      "opciones": [
+        "Es nombrado entre sus miembros por el Rey, a propuesta del Tribunal en pleno, por un periodo de tres años (art. 160).",
+        "Es la absoluta, y la segunda votación basta con la simple.",
+        "Son aprobados por el Consejo de Ministros, que los remite al Congreso con su exposición de motivos y sus antecedentes (art. 88).",
+        "Es el órgano de gobierno del poder judicial (art. 122.2)."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «El Consejo General del Poder Judicial» (El poder judicial), la regulación vigente establece que: Es el órgano de gobierno del poder judicial (art. 122.2).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El poder judicial), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el órgano de gobierno del poder judicial (art. 122.2).»?",
+      "opciones": [
+        "El Consejo General del Poder Judicial.",
+        "El Presidente del Tribunal Constitucional.",
+        "La mayoría exigida en primera votación.",
+        "Los proyectos de ley."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es el órgano de gobierno del poder judicial (art. 122.2).») define o regula específicamente a «El Consejo General del Poder Judicial» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El poder judicial), ¿qué establece la normativa respecto a «El Tribunal Supremo»?",
+      "opciones": [
+        "Es el supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado y del sector público (art. 136.1).",
+        "Es el órgano jurisdiccional superior en todos los órdenes, salvo lo dispuesto en materia de garantías constitucionales (art. 123.1).",
+        "El Gobierno presenta su dimisión al Rey y se procede a designar un nuevo Presidente según el art. 99.",
+        "En algunos casos requiere la autorización previa de las Cortes."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El Tribunal Supremo» (El poder judicial), la regulación vigente establece que: Es el órgano jurisdiccional superior en todos los órdenes, salvo lo dispuesto en materia de garantías constitucionales (art. 123.1).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El poder judicial), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el órgano jurisdiccional superior en todos los órdenes, salvo lo dispuesto en materia de garantías constitucionales (art. 123.1).»?",
+      "opciones": [
+        "El Tribunal de Cuentas.",
+        "El art. 114.1 regula el caso de que el Congreso niegue su confianza al Gobierno.",
+        "El Tribunal Supremo.",
+        "Pero esa manifestación no es una decisión libre del Rey."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es el órgano jurisdiccional superior en todos los órdenes, salvo lo dispuesto en materia de garantías constitucionales (art. 123.1).») define o regula específicamente a «El Tribunal Supremo» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El poder judicial), ¿qué establece la normativa respecto a «Su Presidente»?",
+      "opciones": [
+        "Son la investidura, la cuestión de confianza, la moción de censura y la disolución.",
+        "Iniciativa, aprobación en el Congreso, revisión en el Senado y sanción y publicación.",
+        "Es la independencia de jueces y magistrados (art. 117.1).",
+        "Es nombrado por el Rey a propuesta del Consejo General del Poder Judicial (art. 123.2)."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Su Presidente» (El poder judicial), la regulación vigente establece que: Es nombrado por el Rey a propuesta del Consejo General del Poder Judicial (art. 123.2).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El poder judicial), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es nombrado por el Rey a propuesta del Consejo General del Poder Judicial (art. 123.2).»?",
+      "opciones": [
+        "Su Presidente.",
+        "Los cuatro instrumentos clave.",
+        "El procedimiento legislativo ordinario tiene cuatro fases.",
+        "El principio central."
+      ],
+      "correcta": 0,
+      "explicacion": "Dicha determinación («Es nombrado por el Rey a propuesta del Consejo General del Poder Judicial (art. 123.2).») define o regula específicamente a «Su Presidente» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El Tribunal de Cuentas y el Defensor del Pueblo), ¿qué establece la normativa respecto a «El Tribunal de Cuentas»?",
+      "opciones": [
+        "El Gobierno presenta su dimisión al Rey y se procede a designar un nuevo Presidente según el art. 99.",
+        "Es el supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado y del sector público (art. 136.1).",
+        "En algunos casos requiere la autorización previa de las Cortes.",
+        "Es un órgano de garantía de la Constitución, no un tribunal de última instancia ordinario."
+      ],
+      "correcta": 1,
+      "explicacion": "Respecto a «El Tribunal de Cuentas» (El Tribunal de Cuentas y el Defensor del Pueblo), la regulación vigente establece que: Es el supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado y del sector público (art. 136.1).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "Dentro de la materia «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (El Tribunal de Cuentas y el Defensor del Pueblo), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es el supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado y del sector público (art. 136.1).»?",
+      "opciones": [
+        "El art. 114.1 regula el caso de que el Congreso niegue su confianza al Gobierno.",
+        "Pero esa manifestación no es una decisión libre del Rey.",
+        "El Tribunal de Cuentas.",
+        "El Tribunal Constitucional."
+      ],
+      "correcta": 2,
+      "explicacion": "Dicha determinación («Es el supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado y del sector público (art. 136.1).») define o regula específicamente a «El Tribunal de Cuentas» (Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)).",
+      "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
+    },
+    {
+      "pregunta": "En el ámbito de «Los órganos constitucionales. La Corona. Las Cortes Generales. El Congreso de los Diputados y el Senado: Composición y funciones. La función legislativa. El Gobierno del Estado. El Poder Judicial. El Tribunal Constitucional. El Tribunal de Cuentas y el Defensor del Pueblo.» (Relación entre el Gobierno y las Cortes: el parlamentarismo racionalizado), ¿qué establece la normativa respecto a «Los cuatro instrumentos clave»?",
+      "opciones": [
+        "Iniciativa, aprobación en el Congreso, revisión en el Senado y sanción y publicación.",
+        "Es la independencia de jueces y magistrados (art. 117.1).",
+        "Es la vía más conocida por los ciudadanos.",
+        "Son la investidura, la cuestión de confianza, la moción de censura y la disolución."
+      ],
+      "correcta": 3,
+      "explicacion": "Respecto a «Los cuatro instrumentos clave» (Relación entre el Gobierno y las Cortes: el parlamentarismo racionalizado), la regulación vigente establece que: Son la investidura, la cuestión de confianza, la moción de censura y la disolución.",
       "referencia": "Constitución Española de 1978 (BOE núm. 311, de 29 de diciembre de 1978)"
     }
   ]
