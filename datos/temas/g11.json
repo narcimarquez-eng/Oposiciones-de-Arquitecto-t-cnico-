@@ -97,8 +97,8 @@
       "opciones": [
         "OR carta OR servicios site:boe.es",
         "\"carta de servicios\" site:juntadeandalucia.es filetype:pdf",
-        "http://localhost:8080/carta.exe",
-        "carta de servicios -juntadeandalucia.es -pdf"
+        "Http://localhost:8080/carta.exe",
+        "Carta de servicios -juntadeandalucia.es -pdf"
       ],
       "correcta": 1,
       "explicacion": "Las comillas `\"\"` fuerzan la coincidencia de la frase exacta, el operador `site:` filtra por el dominio web indicado y el operador `filetype:` filtra por la extensión de archivo PDF.",

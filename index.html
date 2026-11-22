@@ -627,6 +627,53 @@
   .heat-bar.hot > span {
     background: linear-gradient(90deg, #d97706, #dc2626);
   }
+  .btn-tema-visual {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 10px;
+    border-radius: 99px;
+    border: 1px solid var(--border);
+    background: var(--surface-2);
+    color: var(--text);
+    font: inherit;
+    font-size: .82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  .btn-tema-visual:hover { border-color: var(--accent); color: var(--accent); }
+  .confirm-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--warn);
+    background: var(--warn-bg);
+    font-size: .9rem;
+  }
+  .toast-aviso {
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    z-index: 1200;
+    max-width: min(380px, calc(100vw - 36px));
+    padding: 11px 16px;
+    border-radius: 10px;
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--accent);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, .2);
+    font-size: .88rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  .toast-aviso.err { border-color: var(--bad); background: var(--bad-bg); color: var(--bad); }
+  .toast-aviso.ok { border-color: var(--ok); background: var(--ok-bg); color: var(--ok); }
 </style>
 </head>
 <body>
@@ -653,6 +700,9 @@
         <button type="button" class="btn-modo-enfoque" id="btn-modo-enfoque" data-toggle-enfoque="1" aria-pressed="false" title="Modo Enfoque (Alt+F): oculta el panel de navegación y las estadísticas dejando solo el contenido del tema activo">
           🎯 Modo Enfoque
         </button>
+        <button type="button" class="btn-tema-visual" id="btn-tema-visual" data-toggle-tema="1" title="Cambiar aspecto visual entre modo claro y modo oscuro">
+          🌗 Tema
+        </button>
       </div>
     </div>
     <div class="stats" id="stats"></div>
@@ -677,6 +727,7 @@
   </div>
 </div>
 
+<div id="toast-aviso" class="toast-aviso" role="status" aria-live="polite" hidden></div>
 <input type="file" id="input-importar-json" accept=".json,application/json" hidden>
 
 <div class="wrap" id="pie-pagina">
@@ -727,6 +778,45 @@
   var $headerTitulo = document.getElementById('header-titulo-cuerpo');
   var $headerSub = document.getElementById('header-sub-cuerpo');
   var $btnModoEnfoque = document.getElementById('btn-modo-enfoque');
+  var $btnTemaVisual = document.getElementById('btn-tema-visual');
+  var $toastAviso = document.getElementById('toast-aviso');
+  var toastTimer = null;
+
+  function mostrarToast(mensaje, tipo) {
+    if (!$toastAviso) return;
+    $toastAviso.textContent = mensaje;
+    $toastAviso.className = 'toast-aviso' + (tipo ? ' ' + tipo : '');
+    $toastAviso.hidden = false;
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () {
+      $toastAviso.hidden = true;
+    }, 3600);
+  }
+
+  var TEMA_VISUAL_KEY = 'estudio-tema-visual-v1';
+  var temaVisual = (function () {
+    try {
+      var v = localStorage.getItem(TEMA_VISUAL_KEY);
+      if (v === 'light' || v === 'dark') return v;
+    } catch (e) { /* sin almacenamiento */ }
+    return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+  })();
+
+  function aplicarTemaVisual() {
+    document.documentElement.setAttribute('data-theme', temaVisual);
+    if ($btnTemaVisual) {
+      var esOscuro = temaVisual === 'dark';
+      $btnTemaVisual.textContent = esOscuro ? '☀️ Claro' : '🌙 Oscuro';
+      $btnTemaVisual.setAttribute('aria-pressed', esOscuro ? 'true' : 'false');
+    }
+  }
+
+  function alternarTemaVisual() {
+    temaVisual = temaVisual === 'dark' ? 'light' : 'dark';
+    try { localStorage.setItem(TEMA_VISUAL_KEY, temaVisual); } catch (e) { /* sin almacenamiento */ }
+    aplicarTemaVisual();
+  }
+  aplicarTemaVisual();
 
   var filtro = 'todos';
   var estadoTest = null;
@@ -864,6 +954,7 @@
 
   function cambiarCuerpoActivo(nuevoId) {
     if (!CUERPOS[nuevoId]) return;
+    detenerCronometroSimulacro();
     cuerpoActivoId = nuevoId;
     try { localStorage.setItem(CUERPO_STORAGE_KEY, nuevoId); } catch (e) { /* sin almacenamiento */ }
     try {
@@ -871,6 +962,7 @@
     } catch (e) { modoEnfoqueActivo = false; }
     filtro = 'todos';
     filtroSemaforo = 'todos';
+    estadoTest = null;
     estadoFichas.bloque = 'todos';
     estadoNormativa.categoria = 'todas';
     estadoNormativa.tipo = 'todos';
@@ -879,9 +971,20 @@
     estadoRadar.filtro = 'top30';
     estadoRadar.busqueda = '';
     gen.sel = null; // reiniciar selección del generador
+    gen.fase = 'config';
+    gen.simulacro = false;
+    gen.convocatoriaActiva = null;
+    gen.enunciadosPracticos = [];
+    gen.confirmarEntregar = false;
+    gen.confirmarBorrarStats = false;
     actualizarEncabezadoCuerpo();
+    var hAct = location.hash || '#/';
     if (modoEnfoqueActivo) {
       go('#/tema/' + obtenerTemaActivoCuerpo());
+    } else if (hAct.indexOf('#/practico/') === 0) {
+      go('#/practicos');
+    } else if (hAct.indexOf('#/tema/') === 0 || hAct.indexOf('#/test/') === 0) {
+      go('#/');
     } else {
       render();
     }
@@ -980,6 +1083,7 @@
   }
 
   // ---------- Almacenamiento de Notas, Repaso (Falladas/Dudosas), Buscador y Fichas ----------
+  // Independiente por oposición (con compatibilidad hacia atrás para a2-2001)
   var NOTAS_KEY = 'estudio-notas-v1';
   var REPASO_KEY = 'estudio-repaso-v1';
   var busquedaGlobal = '';
@@ -989,24 +1093,59 @@
   var estadoRadar = { seccion: 'ambas', filtro: 'top30', ley: 'todas', busqueda: '' };
 
   function leerNotas() {
-    try { return JSON.parse(localStorage.getItem(NOTAS_KEY)) || {}; } catch (e) { return {}; }
+    try {
+      var raw = localStorage.getItem(storageKeyCuerpo('notas'));
+      if (raw !== null) {
+        var parsed = JSON.parse(raw);
+        if (parsed && typeof parsed === 'object') return parsed;
+      }
+      if (cuerpoActivoId === 'a2-2001') {
+        var legacy = JSON.parse(localStorage.getItem(NOTAS_KEY));
+        if (legacy && typeof legacy === 'object') return legacy;
+      }
+    } catch (e) { /* sin almacenamiento */ }
+    return {};
+  }
+  function guardarNotas(obj) {
+    var limpio = (obj && typeof obj === 'object') ? obj : {};
+    try {
+      localStorage.setItem(storageKeyCuerpo('notas'), JSON.stringify(limpio));
+      if (cuerpoActivoId === 'a2-2001') {
+        localStorage.setItem(NOTAS_KEY, JSON.stringify(limpio));
+      }
+    } catch (e) { /* sin almacenamiento */ }
   }
   function guardarNotaTema(idTema, texto) {
     var n = leerNotas();
     if (texto && texto.trim()) n[idTema] = texto;
     else delete n[idTema];
-    try { localStorage.setItem(NOTAS_KEY, JSON.stringify(n)); } catch (e) { /* sin almacenamiento */ }
+    guardarNotas(n);
   }
 
   function leerRepaso() {
     try {
-      var r = JSON.parse(localStorage.getItem(REPASO_KEY));
-      if (r && r.falladas && r.dudosas) return r;
+      var raw = localStorage.getItem(storageKeyCuerpo('repaso'));
+      if (raw !== null) {
+        var r = JSON.parse(raw);
+        if (r && r.falladas && r.dudosas) return r;
+      }
+      if (cuerpoActivoId === 'a2-2001') {
+        var legacy = JSON.parse(localStorage.getItem(REPASO_KEY));
+        if (legacy && legacy.falladas && legacy.dudosas) return legacy;
+      }
     } catch (e) { /* sin almacenamiento */ }
     return { falladas: {}, dudosas: {} };
   }
   function guardarRepaso(r) {
-    try { localStorage.setItem(REPASO_KEY, JSON.stringify(r)); } catch (e) { /* sin almacenamiento */ }
+    var limpio = (r && typeof r === 'object')
+      ? { falladas: r.falladas || {}, dudosas: r.dudosas || {} }
+      : { falladas: {}, dudosas: {} };
+    try {
+      localStorage.setItem(storageKeyCuerpo('repaso'), JSON.stringify(limpio));
+      if (cuerpoActivoId === 'a2-2001') {
+        localStorage.setItem(REPASO_KEY, JSON.stringify(limpio));
+      }
+    } catch (e) { /* sin almacenamiento */ }
   }
   function clavePreguntaRepaso(temaId, enunciado) {
     return (temaId || 'g') + '::' + normClave(enunciado).slice(0, 110);
@@ -1063,10 +1202,11 @@
     try { localStorage.setItem(PRACTICOS_KEY, JSON.stringify(r || {})); } catch (e) { /* sin almacenamiento */ }
   }
 
-  // Exportar e importar copia de seguridad JSON completa
+  // Exportar e importar copia de seguridad JSON completa (aislada por oposición)
   function exportarCopiaSeguridad() {
+    var c = cuerpoActual();
     var datos = {
-      version: 2,
+      version: 3,
       cuerpoActivo: cuerpoActivoId,
       fecha: new Date().toISOString(),
       progreso: leerProgreso(),
@@ -1084,6 +1224,7 @@
     a.click();
     a.remove();
     setTimeout(function () { URL.revokeObjectURL(url); }, 1500);
+    mostrarToast('Copia de seguridad exportada para ' + c.codigo + '.', 'ok');
   }
 
   function importarCopiaSeguridadArchivo(file) {
@@ -1092,16 +1233,30 @@
     reader.onload = function (ev) {
       try {
         var d = JSON.parse(ev.target.result);
-        if (d.progreso) guardarProgreso(d.progreso);
-        if (d.estadisticas) guardarStats(d.estadisticas);
-        if (d.repaso) guardarRepaso(d.repaso);
-        if (d.notas) localStorage.setItem(NOTAS_KEY, JSON.stringify(d.notas));
+        if (!d || typeof d !== 'object' || Array.isArray(d)) {
+          mostrarToast('El archivo seleccionado no es una copia de seguridad válida.', 'err');
+          return;
+        }
+        var tieneDatos = !!(d.progreso || d.estadisticas || d.repaso || d.notas || d.practicos);
+        if (!tieneDatos) {
+          mostrarToast('El archivo JSON no contiene datos de progreso reconocibles.', 'err');
+          return;
+        }
+        if (d.progreso && typeof d.progreso === 'object') guardarProgreso(d.progreso);
+        if (d.estadisticas && typeof d.estadisticas === 'object') guardarStats(d.estadisticas);
+        if (d.repaso && typeof d.repaso === 'object') guardarRepaso(d.repaso);
+        if (d.notas && typeof d.notas === 'object') guardarNotas(d.notas);
         if (d.practicos && typeof d.practicos === 'object') {
-          estadoPracticos.respuestas = d.practicos;
-          guardarPracticosRespuestas(d.practicos);
+          var actuales = leerPracticosRespuestas();
+          Object.keys(d.practicos).forEach(function (k) { actuales[k] = d.practicos[k]; });
+          estadoPracticos.respuestas = actuales;
+          guardarPracticosRespuestas(actuales);
         }
         render();
-      } catch (e) { /* archivo inválido */ }
+        mostrarToast('Copia de seguridad restaurada correctamente en ' + cuerpoActual().codigo + '.', 'ok');
+      } catch (e) {
+        mostrarToast('No se pudo leer el archivo JSON. Comprueba que no esté dañado.', 'err');
+      }
     };
     reader.readAsText(file);
   }
@@ -1295,7 +1450,7 @@
         var b = c.bloques[i];
         if (b.id === bloqueId) {
           if (b.temas) {
-            return b.temas.indexOf(t.id) !== -1 || b.temas.indexOf(String(t.num)) !== -1;
+            return b.temas.indexOf(t.id) !== -1 || b.temas.indexOf(String(t.num)) !== -1 || b.temas.indexOf(t.num) !== -1;
           }
           return t.bloque === b.id;
         }
@@ -3665,6 +3820,9 @@
     if (!lista.length) return;
     detenerCronometroSimulacro();
     gen.simulacro = false;
+    gen.convocatoriaActiva = null;
+    gen.enunciadosPracticos = [];
+    gen.confirmarEntregar = false;
     gen.modo = 'practica';
     gen.numero = String(lista.length);
     if (!bancoListo()) cargarBanco();
@@ -3673,7 +3831,7 @@
       return {
         tema: q.tema, origen: q.origen || 'revisada', reutilizada: false, enunciado: q.enunciado,
         explicacion: q.explicacion, referencia: q.referencia,
-        opciones: orden.map(function (i) { return q.opciones[i]; }), correcta: orden.indexOf(q.correcta),
+        opciones: orden.map(function (i) { return limpiarPrefijoOpcion(q.opciones[i]); }), correcta: orden.indexOf(q.correcta),
         resp: null, registrada: false
       };
     });
@@ -3696,18 +3854,19 @@
     var etiqueta = t ? etiquetaTema(t) : ('Tema ' + e.id);
 
     if (e.i >= c.test.length) {
+      var pctTest = c.test.length ? Math.round((e.aciertos / c.test.length) * 100) : 0;
       var fallos = e.respuestas.map(function (r, i) { return { r: r, q: c.test[i], i: i }; })
         .filter(function (x) { return !x.r.acierto; });
       return '<button class="volver" type="button" data-ir="#/tema/' + esc(e.id) + '">← Volver al ' + esc(etiqueta) + '</button>' +
         '<h2 class="tituloTema">Resultado · ' + esc(etiqueta) + ' (' + esc(corp.codigo) + ')</h2>' +
-        '<div class="resultado" aria-live="polite">' + e.aciertos + ' / ' + c.test.length + '</div>' +
-        '<p class="sub">' + (e.aciertos >= 8 ? 'Muy buen resultado.' : e.aciertos >= 5 ? 'Vas bien; repasa los fallos.' : 'Conviene repasar el resumen antes de otro intento.') + '</p>' +
+        '<div class="resultado" aria-live="polite">' + e.aciertos + ' / ' + c.test.length + ' (' + pctTest + ' %)</div>' +
+        '<p class="sub">' + (pctTest >= 80 ? 'Muy buen resultado.' : pctTest >= 50 ? 'Vas bien; repasa los fallos.' : 'Conviene repasar el resumen antes de otro intento.') + '</p>' +
         (fallos.length ? '<section class="seccion"><h3>Preguntas falladas (guardadas automáticamente en tu banco de repaso)</h3>' + fallos.map(function (x) {
           var dud = esPreguntaDudosa(x.q, contentId);
           var leyDefX = leyPorDefectoPregunta(x.q, contentId);
           return '<div class="fallo"><div class="tema-meta" style="justify-content:space-between"><strong>' + esc(x.q.pregunta) + '</strong>' +
             '<button type="button" class="btn-dudosa' + (dud ? ' activa' : '') + '" data-dudosa-test="' + x.i + '">' + (dud ? '★ Dudosa' : '☆ Marcar dudosa') + '</button></div>' +
-            '<p class="sub">Correcta: ' + esc(x.q.opciones[x.q.correcta]) + '</p>' +
+            '<p class="sub">Correcta: ' + esc(limpiarPrefijoOpcion(x.q.opciones[x.q.correcta])) + '</p>' +
             '<p>' + enlazarNormas(x.q.explicacion, contentId, null, leyDefX) + '</p>' +
             '<p class="sub">Ref.: ' + enlazarNormas(x.q.referencia, contentId, null, leyDefX) + '</p></div>';
         }).join('') + '</section>' : '<p>Sin fallos. ¡Perfecto!</p>') +
@@ -4275,7 +4434,8 @@
     cargando: false, error: false, sel: null, numero: '50', origen: 'todas',
     modo: 'practica', fase: 'config', preguntas: [], i: 0,
     simulacro: false, convocatoriaActiva: null, enunciadosPracticos: [], filtroTurnoSim: 'todos',
-    segundosRestantes: 7200, pausado: false, timerId: null
+    segundosRestantes: 7200, pausado: false, timerId: null,
+    confirmarBorrarStats: false, confirmarEntregar: false
   };
   var STATS_KEY = 'estudio-estadisticas-v1';
 
@@ -4519,13 +4679,19 @@
     if (s.sesiones.length > 200) s.sesiones = s.sesiones.slice(-200);
     guardarStats(s);
   }
-  function borrarStats() {
-    if (!window.confirm('¿Borrar todas las estadísticas guardadas en este navegador?')) return;
+  function borrarStats(confirmado) {
+    if (!confirmado) {
+      gen.confirmarBorrarStats = true;
+      render();
+      return;
+    }
+    gen.confirmarBorrarStats = false;
     try {
       localStorage.removeItem(storageKeyCuerpo('estadisticas'));
       if (cuerpoActivoId === 'a2-2001') localStorage.removeItem(STATS_KEY);
     } catch (e) { /* nada que borrar */ }
     render();
+    mostrarToast('Estadísticas de ' + cuerpoActual().codigo + ' borradas.', 'ok');
   }
 
   // ---------- Selección y preguntas ----------
@@ -4786,7 +4952,7 @@
       '<section class="seccion"><h3>1. Selección personalizada de temas</h3>' +
       '<div class="acciones" style="margin-top:0"><button class="btn sec" type="button" data-gen="todos">Todos</button>' +
       '<button class="btn sec" type="button" data-gen="ninguno">Ninguno</button>' +
-      '<span class="sub">' + sel.size + ' de ' + temas.length + ' temas de ' + esc(c.codigo) + '</span></div>' +
+      '<span class="sub">' + temas.filter(function (t) { return sel.has(t.id); }).length + ' de ' + temas.length + ' temas de ' + esc(c.codigo) + '</span></div>' +
       '<div class="caja" style="margin-top:10px">' + bloquesHtml + '</div></section>' +
       '<section class="seccion"><h3>2. Opciones del test personalizado</h3>' +
       '<div class="campo"><label for="gModo">Modo</label><select class="sel" id="gModo" data-gcampo="modo">' +
@@ -4828,7 +4994,10 @@
         nombresBloqueCuerpo[b.id] = b.nombreCorto || b.nombre.replace(/\s*\(\d+\s*temas?\)/i, '').replace(/\s*\(Temas\s+\d+.*?\)/i, '');
       });
     }
+    var vistosEst = {};
     temasCuerpo.forEach(function (t) {
+      if (vistosEst[t.id]) return;
+      vistosEst[t.id] = true;
       var x = s.temas[t.id];
       if (!x || !x.n) return;
       sumar(total, x);
@@ -4859,8 +5028,15 @@
         : etModo + ' · ' + r.ok + ' de ' + r.n + ' aciertos';
       return '<li>' + esc(fecha) + ' · ' + esc(texto) + '</li>';
     }).join('');
+    var confirmBorrarHtml = gen.confirmarBorrarStats
+      ? '<div class="confirm-inline"><span>⚠️ ¿Borrar todas las estadísticas guardadas para <strong>' + esc(c.codigo) + '</strong>?</span>' +
+        '<span style="display:inline-flex;gap:8px">' +
+        '<button class="btn" type="button" data-gen="confirmarBorrarStats">Sí, borrar</button>' +
+        '<button class="btn sec" type="button" data-gen="cancelarBorrarStats">Cancelar</button>' +
+        '</span></div>'
+      : '';
     return '<section class="seccion"><h3>3. Estadísticas y Copia de Seguridad · ' + esc(c.codigo) + '</h3>' +
-      '<p class="sub">Se guardan en este navegador. El % de acierto se calcula sobre las preguntas contestadas (el blanco no cuenta).</p>' +
+      '<p class="sub">Se guardan en este navegador de forma independiente por oposición. El % de acierto se calcula sobre las preguntas contestadas (el blanco no cuenta).</p>' +
       '<div class="tabla-wrap"><table class="est"><thead>' + CABECERA_EST + '</thead><tbody>' +
       filaEst('<strong>General</strong>', total) + bloques + '</tbody></table></div>' +
       '<details class="card" style="margin-top:12px"><summary><strong>Por tema (' + filasTemas.length + ' con respuestas)</strong></summary>' +
@@ -4871,7 +5047,7 @@
       '<button class="btn sec" type="button" data-backup="exportar">💾 Exportar progreso (.json)</button>' +
       '<button class="btn sec" type="button" data-backup="importar">📂 Importar progreso (.json)</button>' +
       '<button class="btn sec" type="button" data-gen="borrarStats">Borrar estadísticas</button>' +
-      '</div></section>';
+      '</div>' + confirmBorrarHtml + '</section>';
   }
 
   // ---------- Generación ----------
@@ -5033,22 +5209,39 @@
       '<button class="btn sec" type="button" data-gex="sig"' + (gen.i === n - 1 ? ' disabled' : '') + '>Siguiente</button></div>' +
       '<div class="chips" aria-label="Preguntas del examen">' + chips + '</div>' +
       '<div class="acciones"><button class="btn" type="button" data-gex="entregar">Entregar ' + (gen.simulacro ? 'simulacro' : 'examen') + '</button></div>' +
-      '<p class="sub">Cada acierto suma 1, cada fallo resta 1/3 y las preguntas en blanco no restan. En exámenes oficiales se excluyen automáticamente las anuladas y computan sus reservas activadas.</p>';
+      (gen.confirmarEntregar
+        ? '<div class="confirm-inline"><span>⚠️ Quedan <strong>' + blancos + '</strong> preguntas en blanco. ¿Confirmas la entrega del ' + (gen.simulacro ? 'simulacro' : 'examen') + '?</span>' +
+          '<span style="display:inline-flex;gap:8px">' +
+          '<button class="btn" type="button" data-gex="confirmarEntregar">Sí, entregar ahora</button>' +
+          '<button class="btn sec" type="button" data-gex="cancelarEntregar">Seguir respondiendo</button>' +
+          '</span></div>'
+        : '') +
+      '<p class="sub">Cada acierto suma 1, cada fallo resta 1/3 y las preguntas en blanco no restan. Atajos de teclado: <strong>1–4 / A–D</strong> para responder, <strong>← / →</strong> para navegar.</p>';
   }
 
   function seleccionarExamen(k) {
     gen.preguntas[gen.i].resp = k;
+    gen.confirmarEntregar = false;
     render();
   }
 
   function accionExamen(a, n) {
-    if (a === 'ir') gen.i = parseInt(n, 10);
-    else if (a === 'ant' && gen.i > 0) gen.i--;
-    else if (a === 'sig' && gen.i < gen.preguntas.length - 1) gen.i++;
-    else if (a === 'blanco') gen.preguntas[gen.i].resp = null;
-    else if (a === 'entregar') {
+    if (a === 'ir') { gen.i = parseInt(n, 10); gen.confirmarEntregar = false; }
+    else if (a === 'ant' && gen.i > 0) { gen.i--; gen.confirmarEntregar = false; }
+    else if (a === 'sig' && gen.i < gen.preguntas.length - 1) { gen.i++; gen.confirmarEntregar = false; }
+    else if (a === 'blanco') { gen.preguntas[gen.i].resp = null; gen.confirmarEntregar = false; }
+    else if (a === 'cancelarEntregar') { gen.confirmarEntregar = false; }
+    else if (a === 'confirmarEntregar') {
+      gen.confirmarEntregar = false;
+      terminarGen();
+      return;
+    } else if (a === 'entregar') {
       var bl = gen.preguntas.filter(function (p) { return p.resp === null && !p.anulada; }).length;
-      if (bl && !window.confirm('Quedan ' + bl + ' preguntas en blanco. ¿Entregar el examen?')) return;
+      if (bl > 0) {
+        gen.confirmarEntregar = true;
+        render();
+        return;
+      }
       terminarGen();
       return;
     }
@@ -5057,6 +5250,7 @@
 
   function terminarGen() {
     detenerCronometroSimulacro();
+    gen.confirmarEntregar = false;
     gen.preguntas.forEach(registrarPregunta);
     var r = resumenGen(gen.preguntas);
     registrarSesion(r);
@@ -5172,8 +5366,10 @@
     else if (a === 'simulacro') iniciarSimulacroOficialIAAP(null);
     else if (a === 'repetir') generarGen(gen.preguntas.filter(function (q) { return q.resp !== q.correcta; }));
     else if (a === 'siguiente') siguienteGen();
-    else if (a === 'salir' || a === 'configurar') { detenerCronometroSimulacro(); gen.fase = 'config'; render(); window.scrollTo(0, 0); }
-    else if (a === 'borrarStats') borrarStats();
+    else if (a === 'salir' || a === 'configurar') { detenerCronometroSimulacro(); gen.confirmarEntregar = false; gen.fase = 'config'; render(); window.scrollTo(0, 0); }
+    else if (a === 'borrarStats') borrarStats(false);
+    else if (a === 'confirmarBorrarStats') borrarStats(true);
+    else if (a === 'cancelarBorrarStats') { gen.confirmarBorrarStats = false; render(); }
   }
 
   function alCambiarRuta() {
@@ -5194,6 +5390,7 @@
     if (!el) return;
     if (el.dataset.cerrarModal) { cerrarModalNorma(); return; }
     if (el.dataset.toggleEnfoque) { alternarModoEnfoque(); return; }
+    if (el.dataset.toggleTema) { alternarTemaVisual(); return; }
     if (el.dataset.expandirEnfoque) {
       expandirTodoEnfoque = !expandirTodoEnfoque;
       var syEnf = window.scrollY;
@@ -5522,6 +5719,55 @@
     if (ev.altKey && (ev.key === 'f' || ev.key === 'F')) {
       ev.preventDefault();
       alternarModoEnfoque();
+      return;
+    }
+    if (!$modalNorma.hidden || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+    var tag = ev.target && ev.target.tagName ? ev.target.tagName.toUpperCase() : '';
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || (ev.target && ev.target.isContentEditable)) return;
+
+    var h = location.hash || '#/';
+    var idxTecla = { '1': 0, '2': 1, '3': 2, '4': 3, a: 0, b: 1, c: 2, d: 3 }[String(ev.key || '').toLowerCase()];
+
+    // Atajos en Test de Tema (#/test/...)
+    if (/^#\/test\/[a-z0-9]+$/.test(h) && estadoTest) {
+      var tKey = buscarTemaEnCuerpo(estadoTest.id);
+      var cKey = D.contenido[(tKey && tKey.id) || estadoTest.id];
+      if (cKey && cKey.test && estadoTest.i < cKey.test.length) {
+        if (idxTecla !== undefined && estadoTest.seleccion === null && idxTecla < cKey.test[estadoTest.i].opciones.length) {
+          ev.preventDefault();
+          responder(idxTecla);
+          return;
+        }
+        if ((ev.key === 'Enter' || ev.key === 'ArrowRight') && estadoTest.seleccion !== null) {
+          ev.preventDefault();
+          siguiente();
+          return;
+        }
+      }
+    }
+
+    // Atajos en Generador / Examen / Simulacro (#/generador en fase test)
+    if (h === '#/generador' && gen.fase === 'test' && gen.preguntas && gen.preguntas[gen.i]) {
+      var qAct = gen.preguntas[gen.i];
+      if (idxTecla !== undefined && idxTecla < (qAct.opciones || []).length) {
+        if (gen.modo === 'examen') {
+          ev.preventDefault();
+          seleccionarExamen(idxTecla);
+          return;
+        } else if (qAct.resp === null) {
+          ev.preventDefault();
+          responderGen(idxTecla);
+          return;
+        }
+      }
+      if (gen.modo === 'examen') {
+        if (ev.key === 'ArrowRight' && gen.i < gen.preguntas.length - 1) { ev.preventDefault(); accionExamen('sig'); return; }
+        if (ev.key === 'ArrowLeft' && gen.i > 0) { ev.preventDefault(); accionExamen('ant'); return; }
+      } else if ((ev.key === 'Enter' || ev.key === 'ArrowRight') && qAct.resp !== null) {
+        ev.preventDefault();
+        siguienteGen();
+        return;
+      }
     }
   });
 

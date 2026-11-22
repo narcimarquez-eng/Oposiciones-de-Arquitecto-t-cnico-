@@ -75,25 +75,41 @@ function barajar(arr, rnd) {
 const elegir = (arr, n, rnd) => barajar(arr, rnd).slice(0, n);
 
 // ---------- extracción de artículos desde datos/preceptos/<id>.js ----------
+const ABREV_RX = /\b(art|arts|núm|num|apdo|ap|pág|pag|p|pp|cap|sec|disp|tít|tit|vol|etc|ss|vid|cfr|ej|D|Dña|R\.D|RD|LO|CE|CC|CP|BOE|BOJA|DOUE|UE|nº|n\.º)\./gi;
+
 function primeraFrase(texto) {
   const t = String(texto || '')
     .replace(/^(?:\d+|Uno|Dos|Tres|Cuatro|Cinco|Seis|Siete|Ocho|Nueve|Diez)\s*\.\s*/i, '')
     .replace(/\s+/g, ' ')
     .trim();
-  const m = /^(.{20,175}?[a-záéíóúñ0-9)])[.;](?:\s|$)/.exec(t);
-  let f = m ? m[1].trim() : t;
-  if (f.length > 165) {
-    f = f.slice(0, 155).replace(/\s+\S*$/, '').replace(/\s*\([^)]*$/, '').trim() + '…';
+  if (!t) return '';
+  // Proteger abreviaturas jurídicas y decimales/números (p. ej. "art. 14", "1.º", "R.D. 1627/1997")
+  const protegido = t
+    .replace(ABREV_RX, (m) => m.slice(0, -1) + '\u0000')
+    .replace(/(\d)\.(\d)/g, '$1\u0000$2')
+    .replace(/(\d)\.(º|ª)/g, '$1\u0000$2');
+  const m = /^(.{25,240}?[a-záéíóúñ0-9)»"])[.;](?:\s|$)/.exec(protegido);
+  let f = m ? m[1].replace(/\u0000/g, '.').trim() : t;
+  if (f.length > 240) {
+    // No truncar a mitad de frase con puntos suspensivos: marcar para descarte limpio
+    return '';
   }
-  f = f.replace(/\(\s*(?:art|núm|apartado|pág)?$/i, '').trim();
+  // Verificar equilibrio de paréntesis y comillas
+  const openP = (f.match(/\(/g) || []).length;
+  const closeP = (f.match(/\)/g) || []).length;
+  const openG = (f.match(/«/g) || []).length;
+  const closeG = (f.match(/»/g) || []).length;
+  if (openP !== closeP || openG !== closeG) return '';
   return f;
 }
 
 function esFragmentoValido(txt) {
-  if (!txt || txt.length < 25) return false;
+  if (!txt || txt.length < 28 || txt.length > 240) return false;
+  if (/[…]$|\.\.\.$/.test(txt)) return false;
   if (/^[a-z]\)\s/i.test(txt)) return false;
-  if (/^(?:El art[ií]culo anterior|Lo dispuesto en el (?:apartado|art[ií]culo)|Se except[uú]a|En el caso previsto|A los efectos del apartado anterior|Igual norma regir[aá]|De acuerdo con lo previsto en los apartados anteriores)/i.test(txt)) return false;
+  if (/^(?:El art[ií]culo anterior|Lo dispuesto en el (?:apartado|art[ií]culo)|Se except[uú]a|En el caso previsto|A los efectos del apartado anterior|Igual norma regir[aá]|De acuerdo con lo previsto en los apartados anteriores|En todo caso,|Asimismo,|No obstante lo anterior)/i.test(txt)) return false;
   if (/derogad|suprimid|sin contenido/i.test(txt)) return false;
+  if (/\b(?:se|el|la|los|las|de|del|al|que|y|o|en|con|por|para)\s*$/i.test(txt)) return false;
   return true;
 }
 
@@ -115,7 +131,15 @@ function articulosDeLey(id) {
       if (vistos.has(num)) continue;
       const mTit = /^Art[ií]culo\s+[^.]+?\.\s*(.+)$/.exec(String(it.titulo || '').trim());
       let titulo = mTit ? mTit[1].replace(/\.$/, '').trim() : null;
-      if (titulo && (titulo.length > 100 || titulo.length < 5)) titulo = null;
+      if (
+        titulo &&
+        (titulo.length > 100 ||
+          titulo.length < 5 ||
+          (titulo.match(/«/g) || []).length !== (titulo.match(/»/g) || []).length ||
+          (titulo.match(/\(/g) || []).length !== (titulo.match(/\)/g) || []).length)
+      ) {
+        titulo = null;
+      }
       const frase = primeraFrase(it.texto || '');
       vistos.set(num, { num, titulo, frase });
     }

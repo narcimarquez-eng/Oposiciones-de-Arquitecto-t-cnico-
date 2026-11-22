@@ -57,10 +57,10 @@
     {
       "pregunta": "¿Qué mayoría exige la primera votación de investidura del Presidente de la Junta?",
       "opciones": [
-        "mayoría cualificada de tres quintos de sus miembros",
+        "Mayoría cualificada de tres quintos de sus miembros",
         "Mayoría absoluta",
-        "mayoría cualificada de dos tercios de los miembros de derecho de los miembros presentes en primera votación",
-        "dos tercios de los votos válidamente emitidos en la sesión"
+        "Mayoría cualificada de dos tercios de los miembros de derecho en primera votación",
+        "Dos tercios de los votos válidamente emitidos en la sesión"
       ],
       "correcta": 1,
       "explicacion": "En la primera votación se exige mayoría absoluta. Si no se obtiene, la nueva votación 48 horas después requiere solo mayoría simple.",
@@ -69,10 +69,10 @@
     {
       "pregunta": "¿Qué mayoría basta para otorgar la confianza en la cuestión de confianza?",
       "opciones": [
-        "mayoría absoluta de los miembros presentes y representados de los diputados",
-        "mayoría cualificada de dos tercios de los miembros de derecho de los diputados",
+        "Mayoría absoluta de los miembros presentes y representados de los diputados",
+        "Mayoría cualificada de dos tercios de los miembros de derecho de los diputados",
         "Mayoría simple de los diputados",
-        "tres quintos de los miembros asistentes a la convocatoria de los diputados"
+        "Tres quintos de los miembros asistentes a la convocatoria de los diputados"
       ],
       "correcta": 2,
       "explicacion": "La confianza se entiende otorgada cuando vota a favor la mayoría simple de los diputados.",
@@ -108,19 +108,19 @@
         "Tribunal Constitucional",
         "Audiencia Nacional",
         "Sala de lo Civil del Tribunal Supremo",
-        "TSJA"
+        "Sala de lo Civil y Penal del Tribunal Superior de Justicia de Andalucía (TSJA)"
       ],
       "correcta": 3,
-      "explicacion": "Para los delitos cometidos en el ámbito territorial de su jurisdicción, la responsabilidad penal de los Consejeros es exigible ante el TSJA (art. 122.1).",
-      "referencia": "Art. 122.1 Estatuto de Andalucía"
+      "explicacion": "Conforme al art. 122.1 del Estatuto de Autonomía para Andalucía y al art. 73.3.a) de la LOPJ, la responsabilidad penal de los Consejeros por delitos cometidos en el ámbito territorial de Andalucía es exigible ante la Sala de lo Civil y Penal del Tribunal Superior de Justicia de Andalucía (TSJA).",
+      "referencia": "Art. 122.1 Estatuto de Andalucía; art. 73.3.a) LOPJ"
     },
     {
       "pregunta": "¿Qué mayoría basta en la segunda votación para elegir al Presidente de la Junta?",
       "opciones": [
-        "mayoría absoluta de los miembros presentes y representados",
+        "Mayoría absoluta de los miembros presentes y representados",
         "Mayoría simple",
-        "mayoría cualificada de dos tercios de los miembros de derecho",
-        "tres quintos de los miembros asistentes a la convocatoria"
+        "Mayoría cualificada de dos tercios de los miembros de derecho",
+        "Tres quintos de los miembros asistentes a la convocatoria"
       ],
       "correcta": 1,
       "explicacion": "En la nueva votación basta mayoría simple.",
@@ -141,9 +141,9 @@
     {
       "pregunta": "¿Qué mayoría se exige para aprobar una cuestión de confianza?",
       "opciones": [
-        "mayoría absoluta de los miembros presentes y representados",
-        "mayoría cualificada de dos tercios de los miembros de derecho",
-        "tres quintos de los miembros asistentes a la convocatoria",
+        "Mayoría absoluta de los miembros presentes y representados",
+        "Mayoría cualificada de dos tercios de los miembros de derecho",
+        "Tres quintos de los miembros asistentes a la convocatoria",
         "Mayoría simple"
       ],
       "correcta": 3,
@@ -177,10 +177,10 @@
     {
       "pregunta": "¿Qué mayoría se exige para aprobar una moción de censura en Andalucía?",
       "opciones": [
-        "mayoría cualificada de tres quintos de sus miembros",
-        "mayoría cualificada de dos tercios de los miembros de derecho de los miembros presentes en primera votación",
+        "Mayoría cualificada de tres quintos de sus miembros",
+        "Mayoría cualificada de dos tercios de los miembros de derecho en primera votación",
         "Mayoría absoluta",
-        "dos tercios de los votos válidamente emitidos en la sesión"
+        "Dos tercios de los votos válidamente emitidos en la sesión"
       ],
       "correcta": 2,
       "explicacion": "La moción de censura requiere mayoría absoluta del Parlamento.",
@@ -213,10 +213,10 @@
     {
       "pregunta": "¿Quién debe elegir al Presidente de la Junta en la primera votación?",
       "opciones": [
-        "mayoría cualificada de tres quintos de sus miembros del Parlamento",
-        "mayoría cualificada de dos tercios de los miembros de derecho de los miembros presentes en primera votación del Parlamento",
+        "Mayoría cualificada de tres quintos de los miembros del Parlamento",
+        "Mayoría cualificada de dos tercios de los miembros de derecho en primera votación del Parlamento",
         "Mayoría absoluta del Parlamento",
-        "dos tercios de los votos válidamente emitidos en la sesión del Parlamento"
+        "Dos tercios de los votos válidamente emitidos en la sesión del Parlamento"
       ],
       "correcta": 2,
       "explicacion": "En la primera votación se exige mayoría absoluta del Parlamento.",
@@ -307,18 +307,6 @@
       "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
     },
     {
-      "pregunta": "En el ámbito de «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Elección del Presidente de la Junta (art. 118)), ¿qué establece la normativa respecto a «Es el mismo esquema de investidura que la Constitución»?",
-      "opciones": [
-        "Establece para el Presidente del Gobierno (art. 99.3 CE).",
-        "Establece la responsabilidad política del Consejo de Gobierno ante el Parlamento, que es solidaria, sin perjuicio de la responsabilidad directa de cada Consejero por su gestión.",
-        "Regula también la responsabilidad patrimonial de la Comunidad.",
-        "Es también órgano consultivo de otras entidades y corporaciones de derecho público no integradas en la Administración de la Junta, cuando las leyes sectoriales así lo prescriban."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «Es el mismo esquema de investidura que la Constitución» (Elección del Presidente de la Junta (art. 118)), la regulación vigente establece que: Establece para el Presidente del Gobierno (art. 99.3 CE).",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
       "pregunta": "En el ámbito de «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Funciones y poderes de la Presidencia (art. 117)), ¿qué establece la normativa respecto a «La delegación»?",
       "opciones": [
         "Es colegiada, pero la gestión de cada departamento sigue siendo individual.",
@@ -328,18 +316,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respecto a «La delegación» (Funciones y poderes de la Presidencia (art. 117)), la regulación vigente establece que: Es temporal, y se refiere a funciones ejecutivas propias.",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Funciones y poderes de la Presidencia (art. 117)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es temporal, y se refiere a funciones ejecutivas propias.»?",
-      "opciones": [
-        "La responsabilidad política.",
-        "Hay dos reglas de cautela.",
-        "Una ley del Parlamento.",
-        "La delegación."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Es temporal, y se refiere a funciones ejecutivas propias.») define o regula específicamente a «La delegación» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
       "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
     },
     {
@@ -367,18 +343,6 @@
       "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
     },
     {
-      "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Régimen jurídico y responsabilidad de los Consejeros (arts. 121, 122 y 124)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Establece la responsabilidad política del Consejo de Gobierno ante el Parlamento, que es solidaria, sin perjuicio de la responsabilidad directa de cada Consejero por su gestión.»?",
-      "opciones": [
-        "El mismo artículo.",
-        "El mismo precepto añade que el Consejo.",
-        "Su régimen concreto.",
-        "El artículo 124."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («Establece la responsabilidad política del Consejo de Gobierno ante el Parlamento, que es solidaria, sin perjuicio de la responsabilidad directa de cada Consejero por su gestión.») define o regula específicamente a «El artículo 124» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
       "pregunta": "En el ámbito de «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Régimen jurídico y responsabilidad de los Consejeros (arts. 121, 122 y 124)), ¿qué establece la normativa respecto a «La responsabilidad política»?",
       "opciones": [
         "Es colegiada, pero la gestión de cada departamento sigue siendo individual.",
@@ -388,18 +352,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respecto a «La responsabilidad política» (Régimen jurídico y responsabilidad de los Consejeros (arts. 121, 122 y 124)), la regulación vigente establece que: Es colegiada, pero la gestión de cada departamento sigue siendo individual.",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Régimen jurídico y responsabilidad de los Consejeros (arts. 121, 122 y 124)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es colegiada, pero la gestión de cada departamento sigue siendo individual.»?",
-      "opciones": [
-        "Hay dos reglas de cautela.",
-        "La responsabilidad política.",
-        "Una ley del Parlamento.",
-        "El artículo 97 CE."
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Es colegiada, pero la gestión de cada departamento sigue siendo individual.») define o regula específicamente a «La responsabilidad política» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
       "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
     },
     {
@@ -427,102 +379,6 @@
       "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
     },
     {
-      "pregunta": "En el ámbito de «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (La potestad expropiatoria y la responsabilidad patrimonial (art. 123)), ¿qué establece la normativa respecto a «El mismo artículo»?",
-      "opciones": [
-        "Regula también la responsabilidad patrimonial de la Comunidad.",
-        "Es también órgano consultivo de otras entidades y corporaciones de derecho público no integradas en la Administración de la Junta, cuando las leyes sectoriales así lo prescriban.",
-        "Corresponde a la normativa del propio Consejo de Gobierno y a la ley que regula el Gobierno andaluz.",
-        "Es comprobar que la moción la propone al menos una cuarta parte de los parlamentarios, y que incluye un candidato a la Presidencia de la Junta (art. 126.1)."
-      ],
-      "correcta": 0,
-      "explicacion": "Respecto a «El mismo artículo» (La potestad expropiatoria y la responsabilidad patrimonial (art. 123)), la regulación vigente establece que: Regula también la responsabilidad patrimonial de la Comunidad.",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "En el ámbito de «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (El control parlamentario: cuestión de confianza y moción de censura (arts. 125 y 126)), ¿qué establece la normativa respecto a «Hay dos reglas de cautela»?",
-      "opciones": [
-        "Regula su composición, competencia y funcionamiento.",
-        "Establece que el Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado, y ejerce la función ejecutiva y la potestad reglamentaria.",
-        "La moción no puede votarse hasta que transcurran cinco días desde su presentación, y si no se aprueba, sus signatarios no pueden presentar otra durante el mismo periodo de sesiones.",
-        "Regula en el apartado 2 del artículo 126, que conviene leer completo."
-      ],
-      "correcta": 2,
-      "explicacion": "Respecto a «Hay dos reglas de cautela» (El control parlamentario: cuestión de confianza y moción de censura (arts. 125 y 126)), la regulación vigente establece que: La moción no puede votarse hasta que transcurran cinco días desde su presentación, y si no se aprueba, sus signatarios no pueden presentar otra durante el mismo periodo de sesiones.",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (El control parlamentario: cuestión de confianza y moción de censura (arts. 125 y 126)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «La moción no puede votarse hasta que transcurran cinco días desde su presentación, y si no se aprueba, sus signatarios no pueden presentar otra durante el mismo periodo de sesiones.»?",
-      "opciones": [
-        "Una ley del Parlamento.",
-        "El artículo 97 CE.",
-        "El procedimiento para designar al nuevo Presidente se.",
-        "Hay dos reglas de cautela."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha determinación («La moción no puede votarse hasta que transcurran cinco días desde su presentación, y si no se aprueba, sus signatarios no pueden presentar otra durante el mismo periodo de sesiones.») define o regula específicamente a «Hay dos reglas de cautela» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "Dentro del estudio de «Régimen jurídico y responsabilidad de los Consejeros (arts. 121, 122 y 124)» (Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Establece que el régimen jurídico del Consejo de Gobierno y el estatuto de sus miembros se regulan por ley del Parlamento de Andalucía, que determinará las causas de incompatibilidad.»?",
-      "opciones": [
-        "La responsabilidad política.",
-        "El artículo 121.",
-        "El mismo artículo.",
-        "La moción de censura andaluza."
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha regulación («Establece que el régimen jurídico del Consejo de Gobierno y el estatuto de sus miembros se regulan por ley del Parlamento de Andalucía, que determinará las causas de incompatibilidad.») define o regula específicamente a «El artículo 121» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "Dentro del estudio de «La potestad expropiatoria y la responsabilidad patrimonial (art. 123)» (Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Es una técnica de limitación de la propiedad en el interés general.»?",
-      "opciones": [
-        "Hay dos reglas de cautela.",
-        "El mismo precepto añade que el Consejo.",
-        "La expropiación.",
-        "La autonomía orgánica y funcional."
-      ],
-      "correcta": 2,
-      "explicacion": "Dicha regulación («Es una técnica de limitación de la propiedad en el interés general.») define o regula específicamente a «La expropiación» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "Dentro del estudio de «La potestad expropiatoria y la responsabilidad patrimonial (art. 123)» (Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Regula también la responsabilidad patrimonial de la Comunidad.»?",
-      "opciones": [
-        "La moción de censura andaluza.",
-        "El mismo artículo.",
-        "Una ley del Parlamento.",
-        "Su régimen concreto."
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha regulación («Regula también la responsabilidad patrimonial de la Comunidad.») define o regula específicamente a «El mismo artículo» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "Dentro del estudio de «El control parlamentario: cuestión de confianza y moción de censura (arts. 125 y 126)» (Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.), ¿a qué concepto, órgano o figura corresponde la siguiente regulación: «Exige que la propongan la cuarta parte de los parlamentarios, mientras que la estatal (art. 113 CE) exige un décimo de los diputados.»?",
-      "opciones": [
-        "Una ley del Parlamento.",
-        "Su régimen concreto.",
-        "El Título IX del Estatuto.",
-        "La moción de censura andaluza."
-      ],
-      "correcta": 3,
-      "explicacion": "Dicha regulación («Exige que la propongan la cuarta parte de los parlamentarios, mientras que la estatal (art. 113 CE) exige un décimo de los diputados.») define o regula específicamente a «La moción de censura andaluza» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Control político y disolución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Se otorga con mayoría simple (art. 125.1).»?",
-      "opciones": [
-        "La delegación.",
-        "Cuestión de confianza.",
-        "La responsabilidad política.",
-        "Hay dos reglas de cautela."
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Se otorga con mayoría simple (art. 125.1).») define o regula específicamente a «Cuestión de confianza» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
       "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Control político y disolución), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Propuesta por una cuarta parte de los parlamentarios, con candidato, y mayoría absoluta (art. 126.1).»?",
       "opciones": [
         "El artículo 121.",
@@ -535,18 +391,6 @@
       "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
     },
     {
-      "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Elección del Presidente de la Junta (art. 118)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Establece para el Presidente del Gobierno (art. 99.3 CE).»?",
-      "opciones": [
-        "El artículo 124.",
-        "Es el mismo esquema de investidura que la Constitución.",
-        "El mismo artículo.",
-        "El mismo precepto añade que el Consejo."
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Establece para el Presidente del Gobierno (art. 99.3 CE).») define o regula específicamente a «Es el mismo esquema de investidura que la Constitución» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
       "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Régimen jurídico y responsabilidad de los Consejeros (arts. 121, 122 y 124)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Establece que el régimen jurídico del Consejo de Gobierno y el estatuto de sus miembros se regulan por ley del Parlamento de Andalucía, que determinará las causas de incompatibilidad.»?",
       "opciones": [
         "El artículo 121.",
@@ -556,18 +400,6 @@
       ],
       "correcta": 0,
       "explicacion": "Dicha determinación («Establece que el régimen jurídico del Consejo de Gobierno y el estatuto de sus miembros se regulan por ley del Parlamento de Andalucía, que determinará las causas de incompatibilidad.») define o regula específicamente a «El artículo 121» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (La potestad expropiatoria y la responsabilidad patrimonial (art. 123)), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula también la responsabilidad patrimonial de la Comunidad.»?",
-      "opciones": [
-        "El mismo precepto añade que el Consejo.",
-        "El mismo artículo.",
-        "Su régimen concreto.",
-        "El primer paso."
-      ],
-      "correcta": 1,
-      "explicacion": "Dicha determinación («Regula también la responsabilidad patrimonial de la Comunidad.») define o regula específicamente a «El mismo artículo» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
       "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
     },
     {
@@ -595,30 +427,6 @@
       "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
     },
     {
-      "pregunta": "En el ámbito de «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Las comisiones delegadas y la Comisión General de Viceconsejeros), ¿qué establece la normativa respecto a «Su régimen concreto»?",
-      "opciones": [
-        "Es comprobar que la moción la propone al menos una cuarta parte de los parlamentarios, y que incluye un candidato a la Presidencia de la Junta (art. 126.1).",
-        "Corresponde a la normativa del propio Consejo de Gobierno y a la ley que regula el Gobierno andaluz.",
-        "Es el Parlamento quien elige al Presidente de la Junta (art. 118.1), y el candidato lo propone el Presidente del Parlamento (art. 118.2).",
-        "Es la aprobación de una moción de censura (art. 120 y art. 126.1)."
-      ],
-      "correcta": 1,
-      "explicacion": "Respecto a «Su régimen concreto» (Las comisiones delegadas y la Comisión General de Viceconsejeros), la regulación vigente establece que: Corresponde a la normativa del propio Consejo de Gobierno y a la ley que regula el Gobierno andaluz.",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Las comisiones delegadas y la Comisión General de Viceconsejeros), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Corresponde a la normativa del propio Consejo de Gobierno y a la ley que regula el Gobierno andaluz.»?",
-      "opciones": [
-        "El primer paso.",
-        "En Andalucía.",
-        "Su régimen concreto.",
-        "La segunda."
-      ],
-      "correcta": 2,
-      "explicacion": "Dicha determinación («Corresponde a la normativa del propio Consejo de Gobierno y a la ley que regula el Gobierno andaluz.») define o regula específicamente a «Su régimen concreto» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
       "pregunta": "En el ámbito de «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Comparación con el Gobierno del Estado), ¿qué establece la normativa respecto a «El artículo 97 CE»?",
       "opciones": [
         "Regula en el apartado 2 del artículo 126, que conviene leer completo.",
@@ -628,18 +436,6 @@
       ],
       "correcta": 3,
       "explicacion": "Respecto a «El artículo 97 CE» (Comparación con el Gobierno del Estado), la regulación vigente establece que: Establece que el Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado, y ejerce la función ejecutiva y la potestad reglamentaria.",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Comparación con el Gobierno del Estado), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Establece que el Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado, y ejerce la función ejecutiva y la potestad reglamentaria.»?",
-      "opciones": [
-        "El artículo 97 CE.",
-        "El procedimiento para designar al nuevo Presidente se.",
-        "Para la mayoría de los delitos.",
-        "El Consejo Consultivo de Andalucía."
-      ],
-      "correcta": 0,
-      "explicacion": "Dicha determinación («Establece que el Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado, y ejerce la función ejecutiva y la potestad reglamentaria.») define o regula específicamente a «El artículo 97 CE» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
       "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
     },
     {
@@ -691,30 +487,6 @@
       "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
     },
     {
-      "pregunta": "En el ámbito de «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Caso práctico: la moción de censura y la sucesión), ¿qué establece la normativa respecto a «El procedimiento para designar al nuevo Presidente se»?",
-      "opciones": [
-        "Es competente la Sala de lo Penal del Tribunal Supremo, y para los cometidos en el territorio de la jurisdicción del TSJA, el propio Tribunal Superior de Justicia de Andalucía (art. 122.1).",
-        "Regula en el apartado 2 del artículo 126, que conviene leer completo.",
-        "Es el superior órgano consultivo del Consejo de Gobierno.",
-        "Sus dictámenes deben ser independientes del órgano que los solicita."
-      ],
-      "correcta": 1,
-      "explicacion": "Respecto a «El procedimiento para designar al nuevo Presidente se» (Caso práctico: la moción de censura y la sucesión), la regulación vigente establece que: Regula en el apartado 2 del artículo 126, que conviene leer completo.",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Caso práctico: la moción de censura y la sucesión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Regula en el apartado 2 del artículo 126, que conviene leer completo.»?",
-      "opciones": [
-        "Para la mayoría de los delitos.",
-        "El Consejo Consultivo de Andalucía.",
-        "El procedimiento para designar al nuevo Presidente se.",
-        "Por eso, la autonomía orgánica y funcional del Consejo es importante."
-      ],
-      "correcta": 2,
-      "explicacion": "Dicha determinación («Regula en el apartado 2 del artículo 126, que conviene leer completo.») define o regula específicamente a «El procedimiento para designar al nuevo Presidente se» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
       "pregunta": "En el ámbito de «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Caso práctico: la moción de censura y la sucesión), ¿qué establece la normativa respecto a «El tercer paso»?",
       "opciones": [
         "Es la negativa a una cuestión de confianza planteada por el Presidente (art. 125.2), que le obliga a presentar su dimisión.",
@@ -724,18 +496,6 @@
       ],
       "correcta": 3,
       "explicacion": "Respecto a «El tercer paso» (Caso práctico: la moción de censura y la sucesión), la regulación vigente establece que: Es lo que ocurre si la moción no se aprueba.",
-      "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
-    },
-    {
-      "pregunta": "Dentro de la materia «Organización Institucional de la Comunidad Autónoma de Andalucía (II): La Presidencia de la Junta de Andalucía: Elección, estatuto personal y funciones. El Consejo de Gobierno: Composición, carácter, atribuciones y funcionamiento. Las Comisiones Delegadas y la Comisión General de Viceconsejeros y Viceconsejeras. El Consejo Consultivo de Andalucía: Naturaleza, composición y funciones.» (Caso práctico: la moción de censura y la sucesión), ¿a qué concepto, órgano o figura corresponde la siguiente determinación: «Es lo que ocurre si la moción no se aprueba.»?",
-      "opciones": [
-        "El tercer paso.",
-        "La primera.",
-        "Su función principal.",
-        "El estatuto personal de los miembros del Consejo de Gobierno se."
-      ],
-      "correcta": 0,
-      "explicacion": "Dicha determinación («Es lo que ocurre si la moción no se aprueba.») define o regula específicamente a «El tercer paso» (Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)).",
       "referencia": "Ley Orgánica 2/2007, de 19 de marzo, de reforma del Estatuto de Autonomía para Andalucía (BOE núm. 68, de 20 de marzo de 2007)"
     },
     {

@@ -54,8 +54,8 @@
       "pregunta": "¿Qué plazo tiene el trámite de audiencia?",
       "opciones": [
         "Entre diez y diez días hábiles",
-        "Entre diez y cuarenta y cinco días naturales hábiles naturales",
-        "Entre diez y quince días naturales naturales",
+        "Entre diez y cuarenta y cinco días naturales",
+        "Entre diez y quince días naturales",
         "Entre diez y quince días"
       ],
       "correcta": 3,
@@ -65,10 +65,10 @@
     {
       "pregunta": "¿Cuál es el plazo para declarar la caducidad en un procedimiento paralizado por causa del interesado?",
       "opciones": [
-        "tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación",
-        "dos meses contados desde la entrada en el registro del órgano competente",
+        "Tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación",
+        "Dos meses contados desde la entrada en el registro del órgano competente",
         "Tres meses",
-        "un mes improrrogable desde la presentación de la solicitud"
+        "Un mes improrrogable desde la presentación de la solicitud"
       ],
       "correcta": 2,
       "explicacion": "El art. 95.1 LPAC establece que, transcurridos tres meses desde la advertencia, se produce la caducidad del procedimiento.",
@@ -150,9 +150,9 @@
       "pregunta": "¿En qué plazo caduca un procedimiento iniciado de oficio sin resolución, en el caso general?",
       "opciones": [
         "Tres meses",
-        "tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación",
-        "dos meses contados desde la entrada en el registro del órgano competente",
-        "un mes improrrogable desde la presentación de la solicitud"
+        "Tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación",
+        "Dos meses contados desde la entrada en el registro del órgano competente",
+        "Un mes improrrogable desde la presentación de la solicitud"
       ],
       "correcta": 0,
       "explicacion": "En el caso general, el procedimiento de oficio caduca a los tres meses.",
@@ -209,10 +209,10 @@
     {
       "pregunta": "¿Qué plazo máximo se aplica por defecto cuando no existe plazo específico para resolver?",
       "opciones": [
-        "tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación",
+        "Tres meses prorrogables por otros tres meses desde la fecha del acuerdo de iniciación",
         "Tres meses",
-        "dos meses contados desde la entrada en el registro del órgano competente",
-        "un mes improrrogable desde la presentación de la solicitud"
+        "Dos meses contados desde la entrada en el registro del órgano competente",
+        "Un mes improrrogable desde la presentación de la solicitud"
       ],
       "correcta": 1,
       "explicacion": "Cuando no hay plazo específico, el plazo máximo para resolver es de tres meses.",

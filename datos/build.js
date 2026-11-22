@@ -87,9 +87,9 @@ for (const f of ficheros) {
     }
   }
 
-  // test
-  if (!Array.isArray(t.test) || t.test.length !== 60) {
-    err(`${p} test: se esperan exactamente 60 preguntas y hay ${t.test ? t.test.length : 0}`);
+  // test (mínimo 40 preguntas verificadas de calidad por tema)
+  if (!Array.isArray(t.test) || t.test.length < 40) {
+    err(`${p} test: se esperan al menos 40 preguntas verificadas y hay ${t.test ? t.test.length : 0}`);
   } else {
     const preguntas = new Set();
     const posiciones = [0, 0, 0, 0];
@@ -110,9 +110,20 @@ for (const f of ficheros) {
       }
       if (!esTextoNoVacio(q.explicacion)) err(`${pq} sin explicación`);
       if (!esTextoNoVacio(q.referencia)) err(`${pq} sin referencia legal`);
+      for (const txt of [q.pregunta, ...(q.opciones || [])]) {
+        const s = String(txt || '');
+        if ((s.match(/«/g) || []).length !== (s.match(/»/g) || []).length) {
+          err(`${pq} comillas latinas («») desequilibradas`);
+          break;
+        }
+        if (/Criterio aplicativo especial/i.test(s)) {
+          err(`${pq} contiene etiqueta interna no depurada`);
+          break;
+        }
+      }
     });
     const max = Math.max(...posiciones);
-    if (max > 22) aviso(`${p} la posición correcta se repite demasiado: ${posiciones.join('/')}`);
+    if (max > Math.ceil(t.test.length * 0.42)) aviso(`${p} la posición correcta se repite demasiado: ${posiciones.join('/')}`);
   }
 
   for (const l of t.leyes || []) {
