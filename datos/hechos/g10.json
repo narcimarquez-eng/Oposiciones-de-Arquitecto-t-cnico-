@@ -358,5 +358,137 @@
     "correcta": 1,
     "explicacion": "Respecto a «Actuación administrativa automatizada (art. 40 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: No cabrá realizar mediante actuación administrativa automatizada actividades que supongan juicios de valor.",
     "referencia": "Art. 40 de Administración electrónica"
+  },
+  {
+    "pregunta": "En una hoja de cálculo (LibreOffice Calc / Microsoft Excel), si la celda C2 contiene la fórmula =$A2*B$1 y se copia hacia abajo a C3 y hacia la derecha a D2, ¿qué fórmulas aparecerán en C3 y en D2 respectivamente?",
+    "opciones": [
+      "En C3: =$A2*B$2; en D2: =$B2*B$1",
+      "En C3: =$A3*B$2; en D2: =$B2*C$1",
+      "En C3: =$A2*B$1; en D2: =$A2*B$1",
+      "En C3: =$A3*B$1; en D2: =$A2*C$1"
+    ],
+    "correcta": 3,
+    "explicacion": "El signo $ fija la columna o fila que precede. En $A2 está fija la columna A y la fila 2 es relativa (al bajar a C3 pasa a $A3; al ir a la derecha a D2 sigue siendo $A2). En B$1 la columna B es relativa y la fila 1 es fija (al bajar a C3 sigue B$1; al ir a la derecha a D2 pasa a C$1).",
+    "referencia": "Referencias absolutas, relativas y mixtas (Calc / Excel)"
+  },
+  {
+    "pregunta": "En LibreOffice Calc o Microsoft Excel, ¿qué ocurre si se utiliza la función =BUSCARV(E2; A2:C100; 3; FALSO) (o 0 como cuarto argumento) y el valor de E2 no existe exactamente en la columna A?",
+    "opciones": [
+      "Busca automáticamente en la columna C en lugar de la columna A",
+      "Devuelve el error #N/D (o #N/A) porque el cuarto argumento FALSO/0 exige coincidencia exacta",
+      "Devuelve automáticamente el valor inmediatamente inferior de la columna A aunque la tabla no esté ordenada",
+      "Devuelve el número 0 sin mostrar ningún mensaje de error"
+    ],
+    "correcta": 1,
+    "explicacion": "Cuando el cuarto parámetro de BUSCARV es FALSO (o 0), exige coincidencia exacta en la primera columna del rango; si no encuentra el valor, devuelve #N/D (que suele envolverse con SI.ERROR). Con VERDADERO (o 1) hace búsqueda aproximada exigiendo orden ascendente.",
+    "referencia": "Funciones de búsqueda en hojas de cálculo (Calc / Excel)"
+  },
+  {
+    "pregunta": "En una hoja de cálculo administrativa con 500 expedientes, ¿qué función devuelve el número de filas que cumplen simultáneamente dos condiciones (por ejemplo, Provincia = \"Sevilla\" e Importe > 15000)?",
+    "opciones": [
+      "CONTAR.SI",
+      "CONTARA",
+      "SUMAR.SI",
+      "CONTAR.SI.CONJUNTO"
+    ],
+    "correcta": 3,
+    "explicacion": "CONTAR.SI solo admite un único criterio; CONTAR.SI.CONJUNTO evalúa múltiples rangos y criterios simultáneos (con lógica Y). CONTARA cuenta celdas no vacías y SUMAR.SI suma valores con un criterio.",
+    "referencia": "Funciones estadísticas y condicionales (Calc / Excel)"
+  },
+  {
+    "pregunta": "En un procesador de textos (LibreOffice Writer / Microsoft Word), ¿cuál es la forma técnicamente correcta de generar de manera automática un índice o tabla de contenido actualizable en un informe administrativo extenso?",
+    "opciones": [
+      "Utilizar exclusivamente la herramienta de combinación de correspondencia",
+      "Aplicar estilos de título jerárquicos (Título 1, Título 2, Título 3) a los epígrafes e insertar el campo de Tabla de contenido / Sumario",
+      "Aplicar manualmente negrita y tamaño de fuente 14 a cada epígrafe sin usar estilos de párrafo",
+      "Escribir el índice manualmente en una tabla de dos columnas al principio del documento"
+    ],
+    "correcta": 1,
+    "explicacion": "Los sumarios o tablas de contenido automáticas detectan los niveles de esquema asociados a los estilos de Título (Título 1, Título 2, etc.), permitiendo actualizar títulos y numeración de páginas con un clic y generar marcadores al exportar a PDF.",
+    "referencia": "Estilos y tablas de contenido (Writer / Word)"
+  },
+  {
+    "pregunta": "¿Qué dos elementos imprescindibles se combinan en la herramienta «Combinación de correspondencia» (Mail Merge) de Writer o Word para emitir 200 notificaciones administrativas personalizadas?",
+    "opciones": [
+      "Dos documentos PDF cifrados con firma electrónica y un archivo de macros en Python",
+      "Una tabla dinámica de Calc y una presentación de diapositivas vinculada",
+      "Un índice alfabético y un diccionario ortográfico personalizado",
+      "Un documento principal con el texto común y campos de combinación, y un origen de datos (hoja de cálculo, base de datos o tabla) con los registros individuales"
+    ],
+    "correcta": 3,
+    "explicacion": "La combinación de correspondencia une un documento modelo (con el texto fijo y los marcadores de campo como nombre, NIF o expediente) con un origen de datos estructurado (hoja Calc/Excel, CSV o base de datos), generando un documento personalizado por cada registro.",
+    "referencia": "Combinación de correspondencia (Writer / Word)"
+  },
+  {
+    "pregunta": "En Microsoft Word o LibreOffice Writer, ¿para qué sirve insertar un «salto de sección» (o estilo de página distinto en Writer) en lugar de un simple «salto de página»?",
+    "opciones": [
+      "Reduce a la mitad el tamaño del archivo al eliminar las imágenes incrustadas",
+      "Permite cambiar el diseño de página en una parte del documento (por ejemplo, poner una página concreta en orientación horizontal o cambiar encabezados y numeración) sin alterar el resto del documento",
+      "Sirve únicamente para añadir una línea en blanco adicional antes de un párrafo",
+      "Bloquea la edición del texto anterior impidiendo que otros usuarios puedan corregirlo"
+    ],
+    "correcta": 1,
+    "explicacion": "Un salto de página solo fuerza el paso a la página siguiente manteniendo la misma configuración; un salto de sección (o cambio de estilo de página en Writer) permite modificar orientación, márgenes, columnas, encabezados/pies o reinicio de numeración de forma independiente.",
+    "referencia": "Maquetación de documentos (Writer / Word)"
+  },
+  {
+    "pregunta": "En LibreOffice Calc o Microsoft Excel, ¿qué resultado devuelve la fórmula =SI(Y(A1>=5; B1>=5); \"Apto\"; \"No apto\") si la celda A1 vale 7 y la celda B1 vale 4?",
+    "opciones": [
+      "No apto",
+      "Apto",
+      "#VALOR!",
+      "VERDADERO"
+    ],
+    "correcta": 0,
+    "explicacion": "La función lógica Y() solo devuelve VERDADERO si TODAS las condiciones se cumplen a la vez. Como B1=4 no cumple B1>=5, Y() devuelve FALSO y la función SI() retorna su tercer argumento: \"No apto\".",
+    "referencia": "Funciones lógicas SI e Y (Calc / Excel)"
+  },
+  {
+    "pregunta": "En una hoja de cálculo (Calc / Excel), ¿qué diferencia existe entre las funciones CONTAR(A1:A10) y CONTARA(A1:A10) cuando el rango contiene 4 números, 3 celdas de texto y 3 celdas vacías?",
+    "opciones": [
+      "Ambas funciones devuelven 10 porque el rango tiene diez celdas",
+      "CONTARA solo cuenta celdas que contengan la letra A",
+      "CONTAR devuelve 4 (solo cuenta celdas con valores numéricos o fechas) y CONTARA devuelve 7 (cuenta todas las celdas no vacías, incluidos textos y números)",
+      "CONTAR devuelve 7 y CONTARA devuelve 4"
+    ],
+    "correcta": 2,
+    "explicacion": "CONTAR cuenta únicamente las celdas que contienen valores numéricos (incluidas fechas/horas, que internamente son números); CONTARA cuenta todas las celdas no vacías (números, textos, errores o fórmulas que devuelvan texto); CONTAR.BLANCO cuenta las vacías.",
+    "referencia": "Funciones estadísticas CONTAR y CONTARA (Calc / Excel)"
+  },
+  {
+    "pregunta": "En una tabla dinámica (Pivot Table) de Excel o LibreOffice Calc, ¿qué ocurre si se modifican los datos numéricos de la tabla de origen?",
+    "opciones": [
+      "La tabla dinámica no refleja el cambio automáticamente hasta que el usuario ejecuta la acción de «Actualizar» (o configura la actualización al abrir el archivo)",
+      "La tabla dinámica se borra por completo y obliga a diseñarla desde cero",
+      "Los cambios en la tabla de origen quedan bloqueados e impedidos mientras exista una tabla dinámica",
+      "Los valores de la tabla de origen se sobrescriben automáticamente con los totales de la tabla dinámica"
+    ],
+    "correcta": 0,
+    "explicacion": "Las tablas dinámicas operan sobre una caché interna de datos; tras modificar los datos fuente es necesario pulsar Actualizar (Refresh) para recalcular los resúmenes y gráficos dinámicos asociados.",
+    "referencia": "Tablas dinámicas en hojas de cálculo (Calc / Excel)"
+  },
+  {
+    "pregunta": "En un procesador de textos (Word / Writer), ¿qué ventaja práctica tiene utilizar una «plantilla» (.dotx / .ott) para los modelos oficiales de resoluciones de una unidad administrativa?",
+    "opciones": [
+      "Sobrescribe siempre el archivo original de plantilla cada vez que el usuario pulsa Guardar",
+      "Solo sirve para insertar fotografías pero no conserva estilos de párrafo ni márgenes",
+      "Al abrir la plantilla se crea automáticamente un documento nuevo sin título con los estilos, encabezados, escudos y estructura predefinidos, manteniendo intacto el archivo modelo original",
+      "Impide que el texto del documento pueda guardarse en formato PDF"
+    ],
+    "correcta": 2,
+    "explicacion": "Las plantillas (.dotx en Word, .ott en Writer) sirven de molde corporativo: al abrirlas normalmente generan una copia nueva («Documento 1» / «Sin título 1»), preservando intacta la identidad visual, estilos, encabezados y campos del modelo base.",
+    "referencia": "Plantillas en procesadores de texto (Writer / Word)"
+  },
+  {
+    "pregunta": "En Microsoft Word o LibreOffice Writer, ¿para qué se emplea la herramienta «Control de cambios» en la tramitación de borradores normativos o informes compartidos entre varios funcionarios?",
+    "opciones": [
+      "Para registrar de forma visible todas las inserciones, eliminaciones y cambios de formato realizados por cada revisor (con autor y fecha), permitiendo posteriormente aceptar o rechazar cada modificación individualmente",
+      "Para cifrar el documento con contraseña e impedir que nadie pueda leerlo",
+      "Para comprobar únicamente la ortografía en idiomas extranjeros",
+      "Para convertir automáticamente el texto en una hoja de cálculo"
+    ],
+    "correcta": 0,
+    "explicacion": "El Control de cambios (Track Changes) registra con marcas visuales, autoría y fecha/hora cada edición efectuada en un borrador compartido, facilitando la revisión colegiada y la aceptación o rechazo selectivo antes de la versión definitiva.",
+    "referencia": "Revisión y control de cambios (Writer / Word)"
   }
 ]

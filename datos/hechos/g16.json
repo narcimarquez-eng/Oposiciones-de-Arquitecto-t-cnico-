@@ -358,5 +358,89 @@
     "correcta": 1,
     "explicacion": "Respecto a «Obligaciones tributarias accesorias (art. 25 Ley General Tributaria)» (Articulado de Ley General Tributaria), la regulación vigente establece que: Las sanciones tributarias no tienen la consideración de obligaciones accesorias.",
     "referencia": "Art. 25 de Ley General Tributaria"
+  },
+  {
+    "pregunta": "Conforme al artículo 2.2 de la Ley 58/2003, General Tributaria (LGT), ¿qué diferencia esencial separa una «tasa» de una «contribución especial»?",
+    "opciones": [
+      "La tasa no tiene contraprestación individualizable y la contribución especial grava exclusivamente la renta del trabajo",
+      "La contribución especial es voluntaria para el ciudadano y la tasa siempre es un impuesto indirecto",
+      "Las tasas solo pueden ser creadas por el Estado y las contribuciones especiales solo por la Unión Europea",
+      "La tasa grava la utilización privativa o aprovechamiento especial del dominio público o la prestación de servicios/actividades públicas que afecten de modo particular al obligado; la contribución especial grava la obtención de un beneficio o aumento de valor de sus bienes por la realización de obras públicas o el establecimiento/ampliación de servicios públicos"
+    ],
+    "correcta": 3,
+    "explicacion": "El art. 2.2 LGT clasifica los tributos en tasas (uso del dominio público o servicios públicos de recepción obligatoria o no prestados por el sector privado), contribuciones especiales (beneficio o aumento de valor de bienes del obligado por obra pública o establecimiento/ampliación de servicios) e impuestos (sin contraprestación, ligados a capacidad económica).",
+    "referencia": "Art. 2.2 Ley 58/2003 General Tributaria (LGT)"
+  },
+  {
+    "pregunta": "Según el artículo 66 de la Ley 58/2003 (LGT), ¿cuál es el plazo general de prescripción del derecho de la Administración para determinar la deuda tributaria mediante la oportuna liquidación y para exigir el pago de deudas liquidadas?",
+    "opciones": [
+      "Diez años",
+      "Cuatro años",
+      "Cinco años",
+      "Tres años"
+    ],
+    "correcta": 1,
+    "explicacion": "El art. 66 LGT establece el plazo general de prescripción de 4 años para liquidar, exigir el pago, solicitar devoluciones y obtener devoluciones (sin perjuicio del plazo de 10 años del art. 66 bis para comprobar bases/cuotas compensadas o deducciones pendientes).",
+    "referencia": "Art. 66 Ley 58/2003 General Tributaria (LGT)"
+  },
+  {
+    "pregunta": "De acuerdo con el artículo 27.2 de la Ley 58/2003 (LGT, tras la reforma de la Ley 11/2021), ¿cómo se calcula el recargo por declaración extemporánea sin requerimiento previo si el contribuyente presenta la autoliquidación con un retraso de hasta 12 meses?",
+    "opciones": [
+      "Un recargo fijo del 5 % hasta 3 meses, 10 % hasta 6 meses, 15 % hasta 12 meses y 20 % pasado el año",
+      "Una sanción fija del 50 % de la cuota dejada de ingresar desde el primer día de retraso",
+      "No existe recargo alguno si el retraso es inferior a seis meses",
+      "Un recargo del 1 % más otro 1 % adicional por cada mes completo de retraso con que se presente la autoliquidación, sin intereses de demora ni sanciones; superados los 12 meses, el recargo es del 15 % más intereses de demora desde el día siguiente a los 12 meses"
+    ],
+    "correcta": 3,
+    "explicacion": "La Ley 11/2021 modificó el art. 27.2 LGT sustituyendo los antiguos tramos (5/10/15/20 %) por un sistema creciente mensual: 1 % inicial + 1 % por cada mes completo de retraso hasta los 12 meses (sin intereses ni sanción), y a partir de los 12 meses un 15 % más intereses de demora desde el día siguiente al término de los 12 meses.",
+    "referencia": "Art. 27.2 LGT (redacción Ley 11/2021)"
+  },
+  {
+    "pregunta": "Conforme al artículo 28 de la Ley 58/2003 (LGT), ¿cuáles son los tres tipos de recargos del período ejecutivo y sus porcentajes respectivos?",
+    "opciones": [
+      "Recargo voluntario (5 %), recargo forzoso (15 %) y recargo judicial (30 %)",
+      "Recargo ejecutivo (5 %), recargo de apremio reducido (10 %) y recargo de apremio ordinario (20 %)",
+      "Recargo leve (3 %), recargo grave (15 %) y recargo muy grave (50 %)",
+      "Recargo inicial (1 %), recargo intermedio (10 %) y recargo final (25 %)"
+    ],
+    "correcta": 1,
+    "explicacion": "El art. 28 LGT fija: recargo ejecutivo del 5 % (pago antes de notificarse la providencia de apremio, sin intereses); recargo de apremio reducido del 10 % (pago dentro del plazo del art. 62.5 tras la providencia de apremio, sin intereses); y recargo de apremio ordinario del 20 % (cuando no concurren los anteriores, compatible con intereses de demora).",
+    "referencia": "Art. 28 Ley 58/2003 General Tributaria (LGT)"
+  },
+  {
+    "pregunta": "Según el artículo 150.1 de la Ley 58/2003 (LGT), ¿cuál es el plazo general máximo de duración de las actuaciones del procedimiento de inspección tributaria?",
+    "opciones": [
+      "Seis meses improrrogables con carácter único para todos los contribuyentes",
+      "Doce meses ampliables discrecionalmente hasta cinco años por el inspector actuario",
+      "Tres meses desde la comunicación de inicio, con caducidad automática si se supera",
+      "Dieciocho meses con carácter general, o veintisiete meses cuando concurran determinadas circunstancias (como cifra anual de negocios igual o superior a la requerida para auditar cuentas o integración en grupo fiscal consolidado)"
+    ],
+    "correcta": 3,
+    "explicacion": "El art. 150.1 LGT establece un plazo general de 18 meses para las actuaciones inspectoras y un plazo especial de 27 meses en supuestos de mayor complejidad (volumen de negocio obligado a auditoría o grupos de consolidación fiscal/IVA). Su incumplimiento no produce caducidad del procedimiento, pero elimina el efecto interruptivo de la prescripción del inicio.",
+    "referencia": "Art. 150.1 Ley 58/2003 General Tributaria (LGT)"
+  },
+  {
+    "pregunta": "¿Qué agencia tiene encomendada en Andalucía la aplicación efectiva de los tributos propios y de los tributos estatales cedidos gestionados por la Comunidad Autónoma (Ley 23/2007 y Ley 5/2021 de Tributos Cedidos de Andalucía)?",
+    "opciones": [
+      "El Tribunal Económico-Administrativo Central exclusivamente",
+      "La Agencia Tributaria de Andalucía (ATRIAN), agencia de régimen especial adscrita a la Consejería competente en materia de Hacienda",
+      "La Cámara de Cuentas de Andalucía",
+      "La Intervención General de la Junta de Andalucía"
+    ],
+    "correcta": 1,
+    "explicacion": "La Agencia Tributaria de Andalucía (ATRIAN), creada por la Ley 23/2007 como agencia de régimen especial, gestiona, liquida, recauda e inspecciona los tributos propios de la Comunidad Autónoma y los tributos estatales cedidos cuya gestión corresponde a Andalucía (ITP-AJD, Sucesiones y Donaciones, Patrimonio, Tributos sobre el Juego, etc.).",
+    "referencia": "Ley 23/2007 ATRIAN / Ley 5/2021 Tributos Cedidos de Andalucía"
+  },
+  {
+    "pregunta": "Conforme al artículo 107 del TRLGHP de Andalucía (DL 1/2010), ¿qué órgano forma la Cuenta General de la Comunidad Autónoma de Andalucía y en qué plazo debe rendirse a la Cámara de Cuentas?",
+    "opciones": [
+      "La forma directamente el Parlamento de Andalucía y se rinde antes del 31 de enero del año siguiente",
+      "La forma cada Consejería de manera separada sin consolidación contable alguna",
+      "La forma la Tesorería General y se remite únicamente al Ministerio de Hacienda cada dos años",
+      "La forma la Intervención General de la Junta de Andalucía, la aprueba/acuerda su remisión el Consejo de Gobierno y se rinde a la Cámara de Cuentas antes del 31 de octubre del año siguiente al ejercicio cerrado"
+    ],
+    "correcta": 3,
+    "explicacion": "Conforme a los arts. 106 y 107 TRLGHP de Andalucía, la Intervención General forma la Cuenta General de cada ejercicio y, una vez elevada al Consejo de Gobierno, se remite a la Cámara de Cuentas de Andalucía antes del 31 de octubre del año siguiente al que corresponda.",
+    "referencia": "Arts. 106 y 107 TRLGHP Andalucía (DL 1/2010)"
   }
 ]

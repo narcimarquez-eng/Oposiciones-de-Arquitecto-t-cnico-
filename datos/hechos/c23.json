@@ -358,5 +358,65 @@
     "correcta": 1,
     "explicacion": "Respecto a «Tipología de sistemas de información» (Claves para el examen), la regulación vigente establece que: TPS (operativo), MIS (táctico), DSS y EIS (estratégico).",
     "referencia": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (BOE núm. 236, de 2 de octubre de 2015)"
+  },
+  {
+    "pregunta": "En los Sistemas de Gestión de Bases de Datos (SGBD) relacionales, ¿qué significan las cuatro propiedades ACID que garantizan la fiabilidad de las transacciones?",
+    "opciones": [
+      "Atomicidad, Consistencia, Aislamiento (Isolation) y Durabilidad",
+      "Acceso, Compresión, Indexación y Descarga",
+      "Autenticación, Cifrado, Integridad y Disponibilidad",
+      "Automatización, Control, Interoperabilidad y Distribución"
+    ],
+    "correcta": 0,
+    "explicacion": "Las propiedades ACID aseguran transacciones fiables: Atomicidad (todo o nada), Consistencia (de un estado válido a otro válido respetando restricciones), Aislamiento (las transacciones concurrentes no interfieren indebidamente) y Durabilidad (una vez confirmada con COMMIT, persiste ante fallos).",
+    "referencia": "Sistemas de Gestión de Bases de Datos (SGBD)"
+  },
+  {
+    "pregunta": "En el diseño de bases de datos relacionales, ¿qué garantiza la regla de «integridad referencial» asociada a una clave foránea (Foreign Key)?",
+    "opciones": [
+      "Que ningún usuario puede realizar consultas SELECT sobre dos tablas al mismo tiempo",
+      "Que los datos se comprimen automáticamente para reducir el tamaño de la base de datos",
+      "Que todo valor no nulo de una clave foránea en una tabla hija debe coincidir necesariamente con un valor existente de la clave primaria en la tabla padre referenciada",
+      "Que todas las columnas de una tabla deben contener exclusivamente números enteros positivos"
+    ],
+    "correcta": 2,
+    "explicacion": "La integridad referencial impide registros huérfanos asegurando la coherencia entre tablas relacionadas: no se puede referenciar un identificador padre inexistente ni borrar/modificar el padre dejando referencias rotas (salvo reglas ON DELETE CASCADE / SET NULL).",
+    "referencia": "Modelo relacional e integridad referencial (SGBD)"
+  },
+  {
+    "pregunta": "¿Qué diferencia existe entre un sistema transaccional (OLTP) y un sistema de ayuda a la toma de decisiones / almacén de datos (OLAP / Data Warehouse)?",
+    "opciones": [
+      "OLTP gestiona grandes volúmenes de operaciones cotidianas en tiempo real (altas, bajas, modificaciones), mientras que OLAP analiza grandes volúmenes de datos históricos agregados para consultas multidimensionales e informes directivos",
+      "OLAP está diseñado exclusivamente para registrar nóminas diarias y OLTP solo para gráficos estadísticos anuales",
+      "OLTP prohíbe el uso de bases de datos relacionales y OLAP prohíbe el uso de tablas",
+      "Ambos sistemas son incompatibles entre sí y nunca pueden intercambiarse datos mediante procesos ETL"
+    ],
+    "correcta": 0,
+    "explicacion": "Los sistemas OLTP soportan la operativa diaria transaccional (p. ej. registro de expedientes o contabilidad en tiempo real); los sistemas OLAP/BI consolidan datos históricos vía procesos ETL para análisis multidimensional y apoyo a la toma de decisiones.",
+    "referencia": "Tipología de sistemas de información (OLTP vs OLAP)"
+  },
+  {
+    "pregunta": "En el lenguaje SQL estándar, ¿qué diferencia funcional existe entre las cláusulas WHERE y HAVING en una consulta SELECT con agrupamiento (GROUP BY)?",
+    "opciones": [
+      "WHERE solo funciona con textos y HAVING exclusivamente con fechas",
+      "Ambas cláusulas son sinónimas y pueden intercambiarse libremente con funciones de agregación",
+      "WHERE filtra filas individuales antes de realizar la agrupación, mientras que HAVING filtra los grupos resultantes tras aplicar funciones de agregación (como COUNT o SUM)",
+      "HAVING se ejecuta antes que FROM y WHERE solo sirve para ordenar alfabéticamente el resultado"
+    ],
+    "correcta": 2,
+    "explicacion": "En el orden lógico de evaluación de SQL, WHERE filtra registros individuales antes del GROUP BY (no admite funciones agregadas), mientras que HAVING filtra los grupos ya formados evaluando condiciones sobre agregaciones (p. ej. HAVING COUNT(*) > 5).",
+    "referencia": "Lenguaje SQL en SGBD relacionales"
+  },
+  {
+    "pregunta": "En un sistema operativo multitarea, ¿cuál es la función del planificador (scheduler) del núcleo (kernel)?",
+    "opciones": [
+      "Decidir qué proceso o hilo en estado de listo obtiene el uso de la CPU en cada instante y durante cuánto tiempo según algoritmos de planificación y prioridades",
+      "Traducir documentos de procesador de textos a formato PDF",
+      "Gestionar exclusivamente la conexión física del cable de red Ethernet",
+      "Realizar copias de seguridad automáticas en la nube cada medianoche"
+    ],
+    "correcta": 0,
+    "explicacion": "El planificador (scheduler) del sistema operativo asigna los núcleos de la CPU entre los procesos e hilos listos para ejecución (mediante algoritmos como Round-Robin, colas multinivel con prioridades, CFS en Linux, etc.) optimizando rendimiento y tiempo de respuesta.",
+    "referencia": "Fundamentos de Sistemas Operativos"
   }
 ]

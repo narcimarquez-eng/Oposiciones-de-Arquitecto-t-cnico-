@@ -358,5 +358,149 @@
     "correcta": 1,
     "explicacion": "Dicha determinación («2.º Archivo de la Real Chancillería de Granada.») define o regula específicamente a «Archivos de la Junta de Andalucía (art. 41 Ley de Documentos)» (Art. 41 de Ley de Documentos).",
     "referencia": "Art. 41 de Ley de Documentos"
+  },
+  {
+    "pregunta": "Conforme al ciclo vital de los documentos regulado en la Ley 7/2011, de Documentos, Archivos y Patrimonio Documental de Andalucía (LDAPA), ¿cuál es el orden correcto de las cuatro fases o tipos de archivos administrativos?",
+    "opciones": [
+      "Archivo de oficina (o de gestión), archivo central, archivo intermedio y archivo histórico",
+      "Archivo de registro, archivo departamental, archivo general y archivo definitivo",
+      "Archivo activo, archivo reservado, archivo judicial y archivo patrimonial",
+      "Archivo de oficina, archivo histórico, archivo central y archivo de expurgo"
+    ],
+    "correcta": 0,
+    "explicacion": "La LDAPA (Ley 7/2011) organiza el ciclo vital documental en cuatro etapas: archivo de oficina (documentación en trámite o consulta frecuente), archivo central (en cada Consejería u organismo), archivo intermedio (como el Archivo General de Andalucía para conservación preventiva y valoración) y archivo histórico (conservación permanente).",
+    "referencia": "Ley 7/2011 LDAPA Andalucía"
+  },
+  {
+    "pregunta": "Según la Ley 7/2011 (LDAPA), ¿qué órgano colegiado adscrito a la Consejería competente en materia de archivos tiene encomendada la valoración documental, el establecimiento de plazos de conservación y la propuesta de eliminación (expurgo) de series documentales en Andalucía?",
+    "opciones": [
+      "La Junta Superior de Contratación Administrativa",
+      "El Consejo de Transparencia y Protección de Datos de Andalucía",
+      "La Comisión Andaluza de Valoración y Acceso a los Documentos",
+      "El Consejo Consultivo de Andalucía"
+    ],
+    "correcta": 2,
+    "explicacion": "La Ley 7/2011 (art. 29 y ss.) atribuye a la Comisión Andaluza de Valoración y Acceso a los Documentos la elaboración de tablas de valoración, plazos de transferencia, dictámenes sobre eliminación (expurgo) y criterios de acceso a documentos del Sistema Archivístico de Andalucía.",
+    "referencia": "Ley 7/2011 LDAPA Andalucía"
+  },
+  {
+    "pregunta": "De acuerdo con la Ley 7/2011 (LDAPA), ¿puede una unidad administrativa eliminar (expurgar) directamente expedientes antiguos de su archivo de oficina por falta de espacio?",
+    "opciones": [
+      "No; la eliminación de documentos públicos requiere siempre autorización expresa conforme a las tablas de valoración aprobadas previo dictamen de la Comisión Andaluza de Valoración y Acceso a los Documentos",
+      "Sí, siempre que los expedientes tengan más de cinco años y cuenten con el visto bueno verbal de la jefatura de servicio",
+      "Sí, una vez escaneados en formato PDF simple sin necesidad de metadatos ni autorización archivística",
+      "Solo si se trata de expedientes de contratación menor o subvenciones ya justificadas"
+    ],
+    "correcta": 0,
+    "explicacion": "El art. 16 y ss. de la Ley 7/2011 prohíben la destrucción de documentos de titularidad pública sin seguir el procedimiento reglado de valoración y autorización de eliminación (tablas de valoración aprobadas por Orden tras dictamen de la Comisión), salvo meros borradores o copias de apoyo sin valor administrativo ni histórico.",
+    "referencia": "Ley 7/2011 LDAPA Andalucía"
+  },
+  {
+    "pregunta": "En la Ley 7/2011 (LDAPA), ¿cuál es el plazo general a partir del cual los documentos públicos que contengan datos personales que puedan afectar a la seguridad, honor o intimidad de las personas pasan a ser de libre acceso sin consentimiento de los afectados?",
+    "opciones": [
+      "Cien años en todos los supuestos, con independencia de la fecha de fallecimiento",
+      "Cinco años desde la transferencia del expediente al archivo central de la Consejería",
+      "Veinticinco años desde el fallecimiento de la persona afectada (si su fecha es conocida) o, en otro caso, cincuenta años a partir de la fecha de los documentos",
+      "Diez años desde la finalización del procedimiento administrativo, vivan o no los interesados"
+    ],
+    "correcta": 2,
+    "explicacion": "En coherencia con el art. 57.1.c) LPHE y la LDAPA (art. 61), los documentos con datos personales que afecten a la intimidad, honor o seguridad no pueden consultarse sin consentimiento expreso hasta transcurridos 25 años desde la muerte del afectado (si consta) o 50 años desde la fecha del documento.",
+    "referencia": "Art. 61 Ley 7/2011 LDAPA / Art. 57.1.c) LPHE"
+  },
+  {
+    "pregunta": "En el Sistema Archivístico de Andalucía (Ley 7/2011), ¿qué papel desempeña el Archivo General de Andalucía?",
+    "opciones": [
+      "Actúa como archivo intermedio e histórico de los documentos producidos o recibidos por la Administración de la Junta de Andalucía, sus agencias y órganos centrales de ámbito autonómico",
+      "Es un archivo exclusivo para la custodia de protocolos notariales anteriores al siglo XIX",
+      "Se limita a custodiar expedientes judiciales remitidos por el Tribunal Superior de Justicia de Andalucía",
+      "Es el archivo de oficina de la Presidencia de la Junta de Andalucía, sin recibir transferencias de otras Consejerías"
+    ],
+    "correcta": 0,
+    "explicacion": "El Archivo General de Andalucía (regulado en la Ley 7/2011) recoge, conserva, organiza y sirve la documentación transferida por los archivos centrales de las Consejerías y órganos centrales de la Junta de Andalucía, ejerciendo funciones de archivo intermedio e histórico autonómico.",
+    "referencia": "Ley 7/2011 LDAPA Andalucía"
+  },
+  {
+    "pregunta": "¿Qué distingue técnicamente el «cuadro de clasificación» de una «tabla de valoración» en la gestión archivística de la Junta de Andalucía?",
+    "opciones": [
+      "La tabla de valoración ordena alfabéticamente a los interesados y el cuadro de clasificación fija el presupuesto anual del archivo",
+      "Ambos términos son sinónimos legales en la Ley 7/2011 de Documentos, Archivos y Patrimonio Documental de Andalucía",
+      "El cuadro de clasificación estructura jerárquicamente las funciones y series documentales producidas por la organización, mientras que la tabla de valoración fija para cada serie los plazos de transferencia, conservación, eliminación y régimen de acceso",
+      "El cuadro de clasificación solo se aplica a documentos en papel y la tabla de valoración únicamente a archivos electrónicos"
+    ],
+    "correcta": 2,
+    "explicacion": "En archivística y en la LDAPA, el cuadro de clasificación refleja la estructura funcional/orgánica de las series documentales; la tabla de valoración determina el ciclo de vida de cada serie (plazos en oficina/central/intermedio, conservación permanente o expurgo y condiciones de acceso).",
+    "referencia": "Ley 7/2011 LDAPA Andalucía"
+  },
+  {
+    "pregunta": "Conforme al artículo 17 de la Ley 39/2015 (LPAC), ¿cómo deben conservarse los documentos electrónicos correspondientes a procedimientos finalizados en las Administraciones Públicas?",
+    "opciones": [
+      "En un archivo electrónico único que garantice la identidad, integridad, autenticidad, confidencialidad, calidad, protección y conservación de los documentos durante los plazos establecidos, en formatos estandarizados",
+      "Imprimiendo obligatoriamente una copia en papel de cada expediente finalizado para su archivo físico definitivo",
+      "En el disco duro local del puesto de trabajo del funcionario instructor durante cinco años",
+      "En cualquier plataforma comercial gratuita de almacenamiento en la nube aunque carezca de certificación del ENS"
+    ],
+    "correcta": 0,
+    "explicacion": "El art. 17 LPAC obliga a cada Administración a mantener un archivo electrónico único de los documentos electrónicos correspondientes a procedimientos finalizados, asegurando su conservación, disponibilidad, migración de formatos y cumplimiento del Esquema Nacional de Seguridad (ENS) y del ENI.",
+    "referencia": "Art. 17 LPAC (Ley 39/2015)"
+  },
+  {
+    "pregunta": "En la organización de un archivo administrativo según el ciclo vital (Ley 7/2011 LDAPA), ¿qué operación recibe el nombre técnico de «transferencia documental»?",
+    "opciones": [
+      "La destrucción física mediante trituradora de papel de borradores sin valor",
+      "El traslado regulado y sistemático de fracciones de series documentales desde una fase de archivo a la siguiente (por ejemplo, del archivo de oficina al archivo central, o de éste al intermedio) una vez cumplidos los plazos de permanencia fijados en las tablas de valoración",
+      "La entrega temporal de un expediente activo a otro negociado para su consulta durante 48 horas (préstamo)",
+      "La venta en subasta pública de documentos administrativos antiguos"
+    ],
+    "correcta": 1,
+    "explicacion": "La transferencia es el traspaso reglado de documentos (acompañado de relación de entrega) de un archivo a otro conforme al calendario de conservación; es distinta del préstamo (salida temporal con devolución obligatoria) y del expurgo/eliminación.",
+    "referencia": "Ley 7/2011 LDAPA Andalucía"
+  },
+  {
+    "pregunta": "¿Qué distingue un «documento de apoyo informativo» de un «documento de archivo» en la gestión de un archivo de oficina?",
+    "opciones": [
+      "El documento de apoyo informativo debe conservarse permanentemente en el Archivo Histórico Provincial",
+      "El documento de archivo nunca puede existir en soporte electrónico",
+      "Ambos deben ser dictaminados por la Comisión Andaluza de Valoración antes de desechar una fotocopia del BOJA",
+      "El documento de archivo es testimonio oficial de las funciones y actividades administrativas (sujeto a conservación y tablas de valoración), mientras que el documento de apoyo informativo (folletos, fotocopias de normativa publicada, borradores informales) sirve solo de ayuda puntual y no se transfiere al archivo central"
+    ],
+    "correcta": 3,
+    "explicacion": "En archivística (y en la Ley 7/2011 LDAPA), los documentos de apoyo informativo (ejemplares de boletines oficiales, fotocopias de trabajo, catálogos) no forman parte de las series documentales oficiales y se eliminan en la propia oficina cuando pierden utilidad, sin transferirse al archivo central.",
+    "referencia": "Ley 7/2011 LDAPA Andalucía"
+  },
+  {
+    "pregunta": "En archivística, ¿qué principio fundamental exige mantener agrupados sin mezclar los documentos producidos por cada órgano o entidad productora respetando su estructura y orden interno de creación?",
+    "opciones": [
+      "El principio de sustitución cronológica inversa",
+      "El principio de procedencia (y respeto al orden original)",
+      "El principio de ordenación alfabética universal por apellidos del funcionario",
+      "El principio de libre dispersión temática por colores de carpeta"
+    ],
+    "correcta": 1,
+    "explicacion": "El principio de procedencia (o respeto a los fondos) y el respeto al orden original son los pilares básicos de la archivística: los documentos de un fondo productor no deben mezclarse con los de otro y deben conservar la organización resultante del procedimiento que los generó.",
+    "referencia": "Principios archivísticos / Ley 7/2011 LDAPA Andalucía"
+  },
+  {
+    "pregunta": "Según la Ley 7/2011 (LDAPA), ¿cuáles son los tres tipos de valores que se analizan durante la fase de valoración documental para decidir la conservación permanente o la eliminación de una serie?",
+    "opciones": [
+      "Valor de mercado, valor catastral y valor bursátil",
+      "Valor estético, valor tipográfico y valor de encuadernación",
+      "Únicamente el peso físico en kilogramos y el espacio ocupado en metros lineales",
+      "Valor administrativo, valor legal/jurídico-fiscal (valores primarios) y valor histórico, informativo o científico-cultural (valores secundarios)"
+    ],
+    "correcta": 3,
+    "explicacion": "La valoración documental pondera los valores primarios (vigencia administrativa, fiscal, contable y legal/probatoria para la Administración y ciudadanos) y los valores secundarios (interés histórico, investigador, testimonial o cultural para su conservación permanente).",
+    "referencia": "Ley 7/2011 LDAPA Andalucía"
+  },
+  {
+    "pregunta": "En el Esquema Nacional de Interoperabilidad (RD 4/2010) y la Política de Gestión de Documentos Electrónicos de la Junta de Andalucía, ¿qué papel cumplen los «metadatos» asociados a un documento o expediente electrónico?",
+    "opciones": [
+      "Son opcionales y pueden borrarse libremente antes de transferir el expediente al archivo electrónico único",
+      "Describen el contexto, contenido, estructura, autenticidad, trazabilidad y gestión del documento a lo largo de todo su ciclo de vida, permitiendo su búsqueda, interoperabilidad y preservación",
+      "Son exclusivamente comentarios informales escritos a mano en el margen de un documento impreso",
+      "Sirven únicamente para cambiar el color y el tipo de letra del documento al abrirlo"
+    ],
+    "correcta": 1,
+    "explicacion": "Conforme al ENI (RD 4/2010) y art. 26.2 LPAC, los metadatos mínimos obligatorios (identificador, órgano, fecha de captura, origen, estado de elaboración, nombre de formato, tipo documental, firma, etc.) son parte indisociable del documento electrónico para garantizar su validez, gestión e interoperabilidad.",
+    "referencia": "ENI (RD 4/2010) / Art. 26.2 LPAC / Ley 7/2011 LDAPA"
   }
 ]

@@ -358,5 +358,77 @@
     "correcta": 1,
     "explicacion": "El artículo 4 de Constitución Española dispone literalmente: La bandera de España está formada por tres franjas horizontales, roja, amarilla y roja, siendo la amarilla de doble anchura que cada una de las rojas.",
     "referencia": "Art. 4 de Constitución Española"
+  },
+  {
+    "pregunta": "Conforme al artículo 159.1 y 159.3 de la Constitución Española, ¿cómo se designan los doce Magistrados del Tribunal Constitucional y cómo se renuevan?",
+    "opciones": [
+      "Son nombrados con carácter vitalicio entre magistrados del Tribunal Supremo mayores de 55 años",
+      "Son nombrados por el Rey por un período de nueve años y se renuevan por terceras partes cada tres años: 4 a propuesta del Congreso (por 3/5), 4 a propuesta del Senado (por 3/5), 2 a propuesta del Gobierno y 2 a propuesta del Consejo General del Poder Judicial",
+      "Son nombrados por cinco años y se renuevan íntegramente al inicio de cada legislatura: 6 por el Congreso y 6 por el Senado",
+      "Son nombrados por nueve años con renovación por mitades cada cuatro años: 4 por el Gobierno, 4 por el CGPJ y 4 por las Comunidades Autónomas"
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 159 CE: 12 miembros (4 Congreso por 3/5, 4 Senado por 3/5, 2 Gobierno, 2 CGPJ por 3/5 según LOPJ), juristas de reconocida competencia con más de 15 años de ejercicio profesional, mandato de 9 años con renovación por tercios cada 3 años.",
+    "referencia": "Art. 159 Constitución Española"
+  },
+  {
+    "pregunta": "Según el artículo 33 de la Ley Orgánica 2/1979, del Tribunal Constitucional (LOTC), ¿cuál es el plazo general para interponer el recurso de inconstitucionalidad y en qué supuesto excepcional se amplía a nueve meses?",
+    "opciones": [
+      "Dos meses con carácter general, ampliable a seis meses si lo solicita el Defensor del Pueblo",
+      "Un año natural desde la entrada en vigor de la ley sin posibilidad de ampliación",
+      "Treinta días hábiles desde la aprobación de la ley en el Congreso de los Diputados",
+      "Tres meses a partir de la publicación de la ley o norma con fuerza de ley; se amplía a nueve meses cuando el Presidente del Gobierno y los órganos colegiados ejecutivos de las CCAA inicien negociaciones en la Comisión Bilateral de Cooperación dentro de los tres primeros meses para evitar el recurso y lo comuniquen al TC"
+    ],
+    "correcta": 3,
+    "explicacion": "El art. 33.1 LOTC fija el plazo general de 3 meses desde la publicación oficial; el art. 33.2 LOTC permite ampliarlo a 9 meses exclusivamente para Presidente del Gobierno y Gobiernos autonómicos cuando se reúna la Comisión Bilateral de Cooperación, se adopte acuerdo de negociación para resolver discrepancias y se comunique al TC dentro de los 3 primeros meses (publicándose en BOE/BOJA).",
+    "referencia": "Art. 33 LOTC (LO 2/1979)"
+  },
+  {
+    "pregunta": "Conforme al artículo 162.1.a) de la Constitución Española, ¿quiénes están legitimados para interponer el recurso de inconstitucionalidad?",
+    "opciones": [
+      "Exclusivamente el Presidente del Gobierno y el Defensor del Pueblo",
+      "El Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas",
+      "Cualquier ciudadano español en ejercicio de la acción popular, el Ministerio Fiscal y los Jueces de lo Penal",
+      "El Rey, el Presidente del Tribunal Supremo y los Ayuntamientos de más de 50.000 habitantes"
+    ],
+    "correcta": 1,
+    "explicacion": "El art. 162.1.a) CE tasa estrictamente la legitimación activa para el recurso de inconstitucionalidad: Presidente del Gobierno, Defensor del Pueblo, 50 Diputados, 50 Senadores y Gobiernos y Parlamentos autonómicos (estos últimos respecto de leyes estatales que puedan afectar a su ámbito de autonomía, art. 32.2 LOTC). Los ciudadanos y jueces NO tienen legitimación directa (los jueces plantean la cuestión de inconstitucionalidad del art. 163 CE).",
+    "referencia": "Art. 162.1.a) Constitución Española / Art. 32 LOTC"
+  },
+  {
+    "pregunta": "De acuerdo con el artículo 161.2 de la Constitución Española, cuando el Gobierno de la Nación impugna ante el Tribunal Constitucional una disposición o resolución adoptada por los órganos de una Comunidad Autónoma invocando expresamente dicho precepto, ¿qué efecto cautelar inmediato se produce?",
+    "opciones": [
+      "La anulación definitiva e irreversible de la norma autonómica desde el momento de la interposición",
+      "Ningún efecto suspensivo hasta que se dicte sentencia firme sobre el fondo",
+      "La suspensión automática por un plazo fijo de dos años sin intervención del Tribunal Constitucional",
+      "La suspensión automática de la disposición o resolución recurrida, debiendo el Tribunal Constitucional ratificarla o levantarla en un plazo no superior a cinco meses"
+    ],
+    "correcta": 3,
+    "explicacion": "El art. 161.2 CE atribuye al Gobierno estatal (y solo a él, no a las CCAA cuando recurren leyes estatales) el privilegio de la suspensión automática de la disposición o resolución autonómica impugnada, obligando al TC a ratificar o levantar dicha suspensión en un plazo máximo de 5 meses.",
+    "referencia": "Art. 161.2 Constitución Española"
+  },
+  {
+    "pregunta": "Según el artículo 50.1.b) de la LOTC (tras la reforma de la LO 6/2007), además de la vulneración de un derecho fundamental tutelable en amparo (arts. 14 a 29 y 30.2 CE) y el agotamiento de la vía judicial previa, ¿qué requisito objetivo indispensable exige la admisión a trámite de un recurso de amparo constitucional?",
+    "opciones": [
+      "Que exista una sentencia condenatoria previa del Tribunal Europeo de Derechos Humanos",
+      "Que el contenido del recurso justifique una decisión sobre el fondo por parte del Tribunal Constitucional en razón de su «especial trascendencia constitucional»",
+      "Que la cuantía económica del pleito supere los 600.000 euros",
+      "Que el recurso venga avalado previamente por el Defensor del Pueblo o por 50 Diputados"
+    ],
+    "correcta": 1,
+    "explicacion": "La reforma de la LO 6/2007 objetivó el recurso de amparo (art. 50.1.b LOTC): el recurrente tiene la carga insubsanable de justificar en la demanda la «especial trascendencia constitucional» del asunto (importancia para la interpretación, aplicación o general eficacia de la Constitución).",
+    "referencia": "Art. 50.1.b) LOTC (LO 2/1979)"
+  },
+  {
+    "pregunta": "Conforme al artículo 163 de la Constitución Española, ¿en qué momento procesal puede un órgano judicial plantear una «cuestión de inconstitucionalidad» ante el Tribunal Constitucional?",
+    "opciones": [
+      "Antes de admitir a trámite la demanda, respecto de cualquier reglamento municipal",
+      "Únicamente después de haber dictado sentencia firme para que el TC la revise",
+      "Solo a petición vinculante de cualquiera de las partes, sin que el juez pueda apreciarla de oficio",
+      "Cuando considere, en algún proceso, que una norma con rango de ley aplicable al caso y de cuya validez dependa el fallo pueda ser contraria a la Constitución, planteándola una vez concluso el procedimiento y dentro del plazo para dictar sentencia (art. 35.2 LOTC)"
+    ],
+    "correcta": 3,
+    "explicacion": "El art. 163 CE y el art. 35 LOTC exigen: norma con rango de ley (no reglamentos, que los jueces inaplican o anulan por sí mismos), aplicable al caso, de cuya validez dependa el fallo (juicio de relevancia), y planteamiento (de oficio o a instancia de parte) una vez concluso el procedimiento y dentro del plazo para dictar sentencia, previa audiencia de las partes y Ministerio Fiscal por 10 días.",
+    "referencia": "Art. 163 Constitución Española / Art. 35 LOTC"
   }
 ]

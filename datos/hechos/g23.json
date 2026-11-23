@@ -358,5 +358,77 @@
     "correcta": 1,
     "explicacion": "Dicha determinación («En el Convenio Europeo para la Protección de los Derechos Humanos y de las Libertades Fundamentales y en la Carta Social Europea.») define o regula específicamente a «Derechos (art. 9 Estatuto de Autonomía para Andalucía)» (Art. 9 de Estatuto de Autonomía para Andalucía).",
     "referencia": "Art. 9 de Estatuto de Autonomía para Andalucía"
+  },
+  {
+    "pregunta": "Conforme al artículo 57 del Estatuto de Autonomía para Andalucía, ¿qué competencia corresponde a la Comunidad Autónoma en materia de normas adicionales de protección del medio ambiente y espacios naturales protegidos?",
+    "opciones": [
+      "Carece de competencia normativa, limitándose a ejecutar los reglamentos del Ministerio para la Transición Ecológica",
+      "Competencia exclusiva absoluta incluso para rebajar los estándares mínimos fijados por la legislación básica estatal",
+      "Únicamente competencia municipal delegada en los Ayuntamientos costeros",
+      "Competencia exclusiva sobre delimitación, regulación, ordenación y gestión integral de los espacios naturales protegidos (incluyendo los que afecten a aguas interiores) y competencia para establecer normas adicionales de protección, en el marco de la legislación básica estatal (art. 149.1.23.ª CE)"
+    ],
+    "correcta": 3,
+    "explicacion": "Conforme al art. 149.1.23.ª CE y art. 57 EAA, el Estado dicta la legislación básica sobre protección del medio ambiente, mientras Andalucía tiene competencia exclusiva sobre espacios naturales protegidos y gestión ambiental autonómica y competencia compartida/normas adicionales de protección (siempre para elevar, nunca para rebajar, el mínimo básico estatal).",
+    "referencia": "Art. 57 EAA / Art. 149.1.23.ª CE"
+  },
+  {
+    "pregunta": "En los instrumentos de prevención y control ambiental en Andalucía, ¿qué diferencia fundamental existe entre la Autorización Ambiental Integrada (AAI), la Autorización Ambiental Unificada (AAU) y la Calificación Ambiental (CA)?",
+    "opciones": [
+      "Los tres instrumentos son voluntarios y solo se tramitan a petición de las asociaciones ecologistas",
+      "La AAI corresponde a la Consejería competente en medio ambiente para grandes instalaciones industriales de mayor potencial contaminante; la AAU corresponde a la Consejería para proyectos públicos o privados con incidencia ambiental significativa no sujetos a AAI; y la Calificación Ambiental es competencia municipal para actividades de menor impacto",
+      "La Calificación Ambiental la otorga el Ministerio de Medio Ambiente y la AAI la otorgan los Ayuntamientos",
+      "La AAU sustituye a la evaluación ambiental estratégica de todos los planes autonómicos"
+    ],
+    "correcta": 1,
+    "explicacion": "El sistema andaluz de prevención ambiental escalona el control según el impacto: AAI (grandes instalaciones industriales IPPC, competencia autonómica), AAU (actuaciones relevantes no AAI, competencia autonómica), y Calificación Ambiental / Declaración Responsable de efectos ambientales (competencia municipal).",
+    "referencia": "Normativa de prevención y control ambiental de Andalucía (LEGAM / GICA)"
+  },
+  {
+    "pregunta": "Según la Ley 7/2022, de residuos y suelos contaminados para una economía circular (art. 8), ¿cuál es el orden correcto de prioridad de la jerarquía de residuos?",
+    "opciones": [
+      "Reciclado → Eliminación en vertedero → Prevención → Valorización energética → Reutilización",
+      "Eliminación → Incineración sin recuperación → Reciclado → Prevención",
+      "Valorización energética → Reciclado → Reutilización → Prevención → Eliminación",
+      "Prevención → Preparación para la reutilización → Reciclado → Otro tipo de valorización (incluida la energética) → Eliminación"
+    ],
+    "correcta": 3,
+    "explicacion": "El art. 8 de la Ley 7/2022 (transponiendo la Directiva Marco de Residuos) impone la jerarquía obligatoria: 1.º Prevención, 2.º Preparación para la reutilización, 3.º Reciclado, 4.º Otro tipo de valorización (p. ej. energética) y 5.º Eliminación (última opción).",
+    "referencia": "Art. 8 Ley 7/2022 de Residuos y Suelos Contaminados"
+  },
+  {
+    "pregunta": "Conforme a la Ley 26/2007, de Responsabilidad Medioambiental, ¿qué principio económico y jurídico rige la obligación del operador de prevenir, evitar y reparar los daños medioambientales causados por actividades del Anexo III?",
+    "opciones": [
+      "La exclusión de toda responsabilidad administrativa si la empresa cuenta con licencia de apertura",
+      "El principio de «quien contamina paga» bajo un régimen de responsabilidad objetiva e ilimitada (sin necesidad de acreditar dolo, culpa o negligencia del operador) orientada a la reparación in natura de los recursos naturales",
+      "La responsabilidad meramente subjetiva limitada a una multa fija de 3.000 euros",
+      "La asunción íntegra de los costes de descontaminación por la Administración sin derecho de repercusión"
+    ],
+    "correcta": 1,
+    "explicacion": "La Ley 26/2007 consagra el principio «quien contamina paga» y establece responsabilidad objetiva (sin culpa) para las actividades profesionales del Anexo III y subjetiva (dolo/culpa/negligencia) para las restantes, exigiendo la devolución de los recursos naturales a su estado básico (reparación primaria, complementaria y compensatoria).",
+    "referencia": "Arts. 3 y 19 Ley 26/2007 de Responsabilidad Medioambiental"
+  },
+  {
+    "pregunta": "¿Qué distingue la Evaluación Ambiental Estratégica (EAE) de la Evaluación de Impacto Ambiental (EIA) reguladas en la Ley 21/2013 y la normativa ambiental andaluza?",
+    "opciones": [
+      "La EAE solo se aplica a empresas privadas y la EIA únicamente a ministerios estatales",
+      "La EIA se realiza siempre después de inaugurar la obra y la EAE durante su demolición",
+      "Ambas evaluaciones son exactamente el mismo trámite con distinto nombre",
+      "La EAE se aplica a planes y programas (como planes urbanísticos o sectoriales) en una fase temprana de planificación, mientras que la EIA se aplica a proyectos concretos de obras o instalaciones"
+    ],
+    "correcta": 3,
+    "explicacion": "La Ley 21/2013 de Evaluación Ambiental y la legislación ambiental andaluza reservan la EAE (ordinaria o simplificada) para planes y programas adoptados por Administraciones Públicas y la EIA (ordinaria o simplificada) para proyectos concretos.",
+    "referencia": "Ley 21/2013 de Evaluación Ambiental / Normativa ambiental Andalucía"
+  },
+  {
+    "pregunta": "Según la Ley 8/2018, de medidas frente al cambio climático y para la transición hacia un nuevo modelo energético en Andalucía, ¿qué instrumento de planificación autonómica fija los objetivos de mitigación, adaptación y transición energética en Andalucía?",
+    "opciones": [
+      "La Carta de Servicios Ambientales del Tribunal Superior de Justicia",
+      "El Plan Andaluz de Acción por el Clima (PAAC), complementado en el ámbito local por los Planes Municipales contra el Cambio Climático",
+      "El Plan Hidrológico Nacional exclusivamente",
+      "El Presupuesto General del Estado mediante disposición adicional anual"
+    ],
+    "correcta": 1,
+    "explicacion": "La Ley 8/2018 de Cambio Climático de Andalucía establece el Plan Andaluz de Acción por el Clima (PAAC) como instrumento general de planificación estratégica en mitigación, adaptación y comunicación/participación, además de la obligación municipal de elaborar Planes Municipales contra el Cambio Climático.",
+    "referencia": "Ley 8/2018 de Cambio Climático de Andalucía"
   }
 ]

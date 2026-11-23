@@ -358,5 +358,137 @@
     "correcta": 1,
     "explicacion": "Respecto a «Gestión documental (art. 43 Administración electrónica)» (Articulado de Administración electrónica), la regulación vigente establece que: Sus principales finalidades son: 00167490 Número 250 - Martes, 31 de diciembre de 2019 Depósito Legal: SE-410/1979.",
     "referencia": "Art. 43 de Administración electrónica"
+  },
+  {
+    "pregunta": "En el ecosistema de sistemas horizontales de la Administración de la Junta de Andalucía, ¿qué función cumple la plataforma @ries?",
+    "opciones": [
+      "La firma electrónica masiva de resoluciones por parte de los órganos directivos",
+      "La gestión corporativa del Registro de Entrada y Salida de documentos administrativos de la Junta de Andalucía",
+      "La gestión integral de los expedientes económicos, presupuestarios y contables",
+      "La tramitación de nóminas y expedientes personales de los empleados públicos"
+    ],
+    "correcta": 1,
+    "explicacion": "En la Junta de Andalucía: @ries es el Registro de Entrada y Salida; GIRO gestiona la economía/presupuesto/contabilidad; SIRhUS gestiona recursos humanos y nóminas; Port@firmas gestiona el flujo de firma electrónica; Notific@ gestiona las notificaciones electrónicas; y PTw@nda (Plataforma de Tramitación) da soporte a la tramitación de procedimientos.",
+    "referencia": "Sistemas Horizontales de la Junta de Andalucía / Decreto 622/2019"
+  },
+  {
+    "pregunta": "¿Qué herramienta corporativa de la Junta de Andalucía centraliza la gestión económica, presupuestaria, contable y de tesorería sustituyendo al antiguo sistema JÚPITER?",
+    "opciones": [
+      "SIRhUS (Sistema de Información de Recursos Humanos)",
+      "Notific@ (Sistema de Notificaciones Electrónicas)",
+      "Port@firmas (Portafirmas Electrónico Corporativo)",
+      "GIRO (Gestión Integral de Recursos Organizativos)"
+    ],
+    "correcta": 3,
+    "explicacion": "GIRO es el sistema corporativo ERP de gestión económico-financiera, presupuestaria, contable y de tesorería de la Junta de Andalucía (implantado para sustituir a JÚPITER y SUR en su ámbito).",
+    "referencia": "Sistemas Horizontales de la Junta de Andalucía (GIRO)"
+  },
+  {
+    "pregunta": "En redes TCP/IP, ¿qué función desempeña el protocolo DNS (Domain Name System)?",
+    "opciones": [
+      "Transferir archivos adjuntos pesados entre servidores de bases de datos",
+      "Traducir nombres de dominio legibles por personas (como juntadeandalucia.es) en direcciones IP numéricas comprensibles por los equipos de red",
+      "Cifrar el contenido de los correos electrónicos mediante criptografía de clave asimétrica",
+      "Asignar automáticamente la máscara de subred y la puerta de enlace a un ordenador al encenderse"
+    ],
+    "correcta": 1,
+    "explicacion": "DNS resuelve nombres de dominio a direcciones IP (y viceversa). La asignación dinámica de IP/máscara/puerta de enlace corresponde a DHCP, y el cifrado en tránsito web corresponde a TLS/HTTPS.",
+    "referencia": "Protocolos TCP/IP y servicios de red"
+  },
+  {
+    "pregunta": "¿Qué garantiza el protocolo HTTPS frente al protocolo HTTP tradicional al acceder a la Sede Electrónica de la Junta de Andalucía?",
+    "opciones": [
+      "Que el equipo del usuario queda inmunizado frente a virus descargados desde memorias USB",
+      "Que las páginas web cargan el doble de rápido eliminando la necesidad de direcciones IP",
+      "Que el ciudadano no necesita identificarse con Cl@ve ni certificado digital para presentar solicitudes",
+      "Confidencialidad (cifrado de la comunicación), integridad de los datos en tránsito y autenticación del servidor mediante certificado digital (TLS)"
+    ],
+    "correcta": 3,
+    "explicacion": "HTTPS ejecuta HTTP sobre TLS (Transport Layer Security), asegurando cifrado extremo a extremo entre navegador y servidor, integridad frente a manipulaciones en tránsito y verificación criptográfica de la identidad del servidor.",
+    "referencia": "Seguridad en redes / Protocolo HTTPS-TLS"
+  },
+  {
+    "pregunta": "En el correo electrónico corporativo, ¿qué diferencia existe entre los campos CC (Con Copia) y CCO (Con Copia Oculta) desde el punto de vista de la protección de datos (RGPD)?",
+    "opciones": [
+      "El campo CCO cifra el contenido del correo con firma electrónica reconocida de la FNMT",
+      "Las direcciones en CCO quedan ocultas para el resto de destinatarios, por lo que debe usarse obligatoriamente en envíos múltiples a ciudadanos externos para evitar brechas de confidencialidad",
+      "El campo CCO impide que el destinatario pueda leer los archivos adjuntos del mensaje",
+      "Las direcciones en CC solo reciben el asunto del mensaje y no el cuerpo del texto"
+    ],
+    "correcta": 1,
+    "explicacion": "Enviar un correo masivo a terceros colocando sus direcciones en Para o CC expone los correos personales a todos los receptores, constituyendo una brecha de seguridad de datos personales (art. 33 RGPD). El uso de CCO evita dicha exposición.",
+    "referencia": "Gestión de correo electrónico / RGPD (UE 2016/679)"
+  },
+  {
+    "pregunta": "¿Qué distingue un ataque de «phishing» de un ataque de «ransomware» en el ámbito de la ciberseguridad administrativa?",
+    "opciones": [
+      "El phishing solo afecta a teléfonos móviles y el ransomware únicamente a impresoras en red",
+      "El ransomware es una técnica legal de copia de seguridad corporativa y el phishing un filtro antispam",
+      "Ambos términos designan exclusivamente la saturación de un servidor web mediante peticiones simultáneas (DDoS)",
+      "El phishing utiliza ingeniería social (suplantación de identidad) para robar credenciales o datos confidenciales, mientras que el ransomware es un software malicioso que cifra los archivos del sistema exigiendo un rescate para liberarlos"
+    ],
+    "correcta": 3,
+    "explicacion": "El phishing suplanta entidades legítimas (correos, SMS o webs falsas) para engañar al usuario y capturar contraseñas o datos; el ransomware es malware que secuestra (cifra) datos o equipos pidiendo rescate. La saturación de tráfico corresponde a ataques DoS/DDoS.",
+    "referencia": "Ciberseguridad básica y ENS (RD 311/2022)"
+  },
+  {
+    "pregunta": "En el conjunto de sistemas horizontales de la Junta de Andalucía, ¿para qué se utiliza específicamente la plataforma corporativa Notific@?",
+    "opciones": [
+      "Para elaborar y aprobar los Presupuestos anuales de la Comunidad Autónoma",
+      "Para llevar el control de presencia horaria y vacaciones del personal funcionario",
+      "Para publicar las leyes aprobadas por el Parlamento de Andalucía en el BOJA",
+      "Para gestionar de forma centralizada la puesta a disposición y acreditación fehaciente de las notificaciones y comunicaciones electrónicas de la Administración de la Junta de Andalucía a la ciudadanía y empresas"
+    ],
+    "correcta": 3,
+    "explicacion": "Notific@ es el sistema corporativo de notificaciones electrónicas de la Junta de Andalucía (integrado con la Carpeta Ciudadana y la Dirección Electrónica Habilitada Única — DEHú), que genera los acuses fehacientes de puesta a disposición, lectura o rechazo transcurridos 10 días naturales (art. 43.2 LPAC).",
+    "referencia": "Sistemas Horizontales Junta de Andalucía (Notific@) / Decreto 622/2019"
+  },
+  {
+    "pregunta": "¿Qué función cumple la plataforma Port@firmas en el trabajo diario de los órganos administrativos de la Junta de Andalucía?",
+    "opciones": [
+      "Gestionar el alta y baja de trabajadores en la Tesorería General de la Seguridad Social",
+      "Centralizar el flujo de petición, visto bueno y firma electrónica de documentos administrativos por parte de las autoridades y empleados públicos mediante certificado digital",
+      "Almacenar exclusivamente copias en papel escaneadas de facturas de proveedores",
+      "Sustituir al navegador web para consultar páginas de Internet externas"
+    ],
+    "correcta": 1,
+    "explicacion": "Port@firmas es la herramienta horizontal de la Junta de Andalucía que permite enviar documentos a la bandeja de firma/visto bueno de los órganos competentes, admitiendo firma en cascada, firma en paralelo, sustitución/delegación y verificación mediante CSV.",
+    "referencia": "Sistemas Horizontales Junta de Andalucía (Port@firmas)"
+  },
+  {
+    "pregunta": "¿Qué servicio presta la «Carpeta Ciudadana» de la Junta de Andalucía (Decreto 622/2019) a las personas interesadas?",
+    "opciones": [
+      "Una carpeta física de cartón entregada gratuitamente en las oficinas de Correos",
+      "Un registro interno accesible únicamente por los Interventores de la Junta de Andalucía",
+      "Un foro público abierto donde cualquier ciudadano puede ver los expedientes de sus vecinos",
+      "Un punto de acceso electrónico personalizado donde la ciudadanía puede consultar el estado de tramitación de sus expedientes, acceder a sus notificaciones electrónicas, descargar justificantes de registro y consultar sus datos y citas previas"
+    ],
+    "correcta": 3,
+    "explicacion": "La Carpeta Ciudadana (Decreto 622/2019) es el espacio personal autenticado (con certificado digital o Cl@ve) desde el que cada ciudadano o empresa consulta sus expedientes en trámite, escritos presentados en @ries, notificaciones en Notific@, pagos y documentación obrante en la Junta.",
+    "referencia": "Decreto 622/2019 Andalucía / Carpeta Ciudadana"
+  },
+  {
+    "pregunta": "En el correo electrónico, ¿qué diferencia técnica existe entre los protocolos de recepción IMAP y POP3 cuando un empleado consulta su buzón corporativo desde distintos dispositivos?",
+    "opciones": [
+      "Ambos protocolos han sido sustituidos por el protocolo FTP para leer correos",
+      "IMAP mantiene los mensajes y carpetas sincronizados directamente en el servidor (permitiendo ver el mismo estado en varios dispositivos), mientras que POP3 está orientado a descargar los mensajes al equipo local y, por defecto, borrarlos del servidor",
+      "POP3 sirve únicamente para enviar correos salientes y IMAP únicamente para enviar archivos adjuntos",
+      "IMAP impide crear carpetas de organización y POP3 obliga a usar siempre navegador web"
+    ],
+    "correcta": 1,
+    "explicacion": "Para envío de correo se usa SMTP; para recepción, IMAP sincroniza bidireccionalmente mensajes, lecturas y carpetas en el servidor entre múltiples dispositivos, mientras que POP3 descarga localmente los correos (normalmente eliminándolos del servidor).",
+    "referencia": "Protocolos de correo electrónico (SMTP / IMAP / POP3)"
+  },
+  {
+    "pregunta": "En el marco de la seguridad en redes y acceso remoto al puesto de trabajo (teletrabajo en la Junta de Andalucía), ¿qué función cumple una VPN (Red Privada Virtual)?",
+    "opciones": [
+      "Aumentar artificialmente la velocidad física de la fibra óptica contratada en el domicilio",
+      "Permitir el acceso anónimo y sin usuario ni contraseña a las bases de datos de GIRO y SIRhUS",
+      "Eliminar automáticamente los correos electrónicos con más de 30 días de antigüedad",
+      "Crear un túnel cifrado seguro a través de una red pública (Internet) que permite al empleado autenticado acceder a los recursos internos de la red corporativa de la Junta como si estuviera conectado localmente"
+    ],
+    "correcta": 3,
+    "explicacion": "Una VPN (Virtual Private Network) encapsula y cifra el tráfico entre el equipo remoto del empleado y la red corporativa a través de Internet, garantizando confidencialidad, integridad y autenticación conforme a las exigencias del ENS (RD 311/2022).",
+    "referencia": "Seguridad en redes y teletrabajo / ENS (RD 311/2022)"
   }
 ]

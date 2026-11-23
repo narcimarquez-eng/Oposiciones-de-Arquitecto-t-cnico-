@@ -346,5 +346,77 @@
     "correcta": 1,
     "explicacion": "Respecto a «Derechos y deberes de los afiliados (art. 8 Ley Orgánica de Partidos Políticos)» (Articulado de Ley Orgánica de Partidos Políticos), la regulación vigente establece que: Los afiliados a los partidos políticos deben ser personas físicas, mayores de edad, y no tener limitada ni restringida su capacidad de obrar.",
     "referencia": "Art. 8 de Ley Orgánica de Partidos Políticos"
+  },
+  {
+    "pregunta": "Conforme al artículo 17 de la Ley 1/1986, Electoral de Andalucía, ¿cómo se distribuyen los 109 escaños del Parlamento de Andalucía entre las ocho circunscripciones provinciales?",
+    "opciones": [
+      "Cada provincia tiene asignado un mínimo inicial de 5 diputados y los restantes se reparten proporcionalmente sin límite máximo",
+      "Las ocho provincias eligen exactamente 13 diputados cada una y los 5 restantes se asignan en circunscripción única autonómica",
+      "Se reparten estrictamente por superficie territorial con un mínimo de 10 diputados por provincia",
+      "Cada provincia tiene asignado un mínimo inicial de 8 diputados y los 45 restantes se distribuyen en proporción a la población, sin que ninguna provincia pueda tener más del doble de diputados que otra"
+    ],
+    "correcta": 3,
+    "explicacion": "El art. 17 de la Ley 1/1986 Electoral de Andalucía (en desarrollo del art. 104 EAA) fija 109 diputados, asignando un mínimo inicial de 8 por provincia (64) y repartiendo los 45 restantes proporcionalmente a la población, con la cláusula estatutaria de que ninguna provincia tendrá más del doble de diputados que otra.",
+    "referencia": "Art. 17 Ley 1/1986 Electoral de Andalucía / Art. 104 EAA"
+  },
+  {
+    "pregunta": "Según el artículo 18 de la Ley 1/1986, Electoral de Andalucía, y el artículo 163 de la LOREG, ¿cuál es la barrera legal mínima de votos válidos emitidos en la circunscripción para entrar en el reparto de escaños por la fórmula D'Hondt en las elecciones al Parlamento de Andalucía y al Congreso de los Diputados?",
+    "opciones": [
+      "El 5 % de los votos emitidos en el conjunto de España o Andalucía",
+      "El 3 % de los votos válidos emitidos en la circunscripción",
+      "El 5 % de los votos válidos emitidos en la circunscripción",
+      "El 3 % del censo electoral total de la circunscripción"
+    ],
+    "correcta": 1,
+    "explicacion": "Tanto en elecciones al Congreso (art. 163.1.a LOREG) como al Parlamento de Andalucía (art. 18.1.a Ley 1/1986), la barrera electoral es del 3 % de los votos válidos emitidos en cada circunscripción provincial (a diferencia de las elecciones municipales, donde el art. 180 LOREG fija el 5 %).",
+    "referencia": "Art. 18 Ley 1/1986 Andalucía / Art. 163 LOREG (LO 5/1985)"
+  },
+  {
+    "pregunta": "Conforme a la Ley Orgánica 6/2002, de Partidos Políticos (art. 10), ¿qué órgano judicial es exclusivamente competente para declarar la ilegalización y disolución de un partido político por vulneración grave y reiterada de los principios democráticos?",
+    "opciones": [
+      "El Tribunal Constitucional reunido en Pleno a instancia de la Junta Electoral Central",
+      "La Sala de lo Contencioso-Administrativo de la Audiencia Nacional",
+      "El Ministerio del Interior mediante orden ministerial motivada tras audiencia del partido",
+      "La Sala Especial del Tribunal Supremo regulada en el artículo 61 de la Ley Orgánica del Poder Judicial"
+    ],
+    "correcta": 3,
+    "explicacion": "El art. 10.5 y art. 11 LO 6/2002 atribuyen en exclusiva a la Sala Especial del Tribunal Supremo (art. 61 LOPJ) el conocimiento del proceso de ilegalización de partidos políticos por las causas del art. 9 (a instancia del Gobierno o del Ministerio Fiscal, también instable por Congreso o Senado).",
+    "referencia": "Arts. 10 y 11 LO 6/2002 de Partidos Políticos"
+  },
+  {
+    "pregunta": "Según los artículos 6 y 7 de la Ley Orgánica 11/1985, de Libertad Sindical (LOLS), ¿qué umbral de audiencia electoral debe alcanzar un sindicato de ámbito autonómico para tener la consideración de «sindicato más representativo» en su Comunidad Autónoma?",
+    "opciones": [
+      "Al menos el 5 % de los votos en las elecciones autonómicas al Parlamento correspondiente",
+      "Al menos el 15 % de los delegados de personal y miembros de comités de empresa y órganos correspondientes de las AAPP en dicha Comunidad Autónoma, siempre que cuente con un mínimo de 1.500 representantes y no esté federado con organizaciones estatales",
+      "Al menos el 10 % de los representantes en la Comunidad Autónoma sin requisito mínimo de número absoluto",
+      "Al menos el 25 % de los afiliados cotizantes de la Comunidad Autónoma acreditado ante notario"
+    ],
+    "correcta": 1,
+    "explicacion": "La LOLS distingue: sindicato más representativo estatal (art. 6.2.a: ≥10 % de representantes en todo el Estado) y sindicato más representativo de Comunidad Autónoma (art. 7.1.a: ≥15 % de representantes en la CCAA, mínimo 1.500 representantes y no federado/confederado con organizaciones estatales).",
+    "referencia": "Arts. 6 y 7 LO 11/1985 de Libertad Sindical (LOLS)"
+  },
+  {
+    "pregunta": "Conforme al artículo 1.3 de la Ley Orgánica 11/1985 (LOLS) y el artículo 28.1 de la Constitución Española, ¿qué colectivos quedan expresamente exceptuados del ejercicio del derecho de sindicación?",
+    "opciones": [
+      "Todos los funcionarios públicos de los grupos A1 y A2 de las Administraciones autonómicas",
+      "El personal estatutario de los servicios de salud y el profesorado universitario",
+      "Los miembros de las Policías Locales y de la Policía Nacional, que no pueden constituir sindicatos propios",
+      "Los miembros de las Fuerzas Armadas y de los Institutos Armados de carácter militar (como la Guardia Civil), así como los Jueces, Magistrados y Fiscales mientras se hallen en activo"
+    ],
+    "correcta": 3,
+    "explicacion": "Conforme al art. 28.1 y art. 127.1 CE y arts. 1.3–1.4 LOLS, quedan exceptuados de la sindicación las Fuerzas Armadas e Institutos Armados de carácter militar y los Jueces, Magistrados y Fiscales en activo (estos últimos solo pueden crear asociaciones profesionales). Las Fuerzas y Cuerpos de Seguridad sin carácter militar (Policía Nacional, Policías Locales) sí tienen derecho de sindicación con regulación específica.",
+    "referencia": "Art. 1 LOLS (LO 11/1985) / Arts. 28.1 y 127.1 CE"
+  },
+  {
+    "pregunta": "En el proceso electoral regulado por la LOREG (LO 5/1985), ¿ante qué órgano jurisdiccional se interpone el recurso contencioso-electoral contra los acuerdos de las Juntas Electorales sobre proclamación de electos?",
+    "opciones": [
+      "Ante la Junta Electoral Central cuya resolución es irrecurrible ante cualquier tribunal",
+      "Ante la Sala de lo Contencioso-Administrativo del Tribunal Supremo (elecciones generales y europeas) o del Tribunal Superior de Justicia correspondiente (elecciones autonómicas y locales), en el plazo de tres días desde la proclamación",
+      "Ante el Juzgado de Primera Instancia del partido judicial correspondiente en el plazo de un mes",
+      "Directamente ante el Tribunal Constitucional sin pasar por la jurisdicción ordinaria"
+    ],
+    "correcta": 1,
+    "explicacion": "Conforme a los arts. 109–112 LOREG, el recurso contencioso-electoral contra la proclamación de electos se presenta ante la Junta Electoral en el plazo de 3 días para su remisión a la Sala de lo Contencioso-Administrativo del TS (generales/europeas) o del TSJ (autonómicas/locales), sin perjuicio del amparo electoral ulterior ante el TC.",
+    "referencia": "Arts. 109 a 114 LOREG (LO 5/1985)"
   }
 ]

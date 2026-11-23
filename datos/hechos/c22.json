@@ -358,5 +358,65 @@
     "correcta": 1,
     "explicacion": "Respecto a «Es una actuación administrativa automatizada» (Casos prácticos), la regulación vigente establece que: Deben existir órganos responsables de su especificación y control (art. 41.2 LRJSP).",
     "referencia": "Ley 9/2007, de 22 de octubre, de la Administración de la Junta de Andalucía (BOJA núm. 215, de 31 de octubre de 2007; BOE núm. 276, de 17 de noviembre de 2007)"
+  },
+  {
+    "pregunta": "En una arquitectura informática de tres capas (3-tier) típica de las aplicaciones corporativas de la Administración, ¿qué responsabilidades asume cada una de las tres capas?",
+    "opciones": [
+      "Capa de legislación, capa de presupuesto y capa de recursos humanos",
+      "Capa de presentación (interfaz de usuario/navegador), capa de lógica de negocio (servidor de aplicaciones) y capa de datos (sistema gestor de bases de datos)",
+      "Capa de hardware, capa de electricidad y capa de red local exclusivamente",
+      "Capa de entrada por teclado, capa de monitor y capa de impresora láser"
+    ],
+    "correcta": 1,
+    "explicacion": "La arquitectura en tres capas separa la presentación (cliente/navegador), la lógica de negocio (servidores de aplicaciones) y la persistencia de datos (SGBD), mejorando la escalabilidad, seguridad y mantenibilidad frente al modelo cliente-servidor de dos capas.",
+    "referencia": "Arquitecturas cliente-servidor y multicapa"
+  },
+  {
+    "pregunta": "En los modelos de computación en la nube (Cloud Computing), ¿qué diferencia existe entre IaaS, PaaS y SaaS?",
+    "opciones": [
+      "SaaS exige que la Administración compre y mantenga físicamente los servidores en su edificio, mientras que IaaS solo ofrece correo web",
+      "PaaS es un software antivirus, IaaS es un navegador web y SaaS es un protocolo de red local",
+      "Los tres modelos son exactamente idénticos y solo cambian el idioma de la interfaz",
+      "IaaS proporciona infraestructura virtualizada (servidores, red, almacenamiento), PaaS aporta además el entorno y plataforma de desarrollo/ejecución, y SaaS ofrece aplicaciones finales listas para usar a través de la red"
+    ],
+    "correcta": 3,
+    "explicacion": "IaaS (Infraestructura como Servicio) cede cómputo/red/almacenamiento; PaaS (Plataforma como Servicio) añade sistema operativo y entornos de desarrollo/despliegue; SaaS (Software como Servicio) entrega la aplicación completa lista para el usuario final.",
+    "referencia": "Tendencias de arquitectura informática (Cloud Computing)"
+  },
+  {
+    "pregunta": "En la arquitectura clásica de Von Neumann de un ordenador, ¿cuáles son los tres tipos de buses que interconectan la CPU, la memoria principal y los subsistemas de entrada/salida?",
+    "opciones": [
+      "Bus de memoria caché, bus de disco duro y bus de fuente de alimentación",
+      "Bus de datos, bus de direcciones y bus de control",
+      "Bus de vídeo, bus de audio y bus de impresora",
+      "Bus HTTP, bus TCP y bus Ethernet"
+    ],
+    "correcta": 1,
+    "explicacion": "En la arquitectura Von Neumann el bus del sistema se divide en bus de datos (bidireccional, transporta datos e instrucciones), bus de direcciones (unidireccional desde la CPU, indica la posición de memoria o E/S) y bus de control (sincroniza señales de lectura/escritura e interrupciones).",
+    "referencia": "Fundamentos de arquitectura de computadores"
+  },
+  {
+    "pregunta": "¿Qué ventaja principal aporta una arquitectura orientada a servicios (SOA) o de microservicios en una organización compleja como la Junta de Andalucía?",
+    "opciones": [
+      "Unificar todo el código de todas las Consejerías en un único programa monolítico indivisible",
+      "Eliminar la necesidad de aplicar medidas de autenticación entre sistemas internos",
+      "Obligar a que todas las aplicaciones funcionen exclusivamente sin conexión a red",
+      "Desacoplar funcionalidades comunes en servicios reutilizables e interoperables (como firma, registro o notificación), facilitando su integración entre distintas Consejerías y sistemas"
+    ],
+    "correcta": 3,
+    "explicacion": "SOA y los microservicios desacoplan capacidades en servicios independientes que se comunican mediante interfaces estándar (APIs/servicios web), permitiendo reutilizar plataformas horizontales corporativas (Port@firmas, @ries, Notific@, GIRO) sin duplicar desarrollos.",
+    "referencia": "Arquitectura corporativa de la Junta de Andalucía / SOA"
+  },
+  {
+    "pregunta": "En la jerarquía de memoria de un sistema informático, ¿cómo se ordenan correctamente los niveles de memoria desde la mayor velocidad (y menor capacidad) hasta la menor velocidad (y mayor capacidad)?",
+    "opciones": [
+      "Memoria caché → Almacenamiento SSD → Registros de la CPU → Memoria RAM",
+      "Registros de la CPU → Memoria caché (L1/L2/L3) → Memoria principal (RAM) → Almacenamiento secundario (SSD/HDD)",
+      "Almacenamiento secundario (SSD/HDD) → Memoria RAM → Memoria caché → Registros de la CPU",
+      "Memoria RAM → Registros de la CPU → Almacenamiento SSD → Memoria caché"
+    ],
+    "correcta": 1,
+    "explicacion": "Cuanto más cerca está la memoria del procesador, mayor es su velocidad y coste por byte y menor su capacidad: registros internos de la CPU, cachés L1/L2/L3, memoria principal RAM (volátil) y almacenamiento persistente (SSD/HDD/cintas).",
+    "referencia": "Componentes y jerarquía de memoria de sistemas informáticos"
   }
 ]

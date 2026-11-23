@@ -358,5 +358,149 @@
     "correcta": 1,
     "explicacion": "Dicha determinación («Los procedimientos podrán iniciarse de oficio o a solicitud del interesado.») define o regula específicamente a «Clases de iniciación (art. 54 Ley del Procedimiento Administrativo Común)» (Art. 54 de Ley del Procedimiento Administrativo Común).",
     "referencia": "Art. 54 de Ley del Procedimiento Administrativo Común"
+  },
+  {
+    "pregunta": "Conforme al artículo 70.4 de la Ley 39/2015 (LPAC), ¿cuál de los siguientes elementos NO forma parte del expediente administrativo electrónico?",
+    "opciones": [
+      "Las pruebas, dictámenes, informes preceptivos, acuerdos, notificaciones y demás diligencias del procedimiento",
+      "El índice numerado de todos los documentos que contenga el expediente cuando se remita",
+      "La copia electrónica certificada de la resolución adoptada",
+      "La información que tenga carácter auxiliar o de apoyo, como la contenida en aplicaciones, ficheros y bases de datos informáticas, notas, borradores, opiniones, resúmenes e informes internos sin valor resolutorio"
+    ],
+    "correcta": 3,
+    "explicacion": "El art. 70.4 LPAC excluye expresamente del expediente administrativo la información auxiliar o de apoyo (notas, borradores, opiniones, resúmenes, comunicaciones e informes internos o entre órganos) salvo que se trate de informes, preceptivos o facultativos, solicitados antes de la resolución administrativa.",
+    "referencia": "Art. 70.4 LPAC (Ley 39/2015)"
+  },
+  {
+    "pregunta": "Según el artículo 16.5 de la Ley 39/2015 (LPAC), ¿qué debe hacerse con los documentos presentados de manera presencial en papel ante una Oficina de Asistencia en Materia de Registros (OAMR)?",
+    "opciones": [
+      "Se remiten por correo postal certificado al órgano instructor sin generar asiento registral electrónico",
+      "Deben ser digitalizados por la oficina para su incorporación al expediente administrativo electrónico, devolviéndose los originales al interesado salvo cuando la norma determine su custodia o presentación de objetos no digitalizables",
+      "Se archivan siempre en papel en el expediente físico y se destruyen las copias digitales a los treinta días",
+      "Se devuelven sin digitalizar si el ciudadano no aporta previamente una copia compulsada ante notario"
+    ],
+    "correcta": 1,
+    "explicacion": "El art. 16.5 LPAC impone la digitalización en las OAMR de los documentos presentados presencialmente para incorporarlos al expediente electrónico, devolviendo los originales al interesado (salvo supuestos legales de custodia del original o elementos no susceptibles de digitalización).",
+    "referencia": "Art. 16.5 LPAC (Ley 39/2015)"
+  },
+  {
+    "pregunta": "De acuerdo con el artículo 26.2 de la Ley 39/2015 (LPAC), ¿qué requisito esencial debe cumplir un documento público administrativo electrónico para ser considerado válido?",
+    "opciones": [
+      "Estar impreso en papel timbrado de la Junta de Andalucía y sellado con tampón húmedo por el registro",
+      "Contener exclusivamente un código QR sin necesidad de firma electrónica ni metadatos mínimos",
+      "Haber sido validado previamente por un notario o secretario judicial antes de su notificación",
+      "Contener información archivada en soporte electrónico en formato determinado, disponer de los datos de identificación para su individualización, incorporar referencia temporal, incluir los metadatos mínimos exigidos e incorporar las firmas electrónicas correspondientes"
+    ],
+    "correcta": 3,
+    "explicacion": "El art. 26.2 LPAC enumera cinco requisitos acumulativos para la validez del documento electrónico administrativo: formato susceptible de identificación y tratamiento diferenciado, datos de individualización, referencia temporal, metadatos mínimos del ENI y firmas electrónicas (salvo documentos meramente informativos del art. 26.3).",
+    "referencia": "Art. 26.2 LPAC (Ley 39/2015)"
+  },
+  {
+    "pregunta": "Conforme al artículo 16.4 de la Ley 39/2015 (LPAC), ¿en cuál de los siguientes lugares NO es jurídicamente válido presentar un documento dirigido a los órganos de la Administración de la Junta de Andalucía?",
+    "opciones": [
+      "En el registro electrónico de cualquier otra Comunidad Autónoma o de la Administración General del Estado",
+      "En una empresa privada de mensajería urgente que no tenga la condición de operador del servicio postal universal",
+      "En las oficinas de Correos, en la forma que reglamentariamente se establezca",
+      "En las representaciones diplomáticas u oficinas consulares de España en el extranjero"
+    ],
+    "correcta": 1,
+    "explicacion": "El art. 16.4 LPAC reconoce la validez de la presentación en registros electrónicos de cualquier Administración pública, oficinas de Correos (en la forma reglamentaria), representaciones diplomáticas/consulares y OAMR. Una mensajería privada no produce fecha fehaciente de registro hasta su entrada efectiva en un registro administrativo.",
+    "referencia": "Art. 16.4 LPAC (Ley 39/2015)"
+  },
+  {
+    "pregunta": "Según el artículo 4.10 de la Ley 12/2007, para la promoción de la igualdad de género en Andalucía, ¿qué obligación establece en relación con el lenguaje de los documentos administrativos de la Junta de Andalucía?",
+    "opciones": [
+      "Utilizar exclusivamente el masculino genérico en resoluciones y decretos para reducir la extensión de los textos",
+      "Aplicar el lenguaje inclusivo únicamente en campañas publicitarias, quedando excluidas las disposiciones normativas",
+      "Sustituir todas las terminaciones de género gramatical por símbolos como la arroba (@) en los boletines oficiales",
+      "Garantizar un uso no sexista del lenguaje y una transmisión de imagen igualitaria, plural y no estereotipada de mujeres y hombres en todos los documentos, escritos y comunicaciones administrativas"
+    ],
+    "correcta": 3,
+    "explicacion": "La Ley 12/2007 (arts. 4.10 y 9) y la normativa andaluza de estilo administrativo obligan al uso no sexista del lenguaje en documentos, disposiciones y comunicaciones administrativas mediante recursos gramaticales correctos (nombres colectivos, abstractos, desdoblamientos cuando proceda), evitando signos agramaticales.",
+    "referencia": "Arts. 4.10 y 9 Ley 12/2007 Andalucía"
+  },
+  {
+    "pregunta": "En la gestión documental administrativa, ¿qué significa el «desglose» de un documento incorporado a un expediente?",
+    "opciones": [
+      "La división de una partida presupuestaria en varios subconceptos económicos",
+      "La separación y devolución al interesado de un documento original que obra en el expediente, dejando en su lugar una copia auténtica o diligencia acreditativa de su retirada",
+      "La destrucción física de un expediente completo tras cumplirse el plazo de prescripción",
+      "La clasificación alfabética de los expedientes resueltos en el archivo de oficina"
+    ],
+    "correcta": 1,
+    "explicacion": "El desglose consiste en retirar del expediente un documento original aportado por el interesado a petición de éste (cuando ya no sea imprescindible conservar el original), sustituyéndolo por copia auténtica/compulsada y dejando diligencia firmada en el expediente.",
+    "referencia": "Art. 27 LPAC / Decreto 204/1995 Andalucía"
+  },
+  {
+    "pregunta": "¿Qué permite verificar el Código Seguro de Verificación (CSV) incorporado a una copia en papel de un documento electrónico administrativo de la Junta de Andalucía (art. 27.3.c LPAC)?",
+    "opciones": [
+      "Únicamente la fecha de impresión del papel, sin permitir acceder al contenido del documento original",
+      "La identidad personal del ciudadano que descargó el archivo en su ordenador doméstico",
+      "La exención del pago de tasas administrativas en procedimientos de concurrencia competitiva",
+      "La integridad y autenticidad de la copia en papel mediante el cotejo con el documento electrónico original en la sede electrónica correspondiente"
+    ],
+    "correcta": 3,
+    "explicacion": "Según el art. 27.3.c) LPAC, las copias en soporte papel de documentos públicos administrativos emitidos por medios electrónicos tienen la consideración de copias auténticas cuando incluyen la impresión de un código generado electrónicamente (CSV) u otro sistema de verificación que permita contrastar su autenticidad en la sede electrónica.",
+    "referencia": "Art. 27.3.c) LPAC (Ley 39/2015)"
+  },
+  {
+    "pregunta": "Según el artículo 16.3 de la Ley 39/2015 (LPAC), ¿qué información obligatoria debe incluir el recibo acreditativo que expide automáticamente el Registro Electrónico al presentarse un documento?",
+    "opciones": [
+      "La resolución definitiva estimatoria de la solicitud presentada",
+      "El nombre completo del jefe de servicio que instruirá el expediente y la fecha exacta de resolución",
+      "Copia autenticada del escrito, solicitud o comunicación presentada, fecha y hora de presentación, número de entrada de registro y, en su caso, enumeración y huella digital de los documentos adjuntos",
+      "Únicamente el nombre de la Consejería destinataria sin fecha ni número de asiento"
+    ],
+    "correcta": 2,
+    "explicacion": "El art. 16.3 LPAC exige que el registro electrónico emita automáticamente un recibo consistente en copia autenticada del documento presentado, incluyendo fecha y hora de presentación, número de entrada y, en su caso, recibo acreditativo de otros documentos que lo acompañen que garantice su integridad y no repudio.",
+    "referencia": "Art. 16.3 LPAC (Ley 39/2015)"
+  },
+  {
+    "pregunta": "Conforme al artículo 31.2 de la Ley 39/2015 (LPAC), ¿qué ocurre a efectos de cómputo de plazos cuando un ciudadano presenta una solicitud en el Registro Electrónico General de la Junta de Andalucía en un día inhábil (por ejemplo, un domingo)?",
+    "opciones": [
+      "El registro permite la presentación los 365 días del año durante las 24 horas, pero la presentación en día inhábil se entiende realizada en la primera hora del primer día hábil siguiente, salvo que una norma permita expresamente la recepción en día inhábil",
+      "El sistema rechaza automáticamente el envío y obliga a presentarlo de nuevo el lunes en horario de oficina",
+      "Se computa como presentado el viernes anterior al mediodía",
+      "Se considera presentado fuera de plazo si el plazo vencía el lunes siguiente"
+    ],
+    "correcta": 0,
+    "explicacion": "El art. 31.2 LPAC permite presentar documentos en el registro electrónico todos los días del año durante las 24 horas; los presentados en día inhábil se reputan anteriores a los presentados el primer día hábil posterior, entendiéndose efectuada la entrada en la primera hora del primer día hábil siguiente.",
+    "referencia": "Art. 31.2 LPAC (Ley 39/2015)"
+  },
+  {
+    "pregunta": "Según el artículo 28.2 y 28.3 de la Ley 39/2015 (LPAC), ¿puede la Administración de la Junta de Andalucía exigir a un interesado que aporte copias de documentos que ya obran en poder de cualquier Administración Pública o que han sido elaborados por ésta?",
+    "opciones": [
+      "Solo están exentos de aportación los documentos emitidos en los últimos seis meses por la misma Consejería",
+      "El interesado solo puede ejercer ese derecho si paga una tasa de verificación interoperable",
+      "No; el interesado tiene derecho a no aportar documentos que ya se encuentren en poder de la Administración actuante o hayan sido elaborados por cualquier otra Administración, pudiendo ésta consultarlos o recabarlos electrónicamente salvo oposición expresa del interesado (o falta de autorización cuando una ley especial lo exija)",
+      "Sí; la Administración puede exigir siempre fotocopias compulsadas en papel del DNI y títulos académicos en cada convocatoria"
+    ],
+    "correcta": 2,
+    "explicacion": "El art. 28.2–3 LPAC consagra el principio de «solo una vez» (interoperabilidad): la Administración recabará electrónicamente los documentos ya obrantes en poder de las AAPP a través de redes corporativas/Plataforma de Intermediación, salvo oposición expresa del interesado (que entonces deberá aportarlos) o salvo procedimientos sancionadores/inspección donde la ley faculta la consulta.",
+    "referencia": "Art. 28.2 y 28.3 LPAC (Ley 39/2015)"
+  },
+  {
+    "pregunta": "En la tipología de documentos administrativos de la Junta de Andalucía, ¿qué diferencia existe entre un «oficio» y una «nota interior»?",
+    "opciones": [
+      "El oficio se utiliza para comunicaciones formales entre órganos administrativos de distintas Consejerías, otras Administraciones o entidades externas (y con ciudadanos), mientras que la nota interior se emplea para comunicaciones internas entre unidades u órganos dentro de una misma Consejería u organismo",
+      "La nota interior tiene rango de decreto reglamentario y el oficio es una resolución sancionadora",
+      "El oficio solo puede firmarse por el Presidente de la Junta y la nota interior solo por personal laboral",
+      "Ambos documentos están prohibidos desde la entrada en vigor de la Ley 39/2015"
+    ],
+    "correcta": 0,
+    "explicacion": "En la práctica y manuales de estilo administrativo de la Junta de Andalucía, el oficio es el documento de comunicación externa o interdepartamental formal, y la nota interior es la comunicación interna entre unidades dependientes de una misma Consejería u organismo.",
+    "referencia": "Documentos administrativos de la Junta de Andalucía"
+  },
+  {
+    "pregunta": "Conforme al artículo 27.2 de la Ley 39/2015 (LPAC), ¿qué validez tienen las copias auténticas expedidas por las Administraciones Públicas en todo el territorio nacional?",
+    "opciones": [
+      "Tienen valor meramente informativo y requieren legitimación notarial para surtir efectos en otra Comunidad Autónoma",
+      "Solo son válidas si se emiten exclusivamente en papel con sello seco en relieve",
+      "Tienen la misma validez y eficacia que los documentos originales y surten efectos ante cualquier Administración Pública española",
+      "Solo tienen validez ante la misma Consejería que las expidió y durante un plazo máximo de tres meses"
+    ],
+    "correcta": 2,
+    "explicacion": "El art. 27.2 LPAC establece que las copias auténticas realizadas por una Administración Pública tendrán la misma validez y eficacia que los documentos originales y serán válidas en las restantes Administraciones Públicas.",
+    "referencia": "Art. 27.2 LPAC (Ley 39/2015)"
   }
 ]

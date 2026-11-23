@@ -358,5 +358,137 @@
     "correcta": 1,
     "explicacion": "Dicha determinación («La relación de medidas de seguridad seleccionadas se formalizará en un documento denominado Declaración de Aplicabilidad, firmado por el responsable de la seguridad.») define o regula específicamente a «Cumplimiento de los requisitos mínimos (art. 28 Esquema Nacional de Seguridad)» (Art. 28 de Esquema Nacional de Seguridad).",
     "referencia": "Art. 28 de Esquema Nacional de Seguridad"
+  },
+  {
+    "pregunta": "En un sistema operativo Linux/Guadalinex, ¿qué permisos representa el modo octal 754 aplicado a un archivo o directorio mediante el comando chmod?",
+    "opciones": [
+      "Propietario, Grupo y Otros: lectura, escritura y ejecución completa sin restricciones",
+      "Propietario: lectura, escritura y ejecución (rwx); Grupo: lectura y ejecución (r-x); Otros: solo lectura (r--)",
+      "Propietario: solo lectura y escritura (rw-); Grupo: lectura, escritura y ejecución (rwx); Otros: sin permisos (---)",
+      "Propietario: lectura y ejecución (r-x); Grupo: lectura y escritura (rw-); Otros: solo ejecución (--x)"
+    ],
+    "correcta": 1,
+    "explicacion": "En permisos Unix/Linux cada dígito octal suma lectura=4 (r), escritura=2 (w) y ejecución=1 (x). Así: 7 (4+2+1) = rwx para propietario; 5 (4+1) = r-x para grupo; 4 = r-- para otros.",
+    "referencia": "Administración de sistemas Linux / Guadalinex"
+  },
+  {
+    "pregunta": "¿Cuál es la diferencia técnica principal entre una copia de seguridad incremental y una copia de seguridad diferencial?",
+    "opciones": [
+      "La diferencial es siempre más rápida de crear que la incremental, pero exige restaurar todas las cintas o archivos intermedios uno a uno",
+      "La incremental duplica íntegramente todo el disco en cada ejecución y la diferencial solo respalda el sistema operativo",
+      "La incremental solo existe en Windows y la diferencial solo está disponible en sistemas basados en Linux",
+      "La incremental copia solo los archivos modificados desde la última copia (completa o incremental), mientras que la diferencial copia todos los archivos modificados desde la última copia completa"
+    ],
+    "correcta": 3,
+    "explicacion": "La copia incremental ocupa menos espacio y es más rápida al guardar cambios desde la última copia cualquiera, pero para restaurar exige la completa más todas las incrementales en orden. La diferencial guarda todo lo modificado desde la última completa: ocupa más, pero para restaurar bastan la última completa y la última diferencial.",
+    "referencia": "Copias de seguridad y mantenimiento de sistemas / ENS RD 311/2022"
+  },
+  {
+    "pregunta": "En el Esquema Nacional de Seguridad (Real Decreto 311/2022), ¿qué cinco dimensiones de seguridad se evalúan para categorizar un sistema de información público en nivel BAJO, MEDIO o ALTO?",
+    "opciones": [
+      "Cifrado, Antivirus, Cortafuegos, Contraseña y Copia local",
+      "Confidencialidad, Integridad, Disponibilidad, Autenticidad y Trazabilidad",
+      "Rapidez, Portabilidad, Usabilidad, Escalabilidad y Gratuidad",
+      "Hardware, Software, Redes, Usuarios y Presupuesto"
+    ],
+    "correcta": 1,
+    "explicacion": "El Anexo I del ENS (RD 311/2022) establece cinco dimensiones de seguridad (C, I, D, A, T): Confidencialidad, Integridad, Disponibilidad, Autenticidad y Trazabilidad. La categoría final del sistema (Baja, Media o Alta) corresponde a la máxima valoración alcanzada en cualquiera de las dimensiones.",
+    "referencia": "Anexo I ENS (RD 311/2022)"
+  },
+  {
+    "pregunta": "En los sistemas de archivos modernos de Windows (NTFS) frente al sistema antiguo FAT32, ¿qué ventaja fundamental ofrece NTFS en puestos de trabajo administrativos?",
+    "opciones": [
+      "Es el único sistema de archivos capaz de leerse en memorias USB de menos de 2 GB",
+      "Elimina por completo la necesidad de realizar copias de seguridad periódicas",
+      "Impide que el sistema operativo Windows instale actualizaciones de seguridad automáticas",
+      "Permite listas de control de acceso (permisos ACL por usuario/grupo), registro transaccional (journaling), cifrado EFS y archivos individuales superiores a 4 GB"
+    ],
+    "correcta": 3,
+    "explicacion": "FAT32 limita el tamaño máximo de archivo a 4 GB y carece de permisos de usuario o journaling. NTFS supera el límite de 4 GB, añade permisos granulares (ACL), cifrado, compresión y recuperación ante fallos mediante diario (journaling).",
+    "referencia": "Sistemas de archivos en Windows (NTFS vs FAT32)"
+  },
+  {
+    "pregunta": "En el entorno de escritorio de Windows, ¿qué efecto produce pulsar la combinación de teclas Mayús + Supr (Shift + Delete) sobre un archivo seleccionado en el Explorador de archivos?",
+    "opciones": [
+      "Cambia el nombre del archivo añadiendo la fecha y hora actuales del sistema",
+      "Elimina el archivo de forma permanente sin enviarlo previamente a la Papelera de reciclaje (previa confirmación)",
+      "Mueve el archivo a la carpeta Documentos conservando un acceso directo en el escritorio",
+      "Comprime automáticamente el archivo en formato ZIP protegido por contraseña"
+    ],
+    "correcta": 1,
+    "explicacion": "Mientras Supr envía el archivo a la Papelera de reciclaje permitiendo su restauración directa, Mayús + Supr omite la Papelera y realiza un borrado permanente tras la ventana de confirmación.",
+    "referencia": "Explorador de archivos y gestión en Windows"
+  },
+  {
+    "pregunta": "¿Qué distingue un archivo de formato abierto ODF (.odt, .ods) utilizado en Guadalinex/LibreOffice frente a formatos propietarios cerrados en el marco del Esquema Nacional de Interoperabilidad?",
+    "opciones": [
+      "Impide que el documento pueda abrirse o editarse desde suites ofimáticas instaladas en Windows",
+      "Cifra automáticamente el texto con el certificado FNMT del autor sin necesidad de clave",
+      "No admite tablas, encabezados ni estilos de párrafo normalizados",
+      "Su especificación técnica es pública, estandarizada (ISO/IEC 26300) y libre de restricciones de licenciamiento, favoreciendo la interoperabilidad y preservación a largo plazo"
+    ],
+    "correcta": 3,
+    "explicacion": "El formato OpenDocument (ODF, norma ISO/IEC 26300) forma parte del Catálogo de Estándares del ENI (RD 4/2010), garantizando independencia tecnológica, interoperabilidad entre Administraciones y conservación documental a largo plazo.",
+    "referencia": "ENI (RD 4/2010) / Catálogo de Estándares"
+  },
+  {
+    "pregunta": "En los sistemas operativos Windows y Linux (Guadalinex), ¿cuál es la diferencia funcional entre las opciones «Suspender» e «Hibernar» del equipo?",
+    "opciones": [
+      "Ambos modos reinician el sistema operativo instalando actualizaciones del núcleo",
+      "Al suspender, el estado de la sesión se mantiene en la memoria RAM con consumo mínimo de energía (si se corta la corriente se pierde); al hibernar, el contenido de la RAM se guarda en el disco duro/SSD y el equipo se apaga completamente sin consumo eléctrico",
+      "Al hibernar se cierran todos los programas perdiendo los documentos no guardados, mientras que al suspender el equipo se apaga sin consumo",
+      "Suspender solo existe en servidores Linux y hibernar solo en teléfonos móviles"
+    ],
+    "correcta": 1,
+    "explicacion": "Suspender (Sleep) mantiene la RAM alimentada para reanudación casi instantánea, pero vulnerable a cortes de luz; Hibernar vuelca la RAM a un archivo de hibernación en disco (hiberfil.sys en Windows) y apaga totalmente el equipo, conservando la sesión intacta sin consumo.",
+    "referencia": "Gestión de energía en Sistemas Operativos (Windows / Linux)"
+  },
+  {
+    "pregunta": "En un entorno de escritorio Linux/Guadalinex, ¿qué indica la barra inclinada inicial «/» en una ruta de archivo como /home/usuario/informes/acta.odt?",
+    "opciones": [
+      "La unidad de disco C: reservada exclusivamente a memorias USB externas",
+      "Un comentario que el sistema operativo ignora al buscar el archivo",
+      "Una dirección de página web alojada en un servidor remoto de Internet",
+      "El directorio raíz del sistema de archivos único jerárquico, del que cuelgan todos los demás directorios y dispositivos montados"
+    ],
+    "correcta": 3,
+    "explicacion": "A diferencia de Windows (que usa letras de unidad como C:\\ o D:\\), Linux/Guadalinex emplea un único árbol jerárquico que parte siempre del directorio raíz «/» (donde /home aloja los directorios personales, /etc la configuración del sistema, /var los datos variables y /tmp los archivos temporales).",
+    "referencia": "Estructura de directorios en Linux / Guadalinex"
+  },
+  {
+    "pregunta": "En Windows, ¿qué utilidad integrada permite consultar los procesos en ejecución, el consumo en tiempo real de CPU, memoria RAM, disco y red, así como finalizar una aplicación bloqueada?",
+    "opciones": [
+      "El Liberador de espacio en papelera exclusivamente",
+      "El Administrador de tareas (accesible mediante Ctrl + Mayús + Esc)",
+      "El Visor de fuentes tipográficas",
+      "La Calculadora científica del sistema"
+    ],
+    "correcta": 1,
+    "explicacion": "El Administrador de tareas (Task Manager, atajo directo Ctrl + Mayús + Esc o menú de Ctrl + Alt + Supr) muestra procesos, rendimiento de CPU/RAM/disco/red, aplicaciones de inicio y servicios, permitiendo finalizar tareas bloqueadas.",
+    "referencia": "Herramientas del sistema en Windows"
+  },
+  {
+    "pregunta": "En el Esquema Nacional de Seguridad (RD 311/2022) y buenas prácticas de seguridad básica en el puesto de trabajo administrativo, ¿qué medida debe aplicarse siempre que un empleado público se ausenta temporalmente de su ordenador?",
+    "opciones": [
+      "Dejar la sesión abierta para no perder tiempo al volver y anotar la contraseña en un papel pegado al monitor",
+      "Desinstalar el antivirus antes de levantarse del puesto",
+      "Compartir el usuario y contraseña personal con el compañero de mesa por si entra un aviso",
+      "Bloquear inmediatamente la sesión del puesto (por ejemplo, con Win + L en Windows o Ctrl + Alt + L en Linux/Guadalinex) y retirar la tarjeta criptográfica/DNIe del lector"
+    ],
+    "correcta": 3,
+    "explicacion": "El principio de puesto despejado y bloqueo de pantalla (ENS, medida mp.eq.2) obliga a bloquear la sesión ante cualquier ausencia y retirar los dispositivos de firma/identificación personal, estando estrictamente prohibido compartir credenciales personales.",
+    "referencia": "ENS (RD 311/2022) / Seguridad en el puesto de trabajo"
+  },
+  {
+    "pregunta": "En la búsqueda de archivos dentro del Explorador de Windows o en la línea de comandos, ¿qué comodín representa «cero o más caracteres cualesquiera» y cuál representa «exactamente un único carácter»?",
+    "opciones": [
+      "Los sistemas operativos modernos no admiten comodines en búsquedas de archivos",
+      "El asterisco (*) representa cero o más caracteres cualesquiera y el signo de interrogación (?) representa exactamente un único carácter",
+      "El signo de interrogación (?) representa cualquier cadena larga y el asterisco (*) solo representa números del 0 al 9",
+      "La almohadilla (#) representa todos los archivos y la arroba (@) solo carpetas vacías"
+    ],
+    "correcta": 1,
+    "explicacion": "Tanto en Windows como en Linux/shell: * sustituye cualquier secuencia de cero o más caracteres (p. ej. informe_202*.pdf) y ? sustituye exactamente un único carácter (p. ej. acta_0?.odt).",
+    "referencia": "Gestión de ficheros y búsquedas en Sistemas Operativos"
   }
 ]
